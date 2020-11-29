@@ -6,7 +6,7 @@ Author's website for the book: [http://www.knking.com/books/c2/](http://www.knki
 ## Basic Features of C
 ### 1    INTRODUCING C
 #### 1.1 History of C
-    Origins
+Origins
     Standardization
     C Based Languages
 ## Advanced Features of C
