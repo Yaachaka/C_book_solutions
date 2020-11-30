@@ -298,7 +298,7 @@ Author's website for the book: [http://www.knking.com/books/c2/](http://www.knki
 ||Sharing Variable Declarations|355(380)|
 ||Nested Includes|357(382)|
 ||Protecting Header Files|357(382)|
-||_#error Directives in Header Files|358(383)|
+||_#error_ Directives in Header Files|358(383)|
 |**15.3**|**Dividing a Program into Files**|**359(384)**|
 ||Program: Text Formatting|359(384)|
 |**15.4**|**Building a Multiple-File Program**|**366(391)**|
@@ -625,6 +625,7 @@ Author's website for the book: [http://www.knking.com/books/c2/](http://www.knki
 ||Environment Functions|730(755)|
 
 ## Reference
+||||
 |---|---|---|
 |**Appendix A**|**C Operators**|**735(760)**|
 |**Appendix B**|**C99 versus C89**|**737(762)**|
