@@ -1,0 +1,13 @@
+==========================================================================
+--Exercise 5 (Section 2.7): knkcch02e05: Which of the following are not legal C 
+idntifiers?
+(a) 100_bottles
+(b) _100_bottles
+(c) one_hundred_bottles
+(d) bottles_by_the_hundred_
+==========================================================================
+SOLUTION:
+--Option (a) 100_bottles is not a legal C identifier. It starts with a digit.
+==========================================================================
+PROGRAM:
+==========================================================================
