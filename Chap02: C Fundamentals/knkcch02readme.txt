@@ -78,7 +78,7 @@ with a 10-meter radius, using the formula v=4/3πr³. Write the fraction 4/3 as
 4.0f/3.0f. (Try writing it as 4/3. What happens?) Hint: C doesn't have an 
 exponentiation operator, so you will need to multiply r by itself twice.
 
---Project 3: knkcch02proj03: Modifying the program of Programming Project 2 so 
+--Project 3: knkcch02proj03: Modify the program of Programming Project 2 so 
 that it prompts the user to enter the radius of the sphere.
 
 --Project 4: knkcch02proj04: Write a program that asks the user to enter a 
@@ -95,7 +95,7 @@ cubed).
 
 --Project 6: knkcch02proj06: Modify the program of Programming Project 5 so that 
 the polynomial is evaluated using the following formula:
-((((3x+2)x-5)x-1)x-6)
+((((3x+2)x-5)x-1)x+7)x-6
 Note that the modified program performs fewer multiplications. This technique for
 evaluating polynomials is known as Horner's Rule.
 
