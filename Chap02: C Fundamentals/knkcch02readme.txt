@@ -31,8 +31,8 @@ go away?
 last printf.
 
 --Exercise 4 (Section 2.4): knkcch02e04: Write a program that declares several 
-int and floatvariables-without initializing them-and then prints their values. Is 
-there any pattern to the values? (Usually there isn't).
+int and float variables-without initializing them-and then prints their values. 
+Is there any pattern to the values? (Usually there isn't).
 
 --Exercise 5 (Section 2.7): knkcch02e05: Which of the following are not legal C 
 idntifiers?
