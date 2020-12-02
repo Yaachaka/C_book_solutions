@@ -19,15 +19,15 @@ go away?
 	{
 		printf("Parkinson's Law:\nWork expands so as to ");
 		printf("fill the time\n");
-		printf(available for its completion.\n);
-		retrun 0;
+		printf("available for its completion.\n");
+		return 0;
 	}
 (a) Identify the directives and statements in this program.
 (b) What output does the program produce?
 
 --Exercise 3 (Section 2.4): knkcch02e03: Condense the dweight.c program by 
-(1) replacing theassignment to height, length, and width with initializers and 
-(2) removing theweight variable, instead calculating (volume+165)/166 within the 
+(1) replacing the assignment to height, length, and width with initializers and 
+(2) removing the weight variable, instead calculating (volume+165)/166 within the 
 last printf.
 
 --Exercise 4 (Section 2.4): knkcch02e04: Write a program that declares several 
