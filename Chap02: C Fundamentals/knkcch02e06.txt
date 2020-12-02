@@ -1,0 +1,11 @@
+===========================================================================
+--Exercise 6 (Section 2.7): knkcch02e06: Why is it not a good idea for an 
+identifier to contain more than one adjacent underscore (as in current___balance, 
+for example)?
+===========================================================================
+SOLUTION:
+--Two adjacent underscores are reserved for standard names of the language.
+--Moreover, more than one adjacent underscore in an identifier is hard to read.
+Hard to know no. of underscores.  
+===========================================================================
+===========================================================================
