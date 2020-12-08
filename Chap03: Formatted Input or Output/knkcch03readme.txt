@@ -92,7 +92,7 @@ form xxx.xxx.xxxx:
 	Enter phone number [(xxx) xxx-xxxx]: (404) 817-6900
 	You enetered 404.817.6900
 
---Project 5: knkcch03proj05.c: Wriet a program that asks user to enter the 
+--Project 5: knkcch03proj05.c: Write a program that asks user to enter the 
 numbers from 1 to 16 (in any order) and then displays the numbers in a 4 by 4 
 arrangement, followed by the sums of the rows, columns and diagonals:
 	Enter the numbers from 1 to 16 in any order:
@@ -109,7 +109,8 @@ example), the numbers are said to form a magic square. The magic square shown
 here appears in 1514 engraving by artist and Mathematician Abbrecht Dürer. 
 (Note that the middle numbers in the last row give the date of the engraving.))
 
---Project 6: knkcch03proj06.c: Modify the addfrac.c program of Section 3.2 so that the user enters both fractions at the same time, separated by a plus sign:
+--Project 6: knkcch03proj06.c: Modify the addfrac.c program of Section 3.2 so 
+that the user enters both fractions at the same time, separated by a plus sign:
 	Enter two fractions separated by a plus sign: 5/6+3/4
 	The sum is 38/24
 ===========================================================================
