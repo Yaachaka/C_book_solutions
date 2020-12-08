@@ -1,3 +1,4 @@
+Chap03: Formatted Input/Output
 ===========================================================================
 EXERCISES
 
@@ -20,14 +21,14 @@ after the decimal point.
 the decimal point.
 
 --Exercise 3 (Section 3.2): knkcch03e03.c: For each of the following pairs of 
-scaf format strings, indicate whether or not the two strigs are equivalet. If 
+scanf format strings, indicate whether or not the two strigs are equivalet. If 
 they're not, show how they can be distiguished.
 (a) "%d"        versus  " %d"
 (b) "%d-%d-%d"  versus  "%d -%d -%d"
 (c) "%f"        versus  "%f "
 (d) "%f,%f"     versus  "%f, %f"
 
---Exercise 4 (Section 3.2): knkcch03e04.c: Suppose that we call scaf as follows:
+--Exercise 4 (Section 3.2): knkcch03e04.c: Suppose that we call scanf as follows:
 	scanf("%d%f%d",&i,&x,&j);
 If the user enters,
 	10.3 5 6
