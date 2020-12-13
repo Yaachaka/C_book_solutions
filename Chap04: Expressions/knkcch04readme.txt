@@ -4,7 +4,7 @@ EXERCISES
 --Exercise 1 (Section 4.1): knkcch04e01: Show the output produced by each of the 
 following program fragments. Assume that i,j, and k are int variables.
 (a) i=5;j=3;
-    printf("%d %d",i/j.i%j);
+    printf("%d %d",i/j,i%j);
 (b) i=2;j=3;
     printf("%d",(i+10)%j);
 (c) i=7;j=8;k=9;
@@ -13,14 +13,14 @@ following program fragments. Assume that i,j, and k are int variables.
     printf("%d",(i+5)%(j+2)/k);
 
 --Exercise 2 (Section 4.1): knkcch04e02: If i and j are positive integers, does 
-(-i)/j always the same value as -(i/j)? Justify your answer.
+(-i)/j always have the same value as -(i/j)? Justify your answer.
 
 --Exercise 3 (Section 4.1): knkcch04e03: What is the value of each of the 
-following expressions in C89? (Give all possible values if an expression may have 
-more than one value.)
+following expressions in C89? (Give all possible values, if an expression may 
+have more than one value.)
 (a) 8/5
 (b) -8/5
-(c) 8/5
+(c) 8/-5
 (d) -8/-5
 
 --Exercise 4 (Section 4.1): knkcch04e04: Repeat Exercise 3 for C99.
@@ -56,7 +56,7 @@ following program fagments. Assume that i, j and k are int variables.
 (b) i=j=k=1;
     i+=j+=k;
     printf("%d %d %d",i,j,k);
-(c) i=j; j=2; k=3;
+(c) i=1; j=2; k=3;
     i-=j-=k;
     printf("%d %d %d",i,j,k);
 (d) i=2;j=1;k=0;
@@ -121,6 +121,10 @@ compiler would interpret each of the following expressions.
 --Exercise 15 (Section 4.5): knkcch04e15: Give the values of i and j after each 
 of the following expression statements has been executed. (Assume that i has the 
 value 1 initially and j has the value 2.)
+(a) i+=j;
+(b) i--;
+(c) i*j/i;
+(d) i% ++j;
 ==========================================================================
 PROGRAMMING PROJECTS
 
