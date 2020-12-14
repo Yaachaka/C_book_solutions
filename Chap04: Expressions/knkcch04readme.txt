@@ -148,7 +148,7 @@ the number int digits. Hint: See the upc.c program of Section 4.1.
 user and display it in octal (Base 8):
 	Enter a number between 0 and 32767: 1953
 	In Octal, your number is: 03641
-The output should be displayed using 5 digits. Even if fewer digits are 
+The output should be displayed using 5 digits, even if fewer digits are 
 sufficient. Hint: To convert the number to octal, first divide it by 8; the 
 remainder is the last digit of the octal number (1, in this case). Then divide 
 the original number by 8 and repeat the process to arrive at the last digit. 
