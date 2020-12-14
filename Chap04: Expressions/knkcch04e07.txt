@@ -1,0 +1,78 @@
+==========================================================================
+--Exercise 7 (Section 4.1): knkcch04e07: The algorithm for computing the UPC 
+check digit ends with the following steps:
+- Subtract 1 from the total.
+- Compute the remainder when the adjusted total is divided by 10.
+- Subtract the remainder from 9.
+It's tempting to try to simplify the algorithm by using these steps instead:
+- Compute the remainder when the total is divided by 10.
+- Subtract the remainder from 10.
+Why doesn't this technique work?
+==========================================================================
+SOLUTION:
+-- As mentioned in the exercise statement the technique 2 does not work.
+-- The value of total remains same for both techniques.
+-- The check digits calculated using both the techniques remain same except when
+the value of total is exactly divisible by 10.
+-- On using technique 2, if the total value is exactly divisible by 10, the check 
+digit will be 10 which is in two digit form and not a UPC standard. Usually the 
+check digit will lies between 0 and 9.
+-- Notice the difference in PROGRAM OUTPUT. 
+==========================================================================
+PROGRAM: (FLAGS: -std=c99) knkcch04e07.c
+#include<stdio.h>
+//------------------------START OF MAIN()--------------------------------------
+int main(void)
+{
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	
+	int d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,cd,cd1,cd2,total;
+	    //d1 to d11 holds the first 11 digits of UPC code
+	    //cd holds the 12th digit i.e., check digit of the UPC code
+	    //cd1 holds the check digit calculated using technique 1
+	    //cd2 holds the check digit calculated using technique 2
+	    //total=3*(d1+d3+d5+d7+d9+d11)+(d2+d4+d6+d8+d10)
+	
+	//Getting UPC from user
+	printf("Enter UPC(Universal Product Code) (format: x xxxxx xxxxx x): ");
+	scanf("%1d %1d%1d%1d%1d%1d %1d%1d%1d%1d%1d %1d",&d1,&d2,&d3,&d4,&d5,&d6,&d7,&d8,&d9,&d10,&d11,&cd);
+	
+	//Calculations
+	total=3*(d1+d3+d5+d7+d9+d11)+(d2+d4+d6+d8+d10);
+	//finding check digit using technique 1
+	cd1=9-(total-1)%10;
+	//finding check digit using technique 2
+	cd2=10-total%10;
+	
+	//Printing Check codes
+	printf("\nTotal = %d",total);
+	printf("\nUser entered check digit: %d",cd);
+	printf("\nCheck digit calculated using technique 1: %d",cd1);
+	printf("\nCheck digit calculated using technique 2: %d",cd2);
+	
+	printf("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	return 0;
+}
+//-------------------------END OF MAIN()---------------------------------------
+//-----------------------------------------------------------------------------
+==========================================================================
+PROGRAM OUTPUT:
+-- Trial 1:
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enter UPC(Universal Product Code) (format: x xxxxx xxxxx x): 0 51500 24128 8
+
+Total = 52
+User entered check digit: 8
+Check digit calculated using technique 1: 8
+Check digit calculated using technique 2: 8
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-- Trial 2:
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enter UPC(Universal Product Code) (format: x xxxxx xxxxx x): 0 51500 24108 0
+
+Total = 50
+User entered check digit: 0
+Check digit calculated using technique 1: 0
+Check digit calculated using technique 2: 10
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================
