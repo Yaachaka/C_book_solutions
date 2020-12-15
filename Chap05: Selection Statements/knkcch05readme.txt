@@ -19,7 +19,7 @@ logical operators. Show the output produced by it, assuming that i, j, and k are
 int variables.
 (a) i=1;j=5;
     printf("%d",!i<j);
-(b) i=2;j=;
+(b) i=2;j=1;
     printf("%d",!!i+!j);
 (c) i=5;j=0;k=-5;
     printf("%d",i && j || k);
@@ -27,7 +27,7 @@ int variables.
     prinrf("%d", i<j||k);
 
 --Exercise 3 (Section 5.1): knkcch05e03: The following program fragments 
-illustrate the shirt-circuit behaviour of logical expression. Show the output 
+illustrate the short-circuit behaviour of logical expression. Show the output 
 produced by each, assuming that i, j, and k are int variables.
 (a) i=8;j=4;k=5;
     printf("%d ",i < j || ++j < k);
@@ -110,7 +110,7 @@ Write a switch statement whose controlling expression is the variable area-code.
 If the vlaue of area-code is in the table, the switch statement will print the 
 corresponding city name. Otherwise, the switch statement will display the message 
 "Area code not recognized.". Use the technique discussed in Section 5.3 to make 
-the switch statement as simple as poissible.
+the switch statement as simple as possible.
 
 ===========================================================================
 PROGRAMMING PROJECTS
