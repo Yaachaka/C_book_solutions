@@ -19,7 +19,7 @@ logical operators. Show the output produced by it, assuming that i, j, and k are
 int variables.
 (a) i=1;j=5;
     printf("%d",!i<j);
-(b) i=2;j=;
+(b) i=2;j=1;
     printf("%d",!!i+!j);
 (c) i=5;j=0;k=-5;
     printf("%d",i && j || k);
@@ -27,7 +27,7 @@ int variables.
     prinrf("%d", i<j||k);
 
 --Exercise 3 (Section 5.1): knkcch05e03: The following program fragments 
-illustrate the shirt-circuit behaviour of logical expression. Show the output 
+illustrate the short-circuit behaviour of logical expression. Show the output 
 produced by each, assuming that i, j, and k are int variables.
 (a) i=8;j=4;k=5;
     printf("%d ",i < j || ++j < k);
@@ -110,7 +110,7 @@ Write a switch statement whose controlling expression is the variable area-code.
 If the vlaue of area-code is in the table, the switch statement will print the 
 corresponding city name. Otherwise, the switch statement will display the message 
 "Area code not recognized.". Use the technique discussed in Section 5.3 to make 
-the switch statement as simple as poissible.
+the switch statement as simple as possible.
 
 ===========================================================================
 PROGRAMMING PROJECTS
@@ -124,7 +124,7 @@ statements to test the number. For example, if the number is between 0 and 9, it
 has one digit. If the number is between 10 and 99, it has two digits.
 
 --Project 2: knkcch05proj02: Write a program that asks the user for a 24-hour 
-time, then isplays the time in 12-hour form:
+time, then displays the time in 12-hour form:
 	Enter a 24-hour time: 21:11
 	Equivalent 12-hour time: 9:11 PM
 Be careful not to display 12:00 as 0:00.
@@ -153,7 +153,7 @@ displays the corresponding description.
 --Project 5: knkcch05proj05: In one state, single residents are subject to the 
 following income tax:
 Income                    Amount of tax
-Net over $750             1% of income
+Not over $750             1% of income
 $750 - $2,250             $7.50 plus 2% of amount over $750
 $2,250 - $3,750           $37.50 plus 3% of amount over $2,250
 $3,750 - $5,250           $82.50 plus 4% of amount over $3,750
