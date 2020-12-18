@@ -1,0 +1,45 @@
+==========================================================================
+@@@@ Exercise 5 (Section 6.3): knkcch06e05: Which one of the following statements 
+is not equivalent to the other two (assuming that the loop bodies are the same)?
+(a) while(i<10) {...}
+(b) for(;i<10;) {...}
+(c) do {...}while(i<10);
+==========================================================================
+SOLUTION:
+@@@@ All the options produce the same output.
+@@@@ But there is one difference. The loop condition is checked before entering the body 
+in option (a) and (b), while in option (c), the condition is checked after executing the body
+on each iteration.
+@@@@ Check PROGRAM OUTPUT.
+==========================================================================
+PROGRAM: (FLAGS: -std=c99): knkcch06e05.c
+#include<stdio.h>
+//------------------------START OF MAIN()--------------------------------------
+int main(void)
+{
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	
+	int i=0;
+	
+	printf("(a) while(i<10) {...}: ");
+	while(i<10){printf("%d ",i++);}
+	i=0;
+	printf("\n(b) for(;i<10;) {...}: ");
+	for(;i<10;){printf("%d ",i++);}
+	i=0;
+	printf("\n(c) do {...}while(i<10);: ");
+	do{printf("%d ",i++);}while(i<10);
+	
+	printf("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	return 0;
+}
+//-------------------------END OF MAIN()---------------------------------------
+//---------------------------------------------------------------------------
+==========================================================================
+PROGRAM OUTPUT:
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+(a) while(i<10) {...}: 0 1 2 3 4 5 6 7 8 9
+(b) for(;i<10;) {...}: 0 1 2 3 4 5 6 7 8 9
+(c) do {...}while(i<10);: 0 1 2 3 4 5 6 7 8 9
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================
