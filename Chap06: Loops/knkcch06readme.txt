@@ -23,7 +23,7 @@ statement produce?
 	for(i=5,j=i-1;i>0,j>0;--i,j=i-1)
 		printf("%d ",i);
 
-@@@@ Exercise 4 (Section 6.3): knkcch06e04: Whcih one of the following statements 
+@@@@ Exercise 4 (Section 6.3): knkcch06e04: Which one of the following statements 
 is not equivalent to the other two (assuming that the loop bodies are the same)?
 (a) for(i=0;i<10;i++) ...
 (b) for(i=0;i<10;++i) ...
@@ -88,7 +88,7 @@ PROGRAMMING PROJECTS
 
 @@@@ Project 1: knkcch06proj01: Write a program that finds the largest in a series 
 of numbers entered by the user. The program must prompt the user to enter 
-numbers one by one. When the user enters 0 as a negative number, the program 
+numbers one by one. When the user enters 0 or a negative number, the program 
 must display the largest non-negative number entered:
 	Enter a number: 60
 	Enter a number: 38.3
@@ -144,7 +144,7 @@ enters 100, the program should print the following:
 	64
 	100
 
-@@@@ Project 7: knkcch06proj07: Rearranging the square3.c program so that the for 
+@@@@ Project 7: knkcch06proj07: Rearrange the square3.c program so that the for 
 loop initializes i, and increments i. Don't rewrite the program: in particular, 
 don't use any multiplications.
 
@@ -186,7 +186,7 @@ Write a program that approximates e by computing the value of
 1+1/1!+1/2!+1/3!+ ... +1/n!
 where n is an integer entered by the user.
 
-@@@@ Project 12: knkcch06proj12: Modify Programming Project 1 so that the program 
-continues adding terms until the current term becomes less than epsilon, where 
-epsilon is a small (floating-point) number entered by the user.
+@@@@ Project 12: knkcch06proj12: Modify Programming Project 11 so that the program 
+continues adding terms until the current term becomes less than ε, where 
+ε is a small (floating-point) number entered by the user.
 ==========================================================================
