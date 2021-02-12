@@ -1,0 +1,17 @@
+==========================================================================
+@@@@ Exercise 12 (Section 7.5): knkcch07e12: Suppose that i is a variable of type 
+int, f is a variable of type float, and d is a variable of type double. Explain 
+what conversions take place during the execution of the following statement:
+	d=i+f;
+==========================================================================
+SOLUTION:
+@@@@ On RHS of the expression, int + float results in float. Since LHS is double, the 
+values obtained on RHS which is currently of type float is converted to (implicitly) 
+double and assigned to LHS.
+==========================================================================
+PROGRAM: (FLAGS: -std=c99): knkcch07e12.c
+@@@@ NA
+==========================================================================
+PROGRAM OUTPUT:
+@@@@ NA
+==========================================================================

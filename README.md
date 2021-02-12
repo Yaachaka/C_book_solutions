@@ -632,6 +632,7 @@ Author's website for the book: [http://www.knking.com/books/c2/](http://www.knki
 ||Environment Functions|730(755)|
 
 ## Reference
+||||
 |---|---|---|
 |**Appendix A**|**C Operators**|**735(760)**|
 |**Appendix B**|**C99 versus C89**|**737(762)**|
