@@ -49,7 +49,7 @@ array named temperature_readings that stores one month of hourly temperature rea
 (For simplicity. assume that a month has 30 days.) The rows of the array should represent 
 days of the month; the columns should represent hours of the day.
 
-@@@@ Exercise 9 (Section 8.2): knkcch08e09: Using the array of Exercise 8. write a program 
+@@@@ Exercise 9 (Section 8.2): knkcch08e09: Using the array of Exercise 8, write a program 
 fragment that computes the average temperature for a month (averaged over all days of 
 the month and all hours of the day).
 
@@ -112,13 +112,13 @@ the balance should still be shown at annual intervals.
 @@@@ Project 6:knkcch08proj06: The prototypical Internet newbie is a fellow named BIFF, 
 who has a unique way of Writing messages. Here’s a typical BIFF communiqué:
 
-	H3Y DUD3, C 15 R1LLY COOL!!!!!!!!!!
+	H3Y DUD3, C 15 R1LLY C00L!!!!!!!!!!
 
 Write a “BIFF filter” that reads a message entered by the user and translates it into 
 BIFF-speak:
 
 	Enter message: Hey dude, C is rilly cool
-	In BIFF-speak: H3Y DUD3, C 15 RILLY COOL!!!!!!!!!!
+	In BIFF-speak: H3Y DUD3, C 15 RILLY C00L!!!!!!!!!!
 
 Your program should convert the message to upper-case letters, substitute digits for 
 certain letters (A→4, B→8, E→3, I→1, O→0, S→5), and then append 10 or so exclamation 
@@ -220,7 +220,7 @@ characters until it can be printed. You may assume that the last name is no more
 Hint: Use a loop to read the characters one by one and store them in a one-dimensional
 char array. Have the loop stop at a period, question mark, or exclamation point (the 
 “terminating character”), which is saved in a separate char variable. Then use a second 
-loop to scarch backward through the array for the beginning of the last word. Print the 
+loop to search backward through the array for the beginning of the last word. Print the 
 last word, then search backward for the next-to-last word. Repeat until the beginning of 
 the array is reached. Finally, print the terminating character.
 
@@ -244,11 +244,11 @@ Notice that the program can decrypt a message if the user enters 26 minus the or
 	Enter shift amount (1-25): 23
 	Encrypted message: Go ahead, make my day.
 
-You may assume that the message does not excecd 80 characters. Characters other than 
+You may assume that the message does not exceed 80 characters. Characters other than 
 letters should be left unchanged. Lower-case letters remain lower-case when encrypted, 
 and upper-case letters remain upper-case. Hint: To handle the wrap-around problem, use the
-expression ((ch - 'A') +n) % 26+ 'A' tocalculate the encrypted version of an upper-case 
-letter, where ch stores the letter and n stores the shift amount. (Youll need a similar
+expression ((ch - 'A') +n) % 26+ 'A' to calculate the encrypted version of an upper-case 
+letter, where ch stores the letter and n stores the shift amount. (You'll need a similar
 expression for lower-case letters.)
 
 @@@@ Project 16:knkcch08proj16: Write a program that tests whether two words are 
@@ -270,7 +270,7 @@ one e, one m, one r, two s’s and two t’s.) Use another loop to read the seco
 except this time decrementing the corresponding array element as each letter is read. 
 Both loops should ignore any characters that aren't letters, and both should treat 
 upper-case letters in the same way as lower-case letters. After the second word has 
-been read, use a third loop to check whether all the clements in the array are zero. 
+been read, use a third loop to check whether all the elements in the array are zero. 
 If so, the words are anagrams. Hint: You may wish to use functions from <ctype.h>, 
 such as isalpha and tolower.
 
