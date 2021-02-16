@@ -13,7 +13,7 @@ area of a triangle, contains two errors. Locate the errors and show how to fix t
 		return product / 2;
 	}
 
-@@@@ Exercise 2 (Section 9.1): knkcch09e02: Write a function check (x, y, n) that returns 
+@@@@ Exercise 2 (Section 9.1): knkcch09e02: Write a function check(x, y, n) that returns 
 1 if both x and y fall between 0 and n - 1, inclusive. The function should return 0 
 otherwise. Assume that x, y, and n are all of type int.
 
@@ -30,10 +30,10 @@ the number of digits in n (a positive integer), Hint: To determine the number of
 in a number n, divide it by 10 repeatedly. When n reaches 0, the number of divisions 
 indicates how many digits n originally had.
 
-@@@@ Exercise 6 (Section 9.1): knkcch09e06: Write a function digit (n, k) that returns the 
-k-th digit (from the right) in n (a posilive integer). For example, digit (829, 1) returns 9, digit (829, 2) returns 2. and
-digit (829, 3) returns 8, If k is greater than the number of digits in n, have the func-
-tion return 0.
+@@@@ Exercise 6 (Section 9.1): knkcch09e06: Write a function digit(n, k) that returns the 
+k-th digit (from the right) in n (a posilive integer). For example, digit (829, 1) returns 9, 
+digit (829, 2) returns 2, and digit (829, 3) returns 8. If k is greater than the number of 
+digits in n, have the function return 0.
 
 @@@@ Exercise 7 (Section 9.1): knkcch09e07: Suppose that the function f has the following 
 definition:
@@ -58,7 +58,7 @@ for a function that returns nothing and has one double parameter?
 	#include <stdio.h>
 	void swap(int a, int b);
 	
-	int main(voiad)
+	int main(void)
 	{
 		int i=1, j = 2;
 		
@@ -88,8 +88,8 @@ case); n is the length of the array. The function should return the average of t
 (assume that A=4,B=3,C=2,D=1, and F=0).
 
 @@@@ Exercise 12 (Section 9.3): knkcch09e12: Write the following function:
-	double inner_product (double a[], double b[], int n);
-The function should return a0] * b({0] +a[1] *b[1] +...+a[n-1] * b[n-1].
+	double inner_product(double a[], double b[], int n);
+The function should return a[0]*b[0] +a[1]*b[1] +...+ a[n-1]*b[n-1].
 
 @@@@ Exercise 13 (Section 9.3): knkcch09e13: Write the following function, which evaluates 
 a chess position:
@@ -97,7 +97,7 @@ a chess position:
 board represents a configuration of pieces on a chessboard, where the letters K, Q, R, B, N,
 P represent White pieces, and the letters k, q, r, b, n, and p represent Black pieces.
 evaluate_position should sum the values of the White pieces (Q = 9, R =5, B = 3,
-N= 3, P=1). It should also sum the values of the Black pieces (done in a similar way). The
+N = 3, P=1). It should also sum the values of the Black pieces (done in a similar way). The
 function will return the difference between the two numbers. This value will be positive if
 White has an advantage in material and negative if Black has an advantage.
 
@@ -122,7 +122,7 @@ statement.
 	{
 		if (x <= y)
 			1f(y <= z) return y;
-			else if (x <= z) return 2z;
+			else if (x <= z) return z;
 			else return x;
 		1f (z <= y) return y;
 		if (x <= z) return x;
@@ -132,7 +132,7 @@ statement.
 @@@@ Exercise 16 (Section 9.6): knkcch09e16: Condense the fact function in the same way 
 we condensed power.
 
-@@@@ Exercise 17 (Section 9.6): knkcch09e17: Rewrite the act function so that it’s no 
+@@@@ Exercise 17 (Section 9.6): knkcch09e17: Rewrite the fact function so that it’s no 
 longer recursive.
 
 @@@@ Exercise 18 (Section 9.6): knkcch09e18: Write a recursive version of the gcd function 
@@ -157,7 +157,7 @@ PROGRAMMING PROJECTS
 
 @@@@ Project 1: knkcch09proj01: Write a program that asks the user to enter a series of 
 integers (which it stores in an array), then sorts the integers by calling the function 
-selection _sort. When given an array with n elements. selection_sort must do the following:
+selection_sort. When given an array with n elements, selection_sort must do the following:
 
 1. Search the array to find the largest element, then move it to the last position in 
 the array.
@@ -186,7 +186,7 @@ includes the following functions:
 
 main will call read_word twice, once for each of the two words entered by the user. As it
 reads a word. read_word will use the letters in the word to update the counts array, as
-described in the original project. (main will declare two arrays, one for cach word. These
+described in the original project. (main will declare two arrays, one for each word. These
 arrays are used to track how many lines each letter occurs in the words.) main will then
 call equal_array, passing it the two arrays. equal_array will return true if the elements 
 in the two arrays are identical (indicating that the words are anagrams) and false 
@@ -210,15 +210,15 @@ the array in main to be 99 x 99 instead of nxn and use the following prototypes 
 
 @@@@ Project 6: knkcch09proj06: Write a function that computes the value of the 
 following polynomial:
-	3x⁵+2x⁴-5x⁳-x⁲+7x-6
+	3x⁵+2x⁴-5x³-x²+7x-6
 Write a program that asks the user to enter a value for x, calls the function to compute the
 value of the polynomial, and then displays the value returned by the function.
 
 @@@@ Project 7: knkcch09proj07: The power function of Section 9.6 can be made faster by 
 having it calculate xⁿ in a different way. We first notice that if n is a power of 2, 
-then xⁿ can be computed by squaring. For example, x⁴ is the square of x⁲, so x⁴ can be 
+then xⁿ can be computed by squaring. For example, x⁴ is the square of x^2, so x⁴ can be 
 computed using only two multiplications instead of three. As it happens, this technique 
-can be used even when n is not a power of 2. If n is even, we use the formula xⁿ=(xⁿ⸍⁲)⁲. 
+can be used even when n is not a power of 2. If n is even, we use the formula xⁿ=(x^(n/2))^2. 
 If n is odd, then xⁿ=x×xⁿ⁻¹. Write a recursive function that computes xⁿ. (The recursion 
 ends when n = 0, in which case the function returns 1.) To test your function, write a 
 program that asks the user to enter values for x and n, calls power to compute xⁿ, and 
@@ -258,7 +258,7 @@ You win!
 Play again? n
 Wins: 2 Losses: 1
 
-Write your program as three functions: main, roll_dice. and play_game. Here are
+Write your program as three functions: main, roll_dice and play_game. Here are
 the prototypes for the latter two functions:
 
 	int roll_dice(void) ;
