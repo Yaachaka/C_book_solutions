@@ -70,7 +70,7 @@ function (main). How many different variables named i could this program contain
 ================================================================================
 PROGRAMMING PROJECTS
 
-@@@@ Project 1: knkcch10proj01: Modity the stack example of Section 10.2 so that it 
+@@@@ Project 1: knkcch10proj01: Modify the stack example of Section 10.2 so that it 
 stores characters instead of integers. Next, add a main function that asks the user to 
 enter a series of parentheses and/or braces, then indicates whether or not they’re 
 properly nested:
@@ -88,7 +88,7 @@ stack_overflow is called, have the program print the message Stack overflow and 
 immediately.
 
 @@@@ Project 2: knkcch10proj02: Modify the poker.c program of Section 10.5 by moving 
-the num_in_rank and num_in_ suit arrays into main, which will pass them as arguments 
+the num_in_rank and num_in_suit arrays into main, which will pass them as arguments 
 to read_cards and analyze_hand.
 
 @@@@ Project 3: knkcch10proj03: Remove the num_in_rank, num_in_suit, and card_exists 
@@ -151,7 +151,7 @@ which stores data representing the correspondence between digits and segments. T
 array, digits, will be an array of characters with 4 rows (since each segmented digit is 
 four characters high) and MAX_DIGITS * 4 columns (digits are three characters wide, but 
 a space is needed between digits for readability). Write your program as four functions: 
-main, clear_digits_array, process_digit. and print_digits_array. Here are the prototypes 
+main, clear_digits_array, process_digit, and print_digits_array. Here are the prototypes 
 for the latter three functions:
 
 	void clear_digits_array (void);

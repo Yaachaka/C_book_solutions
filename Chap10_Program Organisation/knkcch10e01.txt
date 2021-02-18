@@ -1,0 +1,56 @@
+==========================================================================
+@@@@ Exercise 1 (Section 10.4): knkcch10e01: The following program outline shows only 
+function definitions and variable declarations.
+
+	int a;
+	
+	void f(int b)
+	{
+		int c;
+	}
+	
+	void g(void)
+	{
+		int d;
+		{
+			int e;
+		}
+	}
+	
+	int main(void)
+	{
+		int f;
+	}
+
+For each of the following scopes, list all variable and parameter names visible in that 
+scope:
+(a) The f function
+(b) The g function
+(c) The block in which e is declared
+(d) The main function
+==========================================================================
+SOLUTION:
+@@@@ (a) The f function
+===> The parameter b is visible to the whole function.
+===> The global(or external) variable a is visible to the whole function.
+===> The variable c declared inside the function is visible to the whole function.
+@@@@ (b) The g function
+===> The global variable a is visible to the whole function.
+===> The function is visible to the whole function.
+===> The variable d is visible to the whole function.
+===> The variable e is visible to the inner block of the function where in it is 
+declared.
+@@@@ (c) The block in which e is declared.
+===> To the block in which e is declared, the global variable a, any variable or 
+function declared before the block inside the function f, the variable d declared 
+in the function g and the variable declared in the block are visible to the block.
+@@@@ (d) The main function
+===> The global variable a, the function f, function g and the variable f declared 
+in function main are visible to the function main.
+@@@@ Any variable or function declared in any block of any function is visible only 
+to that blok of that function but not to the other function.
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================
