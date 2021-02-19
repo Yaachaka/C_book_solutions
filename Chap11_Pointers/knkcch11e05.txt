@@ -1,0 +1,22 @@
+==========================================================================
+@@@@ Exercise 5 (Section 11.4): knkcch11e05: Write the following function:
+	
+	void split_time(long total_sec, int *hr, int *min, int *sec);
+
+total_sec is a time represented as the number of seconds since midnight. hr, min, and
+sec are pointers to variables in which the function will store the equivalent time in 
+hours (0—23), minutes (O-59), and seconds (0-59), respectively.
+==========================================================================
+SOLUTION:
+@@@@
+void split_time(long total_sec, int *hr, int *min, int *sec)
+{
+	*hr=(total_sec/3600)%24;
+	*min=((total_sec%3600)/60)%60;
+	*sec=total_sec%60;
+}
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

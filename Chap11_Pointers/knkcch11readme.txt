@@ -47,8 +47,7 @@ hours (0—23), minutes (O-59), and seconds (0-59), respectively.
 
 @@@@ Exercise 6 (Section 11.4): knkcch11e06: Write the following function:
 
-	void find_two_largest(int a[], int n, int *largest,
-	                      int *second_largest) ;
+	void find_two_largest(int a[], int n, int *largest, int *second_largest);
 
 When passed an array a of length n, the function will search a for its largest and second-
 largest elements, storing them in the variables pointed to by largest and
@@ -56,11 +55,10 @@ second_largest, respectively.
 
 @@@@ Exercise 7 (Section 11.4): knkcch11e07: Write the following function:
 
-	void split_date(int day_of_year, int year,
-	                int *month, int *day);
+	void split_date(int day_of_year, int year, int *month, int *day);
 
 day_of_year is an integer between 1 and 366, specifying a particular day within the year
-designated by year. month and day point to variables in which the function will store the
+designated by year, month and day point to variables in which the function will store the
 equivalent month (1-12) and day within that month (1-31).
 
 @@@@ Exercise 8 (Section 11.5): knkcch11e08: Write the following function:
@@ -76,8 +74,7 @@ PROGRAMMING PROJECTS
 @@@@ Project 1: knkcch11proj01: Modify Programming Project 7 from Chapter 2 so that it 
 includes the following function:
 
-	void pay_amount (int dollars, int *twenties, int *tens,
-	                 int *fives, int *ones) ;
+	void pay_amount(int dollars, int *twenties, int *tens, int *fives, int *ones);
 
 The function determines the smallest number of $20, $10, $5, and $1 bills necessary to pay
 the amount represented by the dollars parameter. The twenties parameter points to a
@@ -87,9 +84,7 @@ fives, and ones parameters are similar.
 @@@@ Project 2: knkcch11proj02: Modify Programming Project 8 from Chapter 5 so that it 
 includes the following function:
 
-	void find_closest_flight(int desired_time,
-	                         int *departure_time,
-	                         int *arrival_time) ;
+	void find_closest_flight(int desired_time, int *departure_time, int *arrival_time);
 
 This function will find the flight whose departure time is closest to desired_time
 (expressed in minutes since midnight). It will store the departure and arrival times 
@@ -99,9 +94,7 @@ departure_time und arrival_time, respectively.
 @@@@ Project 3: knkcch11proj03: Modify Programming Project 3 from Chapter 6 so that it 
 includes the following function:
 
-	void reduce(int numerator, int denominator,
-	            int *reduced_ numerator,
-	            int *reduced_denominator) ;
+	void reduce(int numerator, int denominator, int *reduced_numerator, int *reduced_denominator);
 
 numerator and denominator are the numerator and denominator of a fraction.
 reduced_numerator and reduced_denominator are pointers to variables in which the 
