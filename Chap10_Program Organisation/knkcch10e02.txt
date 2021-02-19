@@ -1,0 +1,68 @@
+==========================================================================
+@@@@ Exercise 2 (Section 10.4): knkcch10e02:The following program outline shows only 
+function definitions and variable declarations.
+
+	int b, c;
+	
+	void f(void)
+	{
+		int b, d;
+	}
+	
+	void g(int a)
+	{
+		int c;
+		{
+			int a,d;
+		}
+	}
+	
+	int main(void)
+	{
+		int c, d;
+	}
+
+For cach of the following scopes, list all variable and parameter names visible in that 
+scope. If there’s more than one variable or parameter with the same name, indicate 
+which one is visible.
+
+	(a) The f function
+	(b) The g function
+	(c) The block in which a and d are declared	
+	(d) The main function
+==========================================================================
+SOLUTION:
+@@@@ (a) The f function
+===> The global variables b and c are visible inside the function, except that 
+there is a local declaration of variable b which makes the global variable b inside 
+the function anymore. Other than that, global variable c and the local variable d 
+are visible inside the function.
+@@@@ (b) The g function
+===> The parameter a is visible to the whole function except to the block inside it.
+===> The global variable b is visible to the whole function.
+===> The global variable c is not visible to the function, since there is a local 
+declaration. And the local declaration of c is visible to the whole function.
+===> There is an inner block inside the function, where in variables a and d are 
+declared which are visible only to that function. And the parameter a is no more 
+visible inside the block since there is another declaration of a.
+@@@@ (c) The block in which a and d is declared.
+===> The global variables b and c are visible to the whole block, except that there 
+is another declaration of c inside the function of which blocks the visibility of 
+global variable c.
+===> Any variable or function declared before the block inside the function f is 
+visible to the block.
+===> The parameter a is not visible to the block since there is another declaration 
+of a inside the block.
+===> the variable d declared inside the block is visible to that block only.
+@@@@ (d) The main function
+===> The global variables b and c are visible to the whole function except that 
+there is another declaration of c locally, which blocks accessing global variable c.
+===> the locally declared variable d is visible to that function.
+===> The function f and g are visible to the main function.
+@@@@ Any variable or function declared in any block of any function is visible only 
+to that blok of that function but not to the other function.
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

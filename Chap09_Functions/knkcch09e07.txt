@@ -1,0 +1,28 @@
+==========================================================================
+@@@@ Exercise 7 (Section 9.1): knkcch09e07: Suppose that the function f has the following 
+definition:
+	int f(int a, int b) { .. }
+Which of the following statements are legal? (Assume that i has type int and x has type
+doub1e.)
+(a) i = f(83, 12);
+(b) x = f(83, 12);
+(c) i = f(3.15, 9.28);
+(d) x = f(3.15, 9.28);
+(e) f(83, 12);
+==========================================================================
+SOLUTION:
+@@@@ (a) legal.
+@@@@ (b) legal. But the decimal part of x will be 0.
+@@@@ (c) legal. The arguments passed, though they are double, they will be 
+type casted to int as they enter the function.
+@@@@ (d) legal. The arguments passed, though they are double, they will be 
+type casted to int as they enter the function. Any operation on those 
+parameters inside the function will be 'int' in data type. Then returned value 
+is stored in x as type double with decimal part of the number as 0.
+@@@@ (e) legal. But the returned value is stored nowhere in the calling 
+function.
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

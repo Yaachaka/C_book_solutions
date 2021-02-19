@@ -1,0 +1,56 @@
+==========================================================================
+@@@@ Exercise 6 (Section 9.1): knkcch09e06: Write a function digit(n, k) that returns the 
+k-th digit (from the right) in n (a posilive integer). For example, digit (829, 1) returns 9, 
+digit (829, 2) returns 2, and digit (829, 3) returns 8. If k is greater than the number of 
+digits in n, have the function return 0.
+==========================================================================
+SOLUTION:
+@@@@ Check PROGRAM OUTPUT.
+==========================================================================
+PROGRAM: (FLAGS: -std=c99): knkcch09e06.c
+#include<stdio.h>
+//---------------------------------------------------------------------------
+short digit(int n,short k);
+//------------------------START OF MAIN()--------------------------------------
+int main(void)
+{
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	
+	short k;
+	int n;
+
+	printf("Enter a number and digit place and to know the face value: ");
+	scanf("%d %hd",&n,&k);
+
+	printf("Face value of digit at place value %hd in number %d is %1hd.",k,n,digit(n,k));
+	
+	printf("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	return 0;
+}
+//-------------------------END OF MAIN()---------------------------------------
+short digit(int n,short k)
+{
+	short k2=0;
+	do
+	{
+		k2++;
+		if(k2==k)
+			return n%10;
+		n/=10;
+	} while (n>0);
+	return 0;
+}
+//---------------------------------------------------------------------------
+==========================================================================
+PROGRAM OUTPUT:
+@@@@ Trial1:
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enter a number and digit place and to know the face value: 1234 2
+Face value of digit at place value 2 in number 1234 is 3.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@@@ Trial2:
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enter a number and digit place and to know the face value: 3423 6
+Face value of digit at place value 6 in number 3423 is 0.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================
