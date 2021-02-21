@@ -1,0 +1,38 @@
+==========================================================================
+@@@@ Exercise 12 (Section 12.3): knkcch12e12: Write the following function:
+
+	void find_two_largest(const int *a, int n, int *largest, int *second_largest);
+
+a points to an array of length n. The function searches the array for its largest and 
+second largest elements, storing them in the variables pointed to by largest and
+second_largest, respectively. Use pointer arithmetic—not subscripting—to visit array
+elements.
+==========================================================================
+SOLUTION:
+@@@@ 
+void find_two_largest(const int *a, int n, int *largest, int *second_largest)
+{
+	int *i=a++;
+
+	if(*i>*a)
+	{*largest=*i;*second_largest=*a;}
+	else
+	{*largest=*a;*second_largest=*i;}
+
+	i=i+n;
+	for(a=a+2;a<i;a++)
+	{
+		if(*largest<*a)
+		{
+			*second_largest=*largest;
+			*largest=*a;
+		}
+		if(*second_largest<*a)
+			*second_largest=*a;
+	}
+}
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

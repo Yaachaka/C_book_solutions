@@ -1,0 +1,20 @@
+==========================================================================
+@@@@ Exercise 15 (Section 12.4): knkcch12e15: Write a loop that prints all temperature 
+readings stored in row i of the temperatures array (see Exercise 14). Use a pointer to 
+visit each element of the row.
+==========================================================================
+SOLUTION:
+@@@@ 
+int temperatures [7][24];
+
+void search32(int i,int j,int a[7][24])
+{
+	for(int n=i;n<i+j;n++)
+		printf("%d ",*(a+i)++);
+	
+}
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

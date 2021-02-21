@@ -1,0 +1,17 @@
+==========================================================================
+@@@@ Exercise 2 (Section 12.1): knkcch12e02: Suppose that high, low, and middle are 
+all pointer variables of the same type, and that low and high point to elements of an 
+array. Why is the following statement illegal, and how could it be fixed?
+	middle = (low + high) / 2;
+==========================================================================
+SOLUTION:
+@@@@ The given statement is illegal, because they are all addresses of the 
+memory locations, which result in a memory loaction that should not be 
+accessed by the program if they are added just like any integers.
+@@@@ Rather we can do as follows to achieve as desired.
+	middle=low+(high-low)/2;
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

@@ -8,7 +8,7 @@ are in effect:
 	int a[] = {5, 15, 34, 54, 14, 2, 52, 72};
 	int *p = &a[1], *q = &a[5];
 
-(a) What is the value of *(p+3) ?
+(a) What is the value of *(p+3)?
 (b) What is the value of *(q-3)?
 (c) What is the value of q - p?
 (d) Is the condition p < q true or false?
@@ -20,7 +20,7 @@ array. Why is the following statement illegal, and how could it be fixed?
 	middle = (low + high) / 2;
 
 @@@@ Exercise 3 (Section 12.2): knkcch12e03: What will be the contents of the a array 
-after the following statements are exccuted?
+after the following statements are executed?
 
 	#define N 10
 	
@@ -96,8 +96,7 @@ it uses pointer arithmetic—not subscripting—to visit array elements.
 
 @@@@ Exercise 12 (Section 12.3): knkcch12e12: Write the following function:
 
-	void find_two_largest (const int *a, int n, int *largest,
-	                       int *second_largest) ;
+	void find_two_largest(const int *a, int n, int *largest, int *second_largest);
 
 a points to an array of length n. The function searches the array for its largest and 
 second largest elements, storing them in the variables pointed to by largest and
@@ -109,12 +108,12 @@ which two nested for loops initialized the array ident for use as an identity ma
 Rewrite this code, using a single pointer to step through the array one element at a 
 time. Hint: Since we won't be using row and col index variables, it won't be easy to 
 tell where to store 1. Instead, we can use the fact that the first element of the array 
-should be 1, the next N elements should be 0. the next clement should be 1, and so 
+should be 1, the next N elements should be 0. the next element should be 1, and so 
 forth. Use a variable to keep track of how many consecutive Os have been stored; when 
 the count reaches N, it’s time to store 1.
 
 @@@@ Exercise 14 (Section 12.4): knkcch12e14: Assume that the following array contains 
-a week’s worth of hourly temperature readings, with cach row containing the readings 
+a week’s worth of hourly temperature readings, with each row containing the readings 
 for one day:
 
 	int temperatures [7][24];
