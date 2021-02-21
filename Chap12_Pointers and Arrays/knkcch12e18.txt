@@ -1,0 +1,39 @@
+==========================================================================
+Write the evaluate_position function 
+described in Exercise 13 of Chapter 9. Use pointer arithmetic—not subscripting—to 
+visit array elements. Use a single loop instead of nested loops.
+==========================================================================
+SOLUTION:
+@@@@ 
+int evaluate_position(char board[8][8])
+{
+	char *ch=board;
+	int white_sum=0, black_sum=0;
+	for(;ch < &board[8][8];ch++)
+	{
+		if(*ch>='A' && *ch<='Z')
+			white_sum+=just_switch(*ch);
+		if(*ch>='a' && *ch<='z')
+			black_sum+=just_switch(*ch);
+	}
+	return white_sum-black_sum;
+}
+//---------------------------------------------------------------------------
+int just_switch(char a)
+{
+	a=tolower(a);
+	switch(a)
+	{
+		case 'q': return 9;
+		case 'r': return 5;
+		case 'b': return 3;
+		case 'n': return 3;
+		case 'p': return 1;
+		default: return 0;
+	}
+}
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

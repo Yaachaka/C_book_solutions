@@ -1,0 +1,29 @@
+==========================================================================
+@@@@ Exercise 16 (Section 12.4): knkcch12e16: Write a loop that prints the highest 
+temperature in the temperatures array (see Exercise 14) for each day of the week. The loop 
+body should call the find_largest function, passing it one row of the array at a time.
+==========================================================================
+SOLUTION:
+@@@@ Check PROGRAM OUTPUT.
+int find_largest(int *a,int n)
+{
+	int *i=a, max=*a;
+
+	for(a++;a<i;a++)
+		if(*a>max)
+			max=*a;
+	return max;
+}
+
+void max_of_day(int i,int j,int a[7][24])
+{
+	for(int n=0;n<i;n++)
+		printf("%d ",find_largest(a+n,j));
+
+}
+
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

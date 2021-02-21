@@ -1,0 +1,57 @@
+==========================================================================
+@@@@ Exercise 4 (Section 12.2): knkcch12e04: Rewrite the make_empty, is_empty, and 
+is_ful1 functions of Section 10.2 to use the pointer variable top_ptr instead of the 
+integer variable top.
+==========================================================================
+SOLUTION:
+@@@@ 
+#include <stdio.h>
+#include <stdlib.h>
+#include "stack.h"
+
+#define STACK_SIZE 100
+
+static int contents[STACK_SIZE];
+int *top_ptr = &contents[0];  //we can also write int *top_ptr=contents;
+
+static void terminate(const char *message)
+{
+  printf("%s\n", message);
+  exit(EXIT_FAILURE);
+}
+
+void make_empty(void)
+{
+  top_ptr = contents;
+}
+
+bool is_empty(void)
+{
+  return top_ptr == contents;
+}
+
+bool is_full(void)
+{
+  return top_ptr == contents[STACK_SIZE];
+}
+
+void push(int i)
+{
+  if (is_full())
+    terminate("Error in push: stack is full.");
+  *top_ptr++=i;  //Meaning *top_ptr=i;top_ptr++;
+  
+}
+
+int pop(void)
+{
+  if (is_empty())
+    terminate("Error in pop: stack is empty.");
+  return contents[--top];
+  return *--top_ptr;  //Meaning --top_ptr;return *top_ptr;
+}
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================
