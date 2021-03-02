@@ -7,7 +7,7 @@ EXERCISES
 The following function calls supposedly write a single new-line character, but some are
 incorrect. Identify which calls don’t work and explain why.
 
-(a) printf("%c", '\n');     (2) putchar('\n');
+(a) printf("%c", '\n');     (g) putchar('\n');
 (b) printf("%c", "\n");     (h) putchar("\n") ;
 (c) printf("%s", '\n');     (i) puts('\n');
 (d) printf("%s", "\n");     (j) puts("\n") ;
@@ -22,18 +22,18 @@ Suppose that p has been declared as follows:
 Which of the following function calls are legal? Show the output produced by each legal
 call, and explain why the others are illegal.
 
-(a) putchar(p) ;
-(b) putchar (*p) ;
-(c) puts (p);
-(d) puts (*p) ;
+(a) putchar(p);
+(b) putchar(*p);
+(c) puts(p);
+(d) puts(*p);
 
 @@@@ Exercise 3 (Section 13.3): knkcch13e03:**************************************
 Suppose that we call scanf as follows:
 
-	scant ("%d%s%d", &i, s, &j);
+	scanf("%d%s%d", &i, s, &j);
 
-If the user enters 12abc34 56def78, what will be the values of i, s, and j alter the
-call? (Assume that i and 3 are int variables and s is an array of characters.)
+If the user enters 12abc34 56def78, what will be the values of i, s, and j after the
+call? (Assume that i and j are int variables and s is an array of characters.)
 
 @@@@ Exercise 4 (Section 13.3): knkcch13e04:**************************************
 Modify the read_line function in each of the following ways:
@@ -79,11 +79,11 @@ What will be the value of the string s1 after the following statements have been
 
 	strcpy(s1, "computer") ;
 	strcpy(s2, "science") ;
-	if (strcmp(sl, s2) < 0)
+	if (strcmp(s1, s2) < 0)
 		strcat(s1, s2);
 	else
 		strcat(s2, s1);
-	s1(strlen(s1)-6] = '\0';
+	s1[strlen(s1)-6] = '\0';
 
 @@@@ Exercise 10 (Section 13.4): knkcch13e10:**************************************
 The following function supposedly creates an identical copy of a string. What's wrong with
@@ -104,7 +104,7 @@ written using array subscripting. Modify the function to use pointer arithmetic 
 @@@@ Exercise 12 (Section 13.4): knkcch13e12:**************************************
 Write the following function:
 
-	void get_extension(const char *file_name, char *extension) ;
+	void get_extension(const char *file_name, char *extension);
 
 file_name points to a string containing a file name. The function should store the 
 extension on the file name in the string pointed to by extension. For example, if the 
@@ -116,14 +116,14 @@ as simple as possible by having it use the strlen and strcpy functions.
 @@@@ Exercise 13 (Section 13.4): knkcch13e13:**************************************
 Write the following function:
 
-	void build_index_url(const char *domain, char *index_url) ;
+	void build_index_url(const char *domain, char *index_url);
 
 domain points to a string containing an Internet domain, such as "knking.com". The
 function should add "http://www." to the beginning of this string and "/index.html" 
 to the end of the string, storing the result in the string pointed to by
-index_url. (In this example, the result will be "http://www.knking.com/index.htm1".) 
+index_url. (In this example, the result will be "http://www.knking.com/index.html".) 
 You may assume that index_url points to a variable that is long
-enought to hold the resulting string. Keep the function as simple as possible by having 
+enough to hold the resulting string. Keep the function as simple as possible by having 
 it use the strcat and strcpy functions.
 
 @@@@ Exercise 14 (Section 13.6): knkcch13e14:**************************************
@@ -133,11 +133,11 @@ What does the following program print?
 	
 	int main (void)
 	{
-		char s[{] = "Hsjodi", *p;
+		char s[] = "Hsjodi", *p;
 		
 		for (p = s; *p; p++)
 			--*p;
-		puts (s) ;
+		puts(s) ;
 		return 0;	
 	}
 
@@ -149,7 +149,7 @@ Let f be the following function:
 		char *p1, *p2;
 		for (p1 = s; *p1; p1++) {
 			for (p2 = t; *p2; p2++)
-			if (*p1 == *p2) break;
+				if (*p1 == *p2) break;
 			if (*p2 == '\0') break;
 		}
 		return p1 - s;
@@ -166,13 +166,13 @@ Use the techniques of Section 13.6 to condense the count_spaces function of Sect
 @@@@ Exercise 17 (Section 13.6): knkcch13e17:**************************************
 Write the following function:
 
-	bool test_extension(const char *file_name, const char *extension) ;
+	bool test_extension(const char *file_name, const char *extension);
 
 file_name points to a string containing a file name. The function should return true if
 the file's extension matches the string pointed to by extension, ignoring the case of 
 letters. For example. the call test_extension("memo.txt", "TXT") would return
-true. Incorporate the “search for the end of a string” idiom into your function. Hint: Use
-the toupper function to convert characters to upper-case before comparing them.
+true. Incorporate the “search for the end of a string” idiom into your function. Hint: 
+Use the toupper function to convert characters to upper-case before comparing them.
 
 @@@@ Exercise 18 (Section 13.6): knkcch13e18:**************************************
 Write the following function:
@@ -188,12 +188,11 @@ string by a null character.
 ========================================================================================
 PROGRAMMING PROJECTS
 
-
 @@@@ Project 1: knkcch13proj01:**********************************************
 Write a program that finds the “smallest” and “largest” in a series of words. After the user
 enters the words, the program will determine which words would come first and last if the
 words were listed in dictionary order. The program must stop accepting input when the user
-enters it four-letter word. Assume that no word is more than 20 letters long. An interactive
+enters a four-letter word. Assume that no word is more than 20 letters long. An interactive
 session with the program might look like this:
 
 	Enter word: dog
@@ -209,7 +208,7 @@ Largest word: zebra
 
 Hint: Use two strings named smallest_word and largest_word to keep track of the
 “smallest” and “largest” words entered so far. Each time the user enters a new word, use
-strcmp to compare it with smallest_wordy if the new word is “smaller”, use strcpy
+strcmp to compare it with smallest_word if the new word is “smaller”, use strcpy
 to save it in smallest_word. Do a similar comparison with largest_word. Use
 strlen to determine when the user has entered a four-letter word.
 
@@ -224,7 +223,7 @@ enter a time, but it’s treated as part of the reminder.)
 form month / day.
 
 @@@@ Project 3: knkcch13proj03:**********************************************
-Modify the deal.c program of Scction 8.2 so that it prints the full names of the cards it
+Modify the deal.c program of Section 8.2 so that it prints the full names of the cards it
 deals:
 	Enter number of cards in hand: 5
 	Your hand:
@@ -271,14 +270,14 @@ contains the strings "twenty", "thirty", and so forth.
 @@@@ Project 8: knkcch13proj08:**********************************************
 Modify Programming Project 5 from Chapter 7 so that it includes the following function:
 
-	int compute_scrabble_value(const char *word) ;
+	int compute_scrabble_value(const char *word);
 
 The function returns the SCRABBLE value of the string pointed to by word.
 
 @@@@ Project 9: knkcch13proj09:**********************************************
 Modify Programming Project 10 from Chapter 7 so that it includes the following function:
 
-	int compute_vowel_count(const char *sentence) ;
+	int compute_vowel_count(const char *sentence);
 
 The function returns the number of vowels in the string pointed to by the sentence
 parameter.
@@ -296,13 +295,13 @@ before the first name, between the first and last names, and after the last name
 @@@@ Project 11: knkcch13proj11:**********************************************
 Modify Programming Project 13 from Chapter 7 so that it includes the following function:
 
-	double compute_average_word_length(const char *sentence) ;
+	double compute_average_word_length(const char *sentence);
 
 The function returns the average length of the words in the string pointed to by sentence.
 
 @@@@ Project 12: knkcch13proj12:**********************************************
 Modify Programming Project 14 from Chapter 8 so that it stores the words in a two-
-dimensional char array as it reads the sentence, with cach row of the array storing a 
+dimensional char array as it reads the sentence, with each row of the array storing a 
 single word. Assume that the sentence contains no more than 30 words and no word is more
 than 20 characters long. Be sure to store a null character at the end of each word so 
 that it can be treated as a string.
@@ -318,36 +317,36 @@ shift represents the amount by which each letter in the message is to be shifted
 @@@@ Project 14: knkcch13proj14:**********************************************
 Modify Programming Project 16 from Chapter 8 so that it includes the following function:
 
-	bool are_anagrams(const char *word1, const char *word2) ;
+	bool are_anagrams(const char *word1, const char *word2);
 
 The function returns true if the strings pointed to by word1 and word2 are anagrams.
 
 @@@@ Project 15: knkcch13proj15:**********************************************
 Modify Programming Project 6 from Chapter 10 so that it includes the following function:
 
-	int evaluate_RPN_expression(const char *expression) ;
+	int evaluate_RPN_expression(const char *expression);
 
 The function returns the value of the RPN expression pointed to by expression.
 
 @@@@ Project 16: knkcch13proj16:**********************************************
 Modify Programming Project 1 from Chapter 12 so that it includes the following function:
 
-	void reverse(char *message) ;
+	void reverse(char *message);
 
 The function reverses the string pointed to by message. Hint: Use two pointers, one 
 initially pointing to the first character of the string and the other initially 
 pointing to the last character. Have the function reverse these characters and then move 
-the pointers toward each other, repeating the process until the pointers mect.
+the pointers toward each other, repeating the process until the pointers meet.
 
 @@@@ Project 17: knkcch13proj17:**********************************************
 Modify Programming Project 2 from Chapter 12 so that it includes the following function:
 
-	bool is_palindrome(const char *message) ;
+	bool is_palindrome(const char *message);
 
 The function returns true if the string pointed to by message is a palindrome.
 
 @@@@ Project 18: knkcch13proj18:**********************************************
-Write a program that accepts a date from the user in the form wun/dd/yyyy and then 
+Write a program that accepts a date from the user in the form mm/dd/yyyy and then 
 displays it in the form month dd, yyyy, where month is the name of the month:
 
 	Enter a date (mm/dd/yyyy): 2/17/2011
