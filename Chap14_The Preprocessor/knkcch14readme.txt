@@ -6,7 +6,7 @@ EXERCISES
 Write parameterized macros that compute the following values.
 
 (a) The cube of x.
-(b) The remainder when n ts divided by 4.
+(b) The remainder when n is divided by 4.
 (c) 1 if the product of x and y is less than 100, 0 otherwise.
 
 Do your macros always work? If not, describe what arguments would make them fail.
@@ -26,7 +26,7 @@ let DOUBLE be the following macro:
 For each of the following macros, give an example that illustrates a problem with the macro
 and show how to fix it.
 
-(a) #define AVG(x,y) (x-y) /2
+(a) #define AVG(x,y) (x-y)/2
 (b) #define AREA(x,y) (x)*(y)
 
 @@@@ Exercise 5 (Section 14.3): knkcch14e05:**************************************
@@ -44,25 +44,25 @@ following program fragments.
     putchar(TOUPPER(s[++i])) ;
 
 @@@@ Exercise 6 (Section 14.3): knkcch14e06:**************************************
-(a) Write a macro DISP (f,x) that expands into a call of printf that displays the value
+(a) Write a macro DISP(f,x) that expands into a call of printf that displays the value
 of the function f when called with argument x. For example.
 
 	DISP(sqrt, 3.0);
 
 should expand into
 
-	printf ("sqrt (%g) = %g\n", 3.0, sqrt(3.0));
+	printf ("sqrt(%g) = %g\n", 3.0, sqrt(3.0));
 
-(b) Write a macro DISP2 (f,x,y) that’s similar to DISP but works for functions with
+(b) Write a macro DISP2(f,x,y) that’s similar to DISP but works for functions with
 two arguments.
 
 @@@@ Exercise 7 (Section 14.3): knkcch14e07:**************************************
 Let GENERIC_MAX be the following macro:
 
-	#define GENERIC_MAX (type)
-	type type##_max(type x, type y)
-	{
-		return x > y ? X : Y;
+	#define GENERIC_MAX(type) \
+	type type##_max(type x, type y) \
+	{ \
+		return x > y ? x : y; \
 	}
 
 (a) Show the preprocessor’s expansion of GENERIC_MAX(long).
@@ -71,7 +71,7 @@ Let GENERIC_MAX be the following macro:
 as unsigned long. Hint: Don’t change the definition of GENERIC_MAX.
 
 @@@@ Exercise 8 (Section 14.3): knkcch14e08:**************************************
-Suppose we want a macro thal expands into a string containing the current line number and
+Suppose we want a macro that expands into a string containing the current line number and
 file name. In other words, we'd like to write
 
 	const char *str = LINE_FILE;
@@ -87,9 +87,9 @@ Q&A section carefully before attempting!
 @@@@ Exercise 9 (Section 14.3): knkcch14e09:**************************************
 Write the following parameterized macros.
 
-(a) CHECK (x,y,n) — Has the value 1 if both x and y fall between 0 and n — 1. inclusive.
-(b) MEDIAN (x,y,z) — Finds the median of x, y, and z.
-(c) POLYNOMIAL (x) - Computes the polynomial 3x⁵ + 2x⁴ — 5x³ - x² + 7x - 6.
+(a) CHECK(x,y,n) — Has the value 1 if both x and y fall between 0 and n — 1, inclusive.
+(b) MEDIAN(x,y,z) — Finds the median of x, y, and z.
+(c) POLYNOMIAL(x) - Computes the polynomial 3x⁵ + 2x⁴ — 5x³ - x² + 7x - 6.
 
 @@@@ Exercise 10 (Section 14.3): knkcch14e10:**************************************
 Functions can often—but not always—be written as parameterized macros. Discuss what
@@ -104,7 +104,7 @@ stderr is C’s “standard error” stream; the remaining arguments are the sam
 printf, starting with the format string. Write a macro named ERROR that generates the
 call of fprintf shown above when given a format string and the items to be displayed:
 
-	ERROR ("Range error: index = %d\n", index);
+	ERROR("Range error: index = %d\n", index);
 
 @@@@ Exercise 12 (Section 14.4): knkcch14e12:**************************************
 Suppose that the macro M has been defined as follows:
@@ -114,7 +114,7 @@ Which of the following tests will fail?
 (b) #ifdef M
 (c) #ifndef M
 (d) #if defined (M)
-(c) #if !defined(M)
+(e) #if !defined(M)
 
 @@@@ Exercise 13 (Section 14.4): knkcch14e13:**************************************
 (a) Show what the following program will look like after preprocessing. You may ignore
@@ -154,8 +154,8 @@ program may cause compilation errors: find all such errors.
 	#define N = 10
 	#define INC(x) x+1
 	#define SUB (x,y) x-y
-	#define SOR(x) ((x)*(x))
-	#define CUBE(x) (SQR(x) * (x) )
+	#define SQR(x) ((x)*(x))
+	#define CUBE(x) (SQR(x) * (x))
 	#define M1(x,y) x##y
 	#define M2(x,y) #x #y
 	
@@ -188,18 +188,18 @@ Suppose that a program needs to display messages in either English, French, or S
 Using conditional compilation, write a program fragment that displays one of the following
 three messages, depending on whether or not the specified macro is defined:
 
-Insert Disk 1        (if ENGLISH ts defined)
-Inserez Le Disque 1  (if FRENCH 1s defined)
-Inserte El Disco 1   (if SPANISH ts defined)
+Insert Disk 1        (if ENGLISH is defined)
+Inserez Le Disque 1  (if FRENCH is defined)
+Inserte El Disco 1   (if SPANISH is defined)
 
 @@@@ Exercise 16 (Section 14.5): knkcch14e16:**************************************
 (C99) Assume that the following macro definitions are in effect:
 
 	#define IDENT(x) PRAGMA(ident #x)
-	#define PRAGMA(x) _Pragma (#x)
+	#define PRAGMA(x) _Pragma(#x)
 
 What will the following line look like after macro expansion?
-IDENT (f00)
+IDENT(foo)
 =======================================================================================
 PROGRAMMING PROJECTS
 
