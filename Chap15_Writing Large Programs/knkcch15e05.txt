@@ -1,0 +1,61 @@
+==========================================================================
+@@@@ Exercise 5 (Section 15.4): knkcch15e05:*************************************
+Suppose that a program consists of three source files—main.c, f1.c, and f2.c—plus
+two header files, f1.h and f2.h. All three source files include f1.h, but only f1.c and
+f2.c include f2.h. Write a makefile for this program, assuming that the compiler is gcc
+and that the executable file is to be named demo.
+==========================================================================
+SOLUTION:
+@@@@ makefile
+demo: main.o f1.o f2.o
+	gcc -o demo main.o f1.o f2.o
+main.o: main.c f1.h
+	gcc -c main.c
+f1.o: f1.c f1.h f2.h
+	gcc -c f1.c
+f2.o: f2.c f1.h f2.h
+	gcc -c f2.c
+
+@@@@ main.c
+#include <stdio.h>
+#include "f1.h"
+int main(void)
+{
+	printf("This is main function.");
+	return 0;
+}
+
+@@@@ f1.c
+#include "f1.h"
+#include "f2.h"
+
+void f_f1()
+{
+	printf("This is file f1");
+}
+
+@@@@ f1.h
+#ifndef F1_H
+#define F1_H
+	void f_f1();  //prototype
+#endif
+
+@@@@ f2.c
+#include "f1.h"
+#include "f2.h"
+
+void f_f2()
+{
+	printf("This is file f2");
+}
+
+@@@@ f2.h
+#ifndef F2_H
+#define F2_H
+	void f_f2();  //prototype
+#endif
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

@@ -1,0 +1,63 @@
+==========================================================================
+@@@@ Exercise 3 (Section 15.2): knkcch15e03:*************************************
+We saw that writing #include <file> instead of #include "file" may not work if file is
+one that we've written. Would there be any problem with writing #include "file" instead
+of #include <file> if file is a system header?
+==========================================================================
+SOLUTION:
+@@@@ Check PROGRAM OUTPUT.
+Notice the differences when the "ctype.h" and "math.h" are not included.
+@@@@ Writing #include "file" instead of #include <file> if file is a system header,
+would not be a problem because, the compiler will look for the mentioned directive 
+in the current directory first, if not found, the system library will be added.
+==========================================================================
+PROGRAM: (FLAGS: -std=c99): knkcch15e03.c
+
+#include<stdio.h>
+#include "ctype.h"
+#include "math.h"
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+//------------------------START OF MAIN()--------------------------------------
+int main(void)
+{
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	
+	printf("Trying #include \"ctype.h\"");
+	printf("\ntoupper(%c) is %c.",'a',toupper('a'));
+	printf("\nsqrt(%d) is %d.",10,sqrt(10));
+
+	printf("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	return 0;
+}
+//-------------------------END OF MAIN()---------------------------------------
+//---------------------------------------------------------------------------
+==========================================================================
+PROGRAM OUTPUT: 
+@@@@ Trial1: When #include "ctype.h" and #include "math.h" are not included.
+knkcch15e03.c: In function ‘main’:
+knkcch15e03.c:18:36: warning: implicit declaration of function ‘toupper’ [-Wimplicit-function-declaration]
+   18 |  printf("\ntoupper(%c) is %c.",'a',toupper('a'));
+      |                                    ^~~~~~~
+knkcch15e03.c:19:32: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   19 |  printf("\nsqrt(%d) is %d.",10,sqrt(10));
+      |                                ^~~~
+knkcch15e03.c:19:32: warning: incompatible implicit declaration of built-in function ‘sqrt’
+knkcch15e03.c:7:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    6 | #include<stdio.h>
+  +++ |+#include <math.h>
+    7 | //#include "ctype.h"
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Trying #include "ctype.h"
+toupper(a) is A.
+sqrt(10) is 987388755.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@@@ Trial2: When #include "ctype.h" and #include "math.h" are included.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Trying #include "ctype.h"
+toupper(a) is A.
+sqrt(10) is 987388755.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================
