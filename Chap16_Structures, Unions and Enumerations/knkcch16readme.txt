@@ -18,7 +18,7 @@ imaginary of type double.
 1.0, while c2's members are 1.0 and 0.0 initially. (c3 is not initialized.)
 (c) Write statements that copy the members of c2 into c1. Can this be done in one 
 statement, or does it require two?
-(d) Write statements that add the corresponding members of cl and c2, storing the result
+(d) Write statements that add the corresponding members of c1 and c2, storing the result
 in c3.
 
 @@@@ Exercise 3 (Section 16.2): knkcch16e03:*********************************
@@ -26,7 +26,7 @@ in c3.
 and imaginary, of type double.
 (b) Use the complex tag to declare variables named c1, c2, and c3.
 (c) Write a function named make_complex that stores its two arguments (both of type
-double) in a complex structure, then returns the structure,
+double) in a complex structure, then returns the structure.
 (d) Write a function named add_complex that adds the corresponding members of its
 arguments (both complex structures), then returns the result (another complex structure).
 
@@ -39,7 +39,6 @@ month, day, and year (all of type int).
 (a) int day_of_year(struct date d);
 Returns the day of the year (an integer between 1 and 366) that corresponds to the date d.
 (b) int compare_dates(struct date d1, struct date d2);
-
 Returns -1 if d1 is an earlier date than d2. +1 if d1 is a later date than d2, and 0 if 
 d1 and d2 are the same.
 
@@ -55,14 +54,14 @@ and seconds (0-59).
 
 @@@@ Exercise 7 (Section 16.2): knkcch16e07:*********************************
 Assume that the fraction structure contains two members: numerator and denominator 
-(both of type int). Write functions that perform the following operations on tractions:
+(both of type int). Write functions that perform the following operations on fractions:
 (a) Reduce the fraction f to lowest terms. Hint: To reduce a fraction to lowest terms, 
 first compute the greatest common divisor (GCD) of the numerator and denominator. 
 Then divide both the numerator and denominator by the GCD.
 (b) Add the fractions f1 and f2.
 (c) Subtract the fraction f2 from the fraction f1.
 (d) Multiply the fractions f1 and f2.
-(ce) Divide the fraction f1 by the fraction f2.
+(e) Divide the fraction f1 by the fraction f2.
 
 The fractions f, f1, and f2 will be arguments of type struct fraction: each function
 will return a value of type struct fraction. The fractions returned by the functions in
@@ -95,7 +94,7 @@ Returns the value of c’s red member.
 Returns true if the corresponding members of color1 and color2 are equal.
 (d) struct color brighter(struct color c);
 Returns a color structure that represents a brighter version of the color c. The structure is
-identical to c, except that cach member has been divided by 0.7 (with the result truncated to
+identical to c, except that each member has been divided by 0.7 (with the result truncated to
 an integer). However, there are three special cases: (1) If all members of c are zero, the
 function returns a color whose members all have the value 3. (2) If any member of c is
 greater than 0 but less than 3, it is replaced by 3 before the division by 0.7. (3) If 
@@ -117,7 +116,7 @@ structure stores the coordinates of the upper left and lower right corners of a
 rectangle. Write functions that perform the following operations on a rectangle structure 
 r passed as an argument:
 (a) Compute the area of r.
-(b) Compute the center of r, returning it as a point valuc. If either the x or y 
+(b) Compute the center of r, returning it as a point value. If either the x or y 
 coordinate of the center isn’t an integer, store its truncated value in the point structure.
 (c) Move r by x units in the x direction and y units in the y direction, returning the 
 modified version of r. (x and y are additional arguments to the function.)
@@ -160,14 +159,18 @@ leaves no “holes” between members.)
 @@@@ Exercise 13 (Section 16.4): knkcch16e13:*********************************
 Suppose that s is the following structure (point is a structure tag declared in Exercise 10):
 
-	struct shape {
+	struct shape
+	{
 		int shape_kind; /* RECTANGLE or CIRCLE */
 		struct point center; /* coordinates of center */
-		union {
-			struct {
+		union
+		{
+			struct
+			{
 				int height, width;
 			} rectangle;
-			struct {
+			struct
+			{
 				int radius;
 			} circle;
 		} u;
@@ -178,7 +181,7 @@ stores the radius of a circle. Indicate which of the following statements are le
 and show how to repair the ones that aren't:
 (a) s.shape_kind = RECTANGLE;
 (b) s.center.x = 10;
-(c) s. height = 25;
+(c) s.height = 25;
 (d) s.u.rectangle.width = 8;
 (e) s.u.circle = 5;
 (f) s.u.radius = 5;
@@ -212,7 +215,7 @@ Suppose that b and i are declared as follows:
 	int i;
 
 Which of the following statements are legal? Which ones are “safe” (always yield a 
-meanmgful result)?
+meaningful result)?
 (a) b = FALSE;
 (b) b = i;
 (c) b++;
@@ -233,21 +236,21 @@ corresponds to the usual arrangement of pieces at the start of a chess game. A s
 that’s not occupied by a piece should have an “empty” piece value and the color black.
 
 @@@@ Exercise 19 (Section 16.5): knkcch16e19:*********************************
-Declare a structure with the following members whose tag is pinball machine:
+Declare a structure with the following members whose tag is pinball_machine:
 name — a string of up to 40 characters
 year — an integer (representing the year of manufacture)
-type — an cnumeration with the values EM (electromechanical) and SS (solid state)
+type — an enumeration with the values EM (electromechanical) and SS (solid state)
 players — an integer (representing the maximum number of players)
 
 @@@@ Exercise 20 (Section 16.5): knkcch16e20:*********************************
 Suppose that the direction variable is declared in the following way:
 	enum {NORTH, SOUTH, EAST, WEST} direction;
 Let x and y be int variables. Write a switch statement that tests the value of 
-direction, incrementing x if direction is EAST, decrementing x if direction ts WEST,
+direction, incrementing x if direction is EAST, decrementing x if direction is WEST,
 incrementing y if direction is SOUTH, and decrementing y if direction is NORTH.
 
 @@@@ Exercise 21 (Section 16.5): knkcch16e21:*********************************
-What are the integer values of the enumeration constants in cach of the following 
+What are the integer values of the enumeration constants in each of the following 
 declarations?
 (a) enum {NUL, SOH, STX, ETX};
 (b) enum {VT = 11, FF, CR};
@@ -258,13 +261,13 @@ declarations?
 Let chess_pieces be the following enumeration:
 	enum chess_pieces {KING, QUEEN, ROOK, BISHOP, KNIGHT, PAWN};
 (a) Write a declaration (including an initializer) for a constant array of integers named
-piece_value that stores the numbers 200, 9, 5, 3. 3, and 1, representing the value of each
+piece_value that stores the numbers 200, 9, 5, 3, 3, and 1, representing the value of each
 chess piece, from king to pawn. (The king’s value is actually infinite, since “capturing” 
 the king (checkmate) ends the game, but some chess-playing software assigns the king a 
 large value such as 200.)
 
-(b) (C99) Repeat part (a). but use a designated initializer to intualize the array. Use the enu-
-meration constants in chess pieces as subscripts in the designators. (Hint: Sec the last
+(b) (C99) Repeat part (a), but use a designated initializer to initialize the array. Use the 
+enumeration constants in chess_pieces as subscripts in the designators. (Hint: See the last
 question in Q&A for an example.)
 
 =======================================================================================
