@@ -7,7 +7,7 @@ declarations, identify the storage class, type qualifiers, type specifiers,
 declarators, and initializers.
 (a) static char **lookup(int level);
 (b) volatile unsigned long io_flags;
-(c) extern char *file_name [MAX{FILES], path[];
+(c) extern char *file_name[MAX_FILES], path[];
 (d) static const char token_buf[] = "";
 
 @@@@ Exercise 2 (Section 18.2): knkcch18e02: Answer each of the following 
@@ -40,7 +40,7 @@ the value of f(10) if f has been called five times previously?
 	}
 
 @@@@ Exercise 5 (Section 18.2): knkcch18e05: State whether each of the following 
-statements is true or false. Justify cach answer.
+statements is true or false. Justify each answer.
 (a) Every variable with static storage duration has file scope.
 (b) Every variable declared inside a function has no linkage.
 (c) Every variable with internal linkage has static storage duration.
@@ -68,10 +68,10 @@ statement.
 
 @@@@ Exercise 8 (Section 18.4): knkcch18e08: Write a complete description of the 
 type of x as specified by each of the following declaraions.
-(a) char (*x[10]) (int);
-(b) int (*x(int)) [5];
-(c) float *(*x(void)) (int) ;
-(d) void (*x(int, void (*y) (int))) (int);
+(a) char (*x[10])(int);
+(b) int (*x(int))[5];
+(c) float *(*x(void))(int) ;
+(d) void (*x(int, void (*y)(int)))(int);
 
 @@@@ Exercise 9 (Section 18.4): knkcch18e09: Use a series of type definitions to 
 simplify each of the declarations in Exercise 8.
@@ -91,9 +91,9 @@ structures with tag t.
 
 @@@@ Exercise 11 (Section 18.4): knkcch18e11: In Section 18.4, we saw that the 
 following declarations are illegal:
-	int f(int) (]; /* functions can't return arrays * /
-	int g(int) (int) ; /* functions can't return functions */
-	int a[10} (int); /* array elements can't be functions */
+	int f(int)[]; /* functions can't return arrays * /
+	int g(int)(int); /* functions can't return functions */
+	int a[10](int); /* array elements can't be functions */
 We can, however, achieve similar effects by using pointers: a function can 
 return a pointer to the first element in an array, a function can return a 
 pointer to a function, and the elements of an array can be pointers to 

@@ -1,0 +1,32 @@
+==========================================================================
+@@@@ Exercise 8 (Section 18.4): knkcch18e08: Write a complete description of the 
+type of x as specified by each of the following declaraions.
+(a) char (*x[10])(int);
+(b) int (*x(int))[5];
+(c) float *(*x(void))(int) ;
+(d) void (*x(int, void (*y)(int)))(int);
+==========================================================================
+SOLUTION:
+@@@@ (a) char (*x[10])(int);
+x is an arrays of 10 pointers to functions, with int as argument and 
+char as return type.
+
+@@@@ (b) int (*x(int))[5];
+===> x is a function with int as its argument which returns pointer to 
+an int.
+===> In total int (*x(int))[5]; is array of pointers to five integers.
+
+@@@@ (c) float *(*x(void))(int) ;
+x is a function with no arguments returns pointer to a function which 
+takes int as its argument and which returns pointer to float.
+
+@@@@ (d) void (*x(int, void (*y)(int)))(int);
+y is a pointer to a function with int as its argument and void as its 
+return type; which in whole is a second parameter to x, with int as its 
+first parameter. And x is a pointer to a function with int as its parameter 
+and void as its return type.
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

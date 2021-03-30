@@ -1,0 +1,22 @@
+==========================================================================
+@@@@ Exercise 15 (Section 18.5): knkcch18e15: Which property of a variable 
+determines whether or not it has a default initial value?
+(a) Storage duration
+(b) Scope
+(c) Linkage
+(d) Type
+==========================================================================
+SOLUTION:
+@@@@ (a) Storage duration
+Has default initial value set to zero, in the case of static variables.
+@@@@ (b) Scope
+No default initial value based on this property.
+@@@@ (c) Linkage
+No default initial value based on this property.
+@@@@ (d) Type
+No default initial value based on this property.
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================
