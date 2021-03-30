@@ -1,0 +1,83 @@
+==========================================================================
+@@@@ Exercise 15 (Section 17.7): knkcch17e15: Show the output of the following 
+program and explain what it does.
+
+	#include <stdio.h>
+	
+	int f1(int (*f) (int));
+	int f2(int i);
+	
+	int main(void)
+	
+	{
+		printf ("Answer: %d\n", f1(f2));
+		return 0;
+	}
+	
+	int f1(int (*f) (int) )
+	{
+		int n = 0;
+		while ((*f)(n)) n++;
+		return n;
+	}
+	int f2(int i)
+	{
+		return i * i + i - 12;
+	}
+==========================================================================
+SOLUTION:
+@@@@ Check PROGRAM OUTPUT.
+@@@@ f2 which is a function pointer is passed to function f1 in main function.
+@@@@ Inside f1 function, f2 is called repeatedly unitill the value returned 
+by f2 is non-zero.
+@@@@ When n = 0, the function f2 returns -12. Therefore, the function f2 is called 
+again.
+@@@@ When n = 1, the function f2 returns -10. Therefore, the function f2 is called 
+again.
+@@@@ When n = 2, the function f2 returns -7. Therefore, the function f2 is called 
+again.
+@@@@ When n = 3, the function f2 returns 0. Therefore, the while loop ends and the 
+function f1 returns the value 3 to the called function, which is main.
+==========================================================================
+PROGRAM: (FLAGS: -std=c99): knkcch17e15.c
+#include <stdio.h>
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+int f1(int (*f)(int));
+int f2(int i);
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+//------------------------START OF MAIN()--------------------------------------
+int main(void)
+{
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	printf("File: %s, C Version: %d, Date: %s, Time: %s\n\n", __FILE__, __STDC_VERSION__, __DATE__, __TIME__);
+
+	printf ("Answer: %d\n", f1(f2));
+
+	printf("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	return 0;
+}
+//-------------------------END OF MAIN()---------------------------------------
+int f1(int (*f) (int) )
+{
+	int n = 0;
+	while ((*f)(n)) n++;
+	return n;
+}
+//---------------------------------------------------------------------------
+int f2(int i)
+{
+	return i * i + i - 12;
+}
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+==========================================================================
+PROGRAM OUTPUT: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: knkcch17e15.c, C Version: 199901, Date: Mar 17 2021, Time: 15:40:25
+
+Answer: 3
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================

@@ -1,0 +1,14 @@
+==========================================================================
+@@@@ Exercise 9 (Section 17.5): knkcch17e09: True or false: If x is a structure 
+and a is a member of that structure. then (&x) ->a is the same as x.a. Justify 
+your answer.
+==========================================================================
+SOLUTION:
+@@@@ True. When expanded, the right arrow operator (`->`), expands to the dereference
+operator and the dot operator (`*` and `.`); therefore, `(&x)->a` expands to `*(&x).a`.
+The dereference and address-of operators cancel each other to produce `x.a`.
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

@@ -1,0 +1,27 @@
+==========================================================================
+@@@@ Exercise 5 (Section 17.5): knkcch17e05: Suppose that f and p are declared 
+as follows:
+
+	struct {
+		union {
+			char a, b;
+			int c;
+		} d;
+		int e[5];
+	} f, *p = &f;
+
+Which of the following statements are legal?
+(a) p->b = ' ';
+(b) p->e[3]) = 10;
+(c) (*p).d.a = '*';
+(d) p->d->c = 20;
+==========================================================================
+SOLUTION:
+@@@@ (b) and (c) are legal. (a) is illegal because it tries to reference a 
+member of d without mentioning d. (d) is illegal because it uses -> instead 
+of . to reference the c member of d
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================
