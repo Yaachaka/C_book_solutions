@@ -1,0 +1,21 @@
+==========================================================================
+@@@@ Exercise 3 (Section 18.2): knkcch18e03: List the storage duration (static 
+or automatic), scope (block or file), and linkage (internal, external, or none) 
+of each variable and parameter in the following file:
+	extern float a;
+	void f(register double b)
+	{	
+		static int c;
+		auto char d;
+	}
+==========================================================================
+SOLUTION:
+@@@@ extern float a: static duration, file scope, external linkage.  
+@@@@ register double b: automatic duration, block scope, no linkage.  
+@@@@ static int c: static duration, block scope, no linkage.  
+@@@@ auto char d: automatic duration, block scope, no linkage.
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================
