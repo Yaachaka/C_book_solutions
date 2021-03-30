@@ -1,0 +1,59 @@
+==========================================================================
+@@@@ Exercise 2 (Section 17.2): knkcch17e02: Write a function named duplicate 
+that uses dynamic storage allocation to create a copy of a string. For example, 
+the call
+
+	p = duplicate(str) ;
+
+would allocate space for a string of the same length as str, copy the contents of 
+str into the new string, and return a pointer to it. Have duplicate return a 
+null pointer if the memory allocation fails.
+==========================================================================
+SOLUTION:
+@@@@ Check PROGRAM OUTPUT.
+==========================================================================
+PROGRAM: (FLAGS: -std=c99): knkcch17e02.c
+#include <stdio.h>
+#include <stdlib.h>  //NULL, malloc()
+#include <string.h>  //strcpy()
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+char* duplicate(char *str);
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+//------------------------START OF MAIN()--------------------------------------
+int main(void)
+{
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	printf("File: %s, C Version: %d, Date: %s, Time: %s\n\n", __FILE__, __STDC_VERSION__, __DATE__, __TIME__);
+
+	char *str = "Hello there", *p;
+
+	p = duplicate(str);
+
+	printf("str: %s\np: %s", str, p);
+
+	printf("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	return 0;
+}
+//-------------------------END OF MAIN()---------------------------------------
+char* duplicate(char *str)
+{
+	char *p = malloc(strlen(str) + 1);
+	if(!p)
+		return NULL;
+	strcpy(p,str);
+	return p;
+
+}
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+==========================================================================
+PROGRAM OUTPUT: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: knkcch17e02.c, C Version: 199901, Date: Mar 15 2021, Time: 21:40:44
+
+str: Hello there
+p: Hello there
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================

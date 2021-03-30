@@ -1,0 +1,20 @@
+==========================================================================
+@@@@ Exercise 18 (Section 17.7): knkcch17e18: Modify the compare_parts function 
+so that parts are sorted with their numbers in descending order.
+==========================================================================
+SOLUTION:
+@@@@ Given
+int compare_parts(const void *p, const void *q)
+{
+	return ((struct part *)p) - ((struct part *)q);
+}
+@@@@ Modified
+int compare_parts(const void *p, const void *q)
+{
+	return ((struct part *)q) - ((struct part *)p);
+}
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

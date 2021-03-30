@@ -1,0 +1,36 @@
+==========================================================================
+@@@@ Exercise 7 (Section 17.5): knkcch17e07: The following loop is supposed to 
+delete all nodes from a linked list and release the memory that they occupy. 
+Unfortunately, the loop is incorrect. Explain what's wrong with it and show how 
+to fix the bug.
+
+	for (p = first; p != NULL; p = p->next)
+		free (p);
+==========================================================================
+SOLUTION:
+@@@@ Check PROGRAM OUTPUT.
+@@@@ Given 
+for(p = first; p != NULL; p = p->next)
+	free(p);
+
+@@@@ Modified
+struct node *temp;
+
+p = first;
+while (p)
+{
+  temp = p;
+  p = p->next;
+  free(temp);
+}
+
+@@@@ Modified 2
+struct node *temp;
+
+for(p = temp = first; p; temp =p, p=p->next, free(temp))
+;
+==========================================================================
+PROGRAM: NA
+==========================================================================
+PROGRAM OUTPUT: NA
+==========================================================================

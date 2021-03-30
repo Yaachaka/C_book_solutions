@@ -16,8 +16,8 @@ the call
 
 	p = duplicate(str) ;
 
-would allocate space for a string of the same length as str.copy the contents of 
-stx into the new string, and return a pointer to it. Have duplicate return a 
+would allocate space for a string of the same length as str, copy the contents of 
+str into the new string, and return a pointer to it. Have duplicate return a 
 null pointer if the memory allocation fails.
 
 @@@@ Exercise 3 (Section 17.3): knkcch17e03: Write the following function:
@@ -31,10 +31,10 @@ should be NULL if the array can’t be allocated.
 declarations are in effect:
 
 	struct point { int x, y; };
-	struct rectangle { struct point upper left, lower right; };
+	struct rectangle { struct point upper_left, lower_right; };
 	struct rectangle *p;
 Assume that we want p to point to a rectangle structure whose upper left corner 
-is at (10, 25) and whose lower right comer is at (20, 15). Write a series of 
+is at (10, 25) and whose lower right corner is at (20, 15). Write a series of 
 statements that allocate such a structure and initialize it as indicated.
 
 @@@@ Exercise 5 (Section 17.5): knkcch17e05: Suppose that f and p are declared 
@@ -103,7 +103,7 @@ to fix it. Assume that the node structure is the one defined in Section 17.5.
 	struct node *insert_into_ordered_list(struct node *list,struct node *new_node)
 	{
 		struct node *cur = list, *prev = NULL;
-		while (cur->value <= new node->value) {
+		while (cur->value <= new_node->value) {
 			prev = cur;
 			cur = cur->next;
 		}
@@ -145,7 +145,7 @@ program and explain what it does.
 	}
 
 @@@@ Exercise 16 (Section 17.7): knkcch17e16: Write the following function. The 
-call sum(g, i, j) should rectum g(i) +...+g(j).
+call sum(g, i, j) should return g(i) +...+g(j).
 	int sum(int (*f) (int), int start, int end);
 
 @@@@ Exercise 17 (Section 17.7): knkcch17e17: Let a be an array of 100 integers. 
@@ -165,9 +165,9 @@ matching command name, then calls the function associated with that name.
 		{	{"new",        new_cmd},
 			{"open",       open_cmd},
 			{"close",      close_cmd},
-			{"close all",  close _all_cmd},
+			{"close all",  close_all_cmd},
 			{"save",       save_cmd},
-			{"Save as",    save_as cmd},
+			{"Save as",    save_as_cmd},
 			{"save all",   save_all_cmd},
 			{"print",      print_cmd},
 			{"exit",       exit_cmd}
