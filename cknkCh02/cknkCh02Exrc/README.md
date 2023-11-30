@@ -236,6 +236,8 @@ Dimensional weight (pounds): 6
 
 <!-- START: Problem Statement -->
 
+Write a program that declares several `int` and `float` variables -- without initializing them -- and then prints their values. Is there any pattern to the values? (Usually there isn't.)
+
 <!-- END: Problem Statement -->
 
 # Solution:
@@ -252,12 +254,17 @@ Dimensional weight (pounds): 6
 
 <!-- START: terminal interaction or other output -->
 
+```bash
+inta_a: -1399676452, int_b: 127
+float_a: -513055257696817635131392.000000, float_b: 0.000000
+```
+
 <!-- END: terminal interaction or other output -->
 
 #### Trial1 Comments:
 
 <!-- START: Comments -->
-
+There is no specific pattern observed in the values of the variables declared.
 <!-- END: Comments -->
 
 ### Trial2:
