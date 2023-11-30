@@ -271,63 +271,13 @@ Anything that can be separated from the other with space without affecting synta
 
 <!-- START: Problem Statement -->
 
+Insert spaces between the tokens in exercise 8 to make the statement easier to read.
+
 <!-- END: Problem Statement -->
 
 # Solution:
 
-## Program Link
-
-[cknkCh02Exrc009.c](./cknkCh02Exrc009.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+`answer = ( 3 * q - p * p ) / 3 ;`
 
 <hr class="hr1"/>
 
