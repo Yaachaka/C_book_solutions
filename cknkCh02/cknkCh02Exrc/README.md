@@ -237,63 +237,33 @@ Except option (b) remaining all are C keywords. `If` is not equal to `if`; latte
 
 <!-- START: Problem Statement -->
 
+How many token are there in the following statement?  
+`answer=(3*q-p*p)/3;`
+
 <!-- END: Problem Statement -->
 
 # Solution:
 
-## Program Link
+There are a total of 14 tockens.
 
-[cknkCh02Exrc008.c](./cknkCh02Exrc008.c)
+```
+answer
+=
+(
+3
+*
+q
+-
+p
+*
+p
+)
+/
+3
+;
+```
 
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+Anything that can be separated from the other with space without affecting syntax wise or functionality wise is a token in C.
 
 <hr class="hr1"/>
 
