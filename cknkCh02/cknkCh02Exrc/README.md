@@ -17,15 +17,31 @@
 
 <!-- START: Problem Statement -->
 
+Create and run Kernighan and Ritchie's famous "hello, world" program:  
+
+```C
+#include <stdio.h>
+
+int main(void)
+{
+    printf("hello, world\n");
+}
+```
+
+Do you get a warning message from the compiler? If so, what's needed to make it go away?  
+
 <!-- END: Problem Statement -->
 
 # Solution:
 
+I did not get any warning message. I even tried with `-Wall` and `-O -Wall` flags.
+
+Anyway, a `return` statement is what is expected by the Exercise.  
+The Correct code is as given below.
+
 ## Program Link
 
-[cknkCh02Exrc001.c](./cknkCh02Exrc001.c)
-
-<iframe src="./cknkCh02Exrc001.c" height="600" width="400" scrolling="auto"></iframe>
+[cknkCh02Exrc001.c](cknkCh02Exrc001.c)
 
 ## Output/ExecutionLog:
 
@@ -35,37 +51,13 @@
 
 <!-- START: terminal interaction or other output -->
 
+```bash
+hello, world
+```
+
 <!-- END: terminal interaction or other output -->
 
 #### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
 
 <!-- START: Comments -->
 
@@ -90,8 +82,6 @@
 ## Program Link
 
 [cknkCh02Exrc002.c](./cknkCh02Exrc002.c)
-
-<iframe src="./cknkCh02Exrc002.c" height="600" width="400" scrolling="auto"></iframe>
 
 ## Output/ExecutionLog:
 
@@ -157,8 +147,6 @@
 
 [cknkCh02Exrc003.c](./cknkCh02Exrc003.c)
 
-<iframe src="./cknkCh02Exrc003.c" height="600" width="400" scrolling="auto"></iframe>
-
 ## Output/ExecutionLog:
 
 ### Trial1:
@@ -222,8 +210,6 @@
 ## Program Link
 
 [cknkCh02Exrc004.c](./cknkCh02Exrc004.c)
-
-<iframe src="./cknkCh02Exrc004.c" height="600" width="400" scrolling="auto"></iframe>
 
 ## Output/ExecutionLog:
 
@@ -289,8 +275,6 @@
 
 [cknkCh02Exrc005.c](./cknkCh02Exrc005.c)
 
-<iframe src="./cknkCh02Exrc005.c" height="600" width="400" scrolling="auto"></iframe>
-
 ## Output/ExecutionLog:
 
 ### Trial1:
@@ -354,8 +338,6 @@
 ## Program Link
 
 [cknkCh02Exrc006.c](./cknkCh02Exrc006.c)
-
-<iframe src="./cknkCh02Exrc006.c" height="600" width="400" scrolling="auto"></iframe>
 
 ## Output/ExecutionLog:
 
@@ -421,8 +403,6 @@
 
 [cknkCh02Exrc007.c](./cknkCh02Exrc007.c)
 
-<iframe src="./cknkCh02Exrc007.c" height="600" width="400" scrolling="auto"></iframe>
-
 ## Output/ExecutionLog:
 
 ### Trial1:
@@ -486,8 +466,6 @@
 ## Program Link
 
 [cknkCh02Exrc008.c](./cknkCh02Exrc008.c)
-
-<iframe src="./cknkCh02Exrc008.c" height="600" width="400" scrolling="auto"></iframe>
 
 ## Output/ExecutionLog:
 
@@ -553,8 +531,6 @@
 
 [cknkCh02Exrc009.c](./cknkCh02Exrc009.c)
 
-<iframe src="./cknkCh02Exrc009.c" height="600" width="400" scrolling="auto"></iframe>
-
 ## Output/ExecutionLog:
 
 ### Trial1:
@@ -618,8 +594,6 @@
 ## Program Link
 
 [cknkCh02Exrc010.c](./cknkCh02Exrc010.c)
-
-<iframe src="./cknkCh02Exrc010.c" height="600" width="400" scrolling="auto"></iframe>
 
 ## Output/ExecutionLog:
 
