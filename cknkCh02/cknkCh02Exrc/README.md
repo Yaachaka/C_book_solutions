@@ -57,18 +57,6 @@ hello, world
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
 <hr class="hr1"/>
 
 # cknkCh02Exrc002
@@ -118,46 +106,6 @@ available for its completion.
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
 <hr class="hr1"/>
 
 # cknkCh02Exrc003
@@ -189,46 +137,6 @@ Dimensional weight (pounds): 6
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 <hr class="hr1"/>
 
@@ -267,103 +175,26 @@ float_a: -513055257696817635131392.000000, float_b: 0.000000
 There is no specific pattern observed in the values of the variables declared.
 <!-- END: Comments -->
 
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
 <hr class="hr1"/>
 
 # cknkCh02Exrc005
 
 <!-- START: Problem Statement -->
 
+Which of the following are not legal C identifiers?  
+(a) `100_bottles`  
+(b) `_100_bottles`  
+(c) `one__hundred__bottles`  
+(d) `bottles_by_the_hundred_`  
+
 <!-- END: Problem Statement -->
 
 # Solution:
 
-## Program Link
-
-[cknkCh02Exrc005.c](./cknkCh02Exrc005.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+(a) `100_bottles`: Illegal. Doesn't start with Character or underscore.  
+(b) `_100_bottles`: Legal. Does start with Character or underscore.  
+(c) `one__hundred__bottles`: Legal. Does start with Character or underscore.  
+(d) `bottles_by_the_hundred_`: Legal. Does start with Character or underscore.  
 
 <hr class="hr1"/>
 
