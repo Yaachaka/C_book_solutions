@@ -202,63 +202,15 @@ Which of the following are not legal C identifiers?
 
 <!-- START: Problem Statement -->
 
+Why is it not a good idea for an identifier to contain more than one adjacent underscore (as in `current___balance`, for example?
+
 <!-- END: Problem Statement -->
 
 # Solution:
 
-## Program Link
-
-[cknkCh02Exrc006.c](./cknkCh02Exrc006.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+For the following reasons, it is not a good idea for an identifier to contain more than one underscores:  
+1. Hard to know how many underscores are there.  
+2. Many identifiers related to standard libraries are with two adjacent underscores.  
 
 <hr class="hr1"/>
 
