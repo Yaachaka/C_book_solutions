@@ -285,63 +285,38 @@ Insert spaces between the tokens in exercise 8 to make the statement easier to r
 
 <!-- START: Problem Statement -->
 
+In the `dweight.c` program (Section 2.4), which spaces are essential?
+
 <!-- END: Problem Statement -->
 
 # Solution:
 
-## Program Link
+```C
+/**
+ * File: dweight.c
+ * Author: K. N. King
+ * Purpose: Computes the dimensional weight of a 12" x 10" x 8" box
+ */
 
-[cknkCh02Exrc010.c](./cknkCh02Exrc010.c)
+#include <stdio.h> // Essential space `#include` and `<stdio.h>`
 
-## Output/ExecutionLog:
+int main(void) // Essential space after `int`
+{
+    int height, length, width, volume, weight; // Essential space after `int`
 
-### Trial1:
+    height = 8;
+    length = 12;
+    width = 10;
+    volume = height * length * width;
+    weight = (volume + 165) / 166;
 
-#### Trial1 execution:
+    printf("Dimensions: %dx%dx%d\n", length, width, height);
+    printf("Volume (cubic inches): %d\n", volume);
+    printf("Dimensional weight (pounds): %d\n", weight);
 
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+    return 0; // Essential space after `return` keyword.
+}
+```
 
 <hr class="hr1"/>
 
