@@ -17,6 +17,16 @@
 
 <!-- START: Problem Statement -->
 
+Write a program that uses `printf` to display the following picture on the screen:  
+
+```
+       *
+      *
+     *
+*   *
+ * *
+  *
+```
 
 <!-- END: Problem Statement -->
 
@@ -37,60 +47,15 @@
 
 
 ```
-
+       *
+      *
+     *
+*   *
+ * *
+  *
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 <hr class="hr1"/>
 
