@@ -74,10 +74,29 @@ hello, world
 # cknkCh02Exrc002
 
 <!-- START: Problem Statement -->
+Consider the following program:
+
+```C
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Parkinson's Law:\nWork expands so as to ");
+    printf("fill the time\n");
+    printf("available for its completion.\n");
+    return 0;
+}
+```
+
+(a) Identify the directives and statements in this program.  
+(b) What output does the program produce?
 
 <!-- END: Problem Statement -->
 
 # Solution:
+
+(a) Please check the comments in the program file (can be accessed from the program link).  
+(b) Please check under Trial1 execution.  
 
 ## Program Link
 
@@ -90,6 +109,12 @@ hello, world
 #### Trial1 execution:
 
 <!-- START: terminal interaction or other output -->
+
+```bash
+Parkinson's Law:
+Work expands so as to fill the time
+available for its completion.
+```
 
 <!-- END: terminal interaction or other output -->
 
