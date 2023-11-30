@@ -164,6 +164,8 @@ available for its completion.
 
 <!-- START: Problem Statement -->
 
+Condense the `dweight.c` program by (1) replacing the assignments to `height`, `length`, and `width` with initializers and (2) removing the `weight` variable, instead calculating `(volume + 165) / 166` within the last `printf`.
+
 <!-- END: Problem Statement -->
 
 # Solution:
@@ -179,6 +181,12 @@ available for its completion.
 #### Trial1 execution:
 
 <!-- START: terminal interaction or other output -->
+
+```bash
+Dimensions: 12x10x8
+Volume (cubic inches): 960
+Dimensional weight (pounds): 6
+```
 
 <!-- END: terminal interaction or other output -->
 
