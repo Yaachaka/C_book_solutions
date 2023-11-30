@@ -34,10 +34,12 @@ do
 
     echo "<!-- START: Problem Statement -->"
     echo $emptyLine
+    echo $emptyLine
     echo "<!-- END: Problem Statement -->"
     echo $emptyLine
 
     echo "# Solution:"
+    echo $emptyLine
     echo $emptyLine
 
     echo "## Program Link"
@@ -48,50 +50,29 @@ do
     echo "## Output/ExecutionLog:"
     echo $emptyLine
 
-    echo "### Trial1:"
-    echo $emptyLine
-    echo "#### Trial1 execution:"
-    echo $emptyLine
-    echo "<!-- START: terminal interaction or other output -->"
-    echo $emptyLine
-    echo "<!-- END: terminal interaction or other output -->"
-    echo $emptyLine
-    echo "#### Trial1 Comments:"
-    echo $emptyLine
-    echo "<!-- START: Comments -->"
-    echo $emptyLine
-    echo "<!-- END: Comments -->"
-    echo $emptyLine
+    for j in {1..3};
+    do
+        echo "### Trial$j:"
+        echo $emptyLine
+        echo "#### Trial$j execution:"
+        echo $emptyLine
+        echo "<!-- START: terminal interaction or other output -->"
+        echo $emptyLine
+        echo $emptyLine
+        echo "\`\`\`"
+        echo $emptyLine
+        echo "\`\`\`"
+        echo $emptyLine
+        echo "<!-- END: terminal interaction or other output -->"
+        echo $emptyLine
+        echo "#### Trial$j Comments:"
+        echo $emptyLine
+        echo "<!-- START: Comments -->"
+        echo $emptyLine
+        echo "<!-- END: Comments -->"
+        echo $emptyLine
 
-    echo "### Trial2:"
-    echo $emptyLine
-    echo "#### Trial2 execution:"
-    echo $emptyLine
-    echo "<!-- START: terminal interaction or other output -->"
-    echo $emptyLine
-    echo "<!-- END: terminal interaction or other output -->"
-    echo $emptyLine
-    echo "#### Trial2 Comments:"
-    echo $emptyLine
-    echo "<!-- START: Comments -->"
-    echo $emptyLine
-    echo "<!-- END: Comments -->"
-    echo $emptyLine
-
-    echo "### Trial3:"
-    echo $emptyLine
-    echo "#### Trial3 execution:"
-    echo $emptyLine
-    echo "<!-- START: terminal interaction or other output -->"
-    echo $emptyLine
-    echo "<!-- END: terminal interaction or other output -->"
-    echo $emptyLine
-    echo "#### Trial3 Comments:"
-    echo $emptyLine
-    echo "<!-- START: Comments -->"
-    echo $emptyLine
-    echo "<!-- END: Comments -->"
-    echo $emptyLine
+    done
 
     echo "# Exercise Comment:"
     echo $emptyLine
