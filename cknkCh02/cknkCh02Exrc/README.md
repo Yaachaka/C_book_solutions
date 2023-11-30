@@ -218,63 +218,18 @@ For the following reasons, it is not a good idea for an identifier to contain mo
 
 <!-- START: Problem Statement -->
 
+Which of the following are keywords in C?  
+(a) `for`  
+(b) `If`  
+(c) `main`  
+(d) `printf`  
+(e) `while`  
+
 <!-- END: Problem Statement -->
 
 # Solution:
 
-## Program Link
-
-[cknkCh02Exrc007.c](./cknkCh02Exrc007.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+Except option (b) remaining all are C keywords. `If` is not equal to `if`; latter is a C keyword.
 
 <hr class="hr1"/>
 
