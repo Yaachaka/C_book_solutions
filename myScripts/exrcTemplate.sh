@@ -45,9 +45,6 @@ do
     echo "[$name2.c](./$name2.c)"
     echo $emptyLine
 
-    echo "<iframe src=\"./$name2.c\" height=\"600\" width=\"400\" scrolling=\"auto\"></iframe>"
-    echo $emptyLine
-
     echo "## Output/ExecutionLog:"
     echo $emptyLine
 
