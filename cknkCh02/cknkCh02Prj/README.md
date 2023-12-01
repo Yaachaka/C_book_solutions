@@ -137,6 +137,12 @@ Volume (when we put 4/3): 5425.92
 
 <!-- START: Problem Statement -->
 
+Write a program that asks the user to enter a dollar-and-cents amount, then displays the amount with 5% tax added:  
+
+```
+Enter an amount: 100.00
+With tax added: $105.00
+```
 
 <!-- END: Problem Statement -->
 
@@ -157,16 +163,11 @@ Volume (when we put 4/3): 5425.92
 
 
 ```
-
+Enter an amount: 100.00
+With tax added: $105.00
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -176,41 +177,11 @@ Volume (when we put 4/3): 5425.92
 
 
 ```
-
+Enter an amount: 168.12
+With tax added: $176.53
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 <hr class="hr1"/>
 
