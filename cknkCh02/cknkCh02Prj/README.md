@@ -103,6 +103,7 @@ Volume (when we put 4/3): 3140.00. All the digits after the decimal point will b
 
 <!-- START: Problem Statement -->
 
+Modify the program of Programming Project 2 so that it prompts the user to enter the radius of the sphere.
 
 <!-- END: Problem Statement -->
 
@@ -123,60 +124,12 @@ Volume (when we put 4/3): 3140.00. All the digits after the decimal point will b
 
 
 ```
-
+Hey user, please enter the radius value: 12
+Volume (when we put 4.0f/3.0f): 7234.56
+Volume (when we put 4/3): 5425.92
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 <hr class="hr1"/>
 
