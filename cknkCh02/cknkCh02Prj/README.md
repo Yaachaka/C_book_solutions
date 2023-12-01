@@ -63,6 +63,7 @@ Write a program that uses `printf` to display the following picture on the scree
 
 <!-- START: Problem Statement -->
 
+Write a program that computes the volume of a sphere with a 10-meter radius, using the formula $$ v = \frac{4}{3} \pi r^3 $$. Write the fraction 4/3 as `4.0f/3.0f`. (Try writing it as 4/3. What happens?) *Hint:* C Doesn't have an exponentiation operator, so you'll need to multiply `r` by itself twice to compute $$ r^3 $$.
 
 <!-- END: Problem Statement -->
 
@@ -83,7 +84,8 @@ Write a program that uses `printf` to display the following picture on the scree
 
 
 ```
-
+Volume (when we put 4.0f/3.0f): 4186.67
+Volume (when we put 4/3): 3140.00. All the digits after the decimal point will be ignored.
 ```
 
 <!-- END: terminal interaction or other output -->
@@ -91,51 +93,8 @@ Write a program that uses `printf` to display the following picture on the scree
 #### Trial1 Comments:
 
 <!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
+- When we put `4.0f/3.0f`, that results in `1.33333....`.  
+- When we put `4/3`, that results in `1`.  
 <!-- END: Comments -->
 
 <hr class="hr1"/>
