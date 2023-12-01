@@ -238,6 +238,9 @@ Value of the given polynomial: 24840
 
 <!-- START: Problem Statement -->
 
+Modify the program of Programming Project 5 so that the polynomial is evaluated using the following formula:  
+$$ ((((3x + 2)x - 5)x - 1)x + 7)x -6 $$  
+Note that the modified program performs fewer multiplications. This technique for evaluating polynomials is known as ***Horner's Rule***.
 
 <!-- END: Problem Statement -->
 
@@ -258,16 +261,11 @@ Value of the given polynomial: 24840
 
 
 ```
-
+Enter the value of x: 8
+Value of the given polynomial: 103922
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -277,41 +275,11 @@ Value of the given polynomial: 24840
 
 
 ```
-
+Enter the value of x: 6
+Value of the given polynomial: 24840
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 <hr class="hr1"/>
 
