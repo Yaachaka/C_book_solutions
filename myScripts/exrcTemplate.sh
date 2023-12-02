@@ -24,6 +24,7 @@ echo $title
 echo "  "
 
 echo "<hr class=\"hr1\"/>"
+echo $emptyLine
 
 for i in $(seq 1 $exrcCount);
 do
@@ -33,6 +34,7 @@ do
     echo $emptyLine
 
     echo "<!-- START: Problem Statement -->"
+    echo $emptyLine
     echo $emptyLine
     echo $emptyLine
     echo "<!-- END: Problem Statement -->"
@@ -57,7 +59,6 @@ do
         echo "#### Trial$j execution:"
         echo $emptyLine
         echo "<!-- START: terminal interaction or other output -->"
-        echo $emptyLine
         echo $emptyLine
         echo "\`\`\`"
         echo $emptyLine
