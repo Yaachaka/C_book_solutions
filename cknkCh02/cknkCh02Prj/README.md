@@ -349,6 +349,19 @@ $10 bills: 0
 
 <!-- START: Problem Statement -->
 
+Write a program that calculates the remaining balance on a loan after the first, second, and third monthly payments:  
+
+```
+Enter amount of loan: 20000.00
+Enter interest rate: 6.0
+Enter monthly payment: 386.66
+
+Balance remaining after first payment: $19713.34
+Balance remaining after second payment: $19425.25
+Balance remaining after third payment: $19135.71
+```
+
+Display each balance with two digits after the decimal point. *Hint:* Each month, the balance is decreased by the amount of the payment, but increased by the balance times the monthly interest rate. To find the monthly interest rate, convert the interest rate entered by the user to a percentage and divide it by 12.
 
 <!-- END: Problem Statement -->
 
@@ -367,62 +380,33 @@ $10 bills: 0
 
 <!-- START: terminal interaction or other output -->
 
-
 ```
-
+Enter amount of loan: 20000.00
+Enter interest rate: 6.0
+Enter monthly payment: 386.66
+Balance remaining after first payment: $19713.34
+Balance remaining after second payment: $19425.25
+Balance remaining after third payment: $19135.71
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
+## Trial2:
 
 #### Trial2 execution:
 
 <!-- START: terminal interaction or other output -->
 
-
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-
-```
-
+Enter amount of loan: 125000
+Enter interest rate: 12
+Enter monthly payment: 4573.00
+Balance remaining after first payment: $121677.00
+Balance remaining after second payment: $118320.77
+Balance remaining after third payment: $114930.98
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 <hr class="hr1"/>
 
