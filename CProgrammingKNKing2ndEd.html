@@ -1,0 +1,468 @@
+<style>
+    h1
+    {
+    }
+
+    body
+    {
+        width: 96%;
+    }
+
+    div
+    {
+        margin: 5px;
+        padding: 1px;
+    }
+
+    .theQuote
+    {
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .chapterDivider
+    {
+        width: 90%;
+        height: 8px;
+        border-radius: 5px;
+        background: repeating-linear-gradient(45deg, black, transparent, violet, indigo, blue, green, yellow, orange, red 100px);
+    }
+
+    .infoBox
+    {
+        /* Inner border */
+        border-width: 4px;
+        border-style: ridge;
+        border-color: #000;
+        background: rgb(208, 225, 225);
+    }
+
+    .warningEmoji::before
+    {
+        content: "\26A0";
+        font-size: 24px;
+    }
+
+    .C99Symbol::before
+    {
+        border-radius: 70%;
+        border-color: black;
+        border-style: double;
+        content: "C99";
+        font-weight: bold;
+        background: black;
+        color: white;
+    }
+
+    .math
+    {
+        border-style: dashed;
+        border-width: thin;
+        background-color: wheat;
+        padding: 5px;
+    }
+
+    code
+    {
+        background-color: ghostwhite;
+        border-radius: 15%;
+        padding: 1px;
+    }
+
+    .C
+    {
+        background-color: honeydew;
+
+    }
+
+    .bash, .shell
+    {
+        background-color: palegreen;
+        font-weight: bold;
+    }
+</style>
+<h1 id="title-of-the-book-c-programming-a-modern-approach">Title of the
+Book: C Programming A Modern Approach</h1>
+<h2 id="edition-second-edition-2008">Edition: Second Edition (2008)</h2>
+<h3 id="author-k.n.king">Author: K.N.King</h3>
+<p><i>A clear, complete, and engaging presentation of the C programming
+language – now with coverage of both C89 and C99.</i></p>
+<div class="theQuote">
+In computing, turning the obvious into the useful is a living definition
+of the word “frustration.”
+</div>
+<hr class="chapterDivider"/>
+<h1 id="introducing-c">1 Introducing C</h1>
+<div class="theQuote">
+When someone says “I want a programming language in which I need only
+say what I wish done,” give him a lollipop.
+</div>
+<p><strong>Few points on C:</strong><br />
+- Developed in the early 1970s at Bell Laboratories by <strong>Ken
+Thompson</strong>, <strong>Dennis Ritchie</strong>, and others.<br />
+- <em>The C Programming Language</em>, written by <strong>Brian
+Kernighan</strong> and <strong>Dennis Ritchie</strong> published in
+1978.<br />
+- In December 1989, standardisation of C under <em>ANSI (American
+National Standards Institute)</em> was approved as <em>ANSI standard
+X3.159-1989</em>.<br />
+- In 1990, it was approved by the <em>International Organization for
+Standardization (ISO)</em> as <em>internation standard ISO/IEC
+9899:1990</em>.</p>
+<hr class="chapterDivider"/>
+<h1 id="c-fundamentals">2 C Fundamentals</h1>
+<div class="theQuote">
+One man’s constant is another man’s variable
+</div>
+<p>This chapter introduces several basic concepts, including
+preprocessing directives, functions, variables, and statements, that
+we’ll need in order to write even the simplest programs. Later chapters
+will cover these topics in much greater detail.</p>
+<p>To start off, Section 2.1 presents a small C program and describes
+how to compile and link it. Section 2.2 then discusses how to generalize
+the program, and Section 2.3 shows how to add explantory remarks, known
+as comments. Section 2.4 introduces variables, which store data that may
+change during the execution of a program, and Section 2.5 shows how to
+use the <code>scanf</code> function to read data into variables.
+Constants – data that won’t change during program execution – can be
+given names, as Section 2.6 shows. Finally, Section 2.7 explains C’s
+rules for creating names (identifiers) and Section 2.8 gives the rules
+for laying out a program.</p>
+<h2 id="writing-a-simple-program">2.1 Writing a Simple Program</h2>
+<p>In contrast to programs written in some languages, C programs require
+little “boilerplate” – a complete program can be as short as a few
+lines.</p>
+<h3 id="program-printing-a-pun">2.1.1 (PROGRAM) Printing a Pun</h3>
+<p>The first program which we will name <code>pun.c</code>, is expected
+to display the following message each time it is run.</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">To</span> C, or not to C: that is the question.</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* file: pun.c */</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;To C, or not to C: that is the question.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Section 2.2 explains the form of this program in some detail. For
+now, I’ll just make a few brief observations. The line</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span></code></pre></div>
+<p>is necessary to “include” information about C’s standard I/O
+(input/output) library. The program’s executable code goes inside
+<code>main</code>, which represents the “main” program. The only line
+inside <code>main</code> is a command to display the desired message.
+<code>printf</code> is a function from the standard I/O library that can
+produce nicely formatted output. The <code>\n</code> code tells
+<code>printf</code> to advance to the next line after printing the
+message. The line</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>indicates that the program “returns” the value 0 to the operating
+system when it terminates.</p>
+<h3 id="compiling-and-linking">2.1.2 Compiling and Linking</h3>
+<p>Despite its brevity, getting <code>pun.c</code> to run is more
+involved than you might expect. First, we need to create a file named
+<code>pun.c</code> containing the program (any text editor will do). The
+name of the file doesn’t matter, but the <code>.c</code> extension is
+often required by compilers.</p>
+<p>Next, we’ve got to convert the program to a form that the machine can
+execute. For a C program, that usually involves three steps:</p>
+<ul>
+<li><strong>Preprocessing.</strong> The program is first given to a
+<strong>preprocessor</strong>, which obeys commands that begin with
+<code>#</code> (known as <strong><em>directives</em></strong>). A
+preprocessor is a bit like an editor; it can add things to the program
+and make modifications.<br />
+</li>
+<li><strong>Compiling.</strong> The modified program now goes to a
+<strong>Compiler</strong>. which translates it into machine instructions
+(<strong><em>object code</em></strong>). The program isn’t quite ready
+to run yet, however.<br />
+</li>
+<li><strong>Linking.</strong> In the final step, a
+<strong>linker</strong> combines the object code produced by the
+compiler with any additional code needed to yield a complete executable
+program. This additional code includes library functions (like
+<code>printf</code>) that are used in the program.</li>
+</ul>
+<p>Fortunately, this process is often automated, so you won’t find it
+too onerous. In fact, the preprocessor is usually integrated with the
+compiler, so you probably won’t even notice it at work.</p>
+<p>The commands necessary to compile and link vary, depending on the
+compiler and operating system. Under UNIX, the C compiler is usually
+named <code>cc</code>. To compile and link the <code>pun.c</code>
+program, enter the following command in a terminal or command-line
+window:</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">%</span> cc pun.c</span></code></pre></div>
+<p>(The <code>%</code> character is the UNIX prompt, not something that
+you need to enter.) Linking is automatic when using <code>cc</code>; no
+separate link command is necessary.</p>
+<p>After compiling and linking the program, <code>cc</code> leaves the
+executable program in a file named <code>a.out</code> by default.
+<code>cc</code> has many options; one of them (the <code>-o</code>
+option) allows us to choose the name of the file containing the
+executable program. For example, if we want the executable version of
+<code>pun.c</code> to be named <code>pun</code>, we would enter the
+following command:</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">%</span> cc <span class="at">-o</span> pun pun.c</span></code></pre></div>
+<section id="the-gcc-compiler" class="infoBox">
+<h3>The GCC Compiler</h3>
+<p>One of the most popular C compilers is the GCC compiler, which is
+supplied with Linux but is available for many other platforms as well.
+Using this compiler is similar to using the traditional UNIX
+<code>cc</code> compiler. For example, to compile the <code>pun.c</code>
+program, we would use the following command:</p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">%</span> gcc <span class="at">-o</span> pun pun.c</span></code></pre></div>
+<p>The Q&amp;A section at the end of the chapter provides more
+information about GCC.</p>
+</section>
+<h3 id="integrated-development-environments">2.1.3 Integrated
+development environments</h3>
+<p>so far, we’ve assumed the use of a “command-line” compiler that’s
+invoked by entering a command in a special window provided by the
+operating system. The alternative is to use an <strong><em>integrated
+development environment (IDE)</em></strong>, a software package that
+allows us to
+<code>edit, compile, link, execute, and even debug a program</code>
+without leaving the environment. The components of an IDE are designed
+to work together. For example, when the compiler detects an error in a
+program, it can arrange for the editor to highlight the line that
+contains the error. There’s a great deal of variation among IDEs, so I
+won’t discuss them further in this book. However, I would recommend
+checking to see which IDEs are available for your platform.</p>
+<h2 id="the-general-form-of-a-simple-program">2.2 The General Form of a
+Simple Program</h2>
+<p>Let’s take a closer look at <code>pun.c</code> and see how we can
+generalize it a bit. Simple C programs have the form</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>directives</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    statements</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Notice how the braces show where <code>main</code> begins and ends. C
+uses <code>{</code> and <code>}</code> in much the same way that some
+other languages use words like <code>begin</code> and <code>end</code>.
+This illustrates a general point about C: it relies heavily on
+abbreviations and special symbols, one reason that C programs are
+concise (or – less charitably – cryptic).</p>
+<p>Even the simplest C programs rely on three key language features:
+directives (editing commands that modify the program prior to
+compilation), functions (named blocks of executable code, of which
+<code>main</code> is an example), and statements (commands to be
+performed when the program is run). We’ll take a closer look at these
+features now.</p>
+<h3 id="directives">2.2.1 Directives</h3>
+<p>Before a C program is compiled, it is first edited by a preprocessor.
+Commands intended for the preprocessor are called directives. Chapter 14
+and Chapter 15 discuss directives in detail. For now, we’re interested
+only in the <code>#include</code> directive.</p>
+<p>The <code>pun.c</code> program begins with the line</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span></code></pre></div>
+<p>This directive states that the information is
+<code>&lt;stdio.h&gt;</code> is to be “included” into the program before
+it is compiled. <code>&lt;stdio.h&gt;</code> contains information about
+C’s standard I/O library. C has a number of <em>headers</em> like
+<code>&lt;stdio.h&gt;</code>; each contains information about some part
+of the standard library. The reason we’re including
+<code>&lt;stdio.h&gt;</code> is that C, unlike some programming
+languages, has no built-in “read” and “write” commands. The ability to
+perform input and output is provided instead by functions in the
+standard library.</p>
+<p>Directives always begin with <code>#</code> character, which
+distinguishes them from other items in a C program. By default,
+directives are one line long; there’s no semicolon or other special
+marker at the end of a directive.</p>
+<h3 id="functions">2.2.2 Functions</h3>
+<p><strong>Functions</strong> are like “procedures” or “subroutines” in
+other programming languages – they’re the building blocks from which
+programs are constructed. In fact, a C program is little more than a
+collection of functions. Functions fall into two categories: those
+written by the programmer and those provided as part of the c
+implementation. I’ll refer to the latter as <em>library functions</em>,
+since they belong to a “library” of functions that are supplied with the
+compiler.</p>
+<p>The term “function” comes from mathematics, where a function is a
+rule for computing a value when given one or more arguments:</p>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = <em>x</em> + 1</span></p>
+<p><span
+class="math display"><em>g</em>(<em>y</em>,<em>z</em>) = <em>y</em><sup>2</sup> − <em>z</em><sup>2</sup></span></p>
+<p>C uses the term “function” more loosely. In C, a function is simply a
+series of statements that have been grouped together and given a name.
+Some functions compute a value; some don’t. A function that computes a
+value uses the <code>return</code> statement to specify what value it
+“returns.” For example, a function that adds 1 to its argument might
+execute the statement <code>return x + 1;</code> while a function that
+computes the difference of the squares of its arguments might execute
+the statement <code>return y * y - z * z;</code></p>
+<p>Although a C program may consist of many functions, only the
+<code>main</code> function is mandatory. <code>main</code> is special:
+it gets called automatically when the program is executed. Until Chapter
+9, where we’ll learn how to write other functions, <code>main</code>
+will be the only function in our programs.</p>
+<div class="infoBox">
+<div class="warningEmoji">
+
+</div>
+<p>The name <code>main</code> is critical; it can’t be
+<code>begin</code> or <code>start</code> or even <code>MAIN</code>.</p>
+</div>
+<p>If <code>main</code> is a function, does it return a value? Yes: it
+returns a status code that is given to the operating system when the
+program terminates. Let’s take another look at the <code>pun.c</code>
+program:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;To C, or not to C: that is the question.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The word <code>int</code> just before <code>main</code> indicates
+that the <code>main</code> function returns an integer value. The word
+<code>void</code> in parenthesis indicates that <code>mian</code> has no
+arguments.</p>
+<p>The statement <code>return 0;</code> has two effects: it causes the
+main function to terminate (thus ending the program) and it indicates
+that the <code>main</code> function returns a value of 0. We will have
+more to say about <code>main</code>’s return value in a later chapter.
+For now, we’ll always have <code>main</code> return the value 0, which
+indicates normal program termination.</p>
+<p>If there’s no <code>return</code> statement at the end of the
+<code>main</code> function, the program will still terminate. However,
+many compilers will produce a warning message (because the function was
+supposed to return an integer but failed to).</p>
+<h3 id="statements">2.2.3 Statements</h3>
+<p>A <strong>Statement</strong> is a command to be executed when the
+program runs. We’ll explore statements later in the book, primarily in
+Chpater 5 and 6. The <code>pun.c</code> program uses only two kinds of
+statements. One is the <code>return</code> statement; the other is the
+<em>function call</em>. Asking a function to perform its assigned task
+is known as <em>calling</em> the function. The <code>pun.c</code>
+program, for example, calls the <code>printf</code> function to display
+a string on the screen:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;To C, or not to C: that is the question. </span><span class="sc">\n</span><span class="st">);</span></span></code></pre></div>
+<p>C requires that each statement end with a semicolon. (As with any
+good rule, there’s one exception: the compound statement, which we’ll
+encounter later.) The semicolon shows the compiler where the statement
+ends; since statements can continue over several lines, it’s not always
+obvious where they end. Directives, on the other hand, are normally one
+line long, and they don’t end with a semicolon.</p>
+<h3 id="printing-strings">2.2.4 Printing Strings</h3>
+<p><code>printf</code> is a powerful function that we’ll examine in
+Chapter 3. So far, we’ve only used <code>printf</code> to display a
+<strong>string literal</strong> – a series of characters enclosed in
+double quotation marks. When <code>printf</code> displays a string
+literal, it doesn’t show the quotation marks.</p>
+<p><code>printf</code> doesn’t automatically advance to the next output
+line when it finishes printing. To instruct <code>printf</code> to
+advance one line, we must include <code>\n</code> (the <em>new-line
+character</em>) in the string to be printed. Writing a new-line
+character terminates the current output line; subsequent output goes on
+to the next line. to illustrate this point, consider the effect of
+replacing the statement</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;To C, or not to C: that is the question.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>by two calls of <code>printf</code>:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;To C, or not to C: &quot;</span><span class="op">);</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;that is the question.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>The first call of <code>printf</code> writes
+<code>To C, or not to C:</code>. The second call writes
+<code>that is the question.</code> and advances to the next line. The
+net effect is the same as the original <code>printf</code> – the user
+can’t tell the difference.</p>
+<p>The new-line character can appear more than once in a string literal.
+To display the message</p>
+<pre><code>Brevity is the soul of wit.
+  --Shakespeare</code></pre>
+<p>we could write</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Brevity is the soul of wit.</span><span class="sc">\n</span><span class="st">  --Shakespeare</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<h2 id="comments">2.3 Comments</h2>
+<p>Our <code>pun.c</code> program still lacks something important:
+documentation. Every program should contain identifying information: the
+program name, the date written, the author, the purpose of the program,
+and so forth. In C, this information is placed in
+<strong><em>Comments</em></strong>. The symbol <code>/*</code> marks the
+beginning of a comment and the symbol <code>*/</code> marks the end:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* This is a comment */</span></span></code></pre></div>
+<p>Comments may appear almost anywhere in a program, either on separate
+lines or on the same lines as other program text. Here’s what
+<code>pun.c</code> might look like with comments added at the
+beginning:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* Name: pun.c */</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co">/* Purpose: Prints a bad pun. */</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co">/* Author: K. N. King */</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;To C, or not to C: that is the question.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Comments may extend over more than one line; once it has seen the
+<code>/*</code> symbol, the compiler reads (and ignores) whatever
+follows until it encounters the <code>*/</code> symbol. If we like, we
+can combine a series of short comments into one long comment:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* Name: pun.c</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co">   Purpose: Prints a bad pun.</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co">   Author: K. N. King */</span></span></code></pre></div>
+<p>A comment like this can be hard to read, though, because it’s not
+easy to see where the comment ends. Putting <code>*/</code> on a line by
+itself helps:</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* Name: pun.c</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="co">   Purpose: Prints a bad pun.</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co">   Author: K. N. King </span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co">*/</span></span></code></pre></div>
+<p>Even better, we can form a “box” around the comment to make it stand
+out:</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">/************************************************************ </span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co">* Name: pun.c                                               *</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co">* Purpose: Prints a bad pun.                                *</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co">* Author: K. N. King                                        *</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="co">************************************************************/</span></span></code></pre></div>
+<p>Programmers often simplify boxed comments by omitting three of the
+sides:</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * Name: pun.c</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Prints a bad pun.</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span></code></pre></div>
+<p>A short comment can go on the same line with other program code:</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span>    <span class="co">/* Beginning of main program */</span></span></code></pre></div>
+<p>A comment like this is sometimes called a “winged comment”.</p>
+<div class="infoBox">
+<div class="warningEmoji">
+
+</div>
+<p>Forgetting to terminate a comment may cause the compiler to ignore
+part of your program. Consider the following example:</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;My &quot;</span><span class="op">);</span>    <span class="co">/* forgot to close this comment...</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="co">printf(&quot;cat &quot;);</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="co">printf(&quot;has &quot;);    /* so it ends here */</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;fleas&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>Because we have neglected to terminate the first comment, the
+compiler ignores the middle two statements, and the example prints
+<code>My fleas</code>.</p>
+</div>
+<div class="C99Symbol">
+
+</div>
+<p>C99 provides a second kind of comment, which begins with
+<code>//</code> (two adjacent slashes):</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">// This is a comment</span></span></code></pre></div>
+<p>This style of comment ends automatically at the end of a line. To
+create a commet that’s more than one line long, we can either use the
+older comment style (<code>/* ... */</code>) or else put <code>//</code>
+at the beginning of each comment line:</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">// Name: pun.c</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="co">// Purpose: Prints a bad pun.</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="co">// Author: K. N. King</span></span></code></pre></div>
+<p>The newer comment style has a couple of important advantages. First,
+because a comment automatically ends at the end of a line, there’s no
+chance that an unterminated comment will accidentally consume part of a
+program. Second, multiline comments stand out better, thanks to the
+<code>//</code> that’s required at the beginning of each line.</p>

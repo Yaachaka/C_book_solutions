@@ -8,6 +8,12 @@
         width: 96%;
     }
 
+    div
+    {
+        margin: 5px;
+        padding: 1px;
+    }
+
     .theQuote
     {
         font-style: italic;
@@ -19,7 +25,7 @@
         width: 90%;
         height: 8px;
         border-radius: 5px;
-        background: radial-gradiant(circle, violet, indigo, blue, green, yellow, orange, red);
+        background: repeating-linear-gradient(45deg, black, transparent, violet, indigo, blue, green, yellow, orange, red 100px);
     }
 
     .infoBox
@@ -28,14 +34,51 @@
         border-width: 4px;
         border-style: ridge;
         border-color: #000;
-        padding: 2px;
         background: rgb(208, 225, 225);
     }
 
     .warningEmoji::before
     {
         content: "\26A0";
-        display: inline-block;
+        font-size: 24px;
+    }
+
+    .C99Symbol::before
+    {
+        border-radius: 70%;
+        border-color: black;
+        border-style: double;
+        content: "C99";
+        font-weight: bold;
+        background: black;
+        color: white;
+    }
+
+    .math
+    {
+        border-style: dashed;
+        border-width: thin;
+        background-color: wheat;
+        padding: 5px;
+    }
+
+    code
+    {
+        background-color: ghostwhite;
+        border-radius: 15%;
+        padding: 1px;
+    }
+
+    .C
+    {
+        background-color: honeydew;
+
+    }
+
+    .bash, .shell
+    {
+        background-color: palegreen;
+        font-weight: bold;
     }
 </style>
 
@@ -51,7 +94,7 @@
 
 # 1 Introducing C
 
-<div class="theQuote">When someone says "I want a programming language in which I need only say what I wish done," give him a lollipop."</div>
+<div class="theQuote">When someone says "I want a programming language in which I need only say what I wish done," give him a lollipop.</div>
 
 **Few points on C:**  
 - Developed in the early 1970s at Bell Laboratories by **Ken Thompson**, **Dennis Ritchie**, and others.  
@@ -194,9 +237,11 @@ C uses the term "function" more loosely. In C, a function is simply a series of 
 Although a C program may consist of many functions, only the `main` function is mandatory. `main` is special: it gets called automatically when the program is executed. Until Chapter 9, where we'll learn how to write other functions, `main` will be the only function in our programs.
 
 <div class="infoBox">
-    <div class="warningEmoji"></div>  
 
-    The name `main` is critical; it can't be `begin` or `start` or even `MAIN`.
+<div class="warningEmoji"></div>
+
+The name `main` is critical; it can't be `begin` or `start` or even `MAIN`.
+
 </div>
 
 If `main` is a function, does it return a value? Yes: it returns a status code that is given to the operating system when the program terminates. Let's take another look at the `pun.c` program:
@@ -229,7 +274,7 @@ C requires that each statement end with a semicolon. (As with any good rule, the
 
 ### 2.2.4 Printing Strings
 
-`printf` is a powerful function that we'll examine in Chapter 3. So far, we've only used `printf` to display a *string literal** -- a series of characters enclosed in double quotation marks. When `printf` displays a string literal, it doesn't show the quotation marks.
+`printf` is a powerful function that we'll examine in Chapter 3. So far, we've only used `printf` to display a **string literal** -- a series of characters enclosed in double quotation marks. When `printf` displays a string literal, it doesn't show the quotation marks.
 
 `printf` doesn't automatically advance to the next output line when it finishes printing. To instruct `printf` to advance one line, we must include `\n` (the *new-line character*) in the string to be printed. Writing a new-line character terminates the current output line; subsequent output goes on to the next line. to illustrate this point, consider the effect of replacing the statement
 
@@ -258,3 +303,108 @@ we could write
 ```C
 printf("Brevity is the soul of wit.\n  --Shakespeare\n");
 ```
+
+## 2.3 Comments
+
+Our `pun.c` program still lacks something important: documentation. Every program should contain identifying information: the program name, the date written, the author, the purpose of the program, and so forth. In C, this information is placed in ***Comments***. The symbol `/*` marks the beginning of a comment and the symbol `*/` marks the end:
+
+```C
+/* This is a comment */
+```
+
+Comments may appear almost anywhere in a program, either on separate lines or on the same lines as other program text. Here's what `pun.c` might look like with comments added at the beginning:
+
+```C
+/* Name: pun.c */
+/* Purpose: Prints a bad pun. */
+/* Author: K. N. King */
+
+#include <stdio.h>
+
+int main(void)
+{
+    printf("To C, or not to C: that is the question.\n");
+    return 0;
+}
+```
+
+Comments may extend over more than one line; once it has seen the `/*` symbol, the compiler reads (and ignores) whatever follows until it encounters the `*/` symbol. If we like, we can combine a series of short comments into one long comment:
+
+```C
+/* Name: pun.c
+   Purpose: Prints a bad pun.
+   Author: K. N. King */
+```
+
+A comment like this can be hard to read, though, because it's not easy to see where the comment ends. Putting `*/` on a line by itself helps:
+
+```C
+/* Name: pun.c
+   Purpose: Prints a bad pun.
+   Author: K. N. King 
+*/
+```
+
+Even better, we can form a "box" around the comment to make it stand out:
+
+```C
+/************************************************************ 
+* Name: pun.c                                               *
+* Purpose: Prints a bad pun.                                *
+* Author: K. N. King                                        *
+************************************************************/
+```
+
+Programmers often simplify boxed comments by omitting three of the sides:
+
+```C
+/* 
+ * Name: pun.c
+ * Purpose: Prints a bad pun.
+ * Author: K. N. King
+ */
+```
+
+A short comment can go on the same line with other program code:
+
+```C
+int main(void)    /* Beginning of main program */
+```
+
+A comment like this is sometimes called a "winged comment".
+
+<div class="infoBox">
+
+<div class="warningEmoji"></div>  
+
+Forgetting to terminate a comment may cause the compiler to ignore part of your program. Consider the following example:
+    
+```C
+printf("My ");    /* forgot to close this comment...
+printf("cat ");
+printf("has ");    /* so it ends here */
+printf("fleas");
+```
+
+Because we have neglected to terminate the first comment, the compiler ignores the middle two statements, and the example prints `My fleas`. 
+</div>
+
+<div class="C99Symbol"></div>
+
+C99 provides a second kind of comment, which begins with `//` (two adjacent slashes):
+
+```C
+// This is a comment
+```
+
+This style of comment ends automatically at the end of a line. To create a commet that's more than one line long, we can either use the older comment style (`/* ... */`) or else put `//` at the beginning of each comment line:
+
+```C
+// Name: pun.c
+// Purpose: Prints a bad pun.
+// Author: K. N. King
+```
+
+The newer comment style has a couple of important advantages. First, because a comment automatically ends at the end of a line, there's no chance that an unterminated comment will accidentally consume part of a program. Second, multiline comments stand out better, thanks to the `//` that's required at the beginning of each line.
+
+
