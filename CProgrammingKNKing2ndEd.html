@@ -54,6 +54,17 @@
         color: white;
     }
 
+    .QandA::before
+    {
+        border-radius: 70%;
+        border-color: black;
+        border-style: double;
+        content: "Q&A";
+        font-weight: bold;
+        background: black;
+        color: white;
+    }
+ 
     .math
     {
         border-style: dashed;
@@ -305,9 +316,7 @@ it gets called automatically when the program is executed. Until Chapter
 9, where we’ll learn how to write other functions, <code>main</code>
 will be the only function in our programs.</p>
 <div class="infoBox">
-<div class="warningEmoji">
-
-</div>
+<p><span class="warningEmoji"></span></p>
 <p>The name <code>main</code> is critical; it can’t be
 <code>begin</code> or <code>start</code> or even <code>MAIN</code>.</p>
 </div>
@@ -435,9 +444,7 @@ sides:</p>
 <div class="sourceCode" id="cb22"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span>    <span class="co">/* Beginning of main program */</span></span></code></pre></div>
 <p>A comment like this is sometimes called a “winged comment”.</p>
 <div class="infoBox">
-<div class="warningEmoji">
-
-</div>
+<p><span class="warningEmoji"></span></p>
 <p>Forgetting to terminate a comment may cause the compiler to ignore
 part of your program. Consider the following example:</p>
 <div class="sourceCode" id="cb23"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;My &quot;</span><span class="op">);</span>    <span class="co">/* forgot to close this comment...</span></span>
@@ -448,9 +455,7 @@ part of your program. Consider the following example:</p>
 compiler ignores the middle two statements, and the example prints
 <code>My fleas</code>.</p>
 </div>
-<div class="C99Symbol">
-
-</div>
+<p><span class="C99Symbol"></span></p>
 <p>C99 provides a second kind of comment, which begins with
 <code>//</code> (two adjacent slashes):</p>
 <div class="sourceCode" id="cb24"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">// This is a comment</span></span></code></pre></div>
@@ -466,3 +471,241 @@ because a comment automatically ends at the end of a line, there’s no
 chance that an unterminated comment will accidentally consume part of a
 program. Second, multiline comments stand out better, thanks to the
 <code>//</code> that’s required at the beginning of each line.</p>
+<h2 id="variables-and-assignment">2.4 Variables and Assignment</h2>
+<p>Few programs are as simple as the one in Section 2.1. Most programs
+need to perform a series of calculations before producing output, and
+thus need a way to store data temporarily during program execution. In
+C, as in most programming languages, these storage locations are called
+<strong>variables</strong>.</p>
+<h3 id="types">2.4.1 Types</h3>
+<p>Every variable must have a <strong><em>type</em></strong>, which
+specifies what kind of data it will hold. C has a wide variety of types.
+For now, we’ll limit ourselves to just two: <code>int</code> and
+<code>float</code>. Choosing the proper type is critical, since the type
+affects how the variable is stored and what operations can be performed
+on the variable. The type of a numeric variable determines the largest
+and smallest numbers that the variable can store; it also determines
+whether or not digits are allowed after the decimal point.</p>
+<p>A variable of type <code>int</code> (short for <em>integer</em>) can
+store a whole number such as 0, 1, 392, or -2553. The range of possible
+values is limited, though. The largest <code>int</code> value is
+typically 2,147,483,647 but can be as small as 32,767.</p>
+<p><span class="QandA"></span></p>
+<p>A variable of type <code>float</code> (short for
+<em>floating-point</em>) can store much larger numbers than an
+<code>int</code> variable. Furthermore, a <code>float</code> variable
+can store numbers with digits after the decimal point, like 379.125.
+<code>float</code> variables have drawbacks, however. Arithmetic on
+<code>float</code> numbers may be slower than arithmetic on
+<code>int</code> numbers. Most significantly, the value of a
+<code>float</code> variable is often just an approximation of the number
+that was stored in it. If we store 0.1 in a <code>float</code> variable,
+we may later find that the variable has a value such as
+0.09999999999999987, thanks to rounding error.</p>
+<h3 id="declarations">2.4.2 Declarations</h3>
+<p>Variables must be <strong>declared</strong>–described for the benefit
+of the compiler–before they can be used. To declare a variable, we first
+specify the <em>type</em> of the variable, then its <em>name</em>.
+(Variable names are chosen by the programmer, subject to the rules
+described in Section 2.7.) For example, we might declare variables
+<code>height</code> and <code>profit</code> as follows:</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> height<span class="op">;</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> profit<span class="op">;</span></span></code></pre></div>
+<p>The first declaration states that <code>height</code> is a variable
+of type <code>int</code>, meaning that <code>height</code> can store an
+integer value. The second declaration says that <code>profit</code> is a
+variable of type <code>float</code>.</p>
+<p>If several variables have the same type, their declarations can be
+combined:</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> height<span class="op">,</span> length<span class="op">,</span> width<span class="op">,</span> volume<span class="op">;</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> profit<span class="op">,</span> loss<span class="op">;</span></span></code></pre></div>
+<p>Notice that each complete declaration ends with a semicolon. Ou Our
+first template for <code>main</code> didn’t include declarations. When
+<code>main</code> contains declarations, these must precede
+statements:</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    declarations</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>    statements</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>As we’ll see in Chapter 9, this is true of functions in general, as
+well as blocks (statements that contain embedded declarations). As a
+matter of style, it’s a good idea to leave a blank line between the
+declarations and the statements.</p>
+<p><span class="C99Symbol"></span></p>
+<p>In C99, declarations don’t have to come before statements. For,
+example, <code>main</code> might contain a declaration, then a
+statement, and then another declaration. For compatibility with older
+compilers, the programs in this book don’t take advantage of this rule.
+However, it’s common in C++ and Java programs not to declare variables
+until they’re first needed, so this practice can be expected to become
+popular in C99 programs as well.</p>
+<h3 id="assignment">2.4.3 Assignment</h3>
+<p>A variable can be given a value by means of
+<strong><em>assignment</em></strong>. For example, the statements</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>height <span class="op">=</span> <span class="dv">8</span><span class="op">;</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>length <span class="op">=</span> <span class="dv">12</span><span class="op">;</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>width <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span></code></pre></div>
+<p>assign values to <code>height</code>, <code>length</code>, and
+<code>width</code>. The numbers 8, 12, and 10 are said to be
+<strong><em>constants</em></strong>.</p>
+<p>Before a variable can be assigned a value–or used in any other way,
+for that matter–it must first be declared. Thus, we could write</p>
+<div class="sourceCode" id="cb30"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> height<span class="op">;</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>height <span class="op">=</span> <span class="dv">8</span><span class="op">;</span></span></code></pre></div>
+<p>but not</p>
+<div class="sourceCode" id="cb31"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>height <span class="op">=</span> <span class="dv">8</span><span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> height<span class="op">;</span></span></code></pre></div>
+<p>A constant assigned to a <code>float</code> variable usually contains
+a decimal point. For example, if <code>profit</code> is a
+<code>float</code> variable, we might write</p>
+<div class="sourceCode" id="cb32"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>profit <span class="op">=</span> <span class="fl">2150.48</span><span class="op">;</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p>It’s best to append the letter <code>f</code> (for “float”) to a
+constant that contains a decimal point if the number is assigned to a
+<code>float</code> variable:</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>profit <span class="op">=</span> <span class="fl">2150.48</span><span class="bu">f</span><span class="op">;</span></span></code></pre></div>
+<p>Failing to include the <code>f</code> may cause a warning from the
+compiler.</p>
+<p>An <code>int</code> variable is normally assigned a value of type
+<code>int</code>, and a <code>float</code> variable is normally assigned
+a value of type <code>float</code>. Mixing types (such as assigning an
+<code>int</code> value to a <code>float</code> variable or assigning a
+<code>float</code> value to an <code>int</code> variable) is possible
+but not always safe, as we’ll see in Section 4.2.</p>
+<p>Once a variable has been assigned a value, it can be used to help
+compute the value of another variable:</p>
+<div class="sourceCode" id="cb34"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>height <span class="op">=</span> <span class="dv">8</span><span class="op">;</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>length <span class="op">=</span> <span class="dv">12</span><span class="op">;</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>width <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>volume <span class="op">=</span> height <span class="op">*</span> length <span class="op">*</span> width<span class="op">;</span>    <span class="co">/* volume is now 960 */</span></span></code></pre></div>
+<p>In C, <code>*</code> represents the multiplication operator, so this
+statement multiplies the values stored in <code>height</code>,
+<code>length</code>, and <code>width</code>, then assigns the result to
+the variable <code>volume</code>. In general, the right side of an
+assignment can be a formula (or <strong><em>expression</em></strong>, in
+C terminology) involving constants, variables, and operators.</p>
+<h3 id="printing-the-value-of-a-variable">2.4.4 Printing the Value of a
+Variable</h3>
+<p>We can use <code>printf</code> to display the current value of a
+variable. For example, to write the message</p>
+<pre class="shell"><code>Height: h</code></pre>
+<p>where <code>h</code> is the current value of the <code>height</code>
+variable, we’d use the following call of <code>printf</code>:</p>
+<div class="sourceCode" id="cb36"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Height: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> height<span class="op">);</span></span></code></pre></div>
+<p><code>%d</code> is a placeholder indicating where the value of
+<code>height</code> is to be filled in during printing. Note the
+placement of <code>\n</code> just after <code>%d</code>, so that
+<code>printf</code> will advance to the next line after printing the
+value of <code>height</code>.</p>
+<p><code>%d</code> works only for <code>int</code> variables; to print a
+<code>float</code> variable, we’d use <code>%f</code> instead. By
+default, <code>%f</code> displays a number with six digits after the
+decimal point. To force <code>%f</code> to display <code>p</code> digits
+after the decimal point, we can put <code>.p</code> between
+<code>%</code> and <code>f</code>. For example, to print the line</p>
+<pre class="shell"><code>Profit: $2150.48</code></pre>
+<p>we’d call <code>printf</code> as follows:</p>
+<div class="sourceCode" id="cb38"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Profit: $%.2f</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> profit<span class="op">);</span></span></code></pre></div>
+<p>There’s no limit to the number of variables that can be printed a
+single call of <code>printf</code>. To display the values of both the
+<code>height</code> and <code>length</code> variables, we could use the
+following call of <code>printf</code>:</p>
+<div class="sourceCode" id="cb39"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Height: %d  Length: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> height<span class="op">,</span> length<span class="op">);</span></span></code></pre></div>
+<h3 id="program-computing-the-dimensional-weight-of-a-box">2.4.5
+(PROGRAM) Computing the Dimensional Weight of a Box</h3>
+<p>Shipping companies don’e especially like boxes that are larger but
+very light, since they take up valuable space in a truck or airplane. In
+fact, companies often charge extra for such a box, basing the fee on its
+volume instead of its weight. In the United States, the usual method is
+to divide the volume by 166 (the allowable number of cubic inches per
+pound). If this number–the box’s “dimensional” or “volumetric”
+weight–exceeds its actual weight, the shipping fee is based on the
+dimensional weight. (The 166 divisor is for international shipments; the
+dimensional weight of a domestic shipment is typically calculated using
+194 instead).</p>
+<p>Let’s say that you’ve been hired by a shipping company to write a
+program that computes the dimensional weight of a box. Since you’re new
+to C, you decide to start off by writing a program that calculates the
+dimensional weight of a particular box that’s
+<code>12" x 10" x 8"</code>. Division is represented by <code>/</code>
+in C, so the obvious way to compute the dimensional weight would be</p>
+<div class="sourceCode" id="cb40"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>weight <span class="op">=</span> volume <span class="op">/</span> <span class="dv">166</span></span></code></pre></div>
+<p>where <code>weight</code> and <code>volume</code> are integer
+variables representing the box’s weight and volume. Unfortunately, this
+formula isn’t quite what we need. In C, when one integer is divided by
+another, the answer is “truncated”: all digits after the decimal point
+are lost. The volume of a <code>12" x 10" x 8"</code> box will be 960
+cubic inches. Dividing by 166 gives the answer 5 instead of 5.783, so we
+have in effect rounded <em>down</em> to the next lowest pound; the
+shipping company expects us to round <em>up</em>. One solution is to add
+165 to the volume before dividing by 166:</p>
+<div class="sourceCode" id="cb41"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>weight <span class="op">=</span> <span class="op">(</span>volume <span class="op">+</span> <span class="dv">165</span><span class="op">)</span> <span class="op">/</span> <span class="dv">166</span><span class="op">;</span></span></code></pre></div>
+<p>A volume of 166 would give a weight of 331/166, or 1, while a volume
+of 167 would yield 332/166, or 2. Calculating the weight in this fashion
+gives us the following program.</p>
+<div class="sourceCode" id="cb42"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* file: dweight.c */</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="co">/* Computes the dimensional weight of a 12&quot; x 10&quot; x 8&quot; box */</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> height<span class="op">,</span> length<span class="op">,</span> width<span class="op">,</span> volume<span class="op">,</span> weight<span class="op">;</span></span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>    height <span class="op">=</span> <span class="dv">8</span><span class="op">;</span></span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>    length <span class="op">=</span> <span class="dv">12</span><span class="op">;</span></span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a>    width <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a>    volume <span class="op">=</span> height <span class="op">*</span> length <span class="op">*</span> width<span class="op">;</span></span>
+<span id="cb42-14"><a href="#cb42-14" aria-hidden="true" tabindex="-1"></a>    weight <span class="op">=</span> <span class="op">(</span>volume <span class="op">+</span> <span class="dv">165</span><span class="op">)</span> <span class="op">/</span> <span class="dv">166</span><span class="op">;</span></span>
+<span id="cb42-15"><a href="#cb42-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-16"><a href="#cb42-16" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Dimensions: %dx%dx%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> length<span class="op">,</span> width<span class="op">,</span> height<span class="op">);</span></span>
+<span id="cb42-17"><a href="#cb42-17" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Volume (cubic inches): %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> volume<span class="op">);</span></span>
+<span id="cb42-18"><a href="#cb42-18" aria-hidden="true" tabindex="-1"></a>    printd<span class="op">(</span><span class="st">&quot;Dimensional weight (pounds): %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> weight<span class="op">);</span></span>
+<span id="cb42-19"><a href="#cb42-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-20"><a href="#cb42-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb42-21"><a href="#cb42-21" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The output of the program is</p>
+<pre class="shell"><code>Dimensions: 12x10x8
+Volume (cubic inches): 960
+Dimensional weight (pounds): 6</code></pre>
+<h3 id="initialization">2.4.6 Initialization</h3>
+<p>Some variables are automatically set to zero when a program begins to
+execute, but most are not. A variable that doesn’t have a default value
+and hasn’t yet been assigned a value by the program is said to be
+<strong><em>uninitialized</em></strong>.</p>
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Attempting to access the value of an uninitialized variable (for
+example, by displaying the variable using <code>printf</code> or using
+it in an expression) may yield an unpredictable result such as 2568,
+-30891, or some equally strange number. With some compilers, worse
+behavior–even a program crash–may occur.</p>
+</div>
+<p>We can always give a variable an initial value by using assignment,
+of course. But there’s an easier way: put the initial value of the
+variable in its declaration. For example, we can declare the
+<code>height</code> variable and initialize it in one step:</p>
+<div class="sourceCode" id="cb44"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> height <span class="op">=</span> <span class="dv">8</span><span class="op">;</span></span></code></pre></div>
+<p>In C jargon, the value <code>8</code> is said to be an
+<strong><em>initializer</em></strong>.</p>
+<p>Any number o variables can be initialized in the same
+declaration:</p>
+<div class="sourceCode" id="cb45"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> height <span class="op">=</span> <span class="dv">8</span><span class="op">,</span> length <span class="op">=</span> <span class="dv">12</span><span class="op">,</span> width <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span></code></pre></div>
+<p>Notice that each variable requires its own initializer. In the
+ollowing example, the initializer <code>10</code> is good only or the
+variable <code>width</code>, not for <code>height</code> or
+<code>length</code> (which remain uninitialized):</p>
+<div class="sourceCode" id="cb46"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> height<span class="op">,</span> length<span class="op">,</span> width <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span></code></pre></div>
+<h3 id="printing-expressions">2.4.7 Printing Expressions</h3>
+<p><code>printf</code> isn’t limited to displaying numbers stored in
+variables; it can display the value of <em>any</em> numeric expression.
+Taking advantage of this property can simplify a program and reduce the
+number of variables. For instance, the statements</p>
+<div class="sourceCode" id="cb47"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>volume <span class="op">=</span> height <span class="op">*</span> length <span class="op">*</span> width<span class="op">;</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> volume<span class="op">);</span></span></code></pre></div>
+<p>could be replaced by</p>
+<div class="sourceCode" id="cb48"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> height <span class="op">*</span> length <span class="op">*</span> width<span class="op">);</span></span></code></pre></div>
+<p><code>printf</code>’s ability to print expressions illustrates one of
+C’s general principles: <em>Wherever a value is needed, any expression
+of the same type will do</em>.</p>
