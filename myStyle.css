@@ -90,11 +90,12 @@ code
 
 }
 
+
 .bash, .shell
 {
-    background-color: palegreen;
-    font-weight: bold;
+    background-color: ghostwhite; 
 }
+
 
 span.smallcaps
 {
