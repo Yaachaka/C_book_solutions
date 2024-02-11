@@ -655,3 +655,46 @@ decimal point, but doesn’t have to).</p>
 <h3
 id="program-computing-the-dimensional-weight-of-a-box-revisited">2.5.1
 (PROGRAM) Computing the Dimensional Weight of a Box (Revisited)</h3>
+<p>Here’s an improved version of the dimensional weight program in which
+the user enters the dimensions. Note that each call of
+<code>scanf</code> is immediately preceeded by a call of
+<code>printf</code>. That way, the user will know when to enter input
+and what input to enter.</p>
+<div class="sourceCode" id="cb51"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* Computes the dimensional weight of a </span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="co">   box from input provided by the user */</span></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> height<span class="op">,</span> length<span class="op">,</span> width<span class="op">,</span> volume<span class="op">,</span> weight<span class="op">;</span></span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter height of box: &quot;</span><span class="op">);</span></span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>height<span class="op">);</span></span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter length of box: &quot;</span><span class="op">);</span></span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>length<span class="op">);</span></span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter width of box: &quot;</span><span class="op">);</span></span>
+<span id="cb51-15"><a href="#cb51-15" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>width<span class="op">);</span></span>
+<span id="cb51-16"><a href="#cb51-16" aria-hidden="true" tabindex="-1"></a>    volume <span class="op">=</span> height <span class="op">*</span> length <span class="op">*</span> width<span class="op">;</span></span>
+<span id="cb51-17"><a href="#cb51-17" aria-hidden="true" tabindex="-1"></a>    weight <span class="op">=</span> <span class="op">(</span>volume <span class="op">+</span> <span class="dv">165</span><span class="op">)</span> <span class="op">/</span> <span class="dv">166</span><span class="op">;</span></span>
+<span id="cb51-18"><a href="#cb51-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-19"><a href="#cb51-19" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Volume (cubic inches): %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> volume<span class="op">);</span></span>
+<span id="cb51-20"><a href="#cb51-20" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Dimensional weight (pounds): %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> weight<span class="op">);</span></span>
+<span id="cb51-21"><a href="#cb51-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-22"><a href="#cb51-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb51-23"><a href="#cb51-23" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The output of the program has the following appearance</p>
+<pre class="shell"><code>Enter height of box: 8
+Enter length of box: 12
+Enter width of box: 10
+Volume (cubic inches): 960
+Dimensional weight (pounds): 6</code></pre>
+<p>A message that asks the user to enter input (a
+<strong><em>prompt</em></strong>) normally shouldn’t end with a new-line
+character, because we want the user to enter input on the same line as
+the prompt itself. When the user presses the Enter key, the cursor
+automatically moves to the next line–the program doesn’t need to display
+a new-line character to terminate the current line.</p>
+<p>The <code>dweight2.c</code> program suffers from one problem: it
+doesn’t work correctly if the user enters nonnumeric input. Section 3.2
+discusses this issue in more detail.</p>

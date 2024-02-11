@@ -592,4 +592,45 @@ scanf("%f", &x);    /* reads a float value; stores into x */
 
 ### 2.5.1 (PROGRAM) Computing the Dimensional Weight of a Box (Revisited)
 
+Here's an improved version of the dimensional weight program in which the user enters the dimensions. Note that each call of `scanf` is immediately preceeded by a call of `printf`. That way, the user will know when to enter input and what input to enter.
 
+
+```C
+/* Computes the dimensional weight of a 
+   box from input provided by the user */
+
+#include <stdio.h>
+
+int main(void)
+{
+    int height, length, width, volume, weight;
+
+    printf("Enter height of box: ");
+    scanf("%d", &height);
+    printf("Enter length of box: ");
+    scanf("%d", &length);
+    printf("Enter width of box: ");
+    scanf("%d", &width);
+    volume = height * length * width;
+    weight = (volume + 165) / 166;
+
+    printf("Volume (cubic inches): %d\n", volume);
+    printf("Dimensional weight (pounds): %d\n", weight);
+
+    return 0;
+}
+```
+
+The output of the program has the following appearance
+
+```shell
+Enter height of box: 8
+Enter length of box: 12
+Enter width of box: 10
+Volume (cubic inches): 960
+Dimensional weight (pounds): 6
+```
+
+A message that asks the user to enter input (a ***prompt***) normally shouldn't end with a new-line character, because we want the user to enter input on the same line as the prompt itself. When the user presses the Enter key, the cursor automatically moves to the next line--the program doesn't need to display a new-line character to terminate the current line.
+
+The `dweight2.c` program suffers from one problem: it doesn't work correctly if the user enters nonnumeric input. Section 3.2 discusses this issue in more detail.
