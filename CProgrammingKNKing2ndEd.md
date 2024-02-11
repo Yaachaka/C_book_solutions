@@ -1,97 +1,9 @@
-<style>
-    h1
-    {
-    }
-
-    body
-    {
-        width: 96%;
-    }
-
-    div
-    {
-        margin: 5px;
-        padding: 1px;
-    }
-
-    .theQuote
-    {
-        font-style: italic;
-        font-weight: bold;
-    }
-
-    .chapterDivider
-    {
-        width: 90%;
-        height: 8px;
-        border-radius: 5px;
-        background: repeating-linear-gradient(45deg, black, transparent, violet, indigo, blue, green, yellow, orange, red 100px);
-    }
-
-    .infoBox
-    {
-        /* Inner border */
-        border-width: 4px;
-        border-style: ridge;
-        border-color: #000;
-        background: rgb(208, 225, 225);
-    }
-
-    .warningEmoji::before
-    {
-        content: "\26A0";
-        font-size: 24px;
-    }
-
-    .C99Symbol::before
-    {
-        border-radius: 70%;
-        border-color: black;
-        border-style: double;
-        content: "C99";
-        font-weight: bold;
-        background: black;
-        color: white;
-    }
-
-    .QandA::before
-    {
-        border-radius: 70%;
-        border-color: black;
-        border-style: double;
-        content: "Q&A";
-        font-weight: bold;
-        background: black;
-        color: white;
-    }
- 
-    .math
-    {
-        border-style: dashed;
-        border-width: thin;
-        background-color: wheat;
-        padding: 5px;
-    }
-
-    code
-    {
-        background-color: ghostwhite;
-        border-radius: 15%;
-        padding: 1px;
-    }
-
-    .C
-    {
-        background-color: honeydew;
-
-    }
-
-    .bash, .shell
-    {
-        background-color: palegreen;
-        font-weight: bold;
-    }
-</style>
+<html>
+<head>
+    <title>C Programming</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./myStyle.css">
+</head>
 
 # Title of the Book: C Programming A Modern Approach
 ## Edition: Second Edition (2008)
@@ -655,3 +567,29 @@ printf("%d\n", height * length * width);
 ```
 
 `printf`'s ability to print expressions illustrates one of C's general principles: *Wherever a value is needed, any expression of the same type will do*.
+
+## 2.5 Reading Input
+
+Because the `dweight.c` program calculates the dimensional weight of just one box, it isn't especially useful. To improve the program, we'll need to allow the user to enter the dimensions.
+
+To obtain input, we'll use the `scanf` function, the C library's counterpart to `printf`. The `f` in `scanf`, like the `f` in `printf`, stands for "formatted"; both `scanf` and `printf` require the use of a ***format string*** to specify the appearance of the input or output data. `scanf` needs to know what form the input data will take, just as `printf` needs to know how to display output data.
+
+To read an `int` value, we'd use `scanf` as follows:
+
+```C
+scanf("%d", &i);    /* reads an integer; stores into i */
+```
+
+The `"%d"` string tells `scanf` to read input that represents an integer; `i` is an `int` variable into which we want `scanf` to store the input. The `&` symbol is hard to explain at this point; for now, I'll just note that it is usually (but not always) required when using `scanf`.
+
+Reading a `float` value requires a slightly different call of `scanf`:
+
+```C
+scanf("%f", &x);    /* reads a float value; stores into x */
+```
+
+`%f` works only with variables of type `float`, so I'm assuming that `x` is a `float` variable. The `"%f"` string tells `scanf` to look for an input value in `float` format (the number may contain a decimal point, but doesn't have to).
+
+### 2.5.1 (PROGRAM) Computing the Dimensional Weight of a Box (Revisited)
+
+

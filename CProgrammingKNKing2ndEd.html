@@ -1,97 +1,11 @@
-<style>
-    h1
-    {
-    }
-
-    body
-    {
-        width: 96%;
-    }
-
-    div
-    {
-        margin: 5px;
-        padding: 1px;
-    }
-
-    .theQuote
-    {
-        font-style: italic;
-        font-weight: bold;
-    }
-
-    .chapterDivider
-    {
-        width: 90%;
-        height: 8px;
-        border-radius: 5px;
-        background: repeating-linear-gradient(45deg, black, transparent, violet, indigo, blue, green, yellow, orange, red 100px);
-    }
-
-    .infoBox
-    {
-        /* Inner border */
-        border-width: 4px;
-        border-style: ridge;
-        border-color: #000;
-        background: rgb(208, 225, 225);
-    }
-
-    .warningEmoji::before
-    {
-        content: "\26A0";
-        font-size: 24px;
-    }
-
-    .C99Symbol::before
-    {
-        border-radius: 70%;
-        border-color: black;
-        border-style: double;
-        content: "C99";
-        font-weight: bold;
-        background: black;
-        color: white;
-    }
-
-    .QandA::before
-    {
-        border-radius: 70%;
-        border-color: black;
-        border-style: double;
-        content: "Q&A";
-        font-weight: bold;
-        background: black;
-        color: white;
-    }
- 
-    .math
-    {
-        border-style: dashed;
-        border-width: thin;
-        background-color: wheat;
-        padding: 5px;
-    }
-
-    code
-    {
-        background-color: ghostwhite;
-        border-radius: 15%;
-        padding: 1px;
-    }
-
-    .C
-    {
-        background-color: honeydew;
-
-    }
-
-    .bash, .shell
-    {
-        background-color: palegreen;
-        font-weight: bold;
-    }
-</style>
+<html>
+<head>
+<title>
+C Programming
+</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./myStyle.css">
+</head>
 <h1 id="title-of-the-book-c-programming-a-modern-approach">Title of the
 Book: C Programming A Modern Approach</h1>
 <h2 id="edition-second-edition-2008">Edition: Second Edition (2008)</h2>
@@ -709,3 +623,35 @@ number of variables. For instance, the statements</p>
 <p><code>printf</code>’s ability to print expressions illustrates one of
 C’s general principles: <em>Wherever a value is needed, any expression
 of the same type will do</em>.</p>
+<h2 id="reading-input">2.5 Reading Input</h2>
+<p>Because the <code>dweight.c</code> program calculates the dimensional
+weight of just one box, it isn’t especially useful. To improve the
+program, we’ll need to allow the user to enter the dimensions.</p>
+<p>To obtain input, we’ll use the <code>scanf</code> function, the C
+library’s counterpart to <code>printf</code>. The <code>f</code> in
+<code>scanf</code>, like the <code>f</code> in <code>printf</code>,
+stands for “formatted”; both <code>scanf</code> and <code>printf</code>
+require the use of a <strong><em>format string</em></strong> to specify
+the appearance of the input or output data. <code>scanf</code> needs to
+know what form the input data will take, just as <code>printf</code>
+needs to know how to display output data.</p>
+<p>To read an <code>int</code> value, we’d use <code>scanf</code> as
+follows:</p>
+<div class="sourceCode" id="cb49"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">);</span>    <span class="co">/* reads an integer; stores into i */</span></span></code></pre></div>
+<p>The <code>"%d"</code> string tells <code>scanf</code> to read input
+that represents an integer; <code>i</code> is an <code>int</code>
+variable into which we want <code>scanf</code> to store the input. The
+<code>&amp;</code> symbol is hard to explain at this point; for now,
+I’ll just note that it is usually (but not always) required when using
+<code>scanf</code>.</p>
+<p>Reading a <code>float</code> value requires a slightly different call
+of <code>scanf</code>:</p>
+<div class="sourceCode" id="cb50"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%f&quot;</span><span class="op">,</span> <span class="op">&amp;</span>x<span class="op">);</span>    <span class="co">/* reads a float value; stores into x */</span></span></code></pre></div>
+<p><code>%f</code> works only with variables of type <code>float</code>,
+so I’m assuming that <code>x</code> is a <code>float</code> variable.
+The <code>"%f"</code> string tells <code>scanf</code> to look for an
+input value in <code>float</code> format (the number may contain a
+decimal point, but doesn’t have to).</p>
+<h3
+id="program-computing-the-dimensional-weight-of-a-box-revisited">2.5.1
+(PROGRAM) Computing the Dimensional Weight of a Box (Revisited)</h3>
