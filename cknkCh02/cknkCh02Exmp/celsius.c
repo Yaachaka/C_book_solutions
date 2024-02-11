@@ -1,7 +1,7 @@
 /**
  * File: celsius.c
  * Author: K. N. King
- * Purpose: Convertts a Fahrenheit temperature to Celsius
+ * Purpose: Converts a Fahrenheit temperature to Celsius
  */
 
 #include <stdio.h>

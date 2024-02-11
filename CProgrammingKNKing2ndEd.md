@@ -596,7 +596,8 @@ Here's an improved version of the dimensional weight program in which the user e
 
 
 ```C
-/* Computes the dimensional weight of a 
+/* file: dweight2.c
+   purpose: Computes the dimensional weight of a 
    box from input provided by the user */
 
 #include <stdio.h>
@@ -634,3 +635,99 @@ Dimensional weight (pounds): 6
 A message that asks the user to enter input (a ***prompt***) normally shouldn't end with a new-line character, because we want the user to enter input on the same line as the prompt itself. When the user presses the Enter key, the cursor automatically moves to the next line--the program doesn't need to display a new-line character to terminate the current line.
 
 The `dweight2.c` program suffers from one problem: it doesn't work correctly if the user enters nonnumeric input. Section 3.2 discusses this issue in more detail.
+
+## 2.6 Defining Names for Constants
+
+When a program contains constants, it's often a good idea to give them names. The `dweight.c` and `dweight2.c` programs rely on constant 166, whose meaning may not be at all clear to someone reading the program later. Using feature know as ***macro definition***, we can name this constant:
+
+```C
+#define INCHES_PER_POUND 166
+```
+
+`#define` is a preprocessing directive, just as `#include` is, so there's no semicolon at the end of the line.
+
+When a program is compiled, the preprocessor replaces each macro by the value that it represents. For example, the statement
+
+```C
+weight = (volume + INCHES_PER_ROUND -1) / INCHES_PER_ROUND;
+```
+
+will become
+
+```C
+weight = (volume + 166 -1) / 166;
+```
+
+giving the same effect as if we'd written the latter statement in the first place.
+
+The value of a macro can be an expression:
+
+```C
+#define RECIPROCAL_OF_PI (1.0f / 3.14159f)
+```
+
+If it contains operators; the expression should be enclosed ina prantheses.
+
+Notice that we've used only upper-case letters in macros names. This a convention that most C programmers follow, not a requirement of the language. (Still, C programmers have been doing this for decades; you wouldn't want to be the first to deviate.)
+
+### 2.6.1 (PROGRAM) Converting from Fahrenheit to Celsius
+
+The following program prompts the user to enter a Fahrenheit temperature; it then prints the equivalent Celsius temperature. The output of the program will have the following appearance:
+
+```shell
+Enter Fahrenheit temperature: 212
+Celsius equivalent: 100.0
+```
+
+The program will allow temperatures that aren't integers; that's why the Celsius temperature is displayed as 100.0 instead of 100. Let's look first at the entire program, then see how it's put together.
+
+```C
+/**
+ * File: celsius.c
+ * Author: K. N. King
+ * Purpose: Converts a Fahrenheit temperature to Celsius
+ */
+
+#include <stdio.h>
+
+#define FREEZING_PT 32.0f
+#define SCALE_FACTOR (5.0f /9.0f)
+
+int main(void)
+{
+    float fahrenheit, celsius;
+
+    printf("Enter Fahrenheit temperature: ");
+    scanf("%f", &fahrenheit);
+
+    celsius = (fahrenheit - FREEZING_PT) * SCALE_FACTOR;
+
+    printf("Celsius equivalent: %.1f\n", celsius);
+
+    return 0;
+}
+```
+
+The statement
+
+```C
+celsius = (fahrenheit - FREEZING_PT) * SCALE_FACTOR;
+```
+
+converts the Fahrenheit temperature to Celsius. Since `FREEZING_PT` stands for `32.0f` and `SCALE_FACTOR` stands for `(5.0f /9.0f)`, the compiler sees this statement as
+
+```C
+celsius = (fahrenheit - 32.0f) * (5.0f / 9.0f);
+```
+
+Defining `SCALE_FACTOR` to be `(5.0f / 9.0f)` instead of `(5 / 9)` is important, becasuse C truncates the result when two integers are divided. The value of `(5 / 9)` would be `0`, which definitely isn't what we want.
+
+The call of `printf` writes the Celsius temperature:
+
+```C
+printf("Celsius equivalent: %.1f\n", celsius);
+```
+
+Notice the use of `%.1f` to display `celsius` with just one digit after the decimal point.
+
+
