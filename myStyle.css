@@ -1,7 +1,8 @@
 body
 {
-    //background: wheat;
+    /* background: wheat; */
     width: 96%;
+    margin: 0 auto;
 
 }
 
@@ -9,78 +10,6 @@ div
 {
     margin: 5px;
     padding: 1px;
-}
-
-
-code
-{
-    white-space: pre-wrap;
-}
-
-.theQuote
-{
-    font-style: italic;
-    font-weight: bold;
-}
-
-
-.chapterDivider
-{
-    width: 90%;
-    height: 8px;
-    border-radius: 5px;
-    background: repeating-linear-gradient(45deg, black, transparent, violet, indigo, blue, green, yellow, orange, red 100px);
-}
-
-.infoBox
-{
-    /* Inner border */
-    border-width: 4px;
-    border-style: ridge;
-    border-color: #000;
-    background: rgb(208, 225, 225);
-}
-
-.warningEmoji::before
-{
-    content: "\26A0";
-    font-size: 24px;
-}
-
-.music_M8::before
-{
-    content: "\266B";
-    font-size: 14px;
-}
-
-.staffOfHermis::after
-{
-    content: "\269A";
-    top: -0.5em;
-    font-size: smaller;
-    position: relative;
-}
-
-.C99Symbol::before
-{
-    border-radius: 70%;
-    border-color: black;
-    border-style: double;
-    content: "C99";
-    font-weight: bold;
-    background: black;
-    color: white;
-}
-
-.QandA::before
-{
-    border-radius: 70%;
-    border-color: black;
-    border-style: double;
-    content: "Q&A";
-    font-weight: bold;
-    background: black;
-    color: white;
 }
 
 .math
@@ -96,6 +25,7 @@ code
     background-color: ghostwhite;
     border-radius: 15%;
     padding: 1px;
+    white-space: pre-wrap;
 }
 
 .C
@@ -326,4 +256,71 @@ th {
 
 tr:nth-child(even) { /* Alternating row background */
   background-color: #f2f2f2;
+}
+
+
+.theQuote
+{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.chapterDivider
+{
+    width: 90%;
+    height: 8px;
+    border-radius: 5px;
+    background: repeating-linear-gradient(45deg, black, transparent, violet, indigo, blue, green, yellow, orange, red 100px);
+}
+
+.infoBox
+{
+    /* Inner border */
+    border-width: 4px;
+    border-style: ridge;
+    border-color: #000;
+    background: rgb(208, 225, 225);
+}
+
+.warningEmoji::before
+{
+    content: "\26A0";
+    font-size: 24px;
+}
+
+.music_M8::before
+{
+    content: "\266B";
+    font-size: 14px;
+}
+
+.staffOfHermis::after
+{
+    content: "\269A";
+    top: -0.5em;
+    font-size: smaller;
+    position: relative;
+}
+
+.C99Symbol::before
+{
+    border-radius: 70%;
+    border-color: black;
+    border-style: double;
+    content: "C99";
+    font-weight: bold;
+    background: black;
+    color: white;
+}
+
+.QandA::before
+{
+    border-radius: 70%;
+    border-color: black;
+    border-style: double;
+    content: "Q&A";
+    font-weight: bold;
+    background: black;
+    color: white;
 }
