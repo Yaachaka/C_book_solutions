@@ -1069,5 +1069,274 @@ words, splitting the string over two lines) is illegal:</p>
 <span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a>that is the question<span class="op">.</span>\n<span class="st">&quot;);    /*** WRONG ***/</span></span></code></pre></div>
 <p>Continuing a string from one line to the next requires a special
 technique that we’ll learn in a later chapter.</p>
+<hr />
+<h2 id="q-a">Q &amp; A</h2>
+<div class="QandA_question">
+<p>Q: What does GCC stand for? [p. 11]</p>
+</div>
+<div class="QandA_answer">
+<p>A: GCC originally stood for “<u>G</u>NU <u>C</u> <u>C</u>ompiler.” It
+now stands for “<u>G</u>NU <u>C</u>ompiler <u>C</u>ollection,” because
+the current version of GCC compiles programs written in a variety of
+languages, including Ada, C, C++, Fortran, Java, and Objective-C.</p>
+</div>
+<div class="QandA_question">
+<p>Q: OK, so what does GNU stand for?</p>
+</div>
+<div class="QandA_answer">
+<p>A: GNU stands for “<u>G</u>NU’s <u>N</u>ot <u>U</u>nix!” (and is
+pronounced <em>guh-NEW</em>, by the way). GNU is a project of the Free
+Software Foundation, an organization set up by <strong>Ritchard M.
+Stallman</strong> as a protest against the restrictions of licensed UNIX
+software. According to its web site, the Free Software Foundation
+believes that the users should be free to “run, copy, distribute, study,
+change and improve” software. The GNU Project has rewritten much
+traditional UNIX software from scratch and made it publicly available at
+no charge.</p>
+<p>GCC and other GNU software are crucial to Linux. Linux itself is only
+the “kernel” of an operating system (the part that handles program
+scheduling and basic I/O services); the GNU software is necessary to
+have a fully functional operating system.</p>
+<p>For more information on the GNU Project, visit <a
+href="https://www.gnu.org/">www.gnu.org</a>.</p>
+</div>
+<div class="QandA_question">
+<p>Q: What’s the big deal about the GCC anyway?</p>
+</div>
+<div class="QandA_answer">
+<p>A: GCC is significant for many reasons, not least the fact that it’s
+free and capable of compiling a number of languages. It runs under many
+operating systems and generates code for many different CPUs, including
+all the widely used ones. GCC is the primary compiler for many
+UNIX-based operating systems, including Linux, BSD, and Mac OS X, and
+it’s used extensively for commercial software development. For more
+information about GCC, visit <a
+href="https://gcc.gnu.org">gcc.gnu.org</a></p>
+</div>
+<div class="QandA_question">
+<p>Q: How good is GCC at finding errors in programs?</p>
+</div>
+<div class="QandA_answer">
+<p>A: GCC has various command-line options that control how thoroughly
+it checks programs. When these options are used, GCC is quite good at
+finding potential trouble spots in a program. Here are some of the more
+popular options:</p>
+<ul>
+<li>
+<p><code>-Wall</code></p>
+<p>Causes the compiler to produce warning messages when it detects
+possible errors. (<code>-W</code> can be followed by codes for specific
+warnings; <code>-Wall</code> means “all <code>-W</code> options.”)
+Should be used in conjunction with <code>-O</code> for maximum
+effect.</p>
+</li>
+<li>
+<p><code>-W</code></p>
+<p>Issues additional warning messages beyond those produced by
+<code>-Wall</code>.</p>
+</li>
+<li>
+<p><code>-pedantic</code></p>
+<p>Issues all warnings required by the C standard. Causes programs that
+use non-standard features to be rejected.</p>
+</li>
+<li>
+<p><code>-ansi</code></p>
+<p>Turns off features of GCC that aren’t standard C and enables a few
+standard features that are normally disabled.</p>
+</li>
+<li>
+<pre><code>-std=c89
+-std=c99</code></pre>
+<p>Specifies which version of C the compiler should use to check the
+program.</p>
+</li>
+</ul>
+<p>These options are often used in combination:</p>
+<pre class="shell"><code>gcc -O -Wall -W -pedantic -ansi -std=c99 -o pun pun.c</code></pre>
+</div>
+<div class="QandA_question">
+<p>Q: Why is C so terse? It seems as though programs would be more
+readable if C used <code>begin</code> and <code>end</code> instead of
+<code>{</code> and <code>}</code>, <code>integer</code> instead of
+<code>int</code>, and so forth. [p. 12]</p>
+</div>
+<div class="QandA_answer">
+<p>A: Legend has it that the brevity of C programs is due to the
+environment that existed in Bell Labs at the time the language was
+developed. The first C compiler ran on a DEC PDP-11 (an early
+minicomputer); programmers used a teletype–essentially a typewriter
+connected to a computer–to enter programs and print listings. Because
+teletypes were very slow (they could print only 10 characters per
+second), minimizing the number of characters in a program was clearly
+advantageous.</p>
+</div>
+<div class="QandA_question">
+<p>Q: In some C books, the <code>main</code> function ends with
+<code>exit(0)</code> instead of <code>return 0</code>. Are these the
+same? [p. 14]</p>
+</div>
+<div class="QandA_answer">
+<p>A: When they appear inside <code>main</code>, these statements are
+indeed equivalent: both terminate the program, returning the value
+<code>0</code> to the operating system. Which one to use is mostly a
+matter of taste.</p>
+</div>
+<div class="QandA_question">
+<p>Q: What happens if a program reaches the end of the <code>main</code>
+function without executing a <code>return</code> statement? [p. 14]</p>
+</div>
+<div class="QandA_answer">
+<p><span class="C99Symbol"></span></p>
+<p>A: The <code>return</code> statement isn’t mandatory; if it’s
+missing, the program will still terminate. In C89, the value returned to
+the operating system is undefined. In C99, if <code>main</code> is
+declared to return an <code>int</code> (as in our examples), the program
+returns <code>0</code> to the operating system; otherwise, the program
+returns an unspecified value.</p>
+</div>
+<div class="QandA_question">
+<p>Q: Does the compiler remove a comment entirely or replace it with
+blank space?</p>
+</div>
+<div class="QandA_answer">
+<p>A: Some old C compilers deleted all the characters in each comment,
+making it possible to write</p>
+<div class="sourceCode" id="cb77"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a>a<span class="co">/**/</span>b <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>and have the compiler interpret it as</p>
+<div class="sourceCode" id="cb78"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a>ab <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>According to the C standard, however, the compiler must replace each
+comment by a single space character, so this trick doesn’t work.
+Instead, we’d end up with the following (illegal) statement:</p>
+<div class="sourceCode" id="cb79"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a>a b <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+</div>
+<div class="QandA_question">
+<p>Q: How can I tell if my program has an unterminated comment?</p>
+</div>
+<div class="QandA_answer">
+<p>A: If you’re lucky, the program won’t compile because the comment has
+rendered the program illegal. If the program does compile, there are
+several techniques that you can use. Stepping through the program line
+by line with a debugger will reveal if any lines are being skipped. Some
+IDEs display comments in a distinctive color to distinuish them from
+sorrounding code. If you’re using such an environment, you can easily
+spot unterminated comments, since program text will have different color
+of it’s accidentally included in a comment. A program such as
+<code>lint</code> can also help.</p>
+</div>
+<div class="QandA_question">
+<p>Q: Is it legal to nest one comment inside another?</p>
+</div>
+<div class="QandA_answer">
+<p>A: Old-style comments (<code>/* ... */</code>) can’t be nested. For
+instance, the following code is illegal:</p>
+<div class="sourceCode" id="cb80"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
+<span id="cb80-2"><a href="#cb80-2" aria-hidden="true" tabindex="-1"></a><span class="co">    /*** WRONG ***/</span></span>
+<span id="cb80-3"><a href="#cb80-3" aria-hidden="true" tabindex="-1"></a><span class="op">*/</span></span></code></pre></div>
+<p>The <code>*/</code> symbol on the second line matches the
+<code>/*</code> symbol on the first line, so the compiler will flag the
+<code>*/</code> symbol on the third line as an error.</p>
+<p><span class="C99Symbol"></span></p>
+<p>C’s prohibition against nested comments can sometimes be a problem.
+Suppose we’ve written a long program containing many short comments. To
+disable a portion of the program temporarily (during testing, say), our
+first impulse is to “comment out” the offending lines with
+<code>/*</code> and <code>*/</code>. Unfortunately, this method won’t
+work if the lines contain old-style comments. C99 comments (those
+beginning with <code>//</code>) can be nested inside old-style comments,
+however–another advantage to using this kind of comment.</p>
+<p>In any event, there’s a better way to disable portions of a program,
+as we’ll see later.</p>
+</div>
+<div class="QandA_question">
+<p>Q: Where does the <code>float</code> type get its name? [p. 17]</p>
+</div>
+<div class="QandA_answer">
+<p>A: <code>float</code> is short for “floating-point”, a technique for
+storing numbers in which the decimal point “floats”. A float value is
+usually stored in two parts: the fraction (or mantissa) and the
+exponent. The number 12.0 might be stored as <span
+class="displayInline"><span
+class="math display">1.5 × 2<sup>3</sup></span></span>, for example,
+where 1.5 is the fraction and 3 is the exponent. Some programming
+languages call this type <code>real</code> instead of
+<code>float</code>.</p>
+</div>
+<div class="QandA_question">
+<p>Q: Why do floating-point constants need to end with letter
+<code>f</code>? [p. 19]</p>
+</div>
+<div class="QandA_answer">
+<p>A: For the full explanation, see Chapter 7. Here’s the short answer:
+a constant that contains a decimal point but doesn’t end with
+<code>f</code> has type <code>double</code> (short for
+“double-precision”). <code>double</code> values are stored more
+accurately than <code>float</code> values. Moreover, <code>double</code>
+values can be larger than <code>float</code> values, which is why we
+need to add the letter <code>f</code> when assigning to a
+<code>float</code> variable. Without the <code>f</code>, a warning may
+be generated about the possibility of a number being stored into a
+<code>float</code> variable that exceeds the capacity of the
+variable.</p>
+</div>
+<div class="QandA_question">
+<p>*Q: Is it really true that there’s no limit on the length of an
+identifier? [p. 26]</p>
+</div>
+<div class="QandA_answer">
+<p>A:</p>
+<p><span class="C99Symbol"></span></p>
+<p>Yes and no. The C89 standard says that identifiers may be arbitrarily
+long. However, compilers are only required to remember the first 31
+characters (63 characters in C99). Thus, if two names begin with the
+same 31 characters, a compiler might be unable to distinguish between
+them.</p>
+<p><span class="C99Symbol"></span></p>
+<p>To make matters even more complicated, there are special rules for
+identifiers with external linkage; most function names fall into this
+category. Since these names must be made available to the linker, and
+since some older linkers can handle only short names, only the first six
+characters are significant in C89. Moreover, the case of letters may not
+matter. As a result, <code>ABCDEFG</code> and <code>abcdefg</code> might
+be treated as the same name. (In C99, the first 31 characters are
+significant, and the case of letters is taken into account.)</p>
+<p>Most compilers and linkers are more generous than the standard, so
+these rules aren’t a problem in practice. Don’t worry about making
+identifiers too long–worry about making them too short.</p>
+</div>
+<div class="QandA_question">
+<p>Q: How many spaces should I use for indentation? [p. 28]</p>
+</div>
+<div class="QandA_answer">
+<p>A: That’s a tough question. Leave too little space, and the eye has
+trouble detecting indentation. Leave too much, and the lines run off the
+screen (or page). Many C programmers indent nested statements eight
+spaces (one tab stop), which is probably too much. Studies have shown
+that the optimum amount of indentation is three spaces, but many
+programmers feel uncomfortable with numbers that aren’t a power of two.
+Although I normally prefer to indent three or four spaces. I’ll use two
+spaces in this book so that my programs will fit within the margins.</p>
+</div>
+<h2 id="examples">Examples</h2>
+<ul>
+<li>Programs: <a
+href="./cknkCh02/cknkCh02Exmp/">./cknkCh02/cknkCh02Exmp/</a></li>
+</ul>
+<h2 id="exercises">Exercises</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh02/cknkCh02Exrc/README.md">./cknkCh02/cknkCh02Exrc/README.md</a></li>
+<li>Programs: <a
+href="./cknkCh02/cknkCh02Exrc/">./cknkCh02/cknkCh02Exrc/</a></li>
+</ul>
+<h2 id="programming-projects">Programming Projects</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh02/cknkCh02Prj/README.md">./cknkCh02/cknkCh02Prj/README.md</a></li>
+<li>Programs: <a
+href="./cknkCh02/cknkCh02Prj/">./cknkCh02/cknkCh02Prj/</a></li>
+</ul>
+<hr class="chapterDivider"/>
+<h1 id="nextchaptername">NextChapterName</h1>
 </body>
 </html>

@@ -187,11 +187,6 @@ pre.numberSource
   
 }
 
-div.sourceCode
-{
-  
-}
-
 @media screen
 {
   pre > code.sourceCode > span > a:first-child::before 
@@ -235,6 +230,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   text-align: center;
   margin: 0.5rem auto;
   
+}
+
+.displayInline .math, .displayInline .display
+{
+  display: inline;
+  border-style: none;
+  background-color: whitesmoke;
+  padding: 0px;
 }
 
 table {
@@ -373,5 +376,25 @@ tr:nth-child(even) { /* Alternating row background */
 .circled9::after
 {
     content: "\2468";
+}
+
+.QandA_question
+{
+    color: red;
+}
+
+.QandA_question pre, .QandA_question code, .QandA_question math
+{
+    color: black;
+}
+
+.QandA_answer
+{
+    color: rgb(8, 8, 78);
+}
+
+.QandA_answer pre, .QandA_answer code, .QandA_answer math
+{
+    color: black;
 }
 

@@ -946,5 +946,265 @@ that is the question.\n");    /*** WRONG ***/
 
 Continuing a string from one line to the next requires a special technique that we'll learn in a later chapter.
 
+---
+
+## Q & A
+
+<div class="QandA_question">
+
+Q: What does GCC stand for? [p. 11]
+
+</div>
+<div class="QandA_answer">
+
+A: GCC originally stood for "<u>G</u>NU <u>C</u> <u>C</u>ompiler." It now stands for "<u>G</u>NU <u>C</u>ompiler <u>C</u>ollection," because the current version of GCC compiles programs written in a variety of languages, including Ada, C, C++, Fortran, Java, and Objective-C.
+
+</div>
+<div class="QandA_question">
+
+Q: OK, so what does GNU stand for?
+
+</div>
+<div class="QandA_answer">
+
+A: GNU stands for "<u>G</u>NU's <u>N</u>ot <u>U</u>nix!" (and is pronounced *guh-NEW*, by the way). GNU is a project of the Free Software Foundation, an organization set up by **Ritchard M. Stallman** as a protest against the restrictions of licensed UNIX software. According to its web site, the Free Software Foundation believes that the users should be free to "run, copy, distribute, study, change and improve" software. The GNU Project has rewritten much traditional UNIX software from scratch and made it publicly available at no charge.
+
+GCC and other GNU software are crucial to Linux. Linux itself is only the "kernel" of an operating system (the part that handles program scheduling and basic I/O services); the GNU software is necessary to have a fully functional operating system.
+
+For more information on the GNU Project, visit [www.gnu.org](https://www.gnu.org/).
+
+
+</div>
+<div class="QandA_question">
+
+Q: What's the big deal about the GCC anyway?
+
+</div>
+<div class="QandA_answer">
+
+A: GCC is significant for many reasons, not least the fact that it's free and capable of compiling a number of languages. It runs under many operating systems and generates code for many different CPUs, including all the widely used ones. GCC is the primary compiler for many UNIX-based operating systems, including Linux, BSD, and Mac OS X, and it's used extensively for commercial software development. For more information about GCC, visit [gcc.gnu.org](https://gcc.gnu.org)
+
+</div>
+<div class="QandA_question">
+
+Q: How good is GCC at finding errors in programs?
+
+</div>
+<div class="QandA_answer">
+
+A: GCC has various command-line options that control how thoroughly it checks programs. When these options are used, GCC is quite good at finding potential trouble spots in a program. Here are some of the more popular options:
+
+<ul>
+
+<li>
+
+`-Wall`
+
+Causes the compiler to produce warning messages when it detects possible errors. (`-W` can be followed by codes for specific warnings; `-Wall` means "all `-W` options.") Should be used in conjunction with `-O` for maximum effect.
+
+</li>
+<li>
+
+`-W`
+
+Issues additional warning messages beyond those produced by `-Wall`.
+
+</li>
+<li>
+
+`-pedantic`
+
+Issues all warnings required by the C standard. Causes programs that use non-standard features to be rejected.
+
+</li>
+<li>
+
+`-ansi`
+
+Turns off features of GCC that aren't standard C and enables a few standard features that are normally disabled.
+
+</li>
+<li>
+
+```
+-std=c89
+-std=c99
+```
+
+Specifies which version of C the compiler should use to check the program.
+
+</li>
+
+</ul>
+
+These options are often used in combination:
+
+```shell
+gcc -O -Wall -W -pedantic -ansi -std=c99 -o pun pun.c
+```
+
+</div>
+<div class="QandA_question">
+
+Q: Why is C so terse? It seems as though programs would be more readable if C used `begin` and `end` instead of `{` and `}`, `integer` instead of `int`, and so forth. [p. 12]
+
+</div>
+<div class="QandA_answer">
+
+A: Legend has it that the brevity of C programs is due to the environment that existed in Bell Labs at the time the language was developed. The first C compiler ran on a DEC PDP-11 (an early minicomputer); programmers used a teletype--essentially a typewriter connected to a computer--to enter programs and print listings. Because teletypes were very slow (they could print only 10 characters per second), minimizing the number of characters in a program was clearly advantageous.
+
+</div>
+<div class="QandA_question">
+
+Q: In some C books, the `main` function ends with `exit(0)` instead of `return 0`. Are these the same? [p. 14]
+
+</div>
+<div class="QandA_answer">
+
+A: When they appear inside `main`, these statements are indeed equivalent: both terminate the program, returning the value `0` to the operating system. Which one to use is mostly a matter of taste.
+
+</div>
+<div class="QandA_question">
+
+Q: What happens if a program reaches the end of the `main` function without executing a `return` statement? [p. 14]
+
+</div>
+<div class="QandA_answer">
+
+<span class="C99Symbol"></span>
+
+A: The `return` statement isn't mandatory; if it's missing, the program will still terminate. In C89, the value returned to the operating system is undefined. In C99, if `main` is declared to return an `int` (as in our examples), the program returns `0` to the operating system; otherwise, the program returns an unspecified value.
+
+</div>
+<div class="QandA_question">
+
+Q: Does the compiler remove a comment entirely or replace it with blank space?
+
+</div>
+<div class="QandA_answer">
+
+A: Some old C compilers deleted all the characters in each comment, making it possible to write
+
+```C
+a/**/b = 0;
+```
+
+and have the compiler interpret it as
+
+```C
+ab = 0;
+```
+
+According to the C standard, however, the compiler must replace each comment by a single space character, so this trick doesn't work. Instead, we'd end up with the following (illegal) statement:
+
+```C
+a b = 0;
+```
+
+</div>
+<div class="QandA_question">
+
+Q: How can I tell if my program has an unterminated comment?
+
+</div>
+<div class="QandA_answer">
+
+A: If you're lucky, the program won't compile because the comment has rendered the program illegal. If the program does compile, there are several techniques that you can use. Stepping through the program line by line with a debugger will reveal if any lines are being skipped. Some IDEs display comments in a distinctive color to distinuish them from sorrounding code. If you're using such an environment, you can easily spot unterminated comments, since program text will have different color of it's accidentally included in a comment. A program such as `lint` can also help.
+
+</div>
+<div class="QandA_question">
+
+Q: Is it legal to nest one comment inside another?
+
+</div>
+<div class="QandA_answer">
+
+A: Old-style comments (`/* ... */`) can't be nested. For instance, the following code is illegal:
+
+```C
+/*
+    /*** WRONG ***/
+*/
+```
+
+The `*/` symbol on the second line matches the `/*` symbol on the first line, so the compiler will flag the `*/` symbol on the third line as an error.
+
+<span class="C99Symbol"></span>
+
+C's prohibition against nested comments can sometimes be a problem. Suppose we've written a long program containing many short comments. To disable a portion of the program temporarily (during testing, say), our first impulse is to "comment out" the offending lines with `/*` and `*/`. Unfortunately, this method won't work if the lines contain old-style comments. C99 comments (those beginning with `//`) can be nested inside old-style comments, however--another advantage to using this kind of comment.
+
+In any event, there's a better way to disable portions of a program, as we'll see later.
+
+</div>
+<div class="QandA_question">
+
+Q: Where does the `float` type get its name? [p. 17]
+
+</div>
+<div class="QandA_answer">
+
+A: `float` is short for "floating-point", a technique for storing numbers in which the decimal point "floats". A float value is usually stored in two parts: the fraction (or mantissa) and the exponent. The number 12.0 might be stored as <span class="displayInline">$$ 1.5 \times 2^{3} $$</span>, for example, where 1.5 is the fraction and 3 is the exponent. Some programming languages call this type `real` instead of `float`.
+
+</div>
+<div class="QandA_question">
+
+Q: Why do floating-point constants need to end with letter `f`? [p. 19]
+
+</div>
+<div class="QandA_answer">
+
+A: For the full explanation, see Chapter 7. Here's the short answer: a constant that contains a decimal point but doesn't end with `f` has type `double` (short for "double-precision"). `double` values are stored more accurately than `float` values. Moreover, `double` values can be larger than `float` values, which is why we need to add the letter `f` when assigning to a `float` variable. Without the `f`, a warning may be generated about the possibility of a number being stored into a `float` variable that exceeds the capacity of the variable.
+
+</div>
+<div class="QandA_question">
+
+*Q: Is it really true that there's no limit on the length of an identifier? [p. 26]
+
+</div>
+<div class="QandA_answer">
+
+A: 
+
+<span class="C99Symbol"></span>
+
+Yes and no. The C89 standard says that identifiers may be arbitrarily long. However, compilers are only required to remember the first 31 characters (63 characters in C99). Thus, if two names begin with the same 31 characters, a compiler might be unable to distinguish between them.
+
+<span class="C99Symbol"></span>
+
+To make matters even more complicated, there are special rules for identifiers with external linkage; most function names fall into this category. Since these names must be made available to the linker, and since some older linkers can handle only short names, only the first six characters are significant in C89. Moreover, the case of letters may not matter. As a result, `ABCDEFG` and `abcdefg` might be treated as the same name. (In C99, the first 31 characters are significant, and the case of letters is taken into account.)
+
+Most compilers and linkers are more generous than the standard, so these rules aren't a problem in practice. Don't worry about making identifiers too long--worry about making them too short.
+
+</div>
+<div class="QandA_question">
+
+Q: How many spaces should I use for indentation? [p. 28]
+
+</div>
+<div class="QandA_answer">
+
+A: That's a tough question. Leave too little space, and the eye has trouble detecting indentation. Leave too much, and the lines run off the screen (or page). Many C programmers indent nested statements eight spaces (one tab stop), which is probably too much. Studies have shown that the optimum amount of indentation is three spaces, but many programmers feel uncomfortable with numbers that aren't a power of two. Although I normally prefer to indent three or four spaces. I'll use two spaces in this book so that my programs will fit within the margins.
+
+</div>
+
+## Examples
+
+- Programs: [./cknkCh02/cknkCh02Exmp/](./cknkCh02/cknkCh02Exmp/)
+
+## Exercises
+
+- Readme: [./cknkCh02/cknkCh02Exrc/README.md](./cknkCh02/cknkCh02Exrc/README.md)
+- Programs: [./cknkCh02/cknkCh02Exrc/](./cknkCh02/cknkCh02Exrc/)
+
+## Programming Projects
+
+- Readme: [./cknkCh02/cknkCh02Prj/README.md](./cknkCh02/cknkCh02Prj/README.md)
+- Programs: [./cknkCh02/cknkCh02Prj/](./cknkCh02/cknkCh02Prj/)
+
+<hr class="chapterDivider"/>
+
+# NextChapterName
+
+
 </body>
 </html>
