@@ -324,3 +324,54 @@ tr:nth-child(even) { /* Alternating row background */
     background: black;
     color: white;
 }
+
+.circled0::after
+{
+    content: "\24EA";
+}
+
+.circled1::after
+{
+    content: "\2460";
+}
+
+.circled2::after
+{
+    content: "\2461";
+}
+
+.circled3::after
+{
+    content: "\2462";
+}
+
+.circled4::after
+{
+    content: "\2463";
+}
+
+.circled5::after
+{
+    content: "\2464";
+}
+
+.circled6::after
+{
+    content: "\2465";
+}
+
+.circled7::after
+{
+    content: "\2466";
+}
+
+.circled8::after
+{
+    content: "\2467";
+}
+
+.circled9::after
+{
+    content: "\2468";
+}
+

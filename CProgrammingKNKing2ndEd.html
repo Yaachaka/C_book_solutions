@@ -714,7 +714,7 @@ constant:</p>
 line.</p>
 <p>When a program is compiled, the preprocessor replaces each macro by
 the value that it represents. For example, the statement</p>
-<div class="sourceCode" id="cb54"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>weight <span class="op">=</span> <span class="op">(</span>volume <span class="op">+</span> INCHES_PER_ROUND <span class="op">-</span><span class="dv">1</span><span class="op">)</span> <span class="op">/</span> INCHES_PER_ROUND<span class="op">;</span></span></code></pre></div>
+<div class="sourceCode" id="cb54"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>weight <span class="op">=</span> <span class="op">(</span>volume <span class="op">+</span> INCHES_PER_POUND <span class="op">-</span><span class="dv">1</span><span class="op">)</span> <span class="op">/</span> INCHES_PER_POUND<span class="op">;</span></span></code></pre></div>
 <p>will become</p>
 <div class="sourceCode" id="cb55"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>weight <span class="op">=</span> <span class="op">(</span>volume <span class="op">+</span> <span class="dv">166</span> <span class="op">-</span><span class="dv">1</span><span class="op">)</span> <span class="op">/</span> <span class="dv">166</span><span class="op">;</span></span></code></pre></div>
 <p>giving the same effect as if we’d written the latter statement in the
@@ -925,5 +925,149 @@ as well. Accidentally using one of these names can cause an error during
 compilation or linking. Identifiers that begin with an underscore are
 also restricted.</p>
 </div>
+<h2 id="layout-of-a-c-program">2.8 Layout of a C Program</h2>
+<p>We think of a C program as a series of
+<strong><em>tokens</em></strong>: groups of characters that can’t be
+split up without changing their meaning. Identifiers and keywords are
+tokens. So are operators like <code>+</code> and <code>-</code>,
+punctuation marks such as the comma and semicolon, and string literals.
+For example, the statement</p>
+<div class="sourceCode" id="cb67"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Height: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> height<span class="op">);</span></span></code></pre></div>
+<p>consists of seven tokens:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td><code>printf</code></td>
+<td><span class="circled1"></span></td>
+</tr>
+<tr class="even">
+<td><code>(</code></td>
+<td><span class="circled2"></span></td>
+</tr>
+<tr class="odd">
+<td><code>"Height: %d\n"</code></td>
+<td><span class="circled3"></span></td>
+</tr>
+<tr class="even">
+<td><code>,</code></td>
+<td><span class="circled4"></span></td>
+</tr>
+<tr class="odd">
+<td><code>height</code></td>
+<td><span class="circled5"></span></td>
+</tr>
+<tr class="even">
+<td><code>)</code></td>
+<td><span class="circled6"></span></td>
+</tr>
+<tr class="odd">
+<td><code>;</code></td>
+<td><span class="circled7"></span></td>
+</tr>
+</tbody>
+</table>
+<p>Tokens <span class="circled1"></span> and <span
+class="circled5"></span> are identifiers, token <span
+class="circled3"></span> is a string literal, and tokens <span
+class="circled2"></span>, <span class="circled4"></span>, <span
+class="circled6"></span>, and <span class="circled7"></span> are
+punctuation.</p>
+<p>The amount of space between tokens in a program isn’t critical in
+most cases. At one extreme, tokens can be crammed together with no space
+between them at all, except where this would cause two tokens to merge
+into a third token. For example, we could delete most of the space in
+the <code>celsius.c</code> program of Section 2.6, provided that we
+leave space between tokens such as <code>int</code> and
+<code>main</code> and between <code>float</code> and
+<code>fahrenheit</code>:</p>
+<div class="sourceCode" id="cb68"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* Converts a Fahrenheit temperature to Celsius */</span></span>
+<span id="cb68-2"><a href="#cb68-2" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb68-3"><a href="#cb68-3" aria-hidden="true" tabindex="-1"></a><span class="pp">#define FREEZING_PT 32.0f</span></span>
+<span id="cb68-4"><a href="#cb68-4" aria-hidden="true" tabindex="-1"></a><span class="pp">#define SCALE_FACTOR (5.0f/9.0f)</span></span>
+<span id="cb68-5"><a href="#cb68-5" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">){</span><span class="dt">float</span> fahrenheit<span class="op">,</span>celsius<span class="op">;</span>printf<span class="op">(</span><span class="st">&quot;Enter Fahrenheit temperature: &quot;</span><span class="op">);</span>scanf<span class="op">(</span><span class="st">&quot;%f&quot;</span><span class="op">,&amp;</span>fahrenheit<span class="op">);</span>celsius<span class="op">=(</span>fahrenheit<span class="op">-</span>FREEZING_PT<span class="op">)*</span>SCALE_FACTOR<span class="op">;</span>printf<span class="op">(</span><span class="st">&quot;Celsius equivalent: %.1f</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span>celsius<span class="op">);</span><span class="cf">return</span> <span class="dv">0</span><span class="op">;}</span></span></code></pre></div>
+<p>In fact, if the page were wider, we could put the entire
+<code>main</code> function on a single line. We can’t put the whole
+<em>program</em> on one line, though, because each preprocessing
+directive requires a separate line.</p>
+<p>Compressing programs in this fashion isn’t good idea. In fact, adding
+spaces and blank lines to a program can make it easier to read and
+understand. Fortunately, C allows us to insert any amouont of
+space–blanks, tabs, and new-line characters–between tokens. This rule
+has several important consequences for program layout:</p>
+<!-- Ordered list Start here -->
+<ul>
+<li>
+<p><em>Statements can be divided</em> over any number of lines. The
+following statement, for example, is so long that it would be hard to
+sqeeze it onto a single line:</p>
+<div class="sourceCode" id="cb69"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Dimensional weight (pounds): %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> <span class="op">(</span>volume <span class="op">+</span> INCHES_PER_POUND <span class="op">-</span> <span class="dv">1</span><span class="op">)</span> <span class="op">/</span> INCHES_PER_POUND<span class="op">);</span></span></code></pre></div>
+</li>
+<li>
+<p><em>Space between tokens</em> makes it easier for the eye to separate
+them. For this reason, I usually put a space before and after each
+operator:</p>
+<div class="sourceCode" id="cb70"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a>volume <span class="op">=</span> height <span class="op">*</span> length <span class="op">*</span> width<span class="op">;</span></span></code></pre></div>
+<p>I also put a space after each comma. Some programmers go even
+further, putting spaces around parentheses and other punctuation.</p>
+</li>
+<p><span class="QandA"></span></p>
+<li>
+<p><em>Indentation</em> can make nesting easier to spot. For example, we
+should indent declarations and statements to make it clear that they’re
+nested inside <code>main</code>.</p>
+</li>
+<li>
+<p><em>Blank lines</em> can divide a program into logical units, making
+it easier for the reader to discern the program’s structure. A program
+with no blank lines is as hard to read as a book with no chapters.</p>
+</li>
+</ul>
+<!-- Un ordered list end here -->
+<p>The <code>celsius.c</code> program of Section 2.6 illustrates several
+of these guidelines. Let’s take a closer look at the <code>main</code>
+function in that program:</p>
+<div class="sourceCode" id="cb71"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb71-3"><a href="#cb71-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">float</span> fahrenheit<span class="op">,</span> celsius<span class="op">;</span></span>
+<span id="cb71-4"><a href="#cb71-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb71-5"><a href="#cb71-5" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter Fahrenheit temperature: &quot;</span><span class="op">);</span></span>
+<span id="cb71-6"><a href="#cb71-6" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%f&quot;</span><span class="op">,</span> <span class="op">&amp;</span>fahrenheit<span class="op">);</span></span>
+<span id="cb71-7"><a href="#cb71-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb71-8"><a href="#cb71-8" aria-hidden="true" tabindex="-1"></a>    celsius <span class="op">=</span> <span class="op">(</span>fahrenheit <span class="op">-</span> FREEZING_PT<span class="op">)</span> <span class="op">*</span> SCALE_FACTOR<span class="op">;</span></span>
+<span id="cb71-9"><a href="#cb71-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb71-10"><a href="#cb71-10" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Celsius equivalent: %.1f</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> celsius<span class="op">);</span></span>
+<span id="cb71-11"><a href="#cb71-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb71-12"><a href="#cb71-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb71-13"><a href="#cb71-13" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>First, observe how the space around <code>=</code>, <code>-</code>,
+and <code>*</code> makes these operators stand out. Second, notice how
+the indentation of declarations and statements makes it obvious that
+they all belong to <code>main</code>. Finally, note how blank lines
+divide <code>main</code> into five parts: (1) declaring the
+<code>fahrenheit</code> and <code>celsius</code> variables; (2)
+obtaining the Fahrenheit temperature; (3) calculating the value of
+<code>celsius</code>; (4) printing the Celsius temperature; and (5)
+returning to the operating system.</p>
+<p>While we’re on the subject of program layout, notice how I’ve placed
+the <code>{</code> token underneath <code>main()</code> and put the
+matching <code>}</code> on a separate line, aligned with <code>{</code>.
+Putting <code>}</code> on a separate line lets us insert or delete
+statements at the end of the function; aligning it with <code>{</code>
+makes it easy to spot the end of <code>main</code>.</p>
+<p>A final note: Although extra spaces can be added <em>between</em>
+tokens, it’s not possible to add space <em>within</em> a token without
+changing the meaning of the program or causing an error. Writing</p>
+<div class="sourceCode" id="cb72"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a>fl oat fahrenheit<span class="op">,</span> celsius<span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>or</p>
+<div class="sourceCode" id="cb73"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a>fl</span>
+<span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a>oat fahrenheit<span class="op">,</span> celsius<span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>produces an error when the program is compiled. Putting a space
+inside a string literal is allowed, although it changes the meaning of
+the string. However, putting a new-line character in a string (in other
+words, splitting the string over two lines) is illegal:</p>
+<div class="sourceCode" id="cb74"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;To C, or not to C:</span></span>
+<span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a>that is the question<span class="op">.</span>\n<span class="st">&quot;);    /*** WRONG ***/</span></span></code></pre></div>
+<p>Continuing a string from one line to the next requires a special
+technique that we’ll learn in a later chapter.</p>
 </body>
 </html>

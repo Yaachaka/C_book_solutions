@@ -650,7 +650,7 @@ When a program contains constants, it's often a good idea to give them names. Th
 When a program is compiled, the preprocessor replaces each macro by the value that it represents. For example, the statement
 
 ```C
-weight = (volume + INCHES_PER_ROUND -1) / INCHES_PER_ROUND;
+weight = (volume + INCHES_PER_POUND -1) / INCHES_PER_POUND;
 ```
 
 will become
@@ -825,6 +825,126 @@ Because of C's case-sensitivity, keywords must appear in programs exactly as sho
 Watch out for other restrictions on identifiers. Some compilers treat certain identifiers (`asm`, for example) as additional keywords. Identifiers that belong to the standard library are restricted as well. Accidentally using one of these names can cause an error during compilation or linking. Identifiers that begin with an underscore are also restricted.
 
 </div>
+
+## 2.8 Layout of a C Program
+
+We think of a C program as a series of ***tokens***: groups of characters that can't be split up without changing their meaning. Identifiers and keywords are tokens. So are operators like `+` and `-`, punctuation marks such as the comma and semicolon, and string literals. For example, the statement
+
+```C
+printf("Height: %d\n", height);
+```
+
+consists of seven tokens:
+
+|||
+|---|---|
+|`printf`|<span class="circled1"></span>|
+|`(`|<span class="circled2"></span>|
+|`"Height: %d\n"`|<span class="circled3"></span>|
+|`,`|<span class="circled4"></span>|
+|`height`|<span class="circled5"></span>|
+|`)`|<span class="circled6"></span>|
+|`;`|<span class="circled7"></span>|
+
+Tokens <span class="circled1"></span> and <span class="circled5"></span> are identifiers, token <span class="circled3"></span> is a string literal, and tokens <span class="circled2"></span>, <span class="circled4"></span>, <span class="circled6"></span>, and <span class="circled7"></span> are punctuation.
+
+The amount of space between tokens in a program isn't critical in most cases. At one extreme, tokens can be crammed together with no space between them at all, except where this would cause two tokens to merge into a third token. For example, we could delete most of the space in the `celsius.c` program of Section 2.6, provided that we leave space between tokens such as `int` and `main` and between `float` and `fahrenheit`:
+
+```C
+/* Converts a Fahrenheit temperature to Celsius */
+#include <stdio.h>
+#define FREEZING_PT 32.0f
+#define SCALE_FACTOR (5.0f/9.0f)
+int main(void){float fahrenheit,celsius;printf("Enter Fahrenheit temperature: ");scanf("%f",&fahrenheit);celsius=(fahrenheit-FREEZING_PT)*SCALE_FACTOR;printf("Celsius equivalent: %.1f\n",celsius);return 0;}
+```
+
+In fact, if the page were wider, we could put the entire `main` function on a single line. We can't put the whole *program* on one line, though, because each preprocessing directive requires a separate line.
+
+Compressing programs in this fashion isn't good idea. In fact, adding spaces and blank lines to a program can make it easier to read and understand. Fortunately, C allows us to insert any amouont of space--blanks, tabs, and new-line characters--between tokens. This rule has several important consequences for program layout:
+
+<!-- Ordered list Start here -->
+<ul>
+<li>
+
+*Statements can be divided* over any number of lines. The following statement, for example, is so long that it would be hard to sqeeze it onto a single line:
+
+```C
+printf("Dimensional weight (pounds): %d\n", (volume + INCHES_PER_POUND - 1) / INCHES_PER_POUND);
+```
+
+</li>
+
+<li> 
+
+*Space between tokens* makes it easier for the eye to separate them. For this reason, I usually put a space before and after each operator:
+
+```C
+volume = height * length * width;
+```
+
+I also put a space after each comma. Some programmers go even further, putting spaces around parentheses and other punctuation.
+
+</li>
+
+<span class="QandA"></span>
+
+<li>
+
+*Indentation* can make nesting easier to spot. For example, we should indent declarations and statements to make it clear that they're nested inside `main`.
+
+</li>
+<li>
+
+*Blank lines* can divide a program into logical units, making it easier for the reader to discern the program's structure. A program with no blank lines is as hard to read as a book with no chapters.
+
+</li>
+
+</ul> 
+<!-- Un ordered list end here -->
+
+The `celsius.c` program of Section 2.6 illustrates several of these guidelines. Let's take a closer look at the `main` function in that program:
+
+```C
+int main(void)
+{
+    float fahrenheit, celsius;
+
+    printf("Enter Fahrenheit temperature: ");
+    scanf("%f", &fahrenheit);
+
+    celsius = (fahrenheit - FREEZING_PT) * SCALE_FACTOR;
+
+    printf("Celsius equivalent: %.1f\n", celsius);
+
+    return 0;
+}
+```
+
+First, observe how the space around `=`, `-`, and `*` makes these operators stand out. Second, notice how the indentation of declarations and statements makes it obvious that they all belong to `main`. Finally, note how blank lines divide `main` into five parts: (1) declaring the `fahrenheit` and `celsius` variables; (2) obtaining the Fahrenheit temperature; (3) calculating the value of `celsius`; (4) printing the Celsius temperature; and (5) returning to the operating system.
+
+While we're on the subject of program layout, notice how I've placed the `{` token underneath `main()` and put the matching `}` on a separate line, aligned with `{`. Putting `}` on a separate line lets us insert or delete statements at the end of the function; aligning it with `{` makes it easy to spot the end of `main`.
+
+A final note: Although extra spaces can be added *between* tokens, it's not possible to add space *within* a token without changing the meaning of the program or causing an error. Writing
+
+```C
+fl oat fahrenheit, celsius;    /*** WRONG ***/
+```
+
+or
+
+```C
+fl
+oat fahrenheit, celsius;    /*** WRONG ***/
+```
+
+produces an error when the program is compiled. Putting a space inside a string literal is allowed, although it changes the meaning of the string. However, putting a new-line character in a string (in other words, splitting the string over two lines) is illegal:
+
+```C
+printf("To C, or not to C:
+that is the question.\n");    /*** WRONG ***/
+```
+
+Continuing a string from one line to the next requires a special technique that we'll learn in a later chapter.
 
 </body>
 </html>
