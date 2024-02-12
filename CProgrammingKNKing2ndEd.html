@@ -6,6 +6,7 @@ C Programming
 <meta charset="utf-8">
 <link rel="stylesheet" href="./myStyle.css">
 </head>
+<body>
 <h1 id="title-of-the-book-c-programming-a-modern-approach">Title of the
 Book: C Programming A Modern Approach</h1>
 <h2 id="edition-second-edition-2008">Edition: Second Edition (2008)</h2>
@@ -775,3 +776,154 @@ would be <code>0</code>, which definitely isn’t what we want.</p>
 <div class="sourceCode" id="cb61"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Celsius equivalent: %.1f</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> celsius<span class="op">);</span></span></code></pre></div>
 <p>Notice the use of <code>%.1f</code> to display <code>celsius</code>
 with just one digit after the decimal point.</p>
+<h2 id="identifiers">Identifiers</h2>
+<p>As we’re writing a program, we’ll have to choose names for variables,
+functions, macros, and other entities. These names are called
+<strong><em>identifiers</em></strong>. In C, an identifier may contain
+letters, digits, and underscores, but must begin with a letter or
+underscore.</p>
+<p><span class="C99Symbol"></span></p>
+<p>(In C99, identifiers may contain certain “universal character names”
+as well.)</p>
+<p>Here are some examples of legal identifers:</p>
+<pre><code>times10
+get_next_char
+_done</code></pre>
+<p>The following are <em>not</em> legal identifiers:</p>
+<pre><code>10times
+get-next-char</code></pre>
+<p>The symbol <code>10times</code> begins with a digit, not a letter or
+underscore. <code>get-next-char</code> contains minus signs, not
+underscores.</p>
+<p>C is <strong><em>case-sensitive</em></strong>: it distinguishes
+between upper-case and lower-case letters in identifiers. For example,
+the following identifiers are all different:</p>
+<pre><code>job
+joB
+jOb
+jOB
+Job
+JoB
+JOb
+JOB</code></pre>
+<p>These eight identifiers could all be used simultaneously, each for a
+completely different purpose. (Talk about obfuscation!) Sensible
+programmers try to make identifiers look different unless they’re
+somehow related.</p>
+<p>Since case matters in C, many programmers follow the convention of
+using only lower-case letters in identifiers (other than macros), with
+underscores inserted when necessary for legibility:</p>
+<pre><code>symbol_table
+current_page
+name_and_address</code></pre>
+<p>Other programmers avoid underscores, instead using an upper-case
+letter to begin each word within an identifier:</p>
+<pre><code>symbolTable
+currentPage
+nameAndAddress</code></pre>
+<p>(The first letter is sometimes capitalized as well.) Although the
+former style is common in traditional C, the latter style is becoming
+more popular thanks to its widespread use in Java and C# (and, to a
+lesser extent, C++). Other reasonable conventions exist; just be sure to
+capitalize an identifier the same way each time it appears in a
+program.</p>
+<p><span class="QandA"></span></p>
+<p>C places no limit on the maximum length of an identifier, so don’t be
+afraid to use long, descriptive names. A name such as
+<code>current_page</code> is a lot easier to understand than a name like
+<code>cp</code>.</p>
+<h3 id="keywords">2.7.1 Keywords</h3>
+<p><span class="C99Symbol"></span></p>
+<p>The <strong><em>keywords</em></strong> in Table 2.1 have special
+significance to C compilers and therefore can’t be used as identifiers.
+Note that five keywords were added in C99.</p>
+<p><strong>Table 2.1</strong><br>Keywords</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><code>auto</code></td>
+<td><code>enum</code></td>
+<td><code>restrict</code><span class="staffOfHermis"></span></td>
+<td><code>unsigned</code></td>
+</tr>
+<tr class="even">
+<td><code>break</code></td>
+<td><code>extern</code></td>
+<td><code>return</code></td>
+<td><code>void</code></td>
+</tr>
+<tr class="odd">
+<td><code>case</code></td>
+<td><code>float</code></td>
+<td><code>short</code></td>
+<td><code>volatile</code></td>
+</tr>
+<tr class="even">
+<td><code>char</code></td>
+<td><code>for</code></td>
+<td><code>signed</code></td>
+<td><code>while</code></td>
+</tr>
+<tr class="odd">
+<td><code>const</code></td>
+<td><code>goto</code></td>
+<td><code>sizeof</code></td>
+<td><code>_Bool</code><span class="staffOfHermis"></span></td>
+</tr>
+<tr class="even">
+<td><code>continue</code></td>
+<td><code>if</code></td>
+<td><code>static</code></td>
+<td><code>_Complex</code><span class="staffOfHermis"></span></td>
+</tr>
+<tr class="odd">
+<td><code>default</code></td>
+<td><code>inline</code><span class="staffOfHermis"></span></td>
+<td><code>struct</code></td>
+<td><code>_Imaginary</code><span class="staffOfHermis"></span></td>
+</tr>
+<tr class="even">
+<td><code>do</code></td>
+<td><code>int</code></td>
+<td><code>switch</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><code>double</code></td>
+<td><code>long</code></td>
+<td><code>typedef</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><code>else</code></td>
+<td><code>register</code></td>
+<td><code>union</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><span class="staffOfHermis"></span>C99 only</p>
+<p>Because of C’s case-sensitivity, keywords must appear in programs
+exactly as shown in Table 2.1, with all letters in lower case. Names of
+functions in the standard library (such as <code>printf</code>) contain
+only lower-case letters also. Avoid the plight of the unfortunate
+programmer who enters an entire program in upper case, only to find that
+the compiler can’t recognize keywords and calls of library
+functions.</p>
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Watch out for other restrictions on identifiers. Some compilers treat
+certain identifiers (<code>asm</code>, for example) as additional
+keywords. Identifiers that belong to the standard library are restricted
+as well. Accidentally using one of these names can cause an error during
+compilation or linking. Identifiers that begin with an underscore are
+also restricted.</p>
+</div>
+</body>
+</html>

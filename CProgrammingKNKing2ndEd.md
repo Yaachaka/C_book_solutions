@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="./myStyle.css">
 </head>
 
+<body>
 # Title of the Book: C Programming A Modern Approach
 ## Edition: Second Edition (2008)
 ### Author: K.N.King
@@ -730,4 +731,100 @@ printf("Celsius equivalent: %.1f\n", celsius);
 
 Notice the use of `%.1f` to display `celsius` with just one digit after the decimal point.
 
+## Identifiers
 
+As we're writing a program, we'll have to choose names for variables, functions, macros, and other entities. These names are called ***identifiers***. In C, an identifier may contain letters, digits, and underscores, but must begin with a letter or underscore. 
+
+<span class="C99Symbol"></span>
+
+(In C99, identifiers may contain certain "universal character names" as well.)
+
+Here are some examples of legal identifers:
+
+```
+times10
+get_next_char
+_done
+```
+
+The following are *not* legal identifiers:
+
+```
+10times
+get-next-char
+```
+
+The symbol `10times` begins with a digit, not a letter or underscore. `get-next-char` contains minus signs, not underscores.
+
+C is ***case-sensitive***: it distinguishes between upper-case and lower-case letters in identifiers. For example, the following identifiers are all different:
+
+```
+job
+joB
+jOb
+jOB
+Job
+JoB
+JOb
+JOB
+```
+
+These eight identifiers could all be used simultaneously, each for a completely different purpose. (Talk about obfuscation!) Sensible programmers try to make identifiers look different unless they're somehow related.
+
+Since case matters in C, many programmers follow the convention of using only lower-case letters in identifiers (other than macros), with underscores inserted when necessary for legibility:
+
+```
+symbol_table
+current_page
+name_and_address
+```
+
+Other programmers avoid underscores, instead using an upper-case letter to begin each word within an identifier:
+
+```
+symbolTable
+currentPage
+nameAndAddress
+```
+
+(The first letter is sometimes capitalized as well.) Although the former style is common in traditional C, the latter style is becoming more popular thanks to its widespread use in Java and C# (and, to a lesser extent, C++). Other reasonable conventions exist; just be sure to capitalize an identifier the same way each time it appears in a program.
+
+<span class="QandA"></span>
+
+C places no limit on the maximum length of an identifier, so don't be afraid to use long, descriptive names. A name such as `current_page` is a lot easier to understand than a name like `cp`.
+
+### 2.7.1 Keywords
+
+<span class="C99Symbol"></span>
+
+The ***keywords*** in Table 2.1 have special significance to C compilers and therefore can't be used as identifiers. Note that five keywords were added in C99.
+
+**Table 2.1**<br>Keywords
+
+|||||
+|---|---|---|---|
+|`auto`|`enum`|`restrict`<span class="staffOfHermis"></span>|`unsigned`|
+|`break`|`extern`|`return`|`void`|
+|`case`|`float`|`short`|`volatile`|
+|`char`|`for`|`signed`|`while`|
+|`const`|`goto`|`sizeof`|`_Bool`<span class="staffOfHermis"></span>|
+|`continue`|`if`|`static`|`_Complex`<span class="staffOfHermis"></span>|
+|`default`|`inline`<span class="staffOfHermis"></span>|`struct`|`_Imaginary`<span class="staffOfHermis"></span>|
+|`do`|`int`|`switch`|
+|`double`|`long`|`typedef`|
+|`else`|`register`|`union`|
+
+<span class="staffOfHermis"></span>C99 only
+
+Because of C's case-sensitivity, keywords must appear in programs exactly as shown in Table 2.1, with all letters in lower case. Names of functions in the standard library (such as `printf`) contain only lower-case letters also. Avoid the plight of the unfortunate programmer who enters an entire program in upper case, only to find that the compiler can't recognize keywords and calls of library functions.
+
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Watch out for other restrictions on identifiers. Some compilers treat certain identifiers (`asm`, for example) as additional keywords. Identifiers that belong to the standard library are restricted as well. Accidentally using one of these names can cause an error during compilation or linking. Identifiers that begin with an underscore are also restricted.
+
+</div>
+
+</body>
+</html>
