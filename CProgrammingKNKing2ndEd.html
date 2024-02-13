@@ -1256,7 +1256,7 @@ as we’ll see later.</p>
 storing numbers in which the decimal point “floats”. A float value is
 usually stored in two parts: the fraction (or mantissa) and the
 exponent. The number 12.0 might be stored as <span
-class="displayInline"><span
+class="displayInlineMath"><span
 class="math display">1.5 × 2<sup>3</sup></span></span>, for example,
 where 1.5 is the fraction and 3 is the exponent. Some programming
 languages call this type <code>real</code> instead of
@@ -1337,6 +1337,162 @@ href="./cknkCh02/cknkCh02Prj/README.md">./cknkCh02/cknkCh02Prj/README.md</a></li
 href="./cknkCh02/cknkCh02Prj/">./cknkCh02/cknkCh02Prj/</a></li>
 </ul>
 <hr class="chapterDivider"/>
-<h1 id="nextchaptername">NextChapterName</h1>
+<h1 id="formatted-inputoutput">3 Formatted Input/Output</h1>
+<div class="theQuote">
+In seeking the unattainable, simplicity only gets in the way.
+</div>
+<p><code>scanf</code> and <code>printf</code>, which support formatted
+reading and writing, are two of the most frequently used functions in C.
+As this chapter shows, both are powerful but tricky to use properly.
+Section 3.1 describes <code>printf</code>, and Sectioon 3.2 covers
+<code>scanf</code>. Neither section gives complete details, which will
+have to wait until Chapter 22.</p>
+<h2 id="the-printf-function">3.1 The <code>printf</code> Function</h2>
+<p>The <code>printf</code> function is designed to display the contents
+of a string, known as the <strong><em>format string</em></strong>, with
+values possibly inserted at specified points in the string. When it’s
+called, <code>printf</code> must be supplied with the format string,
+followed by any values that are to be inserted into the string during
+printing:</p>
+<div class="sourceCode" id="cb81"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb81-1"><a href="#cb81-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span>string<span class="op">,</span> expr1<span class="op">,</span> expr2<span class="op">,</span> <span class="op">...);</span></span></code></pre></div>
+<p>The values displayed can be constants, variables, or more complicated
+expressions. There’s no limit on the number of values that can be
+printed by a single call of <code>printf</code>.</p>
+<p>The format string may contain both ordinary characters and
+<strong><em>conversion specifications</em></strong>, which begin with
+the <code>%</code> character. A conversion specification is a place
+holder representing a value to be filled in during printing. The
+information that follows the % character <em>specifies</em> how the
+value is <em>converted</em> from its internal form (binary) to printed
+form (characters)–that’s where the term “conversion specification” comes
+from. For example, the conversion specification <code>%d</code>
+specifies that <code>printf</code> is to convert an <code>int</code>
+value from binary to a string of decimal digits, while <code>%f</code>
+does the same for a <code>float</code> value.</p>
+<p>Ordinary characters in a format string are printed exactly as they
+appear in the string; conversion specifications are replaced by the
+values to be printed. Consider the following example:</p>
+<div class="sourceCode" id="cb82"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">,</span> j<span class="op">;</span></span>
+<span id="cb82-2"><a href="#cb82-2" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> x<span class="op">,</span> y<span class="op">;</span></span>
+<span id="cb82-3"><a href="#cb82-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-4"><a href="#cb82-4" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb82-5"><a href="#cb82-5" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">20</span><span class="op">;</span></span>
+<span id="cb82-6"><a href="#cb82-6" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="fl">43.2892</span><span class="bu">f</span><span class="op">;</span></span>
+<span id="cb82-7"><a href="#cb82-7" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="fl">5527.0</span><span class="bu">f</span><span class="op">;</span></span>
+<span id="cb82-8"><a href="#cb82-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-9"><a href="#cb82-9" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;i = %d, j = %d, x = %f, y = %f</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">,</span> j<span class="op">,</span> x<span class="op">,</span> y<span class="op">);</span></span></code></pre></div>
+<p>This call of <code>printf</code> produces the following output:</p>
+<pre class="shell"><code>i = 10, j = 20, x = 43.289200, y = 5527.000000</code></pre>
+<p>The ordinary characters in the format string are simply copied to the
+output line. The four conversion specifications are replaced by the
+values of the variables <code>i</code>, <code>j</code>, <code>x</code>,
+and <code>y</code>, in that order.</p>
+<div class="infoBox">
+<p><span class="warningEmoji"><span></p>
+<p>C compilers aren’t required to check that the number of conversion
+specifications in a format string matches the number of output items.
+The following call of <code>printf</code> has more conversion
+specifications than values to be printed:</p>
+<div class="sourceCode" id="cb84"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span>    <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p><code>printf</code> will print the value of <code>i</code> correctly,
+then print a second (meaningless) integer value. A call with too few
+conversion specifications has similar problems:</p>
+<div class="sourceCode" id="cb85"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">,</span> j<span class="op">);</span>    <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>In this case, <code>printf</code> prints the value of <code>i</code>
+but doesn’t show the value of <code>j</code>.</p>
+<p>Furthermore, compilers aren’t required to check that a conversion
+specification is appropriate for the type of item being printed. If the
+programmer uses an incorrect specification, the program will simply
+produce meaningless output. Consider the following call of
+<code>printf</code>, in which the <code>int</code> variable
+<code>i</code> and the <code>float</code> variable <code>x</code> are in
+the wrong order:</p>
+<div class="sourceCode" id="cb86"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb86-1"><a href="#cb86-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%f %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">,</span> x<span class="op">);</span>    <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>Since <code>printf</code> must obey the format string, it will
+dutifully display a <code>float</code> value, followed by an
+<code>int</code> value. Unfortunately, both will be meaningless.</p>
+</div>
+<h3 id="conversion-specifications">3.1.1 Conversion Specifications</h3>
+<p>Conversion specifications give the programmer a great deal of control
+over the appearance of output. On the other hand, they can be
+complicated and hard to read. In fact, describing conversion
+specifications in complete detail is too arduous a task to tackle this
+early in the book. Instead, we’ll just take a brief look at some of
+their more important capabilities.</p>
+<p>In chapter 2 , we saw that a conversion specification can include
+formatting information. In particular, we used <code>%.1f</code> to
+display a <code>float</code> value with one digit after the decimal
+point. More generally, a conversion specification can have the form
+<code>%m.pX</code> or <code>%-m.pX</code>, where <code>m</code> and
+<code>p</code> are integer constants and <code>X</code> is a letter.
+Both <code>m</code> and <code>p</code> are optional; if <code>p</code>
+is omitted, the period that separates <code>m</code> and <code>p</code>
+is also dropped. In the conversion specification <code>%10.2f</code>,
+<code>m</code> is <code>10</code>, <code>p</code> is <code>2</code>, and
+<code>X</code> is <code>f</code>. In the specification
+<code>%.2f</code>, <code>p</code> is <code>2</code> and <code>m</code>
+is missing.</p>
+<p>The <strong><em>minimum field width</em></strong>, <code>m</code>,
+specifies the minimum number of characters to print. If the value to be
+printed requires fewer than <code>m</code> characters, the values is
+right justified within the field. (in other words, extra spaces precede
+the value.) For example, the specification <code>%4d</code> would
+display the number 123 as <code>123</code>. (Please notice the
+preceeding space). If the value to be porinted requires more than
+<code>m</code> characters, the field width automatically expands to the
+necessary size. Thus, the specification <code>%4d</code> would display
+the number 12345 as <code>12345</code>–no digits are lost. Putting a
+minus sign in front of <code>m</code> causes left justification; the
+specification <code>%-4d</code> would display 123 as
+<code>123</code>.</p>
+<p>The meaning of the <strong><em>precision</em></strong>,
+<code>p</code> isn’t as easily described, since it depends on the choice
+of <code>X</code>, the <strong><em>conversion specifier</em></strong>.
+<code>X</code> indicates which conversion should be applied to the value
+before it’s printed. The most common conversion specifiers for numbers
+are:</p>
+<ul>
+<li>
+<p><span class="QandA"></span></p>
+<p><code>d</code> – Displays an integer in decimal (base 10) form.
+<code>p</code> indicates the minimum number of digits to display (extra
+zeros are added to the beginning of the number if necessary); if
+<code>p</code> is omitted, it is assumed to have the value 1. (In other
+words, <code>%d</code> is the same as <code>%.1d</code>.)</p>
+</li>
+<li>
+<p><code>e</code> – Displays a floating-point number in exponential
+format (scientific notation). <code>p</code> indicates how many digits
+should appear after the decimal point (the default is 6). If
+<code>p</code> is 0, the decimal point is not displayed.</p>
+</li>
+<li>
+<p><code>f</code> – Displays a floating-point number in “fixed decimal”
+format, without an exponent. <code>p</code> has the same meaning as for
+the <code>e</code> specifier.</p>
+</li>
+<li>
+<p><code>g</code> – Displays a floating-point number in either
+exponential format or fixed decimal format, depending on the number’s
+size. <code>p</code> indicates the maximum number of significant digits
+(<em>not</em> digits after the decimal point) to be displayed. Unlike
+the <code>f</code> conversion, the <code>g</code> conversion won’t show
+trailing zeros. Furthermore, if the value to be printed has no digits
+after the decimal point, <code>g</code> doesn’t display the decimal
+point.</p>
+</li>
+</ul>
+<p>The <code>g</code> specifier is especially useful for displaying
+numbers whose size can’t be predicted when the program is written or
+that tend to vary widely in size. When used to print a moderately large
+or moderately small number, the <code>g</code> specifier uses fixed
+decimal format. But when used to print a very large or very small
+number, the <code>g</code> specifier switches to exponential format so
+that the number will require fewer characters.</p>
+<p>There are many other specifiers besides <code>%d</code>,
+<code>%e</code>, <code>%f</code>, and <code>%g</code>. I’ll gradually
+introduce many of them in subsequent chapters. For the full list, and
+for a complete explanation of the other capabilities of conversion
+specifications, consult Section 22.3.</p>
 </body>
 </html>

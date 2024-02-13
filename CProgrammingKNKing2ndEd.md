@@ -1203,8 +1203,114 @@ A: That's a tough question. Leave too little space, and the eye has trouble dete
 
 <hr class="chapterDivider"/>
 
-# NextChapterName
+# 3 Formatted Input/Output
 
+<div class="theQuote">In seeking the unattainable, simplicity only gets in the way.</div>
+
+`scanf` and `printf`, which support formatted reading and writing, are two of the most frequently used functions in C. As this chapter shows, both are powerful but tricky to use properly. Section 3.1 describes `printf`, and Sectioon 3.2 covers `scanf`. Neither section gives complete details, which will have to wait until Chapter 22.
+
+## 3.1 The `printf` Function
+
+The `printf` function is designed to display the contents of a string, known as the ***format string***, with values possibly inserted at specified points in the string. When it's called, `printf` must be supplied with the format string, followed by any values that are to be inserted into the string during printing:
+
+```C
+printf(string, expr1, expr2, ...);
+```
+
+The values displayed can be constants, variables, or more complicated expressions. There's no limit on the number of values that can be printed by a single call of `printf`.
+
+The format string may contain both ordinary characters and ***conversion specifications***, which begin with the `%` character. A conversion specification is a place holder representing a value to be filled in during printing. The information that follows the % character *specifies* how the value is *converted* from its internal form (binary) to printed form (characters)--that's where the term "conversion specification" comes from. For example, the conversion specification `%d` specifies that `printf` is to convert an `int` value from binary to a string of decimal digits, while `%f` does the same for a `float` value.
+
+Ordinary characters in a format string are printed exactly as they appear in the string; conversion specifications are replaced by the values to be printed. Consider the following example:
+
+```c
+int i, j;
+float x, y;
+
+i = 0;
+j = 20;
+x = 43.2892f;
+y = 5527.0f;
+
+printf("i = %d, j = %d, x = %f, y = %f\n", i, j, x, y);
+```
+
+This call of `printf` produces the following output:
+
+```shell
+i = 10, j = 20, x = 43.289200, y = 5527.000000
+```
+
+The ordinary characters in the format string are simply copied to the output line. The four conversion specifications are replaced by the values of the variables `i`, `j`, `x`, and `y`, in that order.
+
+<div class="infoBox">
+
+<span class="warningEmoji"><span>
+
+C compilers aren't required to check that the number of conversion specifications in a format string matches the number of output items. The following call of `printf` has more conversion specifications than values to be printed:
+
+```C
+printf("%d %d\n", i);    /*** WRONG ***/
+````
+
+`printf` will print the value of `i` correctly, then print a second (meaningless) integer value. A call with too few conversion specifications has similar problems:
+
+```C
+printf("%d\n", i, j);    /*** WRONG ***/
+```
+
+In this case, `printf` prints the value of `i` but doesn't show the value of `j`.
+
+Furthermore, compilers aren't required to check that a conversion specification is appropriate for the type of item being printed. If the programmer uses an incorrect specification, the program will simply produce meaningless output. Consider the following call of `printf`, in which the `int` variable `i` and the `float` variable `x` are in the wrong order:
+
+```C
+printf("%f %d\n", i, x);    /*** WRONG ***/
+```
+
+Since `printf` must obey the format string, it will dutifully display a `float` value, followed by an `int` value. Unfortunately, both will be meaningless.
+
+</div>
+
+### 3.1.1 Conversion Specifications
+
+Conversion specifications give the programmer a great deal of control over the appearance of output. On the other hand, they can be complicated and hard to read. In fact, describing conversion specifications in complete detail is too arduous a task to tackle this early in the book. Instead, we'll just take a brief look at some of their more important capabilities.
+
+In chapter 2 , we saw that a conversion specification can include formatting information. In particular, we used `%.1f` to display a `float` value with one digit after the decimal point. More generally, a conversion specification can have the form `%m.pX` or `%-m.pX`, where `m` and `p` are integer constants and `X` is a letter. Both `m` and `p` are optional; if `p` is omitted, the period that separates `m` and `p` is also dropped.  In the conversion specification `%10.2f`, `m` is `10`, `p` is `2`, and `X` is `f`. In the specification `%.2f`, `p` is `2` and `m` is missing.
+
+The ***minimum field width***, `m`, specifies the minimum number of characters to print. If the value to be printed requires fewer than `m` characters, the values is right justified within the field. (in other words, extra spaces precede the value.) For example, the specification `%4d` would display the number 123 as ` 123`. (Please notice the preceeding space). If the value to be porinted requires more than `m` characters, the field width automatically expands to the necessary size. Thus, the specification `%4d` would display the number 12345 as `12345`--no digits are lost. Putting a minus sign in front of `m` causes left justification; the specification `%-4d` would display 123 as `123 `.
+
+The meaning of the ***precision***, `p` isn't as easily described, since it depends on the choice of `X`, the ***conversion specifier***. `X` indicates which conversion should be applied to the value before it's printed. The most common conversion specifiers for numbers are:
+
+<ul>
+
+<li>
+
+<span class="QandA"></span>
+
+`d` -- Displays an integer in decimal (base 10) form. `p` indicates the minimum number of digits to display (extra zeros are added to the beginning of the number if necessary); if `p` is omitted, it is assumed to have the value 1. (In other words, `%d` is the same as `%.1d`.)
+
+</li>
+<li>
+
+`e` -- Displays a floating-point number in exponential format (scientific notation). `p` indicates how many digits should appear after the decimal point (the default is 6). If `p` is 0, the decimal point is not displayed.
+
+</li>
+<li>
+
+`f` -- Displays a floating-point number in "fixed decimal" format, without an exponent. `p` has the same meaning as for the `e` specifier.
+
+</li>
+<li>
+
+`g` -- Displays a floating-point number in either exponential format or fixed decimal format, depending on the number's size. `p` indicates the maximum number of significant digits (*not* digits after the decimal point) to be displayed. Unlike the `f` conversion, the `g` conversion won't show trailing zeros. Furthermore, if the value to be printed has no digits after the decimal point, `g` doesn't display the decimal point.
+
+</li>
+
+</ul>
+
+The `g` specifier is especially useful for displaying numbers whose size can't be predicted when the program is written or that tend to vary widely in size. When used to print a moderately large or moderately small number, the `g` specifier uses fixed decimal format. But when used to print a very large or very small number, the `g` specifier switches to exponential format so that the number will require fewer characters.
+
+There are many other specifiers besides `%d`, `%e`, `%f`, and `%g`. I'll gradually introduce many of them in subsequent chapters. For the full list, and for a complete explanation of the other capabilities of conversion specifications, consult Section 22.3.
 
 </body>
 </html>
