@@ -1143,7 +1143,7 @@ Q: Where does the `float` type get its name? [p. 17]
 </div>
 <div class="QandA_answer">
 
-A: `float` is short for "floating-point", a technique for storing numbers in which the decimal point "floats". A float value is usually stored in two parts: the fraction (or mantissa) and the exponent. The number 12.0 might be stored as <span class="displayInline">$$ 1.5 \times 2^{3} $$</span>, for example, where 1.5 is the fraction and 3 is the exponent. Some programming languages call this type `real` instead of `float`.
+A: `float` is short for "floating-point", a technique for storing numbers in which the decimal point "floats". A float value is usually stored in two parts: the fraction (or mantissa) and the exponent. The number 12.0 might be stored as <span class="displayInlineMath">$$ 1.5 \times 2^{3} $$</span>, for example, where 1.5 is the fraction and 3 is the exponent. Some programming languages call this type `real` instead of `float`.
 
 </div>
 <div class="QandA_question">

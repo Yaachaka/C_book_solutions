@@ -1,20 +1,18 @@
-
-<style>
-    .hr1
-    {
-        width: 98%;
-        border-style: ridge;
-        border-color: rgb(0, 0, 0);
-        background: linear-gradient(violet, indigo, blue, green, yellow, orange, red, red, orange, yellow, green, blue, indigo, violet);
-    }
-</style>
-
+<html>
+<head>
+<title>Chapter 02 exercises</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../myStyle.css">
+</head>
+<body>
 
 # Chapter 02 Excercises
   
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Exrc001
+
+**Section 2.1**
 
 <!-- START: Problem Statement -->
 
@@ -52,17 +50,20 @@ The Correct code is as given below.
 
 <!-- START: terminal interaction or other output -->
 
-```bash
+```shell
 hello, world
 ```
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Exrc002
 
+**Section 2.2**
+
 <!-- START: Problem Statement -->
+
 Consider the following program:
 
 ```C
@@ -99,7 +100,7 @@ int main(void)
 
 <!-- START: terminal interaction or other output -->
 
-```bash
+```shell
 Parkinson's Law:
 Work expands so as to fill the time
 available for its completion.
@@ -107,13 +108,15 @@ available for its completion.
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Exrc003
 
+**Section 2.4**
+
 <!-- START: Problem Statement -->
 
-Condense the `dweight.c` program by (1) replacing the assignments to `height`, `length`, and `width` with initializers and (2) removing the `weight` variable, instead calculating `(volume + 165) / 166` within the last `printf`.
+Condense the `dweight.c` program by (1) replacing the assignments to `height`, `length`, and `width` with initializers and (2) removing the `weight` variable, instead calculating <span class="displayInlineMath">$$ (volume + 165) / 166 $$</span> within the last `printf`.
 
 <!-- END: Problem Statement -->
 
@@ -131,7 +134,7 @@ Condense the `dweight.c` program by (1) replacing the assignments to `height`, `
 
 <!-- START: terminal interaction or other output -->
 
-```bash
+```shell
 Dimensions: 12x10x8
 Volume (cubic inches): 960
 Dimensional weight (pounds): 6
@@ -139,9 +142,11 @@ Dimensional weight (pounds): 6
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Exrc004
+
+**Section 2.4**
 
 <!-- START: Problem Statement -->
 
@@ -163,7 +168,7 @@ Write a program that declares several `int` and `float` variables -- without ini
 
 <!-- START: terminal interaction or other output -->
 
-```bash
+```shell
 inta_a: -1399676452, int_b: 127
 float_a: -513055257696817635131392.000000, float_b: 0.000000
 ```
@@ -176,9 +181,11 @@ float_a: -513055257696817635131392.000000, float_b: 0.000000
 There is no specific pattern observed in the values of the variables declared.
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Exrc005
+
+**Section 2.7**
 
 <!-- START: Problem Statement -->
 
@@ -197,9 +204,11 @@ Which of the following are not legal C identifiers?
 (c) `one__hundred__bottles`: Legal. Does start with Character or underscore.  
 (d) `bottles_by_the_hundred_`: Legal. Does start with Character or underscore.  
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Exrc006
+
+**Section 2.7**
 
 <!-- START: Problem Statement -->
 
@@ -213,9 +222,11 @@ For the following reasons, it is not a good idea for an identifier to contain mo
 1. Hard to know how many underscores are there.  
 2. Many identifiers related to standard libraries are with two adjacent underscores.  
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Exrc007
+
+**Section 2.7**
 
 <!-- START: Problem Statement -->
 
@@ -232,9 +243,11 @@ Which of the following are keywords in C?
 
 Except option (b) remaining all are C keywords. `If` is not equal to `if`; latter is a C keyword.
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Exrc008
+
+**Section 2.8**
 
 <!-- START: Problem Statement -->
 
@@ -266,9 +279,11 @@ p
 
 Anything that can be separated from the other with space without affecting syntax wise or functionality wise is a token in C.
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Exrc009
+
+**Section 2.8**
 
 <!-- START: Problem Statement -->
 
@@ -280,9 +295,11 @@ Insert spaces between the tokens in exercise 8 to make the statement easier to r
 
 `answer = ( 3 * q - p * p ) / 3 ;`
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Exrc010
+
+**Section 2.8**
 
 <!-- START: Problem Statement -->
 
@@ -319,5 +336,7 @@ int main(void) // Essential space after `int`
 }
 ```
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
+</body>
+</html>

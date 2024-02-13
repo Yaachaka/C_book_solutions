@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>
+Chapter 02 Programming Projects
+</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../myStyle.css">
+</head>
+<body>
+<h1 id="chapter-02-programming-projects">Chapter 02 Programming
+Projects</h1>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch02prj001">cknkCh02Prj001</h1>
+<!-- START: Problem Statement -->
+<p>Write a program that uses <code>printf</code> to display the
+following picture on the screen:</p>
+<pre><code>       *
+      *
+     *
+*   *
+ * *
+  *</code></pre>
+<!-- END: Problem Statement -->
+<h1 id="solution">Solution:</h1>
+<h2 id="program-link">Program Link</h2>
+<p><a href="./cknkCh02Prj001.c">cknkCh02Prj001.c</a></p>
+<h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
+<h3 id="trial1">Trial1:</h3>
+<h4 id="trial1-execution">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>       *
+      *
+     *
+*   *
+ * *
+  *</code></pre>
+<!-- END: terminal interaction or other output -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch02prj002">cknkCh02Prj002</h1>
+<!-- START: Problem Statement -->
+<p>Write a program that computes the volume of a sphere with a 10-meter
+radius, using the formula <span class="displayInlineMath"><span
+class="math display"><em>v</em> = 4/3<em>π</em><em>r</em><sup>3</sup></span></span>.
+Write the fraction 4/3 as <code>4.0f/3.0f</code>. (Try writing it as
+4/3. What happens?) <em>Hint:</em> C Doesn’t have an exponentiation
+operator, so you’ll need to multiply <code>r</code> by itself twice to
+compute <span class="displayInlineMath"><span
+class="math display"><em>r</em><sup>3</sup></span></span>.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-1">Solution:</h1>
+<h2 id="program-link-1">Program Link</h2>
+<p><a href="./cknkCh02Prj002.c">cknkCh02Prj002.c</a></p>
+<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
+<h3 id="trial1-1">Trial1:</h3>
+<h4 id="trial1-execution-1">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Volume (when we put 4.0f/3.0f): 4186.67
+Volume (when we put 4/3): 3140.00. All the digits after the decimal point will be ignored.</code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<ul>
+<li>When we put <code>4.0f/3.0f</code>, that results in
+<code>1.33333....</code>.<br />
+</li>
+<li>When we put <code>4/3</code>, that results in <code>1</code>.<br />
+<!-- END: Comments --></li>
+</ul>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch02prj003">cknkCh02Prj003</h1>
+<!-- START: Problem Statement -->
+<p>Modify the program of Programming Project 2 so that it prompts the
+user to enter the radius of the sphere.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-2">Solution:</h1>
+<h2 id="program-link-2">Program Link</h2>
+<p><a href="./cknkCh02Prj003.c">cknkCh02Prj003.c</a></p>
+<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
+<h3 id="trial1-2">Trial1:</h3>
+<h4 id="trial1-execution-2">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Hey user, please enter the radius value: 12
+Volume (when we put 4.0f/3.0f): 7234.56
+Volume (when we put 4/3): 5425.92</code></pre>
+<!-- END: terminal interaction or other output -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch02prj004">cknkCh02Prj004</h1>
+<!-- START: Problem Statement -->
+<p>Write a program that asks the user to enter a dollar-and-cents
+amount, then displays the amount with 5% tax added:</p>
+<pre><code>Enter an amount: 100.00
+With tax added: $105.00</code></pre>
+<!-- END: Problem Statement -->
+<h1 id="solution-3">Solution:</h1>
+<h2 id="program-link-3">Program Link</h2>
+<p><a href="./cknkCh02Prj004.c">cknkCh02Prj004.c</a></p>
+<h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
+<h3 id="trial1-3">Trial1:</h3>
+<h4 id="trial1-execution-3">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter an amount: 100.00
+With tax added: $105.00</code></pre>
+<!-- END: terminal interaction or other output -->
+<h3 id="trial2">Trial2:</h3>
+<h4 id="trial2-execution">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter an amount: 168.12
+With tax added: $176.53</code></pre>
+<!-- END: terminal interaction or other output -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch02prj005">cknkCh02Prj005</h1>
+<!-- START: Problem Statement -->
+<p>Write a program that asks the user to enter a value for
+<code>x</code> and then displays the value of the following
+polynomial:<br />
+<span
+class="math display">3<em>x</em><sup>5</sup> + 2<em>x</em><sup>4</sup> − 5<em>x</em><sup>3</sup> − <em>x</em><sup>2</sup> + 7<em>x</em> − 6</span><br />
+<em>Hint:</em> C doesn’t have an exponentiation operator, so you’ll need
+to multiply <code>x</code> by itself repeatedly in order to compute the
+powers of <code>x</code>. (For example, <code>x * x * x</code> is
+<code>x</code> cubed).</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-4">Solution:</h1>
+<h2 id="program-link-4">Program Link</h2>
+<p><a href="./cknkCh02Prj005.c">cknkCh02Prj005.c</a></p>
+<h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
+<h3 id="trial1-4">Trial1:</h3>
+<h4 id="trial1-execution-4">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter the value of x: 8
+Value of the given polynomial: 103922</code></pre>
+<!-- END: terminal interaction or other output -->
+<h3 id="trial2-1">Trial2:</h3>
+<h4 id="trial2-execution-1">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter the value of x: 6
+Value of the given polynomial: 24840</code></pre>
+<!-- END: terminal interaction or other output -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch02prj006">cknkCh02Prj006</h1>
+<!-- START: Problem Statement -->
+<p>Modify the program of Programming Project 5 so that the polynomial is
+evaluated using the following formula:<br />
+<span
+class="math display">((((3<em>x</em>+2)<em>x</em>−5)<em>x</em>−1)<em>x</em>+7)<em>x</em> − 6</span><br />
+Note that the modified program performs fewer multiplications. This
+technique for evaluating polynomials is known as <strong><em>Horner’s
+Rule</em></strong>.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-5">Solution:</h1>
+<h2 id="program-link-5">Program Link</h2>
+<p><a href="./cknkCh02Prj006.c">cknkCh02Prj006.c</a></p>
+<h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
+<h3 id="trial1-5">Trial1:</h3>
+<h4 id="trial1-execution-5">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter the value of x: 8
+Value of the given polynomial: 103922</code></pre>
+<!-- END: terminal interaction or other output -->
+<h3 id="trial2-2">Trial2:</h3>
+<h4 id="trial2-execution-2">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter the value of x: 6
+Value of the given polynomial: 24840</code></pre>
+<!-- END: terminal interaction or other output -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch02prj007">cknkCh02Prj007</h1>
+<!-- START: Problem Statement -->
+<p>Write a progam that asks the user to enter a U.S. dollar amount and
+then shows how to pay that amount using the smallest number of $20, $10,
+$5, and $1 bills:</p>
+<pre><code>Enter a dollar amount: 93
+
+$20 bills: 4
+$10 bills: 1
+ $5 bills: 0
+ $1 bills: 3</code></pre>
+<p><em>Hint:</em> Divide the amount by 20 to determine the number of $20
+bills needed, and then reduce the amount by the total value of the $20
+bills. Repeat for the other bill sizes. Be sure to use integer values
+throughout, not floating point numbers.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-6">Solution:</h1>
+<h2 id="program-link-6">Program Link</h2>
+<p><a href="./cknkCh02Prj007.c">cknkCh02Prj007.c</a></p>
+<h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
+<h3 id="trial1-6">Trial1:</h3>
+<h4 id="trial1-execution-6">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter a U.S. Dollar amount: 93
+$20 bills: 4
+$10 bills: 1
+ $5 bills: 0
+ $1 bills: 3</code></pre>
+<!-- END: terminal interaction or other output -->
+<h2 id="trial2-3">Trial2:</h2>
+<h4 id="trial2-execution-3">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter a U.S. Dollar amount: 168
+$20 bills: 8
+$10 bills: 0
+ $5 bills: 1
+ $1 bills: 3 </code></pre>
+<!-- END: terminal interaction or other output -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch02prj008">cknkCh02Prj008</h1>
+<!-- START: Problem Statement -->
+<p>Write a program that calculates the remaining balance on a loan after
+the first, second, and third monthly payments:</p>
+<pre><code>Enter amount of loan: 20000.00
+Enter interest rate: 6.0
+Enter monthly payment: 386.66
+
+Balance remaining after first payment: $19713.34
+Balance remaining after second payment: $19425.25
+Balance remaining after third payment: $19135.71</code></pre>
+<p>Display each balance with two digits after the decimal point.
+<em>Hint:</em> Each month, the balance is decreased by the amount of the
+payment, but increased by the balance times the monthly interest rate.
+To find the monthly interest rate, convert the interest rate entered by
+the user to a percentage and divide it by 12.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-7">Solution:</h1>
+<h2 id="program-link-7">Program Link</h2>
+<p><a href="./cknkCh02Prj008.c">cknkCh02Prj008.c</a></p>
+<h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
+<h3 id="trial1-7">Trial1:</h3>
+<h4 id="trial1-execution-7">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter amount of loan: 20000.00
+Enter interest rate: 6.0
+Enter monthly payment: 386.66
+Balance remaining after first payment: $19713.34
+Balance remaining after second payment: $19425.25
+Balance remaining after third payment: $19135.71</code></pre>
+<!-- END: terminal interaction or other output -->
+<h2 id="trial2-4">Trial2:</h2>
+<h4 id="trial2-execution-4">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter amount of loan: 125000
+Enter interest rate: 12
+Enter monthly payment: 4573.00
+Balance remaining after first payment: $121677.00
+Balance remaining after second payment: $118320.77
+Balance remaining after third payment: $114930.98</code></pre>
+<!-- END: terminal interaction or other output -->
+<hr class="hr1ExrcPrj"/>
+</body>
+</html>

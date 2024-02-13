@@ -1,18 +1,14 @@
-
-<style>
-    .hr1
-    {
-        width: 98%;
-        border-style: ridge;
-        border-color: rgb(0, 0, 0);
-        background: linear-gradient(violet, indigo, blue, green, yellow, orange, red, red, orange, yellow, green, blue, indigo, violet);
-    }
-</style>
-
+<html>
+<head>
+<title>Chapter 02 Programming Projects</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../myStyle.css">
+</head>
+<body>
 
 # Chapter 02 Programming Projects
   
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Prj001
 
@@ -58,13 +54,13 @@ Write a program that uses `printf` to display the following picture on the scree
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Prj002
 
 <!-- START: Problem Statement -->
 
-Write a program that computes the volume of a sphere with a 10-meter radius, using the formula $$ v = \frac{4}{3} \pi r^3 $$. Write the fraction 4/3 as `4.0f/3.0f`. (Try writing it as 4/3. What happens?) *Hint:* C Doesn't have an exponentiation operator, so you'll need to multiply `r` by itself twice to compute $$ r^3 $$.
+Write a program that computes the volume of a sphere with a 10-meter radius, using the formula <span class="displayInlineMath">$$ v = {4}/{3} \pi r^3 $$</span>. Write the fraction 4/3 as `4.0f/3.0f`. (Try writing it as 4/3. What happens?) *Hint:* C Doesn't have an exponentiation operator, so you'll need to multiply `r` by itself twice to compute <span class="displayInlineMath">$$ r^3 $$</span>.
 
 <!-- END: Problem Statement -->
 
@@ -98,7 +94,7 @@ Volume (when we put 4/3): 3140.00. All the digits after the decimal point will b
 - When we put `4/3`, that results in `1`.  
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Prj003
 
@@ -132,7 +128,7 @@ Volume (when we put 4/3): 5425.92
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Prj004
 
@@ -184,7 +180,7 @@ With tax added: $176.53
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Prj005
 
@@ -233,7 +229,7 @@ Value of the given polynomial: 24840
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Prj006
 
@@ -282,7 +278,7 @@ Value of the given polynomial: 24840
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Prj007
 
@@ -344,7 +340,7 @@ $10 bills: 0
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh02Prj008
 
@@ -409,5 +405,7 @@ Balance remaining after third payment: $114930.98
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
+</body>
+</html>

@@ -232,7 +232,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   
 }
 
-.displayInline .math, .displayInline .display
+.displayInlineMath .math, .displayInlineMath .display
 {
   display: inline;
   border-style: none;
@@ -398,3 +398,13 @@ tr:nth-child(even) { /* Alternating row background */
     color: black;
 }
 
+.hr1ExrcPrj
+{
+    width: 98%;
+    border-style: ridge;
+    border-color: blue;
+    background-color: red;
+    border-width: 2px;
+    margin: 0.5rem;
+    padding: 1px;
+}

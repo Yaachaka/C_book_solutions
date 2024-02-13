@@ -1,16 +1,5 @@
-echo "
-<style>
-    .hr1
-    {
-        width: 98%;
-        border-style: ridge;
-        border-color: rgb(0, 0, 0);
-        background: linear-gradient(violet, indigo, blue, green, yellow, orange, red, red, orange, yellow, green, blue, indigo, violet);
-    }
-</style>
-
-"
-chapter="02"
+chapter_section="Section 2."
+chapter="02"    # Give chapter name here
 title="# Chapter $chapter Excercises"
 
 pref="cknkCh"
@@ -20,17 +9,30 @@ name1=$pref$chapter"Exrc"
 exrcCount=10
 emptyLine="  "
 
+echo "<html>
+<head>
+<title>Chapter $chapter exercises</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../myStyle.css">
+</head>
+<body>
+
+"
+
 echo $title
 echo "  "
 
 echo "<hr class=\"hr1\"/>"
 echo $emptyLine
 
-for i in $(seq 1 $exrcCount);
+for i in $(seq 1 $exrcCount);    # For loop 1
 do
     name2=$name1$(printf "%03d" $i)
 
     echo "# "$name2
+    echo $emptyLine
+
+    echo $chapter_section
     echo $emptyLine
 
     echo "<!-- START: Problem Statement -->"
@@ -52,7 +54,7 @@ do
     echo "## Output/ExecutionLog:"
     echo $emptyLine
 
-    for j in {1..3};
+    for j in {1..3};    # For loop 2
     do
         echo "### Trial$j:"
         echo $emptyLine
@@ -73,7 +75,7 @@ do
         echo "<!-- END: Comments -->"
         echo $emptyLine
 
-    done
+    done    # For loop 2
 
     echo "# Exercise Comment:"
     echo $emptyLine
@@ -84,5 +86,10 @@ do
     
     echo "<hr class=\"hr1\"/>"
     echo $emptyLine
-done
 
+done    # For loop 1
+
+
+echo "
+</body>
+</html>"

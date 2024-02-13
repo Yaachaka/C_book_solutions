@@ -1,16 +1,4 @@
-echo "
-<style>
-    .hr1
-    {
-        width: 98%;
-        border-style: ridge;
-        border-color: rgb(0, 0, 0);
-        background: linear-gradient(violet, indigo, blue, green, yellow, orange, red, red, orange, yellow, green, blue, indigo, violet);
-    }
-</style>
-
-"
-chapter="02"
+chapter="02" # Give chapter number here
 title="# Chapter $chapter Programming Projects"
 
 pref="cknkCh"
@@ -19,6 +7,16 @@ name1=$pref$chapter"Prj"
 
 exrcCount=8
 emptyLine="  "
+
+echo "<html>
+<head>
+<title>Chapter $chapter Programming Projects</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../myStyle.css">
+</head>
+<body>
+
+"
 
 echo $title
 echo "  "
@@ -86,3 +84,6 @@ do
     echo $emptyLine
 done
 
+echo "
+</body>
+</html>"
