@@ -239,78 +239,27 @@ Section 3.2
 
 <!-- START: Problem Statement -->
 
+Suppose that we call `scanf` as follows:
 
+```C
+scanf("%d%f%d", &i, &x, &j);
+```
+
+If the user enters
+
+```shell
+10.3 5 6
+```
+
+what will be the values of `i`, `x`, and `j` after the call? (Assume that `i` and `j` are `int` variables and `x` is a float variable.)
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
+Values will be `i` = `10`, `x` = `0.3`, and `j` = `5`. `6` will be used in the next call of `scanf`.
 
-## Program Link
-
-[cknkCh03Exrc004.c](./cknkCh03Exrc004.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+The moment `.` was detected, `i` is stored with the value `10` and `.` was put back. For the next item i.e., `%f`, `.3` is read into `x`. Next available non-space-character was `5` which was loaded to `j`.
 
 <hr class="hr1"/>
 

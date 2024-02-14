@@ -153,10 +153,32 @@ Strings</em>.</p>
 <h1 id="cknkch03exrc004">cknkCh03Exrc004</h1>
 <p>Section 3.2</p>
 <!-- START: Problem Statement -->
+<p>Suppose that we call <code>scanf</code> as follows:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%d%f%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">,</span> <span class="op">&amp;</span>x<span class="op">,</span> <span class="op">&amp;</span>j<span class="op">);</span></span></code></pre></div>
+<p>If the user enters</p>
+<pre class="shell"><code>10.3 5 6</code></pre>
+<p>what will be the values of <code>i</code>, <code>x</code>, and
+<code>j</code> after the call? (Assume that <code>i</code> and
+<code>j</code> are <code>int</code> variables and <code>x</code> is a
+float variable.)</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-3">Solution:</h1>
+<p>Values will be <code>i</code> = <code>10</code>, <code>x</code> =
+<code>0.3</code>, and <code>j</code> = <code>5</code>. <code>6</code>
+will be used in the next call of <code>scanf</code>.</p>
+<p>The moment <code>.</code> was detected, <code>i</code> is stored with
+the value <code>10</code> and <code>.</code> was put back. For the next
+item i.e., <code>%f</code>, <code>.3</code> is read into <code>x</code>.
+Next available non-space-character was <code>5</code> which was loaded
+to <code>j</code>.</p>
+<hr class="hr1"/>
+<h1 id="cknkch03exrc005">cknkCh03Exrc005</h1>
+<p>Section 3.2</p>
+<!-- START: Problem Statement -->
+<!-- END: Problem Statement -->
+<h1 id="solution-4">Solution:</h1>
 <h2 id="program-link-2">Program Link</h2>
-<p><a href="./cknkCh03Exrc004.c">cknkCh03Exrc004.c</a></p>
+<p><a href="./cknkCh03Exrc005.c">cknkCh03Exrc005.c</a></p>
 <h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
 <h3 id="trial1-2">Trial1:</h3>
 <h4 id="trial1-execution-2">Trial1 execution:</h4>
@@ -186,13 +208,13 @@ Strings</em>.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
-<h1 id="cknkch03exrc005">cknkCh03Exrc005</h1>
+<h1 id="cknkch03exrc006">cknkCh03Exrc006</h1>
 <p>Section 3.2</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-4">Solution:</h1>
+<h1 id="solution-5">Solution:</h1>
 <h2 id="program-link-3">Program Link</h2>
-<p><a href="./cknkCh03Exrc005.c">cknkCh03Exrc005.c</a></p>
+<p><a href="./cknkCh03Exrc006.c">cknkCh03Exrc006.c</a></p>
 <h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
 <h3 id="trial1-3">Trial1:</h3>
 <h4 id="trial1-execution-3">Trial1 execution:</h4>
@@ -219,42 +241,6 @@ Strings</em>.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h1 id="exercise-comment-1">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1"/>
-<h1 id="cknkch03exrc006">cknkCh03Exrc006</h1>
-<p>Section 3.2</p>
-<!-- START: Problem Statement -->
-<!-- END: Problem Statement -->
-<h1 id="solution-5">Solution:</h1>
-<h2 id="program-link-4">Program Link</h2>
-<p><a href="./cknkCh03Exrc006.c">cknkCh03Exrc006.c</a></p>
-<h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
-<h3 id="trial1-4">Trial1:</h3>
-<h4 id="trial1-execution-4">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-3">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial2-2">Trial2:</h3>
-<h4 id="trial2-execution-2">Trial2 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-2">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial3-2">Trial3:</h3>
-<h4 id="trial3-execution-2">Trial3 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-2">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-2">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
