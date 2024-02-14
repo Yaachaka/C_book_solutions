@@ -1,12 +1,12 @@
-chapter_section="Section 2."
-chapter="02"    # Give chapter name here
+chapter_section="Section 3."
+chapter="03"    # Give chapter name here
 title="# Chapter $chapter Excercises"
 
 pref="cknkCh"
 
 name1=$pref$chapter"Exrc"
 
-exrcCount=10
+exrcCount=6
 emptyLine="  "
 
 echo "<html>
