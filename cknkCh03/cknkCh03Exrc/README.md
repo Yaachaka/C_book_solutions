@@ -251,7 +251,7 @@ If the user enters
 10.3 5 6
 ```
 
-what will be the values of `i`, `x`, and `j` after the call? (Assume that `i` and `j` are `int` variables and `x` is a float variable.)
+what will be the values of `i`, `x`, and `j` after the call? (Assume that `i` and `j` are `int` variables and `x` is a `float` variable.)
 
 <!-- END: Problem Statement -->
 
@@ -269,78 +269,25 @@ Section 3.2
 
 <!-- START: Problem Statement -->
 
+Suppose that we call `scanf` as follows:
 
+```C
+scanf("%f%d%f", &x, &i, &y);
+```
+
+If the user enters
+
+```shell
+12.3 45.6 789
+```
+
+what will be the values of `x`, `i`, and `y` after the call? (Assume that `x` and `y` are `float` variables and `i` is an `int` variable.)
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh03Exrc005.c](./cknkCh03Exrc005.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+Values will be `x` = `12.3`, `i` = `45`, and `y` = `0.6`. And `789` will be used in the next call of `scanf`.
 
 <hr class="hr1"/>
 
