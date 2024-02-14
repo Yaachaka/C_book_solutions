@@ -15,7 +15,12 @@
 
 <!-- START: Problem Statement -->
 
+Write a program that accepts a date from the user in the form *mm/dd/yyyy* and then displays it in the form *yyyymmdd*:
 
+```shell
+Enter a date (mm/dd/yyyy): 2/17/2011
+You entered the date 20110217
+```
 
 <!-- END: Problem Statement -->
 
@@ -35,18 +40,11 @@
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a date (mm/dd/yyyy): 2/17/2011
+You entered the date 20110217
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -55,18 +53,11 @@
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a date (mm/dd/yyyy): 2/14/2024
+You entered the date 20240214
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -75,26 +66,11 @@
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a date (mm/dd/yyyy): 2/5/96
+You entered the date 00960205
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1"/>
 
