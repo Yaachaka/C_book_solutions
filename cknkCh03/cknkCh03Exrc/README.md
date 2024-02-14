@@ -167,78 +167,69 @@ Section 3.2
 
 <!-- START: Problem Statement -->
 
+For each of the following pairs of `scanf` format strings, indicate whether or not the two strings are equivalent. If they're not, show how they can be distinguished.
 
+<ol type="a">
+<li>
+
+`"%d"` versus `" %d"`
+
+</li>
+<li>
+
+`"%d-%d-%d"` versus `"%d- %d- %d"`
+
+</li>
+<li>
+
+`"%f"` versus `"%f "`
+
+</li>
+<li>
+
+`"%f,%f"` versus `"%f,%f"`
+
+</li>
+</ol>
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
+<ol type="a">
+<li>
 
-## Program Link
+`"%d"` versus `" %d"`: *equivalent*.
 
-[cknkCh03Exrc003.c](./cknkCh03Exrc003.c)
+For both `"%d"` and `" %d"`, user can enter any number of spaces before or after the integer values. White-space character in a format string doesn’t force the input to contain white-space characters
 
-## Output/ExecutionLog:
+Please refer *Section 3.2.2 Ordinary Characters in Format Strings*.
 
-### Trial1:
+</li>
+<li>
 
-#### Trial1 execution:
+`"%d-%d-%d"` versus `"%d- %d- %d"`: *equivalent*.
 
-<!-- START: terminal interaction or other output -->
+For both `"%d-%d-%d"` and `"%d- %d- %d"`, user can enter any number of space-characters before each `%d` but both instances of `-` character shall immediately follow the integer values entered.
 
-```shell
+Please refer *Section 3.2.2 Ordinary Characters in Format Strings*.
 
-```
+</li>
+<li>
 
-<!-- END: terminal interaction or other output -->
+`"%f"` versus `"%f "`: *equivalent*.
 
-#### Trial1 Comments:
+Justification is same as the justification given for `(a)`.
 
-<!-- START: Comments -->
+</li>
+<li>
 
-<!-- END: Comments -->
+`"%f,%f"` versus `"%f, %f"`: *equivalent*.
 
-### Trial2:
+Justification is same as the justification given for `(b)`.
 
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+</li>
+</ol>
 
 <hr class="hr1"/>
 

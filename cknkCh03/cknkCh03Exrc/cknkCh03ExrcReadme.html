@@ -98,10 +98,65 @@ d) |   912|</code></pre>
 <h1 id="cknkch03exrc003">cknkCh03Exrc003</h1>
 <p>Section 3.2</p>
 <!-- START: Problem Statement -->
+<p>For each of the following pairs of <code>scanf</code> format strings,
+indicate whether or not the two strings are equivalent. If they’re not,
+show how they can be distinguished.</p>
+<ol type="a">
+<li>
+<p><code>"%d"</code> versus <code>" %d"</code></p>
+</li>
+<li>
+<p><code>"%d-%d-%d"</code> versus <code>"%d- %d- %d"</code></p>
+</li>
+<li>
+<p><code>"%f"</code> versus <code>"%f "</code></p>
+</li>
+<li>
+<p><code>"%f,%f"</code> versus <code>"%f,%f"</code></p>
+</li>
+</ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-2">Solution:</h1>
+<ol type="a">
+<li>
+<p><code>"%d"</code> versus <code>" %d"</code>: <em>equivalent</em>.</p>
+<p>For both <code>"%d"</code> and <code>" %d"</code>, user can enter any
+number of spaces before or after the integer values. White-space
+character in a format string doesn’t force the input to contain
+white-space characters</p>
+<p>Please refer <em>Section 3.2.2 Ordinary Characters in Format
+Strings</em>.</p>
+</li>
+<li>
+<p><code>"%d-%d-%d"</code> versus <code>"%d- %d- %d"</code>:
+<em>equivalent</em>.</p>
+<p>For both <code>"%d-%d-%d"</code> and <code>"%d- %d- %d"</code>, user
+can enter any number of space-characters before each <code>%d</code> but
+both instances of <code>-</code> character shall immediately follow the
+integer values entered.</p>
+<p>Please refer <em>Section 3.2.2 Ordinary Characters in Format
+Strings</em>.</p>
+</li>
+<li>
+<p><code>"%f"</code> versus <code>"%f "</code>: <em>equivalent</em>.</p>
+<p>Justification is same as the justification given for
+<code>(a)</code>.</p>
+</li>
+<li>
+<p><code>"%f,%f"</code> versus <code>"%f, %f"</code>:
+<em>equivalent</em>.</p>
+<p>Justification is same as the justification given for
+<code>(b)</code>.</p>
+</li>
+</ol>
+<hr class="hr1"/>
+<h1 id="cknkch03exrc004">cknkCh03Exrc004</h1>
+<p>Section 3.2</p>
+<!-- START: Problem Statement -->
+<!-- END: Problem Statement -->
+<h1 id="solution-3">Solution:</h1>
 <h2 id="program-link-2">Program Link</h2>
-<p><a href="./cknkCh03Exrc003.c">cknkCh03Exrc003.c</a></p>
+<p><a href="./cknkCh03Exrc004.c">cknkCh03Exrc004.c</a></p>
 <h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
 <h3 id="trial1-2">Trial1:</h3>
 <h4 id="trial1-execution-2">Trial1 execution:</h4>
@@ -131,13 +186,13 @@ d) |   912|</code></pre>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
-<h1 id="cknkch03exrc004">cknkCh03Exrc004</h1>
+<h1 id="cknkch03exrc005">cknkCh03Exrc005</h1>
 <p>Section 3.2</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-3">Solution:</h1>
+<h1 id="solution-4">Solution:</h1>
 <h2 id="program-link-3">Program Link</h2>
-<p><a href="./cknkCh03Exrc004.c">cknkCh03Exrc004.c</a></p>
+<p><a href="./cknkCh03Exrc005.c">cknkCh03Exrc005.c</a></p>
 <h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
 <h3 id="trial1-3">Trial1:</h3>
 <h4 id="trial1-execution-3">Trial1 execution:</h4>
@@ -167,13 +222,13 @@ d) |   912|</code></pre>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
-<h1 id="cknkch03exrc005">cknkCh03Exrc005</h1>
+<h1 id="cknkch03exrc006">cknkCh03Exrc006</h1>
 <p>Section 3.2</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-4">Solution:</h1>
+<h1 id="solution-5">Solution:</h1>
 <h2 id="program-link-4">Program Link</h2>
-<p><a href="./cknkCh03Exrc005.c">cknkCh03Exrc005.c</a></p>
+<p><a href="./cknkCh03Exrc006.c">cknkCh03Exrc006.c</a></p>
 <h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
 <h3 id="trial1-4">Trial1:</h3>
 <h4 id="trial1-execution-4">Trial1 execution:</h4>
@@ -200,42 +255,6 @@ d) |   912|</code></pre>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h1 id="exercise-comment-2">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1"/>
-<h1 id="cknkch03exrc006">cknkCh03Exrc006</h1>
-<p>Section 3.2</p>
-<!-- START: Problem Statement -->
-<!-- END: Problem Statement -->
-<h1 id="solution-5">Solution:</h1>
-<h2 id="program-link-5">Program Link</h2>
-<p><a href="./cknkCh03Exrc006.c">cknkCh03Exrc006.c</a></p>
-<h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
-<h3 id="trial1-5">Trial1:</h3>
-<h4 id="trial1-execution-5">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-4">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial2-3">Trial2:</h3>
-<h4 id="trial2-execution-3">Trial2 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-3">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial3-3">Trial3:</h3>
-<h4 id="trial3-execution-3">Trial3 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-3">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-3">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
