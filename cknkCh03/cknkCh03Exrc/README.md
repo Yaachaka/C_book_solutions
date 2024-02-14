@@ -297,81 +297,52 @@ Section 3.2
 
 <!-- START: Problem Statement -->
 
-
+Show how to modify the `addfrac.c` program of Section 3.2 so that the user is allowed to enter fractions that contain spaces before and after each `/` character.
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
+The following code of `addfrac.c` is as given in the section 3.2
 
-## Program Link
+```C
+/**
+ * file: addfrac.c
+ * Purpose: Adds two fractions
+ * Author: K. N. King
+ */
 
-[cknkCh03Exrc006.c](./cknkCh03Exrc006.c)
+#include <stdio.h>
 
-## Output/ExecutionLog:
+int main(void)
+{
+    int num1, denom1, num2, denom2, result_num, result_denom;
 
-### Trial1:
+    printf("Enter first fraction: ");
+    scanf("%d/%d", &num1, &denom1);
 
-#### Trial1 execution:
+    printf("Enter second fraction: ");
+    scanf("%d/%d", &num2, &denom2);
 
-<!-- START: terminal interaction or other output -->
+    result_num = num1 * denom2 + num2 * denom1;
+    result_denom = denom1 * denom2;
+    printf("The sum is %d/%d\n", result_num, result_denom);
 
-```shell
-
+    return 0;
+}
 ```
 
-<!-- END: terminal interaction or other output -->
+The modification needed as required by this exercise is as follows (i.e., in format strings of `scanf` calls):
 
-#### Trial1 Comments:
+```C
+    printf("Enter first fraction: ");
+    scanf("%d / %d", &num1, &denom1);
 
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    printf("Enter second fraction: ");
+    scanf("%d / %d", &num2, &denom2);
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 <hr class="hr1"/>
-
 
 </body>
 </html>
