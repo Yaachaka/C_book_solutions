@@ -1,11 +1,11 @@
-chapter="02" # Give chapter number here
+chapter="03" # Give chapter number here
 title="# Chapter $chapter Programming Projects"
 
 pref="cknkCh"
 
 name1=$pref$chapter"Prj"
 
-exrcCount=8
+exrcCount=6
 emptyLine="  "
 
 echo "<html>
@@ -58,7 +58,7 @@ do
         echo $emptyLine
         echo "<!-- START: terminal interaction or other output -->"
         echo $emptyLine
-        echo "\`\`\`"
+        echo "\`\`\`shell"
         echo $emptyLine
         echo "\`\`\`"
         echo $emptyLine
@@ -68,6 +68,8 @@ do
         echo $emptyLine
         echo "<!-- START: Comments -->"
         echo $emptyLine
+        echo $emptyLine
+        echo $emptyLine
         echo "<!-- END: Comments -->"
         echo $emptyLine
 
@@ -76,6 +78,8 @@ do
     echo "# Exercise Comment:"
     echo $emptyLine
     echo "<!-- START: Comments -->"
+    echo $emptyLine
+    echo $emptyLine
     echo $emptyLine
     echo "<!-- END: Comments -->"
     echo $emptyLine
