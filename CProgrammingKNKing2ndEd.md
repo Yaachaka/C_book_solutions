@@ -1433,6 +1433,318 @@ Incidentally, you can't just put a single `\` character in a string; the compile
 printf("\\");    /* prints one \ character */
 ```
 
+## 3.2 The `scanf` Function
+
+Just as `printf` prints output in a specified format, `scanf` reads input according to a particular format. A `scanf` format string, like a `printf` format string, may contain both ordinary characers and conversion specifications. The conversions allowed with `scanf` are essentially the same as those used with `printf`.
+
+In many cases, a `scanf` format string will contain only conversion specifications, as in the following example:
+
+```C
+int i, j;
+float x, y;
+
+scanf("%d%d%f%f, &i, &j, &x, &y);
+```
+
+Suppose that the user enters the following input line:
+
+```shell
+1 -20 .3 -4.0e3
+```
+
+`scanf` will read the line, converting its characters to the numbers they represent, and then assign 1, -20, 0.3, and -4000.0 to `i`, `j`, `x`, and `y`, respectively. "tightly packed" format strings like `"%d%d%f%f` are common in `scanf` calls. `printf` format strings are less likely to have adjacent conversion specifications.
+
+`scanf`, like `printf`, contains several traps for the unwary. When using `scanf`, the programmer must check that the number of conversion specifications matches the number of input variables and that each conversion is appropriate for the corresponding variable--as with `printf`, the compiler isn't required to check for a possible mismatch. Another trap involves the `&` symbol, which normally precedes each variable in a `scanf` call. The `&` is usually (but not always) required, and it's the programmer's responsibility to remember to use it.
+
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Forgetting to put the `&` symbol in front of variable in a call of `scanf` will have unpredictable--and possibly disastrous--results. A program crash is a common outcome. At the very least, the value that is read from the input won't be stored in the variable; instead, the variable will retain its old value (which may be meaningles if the variable wasn't given an initial value). Omitting the `&` is an extremely common error--be careful! Some compilers can spot this error and produce a warning message such as *"format argument is not a pointer"*. (The term *pointer* is defined in Chapter 11; the `&` symbol is used to create a pointer to a variable.) If you get a warning, check for a missing `&`.
+
+</div>
+
+Calling `scanf` is a powerful but unforgiving way to read data. Many professional C programmers avoid `scanf`, instead reading all data in character form and converting it to numeric form later. We'll use `scanf` quite a bit, especially in the early chapters of this book, because it provides a simple way to read numbers. Be aware, however, that many of our programs won't behave properly if the user enters unexpected input. As we'll see later, it's possible to have a program test whether `scanf` successfully read the requested data (and attempt to recover if it didn't). Such tests are impractical for the programs in this book--they would add too many statements and obscure the point of the examples.
+
+### 3.2.1 How `scanf` Works
+
+`scanf` can actually do much more than I've indicated so far. It is essentially a "pattern-matching" function that tries to match up groups of input characters with conversion specifications.
+
+Like the `printf` function, `scanf` is controlled by the format string. When it is called, `scanf` begins processing the information in the string, starting at the left. For each conversion specification in the format string, `scanf` tries to locate an item of the appropriate type in the input data, skipping blank space if necessary. `scanf` then reads the item, stopping when it encounters a character that can't possibly belong to the item. If the item was read sucessfully, `scanf` continues processing the rest of the format string. If any item is not read successfully, `scanf` returns immediately without looking at the rest of the format string (or the remaining input data).
+
+As it searches for the beginning of a number, `scanf` ignores ***white-space characters*** (the space, horizontal and vertical tab, form-feed, and new-line characters). As a result, numbers can be put on a single line or spread out over several lines. Consider the following call of `scanf`:
+
+```C
+scanf("%d%d%f%f", &i, &j, &x, &y);
+```
+
+Suppose the user enters three lines of input:
+
+```shell
+  1
+-20   .3
+   -4.0e3
+```
+
+`scanf` sees one continuous stream of characters:
+
+```
+<space><space>1<newLine>-20<space><space><space>.3<newLine><space><space><space>-4.0e3<newLine>
+```
+
+(I'm using `<space>` to represent the space character and `<newLine>` to represent the new-line character.) Since it skips over white-space characters as it looks for the beginning of each number, `scanf` will be able to read the numbers successfully.
+
+`scanf` "peeks" at the final new-line character without actually reading it. This new-line will be the first character read by the next call of `scanf`.
+
+What rules does `scanf` follow to recognize an integer or a floating-point number? When asked to read an integer, `scanf` first searches for a digit, a plus sign, or a minus sign; it then reads digits until it reaches a nondigit. when asked to read a floating-point number, `scanf` looks for  
+- a plus or minus sign (optional), followed by  
+- a series of digits (possibly containing a decimal point), followed by  
+- an exponent (optional). An exponent consists of the letter `e` (or `E`), an optional sign, and one or more digits.
+
+The `%e`, `%f`, and `%g` conversions are interchangeable when used with `scanf`; all three follow the same rules for recognizing a floating-point number.
+
+<span class="QandA"><span>
+
+When `scanf` encounters a character that can't be part of the current item, the character is "put back" to be read again during the scanning of the next input item or during the next call of `scanf`. Consider the following (admittedly pathological) arrangement of our four numbers:
+
+```shell
+1-20.3-4.0e3
+
+```
+
+Let's use the same call of `scanf` as before:
+
+```C
+scanf("%d%d%f%f", &i, &j, &x, &y);
+```
+
+Here's how `scanf` would process the new input:
+
+- Conversion specification: `%d`. The first nonblank input character is `1`; since integers can begin with 1, `scanf` then reads the next character, `-`. Recognizing that `-` can't appear inside an integer, `scanf` stores `1` into `i` and puts the `-` character back.  
+- Conversion specification: `%d`. `scanf` then reads the characters `-`, `2`, `0`, and `.` (period). Since an integer can't contain a decimal point, `scanf` stores `-20` into `j` and puts the `.` character back.  
+- Conversion specification: `%f`. `scanf` reads the characters `.`, `3`, and `-`. Since a floating-point number can't contain a minus sign after a digit, `scanf` stores `0.3` into `x` and puts the `-` character back.  
+- conversion specification `%f`. Lastly, `scanf` reads the characters `-`, `4`, `.`, `0`, `e`, `3`, and a new line. Since a floating-point number can't contain a new-line character, `scanf` stores <span class="displayInlineMath">$$ {-4.0} \times {10}^{3} $$</span> into `y` and puts the new-line character back.
+
+In this example, `scanf` was able to match every conversion specification in the format string with an input item. Since the new-line character wasn't read, it will be left for the next call of `scanf`.
+
+### 3.2.2 Ordinary Characters in Format Strings
+
+The concept of pattern-matching can be taken one  step further by writing format strings that contain ordinary characters in addition to conversion specifications. The action that `scanf` takes when it processes an ordinary character in a format string depends on whether or not it's a white-space character.
+
+<ul>
+<li>
+
+***White-space characters.*** When it encounters one or more consecutive white-space characters in a format string, `scanf` repeatedly reads white-space characters from the input until it reaches a non-white-space character (which is "put back"). The number of white-space characters in the format string is irrelevant; one white-space character in the format string will match any number of white-space characters in the input. (Incidentally, putting a white-space character in a format string doesn't force the input to contain white-space characters. A white-space character in a format string matches *any* number of white-space characters in the input, including none.)
+
+</li>
+<li>
+
+***Other characters.*** When it encounters a non-white-space character in a format string, `scanf` compares it with the next input character. if the two characters match, `scanf` discards the input character and continues processing the format string. If the characters don't match, `scanf` puts the offencing character back into the input, then aborts without further processing the format string or reading characters from the input.
+
+For example, suppose that the format string is `"%d/%d"`. If the input is `<space>5/<space>96`, `scanf` skips the first space while looking for an integer, matches `%d` with `5`, matches `/` with `/`, skips a space while looking for another integer, and matches `%d` with `96`. On the other hand, if the input is `<space>5<space>/<space>96`, `scanf` skips one space, matches `%d` with `5`, then attempts to match the `/` in the format string with a space in the input. There's no match, so `scanf` puts the space back; the `<space>/<space>96` characters remain to be read by the next call of `scanf`. To allow spaces after the first number, we should use the format string `"%d /%d"` instead.
+
+</li>
+</ul>
+
+### 3.2.3 Confusing `printf` with `scanf`
+
+Although calls of `scanf` and `printf` may appear similar, there are significant differences between the two functions; ignoring these differences can be hazardous to the health of your program.
+
+One common mistake is to put `&` in front of variables in a call of `printf`:
+
+```C
+printf("%d %d\n", &i, &j);    /*** WRONG ***/
+```
+
+Fortunately, this mistake is fairly easy to spot: `printf` will display a couple of odd-looking numbers instead of the values of `i` and `j`.
+
+Since `scanf` normally skips white-space characters when looking for data items, there's often no need for a format string to include characters other than conversion specifications. Incorrectly assuming that `scanf` format strings should resemble `printf` format strings--another common error--may cause `scanf` to behave in unexpected ways. Let's see what happens when the following call of `scanf` is executed:
+
+```C
+scanf("%d, %d", &i, &j);
+```
+
+`scanf` will first look for an integer in the input, which it stores in the variables `i`. `scanf` will then try to match a comma with the next input character. If the next input character is a space, not a comma, `scanf` will terminate without reading a value for `j`.
+
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Although `printf` format strings often end with `\n`, putting a new-line character at the end of a `scanf` format string is usually a bad idea. To `scanf`, a new-line character in a format string is equivalent to a space; both cause `scanf` to advance to the next non-white-space character. For example, if the format string is `" %d\n"`, `scanf` will skip white space, read an integer, then skip to the next non-white-space character. A format string like this can cause an interactive program to "hang" until user enters a nonblank character.
+
+</div>
+
+### 3.2.4 (PROGRAM) Adding Fractions
+
+To illustrate `scanf`'s ability to match patterns, consider the problem of reading a fraction entered by the user. Fractions are customarily written in the form *numerator/denominator*. Instead of having the user enter the numerator and denominator of a fraction as separate integers, `scanf` makes it possible to read the entire fraction. The following program, which adds two fractions, illustartes this technique.
+
+```C
+/**
+ * file: addfrac.c
+ * Purpose: Adds two fractions
+ * Author: K. N. King
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+    int num1, denom1, num2, denom2, result_num, result_denom;
+
+    printf("Enter first fraction: ");
+    scanf("%d/%d", &num1, &denom1);
+
+    printf("Enter second fraction: ");
+    scanf("%d/%d", &num2, &denom2);
+
+    result_num = num1 * denom2 + num2 * denom1;
+    result_denom = denom1 * denom2;
+    printf("The sum is %d/%d\n", result_num, result_denom);
+
+    return 0;
+}
+```
+
+A session with this program might have the following appearance:
+
+```shell
+Enter first fraction: 5/6
+Enter second fraction: 3/4
+The sum is 38/24
+```
+
+Note that the resulting fraction isn't reduced to lowest terms.
+
+---
+
+## Q & A
+
+<div class="QandA_question">
+
+*Q: I've seen the `%i` conversion used to read and write integers. What's the difference between `%i` and `%d`? [p. 39]
+
+</div>
+<div class="QandA_answer">
+
+A: In a `printf` format string, there's no difference between the two. In a `scanf` format string, however, `%d` can only match an integer written in decimal (base 10) form, while `%i` can match an integer expressed in octal (base 8), decimal, or hexadecimal (base 16). If an input number has a `0` prefix (as in `056`), `%i` treats it as an octal number, if it has a `0x` or `0X` prefix (as in `0x56`), `%i` treats it as a hex number. Using `%i` instead of `%d` to read a number can have surprising results if the user should accidentally put `0` at the beginning of the number. Because of this trap, I recommend sticking with `%d`.
+
+</div>
+<div class="QandA_question">
+
+Q: If `printf` treats `%` as the beginning of a conversion specification, how can I print the `%` character?
+
+</div>
+<div class="QandA_answer">
+
+A: If `printf` encounters two consecutive `%` characters in a format strring, it prints a single `%` character. For example, the statement
+
+```C
+printf("Net profit: %d%%\n", profit);
+```
+
+might print
+
+```shell
+Net profit: 10%
+```
+
+</div>
+<div class="QandA_question">
+
+Q: The `\t` escape is supposed to cause `printf` to advance to the next tab stop. How do I know how far apart tab stops are? [p. 41]
+
+</div>
+<div class="QandA_answer">
+
+A: You don't. The effect of printing `\t` isn't defined in C; it depends on what your operating system does when asked to print a tab character. Tab stops are typically eight characters apart, but C makes no guarantee.
+
+</div>
+<div class="QandA_question">
+
+Q: What does `scanf` do if it's asked to read a number but the user enters nonnumeric input?
+
+</div>
+<div class="QandA_answer">
+
+A: Let's look at the following example:
+
+```C
+printf("Enter a number: ");
+scanf("%d", &i);
+```
+
+Suppose that the user enters a valid number, followed by nonnumeric characters:
+
+```shell
+Enter a number: 23foo
+```
+
+In this case, `scanf` reads the `2` and the `3`, storing `23` in `i`. The remaining characters (`foo`) are left to be read by the next call of `scanf` (or some other input function). On the other hand, suppose that the input is invalid from the beginning:
+
+```shell
+Enter a number: foo
+```
+
+In this case, the value of `i` is undefined and `foo` is left for the next `scanf`.
+
+What can we do about this sad state of affairs? Later, we'll see how to test whether a call of `scanf` has succeeded. If the call fails, we can have the program either terminate or try to recover, perhaps by discarding the offending input and asking the user to try again. (Ways to discard bad input are discussed in the Q&A section at the end of chapter 22.)
+
+</div>
+<div class="QandA_question">
+
+Q: I don't understand how `scanf` can "put back" characters and read them again later. [p. 44]
+
+</div>
+<div class="QandA_answer">
+
+A: As it turns out, programs don't read user input as it is typed. Instead input is stored in a hidden buffer, to which `scanf` has access. It's easy for `scanf` to put characters back into the buffer for subsequent reading. Chapter 22 discusses input buffering in more detail.
+
+</div>
+<div class="QandA_question">
+
+Q: What does `scanf` do if the user puts punctuation marks (commas, for example) between numbers?
+
+</div>
+<div class="QandA_answer">
+
+A: Let's look at a simple example. Suppose that we try to read a pair of integers using `scanf`:
+
+```C
+printf("Enter two numbers: ");
+scanf("%d%d", &i, &j);
+```
+
+If the user enters
+
+```shell
+4,28
+```
+
+`scanf` will read `4` and store it in `i`, As it searches for the beginning of the second number, `scanf` encounters the comma. Since numbers can't begin with a comma, `scanf` returns immediately. The comma and the second number are left for the next call of `scanf`.
+
+Of course, we can easily solve the problem by adding a comma to the format string if we're sure that the numbers will *always* be separated by a comma:
+
+```C
+printf("Enter two numbers, separated by a comma: ");
+scanf("%d,%d", &i, &j);
+```
+
+</div>
+
+## Examples
+
+- Programs: [./cknkCh03/cknkCh03Exmp/](./cknkCh03/cknkCh03Exmp/)
+
+## Exercises
+
+- Readme: [./cknkCh03/cknkCh03Exrc/README.md](./cknkCh03/cknkCh03Exrc/README.md)
+- Programs: [./cknkCh03/cknkCh03Exrc/](./cknkCh03/cknkCh03Exrc/)
+
+## Programming Projects
+
+- Readme: [./cknkCh03/cknkCh03Prj/README.md](./cknkCh03/cknkCh03Prj/README.md)
+- Programs: [./cknkCh03/cknkCh03Prj/](./cknkCh03/cknkCh03Prj/)
+
 
 </body>
 </html>

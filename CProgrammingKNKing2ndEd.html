@@ -1626,5 +1626,410 @@ a string; the compiler will assume that it’s the beginning of an escape
 sequence. To print a single <code>\</code> character, put two
 <code>\</code> characters in the string:</p>
 <div class="sourceCode" id="cb93"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\\</span><span class="st">&quot;</span><span class="op">);</span>    <span class="co">/* prints one \ character */</span></span></code></pre></div>
+<h2 id="the-scanf-function">3.2 The <code>scanf</code> Function</h2>
+<p>Just as <code>printf</code> prints output in a specified format,
+<code>scanf</code> reads input according to a particular format. A
+<code>scanf</code> format string, like a <code>printf</code> format
+string, may contain both ordinary characers and conversion
+specifications. The conversions allowed with <code>scanf</code> are
+essentially the same as those used with <code>printf</code>.</p>
+<p>In many cases, a <code>scanf</code> format string will contain only
+conversion specifications, as in the following example:</p>
+<div class="sourceCode" id="cb94"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb94-1"><a href="#cb94-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">,</span> j<span class="op">;</span></span>
+<span id="cb94-2"><a href="#cb94-2" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> x<span class="op">,</span> y<span class="op">;</span></span>
+<span id="cb94-3"><a href="#cb94-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb94-4"><a href="#cb94-4" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%d%d%f%f, &amp;i, &amp;j, &amp;x, &amp;y);</span></span></code></pre></div>
+<p>Suppose that the user enters the following input line:</p>
+<pre class="shell"><code>1 -20 .3 -4.0e3</code></pre>
+<p><code>scanf</code> will read the line, converting its characters to
+the numbers they represent, and then assign 1, -20, 0.3, and -4000.0 to
+<code>i</code>, <code>j</code>, <code>x</code>, and <code>y</code>,
+respectively. “tightly packed” format strings like
+<code>"%d%d%f%f</code> are common in <code>scanf</code> calls.
+<code>printf</code> format strings are less likely to have adjacent
+conversion specifications.</p>
+<p><code>scanf</code>, like <code>printf</code>, contains several traps
+for the unwary. When using <code>scanf</code>, the programmer must check
+that the number of conversion specifications matches the number of input
+variables and that each conversion is appropriate for the corresponding
+variable–as with <code>printf</code>, the compiler isn’t required to
+check for a possible mismatch. Another trap involves the
+<code>&amp;</code> symbol, which normally precedes each variable in a
+<code>scanf</code> call. The <code>&amp;</code> is usually (but not
+always) required, and it’s the programmer’s responsibility to remember
+to use it.</p>
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Forgetting to put the <code>&amp;</code> symbol in front of variable
+in a call of <code>scanf</code> will have unpredictable–and possibly
+disastrous–results. A program crash is a common outcome. At the very
+least, the value that is read from the input won’t be stored in the
+variable; instead, the variable will retain its old value (which may be
+meaningles if the variable wasn’t given an initial value). Omitting the
+<code>&amp;</code> is an extremely common error–be careful! Some
+compilers can spot this error and produce a warning message such as
+<em>“format argument is not a pointer”</em>. (The term <em>pointer</em>
+is defined in Chapter 11; the <code>&amp;</code> symbol is used to
+create a pointer to a variable.) If you get a warning, check for a
+missing <code>&amp;</code>.</p>
+</div>
+<p>Calling <code>scanf</code> is a powerful but unforgiving way to read
+data. Many professional C programmers avoid <code>scanf</code>, instead
+reading all data in character form and converting it to numeric form
+later. We’ll use <code>scanf</code> quite a bit, especially in the early
+chapters of this book, because it provides a simple way to read numbers.
+Be aware, however, that many of our programs won’t behave properly if
+the user enters unexpected input. As we’ll see later, it’s possible to
+have a program test whether <code>scanf</code> successfully read the
+requested data (and attempt to recover if it didn’t). Such tests are
+impractical for the programs in this book–they would add too many
+statements and obscure the point of the examples.</p>
+<h3 id="how-scanf-works">3.2.1 How <code>scanf</code> Works</h3>
+<p><code>scanf</code> can actually do much more than I’ve indicated so
+far. It is essentially a “pattern-matching” function that tries to match
+up groups of input characters with conversion specifications.</p>
+<p>Like the <code>printf</code> function, <code>scanf</code> is
+controlled by the format string. When it is called, <code>scanf</code>
+begins processing the information in the string, starting at the left.
+For each conversion specification in the format string,
+<code>scanf</code> tries to locate an item of the appropriate type in
+the input data, skipping blank space if necessary. <code>scanf</code>
+then reads the item, stopping when it encounters a character that can’t
+possibly belong to the item. If the item was read sucessfully,
+<code>scanf</code> continues processing the rest of the format string.
+If any item is not read successfully, <code>scanf</code> returns
+immediately without looking at the rest of the format string (or the
+remaining input data).</p>
+<p>As it searches for the beginning of a number, <code>scanf</code>
+ignores <strong><em>white-space characters</em></strong> (the space,
+horizontal and vertical tab, form-feed, and new-line characters). As a
+result, numbers can be put on a single line or spread out over several
+lines. Consider the following call of <code>scanf</code>:</p>
+<div class="sourceCode" id="cb96"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%d%d%f%f&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">,</span> <span class="op">&amp;</span>j<span class="op">,</span> <span class="op">&amp;</span>x<span class="op">,</span> <span class="op">&amp;</span>y<span class="op">);</span></span></code></pre></div>
+<p>Suppose the user enters three lines of input:</p>
+<pre class="shell"><code>  1
+-20   .3
+   -4.0e3</code></pre>
+<p><code>scanf</code> sees one continuous stream of characters:</p>
+<pre><code>&lt;space&gt;&lt;space&gt;1&lt;newLine&gt;-20&lt;space&gt;&lt;space&gt;&lt;space&gt;.3&lt;newLine&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;-4.0e3&lt;newLine&gt;</code></pre>
+<p>(I’m using <code>&lt;space&gt;</code> to represent the space
+character and <code>&lt;newLine&gt;</code> to represent the new-line
+character.) Since it skips over white-space characters as it looks for
+the beginning of each number, <code>scanf</code> will be able to read
+the numbers successfully.</p>
+<p><code>scanf</code> “peeks” at the final new-line character without
+actually reading it. This new-line will be the first character read by
+the next call of <code>scanf</code>.</p>
+<p>What rules does <code>scanf</code> follow to recognize an integer or
+a floating-point number? When asked to read an integer,
+<code>scanf</code> first searches for a digit, a plus sign, or a minus
+sign; it then reads digits until it reaches a nondigit. when asked to
+read a floating-point number, <code>scanf</code> looks for<br />
+- a plus or minus sign (optional), followed by<br />
+- a series of digits (possibly containing a decimal point), followed
+by<br />
+- an exponent (optional). An exponent consists of the letter
+<code>e</code> (or <code>E</code>), an optional sign, and one or more
+digits.</p>
+<p>The <code>%e</code>, <code>%f</code>, and <code>%g</code> conversions
+are interchangeable when used with <code>scanf</code>; all three follow
+the same rules for recognizing a floating-point number.</p>
+<p><span class="QandA"><span></p>
+<p>When <code>scanf</code> encounters a character that can’t be part of
+the current item, the character is “put back” to be read again during
+the scanning of the next input item or during the next call of
+<code>scanf</code>. Consider the following (admittedly pathological)
+arrangement of our four numbers:</p>
+<pre class="shell"><code>1-20.3-4.0e3
+</code></pre>
+<p>Let’s use the same call of <code>scanf</code> as before:</p>
+<div class="sourceCode" id="cb100"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb100-1"><a href="#cb100-1" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%d%d%f%f&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">,</span> <span class="op">&amp;</span>j<span class="op">,</span> <span class="op">&amp;</span>x<span class="op">,</span> <span class="op">&amp;</span>y<span class="op">);</span></span></code></pre></div>
+<p>Here’s how <code>scanf</code> would process the new input:</p>
+<ul>
+<li>Conversion specification: <code>%d</code>. The first nonblank input
+character is <code>1</code>; since integers can begin with 1,
+<code>scanf</code> then reads the next character, <code>-</code>.
+Recognizing that <code>-</code> can’t appear inside an integer,
+<code>scanf</code> stores <code>1</code> into <code>i</code> and puts
+the <code>-</code> character back.<br />
+</li>
+<li>Conversion specification: <code>%d</code>. <code>scanf</code> then
+reads the characters <code>-</code>, <code>2</code>, <code>0</code>, and
+<code>.</code> (period). Since an integer can’t contain a decimal point,
+<code>scanf</code> stores <code>-20</code> into <code>j</code> and puts
+the <code>.</code> character back.<br />
+</li>
+<li>Conversion specification: <code>%f</code>. <code>scanf</code> reads
+the characters <code>.</code>, <code>3</code>, and <code>-</code>. Since
+a floating-point number can’t contain a minus sign after a digit,
+<code>scanf</code> stores <code>0.3</code> into <code>x</code> and puts
+the <code>-</code> character back.<br />
+</li>
+<li>conversion specification <code>%f</code>. Lastly, <code>scanf</code>
+reads the characters <code>-</code>, <code>4</code>, <code>.</code>,
+<code>0</code>, <code>e</code>, <code>3</code>, and a new line. Since a
+floating-point number can’t contain a new-line character,
+<code>scanf</code> stores <span class="displayInlineMath"><span
+class="math display">−4.0 × 10<sup>3</sup></span></span> into
+<code>y</code> and puts the new-line character back.</li>
+</ul>
+<p>In this example, <code>scanf</code> was able to match every
+conversion specification in the format string with an input item. Since
+the new-line character wasn’t read, it will be left for the next call of
+<code>scanf</code>.</p>
+<h3 id="ordinary-characters-in-format-strings">3.2.2 Ordinary Characters
+in Format Strings</h3>
+<p>The concept of pattern-matching can be taken one step further by
+writing format strings that contain ordinary characters in addition to
+conversion specifications. The action that <code>scanf</code> takes when
+it processes an ordinary character in a format string depends on whether
+or not it’s a white-space character.</p>
+<ul>
+<li>
+<p><strong><em>White-space characters.</em></strong> When it encounters
+one or more consecutive white-space characters in a format string,
+<code>scanf</code> repeatedly reads white-space characters from the
+input until it reaches a non-white-space character (which is “put
+back”). The number of white-space characters in the format string is
+irrelevant; one white-space character in the format string will match
+any number of white-space characters in the input. (Incidentally,
+putting a white-space character in a format string doesn’t force the
+input to contain white-space characters. A white-space character in a
+format string matches <em>any</em> number of white-space characters in
+the input, including none.)</p>
+</li>
+<li>
+<p><strong><em>Other characters.</em></strong> When it encounters a
+non-white-space character in a format string, <code>scanf</code>
+compares it with the next input character. if the two characters match,
+<code>scanf</code> discards the input character and continues processing
+the format string. If the characters don’t match, <code>scanf</code>
+puts the offencing character back into the input, then aborts without
+further processing the format string or reading characters from the
+input.</p>
+<p>For example, suppose that the format string is <code>"%d/%d"</code>.
+If the input is <code>&lt;space&gt;5/&lt;space&gt;96</code>,
+<code>scanf</code> skips the first space while looking for an integer,
+matches <code>%d</code> with <code>5</code>, matches <code>/</code> with
+<code>/</code>, skips a space while looking for another integer, and
+matches <code>%d</code> with <code>96</code>. On the other hand, if the
+input is <code>&lt;space&gt;5&lt;space&gt;/&lt;space&gt;96</code>,
+<code>scanf</code> skips one space, matches <code>%d</code> with
+<code>5</code>, then attempts to match the <code>/</code> in the format
+string with a space in the input. There’s no match, so
+<code>scanf</code> puts the space back; the
+<code>&lt;space&gt;/&lt;space&gt;96</code> characters remain to be read
+by the next call of <code>scanf</code>. To allow spaces after the first
+number, we should use the format string <code>"%d /%d"</code>
+instead.</p>
+</li>
+</ul>
+<h3 id="confusing-printf-with-scanf">3.2.3 Confusing <code>printf</code>
+with <code>scanf</code></h3>
+<p>Although calls of <code>scanf</code> and <code>printf</code> may
+appear similar, there are significant differences between the two
+functions; ignoring these differences can be hazardous to the health of
+your program.</p>
+<p>One common mistake is to put <code>&amp;</code> in front of variables
+in a call of <code>printf</code>:</p>
+<div class="sourceCode" id="cb101"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb101-1"><a href="#cb101-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">,</span> <span class="op">&amp;</span>j<span class="op">);</span>    <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>Fortunately, this mistake is fairly easy to spot: <code>printf</code>
+will display a couple of odd-looking numbers instead of the values of
+<code>i</code> and <code>j</code>.</p>
+<p>Since <code>scanf</code> normally skips white-space characters when
+looking for data items, there’s often no need for a format string to
+include characters other than conversion specifications. Incorrectly
+assuming that <code>scanf</code> format strings should resemble
+<code>printf</code> format strings–another common error–may cause
+<code>scanf</code> to behave in unexpected ways. Let’s see what happens
+when the following call of <code>scanf</code> is executed:</p>
+<div class="sourceCode" id="cb102"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb102-1"><a href="#cb102-1" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%d, %d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">,</span> <span class="op">&amp;</span>j<span class="op">);</span></span></code></pre></div>
+<p><code>scanf</code> will first look for an integer in the input, which
+it stores in the variables <code>i</code>. <code>scanf</code> will then
+try to match a comma with the next input character. If the next input
+character is a space, not a comma, <code>scanf</code> will terminate
+without reading a value for <code>j</code>.</p>
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Although <code>printf</code> format strings often end with
+<code>\n</code>, putting a new-line character at the end of a
+<code>scanf</code> format string is usually a bad idea. To
+<code>scanf</code>, a new-line character in a format string is
+equivalent to a space; both cause <code>scanf</code> to advance to the
+next non-white-space character. For example, if the format string is
+<code>" %d\n"</code>, <code>scanf</code> will skip white space, read an
+integer, then skip to the next non-white-space character. A format
+string like this can cause an interactive program to “hang” until user
+enters a nonblank character.</p>
+</div>
+<h3 id="program-adding-fractions">3.2.4 (PROGRAM) Adding Fractions</h3>
+<p>To illustrate <code>scanf</code>’s ability to match patterns,
+consider the problem of reading a fraction entered by the user.
+Fractions are customarily written in the form
+<em>numerator/denominator</em>. Instead of having the user enter the
+numerator and denominator of a fraction as separate integers,
+<code>scanf</code> makes it possible to read the entire fraction. The
+following program, which adds two fractions, illustartes this
+technique.</p>
+<div class="sourceCode" id="cb103"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb103-1"><a href="#cb103-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb103-2"><a href="#cb103-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: addfrac.c</span></span>
+<span id="cb103-3"><a href="#cb103-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Adds two fractions</span></span>
+<span id="cb103-4"><a href="#cb103-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb103-5"><a href="#cb103-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb103-6"><a href="#cb103-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb103-7"><a href="#cb103-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb103-8"><a href="#cb103-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb103-9"><a href="#cb103-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb103-10"><a href="#cb103-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb103-11"><a href="#cb103-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> num1<span class="op">,</span> denom1<span class="op">,</span> num2<span class="op">,</span> denom2<span class="op">,</span> result_num<span class="op">,</span> result_denom<span class="op">;</span></span>
+<span id="cb103-12"><a href="#cb103-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb103-13"><a href="#cb103-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter first fraction: &quot;</span><span class="op">);</span></span>
+<span id="cb103-14"><a href="#cb103-14" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d/%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>num1<span class="op">,</span> <span class="op">&amp;</span>denom1<span class="op">);</span></span>
+<span id="cb103-15"><a href="#cb103-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb103-16"><a href="#cb103-16" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter second fraction: &quot;</span><span class="op">);</span></span>
+<span id="cb103-17"><a href="#cb103-17" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d/%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>num2<span class="op">,</span> <span class="op">&amp;</span>denom2<span class="op">);</span></span>
+<span id="cb103-18"><a href="#cb103-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb103-19"><a href="#cb103-19" aria-hidden="true" tabindex="-1"></a>    result_num <span class="op">=</span> num1 <span class="op">*</span> denom2 <span class="op">+</span> num2 <span class="op">*</span> denom1<span class="op">;</span></span>
+<span id="cb103-20"><a href="#cb103-20" aria-hidden="true" tabindex="-1"></a>    result_denom <span class="op">=</span> denom1 <span class="op">*</span> denom2<span class="op">;</span></span>
+<span id="cb103-21"><a href="#cb103-21" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;The sum is %d/%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> result_num<span class="op">,</span> result_denom<span class="op">);</span></span>
+<span id="cb103-22"><a href="#cb103-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb103-23"><a href="#cb103-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb103-24"><a href="#cb103-24" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>A session with this program might have the following appearance:</p>
+<pre class="shell"><code>Enter first fraction: 5/6
+Enter second fraction: 3/4
+The sum is 38/24</code></pre>
+<p>Note that the resulting fraction isn’t reduced to lowest terms.</p>
+<hr />
+<h2 id="q-a-1">Q &amp; A</h2>
+<div class="QandA_question">
+<p>*Q: I’ve seen the <code>%i</code> conversion used to read and write
+integers. What’s the difference between <code>%i</code> and
+<code>%d</code>? [p. 39]</p>
+</div>
+<div class="QandA_answer">
+<p>A: In a <code>printf</code> format string, there’s no difference
+between the two. In a <code>scanf</code> format string, however,
+<code>%d</code> can only match an integer written in decimal (base 10)
+form, while <code>%i</code> can match an integer expressed in octal
+(base 8), decimal, or hexadecimal (base 16). If an input number has a
+<code>0</code> prefix (as in <code>056</code>), <code>%i</code> treats
+it as an octal number, if it has a <code>0x</code> or <code>0X</code>
+prefix (as in <code>0x56</code>), <code>%i</code> treats it as a hex
+number. Using <code>%i</code> instead of <code>%d</code> to read a
+number can have surprising results if the user should accidentally put
+<code>0</code> at the beginning of the number. Because of this trap, I
+recommend sticking with <code>%d</code>.</p>
+</div>
+<div class="QandA_question">
+<p>Q: If <code>printf</code> treats <code>%</code> as the beginning of a
+conversion specification, how can I print the <code>%</code>
+character?</p>
+</div>
+<div class="QandA_answer">
+<p>A: If <code>printf</code> encounters two consecutive <code>%</code>
+characters in a format strring, it prints a single <code>%</code>
+character. For example, the statement</p>
+<div class="sourceCode" id="cb105"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb105-1"><a href="#cb105-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Net profit: %d%%</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> profit<span class="op">);</span></span></code></pre></div>
+<p>might print</p>
+<pre class="shell"><code>Net profit: 10%</code></pre>
+</div>
+<div class="QandA_question">
+<p>Q: The <code>\t</code> escape is supposed to cause
+<code>printf</code> to advance to the next tab stop. How do I know how
+far apart tab stops are? [p. 41]</p>
+</div>
+<div class="QandA_answer">
+<p>A: You don’t. The effect of printing <code>\t</code> isn’t defined in
+C; it depends on what your operating system does when asked to print a
+tab character. Tab stops are typically eight characters apart, but C
+makes no guarantee.</p>
+</div>
+<div class="QandA_question">
+<p>Q: What does <code>scanf</code> do if it’s asked to read a number but
+the user enters nonnumeric input?</p>
+</div>
+<div class="QandA_answer">
+<p>A: Let’s look at the following example:</p>
+<div class="sourceCode" id="cb107"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb107-1"><a href="#cb107-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Enter a number: &quot;</span><span class="op">);</span></span>
+<span id="cb107-2"><a href="#cb107-2" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">);</span></span></code></pre></div>
+<p>Suppose that the user enters a valid number, followed by nonnumeric
+characters:</p>
+<pre class="shell"><code>Enter a number: 23foo</code></pre>
+<p>In this case, <code>scanf</code> reads the <code>2</code> and the
+<code>3</code>, storing <code>23</code> in <code>i</code>. The remaining
+characters (<code>foo</code>) are left to be read by the next call of
+<code>scanf</code> (or some other input function). On the other hand,
+suppose that the input is invalid from the beginning:</p>
+<pre class="shell"><code>Enter a number: foo</code></pre>
+<p>In this case, the value of <code>i</code> is undefined and
+<code>foo</code> is left for the next <code>scanf</code>.</p>
+<p>What can we do about this sad state of affairs? Later, we’ll see how
+to test whether a call of <code>scanf</code> has succeeded. If the call
+fails, we can have the program either terminate or try to recover,
+perhaps by discarding the offending input and asking the user to try
+again. (Ways to discard bad input are discussed in the Q&amp;A section
+at the end of chapter 22.)</p>
+</div>
+<div class="QandA_question">
+<p>Q: I don’t understand how <code>scanf</code> can “put back”
+characters and read them again later. [p. 44]</p>
+</div>
+<div class="QandA_answer">
+<p>A: As it turns out, programs don’t read user input as it is typed.
+Instead input is stored in a hidden buffer, to which <code>scanf</code>
+has access. It’s easy for <code>scanf</code> to put characters back into
+the buffer for subsequent reading. Chapter 22 discusses input buffering
+in more detail.</p>
+</div>
+<div class="QandA_question">
+<p>Q: What does <code>scanf</code> do if the user puts punctuation marks
+(commas, for example) between numbers?</p>
+</div>
+<div class="QandA_answer">
+<p>A: Let’s look at a simple example. Suppose that we try to read a pair
+of integers using <code>scanf</code>:</p>
+<div class="sourceCode" id="cb110"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb110-1"><a href="#cb110-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Enter two numbers: &quot;</span><span class="op">);</span></span>
+<span id="cb110-2"><a href="#cb110-2" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%d%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">,</span> <span class="op">&amp;</span>j<span class="op">);</span></span></code></pre></div>
+<p>If the user enters</p>
+<pre class="shell"><code>4,28</code></pre>
+<p><code>scanf</code> will read <code>4</code> and store it in
+<code>i</code>, As it searches for the beginning of the second number,
+<code>scanf</code> encounters the comma. Since numbers can’t begin with
+a comma, <code>scanf</code> returns immediately. The comma and the
+second number are left for the next call of <code>scanf</code>.</p>
+<p>Of course, we can easily solve the problem by adding a comma to the
+format string if we’re sure that the numbers will <em>always</em> be
+separated by a comma:</p>
+<div class="sourceCode" id="cb112"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb112-1"><a href="#cb112-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Enter two numbers, separated by a comma: &quot;</span><span class="op">);</span></span>
+<span id="cb112-2"><a href="#cb112-2" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%d,%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">,</span> <span class="op">&amp;</span>j<span class="op">);</span></span></code></pre></div>
+</div>
+<h2 id="examples-1">Examples</h2>
+<ul>
+<li>Programs: <a
+href="./cknkCh03/cknkCh03Exmp/">./cknkCh03/cknkCh03Exmp/</a></li>
+</ul>
+<h2 id="exercises-1">Exercises</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh03/cknkCh03Exrc/README.md">./cknkCh03/cknkCh03Exrc/README.md</a></li>
+<li>Programs: <a
+href="./cknkCh03/cknkCh03Exrc/">./cknkCh03/cknkCh03Exrc/</a></li>
+</ul>
+<h2 id="programming-projects-1">Programming Projects</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh03/cknkCh03Prj/README.md">./cknkCh03/cknkCh03Prj/README.md</a></li>
+<li>Programs: <a
+href="./cknkCh03/cknkCh03Prj/">./cknkCh03/cknkCh03Prj/</a></li>
+</ul>
 </body>
 </html>

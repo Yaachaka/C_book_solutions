@@ -10,6 +10,8 @@ div
 {
     margin: 5px;
     padding: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .math
@@ -280,7 +282,7 @@ tr:nth-child(even) { /* Alternating row background */
 .infoBox
 {
     /* Inner border */
-    border-width: 4px;
+    border-width: 3px;
     border-style: ridge;
     border-color: #000;
     background: rgb(208, 225, 225);
