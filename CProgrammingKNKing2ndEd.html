@@ -1494,5 +1494,137 @@ that the number will require fewer characters.</p>
 introduce many of them in subsequent chapters. For the full list, and
 for a complete explanation of the other capabilities of conversion
 specifications, consult Section 22.3.</p>
+<h3 id="using-printf-to-format-numbers">3.1.2 Using <code>printf</code>
+to Format Numbers</h3>
+<p>The following program illustrates the use of <code>printf</code> to
+print integers and floating-point numbers in various formats.</p>
+<div class="sourceCode" id="cb87"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a><span class="co">/** </span></span>
+<span id="cb87-2"><a href="#cb87-2" aria-hidden="true" tabindex="-1"></a><span class="co">  * file: tprintf.c</span></span>
+<span id="cb87-3"><a href="#cb87-3" aria-hidden="true" tabindex="-1"></a><span class="co">  * Purpose: Prints int and float values in various formats</span></span>
+<span id="cb87-4"><a href="#cb87-4" aria-hidden="true" tabindex="-1"></a><span class="co">  * Author: K. N. King</span></span>
+<span id="cb87-5"><a href="#cb87-5" aria-hidden="true" tabindex="-1"></a><span class="co">  */</span></span>
+<span id="cb87-6"><a href="#cb87-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb87-7"><a href="#cb87-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb87-8"><a href="#cb87-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb87-9"><a href="#cb87-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb87-10"><a href="#cb87-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb87-11"><a href="#cb87-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb87-12"><a href="#cb87-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">float</span> x<span class="op">;</span></span>
+<span id="cb87-13"><a href="#cb87-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb87-14"><a href="#cb87-14" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> <span class="dv">40</span><span class="op">;</span></span>
+<span id="cb87-15"><a href="#cb87-15" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="fl">839.21</span><span class="bu">f</span><span class="op">;</span></span>
+<span id="cb87-16"><a href="#cb87-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb87-17"><a href="#cb87-17" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;|%d|%5d|%-5d|%5.3d|</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">,</span> i<span class="op">,</span> i<span class="op">,</span> i<span class="op">);</span></span>
+<span id="cb87-18"><a href="#cb87-18" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;|%10.3f|%10.3e|%-10g|</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> x<span class="op">,</span> x<span class="op">,</span> x<span class="op">);</span></span>
+<span id="cb87-19"><a href="#cb87-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb87-20"><a href="#cb87-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb87-21"><a href="#cb87-21" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The character <code>|</code> in the <code>printf</code> format
+strings are there merely to help show how much space each number
+occupies when printed; unlike <code>%</code> or <code>\</code>, the
+<code>|</code> character has no special significance to
+<code>printf</code>. The output of this program is:</p>
+<pre class="shell"><code>|40|   40|40   |  040|
+|   839.210| 8.392e+02|839.21    |</code></pre>
+<p>Let’s take a closer look at the conversion specifications used in
+this program:</p>
+<ul>
+<li>
+<p><code>%d</code> – Displays <code>i</code> in decimal form, using a
+minimum amount of space.</p>
+</li>
+<li>
+<p><code>%5d</code> – Displays <code>i</code> in decimal form, using a
+minimum of five characters. Since <code>i</code> requires only two
+characters,three spaces were added.</p>
+</li>
+<li>
+<p><code>%-5d</code> – Displays <code>i</code> in decimal form, using a
+minimum of five characters; since the value of <code>i</code> doesn’t
+require five characters, the spaces are added afterward (that is,
+<code>i</code> is left-justified in a field of length five).</p>
+</li>
+<li>
+<p><code>%5.3d</code> – Displays <code>i</code> in decimal form, using a
+minimum of five characters overall and a minimum of three digits. Since
+<code>i</code> is only two digits long, an extra zero was added to
+guarantee three digits. The resulting number is only three characters
+long, so two spaces were added, for a total of five characters
+(<code>i</code> is right-justified).</p>
+</li>
+<li>
+<p><code>%10.3f</code> – Display <code>x</code> in fixed decimal form,
+using 10 characters overall with three digits after the decimal point.
+Since <code>x</code> requires only seven charcaters (three before the
+decimal point, three after the decimal point, and one for the decimal
+point itself), three spaces precede <code>x</code>.</p>
+</li>
+<li>
+<p><code>%10.3e</code> – Displays <code>x</code> in exponential form,
+using 10 characters overall, with three digits after the decimal point.
+<code>x</code> requires nine characters altogether (including the
+exponent), so one space precedes <code>x</code>.</p>
+</li>
+<li>
+<p><code>%-10g</code> – Display <code>x</code> in either fixed decimal
+form or exponential form, using 10 characters overall. In this case,
+<code>printf</code> chose to display <code>x</code> in fixed decimal
+form. The presence of the minus sign forces left justification, so
+<code>x</code> is followed by spaces.</p>
+</li>
+</ul>
+<h3 id="escape-sequences">3.1.3 Escape Sequences</h3>
+<p>The <code>\n</code> code that we often use in format strings is
+called an <strong><em>escape sequence</em></strong>. Escape sequences
+enable strings to contain characters that would otherwise cause problems
+for the compiler, including nonprinting (control) characters and
+characters that have special meaning to the compiler (such as
+<code>"</code>). We’ll provide a complete list of escape sequences
+later; for now, here’s a sample:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td>Alert (bell)</td>
+<td><code>\a</code></td>
+</tr>
+<tr class="even">
+<td>Backspace</td>
+<td><code>\b</code></td>
+</tr>
+<tr class="odd">
+<td>New line</td>
+<td><code>\n</code></td>
+</tr>
+<tr class="even">
+<td>Horizontal tab</td>
+<td><code>\t</code></td>
+</tr>
+</tbody>
+</table>
+<p><span class="QandA"><span></p>
+<p>When they appear in <code>printf</code> format strings, these escape
+sequences represent actions to perform upon printing. printing
+<code>\a</code> causes an audible beep on most machines. Printing
+<code>\b</code> moves the cursor back one position. Printing
+<code>\n</code> advances the cursor to the beginning of the next line.
+printing <code>\t</code> moves the cursor to the next tab stop.</p>
+<p>A string may contain any number of escape sequences. consider the
+following <code>printf</code> example, in which the format string
+contains six escape sequences:</p>
+<div class="sourceCode" id="cb89"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Item</span><span class="sc">\t</span><span class="st">Unit</span><span class="sc">\t</span><span class="st">Purchase</span><span class="sc">\n\t</span><span class="st">Price</span><span class="sc">\t</span><span class="st">Date</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>Executing this statement prints a two-line heading:</p>
+<pre class="shell"><code>Item    Unit    Purchase
+        Price   Date</code></pre>
+<p>Another common escape sequence is <code>\"</code>, which represents
+the <code>"</code> character. Since the <code>"</code> charcater marks
+the beginning of this sequence. here’s and example:</p>
+<div class="sourceCode" id="cb91"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\&quot;</span><span class="st">Hello!</span><span class="sc">\&quot;</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>This statement produces the following output:</p>
+<pre class="shell"><code>&quot;Hello!&quot;</code></pre>
+<p>Incidentally, you can’t just put a single <code>\</code> character in
+a string; the compiler will assume that it’s the beginning of an escape
+sequence. To print a single <code>\</code> character, put two
+<code>\</code> characters in the string:</p>
+<div class="sourceCode" id="cb93"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\\</span><span class="st">&quot;</span><span class="op">);</span>    <span class="co">/* prints one \ character */</span></span></code></pre></div>
 </body>
 </html>

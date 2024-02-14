@@ -1312,5 +1312,127 @@ The `g` specifier is especially useful for displaying numbers whose size can't b
 
 There are many other specifiers besides `%d`, `%e`, `%f`, and `%g`. I'll gradually introduce many of them in subsequent chapters. For the full list, and for a complete explanation of the other capabilities of conversion specifications, consult Section 22.3.
 
+### 3.1.2 Using `printf` to Format Numbers
+
+The following program illustrates the use of `printf` to print integers and floating-point numbers in various formats.
+
+```C
+/** 
+  * file: tprintf.c
+  * Purpose: Prints int and float values in various formats
+  * Author: K. N. King
+  */
+
+#include <stdio.h>
+
+int main(void)
+{
+    int i;
+    float x;
+
+    i = 40;
+    x = 839.21f;
+
+    printf("|%d|%5d|%-5d|%5.3d|\n", i, i, i, i);
+    printf("|%10.3f|%10.3e|%-10g|\n", x, x, x);
+
+    return 0;
+}
+```
+The character `|` in the `printf` format strings are there merely to help show how much space each number occupies when printed; unlike `%` or `\`, the `|` character has no special significance to `printf`. The output of this program is:
+
+```shell
+|40|   40|40   |  040|
+|   839.210| 8.392e+02|839.21    |
+```
+
+Let's take a closer look at the conversion specifications used in this program:
+
+<ul>
+<li>
+
+`%d` -- Displays `i` in decimal form, using a minimum amount of space.
+
+</li>
+<li>
+
+`%5d` -- Displays `i` in decimal form, using a minimum of five characters. Since `i` requires only two characters,three spaces were added.
+
+</li>
+<li>
+
+`%-5d` -- Displays `i` in decimal form, using a minimum of five characters; since the value of `i` doesn't require five characters, the spaces are added afterward (that is, `i` is left-justified in a field of length five).
+
+</li>
+<li>
+
+`%5.3d` -- Displays `i` in decimal form, using a minimum of five characters overall and a minimum of three digits. Since `i` is only two digits long, an extra zero was added to guarantee three digits. The resulting number is only three characters long, so two spaces were added, for a total of five characters (`i` is right-justified).
+
+</li>
+<li>
+
+`%10.3f` -- Display `x` in fixed decimal form, using 10 characters overall with three digits after the decimal point. Since `x` requires only seven charcaters (three before the decimal point, three after the decimal point, and one for the decimal point itself), three spaces precede `x`.
+
+</li>
+<li>
+
+`%10.3e` -- Displays `x` in exponential form, using 10 characters overall, with three digits after the decimal point. `x` requires nine characters altogether (including the exponent), so one space precedes `x`.
+
+</li>
+<li>
+
+`%-10g` -- Display `x` in either fixed decimal form or exponential form, using 10 characters overall. In this case, `printf` chose to display `x` in fixed decimal form. The presence of the minus sign forces left justification, so `x` is followed by spaces.
+
+</li>
+</ul>
+
+### 3.1.3 Escape Sequences
+
+The `\n` code that we often use in format strings is called an ***escape sequence***. Escape sequences enable strings to contain characters that would otherwise cause problems for the compiler, including nonprinting (control) characters and characters that have special meaning to the compiler (such as `"`). We'll provide a complete list of escape sequences later; for now, here's a sample:
+
+|||
+|---|---|
+|Alert (bell)|`\a`|
+|Backspace|`\b`|
+|New line|`\n`|
+|Horizontal tab|`\t`|
+
+
+<span class="QandA"><span>
+
+When they appear in `printf` format strings, these escape sequences represent actions to perform upon printing. printing `\a` causes an audible beep on most machines. Printing `\b` moves the cursor back one position. Printing `\n` advances the cursor to the beginning of the next line. printing `\t` moves the cursor to the next tab stop.
+
+A string may contain any number of escape sequences. consider the following `printf` example, in which the format string contains six escape sequences:
+
+```C
+printf("Item\tUnit\tPurchase\n\tPrice\tDate\n");
+```
+
+Executing this statement prints a two-line heading:
+
+```shell
+Item    Unit    Purchase
+        Price   Date
+```
+
+Another common escape sequence is `\"`, which represents the `"` character. Since the `"` charcater marks the beginning of this sequence. here's and example:
+
+```C
+printf("\"Hello!\"");
+```
+
+This statement produces the following output:
+
+```shell
+"Hello!"
+```
+
+Incidentally, you can't just put a single `\` character in a string; the compiler will assume that it's the beginning of an escape sequence. To print a single `\` character, put two `\` characters in the string:
+
+```C
+printf("\\");    /* prints one \ character */
+```
+
+
 </body>
 </html>
