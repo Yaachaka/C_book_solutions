@@ -18,18 +18,50 @@ Section 3.1
 <!-- START: Problem Statement -->
 
 What output do the following calls of `printf` produce?  
-a) `printf("%6d,%4d", 86, 1040);`  
-b) `printf("%12.5e", 30.253);`  
-c) `printf("%.4f", 83.162);`  
-d) `printf("%-6.2g", .0000009979);`  
+
+<ol type="a">
+
+<li>
+
+```C
+printf("%6d,%4d", 86, 1040);
+```
+
+</li>
+
+<li>
+
+```C
+printf("%12.5e", 30.253);
+```
+
+</li>
+
+<li>
+
+```C
+printf("%.4f", 83.162);
+```
+
+</li>
+
+<li>
+
+```C
+printf("%-6.2g", .0000009979);
+```
+
+</li>
+
+</ol>
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
 Note: We wrote a single program to see the output of  all four statements; because of which we made some changes in the statements making sure the purpose is met. Changes are:  
-- Adding pipe (`|`) characters to see the spaces.
-- Adding new line characters (`\n`) for each statement.
+- Adding pipe (`|`) characters to see the spaces.  
+- Adding new line characters (`\n`) for each statement.  
 
 ## Program Link
 
@@ -77,8 +109,30 @@ Section 3.1
 
 <!-- START: Problem Statement -->
 
+Write calls of `printf` that display a `float` variable `x` in the following formats.  
 
+<ol type="a">
+<li>
 
+Exponential notation: left-justified in a field of size 8, one digit after the decimal point.
+
+</li>
+<li>
+
+Exponential notation; right-justified in a field of size 10; six digits after the decimal point.
+
+</li>
+<li>
+
+Fixed decimal notation; left-justified in a field of size 8; three digits after the decimal point.
+
+</li>
+<li>
+
+Fixed decimal notation; right-justified in a field of size 6; no digits after the decimal point.
+
+</li>
+</ol>
 <!-- END: Problem Statement -->
 
 # Solution:
@@ -96,59 +150,14 @@ Section 3.1
 
 <!-- START: terminal interaction or other output -->
 
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```
-
+```shell
+a) |9.1e+02 |
+b) |9.124560e+02|
+c) |912.456 |
+d) |   912|
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 <hr class="hr1"/>
 
@@ -177,7 +186,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
@@ -195,7 +204,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
@@ -213,7 +222,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
@@ -258,7 +267,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
@@ -276,7 +285,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
@@ -294,7 +303,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
@@ -339,7 +348,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
@@ -357,7 +366,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
@@ -375,7 +384,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
@@ -420,7 +429,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
@@ -438,7 +447,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
@@ -456,7 +465,7 @@ Section 3.2
 
 <!-- START: terminal interaction or other output -->
 
-```
+```shell
 
 ```
 
