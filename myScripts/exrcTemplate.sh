@@ -62,7 +62,7 @@ do
         echo $emptyLine
         echo "<!-- START: terminal interaction or other output -->"
         echo $emptyLine
-        echo "\`\`\`"
+        echo "\`\`\`shell"
         echo $emptyLine
         echo "\`\`\`"
         echo $emptyLine
@@ -71,6 +71,8 @@ do
         echo "#### Trial$j Comments:"
         echo $emptyLine
         echo "<!-- START: Comments -->"
+        echo $emptyLine
+        echo $emptyLine
         echo $emptyLine
         echo "<!-- END: Comments -->"
         echo $emptyLine
