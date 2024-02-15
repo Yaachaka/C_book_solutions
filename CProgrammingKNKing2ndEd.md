@@ -2025,5 +2025,152 @@ int main(void)
 
 Note that the expression `9 - ((total - 1) % 10)` could have been written as `9 - (total - 1) % 10`, but the extra set of parentheses makes it easier to understand.
 
+## 4.2 Assignment Operators
+
+Once the value of an expression has been computed, we'll often need to store it in a variable for later use. C's `=` (***simple assignment***) operator is used for that purpose. For updating a value already stored in a variable, C provides an assortment of compound assignment operators.
+
+### 4.2.1 Simple Assignment
+
+The effect of the assignment <span class="displayInlineMath">$$ v = e $$</span> is to evaluate the expression `e` and copy its value into `v`. As the following examples show, `e` can be a constant, a variable, or a more complicated expression:
+
+```C
+i = 5;    /* i is now 5 */
+j = i;    /* j is now 5 */
+k = 10 * i + j;    /* k is now 55 */
+```
+
+If `v` and `e` don't have the same type, then the value of `e` is converted to the type of `v` as the assignment takes place:
+
+```C
+int i;
+float f;
+
+i = 72.99f;    /* i is now 72 */
+f = 136;    /* f is now 136.0 */
+```
+
+We'll return to the topic of type conversion later.
+
+In many programming languages, assignment is a *statement*; in C, however, assignment is an *operator*, just like `+`. In other words, the act of assignment produces a result, just as adding two numbers produces a result. The value of an assignment <span class="displayInlineMath">$$ v = e $$</span> is the value of `v` after the assignment. Thus, the value of `i = 72.99f` is 72 (not 72.99).
+
+<div class="infoBox">
+
+### Side effects
+
+We don't normally expect operators to modify their operands, since operators in mathematics don't. Writing `i + j` doesn't modify either `i` or `j`; it simply computes the result of adding `i` and `j`.
+
+Most C operators don't modify their operands, but some do. We say that these operators have ***side effects***, since they do more than just compute a value. The simple assignment operator is the first operator we've seen that has side effects; it modifies its left operand. Evaluating the expression `i = 0` produces the result 0 and--as a side effect--assigns 0 to `i`.
+
+</div>
+
+Since assignment is an operator, several assignments can be chained together:
+
+```C
+i = j = k = 0;
+```
+
+The `=` operator is right associative, so this assignment is equivalent to 
+
+```C
+i = (j = (k = 0));
+```
+
+The effect is to assign 0 first to `k`, then to `j`, and finally to `i`.
+
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Watch out for unexpected results in chained assignments as a result of type conversion:
+
+```C
+int i;
+float f;
+
+f = i = 33.3f;
+```
+
+`i` is assigned the value 33, then `f` is assigned 33.0 (not 33.3, as you might think).
+
+</div>
+
+In general, an assignment of the form `v = e` is allowed wherever a value of type `v` would be permitted. In the following example, the expression `j = i` copies `i` to `j`; the new value of `j` is then added to 1, producing the new value of `k`:
+
+```C
+i = 1;
+k = 1 + (j = i);
+printf("%d %d %d\n", i, j, k);    /*prints "1 1 2" */
+```
+
+Using the assignment operator in this fashion usually isn't a good idea. For one thing, "embedded assignments" can make programs hard to read. They can also be a source of subtle bugs, as we'll see in Section 4.4.
+
+### 4.2.2 Lvalues
+
+Most C operators allow their operands to be variables, constants, or expressions containing other operators. The assignment operator, however, requires an ***lvalue*** as its left operand. An lvalue (pronounced "L-value") represents an object stored in computer memory, not a constant or the result of a computation. Variables are lvalues; expressions such as `10` or `2 * i` are not. At this point, variables are the only lvalues that we know about; other kinds of lvalues will appear in later chapters.
+
+Since the assignment operator requires an lvalue as its left operand, it's illegal to put any other kind of expression on the left side of an assignment expression:
+
+```C
+12 = i;    /*** WRONG ***/
+i + j = 0;    /*** WRONG ***/
+-i = j;    /*** WRONG ***/
+```
+
+The compiler will detect errors of this nature, and you'll get an error message such as "*invalid lvalue in assignment*."
+
+### 3.2.3 Compound Assignment
+
+Assignments that use the old value of a variable to compute its new value are common in C programs. The following statement, for example, adds 2 to the value stored in `i`:
+
+```C
+i = i + 2;
+```
+
+C's ***compound assignment*** operators allow us to shorten this statement and others like it. Using the `+=` operator, we simply write:
+
+```C
+i += 2;    /* same as i = i + 2; */
+```
+
+The `+=` operator adds the value of the right operand to the variable on the left.
+
+There are nine other compound assignment operators, including the following:
+
+`-=   *=   /=   %=`
+
+(We'll cover the remaining compound assignment operators in a later chapter.) All compound assignment operators work in much the same way:
+
+> `v += e` adds `v` to `e`, storing the result in `v`  
+> `v -= e` subtracts `e` from `v`, storing the result in `v`  
+> `v *= e` multiplies `v` by `e`, storing the result in `v`  
+> `v /= e` divides `v` by `e`, storing the result in `v`  
+> `v %= e` computes the remainder when `v` is divided by `e`, storing the result in `v`.  
+
+<span class="QandA"></span>
+
+Note that I've been careful not to say that `v += e` is "equivalent" to `v = v + e`. One problem is operator precedence: `i *= j + k` isn't the same as `i = i * j + k`. There are also rare cases in which `v += e` differs from `v = v + e` because `v` itself has a side effect. Similar remarks apply to the other compound assignment operators.
+
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+When using the compound assignment operators, be carefull not to switch the two characters that make up the operator. Switching the characters may yield an expression that is acceptable to the compiler but that doesn't have the intended meaning. For example, if you meant to write `i += j` but you typed `i =+ j` instead, the program will still compile. Unfortunately, the latter expression is equivalent to `i = (+j)`, which merely copies the value of `j` into `i`.
+
+</div>
+
+The compound assignment operators have the same properties as the `=` operator. In particular, they're right associative, so the statement
+
+```C
+i += j += k;
+```
+
+means
+
+```C
+i += (j += k);
+```
+
+
+
 </body>
 </html>

@@ -2331,7 +2331,7 @@ a Universal Product Code (UPC), identifies both the manufacturer and the
 product. Each bar code represents a twelve-digit number, which is
 usually printed underneath the bars. For example, the following bar code
 comes from a package of Stouffer’s French Bread Pepperoni Pizza:</p>
-<p><img src="./images/cknkCh04_barcode.jpg" style="width:200px; position: relative; left: 45%;"/></p>
+<p><img src="./images/cknkCh04_barcode.jpg" style="width:200px; position: relative; left: 50%; right: 50%"/></p>
 <p>The digits <code>0  13800 15173  5</code> appear underneath the bar
 code. The first digit identifies the type of item (0 or 7 for most
 items, 2 for items that must be weighed, 3 for drugs and health-related
@@ -2419,5 +2419,164 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb115-1"><a href="#cb1
 <p>Note that the expression <code>9 - ((total - 1) % 10)</code> could
 have been written as <code>9 - (total - 1) % 10</code>, but the extra
 set of parentheses makes it easier to understand.</p>
+<h2 id="assignment-operators">4.2 Assignment Operators</h2>
+<p>Once the value of an expression has been computed, we’ll often need
+to store it in a variable for later use. C’s <code>=</code>
+(<strong><em>simple assignment</em></strong>) operator is used for that
+purpose. For updating a value already stored in a variable, C provides
+an assortment of compound assignment operators.</p>
+<h3 id="simple-assignment">4.2.1 Simple Assignment</h3>
+<p>The effect of the assignment <span class="displayInlineMath"><span
+class="math display"><em>v</em> = <em>e</em></span></span> is to
+evaluate the expression <code>e</code> and copy its value into
+<code>v</code>. As the following examples show, <code>e</code> can be a
+constant, a variable, or a more complicated expression:</p>
+<div class="sourceCode" id="cb116"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb116-1"><a href="#cb116-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span><span class="op">;</span>    <span class="co">/* i is now 5 */</span></span>
+<span id="cb116-2"><a href="#cb116-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> i<span class="op">;</span>    <span class="co">/* j is now 5 */</span></span>
+<span id="cb116-3"><a href="#cb116-3" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> <span class="dv">10</span> <span class="op">*</span> i <span class="op">+</span> j<span class="op">;</span>    <span class="co">/* k is now 55 */</span></span></code></pre></div>
+<p>If <code>v</code> and <code>e</code> don’t have the same type, then
+the value of <code>e</code> is converted to the type of <code>v</code>
+as the assignment takes place:</p>
+<div class="sourceCode" id="cb117"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb117-1"><a href="#cb117-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb117-2"><a href="#cb117-2" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> f<span class="op">;</span></span>
+<span id="cb117-3"><a href="#cb117-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb117-4"><a href="#cb117-4" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="fl">72.99</span><span class="bu">f</span><span class="op">;</span>    <span class="co">/* i is now 72 */</span></span>
+<span id="cb117-5"><a href="#cb117-5" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> <span class="dv">136</span><span class="op">;</span>    <span class="co">/* f is now 136.0 */</span></span></code></pre></div>
+<p>We’ll return to the topic of type conversion later.</p>
+<p>In many programming languages, assignment is a <em>statement</em>; in
+C, however, assignment is an <em>operator</em>, just like
+<code>+</code>. In other words, the act of assignment produces a result,
+just as adding two numbers produces a result. The value of an assignment
+<span class="displayInlineMath"><span
+class="math display"><em>v</em> = <em>e</em></span></span> is the value
+of <code>v</code> after the assignment. Thus, the value of
+<code>i = 72.99f</code> is 72 (not 72.99).</p>
+<section id="side-effects" class="infoBox">
+<h3>Side effects</h3>
+<p>We don’t normally expect operators to modify their operands, since
+operators in mathematics don’t. Writing <code>i + j</code> doesn’t
+modify either <code>i</code> or <code>j</code>; it simply computes the
+result of adding <code>i</code> and <code>j</code>.</p>
+<p>Most C operators don’t modify their operands, but some do. We say
+that these operators have <strong><em>side effects</em></strong>, since
+they do more than just compute a value. The simple assignment operator
+is the first operator we’ve seen that has side effects; it modifies its
+left operand. Evaluating the expression <code>i = 0</code> produces the
+result 0 and–as a side effect–assigns 0 to <code>i</code>.</p>
+</section>
+<p>Since assignment is an operator, several assignments can be chained
+together:</p>
+<div class="sourceCode" id="cb118"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb118-1"><a href="#cb118-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> j <span class="op">=</span> k <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>The <code>=</code> operator is right associative, so this assignment
+is equivalent to</p>
+<div class="sourceCode" id="cb119"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb119-1"><a href="#cb119-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="op">(</span>j <span class="op">=</span> <span class="op">(</span>k <span class="op">=</span> <span class="dv">0</span><span class="op">));</span></span></code></pre></div>
+<p>The effect is to assign 0 first to <code>k</code>, then to
+<code>j</code>, and finally to <code>i</code>.</p>
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Watch out for unexpected results in chained assignments as a result
+of type conversion:</p>
+<div class="sourceCode" id="cb120"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb120-1"><a href="#cb120-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb120-2"><a href="#cb120-2" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> f<span class="op">;</span></span>
+<span id="cb120-3"><a href="#cb120-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb120-4"><a href="#cb120-4" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> i <span class="op">=</span> <span class="fl">33.3</span><span class="bu">f</span><span class="op">;</span></span></code></pre></div>
+<p><code>i</code> is assigned the value 33, then <code>f</code> is
+assigned 33.0 (not 33.3, as you might think).</p>
+</div>
+<p>In general, an assignment of the form <code>v = e</code> is allowed
+wherever a value of type <code>v</code> would be permitted. In the
+following example, the expression <code>j = i</code> copies
+<code>i</code> to <code>j</code>; the new value of <code>j</code> is
+then added to 1, producing the new value of <code>k</code>:</p>
+<div class="sourceCode" id="cb121"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb121-1"><a href="#cb121-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb121-2"><a href="#cb121-2" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> <span class="dv">1</span> <span class="op">+</span> <span class="op">(</span>j <span class="op">=</span> i<span class="op">);</span></span>
+<span id="cb121-3"><a href="#cb121-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d %d %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">,</span> j<span class="op">,</span> k<span class="op">);</span>    <span class="co">/*prints &quot;1 1 2&quot; */</span></span></code></pre></div>
+<p>Using the assignment operator in this fashion usually isn’t a good
+idea. For one thing, “embedded assignments” can make programs hard to
+read. They can also be a source of subtle bugs, as we’ll see in Section
+4.4.</p>
+<h3 id="lvalues">4.2.2 Lvalues</h3>
+<p>Most C operators allow their operands to be variables, constants, or
+expressions containing other operators. The assignment operator,
+however, requires an <strong><em>lvalue</em></strong> as its left
+operand. An lvalue (pronounced “L-value”) represents an object stored in
+computer memory, not a constant or the result of a computation.
+Variables are lvalues; expressions such as <code>10</code> or
+<code>2 * i</code> are not. At this point, variables are the only
+lvalues that we know about; other kinds of lvalues will appear in later
+chapters.</p>
+<p>Since the assignment operator requires an lvalue as its left operand,
+it’s illegal to put any other kind of expression on the left side of an
+assignment expression:</p>
+<div class="sourceCode" id="cb122"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb122-1"><a href="#cb122-1" aria-hidden="true" tabindex="-1"></a><span class="dv">12</span> <span class="op">=</span> i<span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span>
+<span id="cb122-2"><a href="#cb122-2" aria-hidden="true" tabindex="-1"></a>i <span class="op">+</span> j <span class="op">=</span> <span class="dv">0</span><span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span>
+<span id="cb122-3"><a href="#cb122-3" aria-hidden="true" tabindex="-1"></a><span class="op">-</span>i <span class="op">=</span> j<span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>The compiler will detect errors of this nature, and you’ll get an
+error message such as “<em>invalid lvalue in assignment</em>.”</p>
+<h3 id="compound-assignment">3.2.3 Compound Assignment</h3>
+<p>Assignments that use the old value of a variable to compute its new
+value are common in C programs. The following statement, for example,
+adds 2 to the value stored in <code>i</code>:</p>
+<div class="sourceCode" id="cb123"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb123-1"><a href="#cb123-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> i <span class="op">+</span> <span class="dv">2</span><span class="op">;</span></span></code></pre></div>
+<p>C’s <strong><em>compound assignment</em></strong> operators allow us
+to shorten this statement and others like it. Using the <code>+=</code>
+operator, we simply write:</p>
+<div class="sourceCode" id="cb124"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb124-1"><a href="#cb124-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">+=</span> <span class="dv">2</span><span class="op">;</span>    <span class="co">/* same as i = i + 2; */</span></span></code></pre></div>
+<p>The <code>+=</code> operator adds the value of the right operand to
+the variable on the left.</p>
+<p>There are nine other compound assignment operators, including the
+following:</p>
+<p><code>-=   *=   /=   %=</code></p>
+<p>(We’ll cover the remaining compound assignment operators in a later
+chapter.) All compound assignment operators work in much the same
+way:</p>
+<blockquote>
+<p><code>v += e</code> adds <code>v</code> to <code>e</code>, storing
+the result in <code>v</code><br />
+<code>v -= e</code> subtracts <code>e</code> from <code>v</code>,
+storing the result in <code>v</code><br />
+<code>v *= e</code> multiplies <code>v</code> by <code>e</code>, storing
+the result in <code>v</code><br />
+<code>v /= e</code> divides <code>v</code> by <code>e</code>, storing
+the result in <code>v</code><br />
+<code>v %= e</code> computes the remainder when <code>v</code> is
+divided by <code>e</code>, storing the result in <code>v</code>.</p>
+</blockquote>
+<p><span class="QandA"></span></p>
+<p>Note that I’ve been careful not to say that <code>v += e</code> is
+“equivalent” to <code>v = v + e</code>. One problem is operator
+precedence: <code>i *= j + k</code> isn’t the same as
+<code>i = i * j + k</code>. There are also rare cases in which
+<code>v += e</code> differs from <code>v = v + e</code> because
+<code>v</code> itself has a side effect. Similar remarks apply to the
+other compound assignment operators.</p>
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>When using the compound assignment operators, be carefull not to
+switch the two characters that make up the operator. Switching the
+characters may yield an expression that is acceptable to the compiler
+but that doesn’t have the intended meaning. For example, if you meant to
+write <code>i += j</code> but you typed <code>i =+ j</code> instead, the
+program will still compile. Unfortunately, the latter expression is
+equivalent to <code>i = (+j)</code>, which merely copies the value of
+<code>j</code> into <code>i</code>.</p>
+</div>
+<p>The compound assignment operators have the same properties as the
+<code>=</code> operator. In particular, they’re right associative, so
+the statement</p>
+<div class="sourceCode" id="cb125"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb125-1"><a href="#cb125-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">+=</span> j <span class="op">+=</span> k<span class="op">;</span></span></code></pre></div>
+<p>means</p>
+<div class="sourceCode" id="cb126"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb126-1"><a href="#cb126-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">+=</span> <span class="op">(</span>j <span class="op">+=</span> k<span class="op">);</span></span></code></pre></div>
 </body>
 </html>
