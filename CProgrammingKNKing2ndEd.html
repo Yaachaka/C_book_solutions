@@ -2048,6 +2048,376 @@ href="./cknkCh03/cknkCh03Prj/cknkCh03PrjReadme.html">./cknkCh03/cknkCh03Prj/cknk
 href="./cknkCh03/cknkCh03Prj/">./cknkCh03/cknkCh03Prj/</a></li>
 </ul>
 <hr class="chapterDivider"/>
-<h1 id="nextchaptertitle">NextChapterTitle</h1>
+<h1 id="expressions">4 Expressions</h1>
+<div class="theQuote">
+<p>One does not learn computing by using a hand calculator, but one can
+forget arithmetic.</p>
+</div>
+<p>One of C’s distinguishing characteristics is its emphasis on
+expressions–formulas that show how to compute a value–rather than
+statements. The simplest expressions are variables and constants. A
+variable represents a value to be computed as the program runs; a
+constant represents a value that doesn’t change. More complicated
+expressions apply operators to operands (which are themselves
+expressions). In the expression <code>a + (b * c)</code>, the
+<code>+</code> operator is applied to the operands <code>a</code> and
+<code>(b * c)</code>, both of which are expressions in their own
+right.</p>
+<p>Operators are the basic tools for building expressions, and C has an
+unusually rich collection of them. To start off, C provides the
+rudimentary operators that are found in most programming
+languages:<br />
+- Arithmetic operators, including addition, subtraction, multiplication,
+and division.<br />
+- Relational operators to perform comparisons such as “<code>i</code> is
+<em>greater than</em> 0.”<br />
+- Logical operators to build conditions such as “<code>i</code> is
+greater than 0 <em>and</em> <code>i</code> is less than 10.”</p>
+<p>But C doesn’t stop here; it goes on to provide dozens of other
+operators. There are so many operators, in fact, that we’ll need to
+introduce them gradually over the first twenty chapters of this book.
+Mastering so many operators can be a chore, but it’s essential to
+becoming proficient at C.</p>
+<p>In this chapter, we’ll cover some of C’s most fundamental operators:
+the arithmetic operators (Section 4.1), the assignment operators
+(Section 4.2), and the increment and decrement operators (Section 4.3).
+Section 4.1 also explains operator precedence and associativity, which
+are important for expressions that contain more than one operator.
+Section 4.4 describes how C expressions are evaluated. Finally, Section
+4.5 introduces the expression statement, an unusual feature that allows
+any expression to serve as a statement.</p>
+<h2 id="arithmetic-operators">4.1 Arithmetic Operators</h2>
+<p>The <strong><em>arithmetic operators</em></strong>–operators that
+perform addition, subtraction, multiplication, and division–are the
+workhorses of many programming languages, including C. Table 4.1 shows
+C’s arithmetic operators.</p>
+<p><strong>Table 4.1:</strong> Arithmetic Operators</p>
+<table>
+<thead>
+<tr>
+<th rowspan="2" style="text-align: center">
+<p><strong><em>Unary</em></strong></p>
+</th>
+<th colspan="2" style="text-align: center">
+<p><strong><em>Binary</em></strong></p>
+</th>
+</tr>
+<tr>
+<th style="text-align: center">
+<p><strong><em>Additive</em></strong></p>
+</th>
+<th style="text-align: center">
+<p><strong><em>Multiplicative</em></strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><code>+</code> unary plus</p>
+</td>
+<td>
+<p><code>+</code> addition</p>
+</td>
+<td>
+<p><code>*</code> multiplication</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code>-</code> unary minus</p>
+</td>
+<td>
+<p><code>-</code> subtraction</p>
+</td>
+<td>
+<p><code>/</code> division</p>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<p><code>%</code> remainder</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The additive and multiplicative operators are said to be
+<strong><em>binary</em></strong> because they require <em>two</em>
+operands. The <strong><em>unary</em></strong> operators require
+<em>one</em> operand:</p>
+<div class="sourceCode" id="cb113"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb113-1"><a href="#cb113-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="op">+</span><span class="dv">1</span><span class="op">;</span>    <span class="co">/* + used as a unary operator */</span></span>
+<span id="cb113-2"><a href="#cb113-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="op">-</span><span class="dv">1</span><span class="op">;</span>    <span class="co">/* - used as a unary operator */</span></span></code></pre></div>
+<p>The unary <code>+</code> operator does nothing; in fact, it didn’t
+even exist in K &amp; R C. It’s used primarily to emphasize that a
+numeric constant is positive.</p>
+<p>The binary operators probably look familiar. The only one that might
+not is <code>%</code>, the remainder operator. The value of
+<code>i % j</code> is the remainder when <code>i</code> is divided by
+<code>j</code>. For example, the value of <code>10 % 3</code> is 1, and
+the value of <code>12 % 4</code> is 0.</p>
+<p><span class="QandA"></span></p>
+<p>The binary operators in Table 4.1–with the exception of
+<code>%</code>–allow either integer or floating-point operands, with
+mixing allowed. When <code>int</code> and <code>float</code> operands
+are mixed, the result has type <code>float</code>. Thus,
+<code>9 + 2.5f</code> has the value <code>11.5</code>, and
+<code>6.7f / 2</code> has the value <code>3.35</code>.</p>
+<p>The <code>/</code> and <code>%</code> operators require special
+care:</p>
+<ul>
+<li>
+<p>The <code>/</code> operator can produce surprising results. When both
+of its operands are integers, the <code>/</code> operator “truncates”
+the result by dropping the fractional part. Thus, the value of
+<code>1 / 2</code> is 0, not <code>0.5</code>.</p>
+</li>
+<li>
+<p>The <code>%</code> operator requires integer operands; if either
+operand is not an integer, the program won’t compile.</p>
+</li>
+<li>
+<p>Using zero as the right operand of either <code>/</code> or
+<code>%</code> causes undefined behavior.</p>
+</li>
+<li>
+<p><span class="QandA"></span></p>
+<p><span class="C99Symbol"></span></p>
+<p>Describing the result when <code>/</code> and <code>%</code> are used
+with negative operands is tricky. The C89 standard states that if either
+operand is negative, the result of a division can be rounded either up
+or down. (For example, the value of <code>-9 / 7</code> could be either
+-1 or -2). If <code>i</code> or <code>j</code> is negative, the sign of
+<code>i % j</code> in C89 depends on the implementation. (For example,
+the value of <code>-9 % 7</code> could be either -2 or 5). In C99, on
+the other hand, the result of a division is always truncated toward zero
+(so <code>-9 / 7</code> has the value -1) and the value of
+<code>i % j</code> has the same sign as <code>i</code> (hence the value
+of <code>-9 % 7</code> is -2).</p>
+</li>
+</ul>
+<section id="implementation-defined-behaviour" class="infoBox">
+<h3>Implementation-Defined Behaviour</h3>
+<p>The term <strong><em>Implementation-defined</em></strong> will arise
+often enough that it’s worth taking a moment to discuss it. The C
+standard deliberately leaves parts of the language unspecified, with the
+understanding that an “implementation”–the software needed to compile,
+link, and execute programs on a particular platform–will fill in the
+details. As a result, the behavior of the program may vary somewhat from
+one implementation to another. The behavior of the <code>/</code> and
+<code>%</code> operators for negative operands in C89 is an example of
+implementation-defined behavior.</p>
+<p>Leaving parts of the language unspecified may seem odd or even
+dangerous, but it reflects C’s philosophy. One of the language’s goals
+is efficiency, which often means matching the way that hardware behaves.
+Some CPUs yield -1 when -9 is divided by 7, while others produce -2; the
+C89 standard simply reflects this fact of life.</p>
+<p>It’s best to avoid writing programs that depend on
+implementation-defined behavior. If that’s not possible, at least check
+the manual carefully–the C standard requires that implementation-defined
+behaior be documented.</p>
+</section>
+<h3 id="operator-precedence-and-associativity">4.1.1 Operator Precedence
+and Associativity</h3>
+<p>When an expression contains more than one operator, its
+interpretation may not be immediately clear. For example, does
+<code>i + j * k</code> mean “add <code>i</code> and <code>j</code>, then
+multiply the result by <code>k</code>,” or does it mean “multiply
+<code>j</code> and <code>k</code>, then add <code>i</code>”? One
+solution to this problem is to add parentheses, writing either
+<code>(i + j) * k</code> or <code>i + (j * K)</code>. As a general rule,
+C allows the use of parentheses for grouping in all expressions.</p>
+<p>What if we don’t use parentheses, though? Will the compiler interpret
+<code>i + j * k</code> as <code>(i + j) * k</code> or
+<code>i + (j * k)</code>? Like many other languages, C user
+<strong><em>operator precedence</em></strong> rules to resolve this
+potential ambiguity. The arithmetic operators have the following
+relative precedence:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td>Highest:</td>
+<td><code>+</code></td>
+<td><code>-</code></td>
+<td>(unary)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><code>*</code></td>
+<td><code>/</code></td>
+<td><code>%</code></td>
+</tr>
+<tr class="odd">
+<td>Lowest:</td>
+<td><code>+</code></td>
+<td><code>-</code></td>
+<td>(binary)</td>
+</tr>
+</tbody>
+</table>
+<p>Operators listed on the same line (such as <code>+</code> and
+<code>-</code>) have equal precedence.</p>
+<p>When two or more operators appear in the same expression, we can
+determine how the compiler will interpret the expression by repeatedly
+putting parentheses around subexpressions, starting with high-precedence
+operators and working down to low-precedence operators. The following
+examples illustrate the result:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td><code>i + j * k</code></td>
+<td>is equivalent to</td>
+<td><code>i + (j * k)</code></td>
+</tr>
+<tr class="even">
+<td><code>-i * -j</code></td>
+<td>is equivalent to</td>
+<td><code>(-i) * (-j)</code></td>
+</tr>
+<tr class="odd">
+<td><code>+i + j / k</code></td>
+<td>is equivalent to</td>
+<td><code>(+i) + (j / k)</code></td>
+</tr>
+</tbody>
+</table>
+<p>Operator precedence rules alone aren’t enough when an expression
+contains two or more operators at the same level of precedence. In this
+situation, the <strong><em>associativity</em></strong> of the operators
+comes into play. An operator is said to be <strong><em>left
+associative</em></strong> if it groups from left to right. The binary
+arithmetic operators (<code>*</code>, <code>/</code>, <code>%</code>,
+<code>+</code>, and <code>-</code>) are all left associative, so</p>
+<table>
+<tbody>
+<tr class="odd">
+<td><code>i - j - k</code></td>
+<td>is equivalent to</td>
+<td><code>(i - j) - k</code></td>
+</tr>
+<tr class="even">
+<td><code>i * j / k</code></td>
+<td>is equivalent to</td>
+<td><code>(i * j) / k</code></td>
+</tr>
+</tbody>
+</table>
+<p>An operator is <strong><em>right associative</em></strong> if it
+groups from right to left. The unary arithmetic operators
+(<code>+</code> and <code>-</code>) are both right associative, so</p>
+<table>
+<tbody>
+<tr class="odd">
+<td><code>- + i</code></td>
+<td>is equivalent to</td>
+<td><code>-(+i)</code></td>
+</tr>
+</tbody>
+</table>
+<p>Precedence and associativity rules are important in many laguages,
+but especially so in C. However, C has so many operators (almost fifty!)
+that few programmers bother to memorize the precedence and associativity
+rules. Instead, they consult a table of operators when in doubt or just
+use plenty of parentheses.</p>
+<h3 id="program-computing-a-upc-check-digit">4.1.2 (PROGRAM) Computing a
+UPC Check Digit</h3>
+<p>For a number of years, manufacturers of goods sold in U.S. and
+Canadian stores have put a bar code on each product. This code, known as
+a Universal Product Code (UPC), identifies both the manufacturer and the
+product. Each bar code represents a twelve-digit number, which is
+usually printed underneath the bars. For example, the following bar code
+comes from a package of Stouffer’s French Bread Pepperoni Pizza:</p>
+<p><img src="./images/cknkCh04_barcode.jpg" style="width:200px; position: relative; left: 45%;"/></p>
+<p>The digits <code>0  13800 15173  5</code> appear underneath the bar
+code. The first digit identifies the type of item (0 or 7 for most
+items, 2 for items that must be weighed, 3 for drugs and health-related
+merchandise, and 5 for coupons). The first group of five digits
+identifies the manufacturer (13800 is the code for Nestlé USA’s Frozen
+Food Division). The second group of five digits identifies the product
+(including package size). The final digit is a “check digit,” whose only
+purpose is to help identify an error in the preceding digits. If the UPC
+is scanned incorrectly, the first 11 digits probably won’t be consistent
+with the last digit, and the store’s scanner will reject the entire
+code.</p>
+<p>Here’s one method of computing the check digit:</p>
+<blockquote>
+<p>Add the first, third, fifth, seventh, ninth, and eleventh
+digits.<br />
+Add the second, fourth, sixth, eighth, and tenth digits.<br />
+Multiply the first sum by 3 and add it to the second sum.<br />
+Subtract 1 from the total.<br />
+Compute the remainder when the adjusted total is divided by 10.<br />
+Subtract the remainder fom 9.</p>
+</blockquote>
+<p>Using the Stouffer’s example, we get <span
+class="displayInlineMath"><span
+class="math display">0 + 3 + 0 + 1 + 1 + 3 = 8</span></span> for the
+first sum and <span class="displayInlineMath"><span
+class="math display">1 + 8 + 0 + 5 + 7 = 21</span></span> for the second
+sum. Multiplying the first sum by 3 and adding the second yields 45.
+Subtracting 1 gives 44. The remainder upon dividing by 10 is 4. When the
+remainder is subtracted from 9, the result is 5. Here are a couple of
+other UPCs, in case you want to try your hand at computing the check
+digit (raiding the kitchen cabinet for the answer is <em>not</em>
+allowed):</p>
+<p>Jif Creamy Peanut Butter (18 oz.):
+<code>0   51500 24128   ?</code><br />
+Ocean Spray Jellied Cranberry Sauce (8 oz.):
+<code>0   31200 01005   ?</code></p>
+<p>The answers: 8 for Jif and 6 for Ocean Spray.</p>
+<p>Let’s write a program that calculates the check digit for an
+arbitrary UPC. We’ll ask the user to enter the first 11 digits of the
+UPC, then we’ll display the corresponding check digit. To avoid
+confusion, we’ll ask the user to enter the number in three parts: the
+single digit at the left, the first group of five digits, and the second
+group of five digits. Here’s what a session with the program will look
+like:</p>
+<pre class="shell"><code>Enter the first (single) digit: 0
+Enter first group of five digits: 138000
+Enter second group of five digits: 15173
+Check digit: 5</code></pre>
+<p>Instead of reading each digit group as a <em>five</em>-digit number,
+we’ll read it as five <em>one</em>-digit numbers. Reading the numbers as
+single digits is more convenient; also, we won’t have to worry that one
+of the five-digit numbers is too large to store in an <code>int</code>
+variable. (Some older compilers limit the maximum value of an
+<code>int</code> variable to 32,767.) To read single digits, we’ll use
+<code>scanf</code> with the <code>%1d</code> conversion specification,
+which matches a one-digit integer.</p>
+<div class="sourceCode" id="cb115"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb115-1"><a href="#cb115-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
+<span id="cb115-2"><a href="#cb115-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: upc.c</span></span>
+<span id="cb115-3"><a href="#cb115-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Computes a Universal Product Code check digit</span></span>
+<span id="cb115-4"><a href="#cb115-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb115-5"><a href="#cb115-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb115-6"><a href="#cb115-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb115-7"><a href="#cb115-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb115-8"><a href="#cb115-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb115-9"><a href="#cb115-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb115-10"><a href="#cb115-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb115-11"><a href="#cb115-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> d<span class="op">,</span> i1<span class="op">,</span> i2<span class="op">,</span> i3<span class="op">,</span> i4<span class="op">,</span> i5<span class="op">,</span> j1<span class="op">,</span> j2<span class="op">,</span> j3<span class="op">,</span> j4<span class="op">,</span> j5<span class="op">,</span> first_sum<span class="op">,</span> second_sum<span class="op">,</span> total<span class="op">;</span></span>
+<span id="cb115-12"><a href="#cb115-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb115-13"><a href="#cb115-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter the first (single) digit: &quot;</span><span class="op">);</span></span>
+<span id="cb115-14"><a href="#cb115-14" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%1d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>d<span class="op">);</span></span>
+<span id="cb115-15"><a href="#cb115-15" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter first group of five digits: &quot;</span><span class="op">);</span></span>
+<span id="cb115-16"><a href="#cb115-16" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%1d%1d%1d%1d%1d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i1<span class="op">,</span> <span class="op">&amp;</span>i2<span class="op">,</span> <span class="op">&amp;</span>i3<span class="op">,</span> <span class="op">&amp;</span>i4<span class="op">,</span> <span class="op">&amp;</span>i5<span class="op">);</span></span>
+<span id="cb115-17"><a href="#cb115-17" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter second group of five digits: &quot;</span><span class="op">);</span></span>
+<span id="cb115-18"><a href="#cb115-18" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%1d%1d%1d%1d%1d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>j1<span class="op">,</span> <span class="op">&amp;</span>j2<span class="op">,</span> <span class="op">&amp;</span>j3<span class="op">,</span> <span class="op">&amp;</span>j4<span class="op">,</span> <span class="op">&amp;</span>j5<span class="op">);</span></span>
+<span id="cb115-19"><a href="#cb115-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb115-20"><a href="#cb115-20" aria-hidden="true" tabindex="-1"></a>    first_sum <span class="op">=</span> d <span class="op">+</span> i2 <span class="op">+</span> i4 <span class="op">+</span> j1 <span class="op">+</span> j3 <span class="op">+</span> j5<span class="op">;</span></span>
+<span id="cb115-21"><a href="#cb115-21" aria-hidden="true" tabindex="-1"></a>    second_sum <span class="op">=</span> i1 <span class="op">+</span> i3 <span class="op">+</span> i5 <span class="op">+</span> j2 <span class="op">+</span> j4<span class="op">;</span></span>
+<span id="cb115-22"><a href="#cb115-22" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> <span class="dv">3</span> <span class="op">*</span> first_sum <span class="op">+</span> second_sum<span class="op">;</span></span>
+<span id="cb115-23"><a href="#cb115-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb115-24"><a href="#cb115-24" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Check digit: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> <span class="dv">9</span> <span class="op">-</span> <span class="op">((</span>total <span class="op">-</span> <span class="dv">1</span><span class="op">)</span> <span class="op">%</span> <span class="dv">10</span><span class="op">));</span></span>
+<span id="cb115-25"><a href="#cb115-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb115-26"><a href="#cb115-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb115-27"><a href="#cb115-27" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Note that the expression <code>9 - ((total - 1) % 10)</code> could
+have been written as <code>9 - (total - 1) % 10</code>, but the extra
+set of parentheses makes it easier to understand.</p>
 </body>
 </html>

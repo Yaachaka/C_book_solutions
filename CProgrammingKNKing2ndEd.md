@@ -1752,9 +1752,278 @@ scanf("%d,%d", &i, &j);
 
 <hr class="chapterDivider"/>
 
-# NextChapterTitle
+# 4 Expressions
+
+<div class="theQuote">
+
+One does not learn computing by using a hand calculator, but one can forget arithmetic.
+
+</div>
+
+One of C's distinguishing characteristics is its emphasis on expressions--formulas that show how to compute a value--rather than statements. The simplest expressions are variables and constants. A variable represents a value to be computed as the program runs; a constant represents a value that doesn't change. More complicated expressions apply operators to operands (which are themselves expressions). In the expression `a + (b * c)`, the `+` operator is applied to the operands `a` and `(b * c)`, both of which are expressions in their own right.
+
+Operators are the basic tools for building expressions, and C has an unusually rich collection of them. To start off, C provides the rudimentary operators that are found in most programming languages:  
+- Arithmetic operators, including addition, subtraction, multiplication, and division.  
+- Relational operators to perform comparisons such as "`i` is *greater than* 0."  
+- Logical operators to build conditions such as "`i` is greater than 0 *and* `i` is less than 10."  
+
+But C doesn't stop here; it goes on to provide dozens of other operators. There are so many operators, in fact, that we'll need to introduce them gradually over the first twenty chapters of this book. Mastering so many operators can be a chore, but it's essential to becoming proficient at C.
+
+In this chapter, we'll cover some of C's most fundamental operators: the arithmetic operators (Section 4.1), the assignment operators (Section 4.2), and the increment and decrement operators (Section 4.3). Section 4.1 also explains operator precedence and associativity, which are important for expressions that contain more than one operator. Section 4.4 describes how C expressions are evaluated. Finally, Section 4.5 introduces the expression statement, an unusual feature that allows any expression to serve as a statement.
+
+## 4.1 Arithmetic Operators
+
+The ***arithmetic operators***--operators that perform addition, subtraction, multiplication, and division--are the workhorses of many programming languages, including C. Table 4.1 shows C's arithmetic operators.
+
+**Table 4.1:** Arithmetic Operators
+
+<table>
+<thead>
+
+<tr>
+<th rowspan="2" style="text-align: center">
+
+***Unary***
+
+</th>
+<th colspan="2"  style="text-align: center">
+
+***Binary***
+
+</th>
+</tr>
+<tr>
+<th  style="text-align: center">
+
+***Additive***
+
+</th>
+<th  style="text-align: center">
+
+***Multiplicative***
+
+</th>
+</tr>
+
+</thead>
+<tbody>
+
+<tr>
+<td>
+
+`+` unary plus
+
+</td>
+<td>
+
+`+` addition
+
+</td>
+<td>
+
+`*` multiplication
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+`-` unary minus
+
+</td>
+<td>
+
+`-` subtraction
+
+</td>
+<td>
+
+`/` division
+
+</td>
+</tr>
+
+<tr>
+<td>
 
 
+
+</td>
+<td>
+
+
+
+</td>
+<td>
+
+`%` remainder
+
+</td>
+</tr>
+</tbody>
+</table>
+
+The additive and multiplicative operators are said to be ***binary*** because they require *two* operands. The ***unary*** operators require *one* operand:
+
+```C
+i = +1;    /* + used as a unary operator */
+j = -1;    /* - used as a unary operator */
+```
+
+The unary `+` operator does nothing; in fact, it didn't even exist in K & R C. It's used primarily to emphasize that a numeric constant is positive.
+
+The binary operators probably look familiar. The only one that might not is `%`, the remainder operator. The value of `i % j` is the remainder when `i` is divided by `j`. For example, the value of `10 % 3` is 1, and the value of `12 % 4` is 0.
+
+<span class="QandA"></span>
+
+The binary operators in Table 4.1--with the exception of `%`--allow either integer or floating-point operands, with mixing allowed. When `int` and `float` operands are mixed, the result has type `float`. Thus, `9 + 2.5f` has the value `11.5`, and `6.7f / 2` has the value `3.35`.
+
+The `/` and `%` operators require special care:  
+
+<ul>
+<li>
+
+The `/` operator can produce surprising results. When both of its operands are integers, the `/` operator "truncates" the result by dropping the fractional part. Thus, the value of `1 / 2` is 0, not `0.5`.
+
+</li>
+<li>
+
+The `%` operator requires integer operands; if either operand is not an integer, the program won't compile.
+
+</li>
+<li>
+
+Using zero as the right operand of either `/` or `%` causes undefined behavior.
+
+</li>
+<li>
+
+<span class="QandA"></span>
+
+<span class="C99Symbol"></span>
+
+Describing the result when `/` and `%` are used with negative operands is tricky. The C89 standard states that if either operand is negative, the result of a division can be rounded either up or down. (For example, the value of `-9 / 7` could be either -1 or -2). If `i` or `j` is negative, the sign of `i % j` in C89 depends on the implementation. (For example, the value of `-9 % 7` could be either -2 or 5). In C99, on the other hand, the result of a division is always truncated toward zero (so `-9 / 7` has the value -1) and the value of `i % j` has the same sign as `i` (hence the value of `-9 % 7` is -2).
+
+</li>
+</ul>
+
+<div class="infoBox">
+
+### Implementation-Defined Behaviour
+
+The term ***Implementation-defined*** will arise often enough that it's worth taking a moment to discuss it. The C standard deliberately leaves parts of the language unspecified, with the understanding that an "implementation"--the software needed to compile, link, and execute programs on a particular platform--will fill in the details. As a result, the behavior of the program may vary somewhat from one implementation to another. The behavior of the `/` and `%` operators for negative operands in C89 is an example of implementation-defined behavior.
+
+Leaving parts of the language unspecified may seem odd or even dangerous, but it reflects C's philosophy. One of the language's goals is efficiency, which often means matching the way that hardware behaves. Some CPUs yield -1 when -9 is divided by 7, while others produce -2; the C89 standard simply reflects this fact of life.
+
+It's best to avoid writing programs that depend on implementation-defined behavior. If that's not possible, at least check the manual carefully--the C standard requires that implementation-defined behaior be documented.
+
+</div>
+
+### 4.1.1 Operator Precedence and Associativity
+
+When an expression contains more than one operator, its interpretation may not be immediately clear. For example, does `i + j * k` mean "add `i` and `j`, then multiply the result by `k`," or does it mean "multiply `j` and `k`, then add `i`"? One solution to this problem is to add parentheses, writing either `(i + j) * k` or `i + (j * K)`. As a general rule, C allows the use of parentheses for grouping in all expressions.
+
+What if we don't use parentheses, though? Will the compiler interpret `i + j * k` as `(i + j) * k` or `i + (j * k)`? Like many other languages, C user ***operator precedence*** rules to resolve this potential ambiguity. The arithmetic operators have the following relative precedence:
+
+|||||
+|---|---|---|---|
+|Highest:|`+`|`-`|(unary)|
+||`*`|`/`|`%`|
+|Lowest:|`+`|`-`|(binary)|
+
+Operators listed on the same line (such as `+` and `-`) have equal precedence.
+
+When two or more operators appear in the same expression, we can determine how the compiler will interpret the expression by repeatedly putting parentheses around subexpressions, starting with high-precedence operators and working down to low-precedence operators. The following examples illustrate the result:
+
+||||
+|---|---|---|
+|`i + j * k`|is equivalent to|`i + (j * k)`|
+|`-i * -j`|is equivalent to|`(-i) * (-j)`|
+|`+i + j / k`|is equivalent to|`(+i) + (j / k)`|
+
+Operator precedence rules alone aren't enough when an expression contains two or more operators at the same level of precedence. In this situation, the ***associativity*** of the operators comes into play. An operator is said to be ***left associative*** if it groups from left to right. The binary arithmetic operators (`*`, `/`, `%`, `+`, and `-`) are all left associative, so
+
+||||
+|---|---|---|
+|`i - j - k`|is equivalent to|`(i - j) - k`|
+|`i * j / k`|is equivalent to|`(i * j) / k`|
+
+An operator is ***right associative*** if it groups from right to left. The unary arithmetic operators (`+` and `-`) are both right associative, so
+
+||||
+|---|---|---|
+|`- + i`|is equivalent to|`-(+i)`|
+
+Precedence and associativity rules are important in many laguages, but especially so in C. However, C has so many operators (almost fifty!) that few programmers bother to memorize the precedence and associativity rules. Instead, they consult a table of operators when in doubt or just use plenty of parentheses.
+
+### 4.1.2 (PROGRAM) Computing a UPC Check Digit
+
+For a number of years, manufacturers of goods sold in U.S. and Canadian stores have put a bar code on each product. This code, known as a Universal Product Code (UPC), identifies both the manufacturer and the product. Each bar code represents a twelve-digit number, which is usually printed underneath the bars. For example, the following bar code comes from a package of Stouffer's French Bread Pepperoni Pizza:
+
+<img src="./images/cknkCh04_barcode.jpg" style="width:200px; position: relative; left: 50%; right: 50%"/>
+
+The digits `0  13800 15173  5` appear underneath the bar code. The first digit identifies the type of item (0 or 7 for most items, 2 for items that must  be weighed, 3 for drugs and health-related merchandise, and 5 for coupons). The first group of five digits identifies the manufacturer (13800 is the code for Nestlé USA's Frozen Food Division). The second group of five digits identifies the product (including package size). The final digit is a "check digit," whose only purpose is to help identify an error in the preceding digits. If the UPC is scanned incorrectly, the first 11 digits probably won't be consistent with the last digit, and the store's scanner will reject the entire code.
+
+Here's one method of computing the check digit:
+
+> Add the first, third, fifth, seventh, ninth, and eleventh digits.  
+> Add the second, fourth, sixth, eighth, and tenth digits.  
+> Multiply the first sum by 3 and add it to the second sum.  
+> Subtract 1 from the total.  
+> Compute the remainder when the adjusted total is divided by 10.  
+> Subtract the remainder fom 9.
+
+Using the Stouffer's example, we get <span class="displayInlineMath">$$ 0 + 3 + 0 + 1 + 1 + 3 = 8 $$</span> for the first sum and <span class="displayInlineMath">$$ 1 + 8 + 0 + 5 + 7 = 21 $$</span> for the second sum. Multiplying the first sum by 3 and adding the second yields 45. Subtracting 1 gives 44. The remainder upon dividing by 10 is 4. When the remainder is subtracted from 9, the result is 5. Here are a couple of other UPCs, in case you want to try your hand at computing the check digit (raiding the kitchen cabinet for the answer is *not* allowed):
+
+Jif Creamy Peanut Butter (18 oz.): `0   51500 24128   ?`  
+Ocean Spray Jellied Cranberry Sauce (8 oz.): `0   31200 01005   ?`
+
+The answers: 8 for Jif and 6 for Ocean Spray.
+
+Let's write a program that calculates the check digit for an arbitrary UPC. We'll ask the user to enter the first 11 digits of the UPC, then we'll display the corresponding check digit. To avoid confusion, we'll ask the user to enter the number in three parts: the single digit at the left, the first group of five digits, and the second group of five digits. Here's what a session with the program will look like:
+
+```shell
+Enter the first (single) digit: 0
+Enter first group of five digits: 138000
+Enter second group of five digits: 15173
+Check digit: 5
+```
+
+Instead of reading each digit group as a *five*-digit number, we'll read it as five *one*-digit numbers. Reading the numbers as single digits is more convenient; also, we won't have to worry that one of the five-digit numbers is too large to store in an `int` variable. (Some older compilers limit the maximum value of an `int` variable to 32,767.) To read single digits, we'll use `scanf` with the `%1d` conversion specification, which matches a one-digit integer.
+
+
+```C
+/*
+ * file: upc.c
+ * Purpose: Computes a Universal Product Code check digit
+ * Author: K. N. King
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+    int d, i1, i2, i3, i4, i5, j1, j2, j3, j4, j5, first_sum, second_sum, total;
+
+    printf("Enter the first (single) digit: ");
+    scanf("%1d", &d);
+    printf("Enter first group of five digits: ");
+    scanf("%1d%1d%1d%1d%1d", &i1, &i2, &i3, &i4, &i5);
+    printf("Enter second group of five digits: ");
+    scanf("%1d%1d%1d%1d%1d", &j1, &j2, &j3, &j4, &j5);
+
+    first_sum = d + i2 + i4 + j1 + j3 + j5;
+    second_sum = i1 + i3 + i5 + j2 + j4;
+    total = 3 * first_sum + second_sum;
+
+    printf("Check digit: %d\n", 9 - ((total - 1) % 10));
+
+    return 0;
+}
+```
+
+Note that the expression `9 - ((total - 1) % 10)` could have been written as `9 - (total - 1) % 10`, but the extra set of parentheses makes it easier to understand.
 
 </body>
 </html>
