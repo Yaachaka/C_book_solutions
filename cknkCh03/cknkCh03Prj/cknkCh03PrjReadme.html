@@ -98,6 +98,28 @@ Item                    Unit                    Purchase
 <hr class="hr1"/>
 <h1 id="cknkch03prj003">cknkCh03Prj003</h1>
 <!-- START: Problem Statement -->
+<p>Books are identified by an international Standard Book Number (ISBN).
+ISBNs assigned after January 1, 2007 contain 13 digits, arranged in five
+groups, such as 978-0-393-97950-3. (Older ISBNs use 10 digits.) The
+first group (<em>GS1 prefix</em>) is curently either 978 or 979. The
+<em>group identifier</em> specifies the language or country of origin
+(for example, 0 and 1 are used in English-speaking countries). The
+<em>publisher code</em> identifies the publisher (393 is the code for W.
+W. Norton). The <em>item number</em> is assigned by the publisher to
+identify a specific book (97950 is the code for this book). An ISBN ends
+with a <em>check digit</em> that’s used to verify the accuracy of the
+preceeding digits. Write a program that breaks down an ISBN entered by
+the user:</p>
+<pre class="shell"><code>Enter ISBN: 978-0-393-97950-3
+GS1 prefix: 978
+Group identifier: 0
+Publisher code: 393
+Item number: 97950
+Check digit: 3</code></pre>
+<p><em>Note</em>: The number of digits in each group may vary; you can’t
+assume that groups have the lengths shown in this example. Test your
+program with actual ISBN values (usually found on the back cover of a
+book and on the copyright page).</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-2">Solution:</h1>
 <h2 id="program-link-2">Program Link</h2>
@@ -106,30 +128,33 @@ Item                    Unit                    Purchase
 <h3 id="trial1-2">Trial1:</h3>
 <h4 id="trial1-execution-2">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
+<pre class="shell"><code>Enter ISBN: 978-0-393-97950-3
+GS1 prefix: 978
+Group identifer: 0
+Publisher code: 393
+Item number: 97950
+Check digit: 3</code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <h3 id="trial2-2">Trial2:</h3>
 <h4 id="trial2-execution-2">Trial2 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
+<pre class="shell"><code>Enter ISBN: 979-1-3456-4834-2
+GS1 prefix: 979
+Group identifer: 1
+Publisher code: 3456
+Item number: 4834
+Check digit: 2</code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <h3 id="trial3-2">Trial3:</h3>
 <h4 id="trial3-execution-2">Trial3 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
+<pre class="shell"><code>Enter ISBN: 978-0-444-333-1
+GS1 prefix: 978
+Group identifer: 0
+Publisher code: 444
+Item number: 333
+Check digit: 1</code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-1">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <hr class="hr1"/>
 <h1 id="cknkch03prj004">cknkCh03Prj004</h1>
 <!-- START: Problem Statement -->
@@ -143,7 +168,7 @@ Item                    Unit                    Purchase
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-1">Trial1 Comments:</h4>
+<h4 id="trial1-comments">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-3">Trial2:</h3>
@@ -151,7 +176,7 @@ Item                    Unit                    Purchase
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-1">Trial2 Comments:</h4>
+<h4 id="trial2-comments">Trial2 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial3-3">Trial3:</h3>
@@ -159,10 +184,10 @@ Item                    Unit                    Purchase
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-1">Trial3 Comments:</h4>
+<h4 id="trial3-comments">Trial3 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-2">Exercise Comment:</h1>
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
@@ -178,7 +203,7 @@ Item                    Unit                    Purchase
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-2">Trial1 Comments:</h4>
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-4">Trial2:</h3>
@@ -186,7 +211,7 @@ Item                    Unit                    Purchase
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-2">Trial2 Comments:</h4>
+<h4 id="trial2-comments-1">Trial2 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial3-4">Trial3:</h3>
@@ -194,10 +219,10 @@ Item                    Unit                    Purchase
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-2">Trial3 Comments:</h4>
+<h4 id="trial3-comments-1">Trial3 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-3">Exercise Comment:</h1>
+<h1 id="exercise-comment-2">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
@@ -213,7 +238,7 @@ Item                    Unit                    Purchase
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-3">Trial1 Comments:</h4>
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-5">Trial2:</h3>
@@ -221,7 +246,7 @@ Item                    Unit                    Purchase
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-3">Trial2 Comments:</h4>
+<h4 id="trial2-comments-2">Trial2 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial3-5">Trial3:</h3>
@@ -229,10 +254,10 @@ Item                    Unit                    Purchase
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-3">Trial3 Comments:</h4>
+<h4 id="trial3-comments-2">Trial3 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-4">Exercise Comment:</h1>
+<h1 id="exercise-comment-3">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
