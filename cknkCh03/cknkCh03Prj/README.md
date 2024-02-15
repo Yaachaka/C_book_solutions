@@ -78,7 +78,19 @@ You entered the date 00960205
 
 <!-- START: Problem Statement -->
 
+Write a program that formats product information entered by the user. A session with the program should look like this:
 
+```shell
+Enter item number: 583
+Enter unit price: 13.5
+Enter purchase date (mm/dd/yyyy): 10/24/2010
+
+Item         Unit           Purchase
+             Price          Date
+583          $  13.50       10/24/2010
+```
+
+The item number and date should be left justified; the unit price should be right justified. Allow dollar amounts up to $9999.99. *Hint:* Use tabs to line up the columns.
 
 <!-- END: Problem Statement -->
 
@@ -98,18 +110,15 @@ You entered the date 00960205
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter item number: 583
+Enter unit price: 13.5
+Enter purchase date (mm/dd/yyyy): 10/24/2010
+Item                    Unit                    Purchase
+                        Price                   Date
+583                     $  13.50                10/24/2010
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -118,18 +127,15 @@ You entered the date 00960205
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter item number: 150
+Enter unit price: 152.3
+Enter purchase date (mm/dd/yyyy): 2/15/2024
+Item                    Unit                    Purchase
+                        Price                   Date
+150                     $ 152.30                02/15/2024
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -138,24 +144,21 @@ You entered the date 00960205
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter item number: 789
+Enter unit price: 10000.12
+Enter purchase date (mm/dd/yyyy): 2/5/1996
+Item                    Unit                    Purchase
+                        Price                   Date
+789                     $10000.12               02/05/1996
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 # Exercise Comment:
 
 <!-- START: Comments -->
 
-
+Note: I could not figure out how to limit the dollar amount to 9999.99 (as required by the problem statement).
 
 <!-- END: Comments -->
 
