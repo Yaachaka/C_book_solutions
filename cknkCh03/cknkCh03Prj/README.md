@@ -410,7 +410,12 @@ Diagonal sums: 40 21
 
 <!-- START: Problem Statement -->
 
+Modify the `addfrac.c` program of Section 3.2 so that the user enters both fractions at the same time, separated by a plus sign:
 
+```shell
+Enter two fractions separated by a plus sign: 5/6+3/4
+The sum is 38/24
+```
 
 <!-- END: Problem Statement -->
 
@@ -430,18 +435,11 @@ Diagonal sums: 40 21
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter two fractions separated by a plus sign: 5/6 + 3/4
+The sum is 38/24
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -450,18 +448,11 @@ Diagonal sums: 40 21
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter two fractions separated by a plus sign: 13/10+4/2
+The sum is 66/20
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -470,29 +461,13 @@ Diagonal sums: 40 21
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter two fractions separated by a plus sign: 10/2 + 40/3
+The sum is 110/6
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 <hr class="hr1ExrcPrj"/>
-
 
 </body>
 </html>
