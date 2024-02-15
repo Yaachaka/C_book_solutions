@@ -312,7 +312,23 @@ You entered 777.132.4242
 
 <!-- START: Problem Statement -->
 
+Write a program that asks the user to enter the numbers from 1 to 16 (in any order) and then displays the numbers in a 4 by 4 arrangement, followed by the sums of the rows, columns, and diagonals:
 
+```shell
+Enter the numbers from 1 to 16 in any order:
+16 3 2 13 5 10 11 8 9 6 7 12 4 15 14 1
+
+16  3  2 13
+ 5 10 11  8
+ 9  6  7 12
+ 4 15 14  1
+
+Row sums: 34 34 34 34
+Column sums: 34 34 34 34
+Diagonal sums: 34 34
+```
+
+If the row, column, and diagonal sums are all the same(as they are in this example), the numbers are said to form a ***magic square***. The magic square shown here appears in a 1514 engraving by artist and mathematician Albrecht Dürer. (Note that the middle numbers in the last row give the date of the engraving.)
 
 <!-- END: Problem Statement -->
 
@@ -332,18 +348,19 @@ You entered 777.132.4242
 <!-- START: terminal interaction or other output -->
 
 ```shell
+Enter the numbers from 1 to 16 in any order: 16 3 2 13 5 10 11 8 9 6 7 12 4 15 14 1
 
+16  3  2 13
+ 5 10 11  8
+ 9  6  7 12
+ 4 15 14  1
+
+Row sums: 34 34 34 34
+Column sums: 34 34 34 34
+Diagonal sums: 34 34
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -352,18 +369,19 @@ You entered 777.132.4242
 <!-- START: terminal interaction or other output -->
 
 ```shell
+Enter the numbers from 1 to 16 in any order: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
 
+ 1  2  3  4
+ 5  6  7  8
+ 9 10 11 12
+13 14 15 16
+
+Row sums: 10 26 42 58
+Column sums: 28 32 36 40
+Diagonal sums: 34 34
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -372,26 +390,19 @@ You entered 777.132.4242
 <!-- START: terminal interaction or other output -->
 
 ```shell
+Enter the numbers from 1 to 16 in any order: 16 15 2 4 7 1 8 5 9 3 11 13 6 14 10 12
 
+16 15  2  4
+ 7  1  8  5
+ 9  3 11 13
+ 6 14 10 12
+
+Row sums: 37 21 36 42
+Column sums: 38 33 31 34
+Diagonal sums: 40 21
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
