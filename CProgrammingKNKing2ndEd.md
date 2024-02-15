@@ -1193,13 +1193,15 @@ A: That's a tough question. Leave too little space, and the eye has trouble dete
 
 ## Exercises
 
-- Readme: [./cknkCh02/cknkCh02Exrc/README.md](./cknkCh02/cknkCh02Exrc/README.md)
-- Programs: [./cknkCh02/cknkCh02Exrc/](./cknkCh02/cknkCh02Exrc/)
+- Readme: [./cknkCh02/cknkCh02Exrc/README.md](./cknkCh02/cknkCh02Exrc/README.md)  
+- Readme (html): [./cknkCh02/cknkCh02Exrc/cknkCh02ExrcReadme.html](./cknkCh02/cknkCh02Exrc/cknkCh02ExrcReadme.html)  
+- Programs: [./cknkCh02/cknkCh02Exrc/](./cknkCh02/cknkCh02Exrc/)  
 
 ## Programming Projects
 
-- Readme: [./cknkCh02/cknkCh02Prj/README.md](./cknkCh02/cknkCh02Prj/README.md)
-- Programs: [./cknkCh02/cknkCh02Prj/](./cknkCh02/cknkCh02Prj/)
+- Readme: [./cknkCh02/cknkCh02Prj/README.md](./cknkCh02/cknkCh02Prj/README.md)  
+- Readme: [./cknkCh02/cknkCh02Prj/cknkCh02PrjReadme.html](./cknkCh02/cknkCh02Prj/cknkCh02PrjReadme.html)  
+- Programs: [./cknkCh02/cknkCh02Prj/](./cknkCh02/cknkCh02Prj/)  
 
 <hr class="chapterDivider"/>
 
@@ -1733,17 +1735,25 @@ scanf("%d,%d", &i, &j);
 
 ## Examples
 
-- Programs: [./cknkCh03/cknkCh03Exmp/](./cknkCh03/cknkCh03Exmp/)
+- Programs: [./cknkCh03/cknkCh03Exmp/](./cknkCh03/cknkCh03Exmp/)  
 
 ## Exercises
 
-- Readme: [./cknkCh03/cknkCh03Exrc/README.md](./cknkCh03/cknkCh03Exrc/README.md)
-- Programs: [./cknkCh03/cknkCh03Exrc/](./cknkCh03/cknkCh03Exrc/)
+- Readme: [./cknkCh03/cknkCh03Exrc/README.md](./cknkCh03/cknkCh03Exrc/README.md)  
+- Readme (html): [./cknkCh03/cknkCh03Exrc/cknkCh03ExrcReadme.html](./cknkCh03/cknkCh03Exrc/cknkCh03ExrcReadme.html)  
+- Programs: [./cknkCh03/cknkCh03Exrc/](./cknkCh03/cknkCh03Exrc/)  
 
 ## Programming Projects
 
-- Readme: [./cknkCh03/cknkCh03Prj/README.md](./cknkCh03/cknkCh03Prj/README.md)
-- Programs: [./cknkCh03/cknkCh03Prj/](./cknkCh03/cknkCh03Prj/)
+- Readme: [./cknkCh03/cknkCh03Prj/README.md](./cknkCh03/cknkCh03Prj/README.md)  
+- Readme (html): [./cknkCh03/cknkCh03Prj/cknkCh03PrjReadme.html](./cknkCh03/cknkCh03Prj/cknkCh03PrjReadme.html)  
+- Programs: [./cknkCh03/cknkCh03Prj/](./cknkCh03/cknkCh03Prj/)  
+
+
+<hr class="chapterDivider"/>
+
+# NextChapterTitle
+
 
 
 </body>

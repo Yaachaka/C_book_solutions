@@ -11,3 +11,9 @@ Notes (book) in HTML: [./CProgrammingKNKing2ndEd.html](./CProgrammingKNKing2ndEd
 - [Examples](./cknkCh02/cknkCh02Exmp)
 - [Exercises](./cknkCh02/cknkCh02Exrc)
 - [Programming Projects](./cknkCh02/cknkCh02Prj)
+
+**[Chapter 3 Formatted Input/Output](./cknkCh03):**
+
+- [Examples](./cknkCh03/cknkCh03Exmp)
+- [Exercises](./cknkCh03/cknkCh03Exrc)
+- [Programming Projects](./cknkCh03/cknkCh03Prj)
