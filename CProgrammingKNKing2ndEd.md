@@ -2170,6 +2170,90 @@ means
 i += (j += k);
 ```
 
+## 4.3 Incremet and Decrement Operators
+
+Two of the most common operations on a variable are "incrementing" (adding 1) and "decrementing" (subtracting 1). We can, of course, accomplish these tasks by writing
+
+```C
+i = i + 1;
+j = j -1;
+```
+
+The compound assignment operators allow us to condense these statements a bit:
+
+```C
+i += 1;
+j -= 1;
+```
+
+<span class="QandA"></span>
+
+But C allows increments and decrements to be shortened even further, using the `++` (***increment***) and `--` (***decrement***) operators.
+
+At first glance, the increment and decrement operators are simplicity itself: `++` adds 1 to its operand, whereas `--` subtracts 1. Unfortunately, this simplicity is misleading--the increment and decrement operators can be tricky to use. One complication is that `++` and `--` can be used as ***prefix*** operators (`++i` and `--i`, for example) or ***postfix*** operators (`i++` and `i--`). The correctness of a program may hinge on picking the proper version.
+
+Another complication is that, like the assignment operators, `++` and `--` have side effects: they modify the values of their operands. Evaluating the expression `++i` (a "pre-increment") yields `i + 1` and--as a side effect--increments `i`:
+
+```C
+i = 1;
+printf("i is %d\n", ++i);    /* prints "i is 2" */
+printf("i is %d\n", i);    /* prints "i is 2" */
+```
+
+Evaluating th expression `i++` (a "post-increment") produces the result `i`, but causes `i` to be incremented afterwards:
+
+```C
+i = 1;
+printf("i is %d\n", i++);    /* prints "i is 1" */
+printf("i is %d\n", i);    /* prints "i is 2" */
+```
+
+<span class="QandA"></span>
+
+The first `printf` shows the original value of `i`, before it is incremented. The second `printf` shows the new value. As these examples illustrate, `++i` means "increment `i` immediately," while `i++` means "use the old value of `i` for now, but increment `i` later." How much later? The C standard doesn't specify a precise time, but it's safe to assume that `i` will be incremented before the next statement is executed.
+
+The `--` operator has similar properties:
+
+```C
+i = 1;
+printf("i is %d\n", --i);    /* prints "i is 0" */
+printf("i is %d\n", i);    /* prints "i is 0" */
+```
+
+```C
+i = 1;
+printf("i is %d\n", i--);    /* prints "i is 1" */
+printf("i is %d\n", i);    /* prints "i is 0" */
+```
+
+When `++` or `--` is used more than once in the same expression, the result can often be hard to understand. Consider the following statements:
+
+```C
+i = 1;
+j = 2;
+k = ++i + j++;
+```
+
+What are the values of `i`, `j` and `k` after these statements are executed? Since `i` is incremented *before* its value is used, but `j` is incremented *after* it is used, the last statement is equivalent to
+
+```C
+i = i + 1;
+k = i + j;
+j = j + 1;
+```
+
+so the final values of `i`, `j`, and `k` are 2, 3, and 4, respectively. In contrast, executing the statements
+
+```C
+i = 1;
+j = 2;
+k = i++ + j++;
+```
+
+will give `i`, `j`, and `k` the values 2, 3, and 3, respectively.
+
+For the record, the postfix versions of `++` and `--` have higher precedence than unary plus and minus and are left associative. The prefix versions have the same precedence as unary plus and minus and are right associative.
+
 
 
 </body>

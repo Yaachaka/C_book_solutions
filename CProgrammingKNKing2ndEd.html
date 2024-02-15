@@ -2578,5 +2578,94 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb125-1"><a href="#cb1
 <p>means</p>
 <div class="sourceCode" id="cb126"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb126-1"><a href="#cb126-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">+=</span> <span class="op">(</span>j <span class="op">+=</span> k<span class="op">);</span></span></code></pre></div>
+<h2 id="incremet-and-decrement-operators">4.3 Incremet and Decrement
+Operators</h2>
+<p>Two of the most common operations on a variable are “incrementing”
+(adding 1) and “decrementing” (subtracting 1). We can, of course,
+accomplish these tasks by writing</p>
+<div class="sourceCode" id="cb127"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb127-1"><a href="#cb127-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb127-2"><a href="#cb127-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> j <span class="op">-</span><span class="dv">1</span><span class="op">;</span></span></code></pre></div>
+<p>The compound assignment operators allow us to condense these
+statements a bit:</p>
+<div class="sourceCode" id="cb128"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb128-1"><a href="#cb128-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">+=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb128-2"><a href="#cb128-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">-=</span> <span class="dv">1</span><span class="op">;</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p>But C allows increments and decrements to be shortened even further,
+using the <code>++</code> (<strong><em>increment</em></strong>) and
+<code>--</code> (<strong><em>decrement</em></strong>) operators.</p>
+<p>At first glance, the increment and decrement operators are simplicity
+itself: <code>++</code> adds 1 to its operand, whereas <code>--</code>
+subtracts 1. Unfortunately, this simplicity is misleading–the increment
+and decrement operators can be tricky to use. One complication is that
+<code>++</code> and <code>--</code> can be used as
+<strong><em>prefix</em></strong> operators (<code>++i</code> and
+<code>--i</code>, for example) or <strong><em>postfix</em></strong>
+operators (<code>i++</code> and <code>i--</code>). The correctness of a
+program may hinge on picking the proper version.</p>
+<p>Another complication is that, like the assignment operators,
+<code>++</code> and <code>--</code> have side effects: they modify the
+values of their operands. Evaluating the expression <code>++i</code> (a
+“pre-increment”) yields <code>i + 1</code> and–as a side
+effect–increments <code>i</code>:</p>
+<div class="sourceCode" id="cb129"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb129-1"><a href="#cb129-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb129-2"><a href="#cb129-2" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;i is %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> <span class="op">++</span>i<span class="op">);</span>    <span class="co">/* prints &quot;i is 2&quot; */</span></span>
+<span id="cb129-3"><a href="#cb129-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;i is %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span>    <span class="co">/* prints &quot;i is 2&quot; */</span></span></code></pre></div>
+<p>Evaluating th expression <code>i++</code> (a “post-increment”)
+produces the result <code>i</code>, but causes <code>i</code> to be
+incremented afterwards:</p>
+<div class="sourceCode" id="cb130"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb130-1"><a href="#cb130-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb130-2"><a href="#cb130-2" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;i is %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">++);</span>    <span class="co">/* prints &quot;i is 1&quot; */</span></span>
+<span id="cb130-3"><a href="#cb130-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;i is %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span>    <span class="co">/* prints &quot;i is 2&quot; */</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p>The first <code>printf</code> shows the original value of
+<code>i</code>, before it is incremented. The second <code>printf</code>
+shows the new value. As these examples illustrate, <code>++i</code>
+means “increment <code>i</code> immediately,” while <code>i++</code>
+means “use the old value of <code>i</code> for now, but increment
+<code>i</code> later.” How much later? The C standard doesn’t specify a
+precise time, but it’s safe to assume that <code>i</code> will be
+incremented before the next statement is executed.</p>
+<p>The <code>--</code> operator has similar properties:</p>
+<div class="sourceCode" id="cb131"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb131-1"><a href="#cb131-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb131-2"><a href="#cb131-2" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;i is %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> <span class="op">--</span>i<span class="op">);</span>    <span class="co">/* prints &quot;i is 0&quot; */</span></span>
+<span id="cb131-3"><a href="#cb131-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;i is %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span>    <span class="co">/* prints &quot;i is 0&quot; */</span></span></code></pre></div>
+<div class="sourceCode" id="cb132"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb132-1"><a href="#cb132-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb132-2"><a href="#cb132-2" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;i is %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">--);</span>    <span class="co">/* prints &quot;i is 1&quot; */</span></span>
+<span id="cb132-3"><a href="#cb132-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;i is %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span>    <span class="co">/* prints &quot;i is 0&quot; */</span></span></code></pre></div>
+<p>When <code>++</code> or <code>--</code> is used more than once in the
+same expression, the result can often be hard to understand. Consider
+the following statements:</p>
+<div class="sourceCode" id="cb133"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb133-1"><a href="#cb133-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb133-2"><a href="#cb133-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb133-3"><a href="#cb133-3" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> <span class="op">++</span>i <span class="op">+</span> j<span class="op">++;</span></span></code></pre></div>
+<p>What are the values of <code>i</code>, <code>j</code> and
+<code>k</code> after these statements are executed? Since <code>i</code>
+is incremented <em>before</em> its value is used, but <code>j</code> is
+incremented <em>after</em> it is used, the last statement is equivalent
+to</p>
+<div class="sourceCode" id="cb134"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb134-1"><a href="#cb134-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb134-2"><a href="#cb134-2" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> i <span class="op">+</span> j<span class="op">;</span></span>
+<span id="cb134-3"><a href="#cb134-3" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> j <span class="op">+</span> <span class="dv">1</span><span class="op">;</span></span></code></pre></div>
+<p>so the final values of <code>i</code>, <code>j</code>, and
+<code>k</code> are 2, 3, and 4, respectively. In contrast, executing the
+statements</p>
+<div class="sourceCode" id="cb135"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb135-1"><a href="#cb135-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb135-2"><a href="#cb135-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb135-3"><a href="#cb135-3" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> i<span class="op">++</span> <span class="op">+</span> j<span class="op">++;</span></span></code></pre></div>
+<p>will give <code>i</code>, <code>j</code>, and <code>k</code> the
+values 2, 3, and 3, respectively.</p>
+<p>For the record, the postfix versions of <code>++</code> and
+<code>--</code> have higher precedence than unary plus and minus and are
+left associative. The prefix versions have the same precedence as unary
+plus and minus and are right associative.</p>
 </body>
 </html>
