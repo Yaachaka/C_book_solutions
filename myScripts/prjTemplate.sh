@@ -21,7 +21,7 @@ echo "<html>
 echo $title
 echo "  "
 
-echo "<hr class=\"hr1\"/>"
+echo "<hr class=\"hr1ExrcPrj\"/>"
 echo $emptyLine
 
 for i in $(seq 1 $exrcCount);
@@ -84,7 +84,7 @@ do
     echo "<!-- END: Comments -->"
     echo $emptyLine
     
-    echo "<hr class=\"hr1\"/>"
+    echo "<hr class=\"hr1ExrcPrj\"/>"
     echo $emptyLine
 done
 

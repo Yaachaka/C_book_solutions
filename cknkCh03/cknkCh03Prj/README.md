@@ -9,7 +9,7 @@
 
 # Chapter 03 Programming Projects
   
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh03Prj001
 
@@ -72,7 +72,7 @@ You entered the date 00960205
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh03Prj002
 
@@ -162,7 +162,7 @@ Note: I could not figure out how to limit the dollar amount to 9999.99 (as requi
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh03Prj003
 
@@ -243,13 +243,18 @@ Check digit: 1
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh03Prj004
 
 <!-- START: Problem Statement -->
 
+Write a program that prompts the user to enter a telephone number in the form (xxx) xxx-xxxx and then displays the number in the form xxx.xxx.xxxx:
 
+```shell
+Enter phone number [(xxx) xxx-xxxx]: (404) 817-6900
+You entered 404.817.6900
+```
 
 <!-- END: Problem Statement -->
 
@@ -269,18 +274,11 @@ Check digit: 1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter phone number [(xxx) xxx-xxxx]: (404) 817-6900
+You entered 404.817.6900
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -289,18 +287,11 @@ Check digit: 1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter phone number [(xxx) xxx-xxxx]: (888) 987-4560
+You entered 888.987.4560
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -309,28 +300,13 @@ Check digit: 1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter phone number [(xxx) xxx-xxxx]: (777) 132-4242
+You entered 777.132.4242
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh03Prj005
 
@@ -417,7 +393,7 @@ Check digit: 1
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh03Prj006
 
@@ -504,7 +480,7 @@ Check digit: 1
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 
 </body>
