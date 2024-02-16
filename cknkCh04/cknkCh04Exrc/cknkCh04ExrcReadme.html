@@ -441,10 +441,28 @@ variables.</p>
 <h1 id="cknkch04exrc013">cknkCh04Exrc013</h1>
 <p>Section 4.3</p>
 <!-- START: Problem Statement -->
+<p>Only one of the expressions <code>++i</code> and <code>i++</code> is
+exactly the same as <code>(i += 1);</code> which is it? Justify your
+answer.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-12">Solution:</h1>
+<p><code>i++</code> is exactly same as <code>(i += 1);</code>.</p>
+<p>In case of <code>++i</code>, <code>i</code> value is first
+incremented and then used.</p>
+<p>In case of <code>i++</code>, <code>i</code> value is first used and
+then incremented.</p>
+<p>In case of <code>(i += 1);</code>, which expands to
+<code>(i = i + (1))</code>, for the <em>rvalue</em> evaluation, old
+value of <code>i</code> is used and then is assigned to <em>lvalue</em>
+i.e., <code>i</code>–so <code>i</code> got incremented later.</p>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch04exrc014">cknkCh04Exrc014</h1>
+<p>Section 4.4</p>
+<!-- START: Problem Statement -->
+<!-- END: Problem Statement -->
+<h1 id="solution-13">Solution:</h1>
 <h2 id="program-link-9">Program Link</h2>
-<p><a href="./cknkCh04Exrc013.c">cknkCh04Exrc013.c</a></p>
+<p><a href="./cknkCh04Exrc014.c">cknkCh04Exrc014.c</a></p>
 <h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
 <h3 id="trial1-9">Trial1:</h3>
 <h4 id="trial1-execution-9">Trial1 execution:</h4>
@@ -474,13 +492,13 @@ variables.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch04exrc014">cknkCh04Exrc014</h1>
-<p>Section 4.4</p>
+<h1 id="cknkch04exrc015">cknkCh04Exrc015</h1>
+<p>Section 4.5</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-13">Solution:</h1>
+<h1 id="solution-14">Solution:</h1>
 <h2 id="program-link-10">Program Link</h2>
-<p><a href="./cknkCh04Exrc014.c">cknkCh04Exrc014.c</a></p>
+<p><a href="./cknkCh04Exrc015.c">cknkCh04Exrc015.c</a></p>
 <h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
 <h3 id="trial1-10">Trial1:</h3>
 <h4 id="trial1-execution-10">Trial1 execution:</h4>
@@ -507,42 +525,6 @@ variables.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h1 id="exercise-comment-1">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1ExrcPrj"/>
-<h1 id="cknkch04exrc015">cknkCh04Exrc015</h1>
-<p>Section 4.5</p>
-<!-- START: Problem Statement -->
-<!-- END: Problem Statement -->
-<h1 id="solution-14">Solution:</h1>
-<h2 id="program-link-11">Program Link</h2>
-<p><a href="./cknkCh04Exrc015.c">cknkCh04Exrc015.c</a></p>
-<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
-<h3 id="trial1-11">Trial1:</h3>
-<h4 id="trial1-execution-11">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-7">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial2-2">Trial2:</h3>
-<h4 id="trial2-execution-2">Trial2 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-2">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial3-2">Trial3:</h3>
-<h4 id="trial3-execution-2">Trial3 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-2">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-2">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
