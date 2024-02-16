@@ -91,84 +91,15 @@ Section 4.1
 
 <!-- START: Problem Statement -->
 
-
+If `i` and `j` are positive integers, does `(-i)/j` always have the same value as `-(i/j)`? Justify your answer.
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
+Yes, if `i` and `j` are +ve integers, `(-i)/j` will always have the same value as `-(i/j)`.
 
-## Program Link
-
-[cknkCh04Exrc002.c](./cknkCh04Exrc002.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+Considering *sequence point* execution (as we understood from the chapter), `(-i)/j` will evaluate to `-1 * i / j`. If we parenthesize it, it will be like `(-1) * (i / j)` which is same as `-(i/j)`.
 
 <hr class="hr1"/>
 
