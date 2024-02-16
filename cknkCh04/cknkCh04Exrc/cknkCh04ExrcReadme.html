@@ -459,10 +459,39 @@ i.e., <code>i</code>–so <code>i</code> got incremented later.</p>
 <h1 id="cknkch04exrc014">cknkCh04Exrc014</h1>
 <p>Section 4.4</p>
 <!-- START: Problem Statement -->
+<p>Simply parentheses to show how a C compiler would interpret each of
+the following expressions.</p>
+<ol type="a">
+<li><code>a * b - c * d + e</code><br />
+</li>
+<li><code>a / b % c / d</code><br />
+</li>
+<li><code>- a - b + c - + d</code><br />
+</li>
+<li><code>a * - b / c - d</code></li>
+</ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-13">Solution:</h1>
+<ol type="a">
+<li><code>a * b - c * d + e</code>:
+<code>(((a * b) - (c * d)) + e)</code><br />
+</li>
+<li><code>a / b % c / d</code>: <code>(((a / b) % c) / d)</code><br />
+</li>
+<li><code>- a - b + c - + d</code>:
+<code>((((-a) - b) + c) - (+d))</code><br />
+</li>
+<li><code>a * - b / c - d</code>:
+<code>(((a * (-b)) / c) - d)</code></li>
+</ol>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch04exrc015">cknkCh04Exrc015</h1>
+<p>Section 4.5</p>
+<!-- START: Problem Statement -->
+<!-- END: Problem Statement -->
+<h1 id="solution-14">Solution:</h1>
 <h2 id="program-link-9">Program Link</h2>
-<p><a href="./cknkCh04Exrc014.c">cknkCh04Exrc014.c</a></p>
+<p><a href="./cknkCh04Exrc015.c">cknkCh04Exrc015.c</a></p>
 <h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
 <h3 id="trial1-9">Trial1:</h3>
 <h4 id="trial1-execution-9">Trial1 execution:</h4>
@@ -489,42 +518,6 @@ i.e., <code>i</code>–so <code>i</code> got incremented later.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h1 id="exercise-comment">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1ExrcPrj"/>
-<h1 id="cknkch04exrc015">cknkCh04Exrc015</h1>
-<p>Section 4.5</p>
-<!-- START: Problem Statement -->
-<!-- END: Problem Statement -->
-<h1 id="solution-14">Solution:</h1>
-<h2 id="program-link-10">Program Link</h2>
-<p><a href="./cknkCh04Exrc015.c">cknkCh04Exrc015.c</a></p>
-<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
-<h3 id="trial1-10">Trial1:</h3>
-<h4 id="trial1-execution-10">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-6">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial2-1">Trial2:</h3>
-<h4 id="trial2-execution-1">Trial2 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-1">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial3-1">Trial3:</h3>
-<h4 id="trial3-execution-1">Trial3 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-1">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-1">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>

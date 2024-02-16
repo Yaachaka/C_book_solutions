@@ -747,84 +747,21 @@ Section 4.4
 
 <!-- START: Problem Statement -->
 
+Simply parentheses to show how a C compiler would interpret each of the following expressions.
 
+a. `a * b - c * d + e`  
+b. `a / b % c / d`  
+c. `- a - b + c - + d`  
+d. `a * - b / c - d`   
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh04Exrc014.c](./cknkCh04Exrc014.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+a. `a * b - c * d + e`: `(((a * b) - (c * d)) + e)`  
+b. `a / b % c / d`: `(((a / b) % c) / d)`  
+c. `- a - b + c - + d`: `((((-a) - b) + c) - (+d))`  
+d. `a * - b / c - d`: `(((a * (-b)) / c) - d)`   
 
 <hr class="hr1ExrcPrj"/>
 
