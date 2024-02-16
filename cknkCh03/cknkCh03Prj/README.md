@@ -1,10 +1,13 @@
 <html>
 <head>
 <title>Chapter 03 Programming Projects</title>
-<meta charset=utf-8>
-<link rel=stylesheet href=../../myStyle.css>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../myStyle.css">
 </head>
 <body>
+
+03 Formatted Input/Output
+---
 
 
 # Chapter 03 Programming Projects
