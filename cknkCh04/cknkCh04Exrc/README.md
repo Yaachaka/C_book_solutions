@@ -1,8 +1,8 @@
 <html>
 <head>
 <title>Chapter 04 exercises</title>
-<meta charset=utf-8>
-<link rel=stylesheet href=../../myStyle.css>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../myStyle.css">
 </head>
 <body>
 
@@ -12,7 +12,7 @@
   
 # Chapter 04 Excercises
   
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc001
 
@@ -83,7 +83,7 @@ printf("%d", (i + 5) % (j + 2) / k);
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc002
 
@@ -101,7 +101,7 @@ Yes, if `i` and `j` are +ve integers, `(-i)/j` will always have the same value a
 
 Considering *sequence point* execution (as we understood from the chapter), `(-i)/j` will evaluate to `-1 * i / j`. If we parenthesize it, it will be like `(-1) * (i / j)` which is same as `-(i/j)`.
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc003
 
@@ -177,7 +177,7 @@ gcc -std=c89 cknkCh04Exrc003.c
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc004
 
@@ -224,7 +224,7 @@ The program `cknkCh04Exrc003.c` was used for this exercise but the flag `-std=c8
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc005
 
@@ -301,7 +301,7 @@ gcc -std=c89 cknkCh04Exrc005.c
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc006
 
@@ -350,7 +350,7 @@ The program `cknkCh04Exrc005.c` was used for this exercise but the flag `-std=c8
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc007
 
@@ -383,7 +383,7 @@ Algorithm 2 does not work. Suppose if the total value results in a value that is
 
 For example, consider value of the total is 40. By algorithm 1, `40 - 1` is 39 then `39 % 10` is 9 and then `9 - 9` is 0. So 0 is accepted as check digit. But by algorithm 2, `40 % 10` is 0 and then `10 - 0` is 10. So 10 is not accepted as a check digit.
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc008
 
@@ -399,7 +399,7 @@ Would the `upc.c` program still work if the expression `9 - ((total - 1) % 10)` 
 
 Yes, the results will be same from both the expressions.
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc009
 
@@ -474,7 +474,7 @@ printf("%d %d %d", i, j, k);
 
 <!-- END: terminal interaction or other output -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc010
 
@@ -482,7 +482,46 @@ Section 4.2
 
 <!-- START: Problem Statement -->
 
+Show the output produced by each of the following program fragments. Assume that `i` and `j` are `int` variables.
 
+<ol type="a">
+<li>
+
+```C
+i = 6;
+j = i += i;
+printf("%d %d", i, j);
+```
+
+</li>
+<li>
+
+```C
+i = 5;
+j = (i -= 2) + 1;
+printf("%d %d", i, j);
+```
+
+</li>
+<li>
+
+```C
+i = 7;
+j = 6 + (i = 2.5);
+printf("%d %d", i, j);
+```
+
+</li>
+<li>
+
+```C
+i = 2; j = 8;
+j = (i = 6) + (j = 3);
+printf("%d %d", i, j);
+```
+
+</li>
+</ol>
 
 <!-- END: Problem Statement -->
 
@@ -502,7 +541,10 @@ Section 4.2
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+(a) i = 12 j = 12
+(b) i = 3 j = 4
+(c) i = 2 j = 8
+(d) i = 6 j = 9
 ```
 
 <!-- END: terminal interaction or other output -->
@@ -511,57 +553,21 @@ Section 4.2
 
 <!-- START: Comments -->
 
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
+We got the following warning messages during compilation.
 
 ```shell
-
+cknkCh04Exrc010.c:24:18: warning: implicit conversion from 'double' to 'int' changes value from 2.5 to 2 [-Wliteral-conversion]
+   24 |     j = 6 + (i = 2.5);
+      |                ~ ^~~
+cknkCh04Exrc010.c:29:22: warning: multiple unsequenced modifications to 'j' [-Wunsequenced]
+   29 |     j = (i = 6) + (j = 3);
+      |       ~              ^
+2 warnings generated.
 ```
 
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
 <!-- END: Comments -->
 
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
-
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc011
 
@@ -648,7 +654,7 @@ Section 4.3
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc012
 
@@ -735,7 +741,7 @@ Section 4.3
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc013
 
@@ -822,7 +828,7 @@ Section 4.3
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc014
 
@@ -909,7 +915,7 @@ Section 4.4
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 # cknkCh04Exrc015
 
@@ -996,7 +1002,7 @@ Section 4.5
 
 <!-- END: Comments -->
 
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 
 
 </body>

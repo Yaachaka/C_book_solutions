@@ -3,13 +3,13 @@
 <title>
 Chapter 04 exercises
 </title>
-<meta charset=utf-8>
-<link rel=stylesheet href=../../myStyle.css>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../myStyle.css">
 </head>
 <body>
 <h2 id="expressions">04 Expressions</h2>
 <h1 id="chapter-04-excercises">Chapter 04 Excercises</h1>
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 <h1 id="cknkch04exrc001">cknkCh04Exrc001</h1>
 <p>Section 4.1</p>
 <!-- START: Problem Statement -->
@@ -47,7 +47,7 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 (c) 1
 (d) 0</code></pre>
 <!-- END: terminal interaction or other output -->
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 <h1 id="cknkch04exrc002">cknkCh04Exrc002</h1>
 <p>Section 4.1</p>
 <!-- START: Problem Statement -->
@@ -63,7 +63,7 @@ Justify your answer.</p>
 the chapter), <code>(-i)/j</code> will evaluate to
 <code>-1 * i / j</code>. If we parenthesize it, it will be like
 <code>(-1) * (i / j)</code> which is same as <code>-(i/j)</code>.</p>
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 <h1 id="cknkch04exrc003">cknkCh04Exrc003</h1>
 <p>Section 4.1</p>
 <!-- START: Problem Statement -->
@@ -109,7 +109,7 @@ the possible value is <code>1</code>.</p>
 <p>Command:</p>
 <pre class="shell"><code>gcc -std=c89 cknkCh04Exrc003.c</code></pre>
 <!-- END: Comments -->
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 <h1 id="cknkch04exrc004">cknkCh04Exrc004</h1>
 <p>Section 4.1</p>
 <!-- START: Problem Statement -->
@@ -141,7 +141,7 @@ truncated towards zero. Therefore, the possible values for both
 <p>The program <code>cknkCh04Exrc003.c</code> was used for this exercise
 but the flag <code>-std=c89</code> was not used during compilation.</p>
 <!-- END: Comments -->
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 <h1 id="cknkch04exrc005">cknkCh04Exrc005</h1>
 <p>Section 4.1</p>
 <!-- START: Problem Statement -->
@@ -187,7 +187,7 @@ possible values are <code>-3</code> and <code>2</code>.</p>
 <p>Command:</p>
 <pre class="shell"><code>gcc -std=c89 cknkCh04Exrc005.c</code></pre>
 <!-- END: Comments -->
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 <h1 id="cknkch04exrc006">cknkCh04Exrc006</h1>
 <p>Section 4.1</p>
 <!-- START: Problem Statement -->
@@ -221,7 +221,7 @@ zero. Therefore, the possible values for <code>(b)</code>,
 <p>The program <code>cknkCh04Exrc005.c</code> was used for this exercise
 but the flag <code>-std=c89</code> was not used during compilation.</p>
 <!-- END: Comments -->
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 <h1 id="cknkch04exrc007">cknkCh04Exrc007</h1>
 <p>Section 4.1</p>
 <!-- START: Problem Statement -->
@@ -248,7 +248,7 @@ can be 10–which is two digits, not suitable for UPC format.</p>
 <code>9 - 9</code> is 0. So 0 is accepted as check digit. But by
 algorithm 2, <code>40 % 10</code> is 0 and then <code>10 - 0</code> is
 10. So 10 is not accepted as a check digit.</p>
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 <h1 id="cknkch04exrc008">cknkCh04Exrc008</h1>
 <p>Section 4.1</p>
 <!-- START: Problem Statement -->
@@ -258,7 +258,7 @@ algorithm 2, <code>40 % 10</code> is 0 and then <code>10 - 0</code> is
 <!-- END: Problem Statement -->
 <h1 id="solution-7">Solution:</h1>
 <p>Yes, the results will be same from both the expressions.</p>
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 <h1 id="cknkch04exrc009">cknkCh04Exrc009</h1>
 <p>Section 4.2</p>
 <!-- START: Problem Statement -->
@@ -300,10 +300,35 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 (c) i = 2 j = -1 k = 3
 (d) i = 0 j = 0 k = 0</code></pre>
 <!-- END: terminal interaction or other output -->
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 <h1 id="cknkch04exrc010">cknkCh04Exrc010</h1>
 <p>Section 4.2</p>
 <!-- START: Problem Statement -->
+<p>Show the output produced by each of the following program fragments.
+Assume that <code>i</code> and <code>j</code> are <code>int</code>
+variables.</p>
+<ol type="a">
+<li>
+<div class="sourceCode" id="cb19"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">6</span><span class="op">;</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> i <span class="op">+=</span> i<span class="op">;</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d %d&quot;</span><span class="op">,</span> i<span class="op">,</span> j<span class="op">);</span></span></code></pre></div>
+</li>
+<li>
+<div class="sourceCode" id="cb20"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="op">(</span>i <span class="op">-=</span> <span class="dv">2</span><span class="op">)</span> <span class="op">+</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d %d&quot;</span><span class="op">,</span> i<span class="op">,</span> j<span class="op">);</span></span></code></pre></div>
+</li>
+<li>
+<div class="sourceCode" id="cb21"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">7</span><span class="op">;</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">6</span> <span class="op">+</span> <span class="op">(</span>i <span class="op">=</span> <span class="fl">2.5</span><span class="op">);</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d %d&quot;</span><span class="op">,</span> i<span class="op">,</span> j<span class="op">);</span></span></code></pre></div>
+</li>
+<li>
+<div class="sourceCode" id="cb22"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> j <span class="op">=</span> <span class="dv">8</span><span class="op">;</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">6</span><span class="op">)</span> <span class="op">+</span> <span class="op">(</span>j <span class="op">=</span> <span class="dv">3</span><span class="op">);</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d %d&quot;</span><span class="op">,</span> i<span class="op">,</span> j<span class="op">);</span></span></code></pre></div>
+</li>
+</ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-9">Solution:</h1>
 <h2 id="program-link-6">Program Link</h2>
@@ -312,9 +337,37 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 <h3 id="trial1-6">Trial1:</h3>
 <h4 id="trial1-execution-6">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
+<pre class="shell"><code>(a) i = 12 j = 12
+(b) i = 3 j = 4
+(c) i = 2 j = 8
+(d) i = 6 j = 9</code></pre>
 <!-- END: terminal interaction or other output -->
 <h4 id="trial1-comments-4">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<p>We got the following warning messages during compilation.</p>
+<pre class="shell"><code>cknkCh04Exrc010.c:24:18: warning: implicit conversion from &#39;double&#39; to &#39;int&#39; changes value from 2.5 to 2 [-Wliteral-conversion]
+   24 |     j = 6 + (i = 2.5);
+      |                ~ ^~~
+cknkCh04Exrc010.c:29:22: warning: multiple unsequenced modifications to &#39;j&#39; [-Wunsequenced]
+   29 |     j = (i = 6) + (j = 3);
+      |       ~              ^
+2 warnings generated.</code></pre>
+<!-- END: Comments -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch04exrc011">cknkCh04Exrc011</h1>
+<p>Section 4.3</p>
+<!-- START: Problem Statement -->
+<!-- END: Problem Statement -->
+<h1 id="solution-10">Solution:</h1>
+<h2 id="program-link-7">Program Link</h2>
+<p><a href="./cknkCh04Exrc011.c">cknkCh04Exrc011.c</a></p>
+<h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
+<h3 id="trial1-7">Trial1:</h3>
+<h4 id="trial1-execution-7">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-5">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2">Trial2:</h3>
@@ -336,21 +389,21 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 <h1 id="exercise-comment">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<hr class="hr1"/>
-<h1 id="cknkch04exrc011">cknkCh04Exrc011</h1>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch04exrc012">cknkCh04Exrc012</h1>
 <p>Section 4.3</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-10">Solution:</h1>
-<h2 id="program-link-7">Program Link</h2>
-<p><a href="./cknkCh04Exrc011.c">cknkCh04Exrc011.c</a></p>
-<h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
-<h3 id="trial1-7">Trial1:</h3>
-<h4 id="trial1-execution-7">Trial1 execution:</h4>
+<h1 id="solution-11">Solution:</h1>
+<h2 id="program-link-8">Program Link</h2>
+<p><a href="./cknkCh04Exrc012.c">cknkCh04Exrc012.c</a></p>
+<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
+<h3 id="trial1-8">Trial1:</h3>
+<h4 id="trial1-execution-8">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-5">Trial1 Comments:</h4>
+<h4 id="trial1-comments-6">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-1">Trial2:</h3>
@@ -372,21 +425,21 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 <h1 id="exercise-comment-1">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<hr class="hr1"/>
-<h1 id="cknkch04exrc012">cknkCh04Exrc012</h1>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch04exrc013">cknkCh04Exrc013</h1>
 <p>Section 4.3</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-11">Solution:</h1>
-<h2 id="program-link-8">Program Link</h2>
-<p><a href="./cknkCh04Exrc012.c">cknkCh04Exrc012.c</a></p>
-<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
-<h3 id="trial1-8">Trial1:</h3>
-<h4 id="trial1-execution-8">Trial1 execution:</h4>
+<h1 id="solution-12">Solution:</h1>
+<h2 id="program-link-9">Program Link</h2>
+<p><a href="./cknkCh04Exrc013.c">cknkCh04Exrc013.c</a></p>
+<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
+<h3 id="trial1-9">Trial1:</h3>
+<h4 id="trial1-execution-9">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-6">Trial1 Comments:</h4>
+<h4 id="trial1-comments-7">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-2">Trial2:</h3>
@@ -408,21 +461,21 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 <h1 id="exercise-comment-2">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<hr class="hr1"/>
-<h1 id="cknkch04exrc013">cknkCh04Exrc013</h1>
-<p>Section 4.3</p>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch04exrc014">cknkCh04Exrc014</h1>
+<p>Section 4.4</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-12">Solution:</h1>
-<h2 id="program-link-9">Program Link</h2>
-<p><a href="./cknkCh04Exrc013.c">cknkCh04Exrc013.c</a></p>
-<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
-<h3 id="trial1-9">Trial1:</h3>
-<h4 id="trial1-execution-9">Trial1 execution:</h4>
+<h1 id="solution-13">Solution:</h1>
+<h2 id="program-link-10">Program Link</h2>
+<p><a href="./cknkCh04Exrc014.c">cknkCh04Exrc014.c</a></p>
+<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
+<h3 id="trial1-10">Trial1:</h3>
+<h4 id="trial1-execution-10">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-7">Trial1 Comments:</h4>
+<h4 id="trial1-comments-8">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-3">Trial2:</h3>
@@ -444,21 +497,21 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 <h1 id="exercise-comment-3">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<hr class="hr1"/>
-<h1 id="cknkch04exrc014">cknkCh04Exrc014</h1>
-<p>Section 4.4</p>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch04exrc015">cknkCh04Exrc015</h1>
+<p>Section 4.5</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-13">Solution:</h1>
-<h2 id="program-link-10">Program Link</h2>
-<p><a href="./cknkCh04Exrc014.c">cknkCh04Exrc014.c</a></p>
-<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
-<h3 id="trial1-10">Trial1:</h3>
-<h4 id="trial1-execution-10">Trial1 execution:</h4>
+<h1 id="solution-14">Solution:</h1>
+<h2 id="program-link-11">Program Link</h2>
+<p><a href="./cknkCh04Exrc015.c">cknkCh04Exrc015.c</a></p>
+<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
+<h3 id="trial1-11">Trial1:</h3>
+<h4 id="trial1-execution-11">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-8">Trial1 Comments:</h4>
+<h4 id="trial1-comments-9">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-4">Trial2:</h3>
@@ -480,42 +533,6 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 <h1 id="exercise-comment-4">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<hr class="hr1"/>
-<h1 id="cknkch04exrc015">cknkCh04Exrc015</h1>
-<p>Section 4.5</p>
-<!-- START: Problem Statement -->
-<!-- END: Problem Statement -->
-<h1 id="solution-14">Solution:</h1>
-<h2 id="program-link-11">Program Link</h2>
-<p><a href="./cknkCh04Exrc015.c">cknkCh04Exrc015.c</a></p>
-<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
-<h3 id="trial1-11">Trial1:</h3>
-<h4 id="trial1-execution-11">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-9">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial2-5">Trial2:</h3>
-<h4 id="trial2-execution-5">Trial2 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-5">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial3-5">Trial3:</h3>
-<h4 id="trial3-execution-5">Trial3 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-5">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-5">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1"/>
+<hr class="hr1ExrcPrj"/>
 </body>
 </html>
