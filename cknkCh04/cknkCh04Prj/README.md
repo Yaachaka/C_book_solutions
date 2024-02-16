@@ -226,18 +226,11 @@ The output should be displayed using five digits, even if fewer digits are suffi
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number between 0 and 32767: 1953
+In octal, your number is: 03641
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -246,18 +239,11 @@ The output should be displayed using five digits, even if fewer digits are suffi
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number between 0 and 32767: 2024
+In octal, your number is: 03750
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -266,26 +252,11 @@ The output should be displayed using five digits, even if fewer digits are suffi
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number between 0 and 32767: 32655
+In octal, your number is: 77617
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
