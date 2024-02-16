@@ -45,18 +45,11 @@ Read the number using `%d`, then break it into two digits. *Hint*: If `n` is an 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a two-digit number: 28
+The reversal is: 82
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -65,18 +58,11 @@ Read the number using `%d`, then break it into two digits. *Hint*: If `n` is an 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a two-digit number: 47
+The reversal is: 74
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -85,26 +71,11 @@ Read the number using `%d`, then break it into two digits. *Hint*: If `n` is an 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a two-digit number: 30
+The reversal is: 03
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
