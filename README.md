@@ -17,3 +17,9 @@ Notes (book) in HTML: [./CProgrammingKNKing2ndEd.html](./CProgrammingKNKing2ndEd
 - [Examples](./cknkCh03/cknkCh03Exmp)
 - [Exercises](./cknkCh03/cknkCh03Exrc)
 - [Programming Projects](./cknkCh03/cknkCh03Prj)
+
+**[Chapter 4 Expressions](./cknkCh04):**
+
+- [Examples](./cknkCh04/cknkCh04Exmp)
+- [Exercises](./cknkCh04/cknkCh04Exrc)
+- [Programming Projects](./cknkCh04/cknkCh04Prj)
