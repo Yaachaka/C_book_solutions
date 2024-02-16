@@ -109,12 +109,38 @@ Section 4.1
 
 <!-- START: Problem Statement -->
 
+What is the value of each of the following expressions in C89? (Give all possible values if an expression may have more than one value.)
 
+<ol type="a">
+<li>
+
+`8 / 5`
+
+</li>
+<li>
+
+`-8 / 5`
+
+</li>
+<li>
+
+`8 / -5`
+
+</li>
+<li>
+
+`-8 / -5`
+
+</li>
+</ol>
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
+From the theory we read in the chapter, following values were our expectations:
+
+For `(a)`, the possible value is `1`, for `(b)`, the possible values are `-1` and `-2`, for `(c)`, the possible values are `-1` and `-2` and finally for `(d)`, the possible value is `1`.
 
 ## Program Link
 
@@ -129,7 +155,10 @@ Section 4.1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+(a) 1
+(b) -1
+(c) -1
+(d) 1
 ```
 
 <!-- END: terminal interaction or other output -->
@@ -138,53 +167,13 @@ Section 4.1
 
 <!-- START: Comments -->
 
+The flag `-std=c89` was used.
 
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
+Command:
 
 ```shell
-
+gcc -std=c89 cknkCh04Exrc003.c
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
 
 <!-- END: Comments -->
 
