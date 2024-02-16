@@ -267,8 +267,8 @@ In octal, your number is: 77617
 Rewrite the `upc.c` program of Section 4.1 so that the user enters 11 digits at one time, instead of entering one digit, then five digits, and then another five digits.
 
 ```shell
-Enter the first 11 digits of a UPC: 1380015173
-Check digits: 5
+Enter the first 11 digits of a UPC: 01380015173
+Check digit: 5
 ```
 
 <!-- END: Problem Statement -->
@@ -289,18 +289,11 @@ Check digits: 5
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the first 11 digits of a UPC: 01380015173
+Check digit: 5
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -309,18 +302,11 @@ Check digits: 5
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the first 11 digits of a UPC: 05150024128
+Check digit: 8
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -329,26 +315,11 @@ Check digits: 5
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the first 11 digits of a UPC: 03120001005
+Check digit: 6
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
