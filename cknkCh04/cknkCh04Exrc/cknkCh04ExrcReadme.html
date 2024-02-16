@@ -225,10 +225,37 @@ but the flag <code>-std=c89</code> was not used during compilation.</p>
 <h1 id="cknkch04exrc007">cknkCh04Exrc007</h1>
 <p>Section 4.1</p>
 <!-- START: Problem Statement -->
+<p>The algorithm for computing the UPC check digit ends with the
+following steps:</p>
+<pre><code>Subtract 1 from the total
+Compute the remainder when the adjusted total is divided by 10.
+Subtract the remainder from 9.</code></pre>
+<p>It’s tempting to try to simplify the algorithm by using these steps
+instead:</p>
+<pre><code>Compute the remainder when the total is divided by 10.
+Subtract the remainder from 10.</code></pre>
+<p>Why doesn’t this technique work?</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-6">Solution:</h1>
+<p>Algorithm 2 does not work. Suppose if the total value results in a
+value that is multiple of 10, if we use algorithm 1, it is observed that
+the resulting check digit value will always be a single digit value
+which is necessary for UPC format. But if we use algorithm 2 when the
+total value is a multiple of 10, then the resulting check digit value
+can be 10–which is two digits, not suitable for UPC format.</p>
+<p>For example, consider value of the total is 40. By algorithm 1,
+<code>40 - 1</code> is 39 then <code>39 % 10</code> is 9 and then
+<code>9 - 9</code> is 0. So 0 is accepted as check digit. But by
+algorithm 2, <code>40 % 10</code> is 0 and then <code>10 - 0</code> is
+10. So 10 is not accepted as a check digit.</p>
+<hr class="hr1"/>
+<h1 id="cknkch04exrc008">cknkCh04Exrc008</h1>
+<p>Section 4.1</p>
+<!-- START: Problem Statement -->
+<!-- END: Problem Statement -->
+<h1 id="solution-7">Solution:</h1>
 <h2 id="program-link-5">Program Link</h2>
-<p><a href="./cknkCh04Exrc007.c">cknkCh04Exrc007.c</a></p>
+<p><a href="./cknkCh04Exrc008.c">cknkCh04Exrc008.c</a></p>
 <h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
 <h3 id="trial1-5">Trial1:</h3>
 <h4 id="trial1-execution-5">Trial1 execution:</h4>
@@ -258,13 +285,13 @@ but the flag <code>-std=c89</code> was not used during compilation.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
-<h1 id="cknkch04exrc008">cknkCh04Exrc008</h1>
-<p>Section 4.1</p>
+<h1 id="cknkch04exrc009">cknkCh04Exrc009</h1>
+<p>Section 4.2</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-7">Solution:</h1>
+<h1 id="solution-8">Solution:</h1>
 <h2 id="program-link-6">Program Link</h2>
-<p><a href="./cknkCh04Exrc008.c">cknkCh04Exrc008.c</a></p>
+<p><a href="./cknkCh04Exrc009.c">cknkCh04Exrc009.c</a></p>
 <h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
 <h3 id="trial1-6">Trial1:</h3>
 <h4 id="trial1-execution-6">Trial1 execution:</h4>
@@ -294,13 +321,13 @@ but the flag <code>-std=c89</code> was not used during compilation.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
-<h1 id="cknkch04exrc009">cknkCh04Exrc009</h1>
+<h1 id="cknkch04exrc010">cknkCh04Exrc010</h1>
 <p>Section 4.2</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-8">Solution:</h1>
+<h1 id="solution-9">Solution:</h1>
 <h2 id="program-link-7">Program Link</h2>
-<p><a href="./cknkCh04Exrc009.c">cknkCh04Exrc009.c</a></p>
+<p><a href="./cknkCh04Exrc010.c">cknkCh04Exrc010.c</a></p>
 <h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
 <h3 id="trial1-7">Trial1:</h3>
 <h4 id="trial1-execution-7">Trial1 execution:</h4>
@@ -330,13 +357,13 @@ but the flag <code>-std=c89</code> was not used during compilation.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
-<h1 id="cknkch04exrc010">cknkCh04Exrc010</h1>
-<p>Section 4.2</p>
+<h1 id="cknkch04exrc011">cknkCh04Exrc011</h1>
+<p>Section 4.3</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-9">Solution:</h1>
+<h1 id="solution-10">Solution:</h1>
 <h2 id="program-link-8">Program Link</h2>
-<p><a href="./cknkCh04Exrc010.c">cknkCh04Exrc010.c</a></p>
+<p><a href="./cknkCh04Exrc011.c">cknkCh04Exrc011.c</a></p>
 <h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
 <h3 id="trial1-8">Trial1:</h3>
 <h4 id="trial1-execution-8">Trial1 execution:</h4>
@@ -366,13 +393,13 @@ but the flag <code>-std=c89</code> was not used during compilation.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
-<h1 id="cknkch04exrc011">cknkCh04Exrc011</h1>
+<h1 id="cknkch04exrc012">cknkCh04Exrc012</h1>
 <p>Section 4.3</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-10">Solution:</h1>
+<h1 id="solution-11">Solution:</h1>
 <h2 id="program-link-9">Program Link</h2>
-<p><a href="./cknkCh04Exrc011.c">cknkCh04Exrc011.c</a></p>
+<p><a href="./cknkCh04Exrc012.c">cknkCh04Exrc012.c</a></p>
 <h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
 <h3 id="trial1-9">Trial1:</h3>
 <h4 id="trial1-execution-9">Trial1 execution:</h4>
@@ -402,13 +429,13 @@ but the flag <code>-std=c89</code> was not used during compilation.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
-<h1 id="cknkch04exrc012">cknkCh04Exrc012</h1>
+<h1 id="cknkch04exrc013">cknkCh04Exrc013</h1>
 <p>Section 4.3</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-11">Solution:</h1>
+<h1 id="solution-12">Solution:</h1>
 <h2 id="program-link-10">Program Link</h2>
-<p><a href="./cknkCh04Exrc012.c">cknkCh04Exrc012.c</a></p>
+<p><a href="./cknkCh04Exrc013.c">cknkCh04Exrc013.c</a></p>
 <h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
 <h3 id="trial1-10">Trial1:</h3>
 <h4 id="trial1-execution-10">Trial1 execution:</h4>
@@ -438,13 +465,13 @@ but the flag <code>-std=c89</code> was not used during compilation.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
-<h1 id="cknkch04exrc013">cknkCh04Exrc013</h1>
-<p>Section 4.3</p>
+<h1 id="cknkch04exrc014">cknkCh04Exrc014</h1>
+<p>Section 4.4</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-12">Solution:</h1>
+<h1 id="solution-13">Solution:</h1>
 <h2 id="program-link-11">Program Link</h2>
-<p><a href="./cknkCh04Exrc013.c">cknkCh04Exrc013.c</a></p>
+<p><a href="./cknkCh04Exrc014.c">cknkCh04Exrc014.c</a></p>
 <h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
 <h3 id="trial1-11">Trial1:</h3>
 <h4 id="trial1-execution-11">Trial1 execution:</h4>
@@ -474,13 +501,13 @@ but the flag <code>-std=c89</code> was not used during compilation.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>
-<h1 id="cknkch04exrc014">cknkCh04Exrc014</h1>
-<p>Section 4.4</p>
+<h1 id="cknkch04exrc015">cknkCh04Exrc015</h1>
+<p>Section 4.5</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-13">Solution:</h1>
+<h1 id="solution-14">Solution:</h1>
 <h2 id="program-link-12">Program Link</h2>
-<p><a href="./cknkCh04Exrc014.c">cknkCh04Exrc014.c</a></p>
+<p><a href="./cknkCh04Exrc015.c">cknkCh04Exrc015.c</a></p>
 <h2 id="outputexecutionlog-12">Output/ExecutionLog:</h2>
 <h3 id="trial1-12">Trial1:</h3>
 <h4 id="trial1-execution-12">Trial1 execution:</h4>
@@ -507,42 +534,6 @@ but the flag <code>-std=c89</code> was not used during compilation.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h1 id="exercise-comment-7">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1"/>
-<h1 id="cknkch04exrc015">cknkCh04Exrc015</h1>
-<p>Section 4.5</p>
-<!-- START: Problem Statement -->
-<!-- END: Problem Statement -->
-<h1 id="solution-14">Solution:</h1>
-<h2 id="program-link-13">Program Link</h2>
-<p><a href="./cknkCh04Exrc015.c">cknkCh04Exrc015.c</a></p>
-<h2 id="outputexecutionlog-13">Output/ExecutionLog:</h2>
-<h3 id="trial1-13">Trial1:</h3>
-<h4 id="trial1-execution-13">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-12">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial2-8">Trial2:</h3>
-<h4 id="trial2-execution-8">Trial2 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-8">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial3-8">Trial3:</h3>
-<h4 id="trial3-execution-8">Trial3 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-8">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-8">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1"/>

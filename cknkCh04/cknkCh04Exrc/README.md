@@ -358,84 +358,30 @@ Section 4.1
 
 <!-- START: Problem Statement -->
 
+The algorithm for computing the UPC check digit ends with the following steps:
 
+```
+Subtract 1 from the total
+Compute the remainder when the adjusted total is divided by 10.
+Subtract the remainder from 9.
+```
+
+It's tempting to try to simplify the algorithm by using these steps instead:
+
+```
+Compute the remainder when the total is divided by 10.
+Subtract the remainder from 10.
+```
+
+Why doesn't this technique work?
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
+Algorithm 2 does not work. Suppose if the total value results in a value that is multiple of 10, if we use algorithm 1, it is observed that the resulting check digit value will always be a single digit value which is necessary for UPC format. But if we use algorithm 2 when the total value is a multiple of 10, then the resulting check digit value can be 10--which is two digits, not suitable for UPC format.
 
-## Program Link
-
-[cknkCh04Exrc007.c](./cknkCh04Exrc007.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
+For example, consider value of the total is 40. By algorithm 1, `40 - 1` is 39 then `39 % 10` is 9 and then `9 - 9` is 0. So 0 is accepted as check digit. But by algorithm 2, `40 % 10` is 0 and then `10 - 0` is 10. So 10 is not accepted as a check digit.
 
 <hr class="hr1"/>
 
