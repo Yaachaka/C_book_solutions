@@ -488,38 +488,34 @@ the following expressions.</p>
 <h1 id="cknkch04exrc015">cknkCh04Exrc015</h1>
 <p>Section 4.5</p>
 <!-- START: Problem Statement -->
+<p>Give the values of <code>i</code> and <code>j</code> after each of
+the following expression statements has been executed. (Assume that
+<code>i</code> has the value 1 initially and <code>j</code> has the
+value 2.)</p>
+<ol type="a">
+<li><code>i += j;</code><br />
+</li>
+<li><code>i--;</code><br />
+</li>
+<li><code>i * j / i;</code><br />
+</li>
+<li><code>i % ++j</code>;</li>
+</ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-14">Solution:</h1>
-<h2 id="program-link-9">Program Link</h2>
-<p><a href="./cknkCh04Exrc015.c">cknkCh04Exrc015.c</a></p>
-<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
-<h3 id="trial1-9">Trial1:</h3>
-<h4 id="trial1-execution-9">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-5">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial2">Trial2:</h3>
-<h4 id="trial2-execution">Trial2 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial3">Trial3:</h3>
-<h4 id="trial3-execution">Trial3 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
+<p>Assuming all the statements are in a single program i.e., values of
+<code>i</code> and <code>j</code> resulted from one expression are the
+initial values in the next expression.</p>
+<ol type="a">
+<li><code>i += j;</code>: <code>i = 3, j = 2</code>.<br />
+</li>
+<li><code>i--;</code>: <code>i = 2, j = 2</code>.<br />
+</li>
+<li><code>i * j / i;</code> <code>i = 2, j = 2</code>. No side effect
+operations occured.<br />
+</li>
+<li><code>i % ++j</code>; <code>i = 2, j = 3</code>.</li>
+</ol>
 <hr class="hr1ExrcPrj"/>
 </body>
 </html>
