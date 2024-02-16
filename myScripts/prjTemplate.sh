@@ -1,5 +1,6 @@
 chapter="03" # Give chapter number here
 title="# Chapter $chapter Programming Projects"
+chapterName="Expressions"
 
 pref="cknkCh"
 
@@ -11,13 +12,16 @@ emptyLine="  "
 echo "<html>
 <head>
 <title>Chapter $chapter Programming Projects</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="../../myStyle.css">
+<meta charset=\"utf-8\">
+<link rel=\"stylesheet\" href=\"../../myStyle.css\">
 </head>
 <body>
 
 "
 
+echo $chapter" "$chapterName
+echo "---"
+echo "  "
 echo $title
 echo "  "
 

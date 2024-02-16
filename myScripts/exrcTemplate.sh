@@ -15,8 +15,8 @@ emptyLine="  "
 echo "<html>
 <head>
 <title>Chapter $chapter exercises</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="../../myStyle.css">
+<meta charset=\"utf-8\">
+<link rel=\"stylesheet\" href=\"../../myStyle.css\">
 </head>
 <body>
 
@@ -28,7 +28,7 @@ echo "  "
 echo $title
 echo "  "
 
-echo "<hr class=\"hr1\"/>"
+echo "<hr class=\"hr1ExrcPrj\"/>"
 echo $emptyLine
 
 for i in $(seq 1 $exrcCount);    # For loop 1
