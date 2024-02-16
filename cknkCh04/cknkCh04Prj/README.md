@@ -103,18 +103,11 @@ Extend the program in Programming Project 1 to handle *three*-digit numbers.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a three-digit number: 837
+The reversal is: 738
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -123,18 +116,11 @@ Extend the program in Programming Project 1 to handle *three*-digit numbers.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a three-digit number: 489
+The reversal is: 984
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -143,26 +129,11 @@ Extend the program in Programming Project 1 to handle *three*-digit numbers.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a three-digit number: 007
+The reversal is: 700
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
