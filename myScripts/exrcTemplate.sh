@@ -1,12 +1,15 @@
-chapter_section="Section 3."
-chapter="03"    # Give chapter name here
+chapter_section="Section 4." # Update needed here
+chapter="04"    # Give chapter name here
+
+chapterName="Expressions"
+
 title="# Chapter $chapter Excercises"
 
 pref="cknkCh"
 
 name1=$pref$chapter"Exrc"
 
-exrcCount=6
+exrcCount=15 # Update the number of exercises here
 emptyLine="  "
 
 echo "<html>
@@ -19,6 +22,9 @@ echo "<html>
 
 "
 
+echo $chapter" "$chapterName
+echo "---"
+echo "  "
 echo $title
 echo "  "
 
