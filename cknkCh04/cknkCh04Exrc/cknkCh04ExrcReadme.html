@@ -399,6 +399,31 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 <h1 id="cknkch04exrc012">cknkCh04Exrc012</h1>
 <p>Section 4.3</p>
 <!-- START: Problem Statement -->
+<p>Show the output produced by each of the following program fragments.
+Assume that <code>i</code> and <code>j</code> are <code>int</code>
+variables.</p>
+<ol type="a">
+<li>
+<div class="sourceCode" id="cb30"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="op">++</span>i <span class="op">*</span> <span class="dv">3</span> <span class="op">-</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d %d&quot;</span><span class="op">,</span> i <span class="op">,</span> j<span class="op">);</span></span></code></pre></div>
+</li>
+<li>
+<div class="sourceCode" id="cb31"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">3</span> <span class="op">-</span> <span class="dv">2</span> <span class="op">*</span> i<span class="op">++;</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d %d&quot;</span><span class="op">,</span> i <span class="op">,</span> j<span class="op">);</span></span></code></pre></div>
+</li>
+<li>
+<div class="sourceCode" id="cb32"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">7</span><span class="op">;</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">3</span> <span class="op">*</span> i<span class="op">--</span> <span class="op">+</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d %d&quot;</span><span class="op">,</span> i <span class="op">,</span> j<span class="op">);</span></span></code></pre></div>
+</li>
+<li>
+<div class="sourceCode" id="cb33"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">7</span><span class="op">;</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">3</span> <span class="op">+</span> <span class="op">--</span>i <span class="op">*</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d %d&quot;</span><span class="op">,</span> i <span class="op">,</span> j<span class="op">);</span></span></code></pre></div>
+</li>
+</ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-11">Solution:</h1>
 <h2 id="program-link-8">Program Link</h2>
@@ -406,6 +431,23 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 <h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
 <h3 id="trial1-8">Trial1:</h3>
 <h4 id="trial1-execution-8">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code>(a) 6 16
+(b) 6 -7
+(c) 6 23
+(d) 6 15</code></pre>
+<!-- END: terminal interaction or other output -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch04exrc013">cknkCh04Exrc013</h1>
+<p>Section 4.3</p>
+<!-- START: Problem Statement -->
+<!-- END: Problem Statement -->
+<h1 id="solution-12">Solution:</h1>
+<h2 id="program-link-9">Program Link</h2>
+<p><a href="./cknkCh04Exrc013.c">cknkCh04Exrc013.c</a></p>
+<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
+<h3 id="trial1-9">Trial1:</h3>
+<h4 id="trial1-execution-9">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
@@ -432,16 +474,16 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch04exrc013">cknkCh04Exrc013</h1>
-<p>Section 4.3</p>
+<h1 id="cknkch04exrc014">cknkCh04Exrc014</h1>
+<p>Section 4.4</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-12">Solution:</h1>
-<h2 id="program-link-9">Program Link</h2>
-<p><a href="./cknkCh04Exrc013.c">cknkCh04Exrc013.c</a></p>
-<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
-<h3 id="trial1-9">Trial1:</h3>
-<h4 id="trial1-execution-9">Trial1 execution:</h4>
+<h1 id="solution-13">Solution:</h1>
+<h2 id="program-link-10">Program Link</h2>
+<p><a href="./cknkCh04Exrc014.c">cknkCh04Exrc014.c</a></p>
+<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
+<h3 id="trial1-10">Trial1:</h3>
+<h4 id="trial1-execution-10">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
@@ -468,16 +510,16 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch04exrc014">cknkCh04Exrc014</h1>
-<p>Section 4.4</p>
+<h1 id="cknkch04exrc015">cknkCh04Exrc015</h1>
+<p>Section 4.5</p>
 <!-- START: Problem Statement -->
 <!-- END: Problem Statement -->
-<h1 id="solution-13">Solution:</h1>
-<h2 id="program-link-10">Program Link</h2>
-<p><a href="./cknkCh04Exrc014.c">cknkCh04Exrc014.c</a></p>
-<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
-<h3 id="trial1-10">Trial1:</h3>
-<h4 id="trial1-execution-10">Trial1 execution:</h4>
+<h1 id="solution-14">Solution:</h1>
+<h2 id="program-link-11">Program Link</h2>
+<p><a href="./cknkCh04Exrc015.c">cknkCh04Exrc015.c</a></p>
+<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
+<h3 id="trial1-11">Trial1:</h3>
+<h4 id="trial1-execution-11">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
@@ -501,42 +543,6 @@ Assume that <code>i</code>, <code>j</code>, and <code>k</code> are
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h1 id="exercise-comment-2">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1ExrcPrj"/>
-<h1 id="cknkch04exrc015">cknkCh04Exrc015</h1>
-<p>Section 4.5</p>
-<!-- START: Problem Statement -->
-<!-- END: Problem Statement -->
-<h1 id="solution-14">Solution:</h1>
-<h2 id="program-link-11">Program Link</h2>
-<p><a href="./cknkCh04Exrc015.c">cknkCh04Exrc015.c</a></p>
-<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
-<h3 id="trial1-11">Trial1:</h3>
-<h4 id="trial1-execution-11">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-8">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial2-3">Trial2:</h3>
-<h4 id="trial2-execution-3">Trial2 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-3">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial3-3">Trial3:</h3>
-<h4 id="trial3-execution-3">Trial3 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-3">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-3">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>

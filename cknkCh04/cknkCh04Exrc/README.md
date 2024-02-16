@@ -650,7 +650,46 @@ Section 4.3
 
 <!-- START: Problem Statement -->
 
+Show the output produced by each of the following program fragments. Assume that `i` and `j` are `int` variables.
 
+<ol type="a">
+<li>
+
+```C
+i = 5;
+j = ++i * 3 - 2;
+printf("%d %d", i , j);
+```
+
+</li>
+<li>
+
+```C
+i = 5;
+j = 3 - 2 * i++;
+printf("%d %d", i , j);
+```
+
+</li>
+<li>
+
+```C
+i = 7;
+j = 3 * i-- + 2;
+printf("%d %d", i , j);
+```
+
+</li>
+<li>
+
+```C
+i = 7;
+j = 3 + --i * 2;
+printf("%d %d", i , j);
+```
+
+</li>
+</ol>
 
 <!-- END: Problem Statement -->
 
@@ -670,64 +709,13 @@ Section 4.3
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+(a) 6 16
+(b) 6 -7
+(c) 6 23
+(d) 6 15
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
