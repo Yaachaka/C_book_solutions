@@ -232,12 +232,39 @@ Section 4.1
 
 <!-- START: Problem Statement -->
 
+What is the value of each of the following expressions in C89? (Give all possible values if an expression may have more than one value.)
+
+<ol type="a">
+<li>
+
+`8 % 5`
+
+</li>
+<li>
+
+`-8 % 5`
+
+</li>
+<li>
+
+`8 % -5`
+
+</li>
+<li>
+
+`-8 % -5`
+
+</li>
+</ol>
 
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
+From the theory we read in the chapter, following values were our expectations:
+
+For `(a)`, the possible value is `3`, for `(b)`, the possible values are `-3` and `2`, for `(c)`, the possible values are `3` and `-2` and finally for `(d)`, the possible values are `-3` and `2`.
 
 ## Program Link
 
@@ -252,7 +279,10 @@ Section 4.1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+(a) 3
+(b) -3
+(c) 3
+(d) -3
 ```
 
 <!-- END: terminal interaction or other output -->
@@ -261,53 +291,13 @@ Section 4.1
 
 <!-- START: Comments -->
 
+The flag `-std=c89` was used.
 
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
+Command:
 
 ```shell
-
+gcc -std=c89 cknkCh04Exrc005.c
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
 
 <!-- END: Comments -->
 
@@ -319,16 +309,21 @@ Section 4.1
 
 <!-- START: Problem Statement -->
 
-
+Repeat Exercise 5 for C99.
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
+From the theory we read in the chapter, following values were our expectations:
+
+For `(a)`, the possible value is `3`, for `(b)`, the possible values are `-3` and `2`, for `(c)`, the possible values are `3` and `-2` and finally for `(d)`, the possible values are `-3` and `2`.
+
+But in C99, the result of a division is always truncated towards zero. Therefore, the possible values for `(b)`, `(c)`, and `(d)` are `-3`, `3`, and `-3` respectively.
 
 ## Program Link
 
-[cknkCh04Exrc006.c](./cknkCh04Exrc006.c)
+[cknkCh04Exrc005.c](./cknkCh04Exrc005.c)
 
 ## Output/ExecutionLog:
 
@@ -339,7 +334,10 @@ Section 4.1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+(a) 3
+(b) -3
+(c) 3
+(d) -3
 ```
 
 <!-- END: terminal interaction or other output -->
@@ -348,53 +346,7 @@ Section 4.1
 
 <!-- START: Comments -->
 
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
+The program `cknkCh04Exrc005.c` was used for this exercise but the flag `-std=c89` was not used during compilation.
 
 <!-- END: Comments -->
 
