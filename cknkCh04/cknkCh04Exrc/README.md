@@ -185,16 +185,19 @@ Section 4.1
 
 <!-- START: Problem Statement -->
 
-
+Repeat Exercise 3 for C99.
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
+From the theory we read in the chapter, following values were our expectations:
+
+For `(a)` and `(d)`, the possible values are `1` and `1` respectively. For `(b)` and `(c)`, the possible values for each are `-1` and `-2`, but in C99, the result of a division is always truncated towards zero. Therefore, the possible values for both `(b)` and `(c)` are `-1` and `-1` respectively.
 
 ## Program Link
 
-[cknkCh04Exrc004.c](./cknkCh04Exrc004.c)
+[cknkCh04Exrc003.c](./cknkCh04Exrc003.c)
 
 ## Output/ExecutionLog:
 
@@ -205,7 +208,10 @@ Section 4.1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+(a) 1
+(b) -1
+(c) -1
+(d) 1
 ```
 
 <!-- END: terminal interaction or other output -->
@@ -214,53 +220,7 @@ Section 4.1
 
 <!-- START: Comments -->
 
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
+The program `cknkCh04Exrc003.c` was used for this exercise but the flag `-std=c89` was not used during compilation.
 
 <!-- END: Comments -->
 
