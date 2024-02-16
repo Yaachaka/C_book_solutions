@@ -161,18 +161,11 @@ Rewrite the program in Programming Project 2 so that it prints the reversal of a
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a three-digit number: 837
+The reversal is: 738
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -181,18 +174,11 @@ Rewrite the program in Programming Project 2 so that it prints the reversal of a
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a three-digit number: 489
+The reversal is: 984
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -201,26 +187,11 @@ Rewrite the program in Programming Project 2 so that it prints the reversal of a
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a three-digit number: 007
+The reversal is: 700
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
