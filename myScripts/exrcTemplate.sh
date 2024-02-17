@@ -1,7 +1,7 @@
-chapter_section="Section 4." # Update needed here
-chapter="04"    # Give chapter name here
+chapter_section="Section 5." # Update needed here
+chapter="05"    # Update needed here
 
-chapterName="Expressions"
+chapterName="Selection Statements"    # Give chapter name here
 
 title="# Chapter $chapter Excercises"
 
@@ -9,7 +9,7 @@ pref="cknkCh"
 
 name1=$pref$chapter"Exrc"
 
-exrcCount=15 # Update the number of exercises here
+exrcCount=11    # Update the number of exercises here
 emptyLine="  "
 
 echo "<html>
@@ -92,12 +92,11 @@ do
     echo "<!-- END: Comments -->"
     echo $emptyLine
     
-    echo "<hr class=\"hr1\"/>"
+    echo "<hr class=\"hr1ExrcPrj\"/>"
     echo $emptyLine
 
 done    # For loop 1
 
 
-echo "
-</body>
+echo "</body>
 </html>"
