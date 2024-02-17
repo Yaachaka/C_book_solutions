@@ -361,18 +361,11 @@ Check digit: 8
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the first 12 digits of an EAN: 869148426000
+Check digit: 8
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -381,18 +374,11 @@ Check digit: 8
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the first 12 digits of an EAN: 842360145612
+Check digit: 0
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -401,29 +387,13 @@ Check digit: 8
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the first 12 digits of an EAN: 489305021996
+Check digit: 8
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 <hr class="hr1ExrcPrj"/>
-
 
 </body>
 </html>
