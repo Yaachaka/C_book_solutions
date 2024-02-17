@@ -177,19 +177,13 @@ b. Add statements that compute the commision charged by a rival broker ($33 plus
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the number of shares: 10
+Enter the price per share: 3000
+Commission (by original broker): $166.00
+Commission (by rival broker): $33.30
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial2:
 
@@ -198,19 +192,13 @@ b. Add statements that compute the commision charged by a rival broker ($33 plus
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the number of shares: 2500
+Enter the price per share: 50
+Commission (by original broker): $292.50
+Commission (by rival broker): $83.00
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial3:
 
@@ -219,27 +207,13 @@ b. Add statements that compute the commision charged by a rival broker ($33 plus
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the number of shares: 1000
+Enter the price per share: 1000
+Commission (by original broker): $1155.00
+Commission (by rival broker): $63.00
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
