@@ -151,8 +151,21 @@ than <code>j</code>, respectively.</p>
 <p>If so, what does it do when <code>n</code> is equal to 0?</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-4">Solution:</h1>
+<p>The statement is not legal/correct. For any value of <code>n</code>,
+<code>n &gt;= 1</code> will either result in 0 or 1 which is less than
+10. So the <code>if</code> condition always passes.</p>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch05exrc006">cknkCh05Exrc006</h1>
+<p>Section 5.2</p>
+<!-- START: Problem Statement -->
+<p>Is the following <code>if</code> statement legal?</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>n <span class="op">==</span> <span class="dv">1</span><span class="op">-</span><span class="dv">10</span><span class="op">)</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;n is between 1 and 10</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>If so, what does it do when <code>n</code> is equal to 5?</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-5">Solution:</h1>
 <h2 id="program-link-3">Program Link</h2>
-<p><a href="./cknkCh05Exrc005.c">cknkCh05Exrc005.c</a></p>
+<p><a href="./cknkCh05Exrc006.c">cknkCh05Exrc006.c</a></p>
 <h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
 <h3 id="trial1-3">Trial1:</h3>
 <h4 id="trial1-execution-3">Trial1 execution:</h4>
@@ -182,17 +195,16 @@ than <code>j</code>, respectively.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch05exrc006">cknkCh05Exrc006</h1>
+<h1 id="cknkch05exrc007">cknkCh05Exrc007</h1>
 <p>Section 5.2</p>
 <!-- START: Problem Statement -->
-<p>Is the following <code>if</code> statement legal?</p>
-<div class="sourceCode" id="cb20"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>n <span class="op">==</span> <span class="dv">1</span><span class="op">-</span><span class="dv">10</span><span class="op">)</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;n is between 1 and 10</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
-<p>If so, what does it do when <code>n</code> is equal to 5?</p>
+<p>What does the following statement print if <code>i</code> has the
+value 17? What does it print if <code>i</code> has the value -17?</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">?</span> i <span class="op">:</span> <span class="op">-</span>i<span class="op">);</span></span></code></pre></div>
 <!-- END: Problem Statement -->
-<h1 id="solution-5">Solution:</h1>
+<h1 id="solution-6">Solution:</h1>
 <h2 id="program-link-4">Program Link</h2>
-<p><a href="./cknkCh05Exrc006.c">cknkCh05Exrc006.c</a></p>
+<p><a href="./cknkCh05Exrc007.c">cknkCh05Exrc007.c</a></p>
 <h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
 <h3 id="trial1-4">Trial1:</h3>
 <h4 id="trial1-execution-4">Trial1 execution:</h4>
@@ -222,16 +234,23 @@ than <code>j</code>, respectively.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch05exrc007">cknkCh05Exrc007</h1>
+<h1 id="cknkch05exrc008">cknkCh05Exrc008</h1>
 <p>Section 5.2</p>
 <!-- START: Problem Statement -->
-<p>What does the following statement print if <code>i</code> has the
-value 17? What does it print if <code>i</code> has the value -17?</p>
-<div class="sourceCode" id="cb24"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">?</span> i <span class="op">:</span> <span class="op">-</span>i<span class="op">);</span></span></code></pre></div>
+<p>The following <code>if</code> statement is unnecessarily complicated.
+Simplify it as much as possible. (<em>Hint</em>: The entire statement
+can be replaced by a single assignment.)</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>age <span class="op">&gt;=</span> <span class="dv">13</span><span class="op">)</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>age <span class="op">&lt;=</span> <span class="dv">19</span><span class="op">)</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>        teenager <span class="op">=</span> true<span class="op">;</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>        teenager <span class="op">=</span> false<span class="op">;</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>age <span class="op">&lt;</span> <span class="dv">13</span><span class="op">)</span></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>        teenager <span class="op">=</span> false<span class="op">;</span></span></code></pre></div>
 <!-- END: Problem Statement -->
-<h1 id="solution-6">Solution:</h1>
+<h1 id="solution-7">Solution:</h1>
 <h2 id="program-link-5">Program Link</h2>
-<p><a href="./cknkCh05Exrc007.c">cknkCh05Exrc007.c</a></p>
+<p><a href="./cknkCh05Exrc008.c">cknkCh05Exrc008.c</a></p>
 <h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
 <h3 id="trial1-5">Trial1:</h3>
 <h4 id="trial1-execution-5">Trial1 execution:</h4>
@@ -261,23 +280,53 @@ value 17? What does it print if <code>i</code> has the value -17?</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch05exrc008">cknkCh05Exrc008</h1>
+<h1 id="cknkch05exrc009">cknkCh05Exrc009</h1>
 <p>Section 5.2</p>
 <!-- START: Problem Statement -->
-<p>The following <code>if</code> statement is unnecessarily complicated.
-Simplify it as much as possible. (<em>Hint</em>: The entire statement
-can be replaced by a single assignment.)</p>
-<div class="sourceCode" id="cb28"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>age <span class="op">&gt;=</span> <span class="dv">13</span><span class="op">)</span></span>
-<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>age <span class="op">&lt;=</span> <span class="dv">19</span><span class="op">)</span></span>
-<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>        teenager <span class="op">=</span> true<span class="op">;</span></span>
-<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
-<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>        teenager <span class="op">=</span> false<span class="op">;</span></span>
-<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>age <span class="op">&lt;</span> <span class="dv">13</span><span class="op">)</span></span>
-<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>        teenager <span class="op">=</span> false<span class="op">;</span></span></code></pre></div>
+<p>Are the following <code>if</code> statements equivalent? If not, why
+not?</p>
+<table>
+<thead>
+<tr>
+<th>
+</th>
+<th>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<div class="sourceCode" id="cb29"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>score <span class="op">&gt;=</span> <span class="dv">90</span><span class="op">)</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;A&quot;</span><span class="op">);</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&gt;=</span> <span class="dv">80</span><span class="op">)</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;B&quot;</span><span class="op">);</span></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&gt;=</span> <span class="dv">70</span><span class="op">)</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;C&quot;</span><span class="op">);</span></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&gt;=</span> <span class="dv">60</span><span class="op">)</span></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;D&quot;</span><span class="op">);</span></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;F&quot;</span><span class="op">);</span></span></code></pre></div>
+</td>
+<td>
+<div class="sourceCode" id="cb30"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>score <span class="op">&lt;</span> <span class="dv">60</span><span class="op">)</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;F&quot;</span><span class="op">);</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&lt;</span> <span class="dv">70</span><span class="op">)</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;D&quot;</span><span class="op">);</span></span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&lt;</span> <span class="dv">80</span><span class="op">)</span></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;C&quot;</span><span class="op">);</span></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&lt;</span> <span class="dv">90</span><span class="op">)</span></span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;B&quot;</span><span class="op">);</span></span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;A&quot;</span><span class="op">);</span></span></code></pre></div>
+</td>
+</tr>
+</tbody>
+</table>
 <!-- END: Problem Statement -->
-<h1 id="solution-7">Solution:</h1>
+<h1 id="solution-8">Solution:</h1>
 <h2 id="program-link-6">Program Link</h2>
-<p><a href="./cknkCh05Exrc008.c">cknkCh05Exrc008.c</a></p>
+<p><a href="./cknkCh05Exrc009.c">cknkCh05Exrc009.c</a></p>
 <h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
 <h3 id="trial1-6">Trial1:</h3>
 <h4 id="trial1-execution-6">Trial1 execution:</h4>
@@ -307,53 +356,21 @@ can be replaced by a single assignment.)</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch05exrc009">cknkCh05Exrc009</h1>
-<p>Section 5.2</p>
+<h1 id="cknkch05exrc010">cknkCh05Exrc010</h1>
+<p>Section 5.3</p>
 <!-- START: Problem Statement -->
-<p>Are the following <code>if</code> statements equivalent? If not, why
-not?</p>
-<table>
-<thead>
-<tr>
-<th>
-</th>
-<th>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<div class="sourceCode" id="cb32"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>score <span class="op">&gt;=</span> <span class="dv">90</span><span class="op">)</span></span>
-<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;A&quot;</span><span class="op">);</span></span>
-<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&gt;=</span> <span class="dv">80</span><span class="op">)</span></span>
-<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;B&quot;</span><span class="op">);</span></span>
-<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&gt;=</span> <span class="dv">70</span><span class="op">)</span></span>
-<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;C&quot;</span><span class="op">);</span></span>
-<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&gt;=</span> <span class="dv">60</span><span class="op">)</span></span>
-<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;D&quot;</span><span class="op">);</span></span>
-<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
-<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;F&quot;</span><span class="op">);</span></span></code></pre></div>
-</td>
-<td>
-<div class="sourceCode" id="cb33"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>score <span class="op">&lt;</span> <span class="dv">60</span><span class="op">)</span></span>
-<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;F&quot;</span><span class="op">);</span></span>
-<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&lt;</span> <span class="dv">70</span><span class="op">)</span></span>
-<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;D&quot;</span><span class="op">);</span></span>
-<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&lt;</span> <span class="dv">80</span><span class="op">)</span></span>
-<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;C&quot;</span><span class="op">);</span></span>
-<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>score <span class="op">&lt;</span> <span class="dv">90</span><span class="op">)</span></span>
-<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;B&quot;</span><span class="op">);</span></span>
-<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
-<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;A&quot;</span><span class="op">);</span></span></code></pre></div>
-</td>
-</tr>
-</tbody>
-</table>
+<p>What output does the following program fragment produce? (Assume that
+<code>i</code> is an integer variable.)</p>
+<div class="sourceCode" id="cb34"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(</span>i <span class="op">%</span> <span class="dv">3</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">0</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;zero&quot;</span><span class="op">);</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;one&quot;</span><span class="op">);</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">2</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;two&quot;</span><span class="op">);</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <!-- END: Problem Statement -->
-<h1 id="solution-8">Solution:</h1>
+<h1 id="solution-9">Solution:</h1>
 <h2 id="program-link-7">Program Link</h2>
-<p><a href="./cknkCh05Exrc009.c">cknkCh05Exrc009.c</a></p>
+<p><a href="./cknkCh05Exrc010.c">cknkCh05Exrc010.c</a></p>
 <h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
 <h3 id="trial1-7">Trial1:</h3>
 <h4 id="trial1-execution-7">Trial1 execution:</h4>
@@ -380,50 +397,6 @@ not?</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h1 id="exercise-comment-4">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1ExrcPrj"/>
-<h1 id="cknkch05exrc010">cknkCh05Exrc010</h1>
-<p>Section 5.3</p>
-<!-- START: Problem Statement -->
-<p>What output does the following program fragment produce? (Assume that
-<code>i</code> is an integer variable.)</p>
-<div class="sourceCode" id="cb37"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
-<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(</span>i <span class="op">%</span> <span class="dv">3</span><span class="op">)</span> <span class="op">{</span></span>
-<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">0</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;zero&quot;</span><span class="op">);</span></span>
-<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;one&quot;</span><span class="op">);</span></span>
-<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">2</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;two&quot;</span><span class="op">);</span></span>
-<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<!-- END: Problem Statement -->
-<h1 id="solution-9">Solution:</h1>
-<h2 id="program-link-8">Program Link</h2>
-<p><a href="./cknkCh05Exrc010.c">cknkCh05Exrc010.c</a></p>
-<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
-<h3 id="trial1-8">Trial1:</h3>
-<h4 id="trial1-execution-8">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-5">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial2-5">Trial2:</h3>
-<h4 id="trial2-execution-5">Trial2 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-5">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial3-5">Trial3:</h3>
-<h4 id="trial3-execution-5">Trial3 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-5">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-5">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -488,34 +461,34 @@ Section 5.3 to make the <code>switch</code> statement as simple as
 possible.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-10">Solution:</h1>
-<h2 id="program-link-9">Program Link</h2>
+<h2 id="program-link-8">Program Link</h2>
 <p><a href="./cknkCh05Exrc011.c">cknkCh05Exrc011.c</a></p>
-<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
-<h3 id="trial1-9">Trial1:</h3>
-<h4 id="trial1-execution-9">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
+<h3 id="trial1-8">Trial1:</h3>
+<h4 id="trial1-execution-8">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-6">Trial1 Comments:</h4>
+<h4 id="trial1-comments-5">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h3 id="trial2-6">Trial2:</h3>
-<h4 id="trial2-execution-6">Trial2 execution:</h4>
+<h3 id="trial2-5">Trial2:</h3>
+<h4 id="trial2-execution-5">Trial2 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-6">Trial2 Comments:</h4>
+<h4 id="trial2-comments-5">Trial2 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h3 id="trial3-6">Trial3:</h3>
-<h4 id="trial3-execution-6">Trial3 execution:</h4>
+<h3 id="trial3-5">Trial3:</h3>
+<h4 id="trial3-execution-5">Trial3 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-6">Trial3 Comments:</h4>
+<h4 id="trial3-comments-5">Trial3 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-6">Exercise Comment:</h1>
+<h1 id="exercise-comment-5">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
