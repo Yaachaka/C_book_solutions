@@ -47,19 +47,11 @@ You may assume that the number has no more than four digits. *Hint*: Use `if` st
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number (max. digits: 4): 374
+The number 374 has 3 digits.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial2:
 
@@ -68,19 +60,11 @@ You may assume that the number has no more than four digits. *Hint*: Use `if` st
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number (max. digits: 4): 55
+The number 55 has 2 digits.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial3:
 
@@ -89,27 +73,11 @@ You may assume that the number has no more than four digits. *Hint*: Use `if` st
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number (max. digits: 4): 6678
+The number 6678 has 4 digits.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
