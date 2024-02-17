@@ -114,19 +114,11 @@ Be careful not to display 12:00 as 0:00.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 24-hour time: 00:29
+Equivalent 12-hour time: 12:29 AM
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial2:
 
@@ -135,19 +127,11 @@ Be careful not to display 12:00 as 0:00.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 24-hour time: 11:59
+Equivalent 12-hour time: 11:59 AM
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial3:
 
@@ -156,27 +140,11 @@ Be careful not to display 12:00 as 0:00.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 24-hour time: 22:43
+Equivalent 12-hour time: 10:43 PM
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
