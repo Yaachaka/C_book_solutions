@@ -475,18 +475,11 @@ Write a `switch` statement whose controlling expression is the variable `area_co
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Please enter the area code to get the area name: 678
+Area name: Atlanta
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -495,18 +488,11 @@ Write a `switch` statement whose controlling expression is the variable `area_co
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Please enter the area code to get the area name: 706
+Area name: Columbus
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -515,24 +501,11 @@ Write a `switch` statement whose controlling expression is the variable `area_co
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Please enter the area code to get the area name: 800
+Area code not recognized
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
