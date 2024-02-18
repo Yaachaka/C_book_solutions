@@ -235,41 +235,7 @@ do {...} while (i < 10);
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh06Exrc005.c](./cknkCh06Exrc005.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+Option `(c)` is not equivalent to the other two. Let's say `i` is equal to 10 before reaching these looping statements. Control never gors into the body in the first two cases.
 
 <hr class="hr1ExrcPrj"/>
 
