@@ -251,41 +251,11 @@ Translate the program fragment of Exercise 1 into a single `for` statement.
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh06Exrc006.c](./cknkCh06Exrc006.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+for (i = 1; i <= 128; i *= 2){
+    printf("%d ", i);
+}
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
