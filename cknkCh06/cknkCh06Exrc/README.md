@@ -178,7 +178,7 @@ for (i = 0; i < 10； i++) ...
 <li>
 
 ```C
-for (i = 0; i < 10; ++1) ...
+for (i = 0; i < 10; ++i) ...
 ```
 
 </li>
@@ -195,41 +195,7 @@ for (i = 0; i++ < 10; ) ...
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh06Exrc004.c](./cknkCh06Exrc004.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+Option `(c)` is not equivalent to the other two options. Because, in the case of `(c)`, the `i` gets incremented before entering into the body of the `for` loop in the first iteration itself. That will change the behavior of the body compared to other two cases (`(a)` and `(b)`).
 
 <hr class="hr1ExrcPrj"/>
 
