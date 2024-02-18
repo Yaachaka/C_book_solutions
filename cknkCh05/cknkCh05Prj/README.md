@@ -671,19 +671,11 @@ Use the following grading scale: A = 90-100, B = 80-89, C = 70-79, D = 60-69, F 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter numerical grade: 84
+Letter grade: B
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial2:
 
@@ -692,19 +684,11 @@ Use the following grading scale: A = 90-100, B = 80-89, C = 70-79, D = 60-69, F 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter numerical grade: 35
+Letter grade: F
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial3:
 
@@ -713,27 +697,11 @@ Use the following grading scale: A = 90-100, B = 80-89, C = 70-79, D = 60-69, F 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter numerical grade: 78
+Letter grade: C
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
