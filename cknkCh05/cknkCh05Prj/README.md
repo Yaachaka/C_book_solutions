@@ -738,19 +738,11 @@ You entered the number forty-five.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a two digit number: 45
+You entered the number Forty-Five.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial2:
 
@@ -759,19 +751,11 @@ You entered the number forty-five.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a two digit number: 10
+You entered the number Ten.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial3:
 
@@ -780,31 +764,13 @@ You entered the number forty-five.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a two digit number: 99
+You entered the number Ninety-Nine.
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 <hr class="hr1ExrcPrj"/>
-
-
 
 </body>
 </html>
