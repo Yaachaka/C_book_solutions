@@ -601,19 +601,12 @@ Enter second date (mm/dd/yy): 5/17/07
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter first date (mm/dd/yy): 3/6/08
+Enter second date (mm/dd/yy): 5/17/07
+05/17/07 is earlier than 03/06/08
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial2:
 
@@ -622,19 +615,12 @@ Enter second date (mm/dd/yy): 5/17/07
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter first date (mm/dd/yy): 05/05/96
+Enter second date (mm/dd/yy): 02/02/24
+02/02/24 is earlier than 05/05/96
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial3:
 
@@ -643,27 +629,12 @@ Enter second date (mm/dd/yy): 5/17/07
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter first date (mm/dd/yy): 01/01/95
+Enter second date (mm/dd/yy): 01/01/95
+Both the dates are same.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
