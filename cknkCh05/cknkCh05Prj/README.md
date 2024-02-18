@@ -454,19 +454,12 @@ Use as few `if` statements as possible. *Hint*: Four `if` statements are suffici
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter four integers: 21 43 10 35
+Largest: 43
+Smallest: 10
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial2:
 
@@ -475,19 +468,12 @@ Use as few `if` statements as possible. *Hint*: Four `if` statements are suffici
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter four integers: 500 1 35 7000
+Largest: 7000
+Smallest: 1
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial3:
 
@@ -496,30 +482,14 @@ Use as few `if` statements as possible. *Hint*: Four `if` statements are suffici
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter four integers: 788 878 877 887
+Largest: 887
+Smallest: 788
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 <hr class="hr1ExrcPrj"/>
-
 
 # cknkCh05Prj008
 
