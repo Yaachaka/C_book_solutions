@@ -254,19 +254,11 @@ Write a program that asks the user to enter a wind speed (in knots), then displa
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Please enter wind speed (knots): 0.42
+Wind condition: Calm
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial2:
 
@@ -275,19 +267,11 @@ Write a program that asks the user to enter a wind speed (in knots), then displa
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Please enter wind speed (knots): 53
+Wind condition: Storm
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial3:
 
@@ -296,27 +280,11 @@ Write a program that asks the user to enter a wind speed (in knots), then displa
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Please enter wind speed (knots): 100
+Wind condition: Hurricane
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
