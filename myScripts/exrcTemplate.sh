@@ -1,15 +1,17 @@
-chapter_section="Section 5." # Update needed here
-chapter="05"    # Update needed here
+chapter_section="Section 6." # Update needed here
+chapter="06"    # Update needed here
 
-chapterName="Selection Statements"    # Give chapter name here
+chapterName="Loops"    # Give chapter name here
 
 title="# Chapter $chapter Excercises"
 
 pref="cknkCh"
-
+prefChapter=$pref$chapter
 name1=$pref$chapter"Exrc"
 
-exrcCount=11    # Update the number of exercises here
+mkdir $prefChapter/$name1
+
+exrcCount=14    # Update the number of exercises here
 emptyLine="  "
 
 echo "<html>
@@ -20,83 +22,95 @@ echo "<html>
 </head>
 <body>
 
-"
+$chapter $chapterName
+---
 
-echo $chapter" "$chapterName
-echo "---"
-echo "  "
-echo $title
-echo "  "
+$title
 
-echo "<hr class=\"hr1ExrcPrj\"/>"
-echo $emptyLine
+<hr class=\"hr1ExrcPrj\"/>
+" > $prefChapter/$name1/README.md
 
 for i in $(seq 1 $exrcCount);    # For loop 1
 do
     name2=$name1$(printf "%03d" $i)
 
-    echo "# "$name2
-    echo $emptyLine
+    echo "# $name2
 
-    echo $chapter_section
-    echo $emptyLine
+$chapter_section
 
-    echo "<!-- START: Problem Statement -->"
-    echo $emptyLine
-    echo $emptyLine
-    echo $emptyLine
-    echo "<!-- END: Problem Statement -->"
-    echo $emptyLine
+<!-- START: Problem Statement -->
 
-    echo "# Solution:"
-    echo $emptyLine
-    echo $emptyLine
 
-    echo "## Program Link"
-    echo $emptyLine
-    echo "[$name2.c](./$name2.c)"
-    echo $emptyLine
 
-    echo "## Output/ExecutionLog:"
-    echo $emptyLine
+<!-- END: Problem Statement -->
 
-    for j in {1..3};    # For loop 2
+# Solution:
+
+
+## Program Link
+
+[$name2.c](./$name2.c)
+
+## Output/ExecutionLog:
+
+" >> $prefChapter/$name1/README.md
+    
+    for j in {1..1};    # For loop 1
     do
-        echo "### Trial$j:"
-        echo $emptyLine
-        echo "#### Trial$j execution:"
-        echo $emptyLine
-        echo "<!-- START: terminal interaction or other output -->"
-        echo $emptyLine
-        echo "\`\`\`shell"
-        echo $emptyLine
-        echo "\`\`\`"
-        echo $emptyLine
-        echo "<!-- END: terminal interaction or other output -->"
-        echo $emptyLine
-        echo "#### Trial$j Comments:"
-        echo $emptyLine
-        echo "<!-- START: Comments -->"
-        echo $emptyLine
-        echo $emptyLine
-        echo $emptyLine
-        echo "<!-- END: Comments -->"
-        echo $emptyLine
+        echo "### Trial$j:
 
+#### Trial$j execution:
+
+<!-- START: terminal interaction or other output -->
+
+\`\`\`shell
+
+\`\`\`
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial$j Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+" >> $prefChapter/$name1/README.md
     done    # For loop 2
 
-    echo "# Exercise Comment:"
-    echo $emptyLine
-    echo "<!-- START: Comments -->"
-    echo $emptyLine
-    echo "<!-- END: Comments -->"
-    echo $emptyLine
-    
-    echo "<hr class=\"hr1ExrcPrj\"/>"
-    echo $emptyLine
+    echo "# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class=\"hr1ExrcPrj\"/>
+" >> $prefChapter/$name1/README.md
+
+    # File with initial template creation
+    echo "/**
+ * file: $name2.c
+ * Author: Yaachaka
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+
+
+    return 0;
+}
+" > $prefChapter/$name1/$name2.c
 
 done    # For loop 1
 
 
 echo "</body>
-</html>"
+</html>" >> $prefChapter/$name1/README.md
+
+
+pandoc $prefChapter/$name1/README.md -o $prefChapter/$name1/$name1"Readme.html"
