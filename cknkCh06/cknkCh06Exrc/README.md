@@ -129,7 +129,7 @@ for (i = 5, j = i - 1; i > 0, j > 0; --i, j = i - 1)
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+5 4 3 2 
 ```
 
 <!-- END: terminal interaction or other output -->
@@ -138,7 +138,14 @@ for (i = 5, j = i - 1; i > 0, j > 0; --i, j = i - 1)
 
 <!-- START: Comments -->
 
+We got warning during compilation.
 
+```shell
+cknkCh06Exrc003.c:12:30: warning: relational comparison result unused [-Wunused-comparison]
+   12 |     for (i = 5, j = i - 1; i > 0, j > 0; --i, j = i - 1)
+      |                            ~~^~~
+1 warning generated.
+```
 
 <!-- END: Comments -->
 
@@ -146,7 +153,7 @@ for (i = 5, j = i - 1; i > 0, j > 0; --i, j = i - 1)
 
 <!-- START: Comments -->
 
-
+Note: (From Section 6.3: The Comma Operator). Consider a comma expression `expr1, expr2` in a `for` statement at any (*initialzation* or *test* or *updater*) fields; where `expr1` and `expr2` are any two expressions. A comma expression is evaluated in two steps: First, `expr1` is evaluated and its value is discarded. Second, `expr2` is evaluated; its value is the value of the entire expression. Evaluating `expr1` should always have a side effect; if it doesn't, then `expr1` serves no purpose.
 
 <!-- END: Comments -->
 

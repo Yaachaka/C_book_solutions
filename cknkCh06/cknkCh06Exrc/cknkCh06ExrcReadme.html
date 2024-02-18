@@ -64,13 +64,27 @@ Chapter 06 exercises
 <h3 id="trial1-2">Trial1:</h3>
 <h4 id="trial1-execution-2">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
+<pre class="shell"><code>5 4 3 2 </code></pre>
 <!-- END: terminal interaction or other output -->
 <h4 id="trial1-comments">Trial1 Comments:</h4>
 <!-- START: Comments -->
+<p>We got warning during compilation.</p>
+<pre class="shell"><code>cknkCh06Exrc003.c:12:30: warning: relational comparison result unused [-Wunused-comparison]
+   12 |     for (i = 5, j = i - 1; i &gt; 0, j &gt; 0; --i, j = i - 1)
+      |                            ~~^~~
+1 warning generated.</code></pre>
 <!-- END: Comments -->
 <h1 id="exercise-comment">Exercise Comment:</h1>
 <!-- START: Comments -->
+<p>Note: (From Section 6.3: The Comma Operator). Consider a comma
+expression <code>expr1, expr2</code> in a <code>for</code> statement at
+any (<em>initialzation</em> or <em>test</em> or <em>updater</em>)
+fields; where <code>expr1</code> and <code>expr2</code> are any two
+expressions. A comma expression is evaluated in two steps: First,
+<code>expr1</code> is evaluated and its value is discarded. Second,
+<code>expr2</code> is evaluated; its value is the value of the entire
+expression. Evaluating <code>expr1</code> should always have a side
+effect; if it doesn’t, then <code>expr1</code> serves no purpose.</p>
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
 <h1 id="cknkch06exrc004">cknkCh06Exrc004</h1>
@@ -80,13 +94,13 @@ Chapter 06 exercises
 two (assuming that the loop bodies are the same)?</p>
 <ol type="a">
 <li>
-<div class="sourceCode" id="cb7"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">10</span>； i<span class="op">++)</span> <span class="op">...</span></span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">10</span>； i<span class="op">++)</span> <span class="op">...</span></span></code></pre></div>
 </li>
 <li>
-<div class="sourceCode" id="cb8"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">10</span><span class="op">;</span> <span class="op">++</span><span class="dv">1</span><span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">10</span><span class="op">;</span> <span class="op">++</span><span class="dv">1</span><span class="op">)</span> <span class="op">...</span></span></code></pre></div>
 </li>
 <li>
-<div class="sourceCode" id="cb9"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i<span class="op">++</span> <span class="op">&lt;</span> <span class="dv">10</span><span class="op">;</span> <span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i<span class="op">++</span> <span class="op">&lt;</span> <span class="dv">10</span><span class="op">;</span> <span class="op">)</span> <span class="op">...</span></span></code></pre></div>
 </li>
 </ol>
 <!-- END: Problem Statement -->
@@ -113,13 +127,13 @@ two (assuming that the loop bodies are the same)?</p>
 two (assuming that the loop bodies are the same)?</p>
 <ol type="a">
 <li>
-<div class="sourceCode" id="cb11"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&lt;</span> <span class="dv">10</span><span class="op">)</span> <span class="op">{...}</span></span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&lt;</span> <span class="dv">10</span><span class="op">)</span> <span class="op">{...}</span></span></code></pre></div>
 </li>
 <li>
-<div class="sourceCode" id="cb12"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(;</span> i <span class="op">&lt;</span> <span class="dv">10</span><span class="op">;)</span> <span class="op">{...}</span></span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(;</span> i <span class="op">&lt;</span> <span class="dv">10</span><span class="op">;)</span> <span class="op">{...}</span></span></code></pre></div>
 </li>
 <li>
-<div class="sourceCode" id="cb13"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span> <span class="op">{...}</span> <span class="cf">while</span> <span class="op">(</span>i <span class="op">&lt;</span> <span class="dv">10</span><span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span> <span class="op">{...}</span> <span class="cf">while</span> <span class="op">(</span>i <span class="op">&lt;</span> <span class="dv">10</span><span class="op">);</span></span></code></pre></div>
 </li>
 </ol>
 <!-- END: Problem Statement -->
@@ -188,8 +202,8 @@ two (assuming that the loop bodies are the same)?</p>
 <!-- START: Problem Statement -->
 <p>What output does the following <code>for</code> statement
 produce?</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">10</span><span class="op">;</span> i <span class="op">&gt;=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">/=</span> <span class="dv">2</span><span class="op">)</span></span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;%d &quot;</span><span class="op">,</span> i<span class="op">++);</span></span></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">10</span><span class="op">;</span> i <span class="op">&gt;=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">/=</span> <span class="dv">2</span><span class="op">)</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;%d &quot;</span><span class="op">,</span> i<span class="op">++);</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 <h1 id="solution-7">Solution:</h1>
 <h2 id="program-link-7">Program Link</h2>
@@ -256,13 +270,13 @@ equivalent <code>goto</code> statement.</p>
 <p>Section 6.4</p>
 <!-- START: Problem Statement -->
 <p>What output does the following program fragment produce?</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>sum <span class="op">=</span> <span class="dv">0</span>；</span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">10</span>；i<span class="op">++){</span></span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>i <span class="op">%</span> <span class="dv">2</span><span class="op">)</span></span>
-<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span><span class="op">;</span></span>
-<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">+=</span> i<span class="op">;</span></span>
-<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
-<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> sum<span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>sum <span class="op">=</span> <span class="dv">0</span>；</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">10</span>；i<span class="op">++){</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>i <span class="op">%</span> <span class="dv">2</span><span class="op">)</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span><span class="op">;</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">+=</span> i<span class="op">;</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> sum<span class="op">);</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 <h1 id="solution-10">Solution:</h1>
 <h2 id="program-link-10">Program Link</h2>
@@ -285,9 +299,9 @@ equivalent <code>goto</code> statement.</p>
 <!-- START: Problem Statement -->
 <p>The following “prime-testing” loop appeared in Section 6.4 as an
 example:</p>
-<div class="sourceCode" id="cb23"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>d <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> d <span class="op">&lt;</span> n<span class="op">;</span> d<span class="op">++)</span></span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>n <span class="op">%</span> d <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span></code></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>d <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> d <span class="op">&lt;</span> n<span class="op">;</span> d<span class="op">++)</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>n <span class="op">%</span> d <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span></code></pre></div>
 <p>This loop isn’t very efficient. It’s not necessary to divide
 <code>n</code> by all numbers between 2 and <code>n-1</code> to
 determine whether it’s prime. In fact, we need only check divisors up to
@@ -316,8 +330,8 @@ this fact. <em>Hint</em>: Don’t try to compute the square root of
 <p>Section 6.5</p>
 <!-- START: Problem Statement -->
 <p>Rewrite the following loop so that its body is empty:</p>
-<div class="sourceCode" id="cb25"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> m <span class="op">&gt;</span> <span class="dv">0</span><span class="op">;</span> n<span class="op">++)</span></span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>    m <span class="op">/=</span> <span class="dv">2</span><span class="op">;</span></span></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> m <span class="op">&gt;</span> <span class="dv">0</span><span class="op">;</span> n<span class="op">++)</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    m <span class="op">/=</span> <span class="dv">2</span><span class="op">;</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 <h1 id="solution-12">Solution:</h1>
 <h2 id="program-link-12">Program Link</h2>
@@ -339,8 +353,8 @@ this fact. <em>Hint</em>: Don’t try to compute the square root of
 <p>Section 6.5</p>
 <!-- START: Problem Statement -->
 <p>Find the error in the following program fragment and fix it.</p>
-<div class="sourceCode" id="cb27"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>n <span class="op">%</span> <span class="dv">2</span> <span class="op">==</span> <span class="dv">0</span><span class="op">)</span>；</span>
-<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;n is even</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>n <span class="op">%</span> <span class="dv">2</span> <span class="op">==</span> <span class="dv">0</span><span class="op">)</span>；</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;n is even</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 <h1 id="solution-13">Solution:</h1>
 <h2 id="program-link-13">Program Link</h2>
