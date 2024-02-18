@@ -23,3 +23,9 @@ Notes (book) in HTML: [./CProgrammingKNKing2ndEd.html](./CProgrammingKNKing2ndEd
 - [Examples](./cknkCh04/cknkCh04Exmp)
 - [Exercises](./cknkCh04/cknkCh04Exrc)
 - [Programming Projects](./cknkCh04/cknkCh04Prj)
+
+**[Chapter 5 Selection Statements](./cknkCh05):**
+
+- [Examples](./cknkCh05/cknkCh05Exmp)
+- [Exercises](./cknkCh05/cknkCh05Exrc)
+- [Programming Projects](./cknkCh05/cknkCh05Prj)
