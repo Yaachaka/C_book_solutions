@@ -386,19 +386,11 @@ Modify the `upc.c` program of Section 4.1 so that it checks whether a UPC is val
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the UPC number (12 digits): 013800151735
+UPC is VALID
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial2:
 
@@ -407,19 +399,11 @@ Modify the `upc.c` program of Section 4.1 so that it checks whether a UPC is val
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the UPC number (12 digits): 013800151734
+UPC is NOT_VALID
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 
 ### Trial3:
 
@@ -428,27 +412,11 @@ Modify the `upc.c` program of Section 4.1 so that it checks whether a UPC is val
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the UPC number (12 digits): 031200010054
+UPC is NOT_VALID
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
