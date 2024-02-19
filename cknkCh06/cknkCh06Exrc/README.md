@@ -316,41 +316,14 @@ Translate the `for` statement of Exercise 8 into an equivalent `while` statement
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh06Exrc009.c](./cknkCh06Exrc009.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+i = 10;
+while (i >= 1)
+{
+    printf("%d ", i++);
+     i /= 2;
+}
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
