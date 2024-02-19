@@ -456,42 +456,9 @@ for (n = 0; m > 0; n++)
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh06Exrc013.c](./cknkCh06Exrc013.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+for (n = 0; m /= 2; n++);
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 <hr class="hr1ExrcPrj"/>
 
 # cknkCh06Exrc014
