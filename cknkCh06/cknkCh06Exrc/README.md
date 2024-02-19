@@ -296,41 +296,11 @@ for (i = 10; i >= 1; i /= 2)
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh06Exrc008.c](./cknkCh06Exrc008.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
+It is an infinite loop with the following output:
 
 ```shell
-
+10 5 3 2 1 1 1 1 1 1 1 1 1 1 1 ...
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
