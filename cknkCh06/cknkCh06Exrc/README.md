@@ -376,8 +376,8 @@ Section 6.4
 What output does the following program fragment produce?
 
 ```C
-sum = 0；
-for (i = 0; i < 10；i++){
+sum = 0;
+for (i = 0; i < 10;i++){
     if(i % 2)
         continue;
     sum += i;
@@ -404,26 +404,10 @@ printf("%d\n", sum);
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+20
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
