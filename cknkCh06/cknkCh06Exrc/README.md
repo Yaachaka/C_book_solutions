@@ -478,41 +478,7 @@ if(n % 2 == 0)；
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh06Exrc014.c](./cknkCh06Exrc014.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+The intention of the code fragment is to print a statement for an even number. But due to the way control expression written, the control never enters the body of `if` for an even value of `n`.
 
 <hr class="hr1ExrcPrj"/>
 
