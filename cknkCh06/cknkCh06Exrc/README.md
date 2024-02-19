@@ -431,41 +431,11 @@ This loop isn't very efficient. It's not necessary to divide `n` by all numbers 
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh06Exrc012.c](./cknkCh06Exrc012.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+for (d = 2; d * d <= n; d++)
+    if (n % d == 0)
+        break;
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
