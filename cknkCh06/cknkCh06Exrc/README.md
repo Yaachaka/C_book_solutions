@@ -339,41 +339,31 @@ Show how to replace a `continue` statement by an equivalent `goto` statement.
 
 # Solution:
 
+Code fragment with `continue` statement:
 
-## Program Link
-
-[cknkCh06Exrc010.c](./cknkCh06Exrc010.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
+```C
+for (i = 10; i > 1; i++)
+{
+    printf("%d ", i++);
+    if(i%2)
+        continue;
+    printf("Hello there!!!");
+}
 
 ```
 
-<!-- END: terminal interaction or other output -->
+Code fragment with `goto` statement.
 
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+```C
+for (i = 10; i > 1; i++)
+{
+    printf("%d ", i++);
+    if(i%2)
+        goto dest1;
+    printf("Hello there!!!");
+    dest1:;
+}
+```
 
 <hr class="hr1ExrcPrj"/>
 
