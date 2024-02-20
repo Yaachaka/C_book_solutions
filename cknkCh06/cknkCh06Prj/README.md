@@ -563,18 +563,17 @@ Programming Project 8 in Chapter 2 asked you to write a program that calculates 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter amount of loan: 20000.00
+Enter interest rate: 6.0
+Enter monthly payment: 386.66
+Enter number of monthly payments: 3
+Balance remaining: $19713.34
+Balance remaining: $19425.25
+Balance remaining: $19135.71
+Balance remaining: $18844.73
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -583,46 +582,17 @@ Programming Project 8 in Chapter 2 asked you to write a program that calculates 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter amount of loan: 30500.50
+Enter interest rate: 5.5
+Enter monthly payment: 395.12
+Enter number of monthly payments: 3
+Balance remaining: $30245.18
+Balance remaining: $29988.68
+Balance remaining: $29731.01
+Balance remaining: $29472.16
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
