@@ -193,18 +193,11 @@ In lowest terms:1/2
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a fraction: 6/12
+In lowest terms: 1/2
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -213,18 +206,11 @@ In lowest terms:1/2
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a fraction: 12/28
+In lowest terms: 3/7
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -233,26 +219,11 @@ In lowest terms:1/2
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a fraction: 17/46
+In lowest terms: 17/46
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
