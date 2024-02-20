@@ -362,18 +362,15 @@ Write a program that prompts the user to enter a number `n`, then prints all eve
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter an integer: 100
+4
+16
+36
+64
+100
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -382,18 +379,10 @@ Write a program that prompts the user to enter a number `n`, then prints all eve
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter an integer: 3
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -402,26 +391,25 @@ Write a program that prompts the user to enter a number `n`, then prints all eve
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter an integer: 1000
+4
+16
+36
+64
+100
+144
+196
+256
+324
+400
+484
+576
+676
+784
+900
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
