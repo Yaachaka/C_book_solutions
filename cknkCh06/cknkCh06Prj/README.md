@@ -628,18 +628,14 @@ Enter a date (mm/dd/yy): 0/0/0
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a date (mm/dd/yy): 03/06/08
+Enter a date (mm/dd/yy): 5/17/7
+Enter a date (mm/dd/yy): 6/3/7
+Enter a date (mm/dd/yy): 0/0/0
+05/17/07 is the earliest date.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -648,18 +644,12 @@ Enter a date (mm/dd/yy): 0/0/0
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a date (mm/dd/yy): 4/2/94
+Enter a date (mm/dd/yy): 0/0/0
+04/02/94 is the earliest date.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -668,26 +658,14 @@ Enter a date (mm/dd/yy): 0/0/0
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a date (mm/dd/yy): 5/17/17
+Enter a date (mm/dd/yy): 6/17/17
+Enter a date (mm/dd/yy): 5/18/17
+Enter a date (mm/dd/yy): 0/0/0
+05/17/17 is the earliest date.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
