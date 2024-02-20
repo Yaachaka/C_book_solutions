@@ -128,18 +128,11 @@ Greatest common divisor: 4
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter two integers: 12 28
+Greatest common divisor: 4
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -148,18 +141,11 @@ Greatest common divisor: 4
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter two integers: 1024 236
+Greatest common divisor: 4
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -168,26 +154,11 @@ Greatest common divisor: 4
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter two integers: 17 46
+Greatest common divisor: 1
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
