@@ -759,18 +759,11 @@ Modify Programming Project 11 so that the program continues adding terms until t
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the epsilon value (smallest term where you want to stop): 0.001
+e = 2.7181
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -779,18 +772,11 @@ Modify Programming Project 11 so that the program continues adding terms until t
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the epsilon value (smallest term where you want to stop): 0.002
+e = 2.7167
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -799,29 +785,13 @@ Modify Programming Project 11 so that the program continues adding terms until t
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the epsilon value (smallest term where you want to stop): 0.05
+e = 2.6667
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 <hr class="hr1ExrcPrj"/>
-
 
 </body>
 </html>
