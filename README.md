@@ -29,3 +29,9 @@ Notes (book) in HTML: [./CProgrammingKNKing2ndEd.html](./CProgrammingKNKing2ndEd
 - [Examples](./cknkCh05/cknkCh05Exmp)
 - [Exercises](./cknkCh05/cknkCh05Exrc)
 - [Programming Projects](./cknkCh05/cknkCh05Prj)
+
+**[Chapter 6 Loops](./cknkCh06):**
+
+- [Examples](./cknkCh06/cknkCh06Exmp)
+- [Exercises](./cknkCh06/cknkCh06Exrc)
+- [Programming Projects](./cknkCh06/cknkCh06Prj)
