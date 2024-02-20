@@ -50,18 +50,16 @@ Notice that the numbers aren't necessarily integers.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number: 60
+Enter a number: 38.3
+Enter a number: 4.83
+Enter a number: 100.62
+Enter a number: 72.2295
+Enter a number: 0
+The largest number entered was 100.62
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -70,18 +68,15 @@ Notice that the numbers aren't necessarily integers.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number: 135.00
+Enter a number: 138.48
+Enter a number: 135.01
+Enter a number: 50.00
+Enter a number: -1
+The largest number entered was 138.48
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -90,26 +85,15 @@ Notice that the numbers aren't necessarily integers.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number: 1000.38
+Enter a number: 500.35
+Enter a number: 400.3
+Enter a number: 1200.48
+Enter a number: -1
+The largest number entered was 1200.48
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
