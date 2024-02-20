@@ -1,12 +1,12 @@
-chapter="05" # Give chapter number here
+chapter="06" # Give chapter number here
 title="# Chapter $chapter Programming Projects"
-chapterName="Selection statements"
+chapterName="Loops"
 
 pref="cknkCh"
 prefChapter=$pref$chapter
 name1=$pref$chapter"Prj"
 
-exrcCount=11
+exrcCount=12
 emptyLine="  "
 
 mkdir $prefChapter/$name1
@@ -24,9 +24,7 @@ $chapter $chapterName
 
 $title
 
-
 <hr class=\"hr1ExrcPrj\"/>
-
 " > $prefChapter/$name1/README.md # First echo
 
 for i in $(seq 1 $exrcCount);
@@ -49,7 +47,6 @@ do
 [$name2.c](./$name2.c)
 
 ## Output/ExecutionLog:
-
 " >> $prefChapter/$name1/README.md # Second echo
 
     for j in {1..3};
@@ -73,7 +70,6 @@ do
 
 
 <!-- END: Comments -->
-
 " >> $prefChapter/$name1/README.md # Third echo
     done
 
@@ -86,7 +82,6 @@ do
 <!-- END: Comments -->
 
 <hr class=\"hr1ExrcPrj\"/>
-
 " >> $prefChapter/$name1/README.md # Fourth echo
 
     # File with initial template creation
@@ -102,8 +97,7 @@ int main(void)
 
 
     return 0;
-}
-" > $prefChapter/$name1/$name2.c
+}" > $prefChapter/$name1/$name2.c
 
 done
 
