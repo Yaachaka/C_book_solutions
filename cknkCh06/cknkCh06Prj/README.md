@@ -296,18 +296,11 @@ Programming Project 1 in Chapter 4 asked you to write a program that displays a 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter an integer: 781
+The reversal is: 187
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -316,18 +309,11 @@ Programming Project 1 in Chapter 4 asked you to write a program that displays a 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter an integer: 1234
+The reversal is: 4321
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -336,26 +322,11 @@ Programming Project 1 in Chapter 4 asked you to write a program that displays a 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter an integer: 786
+The reversal is: 687
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
