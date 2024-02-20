@@ -701,18 +701,11 @@ where `n` is an integer entered by the user.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the value of n: 4
+e = 2.7083
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -721,18 +714,11 @@ where `n` is an integer entered by the user.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the value of n: 10
+e = 2.7183
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -741,26 +727,11 @@ where `n` is an integer entered by the user.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the value of n: 100
+e = inf
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
