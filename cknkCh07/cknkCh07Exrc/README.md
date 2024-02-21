@@ -28,41 +28,9 @@ c. OXABC
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh07Exrc001.c](./cknkCh07Exrc001.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+a. 077 = 63  
+b. 0x77 = 119  
+c. OXABC = 2748  
 
 <hr class="hr1ExrcPrj"/>
 
