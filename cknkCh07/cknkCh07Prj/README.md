@@ -425,7 +425,7 @@ Scrabble value: 9
 
 <!-- START: Problem Statement -->
 
-Write a program that prints the values of `sizeof (int)`, `sizeof(short)`, `sizeof(long)`, `sizeof(float)`, `sizeof(double)` and `sizeof(long double)`.
+Write a program that prints the values of `sizeof(int)`, `sizeof(short)`, `sizeof(long)`, `sizeof(float)`, `sizeof(double)` and `sizeof(long double)`.
 
 <!-- END: Problem Statement -->
 
@@ -445,66 +445,15 @@ Write a program that prints the values of `sizeof (int)`, `sizeof(short)`, `size
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+sizeof(int) : 4
+sizeof(short) : 2
+sizeof(long) : 8
+sizeof(float) : 4
+sizeof(double) : 8
+sizeof(long double) : 16
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
