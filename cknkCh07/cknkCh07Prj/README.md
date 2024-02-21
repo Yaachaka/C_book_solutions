@@ -261,18 +261,12 @@ Modify the `sum2.c` program of Section 7.1 to sum a series of double values.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+This program sums a series of floating-point (double) numbers.
+Enter enter floating-point (double) numbers (0.000 to terminate): 13.45 432.34 34.34 0.00
+The sum is: 480.130000
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -281,46 +275,12 @@ Modify the `sum2.c` program of Section 7.1 to sum a series of double values.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+This program sums a series of floating-point (double) numbers.
+Enter enter floating-point (double) numbers (0.000 to terminate): 13.00 23.45 22.00 0
+The sum is: 58.450000
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
