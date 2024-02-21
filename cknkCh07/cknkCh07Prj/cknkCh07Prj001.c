@@ -7,7 +7,7 @@
 
 int main(void)
 {
-    int i, n;
+    long i, n;
     short s_prevSquare, s_currSquare;
     int i_prevSquare, i_currSquare;
     long l_prevSquare, l_currSquare;
@@ -27,8 +27,8 @@ int main(void)
         }
         else
         {
-            printf("Failed at n equal to %d with (i * i) value of %hd.\n", i, s_currSquare);
-            printf("Last successfull storage was at n = %d with (I * I) value of %hd.\n", i-1, s_prevSquare);
+            printf("Failed at n equal to %ld with (i * i) value of %hd.\n", i, s_currSquare);
+            printf("Last successfull storage was at n = %ld with (I * I) value of %hd.\n", i-1, s_prevSquare);
             break;
         }
     }
@@ -47,8 +47,8 @@ int main(void)
         }
         else
         {
-            printf("Failed at n equal to %d with (i * i) value of %d.\n", i, i_currSquare);
-            printf("Last successfull storage was at n = %d with (I * I) value of %d.\n", i-1, i_prevSquare);
+            printf("Failed at n equal to %ld with (i * i) value of %d.\n", i, i_currSquare);
+            printf("Last successfull storage was at n = %ld with (I * I) value of %d.\n", i-1, i_prevSquare);
             break;
         }
     }
@@ -67,8 +67,8 @@ int main(void)
         }
         else
         {
-            printf("Failed at n equal to %d with (i * i) value of %ld.\n", i, l_currSquare);
-            printf("Last successfull storage was at n = %d with (I * I) value of %ld.\n", i-1, l_prevSquare);
+            printf("Failed at n equal to %ld with (i * i) value of %ld.\n", i, l_currSquare);
+            printf("Last successfull storage was at n = %ld with (I * I) value of %ld.\n", i-1, l_prevSquare);
             break;
         }
     }

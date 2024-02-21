@@ -48,8 +48,8 @@ Failed at n equal to 46341 with (i * i) value of -2147479015.
 Last successfull storage was at n = 46340 with (I * I) value of 2147395600.
 
 Testing for `long` type.
-Failed at n equal to 46341 with (i * i) value of -2147479015.
-Last successfull storage was at n = 46340 with (I * I) value of 2147395600.
+Failed at n equal to 3037000500 with (i * i) value of -9223372036709301616.
+Last successfull storage was at n = 3037000499 with (I * I) value of 9223372030926249001.
 ```
 
 <!-- END: terminal interaction or other output -->
@@ -62,7 +62,7 @@ By the experiments as suggested by the problem statement, it is observed that th
 
 a. `short`: 16 bits  
 b. `int`: 32 bits
-c. `long`: 32 bits
+c. `long`: 64 bits
 
 <!-- END: Comments -->
 
