@@ -20,6 +20,7 @@ Section 7.1
 <!-- START: Problem Statement -->
 
 Give the decimal value of each of the following integer constants.  
+
 a. 077  
 b. 0x77  
 c. OXABC  
@@ -41,6 +42,7 @@ Section 7.2
 <!-- START: Problem Statement -->
 
 Which of the following are not legal constants in C? Classify each legal constant as either integer or floating-point.  
+
 a. 010E2  
 b. 32.1E+5  
 c. 0790  
@@ -66,6 +68,7 @@ Section 7.2
 <!-- START: Problem Statement -->
 
 Which of the following are not legal types in C?  
+
 a. `short unsigned int`  
 b. `short float`  
 c. `long double`  
@@ -86,6 +89,7 @@ Section 7.3
 <!-- START: Problem Statement -->
 
 If `c` is a variable of type `char`, which one of the following statements is illegal?  
+
 a. `i += c; /* i has type int */`  
 b. `c = 2 * c - 1;`  
 c. `putchar(c);`  
@@ -109,6 +113,7 @@ Section 7.3
 <!-- START: Problem Statement -->
 
 Which one of the following is not a legal way to write the number 65? (Assume that the character set is ASCII.)  
+
 a. `'A'`  
 b. `0b1000001`  
 c. `0101`  
@@ -128,51 +133,21 @@ Section 7.3
 
 <!-- START: Problem Statement -->
 
-For each of the following items of data, specify which one of the types `char`, `short`, `int`, or `long` is the smallest one guaranteed to be large enough to store the item.  
+For each of the following items of data, specify which one of the types `char`, `short`, `int`, or `long` is the smallest one guaranteed to be large enough to store the item.
+
 a. Days in a month  
 b. Days in a year  
 c. Minutes in a day  
-d. Seconds in a day
+d. Seconds in a day  
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh07Exrc006.c](./cknkCh07Exrc006.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+a. Days in a month: `char`  
+b. Days in a year: `short`  
+c. Minutes in a day: `short`  
+d. Seconds in a day: `int`  
 
 <hr class="hr1ExrcPrj"/>
 
@@ -183,6 +158,7 @@ Section 7.3
 <!-- START: Problem Statement -->
 
 For each of the following character escapes, give the equivalent octal escape. (Assume that the character set is ASCII.) You may wish to consult Appendix E, which lists the numerical codes for ASCII characters.  
+
 a. `\b`  
 b. `\n`  
 c. `\r`  
@@ -502,6 +478,7 @@ double d = 7.5;
 ```
 
 Give the value and the type of each expression listed below.  
+
 a. `c * i`  
 b. `s + m`  
 c. `f / c`  

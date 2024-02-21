@@ -14,10 +14,14 @@ Chapter 07 exercises
 <p>Section 7.1</p>
 <!-- START: Problem Statement -->
 <p>Give the decimal value of each of the following integer
-constants.<br />
-a. 077<br />
-b. 0x77<br />
-c. OXABC</p>
+constants.</p>
+<ol type="a">
+<li>077<br />
+</li>
+<li>0x77<br />
+</li>
+<li>OXABC</li>
+</ol>
 <!-- END: Problem Statement -->
 <h1 id="solution">Solution:</h1>
 <ol type="a">
@@ -32,12 +36,18 @@ c. OXABC</p>
 <p>Section 7.2</p>
 <!-- START: Problem Statement -->
 <p>Which of the following are not legal constants in C? Classify each
-legal constant as either integer or floating-point.<br />
-a. 010E2<br />
-b. 32.1E+5<br />
-c. 0790<br />
-d. 100_000<br />
-e. 3.978e-2</p>
+legal constant as either integer or floating-point.</p>
+<ol type="a">
+<li>010E2<br />
+</li>
+<li>32.1E+5<br />
+</li>
+<li>0790<br />
+</li>
+<li>100_000<br />
+</li>
+<li>3.978e-2</li>
+</ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-1">Solution:</h1>
 <ol type="a">
@@ -60,11 +70,16 @@ underscore in it.<br />
 <h1 id="cknkch07exrc003">cknkCh07Exrc003</h1>
 <p>Section 7.2</p>
 <!-- START: Problem Statement -->
-<p>Which of the following are not legal types in C?<br />
-a. <code>short unsigned int</code><br />
-b. <code>short float</code><br />
-c. <code>long double</code><br />
-d. <code>unsigned long</code></p>
+<p>Which of the following are not legal types in C?</p>
+<ol type="a">
+<li><code>short unsigned int</code><br />
+</li>
+<li><code>short float</code><br />
+</li>
+<li><code>long double</code><br />
+</li>
+<li><code>unsigned long</code></li>
+</ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-2">Solution:</h1>
 <p>Except <code>(b)</code>, remaining are valid types.</p>
@@ -73,11 +88,16 @@ d. <code>unsigned long</code></p>
 <p>Section 7.3</p>
 <!-- START: Problem Statement -->
 <p>If <code>c</code> is a variable of type <code>char</code>, which one
-of the following statements is illegal?<br />
-a. <code>i += c; /* i has type int */</code><br />
-b. <code>c = 2 * c - 1;</code><br />
-c. <code>putchar(c);</code><br />
-d. <code>printf(c);</code></p>
+of the following statements is illegal?</p>
+<ol type="a">
+<li><code>i += c; /* i has type int */</code><br />
+</li>
+<li><code>c = 2 * c - 1;</code><br />
+</li>
+<li><code>putchar(c);</code><br />
+</li>
+<li><code>printf(c);</code></li>
+</ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-3">Solution:</h1>
 <ol type="a">
@@ -100,11 +120,16 @@ understanding.<br />
 <p>Section 7.3</p>
 <!-- START: Problem Statement -->
 <p>Which one of the following is not a legal way to write the number 65?
-(Assume that the character set is ASCII.)<br />
-a. <code>'A'</code><br />
-b. <code>0b1000001</code><br />
-c. <code>0101</code><br />
-d. <code>0x41</code></p>
+(Assume that the character set is ASCII.)</p>
+<ol type="a">
+<li><code>'A'</code><br />
+</li>
+<li><code>0b1000001</code><br />
+</li>
+<li><code>0101</code><br />
+</li>
+<li><code>0x41</code></li>
+</ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-4">Solution:</h1>
 <p>All of them are valid.</p>
@@ -115,15 +140,48 @@ d. <code>0x41</code></p>
 <p>For each of the following items of data, specify which one of the
 types <code>char</code>, <code>short</code>, <code>int</code>, or
 <code>long</code> is the smallest one guaranteed to be large enough to
-store the item.<br />
-a. Days in a month<br />
-b. Days in a year<br />
-c. Minutes in a day<br />
-d. Seconds in a day</p>
+store the item.</p>
+<ol type="a">
+<li>Days in a month<br />
+</li>
+<li>Days in a year<br />
+</li>
+<li>Minutes in a day<br />
+</li>
+<li>Seconds in a day</li>
+</ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-5">Solution:</h1>
+<ol type="a">
+<li>Days in a month: <code>char</code><br />
+</li>
+<li>Days in a year: <code>short</code><br />
+</li>
+<li>Minutes in a day: <code>short</code><br />
+</li>
+<li>Seconds in a day: <code>int</code></li>
+</ol>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch07exrc007">cknkCh07Exrc007</h1>
+<p>Section 7.3</p>
+<!-- START: Problem Statement -->
+<p>For each of the following character escapes, give the equivalent
+octal escape. (Assume that the character set is ASCII.) You may wish to
+consult Appendix E, which lists the numerical codes for ASCII
+characters.</p>
+<ol type="a">
+<li><code>\b</code><br />
+</li>
+<li><code>\n</code><br />
+</li>
+<li><code>\r</code><br />
+</li>
+<li><code>\t</code></li>
+</ol>
+<!-- END: Problem Statement -->
+<h1 id="solution-6">Solution:</h1>
 <h2 id="program-link">Program Link</h2>
-<p><a href="./cknkCh07Exrc006.c">cknkCh07Exrc006.c</a></p>
+<p><a href="./cknkCh07Exrc007.c">cknkCh07Exrc007.c</a></p>
 <h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
 <h3 id="trial1">Trial1:</h3>
 <h4 id="trial1-execution">Trial1 execution:</h4>
@@ -137,21 +195,14 @@ d. Seconds in a day</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch07exrc007">cknkCh07Exrc007</h1>
+<h1 id="cknkch07exrc008">cknkCh07Exrc008</h1>
 <p>Section 7.3</p>
 <!-- START: Problem Statement -->
-<p>For each of the following character escapes, give the equivalent
-octal escape. (Assume that the character set is ASCII.) You may wish to
-consult Appendix E, which lists the numerical codes for ASCII
-characters.<br />
-a. <code>\b</code><br />
-b. <code>\n</code><br />
-c. <code>\r</code><br />
-d. <code>\t</code></p>
+<p>Repeat Exercise 7, but give the equivalent hexadecimal escape.</p>
 <!-- END: Problem Statement -->
-<h1 id="solution-6">Solution:</h1>
+<h1 id="solution-7">Solution:</h1>
 <h2 id="program-link-1">Program Link</h2>
-<p><a href="./cknkCh07Exrc007.c">cknkCh07Exrc007.c</a></p>
+<p><a href="./cknkCh07Exrc008.c">cknkCh07Exrc008.c</a></p>
 <h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
 <h3 id="trial1-1">Trial1:</h3>
 <h4 id="trial1-execution-1">Trial1 execution:</h4>
@@ -165,14 +216,16 @@ d. <code>\t</code></p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch07exrc008">cknkCh07Exrc008</h1>
-<p>Section 7.3</p>
+<h1 id="cknkch07exrc009">cknkCh07Exrc009</h1>
+<p>Section 7.4</p>
 <!-- START: Problem Statement -->
-<p>Repeat Exercise 7, but give the equivalent hexadecimal escape.</p>
+<p>Suppose that <code>i</code> and <code>j</code> are variables of type
+<code>int</code>. What is the type of the expression
+<code>i / j + 'a'</code>?</p>
 <!-- END: Problem Statement -->
-<h1 id="solution-7">Solution:</h1>
+<h1 id="solution-8">Solution:</h1>
 <h2 id="program-link-2">Program Link</h2>
-<p><a href="./cknkCh07Exrc008.c">cknkCh07Exrc008.c</a></p>
+<p><a href="./cknkCh07Exrc009.c">cknkCh07Exrc009.c</a></p>
 <h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
 <h3 id="trial1-2">Trial1:</h3>
 <h4 id="trial1-execution-2">Trial1 execution:</h4>
@@ -186,16 +239,17 @@ d. <code>\t</code></p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch07exrc009">cknkCh07Exrc009</h1>
+<h1 id="cknkch07exrc010">cknkCh07Exrc010</h1>
 <p>Section 7.4</p>
 <!-- START: Problem Statement -->
-<p>Suppose that <code>i</code> and <code>j</code> are variables of type
-<code>int</code>. What is the type of the expression
-<code>i / j + 'a'</code>?</p>
+<p>Suppose that <code>i</code> is a variable of type <code>int</code>,
+<code>j</code> is a variable of type <code>long</code>, and
+<code>k</code> is a variable of type <code>unsigned int</code>. What is
+the type of the expression <code>i + (int) j * k</code>?</p>
 <!-- END: Problem Statement -->
-<h1 id="solution-8">Solution:</h1>
+<h1 id="solution-9">Solution:</h1>
 <h2 id="program-link-3">Program Link</h2>
-<p><a href="./cknkCh07Exrc009.c">cknkCh07Exrc009.c</a></p>
+<p><a href="./cknkCh07Exrc010.c">cknkCh07Exrc010.c</a></p>
 <h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
 <h3 id="trial1-3">Trial1:</h3>
 <h4 id="trial1-execution-3">Trial1 execution:</h4>
@@ -209,17 +263,17 @@ d. <code>\t</code></p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch07exrc010">cknkCh07Exrc010</h1>
+<h1 id="cknkch07exrc011">cknkCh07Exrc011</h1>
 <p>Section 7.4</p>
 <!-- START: Problem Statement -->
 <p>Suppose that <code>i</code> is a variable of type <code>int</code>,
-<code>j</code> is a variable of type <code>long</code>, and
-<code>k</code> is a variable of type <code>unsigned int</code>. What is
-the type of the expression <code>i + (int) j * k</code>?</p>
+<code>f</code> is a variable of type <code>float</code>, and
+<code>d</code> is a variable of type <code>double</code>. What is the
+type of the expression <code>i * f / d</code>?</p>
 <!-- END: Problem Statement -->
-<h1 id="solution-9">Solution:</h1>
+<h1 id="solution-10">Solution:</h1>
 <h2 id="program-link-4">Program Link</h2>
-<p><a href="./cknkCh07Exrc010.c">cknkCh07Exrc010.c</a></p>
+<p><a href="./cknkCh07Exrc011.c">cknkCh07Exrc011.c</a></p>
 <h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
 <h3 id="trial1-4">Trial1:</h3>
 <h4 id="trial1-execution-4">Trial1 execution:</h4>
@@ -233,17 +287,19 @@ the type of the expression <code>i + (int) j * k</code>?</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch07exrc011">cknkCh07Exrc011</h1>
+<h1 id="cknkch07exrc012">cknkCh07Exrc012</h1>
 <p>Section 7.4</p>
 <!-- START: Problem Statement -->
 <p>Suppose that <code>i</code> is a variable of type <code>int</code>,
 <code>f</code> is a variable of type <code>float</code>, and
-<code>d</code> is a variable of type <code>double</code>. What is the
-type of the expression <code>i * f / d</code>?</p>
+<code>d</code> is a variable of type <code>double</code>. Explain what
+conversions take place during the execution of the following
+statement:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> i <span class="op">+</span> f<span class="op">;</span></span></code></pre></div>
 <!-- END: Problem Statement -->
-<h1 id="solution-10">Solution:</h1>
+<h1 id="solution-11">Solution:</h1>
 <h2 id="program-link-5">Program Link</h2>
-<p><a href="./cknkCh07Exrc011.c">cknkCh07Exrc011.c</a></p>
+<p><a href="./cknkCh07Exrc012.c">cknkCh07Exrc012.c</a></p>
 <h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
 <h3 id="trial1-5">Trial1:</h3>
 <h4 id="trial1-execution-5">Trial1 execution:</h4>
@@ -257,19 +313,34 @@ type of the expression <code>i * f / d</code>?</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch07exrc012">cknkCh07Exrc012</h1>
+<h1 id="cknkch07exrc013">cknkCh07Exrc013</h1>
 <p>Section 7.4</p>
 <!-- START: Problem Statement -->
-<p>Suppose that <code>i</code> is a variable of type <code>int</code>,
-<code>f</code> is a variable of type <code>float</code>, and
-<code>d</code> is a variable of type <code>double</code>. Explain what
-conversions take place during the execution of the following
-statement:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> i <span class="op">+</span> f<span class="op">;</span></span></code></pre></div>
+<p>Assume that a program contains the following declarations:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> c <span class="op">=</span> &#39;\<span class="dv">1</span><span class="er">&#39;</span><span class="op">;</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="dt">short</span> s <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i <span class="op">=</span> <span class="op">-</span><span class="dv">3</span><span class="op">;</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="dt">long</span> m <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> f <span class="op">=</span> <span class="fl">6.5</span><span class="bu">f</span><span class="op">;</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> d <span class="op">=</span> <span class="fl">7.5</span><span class="op">;</span></span></code></pre></div>
+<p>Give the value and the type of each expression listed below.</p>
+<ol type="a">
+<li><code>c * i</code><br />
+</li>
+<li><code>s + m</code><br />
+</li>
+<li><code>f / c</code><br />
+</li>
+<li><code>d / s</code><br />
+</li>
+<li><code>f - d</code><br />
+</li>
+<li><code>(int) f</code></li>
+</ol>
 <!-- END: Problem Statement -->
-<h1 id="solution-11">Solution:</h1>
+<h1 id="solution-12">Solution:</h1>
 <h2 id="program-link-6">Program Link</h2>
-<p><a href="./cknkCh07Exrc012.c">cknkCh07Exrc012.c</a></p>
+<p><a href="./cknkCh07Exrc013.c">cknkCh07Exrc013.c</a></p>
 <h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
 <h3 id="trial1-6">Trial1:</h3>
 <h4 id="trial1-execution-6">Trial1 execution:</h4>
@@ -283,27 +354,18 @@ statement:</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch07exrc013">cknkCh07Exrc013</h1>
+<h1 id="cknkch07exrc014">cknkCh07Exrc014</h1>
 <p>Section 7.4</p>
 <!-- START: Problem Statement -->
-<p>Assume that a program contains the following declarations:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> c <span class="op">=</span> &#39;\<span class="dv">1</span><span class="er">&#39;</span><span class="op">;</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="dt">short</span> s <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i <span class="op">=</span> <span class="op">-</span><span class="dv">3</span><span class="op">;</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="dt">long</span> m <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> f <span class="op">=</span> <span class="fl">6.5</span><span class="bu">f</span><span class="op">;</span></span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> d <span class="op">=</span> <span class="fl">7.5</span><span class="op">;</span></span></code></pre></div>
-<p>Give the value and the type of each expression listed below.<br />
-a. <code>c * i</code><br />
-b. <code>s + m</code><br />
-c. <code>f / c</code><br />
-d. <code>d / s</code><br />
-e. <code>f - d</code><br />
-f. <code>(int) f</code></p>
+<p>Does the following statement always compute the fractional part of
+<code>f</code> correctly (assuming that <code>f</code> and
+<code>frac part</code> are <code>float</code> variables)?</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>frac_part <span class="op">=</span> f <span class="op">-</span> <span class="op">(</span><span class="dt">int</span><span class="op">)</span> f<span class="op">;</span></span></code></pre></div>
+<p>If not, what’s the problem?</p>
 <!-- END: Problem Statement -->
-<h1 id="solution-12">Solution:</h1>
+<h1 id="solution-13">Solution:</h1>
 <h2 id="program-link-7">Program Link</h2>
-<p><a href="./cknkCh07Exrc013.c">cknkCh07Exrc013.c</a></p>
+<p><a href="./cknkCh07Exrc014.c">cknkCh07Exrc014.c</a></p>
 <h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
 <h3 id="trial1-7">Trial1:</h3>
 <h4 id="trial1-execution-7">Trial1 execution:</h4>
@@ -317,18 +379,16 @@ f. <code>(int) f</code></p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch07exrc014">cknkCh07Exrc014</h1>
-<p>Section 7.4</p>
+<h1 id="cknkch07exrc015">cknkCh07Exrc015</h1>
+<p>Section 7.5</p>
 <!-- START: Problem Statement -->
-<p>Does the following statement always compute the fractional part of
-<code>f</code> correctly (assuming that <code>f</code> and
-<code>frac part</code> are <code>float</code> variables)?</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>frac_part <span class="op">=</span> f <span class="op">-</span> <span class="op">(</span><span class="dt">int</span><span class="op">)</span> f<span class="op">;</span></span></code></pre></div>
-<p>If not, what’s the problem?</p>
+<p>Use <code>typedef</code> to create types named <code>Int8</code>,
+<code>Int16</code>, and <code>Int32</code>. Define the types so that
+they represent 8-bit, 16-bit, and 32-bit integers on your machine.</p>
 <!-- END: Problem Statement -->
-<h1 id="solution-13">Solution:</h1>
+<h1 id="solution-14">Solution:</h1>
 <h2 id="program-link-8">Program Link</h2>
-<p><a href="./cknkCh07Exrc014.c">cknkCh07Exrc014.c</a></p>
+<p><a href="./cknkCh07Exrc015.c">cknkCh07Exrc015.c</a></p>
 <h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
 <h3 id="trial1-8">Trial1:</h3>
 <h4 id="trial1-execution-8">Trial1 execution:</h4>
@@ -339,29 +399,6 @@ f. <code>(int) f</code></p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h1 id="exercise-comment-8">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1ExrcPrj"/>
-<h1 id="cknkch07exrc015">cknkCh07Exrc015</h1>
-<p>Section 7.5</p>
-<!-- START: Problem Statement -->
-<p>Use <code>typedef</code> to create types named <code>Int8</code>,
-<code>Int16</code>, and <code>Int32</code>. Define the types so that
-they represent 8-bit, 16-bit, and 32-bit integers on your machine.</p>
-<!-- END: Problem Statement -->
-<h1 id="solution-14">Solution:</h1>
-<h2 id="program-link-9">Program Link</h2>
-<p><a href="./cknkCh07Exrc015.c">cknkCh07Exrc015.c</a></p>
-<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
-<h3 id="trial1-9">Trial1:</h3>
-<h4 id="trial1-execution-9">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-9">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-9">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
