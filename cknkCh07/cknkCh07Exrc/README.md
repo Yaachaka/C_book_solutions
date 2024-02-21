@@ -87,7 +87,7 @@ Section 7.3
 
 If `c` is a variable of type `char`, which one of the following statements is illegal?  
 a. `i += c; /* i has type int */`  
-b. `c = 2 * c -1;`  
+b. `c = 2 * c - 1;`  
 c. `putchar(c);`  
 d. `printf(c);`  
 
@@ -95,41 +95,10 @@ d. `printf(c);`
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh07Exrc004.c](./cknkCh07Exrc004.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+a. `i += c; /* i has type int */`: Valid statement. Integer equivalent of `c` will be used in the computation.  
+b. `c = 2 * c - 1;`: Invalid. The *rvalue* can result in value beyond 127. Since `c` is `unsigned`, value beyond 127 will result in negative values. There are no character representations for negative values in ASCII as per my understanding.   
+c. `putchar(c);`: Valid.  
+d. `printf(c);`: Invalid. Invalid syntax usage of `printf` statement (there is no format string).  
 
 <hr class="hr1ExrcPrj"/>
 
