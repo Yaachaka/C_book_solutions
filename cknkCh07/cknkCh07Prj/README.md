@@ -37,7 +37,19 @@ The `square2.c` program of Section 6.3 will fail (usually by printing strange an
 <!-- START: terminal interaction or other output -->
 
 ```shell
+This program is to determine the smallest value of n for which value of `i * i` can't be stored correctly in specified integer types.
 
+Testing for `short` type.
+Failed at n equal to 182 with (i * i) value of -32412.
+Last successfull storage was at n = 181 with (I * I) value of 32761.
+
+Testing for `int` type.
+Failed at n equal to 46341 with (i * i) value of -2147479015.
+Last successfull storage was at n = 46340 with (I * I) value of 2147395600.
+
+Testing for `long` type.
+Failed at n equal to 46341 with (i * i) value of -2147479015.
+Last successfull storage was at n = 46340 with (I * I) value of 2147395600.
 ```
 
 <!-- END: terminal interaction or other output -->
@@ -46,55 +58,11 @@ The `square2.c` program of Section 6.3 will fail (usually by printing strange an
 
 <!-- START: Comments -->
 
+By the experiments as suggested by the problem statement, it is observed that the number of bits used to store integer types on my machine are as follows:
 
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
+a. `short`: 16 bits  
+b. `int`: 32 bits
+c. `long`: 32 bits
 
 <!-- END: Comments -->
 
