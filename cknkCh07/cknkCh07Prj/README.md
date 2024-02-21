@@ -387,18 +387,11 @@ Your program should allow any mixture of lower-case and upper-case letters in th
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a word: pitfall
+Scrabble value: 12
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -407,18 +400,11 @@ Your program should allow any mixture of lower-case and upper-case letters in th
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a word: Govinda
+Scrabble value: 12
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -427,26 +413,11 @@ Your program should allow any mixture of lower-case and upper-case letters in th
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a word: Sumniru
+Scrabble value: 9
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
