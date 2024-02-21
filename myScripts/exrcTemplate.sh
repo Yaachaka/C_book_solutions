@@ -1,7 +1,7 @@
-chapter_section="Section 6." # Update needed here
-chapter="06"    # Update needed here
+chapter_section="Section 7." # Update needed here
+chapter="07"    # Update needed here
 
-chapterName="Loops"    # Give chapter name here
+chapterName="Basic Types"    # Give chapter name here
 
 title="# Chapter $chapter Excercises"
 
@@ -11,7 +11,7 @@ name1=$pref$chapter"Exrc"
 
 mkdir $prefChapter/$name1
 
-exrcCount=14    # Update the number of exercises here
+exrcCount=15    # Update the number of exercises here
 emptyLine="  "
 
 echo "<html>
@@ -103,8 +103,7 @@ int main(void)
 
 
     return 0;
-}
-" > $prefChapter/$name1/$name2.c
+}" > $prefChapter/$name1/$name2.c
 
 done    # For loop 1
 
