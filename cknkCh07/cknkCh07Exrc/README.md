@@ -206,41 +206,15 @@ Suppose that `i` and `j` are variables of type `int`. What is the type of the ex
 
 # Solution:
 
+`int`
 
-## Program Link
+Steps:
 
-[cknkCh07Exrc009.c](./cknkCh07Exrc009.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+`i / j + 'a'`  
+`(int / int) + char`  
+`int + char`  
+`int + int`: implicit conversion of `char` to `int`.  
+`int`
 
 <hr class="hr1ExrcPrj"/>
 
@@ -256,41 +230,14 @@ Suppose that `i` is a variable of type `int`, `j` is a variable of type `long`, 
 
 # Solution:
 
+`unsigned int`
 
-## Program Link
+Steps:
 
-[cknkCh07Exrc010.c](./cknkCh07Exrc010.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+`i + (int) j * k`  
+`(int + int) * unsigned int`  
+`int * unsigned int`  
+`unsigned int`  
 
 <hr class="hr1ExrcPrj"/>
 
@@ -306,41 +253,14 @@ Suppose that `i` is a variable of type `int`, `f` is a variable of type `float`,
 
 # Solution:
 
+`double`
 
-## Program Link
+Steps:
 
-[cknkCh07Exrc011.c](./cknkCh07Exrc011.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+`i * f / d`  
+`(int * float) / double`  
+`float / double`  
+`double`  
 
 <hr class="hr1ExrcPrj"/>
 
@@ -360,41 +280,14 @@ d = i + f;
 
 # Solution:
 
+`double`
 
-## Program Link
+Steps:
 
-[cknkCh07Exrc012.c](./cknkCh07Exrc012.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+`d = i + f;`  
+`double = int + float;`  
+`double = float`: implicit conversion on the RHS during computation  
+`double = double`: implicit conversion on RHS during assignment.  
 
 <hr class="hr1ExrcPrj"/>
 
