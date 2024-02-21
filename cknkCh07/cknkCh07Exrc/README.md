@@ -75,41 +75,7 @@ d. `unsigned long`
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh07Exrc003.c](./cknkCh07Exrc003.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+Except `(b)`, remaining are valid types.
 
 <hr class="hr1ExrcPrj"/>
 
