@@ -45,47 +45,17 @@ a. 010E2
 b. 32.1E+5  
 c. 0790  
 d. 100_000  
-e. 3.978e-2 
+e. 3.978e-2  
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh07Exrc002.c](./cknkCh07Exrc002.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+a. 010E2: My understanding was that there was no provision for writing floating-point numbers in octal form. But compiler does not seem to throw any warning or error. Therefore, this constant can be categorised as valid floating point.  
+b. 32.1E+5: Valid constant of floating point category.  
+c. 0790: Invalid constant. Preceding with 0 to represent octal form but contains digit 9.  
+d. 100_000: Invalid constant. Constant expressions cannot have underscore in it.  
+e. 3.978e-2: Valid floating-point constant.  
 
 <hr class="hr1ExrcPrj"/>
 
