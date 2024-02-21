@@ -187,41 +187,10 @@ Repeat Exercise 7, but give the equivalent hexadecimal escape.
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh07Exrc008.c](./cknkCh07Exrc008.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+a. `\b`: 0x08  
+b. `\n`: 0x0A  
+c. `\r`: 0x0F  
+d. `\t`: 0x09  
 
 <hr class="hr1ExrcPrj"/>
 
