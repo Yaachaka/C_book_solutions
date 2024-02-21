@@ -168,41 +168,10 @@ d. `\t`
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh07Exrc007.c](./cknkCh07Exrc007.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+a. `\b`: 010  
+b. `\n`: 012  
+c. `\r`: 015  
+d. `\t`: 011  
 
 <hr class="hr1ExrcPrj"/>
 
