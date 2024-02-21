@@ -1,0 +1,1430 @@
+<html>
+<head>
+<title>Chapter 07 Programming Projects</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../myStyle.css">
+</head>
+<body>
+
+07 Basic Types
+---
+
+# Chapter 07 Programming Projects
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj001
+
+<!-- START: Problem Statement -->
+
+The `square2.c` program of Section 6.3 will fail (usually by printing strange answers) if `i * i` exceeds the maximum `int` value. Run the program and determine the smallest value of `n` that causes failure. Try changing the type of `i` to `short` and running the program again. (Don't forget to update the conversion specifications in the call of `printf`!) Then try `long`. From these experiments, what can you conclude about the number of bits used to store integer types on your machine?
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj001.c](./cknkCh07Prj001.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj002
+
+<!-- START: Problem Statement -->
+
+Modify the `square2.c` program of Section 6.3 so that it pauses after every 24 squares and displays the following message:
+
+```shell
+Press Enter to continue...
+```
+
+After displaying the message, the program should use `getchar` to read a character. `getchar` won't allow the program to continue until the user presses the Enter key.
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj002.c](./cknkCh07Prj002.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj003
+
+<!-- START: Problem Statement -->
+
+Modify the `sum2.c` program of Section 7.1 to sum a series of double values.
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj003.c](./cknkCh07Prj003.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj004
+
+<!-- START: Problem Statement -->
+
+Write a program that translates an alphabetic phone number into numeric form:
+
+```shell
+Enter phone number: CALLATT
+2255288
+```
+
+(n case you don't have a telephone nearby, here are the letters on the keys: 2=ABC, 3=DEF, 4=GHI, 5=JKL, 6=MNO, 7=PRS, 8=TUV, 9=WXY.) If the original phone number contains nonalphabetic characters (digits or punctuation, for example), leave them unchanged:
+
+```shell
+Enter phone number: 1-800-COL-LECT
+1-800-265-5328
+```
+
+You may assume that any letters entered by the user are upper case.
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj004.c](./cknkCh07Prj004.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj005
+
+<!-- START: Problem Statement -->
+
+In the SCRABBLE Crossword Game, players form words using small tiles, each containing a letter and a face value. The face value varies from one letter to another, based on the letter's rarity. (Here are the face values: 1: AEILNORSTU, 2: DG, 3: BCMP, 4: FHVWY, 5: K, 8:JX, 10: QZ.) Write a program that computes the value of a word by summing the values of its letters:
+
+```shell
+Enter a word: pitfall
+Scrabble value: 12
+```
+
+Your program should allow any mixture of lower-case and upper-case letters in the word. *Hint*: Use the `toupper` library function.
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj005.c](./cknkCh07Prj005.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj006
+
+<!-- START: Problem Statement -->
+
+Write a program that prints the values of `sizeof (int)`, `sizeof(short)`, `sizeof(long)`, `sizeof(float)`, `sizeof(double)` and `sizeof(long double)`.
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj006.c](./cknkCh07Prj006.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj007
+
+<!-- START: Problem Statement -->
+
+Modify Programming Project 6 from Chapter 3 so that the user may add, subtract, multiply, or divide two fractions (by entering either `+`, `-`, `*`, or `/` between the fractions).
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj007.c](./cknkCh07Prj007.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj008
+
+<!-- START: Problem Statement -->
+
+Modify Programming Project 8 from Chapter 5 so that the user enters a time using the 12-hour clock. The input will have the form *hours : minutes* followed by either `A`, `P`, `AM`, or `PM` (either lower-case or upper-case). White space is allowed (but not required) between the numerical time and the `AM/PM` indicator. Examples of valid input: 
+
+```
+1:15P
+1:15PM
+1:15p
+1:15pm
+1:15P
+1:15 PM
+1：15 P
+1:15 pm
+```
+
+You may assume that the input has one of these forms; there is no need to test for errors.
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj008.c](./cknkCh07Prj008.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj009
+
+<!-- START: Problem Statement -->
+
+Write a program that asks the user for a 12-hour time, then displays the time in 24-hour form:
+
+```shell
+Enter a 12-hour time: 9:11 PM
+Equivalent 24-hour time: 21:11
+```
+
+See Programming Project 8 for a description of the input format.
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj009.c](./cknkCh07Prj009.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj010
+
+<!-- START: Problem Statement -->
+
+Write a program that counts the number of vowels (*a*, *e*, *i*, *o*, and *u*) in a sentence:
+
+```shell
+Enter a sentence: And that's the way it is.
+Your sentence contains 6 vowels.
+```
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj010.c](./cknkCh07Prj010.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj011
+
+<!-- START: Problem Statement -->
+
+Write a program that takes a first name and last name entered by the user and displays the last name, a comma, and the first initial, followed by a period:
+
+```shell
+Enter a first and last name: Lloyd Fosdick
+Fosdick, L.
+```
+
+The user's input may contain extra spaces before the first name, between the first and last names, and after the last name.
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj011.c](./cknkCh07Prj011.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj012
+
+<!-- START: Problem Statement -->
+
+Write a program that evaluates an expression:
+
+```shell
+Enter an expression: 1+2.5*3
+Value of expression: 10.5
+```
+
+The operands in the expression are floating-point numbers; the operators are `+`, `-`, `*`, and `/`.The expression is evaluated from left to right (no operator takes precedence over any other operator).
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj012.c](./cknkCh07Prj012.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj013
+
+<!-- START: Problem Statement -->
+
+Write a program that calculates the average word length for a sentence:
+
+```shell
+Enter a sentence: It was deja vu all over again.
+Average word length: 3.4
+```
+
+For simplicity, your program should consider a punctuation mark to be part of the word to
+which it is attached. Display the average word length to one decimal place.
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj013.c](./cknkCh07Prj013.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj014
+
+<!-- START: Problem Statement -->
+
+Write a program that uses Newton's method to compute the square root of a positive floating-point number:
+
+```shell
+Enter a positive number: 3
+Square root:1.73205
+```
+
+Let `x` be the number entered by the user. Newton's method requires an initial guess `y` for the square root of `x` (we'll use `y = 1`). Successive guesses are found by computing the average of `y` and `x / y`. The following table shows how the square root of 3 would be found:  
+
+|x|y|x/y|Average of x and x/y|
+|---|--|--|--|
+|3|1|3|2|
+|3|2|1.5|1.75|
+|3|1.75|1.71429|1.73214|
+|3|1.73214|1.73196|1.73205|
+|3|1.73205|1.73205|1.73205|
+
+Note that the values of `y` get progressively closer to the true square root of `x`. For greater accuracy, your program should use variables of type `double` rather than `float`. Have the program terminate when the absolute value of the difference between the old value of `y` and the new value of `y` is less than the product of `.00001` and `y`. Hint: Call the `fabs` function to find the absolute value of a double. (You'll need to include the `<math. h>` header at the beginning of your program in order to use `fabs`.)
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj014.c](./cknkCh07Prj014.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+# cknkCh07Prj015
+
+<!-- START: Problem Statement -->
+
+Write a program that computes the factorial of a positive integer:
+
+```shell
+Enter a positive integer: 6
+Factorial of 6: 720
+```
+
+a. Use a `short` variable to store the value of the factorial. What is the largest value of `n` for which the program correctly prints the factorial of `n`?  
+b. Repeat part (a), using an `int` variable instead.  
+c. Repeat part (a), using a `long` variable instead.  
+d. Repeat part (a), using a `long long` variable instead (if your compiler supports the `long long` type).  
+e. Repeat part (a), using a `float` variable instead.  
+f. Repeat part (a), using a `double` variable instead.  
+g. Repeat part (a), using a `long double` variable instead.  
+
+In cases (e)-(g), the program will display a close approximation of the factorial, not necessarily the exact value.
+
+
+<!-- END: Problem Statement -->
+
+# Solution:
+
+
+## Program Link
+
+[cknkCh07Prj015.c](./cknkCh07Prj015.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial1 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial2 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```shell
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+#### Trial3 Comments:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+# Exercise Comment:
+
+<!-- START: Comments -->
+
+
+
+<!-- END: Comments -->
+
+<hr class="hr1ExrcPrj"/>
+
+
+</body>
+</html>
