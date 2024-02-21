@@ -322,18 +322,11 @@ You may assume that any letters entered by the user are upper case.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter phone number: callatt
+2255288       
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -342,18 +335,11 @@ You may assume that any letters entered by the user are upper case.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter phone number: 1-800-COL-LECT
+1-800-265-5328
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -362,26 +348,11 @@ You may assume that any letters entered by the user are upper case.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter phone number: BEHIND-ENEMY-1
+234463-36369-1
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
