@@ -321,41 +321,50 @@ f. `(int) f`
 
 # Solution:
 
+<ol type="a">
+<li>
 
-## Program Link
+`c * i`  
 
-[cknkCh07Exrc013.c](./cknkCh07Exrc013.c)
+`c` is assigned with an octal escape sequence value which is equicalent to decimal value 1. `c` type gets converetd to `int` from `char` during computation because `i` is an `int`. Finally, the resulting data type of the expression will be `int`. And the computed value will be -3.
 
-## Output/ExecutionLog:
+</li>
+<li>
 
+`s + m`  
 
-### Trial1:
+`short + long` --> `long + long` --> `long`. And the value will be 7.
 
-#### Trial1 execution:
+</li>
+<li>
 
-<!-- START: terminal interaction or other output -->
+`f / c`  
 
-```shell
+`float / char` --> `float / float` --> `float`. And the final value will be 6.5f.
 
-```
+</li>
+<li>
 
-<!-- END: terminal interaction or other output -->
+`d / s`  
 
-#### Trial1 Comments:
+`double / short` --> `double / double` --> `double`. And the final value will be 3.75f.
 
-<!-- START: Comments -->
+</li>
+<li>
 
+`f - d`  
 
+`float - double` --> `double - double` --> `double`. And the value will be -1.0.
 
-<!-- END: Comments -->
+</li>
+<li>
 
-# Exercise Comment:
+`(int) f`  
 
-<!-- START: Comments -->
+Type will be `int` and the value will be 6.
 
-
-
-<!-- END: Comments -->
+</li>
+</ol>
 
 <hr class="hr1ExrcPrj"/>
 

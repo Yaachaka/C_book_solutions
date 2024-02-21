@@ -301,8 +301,54 @@ assignment.</p>
 </ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-12">Solution:</h1>
+<ol type="a">
+<li>
+<p><code>c * i</code></p>
+<p><code>c</code> is assigned with an octal escape sequence value which
+is equicalent to decimal value 1. <code>c</code> type gets converetd to
+<code>int</code> from <code>char</code> during computation because
+<code>i</code> is an <code>int</code>. Finally, the resulting data type
+of the expression will be <code>int</code>. And the computed value will
+be -3.</p>
+</li>
+<li>
+<p><code>s + m</code></p>
+<p><code>short + long</code> –&gt; <code>long + long</code> –&gt;
+<code>long</code>. And the value will be 7.</p>
+</li>
+<li>
+<p><code>f / c</code></p>
+<p><code>float / char</code> –&gt; <code>float / float</code> –&gt;
+<code>float</code>. And the final value will be 6.5f.</p>
+</li>
+<li>
+<p><code>d / s</code></p>
+<p><code>double / short</code> –&gt; <code>double / double</code> –&gt;
+<code>double</code>. And the final value will be 3.75f.</p>
+</li>
+<li>
+<p><code>f - d</code></p>
+<p><code>float - double</code> –&gt; <code>double - double</code> –&gt;
+<code>double</code>. And the value will be -1.0.</p>
+</li>
+<li>
+<p><code>(int) f</code></p>
+<p>Type will be <code>int</code> and the value will be 6.</p>
+</li>
+</ol>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch07exrc014">cknkCh07Exrc014</h1>
+<p>Section 7.4</p>
+<!-- START: Problem Statement -->
+<p>Does the following statement always compute the fractional part of
+<code>f</code> correctly (assuming that <code>f</code> and
+<code>frac part</code> are <code>float</code> variables)?</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>frac_part <span class="op">=</span> f <span class="op">-</span> <span class="op">(</span><span class="dt">int</span><span class="op">)</span> f<span class="op">;</span></span></code></pre></div>
+<p>If not, what’s the problem?</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-13">Solution:</h1>
 <h2 id="program-link">Program Link</h2>
-<p><a href="./cknkCh07Exrc013.c">cknkCh07Exrc013.c</a></p>
+<p><a href="./cknkCh07Exrc014.c">cknkCh07Exrc014.c</a></p>
 <h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
 <h3 id="trial1">Trial1:</h3>
 <h4 id="trial1-execution">Trial1 execution:</h4>
@@ -316,18 +362,16 @@ assignment.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch07exrc014">cknkCh07Exrc014</h1>
-<p>Section 7.4</p>
+<h1 id="cknkch07exrc015">cknkCh07Exrc015</h1>
+<p>Section 7.5</p>
 <!-- START: Problem Statement -->
-<p>Does the following statement always compute the fractional part of
-<code>f</code> correctly (assuming that <code>f</code> and
-<code>frac part</code> are <code>float</code> variables)?</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>frac_part <span class="op">=</span> f <span class="op">-</span> <span class="op">(</span><span class="dt">int</span><span class="op">)</span> f<span class="op">;</span></span></code></pre></div>
-<p>If not, what’s the problem?</p>
+<p>Use <code>typedef</code> to create types named <code>Int8</code>,
+<code>Int16</code>, and <code>Int32</code>. Define the types so that
+they represent 8-bit, 16-bit, and 32-bit integers on your machine.</p>
 <!-- END: Problem Statement -->
-<h1 id="solution-13">Solution:</h1>
+<h1 id="solution-14">Solution:</h1>
 <h2 id="program-link-1">Program Link</h2>
-<p><a href="./cknkCh07Exrc014.c">cknkCh07Exrc014.c</a></p>
+<p><a href="./cknkCh07Exrc015.c">cknkCh07Exrc015.c</a></p>
 <h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
 <h3 id="trial1-1">Trial1:</h3>
 <h4 id="trial1-execution-1">Trial1 execution:</h4>
@@ -338,29 +382,6 @@ assignment.</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h1 id="exercise-comment-1">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1ExrcPrj"/>
-<h1 id="cknkch07exrc015">cknkCh07Exrc015</h1>
-<p>Section 7.5</p>
-<!-- START: Problem Statement -->
-<p>Use <code>typedef</code> to create types named <code>Int8</code>,
-<code>Int16</code>, and <code>Int32</code>. Define the types so that
-they represent 8-bit, 16-bit, and 32-bit integers on your machine.</p>
-<!-- END: Problem Statement -->
-<h1 id="solution-14">Solution:</h1>
-<h2 id="program-link-2">Program Link</h2>
-<p><a href="./cknkCh07Exrc015.c">cknkCh07Exrc015.c</a></p>
-<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
-<h3 id="trial1-2">Trial1:</h3>
-<h4 id="trial1-execution-2">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-2">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-2">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
