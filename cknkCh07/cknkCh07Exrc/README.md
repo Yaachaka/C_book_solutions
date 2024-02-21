@@ -118,41 +118,7 @@ d. `0x41`
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh07Exrc005.c](./cknkCh07Exrc005.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+All of them are valid.
 
 <hr class="hr1ExrcPrj"/>
 
