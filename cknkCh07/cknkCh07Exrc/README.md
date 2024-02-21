@@ -387,41 +387,7 @@ If not, what's the problem?
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh07Exrc014.c](./cknkCh07Exrc014.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+Will not always compute the correct value. It fails when the value of `f` is greater than the maximum value an `int` can hold.
 
 <hr class="hr1ExrcPrj"/>
 
