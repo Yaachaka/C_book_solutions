@@ -403,41 +403,11 @@ Use `typedef` to create types named `Int8`, `Int16`, and `Int32`. Define the typ
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh07Exrc015.c](./cknkCh07Exrc015.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+typedef char Int8;
+typedef short Int16;
+typedef int Int32;
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
