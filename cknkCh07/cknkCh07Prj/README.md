@@ -552,18 +552,11 @@ You may assume that the input has one of these forms; there is no need to test f
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 12-hour time: 02:16 am
+Closest departure time is 8:00 a.m., arriving at 10:16 a.m.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -572,18 +565,11 @@ You may assume that the input has one of these forms; there is no need to test f
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 12-hour time: 11:15 Am
+Closest departure time is 11:19 a.m., arriving at 1:31 p.m.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -592,26 +578,11 @@ You may assume that the input has one of these forms; there is no need to test f
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 12-hour time: 08:19pm
+Closest departure time is 7:00 p.m., arriving at 9:20 p.m.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
