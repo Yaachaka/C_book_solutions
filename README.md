@@ -35,3 +35,9 @@ Notes (book) in HTML: [./CProgrammingKNKing2ndEd.html](./CProgrammingKNKing2ndEd
 - [Examples](./cknkCh06/cknkCh06Exmp)
 - [Exercises](./cknkCh06/cknkCh06Exrc)
 - [Programming Projects](./cknkCh06/cknkCh06Prj)
+
+**[Chapter 7 Basic Types](./cknkCh07):**
+
+- [Examples](./cknkCh07/cknkCh07Exmp)
+- [Exercises](./cknkCh07/cknkCh07Exrc)
+- [Programming Projects](./cknkCh07/cknkCh07Prj)
