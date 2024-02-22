@@ -66,7 +66,7 @@ int main(void)
     {
         case MINS_480: printf("8:00 a.m., arriving at 10:16 a.m.\n");break;
         case MINS_583: printf("9:43 a.m., arriving at 11:52 a.m.\n");break;
-        case MINS_679: printf("11:19 p.m., arriving at 1:31 p.m.\n");break;
+        case MINS_679: printf("11:19 a.m., arriving at 1:31 p.m.\n");break;
         case MINS_767: printf("12:47 p.m., arriving at 3:00 p.m.\n");break;
         case MINS_840: printf("2:00 p.m., arriving at 4:08 p.m.\n");break;
         case MINS_945: printf("3:45 p.m., arriving at 5:55 p.m.\n");break;
