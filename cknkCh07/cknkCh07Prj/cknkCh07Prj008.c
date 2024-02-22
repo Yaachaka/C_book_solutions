@@ -33,6 +33,10 @@ int main(void)
     {
         i_hour24 = i_hour12 + 12;
     }
+    else
+    {
+        i_hour24 = 12;
+    }
     i_minute24 = i_minute12;
 
     i_totalMinutes = i_hour24 * 60 + i_minute24;
