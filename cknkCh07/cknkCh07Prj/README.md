@@ -745,18 +745,11 @@ The user's input may contain extra spaces before the first name, between the fir
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a first and last name (separated by a space): Lloyd Fosdick
+Fosdick, L
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -765,18 +758,11 @@ The user's input may contain extra spaces before the first name, between the fir
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a first and last name (separated by a space): Shiva Ganesha
+Ganesha, S
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -785,26 +771,11 @@ The user's input may contain extra spaces before the first name, between the fir
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a first and last name (separated by a space): Shivappa Naayaka
+Naayaka, S
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
