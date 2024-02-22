@@ -918,12 +918,12 @@ Write a program that uses Newton's method to compute the square root of a positi
 
 ```shell
 Enter a positive number: 3
-Square root:1.73205
+Square root: 1.73205
 ```
 
 Let `x` be the number entered by the user. Newton's method requires an initial guess `y` for the square root of `x` (we'll use `y = 1`). Successive guesses are found by computing the average of `y` and `x / y`. The following table shows how the square root of 3 would be found:  
 
-|x|y|x/y|Average of x and x/y|
+|x|y|x/y|Average of y and x/y|
 |---|--|--|--|
 |3|1|3|2|
 |3|2|1.5|1.75|
@@ -951,18 +951,11 @@ Note that the values of `y` get progressively closer to the true square root of 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a positive number: 3
+Square root: 1.732051
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -971,18 +964,11 @@ Note that the values of `y` get progressively closer to the true square root of 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a positive number: 16.5
+Square root: 4.062019
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -991,26 +977,11 @@ Note that the values of `y` get progressively closer to the true square root of 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a positive number: 144
+Square root: 12.000000
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
