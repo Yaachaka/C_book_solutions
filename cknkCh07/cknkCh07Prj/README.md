@@ -810,18 +810,11 @@ The operands in the expression are floating-point numbers; the operators are `+`
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter an expression: 1 + 3.5 * 3
+Value of expression: 13.50
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -830,18 +823,11 @@ The operands in the expression are floating-point numbers; the operators are `+`
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter an expression: 1/3+4/0
+Divide by zero situation.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -850,26 +836,11 @@ The operands in the expression are floating-point numbers; the operators are `+`
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter an expression: 53 + 48 - 53 + 100
+Value of expression: 148.00
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
