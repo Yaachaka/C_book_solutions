@@ -481,18 +481,11 @@ Modify Programming Project 6 from Chapter 3 so that the user may add, subtract, 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter two fractions separated by a basic arithmetic operator (+, -, *, /) sign: 13/2 + 8/9
+The sum is 133/18
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -501,18 +494,11 @@ Modify Programming Project 6 from Chapter 3 so that the user may add, subtract, 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter two fractions separated by a basic arithmetic operator (+, -, *, /) sign: 13/2 * 8/9
+The product is 104/18
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -521,26 +507,11 @@ Modify Programming Project 6 from Chapter 3 so that the user may add, subtract, 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter two fractions separated by a basic arithmetic operator (+, -, *, /) sign: 13/2 / 8/9
+The result of division is 117/16
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
