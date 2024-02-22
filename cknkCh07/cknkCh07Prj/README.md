@@ -876,18 +876,11 @@ which it is attached. Display the average word length to one decimal place.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a sentence: It was deja vu all over again.
+Average word length: 3.43
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -896,18 +889,11 @@ which it is attached. Display the average word length to one decimal place.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a sentence: Thangaaliyalli naanu theli bande.
+Average word length: 7.50
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -916,26 +902,11 @@ which it is attached. Display the average word length to one decimal place.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a sentence: O malenaadina maisiriye...
+Average word length: 8.00
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
