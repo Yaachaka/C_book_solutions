@@ -680,18 +680,11 @@ Your sentence contains 6 vowels.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a sentence: And that's the way it is.
+Your sentence contains 6 vowels.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -700,18 +693,11 @@ Your sentence contains 6 vowels.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a sentence: Dheera dheera dheera... dheera ee sulthaana!!!
+Your sentence contains 18 vowels.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -720,26 +706,11 @@ Your sentence contains 6 vowels.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a sentence: Preethisuve preethisuve mithimeeri ninnane preethisuve...
+Your sentence contains 23 vowels.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
