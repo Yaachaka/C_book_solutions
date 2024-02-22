@@ -617,18 +617,11 @@ See Programming Project 8 for a description of the input format.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 12-hour time: 2:15am
+Equvalent 24-hour time: 02:15
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -637,18 +630,11 @@ See Programming Project 8 for a description of the input format.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 12-hour time: 12:15pm
+Equvalent 24-hour time: 12:15
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -657,26 +643,11 @@ See Programming Project 8 for a description of the input format.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 12-hour time: 4:45pm
+Equvalent 24-hour time: 16:45
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
