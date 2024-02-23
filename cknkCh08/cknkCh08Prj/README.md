@@ -259,18 +259,18 @@ Modify the `interest.c` program of Section 8.1 so that it compounds interest mon
 <!-- START: terminal interaction or other output -->
 
 ```shell
+Enter interest rate: 6
+Enter number of years: 5
 
+Years    6.00%  7.00%  8.00%  9.00% 10.00% 
+  1     106.17 107.23 108.30 109.38 110.47
+  2     112.72 114.98 117.29 119.64 122.04
+  3     119.67 123.29 127.02 130.86 134.82
+  4     127.05 132.21 137.57 143.14 148.94
+  5     134.89 141.76 148.98 156.57 164.53
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -279,18 +279,23 @@ Modify the `interest.c` program of Section 8.1 so that it compounds interest mon
 <!-- START: terminal interaction or other output -->
 
 ```shell
+Enter interest rate: 4
+Enter number of years: 10
 
+Years    4.00%  5.00%  6.00%  7.00%  8.00% 
+  1     104.07 105.12 106.17 107.23 108.30
+  2     108.31 110.49 112.72 114.98 117.29
+  3     112.73 116.15 119.67 123.29 127.02
+  4     117.32 122.09 127.05 132.21 137.57
+  5     122.10 128.34 134.89 141.76 148.98
+  6     127.07 134.90 143.20 152.01 161.35
+  7     132.25 141.80 152.04 163.00 174.74
+  8     137.64 149.06 161.41 174.78 189.25
+  9     143.25 156.68 171.37 187.42 204.95
+ 10     149.08 164.70 181.94 200.97 221.96
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -299,26 +304,17 @@ Modify the `interest.c` program of Section 8.1 so that it compounds interest mon
 <!-- START: terminal interaction or other output -->
 
 ```shell
+Enter interest rate: 8
+Enter number of years: 4
 
+Years    8.00%  9.00% 10.00% 11.00% 12.00% 
+  1     108.30 109.38 110.47 111.57 112.68
+  2     117.29 119.64 122.04 124.48 126.97
+  3     127.02 130.86 134.82 138.89 143.08
+  4     137.57 143.14 148.94 154.96 161.22
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
