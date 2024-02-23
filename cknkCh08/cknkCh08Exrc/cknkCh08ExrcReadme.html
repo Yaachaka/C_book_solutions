@@ -20,20 +20,11 @@ where <code>t</code> is the type of <code>a</code>’s elements, would
 also work, but it’s considered an inferior technique. Why?</p>
 <!-- END: Problem Statement -->
 <h1 id="solution">Solution:</h1>
-<h2 id="program-link">Program Link</h2>
-<p><a href="./cknkCh08Exrc001.c">cknkCh08Exrc001.c</a></p>
-<h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
-<h3 id="trial1">Trial1:</h3>
-<h4 id="trial1-execution">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
+<p>That is becasue, <code>sizeof(a[0])</code> automatically detects the
+type of <code>a</code>’s elements. This is useful when and if there is a
+change in the type of <code>a</code>. In the case of,
+<code>sizeof(t)</code>, we will need to identify the type of
+<code>a</code>’s elements and update.</p>
 <hr class="hr1ExrcPrj"/>
 <h1 id="cknkch08exrc002">cknkCh08Exrc002</h1>
 <p>Section 8.1</p>
@@ -43,44 +34,20 @@ subscript. Describe how to use a <em>digit</em> (in character form) as a
 subscript.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-1">Solution:</h1>
-<h2 id="program-link-1">Program Link</h2>
-<p><a href="./cknkCh08Exrc002.c">cknkCh08Exrc002.c</a></p>
-<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
-<h3 id="trial1-1">Trial1:</h3>
-<h4 id="trial1-execution-1">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-1">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-1">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
+<p>Let’s consider <code>ch</code> contains a digit 4 in character form
+i.e., <code>'4'</code>, then we can write <code>digit[ch - '0']</code>
+(which results in <code>digit[4]</code> for this example.)</p>
 <hr class="hr1ExrcPrj"/>
 <h1 id="cknkch08exrc003">cknkCh08Exrc003</h1>
 <p>Section 8.1</p>
 <!-- START: Problem Statement -->
-<p>Write a declaration of an array named weekend containing seven
-<code>bool</code> values. Include an initializer that makes the first
-and last values <code>true</code>; all other values should be
+<p>Write a declaration of an array named <code>weekend</code> containing
+seven <code>bool</code> values. Include an initializer that makes the
+first and last values <code>true</code>; all other values should be
 <code>false</code>.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-2">Solution:</h1>
-<h2 id="program-link-2">Program Link</h2>
-<p><a href="./cknkCh08Exrc003.c">cknkCh08Exrc003.c</a></p>
-<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
-<h3 id="trial1-2">Trial1:</h3>
-<h4 id="trial1-execution-2">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-2">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-2">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
+<div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> weekend<span class="op">[]</span> <span class="op">=</span> <span class="op">{</span>true<span class="op">,</span> false<span class="op">,</span> <span class="op">,</span> false<span class="op">,</span> false<span class="op">,</span> false<span class="op">,</span> false<span class="op">,</span> true<span class="op">};</span></span></code></pre></div>
 <hr class="hr1ExrcPrj"/>
 <h1 id="cknkch08exrc004">cknkCh08Exrc004</h1>
 <p>Section 8.1</p>
@@ -89,20 +56,7 @@ and last values <code>true</code>; all other values should be
 Make the initializer as short as possible.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-3">Solution:</h1>
-<h2 id="program-link-3">Program Link</h2>
-<p><a href="./cknkCh08Exrc004.c">cknkCh08Exrc004.c</a></p>
-<h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
-<h3 id="trial1-3">Trial1:</h3>
-<h4 id="trial1-execution-3">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-3">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-3">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
+<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> weekend<span class="op">[]</span> <span class="op">=</span> <span class="op">{[</span><span class="dv">0</span><span class="op">]</span> <span class="op">=</span> true<span class="op">,</span> <span class="op">[</span><span class="dv">6</span><span class="op">]</span> <span class="op">=</span> true<span class="op">};</span></span></code></pre></div>
 <hr class="hr1ExrcPrj"/>
 <h1 id="cknkch08exrc005">cknkCh08Exrc005</h1>
 <p>Section 8.1</p>
@@ -115,18 +69,18 @@ in the first two numbers individually, then use a loop to compute the
 remaining numbers.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-4">Solution:</h1>
-<h2 id="program-link-4">Program Link</h2>
+<h2 id="program-link">Program Link</h2>
 <p><a href="./cknkCh08Exrc005.c">cknkCh08Exrc005.c</a></p>
-<h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
-<h3 id="trial1-4">Trial1:</h3>
-<h4 id="trial1-execution-4">Trial1 execution:</h4>
+<h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
+<h3 id="trial1">Trial1:</h3>
+<h4 id="trial1-execution">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-4">Trial1 Comments:</h4>
+<h4 id="trial1-comments">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-4">Exercise Comment:</h1>
+<h1 id="exercise-comment">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -149,23 +103,23 @@ should be “on” for each digit. Let’s number the segments as follows:</p>
  ‾        </code></pre>
 <p>Here’s what the array might look like, with each row representing one
 digit:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="dt">const</span> <span class="dt">int</span> segments<span class="op">[</span><span class="dv">10</span><span class="op">][</span><span class="dv">7</span><span class="op">]</span> <span class="op">=</span> <span class="op">{{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">},</span> <span class="op">...};</span></span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="dt">const</span> <span class="dt">int</span> segments<span class="op">[</span><span class="dv">10</span><span class="op">][</span><span class="dv">7</span><span class="op">]</span> <span class="op">=</span> <span class="op">{{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">},</span> <span class="op">...};</span></span></code></pre></div>
 <p>I’ve given you the first row of the initializer; fill in the
 rest.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-5">Solution:</h1>
-<h2 id="program-link-5">Program Link</h2>
+<h2 id="program-link-1">Program Link</h2>
 <p><a href="./cknkCh08Exrc006.c">cknkCh08Exrc006.c</a></p>
-<h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
-<h3 id="trial1-5">Trial1:</h3>
-<h4 id="trial1-execution-5">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
+<h3 id="trial1-1">Trial1:</h3>
+<h4 id="trial1-execution-1">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-5">Trial1 Comments:</h4>
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-5">Exercise Comment:</h1>
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -176,18 +130,18 @@ rest.</p>
 for the segments array (Exercise 6) as much as you can.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-6">Solution:</h1>
-<h2 id="program-link-6">Program Link</h2>
+<h2 id="program-link-2">Program Link</h2>
 <p><a href="./cknkCh08Exrc007.c">cknkCh08Exrc007.c</a></p>
-<h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
-<h3 id="trial1-6">Trial1:</h3>
-<h4 id="trial1-execution-6">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
+<h3 id="trial1-2">Trial1:</h3>
+<h4 id="trial1-execution-2">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-6">Trial1 Comments:</h4>
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-6">Exercise Comment:</h1>
+<h1 id="exercise-comment-2">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -201,18 +155,18 @@ The rows of the array should represent days of the month; the columns
 should represent hours of the day.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-7">Solution:</h1>
-<h2 id="program-link-7">Program Link</h2>
+<h2 id="program-link-3">Program Link</h2>
 <p><a href="./cknkCh08Exrc008.c">cknkCh08Exrc008.c</a></p>
-<h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
-<h3 id="trial1-7">Trial1:</h3>
-<h4 id="trial1-execution-7">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
+<h3 id="trial1-3">Trial1:</h3>
+<h4 id="trial1-execution-3">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-7">Trial1 Comments:</h4>
+<h4 id="trial1-comments-3">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-7">Exercise Comment:</h1>
+<h1 id="exercise-comment-3">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -224,18 +178,18 @@ the average temperature for a month (averaged over all days of the month
 and all hours of the day).</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-8">Solution:</h1>
-<h2 id="program-link-8">Program Link</h2>
+<h2 id="program-link-4">Program Link</h2>
 <p><a href="./cknkCh08Exrc009.c">cknkCh08Exrc009.c</a></p>
-<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
-<h3 id="trial1-8">Trial1:</h3>
-<h4 id="trial1-execution-8">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
+<h3 id="trial1-4">Trial1:</h3>
+<h4 id="trial1-execution-4">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-8">Trial1 Comments:</h4>
+<h4 id="trial1-comments-4">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-8">Exercise Comment:</h1>
+<h1 id="exercise-comment-4">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -255,18 +209,18 @@ P P P P P P P P
 R N B Q K B N R</code></pre>
 <!-- END: Problem Statement -->
 <h1 id="solution-9">Solution:</h1>
-<h2 id="program-link-9">Program Link</h2>
+<h2 id="program-link-5">Program Link</h2>
 <p><a href="./cknkCh08Exrc010.c">cknkCh08Exrc010.c</a></p>
-<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
-<h3 id="trial1-9">Trial1:</h3>
-<h4 id="trial1-execution-9">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
+<h3 id="trial1-5">Trial1:</h3>
+<h4 id="trial1-execution-5">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-9">Trial1 Comments:</h4>
+<h4 id="trial1-comments-5">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-9">Exercise Comment:</h1>
+<h1 id="exercise-comment-5">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -289,18 +243,18 @@ R B R B R B R B</code></pre>
 <code>i + j</code> is an even number.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-10">Solution:</h1>
-<h2 id="program-link-10">Program Link</h2>
+<h2 id="program-link-6">Program Link</h2>
 <p><a href="./cknkCh08Exrc011.c">cknkCh08Exrc011.c</a></p>
-<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
-<h3 id="trial1-10">Trial1:</h3>
-<h4 id="trial1-execution-10">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
+<h3 id="trial1-6">Trial1:</h3>
+<h4 id="trial1-execution-6">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-10">Trial1 Comments:</h4>
+<h4 id="trial1-comments-6">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-10">Exercise Comment:</h1>
+<h1 id="exercise-comment-6">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>

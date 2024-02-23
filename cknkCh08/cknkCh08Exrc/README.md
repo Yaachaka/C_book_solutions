@@ -25,41 +25,7 @@ We discussed using the expression `sizeof(a) / sizeof(a[0])` to calculate the nu
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh08Exrc001.c](./cknkCh08Exrc001.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+That is becasue, `sizeof(a[0])` automatically detects the type of `a`'s elements. This is useful when and if there is a change in the type of `a`. In the case of, `sizeof(t)`, we will need to identify the type of `a`'s elements and update.
 
 <hr class="hr1ExrcPrj"/>
 
@@ -75,41 +41,7 @@ The Q&A section shows how to use a *letter* as an array subscript. Describe how 
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh08Exrc002.c](./cknkCh08Exrc002.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+Let's consider `ch` contains a digit 4 in character form i.e., `'4'`, then we can write `digit[ch - '0']` (which results in `digit[4]` for this example.)
 
 <hr class="hr1ExrcPrj"/>
 
@@ -119,47 +51,15 @@ Section 8.1
 
 <!-- START: Problem Statement -->
 
-Write a declaration of an array named weekend containing seven `bool` values. Include an initializer that makes the first and last values `true`; all other values should be `false`.
+Write a declaration of an array named `weekend` containing seven `bool` values. Include an initializer that makes the first and last values `true`; all other values should be `false`.
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh08Exrc003.c](./cknkCh08Exrc003.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+bool weekend[] = {true, false, , false, false, false, false, true};
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -175,41 +75,9 @@ Section 8.1
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh08Exrc004.c](./cknkCh08Exrc004.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+bool weekend[] = {[0] = true, [6] = true};
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
