@@ -1,7 +1,7 @@
-chapter_section="Section 7." # Update needed here
-chapter="07"    # Update needed here
+chapter_section="Section 8." # Update needed here
+chapter="08"    # Update needed here
 
-chapterName="Basic Types"    # Give chapter name here
+chapterName="Arrays"    # Give chapter name here
 
 title="# Chapter $chapter Excercises"
 
@@ -11,7 +11,7 @@ name1=$pref$chapter"Exrc"
 
 mkdir $prefChapter/$name1
 
-exrcCount=15    # Update the number of exercises here
+exrcCount=11    # Update the number of exercises here
 emptyLine="  "
 
 echo "<html>
