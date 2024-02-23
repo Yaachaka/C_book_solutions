@@ -42,18 +42,11 @@ Repeated digit(s): 7 9
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number: 939577
+Repeated digit(s): 7 9
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -62,18 +55,11 @@ Repeated digit(s): 7 9
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number: 18002668706
+Repeated digit(s): 0 6 8
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -82,26 +68,11 @@ Repeated digit(s): 7 9
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number: 012457
+No digits repeated
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
