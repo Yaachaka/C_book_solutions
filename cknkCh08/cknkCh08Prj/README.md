@@ -106,18 +106,12 @@ Occurrences:  1  2  2  0  1  0  0  1  0  1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number: 41271092
+Digit:        0  1  2  3  4  5  6  7  8  9
+Occurrences:  1  2  2  0  1  0  0  1  0  1
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -126,18 +120,12 @@ Occurrences:  1  2  2  0  1  0  0  1  0  1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number: 18002668706
+Digit:        0  1  2  3  4  5  6  7  8  9
+Occurrences:  3  1  1  0  0  0  3  1  2  0
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -146,26 +134,12 @@ Occurrences:  1  2  2  0  1  0  0  1  0  1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a number: 012458
+Digit:        0  1  2  3  4  5  6  7  8  9
+Occurrences:  0  1  1  0  1  1  0  0  1  0
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
