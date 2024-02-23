@@ -182,41 +182,21 @@ Using the shortcuts described in Section 8.2, shrink the initializer for the seg
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh08Exrc007.c](./cknkCh08Exrc007.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+const int segments[10][7] = {
+   //0, 1, 2, 3, 4, 5, 6
+    {1, 1, 1, 1, 1, 1},    // 0
+    {0, 1, 1},    // 1
+    {1, 1, 0, 1, 1, 0, 1},    // 2
+    {1, 1, 1, 1, 0, 0, 1},    // 3
+    {0, 1, 1, 0, 0, 1, 1},    // 4
+    {1, 0, 1, 1, 0, 1, 1},    // 5
+    {1, 0, 1, 1, 1, 1, 1},    // 6
+    {1, 1, 1, },    // 7
+    {1, 1, 1, 1, 1, 1, 1},    // 8
+    {1, 1, 1, 1, 0, 1, 1},    // 9
+    };
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
