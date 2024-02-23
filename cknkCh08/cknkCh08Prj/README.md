@@ -167,18 +167,19 @@ Modify the `repdigit.c` program of Section 8.1 so that the user can enter more t
 <!-- START: terminal interaction or other output -->
 
 ```shell
+Enter a number: 939577
+Repeated digits present in the number 939577
 
+Enter a number: 18002668706
+Repeated digits present in the number 18002668706
+
+Enter a number: 012458
+No repeated digits present in the number 12458
+
+Enter a number: 0
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -188,45 +189,17 @@ Modify the `repdigit.c` program of Section 8.1 so that the user can enter more t
 
 ```shell
 
+Enter a number: 939577 18002668706 124586 0
+Repeated digits present in the number 939577
+
+Enter a number: Repeated digits present in the number 18002668706
+
+Enter a number: Repeated digits present in the number 124586
+
+Enter a number: 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
