@@ -212,41 +212,9 @@ Write a declaration for a two-dimensional array named `temperature_readings` tha
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh08Exrc008.c](./cknkCh08Exrc008.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+double temperature_readings[30][24] = {0};
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -262,41 +230,26 @@ Using the array of Exercise 8, write a program fragment that computes the averag
 
 # Solution:
 
+```C
+#define DAYS 30
+#define HOURS 24
 
-## Program Link
+double temperature_readings[30][24] = {0};
 
-[cknkCh08Exrc009.c](./cknkCh08Exrc009.c)
+// Assuming the temperature readings are captured
 
-## Output/ExecutionLog:
+double total_temperature = 0.0;
 
+for(int i = 0; i < DAYS; i++)
+{
+    for(int j = 0; j < HOURS; j++)
+    {
+        total_temperature += temperature_readings[i][j];
+    }
+}
 
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+printf("Average temperature of the month is %lf°C\n", total_temperature / (DAYS * HOURS));
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -323,41 +276,18 @@ R N B Q K B N R
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh08Exrc010.c](./cknkCh08Exrc010.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+char chess_board[8][8] = {
+    {'r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'},
+    {'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'},
+    {' ', '.', ' ', '.', ' ', '.', ' ', '.'},
+    {'.', ' ', '.', ' ', '.', ' ', '.', ' '},
+    {' ', '.', ' ', '.', ' ', '.', ' ', '.'},
+    {'.', ' ', '.', ' ', '.', ' ', '.', ' '},
+    {'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
+    {'R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'}
+};
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -386,41 +316,24 @@ R B R B R B R B
 
 # Solution:
 
+```C
+char checker_board[8][8] = {0};
 
-## Program Link
-
-[cknkCh08Exrc011.c](./cknkCh08Exrc011.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+for(int i = 0; i < 8; i++)
+{
+    for(int j = 0; j < 8; j++)
+    {
+        if((i + j) % 2)
+        {
+            checker_board[i][j] = 'R';
+        }
+        else
+        {
+            checker_board[i][j] = 'B';
+        }
+    }
+}
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
