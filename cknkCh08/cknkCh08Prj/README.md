@@ -333,7 +333,7 @@ Write a "B1FF filter" that reads a message entered by the user and translates it
 
 ```shell
 Enter message: Hey dude, C is rilly cool
-In BlFF-speak: H3Y DUD3, C 15 RILLY COOL!!!!!!!!!!
+In B1FF-speak: H3Y DUD3, C 15 RILLY COOL!!!!!!!!!!
 ```
 
 Your program should convert the message to upper-case letters, substitute digits for certain letters (A→4, B→8, E→3, I→1, O→0, S→5), and then append 10 or so exclamation marks. *Hint*: Store the original message in an array of characters, then go back through the array, translating and printing characters one by one.
@@ -356,18 +356,11 @@ Your program should convert the message to upper-case letters, substitute digits
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter message (max. 80 chars.): Hey dude, C is rilly cool
+In B1FF-speak: H3Y DUD3, C 15 R1LLY C00L!!!!!!!!!!
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -376,18 +369,11 @@ Your program should convert the message to upper-case letters, substitute digits
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter message (max. 80 chars.): Saagarada alegoo danivu...
+In B1FF-speak: 544G4R4D4 4L3G00 D4N1VU...!!!!!!!!!!
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -396,26 +382,11 @@ Your program should convert the message to upper-case letters, substitute digits
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter message (max. 80 chars.): Ivanyaara magano hingavnalla...
+In B1FF-speak: 1V4NY44R4 M4G4N0 H1NG4VN4LL4...!!!!!!!!!!
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
