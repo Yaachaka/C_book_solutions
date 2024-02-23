@@ -483,18 +483,19 @@ Modify Programming Project 7 so that it prompts for five quiz grades for each of
 <!-- START: terminal interaction or other output -->
 
 ```shell
+Enter five quiz grades of student 1: 8 3 9 0 10
+Enter five quiz grades of student 2: 3 5 17 1 1
+Enter five quiz grades of student 3: 2 8 6 23 1
+Enter five quiz grades of student 4: 15 7 3 2 9
+Enter five quiz grades of student 5: 6 14 2 6 0
 
+Total scores of each student: 30 27 40 36 28
+Average score of each quiz: 6.80 7.40 7.40 6.40 4.20
+High scores of each quiz: 15 14 17 23 10
+Low scores of each quiz: 2 3 2 0 0
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -503,46 +504,19 @@ Modify Programming Project 7 so that it prompts for five quiz grades for each of
 <!-- START: terminal interaction or other output -->
 
 ```shell
+Enter five quiz grades of student 1: 5 4 6 7 9
+Enter five quiz grades of student 2: 4 8 8 9 1
+Enter five quiz grades of student 3: 7 5 3 9 8
+Enter five quiz grades of student 4: 1 5 9 6 4
+Enter five quiz grades of student 5: 8 4 6 2 5
 
+Total scores of each student: 31 30 32 25 25
+Average score of each quiz: 5.00 5.20 6.40 6.60 5.40
+High scores of each quiz: 8 8 9 9 9
+Low scores of each quiz: 1 4 3 2 1
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
