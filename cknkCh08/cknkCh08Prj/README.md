@@ -426,18 +426,17 @@ Column totals: 34 37 37 32 21
 <!-- START: terminal interaction or other output -->
 
 ```shell
+Enter row 1: 8 3 9 0 10
+Enter row 2: 3 5 17 1 1
+Enter row 3: 2 8 6 23 1
+Enter row 4: 15 7 3 2 9
+Enter row 5: 6 14 2 6 0
 
+Row totals: 30 27 40 36 28
+Column totals: 34 37 37 32 21
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -446,46 +445,17 @@ Column totals: 34 37 37 32 21
 <!-- START: terminal interaction or other output -->
 
 ```shell
+Enter row 1: 1 0 1 0 1
+Enter row 2: 2 0 2 0 2
+Enter row 3: 0 3 0 3 0
+Enter row 4: 4 1 4 1 4
+Enter row 5: 5 4 5 4 5
 
+Row totals: 3 6 6 14 23
+Column totals: 12 8 12 8 12
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
