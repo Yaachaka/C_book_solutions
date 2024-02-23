@@ -1,13 +1,13 @@
 # Stay in `C_book_solutions` folder while running this script.
-chapter="07" # Give chapter number here
+chapter="08" # Give chapter number here
 title="# Chapter $chapter Programming Projects"
-chapterName="Basic Types"
+chapterName="Arrays"
 
 pref="cknkCh"
 prefChapter=$pref$chapter
 name1=$pref$chapter"Prj"
 
-exrcCount=15
+exrcCount=17
 emptyLine="  "
 
 mkdir $prefChapter/$name1
