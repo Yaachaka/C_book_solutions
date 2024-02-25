@@ -722,18 +722,11 @@ The program will need to store the phone number (either in its original form or 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter phone number: 1-800-col-lECT
+In numeric form: 1-800-265-5328
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -742,18 +735,11 @@ The program will need to store the phone number (either in its original form or 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter phone number: 91-KAR-NATA-KA
+In numeric form: 91-527-6282-52
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -762,26 +748,11 @@ The program will need to store the phone number (either in its original form or 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter phone number: 800-NEENE-RAAJAKUMAARA
+In numeric form: 800-63363-72252
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
