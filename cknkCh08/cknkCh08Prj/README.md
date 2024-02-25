@@ -657,18 +657,11 @@ Modify Programming Project 8 from Chapter 5 so that the departure times are stor
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 24-hour time: 12:15
+Closest departure time is 12:47 pm, arriving at 01:20 pm
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -677,18 +670,11 @@ Modify Programming Project 8 from Chapter 5 so that the departure times are stor
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 24-hour time: 4:57
+Closest departure time is 08:00 am, arriving at 10:16 am
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -697,26 +683,11 @@ Modify Programming Project 8 from Chapter 5 so that the departure times are stor
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a 24-hour time: 19:39
+Closest departure time is 07:00 pm, arriving at 09:20 pm
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
