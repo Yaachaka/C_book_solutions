@@ -574,18 +574,20 @@ Y is blocked on all four sides, so there's no place to put Z.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Note: Premature termination...
+A B C . . . . . . . 
+H E D . . . . . . . 
+G F . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -594,18 +596,19 @@ Y is blocked on all four sides, so there's no place to put Z.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+A . . . . . . . . . 
+B . . . . . . . . . 
+C D . . . . . . . . 
+F E . . . . . . . . 
+G J K . . . . . . . 
+H I L . . . . . . . 
+. . M N O P Q R S T 
+. . . . . . . . . U 
+. . . . . . . Z Y V 
+. . . . . . . . X W 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -614,26 +617,19 @@ Y is blocked on all four sides, so there's no place to put Z.
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+A H I . . . . . . . 
+B G J . . . . . . . 
+C F K L . . . . . . 
+D E . M . . . . . . 
+. . . N O P . . . . 
+. . . S R Q . . . . 
+. . . T . . . . . . 
+. . V U . . . . . . 
+. . W X . . . . . . 
+. . Z Y . . . . . .
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
