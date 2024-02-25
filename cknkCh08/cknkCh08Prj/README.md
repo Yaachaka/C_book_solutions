@@ -845,18 +845,11 @@ The program will need to store the last name (but not the first name) in an arra
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a first and last name (separated by a space): Lloyd Fosdick
+You entered the name: Fosdick, L.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -865,18 +858,11 @@ The program will need to store the last name (but not the first name) in an arra
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a first and last name (separated by a space): Shivarama Kaarantha
+You entered the name: Kaarantha, S.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -885,26 +871,11 @@ The program will need to store the last name (but not the first name) in an arra
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a first and last name (separated by a space): Raamachandra Tejasvi
+You entered the name: Tejasvi, R.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
