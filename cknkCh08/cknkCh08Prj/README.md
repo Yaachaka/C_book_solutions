@@ -780,18 +780,11 @@ Modify Programming Project 5 from Chapter 7 so that the SCRABBLE values of the l
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a word: Bhuvanamm
+Scrabble value: 21
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -800,18 +793,11 @@ Modify Programming Project 5 from Chapter 7 so that the SCRABBLE values of the l
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a word: Gaganam
+Scrabble value: 11
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -820,26 +806,11 @@ Modify Programming Project 5 from Chapter 7 so that the SCRABBLE values of the l
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a word: Sharanam
+Scrabble value: 13
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
