@@ -910,18 +910,11 @@ Reversal of sentence: you can't swallow a cage can you?
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a sentence (max hundred characters): you can cage a swallow can't you?
+Reversal of sentence: you can't swallow a cage can you?
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -930,18 +923,11 @@ Reversal of sentence: you can't swallow a cage can you?
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a sentence (max hundred characters): manmathanu ee yaarivanu?
+Reversal of sentence: yaarivanu ee manmathanu?
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -950,26 +936,11 @@ Reversal of sentence: you can't swallow a cage can you?
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter a sentence (max hundred characters): mareyoduntenu thirugodanna bhoomi thirugo?
+Reversal of sentence: thirugo bhoomi thirugodanna mareyoduntenu?
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
