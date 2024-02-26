@@ -1057,18 +1057,12 @@ Write a loop that reads the first word, character by character, using an array o
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter first word: smartest
+Enter second word: mattress
+The words are anagrams.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -1077,18 +1071,12 @@ Write a loop that reads the first word, character by character, using an array o
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter first word: dumbest
+Enter second word: stumble
+The words are not anagrams.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -1097,26 +1085,12 @@ Write a loop that reads the first word, character by character, using an array o
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter first word: Sumana
+Enter second word: Manasu
+The words are anagrams.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
