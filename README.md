@@ -41,3 +41,9 @@ Notes (book) in HTML: [./CProgrammingKNKing2ndEd.html](./CProgrammingKNKing2ndEd
 - [Examples](./cknkCh07/cknkCh07Exmp)
 - [Exercises](./cknkCh07/cknkCh07Exrc)
 - [Programming Projects](./cknkCh07/cknkCh07Prj)
+
+**[Chapter 7 Arrays](./cknkCh08):**
+
+- [Examples](./cknkCh08/cknkCh08Exmp)
+- [Exercises](./cknkCh08/cknkCh08Exrc)
+- [Programming Projects](./cknkCh08/cknkCh08Prj)
