@@ -984,18 +984,12 @@ You may assume that the message does not exceed 80 characters. Characters other 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter message to be encrypted: Go ahead, make my day.
+Enter shift amount (1 - 25): 3
+Jr dkhdg, pdnh pb gdb.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -1004,18 +998,12 @@ You may assume that the message does not exceed 80 characters. Characters other 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter message to be encrypted: Ninna snehadinda, ella chanda chanda.
+Enter shift amount (1 - 25): 4
+Rmrre wrilehmrhe, ippe glerhe glerhe.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -1024,26 +1012,12 @@ You may assume that the message does not exceed 80 characters. Characters other 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter message to be encrypted: Rmrre wrilemrhe, ippe glerhe glerhe.
+Enter shift amount (1 - 25): 22
+Ninna snehainda, ella chanda chanda.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
