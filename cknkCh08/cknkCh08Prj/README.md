@@ -1111,7 +1111,7 @@ Enter size of magic square: 5
    11   18   25    2    9
 ```
 
-Store the magic square in a two-dimensional array. Start by placing the number 1 in the middle of row O. Place each of the remaining numbers 2, 3, .... n² by moving up one row and over one column. Any attempt to go outside the bounds of the array should "wrap around" to the opposite side of the array. For example, instead of storing the next number in row-1, we would store it in row `n-1` (the last row). Instead of storing the next number in column `n`, we would store it in column 0. If a particular array element is already occupied, put the number directly below the previously stored number. If your compiler supports variablelength arrays, declare the array to have `n` rows and `n` columns. If not, declare the array to have 99 rows and 99 columns.
+Store the magic square in a two-dimensional array. Start by placing the number 1 in the middle of row 0. Place each of the remaining numbers 2, 3, .... n² by moving up one row and over one column. Any attempt to go outside the bounds of the array should "wrap around" to the opposite side of the array. For example, instead of storing the next number in row-1, we would store it in row `n-1` (the last row). Instead of storing the next number in column `n`, we would store it in column 0. If a particular array element is already occupied, put the number directly below the previously stored number. If your compiler supports variablelength arrays, declare the array to have `n` rows and `n` columns. If not, declare the array to have 99 rows and 99 columns.
 
 <!-- END: Problem Statement -->
 
@@ -1131,18 +1131,17 @@ Store the magic square in a two-dimensional array. Start by placing the number 1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+This program creates a magic square of a specified size.
+The size must be an odd number between 1 and 99.
+Enter size of magic square: 5
+  17   24    1    8   15 
+  23    5    7   14   16 
+   4    6   13   20   22 
+  10   12   19   21    3 
+  11   18   25    2    9 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -1151,18 +1150,25 @@ Store the magic square in a two-dimensional array. Start by placing the number 1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+This program creates a magic square of a specified size.
+The size must be an odd number between 1 and 99.
+Enter size of magic square: 13
+  93  108  123  138  153  168    1   16   31   46   61   76   91 
+ 107  122  137  152  167   13   15   30   45   60   75   90   92 
+ 121  136  151  166   12   14   29   44   59   74   89  104  106 
+ 135  150  165   11   26   28   43   58   73   88  103  105  120 
+ 149  164   10   25   27   42   57   72   87  102  117  119  134 
+ 163    9   24   39   41   56   71   86  101  116  118  133  148 
+   8   23   38   40   55   70   85  100  115  130  132  147  162 
+  22   37   52   54   69   84   99  114  129  131  146  161    7 
+  36   51   53   68   83   98  113  128  143  145  160    6   21 
+  50   65   67   82   97  112  127  142  144  159    5   20   35 
+  64   66   81   96  111  126  141  156  158    4   19   34   49 
+  78   80   95  110  125  140  155  157    3   18   33   48   63 
+  79   94  109  124  139  154  169    2   17   32   47   62   77 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -1171,29 +1177,21 @@ Store the magic square in a two-dimensional array. Start by placing the number 1
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+This program creates a magic square of a specified size.
+The size must be an odd number between 1 and 99.
+Enter size of magic square: 7
+  30   39   48    1   10   19   28 
+  38   47    7    9   18   27   29 
+  46    6    8   17   26   35   37 
+   5   14   16   25   34   36   45 
+  13   15   24   33   42   44    4 
+  21   23   32   41   43    3   12 
+  22   31   40   49    2   11   20
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
 <hr class="hr1ExrcPrj"/>
-
 
 </body>
 </html>
