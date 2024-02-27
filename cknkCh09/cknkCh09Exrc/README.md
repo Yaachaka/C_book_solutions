@@ -157,41 +157,19 @@ Write a function `num_digits(n)` that returns the number of digits in `n` (a pos
 
 # Solution:
 
+```C
+int num_digits(int n)
+{
+    int nDigits = 0;
+    while(n)
+    {
+        nDigits++;
+        n /= 10;
+    }    // while loop
 
-## Program Link
-
-[cknkCh09Exrc005.c](./cknkCh09Exrc005.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    return nDigits;
+}    // FUNCTION END: num_digits
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -207,41 +185,24 @@ Write a function `digit(n, k)` that returns the k<sup>th</sup> digit (from the r
 
 # Solution:
 
+```C
+int digit(int n, int k)
+{
+    int nDigits = 0, kThDigit = 0;
+    while(n)
+    {
+        nDigits++;
+        if(nDigits == k)
+        {
+            kThDigit = n % 10;
+            break;    // break out of the while loop
+        }    // if condition
+        n /= 10;
+    }    // while loop
 
-## Program Link
-
-[cknkCh09Exrc006.c](./cknkCh09Exrc006.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    return kThDigit;
+}    // FUNCTION END: num_digits
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -262,48 +223,18 @@ Which of the following statements are legal? (Assume that `i` has type `int` and
 a. `i = f(83, 12);`  
 b. `x = f(83, 12);`  
 c. `i = f(3.15, 9.28);`  
-d. `x = f(3.15; 9.28);`  
+d. `x = f(3.15, 9.28);`  
 e. `f(83, 12);`  
 
 <!-- END: Problem Statement -->
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh09Exrc007.c](./cknkCh09Exrc007.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+a. `i = f(83, 12);`: Legal.  
+b. `x = f(83, 12);`: Illegal but no compilation errors will be observed. The point to note here is that the returned value will be converted to `double` implicitly.  
+c. `i = f(3.15, 9.28);`: Illegal. The compilation might not throw erros but warnings. Passing the non-integer values as arguments to the integer parameters. Floating part will be discarded while assigning to the parameters.   
+d. `x = f(3.15, 9.28);`: Illegal. The compilation might not throw errors but some warnings. Two things to notice in this statement. First, passing the non-integer values as arguments to the integer parameters. Second, returned value is implicitly converted to `double` while assignment.  
+e. `f(83, 12);`: Illegal. Compilation might just throw a warning. The returned value will be discarded. If the intention is to discard the returned value, write the expression as `(void)(f(83, 12));`.  
 
 <hr class="hr1ExrcPrj"/>
 
@@ -324,41 +255,10 @@ d. `f(double x);`
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh09Exrc008.c](./cknkCh09Exrc008.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+a. `void f(double x);`: Valid prototype.  
+b. `void f(double);`: Valid prototype.  
+c. `void f(x);`: Invalid prototype. Type specifier to the parameter might default to `int` but not acceptable.  
+d. `f(double x);`: Invalid prototype. Return type might default to `int` due to absence but not acceptable.  
 
 <hr class="hr1ExrcPrj"/>
 
