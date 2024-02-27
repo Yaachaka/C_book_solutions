@@ -295,41 +295,11 @@ void swap(int a, int b)
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh09Exrc009.c](./cknkCh09Exrc009.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
+The output will be:
 
 ```shell
-
+2, 1
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -349,41 +319,73 @@ c. The number of positive elements in `a`.
 
 # Solution:
 
+<ol type="a">
+<li>
 
-## Program Link
+The largest element in `a`.  
 
-[cknkCh09Exrc010.c](./cknkCh09Exrc010.c)
+```C
+int largestElementInArray(int a[], int n)
+{
+    int max = a[0];
 
-## Output/ExecutionLog:
+    for(int i = 1; i < n; i++)
+    {
+        if(max < a[i])
+        {
+            max = a[i];
+        }    // if condition
+    }    // for loop
 
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    return max;
+}    // FUNCTION END: largestElementInArray
 ```
 
-<!-- END: terminal interaction or other output -->
+</li>
+<li>
 
-#### Trial1 Comments:
+The average of all elements in `a`.  
 
-<!-- START: Comments -->
+```C
+int averageOfElementsInArray(int a[], int n)
+{
+    int average = a[0];
 
+    for(int i = 1; i < n; i++)
+    {
+        average += a[i];
+    }    // for loop
 
+    average /= n;
 
-<!-- END: Comments -->
+    return average;
+}    // FUNCTION END: averageOfElementsInArray
+```
 
-# Exercise Comment:
+</li>
+<li>
 
-<!-- START: Comments -->
+The number of positive elements in `a`.  
 
+```C
+int nPositiveIntegersInArray(int a[], int n)
+{
+    int nPositiveIntegers = 0;
 
+    for(int i = 0; i < n; i++)
+    {
+        if(a[i] > 0)
+        {
+            nPositiveIntegers++;
+        }    // if condition
+    }    // for loop
 
-<!-- END: Comments -->
+    return nPositiveIntegers;
+}    // FUNCTION END: nPositiveIntegersInArray
+```
+
+</li>
+</ol>
 
 <hr class="hr1ExrcPrj"/>
 
@@ -405,41 +407,30 @@ The `grades` array will contain letter grades (A, B, C, D, or F, either upper-ca
 
 # Solution:
 
+```C
+#include <ctype.h>
 
-## Program Link
+float compute_GPA(char grades[], int n)
+{
+    float f_averageOfGrades = 0.0f;
 
-[cknkCh09Exrc011.c](./cknkCh09Exrc011.c)
+    for(int i = 0; i < n; i++)
+    {
+        switch(toupper(grades[i]))
+        {
+            case 'A': f_averageOfGrades += 4;break;
+            case 'B': f_averageOfGrades += 3;break;
+            case 'C': f_averageOfGrades += 2;break;
+            case 'D': f_averageOfGrades += 1;break;
+            default: f_averageOfGrades += 0;break;
+        }    // switch statement
+    }    // for loop
 
-## Output/ExecutionLog:
+    f_averageOfGrades /= n;
 
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    return f_averageOfGrades;
+}    // FUNCTION END: compute_GPA
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -461,41 +452,19 @@ The function should return `a[0] * b[0] + a[1] * b[1] + ... + a[n - 1] * b[n - 1
 
 # Solution:
 
+```C
+double inner_product(double a[], double b[], int n)
+{
+    double d_innerProduct = 0.0;
 
-## Program Link
+    for (int i = 0; i < n; i++)
+    {
+        d_innerProduct += a[i] * b[i];
+    }
 
-[cknkCh09Exrc012.c](./cknkCh09Exrc012.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    return d_innerProduct;
+}
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
