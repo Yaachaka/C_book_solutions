@@ -460,10 +460,10 @@ double inner_product(double a[], double b[], int n)
     for (int i = 0; i < n; i++)
     {
         d_innerProduct += a[i] * b[i];
-    }
+    }    // for loop
 
     return d_innerProduct;
-}
+}    // FUNCTION END: inner_product
 ```
 
 <hr class="hr1ExrcPrj"/>
@@ -486,41 +486,40 @@ int evaluate_position(char board[8][8]);
 
 # Solution:
 
+```C
+int evaluate_position(char board[8][8])
+{
+    int i_diff = 0, i_sumInWhitePieces = 0, i_sumInBlackPieces = 0;
 
-## Program Link
+    for(int i = 0; i < 8; i++)
+    {
+        for(int j = 0; j < 8; j++)
+        {
+            switch(board[i][j])
+            {
+                // White chess pieces
+                case 'Q': i_sumInWhitePieces += 9; break;
+                case 'R': i_sumInWhitePieces += 5; break;
+                case 'B': i_sumInWhitePieces += 3; break;
+                case 'N': i_sumInWhitePieces += 3; break;
+                case 'P': i_sumInWhitePieces += 1; break;
+                
+                // Black chess pieces
+                case 'q': i_sumInBlackPieces += 9; break;
+                case 'r': i_sumInBlackPieces += 5; break;
+                case 'b': i_sumInBlackPieces += 3; break;
+                case 'n': i_sumInBlackPieces += 3; break;
+                case 'p': i_sumInBlackPieces += 1; break;
+                default: break;
+            }    // switch statement
+        }    // for loop
+    }    // for loop
 
-[cknkCh09Exrc013.c](./cknkCh09Exrc013.c)
+    i_diff = i_sumInWhitePieces - i_sumInBlackPieces;
 
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    return i_diff;
+}    // FUNCTION END: evaluate_position
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -549,41 +548,21 @@ bool has_zero(int a[], int n)
 
 # Solution:
 
+`else` part of the code is wrong. When any of the element is non-zero, the function returns `false` without actually going through the entire array.
 
-## Program Link
+The corrected function is as follows:
 
-[cknkCh09Exrc014.c](./cknkCh09Exrc014.c)
+```C
+bool has_zero(int a[], int n)
+{
+    int i;
 
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    for(i = 0; i < n; i++)
+        if(a[i] == 0)
+            return true;
+    return false;
+}    // FUNCTION END: has_zero
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -612,41 +591,21 @@ double median(double x, double y, double z)
 
 # Solution:
 
+```C
+double median(double x, double y, double z)
+{
+    double median;
+    
+    if((x >= y && x <= z) || (x >= z && x <= y))
+        median = x;
+    else if((y >= x && y <= z) || (y >= x && y <= z))
+        median = y;
+    else
+        median = z;
 
-## Program Link
-
-[cknkCh09Exrc015.c](./cknkCh09Exrc015.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    return median;
+}    // FUNCTION END: median
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -662,41 +621,12 @@ Condense the `fact` function in the same way we condensed `power`.
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh09Exrc016.c](./cknkCh09Exrc016.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+int fact(int n)
+{
+    return (n <= 1) ? (1) : (n * fact(n - 1));
+}    // FUNCTION END: fact
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -712,41 +642,19 @@ Rewrite the `fact` function so that it’s no longer recursive.
 
 # Solution:
 
+```C
+int fact(int n)
+{
+    int i_factorial = 1;
 
-## Program Link
-
-[cknkCh09Exrc017.c](./cknkCh09Exrc017.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    for(i = 2; i <= n; i++)
+    {
+        i_factorial *= i;
+    }    // for loop
+    
+    return i_factorial;
+}    // FUNCTION END: fact
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -762,41 +670,12 @@ Write a recursive version of the `gcd` function (see Exercise 3). Here's the str
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh09Exrc018.c](./cknkCh09Exrc018.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+int gcd(int m, int n)
+{
+    return (n == 0) ? (m) : (gcd(n, m % n));
+}    // FUNCTION END: gcd
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -825,41 +704,104 @@ Trace the execution of the function by hand. Then write a program that calls the
 
 # Solution:
 
+```C
+#include <stdio.h>
 
-## Program Link
+void pb(int n)
+{
+    if(n != 0) 
+    {
+        pb(n / 2);
+        putchar('0' + n % 2);
+    }    // if statement
+}    // FUNCTION END: pb
 
-[cknkCh09Exrc019.c](./cknkCh09Exrc019.c)
+int main(void)
+{
+    int n;
+    
+    printf("Enter a positive integer: ");
+    scanf("%d", &n);
 
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    pb(n);
+    
+    return 0;
+}    // FUNCTION END: main
 ```
 
-<!-- END: terminal interaction or other output -->
+Suppose the user enters the input as `5`, the tracing of the fuunction calls go as follows:
 
-#### Trial1 Comments:
+```C
+void pb(5)
+{
+    if(5 != 0) 
+    {
+        pb(2);
+```
 
-<!-- START: Comments -->
+*forward jump1* with n as 2.
 
+```C
+void pb(2)
+{
+    if(2 != 0) 
+    {
+        pb(1);
+```
 
+*forward jump2* with n as 1
 
-<!-- END: Comments -->
+```C
+void pb(1)
+{
+    if(1 != 0) 
+    {
+        pb(0);
+```
 
-# Exercise Comment:
+*forward jump3* with n as 0.
 
-<!-- START: Comments -->
+```C
+void pb(0)
+{
+    if(0 != 0) 
+    {
+        // Does not enter
+    }    // if statement
+}    // FUNCTION END: pb
+```
 
+*backward jump1* when n was 1
 
+```C
+        putchar('0' + 1 % 2);
+    }    // if statement
+}    // FUNCTION END: pb
+```
 
-<!-- END: Comments -->
+Shell output before backward jump: `1`.
+
+*backward jump2* when n was 2.
+
+```C
+        putchar('0' + 2 % 2);
+    }    // if statement
+}    // FUNCTION END: pb
+```
+
+Shell output before backward jump: `10`.
+
+*backward jump3* when n was 5.
+
+```C
+        putchar('0' + 5 % 2);
+    }    // if statement
+}    // FUNCTION END: pb
+```
+
+Shell output before backward jump: `101`.
+
+Next backward jump is to `main` function. The function actually gives the binary representation of the inputted integer.
 
 <hr class="hr1ExrcPrj"/>
 
