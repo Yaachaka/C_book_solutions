@@ -121,41 +121,27 @@ Write a function `day_of_year(month, day, year)` that returns the day of the yea
 
 # Solution:
 
+```C
+int day_of_year(month, day, year)
+{
+    #define N_MONTHS 12
+    int nThDay = 0;
+    int daysInEachMonth[N_MONTHS] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
-## Program Link
+    if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+    {
+        daysInEachMonth[1] = 29;
+    }    // if condition: check if leap year to adjust the number of days in february month
 
-[cknkCh09Exrc004.c](./cknkCh09Exrc004.c)
+    for(int i = 0; i < month-1; i++)
+    {
+        nThDay += daysInEachMonth[i];
+    }    // for loop
+    nThDay += day;
 
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    return nThDay;
+}
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
