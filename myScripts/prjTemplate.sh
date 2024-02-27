@@ -1,13 +1,15 @@
 # Stay in `C_book_solutions` folder while running this script.
-chapter="08" # Give chapter number here
+echo "Hope you are in the directory: \"C_book_solutions\""
+
+chapter="09" # Give chapter number here
 title="# Chapter $chapter Programming Projects"
-chapterName="Arrays"
+chapterName="Functions"
 
 pref="cknkCh"
 prefChapter=$pref$chapter
 name1=$pref$chapter"Prj"
 
-exrcCount=17
+exrcCount=8
 emptyLine="  "
 
 mkdir $prefChapter/$name1
@@ -91,19 +93,46 @@ do
  * Author: Yaachaka
  */
 
+/* START: Header inclusions*/
 #include <stdio.h>
+
+/* END: Header inclusions*/
+
+/* START: MACRO definitions*/
+
+/* END: MACRO definitions*/
+
+/* START: type definitions*/
+
+/* END: type definitions*/
+
+/* START: Variable declarations*/
+
+/* END: Variable declarations*/
 
 int main(void)
 {
+    /* START: MACRO definitions*/
+    
+    /* END: MACRO definitions*/
 
+    /* START: type definitions*/
+    
+    /* END: type definitions*/
+
+    /* START: Variable declarations*/
+    
+    /* END: Variable declarations*/
 
     return 0;
 }" > $prefChapter/$name1/$name2.c
 
 done
 
-echo "
-</body>
+echo "</body>
 </html>" >> $prefChapter/$name1/README.md # Fifth echo
 
 pandoc $prefChapter/$name1/README.md -o $prefChapter/$name1/$name1"Readme.html"
+
+echo "Template generation completed."
+echo "Note: Please do not forget to navigate to chapter's directory."
