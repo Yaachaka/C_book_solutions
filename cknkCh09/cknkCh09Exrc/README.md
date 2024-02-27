@@ -34,41 +34,20 @@ double product;
 
 # Solution:
 
+**Error 1**: Type specifier must be specified for each of the parameters explicitly. When not mentioned, it defaults to `int` but as per ISO C99 or higher it is not supported.
 
-## Program Link
+**Error 2**: The location of the declaration of the `product` variable. It should have come as part of the function body (i.e., between `{` and `}` of the function). If the intention was to have `product` variable as part of the paramter list with separately specifying the type specifier (after the parameter list--as discussed in the Q&A section), then too it is wrong because, atleast the variable name should be present in the parameter list.
 
-[cknkCh09Exrc001.c](./cknkCh09Exrc001.c)
+The correct form of the code fragment is as shown below.
 
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+double triangle_area(double base, double height)
+{
+    double product;
+    product = base * height;
+    return product / 2;
+}
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -84,41 +63,20 @@ Write a function `check(x, y, n)` that returns 1 if both `x` and `y` fall betwee
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh09Exrc002.c](./cknkCh09Exrc002.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+```C
+int check(int x, int y, int n)
+{
+    int ret = 0;
+    if(x >= 0 && x <= (n -1))
+    {
+        if(y >= 0 && y <= (n -1))
+        {
+            ret = 1;
+        }    // if condition: for y
+    }    // if condition: for x
+    return ret;
+}    // FUNCTION END: check
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -134,41 +92,20 @@ Write a function `gcd(m, n)` that calculates the greatest common divisor of the 
 
 # Solution:
 
+```C
+int gcd(int m, int n)
+{
+    int r;
+    while(n > 0)
+    {
+        r = m % n;
+        m = n;
+        n = r;
+    }    // while loop
 
-## Program Link
-
-[cknkCh09Exrc003.c](./cknkCh09Exrc003.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
+    return m;
+}    // FUNCTION END: gcd
 ```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 

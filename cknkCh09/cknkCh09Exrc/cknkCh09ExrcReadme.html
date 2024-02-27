@@ -24,8 +24,80 @@ contains two errors. Locate the errors and show how to fix them.
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 <h1 id="solution">Solution:</h1>
+<p><strong>Error 1</strong>: Type specifier must be specified for each
+of the parameters explicitly. When not mentioned, it defaults to
+<code>int</code> but as per ISO C99 or higher it is not supported.</p>
+<p><strong>Error 2</strong>: The location of the declaration of the
+<code>product</code> variable. It should have come as part of the
+function body (i.e., between <code>{</code> and <code>}</code> of the
+function). If the intention was to have <code>product</code> variable as
+part of the paramter list with separately specifying the type specifier
+(after the parameter list–as discussed in the Q&amp;A section), then too
+it is wrong because, atleast the variable name should be present in the
+parameter list.</p>
+<p>The correct form of the code fragment is as shown below.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> triangle_area<span class="op">(</span><span class="dt">double</span> base<span class="op">,</span> <span class="dt">double</span> height<span class="op">)</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">double</span> product<span class="op">;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    product <span class="op">=</span> base <span class="op">*</span> height<span class="op">;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> product <span class="op">/</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch09exrc002">cknkCh09Exrc002</h1>
+<p>Section 9.1</p>
+<!-- START: Problem Statement -->
+<p>Write a function <code>check(x, y, n)</code> that returns 1 if both
+<code>x</code> and <code>y</code> fall between 0 and <code>n — 1</code>,
+inclusive. The function should return 0 otherwise. Assume that
+<code>x</code>, <code>y</code>, and <code>n</code> are all of type
+<code>int</code>.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-1">Solution:</h1>
+<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> check<span class="op">(</span><span class="dt">int</span> x<span class="op">,</span> <span class="dt">int</span> y<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> ret <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>x <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span> x <span class="op">&lt;=</span> <span class="op">(</span>n <span class="op">-</span><span class="dv">1</span><span class="op">))</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>y <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span> y <span class="op">&lt;=</span> <span class="op">(</span>n <span class="op">-</span><span class="dv">1</span><span class="op">))</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>            ret <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>    <span class="co">// if condition: for y</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>    <span class="co">// if condition: for x</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> ret<span class="op">;</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>    <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: check</span></span></code></pre></div>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch09exrc003">cknkCh09Exrc003</h1>
+<p>Section 9.1</p>
+<!-- START: Problem Statement -->
+<p>Write a function <code>gcd(m, n)</code> that calculates the greatest
+common divisor of the integers <code>m</code> and <code>n</code>.
+(Programming Project 2 in Chapter 6 describes Euclid’s algorithm for
+computing the GCD.)</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-2">Solution:</h1>
+<div class="sourceCode" id="cb4"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> gcd<span class="op">(</span><span class="dt">int</span> m<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> r<span class="op">;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>n <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>        r <span class="op">=</span> m <span class="op">%</span> n<span class="op">;</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>        m <span class="op">=</span> n<span class="op">;</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>        n <span class="op">=</span> r<span class="op">;</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>    <span class="co">// while loop</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> m<span class="op">;</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>    <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: gcd</span></span></code></pre></div>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch09exrc004">cknkCh09Exrc004</h1>
+<p>Section 9.1</p>
+<!-- START: Problem Statement -->
+<p>Write a function <code>day_of_year(month, day, year)</code> that
+returns the day of the year (an integer between 1 and 366) specified by
+the three arguments.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-3">Solution:</h1>
 <h2 id="program-link">Program Link</h2>
-<p><a href="./cknkCh09Exrc001.c">cknkCh09Exrc001.c</a></p>
+<p><a href="./cknkCh09Exrc004.c">cknkCh09Exrc004.c</a></p>
 <h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
 <h3 id="trial1">Trial1:</h3>
 <h4 id="trial1-execution">Trial1 execution:</h4>
@@ -39,78 +111,6 @@ contains two errors. Locate the errors and show how to fix them.
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
-<h1 id="cknkch09exrc002">cknkCh09Exrc002</h1>
-<p>Section 9.1</p>
-<!-- START: Problem Statement -->
-<p>Write a function <code>check(x, y, n)</code> that returns 1 if both
-<code>x</code> and <code>y</code> fall between 0 and <code>n — 1</code>,
-inclusive. The function should return 0 otherwise. Assume that
-<code>x</code>, <code>y</code>, and <code>n</code> are all of type
-<code>int</code>.</p>
-<!-- END: Problem Statement -->
-<h1 id="solution-1">Solution:</h1>
-<h2 id="program-link-1">Program Link</h2>
-<p><a href="./cknkCh09Exrc002.c">cknkCh09Exrc002.c</a></p>
-<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
-<h3 id="trial1-1">Trial1:</h3>
-<h4 id="trial1-execution-1">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-1">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-1">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1ExrcPrj"/>
-<h1 id="cknkch09exrc003">cknkCh09Exrc003</h1>
-<p>Section 9.1</p>
-<!-- START: Problem Statement -->
-<p>Write a function <code>gcd(m, n)</code> that calculates the greatest
-common divisor of the integers <code>m</code> and <code>n</code>.
-(Programming Project 2 in Chapter 6 describes Euclid’s algorithm for
-computing the GCD.)</p>
-<!-- END: Problem Statement -->
-<h1 id="solution-2">Solution:</h1>
-<h2 id="program-link-2">Program Link</h2>
-<p><a href="./cknkCh09Exrc003.c">cknkCh09Exrc003.c</a></p>
-<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
-<h3 id="trial1-2">Trial1:</h3>
-<h4 id="trial1-execution-2">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-2">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-2">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1ExrcPrj"/>
-<h1 id="cknkch09exrc004">cknkCh09Exrc004</h1>
-<p>Section 9.1</p>
-<!-- START: Problem Statement -->
-<p>Write a function <code>day_of_year(month, day, year)</code> that
-returns the day of the year (an integer between 1 and 366) specified by
-the three arguments.</p>
-<!-- END: Problem Statement -->
-<h1 id="solution-3">Solution:</h1>
-<h2 id="program-link-3">Program Link</h2>
-<p><a href="./cknkCh09Exrc004.c">cknkCh09Exrc004.c</a></p>
-<h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
-<h3 id="trial1-3">Trial1:</h3>
-<h4 id="trial1-execution-3">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-3">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-3">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<hr class="hr1ExrcPrj"/>
 <h1 id="cknkch09exrc005">cknkCh09Exrc005</h1>
 <p>Section 9.1</p>
 <!-- START: Problem Statement -->
@@ -121,18 +121,18 @@ determine the number of digits in a number <code>n</code>, divide it by
 indicates how many digits <code>n</code> originally had.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-4">Solution:</h1>
-<h2 id="program-link-4">Program Link</h2>
+<h2 id="program-link-1">Program Link</h2>
 <p><a href="./cknkCh09Exrc005.c">cknkCh09Exrc005.c</a></p>
-<h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
-<h3 id="trial1-4">Trial1:</h3>
-<h4 id="trial1-execution-4">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
+<h3 id="trial1-1">Trial1:</h3>
+<h4 id="trial1-execution-1">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-4">Trial1 Comments:</h4>
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-4">Exercise Comment:</h1>
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -147,18 +147,18 @@ returns 8. If <code>k</code> is greater than the number of digits in
 <code>n</code>, have the function return 0.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-5">Solution:</h1>
-<h2 id="program-link-5">Program Link</h2>
+<h2 id="program-link-2">Program Link</h2>
 <p><a href="./cknkCh09Exrc006.c">cknkCh09Exrc006.c</a></p>
-<h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
-<h3 id="trial1-5">Trial1:</h3>
-<h4 id="trial1-execution-5">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
+<h3 id="trial1-2">Trial1:</h3>
+<h4 id="trial1-execution-2">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-5">Trial1 Comments:</h4>
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-5">Exercise Comment:</h1>
+<h1 id="exercise-comment-2">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -184,18 +184,18 @@ definition:</p>
 </ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-6">Solution:</h1>
-<h2 id="program-link-6">Program Link</h2>
+<h2 id="program-link-3">Program Link</h2>
 <p><a href="./cknkCh09Exrc007.c">cknkCh09Exrc007.c</a></p>
-<h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
-<h3 id="trial1-6">Trial1:</h3>
-<h4 id="trial1-execution-6">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
+<h3 id="trial1-3">Trial1:</h3>
+<h4 id="trial1-execution-3">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-6">Trial1 Comments:</h4>
+<h4 id="trial1-comments-3">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-6">Exercise Comment:</h1>
+<h1 id="exercise-comment-3">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -215,18 +215,18 @@ returns nothing and has one <code>double</code> parameter?</p>
 </ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-7">Solution:</h1>
-<h2 id="program-link-7">Program Link</h2>
+<h2 id="program-link-4">Program Link</h2>
 <p><a href="./cknkCh09Exrc008.c">cknkCh09Exrc008.c</a></p>
-<h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
-<h3 id="trial1-7">Trial1:</h3>
-<h4 id="trial1-execution-7">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
+<h3 id="trial1-4">Trial1:</h3>
+<h4 id="trial1-execution-4">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-7">Trial1 Comments:</h4>
+<h4 id="trial1-comments-4">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-7">Exercise Comment:</h1>
+<h1 id="exercise-comment-4">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -254,18 +254,18 @@ returns nothing and has one <code>double</code> parameter?</p>
 <span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 <h1 id="solution-8">Solution:</h1>
-<h2 id="program-link-8">Program Link</h2>
+<h2 id="program-link-5">Program Link</h2>
 <p><a href="./cknkCh09Exrc009.c">cknkCh09Exrc009.c</a></p>
-<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
-<h3 id="trial1-8">Trial1:</h3>
-<h4 id="trial1-execution-8">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
+<h3 id="trial1-5">Trial1:</h3>
+<h4 id="trial1-execution-5">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-8">Trial1 Comments:</h4>
+<h4 id="trial1-comments-5">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-8">Exercise Comment:</h1>
+<h1 id="exercise-comment-5">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -285,18 +285,18 @@ of the array.)</p>
 </ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-9">Solution:</h1>
-<h2 id="program-link-9">Program Link</h2>
+<h2 id="program-link-6">Program Link</h2>
 <p><a href="./cknkCh09Exrc010.c">cknkCh09Exrc010.c</a></p>
-<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
-<h3 id="trial1-9">Trial1:</h3>
-<h4 id="trial1-execution-9">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
+<h3 id="trial1-6">Trial1:</h3>
+<h4 id="trial1-execution-6">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-9">Trial1 Comments:</h4>
+<h4 id="trial1-comments-6">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-9">Exercise Comment:</h1>
+<h1 id="exercise-comment-6">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -311,18 +311,18 @@ the array. The function should return the average of the grades (assume
 that A = 4, B = 3, C = 2, D = 1, and F = 0).</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-10">Solution:</h1>
-<h2 id="program-link-10">Program Link</h2>
+<h2 id="program-link-7">Program Link</h2>
 <p><a href="./cknkCh09Exrc011.c">cknkCh09Exrc011.c</a></p>
-<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
-<h3 id="trial1-10">Trial1:</h3>
-<h4 id="trial1-execution-10">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
+<h3 id="trial1-7">Trial1:</h3>
+<h4 id="trial1-execution-7">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-10">Trial1 Comments:</h4>
+<h4 id="trial1-comments-7">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-10">Exercise Comment:</h1>
+<h1 id="exercise-comment-7">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -335,18 +335,18 @@ that A = 4, B = 3, C = 2, D = 1, and F = 0).</p>
 <code>a[0] * b[0] + a[1] * b[1] + ... + a[n - 1] * b[n - 1]</code>.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-11">Solution:</h1>
-<h2 id="program-link-11">Program Link</h2>
+<h2 id="program-link-8">Program Link</h2>
 <p><a href="./cknkCh09Exrc012.c">cknkCh09Exrc012.c</a></p>
-<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
-<h3 id="trial1-11">Trial1:</h3>
-<h4 id="trial1-execution-11">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
+<h3 id="trial1-8">Trial1:</h3>
+<h4 id="trial1-execution-8">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-11">Trial1 Comments:</h4>
+<h4 id="trial1-comments-8">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-11">Exercise Comment:</h1>
+<h1 id="exercise-comment-8">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -365,18 +365,18 @@ difference between the two numbers. This value will be positive if White
 has an advantage in material and negative if Black has an advantage.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-12">Solution:</h1>
-<h2 id="program-link-12">Program Link</h2>
+<h2 id="program-link-9">Program Link</h2>
 <p><a href="./cknkCh09Exrc013.c">cknkCh09Exrc013.c</a></p>
-<h2 id="outputexecutionlog-12">Output/ExecutionLog:</h2>
-<h3 id="trial1-12">Trial1:</h3>
-<h4 id="trial1-execution-12">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
+<h3 id="trial1-9">Trial1:</h3>
+<h4 id="trial1-execution-9">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-12">Trial1 Comments:</h4>
+<h4 id="trial1-comments-9">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-12">Exercise Comment:</h1>
+<h1 id="exercise-comment-9">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -399,18 +399,18 @@ error. Find the error and show how to fix it:</p>
 <span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 <h1 id="solution-13">Solution:</h1>
-<h2 id="program-link-13">Program Link</h2>
+<h2 id="program-link-10">Program Link</h2>
 <p><a href="./cknkCh09Exrc014.c">cknkCh09Exrc014.c</a></p>
-<h2 id="outputexecutionlog-13">Output/ExecutionLog:</h2>
-<h3 id="trial1-13">Trial1:</h3>
-<h4 id="trial1-execution-13">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
+<h3 id="trial1-10">Trial1:</h3>
+<h4 id="trial1-execution-10">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-13">Trial1 Comments:</h4>
+<h4 id="trial1-comments-10">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-13">Exercise Comment:</h1>
+<h1 id="exercise-comment-10">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -432,18 +432,18 @@ statement.</p>
 <span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 <h1 id="solution-14">Solution:</h1>
-<h2 id="program-link-14">Program Link</h2>
+<h2 id="program-link-11">Program Link</h2>
 <p><a href="./cknkCh09Exrc015.c">cknkCh09Exrc015.c</a></p>
-<h2 id="outputexecutionlog-14">Output/ExecutionLog:</h2>
-<h3 id="trial1-14">Trial1:</h3>
-<h4 id="trial1-execution-14">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
+<h3 id="trial1-11">Trial1:</h3>
+<h4 id="trial1-execution-11">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-14">Trial1 Comments:</h4>
+<h4 id="trial1-comments-11">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-14">Exercise Comment:</h1>
+<h1 id="exercise-comment-11">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -454,18 +454,18 @@ statement.</p>
 <code>power</code>.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-15">Solution:</h1>
-<h2 id="program-link-15">Program Link</h2>
+<h2 id="program-link-12">Program Link</h2>
 <p><a href="./cknkCh09Exrc016.c">cknkCh09Exrc016.c</a></p>
-<h2 id="outputexecutionlog-15">Output/ExecutionLog:</h2>
-<h3 id="trial1-15">Trial1:</h3>
-<h4 id="trial1-execution-15">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-12">Output/ExecutionLog:</h2>
+<h3 id="trial1-12">Trial1:</h3>
+<h4 id="trial1-execution-12">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-15">Trial1 Comments:</h4>
+<h4 id="trial1-comments-12">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-15">Exercise Comment:</h1>
+<h1 id="exercise-comment-12">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -476,18 +476,18 @@ statement.</p>
 recursive.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-16">Solution:</h1>
-<h2 id="program-link-16">Program Link</h2>
+<h2 id="program-link-13">Program Link</h2>
 <p><a href="./cknkCh09Exrc017.c">cknkCh09Exrc017.c</a></p>
-<h2 id="outputexecutionlog-16">Output/ExecutionLog:</h2>
-<h3 id="trial1-16">Trial1:</h3>
-<h4 id="trial1-execution-16">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-13">Output/ExecutionLog:</h2>
+<h3 id="trial1-13">Trial1:</h3>
+<h4 id="trial1-execution-13">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-16">Trial1 Comments:</h4>
+<h4 id="trial1-comments-13">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-16">Exercise Comment:</h1>
+<h1 id="exercise-comment-13">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -501,18 +501,18 @@ Otherwise, call <code>gcd</code> recursively, passing <code>n</code> as
 the first argument and <code>m % n</code> as the second.</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-17">Solution:</h1>
-<h2 id="program-link-17">Program Link</h2>
+<h2 id="program-link-14">Program Link</h2>
 <p><a href="./cknkCh09Exrc018.c">cknkCh09Exrc018.c</a></p>
-<h2 id="outputexecutionlog-17">Output/ExecutionLog:</h2>
-<h3 id="trial1-17">Trial1:</h3>
-<h4 id="trial1-execution-17">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-14">Output/ExecutionLog:</h2>
+<h3 id="trial1-14">Trial1:</h3>
+<h4 id="trial1-execution-14">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-17">Trial1 Comments:</h4>
+<h4 id="trial1-comments-14">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-17">Exercise Comment:</h1>
+<h1 id="exercise-comment-14">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -533,18 +533,18 @@ that calls the function, passing it a number entered by the user. What
 does the function do?</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-18">Solution:</h1>
-<h2 id="program-link-18">Program Link</h2>
+<h2 id="program-link-15">Program Link</h2>
 <p><a href="./cknkCh09Exrc019.c">cknkCh09Exrc019.c</a></p>
-<h2 id="outputexecutionlog-18">Output/ExecutionLog:</h2>
-<h3 id="trial1-18">Trial1:</h3>
-<h4 id="trial1-execution-18">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-15">Output/ExecutionLog:</h2>
+<h3 id="trial1-15">Trial1:</h3>
+<h4 id="trial1-execution-15">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-18">Trial1 Comments:</h4>
+<h4 id="trial1-comments-15">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-18">Exercise Comment:</h1>
+<h1 id="exercise-comment-15">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
