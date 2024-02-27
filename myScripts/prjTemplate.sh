@@ -110,6 +110,10 @@ do
 
 /* END: Variable declarations*/
 
+/* START: Function prototypes*/
+
+/* END: Function prototypes*/
+
 int main(void)
 {
     /* START: MACRO definitions*/
