@@ -40,18 +40,12 @@ Write a program that asks the user to enter a series of integers (which it store
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+How many numbers to sort?: 6
+Enter the numbers to sort: 27 26 32 41 58 35
+Sorted numbers: 26 27 32 35 41 58 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -60,18 +54,12 @@ Write a program that asks the user to enter a series of integers (which it store
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+How many numbers to sort?: 10
+Enter the numbers to sort: 11 40 41 32 43 8 10 109 22 54
+Sorted numbers: 8 10 11 22 32 40 41 43 54 109 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -80,26 +68,12 @@ Write a program that asks the user to enter a series of integers (which it store
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+How many numbers to sort?: 8
+Enter the numbers to sort: 75 53 15 59 85 25 45 65
+Sorted numbers: 15 25 45 53 59 65 75 85
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 

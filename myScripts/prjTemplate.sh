@@ -128,8 +128,9 @@ int main(void)
     
     /* END: Variable declarations*/
 
+    printf("\n");
     return 0;
-}" > $prefChapter/$name1/$name2.c
+}    // FUNCTION END: main" > $prefChapter/$name1/$name2.c
 
 done
 
