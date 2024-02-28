@@ -1,0 +1,253 @@
+{
+	// Place your C_book_solutions workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"main function": {
+		"scope": ["c", "C"],
+		"prefix": ["..fn.main", "main"],
+		"body": [
+			"int main(void)",
+			"{",
+			"\t$1",
+			"\t",
+			"\tprintf(\"\\n\");",
+			"\treturn 0;"
+			"}\t//FUNCTION END: main"
+		],
+		"description": "Main function template"
+	},
+
+	"file top": {
+		"scope": ["c", "C"],
+		"prefix": ["..file.top", "fileTop", "fTop"],
+		"body": [
+			"/********************************************************************************",
+			" * File: ${TM_FILENAME}",
+			" * Author: ${1:NA}",
+			" * Purpose: ${2:NA}",
+			" ********************************************************************************/",
+			"$3"
+		],
+		"description": "Multiline comment for the top of the file with filename and fields for author and purpose."
+	},
+
+	"include - standard header":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["include", "..include"],
+		"body": [
+			"#include <$1>$2",
+		],
+		"description": ["Heaader inclusions from standard library."]
+	},
+
+	"include - user header":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["Uinclude", "..Uinclude"],
+		"body": [
+			"#include \"$1\"$2",
+		],
+		"description": ["Heaader inclusions from user library."]
+	},
+	
+	"printf":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["printf", "..printf"],
+		"body": [
+			"printf(\"$1\\n\");$2",
+		],
+		"description": ["printf statement (no parameters)."]
+	},
+
+	"scanf":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["scanf", "..scanf"],
+		"body": [
+			"scanf(\"%$1\", &$2);$3",
+		],
+		"description": ["scanf statement."]
+	},
+
+	"multi line comment":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["..ml-comm", "../**"],
+		"body": [
+			"/**",
+			" * $1",
+			" */$2",
+		],
+		"description": ["multi-line comment"]
+	},
+
+	"if statement":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["if", "..if"],
+		"body": [
+			"if($1)",
+			"{",
+			"\t$2",
+			"}\t// if condition: ",
+		],
+		"description": ["C: if statement"]
+	},
+
+	"if-else statement":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["else", "..else", "ifelse", "..ifelse"],
+		"body": [
+			"if($1)",
+			"{",
+			"\t$2",
+			"}\t// if condition: ",
+			"else",
+			"{",
+			"\t$3",
+			"}\t// else condition: ",
+			
+		],
+		"description": ["C: if-else statement"]
+	},
+	
+	"else-if statement":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["elseif", "..elseif"],
+		"body": [
+			"if($1)",
+			"{",
+			"\t$2",
+			"}\t// if condition: ",
+			"else if",
+			"{",
+			"\t$3",
+			"}\t// else-if condition: ",
+			"else",
+			"{",
+			"\t${4:/* Do Nothing */}",
+			"}\t// else condition: ",
+			
+		],
+		"description": ["C: else-if statement"]
+	},
+	
+	"switch statement":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["switch", "..switch"],
+		"body": [
+			"switch($1)",
+			"{",
+			"\tcase $2:",
+			"\t\t$3",
+			"\t\tbreak;",
+			"\tcase $4:",
+			"\t\t$5",
+			"\t\tbreak;",
+			"\tdefault:",
+			"\t\t$6",
+			"\t\tbreak;",
+			"\t",
+			"}\t// switch statement: ",
+			
+		],
+		"description": ["C: switch statement"]
+	},
+
+	"conditional (ternary) operator":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["conditionalTernaryOperator", "..?", "ternOp", "condOp", "conditionalOperator", "..ternOp", "..ternary"],
+		"body": [
+			"($1) ? ($2) : ($3)$4",
+			
+		],
+		"description": ["C: conditional (ternary) operator"]
+	},
+
+	"while statement":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["while", "..while"],
+		"body": [
+			"while($1)",
+			"{",
+			"\t$2",
+			"}\t// while statement: $3",
+			
+		],
+		"description": ["C: while statement"]
+	},
+
+	"do-while statement":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["do-while", "..do-while", "do", "..do"],
+		"body": [
+			"do($1)",
+			"{",
+			"\t$2",
+			"}while($3);\t// do-while statement: $4",
+			
+		],
+		"description": ["C: do-while statement"]
+	},
+
+	"for statement":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["for", "..for"],
+		"body": [
+			"for($1; $2; $3)",
+			"{",
+			"\t$4",
+			"}\t// for statement: $4",
+			
+		],
+		"description": ["C: for statement"]
+	},
+
+	"C: function definition":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["func", "..func", "funcDef", "function", "..function"],
+		"body": [
+			"/**",
+			" * Function name: $2",
+			" * Return type: $1",
+			" * Return value description: ",
+			" * Parameters: $3",
+			" * Param1 descr.: ",
+			" * Param2 descr.: ",
+			" * Param3 descr.: ",
+			" * Function description: ",
+			" */",
+			"${1|void,int,float,bool,char,short,long,long long,double,long double|} $2($3)",
+			"{",
+			"\t$4",
+			"}\t// FUNCTION END: $2$5",
+			
+		],
+		"description": ["C: function definition"]
+	},
+	
+}
