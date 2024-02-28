@@ -467,18 +467,12 @@ The `power` function of Section 9.6 can be made faster by having it calculate <s
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the value of x: 5
+Enter the value of n: 3
+Value of x raised to n is 125
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -487,18 +481,13 @@ The `power` function of Section 9.6 can be made faster by having it calculate <s
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+This program computes the value for x raised to the power n
+Enter the value of x: 5
+Enter the value of n: 6
+Value of x raised to n is 15625
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -507,26 +496,13 @@ The `power` function of Section 9.6 can be made faster by having it calculate <s
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+This program computes the value for x raised to the power n
+Enter the value of x: 2
+Enter the value of n: 6
+Value of x raised to n is 64
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
