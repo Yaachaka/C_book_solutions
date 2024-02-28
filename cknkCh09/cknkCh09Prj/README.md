@@ -300,11 +300,11 @@ The words are anagrams.
 Modify Programming Project 17 from Chapter 8 so that it includes the following functions:
 
 ```C
-void create_magic_square(int n, char magic_square([n][n]);
-void print_magic_square(int n, char magic_square([n][n]);
+void create_magic_square(int n, char magic_square[n][n]);
+void print_magic_square(int n, char magic_square[n][n]);
 ```
 
-After obtaining the number 7 from the user, `main` will call `create_magic_square`, passing it an `n x n` array that is declared inside `main`. `create_magic_sguare` will fill the array with the numbers 1, 2, ... , n<sup>2</sup> as described in the original project. `main` will then call `print_magic_square`, which will display the array in the format described in the original project. *Note*: If your compiler doesn’t support variable-length arrays, declare the array in main to be `99 x 99` instead of `n x n` and use the following prototypes instead:
+After obtaining the number `n` from the user, `main` will call `create_magic_square`, passing it an `n x n` array that is declared inside `main`. `create_magic_sguare` will fill the array with the numbers 1, 2, ... , n<sup>2</sup> as described in the original project. `main` will then call `print_magic_square`, which will display the array in the format described in the original project. *Note*: If your compiler doesn’t support variable-length arrays, declare the array in main to be `99 x 99` instead of `n x n` and use the following prototypes instead:
 
 ```C
 void create_magic_square(int n, char magic_square[99][99]);
@@ -329,18 +329,15 @@ void print_magic_square(int n, char magic_square[99][99]);
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+This program creates a magic square of a specified size.
+The size must be an odd number between 1 and 99.
+Enter size of magic square: 3
+   8    1    6 
+   3    5    7 
+   4    9    2 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -349,18 +346,17 @@ void print_magic_square(int n, char magic_square[99][99]);
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+This program creates a magic square of a specified size.
+The size must be an odd number between 1 and 99.
+Enter size of magic square: 5
+  17   24    1    8   15 
+  23    5    7   14   16 
+   4    6   13   20   22 
+  10   12   19   21    3 
+  11   18   25    2    9 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -369,26 +365,19 @@ void print_magic_square(int n, char magic_square[99][99]);
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+This program creates a magic square of a specified size.
+The size must be an odd number between 1 and 99.
+Enter size of magic square: 7
+  30   39   48    1   10   19   28 
+  38   47    7    9   18   27   29 
+  46    6    8   17   26   35   37 
+   5   14   16   25   34   36   45 
+  13   15   24   33   42   44    4 
+  21   23   32   41   43    3   12 
+  22   31   40   49    2   11   20
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 

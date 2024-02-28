@@ -188,11 +188,11 @@ The words are anagrams.</code></pre>
 <!-- START: Problem Statement -->
 <p>Modify Programming Project 17 from Chapter 8 so that it includes the
 following functions:</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> create_magic_square<span class="op">(</span><span class="dt">int</span> n<span class="op">,</span> <span class="dt">char</span> magic_square<span class="op">([</span>n<span class="op">][</span>n<span class="op">]);</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> print_magic_square<span class="op">(</span><span class="dt">int</span> n<span class="op">,</span> <span class="dt">char</span> magic_square<span class="op">([</span>n<span class="op">][</span>n<span class="op">]);</span></span></code></pre></div>
-<p>After obtaining the number 7 from the user, <code>main</code> will
-call <code>create_magic_square</code>, passing it an <code>n x n</code>
-array that is declared inside <code>main</code>.
+<div class="sourceCode" id="cb15"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> create_magic_square<span class="op">(</span><span class="dt">int</span> n<span class="op">,</span> <span class="dt">char</span> magic_square<span class="op">[</span>n<span class="op">][</span>n<span class="op">]);</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> print_magic_square<span class="op">(</span><span class="dt">int</span> n<span class="op">,</span> <span class="dt">char</span> magic_square<span class="op">[</span>n<span class="op">][</span>n<span class="op">]);</span></span></code></pre></div>
+<p>After obtaining the number <code>n</code> from the user,
+<code>main</code> will call <code>create_magic_square</code>, passing it
+an <code>n x n</code> array that is declared inside <code>main</code>.
 <code>create_magic_sguare</code> will fill the array with the numbers 1,
 2, … , n<sup>2</sup> as described in the original project.
 <code>main</code> will then call <code>print_magic_square</code>, which
@@ -210,30 +210,39 @@ declare the array in main to be <code>99 x 99</code> instead of
 <h3 id="trial1-4">Trial1:</h3>
 <h4 id="trial1-execution-4">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
+<pre class="shell"><code>This program creates a magic square of a specified size.
+The size must be an odd number between 1 and 99.
+Enter size of magic square: 3
+   8    1    6 
+   3    5    7 
+   4    9    2 </code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <h3 id="trial2-4">Trial2:</h3>
 <h4 id="trial2-execution-4">Trial2 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
+<pre class="shell"><code>This program creates a magic square of a specified size.
+The size must be an odd number between 1 and 99.
+Enter size of magic square: 5
+  17   24    1    8   15 
+  23    5    7   14   16 
+   4    6   13   20   22 
+  10   12   19   21    3 
+  11   18   25    2    9 </code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <h3 id="trial3-4">Trial3:</h3>
 <h4 id="trial3-execution-4">Trial3 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
+<pre class="shell"><code>This program creates a magic square of a specified size.
+The size must be an odd number between 1 and 99.
+Enter size of magic square: 7
+  30   39   48    1   10   19   28 
+  38   47    7    9   18   27   29 
+  46    6    8   17   26   35   37 
+   5   14   16   25   34   36   45 
+  13   15   24   33   42   44    4 
+  21   23   32   41   43    3   12 
+  22   31   40   49    2   11   20</code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
 <h1 id="cknkch09prj006">cknkCh09Prj006</h1>
 <!-- START: Problem Statement -->
@@ -254,7 +263,7 @@ polynomial, and then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-1">Trial1 Comments:</h4>
+<h4 id="trial1-comments">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-5">Trial2:</h3>
@@ -262,7 +271,7 @@ polynomial, and then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-1">Trial2 Comments:</h4>
+<h4 id="trial2-comments">Trial2 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial3-5">Trial3:</h3>
@@ -270,10 +279,10 @@ polynomial, and then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-1">Trial3 Comments:</h4>
+<h4 id="trial3-comments">Trial3 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-1">Exercise Comment:</h1>
+<h1 id="exercise-comment">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -318,7 +327,7 @@ then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-2">Trial1 Comments:</h4>
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-6">Trial2:</h3>
@@ -326,7 +335,7 @@ then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-2">Trial2 Comments:</h4>
+<h4 id="trial2-comments-1">Trial2 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial3-6">Trial3:</h3>
@@ -334,10 +343,10 @@ then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-2">Trial3 Comments:</h4>
+<h4 id="trial3-comments-1">Trial3 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-2">Exercise Comment:</h1>
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -405,7 +414,7 @@ example of how to call <code>rand</code> and the related
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-3">Trial1 Comments:</h4>
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-7">Trial2:</h3>
@@ -413,7 +422,7 @@ example of how to call <code>rand</code> and the related
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-3">Trial2 Comments:</h4>
+<h4 id="trial2-comments-2">Trial2 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial3-7">Trial3:</h3>
@@ -421,10 +430,10 @@ example of how to call <code>rand</code> and the related
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-3">Trial3 Comments:</h4>
+<h4 id="trial3-comments-2">Trial3 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-3">Exercise Comment:</h1>
+<h1 id="exercise-comment-2">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
