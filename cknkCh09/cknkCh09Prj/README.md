@@ -567,17 +567,32 @@ bool play_game(void);
 
 ```shell
 
+---Started new game---
+You rolled 6
+Your point is 6
+You rolled 7
+You lose!
+
+Play again? y
+
+---Started new game---
+You rolled 7
+You win!
+
+Play again? y
+
+---Started new game---
+You rolled 6
+Your point is 6
+You rolled 10
+You rolled 6
+You win!
+
+Play again? n
+Wins: 2 Losses: 1
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -587,17 +602,64 @@ bool play_game(void);
 
 ```shell
 
+---Started new game---
+You rolled 6
+Your point is 6
+You rolled 8
+You rolled 10
+You rolled 8
+You rolled 9
+You rolled 6
+You win!
+
+Play again? y
+
+---Started new game---
+You rolled 6
+Your point is 6
+You rolled 11
+You rolled 8
+You rolled 8
+You rolled 5
+You rolled 9
+You rolled 10
+You rolled 5
+You rolled 5
+You rolled 5
+You rolled 8
+You rolled 5
+You rolled 6
+You win!
+
+Play again? y
+
+---Started new game---
+You rolled 8
+Your point is 8
+You rolled 7
+You lose!
+
+Play again? y
+
+---Started new game---
+You rolled 9
+Your point is 9
+You rolled 3
+You rolled 11
+You rolled 7
+You lose!
+
+Play again? y
+
+---Started new game---
+You rolled 7
+You win!
+
+Play again? n
+Wins: 3 Losses: 2
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -607,25 +669,85 @@ bool play_game(void);
 
 ```shell
 
+---Started new game---
+You rolled 11
+You win!
+
+Play again? y
+
+---Started new game---
+You rolled 3
+You lose!
+
+Play again? y
+
+---Started new game---
+You rolled 7
+You win!
+
+Play again? y
+
+---Started new game---
+You rolled 10
+Your point is 10
+You rolled 6
+You rolled 5
+You rolled 10
+You win!
+
+Play again? y
+
+---Started new game---
+You rolled 2
+You lose!
+
+Play again? y
+
+---Started new game---
+You rolled 4
+Your point is 4
+You rolled 5
+You rolled 8
+You rolled 8
+You rolled 5
+You rolled 6
+You rolled 7
+You lose!
+
+Play again? y
+
+---Started new game---
+You rolled 8
+Your point is 8
+You rolled 8
+You win!
+
+Play again? y
+
+---Started new game---
+You rolled 9
+Your point is 9
+You rolled 2
+You rolled 5
+You rolled 10
+You rolled 7
+You lose!
+
+Play again? y
+
+---Started new game---
+You rolled 10
+Your point is 10
+You rolled 8
+You rolled 8
+You rolled 10
+You win!
+
+Play again? n
+Wins: 5 Losses: 4
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
