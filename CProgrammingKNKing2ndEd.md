@@ -2254,7 +2254,373 @@ will give `i`, `j`, and `k` the values 2, 3, and 3, respectively.
 
 For the record, the postfix versions of `++` and `--` have higher precedence than unary plus and minus and are left associative. The prefix versions have the same precedence as unary plus and minus and are right associative.
 
+## 4.4 Expression Evaluation
 
+Table 4.2 summarizes the operators we’ve seen so far. (Appendix A has a similar table that shows *all* operators.) The first column shows the precedence of each operator relative to the other operators in the table (the highest precedence is 1: the lowest is 5). The last column shows the associativity of each operator.
+
+**Table 4.2:** A Partial list of C Operators
+
+|Precedence|Name|Symbol(s)|Associativity|
+|---|---|---|---|
+|1|increment (postfix)|`++`|left|
+|1|decrement (postfix)|`--`|left|
+|2|increment (prefix)|`++`|right|
+|2|decrement (prefix)|`--`|right|
+|2|unary plus|`+`|right|
+|2|unary minus|`-`|right|
+|3|multiplicative|`*` `/` `%`|left|
+|4|additive|`+` `-`|left|
+|5|assignment|`=` `*=` `/=` `%=` `+=` `-=`|right|
+
+Table 4.2 (or its larger cousin in Appendix A) has a variety of uses. Let’s look at one of these. Suppose that we run across a complicated expression such as
+
+```C
+a = b += c++ - d + --e / -f
+```
+
+as we're reading someone’s program. This expression would be easier to understand if there were parentheses to show how the expression is constructed from subexpressions. With the help of Table 4.2, adding parentheses to an expression is easy: after examining the expression to find the operator with highest precedence, we put parentheses around the operator and its operands, indicating that it should be treated as a single operand from that point onwards. We then repeat the process until the expression is fully parenthesized.
+
+In our example, the operator with highest precedence is `++`, used here as a postfix operator, so we put parentheses around `++` and its operand:
+
+```C
+a = b += (c++) - d + --e / -f
+```
+
+We now spot a prefix `--` operator and a unary minus operator (both precedence 2) in the expression:
+
+```C
+a = b += (c++) - d + (--e) / (-f)
+```
+
+Note that the other minus sign has an operand to its immediate left, so it must be a subtraction operator, not a unary minus operator.
+
+Next, we notice the `/` operator (precedence 3):
+
+```C
+a = b += (c++) - d + ((--e) / (-f))
+```
+
+The expression contains two operators with precedence 4, subtraction and addition. Whenever two operators with the same precedence are adjacent to an operand, we’ve got to be careful about associativity. In our example, `-` and `+` are both adjacent to `d`, so associativity rules apply. The `-` and `+` operators group from left to right, so parentheses go around the subtraction first, then the addition:
+
+```C
+a = b += ((c++) - d) + ((--e) / (-f))
+```
+
+The only remaining operators are `=` and `+=`. Both operators are adjacent to b, so we must take associativity into account. Assignment operators group from right to left, so parentheses go around the `+=` expression first, then the `=` expression:
+
+```C
+(a = (b += (((c++) - d) + ((--e) / (-f)))))
+```
+
+The expression is now fully parenthesized.
+
+### 4.4.1 Order of Subexpression Evaluation
+
+The rules of operator precedence and associativity allow us to break any C expression into subexpressions—to determine uniquely where the parentheses would go if the expression were fully parenthesized. Paradoxically, these rules don’t always allow us to determine the value of the expression, which may depend on the order in which its subexpressions are evaluated.
+
+C doesn’t define the order in which subexpressions are evaluated (with the exception of subexpressions involving the logical *and*, logical *or*, conditional, and comma operators). Thus, in the expression `(a + b) * (c - d)` we don't know whether (a + b) will be evaluated before `(c - d)`.
+
+Most expressions have the same value regardless of the order in which their subexpressions are evaluated. However, this may not be true when a subexpression modifies one of its operands. Consider the following example:
+
+```C
+a = 5;
+c = (b = a + 2) - (a = 1);
+```
+
+The effect of executing the second statement is undefined: the C standard doesn’t say what will happen. With most compilers, the value of `c` will be either 6 or 2. If the subexpression `(b = a + 2)` is evaluated first, `b` is assigned the value 7 and `c` is assigned 6. But if `(a = 1)` is evaluated first, `b` is assigned 3 and `c` is assigned 2.
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Avoid writing expressions that access the value of a variable and also modify the variable elsewhere in the expression. The expression `(b =a + 2) - (a = 1)` accesses the value of `a` (in order to compute `a + 2`) and also modifies the value of `a` (by assigning it 1). Some compilers may produce a warning message such as “*operation on ‘a’ may be undefined*” when they encounter such an expression.
+
+</div>
+<!-- END: div -->
+
+To prevent problems, it's a good idea to avoid using the assignment operators in subexpressions; instead, use a series of separate assignments. For example, the statements above could be rewritten as
+
+```C
+a = 5;
+b = a + 2;
+a = 1;
+c = b - a;
+```
+
+The value of `c` will always be 6 after these statements are executed.
+
+Besides the assignment operators, the only operators that modify their operands are increment and decrement. When using these operators, be careful that your expressions don’t depend on a particular order of evaluation. In the following example, `j` may be assigned one of two values:
+
+```C
+i = 2;
+j = i * i++;
+```
+
+It's natural to assume that `j` is assigned the value 4. However, the effect of executing the statement is undefined, and `j` could just as well be assigned 6 instead. Here's the scenario: (1) The second operand (the original value of 1) is fetched, then 1 is incremented. (2) The first operand (the new value of 1) is fetched. (3) The new and old values of `i` are multiplied, yielding 6. “Fetching” a variable means to retrieve the value of the variable from memory. A later change to the variable won’t affect the fetched value, which is typically stored in a special location (known as a register) inside the CPU.
+
+<!-- START: div -->
+<div class="infoBox">
+
+Undefined Behavior
+
+According to the C standard, statements such as `c = (b = a + 2) - (a = 1);` and `j = i * i++;` cause undefined behavior, which is different from implementation-defined behavior (see Section 4.1). When a program ventures into the realm of undefined behavior, all bets are off. The program may behave differently when compiled with different compilers. But that's not the only thing that can happen. The program may not compile in the first place, if it compiles it may not run, and if it does run, it may crash, behave erratically, or produce meaningless results. In other words, undefined behavior should be avoided like the plague.
+
+</div>
+<!-- END: div -->
+
+## 4.5 Expression Statements
+
+C has the unusual rule that any expression can be used as a statement. That is, any expression—regardless of its type or what it computes—can be turned into a statement by appending a semicolon. For example, we could turn the expression `++i` into a statement:
+
+```C
+++i;
+```
+
+When this statement is executed, `i` is first incremented, then the new value of `i` is fetched (as though it were to be used in an enclosing expression). However, since `++i` isn’t part of a larger expression, its value is discarded and the next statement executed. (The change to 1 is permanent, of course.)
+
+Since its value is discarded, there’s little point in using an expression as a statement unless the expression has a side effect. Let's look at three examples. In the first example, 1 is stored into `i`, then the new value of `i` is fetched but not used:
+
+```C
+i = 1;
+```
+
+In the second example, the value of `i` is fetched but not used; however, `i` is decremented afterwards:
+
+```C
+i--;
+```
+
+In the third example, the value of the expression `i * j - 1` is computed and then discarded:
+
+```C
+i * j - 1;
+```
+
+Since `i` and `j` aren’t changed, this statement has no effect and therefore serves no purpose.
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+A slip of the finger can easily create a “do-nothing™ expression statement. For example, instead of entering
+
+```C
+i = j;
+```
+
+we might accidentally type
+
+```C
+i + j;
+```
+
+(This kind of error is more common than you might expect, since the `=` and `+` characters usually occupy the same key.) Some compilers can detect meaningless expression statements; you’ll get a warning such as “*statement with no effect*.”
+
+</div>
+<!-- END: div -->
+
+---
+
+## Q & A
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: I notice that C has no exponentiation operator. How can I raise a number to a power?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A:  Raising an integer to a small positive integer power is best done by repeated multiplication (`i * i * i` is `i` cubed). To raise a number to a noninteger power, call the `pow` function.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: I want to apply the `%` operator to a floating-point operand, but my program won’t compile. What can I do? [p. 54]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: The `%` operator requires integer operands. Try the `fmod` function instead.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Why are the rules for using the `/` and `%` operators with negative operands so complicated? [p. 54]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="C99Symbol"></span>
+
+A:  The rules aren’t as complicated as they may first appear. In both C89 and C99, the goal is to ensure that the value of `(a / b) * b + a % b` will always be equal to `a` (and indeed, both standards guarantee that this is the case, provided that the value of `a / b` is “representable”). The problem is that there are two ways for `a / b` and `a % b` to satisfy this equality if either `a` or `b` is negative, as seen in C89, where either `-9 / 7` is -1 and `-9 % 7` is -2, or `-9 / 7` is -2 and `-9 % 7` is 5. In the first case, `(-9 / 7) * 7 + -9 % 7` has the value `-1 x 7 + -2 = -9`, and in the second case, `(-9 / 7) * 7 + -9 % 7` has the value `-2 x 7 + 5 = -9`. By the time C99 rolled around, most CPUs were designed to truncate the result of division toward zero, so this was written into the standard as the only allowable outcome.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+If C has lvalues, does it also have rvalues? [p. 59]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+Yes, indeed. An *l*value is an expression that can appear on the *left* side of an assignment; an *r*value is an expression that can appear on the *right* side. Thus, an rvalue could be a variable, constant, or more complex expression. In this book, as in the C standard, we’ll use the term “expression™ instead of “rvalue.”
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+You said that `v += e` isn’t equivalent to `v = v + e` if `v` has a side effect. Can you explain? [p. 60]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+Evaluating `v += e` causes `v` to be evaluated only once; evaluating `v = v + e` causes `v` to be evaluated twice. Any side effect caused by evaluating `v` will occur twice in the latter case. In the following example, `i` is incremented once:
+
+```C
+A[i++] += 2;
+```
+
+If we use `=` instead of `+=`, here’s what the statement will look like:
+
+```C
+a[i++] = a[i++] + 2;
+```
+
+The value of `i` is modified as well as used elsewhere in the statement, so the effect of executing the statement is undefined. It’s likely that `i` will be incremented twice, but we can’t say with certainty what will happen.
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+
+Why does C provide the `++` and `--` operators? Are they faster than other ways of incrementing and decrementing, or they are just more convenient? [p. 61]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+C inherited `++` and `--` from **Ken Thompson**’s earlier B language. Thompson apparently created these operators because his B compiler could generate a more compact translation for `++i` than for `i = i + 1`. These operators have become a deeply ingrained part of C (in fact, many of C’s most famous idioms rely on them). With modern compilers, using `++` and won’t make a compiled program any smaller or faster; the continued popularity of these operators stems mostly from their brevity and convenience.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Do `++` and `--` work with `float` variables?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+Yes; the increment and decrement operations can be applied to floating-point numbers as well as integers. In practice, however, it’s fairly rare to increment or decrement a `float` variable.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+When I use the postfix version of `++` or `--`, just when is the increment or decrement performed? [p. 62]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+That's an excellent question. Unfortunately, it's also a difficult one to answer. The C standard introduces the concept of “sequence point” and says that “updating the stored value of the operand shall occur between the previous and the next sequence point.” There are various kinds of sequence points in C: the end of an expression statement is one example. By the end of an expression statement, all increments and decrements within the statement must have been performed; the next statement can’t begin to execute until this condition has been met.
+
+Certain operators that we’ll encounter in later chapters (logical and. logical or, conditional, and comma) also impose sequence points. So do function calls: the arguments in a function call must be fully evaluated before the call can be performed. If an argument happens to be an expression containing a `++` or `--` operator, the increment or decrement must occur before the call can take place.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: What do you mean when you say that the value of an expression statement is discarded? [p. 65]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+By definition, an expression represents a value. If `i` has the value 5, for example, then evaluating `i + 1` produces the value 6. Let's turn `i + 1` into a statement by putting a semicolon after it:
+
+```C
+i + 1;
+```
+
+When this statement is executed, the value of `i + 1` is computed. Since we have failed to save this value—or at least use it in some way—it is lost.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: But what about statements like `i = 1;`? I don’t see what is being discarded.
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+Don’t forget that `=` is an operator in C and produces a value just like any other operator. The assignment
+
+```C
+i = 1;
+```
+
+assigns 1 to `i`. The value of the entire expression is 1, which is discarded. Discarding the expression’s value is no great loss, since the reason for writing the statement in the first place was to modify `i`.
+
+</div>
+<!-- END: div -->
+
+---
+
+## Examples
+
+- Programs: [./cknkCh04/cknkCh04Exmp/](./cknkCh04/cknkCh04Exmp/)
+
+## Exercises
+
+- Readme: [./cknkCh04/cknkCh04Exrc/README.md](./cknkCh04/cknkCh04Exrc/README.md)  
+- Readme (html): [./cknkCh04/cknkCh04Exrc/cknkCh04ExrcReadme.html](./cknkCh04/cknkCh04Exrc/cknkCh04ExrcReadme.html)  
+- Programs: [./cknkCh04/cknkCh04Exrc/](./cknkCh04/cknkCh04Exrc/)  
+
+## Programming Projects
+
+- Readme: [./cknkCh04/cknkCh04Prj/README.md](./cknkCh04/cknkCh04Prj/README.md)  
+- Readme: [./cknkCh04/cknkCh04Prj/cknkCh04PrjReadme.html](./cknkCh04/cknkCh04Prj/cknkCh04PrjReadme.html)  
+- Programs: [./cknkCh04/cknkCh04Prj/](./cknkCh04/cknkCh04Prj/)  
+
+<hr class="chapterDivider"/>
 
 </body>
 </html>

@@ -2667,5 +2667,471 @@ values 2, 3, and 3, respectively.</p>
 <code>--</code> have higher precedence than unary plus and minus and are
 left associative. The prefix versions have the same precedence as unary
 plus and minus and are right associative.</p>
+<h2 id="expression-evaluation">4.4 Expression Evaluation</h2>
+<p>Table 4.2 summarizes the operators we’ve seen so far. (Appendix A has
+a similar table that shows <em>all</em> operators.) The first column
+shows the precedence of each operator relative to the other operators in
+the table (the highest precedence is 1: the lowest is 5). The last
+column shows the associativity of each operator.</p>
+<p><strong>Table 4.2:</strong> A Partial list of C Operators</p>
+<table>
+<thead>
+<tr class="header">
+<th>Precedence</th>
+<th>Name</th>
+<th>Symbol(s)</th>
+<th>Associativity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>increment (postfix)</td>
+<td><code>++</code></td>
+<td>left</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>decrement (postfix)</td>
+<td><code>--</code></td>
+<td>left</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>increment (prefix)</td>
+<td><code>++</code></td>
+<td>right</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>decrement (prefix)</td>
+<td><code>--</code></td>
+<td>right</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>unary plus</td>
+<td><code>+</code></td>
+<td>right</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>unary minus</td>
+<td><code>-</code></td>
+<td>right</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>multiplicative</td>
+<td><code>*</code> <code>/</code> <code>%</code></td>
+<td>left</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>additive</td>
+<td><code>+</code> <code>-</code></td>
+<td>left</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>assignment</td>
+<td><code>=</code> <code>*=</code> <code>/=</code> <code>%=</code>
+<code>+=</code> <code>-=</code></td>
+<td>right</td>
+</tr>
+</tbody>
+</table>
+<p>Table 4.2 (or its larger cousin in Appendix A) has a variety of uses.
+Let’s look at one of these. Suppose that we run across a complicated
+expression such as</p>
+<div class="sourceCode" id="cb136"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb136-1"><a href="#cb136-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> b <span class="op">+=</span> c<span class="op">++</span> <span class="op">-</span> d <span class="op">+</span> <span class="op">--</span>e <span class="op">/</span> <span class="op">-</span>f</span></code></pre></div>
+<p>as we’re reading someone’s program. This expression would be easier
+to understand if there were parentheses to show how the expression is
+constructed from subexpressions. With the help of Table 4.2, adding
+parentheses to an expression is easy: after examining the expression to
+find the operator with highest precedence, we put parentheses around the
+operator and its operands, indicating that it should be treated as a
+single operand from that point onwards. We then repeat the process until
+the expression is fully parenthesized.</p>
+<p>In our example, the operator with highest precedence is
+<code>++</code>, used here as a postfix operator, so we put parentheses
+around <code>++</code> and its operand:</p>
+<div class="sourceCode" id="cb137"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb137-1"><a href="#cb137-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> b <span class="op">+=</span> <span class="op">(</span>c<span class="op">++)</span> <span class="op">-</span> d <span class="op">+</span> <span class="op">--</span>e <span class="op">/</span> <span class="op">-</span>f</span></code></pre></div>
+<p>We now spot a prefix <code>--</code> operator and a unary minus
+operator (both precedence 2) in the expression:</p>
+<div class="sourceCode" id="cb138"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb138-1"><a href="#cb138-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> b <span class="op">+=</span> <span class="op">(</span>c<span class="op">++)</span> <span class="op">-</span> d <span class="op">+</span> <span class="op">(--</span>e<span class="op">)</span> <span class="op">/</span> <span class="op">(-</span>f<span class="op">)</span></span></code></pre></div>
+<p>Note that the other minus sign has an operand to its immediate left,
+so it must be a subtraction operator, not a unary minus operator.</p>
+<p>Next, we notice the <code>/</code> operator (precedence 3):</p>
+<div class="sourceCode" id="cb139"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb139-1"><a href="#cb139-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> b <span class="op">+=</span> <span class="op">(</span>c<span class="op">++)</span> <span class="op">-</span> d <span class="op">+</span> <span class="op">((--</span>e<span class="op">)</span> <span class="op">/</span> <span class="op">(-</span>f<span class="op">))</span></span></code></pre></div>
+<p>The expression contains two operators with precedence 4, subtraction
+and addition. Whenever two operators with the same precedence are
+adjacent to an operand, we’ve got to be careful about associativity. In
+our example, <code>-</code> and <code>+</code> are both adjacent to
+<code>d</code>, so associativity rules apply. The <code>-</code> and
+<code>+</code> operators group from left to right, so parentheses go
+around the subtraction first, then the addition:</p>
+<div class="sourceCode" id="cb140"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb140-1"><a href="#cb140-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> b <span class="op">+=</span> <span class="op">((</span>c<span class="op">++)</span> <span class="op">-</span> d<span class="op">)</span> <span class="op">+</span> <span class="op">((--</span>e<span class="op">)</span> <span class="op">/</span> <span class="op">(-</span>f<span class="op">))</span></span></code></pre></div>
+<p>The only remaining operators are <code>=</code> and <code>+=</code>.
+Both operators are adjacent to b, so we must take associativity into
+account. Assignment operators group from right to left, so parentheses
+go around the <code>+=</code> expression first, then the <code>=</code>
+expression:</p>
+<div class="sourceCode" id="cb141"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb141-1"><a href="#cb141-1" aria-hidden="true" tabindex="-1"></a><span class="op">(</span>a <span class="op">=</span> <span class="op">(</span>b <span class="op">+=</span> <span class="op">(((</span>c<span class="op">++)</span> <span class="op">-</span> d<span class="op">)</span> <span class="op">+</span> <span class="op">((--</span>e<span class="op">)</span> <span class="op">/</span> <span class="op">(-</span>f<span class="op">)))))</span></span></code></pre></div>
+<p>The expression is now fully parenthesized.</p>
+<h3 id="order-of-subexpression-evaluation">4.4.1 Order of Subexpression
+Evaluation</h3>
+<p>The rules of operator precedence and associativity allow us to break
+any C expression into subexpressions—to determine uniquely where the
+parentheses would go if the expression were fully parenthesized.
+Paradoxically, these rules don’t always allow us to determine the value
+of the expression, which may depend on the order in which its
+subexpressions are evaluated.</p>
+<p>C doesn’t define the order in which subexpressions are evaluated
+(with the exception of subexpressions involving the logical
+<em>and</em>, logical <em>or</em>, conditional, and comma operators).
+Thus, in the expression <code>(a + b) * (c - d)</code> we don’t know
+whether (a + b) will be evaluated before <code>(c - d)</code>.</p>
+<p>Most expressions have the same value regardless of the order in which
+their subexpressions are evaluated. However, this may not be true when a
+subexpression modifies one of its operands. Consider the following
+example:</p>
+<div class="sourceCode" id="cb142"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb142-1"><a href="#cb142-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb142-2"><a href="#cb142-2" aria-hidden="true" tabindex="-1"></a>c <span class="op">=</span> <span class="op">(</span>b <span class="op">=</span> a <span class="op">+</span> <span class="dv">2</span><span class="op">)</span> <span class="op">-</span> <span class="op">(</span>a <span class="op">=</span> <span class="dv">1</span><span class="op">);</span></span></code></pre></div>
+<p>The effect of executing the second statement is undefined: the C
+standard doesn’t say what will happen. With most compilers, the value of
+<code>c</code> will be either 6 or 2. If the subexpression
+<code>(b = a + 2)</code> is evaluated first, <code>b</code> is assigned
+the value 7 and <code>c</code> is assigned 6. But if
+<code>(a = 1)</code> is evaluated first, <code>b</code> is assigned 3
+and <code>c</code> is assigned 2.</p>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Avoid writing expressions that access the value of a variable and
+also modify the variable elsewhere in the expression. The expression
+<code>(b =a + 2) - (a = 1)</code> accesses the value of <code>a</code>
+(in order to compute <code>a + 2</code>) and also modifies the value of
+<code>a</code> (by assigning it 1). Some compilers may produce a warning
+message such as “<em>operation on ‘a’ may be undefined</em>” when they
+encounter such an expression.</p>
+</div>
+<!-- END: div -->
+<p>To prevent problems, it’s a good idea to avoid using the assignment
+operators in subexpressions; instead, use a series of separate
+assignments. For example, the statements above could be rewritten as</p>
+<div class="sourceCode" id="cb143"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb143-1"><a href="#cb143-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb143-2"><a href="#cb143-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> a <span class="op">+</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb143-3"><a href="#cb143-3" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb143-4"><a href="#cb143-4" aria-hidden="true" tabindex="-1"></a>c <span class="op">=</span> b <span class="op">-</span> a<span class="op">;</span></span></code></pre></div>
+<p>The value of <code>c</code> will always be 6 after these statements
+are executed.</p>
+<p>Besides the assignment operators, the only operators that modify
+their operands are increment and decrement. When using these operators,
+be careful that your expressions don’t depend on a particular order of
+evaluation. In the following example, <code>j</code> may be assigned one
+of two values:</p>
+<div class="sourceCode" id="cb144"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb144-1"><a href="#cb144-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb144-2"><a href="#cb144-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> i <span class="op">*</span> i<span class="op">++;</span></span></code></pre></div>
+<p>It’s natural to assume that <code>j</code> is assigned the value 4.
+However, the effect of executing the statement is undefined, and
+<code>j</code> could just as well be assigned 6 instead. Here’s the
+scenario: (1) The second operand (the original value of 1) is fetched,
+then 1 is incremented. (2) The first operand (the new value of 1) is
+fetched. (3) The new and old values of <code>i</code> are multiplied,
+yielding 6. “Fetching” a variable means to retrieve the value of the
+variable from memory. A later change to the variable won’t affect the
+fetched value, which is typically stored in a special location (known as
+a register) inside the CPU.</p>
+<!-- START: div -->
+<div class="infoBox">
+<p>Undefined Behavior</p>
+<p>According to the C standard, statements such as
+<code>c = (b = a + 2) - (a = 1);</code> and <code>j = i * i++;</code>
+cause undefined behavior, which is different from implementation-defined
+behavior (see Section 4.1). When a program ventures into the realm of
+undefined behavior, all bets are off. The program may behave differently
+when compiled with different compilers. But that’s not the only thing
+that can happen. The program may not compile in the first place, if it
+compiles it may not run, and if it does run, it may crash, behave
+erratically, or produce meaningless results. In other words, undefined
+behavior should be avoided like the plague.</p>
+</div>
+<!-- END: div -->
+<h2 id="expression-statements">4.5 Expression Statements</h2>
+<p>C has the unusual rule that any expression can be used as a
+statement. That is, any expression—regardless of its type or what it
+computes—can be turned into a statement by appending a semicolon. For
+example, we could turn the expression <code>++i</code> into a
+statement:</p>
+<div class="sourceCode" id="cb145"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb145-1"><a href="#cb145-1" aria-hidden="true" tabindex="-1"></a><span class="op">++</span>i<span class="op">;</span></span></code></pre></div>
+<p>When this statement is executed, <code>i</code> is first incremented,
+then the new value of <code>i</code> is fetched (as though it were to be
+used in an enclosing expression). However, since <code>++i</code> isn’t
+part of a larger expression, its value is discarded and the next
+statement executed. (The change to 1 is permanent, of course.)</p>
+<p>Since its value is discarded, there’s little point in using an
+expression as a statement unless the expression has a side effect. Let’s
+look at three examples. In the first example, 1 is stored into
+<code>i</code>, then the new value of <code>i</code> is fetched but not
+used:</p>
+<div class="sourceCode" id="cb146"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb146-1"><a href="#cb146-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span></code></pre></div>
+<p>In the second example, the value of <code>i</code> is fetched but not
+used; however, <code>i</code> is decremented afterwards:</p>
+<div class="sourceCode" id="cb147"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb147-1"><a href="#cb147-1" aria-hidden="true" tabindex="-1"></a>i<span class="op">--;</span></span></code></pre></div>
+<p>In the third example, the value of the expression
+<code>i * j - 1</code> is computed and then discarded:</p>
+<div class="sourceCode" id="cb148"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb148-1"><a href="#cb148-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">*</span> j <span class="op">-</span> <span class="dv">1</span><span class="op">;</span></span></code></pre></div>
+<p>Since <code>i</code> and <code>j</code> aren’t changed, this
+statement has no effect and therefore serves no purpose.</p>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>A slip of the finger can easily create a “do-nothing™ expression
+statement. For example, instead of entering</p>
+<div class="sourceCode" id="cb149"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb149-1"><a href="#cb149-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> j<span class="op">;</span></span></code></pre></div>
+<p>we might accidentally type</p>
+<div class="sourceCode" id="cb150"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb150-1"><a href="#cb150-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">+</span> j<span class="op">;</span></span></code></pre></div>
+<p>(This kind of error is more common than you might expect, since the
+<code>=</code> and <code>+</code> characters usually occupy the same
+key.) Some compilers can detect meaningless expression statements;
+you’ll get a warning such as “<em>statement with no effect</em>.”</p>
+</div>
+<!-- END: div -->
+<hr />
+<h2 id="q-a-2">Q &amp; A</h2>
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: I notice that C has no exponentiation operator. How can I raise a
+number to a power?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Raising an integer to a small positive integer power is best done
+by repeated multiplication (<code>i * i * i</code> is <code>i</code>
+cubed). To raise a number to a noninteger power, call the
+<code>pow</code> function.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: I want to apply the <code>%</code> operator to a floating-point
+operand, but my program won’t compile. What can I do? [p. 54]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: The <code>%</code> operator requires integer operands. Try the
+<code>fmod</code> function instead.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Why are the rules for using the <code>/</code> and <code>%</code>
+operators with negative operands so complicated? [p. 54]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p><span class="C99Symbol"></span></p>
+<p>A: The rules aren’t as complicated as they may first appear. In both
+C89 and C99, the goal is to ensure that the value of
+<code>(a / b) * b + a % b</code> will always be equal to <code>a</code>
+(and indeed, both standards guarantee that this is the case, provided
+that the value of <code>a / b</code> is “representable”). The problem is
+that there are two ways for <code>a / b</code> and <code>a % b</code> to
+satisfy this equality if either <code>a</code> or <code>b</code> is
+negative, as seen in C89, where either <code>-9 / 7</code> is -1 and
+<code>-9 % 7</code> is -2, or <code>-9 / 7</code> is -2 and
+<code>-9 % 7</code> is 5. In the first case,
+<code>(-9 / 7) * 7 + -9 % 7</code> has the value
+<code>-1 x 7 + -2 = -9</code>, and in the second case,
+<code>(-9 / 7) * 7 + -9 % 7</code> has the value
+<code>-2 x 7 + 5 = -9</code>. By the time C99 rolled around, most CPUs
+were designed to truncate the result of division toward zero, so this
+was written into the standard as the only allowable outcome.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>If C has lvalues, does it also have rvalues? [p. 59]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>Yes, indeed. An <em>l</em>value is an expression that can appear on
+the <em>left</em> side of an assignment; an <em>r</em>value is an
+expression that can appear on the <em>right</em> side. Thus, an rvalue
+could be a variable, constant, or more complex expression. In this book,
+as in the C standard, we’ll use the term “expression™ instead of
+“rvalue.”</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>You said that <code>v += e</code> isn’t equivalent to
+<code>v = v + e</code> if <code>v</code> has a side effect. Can you
+explain? [p. 60]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>Evaluating <code>v += e</code> causes <code>v</code> to be evaluated
+only once; evaluating <code>v = v + e</code> causes <code>v</code> to be
+evaluated twice. Any side effect caused by evaluating <code>v</code>
+will occur twice in the latter case. In the following example,
+<code>i</code> is incremented once:</p>
+<div class="sourceCode" id="cb151"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb151-1"><a href="#cb151-1" aria-hidden="true" tabindex="-1"></a>A<span class="op">[</span>i<span class="op">++]</span> <span class="op">+=</span> <span class="dv">2</span><span class="op">;</span></span></code></pre></div>
+<p>If we use <code>=</code> instead of <code>+=</code>, here’s what the
+statement will look like:</p>
+<div class="sourceCode" id="cb152"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb152-1"><a href="#cb152-1" aria-hidden="true" tabindex="-1"></a>a<span class="op">[</span>i<span class="op">++]</span> <span class="op">=</span> a<span class="op">[</span>i<span class="op">++]</span> <span class="op">+</span> <span class="dv">2</span><span class="op">;</span></span></code></pre></div>
+<p>The value of <code>i</code> is modified as well as used elsewhere in
+the statement, so the effect of executing the statement is undefined.
+It’s likely that <code>i</code> will be incremented twice, but we can’t
+say with certainty what will happen.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Why does C provide the <code>++</code> and <code>--</code> operators?
+Are they faster than other ways of incrementing and decrementing, or
+they are just more convenient? [p. 61]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>C inherited <code>++</code> and <code>--</code> from <strong>Ken
+Thompson</strong>’s earlier B language. Thompson apparently created
+these operators because his B compiler could generate a more compact
+translation for <code>++i</code> than for <code>i = i + 1</code>. These
+operators have become a deeply ingrained part of C (in fact, many of C’s
+most famous idioms rely on them). With modern compilers, using
+<code>++</code> and won’t make a compiled program any smaller or faster;
+the continued popularity of these operators stems mostly from their
+brevity and convenience.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Do <code>++</code> and <code>--</code> work with <code>float</code>
+variables?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>Yes; the increment and decrement operations can be applied to
+floating-point numbers as well as integers. In practice, however, it’s
+fairly rare to increment or decrement a <code>float</code> variable.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>When I use the postfix version of <code>++</code> or <code>--</code>,
+just when is the increment or decrement performed? [p. 62]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>That’s an excellent question. Unfortunately, it’s also a difficult
+one to answer. The C standard introduces the concept of “sequence point”
+and says that “updating the stored value of the operand shall occur
+between the previous and the next sequence point.” There are various
+kinds of sequence points in C: the end of an expression statement is one
+example. By the end of an expression statement, all increments and
+decrements within the statement must have been performed; the next
+statement can’t begin to execute until this condition has been met.</p>
+<p>Certain operators that we’ll encounter in later chapters (logical
+and. logical or, conditional, and comma) also impose sequence points. So
+do function calls: the arguments in a function call must be fully
+evaluated before the call can be performed. If an argument happens to be
+an expression containing a <code>++</code> or <code>--</code> operator,
+the increment or decrement must occur before the call can take
+place.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: What do you mean when you say that the value of an expression
+statement is discarded? [p. 65]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>By definition, an expression represents a value. If <code>i</code>
+has the value 5, for example, then evaluating <code>i + 1</code>
+produces the value 6. Let’s turn <code>i + 1</code> into a statement by
+putting a semicolon after it:</p>
+<div class="sourceCode" id="cb153"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb153-1"><a href="#cb153-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">+</span> <span class="dv">1</span><span class="op">;</span></span></code></pre></div>
+<p>When this statement is executed, the value of <code>i + 1</code> is
+computed. Since we have failed to save this value—or at least use it in
+some way—it is lost.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: But what about statements like <code>i = 1;</code>? I don’t see
+what is being discarded.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>Don’t forget that <code>=</code> is an operator in C and produces a
+value just like any other operator. The assignment</p>
+<div class="sourceCode" id="cb154"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb154-1"><a href="#cb154-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span></code></pre></div>
+<p>assigns 1 to <code>i</code>. The value of the entire expression is 1,
+which is discarded. Discarding the expression’s value is no great loss,
+since the reason for writing the statement in the first place was to
+modify <code>i</code>.</p>
+</div>
+<!-- END: div -->
+<hr />
+<h2 id="examples-2">Examples</h2>
+<ul>
+<li>Programs: <a
+href="./cknkCh04/cknkCh04Exmp/">./cknkCh04/cknkCh04Exmp/</a></li>
+</ul>
+<h2 id="exercises-2">Exercises</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh04/cknkCh04Exrc/README.md">./cknkCh04/cknkCh04Exrc/README.md</a><br />
+</li>
+<li>Readme (html): <a
+href="./cknkCh04/cknkCh04Exrc/cknkCh04ExrcReadme.html">./cknkCh04/cknkCh04Exrc/cknkCh04ExrcReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh04/cknkCh04Exrc/">./cknkCh04/cknkCh04Exrc/</a></li>
+</ul>
+<h2 id="programming-projects-2">Programming Projects</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh04/cknkCh04Prj/README.md">./cknkCh04/cknkCh04Prj/README.md</a><br />
+</li>
+<li>Readme: <a
+href="./cknkCh04/cknkCh04Prj/cknkCh04PrjReadme.html">./cknkCh04/cknkCh04Prj/cknkCh04PrjReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh04/cknkCh04Prj/">./cknkCh04/cknkCh04Prj/</a></li>
+</ul>
+<hr class="chapterDivider"/>
 </body>
 </html>
