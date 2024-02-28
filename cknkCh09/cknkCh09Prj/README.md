@@ -166,18 +166,19 @@ void print_array(char walk[10][10]);
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+A . . . . . . . . . 
+B . . . . . . . . . 
+C D K L . . . . . . 
+F E J M . . . . . . 
+G H I N . . . . . . 
+. . . O . . . . . . 
+. . . P . . . . . . 
+. . . Q R . V W . . 
+. . . . S T U X Y . 
+. . . . . . . . Z . 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -186,18 +187,19 @@ void print_array(char walk[10][10]);
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+A B C . . . . . . . 
+. . D . . . . . . . 
+G F E . M N O P . . 
+H I J K L . . Q . . 
+. . . . . . . R . . 
+. . . . . U T S . . 
+. . . . W V . . . . 
+. . . . X Y . . . . 
+. . . . . Z . . . . 
+. . . . . . . . . . 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -206,26 +208,20 @@ void print_array(char walk[10][10]);
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Note: Premature termination...
+A . . . . V W R Q . 
+B C . . . U T S P . 
+. D . . . L M N O . 
+. E F G H K . . . . 
+. . . . I J . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . .
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
