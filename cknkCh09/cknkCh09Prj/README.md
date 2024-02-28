@@ -409,18 +409,11 @@ Write a program that asks the user to enter a value for `x`, calls the function 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the value of x; 3
+The value of the given polynomial when x = 3 is 762.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -429,18 +422,11 @@ Write a program that asks the user to enter a value for `x`, calls the function 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the value of x; 5
+The value of the given polynomial when x = 5 is 10004.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -449,26 +435,11 @@ Write a program that asks the user to enter a value for `x`, calls the function 
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter the value of x; 7
+The value of the given polynomial when x = 7 is 53502.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
