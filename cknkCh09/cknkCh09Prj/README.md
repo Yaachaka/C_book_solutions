@@ -101,18 +101,11 @@ Modify Programming Project 5 from Chapter 5 so that it uses a function to comput
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Please enter your taxable income: $4500
+Tax due: $262.50
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -121,18 +114,11 @@ Modify Programming Project 5 from Chapter 5 so that it uses a function to comput
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Please enter your taxable income: $852
+Tax due: $24.54
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -141,26 +127,11 @@ Modify Programming Project 5 from Chapter 5 so that it uses a function to comput
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Please enter your taxable income: $78000
+Tax due: $4910.00
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
