@@ -145,7 +145,7 @@ B C . . . U T S P .
 <!-- START: Problem Statement -->
 <p>Modify Programming Project 16 from Chapter 8 so that it includes the
 following functions:</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> read_word<span class="op">(</span><span class="dt">int</span> counts<span class="op">([</span><span class="dv">26</span><span class="op">]);</span></span>
+<div class="sourceCode" id="cb11"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> read_word<span class="op">(</span><span class="dt">int</span> counts<span class="op">[</span><span class="dv">26</span><span class="op">]);</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> equal_array<span class="op">(</span><span class="dt">int</span> counts1<span class="op">[</span><span class="dv">26</span><span class="op">],</span> <span class="dt">int</span> counts2<span class="op">[</span><span class="dv">26</span><span class="op">]);</span></span></code></pre></div>
 <p><code>main</code> will call <code>read_word</code> twice, once for
 each of the two words entered by the user. As it reads a word,
@@ -165,30 +165,24 @@ otherwise.</p>
 <h3 id="trial1-3">Trial1:</h3>
 <h4 id="trial1-execution-3">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
+<pre class="shell"><code>Enter first word: mattress
+Enter second word: smartest
+The words are anagrams.</code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <h3 id="trial2-3">Trial2:</h3>
 <h4 id="trial2-execution-3">Trial2 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
+<pre class="shell"><code>Enter first word: dumbest
+Enter second word: stumble
+The words are not anagrams.</code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <h3 id="trial3-3">Trial3:</h3>
 <h4 id="trial3-execution-3">Trial3 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
+<pre class="shell"><code>Enter first word: Sumana
+Enter second word: Manasu
+The words are anagrams.</code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
 <h1 id="cknkch09prj005">cknkCh09Prj005</h1>
 <!-- START: Problem Statement -->
@@ -218,7 +212,7 @@ declare the array in main to be <code>99 x 99</code> instead of
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-1">Trial1 Comments:</h4>
+<h4 id="trial1-comments">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-4">Trial2:</h3>
@@ -226,7 +220,7 @@ declare the array in main to be <code>99 x 99</code> instead of
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-1">Trial2 Comments:</h4>
+<h4 id="trial2-comments">Trial2 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial3-4">Trial3:</h3>
@@ -234,10 +228,10 @@ declare the array in main to be <code>99 x 99</code> instead of
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-1">Trial3 Comments:</h4>
+<h4 id="trial3-comments">Trial3 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-1">Exercise Comment:</h1>
+<h1 id="exercise-comment">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -260,7 +254,7 @@ polynomial, and then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-2">Trial1 Comments:</h4>
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-5">Trial2:</h3>
@@ -268,7 +262,7 @@ polynomial, and then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-2">Trial2 Comments:</h4>
+<h4 id="trial2-comments-1">Trial2 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial3-5">Trial3:</h3>
@@ -276,10 +270,10 @@ polynomial, and then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-2">Trial3 Comments:</h4>
+<h4 id="trial3-comments-1">Trial3 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-2">Exercise Comment:</h1>
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -324,7 +318,7 @@ then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-3">Trial1 Comments:</h4>
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-6">Trial2:</h3>
@@ -332,7 +326,7 @@ then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-3">Trial2 Comments:</h4>
+<h4 id="trial2-comments-2">Trial2 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial3-6">Trial3:</h3>
@@ -340,10 +334,10 @@ then displays the value returned by the function.</p>
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-3">Trial3 Comments:</h4>
+<h4 id="trial3-comments-2">Trial3 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-3">Exercise Comment:</h1>
+<h1 id="exercise-comment-2">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>
@@ -411,7 +405,7 @@ example of how to call <code>rand</code> and the related
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-4">Trial1 Comments:</h4>
+<h4 id="trial1-comments-3">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial2-7">Trial2:</h3>
@@ -419,7 +413,7 @@ example of how to call <code>rand</code> and the related
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments-4">Trial2 Comments:</h4>
+<h4 id="trial2-comments-3">Trial2 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h3 id="trial3-7">Trial3:</h3>
@@ -427,10 +421,10 @@ example of how to call <code>rand</code> and the related
 <!-- START: terminal interaction or other output -->
 <pre class="shell"><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments-4">Trial3 Comments:</h4>
+<h4 id="trial3-comments-3">Trial3 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-4">Exercise Comment:</h1>
+<h1 id="exercise-comment-3">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <hr class="hr1ExrcPrj"/>

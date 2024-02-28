@@ -232,7 +232,7 @@ B C . . . U T S P .
 Modify Programming Project 16 from Chapter 8 so that it includes the following functions:
 
 ```C
-void read_word(int counts([26]);
+void read_word(int counts[26]);
 bool equal_array(int counts1[26], int counts2[26]);
 ```
 
@@ -256,18 +256,12 @@ bool equal_array(int counts1[26], int counts2[26]);
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter first word: mattress
+Enter second word: smartest
+The words are anagrams.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -276,18 +270,12 @@ bool equal_array(int counts1[26], int counts2[26]);
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter first word: dumbest
+Enter second word: stumble
+The words are not anagrams.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -296,26 +284,12 @@ bool equal_array(int counts1[26], int counts2[26]);
 <!-- START: terminal interaction or other output -->
 
 ```shell
-
+Enter first word: Sumana
+Enter second word: Manasu
+The words are anagrams.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 <hr class="hr1ExrcPrj"/>
 
