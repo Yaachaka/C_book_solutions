@@ -88,49 +88,49 @@ do
 " >> $prefChapter/$name1/README.md # Fourth echo
 
     # File with initial template creation
-    echo "/**
- * file: $name2.c
- * Author: Yaachaka
- */
+#     echo "/**
+#  * file: $name2.c
+#  * Author: Yaachaka
+#  */
 
-/* START: Header inclusions*/
-#include <stdio.h>
+# /* START: Header inclusions*/
+# #include <stdio.h>
 
-/* END: Header inclusions*/
+# /* END: Header inclusions*/
 
-/* START: MACRO definitions*/
+# /* START: MACRO definitions*/
 
-/* END: MACRO definitions*/
+# /* END: MACRO definitions*/
 
-/* START: type definitions*/
+# /* START: type definitions*/
 
-/* END: type definitions*/
+# /* END: type definitions*/
 
-/* START: Variable declarations*/
+# /* START: Variable declarations*/
 
-/* END: Variable declarations*/
+# /* END: Variable declarations*/
 
-/* START: Function prototypes*/
+# /* START: Function prototypes*/
 
-/* END: Function prototypes*/
+# /* END: Function prototypes*/
 
-int main(void)
-{
-    /* START: MACRO definitions*/
+# int main(void)
+# {
+#     /* START: MACRO definitions*/
     
-    /* END: MACRO definitions*/
+#     /* END: MACRO definitions*/
 
-    /* START: type definitions*/
+#     /* START: type definitions*/
     
-    /* END: type definitions*/
+#     /* END: type definitions*/
 
-    /* START: Variable declarations*/
+#     /* START: Variable declarations*/
     
-    /* END: Variable declarations*/
+#     /* END: Variable declarations*/
 
-    printf("\n");
-    return 0;
-}    // FUNCTION END: main" > $prefChapter/$name1/$name2.c
+#     printf("\n");
+#     return 0;
+# }    // FUNCTION END: main" > $prefChapter/$name1/$name2.c
 
 done
 

@@ -226,7 +226,7 @@
 		"description": ["C: for statement"]
 	},
 
-	"C: function definition":
+	"C: comment set":
 	{
 		"scope": ["C", "c"],
 		"prefix": ["func", "..func", "funcDef", "function", "..function"],
@@ -247,7 +247,36 @@
 			"}\t// FUNCTION END: $2$5",
 			
 		],
-		"description": ["C: function definition"]
+		"description": ["C: comment set"]
+	},
+
+	"C: comment set":
+	{
+		"scope": ["C", "c"],
+		"prefix": ["commSet", "..commSet"],
+		"body": [
+			"/* START: Header inclusions*/",
+			"",
+			"/* END: Header inclusions*/",
+			"",
+			"/* START: MACRO definitions*/",
+			"",
+			"/* END: MACRO definitions*/",
+			"",
+			"/* START: type definitions*/",
+			"",
+			"/* END: type definitions*/",
+			"",
+			"/* START: Variable declarations*/",
+			"",
+			"/* END: Variable declarations*/",
+			"",
+			"/* START: Function prototypes*/",
+			"",
+			"/* END: Function prototypes*/",
+			
+		],
+		"description": ["C: comment set"]
 	},
 	
 }

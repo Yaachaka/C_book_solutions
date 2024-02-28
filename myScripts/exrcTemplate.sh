@@ -90,20 +90,20 @@ $chapter_section
 <hr class=\"hr1ExrcPrj\"/>
 " >> $prefChapter/$name1/README.md
 
-    # File with initial template creation
-    echo "/**
- * file: $name2.c
- * Author: Yaachaka
- */
+#     # File with initial template creation
+#     echo "/**
+#  * file: $name2.c
+#  * Author: Yaachaka
+#  */
 
-#include <stdio.h>
+# #include <stdio.h>
 
-int main(void)
-{
+# int main(void)
+# {
 
 
-    return 0;
-}" > $prefChapter/$name1/$name2.c
+#     return 0;
+# }" > $prefChapter/$name1/$name2.c
 
 done    # For loop 1
 
