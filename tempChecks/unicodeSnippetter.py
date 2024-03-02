@@ -44,6 +44,8 @@ def displayThisChar(i):
             
             fileHandle.write("{\n")
             
+        if attrib_cp == "0022":
+            attrib_cp_escape = "\\\""
         fileHandle.write(f"{tabSpaces}\"Unicode {attrib_cp_escape} U+{attrib_cp} {attrib_na}\": \n")
         
         fileHandle.write(f"{tabSpaces}{{\n")

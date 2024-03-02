@@ -611,7 +611,7 @@
         ],
     },
 
-    "Unicode " U+0022 QUOTATION MARK": 
+    "Unicode \" U+0022 QUOTATION MARK": 
     {
         "prefix": [
             "..U.0022",
@@ -619,11 +619,11 @@
             "U+0022",
         ],
         "body": [
-            "${1|",&#x0022;,U+0022,0x0022,QUOTATION MARK|}$2",
+            "${1|\",&#x0022;,U+0022,0x0022,QUOTATION MARK|}$2",
         ],
         "description": [
             "Code: U+0022",
-            "Character/Symbol: "",
+            "Character/Symbol: \"",
             "Name: QUOTATION MARK",
             "Group/Block: ASCII",
         ],
