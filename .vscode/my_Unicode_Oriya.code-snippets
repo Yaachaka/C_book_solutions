@@ -1,0 +1,1640 @@
+{
+    "Unicode ଁ U+0B01 ORIYA SIGN CANDRABINDU": 
+    {
+        "prefix": [
+            "..U.0B01",
+            "..U.ORIYA SIGN CANDRABINDU",
+            "U+0B01",
+        ],
+        "body": [
+            "${1|ଁ,&#x0B01;,U+0B01,0x0B01,ORIYA SIGN CANDRABINDU|}$2",
+        ],
+        "description": [
+            "Code: U+0B01",
+            "Character/Symbol: ଁ",
+            "Name: ORIYA SIGN CANDRABINDU",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଂ U+0B02 ORIYA SIGN ANUSVARA": 
+    {
+        "prefix": [
+            "..U.0B02",
+            "..U.ORIYA SIGN ANUSVARA",
+            "U+0B02",
+        ],
+        "body": [
+            "${1|ଂ,&#x0B02;,U+0B02,0x0B02,ORIYA SIGN ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+0B02",
+            "Character/Symbol: ଂ",
+            "Name: ORIYA SIGN ANUSVARA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଃ U+0B03 ORIYA SIGN VISARGA": 
+    {
+        "prefix": [
+            "..U.0B03",
+            "..U.ORIYA SIGN VISARGA",
+            "U+0B03",
+        ],
+        "body": [
+            "${1|ଃ,&#x0B03;,U+0B03,0x0B03,ORIYA SIGN VISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+0B03",
+            "Character/Symbol: ଃ",
+            "Name: ORIYA SIGN VISARGA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଅ U+0B05 ORIYA LETTER A": 
+    {
+        "prefix": [
+            "..U.0B05",
+            "..U.ORIYA LETTER A",
+            "U+0B05",
+        ],
+        "body": [
+            "${1|ଅ,&#x0B05;,U+0B05,0x0B05,ORIYA LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+0B05",
+            "Character/Symbol: ଅ",
+            "Name: ORIYA LETTER A",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଆ U+0B06 ORIYA LETTER AA": 
+    {
+        "prefix": [
+            "..U.0B06",
+            "..U.ORIYA LETTER AA",
+            "U+0B06",
+        ],
+        "body": [
+            "${1|ଆ,&#x0B06;,U+0B06,0x0B06,ORIYA LETTER AA|}$2",
+        ],
+        "description": [
+            "Code: U+0B06",
+            "Character/Symbol: ଆ",
+            "Name: ORIYA LETTER AA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଇ U+0B07 ORIYA LETTER I": 
+    {
+        "prefix": [
+            "..U.0B07",
+            "..U.ORIYA LETTER I",
+            "U+0B07",
+        ],
+        "body": [
+            "${1|ଇ,&#x0B07;,U+0B07,0x0B07,ORIYA LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+0B07",
+            "Character/Symbol: ଇ",
+            "Name: ORIYA LETTER I",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଈ U+0B08 ORIYA LETTER II": 
+    {
+        "prefix": [
+            "..U.0B08",
+            "..U.ORIYA LETTER II",
+            "U+0B08",
+        ],
+        "body": [
+            "${1|ଈ,&#x0B08;,U+0B08,0x0B08,ORIYA LETTER II|}$2",
+        ],
+        "description": [
+            "Code: U+0B08",
+            "Character/Symbol: ଈ",
+            "Name: ORIYA LETTER II",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଉ U+0B09 ORIYA LETTER U": 
+    {
+        "prefix": [
+            "..U.0B09",
+            "..U.ORIYA LETTER U",
+            "U+0B09",
+        ],
+        "body": [
+            "${1|ଉ,&#x0B09;,U+0B09,0x0B09,ORIYA LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+0B09",
+            "Character/Symbol: ଉ",
+            "Name: ORIYA LETTER U",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଊ U+0B0A ORIYA LETTER UU": 
+    {
+        "prefix": [
+            "..U.0B0A",
+            "..U.ORIYA LETTER UU",
+            "U+0B0A",
+        ],
+        "body": [
+            "${1|ଊ,&#x0B0A;,U+0B0A,0x0B0A,ORIYA LETTER UU|}$2",
+        ],
+        "description": [
+            "Code: U+0B0A",
+            "Character/Symbol: ଊ",
+            "Name: ORIYA LETTER UU",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଋ U+0B0B ORIYA LETTER VOCALIC R": 
+    {
+        "prefix": [
+            "..U.0B0B",
+            "..U.ORIYA LETTER VOCALIC R",
+            "U+0B0B",
+        ],
+        "body": [
+            "${1|ଋ,&#x0B0B;,U+0B0B,0x0B0B,ORIYA LETTER VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+0B0B",
+            "Character/Symbol: ଋ",
+            "Name: ORIYA LETTER VOCALIC R",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଌ U+0B0C ORIYA LETTER VOCALIC L": 
+    {
+        "prefix": [
+            "..U.0B0C",
+            "..U.ORIYA LETTER VOCALIC L",
+            "U+0B0C",
+        ],
+        "body": [
+            "${1|ଌ,&#x0B0C;,U+0B0C,0x0B0C,ORIYA LETTER VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+0B0C",
+            "Character/Symbol: ଌ",
+            "Name: ORIYA LETTER VOCALIC L",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଏ U+0B0F ORIYA LETTER E": 
+    {
+        "prefix": [
+            "..U.0B0F",
+            "..U.ORIYA LETTER E",
+            "U+0B0F",
+        ],
+        "body": [
+            "${1|ଏ,&#x0B0F;,U+0B0F,0x0B0F,ORIYA LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+0B0F",
+            "Character/Symbol: ଏ",
+            "Name: ORIYA LETTER E",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଐ U+0B10 ORIYA LETTER AI": 
+    {
+        "prefix": [
+            "..U.0B10",
+            "..U.ORIYA LETTER AI",
+            "U+0B10",
+        ],
+        "body": [
+            "${1|ଐ,&#x0B10;,U+0B10,0x0B10,ORIYA LETTER AI|}$2",
+        ],
+        "description": [
+            "Code: U+0B10",
+            "Character/Symbol: ଐ",
+            "Name: ORIYA LETTER AI",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଓ U+0B13 ORIYA LETTER O": 
+    {
+        "prefix": [
+            "..U.0B13",
+            "..U.ORIYA LETTER O",
+            "U+0B13",
+        ],
+        "body": [
+            "${1|ଓ,&#x0B13;,U+0B13,0x0B13,ORIYA LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+0B13",
+            "Character/Symbol: ଓ",
+            "Name: ORIYA LETTER O",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଔ U+0B14 ORIYA LETTER AU": 
+    {
+        "prefix": [
+            "..U.0B14",
+            "..U.ORIYA LETTER AU",
+            "U+0B14",
+        ],
+        "body": [
+            "${1|ଔ,&#x0B14;,U+0B14,0x0B14,ORIYA LETTER AU|}$2",
+        ],
+        "description": [
+            "Code: U+0B14",
+            "Character/Symbol: ଔ",
+            "Name: ORIYA LETTER AU",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode କ U+0B15 ORIYA LETTER KA": 
+    {
+        "prefix": [
+            "..U.0B15",
+            "..U.ORIYA LETTER KA",
+            "U+0B15",
+        ],
+        "body": [
+            "${1|କ,&#x0B15;,U+0B15,0x0B15,ORIYA LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+0B15",
+            "Character/Symbol: କ",
+            "Name: ORIYA LETTER KA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଖ U+0B16 ORIYA LETTER KHA": 
+    {
+        "prefix": [
+            "..U.0B16",
+            "..U.ORIYA LETTER KHA",
+            "U+0B16",
+        ],
+        "body": [
+            "${1|ଖ,&#x0B16;,U+0B16,0x0B16,ORIYA LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B16",
+            "Character/Symbol: ଖ",
+            "Name: ORIYA LETTER KHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଗ U+0B17 ORIYA LETTER GA": 
+    {
+        "prefix": [
+            "..U.0B17",
+            "..U.ORIYA LETTER GA",
+            "U+0B17",
+        ],
+        "body": [
+            "${1|ଗ,&#x0B17;,U+0B17,0x0B17,ORIYA LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+0B17",
+            "Character/Symbol: ଗ",
+            "Name: ORIYA LETTER GA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଘ U+0B18 ORIYA LETTER GHA": 
+    {
+        "prefix": [
+            "..U.0B18",
+            "..U.ORIYA LETTER GHA",
+            "U+0B18",
+        ],
+        "body": [
+            "${1|ଘ,&#x0B18;,U+0B18,0x0B18,ORIYA LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B18",
+            "Character/Symbol: ଘ",
+            "Name: ORIYA LETTER GHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଙ U+0B19 ORIYA LETTER NGA": 
+    {
+        "prefix": [
+            "..U.0B19",
+            "..U.ORIYA LETTER NGA",
+            "U+0B19",
+        ],
+        "body": [
+            "${1|ଙ,&#x0B19;,U+0B19,0x0B19,ORIYA LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+0B19",
+            "Character/Symbol: ଙ",
+            "Name: ORIYA LETTER NGA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଚ U+0B1A ORIYA LETTER CA": 
+    {
+        "prefix": [
+            "..U.0B1A",
+            "..U.ORIYA LETTER CA",
+            "U+0B1A",
+        ],
+        "body": [
+            "${1|ଚ,&#x0B1A;,U+0B1A,0x0B1A,ORIYA LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+0B1A",
+            "Character/Symbol: ଚ",
+            "Name: ORIYA LETTER CA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଛ U+0B1B ORIYA LETTER CHA": 
+    {
+        "prefix": [
+            "..U.0B1B",
+            "..U.ORIYA LETTER CHA",
+            "U+0B1B",
+        ],
+        "body": [
+            "${1|ଛ,&#x0B1B;,U+0B1B,0x0B1B,ORIYA LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B1B",
+            "Character/Symbol: ଛ",
+            "Name: ORIYA LETTER CHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଜ U+0B1C ORIYA LETTER JA": 
+    {
+        "prefix": [
+            "..U.0B1C",
+            "..U.ORIYA LETTER JA",
+            "U+0B1C",
+        ],
+        "body": [
+            "${1|ଜ,&#x0B1C;,U+0B1C,0x0B1C,ORIYA LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+0B1C",
+            "Character/Symbol: ଜ",
+            "Name: ORIYA LETTER JA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଝ U+0B1D ORIYA LETTER JHA": 
+    {
+        "prefix": [
+            "..U.0B1D",
+            "..U.ORIYA LETTER JHA",
+            "U+0B1D",
+        ],
+        "body": [
+            "${1|ଝ,&#x0B1D;,U+0B1D,0x0B1D,ORIYA LETTER JHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B1D",
+            "Character/Symbol: ଝ",
+            "Name: ORIYA LETTER JHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଞ U+0B1E ORIYA LETTER NYA": 
+    {
+        "prefix": [
+            "..U.0B1E",
+            "..U.ORIYA LETTER NYA",
+            "U+0B1E",
+        ],
+        "body": [
+            "${1|ଞ,&#x0B1E;,U+0B1E,0x0B1E,ORIYA LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+0B1E",
+            "Character/Symbol: ଞ",
+            "Name: ORIYA LETTER NYA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଟ U+0B1F ORIYA LETTER TTA": 
+    {
+        "prefix": [
+            "..U.0B1F",
+            "..U.ORIYA LETTER TTA",
+            "U+0B1F",
+        ],
+        "body": [
+            "${1|ଟ,&#x0B1F;,U+0B1F,0x0B1F,ORIYA LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+0B1F",
+            "Character/Symbol: ଟ",
+            "Name: ORIYA LETTER TTA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଠ U+0B20 ORIYA LETTER TTHA": 
+    {
+        "prefix": [
+            "..U.0B20",
+            "..U.ORIYA LETTER TTHA",
+            "U+0B20",
+        ],
+        "body": [
+            "${1|ଠ,&#x0B20;,U+0B20,0x0B20,ORIYA LETTER TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B20",
+            "Character/Symbol: ଠ",
+            "Name: ORIYA LETTER TTHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଡ U+0B21 ORIYA LETTER DDA": 
+    {
+        "prefix": [
+            "..U.0B21",
+            "..U.ORIYA LETTER DDA",
+            "U+0B21",
+        ],
+        "body": [
+            "${1|ଡ,&#x0B21;,U+0B21,0x0B21,ORIYA LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+0B21",
+            "Character/Symbol: ଡ",
+            "Name: ORIYA LETTER DDA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଢ U+0B22 ORIYA LETTER DDHA": 
+    {
+        "prefix": [
+            "..U.0B22",
+            "..U.ORIYA LETTER DDHA",
+            "U+0B22",
+        ],
+        "body": [
+            "${1|ଢ,&#x0B22;,U+0B22,0x0B22,ORIYA LETTER DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B22",
+            "Character/Symbol: ଢ",
+            "Name: ORIYA LETTER DDHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଣ U+0B23 ORIYA LETTER NNA": 
+    {
+        "prefix": [
+            "..U.0B23",
+            "..U.ORIYA LETTER NNA",
+            "U+0B23",
+        ],
+        "body": [
+            "${1|ଣ,&#x0B23;,U+0B23,0x0B23,ORIYA LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+0B23",
+            "Character/Symbol: ଣ",
+            "Name: ORIYA LETTER NNA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ତ U+0B24 ORIYA LETTER TA": 
+    {
+        "prefix": [
+            "..U.0B24",
+            "..U.ORIYA LETTER TA",
+            "U+0B24",
+        ],
+        "body": [
+            "${1|ତ,&#x0B24;,U+0B24,0x0B24,ORIYA LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+0B24",
+            "Character/Symbol: ତ",
+            "Name: ORIYA LETTER TA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଥ U+0B25 ORIYA LETTER THA": 
+    {
+        "prefix": [
+            "..U.0B25",
+            "..U.ORIYA LETTER THA",
+            "U+0B25",
+        ],
+        "body": [
+            "${1|ଥ,&#x0B25;,U+0B25,0x0B25,ORIYA LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+0B25",
+            "Character/Symbol: ଥ",
+            "Name: ORIYA LETTER THA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଦ U+0B26 ORIYA LETTER DA": 
+    {
+        "prefix": [
+            "..U.0B26",
+            "..U.ORIYA LETTER DA",
+            "U+0B26",
+        ],
+        "body": [
+            "${1|ଦ,&#x0B26;,U+0B26,0x0B26,ORIYA LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+0B26",
+            "Character/Symbol: ଦ",
+            "Name: ORIYA LETTER DA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଧ U+0B27 ORIYA LETTER DHA": 
+    {
+        "prefix": [
+            "..U.0B27",
+            "..U.ORIYA LETTER DHA",
+            "U+0B27",
+        ],
+        "body": [
+            "${1|ଧ,&#x0B27;,U+0B27,0x0B27,ORIYA LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B27",
+            "Character/Symbol: ଧ",
+            "Name: ORIYA LETTER DHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ନ U+0B28 ORIYA LETTER NA": 
+    {
+        "prefix": [
+            "..U.0B28",
+            "..U.ORIYA LETTER NA",
+            "U+0B28",
+        ],
+        "body": [
+            "${1|ନ,&#x0B28;,U+0B28,0x0B28,ORIYA LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+0B28",
+            "Character/Symbol: ନ",
+            "Name: ORIYA LETTER NA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ପ U+0B2A ORIYA LETTER PA": 
+    {
+        "prefix": [
+            "..U.0B2A",
+            "..U.ORIYA LETTER PA",
+            "U+0B2A",
+        ],
+        "body": [
+            "${1|ପ,&#x0B2A;,U+0B2A,0x0B2A,ORIYA LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+0B2A",
+            "Character/Symbol: ପ",
+            "Name: ORIYA LETTER PA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଫ U+0B2B ORIYA LETTER PHA": 
+    {
+        "prefix": [
+            "..U.0B2B",
+            "..U.ORIYA LETTER PHA",
+            "U+0B2B",
+        ],
+        "body": [
+            "${1|ଫ,&#x0B2B;,U+0B2B,0x0B2B,ORIYA LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B2B",
+            "Character/Symbol: ଫ",
+            "Name: ORIYA LETTER PHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ବ U+0B2C ORIYA LETTER BA": 
+    {
+        "prefix": [
+            "..U.0B2C",
+            "..U.ORIYA LETTER BA",
+            "U+0B2C",
+        ],
+        "body": [
+            "${1|ବ,&#x0B2C;,U+0B2C,0x0B2C,ORIYA LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+0B2C",
+            "Character/Symbol: ବ",
+            "Name: ORIYA LETTER BA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଭ U+0B2D ORIYA LETTER BHA": 
+    {
+        "prefix": [
+            "..U.0B2D",
+            "..U.ORIYA LETTER BHA",
+            "U+0B2D",
+        ],
+        "body": [
+            "${1|ଭ,&#x0B2D;,U+0B2D,0x0B2D,ORIYA LETTER BHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B2D",
+            "Character/Symbol: ଭ",
+            "Name: ORIYA LETTER BHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ମ U+0B2E ORIYA LETTER MA": 
+    {
+        "prefix": [
+            "..U.0B2E",
+            "..U.ORIYA LETTER MA",
+            "U+0B2E",
+        ],
+        "body": [
+            "${1|ମ,&#x0B2E;,U+0B2E,0x0B2E,ORIYA LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+0B2E",
+            "Character/Symbol: ମ",
+            "Name: ORIYA LETTER MA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଯ U+0B2F ORIYA LETTER YA": 
+    {
+        "prefix": [
+            "..U.0B2F",
+            "..U.ORIYA LETTER YA",
+            "U+0B2F",
+        ],
+        "body": [
+            "${1|ଯ,&#x0B2F;,U+0B2F,0x0B2F,ORIYA LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+0B2F",
+            "Character/Symbol: ଯ",
+            "Name: ORIYA LETTER YA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ର U+0B30 ORIYA LETTER RA": 
+    {
+        "prefix": [
+            "..U.0B30",
+            "..U.ORIYA LETTER RA",
+            "U+0B30",
+        ],
+        "body": [
+            "${1|ର,&#x0B30;,U+0B30,0x0B30,ORIYA LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+0B30",
+            "Character/Symbol: ର",
+            "Name: ORIYA LETTER RA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଲ U+0B32 ORIYA LETTER LA": 
+    {
+        "prefix": [
+            "..U.0B32",
+            "..U.ORIYA LETTER LA",
+            "U+0B32",
+        ],
+        "body": [
+            "${1|ଲ,&#x0B32;,U+0B32,0x0B32,ORIYA LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+0B32",
+            "Character/Symbol: ଲ",
+            "Name: ORIYA LETTER LA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଳ U+0B33 ORIYA LETTER LLA": 
+    {
+        "prefix": [
+            "..U.0B33",
+            "..U.ORIYA LETTER LLA",
+            "U+0B33",
+        ],
+        "body": [
+            "${1|ଳ,&#x0B33;,U+0B33,0x0B33,ORIYA LETTER LLA|}$2",
+        ],
+        "description": [
+            "Code: U+0B33",
+            "Character/Symbol: ଳ",
+            "Name: ORIYA LETTER LLA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଵ U+0B35 ORIYA LETTER VA": 
+    {
+        "prefix": [
+            "..U.0B35",
+            "..U.ORIYA LETTER VA",
+            "U+0B35",
+        ],
+        "body": [
+            "${1|ଵ,&#x0B35;,U+0B35,0x0B35,ORIYA LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+0B35",
+            "Character/Symbol: ଵ",
+            "Name: ORIYA LETTER VA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଶ U+0B36 ORIYA LETTER SHA": 
+    {
+        "prefix": [
+            "..U.0B36",
+            "..U.ORIYA LETTER SHA",
+            "U+0B36",
+        ],
+        "body": [
+            "${1|ଶ,&#x0B36;,U+0B36,0x0B36,ORIYA LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B36",
+            "Character/Symbol: ଶ",
+            "Name: ORIYA LETTER SHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଷ U+0B37 ORIYA LETTER SSA": 
+    {
+        "prefix": [
+            "..U.0B37",
+            "..U.ORIYA LETTER SSA",
+            "U+0B37",
+        ],
+        "body": [
+            "${1|ଷ,&#x0B37;,U+0B37,0x0B37,ORIYA LETTER SSA|}$2",
+        ],
+        "description": [
+            "Code: U+0B37",
+            "Character/Symbol: ଷ",
+            "Name: ORIYA LETTER SSA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ସ U+0B38 ORIYA LETTER SA": 
+    {
+        "prefix": [
+            "..U.0B38",
+            "..U.ORIYA LETTER SA",
+            "U+0B38",
+        ],
+        "body": [
+            "${1|ସ,&#x0B38;,U+0B38,0x0B38,ORIYA LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+0B38",
+            "Character/Symbol: ସ",
+            "Name: ORIYA LETTER SA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ହ U+0B39 ORIYA LETTER HA": 
+    {
+        "prefix": [
+            "..U.0B39",
+            "..U.ORIYA LETTER HA",
+            "U+0B39",
+        ],
+        "body": [
+            "${1|ହ,&#x0B39;,U+0B39,0x0B39,ORIYA LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+0B39",
+            "Character/Symbol: ହ",
+            "Name: ORIYA LETTER HA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଼ U+0B3C ORIYA SIGN NUKTA": 
+    {
+        "prefix": [
+            "..U.0B3C",
+            "..U.ORIYA SIGN NUKTA",
+            "U+0B3C",
+        ],
+        "body": [
+            "${1|଼,&#x0B3C;,U+0B3C,0x0B3C,ORIYA SIGN NUKTA|}$2",
+        ],
+        "description": [
+            "Code: U+0B3C",
+            "Character/Symbol: ଼",
+            "Name: ORIYA SIGN NUKTA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଽ U+0B3D ORIYA SIGN AVAGRAHA": 
+    {
+        "prefix": [
+            "..U.0B3D",
+            "..U.ORIYA SIGN AVAGRAHA",
+            "U+0B3D",
+        ],
+        "body": [
+            "${1|ଽ,&#x0B3D;,U+0B3D,0x0B3D,ORIYA SIGN AVAGRAHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B3D",
+            "Character/Symbol: ଽ",
+            "Name: ORIYA SIGN AVAGRAHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ା U+0B3E ORIYA VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.0B3E",
+            "..U.ORIYA VOWEL SIGN AA",
+            "U+0B3E",
+        ],
+        "body": [
+            "${1|ା,&#x0B3E;,U+0B3E,0x0B3E,ORIYA VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+0B3E",
+            "Character/Symbol: ା",
+            "Name: ORIYA VOWEL SIGN AA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ି U+0B3F ORIYA VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.0B3F",
+            "..U.ORIYA VOWEL SIGN I",
+            "U+0B3F",
+        ],
+        "body": [
+            "${1|ି,&#x0B3F;,U+0B3F,0x0B3F,ORIYA VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+0B3F",
+            "Character/Symbol: ି",
+            "Name: ORIYA VOWEL SIGN I",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୀ U+0B40 ORIYA VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.0B40",
+            "..U.ORIYA VOWEL SIGN II",
+            "U+0B40",
+        ],
+        "body": [
+            "${1|ୀ,&#x0B40;,U+0B40,0x0B40,ORIYA VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+0B40",
+            "Character/Symbol: ୀ",
+            "Name: ORIYA VOWEL SIGN II",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୁ U+0B41 ORIYA VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.0B41",
+            "..U.ORIYA VOWEL SIGN U",
+            "U+0B41",
+        ],
+        "body": [
+            "${1|ୁ,&#x0B41;,U+0B41,0x0B41,ORIYA VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+0B41",
+            "Character/Symbol: ୁ",
+            "Name: ORIYA VOWEL SIGN U",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୂ U+0B42 ORIYA VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.0B42",
+            "..U.ORIYA VOWEL SIGN UU",
+            "U+0B42",
+        ],
+        "body": [
+            "${1|ୂ,&#x0B42;,U+0B42,0x0B42,ORIYA VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+0B42",
+            "Character/Symbol: ୂ",
+            "Name: ORIYA VOWEL SIGN UU",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୃ U+0B43 ORIYA VOWEL SIGN VOCALIC R": 
+    {
+        "prefix": [
+            "..U.0B43",
+            "..U.ORIYA VOWEL SIGN VOCALIC R",
+            "U+0B43",
+        ],
+        "body": [
+            "${1|ୃ,&#x0B43;,U+0B43,0x0B43,ORIYA VOWEL SIGN VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+0B43",
+            "Character/Symbol: ୃ",
+            "Name: ORIYA VOWEL SIGN VOCALIC R",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୄ U+0B44 ORIYA VOWEL SIGN VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.0B44",
+            "..U.ORIYA VOWEL SIGN VOCALIC RR",
+            "U+0B44",
+        ],
+        "body": [
+            "${1|ୄ,&#x0B44;,U+0B44,0x0B44,ORIYA VOWEL SIGN VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+0B44",
+            "Character/Symbol: ୄ",
+            "Name: ORIYA VOWEL SIGN VOCALIC RR",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode େ U+0B47 ORIYA VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.0B47",
+            "..U.ORIYA VOWEL SIGN E",
+            "U+0B47",
+        ],
+        "body": [
+            "${1|େ,&#x0B47;,U+0B47,0x0B47,ORIYA VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+0B47",
+            "Character/Symbol: େ",
+            "Name: ORIYA VOWEL SIGN E",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୈ U+0B48 ORIYA VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.0B48",
+            "..U.ORIYA VOWEL SIGN AI",
+            "U+0B48",
+        ],
+        "body": [
+            "${1|ୈ,&#x0B48;,U+0B48,0x0B48,ORIYA VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+0B48",
+            "Character/Symbol: ୈ",
+            "Name: ORIYA VOWEL SIGN AI",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୋ U+0B4B ORIYA VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.0B4B",
+            "..U.ORIYA VOWEL SIGN O",
+            "U+0B4B",
+        ],
+        "body": [
+            "${1|ୋ,&#x0B4B;,U+0B4B,0x0B4B,ORIYA VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+0B4B",
+            "Character/Symbol: ୋ",
+            "Name: ORIYA VOWEL SIGN O",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୌ U+0B4C ORIYA VOWEL SIGN AU": 
+    {
+        "prefix": [
+            "..U.0B4C",
+            "..U.ORIYA VOWEL SIGN AU",
+            "U+0B4C",
+        ],
+        "body": [
+            "${1|ୌ,&#x0B4C;,U+0B4C,0x0B4C,ORIYA VOWEL SIGN AU|}$2",
+        ],
+        "description": [
+            "Code: U+0B4C",
+            "Character/Symbol: ୌ",
+            "Name: ORIYA VOWEL SIGN AU",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୍ U+0B4D ORIYA SIGN VIRAMA": 
+    {
+        "prefix": [
+            "..U.0B4D",
+            "..U.ORIYA SIGN VIRAMA",
+            "U+0B4D",
+        ],
+        "body": [
+            "${1|୍,&#x0B4D;,U+0B4D,0x0B4D,ORIYA SIGN VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+0B4D",
+            "Character/Symbol: ୍",
+            "Name: ORIYA SIGN VIRAMA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୕ U+0B55 ORIYA SIGN OVERLINE": 
+    {
+        "prefix": [
+            "..U.0B55",
+            "..U.ORIYA SIGN OVERLINE",
+            "U+0B55",
+        ],
+        "body": [
+            "${1|୕,&#x0B55;,U+0B55,0x0B55,ORIYA SIGN OVERLINE|}$2",
+        ],
+        "description": [
+            "Code: U+0B55",
+            "Character/Symbol: ୕",
+            "Name: ORIYA SIGN OVERLINE",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୖ U+0B56 ORIYA AI LENGTH MARK": 
+    {
+        "prefix": [
+            "..U.0B56",
+            "..U.ORIYA AI LENGTH MARK",
+            "U+0B56",
+        ],
+        "body": [
+            "${1|ୖ,&#x0B56;,U+0B56,0x0B56,ORIYA AI LENGTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+0B56",
+            "Character/Symbol: ୖ",
+            "Name: ORIYA AI LENGTH MARK",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୗ U+0B57 ORIYA AU LENGTH MARK": 
+    {
+        "prefix": [
+            "..U.0B57",
+            "..U.ORIYA AU LENGTH MARK",
+            "U+0B57",
+        ],
+        "body": [
+            "${1|ୗ,&#x0B57;,U+0B57,0x0B57,ORIYA AU LENGTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+0B57",
+            "Character/Symbol: ୗ",
+            "Name: ORIYA AU LENGTH MARK",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଡ଼ U+0B5C ORIYA LETTER RRA": 
+    {
+        "prefix": [
+            "..U.0B5C",
+            "..U.ORIYA LETTER RRA",
+            "U+0B5C",
+        ],
+        "body": [
+            "${1|ଡ଼,&#x0B5C;,U+0B5C,0x0B5C,ORIYA LETTER RRA|}$2",
+        ],
+        "description": [
+            "Code: U+0B5C",
+            "Character/Symbol: ଡ଼",
+            "Name: ORIYA LETTER RRA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ଢ଼ U+0B5D ORIYA LETTER RHA": 
+    {
+        "prefix": [
+            "..U.0B5D",
+            "..U.ORIYA LETTER RHA",
+            "U+0B5D",
+        ],
+        "body": [
+            "${1|ଢ଼,&#x0B5D;,U+0B5D,0x0B5D,ORIYA LETTER RHA|}$2",
+        ],
+        "description": [
+            "Code: U+0B5D",
+            "Character/Symbol: ଢ଼",
+            "Name: ORIYA LETTER RHA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୟ U+0B5F ORIYA LETTER YYA": 
+    {
+        "prefix": [
+            "..U.0B5F",
+            "..U.ORIYA LETTER YYA",
+            "U+0B5F",
+        ],
+        "body": [
+            "${1|ୟ,&#x0B5F;,U+0B5F,0x0B5F,ORIYA LETTER YYA|}$2",
+        ],
+        "description": [
+            "Code: U+0B5F",
+            "Character/Symbol: ୟ",
+            "Name: ORIYA LETTER YYA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୠ U+0B60 ORIYA LETTER VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.0B60",
+            "..U.ORIYA LETTER VOCALIC RR",
+            "U+0B60",
+        ],
+        "body": [
+            "${1|ୠ,&#x0B60;,U+0B60,0x0B60,ORIYA LETTER VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+0B60",
+            "Character/Symbol: ୠ",
+            "Name: ORIYA LETTER VOCALIC RR",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୡ U+0B61 ORIYA LETTER VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.0B61",
+            "..U.ORIYA LETTER VOCALIC LL",
+            "U+0B61",
+        ],
+        "body": [
+            "${1|ୡ,&#x0B61;,U+0B61,0x0B61,ORIYA LETTER VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+0B61",
+            "Character/Symbol: ୡ",
+            "Name: ORIYA LETTER VOCALIC LL",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୢ U+0B62 ORIYA VOWEL SIGN VOCALIC L": 
+    {
+        "prefix": [
+            "..U.0B62",
+            "..U.ORIYA VOWEL SIGN VOCALIC L",
+            "U+0B62",
+        ],
+        "body": [
+            "${1|ୢ,&#x0B62;,U+0B62,0x0B62,ORIYA VOWEL SIGN VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+0B62",
+            "Character/Symbol: ୢ",
+            "Name: ORIYA VOWEL SIGN VOCALIC L",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୣ U+0B63 ORIYA VOWEL SIGN VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.0B63",
+            "..U.ORIYA VOWEL SIGN VOCALIC LL",
+            "U+0B63",
+        ],
+        "body": [
+            "${1|ୣ,&#x0B63;,U+0B63,0x0B63,ORIYA VOWEL SIGN VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+0B63",
+            "Character/Symbol: ୣ",
+            "Name: ORIYA VOWEL SIGN VOCALIC LL",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୦ U+0B66 ORIYA DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.0B66",
+            "..U.ORIYA DIGIT ZERO",
+            "U+0B66",
+        ],
+        "body": [
+            "${1|୦,&#x0B66;,U+0B66,0x0B66,ORIYA DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+0B66",
+            "Character/Symbol: ୦",
+            "Name: ORIYA DIGIT ZERO",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୧ U+0B67 ORIYA DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.0B67",
+            "..U.ORIYA DIGIT ONE",
+            "U+0B67",
+        ],
+        "body": [
+            "${1|୧,&#x0B67;,U+0B67,0x0B67,ORIYA DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+0B67",
+            "Character/Symbol: ୧",
+            "Name: ORIYA DIGIT ONE",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୨ U+0B68 ORIYA DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.0B68",
+            "..U.ORIYA DIGIT TWO",
+            "U+0B68",
+        ],
+        "body": [
+            "${1|୨,&#x0B68;,U+0B68,0x0B68,ORIYA DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+0B68",
+            "Character/Symbol: ୨",
+            "Name: ORIYA DIGIT TWO",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୩ U+0B69 ORIYA DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.0B69",
+            "..U.ORIYA DIGIT THREE",
+            "U+0B69",
+        ],
+        "body": [
+            "${1|୩,&#x0B69;,U+0B69,0x0B69,ORIYA DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+0B69",
+            "Character/Symbol: ୩",
+            "Name: ORIYA DIGIT THREE",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୪ U+0B6A ORIYA DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.0B6A",
+            "..U.ORIYA DIGIT FOUR",
+            "U+0B6A",
+        ],
+        "body": [
+            "${1|୪,&#x0B6A;,U+0B6A,0x0B6A,ORIYA DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+0B6A",
+            "Character/Symbol: ୪",
+            "Name: ORIYA DIGIT FOUR",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୫ U+0B6B ORIYA DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.0B6B",
+            "..U.ORIYA DIGIT FIVE",
+            "U+0B6B",
+        ],
+        "body": [
+            "${1|୫,&#x0B6B;,U+0B6B,0x0B6B,ORIYA DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+0B6B",
+            "Character/Symbol: ୫",
+            "Name: ORIYA DIGIT FIVE",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୬ U+0B6C ORIYA DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.0B6C",
+            "..U.ORIYA DIGIT SIX",
+            "U+0B6C",
+        ],
+        "body": [
+            "${1|୬,&#x0B6C;,U+0B6C,0x0B6C,ORIYA DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+0B6C",
+            "Character/Symbol: ୬",
+            "Name: ORIYA DIGIT SIX",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୭ U+0B6D ORIYA DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.0B6D",
+            "..U.ORIYA DIGIT SEVEN",
+            "U+0B6D",
+        ],
+        "body": [
+            "${1|୭,&#x0B6D;,U+0B6D,0x0B6D,ORIYA DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+0B6D",
+            "Character/Symbol: ୭",
+            "Name: ORIYA DIGIT SEVEN",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୮ U+0B6E ORIYA DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.0B6E",
+            "..U.ORIYA DIGIT EIGHT",
+            "U+0B6E",
+        ],
+        "body": [
+            "${1|୮,&#x0B6E;,U+0B6E,0x0B6E,ORIYA DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+0B6E",
+            "Character/Symbol: ୮",
+            "Name: ORIYA DIGIT EIGHT",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୯ U+0B6F ORIYA DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.0B6F",
+            "..U.ORIYA DIGIT NINE",
+            "U+0B6F",
+        ],
+        "body": [
+            "${1|୯,&#x0B6F;,U+0B6F,0x0B6F,ORIYA DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+0B6F",
+            "Character/Symbol: ୯",
+            "Name: ORIYA DIGIT NINE",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୰ U+0B70 ORIYA ISSHAR": 
+    {
+        "prefix": [
+            "..U.0B70",
+            "..U.ORIYA ISSHAR",
+            "U+0B70",
+        ],
+        "body": [
+            "${1|୰,&#x0B70;,U+0B70,0x0B70,ORIYA ISSHAR|}$2",
+        ],
+        "description": [
+            "Code: U+0B70",
+            "Character/Symbol: ୰",
+            "Name: ORIYA ISSHAR",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୱ U+0B71 ORIYA LETTER WA": 
+    {
+        "prefix": [
+            "..U.0B71",
+            "..U.ORIYA LETTER WA",
+            "U+0B71",
+        ],
+        "body": [
+            "${1|ୱ,&#x0B71;,U+0B71,0x0B71,ORIYA LETTER WA|}$2",
+        ],
+        "description": [
+            "Code: U+0B71",
+            "Character/Symbol: ୱ",
+            "Name: ORIYA LETTER WA",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୲ U+0B72 ORIYA FRACTION ONE QUARTER": 
+    {
+        "prefix": [
+            "..U.0B72",
+            "..U.ORIYA FRACTION ONE QUARTER",
+            "U+0B72",
+        ],
+        "body": [
+            "${1|୲,&#x0B72;,U+0B72,0x0B72,ORIYA FRACTION ONE QUARTER|}$2",
+        ],
+        "description": [
+            "Code: U+0B72",
+            "Character/Symbol: ୲",
+            "Name: ORIYA FRACTION ONE QUARTER",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୳ U+0B73 ORIYA FRACTION ONE HALF": 
+    {
+        "prefix": [
+            "..U.0B73",
+            "..U.ORIYA FRACTION ONE HALF",
+            "U+0B73",
+        ],
+        "body": [
+            "${1|୳,&#x0B73;,U+0B73,0x0B73,ORIYA FRACTION ONE HALF|}$2",
+        ],
+        "description": [
+            "Code: U+0B73",
+            "Character/Symbol: ୳",
+            "Name: ORIYA FRACTION ONE HALF",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୴ U+0B74 ORIYA FRACTION THREE QUARTERS": 
+    {
+        "prefix": [
+            "..U.0B74",
+            "..U.ORIYA FRACTION THREE QUARTERS",
+            "U+0B74",
+        ],
+        "body": [
+            "${1|୴,&#x0B74;,U+0B74,0x0B74,ORIYA FRACTION THREE QUARTERS|}$2",
+        ],
+        "description": [
+            "Code: U+0B74",
+            "Character/Symbol: ୴",
+            "Name: ORIYA FRACTION THREE QUARTERS",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୵ U+0B75 ORIYA FRACTION ONE SIXTEENTH": 
+    {
+        "prefix": [
+            "..U.0B75",
+            "..U.ORIYA FRACTION ONE SIXTEENTH",
+            "U+0B75",
+        ],
+        "body": [
+            "${1|୵,&#x0B75;,U+0B75,0x0B75,ORIYA FRACTION ONE SIXTEENTH|}$2",
+        ],
+        "description": [
+            "Code: U+0B75",
+            "Character/Symbol: ୵",
+            "Name: ORIYA FRACTION ONE SIXTEENTH",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୶ U+0B76 ORIYA FRACTION ONE EIGHTH": 
+    {
+        "prefix": [
+            "..U.0B76",
+            "..U.ORIYA FRACTION ONE EIGHTH",
+            "U+0B76",
+        ],
+        "body": [
+            "${1|୶,&#x0B76;,U+0B76,0x0B76,ORIYA FRACTION ONE EIGHTH|}$2",
+        ],
+        "description": [
+            "Code: U+0B76",
+            "Character/Symbol: ୶",
+            "Name: ORIYA FRACTION ONE EIGHTH",
+            "Group/Block: Oriya",
+        ],
+    },
+
+    "Unicode ୷ U+0B77 ORIYA FRACTION THREE SIXTEENTHS": 
+    {
+        "prefix": [
+            "..U.0B77",
+            "..U.ORIYA FRACTION THREE SIXTEENTHS",
+            "U+0B77",
+        ],
+        "body": [
+            "${1|୷,&#x0B77;,U+0B77,0x0B77,ORIYA FRACTION THREE SIXTEENTHS|}$2",
+        ],
+        "description": [
+            "Code: U+0B77",
+            "Character/Symbol: ୷",
+            "Name: ORIYA FRACTION THREE SIXTEENTHS",
+            "Group/Block: Oriya",
+        ],
+    },
+
+}

@@ -1,0 +1,2018 @@
+{
+    "Unicode ̀ U+0300 COMBINING GRAVE ACCENT": 
+    {
+        "prefix": [
+            "..U.0300",
+            "..U.COMBINING GRAVE ACCENT",
+            "U+0300",
+        ],
+        "body": [
+            "${1|̀,&#x0300;,U+0300,0x0300,COMBINING GRAVE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+0300",
+            "Character/Symbol: ̀",
+            "Name: COMBINING GRAVE ACCENT",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ́ U+0301 COMBINING ACUTE ACCENT": 
+    {
+        "prefix": [
+            "..U.0301",
+            "..U.COMBINING ACUTE ACCENT",
+            "U+0301",
+        ],
+        "body": [
+            "${1|́,&#x0301;,U+0301,0x0301,COMBINING ACUTE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+0301",
+            "Character/Symbol: ́",
+            "Name: COMBINING ACUTE ACCENT",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̂ U+0302 COMBINING CIRCUMFLEX ACCENT": 
+    {
+        "prefix": [
+            "..U.0302",
+            "..U.COMBINING CIRCUMFLEX ACCENT",
+            "U+0302",
+        ],
+        "body": [
+            "${1|̂,&#x0302;,U+0302,0x0302,COMBINING CIRCUMFLEX ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+0302",
+            "Character/Symbol: ̂",
+            "Name: COMBINING CIRCUMFLEX ACCENT",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̃ U+0303 COMBINING TILDE": 
+    {
+        "prefix": [
+            "..U.0303",
+            "..U.COMBINING TILDE",
+            "U+0303",
+        ],
+        "body": [
+            "${1|̃,&#x0303;,U+0303,0x0303,COMBINING TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+0303",
+            "Character/Symbol: ̃",
+            "Name: COMBINING TILDE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̄ U+0304 COMBINING MACRON": 
+    {
+        "prefix": [
+            "..U.0304",
+            "..U.COMBINING MACRON",
+            "U+0304",
+        ],
+        "body": [
+            "${1|̄,&#x0304;,U+0304,0x0304,COMBINING MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+0304",
+            "Character/Symbol: ̄",
+            "Name: COMBINING MACRON",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̅ U+0305 COMBINING OVERLINE": 
+    {
+        "prefix": [
+            "..U.0305",
+            "..U.COMBINING OVERLINE",
+            "U+0305",
+        ],
+        "body": [
+            "${1|̅,&#x0305;,U+0305,0x0305,COMBINING OVERLINE|}$2",
+        ],
+        "description": [
+            "Code: U+0305",
+            "Character/Symbol: ̅",
+            "Name: COMBINING OVERLINE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̆ U+0306 COMBINING BREVE": 
+    {
+        "prefix": [
+            "..U.0306",
+            "..U.COMBINING BREVE",
+            "U+0306",
+        ],
+        "body": [
+            "${1|̆,&#x0306;,U+0306,0x0306,COMBINING BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+0306",
+            "Character/Symbol: ̆",
+            "Name: COMBINING BREVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̇ U+0307 COMBINING DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.0307",
+            "..U.COMBINING DOT ABOVE",
+            "U+0307",
+        ],
+        "body": [
+            "${1|̇,&#x0307;,U+0307,0x0307,COMBINING DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0307",
+            "Character/Symbol: ̇",
+            "Name: COMBINING DOT ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̈ U+0308 COMBINING DIAERESIS": 
+    {
+        "prefix": [
+            "..U.0308",
+            "..U.COMBINING DIAERESIS",
+            "U+0308",
+        ],
+        "body": [
+            "${1|̈,&#x0308;,U+0308,0x0308,COMBINING DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+0308",
+            "Character/Symbol: ̈",
+            "Name: COMBINING DIAERESIS",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̉ U+0309 COMBINING HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.0309",
+            "..U.COMBINING HOOK ABOVE",
+            "U+0309",
+        ],
+        "body": [
+            "${1|̉,&#x0309;,U+0309,0x0309,COMBINING HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0309",
+            "Character/Symbol: ̉",
+            "Name: COMBINING HOOK ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̊ U+030A COMBINING RING ABOVE": 
+    {
+        "prefix": [
+            "..U.030A",
+            "..U.COMBINING RING ABOVE",
+            "U+030A",
+        ],
+        "body": [
+            "${1|̊,&#x030A;,U+030A,0x030A,COMBINING RING ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+030A",
+            "Character/Symbol: ̊",
+            "Name: COMBINING RING ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̋ U+030B COMBINING DOUBLE ACUTE ACCENT": 
+    {
+        "prefix": [
+            "..U.030B",
+            "..U.COMBINING DOUBLE ACUTE ACCENT",
+            "U+030B",
+        ],
+        "body": [
+            "${1|̋,&#x030B;,U+030B,0x030B,COMBINING DOUBLE ACUTE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+030B",
+            "Character/Symbol: ̋",
+            "Name: COMBINING DOUBLE ACUTE ACCENT",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̌ U+030C COMBINING CARON": 
+    {
+        "prefix": [
+            "..U.030C",
+            "..U.COMBINING CARON",
+            "U+030C",
+        ],
+        "body": [
+            "${1|̌,&#x030C;,U+030C,0x030C,COMBINING CARON|}$2",
+        ],
+        "description": [
+            "Code: U+030C",
+            "Character/Symbol: ̌",
+            "Name: COMBINING CARON",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̍ U+030D COMBINING VERTICAL LINE ABOVE": 
+    {
+        "prefix": [
+            "..U.030D",
+            "..U.COMBINING VERTICAL LINE ABOVE",
+            "U+030D",
+        ],
+        "body": [
+            "${1|̍,&#x030D;,U+030D,0x030D,COMBINING VERTICAL LINE ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+030D",
+            "Character/Symbol: ̍",
+            "Name: COMBINING VERTICAL LINE ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̎ U+030E COMBINING DOUBLE VERTICAL LINE ABOVE": 
+    {
+        "prefix": [
+            "..U.030E",
+            "..U.COMBINING DOUBLE VERTICAL LINE ABOVE",
+            "U+030E",
+        ],
+        "body": [
+            "${1|̎,&#x030E;,U+030E,0x030E,COMBINING DOUBLE VERTICAL LINE ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+030E",
+            "Character/Symbol: ̎",
+            "Name: COMBINING DOUBLE VERTICAL LINE ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̏ U+030F COMBINING DOUBLE GRAVE ACCENT": 
+    {
+        "prefix": [
+            "..U.030F",
+            "..U.COMBINING DOUBLE GRAVE ACCENT",
+            "U+030F",
+        ],
+        "body": [
+            "${1|̏,&#x030F;,U+030F,0x030F,COMBINING DOUBLE GRAVE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+030F",
+            "Character/Symbol: ̏",
+            "Name: COMBINING DOUBLE GRAVE ACCENT",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̐ U+0310 COMBINING CANDRABINDU": 
+    {
+        "prefix": [
+            "..U.0310",
+            "..U.COMBINING CANDRABINDU",
+            "U+0310",
+        ],
+        "body": [
+            "${1|̐,&#x0310;,U+0310,0x0310,COMBINING CANDRABINDU|}$2",
+        ],
+        "description": [
+            "Code: U+0310",
+            "Character/Symbol: ̐",
+            "Name: COMBINING CANDRABINDU",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̑ U+0311 COMBINING INVERTED BREVE": 
+    {
+        "prefix": [
+            "..U.0311",
+            "..U.COMBINING INVERTED BREVE",
+            "U+0311",
+        ],
+        "body": [
+            "${1|̑,&#x0311;,U+0311,0x0311,COMBINING INVERTED BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+0311",
+            "Character/Symbol: ̑",
+            "Name: COMBINING INVERTED BREVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̒ U+0312 COMBINING TURNED COMMA ABOVE": 
+    {
+        "prefix": [
+            "..U.0312",
+            "..U.COMBINING TURNED COMMA ABOVE",
+            "U+0312",
+        ],
+        "body": [
+            "${1|̒,&#x0312;,U+0312,0x0312,COMBINING TURNED COMMA ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0312",
+            "Character/Symbol: ̒",
+            "Name: COMBINING TURNED COMMA ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̓ U+0313 COMBINING COMMA ABOVE": 
+    {
+        "prefix": [
+            "..U.0313",
+            "..U.COMBINING COMMA ABOVE",
+            "U+0313",
+        ],
+        "body": [
+            "${1|̓,&#x0313;,U+0313,0x0313,COMBINING COMMA ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0313",
+            "Character/Symbol: ̓",
+            "Name: COMBINING COMMA ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̔ U+0314 COMBINING REVERSED COMMA ABOVE": 
+    {
+        "prefix": [
+            "..U.0314",
+            "..U.COMBINING REVERSED COMMA ABOVE",
+            "U+0314",
+        ],
+        "body": [
+            "${1|̔,&#x0314;,U+0314,0x0314,COMBINING REVERSED COMMA ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0314",
+            "Character/Symbol: ̔",
+            "Name: COMBINING REVERSED COMMA ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̕ U+0315 COMBINING COMMA ABOVE RIGHT": 
+    {
+        "prefix": [
+            "..U.0315",
+            "..U.COMBINING COMMA ABOVE RIGHT",
+            "U+0315",
+        ],
+        "body": [
+            "${1|̕,&#x0315;,U+0315,0x0315,COMBINING COMMA ABOVE RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+0315",
+            "Character/Symbol: ̕",
+            "Name: COMBINING COMMA ABOVE RIGHT",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̖ U+0316 COMBINING GRAVE ACCENT BELOW": 
+    {
+        "prefix": [
+            "..U.0316",
+            "..U.COMBINING GRAVE ACCENT BELOW",
+            "U+0316",
+        ],
+        "body": [
+            "${1|̖,&#x0316;,U+0316,0x0316,COMBINING GRAVE ACCENT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0316",
+            "Character/Symbol: ̖",
+            "Name: COMBINING GRAVE ACCENT BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̗ U+0317 COMBINING ACUTE ACCENT BELOW": 
+    {
+        "prefix": [
+            "..U.0317",
+            "..U.COMBINING ACUTE ACCENT BELOW",
+            "U+0317",
+        ],
+        "body": [
+            "${1|̗,&#x0317;,U+0317,0x0317,COMBINING ACUTE ACCENT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0317",
+            "Character/Symbol: ̗",
+            "Name: COMBINING ACUTE ACCENT BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̘ U+0318 COMBINING LEFT TACK BELOW": 
+    {
+        "prefix": [
+            "..U.0318",
+            "..U.COMBINING LEFT TACK BELOW",
+            "U+0318",
+        ],
+        "body": [
+            "${1|̘,&#x0318;,U+0318,0x0318,COMBINING LEFT TACK BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0318",
+            "Character/Symbol: ̘",
+            "Name: COMBINING LEFT TACK BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̙ U+0319 COMBINING RIGHT TACK BELOW": 
+    {
+        "prefix": [
+            "..U.0319",
+            "..U.COMBINING RIGHT TACK BELOW",
+            "U+0319",
+        ],
+        "body": [
+            "${1|̙,&#x0319;,U+0319,0x0319,COMBINING RIGHT TACK BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0319",
+            "Character/Symbol: ̙",
+            "Name: COMBINING RIGHT TACK BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̚ U+031A COMBINING LEFT ANGLE ABOVE": 
+    {
+        "prefix": [
+            "..U.031A",
+            "..U.COMBINING LEFT ANGLE ABOVE",
+            "U+031A",
+        ],
+        "body": [
+            "${1|̚,&#x031A;,U+031A,0x031A,COMBINING LEFT ANGLE ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+031A",
+            "Character/Symbol: ̚",
+            "Name: COMBINING LEFT ANGLE ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̛ U+031B COMBINING HORN": 
+    {
+        "prefix": [
+            "..U.031B",
+            "..U.COMBINING HORN",
+            "U+031B",
+        ],
+        "body": [
+            "${1|̛,&#x031B;,U+031B,0x031B,COMBINING HORN|}$2",
+        ],
+        "description": [
+            "Code: U+031B",
+            "Character/Symbol: ̛",
+            "Name: COMBINING HORN",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̜ U+031C COMBINING LEFT HALF RING BELOW": 
+    {
+        "prefix": [
+            "..U.031C",
+            "..U.COMBINING LEFT HALF RING BELOW",
+            "U+031C",
+        ],
+        "body": [
+            "${1|̜,&#x031C;,U+031C,0x031C,COMBINING LEFT HALF RING BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+031C",
+            "Character/Symbol: ̜",
+            "Name: COMBINING LEFT HALF RING BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̝ U+031D COMBINING UP TACK BELOW": 
+    {
+        "prefix": [
+            "..U.031D",
+            "..U.COMBINING UP TACK BELOW",
+            "U+031D",
+        ],
+        "body": [
+            "${1|̝,&#x031D;,U+031D,0x031D,COMBINING UP TACK BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+031D",
+            "Character/Symbol: ̝",
+            "Name: COMBINING UP TACK BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̞ U+031E COMBINING DOWN TACK BELOW": 
+    {
+        "prefix": [
+            "..U.031E",
+            "..U.COMBINING DOWN TACK BELOW",
+            "U+031E",
+        ],
+        "body": [
+            "${1|̞,&#x031E;,U+031E,0x031E,COMBINING DOWN TACK BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+031E",
+            "Character/Symbol: ̞",
+            "Name: COMBINING DOWN TACK BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̟ U+031F COMBINING PLUS SIGN BELOW": 
+    {
+        "prefix": [
+            "..U.031F",
+            "..U.COMBINING PLUS SIGN BELOW",
+            "U+031F",
+        ],
+        "body": [
+            "${1|̟,&#x031F;,U+031F,0x031F,COMBINING PLUS SIGN BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+031F",
+            "Character/Symbol: ̟",
+            "Name: COMBINING PLUS SIGN BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̠ U+0320 COMBINING MINUS SIGN BELOW": 
+    {
+        "prefix": [
+            "..U.0320",
+            "..U.COMBINING MINUS SIGN BELOW",
+            "U+0320",
+        ],
+        "body": [
+            "${1|̠,&#x0320;,U+0320,0x0320,COMBINING MINUS SIGN BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0320",
+            "Character/Symbol: ̠",
+            "Name: COMBINING MINUS SIGN BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̡ U+0321 COMBINING PALATALIZED HOOK BELOW": 
+    {
+        "prefix": [
+            "..U.0321",
+            "..U.COMBINING PALATALIZED HOOK BELOW",
+            "U+0321",
+        ],
+        "body": [
+            "${1|̡,&#x0321;,U+0321,0x0321,COMBINING PALATALIZED HOOK BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0321",
+            "Character/Symbol: ̡",
+            "Name: COMBINING PALATALIZED HOOK BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̢ U+0322 COMBINING RETROFLEX HOOK BELOW": 
+    {
+        "prefix": [
+            "..U.0322",
+            "..U.COMBINING RETROFLEX HOOK BELOW",
+            "U+0322",
+        ],
+        "body": [
+            "${1|̢,&#x0322;,U+0322,0x0322,COMBINING RETROFLEX HOOK BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0322",
+            "Character/Symbol: ̢",
+            "Name: COMBINING RETROFLEX HOOK BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̣ U+0323 COMBINING DOT BELOW": 
+    {
+        "prefix": [
+            "..U.0323",
+            "..U.COMBINING DOT BELOW",
+            "U+0323",
+        ],
+        "body": [
+            "${1|̣,&#x0323;,U+0323,0x0323,COMBINING DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0323",
+            "Character/Symbol: ̣",
+            "Name: COMBINING DOT BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̤ U+0324 COMBINING DIAERESIS BELOW": 
+    {
+        "prefix": [
+            "..U.0324",
+            "..U.COMBINING DIAERESIS BELOW",
+            "U+0324",
+        ],
+        "body": [
+            "${1|̤,&#x0324;,U+0324,0x0324,COMBINING DIAERESIS BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0324",
+            "Character/Symbol: ̤",
+            "Name: COMBINING DIAERESIS BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̥ U+0325 COMBINING RING BELOW": 
+    {
+        "prefix": [
+            "..U.0325",
+            "..U.COMBINING RING BELOW",
+            "U+0325",
+        ],
+        "body": [
+            "${1|̥,&#x0325;,U+0325,0x0325,COMBINING RING BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0325",
+            "Character/Symbol: ̥",
+            "Name: COMBINING RING BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̦ U+0326 COMBINING COMMA BELOW": 
+    {
+        "prefix": [
+            "..U.0326",
+            "..U.COMBINING COMMA BELOW",
+            "U+0326",
+        ],
+        "body": [
+            "${1|̦,&#x0326;,U+0326,0x0326,COMBINING COMMA BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0326",
+            "Character/Symbol: ̦",
+            "Name: COMBINING COMMA BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̧ U+0327 COMBINING CEDILLA": 
+    {
+        "prefix": [
+            "..U.0327",
+            "..U.COMBINING CEDILLA",
+            "U+0327",
+        ],
+        "body": [
+            "${1|̧,&#x0327;,U+0327,0x0327,COMBINING CEDILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0327",
+            "Character/Symbol: ̧",
+            "Name: COMBINING CEDILLA",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̨ U+0328 COMBINING OGONEK": 
+    {
+        "prefix": [
+            "..U.0328",
+            "..U.COMBINING OGONEK",
+            "U+0328",
+        ],
+        "body": [
+            "${1|̨,&#x0328;,U+0328,0x0328,COMBINING OGONEK|}$2",
+        ],
+        "description": [
+            "Code: U+0328",
+            "Character/Symbol: ̨",
+            "Name: COMBINING OGONEK",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̩ U+0329 COMBINING VERTICAL LINE BELOW": 
+    {
+        "prefix": [
+            "..U.0329",
+            "..U.COMBINING VERTICAL LINE BELOW",
+            "U+0329",
+        ],
+        "body": [
+            "${1|̩,&#x0329;,U+0329,0x0329,COMBINING VERTICAL LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0329",
+            "Character/Symbol: ̩",
+            "Name: COMBINING VERTICAL LINE BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̪ U+032A COMBINING BRIDGE BELOW": 
+    {
+        "prefix": [
+            "..U.032A",
+            "..U.COMBINING BRIDGE BELOW",
+            "U+032A",
+        ],
+        "body": [
+            "${1|̪,&#x032A;,U+032A,0x032A,COMBINING BRIDGE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+032A",
+            "Character/Symbol: ̪",
+            "Name: COMBINING BRIDGE BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̫ U+032B COMBINING INVERTED DOUBLE ARCH BELOW": 
+    {
+        "prefix": [
+            "..U.032B",
+            "..U.COMBINING INVERTED DOUBLE ARCH BELOW",
+            "U+032B",
+        ],
+        "body": [
+            "${1|̫,&#x032B;,U+032B,0x032B,COMBINING INVERTED DOUBLE ARCH BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+032B",
+            "Character/Symbol: ̫",
+            "Name: COMBINING INVERTED DOUBLE ARCH BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̬ U+032C COMBINING CARON BELOW": 
+    {
+        "prefix": [
+            "..U.032C",
+            "..U.COMBINING CARON BELOW",
+            "U+032C",
+        ],
+        "body": [
+            "${1|̬,&#x032C;,U+032C,0x032C,COMBINING CARON BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+032C",
+            "Character/Symbol: ̬",
+            "Name: COMBINING CARON BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̭ U+032D COMBINING CIRCUMFLEX ACCENT BELOW": 
+    {
+        "prefix": [
+            "..U.032D",
+            "..U.COMBINING CIRCUMFLEX ACCENT BELOW",
+            "U+032D",
+        ],
+        "body": [
+            "${1|̭,&#x032D;,U+032D,0x032D,COMBINING CIRCUMFLEX ACCENT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+032D",
+            "Character/Symbol: ̭",
+            "Name: COMBINING CIRCUMFLEX ACCENT BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̮ U+032E COMBINING BREVE BELOW": 
+    {
+        "prefix": [
+            "..U.032E",
+            "..U.COMBINING BREVE BELOW",
+            "U+032E",
+        ],
+        "body": [
+            "${1|̮,&#x032E;,U+032E,0x032E,COMBINING BREVE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+032E",
+            "Character/Symbol: ̮",
+            "Name: COMBINING BREVE BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̯ U+032F COMBINING INVERTED BREVE BELOW": 
+    {
+        "prefix": [
+            "..U.032F",
+            "..U.COMBINING INVERTED BREVE BELOW",
+            "U+032F",
+        ],
+        "body": [
+            "${1|̯,&#x032F;,U+032F,0x032F,COMBINING INVERTED BREVE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+032F",
+            "Character/Symbol: ̯",
+            "Name: COMBINING INVERTED BREVE BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̰ U+0330 COMBINING TILDE BELOW": 
+    {
+        "prefix": [
+            "..U.0330",
+            "..U.COMBINING TILDE BELOW",
+            "U+0330",
+        ],
+        "body": [
+            "${1|̰,&#x0330;,U+0330,0x0330,COMBINING TILDE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0330",
+            "Character/Symbol: ̰",
+            "Name: COMBINING TILDE BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̱ U+0331 COMBINING MACRON BELOW": 
+    {
+        "prefix": [
+            "..U.0331",
+            "..U.COMBINING MACRON BELOW",
+            "U+0331",
+        ],
+        "body": [
+            "${1|̱,&#x0331;,U+0331,0x0331,COMBINING MACRON BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0331",
+            "Character/Symbol: ̱",
+            "Name: COMBINING MACRON BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̲ U+0332 COMBINING LOW LINE": 
+    {
+        "prefix": [
+            "..U.0332",
+            "..U.COMBINING LOW LINE",
+            "U+0332",
+        ],
+        "body": [
+            "${1|̲,&#x0332;,U+0332,0x0332,COMBINING LOW LINE|}$2",
+        ],
+        "description": [
+            "Code: U+0332",
+            "Character/Symbol: ̲",
+            "Name: COMBINING LOW LINE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̳ U+0333 COMBINING DOUBLE LOW LINE": 
+    {
+        "prefix": [
+            "..U.0333",
+            "..U.COMBINING DOUBLE LOW LINE",
+            "U+0333",
+        ],
+        "body": [
+            "${1|̳,&#x0333;,U+0333,0x0333,COMBINING DOUBLE LOW LINE|}$2",
+        ],
+        "description": [
+            "Code: U+0333",
+            "Character/Symbol: ̳",
+            "Name: COMBINING DOUBLE LOW LINE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̴ U+0334 COMBINING TILDE OVERLAY": 
+    {
+        "prefix": [
+            "..U.0334",
+            "..U.COMBINING TILDE OVERLAY",
+            "U+0334",
+        ],
+        "body": [
+            "${1|̴,&#x0334;,U+0334,0x0334,COMBINING TILDE OVERLAY|}$2",
+        ],
+        "description": [
+            "Code: U+0334",
+            "Character/Symbol: ̴",
+            "Name: COMBINING TILDE OVERLAY",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̵ U+0335 COMBINING SHORT STROKE OVERLAY": 
+    {
+        "prefix": [
+            "..U.0335",
+            "..U.COMBINING SHORT STROKE OVERLAY",
+            "U+0335",
+        ],
+        "body": [
+            "${1|̵,&#x0335;,U+0335,0x0335,COMBINING SHORT STROKE OVERLAY|}$2",
+        ],
+        "description": [
+            "Code: U+0335",
+            "Character/Symbol: ̵",
+            "Name: COMBINING SHORT STROKE OVERLAY",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̶ U+0336 COMBINING LONG STROKE OVERLAY": 
+    {
+        "prefix": [
+            "..U.0336",
+            "..U.COMBINING LONG STROKE OVERLAY",
+            "U+0336",
+        ],
+        "body": [
+            "${1|̶,&#x0336;,U+0336,0x0336,COMBINING LONG STROKE OVERLAY|}$2",
+        ],
+        "description": [
+            "Code: U+0336",
+            "Character/Symbol: ̶",
+            "Name: COMBINING LONG STROKE OVERLAY",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̷ U+0337 COMBINING SHORT SOLIDUS OVERLAY": 
+    {
+        "prefix": [
+            "..U.0337",
+            "..U.COMBINING SHORT SOLIDUS OVERLAY",
+            "U+0337",
+        ],
+        "body": [
+            "${1|̷,&#x0337;,U+0337,0x0337,COMBINING SHORT SOLIDUS OVERLAY|}$2",
+        ],
+        "description": [
+            "Code: U+0337",
+            "Character/Symbol: ̷",
+            "Name: COMBINING SHORT SOLIDUS OVERLAY",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̸ U+0338 COMBINING LONG SOLIDUS OVERLAY": 
+    {
+        "prefix": [
+            "..U.0338",
+            "..U.COMBINING LONG SOLIDUS OVERLAY",
+            "U+0338",
+        ],
+        "body": [
+            "${1|̸,&#x0338;,U+0338,0x0338,COMBINING LONG SOLIDUS OVERLAY|}$2",
+        ],
+        "description": [
+            "Code: U+0338",
+            "Character/Symbol: ̸",
+            "Name: COMBINING LONG SOLIDUS OVERLAY",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̹ U+0339 COMBINING RIGHT HALF RING BELOW": 
+    {
+        "prefix": [
+            "..U.0339",
+            "..U.COMBINING RIGHT HALF RING BELOW",
+            "U+0339",
+        ],
+        "body": [
+            "${1|̹,&#x0339;,U+0339,0x0339,COMBINING RIGHT HALF RING BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0339",
+            "Character/Symbol: ̹",
+            "Name: COMBINING RIGHT HALF RING BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̺ U+033A COMBINING INVERTED BRIDGE BELOW": 
+    {
+        "prefix": [
+            "..U.033A",
+            "..U.COMBINING INVERTED BRIDGE BELOW",
+            "U+033A",
+        ],
+        "body": [
+            "${1|̺,&#x033A;,U+033A,0x033A,COMBINING INVERTED BRIDGE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+033A",
+            "Character/Symbol: ̺",
+            "Name: COMBINING INVERTED BRIDGE BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̻ U+033B COMBINING SQUARE BELOW": 
+    {
+        "prefix": [
+            "..U.033B",
+            "..U.COMBINING SQUARE BELOW",
+            "U+033B",
+        ],
+        "body": [
+            "${1|̻,&#x033B;,U+033B,0x033B,COMBINING SQUARE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+033B",
+            "Character/Symbol: ̻",
+            "Name: COMBINING SQUARE BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̼ U+033C COMBINING SEAGULL BELOW": 
+    {
+        "prefix": [
+            "..U.033C",
+            "..U.COMBINING SEAGULL BELOW",
+            "U+033C",
+        ],
+        "body": [
+            "${1|̼,&#x033C;,U+033C,0x033C,COMBINING SEAGULL BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+033C",
+            "Character/Symbol: ̼",
+            "Name: COMBINING SEAGULL BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̽ U+033D COMBINING X ABOVE": 
+    {
+        "prefix": [
+            "..U.033D",
+            "..U.COMBINING X ABOVE",
+            "U+033D",
+        ],
+        "body": [
+            "${1|̽,&#x033D;,U+033D,0x033D,COMBINING X ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+033D",
+            "Character/Symbol: ̽",
+            "Name: COMBINING X ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̾ U+033E COMBINING VERTICAL TILDE": 
+    {
+        "prefix": [
+            "..U.033E",
+            "..U.COMBINING VERTICAL TILDE",
+            "U+033E",
+        ],
+        "body": [
+            "${1|̾,&#x033E;,U+033E,0x033E,COMBINING VERTICAL TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+033E",
+            "Character/Symbol: ̾",
+            "Name: COMBINING VERTICAL TILDE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̿ U+033F COMBINING DOUBLE OVERLINE": 
+    {
+        "prefix": [
+            "..U.033F",
+            "..U.COMBINING DOUBLE OVERLINE",
+            "U+033F",
+        ],
+        "body": [
+            "${1|̿,&#x033F;,U+033F,0x033F,COMBINING DOUBLE OVERLINE|}$2",
+        ],
+        "description": [
+            "Code: U+033F",
+            "Character/Symbol: ̿",
+            "Name: COMBINING DOUBLE OVERLINE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̀ U+0340 COMBINING GRAVE TONE MARK": 
+    {
+        "prefix": [
+            "..U.0340",
+            "..U.COMBINING GRAVE TONE MARK",
+            "U+0340",
+        ],
+        "body": [
+            "${1|̀,&#x0340;,U+0340,0x0340,COMBINING GRAVE TONE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+0340",
+            "Character/Symbol: ̀",
+            "Name: COMBINING GRAVE TONE MARK",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ́ U+0341 COMBINING ACUTE TONE MARK": 
+    {
+        "prefix": [
+            "..U.0341",
+            "..U.COMBINING ACUTE TONE MARK",
+            "U+0341",
+        ],
+        "body": [
+            "${1|́,&#x0341;,U+0341,0x0341,COMBINING ACUTE TONE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+0341",
+            "Character/Symbol: ́",
+            "Name: COMBINING ACUTE TONE MARK",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͂ U+0342 COMBINING GREEK PERISPOMENI": 
+    {
+        "prefix": [
+            "..U.0342",
+            "..U.COMBINING GREEK PERISPOMENI",
+            "U+0342",
+        ],
+        "body": [
+            "${1|͂,&#x0342;,U+0342,0x0342,COMBINING GREEK PERISPOMENI|}$2",
+        ],
+        "description": [
+            "Code: U+0342",
+            "Character/Symbol: ͂",
+            "Name: COMBINING GREEK PERISPOMENI",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̓ U+0343 COMBINING GREEK KORONIS": 
+    {
+        "prefix": [
+            "..U.0343",
+            "..U.COMBINING GREEK KORONIS",
+            "U+0343",
+        ],
+        "body": [
+            "${1|̓,&#x0343;,U+0343,0x0343,COMBINING GREEK KORONIS|}$2",
+        ],
+        "description": [
+            "Code: U+0343",
+            "Character/Symbol: ̓",
+            "Name: COMBINING GREEK KORONIS",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ̈́ U+0344 COMBINING GREEK DIALYTIKA TONOS": 
+    {
+        "prefix": [
+            "..U.0344",
+            "..U.COMBINING GREEK DIALYTIKA TONOS",
+            "U+0344",
+        ],
+        "body": [
+            "${1|̈́,&#x0344;,U+0344,0x0344,COMBINING GREEK DIALYTIKA TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+0344",
+            "Character/Symbol: ̈́",
+            "Name: COMBINING GREEK DIALYTIKA TONOS",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͅ U+0345 COMBINING GREEK YPOGEGRAMMENI": 
+    {
+        "prefix": [
+            "..U.0345",
+            "..U.COMBINING GREEK YPOGEGRAMMENI",
+            "U+0345",
+        ],
+        "body": [
+            "${1|ͅ,&#x0345;,U+0345,0x0345,COMBINING GREEK YPOGEGRAMMENI|}$2",
+        ],
+        "description": [
+            "Code: U+0345",
+            "Character/Symbol: ͅ",
+            "Name: COMBINING GREEK YPOGEGRAMMENI",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͆ U+0346 COMBINING BRIDGE ABOVE": 
+    {
+        "prefix": [
+            "..U.0346",
+            "..U.COMBINING BRIDGE ABOVE",
+            "U+0346",
+        ],
+        "body": [
+            "${1|͆,&#x0346;,U+0346,0x0346,COMBINING BRIDGE ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0346",
+            "Character/Symbol: ͆",
+            "Name: COMBINING BRIDGE ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͇ U+0347 COMBINING EQUALS SIGN BELOW": 
+    {
+        "prefix": [
+            "..U.0347",
+            "..U.COMBINING EQUALS SIGN BELOW",
+            "U+0347",
+        ],
+        "body": [
+            "${1|͇,&#x0347;,U+0347,0x0347,COMBINING EQUALS SIGN BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0347",
+            "Character/Symbol: ͇",
+            "Name: COMBINING EQUALS SIGN BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͈ U+0348 COMBINING DOUBLE VERTICAL LINE BELOW": 
+    {
+        "prefix": [
+            "..U.0348",
+            "..U.COMBINING DOUBLE VERTICAL LINE BELOW",
+            "U+0348",
+        ],
+        "body": [
+            "${1|͈,&#x0348;,U+0348,0x0348,COMBINING DOUBLE VERTICAL LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0348",
+            "Character/Symbol: ͈",
+            "Name: COMBINING DOUBLE VERTICAL LINE BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͉ U+0349 COMBINING LEFT ANGLE BELOW": 
+    {
+        "prefix": [
+            "..U.0349",
+            "..U.COMBINING LEFT ANGLE BELOW",
+            "U+0349",
+        ],
+        "body": [
+            "${1|͉,&#x0349;,U+0349,0x0349,COMBINING LEFT ANGLE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0349",
+            "Character/Symbol: ͉",
+            "Name: COMBINING LEFT ANGLE BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͊ U+034A COMBINING NOT TILDE ABOVE": 
+    {
+        "prefix": [
+            "..U.034A",
+            "..U.COMBINING NOT TILDE ABOVE",
+            "U+034A",
+        ],
+        "body": [
+            "${1|͊,&#x034A;,U+034A,0x034A,COMBINING NOT TILDE ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+034A",
+            "Character/Symbol: ͊",
+            "Name: COMBINING NOT TILDE ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͋ U+034B COMBINING HOMOTHETIC ABOVE": 
+    {
+        "prefix": [
+            "..U.034B",
+            "..U.COMBINING HOMOTHETIC ABOVE",
+            "U+034B",
+        ],
+        "body": [
+            "${1|͋,&#x034B;,U+034B,0x034B,COMBINING HOMOTHETIC ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+034B",
+            "Character/Symbol: ͋",
+            "Name: COMBINING HOMOTHETIC ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͌ U+034C COMBINING ALMOST EQUAL TO ABOVE": 
+    {
+        "prefix": [
+            "..U.034C",
+            "..U.COMBINING ALMOST EQUAL TO ABOVE",
+            "U+034C",
+        ],
+        "body": [
+            "${1|͌,&#x034C;,U+034C,0x034C,COMBINING ALMOST EQUAL TO ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+034C",
+            "Character/Symbol: ͌",
+            "Name: COMBINING ALMOST EQUAL TO ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͍ U+034D COMBINING LEFT RIGHT ARROW BELOW": 
+    {
+        "prefix": [
+            "..U.034D",
+            "..U.COMBINING LEFT RIGHT ARROW BELOW",
+            "U+034D",
+        ],
+        "body": [
+            "${1|͍,&#x034D;,U+034D,0x034D,COMBINING LEFT RIGHT ARROW BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+034D",
+            "Character/Symbol: ͍",
+            "Name: COMBINING LEFT RIGHT ARROW BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͎ U+034E COMBINING UPWARDS ARROW BELOW": 
+    {
+        "prefix": [
+            "..U.034E",
+            "..U.COMBINING UPWARDS ARROW BELOW",
+            "U+034E",
+        ],
+        "body": [
+            "${1|͎,&#x034E;,U+034E,0x034E,COMBINING UPWARDS ARROW BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+034E",
+            "Character/Symbol: ͎",
+            "Name: COMBINING UPWARDS ARROW BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͏ U+034F COMBINING GRAPHEME JOINER": 
+    {
+        "prefix": [
+            "..U.034F",
+            "..U.COMBINING GRAPHEME JOINER",
+            "U+034F",
+        ],
+        "body": [
+            "${1|͏,&#x034F;,U+034F,0x034F,COMBINING GRAPHEME JOINER|}$2",
+        ],
+        "description": [
+            "Code: U+034F",
+            "Character/Symbol: ͏",
+            "Name: COMBINING GRAPHEME JOINER",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͐ U+0350 COMBINING RIGHT ARROWHEAD ABOVE": 
+    {
+        "prefix": [
+            "..U.0350",
+            "..U.COMBINING RIGHT ARROWHEAD ABOVE",
+            "U+0350",
+        ],
+        "body": [
+            "${1|͐,&#x0350;,U+0350,0x0350,COMBINING RIGHT ARROWHEAD ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0350",
+            "Character/Symbol: ͐",
+            "Name: COMBINING RIGHT ARROWHEAD ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͑ U+0351 COMBINING LEFT HALF RING ABOVE": 
+    {
+        "prefix": [
+            "..U.0351",
+            "..U.COMBINING LEFT HALF RING ABOVE",
+            "U+0351",
+        ],
+        "body": [
+            "${1|͑,&#x0351;,U+0351,0x0351,COMBINING LEFT HALF RING ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0351",
+            "Character/Symbol: ͑",
+            "Name: COMBINING LEFT HALF RING ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͒ U+0352 COMBINING FERMATA": 
+    {
+        "prefix": [
+            "..U.0352",
+            "..U.COMBINING FERMATA",
+            "U+0352",
+        ],
+        "body": [
+            "${1|͒,&#x0352;,U+0352,0x0352,COMBINING FERMATA|}$2",
+        ],
+        "description": [
+            "Code: U+0352",
+            "Character/Symbol: ͒",
+            "Name: COMBINING FERMATA",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͓ U+0353 COMBINING X BELOW": 
+    {
+        "prefix": [
+            "..U.0353",
+            "..U.COMBINING X BELOW",
+            "U+0353",
+        ],
+        "body": [
+            "${1|͓,&#x0353;,U+0353,0x0353,COMBINING X BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0353",
+            "Character/Symbol: ͓",
+            "Name: COMBINING X BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͔ U+0354 COMBINING LEFT ARROWHEAD BELOW": 
+    {
+        "prefix": [
+            "..U.0354",
+            "..U.COMBINING LEFT ARROWHEAD BELOW",
+            "U+0354",
+        ],
+        "body": [
+            "${1|͔,&#x0354;,U+0354,0x0354,COMBINING LEFT ARROWHEAD BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0354",
+            "Character/Symbol: ͔",
+            "Name: COMBINING LEFT ARROWHEAD BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͕ U+0355 COMBINING RIGHT ARROWHEAD BELOW": 
+    {
+        "prefix": [
+            "..U.0355",
+            "..U.COMBINING RIGHT ARROWHEAD BELOW",
+            "U+0355",
+        ],
+        "body": [
+            "${1|͕,&#x0355;,U+0355,0x0355,COMBINING RIGHT ARROWHEAD BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0355",
+            "Character/Symbol: ͕",
+            "Name: COMBINING RIGHT ARROWHEAD BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͖ U+0356 COMBINING RIGHT ARROWHEAD AND UP ARROWHEAD BELOW": 
+    {
+        "prefix": [
+            "..U.0356",
+            "..U.COMBINING RIGHT ARROWHEAD AND UP ARROWHEAD BELOW",
+            "U+0356",
+        ],
+        "body": [
+            "${1|͖,&#x0356;,U+0356,0x0356,COMBINING RIGHT ARROWHEAD AND UP ARROWHEAD BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0356",
+            "Character/Symbol: ͖",
+            "Name: COMBINING RIGHT ARROWHEAD AND UP ARROWHEAD BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͗ U+0357 COMBINING RIGHT HALF RING ABOVE": 
+    {
+        "prefix": [
+            "..U.0357",
+            "..U.COMBINING RIGHT HALF RING ABOVE",
+            "U+0357",
+        ],
+        "body": [
+            "${1|͗,&#x0357;,U+0357,0x0357,COMBINING RIGHT HALF RING ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0357",
+            "Character/Symbol: ͗",
+            "Name: COMBINING RIGHT HALF RING ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͘ U+0358 COMBINING DOT ABOVE RIGHT": 
+    {
+        "prefix": [
+            "..U.0358",
+            "..U.COMBINING DOT ABOVE RIGHT",
+            "U+0358",
+        ],
+        "body": [
+            "${1|͘,&#x0358;,U+0358,0x0358,COMBINING DOT ABOVE RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+0358",
+            "Character/Symbol: ͘",
+            "Name: COMBINING DOT ABOVE RIGHT",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͙ U+0359 COMBINING ASTERISK BELOW": 
+    {
+        "prefix": [
+            "..U.0359",
+            "..U.COMBINING ASTERISK BELOW",
+            "U+0359",
+        ],
+        "body": [
+            "${1|͙,&#x0359;,U+0359,0x0359,COMBINING ASTERISK BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0359",
+            "Character/Symbol: ͙",
+            "Name: COMBINING ASTERISK BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͚ U+035A COMBINING DOUBLE RING BELOW": 
+    {
+        "prefix": [
+            "..U.035A",
+            "..U.COMBINING DOUBLE RING BELOW",
+            "U+035A",
+        ],
+        "body": [
+            "${1|͚,&#x035A;,U+035A,0x035A,COMBINING DOUBLE RING BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+035A",
+            "Character/Symbol: ͚",
+            "Name: COMBINING DOUBLE RING BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͛ U+035B COMBINING ZIGZAG ABOVE": 
+    {
+        "prefix": [
+            "..U.035B",
+            "..U.COMBINING ZIGZAG ABOVE",
+            "U+035B",
+        ],
+        "body": [
+            "${1|͛,&#x035B;,U+035B,0x035B,COMBINING ZIGZAG ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+035B",
+            "Character/Symbol: ͛",
+            "Name: COMBINING ZIGZAG ABOVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͜ U+035C COMBINING DOUBLE BREVE BELOW": 
+    {
+        "prefix": [
+            "..U.035C",
+            "..U.COMBINING DOUBLE BREVE BELOW",
+            "U+035C",
+        ],
+        "body": [
+            "${1|͜,&#x035C;,U+035C,0x035C,COMBINING DOUBLE BREVE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+035C",
+            "Character/Symbol: ͜",
+            "Name: COMBINING DOUBLE BREVE BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͝ U+035D COMBINING DOUBLE BREVE": 
+    {
+        "prefix": [
+            "..U.035D",
+            "..U.COMBINING DOUBLE BREVE",
+            "U+035D",
+        ],
+        "body": [
+            "${1|͝,&#x035D;,U+035D,0x035D,COMBINING DOUBLE BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+035D",
+            "Character/Symbol: ͝",
+            "Name: COMBINING DOUBLE BREVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͞ U+035E COMBINING DOUBLE MACRON": 
+    {
+        "prefix": [
+            "..U.035E",
+            "..U.COMBINING DOUBLE MACRON",
+            "U+035E",
+        ],
+        "body": [
+            "${1|͞,&#x035E;,U+035E,0x035E,COMBINING DOUBLE MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+035E",
+            "Character/Symbol: ͞",
+            "Name: COMBINING DOUBLE MACRON",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͟ U+035F COMBINING DOUBLE MACRON BELOW": 
+    {
+        "prefix": [
+            "..U.035F",
+            "..U.COMBINING DOUBLE MACRON BELOW",
+            "U+035F",
+        ],
+        "body": [
+            "${1|͟,&#x035F;,U+035F,0x035F,COMBINING DOUBLE MACRON BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+035F",
+            "Character/Symbol: ͟",
+            "Name: COMBINING DOUBLE MACRON BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͠ U+0360 COMBINING DOUBLE TILDE": 
+    {
+        "prefix": [
+            "..U.0360",
+            "..U.COMBINING DOUBLE TILDE",
+            "U+0360",
+        ],
+        "body": [
+            "${1|͠,&#x0360;,U+0360,0x0360,COMBINING DOUBLE TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+0360",
+            "Character/Symbol: ͠",
+            "Name: COMBINING DOUBLE TILDE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͡ U+0361 COMBINING DOUBLE INVERTED BREVE": 
+    {
+        "prefix": [
+            "..U.0361",
+            "..U.COMBINING DOUBLE INVERTED BREVE",
+            "U+0361",
+        ],
+        "body": [
+            "${1|͡,&#x0361;,U+0361,0x0361,COMBINING DOUBLE INVERTED BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+0361",
+            "Character/Symbol: ͡",
+            "Name: COMBINING DOUBLE INVERTED BREVE",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͢ U+0362 COMBINING DOUBLE RIGHTWARDS ARROW BELOW": 
+    {
+        "prefix": [
+            "..U.0362",
+            "..U.COMBINING DOUBLE RIGHTWARDS ARROW BELOW",
+            "U+0362",
+        ],
+        "body": [
+            "${1|͢,&#x0362;,U+0362,0x0362,COMBINING DOUBLE RIGHTWARDS ARROW BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0362",
+            "Character/Symbol: ͢",
+            "Name: COMBINING DOUBLE RIGHTWARDS ARROW BELOW",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͣ U+0363 COMBINING LATIN SMALL LETTER A": 
+    {
+        "prefix": [
+            "..U.0363",
+            "..U.COMBINING LATIN SMALL LETTER A",
+            "U+0363",
+        ],
+        "body": [
+            "${1|ͣ,&#x0363;,U+0363,0x0363,COMBINING LATIN SMALL LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+0363",
+            "Character/Symbol: ͣ",
+            "Name: COMBINING LATIN SMALL LETTER A",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͤ U+0364 COMBINING LATIN SMALL LETTER E": 
+    {
+        "prefix": [
+            "..U.0364",
+            "..U.COMBINING LATIN SMALL LETTER E",
+            "U+0364",
+        ],
+        "body": [
+            "${1|ͤ,&#x0364;,U+0364,0x0364,COMBINING LATIN SMALL LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+0364",
+            "Character/Symbol: ͤ",
+            "Name: COMBINING LATIN SMALL LETTER E",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͥ U+0365 COMBINING LATIN SMALL LETTER I": 
+    {
+        "prefix": [
+            "..U.0365",
+            "..U.COMBINING LATIN SMALL LETTER I",
+            "U+0365",
+        ],
+        "body": [
+            "${1|ͥ,&#x0365;,U+0365,0x0365,COMBINING LATIN SMALL LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+0365",
+            "Character/Symbol: ͥ",
+            "Name: COMBINING LATIN SMALL LETTER I",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͦ U+0366 COMBINING LATIN SMALL LETTER O": 
+    {
+        "prefix": [
+            "..U.0366",
+            "..U.COMBINING LATIN SMALL LETTER O",
+            "U+0366",
+        ],
+        "body": [
+            "${1|ͦ,&#x0366;,U+0366,0x0366,COMBINING LATIN SMALL LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+0366",
+            "Character/Symbol: ͦ",
+            "Name: COMBINING LATIN SMALL LETTER O",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͧ U+0367 COMBINING LATIN SMALL LETTER U": 
+    {
+        "prefix": [
+            "..U.0367",
+            "..U.COMBINING LATIN SMALL LETTER U",
+            "U+0367",
+        ],
+        "body": [
+            "${1|ͧ,&#x0367;,U+0367,0x0367,COMBINING LATIN SMALL LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+0367",
+            "Character/Symbol: ͧ",
+            "Name: COMBINING LATIN SMALL LETTER U",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͨ U+0368 COMBINING LATIN SMALL LETTER C": 
+    {
+        "prefix": [
+            "..U.0368",
+            "..U.COMBINING LATIN SMALL LETTER C",
+            "U+0368",
+        ],
+        "body": [
+            "${1|ͨ,&#x0368;,U+0368,0x0368,COMBINING LATIN SMALL LETTER C|}$2",
+        ],
+        "description": [
+            "Code: U+0368",
+            "Character/Symbol: ͨ",
+            "Name: COMBINING LATIN SMALL LETTER C",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͩ U+0369 COMBINING LATIN SMALL LETTER D": 
+    {
+        "prefix": [
+            "..U.0369",
+            "..U.COMBINING LATIN SMALL LETTER D",
+            "U+0369",
+        ],
+        "body": [
+            "${1|ͩ,&#x0369;,U+0369,0x0369,COMBINING LATIN SMALL LETTER D|}$2",
+        ],
+        "description": [
+            "Code: U+0369",
+            "Character/Symbol: ͩ",
+            "Name: COMBINING LATIN SMALL LETTER D",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͪ U+036A COMBINING LATIN SMALL LETTER H": 
+    {
+        "prefix": [
+            "..U.036A",
+            "..U.COMBINING LATIN SMALL LETTER H",
+            "U+036A",
+        ],
+        "body": [
+            "${1|ͪ,&#x036A;,U+036A,0x036A,COMBINING LATIN SMALL LETTER H|}$2",
+        ],
+        "description": [
+            "Code: U+036A",
+            "Character/Symbol: ͪ",
+            "Name: COMBINING LATIN SMALL LETTER H",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͫ U+036B COMBINING LATIN SMALL LETTER M": 
+    {
+        "prefix": [
+            "..U.036B",
+            "..U.COMBINING LATIN SMALL LETTER M",
+            "U+036B",
+        ],
+        "body": [
+            "${1|ͫ,&#x036B;,U+036B,0x036B,COMBINING LATIN SMALL LETTER M|}$2",
+        ],
+        "description": [
+            "Code: U+036B",
+            "Character/Symbol: ͫ",
+            "Name: COMBINING LATIN SMALL LETTER M",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͬ U+036C COMBINING LATIN SMALL LETTER R": 
+    {
+        "prefix": [
+            "..U.036C",
+            "..U.COMBINING LATIN SMALL LETTER R",
+            "U+036C",
+        ],
+        "body": [
+            "${1|ͬ,&#x036C;,U+036C,0x036C,COMBINING LATIN SMALL LETTER R|}$2",
+        ],
+        "description": [
+            "Code: U+036C",
+            "Character/Symbol: ͬ",
+            "Name: COMBINING LATIN SMALL LETTER R",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͭ U+036D COMBINING LATIN SMALL LETTER T": 
+    {
+        "prefix": [
+            "..U.036D",
+            "..U.COMBINING LATIN SMALL LETTER T",
+            "U+036D",
+        ],
+        "body": [
+            "${1|ͭ,&#x036D;,U+036D,0x036D,COMBINING LATIN SMALL LETTER T|}$2",
+        ],
+        "description": [
+            "Code: U+036D",
+            "Character/Symbol: ͭ",
+            "Name: COMBINING LATIN SMALL LETTER T",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͮ U+036E COMBINING LATIN SMALL LETTER V": 
+    {
+        "prefix": [
+            "..U.036E",
+            "..U.COMBINING LATIN SMALL LETTER V",
+            "U+036E",
+        ],
+        "body": [
+            "${1|ͮ,&#x036E;,U+036E,0x036E,COMBINING LATIN SMALL LETTER V|}$2",
+        ],
+        "description": [
+            "Code: U+036E",
+            "Character/Symbol: ͮ",
+            "Name: COMBINING LATIN SMALL LETTER V",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+    "Unicode ͯ U+036F COMBINING LATIN SMALL LETTER X": 
+    {
+        "prefix": [
+            "..U.036F",
+            "..U.COMBINING LATIN SMALL LETTER X",
+            "U+036F",
+        ],
+        "body": [
+            "${1|ͯ,&#x036F;,U+036F,0x036F,COMBINING LATIN SMALL LETTER X|}$2",
+        ],
+        "description": [
+            "Code: U+036F",
+            "Character/Symbol: ͯ",
+            "Name: COMBINING LATIN SMALL LETTER X",
+            "Group/Block: Diacriticals",
+        ],
+    },
+
+}

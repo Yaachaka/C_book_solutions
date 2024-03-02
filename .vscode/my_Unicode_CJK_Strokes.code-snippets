@@ -1,0 +1,668 @@
+{
+    "Unicode ㇀ U+31C0 CJK STROKE T": 
+    {
+        "prefix": [
+            "..U.31C0",
+            "..U.CJK STROKE T",
+            "U+31C0",
+        ],
+        "body": [
+            "${1|㇀,&#x31C0;,U+31C0,0x31C0,CJK STROKE T|}$2",
+        ],
+        "description": [
+            "Code: U+31C0",
+            "Character/Symbol: ㇀",
+            "Name: CJK STROKE T",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇁ U+31C1 CJK STROKE WG": 
+    {
+        "prefix": [
+            "..U.31C1",
+            "..U.CJK STROKE WG",
+            "U+31C1",
+        ],
+        "body": [
+            "${1|㇁,&#x31C1;,U+31C1,0x31C1,CJK STROKE WG|}$2",
+        ],
+        "description": [
+            "Code: U+31C1",
+            "Character/Symbol: ㇁",
+            "Name: CJK STROKE WG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇂ U+31C2 CJK STROKE XG": 
+    {
+        "prefix": [
+            "..U.31C2",
+            "..U.CJK STROKE XG",
+            "U+31C2",
+        ],
+        "body": [
+            "${1|㇂,&#x31C2;,U+31C2,0x31C2,CJK STROKE XG|}$2",
+        ],
+        "description": [
+            "Code: U+31C2",
+            "Character/Symbol: ㇂",
+            "Name: CJK STROKE XG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇃ U+31C3 CJK STROKE BXG": 
+    {
+        "prefix": [
+            "..U.31C3",
+            "..U.CJK STROKE BXG",
+            "U+31C3",
+        ],
+        "body": [
+            "${1|㇃,&#x31C3;,U+31C3,0x31C3,CJK STROKE BXG|}$2",
+        ],
+        "description": [
+            "Code: U+31C3",
+            "Character/Symbol: ㇃",
+            "Name: CJK STROKE BXG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇄ U+31C4 CJK STROKE SW": 
+    {
+        "prefix": [
+            "..U.31C4",
+            "..U.CJK STROKE SW",
+            "U+31C4",
+        ],
+        "body": [
+            "${1|㇄,&#x31C4;,U+31C4,0x31C4,CJK STROKE SW|}$2",
+        ],
+        "description": [
+            "Code: U+31C4",
+            "Character/Symbol: ㇄",
+            "Name: CJK STROKE SW",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇅ U+31C5 CJK STROKE HZZ": 
+    {
+        "prefix": [
+            "..U.31C5",
+            "..U.CJK STROKE HZZ",
+            "U+31C5",
+        ],
+        "body": [
+            "${1|㇅,&#x31C5;,U+31C5,0x31C5,CJK STROKE HZZ|}$2",
+        ],
+        "description": [
+            "Code: U+31C5",
+            "Character/Symbol: ㇅",
+            "Name: CJK STROKE HZZ",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇆ U+31C6 CJK STROKE HZG": 
+    {
+        "prefix": [
+            "..U.31C6",
+            "..U.CJK STROKE HZG",
+            "U+31C6",
+        ],
+        "body": [
+            "${1|㇆,&#x31C6;,U+31C6,0x31C6,CJK STROKE HZG|}$2",
+        ],
+        "description": [
+            "Code: U+31C6",
+            "Character/Symbol: ㇆",
+            "Name: CJK STROKE HZG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇇ U+31C7 CJK STROKE HP": 
+    {
+        "prefix": [
+            "..U.31C7",
+            "..U.CJK STROKE HP",
+            "U+31C7",
+        ],
+        "body": [
+            "${1|㇇,&#x31C7;,U+31C7,0x31C7,CJK STROKE HP|}$2",
+        ],
+        "description": [
+            "Code: U+31C7",
+            "Character/Symbol: ㇇",
+            "Name: CJK STROKE HP",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇈ U+31C8 CJK STROKE HZWG": 
+    {
+        "prefix": [
+            "..U.31C8",
+            "..U.CJK STROKE HZWG",
+            "U+31C8",
+        ],
+        "body": [
+            "${1|㇈,&#x31C8;,U+31C8,0x31C8,CJK STROKE HZWG|}$2",
+        ],
+        "description": [
+            "Code: U+31C8",
+            "Character/Symbol: ㇈",
+            "Name: CJK STROKE HZWG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇉ U+31C9 CJK STROKE SZWG": 
+    {
+        "prefix": [
+            "..U.31C9",
+            "..U.CJK STROKE SZWG",
+            "U+31C9",
+        ],
+        "body": [
+            "${1|㇉,&#x31C9;,U+31C9,0x31C9,CJK STROKE SZWG|}$2",
+        ],
+        "description": [
+            "Code: U+31C9",
+            "Character/Symbol: ㇉",
+            "Name: CJK STROKE SZWG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇊ U+31CA CJK STROKE HZT": 
+    {
+        "prefix": [
+            "..U.31CA",
+            "..U.CJK STROKE HZT",
+            "U+31CA",
+        ],
+        "body": [
+            "${1|㇊,&#x31CA;,U+31CA,0x31CA,CJK STROKE HZT|}$2",
+        ],
+        "description": [
+            "Code: U+31CA",
+            "Character/Symbol: ㇊",
+            "Name: CJK STROKE HZT",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇋ U+31CB CJK STROKE HZZP": 
+    {
+        "prefix": [
+            "..U.31CB",
+            "..U.CJK STROKE HZZP",
+            "U+31CB",
+        ],
+        "body": [
+            "${1|㇋,&#x31CB;,U+31CB,0x31CB,CJK STROKE HZZP|}$2",
+        ],
+        "description": [
+            "Code: U+31CB",
+            "Character/Symbol: ㇋",
+            "Name: CJK STROKE HZZP",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇌ U+31CC CJK STROKE HPWG": 
+    {
+        "prefix": [
+            "..U.31CC",
+            "..U.CJK STROKE HPWG",
+            "U+31CC",
+        ],
+        "body": [
+            "${1|㇌,&#x31CC;,U+31CC,0x31CC,CJK STROKE HPWG|}$2",
+        ],
+        "description": [
+            "Code: U+31CC",
+            "Character/Symbol: ㇌",
+            "Name: CJK STROKE HPWG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇍ U+31CD CJK STROKE HZW": 
+    {
+        "prefix": [
+            "..U.31CD",
+            "..U.CJK STROKE HZW",
+            "U+31CD",
+        ],
+        "body": [
+            "${1|㇍,&#x31CD;,U+31CD,0x31CD,CJK STROKE HZW|}$2",
+        ],
+        "description": [
+            "Code: U+31CD",
+            "Character/Symbol: ㇍",
+            "Name: CJK STROKE HZW",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇎ U+31CE CJK STROKE HZZZ": 
+    {
+        "prefix": [
+            "..U.31CE",
+            "..U.CJK STROKE HZZZ",
+            "U+31CE",
+        ],
+        "body": [
+            "${1|㇎,&#x31CE;,U+31CE,0x31CE,CJK STROKE HZZZ|}$2",
+        ],
+        "description": [
+            "Code: U+31CE",
+            "Character/Symbol: ㇎",
+            "Name: CJK STROKE HZZZ",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇏ U+31CF CJK STROKE N": 
+    {
+        "prefix": [
+            "..U.31CF",
+            "..U.CJK STROKE N",
+            "U+31CF",
+        ],
+        "body": [
+            "${1|㇏,&#x31CF;,U+31CF,0x31CF,CJK STROKE N|}$2",
+        ],
+        "description": [
+            "Code: U+31CF",
+            "Character/Symbol: ㇏",
+            "Name: CJK STROKE N",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇐ U+31D0 CJK STROKE H": 
+    {
+        "prefix": [
+            "..U.31D0",
+            "..U.CJK STROKE H",
+            "U+31D0",
+        ],
+        "body": [
+            "${1|㇐,&#x31D0;,U+31D0,0x31D0,CJK STROKE H|}$2",
+        ],
+        "description": [
+            "Code: U+31D0",
+            "Character/Symbol: ㇐",
+            "Name: CJK STROKE H",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇑ U+31D1 CJK STROKE S": 
+    {
+        "prefix": [
+            "..U.31D1",
+            "..U.CJK STROKE S",
+            "U+31D1",
+        ],
+        "body": [
+            "${1|㇑,&#x31D1;,U+31D1,0x31D1,CJK STROKE S|}$2",
+        ],
+        "description": [
+            "Code: U+31D1",
+            "Character/Symbol: ㇑",
+            "Name: CJK STROKE S",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇒ U+31D2 CJK STROKE P": 
+    {
+        "prefix": [
+            "..U.31D2",
+            "..U.CJK STROKE P",
+            "U+31D2",
+        ],
+        "body": [
+            "${1|㇒,&#x31D2;,U+31D2,0x31D2,CJK STROKE P|}$2",
+        ],
+        "description": [
+            "Code: U+31D2",
+            "Character/Symbol: ㇒",
+            "Name: CJK STROKE P",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇓ U+31D3 CJK STROKE SP": 
+    {
+        "prefix": [
+            "..U.31D3",
+            "..U.CJK STROKE SP",
+            "U+31D3",
+        ],
+        "body": [
+            "${1|㇓,&#x31D3;,U+31D3,0x31D3,CJK STROKE SP|}$2",
+        ],
+        "description": [
+            "Code: U+31D3",
+            "Character/Symbol: ㇓",
+            "Name: CJK STROKE SP",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇔ U+31D4 CJK STROKE D": 
+    {
+        "prefix": [
+            "..U.31D4",
+            "..U.CJK STROKE D",
+            "U+31D4",
+        ],
+        "body": [
+            "${1|㇔,&#x31D4;,U+31D4,0x31D4,CJK STROKE D|}$2",
+        ],
+        "description": [
+            "Code: U+31D4",
+            "Character/Symbol: ㇔",
+            "Name: CJK STROKE D",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇕ U+31D5 CJK STROKE HZ": 
+    {
+        "prefix": [
+            "..U.31D5",
+            "..U.CJK STROKE HZ",
+            "U+31D5",
+        ],
+        "body": [
+            "${1|㇕,&#x31D5;,U+31D5,0x31D5,CJK STROKE HZ|}$2",
+        ],
+        "description": [
+            "Code: U+31D5",
+            "Character/Symbol: ㇕",
+            "Name: CJK STROKE HZ",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇖ U+31D6 CJK STROKE HG": 
+    {
+        "prefix": [
+            "..U.31D6",
+            "..U.CJK STROKE HG",
+            "U+31D6",
+        ],
+        "body": [
+            "${1|㇖,&#x31D6;,U+31D6,0x31D6,CJK STROKE HG|}$2",
+        ],
+        "description": [
+            "Code: U+31D6",
+            "Character/Symbol: ㇖",
+            "Name: CJK STROKE HG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇗ U+31D7 CJK STROKE SZ": 
+    {
+        "prefix": [
+            "..U.31D7",
+            "..U.CJK STROKE SZ",
+            "U+31D7",
+        ],
+        "body": [
+            "${1|㇗,&#x31D7;,U+31D7,0x31D7,CJK STROKE SZ|}$2",
+        ],
+        "description": [
+            "Code: U+31D7",
+            "Character/Symbol: ㇗",
+            "Name: CJK STROKE SZ",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇘ U+31D8 CJK STROKE SWZ": 
+    {
+        "prefix": [
+            "..U.31D8",
+            "..U.CJK STROKE SWZ",
+            "U+31D8",
+        ],
+        "body": [
+            "${1|㇘,&#x31D8;,U+31D8,0x31D8,CJK STROKE SWZ|}$2",
+        ],
+        "description": [
+            "Code: U+31D8",
+            "Character/Symbol: ㇘",
+            "Name: CJK STROKE SWZ",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇙ U+31D9 CJK STROKE ST": 
+    {
+        "prefix": [
+            "..U.31D9",
+            "..U.CJK STROKE ST",
+            "U+31D9",
+        ],
+        "body": [
+            "${1|㇙,&#x31D9;,U+31D9,0x31D9,CJK STROKE ST|}$2",
+        ],
+        "description": [
+            "Code: U+31D9",
+            "Character/Symbol: ㇙",
+            "Name: CJK STROKE ST",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇚ U+31DA CJK STROKE SG": 
+    {
+        "prefix": [
+            "..U.31DA",
+            "..U.CJK STROKE SG",
+            "U+31DA",
+        ],
+        "body": [
+            "${1|㇚,&#x31DA;,U+31DA,0x31DA,CJK STROKE SG|}$2",
+        ],
+        "description": [
+            "Code: U+31DA",
+            "Character/Symbol: ㇚",
+            "Name: CJK STROKE SG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇛ U+31DB CJK STROKE PD": 
+    {
+        "prefix": [
+            "..U.31DB",
+            "..U.CJK STROKE PD",
+            "U+31DB",
+        ],
+        "body": [
+            "${1|㇛,&#x31DB;,U+31DB,0x31DB,CJK STROKE PD|}$2",
+        ],
+        "description": [
+            "Code: U+31DB",
+            "Character/Symbol: ㇛",
+            "Name: CJK STROKE PD",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇜ U+31DC CJK STROKE PZ": 
+    {
+        "prefix": [
+            "..U.31DC",
+            "..U.CJK STROKE PZ",
+            "U+31DC",
+        ],
+        "body": [
+            "${1|㇜,&#x31DC;,U+31DC,0x31DC,CJK STROKE PZ|}$2",
+        ],
+        "description": [
+            "Code: U+31DC",
+            "Character/Symbol: ㇜",
+            "Name: CJK STROKE PZ",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇝ U+31DD CJK STROKE TN": 
+    {
+        "prefix": [
+            "..U.31DD",
+            "..U.CJK STROKE TN",
+            "U+31DD",
+        ],
+        "body": [
+            "${1|㇝,&#x31DD;,U+31DD,0x31DD,CJK STROKE TN|}$2",
+        ],
+        "description": [
+            "Code: U+31DD",
+            "Character/Symbol: ㇝",
+            "Name: CJK STROKE TN",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇞ U+31DE CJK STROKE SZZ": 
+    {
+        "prefix": [
+            "..U.31DE",
+            "..U.CJK STROKE SZZ",
+            "U+31DE",
+        ],
+        "body": [
+            "${1|㇞,&#x31DE;,U+31DE,0x31DE,CJK STROKE SZZ|}$2",
+        ],
+        "description": [
+            "Code: U+31DE",
+            "Character/Symbol: ㇞",
+            "Name: CJK STROKE SZZ",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇟ U+31DF CJK STROKE SWG": 
+    {
+        "prefix": [
+            "..U.31DF",
+            "..U.CJK STROKE SWG",
+            "U+31DF",
+        ],
+        "body": [
+            "${1|㇟,&#x31DF;,U+31DF,0x31DF,CJK STROKE SWG|}$2",
+        ],
+        "description": [
+            "Code: U+31DF",
+            "Character/Symbol: ㇟",
+            "Name: CJK STROKE SWG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇠ U+31E0 CJK STROKE HXWG": 
+    {
+        "prefix": [
+            "..U.31E0",
+            "..U.CJK STROKE HXWG",
+            "U+31E0",
+        ],
+        "body": [
+            "${1|㇠,&#x31E0;,U+31E0,0x31E0,CJK STROKE HXWG|}$2",
+        ],
+        "description": [
+            "Code: U+31E0",
+            "Character/Symbol: ㇠",
+            "Name: CJK STROKE HXWG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇡ U+31E1 CJK STROKE HZZZG": 
+    {
+        "prefix": [
+            "..U.31E1",
+            "..U.CJK STROKE HZZZG",
+            "U+31E1",
+        ],
+        "body": [
+            "${1|㇡,&#x31E1;,U+31E1,0x31E1,CJK STROKE HZZZG|}$2",
+        ],
+        "description": [
+            "Code: U+31E1",
+            "Character/Symbol: ㇡",
+            "Name: CJK STROKE HZZZG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇢ U+31E2 CJK STROKE PG": 
+    {
+        "prefix": [
+            "..U.31E2",
+            "..U.CJK STROKE PG",
+            "U+31E2",
+        ],
+        "body": [
+            "${1|㇢,&#x31E2;,U+31E2,0x31E2,CJK STROKE PG|}$2",
+        ],
+        "description": [
+            "Code: U+31E2",
+            "Character/Symbol: ㇢",
+            "Name: CJK STROKE PG",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇣ U+31E3 CJK STROKE Q": 
+    {
+        "prefix": [
+            "..U.31E3",
+            "..U.CJK STROKE Q",
+            "U+31E3",
+        ],
+        "body": [
+            "${1|㇣,&#x31E3;,U+31E3,0x31E3,CJK STROKE Q|}$2",
+        ],
+        "description": [
+            "Code: U+31E3",
+            "Character/Symbol: ㇣",
+            "Name: CJK STROKE Q",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+    "Unicode ㇯ U+31EF IDEOGRAPHIC DESCRIPTION CHARACTER SUBTRACTION": 
+    {
+        "prefix": [
+            "..U.31EF",
+            "..U.IDEOGRAPHIC DESCRIPTION CHARACTER SUBTRACTION",
+            "U+31EF",
+        ],
+        "body": [
+            "${1|㇯,&#x31EF;,U+31EF,0x31EF,IDEOGRAPHIC DESCRIPTION CHARACTER SUBTRACTION|}$2",
+        ],
+        "description": [
+            "Code: U+31EF",
+            "Character/Symbol: ㇯",
+            "Name: IDEOGRAPHIC DESCRIPTION CHARACTER SUBTRACTION",
+            "Group/Block: CJK_Strokes",
+        ],
+    },
+
+}

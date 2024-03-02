@@ -1,0 +1,776 @@
+{
+    "Unicode 𐍐 U+10350 OLD PERMIC LETTER AN": 
+    {
+        "prefix": [
+            "..U.10350",
+            "..U.OLD PERMIC LETTER AN",
+            "U+10350",
+        ],
+        "body": [
+            "${1|𐍐,&#x10350;,U+10350,0x10350,OLD PERMIC LETTER AN|}$2",
+        ],
+        "description": [
+            "Code: U+10350",
+            "Character/Symbol: 𐍐",
+            "Name: OLD PERMIC LETTER AN",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍑 U+10351 OLD PERMIC LETTER BUR": 
+    {
+        "prefix": [
+            "..U.10351",
+            "..U.OLD PERMIC LETTER BUR",
+            "U+10351",
+        ],
+        "body": [
+            "${1|𐍑,&#x10351;,U+10351,0x10351,OLD PERMIC LETTER BUR|}$2",
+        ],
+        "description": [
+            "Code: U+10351",
+            "Character/Symbol: 𐍑",
+            "Name: OLD PERMIC LETTER BUR",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍒 U+10352 OLD PERMIC LETTER GAI": 
+    {
+        "prefix": [
+            "..U.10352",
+            "..U.OLD PERMIC LETTER GAI",
+            "U+10352",
+        ],
+        "body": [
+            "${1|𐍒,&#x10352;,U+10352,0x10352,OLD PERMIC LETTER GAI|}$2",
+        ],
+        "description": [
+            "Code: U+10352",
+            "Character/Symbol: 𐍒",
+            "Name: OLD PERMIC LETTER GAI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍓 U+10353 OLD PERMIC LETTER DOI": 
+    {
+        "prefix": [
+            "..U.10353",
+            "..U.OLD PERMIC LETTER DOI",
+            "U+10353",
+        ],
+        "body": [
+            "${1|𐍓,&#x10353;,U+10353,0x10353,OLD PERMIC LETTER DOI|}$2",
+        ],
+        "description": [
+            "Code: U+10353",
+            "Character/Symbol: 𐍓",
+            "Name: OLD PERMIC LETTER DOI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍔 U+10354 OLD PERMIC LETTER E": 
+    {
+        "prefix": [
+            "..U.10354",
+            "..U.OLD PERMIC LETTER E",
+            "U+10354",
+        ],
+        "body": [
+            "${1|𐍔,&#x10354;,U+10354,0x10354,OLD PERMIC LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+10354",
+            "Character/Symbol: 𐍔",
+            "Name: OLD PERMIC LETTER E",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍕 U+10355 OLD PERMIC LETTER ZHOI": 
+    {
+        "prefix": [
+            "..U.10355",
+            "..U.OLD PERMIC LETTER ZHOI",
+            "U+10355",
+        ],
+        "body": [
+            "${1|𐍕,&#x10355;,U+10355,0x10355,OLD PERMIC LETTER ZHOI|}$2",
+        ],
+        "description": [
+            "Code: U+10355",
+            "Character/Symbol: 𐍕",
+            "Name: OLD PERMIC LETTER ZHOI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍖 U+10356 OLD PERMIC LETTER DZHOI": 
+    {
+        "prefix": [
+            "..U.10356",
+            "..U.OLD PERMIC LETTER DZHOI",
+            "U+10356",
+        ],
+        "body": [
+            "${1|𐍖,&#x10356;,U+10356,0x10356,OLD PERMIC LETTER DZHOI|}$2",
+        ],
+        "description": [
+            "Code: U+10356",
+            "Character/Symbol: 𐍖",
+            "Name: OLD PERMIC LETTER DZHOI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍗 U+10357 OLD PERMIC LETTER ZATA": 
+    {
+        "prefix": [
+            "..U.10357",
+            "..U.OLD PERMIC LETTER ZATA",
+            "U+10357",
+        ],
+        "body": [
+            "${1|𐍗,&#x10357;,U+10357,0x10357,OLD PERMIC LETTER ZATA|}$2",
+        ],
+        "description": [
+            "Code: U+10357",
+            "Character/Symbol: 𐍗",
+            "Name: OLD PERMIC LETTER ZATA",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍘 U+10358 OLD PERMIC LETTER DZITA": 
+    {
+        "prefix": [
+            "..U.10358",
+            "..U.OLD PERMIC LETTER DZITA",
+            "U+10358",
+        ],
+        "body": [
+            "${1|𐍘,&#x10358;,U+10358,0x10358,OLD PERMIC LETTER DZITA|}$2",
+        ],
+        "description": [
+            "Code: U+10358",
+            "Character/Symbol: 𐍘",
+            "Name: OLD PERMIC LETTER DZITA",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍙 U+10359 OLD PERMIC LETTER I": 
+    {
+        "prefix": [
+            "..U.10359",
+            "..U.OLD PERMIC LETTER I",
+            "U+10359",
+        ],
+        "body": [
+            "${1|𐍙,&#x10359;,U+10359,0x10359,OLD PERMIC LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+10359",
+            "Character/Symbol: 𐍙",
+            "Name: OLD PERMIC LETTER I",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍚 U+1035A OLD PERMIC LETTER KOKE": 
+    {
+        "prefix": [
+            "..U.1035A",
+            "..U.OLD PERMIC LETTER KOKE",
+            "U+1035A",
+        ],
+        "body": [
+            "${1|𐍚,&#x1035A;,U+1035A,0x1035A,OLD PERMIC LETTER KOKE|}$2",
+        ],
+        "description": [
+            "Code: U+1035A",
+            "Character/Symbol: 𐍚",
+            "Name: OLD PERMIC LETTER KOKE",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍛 U+1035B OLD PERMIC LETTER LEI": 
+    {
+        "prefix": [
+            "..U.1035B",
+            "..U.OLD PERMIC LETTER LEI",
+            "U+1035B",
+        ],
+        "body": [
+            "${1|𐍛,&#x1035B;,U+1035B,0x1035B,OLD PERMIC LETTER LEI|}$2",
+        ],
+        "description": [
+            "Code: U+1035B",
+            "Character/Symbol: 𐍛",
+            "Name: OLD PERMIC LETTER LEI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍜 U+1035C OLD PERMIC LETTER MENOE": 
+    {
+        "prefix": [
+            "..U.1035C",
+            "..U.OLD PERMIC LETTER MENOE",
+            "U+1035C",
+        ],
+        "body": [
+            "${1|𐍜,&#x1035C;,U+1035C,0x1035C,OLD PERMIC LETTER MENOE|}$2",
+        ],
+        "description": [
+            "Code: U+1035C",
+            "Character/Symbol: 𐍜",
+            "Name: OLD PERMIC LETTER MENOE",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍝 U+1035D OLD PERMIC LETTER NENOE": 
+    {
+        "prefix": [
+            "..U.1035D",
+            "..U.OLD PERMIC LETTER NENOE",
+            "U+1035D",
+        ],
+        "body": [
+            "${1|𐍝,&#x1035D;,U+1035D,0x1035D,OLD PERMIC LETTER NENOE|}$2",
+        ],
+        "description": [
+            "Code: U+1035D",
+            "Character/Symbol: 𐍝",
+            "Name: OLD PERMIC LETTER NENOE",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍞 U+1035E OLD PERMIC LETTER VOOI": 
+    {
+        "prefix": [
+            "..U.1035E",
+            "..U.OLD PERMIC LETTER VOOI",
+            "U+1035E",
+        ],
+        "body": [
+            "${1|𐍞,&#x1035E;,U+1035E,0x1035E,OLD PERMIC LETTER VOOI|}$2",
+        ],
+        "description": [
+            "Code: U+1035E",
+            "Character/Symbol: 𐍞",
+            "Name: OLD PERMIC LETTER VOOI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍟 U+1035F OLD PERMIC LETTER PEEI": 
+    {
+        "prefix": [
+            "..U.1035F",
+            "..U.OLD PERMIC LETTER PEEI",
+            "U+1035F",
+        ],
+        "body": [
+            "${1|𐍟,&#x1035F;,U+1035F,0x1035F,OLD PERMIC LETTER PEEI|}$2",
+        ],
+        "description": [
+            "Code: U+1035F",
+            "Character/Symbol: 𐍟",
+            "Name: OLD PERMIC LETTER PEEI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍠 U+10360 OLD PERMIC LETTER REI": 
+    {
+        "prefix": [
+            "..U.10360",
+            "..U.OLD PERMIC LETTER REI",
+            "U+10360",
+        ],
+        "body": [
+            "${1|𐍠,&#x10360;,U+10360,0x10360,OLD PERMIC LETTER REI|}$2",
+        ],
+        "description": [
+            "Code: U+10360",
+            "Character/Symbol: 𐍠",
+            "Name: OLD PERMIC LETTER REI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍡 U+10361 OLD PERMIC LETTER SII": 
+    {
+        "prefix": [
+            "..U.10361",
+            "..U.OLD PERMIC LETTER SII",
+            "U+10361",
+        ],
+        "body": [
+            "${1|𐍡,&#x10361;,U+10361,0x10361,OLD PERMIC LETTER SII|}$2",
+        ],
+        "description": [
+            "Code: U+10361",
+            "Character/Symbol: 𐍡",
+            "Name: OLD PERMIC LETTER SII",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍢 U+10362 OLD PERMIC LETTER TAI": 
+    {
+        "prefix": [
+            "..U.10362",
+            "..U.OLD PERMIC LETTER TAI",
+            "U+10362",
+        ],
+        "body": [
+            "${1|𐍢,&#x10362;,U+10362,0x10362,OLD PERMIC LETTER TAI|}$2",
+        ],
+        "description": [
+            "Code: U+10362",
+            "Character/Symbol: 𐍢",
+            "Name: OLD PERMIC LETTER TAI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍣 U+10363 OLD PERMIC LETTER U": 
+    {
+        "prefix": [
+            "..U.10363",
+            "..U.OLD PERMIC LETTER U",
+            "U+10363",
+        ],
+        "body": [
+            "${1|𐍣,&#x10363;,U+10363,0x10363,OLD PERMIC LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+10363",
+            "Character/Symbol: 𐍣",
+            "Name: OLD PERMIC LETTER U",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍤 U+10364 OLD PERMIC LETTER CHERY": 
+    {
+        "prefix": [
+            "..U.10364",
+            "..U.OLD PERMIC LETTER CHERY",
+            "U+10364",
+        ],
+        "body": [
+            "${1|𐍤,&#x10364;,U+10364,0x10364,OLD PERMIC LETTER CHERY|}$2",
+        ],
+        "description": [
+            "Code: U+10364",
+            "Character/Symbol: 𐍤",
+            "Name: OLD PERMIC LETTER CHERY",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍥 U+10365 OLD PERMIC LETTER SHOOI": 
+    {
+        "prefix": [
+            "..U.10365",
+            "..U.OLD PERMIC LETTER SHOOI",
+            "U+10365",
+        ],
+        "body": [
+            "${1|𐍥,&#x10365;,U+10365,0x10365,OLD PERMIC LETTER SHOOI|}$2",
+        ],
+        "description": [
+            "Code: U+10365",
+            "Character/Symbol: 𐍥",
+            "Name: OLD PERMIC LETTER SHOOI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍦 U+10366 OLD PERMIC LETTER SHCHOOI": 
+    {
+        "prefix": [
+            "..U.10366",
+            "..U.OLD PERMIC LETTER SHCHOOI",
+            "U+10366",
+        ],
+        "body": [
+            "${1|𐍦,&#x10366;,U+10366,0x10366,OLD PERMIC LETTER SHCHOOI|}$2",
+        ],
+        "description": [
+            "Code: U+10366",
+            "Character/Symbol: 𐍦",
+            "Name: OLD PERMIC LETTER SHCHOOI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍧 U+10367 OLD PERMIC LETTER YRY": 
+    {
+        "prefix": [
+            "..U.10367",
+            "..U.OLD PERMIC LETTER YRY",
+            "U+10367",
+        ],
+        "body": [
+            "${1|𐍧,&#x10367;,U+10367,0x10367,OLD PERMIC LETTER YRY|}$2",
+        ],
+        "description": [
+            "Code: U+10367",
+            "Character/Symbol: 𐍧",
+            "Name: OLD PERMIC LETTER YRY",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍨 U+10368 OLD PERMIC LETTER YERU": 
+    {
+        "prefix": [
+            "..U.10368",
+            "..U.OLD PERMIC LETTER YERU",
+            "U+10368",
+        ],
+        "body": [
+            "${1|𐍨,&#x10368;,U+10368,0x10368,OLD PERMIC LETTER YERU|}$2",
+        ],
+        "description": [
+            "Code: U+10368",
+            "Character/Symbol: 𐍨",
+            "Name: OLD PERMIC LETTER YERU",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍩 U+10369 OLD PERMIC LETTER O": 
+    {
+        "prefix": [
+            "..U.10369",
+            "..U.OLD PERMIC LETTER O",
+            "U+10369",
+        ],
+        "body": [
+            "${1|𐍩,&#x10369;,U+10369,0x10369,OLD PERMIC LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+10369",
+            "Character/Symbol: 𐍩",
+            "Name: OLD PERMIC LETTER O",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍪 U+1036A OLD PERMIC LETTER OO": 
+    {
+        "prefix": [
+            "..U.1036A",
+            "..U.OLD PERMIC LETTER OO",
+            "U+1036A",
+        ],
+        "body": [
+            "${1|𐍪,&#x1036A;,U+1036A,0x1036A,OLD PERMIC LETTER OO|}$2",
+        ],
+        "description": [
+            "Code: U+1036A",
+            "Character/Symbol: 𐍪",
+            "Name: OLD PERMIC LETTER OO",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍫 U+1036B OLD PERMIC LETTER EF": 
+    {
+        "prefix": [
+            "..U.1036B",
+            "..U.OLD PERMIC LETTER EF",
+            "U+1036B",
+        ],
+        "body": [
+            "${1|𐍫,&#x1036B;,U+1036B,0x1036B,OLD PERMIC LETTER EF|}$2",
+        ],
+        "description": [
+            "Code: U+1036B",
+            "Character/Symbol: 𐍫",
+            "Name: OLD PERMIC LETTER EF",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍬 U+1036C OLD PERMIC LETTER HA": 
+    {
+        "prefix": [
+            "..U.1036C",
+            "..U.OLD PERMIC LETTER HA",
+            "U+1036C",
+        ],
+        "body": [
+            "${1|𐍬,&#x1036C;,U+1036C,0x1036C,OLD PERMIC LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+1036C",
+            "Character/Symbol: 𐍬",
+            "Name: OLD PERMIC LETTER HA",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍭 U+1036D OLD PERMIC LETTER TSIU": 
+    {
+        "prefix": [
+            "..U.1036D",
+            "..U.OLD PERMIC LETTER TSIU",
+            "U+1036D",
+        ],
+        "body": [
+            "${1|𐍭,&#x1036D;,U+1036D,0x1036D,OLD PERMIC LETTER TSIU|}$2",
+        ],
+        "description": [
+            "Code: U+1036D",
+            "Character/Symbol: 𐍭",
+            "Name: OLD PERMIC LETTER TSIU",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍮 U+1036E OLD PERMIC LETTER VER": 
+    {
+        "prefix": [
+            "..U.1036E",
+            "..U.OLD PERMIC LETTER VER",
+            "U+1036E",
+        ],
+        "body": [
+            "${1|𐍮,&#x1036E;,U+1036E,0x1036E,OLD PERMIC LETTER VER|}$2",
+        ],
+        "description": [
+            "Code: U+1036E",
+            "Character/Symbol: 𐍮",
+            "Name: OLD PERMIC LETTER VER",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍯 U+1036F OLD PERMIC LETTER YER": 
+    {
+        "prefix": [
+            "..U.1036F",
+            "..U.OLD PERMIC LETTER YER",
+            "U+1036F",
+        ],
+        "body": [
+            "${1|𐍯,&#x1036F;,U+1036F,0x1036F,OLD PERMIC LETTER YER|}$2",
+        ],
+        "description": [
+            "Code: U+1036F",
+            "Character/Symbol: 𐍯",
+            "Name: OLD PERMIC LETTER YER",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍰 U+10370 OLD PERMIC LETTER YERI": 
+    {
+        "prefix": [
+            "..U.10370",
+            "..U.OLD PERMIC LETTER YERI",
+            "U+10370",
+        ],
+        "body": [
+            "${1|𐍰,&#x10370;,U+10370,0x10370,OLD PERMIC LETTER YERI|}$2",
+        ],
+        "description": [
+            "Code: U+10370",
+            "Character/Symbol: 𐍰",
+            "Name: OLD PERMIC LETTER YERI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍱 U+10371 OLD PERMIC LETTER YAT": 
+    {
+        "prefix": [
+            "..U.10371",
+            "..U.OLD PERMIC LETTER YAT",
+            "U+10371",
+        ],
+        "body": [
+            "${1|𐍱,&#x10371;,U+10371,0x10371,OLD PERMIC LETTER YAT|}$2",
+        ],
+        "description": [
+            "Code: U+10371",
+            "Character/Symbol: 𐍱",
+            "Name: OLD PERMIC LETTER YAT",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍲 U+10372 OLD PERMIC LETTER IE": 
+    {
+        "prefix": [
+            "..U.10372",
+            "..U.OLD PERMIC LETTER IE",
+            "U+10372",
+        ],
+        "body": [
+            "${1|𐍲,&#x10372;,U+10372,0x10372,OLD PERMIC LETTER IE|}$2",
+        ],
+        "description": [
+            "Code: U+10372",
+            "Character/Symbol: 𐍲",
+            "Name: OLD PERMIC LETTER IE",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍳 U+10373 OLD PERMIC LETTER YU": 
+    {
+        "prefix": [
+            "..U.10373",
+            "..U.OLD PERMIC LETTER YU",
+            "U+10373",
+        ],
+        "body": [
+            "${1|𐍳,&#x10373;,U+10373,0x10373,OLD PERMIC LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+10373",
+            "Character/Symbol: 𐍳",
+            "Name: OLD PERMIC LETTER YU",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍴 U+10374 OLD PERMIC LETTER YA": 
+    {
+        "prefix": [
+            "..U.10374",
+            "..U.OLD PERMIC LETTER YA",
+            "U+10374",
+        ],
+        "body": [
+            "${1|𐍴,&#x10374;,U+10374,0x10374,OLD PERMIC LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+10374",
+            "Character/Symbol: 𐍴",
+            "Name: OLD PERMIC LETTER YA",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍵 U+10375 OLD PERMIC LETTER IA": 
+    {
+        "prefix": [
+            "..U.10375",
+            "..U.OLD PERMIC LETTER IA",
+            "U+10375",
+        ],
+        "body": [
+            "${1|𐍵,&#x10375;,U+10375,0x10375,OLD PERMIC LETTER IA|}$2",
+        ],
+        "description": [
+            "Code: U+10375",
+            "Character/Symbol: 𐍵",
+            "Name: OLD PERMIC LETTER IA",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍶 U+10376 COMBINING OLD PERMIC LETTER AN": 
+    {
+        "prefix": [
+            "..U.10376",
+            "..U.COMBINING OLD PERMIC LETTER AN",
+            "U+10376",
+        ],
+        "body": [
+            "${1|𐍶,&#x10376;,U+10376,0x10376,COMBINING OLD PERMIC LETTER AN|}$2",
+        ],
+        "description": [
+            "Code: U+10376",
+            "Character/Symbol: 𐍶",
+            "Name: COMBINING OLD PERMIC LETTER AN",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍷 U+10377 COMBINING OLD PERMIC LETTER DOI": 
+    {
+        "prefix": [
+            "..U.10377",
+            "..U.COMBINING OLD PERMIC LETTER DOI",
+            "U+10377",
+        ],
+        "body": [
+            "${1|𐍷,&#x10377;,U+10377,0x10377,COMBINING OLD PERMIC LETTER DOI|}$2",
+        ],
+        "description": [
+            "Code: U+10377",
+            "Character/Symbol: 𐍷",
+            "Name: COMBINING OLD PERMIC LETTER DOI",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍸 U+10378 COMBINING OLD PERMIC LETTER ZATA": 
+    {
+        "prefix": [
+            "..U.10378",
+            "..U.COMBINING OLD PERMIC LETTER ZATA",
+            "U+10378",
+        ],
+        "body": [
+            "${1|𐍸,&#x10378;,U+10378,0x10378,COMBINING OLD PERMIC LETTER ZATA|}$2",
+        ],
+        "description": [
+            "Code: U+10378",
+            "Character/Symbol: 𐍸",
+            "Name: COMBINING OLD PERMIC LETTER ZATA",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍹 U+10379 COMBINING OLD PERMIC LETTER NENOE": 
+    {
+        "prefix": [
+            "..U.10379",
+            "..U.COMBINING OLD PERMIC LETTER NENOE",
+            "U+10379",
+        ],
+        "body": [
+            "${1|𐍹,&#x10379;,U+10379,0x10379,COMBINING OLD PERMIC LETTER NENOE|}$2",
+        ],
+        "description": [
+            "Code: U+10379",
+            "Character/Symbol: 𐍹",
+            "Name: COMBINING OLD PERMIC LETTER NENOE",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+    "Unicode 𐍺 U+1037A COMBINING OLD PERMIC LETTER SII": 
+    {
+        "prefix": [
+            "..U.1037A",
+            "..U.COMBINING OLD PERMIC LETTER SII",
+            "U+1037A",
+        ],
+        "body": [
+            "${1|𐍺,&#x1037A;,U+1037A,0x1037A,COMBINING OLD PERMIC LETTER SII|}$2",
+        ],
+        "description": [
+            "Code: U+1037A",
+            "Character/Symbol: 𐍺",
+            "Name: COMBINING OLD PERMIC LETTER SII",
+            "Group/Block: Old_Permic",
+        ],
+    },
+
+}

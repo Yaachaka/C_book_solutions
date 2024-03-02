@@ -1,0 +1,524 @@
+{
+    "Unicode   U+1680 OGHAM SPACE MARK": 
+    {
+        "prefix": [
+            "..U.1680",
+            "..U.OGHAM SPACE MARK",
+            "U+1680",
+        ],
+        "body": [
+            "${1| ,&#x1680;,U+1680,0x1680,OGHAM SPACE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+1680",
+            "Character/Symbol:  ",
+            "Name: OGHAM SPACE MARK",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚁ U+1681 OGHAM LETTER BEITH": 
+    {
+        "prefix": [
+            "..U.1681",
+            "..U.OGHAM LETTER BEITH",
+            "U+1681",
+        ],
+        "body": [
+            "${1|ᚁ,&#x1681;,U+1681,0x1681,OGHAM LETTER BEITH|}$2",
+        ],
+        "description": [
+            "Code: U+1681",
+            "Character/Symbol: ᚁ",
+            "Name: OGHAM LETTER BEITH",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚂ U+1682 OGHAM LETTER LUIS": 
+    {
+        "prefix": [
+            "..U.1682",
+            "..U.OGHAM LETTER LUIS",
+            "U+1682",
+        ],
+        "body": [
+            "${1|ᚂ,&#x1682;,U+1682,0x1682,OGHAM LETTER LUIS|}$2",
+        ],
+        "description": [
+            "Code: U+1682",
+            "Character/Symbol: ᚂ",
+            "Name: OGHAM LETTER LUIS",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚃ U+1683 OGHAM LETTER FEARN": 
+    {
+        "prefix": [
+            "..U.1683",
+            "..U.OGHAM LETTER FEARN",
+            "U+1683",
+        ],
+        "body": [
+            "${1|ᚃ,&#x1683;,U+1683,0x1683,OGHAM LETTER FEARN|}$2",
+        ],
+        "description": [
+            "Code: U+1683",
+            "Character/Symbol: ᚃ",
+            "Name: OGHAM LETTER FEARN",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚄ U+1684 OGHAM LETTER SAIL": 
+    {
+        "prefix": [
+            "..U.1684",
+            "..U.OGHAM LETTER SAIL",
+            "U+1684",
+        ],
+        "body": [
+            "${1|ᚄ,&#x1684;,U+1684,0x1684,OGHAM LETTER SAIL|}$2",
+        ],
+        "description": [
+            "Code: U+1684",
+            "Character/Symbol: ᚄ",
+            "Name: OGHAM LETTER SAIL",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚅ U+1685 OGHAM LETTER NION": 
+    {
+        "prefix": [
+            "..U.1685",
+            "..U.OGHAM LETTER NION",
+            "U+1685",
+        ],
+        "body": [
+            "${1|ᚅ,&#x1685;,U+1685,0x1685,OGHAM LETTER NION|}$2",
+        ],
+        "description": [
+            "Code: U+1685",
+            "Character/Symbol: ᚅ",
+            "Name: OGHAM LETTER NION",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚆ U+1686 OGHAM LETTER UATH": 
+    {
+        "prefix": [
+            "..U.1686",
+            "..U.OGHAM LETTER UATH",
+            "U+1686",
+        ],
+        "body": [
+            "${1|ᚆ,&#x1686;,U+1686,0x1686,OGHAM LETTER UATH|}$2",
+        ],
+        "description": [
+            "Code: U+1686",
+            "Character/Symbol: ᚆ",
+            "Name: OGHAM LETTER UATH",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚇ U+1687 OGHAM LETTER DAIR": 
+    {
+        "prefix": [
+            "..U.1687",
+            "..U.OGHAM LETTER DAIR",
+            "U+1687",
+        ],
+        "body": [
+            "${1|ᚇ,&#x1687;,U+1687,0x1687,OGHAM LETTER DAIR|}$2",
+        ],
+        "description": [
+            "Code: U+1687",
+            "Character/Symbol: ᚇ",
+            "Name: OGHAM LETTER DAIR",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚈ U+1688 OGHAM LETTER TINNE": 
+    {
+        "prefix": [
+            "..U.1688",
+            "..U.OGHAM LETTER TINNE",
+            "U+1688",
+        ],
+        "body": [
+            "${1|ᚈ,&#x1688;,U+1688,0x1688,OGHAM LETTER TINNE|}$2",
+        ],
+        "description": [
+            "Code: U+1688",
+            "Character/Symbol: ᚈ",
+            "Name: OGHAM LETTER TINNE",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚉ U+1689 OGHAM LETTER COLL": 
+    {
+        "prefix": [
+            "..U.1689",
+            "..U.OGHAM LETTER COLL",
+            "U+1689",
+        ],
+        "body": [
+            "${1|ᚉ,&#x1689;,U+1689,0x1689,OGHAM LETTER COLL|}$2",
+        ],
+        "description": [
+            "Code: U+1689",
+            "Character/Symbol: ᚉ",
+            "Name: OGHAM LETTER COLL",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚊ U+168A OGHAM LETTER CEIRT": 
+    {
+        "prefix": [
+            "..U.168A",
+            "..U.OGHAM LETTER CEIRT",
+            "U+168A",
+        ],
+        "body": [
+            "${1|ᚊ,&#x168A;,U+168A,0x168A,OGHAM LETTER CEIRT|}$2",
+        ],
+        "description": [
+            "Code: U+168A",
+            "Character/Symbol: ᚊ",
+            "Name: OGHAM LETTER CEIRT",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚋ U+168B OGHAM LETTER MUIN": 
+    {
+        "prefix": [
+            "..U.168B",
+            "..U.OGHAM LETTER MUIN",
+            "U+168B",
+        ],
+        "body": [
+            "${1|ᚋ,&#x168B;,U+168B,0x168B,OGHAM LETTER MUIN|}$2",
+        ],
+        "description": [
+            "Code: U+168B",
+            "Character/Symbol: ᚋ",
+            "Name: OGHAM LETTER MUIN",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚌ U+168C OGHAM LETTER GORT": 
+    {
+        "prefix": [
+            "..U.168C",
+            "..U.OGHAM LETTER GORT",
+            "U+168C",
+        ],
+        "body": [
+            "${1|ᚌ,&#x168C;,U+168C,0x168C,OGHAM LETTER GORT|}$2",
+        ],
+        "description": [
+            "Code: U+168C",
+            "Character/Symbol: ᚌ",
+            "Name: OGHAM LETTER GORT",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚍ U+168D OGHAM LETTER NGEADAL": 
+    {
+        "prefix": [
+            "..U.168D",
+            "..U.OGHAM LETTER NGEADAL",
+            "U+168D",
+        ],
+        "body": [
+            "${1|ᚍ,&#x168D;,U+168D,0x168D,OGHAM LETTER NGEADAL|}$2",
+        ],
+        "description": [
+            "Code: U+168D",
+            "Character/Symbol: ᚍ",
+            "Name: OGHAM LETTER NGEADAL",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚎ U+168E OGHAM LETTER STRAIF": 
+    {
+        "prefix": [
+            "..U.168E",
+            "..U.OGHAM LETTER STRAIF",
+            "U+168E",
+        ],
+        "body": [
+            "${1|ᚎ,&#x168E;,U+168E,0x168E,OGHAM LETTER STRAIF|}$2",
+        ],
+        "description": [
+            "Code: U+168E",
+            "Character/Symbol: ᚎ",
+            "Name: OGHAM LETTER STRAIF",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚏ U+168F OGHAM LETTER RUIS": 
+    {
+        "prefix": [
+            "..U.168F",
+            "..U.OGHAM LETTER RUIS",
+            "U+168F",
+        ],
+        "body": [
+            "${1|ᚏ,&#x168F;,U+168F,0x168F,OGHAM LETTER RUIS|}$2",
+        ],
+        "description": [
+            "Code: U+168F",
+            "Character/Symbol: ᚏ",
+            "Name: OGHAM LETTER RUIS",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚐ U+1690 OGHAM LETTER AILM": 
+    {
+        "prefix": [
+            "..U.1690",
+            "..U.OGHAM LETTER AILM",
+            "U+1690",
+        ],
+        "body": [
+            "${1|ᚐ,&#x1690;,U+1690,0x1690,OGHAM LETTER AILM|}$2",
+        ],
+        "description": [
+            "Code: U+1690",
+            "Character/Symbol: ᚐ",
+            "Name: OGHAM LETTER AILM",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚑ U+1691 OGHAM LETTER ONN": 
+    {
+        "prefix": [
+            "..U.1691",
+            "..U.OGHAM LETTER ONN",
+            "U+1691",
+        ],
+        "body": [
+            "${1|ᚑ,&#x1691;,U+1691,0x1691,OGHAM LETTER ONN|}$2",
+        ],
+        "description": [
+            "Code: U+1691",
+            "Character/Symbol: ᚑ",
+            "Name: OGHAM LETTER ONN",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚒ U+1692 OGHAM LETTER UR": 
+    {
+        "prefix": [
+            "..U.1692",
+            "..U.OGHAM LETTER UR",
+            "U+1692",
+        ],
+        "body": [
+            "${1|ᚒ,&#x1692;,U+1692,0x1692,OGHAM LETTER UR|}$2",
+        ],
+        "description": [
+            "Code: U+1692",
+            "Character/Symbol: ᚒ",
+            "Name: OGHAM LETTER UR",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚓ U+1693 OGHAM LETTER EADHADH": 
+    {
+        "prefix": [
+            "..U.1693",
+            "..U.OGHAM LETTER EADHADH",
+            "U+1693",
+        ],
+        "body": [
+            "${1|ᚓ,&#x1693;,U+1693,0x1693,OGHAM LETTER EADHADH|}$2",
+        ],
+        "description": [
+            "Code: U+1693",
+            "Character/Symbol: ᚓ",
+            "Name: OGHAM LETTER EADHADH",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚔ U+1694 OGHAM LETTER IODHADH": 
+    {
+        "prefix": [
+            "..U.1694",
+            "..U.OGHAM LETTER IODHADH",
+            "U+1694",
+        ],
+        "body": [
+            "${1|ᚔ,&#x1694;,U+1694,0x1694,OGHAM LETTER IODHADH|}$2",
+        ],
+        "description": [
+            "Code: U+1694",
+            "Character/Symbol: ᚔ",
+            "Name: OGHAM LETTER IODHADH",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚕ U+1695 OGHAM LETTER EABHADH": 
+    {
+        "prefix": [
+            "..U.1695",
+            "..U.OGHAM LETTER EABHADH",
+            "U+1695",
+        ],
+        "body": [
+            "${1|ᚕ,&#x1695;,U+1695,0x1695,OGHAM LETTER EABHADH|}$2",
+        ],
+        "description": [
+            "Code: U+1695",
+            "Character/Symbol: ᚕ",
+            "Name: OGHAM LETTER EABHADH",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚖ U+1696 OGHAM LETTER OR": 
+    {
+        "prefix": [
+            "..U.1696",
+            "..U.OGHAM LETTER OR",
+            "U+1696",
+        ],
+        "body": [
+            "${1|ᚖ,&#x1696;,U+1696,0x1696,OGHAM LETTER OR|}$2",
+        ],
+        "description": [
+            "Code: U+1696",
+            "Character/Symbol: ᚖ",
+            "Name: OGHAM LETTER OR",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚗ U+1697 OGHAM LETTER UILLEANN": 
+    {
+        "prefix": [
+            "..U.1697",
+            "..U.OGHAM LETTER UILLEANN",
+            "U+1697",
+        ],
+        "body": [
+            "${1|ᚗ,&#x1697;,U+1697,0x1697,OGHAM LETTER UILLEANN|}$2",
+        ],
+        "description": [
+            "Code: U+1697",
+            "Character/Symbol: ᚗ",
+            "Name: OGHAM LETTER UILLEANN",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚘ U+1698 OGHAM LETTER IFIN": 
+    {
+        "prefix": [
+            "..U.1698",
+            "..U.OGHAM LETTER IFIN",
+            "U+1698",
+        ],
+        "body": [
+            "${1|ᚘ,&#x1698;,U+1698,0x1698,OGHAM LETTER IFIN|}$2",
+        ],
+        "description": [
+            "Code: U+1698",
+            "Character/Symbol: ᚘ",
+            "Name: OGHAM LETTER IFIN",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚙ U+1699 OGHAM LETTER EAMHANCHOLL": 
+    {
+        "prefix": [
+            "..U.1699",
+            "..U.OGHAM LETTER EAMHANCHOLL",
+            "U+1699",
+        ],
+        "body": [
+            "${1|ᚙ,&#x1699;,U+1699,0x1699,OGHAM LETTER EAMHANCHOLL|}$2",
+        ],
+        "description": [
+            "Code: U+1699",
+            "Character/Symbol: ᚙ",
+            "Name: OGHAM LETTER EAMHANCHOLL",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚚ U+169A OGHAM LETTER PEITH": 
+    {
+        "prefix": [
+            "..U.169A",
+            "..U.OGHAM LETTER PEITH",
+            "U+169A",
+        ],
+        "body": [
+            "${1|ᚚ,&#x169A;,U+169A,0x169A,OGHAM LETTER PEITH|}$2",
+        ],
+        "description": [
+            "Code: U+169A",
+            "Character/Symbol: ᚚ",
+            "Name: OGHAM LETTER PEITH",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚛ U+169B OGHAM FEATHER MARK": 
+    {
+        "prefix": [
+            "..U.169B",
+            "..U.OGHAM FEATHER MARK",
+            "U+169B",
+        ],
+        "body": [
+            "${1|᚛,&#x169B;,U+169B,0x169B,OGHAM FEATHER MARK|}$2",
+        ],
+        "description": [
+            "Code: U+169B",
+            "Character/Symbol: ᚛",
+            "Name: OGHAM FEATHER MARK",
+            "Group/Block: Ogham",
+        ],
+    },
+
+    "Unicode ᚜ U+169C OGHAM REVERSED FEATHER MARK": 
+    {
+        "prefix": [
+            "..U.169C",
+            "..U.OGHAM REVERSED FEATHER MARK",
+            "U+169C",
+        ],
+        "body": [
+            "${1|᚜,&#x169C;,U+169C,0x169C,OGHAM REVERSED FEATHER MARK|}$2",
+        ],
+        "description": [
+            "Code: U+169C",
+            "Character/Symbol: ᚜",
+            "Name: OGHAM REVERSED FEATHER MARK",
+            "Group/Block: Ogham",
+        ],
+    },
+
+}

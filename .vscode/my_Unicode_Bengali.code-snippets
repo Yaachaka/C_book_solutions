@@ -1,0 +1,1730 @@
+{
+    "Unicode ঀ U+0980 BENGALI ANJI": 
+    {
+        "prefix": [
+            "..U.0980",
+            "..U.BENGALI ANJI",
+            "U+0980",
+        ],
+        "body": [
+            "${1|ঀ,&#x0980;,U+0980,0x0980,BENGALI ANJI|}$2",
+        ],
+        "description": [
+            "Code: U+0980",
+            "Character/Symbol: ঀ",
+            "Name: BENGALI ANJI",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঁ U+0981 BENGALI SIGN CANDRABINDU": 
+    {
+        "prefix": [
+            "..U.0981",
+            "..U.BENGALI SIGN CANDRABINDU",
+            "U+0981",
+        ],
+        "body": [
+            "${1|ঁ,&#x0981;,U+0981,0x0981,BENGALI SIGN CANDRABINDU|}$2",
+        ],
+        "description": [
+            "Code: U+0981",
+            "Character/Symbol: ঁ",
+            "Name: BENGALI SIGN CANDRABINDU",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ং U+0982 BENGALI SIGN ANUSVARA": 
+    {
+        "prefix": [
+            "..U.0982",
+            "..U.BENGALI SIGN ANUSVARA",
+            "U+0982",
+        ],
+        "body": [
+            "${1|ং,&#x0982;,U+0982,0x0982,BENGALI SIGN ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+0982",
+            "Character/Symbol: ং",
+            "Name: BENGALI SIGN ANUSVARA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঃ U+0983 BENGALI SIGN VISARGA": 
+    {
+        "prefix": [
+            "..U.0983",
+            "..U.BENGALI SIGN VISARGA",
+            "U+0983",
+        ],
+        "body": [
+            "${1|ঃ,&#x0983;,U+0983,0x0983,BENGALI SIGN VISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+0983",
+            "Character/Symbol: ঃ",
+            "Name: BENGALI SIGN VISARGA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode অ U+0985 BENGALI LETTER A": 
+    {
+        "prefix": [
+            "..U.0985",
+            "..U.BENGALI LETTER A",
+            "U+0985",
+        ],
+        "body": [
+            "${1|অ,&#x0985;,U+0985,0x0985,BENGALI LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+0985",
+            "Character/Symbol: অ",
+            "Name: BENGALI LETTER A",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode আ U+0986 BENGALI LETTER AA": 
+    {
+        "prefix": [
+            "..U.0986",
+            "..U.BENGALI LETTER AA",
+            "U+0986",
+        ],
+        "body": [
+            "${1|আ,&#x0986;,U+0986,0x0986,BENGALI LETTER AA|}$2",
+        ],
+        "description": [
+            "Code: U+0986",
+            "Character/Symbol: আ",
+            "Name: BENGALI LETTER AA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ই U+0987 BENGALI LETTER I": 
+    {
+        "prefix": [
+            "..U.0987",
+            "..U.BENGALI LETTER I",
+            "U+0987",
+        ],
+        "body": [
+            "${1|ই,&#x0987;,U+0987,0x0987,BENGALI LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+0987",
+            "Character/Symbol: ই",
+            "Name: BENGALI LETTER I",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঈ U+0988 BENGALI LETTER II": 
+    {
+        "prefix": [
+            "..U.0988",
+            "..U.BENGALI LETTER II",
+            "U+0988",
+        ],
+        "body": [
+            "${1|ঈ,&#x0988;,U+0988,0x0988,BENGALI LETTER II|}$2",
+        ],
+        "description": [
+            "Code: U+0988",
+            "Character/Symbol: ঈ",
+            "Name: BENGALI LETTER II",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode উ U+0989 BENGALI LETTER U": 
+    {
+        "prefix": [
+            "..U.0989",
+            "..U.BENGALI LETTER U",
+            "U+0989",
+        ],
+        "body": [
+            "${1|উ,&#x0989;,U+0989,0x0989,BENGALI LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+0989",
+            "Character/Symbol: উ",
+            "Name: BENGALI LETTER U",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঊ U+098A BENGALI LETTER UU": 
+    {
+        "prefix": [
+            "..U.098A",
+            "..U.BENGALI LETTER UU",
+            "U+098A",
+        ],
+        "body": [
+            "${1|ঊ,&#x098A;,U+098A,0x098A,BENGALI LETTER UU|}$2",
+        ],
+        "description": [
+            "Code: U+098A",
+            "Character/Symbol: ঊ",
+            "Name: BENGALI LETTER UU",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঋ U+098B BENGALI LETTER VOCALIC R": 
+    {
+        "prefix": [
+            "..U.098B",
+            "..U.BENGALI LETTER VOCALIC R",
+            "U+098B",
+        ],
+        "body": [
+            "${1|ঋ,&#x098B;,U+098B,0x098B,BENGALI LETTER VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+098B",
+            "Character/Symbol: ঋ",
+            "Name: BENGALI LETTER VOCALIC R",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঌ U+098C BENGALI LETTER VOCALIC L": 
+    {
+        "prefix": [
+            "..U.098C",
+            "..U.BENGALI LETTER VOCALIC L",
+            "U+098C",
+        ],
+        "body": [
+            "${1|ঌ,&#x098C;,U+098C,0x098C,BENGALI LETTER VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+098C",
+            "Character/Symbol: ঌ",
+            "Name: BENGALI LETTER VOCALIC L",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode এ U+098F BENGALI LETTER E": 
+    {
+        "prefix": [
+            "..U.098F",
+            "..U.BENGALI LETTER E",
+            "U+098F",
+        ],
+        "body": [
+            "${1|এ,&#x098F;,U+098F,0x098F,BENGALI LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+098F",
+            "Character/Symbol: এ",
+            "Name: BENGALI LETTER E",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঐ U+0990 BENGALI LETTER AI": 
+    {
+        "prefix": [
+            "..U.0990",
+            "..U.BENGALI LETTER AI",
+            "U+0990",
+        ],
+        "body": [
+            "${1|ঐ,&#x0990;,U+0990,0x0990,BENGALI LETTER AI|}$2",
+        ],
+        "description": [
+            "Code: U+0990",
+            "Character/Symbol: ঐ",
+            "Name: BENGALI LETTER AI",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ও U+0993 BENGALI LETTER O": 
+    {
+        "prefix": [
+            "..U.0993",
+            "..U.BENGALI LETTER O",
+            "U+0993",
+        ],
+        "body": [
+            "${1|ও,&#x0993;,U+0993,0x0993,BENGALI LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+0993",
+            "Character/Symbol: ও",
+            "Name: BENGALI LETTER O",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঔ U+0994 BENGALI LETTER AU": 
+    {
+        "prefix": [
+            "..U.0994",
+            "..U.BENGALI LETTER AU",
+            "U+0994",
+        ],
+        "body": [
+            "${1|ঔ,&#x0994;,U+0994,0x0994,BENGALI LETTER AU|}$2",
+        ],
+        "description": [
+            "Code: U+0994",
+            "Character/Symbol: ঔ",
+            "Name: BENGALI LETTER AU",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ক U+0995 BENGALI LETTER KA": 
+    {
+        "prefix": [
+            "..U.0995",
+            "..U.BENGALI LETTER KA",
+            "U+0995",
+        ],
+        "body": [
+            "${1|ক,&#x0995;,U+0995,0x0995,BENGALI LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+0995",
+            "Character/Symbol: ক",
+            "Name: BENGALI LETTER KA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode খ U+0996 BENGALI LETTER KHA": 
+    {
+        "prefix": [
+            "..U.0996",
+            "..U.BENGALI LETTER KHA",
+            "U+0996",
+        ],
+        "body": [
+            "${1|খ,&#x0996;,U+0996,0x0996,BENGALI LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+0996",
+            "Character/Symbol: খ",
+            "Name: BENGALI LETTER KHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode গ U+0997 BENGALI LETTER GA": 
+    {
+        "prefix": [
+            "..U.0997",
+            "..U.BENGALI LETTER GA",
+            "U+0997",
+        ],
+        "body": [
+            "${1|গ,&#x0997;,U+0997,0x0997,BENGALI LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+0997",
+            "Character/Symbol: গ",
+            "Name: BENGALI LETTER GA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঘ U+0998 BENGALI LETTER GHA": 
+    {
+        "prefix": [
+            "..U.0998",
+            "..U.BENGALI LETTER GHA",
+            "U+0998",
+        ],
+        "body": [
+            "${1|ঘ,&#x0998;,U+0998,0x0998,BENGALI LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+0998",
+            "Character/Symbol: ঘ",
+            "Name: BENGALI LETTER GHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঙ U+0999 BENGALI LETTER NGA": 
+    {
+        "prefix": [
+            "..U.0999",
+            "..U.BENGALI LETTER NGA",
+            "U+0999",
+        ],
+        "body": [
+            "${1|ঙ,&#x0999;,U+0999,0x0999,BENGALI LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+0999",
+            "Character/Symbol: ঙ",
+            "Name: BENGALI LETTER NGA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode চ U+099A BENGALI LETTER CA": 
+    {
+        "prefix": [
+            "..U.099A",
+            "..U.BENGALI LETTER CA",
+            "U+099A",
+        ],
+        "body": [
+            "${1|চ,&#x099A;,U+099A,0x099A,BENGALI LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+099A",
+            "Character/Symbol: চ",
+            "Name: BENGALI LETTER CA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ছ U+099B BENGALI LETTER CHA": 
+    {
+        "prefix": [
+            "..U.099B",
+            "..U.BENGALI LETTER CHA",
+            "U+099B",
+        ],
+        "body": [
+            "${1|ছ,&#x099B;,U+099B,0x099B,BENGALI LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+099B",
+            "Character/Symbol: ছ",
+            "Name: BENGALI LETTER CHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode জ U+099C BENGALI LETTER JA": 
+    {
+        "prefix": [
+            "..U.099C",
+            "..U.BENGALI LETTER JA",
+            "U+099C",
+        ],
+        "body": [
+            "${1|জ,&#x099C;,U+099C,0x099C,BENGALI LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+099C",
+            "Character/Symbol: জ",
+            "Name: BENGALI LETTER JA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঝ U+099D BENGALI LETTER JHA": 
+    {
+        "prefix": [
+            "..U.099D",
+            "..U.BENGALI LETTER JHA",
+            "U+099D",
+        ],
+        "body": [
+            "${1|ঝ,&#x099D;,U+099D,0x099D,BENGALI LETTER JHA|}$2",
+        ],
+        "description": [
+            "Code: U+099D",
+            "Character/Symbol: ঝ",
+            "Name: BENGALI LETTER JHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঞ U+099E BENGALI LETTER NYA": 
+    {
+        "prefix": [
+            "..U.099E",
+            "..U.BENGALI LETTER NYA",
+            "U+099E",
+        ],
+        "body": [
+            "${1|ঞ,&#x099E;,U+099E,0x099E,BENGALI LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+099E",
+            "Character/Symbol: ঞ",
+            "Name: BENGALI LETTER NYA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ট U+099F BENGALI LETTER TTA": 
+    {
+        "prefix": [
+            "..U.099F",
+            "..U.BENGALI LETTER TTA",
+            "U+099F",
+        ],
+        "body": [
+            "${1|ট,&#x099F;,U+099F,0x099F,BENGALI LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+099F",
+            "Character/Symbol: ট",
+            "Name: BENGALI LETTER TTA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঠ U+09A0 BENGALI LETTER TTHA": 
+    {
+        "prefix": [
+            "..U.09A0",
+            "..U.BENGALI LETTER TTHA",
+            "U+09A0",
+        ],
+        "body": [
+            "${1|ঠ,&#x09A0;,U+09A0,0x09A0,BENGALI LETTER TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+09A0",
+            "Character/Symbol: ঠ",
+            "Name: BENGALI LETTER TTHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ড U+09A1 BENGALI LETTER DDA": 
+    {
+        "prefix": [
+            "..U.09A1",
+            "..U.BENGALI LETTER DDA",
+            "U+09A1",
+        ],
+        "body": [
+            "${1|ড,&#x09A1;,U+09A1,0x09A1,BENGALI LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+09A1",
+            "Character/Symbol: ড",
+            "Name: BENGALI LETTER DDA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঢ U+09A2 BENGALI LETTER DDHA": 
+    {
+        "prefix": [
+            "..U.09A2",
+            "..U.BENGALI LETTER DDHA",
+            "U+09A2",
+        ],
+        "body": [
+            "${1|ঢ,&#x09A2;,U+09A2,0x09A2,BENGALI LETTER DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+09A2",
+            "Character/Symbol: ঢ",
+            "Name: BENGALI LETTER DDHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ণ U+09A3 BENGALI LETTER NNA": 
+    {
+        "prefix": [
+            "..U.09A3",
+            "..U.BENGALI LETTER NNA",
+            "U+09A3",
+        ],
+        "body": [
+            "${1|ণ,&#x09A3;,U+09A3,0x09A3,BENGALI LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+09A3",
+            "Character/Symbol: ণ",
+            "Name: BENGALI LETTER NNA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ত U+09A4 BENGALI LETTER TA": 
+    {
+        "prefix": [
+            "..U.09A4",
+            "..U.BENGALI LETTER TA",
+            "U+09A4",
+        ],
+        "body": [
+            "${1|ত,&#x09A4;,U+09A4,0x09A4,BENGALI LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+09A4",
+            "Character/Symbol: ত",
+            "Name: BENGALI LETTER TA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode থ U+09A5 BENGALI LETTER THA": 
+    {
+        "prefix": [
+            "..U.09A5",
+            "..U.BENGALI LETTER THA",
+            "U+09A5",
+        ],
+        "body": [
+            "${1|থ,&#x09A5;,U+09A5,0x09A5,BENGALI LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+09A5",
+            "Character/Symbol: থ",
+            "Name: BENGALI LETTER THA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode দ U+09A6 BENGALI LETTER DA": 
+    {
+        "prefix": [
+            "..U.09A6",
+            "..U.BENGALI LETTER DA",
+            "U+09A6",
+        ],
+        "body": [
+            "${1|দ,&#x09A6;,U+09A6,0x09A6,BENGALI LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+09A6",
+            "Character/Symbol: দ",
+            "Name: BENGALI LETTER DA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ধ U+09A7 BENGALI LETTER DHA": 
+    {
+        "prefix": [
+            "..U.09A7",
+            "..U.BENGALI LETTER DHA",
+            "U+09A7",
+        ],
+        "body": [
+            "${1|ধ,&#x09A7;,U+09A7,0x09A7,BENGALI LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+09A7",
+            "Character/Symbol: ধ",
+            "Name: BENGALI LETTER DHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ন U+09A8 BENGALI LETTER NA": 
+    {
+        "prefix": [
+            "..U.09A8",
+            "..U.BENGALI LETTER NA",
+            "U+09A8",
+        ],
+        "body": [
+            "${1|ন,&#x09A8;,U+09A8,0x09A8,BENGALI LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+09A8",
+            "Character/Symbol: ন",
+            "Name: BENGALI LETTER NA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode প U+09AA BENGALI LETTER PA": 
+    {
+        "prefix": [
+            "..U.09AA",
+            "..U.BENGALI LETTER PA",
+            "U+09AA",
+        ],
+        "body": [
+            "${1|প,&#x09AA;,U+09AA,0x09AA,BENGALI LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+09AA",
+            "Character/Symbol: প",
+            "Name: BENGALI LETTER PA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ফ U+09AB BENGALI LETTER PHA": 
+    {
+        "prefix": [
+            "..U.09AB",
+            "..U.BENGALI LETTER PHA",
+            "U+09AB",
+        ],
+        "body": [
+            "${1|ফ,&#x09AB;,U+09AB,0x09AB,BENGALI LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+09AB",
+            "Character/Symbol: ফ",
+            "Name: BENGALI LETTER PHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ব U+09AC BENGALI LETTER BA": 
+    {
+        "prefix": [
+            "..U.09AC",
+            "..U.BENGALI LETTER BA",
+            "U+09AC",
+        ],
+        "body": [
+            "${1|ব,&#x09AC;,U+09AC,0x09AC,BENGALI LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+09AC",
+            "Character/Symbol: ব",
+            "Name: BENGALI LETTER BA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ভ U+09AD BENGALI LETTER BHA": 
+    {
+        "prefix": [
+            "..U.09AD",
+            "..U.BENGALI LETTER BHA",
+            "U+09AD",
+        ],
+        "body": [
+            "${1|ভ,&#x09AD;,U+09AD,0x09AD,BENGALI LETTER BHA|}$2",
+        ],
+        "description": [
+            "Code: U+09AD",
+            "Character/Symbol: ভ",
+            "Name: BENGALI LETTER BHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ম U+09AE BENGALI LETTER MA": 
+    {
+        "prefix": [
+            "..U.09AE",
+            "..U.BENGALI LETTER MA",
+            "U+09AE",
+        ],
+        "body": [
+            "${1|ম,&#x09AE;,U+09AE,0x09AE,BENGALI LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+09AE",
+            "Character/Symbol: ম",
+            "Name: BENGALI LETTER MA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode য U+09AF BENGALI LETTER YA": 
+    {
+        "prefix": [
+            "..U.09AF",
+            "..U.BENGALI LETTER YA",
+            "U+09AF",
+        ],
+        "body": [
+            "${1|য,&#x09AF;,U+09AF,0x09AF,BENGALI LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+09AF",
+            "Character/Symbol: য",
+            "Name: BENGALI LETTER YA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode র U+09B0 BENGALI LETTER RA": 
+    {
+        "prefix": [
+            "..U.09B0",
+            "..U.BENGALI LETTER RA",
+            "U+09B0",
+        ],
+        "body": [
+            "${1|র,&#x09B0;,U+09B0,0x09B0,BENGALI LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+09B0",
+            "Character/Symbol: র",
+            "Name: BENGALI LETTER RA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ল U+09B2 BENGALI LETTER LA": 
+    {
+        "prefix": [
+            "..U.09B2",
+            "..U.BENGALI LETTER LA",
+            "U+09B2",
+        ],
+        "body": [
+            "${1|ল,&#x09B2;,U+09B2,0x09B2,BENGALI LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+09B2",
+            "Character/Symbol: ল",
+            "Name: BENGALI LETTER LA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode শ U+09B6 BENGALI LETTER SHA": 
+    {
+        "prefix": [
+            "..U.09B6",
+            "..U.BENGALI LETTER SHA",
+            "U+09B6",
+        ],
+        "body": [
+            "${1|শ,&#x09B6;,U+09B6,0x09B6,BENGALI LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+09B6",
+            "Character/Symbol: শ",
+            "Name: BENGALI LETTER SHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ষ U+09B7 BENGALI LETTER SSA": 
+    {
+        "prefix": [
+            "..U.09B7",
+            "..U.BENGALI LETTER SSA",
+            "U+09B7",
+        ],
+        "body": [
+            "${1|ষ,&#x09B7;,U+09B7,0x09B7,BENGALI LETTER SSA|}$2",
+        ],
+        "description": [
+            "Code: U+09B7",
+            "Character/Symbol: ষ",
+            "Name: BENGALI LETTER SSA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode স U+09B8 BENGALI LETTER SA": 
+    {
+        "prefix": [
+            "..U.09B8",
+            "..U.BENGALI LETTER SA",
+            "U+09B8",
+        ],
+        "body": [
+            "${1|স,&#x09B8;,U+09B8,0x09B8,BENGALI LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+09B8",
+            "Character/Symbol: স",
+            "Name: BENGALI LETTER SA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode হ U+09B9 BENGALI LETTER HA": 
+    {
+        "prefix": [
+            "..U.09B9",
+            "..U.BENGALI LETTER HA",
+            "U+09B9",
+        ],
+        "body": [
+            "${1|হ,&#x09B9;,U+09B9,0x09B9,BENGALI LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+09B9",
+            "Character/Symbol: হ",
+            "Name: BENGALI LETTER HA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ় U+09BC BENGALI SIGN NUKTA": 
+    {
+        "prefix": [
+            "..U.09BC",
+            "..U.BENGALI SIGN NUKTA",
+            "U+09BC",
+        ],
+        "body": [
+            "${1|়,&#x09BC;,U+09BC,0x09BC,BENGALI SIGN NUKTA|}$2",
+        ],
+        "description": [
+            "Code: U+09BC",
+            "Character/Symbol: ়",
+            "Name: BENGALI SIGN NUKTA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঽ U+09BD BENGALI SIGN AVAGRAHA": 
+    {
+        "prefix": [
+            "..U.09BD",
+            "..U.BENGALI SIGN AVAGRAHA",
+            "U+09BD",
+        ],
+        "body": [
+            "${1|ঽ,&#x09BD;,U+09BD,0x09BD,BENGALI SIGN AVAGRAHA|}$2",
+        ],
+        "description": [
+            "Code: U+09BD",
+            "Character/Symbol: ঽ",
+            "Name: BENGALI SIGN AVAGRAHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode া U+09BE BENGALI VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.09BE",
+            "..U.BENGALI VOWEL SIGN AA",
+            "U+09BE",
+        ],
+        "body": [
+            "${1|া,&#x09BE;,U+09BE,0x09BE,BENGALI VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+09BE",
+            "Character/Symbol: া",
+            "Name: BENGALI VOWEL SIGN AA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ি U+09BF BENGALI VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.09BF",
+            "..U.BENGALI VOWEL SIGN I",
+            "U+09BF",
+        ],
+        "body": [
+            "${1|ি,&#x09BF;,U+09BF,0x09BF,BENGALI VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+09BF",
+            "Character/Symbol: ি",
+            "Name: BENGALI VOWEL SIGN I",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ী U+09C0 BENGALI VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.09C0",
+            "..U.BENGALI VOWEL SIGN II",
+            "U+09C0",
+        ],
+        "body": [
+            "${1|ী,&#x09C0;,U+09C0,0x09C0,BENGALI VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+09C0",
+            "Character/Symbol: ী",
+            "Name: BENGALI VOWEL SIGN II",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ু U+09C1 BENGALI VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.09C1",
+            "..U.BENGALI VOWEL SIGN U",
+            "U+09C1",
+        ],
+        "body": [
+            "${1|ু,&#x09C1;,U+09C1,0x09C1,BENGALI VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+09C1",
+            "Character/Symbol: ু",
+            "Name: BENGALI VOWEL SIGN U",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ূ U+09C2 BENGALI VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.09C2",
+            "..U.BENGALI VOWEL SIGN UU",
+            "U+09C2",
+        ],
+        "body": [
+            "${1|ূ,&#x09C2;,U+09C2,0x09C2,BENGALI VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+09C2",
+            "Character/Symbol: ূ",
+            "Name: BENGALI VOWEL SIGN UU",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৃ U+09C3 BENGALI VOWEL SIGN VOCALIC R": 
+    {
+        "prefix": [
+            "..U.09C3",
+            "..U.BENGALI VOWEL SIGN VOCALIC R",
+            "U+09C3",
+        ],
+        "body": [
+            "${1|ৃ,&#x09C3;,U+09C3,0x09C3,BENGALI VOWEL SIGN VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+09C3",
+            "Character/Symbol: ৃ",
+            "Name: BENGALI VOWEL SIGN VOCALIC R",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৄ U+09C4 BENGALI VOWEL SIGN VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.09C4",
+            "..U.BENGALI VOWEL SIGN VOCALIC RR",
+            "U+09C4",
+        ],
+        "body": [
+            "${1|ৄ,&#x09C4;,U+09C4,0x09C4,BENGALI VOWEL SIGN VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+09C4",
+            "Character/Symbol: ৄ",
+            "Name: BENGALI VOWEL SIGN VOCALIC RR",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ে U+09C7 BENGALI VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.09C7",
+            "..U.BENGALI VOWEL SIGN E",
+            "U+09C7",
+        ],
+        "body": [
+            "${1|ে,&#x09C7;,U+09C7,0x09C7,BENGALI VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+09C7",
+            "Character/Symbol: ে",
+            "Name: BENGALI VOWEL SIGN E",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৈ U+09C8 BENGALI VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.09C8",
+            "..U.BENGALI VOWEL SIGN AI",
+            "U+09C8",
+        ],
+        "body": [
+            "${1|ৈ,&#x09C8;,U+09C8,0x09C8,BENGALI VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+09C8",
+            "Character/Symbol: ৈ",
+            "Name: BENGALI VOWEL SIGN AI",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ো U+09CB BENGALI VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.09CB",
+            "..U.BENGALI VOWEL SIGN O",
+            "U+09CB",
+        ],
+        "body": [
+            "${1|ো,&#x09CB;,U+09CB,0x09CB,BENGALI VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+09CB",
+            "Character/Symbol: ো",
+            "Name: BENGALI VOWEL SIGN O",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৌ U+09CC BENGALI VOWEL SIGN AU": 
+    {
+        "prefix": [
+            "..U.09CC",
+            "..U.BENGALI VOWEL SIGN AU",
+            "U+09CC",
+        ],
+        "body": [
+            "${1|ৌ,&#x09CC;,U+09CC,0x09CC,BENGALI VOWEL SIGN AU|}$2",
+        ],
+        "description": [
+            "Code: U+09CC",
+            "Character/Symbol: ৌ",
+            "Name: BENGALI VOWEL SIGN AU",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ্ U+09CD BENGALI SIGN VIRAMA": 
+    {
+        "prefix": [
+            "..U.09CD",
+            "..U.BENGALI SIGN VIRAMA",
+            "U+09CD",
+        ],
+        "body": [
+            "${1|্,&#x09CD;,U+09CD,0x09CD,BENGALI SIGN VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+09CD",
+            "Character/Symbol: ্",
+            "Name: BENGALI SIGN VIRAMA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৎ U+09CE BENGALI LETTER KHANDA TA": 
+    {
+        "prefix": [
+            "..U.09CE",
+            "..U.BENGALI LETTER KHANDA TA",
+            "U+09CE",
+        ],
+        "body": [
+            "${1|ৎ,&#x09CE;,U+09CE,0x09CE,BENGALI LETTER KHANDA TA|}$2",
+        ],
+        "description": [
+            "Code: U+09CE",
+            "Character/Symbol: ৎ",
+            "Name: BENGALI LETTER KHANDA TA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৗ U+09D7 BENGALI AU LENGTH MARK": 
+    {
+        "prefix": [
+            "..U.09D7",
+            "..U.BENGALI AU LENGTH MARK",
+            "U+09D7",
+        ],
+        "body": [
+            "${1|ৗ,&#x09D7;,U+09D7,0x09D7,BENGALI AU LENGTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+09D7",
+            "Character/Symbol: ৗ",
+            "Name: BENGALI AU LENGTH MARK",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ড় U+09DC BENGALI LETTER RRA": 
+    {
+        "prefix": [
+            "..U.09DC",
+            "..U.BENGALI LETTER RRA",
+            "U+09DC",
+        ],
+        "body": [
+            "${1|ড়,&#x09DC;,U+09DC,0x09DC,BENGALI LETTER RRA|}$2",
+        ],
+        "description": [
+            "Code: U+09DC",
+            "Character/Symbol: ড়",
+            "Name: BENGALI LETTER RRA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ঢ় U+09DD BENGALI LETTER RHA": 
+    {
+        "prefix": [
+            "..U.09DD",
+            "..U.BENGALI LETTER RHA",
+            "U+09DD",
+        ],
+        "body": [
+            "${1|ঢ়,&#x09DD;,U+09DD,0x09DD,BENGALI LETTER RHA|}$2",
+        ],
+        "description": [
+            "Code: U+09DD",
+            "Character/Symbol: ঢ়",
+            "Name: BENGALI LETTER RHA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode য় U+09DF BENGALI LETTER YYA": 
+    {
+        "prefix": [
+            "..U.09DF",
+            "..U.BENGALI LETTER YYA",
+            "U+09DF",
+        ],
+        "body": [
+            "${1|য়,&#x09DF;,U+09DF,0x09DF,BENGALI LETTER YYA|}$2",
+        ],
+        "description": [
+            "Code: U+09DF",
+            "Character/Symbol: য়",
+            "Name: BENGALI LETTER YYA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৠ U+09E0 BENGALI LETTER VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.09E0",
+            "..U.BENGALI LETTER VOCALIC RR",
+            "U+09E0",
+        ],
+        "body": [
+            "${1|ৠ,&#x09E0;,U+09E0,0x09E0,BENGALI LETTER VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+09E0",
+            "Character/Symbol: ৠ",
+            "Name: BENGALI LETTER VOCALIC RR",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৡ U+09E1 BENGALI LETTER VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.09E1",
+            "..U.BENGALI LETTER VOCALIC LL",
+            "U+09E1",
+        ],
+        "body": [
+            "${1|ৡ,&#x09E1;,U+09E1,0x09E1,BENGALI LETTER VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+09E1",
+            "Character/Symbol: ৡ",
+            "Name: BENGALI LETTER VOCALIC LL",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৢ U+09E2 BENGALI VOWEL SIGN VOCALIC L": 
+    {
+        "prefix": [
+            "..U.09E2",
+            "..U.BENGALI VOWEL SIGN VOCALIC L",
+            "U+09E2",
+        ],
+        "body": [
+            "${1|ৢ,&#x09E2;,U+09E2,0x09E2,BENGALI VOWEL SIGN VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+09E2",
+            "Character/Symbol: ৢ",
+            "Name: BENGALI VOWEL SIGN VOCALIC L",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৣ U+09E3 BENGALI VOWEL SIGN VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.09E3",
+            "..U.BENGALI VOWEL SIGN VOCALIC LL",
+            "U+09E3",
+        ],
+        "body": [
+            "${1|ৣ,&#x09E3;,U+09E3,0x09E3,BENGALI VOWEL SIGN VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+09E3",
+            "Character/Symbol: ৣ",
+            "Name: BENGALI VOWEL SIGN VOCALIC LL",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ০ U+09E6 BENGALI DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.09E6",
+            "..U.BENGALI DIGIT ZERO",
+            "U+09E6",
+        ],
+        "body": [
+            "${1|০,&#x09E6;,U+09E6,0x09E6,BENGALI DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+09E6",
+            "Character/Symbol: ০",
+            "Name: BENGALI DIGIT ZERO",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ১ U+09E7 BENGALI DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.09E7",
+            "..U.BENGALI DIGIT ONE",
+            "U+09E7",
+        ],
+        "body": [
+            "${1|১,&#x09E7;,U+09E7,0x09E7,BENGALI DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+09E7",
+            "Character/Symbol: ১",
+            "Name: BENGALI DIGIT ONE",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ২ U+09E8 BENGALI DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.09E8",
+            "..U.BENGALI DIGIT TWO",
+            "U+09E8",
+        ],
+        "body": [
+            "${1|২,&#x09E8;,U+09E8,0x09E8,BENGALI DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+09E8",
+            "Character/Symbol: ২",
+            "Name: BENGALI DIGIT TWO",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৩ U+09E9 BENGALI DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.09E9",
+            "..U.BENGALI DIGIT THREE",
+            "U+09E9",
+        ],
+        "body": [
+            "${1|৩,&#x09E9;,U+09E9,0x09E9,BENGALI DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+09E9",
+            "Character/Symbol: ৩",
+            "Name: BENGALI DIGIT THREE",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৪ U+09EA BENGALI DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.09EA",
+            "..U.BENGALI DIGIT FOUR",
+            "U+09EA",
+        ],
+        "body": [
+            "${1|৪,&#x09EA;,U+09EA,0x09EA,BENGALI DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+09EA",
+            "Character/Symbol: ৪",
+            "Name: BENGALI DIGIT FOUR",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৫ U+09EB BENGALI DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.09EB",
+            "..U.BENGALI DIGIT FIVE",
+            "U+09EB",
+        ],
+        "body": [
+            "${1|৫,&#x09EB;,U+09EB,0x09EB,BENGALI DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+09EB",
+            "Character/Symbol: ৫",
+            "Name: BENGALI DIGIT FIVE",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৬ U+09EC BENGALI DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.09EC",
+            "..U.BENGALI DIGIT SIX",
+            "U+09EC",
+        ],
+        "body": [
+            "${1|৬,&#x09EC;,U+09EC,0x09EC,BENGALI DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+09EC",
+            "Character/Symbol: ৬",
+            "Name: BENGALI DIGIT SIX",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৭ U+09ED BENGALI DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.09ED",
+            "..U.BENGALI DIGIT SEVEN",
+            "U+09ED",
+        ],
+        "body": [
+            "${1|৭,&#x09ED;,U+09ED,0x09ED,BENGALI DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+09ED",
+            "Character/Symbol: ৭",
+            "Name: BENGALI DIGIT SEVEN",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৮ U+09EE BENGALI DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.09EE",
+            "..U.BENGALI DIGIT EIGHT",
+            "U+09EE",
+        ],
+        "body": [
+            "${1|৮,&#x09EE;,U+09EE,0x09EE,BENGALI DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+09EE",
+            "Character/Symbol: ৮",
+            "Name: BENGALI DIGIT EIGHT",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৯ U+09EF BENGALI DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.09EF",
+            "..U.BENGALI DIGIT NINE",
+            "U+09EF",
+        ],
+        "body": [
+            "${1|৯,&#x09EF;,U+09EF,0x09EF,BENGALI DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+09EF",
+            "Character/Symbol: ৯",
+            "Name: BENGALI DIGIT NINE",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৰ U+09F0 BENGALI LETTER RA WITH MIDDLE DIAGONAL": 
+    {
+        "prefix": [
+            "..U.09F0",
+            "..U.BENGALI LETTER RA WITH MIDDLE DIAGONAL",
+            "U+09F0",
+        ],
+        "body": [
+            "${1|ৰ,&#x09F0;,U+09F0,0x09F0,BENGALI LETTER RA WITH MIDDLE DIAGONAL|}$2",
+        ],
+        "description": [
+            "Code: U+09F0",
+            "Character/Symbol: ৰ",
+            "Name: BENGALI LETTER RA WITH MIDDLE DIAGONAL",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৱ U+09F1 BENGALI LETTER RA WITH LOWER DIAGONAL": 
+    {
+        "prefix": [
+            "..U.09F1",
+            "..U.BENGALI LETTER RA WITH LOWER DIAGONAL",
+            "U+09F1",
+        ],
+        "body": [
+            "${1|ৱ,&#x09F1;,U+09F1,0x09F1,BENGALI LETTER RA WITH LOWER DIAGONAL|}$2",
+        ],
+        "description": [
+            "Code: U+09F1",
+            "Character/Symbol: ৱ",
+            "Name: BENGALI LETTER RA WITH LOWER DIAGONAL",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৲ U+09F2 BENGALI RUPEE MARK": 
+    {
+        "prefix": [
+            "..U.09F2",
+            "..U.BENGALI RUPEE MARK",
+            "U+09F2",
+        ],
+        "body": [
+            "${1|৲,&#x09F2;,U+09F2,0x09F2,BENGALI RUPEE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+09F2",
+            "Character/Symbol: ৲",
+            "Name: BENGALI RUPEE MARK",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৳ U+09F3 BENGALI RUPEE SIGN": 
+    {
+        "prefix": [
+            "..U.09F3",
+            "..U.BENGALI RUPEE SIGN",
+            "U+09F3",
+        ],
+        "body": [
+            "${1|৳,&#x09F3;,U+09F3,0x09F3,BENGALI RUPEE SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+09F3",
+            "Character/Symbol: ৳",
+            "Name: BENGALI RUPEE SIGN",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৴ U+09F4 BENGALI CURRENCY NUMERATOR ONE": 
+    {
+        "prefix": [
+            "..U.09F4",
+            "..U.BENGALI CURRENCY NUMERATOR ONE",
+            "U+09F4",
+        ],
+        "body": [
+            "${1|৴,&#x09F4;,U+09F4,0x09F4,BENGALI CURRENCY NUMERATOR ONE|}$2",
+        ],
+        "description": [
+            "Code: U+09F4",
+            "Character/Symbol: ৴",
+            "Name: BENGALI CURRENCY NUMERATOR ONE",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৵ U+09F5 BENGALI CURRENCY NUMERATOR TWO": 
+    {
+        "prefix": [
+            "..U.09F5",
+            "..U.BENGALI CURRENCY NUMERATOR TWO",
+            "U+09F5",
+        ],
+        "body": [
+            "${1|৵,&#x09F5;,U+09F5,0x09F5,BENGALI CURRENCY NUMERATOR TWO|}$2",
+        ],
+        "description": [
+            "Code: U+09F5",
+            "Character/Symbol: ৵",
+            "Name: BENGALI CURRENCY NUMERATOR TWO",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৶ U+09F6 BENGALI CURRENCY NUMERATOR THREE": 
+    {
+        "prefix": [
+            "..U.09F6",
+            "..U.BENGALI CURRENCY NUMERATOR THREE",
+            "U+09F6",
+        ],
+        "body": [
+            "${1|৶,&#x09F6;,U+09F6,0x09F6,BENGALI CURRENCY NUMERATOR THREE|}$2",
+        ],
+        "description": [
+            "Code: U+09F6",
+            "Character/Symbol: ৶",
+            "Name: BENGALI CURRENCY NUMERATOR THREE",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৷ U+09F7 BENGALI CURRENCY NUMERATOR FOUR": 
+    {
+        "prefix": [
+            "..U.09F7",
+            "..U.BENGALI CURRENCY NUMERATOR FOUR",
+            "U+09F7",
+        ],
+        "body": [
+            "${1|৷,&#x09F7;,U+09F7,0x09F7,BENGALI CURRENCY NUMERATOR FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+09F7",
+            "Character/Symbol: ৷",
+            "Name: BENGALI CURRENCY NUMERATOR FOUR",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৸ U+09F8 BENGALI CURRENCY NUMERATOR ONE LESS THAN THE DENOMINATOR": 
+    {
+        "prefix": [
+            "..U.09F8",
+            "..U.BENGALI CURRENCY NUMERATOR ONE LESS THAN THE DENOMINATOR",
+            "U+09F8",
+        ],
+        "body": [
+            "${1|৸,&#x09F8;,U+09F8,0x09F8,BENGALI CURRENCY NUMERATOR ONE LESS THAN THE DENOMINATOR|}$2",
+        ],
+        "description": [
+            "Code: U+09F8",
+            "Character/Symbol: ৸",
+            "Name: BENGALI CURRENCY NUMERATOR ONE LESS THAN THE DENOMINATOR",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৹ U+09F9 BENGALI CURRENCY DENOMINATOR SIXTEEN": 
+    {
+        "prefix": [
+            "..U.09F9",
+            "..U.BENGALI CURRENCY DENOMINATOR SIXTEEN",
+            "U+09F9",
+        ],
+        "body": [
+            "${1|৹,&#x09F9;,U+09F9,0x09F9,BENGALI CURRENCY DENOMINATOR SIXTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+09F9",
+            "Character/Symbol: ৹",
+            "Name: BENGALI CURRENCY DENOMINATOR SIXTEEN",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৺ U+09FA BENGALI ISSHAR": 
+    {
+        "prefix": [
+            "..U.09FA",
+            "..U.BENGALI ISSHAR",
+            "U+09FA",
+        ],
+        "body": [
+            "${1|৺,&#x09FA;,U+09FA,0x09FA,BENGALI ISSHAR|}$2",
+        ],
+        "description": [
+            "Code: U+09FA",
+            "Character/Symbol: ৺",
+            "Name: BENGALI ISSHAR",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৻ U+09FB BENGALI GANDA MARK": 
+    {
+        "prefix": [
+            "..U.09FB",
+            "..U.BENGALI GANDA MARK",
+            "U+09FB",
+        ],
+        "body": [
+            "${1|৻,&#x09FB;,U+09FB,0x09FB,BENGALI GANDA MARK|}$2",
+        ],
+        "description": [
+            "Code: U+09FB",
+            "Character/Symbol: ৻",
+            "Name: BENGALI GANDA MARK",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৼ U+09FC BENGALI LETTER VEDIC ANUSVARA": 
+    {
+        "prefix": [
+            "..U.09FC",
+            "..U.BENGALI LETTER VEDIC ANUSVARA",
+            "U+09FC",
+        ],
+        "body": [
+            "${1|ৼ,&#x09FC;,U+09FC,0x09FC,BENGALI LETTER VEDIC ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+09FC",
+            "Character/Symbol: ৼ",
+            "Name: BENGALI LETTER VEDIC ANUSVARA",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৽ U+09FD BENGALI ABBREVIATION SIGN": 
+    {
+        "prefix": [
+            "..U.09FD",
+            "..U.BENGALI ABBREVIATION SIGN",
+            "U+09FD",
+        ],
+        "body": [
+            "${1|৽,&#x09FD;,U+09FD,0x09FD,BENGALI ABBREVIATION SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+09FD",
+            "Character/Symbol: ৽",
+            "Name: BENGALI ABBREVIATION SIGN",
+            "Group/Block: Bengali",
+        ],
+    },
+
+    "Unicode ৾ U+09FE BENGALI SANDHI MARK": 
+    {
+        "prefix": [
+            "..U.09FE",
+            "..U.BENGALI SANDHI MARK",
+            "U+09FE",
+        ],
+        "body": [
+            "${1|৾,&#x09FE;,U+09FE,0x09FE,BENGALI SANDHI MARK|}$2",
+        ],
+        "description": [
+            "Code: U+09FE",
+            "Character/Symbol: ৾",
+            "Name: BENGALI SANDHI MARK",
+            "Group/Block: Bengali",
+        ],
+    },
+
+}

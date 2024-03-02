@@ -1,0 +1,704 @@
+{
+    "Unicode 𐌀 U+10300 OLD ITALIC LETTER A": 
+    {
+        "prefix": [
+            "..U.10300",
+            "..U.OLD ITALIC LETTER A",
+            "U+10300",
+        ],
+        "body": [
+            "${1|𐌀,&#x10300;,U+10300,0x10300,OLD ITALIC LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+10300",
+            "Character/Symbol: 𐌀",
+            "Name: OLD ITALIC LETTER A",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌁 U+10301 OLD ITALIC LETTER BE": 
+    {
+        "prefix": [
+            "..U.10301",
+            "..U.OLD ITALIC LETTER BE",
+            "U+10301",
+        ],
+        "body": [
+            "${1|𐌁,&#x10301;,U+10301,0x10301,OLD ITALIC LETTER BE|}$2",
+        ],
+        "description": [
+            "Code: U+10301",
+            "Character/Symbol: 𐌁",
+            "Name: OLD ITALIC LETTER BE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌂 U+10302 OLD ITALIC LETTER KE": 
+    {
+        "prefix": [
+            "..U.10302",
+            "..U.OLD ITALIC LETTER KE",
+            "U+10302",
+        ],
+        "body": [
+            "${1|𐌂,&#x10302;,U+10302,0x10302,OLD ITALIC LETTER KE|}$2",
+        ],
+        "description": [
+            "Code: U+10302",
+            "Character/Symbol: 𐌂",
+            "Name: OLD ITALIC LETTER KE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌃 U+10303 OLD ITALIC LETTER DE": 
+    {
+        "prefix": [
+            "..U.10303",
+            "..U.OLD ITALIC LETTER DE",
+            "U+10303",
+        ],
+        "body": [
+            "${1|𐌃,&#x10303;,U+10303,0x10303,OLD ITALIC LETTER DE|}$2",
+        ],
+        "description": [
+            "Code: U+10303",
+            "Character/Symbol: 𐌃",
+            "Name: OLD ITALIC LETTER DE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌄 U+10304 OLD ITALIC LETTER E": 
+    {
+        "prefix": [
+            "..U.10304",
+            "..U.OLD ITALIC LETTER E",
+            "U+10304",
+        ],
+        "body": [
+            "${1|𐌄,&#x10304;,U+10304,0x10304,OLD ITALIC LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+10304",
+            "Character/Symbol: 𐌄",
+            "Name: OLD ITALIC LETTER E",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌅 U+10305 OLD ITALIC LETTER VE": 
+    {
+        "prefix": [
+            "..U.10305",
+            "..U.OLD ITALIC LETTER VE",
+            "U+10305",
+        ],
+        "body": [
+            "${1|𐌅,&#x10305;,U+10305,0x10305,OLD ITALIC LETTER VE|}$2",
+        ],
+        "description": [
+            "Code: U+10305",
+            "Character/Symbol: 𐌅",
+            "Name: OLD ITALIC LETTER VE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌆 U+10306 OLD ITALIC LETTER ZE": 
+    {
+        "prefix": [
+            "..U.10306",
+            "..U.OLD ITALIC LETTER ZE",
+            "U+10306",
+        ],
+        "body": [
+            "${1|𐌆,&#x10306;,U+10306,0x10306,OLD ITALIC LETTER ZE|}$2",
+        ],
+        "description": [
+            "Code: U+10306",
+            "Character/Symbol: 𐌆",
+            "Name: OLD ITALIC LETTER ZE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌇 U+10307 OLD ITALIC LETTER HE": 
+    {
+        "prefix": [
+            "..U.10307",
+            "..U.OLD ITALIC LETTER HE",
+            "U+10307",
+        ],
+        "body": [
+            "${1|𐌇,&#x10307;,U+10307,0x10307,OLD ITALIC LETTER HE|}$2",
+        ],
+        "description": [
+            "Code: U+10307",
+            "Character/Symbol: 𐌇",
+            "Name: OLD ITALIC LETTER HE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌈 U+10308 OLD ITALIC LETTER THE": 
+    {
+        "prefix": [
+            "..U.10308",
+            "..U.OLD ITALIC LETTER THE",
+            "U+10308",
+        ],
+        "body": [
+            "${1|𐌈,&#x10308;,U+10308,0x10308,OLD ITALIC LETTER THE|}$2",
+        ],
+        "description": [
+            "Code: U+10308",
+            "Character/Symbol: 𐌈",
+            "Name: OLD ITALIC LETTER THE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌉 U+10309 OLD ITALIC LETTER I": 
+    {
+        "prefix": [
+            "..U.10309",
+            "..U.OLD ITALIC LETTER I",
+            "U+10309",
+        ],
+        "body": [
+            "${1|𐌉,&#x10309;,U+10309,0x10309,OLD ITALIC LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+10309",
+            "Character/Symbol: 𐌉",
+            "Name: OLD ITALIC LETTER I",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌊 U+1030A OLD ITALIC LETTER KA": 
+    {
+        "prefix": [
+            "..U.1030A",
+            "..U.OLD ITALIC LETTER KA",
+            "U+1030A",
+        ],
+        "body": [
+            "${1|𐌊,&#x1030A;,U+1030A,0x1030A,OLD ITALIC LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+1030A",
+            "Character/Symbol: 𐌊",
+            "Name: OLD ITALIC LETTER KA",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌋 U+1030B OLD ITALIC LETTER EL": 
+    {
+        "prefix": [
+            "..U.1030B",
+            "..U.OLD ITALIC LETTER EL",
+            "U+1030B",
+        ],
+        "body": [
+            "${1|𐌋,&#x1030B;,U+1030B,0x1030B,OLD ITALIC LETTER EL|}$2",
+        ],
+        "description": [
+            "Code: U+1030B",
+            "Character/Symbol: 𐌋",
+            "Name: OLD ITALIC LETTER EL",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌌 U+1030C OLD ITALIC LETTER EM": 
+    {
+        "prefix": [
+            "..U.1030C",
+            "..U.OLD ITALIC LETTER EM",
+            "U+1030C",
+        ],
+        "body": [
+            "${1|𐌌,&#x1030C;,U+1030C,0x1030C,OLD ITALIC LETTER EM|}$2",
+        ],
+        "description": [
+            "Code: U+1030C",
+            "Character/Symbol: 𐌌",
+            "Name: OLD ITALIC LETTER EM",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌍 U+1030D OLD ITALIC LETTER EN": 
+    {
+        "prefix": [
+            "..U.1030D",
+            "..U.OLD ITALIC LETTER EN",
+            "U+1030D",
+        ],
+        "body": [
+            "${1|𐌍,&#x1030D;,U+1030D,0x1030D,OLD ITALIC LETTER EN|}$2",
+        ],
+        "description": [
+            "Code: U+1030D",
+            "Character/Symbol: 𐌍",
+            "Name: OLD ITALIC LETTER EN",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌎 U+1030E OLD ITALIC LETTER ESH": 
+    {
+        "prefix": [
+            "..U.1030E",
+            "..U.OLD ITALIC LETTER ESH",
+            "U+1030E",
+        ],
+        "body": [
+            "${1|𐌎,&#x1030E;,U+1030E,0x1030E,OLD ITALIC LETTER ESH|}$2",
+        ],
+        "description": [
+            "Code: U+1030E",
+            "Character/Symbol: 𐌎",
+            "Name: OLD ITALIC LETTER ESH",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌏 U+1030F OLD ITALIC LETTER O": 
+    {
+        "prefix": [
+            "..U.1030F",
+            "..U.OLD ITALIC LETTER O",
+            "U+1030F",
+        ],
+        "body": [
+            "${1|𐌏,&#x1030F;,U+1030F,0x1030F,OLD ITALIC LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+1030F",
+            "Character/Symbol: 𐌏",
+            "Name: OLD ITALIC LETTER O",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌐 U+10310 OLD ITALIC LETTER PE": 
+    {
+        "prefix": [
+            "..U.10310",
+            "..U.OLD ITALIC LETTER PE",
+            "U+10310",
+        ],
+        "body": [
+            "${1|𐌐,&#x10310;,U+10310,0x10310,OLD ITALIC LETTER PE|}$2",
+        ],
+        "description": [
+            "Code: U+10310",
+            "Character/Symbol: 𐌐",
+            "Name: OLD ITALIC LETTER PE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌑 U+10311 OLD ITALIC LETTER SHE": 
+    {
+        "prefix": [
+            "..U.10311",
+            "..U.OLD ITALIC LETTER SHE",
+            "U+10311",
+        ],
+        "body": [
+            "${1|𐌑,&#x10311;,U+10311,0x10311,OLD ITALIC LETTER SHE|}$2",
+        ],
+        "description": [
+            "Code: U+10311",
+            "Character/Symbol: 𐌑",
+            "Name: OLD ITALIC LETTER SHE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌒 U+10312 OLD ITALIC LETTER KU": 
+    {
+        "prefix": [
+            "..U.10312",
+            "..U.OLD ITALIC LETTER KU",
+            "U+10312",
+        ],
+        "body": [
+            "${1|𐌒,&#x10312;,U+10312,0x10312,OLD ITALIC LETTER KU|}$2",
+        ],
+        "description": [
+            "Code: U+10312",
+            "Character/Symbol: 𐌒",
+            "Name: OLD ITALIC LETTER KU",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌓 U+10313 OLD ITALIC LETTER ER": 
+    {
+        "prefix": [
+            "..U.10313",
+            "..U.OLD ITALIC LETTER ER",
+            "U+10313",
+        ],
+        "body": [
+            "${1|𐌓,&#x10313;,U+10313,0x10313,OLD ITALIC LETTER ER|}$2",
+        ],
+        "description": [
+            "Code: U+10313",
+            "Character/Symbol: 𐌓",
+            "Name: OLD ITALIC LETTER ER",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌔 U+10314 OLD ITALIC LETTER ES": 
+    {
+        "prefix": [
+            "..U.10314",
+            "..U.OLD ITALIC LETTER ES",
+            "U+10314",
+        ],
+        "body": [
+            "${1|𐌔,&#x10314;,U+10314,0x10314,OLD ITALIC LETTER ES|}$2",
+        ],
+        "description": [
+            "Code: U+10314",
+            "Character/Symbol: 𐌔",
+            "Name: OLD ITALIC LETTER ES",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌕 U+10315 OLD ITALIC LETTER TE": 
+    {
+        "prefix": [
+            "..U.10315",
+            "..U.OLD ITALIC LETTER TE",
+            "U+10315",
+        ],
+        "body": [
+            "${1|𐌕,&#x10315;,U+10315,0x10315,OLD ITALIC LETTER TE|}$2",
+        ],
+        "description": [
+            "Code: U+10315",
+            "Character/Symbol: 𐌕",
+            "Name: OLD ITALIC LETTER TE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌖 U+10316 OLD ITALIC LETTER U": 
+    {
+        "prefix": [
+            "..U.10316",
+            "..U.OLD ITALIC LETTER U",
+            "U+10316",
+        ],
+        "body": [
+            "${1|𐌖,&#x10316;,U+10316,0x10316,OLD ITALIC LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+10316",
+            "Character/Symbol: 𐌖",
+            "Name: OLD ITALIC LETTER U",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌗 U+10317 OLD ITALIC LETTER EKS": 
+    {
+        "prefix": [
+            "..U.10317",
+            "..U.OLD ITALIC LETTER EKS",
+            "U+10317",
+        ],
+        "body": [
+            "${1|𐌗,&#x10317;,U+10317,0x10317,OLD ITALIC LETTER EKS|}$2",
+        ],
+        "description": [
+            "Code: U+10317",
+            "Character/Symbol: 𐌗",
+            "Name: OLD ITALIC LETTER EKS",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌘 U+10318 OLD ITALIC LETTER PHE": 
+    {
+        "prefix": [
+            "..U.10318",
+            "..U.OLD ITALIC LETTER PHE",
+            "U+10318",
+        ],
+        "body": [
+            "${1|𐌘,&#x10318;,U+10318,0x10318,OLD ITALIC LETTER PHE|}$2",
+        ],
+        "description": [
+            "Code: U+10318",
+            "Character/Symbol: 𐌘",
+            "Name: OLD ITALIC LETTER PHE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌙 U+10319 OLD ITALIC LETTER KHE": 
+    {
+        "prefix": [
+            "..U.10319",
+            "..U.OLD ITALIC LETTER KHE",
+            "U+10319",
+        ],
+        "body": [
+            "${1|𐌙,&#x10319;,U+10319,0x10319,OLD ITALIC LETTER KHE|}$2",
+        ],
+        "description": [
+            "Code: U+10319",
+            "Character/Symbol: 𐌙",
+            "Name: OLD ITALIC LETTER KHE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌚 U+1031A OLD ITALIC LETTER EF": 
+    {
+        "prefix": [
+            "..U.1031A",
+            "..U.OLD ITALIC LETTER EF",
+            "U+1031A",
+        ],
+        "body": [
+            "${1|𐌚,&#x1031A;,U+1031A,0x1031A,OLD ITALIC LETTER EF|}$2",
+        ],
+        "description": [
+            "Code: U+1031A",
+            "Character/Symbol: 𐌚",
+            "Name: OLD ITALIC LETTER EF",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌛 U+1031B OLD ITALIC LETTER ERS": 
+    {
+        "prefix": [
+            "..U.1031B",
+            "..U.OLD ITALIC LETTER ERS",
+            "U+1031B",
+        ],
+        "body": [
+            "${1|𐌛,&#x1031B;,U+1031B,0x1031B,OLD ITALIC LETTER ERS|}$2",
+        ],
+        "description": [
+            "Code: U+1031B",
+            "Character/Symbol: 𐌛",
+            "Name: OLD ITALIC LETTER ERS",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌜 U+1031C OLD ITALIC LETTER CHE": 
+    {
+        "prefix": [
+            "..U.1031C",
+            "..U.OLD ITALIC LETTER CHE",
+            "U+1031C",
+        ],
+        "body": [
+            "${1|𐌜,&#x1031C;,U+1031C,0x1031C,OLD ITALIC LETTER CHE|}$2",
+        ],
+        "description": [
+            "Code: U+1031C",
+            "Character/Symbol: 𐌜",
+            "Name: OLD ITALIC LETTER CHE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌝 U+1031D OLD ITALIC LETTER II": 
+    {
+        "prefix": [
+            "..U.1031D",
+            "..U.OLD ITALIC LETTER II",
+            "U+1031D",
+        ],
+        "body": [
+            "${1|𐌝,&#x1031D;,U+1031D,0x1031D,OLD ITALIC LETTER II|}$2",
+        ],
+        "description": [
+            "Code: U+1031D",
+            "Character/Symbol: 𐌝",
+            "Name: OLD ITALIC LETTER II",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌞 U+1031E OLD ITALIC LETTER UU": 
+    {
+        "prefix": [
+            "..U.1031E",
+            "..U.OLD ITALIC LETTER UU",
+            "U+1031E",
+        ],
+        "body": [
+            "${1|𐌞,&#x1031E;,U+1031E,0x1031E,OLD ITALIC LETTER UU|}$2",
+        ],
+        "description": [
+            "Code: U+1031E",
+            "Character/Symbol: 𐌞",
+            "Name: OLD ITALIC LETTER UU",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌟 U+1031F OLD ITALIC LETTER ESS": 
+    {
+        "prefix": [
+            "..U.1031F",
+            "..U.OLD ITALIC LETTER ESS",
+            "U+1031F",
+        ],
+        "body": [
+            "${1|𐌟,&#x1031F;,U+1031F,0x1031F,OLD ITALIC LETTER ESS|}$2",
+        ],
+        "description": [
+            "Code: U+1031F",
+            "Character/Symbol: 𐌟",
+            "Name: OLD ITALIC LETTER ESS",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌠 U+10320 OLD ITALIC NUMERAL ONE": 
+    {
+        "prefix": [
+            "..U.10320",
+            "..U.OLD ITALIC NUMERAL ONE",
+            "U+10320",
+        ],
+        "body": [
+            "${1|𐌠,&#x10320;,U+10320,0x10320,OLD ITALIC NUMERAL ONE|}$2",
+        ],
+        "description": [
+            "Code: U+10320",
+            "Character/Symbol: 𐌠",
+            "Name: OLD ITALIC NUMERAL ONE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌡 U+10321 OLD ITALIC NUMERAL FIVE": 
+    {
+        "prefix": [
+            "..U.10321",
+            "..U.OLD ITALIC NUMERAL FIVE",
+            "U+10321",
+        ],
+        "body": [
+            "${1|𐌡,&#x10321;,U+10321,0x10321,OLD ITALIC NUMERAL FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+10321",
+            "Character/Symbol: 𐌡",
+            "Name: OLD ITALIC NUMERAL FIVE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌢 U+10322 OLD ITALIC NUMERAL TEN": 
+    {
+        "prefix": [
+            "..U.10322",
+            "..U.OLD ITALIC NUMERAL TEN",
+            "U+10322",
+        ],
+        "body": [
+            "${1|𐌢,&#x10322;,U+10322,0x10322,OLD ITALIC NUMERAL TEN|}$2",
+        ],
+        "description": [
+            "Code: U+10322",
+            "Character/Symbol: 𐌢",
+            "Name: OLD ITALIC NUMERAL TEN",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌣 U+10323 OLD ITALIC NUMERAL FIFTY": 
+    {
+        "prefix": [
+            "..U.10323",
+            "..U.OLD ITALIC NUMERAL FIFTY",
+            "U+10323",
+        ],
+        "body": [
+            "${1|𐌣,&#x10323;,U+10323,0x10323,OLD ITALIC NUMERAL FIFTY|}$2",
+        ],
+        "description": [
+            "Code: U+10323",
+            "Character/Symbol: 𐌣",
+            "Name: OLD ITALIC NUMERAL FIFTY",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌭 U+1032D OLD ITALIC LETTER YE": 
+    {
+        "prefix": [
+            "..U.1032D",
+            "..U.OLD ITALIC LETTER YE",
+            "U+1032D",
+        ],
+        "body": [
+            "${1|𐌭,&#x1032D;,U+1032D,0x1032D,OLD ITALIC LETTER YE|}$2",
+        ],
+        "description": [
+            "Code: U+1032D",
+            "Character/Symbol: 𐌭",
+            "Name: OLD ITALIC LETTER YE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌮 U+1032E OLD ITALIC LETTER NORTHERN TSE": 
+    {
+        "prefix": [
+            "..U.1032E",
+            "..U.OLD ITALIC LETTER NORTHERN TSE",
+            "U+1032E",
+        ],
+        "body": [
+            "${1|𐌮,&#x1032E;,U+1032E,0x1032E,OLD ITALIC LETTER NORTHERN TSE|}$2",
+        ],
+        "description": [
+            "Code: U+1032E",
+            "Character/Symbol: 𐌮",
+            "Name: OLD ITALIC LETTER NORTHERN TSE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+    "Unicode 𐌯 U+1032F OLD ITALIC LETTER SOUTHERN TSE": 
+    {
+        "prefix": [
+            "..U.1032F",
+            "..U.OLD ITALIC LETTER SOUTHERN TSE",
+            "U+1032F",
+        ],
+        "body": [
+            "${1|𐌯,&#x1032F;,U+1032F,0x1032F,OLD ITALIC LETTER SOUTHERN TSE|}$2",
+        ],
+        "description": [
+            "Code: U+1032F",
+            "Character/Symbol: 𐌯",
+            "Name: OLD ITALIC LETTER SOUTHERN TSE",
+            "Group/Block: Old_Italic",
+        ],
+    },
+
+}

@@ -1,0 +1,578 @@
+{
+    "Unicode ꬁ U+AB01 ETHIOPIC SYLLABLE TTHU": 
+    {
+        "prefix": [
+            "..U.AB01",
+            "..U.ETHIOPIC SYLLABLE TTHU",
+            "U+AB01",
+        ],
+        "body": [
+            "${1|ꬁ,&#xAB01;,U+AB01,0xAB01,ETHIOPIC SYLLABLE TTHU|}$2",
+        ],
+        "description": [
+            "Code: U+AB01",
+            "Character/Symbol: ꬁ",
+            "Name: ETHIOPIC SYLLABLE TTHU",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬂ U+AB02 ETHIOPIC SYLLABLE TTHI": 
+    {
+        "prefix": [
+            "..U.AB02",
+            "..U.ETHIOPIC SYLLABLE TTHI",
+            "U+AB02",
+        ],
+        "body": [
+            "${1|ꬂ,&#xAB02;,U+AB02,0xAB02,ETHIOPIC SYLLABLE TTHI|}$2",
+        ],
+        "description": [
+            "Code: U+AB02",
+            "Character/Symbol: ꬂ",
+            "Name: ETHIOPIC SYLLABLE TTHI",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬃ U+AB03 ETHIOPIC SYLLABLE TTHAA": 
+    {
+        "prefix": [
+            "..U.AB03",
+            "..U.ETHIOPIC SYLLABLE TTHAA",
+            "U+AB03",
+        ],
+        "body": [
+            "${1|ꬃ,&#xAB03;,U+AB03,0xAB03,ETHIOPIC SYLLABLE TTHAA|}$2",
+        ],
+        "description": [
+            "Code: U+AB03",
+            "Character/Symbol: ꬃ",
+            "Name: ETHIOPIC SYLLABLE TTHAA",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬄ U+AB04 ETHIOPIC SYLLABLE TTHEE": 
+    {
+        "prefix": [
+            "..U.AB04",
+            "..U.ETHIOPIC SYLLABLE TTHEE",
+            "U+AB04",
+        ],
+        "body": [
+            "${1|ꬄ,&#xAB04;,U+AB04,0xAB04,ETHIOPIC SYLLABLE TTHEE|}$2",
+        ],
+        "description": [
+            "Code: U+AB04",
+            "Character/Symbol: ꬄ",
+            "Name: ETHIOPIC SYLLABLE TTHEE",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬅ U+AB05 ETHIOPIC SYLLABLE TTHE": 
+    {
+        "prefix": [
+            "..U.AB05",
+            "..U.ETHIOPIC SYLLABLE TTHE",
+            "U+AB05",
+        ],
+        "body": [
+            "${1|ꬅ,&#xAB05;,U+AB05,0xAB05,ETHIOPIC SYLLABLE TTHE|}$2",
+        ],
+        "description": [
+            "Code: U+AB05",
+            "Character/Symbol: ꬅ",
+            "Name: ETHIOPIC SYLLABLE TTHE",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬆ U+AB06 ETHIOPIC SYLLABLE TTHO": 
+    {
+        "prefix": [
+            "..U.AB06",
+            "..U.ETHIOPIC SYLLABLE TTHO",
+            "U+AB06",
+        ],
+        "body": [
+            "${1|ꬆ,&#xAB06;,U+AB06,0xAB06,ETHIOPIC SYLLABLE TTHO|}$2",
+        ],
+        "description": [
+            "Code: U+AB06",
+            "Character/Symbol: ꬆ",
+            "Name: ETHIOPIC SYLLABLE TTHO",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬉ U+AB09 ETHIOPIC SYLLABLE DDHU": 
+    {
+        "prefix": [
+            "..U.AB09",
+            "..U.ETHIOPIC SYLLABLE DDHU",
+            "U+AB09",
+        ],
+        "body": [
+            "${1|ꬉ,&#xAB09;,U+AB09,0xAB09,ETHIOPIC SYLLABLE DDHU|}$2",
+        ],
+        "description": [
+            "Code: U+AB09",
+            "Character/Symbol: ꬉ",
+            "Name: ETHIOPIC SYLLABLE DDHU",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬊ U+AB0A ETHIOPIC SYLLABLE DDHI": 
+    {
+        "prefix": [
+            "..U.AB0A",
+            "..U.ETHIOPIC SYLLABLE DDHI",
+            "U+AB0A",
+        ],
+        "body": [
+            "${1|ꬊ,&#xAB0A;,U+AB0A,0xAB0A,ETHIOPIC SYLLABLE DDHI|}$2",
+        ],
+        "description": [
+            "Code: U+AB0A",
+            "Character/Symbol: ꬊ",
+            "Name: ETHIOPIC SYLLABLE DDHI",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬋ U+AB0B ETHIOPIC SYLLABLE DDHAA": 
+    {
+        "prefix": [
+            "..U.AB0B",
+            "..U.ETHIOPIC SYLLABLE DDHAA",
+            "U+AB0B",
+        ],
+        "body": [
+            "${1|ꬋ,&#xAB0B;,U+AB0B,0xAB0B,ETHIOPIC SYLLABLE DDHAA|}$2",
+        ],
+        "description": [
+            "Code: U+AB0B",
+            "Character/Symbol: ꬋ",
+            "Name: ETHIOPIC SYLLABLE DDHAA",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬌ U+AB0C ETHIOPIC SYLLABLE DDHEE": 
+    {
+        "prefix": [
+            "..U.AB0C",
+            "..U.ETHIOPIC SYLLABLE DDHEE",
+            "U+AB0C",
+        ],
+        "body": [
+            "${1|ꬌ,&#xAB0C;,U+AB0C,0xAB0C,ETHIOPIC SYLLABLE DDHEE|}$2",
+        ],
+        "description": [
+            "Code: U+AB0C",
+            "Character/Symbol: ꬌ",
+            "Name: ETHIOPIC SYLLABLE DDHEE",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬍ U+AB0D ETHIOPIC SYLLABLE DDHE": 
+    {
+        "prefix": [
+            "..U.AB0D",
+            "..U.ETHIOPIC SYLLABLE DDHE",
+            "U+AB0D",
+        ],
+        "body": [
+            "${1|ꬍ,&#xAB0D;,U+AB0D,0xAB0D,ETHIOPIC SYLLABLE DDHE|}$2",
+        ],
+        "description": [
+            "Code: U+AB0D",
+            "Character/Symbol: ꬍ",
+            "Name: ETHIOPIC SYLLABLE DDHE",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬎ U+AB0E ETHIOPIC SYLLABLE DDHO": 
+    {
+        "prefix": [
+            "..U.AB0E",
+            "..U.ETHIOPIC SYLLABLE DDHO",
+            "U+AB0E",
+        ],
+        "body": [
+            "${1|ꬎ,&#xAB0E;,U+AB0E,0xAB0E,ETHIOPIC SYLLABLE DDHO|}$2",
+        ],
+        "description": [
+            "Code: U+AB0E",
+            "Character/Symbol: ꬎ",
+            "Name: ETHIOPIC SYLLABLE DDHO",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬑ U+AB11 ETHIOPIC SYLLABLE DZU": 
+    {
+        "prefix": [
+            "..U.AB11",
+            "..U.ETHIOPIC SYLLABLE DZU",
+            "U+AB11",
+        ],
+        "body": [
+            "${1|ꬑ,&#xAB11;,U+AB11,0xAB11,ETHIOPIC SYLLABLE DZU|}$2",
+        ],
+        "description": [
+            "Code: U+AB11",
+            "Character/Symbol: ꬑ",
+            "Name: ETHIOPIC SYLLABLE DZU",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬒ U+AB12 ETHIOPIC SYLLABLE DZI": 
+    {
+        "prefix": [
+            "..U.AB12",
+            "..U.ETHIOPIC SYLLABLE DZI",
+            "U+AB12",
+        ],
+        "body": [
+            "${1|ꬒ,&#xAB12;,U+AB12,0xAB12,ETHIOPIC SYLLABLE DZI|}$2",
+        ],
+        "description": [
+            "Code: U+AB12",
+            "Character/Symbol: ꬒ",
+            "Name: ETHIOPIC SYLLABLE DZI",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬓ U+AB13 ETHIOPIC SYLLABLE DZAA": 
+    {
+        "prefix": [
+            "..U.AB13",
+            "..U.ETHIOPIC SYLLABLE DZAA",
+            "U+AB13",
+        ],
+        "body": [
+            "${1|ꬓ,&#xAB13;,U+AB13,0xAB13,ETHIOPIC SYLLABLE DZAA|}$2",
+        ],
+        "description": [
+            "Code: U+AB13",
+            "Character/Symbol: ꬓ",
+            "Name: ETHIOPIC SYLLABLE DZAA",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬔ U+AB14 ETHIOPIC SYLLABLE DZEE": 
+    {
+        "prefix": [
+            "..U.AB14",
+            "..U.ETHIOPIC SYLLABLE DZEE",
+            "U+AB14",
+        ],
+        "body": [
+            "${1|ꬔ,&#xAB14;,U+AB14,0xAB14,ETHIOPIC SYLLABLE DZEE|}$2",
+        ],
+        "description": [
+            "Code: U+AB14",
+            "Character/Symbol: ꬔ",
+            "Name: ETHIOPIC SYLLABLE DZEE",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬕ U+AB15 ETHIOPIC SYLLABLE DZE": 
+    {
+        "prefix": [
+            "..U.AB15",
+            "..U.ETHIOPIC SYLLABLE DZE",
+            "U+AB15",
+        ],
+        "body": [
+            "${1|ꬕ,&#xAB15;,U+AB15,0xAB15,ETHIOPIC SYLLABLE DZE|}$2",
+        ],
+        "description": [
+            "Code: U+AB15",
+            "Character/Symbol: ꬕ",
+            "Name: ETHIOPIC SYLLABLE DZE",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬖ U+AB16 ETHIOPIC SYLLABLE DZO": 
+    {
+        "prefix": [
+            "..U.AB16",
+            "..U.ETHIOPIC SYLLABLE DZO",
+            "U+AB16",
+        ],
+        "body": [
+            "${1|ꬖ,&#xAB16;,U+AB16,0xAB16,ETHIOPIC SYLLABLE DZO|}$2",
+        ],
+        "description": [
+            "Code: U+AB16",
+            "Character/Symbol: ꬖ",
+            "Name: ETHIOPIC SYLLABLE DZO",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬠ U+AB20 ETHIOPIC SYLLABLE CCHHA": 
+    {
+        "prefix": [
+            "..U.AB20",
+            "..U.ETHIOPIC SYLLABLE CCHHA",
+            "U+AB20",
+        ],
+        "body": [
+            "${1|ꬠ,&#xAB20;,U+AB20,0xAB20,ETHIOPIC SYLLABLE CCHHA|}$2",
+        ],
+        "description": [
+            "Code: U+AB20",
+            "Character/Symbol: ꬠ",
+            "Name: ETHIOPIC SYLLABLE CCHHA",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬡ U+AB21 ETHIOPIC SYLLABLE CCHHU": 
+    {
+        "prefix": [
+            "..U.AB21",
+            "..U.ETHIOPIC SYLLABLE CCHHU",
+            "U+AB21",
+        ],
+        "body": [
+            "${1|ꬡ,&#xAB21;,U+AB21,0xAB21,ETHIOPIC SYLLABLE CCHHU|}$2",
+        ],
+        "description": [
+            "Code: U+AB21",
+            "Character/Symbol: ꬡ",
+            "Name: ETHIOPIC SYLLABLE CCHHU",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬢ U+AB22 ETHIOPIC SYLLABLE CCHHI": 
+    {
+        "prefix": [
+            "..U.AB22",
+            "..U.ETHIOPIC SYLLABLE CCHHI",
+            "U+AB22",
+        ],
+        "body": [
+            "${1|ꬢ,&#xAB22;,U+AB22,0xAB22,ETHIOPIC SYLLABLE CCHHI|}$2",
+        ],
+        "description": [
+            "Code: U+AB22",
+            "Character/Symbol: ꬢ",
+            "Name: ETHIOPIC SYLLABLE CCHHI",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬣ U+AB23 ETHIOPIC SYLLABLE CCHHAA": 
+    {
+        "prefix": [
+            "..U.AB23",
+            "..U.ETHIOPIC SYLLABLE CCHHAA",
+            "U+AB23",
+        ],
+        "body": [
+            "${1|ꬣ,&#xAB23;,U+AB23,0xAB23,ETHIOPIC SYLLABLE CCHHAA|}$2",
+        ],
+        "description": [
+            "Code: U+AB23",
+            "Character/Symbol: ꬣ",
+            "Name: ETHIOPIC SYLLABLE CCHHAA",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬤ U+AB24 ETHIOPIC SYLLABLE CCHHEE": 
+    {
+        "prefix": [
+            "..U.AB24",
+            "..U.ETHIOPIC SYLLABLE CCHHEE",
+            "U+AB24",
+        ],
+        "body": [
+            "${1|ꬤ,&#xAB24;,U+AB24,0xAB24,ETHIOPIC SYLLABLE CCHHEE|}$2",
+        ],
+        "description": [
+            "Code: U+AB24",
+            "Character/Symbol: ꬤ",
+            "Name: ETHIOPIC SYLLABLE CCHHEE",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬥ U+AB25 ETHIOPIC SYLLABLE CCHHE": 
+    {
+        "prefix": [
+            "..U.AB25",
+            "..U.ETHIOPIC SYLLABLE CCHHE",
+            "U+AB25",
+        ],
+        "body": [
+            "${1|ꬥ,&#xAB25;,U+AB25,0xAB25,ETHIOPIC SYLLABLE CCHHE|}$2",
+        ],
+        "description": [
+            "Code: U+AB25",
+            "Character/Symbol: ꬥ",
+            "Name: ETHIOPIC SYLLABLE CCHHE",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬦ U+AB26 ETHIOPIC SYLLABLE CCHHO": 
+    {
+        "prefix": [
+            "..U.AB26",
+            "..U.ETHIOPIC SYLLABLE CCHHO",
+            "U+AB26",
+        ],
+        "body": [
+            "${1|ꬦ,&#xAB26;,U+AB26,0xAB26,ETHIOPIC SYLLABLE CCHHO|}$2",
+        ],
+        "description": [
+            "Code: U+AB26",
+            "Character/Symbol: ꬦ",
+            "Name: ETHIOPIC SYLLABLE CCHHO",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬨ U+AB28 ETHIOPIC SYLLABLE BBA": 
+    {
+        "prefix": [
+            "..U.AB28",
+            "..U.ETHIOPIC SYLLABLE BBA",
+            "U+AB28",
+        ],
+        "body": [
+            "${1|ꬨ,&#xAB28;,U+AB28,0xAB28,ETHIOPIC SYLLABLE BBA|}$2",
+        ],
+        "description": [
+            "Code: U+AB28",
+            "Character/Symbol: ꬨ",
+            "Name: ETHIOPIC SYLLABLE BBA",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬩ U+AB29 ETHIOPIC SYLLABLE BBU": 
+    {
+        "prefix": [
+            "..U.AB29",
+            "..U.ETHIOPIC SYLLABLE BBU",
+            "U+AB29",
+        ],
+        "body": [
+            "${1|ꬩ,&#xAB29;,U+AB29,0xAB29,ETHIOPIC SYLLABLE BBU|}$2",
+        ],
+        "description": [
+            "Code: U+AB29",
+            "Character/Symbol: ꬩ",
+            "Name: ETHIOPIC SYLLABLE BBU",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬪ U+AB2A ETHIOPIC SYLLABLE BBI": 
+    {
+        "prefix": [
+            "..U.AB2A",
+            "..U.ETHIOPIC SYLLABLE BBI",
+            "U+AB2A",
+        ],
+        "body": [
+            "${1|ꬪ,&#xAB2A;,U+AB2A,0xAB2A,ETHIOPIC SYLLABLE BBI|}$2",
+        ],
+        "description": [
+            "Code: U+AB2A",
+            "Character/Symbol: ꬪ",
+            "Name: ETHIOPIC SYLLABLE BBI",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬫ U+AB2B ETHIOPIC SYLLABLE BBAA": 
+    {
+        "prefix": [
+            "..U.AB2B",
+            "..U.ETHIOPIC SYLLABLE BBAA",
+            "U+AB2B",
+        ],
+        "body": [
+            "${1|ꬫ,&#xAB2B;,U+AB2B,0xAB2B,ETHIOPIC SYLLABLE BBAA|}$2",
+        ],
+        "description": [
+            "Code: U+AB2B",
+            "Character/Symbol: ꬫ",
+            "Name: ETHIOPIC SYLLABLE BBAA",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬬ U+AB2C ETHIOPIC SYLLABLE BBEE": 
+    {
+        "prefix": [
+            "..U.AB2C",
+            "..U.ETHIOPIC SYLLABLE BBEE",
+            "U+AB2C",
+        ],
+        "body": [
+            "${1|ꬬ,&#xAB2C;,U+AB2C,0xAB2C,ETHIOPIC SYLLABLE BBEE|}$2",
+        ],
+        "description": [
+            "Code: U+AB2C",
+            "Character/Symbol: ꬬ",
+            "Name: ETHIOPIC SYLLABLE BBEE",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬭ U+AB2D ETHIOPIC SYLLABLE BBE": 
+    {
+        "prefix": [
+            "..U.AB2D",
+            "..U.ETHIOPIC SYLLABLE BBE",
+            "U+AB2D",
+        ],
+        "body": [
+            "${1|ꬭ,&#xAB2D;,U+AB2D,0xAB2D,ETHIOPIC SYLLABLE BBE|}$2",
+        ],
+        "description": [
+            "Code: U+AB2D",
+            "Character/Symbol: ꬭ",
+            "Name: ETHIOPIC SYLLABLE BBE",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+    "Unicode ꬮ U+AB2E ETHIOPIC SYLLABLE BBO": 
+    {
+        "prefix": [
+            "..U.AB2E",
+            "..U.ETHIOPIC SYLLABLE BBO",
+            "U+AB2E",
+        ],
+        "body": [
+            "${1|ꬮ,&#xAB2E;,U+AB2E,0xAB2E,ETHIOPIC SYLLABLE BBO|}$2",
+        ],
+        "description": [
+            "Code: U+AB2E",
+            "Character/Symbol: ꬮ",
+            "Name: ETHIOPIC SYLLABLE BBO",
+            "Group/Block: Ethiopic_Ext_A",
+        ],
+    },
+
+}

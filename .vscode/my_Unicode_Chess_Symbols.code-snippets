@@ -1,0 +1,1766 @@
+{
+    "Unicode 🨀 U+1FA00 NEUTRAL CHESS KING": 
+    {
+        "prefix": [
+            "..U.1FA00",
+            "..U.NEUTRAL CHESS KING",
+            "U+1FA00",
+        ],
+        "body": [
+            "${1|🨀,&#x1FA00;,U+1FA00,0x1FA00,NEUTRAL CHESS KING|}$2",
+        ],
+        "description": [
+            "Code: U+1FA00",
+            "Character/Symbol: 🨀",
+            "Name: NEUTRAL CHESS KING",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨁 U+1FA01 NEUTRAL CHESS QUEEN": 
+    {
+        "prefix": [
+            "..U.1FA01",
+            "..U.NEUTRAL CHESS QUEEN",
+            "U+1FA01",
+        ],
+        "body": [
+            "${1|🨁,&#x1FA01;,U+1FA01,0x1FA01,NEUTRAL CHESS QUEEN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA01",
+            "Character/Symbol: 🨁",
+            "Name: NEUTRAL CHESS QUEEN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨂 U+1FA02 NEUTRAL CHESS ROOK": 
+    {
+        "prefix": [
+            "..U.1FA02",
+            "..U.NEUTRAL CHESS ROOK",
+            "U+1FA02",
+        ],
+        "body": [
+            "${1|🨂,&#x1FA02;,U+1FA02,0x1FA02,NEUTRAL CHESS ROOK|}$2",
+        ],
+        "description": [
+            "Code: U+1FA02",
+            "Character/Symbol: 🨂",
+            "Name: NEUTRAL CHESS ROOK",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨃 U+1FA03 NEUTRAL CHESS BISHOP": 
+    {
+        "prefix": [
+            "..U.1FA03",
+            "..U.NEUTRAL CHESS BISHOP",
+            "U+1FA03",
+        ],
+        "body": [
+            "${1|🨃,&#x1FA03;,U+1FA03,0x1FA03,NEUTRAL CHESS BISHOP|}$2",
+        ],
+        "description": [
+            "Code: U+1FA03",
+            "Character/Symbol: 🨃",
+            "Name: NEUTRAL CHESS BISHOP",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨄 U+1FA04 NEUTRAL CHESS KNIGHT": 
+    {
+        "prefix": [
+            "..U.1FA04",
+            "..U.NEUTRAL CHESS KNIGHT",
+            "U+1FA04",
+        ],
+        "body": [
+            "${1|🨄,&#x1FA04;,U+1FA04,0x1FA04,NEUTRAL CHESS KNIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+1FA04",
+            "Character/Symbol: 🨄",
+            "Name: NEUTRAL CHESS KNIGHT",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨅 U+1FA05 NEUTRAL CHESS PAWN": 
+    {
+        "prefix": [
+            "..U.1FA05",
+            "..U.NEUTRAL CHESS PAWN",
+            "U+1FA05",
+        ],
+        "body": [
+            "${1|🨅,&#x1FA05;,U+1FA05,0x1FA05,NEUTRAL CHESS PAWN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA05",
+            "Character/Symbol: 🨅",
+            "Name: NEUTRAL CHESS PAWN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨆 U+1FA06 WHITE CHESS KNIGHT ROTATED FORTY-FIVE DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA06",
+            "..U.WHITE CHESS KNIGHT ROTATED FORTY-FIVE DEGREES",
+            "U+1FA06",
+        ],
+        "body": [
+            "${1|🨆,&#x1FA06;,U+1FA06,0x1FA06,WHITE CHESS KNIGHT ROTATED FORTY-FIVE DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA06",
+            "Character/Symbol: 🨆",
+            "Name: WHITE CHESS KNIGHT ROTATED FORTY-FIVE DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨇 U+1FA07 BLACK CHESS KNIGHT ROTATED FORTY-FIVE DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA07",
+            "..U.BLACK CHESS KNIGHT ROTATED FORTY-FIVE DEGREES",
+            "U+1FA07",
+        ],
+        "body": [
+            "${1|🨇,&#x1FA07;,U+1FA07,0x1FA07,BLACK CHESS KNIGHT ROTATED FORTY-FIVE DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA07",
+            "Character/Symbol: 🨇",
+            "Name: BLACK CHESS KNIGHT ROTATED FORTY-FIVE DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨈 U+1FA08 NEUTRAL CHESS KNIGHT ROTATED FORTY-FIVE DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA08",
+            "..U.NEUTRAL CHESS KNIGHT ROTATED FORTY-FIVE DEGREES",
+            "U+1FA08",
+        ],
+        "body": [
+            "${1|🨈,&#x1FA08;,U+1FA08,0x1FA08,NEUTRAL CHESS KNIGHT ROTATED FORTY-FIVE DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA08",
+            "Character/Symbol: 🨈",
+            "Name: NEUTRAL CHESS KNIGHT ROTATED FORTY-FIVE DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨉 U+1FA09 WHITE CHESS KING ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA09",
+            "..U.WHITE CHESS KING ROTATED NINETY DEGREES",
+            "U+1FA09",
+        ],
+        "body": [
+            "${1|🨉,&#x1FA09;,U+1FA09,0x1FA09,WHITE CHESS KING ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA09",
+            "Character/Symbol: 🨉",
+            "Name: WHITE CHESS KING ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨊 U+1FA0A WHITE CHESS QUEEN ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA0A",
+            "..U.WHITE CHESS QUEEN ROTATED NINETY DEGREES",
+            "U+1FA0A",
+        ],
+        "body": [
+            "${1|🨊,&#x1FA0A;,U+1FA0A,0x1FA0A,WHITE CHESS QUEEN ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA0A",
+            "Character/Symbol: 🨊",
+            "Name: WHITE CHESS QUEEN ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨋 U+1FA0B WHITE CHESS ROOK ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA0B",
+            "..U.WHITE CHESS ROOK ROTATED NINETY DEGREES",
+            "U+1FA0B",
+        ],
+        "body": [
+            "${1|🨋,&#x1FA0B;,U+1FA0B,0x1FA0B,WHITE CHESS ROOK ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA0B",
+            "Character/Symbol: 🨋",
+            "Name: WHITE CHESS ROOK ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨌 U+1FA0C WHITE CHESS BISHOP ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA0C",
+            "..U.WHITE CHESS BISHOP ROTATED NINETY DEGREES",
+            "U+1FA0C",
+        ],
+        "body": [
+            "${1|🨌,&#x1FA0C;,U+1FA0C,0x1FA0C,WHITE CHESS BISHOP ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA0C",
+            "Character/Symbol: 🨌",
+            "Name: WHITE CHESS BISHOP ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨍 U+1FA0D WHITE CHESS KNIGHT ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA0D",
+            "..U.WHITE CHESS KNIGHT ROTATED NINETY DEGREES",
+            "U+1FA0D",
+        ],
+        "body": [
+            "${1|🨍,&#x1FA0D;,U+1FA0D,0x1FA0D,WHITE CHESS KNIGHT ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA0D",
+            "Character/Symbol: 🨍",
+            "Name: WHITE CHESS KNIGHT ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨎 U+1FA0E WHITE CHESS PAWN ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA0E",
+            "..U.WHITE CHESS PAWN ROTATED NINETY DEGREES",
+            "U+1FA0E",
+        ],
+        "body": [
+            "${1|🨎,&#x1FA0E;,U+1FA0E,0x1FA0E,WHITE CHESS PAWN ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA0E",
+            "Character/Symbol: 🨎",
+            "Name: WHITE CHESS PAWN ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨏 U+1FA0F BLACK CHESS KING ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA0F",
+            "..U.BLACK CHESS KING ROTATED NINETY DEGREES",
+            "U+1FA0F",
+        ],
+        "body": [
+            "${1|🨏,&#x1FA0F;,U+1FA0F,0x1FA0F,BLACK CHESS KING ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA0F",
+            "Character/Symbol: 🨏",
+            "Name: BLACK CHESS KING ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨐 U+1FA10 BLACK CHESS QUEEN ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA10",
+            "..U.BLACK CHESS QUEEN ROTATED NINETY DEGREES",
+            "U+1FA10",
+        ],
+        "body": [
+            "${1|🨐,&#x1FA10;,U+1FA10,0x1FA10,BLACK CHESS QUEEN ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA10",
+            "Character/Symbol: 🨐",
+            "Name: BLACK CHESS QUEEN ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨑 U+1FA11 BLACK CHESS ROOK ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA11",
+            "..U.BLACK CHESS ROOK ROTATED NINETY DEGREES",
+            "U+1FA11",
+        ],
+        "body": [
+            "${1|🨑,&#x1FA11;,U+1FA11,0x1FA11,BLACK CHESS ROOK ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA11",
+            "Character/Symbol: 🨑",
+            "Name: BLACK CHESS ROOK ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨒 U+1FA12 BLACK CHESS BISHOP ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA12",
+            "..U.BLACK CHESS BISHOP ROTATED NINETY DEGREES",
+            "U+1FA12",
+        ],
+        "body": [
+            "${1|🨒,&#x1FA12;,U+1FA12,0x1FA12,BLACK CHESS BISHOP ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA12",
+            "Character/Symbol: 🨒",
+            "Name: BLACK CHESS BISHOP ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨓 U+1FA13 BLACK CHESS KNIGHT ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA13",
+            "..U.BLACK CHESS KNIGHT ROTATED NINETY DEGREES",
+            "U+1FA13",
+        ],
+        "body": [
+            "${1|🨓,&#x1FA13;,U+1FA13,0x1FA13,BLACK CHESS KNIGHT ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA13",
+            "Character/Symbol: 🨓",
+            "Name: BLACK CHESS KNIGHT ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨔 U+1FA14 BLACK CHESS PAWN ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA14",
+            "..U.BLACK CHESS PAWN ROTATED NINETY DEGREES",
+            "U+1FA14",
+        ],
+        "body": [
+            "${1|🨔,&#x1FA14;,U+1FA14,0x1FA14,BLACK CHESS PAWN ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA14",
+            "Character/Symbol: 🨔",
+            "Name: BLACK CHESS PAWN ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨕 U+1FA15 NEUTRAL CHESS KING ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA15",
+            "..U.NEUTRAL CHESS KING ROTATED NINETY DEGREES",
+            "U+1FA15",
+        ],
+        "body": [
+            "${1|🨕,&#x1FA15;,U+1FA15,0x1FA15,NEUTRAL CHESS KING ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA15",
+            "Character/Symbol: 🨕",
+            "Name: NEUTRAL CHESS KING ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨖 U+1FA16 NEUTRAL CHESS QUEEN ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA16",
+            "..U.NEUTRAL CHESS QUEEN ROTATED NINETY DEGREES",
+            "U+1FA16",
+        ],
+        "body": [
+            "${1|🨖,&#x1FA16;,U+1FA16,0x1FA16,NEUTRAL CHESS QUEEN ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA16",
+            "Character/Symbol: 🨖",
+            "Name: NEUTRAL CHESS QUEEN ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨗 U+1FA17 NEUTRAL CHESS ROOK ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA17",
+            "..U.NEUTRAL CHESS ROOK ROTATED NINETY DEGREES",
+            "U+1FA17",
+        ],
+        "body": [
+            "${1|🨗,&#x1FA17;,U+1FA17,0x1FA17,NEUTRAL CHESS ROOK ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA17",
+            "Character/Symbol: 🨗",
+            "Name: NEUTRAL CHESS ROOK ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨘 U+1FA18 NEUTRAL CHESS BISHOP ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA18",
+            "..U.NEUTRAL CHESS BISHOP ROTATED NINETY DEGREES",
+            "U+1FA18",
+        ],
+        "body": [
+            "${1|🨘,&#x1FA18;,U+1FA18,0x1FA18,NEUTRAL CHESS BISHOP ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA18",
+            "Character/Symbol: 🨘",
+            "Name: NEUTRAL CHESS BISHOP ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨙 U+1FA19 NEUTRAL CHESS KNIGHT ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA19",
+            "..U.NEUTRAL CHESS KNIGHT ROTATED NINETY DEGREES",
+            "U+1FA19",
+        ],
+        "body": [
+            "${1|🨙,&#x1FA19;,U+1FA19,0x1FA19,NEUTRAL CHESS KNIGHT ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA19",
+            "Character/Symbol: 🨙",
+            "Name: NEUTRAL CHESS KNIGHT ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨚 U+1FA1A NEUTRAL CHESS PAWN ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA1A",
+            "..U.NEUTRAL CHESS PAWN ROTATED NINETY DEGREES",
+            "U+1FA1A",
+        ],
+        "body": [
+            "${1|🨚,&#x1FA1A;,U+1FA1A,0x1FA1A,NEUTRAL CHESS PAWN ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA1A",
+            "Character/Symbol: 🨚",
+            "Name: NEUTRAL CHESS PAWN ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨛 U+1FA1B WHITE CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA1B",
+            "..U.WHITE CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES",
+            "U+1FA1B",
+        ],
+        "body": [
+            "${1|🨛,&#x1FA1B;,U+1FA1B,0x1FA1B,WHITE CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA1B",
+            "Character/Symbol: 🨛",
+            "Name: WHITE CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨜 U+1FA1C BLACK CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA1C",
+            "..U.BLACK CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES",
+            "U+1FA1C",
+        ],
+        "body": [
+            "${1|🨜,&#x1FA1C;,U+1FA1C,0x1FA1C,BLACK CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA1C",
+            "Character/Symbol: 🨜",
+            "Name: BLACK CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨝 U+1FA1D NEUTRAL CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA1D",
+            "..U.NEUTRAL CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES",
+            "U+1FA1D",
+        ],
+        "body": [
+            "${1|🨝,&#x1FA1D;,U+1FA1D,0x1FA1D,NEUTRAL CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA1D",
+            "Character/Symbol: 🨝",
+            "Name: NEUTRAL CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨞 U+1FA1E WHITE CHESS TURNED KING": 
+    {
+        "prefix": [
+            "..U.1FA1E",
+            "..U.WHITE CHESS TURNED KING",
+            "U+1FA1E",
+        ],
+        "body": [
+            "${1|🨞,&#x1FA1E;,U+1FA1E,0x1FA1E,WHITE CHESS TURNED KING|}$2",
+        ],
+        "description": [
+            "Code: U+1FA1E",
+            "Character/Symbol: 🨞",
+            "Name: WHITE CHESS TURNED KING",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨟 U+1FA1F WHITE CHESS TURNED QUEEN": 
+    {
+        "prefix": [
+            "..U.1FA1F",
+            "..U.WHITE CHESS TURNED QUEEN",
+            "U+1FA1F",
+        ],
+        "body": [
+            "${1|🨟,&#x1FA1F;,U+1FA1F,0x1FA1F,WHITE CHESS TURNED QUEEN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA1F",
+            "Character/Symbol: 🨟",
+            "Name: WHITE CHESS TURNED QUEEN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨠 U+1FA20 WHITE CHESS TURNED ROOK": 
+    {
+        "prefix": [
+            "..U.1FA20",
+            "..U.WHITE CHESS TURNED ROOK",
+            "U+1FA20",
+        ],
+        "body": [
+            "${1|🨠,&#x1FA20;,U+1FA20,0x1FA20,WHITE CHESS TURNED ROOK|}$2",
+        ],
+        "description": [
+            "Code: U+1FA20",
+            "Character/Symbol: 🨠",
+            "Name: WHITE CHESS TURNED ROOK",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨡 U+1FA21 WHITE CHESS TURNED BISHOP": 
+    {
+        "prefix": [
+            "..U.1FA21",
+            "..U.WHITE CHESS TURNED BISHOP",
+            "U+1FA21",
+        ],
+        "body": [
+            "${1|🨡,&#x1FA21;,U+1FA21,0x1FA21,WHITE CHESS TURNED BISHOP|}$2",
+        ],
+        "description": [
+            "Code: U+1FA21",
+            "Character/Symbol: 🨡",
+            "Name: WHITE CHESS TURNED BISHOP",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨢 U+1FA22 WHITE CHESS TURNED KNIGHT": 
+    {
+        "prefix": [
+            "..U.1FA22",
+            "..U.WHITE CHESS TURNED KNIGHT",
+            "U+1FA22",
+        ],
+        "body": [
+            "${1|🨢,&#x1FA22;,U+1FA22,0x1FA22,WHITE CHESS TURNED KNIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+1FA22",
+            "Character/Symbol: 🨢",
+            "Name: WHITE CHESS TURNED KNIGHT",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨣 U+1FA23 WHITE CHESS TURNED PAWN": 
+    {
+        "prefix": [
+            "..U.1FA23",
+            "..U.WHITE CHESS TURNED PAWN",
+            "U+1FA23",
+        ],
+        "body": [
+            "${1|🨣,&#x1FA23;,U+1FA23,0x1FA23,WHITE CHESS TURNED PAWN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA23",
+            "Character/Symbol: 🨣",
+            "Name: WHITE CHESS TURNED PAWN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨤 U+1FA24 BLACK CHESS TURNED KING": 
+    {
+        "prefix": [
+            "..U.1FA24",
+            "..U.BLACK CHESS TURNED KING",
+            "U+1FA24",
+        ],
+        "body": [
+            "${1|🨤,&#x1FA24;,U+1FA24,0x1FA24,BLACK CHESS TURNED KING|}$2",
+        ],
+        "description": [
+            "Code: U+1FA24",
+            "Character/Symbol: 🨤",
+            "Name: BLACK CHESS TURNED KING",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨥 U+1FA25 BLACK CHESS TURNED QUEEN": 
+    {
+        "prefix": [
+            "..U.1FA25",
+            "..U.BLACK CHESS TURNED QUEEN",
+            "U+1FA25",
+        ],
+        "body": [
+            "${1|🨥,&#x1FA25;,U+1FA25,0x1FA25,BLACK CHESS TURNED QUEEN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA25",
+            "Character/Symbol: 🨥",
+            "Name: BLACK CHESS TURNED QUEEN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨦 U+1FA26 BLACK CHESS TURNED ROOK": 
+    {
+        "prefix": [
+            "..U.1FA26",
+            "..U.BLACK CHESS TURNED ROOK",
+            "U+1FA26",
+        ],
+        "body": [
+            "${1|🨦,&#x1FA26;,U+1FA26,0x1FA26,BLACK CHESS TURNED ROOK|}$2",
+        ],
+        "description": [
+            "Code: U+1FA26",
+            "Character/Symbol: 🨦",
+            "Name: BLACK CHESS TURNED ROOK",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨧 U+1FA27 BLACK CHESS TURNED BISHOP": 
+    {
+        "prefix": [
+            "..U.1FA27",
+            "..U.BLACK CHESS TURNED BISHOP",
+            "U+1FA27",
+        ],
+        "body": [
+            "${1|🨧,&#x1FA27;,U+1FA27,0x1FA27,BLACK CHESS TURNED BISHOP|}$2",
+        ],
+        "description": [
+            "Code: U+1FA27",
+            "Character/Symbol: 🨧",
+            "Name: BLACK CHESS TURNED BISHOP",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨨 U+1FA28 BLACK CHESS TURNED KNIGHT": 
+    {
+        "prefix": [
+            "..U.1FA28",
+            "..U.BLACK CHESS TURNED KNIGHT",
+            "U+1FA28",
+        ],
+        "body": [
+            "${1|🨨,&#x1FA28;,U+1FA28,0x1FA28,BLACK CHESS TURNED KNIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+1FA28",
+            "Character/Symbol: 🨨",
+            "Name: BLACK CHESS TURNED KNIGHT",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨩 U+1FA29 BLACK CHESS TURNED PAWN": 
+    {
+        "prefix": [
+            "..U.1FA29",
+            "..U.BLACK CHESS TURNED PAWN",
+            "U+1FA29",
+        ],
+        "body": [
+            "${1|🨩,&#x1FA29;,U+1FA29,0x1FA29,BLACK CHESS TURNED PAWN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA29",
+            "Character/Symbol: 🨩",
+            "Name: BLACK CHESS TURNED PAWN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨪 U+1FA2A NEUTRAL CHESS TURNED KING": 
+    {
+        "prefix": [
+            "..U.1FA2A",
+            "..U.NEUTRAL CHESS TURNED KING",
+            "U+1FA2A",
+        ],
+        "body": [
+            "${1|🨪,&#x1FA2A;,U+1FA2A,0x1FA2A,NEUTRAL CHESS TURNED KING|}$2",
+        ],
+        "description": [
+            "Code: U+1FA2A",
+            "Character/Symbol: 🨪",
+            "Name: NEUTRAL CHESS TURNED KING",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨫 U+1FA2B NEUTRAL CHESS TURNED QUEEN": 
+    {
+        "prefix": [
+            "..U.1FA2B",
+            "..U.NEUTRAL CHESS TURNED QUEEN",
+            "U+1FA2B",
+        ],
+        "body": [
+            "${1|🨫,&#x1FA2B;,U+1FA2B,0x1FA2B,NEUTRAL CHESS TURNED QUEEN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA2B",
+            "Character/Symbol: 🨫",
+            "Name: NEUTRAL CHESS TURNED QUEEN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨬 U+1FA2C NEUTRAL CHESS TURNED ROOK": 
+    {
+        "prefix": [
+            "..U.1FA2C",
+            "..U.NEUTRAL CHESS TURNED ROOK",
+            "U+1FA2C",
+        ],
+        "body": [
+            "${1|🨬,&#x1FA2C;,U+1FA2C,0x1FA2C,NEUTRAL CHESS TURNED ROOK|}$2",
+        ],
+        "description": [
+            "Code: U+1FA2C",
+            "Character/Symbol: 🨬",
+            "Name: NEUTRAL CHESS TURNED ROOK",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨭 U+1FA2D NEUTRAL CHESS TURNED BISHOP": 
+    {
+        "prefix": [
+            "..U.1FA2D",
+            "..U.NEUTRAL CHESS TURNED BISHOP",
+            "U+1FA2D",
+        ],
+        "body": [
+            "${1|🨭,&#x1FA2D;,U+1FA2D,0x1FA2D,NEUTRAL CHESS TURNED BISHOP|}$2",
+        ],
+        "description": [
+            "Code: U+1FA2D",
+            "Character/Symbol: 🨭",
+            "Name: NEUTRAL CHESS TURNED BISHOP",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨮 U+1FA2E NEUTRAL CHESS TURNED KNIGHT": 
+    {
+        "prefix": [
+            "..U.1FA2E",
+            "..U.NEUTRAL CHESS TURNED KNIGHT",
+            "U+1FA2E",
+        ],
+        "body": [
+            "${1|🨮,&#x1FA2E;,U+1FA2E,0x1FA2E,NEUTRAL CHESS TURNED KNIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+1FA2E",
+            "Character/Symbol: 🨮",
+            "Name: NEUTRAL CHESS TURNED KNIGHT",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨯 U+1FA2F NEUTRAL CHESS TURNED PAWN": 
+    {
+        "prefix": [
+            "..U.1FA2F",
+            "..U.NEUTRAL CHESS TURNED PAWN",
+            "U+1FA2F",
+        ],
+        "body": [
+            "${1|🨯,&#x1FA2F;,U+1FA2F,0x1FA2F,NEUTRAL CHESS TURNED PAWN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA2F",
+            "Character/Symbol: 🨯",
+            "Name: NEUTRAL CHESS TURNED PAWN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨰 U+1FA30 WHITE CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA30",
+            "..U.WHITE CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES",
+            "U+1FA30",
+        ],
+        "body": [
+            "${1|🨰,&#x1FA30;,U+1FA30,0x1FA30,WHITE CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA30",
+            "Character/Symbol: 🨰",
+            "Name: WHITE CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨱 U+1FA31 BLACK CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA31",
+            "..U.BLACK CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES",
+            "U+1FA31",
+        ],
+        "body": [
+            "${1|🨱,&#x1FA31;,U+1FA31,0x1FA31,BLACK CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA31",
+            "Character/Symbol: 🨱",
+            "Name: BLACK CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨲 U+1FA32 NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA32",
+            "..U.NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES",
+            "U+1FA32",
+        ],
+        "body": [
+            "${1|🨲,&#x1FA32;,U+1FA32,0x1FA32,NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA32",
+            "Character/Symbol: 🨲",
+            "Name: NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨳 U+1FA33 WHITE CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA33",
+            "..U.WHITE CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA33",
+        ],
+        "body": [
+            "${1|🨳,&#x1FA33;,U+1FA33,0x1FA33,WHITE CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA33",
+            "Character/Symbol: 🨳",
+            "Name: WHITE CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨴 U+1FA34 WHITE CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA34",
+            "..U.WHITE CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA34",
+        ],
+        "body": [
+            "${1|🨴,&#x1FA34;,U+1FA34,0x1FA34,WHITE CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA34",
+            "Character/Symbol: 🨴",
+            "Name: WHITE CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨵 U+1FA35 WHITE CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA35",
+            "..U.WHITE CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA35",
+        ],
+        "body": [
+            "${1|🨵,&#x1FA35;,U+1FA35,0x1FA35,WHITE CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA35",
+            "Character/Symbol: 🨵",
+            "Name: WHITE CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨶 U+1FA36 WHITE CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA36",
+            "..U.WHITE CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA36",
+        ],
+        "body": [
+            "${1|🨶,&#x1FA36;,U+1FA36,0x1FA36,WHITE CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA36",
+            "Character/Symbol: 🨶",
+            "Name: WHITE CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨷 U+1FA37 WHITE CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA37",
+            "..U.WHITE CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA37",
+        ],
+        "body": [
+            "${1|🨷,&#x1FA37;,U+1FA37,0x1FA37,WHITE CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA37",
+            "Character/Symbol: 🨷",
+            "Name: WHITE CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨸 U+1FA38 WHITE CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA38",
+            "..U.WHITE CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA38",
+        ],
+        "body": [
+            "${1|🨸,&#x1FA38;,U+1FA38,0x1FA38,WHITE CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA38",
+            "Character/Symbol: 🨸",
+            "Name: WHITE CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨹 U+1FA39 BLACK CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA39",
+            "..U.BLACK CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA39",
+        ],
+        "body": [
+            "${1|🨹,&#x1FA39;,U+1FA39,0x1FA39,BLACK CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA39",
+            "Character/Symbol: 🨹",
+            "Name: BLACK CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨺 U+1FA3A BLACK CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA3A",
+            "..U.BLACK CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA3A",
+        ],
+        "body": [
+            "${1|🨺,&#x1FA3A;,U+1FA3A,0x1FA3A,BLACK CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA3A",
+            "Character/Symbol: 🨺",
+            "Name: BLACK CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨻 U+1FA3B BLACK CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA3B",
+            "..U.BLACK CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA3B",
+        ],
+        "body": [
+            "${1|🨻,&#x1FA3B;,U+1FA3B,0x1FA3B,BLACK CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA3B",
+            "Character/Symbol: 🨻",
+            "Name: BLACK CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨼 U+1FA3C BLACK CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA3C",
+            "..U.BLACK CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA3C",
+        ],
+        "body": [
+            "${1|🨼,&#x1FA3C;,U+1FA3C,0x1FA3C,BLACK CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA3C",
+            "Character/Symbol: 🨼",
+            "Name: BLACK CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨽 U+1FA3D BLACK CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA3D",
+            "..U.BLACK CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA3D",
+        ],
+        "body": [
+            "${1|🨽,&#x1FA3D;,U+1FA3D,0x1FA3D,BLACK CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA3D",
+            "Character/Symbol: 🨽",
+            "Name: BLACK CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨾 U+1FA3E BLACK CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA3E",
+            "..U.BLACK CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA3E",
+        ],
+        "body": [
+            "${1|🨾,&#x1FA3E;,U+1FA3E,0x1FA3E,BLACK CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA3E",
+            "Character/Symbol: 🨾",
+            "Name: BLACK CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🨿 U+1FA3F NEUTRAL CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA3F",
+            "..U.NEUTRAL CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA3F",
+        ],
+        "body": [
+            "${1|🨿,&#x1FA3F;,U+1FA3F,0x1FA3F,NEUTRAL CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA3F",
+            "Character/Symbol: 🨿",
+            "Name: NEUTRAL CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩀 U+1FA40 NEUTRAL CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA40",
+            "..U.NEUTRAL CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA40",
+        ],
+        "body": [
+            "${1|🩀,&#x1FA40;,U+1FA40,0x1FA40,NEUTRAL CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA40",
+            "Character/Symbol: 🩀",
+            "Name: NEUTRAL CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩁 U+1FA41 NEUTRAL CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA41",
+            "..U.NEUTRAL CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA41",
+        ],
+        "body": [
+            "${1|🩁,&#x1FA41;,U+1FA41,0x1FA41,NEUTRAL CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA41",
+            "Character/Symbol: 🩁",
+            "Name: NEUTRAL CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩂 U+1FA42 NEUTRAL CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA42",
+            "..U.NEUTRAL CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA42",
+        ],
+        "body": [
+            "${1|🩂,&#x1FA42;,U+1FA42,0x1FA42,NEUTRAL CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA42",
+            "Character/Symbol: 🩂",
+            "Name: NEUTRAL CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩃 U+1FA43 NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA43",
+            "..U.NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA43",
+        ],
+        "body": [
+            "${1|🩃,&#x1FA43;,U+1FA43,0x1FA43,NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA43",
+            "Character/Symbol: 🩃",
+            "Name: NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩄 U+1FA44 NEUTRAL CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA44",
+            "..U.NEUTRAL CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "U+1FA44",
+        ],
+        "body": [
+            "${1|🩄,&#x1FA44;,U+1FA44,0x1FA44,NEUTRAL CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA44",
+            "Character/Symbol: 🩄",
+            "Name: NEUTRAL CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩅 U+1FA45 WHITE CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA45",
+            "..U.WHITE CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES",
+            "U+1FA45",
+        ],
+        "body": [
+            "${1|🩅,&#x1FA45;,U+1FA45,0x1FA45,WHITE CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA45",
+            "Character/Symbol: 🩅",
+            "Name: WHITE CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩆 U+1FA46 BLACK CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA46",
+            "..U.BLACK CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES",
+            "U+1FA46",
+        ],
+        "body": [
+            "${1|🩆,&#x1FA46;,U+1FA46,0x1FA46,BLACK CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA46",
+            "Character/Symbol: 🩆",
+            "Name: BLACK CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩇 U+1FA47 NEUTRAL CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA47",
+            "..U.NEUTRAL CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES",
+            "U+1FA47",
+        ],
+        "body": [
+            "${1|🩇,&#x1FA47;,U+1FA47,0x1FA47,NEUTRAL CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA47",
+            "Character/Symbol: 🩇",
+            "Name: NEUTRAL CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩈 U+1FA48 WHITE CHESS EQUIHOPPER": 
+    {
+        "prefix": [
+            "..U.1FA48",
+            "..U.WHITE CHESS EQUIHOPPER",
+            "U+1FA48",
+        ],
+        "body": [
+            "${1|🩈,&#x1FA48;,U+1FA48,0x1FA48,WHITE CHESS EQUIHOPPER|}$2",
+        ],
+        "description": [
+            "Code: U+1FA48",
+            "Character/Symbol: 🩈",
+            "Name: WHITE CHESS EQUIHOPPER",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩉 U+1FA49 BLACK CHESS EQUIHOPPER": 
+    {
+        "prefix": [
+            "..U.1FA49",
+            "..U.BLACK CHESS EQUIHOPPER",
+            "U+1FA49",
+        ],
+        "body": [
+            "${1|🩉,&#x1FA49;,U+1FA49,0x1FA49,BLACK CHESS EQUIHOPPER|}$2",
+        ],
+        "description": [
+            "Code: U+1FA49",
+            "Character/Symbol: 🩉",
+            "Name: BLACK CHESS EQUIHOPPER",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩊 U+1FA4A NEUTRAL CHESS EQUIHOPPER": 
+    {
+        "prefix": [
+            "..U.1FA4A",
+            "..U.NEUTRAL CHESS EQUIHOPPER",
+            "U+1FA4A",
+        ],
+        "body": [
+            "${1|🩊,&#x1FA4A;,U+1FA4A,0x1FA4A,NEUTRAL CHESS EQUIHOPPER|}$2",
+        ],
+        "description": [
+            "Code: U+1FA4A",
+            "Character/Symbol: 🩊",
+            "Name: NEUTRAL CHESS EQUIHOPPER",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩋 U+1FA4B WHITE CHESS EQUIHOPPER ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA4B",
+            "..U.WHITE CHESS EQUIHOPPER ROTATED NINETY DEGREES",
+            "U+1FA4B",
+        ],
+        "body": [
+            "${1|🩋,&#x1FA4B;,U+1FA4B,0x1FA4B,WHITE CHESS EQUIHOPPER ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA4B",
+            "Character/Symbol: 🩋",
+            "Name: WHITE CHESS EQUIHOPPER ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩌 U+1FA4C BLACK CHESS EQUIHOPPER ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA4C",
+            "..U.BLACK CHESS EQUIHOPPER ROTATED NINETY DEGREES",
+            "U+1FA4C",
+        ],
+        "body": [
+            "${1|🩌,&#x1FA4C;,U+1FA4C,0x1FA4C,BLACK CHESS EQUIHOPPER ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA4C",
+            "Character/Symbol: 🩌",
+            "Name: BLACK CHESS EQUIHOPPER ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩍 U+1FA4D NEUTRAL CHESS EQUIHOPPER ROTATED NINETY DEGREES": 
+    {
+        "prefix": [
+            "..U.1FA4D",
+            "..U.NEUTRAL CHESS EQUIHOPPER ROTATED NINETY DEGREES",
+            "U+1FA4D",
+        ],
+        "body": [
+            "${1|🩍,&#x1FA4D;,U+1FA4D,0x1FA4D,NEUTRAL CHESS EQUIHOPPER ROTATED NINETY DEGREES|}$2",
+        ],
+        "description": [
+            "Code: U+1FA4D",
+            "Character/Symbol: 🩍",
+            "Name: NEUTRAL CHESS EQUIHOPPER ROTATED NINETY DEGREES",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩎 U+1FA4E WHITE CHESS KNIGHT-QUEEN": 
+    {
+        "prefix": [
+            "..U.1FA4E",
+            "..U.WHITE CHESS KNIGHT-QUEEN",
+            "U+1FA4E",
+        ],
+        "body": [
+            "${1|🩎,&#x1FA4E;,U+1FA4E,0x1FA4E,WHITE CHESS KNIGHT-QUEEN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA4E",
+            "Character/Symbol: 🩎",
+            "Name: WHITE CHESS KNIGHT-QUEEN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩏 U+1FA4F WHITE CHESS KNIGHT-ROOK": 
+    {
+        "prefix": [
+            "..U.1FA4F",
+            "..U.WHITE CHESS KNIGHT-ROOK",
+            "U+1FA4F",
+        ],
+        "body": [
+            "${1|🩏,&#x1FA4F;,U+1FA4F,0x1FA4F,WHITE CHESS KNIGHT-ROOK|}$2",
+        ],
+        "description": [
+            "Code: U+1FA4F",
+            "Character/Symbol: 🩏",
+            "Name: WHITE CHESS KNIGHT-ROOK",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩐 U+1FA50 WHITE CHESS KNIGHT-BISHOP": 
+    {
+        "prefix": [
+            "..U.1FA50",
+            "..U.WHITE CHESS KNIGHT-BISHOP",
+            "U+1FA50",
+        ],
+        "body": [
+            "${1|🩐,&#x1FA50;,U+1FA50,0x1FA50,WHITE CHESS KNIGHT-BISHOP|}$2",
+        ],
+        "description": [
+            "Code: U+1FA50",
+            "Character/Symbol: 🩐",
+            "Name: WHITE CHESS KNIGHT-BISHOP",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩑 U+1FA51 BLACK CHESS KNIGHT-QUEEN": 
+    {
+        "prefix": [
+            "..U.1FA51",
+            "..U.BLACK CHESS KNIGHT-QUEEN",
+            "U+1FA51",
+        ],
+        "body": [
+            "${1|🩑,&#x1FA51;,U+1FA51,0x1FA51,BLACK CHESS KNIGHT-QUEEN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA51",
+            "Character/Symbol: 🩑",
+            "Name: BLACK CHESS KNIGHT-QUEEN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩒 U+1FA52 BLACK CHESS KNIGHT-ROOK": 
+    {
+        "prefix": [
+            "..U.1FA52",
+            "..U.BLACK CHESS KNIGHT-ROOK",
+            "U+1FA52",
+        ],
+        "body": [
+            "${1|🩒,&#x1FA52;,U+1FA52,0x1FA52,BLACK CHESS KNIGHT-ROOK|}$2",
+        ],
+        "description": [
+            "Code: U+1FA52",
+            "Character/Symbol: 🩒",
+            "Name: BLACK CHESS KNIGHT-ROOK",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩓 U+1FA53 BLACK CHESS KNIGHT-BISHOP": 
+    {
+        "prefix": [
+            "..U.1FA53",
+            "..U.BLACK CHESS KNIGHT-BISHOP",
+            "U+1FA53",
+        ],
+        "body": [
+            "${1|🩓,&#x1FA53;,U+1FA53,0x1FA53,BLACK CHESS KNIGHT-BISHOP|}$2",
+        ],
+        "description": [
+            "Code: U+1FA53",
+            "Character/Symbol: 🩓",
+            "Name: BLACK CHESS KNIGHT-BISHOP",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩠 U+1FA60 XIANGQI RED GENERAL": 
+    {
+        "prefix": [
+            "..U.1FA60",
+            "..U.XIANGQI RED GENERAL",
+            "U+1FA60",
+        ],
+        "body": [
+            "${1|🩠,&#x1FA60;,U+1FA60,0x1FA60,XIANGQI RED GENERAL|}$2",
+        ],
+        "description": [
+            "Code: U+1FA60",
+            "Character/Symbol: 🩠",
+            "Name: XIANGQI RED GENERAL",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩡 U+1FA61 XIANGQI RED MANDARIN": 
+    {
+        "prefix": [
+            "..U.1FA61",
+            "..U.XIANGQI RED MANDARIN",
+            "U+1FA61",
+        ],
+        "body": [
+            "${1|🩡,&#x1FA61;,U+1FA61,0x1FA61,XIANGQI RED MANDARIN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA61",
+            "Character/Symbol: 🩡",
+            "Name: XIANGQI RED MANDARIN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩢 U+1FA62 XIANGQI RED ELEPHANT": 
+    {
+        "prefix": [
+            "..U.1FA62",
+            "..U.XIANGQI RED ELEPHANT",
+            "U+1FA62",
+        ],
+        "body": [
+            "${1|🩢,&#x1FA62;,U+1FA62,0x1FA62,XIANGQI RED ELEPHANT|}$2",
+        ],
+        "description": [
+            "Code: U+1FA62",
+            "Character/Symbol: 🩢",
+            "Name: XIANGQI RED ELEPHANT",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩣 U+1FA63 XIANGQI RED HORSE": 
+    {
+        "prefix": [
+            "..U.1FA63",
+            "..U.XIANGQI RED HORSE",
+            "U+1FA63",
+        ],
+        "body": [
+            "${1|🩣,&#x1FA63;,U+1FA63,0x1FA63,XIANGQI RED HORSE|}$2",
+        ],
+        "description": [
+            "Code: U+1FA63",
+            "Character/Symbol: 🩣",
+            "Name: XIANGQI RED HORSE",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩤 U+1FA64 XIANGQI RED CHARIOT": 
+    {
+        "prefix": [
+            "..U.1FA64",
+            "..U.XIANGQI RED CHARIOT",
+            "U+1FA64",
+        ],
+        "body": [
+            "${1|🩤,&#x1FA64;,U+1FA64,0x1FA64,XIANGQI RED CHARIOT|}$2",
+        ],
+        "description": [
+            "Code: U+1FA64",
+            "Character/Symbol: 🩤",
+            "Name: XIANGQI RED CHARIOT",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩥 U+1FA65 XIANGQI RED CANNON": 
+    {
+        "prefix": [
+            "..U.1FA65",
+            "..U.XIANGQI RED CANNON",
+            "U+1FA65",
+        ],
+        "body": [
+            "${1|🩥,&#x1FA65;,U+1FA65,0x1FA65,XIANGQI RED CANNON|}$2",
+        ],
+        "description": [
+            "Code: U+1FA65",
+            "Character/Symbol: 🩥",
+            "Name: XIANGQI RED CANNON",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩦 U+1FA66 XIANGQI RED SOLDIER": 
+    {
+        "prefix": [
+            "..U.1FA66",
+            "..U.XIANGQI RED SOLDIER",
+            "U+1FA66",
+        ],
+        "body": [
+            "${1|🩦,&#x1FA66;,U+1FA66,0x1FA66,XIANGQI RED SOLDIER|}$2",
+        ],
+        "description": [
+            "Code: U+1FA66",
+            "Character/Symbol: 🩦",
+            "Name: XIANGQI RED SOLDIER",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩧 U+1FA67 XIANGQI BLACK GENERAL": 
+    {
+        "prefix": [
+            "..U.1FA67",
+            "..U.XIANGQI BLACK GENERAL",
+            "U+1FA67",
+        ],
+        "body": [
+            "${1|🩧,&#x1FA67;,U+1FA67,0x1FA67,XIANGQI BLACK GENERAL|}$2",
+        ],
+        "description": [
+            "Code: U+1FA67",
+            "Character/Symbol: 🩧",
+            "Name: XIANGQI BLACK GENERAL",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩨 U+1FA68 XIANGQI BLACK MANDARIN": 
+    {
+        "prefix": [
+            "..U.1FA68",
+            "..U.XIANGQI BLACK MANDARIN",
+            "U+1FA68",
+        ],
+        "body": [
+            "${1|🩨,&#x1FA68;,U+1FA68,0x1FA68,XIANGQI BLACK MANDARIN|}$2",
+        ],
+        "description": [
+            "Code: U+1FA68",
+            "Character/Symbol: 🩨",
+            "Name: XIANGQI BLACK MANDARIN",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩩 U+1FA69 XIANGQI BLACK ELEPHANT": 
+    {
+        "prefix": [
+            "..U.1FA69",
+            "..U.XIANGQI BLACK ELEPHANT",
+            "U+1FA69",
+        ],
+        "body": [
+            "${1|🩩,&#x1FA69;,U+1FA69,0x1FA69,XIANGQI BLACK ELEPHANT|}$2",
+        ],
+        "description": [
+            "Code: U+1FA69",
+            "Character/Symbol: 🩩",
+            "Name: XIANGQI BLACK ELEPHANT",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩪 U+1FA6A XIANGQI BLACK HORSE": 
+    {
+        "prefix": [
+            "..U.1FA6A",
+            "..U.XIANGQI BLACK HORSE",
+            "U+1FA6A",
+        ],
+        "body": [
+            "${1|🩪,&#x1FA6A;,U+1FA6A,0x1FA6A,XIANGQI BLACK HORSE|}$2",
+        ],
+        "description": [
+            "Code: U+1FA6A",
+            "Character/Symbol: 🩪",
+            "Name: XIANGQI BLACK HORSE",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩫 U+1FA6B XIANGQI BLACK CHARIOT": 
+    {
+        "prefix": [
+            "..U.1FA6B",
+            "..U.XIANGQI BLACK CHARIOT",
+            "U+1FA6B",
+        ],
+        "body": [
+            "${1|🩫,&#x1FA6B;,U+1FA6B,0x1FA6B,XIANGQI BLACK CHARIOT|}$2",
+        ],
+        "description": [
+            "Code: U+1FA6B",
+            "Character/Symbol: 🩫",
+            "Name: XIANGQI BLACK CHARIOT",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩬 U+1FA6C XIANGQI BLACK CANNON": 
+    {
+        "prefix": [
+            "..U.1FA6C",
+            "..U.XIANGQI BLACK CANNON",
+            "U+1FA6C",
+        ],
+        "body": [
+            "${1|🩬,&#x1FA6C;,U+1FA6C,0x1FA6C,XIANGQI BLACK CANNON|}$2",
+        ],
+        "description": [
+            "Code: U+1FA6C",
+            "Character/Symbol: 🩬",
+            "Name: XIANGQI BLACK CANNON",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+    "Unicode 🩭 U+1FA6D XIANGQI BLACK SOLDIER": 
+    {
+        "prefix": [
+            "..U.1FA6D",
+            "..U.XIANGQI BLACK SOLDIER",
+            "U+1FA6D",
+        ],
+        "body": [
+            "${1|🩭,&#x1FA6D;,U+1FA6D,0x1FA6D,XIANGQI BLACK SOLDIER|}$2",
+        ],
+        "description": [
+            "Code: U+1FA6D",
+            "Character/Symbol: 🩭",
+            "Name: XIANGQI BLACK SOLDIER",
+            "Group/Block: Chess_Symbols",
+        ],
+    },
+
+}

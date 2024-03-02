@@ -1,0 +1,722 @@
+{
+    "Unicode ⴀ U+2D00 GEORGIAN SMALL LETTER AN": 
+    {
+        "prefix": [
+            "..U.2D00",
+            "..U.GEORGIAN SMALL LETTER AN",
+            "U+2D00",
+        ],
+        "body": [
+            "${1|ⴀ,&#x2D00;,U+2D00,0x2D00,GEORGIAN SMALL LETTER AN|}$2",
+        ],
+        "description": [
+            "Code: U+2D00",
+            "Character/Symbol: ⴀ",
+            "Name: GEORGIAN SMALL LETTER AN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴁ U+2D01 GEORGIAN SMALL LETTER BAN": 
+    {
+        "prefix": [
+            "..U.2D01",
+            "..U.GEORGIAN SMALL LETTER BAN",
+            "U+2D01",
+        ],
+        "body": [
+            "${1|ⴁ,&#x2D01;,U+2D01,0x2D01,GEORGIAN SMALL LETTER BAN|}$2",
+        ],
+        "description": [
+            "Code: U+2D01",
+            "Character/Symbol: ⴁ",
+            "Name: GEORGIAN SMALL LETTER BAN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴂ U+2D02 GEORGIAN SMALL LETTER GAN": 
+    {
+        "prefix": [
+            "..U.2D02",
+            "..U.GEORGIAN SMALL LETTER GAN",
+            "U+2D02",
+        ],
+        "body": [
+            "${1|ⴂ,&#x2D02;,U+2D02,0x2D02,GEORGIAN SMALL LETTER GAN|}$2",
+        ],
+        "description": [
+            "Code: U+2D02",
+            "Character/Symbol: ⴂ",
+            "Name: GEORGIAN SMALL LETTER GAN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴃ U+2D03 GEORGIAN SMALL LETTER DON": 
+    {
+        "prefix": [
+            "..U.2D03",
+            "..U.GEORGIAN SMALL LETTER DON",
+            "U+2D03",
+        ],
+        "body": [
+            "${1|ⴃ,&#x2D03;,U+2D03,0x2D03,GEORGIAN SMALL LETTER DON|}$2",
+        ],
+        "description": [
+            "Code: U+2D03",
+            "Character/Symbol: ⴃ",
+            "Name: GEORGIAN SMALL LETTER DON",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴄ U+2D04 GEORGIAN SMALL LETTER EN": 
+    {
+        "prefix": [
+            "..U.2D04",
+            "..U.GEORGIAN SMALL LETTER EN",
+            "U+2D04",
+        ],
+        "body": [
+            "${1|ⴄ,&#x2D04;,U+2D04,0x2D04,GEORGIAN SMALL LETTER EN|}$2",
+        ],
+        "description": [
+            "Code: U+2D04",
+            "Character/Symbol: ⴄ",
+            "Name: GEORGIAN SMALL LETTER EN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴅ U+2D05 GEORGIAN SMALL LETTER VIN": 
+    {
+        "prefix": [
+            "..U.2D05",
+            "..U.GEORGIAN SMALL LETTER VIN",
+            "U+2D05",
+        ],
+        "body": [
+            "${1|ⴅ,&#x2D05;,U+2D05,0x2D05,GEORGIAN SMALL LETTER VIN|}$2",
+        ],
+        "description": [
+            "Code: U+2D05",
+            "Character/Symbol: ⴅ",
+            "Name: GEORGIAN SMALL LETTER VIN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴆ U+2D06 GEORGIAN SMALL LETTER ZEN": 
+    {
+        "prefix": [
+            "..U.2D06",
+            "..U.GEORGIAN SMALL LETTER ZEN",
+            "U+2D06",
+        ],
+        "body": [
+            "${1|ⴆ,&#x2D06;,U+2D06,0x2D06,GEORGIAN SMALL LETTER ZEN|}$2",
+        ],
+        "description": [
+            "Code: U+2D06",
+            "Character/Symbol: ⴆ",
+            "Name: GEORGIAN SMALL LETTER ZEN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴇ U+2D07 GEORGIAN SMALL LETTER TAN": 
+    {
+        "prefix": [
+            "..U.2D07",
+            "..U.GEORGIAN SMALL LETTER TAN",
+            "U+2D07",
+        ],
+        "body": [
+            "${1|ⴇ,&#x2D07;,U+2D07,0x2D07,GEORGIAN SMALL LETTER TAN|}$2",
+        ],
+        "description": [
+            "Code: U+2D07",
+            "Character/Symbol: ⴇ",
+            "Name: GEORGIAN SMALL LETTER TAN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴈ U+2D08 GEORGIAN SMALL LETTER IN": 
+    {
+        "prefix": [
+            "..U.2D08",
+            "..U.GEORGIAN SMALL LETTER IN",
+            "U+2D08",
+        ],
+        "body": [
+            "${1|ⴈ,&#x2D08;,U+2D08,0x2D08,GEORGIAN SMALL LETTER IN|}$2",
+        ],
+        "description": [
+            "Code: U+2D08",
+            "Character/Symbol: ⴈ",
+            "Name: GEORGIAN SMALL LETTER IN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴉ U+2D09 GEORGIAN SMALL LETTER KAN": 
+    {
+        "prefix": [
+            "..U.2D09",
+            "..U.GEORGIAN SMALL LETTER KAN",
+            "U+2D09",
+        ],
+        "body": [
+            "${1|ⴉ,&#x2D09;,U+2D09,0x2D09,GEORGIAN SMALL LETTER KAN|}$2",
+        ],
+        "description": [
+            "Code: U+2D09",
+            "Character/Symbol: ⴉ",
+            "Name: GEORGIAN SMALL LETTER KAN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴊ U+2D0A GEORGIAN SMALL LETTER LAS": 
+    {
+        "prefix": [
+            "..U.2D0A",
+            "..U.GEORGIAN SMALL LETTER LAS",
+            "U+2D0A",
+        ],
+        "body": [
+            "${1|ⴊ,&#x2D0A;,U+2D0A,0x2D0A,GEORGIAN SMALL LETTER LAS|}$2",
+        ],
+        "description": [
+            "Code: U+2D0A",
+            "Character/Symbol: ⴊ",
+            "Name: GEORGIAN SMALL LETTER LAS",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴋ U+2D0B GEORGIAN SMALL LETTER MAN": 
+    {
+        "prefix": [
+            "..U.2D0B",
+            "..U.GEORGIAN SMALL LETTER MAN",
+            "U+2D0B",
+        ],
+        "body": [
+            "${1|ⴋ,&#x2D0B;,U+2D0B,0x2D0B,GEORGIAN SMALL LETTER MAN|}$2",
+        ],
+        "description": [
+            "Code: U+2D0B",
+            "Character/Symbol: ⴋ",
+            "Name: GEORGIAN SMALL LETTER MAN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴌ U+2D0C GEORGIAN SMALL LETTER NAR": 
+    {
+        "prefix": [
+            "..U.2D0C",
+            "..U.GEORGIAN SMALL LETTER NAR",
+            "U+2D0C",
+        ],
+        "body": [
+            "${1|ⴌ,&#x2D0C;,U+2D0C,0x2D0C,GEORGIAN SMALL LETTER NAR|}$2",
+        ],
+        "description": [
+            "Code: U+2D0C",
+            "Character/Symbol: ⴌ",
+            "Name: GEORGIAN SMALL LETTER NAR",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴍ U+2D0D GEORGIAN SMALL LETTER ON": 
+    {
+        "prefix": [
+            "..U.2D0D",
+            "..U.GEORGIAN SMALL LETTER ON",
+            "U+2D0D",
+        ],
+        "body": [
+            "${1|ⴍ,&#x2D0D;,U+2D0D,0x2D0D,GEORGIAN SMALL LETTER ON|}$2",
+        ],
+        "description": [
+            "Code: U+2D0D",
+            "Character/Symbol: ⴍ",
+            "Name: GEORGIAN SMALL LETTER ON",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴎ U+2D0E GEORGIAN SMALL LETTER PAR": 
+    {
+        "prefix": [
+            "..U.2D0E",
+            "..U.GEORGIAN SMALL LETTER PAR",
+            "U+2D0E",
+        ],
+        "body": [
+            "${1|ⴎ,&#x2D0E;,U+2D0E,0x2D0E,GEORGIAN SMALL LETTER PAR|}$2",
+        ],
+        "description": [
+            "Code: U+2D0E",
+            "Character/Symbol: ⴎ",
+            "Name: GEORGIAN SMALL LETTER PAR",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴏ U+2D0F GEORGIAN SMALL LETTER ZHAR": 
+    {
+        "prefix": [
+            "..U.2D0F",
+            "..U.GEORGIAN SMALL LETTER ZHAR",
+            "U+2D0F",
+        ],
+        "body": [
+            "${1|ⴏ,&#x2D0F;,U+2D0F,0x2D0F,GEORGIAN SMALL LETTER ZHAR|}$2",
+        ],
+        "description": [
+            "Code: U+2D0F",
+            "Character/Symbol: ⴏ",
+            "Name: GEORGIAN SMALL LETTER ZHAR",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴐ U+2D10 GEORGIAN SMALL LETTER RAE": 
+    {
+        "prefix": [
+            "..U.2D10",
+            "..U.GEORGIAN SMALL LETTER RAE",
+            "U+2D10",
+        ],
+        "body": [
+            "${1|ⴐ,&#x2D10;,U+2D10,0x2D10,GEORGIAN SMALL LETTER RAE|}$2",
+        ],
+        "description": [
+            "Code: U+2D10",
+            "Character/Symbol: ⴐ",
+            "Name: GEORGIAN SMALL LETTER RAE",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴑ U+2D11 GEORGIAN SMALL LETTER SAN": 
+    {
+        "prefix": [
+            "..U.2D11",
+            "..U.GEORGIAN SMALL LETTER SAN",
+            "U+2D11",
+        ],
+        "body": [
+            "${1|ⴑ,&#x2D11;,U+2D11,0x2D11,GEORGIAN SMALL LETTER SAN|}$2",
+        ],
+        "description": [
+            "Code: U+2D11",
+            "Character/Symbol: ⴑ",
+            "Name: GEORGIAN SMALL LETTER SAN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴒ U+2D12 GEORGIAN SMALL LETTER TAR": 
+    {
+        "prefix": [
+            "..U.2D12",
+            "..U.GEORGIAN SMALL LETTER TAR",
+            "U+2D12",
+        ],
+        "body": [
+            "${1|ⴒ,&#x2D12;,U+2D12,0x2D12,GEORGIAN SMALL LETTER TAR|}$2",
+        ],
+        "description": [
+            "Code: U+2D12",
+            "Character/Symbol: ⴒ",
+            "Name: GEORGIAN SMALL LETTER TAR",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴓ U+2D13 GEORGIAN SMALL LETTER UN": 
+    {
+        "prefix": [
+            "..U.2D13",
+            "..U.GEORGIAN SMALL LETTER UN",
+            "U+2D13",
+        ],
+        "body": [
+            "${1|ⴓ,&#x2D13;,U+2D13,0x2D13,GEORGIAN SMALL LETTER UN|}$2",
+        ],
+        "description": [
+            "Code: U+2D13",
+            "Character/Symbol: ⴓ",
+            "Name: GEORGIAN SMALL LETTER UN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴔ U+2D14 GEORGIAN SMALL LETTER PHAR": 
+    {
+        "prefix": [
+            "..U.2D14",
+            "..U.GEORGIAN SMALL LETTER PHAR",
+            "U+2D14",
+        ],
+        "body": [
+            "${1|ⴔ,&#x2D14;,U+2D14,0x2D14,GEORGIAN SMALL LETTER PHAR|}$2",
+        ],
+        "description": [
+            "Code: U+2D14",
+            "Character/Symbol: ⴔ",
+            "Name: GEORGIAN SMALL LETTER PHAR",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴕ U+2D15 GEORGIAN SMALL LETTER KHAR": 
+    {
+        "prefix": [
+            "..U.2D15",
+            "..U.GEORGIAN SMALL LETTER KHAR",
+            "U+2D15",
+        ],
+        "body": [
+            "${1|ⴕ,&#x2D15;,U+2D15,0x2D15,GEORGIAN SMALL LETTER KHAR|}$2",
+        ],
+        "description": [
+            "Code: U+2D15",
+            "Character/Symbol: ⴕ",
+            "Name: GEORGIAN SMALL LETTER KHAR",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴖ U+2D16 GEORGIAN SMALL LETTER GHAN": 
+    {
+        "prefix": [
+            "..U.2D16",
+            "..U.GEORGIAN SMALL LETTER GHAN",
+            "U+2D16",
+        ],
+        "body": [
+            "${1|ⴖ,&#x2D16;,U+2D16,0x2D16,GEORGIAN SMALL LETTER GHAN|}$2",
+        ],
+        "description": [
+            "Code: U+2D16",
+            "Character/Symbol: ⴖ",
+            "Name: GEORGIAN SMALL LETTER GHAN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴗ U+2D17 GEORGIAN SMALL LETTER QAR": 
+    {
+        "prefix": [
+            "..U.2D17",
+            "..U.GEORGIAN SMALL LETTER QAR",
+            "U+2D17",
+        ],
+        "body": [
+            "${1|ⴗ,&#x2D17;,U+2D17,0x2D17,GEORGIAN SMALL LETTER QAR|}$2",
+        ],
+        "description": [
+            "Code: U+2D17",
+            "Character/Symbol: ⴗ",
+            "Name: GEORGIAN SMALL LETTER QAR",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴘ U+2D18 GEORGIAN SMALL LETTER SHIN": 
+    {
+        "prefix": [
+            "..U.2D18",
+            "..U.GEORGIAN SMALL LETTER SHIN",
+            "U+2D18",
+        ],
+        "body": [
+            "${1|ⴘ,&#x2D18;,U+2D18,0x2D18,GEORGIAN SMALL LETTER SHIN|}$2",
+        ],
+        "description": [
+            "Code: U+2D18",
+            "Character/Symbol: ⴘ",
+            "Name: GEORGIAN SMALL LETTER SHIN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴙ U+2D19 GEORGIAN SMALL LETTER CHIN": 
+    {
+        "prefix": [
+            "..U.2D19",
+            "..U.GEORGIAN SMALL LETTER CHIN",
+            "U+2D19",
+        ],
+        "body": [
+            "${1|ⴙ,&#x2D19;,U+2D19,0x2D19,GEORGIAN SMALL LETTER CHIN|}$2",
+        ],
+        "description": [
+            "Code: U+2D19",
+            "Character/Symbol: ⴙ",
+            "Name: GEORGIAN SMALL LETTER CHIN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴚ U+2D1A GEORGIAN SMALL LETTER CAN": 
+    {
+        "prefix": [
+            "..U.2D1A",
+            "..U.GEORGIAN SMALL LETTER CAN",
+            "U+2D1A",
+        ],
+        "body": [
+            "${1|ⴚ,&#x2D1A;,U+2D1A,0x2D1A,GEORGIAN SMALL LETTER CAN|}$2",
+        ],
+        "description": [
+            "Code: U+2D1A",
+            "Character/Symbol: ⴚ",
+            "Name: GEORGIAN SMALL LETTER CAN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴛ U+2D1B GEORGIAN SMALL LETTER JIL": 
+    {
+        "prefix": [
+            "..U.2D1B",
+            "..U.GEORGIAN SMALL LETTER JIL",
+            "U+2D1B",
+        ],
+        "body": [
+            "${1|ⴛ,&#x2D1B;,U+2D1B,0x2D1B,GEORGIAN SMALL LETTER JIL|}$2",
+        ],
+        "description": [
+            "Code: U+2D1B",
+            "Character/Symbol: ⴛ",
+            "Name: GEORGIAN SMALL LETTER JIL",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴜ U+2D1C GEORGIAN SMALL LETTER CIL": 
+    {
+        "prefix": [
+            "..U.2D1C",
+            "..U.GEORGIAN SMALL LETTER CIL",
+            "U+2D1C",
+        ],
+        "body": [
+            "${1|ⴜ,&#x2D1C;,U+2D1C,0x2D1C,GEORGIAN SMALL LETTER CIL|}$2",
+        ],
+        "description": [
+            "Code: U+2D1C",
+            "Character/Symbol: ⴜ",
+            "Name: GEORGIAN SMALL LETTER CIL",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴝ U+2D1D GEORGIAN SMALL LETTER CHAR": 
+    {
+        "prefix": [
+            "..U.2D1D",
+            "..U.GEORGIAN SMALL LETTER CHAR",
+            "U+2D1D",
+        ],
+        "body": [
+            "${1|ⴝ,&#x2D1D;,U+2D1D,0x2D1D,GEORGIAN SMALL LETTER CHAR|}$2",
+        ],
+        "description": [
+            "Code: U+2D1D",
+            "Character/Symbol: ⴝ",
+            "Name: GEORGIAN SMALL LETTER CHAR",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴞ U+2D1E GEORGIAN SMALL LETTER XAN": 
+    {
+        "prefix": [
+            "..U.2D1E",
+            "..U.GEORGIAN SMALL LETTER XAN",
+            "U+2D1E",
+        ],
+        "body": [
+            "${1|ⴞ,&#x2D1E;,U+2D1E,0x2D1E,GEORGIAN SMALL LETTER XAN|}$2",
+        ],
+        "description": [
+            "Code: U+2D1E",
+            "Character/Symbol: ⴞ",
+            "Name: GEORGIAN SMALL LETTER XAN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴟ U+2D1F GEORGIAN SMALL LETTER JHAN": 
+    {
+        "prefix": [
+            "..U.2D1F",
+            "..U.GEORGIAN SMALL LETTER JHAN",
+            "U+2D1F",
+        ],
+        "body": [
+            "${1|ⴟ,&#x2D1F;,U+2D1F,0x2D1F,GEORGIAN SMALL LETTER JHAN|}$2",
+        ],
+        "description": [
+            "Code: U+2D1F",
+            "Character/Symbol: ⴟ",
+            "Name: GEORGIAN SMALL LETTER JHAN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴠ U+2D20 GEORGIAN SMALL LETTER HAE": 
+    {
+        "prefix": [
+            "..U.2D20",
+            "..U.GEORGIAN SMALL LETTER HAE",
+            "U+2D20",
+        ],
+        "body": [
+            "${1|ⴠ,&#x2D20;,U+2D20,0x2D20,GEORGIAN SMALL LETTER HAE|}$2",
+        ],
+        "description": [
+            "Code: U+2D20",
+            "Character/Symbol: ⴠ",
+            "Name: GEORGIAN SMALL LETTER HAE",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴡ U+2D21 GEORGIAN SMALL LETTER HE": 
+    {
+        "prefix": [
+            "..U.2D21",
+            "..U.GEORGIAN SMALL LETTER HE",
+            "U+2D21",
+        ],
+        "body": [
+            "${1|ⴡ,&#x2D21;,U+2D21,0x2D21,GEORGIAN SMALL LETTER HE|}$2",
+        ],
+        "description": [
+            "Code: U+2D21",
+            "Character/Symbol: ⴡ",
+            "Name: GEORGIAN SMALL LETTER HE",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴢ U+2D22 GEORGIAN SMALL LETTER HIE": 
+    {
+        "prefix": [
+            "..U.2D22",
+            "..U.GEORGIAN SMALL LETTER HIE",
+            "U+2D22",
+        ],
+        "body": [
+            "${1|ⴢ,&#x2D22;,U+2D22,0x2D22,GEORGIAN SMALL LETTER HIE|}$2",
+        ],
+        "description": [
+            "Code: U+2D22",
+            "Character/Symbol: ⴢ",
+            "Name: GEORGIAN SMALL LETTER HIE",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴣ U+2D23 GEORGIAN SMALL LETTER WE": 
+    {
+        "prefix": [
+            "..U.2D23",
+            "..U.GEORGIAN SMALL LETTER WE",
+            "U+2D23",
+        ],
+        "body": [
+            "${1|ⴣ,&#x2D23;,U+2D23,0x2D23,GEORGIAN SMALL LETTER WE|}$2",
+        ],
+        "description": [
+            "Code: U+2D23",
+            "Character/Symbol: ⴣ",
+            "Name: GEORGIAN SMALL LETTER WE",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴤ U+2D24 GEORGIAN SMALL LETTER HAR": 
+    {
+        "prefix": [
+            "..U.2D24",
+            "..U.GEORGIAN SMALL LETTER HAR",
+            "U+2D24",
+        ],
+        "body": [
+            "${1|ⴤ,&#x2D24;,U+2D24,0x2D24,GEORGIAN SMALL LETTER HAR|}$2",
+        ],
+        "description": [
+            "Code: U+2D24",
+            "Character/Symbol: ⴤ",
+            "Name: GEORGIAN SMALL LETTER HAR",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴥ U+2D25 GEORGIAN SMALL LETTER HOE": 
+    {
+        "prefix": [
+            "..U.2D25",
+            "..U.GEORGIAN SMALL LETTER HOE",
+            "U+2D25",
+        ],
+        "body": [
+            "${1|ⴥ,&#x2D25;,U+2D25,0x2D25,GEORGIAN SMALL LETTER HOE|}$2",
+        ],
+        "description": [
+            "Code: U+2D25",
+            "Character/Symbol: ⴥ",
+            "Name: GEORGIAN SMALL LETTER HOE",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴧ U+2D27 GEORGIAN SMALL LETTER YN": 
+    {
+        "prefix": [
+            "..U.2D27",
+            "..U.GEORGIAN SMALL LETTER YN",
+            "U+2D27",
+        ],
+        "body": [
+            "${1|ⴧ,&#x2D27;,U+2D27,0x2D27,GEORGIAN SMALL LETTER YN|}$2",
+        ],
+        "description": [
+            "Code: U+2D27",
+            "Character/Symbol: ⴧ",
+            "Name: GEORGIAN SMALL LETTER YN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+    "Unicode ⴭ U+2D2D GEORGIAN SMALL LETTER AEN": 
+    {
+        "prefix": [
+            "..U.2D2D",
+            "..U.GEORGIAN SMALL LETTER AEN",
+            "U+2D2D",
+        ],
+        "body": [
+            "${1|ⴭ,&#x2D2D;,U+2D2D,0x2D2D,GEORGIAN SMALL LETTER AEN|}$2",
+        ],
+        "description": [
+            "Code: U+2D2D",
+            "Character/Symbol: ⴭ",
+            "Name: GEORGIAN SMALL LETTER AEN",
+            "Group/Block: Georgian_Sup",
+        ],
+    },
+
+}

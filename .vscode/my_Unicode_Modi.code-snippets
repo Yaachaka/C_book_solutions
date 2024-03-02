@@ -1,0 +1,1424 @@
+{
+    "Unicode 𑘀 U+11600 MODI LETTER A": 
+    {
+        "prefix": [
+            "..U.11600",
+            "..U.MODI LETTER A",
+            "U+11600",
+        ],
+        "body": [
+            "${1|𑘀,&#x11600;,U+11600,0x11600,MODI LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+11600",
+            "Character/Symbol: 𑘀",
+            "Name: MODI LETTER A",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘁 U+11601 MODI LETTER AA": 
+    {
+        "prefix": [
+            "..U.11601",
+            "..U.MODI LETTER AA",
+            "U+11601",
+        ],
+        "body": [
+            "${1|𑘁,&#x11601;,U+11601,0x11601,MODI LETTER AA|}$2",
+        ],
+        "description": [
+            "Code: U+11601",
+            "Character/Symbol: 𑘁",
+            "Name: MODI LETTER AA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘂 U+11602 MODI LETTER I": 
+    {
+        "prefix": [
+            "..U.11602",
+            "..U.MODI LETTER I",
+            "U+11602",
+        ],
+        "body": [
+            "${1|𑘂,&#x11602;,U+11602,0x11602,MODI LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+11602",
+            "Character/Symbol: 𑘂",
+            "Name: MODI LETTER I",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘃 U+11603 MODI LETTER II": 
+    {
+        "prefix": [
+            "..U.11603",
+            "..U.MODI LETTER II",
+            "U+11603",
+        ],
+        "body": [
+            "${1|𑘃,&#x11603;,U+11603,0x11603,MODI LETTER II|}$2",
+        ],
+        "description": [
+            "Code: U+11603",
+            "Character/Symbol: 𑘃",
+            "Name: MODI LETTER II",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘄 U+11604 MODI LETTER U": 
+    {
+        "prefix": [
+            "..U.11604",
+            "..U.MODI LETTER U",
+            "U+11604",
+        ],
+        "body": [
+            "${1|𑘄,&#x11604;,U+11604,0x11604,MODI LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+11604",
+            "Character/Symbol: 𑘄",
+            "Name: MODI LETTER U",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘅 U+11605 MODI LETTER UU": 
+    {
+        "prefix": [
+            "..U.11605",
+            "..U.MODI LETTER UU",
+            "U+11605",
+        ],
+        "body": [
+            "${1|𑘅,&#x11605;,U+11605,0x11605,MODI LETTER UU|}$2",
+        ],
+        "description": [
+            "Code: U+11605",
+            "Character/Symbol: 𑘅",
+            "Name: MODI LETTER UU",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘆 U+11606 MODI LETTER VOCALIC R": 
+    {
+        "prefix": [
+            "..U.11606",
+            "..U.MODI LETTER VOCALIC R",
+            "U+11606",
+        ],
+        "body": [
+            "${1|𑘆,&#x11606;,U+11606,0x11606,MODI LETTER VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+11606",
+            "Character/Symbol: 𑘆",
+            "Name: MODI LETTER VOCALIC R",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘇 U+11607 MODI LETTER VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.11607",
+            "..U.MODI LETTER VOCALIC RR",
+            "U+11607",
+        ],
+        "body": [
+            "${1|𑘇,&#x11607;,U+11607,0x11607,MODI LETTER VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+11607",
+            "Character/Symbol: 𑘇",
+            "Name: MODI LETTER VOCALIC RR",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘈 U+11608 MODI LETTER VOCALIC L": 
+    {
+        "prefix": [
+            "..U.11608",
+            "..U.MODI LETTER VOCALIC L",
+            "U+11608",
+        ],
+        "body": [
+            "${1|𑘈,&#x11608;,U+11608,0x11608,MODI LETTER VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+11608",
+            "Character/Symbol: 𑘈",
+            "Name: MODI LETTER VOCALIC L",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘉 U+11609 MODI LETTER VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.11609",
+            "..U.MODI LETTER VOCALIC LL",
+            "U+11609",
+        ],
+        "body": [
+            "${1|𑘉,&#x11609;,U+11609,0x11609,MODI LETTER VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+11609",
+            "Character/Symbol: 𑘉",
+            "Name: MODI LETTER VOCALIC LL",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘊 U+1160A MODI LETTER E": 
+    {
+        "prefix": [
+            "..U.1160A",
+            "..U.MODI LETTER E",
+            "U+1160A",
+        ],
+        "body": [
+            "${1|𑘊,&#x1160A;,U+1160A,0x1160A,MODI LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+1160A",
+            "Character/Symbol: 𑘊",
+            "Name: MODI LETTER E",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘋 U+1160B MODI LETTER AI": 
+    {
+        "prefix": [
+            "..U.1160B",
+            "..U.MODI LETTER AI",
+            "U+1160B",
+        ],
+        "body": [
+            "${1|𑘋,&#x1160B;,U+1160B,0x1160B,MODI LETTER AI|}$2",
+        ],
+        "description": [
+            "Code: U+1160B",
+            "Character/Symbol: 𑘋",
+            "Name: MODI LETTER AI",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘌 U+1160C MODI LETTER O": 
+    {
+        "prefix": [
+            "..U.1160C",
+            "..U.MODI LETTER O",
+            "U+1160C",
+        ],
+        "body": [
+            "${1|𑘌,&#x1160C;,U+1160C,0x1160C,MODI LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+1160C",
+            "Character/Symbol: 𑘌",
+            "Name: MODI LETTER O",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘍 U+1160D MODI LETTER AU": 
+    {
+        "prefix": [
+            "..U.1160D",
+            "..U.MODI LETTER AU",
+            "U+1160D",
+        ],
+        "body": [
+            "${1|𑘍,&#x1160D;,U+1160D,0x1160D,MODI LETTER AU|}$2",
+        ],
+        "description": [
+            "Code: U+1160D",
+            "Character/Symbol: 𑘍",
+            "Name: MODI LETTER AU",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘎 U+1160E MODI LETTER KA": 
+    {
+        "prefix": [
+            "..U.1160E",
+            "..U.MODI LETTER KA",
+            "U+1160E",
+        ],
+        "body": [
+            "${1|𑘎,&#x1160E;,U+1160E,0x1160E,MODI LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+1160E",
+            "Character/Symbol: 𑘎",
+            "Name: MODI LETTER KA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘏 U+1160F MODI LETTER KHA": 
+    {
+        "prefix": [
+            "..U.1160F",
+            "..U.MODI LETTER KHA",
+            "U+1160F",
+        ],
+        "body": [
+            "${1|𑘏,&#x1160F;,U+1160F,0x1160F,MODI LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+1160F",
+            "Character/Symbol: 𑘏",
+            "Name: MODI LETTER KHA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘐 U+11610 MODI LETTER GA": 
+    {
+        "prefix": [
+            "..U.11610",
+            "..U.MODI LETTER GA",
+            "U+11610",
+        ],
+        "body": [
+            "${1|𑘐,&#x11610;,U+11610,0x11610,MODI LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+11610",
+            "Character/Symbol: 𑘐",
+            "Name: MODI LETTER GA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘑 U+11611 MODI LETTER GHA": 
+    {
+        "prefix": [
+            "..U.11611",
+            "..U.MODI LETTER GHA",
+            "U+11611",
+        ],
+        "body": [
+            "${1|𑘑,&#x11611;,U+11611,0x11611,MODI LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+11611",
+            "Character/Symbol: 𑘑",
+            "Name: MODI LETTER GHA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘒 U+11612 MODI LETTER NGA": 
+    {
+        "prefix": [
+            "..U.11612",
+            "..U.MODI LETTER NGA",
+            "U+11612",
+        ],
+        "body": [
+            "${1|𑘒,&#x11612;,U+11612,0x11612,MODI LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+11612",
+            "Character/Symbol: 𑘒",
+            "Name: MODI LETTER NGA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘓 U+11613 MODI LETTER CA": 
+    {
+        "prefix": [
+            "..U.11613",
+            "..U.MODI LETTER CA",
+            "U+11613",
+        ],
+        "body": [
+            "${1|𑘓,&#x11613;,U+11613,0x11613,MODI LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+11613",
+            "Character/Symbol: 𑘓",
+            "Name: MODI LETTER CA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘔 U+11614 MODI LETTER CHA": 
+    {
+        "prefix": [
+            "..U.11614",
+            "..U.MODI LETTER CHA",
+            "U+11614",
+        ],
+        "body": [
+            "${1|𑘔,&#x11614;,U+11614,0x11614,MODI LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+11614",
+            "Character/Symbol: 𑘔",
+            "Name: MODI LETTER CHA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘕 U+11615 MODI LETTER JA": 
+    {
+        "prefix": [
+            "..U.11615",
+            "..U.MODI LETTER JA",
+            "U+11615",
+        ],
+        "body": [
+            "${1|𑘕,&#x11615;,U+11615,0x11615,MODI LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+11615",
+            "Character/Symbol: 𑘕",
+            "Name: MODI LETTER JA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘖 U+11616 MODI LETTER JHA": 
+    {
+        "prefix": [
+            "..U.11616",
+            "..U.MODI LETTER JHA",
+            "U+11616",
+        ],
+        "body": [
+            "${1|𑘖,&#x11616;,U+11616,0x11616,MODI LETTER JHA|}$2",
+        ],
+        "description": [
+            "Code: U+11616",
+            "Character/Symbol: 𑘖",
+            "Name: MODI LETTER JHA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘗 U+11617 MODI LETTER NYA": 
+    {
+        "prefix": [
+            "..U.11617",
+            "..U.MODI LETTER NYA",
+            "U+11617",
+        ],
+        "body": [
+            "${1|𑘗,&#x11617;,U+11617,0x11617,MODI LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+11617",
+            "Character/Symbol: 𑘗",
+            "Name: MODI LETTER NYA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘘 U+11618 MODI LETTER TTA": 
+    {
+        "prefix": [
+            "..U.11618",
+            "..U.MODI LETTER TTA",
+            "U+11618",
+        ],
+        "body": [
+            "${1|𑘘,&#x11618;,U+11618,0x11618,MODI LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+11618",
+            "Character/Symbol: 𑘘",
+            "Name: MODI LETTER TTA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘙 U+11619 MODI LETTER TTHA": 
+    {
+        "prefix": [
+            "..U.11619",
+            "..U.MODI LETTER TTHA",
+            "U+11619",
+        ],
+        "body": [
+            "${1|𑘙,&#x11619;,U+11619,0x11619,MODI LETTER TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+11619",
+            "Character/Symbol: 𑘙",
+            "Name: MODI LETTER TTHA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘚 U+1161A MODI LETTER DDA": 
+    {
+        "prefix": [
+            "..U.1161A",
+            "..U.MODI LETTER DDA",
+            "U+1161A",
+        ],
+        "body": [
+            "${1|𑘚,&#x1161A;,U+1161A,0x1161A,MODI LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+1161A",
+            "Character/Symbol: 𑘚",
+            "Name: MODI LETTER DDA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘛 U+1161B MODI LETTER DDHA": 
+    {
+        "prefix": [
+            "..U.1161B",
+            "..U.MODI LETTER DDHA",
+            "U+1161B",
+        ],
+        "body": [
+            "${1|𑘛,&#x1161B;,U+1161B,0x1161B,MODI LETTER DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+1161B",
+            "Character/Symbol: 𑘛",
+            "Name: MODI LETTER DDHA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘜 U+1161C MODI LETTER NNA": 
+    {
+        "prefix": [
+            "..U.1161C",
+            "..U.MODI LETTER NNA",
+            "U+1161C",
+        ],
+        "body": [
+            "${1|𑘜,&#x1161C;,U+1161C,0x1161C,MODI LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+1161C",
+            "Character/Symbol: 𑘜",
+            "Name: MODI LETTER NNA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘝 U+1161D MODI LETTER TA": 
+    {
+        "prefix": [
+            "..U.1161D",
+            "..U.MODI LETTER TA",
+            "U+1161D",
+        ],
+        "body": [
+            "${1|𑘝,&#x1161D;,U+1161D,0x1161D,MODI LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+1161D",
+            "Character/Symbol: 𑘝",
+            "Name: MODI LETTER TA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘞 U+1161E MODI LETTER THA": 
+    {
+        "prefix": [
+            "..U.1161E",
+            "..U.MODI LETTER THA",
+            "U+1161E",
+        ],
+        "body": [
+            "${1|𑘞,&#x1161E;,U+1161E,0x1161E,MODI LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+1161E",
+            "Character/Symbol: 𑘞",
+            "Name: MODI LETTER THA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘟 U+1161F MODI LETTER DA": 
+    {
+        "prefix": [
+            "..U.1161F",
+            "..U.MODI LETTER DA",
+            "U+1161F",
+        ],
+        "body": [
+            "${1|𑘟,&#x1161F;,U+1161F,0x1161F,MODI LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+1161F",
+            "Character/Symbol: 𑘟",
+            "Name: MODI LETTER DA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘠 U+11620 MODI LETTER DHA": 
+    {
+        "prefix": [
+            "..U.11620",
+            "..U.MODI LETTER DHA",
+            "U+11620",
+        ],
+        "body": [
+            "${1|𑘠,&#x11620;,U+11620,0x11620,MODI LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+11620",
+            "Character/Symbol: 𑘠",
+            "Name: MODI LETTER DHA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘡 U+11621 MODI LETTER NA": 
+    {
+        "prefix": [
+            "..U.11621",
+            "..U.MODI LETTER NA",
+            "U+11621",
+        ],
+        "body": [
+            "${1|𑘡,&#x11621;,U+11621,0x11621,MODI LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+11621",
+            "Character/Symbol: 𑘡",
+            "Name: MODI LETTER NA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘢 U+11622 MODI LETTER PA": 
+    {
+        "prefix": [
+            "..U.11622",
+            "..U.MODI LETTER PA",
+            "U+11622",
+        ],
+        "body": [
+            "${1|𑘢,&#x11622;,U+11622,0x11622,MODI LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+11622",
+            "Character/Symbol: 𑘢",
+            "Name: MODI LETTER PA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘣 U+11623 MODI LETTER PHA": 
+    {
+        "prefix": [
+            "..U.11623",
+            "..U.MODI LETTER PHA",
+            "U+11623",
+        ],
+        "body": [
+            "${1|𑘣,&#x11623;,U+11623,0x11623,MODI LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+11623",
+            "Character/Symbol: 𑘣",
+            "Name: MODI LETTER PHA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘤 U+11624 MODI LETTER BA": 
+    {
+        "prefix": [
+            "..U.11624",
+            "..U.MODI LETTER BA",
+            "U+11624",
+        ],
+        "body": [
+            "${1|𑘤,&#x11624;,U+11624,0x11624,MODI LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+11624",
+            "Character/Symbol: 𑘤",
+            "Name: MODI LETTER BA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘥 U+11625 MODI LETTER BHA": 
+    {
+        "prefix": [
+            "..U.11625",
+            "..U.MODI LETTER BHA",
+            "U+11625",
+        ],
+        "body": [
+            "${1|𑘥,&#x11625;,U+11625,0x11625,MODI LETTER BHA|}$2",
+        ],
+        "description": [
+            "Code: U+11625",
+            "Character/Symbol: 𑘥",
+            "Name: MODI LETTER BHA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘦 U+11626 MODI LETTER MA": 
+    {
+        "prefix": [
+            "..U.11626",
+            "..U.MODI LETTER MA",
+            "U+11626",
+        ],
+        "body": [
+            "${1|𑘦,&#x11626;,U+11626,0x11626,MODI LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+11626",
+            "Character/Symbol: 𑘦",
+            "Name: MODI LETTER MA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘧 U+11627 MODI LETTER YA": 
+    {
+        "prefix": [
+            "..U.11627",
+            "..U.MODI LETTER YA",
+            "U+11627",
+        ],
+        "body": [
+            "${1|𑘧,&#x11627;,U+11627,0x11627,MODI LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+11627",
+            "Character/Symbol: 𑘧",
+            "Name: MODI LETTER YA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘨 U+11628 MODI LETTER RA": 
+    {
+        "prefix": [
+            "..U.11628",
+            "..U.MODI LETTER RA",
+            "U+11628",
+        ],
+        "body": [
+            "${1|𑘨,&#x11628;,U+11628,0x11628,MODI LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+11628",
+            "Character/Symbol: 𑘨",
+            "Name: MODI LETTER RA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘩 U+11629 MODI LETTER LA": 
+    {
+        "prefix": [
+            "..U.11629",
+            "..U.MODI LETTER LA",
+            "U+11629",
+        ],
+        "body": [
+            "${1|𑘩,&#x11629;,U+11629,0x11629,MODI LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+11629",
+            "Character/Symbol: 𑘩",
+            "Name: MODI LETTER LA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘪 U+1162A MODI LETTER VA": 
+    {
+        "prefix": [
+            "..U.1162A",
+            "..U.MODI LETTER VA",
+            "U+1162A",
+        ],
+        "body": [
+            "${1|𑘪,&#x1162A;,U+1162A,0x1162A,MODI LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+1162A",
+            "Character/Symbol: 𑘪",
+            "Name: MODI LETTER VA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘫 U+1162B MODI LETTER SHA": 
+    {
+        "prefix": [
+            "..U.1162B",
+            "..U.MODI LETTER SHA",
+            "U+1162B",
+        ],
+        "body": [
+            "${1|𑘫,&#x1162B;,U+1162B,0x1162B,MODI LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+1162B",
+            "Character/Symbol: 𑘫",
+            "Name: MODI LETTER SHA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘬 U+1162C MODI LETTER SSA": 
+    {
+        "prefix": [
+            "..U.1162C",
+            "..U.MODI LETTER SSA",
+            "U+1162C",
+        ],
+        "body": [
+            "${1|𑘬,&#x1162C;,U+1162C,0x1162C,MODI LETTER SSA|}$2",
+        ],
+        "description": [
+            "Code: U+1162C",
+            "Character/Symbol: 𑘬",
+            "Name: MODI LETTER SSA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘭 U+1162D MODI LETTER SA": 
+    {
+        "prefix": [
+            "..U.1162D",
+            "..U.MODI LETTER SA",
+            "U+1162D",
+        ],
+        "body": [
+            "${1|𑘭,&#x1162D;,U+1162D,0x1162D,MODI LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+1162D",
+            "Character/Symbol: 𑘭",
+            "Name: MODI LETTER SA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘮 U+1162E MODI LETTER HA": 
+    {
+        "prefix": [
+            "..U.1162E",
+            "..U.MODI LETTER HA",
+            "U+1162E",
+        ],
+        "body": [
+            "${1|𑘮,&#x1162E;,U+1162E,0x1162E,MODI LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+1162E",
+            "Character/Symbol: 𑘮",
+            "Name: MODI LETTER HA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘯 U+1162F MODI LETTER LLA": 
+    {
+        "prefix": [
+            "..U.1162F",
+            "..U.MODI LETTER LLA",
+            "U+1162F",
+        ],
+        "body": [
+            "${1|𑘯,&#x1162F;,U+1162F,0x1162F,MODI LETTER LLA|}$2",
+        ],
+        "description": [
+            "Code: U+1162F",
+            "Character/Symbol: 𑘯",
+            "Name: MODI LETTER LLA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘰 U+11630 MODI VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.11630",
+            "..U.MODI VOWEL SIGN AA",
+            "U+11630",
+        ],
+        "body": [
+            "${1|𑘰,&#x11630;,U+11630,0x11630,MODI VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+11630",
+            "Character/Symbol: 𑘰",
+            "Name: MODI VOWEL SIGN AA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘱 U+11631 MODI VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.11631",
+            "..U.MODI VOWEL SIGN I",
+            "U+11631",
+        ],
+        "body": [
+            "${1|𑘱,&#x11631;,U+11631,0x11631,MODI VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+11631",
+            "Character/Symbol: 𑘱",
+            "Name: MODI VOWEL SIGN I",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘲 U+11632 MODI VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.11632",
+            "..U.MODI VOWEL SIGN II",
+            "U+11632",
+        ],
+        "body": [
+            "${1|𑘲,&#x11632;,U+11632,0x11632,MODI VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+11632",
+            "Character/Symbol: 𑘲",
+            "Name: MODI VOWEL SIGN II",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘳 U+11633 MODI VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.11633",
+            "..U.MODI VOWEL SIGN U",
+            "U+11633",
+        ],
+        "body": [
+            "${1|𑘳,&#x11633;,U+11633,0x11633,MODI VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+11633",
+            "Character/Symbol: 𑘳",
+            "Name: MODI VOWEL SIGN U",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘴 U+11634 MODI VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.11634",
+            "..U.MODI VOWEL SIGN UU",
+            "U+11634",
+        ],
+        "body": [
+            "${1|𑘴,&#x11634;,U+11634,0x11634,MODI VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+11634",
+            "Character/Symbol: 𑘴",
+            "Name: MODI VOWEL SIGN UU",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘵 U+11635 MODI VOWEL SIGN VOCALIC R": 
+    {
+        "prefix": [
+            "..U.11635",
+            "..U.MODI VOWEL SIGN VOCALIC R",
+            "U+11635",
+        ],
+        "body": [
+            "${1|𑘵,&#x11635;,U+11635,0x11635,MODI VOWEL SIGN VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+11635",
+            "Character/Symbol: 𑘵",
+            "Name: MODI VOWEL SIGN VOCALIC R",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘶 U+11636 MODI VOWEL SIGN VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.11636",
+            "..U.MODI VOWEL SIGN VOCALIC RR",
+            "U+11636",
+        ],
+        "body": [
+            "${1|𑘶,&#x11636;,U+11636,0x11636,MODI VOWEL SIGN VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+11636",
+            "Character/Symbol: 𑘶",
+            "Name: MODI VOWEL SIGN VOCALIC RR",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘷 U+11637 MODI VOWEL SIGN VOCALIC L": 
+    {
+        "prefix": [
+            "..U.11637",
+            "..U.MODI VOWEL SIGN VOCALIC L",
+            "U+11637",
+        ],
+        "body": [
+            "${1|𑘷,&#x11637;,U+11637,0x11637,MODI VOWEL SIGN VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+11637",
+            "Character/Symbol: 𑘷",
+            "Name: MODI VOWEL SIGN VOCALIC L",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘸 U+11638 MODI VOWEL SIGN VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.11638",
+            "..U.MODI VOWEL SIGN VOCALIC LL",
+            "U+11638",
+        ],
+        "body": [
+            "${1|𑘸,&#x11638;,U+11638,0x11638,MODI VOWEL SIGN VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+11638",
+            "Character/Symbol: 𑘸",
+            "Name: MODI VOWEL SIGN VOCALIC LL",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘹 U+11639 MODI VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.11639",
+            "..U.MODI VOWEL SIGN E",
+            "U+11639",
+        ],
+        "body": [
+            "${1|𑘹,&#x11639;,U+11639,0x11639,MODI VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+11639",
+            "Character/Symbol: 𑘹",
+            "Name: MODI VOWEL SIGN E",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘺 U+1163A MODI VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.1163A",
+            "..U.MODI VOWEL SIGN AI",
+            "U+1163A",
+        ],
+        "body": [
+            "${1|𑘺,&#x1163A;,U+1163A,0x1163A,MODI VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+1163A",
+            "Character/Symbol: 𑘺",
+            "Name: MODI VOWEL SIGN AI",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘻 U+1163B MODI VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.1163B",
+            "..U.MODI VOWEL SIGN O",
+            "U+1163B",
+        ],
+        "body": [
+            "${1|𑘻,&#x1163B;,U+1163B,0x1163B,MODI VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+1163B",
+            "Character/Symbol: 𑘻",
+            "Name: MODI VOWEL SIGN O",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘼 U+1163C MODI VOWEL SIGN AU": 
+    {
+        "prefix": [
+            "..U.1163C",
+            "..U.MODI VOWEL SIGN AU",
+            "U+1163C",
+        ],
+        "body": [
+            "${1|𑘼,&#x1163C;,U+1163C,0x1163C,MODI VOWEL SIGN AU|}$2",
+        ],
+        "description": [
+            "Code: U+1163C",
+            "Character/Symbol: 𑘼",
+            "Name: MODI VOWEL SIGN AU",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘽 U+1163D MODI SIGN ANUSVARA": 
+    {
+        "prefix": [
+            "..U.1163D",
+            "..U.MODI SIGN ANUSVARA",
+            "U+1163D",
+        ],
+        "body": [
+            "${1|𑘽,&#x1163D;,U+1163D,0x1163D,MODI SIGN ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+1163D",
+            "Character/Symbol: 𑘽",
+            "Name: MODI SIGN ANUSVARA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘾 U+1163E MODI SIGN VISARGA": 
+    {
+        "prefix": [
+            "..U.1163E",
+            "..U.MODI SIGN VISARGA",
+            "U+1163E",
+        ],
+        "body": [
+            "${1|𑘾,&#x1163E;,U+1163E,0x1163E,MODI SIGN VISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+1163E",
+            "Character/Symbol: 𑘾",
+            "Name: MODI SIGN VISARGA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑘿 U+1163F MODI SIGN VIRAMA": 
+    {
+        "prefix": [
+            "..U.1163F",
+            "..U.MODI SIGN VIRAMA",
+            "U+1163F",
+        ],
+        "body": [
+            "${1|𑘿,&#x1163F;,U+1163F,0x1163F,MODI SIGN VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+1163F",
+            "Character/Symbol: 𑘿",
+            "Name: MODI SIGN VIRAMA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙀 U+11640 MODI SIGN ARDHACANDRA": 
+    {
+        "prefix": [
+            "..U.11640",
+            "..U.MODI SIGN ARDHACANDRA",
+            "U+11640",
+        ],
+        "body": [
+            "${1|𑙀,&#x11640;,U+11640,0x11640,MODI SIGN ARDHACANDRA|}$2",
+        ],
+        "description": [
+            "Code: U+11640",
+            "Character/Symbol: 𑙀",
+            "Name: MODI SIGN ARDHACANDRA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙁 U+11641 MODI DANDA": 
+    {
+        "prefix": [
+            "..U.11641",
+            "..U.MODI DANDA",
+            "U+11641",
+        ],
+        "body": [
+            "${1|𑙁,&#x11641;,U+11641,0x11641,MODI DANDA|}$2",
+        ],
+        "description": [
+            "Code: U+11641",
+            "Character/Symbol: 𑙁",
+            "Name: MODI DANDA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙂 U+11642 MODI DOUBLE DANDA": 
+    {
+        "prefix": [
+            "..U.11642",
+            "..U.MODI DOUBLE DANDA",
+            "U+11642",
+        ],
+        "body": [
+            "${1|𑙂,&#x11642;,U+11642,0x11642,MODI DOUBLE DANDA|}$2",
+        ],
+        "description": [
+            "Code: U+11642",
+            "Character/Symbol: 𑙂",
+            "Name: MODI DOUBLE DANDA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙃 U+11643 MODI ABBREVIATION SIGN": 
+    {
+        "prefix": [
+            "..U.11643",
+            "..U.MODI ABBREVIATION SIGN",
+            "U+11643",
+        ],
+        "body": [
+            "${1|𑙃,&#x11643;,U+11643,0x11643,MODI ABBREVIATION SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+11643",
+            "Character/Symbol: 𑙃",
+            "Name: MODI ABBREVIATION SIGN",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙄 U+11644 MODI SIGN HUVA": 
+    {
+        "prefix": [
+            "..U.11644",
+            "..U.MODI SIGN HUVA",
+            "U+11644",
+        ],
+        "body": [
+            "${1|𑙄,&#x11644;,U+11644,0x11644,MODI SIGN HUVA|}$2",
+        ],
+        "description": [
+            "Code: U+11644",
+            "Character/Symbol: 𑙄",
+            "Name: MODI SIGN HUVA",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙐 U+11650 MODI DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.11650",
+            "..U.MODI DIGIT ZERO",
+            "U+11650",
+        ],
+        "body": [
+            "${1|𑙐,&#x11650;,U+11650,0x11650,MODI DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+11650",
+            "Character/Symbol: 𑙐",
+            "Name: MODI DIGIT ZERO",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙑 U+11651 MODI DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.11651",
+            "..U.MODI DIGIT ONE",
+            "U+11651",
+        ],
+        "body": [
+            "${1|𑙑,&#x11651;,U+11651,0x11651,MODI DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+11651",
+            "Character/Symbol: 𑙑",
+            "Name: MODI DIGIT ONE",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙒 U+11652 MODI DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.11652",
+            "..U.MODI DIGIT TWO",
+            "U+11652",
+        ],
+        "body": [
+            "${1|𑙒,&#x11652;,U+11652,0x11652,MODI DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+11652",
+            "Character/Symbol: 𑙒",
+            "Name: MODI DIGIT TWO",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙓 U+11653 MODI DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.11653",
+            "..U.MODI DIGIT THREE",
+            "U+11653",
+        ],
+        "body": [
+            "${1|𑙓,&#x11653;,U+11653,0x11653,MODI DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+11653",
+            "Character/Symbol: 𑙓",
+            "Name: MODI DIGIT THREE",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙔 U+11654 MODI DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.11654",
+            "..U.MODI DIGIT FOUR",
+            "U+11654",
+        ],
+        "body": [
+            "${1|𑙔,&#x11654;,U+11654,0x11654,MODI DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+11654",
+            "Character/Symbol: 𑙔",
+            "Name: MODI DIGIT FOUR",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙕 U+11655 MODI DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.11655",
+            "..U.MODI DIGIT FIVE",
+            "U+11655",
+        ],
+        "body": [
+            "${1|𑙕,&#x11655;,U+11655,0x11655,MODI DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+11655",
+            "Character/Symbol: 𑙕",
+            "Name: MODI DIGIT FIVE",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙖 U+11656 MODI DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.11656",
+            "..U.MODI DIGIT SIX",
+            "U+11656",
+        ],
+        "body": [
+            "${1|𑙖,&#x11656;,U+11656,0x11656,MODI DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+11656",
+            "Character/Symbol: 𑙖",
+            "Name: MODI DIGIT SIX",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙗 U+11657 MODI DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.11657",
+            "..U.MODI DIGIT SEVEN",
+            "U+11657",
+        ],
+        "body": [
+            "${1|𑙗,&#x11657;,U+11657,0x11657,MODI DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+11657",
+            "Character/Symbol: 𑙗",
+            "Name: MODI DIGIT SEVEN",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙘 U+11658 MODI DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.11658",
+            "..U.MODI DIGIT EIGHT",
+            "U+11658",
+        ],
+        "body": [
+            "${1|𑙘,&#x11658;,U+11658,0x11658,MODI DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+11658",
+            "Character/Symbol: 𑙘",
+            "Name: MODI DIGIT EIGHT",
+            "Group/Block: Modi",
+        ],
+    },
+
+    "Unicode 𑙙 U+11659 MODI DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.11659",
+            "..U.MODI DIGIT NINE",
+            "U+11659",
+        ],
+        "body": [
+            "${1|𑙙,&#x11659;,U+11659,0x11659,MODI DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+11659",
+            "Character/Symbol: 𑙙",
+            "Name: MODI DIGIT NINE",
+            "Group/Block: Modi",
+        ],
+    },
+
+}

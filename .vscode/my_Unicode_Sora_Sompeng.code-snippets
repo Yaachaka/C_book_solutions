@@ -1,0 +1,632 @@
+{
+    "Unicode 𑃐 U+110D0 SORA SOMPENG LETTER SAH": 
+    {
+        "prefix": [
+            "..U.110D0",
+            "..U.SORA SOMPENG LETTER SAH",
+            "U+110D0",
+        ],
+        "body": [
+            "${1|𑃐,&#x110D0;,U+110D0,0x110D0,SORA SOMPENG LETTER SAH|}$2",
+        ],
+        "description": [
+            "Code: U+110D0",
+            "Character/Symbol: 𑃐",
+            "Name: SORA SOMPENG LETTER SAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃑 U+110D1 SORA SOMPENG LETTER TAH": 
+    {
+        "prefix": [
+            "..U.110D1",
+            "..U.SORA SOMPENG LETTER TAH",
+            "U+110D1",
+        ],
+        "body": [
+            "${1|𑃑,&#x110D1;,U+110D1,0x110D1,SORA SOMPENG LETTER TAH|}$2",
+        ],
+        "description": [
+            "Code: U+110D1",
+            "Character/Symbol: 𑃑",
+            "Name: SORA SOMPENG LETTER TAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃒 U+110D2 SORA SOMPENG LETTER BAH": 
+    {
+        "prefix": [
+            "..U.110D2",
+            "..U.SORA SOMPENG LETTER BAH",
+            "U+110D2",
+        ],
+        "body": [
+            "${1|𑃒,&#x110D2;,U+110D2,0x110D2,SORA SOMPENG LETTER BAH|}$2",
+        ],
+        "description": [
+            "Code: U+110D2",
+            "Character/Symbol: 𑃒",
+            "Name: SORA SOMPENG LETTER BAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃓 U+110D3 SORA SOMPENG LETTER CAH": 
+    {
+        "prefix": [
+            "..U.110D3",
+            "..U.SORA SOMPENG LETTER CAH",
+            "U+110D3",
+        ],
+        "body": [
+            "${1|𑃓,&#x110D3;,U+110D3,0x110D3,SORA SOMPENG LETTER CAH|}$2",
+        ],
+        "description": [
+            "Code: U+110D3",
+            "Character/Symbol: 𑃓",
+            "Name: SORA SOMPENG LETTER CAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃔 U+110D4 SORA SOMPENG LETTER DAH": 
+    {
+        "prefix": [
+            "..U.110D4",
+            "..U.SORA SOMPENG LETTER DAH",
+            "U+110D4",
+        ],
+        "body": [
+            "${1|𑃔,&#x110D4;,U+110D4,0x110D4,SORA SOMPENG LETTER DAH|}$2",
+        ],
+        "description": [
+            "Code: U+110D4",
+            "Character/Symbol: 𑃔",
+            "Name: SORA SOMPENG LETTER DAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃕 U+110D5 SORA SOMPENG LETTER GAH": 
+    {
+        "prefix": [
+            "..U.110D5",
+            "..U.SORA SOMPENG LETTER GAH",
+            "U+110D5",
+        ],
+        "body": [
+            "${1|𑃕,&#x110D5;,U+110D5,0x110D5,SORA SOMPENG LETTER GAH|}$2",
+        ],
+        "description": [
+            "Code: U+110D5",
+            "Character/Symbol: 𑃕",
+            "Name: SORA SOMPENG LETTER GAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃖 U+110D6 SORA SOMPENG LETTER MAH": 
+    {
+        "prefix": [
+            "..U.110D6",
+            "..U.SORA SOMPENG LETTER MAH",
+            "U+110D6",
+        ],
+        "body": [
+            "${1|𑃖,&#x110D6;,U+110D6,0x110D6,SORA SOMPENG LETTER MAH|}$2",
+        ],
+        "description": [
+            "Code: U+110D6",
+            "Character/Symbol: 𑃖",
+            "Name: SORA SOMPENG LETTER MAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃗 U+110D7 SORA SOMPENG LETTER NGAH": 
+    {
+        "prefix": [
+            "..U.110D7",
+            "..U.SORA SOMPENG LETTER NGAH",
+            "U+110D7",
+        ],
+        "body": [
+            "${1|𑃗,&#x110D7;,U+110D7,0x110D7,SORA SOMPENG LETTER NGAH|}$2",
+        ],
+        "description": [
+            "Code: U+110D7",
+            "Character/Symbol: 𑃗",
+            "Name: SORA SOMPENG LETTER NGAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃘 U+110D8 SORA SOMPENG LETTER LAH": 
+    {
+        "prefix": [
+            "..U.110D8",
+            "..U.SORA SOMPENG LETTER LAH",
+            "U+110D8",
+        ],
+        "body": [
+            "${1|𑃘,&#x110D8;,U+110D8,0x110D8,SORA SOMPENG LETTER LAH|}$2",
+        ],
+        "description": [
+            "Code: U+110D8",
+            "Character/Symbol: 𑃘",
+            "Name: SORA SOMPENG LETTER LAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃙 U+110D9 SORA SOMPENG LETTER NAH": 
+    {
+        "prefix": [
+            "..U.110D9",
+            "..U.SORA SOMPENG LETTER NAH",
+            "U+110D9",
+        ],
+        "body": [
+            "${1|𑃙,&#x110D9;,U+110D9,0x110D9,SORA SOMPENG LETTER NAH|}$2",
+        ],
+        "description": [
+            "Code: U+110D9",
+            "Character/Symbol: 𑃙",
+            "Name: SORA SOMPENG LETTER NAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃚 U+110DA SORA SOMPENG LETTER VAH": 
+    {
+        "prefix": [
+            "..U.110DA",
+            "..U.SORA SOMPENG LETTER VAH",
+            "U+110DA",
+        ],
+        "body": [
+            "${1|𑃚,&#x110DA;,U+110DA,0x110DA,SORA SOMPENG LETTER VAH|}$2",
+        ],
+        "description": [
+            "Code: U+110DA",
+            "Character/Symbol: 𑃚",
+            "Name: SORA SOMPENG LETTER VAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃛 U+110DB SORA SOMPENG LETTER PAH": 
+    {
+        "prefix": [
+            "..U.110DB",
+            "..U.SORA SOMPENG LETTER PAH",
+            "U+110DB",
+        ],
+        "body": [
+            "${1|𑃛,&#x110DB;,U+110DB,0x110DB,SORA SOMPENG LETTER PAH|}$2",
+        ],
+        "description": [
+            "Code: U+110DB",
+            "Character/Symbol: 𑃛",
+            "Name: SORA SOMPENG LETTER PAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃜 U+110DC SORA SOMPENG LETTER YAH": 
+    {
+        "prefix": [
+            "..U.110DC",
+            "..U.SORA SOMPENG LETTER YAH",
+            "U+110DC",
+        ],
+        "body": [
+            "${1|𑃜,&#x110DC;,U+110DC,0x110DC,SORA SOMPENG LETTER YAH|}$2",
+        ],
+        "description": [
+            "Code: U+110DC",
+            "Character/Symbol: 𑃜",
+            "Name: SORA SOMPENG LETTER YAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃝 U+110DD SORA SOMPENG LETTER RAH": 
+    {
+        "prefix": [
+            "..U.110DD",
+            "..U.SORA SOMPENG LETTER RAH",
+            "U+110DD",
+        ],
+        "body": [
+            "${1|𑃝,&#x110DD;,U+110DD,0x110DD,SORA SOMPENG LETTER RAH|}$2",
+        ],
+        "description": [
+            "Code: U+110DD",
+            "Character/Symbol: 𑃝",
+            "Name: SORA SOMPENG LETTER RAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃞 U+110DE SORA SOMPENG LETTER HAH": 
+    {
+        "prefix": [
+            "..U.110DE",
+            "..U.SORA SOMPENG LETTER HAH",
+            "U+110DE",
+        ],
+        "body": [
+            "${1|𑃞,&#x110DE;,U+110DE,0x110DE,SORA SOMPENG LETTER HAH|}$2",
+        ],
+        "description": [
+            "Code: U+110DE",
+            "Character/Symbol: 𑃞",
+            "Name: SORA SOMPENG LETTER HAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃟 U+110DF SORA SOMPENG LETTER KAH": 
+    {
+        "prefix": [
+            "..U.110DF",
+            "..U.SORA SOMPENG LETTER KAH",
+            "U+110DF",
+        ],
+        "body": [
+            "${1|𑃟,&#x110DF;,U+110DF,0x110DF,SORA SOMPENG LETTER KAH|}$2",
+        ],
+        "description": [
+            "Code: U+110DF",
+            "Character/Symbol: 𑃟",
+            "Name: SORA SOMPENG LETTER KAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃠 U+110E0 SORA SOMPENG LETTER JAH": 
+    {
+        "prefix": [
+            "..U.110E0",
+            "..U.SORA SOMPENG LETTER JAH",
+            "U+110E0",
+        ],
+        "body": [
+            "${1|𑃠,&#x110E0;,U+110E0,0x110E0,SORA SOMPENG LETTER JAH|}$2",
+        ],
+        "description": [
+            "Code: U+110E0",
+            "Character/Symbol: 𑃠",
+            "Name: SORA SOMPENG LETTER JAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃡 U+110E1 SORA SOMPENG LETTER NYAH": 
+    {
+        "prefix": [
+            "..U.110E1",
+            "..U.SORA SOMPENG LETTER NYAH",
+            "U+110E1",
+        ],
+        "body": [
+            "${1|𑃡,&#x110E1;,U+110E1,0x110E1,SORA SOMPENG LETTER NYAH|}$2",
+        ],
+        "description": [
+            "Code: U+110E1",
+            "Character/Symbol: 𑃡",
+            "Name: SORA SOMPENG LETTER NYAH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃢 U+110E2 SORA SOMPENG LETTER AH": 
+    {
+        "prefix": [
+            "..U.110E2",
+            "..U.SORA SOMPENG LETTER AH",
+            "U+110E2",
+        ],
+        "body": [
+            "${1|𑃢,&#x110E2;,U+110E2,0x110E2,SORA SOMPENG LETTER AH|}$2",
+        ],
+        "description": [
+            "Code: U+110E2",
+            "Character/Symbol: 𑃢",
+            "Name: SORA SOMPENG LETTER AH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃣 U+110E3 SORA SOMPENG LETTER EEH": 
+    {
+        "prefix": [
+            "..U.110E3",
+            "..U.SORA SOMPENG LETTER EEH",
+            "U+110E3",
+        ],
+        "body": [
+            "${1|𑃣,&#x110E3;,U+110E3,0x110E3,SORA SOMPENG LETTER EEH|}$2",
+        ],
+        "description": [
+            "Code: U+110E3",
+            "Character/Symbol: 𑃣",
+            "Name: SORA SOMPENG LETTER EEH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃤 U+110E4 SORA SOMPENG LETTER IH": 
+    {
+        "prefix": [
+            "..U.110E4",
+            "..U.SORA SOMPENG LETTER IH",
+            "U+110E4",
+        ],
+        "body": [
+            "${1|𑃤,&#x110E4;,U+110E4,0x110E4,SORA SOMPENG LETTER IH|}$2",
+        ],
+        "description": [
+            "Code: U+110E4",
+            "Character/Symbol: 𑃤",
+            "Name: SORA SOMPENG LETTER IH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃥 U+110E5 SORA SOMPENG LETTER UH": 
+    {
+        "prefix": [
+            "..U.110E5",
+            "..U.SORA SOMPENG LETTER UH",
+            "U+110E5",
+        ],
+        "body": [
+            "${1|𑃥,&#x110E5;,U+110E5,0x110E5,SORA SOMPENG LETTER UH|}$2",
+        ],
+        "description": [
+            "Code: U+110E5",
+            "Character/Symbol: 𑃥",
+            "Name: SORA SOMPENG LETTER UH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃦 U+110E6 SORA SOMPENG LETTER OH": 
+    {
+        "prefix": [
+            "..U.110E6",
+            "..U.SORA SOMPENG LETTER OH",
+            "U+110E6",
+        ],
+        "body": [
+            "${1|𑃦,&#x110E6;,U+110E6,0x110E6,SORA SOMPENG LETTER OH|}$2",
+        ],
+        "description": [
+            "Code: U+110E6",
+            "Character/Symbol: 𑃦",
+            "Name: SORA SOMPENG LETTER OH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃧 U+110E7 SORA SOMPENG LETTER EH": 
+    {
+        "prefix": [
+            "..U.110E7",
+            "..U.SORA SOMPENG LETTER EH",
+            "U+110E7",
+        ],
+        "body": [
+            "${1|𑃧,&#x110E7;,U+110E7,0x110E7,SORA SOMPENG LETTER EH|}$2",
+        ],
+        "description": [
+            "Code: U+110E7",
+            "Character/Symbol: 𑃧",
+            "Name: SORA SOMPENG LETTER EH",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃨 U+110E8 SORA SOMPENG LETTER MAE": 
+    {
+        "prefix": [
+            "..U.110E8",
+            "..U.SORA SOMPENG LETTER MAE",
+            "U+110E8",
+        ],
+        "body": [
+            "${1|𑃨,&#x110E8;,U+110E8,0x110E8,SORA SOMPENG LETTER MAE|}$2",
+        ],
+        "description": [
+            "Code: U+110E8",
+            "Character/Symbol: 𑃨",
+            "Name: SORA SOMPENG LETTER MAE",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃰 U+110F0 SORA SOMPENG DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.110F0",
+            "..U.SORA SOMPENG DIGIT ZERO",
+            "U+110F0",
+        ],
+        "body": [
+            "${1|𑃰,&#x110F0;,U+110F0,0x110F0,SORA SOMPENG DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+110F0",
+            "Character/Symbol: 𑃰",
+            "Name: SORA SOMPENG DIGIT ZERO",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃱 U+110F1 SORA SOMPENG DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.110F1",
+            "..U.SORA SOMPENG DIGIT ONE",
+            "U+110F1",
+        ],
+        "body": [
+            "${1|𑃱,&#x110F1;,U+110F1,0x110F1,SORA SOMPENG DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+110F1",
+            "Character/Symbol: 𑃱",
+            "Name: SORA SOMPENG DIGIT ONE",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃲 U+110F2 SORA SOMPENG DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.110F2",
+            "..U.SORA SOMPENG DIGIT TWO",
+            "U+110F2",
+        ],
+        "body": [
+            "${1|𑃲,&#x110F2;,U+110F2,0x110F2,SORA SOMPENG DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+110F2",
+            "Character/Symbol: 𑃲",
+            "Name: SORA SOMPENG DIGIT TWO",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃳 U+110F3 SORA SOMPENG DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.110F3",
+            "..U.SORA SOMPENG DIGIT THREE",
+            "U+110F3",
+        ],
+        "body": [
+            "${1|𑃳,&#x110F3;,U+110F3,0x110F3,SORA SOMPENG DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+110F3",
+            "Character/Symbol: 𑃳",
+            "Name: SORA SOMPENG DIGIT THREE",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃴 U+110F4 SORA SOMPENG DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.110F4",
+            "..U.SORA SOMPENG DIGIT FOUR",
+            "U+110F4",
+        ],
+        "body": [
+            "${1|𑃴,&#x110F4;,U+110F4,0x110F4,SORA SOMPENG DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+110F4",
+            "Character/Symbol: 𑃴",
+            "Name: SORA SOMPENG DIGIT FOUR",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃵 U+110F5 SORA SOMPENG DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.110F5",
+            "..U.SORA SOMPENG DIGIT FIVE",
+            "U+110F5",
+        ],
+        "body": [
+            "${1|𑃵,&#x110F5;,U+110F5,0x110F5,SORA SOMPENG DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+110F5",
+            "Character/Symbol: 𑃵",
+            "Name: SORA SOMPENG DIGIT FIVE",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃶 U+110F6 SORA SOMPENG DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.110F6",
+            "..U.SORA SOMPENG DIGIT SIX",
+            "U+110F6",
+        ],
+        "body": [
+            "${1|𑃶,&#x110F6;,U+110F6,0x110F6,SORA SOMPENG DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+110F6",
+            "Character/Symbol: 𑃶",
+            "Name: SORA SOMPENG DIGIT SIX",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃷 U+110F7 SORA SOMPENG DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.110F7",
+            "..U.SORA SOMPENG DIGIT SEVEN",
+            "U+110F7",
+        ],
+        "body": [
+            "${1|𑃷,&#x110F7;,U+110F7,0x110F7,SORA SOMPENG DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+110F7",
+            "Character/Symbol: 𑃷",
+            "Name: SORA SOMPENG DIGIT SEVEN",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃸 U+110F8 SORA SOMPENG DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.110F8",
+            "..U.SORA SOMPENG DIGIT EIGHT",
+            "U+110F8",
+        ],
+        "body": [
+            "${1|𑃸,&#x110F8;,U+110F8,0x110F8,SORA SOMPENG DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+110F8",
+            "Character/Symbol: 𑃸",
+            "Name: SORA SOMPENG DIGIT EIGHT",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+    "Unicode 𑃹 U+110F9 SORA SOMPENG DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.110F9",
+            "..U.SORA SOMPENG DIGIT NINE",
+            "U+110F9",
+        ],
+        "body": [
+            "${1|𑃹,&#x110F9;,U+110F9,0x110F9,SORA SOMPENG DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+110F9",
+            "Character/Symbol: 𑃹",
+            "Name: SORA SOMPENG DIGIT NINE",
+            "Group/Block: Sora_Sompeng",
+        ],
+    },
+
+}

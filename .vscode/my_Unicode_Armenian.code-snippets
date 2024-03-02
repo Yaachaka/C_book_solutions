@@ -1,0 +1,1640 @@
+{
+    "Unicode Ա U+0531 ARMENIAN CAPITAL LETTER AYB": 
+    {
+        "prefix": [
+            "..U.0531",
+            "..U.ARMENIAN CAPITAL LETTER AYB",
+            "U+0531",
+        ],
+        "body": [
+            "${1|Ա,&#x0531;,U+0531,0x0531,ARMENIAN CAPITAL LETTER AYB|}$2",
+        ],
+        "description": [
+            "Code: U+0531",
+            "Character/Symbol: Ա",
+            "Name: ARMENIAN CAPITAL LETTER AYB",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Բ U+0532 ARMENIAN CAPITAL LETTER BEN": 
+    {
+        "prefix": [
+            "..U.0532",
+            "..U.ARMENIAN CAPITAL LETTER BEN",
+            "U+0532",
+        ],
+        "body": [
+            "${1|Բ,&#x0532;,U+0532,0x0532,ARMENIAN CAPITAL LETTER BEN|}$2",
+        ],
+        "description": [
+            "Code: U+0532",
+            "Character/Symbol: Բ",
+            "Name: ARMENIAN CAPITAL LETTER BEN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Գ U+0533 ARMENIAN CAPITAL LETTER GIM": 
+    {
+        "prefix": [
+            "..U.0533",
+            "..U.ARMENIAN CAPITAL LETTER GIM",
+            "U+0533",
+        ],
+        "body": [
+            "${1|Գ,&#x0533;,U+0533,0x0533,ARMENIAN CAPITAL LETTER GIM|}$2",
+        ],
+        "description": [
+            "Code: U+0533",
+            "Character/Symbol: Գ",
+            "Name: ARMENIAN CAPITAL LETTER GIM",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Դ U+0534 ARMENIAN CAPITAL LETTER DA": 
+    {
+        "prefix": [
+            "..U.0534",
+            "..U.ARMENIAN CAPITAL LETTER DA",
+            "U+0534",
+        ],
+        "body": [
+            "${1|Դ,&#x0534;,U+0534,0x0534,ARMENIAN CAPITAL LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+0534",
+            "Character/Symbol: Դ",
+            "Name: ARMENIAN CAPITAL LETTER DA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ե U+0535 ARMENIAN CAPITAL LETTER ECH": 
+    {
+        "prefix": [
+            "..U.0535",
+            "..U.ARMENIAN CAPITAL LETTER ECH",
+            "U+0535",
+        ],
+        "body": [
+            "${1|Ե,&#x0535;,U+0535,0x0535,ARMENIAN CAPITAL LETTER ECH|}$2",
+        ],
+        "description": [
+            "Code: U+0535",
+            "Character/Symbol: Ե",
+            "Name: ARMENIAN CAPITAL LETTER ECH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Զ U+0536 ARMENIAN CAPITAL LETTER ZA": 
+    {
+        "prefix": [
+            "..U.0536",
+            "..U.ARMENIAN CAPITAL LETTER ZA",
+            "U+0536",
+        ],
+        "body": [
+            "${1|Զ,&#x0536;,U+0536,0x0536,ARMENIAN CAPITAL LETTER ZA|}$2",
+        ],
+        "description": [
+            "Code: U+0536",
+            "Character/Symbol: Զ",
+            "Name: ARMENIAN CAPITAL LETTER ZA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Է U+0537 ARMENIAN CAPITAL LETTER EH": 
+    {
+        "prefix": [
+            "..U.0537",
+            "..U.ARMENIAN CAPITAL LETTER EH",
+            "U+0537",
+        ],
+        "body": [
+            "${1|Է,&#x0537;,U+0537,0x0537,ARMENIAN CAPITAL LETTER EH|}$2",
+        ],
+        "description": [
+            "Code: U+0537",
+            "Character/Symbol: Է",
+            "Name: ARMENIAN CAPITAL LETTER EH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ը U+0538 ARMENIAN CAPITAL LETTER ET": 
+    {
+        "prefix": [
+            "..U.0538",
+            "..U.ARMENIAN CAPITAL LETTER ET",
+            "U+0538",
+        ],
+        "body": [
+            "${1|Ը,&#x0538;,U+0538,0x0538,ARMENIAN CAPITAL LETTER ET|}$2",
+        ],
+        "description": [
+            "Code: U+0538",
+            "Character/Symbol: Ը",
+            "Name: ARMENIAN CAPITAL LETTER ET",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Թ U+0539 ARMENIAN CAPITAL LETTER TO": 
+    {
+        "prefix": [
+            "..U.0539",
+            "..U.ARMENIAN CAPITAL LETTER TO",
+            "U+0539",
+        ],
+        "body": [
+            "${1|Թ,&#x0539;,U+0539,0x0539,ARMENIAN CAPITAL LETTER TO|}$2",
+        ],
+        "description": [
+            "Code: U+0539",
+            "Character/Symbol: Թ",
+            "Name: ARMENIAN CAPITAL LETTER TO",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ժ U+053A ARMENIAN CAPITAL LETTER ZHE": 
+    {
+        "prefix": [
+            "..U.053A",
+            "..U.ARMENIAN CAPITAL LETTER ZHE",
+            "U+053A",
+        ],
+        "body": [
+            "${1|Ժ,&#x053A;,U+053A,0x053A,ARMENIAN CAPITAL LETTER ZHE|}$2",
+        ],
+        "description": [
+            "Code: U+053A",
+            "Character/Symbol: Ժ",
+            "Name: ARMENIAN CAPITAL LETTER ZHE",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ի U+053B ARMENIAN CAPITAL LETTER INI": 
+    {
+        "prefix": [
+            "..U.053B",
+            "..U.ARMENIAN CAPITAL LETTER INI",
+            "U+053B",
+        ],
+        "body": [
+            "${1|Ի,&#x053B;,U+053B,0x053B,ARMENIAN CAPITAL LETTER INI|}$2",
+        ],
+        "description": [
+            "Code: U+053B",
+            "Character/Symbol: Ի",
+            "Name: ARMENIAN CAPITAL LETTER INI",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Լ U+053C ARMENIAN CAPITAL LETTER LIWN": 
+    {
+        "prefix": [
+            "..U.053C",
+            "..U.ARMENIAN CAPITAL LETTER LIWN",
+            "U+053C",
+        ],
+        "body": [
+            "${1|Լ,&#x053C;,U+053C,0x053C,ARMENIAN CAPITAL LETTER LIWN|}$2",
+        ],
+        "description": [
+            "Code: U+053C",
+            "Character/Symbol: Լ",
+            "Name: ARMENIAN CAPITAL LETTER LIWN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Խ U+053D ARMENIAN CAPITAL LETTER XEH": 
+    {
+        "prefix": [
+            "..U.053D",
+            "..U.ARMENIAN CAPITAL LETTER XEH",
+            "U+053D",
+        ],
+        "body": [
+            "${1|Խ,&#x053D;,U+053D,0x053D,ARMENIAN CAPITAL LETTER XEH|}$2",
+        ],
+        "description": [
+            "Code: U+053D",
+            "Character/Symbol: Խ",
+            "Name: ARMENIAN CAPITAL LETTER XEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ծ U+053E ARMENIAN CAPITAL LETTER CA": 
+    {
+        "prefix": [
+            "..U.053E",
+            "..U.ARMENIAN CAPITAL LETTER CA",
+            "U+053E",
+        ],
+        "body": [
+            "${1|Ծ,&#x053E;,U+053E,0x053E,ARMENIAN CAPITAL LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+053E",
+            "Character/Symbol: Ծ",
+            "Name: ARMENIAN CAPITAL LETTER CA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Կ U+053F ARMENIAN CAPITAL LETTER KEN": 
+    {
+        "prefix": [
+            "..U.053F",
+            "..U.ARMENIAN CAPITAL LETTER KEN",
+            "U+053F",
+        ],
+        "body": [
+            "${1|Կ,&#x053F;,U+053F,0x053F,ARMENIAN CAPITAL LETTER KEN|}$2",
+        ],
+        "description": [
+            "Code: U+053F",
+            "Character/Symbol: Կ",
+            "Name: ARMENIAN CAPITAL LETTER KEN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Հ U+0540 ARMENIAN CAPITAL LETTER HO": 
+    {
+        "prefix": [
+            "..U.0540",
+            "..U.ARMENIAN CAPITAL LETTER HO",
+            "U+0540",
+        ],
+        "body": [
+            "${1|Հ,&#x0540;,U+0540,0x0540,ARMENIAN CAPITAL LETTER HO|}$2",
+        ],
+        "description": [
+            "Code: U+0540",
+            "Character/Symbol: Հ",
+            "Name: ARMENIAN CAPITAL LETTER HO",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ձ U+0541 ARMENIAN CAPITAL LETTER JA": 
+    {
+        "prefix": [
+            "..U.0541",
+            "..U.ARMENIAN CAPITAL LETTER JA",
+            "U+0541",
+        ],
+        "body": [
+            "${1|Ձ,&#x0541;,U+0541,0x0541,ARMENIAN CAPITAL LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+0541",
+            "Character/Symbol: Ձ",
+            "Name: ARMENIAN CAPITAL LETTER JA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ղ U+0542 ARMENIAN CAPITAL LETTER GHAD": 
+    {
+        "prefix": [
+            "..U.0542",
+            "..U.ARMENIAN CAPITAL LETTER GHAD",
+            "U+0542",
+        ],
+        "body": [
+            "${1|Ղ,&#x0542;,U+0542,0x0542,ARMENIAN CAPITAL LETTER GHAD|}$2",
+        ],
+        "description": [
+            "Code: U+0542",
+            "Character/Symbol: Ղ",
+            "Name: ARMENIAN CAPITAL LETTER GHAD",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ճ U+0543 ARMENIAN CAPITAL LETTER CHEH": 
+    {
+        "prefix": [
+            "..U.0543",
+            "..U.ARMENIAN CAPITAL LETTER CHEH",
+            "U+0543",
+        ],
+        "body": [
+            "${1|Ճ,&#x0543;,U+0543,0x0543,ARMENIAN CAPITAL LETTER CHEH|}$2",
+        ],
+        "description": [
+            "Code: U+0543",
+            "Character/Symbol: Ճ",
+            "Name: ARMENIAN CAPITAL LETTER CHEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Մ U+0544 ARMENIAN CAPITAL LETTER MEN": 
+    {
+        "prefix": [
+            "..U.0544",
+            "..U.ARMENIAN CAPITAL LETTER MEN",
+            "U+0544",
+        ],
+        "body": [
+            "${1|Մ,&#x0544;,U+0544,0x0544,ARMENIAN CAPITAL LETTER MEN|}$2",
+        ],
+        "description": [
+            "Code: U+0544",
+            "Character/Symbol: Մ",
+            "Name: ARMENIAN CAPITAL LETTER MEN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Յ U+0545 ARMENIAN CAPITAL LETTER YI": 
+    {
+        "prefix": [
+            "..U.0545",
+            "..U.ARMENIAN CAPITAL LETTER YI",
+            "U+0545",
+        ],
+        "body": [
+            "${1|Յ,&#x0545;,U+0545,0x0545,ARMENIAN CAPITAL LETTER YI|}$2",
+        ],
+        "description": [
+            "Code: U+0545",
+            "Character/Symbol: Յ",
+            "Name: ARMENIAN CAPITAL LETTER YI",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ն U+0546 ARMENIAN CAPITAL LETTER NOW": 
+    {
+        "prefix": [
+            "..U.0546",
+            "..U.ARMENIAN CAPITAL LETTER NOW",
+            "U+0546",
+        ],
+        "body": [
+            "${1|Ն,&#x0546;,U+0546,0x0546,ARMENIAN CAPITAL LETTER NOW|}$2",
+        ],
+        "description": [
+            "Code: U+0546",
+            "Character/Symbol: Ն",
+            "Name: ARMENIAN CAPITAL LETTER NOW",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Շ U+0547 ARMENIAN CAPITAL LETTER SHA": 
+    {
+        "prefix": [
+            "..U.0547",
+            "..U.ARMENIAN CAPITAL LETTER SHA",
+            "U+0547",
+        ],
+        "body": [
+            "${1|Շ,&#x0547;,U+0547,0x0547,ARMENIAN CAPITAL LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+0547",
+            "Character/Symbol: Շ",
+            "Name: ARMENIAN CAPITAL LETTER SHA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ո U+0548 ARMENIAN CAPITAL LETTER VO": 
+    {
+        "prefix": [
+            "..U.0548",
+            "..U.ARMENIAN CAPITAL LETTER VO",
+            "U+0548",
+        ],
+        "body": [
+            "${1|Ո,&#x0548;,U+0548,0x0548,ARMENIAN CAPITAL LETTER VO|}$2",
+        ],
+        "description": [
+            "Code: U+0548",
+            "Character/Symbol: Ո",
+            "Name: ARMENIAN CAPITAL LETTER VO",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Չ U+0549 ARMENIAN CAPITAL LETTER CHA": 
+    {
+        "prefix": [
+            "..U.0549",
+            "..U.ARMENIAN CAPITAL LETTER CHA",
+            "U+0549",
+        ],
+        "body": [
+            "${1|Չ,&#x0549;,U+0549,0x0549,ARMENIAN CAPITAL LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+0549",
+            "Character/Symbol: Չ",
+            "Name: ARMENIAN CAPITAL LETTER CHA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Պ U+054A ARMENIAN CAPITAL LETTER PEH": 
+    {
+        "prefix": [
+            "..U.054A",
+            "..U.ARMENIAN CAPITAL LETTER PEH",
+            "U+054A",
+        ],
+        "body": [
+            "${1|Պ,&#x054A;,U+054A,0x054A,ARMENIAN CAPITAL LETTER PEH|}$2",
+        ],
+        "description": [
+            "Code: U+054A",
+            "Character/Symbol: Պ",
+            "Name: ARMENIAN CAPITAL LETTER PEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ջ U+054B ARMENIAN CAPITAL LETTER JHEH": 
+    {
+        "prefix": [
+            "..U.054B",
+            "..U.ARMENIAN CAPITAL LETTER JHEH",
+            "U+054B",
+        ],
+        "body": [
+            "${1|Ջ,&#x054B;,U+054B,0x054B,ARMENIAN CAPITAL LETTER JHEH|}$2",
+        ],
+        "description": [
+            "Code: U+054B",
+            "Character/Symbol: Ջ",
+            "Name: ARMENIAN CAPITAL LETTER JHEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ռ U+054C ARMENIAN CAPITAL LETTER RA": 
+    {
+        "prefix": [
+            "..U.054C",
+            "..U.ARMENIAN CAPITAL LETTER RA",
+            "U+054C",
+        ],
+        "body": [
+            "${1|Ռ,&#x054C;,U+054C,0x054C,ARMENIAN CAPITAL LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+054C",
+            "Character/Symbol: Ռ",
+            "Name: ARMENIAN CAPITAL LETTER RA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ս U+054D ARMENIAN CAPITAL LETTER SEH": 
+    {
+        "prefix": [
+            "..U.054D",
+            "..U.ARMENIAN CAPITAL LETTER SEH",
+            "U+054D",
+        ],
+        "body": [
+            "${1|Ս,&#x054D;,U+054D,0x054D,ARMENIAN CAPITAL LETTER SEH|}$2",
+        ],
+        "description": [
+            "Code: U+054D",
+            "Character/Symbol: Ս",
+            "Name: ARMENIAN CAPITAL LETTER SEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Վ U+054E ARMENIAN CAPITAL LETTER VEW": 
+    {
+        "prefix": [
+            "..U.054E",
+            "..U.ARMENIAN CAPITAL LETTER VEW",
+            "U+054E",
+        ],
+        "body": [
+            "${1|Վ,&#x054E;,U+054E,0x054E,ARMENIAN CAPITAL LETTER VEW|}$2",
+        ],
+        "description": [
+            "Code: U+054E",
+            "Character/Symbol: Վ",
+            "Name: ARMENIAN CAPITAL LETTER VEW",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Տ U+054F ARMENIAN CAPITAL LETTER TIWN": 
+    {
+        "prefix": [
+            "..U.054F",
+            "..U.ARMENIAN CAPITAL LETTER TIWN",
+            "U+054F",
+        ],
+        "body": [
+            "${1|Տ,&#x054F;,U+054F,0x054F,ARMENIAN CAPITAL LETTER TIWN|}$2",
+        ],
+        "description": [
+            "Code: U+054F",
+            "Character/Symbol: Տ",
+            "Name: ARMENIAN CAPITAL LETTER TIWN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ր U+0550 ARMENIAN CAPITAL LETTER REH": 
+    {
+        "prefix": [
+            "..U.0550",
+            "..U.ARMENIAN CAPITAL LETTER REH",
+            "U+0550",
+        ],
+        "body": [
+            "${1|Ր,&#x0550;,U+0550,0x0550,ARMENIAN CAPITAL LETTER REH|}$2",
+        ],
+        "description": [
+            "Code: U+0550",
+            "Character/Symbol: Ր",
+            "Name: ARMENIAN CAPITAL LETTER REH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ց U+0551 ARMENIAN CAPITAL LETTER CO": 
+    {
+        "prefix": [
+            "..U.0551",
+            "..U.ARMENIAN CAPITAL LETTER CO",
+            "U+0551",
+        ],
+        "body": [
+            "${1|Ց,&#x0551;,U+0551,0x0551,ARMENIAN CAPITAL LETTER CO|}$2",
+        ],
+        "description": [
+            "Code: U+0551",
+            "Character/Symbol: Ց",
+            "Name: ARMENIAN CAPITAL LETTER CO",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ւ U+0552 ARMENIAN CAPITAL LETTER YIWN": 
+    {
+        "prefix": [
+            "..U.0552",
+            "..U.ARMENIAN CAPITAL LETTER YIWN",
+            "U+0552",
+        ],
+        "body": [
+            "${1|Ւ,&#x0552;,U+0552,0x0552,ARMENIAN CAPITAL LETTER YIWN|}$2",
+        ],
+        "description": [
+            "Code: U+0552",
+            "Character/Symbol: Ւ",
+            "Name: ARMENIAN CAPITAL LETTER YIWN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Փ U+0553 ARMENIAN CAPITAL LETTER PIWR": 
+    {
+        "prefix": [
+            "..U.0553",
+            "..U.ARMENIAN CAPITAL LETTER PIWR",
+            "U+0553",
+        ],
+        "body": [
+            "${1|Փ,&#x0553;,U+0553,0x0553,ARMENIAN CAPITAL LETTER PIWR|}$2",
+        ],
+        "description": [
+            "Code: U+0553",
+            "Character/Symbol: Փ",
+            "Name: ARMENIAN CAPITAL LETTER PIWR",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ք U+0554 ARMENIAN CAPITAL LETTER KEH": 
+    {
+        "prefix": [
+            "..U.0554",
+            "..U.ARMENIAN CAPITAL LETTER KEH",
+            "U+0554",
+        ],
+        "body": [
+            "${1|Ք,&#x0554;,U+0554,0x0554,ARMENIAN CAPITAL LETTER KEH|}$2",
+        ],
+        "description": [
+            "Code: U+0554",
+            "Character/Symbol: Ք",
+            "Name: ARMENIAN CAPITAL LETTER KEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Օ U+0555 ARMENIAN CAPITAL LETTER OH": 
+    {
+        "prefix": [
+            "..U.0555",
+            "..U.ARMENIAN CAPITAL LETTER OH",
+            "U+0555",
+        ],
+        "body": [
+            "${1|Օ,&#x0555;,U+0555,0x0555,ARMENIAN CAPITAL LETTER OH|}$2",
+        ],
+        "description": [
+            "Code: U+0555",
+            "Character/Symbol: Օ",
+            "Name: ARMENIAN CAPITAL LETTER OH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode Ֆ U+0556 ARMENIAN CAPITAL LETTER FEH": 
+    {
+        "prefix": [
+            "..U.0556",
+            "..U.ARMENIAN CAPITAL LETTER FEH",
+            "U+0556",
+        ],
+        "body": [
+            "${1|Ֆ,&#x0556;,U+0556,0x0556,ARMENIAN CAPITAL LETTER FEH|}$2",
+        ],
+        "description": [
+            "Code: U+0556",
+            "Character/Symbol: Ֆ",
+            "Name: ARMENIAN CAPITAL LETTER FEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ՙ U+0559 ARMENIAN MODIFIER LETTER LEFT HALF RING": 
+    {
+        "prefix": [
+            "..U.0559",
+            "..U.ARMENIAN MODIFIER LETTER LEFT HALF RING",
+            "U+0559",
+        ],
+        "body": [
+            "${1|ՙ,&#x0559;,U+0559,0x0559,ARMENIAN MODIFIER LETTER LEFT HALF RING|}$2",
+        ],
+        "description": [
+            "Code: U+0559",
+            "Character/Symbol: ՙ",
+            "Name: ARMENIAN MODIFIER LETTER LEFT HALF RING",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ՚ U+055A ARMENIAN APOSTROPHE": 
+    {
+        "prefix": [
+            "..U.055A",
+            "..U.ARMENIAN APOSTROPHE",
+            "U+055A",
+        ],
+        "body": [
+            "${1|՚,&#x055A;,U+055A,0x055A,ARMENIAN APOSTROPHE|}$2",
+        ],
+        "description": [
+            "Code: U+055A",
+            "Character/Symbol: ՚",
+            "Name: ARMENIAN APOSTROPHE",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ՛ U+055B ARMENIAN EMPHASIS MARK": 
+    {
+        "prefix": [
+            "..U.055B",
+            "..U.ARMENIAN EMPHASIS MARK",
+            "U+055B",
+        ],
+        "body": [
+            "${1|՛,&#x055B;,U+055B,0x055B,ARMENIAN EMPHASIS MARK|}$2",
+        ],
+        "description": [
+            "Code: U+055B",
+            "Character/Symbol: ՛",
+            "Name: ARMENIAN EMPHASIS MARK",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ՜ U+055C ARMENIAN EXCLAMATION MARK": 
+    {
+        "prefix": [
+            "..U.055C",
+            "..U.ARMENIAN EXCLAMATION MARK",
+            "U+055C",
+        ],
+        "body": [
+            "${1|՜,&#x055C;,U+055C,0x055C,ARMENIAN EXCLAMATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+055C",
+            "Character/Symbol: ՜",
+            "Name: ARMENIAN EXCLAMATION MARK",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ՝ U+055D ARMENIAN COMMA": 
+    {
+        "prefix": [
+            "..U.055D",
+            "..U.ARMENIAN COMMA",
+            "U+055D",
+        ],
+        "body": [
+            "${1|՝,&#x055D;,U+055D,0x055D,ARMENIAN COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+055D",
+            "Character/Symbol: ՝",
+            "Name: ARMENIAN COMMA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ՞ U+055E ARMENIAN QUESTION MARK": 
+    {
+        "prefix": [
+            "..U.055E",
+            "..U.ARMENIAN QUESTION MARK",
+            "U+055E",
+        ],
+        "body": [
+            "${1|՞,&#x055E;,U+055E,0x055E,ARMENIAN QUESTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+055E",
+            "Character/Symbol: ՞",
+            "Name: ARMENIAN QUESTION MARK",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ՟ U+055F ARMENIAN ABBREVIATION MARK": 
+    {
+        "prefix": [
+            "..U.055F",
+            "..U.ARMENIAN ABBREVIATION MARK",
+            "U+055F",
+        ],
+        "body": [
+            "${1|՟,&#x055F;,U+055F,0x055F,ARMENIAN ABBREVIATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+055F",
+            "Character/Symbol: ՟",
+            "Name: ARMENIAN ABBREVIATION MARK",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ՠ U+0560 ARMENIAN SMALL LETTER TURNED AYB": 
+    {
+        "prefix": [
+            "..U.0560",
+            "..U.ARMENIAN SMALL LETTER TURNED AYB",
+            "U+0560",
+        ],
+        "body": [
+            "${1|ՠ,&#x0560;,U+0560,0x0560,ARMENIAN SMALL LETTER TURNED AYB|}$2",
+        ],
+        "description": [
+            "Code: U+0560",
+            "Character/Symbol: ՠ",
+            "Name: ARMENIAN SMALL LETTER TURNED AYB",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ա U+0561 ARMENIAN SMALL LETTER AYB": 
+    {
+        "prefix": [
+            "..U.0561",
+            "..U.ARMENIAN SMALL LETTER AYB",
+            "U+0561",
+        ],
+        "body": [
+            "${1|ա,&#x0561;,U+0561,0x0561,ARMENIAN SMALL LETTER AYB|}$2",
+        ],
+        "description": [
+            "Code: U+0561",
+            "Character/Symbol: ա",
+            "Name: ARMENIAN SMALL LETTER AYB",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode բ U+0562 ARMENIAN SMALL LETTER BEN": 
+    {
+        "prefix": [
+            "..U.0562",
+            "..U.ARMENIAN SMALL LETTER BEN",
+            "U+0562",
+        ],
+        "body": [
+            "${1|բ,&#x0562;,U+0562,0x0562,ARMENIAN SMALL LETTER BEN|}$2",
+        ],
+        "description": [
+            "Code: U+0562",
+            "Character/Symbol: բ",
+            "Name: ARMENIAN SMALL LETTER BEN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode գ U+0563 ARMENIAN SMALL LETTER GIM": 
+    {
+        "prefix": [
+            "..U.0563",
+            "..U.ARMENIAN SMALL LETTER GIM",
+            "U+0563",
+        ],
+        "body": [
+            "${1|գ,&#x0563;,U+0563,0x0563,ARMENIAN SMALL LETTER GIM|}$2",
+        ],
+        "description": [
+            "Code: U+0563",
+            "Character/Symbol: գ",
+            "Name: ARMENIAN SMALL LETTER GIM",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode դ U+0564 ARMENIAN SMALL LETTER DA": 
+    {
+        "prefix": [
+            "..U.0564",
+            "..U.ARMENIAN SMALL LETTER DA",
+            "U+0564",
+        ],
+        "body": [
+            "${1|դ,&#x0564;,U+0564,0x0564,ARMENIAN SMALL LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+0564",
+            "Character/Symbol: դ",
+            "Name: ARMENIAN SMALL LETTER DA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ե U+0565 ARMENIAN SMALL LETTER ECH": 
+    {
+        "prefix": [
+            "..U.0565",
+            "..U.ARMENIAN SMALL LETTER ECH",
+            "U+0565",
+        ],
+        "body": [
+            "${1|ե,&#x0565;,U+0565,0x0565,ARMENIAN SMALL LETTER ECH|}$2",
+        ],
+        "description": [
+            "Code: U+0565",
+            "Character/Symbol: ե",
+            "Name: ARMENIAN SMALL LETTER ECH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode զ U+0566 ARMENIAN SMALL LETTER ZA": 
+    {
+        "prefix": [
+            "..U.0566",
+            "..U.ARMENIAN SMALL LETTER ZA",
+            "U+0566",
+        ],
+        "body": [
+            "${1|զ,&#x0566;,U+0566,0x0566,ARMENIAN SMALL LETTER ZA|}$2",
+        ],
+        "description": [
+            "Code: U+0566",
+            "Character/Symbol: զ",
+            "Name: ARMENIAN SMALL LETTER ZA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode է U+0567 ARMENIAN SMALL LETTER EH": 
+    {
+        "prefix": [
+            "..U.0567",
+            "..U.ARMENIAN SMALL LETTER EH",
+            "U+0567",
+        ],
+        "body": [
+            "${1|է,&#x0567;,U+0567,0x0567,ARMENIAN SMALL LETTER EH|}$2",
+        ],
+        "description": [
+            "Code: U+0567",
+            "Character/Symbol: է",
+            "Name: ARMENIAN SMALL LETTER EH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ը U+0568 ARMENIAN SMALL LETTER ET": 
+    {
+        "prefix": [
+            "..U.0568",
+            "..U.ARMENIAN SMALL LETTER ET",
+            "U+0568",
+        ],
+        "body": [
+            "${1|ը,&#x0568;,U+0568,0x0568,ARMENIAN SMALL LETTER ET|}$2",
+        ],
+        "description": [
+            "Code: U+0568",
+            "Character/Symbol: ը",
+            "Name: ARMENIAN SMALL LETTER ET",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode թ U+0569 ARMENIAN SMALL LETTER TO": 
+    {
+        "prefix": [
+            "..U.0569",
+            "..U.ARMENIAN SMALL LETTER TO",
+            "U+0569",
+        ],
+        "body": [
+            "${1|թ,&#x0569;,U+0569,0x0569,ARMENIAN SMALL LETTER TO|}$2",
+        ],
+        "description": [
+            "Code: U+0569",
+            "Character/Symbol: թ",
+            "Name: ARMENIAN SMALL LETTER TO",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ժ U+056A ARMENIAN SMALL LETTER ZHE": 
+    {
+        "prefix": [
+            "..U.056A",
+            "..U.ARMENIAN SMALL LETTER ZHE",
+            "U+056A",
+        ],
+        "body": [
+            "${1|ժ,&#x056A;,U+056A,0x056A,ARMENIAN SMALL LETTER ZHE|}$2",
+        ],
+        "description": [
+            "Code: U+056A",
+            "Character/Symbol: ժ",
+            "Name: ARMENIAN SMALL LETTER ZHE",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ի U+056B ARMENIAN SMALL LETTER INI": 
+    {
+        "prefix": [
+            "..U.056B",
+            "..U.ARMENIAN SMALL LETTER INI",
+            "U+056B",
+        ],
+        "body": [
+            "${1|ի,&#x056B;,U+056B,0x056B,ARMENIAN SMALL LETTER INI|}$2",
+        ],
+        "description": [
+            "Code: U+056B",
+            "Character/Symbol: ի",
+            "Name: ARMENIAN SMALL LETTER INI",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode լ U+056C ARMENIAN SMALL LETTER LIWN": 
+    {
+        "prefix": [
+            "..U.056C",
+            "..U.ARMENIAN SMALL LETTER LIWN",
+            "U+056C",
+        ],
+        "body": [
+            "${1|լ,&#x056C;,U+056C,0x056C,ARMENIAN SMALL LETTER LIWN|}$2",
+        ],
+        "description": [
+            "Code: U+056C",
+            "Character/Symbol: լ",
+            "Name: ARMENIAN SMALL LETTER LIWN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode խ U+056D ARMENIAN SMALL LETTER XEH": 
+    {
+        "prefix": [
+            "..U.056D",
+            "..U.ARMENIAN SMALL LETTER XEH",
+            "U+056D",
+        ],
+        "body": [
+            "${1|խ,&#x056D;,U+056D,0x056D,ARMENIAN SMALL LETTER XEH|}$2",
+        ],
+        "description": [
+            "Code: U+056D",
+            "Character/Symbol: խ",
+            "Name: ARMENIAN SMALL LETTER XEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ծ U+056E ARMENIAN SMALL LETTER CA": 
+    {
+        "prefix": [
+            "..U.056E",
+            "..U.ARMENIAN SMALL LETTER CA",
+            "U+056E",
+        ],
+        "body": [
+            "${1|ծ,&#x056E;,U+056E,0x056E,ARMENIAN SMALL LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+056E",
+            "Character/Symbol: ծ",
+            "Name: ARMENIAN SMALL LETTER CA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode կ U+056F ARMENIAN SMALL LETTER KEN": 
+    {
+        "prefix": [
+            "..U.056F",
+            "..U.ARMENIAN SMALL LETTER KEN",
+            "U+056F",
+        ],
+        "body": [
+            "${1|կ,&#x056F;,U+056F,0x056F,ARMENIAN SMALL LETTER KEN|}$2",
+        ],
+        "description": [
+            "Code: U+056F",
+            "Character/Symbol: կ",
+            "Name: ARMENIAN SMALL LETTER KEN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode հ U+0570 ARMENIAN SMALL LETTER HO": 
+    {
+        "prefix": [
+            "..U.0570",
+            "..U.ARMENIAN SMALL LETTER HO",
+            "U+0570",
+        ],
+        "body": [
+            "${1|հ,&#x0570;,U+0570,0x0570,ARMENIAN SMALL LETTER HO|}$2",
+        ],
+        "description": [
+            "Code: U+0570",
+            "Character/Symbol: հ",
+            "Name: ARMENIAN SMALL LETTER HO",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ձ U+0571 ARMENIAN SMALL LETTER JA": 
+    {
+        "prefix": [
+            "..U.0571",
+            "..U.ARMENIAN SMALL LETTER JA",
+            "U+0571",
+        ],
+        "body": [
+            "${1|ձ,&#x0571;,U+0571,0x0571,ARMENIAN SMALL LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+0571",
+            "Character/Symbol: ձ",
+            "Name: ARMENIAN SMALL LETTER JA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ղ U+0572 ARMENIAN SMALL LETTER GHAD": 
+    {
+        "prefix": [
+            "..U.0572",
+            "..U.ARMENIAN SMALL LETTER GHAD",
+            "U+0572",
+        ],
+        "body": [
+            "${1|ղ,&#x0572;,U+0572,0x0572,ARMENIAN SMALL LETTER GHAD|}$2",
+        ],
+        "description": [
+            "Code: U+0572",
+            "Character/Symbol: ղ",
+            "Name: ARMENIAN SMALL LETTER GHAD",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ճ U+0573 ARMENIAN SMALL LETTER CHEH": 
+    {
+        "prefix": [
+            "..U.0573",
+            "..U.ARMENIAN SMALL LETTER CHEH",
+            "U+0573",
+        ],
+        "body": [
+            "${1|ճ,&#x0573;,U+0573,0x0573,ARMENIAN SMALL LETTER CHEH|}$2",
+        ],
+        "description": [
+            "Code: U+0573",
+            "Character/Symbol: ճ",
+            "Name: ARMENIAN SMALL LETTER CHEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode մ U+0574 ARMENIAN SMALL LETTER MEN": 
+    {
+        "prefix": [
+            "..U.0574",
+            "..U.ARMENIAN SMALL LETTER MEN",
+            "U+0574",
+        ],
+        "body": [
+            "${1|մ,&#x0574;,U+0574,0x0574,ARMENIAN SMALL LETTER MEN|}$2",
+        ],
+        "description": [
+            "Code: U+0574",
+            "Character/Symbol: մ",
+            "Name: ARMENIAN SMALL LETTER MEN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode յ U+0575 ARMENIAN SMALL LETTER YI": 
+    {
+        "prefix": [
+            "..U.0575",
+            "..U.ARMENIAN SMALL LETTER YI",
+            "U+0575",
+        ],
+        "body": [
+            "${1|յ,&#x0575;,U+0575,0x0575,ARMENIAN SMALL LETTER YI|}$2",
+        ],
+        "description": [
+            "Code: U+0575",
+            "Character/Symbol: յ",
+            "Name: ARMENIAN SMALL LETTER YI",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ն U+0576 ARMENIAN SMALL LETTER NOW": 
+    {
+        "prefix": [
+            "..U.0576",
+            "..U.ARMENIAN SMALL LETTER NOW",
+            "U+0576",
+        ],
+        "body": [
+            "${1|ն,&#x0576;,U+0576,0x0576,ARMENIAN SMALL LETTER NOW|}$2",
+        ],
+        "description": [
+            "Code: U+0576",
+            "Character/Symbol: ն",
+            "Name: ARMENIAN SMALL LETTER NOW",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode շ U+0577 ARMENIAN SMALL LETTER SHA": 
+    {
+        "prefix": [
+            "..U.0577",
+            "..U.ARMENIAN SMALL LETTER SHA",
+            "U+0577",
+        ],
+        "body": [
+            "${1|շ,&#x0577;,U+0577,0x0577,ARMENIAN SMALL LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+0577",
+            "Character/Symbol: շ",
+            "Name: ARMENIAN SMALL LETTER SHA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ո U+0578 ARMENIAN SMALL LETTER VO": 
+    {
+        "prefix": [
+            "..U.0578",
+            "..U.ARMENIAN SMALL LETTER VO",
+            "U+0578",
+        ],
+        "body": [
+            "${1|ո,&#x0578;,U+0578,0x0578,ARMENIAN SMALL LETTER VO|}$2",
+        ],
+        "description": [
+            "Code: U+0578",
+            "Character/Symbol: ո",
+            "Name: ARMENIAN SMALL LETTER VO",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode չ U+0579 ARMENIAN SMALL LETTER CHA": 
+    {
+        "prefix": [
+            "..U.0579",
+            "..U.ARMENIAN SMALL LETTER CHA",
+            "U+0579",
+        ],
+        "body": [
+            "${1|չ,&#x0579;,U+0579,0x0579,ARMENIAN SMALL LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+0579",
+            "Character/Symbol: չ",
+            "Name: ARMENIAN SMALL LETTER CHA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode պ U+057A ARMENIAN SMALL LETTER PEH": 
+    {
+        "prefix": [
+            "..U.057A",
+            "..U.ARMENIAN SMALL LETTER PEH",
+            "U+057A",
+        ],
+        "body": [
+            "${1|պ,&#x057A;,U+057A,0x057A,ARMENIAN SMALL LETTER PEH|}$2",
+        ],
+        "description": [
+            "Code: U+057A",
+            "Character/Symbol: պ",
+            "Name: ARMENIAN SMALL LETTER PEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ջ U+057B ARMENIAN SMALL LETTER JHEH": 
+    {
+        "prefix": [
+            "..U.057B",
+            "..U.ARMENIAN SMALL LETTER JHEH",
+            "U+057B",
+        ],
+        "body": [
+            "${1|ջ,&#x057B;,U+057B,0x057B,ARMENIAN SMALL LETTER JHEH|}$2",
+        ],
+        "description": [
+            "Code: U+057B",
+            "Character/Symbol: ջ",
+            "Name: ARMENIAN SMALL LETTER JHEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ռ U+057C ARMENIAN SMALL LETTER RA": 
+    {
+        "prefix": [
+            "..U.057C",
+            "..U.ARMENIAN SMALL LETTER RA",
+            "U+057C",
+        ],
+        "body": [
+            "${1|ռ,&#x057C;,U+057C,0x057C,ARMENIAN SMALL LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+057C",
+            "Character/Symbol: ռ",
+            "Name: ARMENIAN SMALL LETTER RA",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ս U+057D ARMENIAN SMALL LETTER SEH": 
+    {
+        "prefix": [
+            "..U.057D",
+            "..U.ARMENIAN SMALL LETTER SEH",
+            "U+057D",
+        ],
+        "body": [
+            "${1|ս,&#x057D;,U+057D,0x057D,ARMENIAN SMALL LETTER SEH|}$2",
+        ],
+        "description": [
+            "Code: U+057D",
+            "Character/Symbol: ս",
+            "Name: ARMENIAN SMALL LETTER SEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode վ U+057E ARMENIAN SMALL LETTER VEW": 
+    {
+        "prefix": [
+            "..U.057E",
+            "..U.ARMENIAN SMALL LETTER VEW",
+            "U+057E",
+        ],
+        "body": [
+            "${1|վ,&#x057E;,U+057E,0x057E,ARMENIAN SMALL LETTER VEW|}$2",
+        ],
+        "description": [
+            "Code: U+057E",
+            "Character/Symbol: վ",
+            "Name: ARMENIAN SMALL LETTER VEW",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode տ U+057F ARMENIAN SMALL LETTER TIWN": 
+    {
+        "prefix": [
+            "..U.057F",
+            "..U.ARMENIAN SMALL LETTER TIWN",
+            "U+057F",
+        ],
+        "body": [
+            "${1|տ,&#x057F;,U+057F,0x057F,ARMENIAN SMALL LETTER TIWN|}$2",
+        ],
+        "description": [
+            "Code: U+057F",
+            "Character/Symbol: տ",
+            "Name: ARMENIAN SMALL LETTER TIWN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ր U+0580 ARMENIAN SMALL LETTER REH": 
+    {
+        "prefix": [
+            "..U.0580",
+            "..U.ARMENIAN SMALL LETTER REH",
+            "U+0580",
+        ],
+        "body": [
+            "${1|ր,&#x0580;,U+0580,0x0580,ARMENIAN SMALL LETTER REH|}$2",
+        ],
+        "description": [
+            "Code: U+0580",
+            "Character/Symbol: ր",
+            "Name: ARMENIAN SMALL LETTER REH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ց U+0581 ARMENIAN SMALL LETTER CO": 
+    {
+        "prefix": [
+            "..U.0581",
+            "..U.ARMENIAN SMALL LETTER CO",
+            "U+0581",
+        ],
+        "body": [
+            "${1|ց,&#x0581;,U+0581,0x0581,ARMENIAN SMALL LETTER CO|}$2",
+        ],
+        "description": [
+            "Code: U+0581",
+            "Character/Symbol: ց",
+            "Name: ARMENIAN SMALL LETTER CO",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ւ U+0582 ARMENIAN SMALL LETTER YIWN": 
+    {
+        "prefix": [
+            "..U.0582",
+            "..U.ARMENIAN SMALL LETTER YIWN",
+            "U+0582",
+        ],
+        "body": [
+            "${1|ւ,&#x0582;,U+0582,0x0582,ARMENIAN SMALL LETTER YIWN|}$2",
+        ],
+        "description": [
+            "Code: U+0582",
+            "Character/Symbol: ւ",
+            "Name: ARMENIAN SMALL LETTER YIWN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode փ U+0583 ARMENIAN SMALL LETTER PIWR": 
+    {
+        "prefix": [
+            "..U.0583",
+            "..U.ARMENIAN SMALL LETTER PIWR",
+            "U+0583",
+        ],
+        "body": [
+            "${1|փ,&#x0583;,U+0583,0x0583,ARMENIAN SMALL LETTER PIWR|}$2",
+        ],
+        "description": [
+            "Code: U+0583",
+            "Character/Symbol: փ",
+            "Name: ARMENIAN SMALL LETTER PIWR",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ք U+0584 ARMENIAN SMALL LETTER KEH": 
+    {
+        "prefix": [
+            "..U.0584",
+            "..U.ARMENIAN SMALL LETTER KEH",
+            "U+0584",
+        ],
+        "body": [
+            "${1|ք,&#x0584;,U+0584,0x0584,ARMENIAN SMALL LETTER KEH|}$2",
+        ],
+        "description": [
+            "Code: U+0584",
+            "Character/Symbol: ք",
+            "Name: ARMENIAN SMALL LETTER KEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode օ U+0585 ARMENIAN SMALL LETTER OH": 
+    {
+        "prefix": [
+            "..U.0585",
+            "..U.ARMENIAN SMALL LETTER OH",
+            "U+0585",
+        ],
+        "body": [
+            "${1|օ,&#x0585;,U+0585,0x0585,ARMENIAN SMALL LETTER OH|}$2",
+        ],
+        "description": [
+            "Code: U+0585",
+            "Character/Symbol: օ",
+            "Name: ARMENIAN SMALL LETTER OH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ֆ U+0586 ARMENIAN SMALL LETTER FEH": 
+    {
+        "prefix": [
+            "..U.0586",
+            "..U.ARMENIAN SMALL LETTER FEH",
+            "U+0586",
+        ],
+        "body": [
+            "${1|ֆ,&#x0586;,U+0586,0x0586,ARMENIAN SMALL LETTER FEH|}$2",
+        ],
+        "description": [
+            "Code: U+0586",
+            "Character/Symbol: ֆ",
+            "Name: ARMENIAN SMALL LETTER FEH",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode և U+0587 ARMENIAN SMALL LIGATURE ECH YIWN": 
+    {
+        "prefix": [
+            "..U.0587",
+            "..U.ARMENIAN SMALL LIGATURE ECH YIWN",
+            "U+0587",
+        ],
+        "body": [
+            "${1|և,&#x0587;,U+0587,0x0587,ARMENIAN SMALL LIGATURE ECH YIWN|}$2",
+        ],
+        "description": [
+            "Code: U+0587",
+            "Character/Symbol: և",
+            "Name: ARMENIAN SMALL LIGATURE ECH YIWN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ֈ U+0588 ARMENIAN SMALL LETTER YI WITH STROKE": 
+    {
+        "prefix": [
+            "..U.0588",
+            "..U.ARMENIAN SMALL LETTER YI WITH STROKE",
+            "U+0588",
+        ],
+        "body": [
+            "${1|ֈ,&#x0588;,U+0588,0x0588,ARMENIAN SMALL LETTER YI WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+0588",
+            "Character/Symbol: ֈ",
+            "Name: ARMENIAN SMALL LETTER YI WITH STROKE",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ։ U+0589 ARMENIAN FULL STOP": 
+    {
+        "prefix": [
+            "..U.0589",
+            "..U.ARMENIAN FULL STOP",
+            "U+0589",
+        ],
+        "body": [
+            "${1|։,&#x0589;,U+0589,0x0589,ARMENIAN FULL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+0589",
+            "Character/Symbol: ։",
+            "Name: ARMENIAN FULL STOP",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ֊ U+058A ARMENIAN HYPHEN": 
+    {
+        "prefix": [
+            "..U.058A",
+            "..U.ARMENIAN HYPHEN",
+            "U+058A",
+        ],
+        "body": [
+            "${1|֊,&#x058A;,U+058A,0x058A,ARMENIAN HYPHEN|}$2",
+        ],
+        "description": [
+            "Code: U+058A",
+            "Character/Symbol: ֊",
+            "Name: ARMENIAN HYPHEN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ֍ U+058D RIGHT-FACING ARMENIAN ETERNITY SIGN": 
+    {
+        "prefix": [
+            "..U.058D",
+            "..U.RIGHT-FACING ARMENIAN ETERNITY SIGN",
+            "U+058D",
+        ],
+        "body": [
+            "${1|֍,&#x058D;,U+058D,0x058D,RIGHT-FACING ARMENIAN ETERNITY SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+058D",
+            "Character/Symbol: ֍",
+            "Name: RIGHT-FACING ARMENIAN ETERNITY SIGN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ֎ U+058E LEFT-FACING ARMENIAN ETERNITY SIGN": 
+    {
+        "prefix": [
+            "..U.058E",
+            "..U.LEFT-FACING ARMENIAN ETERNITY SIGN",
+            "U+058E",
+        ],
+        "body": [
+            "${1|֎,&#x058E;,U+058E,0x058E,LEFT-FACING ARMENIAN ETERNITY SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+058E",
+            "Character/Symbol: ֎",
+            "Name: LEFT-FACING ARMENIAN ETERNITY SIGN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+    "Unicode ֏ U+058F ARMENIAN DRAM SIGN": 
+    {
+        "prefix": [
+            "..U.058F",
+            "..U.ARMENIAN DRAM SIGN",
+            "U+058F",
+        ],
+        "body": [
+            "${1|֏,&#x058F;,U+058F,0x058F,ARMENIAN DRAM SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+058F",
+            "Character/Symbol: ֏",
+            "Name: ARMENIAN DRAM SIGN",
+            "Group/Block: Armenian",
+        ],
+    },
+
+}

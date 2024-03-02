@@ -1,0 +1,902 @@
+{
+    "Unicode 𐴀 U+10D00 HANIFI ROHINGYA LETTER A": 
+    {
+        "prefix": [
+            "..U.10D00",
+            "..U.HANIFI ROHINGYA LETTER A",
+            "U+10D00",
+        ],
+        "body": [
+            "${1|𐴀,&#x10D00;,U+10D00,0x10D00,HANIFI ROHINGYA LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+10D00",
+            "Character/Symbol: 𐴀",
+            "Name: HANIFI ROHINGYA LETTER A",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴁 U+10D01 HANIFI ROHINGYA LETTER BA": 
+    {
+        "prefix": [
+            "..U.10D01",
+            "..U.HANIFI ROHINGYA LETTER BA",
+            "U+10D01",
+        ],
+        "body": [
+            "${1|𐴁,&#x10D01;,U+10D01,0x10D01,HANIFI ROHINGYA LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+10D01",
+            "Character/Symbol: 𐴁",
+            "Name: HANIFI ROHINGYA LETTER BA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴂 U+10D02 HANIFI ROHINGYA LETTER PA": 
+    {
+        "prefix": [
+            "..U.10D02",
+            "..U.HANIFI ROHINGYA LETTER PA",
+            "U+10D02",
+        ],
+        "body": [
+            "${1|𐴂,&#x10D02;,U+10D02,0x10D02,HANIFI ROHINGYA LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+10D02",
+            "Character/Symbol: 𐴂",
+            "Name: HANIFI ROHINGYA LETTER PA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴃 U+10D03 HANIFI ROHINGYA LETTER TA": 
+    {
+        "prefix": [
+            "..U.10D03",
+            "..U.HANIFI ROHINGYA LETTER TA",
+            "U+10D03",
+        ],
+        "body": [
+            "${1|𐴃,&#x10D03;,U+10D03,0x10D03,HANIFI ROHINGYA LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+10D03",
+            "Character/Symbol: 𐴃",
+            "Name: HANIFI ROHINGYA LETTER TA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴄 U+10D04 HANIFI ROHINGYA LETTER TTA": 
+    {
+        "prefix": [
+            "..U.10D04",
+            "..U.HANIFI ROHINGYA LETTER TTA",
+            "U+10D04",
+        ],
+        "body": [
+            "${1|𐴄,&#x10D04;,U+10D04,0x10D04,HANIFI ROHINGYA LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+10D04",
+            "Character/Symbol: 𐴄",
+            "Name: HANIFI ROHINGYA LETTER TTA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴅 U+10D05 HANIFI ROHINGYA LETTER JA": 
+    {
+        "prefix": [
+            "..U.10D05",
+            "..U.HANIFI ROHINGYA LETTER JA",
+            "U+10D05",
+        ],
+        "body": [
+            "${1|𐴅,&#x10D05;,U+10D05,0x10D05,HANIFI ROHINGYA LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+10D05",
+            "Character/Symbol: 𐴅",
+            "Name: HANIFI ROHINGYA LETTER JA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴆 U+10D06 HANIFI ROHINGYA LETTER CA": 
+    {
+        "prefix": [
+            "..U.10D06",
+            "..U.HANIFI ROHINGYA LETTER CA",
+            "U+10D06",
+        ],
+        "body": [
+            "${1|𐴆,&#x10D06;,U+10D06,0x10D06,HANIFI ROHINGYA LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+10D06",
+            "Character/Symbol: 𐴆",
+            "Name: HANIFI ROHINGYA LETTER CA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴇 U+10D07 HANIFI ROHINGYA LETTER HA": 
+    {
+        "prefix": [
+            "..U.10D07",
+            "..U.HANIFI ROHINGYA LETTER HA",
+            "U+10D07",
+        ],
+        "body": [
+            "${1|𐴇,&#x10D07;,U+10D07,0x10D07,HANIFI ROHINGYA LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+10D07",
+            "Character/Symbol: 𐴇",
+            "Name: HANIFI ROHINGYA LETTER HA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴈 U+10D08 HANIFI ROHINGYA LETTER KHA": 
+    {
+        "prefix": [
+            "..U.10D08",
+            "..U.HANIFI ROHINGYA LETTER KHA",
+            "U+10D08",
+        ],
+        "body": [
+            "${1|𐴈,&#x10D08;,U+10D08,0x10D08,HANIFI ROHINGYA LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+10D08",
+            "Character/Symbol: 𐴈",
+            "Name: HANIFI ROHINGYA LETTER KHA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴉 U+10D09 HANIFI ROHINGYA LETTER FA": 
+    {
+        "prefix": [
+            "..U.10D09",
+            "..U.HANIFI ROHINGYA LETTER FA",
+            "U+10D09",
+        ],
+        "body": [
+            "${1|𐴉,&#x10D09;,U+10D09,0x10D09,HANIFI ROHINGYA LETTER FA|}$2",
+        ],
+        "description": [
+            "Code: U+10D09",
+            "Character/Symbol: 𐴉",
+            "Name: HANIFI ROHINGYA LETTER FA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴊 U+10D0A HANIFI ROHINGYA LETTER DA": 
+    {
+        "prefix": [
+            "..U.10D0A",
+            "..U.HANIFI ROHINGYA LETTER DA",
+            "U+10D0A",
+        ],
+        "body": [
+            "${1|𐴊,&#x10D0A;,U+10D0A,0x10D0A,HANIFI ROHINGYA LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+10D0A",
+            "Character/Symbol: 𐴊",
+            "Name: HANIFI ROHINGYA LETTER DA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴋 U+10D0B HANIFI ROHINGYA LETTER DDA": 
+    {
+        "prefix": [
+            "..U.10D0B",
+            "..U.HANIFI ROHINGYA LETTER DDA",
+            "U+10D0B",
+        ],
+        "body": [
+            "${1|𐴋,&#x10D0B;,U+10D0B,0x10D0B,HANIFI ROHINGYA LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+10D0B",
+            "Character/Symbol: 𐴋",
+            "Name: HANIFI ROHINGYA LETTER DDA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴌 U+10D0C HANIFI ROHINGYA LETTER RA": 
+    {
+        "prefix": [
+            "..U.10D0C",
+            "..U.HANIFI ROHINGYA LETTER RA",
+            "U+10D0C",
+        ],
+        "body": [
+            "${1|𐴌,&#x10D0C;,U+10D0C,0x10D0C,HANIFI ROHINGYA LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+10D0C",
+            "Character/Symbol: 𐴌",
+            "Name: HANIFI ROHINGYA LETTER RA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴍 U+10D0D HANIFI ROHINGYA LETTER RRA": 
+    {
+        "prefix": [
+            "..U.10D0D",
+            "..U.HANIFI ROHINGYA LETTER RRA",
+            "U+10D0D",
+        ],
+        "body": [
+            "${1|𐴍,&#x10D0D;,U+10D0D,0x10D0D,HANIFI ROHINGYA LETTER RRA|}$2",
+        ],
+        "description": [
+            "Code: U+10D0D",
+            "Character/Symbol: 𐴍",
+            "Name: HANIFI ROHINGYA LETTER RRA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴎 U+10D0E HANIFI ROHINGYA LETTER ZA": 
+    {
+        "prefix": [
+            "..U.10D0E",
+            "..U.HANIFI ROHINGYA LETTER ZA",
+            "U+10D0E",
+        ],
+        "body": [
+            "${1|𐴎,&#x10D0E;,U+10D0E,0x10D0E,HANIFI ROHINGYA LETTER ZA|}$2",
+        ],
+        "description": [
+            "Code: U+10D0E",
+            "Character/Symbol: 𐴎",
+            "Name: HANIFI ROHINGYA LETTER ZA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴏 U+10D0F HANIFI ROHINGYA LETTER SA": 
+    {
+        "prefix": [
+            "..U.10D0F",
+            "..U.HANIFI ROHINGYA LETTER SA",
+            "U+10D0F",
+        ],
+        "body": [
+            "${1|𐴏,&#x10D0F;,U+10D0F,0x10D0F,HANIFI ROHINGYA LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+10D0F",
+            "Character/Symbol: 𐴏",
+            "Name: HANIFI ROHINGYA LETTER SA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴐 U+10D10 HANIFI ROHINGYA LETTER SHA": 
+    {
+        "prefix": [
+            "..U.10D10",
+            "..U.HANIFI ROHINGYA LETTER SHA",
+            "U+10D10",
+        ],
+        "body": [
+            "${1|𐴐,&#x10D10;,U+10D10,0x10D10,HANIFI ROHINGYA LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+10D10",
+            "Character/Symbol: 𐴐",
+            "Name: HANIFI ROHINGYA LETTER SHA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴑 U+10D11 HANIFI ROHINGYA LETTER KA": 
+    {
+        "prefix": [
+            "..U.10D11",
+            "..U.HANIFI ROHINGYA LETTER KA",
+            "U+10D11",
+        ],
+        "body": [
+            "${1|𐴑,&#x10D11;,U+10D11,0x10D11,HANIFI ROHINGYA LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+10D11",
+            "Character/Symbol: 𐴑",
+            "Name: HANIFI ROHINGYA LETTER KA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴒 U+10D12 HANIFI ROHINGYA LETTER GA": 
+    {
+        "prefix": [
+            "..U.10D12",
+            "..U.HANIFI ROHINGYA LETTER GA",
+            "U+10D12",
+        ],
+        "body": [
+            "${1|𐴒,&#x10D12;,U+10D12,0x10D12,HANIFI ROHINGYA LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+10D12",
+            "Character/Symbol: 𐴒",
+            "Name: HANIFI ROHINGYA LETTER GA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴓 U+10D13 HANIFI ROHINGYA LETTER LA": 
+    {
+        "prefix": [
+            "..U.10D13",
+            "..U.HANIFI ROHINGYA LETTER LA",
+            "U+10D13",
+        ],
+        "body": [
+            "${1|𐴓,&#x10D13;,U+10D13,0x10D13,HANIFI ROHINGYA LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+10D13",
+            "Character/Symbol: 𐴓",
+            "Name: HANIFI ROHINGYA LETTER LA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴔 U+10D14 HANIFI ROHINGYA LETTER MA": 
+    {
+        "prefix": [
+            "..U.10D14",
+            "..U.HANIFI ROHINGYA LETTER MA",
+            "U+10D14",
+        ],
+        "body": [
+            "${1|𐴔,&#x10D14;,U+10D14,0x10D14,HANIFI ROHINGYA LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+10D14",
+            "Character/Symbol: 𐴔",
+            "Name: HANIFI ROHINGYA LETTER MA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴕 U+10D15 HANIFI ROHINGYA LETTER NA": 
+    {
+        "prefix": [
+            "..U.10D15",
+            "..U.HANIFI ROHINGYA LETTER NA",
+            "U+10D15",
+        ],
+        "body": [
+            "${1|𐴕,&#x10D15;,U+10D15,0x10D15,HANIFI ROHINGYA LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+10D15",
+            "Character/Symbol: 𐴕",
+            "Name: HANIFI ROHINGYA LETTER NA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴖 U+10D16 HANIFI ROHINGYA LETTER WA": 
+    {
+        "prefix": [
+            "..U.10D16",
+            "..U.HANIFI ROHINGYA LETTER WA",
+            "U+10D16",
+        ],
+        "body": [
+            "${1|𐴖,&#x10D16;,U+10D16,0x10D16,HANIFI ROHINGYA LETTER WA|}$2",
+        ],
+        "description": [
+            "Code: U+10D16",
+            "Character/Symbol: 𐴖",
+            "Name: HANIFI ROHINGYA LETTER WA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴗 U+10D17 HANIFI ROHINGYA LETTER KINNA WA": 
+    {
+        "prefix": [
+            "..U.10D17",
+            "..U.HANIFI ROHINGYA LETTER KINNA WA",
+            "U+10D17",
+        ],
+        "body": [
+            "${1|𐴗,&#x10D17;,U+10D17,0x10D17,HANIFI ROHINGYA LETTER KINNA WA|}$2",
+        ],
+        "description": [
+            "Code: U+10D17",
+            "Character/Symbol: 𐴗",
+            "Name: HANIFI ROHINGYA LETTER KINNA WA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴘 U+10D18 HANIFI ROHINGYA LETTER YA": 
+    {
+        "prefix": [
+            "..U.10D18",
+            "..U.HANIFI ROHINGYA LETTER YA",
+            "U+10D18",
+        ],
+        "body": [
+            "${1|𐴘,&#x10D18;,U+10D18,0x10D18,HANIFI ROHINGYA LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+10D18",
+            "Character/Symbol: 𐴘",
+            "Name: HANIFI ROHINGYA LETTER YA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴙 U+10D19 HANIFI ROHINGYA LETTER KINNA YA": 
+    {
+        "prefix": [
+            "..U.10D19",
+            "..U.HANIFI ROHINGYA LETTER KINNA YA",
+            "U+10D19",
+        ],
+        "body": [
+            "${1|𐴙,&#x10D19;,U+10D19,0x10D19,HANIFI ROHINGYA LETTER KINNA YA|}$2",
+        ],
+        "description": [
+            "Code: U+10D19",
+            "Character/Symbol: 𐴙",
+            "Name: HANIFI ROHINGYA LETTER KINNA YA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴚 U+10D1A HANIFI ROHINGYA LETTER NGA": 
+    {
+        "prefix": [
+            "..U.10D1A",
+            "..U.HANIFI ROHINGYA LETTER NGA",
+            "U+10D1A",
+        ],
+        "body": [
+            "${1|𐴚,&#x10D1A;,U+10D1A,0x10D1A,HANIFI ROHINGYA LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+10D1A",
+            "Character/Symbol: 𐴚",
+            "Name: HANIFI ROHINGYA LETTER NGA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴛 U+10D1B HANIFI ROHINGYA LETTER NYA": 
+    {
+        "prefix": [
+            "..U.10D1B",
+            "..U.HANIFI ROHINGYA LETTER NYA",
+            "U+10D1B",
+        ],
+        "body": [
+            "${1|𐴛,&#x10D1B;,U+10D1B,0x10D1B,HANIFI ROHINGYA LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+10D1B",
+            "Character/Symbol: 𐴛",
+            "Name: HANIFI ROHINGYA LETTER NYA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴜 U+10D1C HANIFI ROHINGYA LETTER VA": 
+    {
+        "prefix": [
+            "..U.10D1C",
+            "..U.HANIFI ROHINGYA LETTER VA",
+            "U+10D1C",
+        ],
+        "body": [
+            "${1|𐴜,&#x10D1C;,U+10D1C,0x10D1C,HANIFI ROHINGYA LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+10D1C",
+            "Character/Symbol: 𐴜",
+            "Name: HANIFI ROHINGYA LETTER VA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴝 U+10D1D HANIFI ROHINGYA VOWEL A": 
+    {
+        "prefix": [
+            "..U.10D1D",
+            "..U.HANIFI ROHINGYA VOWEL A",
+            "U+10D1D",
+        ],
+        "body": [
+            "${1|𐴝,&#x10D1D;,U+10D1D,0x10D1D,HANIFI ROHINGYA VOWEL A|}$2",
+        ],
+        "description": [
+            "Code: U+10D1D",
+            "Character/Symbol: 𐴝",
+            "Name: HANIFI ROHINGYA VOWEL A",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴞 U+10D1E HANIFI ROHINGYA VOWEL I": 
+    {
+        "prefix": [
+            "..U.10D1E",
+            "..U.HANIFI ROHINGYA VOWEL I",
+            "U+10D1E",
+        ],
+        "body": [
+            "${1|𐴞,&#x10D1E;,U+10D1E,0x10D1E,HANIFI ROHINGYA VOWEL I|}$2",
+        ],
+        "description": [
+            "Code: U+10D1E",
+            "Character/Symbol: 𐴞",
+            "Name: HANIFI ROHINGYA VOWEL I",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴟 U+10D1F HANIFI ROHINGYA VOWEL U": 
+    {
+        "prefix": [
+            "..U.10D1F",
+            "..U.HANIFI ROHINGYA VOWEL U",
+            "U+10D1F",
+        ],
+        "body": [
+            "${1|𐴟,&#x10D1F;,U+10D1F,0x10D1F,HANIFI ROHINGYA VOWEL U|}$2",
+        ],
+        "description": [
+            "Code: U+10D1F",
+            "Character/Symbol: 𐴟",
+            "Name: HANIFI ROHINGYA VOWEL U",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴠 U+10D20 HANIFI ROHINGYA VOWEL E": 
+    {
+        "prefix": [
+            "..U.10D20",
+            "..U.HANIFI ROHINGYA VOWEL E",
+            "U+10D20",
+        ],
+        "body": [
+            "${1|𐴠,&#x10D20;,U+10D20,0x10D20,HANIFI ROHINGYA VOWEL E|}$2",
+        ],
+        "description": [
+            "Code: U+10D20",
+            "Character/Symbol: 𐴠",
+            "Name: HANIFI ROHINGYA VOWEL E",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴡 U+10D21 HANIFI ROHINGYA VOWEL O": 
+    {
+        "prefix": [
+            "..U.10D21",
+            "..U.HANIFI ROHINGYA VOWEL O",
+            "U+10D21",
+        ],
+        "body": [
+            "${1|𐴡,&#x10D21;,U+10D21,0x10D21,HANIFI ROHINGYA VOWEL O|}$2",
+        ],
+        "description": [
+            "Code: U+10D21",
+            "Character/Symbol: 𐴡",
+            "Name: HANIFI ROHINGYA VOWEL O",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴢 U+10D22 HANIFI ROHINGYA MARK SAKIN": 
+    {
+        "prefix": [
+            "..U.10D22",
+            "..U.HANIFI ROHINGYA MARK SAKIN",
+            "U+10D22",
+        ],
+        "body": [
+            "${1|𐴢,&#x10D22;,U+10D22,0x10D22,HANIFI ROHINGYA MARK SAKIN|}$2",
+        ],
+        "description": [
+            "Code: U+10D22",
+            "Character/Symbol: 𐴢",
+            "Name: HANIFI ROHINGYA MARK SAKIN",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴣 U+10D23 HANIFI ROHINGYA MARK NA KHONNA": 
+    {
+        "prefix": [
+            "..U.10D23",
+            "..U.HANIFI ROHINGYA MARK NA KHONNA",
+            "U+10D23",
+        ],
+        "body": [
+            "${1|𐴣,&#x10D23;,U+10D23,0x10D23,HANIFI ROHINGYA MARK NA KHONNA|}$2",
+        ],
+        "description": [
+            "Code: U+10D23",
+            "Character/Symbol: 𐴣",
+            "Name: HANIFI ROHINGYA MARK NA KHONNA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴤 U+10D24 HANIFI ROHINGYA SIGN HARBAHAY": 
+    {
+        "prefix": [
+            "..U.10D24",
+            "..U.HANIFI ROHINGYA SIGN HARBAHAY",
+            "U+10D24",
+        ],
+        "body": [
+            "${1|𐴤,&#x10D24;,U+10D24,0x10D24,HANIFI ROHINGYA SIGN HARBAHAY|}$2",
+        ],
+        "description": [
+            "Code: U+10D24",
+            "Character/Symbol: 𐴤",
+            "Name: HANIFI ROHINGYA SIGN HARBAHAY",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴥 U+10D25 HANIFI ROHINGYA SIGN TAHALA": 
+    {
+        "prefix": [
+            "..U.10D25",
+            "..U.HANIFI ROHINGYA SIGN TAHALA",
+            "U+10D25",
+        ],
+        "body": [
+            "${1|𐴥,&#x10D25;,U+10D25,0x10D25,HANIFI ROHINGYA SIGN TAHALA|}$2",
+        ],
+        "description": [
+            "Code: U+10D25",
+            "Character/Symbol: 𐴥",
+            "Name: HANIFI ROHINGYA SIGN TAHALA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴦 U+10D26 HANIFI ROHINGYA SIGN TANA": 
+    {
+        "prefix": [
+            "..U.10D26",
+            "..U.HANIFI ROHINGYA SIGN TANA",
+            "U+10D26",
+        ],
+        "body": [
+            "${1|𐴦,&#x10D26;,U+10D26,0x10D26,HANIFI ROHINGYA SIGN TANA|}$2",
+        ],
+        "description": [
+            "Code: U+10D26",
+            "Character/Symbol: 𐴦",
+            "Name: HANIFI ROHINGYA SIGN TANA",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴧 U+10D27 HANIFI ROHINGYA SIGN TASSI": 
+    {
+        "prefix": [
+            "..U.10D27",
+            "..U.HANIFI ROHINGYA SIGN TASSI",
+            "U+10D27",
+        ],
+        "body": [
+            "${1|𐴧,&#x10D27;,U+10D27,0x10D27,HANIFI ROHINGYA SIGN TASSI|}$2",
+        ],
+        "description": [
+            "Code: U+10D27",
+            "Character/Symbol: 𐴧",
+            "Name: HANIFI ROHINGYA SIGN TASSI",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴰 U+10D30 HANIFI ROHINGYA DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.10D30",
+            "..U.HANIFI ROHINGYA DIGIT ZERO",
+            "U+10D30",
+        ],
+        "body": [
+            "${1|𐴰,&#x10D30;,U+10D30,0x10D30,HANIFI ROHINGYA DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+10D30",
+            "Character/Symbol: 𐴰",
+            "Name: HANIFI ROHINGYA DIGIT ZERO",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴱 U+10D31 HANIFI ROHINGYA DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.10D31",
+            "..U.HANIFI ROHINGYA DIGIT ONE",
+            "U+10D31",
+        ],
+        "body": [
+            "${1|𐴱,&#x10D31;,U+10D31,0x10D31,HANIFI ROHINGYA DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+10D31",
+            "Character/Symbol: 𐴱",
+            "Name: HANIFI ROHINGYA DIGIT ONE",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴲 U+10D32 HANIFI ROHINGYA DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.10D32",
+            "..U.HANIFI ROHINGYA DIGIT TWO",
+            "U+10D32",
+        ],
+        "body": [
+            "${1|𐴲,&#x10D32;,U+10D32,0x10D32,HANIFI ROHINGYA DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+10D32",
+            "Character/Symbol: 𐴲",
+            "Name: HANIFI ROHINGYA DIGIT TWO",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴳 U+10D33 HANIFI ROHINGYA DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.10D33",
+            "..U.HANIFI ROHINGYA DIGIT THREE",
+            "U+10D33",
+        ],
+        "body": [
+            "${1|𐴳,&#x10D33;,U+10D33,0x10D33,HANIFI ROHINGYA DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+10D33",
+            "Character/Symbol: 𐴳",
+            "Name: HANIFI ROHINGYA DIGIT THREE",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴴 U+10D34 HANIFI ROHINGYA DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.10D34",
+            "..U.HANIFI ROHINGYA DIGIT FOUR",
+            "U+10D34",
+        ],
+        "body": [
+            "${1|𐴴,&#x10D34;,U+10D34,0x10D34,HANIFI ROHINGYA DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+10D34",
+            "Character/Symbol: 𐴴",
+            "Name: HANIFI ROHINGYA DIGIT FOUR",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴵 U+10D35 HANIFI ROHINGYA DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.10D35",
+            "..U.HANIFI ROHINGYA DIGIT FIVE",
+            "U+10D35",
+        ],
+        "body": [
+            "${1|𐴵,&#x10D35;,U+10D35,0x10D35,HANIFI ROHINGYA DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+10D35",
+            "Character/Symbol: 𐴵",
+            "Name: HANIFI ROHINGYA DIGIT FIVE",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴶 U+10D36 HANIFI ROHINGYA DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.10D36",
+            "..U.HANIFI ROHINGYA DIGIT SIX",
+            "U+10D36",
+        ],
+        "body": [
+            "${1|𐴶,&#x10D36;,U+10D36,0x10D36,HANIFI ROHINGYA DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+10D36",
+            "Character/Symbol: 𐴶",
+            "Name: HANIFI ROHINGYA DIGIT SIX",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴷 U+10D37 HANIFI ROHINGYA DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.10D37",
+            "..U.HANIFI ROHINGYA DIGIT SEVEN",
+            "U+10D37",
+        ],
+        "body": [
+            "${1|𐴷,&#x10D37;,U+10D37,0x10D37,HANIFI ROHINGYA DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+10D37",
+            "Character/Symbol: 𐴷",
+            "Name: HANIFI ROHINGYA DIGIT SEVEN",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴸 U+10D38 HANIFI ROHINGYA DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.10D38",
+            "..U.HANIFI ROHINGYA DIGIT EIGHT",
+            "U+10D38",
+        ],
+        "body": [
+            "${1|𐴸,&#x10D38;,U+10D38,0x10D38,HANIFI ROHINGYA DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+10D38",
+            "Character/Symbol: 𐴸",
+            "Name: HANIFI ROHINGYA DIGIT EIGHT",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+    "Unicode 𐴹 U+10D39 HANIFI ROHINGYA DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.10D39",
+            "..U.HANIFI ROHINGYA DIGIT NINE",
+            "U+10D39",
+        ],
+        "body": [
+            "${1|𐴹,&#x10D39;,U+10D39,0x10D39,HANIFI ROHINGYA DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+10D39",
+            "Character/Symbol: 𐴹",
+            "Name: HANIFI ROHINGYA DIGIT NINE",
+            "Group/Block: Hanifi_Rohingya",
+        ],
+    },
+
+}

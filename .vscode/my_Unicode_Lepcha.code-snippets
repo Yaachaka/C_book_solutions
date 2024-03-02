@@ -1,0 +1,1334 @@
+{
+    "Unicode ᰀ U+1C00 LEPCHA LETTER KA": 
+    {
+        "prefix": [
+            "..U.1C00",
+            "..U.LEPCHA LETTER KA",
+            "U+1C00",
+        ],
+        "body": [
+            "${1|ᰀ,&#x1C00;,U+1C00,0x1C00,LEPCHA LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+1C00",
+            "Character/Symbol: ᰀ",
+            "Name: LEPCHA LETTER KA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰁ U+1C01 LEPCHA LETTER KLA": 
+    {
+        "prefix": [
+            "..U.1C01",
+            "..U.LEPCHA LETTER KLA",
+            "U+1C01",
+        ],
+        "body": [
+            "${1|ᰁ,&#x1C01;,U+1C01,0x1C01,LEPCHA LETTER KLA|}$2",
+        ],
+        "description": [
+            "Code: U+1C01",
+            "Character/Symbol: ᰁ",
+            "Name: LEPCHA LETTER KLA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰂ U+1C02 LEPCHA LETTER KHA": 
+    {
+        "prefix": [
+            "..U.1C02",
+            "..U.LEPCHA LETTER KHA",
+            "U+1C02",
+        ],
+        "body": [
+            "${1|ᰂ,&#x1C02;,U+1C02,0x1C02,LEPCHA LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+1C02",
+            "Character/Symbol: ᰂ",
+            "Name: LEPCHA LETTER KHA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰃ U+1C03 LEPCHA LETTER GA": 
+    {
+        "prefix": [
+            "..U.1C03",
+            "..U.LEPCHA LETTER GA",
+            "U+1C03",
+        ],
+        "body": [
+            "${1|ᰃ,&#x1C03;,U+1C03,0x1C03,LEPCHA LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+1C03",
+            "Character/Symbol: ᰃ",
+            "Name: LEPCHA LETTER GA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰄ U+1C04 LEPCHA LETTER GLA": 
+    {
+        "prefix": [
+            "..U.1C04",
+            "..U.LEPCHA LETTER GLA",
+            "U+1C04",
+        ],
+        "body": [
+            "${1|ᰄ,&#x1C04;,U+1C04,0x1C04,LEPCHA LETTER GLA|}$2",
+        ],
+        "description": [
+            "Code: U+1C04",
+            "Character/Symbol: ᰄ",
+            "Name: LEPCHA LETTER GLA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰅ U+1C05 LEPCHA LETTER NGA": 
+    {
+        "prefix": [
+            "..U.1C05",
+            "..U.LEPCHA LETTER NGA",
+            "U+1C05",
+        ],
+        "body": [
+            "${1|ᰅ,&#x1C05;,U+1C05,0x1C05,LEPCHA LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+1C05",
+            "Character/Symbol: ᰅ",
+            "Name: LEPCHA LETTER NGA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰆ U+1C06 LEPCHA LETTER CA": 
+    {
+        "prefix": [
+            "..U.1C06",
+            "..U.LEPCHA LETTER CA",
+            "U+1C06",
+        ],
+        "body": [
+            "${1|ᰆ,&#x1C06;,U+1C06,0x1C06,LEPCHA LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+1C06",
+            "Character/Symbol: ᰆ",
+            "Name: LEPCHA LETTER CA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰇ U+1C07 LEPCHA LETTER CHA": 
+    {
+        "prefix": [
+            "..U.1C07",
+            "..U.LEPCHA LETTER CHA",
+            "U+1C07",
+        ],
+        "body": [
+            "${1|ᰇ,&#x1C07;,U+1C07,0x1C07,LEPCHA LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+1C07",
+            "Character/Symbol: ᰇ",
+            "Name: LEPCHA LETTER CHA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰈ U+1C08 LEPCHA LETTER JA": 
+    {
+        "prefix": [
+            "..U.1C08",
+            "..U.LEPCHA LETTER JA",
+            "U+1C08",
+        ],
+        "body": [
+            "${1|ᰈ,&#x1C08;,U+1C08,0x1C08,LEPCHA LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+1C08",
+            "Character/Symbol: ᰈ",
+            "Name: LEPCHA LETTER JA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰉ U+1C09 LEPCHA LETTER NYA": 
+    {
+        "prefix": [
+            "..U.1C09",
+            "..U.LEPCHA LETTER NYA",
+            "U+1C09",
+        ],
+        "body": [
+            "${1|ᰉ,&#x1C09;,U+1C09,0x1C09,LEPCHA LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+1C09",
+            "Character/Symbol: ᰉ",
+            "Name: LEPCHA LETTER NYA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰊ U+1C0A LEPCHA LETTER TA": 
+    {
+        "prefix": [
+            "..U.1C0A",
+            "..U.LEPCHA LETTER TA",
+            "U+1C0A",
+        ],
+        "body": [
+            "${1|ᰊ,&#x1C0A;,U+1C0A,0x1C0A,LEPCHA LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+1C0A",
+            "Character/Symbol: ᰊ",
+            "Name: LEPCHA LETTER TA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰋ U+1C0B LEPCHA LETTER THA": 
+    {
+        "prefix": [
+            "..U.1C0B",
+            "..U.LEPCHA LETTER THA",
+            "U+1C0B",
+        ],
+        "body": [
+            "${1|ᰋ,&#x1C0B;,U+1C0B,0x1C0B,LEPCHA LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+1C0B",
+            "Character/Symbol: ᰋ",
+            "Name: LEPCHA LETTER THA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰌ U+1C0C LEPCHA LETTER DA": 
+    {
+        "prefix": [
+            "..U.1C0C",
+            "..U.LEPCHA LETTER DA",
+            "U+1C0C",
+        ],
+        "body": [
+            "${1|ᰌ,&#x1C0C;,U+1C0C,0x1C0C,LEPCHA LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+1C0C",
+            "Character/Symbol: ᰌ",
+            "Name: LEPCHA LETTER DA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰍ U+1C0D LEPCHA LETTER NA": 
+    {
+        "prefix": [
+            "..U.1C0D",
+            "..U.LEPCHA LETTER NA",
+            "U+1C0D",
+        ],
+        "body": [
+            "${1|ᰍ,&#x1C0D;,U+1C0D,0x1C0D,LEPCHA LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+1C0D",
+            "Character/Symbol: ᰍ",
+            "Name: LEPCHA LETTER NA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰎ U+1C0E LEPCHA LETTER PA": 
+    {
+        "prefix": [
+            "..U.1C0E",
+            "..U.LEPCHA LETTER PA",
+            "U+1C0E",
+        ],
+        "body": [
+            "${1|ᰎ,&#x1C0E;,U+1C0E,0x1C0E,LEPCHA LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+1C0E",
+            "Character/Symbol: ᰎ",
+            "Name: LEPCHA LETTER PA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰏ U+1C0F LEPCHA LETTER PLA": 
+    {
+        "prefix": [
+            "..U.1C0F",
+            "..U.LEPCHA LETTER PLA",
+            "U+1C0F",
+        ],
+        "body": [
+            "${1|ᰏ,&#x1C0F;,U+1C0F,0x1C0F,LEPCHA LETTER PLA|}$2",
+        ],
+        "description": [
+            "Code: U+1C0F",
+            "Character/Symbol: ᰏ",
+            "Name: LEPCHA LETTER PLA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰐ U+1C10 LEPCHA LETTER PHA": 
+    {
+        "prefix": [
+            "..U.1C10",
+            "..U.LEPCHA LETTER PHA",
+            "U+1C10",
+        ],
+        "body": [
+            "${1|ᰐ,&#x1C10;,U+1C10,0x1C10,LEPCHA LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+1C10",
+            "Character/Symbol: ᰐ",
+            "Name: LEPCHA LETTER PHA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰑ U+1C11 LEPCHA LETTER FA": 
+    {
+        "prefix": [
+            "..U.1C11",
+            "..U.LEPCHA LETTER FA",
+            "U+1C11",
+        ],
+        "body": [
+            "${1|ᰑ,&#x1C11;,U+1C11,0x1C11,LEPCHA LETTER FA|}$2",
+        ],
+        "description": [
+            "Code: U+1C11",
+            "Character/Symbol: ᰑ",
+            "Name: LEPCHA LETTER FA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰒ U+1C12 LEPCHA LETTER FLA": 
+    {
+        "prefix": [
+            "..U.1C12",
+            "..U.LEPCHA LETTER FLA",
+            "U+1C12",
+        ],
+        "body": [
+            "${1|ᰒ,&#x1C12;,U+1C12,0x1C12,LEPCHA LETTER FLA|}$2",
+        ],
+        "description": [
+            "Code: U+1C12",
+            "Character/Symbol: ᰒ",
+            "Name: LEPCHA LETTER FLA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰓ U+1C13 LEPCHA LETTER BA": 
+    {
+        "prefix": [
+            "..U.1C13",
+            "..U.LEPCHA LETTER BA",
+            "U+1C13",
+        ],
+        "body": [
+            "${1|ᰓ,&#x1C13;,U+1C13,0x1C13,LEPCHA LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+1C13",
+            "Character/Symbol: ᰓ",
+            "Name: LEPCHA LETTER BA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰔ U+1C14 LEPCHA LETTER BLA": 
+    {
+        "prefix": [
+            "..U.1C14",
+            "..U.LEPCHA LETTER BLA",
+            "U+1C14",
+        ],
+        "body": [
+            "${1|ᰔ,&#x1C14;,U+1C14,0x1C14,LEPCHA LETTER BLA|}$2",
+        ],
+        "description": [
+            "Code: U+1C14",
+            "Character/Symbol: ᰔ",
+            "Name: LEPCHA LETTER BLA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰕ U+1C15 LEPCHA LETTER MA": 
+    {
+        "prefix": [
+            "..U.1C15",
+            "..U.LEPCHA LETTER MA",
+            "U+1C15",
+        ],
+        "body": [
+            "${1|ᰕ,&#x1C15;,U+1C15,0x1C15,LEPCHA LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+1C15",
+            "Character/Symbol: ᰕ",
+            "Name: LEPCHA LETTER MA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰖ U+1C16 LEPCHA LETTER MLA": 
+    {
+        "prefix": [
+            "..U.1C16",
+            "..U.LEPCHA LETTER MLA",
+            "U+1C16",
+        ],
+        "body": [
+            "${1|ᰖ,&#x1C16;,U+1C16,0x1C16,LEPCHA LETTER MLA|}$2",
+        ],
+        "description": [
+            "Code: U+1C16",
+            "Character/Symbol: ᰖ",
+            "Name: LEPCHA LETTER MLA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰗ U+1C17 LEPCHA LETTER TSA": 
+    {
+        "prefix": [
+            "..U.1C17",
+            "..U.LEPCHA LETTER TSA",
+            "U+1C17",
+        ],
+        "body": [
+            "${1|ᰗ,&#x1C17;,U+1C17,0x1C17,LEPCHA LETTER TSA|}$2",
+        ],
+        "description": [
+            "Code: U+1C17",
+            "Character/Symbol: ᰗ",
+            "Name: LEPCHA LETTER TSA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰘ U+1C18 LEPCHA LETTER TSHA": 
+    {
+        "prefix": [
+            "..U.1C18",
+            "..U.LEPCHA LETTER TSHA",
+            "U+1C18",
+        ],
+        "body": [
+            "${1|ᰘ,&#x1C18;,U+1C18,0x1C18,LEPCHA LETTER TSHA|}$2",
+        ],
+        "description": [
+            "Code: U+1C18",
+            "Character/Symbol: ᰘ",
+            "Name: LEPCHA LETTER TSHA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰙ U+1C19 LEPCHA LETTER DZA": 
+    {
+        "prefix": [
+            "..U.1C19",
+            "..U.LEPCHA LETTER DZA",
+            "U+1C19",
+        ],
+        "body": [
+            "${1|ᰙ,&#x1C19;,U+1C19,0x1C19,LEPCHA LETTER DZA|}$2",
+        ],
+        "description": [
+            "Code: U+1C19",
+            "Character/Symbol: ᰙ",
+            "Name: LEPCHA LETTER DZA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰚ U+1C1A LEPCHA LETTER YA": 
+    {
+        "prefix": [
+            "..U.1C1A",
+            "..U.LEPCHA LETTER YA",
+            "U+1C1A",
+        ],
+        "body": [
+            "${1|ᰚ,&#x1C1A;,U+1C1A,0x1C1A,LEPCHA LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+1C1A",
+            "Character/Symbol: ᰚ",
+            "Name: LEPCHA LETTER YA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰛ U+1C1B LEPCHA LETTER RA": 
+    {
+        "prefix": [
+            "..U.1C1B",
+            "..U.LEPCHA LETTER RA",
+            "U+1C1B",
+        ],
+        "body": [
+            "${1|ᰛ,&#x1C1B;,U+1C1B,0x1C1B,LEPCHA LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+1C1B",
+            "Character/Symbol: ᰛ",
+            "Name: LEPCHA LETTER RA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰜ U+1C1C LEPCHA LETTER LA": 
+    {
+        "prefix": [
+            "..U.1C1C",
+            "..U.LEPCHA LETTER LA",
+            "U+1C1C",
+        ],
+        "body": [
+            "${1|ᰜ,&#x1C1C;,U+1C1C,0x1C1C,LEPCHA LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+1C1C",
+            "Character/Symbol: ᰜ",
+            "Name: LEPCHA LETTER LA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰝ U+1C1D LEPCHA LETTER HA": 
+    {
+        "prefix": [
+            "..U.1C1D",
+            "..U.LEPCHA LETTER HA",
+            "U+1C1D",
+        ],
+        "body": [
+            "${1|ᰝ,&#x1C1D;,U+1C1D,0x1C1D,LEPCHA LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+1C1D",
+            "Character/Symbol: ᰝ",
+            "Name: LEPCHA LETTER HA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰞ U+1C1E LEPCHA LETTER HLA": 
+    {
+        "prefix": [
+            "..U.1C1E",
+            "..U.LEPCHA LETTER HLA",
+            "U+1C1E",
+        ],
+        "body": [
+            "${1|ᰞ,&#x1C1E;,U+1C1E,0x1C1E,LEPCHA LETTER HLA|}$2",
+        ],
+        "description": [
+            "Code: U+1C1E",
+            "Character/Symbol: ᰞ",
+            "Name: LEPCHA LETTER HLA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰟ U+1C1F LEPCHA LETTER VA": 
+    {
+        "prefix": [
+            "..U.1C1F",
+            "..U.LEPCHA LETTER VA",
+            "U+1C1F",
+        ],
+        "body": [
+            "${1|ᰟ,&#x1C1F;,U+1C1F,0x1C1F,LEPCHA LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+1C1F",
+            "Character/Symbol: ᰟ",
+            "Name: LEPCHA LETTER VA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰠ U+1C20 LEPCHA LETTER SA": 
+    {
+        "prefix": [
+            "..U.1C20",
+            "..U.LEPCHA LETTER SA",
+            "U+1C20",
+        ],
+        "body": [
+            "${1|ᰠ,&#x1C20;,U+1C20,0x1C20,LEPCHA LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+1C20",
+            "Character/Symbol: ᰠ",
+            "Name: LEPCHA LETTER SA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰡ U+1C21 LEPCHA LETTER SHA": 
+    {
+        "prefix": [
+            "..U.1C21",
+            "..U.LEPCHA LETTER SHA",
+            "U+1C21",
+        ],
+        "body": [
+            "${1|ᰡ,&#x1C21;,U+1C21,0x1C21,LEPCHA LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+1C21",
+            "Character/Symbol: ᰡ",
+            "Name: LEPCHA LETTER SHA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰢ U+1C22 LEPCHA LETTER WA": 
+    {
+        "prefix": [
+            "..U.1C22",
+            "..U.LEPCHA LETTER WA",
+            "U+1C22",
+        ],
+        "body": [
+            "${1|ᰢ,&#x1C22;,U+1C22,0x1C22,LEPCHA LETTER WA|}$2",
+        ],
+        "description": [
+            "Code: U+1C22",
+            "Character/Symbol: ᰢ",
+            "Name: LEPCHA LETTER WA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰣ U+1C23 LEPCHA LETTER A": 
+    {
+        "prefix": [
+            "..U.1C23",
+            "..U.LEPCHA LETTER A",
+            "U+1C23",
+        ],
+        "body": [
+            "${1|ᰣ,&#x1C23;,U+1C23,0x1C23,LEPCHA LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+1C23",
+            "Character/Symbol: ᰣ",
+            "Name: LEPCHA LETTER A",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰤ U+1C24 LEPCHA SUBJOINED LETTER YA": 
+    {
+        "prefix": [
+            "..U.1C24",
+            "..U.LEPCHA SUBJOINED LETTER YA",
+            "U+1C24",
+        ],
+        "body": [
+            "${1|ᰤ,&#x1C24;,U+1C24,0x1C24,LEPCHA SUBJOINED LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+1C24",
+            "Character/Symbol: ᰤ",
+            "Name: LEPCHA SUBJOINED LETTER YA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰥ U+1C25 LEPCHA SUBJOINED LETTER RA": 
+    {
+        "prefix": [
+            "..U.1C25",
+            "..U.LEPCHA SUBJOINED LETTER RA",
+            "U+1C25",
+        ],
+        "body": [
+            "${1|ᰥ,&#x1C25;,U+1C25,0x1C25,LEPCHA SUBJOINED LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+1C25",
+            "Character/Symbol: ᰥ",
+            "Name: LEPCHA SUBJOINED LETTER RA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰦ U+1C26 LEPCHA VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.1C26",
+            "..U.LEPCHA VOWEL SIGN AA",
+            "U+1C26",
+        ],
+        "body": [
+            "${1|ᰦ,&#x1C26;,U+1C26,0x1C26,LEPCHA VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+1C26",
+            "Character/Symbol: ᰦ",
+            "Name: LEPCHA VOWEL SIGN AA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰧ U+1C27 LEPCHA VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.1C27",
+            "..U.LEPCHA VOWEL SIGN I",
+            "U+1C27",
+        ],
+        "body": [
+            "${1|ᰧ,&#x1C27;,U+1C27,0x1C27,LEPCHA VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+1C27",
+            "Character/Symbol: ᰧ",
+            "Name: LEPCHA VOWEL SIGN I",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰨ U+1C28 LEPCHA VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.1C28",
+            "..U.LEPCHA VOWEL SIGN O",
+            "U+1C28",
+        ],
+        "body": [
+            "${1|ᰨ,&#x1C28;,U+1C28,0x1C28,LEPCHA VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+1C28",
+            "Character/Symbol: ᰨ",
+            "Name: LEPCHA VOWEL SIGN O",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰩ U+1C29 LEPCHA VOWEL SIGN OO": 
+    {
+        "prefix": [
+            "..U.1C29",
+            "..U.LEPCHA VOWEL SIGN OO",
+            "U+1C29",
+        ],
+        "body": [
+            "${1|ᰩ,&#x1C29;,U+1C29,0x1C29,LEPCHA VOWEL SIGN OO|}$2",
+        ],
+        "description": [
+            "Code: U+1C29",
+            "Character/Symbol: ᰩ",
+            "Name: LEPCHA VOWEL SIGN OO",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰪ U+1C2A LEPCHA VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.1C2A",
+            "..U.LEPCHA VOWEL SIGN U",
+            "U+1C2A",
+        ],
+        "body": [
+            "${1|ᰪ,&#x1C2A;,U+1C2A,0x1C2A,LEPCHA VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+1C2A",
+            "Character/Symbol: ᰪ",
+            "Name: LEPCHA VOWEL SIGN U",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰫ U+1C2B LEPCHA VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.1C2B",
+            "..U.LEPCHA VOWEL SIGN UU",
+            "U+1C2B",
+        ],
+        "body": [
+            "${1|ᰫ,&#x1C2B;,U+1C2B,0x1C2B,LEPCHA VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+1C2B",
+            "Character/Symbol: ᰫ",
+            "Name: LEPCHA VOWEL SIGN UU",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰬ U+1C2C LEPCHA VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.1C2C",
+            "..U.LEPCHA VOWEL SIGN E",
+            "U+1C2C",
+        ],
+        "body": [
+            "${1|ᰬ,&#x1C2C;,U+1C2C,0x1C2C,LEPCHA VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+1C2C",
+            "Character/Symbol: ᰬ",
+            "Name: LEPCHA VOWEL SIGN E",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰭ U+1C2D LEPCHA CONSONANT SIGN K": 
+    {
+        "prefix": [
+            "..U.1C2D",
+            "..U.LEPCHA CONSONANT SIGN K",
+            "U+1C2D",
+        ],
+        "body": [
+            "${1|ᰭ,&#x1C2D;,U+1C2D,0x1C2D,LEPCHA CONSONANT SIGN K|}$2",
+        ],
+        "description": [
+            "Code: U+1C2D",
+            "Character/Symbol: ᰭ",
+            "Name: LEPCHA CONSONANT SIGN K",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰮ U+1C2E LEPCHA CONSONANT SIGN M": 
+    {
+        "prefix": [
+            "..U.1C2E",
+            "..U.LEPCHA CONSONANT SIGN M",
+            "U+1C2E",
+        ],
+        "body": [
+            "${1|ᰮ,&#x1C2E;,U+1C2E,0x1C2E,LEPCHA CONSONANT SIGN M|}$2",
+        ],
+        "description": [
+            "Code: U+1C2E",
+            "Character/Symbol: ᰮ",
+            "Name: LEPCHA CONSONANT SIGN M",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰯ U+1C2F LEPCHA CONSONANT SIGN L": 
+    {
+        "prefix": [
+            "..U.1C2F",
+            "..U.LEPCHA CONSONANT SIGN L",
+            "U+1C2F",
+        ],
+        "body": [
+            "${1|ᰯ,&#x1C2F;,U+1C2F,0x1C2F,LEPCHA CONSONANT SIGN L|}$2",
+        ],
+        "description": [
+            "Code: U+1C2F",
+            "Character/Symbol: ᰯ",
+            "Name: LEPCHA CONSONANT SIGN L",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰰ U+1C30 LEPCHA CONSONANT SIGN N": 
+    {
+        "prefix": [
+            "..U.1C30",
+            "..U.LEPCHA CONSONANT SIGN N",
+            "U+1C30",
+        ],
+        "body": [
+            "${1|ᰰ,&#x1C30;,U+1C30,0x1C30,LEPCHA CONSONANT SIGN N|}$2",
+        ],
+        "description": [
+            "Code: U+1C30",
+            "Character/Symbol: ᰰ",
+            "Name: LEPCHA CONSONANT SIGN N",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰱ U+1C31 LEPCHA CONSONANT SIGN P": 
+    {
+        "prefix": [
+            "..U.1C31",
+            "..U.LEPCHA CONSONANT SIGN P",
+            "U+1C31",
+        ],
+        "body": [
+            "${1|ᰱ,&#x1C31;,U+1C31,0x1C31,LEPCHA CONSONANT SIGN P|}$2",
+        ],
+        "description": [
+            "Code: U+1C31",
+            "Character/Symbol: ᰱ",
+            "Name: LEPCHA CONSONANT SIGN P",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰲ U+1C32 LEPCHA CONSONANT SIGN R": 
+    {
+        "prefix": [
+            "..U.1C32",
+            "..U.LEPCHA CONSONANT SIGN R",
+            "U+1C32",
+        ],
+        "body": [
+            "${1|ᰲ,&#x1C32;,U+1C32,0x1C32,LEPCHA CONSONANT SIGN R|}$2",
+        ],
+        "description": [
+            "Code: U+1C32",
+            "Character/Symbol: ᰲ",
+            "Name: LEPCHA CONSONANT SIGN R",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰳ U+1C33 LEPCHA CONSONANT SIGN T": 
+    {
+        "prefix": [
+            "..U.1C33",
+            "..U.LEPCHA CONSONANT SIGN T",
+            "U+1C33",
+        ],
+        "body": [
+            "${1|ᰳ,&#x1C33;,U+1C33,0x1C33,LEPCHA CONSONANT SIGN T|}$2",
+        ],
+        "description": [
+            "Code: U+1C33",
+            "Character/Symbol: ᰳ",
+            "Name: LEPCHA CONSONANT SIGN T",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰴ U+1C34 LEPCHA CONSONANT SIGN NYIN-DO": 
+    {
+        "prefix": [
+            "..U.1C34",
+            "..U.LEPCHA CONSONANT SIGN NYIN-DO",
+            "U+1C34",
+        ],
+        "body": [
+            "${1|ᰴ,&#x1C34;,U+1C34,0x1C34,LEPCHA CONSONANT SIGN NYIN-DO|}$2",
+        ],
+        "description": [
+            "Code: U+1C34",
+            "Character/Symbol: ᰴ",
+            "Name: LEPCHA CONSONANT SIGN NYIN-DO",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰵ U+1C35 LEPCHA CONSONANT SIGN KANG": 
+    {
+        "prefix": [
+            "..U.1C35",
+            "..U.LEPCHA CONSONANT SIGN KANG",
+            "U+1C35",
+        ],
+        "body": [
+            "${1|ᰵ,&#x1C35;,U+1C35,0x1C35,LEPCHA CONSONANT SIGN KANG|}$2",
+        ],
+        "description": [
+            "Code: U+1C35",
+            "Character/Symbol: ᰵ",
+            "Name: LEPCHA CONSONANT SIGN KANG",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰶ U+1C36 LEPCHA SIGN RAN": 
+    {
+        "prefix": [
+            "..U.1C36",
+            "..U.LEPCHA SIGN RAN",
+            "U+1C36",
+        ],
+        "body": [
+            "${1|ᰶ,&#x1C36;,U+1C36,0x1C36,LEPCHA SIGN RAN|}$2",
+        ],
+        "description": [
+            "Code: U+1C36",
+            "Character/Symbol: ᰶ",
+            "Name: LEPCHA SIGN RAN",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰷ U+1C37 LEPCHA SIGN NUKTA": 
+    {
+        "prefix": [
+            "..U.1C37",
+            "..U.LEPCHA SIGN NUKTA",
+            "U+1C37",
+        ],
+        "body": [
+            "${1|᰷,&#x1C37;,U+1C37,0x1C37,LEPCHA SIGN NUKTA|}$2",
+        ],
+        "description": [
+            "Code: U+1C37",
+            "Character/Symbol: ᰷",
+            "Name: LEPCHA SIGN NUKTA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰻ U+1C3B LEPCHA PUNCTUATION TA-ROL": 
+    {
+        "prefix": [
+            "..U.1C3B",
+            "..U.LEPCHA PUNCTUATION TA-ROL",
+            "U+1C3B",
+        ],
+        "body": [
+            "${1|᰻,&#x1C3B;,U+1C3B,0x1C3B,LEPCHA PUNCTUATION TA-ROL|}$2",
+        ],
+        "description": [
+            "Code: U+1C3B",
+            "Character/Symbol: ᰻",
+            "Name: LEPCHA PUNCTUATION TA-ROL",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰼ U+1C3C LEPCHA PUNCTUATION NYET THYOOM TA-ROL": 
+    {
+        "prefix": [
+            "..U.1C3C",
+            "..U.LEPCHA PUNCTUATION NYET THYOOM TA-ROL",
+            "U+1C3C",
+        ],
+        "body": [
+            "${1|᰼,&#x1C3C;,U+1C3C,0x1C3C,LEPCHA PUNCTUATION NYET THYOOM TA-ROL|}$2",
+        ],
+        "description": [
+            "Code: U+1C3C",
+            "Character/Symbol: ᰼",
+            "Name: LEPCHA PUNCTUATION NYET THYOOM TA-ROL",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰽ U+1C3D LEPCHA PUNCTUATION CER-WA": 
+    {
+        "prefix": [
+            "..U.1C3D",
+            "..U.LEPCHA PUNCTUATION CER-WA",
+            "U+1C3D",
+        ],
+        "body": [
+            "${1|᰽,&#x1C3D;,U+1C3D,0x1C3D,LEPCHA PUNCTUATION CER-WA|}$2",
+        ],
+        "description": [
+            "Code: U+1C3D",
+            "Character/Symbol: ᰽",
+            "Name: LEPCHA PUNCTUATION CER-WA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰾ U+1C3E LEPCHA PUNCTUATION TSHOOK CER-WA": 
+    {
+        "prefix": [
+            "..U.1C3E",
+            "..U.LEPCHA PUNCTUATION TSHOOK CER-WA",
+            "U+1C3E",
+        ],
+        "body": [
+            "${1|᰾,&#x1C3E;,U+1C3E,0x1C3E,LEPCHA PUNCTUATION TSHOOK CER-WA|}$2",
+        ],
+        "description": [
+            "Code: U+1C3E",
+            "Character/Symbol: ᰾",
+            "Name: LEPCHA PUNCTUATION TSHOOK CER-WA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᰿ U+1C3F LEPCHA PUNCTUATION TSHOOK": 
+    {
+        "prefix": [
+            "..U.1C3F",
+            "..U.LEPCHA PUNCTUATION TSHOOK",
+            "U+1C3F",
+        ],
+        "body": [
+            "${1|᰿,&#x1C3F;,U+1C3F,0x1C3F,LEPCHA PUNCTUATION TSHOOK|}$2",
+        ],
+        "description": [
+            "Code: U+1C3F",
+            "Character/Symbol: ᰿",
+            "Name: LEPCHA PUNCTUATION TSHOOK",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱀ U+1C40 LEPCHA DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.1C40",
+            "..U.LEPCHA DIGIT ZERO",
+            "U+1C40",
+        ],
+        "body": [
+            "${1|᱀,&#x1C40;,U+1C40,0x1C40,LEPCHA DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+1C40",
+            "Character/Symbol: ᱀",
+            "Name: LEPCHA DIGIT ZERO",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱁ U+1C41 LEPCHA DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.1C41",
+            "..U.LEPCHA DIGIT ONE",
+            "U+1C41",
+        ],
+        "body": [
+            "${1|᱁,&#x1C41;,U+1C41,0x1C41,LEPCHA DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+1C41",
+            "Character/Symbol: ᱁",
+            "Name: LEPCHA DIGIT ONE",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱂ U+1C42 LEPCHA DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.1C42",
+            "..U.LEPCHA DIGIT TWO",
+            "U+1C42",
+        ],
+        "body": [
+            "${1|᱂,&#x1C42;,U+1C42,0x1C42,LEPCHA DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+1C42",
+            "Character/Symbol: ᱂",
+            "Name: LEPCHA DIGIT TWO",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱃ U+1C43 LEPCHA DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.1C43",
+            "..U.LEPCHA DIGIT THREE",
+            "U+1C43",
+        ],
+        "body": [
+            "${1|᱃,&#x1C43;,U+1C43,0x1C43,LEPCHA DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+1C43",
+            "Character/Symbol: ᱃",
+            "Name: LEPCHA DIGIT THREE",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱄ U+1C44 LEPCHA DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.1C44",
+            "..U.LEPCHA DIGIT FOUR",
+            "U+1C44",
+        ],
+        "body": [
+            "${1|᱄,&#x1C44;,U+1C44,0x1C44,LEPCHA DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+1C44",
+            "Character/Symbol: ᱄",
+            "Name: LEPCHA DIGIT FOUR",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱅ U+1C45 LEPCHA DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.1C45",
+            "..U.LEPCHA DIGIT FIVE",
+            "U+1C45",
+        ],
+        "body": [
+            "${1|᱅,&#x1C45;,U+1C45,0x1C45,LEPCHA DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+1C45",
+            "Character/Symbol: ᱅",
+            "Name: LEPCHA DIGIT FIVE",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱆ U+1C46 LEPCHA DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.1C46",
+            "..U.LEPCHA DIGIT SIX",
+            "U+1C46",
+        ],
+        "body": [
+            "${1|᱆,&#x1C46;,U+1C46,0x1C46,LEPCHA DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+1C46",
+            "Character/Symbol: ᱆",
+            "Name: LEPCHA DIGIT SIX",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱇ U+1C47 LEPCHA DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.1C47",
+            "..U.LEPCHA DIGIT SEVEN",
+            "U+1C47",
+        ],
+        "body": [
+            "${1|᱇,&#x1C47;,U+1C47,0x1C47,LEPCHA DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+1C47",
+            "Character/Symbol: ᱇",
+            "Name: LEPCHA DIGIT SEVEN",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱈ U+1C48 LEPCHA DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.1C48",
+            "..U.LEPCHA DIGIT EIGHT",
+            "U+1C48",
+        ],
+        "body": [
+            "${1|᱈,&#x1C48;,U+1C48,0x1C48,LEPCHA DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+1C48",
+            "Character/Symbol: ᱈",
+            "Name: LEPCHA DIGIT EIGHT",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱉ U+1C49 LEPCHA DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.1C49",
+            "..U.LEPCHA DIGIT NINE",
+            "U+1C49",
+        ],
+        "body": [
+            "${1|᱉,&#x1C49;,U+1C49,0x1C49,LEPCHA DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+1C49",
+            "Character/Symbol: ᱉",
+            "Name: LEPCHA DIGIT NINE",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱍ U+1C4D LEPCHA LETTER TTA": 
+    {
+        "prefix": [
+            "..U.1C4D",
+            "..U.LEPCHA LETTER TTA",
+            "U+1C4D",
+        ],
+        "body": [
+            "${1|ᱍ,&#x1C4D;,U+1C4D,0x1C4D,LEPCHA LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+1C4D",
+            "Character/Symbol: ᱍ",
+            "Name: LEPCHA LETTER TTA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱎ U+1C4E LEPCHA LETTER TTHA": 
+    {
+        "prefix": [
+            "..U.1C4E",
+            "..U.LEPCHA LETTER TTHA",
+            "U+1C4E",
+        ],
+        "body": [
+            "${1|ᱎ,&#x1C4E;,U+1C4E,0x1C4E,LEPCHA LETTER TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+1C4E",
+            "Character/Symbol: ᱎ",
+            "Name: LEPCHA LETTER TTHA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+    "Unicode ᱏ U+1C4F LEPCHA LETTER DDA": 
+    {
+        "prefix": [
+            "..U.1C4F",
+            "..U.LEPCHA LETTER DDA",
+            "U+1C4F",
+        ],
+        "body": [
+            "${1|ᱏ,&#x1C4F;,U+1C4F,0x1C4F,LEPCHA LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+1C4F",
+            "Character/Symbol: ᱏ",
+            "Name: LEPCHA LETTER DDA",
+            "Group/Block: Lepcha",
+        ],
+    },
+
+}

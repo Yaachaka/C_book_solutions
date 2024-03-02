@@ -1,0 +1,182 @@
+{
+    "Unicode ꠰ U+A830 NORTH INDIC FRACTION ONE QUARTER": 
+    {
+        "prefix": [
+            "..U.A830",
+            "..U.NORTH INDIC FRACTION ONE QUARTER",
+            "U+A830",
+        ],
+        "body": [
+            "${1|꠰,&#xA830;,U+A830,0xA830,NORTH INDIC FRACTION ONE QUARTER|}$2",
+        ],
+        "description": [
+            "Code: U+A830",
+            "Character/Symbol: ꠰",
+            "Name: NORTH INDIC FRACTION ONE QUARTER",
+            "Group/Block: Indic_Number_Forms",
+        ],
+    },
+
+    "Unicode ꠱ U+A831 NORTH INDIC FRACTION ONE HALF": 
+    {
+        "prefix": [
+            "..U.A831",
+            "..U.NORTH INDIC FRACTION ONE HALF",
+            "U+A831",
+        ],
+        "body": [
+            "${1|꠱,&#xA831;,U+A831,0xA831,NORTH INDIC FRACTION ONE HALF|}$2",
+        ],
+        "description": [
+            "Code: U+A831",
+            "Character/Symbol: ꠱",
+            "Name: NORTH INDIC FRACTION ONE HALF",
+            "Group/Block: Indic_Number_Forms",
+        ],
+    },
+
+    "Unicode ꠲ U+A832 NORTH INDIC FRACTION THREE QUARTERS": 
+    {
+        "prefix": [
+            "..U.A832",
+            "..U.NORTH INDIC FRACTION THREE QUARTERS",
+            "U+A832",
+        ],
+        "body": [
+            "${1|꠲,&#xA832;,U+A832,0xA832,NORTH INDIC FRACTION THREE QUARTERS|}$2",
+        ],
+        "description": [
+            "Code: U+A832",
+            "Character/Symbol: ꠲",
+            "Name: NORTH INDIC FRACTION THREE QUARTERS",
+            "Group/Block: Indic_Number_Forms",
+        ],
+    },
+
+    "Unicode ꠳ U+A833 NORTH INDIC FRACTION ONE SIXTEENTH": 
+    {
+        "prefix": [
+            "..U.A833",
+            "..U.NORTH INDIC FRACTION ONE SIXTEENTH",
+            "U+A833",
+        ],
+        "body": [
+            "${1|꠳,&#xA833;,U+A833,0xA833,NORTH INDIC FRACTION ONE SIXTEENTH|}$2",
+        ],
+        "description": [
+            "Code: U+A833",
+            "Character/Symbol: ꠳",
+            "Name: NORTH INDIC FRACTION ONE SIXTEENTH",
+            "Group/Block: Indic_Number_Forms",
+        ],
+    },
+
+    "Unicode ꠴ U+A834 NORTH INDIC FRACTION ONE EIGHTH": 
+    {
+        "prefix": [
+            "..U.A834",
+            "..U.NORTH INDIC FRACTION ONE EIGHTH",
+            "U+A834",
+        ],
+        "body": [
+            "${1|꠴,&#xA834;,U+A834,0xA834,NORTH INDIC FRACTION ONE EIGHTH|}$2",
+        ],
+        "description": [
+            "Code: U+A834",
+            "Character/Symbol: ꠴",
+            "Name: NORTH INDIC FRACTION ONE EIGHTH",
+            "Group/Block: Indic_Number_Forms",
+        ],
+    },
+
+    "Unicode ꠵ U+A835 NORTH INDIC FRACTION THREE SIXTEENTHS": 
+    {
+        "prefix": [
+            "..U.A835",
+            "..U.NORTH INDIC FRACTION THREE SIXTEENTHS",
+            "U+A835",
+        ],
+        "body": [
+            "${1|꠵,&#xA835;,U+A835,0xA835,NORTH INDIC FRACTION THREE SIXTEENTHS|}$2",
+        ],
+        "description": [
+            "Code: U+A835",
+            "Character/Symbol: ꠵",
+            "Name: NORTH INDIC FRACTION THREE SIXTEENTHS",
+            "Group/Block: Indic_Number_Forms",
+        ],
+    },
+
+    "Unicode ꠶ U+A836 NORTH INDIC QUARTER MARK": 
+    {
+        "prefix": [
+            "..U.A836",
+            "..U.NORTH INDIC QUARTER MARK",
+            "U+A836",
+        ],
+        "body": [
+            "${1|꠶,&#xA836;,U+A836,0xA836,NORTH INDIC QUARTER MARK|}$2",
+        ],
+        "description": [
+            "Code: U+A836",
+            "Character/Symbol: ꠶",
+            "Name: NORTH INDIC QUARTER MARK",
+            "Group/Block: Indic_Number_Forms",
+        ],
+    },
+
+    "Unicode ꠷ U+A837 NORTH INDIC PLACEHOLDER MARK": 
+    {
+        "prefix": [
+            "..U.A837",
+            "..U.NORTH INDIC PLACEHOLDER MARK",
+            "U+A837",
+        ],
+        "body": [
+            "${1|꠷,&#xA837;,U+A837,0xA837,NORTH INDIC PLACEHOLDER MARK|}$2",
+        ],
+        "description": [
+            "Code: U+A837",
+            "Character/Symbol: ꠷",
+            "Name: NORTH INDIC PLACEHOLDER MARK",
+            "Group/Block: Indic_Number_Forms",
+        ],
+    },
+
+    "Unicode ꠸ U+A838 NORTH INDIC RUPEE MARK": 
+    {
+        "prefix": [
+            "..U.A838",
+            "..U.NORTH INDIC RUPEE MARK",
+            "U+A838",
+        ],
+        "body": [
+            "${1|꠸,&#xA838;,U+A838,0xA838,NORTH INDIC RUPEE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+A838",
+            "Character/Symbol: ꠸",
+            "Name: NORTH INDIC RUPEE MARK",
+            "Group/Block: Indic_Number_Forms",
+        ],
+    },
+
+    "Unicode ꠹ U+A839 NORTH INDIC QUANTITY MARK": 
+    {
+        "prefix": [
+            "..U.A839",
+            "..U.NORTH INDIC QUANTITY MARK",
+            "U+A839",
+        ],
+        "body": [
+            "${1|꠹,&#xA839;,U+A839,0xA839,NORTH INDIC QUANTITY MARK|}$2",
+        ],
+        "description": [
+            "Code: U+A839",
+            "Character/Symbol: ꠹",
+            "Name: NORTH INDIC QUANTITY MARK",
+            "Group/Block: Indic_Number_Forms",
+        ],
+    },
+
+}

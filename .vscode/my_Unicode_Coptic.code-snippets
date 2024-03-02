@@ -1,0 +1,2216 @@
+{
+    "Unicode Ⲁ U+2C80 COPTIC CAPITAL LETTER ALFA": 
+    {
+        "prefix": [
+            "..U.2C80",
+            "..U.COPTIC CAPITAL LETTER ALFA",
+            "U+2C80",
+        ],
+        "body": [
+            "${1|Ⲁ,&#x2C80;,U+2C80,0x2C80,COPTIC CAPITAL LETTER ALFA|}$2",
+        ],
+        "description": [
+            "Code: U+2C80",
+            "Character/Symbol: Ⲁ",
+            "Name: COPTIC CAPITAL LETTER ALFA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲁ U+2C81 COPTIC SMALL LETTER ALFA": 
+    {
+        "prefix": [
+            "..U.2C81",
+            "..U.COPTIC SMALL LETTER ALFA",
+            "U+2C81",
+        ],
+        "body": [
+            "${1|ⲁ,&#x2C81;,U+2C81,0x2C81,COPTIC SMALL LETTER ALFA|}$2",
+        ],
+        "description": [
+            "Code: U+2C81",
+            "Character/Symbol: ⲁ",
+            "Name: COPTIC SMALL LETTER ALFA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲃ U+2C82 COPTIC CAPITAL LETTER VIDA": 
+    {
+        "prefix": [
+            "..U.2C82",
+            "..U.COPTIC CAPITAL LETTER VIDA",
+            "U+2C82",
+        ],
+        "body": [
+            "${1|Ⲃ,&#x2C82;,U+2C82,0x2C82,COPTIC CAPITAL LETTER VIDA|}$2",
+        ],
+        "description": [
+            "Code: U+2C82",
+            "Character/Symbol: Ⲃ",
+            "Name: COPTIC CAPITAL LETTER VIDA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲃ U+2C83 COPTIC SMALL LETTER VIDA": 
+    {
+        "prefix": [
+            "..U.2C83",
+            "..U.COPTIC SMALL LETTER VIDA",
+            "U+2C83",
+        ],
+        "body": [
+            "${1|ⲃ,&#x2C83;,U+2C83,0x2C83,COPTIC SMALL LETTER VIDA|}$2",
+        ],
+        "description": [
+            "Code: U+2C83",
+            "Character/Symbol: ⲃ",
+            "Name: COPTIC SMALL LETTER VIDA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲅ U+2C84 COPTIC CAPITAL LETTER GAMMA": 
+    {
+        "prefix": [
+            "..U.2C84",
+            "..U.COPTIC CAPITAL LETTER GAMMA",
+            "U+2C84",
+        ],
+        "body": [
+            "${1|Ⲅ,&#x2C84;,U+2C84,0x2C84,COPTIC CAPITAL LETTER GAMMA|}$2",
+        ],
+        "description": [
+            "Code: U+2C84",
+            "Character/Symbol: Ⲅ",
+            "Name: COPTIC CAPITAL LETTER GAMMA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲅ U+2C85 COPTIC SMALL LETTER GAMMA": 
+    {
+        "prefix": [
+            "..U.2C85",
+            "..U.COPTIC SMALL LETTER GAMMA",
+            "U+2C85",
+        ],
+        "body": [
+            "${1|ⲅ,&#x2C85;,U+2C85,0x2C85,COPTIC SMALL LETTER GAMMA|}$2",
+        ],
+        "description": [
+            "Code: U+2C85",
+            "Character/Symbol: ⲅ",
+            "Name: COPTIC SMALL LETTER GAMMA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲇ U+2C86 COPTIC CAPITAL LETTER DALDA": 
+    {
+        "prefix": [
+            "..U.2C86",
+            "..U.COPTIC CAPITAL LETTER DALDA",
+            "U+2C86",
+        ],
+        "body": [
+            "${1|Ⲇ,&#x2C86;,U+2C86,0x2C86,COPTIC CAPITAL LETTER DALDA|}$2",
+        ],
+        "description": [
+            "Code: U+2C86",
+            "Character/Symbol: Ⲇ",
+            "Name: COPTIC CAPITAL LETTER DALDA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲇ U+2C87 COPTIC SMALL LETTER DALDA": 
+    {
+        "prefix": [
+            "..U.2C87",
+            "..U.COPTIC SMALL LETTER DALDA",
+            "U+2C87",
+        ],
+        "body": [
+            "${1|ⲇ,&#x2C87;,U+2C87,0x2C87,COPTIC SMALL LETTER DALDA|}$2",
+        ],
+        "description": [
+            "Code: U+2C87",
+            "Character/Symbol: ⲇ",
+            "Name: COPTIC SMALL LETTER DALDA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲉ U+2C88 COPTIC CAPITAL LETTER EIE": 
+    {
+        "prefix": [
+            "..U.2C88",
+            "..U.COPTIC CAPITAL LETTER EIE",
+            "U+2C88",
+        ],
+        "body": [
+            "${1|Ⲉ,&#x2C88;,U+2C88,0x2C88,COPTIC CAPITAL LETTER EIE|}$2",
+        ],
+        "description": [
+            "Code: U+2C88",
+            "Character/Symbol: Ⲉ",
+            "Name: COPTIC CAPITAL LETTER EIE",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲉ U+2C89 COPTIC SMALL LETTER EIE": 
+    {
+        "prefix": [
+            "..U.2C89",
+            "..U.COPTIC SMALL LETTER EIE",
+            "U+2C89",
+        ],
+        "body": [
+            "${1|ⲉ,&#x2C89;,U+2C89,0x2C89,COPTIC SMALL LETTER EIE|}$2",
+        ],
+        "description": [
+            "Code: U+2C89",
+            "Character/Symbol: ⲉ",
+            "Name: COPTIC SMALL LETTER EIE",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲋ U+2C8A COPTIC CAPITAL LETTER SOU": 
+    {
+        "prefix": [
+            "..U.2C8A",
+            "..U.COPTIC CAPITAL LETTER SOU",
+            "U+2C8A",
+        ],
+        "body": [
+            "${1|Ⲋ,&#x2C8A;,U+2C8A,0x2C8A,COPTIC CAPITAL LETTER SOU|}$2",
+        ],
+        "description": [
+            "Code: U+2C8A",
+            "Character/Symbol: Ⲋ",
+            "Name: COPTIC CAPITAL LETTER SOU",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲋ U+2C8B COPTIC SMALL LETTER SOU": 
+    {
+        "prefix": [
+            "..U.2C8B",
+            "..U.COPTIC SMALL LETTER SOU",
+            "U+2C8B",
+        ],
+        "body": [
+            "${1|ⲋ,&#x2C8B;,U+2C8B,0x2C8B,COPTIC SMALL LETTER SOU|}$2",
+        ],
+        "description": [
+            "Code: U+2C8B",
+            "Character/Symbol: ⲋ",
+            "Name: COPTIC SMALL LETTER SOU",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲍ U+2C8C COPTIC CAPITAL LETTER ZATA": 
+    {
+        "prefix": [
+            "..U.2C8C",
+            "..U.COPTIC CAPITAL LETTER ZATA",
+            "U+2C8C",
+        ],
+        "body": [
+            "${1|Ⲍ,&#x2C8C;,U+2C8C,0x2C8C,COPTIC CAPITAL LETTER ZATA|}$2",
+        ],
+        "description": [
+            "Code: U+2C8C",
+            "Character/Symbol: Ⲍ",
+            "Name: COPTIC CAPITAL LETTER ZATA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲍ U+2C8D COPTIC SMALL LETTER ZATA": 
+    {
+        "prefix": [
+            "..U.2C8D",
+            "..U.COPTIC SMALL LETTER ZATA",
+            "U+2C8D",
+        ],
+        "body": [
+            "${1|ⲍ,&#x2C8D;,U+2C8D,0x2C8D,COPTIC SMALL LETTER ZATA|}$2",
+        ],
+        "description": [
+            "Code: U+2C8D",
+            "Character/Symbol: ⲍ",
+            "Name: COPTIC SMALL LETTER ZATA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲏ U+2C8E COPTIC CAPITAL LETTER HATE": 
+    {
+        "prefix": [
+            "..U.2C8E",
+            "..U.COPTIC CAPITAL LETTER HATE",
+            "U+2C8E",
+        ],
+        "body": [
+            "${1|Ⲏ,&#x2C8E;,U+2C8E,0x2C8E,COPTIC CAPITAL LETTER HATE|}$2",
+        ],
+        "description": [
+            "Code: U+2C8E",
+            "Character/Symbol: Ⲏ",
+            "Name: COPTIC CAPITAL LETTER HATE",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲏ U+2C8F COPTIC SMALL LETTER HATE": 
+    {
+        "prefix": [
+            "..U.2C8F",
+            "..U.COPTIC SMALL LETTER HATE",
+            "U+2C8F",
+        ],
+        "body": [
+            "${1|ⲏ,&#x2C8F;,U+2C8F,0x2C8F,COPTIC SMALL LETTER HATE|}$2",
+        ],
+        "description": [
+            "Code: U+2C8F",
+            "Character/Symbol: ⲏ",
+            "Name: COPTIC SMALL LETTER HATE",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲑ U+2C90 COPTIC CAPITAL LETTER THETHE": 
+    {
+        "prefix": [
+            "..U.2C90",
+            "..U.COPTIC CAPITAL LETTER THETHE",
+            "U+2C90",
+        ],
+        "body": [
+            "${1|Ⲑ,&#x2C90;,U+2C90,0x2C90,COPTIC CAPITAL LETTER THETHE|}$2",
+        ],
+        "description": [
+            "Code: U+2C90",
+            "Character/Symbol: Ⲑ",
+            "Name: COPTIC CAPITAL LETTER THETHE",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲑ U+2C91 COPTIC SMALL LETTER THETHE": 
+    {
+        "prefix": [
+            "..U.2C91",
+            "..U.COPTIC SMALL LETTER THETHE",
+            "U+2C91",
+        ],
+        "body": [
+            "${1|ⲑ,&#x2C91;,U+2C91,0x2C91,COPTIC SMALL LETTER THETHE|}$2",
+        ],
+        "description": [
+            "Code: U+2C91",
+            "Character/Symbol: ⲑ",
+            "Name: COPTIC SMALL LETTER THETHE",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲓ U+2C92 COPTIC CAPITAL LETTER IAUDA": 
+    {
+        "prefix": [
+            "..U.2C92",
+            "..U.COPTIC CAPITAL LETTER IAUDA",
+            "U+2C92",
+        ],
+        "body": [
+            "${1|Ⲓ,&#x2C92;,U+2C92,0x2C92,COPTIC CAPITAL LETTER IAUDA|}$2",
+        ],
+        "description": [
+            "Code: U+2C92",
+            "Character/Symbol: Ⲓ",
+            "Name: COPTIC CAPITAL LETTER IAUDA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲓ U+2C93 COPTIC SMALL LETTER IAUDA": 
+    {
+        "prefix": [
+            "..U.2C93",
+            "..U.COPTIC SMALL LETTER IAUDA",
+            "U+2C93",
+        ],
+        "body": [
+            "${1|ⲓ,&#x2C93;,U+2C93,0x2C93,COPTIC SMALL LETTER IAUDA|}$2",
+        ],
+        "description": [
+            "Code: U+2C93",
+            "Character/Symbol: ⲓ",
+            "Name: COPTIC SMALL LETTER IAUDA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲕ U+2C94 COPTIC CAPITAL LETTER KAPA": 
+    {
+        "prefix": [
+            "..U.2C94",
+            "..U.COPTIC CAPITAL LETTER KAPA",
+            "U+2C94",
+        ],
+        "body": [
+            "${1|Ⲕ,&#x2C94;,U+2C94,0x2C94,COPTIC CAPITAL LETTER KAPA|}$2",
+        ],
+        "description": [
+            "Code: U+2C94",
+            "Character/Symbol: Ⲕ",
+            "Name: COPTIC CAPITAL LETTER KAPA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲕ U+2C95 COPTIC SMALL LETTER KAPA": 
+    {
+        "prefix": [
+            "..U.2C95",
+            "..U.COPTIC SMALL LETTER KAPA",
+            "U+2C95",
+        ],
+        "body": [
+            "${1|ⲕ,&#x2C95;,U+2C95,0x2C95,COPTIC SMALL LETTER KAPA|}$2",
+        ],
+        "description": [
+            "Code: U+2C95",
+            "Character/Symbol: ⲕ",
+            "Name: COPTIC SMALL LETTER KAPA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲗ U+2C96 COPTIC CAPITAL LETTER LAULA": 
+    {
+        "prefix": [
+            "..U.2C96",
+            "..U.COPTIC CAPITAL LETTER LAULA",
+            "U+2C96",
+        ],
+        "body": [
+            "${1|Ⲗ,&#x2C96;,U+2C96,0x2C96,COPTIC CAPITAL LETTER LAULA|}$2",
+        ],
+        "description": [
+            "Code: U+2C96",
+            "Character/Symbol: Ⲗ",
+            "Name: COPTIC CAPITAL LETTER LAULA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲗ U+2C97 COPTIC SMALL LETTER LAULA": 
+    {
+        "prefix": [
+            "..U.2C97",
+            "..U.COPTIC SMALL LETTER LAULA",
+            "U+2C97",
+        ],
+        "body": [
+            "${1|ⲗ,&#x2C97;,U+2C97,0x2C97,COPTIC SMALL LETTER LAULA|}$2",
+        ],
+        "description": [
+            "Code: U+2C97",
+            "Character/Symbol: ⲗ",
+            "Name: COPTIC SMALL LETTER LAULA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲙ U+2C98 COPTIC CAPITAL LETTER MI": 
+    {
+        "prefix": [
+            "..U.2C98",
+            "..U.COPTIC CAPITAL LETTER MI",
+            "U+2C98",
+        ],
+        "body": [
+            "${1|Ⲙ,&#x2C98;,U+2C98,0x2C98,COPTIC CAPITAL LETTER MI|}$2",
+        ],
+        "description": [
+            "Code: U+2C98",
+            "Character/Symbol: Ⲙ",
+            "Name: COPTIC CAPITAL LETTER MI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲙ U+2C99 COPTIC SMALL LETTER MI": 
+    {
+        "prefix": [
+            "..U.2C99",
+            "..U.COPTIC SMALL LETTER MI",
+            "U+2C99",
+        ],
+        "body": [
+            "${1|ⲙ,&#x2C99;,U+2C99,0x2C99,COPTIC SMALL LETTER MI|}$2",
+        ],
+        "description": [
+            "Code: U+2C99",
+            "Character/Symbol: ⲙ",
+            "Name: COPTIC SMALL LETTER MI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲛ U+2C9A COPTIC CAPITAL LETTER NI": 
+    {
+        "prefix": [
+            "..U.2C9A",
+            "..U.COPTIC CAPITAL LETTER NI",
+            "U+2C9A",
+        ],
+        "body": [
+            "${1|Ⲛ,&#x2C9A;,U+2C9A,0x2C9A,COPTIC CAPITAL LETTER NI|}$2",
+        ],
+        "description": [
+            "Code: U+2C9A",
+            "Character/Symbol: Ⲛ",
+            "Name: COPTIC CAPITAL LETTER NI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲛ U+2C9B COPTIC SMALL LETTER NI": 
+    {
+        "prefix": [
+            "..U.2C9B",
+            "..U.COPTIC SMALL LETTER NI",
+            "U+2C9B",
+        ],
+        "body": [
+            "${1|ⲛ,&#x2C9B;,U+2C9B,0x2C9B,COPTIC SMALL LETTER NI|}$2",
+        ],
+        "description": [
+            "Code: U+2C9B",
+            "Character/Symbol: ⲛ",
+            "Name: COPTIC SMALL LETTER NI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲝ U+2C9C COPTIC CAPITAL LETTER KSI": 
+    {
+        "prefix": [
+            "..U.2C9C",
+            "..U.COPTIC CAPITAL LETTER KSI",
+            "U+2C9C",
+        ],
+        "body": [
+            "${1|Ⲝ,&#x2C9C;,U+2C9C,0x2C9C,COPTIC CAPITAL LETTER KSI|}$2",
+        ],
+        "description": [
+            "Code: U+2C9C",
+            "Character/Symbol: Ⲝ",
+            "Name: COPTIC CAPITAL LETTER KSI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲝ U+2C9D COPTIC SMALL LETTER KSI": 
+    {
+        "prefix": [
+            "..U.2C9D",
+            "..U.COPTIC SMALL LETTER KSI",
+            "U+2C9D",
+        ],
+        "body": [
+            "${1|ⲝ,&#x2C9D;,U+2C9D,0x2C9D,COPTIC SMALL LETTER KSI|}$2",
+        ],
+        "description": [
+            "Code: U+2C9D",
+            "Character/Symbol: ⲝ",
+            "Name: COPTIC SMALL LETTER KSI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲟ U+2C9E COPTIC CAPITAL LETTER O": 
+    {
+        "prefix": [
+            "..U.2C9E",
+            "..U.COPTIC CAPITAL LETTER O",
+            "U+2C9E",
+        ],
+        "body": [
+            "${1|Ⲟ,&#x2C9E;,U+2C9E,0x2C9E,COPTIC CAPITAL LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+2C9E",
+            "Character/Symbol: Ⲟ",
+            "Name: COPTIC CAPITAL LETTER O",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲟ U+2C9F COPTIC SMALL LETTER O": 
+    {
+        "prefix": [
+            "..U.2C9F",
+            "..U.COPTIC SMALL LETTER O",
+            "U+2C9F",
+        ],
+        "body": [
+            "${1|ⲟ,&#x2C9F;,U+2C9F,0x2C9F,COPTIC SMALL LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+2C9F",
+            "Character/Symbol: ⲟ",
+            "Name: COPTIC SMALL LETTER O",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲡ U+2CA0 COPTIC CAPITAL LETTER PI": 
+    {
+        "prefix": [
+            "..U.2CA0",
+            "..U.COPTIC CAPITAL LETTER PI",
+            "U+2CA0",
+        ],
+        "body": [
+            "${1|Ⲡ,&#x2CA0;,U+2CA0,0x2CA0,COPTIC CAPITAL LETTER PI|}$2",
+        ],
+        "description": [
+            "Code: U+2CA0",
+            "Character/Symbol: Ⲡ",
+            "Name: COPTIC CAPITAL LETTER PI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲡ U+2CA1 COPTIC SMALL LETTER PI": 
+    {
+        "prefix": [
+            "..U.2CA1",
+            "..U.COPTIC SMALL LETTER PI",
+            "U+2CA1",
+        ],
+        "body": [
+            "${1|ⲡ,&#x2CA1;,U+2CA1,0x2CA1,COPTIC SMALL LETTER PI|}$2",
+        ],
+        "description": [
+            "Code: U+2CA1",
+            "Character/Symbol: ⲡ",
+            "Name: COPTIC SMALL LETTER PI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲣ U+2CA2 COPTIC CAPITAL LETTER RO": 
+    {
+        "prefix": [
+            "..U.2CA2",
+            "..U.COPTIC CAPITAL LETTER RO",
+            "U+2CA2",
+        ],
+        "body": [
+            "${1|Ⲣ,&#x2CA2;,U+2CA2,0x2CA2,COPTIC CAPITAL LETTER RO|}$2",
+        ],
+        "description": [
+            "Code: U+2CA2",
+            "Character/Symbol: Ⲣ",
+            "Name: COPTIC CAPITAL LETTER RO",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲣ U+2CA3 COPTIC SMALL LETTER RO": 
+    {
+        "prefix": [
+            "..U.2CA3",
+            "..U.COPTIC SMALL LETTER RO",
+            "U+2CA3",
+        ],
+        "body": [
+            "${1|ⲣ,&#x2CA3;,U+2CA3,0x2CA3,COPTIC SMALL LETTER RO|}$2",
+        ],
+        "description": [
+            "Code: U+2CA3",
+            "Character/Symbol: ⲣ",
+            "Name: COPTIC SMALL LETTER RO",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲥ U+2CA4 COPTIC CAPITAL LETTER SIMA": 
+    {
+        "prefix": [
+            "..U.2CA4",
+            "..U.COPTIC CAPITAL LETTER SIMA",
+            "U+2CA4",
+        ],
+        "body": [
+            "${1|Ⲥ,&#x2CA4;,U+2CA4,0x2CA4,COPTIC CAPITAL LETTER SIMA|}$2",
+        ],
+        "description": [
+            "Code: U+2CA4",
+            "Character/Symbol: Ⲥ",
+            "Name: COPTIC CAPITAL LETTER SIMA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲥ U+2CA5 COPTIC SMALL LETTER SIMA": 
+    {
+        "prefix": [
+            "..U.2CA5",
+            "..U.COPTIC SMALL LETTER SIMA",
+            "U+2CA5",
+        ],
+        "body": [
+            "${1|ⲥ,&#x2CA5;,U+2CA5,0x2CA5,COPTIC SMALL LETTER SIMA|}$2",
+        ],
+        "description": [
+            "Code: U+2CA5",
+            "Character/Symbol: ⲥ",
+            "Name: COPTIC SMALL LETTER SIMA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲧ U+2CA6 COPTIC CAPITAL LETTER TAU": 
+    {
+        "prefix": [
+            "..U.2CA6",
+            "..U.COPTIC CAPITAL LETTER TAU",
+            "U+2CA6",
+        ],
+        "body": [
+            "${1|Ⲧ,&#x2CA6;,U+2CA6,0x2CA6,COPTIC CAPITAL LETTER TAU|}$2",
+        ],
+        "description": [
+            "Code: U+2CA6",
+            "Character/Symbol: Ⲧ",
+            "Name: COPTIC CAPITAL LETTER TAU",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲧ U+2CA7 COPTIC SMALL LETTER TAU": 
+    {
+        "prefix": [
+            "..U.2CA7",
+            "..U.COPTIC SMALL LETTER TAU",
+            "U+2CA7",
+        ],
+        "body": [
+            "${1|ⲧ,&#x2CA7;,U+2CA7,0x2CA7,COPTIC SMALL LETTER TAU|}$2",
+        ],
+        "description": [
+            "Code: U+2CA7",
+            "Character/Symbol: ⲧ",
+            "Name: COPTIC SMALL LETTER TAU",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲩ U+2CA8 COPTIC CAPITAL LETTER UA": 
+    {
+        "prefix": [
+            "..U.2CA8",
+            "..U.COPTIC CAPITAL LETTER UA",
+            "U+2CA8",
+        ],
+        "body": [
+            "${1|Ⲩ,&#x2CA8;,U+2CA8,0x2CA8,COPTIC CAPITAL LETTER UA|}$2",
+        ],
+        "description": [
+            "Code: U+2CA8",
+            "Character/Symbol: Ⲩ",
+            "Name: COPTIC CAPITAL LETTER UA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲩ U+2CA9 COPTIC SMALL LETTER UA": 
+    {
+        "prefix": [
+            "..U.2CA9",
+            "..U.COPTIC SMALL LETTER UA",
+            "U+2CA9",
+        ],
+        "body": [
+            "${1|ⲩ,&#x2CA9;,U+2CA9,0x2CA9,COPTIC SMALL LETTER UA|}$2",
+        ],
+        "description": [
+            "Code: U+2CA9",
+            "Character/Symbol: ⲩ",
+            "Name: COPTIC SMALL LETTER UA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲫ U+2CAA COPTIC CAPITAL LETTER FI": 
+    {
+        "prefix": [
+            "..U.2CAA",
+            "..U.COPTIC CAPITAL LETTER FI",
+            "U+2CAA",
+        ],
+        "body": [
+            "${1|Ⲫ,&#x2CAA;,U+2CAA,0x2CAA,COPTIC CAPITAL LETTER FI|}$2",
+        ],
+        "description": [
+            "Code: U+2CAA",
+            "Character/Symbol: Ⲫ",
+            "Name: COPTIC CAPITAL LETTER FI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲫ U+2CAB COPTIC SMALL LETTER FI": 
+    {
+        "prefix": [
+            "..U.2CAB",
+            "..U.COPTIC SMALL LETTER FI",
+            "U+2CAB",
+        ],
+        "body": [
+            "${1|ⲫ,&#x2CAB;,U+2CAB,0x2CAB,COPTIC SMALL LETTER FI|}$2",
+        ],
+        "description": [
+            "Code: U+2CAB",
+            "Character/Symbol: ⲫ",
+            "Name: COPTIC SMALL LETTER FI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲭ U+2CAC COPTIC CAPITAL LETTER KHI": 
+    {
+        "prefix": [
+            "..U.2CAC",
+            "..U.COPTIC CAPITAL LETTER KHI",
+            "U+2CAC",
+        ],
+        "body": [
+            "${1|Ⲭ,&#x2CAC;,U+2CAC,0x2CAC,COPTIC CAPITAL LETTER KHI|}$2",
+        ],
+        "description": [
+            "Code: U+2CAC",
+            "Character/Symbol: Ⲭ",
+            "Name: COPTIC CAPITAL LETTER KHI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲭ U+2CAD COPTIC SMALL LETTER KHI": 
+    {
+        "prefix": [
+            "..U.2CAD",
+            "..U.COPTIC SMALL LETTER KHI",
+            "U+2CAD",
+        ],
+        "body": [
+            "${1|ⲭ,&#x2CAD;,U+2CAD,0x2CAD,COPTIC SMALL LETTER KHI|}$2",
+        ],
+        "description": [
+            "Code: U+2CAD",
+            "Character/Symbol: ⲭ",
+            "Name: COPTIC SMALL LETTER KHI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲯ U+2CAE COPTIC CAPITAL LETTER PSI": 
+    {
+        "prefix": [
+            "..U.2CAE",
+            "..U.COPTIC CAPITAL LETTER PSI",
+            "U+2CAE",
+        ],
+        "body": [
+            "${1|Ⲯ,&#x2CAE;,U+2CAE,0x2CAE,COPTIC CAPITAL LETTER PSI|}$2",
+        ],
+        "description": [
+            "Code: U+2CAE",
+            "Character/Symbol: Ⲯ",
+            "Name: COPTIC CAPITAL LETTER PSI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲯ U+2CAF COPTIC SMALL LETTER PSI": 
+    {
+        "prefix": [
+            "..U.2CAF",
+            "..U.COPTIC SMALL LETTER PSI",
+            "U+2CAF",
+        ],
+        "body": [
+            "${1|ⲯ,&#x2CAF;,U+2CAF,0x2CAF,COPTIC SMALL LETTER PSI|}$2",
+        ],
+        "description": [
+            "Code: U+2CAF",
+            "Character/Symbol: ⲯ",
+            "Name: COPTIC SMALL LETTER PSI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲱ U+2CB0 COPTIC CAPITAL LETTER OOU": 
+    {
+        "prefix": [
+            "..U.2CB0",
+            "..U.COPTIC CAPITAL LETTER OOU",
+            "U+2CB0",
+        ],
+        "body": [
+            "${1|Ⲱ,&#x2CB0;,U+2CB0,0x2CB0,COPTIC CAPITAL LETTER OOU|}$2",
+        ],
+        "description": [
+            "Code: U+2CB0",
+            "Character/Symbol: Ⲱ",
+            "Name: COPTIC CAPITAL LETTER OOU",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲱ U+2CB1 COPTIC SMALL LETTER OOU": 
+    {
+        "prefix": [
+            "..U.2CB1",
+            "..U.COPTIC SMALL LETTER OOU",
+            "U+2CB1",
+        ],
+        "body": [
+            "${1|ⲱ,&#x2CB1;,U+2CB1,0x2CB1,COPTIC SMALL LETTER OOU|}$2",
+        ],
+        "description": [
+            "Code: U+2CB1",
+            "Character/Symbol: ⲱ",
+            "Name: COPTIC SMALL LETTER OOU",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲳ U+2CB2 COPTIC CAPITAL LETTER DIALECT-P ALEF": 
+    {
+        "prefix": [
+            "..U.2CB2",
+            "..U.COPTIC CAPITAL LETTER DIALECT-P ALEF",
+            "U+2CB2",
+        ],
+        "body": [
+            "${1|Ⲳ,&#x2CB2;,U+2CB2,0x2CB2,COPTIC CAPITAL LETTER DIALECT-P ALEF|}$2",
+        ],
+        "description": [
+            "Code: U+2CB2",
+            "Character/Symbol: Ⲳ",
+            "Name: COPTIC CAPITAL LETTER DIALECT-P ALEF",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲳ U+2CB3 COPTIC SMALL LETTER DIALECT-P ALEF": 
+    {
+        "prefix": [
+            "..U.2CB3",
+            "..U.COPTIC SMALL LETTER DIALECT-P ALEF",
+            "U+2CB3",
+        ],
+        "body": [
+            "${1|ⲳ,&#x2CB3;,U+2CB3,0x2CB3,COPTIC SMALL LETTER DIALECT-P ALEF|}$2",
+        ],
+        "description": [
+            "Code: U+2CB3",
+            "Character/Symbol: ⲳ",
+            "Name: COPTIC SMALL LETTER DIALECT-P ALEF",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲵ U+2CB4 COPTIC CAPITAL LETTER OLD COPTIC AIN": 
+    {
+        "prefix": [
+            "..U.2CB4",
+            "..U.COPTIC CAPITAL LETTER OLD COPTIC AIN",
+            "U+2CB4",
+        ],
+        "body": [
+            "${1|Ⲵ,&#x2CB4;,U+2CB4,0x2CB4,COPTIC CAPITAL LETTER OLD COPTIC AIN|}$2",
+        ],
+        "description": [
+            "Code: U+2CB4",
+            "Character/Symbol: Ⲵ",
+            "Name: COPTIC CAPITAL LETTER OLD COPTIC AIN",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲵ U+2CB5 COPTIC SMALL LETTER OLD COPTIC AIN": 
+    {
+        "prefix": [
+            "..U.2CB5",
+            "..U.COPTIC SMALL LETTER OLD COPTIC AIN",
+            "U+2CB5",
+        ],
+        "body": [
+            "${1|ⲵ,&#x2CB5;,U+2CB5,0x2CB5,COPTIC SMALL LETTER OLD COPTIC AIN|}$2",
+        ],
+        "description": [
+            "Code: U+2CB5",
+            "Character/Symbol: ⲵ",
+            "Name: COPTIC SMALL LETTER OLD COPTIC AIN",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲷ U+2CB6 COPTIC CAPITAL LETTER CRYPTOGRAMMIC EIE": 
+    {
+        "prefix": [
+            "..U.2CB6",
+            "..U.COPTIC CAPITAL LETTER CRYPTOGRAMMIC EIE",
+            "U+2CB6",
+        ],
+        "body": [
+            "${1|Ⲷ,&#x2CB6;,U+2CB6,0x2CB6,COPTIC CAPITAL LETTER CRYPTOGRAMMIC EIE|}$2",
+        ],
+        "description": [
+            "Code: U+2CB6",
+            "Character/Symbol: Ⲷ",
+            "Name: COPTIC CAPITAL LETTER CRYPTOGRAMMIC EIE",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲷ U+2CB7 COPTIC SMALL LETTER CRYPTOGRAMMIC EIE": 
+    {
+        "prefix": [
+            "..U.2CB7",
+            "..U.COPTIC SMALL LETTER CRYPTOGRAMMIC EIE",
+            "U+2CB7",
+        ],
+        "body": [
+            "${1|ⲷ,&#x2CB7;,U+2CB7,0x2CB7,COPTIC SMALL LETTER CRYPTOGRAMMIC EIE|}$2",
+        ],
+        "description": [
+            "Code: U+2CB7",
+            "Character/Symbol: ⲷ",
+            "Name: COPTIC SMALL LETTER CRYPTOGRAMMIC EIE",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲹ U+2CB8 COPTIC CAPITAL LETTER DIALECT-P KAPA": 
+    {
+        "prefix": [
+            "..U.2CB8",
+            "..U.COPTIC CAPITAL LETTER DIALECT-P KAPA",
+            "U+2CB8",
+        ],
+        "body": [
+            "${1|Ⲹ,&#x2CB8;,U+2CB8,0x2CB8,COPTIC CAPITAL LETTER DIALECT-P KAPA|}$2",
+        ],
+        "description": [
+            "Code: U+2CB8",
+            "Character/Symbol: Ⲹ",
+            "Name: COPTIC CAPITAL LETTER DIALECT-P KAPA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲹ U+2CB9 COPTIC SMALL LETTER DIALECT-P KAPA": 
+    {
+        "prefix": [
+            "..U.2CB9",
+            "..U.COPTIC SMALL LETTER DIALECT-P KAPA",
+            "U+2CB9",
+        ],
+        "body": [
+            "${1|ⲹ,&#x2CB9;,U+2CB9,0x2CB9,COPTIC SMALL LETTER DIALECT-P KAPA|}$2",
+        ],
+        "description": [
+            "Code: U+2CB9",
+            "Character/Symbol: ⲹ",
+            "Name: COPTIC SMALL LETTER DIALECT-P KAPA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲻ U+2CBA COPTIC CAPITAL LETTER DIALECT-P NI": 
+    {
+        "prefix": [
+            "..U.2CBA",
+            "..U.COPTIC CAPITAL LETTER DIALECT-P NI",
+            "U+2CBA",
+        ],
+        "body": [
+            "${1|Ⲻ,&#x2CBA;,U+2CBA,0x2CBA,COPTIC CAPITAL LETTER DIALECT-P NI|}$2",
+        ],
+        "description": [
+            "Code: U+2CBA",
+            "Character/Symbol: Ⲻ",
+            "Name: COPTIC CAPITAL LETTER DIALECT-P NI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲻ U+2CBB COPTIC SMALL LETTER DIALECT-P NI": 
+    {
+        "prefix": [
+            "..U.2CBB",
+            "..U.COPTIC SMALL LETTER DIALECT-P NI",
+            "U+2CBB",
+        ],
+        "body": [
+            "${1|ⲻ,&#x2CBB;,U+2CBB,0x2CBB,COPTIC SMALL LETTER DIALECT-P NI|}$2",
+        ],
+        "description": [
+            "Code: U+2CBB",
+            "Character/Symbol: ⲻ",
+            "Name: COPTIC SMALL LETTER DIALECT-P NI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲽ U+2CBC COPTIC CAPITAL LETTER CRYPTOGRAMMIC NI": 
+    {
+        "prefix": [
+            "..U.2CBC",
+            "..U.COPTIC CAPITAL LETTER CRYPTOGRAMMIC NI",
+            "U+2CBC",
+        ],
+        "body": [
+            "${1|Ⲽ,&#x2CBC;,U+2CBC,0x2CBC,COPTIC CAPITAL LETTER CRYPTOGRAMMIC NI|}$2",
+        ],
+        "description": [
+            "Code: U+2CBC",
+            "Character/Symbol: Ⲽ",
+            "Name: COPTIC CAPITAL LETTER CRYPTOGRAMMIC NI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲽ U+2CBD COPTIC SMALL LETTER CRYPTOGRAMMIC NI": 
+    {
+        "prefix": [
+            "..U.2CBD",
+            "..U.COPTIC SMALL LETTER CRYPTOGRAMMIC NI",
+            "U+2CBD",
+        ],
+        "body": [
+            "${1|ⲽ,&#x2CBD;,U+2CBD,0x2CBD,COPTIC SMALL LETTER CRYPTOGRAMMIC NI|}$2",
+        ],
+        "description": [
+            "Code: U+2CBD",
+            "Character/Symbol: ⲽ",
+            "Name: COPTIC SMALL LETTER CRYPTOGRAMMIC NI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⲿ U+2CBE COPTIC CAPITAL LETTER OLD COPTIC OOU": 
+    {
+        "prefix": [
+            "..U.2CBE",
+            "..U.COPTIC CAPITAL LETTER OLD COPTIC OOU",
+            "U+2CBE",
+        ],
+        "body": [
+            "${1|Ⲿ,&#x2CBE;,U+2CBE,0x2CBE,COPTIC CAPITAL LETTER OLD COPTIC OOU|}$2",
+        ],
+        "description": [
+            "Code: U+2CBE",
+            "Character/Symbol: Ⲿ",
+            "Name: COPTIC CAPITAL LETTER OLD COPTIC OOU",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⲿ U+2CBF COPTIC SMALL LETTER OLD COPTIC OOU": 
+    {
+        "prefix": [
+            "..U.2CBF",
+            "..U.COPTIC SMALL LETTER OLD COPTIC OOU",
+            "U+2CBF",
+        ],
+        "body": [
+            "${1|ⲿ,&#x2CBF;,U+2CBF,0x2CBF,COPTIC SMALL LETTER OLD COPTIC OOU|}$2",
+        ],
+        "description": [
+            "Code: U+2CBF",
+            "Character/Symbol: ⲿ",
+            "Name: COPTIC SMALL LETTER OLD COPTIC OOU",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳁ U+2CC0 COPTIC CAPITAL LETTER SAMPI": 
+    {
+        "prefix": [
+            "..U.2CC0",
+            "..U.COPTIC CAPITAL LETTER SAMPI",
+            "U+2CC0",
+        ],
+        "body": [
+            "${1|Ⳁ,&#x2CC0;,U+2CC0,0x2CC0,COPTIC CAPITAL LETTER SAMPI|}$2",
+        ],
+        "description": [
+            "Code: U+2CC0",
+            "Character/Symbol: Ⳁ",
+            "Name: COPTIC CAPITAL LETTER SAMPI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳁ U+2CC1 COPTIC SMALL LETTER SAMPI": 
+    {
+        "prefix": [
+            "..U.2CC1",
+            "..U.COPTIC SMALL LETTER SAMPI",
+            "U+2CC1",
+        ],
+        "body": [
+            "${1|ⳁ,&#x2CC1;,U+2CC1,0x2CC1,COPTIC SMALL LETTER SAMPI|}$2",
+        ],
+        "description": [
+            "Code: U+2CC1",
+            "Character/Symbol: ⳁ",
+            "Name: COPTIC SMALL LETTER SAMPI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳃ U+2CC2 COPTIC CAPITAL LETTER CROSSED SHEI": 
+    {
+        "prefix": [
+            "..U.2CC2",
+            "..U.COPTIC CAPITAL LETTER CROSSED SHEI",
+            "U+2CC2",
+        ],
+        "body": [
+            "${1|Ⳃ,&#x2CC2;,U+2CC2,0x2CC2,COPTIC CAPITAL LETTER CROSSED SHEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CC2",
+            "Character/Symbol: Ⳃ",
+            "Name: COPTIC CAPITAL LETTER CROSSED SHEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳃ U+2CC3 COPTIC SMALL LETTER CROSSED SHEI": 
+    {
+        "prefix": [
+            "..U.2CC3",
+            "..U.COPTIC SMALL LETTER CROSSED SHEI",
+            "U+2CC3",
+        ],
+        "body": [
+            "${1|ⳃ,&#x2CC3;,U+2CC3,0x2CC3,COPTIC SMALL LETTER CROSSED SHEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CC3",
+            "Character/Symbol: ⳃ",
+            "Name: COPTIC SMALL LETTER CROSSED SHEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳅ U+2CC4 COPTIC CAPITAL LETTER OLD COPTIC SHEI": 
+    {
+        "prefix": [
+            "..U.2CC4",
+            "..U.COPTIC CAPITAL LETTER OLD COPTIC SHEI",
+            "U+2CC4",
+        ],
+        "body": [
+            "${1|Ⳅ,&#x2CC4;,U+2CC4,0x2CC4,COPTIC CAPITAL LETTER OLD COPTIC SHEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CC4",
+            "Character/Symbol: Ⳅ",
+            "Name: COPTIC CAPITAL LETTER OLD COPTIC SHEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳅ U+2CC5 COPTIC SMALL LETTER OLD COPTIC SHEI": 
+    {
+        "prefix": [
+            "..U.2CC5",
+            "..U.COPTIC SMALL LETTER OLD COPTIC SHEI",
+            "U+2CC5",
+        ],
+        "body": [
+            "${1|ⳅ,&#x2CC5;,U+2CC5,0x2CC5,COPTIC SMALL LETTER OLD COPTIC SHEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CC5",
+            "Character/Symbol: ⳅ",
+            "Name: COPTIC SMALL LETTER OLD COPTIC SHEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳇ U+2CC6 COPTIC CAPITAL LETTER OLD COPTIC ESH": 
+    {
+        "prefix": [
+            "..U.2CC6",
+            "..U.COPTIC CAPITAL LETTER OLD COPTIC ESH",
+            "U+2CC6",
+        ],
+        "body": [
+            "${1|Ⳇ,&#x2CC6;,U+2CC6,0x2CC6,COPTIC CAPITAL LETTER OLD COPTIC ESH|}$2",
+        ],
+        "description": [
+            "Code: U+2CC6",
+            "Character/Symbol: Ⳇ",
+            "Name: COPTIC CAPITAL LETTER OLD COPTIC ESH",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳇ U+2CC7 COPTIC SMALL LETTER OLD COPTIC ESH": 
+    {
+        "prefix": [
+            "..U.2CC7",
+            "..U.COPTIC SMALL LETTER OLD COPTIC ESH",
+            "U+2CC7",
+        ],
+        "body": [
+            "${1|ⳇ,&#x2CC7;,U+2CC7,0x2CC7,COPTIC SMALL LETTER OLD COPTIC ESH|}$2",
+        ],
+        "description": [
+            "Code: U+2CC7",
+            "Character/Symbol: ⳇ",
+            "Name: COPTIC SMALL LETTER OLD COPTIC ESH",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳉ U+2CC8 COPTIC CAPITAL LETTER AKHMIMIC KHEI": 
+    {
+        "prefix": [
+            "..U.2CC8",
+            "..U.COPTIC CAPITAL LETTER AKHMIMIC KHEI",
+            "U+2CC8",
+        ],
+        "body": [
+            "${1|Ⳉ,&#x2CC8;,U+2CC8,0x2CC8,COPTIC CAPITAL LETTER AKHMIMIC KHEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CC8",
+            "Character/Symbol: Ⳉ",
+            "Name: COPTIC CAPITAL LETTER AKHMIMIC KHEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳉ U+2CC9 COPTIC SMALL LETTER AKHMIMIC KHEI": 
+    {
+        "prefix": [
+            "..U.2CC9",
+            "..U.COPTIC SMALL LETTER AKHMIMIC KHEI",
+            "U+2CC9",
+        ],
+        "body": [
+            "${1|ⳉ,&#x2CC9;,U+2CC9,0x2CC9,COPTIC SMALL LETTER AKHMIMIC KHEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CC9",
+            "Character/Symbol: ⳉ",
+            "Name: COPTIC SMALL LETTER AKHMIMIC KHEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳋ U+2CCA COPTIC CAPITAL LETTER DIALECT-P HORI": 
+    {
+        "prefix": [
+            "..U.2CCA",
+            "..U.COPTIC CAPITAL LETTER DIALECT-P HORI",
+            "U+2CCA",
+        ],
+        "body": [
+            "${1|Ⳋ,&#x2CCA;,U+2CCA,0x2CCA,COPTIC CAPITAL LETTER DIALECT-P HORI|}$2",
+        ],
+        "description": [
+            "Code: U+2CCA",
+            "Character/Symbol: Ⳋ",
+            "Name: COPTIC CAPITAL LETTER DIALECT-P HORI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳋ U+2CCB COPTIC SMALL LETTER DIALECT-P HORI": 
+    {
+        "prefix": [
+            "..U.2CCB",
+            "..U.COPTIC SMALL LETTER DIALECT-P HORI",
+            "U+2CCB",
+        ],
+        "body": [
+            "${1|ⳋ,&#x2CCB;,U+2CCB,0x2CCB,COPTIC SMALL LETTER DIALECT-P HORI|}$2",
+        ],
+        "description": [
+            "Code: U+2CCB",
+            "Character/Symbol: ⳋ",
+            "Name: COPTIC SMALL LETTER DIALECT-P HORI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳍ U+2CCC COPTIC CAPITAL LETTER OLD COPTIC HORI": 
+    {
+        "prefix": [
+            "..U.2CCC",
+            "..U.COPTIC CAPITAL LETTER OLD COPTIC HORI",
+            "U+2CCC",
+        ],
+        "body": [
+            "${1|Ⳍ,&#x2CCC;,U+2CCC,0x2CCC,COPTIC CAPITAL LETTER OLD COPTIC HORI|}$2",
+        ],
+        "description": [
+            "Code: U+2CCC",
+            "Character/Symbol: Ⳍ",
+            "Name: COPTIC CAPITAL LETTER OLD COPTIC HORI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳍ U+2CCD COPTIC SMALL LETTER OLD COPTIC HORI": 
+    {
+        "prefix": [
+            "..U.2CCD",
+            "..U.COPTIC SMALL LETTER OLD COPTIC HORI",
+            "U+2CCD",
+        ],
+        "body": [
+            "${1|ⳍ,&#x2CCD;,U+2CCD,0x2CCD,COPTIC SMALL LETTER OLD COPTIC HORI|}$2",
+        ],
+        "description": [
+            "Code: U+2CCD",
+            "Character/Symbol: ⳍ",
+            "Name: COPTIC SMALL LETTER OLD COPTIC HORI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳏ U+2CCE COPTIC CAPITAL LETTER OLD COPTIC HA": 
+    {
+        "prefix": [
+            "..U.2CCE",
+            "..U.COPTIC CAPITAL LETTER OLD COPTIC HA",
+            "U+2CCE",
+        ],
+        "body": [
+            "${1|Ⳏ,&#x2CCE;,U+2CCE,0x2CCE,COPTIC CAPITAL LETTER OLD COPTIC HA|}$2",
+        ],
+        "description": [
+            "Code: U+2CCE",
+            "Character/Symbol: Ⳏ",
+            "Name: COPTIC CAPITAL LETTER OLD COPTIC HA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳏ U+2CCF COPTIC SMALL LETTER OLD COPTIC HA": 
+    {
+        "prefix": [
+            "..U.2CCF",
+            "..U.COPTIC SMALL LETTER OLD COPTIC HA",
+            "U+2CCF",
+        ],
+        "body": [
+            "${1|ⳏ,&#x2CCF;,U+2CCF,0x2CCF,COPTIC SMALL LETTER OLD COPTIC HA|}$2",
+        ],
+        "description": [
+            "Code: U+2CCF",
+            "Character/Symbol: ⳏ",
+            "Name: COPTIC SMALL LETTER OLD COPTIC HA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳑ U+2CD0 COPTIC CAPITAL LETTER L-SHAPED HA": 
+    {
+        "prefix": [
+            "..U.2CD0",
+            "..U.COPTIC CAPITAL LETTER L-SHAPED HA",
+            "U+2CD0",
+        ],
+        "body": [
+            "${1|Ⳑ,&#x2CD0;,U+2CD0,0x2CD0,COPTIC CAPITAL LETTER L-SHAPED HA|}$2",
+        ],
+        "description": [
+            "Code: U+2CD0",
+            "Character/Symbol: Ⳑ",
+            "Name: COPTIC CAPITAL LETTER L-SHAPED HA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳑ U+2CD1 COPTIC SMALL LETTER L-SHAPED HA": 
+    {
+        "prefix": [
+            "..U.2CD1",
+            "..U.COPTIC SMALL LETTER L-SHAPED HA",
+            "U+2CD1",
+        ],
+        "body": [
+            "${1|ⳑ,&#x2CD1;,U+2CD1,0x2CD1,COPTIC SMALL LETTER L-SHAPED HA|}$2",
+        ],
+        "description": [
+            "Code: U+2CD1",
+            "Character/Symbol: ⳑ",
+            "Name: COPTIC SMALL LETTER L-SHAPED HA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳓ U+2CD2 COPTIC CAPITAL LETTER OLD COPTIC HEI": 
+    {
+        "prefix": [
+            "..U.2CD2",
+            "..U.COPTIC CAPITAL LETTER OLD COPTIC HEI",
+            "U+2CD2",
+        ],
+        "body": [
+            "${1|Ⳓ,&#x2CD2;,U+2CD2,0x2CD2,COPTIC CAPITAL LETTER OLD COPTIC HEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CD2",
+            "Character/Symbol: Ⳓ",
+            "Name: COPTIC CAPITAL LETTER OLD COPTIC HEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳓ U+2CD3 COPTIC SMALL LETTER OLD COPTIC HEI": 
+    {
+        "prefix": [
+            "..U.2CD3",
+            "..U.COPTIC SMALL LETTER OLD COPTIC HEI",
+            "U+2CD3",
+        ],
+        "body": [
+            "${1|ⳓ,&#x2CD3;,U+2CD3,0x2CD3,COPTIC SMALL LETTER OLD COPTIC HEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CD3",
+            "Character/Symbol: ⳓ",
+            "Name: COPTIC SMALL LETTER OLD COPTIC HEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳕ U+2CD4 COPTIC CAPITAL LETTER OLD COPTIC HAT": 
+    {
+        "prefix": [
+            "..U.2CD4",
+            "..U.COPTIC CAPITAL LETTER OLD COPTIC HAT",
+            "U+2CD4",
+        ],
+        "body": [
+            "${1|Ⳕ,&#x2CD4;,U+2CD4,0x2CD4,COPTIC CAPITAL LETTER OLD COPTIC HAT|}$2",
+        ],
+        "description": [
+            "Code: U+2CD4",
+            "Character/Symbol: Ⳕ",
+            "Name: COPTIC CAPITAL LETTER OLD COPTIC HAT",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳕ U+2CD5 COPTIC SMALL LETTER OLD COPTIC HAT": 
+    {
+        "prefix": [
+            "..U.2CD5",
+            "..U.COPTIC SMALL LETTER OLD COPTIC HAT",
+            "U+2CD5",
+        ],
+        "body": [
+            "${1|ⳕ,&#x2CD5;,U+2CD5,0x2CD5,COPTIC SMALL LETTER OLD COPTIC HAT|}$2",
+        ],
+        "description": [
+            "Code: U+2CD5",
+            "Character/Symbol: ⳕ",
+            "Name: COPTIC SMALL LETTER OLD COPTIC HAT",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳗ U+2CD6 COPTIC CAPITAL LETTER OLD COPTIC GANGIA": 
+    {
+        "prefix": [
+            "..U.2CD6",
+            "..U.COPTIC CAPITAL LETTER OLD COPTIC GANGIA",
+            "U+2CD6",
+        ],
+        "body": [
+            "${1|Ⳗ,&#x2CD6;,U+2CD6,0x2CD6,COPTIC CAPITAL LETTER OLD COPTIC GANGIA|}$2",
+        ],
+        "description": [
+            "Code: U+2CD6",
+            "Character/Symbol: Ⳗ",
+            "Name: COPTIC CAPITAL LETTER OLD COPTIC GANGIA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳗ U+2CD7 COPTIC SMALL LETTER OLD COPTIC GANGIA": 
+    {
+        "prefix": [
+            "..U.2CD7",
+            "..U.COPTIC SMALL LETTER OLD COPTIC GANGIA",
+            "U+2CD7",
+        ],
+        "body": [
+            "${1|ⳗ,&#x2CD7;,U+2CD7,0x2CD7,COPTIC SMALL LETTER OLD COPTIC GANGIA|}$2",
+        ],
+        "description": [
+            "Code: U+2CD7",
+            "Character/Symbol: ⳗ",
+            "Name: COPTIC SMALL LETTER OLD COPTIC GANGIA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳙ U+2CD8 COPTIC CAPITAL LETTER OLD COPTIC DJA": 
+    {
+        "prefix": [
+            "..U.2CD8",
+            "..U.COPTIC CAPITAL LETTER OLD COPTIC DJA",
+            "U+2CD8",
+        ],
+        "body": [
+            "${1|Ⳙ,&#x2CD8;,U+2CD8,0x2CD8,COPTIC CAPITAL LETTER OLD COPTIC DJA|}$2",
+        ],
+        "description": [
+            "Code: U+2CD8",
+            "Character/Symbol: Ⳙ",
+            "Name: COPTIC CAPITAL LETTER OLD COPTIC DJA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳙ U+2CD9 COPTIC SMALL LETTER OLD COPTIC DJA": 
+    {
+        "prefix": [
+            "..U.2CD9",
+            "..U.COPTIC SMALL LETTER OLD COPTIC DJA",
+            "U+2CD9",
+        ],
+        "body": [
+            "${1|ⳙ,&#x2CD9;,U+2CD9,0x2CD9,COPTIC SMALL LETTER OLD COPTIC DJA|}$2",
+        ],
+        "description": [
+            "Code: U+2CD9",
+            "Character/Symbol: ⳙ",
+            "Name: COPTIC SMALL LETTER OLD COPTIC DJA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳛ U+2CDA COPTIC CAPITAL LETTER OLD COPTIC SHIMA": 
+    {
+        "prefix": [
+            "..U.2CDA",
+            "..U.COPTIC CAPITAL LETTER OLD COPTIC SHIMA",
+            "U+2CDA",
+        ],
+        "body": [
+            "${1|Ⳛ,&#x2CDA;,U+2CDA,0x2CDA,COPTIC CAPITAL LETTER OLD COPTIC SHIMA|}$2",
+        ],
+        "description": [
+            "Code: U+2CDA",
+            "Character/Symbol: Ⳛ",
+            "Name: COPTIC CAPITAL LETTER OLD COPTIC SHIMA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳛ U+2CDB COPTIC SMALL LETTER OLD COPTIC SHIMA": 
+    {
+        "prefix": [
+            "..U.2CDB",
+            "..U.COPTIC SMALL LETTER OLD COPTIC SHIMA",
+            "U+2CDB",
+        ],
+        "body": [
+            "${1|ⳛ,&#x2CDB;,U+2CDB,0x2CDB,COPTIC SMALL LETTER OLD COPTIC SHIMA|}$2",
+        ],
+        "description": [
+            "Code: U+2CDB",
+            "Character/Symbol: ⳛ",
+            "Name: COPTIC SMALL LETTER OLD COPTIC SHIMA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳝ U+2CDC COPTIC CAPITAL LETTER OLD NUBIAN SHIMA": 
+    {
+        "prefix": [
+            "..U.2CDC",
+            "..U.COPTIC CAPITAL LETTER OLD NUBIAN SHIMA",
+            "U+2CDC",
+        ],
+        "body": [
+            "${1|Ⳝ,&#x2CDC;,U+2CDC,0x2CDC,COPTIC CAPITAL LETTER OLD NUBIAN SHIMA|}$2",
+        ],
+        "description": [
+            "Code: U+2CDC",
+            "Character/Symbol: Ⳝ",
+            "Name: COPTIC CAPITAL LETTER OLD NUBIAN SHIMA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳝ U+2CDD COPTIC SMALL LETTER OLD NUBIAN SHIMA": 
+    {
+        "prefix": [
+            "..U.2CDD",
+            "..U.COPTIC SMALL LETTER OLD NUBIAN SHIMA",
+            "U+2CDD",
+        ],
+        "body": [
+            "${1|ⳝ,&#x2CDD;,U+2CDD,0x2CDD,COPTIC SMALL LETTER OLD NUBIAN SHIMA|}$2",
+        ],
+        "description": [
+            "Code: U+2CDD",
+            "Character/Symbol: ⳝ",
+            "Name: COPTIC SMALL LETTER OLD NUBIAN SHIMA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳟ U+2CDE COPTIC CAPITAL LETTER OLD NUBIAN NGI": 
+    {
+        "prefix": [
+            "..U.2CDE",
+            "..U.COPTIC CAPITAL LETTER OLD NUBIAN NGI",
+            "U+2CDE",
+        ],
+        "body": [
+            "${1|Ⳟ,&#x2CDE;,U+2CDE,0x2CDE,COPTIC CAPITAL LETTER OLD NUBIAN NGI|}$2",
+        ],
+        "description": [
+            "Code: U+2CDE",
+            "Character/Symbol: Ⳟ",
+            "Name: COPTIC CAPITAL LETTER OLD NUBIAN NGI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳟ U+2CDF COPTIC SMALL LETTER OLD NUBIAN NGI": 
+    {
+        "prefix": [
+            "..U.2CDF",
+            "..U.COPTIC SMALL LETTER OLD NUBIAN NGI",
+            "U+2CDF",
+        ],
+        "body": [
+            "${1|ⳟ,&#x2CDF;,U+2CDF,0x2CDF,COPTIC SMALL LETTER OLD NUBIAN NGI|}$2",
+        ],
+        "description": [
+            "Code: U+2CDF",
+            "Character/Symbol: ⳟ",
+            "Name: COPTIC SMALL LETTER OLD NUBIAN NGI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳡ U+2CE0 COPTIC CAPITAL LETTER OLD NUBIAN NYI": 
+    {
+        "prefix": [
+            "..U.2CE0",
+            "..U.COPTIC CAPITAL LETTER OLD NUBIAN NYI",
+            "U+2CE0",
+        ],
+        "body": [
+            "${1|Ⳡ,&#x2CE0;,U+2CE0,0x2CE0,COPTIC CAPITAL LETTER OLD NUBIAN NYI|}$2",
+        ],
+        "description": [
+            "Code: U+2CE0",
+            "Character/Symbol: Ⳡ",
+            "Name: COPTIC CAPITAL LETTER OLD NUBIAN NYI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳡ U+2CE1 COPTIC SMALL LETTER OLD NUBIAN NYI": 
+    {
+        "prefix": [
+            "..U.2CE1",
+            "..U.COPTIC SMALL LETTER OLD NUBIAN NYI",
+            "U+2CE1",
+        ],
+        "body": [
+            "${1|ⳡ,&#x2CE1;,U+2CE1,0x2CE1,COPTIC SMALL LETTER OLD NUBIAN NYI|}$2",
+        ],
+        "description": [
+            "Code: U+2CE1",
+            "Character/Symbol: ⳡ",
+            "Name: COPTIC SMALL LETTER OLD NUBIAN NYI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳣ U+2CE2 COPTIC CAPITAL LETTER OLD NUBIAN WAU": 
+    {
+        "prefix": [
+            "..U.2CE2",
+            "..U.COPTIC CAPITAL LETTER OLD NUBIAN WAU",
+            "U+2CE2",
+        ],
+        "body": [
+            "${1|Ⳣ,&#x2CE2;,U+2CE2,0x2CE2,COPTIC CAPITAL LETTER OLD NUBIAN WAU|}$2",
+        ],
+        "description": [
+            "Code: U+2CE2",
+            "Character/Symbol: Ⳣ",
+            "Name: COPTIC CAPITAL LETTER OLD NUBIAN WAU",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳣ U+2CE3 COPTIC SMALL LETTER OLD NUBIAN WAU": 
+    {
+        "prefix": [
+            "..U.2CE3",
+            "..U.COPTIC SMALL LETTER OLD NUBIAN WAU",
+            "U+2CE3",
+        ],
+        "body": [
+            "${1|ⳣ,&#x2CE3;,U+2CE3,0x2CE3,COPTIC SMALL LETTER OLD NUBIAN WAU|}$2",
+        ],
+        "description": [
+            "Code: U+2CE3",
+            "Character/Symbol: ⳣ",
+            "Name: COPTIC SMALL LETTER OLD NUBIAN WAU",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳤ U+2CE4 COPTIC SYMBOL KAI": 
+    {
+        "prefix": [
+            "..U.2CE4",
+            "..U.COPTIC SYMBOL KAI",
+            "U+2CE4",
+        ],
+        "body": [
+            "${1|ⳤ,&#x2CE4;,U+2CE4,0x2CE4,COPTIC SYMBOL KAI|}$2",
+        ],
+        "description": [
+            "Code: U+2CE4",
+            "Character/Symbol: ⳤ",
+            "Name: COPTIC SYMBOL KAI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳥ U+2CE5 COPTIC SYMBOL MI RO": 
+    {
+        "prefix": [
+            "..U.2CE5",
+            "..U.COPTIC SYMBOL MI RO",
+            "U+2CE5",
+        ],
+        "body": [
+            "${1|⳥,&#x2CE5;,U+2CE5,0x2CE5,COPTIC SYMBOL MI RO|}$2",
+        ],
+        "description": [
+            "Code: U+2CE5",
+            "Character/Symbol: ⳥",
+            "Name: COPTIC SYMBOL MI RO",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳦ U+2CE6 COPTIC SYMBOL PI RO": 
+    {
+        "prefix": [
+            "..U.2CE6",
+            "..U.COPTIC SYMBOL PI RO",
+            "U+2CE6",
+        ],
+        "body": [
+            "${1|⳦,&#x2CE6;,U+2CE6,0x2CE6,COPTIC SYMBOL PI RO|}$2",
+        ],
+        "description": [
+            "Code: U+2CE6",
+            "Character/Symbol: ⳦",
+            "Name: COPTIC SYMBOL PI RO",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳧ U+2CE7 COPTIC SYMBOL STAUROS": 
+    {
+        "prefix": [
+            "..U.2CE7",
+            "..U.COPTIC SYMBOL STAUROS",
+            "U+2CE7",
+        ],
+        "body": [
+            "${1|⳧,&#x2CE7;,U+2CE7,0x2CE7,COPTIC SYMBOL STAUROS|}$2",
+        ],
+        "description": [
+            "Code: U+2CE7",
+            "Character/Symbol: ⳧",
+            "Name: COPTIC SYMBOL STAUROS",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳨ U+2CE8 COPTIC SYMBOL TAU RO": 
+    {
+        "prefix": [
+            "..U.2CE8",
+            "..U.COPTIC SYMBOL TAU RO",
+            "U+2CE8",
+        ],
+        "body": [
+            "${1|⳨,&#x2CE8;,U+2CE8,0x2CE8,COPTIC SYMBOL TAU RO|}$2",
+        ],
+        "description": [
+            "Code: U+2CE8",
+            "Character/Symbol: ⳨",
+            "Name: COPTIC SYMBOL TAU RO",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳩ U+2CE9 COPTIC SYMBOL KHI RO": 
+    {
+        "prefix": [
+            "..U.2CE9",
+            "..U.COPTIC SYMBOL KHI RO",
+            "U+2CE9",
+        ],
+        "body": [
+            "${1|⳩,&#x2CE9;,U+2CE9,0x2CE9,COPTIC SYMBOL KHI RO|}$2",
+        ],
+        "description": [
+            "Code: U+2CE9",
+            "Character/Symbol: ⳩",
+            "Name: COPTIC SYMBOL KHI RO",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳪ U+2CEA COPTIC SYMBOL SHIMA SIMA": 
+    {
+        "prefix": [
+            "..U.2CEA",
+            "..U.COPTIC SYMBOL SHIMA SIMA",
+            "U+2CEA",
+        ],
+        "body": [
+            "${1|⳪,&#x2CEA;,U+2CEA,0x2CEA,COPTIC SYMBOL SHIMA SIMA|}$2",
+        ],
+        "description": [
+            "Code: U+2CEA",
+            "Character/Symbol: ⳪",
+            "Name: COPTIC SYMBOL SHIMA SIMA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳬ U+2CEB COPTIC CAPITAL LETTER CRYPTOGRAMMIC SHEI": 
+    {
+        "prefix": [
+            "..U.2CEB",
+            "..U.COPTIC CAPITAL LETTER CRYPTOGRAMMIC SHEI",
+            "U+2CEB",
+        ],
+        "body": [
+            "${1|Ⳬ,&#x2CEB;,U+2CEB,0x2CEB,COPTIC CAPITAL LETTER CRYPTOGRAMMIC SHEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CEB",
+            "Character/Symbol: Ⳬ",
+            "Name: COPTIC CAPITAL LETTER CRYPTOGRAMMIC SHEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳬ U+2CEC COPTIC SMALL LETTER CRYPTOGRAMMIC SHEI": 
+    {
+        "prefix": [
+            "..U.2CEC",
+            "..U.COPTIC SMALL LETTER CRYPTOGRAMMIC SHEI",
+            "U+2CEC",
+        ],
+        "body": [
+            "${1|ⳬ,&#x2CEC;,U+2CEC,0x2CEC,COPTIC SMALL LETTER CRYPTOGRAMMIC SHEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CEC",
+            "Character/Symbol: ⳬ",
+            "Name: COPTIC SMALL LETTER CRYPTOGRAMMIC SHEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳮ U+2CED COPTIC CAPITAL LETTER CRYPTOGRAMMIC GANGIA": 
+    {
+        "prefix": [
+            "..U.2CED",
+            "..U.COPTIC CAPITAL LETTER CRYPTOGRAMMIC GANGIA",
+            "U+2CED",
+        ],
+        "body": [
+            "${1|Ⳮ,&#x2CED;,U+2CED,0x2CED,COPTIC CAPITAL LETTER CRYPTOGRAMMIC GANGIA|}$2",
+        ],
+        "description": [
+            "Code: U+2CED",
+            "Character/Symbol: Ⳮ",
+            "Name: COPTIC CAPITAL LETTER CRYPTOGRAMMIC GANGIA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳮ U+2CEE COPTIC SMALL LETTER CRYPTOGRAMMIC GANGIA": 
+    {
+        "prefix": [
+            "..U.2CEE",
+            "..U.COPTIC SMALL LETTER CRYPTOGRAMMIC GANGIA",
+            "U+2CEE",
+        ],
+        "body": [
+            "${1|ⳮ,&#x2CEE;,U+2CEE,0x2CEE,COPTIC SMALL LETTER CRYPTOGRAMMIC GANGIA|}$2",
+        ],
+        "description": [
+            "Code: U+2CEE",
+            "Character/Symbol: ⳮ",
+            "Name: COPTIC SMALL LETTER CRYPTOGRAMMIC GANGIA",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳯ U+2CEF COPTIC COMBINING NI ABOVE": 
+    {
+        "prefix": [
+            "..U.2CEF",
+            "..U.COPTIC COMBINING NI ABOVE",
+            "U+2CEF",
+        ],
+        "body": [
+            "${1|⳯,&#x2CEF;,U+2CEF,0x2CEF,COPTIC COMBINING NI ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+2CEF",
+            "Character/Symbol: ⳯",
+            "Name: COPTIC COMBINING NI ABOVE",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳰ U+2CF0 COPTIC COMBINING SPIRITUS ASPER": 
+    {
+        "prefix": [
+            "..U.2CF0",
+            "..U.COPTIC COMBINING SPIRITUS ASPER",
+            "U+2CF0",
+        ],
+        "body": [
+            "${1|⳰,&#x2CF0;,U+2CF0,0x2CF0,COPTIC COMBINING SPIRITUS ASPER|}$2",
+        ],
+        "description": [
+            "Code: U+2CF0",
+            "Character/Symbol: ⳰",
+            "Name: COPTIC COMBINING SPIRITUS ASPER",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳱ U+2CF1 COPTIC COMBINING SPIRITUS LENIS": 
+    {
+        "prefix": [
+            "..U.2CF1",
+            "..U.COPTIC COMBINING SPIRITUS LENIS",
+            "U+2CF1",
+        ],
+        "body": [
+            "${1|⳱,&#x2CF1;,U+2CF1,0x2CF1,COPTIC COMBINING SPIRITUS LENIS|}$2",
+        ],
+        "description": [
+            "Code: U+2CF1",
+            "Character/Symbol: ⳱",
+            "Name: COPTIC COMBINING SPIRITUS LENIS",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode Ⳳ U+2CF2 COPTIC CAPITAL LETTER BOHAIRIC KHEI": 
+    {
+        "prefix": [
+            "..U.2CF2",
+            "..U.COPTIC CAPITAL LETTER BOHAIRIC KHEI",
+            "U+2CF2",
+        ],
+        "body": [
+            "${1|Ⳳ,&#x2CF2;,U+2CF2,0x2CF2,COPTIC CAPITAL LETTER BOHAIRIC KHEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CF2",
+            "Character/Symbol: Ⳳ",
+            "Name: COPTIC CAPITAL LETTER BOHAIRIC KHEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳳ U+2CF3 COPTIC SMALL LETTER BOHAIRIC KHEI": 
+    {
+        "prefix": [
+            "..U.2CF3",
+            "..U.COPTIC SMALL LETTER BOHAIRIC KHEI",
+            "U+2CF3",
+        ],
+        "body": [
+            "${1|ⳳ,&#x2CF3;,U+2CF3,0x2CF3,COPTIC SMALL LETTER BOHAIRIC KHEI|}$2",
+        ],
+        "description": [
+            "Code: U+2CF3",
+            "Character/Symbol: ⳳ",
+            "Name: COPTIC SMALL LETTER BOHAIRIC KHEI",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳹ U+2CF9 COPTIC OLD NUBIAN FULL STOP": 
+    {
+        "prefix": [
+            "..U.2CF9",
+            "..U.COPTIC OLD NUBIAN FULL STOP",
+            "U+2CF9",
+        ],
+        "body": [
+            "${1|⳹,&#x2CF9;,U+2CF9,0x2CF9,COPTIC OLD NUBIAN FULL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+2CF9",
+            "Character/Symbol: ⳹",
+            "Name: COPTIC OLD NUBIAN FULL STOP",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳺ U+2CFA COPTIC OLD NUBIAN DIRECT QUESTION MARK": 
+    {
+        "prefix": [
+            "..U.2CFA",
+            "..U.COPTIC OLD NUBIAN DIRECT QUESTION MARK",
+            "U+2CFA",
+        ],
+        "body": [
+            "${1|⳺,&#x2CFA;,U+2CFA,0x2CFA,COPTIC OLD NUBIAN DIRECT QUESTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2CFA",
+            "Character/Symbol: ⳺",
+            "Name: COPTIC OLD NUBIAN DIRECT QUESTION MARK",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳻ U+2CFB COPTIC OLD NUBIAN INDIRECT QUESTION MARK": 
+    {
+        "prefix": [
+            "..U.2CFB",
+            "..U.COPTIC OLD NUBIAN INDIRECT QUESTION MARK",
+            "U+2CFB",
+        ],
+        "body": [
+            "${1|⳻,&#x2CFB;,U+2CFB,0x2CFB,COPTIC OLD NUBIAN INDIRECT QUESTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2CFB",
+            "Character/Symbol: ⳻",
+            "Name: COPTIC OLD NUBIAN INDIRECT QUESTION MARK",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳼ U+2CFC COPTIC OLD NUBIAN VERSE DIVIDER": 
+    {
+        "prefix": [
+            "..U.2CFC",
+            "..U.COPTIC OLD NUBIAN VERSE DIVIDER",
+            "U+2CFC",
+        ],
+        "body": [
+            "${1|⳼,&#x2CFC;,U+2CFC,0x2CFC,COPTIC OLD NUBIAN VERSE DIVIDER|}$2",
+        ],
+        "description": [
+            "Code: U+2CFC",
+            "Character/Symbol: ⳼",
+            "Name: COPTIC OLD NUBIAN VERSE DIVIDER",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳽ U+2CFD COPTIC FRACTION ONE HALF": 
+    {
+        "prefix": [
+            "..U.2CFD",
+            "..U.COPTIC FRACTION ONE HALF",
+            "U+2CFD",
+        ],
+        "body": [
+            "${1|⳽,&#x2CFD;,U+2CFD,0x2CFD,COPTIC FRACTION ONE HALF|}$2",
+        ],
+        "description": [
+            "Code: U+2CFD",
+            "Character/Symbol: ⳽",
+            "Name: COPTIC FRACTION ONE HALF",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳾ U+2CFE COPTIC FULL STOP": 
+    {
+        "prefix": [
+            "..U.2CFE",
+            "..U.COPTIC FULL STOP",
+            "U+2CFE",
+        ],
+        "body": [
+            "${1|⳾,&#x2CFE;,U+2CFE,0x2CFE,COPTIC FULL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+2CFE",
+            "Character/Symbol: ⳾",
+            "Name: COPTIC FULL STOP",
+            "Group/Block: Coptic",
+        ],
+    },
+
+    "Unicode ⳿ U+2CFF COPTIC MORPHOLOGICAL DIVIDER": 
+    {
+        "prefix": [
+            "..U.2CFF",
+            "..U.COPTIC MORPHOLOGICAL DIVIDER",
+            "U+2CFF",
+        ],
+        "body": [
+            "${1|⳿,&#x2CFF;,U+2CFF,0x2CFF,COPTIC MORPHOLOGICAL DIVIDER|}$2",
+        ],
+        "description": [
+            "Code: U+2CFF",
+            "Character/Symbol: ⳿",
+            "Name: COPTIC MORPHOLOGICAL DIVIDER",
+            "Group/Block: Coptic",
+        ],
+    },
+
+}

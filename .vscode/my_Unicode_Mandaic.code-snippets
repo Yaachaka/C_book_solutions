@@ -1,0 +1,524 @@
+{
+    "Unicode ࡀ U+0840 MANDAIC LETTER HALQA": 
+    {
+        "prefix": [
+            "..U.0840",
+            "..U.MANDAIC LETTER HALQA",
+            "U+0840",
+        ],
+        "body": [
+            "${1|ࡀ,&#x0840;,U+0840,0x0840,MANDAIC LETTER HALQA|}$2",
+        ],
+        "description": [
+            "Code: U+0840",
+            "Character/Symbol: ࡀ",
+            "Name: MANDAIC LETTER HALQA",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡁ U+0841 MANDAIC LETTER AB": 
+    {
+        "prefix": [
+            "..U.0841",
+            "..U.MANDAIC LETTER AB",
+            "U+0841",
+        ],
+        "body": [
+            "${1|ࡁ,&#x0841;,U+0841,0x0841,MANDAIC LETTER AB|}$2",
+        ],
+        "description": [
+            "Code: U+0841",
+            "Character/Symbol: ࡁ",
+            "Name: MANDAIC LETTER AB",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡂ U+0842 MANDAIC LETTER AG": 
+    {
+        "prefix": [
+            "..U.0842",
+            "..U.MANDAIC LETTER AG",
+            "U+0842",
+        ],
+        "body": [
+            "${1|ࡂ,&#x0842;,U+0842,0x0842,MANDAIC LETTER AG|}$2",
+        ],
+        "description": [
+            "Code: U+0842",
+            "Character/Symbol: ࡂ",
+            "Name: MANDAIC LETTER AG",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡃ U+0843 MANDAIC LETTER AD": 
+    {
+        "prefix": [
+            "..U.0843",
+            "..U.MANDAIC LETTER AD",
+            "U+0843",
+        ],
+        "body": [
+            "${1|ࡃ,&#x0843;,U+0843,0x0843,MANDAIC LETTER AD|}$2",
+        ],
+        "description": [
+            "Code: U+0843",
+            "Character/Symbol: ࡃ",
+            "Name: MANDAIC LETTER AD",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡄ U+0844 MANDAIC LETTER AH": 
+    {
+        "prefix": [
+            "..U.0844",
+            "..U.MANDAIC LETTER AH",
+            "U+0844",
+        ],
+        "body": [
+            "${1|ࡄ,&#x0844;,U+0844,0x0844,MANDAIC LETTER AH|}$2",
+        ],
+        "description": [
+            "Code: U+0844",
+            "Character/Symbol: ࡄ",
+            "Name: MANDAIC LETTER AH",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡅ U+0845 MANDAIC LETTER USHENNA": 
+    {
+        "prefix": [
+            "..U.0845",
+            "..U.MANDAIC LETTER USHENNA",
+            "U+0845",
+        ],
+        "body": [
+            "${1|ࡅ,&#x0845;,U+0845,0x0845,MANDAIC LETTER USHENNA|}$2",
+        ],
+        "description": [
+            "Code: U+0845",
+            "Character/Symbol: ࡅ",
+            "Name: MANDAIC LETTER USHENNA",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡆ U+0846 MANDAIC LETTER AZ": 
+    {
+        "prefix": [
+            "..U.0846",
+            "..U.MANDAIC LETTER AZ",
+            "U+0846",
+        ],
+        "body": [
+            "${1|ࡆ,&#x0846;,U+0846,0x0846,MANDAIC LETTER AZ|}$2",
+        ],
+        "description": [
+            "Code: U+0846",
+            "Character/Symbol: ࡆ",
+            "Name: MANDAIC LETTER AZ",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡇ U+0847 MANDAIC LETTER IT": 
+    {
+        "prefix": [
+            "..U.0847",
+            "..U.MANDAIC LETTER IT",
+            "U+0847",
+        ],
+        "body": [
+            "${1|ࡇ,&#x0847;,U+0847,0x0847,MANDAIC LETTER IT|}$2",
+        ],
+        "description": [
+            "Code: U+0847",
+            "Character/Symbol: ࡇ",
+            "Name: MANDAIC LETTER IT",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡈ U+0848 MANDAIC LETTER ATT": 
+    {
+        "prefix": [
+            "..U.0848",
+            "..U.MANDAIC LETTER ATT",
+            "U+0848",
+        ],
+        "body": [
+            "${1|ࡈ,&#x0848;,U+0848,0x0848,MANDAIC LETTER ATT|}$2",
+        ],
+        "description": [
+            "Code: U+0848",
+            "Character/Symbol: ࡈ",
+            "Name: MANDAIC LETTER ATT",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡉ U+0849 MANDAIC LETTER AKSA": 
+    {
+        "prefix": [
+            "..U.0849",
+            "..U.MANDAIC LETTER AKSA",
+            "U+0849",
+        ],
+        "body": [
+            "${1|ࡉ,&#x0849;,U+0849,0x0849,MANDAIC LETTER AKSA|}$2",
+        ],
+        "description": [
+            "Code: U+0849",
+            "Character/Symbol: ࡉ",
+            "Name: MANDAIC LETTER AKSA",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡊ U+084A MANDAIC LETTER AK": 
+    {
+        "prefix": [
+            "..U.084A",
+            "..U.MANDAIC LETTER AK",
+            "U+084A",
+        ],
+        "body": [
+            "${1|ࡊ,&#x084A;,U+084A,0x084A,MANDAIC LETTER AK|}$2",
+        ],
+        "description": [
+            "Code: U+084A",
+            "Character/Symbol: ࡊ",
+            "Name: MANDAIC LETTER AK",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡋ U+084B MANDAIC LETTER AL": 
+    {
+        "prefix": [
+            "..U.084B",
+            "..U.MANDAIC LETTER AL",
+            "U+084B",
+        ],
+        "body": [
+            "${1|ࡋ,&#x084B;,U+084B,0x084B,MANDAIC LETTER AL|}$2",
+        ],
+        "description": [
+            "Code: U+084B",
+            "Character/Symbol: ࡋ",
+            "Name: MANDAIC LETTER AL",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡌ U+084C MANDAIC LETTER AM": 
+    {
+        "prefix": [
+            "..U.084C",
+            "..U.MANDAIC LETTER AM",
+            "U+084C",
+        ],
+        "body": [
+            "${1|ࡌ,&#x084C;,U+084C,0x084C,MANDAIC LETTER AM|}$2",
+        ],
+        "description": [
+            "Code: U+084C",
+            "Character/Symbol: ࡌ",
+            "Name: MANDAIC LETTER AM",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡍ U+084D MANDAIC LETTER AN": 
+    {
+        "prefix": [
+            "..U.084D",
+            "..U.MANDAIC LETTER AN",
+            "U+084D",
+        ],
+        "body": [
+            "${1|ࡍ,&#x084D;,U+084D,0x084D,MANDAIC LETTER AN|}$2",
+        ],
+        "description": [
+            "Code: U+084D",
+            "Character/Symbol: ࡍ",
+            "Name: MANDAIC LETTER AN",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡎ U+084E MANDAIC LETTER AS": 
+    {
+        "prefix": [
+            "..U.084E",
+            "..U.MANDAIC LETTER AS",
+            "U+084E",
+        ],
+        "body": [
+            "${1|ࡎ,&#x084E;,U+084E,0x084E,MANDAIC LETTER AS|}$2",
+        ],
+        "description": [
+            "Code: U+084E",
+            "Character/Symbol: ࡎ",
+            "Name: MANDAIC LETTER AS",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡏ U+084F MANDAIC LETTER IN": 
+    {
+        "prefix": [
+            "..U.084F",
+            "..U.MANDAIC LETTER IN",
+            "U+084F",
+        ],
+        "body": [
+            "${1|ࡏ,&#x084F;,U+084F,0x084F,MANDAIC LETTER IN|}$2",
+        ],
+        "description": [
+            "Code: U+084F",
+            "Character/Symbol: ࡏ",
+            "Name: MANDAIC LETTER IN",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡐ U+0850 MANDAIC LETTER AP": 
+    {
+        "prefix": [
+            "..U.0850",
+            "..U.MANDAIC LETTER AP",
+            "U+0850",
+        ],
+        "body": [
+            "${1|ࡐ,&#x0850;,U+0850,0x0850,MANDAIC LETTER AP|}$2",
+        ],
+        "description": [
+            "Code: U+0850",
+            "Character/Symbol: ࡐ",
+            "Name: MANDAIC LETTER AP",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡑ U+0851 MANDAIC LETTER ASZ": 
+    {
+        "prefix": [
+            "..U.0851",
+            "..U.MANDAIC LETTER ASZ",
+            "U+0851",
+        ],
+        "body": [
+            "${1|ࡑ,&#x0851;,U+0851,0x0851,MANDAIC LETTER ASZ|}$2",
+        ],
+        "description": [
+            "Code: U+0851",
+            "Character/Symbol: ࡑ",
+            "Name: MANDAIC LETTER ASZ",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡒ U+0852 MANDAIC LETTER AQ": 
+    {
+        "prefix": [
+            "..U.0852",
+            "..U.MANDAIC LETTER AQ",
+            "U+0852",
+        ],
+        "body": [
+            "${1|ࡒ,&#x0852;,U+0852,0x0852,MANDAIC LETTER AQ|}$2",
+        ],
+        "description": [
+            "Code: U+0852",
+            "Character/Symbol: ࡒ",
+            "Name: MANDAIC LETTER AQ",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡓ U+0853 MANDAIC LETTER AR": 
+    {
+        "prefix": [
+            "..U.0853",
+            "..U.MANDAIC LETTER AR",
+            "U+0853",
+        ],
+        "body": [
+            "${1|ࡓ,&#x0853;,U+0853,0x0853,MANDAIC LETTER AR|}$2",
+        ],
+        "description": [
+            "Code: U+0853",
+            "Character/Symbol: ࡓ",
+            "Name: MANDAIC LETTER AR",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡔ U+0854 MANDAIC LETTER ASH": 
+    {
+        "prefix": [
+            "..U.0854",
+            "..U.MANDAIC LETTER ASH",
+            "U+0854",
+        ],
+        "body": [
+            "${1|ࡔ,&#x0854;,U+0854,0x0854,MANDAIC LETTER ASH|}$2",
+        ],
+        "description": [
+            "Code: U+0854",
+            "Character/Symbol: ࡔ",
+            "Name: MANDAIC LETTER ASH",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡕ U+0855 MANDAIC LETTER AT": 
+    {
+        "prefix": [
+            "..U.0855",
+            "..U.MANDAIC LETTER AT",
+            "U+0855",
+        ],
+        "body": [
+            "${1|ࡕ,&#x0855;,U+0855,0x0855,MANDAIC LETTER AT|}$2",
+        ],
+        "description": [
+            "Code: U+0855",
+            "Character/Symbol: ࡕ",
+            "Name: MANDAIC LETTER AT",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡖ U+0856 MANDAIC LETTER DUSHENNA": 
+    {
+        "prefix": [
+            "..U.0856",
+            "..U.MANDAIC LETTER DUSHENNA",
+            "U+0856",
+        ],
+        "body": [
+            "${1|ࡖ,&#x0856;,U+0856,0x0856,MANDAIC LETTER DUSHENNA|}$2",
+        ],
+        "description": [
+            "Code: U+0856",
+            "Character/Symbol: ࡖ",
+            "Name: MANDAIC LETTER DUSHENNA",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡗ U+0857 MANDAIC LETTER KAD": 
+    {
+        "prefix": [
+            "..U.0857",
+            "..U.MANDAIC LETTER KAD",
+            "U+0857",
+        ],
+        "body": [
+            "${1|ࡗ,&#x0857;,U+0857,0x0857,MANDAIC LETTER KAD|}$2",
+        ],
+        "description": [
+            "Code: U+0857",
+            "Character/Symbol: ࡗ",
+            "Name: MANDAIC LETTER KAD",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡘ U+0858 MANDAIC LETTER AIN": 
+    {
+        "prefix": [
+            "..U.0858",
+            "..U.MANDAIC LETTER AIN",
+            "U+0858",
+        ],
+        "body": [
+            "${1|ࡘ,&#x0858;,U+0858,0x0858,MANDAIC LETTER AIN|}$2",
+        ],
+        "description": [
+            "Code: U+0858",
+            "Character/Symbol: ࡘ",
+            "Name: MANDAIC LETTER AIN",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡙ U+0859 MANDAIC AFFRICATION MARK": 
+    {
+        "prefix": [
+            "..U.0859",
+            "..U.MANDAIC AFFRICATION MARK",
+            "U+0859",
+        ],
+        "body": [
+            "${1|࡙,&#x0859;,U+0859,0x0859,MANDAIC AFFRICATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+0859",
+            "Character/Symbol: ࡙",
+            "Name: MANDAIC AFFRICATION MARK",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡚ U+085A MANDAIC VOCALIZATION MARK": 
+    {
+        "prefix": [
+            "..U.085A",
+            "..U.MANDAIC VOCALIZATION MARK",
+            "U+085A",
+        ],
+        "body": [
+            "${1|࡚,&#x085A;,U+085A,0x085A,MANDAIC VOCALIZATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+085A",
+            "Character/Symbol: ࡚",
+            "Name: MANDAIC VOCALIZATION MARK",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡛ U+085B MANDAIC GEMINATION MARK": 
+    {
+        "prefix": [
+            "..U.085B",
+            "..U.MANDAIC GEMINATION MARK",
+            "U+085B",
+        ],
+        "body": [
+            "${1|࡛,&#x085B;,U+085B,0x085B,MANDAIC GEMINATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+085B",
+            "Character/Symbol: ࡛",
+            "Name: MANDAIC GEMINATION MARK",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+    "Unicode ࡞ U+085E MANDAIC PUNCTUATION": 
+    {
+        "prefix": [
+            "..U.085E",
+            "..U.MANDAIC PUNCTUATION",
+            "U+085E",
+        ],
+        "body": [
+            "${1|࡞,&#x085E;,U+085E,0x085E,MANDAIC PUNCTUATION|}$2",
+        ],
+        "description": [
+            "Code: U+085E",
+            "Character/Symbol: ࡞",
+            "Name: MANDAIC PUNCTUATION",
+            "Group/Block: Mandaic",
+        ],
+    },
+
+}

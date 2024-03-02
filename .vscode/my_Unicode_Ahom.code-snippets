@@ -1,0 +1,1172 @@
+{
+    "Unicode 𑜀 U+11700 AHOM LETTER KA": 
+    {
+        "prefix": [
+            "..U.11700",
+            "..U.AHOM LETTER KA",
+            "U+11700",
+        ],
+        "body": [
+            "${1|𑜀,&#x11700;,U+11700,0x11700,AHOM LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+11700",
+            "Character/Symbol: 𑜀",
+            "Name: AHOM LETTER KA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜁 U+11701 AHOM LETTER KHA": 
+    {
+        "prefix": [
+            "..U.11701",
+            "..U.AHOM LETTER KHA",
+            "U+11701",
+        ],
+        "body": [
+            "${1|𑜁,&#x11701;,U+11701,0x11701,AHOM LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+11701",
+            "Character/Symbol: 𑜁",
+            "Name: AHOM LETTER KHA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜂 U+11702 AHOM LETTER NGA": 
+    {
+        "prefix": [
+            "..U.11702",
+            "..U.AHOM LETTER NGA",
+            "U+11702",
+        ],
+        "body": [
+            "${1|𑜂,&#x11702;,U+11702,0x11702,AHOM LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+11702",
+            "Character/Symbol: 𑜂",
+            "Name: AHOM LETTER NGA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜃 U+11703 AHOM LETTER NA": 
+    {
+        "prefix": [
+            "..U.11703",
+            "..U.AHOM LETTER NA",
+            "U+11703",
+        ],
+        "body": [
+            "${1|𑜃,&#x11703;,U+11703,0x11703,AHOM LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+11703",
+            "Character/Symbol: 𑜃",
+            "Name: AHOM LETTER NA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜄 U+11704 AHOM LETTER TA": 
+    {
+        "prefix": [
+            "..U.11704",
+            "..U.AHOM LETTER TA",
+            "U+11704",
+        ],
+        "body": [
+            "${1|𑜄,&#x11704;,U+11704,0x11704,AHOM LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+11704",
+            "Character/Symbol: 𑜄",
+            "Name: AHOM LETTER TA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜅 U+11705 AHOM LETTER ALTERNATE TA": 
+    {
+        "prefix": [
+            "..U.11705",
+            "..U.AHOM LETTER ALTERNATE TA",
+            "U+11705",
+        ],
+        "body": [
+            "${1|𑜅,&#x11705;,U+11705,0x11705,AHOM LETTER ALTERNATE TA|}$2",
+        ],
+        "description": [
+            "Code: U+11705",
+            "Character/Symbol: 𑜅",
+            "Name: AHOM LETTER ALTERNATE TA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜆 U+11706 AHOM LETTER PA": 
+    {
+        "prefix": [
+            "..U.11706",
+            "..U.AHOM LETTER PA",
+            "U+11706",
+        ],
+        "body": [
+            "${1|𑜆,&#x11706;,U+11706,0x11706,AHOM LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+11706",
+            "Character/Symbol: 𑜆",
+            "Name: AHOM LETTER PA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜇 U+11707 AHOM LETTER PHA": 
+    {
+        "prefix": [
+            "..U.11707",
+            "..U.AHOM LETTER PHA",
+            "U+11707",
+        ],
+        "body": [
+            "${1|𑜇,&#x11707;,U+11707,0x11707,AHOM LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+11707",
+            "Character/Symbol: 𑜇",
+            "Name: AHOM LETTER PHA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜈 U+11708 AHOM LETTER BA": 
+    {
+        "prefix": [
+            "..U.11708",
+            "..U.AHOM LETTER BA",
+            "U+11708",
+        ],
+        "body": [
+            "${1|𑜈,&#x11708;,U+11708,0x11708,AHOM LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+11708",
+            "Character/Symbol: 𑜈",
+            "Name: AHOM LETTER BA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜉 U+11709 AHOM LETTER MA": 
+    {
+        "prefix": [
+            "..U.11709",
+            "..U.AHOM LETTER MA",
+            "U+11709",
+        ],
+        "body": [
+            "${1|𑜉,&#x11709;,U+11709,0x11709,AHOM LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+11709",
+            "Character/Symbol: 𑜉",
+            "Name: AHOM LETTER MA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜊 U+1170A AHOM LETTER JA": 
+    {
+        "prefix": [
+            "..U.1170A",
+            "..U.AHOM LETTER JA",
+            "U+1170A",
+        ],
+        "body": [
+            "${1|𑜊,&#x1170A;,U+1170A,0x1170A,AHOM LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+1170A",
+            "Character/Symbol: 𑜊",
+            "Name: AHOM LETTER JA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜋 U+1170B AHOM LETTER CHA": 
+    {
+        "prefix": [
+            "..U.1170B",
+            "..U.AHOM LETTER CHA",
+            "U+1170B",
+        ],
+        "body": [
+            "${1|𑜋,&#x1170B;,U+1170B,0x1170B,AHOM LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+1170B",
+            "Character/Symbol: 𑜋",
+            "Name: AHOM LETTER CHA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜌 U+1170C AHOM LETTER THA": 
+    {
+        "prefix": [
+            "..U.1170C",
+            "..U.AHOM LETTER THA",
+            "U+1170C",
+        ],
+        "body": [
+            "${1|𑜌,&#x1170C;,U+1170C,0x1170C,AHOM LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+1170C",
+            "Character/Symbol: 𑜌",
+            "Name: AHOM LETTER THA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜍 U+1170D AHOM LETTER RA": 
+    {
+        "prefix": [
+            "..U.1170D",
+            "..U.AHOM LETTER RA",
+            "U+1170D",
+        ],
+        "body": [
+            "${1|𑜍,&#x1170D;,U+1170D,0x1170D,AHOM LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+1170D",
+            "Character/Symbol: 𑜍",
+            "Name: AHOM LETTER RA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜎 U+1170E AHOM LETTER LA": 
+    {
+        "prefix": [
+            "..U.1170E",
+            "..U.AHOM LETTER LA",
+            "U+1170E",
+        ],
+        "body": [
+            "${1|𑜎,&#x1170E;,U+1170E,0x1170E,AHOM LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+1170E",
+            "Character/Symbol: 𑜎",
+            "Name: AHOM LETTER LA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜏 U+1170F AHOM LETTER SA": 
+    {
+        "prefix": [
+            "..U.1170F",
+            "..U.AHOM LETTER SA",
+            "U+1170F",
+        ],
+        "body": [
+            "${1|𑜏,&#x1170F;,U+1170F,0x1170F,AHOM LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+1170F",
+            "Character/Symbol: 𑜏",
+            "Name: AHOM LETTER SA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜐 U+11710 AHOM LETTER NYA": 
+    {
+        "prefix": [
+            "..U.11710",
+            "..U.AHOM LETTER NYA",
+            "U+11710",
+        ],
+        "body": [
+            "${1|𑜐,&#x11710;,U+11710,0x11710,AHOM LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+11710",
+            "Character/Symbol: 𑜐",
+            "Name: AHOM LETTER NYA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜑 U+11711 AHOM LETTER HA": 
+    {
+        "prefix": [
+            "..U.11711",
+            "..U.AHOM LETTER HA",
+            "U+11711",
+        ],
+        "body": [
+            "${1|𑜑,&#x11711;,U+11711,0x11711,AHOM LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+11711",
+            "Character/Symbol: 𑜑",
+            "Name: AHOM LETTER HA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜒 U+11712 AHOM LETTER A": 
+    {
+        "prefix": [
+            "..U.11712",
+            "..U.AHOM LETTER A",
+            "U+11712",
+        ],
+        "body": [
+            "${1|𑜒,&#x11712;,U+11712,0x11712,AHOM LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+11712",
+            "Character/Symbol: 𑜒",
+            "Name: AHOM LETTER A",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜓 U+11713 AHOM LETTER DA": 
+    {
+        "prefix": [
+            "..U.11713",
+            "..U.AHOM LETTER DA",
+            "U+11713",
+        ],
+        "body": [
+            "${1|𑜓,&#x11713;,U+11713,0x11713,AHOM LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+11713",
+            "Character/Symbol: 𑜓",
+            "Name: AHOM LETTER DA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜔 U+11714 AHOM LETTER DHA": 
+    {
+        "prefix": [
+            "..U.11714",
+            "..U.AHOM LETTER DHA",
+            "U+11714",
+        ],
+        "body": [
+            "${1|𑜔,&#x11714;,U+11714,0x11714,AHOM LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+11714",
+            "Character/Symbol: 𑜔",
+            "Name: AHOM LETTER DHA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜕 U+11715 AHOM LETTER GA": 
+    {
+        "prefix": [
+            "..U.11715",
+            "..U.AHOM LETTER GA",
+            "U+11715",
+        ],
+        "body": [
+            "${1|𑜕,&#x11715;,U+11715,0x11715,AHOM LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+11715",
+            "Character/Symbol: 𑜕",
+            "Name: AHOM LETTER GA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜖 U+11716 AHOM LETTER ALTERNATE GA": 
+    {
+        "prefix": [
+            "..U.11716",
+            "..U.AHOM LETTER ALTERNATE GA",
+            "U+11716",
+        ],
+        "body": [
+            "${1|𑜖,&#x11716;,U+11716,0x11716,AHOM LETTER ALTERNATE GA|}$2",
+        ],
+        "description": [
+            "Code: U+11716",
+            "Character/Symbol: 𑜖",
+            "Name: AHOM LETTER ALTERNATE GA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜗 U+11717 AHOM LETTER GHA": 
+    {
+        "prefix": [
+            "..U.11717",
+            "..U.AHOM LETTER GHA",
+            "U+11717",
+        ],
+        "body": [
+            "${1|𑜗,&#x11717;,U+11717,0x11717,AHOM LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+11717",
+            "Character/Symbol: 𑜗",
+            "Name: AHOM LETTER GHA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜘 U+11718 AHOM LETTER BHA": 
+    {
+        "prefix": [
+            "..U.11718",
+            "..U.AHOM LETTER BHA",
+            "U+11718",
+        ],
+        "body": [
+            "${1|𑜘,&#x11718;,U+11718,0x11718,AHOM LETTER BHA|}$2",
+        ],
+        "description": [
+            "Code: U+11718",
+            "Character/Symbol: 𑜘",
+            "Name: AHOM LETTER BHA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜙 U+11719 AHOM LETTER JHA": 
+    {
+        "prefix": [
+            "..U.11719",
+            "..U.AHOM LETTER JHA",
+            "U+11719",
+        ],
+        "body": [
+            "${1|𑜙,&#x11719;,U+11719,0x11719,AHOM LETTER JHA|}$2",
+        ],
+        "description": [
+            "Code: U+11719",
+            "Character/Symbol: 𑜙",
+            "Name: AHOM LETTER JHA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜚 U+1171A AHOM LETTER ALTERNATE BA": 
+    {
+        "prefix": [
+            "..U.1171A",
+            "..U.AHOM LETTER ALTERNATE BA",
+            "U+1171A",
+        ],
+        "body": [
+            "${1|𑜚,&#x1171A;,U+1171A,0x1171A,AHOM LETTER ALTERNATE BA|}$2",
+        ],
+        "description": [
+            "Code: U+1171A",
+            "Character/Symbol: 𑜚",
+            "Name: AHOM LETTER ALTERNATE BA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜝 U+1171D AHOM CONSONANT SIGN MEDIAL LA": 
+    {
+        "prefix": [
+            "..U.1171D",
+            "..U.AHOM CONSONANT SIGN MEDIAL LA",
+            "U+1171D",
+        ],
+        "body": [
+            "${1|𑜝,&#x1171D;,U+1171D,0x1171D,AHOM CONSONANT SIGN MEDIAL LA|}$2",
+        ],
+        "description": [
+            "Code: U+1171D",
+            "Character/Symbol: 𑜝",
+            "Name: AHOM CONSONANT SIGN MEDIAL LA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜞 U+1171E AHOM CONSONANT SIGN MEDIAL RA": 
+    {
+        "prefix": [
+            "..U.1171E",
+            "..U.AHOM CONSONANT SIGN MEDIAL RA",
+            "U+1171E",
+        ],
+        "body": [
+            "${1|𑜞,&#x1171E;,U+1171E,0x1171E,AHOM CONSONANT SIGN MEDIAL RA|}$2",
+        ],
+        "description": [
+            "Code: U+1171E",
+            "Character/Symbol: 𑜞",
+            "Name: AHOM CONSONANT SIGN MEDIAL RA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜟 U+1171F AHOM CONSONANT SIGN MEDIAL LIGATING RA": 
+    {
+        "prefix": [
+            "..U.1171F",
+            "..U.AHOM CONSONANT SIGN MEDIAL LIGATING RA",
+            "U+1171F",
+        ],
+        "body": [
+            "${1|𑜟,&#x1171F;,U+1171F,0x1171F,AHOM CONSONANT SIGN MEDIAL LIGATING RA|}$2",
+        ],
+        "description": [
+            "Code: U+1171F",
+            "Character/Symbol: 𑜟",
+            "Name: AHOM CONSONANT SIGN MEDIAL LIGATING RA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜠 U+11720 AHOM VOWEL SIGN A": 
+    {
+        "prefix": [
+            "..U.11720",
+            "..U.AHOM VOWEL SIGN A",
+            "U+11720",
+        ],
+        "body": [
+            "${1|𑜠,&#x11720;,U+11720,0x11720,AHOM VOWEL SIGN A|}$2",
+        ],
+        "description": [
+            "Code: U+11720",
+            "Character/Symbol: 𑜠",
+            "Name: AHOM VOWEL SIGN A",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜡 U+11721 AHOM VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.11721",
+            "..U.AHOM VOWEL SIGN AA",
+            "U+11721",
+        ],
+        "body": [
+            "${1|𑜡,&#x11721;,U+11721,0x11721,AHOM VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+11721",
+            "Character/Symbol: 𑜡",
+            "Name: AHOM VOWEL SIGN AA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜢 U+11722 AHOM VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.11722",
+            "..U.AHOM VOWEL SIGN I",
+            "U+11722",
+        ],
+        "body": [
+            "${1|𑜢,&#x11722;,U+11722,0x11722,AHOM VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+11722",
+            "Character/Symbol: 𑜢",
+            "Name: AHOM VOWEL SIGN I",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜣 U+11723 AHOM VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.11723",
+            "..U.AHOM VOWEL SIGN II",
+            "U+11723",
+        ],
+        "body": [
+            "${1|𑜣,&#x11723;,U+11723,0x11723,AHOM VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+11723",
+            "Character/Symbol: 𑜣",
+            "Name: AHOM VOWEL SIGN II",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜤 U+11724 AHOM VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.11724",
+            "..U.AHOM VOWEL SIGN U",
+            "U+11724",
+        ],
+        "body": [
+            "${1|𑜤,&#x11724;,U+11724,0x11724,AHOM VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+11724",
+            "Character/Symbol: 𑜤",
+            "Name: AHOM VOWEL SIGN U",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜥 U+11725 AHOM VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.11725",
+            "..U.AHOM VOWEL SIGN UU",
+            "U+11725",
+        ],
+        "body": [
+            "${1|𑜥,&#x11725;,U+11725,0x11725,AHOM VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+11725",
+            "Character/Symbol: 𑜥",
+            "Name: AHOM VOWEL SIGN UU",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜦 U+11726 AHOM VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.11726",
+            "..U.AHOM VOWEL SIGN E",
+            "U+11726",
+        ],
+        "body": [
+            "${1|𑜦,&#x11726;,U+11726,0x11726,AHOM VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+11726",
+            "Character/Symbol: 𑜦",
+            "Name: AHOM VOWEL SIGN E",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜧 U+11727 AHOM VOWEL SIGN AW": 
+    {
+        "prefix": [
+            "..U.11727",
+            "..U.AHOM VOWEL SIGN AW",
+            "U+11727",
+        ],
+        "body": [
+            "${1|𑜧,&#x11727;,U+11727,0x11727,AHOM VOWEL SIGN AW|}$2",
+        ],
+        "description": [
+            "Code: U+11727",
+            "Character/Symbol: 𑜧",
+            "Name: AHOM VOWEL SIGN AW",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜨 U+11728 AHOM VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.11728",
+            "..U.AHOM VOWEL SIGN O",
+            "U+11728",
+        ],
+        "body": [
+            "${1|𑜨,&#x11728;,U+11728,0x11728,AHOM VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+11728",
+            "Character/Symbol: 𑜨",
+            "Name: AHOM VOWEL SIGN O",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜩 U+11729 AHOM VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.11729",
+            "..U.AHOM VOWEL SIGN AI",
+            "U+11729",
+        ],
+        "body": [
+            "${1|𑜩,&#x11729;,U+11729,0x11729,AHOM VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+11729",
+            "Character/Symbol: 𑜩",
+            "Name: AHOM VOWEL SIGN AI",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜪 U+1172A AHOM VOWEL SIGN AM": 
+    {
+        "prefix": [
+            "..U.1172A",
+            "..U.AHOM VOWEL SIGN AM",
+            "U+1172A",
+        ],
+        "body": [
+            "${1|𑜪,&#x1172A;,U+1172A,0x1172A,AHOM VOWEL SIGN AM|}$2",
+        ],
+        "description": [
+            "Code: U+1172A",
+            "Character/Symbol: 𑜪",
+            "Name: AHOM VOWEL SIGN AM",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜫 U+1172B AHOM SIGN KILLER": 
+    {
+        "prefix": [
+            "..U.1172B",
+            "..U.AHOM SIGN KILLER",
+            "U+1172B",
+        ],
+        "body": [
+            "${1|𑜫,&#x1172B;,U+1172B,0x1172B,AHOM SIGN KILLER|}$2",
+        ],
+        "description": [
+            "Code: U+1172B",
+            "Character/Symbol: 𑜫",
+            "Name: AHOM SIGN KILLER",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜰 U+11730 AHOM DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.11730",
+            "..U.AHOM DIGIT ZERO",
+            "U+11730",
+        ],
+        "body": [
+            "${1|𑜰,&#x11730;,U+11730,0x11730,AHOM DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+11730",
+            "Character/Symbol: 𑜰",
+            "Name: AHOM DIGIT ZERO",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜱 U+11731 AHOM DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.11731",
+            "..U.AHOM DIGIT ONE",
+            "U+11731",
+        ],
+        "body": [
+            "${1|𑜱,&#x11731;,U+11731,0x11731,AHOM DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+11731",
+            "Character/Symbol: 𑜱",
+            "Name: AHOM DIGIT ONE",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜲 U+11732 AHOM DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.11732",
+            "..U.AHOM DIGIT TWO",
+            "U+11732",
+        ],
+        "body": [
+            "${1|𑜲,&#x11732;,U+11732,0x11732,AHOM DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+11732",
+            "Character/Symbol: 𑜲",
+            "Name: AHOM DIGIT TWO",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜳 U+11733 AHOM DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.11733",
+            "..U.AHOM DIGIT THREE",
+            "U+11733",
+        ],
+        "body": [
+            "${1|𑜳,&#x11733;,U+11733,0x11733,AHOM DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+11733",
+            "Character/Symbol: 𑜳",
+            "Name: AHOM DIGIT THREE",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜴 U+11734 AHOM DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.11734",
+            "..U.AHOM DIGIT FOUR",
+            "U+11734",
+        ],
+        "body": [
+            "${1|𑜴,&#x11734;,U+11734,0x11734,AHOM DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+11734",
+            "Character/Symbol: 𑜴",
+            "Name: AHOM DIGIT FOUR",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜵 U+11735 AHOM DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.11735",
+            "..U.AHOM DIGIT FIVE",
+            "U+11735",
+        ],
+        "body": [
+            "${1|𑜵,&#x11735;,U+11735,0x11735,AHOM DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+11735",
+            "Character/Symbol: 𑜵",
+            "Name: AHOM DIGIT FIVE",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜶 U+11736 AHOM DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.11736",
+            "..U.AHOM DIGIT SIX",
+            "U+11736",
+        ],
+        "body": [
+            "${1|𑜶,&#x11736;,U+11736,0x11736,AHOM DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+11736",
+            "Character/Symbol: 𑜶",
+            "Name: AHOM DIGIT SIX",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜷 U+11737 AHOM DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.11737",
+            "..U.AHOM DIGIT SEVEN",
+            "U+11737",
+        ],
+        "body": [
+            "${1|𑜷,&#x11737;,U+11737,0x11737,AHOM DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+11737",
+            "Character/Symbol: 𑜷",
+            "Name: AHOM DIGIT SEVEN",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜸 U+11738 AHOM DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.11738",
+            "..U.AHOM DIGIT EIGHT",
+            "U+11738",
+        ],
+        "body": [
+            "${1|𑜸,&#x11738;,U+11738,0x11738,AHOM DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+11738",
+            "Character/Symbol: 𑜸",
+            "Name: AHOM DIGIT EIGHT",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜹 U+11739 AHOM DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.11739",
+            "..U.AHOM DIGIT NINE",
+            "U+11739",
+        ],
+        "body": [
+            "${1|𑜹,&#x11739;,U+11739,0x11739,AHOM DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+11739",
+            "Character/Symbol: 𑜹",
+            "Name: AHOM DIGIT NINE",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜺 U+1173A AHOM NUMBER TEN": 
+    {
+        "prefix": [
+            "..U.1173A",
+            "..U.AHOM NUMBER TEN",
+            "U+1173A",
+        ],
+        "body": [
+            "${1|𑜺,&#x1173A;,U+1173A,0x1173A,AHOM NUMBER TEN|}$2",
+        ],
+        "description": [
+            "Code: U+1173A",
+            "Character/Symbol: 𑜺",
+            "Name: AHOM NUMBER TEN",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜻 U+1173B AHOM NUMBER TWENTY": 
+    {
+        "prefix": [
+            "..U.1173B",
+            "..U.AHOM NUMBER TWENTY",
+            "U+1173B",
+        ],
+        "body": [
+            "${1|𑜻,&#x1173B;,U+1173B,0x1173B,AHOM NUMBER TWENTY|}$2",
+        ],
+        "description": [
+            "Code: U+1173B",
+            "Character/Symbol: 𑜻",
+            "Name: AHOM NUMBER TWENTY",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜼 U+1173C AHOM SIGN SMALL SECTION": 
+    {
+        "prefix": [
+            "..U.1173C",
+            "..U.AHOM SIGN SMALL SECTION",
+            "U+1173C",
+        ],
+        "body": [
+            "${1|𑜼,&#x1173C;,U+1173C,0x1173C,AHOM SIGN SMALL SECTION|}$2",
+        ],
+        "description": [
+            "Code: U+1173C",
+            "Character/Symbol: 𑜼",
+            "Name: AHOM SIGN SMALL SECTION",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜽 U+1173D AHOM SIGN SECTION": 
+    {
+        "prefix": [
+            "..U.1173D",
+            "..U.AHOM SIGN SECTION",
+            "U+1173D",
+        ],
+        "body": [
+            "${1|𑜽,&#x1173D;,U+1173D,0x1173D,AHOM SIGN SECTION|}$2",
+        ],
+        "description": [
+            "Code: U+1173D",
+            "Character/Symbol: 𑜽",
+            "Name: AHOM SIGN SECTION",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜾 U+1173E AHOM SIGN RULAI": 
+    {
+        "prefix": [
+            "..U.1173E",
+            "..U.AHOM SIGN RULAI",
+            "U+1173E",
+        ],
+        "body": [
+            "${1|𑜾,&#x1173E;,U+1173E,0x1173E,AHOM SIGN RULAI|}$2",
+        ],
+        "description": [
+            "Code: U+1173E",
+            "Character/Symbol: 𑜾",
+            "Name: AHOM SIGN RULAI",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑜿 U+1173F AHOM SYMBOL VI": 
+    {
+        "prefix": [
+            "..U.1173F",
+            "..U.AHOM SYMBOL VI",
+            "U+1173F",
+        ],
+        "body": [
+            "${1|𑜿,&#x1173F;,U+1173F,0x1173F,AHOM SYMBOL VI|}$2",
+        ],
+        "description": [
+            "Code: U+1173F",
+            "Character/Symbol: 𑜿",
+            "Name: AHOM SYMBOL VI",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑝀 U+11740 AHOM LETTER CA": 
+    {
+        "prefix": [
+            "..U.11740",
+            "..U.AHOM LETTER CA",
+            "U+11740",
+        ],
+        "body": [
+            "${1|𑝀,&#x11740;,U+11740,0x11740,AHOM LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+11740",
+            "Character/Symbol: 𑝀",
+            "Name: AHOM LETTER CA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑝁 U+11741 AHOM LETTER TTA": 
+    {
+        "prefix": [
+            "..U.11741",
+            "..U.AHOM LETTER TTA",
+            "U+11741",
+        ],
+        "body": [
+            "${1|𑝁,&#x11741;,U+11741,0x11741,AHOM LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+11741",
+            "Character/Symbol: 𑝁",
+            "Name: AHOM LETTER TTA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑝂 U+11742 AHOM LETTER TTHA": 
+    {
+        "prefix": [
+            "..U.11742",
+            "..U.AHOM LETTER TTHA",
+            "U+11742",
+        ],
+        "body": [
+            "${1|𑝂,&#x11742;,U+11742,0x11742,AHOM LETTER TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+11742",
+            "Character/Symbol: 𑝂",
+            "Name: AHOM LETTER TTHA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑝃 U+11743 AHOM LETTER DDA": 
+    {
+        "prefix": [
+            "..U.11743",
+            "..U.AHOM LETTER DDA",
+            "U+11743",
+        ],
+        "body": [
+            "${1|𑝃,&#x11743;,U+11743,0x11743,AHOM LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+11743",
+            "Character/Symbol: 𑝃",
+            "Name: AHOM LETTER DDA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑝄 U+11744 AHOM LETTER DDHA": 
+    {
+        "prefix": [
+            "..U.11744",
+            "..U.AHOM LETTER DDHA",
+            "U+11744",
+        ],
+        "body": [
+            "${1|𑝄,&#x11744;,U+11744,0x11744,AHOM LETTER DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+11744",
+            "Character/Symbol: 𑝄",
+            "Name: AHOM LETTER DDHA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑝅 U+11745 AHOM LETTER NNA": 
+    {
+        "prefix": [
+            "..U.11745",
+            "..U.AHOM LETTER NNA",
+            "U+11745",
+        ],
+        "body": [
+            "${1|𑝅,&#x11745;,U+11745,0x11745,AHOM LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+11745",
+            "Character/Symbol: 𑝅",
+            "Name: AHOM LETTER NNA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+    "Unicode 𑝆 U+11746 AHOM LETTER LLA": 
+    {
+        "prefix": [
+            "..U.11746",
+            "..U.AHOM LETTER LLA",
+            "U+11746",
+        ],
+        "body": [
+            "${1|𑝆,&#x11746;,U+11746,0x11746,AHOM LETTER LLA|}$2",
+        ],
+        "description": [
+            "Code: U+11746",
+            "Character/Symbol: 𑝆",
+            "Name: AHOM LETTER LLA",
+            "Group/Block: Ahom",
+        ],
+    },
+
+}

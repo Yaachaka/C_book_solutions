@@ -1,0 +1,524 @@
+{
+    "Unicode ꥠ U+A960 HANGUL CHOSEONG TIKEUT-MIEUM": 
+    {
+        "prefix": [
+            "..U.A960",
+            "..U.HANGUL CHOSEONG TIKEUT-MIEUM",
+            "U+A960",
+        ],
+        "body": [
+            "${1|ꥠ,&#xA960;,U+A960,0xA960,HANGUL CHOSEONG TIKEUT-MIEUM|}$2",
+        ],
+        "description": [
+            "Code: U+A960",
+            "Character/Symbol: ꥠ",
+            "Name: HANGUL CHOSEONG TIKEUT-MIEUM",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥡ U+A961 HANGUL CHOSEONG TIKEUT-PIEUP": 
+    {
+        "prefix": [
+            "..U.A961",
+            "..U.HANGUL CHOSEONG TIKEUT-PIEUP",
+            "U+A961",
+        ],
+        "body": [
+            "${1|ꥡ,&#xA961;,U+A961,0xA961,HANGUL CHOSEONG TIKEUT-PIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+A961",
+            "Character/Symbol: ꥡ",
+            "Name: HANGUL CHOSEONG TIKEUT-PIEUP",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥢ U+A962 HANGUL CHOSEONG TIKEUT-SIOS": 
+    {
+        "prefix": [
+            "..U.A962",
+            "..U.HANGUL CHOSEONG TIKEUT-SIOS",
+            "U+A962",
+        ],
+        "body": [
+            "${1|ꥢ,&#xA962;,U+A962,0xA962,HANGUL CHOSEONG TIKEUT-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+A962",
+            "Character/Symbol: ꥢ",
+            "Name: HANGUL CHOSEONG TIKEUT-SIOS",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥣ U+A963 HANGUL CHOSEONG TIKEUT-CIEUC": 
+    {
+        "prefix": [
+            "..U.A963",
+            "..U.HANGUL CHOSEONG TIKEUT-CIEUC",
+            "U+A963",
+        ],
+        "body": [
+            "${1|ꥣ,&#xA963;,U+A963,0xA963,HANGUL CHOSEONG TIKEUT-CIEUC|}$2",
+        ],
+        "description": [
+            "Code: U+A963",
+            "Character/Symbol: ꥣ",
+            "Name: HANGUL CHOSEONG TIKEUT-CIEUC",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥤ U+A964 HANGUL CHOSEONG RIEUL-KIYEOK": 
+    {
+        "prefix": [
+            "..U.A964",
+            "..U.HANGUL CHOSEONG RIEUL-KIYEOK",
+            "U+A964",
+        ],
+        "body": [
+            "${1|ꥤ,&#xA964;,U+A964,0xA964,HANGUL CHOSEONG RIEUL-KIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+A964",
+            "Character/Symbol: ꥤ",
+            "Name: HANGUL CHOSEONG RIEUL-KIYEOK",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥥ U+A965 HANGUL CHOSEONG RIEUL-SSANGKIYEOK": 
+    {
+        "prefix": [
+            "..U.A965",
+            "..U.HANGUL CHOSEONG RIEUL-SSANGKIYEOK",
+            "U+A965",
+        ],
+        "body": [
+            "${1|ꥥ,&#xA965;,U+A965,0xA965,HANGUL CHOSEONG RIEUL-SSANGKIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+A965",
+            "Character/Symbol: ꥥ",
+            "Name: HANGUL CHOSEONG RIEUL-SSANGKIYEOK",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥦ U+A966 HANGUL CHOSEONG RIEUL-TIKEUT": 
+    {
+        "prefix": [
+            "..U.A966",
+            "..U.HANGUL CHOSEONG RIEUL-TIKEUT",
+            "U+A966",
+        ],
+        "body": [
+            "${1|ꥦ,&#xA966;,U+A966,0xA966,HANGUL CHOSEONG RIEUL-TIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+A966",
+            "Character/Symbol: ꥦ",
+            "Name: HANGUL CHOSEONG RIEUL-TIKEUT",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥧ U+A967 HANGUL CHOSEONG RIEUL-SSANGTIKEUT": 
+    {
+        "prefix": [
+            "..U.A967",
+            "..U.HANGUL CHOSEONG RIEUL-SSANGTIKEUT",
+            "U+A967",
+        ],
+        "body": [
+            "${1|ꥧ,&#xA967;,U+A967,0xA967,HANGUL CHOSEONG RIEUL-SSANGTIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+A967",
+            "Character/Symbol: ꥧ",
+            "Name: HANGUL CHOSEONG RIEUL-SSANGTIKEUT",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥨ U+A968 HANGUL CHOSEONG RIEUL-MIEUM": 
+    {
+        "prefix": [
+            "..U.A968",
+            "..U.HANGUL CHOSEONG RIEUL-MIEUM",
+            "U+A968",
+        ],
+        "body": [
+            "${1|ꥨ,&#xA968;,U+A968,0xA968,HANGUL CHOSEONG RIEUL-MIEUM|}$2",
+        ],
+        "description": [
+            "Code: U+A968",
+            "Character/Symbol: ꥨ",
+            "Name: HANGUL CHOSEONG RIEUL-MIEUM",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥩ U+A969 HANGUL CHOSEONG RIEUL-PIEUP": 
+    {
+        "prefix": [
+            "..U.A969",
+            "..U.HANGUL CHOSEONG RIEUL-PIEUP",
+            "U+A969",
+        ],
+        "body": [
+            "${1|ꥩ,&#xA969;,U+A969,0xA969,HANGUL CHOSEONG RIEUL-PIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+A969",
+            "Character/Symbol: ꥩ",
+            "Name: HANGUL CHOSEONG RIEUL-PIEUP",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥪ U+A96A HANGUL CHOSEONG RIEUL-SSANGPIEUP": 
+    {
+        "prefix": [
+            "..U.A96A",
+            "..U.HANGUL CHOSEONG RIEUL-SSANGPIEUP",
+            "U+A96A",
+        ],
+        "body": [
+            "${1|ꥪ,&#xA96A;,U+A96A,0xA96A,HANGUL CHOSEONG RIEUL-SSANGPIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+A96A",
+            "Character/Symbol: ꥪ",
+            "Name: HANGUL CHOSEONG RIEUL-SSANGPIEUP",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥫ U+A96B HANGUL CHOSEONG RIEUL-KAPYEOUNPIEUP": 
+    {
+        "prefix": [
+            "..U.A96B",
+            "..U.HANGUL CHOSEONG RIEUL-KAPYEOUNPIEUP",
+            "U+A96B",
+        ],
+        "body": [
+            "${1|ꥫ,&#xA96B;,U+A96B,0xA96B,HANGUL CHOSEONG RIEUL-KAPYEOUNPIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+A96B",
+            "Character/Symbol: ꥫ",
+            "Name: HANGUL CHOSEONG RIEUL-KAPYEOUNPIEUP",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥬ U+A96C HANGUL CHOSEONG RIEUL-SIOS": 
+    {
+        "prefix": [
+            "..U.A96C",
+            "..U.HANGUL CHOSEONG RIEUL-SIOS",
+            "U+A96C",
+        ],
+        "body": [
+            "${1|ꥬ,&#xA96C;,U+A96C,0xA96C,HANGUL CHOSEONG RIEUL-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+A96C",
+            "Character/Symbol: ꥬ",
+            "Name: HANGUL CHOSEONG RIEUL-SIOS",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥭ U+A96D HANGUL CHOSEONG RIEUL-CIEUC": 
+    {
+        "prefix": [
+            "..U.A96D",
+            "..U.HANGUL CHOSEONG RIEUL-CIEUC",
+            "U+A96D",
+        ],
+        "body": [
+            "${1|ꥭ,&#xA96D;,U+A96D,0xA96D,HANGUL CHOSEONG RIEUL-CIEUC|}$2",
+        ],
+        "description": [
+            "Code: U+A96D",
+            "Character/Symbol: ꥭ",
+            "Name: HANGUL CHOSEONG RIEUL-CIEUC",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥮ U+A96E HANGUL CHOSEONG RIEUL-KHIEUKH": 
+    {
+        "prefix": [
+            "..U.A96E",
+            "..U.HANGUL CHOSEONG RIEUL-KHIEUKH",
+            "U+A96E",
+        ],
+        "body": [
+            "${1|ꥮ,&#xA96E;,U+A96E,0xA96E,HANGUL CHOSEONG RIEUL-KHIEUKH|}$2",
+        ],
+        "description": [
+            "Code: U+A96E",
+            "Character/Symbol: ꥮ",
+            "Name: HANGUL CHOSEONG RIEUL-KHIEUKH",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥯ U+A96F HANGUL CHOSEONG MIEUM-KIYEOK": 
+    {
+        "prefix": [
+            "..U.A96F",
+            "..U.HANGUL CHOSEONG MIEUM-KIYEOK",
+            "U+A96F",
+        ],
+        "body": [
+            "${1|ꥯ,&#xA96F;,U+A96F,0xA96F,HANGUL CHOSEONG MIEUM-KIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+A96F",
+            "Character/Symbol: ꥯ",
+            "Name: HANGUL CHOSEONG MIEUM-KIYEOK",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥰ U+A970 HANGUL CHOSEONG MIEUM-TIKEUT": 
+    {
+        "prefix": [
+            "..U.A970",
+            "..U.HANGUL CHOSEONG MIEUM-TIKEUT",
+            "U+A970",
+        ],
+        "body": [
+            "${1|ꥰ,&#xA970;,U+A970,0xA970,HANGUL CHOSEONG MIEUM-TIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+A970",
+            "Character/Symbol: ꥰ",
+            "Name: HANGUL CHOSEONG MIEUM-TIKEUT",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥱ U+A971 HANGUL CHOSEONG MIEUM-SIOS": 
+    {
+        "prefix": [
+            "..U.A971",
+            "..U.HANGUL CHOSEONG MIEUM-SIOS",
+            "U+A971",
+        ],
+        "body": [
+            "${1|ꥱ,&#xA971;,U+A971,0xA971,HANGUL CHOSEONG MIEUM-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+A971",
+            "Character/Symbol: ꥱ",
+            "Name: HANGUL CHOSEONG MIEUM-SIOS",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥲ U+A972 HANGUL CHOSEONG PIEUP-SIOS-THIEUTH": 
+    {
+        "prefix": [
+            "..U.A972",
+            "..U.HANGUL CHOSEONG PIEUP-SIOS-THIEUTH",
+            "U+A972",
+        ],
+        "body": [
+            "${1|ꥲ,&#xA972;,U+A972,0xA972,HANGUL CHOSEONG PIEUP-SIOS-THIEUTH|}$2",
+        ],
+        "description": [
+            "Code: U+A972",
+            "Character/Symbol: ꥲ",
+            "Name: HANGUL CHOSEONG PIEUP-SIOS-THIEUTH",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥳ U+A973 HANGUL CHOSEONG PIEUP-KHIEUKH": 
+    {
+        "prefix": [
+            "..U.A973",
+            "..U.HANGUL CHOSEONG PIEUP-KHIEUKH",
+            "U+A973",
+        ],
+        "body": [
+            "${1|ꥳ,&#xA973;,U+A973,0xA973,HANGUL CHOSEONG PIEUP-KHIEUKH|}$2",
+        ],
+        "description": [
+            "Code: U+A973",
+            "Character/Symbol: ꥳ",
+            "Name: HANGUL CHOSEONG PIEUP-KHIEUKH",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥴ U+A974 HANGUL CHOSEONG PIEUP-HIEUH": 
+    {
+        "prefix": [
+            "..U.A974",
+            "..U.HANGUL CHOSEONG PIEUP-HIEUH",
+            "U+A974",
+        ],
+        "body": [
+            "${1|ꥴ,&#xA974;,U+A974,0xA974,HANGUL CHOSEONG PIEUP-HIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+A974",
+            "Character/Symbol: ꥴ",
+            "Name: HANGUL CHOSEONG PIEUP-HIEUH",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥵ U+A975 HANGUL CHOSEONG SSANGSIOS-PIEUP": 
+    {
+        "prefix": [
+            "..U.A975",
+            "..U.HANGUL CHOSEONG SSANGSIOS-PIEUP",
+            "U+A975",
+        ],
+        "body": [
+            "${1|ꥵ,&#xA975;,U+A975,0xA975,HANGUL CHOSEONG SSANGSIOS-PIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+A975",
+            "Character/Symbol: ꥵ",
+            "Name: HANGUL CHOSEONG SSANGSIOS-PIEUP",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥶ U+A976 HANGUL CHOSEONG IEUNG-RIEUL": 
+    {
+        "prefix": [
+            "..U.A976",
+            "..U.HANGUL CHOSEONG IEUNG-RIEUL",
+            "U+A976",
+        ],
+        "body": [
+            "${1|ꥶ,&#xA976;,U+A976,0xA976,HANGUL CHOSEONG IEUNG-RIEUL|}$2",
+        ],
+        "description": [
+            "Code: U+A976",
+            "Character/Symbol: ꥶ",
+            "Name: HANGUL CHOSEONG IEUNG-RIEUL",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥷ U+A977 HANGUL CHOSEONG IEUNG-HIEUH": 
+    {
+        "prefix": [
+            "..U.A977",
+            "..U.HANGUL CHOSEONG IEUNG-HIEUH",
+            "U+A977",
+        ],
+        "body": [
+            "${1|ꥷ,&#xA977;,U+A977,0xA977,HANGUL CHOSEONG IEUNG-HIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+A977",
+            "Character/Symbol: ꥷ",
+            "Name: HANGUL CHOSEONG IEUNG-HIEUH",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥸ U+A978 HANGUL CHOSEONG SSANGCIEUC-HIEUH": 
+    {
+        "prefix": [
+            "..U.A978",
+            "..U.HANGUL CHOSEONG SSANGCIEUC-HIEUH",
+            "U+A978",
+        ],
+        "body": [
+            "${1|ꥸ,&#xA978;,U+A978,0xA978,HANGUL CHOSEONG SSANGCIEUC-HIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+A978",
+            "Character/Symbol: ꥸ",
+            "Name: HANGUL CHOSEONG SSANGCIEUC-HIEUH",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥹ U+A979 HANGUL CHOSEONG SSANGTHIEUTH": 
+    {
+        "prefix": [
+            "..U.A979",
+            "..U.HANGUL CHOSEONG SSANGTHIEUTH",
+            "U+A979",
+        ],
+        "body": [
+            "${1|ꥹ,&#xA979;,U+A979,0xA979,HANGUL CHOSEONG SSANGTHIEUTH|}$2",
+        ],
+        "description": [
+            "Code: U+A979",
+            "Character/Symbol: ꥹ",
+            "Name: HANGUL CHOSEONG SSANGTHIEUTH",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥺ U+A97A HANGUL CHOSEONG PHIEUPH-HIEUH": 
+    {
+        "prefix": [
+            "..U.A97A",
+            "..U.HANGUL CHOSEONG PHIEUPH-HIEUH",
+            "U+A97A",
+        ],
+        "body": [
+            "${1|ꥺ,&#xA97A;,U+A97A,0xA97A,HANGUL CHOSEONG PHIEUPH-HIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+A97A",
+            "Character/Symbol: ꥺ",
+            "Name: HANGUL CHOSEONG PHIEUPH-HIEUH",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥻ U+A97B HANGUL CHOSEONG HIEUH-SIOS": 
+    {
+        "prefix": [
+            "..U.A97B",
+            "..U.HANGUL CHOSEONG HIEUH-SIOS",
+            "U+A97B",
+        ],
+        "body": [
+            "${1|ꥻ,&#xA97B;,U+A97B,0xA97B,HANGUL CHOSEONG HIEUH-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+A97B",
+            "Character/Symbol: ꥻ",
+            "Name: HANGUL CHOSEONG HIEUH-SIOS",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+    "Unicode ꥼ U+A97C HANGUL CHOSEONG SSANGYEORINHIEUH": 
+    {
+        "prefix": [
+            "..U.A97C",
+            "..U.HANGUL CHOSEONG SSANGYEORINHIEUH",
+            "U+A97C",
+        ],
+        "body": [
+            "${1|ꥼ,&#xA97C;,U+A97C,0xA97C,HANGUL CHOSEONG SSANGYEORINHIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+A97C",
+            "Character/Symbol: ꥼ",
+            "Name: HANGUL CHOSEONG SSANGYEORINHIEUH",
+            "Group/Block: Jamo_Ext_A",
+        ],
+    },
+
+}

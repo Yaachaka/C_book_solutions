@@ -1,0 +1,722 @@
+{
+    "Unicode 𐒀 U+10480 OSMANYA LETTER ALEF": 
+    {
+        "prefix": [
+            "..U.10480",
+            "..U.OSMANYA LETTER ALEF",
+            "U+10480",
+        ],
+        "body": [
+            "${1|𐒀,&#x10480;,U+10480,0x10480,OSMANYA LETTER ALEF|}$2",
+        ],
+        "description": [
+            "Code: U+10480",
+            "Character/Symbol: 𐒀",
+            "Name: OSMANYA LETTER ALEF",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒁 U+10481 OSMANYA LETTER BA": 
+    {
+        "prefix": [
+            "..U.10481",
+            "..U.OSMANYA LETTER BA",
+            "U+10481",
+        ],
+        "body": [
+            "${1|𐒁,&#x10481;,U+10481,0x10481,OSMANYA LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+10481",
+            "Character/Symbol: 𐒁",
+            "Name: OSMANYA LETTER BA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒂 U+10482 OSMANYA LETTER TA": 
+    {
+        "prefix": [
+            "..U.10482",
+            "..U.OSMANYA LETTER TA",
+            "U+10482",
+        ],
+        "body": [
+            "${1|𐒂,&#x10482;,U+10482,0x10482,OSMANYA LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+10482",
+            "Character/Symbol: 𐒂",
+            "Name: OSMANYA LETTER TA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒃 U+10483 OSMANYA LETTER JA": 
+    {
+        "prefix": [
+            "..U.10483",
+            "..U.OSMANYA LETTER JA",
+            "U+10483",
+        ],
+        "body": [
+            "${1|𐒃,&#x10483;,U+10483,0x10483,OSMANYA LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+10483",
+            "Character/Symbol: 𐒃",
+            "Name: OSMANYA LETTER JA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒄 U+10484 OSMANYA LETTER XA": 
+    {
+        "prefix": [
+            "..U.10484",
+            "..U.OSMANYA LETTER XA",
+            "U+10484",
+        ],
+        "body": [
+            "${1|𐒄,&#x10484;,U+10484,0x10484,OSMANYA LETTER XA|}$2",
+        ],
+        "description": [
+            "Code: U+10484",
+            "Character/Symbol: 𐒄",
+            "Name: OSMANYA LETTER XA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒅 U+10485 OSMANYA LETTER KHA": 
+    {
+        "prefix": [
+            "..U.10485",
+            "..U.OSMANYA LETTER KHA",
+            "U+10485",
+        ],
+        "body": [
+            "${1|𐒅,&#x10485;,U+10485,0x10485,OSMANYA LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+10485",
+            "Character/Symbol: 𐒅",
+            "Name: OSMANYA LETTER KHA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒆 U+10486 OSMANYA LETTER DEEL": 
+    {
+        "prefix": [
+            "..U.10486",
+            "..U.OSMANYA LETTER DEEL",
+            "U+10486",
+        ],
+        "body": [
+            "${1|𐒆,&#x10486;,U+10486,0x10486,OSMANYA LETTER DEEL|}$2",
+        ],
+        "description": [
+            "Code: U+10486",
+            "Character/Symbol: 𐒆",
+            "Name: OSMANYA LETTER DEEL",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒇 U+10487 OSMANYA LETTER RA": 
+    {
+        "prefix": [
+            "..U.10487",
+            "..U.OSMANYA LETTER RA",
+            "U+10487",
+        ],
+        "body": [
+            "${1|𐒇,&#x10487;,U+10487,0x10487,OSMANYA LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+10487",
+            "Character/Symbol: 𐒇",
+            "Name: OSMANYA LETTER RA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒈 U+10488 OSMANYA LETTER SA": 
+    {
+        "prefix": [
+            "..U.10488",
+            "..U.OSMANYA LETTER SA",
+            "U+10488",
+        ],
+        "body": [
+            "${1|𐒈,&#x10488;,U+10488,0x10488,OSMANYA LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+10488",
+            "Character/Symbol: 𐒈",
+            "Name: OSMANYA LETTER SA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒉 U+10489 OSMANYA LETTER SHIIN": 
+    {
+        "prefix": [
+            "..U.10489",
+            "..U.OSMANYA LETTER SHIIN",
+            "U+10489",
+        ],
+        "body": [
+            "${1|𐒉,&#x10489;,U+10489,0x10489,OSMANYA LETTER SHIIN|}$2",
+        ],
+        "description": [
+            "Code: U+10489",
+            "Character/Symbol: 𐒉",
+            "Name: OSMANYA LETTER SHIIN",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒊 U+1048A OSMANYA LETTER DHA": 
+    {
+        "prefix": [
+            "..U.1048A",
+            "..U.OSMANYA LETTER DHA",
+            "U+1048A",
+        ],
+        "body": [
+            "${1|𐒊,&#x1048A;,U+1048A,0x1048A,OSMANYA LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+1048A",
+            "Character/Symbol: 𐒊",
+            "Name: OSMANYA LETTER DHA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒋 U+1048B OSMANYA LETTER CAYN": 
+    {
+        "prefix": [
+            "..U.1048B",
+            "..U.OSMANYA LETTER CAYN",
+            "U+1048B",
+        ],
+        "body": [
+            "${1|𐒋,&#x1048B;,U+1048B,0x1048B,OSMANYA LETTER CAYN|}$2",
+        ],
+        "description": [
+            "Code: U+1048B",
+            "Character/Symbol: 𐒋",
+            "Name: OSMANYA LETTER CAYN",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒌 U+1048C OSMANYA LETTER GA": 
+    {
+        "prefix": [
+            "..U.1048C",
+            "..U.OSMANYA LETTER GA",
+            "U+1048C",
+        ],
+        "body": [
+            "${1|𐒌,&#x1048C;,U+1048C,0x1048C,OSMANYA LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+1048C",
+            "Character/Symbol: 𐒌",
+            "Name: OSMANYA LETTER GA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒍 U+1048D OSMANYA LETTER FA": 
+    {
+        "prefix": [
+            "..U.1048D",
+            "..U.OSMANYA LETTER FA",
+            "U+1048D",
+        ],
+        "body": [
+            "${1|𐒍,&#x1048D;,U+1048D,0x1048D,OSMANYA LETTER FA|}$2",
+        ],
+        "description": [
+            "Code: U+1048D",
+            "Character/Symbol: 𐒍",
+            "Name: OSMANYA LETTER FA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒎 U+1048E OSMANYA LETTER QAAF": 
+    {
+        "prefix": [
+            "..U.1048E",
+            "..U.OSMANYA LETTER QAAF",
+            "U+1048E",
+        ],
+        "body": [
+            "${1|𐒎,&#x1048E;,U+1048E,0x1048E,OSMANYA LETTER QAAF|}$2",
+        ],
+        "description": [
+            "Code: U+1048E",
+            "Character/Symbol: 𐒎",
+            "Name: OSMANYA LETTER QAAF",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒏 U+1048F OSMANYA LETTER KAAF": 
+    {
+        "prefix": [
+            "..U.1048F",
+            "..U.OSMANYA LETTER KAAF",
+            "U+1048F",
+        ],
+        "body": [
+            "${1|𐒏,&#x1048F;,U+1048F,0x1048F,OSMANYA LETTER KAAF|}$2",
+        ],
+        "description": [
+            "Code: U+1048F",
+            "Character/Symbol: 𐒏",
+            "Name: OSMANYA LETTER KAAF",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒐 U+10490 OSMANYA LETTER LAAN": 
+    {
+        "prefix": [
+            "..U.10490",
+            "..U.OSMANYA LETTER LAAN",
+            "U+10490",
+        ],
+        "body": [
+            "${1|𐒐,&#x10490;,U+10490,0x10490,OSMANYA LETTER LAAN|}$2",
+        ],
+        "description": [
+            "Code: U+10490",
+            "Character/Symbol: 𐒐",
+            "Name: OSMANYA LETTER LAAN",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒑 U+10491 OSMANYA LETTER MIIN": 
+    {
+        "prefix": [
+            "..U.10491",
+            "..U.OSMANYA LETTER MIIN",
+            "U+10491",
+        ],
+        "body": [
+            "${1|𐒑,&#x10491;,U+10491,0x10491,OSMANYA LETTER MIIN|}$2",
+        ],
+        "description": [
+            "Code: U+10491",
+            "Character/Symbol: 𐒑",
+            "Name: OSMANYA LETTER MIIN",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒒 U+10492 OSMANYA LETTER NUUN": 
+    {
+        "prefix": [
+            "..U.10492",
+            "..U.OSMANYA LETTER NUUN",
+            "U+10492",
+        ],
+        "body": [
+            "${1|𐒒,&#x10492;,U+10492,0x10492,OSMANYA LETTER NUUN|}$2",
+        ],
+        "description": [
+            "Code: U+10492",
+            "Character/Symbol: 𐒒",
+            "Name: OSMANYA LETTER NUUN",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒓 U+10493 OSMANYA LETTER WAW": 
+    {
+        "prefix": [
+            "..U.10493",
+            "..U.OSMANYA LETTER WAW",
+            "U+10493",
+        ],
+        "body": [
+            "${1|𐒓,&#x10493;,U+10493,0x10493,OSMANYA LETTER WAW|}$2",
+        ],
+        "description": [
+            "Code: U+10493",
+            "Character/Symbol: 𐒓",
+            "Name: OSMANYA LETTER WAW",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒔 U+10494 OSMANYA LETTER HA": 
+    {
+        "prefix": [
+            "..U.10494",
+            "..U.OSMANYA LETTER HA",
+            "U+10494",
+        ],
+        "body": [
+            "${1|𐒔,&#x10494;,U+10494,0x10494,OSMANYA LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+10494",
+            "Character/Symbol: 𐒔",
+            "Name: OSMANYA LETTER HA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒕 U+10495 OSMANYA LETTER YA": 
+    {
+        "prefix": [
+            "..U.10495",
+            "..U.OSMANYA LETTER YA",
+            "U+10495",
+        ],
+        "body": [
+            "${1|𐒕,&#x10495;,U+10495,0x10495,OSMANYA LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+10495",
+            "Character/Symbol: 𐒕",
+            "Name: OSMANYA LETTER YA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒖 U+10496 OSMANYA LETTER A": 
+    {
+        "prefix": [
+            "..U.10496",
+            "..U.OSMANYA LETTER A",
+            "U+10496",
+        ],
+        "body": [
+            "${1|𐒖,&#x10496;,U+10496,0x10496,OSMANYA LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+10496",
+            "Character/Symbol: 𐒖",
+            "Name: OSMANYA LETTER A",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒗 U+10497 OSMANYA LETTER E": 
+    {
+        "prefix": [
+            "..U.10497",
+            "..U.OSMANYA LETTER E",
+            "U+10497",
+        ],
+        "body": [
+            "${1|𐒗,&#x10497;,U+10497,0x10497,OSMANYA LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+10497",
+            "Character/Symbol: 𐒗",
+            "Name: OSMANYA LETTER E",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒘 U+10498 OSMANYA LETTER I": 
+    {
+        "prefix": [
+            "..U.10498",
+            "..U.OSMANYA LETTER I",
+            "U+10498",
+        ],
+        "body": [
+            "${1|𐒘,&#x10498;,U+10498,0x10498,OSMANYA LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+10498",
+            "Character/Symbol: 𐒘",
+            "Name: OSMANYA LETTER I",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒙 U+10499 OSMANYA LETTER O": 
+    {
+        "prefix": [
+            "..U.10499",
+            "..U.OSMANYA LETTER O",
+            "U+10499",
+        ],
+        "body": [
+            "${1|𐒙,&#x10499;,U+10499,0x10499,OSMANYA LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+10499",
+            "Character/Symbol: 𐒙",
+            "Name: OSMANYA LETTER O",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒚 U+1049A OSMANYA LETTER U": 
+    {
+        "prefix": [
+            "..U.1049A",
+            "..U.OSMANYA LETTER U",
+            "U+1049A",
+        ],
+        "body": [
+            "${1|𐒚,&#x1049A;,U+1049A,0x1049A,OSMANYA LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+1049A",
+            "Character/Symbol: 𐒚",
+            "Name: OSMANYA LETTER U",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒛 U+1049B OSMANYA LETTER AA": 
+    {
+        "prefix": [
+            "..U.1049B",
+            "..U.OSMANYA LETTER AA",
+            "U+1049B",
+        ],
+        "body": [
+            "${1|𐒛,&#x1049B;,U+1049B,0x1049B,OSMANYA LETTER AA|}$2",
+        ],
+        "description": [
+            "Code: U+1049B",
+            "Character/Symbol: 𐒛",
+            "Name: OSMANYA LETTER AA",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒜 U+1049C OSMANYA LETTER EE": 
+    {
+        "prefix": [
+            "..U.1049C",
+            "..U.OSMANYA LETTER EE",
+            "U+1049C",
+        ],
+        "body": [
+            "${1|𐒜,&#x1049C;,U+1049C,0x1049C,OSMANYA LETTER EE|}$2",
+        ],
+        "description": [
+            "Code: U+1049C",
+            "Character/Symbol: 𐒜",
+            "Name: OSMANYA LETTER EE",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒝 U+1049D OSMANYA LETTER OO": 
+    {
+        "prefix": [
+            "..U.1049D",
+            "..U.OSMANYA LETTER OO",
+            "U+1049D",
+        ],
+        "body": [
+            "${1|𐒝,&#x1049D;,U+1049D,0x1049D,OSMANYA LETTER OO|}$2",
+        ],
+        "description": [
+            "Code: U+1049D",
+            "Character/Symbol: 𐒝",
+            "Name: OSMANYA LETTER OO",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒠 U+104A0 OSMANYA DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.104A0",
+            "..U.OSMANYA DIGIT ZERO",
+            "U+104A0",
+        ],
+        "body": [
+            "${1|𐒠,&#x104A0;,U+104A0,0x104A0,OSMANYA DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+104A0",
+            "Character/Symbol: 𐒠",
+            "Name: OSMANYA DIGIT ZERO",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒡 U+104A1 OSMANYA DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.104A1",
+            "..U.OSMANYA DIGIT ONE",
+            "U+104A1",
+        ],
+        "body": [
+            "${1|𐒡,&#x104A1;,U+104A1,0x104A1,OSMANYA DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+104A1",
+            "Character/Symbol: 𐒡",
+            "Name: OSMANYA DIGIT ONE",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒢 U+104A2 OSMANYA DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.104A2",
+            "..U.OSMANYA DIGIT TWO",
+            "U+104A2",
+        ],
+        "body": [
+            "${1|𐒢,&#x104A2;,U+104A2,0x104A2,OSMANYA DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+104A2",
+            "Character/Symbol: 𐒢",
+            "Name: OSMANYA DIGIT TWO",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒣 U+104A3 OSMANYA DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.104A3",
+            "..U.OSMANYA DIGIT THREE",
+            "U+104A3",
+        ],
+        "body": [
+            "${1|𐒣,&#x104A3;,U+104A3,0x104A3,OSMANYA DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+104A3",
+            "Character/Symbol: 𐒣",
+            "Name: OSMANYA DIGIT THREE",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒤 U+104A4 OSMANYA DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.104A4",
+            "..U.OSMANYA DIGIT FOUR",
+            "U+104A4",
+        ],
+        "body": [
+            "${1|𐒤,&#x104A4;,U+104A4,0x104A4,OSMANYA DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+104A4",
+            "Character/Symbol: 𐒤",
+            "Name: OSMANYA DIGIT FOUR",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒥 U+104A5 OSMANYA DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.104A5",
+            "..U.OSMANYA DIGIT FIVE",
+            "U+104A5",
+        ],
+        "body": [
+            "${1|𐒥,&#x104A5;,U+104A5,0x104A5,OSMANYA DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+104A5",
+            "Character/Symbol: 𐒥",
+            "Name: OSMANYA DIGIT FIVE",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒦 U+104A6 OSMANYA DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.104A6",
+            "..U.OSMANYA DIGIT SIX",
+            "U+104A6",
+        ],
+        "body": [
+            "${1|𐒦,&#x104A6;,U+104A6,0x104A6,OSMANYA DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+104A6",
+            "Character/Symbol: 𐒦",
+            "Name: OSMANYA DIGIT SIX",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒧 U+104A7 OSMANYA DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.104A7",
+            "..U.OSMANYA DIGIT SEVEN",
+            "U+104A7",
+        ],
+        "body": [
+            "${1|𐒧,&#x104A7;,U+104A7,0x104A7,OSMANYA DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+104A7",
+            "Character/Symbol: 𐒧",
+            "Name: OSMANYA DIGIT SEVEN",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒨 U+104A8 OSMANYA DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.104A8",
+            "..U.OSMANYA DIGIT EIGHT",
+            "U+104A8",
+        ],
+        "body": [
+            "${1|𐒨,&#x104A8;,U+104A8,0x104A8,OSMANYA DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+104A8",
+            "Character/Symbol: 𐒨",
+            "Name: OSMANYA DIGIT EIGHT",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+    "Unicode 𐒩 U+104A9 OSMANYA DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.104A9",
+            "..U.OSMANYA DIGIT NINE",
+            "U+104A9",
+        ],
+        "body": [
+            "${1|𐒩,&#x104A9;,U+104A9,0x104A9,OSMANYA DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+104A9",
+            "Character/Symbol: 𐒩",
+            "Name: OSMANYA DIGIT NINE",
+            "Group/Block: Osmanya",
+        ],
+    },
+
+}

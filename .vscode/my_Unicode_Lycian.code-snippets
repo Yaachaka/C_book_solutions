@@ -1,0 +1,524 @@
+{
+    "Unicode 𐊀 U+10280 LYCIAN LETTER A": 
+    {
+        "prefix": [
+            "..U.10280",
+            "..U.LYCIAN LETTER A",
+            "U+10280",
+        ],
+        "body": [
+            "${1|𐊀,&#x10280;,U+10280,0x10280,LYCIAN LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+10280",
+            "Character/Symbol: 𐊀",
+            "Name: LYCIAN LETTER A",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊁 U+10281 LYCIAN LETTER E": 
+    {
+        "prefix": [
+            "..U.10281",
+            "..U.LYCIAN LETTER E",
+            "U+10281",
+        ],
+        "body": [
+            "${1|𐊁,&#x10281;,U+10281,0x10281,LYCIAN LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+10281",
+            "Character/Symbol: 𐊁",
+            "Name: LYCIAN LETTER E",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊂 U+10282 LYCIAN LETTER B": 
+    {
+        "prefix": [
+            "..U.10282",
+            "..U.LYCIAN LETTER B",
+            "U+10282",
+        ],
+        "body": [
+            "${1|𐊂,&#x10282;,U+10282,0x10282,LYCIAN LETTER B|}$2",
+        ],
+        "description": [
+            "Code: U+10282",
+            "Character/Symbol: 𐊂",
+            "Name: LYCIAN LETTER B",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊃 U+10283 LYCIAN LETTER BH": 
+    {
+        "prefix": [
+            "..U.10283",
+            "..U.LYCIAN LETTER BH",
+            "U+10283",
+        ],
+        "body": [
+            "${1|𐊃,&#x10283;,U+10283,0x10283,LYCIAN LETTER BH|}$2",
+        ],
+        "description": [
+            "Code: U+10283",
+            "Character/Symbol: 𐊃",
+            "Name: LYCIAN LETTER BH",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊄 U+10284 LYCIAN LETTER G": 
+    {
+        "prefix": [
+            "..U.10284",
+            "..U.LYCIAN LETTER G",
+            "U+10284",
+        ],
+        "body": [
+            "${1|𐊄,&#x10284;,U+10284,0x10284,LYCIAN LETTER G|}$2",
+        ],
+        "description": [
+            "Code: U+10284",
+            "Character/Symbol: 𐊄",
+            "Name: LYCIAN LETTER G",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊅 U+10285 LYCIAN LETTER D": 
+    {
+        "prefix": [
+            "..U.10285",
+            "..U.LYCIAN LETTER D",
+            "U+10285",
+        ],
+        "body": [
+            "${1|𐊅,&#x10285;,U+10285,0x10285,LYCIAN LETTER D|}$2",
+        ],
+        "description": [
+            "Code: U+10285",
+            "Character/Symbol: 𐊅",
+            "Name: LYCIAN LETTER D",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊆 U+10286 LYCIAN LETTER I": 
+    {
+        "prefix": [
+            "..U.10286",
+            "..U.LYCIAN LETTER I",
+            "U+10286",
+        ],
+        "body": [
+            "${1|𐊆,&#x10286;,U+10286,0x10286,LYCIAN LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+10286",
+            "Character/Symbol: 𐊆",
+            "Name: LYCIAN LETTER I",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊇 U+10287 LYCIAN LETTER W": 
+    {
+        "prefix": [
+            "..U.10287",
+            "..U.LYCIAN LETTER W",
+            "U+10287",
+        ],
+        "body": [
+            "${1|𐊇,&#x10287;,U+10287,0x10287,LYCIAN LETTER W|}$2",
+        ],
+        "description": [
+            "Code: U+10287",
+            "Character/Symbol: 𐊇",
+            "Name: LYCIAN LETTER W",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊈 U+10288 LYCIAN LETTER Z": 
+    {
+        "prefix": [
+            "..U.10288",
+            "..U.LYCIAN LETTER Z",
+            "U+10288",
+        ],
+        "body": [
+            "${1|𐊈,&#x10288;,U+10288,0x10288,LYCIAN LETTER Z|}$2",
+        ],
+        "description": [
+            "Code: U+10288",
+            "Character/Symbol: 𐊈",
+            "Name: LYCIAN LETTER Z",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊉 U+10289 LYCIAN LETTER TH": 
+    {
+        "prefix": [
+            "..U.10289",
+            "..U.LYCIAN LETTER TH",
+            "U+10289",
+        ],
+        "body": [
+            "${1|𐊉,&#x10289;,U+10289,0x10289,LYCIAN LETTER TH|}$2",
+        ],
+        "description": [
+            "Code: U+10289",
+            "Character/Symbol: 𐊉",
+            "Name: LYCIAN LETTER TH",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊊 U+1028A LYCIAN LETTER J": 
+    {
+        "prefix": [
+            "..U.1028A",
+            "..U.LYCIAN LETTER J",
+            "U+1028A",
+        ],
+        "body": [
+            "${1|𐊊,&#x1028A;,U+1028A,0x1028A,LYCIAN LETTER J|}$2",
+        ],
+        "description": [
+            "Code: U+1028A",
+            "Character/Symbol: 𐊊",
+            "Name: LYCIAN LETTER J",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊋 U+1028B LYCIAN LETTER K": 
+    {
+        "prefix": [
+            "..U.1028B",
+            "..U.LYCIAN LETTER K",
+            "U+1028B",
+        ],
+        "body": [
+            "${1|𐊋,&#x1028B;,U+1028B,0x1028B,LYCIAN LETTER K|}$2",
+        ],
+        "description": [
+            "Code: U+1028B",
+            "Character/Symbol: 𐊋",
+            "Name: LYCIAN LETTER K",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊌 U+1028C LYCIAN LETTER Q": 
+    {
+        "prefix": [
+            "..U.1028C",
+            "..U.LYCIAN LETTER Q",
+            "U+1028C",
+        ],
+        "body": [
+            "${1|𐊌,&#x1028C;,U+1028C,0x1028C,LYCIAN LETTER Q|}$2",
+        ],
+        "description": [
+            "Code: U+1028C",
+            "Character/Symbol: 𐊌",
+            "Name: LYCIAN LETTER Q",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊍 U+1028D LYCIAN LETTER L": 
+    {
+        "prefix": [
+            "..U.1028D",
+            "..U.LYCIAN LETTER L",
+            "U+1028D",
+        ],
+        "body": [
+            "${1|𐊍,&#x1028D;,U+1028D,0x1028D,LYCIAN LETTER L|}$2",
+        ],
+        "description": [
+            "Code: U+1028D",
+            "Character/Symbol: 𐊍",
+            "Name: LYCIAN LETTER L",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊎 U+1028E LYCIAN LETTER M": 
+    {
+        "prefix": [
+            "..U.1028E",
+            "..U.LYCIAN LETTER M",
+            "U+1028E",
+        ],
+        "body": [
+            "${1|𐊎,&#x1028E;,U+1028E,0x1028E,LYCIAN LETTER M|}$2",
+        ],
+        "description": [
+            "Code: U+1028E",
+            "Character/Symbol: 𐊎",
+            "Name: LYCIAN LETTER M",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊏 U+1028F LYCIAN LETTER N": 
+    {
+        "prefix": [
+            "..U.1028F",
+            "..U.LYCIAN LETTER N",
+            "U+1028F",
+        ],
+        "body": [
+            "${1|𐊏,&#x1028F;,U+1028F,0x1028F,LYCIAN LETTER N|}$2",
+        ],
+        "description": [
+            "Code: U+1028F",
+            "Character/Symbol: 𐊏",
+            "Name: LYCIAN LETTER N",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊐 U+10290 LYCIAN LETTER MM": 
+    {
+        "prefix": [
+            "..U.10290",
+            "..U.LYCIAN LETTER MM",
+            "U+10290",
+        ],
+        "body": [
+            "${1|𐊐,&#x10290;,U+10290,0x10290,LYCIAN LETTER MM|}$2",
+        ],
+        "description": [
+            "Code: U+10290",
+            "Character/Symbol: 𐊐",
+            "Name: LYCIAN LETTER MM",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊑 U+10291 LYCIAN LETTER NN": 
+    {
+        "prefix": [
+            "..U.10291",
+            "..U.LYCIAN LETTER NN",
+            "U+10291",
+        ],
+        "body": [
+            "${1|𐊑,&#x10291;,U+10291,0x10291,LYCIAN LETTER NN|}$2",
+        ],
+        "description": [
+            "Code: U+10291",
+            "Character/Symbol: 𐊑",
+            "Name: LYCIAN LETTER NN",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊒 U+10292 LYCIAN LETTER U": 
+    {
+        "prefix": [
+            "..U.10292",
+            "..U.LYCIAN LETTER U",
+            "U+10292",
+        ],
+        "body": [
+            "${1|𐊒,&#x10292;,U+10292,0x10292,LYCIAN LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+10292",
+            "Character/Symbol: 𐊒",
+            "Name: LYCIAN LETTER U",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊓 U+10293 LYCIAN LETTER P": 
+    {
+        "prefix": [
+            "..U.10293",
+            "..U.LYCIAN LETTER P",
+            "U+10293",
+        ],
+        "body": [
+            "${1|𐊓,&#x10293;,U+10293,0x10293,LYCIAN LETTER P|}$2",
+        ],
+        "description": [
+            "Code: U+10293",
+            "Character/Symbol: 𐊓",
+            "Name: LYCIAN LETTER P",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊔 U+10294 LYCIAN LETTER KK": 
+    {
+        "prefix": [
+            "..U.10294",
+            "..U.LYCIAN LETTER KK",
+            "U+10294",
+        ],
+        "body": [
+            "${1|𐊔,&#x10294;,U+10294,0x10294,LYCIAN LETTER KK|}$2",
+        ],
+        "description": [
+            "Code: U+10294",
+            "Character/Symbol: 𐊔",
+            "Name: LYCIAN LETTER KK",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊕 U+10295 LYCIAN LETTER R": 
+    {
+        "prefix": [
+            "..U.10295",
+            "..U.LYCIAN LETTER R",
+            "U+10295",
+        ],
+        "body": [
+            "${1|𐊕,&#x10295;,U+10295,0x10295,LYCIAN LETTER R|}$2",
+        ],
+        "description": [
+            "Code: U+10295",
+            "Character/Symbol: 𐊕",
+            "Name: LYCIAN LETTER R",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊖 U+10296 LYCIAN LETTER S": 
+    {
+        "prefix": [
+            "..U.10296",
+            "..U.LYCIAN LETTER S",
+            "U+10296",
+        ],
+        "body": [
+            "${1|𐊖,&#x10296;,U+10296,0x10296,LYCIAN LETTER S|}$2",
+        ],
+        "description": [
+            "Code: U+10296",
+            "Character/Symbol: 𐊖",
+            "Name: LYCIAN LETTER S",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊗 U+10297 LYCIAN LETTER T": 
+    {
+        "prefix": [
+            "..U.10297",
+            "..U.LYCIAN LETTER T",
+            "U+10297",
+        ],
+        "body": [
+            "${1|𐊗,&#x10297;,U+10297,0x10297,LYCIAN LETTER T|}$2",
+        ],
+        "description": [
+            "Code: U+10297",
+            "Character/Symbol: 𐊗",
+            "Name: LYCIAN LETTER T",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊘 U+10298 LYCIAN LETTER TT": 
+    {
+        "prefix": [
+            "..U.10298",
+            "..U.LYCIAN LETTER TT",
+            "U+10298",
+        ],
+        "body": [
+            "${1|𐊘,&#x10298;,U+10298,0x10298,LYCIAN LETTER TT|}$2",
+        ],
+        "description": [
+            "Code: U+10298",
+            "Character/Symbol: 𐊘",
+            "Name: LYCIAN LETTER TT",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊙 U+10299 LYCIAN LETTER AN": 
+    {
+        "prefix": [
+            "..U.10299",
+            "..U.LYCIAN LETTER AN",
+            "U+10299",
+        ],
+        "body": [
+            "${1|𐊙,&#x10299;,U+10299,0x10299,LYCIAN LETTER AN|}$2",
+        ],
+        "description": [
+            "Code: U+10299",
+            "Character/Symbol: 𐊙",
+            "Name: LYCIAN LETTER AN",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊚 U+1029A LYCIAN LETTER EN": 
+    {
+        "prefix": [
+            "..U.1029A",
+            "..U.LYCIAN LETTER EN",
+            "U+1029A",
+        ],
+        "body": [
+            "${1|𐊚,&#x1029A;,U+1029A,0x1029A,LYCIAN LETTER EN|}$2",
+        ],
+        "description": [
+            "Code: U+1029A",
+            "Character/Symbol: 𐊚",
+            "Name: LYCIAN LETTER EN",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊛 U+1029B LYCIAN LETTER H": 
+    {
+        "prefix": [
+            "..U.1029B",
+            "..U.LYCIAN LETTER H",
+            "U+1029B",
+        ],
+        "body": [
+            "${1|𐊛,&#x1029B;,U+1029B,0x1029B,LYCIAN LETTER H|}$2",
+        ],
+        "description": [
+            "Code: U+1029B",
+            "Character/Symbol: 𐊛",
+            "Name: LYCIAN LETTER H",
+            "Group/Block: Lycian",
+        ],
+    },
+
+    "Unicode 𐊜 U+1029C LYCIAN LETTER X": 
+    {
+        "prefix": [
+            "..U.1029C",
+            "..U.LYCIAN LETTER X",
+            "U+1029C",
+        ],
+        "body": [
+            "${1|𐊜,&#x1029C;,U+1029C,0x1029C,LYCIAN LETTER X|}$2",
+        ],
+        "description": [
+            "Code: U+1029C",
+            "Character/Symbol: 𐊜",
+            "Name: LYCIAN LETTER X",
+            "Group/Block: Lycian",
+        ],
+    },
+
+}

@@ -1,0 +1,992 @@
+{
+    "Unicode 𐠀 U+10800 CYPRIOT SYLLABLE A": 
+    {
+        "prefix": [
+            "..U.10800",
+            "..U.CYPRIOT SYLLABLE A",
+            "U+10800",
+        ],
+        "body": [
+            "${1|𐠀,&#x10800;,U+10800,0x10800,CYPRIOT SYLLABLE A|}$2",
+        ],
+        "description": [
+            "Code: U+10800",
+            "Character/Symbol: 𐠀",
+            "Name: CYPRIOT SYLLABLE A",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠁 U+10801 CYPRIOT SYLLABLE E": 
+    {
+        "prefix": [
+            "..U.10801",
+            "..U.CYPRIOT SYLLABLE E",
+            "U+10801",
+        ],
+        "body": [
+            "${1|𐠁,&#x10801;,U+10801,0x10801,CYPRIOT SYLLABLE E|}$2",
+        ],
+        "description": [
+            "Code: U+10801",
+            "Character/Symbol: 𐠁",
+            "Name: CYPRIOT SYLLABLE E",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠂 U+10802 CYPRIOT SYLLABLE I": 
+    {
+        "prefix": [
+            "..U.10802",
+            "..U.CYPRIOT SYLLABLE I",
+            "U+10802",
+        ],
+        "body": [
+            "${1|𐠂,&#x10802;,U+10802,0x10802,CYPRIOT SYLLABLE I|}$2",
+        ],
+        "description": [
+            "Code: U+10802",
+            "Character/Symbol: 𐠂",
+            "Name: CYPRIOT SYLLABLE I",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠃 U+10803 CYPRIOT SYLLABLE O": 
+    {
+        "prefix": [
+            "..U.10803",
+            "..U.CYPRIOT SYLLABLE O",
+            "U+10803",
+        ],
+        "body": [
+            "${1|𐠃,&#x10803;,U+10803,0x10803,CYPRIOT SYLLABLE O|}$2",
+        ],
+        "description": [
+            "Code: U+10803",
+            "Character/Symbol: 𐠃",
+            "Name: CYPRIOT SYLLABLE O",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠄 U+10804 CYPRIOT SYLLABLE U": 
+    {
+        "prefix": [
+            "..U.10804",
+            "..U.CYPRIOT SYLLABLE U",
+            "U+10804",
+        ],
+        "body": [
+            "${1|𐠄,&#x10804;,U+10804,0x10804,CYPRIOT SYLLABLE U|}$2",
+        ],
+        "description": [
+            "Code: U+10804",
+            "Character/Symbol: 𐠄",
+            "Name: CYPRIOT SYLLABLE U",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠅 U+10805 CYPRIOT SYLLABLE JA": 
+    {
+        "prefix": [
+            "..U.10805",
+            "..U.CYPRIOT SYLLABLE JA",
+            "U+10805",
+        ],
+        "body": [
+            "${1|𐠅,&#x10805;,U+10805,0x10805,CYPRIOT SYLLABLE JA|}$2",
+        ],
+        "description": [
+            "Code: U+10805",
+            "Character/Symbol: 𐠅",
+            "Name: CYPRIOT SYLLABLE JA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠈 U+10808 CYPRIOT SYLLABLE JO": 
+    {
+        "prefix": [
+            "..U.10808",
+            "..U.CYPRIOT SYLLABLE JO",
+            "U+10808",
+        ],
+        "body": [
+            "${1|𐠈,&#x10808;,U+10808,0x10808,CYPRIOT SYLLABLE JO|}$2",
+        ],
+        "description": [
+            "Code: U+10808",
+            "Character/Symbol: 𐠈",
+            "Name: CYPRIOT SYLLABLE JO",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠊 U+1080A CYPRIOT SYLLABLE KA": 
+    {
+        "prefix": [
+            "..U.1080A",
+            "..U.CYPRIOT SYLLABLE KA",
+            "U+1080A",
+        ],
+        "body": [
+            "${1|𐠊,&#x1080A;,U+1080A,0x1080A,CYPRIOT SYLLABLE KA|}$2",
+        ],
+        "description": [
+            "Code: U+1080A",
+            "Character/Symbol: 𐠊",
+            "Name: CYPRIOT SYLLABLE KA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠋 U+1080B CYPRIOT SYLLABLE KE": 
+    {
+        "prefix": [
+            "..U.1080B",
+            "..U.CYPRIOT SYLLABLE KE",
+            "U+1080B",
+        ],
+        "body": [
+            "${1|𐠋,&#x1080B;,U+1080B,0x1080B,CYPRIOT SYLLABLE KE|}$2",
+        ],
+        "description": [
+            "Code: U+1080B",
+            "Character/Symbol: 𐠋",
+            "Name: CYPRIOT SYLLABLE KE",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠌 U+1080C CYPRIOT SYLLABLE KI": 
+    {
+        "prefix": [
+            "..U.1080C",
+            "..U.CYPRIOT SYLLABLE KI",
+            "U+1080C",
+        ],
+        "body": [
+            "${1|𐠌,&#x1080C;,U+1080C,0x1080C,CYPRIOT SYLLABLE KI|}$2",
+        ],
+        "description": [
+            "Code: U+1080C",
+            "Character/Symbol: 𐠌",
+            "Name: CYPRIOT SYLLABLE KI",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠍 U+1080D CYPRIOT SYLLABLE KO": 
+    {
+        "prefix": [
+            "..U.1080D",
+            "..U.CYPRIOT SYLLABLE KO",
+            "U+1080D",
+        ],
+        "body": [
+            "${1|𐠍,&#x1080D;,U+1080D,0x1080D,CYPRIOT SYLLABLE KO|}$2",
+        ],
+        "description": [
+            "Code: U+1080D",
+            "Character/Symbol: 𐠍",
+            "Name: CYPRIOT SYLLABLE KO",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠎 U+1080E CYPRIOT SYLLABLE KU": 
+    {
+        "prefix": [
+            "..U.1080E",
+            "..U.CYPRIOT SYLLABLE KU",
+            "U+1080E",
+        ],
+        "body": [
+            "${1|𐠎,&#x1080E;,U+1080E,0x1080E,CYPRIOT SYLLABLE KU|}$2",
+        ],
+        "description": [
+            "Code: U+1080E",
+            "Character/Symbol: 𐠎",
+            "Name: CYPRIOT SYLLABLE KU",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠏 U+1080F CYPRIOT SYLLABLE LA": 
+    {
+        "prefix": [
+            "..U.1080F",
+            "..U.CYPRIOT SYLLABLE LA",
+            "U+1080F",
+        ],
+        "body": [
+            "${1|𐠏,&#x1080F;,U+1080F,0x1080F,CYPRIOT SYLLABLE LA|}$2",
+        ],
+        "description": [
+            "Code: U+1080F",
+            "Character/Symbol: 𐠏",
+            "Name: CYPRIOT SYLLABLE LA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠐 U+10810 CYPRIOT SYLLABLE LE": 
+    {
+        "prefix": [
+            "..U.10810",
+            "..U.CYPRIOT SYLLABLE LE",
+            "U+10810",
+        ],
+        "body": [
+            "${1|𐠐,&#x10810;,U+10810,0x10810,CYPRIOT SYLLABLE LE|}$2",
+        ],
+        "description": [
+            "Code: U+10810",
+            "Character/Symbol: 𐠐",
+            "Name: CYPRIOT SYLLABLE LE",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠑 U+10811 CYPRIOT SYLLABLE LI": 
+    {
+        "prefix": [
+            "..U.10811",
+            "..U.CYPRIOT SYLLABLE LI",
+            "U+10811",
+        ],
+        "body": [
+            "${1|𐠑,&#x10811;,U+10811,0x10811,CYPRIOT SYLLABLE LI|}$2",
+        ],
+        "description": [
+            "Code: U+10811",
+            "Character/Symbol: 𐠑",
+            "Name: CYPRIOT SYLLABLE LI",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠒 U+10812 CYPRIOT SYLLABLE LO": 
+    {
+        "prefix": [
+            "..U.10812",
+            "..U.CYPRIOT SYLLABLE LO",
+            "U+10812",
+        ],
+        "body": [
+            "${1|𐠒,&#x10812;,U+10812,0x10812,CYPRIOT SYLLABLE LO|}$2",
+        ],
+        "description": [
+            "Code: U+10812",
+            "Character/Symbol: 𐠒",
+            "Name: CYPRIOT SYLLABLE LO",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠓 U+10813 CYPRIOT SYLLABLE LU": 
+    {
+        "prefix": [
+            "..U.10813",
+            "..U.CYPRIOT SYLLABLE LU",
+            "U+10813",
+        ],
+        "body": [
+            "${1|𐠓,&#x10813;,U+10813,0x10813,CYPRIOT SYLLABLE LU|}$2",
+        ],
+        "description": [
+            "Code: U+10813",
+            "Character/Symbol: 𐠓",
+            "Name: CYPRIOT SYLLABLE LU",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠔 U+10814 CYPRIOT SYLLABLE MA": 
+    {
+        "prefix": [
+            "..U.10814",
+            "..U.CYPRIOT SYLLABLE MA",
+            "U+10814",
+        ],
+        "body": [
+            "${1|𐠔,&#x10814;,U+10814,0x10814,CYPRIOT SYLLABLE MA|}$2",
+        ],
+        "description": [
+            "Code: U+10814",
+            "Character/Symbol: 𐠔",
+            "Name: CYPRIOT SYLLABLE MA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠕 U+10815 CYPRIOT SYLLABLE ME": 
+    {
+        "prefix": [
+            "..U.10815",
+            "..U.CYPRIOT SYLLABLE ME",
+            "U+10815",
+        ],
+        "body": [
+            "${1|𐠕,&#x10815;,U+10815,0x10815,CYPRIOT SYLLABLE ME|}$2",
+        ],
+        "description": [
+            "Code: U+10815",
+            "Character/Symbol: 𐠕",
+            "Name: CYPRIOT SYLLABLE ME",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠖 U+10816 CYPRIOT SYLLABLE MI": 
+    {
+        "prefix": [
+            "..U.10816",
+            "..U.CYPRIOT SYLLABLE MI",
+            "U+10816",
+        ],
+        "body": [
+            "${1|𐠖,&#x10816;,U+10816,0x10816,CYPRIOT SYLLABLE MI|}$2",
+        ],
+        "description": [
+            "Code: U+10816",
+            "Character/Symbol: 𐠖",
+            "Name: CYPRIOT SYLLABLE MI",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠗 U+10817 CYPRIOT SYLLABLE MO": 
+    {
+        "prefix": [
+            "..U.10817",
+            "..U.CYPRIOT SYLLABLE MO",
+            "U+10817",
+        ],
+        "body": [
+            "${1|𐠗,&#x10817;,U+10817,0x10817,CYPRIOT SYLLABLE MO|}$2",
+        ],
+        "description": [
+            "Code: U+10817",
+            "Character/Symbol: 𐠗",
+            "Name: CYPRIOT SYLLABLE MO",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠘 U+10818 CYPRIOT SYLLABLE MU": 
+    {
+        "prefix": [
+            "..U.10818",
+            "..U.CYPRIOT SYLLABLE MU",
+            "U+10818",
+        ],
+        "body": [
+            "${1|𐠘,&#x10818;,U+10818,0x10818,CYPRIOT SYLLABLE MU|}$2",
+        ],
+        "description": [
+            "Code: U+10818",
+            "Character/Symbol: 𐠘",
+            "Name: CYPRIOT SYLLABLE MU",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠙 U+10819 CYPRIOT SYLLABLE NA": 
+    {
+        "prefix": [
+            "..U.10819",
+            "..U.CYPRIOT SYLLABLE NA",
+            "U+10819",
+        ],
+        "body": [
+            "${1|𐠙,&#x10819;,U+10819,0x10819,CYPRIOT SYLLABLE NA|}$2",
+        ],
+        "description": [
+            "Code: U+10819",
+            "Character/Symbol: 𐠙",
+            "Name: CYPRIOT SYLLABLE NA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠚 U+1081A CYPRIOT SYLLABLE NE": 
+    {
+        "prefix": [
+            "..U.1081A",
+            "..U.CYPRIOT SYLLABLE NE",
+            "U+1081A",
+        ],
+        "body": [
+            "${1|𐠚,&#x1081A;,U+1081A,0x1081A,CYPRIOT SYLLABLE NE|}$2",
+        ],
+        "description": [
+            "Code: U+1081A",
+            "Character/Symbol: 𐠚",
+            "Name: CYPRIOT SYLLABLE NE",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠛 U+1081B CYPRIOT SYLLABLE NI": 
+    {
+        "prefix": [
+            "..U.1081B",
+            "..U.CYPRIOT SYLLABLE NI",
+            "U+1081B",
+        ],
+        "body": [
+            "${1|𐠛,&#x1081B;,U+1081B,0x1081B,CYPRIOT SYLLABLE NI|}$2",
+        ],
+        "description": [
+            "Code: U+1081B",
+            "Character/Symbol: 𐠛",
+            "Name: CYPRIOT SYLLABLE NI",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠜 U+1081C CYPRIOT SYLLABLE NO": 
+    {
+        "prefix": [
+            "..U.1081C",
+            "..U.CYPRIOT SYLLABLE NO",
+            "U+1081C",
+        ],
+        "body": [
+            "${1|𐠜,&#x1081C;,U+1081C,0x1081C,CYPRIOT SYLLABLE NO|}$2",
+        ],
+        "description": [
+            "Code: U+1081C",
+            "Character/Symbol: 𐠜",
+            "Name: CYPRIOT SYLLABLE NO",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠝 U+1081D CYPRIOT SYLLABLE NU": 
+    {
+        "prefix": [
+            "..U.1081D",
+            "..U.CYPRIOT SYLLABLE NU",
+            "U+1081D",
+        ],
+        "body": [
+            "${1|𐠝,&#x1081D;,U+1081D,0x1081D,CYPRIOT SYLLABLE NU|}$2",
+        ],
+        "description": [
+            "Code: U+1081D",
+            "Character/Symbol: 𐠝",
+            "Name: CYPRIOT SYLLABLE NU",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠞 U+1081E CYPRIOT SYLLABLE PA": 
+    {
+        "prefix": [
+            "..U.1081E",
+            "..U.CYPRIOT SYLLABLE PA",
+            "U+1081E",
+        ],
+        "body": [
+            "${1|𐠞,&#x1081E;,U+1081E,0x1081E,CYPRIOT SYLLABLE PA|}$2",
+        ],
+        "description": [
+            "Code: U+1081E",
+            "Character/Symbol: 𐠞",
+            "Name: CYPRIOT SYLLABLE PA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠟 U+1081F CYPRIOT SYLLABLE PE": 
+    {
+        "prefix": [
+            "..U.1081F",
+            "..U.CYPRIOT SYLLABLE PE",
+            "U+1081F",
+        ],
+        "body": [
+            "${1|𐠟,&#x1081F;,U+1081F,0x1081F,CYPRIOT SYLLABLE PE|}$2",
+        ],
+        "description": [
+            "Code: U+1081F",
+            "Character/Symbol: 𐠟",
+            "Name: CYPRIOT SYLLABLE PE",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠠 U+10820 CYPRIOT SYLLABLE PI": 
+    {
+        "prefix": [
+            "..U.10820",
+            "..U.CYPRIOT SYLLABLE PI",
+            "U+10820",
+        ],
+        "body": [
+            "${1|𐠠,&#x10820;,U+10820,0x10820,CYPRIOT SYLLABLE PI|}$2",
+        ],
+        "description": [
+            "Code: U+10820",
+            "Character/Symbol: 𐠠",
+            "Name: CYPRIOT SYLLABLE PI",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠡 U+10821 CYPRIOT SYLLABLE PO": 
+    {
+        "prefix": [
+            "..U.10821",
+            "..U.CYPRIOT SYLLABLE PO",
+            "U+10821",
+        ],
+        "body": [
+            "${1|𐠡,&#x10821;,U+10821,0x10821,CYPRIOT SYLLABLE PO|}$2",
+        ],
+        "description": [
+            "Code: U+10821",
+            "Character/Symbol: 𐠡",
+            "Name: CYPRIOT SYLLABLE PO",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠢 U+10822 CYPRIOT SYLLABLE PU": 
+    {
+        "prefix": [
+            "..U.10822",
+            "..U.CYPRIOT SYLLABLE PU",
+            "U+10822",
+        ],
+        "body": [
+            "${1|𐠢,&#x10822;,U+10822,0x10822,CYPRIOT SYLLABLE PU|}$2",
+        ],
+        "description": [
+            "Code: U+10822",
+            "Character/Symbol: 𐠢",
+            "Name: CYPRIOT SYLLABLE PU",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠣 U+10823 CYPRIOT SYLLABLE RA": 
+    {
+        "prefix": [
+            "..U.10823",
+            "..U.CYPRIOT SYLLABLE RA",
+            "U+10823",
+        ],
+        "body": [
+            "${1|𐠣,&#x10823;,U+10823,0x10823,CYPRIOT SYLLABLE RA|}$2",
+        ],
+        "description": [
+            "Code: U+10823",
+            "Character/Symbol: 𐠣",
+            "Name: CYPRIOT SYLLABLE RA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠤 U+10824 CYPRIOT SYLLABLE RE": 
+    {
+        "prefix": [
+            "..U.10824",
+            "..U.CYPRIOT SYLLABLE RE",
+            "U+10824",
+        ],
+        "body": [
+            "${1|𐠤,&#x10824;,U+10824,0x10824,CYPRIOT SYLLABLE RE|}$2",
+        ],
+        "description": [
+            "Code: U+10824",
+            "Character/Symbol: 𐠤",
+            "Name: CYPRIOT SYLLABLE RE",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠥 U+10825 CYPRIOT SYLLABLE RI": 
+    {
+        "prefix": [
+            "..U.10825",
+            "..U.CYPRIOT SYLLABLE RI",
+            "U+10825",
+        ],
+        "body": [
+            "${1|𐠥,&#x10825;,U+10825,0x10825,CYPRIOT SYLLABLE RI|}$2",
+        ],
+        "description": [
+            "Code: U+10825",
+            "Character/Symbol: 𐠥",
+            "Name: CYPRIOT SYLLABLE RI",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠦 U+10826 CYPRIOT SYLLABLE RO": 
+    {
+        "prefix": [
+            "..U.10826",
+            "..U.CYPRIOT SYLLABLE RO",
+            "U+10826",
+        ],
+        "body": [
+            "${1|𐠦,&#x10826;,U+10826,0x10826,CYPRIOT SYLLABLE RO|}$2",
+        ],
+        "description": [
+            "Code: U+10826",
+            "Character/Symbol: 𐠦",
+            "Name: CYPRIOT SYLLABLE RO",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠧 U+10827 CYPRIOT SYLLABLE RU": 
+    {
+        "prefix": [
+            "..U.10827",
+            "..U.CYPRIOT SYLLABLE RU",
+            "U+10827",
+        ],
+        "body": [
+            "${1|𐠧,&#x10827;,U+10827,0x10827,CYPRIOT SYLLABLE RU|}$2",
+        ],
+        "description": [
+            "Code: U+10827",
+            "Character/Symbol: 𐠧",
+            "Name: CYPRIOT SYLLABLE RU",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠨 U+10828 CYPRIOT SYLLABLE SA": 
+    {
+        "prefix": [
+            "..U.10828",
+            "..U.CYPRIOT SYLLABLE SA",
+            "U+10828",
+        ],
+        "body": [
+            "${1|𐠨,&#x10828;,U+10828,0x10828,CYPRIOT SYLLABLE SA|}$2",
+        ],
+        "description": [
+            "Code: U+10828",
+            "Character/Symbol: 𐠨",
+            "Name: CYPRIOT SYLLABLE SA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠩 U+10829 CYPRIOT SYLLABLE SE": 
+    {
+        "prefix": [
+            "..U.10829",
+            "..U.CYPRIOT SYLLABLE SE",
+            "U+10829",
+        ],
+        "body": [
+            "${1|𐠩,&#x10829;,U+10829,0x10829,CYPRIOT SYLLABLE SE|}$2",
+        ],
+        "description": [
+            "Code: U+10829",
+            "Character/Symbol: 𐠩",
+            "Name: CYPRIOT SYLLABLE SE",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠪 U+1082A CYPRIOT SYLLABLE SI": 
+    {
+        "prefix": [
+            "..U.1082A",
+            "..U.CYPRIOT SYLLABLE SI",
+            "U+1082A",
+        ],
+        "body": [
+            "${1|𐠪,&#x1082A;,U+1082A,0x1082A,CYPRIOT SYLLABLE SI|}$2",
+        ],
+        "description": [
+            "Code: U+1082A",
+            "Character/Symbol: 𐠪",
+            "Name: CYPRIOT SYLLABLE SI",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠫 U+1082B CYPRIOT SYLLABLE SO": 
+    {
+        "prefix": [
+            "..U.1082B",
+            "..U.CYPRIOT SYLLABLE SO",
+            "U+1082B",
+        ],
+        "body": [
+            "${1|𐠫,&#x1082B;,U+1082B,0x1082B,CYPRIOT SYLLABLE SO|}$2",
+        ],
+        "description": [
+            "Code: U+1082B",
+            "Character/Symbol: 𐠫",
+            "Name: CYPRIOT SYLLABLE SO",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠬 U+1082C CYPRIOT SYLLABLE SU": 
+    {
+        "prefix": [
+            "..U.1082C",
+            "..U.CYPRIOT SYLLABLE SU",
+            "U+1082C",
+        ],
+        "body": [
+            "${1|𐠬,&#x1082C;,U+1082C,0x1082C,CYPRIOT SYLLABLE SU|}$2",
+        ],
+        "description": [
+            "Code: U+1082C",
+            "Character/Symbol: 𐠬",
+            "Name: CYPRIOT SYLLABLE SU",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠭 U+1082D CYPRIOT SYLLABLE TA": 
+    {
+        "prefix": [
+            "..U.1082D",
+            "..U.CYPRIOT SYLLABLE TA",
+            "U+1082D",
+        ],
+        "body": [
+            "${1|𐠭,&#x1082D;,U+1082D,0x1082D,CYPRIOT SYLLABLE TA|}$2",
+        ],
+        "description": [
+            "Code: U+1082D",
+            "Character/Symbol: 𐠭",
+            "Name: CYPRIOT SYLLABLE TA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠮 U+1082E CYPRIOT SYLLABLE TE": 
+    {
+        "prefix": [
+            "..U.1082E",
+            "..U.CYPRIOT SYLLABLE TE",
+            "U+1082E",
+        ],
+        "body": [
+            "${1|𐠮,&#x1082E;,U+1082E,0x1082E,CYPRIOT SYLLABLE TE|}$2",
+        ],
+        "description": [
+            "Code: U+1082E",
+            "Character/Symbol: 𐠮",
+            "Name: CYPRIOT SYLLABLE TE",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠯 U+1082F CYPRIOT SYLLABLE TI": 
+    {
+        "prefix": [
+            "..U.1082F",
+            "..U.CYPRIOT SYLLABLE TI",
+            "U+1082F",
+        ],
+        "body": [
+            "${1|𐠯,&#x1082F;,U+1082F,0x1082F,CYPRIOT SYLLABLE TI|}$2",
+        ],
+        "description": [
+            "Code: U+1082F",
+            "Character/Symbol: 𐠯",
+            "Name: CYPRIOT SYLLABLE TI",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠰 U+10830 CYPRIOT SYLLABLE TO": 
+    {
+        "prefix": [
+            "..U.10830",
+            "..U.CYPRIOT SYLLABLE TO",
+            "U+10830",
+        ],
+        "body": [
+            "${1|𐠰,&#x10830;,U+10830,0x10830,CYPRIOT SYLLABLE TO|}$2",
+        ],
+        "description": [
+            "Code: U+10830",
+            "Character/Symbol: 𐠰",
+            "Name: CYPRIOT SYLLABLE TO",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠱 U+10831 CYPRIOT SYLLABLE TU": 
+    {
+        "prefix": [
+            "..U.10831",
+            "..U.CYPRIOT SYLLABLE TU",
+            "U+10831",
+        ],
+        "body": [
+            "${1|𐠱,&#x10831;,U+10831,0x10831,CYPRIOT SYLLABLE TU|}$2",
+        ],
+        "description": [
+            "Code: U+10831",
+            "Character/Symbol: 𐠱",
+            "Name: CYPRIOT SYLLABLE TU",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠲 U+10832 CYPRIOT SYLLABLE WA": 
+    {
+        "prefix": [
+            "..U.10832",
+            "..U.CYPRIOT SYLLABLE WA",
+            "U+10832",
+        ],
+        "body": [
+            "${1|𐠲,&#x10832;,U+10832,0x10832,CYPRIOT SYLLABLE WA|}$2",
+        ],
+        "description": [
+            "Code: U+10832",
+            "Character/Symbol: 𐠲",
+            "Name: CYPRIOT SYLLABLE WA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠳 U+10833 CYPRIOT SYLLABLE WE": 
+    {
+        "prefix": [
+            "..U.10833",
+            "..U.CYPRIOT SYLLABLE WE",
+            "U+10833",
+        ],
+        "body": [
+            "${1|𐠳,&#x10833;,U+10833,0x10833,CYPRIOT SYLLABLE WE|}$2",
+        ],
+        "description": [
+            "Code: U+10833",
+            "Character/Symbol: 𐠳",
+            "Name: CYPRIOT SYLLABLE WE",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠴 U+10834 CYPRIOT SYLLABLE WI": 
+    {
+        "prefix": [
+            "..U.10834",
+            "..U.CYPRIOT SYLLABLE WI",
+            "U+10834",
+        ],
+        "body": [
+            "${1|𐠴,&#x10834;,U+10834,0x10834,CYPRIOT SYLLABLE WI|}$2",
+        ],
+        "description": [
+            "Code: U+10834",
+            "Character/Symbol: 𐠴",
+            "Name: CYPRIOT SYLLABLE WI",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠵 U+10835 CYPRIOT SYLLABLE WO": 
+    {
+        "prefix": [
+            "..U.10835",
+            "..U.CYPRIOT SYLLABLE WO",
+            "U+10835",
+        ],
+        "body": [
+            "${1|𐠵,&#x10835;,U+10835,0x10835,CYPRIOT SYLLABLE WO|}$2",
+        ],
+        "description": [
+            "Code: U+10835",
+            "Character/Symbol: 𐠵",
+            "Name: CYPRIOT SYLLABLE WO",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠷 U+10837 CYPRIOT SYLLABLE XA": 
+    {
+        "prefix": [
+            "..U.10837",
+            "..U.CYPRIOT SYLLABLE XA",
+            "U+10837",
+        ],
+        "body": [
+            "${1|𐠷,&#x10837;,U+10837,0x10837,CYPRIOT SYLLABLE XA|}$2",
+        ],
+        "description": [
+            "Code: U+10837",
+            "Character/Symbol: 𐠷",
+            "Name: CYPRIOT SYLLABLE XA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠸 U+10838 CYPRIOT SYLLABLE XE": 
+    {
+        "prefix": [
+            "..U.10838",
+            "..U.CYPRIOT SYLLABLE XE",
+            "U+10838",
+        ],
+        "body": [
+            "${1|𐠸,&#x10838;,U+10838,0x10838,CYPRIOT SYLLABLE XE|}$2",
+        ],
+        "description": [
+            "Code: U+10838",
+            "Character/Symbol: 𐠸",
+            "Name: CYPRIOT SYLLABLE XE",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠼 U+1083C CYPRIOT SYLLABLE ZA": 
+    {
+        "prefix": [
+            "..U.1083C",
+            "..U.CYPRIOT SYLLABLE ZA",
+            "U+1083C",
+        ],
+        "body": [
+            "${1|𐠼,&#x1083C;,U+1083C,0x1083C,CYPRIOT SYLLABLE ZA|}$2",
+        ],
+        "description": [
+            "Code: U+1083C",
+            "Character/Symbol: 𐠼",
+            "Name: CYPRIOT SYLLABLE ZA",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+    "Unicode 𐠿 U+1083F CYPRIOT SYLLABLE ZO": 
+    {
+        "prefix": [
+            "..U.1083F",
+            "..U.CYPRIOT SYLLABLE ZO",
+            "U+1083F",
+        ],
+        "body": [
+            "${1|𐠿,&#x1083F;,U+1083F,0x1083F,CYPRIOT SYLLABLE ZO|}$2",
+        ],
+        "description": [
+            "Code: U+1083F",
+            "Character/Symbol: 𐠿",
+            "Name: CYPRIOT SYLLABLE ZO",
+            "Group/Block: Cypriot_Syllabary",
+        ],
+    },
+
+}

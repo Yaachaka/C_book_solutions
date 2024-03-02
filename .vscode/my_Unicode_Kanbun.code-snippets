@@ -1,0 +1,290 @@
+{
+    "Unicode ㆐ U+3190 IDEOGRAPHIC ANNOTATION LINKING MARK": 
+    {
+        "prefix": [
+            "..U.3190",
+            "..U.IDEOGRAPHIC ANNOTATION LINKING MARK",
+            "U+3190",
+        ],
+        "body": [
+            "${1|㆐,&#x3190;,U+3190,0x3190,IDEOGRAPHIC ANNOTATION LINKING MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3190",
+            "Character/Symbol: ㆐",
+            "Name: IDEOGRAPHIC ANNOTATION LINKING MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆑ U+3191 IDEOGRAPHIC ANNOTATION REVERSE MARK": 
+    {
+        "prefix": [
+            "..U.3191",
+            "..U.IDEOGRAPHIC ANNOTATION REVERSE MARK",
+            "U+3191",
+        ],
+        "body": [
+            "${1|㆑,&#x3191;,U+3191,0x3191,IDEOGRAPHIC ANNOTATION REVERSE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3191",
+            "Character/Symbol: ㆑",
+            "Name: IDEOGRAPHIC ANNOTATION REVERSE MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆒ U+3192 IDEOGRAPHIC ANNOTATION ONE MARK": 
+    {
+        "prefix": [
+            "..U.3192",
+            "..U.IDEOGRAPHIC ANNOTATION ONE MARK",
+            "U+3192",
+        ],
+        "body": [
+            "${1|㆒,&#x3192;,U+3192,0x3192,IDEOGRAPHIC ANNOTATION ONE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3192",
+            "Character/Symbol: ㆒",
+            "Name: IDEOGRAPHIC ANNOTATION ONE MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆓ U+3193 IDEOGRAPHIC ANNOTATION TWO MARK": 
+    {
+        "prefix": [
+            "..U.3193",
+            "..U.IDEOGRAPHIC ANNOTATION TWO MARK",
+            "U+3193",
+        ],
+        "body": [
+            "${1|㆓,&#x3193;,U+3193,0x3193,IDEOGRAPHIC ANNOTATION TWO MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3193",
+            "Character/Symbol: ㆓",
+            "Name: IDEOGRAPHIC ANNOTATION TWO MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆔ U+3194 IDEOGRAPHIC ANNOTATION THREE MARK": 
+    {
+        "prefix": [
+            "..U.3194",
+            "..U.IDEOGRAPHIC ANNOTATION THREE MARK",
+            "U+3194",
+        ],
+        "body": [
+            "${1|㆔,&#x3194;,U+3194,0x3194,IDEOGRAPHIC ANNOTATION THREE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3194",
+            "Character/Symbol: ㆔",
+            "Name: IDEOGRAPHIC ANNOTATION THREE MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆕ U+3195 IDEOGRAPHIC ANNOTATION FOUR MARK": 
+    {
+        "prefix": [
+            "..U.3195",
+            "..U.IDEOGRAPHIC ANNOTATION FOUR MARK",
+            "U+3195",
+        ],
+        "body": [
+            "${1|㆕,&#x3195;,U+3195,0x3195,IDEOGRAPHIC ANNOTATION FOUR MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3195",
+            "Character/Symbol: ㆕",
+            "Name: IDEOGRAPHIC ANNOTATION FOUR MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆖ U+3196 IDEOGRAPHIC ANNOTATION TOP MARK": 
+    {
+        "prefix": [
+            "..U.3196",
+            "..U.IDEOGRAPHIC ANNOTATION TOP MARK",
+            "U+3196",
+        ],
+        "body": [
+            "${1|㆖,&#x3196;,U+3196,0x3196,IDEOGRAPHIC ANNOTATION TOP MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3196",
+            "Character/Symbol: ㆖",
+            "Name: IDEOGRAPHIC ANNOTATION TOP MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆗ U+3197 IDEOGRAPHIC ANNOTATION MIDDLE MARK": 
+    {
+        "prefix": [
+            "..U.3197",
+            "..U.IDEOGRAPHIC ANNOTATION MIDDLE MARK",
+            "U+3197",
+        ],
+        "body": [
+            "${1|㆗,&#x3197;,U+3197,0x3197,IDEOGRAPHIC ANNOTATION MIDDLE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3197",
+            "Character/Symbol: ㆗",
+            "Name: IDEOGRAPHIC ANNOTATION MIDDLE MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆘ U+3198 IDEOGRAPHIC ANNOTATION BOTTOM MARK": 
+    {
+        "prefix": [
+            "..U.3198",
+            "..U.IDEOGRAPHIC ANNOTATION BOTTOM MARK",
+            "U+3198",
+        ],
+        "body": [
+            "${1|㆘,&#x3198;,U+3198,0x3198,IDEOGRAPHIC ANNOTATION BOTTOM MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3198",
+            "Character/Symbol: ㆘",
+            "Name: IDEOGRAPHIC ANNOTATION BOTTOM MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆙ U+3199 IDEOGRAPHIC ANNOTATION FIRST MARK": 
+    {
+        "prefix": [
+            "..U.3199",
+            "..U.IDEOGRAPHIC ANNOTATION FIRST MARK",
+            "U+3199",
+        ],
+        "body": [
+            "${1|㆙,&#x3199;,U+3199,0x3199,IDEOGRAPHIC ANNOTATION FIRST MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3199",
+            "Character/Symbol: ㆙",
+            "Name: IDEOGRAPHIC ANNOTATION FIRST MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆚ U+319A IDEOGRAPHIC ANNOTATION SECOND MARK": 
+    {
+        "prefix": [
+            "..U.319A",
+            "..U.IDEOGRAPHIC ANNOTATION SECOND MARK",
+            "U+319A",
+        ],
+        "body": [
+            "${1|㆚,&#x319A;,U+319A,0x319A,IDEOGRAPHIC ANNOTATION SECOND MARK|}$2",
+        ],
+        "description": [
+            "Code: U+319A",
+            "Character/Symbol: ㆚",
+            "Name: IDEOGRAPHIC ANNOTATION SECOND MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆛ U+319B IDEOGRAPHIC ANNOTATION THIRD MARK": 
+    {
+        "prefix": [
+            "..U.319B",
+            "..U.IDEOGRAPHIC ANNOTATION THIRD MARK",
+            "U+319B",
+        ],
+        "body": [
+            "${1|㆛,&#x319B;,U+319B,0x319B,IDEOGRAPHIC ANNOTATION THIRD MARK|}$2",
+        ],
+        "description": [
+            "Code: U+319B",
+            "Character/Symbol: ㆛",
+            "Name: IDEOGRAPHIC ANNOTATION THIRD MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆜ U+319C IDEOGRAPHIC ANNOTATION FOURTH MARK": 
+    {
+        "prefix": [
+            "..U.319C",
+            "..U.IDEOGRAPHIC ANNOTATION FOURTH MARK",
+            "U+319C",
+        ],
+        "body": [
+            "${1|㆜,&#x319C;,U+319C,0x319C,IDEOGRAPHIC ANNOTATION FOURTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+319C",
+            "Character/Symbol: ㆜",
+            "Name: IDEOGRAPHIC ANNOTATION FOURTH MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆝ U+319D IDEOGRAPHIC ANNOTATION HEAVEN MARK": 
+    {
+        "prefix": [
+            "..U.319D",
+            "..U.IDEOGRAPHIC ANNOTATION HEAVEN MARK",
+            "U+319D",
+        ],
+        "body": [
+            "${1|㆝,&#x319D;,U+319D,0x319D,IDEOGRAPHIC ANNOTATION HEAVEN MARK|}$2",
+        ],
+        "description": [
+            "Code: U+319D",
+            "Character/Symbol: ㆝",
+            "Name: IDEOGRAPHIC ANNOTATION HEAVEN MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆞ U+319E IDEOGRAPHIC ANNOTATION EARTH MARK": 
+    {
+        "prefix": [
+            "..U.319E",
+            "..U.IDEOGRAPHIC ANNOTATION EARTH MARK",
+            "U+319E",
+        ],
+        "body": [
+            "${1|㆞,&#x319E;,U+319E,0x319E,IDEOGRAPHIC ANNOTATION EARTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+319E",
+            "Character/Symbol: ㆞",
+            "Name: IDEOGRAPHIC ANNOTATION EARTH MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+    "Unicode ㆟ U+319F IDEOGRAPHIC ANNOTATION MAN MARK": 
+    {
+        "prefix": [
+            "..U.319F",
+            "..U.IDEOGRAPHIC ANNOTATION MAN MARK",
+            "U+319F",
+        ],
+        "body": [
+            "${1|㆟,&#x319F;,U+319F,0x319F,IDEOGRAPHIC ANNOTATION MAN MARK|}$2",
+        ],
+        "description": [
+            "Code: U+319F",
+            "Character/Symbol: ㆟",
+            "Name: IDEOGRAPHIC ANNOTATION MAN MARK",
+            "Group/Block: Kanbun",
+        ],
+    },
+
+}

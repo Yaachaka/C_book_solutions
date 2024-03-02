@@ -1,0 +1,1442 @@
+{
+    "Unicode ʰ U+02B0 MODIFIER LETTER SMALL H": 
+    {
+        "prefix": [
+            "..U.02B0",
+            "..U.MODIFIER LETTER SMALL H",
+            "U+02B0",
+        ],
+        "body": [
+            "${1|ʰ,&#x02B0;,U+02B0,0x02B0,MODIFIER LETTER SMALL H|}$2",
+        ],
+        "description": [
+            "Code: U+02B0",
+            "Character/Symbol: ʰ",
+            "Name: MODIFIER LETTER SMALL H",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʱ U+02B1 MODIFIER LETTER SMALL H WITH HOOK": 
+    {
+        "prefix": [
+            "..U.02B1",
+            "..U.MODIFIER LETTER SMALL H WITH HOOK",
+            "U+02B1",
+        ],
+        "body": [
+            "${1|ʱ,&#x02B1;,U+02B1,0x02B1,MODIFIER LETTER SMALL H WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+02B1",
+            "Character/Symbol: ʱ",
+            "Name: MODIFIER LETTER SMALL H WITH HOOK",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʲ U+02B2 MODIFIER LETTER SMALL J": 
+    {
+        "prefix": [
+            "..U.02B2",
+            "..U.MODIFIER LETTER SMALL J",
+            "U+02B2",
+        ],
+        "body": [
+            "${1|ʲ,&#x02B2;,U+02B2,0x02B2,MODIFIER LETTER SMALL J|}$2",
+        ],
+        "description": [
+            "Code: U+02B2",
+            "Character/Symbol: ʲ",
+            "Name: MODIFIER LETTER SMALL J",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʳ U+02B3 MODIFIER LETTER SMALL R": 
+    {
+        "prefix": [
+            "..U.02B3",
+            "..U.MODIFIER LETTER SMALL R",
+            "U+02B3",
+        ],
+        "body": [
+            "${1|ʳ,&#x02B3;,U+02B3,0x02B3,MODIFIER LETTER SMALL R|}$2",
+        ],
+        "description": [
+            "Code: U+02B3",
+            "Character/Symbol: ʳ",
+            "Name: MODIFIER LETTER SMALL R",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʴ U+02B4 MODIFIER LETTER SMALL TURNED R": 
+    {
+        "prefix": [
+            "..U.02B4",
+            "..U.MODIFIER LETTER SMALL TURNED R",
+            "U+02B4",
+        ],
+        "body": [
+            "${1|ʴ,&#x02B4;,U+02B4,0x02B4,MODIFIER LETTER SMALL TURNED R|}$2",
+        ],
+        "description": [
+            "Code: U+02B4",
+            "Character/Symbol: ʴ",
+            "Name: MODIFIER LETTER SMALL TURNED R",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʵ U+02B5 MODIFIER LETTER SMALL TURNED R WITH HOOK": 
+    {
+        "prefix": [
+            "..U.02B5",
+            "..U.MODIFIER LETTER SMALL TURNED R WITH HOOK",
+            "U+02B5",
+        ],
+        "body": [
+            "${1|ʵ,&#x02B5;,U+02B5,0x02B5,MODIFIER LETTER SMALL TURNED R WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+02B5",
+            "Character/Symbol: ʵ",
+            "Name: MODIFIER LETTER SMALL TURNED R WITH HOOK",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʶ U+02B6 MODIFIER LETTER SMALL CAPITAL INVERTED R": 
+    {
+        "prefix": [
+            "..U.02B6",
+            "..U.MODIFIER LETTER SMALL CAPITAL INVERTED R",
+            "U+02B6",
+        ],
+        "body": [
+            "${1|ʶ,&#x02B6;,U+02B6,0x02B6,MODIFIER LETTER SMALL CAPITAL INVERTED R|}$2",
+        ],
+        "description": [
+            "Code: U+02B6",
+            "Character/Symbol: ʶ",
+            "Name: MODIFIER LETTER SMALL CAPITAL INVERTED R",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʷ U+02B7 MODIFIER LETTER SMALL W": 
+    {
+        "prefix": [
+            "..U.02B7",
+            "..U.MODIFIER LETTER SMALL W",
+            "U+02B7",
+        ],
+        "body": [
+            "${1|ʷ,&#x02B7;,U+02B7,0x02B7,MODIFIER LETTER SMALL W|}$2",
+        ],
+        "description": [
+            "Code: U+02B7",
+            "Character/Symbol: ʷ",
+            "Name: MODIFIER LETTER SMALL W",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʸ U+02B8 MODIFIER LETTER SMALL Y": 
+    {
+        "prefix": [
+            "..U.02B8",
+            "..U.MODIFIER LETTER SMALL Y",
+            "U+02B8",
+        ],
+        "body": [
+            "${1|ʸ,&#x02B8;,U+02B8,0x02B8,MODIFIER LETTER SMALL Y|}$2",
+        ],
+        "description": [
+            "Code: U+02B8",
+            "Character/Symbol: ʸ",
+            "Name: MODIFIER LETTER SMALL Y",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʹ U+02B9 MODIFIER LETTER PRIME": 
+    {
+        "prefix": [
+            "..U.02B9",
+            "..U.MODIFIER LETTER PRIME",
+            "U+02B9",
+        ],
+        "body": [
+            "${1|ʹ,&#x02B9;,U+02B9,0x02B9,MODIFIER LETTER PRIME|}$2",
+        ],
+        "description": [
+            "Code: U+02B9",
+            "Character/Symbol: ʹ",
+            "Name: MODIFIER LETTER PRIME",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʺ U+02BA MODIFIER LETTER DOUBLE PRIME": 
+    {
+        "prefix": [
+            "..U.02BA",
+            "..U.MODIFIER LETTER DOUBLE PRIME",
+            "U+02BA",
+        ],
+        "body": [
+            "${1|ʺ,&#x02BA;,U+02BA,0x02BA,MODIFIER LETTER DOUBLE PRIME|}$2",
+        ],
+        "description": [
+            "Code: U+02BA",
+            "Character/Symbol: ʺ",
+            "Name: MODIFIER LETTER DOUBLE PRIME",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʻ U+02BB MODIFIER LETTER TURNED COMMA": 
+    {
+        "prefix": [
+            "..U.02BB",
+            "..U.MODIFIER LETTER TURNED COMMA",
+            "U+02BB",
+        ],
+        "body": [
+            "${1|ʻ,&#x02BB;,U+02BB,0x02BB,MODIFIER LETTER TURNED COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+02BB",
+            "Character/Symbol: ʻ",
+            "Name: MODIFIER LETTER TURNED COMMA",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʼ U+02BC MODIFIER LETTER APOSTROPHE": 
+    {
+        "prefix": [
+            "..U.02BC",
+            "..U.MODIFIER LETTER APOSTROPHE",
+            "U+02BC",
+        ],
+        "body": [
+            "${1|ʼ,&#x02BC;,U+02BC,0x02BC,MODIFIER LETTER APOSTROPHE|}$2",
+        ],
+        "description": [
+            "Code: U+02BC",
+            "Character/Symbol: ʼ",
+            "Name: MODIFIER LETTER APOSTROPHE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʽ U+02BD MODIFIER LETTER REVERSED COMMA": 
+    {
+        "prefix": [
+            "..U.02BD",
+            "..U.MODIFIER LETTER REVERSED COMMA",
+            "U+02BD",
+        ],
+        "body": [
+            "${1|ʽ,&#x02BD;,U+02BD,0x02BD,MODIFIER LETTER REVERSED COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+02BD",
+            "Character/Symbol: ʽ",
+            "Name: MODIFIER LETTER REVERSED COMMA",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʾ U+02BE MODIFIER LETTER RIGHT HALF RING": 
+    {
+        "prefix": [
+            "..U.02BE",
+            "..U.MODIFIER LETTER RIGHT HALF RING",
+            "U+02BE",
+        ],
+        "body": [
+            "${1|ʾ,&#x02BE;,U+02BE,0x02BE,MODIFIER LETTER RIGHT HALF RING|}$2",
+        ],
+        "description": [
+            "Code: U+02BE",
+            "Character/Symbol: ʾ",
+            "Name: MODIFIER LETTER RIGHT HALF RING",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ʿ U+02BF MODIFIER LETTER LEFT HALF RING": 
+    {
+        "prefix": [
+            "..U.02BF",
+            "..U.MODIFIER LETTER LEFT HALF RING",
+            "U+02BF",
+        ],
+        "body": [
+            "${1|ʿ,&#x02BF;,U+02BF,0x02BF,MODIFIER LETTER LEFT HALF RING|}$2",
+        ],
+        "description": [
+            "Code: U+02BF",
+            "Character/Symbol: ʿ",
+            "Name: MODIFIER LETTER LEFT HALF RING",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˀ U+02C0 MODIFIER LETTER GLOTTAL STOP": 
+    {
+        "prefix": [
+            "..U.02C0",
+            "..U.MODIFIER LETTER GLOTTAL STOP",
+            "U+02C0",
+        ],
+        "body": [
+            "${1|ˀ,&#x02C0;,U+02C0,0x02C0,MODIFIER LETTER GLOTTAL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+02C0",
+            "Character/Symbol: ˀ",
+            "Name: MODIFIER LETTER GLOTTAL STOP",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˁ U+02C1 MODIFIER LETTER REVERSED GLOTTAL STOP": 
+    {
+        "prefix": [
+            "..U.02C1",
+            "..U.MODIFIER LETTER REVERSED GLOTTAL STOP",
+            "U+02C1",
+        ],
+        "body": [
+            "${1|ˁ,&#x02C1;,U+02C1,0x02C1,MODIFIER LETTER REVERSED GLOTTAL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+02C1",
+            "Character/Symbol: ˁ",
+            "Name: MODIFIER LETTER REVERSED GLOTTAL STOP",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˂ U+02C2 MODIFIER LETTER LEFT ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.02C2",
+            "..U.MODIFIER LETTER LEFT ARROWHEAD",
+            "U+02C2",
+        ],
+        "body": [
+            "${1|˂,&#x02C2;,U+02C2,0x02C2,MODIFIER LETTER LEFT ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+02C2",
+            "Character/Symbol: ˂",
+            "Name: MODIFIER LETTER LEFT ARROWHEAD",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˃ U+02C3 MODIFIER LETTER RIGHT ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.02C3",
+            "..U.MODIFIER LETTER RIGHT ARROWHEAD",
+            "U+02C3",
+        ],
+        "body": [
+            "${1|˃,&#x02C3;,U+02C3,0x02C3,MODIFIER LETTER RIGHT ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+02C3",
+            "Character/Symbol: ˃",
+            "Name: MODIFIER LETTER RIGHT ARROWHEAD",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˄ U+02C4 MODIFIER LETTER UP ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.02C4",
+            "..U.MODIFIER LETTER UP ARROWHEAD",
+            "U+02C4",
+        ],
+        "body": [
+            "${1|˄,&#x02C4;,U+02C4,0x02C4,MODIFIER LETTER UP ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+02C4",
+            "Character/Symbol: ˄",
+            "Name: MODIFIER LETTER UP ARROWHEAD",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˅ U+02C5 MODIFIER LETTER DOWN ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.02C5",
+            "..U.MODIFIER LETTER DOWN ARROWHEAD",
+            "U+02C5",
+        ],
+        "body": [
+            "${1|˅,&#x02C5;,U+02C5,0x02C5,MODIFIER LETTER DOWN ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+02C5",
+            "Character/Symbol: ˅",
+            "Name: MODIFIER LETTER DOWN ARROWHEAD",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˆ U+02C6 MODIFIER LETTER CIRCUMFLEX ACCENT": 
+    {
+        "prefix": [
+            "..U.02C6",
+            "..U.MODIFIER LETTER CIRCUMFLEX ACCENT",
+            "U+02C6",
+        ],
+        "body": [
+            "${1|ˆ,&#x02C6;,U+02C6,0x02C6,MODIFIER LETTER CIRCUMFLEX ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+02C6",
+            "Character/Symbol: ˆ",
+            "Name: MODIFIER LETTER CIRCUMFLEX ACCENT",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˇ U+02C7 CARON": 
+    {
+        "prefix": [
+            "..U.02C7",
+            "..U.CARON",
+            "U+02C7",
+        ],
+        "body": [
+            "${1|ˇ,&#x02C7;,U+02C7,0x02C7,CARON|}$2",
+        ],
+        "description": [
+            "Code: U+02C7",
+            "Character/Symbol: ˇ",
+            "Name: CARON",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˈ U+02C8 MODIFIER LETTER VERTICAL LINE": 
+    {
+        "prefix": [
+            "..U.02C8",
+            "..U.MODIFIER LETTER VERTICAL LINE",
+            "U+02C8",
+        ],
+        "body": [
+            "${1|ˈ,&#x02C8;,U+02C8,0x02C8,MODIFIER LETTER VERTICAL LINE|}$2",
+        ],
+        "description": [
+            "Code: U+02C8",
+            "Character/Symbol: ˈ",
+            "Name: MODIFIER LETTER VERTICAL LINE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˉ U+02C9 MODIFIER LETTER MACRON": 
+    {
+        "prefix": [
+            "..U.02C9",
+            "..U.MODIFIER LETTER MACRON",
+            "U+02C9",
+        ],
+        "body": [
+            "${1|ˉ,&#x02C9;,U+02C9,0x02C9,MODIFIER LETTER MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+02C9",
+            "Character/Symbol: ˉ",
+            "Name: MODIFIER LETTER MACRON",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˊ U+02CA MODIFIER LETTER ACUTE ACCENT": 
+    {
+        "prefix": [
+            "..U.02CA",
+            "..U.MODIFIER LETTER ACUTE ACCENT",
+            "U+02CA",
+        ],
+        "body": [
+            "${1|ˊ,&#x02CA;,U+02CA,0x02CA,MODIFIER LETTER ACUTE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+02CA",
+            "Character/Symbol: ˊ",
+            "Name: MODIFIER LETTER ACUTE ACCENT",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˋ U+02CB MODIFIER LETTER GRAVE ACCENT": 
+    {
+        "prefix": [
+            "..U.02CB",
+            "..U.MODIFIER LETTER GRAVE ACCENT",
+            "U+02CB",
+        ],
+        "body": [
+            "${1|ˋ,&#x02CB;,U+02CB,0x02CB,MODIFIER LETTER GRAVE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+02CB",
+            "Character/Symbol: ˋ",
+            "Name: MODIFIER LETTER GRAVE ACCENT",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˌ U+02CC MODIFIER LETTER LOW VERTICAL LINE": 
+    {
+        "prefix": [
+            "..U.02CC",
+            "..U.MODIFIER LETTER LOW VERTICAL LINE",
+            "U+02CC",
+        ],
+        "body": [
+            "${1|ˌ,&#x02CC;,U+02CC,0x02CC,MODIFIER LETTER LOW VERTICAL LINE|}$2",
+        ],
+        "description": [
+            "Code: U+02CC",
+            "Character/Symbol: ˌ",
+            "Name: MODIFIER LETTER LOW VERTICAL LINE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˍ U+02CD MODIFIER LETTER LOW MACRON": 
+    {
+        "prefix": [
+            "..U.02CD",
+            "..U.MODIFIER LETTER LOW MACRON",
+            "U+02CD",
+        ],
+        "body": [
+            "${1|ˍ,&#x02CD;,U+02CD,0x02CD,MODIFIER LETTER LOW MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+02CD",
+            "Character/Symbol: ˍ",
+            "Name: MODIFIER LETTER LOW MACRON",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˎ U+02CE MODIFIER LETTER LOW GRAVE ACCENT": 
+    {
+        "prefix": [
+            "..U.02CE",
+            "..U.MODIFIER LETTER LOW GRAVE ACCENT",
+            "U+02CE",
+        ],
+        "body": [
+            "${1|ˎ,&#x02CE;,U+02CE,0x02CE,MODIFIER LETTER LOW GRAVE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+02CE",
+            "Character/Symbol: ˎ",
+            "Name: MODIFIER LETTER LOW GRAVE ACCENT",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˏ U+02CF MODIFIER LETTER LOW ACUTE ACCENT": 
+    {
+        "prefix": [
+            "..U.02CF",
+            "..U.MODIFIER LETTER LOW ACUTE ACCENT",
+            "U+02CF",
+        ],
+        "body": [
+            "${1|ˏ,&#x02CF;,U+02CF,0x02CF,MODIFIER LETTER LOW ACUTE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+02CF",
+            "Character/Symbol: ˏ",
+            "Name: MODIFIER LETTER LOW ACUTE ACCENT",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ː U+02D0 MODIFIER LETTER TRIANGULAR COLON": 
+    {
+        "prefix": [
+            "..U.02D0",
+            "..U.MODIFIER LETTER TRIANGULAR COLON",
+            "U+02D0",
+        ],
+        "body": [
+            "${1|ː,&#x02D0;,U+02D0,0x02D0,MODIFIER LETTER TRIANGULAR COLON|}$2",
+        ],
+        "description": [
+            "Code: U+02D0",
+            "Character/Symbol: ː",
+            "Name: MODIFIER LETTER TRIANGULAR COLON",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˑ U+02D1 MODIFIER LETTER HALF TRIANGULAR COLON": 
+    {
+        "prefix": [
+            "..U.02D1",
+            "..U.MODIFIER LETTER HALF TRIANGULAR COLON",
+            "U+02D1",
+        ],
+        "body": [
+            "${1|ˑ,&#x02D1;,U+02D1,0x02D1,MODIFIER LETTER HALF TRIANGULAR COLON|}$2",
+        ],
+        "description": [
+            "Code: U+02D1",
+            "Character/Symbol: ˑ",
+            "Name: MODIFIER LETTER HALF TRIANGULAR COLON",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˒ U+02D2 MODIFIER LETTER CENTRED RIGHT HALF RING": 
+    {
+        "prefix": [
+            "..U.02D2",
+            "..U.MODIFIER LETTER CENTRED RIGHT HALF RING",
+            "U+02D2",
+        ],
+        "body": [
+            "${1|˒,&#x02D2;,U+02D2,0x02D2,MODIFIER LETTER CENTRED RIGHT HALF RING|}$2",
+        ],
+        "description": [
+            "Code: U+02D2",
+            "Character/Symbol: ˒",
+            "Name: MODIFIER LETTER CENTRED RIGHT HALF RING",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˓ U+02D3 MODIFIER LETTER CENTRED LEFT HALF RING": 
+    {
+        "prefix": [
+            "..U.02D3",
+            "..U.MODIFIER LETTER CENTRED LEFT HALF RING",
+            "U+02D3",
+        ],
+        "body": [
+            "${1|˓,&#x02D3;,U+02D3,0x02D3,MODIFIER LETTER CENTRED LEFT HALF RING|}$2",
+        ],
+        "description": [
+            "Code: U+02D3",
+            "Character/Symbol: ˓",
+            "Name: MODIFIER LETTER CENTRED LEFT HALF RING",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˔ U+02D4 MODIFIER LETTER UP TACK": 
+    {
+        "prefix": [
+            "..U.02D4",
+            "..U.MODIFIER LETTER UP TACK",
+            "U+02D4",
+        ],
+        "body": [
+            "${1|˔,&#x02D4;,U+02D4,0x02D4,MODIFIER LETTER UP TACK|}$2",
+        ],
+        "description": [
+            "Code: U+02D4",
+            "Character/Symbol: ˔",
+            "Name: MODIFIER LETTER UP TACK",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˕ U+02D5 MODIFIER LETTER DOWN TACK": 
+    {
+        "prefix": [
+            "..U.02D5",
+            "..U.MODIFIER LETTER DOWN TACK",
+            "U+02D5",
+        ],
+        "body": [
+            "${1|˕,&#x02D5;,U+02D5,0x02D5,MODIFIER LETTER DOWN TACK|}$2",
+        ],
+        "description": [
+            "Code: U+02D5",
+            "Character/Symbol: ˕",
+            "Name: MODIFIER LETTER DOWN TACK",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˖ U+02D6 MODIFIER LETTER PLUS SIGN": 
+    {
+        "prefix": [
+            "..U.02D6",
+            "..U.MODIFIER LETTER PLUS SIGN",
+            "U+02D6",
+        ],
+        "body": [
+            "${1|˖,&#x02D6;,U+02D6,0x02D6,MODIFIER LETTER PLUS SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+02D6",
+            "Character/Symbol: ˖",
+            "Name: MODIFIER LETTER PLUS SIGN",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˗ U+02D7 MODIFIER LETTER MINUS SIGN": 
+    {
+        "prefix": [
+            "..U.02D7",
+            "..U.MODIFIER LETTER MINUS SIGN",
+            "U+02D7",
+        ],
+        "body": [
+            "${1|˗,&#x02D7;,U+02D7,0x02D7,MODIFIER LETTER MINUS SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+02D7",
+            "Character/Symbol: ˗",
+            "Name: MODIFIER LETTER MINUS SIGN",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˘ U+02D8 BREVE": 
+    {
+        "prefix": [
+            "..U.02D8",
+            "..U.BREVE",
+            "U+02D8",
+        ],
+        "body": [
+            "${1|˘,&#x02D8;,U+02D8,0x02D8,BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+02D8",
+            "Character/Symbol: ˘",
+            "Name: BREVE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˙ U+02D9 DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.02D9",
+            "..U.DOT ABOVE",
+            "U+02D9",
+        ],
+        "body": [
+            "${1|˙,&#x02D9;,U+02D9,0x02D9,DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+02D9",
+            "Character/Symbol: ˙",
+            "Name: DOT ABOVE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˚ U+02DA RING ABOVE": 
+    {
+        "prefix": [
+            "..U.02DA",
+            "..U.RING ABOVE",
+            "U+02DA",
+        ],
+        "body": [
+            "${1|˚,&#x02DA;,U+02DA,0x02DA,RING ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+02DA",
+            "Character/Symbol: ˚",
+            "Name: RING ABOVE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˛ U+02DB OGONEK": 
+    {
+        "prefix": [
+            "..U.02DB",
+            "..U.OGONEK",
+            "U+02DB",
+        ],
+        "body": [
+            "${1|˛,&#x02DB;,U+02DB,0x02DB,OGONEK|}$2",
+        ],
+        "description": [
+            "Code: U+02DB",
+            "Character/Symbol: ˛",
+            "Name: OGONEK",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˜ U+02DC SMALL TILDE": 
+    {
+        "prefix": [
+            "..U.02DC",
+            "..U.SMALL TILDE",
+            "U+02DC",
+        ],
+        "body": [
+            "${1|˜,&#x02DC;,U+02DC,0x02DC,SMALL TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+02DC",
+            "Character/Symbol: ˜",
+            "Name: SMALL TILDE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˝ U+02DD DOUBLE ACUTE ACCENT": 
+    {
+        "prefix": [
+            "..U.02DD",
+            "..U.DOUBLE ACUTE ACCENT",
+            "U+02DD",
+        ],
+        "body": [
+            "${1|˝,&#x02DD;,U+02DD,0x02DD,DOUBLE ACUTE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+02DD",
+            "Character/Symbol: ˝",
+            "Name: DOUBLE ACUTE ACCENT",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˞ U+02DE MODIFIER LETTER RHOTIC HOOK": 
+    {
+        "prefix": [
+            "..U.02DE",
+            "..U.MODIFIER LETTER RHOTIC HOOK",
+            "U+02DE",
+        ],
+        "body": [
+            "${1|˞,&#x02DE;,U+02DE,0x02DE,MODIFIER LETTER RHOTIC HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+02DE",
+            "Character/Symbol: ˞",
+            "Name: MODIFIER LETTER RHOTIC HOOK",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˟ U+02DF MODIFIER LETTER CROSS ACCENT": 
+    {
+        "prefix": [
+            "..U.02DF",
+            "..U.MODIFIER LETTER CROSS ACCENT",
+            "U+02DF",
+        ],
+        "body": [
+            "${1|˟,&#x02DF;,U+02DF,0x02DF,MODIFIER LETTER CROSS ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+02DF",
+            "Character/Symbol: ˟",
+            "Name: MODIFIER LETTER CROSS ACCENT",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˠ U+02E0 MODIFIER LETTER SMALL GAMMA": 
+    {
+        "prefix": [
+            "..U.02E0",
+            "..U.MODIFIER LETTER SMALL GAMMA",
+            "U+02E0",
+        ],
+        "body": [
+            "${1|ˠ,&#x02E0;,U+02E0,0x02E0,MODIFIER LETTER SMALL GAMMA|}$2",
+        ],
+        "description": [
+            "Code: U+02E0",
+            "Character/Symbol: ˠ",
+            "Name: MODIFIER LETTER SMALL GAMMA",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˡ U+02E1 MODIFIER LETTER SMALL L": 
+    {
+        "prefix": [
+            "..U.02E1",
+            "..U.MODIFIER LETTER SMALL L",
+            "U+02E1",
+        ],
+        "body": [
+            "${1|ˡ,&#x02E1;,U+02E1,0x02E1,MODIFIER LETTER SMALL L|}$2",
+        ],
+        "description": [
+            "Code: U+02E1",
+            "Character/Symbol: ˡ",
+            "Name: MODIFIER LETTER SMALL L",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˢ U+02E2 MODIFIER LETTER SMALL S": 
+    {
+        "prefix": [
+            "..U.02E2",
+            "..U.MODIFIER LETTER SMALL S",
+            "U+02E2",
+        ],
+        "body": [
+            "${1|ˢ,&#x02E2;,U+02E2,0x02E2,MODIFIER LETTER SMALL S|}$2",
+        ],
+        "description": [
+            "Code: U+02E2",
+            "Character/Symbol: ˢ",
+            "Name: MODIFIER LETTER SMALL S",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˣ U+02E3 MODIFIER LETTER SMALL X": 
+    {
+        "prefix": [
+            "..U.02E3",
+            "..U.MODIFIER LETTER SMALL X",
+            "U+02E3",
+        ],
+        "body": [
+            "${1|ˣ,&#x02E3;,U+02E3,0x02E3,MODIFIER LETTER SMALL X|}$2",
+        ],
+        "description": [
+            "Code: U+02E3",
+            "Character/Symbol: ˣ",
+            "Name: MODIFIER LETTER SMALL X",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˤ U+02E4 MODIFIER LETTER SMALL REVERSED GLOTTAL STOP": 
+    {
+        "prefix": [
+            "..U.02E4",
+            "..U.MODIFIER LETTER SMALL REVERSED GLOTTAL STOP",
+            "U+02E4",
+        ],
+        "body": [
+            "${1|ˤ,&#x02E4;,U+02E4,0x02E4,MODIFIER LETTER SMALL REVERSED GLOTTAL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+02E4",
+            "Character/Symbol: ˤ",
+            "Name: MODIFIER LETTER SMALL REVERSED GLOTTAL STOP",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˥ U+02E5 MODIFIER LETTER EXTRA-HIGH TONE BAR": 
+    {
+        "prefix": [
+            "..U.02E5",
+            "..U.MODIFIER LETTER EXTRA-HIGH TONE BAR",
+            "U+02E5",
+        ],
+        "body": [
+            "${1|˥,&#x02E5;,U+02E5,0x02E5,MODIFIER LETTER EXTRA-HIGH TONE BAR|}$2",
+        ],
+        "description": [
+            "Code: U+02E5",
+            "Character/Symbol: ˥",
+            "Name: MODIFIER LETTER EXTRA-HIGH TONE BAR",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˦ U+02E6 MODIFIER LETTER HIGH TONE BAR": 
+    {
+        "prefix": [
+            "..U.02E6",
+            "..U.MODIFIER LETTER HIGH TONE BAR",
+            "U+02E6",
+        ],
+        "body": [
+            "${1|˦,&#x02E6;,U+02E6,0x02E6,MODIFIER LETTER HIGH TONE BAR|}$2",
+        ],
+        "description": [
+            "Code: U+02E6",
+            "Character/Symbol: ˦",
+            "Name: MODIFIER LETTER HIGH TONE BAR",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˧ U+02E7 MODIFIER LETTER MID TONE BAR": 
+    {
+        "prefix": [
+            "..U.02E7",
+            "..U.MODIFIER LETTER MID TONE BAR",
+            "U+02E7",
+        ],
+        "body": [
+            "${1|˧,&#x02E7;,U+02E7,0x02E7,MODIFIER LETTER MID TONE BAR|}$2",
+        ],
+        "description": [
+            "Code: U+02E7",
+            "Character/Symbol: ˧",
+            "Name: MODIFIER LETTER MID TONE BAR",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˨ U+02E8 MODIFIER LETTER LOW TONE BAR": 
+    {
+        "prefix": [
+            "..U.02E8",
+            "..U.MODIFIER LETTER LOW TONE BAR",
+            "U+02E8",
+        ],
+        "body": [
+            "${1|˨,&#x02E8;,U+02E8,0x02E8,MODIFIER LETTER LOW TONE BAR|}$2",
+        ],
+        "description": [
+            "Code: U+02E8",
+            "Character/Symbol: ˨",
+            "Name: MODIFIER LETTER LOW TONE BAR",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˩ U+02E9 MODIFIER LETTER EXTRA-LOW TONE BAR": 
+    {
+        "prefix": [
+            "..U.02E9",
+            "..U.MODIFIER LETTER EXTRA-LOW TONE BAR",
+            "U+02E9",
+        ],
+        "body": [
+            "${1|˩,&#x02E9;,U+02E9,0x02E9,MODIFIER LETTER EXTRA-LOW TONE BAR|}$2",
+        ],
+        "description": [
+            "Code: U+02E9",
+            "Character/Symbol: ˩",
+            "Name: MODIFIER LETTER EXTRA-LOW TONE BAR",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˪ U+02EA MODIFIER LETTER YIN DEPARTING TONE MARK": 
+    {
+        "prefix": [
+            "..U.02EA",
+            "..U.MODIFIER LETTER YIN DEPARTING TONE MARK",
+            "U+02EA",
+        ],
+        "body": [
+            "${1|˪,&#x02EA;,U+02EA,0x02EA,MODIFIER LETTER YIN DEPARTING TONE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+02EA",
+            "Character/Symbol: ˪",
+            "Name: MODIFIER LETTER YIN DEPARTING TONE MARK",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˫ U+02EB MODIFIER LETTER YANG DEPARTING TONE MARK": 
+    {
+        "prefix": [
+            "..U.02EB",
+            "..U.MODIFIER LETTER YANG DEPARTING TONE MARK",
+            "U+02EB",
+        ],
+        "body": [
+            "${1|˫,&#x02EB;,U+02EB,0x02EB,MODIFIER LETTER YANG DEPARTING TONE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+02EB",
+            "Character/Symbol: ˫",
+            "Name: MODIFIER LETTER YANG DEPARTING TONE MARK",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˬ U+02EC MODIFIER LETTER VOICING": 
+    {
+        "prefix": [
+            "..U.02EC",
+            "..U.MODIFIER LETTER VOICING",
+            "U+02EC",
+        ],
+        "body": [
+            "${1|ˬ,&#x02EC;,U+02EC,0x02EC,MODIFIER LETTER VOICING|}$2",
+        ],
+        "description": [
+            "Code: U+02EC",
+            "Character/Symbol: ˬ",
+            "Name: MODIFIER LETTER VOICING",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˭ U+02ED MODIFIER LETTER UNASPIRATED": 
+    {
+        "prefix": [
+            "..U.02ED",
+            "..U.MODIFIER LETTER UNASPIRATED",
+            "U+02ED",
+        ],
+        "body": [
+            "${1|˭,&#x02ED;,U+02ED,0x02ED,MODIFIER LETTER UNASPIRATED|}$2",
+        ],
+        "description": [
+            "Code: U+02ED",
+            "Character/Symbol: ˭",
+            "Name: MODIFIER LETTER UNASPIRATED",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˮ U+02EE MODIFIER LETTER DOUBLE APOSTROPHE": 
+    {
+        "prefix": [
+            "..U.02EE",
+            "..U.MODIFIER LETTER DOUBLE APOSTROPHE",
+            "U+02EE",
+        ],
+        "body": [
+            "${1|ˮ,&#x02EE;,U+02EE,0x02EE,MODIFIER LETTER DOUBLE APOSTROPHE|}$2",
+        ],
+        "description": [
+            "Code: U+02EE",
+            "Character/Symbol: ˮ",
+            "Name: MODIFIER LETTER DOUBLE APOSTROPHE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˯ U+02EF MODIFIER LETTER LOW DOWN ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.02EF",
+            "..U.MODIFIER LETTER LOW DOWN ARROWHEAD",
+            "U+02EF",
+        ],
+        "body": [
+            "${1|˯,&#x02EF;,U+02EF,0x02EF,MODIFIER LETTER LOW DOWN ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+02EF",
+            "Character/Symbol: ˯",
+            "Name: MODIFIER LETTER LOW DOWN ARROWHEAD",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˰ U+02F0 MODIFIER LETTER LOW UP ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.02F0",
+            "..U.MODIFIER LETTER LOW UP ARROWHEAD",
+            "U+02F0",
+        ],
+        "body": [
+            "${1|˰,&#x02F0;,U+02F0,0x02F0,MODIFIER LETTER LOW UP ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+02F0",
+            "Character/Symbol: ˰",
+            "Name: MODIFIER LETTER LOW UP ARROWHEAD",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˱ U+02F1 MODIFIER LETTER LOW LEFT ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.02F1",
+            "..U.MODIFIER LETTER LOW LEFT ARROWHEAD",
+            "U+02F1",
+        ],
+        "body": [
+            "${1|˱,&#x02F1;,U+02F1,0x02F1,MODIFIER LETTER LOW LEFT ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+02F1",
+            "Character/Symbol: ˱",
+            "Name: MODIFIER LETTER LOW LEFT ARROWHEAD",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˲ U+02F2 MODIFIER LETTER LOW RIGHT ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.02F2",
+            "..U.MODIFIER LETTER LOW RIGHT ARROWHEAD",
+            "U+02F2",
+        ],
+        "body": [
+            "${1|˲,&#x02F2;,U+02F2,0x02F2,MODIFIER LETTER LOW RIGHT ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+02F2",
+            "Character/Symbol: ˲",
+            "Name: MODIFIER LETTER LOW RIGHT ARROWHEAD",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˳ U+02F3 MODIFIER LETTER LOW RING": 
+    {
+        "prefix": [
+            "..U.02F3",
+            "..U.MODIFIER LETTER LOW RING",
+            "U+02F3",
+        ],
+        "body": [
+            "${1|˳,&#x02F3;,U+02F3,0x02F3,MODIFIER LETTER LOW RING|}$2",
+        ],
+        "description": [
+            "Code: U+02F3",
+            "Character/Symbol: ˳",
+            "Name: MODIFIER LETTER LOW RING",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˴ U+02F4 MODIFIER LETTER MIDDLE GRAVE ACCENT": 
+    {
+        "prefix": [
+            "..U.02F4",
+            "..U.MODIFIER LETTER MIDDLE GRAVE ACCENT",
+            "U+02F4",
+        ],
+        "body": [
+            "${1|˴,&#x02F4;,U+02F4,0x02F4,MODIFIER LETTER MIDDLE GRAVE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+02F4",
+            "Character/Symbol: ˴",
+            "Name: MODIFIER LETTER MIDDLE GRAVE ACCENT",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˵ U+02F5 MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT": 
+    {
+        "prefix": [
+            "..U.02F5",
+            "..U.MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT",
+            "U+02F5",
+        ],
+        "body": [
+            "${1|˵,&#x02F5;,U+02F5,0x02F5,MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+02F5",
+            "Character/Symbol: ˵",
+            "Name: MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˶ U+02F6 MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT": 
+    {
+        "prefix": [
+            "..U.02F6",
+            "..U.MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT",
+            "U+02F6",
+        ],
+        "body": [
+            "${1|˶,&#x02F6;,U+02F6,0x02F6,MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+02F6",
+            "Character/Symbol: ˶",
+            "Name: MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˷ U+02F7 MODIFIER LETTER LOW TILDE": 
+    {
+        "prefix": [
+            "..U.02F7",
+            "..U.MODIFIER LETTER LOW TILDE",
+            "U+02F7",
+        ],
+        "body": [
+            "${1|˷,&#x02F7;,U+02F7,0x02F7,MODIFIER LETTER LOW TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+02F7",
+            "Character/Symbol: ˷",
+            "Name: MODIFIER LETTER LOW TILDE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˸ U+02F8 MODIFIER LETTER RAISED COLON": 
+    {
+        "prefix": [
+            "..U.02F8",
+            "..U.MODIFIER LETTER RAISED COLON",
+            "U+02F8",
+        ],
+        "body": [
+            "${1|˸,&#x02F8;,U+02F8,0x02F8,MODIFIER LETTER RAISED COLON|}$2",
+        ],
+        "description": [
+            "Code: U+02F8",
+            "Character/Symbol: ˸",
+            "Name: MODIFIER LETTER RAISED COLON",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˹ U+02F9 MODIFIER LETTER BEGIN HIGH TONE": 
+    {
+        "prefix": [
+            "..U.02F9",
+            "..U.MODIFIER LETTER BEGIN HIGH TONE",
+            "U+02F9",
+        ],
+        "body": [
+            "${1|˹,&#x02F9;,U+02F9,0x02F9,MODIFIER LETTER BEGIN HIGH TONE|}$2",
+        ],
+        "description": [
+            "Code: U+02F9",
+            "Character/Symbol: ˹",
+            "Name: MODIFIER LETTER BEGIN HIGH TONE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˺ U+02FA MODIFIER LETTER END HIGH TONE": 
+    {
+        "prefix": [
+            "..U.02FA",
+            "..U.MODIFIER LETTER END HIGH TONE",
+            "U+02FA",
+        ],
+        "body": [
+            "${1|˺,&#x02FA;,U+02FA,0x02FA,MODIFIER LETTER END HIGH TONE|}$2",
+        ],
+        "description": [
+            "Code: U+02FA",
+            "Character/Symbol: ˺",
+            "Name: MODIFIER LETTER END HIGH TONE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˻ U+02FB MODIFIER LETTER BEGIN LOW TONE": 
+    {
+        "prefix": [
+            "..U.02FB",
+            "..U.MODIFIER LETTER BEGIN LOW TONE",
+            "U+02FB",
+        ],
+        "body": [
+            "${1|˻,&#x02FB;,U+02FB,0x02FB,MODIFIER LETTER BEGIN LOW TONE|}$2",
+        ],
+        "description": [
+            "Code: U+02FB",
+            "Character/Symbol: ˻",
+            "Name: MODIFIER LETTER BEGIN LOW TONE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˼ U+02FC MODIFIER LETTER END LOW TONE": 
+    {
+        "prefix": [
+            "..U.02FC",
+            "..U.MODIFIER LETTER END LOW TONE",
+            "U+02FC",
+        ],
+        "body": [
+            "${1|˼,&#x02FC;,U+02FC,0x02FC,MODIFIER LETTER END LOW TONE|}$2",
+        ],
+        "description": [
+            "Code: U+02FC",
+            "Character/Symbol: ˼",
+            "Name: MODIFIER LETTER END LOW TONE",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˽ U+02FD MODIFIER LETTER SHELF": 
+    {
+        "prefix": [
+            "..U.02FD",
+            "..U.MODIFIER LETTER SHELF",
+            "U+02FD",
+        ],
+        "body": [
+            "${1|˽,&#x02FD;,U+02FD,0x02FD,MODIFIER LETTER SHELF|}$2",
+        ],
+        "description": [
+            "Code: U+02FD",
+            "Character/Symbol: ˽",
+            "Name: MODIFIER LETTER SHELF",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˾ U+02FE MODIFIER LETTER OPEN SHELF": 
+    {
+        "prefix": [
+            "..U.02FE",
+            "..U.MODIFIER LETTER OPEN SHELF",
+            "U+02FE",
+        ],
+        "body": [
+            "${1|˾,&#x02FE;,U+02FE,0x02FE,MODIFIER LETTER OPEN SHELF|}$2",
+        ],
+        "description": [
+            "Code: U+02FE",
+            "Character/Symbol: ˾",
+            "Name: MODIFIER LETTER OPEN SHELF",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+    "Unicode ˿ U+02FF MODIFIER LETTER LOW LEFT ARROW": 
+    {
+        "prefix": [
+            "..U.02FF",
+            "..U.MODIFIER LETTER LOW LEFT ARROW",
+            "U+02FF",
+        ],
+        "body": [
+            "${1|˿,&#x02FF;,U+02FF,0x02FF,MODIFIER LETTER LOW LEFT ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+02FF",
+            "Character/Symbol: ˿",
+            "Name: MODIFIER LETTER LOW LEFT ARROW",
+            "Group/Block: Modifier_Letters",
+        ],
+    },
+
+}

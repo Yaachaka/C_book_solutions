@@ -1,0 +1,1694 @@
+{
+    "Unicode ㄱ U+3131 HANGUL LETTER KIYEOK": 
+    {
+        "prefix": [
+            "..U.3131",
+            "..U.HANGUL LETTER KIYEOK",
+            "U+3131",
+        ],
+        "body": [
+            "${1|ㄱ,&#x3131;,U+3131,0x3131,HANGUL LETTER KIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+3131",
+            "Character/Symbol: ㄱ",
+            "Name: HANGUL LETTER KIYEOK",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄲ U+3132 HANGUL LETTER SSANGKIYEOK": 
+    {
+        "prefix": [
+            "..U.3132",
+            "..U.HANGUL LETTER SSANGKIYEOK",
+            "U+3132",
+        ],
+        "body": [
+            "${1|ㄲ,&#x3132;,U+3132,0x3132,HANGUL LETTER SSANGKIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+3132",
+            "Character/Symbol: ㄲ",
+            "Name: HANGUL LETTER SSANGKIYEOK",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄳ U+3133 HANGUL LETTER KIYEOK-SIOS": 
+    {
+        "prefix": [
+            "..U.3133",
+            "..U.HANGUL LETTER KIYEOK-SIOS",
+            "U+3133",
+        ],
+        "body": [
+            "${1|ㄳ,&#x3133;,U+3133,0x3133,HANGUL LETTER KIYEOK-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+3133",
+            "Character/Symbol: ㄳ",
+            "Name: HANGUL LETTER KIYEOK-SIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄴ U+3134 HANGUL LETTER NIEUN": 
+    {
+        "prefix": [
+            "..U.3134",
+            "..U.HANGUL LETTER NIEUN",
+            "U+3134",
+        ],
+        "body": [
+            "${1|ㄴ,&#x3134;,U+3134,0x3134,HANGUL LETTER NIEUN|}$2",
+        ],
+        "description": [
+            "Code: U+3134",
+            "Character/Symbol: ㄴ",
+            "Name: HANGUL LETTER NIEUN",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄵ U+3135 HANGUL LETTER NIEUN-CIEUC": 
+    {
+        "prefix": [
+            "..U.3135",
+            "..U.HANGUL LETTER NIEUN-CIEUC",
+            "U+3135",
+        ],
+        "body": [
+            "${1|ㄵ,&#x3135;,U+3135,0x3135,HANGUL LETTER NIEUN-CIEUC|}$2",
+        ],
+        "description": [
+            "Code: U+3135",
+            "Character/Symbol: ㄵ",
+            "Name: HANGUL LETTER NIEUN-CIEUC",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄶ U+3136 HANGUL LETTER NIEUN-HIEUH": 
+    {
+        "prefix": [
+            "..U.3136",
+            "..U.HANGUL LETTER NIEUN-HIEUH",
+            "U+3136",
+        ],
+        "body": [
+            "${1|ㄶ,&#x3136;,U+3136,0x3136,HANGUL LETTER NIEUN-HIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+3136",
+            "Character/Symbol: ㄶ",
+            "Name: HANGUL LETTER NIEUN-HIEUH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄷ U+3137 HANGUL LETTER TIKEUT": 
+    {
+        "prefix": [
+            "..U.3137",
+            "..U.HANGUL LETTER TIKEUT",
+            "U+3137",
+        ],
+        "body": [
+            "${1|ㄷ,&#x3137;,U+3137,0x3137,HANGUL LETTER TIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+3137",
+            "Character/Symbol: ㄷ",
+            "Name: HANGUL LETTER TIKEUT",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄸ U+3138 HANGUL LETTER SSANGTIKEUT": 
+    {
+        "prefix": [
+            "..U.3138",
+            "..U.HANGUL LETTER SSANGTIKEUT",
+            "U+3138",
+        ],
+        "body": [
+            "${1|ㄸ,&#x3138;,U+3138,0x3138,HANGUL LETTER SSANGTIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+3138",
+            "Character/Symbol: ㄸ",
+            "Name: HANGUL LETTER SSANGTIKEUT",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄹ U+3139 HANGUL LETTER RIEUL": 
+    {
+        "prefix": [
+            "..U.3139",
+            "..U.HANGUL LETTER RIEUL",
+            "U+3139",
+        ],
+        "body": [
+            "${1|ㄹ,&#x3139;,U+3139,0x3139,HANGUL LETTER RIEUL|}$2",
+        ],
+        "description": [
+            "Code: U+3139",
+            "Character/Symbol: ㄹ",
+            "Name: HANGUL LETTER RIEUL",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄺ U+313A HANGUL LETTER RIEUL-KIYEOK": 
+    {
+        "prefix": [
+            "..U.313A",
+            "..U.HANGUL LETTER RIEUL-KIYEOK",
+            "U+313A",
+        ],
+        "body": [
+            "${1|ㄺ,&#x313A;,U+313A,0x313A,HANGUL LETTER RIEUL-KIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+313A",
+            "Character/Symbol: ㄺ",
+            "Name: HANGUL LETTER RIEUL-KIYEOK",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄻ U+313B HANGUL LETTER RIEUL-MIEUM": 
+    {
+        "prefix": [
+            "..U.313B",
+            "..U.HANGUL LETTER RIEUL-MIEUM",
+            "U+313B",
+        ],
+        "body": [
+            "${1|ㄻ,&#x313B;,U+313B,0x313B,HANGUL LETTER RIEUL-MIEUM|}$2",
+        ],
+        "description": [
+            "Code: U+313B",
+            "Character/Symbol: ㄻ",
+            "Name: HANGUL LETTER RIEUL-MIEUM",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄼ U+313C HANGUL LETTER RIEUL-PIEUP": 
+    {
+        "prefix": [
+            "..U.313C",
+            "..U.HANGUL LETTER RIEUL-PIEUP",
+            "U+313C",
+        ],
+        "body": [
+            "${1|ㄼ,&#x313C;,U+313C,0x313C,HANGUL LETTER RIEUL-PIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+313C",
+            "Character/Symbol: ㄼ",
+            "Name: HANGUL LETTER RIEUL-PIEUP",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄽ U+313D HANGUL LETTER RIEUL-SIOS": 
+    {
+        "prefix": [
+            "..U.313D",
+            "..U.HANGUL LETTER RIEUL-SIOS",
+            "U+313D",
+        ],
+        "body": [
+            "${1|ㄽ,&#x313D;,U+313D,0x313D,HANGUL LETTER RIEUL-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+313D",
+            "Character/Symbol: ㄽ",
+            "Name: HANGUL LETTER RIEUL-SIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄾ U+313E HANGUL LETTER RIEUL-THIEUTH": 
+    {
+        "prefix": [
+            "..U.313E",
+            "..U.HANGUL LETTER RIEUL-THIEUTH",
+            "U+313E",
+        ],
+        "body": [
+            "${1|ㄾ,&#x313E;,U+313E,0x313E,HANGUL LETTER RIEUL-THIEUTH|}$2",
+        ],
+        "description": [
+            "Code: U+313E",
+            "Character/Symbol: ㄾ",
+            "Name: HANGUL LETTER RIEUL-THIEUTH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㄿ U+313F HANGUL LETTER RIEUL-PHIEUPH": 
+    {
+        "prefix": [
+            "..U.313F",
+            "..U.HANGUL LETTER RIEUL-PHIEUPH",
+            "U+313F",
+        ],
+        "body": [
+            "${1|ㄿ,&#x313F;,U+313F,0x313F,HANGUL LETTER RIEUL-PHIEUPH|}$2",
+        ],
+        "description": [
+            "Code: U+313F",
+            "Character/Symbol: ㄿ",
+            "Name: HANGUL LETTER RIEUL-PHIEUPH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅀ U+3140 HANGUL LETTER RIEUL-HIEUH": 
+    {
+        "prefix": [
+            "..U.3140",
+            "..U.HANGUL LETTER RIEUL-HIEUH",
+            "U+3140",
+        ],
+        "body": [
+            "${1|ㅀ,&#x3140;,U+3140,0x3140,HANGUL LETTER RIEUL-HIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+3140",
+            "Character/Symbol: ㅀ",
+            "Name: HANGUL LETTER RIEUL-HIEUH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅁ U+3141 HANGUL LETTER MIEUM": 
+    {
+        "prefix": [
+            "..U.3141",
+            "..U.HANGUL LETTER MIEUM",
+            "U+3141",
+        ],
+        "body": [
+            "${1|ㅁ,&#x3141;,U+3141,0x3141,HANGUL LETTER MIEUM|}$2",
+        ],
+        "description": [
+            "Code: U+3141",
+            "Character/Symbol: ㅁ",
+            "Name: HANGUL LETTER MIEUM",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅂ U+3142 HANGUL LETTER PIEUP": 
+    {
+        "prefix": [
+            "..U.3142",
+            "..U.HANGUL LETTER PIEUP",
+            "U+3142",
+        ],
+        "body": [
+            "${1|ㅂ,&#x3142;,U+3142,0x3142,HANGUL LETTER PIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+3142",
+            "Character/Symbol: ㅂ",
+            "Name: HANGUL LETTER PIEUP",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅃ U+3143 HANGUL LETTER SSANGPIEUP": 
+    {
+        "prefix": [
+            "..U.3143",
+            "..U.HANGUL LETTER SSANGPIEUP",
+            "U+3143",
+        ],
+        "body": [
+            "${1|ㅃ,&#x3143;,U+3143,0x3143,HANGUL LETTER SSANGPIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+3143",
+            "Character/Symbol: ㅃ",
+            "Name: HANGUL LETTER SSANGPIEUP",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅄ U+3144 HANGUL LETTER PIEUP-SIOS": 
+    {
+        "prefix": [
+            "..U.3144",
+            "..U.HANGUL LETTER PIEUP-SIOS",
+            "U+3144",
+        ],
+        "body": [
+            "${1|ㅄ,&#x3144;,U+3144,0x3144,HANGUL LETTER PIEUP-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+3144",
+            "Character/Symbol: ㅄ",
+            "Name: HANGUL LETTER PIEUP-SIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅅ U+3145 HANGUL LETTER SIOS": 
+    {
+        "prefix": [
+            "..U.3145",
+            "..U.HANGUL LETTER SIOS",
+            "U+3145",
+        ],
+        "body": [
+            "${1|ㅅ,&#x3145;,U+3145,0x3145,HANGUL LETTER SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+3145",
+            "Character/Symbol: ㅅ",
+            "Name: HANGUL LETTER SIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅆ U+3146 HANGUL LETTER SSANGSIOS": 
+    {
+        "prefix": [
+            "..U.3146",
+            "..U.HANGUL LETTER SSANGSIOS",
+            "U+3146",
+        ],
+        "body": [
+            "${1|ㅆ,&#x3146;,U+3146,0x3146,HANGUL LETTER SSANGSIOS|}$2",
+        ],
+        "description": [
+            "Code: U+3146",
+            "Character/Symbol: ㅆ",
+            "Name: HANGUL LETTER SSANGSIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅇ U+3147 HANGUL LETTER IEUNG": 
+    {
+        "prefix": [
+            "..U.3147",
+            "..U.HANGUL LETTER IEUNG",
+            "U+3147",
+        ],
+        "body": [
+            "${1|ㅇ,&#x3147;,U+3147,0x3147,HANGUL LETTER IEUNG|}$2",
+        ],
+        "description": [
+            "Code: U+3147",
+            "Character/Symbol: ㅇ",
+            "Name: HANGUL LETTER IEUNG",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅈ U+3148 HANGUL LETTER CIEUC": 
+    {
+        "prefix": [
+            "..U.3148",
+            "..U.HANGUL LETTER CIEUC",
+            "U+3148",
+        ],
+        "body": [
+            "${1|ㅈ,&#x3148;,U+3148,0x3148,HANGUL LETTER CIEUC|}$2",
+        ],
+        "description": [
+            "Code: U+3148",
+            "Character/Symbol: ㅈ",
+            "Name: HANGUL LETTER CIEUC",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅉ U+3149 HANGUL LETTER SSANGCIEUC": 
+    {
+        "prefix": [
+            "..U.3149",
+            "..U.HANGUL LETTER SSANGCIEUC",
+            "U+3149",
+        ],
+        "body": [
+            "${1|ㅉ,&#x3149;,U+3149,0x3149,HANGUL LETTER SSANGCIEUC|}$2",
+        ],
+        "description": [
+            "Code: U+3149",
+            "Character/Symbol: ㅉ",
+            "Name: HANGUL LETTER SSANGCIEUC",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅊ U+314A HANGUL LETTER CHIEUCH": 
+    {
+        "prefix": [
+            "..U.314A",
+            "..U.HANGUL LETTER CHIEUCH",
+            "U+314A",
+        ],
+        "body": [
+            "${1|ㅊ,&#x314A;,U+314A,0x314A,HANGUL LETTER CHIEUCH|}$2",
+        ],
+        "description": [
+            "Code: U+314A",
+            "Character/Symbol: ㅊ",
+            "Name: HANGUL LETTER CHIEUCH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅋ U+314B HANGUL LETTER KHIEUKH": 
+    {
+        "prefix": [
+            "..U.314B",
+            "..U.HANGUL LETTER KHIEUKH",
+            "U+314B",
+        ],
+        "body": [
+            "${1|ㅋ,&#x314B;,U+314B,0x314B,HANGUL LETTER KHIEUKH|}$2",
+        ],
+        "description": [
+            "Code: U+314B",
+            "Character/Symbol: ㅋ",
+            "Name: HANGUL LETTER KHIEUKH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅌ U+314C HANGUL LETTER THIEUTH": 
+    {
+        "prefix": [
+            "..U.314C",
+            "..U.HANGUL LETTER THIEUTH",
+            "U+314C",
+        ],
+        "body": [
+            "${1|ㅌ,&#x314C;,U+314C,0x314C,HANGUL LETTER THIEUTH|}$2",
+        ],
+        "description": [
+            "Code: U+314C",
+            "Character/Symbol: ㅌ",
+            "Name: HANGUL LETTER THIEUTH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅍ U+314D HANGUL LETTER PHIEUPH": 
+    {
+        "prefix": [
+            "..U.314D",
+            "..U.HANGUL LETTER PHIEUPH",
+            "U+314D",
+        ],
+        "body": [
+            "${1|ㅍ,&#x314D;,U+314D,0x314D,HANGUL LETTER PHIEUPH|}$2",
+        ],
+        "description": [
+            "Code: U+314D",
+            "Character/Symbol: ㅍ",
+            "Name: HANGUL LETTER PHIEUPH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅎ U+314E HANGUL LETTER HIEUH": 
+    {
+        "prefix": [
+            "..U.314E",
+            "..U.HANGUL LETTER HIEUH",
+            "U+314E",
+        ],
+        "body": [
+            "${1|ㅎ,&#x314E;,U+314E,0x314E,HANGUL LETTER HIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+314E",
+            "Character/Symbol: ㅎ",
+            "Name: HANGUL LETTER HIEUH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅏ U+314F HANGUL LETTER A": 
+    {
+        "prefix": [
+            "..U.314F",
+            "..U.HANGUL LETTER A",
+            "U+314F",
+        ],
+        "body": [
+            "${1|ㅏ,&#x314F;,U+314F,0x314F,HANGUL LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+314F",
+            "Character/Symbol: ㅏ",
+            "Name: HANGUL LETTER A",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅐ U+3150 HANGUL LETTER AE": 
+    {
+        "prefix": [
+            "..U.3150",
+            "..U.HANGUL LETTER AE",
+            "U+3150",
+        ],
+        "body": [
+            "${1|ㅐ,&#x3150;,U+3150,0x3150,HANGUL LETTER AE|}$2",
+        ],
+        "description": [
+            "Code: U+3150",
+            "Character/Symbol: ㅐ",
+            "Name: HANGUL LETTER AE",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅑ U+3151 HANGUL LETTER YA": 
+    {
+        "prefix": [
+            "..U.3151",
+            "..U.HANGUL LETTER YA",
+            "U+3151",
+        ],
+        "body": [
+            "${1|ㅑ,&#x3151;,U+3151,0x3151,HANGUL LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+3151",
+            "Character/Symbol: ㅑ",
+            "Name: HANGUL LETTER YA",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅒ U+3152 HANGUL LETTER YAE": 
+    {
+        "prefix": [
+            "..U.3152",
+            "..U.HANGUL LETTER YAE",
+            "U+3152",
+        ],
+        "body": [
+            "${1|ㅒ,&#x3152;,U+3152,0x3152,HANGUL LETTER YAE|}$2",
+        ],
+        "description": [
+            "Code: U+3152",
+            "Character/Symbol: ㅒ",
+            "Name: HANGUL LETTER YAE",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅓ U+3153 HANGUL LETTER EO": 
+    {
+        "prefix": [
+            "..U.3153",
+            "..U.HANGUL LETTER EO",
+            "U+3153",
+        ],
+        "body": [
+            "${1|ㅓ,&#x3153;,U+3153,0x3153,HANGUL LETTER EO|}$2",
+        ],
+        "description": [
+            "Code: U+3153",
+            "Character/Symbol: ㅓ",
+            "Name: HANGUL LETTER EO",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅔ U+3154 HANGUL LETTER E": 
+    {
+        "prefix": [
+            "..U.3154",
+            "..U.HANGUL LETTER E",
+            "U+3154",
+        ],
+        "body": [
+            "${1|ㅔ,&#x3154;,U+3154,0x3154,HANGUL LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+3154",
+            "Character/Symbol: ㅔ",
+            "Name: HANGUL LETTER E",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅕ U+3155 HANGUL LETTER YEO": 
+    {
+        "prefix": [
+            "..U.3155",
+            "..U.HANGUL LETTER YEO",
+            "U+3155",
+        ],
+        "body": [
+            "${1|ㅕ,&#x3155;,U+3155,0x3155,HANGUL LETTER YEO|}$2",
+        ],
+        "description": [
+            "Code: U+3155",
+            "Character/Symbol: ㅕ",
+            "Name: HANGUL LETTER YEO",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅖ U+3156 HANGUL LETTER YE": 
+    {
+        "prefix": [
+            "..U.3156",
+            "..U.HANGUL LETTER YE",
+            "U+3156",
+        ],
+        "body": [
+            "${1|ㅖ,&#x3156;,U+3156,0x3156,HANGUL LETTER YE|}$2",
+        ],
+        "description": [
+            "Code: U+3156",
+            "Character/Symbol: ㅖ",
+            "Name: HANGUL LETTER YE",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅗ U+3157 HANGUL LETTER O": 
+    {
+        "prefix": [
+            "..U.3157",
+            "..U.HANGUL LETTER O",
+            "U+3157",
+        ],
+        "body": [
+            "${1|ㅗ,&#x3157;,U+3157,0x3157,HANGUL LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+3157",
+            "Character/Symbol: ㅗ",
+            "Name: HANGUL LETTER O",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅘ U+3158 HANGUL LETTER WA": 
+    {
+        "prefix": [
+            "..U.3158",
+            "..U.HANGUL LETTER WA",
+            "U+3158",
+        ],
+        "body": [
+            "${1|ㅘ,&#x3158;,U+3158,0x3158,HANGUL LETTER WA|}$2",
+        ],
+        "description": [
+            "Code: U+3158",
+            "Character/Symbol: ㅘ",
+            "Name: HANGUL LETTER WA",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅙ U+3159 HANGUL LETTER WAE": 
+    {
+        "prefix": [
+            "..U.3159",
+            "..U.HANGUL LETTER WAE",
+            "U+3159",
+        ],
+        "body": [
+            "${1|ㅙ,&#x3159;,U+3159,0x3159,HANGUL LETTER WAE|}$2",
+        ],
+        "description": [
+            "Code: U+3159",
+            "Character/Symbol: ㅙ",
+            "Name: HANGUL LETTER WAE",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅚ U+315A HANGUL LETTER OE": 
+    {
+        "prefix": [
+            "..U.315A",
+            "..U.HANGUL LETTER OE",
+            "U+315A",
+        ],
+        "body": [
+            "${1|ㅚ,&#x315A;,U+315A,0x315A,HANGUL LETTER OE|}$2",
+        ],
+        "description": [
+            "Code: U+315A",
+            "Character/Symbol: ㅚ",
+            "Name: HANGUL LETTER OE",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅛ U+315B HANGUL LETTER YO": 
+    {
+        "prefix": [
+            "..U.315B",
+            "..U.HANGUL LETTER YO",
+            "U+315B",
+        ],
+        "body": [
+            "${1|ㅛ,&#x315B;,U+315B,0x315B,HANGUL LETTER YO|}$2",
+        ],
+        "description": [
+            "Code: U+315B",
+            "Character/Symbol: ㅛ",
+            "Name: HANGUL LETTER YO",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅜ U+315C HANGUL LETTER U": 
+    {
+        "prefix": [
+            "..U.315C",
+            "..U.HANGUL LETTER U",
+            "U+315C",
+        ],
+        "body": [
+            "${1|ㅜ,&#x315C;,U+315C,0x315C,HANGUL LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+315C",
+            "Character/Symbol: ㅜ",
+            "Name: HANGUL LETTER U",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅝ U+315D HANGUL LETTER WEO": 
+    {
+        "prefix": [
+            "..U.315D",
+            "..U.HANGUL LETTER WEO",
+            "U+315D",
+        ],
+        "body": [
+            "${1|ㅝ,&#x315D;,U+315D,0x315D,HANGUL LETTER WEO|}$2",
+        ],
+        "description": [
+            "Code: U+315D",
+            "Character/Symbol: ㅝ",
+            "Name: HANGUL LETTER WEO",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅞ U+315E HANGUL LETTER WE": 
+    {
+        "prefix": [
+            "..U.315E",
+            "..U.HANGUL LETTER WE",
+            "U+315E",
+        ],
+        "body": [
+            "${1|ㅞ,&#x315E;,U+315E,0x315E,HANGUL LETTER WE|}$2",
+        ],
+        "description": [
+            "Code: U+315E",
+            "Character/Symbol: ㅞ",
+            "Name: HANGUL LETTER WE",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅟ U+315F HANGUL LETTER WI": 
+    {
+        "prefix": [
+            "..U.315F",
+            "..U.HANGUL LETTER WI",
+            "U+315F",
+        ],
+        "body": [
+            "${1|ㅟ,&#x315F;,U+315F,0x315F,HANGUL LETTER WI|}$2",
+        ],
+        "description": [
+            "Code: U+315F",
+            "Character/Symbol: ㅟ",
+            "Name: HANGUL LETTER WI",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅠ U+3160 HANGUL LETTER YU": 
+    {
+        "prefix": [
+            "..U.3160",
+            "..U.HANGUL LETTER YU",
+            "U+3160",
+        ],
+        "body": [
+            "${1|ㅠ,&#x3160;,U+3160,0x3160,HANGUL LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+3160",
+            "Character/Symbol: ㅠ",
+            "Name: HANGUL LETTER YU",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅡ U+3161 HANGUL LETTER EU": 
+    {
+        "prefix": [
+            "..U.3161",
+            "..U.HANGUL LETTER EU",
+            "U+3161",
+        ],
+        "body": [
+            "${1|ㅡ,&#x3161;,U+3161,0x3161,HANGUL LETTER EU|}$2",
+        ],
+        "description": [
+            "Code: U+3161",
+            "Character/Symbol: ㅡ",
+            "Name: HANGUL LETTER EU",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅢ U+3162 HANGUL LETTER YI": 
+    {
+        "prefix": [
+            "..U.3162",
+            "..U.HANGUL LETTER YI",
+            "U+3162",
+        ],
+        "body": [
+            "${1|ㅢ,&#x3162;,U+3162,0x3162,HANGUL LETTER YI|}$2",
+        ],
+        "description": [
+            "Code: U+3162",
+            "Character/Symbol: ㅢ",
+            "Name: HANGUL LETTER YI",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅣ U+3163 HANGUL LETTER I": 
+    {
+        "prefix": [
+            "..U.3163",
+            "..U.HANGUL LETTER I",
+            "U+3163",
+        ],
+        "body": [
+            "${1|ㅣ,&#x3163;,U+3163,0x3163,HANGUL LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+3163",
+            "Character/Symbol: ㅣ",
+            "Name: HANGUL LETTER I",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅤ U+3164 HANGUL FILLER": 
+    {
+        "prefix": [
+            "..U.3164",
+            "..U.HANGUL FILLER",
+            "U+3164",
+        ],
+        "body": [
+            "${1|ㅤ,&#x3164;,U+3164,0x3164,HANGUL FILLER|}$2",
+        ],
+        "description": [
+            "Code: U+3164",
+            "Character/Symbol: ㅤ",
+            "Name: HANGUL FILLER",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅥ U+3165 HANGUL LETTER SSANGNIEUN": 
+    {
+        "prefix": [
+            "..U.3165",
+            "..U.HANGUL LETTER SSANGNIEUN",
+            "U+3165",
+        ],
+        "body": [
+            "${1|ㅥ,&#x3165;,U+3165,0x3165,HANGUL LETTER SSANGNIEUN|}$2",
+        ],
+        "description": [
+            "Code: U+3165",
+            "Character/Symbol: ㅥ",
+            "Name: HANGUL LETTER SSANGNIEUN",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅦ U+3166 HANGUL LETTER NIEUN-TIKEUT": 
+    {
+        "prefix": [
+            "..U.3166",
+            "..U.HANGUL LETTER NIEUN-TIKEUT",
+            "U+3166",
+        ],
+        "body": [
+            "${1|ㅦ,&#x3166;,U+3166,0x3166,HANGUL LETTER NIEUN-TIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+3166",
+            "Character/Symbol: ㅦ",
+            "Name: HANGUL LETTER NIEUN-TIKEUT",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅧ U+3167 HANGUL LETTER NIEUN-SIOS": 
+    {
+        "prefix": [
+            "..U.3167",
+            "..U.HANGUL LETTER NIEUN-SIOS",
+            "U+3167",
+        ],
+        "body": [
+            "${1|ㅧ,&#x3167;,U+3167,0x3167,HANGUL LETTER NIEUN-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+3167",
+            "Character/Symbol: ㅧ",
+            "Name: HANGUL LETTER NIEUN-SIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅨ U+3168 HANGUL LETTER NIEUN-PANSIOS": 
+    {
+        "prefix": [
+            "..U.3168",
+            "..U.HANGUL LETTER NIEUN-PANSIOS",
+            "U+3168",
+        ],
+        "body": [
+            "${1|ㅨ,&#x3168;,U+3168,0x3168,HANGUL LETTER NIEUN-PANSIOS|}$2",
+        ],
+        "description": [
+            "Code: U+3168",
+            "Character/Symbol: ㅨ",
+            "Name: HANGUL LETTER NIEUN-PANSIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅩ U+3169 HANGUL LETTER RIEUL-KIYEOK-SIOS": 
+    {
+        "prefix": [
+            "..U.3169",
+            "..U.HANGUL LETTER RIEUL-KIYEOK-SIOS",
+            "U+3169",
+        ],
+        "body": [
+            "${1|ㅩ,&#x3169;,U+3169,0x3169,HANGUL LETTER RIEUL-KIYEOK-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+3169",
+            "Character/Symbol: ㅩ",
+            "Name: HANGUL LETTER RIEUL-KIYEOK-SIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅪ U+316A HANGUL LETTER RIEUL-TIKEUT": 
+    {
+        "prefix": [
+            "..U.316A",
+            "..U.HANGUL LETTER RIEUL-TIKEUT",
+            "U+316A",
+        ],
+        "body": [
+            "${1|ㅪ,&#x316A;,U+316A,0x316A,HANGUL LETTER RIEUL-TIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+316A",
+            "Character/Symbol: ㅪ",
+            "Name: HANGUL LETTER RIEUL-TIKEUT",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅫ U+316B HANGUL LETTER RIEUL-PIEUP-SIOS": 
+    {
+        "prefix": [
+            "..U.316B",
+            "..U.HANGUL LETTER RIEUL-PIEUP-SIOS",
+            "U+316B",
+        ],
+        "body": [
+            "${1|ㅫ,&#x316B;,U+316B,0x316B,HANGUL LETTER RIEUL-PIEUP-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+316B",
+            "Character/Symbol: ㅫ",
+            "Name: HANGUL LETTER RIEUL-PIEUP-SIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅬ U+316C HANGUL LETTER RIEUL-PANSIOS": 
+    {
+        "prefix": [
+            "..U.316C",
+            "..U.HANGUL LETTER RIEUL-PANSIOS",
+            "U+316C",
+        ],
+        "body": [
+            "${1|ㅬ,&#x316C;,U+316C,0x316C,HANGUL LETTER RIEUL-PANSIOS|}$2",
+        ],
+        "description": [
+            "Code: U+316C",
+            "Character/Symbol: ㅬ",
+            "Name: HANGUL LETTER RIEUL-PANSIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅭ U+316D HANGUL LETTER RIEUL-YEORINHIEUH": 
+    {
+        "prefix": [
+            "..U.316D",
+            "..U.HANGUL LETTER RIEUL-YEORINHIEUH",
+            "U+316D",
+        ],
+        "body": [
+            "${1|ㅭ,&#x316D;,U+316D,0x316D,HANGUL LETTER RIEUL-YEORINHIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+316D",
+            "Character/Symbol: ㅭ",
+            "Name: HANGUL LETTER RIEUL-YEORINHIEUH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅮ U+316E HANGUL LETTER MIEUM-PIEUP": 
+    {
+        "prefix": [
+            "..U.316E",
+            "..U.HANGUL LETTER MIEUM-PIEUP",
+            "U+316E",
+        ],
+        "body": [
+            "${1|ㅮ,&#x316E;,U+316E,0x316E,HANGUL LETTER MIEUM-PIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+316E",
+            "Character/Symbol: ㅮ",
+            "Name: HANGUL LETTER MIEUM-PIEUP",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅯ U+316F HANGUL LETTER MIEUM-SIOS": 
+    {
+        "prefix": [
+            "..U.316F",
+            "..U.HANGUL LETTER MIEUM-SIOS",
+            "U+316F",
+        ],
+        "body": [
+            "${1|ㅯ,&#x316F;,U+316F,0x316F,HANGUL LETTER MIEUM-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+316F",
+            "Character/Symbol: ㅯ",
+            "Name: HANGUL LETTER MIEUM-SIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅰ U+3170 HANGUL LETTER MIEUM-PANSIOS": 
+    {
+        "prefix": [
+            "..U.3170",
+            "..U.HANGUL LETTER MIEUM-PANSIOS",
+            "U+3170",
+        ],
+        "body": [
+            "${1|ㅰ,&#x3170;,U+3170,0x3170,HANGUL LETTER MIEUM-PANSIOS|}$2",
+        ],
+        "description": [
+            "Code: U+3170",
+            "Character/Symbol: ㅰ",
+            "Name: HANGUL LETTER MIEUM-PANSIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅱ U+3171 HANGUL LETTER KAPYEOUNMIEUM": 
+    {
+        "prefix": [
+            "..U.3171",
+            "..U.HANGUL LETTER KAPYEOUNMIEUM",
+            "U+3171",
+        ],
+        "body": [
+            "${1|ㅱ,&#x3171;,U+3171,0x3171,HANGUL LETTER KAPYEOUNMIEUM|}$2",
+        ],
+        "description": [
+            "Code: U+3171",
+            "Character/Symbol: ㅱ",
+            "Name: HANGUL LETTER KAPYEOUNMIEUM",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅲ U+3172 HANGUL LETTER PIEUP-KIYEOK": 
+    {
+        "prefix": [
+            "..U.3172",
+            "..U.HANGUL LETTER PIEUP-KIYEOK",
+            "U+3172",
+        ],
+        "body": [
+            "${1|ㅲ,&#x3172;,U+3172,0x3172,HANGUL LETTER PIEUP-KIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+3172",
+            "Character/Symbol: ㅲ",
+            "Name: HANGUL LETTER PIEUP-KIYEOK",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅳ U+3173 HANGUL LETTER PIEUP-TIKEUT": 
+    {
+        "prefix": [
+            "..U.3173",
+            "..U.HANGUL LETTER PIEUP-TIKEUT",
+            "U+3173",
+        ],
+        "body": [
+            "${1|ㅳ,&#x3173;,U+3173,0x3173,HANGUL LETTER PIEUP-TIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+3173",
+            "Character/Symbol: ㅳ",
+            "Name: HANGUL LETTER PIEUP-TIKEUT",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅴ U+3174 HANGUL LETTER PIEUP-SIOS-KIYEOK": 
+    {
+        "prefix": [
+            "..U.3174",
+            "..U.HANGUL LETTER PIEUP-SIOS-KIYEOK",
+            "U+3174",
+        ],
+        "body": [
+            "${1|ㅴ,&#x3174;,U+3174,0x3174,HANGUL LETTER PIEUP-SIOS-KIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+3174",
+            "Character/Symbol: ㅴ",
+            "Name: HANGUL LETTER PIEUP-SIOS-KIYEOK",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅵ U+3175 HANGUL LETTER PIEUP-SIOS-TIKEUT": 
+    {
+        "prefix": [
+            "..U.3175",
+            "..U.HANGUL LETTER PIEUP-SIOS-TIKEUT",
+            "U+3175",
+        ],
+        "body": [
+            "${1|ㅵ,&#x3175;,U+3175,0x3175,HANGUL LETTER PIEUP-SIOS-TIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+3175",
+            "Character/Symbol: ㅵ",
+            "Name: HANGUL LETTER PIEUP-SIOS-TIKEUT",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅶ U+3176 HANGUL LETTER PIEUP-CIEUC": 
+    {
+        "prefix": [
+            "..U.3176",
+            "..U.HANGUL LETTER PIEUP-CIEUC",
+            "U+3176",
+        ],
+        "body": [
+            "${1|ㅶ,&#x3176;,U+3176,0x3176,HANGUL LETTER PIEUP-CIEUC|}$2",
+        ],
+        "description": [
+            "Code: U+3176",
+            "Character/Symbol: ㅶ",
+            "Name: HANGUL LETTER PIEUP-CIEUC",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅷ U+3177 HANGUL LETTER PIEUP-THIEUTH": 
+    {
+        "prefix": [
+            "..U.3177",
+            "..U.HANGUL LETTER PIEUP-THIEUTH",
+            "U+3177",
+        ],
+        "body": [
+            "${1|ㅷ,&#x3177;,U+3177,0x3177,HANGUL LETTER PIEUP-THIEUTH|}$2",
+        ],
+        "description": [
+            "Code: U+3177",
+            "Character/Symbol: ㅷ",
+            "Name: HANGUL LETTER PIEUP-THIEUTH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅸ U+3178 HANGUL LETTER KAPYEOUNPIEUP": 
+    {
+        "prefix": [
+            "..U.3178",
+            "..U.HANGUL LETTER KAPYEOUNPIEUP",
+            "U+3178",
+        ],
+        "body": [
+            "${1|ㅸ,&#x3178;,U+3178,0x3178,HANGUL LETTER KAPYEOUNPIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+3178",
+            "Character/Symbol: ㅸ",
+            "Name: HANGUL LETTER KAPYEOUNPIEUP",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅹ U+3179 HANGUL LETTER KAPYEOUNSSANGPIEUP": 
+    {
+        "prefix": [
+            "..U.3179",
+            "..U.HANGUL LETTER KAPYEOUNSSANGPIEUP",
+            "U+3179",
+        ],
+        "body": [
+            "${1|ㅹ,&#x3179;,U+3179,0x3179,HANGUL LETTER KAPYEOUNSSANGPIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+3179",
+            "Character/Symbol: ㅹ",
+            "Name: HANGUL LETTER KAPYEOUNSSANGPIEUP",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅺ U+317A HANGUL LETTER SIOS-KIYEOK": 
+    {
+        "prefix": [
+            "..U.317A",
+            "..U.HANGUL LETTER SIOS-KIYEOK",
+            "U+317A",
+        ],
+        "body": [
+            "${1|ㅺ,&#x317A;,U+317A,0x317A,HANGUL LETTER SIOS-KIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+317A",
+            "Character/Symbol: ㅺ",
+            "Name: HANGUL LETTER SIOS-KIYEOK",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅻ U+317B HANGUL LETTER SIOS-NIEUN": 
+    {
+        "prefix": [
+            "..U.317B",
+            "..U.HANGUL LETTER SIOS-NIEUN",
+            "U+317B",
+        ],
+        "body": [
+            "${1|ㅻ,&#x317B;,U+317B,0x317B,HANGUL LETTER SIOS-NIEUN|}$2",
+        ],
+        "description": [
+            "Code: U+317B",
+            "Character/Symbol: ㅻ",
+            "Name: HANGUL LETTER SIOS-NIEUN",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅼ U+317C HANGUL LETTER SIOS-TIKEUT": 
+    {
+        "prefix": [
+            "..U.317C",
+            "..U.HANGUL LETTER SIOS-TIKEUT",
+            "U+317C",
+        ],
+        "body": [
+            "${1|ㅼ,&#x317C;,U+317C,0x317C,HANGUL LETTER SIOS-TIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+317C",
+            "Character/Symbol: ㅼ",
+            "Name: HANGUL LETTER SIOS-TIKEUT",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅽ U+317D HANGUL LETTER SIOS-PIEUP": 
+    {
+        "prefix": [
+            "..U.317D",
+            "..U.HANGUL LETTER SIOS-PIEUP",
+            "U+317D",
+        ],
+        "body": [
+            "${1|ㅽ,&#x317D;,U+317D,0x317D,HANGUL LETTER SIOS-PIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+317D",
+            "Character/Symbol: ㅽ",
+            "Name: HANGUL LETTER SIOS-PIEUP",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅾ U+317E HANGUL LETTER SIOS-CIEUC": 
+    {
+        "prefix": [
+            "..U.317E",
+            "..U.HANGUL LETTER SIOS-CIEUC",
+            "U+317E",
+        ],
+        "body": [
+            "${1|ㅾ,&#x317E;,U+317E,0x317E,HANGUL LETTER SIOS-CIEUC|}$2",
+        ],
+        "description": [
+            "Code: U+317E",
+            "Character/Symbol: ㅾ",
+            "Name: HANGUL LETTER SIOS-CIEUC",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㅿ U+317F HANGUL LETTER PANSIOS": 
+    {
+        "prefix": [
+            "..U.317F",
+            "..U.HANGUL LETTER PANSIOS",
+            "U+317F",
+        ],
+        "body": [
+            "${1|ㅿ,&#x317F;,U+317F,0x317F,HANGUL LETTER PANSIOS|}$2",
+        ],
+        "description": [
+            "Code: U+317F",
+            "Character/Symbol: ㅿ",
+            "Name: HANGUL LETTER PANSIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆀ U+3180 HANGUL LETTER SSANGIEUNG": 
+    {
+        "prefix": [
+            "..U.3180",
+            "..U.HANGUL LETTER SSANGIEUNG",
+            "U+3180",
+        ],
+        "body": [
+            "${1|ㆀ,&#x3180;,U+3180,0x3180,HANGUL LETTER SSANGIEUNG|}$2",
+        ],
+        "description": [
+            "Code: U+3180",
+            "Character/Symbol: ㆀ",
+            "Name: HANGUL LETTER SSANGIEUNG",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆁ U+3181 HANGUL LETTER YESIEUNG": 
+    {
+        "prefix": [
+            "..U.3181",
+            "..U.HANGUL LETTER YESIEUNG",
+            "U+3181",
+        ],
+        "body": [
+            "${1|ㆁ,&#x3181;,U+3181,0x3181,HANGUL LETTER YESIEUNG|}$2",
+        ],
+        "description": [
+            "Code: U+3181",
+            "Character/Symbol: ㆁ",
+            "Name: HANGUL LETTER YESIEUNG",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆂ U+3182 HANGUL LETTER YESIEUNG-SIOS": 
+    {
+        "prefix": [
+            "..U.3182",
+            "..U.HANGUL LETTER YESIEUNG-SIOS",
+            "U+3182",
+        ],
+        "body": [
+            "${1|ㆂ,&#x3182;,U+3182,0x3182,HANGUL LETTER YESIEUNG-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+3182",
+            "Character/Symbol: ㆂ",
+            "Name: HANGUL LETTER YESIEUNG-SIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆃ U+3183 HANGUL LETTER YESIEUNG-PANSIOS": 
+    {
+        "prefix": [
+            "..U.3183",
+            "..U.HANGUL LETTER YESIEUNG-PANSIOS",
+            "U+3183",
+        ],
+        "body": [
+            "${1|ㆃ,&#x3183;,U+3183,0x3183,HANGUL LETTER YESIEUNG-PANSIOS|}$2",
+        ],
+        "description": [
+            "Code: U+3183",
+            "Character/Symbol: ㆃ",
+            "Name: HANGUL LETTER YESIEUNG-PANSIOS",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆄ U+3184 HANGUL LETTER KAPYEOUNPHIEUPH": 
+    {
+        "prefix": [
+            "..U.3184",
+            "..U.HANGUL LETTER KAPYEOUNPHIEUPH",
+            "U+3184",
+        ],
+        "body": [
+            "${1|ㆄ,&#x3184;,U+3184,0x3184,HANGUL LETTER KAPYEOUNPHIEUPH|}$2",
+        ],
+        "description": [
+            "Code: U+3184",
+            "Character/Symbol: ㆄ",
+            "Name: HANGUL LETTER KAPYEOUNPHIEUPH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆅ U+3185 HANGUL LETTER SSANGHIEUH": 
+    {
+        "prefix": [
+            "..U.3185",
+            "..U.HANGUL LETTER SSANGHIEUH",
+            "U+3185",
+        ],
+        "body": [
+            "${1|ㆅ,&#x3185;,U+3185,0x3185,HANGUL LETTER SSANGHIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+3185",
+            "Character/Symbol: ㆅ",
+            "Name: HANGUL LETTER SSANGHIEUH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆆ U+3186 HANGUL LETTER YEORINHIEUH": 
+    {
+        "prefix": [
+            "..U.3186",
+            "..U.HANGUL LETTER YEORINHIEUH",
+            "U+3186",
+        ],
+        "body": [
+            "${1|ㆆ,&#x3186;,U+3186,0x3186,HANGUL LETTER YEORINHIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+3186",
+            "Character/Symbol: ㆆ",
+            "Name: HANGUL LETTER YEORINHIEUH",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆇ U+3187 HANGUL LETTER YO-YA": 
+    {
+        "prefix": [
+            "..U.3187",
+            "..U.HANGUL LETTER YO-YA",
+            "U+3187",
+        ],
+        "body": [
+            "${1|ㆇ,&#x3187;,U+3187,0x3187,HANGUL LETTER YO-YA|}$2",
+        ],
+        "description": [
+            "Code: U+3187",
+            "Character/Symbol: ㆇ",
+            "Name: HANGUL LETTER YO-YA",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆈ U+3188 HANGUL LETTER YO-YAE": 
+    {
+        "prefix": [
+            "..U.3188",
+            "..U.HANGUL LETTER YO-YAE",
+            "U+3188",
+        ],
+        "body": [
+            "${1|ㆈ,&#x3188;,U+3188,0x3188,HANGUL LETTER YO-YAE|}$2",
+        ],
+        "description": [
+            "Code: U+3188",
+            "Character/Symbol: ㆈ",
+            "Name: HANGUL LETTER YO-YAE",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆉ U+3189 HANGUL LETTER YO-I": 
+    {
+        "prefix": [
+            "..U.3189",
+            "..U.HANGUL LETTER YO-I",
+            "U+3189",
+        ],
+        "body": [
+            "${1|ㆉ,&#x3189;,U+3189,0x3189,HANGUL LETTER YO-I|}$2",
+        ],
+        "description": [
+            "Code: U+3189",
+            "Character/Symbol: ㆉ",
+            "Name: HANGUL LETTER YO-I",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆊ U+318A HANGUL LETTER YU-YEO": 
+    {
+        "prefix": [
+            "..U.318A",
+            "..U.HANGUL LETTER YU-YEO",
+            "U+318A",
+        ],
+        "body": [
+            "${1|ㆊ,&#x318A;,U+318A,0x318A,HANGUL LETTER YU-YEO|}$2",
+        ],
+        "description": [
+            "Code: U+318A",
+            "Character/Symbol: ㆊ",
+            "Name: HANGUL LETTER YU-YEO",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆋ U+318B HANGUL LETTER YU-YE": 
+    {
+        "prefix": [
+            "..U.318B",
+            "..U.HANGUL LETTER YU-YE",
+            "U+318B",
+        ],
+        "body": [
+            "${1|ㆋ,&#x318B;,U+318B,0x318B,HANGUL LETTER YU-YE|}$2",
+        ],
+        "description": [
+            "Code: U+318B",
+            "Character/Symbol: ㆋ",
+            "Name: HANGUL LETTER YU-YE",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆌ U+318C HANGUL LETTER YU-I": 
+    {
+        "prefix": [
+            "..U.318C",
+            "..U.HANGUL LETTER YU-I",
+            "U+318C",
+        ],
+        "body": [
+            "${1|ㆌ,&#x318C;,U+318C,0x318C,HANGUL LETTER YU-I|}$2",
+        ],
+        "description": [
+            "Code: U+318C",
+            "Character/Symbol: ㆌ",
+            "Name: HANGUL LETTER YU-I",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆍ U+318D HANGUL LETTER ARAEA": 
+    {
+        "prefix": [
+            "..U.318D",
+            "..U.HANGUL LETTER ARAEA",
+            "U+318D",
+        ],
+        "body": [
+            "${1|ㆍ,&#x318D;,U+318D,0x318D,HANGUL LETTER ARAEA|}$2",
+        ],
+        "description": [
+            "Code: U+318D",
+            "Character/Symbol: ㆍ",
+            "Name: HANGUL LETTER ARAEA",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+    "Unicode ㆎ U+318E HANGUL LETTER ARAEAE": 
+    {
+        "prefix": [
+            "..U.318E",
+            "..U.HANGUL LETTER ARAEAE",
+            "U+318E",
+        ],
+        "body": [
+            "${1|ㆎ,&#x318E;,U+318E,0x318E,HANGUL LETTER ARAEAE|}$2",
+        ],
+        "description": [
+            "Code: U+318E",
+            "Character/Symbol: ㆎ",
+            "Name: HANGUL LETTER ARAEAE",
+            "Group/Block: Compat_Jamo",
+        ],
+    },
+
+}

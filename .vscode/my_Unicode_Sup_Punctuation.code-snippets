@@ -1,0 +1,1694 @@
+{
+    "Unicode ⸀ U+2E00 RIGHT ANGLE SUBSTITUTION MARKER": 
+    {
+        "prefix": [
+            "..U.2E00",
+            "..U.RIGHT ANGLE SUBSTITUTION MARKER",
+            "U+2E00",
+        ],
+        "body": [
+            "${1|⸀,&#x2E00;,U+2E00,0x2E00,RIGHT ANGLE SUBSTITUTION MARKER|}$2",
+        ],
+        "description": [
+            "Code: U+2E00",
+            "Character/Symbol: ⸀",
+            "Name: RIGHT ANGLE SUBSTITUTION MARKER",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸁ U+2E01 RIGHT ANGLE DOTTED SUBSTITUTION MARKER": 
+    {
+        "prefix": [
+            "..U.2E01",
+            "..U.RIGHT ANGLE DOTTED SUBSTITUTION MARKER",
+            "U+2E01",
+        ],
+        "body": [
+            "${1|⸁,&#x2E01;,U+2E01,0x2E01,RIGHT ANGLE DOTTED SUBSTITUTION MARKER|}$2",
+        ],
+        "description": [
+            "Code: U+2E01",
+            "Character/Symbol: ⸁",
+            "Name: RIGHT ANGLE DOTTED SUBSTITUTION MARKER",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸂ U+2E02 LEFT SUBSTITUTION BRACKET": 
+    {
+        "prefix": [
+            "..U.2E02",
+            "..U.LEFT SUBSTITUTION BRACKET",
+            "U+2E02",
+        ],
+        "body": [
+            "${1|⸂,&#x2E02;,U+2E02,0x2E02,LEFT SUBSTITUTION BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E02",
+            "Character/Symbol: ⸂",
+            "Name: LEFT SUBSTITUTION BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸃ U+2E03 RIGHT SUBSTITUTION BRACKET": 
+    {
+        "prefix": [
+            "..U.2E03",
+            "..U.RIGHT SUBSTITUTION BRACKET",
+            "U+2E03",
+        ],
+        "body": [
+            "${1|⸃,&#x2E03;,U+2E03,0x2E03,RIGHT SUBSTITUTION BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E03",
+            "Character/Symbol: ⸃",
+            "Name: RIGHT SUBSTITUTION BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸄ U+2E04 LEFT DOTTED SUBSTITUTION BRACKET": 
+    {
+        "prefix": [
+            "..U.2E04",
+            "..U.LEFT DOTTED SUBSTITUTION BRACKET",
+            "U+2E04",
+        ],
+        "body": [
+            "${1|⸄,&#x2E04;,U+2E04,0x2E04,LEFT DOTTED SUBSTITUTION BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E04",
+            "Character/Symbol: ⸄",
+            "Name: LEFT DOTTED SUBSTITUTION BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸅ U+2E05 RIGHT DOTTED SUBSTITUTION BRACKET": 
+    {
+        "prefix": [
+            "..U.2E05",
+            "..U.RIGHT DOTTED SUBSTITUTION BRACKET",
+            "U+2E05",
+        ],
+        "body": [
+            "${1|⸅,&#x2E05;,U+2E05,0x2E05,RIGHT DOTTED SUBSTITUTION BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E05",
+            "Character/Symbol: ⸅",
+            "Name: RIGHT DOTTED SUBSTITUTION BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸆ U+2E06 RAISED INTERPOLATION MARKER": 
+    {
+        "prefix": [
+            "..U.2E06",
+            "..U.RAISED INTERPOLATION MARKER",
+            "U+2E06",
+        ],
+        "body": [
+            "${1|⸆,&#x2E06;,U+2E06,0x2E06,RAISED INTERPOLATION MARKER|}$2",
+        ],
+        "description": [
+            "Code: U+2E06",
+            "Character/Symbol: ⸆",
+            "Name: RAISED INTERPOLATION MARKER",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸇ U+2E07 RAISED DOTTED INTERPOLATION MARKER": 
+    {
+        "prefix": [
+            "..U.2E07",
+            "..U.RAISED DOTTED INTERPOLATION MARKER",
+            "U+2E07",
+        ],
+        "body": [
+            "${1|⸇,&#x2E07;,U+2E07,0x2E07,RAISED DOTTED INTERPOLATION MARKER|}$2",
+        ],
+        "description": [
+            "Code: U+2E07",
+            "Character/Symbol: ⸇",
+            "Name: RAISED DOTTED INTERPOLATION MARKER",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸈ U+2E08 DOTTED TRANSPOSITION MARKER": 
+    {
+        "prefix": [
+            "..U.2E08",
+            "..U.DOTTED TRANSPOSITION MARKER",
+            "U+2E08",
+        ],
+        "body": [
+            "${1|⸈,&#x2E08;,U+2E08,0x2E08,DOTTED TRANSPOSITION MARKER|}$2",
+        ],
+        "description": [
+            "Code: U+2E08",
+            "Character/Symbol: ⸈",
+            "Name: DOTTED TRANSPOSITION MARKER",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸉ U+2E09 LEFT TRANSPOSITION BRACKET": 
+    {
+        "prefix": [
+            "..U.2E09",
+            "..U.LEFT TRANSPOSITION BRACKET",
+            "U+2E09",
+        ],
+        "body": [
+            "${1|⸉,&#x2E09;,U+2E09,0x2E09,LEFT TRANSPOSITION BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E09",
+            "Character/Symbol: ⸉",
+            "Name: LEFT TRANSPOSITION BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸊ U+2E0A RIGHT TRANSPOSITION BRACKET": 
+    {
+        "prefix": [
+            "..U.2E0A",
+            "..U.RIGHT TRANSPOSITION BRACKET",
+            "U+2E0A",
+        ],
+        "body": [
+            "${1|⸊,&#x2E0A;,U+2E0A,0x2E0A,RIGHT TRANSPOSITION BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E0A",
+            "Character/Symbol: ⸊",
+            "Name: RIGHT TRANSPOSITION BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸋ U+2E0B RAISED SQUARE": 
+    {
+        "prefix": [
+            "..U.2E0B",
+            "..U.RAISED SQUARE",
+            "U+2E0B",
+        ],
+        "body": [
+            "${1|⸋,&#x2E0B;,U+2E0B,0x2E0B,RAISED SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+2E0B",
+            "Character/Symbol: ⸋",
+            "Name: RAISED SQUARE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸌ U+2E0C LEFT RAISED OMISSION BRACKET": 
+    {
+        "prefix": [
+            "..U.2E0C",
+            "..U.LEFT RAISED OMISSION BRACKET",
+            "U+2E0C",
+        ],
+        "body": [
+            "${1|⸌,&#x2E0C;,U+2E0C,0x2E0C,LEFT RAISED OMISSION BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E0C",
+            "Character/Symbol: ⸌",
+            "Name: LEFT RAISED OMISSION BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸍ U+2E0D RIGHT RAISED OMISSION BRACKET": 
+    {
+        "prefix": [
+            "..U.2E0D",
+            "..U.RIGHT RAISED OMISSION BRACKET",
+            "U+2E0D",
+        ],
+        "body": [
+            "${1|⸍,&#x2E0D;,U+2E0D,0x2E0D,RIGHT RAISED OMISSION BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E0D",
+            "Character/Symbol: ⸍",
+            "Name: RIGHT RAISED OMISSION BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸎ U+2E0E EDITORIAL CORONIS": 
+    {
+        "prefix": [
+            "..U.2E0E",
+            "..U.EDITORIAL CORONIS",
+            "U+2E0E",
+        ],
+        "body": [
+            "${1|⸎,&#x2E0E;,U+2E0E,0x2E0E,EDITORIAL CORONIS|}$2",
+        ],
+        "description": [
+            "Code: U+2E0E",
+            "Character/Symbol: ⸎",
+            "Name: EDITORIAL CORONIS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸏ U+2E0F PARAGRAPHOS": 
+    {
+        "prefix": [
+            "..U.2E0F",
+            "..U.PARAGRAPHOS",
+            "U+2E0F",
+        ],
+        "body": [
+            "${1|⸏,&#x2E0F;,U+2E0F,0x2E0F,PARAGRAPHOS|}$2",
+        ],
+        "description": [
+            "Code: U+2E0F",
+            "Character/Symbol: ⸏",
+            "Name: PARAGRAPHOS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸐ U+2E10 FORKED PARAGRAPHOS": 
+    {
+        "prefix": [
+            "..U.2E10",
+            "..U.FORKED PARAGRAPHOS",
+            "U+2E10",
+        ],
+        "body": [
+            "${1|⸐,&#x2E10;,U+2E10,0x2E10,FORKED PARAGRAPHOS|}$2",
+        ],
+        "description": [
+            "Code: U+2E10",
+            "Character/Symbol: ⸐",
+            "Name: FORKED PARAGRAPHOS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸑ U+2E11 REVERSED FORKED PARAGRAPHOS": 
+    {
+        "prefix": [
+            "..U.2E11",
+            "..U.REVERSED FORKED PARAGRAPHOS",
+            "U+2E11",
+        ],
+        "body": [
+            "${1|⸑,&#x2E11;,U+2E11,0x2E11,REVERSED FORKED PARAGRAPHOS|}$2",
+        ],
+        "description": [
+            "Code: U+2E11",
+            "Character/Symbol: ⸑",
+            "Name: REVERSED FORKED PARAGRAPHOS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸒ U+2E12 HYPODIASTOLE": 
+    {
+        "prefix": [
+            "..U.2E12",
+            "..U.HYPODIASTOLE",
+            "U+2E12",
+        ],
+        "body": [
+            "${1|⸒,&#x2E12;,U+2E12,0x2E12,HYPODIASTOLE|}$2",
+        ],
+        "description": [
+            "Code: U+2E12",
+            "Character/Symbol: ⸒",
+            "Name: HYPODIASTOLE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸓ U+2E13 DOTTED OBELOS": 
+    {
+        "prefix": [
+            "..U.2E13",
+            "..U.DOTTED OBELOS",
+            "U+2E13",
+        ],
+        "body": [
+            "${1|⸓,&#x2E13;,U+2E13,0x2E13,DOTTED OBELOS|}$2",
+        ],
+        "description": [
+            "Code: U+2E13",
+            "Character/Symbol: ⸓",
+            "Name: DOTTED OBELOS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸔ U+2E14 DOWNWARDS ANCORA": 
+    {
+        "prefix": [
+            "..U.2E14",
+            "..U.DOWNWARDS ANCORA",
+            "U+2E14",
+        ],
+        "body": [
+            "${1|⸔,&#x2E14;,U+2E14,0x2E14,DOWNWARDS ANCORA|}$2",
+        ],
+        "description": [
+            "Code: U+2E14",
+            "Character/Symbol: ⸔",
+            "Name: DOWNWARDS ANCORA",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸕ U+2E15 UPWARDS ANCORA": 
+    {
+        "prefix": [
+            "..U.2E15",
+            "..U.UPWARDS ANCORA",
+            "U+2E15",
+        ],
+        "body": [
+            "${1|⸕,&#x2E15;,U+2E15,0x2E15,UPWARDS ANCORA|}$2",
+        ],
+        "description": [
+            "Code: U+2E15",
+            "Character/Symbol: ⸕",
+            "Name: UPWARDS ANCORA",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸖ U+2E16 DOTTED RIGHT-POINTING ANGLE": 
+    {
+        "prefix": [
+            "..U.2E16",
+            "..U.DOTTED RIGHT-POINTING ANGLE",
+            "U+2E16",
+        ],
+        "body": [
+            "${1|⸖,&#x2E16;,U+2E16,0x2E16,DOTTED RIGHT-POINTING ANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+2E16",
+            "Character/Symbol: ⸖",
+            "Name: DOTTED RIGHT-POINTING ANGLE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸗ U+2E17 DOUBLE OBLIQUE HYPHEN": 
+    {
+        "prefix": [
+            "..U.2E17",
+            "..U.DOUBLE OBLIQUE HYPHEN",
+            "U+2E17",
+        ],
+        "body": [
+            "${1|⸗,&#x2E17;,U+2E17,0x2E17,DOUBLE OBLIQUE HYPHEN|}$2",
+        ],
+        "description": [
+            "Code: U+2E17",
+            "Character/Symbol: ⸗",
+            "Name: DOUBLE OBLIQUE HYPHEN",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸘ U+2E18 INVERTED INTERROBANG": 
+    {
+        "prefix": [
+            "..U.2E18",
+            "..U.INVERTED INTERROBANG",
+            "U+2E18",
+        ],
+        "body": [
+            "${1|⸘,&#x2E18;,U+2E18,0x2E18,INVERTED INTERROBANG|}$2",
+        ],
+        "description": [
+            "Code: U+2E18",
+            "Character/Symbol: ⸘",
+            "Name: INVERTED INTERROBANG",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸙ U+2E19 PALM BRANCH": 
+    {
+        "prefix": [
+            "..U.2E19",
+            "..U.PALM BRANCH",
+            "U+2E19",
+        ],
+        "body": [
+            "${1|⸙,&#x2E19;,U+2E19,0x2E19,PALM BRANCH|}$2",
+        ],
+        "description": [
+            "Code: U+2E19",
+            "Character/Symbol: ⸙",
+            "Name: PALM BRANCH",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸚ U+2E1A HYPHEN WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.2E1A",
+            "..U.HYPHEN WITH DIAERESIS",
+            "U+2E1A",
+        ],
+        "body": [
+            "${1|⸚,&#x2E1A;,U+2E1A,0x2E1A,HYPHEN WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+2E1A",
+            "Character/Symbol: ⸚",
+            "Name: HYPHEN WITH DIAERESIS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸛ U+2E1B TILDE WITH RING ABOVE": 
+    {
+        "prefix": [
+            "..U.2E1B",
+            "..U.TILDE WITH RING ABOVE",
+            "U+2E1B",
+        ],
+        "body": [
+            "${1|⸛,&#x2E1B;,U+2E1B,0x2E1B,TILDE WITH RING ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+2E1B",
+            "Character/Symbol: ⸛",
+            "Name: TILDE WITH RING ABOVE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸜ U+2E1C LEFT LOW PARAPHRASE BRACKET": 
+    {
+        "prefix": [
+            "..U.2E1C",
+            "..U.LEFT LOW PARAPHRASE BRACKET",
+            "U+2E1C",
+        ],
+        "body": [
+            "${1|⸜,&#x2E1C;,U+2E1C,0x2E1C,LEFT LOW PARAPHRASE BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E1C",
+            "Character/Symbol: ⸜",
+            "Name: LEFT LOW PARAPHRASE BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸝ U+2E1D RIGHT LOW PARAPHRASE BRACKET": 
+    {
+        "prefix": [
+            "..U.2E1D",
+            "..U.RIGHT LOW PARAPHRASE BRACKET",
+            "U+2E1D",
+        ],
+        "body": [
+            "${1|⸝,&#x2E1D;,U+2E1D,0x2E1D,RIGHT LOW PARAPHRASE BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E1D",
+            "Character/Symbol: ⸝",
+            "Name: RIGHT LOW PARAPHRASE BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸞ U+2E1E TILDE WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.2E1E",
+            "..U.TILDE WITH DOT ABOVE",
+            "U+2E1E",
+        ],
+        "body": [
+            "${1|⸞,&#x2E1E;,U+2E1E,0x2E1E,TILDE WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+2E1E",
+            "Character/Symbol: ⸞",
+            "Name: TILDE WITH DOT ABOVE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸟ U+2E1F TILDE WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.2E1F",
+            "..U.TILDE WITH DOT BELOW",
+            "U+2E1F",
+        ],
+        "body": [
+            "${1|⸟,&#x2E1F;,U+2E1F,0x2E1F,TILDE WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+2E1F",
+            "Character/Symbol: ⸟",
+            "Name: TILDE WITH DOT BELOW",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸠ U+2E20 LEFT VERTICAL BAR WITH QUILL": 
+    {
+        "prefix": [
+            "..U.2E20",
+            "..U.LEFT VERTICAL BAR WITH QUILL",
+            "U+2E20",
+        ],
+        "body": [
+            "${1|⸠,&#x2E20;,U+2E20,0x2E20,LEFT VERTICAL BAR WITH QUILL|}$2",
+        ],
+        "description": [
+            "Code: U+2E20",
+            "Character/Symbol: ⸠",
+            "Name: LEFT VERTICAL BAR WITH QUILL",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸡ U+2E21 RIGHT VERTICAL BAR WITH QUILL": 
+    {
+        "prefix": [
+            "..U.2E21",
+            "..U.RIGHT VERTICAL BAR WITH QUILL",
+            "U+2E21",
+        ],
+        "body": [
+            "${1|⸡,&#x2E21;,U+2E21,0x2E21,RIGHT VERTICAL BAR WITH QUILL|}$2",
+        ],
+        "description": [
+            "Code: U+2E21",
+            "Character/Symbol: ⸡",
+            "Name: RIGHT VERTICAL BAR WITH QUILL",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸢ U+2E22 TOP LEFT HALF BRACKET": 
+    {
+        "prefix": [
+            "..U.2E22",
+            "..U.TOP LEFT HALF BRACKET",
+            "U+2E22",
+        ],
+        "body": [
+            "${1|⸢,&#x2E22;,U+2E22,0x2E22,TOP LEFT HALF BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E22",
+            "Character/Symbol: ⸢",
+            "Name: TOP LEFT HALF BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸣ U+2E23 TOP RIGHT HALF BRACKET": 
+    {
+        "prefix": [
+            "..U.2E23",
+            "..U.TOP RIGHT HALF BRACKET",
+            "U+2E23",
+        ],
+        "body": [
+            "${1|⸣,&#x2E23;,U+2E23,0x2E23,TOP RIGHT HALF BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E23",
+            "Character/Symbol: ⸣",
+            "Name: TOP RIGHT HALF BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸤ U+2E24 BOTTOM LEFT HALF BRACKET": 
+    {
+        "prefix": [
+            "..U.2E24",
+            "..U.BOTTOM LEFT HALF BRACKET",
+            "U+2E24",
+        ],
+        "body": [
+            "${1|⸤,&#x2E24;,U+2E24,0x2E24,BOTTOM LEFT HALF BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E24",
+            "Character/Symbol: ⸤",
+            "Name: BOTTOM LEFT HALF BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸥ U+2E25 BOTTOM RIGHT HALF BRACKET": 
+    {
+        "prefix": [
+            "..U.2E25",
+            "..U.BOTTOM RIGHT HALF BRACKET",
+            "U+2E25",
+        ],
+        "body": [
+            "${1|⸥,&#x2E25;,U+2E25,0x2E25,BOTTOM RIGHT HALF BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E25",
+            "Character/Symbol: ⸥",
+            "Name: BOTTOM RIGHT HALF BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸦ U+2E26 LEFT SIDEWAYS U BRACKET": 
+    {
+        "prefix": [
+            "..U.2E26",
+            "..U.LEFT SIDEWAYS U BRACKET",
+            "U+2E26",
+        ],
+        "body": [
+            "${1|⸦,&#x2E26;,U+2E26,0x2E26,LEFT SIDEWAYS U BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E26",
+            "Character/Symbol: ⸦",
+            "Name: LEFT SIDEWAYS U BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸧ U+2E27 RIGHT SIDEWAYS U BRACKET": 
+    {
+        "prefix": [
+            "..U.2E27",
+            "..U.RIGHT SIDEWAYS U BRACKET",
+            "U+2E27",
+        ],
+        "body": [
+            "${1|⸧,&#x2E27;,U+2E27,0x2E27,RIGHT SIDEWAYS U BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+2E27",
+            "Character/Symbol: ⸧",
+            "Name: RIGHT SIDEWAYS U BRACKET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸨ U+2E28 LEFT DOUBLE PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.2E28",
+            "..U.LEFT DOUBLE PARENTHESIS",
+            "U+2E28",
+        ],
+        "body": [
+            "${1|⸨,&#x2E28;,U+2E28,0x2E28,LEFT DOUBLE PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+2E28",
+            "Character/Symbol: ⸨",
+            "Name: LEFT DOUBLE PARENTHESIS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸩ U+2E29 RIGHT DOUBLE PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.2E29",
+            "..U.RIGHT DOUBLE PARENTHESIS",
+            "U+2E29",
+        ],
+        "body": [
+            "${1|⸩,&#x2E29;,U+2E29,0x2E29,RIGHT DOUBLE PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+2E29",
+            "Character/Symbol: ⸩",
+            "Name: RIGHT DOUBLE PARENTHESIS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸪ U+2E2A TWO DOTS OVER ONE DOT PUNCTUATION": 
+    {
+        "prefix": [
+            "..U.2E2A",
+            "..U.TWO DOTS OVER ONE DOT PUNCTUATION",
+            "U+2E2A",
+        ],
+        "body": [
+            "${1|⸪,&#x2E2A;,U+2E2A,0x2E2A,TWO DOTS OVER ONE DOT PUNCTUATION|}$2",
+        ],
+        "description": [
+            "Code: U+2E2A",
+            "Character/Symbol: ⸪",
+            "Name: TWO DOTS OVER ONE DOT PUNCTUATION",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸫ U+2E2B ONE DOT OVER TWO DOTS PUNCTUATION": 
+    {
+        "prefix": [
+            "..U.2E2B",
+            "..U.ONE DOT OVER TWO DOTS PUNCTUATION",
+            "U+2E2B",
+        ],
+        "body": [
+            "${1|⸫,&#x2E2B;,U+2E2B,0x2E2B,ONE DOT OVER TWO DOTS PUNCTUATION|}$2",
+        ],
+        "description": [
+            "Code: U+2E2B",
+            "Character/Symbol: ⸫",
+            "Name: ONE DOT OVER TWO DOTS PUNCTUATION",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸬ U+2E2C SQUARED FOUR DOT PUNCTUATION": 
+    {
+        "prefix": [
+            "..U.2E2C",
+            "..U.SQUARED FOUR DOT PUNCTUATION",
+            "U+2E2C",
+        ],
+        "body": [
+            "${1|⸬,&#x2E2C;,U+2E2C,0x2E2C,SQUARED FOUR DOT PUNCTUATION|}$2",
+        ],
+        "description": [
+            "Code: U+2E2C",
+            "Character/Symbol: ⸬",
+            "Name: SQUARED FOUR DOT PUNCTUATION",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸭ U+2E2D FIVE DOT MARK": 
+    {
+        "prefix": [
+            "..U.2E2D",
+            "..U.FIVE DOT MARK",
+            "U+2E2D",
+        ],
+        "body": [
+            "${1|⸭,&#x2E2D;,U+2E2D,0x2E2D,FIVE DOT MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2E2D",
+            "Character/Symbol: ⸭",
+            "Name: FIVE DOT MARK",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸮ U+2E2E REVERSED QUESTION MARK": 
+    {
+        "prefix": [
+            "..U.2E2E",
+            "..U.REVERSED QUESTION MARK",
+            "U+2E2E",
+        ],
+        "body": [
+            "${1|⸮,&#x2E2E;,U+2E2E,0x2E2E,REVERSED QUESTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2E2E",
+            "Character/Symbol: ⸮",
+            "Name: REVERSED QUESTION MARK",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸯ U+2E2F VERTICAL TILDE": 
+    {
+        "prefix": [
+            "..U.2E2F",
+            "..U.VERTICAL TILDE",
+            "U+2E2F",
+        ],
+        "body": [
+            "${1|ⸯ,&#x2E2F;,U+2E2F,0x2E2F,VERTICAL TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+2E2F",
+            "Character/Symbol: ⸯ",
+            "Name: VERTICAL TILDE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸰ U+2E30 RING POINT": 
+    {
+        "prefix": [
+            "..U.2E30",
+            "..U.RING POINT",
+            "U+2E30",
+        ],
+        "body": [
+            "${1|⸰,&#x2E30;,U+2E30,0x2E30,RING POINT|}$2",
+        ],
+        "description": [
+            "Code: U+2E30",
+            "Character/Symbol: ⸰",
+            "Name: RING POINT",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸱ U+2E31 WORD SEPARATOR MIDDLE DOT": 
+    {
+        "prefix": [
+            "..U.2E31",
+            "..U.WORD SEPARATOR MIDDLE DOT",
+            "U+2E31",
+        ],
+        "body": [
+            "${1|⸱,&#x2E31;,U+2E31,0x2E31,WORD SEPARATOR MIDDLE DOT|}$2",
+        ],
+        "description": [
+            "Code: U+2E31",
+            "Character/Symbol: ⸱",
+            "Name: WORD SEPARATOR MIDDLE DOT",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸲ U+2E32 TURNED COMMA": 
+    {
+        "prefix": [
+            "..U.2E32",
+            "..U.TURNED COMMA",
+            "U+2E32",
+        ],
+        "body": [
+            "${1|⸲,&#x2E32;,U+2E32,0x2E32,TURNED COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+2E32",
+            "Character/Symbol: ⸲",
+            "Name: TURNED COMMA",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸳ U+2E33 RAISED DOT": 
+    {
+        "prefix": [
+            "..U.2E33",
+            "..U.RAISED DOT",
+            "U+2E33",
+        ],
+        "body": [
+            "${1|⸳,&#x2E33;,U+2E33,0x2E33,RAISED DOT|}$2",
+        ],
+        "description": [
+            "Code: U+2E33",
+            "Character/Symbol: ⸳",
+            "Name: RAISED DOT",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸴ U+2E34 RAISED COMMA": 
+    {
+        "prefix": [
+            "..U.2E34",
+            "..U.RAISED COMMA",
+            "U+2E34",
+        ],
+        "body": [
+            "${1|⸴,&#x2E34;,U+2E34,0x2E34,RAISED COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+2E34",
+            "Character/Symbol: ⸴",
+            "Name: RAISED COMMA",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸵ U+2E35 TURNED SEMICOLON": 
+    {
+        "prefix": [
+            "..U.2E35",
+            "..U.TURNED SEMICOLON",
+            "U+2E35",
+        ],
+        "body": [
+            "${1|⸵,&#x2E35;,U+2E35,0x2E35,TURNED SEMICOLON|}$2",
+        ],
+        "description": [
+            "Code: U+2E35",
+            "Character/Symbol: ⸵",
+            "Name: TURNED SEMICOLON",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸶ U+2E36 DAGGER WITH LEFT GUARD": 
+    {
+        "prefix": [
+            "..U.2E36",
+            "..U.DAGGER WITH LEFT GUARD",
+            "U+2E36",
+        ],
+        "body": [
+            "${1|⸶,&#x2E36;,U+2E36,0x2E36,DAGGER WITH LEFT GUARD|}$2",
+        ],
+        "description": [
+            "Code: U+2E36",
+            "Character/Symbol: ⸶",
+            "Name: DAGGER WITH LEFT GUARD",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸷ U+2E37 DAGGER WITH RIGHT GUARD": 
+    {
+        "prefix": [
+            "..U.2E37",
+            "..U.DAGGER WITH RIGHT GUARD",
+            "U+2E37",
+        ],
+        "body": [
+            "${1|⸷,&#x2E37;,U+2E37,0x2E37,DAGGER WITH RIGHT GUARD|}$2",
+        ],
+        "description": [
+            "Code: U+2E37",
+            "Character/Symbol: ⸷",
+            "Name: DAGGER WITH RIGHT GUARD",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸸ U+2E38 TURNED DAGGER": 
+    {
+        "prefix": [
+            "..U.2E38",
+            "..U.TURNED DAGGER",
+            "U+2E38",
+        ],
+        "body": [
+            "${1|⸸,&#x2E38;,U+2E38,0x2E38,TURNED DAGGER|}$2",
+        ],
+        "description": [
+            "Code: U+2E38",
+            "Character/Symbol: ⸸",
+            "Name: TURNED DAGGER",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸹ U+2E39 TOP HALF SECTION SIGN": 
+    {
+        "prefix": [
+            "..U.2E39",
+            "..U.TOP HALF SECTION SIGN",
+            "U+2E39",
+        ],
+        "body": [
+            "${1|⸹,&#x2E39;,U+2E39,0x2E39,TOP HALF SECTION SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+2E39",
+            "Character/Symbol: ⸹",
+            "Name: TOP HALF SECTION SIGN",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸺ U+2E3A TWO-EM DASH": 
+    {
+        "prefix": [
+            "..U.2E3A",
+            "..U.TWO-EM DASH",
+            "U+2E3A",
+        ],
+        "body": [
+            "${1|⸺,&#x2E3A;,U+2E3A,0x2E3A,TWO-EM DASH|}$2",
+        ],
+        "description": [
+            "Code: U+2E3A",
+            "Character/Symbol: ⸺",
+            "Name: TWO-EM DASH",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸻ U+2E3B THREE-EM DASH": 
+    {
+        "prefix": [
+            "..U.2E3B",
+            "..U.THREE-EM DASH",
+            "U+2E3B",
+        ],
+        "body": [
+            "${1|⸻,&#x2E3B;,U+2E3B,0x2E3B,THREE-EM DASH|}$2",
+        ],
+        "description": [
+            "Code: U+2E3B",
+            "Character/Symbol: ⸻",
+            "Name: THREE-EM DASH",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸼ U+2E3C STENOGRAPHIC FULL STOP": 
+    {
+        "prefix": [
+            "..U.2E3C",
+            "..U.STENOGRAPHIC FULL STOP",
+            "U+2E3C",
+        ],
+        "body": [
+            "${1|⸼,&#x2E3C;,U+2E3C,0x2E3C,STENOGRAPHIC FULL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+2E3C",
+            "Character/Symbol: ⸼",
+            "Name: STENOGRAPHIC FULL STOP",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸽ U+2E3D VERTICAL SIX DOTS": 
+    {
+        "prefix": [
+            "..U.2E3D",
+            "..U.VERTICAL SIX DOTS",
+            "U+2E3D",
+        ],
+        "body": [
+            "${1|⸽,&#x2E3D;,U+2E3D,0x2E3D,VERTICAL SIX DOTS|}$2",
+        ],
+        "description": [
+            "Code: U+2E3D",
+            "Character/Symbol: ⸽",
+            "Name: VERTICAL SIX DOTS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸾ U+2E3E WIGGLY VERTICAL LINE": 
+    {
+        "prefix": [
+            "..U.2E3E",
+            "..U.WIGGLY VERTICAL LINE",
+            "U+2E3E",
+        ],
+        "body": [
+            "${1|⸾,&#x2E3E;,U+2E3E,0x2E3E,WIGGLY VERTICAL LINE|}$2",
+        ],
+        "description": [
+            "Code: U+2E3E",
+            "Character/Symbol: ⸾",
+            "Name: WIGGLY VERTICAL LINE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⸿ U+2E3F CAPITULUM": 
+    {
+        "prefix": [
+            "..U.2E3F",
+            "..U.CAPITULUM",
+            "U+2E3F",
+        ],
+        "body": [
+            "${1|⸿,&#x2E3F;,U+2E3F,0x2E3F,CAPITULUM|}$2",
+        ],
+        "description": [
+            "Code: U+2E3F",
+            "Character/Symbol: ⸿",
+            "Name: CAPITULUM",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹀ U+2E40 DOUBLE HYPHEN": 
+    {
+        "prefix": [
+            "..U.2E40",
+            "..U.DOUBLE HYPHEN",
+            "U+2E40",
+        ],
+        "body": [
+            "${1|⹀,&#x2E40;,U+2E40,0x2E40,DOUBLE HYPHEN|}$2",
+        ],
+        "description": [
+            "Code: U+2E40",
+            "Character/Symbol: ⹀",
+            "Name: DOUBLE HYPHEN",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹁ U+2E41 REVERSED COMMA": 
+    {
+        "prefix": [
+            "..U.2E41",
+            "..U.REVERSED COMMA",
+            "U+2E41",
+        ],
+        "body": [
+            "${1|⹁,&#x2E41;,U+2E41,0x2E41,REVERSED COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+2E41",
+            "Character/Symbol: ⹁",
+            "Name: REVERSED COMMA",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹂ U+2E42 DOUBLE LOW-REVERSED-9 QUOTATION MARK": 
+    {
+        "prefix": [
+            "..U.2E42",
+            "..U.DOUBLE LOW-REVERSED-9 QUOTATION MARK",
+            "U+2E42",
+        ],
+        "body": [
+            "${1|⹂,&#x2E42;,U+2E42,0x2E42,DOUBLE LOW-REVERSED-9 QUOTATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2E42",
+            "Character/Symbol: ⹂",
+            "Name: DOUBLE LOW-REVERSED-9 QUOTATION MARK",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹃ U+2E43 DASH WITH LEFT UPTURN": 
+    {
+        "prefix": [
+            "..U.2E43",
+            "..U.DASH WITH LEFT UPTURN",
+            "U+2E43",
+        ],
+        "body": [
+            "${1|⹃,&#x2E43;,U+2E43,0x2E43,DASH WITH LEFT UPTURN|}$2",
+        ],
+        "description": [
+            "Code: U+2E43",
+            "Character/Symbol: ⹃",
+            "Name: DASH WITH LEFT UPTURN",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹄ U+2E44 DOUBLE SUSPENSION MARK": 
+    {
+        "prefix": [
+            "..U.2E44",
+            "..U.DOUBLE SUSPENSION MARK",
+            "U+2E44",
+        ],
+        "body": [
+            "${1|⹄,&#x2E44;,U+2E44,0x2E44,DOUBLE SUSPENSION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2E44",
+            "Character/Symbol: ⹄",
+            "Name: DOUBLE SUSPENSION MARK",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹅ U+2E45 INVERTED LOW KAVYKA": 
+    {
+        "prefix": [
+            "..U.2E45",
+            "..U.INVERTED LOW KAVYKA",
+            "U+2E45",
+        ],
+        "body": [
+            "${1|⹅,&#x2E45;,U+2E45,0x2E45,INVERTED LOW KAVYKA|}$2",
+        ],
+        "description": [
+            "Code: U+2E45",
+            "Character/Symbol: ⹅",
+            "Name: INVERTED LOW KAVYKA",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹆ U+2E46 INVERTED LOW KAVYKA WITH KAVYKA ABOVE": 
+    {
+        "prefix": [
+            "..U.2E46",
+            "..U.INVERTED LOW KAVYKA WITH KAVYKA ABOVE",
+            "U+2E46",
+        ],
+        "body": [
+            "${1|⹆,&#x2E46;,U+2E46,0x2E46,INVERTED LOW KAVYKA WITH KAVYKA ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+2E46",
+            "Character/Symbol: ⹆",
+            "Name: INVERTED LOW KAVYKA WITH KAVYKA ABOVE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹇ U+2E47 LOW KAVYKA": 
+    {
+        "prefix": [
+            "..U.2E47",
+            "..U.LOW KAVYKA",
+            "U+2E47",
+        ],
+        "body": [
+            "${1|⹇,&#x2E47;,U+2E47,0x2E47,LOW KAVYKA|}$2",
+        ],
+        "description": [
+            "Code: U+2E47",
+            "Character/Symbol: ⹇",
+            "Name: LOW KAVYKA",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹈ U+2E48 LOW KAVYKA WITH DOT": 
+    {
+        "prefix": [
+            "..U.2E48",
+            "..U.LOW KAVYKA WITH DOT",
+            "U+2E48",
+        ],
+        "body": [
+            "${1|⹈,&#x2E48;,U+2E48,0x2E48,LOW KAVYKA WITH DOT|}$2",
+        ],
+        "description": [
+            "Code: U+2E48",
+            "Character/Symbol: ⹈",
+            "Name: LOW KAVYKA WITH DOT",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹉ U+2E49 DOUBLE STACKED COMMA": 
+    {
+        "prefix": [
+            "..U.2E49",
+            "..U.DOUBLE STACKED COMMA",
+            "U+2E49",
+        ],
+        "body": [
+            "${1|⹉,&#x2E49;,U+2E49,0x2E49,DOUBLE STACKED COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+2E49",
+            "Character/Symbol: ⹉",
+            "Name: DOUBLE STACKED COMMA",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹊ U+2E4A DOTTED SOLIDUS": 
+    {
+        "prefix": [
+            "..U.2E4A",
+            "..U.DOTTED SOLIDUS",
+            "U+2E4A",
+        ],
+        "body": [
+            "${1|⹊,&#x2E4A;,U+2E4A,0x2E4A,DOTTED SOLIDUS|}$2",
+        ],
+        "description": [
+            "Code: U+2E4A",
+            "Character/Symbol: ⹊",
+            "Name: DOTTED SOLIDUS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹋ U+2E4B TRIPLE DAGGER": 
+    {
+        "prefix": [
+            "..U.2E4B",
+            "..U.TRIPLE DAGGER",
+            "U+2E4B",
+        ],
+        "body": [
+            "${1|⹋,&#x2E4B;,U+2E4B,0x2E4B,TRIPLE DAGGER|}$2",
+        ],
+        "description": [
+            "Code: U+2E4B",
+            "Character/Symbol: ⹋",
+            "Name: TRIPLE DAGGER",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹌ U+2E4C MEDIEVAL COMMA": 
+    {
+        "prefix": [
+            "..U.2E4C",
+            "..U.MEDIEVAL COMMA",
+            "U+2E4C",
+        ],
+        "body": [
+            "${1|⹌,&#x2E4C;,U+2E4C,0x2E4C,MEDIEVAL COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+2E4C",
+            "Character/Symbol: ⹌",
+            "Name: MEDIEVAL COMMA",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹍ U+2E4D PARAGRAPHUS MARK": 
+    {
+        "prefix": [
+            "..U.2E4D",
+            "..U.PARAGRAPHUS MARK",
+            "U+2E4D",
+        ],
+        "body": [
+            "${1|⹍,&#x2E4D;,U+2E4D,0x2E4D,PARAGRAPHUS MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2E4D",
+            "Character/Symbol: ⹍",
+            "Name: PARAGRAPHUS MARK",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹎ U+2E4E PUNCTUS ELEVATUS MARK": 
+    {
+        "prefix": [
+            "..U.2E4E",
+            "..U.PUNCTUS ELEVATUS MARK",
+            "U+2E4E",
+        ],
+        "body": [
+            "${1|⹎,&#x2E4E;,U+2E4E,0x2E4E,PUNCTUS ELEVATUS MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2E4E",
+            "Character/Symbol: ⹎",
+            "Name: PUNCTUS ELEVATUS MARK",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹏ U+2E4F CORNISH VERSE DIVIDER": 
+    {
+        "prefix": [
+            "..U.2E4F",
+            "..U.CORNISH VERSE DIVIDER",
+            "U+2E4F",
+        ],
+        "body": [
+            "${1|⹏,&#x2E4F;,U+2E4F,0x2E4F,CORNISH VERSE DIVIDER|}$2",
+        ],
+        "description": [
+            "Code: U+2E4F",
+            "Character/Symbol: ⹏",
+            "Name: CORNISH VERSE DIVIDER",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹐ U+2E50 CROSS PATTY WITH RIGHT CROSSBAR": 
+    {
+        "prefix": [
+            "..U.2E50",
+            "..U.CROSS PATTY WITH RIGHT CROSSBAR",
+            "U+2E50",
+        ],
+        "body": [
+            "${1|⹐,&#x2E50;,U+2E50,0x2E50,CROSS PATTY WITH RIGHT CROSSBAR|}$2",
+        ],
+        "description": [
+            "Code: U+2E50",
+            "Character/Symbol: ⹐",
+            "Name: CROSS PATTY WITH RIGHT CROSSBAR",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹑ U+2E51 CROSS PATTY WITH LEFT CROSSBAR": 
+    {
+        "prefix": [
+            "..U.2E51",
+            "..U.CROSS PATTY WITH LEFT CROSSBAR",
+            "U+2E51",
+        ],
+        "body": [
+            "${1|⹑,&#x2E51;,U+2E51,0x2E51,CROSS PATTY WITH LEFT CROSSBAR|}$2",
+        ],
+        "description": [
+            "Code: U+2E51",
+            "Character/Symbol: ⹑",
+            "Name: CROSS PATTY WITH LEFT CROSSBAR",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹒ U+2E52 TIRONIAN SIGN CAPITAL ET": 
+    {
+        "prefix": [
+            "..U.2E52",
+            "..U.TIRONIAN SIGN CAPITAL ET",
+            "U+2E52",
+        ],
+        "body": [
+            "${1|⹒,&#x2E52;,U+2E52,0x2E52,TIRONIAN SIGN CAPITAL ET|}$2",
+        ],
+        "description": [
+            "Code: U+2E52",
+            "Character/Symbol: ⹒",
+            "Name: TIRONIAN SIGN CAPITAL ET",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹓ U+2E53 MEDIEVAL EXCLAMATION MARK": 
+    {
+        "prefix": [
+            "..U.2E53",
+            "..U.MEDIEVAL EXCLAMATION MARK",
+            "U+2E53",
+        ],
+        "body": [
+            "${1|⹓,&#x2E53;,U+2E53,0x2E53,MEDIEVAL EXCLAMATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2E53",
+            "Character/Symbol: ⹓",
+            "Name: MEDIEVAL EXCLAMATION MARK",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹔ U+2E54 MEDIEVAL QUESTION MARK": 
+    {
+        "prefix": [
+            "..U.2E54",
+            "..U.MEDIEVAL QUESTION MARK",
+            "U+2E54",
+        ],
+        "body": [
+            "${1|⹔,&#x2E54;,U+2E54,0x2E54,MEDIEVAL QUESTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2E54",
+            "Character/Symbol: ⹔",
+            "Name: MEDIEVAL QUESTION MARK",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹕ U+2E55 LEFT SQUARE BRACKET WITH STROKE": 
+    {
+        "prefix": [
+            "..U.2E55",
+            "..U.LEFT SQUARE BRACKET WITH STROKE",
+            "U+2E55",
+        ],
+        "body": [
+            "${1|⹕,&#x2E55;,U+2E55,0x2E55,LEFT SQUARE BRACKET WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2E55",
+            "Character/Symbol: ⹕",
+            "Name: LEFT SQUARE BRACKET WITH STROKE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹖ U+2E56 RIGHT SQUARE BRACKET WITH STROKE": 
+    {
+        "prefix": [
+            "..U.2E56",
+            "..U.RIGHT SQUARE BRACKET WITH STROKE",
+            "U+2E56",
+        ],
+        "body": [
+            "${1|⹖,&#x2E56;,U+2E56,0x2E56,RIGHT SQUARE BRACKET WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2E56",
+            "Character/Symbol: ⹖",
+            "Name: RIGHT SQUARE BRACKET WITH STROKE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹗ U+2E57 LEFT SQUARE BRACKET WITH DOUBLE STROKE": 
+    {
+        "prefix": [
+            "..U.2E57",
+            "..U.LEFT SQUARE BRACKET WITH DOUBLE STROKE",
+            "U+2E57",
+        ],
+        "body": [
+            "${1|⹗,&#x2E57;,U+2E57,0x2E57,LEFT SQUARE BRACKET WITH DOUBLE STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2E57",
+            "Character/Symbol: ⹗",
+            "Name: LEFT SQUARE BRACKET WITH DOUBLE STROKE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹘ U+2E58 RIGHT SQUARE BRACKET WITH DOUBLE STROKE": 
+    {
+        "prefix": [
+            "..U.2E58",
+            "..U.RIGHT SQUARE BRACKET WITH DOUBLE STROKE",
+            "U+2E58",
+        ],
+        "body": [
+            "${1|⹘,&#x2E58;,U+2E58,0x2E58,RIGHT SQUARE BRACKET WITH DOUBLE STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2E58",
+            "Character/Symbol: ⹘",
+            "Name: RIGHT SQUARE BRACKET WITH DOUBLE STROKE",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹙ U+2E59 TOP HALF LEFT PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.2E59",
+            "..U.TOP HALF LEFT PARENTHESIS",
+            "U+2E59",
+        ],
+        "body": [
+            "${1|⹙,&#x2E59;,U+2E59,0x2E59,TOP HALF LEFT PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+2E59",
+            "Character/Symbol: ⹙",
+            "Name: TOP HALF LEFT PARENTHESIS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹚ U+2E5A TOP HALF RIGHT PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.2E5A",
+            "..U.TOP HALF RIGHT PARENTHESIS",
+            "U+2E5A",
+        ],
+        "body": [
+            "${1|⹚,&#x2E5A;,U+2E5A,0x2E5A,TOP HALF RIGHT PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+2E5A",
+            "Character/Symbol: ⹚",
+            "Name: TOP HALF RIGHT PARENTHESIS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹛ U+2E5B BOTTOM HALF LEFT PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.2E5B",
+            "..U.BOTTOM HALF LEFT PARENTHESIS",
+            "U+2E5B",
+        ],
+        "body": [
+            "${1|⹛,&#x2E5B;,U+2E5B,0x2E5B,BOTTOM HALF LEFT PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+2E5B",
+            "Character/Symbol: ⹛",
+            "Name: BOTTOM HALF LEFT PARENTHESIS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹜ U+2E5C BOTTOM HALF RIGHT PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.2E5C",
+            "..U.BOTTOM HALF RIGHT PARENTHESIS",
+            "U+2E5C",
+        ],
+        "body": [
+            "${1|⹜,&#x2E5C;,U+2E5C,0x2E5C,BOTTOM HALF RIGHT PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+2E5C",
+            "Character/Symbol: ⹜",
+            "Name: BOTTOM HALF RIGHT PARENTHESIS",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+    "Unicode ⹝ U+2E5D OBLIQUE HYPHEN": 
+    {
+        "prefix": [
+            "..U.2E5D",
+            "..U.OBLIQUE HYPHEN",
+            "U+2E5D",
+        ],
+        "body": [
+            "${1|⹝,&#x2E5D;,U+2E5D,0x2E5D,OBLIQUE HYPHEN|}$2",
+        ],
+        "description": [
+            "Code: U+2E5D",
+            "Character/Symbol: ⹝",
+            "Name: OBLIQUE HYPHEN",
+            "Group/Block: Sup_Punctuation",
+        ],
+    },
+
+}

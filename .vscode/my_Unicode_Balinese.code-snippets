@@ -1,0 +1,2234 @@
+{
+    "Unicode ᬀ U+1B00 BALINESE SIGN ULU RICEM": 
+    {
+        "prefix": [
+            "..U.1B00",
+            "..U.BALINESE SIGN ULU RICEM",
+            "U+1B00",
+        ],
+        "body": [
+            "${1|ᬀ,&#x1B00;,U+1B00,0x1B00,BALINESE SIGN ULU RICEM|}$2",
+        ],
+        "description": [
+            "Code: U+1B00",
+            "Character/Symbol: ᬀ",
+            "Name: BALINESE SIGN ULU RICEM",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬁ U+1B01 BALINESE SIGN ULU CANDRA": 
+    {
+        "prefix": [
+            "..U.1B01",
+            "..U.BALINESE SIGN ULU CANDRA",
+            "U+1B01",
+        ],
+        "body": [
+            "${1|ᬁ,&#x1B01;,U+1B01,0x1B01,BALINESE SIGN ULU CANDRA|}$2",
+        ],
+        "description": [
+            "Code: U+1B01",
+            "Character/Symbol: ᬁ",
+            "Name: BALINESE SIGN ULU CANDRA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬂ U+1B02 BALINESE SIGN CECEK": 
+    {
+        "prefix": [
+            "..U.1B02",
+            "..U.BALINESE SIGN CECEK",
+            "U+1B02",
+        ],
+        "body": [
+            "${1|ᬂ,&#x1B02;,U+1B02,0x1B02,BALINESE SIGN CECEK|}$2",
+        ],
+        "description": [
+            "Code: U+1B02",
+            "Character/Symbol: ᬂ",
+            "Name: BALINESE SIGN CECEK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬃ U+1B03 BALINESE SIGN SURANG": 
+    {
+        "prefix": [
+            "..U.1B03",
+            "..U.BALINESE SIGN SURANG",
+            "U+1B03",
+        ],
+        "body": [
+            "${1|ᬃ,&#x1B03;,U+1B03,0x1B03,BALINESE SIGN SURANG|}$2",
+        ],
+        "description": [
+            "Code: U+1B03",
+            "Character/Symbol: ᬃ",
+            "Name: BALINESE SIGN SURANG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬄ U+1B04 BALINESE SIGN BISAH": 
+    {
+        "prefix": [
+            "..U.1B04",
+            "..U.BALINESE SIGN BISAH",
+            "U+1B04",
+        ],
+        "body": [
+            "${1|ᬄ,&#x1B04;,U+1B04,0x1B04,BALINESE SIGN BISAH|}$2",
+        ],
+        "description": [
+            "Code: U+1B04",
+            "Character/Symbol: ᬄ",
+            "Name: BALINESE SIGN BISAH",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬅ U+1B05 BALINESE LETTER AKARA": 
+    {
+        "prefix": [
+            "..U.1B05",
+            "..U.BALINESE LETTER AKARA",
+            "U+1B05",
+        ],
+        "body": [
+            "${1|ᬅ,&#x1B05;,U+1B05,0x1B05,BALINESE LETTER AKARA|}$2",
+        ],
+        "description": [
+            "Code: U+1B05",
+            "Character/Symbol: ᬅ",
+            "Name: BALINESE LETTER AKARA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬆ U+1B06 BALINESE LETTER AKARA TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B06",
+            "..U.BALINESE LETTER AKARA TEDUNG",
+            "U+1B06",
+        ],
+        "body": [
+            "${1|ᬆ,&#x1B06;,U+1B06,0x1B06,BALINESE LETTER AKARA TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B06",
+            "Character/Symbol: ᬆ",
+            "Name: BALINESE LETTER AKARA TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬇ U+1B07 BALINESE LETTER IKARA": 
+    {
+        "prefix": [
+            "..U.1B07",
+            "..U.BALINESE LETTER IKARA",
+            "U+1B07",
+        ],
+        "body": [
+            "${1|ᬇ,&#x1B07;,U+1B07,0x1B07,BALINESE LETTER IKARA|}$2",
+        ],
+        "description": [
+            "Code: U+1B07",
+            "Character/Symbol: ᬇ",
+            "Name: BALINESE LETTER IKARA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬈ U+1B08 BALINESE LETTER IKARA TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B08",
+            "..U.BALINESE LETTER IKARA TEDUNG",
+            "U+1B08",
+        ],
+        "body": [
+            "${1|ᬈ,&#x1B08;,U+1B08,0x1B08,BALINESE LETTER IKARA TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B08",
+            "Character/Symbol: ᬈ",
+            "Name: BALINESE LETTER IKARA TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬉ U+1B09 BALINESE LETTER UKARA": 
+    {
+        "prefix": [
+            "..U.1B09",
+            "..U.BALINESE LETTER UKARA",
+            "U+1B09",
+        ],
+        "body": [
+            "${1|ᬉ,&#x1B09;,U+1B09,0x1B09,BALINESE LETTER UKARA|}$2",
+        ],
+        "description": [
+            "Code: U+1B09",
+            "Character/Symbol: ᬉ",
+            "Name: BALINESE LETTER UKARA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬊ U+1B0A BALINESE LETTER UKARA TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B0A",
+            "..U.BALINESE LETTER UKARA TEDUNG",
+            "U+1B0A",
+        ],
+        "body": [
+            "${1|ᬊ,&#x1B0A;,U+1B0A,0x1B0A,BALINESE LETTER UKARA TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B0A",
+            "Character/Symbol: ᬊ",
+            "Name: BALINESE LETTER UKARA TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬋ U+1B0B BALINESE LETTER RA REPA": 
+    {
+        "prefix": [
+            "..U.1B0B",
+            "..U.BALINESE LETTER RA REPA",
+            "U+1B0B",
+        ],
+        "body": [
+            "${1|ᬋ,&#x1B0B;,U+1B0B,0x1B0B,BALINESE LETTER RA REPA|}$2",
+        ],
+        "description": [
+            "Code: U+1B0B",
+            "Character/Symbol: ᬋ",
+            "Name: BALINESE LETTER RA REPA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬌ U+1B0C BALINESE LETTER RA REPA TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B0C",
+            "..U.BALINESE LETTER RA REPA TEDUNG",
+            "U+1B0C",
+        ],
+        "body": [
+            "${1|ᬌ,&#x1B0C;,U+1B0C,0x1B0C,BALINESE LETTER RA REPA TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B0C",
+            "Character/Symbol: ᬌ",
+            "Name: BALINESE LETTER RA REPA TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬍ U+1B0D BALINESE LETTER LA LENGA": 
+    {
+        "prefix": [
+            "..U.1B0D",
+            "..U.BALINESE LETTER LA LENGA",
+            "U+1B0D",
+        ],
+        "body": [
+            "${1|ᬍ,&#x1B0D;,U+1B0D,0x1B0D,BALINESE LETTER LA LENGA|}$2",
+        ],
+        "description": [
+            "Code: U+1B0D",
+            "Character/Symbol: ᬍ",
+            "Name: BALINESE LETTER LA LENGA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬎ U+1B0E BALINESE LETTER LA LENGA TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B0E",
+            "..U.BALINESE LETTER LA LENGA TEDUNG",
+            "U+1B0E",
+        ],
+        "body": [
+            "${1|ᬎ,&#x1B0E;,U+1B0E,0x1B0E,BALINESE LETTER LA LENGA TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B0E",
+            "Character/Symbol: ᬎ",
+            "Name: BALINESE LETTER LA LENGA TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬏ U+1B0F BALINESE LETTER EKARA": 
+    {
+        "prefix": [
+            "..U.1B0F",
+            "..U.BALINESE LETTER EKARA",
+            "U+1B0F",
+        ],
+        "body": [
+            "${1|ᬏ,&#x1B0F;,U+1B0F,0x1B0F,BALINESE LETTER EKARA|}$2",
+        ],
+        "description": [
+            "Code: U+1B0F",
+            "Character/Symbol: ᬏ",
+            "Name: BALINESE LETTER EKARA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬐ U+1B10 BALINESE LETTER AIKARA": 
+    {
+        "prefix": [
+            "..U.1B10",
+            "..U.BALINESE LETTER AIKARA",
+            "U+1B10",
+        ],
+        "body": [
+            "${1|ᬐ,&#x1B10;,U+1B10,0x1B10,BALINESE LETTER AIKARA|}$2",
+        ],
+        "description": [
+            "Code: U+1B10",
+            "Character/Symbol: ᬐ",
+            "Name: BALINESE LETTER AIKARA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬑ U+1B11 BALINESE LETTER OKARA": 
+    {
+        "prefix": [
+            "..U.1B11",
+            "..U.BALINESE LETTER OKARA",
+            "U+1B11",
+        ],
+        "body": [
+            "${1|ᬑ,&#x1B11;,U+1B11,0x1B11,BALINESE LETTER OKARA|}$2",
+        ],
+        "description": [
+            "Code: U+1B11",
+            "Character/Symbol: ᬑ",
+            "Name: BALINESE LETTER OKARA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬒ U+1B12 BALINESE LETTER OKARA TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B12",
+            "..U.BALINESE LETTER OKARA TEDUNG",
+            "U+1B12",
+        ],
+        "body": [
+            "${1|ᬒ,&#x1B12;,U+1B12,0x1B12,BALINESE LETTER OKARA TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B12",
+            "Character/Symbol: ᬒ",
+            "Name: BALINESE LETTER OKARA TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬓ U+1B13 BALINESE LETTER KA": 
+    {
+        "prefix": [
+            "..U.1B13",
+            "..U.BALINESE LETTER KA",
+            "U+1B13",
+        ],
+        "body": [
+            "${1|ᬓ,&#x1B13;,U+1B13,0x1B13,BALINESE LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+1B13",
+            "Character/Symbol: ᬓ",
+            "Name: BALINESE LETTER KA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬔ U+1B14 BALINESE LETTER KA MAHAPRANA": 
+    {
+        "prefix": [
+            "..U.1B14",
+            "..U.BALINESE LETTER KA MAHAPRANA",
+            "U+1B14",
+        ],
+        "body": [
+            "${1|ᬔ,&#x1B14;,U+1B14,0x1B14,BALINESE LETTER KA MAHAPRANA|}$2",
+        ],
+        "description": [
+            "Code: U+1B14",
+            "Character/Symbol: ᬔ",
+            "Name: BALINESE LETTER KA MAHAPRANA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬕ U+1B15 BALINESE LETTER GA": 
+    {
+        "prefix": [
+            "..U.1B15",
+            "..U.BALINESE LETTER GA",
+            "U+1B15",
+        ],
+        "body": [
+            "${1|ᬕ,&#x1B15;,U+1B15,0x1B15,BALINESE LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+1B15",
+            "Character/Symbol: ᬕ",
+            "Name: BALINESE LETTER GA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬖ U+1B16 BALINESE LETTER GA GORA": 
+    {
+        "prefix": [
+            "..U.1B16",
+            "..U.BALINESE LETTER GA GORA",
+            "U+1B16",
+        ],
+        "body": [
+            "${1|ᬖ,&#x1B16;,U+1B16,0x1B16,BALINESE LETTER GA GORA|}$2",
+        ],
+        "description": [
+            "Code: U+1B16",
+            "Character/Symbol: ᬖ",
+            "Name: BALINESE LETTER GA GORA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬗ U+1B17 BALINESE LETTER NGA": 
+    {
+        "prefix": [
+            "..U.1B17",
+            "..U.BALINESE LETTER NGA",
+            "U+1B17",
+        ],
+        "body": [
+            "${1|ᬗ,&#x1B17;,U+1B17,0x1B17,BALINESE LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+1B17",
+            "Character/Symbol: ᬗ",
+            "Name: BALINESE LETTER NGA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬘ U+1B18 BALINESE LETTER CA": 
+    {
+        "prefix": [
+            "..U.1B18",
+            "..U.BALINESE LETTER CA",
+            "U+1B18",
+        ],
+        "body": [
+            "${1|ᬘ,&#x1B18;,U+1B18,0x1B18,BALINESE LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+1B18",
+            "Character/Symbol: ᬘ",
+            "Name: BALINESE LETTER CA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬙ U+1B19 BALINESE LETTER CA LACA": 
+    {
+        "prefix": [
+            "..U.1B19",
+            "..U.BALINESE LETTER CA LACA",
+            "U+1B19",
+        ],
+        "body": [
+            "${1|ᬙ,&#x1B19;,U+1B19,0x1B19,BALINESE LETTER CA LACA|}$2",
+        ],
+        "description": [
+            "Code: U+1B19",
+            "Character/Symbol: ᬙ",
+            "Name: BALINESE LETTER CA LACA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬚ U+1B1A BALINESE LETTER JA": 
+    {
+        "prefix": [
+            "..U.1B1A",
+            "..U.BALINESE LETTER JA",
+            "U+1B1A",
+        ],
+        "body": [
+            "${1|ᬚ,&#x1B1A;,U+1B1A,0x1B1A,BALINESE LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+1B1A",
+            "Character/Symbol: ᬚ",
+            "Name: BALINESE LETTER JA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬛ U+1B1B BALINESE LETTER JA JERA": 
+    {
+        "prefix": [
+            "..U.1B1B",
+            "..U.BALINESE LETTER JA JERA",
+            "U+1B1B",
+        ],
+        "body": [
+            "${1|ᬛ,&#x1B1B;,U+1B1B,0x1B1B,BALINESE LETTER JA JERA|}$2",
+        ],
+        "description": [
+            "Code: U+1B1B",
+            "Character/Symbol: ᬛ",
+            "Name: BALINESE LETTER JA JERA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬜ U+1B1C BALINESE LETTER NYA": 
+    {
+        "prefix": [
+            "..U.1B1C",
+            "..U.BALINESE LETTER NYA",
+            "U+1B1C",
+        ],
+        "body": [
+            "${1|ᬜ,&#x1B1C;,U+1B1C,0x1B1C,BALINESE LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+1B1C",
+            "Character/Symbol: ᬜ",
+            "Name: BALINESE LETTER NYA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬝ U+1B1D BALINESE LETTER TA LATIK": 
+    {
+        "prefix": [
+            "..U.1B1D",
+            "..U.BALINESE LETTER TA LATIK",
+            "U+1B1D",
+        ],
+        "body": [
+            "${1|ᬝ,&#x1B1D;,U+1B1D,0x1B1D,BALINESE LETTER TA LATIK|}$2",
+        ],
+        "description": [
+            "Code: U+1B1D",
+            "Character/Symbol: ᬝ",
+            "Name: BALINESE LETTER TA LATIK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬞ U+1B1E BALINESE LETTER TA MURDA MAHAPRANA": 
+    {
+        "prefix": [
+            "..U.1B1E",
+            "..U.BALINESE LETTER TA MURDA MAHAPRANA",
+            "U+1B1E",
+        ],
+        "body": [
+            "${1|ᬞ,&#x1B1E;,U+1B1E,0x1B1E,BALINESE LETTER TA MURDA MAHAPRANA|}$2",
+        ],
+        "description": [
+            "Code: U+1B1E",
+            "Character/Symbol: ᬞ",
+            "Name: BALINESE LETTER TA MURDA MAHAPRANA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬟ U+1B1F BALINESE LETTER DA MURDA ALPAPRANA": 
+    {
+        "prefix": [
+            "..U.1B1F",
+            "..U.BALINESE LETTER DA MURDA ALPAPRANA",
+            "U+1B1F",
+        ],
+        "body": [
+            "${1|ᬟ,&#x1B1F;,U+1B1F,0x1B1F,BALINESE LETTER DA MURDA ALPAPRANA|}$2",
+        ],
+        "description": [
+            "Code: U+1B1F",
+            "Character/Symbol: ᬟ",
+            "Name: BALINESE LETTER DA MURDA ALPAPRANA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬠ U+1B20 BALINESE LETTER DA MURDA MAHAPRANA": 
+    {
+        "prefix": [
+            "..U.1B20",
+            "..U.BALINESE LETTER DA MURDA MAHAPRANA",
+            "U+1B20",
+        ],
+        "body": [
+            "${1|ᬠ,&#x1B20;,U+1B20,0x1B20,BALINESE LETTER DA MURDA MAHAPRANA|}$2",
+        ],
+        "description": [
+            "Code: U+1B20",
+            "Character/Symbol: ᬠ",
+            "Name: BALINESE LETTER DA MURDA MAHAPRANA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬡ U+1B21 BALINESE LETTER NA RAMBAT": 
+    {
+        "prefix": [
+            "..U.1B21",
+            "..U.BALINESE LETTER NA RAMBAT",
+            "U+1B21",
+        ],
+        "body": [
+            "${1|ᬡ,&#x1B21;,U+1B21,0x1B21,BALINESE LETTER NA RAMBAT|}$2",
+        ],
+        "description": [
+            "Code: U+1B21",
+            "Character/Symbol: ᬡ",
+            "Name: BALINESE LETTER NA RAMBAT",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬢ U+1B22 BALINESE LETTER TA": 
+    {
+        "prefix": [
+            "..U.1B22",
+            "..U.BALINESE LETTER TA",
+            "U+1B22",
+        ],
+        "body": [
+            "${1|ᬢ,&#x1B22;,U+1B22,0x1B22,BALINESE LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+1B22",
+            "Character/Symbol: ᬢ",
+            "Name: BALINESE LETTER TA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬣ U+1B23 BALINESE LETTER TA TAWA": 
+    {
+        "prefix": [
+            "..U.1B23",
+            "..U.BALINESE LETTER TA TAWA",
+            "U+1B23",
+        ],
+        "body": [
+            "${1|ᬣ,&#x1B23;,U+1B23,0x1B23,BALINESE LETTER TA TAWA|}$2",
+        ],
+        "description": [
+            "Code: U+1B23",
+            "Character/Symbol: ᬣ",
+            "Name: BALINESE LETTER TA TAWA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬤ U+1B24 BALINESE LETTER DA": 
+    {
+        "prefix": [
+            "..U.1B24",
+            "..U.BALINESE LETTER DA",
+            "U+1B24",
+        ],
+        "body": [
+            "${1|ᬤ,&#x1B24;,U+1B24,0x1B24,BALINESE LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+1B24",
+            "Character/Symbol: ᬤ",
+            "Name: BALINESE LETTER DA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬥ U+1B25 BALINESE LETTER DA MADU": 
+    {
+        "prefix": [
+            "..U.1B25",
+            "..U.BALINESE LETTER DA MADU",
+            "U+1B25",
+        ],
+        "body": [
+            "${1|ᬥ,&#x1B25;,U+1B25,0x1B25,BALINESE LETTER DA MADU|}$2",
+        ],
+        "description": [
+            "Code: U+1B25",
+            "Character/Symbol: ᬥ",
+            "Name: BALINESE LETTER DA MADU",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬦ U+1B26 BALINESE LETTER NA": 
+    {
+        "prefix": [
+            "..U.1B26",
+            "..U.BALINESE LETTER NA",
+            "U+1B26",
+        ],
+        "body": [
+            "${1|ᬦ,&#x1B26;,U+1B26,0x1B26,BALINESE LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+1B26",
+            "Character/Symbol: ᬦ",
+            "Name: BALINESE LETTER NA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬧ U+1B27 BALINESE LETTER PA": 
+    {
+        "prefix": [
+            "..U.1B27",
+            "..U.BALINESE LETTER PA",
+            "U+1B27",
+        ],
+        "body": [
+            "${1|ᬧ,&#x1B27;,U+1B27,0x1B27,BALINESE LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+1B27",
+            "Character/Symbol: ᬧ",
+            "Name: BALINESE LETTER PA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬨ U+1B28 BALINESE LETTER PA KAPAL": 
+    {
+        "prefix": [
+            "..U.1B28",
+            "..U.BALINESE LETTER PA KAPAL",
+            "U+1B28",
+        ],
+        "body": [
+            "${1|ᬨ,&#x1B28;,U+1B28,0x1B28,BALINESE LETTER PA KAPAL|}$2",
+        ],
+        "description": [
+            "Code: U+1B28",
+            "Character/Symbol: ᬨ",
+            "Name: BALINESE LETTER PA KAPAL",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬩ U+1B29 BALINESE LETTER BA": 
+    {
+        "prefix": [
+            "..U.1B29",
+            "..U.BALINESE LETTER BA",
+            "U+1B29",
+        ],
+        "body": [
+            "${1|ᬩ,&#x1B29;,U+1B29,0x1B29,BALINESE LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+1B29",
+            "Character/Symbol: ᬩ",
+            "Name: BALINESE LETTER BA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬪ U+1B2A BALINESE LETTER BA KEMBANG": 
+    {
+        "prefix": [
+            "..U.1B2A",
+            "..U.BALINESE LETTER BA KEMBANG",
+            "U+1B2A",
+        ],
+        "body": [
+            "${1|ᬪ,&#x1B2A;,U+1B2A,0x1B2A,BALINESE LETTER BA KEMBANG|}$2",
+        ],
+        "description": [
+            "Code: U+1B2A",
+            "Character/Symbol: ᬪ",
+            "Name: BALINESE LETTER BA KEMBANG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬫ U+1B2B BALINESE LETTER MA": 
+    {
+        "prefix": [
+            "..U.1B2B",
+            "..U.BALINESE LETTER MA",
+            "U+1B2B",
+        ],
+        "body": [
+            "${1|ᬫ,&#x1B2B;,U+1B2B,0x1B2B,BALINESE LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+1B2B",
+            "Character/Symbol: ᬫ",
+            "Name: BALINESE LETTER MA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬬ U+1B2C BALINESE LETTER YA": 
+    {
+        "prefix": [
+            "..U.1B2C",
+            "..U.BALINESE LETTER YA",
+            "U+1B2C",
+        ],
+        "body": [
+            "${1|ᬬ,&#x1B2C;,U+1B2C,0x1B2C,BALINESE LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+1B2C",
+            "Character/Symbol: ᬬ",
+            "Name: BALINESE LETTER YA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬭ U+1B2D BALINESE LETTER RA": 
+    {
+        "prefix": [
+            "..U.1B2D",
+            "..U.BALINESE LETTER RA",
+            "U+1B2D",
+        ],
+        "body": [
+            "${1|ᬭ,&#x1B2D;,U+1B2D,0x1B2D,BALINESE LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+1B2D",
+            "Character/Symbol: ᬭ",
+            "Name: BALINESE LETTER RA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬮ U+1B2E BALINESE LETTER LA": 
+    {
+        "prefix": [
+            "..U.1B2E",
+            "..U.BALINESE LETTER LA",
+            "U+1B2E",
+        ],
+        "body": [
+            "${1|ᬮ,&#x1B2E;,U+1B2E,0x1B2E,BALINESE LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+1B2E",
+            "Character/Symbol: ᬮ",
+            "Name: BALINESE LETTER LA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬯ U+1B2F BALINESE LETTER WA": 
+    {
+        "prefix": [
+            "..U.1B2F",
+            "..U.BALINESE LETTER WA",
+            "U+1B2F",
+        ],
+        "body": [
+            "${1|ᬯ,&#x1B2F;,U+1B2F,0x1B2F,BALINESE LETTER WA|}$2",
+        ],
+        "description": [
+            "Code: U+1B2F",
+            "Character/Symbol: ᬯ",
+            "Name: BALINESE LETTER WA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬰ U+1B30 BALINESE LETTER SA SAGA": 
+    {
+        "prefix": [
+            "..U.1B30",
+            "..U.BALINESE LETTER SA SAGA",
+            "U+1B30",
+        ],
+        "body": [
+            "${1|ᬰ,&#x1B30;,U+1B30,0x1B30,BALINESE LETTER SA SAGA|}$2",
+        ],
+        "description": [
+            "Code: U+1B30",
+            "Character/Symbol: ᬰ",
+            "Name: BALINESE LETTER SA SAGA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬱ U+1B31 BALINESE LETTER SA SAPA": 
+    {
+        "prefix": [
+            "..U.1B31",
+            "..U.BALINESE LETTER SA SAPA",
+            "U+1B31",
+        ],
+        "body": [
+            "${1|ᬱ,&#x1B31;,U+1B31,0x1B31,BALINESE LETTER SA SAPA|}$2",
+        ],
+        "description": [
+            "Code: U+1B31",
+            "Character/Symbol: ᬱ",
+            "Name: BALINESE LETTER SA SAPA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬲ U+1B32 BALINESE LETTER SA": 
+    {
+        "prefix": [
+            "..U.1B32",
+            "..U.BALINESE LETTER SA",
+            "U+1B32",
+        ],
+        "body": [
+            "${1|ᬲ,&#x1B32;,U+1B32,0x1B32,BALINESE LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+1B32",
+            "Character/Symbol: ᬲ",
+            "Name: BALINESE LETTER SA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬳ U+1B33 BALINESE LETTER HA": 
+    {
+        "prefix": [
+            "..U.1B33",
+            "..U.BALINESE LETTER HA",
+            "U+1B33",
+        ],
+        "body": [
+            "${1|ᬳ,&#x1B33;,U+1B33,0x1B33,BALINESE LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+1B33",
+            "Character/Symbol: ᬳ",
+            "Name: BALINESE LETTER HA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬴ U+1B34 BALINESE SIGN REREKAN": 
+    {
+        "prefix": [
+            "..U.1B34",
+            "..U.BALINESE SIGN REREKAN",
+            "U+1B34",
+        ],
+        "body": [
+            "${1|᬴,&#x1B34;,U+1B34,0x1B34,BALINESE SIGN REREKAN|}$2",
+        ],
+        "description": [
+            "Code: U+1B34",
+            "Character/Symbol: ᬴",
+            "Name: BALINESE SIGN REREKAN",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬵ U+1B35 BALINESE VOWEL SIGN TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B35",
+            "..U.BALINESE VOWEL SIGN TEDUNG",
+            "U+1B35",
+        ],
+        "body": [
+            "${1|ᬵ,&#x1B35;,U+1B35,0x1B35,BALINESE VOWEL SIGN TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B35",
+            "Character/Symbol: ᬵ",
+            "Name: BALINESE VOWEL SIGN TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬶ U+1B36 BALINESE VOWEL SIGN ULU": 
+    {
+        "prefix": [
+            "..U.1B36",
+            "..U.BALINESE VOWEL SIGN ULU",
+            "U+1B36",
+        ],
+        "body": [
+            "${1|ᬶ,&#x1B36;,U+1B36,0x1B36,BALINESE VOWEL SIGN ULU|}$2",
+        ],
+        "description": [
+            "Code: U+1B36",
+            "Character/Symbol: ᬶ",
+            "Name: BALINESE VOWEL SIGN ULU",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬷ U+1B37 BALINESE VOWEL SIGN ULU SARI": 
+    {
+        "prefix": [
+            "..U.1B37",
+            "..U.BALINESE VOWEL SIGN ULU SARI",
+            "U+1B37",
+        ],
+        "body": [
+            "${1|ᬷ,&#x1B37;,U+1B37,0x1B37,BALINESE VOWEL SIGN ULU SARI|}$2",
+        ],
+        "description": [
+            "Code: U+1B37",
+            "Character/Symbol: ᬷ",
+            "Name: BALINESE VOWEL SIGN ULU SARI",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬸ U+1B38 BALINESE VOWEL SIGN SUKU": 
+    {
+        "prefix": [
+            "..U.1B38",
+            "..U.BALINESE VOWEL SIGN SUKU",
+            "U+1B38",
+        ],
+        "body": [
+            "${1|ᬸ,&#x1B38;,U+1B38,0x1B38,BALINESE VOWEL SIGN SUKU|}$2",
+        ],
+        "description": [
+            "Code: U+1B38",
+            "Character/Symbol: ᬸ",
+            "Name: BALINESE VOWEL SIGN SUKU",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬹ U+1B39 BALINESE VOWEL SIGN SUKU ILUT": 
+    {
+        "prefix": [
+            "..U.1B39",
+            "..U.BALINESE VOWEL SIGN SUKU ILUT",
+            "U+1B39",
+        ],
+        "body": [
+            "${1|ᬹ,&#x1B39;,U+1B39,0x1B39,BALINESE VOWEL SIGN SUKU ILUT|}$2",
+        ],
+        "description": [
+            "Code: U+1B39",
+            "Character/Symbol: ᬹ",
+            "Name: BALINESE VOWEL SIGN SUKU ILUT",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬺ U+1B3A BALINESE VOWEL SIGN RA REPA": 
+    {
+        "prefix": [
+            "..U.1B3A",
+            "..U.BALINESE VOWEL SIGN RA REPA",
+            "U+1B3A",
+        ],
+        "body": [
+            "${1|ᬺ,&#x1B3A;,U+1B3A,0x1B3A,BALINESE VOWEL SIGN RA REPA|}$2",
+        ],
+        "description": [
+            "Code: U+1B3A",
+            "Character/Symbol: ᬺ",
+            "Name: BALINESE VOWEL SIGN RA REPA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬻ U+1B3B BALINESE VOWEL SIGN RA REPA TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B3B",
+            "..U.BALINESE VOWEL SIGN RA REPA TEDUNG",
+            "U+1B3B",
+        ],
+        "body": [
+            "${1|ᬻ,&#x1B3B;,U+1B3B,0x1B3B,BALINESE VOWEL SIGN RA REPA TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B3B",
+            "Character/Symbol: ᬻ",
+            "Name: BALINESE VOWEL SIGN RA REPA TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬼ U+1B3C BALINESE VOWEL SIGN LA LENGA": 
+    {
+        "prefix": [
+            "..U.1B3C",
+            "..U.BALINESE VOWEL SIGN LA LENGA",
+            "U+1B3C",
+        ],
+        "body": [
+            "${1|ᬼ,&#x1B3C;,U+1B3C,0x1B3C,BALINESE VOWEL SIGN LA LENGA|}$2",
+        ],
+        "description": [
+            "Code: U+1B3C",
+            "Character/Symbol: ᬼ",
+            "Name: BALINESE VOWEL SIGN LA LENGA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬽ U+1B3D BALINESE VOWEL SIGN LA LENGA TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B3D",
+            "..U.BALINESE VOWEL SIGN LA LENGA TEDUNG",
+            "U+1B3D",
+        ],
+        "body": [
+            "${1|ᬽ,&#x1B3D;,U+1B3D,0x1B3D,BALINESE VOWEL SIGN LA LENGA TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B3D",
+            "Character/Symbol: ᬽ",
+            "Name: BALINESE VOWEL SIGN LA LENGA TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬾ U+1B3E BALINESE VOWEL SIGN TALING": 
+    {
+        "prefix": [
+            "..U.1B3E",
+            "..U.BALINESE VOWEL SIGN TALING",
+            "U+1B3E",
+        ],
+        "body": [
+            "${1|ᬾ,&#x1B3E;,U+1B3E,0x1B3E,BALINESE VOWEL SIGN TALING|}$2",
+        ],
+        "description": [
+            "Code: U+1B3E",
+            "Character/Symbol: ᬾ",
+            "Name: BALINESE VOWEL SIGN TALING",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᬿ U+1B3F BALINESE VOWEL SIGN TALING REPA": 
+    {
+        "prefix": [
+            "..U.1B3F",
+            "..U.BALINESE VOWEL SIGN TALING REPA",
+            "U+1B3F",
+        ],
+        "body": [
+            "${1|ᬿ,&#x1B3F;,U+1B3F,0x1B3F,BALINESE VOWEL SIGN TALING REPA|}$2",
+        ],
+        "description": [
+            "Code: U+1B3F",
+            "Character/Symbol: ᬿ",
+            "Name: BALINESE VOWEL SIGN TALING REPA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭀ U+1B40 BALINESE VOWEL SIGN TALING TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B40",
+            "..U.BALINESE VOWEL SIGN TALING TEDUNG",
+            "U+1B40",
+        ],
+        "body": [
+            "${1|ᭀ,&#x1B40;,U+1B40,0x1B40,BALINESE VOWEL SIGN TALING TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B40",
+            "Character/Symbol: ᭀ",
+            "Name: BALINESE VOWEL SIGN TALING TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭁ U+1B41 BALINESE VOWEL SIGN TALING REPA TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B41",
+            "..U.BALINESE VOWEL SIGN TALING REPA TEDUNG",
+            "U+1B41",
+        ],
+        "body": [
+            "${1|ᭁ,&#x1B41;,U+1B41,0x1B41,BALINESE VOWEL SIGN TALING REPA TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B41",
+            "Character/Symbol: ᭁ",
+            "Name: BALINESE VOWEL SIGN TALING REPA TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭂ U+1B42 BALINESE VOWEL SIGN PEPET": 
+    {
+        "prefix": [
+            "..U.1B42",
+            "..U.BALINESE VOWEL SIGN PEPET",
+            "U+1B42",
+        ],
+        "body": [
+            "${1|ᭂ,&#x1B42;,U+1B42,0x1B42,BALINESE VOWEL SIGN PEPET|}$2",
+        ],
+        "description": [
+            "Code: U+1B42",
+            "Character/Symbol: ᭂ",
+            "Name: BALINESE VOWEL SIGN PEPET",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭃ U+1B43 BALINESE VOWEL SIGN PEPET TEDUNG": 
+    {
+        "prefix": [
+            "..U.1B43",
+            "..U.BALINESE VOWEL SIGN PEPET TEDUNG",
+            "U+1B43",
+        ],
+        "body": [
+            "${1|ᭃ,&#x1B43;,U+1B43,0x1B43,BALINESE VOWEL SIGN PEPET TEDUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B43",
+            "Character/Symbol: ᭃ",
+            "Name: BALINESE VOWEL SIGN PEPET TEDUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭄ U+1B44 BALINESE ADEG ADEG": 
+    {
+        "prefix": [
+            "..U.1B44",
+            "..U.BALINESE ADEG ADEG",
+            "U+1B44",
+        ],
+        "body": [
+            "${1|᭄,&#x1B44;,U+1B44,0x1B44,BALINESE ADEG ADEG|}$2",
+        ],
+        "description": [
+            "Code: U+1B44",
+            "Character/Symbol: ᭄",
+            "Name: BALINESE ADEG ADEG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭅ U+1B45 BALINESE LETTER KAF SASAK": 
+    {
+        "prefix": [
+            "..U.1B45",
+            "..U.BALINESE LETTER KAF SASAK",
+            "U+1B45",
+        ],
+        "body": [
+            "${1|ᭅ,&#x1B45;,U+1B45,0x1B45,BALINESE LETTER KAF SASAK|}$2",
+        ],
+        "description": [
+            "Code: U+1B45",
+            "Character/Symbol: ᭅ",
+            "Name: BALINESE LETTER KAF SASAK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭆ U+1B46 BALINESE LETTER KHOT SASAK": 
+    {
+        "prefix": [
+            "..U.1B46",
+            "..U.BALINESE LETTER KHOT SASAK",
+            "U+1B46",
+        ],
+        "body": [
+            "${1|ᭆ,&#x1B46;,U+1B46,0x1B46,BALINESE LETTER KHOT SASAK|}$2",
+        ],
+        "description": [
+            "Code: U+1B46",
+            "Character/Symbol: ᭆ",
+            "Name: BALINESE LETTER KHOT SASAK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭇ U+1B47 BALINESE LETTER TZIR SASAK": 
+    {
+        "prefix": [
+            "..U.1B47",
+            "..U.BALINESE LETTER TZIR SASAK",
+            "U+1B47",
+        ],
+        "body": [
+            "${1|ᭇ,&#x1B47;,U+1B47,0x1B47,BALINESE LETTER TZIR SASAK|}$2",
+        ],
+        "description": [
+            "Code: U+1B47",
+            "Character/Symbol: ᭇ",
+            "Name: BALINESE LETTER TZIR SASAK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭈ U+1B48 BALINESE LETTER EF SASAK": 
+    {
+        "prefix": [
+            "..U.1B48",
+            "..U.BALINESE LETTER EF SASAK",
+            "U+1B48",
+        ],
+        "body": [
+            "${1|ᭈ,&#x1B48;,U+1B48,0x1B48,BALINESE LETTER EF SASAK|}$2",
+        ],
+        "description": [
+            "Code: U+1B48",
+            "Character/Symbol: ᭈ",
+            "Name: BALINESE LETTER EF SASAK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭉ U+1B49 BALINESE LETTER VE SASAK": 
+    {
+        "prefix": [
+            "..U.1B49",
+            "..U.BALINESE LETTER VE SASAK",
+            "U+1B49",
+        ],
+        "body": [
+            "${1|ᭉ,&#x1B49;,U+1B49,0x1B49,BALINESE LETTER VE SASAK|}$2",
+        ],
+        "description": [
+            "Code: U+1B49",
+            "Character/Symbol: ᭉ",
+            "Name: BALINESE LETTER VE SASAK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭊ U+1B4A BALINESE LETTER ZAL SASAK": 
+    {
+        "prefix": [
+            "..U.1B4A",
+            "..U.BALINESE LETTER ZAL SASAK",
+            "U+1B4A",
+        ],
+        "body": [
+            "${1|ᭊ,&#x1B4A;,U+1B4A,0x1B4A,BALINESE LETTER ZAL SASAK|}$2",
+        ],
+        "description": [
+            "Code: U+1B4A",
+            "Character/Symbol: ᭊ",
+            "Name: BALINESE LETTER ZAL SASAK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭋ U+1B4B BALINESE LETTER ASYURA SASAK": 
+    {
+        "prefix": [
+            "..U.1B4B",
+            "..U.BALINESE LETTER ASYURA SASAK",
+            "U+1B4B",
+        ],
+        "body": [
+            "${1|ᭋ,&#x1B4B;,U+1B4B,0x1B4B,BALINESE LETTER ASYURA SASAK|}$2",
+        ],
+        "description": [
+            "Code: U+1B4B",
+            "Character/Symbol: ᭋ",
+            "Name: BALINESE LETTER ASYURA SASAK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭌ U+1B4C BALINESE LETTER ARCHAIC JNYA": 
+    {
+        "prefix": [
+            "..U.1B4C",
+            "..U.BALINESE LETTER ARCHAIC JNYA",
+            "U+1B4C",
+        ],
+        "body": [
+            "${1|ᭌ,&#x1B4C;,U+1B4C,0x1B4C,BALINESE LETTER ARCHAIC JNYA|}$2",
+        ],
+        "description": [
+            "Code: U+1B4C",
+            "Character/Symbol: ᭌ",
+            "Name: BALINESE LETTER ARCHAIC JNYA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭐ U+1B50 BALINESE DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.1B50",
+            "..U.BALINESE DIGIT ZERO",
+            "U+1B50",
+        ],
+        "body": [
+            "${1|᭐,&#x1B50;,U+1B50,0x1B50,BALINESE DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+1B50",
+            "Character/Symbol: ᭐",
+            "Name: BALINESE DIGIT ZERO",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭑ U+1B51 BALINESE DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.1B51",
+            "..U.BALINESE DIGIT ONE",
+            "U+1B51",
+        ],
+        "body": [
+            "${1|᭑,&#x1B51;,U+1B51,0x1B51,BALINESE DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+1B51",
+            "Character/Symbol: ᭑",
+            "Name: BALINESE DIGIT ONE",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭒ U+1B52 BALINESE DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.1B52",
+            "..U.BALINESE DIGIT TWO",
+            "U+1B52",
+        ],
+        "body": [
+            "${1|᭒,&#x1B52;,U+1B52,0x1B52,BALINESE DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+1B52",
+            "Character/Symbol: ᭒",
+            "Name: BALINESE DIGIT TWO",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭓ U+1B53 BALINESE DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.1B53",
+            "..U.BALINESE DIGIT THREE",
+            "U+1B53",
+        ],
+        "body": [
+            "${1|᭓,&#x1B53;,U+1B53,0x1B53,BALINESE DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+1B53",
+            "Character/Symbol: ᭓",
+            "Name: BALINESE DIGIT THREE",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭔ U+1B54 BALINESE DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.1B54",
+            "..U.BALINESE DIGIT FOUR",
+            "U+1B54",
+        ],
+        "body": [
+            "${1|᭔,&#x1B54;,U+1B54,0x1B54,BALINESE DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+1B54",
+            "Character/Symbol: ᭔",
+            "Name: BALINESE DIGIT FOUR",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭕ U+1B55 BALINESE DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.1B55",
+            "..U.BALINESE DIGIT FIVE",
+            "U+1B55",
+        ],
+        "body": [
+            "${1|᭕,&#x1B55;,U+1B55,0x1B55,BALINESE DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+1B55",
+            "Character/Symbol: ᭕",
+            "Name: BALINESE DIGIT FIVE",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭖ U+1B56 BALINESE DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.1B56",
+            "..U.BALINESE DIGIT SIX",
+            "U+1B56",
+        ],
+        "body": [
+            "${1|᭖,&#x1B56;,U+1B56,0x1B56,BALINESE DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+1B56",
+            "Character/Symbol: ᭖",
+            "Name: BALINESE DIGIT SIX",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭗ U+1B57 BALINESE DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.1B57",
+            "..U.BALINESE DIGIT SEVEN",
+            "U+1B57",
+        ],
+        "body": [
+            "${1|᭗,&#x1B57;,U+1B57,0x1B57,BALINESE DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+1B57",
+            "Character/Symbol: ᭗",
+            "Name: BALINESE DIGIT SEVEN",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭘ U+1B58 BALINESE DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.1B58",
+            "..U.BALINESE DIGIT EIGHT",
+            "U+1B58",
+        ],
+        "body": [
+            "${1|᭘,&#x1B58;,U+1B58,0x1B58,BALINESE DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+1B58",
+            "Character/Symbol: ᭘",
+            "Name: BALINESE DIGIT EIGHT",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭙ U+1B59 BALINESE DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.1B59",
+            "..U.BALINESE DIGIT NINE",
+            "U+1B59",
+        ],
+        "body": [
+            "${1|᭙,&#x1B59;,U+1B59,0x1B59,BALINESE DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+1B59",
+            "Character/Symbol: ᭙",
+            "Name: BALINESE DIGIT NINE",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭚ U+1B5A BALINESE PANTI": 
+    {
+        "prefix": [
+            "..U.1B5A",
+            "..U.BALINESE PANTI",
+            "U+1B5A",
+        ],
+        "body": [
+            "${1|᭚,&#x1B5A;,U+1B5A,0x1B5A,BALINESE PANTI|}$2",
+        ],
+        "description": [
+            "Code: U+1B5A",
+            "Character/Symbol: ᭚",
+            "Name: BALINESE PANTI",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭛ U+1B5B BALINESE PAMADA": 
+    {
+        "prefix": [
+            "..U.1B5B",
+            "..U.BALINESE PAMADA",
+            "U+1B5B",
+        ],
+        "body": [
+            "${1|᭛,&#x1B5B;,U+1B5B,0x1B5B,BALINESE PAMADA|}$2",
+        ],
+        "description": [
+            "Code: U+1B5B",
+            "Character/Symbol: ᭛",
+            "Name: BALINESE PAMADA",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭜ U+1B5C BALINESE WINDU": 
+    {
+        "prefix": [
+            "..U.1B5C",
+            "..U.BALINESE WINDU",
+            "U+1B5C",
+        ],
+        "body": [
+            "${1|᭜,&#x1B5C;,U+1B5C,0x1B5C,BALINESE WINDU|}$2",
+        ],
+        "description": [
+            "Code: U+1B5C",
+            "Character/Symbol: ᭜",
+            "Name: BALINESE WINDU",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭝ U+1B5D BALINESE CARIK PAMUNGKAH": 
+    {
+        "prefix": [
+            "..U.1B5D",
+            "..U.BALINESE CARIK PAMUNGKAH",
+            "U+1B5D",
+        ],
+        "body": [
+            "${1|᭝,&#x1B5D;,U+1B5D,0x1B5D,BALINESE CARIK PAMUNGKAH|}$2",
+        ],
+        "description": [
+            "Code: U+1B5D",
+            "Character/Symbol: ᭝",
+            "Name: BALINESE CARIK PAMUNGKAH",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭞ U+1B5E BALINESE CARIK SIKI": 
+    {
+        "prefix": [
+            "..U.1B5E",
+            "..U.BALINESE CARIK SIKI",
+            "U+1B5E",
+        ],
+        "body": [
+            "${1|᭞,&#x1B5E;,U+1B5E,0x1B5E,BALINESE CARIK SIKI|}$2",
+        ],
+        "description": [
+            "Code: U+1B5E",
+            "Character/Symbol: ᭞",
+            "Name: BALINESE CARIK SIKI",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭟ U+1B5F BALINESE CARIK PAREREN": 
+    {
+        "prefix": [
+            "..U.1B5F",
+            "..U.BALINESE CARIK PAREREN",
+            "U+1B5F",
+        ],
+        "body": [
+            "${1|᭟,&#x1B5F;,U+1B5F,0x1B5F,BALINESE CARIK PAREREN|}$2",
+        ],
+        "description": [
+            "Code: U+1B5F",
+            "Character/Symbol: ᭟",
+            "Name: BALINESE CARIK PAREREN",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭠ U+1B60 BALINESE PAMENENG": 
+    {
+        "prefix": [
+            "..U.1B60",
+            "..U.BALINESE PAMENENG",
+            "U+1B60",
+        ],
+        "body": [
+            "${1|᭠,&#x1B60;,U+1B60,0x1B60,BALINESE PAMENENG|}$2",
+        ],
+        "description": [
+            "Code: U+1B60",
+            "Character/Symbol: ᭠",
+            "Name: BALINESE PAMENENG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭡ U+1B61 BALINESE MUSICAL SYMBOL DONG": 
+    {
+        "prefix": [
+            "..U.1B61",
+            "..U.BALINESE MUSICAL SYMBOL DONG",
+            "U+1B61",
+        ],
+        "body": [
+            "${1|᭡,&#x1B61;,U+1B61,0x1B61,BALINESE MUSICAL SYMBOL DONG|}$2",
+        ],
+        "description": [
+            "Code: U+1B61",
+            "Character/Symbol: ᭡",
+            "Name: BALINESE MUSICAL SYMBOL DONG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭢ U+1B62 BALINESE MUSICAL SYMBOL DENG": 
+    {
+        "prefix": [
+            "..U.1B62",
+            "..U.BALINESE MUSICAL SYMBOL DENG",
+            "U+1B62",
+        ],
+        "body": [
+            "${1|᭢,&#x1B62;,U+1B62,0x1B62,BALINESE MUSICAL SYMBOL DENG|}$2",
+        ],
+        "description": [
+            "Code: U+1B62",
+            "Character/Symbol: ᭢",
+            "Name: BALINESE MUSICAL SYMBOL DENG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭣ U+1B63 BALINESE MUSICAL SYMBOL DUNG": 
+    {
+        "prefix": [
+            "..U.1B63",
+            "..U.BALINESE MUSICAL SYMBOL DUNG",
+            "U+1B63",
+        ],
+        "body": [
+            "${1|᭣,&#x1B63;,U+1B63,0x1B63,BALINESE MUSICAL SYMBOL DUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B63",
+            "Character/Symbol: ᭣",
+            "Name: BALINESE MUSICAL SYMBOL DUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭤ U+1B64 BALINESE MUSICAL SYMBOL DANG": 
+    {
+        "prefix": [
+            "..U.1B64",
+            "..U.BALINESE MUSICAL SYMBOL DANG",
+            "U+1B64",
+        ],
+        "body": [
+            "${1|᭤,&#x1B64;,U+1B64,0x1B64,BALINESE MUSICAL SYMBOL DANG|}$2",
+        ],
+        "description": [
+            "Code: U+1B64",
+            "Character/Symbol: ᭤",
+            "Name: BALINESE MUSICAL SYMBOL DANG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭥ U+1B65 BALINESE MUSICAL SYMBOL DANG SURANG": 
+    {
+        "prefix": [
+            "..U.1B65",
+            "..U.BALINESE MUSICAL SYMBOL DANG SURANG",
+            "U+1B65",
+        ],
+        "body": [
+            "${1|᭥,&#x1B65;,U+1B65,0x1B65,BALINESE MUSICAL SYMBOL DANG SURANG|}$2",
+        ],
+        "description": [
+            "Code: U+1B65",
+            "Character/Symbol: ᭥",
+            "Name: BALINESE MUSICAL SYMBOL DANG SURANG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭦ U+1B66 BALINESE MUSICAL SYMBOL DING": 
+    {
+        "prefix": [
+            "..U.1B66",
+            "..U.BALINESE MUSICAL SYMBOL DING",
+            "U+1B66",
+        ],
+        "body": [
+            "${1|᭦,&#x1B66;,U+1B66,0x1B66,BALINESE MUSICAL SYMBOL DING|}$2",
+        ],
+        "description": [
+            "Code: U+1B66",
+            "Character/Symbol: ᭦",
+            "Name: BALINESE MUSICAL SYMBOL DING",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭧ U+1B67 BALINESE MUSICAL SYMBOL DAENG": 
+    {
+        "prefix": [
+            "..U.1B67",
+            "..U.BALINESE MUSICAL SYMBOL DAENG",
+            "U+1B67",
+        ],
+        "body": [
+            "${1|᭧,&#x1B67;,U+1B67,0x1B67,BALINESE MUSICAL SYMBOL DAENG|}$2",
+        ],
+        "description": [
+            "Code: U+1B67",
+            "Character/Symbol: ᭧",
+            "Name: BALINESE MUSICAL SYMBOL DAENG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭨ U+1B68 BALINESE MUSICAL SYMBOL DEUNG": 
+    {
+        "prefix": [
+            "..U.1B68",
+            "..U.BALINESE MUSICAL SYMBOL DEUNG",
+            "U+1B68",
+        ],
+        "body": [
+            "${1|᭨,&#x1B68;,U+1B68,0x1B68,BALINESE MUSICAL SYMBOL DEUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B68",
+            "Character/Symbol: ᭨",
+            "Name: BALINESE MUSICAL SYMBOL DEUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭩ U+1B69 BALINESE MUSICAL SYMBOL DAING": 
+    {
+        "prefix": [
+            "..U.1B69",
+            "..U.BALINESE MUSICAL SYMBOL DAING",
+            "U+1B69",
+        ],
+        "body": [
+            "${1|᭩,&#x1B69;,U+1B69,0x1B69,BALINESE MUSICAL SYMBOL DAING|}$2",
+        ],
+        "description": [
+            "Code: U+1B69",
+            "Character/Symbol: ᭩",
+            "Name: BALINESE MUSICAL SYMBOL DAING",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭪ U+1B6A BALINESE MUSICAL SYMBOL DANG GEDE": 
+    {
+        "prefix": [
+            "..U.1B6A",
+            "..U.BALINESE MUSICAL SYMBOL DANG GEDE",
+            "U+1B6A",
+        ],
+        "body": [
+            "${1|᭪,&#x1B6A;,U+1B6A,0x1B6A,BALINESE MUSICAL SYMBOL DANG GEDE|}$2",
+        ],
+        "description": [
+            "Code: U+1B6A",
+            "Character/Symbol: ᭪",
+            "Name: BALINESE MUSICAL SYMBOL DANG GEDE",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭫ U+1B6B BALINESE MUSICAL SYMBOL COMBINING TEGEH": 
+    {
+        "prefix": [
+            "..U.1B6B",
+            "..U.BALINESE MUSICAL SYMBOL COMBINING TEGEH",
+            "U+1B6B",
+        ],
+        "body": [
+            "${1|᭫,&#x1B6B;,U+1B6B,0x1B6B,BALINESE MUSICAL SYMBOL COMBINING TEGEH|}$2",
+        ],
+        "description": [
+            "Code: U+1B6B",
+            "Character/Symbol: ᭫",
+            "Name: BALINESE MUSICAL SYMBOL COMBINING TEGEH",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭬ U+1B6C BALINESE MUSICAL SYMBOL COMBINING ENDEP": 
+    {
+        "prefix": [
+            "..U.1B6C",
+            "..U.BALINESE MUSICAL SYMBOL COMBINING ENDEP",
+            "U+1B6C",
+        ],
+        "body": [
+            "${1|᭬,&#x1B6C;,U+1B6C,0x1B6C,BALINESE MUSICAL SYMBOL COMBINING ENDEP|}$2",
+        ],
+        "description": [
+            "Code: U+1B6C",
+            "Character/Symbol: ᭬",
+            "Name: BALINESE MUSICAL SYMBOL COMBINING ENDEP",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭭ U+1B6D BALINESE MUSICAL SYMBOL COMBINING KEMPUL": 
+    {
+        "prefix": [
+            "..U.1B6D",
+            "..U.BALINESE MUSICAL SYMBOL COMBINING KEMPUL",
+            "U+1B6D",
+        ],
+        "body": [
+            "${1|᭭,&#x1B6D;,U+1B6D,0x1B6D,BALINESE MUSICAL SYMBOL COMBINING KEMPUL|}$2",
+        ],
+        "description": [
+            "Code: U+1B6D",
+            "Character/Symbol: ᭭",
+            "Name: BALINESE MUSICAL SYMBOL COMBINING KEMPUL",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭮ U+1B6E BALINESE MUSICAL SYMBOL COMBINING KEMPLI": 
+    {
+        "prefix": [
+            "..U.1B6E",
+            "..U.BALINESE MUSICAL SYMBOL COMBINING KEMPLI",
+            "U+1B6E",
+        ],
+        "body": [
+            "${1|᭮,&#x1B6E;,U+1B6E,0x1B6E,BALINESE MUSICAL SYMBOL COMBINING KEMPLI|}$2",
+        ],
+        "description": [
+            "Code: U+1B6E",
+            "Character/Symbol: ᭮",
+            "Name: BALINESE MUSICAL SYMBOL COMBINING KEMPLI",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭯ U+1B6F BALINESE MUSICAL SYMBOL COMBINING JEGOGAN": 
+    {
+        "prefix": [
+            "..U.1B6F",
+            "..U.BALINESE MUSICAL SYMBOL COMBINING JEGOGAN",
+            "U+1B6F",
+        ],
+        "body": [
+            "${1|᭯,&#x1B6F;,U+1B6F,0x1B6F,BALINESE MUSICAL SYMBOL COMBINING JEGOGAN|}$2",
+        ],
+        "description": [
+            "Code: U+1B6F",
+            "Character/Symbol: ᭯",
+            "Name: BALINESE MUSICAL SYMBOL COMBINING JEGOGAN",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭰ U+1B70 BALINESE MUSICAL SYMBOL COMBINING KEMPUL WITH JEGOGAN": 
+    {
+        "prefix": [
+            "..U.1B70",
+            "..U.BALINESE MUSICAL SYMBOL COMBINING KEMPUL WITH JEGOGAN",
+            "U+1B70",
+        ],
+        "body": [
+            "${1|᭰,&#x1B70;,U+1B70,0x1B70,BALINESE MUSICAL SYMBOL COMBINING KEMPUL WITH JEGOGAN|}$2",
+        ],
+        "description": [
+            "Code: U+1B70",
+            "Character/Symbol: ᭰",
+            "Name: BALINESE MUSICAL SYMBOL COMBINING KEMPUL WITH JEGOGAN",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭱ U+1B71 BALINESE MUSICAL SYMBOL COMBINING KEMPLI WITH JEGOGAN": 
+    {
+        "prefix": [
+            "..U.1B71",
+            "..U.BALINESE MUSICAL SYMBOL COMBINING KEMPLI WITH JEGOGAN",
+            "U+1B71",
+        ],
+        "body": [
+            "${1|᭱,&#x1B71;,U+1B71,0x1B71,BALINESE MUSICAL SYMBOL COMBINING KEMPLI WITH JEGOGAN|}$2",
+        ],
+        "description": [
+            "Code: U+1B71",
+            "Character/Symbol: ᭱",
+            "Name: BALINESE MUSICAL SYMBOL COMBINING KEMPLI WITH JEGOGAN",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭲ U+1B72 BALINESE MUSICAL SYMBOL COMBINING BENDE": 
+    {
+        "prefix": [
+            "..U.1B72",
+            "..U.BALINESE MUSICAL SYMBOL COMBINING BENDE",
+            "U+1B72",
+        ],
+        "body": [
+            "${1|᭲,&#x1B72;,U+1B72,0x1B72,BALINESE MUSICAL SYMBOL COMBINING BENDE|}$2",
+        ],
+        "description": [
+            "Code: U+1B72",
+            "Character/Symbol: ᭲",
+            "Name: BALINESE MUSICAL SYMBOL COMBINING BENDE",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭳ U+1B73 BALINESE MUSICAL SYMBOL COMBINING GONG": 
+    {
+        "prefix": [
+            "..U.1B73",
+            "..U.BALINESE MUSICAL SYMBOL COMBINING GONG",
+            "U+1B73",
+        ],
+        "body": [
+            "${1|᭳,&#x1B73;,U+1B73,0x1B73,BALINESE MUSICAL SYMBOL COMBINING GONG|}$2",
+        ],
+        "description": [
+            "Code: U+1B73",
+            "Character/Symbol: ᭳",
+            "Name: BALINESE MUSICAL SYMBOL COMBINING GONG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭴ U+1B74 BALINESE MUSICAL SYMBOL RIGHT-HAND OPEN DUG": 
+    {
+        "prefix": [
+            "..U.1B74",
+            "..U.BALINESE MUSICAL SYMBOL RIGHT-HAND OPEN DUG",
+            "U+1B74",
+        ],
+        "body": [
+            "${1|᭴,&#x1B74;,U+1B74,0x1B74,BALINESE MUSICAL SYMBOL RIGHT-HAND OPEN DUG|}$2",
+        ],
+        "description": [
+            "Code: U+1B74",
+            "Character/Symbol: ᭴",
+            "Name: BALINESE MUSICAL SYMBOL RIGHT-HAND OPEN DUG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭵ U+1B75 BALINESE MUSICAL SYMBOL RIGHT-HAND OPEN DAG": 
+    {
+        "prefix": [
+            "..U.1B75",
+            "..U.BALINESE MUSICAL SYMBOL RIGHT-HAND OPEN DAG",
+            "U+1B75",
+        ],
+        "body": [
+            "${1|᭵,&#x1B75;,U+1B75,0x1B75,BALINESE MUSICAL SYMBOL RIGHT-HAND OPEN DAG|}$2",
+        ],
+        "description": [
+            "Code: U+1B75",
+            "Character/Symbol: ᭵",
+            "Name: BALINESE MUSICAL SYMBOL RIGHT-HAND OPEN DAG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭶ U+1B76 BALINESE MUSICAL SYMBOL RIGHT-HAND CLOSED TUK": 
+    {
+        "prefix": [
+            "..U.1B76",
+            "..U.BALINESE MUSICAL SYMBOL RIGHT-HAND CLOSED TUK",
+            "U+1B76",
+        ],
+        "body": [
+            "${1|᭶,&#x1B76;,U+1B76,0x1B76,BALINESE MUSICAL SYMBOL RIGHT-HAND CLOSED TUK|}$2",
+        ],
+        "description": [
+            "Code: U+1B76",
+            "Character/Symbol: ᭶",
+            "Name: BALINESE MUSICAL SYMBOL RIGHT-HAND CLOSED TUK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭷ U+1B77 BALINESE MUSICAL SYMBOL RIGHT-HAND CLOSED TAK": 
+    {
+        "prefix": [
+            "..U.1B77",
+            "..U.BALINESE MUSICAL SYMBOL RIGHT-HAND CLOSED TAK",
+            "U+1B77",
+        ],
+        "body": [
+            "${1|᭷,&#x1B77;,U+1B77,0x1B77,BALINESE MUSICAL SYMBOL RIGHT-HAND CLOSED TAK|}$2",
+        ],
+        "description": [
+            "Code: U+1B77",
+            "Character/Symbol: ᭷",
+            "Name: BALINESE MUSICAL SYMBOL RIGHT-HAND CLOSED TAK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭸ U+1B78 BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PANG": 
+    {
+        "prefix": [
+            "..U.1B78",
+            "..U.BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PANG",
+            "U+1B78",
+        ],
+        "body": [
+            "${1|᭸,&#x1B78;,U+1B78,0x1B78,BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PANG|}$2",
+        ],
+        "description": [
+            "Code: U+1B78",
+            "Character/Symbol: ᭸",
+            "Name: BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PANG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭹ U+1B79 BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PUNG": 
+    {
+        "prefix": [
+            "..U.1B79",
+            "..U.BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PUNG",
+            "U+1B79",
+        ],
+        "body": [
+            "${1|᭹,&#x1B79;,U+1B79,0x1B79,BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PUNG|}$2",
+        ],
+        "description": [
+            "Code: U+1B79",
+            "Character/Symbol: ᭹",
+            "Name: BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PUNG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭺ U+1B7A BALINESE MUSICAL SYMBOL LEFT-HAND CLOSED PLAK": 
+    {
+        "prefix": [
+            "..U.1B7A",
+            "..U.BALINESE MUSICAL SYMBOL LEFT-HAND CLOSED PLAK",
+            "U+1B7A",
+        ],
+        "body": [
+            "${1|᭺,&#x1B7A;,U+1B7A,0x1B7A,BALINESE MUSICAL SYMBOL LEFT-HAND CLOSED PLAK|}$2",
+        ],
+        "description": [
+            "Code: U+1B7A",
+            "Character/Symbol: ᭺",
+            "Name: BALINESE MUSICAL SYMBOL LEFT-HAND CLOSED PLAK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭻ U+1B7B BALINESE MUSICAL SYMBOL LEFT-HAND CLOSED PLUK": 
+    {
+        "prefix": [
+            "..U.1B7B",
+            "..U.BALINESE MUSICAL SYMBOL LEFT-HAND CLOSED PLUK",
+            "U+1B7B",
+        ],
+        "body": [
+            "${1|᭻,&#x1B7B;,U+1B7B,0x1B7B,BALINESE MUSICAL SYMBOL LEFT-HAND CLOSED PLUK|}$2",
+        ],
+        "description": [
+            "Code: U+1B7B",
+            "Character/Symbol: ᭻",
+            "Name: BALINESE MUSICAL SYMBOL LEFT-HAND CLOSED PLUK",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭼ U+1B7C BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PING": 
+    {
+        "prefix": [
+            "..U.1B7C",
+            "..U.BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PING",
+            "U+1B7C",
+        ],
+        "body": [
+            "${1|᭼,&#x1B7C;,U+1B7C,0x1B7C,BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PING|}$2",
+        ],
+        "description": [
+            "Code: U+1B7C",
+            "Character/Symbol: ᭼",
+            "Name: BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PING",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭽ U+1B7D BALINESE PANTI LANTANG": 
+    {
+        "prefix": [
+            "..U.1B7D",
+            "..U.BALINESE PANTI LANTANG",
+            "U+1B7D",
+        ],
+        "body": [
+            "${1|᭽,&#x1B7D;,U+1B7D,0x1B7D,BALINESE PANTI LANTANG|}$2",
+        ],
+        "description": [
+            "Code: U+1B7D",
+            "Character/Symbol: ᭽",
+            "Name: BALINESE PANTI LANTANG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+    "Unicode ᭾ U+1B7E BALINESE PAMADA LANTANG": 
+    {
+        "prefix": [
+            "..U.1B7E",
+            "..U.BALINESE PAMADA LANTANG",
+            "U+1B7E",
+        ],
+        "body": [
+            "${1|᭾,&#x1B7E;,U+1B7E,0x1B7E,BALINESE PAMADA LANTANG|}$2",
+        ],
+        "description": [
+            "Code: U+1B7E",
+            "Character/Symbol: ᭾",
+            "Name: BALINESE PAMADA LANTANG",
+            "Group/Block: Balinese",
+        ],
+    },
+
+}

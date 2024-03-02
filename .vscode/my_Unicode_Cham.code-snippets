@@ -1,0 +1,1496 @@
+{
+    "Unicode ꨀ U+AA00 CHAM LETTER A": 
+    {
+        "prefix": [
+            "..U.AA00",
+            "..U.CHAM LETTER A",
+            "U+AA00",
+        ],
+        "body": [
+            "${1|ꨀ,&#xAA00;,U+AA00,0xAA00,CHAM LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+AA00",
+            "Character/Symbol: ꨀ",
+            "Name: CHAM LETTER A",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨁ U+AA01 CHAM LETTER I": 
+    {
+        "prefix": [
+            "..U.AA01",
+            "..U.CHAM LETTER I",
+            "U+AA01",
+        ],
+        "body": [
+            "${1|ꨁ,&#xAA01;,U+AA01,0xAA01,CHAM LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+AA01",
+            "Character/Symbol: ꨁ",
+            "Name: CHAM LETTER I",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨂ U+AA02 CHAM LETTER U": 
+    {
+        "prefix": [
+            "..U.AA02",
+            "..U.CHAM LETTER U",
+            "U+AA02",
+        ],
+        "body": [
+            "${1|ꨂ,&#xAA02;,U+AA02,0xAA02,CHAM LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+AA02",
+            "Character/Symbol: ꨂ",
+            "Name: CHAM LETTER U",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨃ U+AA03 CHAM LETTER E": 
+    {
+        "prefix": [
+            "..U.AA03",
+            "..U.CHAM LETTER E",
+            "U+AA03",
+        ],
+        "body": [
+            "${1|ꨃ,&#xAA03;,U+AA03,0xAA03,CHAM LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+AA03",
+            "Character/Symbol: ꨃ",
+            "Name: CHAM LETTER E",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨄ U+AA04 CHAM LETTER AI": 
+    {
+        "prefix": [
+            "..U.AA04",
+            "..U.CHAM LETTER AI",
+            "U+AA04",
+        ],
+        "body": [
+            "${1|ꨄ,&#xAA04;,U+AA04,0xAA04,CHAM LETTER AI|}$2",
+        ],
+        "description": [
+            "Code: U+AA04",
+            "Character/Symbol: ꨄ",
+            "Name: CHAM LETTER AI",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨅ U+AA05 CHAM LETTER O": 
+    {
+        "prefix": [
+            "..U.AA05",
+            "..U.CHAM LETTER O",
+            "U+AA05",
+        ],
+        "body": [
+            "${1|ꨅ,&#xAA05;,U+AA05,0xAA05,CHAM LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+AA05",
+            "Character/Symbol: ꨅ",
+            "Name: CHAM LETTER O",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨆ U+AA06 CHAM LETTER KA": 
+    {
+        "prefix": [
+            "..U.AA06",
+            "..U.CHAM LETTER KA",
+            "U+AA06",
+        ],
+        "body": [
+            "${1|ꨆ,&#xAA06;,U+AA06,0xAA06,CHAM LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+AA06",
+            "Character/Symbol: ꨆ",
+            "Name: CHAM LETTER KA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨇ U+AA07 CHAM LETTER KHA": 
+    {
+        "prefix": [
+            "..U.AA07",
+            "..U.CHAM LETTER KHA",
+            "U+AA07",
+        ],
+        "body": [
+            "${1|ꨇ,&#xAA07;,U+AA07,0xAA07,CHAM LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+AA07",
+            "Character/Symbol: ꨇ",
+            "Name: CHAM LETTER KHA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨈ U+AA08 CHAM LETTER GA": 
+    {
+        "prefix": [
+            "..U.AA08",
+            "..U.CHAM LETTER GA",
+            "U+AA08",
+        ],
+        "body": [
+            "${1|ꨈ,&#xAA08;,U+AA08,0xAA08,CHAM LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+AA08",
+            "Character/Symbol: ꨈ",
+            "Name: CHAM LETTER GA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨉ U+AA09 CHAM LETTER GHA": 
+    {
+        "prefix": [
+            "..U.AA09",
+            "..U.CHAM LETTER GHA",
+            "U+AA09",
+        ],
+        "body": [
+            "${1|ꨉ,&#xAA09;,U+AA09,0xAA09,CHAM LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+AA09",
+            "Character/Symbol: ꨉ",
+            "Name: CHAM LETTER GHA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨊ U+AA0A CHAM LETTER NGUE": 
+    {
+        "prefix": [
+            "..U.AA0A",
+            "..U.CHAM LETTER NGUE",
+            "U+AA0A",
+        ],
+        "body": [
+            "${1|ꨊ,&#xAA0A;,U+AA0A,0xAA0A,CHAM LETTER NGUE|}$2",
+        ],
+        "description": [
+            "Code: U+AA0A",
+            "Character/Symbol: ꨊ",
+            "Name: CHAM LETTER NGUE",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨋ U+AA0B CHAM LETTER NGA": 
+    {
+        "prefix": [
+            "..U.AA0B",
+            "..U.CHAM LETTER NGA",
+            "U+AA0B",
+        ],
+        "body": [
+            "${1|ꨋ,&#xAA0B;,U+AA0B,0xAA0B,CHAM LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+AA0B",
+            "Character/Symbol: ꨋ",
+            "Name: CHAM LETTER NGA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨌ U+AA0C CHAM LETTER CHA": 
+    {
+        "prefix": [
+            "..U.AA0C",
+            "..U.CHAM LETTER CHA",
+            "U+AA0C",
+        ],
+        "body": [
+            "${1|ꨌ,&#xAA0C;,U+AA0C,0xAA0C,CHAM LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+AA0C",
+            "Character/Symbol: ꨌ",
+            "Name: CHAM LETTER CHA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨍ U+AA0D CHAM LETTER CHHA": 
+    {
+        "prefix": [
+            "..U.AA0D",
+            "..U.CHAM LETTER CHHA",
+            "U+AA0D",
+        ],
+        "body": [
+            "${1|ꨍ,&#xAA0D;,U+AA0D,0xAA0D,CHAM LETTER CHHA|}$2",
+        ],
+        "description": [
+            "Code: U+AA0D",
+            "Character/Symbol: ꨍ",
+            "Name: CHAM LETTER CHHA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨎ U+AA0E CHAM LETTER JA": 
+    {
+        "prefix": [
+            "..U.AA0E",
+            "..U.CHAM LETTER JA",
+            "U+AA0E",
+        ],
+        "body": [
+            "${1|ꨎ,&#xAA0E;,U+AA0E,0xAA0E,CHAM LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+AA0E",
+            "Character/Symbol: ꨎ",
+            "Name: CHAM LETTER JA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨏ U+AA0F CHAM LETTER JHA": 
+    {
+        "prefix": [
+            "..U.AA0F",
+            "..U.CHAM LETTER JHA",
+            "U+AA0F",
+        ],
+        "body": [
+            "${1|ꨏ,&#xAA0F;,U+AA0F,0xAA0F,CHAM LETTER JHA|}$2",
+        ],
+        "description": [
+            "Code: U+AA0F",
+            "Character/Symbol: ꨏ",
+            "Name: CHAM LETTER JHA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨐ U+AA10 CHAM LETTER NHUE": 
+    {
+        "prefix": [
+            "..U.AA10",
+            "..U.CHAM LETTER NHUE",
+            "U+AA10",
+        ],
+        "body": [
+            "${1|ꨐ,&#xAA10;,U+AA10,0xAA10,CHAM LETTER NHUE|}$2",
+        ],
+        "description": [
+            "Code: U+AA10",
+            "Character/Symbol: ꨐ",
+            "Name: CHAM LETTER NHUE",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨑ U+AA11 CHAM LETTER NHA": 
+    {
+        "prefix": [
+            "..U.AA11",
+            "..U.CHAM LETTER NHA",
+            "U+AA11",
+        ],
+        "body": [
+            "${1|ꨑ,&#xAA11;,U+AA11,0xAA11,CHAM LETTER NHA|}$2",
+        ],
+        "description": [
+            "Code: U+AA11",
+            "Character/Symbol: ꨑ",
+            "Name: CHAM LETTER NHA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨒ U+AA12 CHAM LETTER NHJA": 
+    {
+        "prefix": [
+            "..U.AA12",
+            "..U.CHAM LETTER NHJA",
+            "U+AA12",
+        ],
+        "body": [
+            "${1|ꨒ,&#xAA12;,U+AA12,0xAA12,CHAM LETTER NHJA|}$2",
+        ],
+        "description": [
+            "Code: U+AA12",
+            "Character/Symbol: ꨒ",
+            "Name: CHAM LETTER NHJA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨓ U+AA13 CHAM LETTER TA": 
+    {
+        "prefix": [
+            "..U.AA13",
+            "..U.CHAM LETTER TA",
+            "U+AA13",
+        ],
+        "body": [
+            "${1|ꨓ,&#xAA13;,U+AA13,0xAA13,CHAM LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+AA13",
+            "Character/Symbol: ꨓ",
+            "Name: CHAM LETTER TA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨔ U+AA14 CHAM LETTER THA": 
+    {
+        "prefix": [
+            "..U.AA14",
+            "..U.CHAM LETTER THA",
+            "U+AA14",
+        ],
+        "body": [
+            "${1|ꨔ,&#xAA14;,U+AA14,0xAA14,CHAM LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+AA14",
+            "Character/Symbol: ꨔ",
+            "Name: CHAM LETTER THA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨕ U+AA15 CHAM LETTER DA": 
+    {
+        "prefix": [
+            "..U.AA15",
+            "..U.CHAM LETTER DA",
+            "U+AA15",
+        ],
+        "body": [
+            "${1|ꨕ,&#xAA15;,U+AA15,0xAA15,CHAM LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+AA15",
+            "Character/Symbol: ꨕ",
+            "Name: CHAM LETTER DA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨖ U+AA16 CHAM LETTER DHA": 
+    {
+        "prefix": [
+            "..U.AA16",
+            "..U.CHAM LETTER DHA",
+            "U+AA16",
+        ],
+        "body": [
+            "${1|ꨖ,&#xAA16;,U+AA16,0xAA16,CHAM LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+AA16",
+            "Character/Symbol: ꨖ",
+            "Name: CHAM LETTER DHA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨗ U+AA17 CHAM LETTER NUE": 
+    {
+        "prefix": [
+            "..U.AA17",
+            "..U.CHAM LETTER NUE",
+            "U+AA17",
+        ],
+        "body": [
+            "${1|ꨗ,&#xAA17;,U+AA17,0xAA17,CHAM LETTER NUE|}$2",
+        ],
+        "description": [
+            "Code: U+AA17",
+            "Character/Symbol: ꨗ",
+            "Name: CHAM LETTER NUE",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨘ U+AA18 CHAM LETTER NA": 
+    {
+        "prefix": [
+            "..U.AA18",
+            "..U.CHAM LETTER NA",
+            "U+AA18",
+        ],
+        "body": [
+            "${1|ꨘ,&#xAA18;,U+AA18,0xAA18,CHAM LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+AA18",
+            "Character/Symbol: ꨘ",
+            "Name: CHAM LETTER NA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨙ U+AA19 CHAM LETTER DDA": 
+    {
+        "prefix": [
+            "..U.AA19",
+            "..U.CHAM LETTER DDA",
+            "U+AA19",
+        ],
+        "body": [
+            "${1|ꨙ,&#xAA19;,U+AA19,0xAA19,CHAM LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+AA19",
+            "Character/Symbol: ꨙ",
+            "Name: CHAM LETTER DDA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨚ U+AA1A CHAM LETTER PA": 
+    {
+        "prefix": [
+            "..U.AA1A",
+            "..U.CHAM LETTER PA",
+            "U+AA1A",
+        ],
+        "body": [
+            "${1|ꨚ,&#xAA1A;,U+AA1A,0xAA1A,CHAM LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+AA1A",
+            "Character/Symbol: ꨚ",
+            "Name: CHAM LETTER PA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨛ U+AA1B CHAM LETTER PPA": 
+    {
+        "prefix": [
+            "..U.AA1B",
+            "..U.CHAM LETTER PPA",
+            "U+AA1B",
+        ],
+        "body": [
+            "${1|ꨛ,&#xAA1B;,U+AA1B,0xAA1B,CHAM LETTER PPA|}$2",
+        ],
+        "description": [
+            "Code: U+AA1B",
+            "Character/Symbol: ꨛ",
+            "Name: CHAM LETTER PPA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨜ U+AA1C CHAM LETTER PHA": 
+    {
+        "prefix": [
+            "..U.AA1C",
+            "..U.CHAM LETTER PHA",
+            "U+AA1C",
+        ],
+        "body": [
+            "${1|ꨜ,&#xAA1C;,U+AA1C,0xAA1C,CHAM LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+AA1C",
+            "Character/Symbol: ꨜ",
+            "Name: CHAM LETTER PHA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨝ U+AA1D CHAM LETTER BA": 
+    {
+        "prefix": [
+            "..U.AA1D",
+            "..U.CHAM LETTER BA",
+            "U+AA1D",
+        ],
+        "body": [
+            "${1|ꨝ,&#xAA1D;,U+AA1D,0xAA1D,CHAM LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+AA1D",
+            "Character/Symbol: ꨝ",
+            "Name: CHAM LETTER BA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨞ U+AA1E CHAM LETTER BHA": 
+    {
+        "prefix": [
+            "..U.AA1E",
+            "..U.CHAM LETTER BHA",
+            "U+AA1E",
+        ],
+        "body": [
+            "${1|ꨞ,&#xAA1E;,U+AA1E,0xAA1E,CHAM LETTER BHA|}$2",
+        ],
+        "description": [
+            "Code: U+AA1E",
+            "Character/Symbol: ꨞ",
+            "Name: CHAM LETTER BHA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨟ U+AA1F CHAM LETTER MUE": 
+    {
+        "prefix": [
+            "..U.AA1F",
+            "..U.CHAM LETTER MUE",
+            "U+AA1F",
+        ],
+        "body": [
+            "${1|ꨟ,&#xAA1F;,U+AA1F,0xAA1F,CHAM LETTER MUE|}$2",
+        ],
+        "description": [
+            "Code: U+AA1F",
+            "Character/Symbol: ꨟ",
+            "Name: CHAM LETTER MUE",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨠ U+AA20 CHAM LETTER MA": 
+    {
+        "prefix": [
+            "..U.AA20",
+            "..U.CHAM LETTER MA",
+            "U+AA20",
+        ],
+        "body": [
+            "${1|ꨠ,&#xAA20;,U+AA20,0xAA20,CHAM LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+AA20",
+            "Character/Symbol: ꨠ",
+            "Name: CHAM LETTER MA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨡ U+AA21 CHAM LETTER BBA": 
+    {
+        "prefix": [
+            "..U.AA21",
+            "..U.CHAM LETTER BBA",
+            "U+AA21",
+        ],
+        "body": [
+            "${1|ꨡ,&#xAA21;,U+AA21,0xAA21,CHAM LETTER BBA|}$2",
+        ],
+        "description": [
+            "Code: U+AA21",
+            "Character/Symbol: ꨡ",
+            "Name: CHAM LETTER BBA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨢ U+AA22 CHAM LETTER YA": 
+    {
+        "prefix": [
+            "..U.AA22",
+            "..U.CHAM LETTER YA",
+            "U+AA22",
+        ],
+        "body": [
+            "${1|ꨢ,&#xAA22;,U+AA22,0xAA22,CHAM LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+AA22",
+            "Character/Symbol: ꨢ",
+            "Name: CHAM LETTER YA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨣ U+AA23 CHAM LETTER RA": 
+    {
+        "prefix": [
+            "..U.AA23",
+            "..U.CHAM LETTER RA",
+            "U+AA23",
+        ],
+        "body": [
+            "${1|ꨣ,&#xAA23;,U+AA23,0xAA23,CHAM LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+AA23",
+            "Character/Symbol: ꨣ",
+            "Name: CHAM LETTER RA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨤ U+AA24 CHAM LETTER LA": 
+    {
+        "prefix": [
+            "..U.AA24",
+            "..U.CHAM LETTER LA",
+            "U+AA24",
+        ],
+        "body": [
+            "${1|ꨤ,&#xAA24;,U+AA24,0xAA24,CHAM LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+AA24",
+            "Character/Symbol: ꨤ",
+            "Name: CHAM LETTER LA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨥ U+AA25 CHAM LETTER VA": 
+    {
+        "prefix": [
+            "..U.AA25",
+            "..U.CHAM LETTER VA",
+            "U+AA25",
+        ],
+        "body": [
+            "${1|ꨥ,&#xAA25;,U+AA25,0xAA25,CHAM LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+AA25",
+            "Character/Symbol: ꨥ",
+            "Name: CHAM LETTER VA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨦ U+AA26 CHAM LETTER SSA": 
+    {
+        "prefix": [
+            "..U.AA26",
+            "..U.CHAM LETTER SSA",
+            "U+AA26",
+        ],
+        "body": [
+            "${1|ꨦ,&#xAA26;,U+AA26,0xAA26,CHAM LETTER SSA|}$2",
+        ],
+        "description": [
+            "Code: U+AA26",
+            "Character/Symbol: ꨦ",
+            "Name: CHAM LETTER SSA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨧ U+AA27 CHAM LETTER SA": 
+    {
+        "prefix": [
+            "..U.AA27",
+            "..U.CHAM LETTER SA",
+            "U+AA27",
+        ],
+        "body": [
+            "${1|ꨧ,&#xAA27;,U+AA27,0xAA27,CHAM LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+AA27",
+            "Character/Symbol: ꨧ",
+            "Name: CHAM LETTER SA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨨ U+AA28 CHAM LETTER HA": 
+    {
+        "prefix": [
+            "..U.AA28",
+            "..U.CHAM LETTER HA",
+            "U+AA28",
+        ],
+        "body": [
+            "${1|ꨨ,&#xAA28;,U+AA28,0xAA28,CHAM LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+AA28",
+            "Character/Symbol: ꨨ",
+            "Name: CHAM LETTER HA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨩ U+AA29 CHAM VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.AA29",
+            "..U.CHAM VOWEL SIGN AA",
+            "U+AA29",
+        ],
+        "body": [
+            "${1|ꨩ,&#xAA29;,U+AA29,0xAA29,CHAM VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+AA29",
+            "Character/Symbol: ꨩ",
+            "Name: CHAM VOWEL SIGN AA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨪ U+AA2A CHAM VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.AA2A",
+            "..U.CHAM VOWEL SIGN I",
+            "U+AA2A",
+        ],
+        "body": [
+            "${1|ꨪ,&#xAA2A;,U+AA2A,0xAA2A,CHAM VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+AA2A",
+            "Character/Symbol: ꨪ",
+            "Name: CHAM VOWEL SIGN I",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨫ U+AA2B CHAM VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.AA2B",
+            "..U.CHAM VOWEL SIGN II",
+            "U+AA2B",
+        ],
+        "body": [
+            "${1|ꨫ,&#xAA2B;,U+AA2B,0xAA2B,CHAM VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+AA2B",
+            "Character/Symbol: ꨫ",
+            "Name: CHAM VOWEL SIGN II",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨬ U+AA2C CHAM VOWEL SIGN EI": 
+    {
+        "prefix": [
+            "..U.AA2C",
+            "..U.CHAM VOWEL SIGN EI",
+            "U+AA2C",
+        ],
+        "body": [
+            "${1|ꨬ,&#xAA2C;,U+AA2C,0xAA2C,CHAM VOWEL SIGN EI|}$2",
+        ],
+        "description": [
+            "Code: U+AA2C",
+            "Character/Symbol: ꨬ",
+            "Name: CHAM VOWEL SIGN EI",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨭ U+AA2D CHAM VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.AA2D",
+            "..U.CHAM VOWEL SIGN U",
+            "U+AA2D",
+        ],
+        "body": [
+            "${1|ꨭ,&#xAA2D;,U+AA2D,0xAA2D,CHAM VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+AA2D",
+            "Character/Symbol: ꨭ",
+            "Name: CHAM VOWEL SIGN U",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨮ U+AA2E CHAM VOWEL SIGN OE": 
+    {
+        "prefix": [
+            "..U.AA2E",
+            "..U.CHAM VOWEL SIGN OE",
+            "U+AA2E",
+        ],
+        "body": [
+            "${1|ꨮ,&#xAA2E;,U+AA2E,0xAA2E,CHAM VOWEL SIGN OE|}$2",
+        ],
+        "description": [
+            "Code: U+AA2E",
+            "Character/Symbol: ꨮ",
+            "Name: CHAM VOWEL SIGN OE",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨯ U+AA2F CHAM VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.AA2F",
+            "..U.CHAM VOWEL SIGN O",
+            "U+AA2F",
+        ],
+        "body": [
+            "${1|ꨯ,&#xAA2F;,U+AA2F,0xAA2F,CHAM VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+AA2F",
+            "Character/Symbol: ꨯ",
+            "Name: CHAM VOWEL SIGN O",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨰ U+AA30 CHAM VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.AA30",
+            "..U.CHAM VOWEL SIGN AI",
+            "U+AA30",
+        ],
+        "body": [
+            "${1|ꨰ,&#xAA30;,U+AA30,0xAA30,CHAM VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+AA30",
+            "Character/Symbol: ꨰ",
+            "Name: CHAM VOWEL SIGN AI",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨱ U+AA31 CHAM VOWEL SIGN AU": 
+    {
+        "prefix": [
+            "..U.AA31",
+            "..U.CHAM VOWEL SIGN AU",
+            "U+AA31",
+        ],
+        "body": [
+            "${1|ꨱ,&#xAA31;,U+AA31,0xAA31,CHAM VOWEL SIGN AU|}$2",
+        ],
+        "description": [
+            "Code: U+AA31",
+            "Character/Symbol: ꨱ",
+            "Name: CHAM VOWEL SIGN AU",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨲ U+AA32 CHAM VOWEL SIGN UE": 
+    {
+        "prefix": [
+            "..U.AA32",
+            "..U.CHAM VOWEL SIGN UE",
+            "U+AA32",
+        ],
+        "body": [
+            "${1|ꨲ,&#xAA32;,U+AA32,0xAA32,CHAM VOWEL SIGN UE|}$2",
+        ],
+        "description": [
+            "Code: U+AA32",
+            "Character/Symbol: ꨲ",
+            "Name: CHAM VOWEL SIGN UE",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨳ U+AA33 CHAM CONSONANT SIGN YA": 
+    {
+        "prefix": [
+            "..U.AA33",
+            "..U.CHAM CONSONANT SIGN YA",
+            "U+AA33",
+        ],
+        "body": [
+            "${1|ꨳ,&#xAA33;,U+AA33,0xAA33,CHAM CONSONANT SIGN YA|}$2",
+        ],
+        "description": [
+            "Code: U+AA33",
+            "Character/Symbol: ꨳ",
+            "Name: CHAM CONSONANT SIGN YA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨴ U+AA34 CHAM CONSONANT SIGN RA": 
+    {
+        "prefix": [
+            "..U.AA34",
+            "..U.CHAM CONSONANT SIGN RA",
+            "U+AA34",
+        ],
+        "body": [
+            "${1|ꨴ,&#xAA34;,U+AA34,0xAA34,CHAM CONSONANT SIGN RA|}$2",
+        ],
+        "description": [
+            "Code: U+AA34",
+            "Character/Symbol: ꨴ",
+            "Name: CHAM CONSONANT SIGN RA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨵ U+AA35 CHAM CONSONANT SIGN LA": 
+    {
+        "prefix": [
+            "..U.AA35",
+            "..U.CHAM CONSONANT SIGN LA",
+            "U+AA35",
+        ],
+        "body": [
+            "${1|ꨵ,&#xAA35;,U+AA35,0xAA35,CHAM CONSONANT SIGN LA|}$2",
+        ],
+        "description": [
+            "Code: U+AA35",
+            "Character/Symbol: ꨵ",
+            "Name: CHAM CONSONANT SIGN LA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꨶ U+AA36 CHAM CONSONANT SIGN WA": 
+    {
+        "prefix": [
+            "..U.AA36",
+            "..U.CHAM CONSONANT SIGN WA",
+            "U+AA36",
+        ],
+        "body": [
+            "${1|ꨶ,&#xAA36;,U+AA36,0xAA36,CHAM CONSONANT SIGN WA|}$2",
+        ],
+        "description": [
+            "Code: U+AA36",
+            "Character/Symbol: ꨶ",
+            "Name: CHAM CONSONANT SIGN WA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩀ U+AA40 CHAM LETTER FINAL K": 
+    {
+        "prefix": [
+            "..U.AA40",
+            "..U.CHAM LETTER FINAL K",
+            "U+AA40",
+        ],
+        "body": [
+            "${1|ꩀ,&#xAA40;,U+AA40,0xAA40,CHAM LETTER FINAL K|}$2",
+        ],
+        "description": [
+            "Code: U+AA40",
+            "Character/Symbol: ꩀ",
+            "Name: CHAM LETTER FINAL K",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩁ U+AA41 CHAM LETTER FINAL G": 
+    {
+        "prefix": [
+            "..U.AA41",
+            "..U.CHAM LETTER FINAL G",
+            "U+AA41",
+        ],
+        "body": [
+            "${1|ꩁ,&#xAA41;,U+AA41,0xAA41,CHAM LETTER FINAL G|}$2",
+        ],
+        "description": [
+            "Code: U+AA41",
+            "Character/Symbol: ꩁ",
+            "Name: CHAM LETTER FINAL G",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩂ U+AA42 CHAM LETTER FINAL NG": 
+    {
+        "prefix": [
+            "..U.AA42",
+            "..U.CHAM LETTER FINAL NG",
+            "U+AA42",
+        ],
+        "body": [
+            "${1|ꩂ,&#xAA42;,U+AA42,0xAA42,CHAM LETTER FINAL NG|}$2",
+        ],
+        "description": [
+            "Code: U+AA42",
+            "Character/Symbol: ꩂ",
+            "Name: CHAM LETTER FINAL NG",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩃ U+AA43 CHAM CONSONANT SIGN FINAL NG": 
+    {
+        "prefix": [
+            "..U.AA43",
+            "..U.CHAM CONSONANT SIGN FINAL NG",
+            "U+AA43",
+        ],
+        "body": [
+            "${1|ꩃ,&#xAA43;,U+AA43,0xAA43,CHAM CONSONANT SIGN FINAL NG|}$2",
+        ],
+        "description": [
+            "Code: U+AA43",
+            "Character/Symbol: ꩃ",
+            "Name: CHAM CONSONANT SIGN FINAL NG",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩄ U+AA44 CHAM LETTER FINAL CH": 
+    {
+        "prefix": [
+            "..U.AA44",
+            "..U.CHAM LETTER FINAL CH",
+            "U+AA44",
+        ],
+        "body": [
+            "${1|ꩄ,&#xAA44;,U+AA44,0xAA44,CHAM LETTER FINAL CH|}$2",
+        ],
+        "description": [
+            "Code: U+AA44",
+            "Character/Symbol: ꩄ",
+            "Name: CHAM LETTER FINAL CH",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩅ U+AA45 CHAM LETTER FINAL T": 
+    {
+        "prefix": [
+            "..U.AA45",
+            "..U.CHAM LETTER FINAL T",
+            "U+AA45",
+        ],
+        "body": [
+            "${1|ꩅ,&#xAA45;,U+AA45,0xAA45,CHAM LETTER FINAL T|}$2",
+        ],
+        "description": [
+            "Code: U+AA45",
+            "Character/Symbol: ꩅ",
+            "Name: CHAM LETTER FINAL T",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩆ U+AA46 CHAM LETTER FINAL N": 
+    {
+        "prefix": [
+            "..U.AA46",
+            "..U.CHAM LETTER FINAL N",
+            "U+AA46",
+        ],
+        "body": [
+            "${1|ꩆ,&#xAA46;,U+AA46,0xAA46,CHAM LETTER FINAL N|}$2",
+        ],
+        "description": [
+            "Code: U+AA46",
+            "Character/Symbol: ꩆ",
+            "Name: CHAM LETTER FINAL N",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩇ U+AA47 CHAM LETTER FINAL P": 
+    {
+        "prefix": [
+            "..U.AA47",
+            "..U.CHAM LETTER FINAL P",
+            "U+AA47",
+        ],
+        "body": [
+            "${1|ꩇ,&#xAA47;,U+AA47,0xAA47,CHAM LETTER FINAL P|}$2",
+        ],
+        "description": [
+            "Code: U+AA47",
+            "Character/Symbol: ꩇ",
+            "Name: CHAM LETTER FINAL P",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩈ U+AA48 CHAM LETTER FINAL Y": 
+    {
+        "prefix": [
+            "..U.AA48",
+            "..U.CHAM LETTER FINAL Y",
+            "U+AA48",
+        ],
+        "body": [
+            "${1|ꩈ,&#xAA48;,U+AA48,0xAA48,CHAM LETTER FINAL Y|}$2",
+        ],
+        "description": [
+            "Code: U+AA48",
+            "Character/Symbol: ꩈ",
+            "Name: CHAM LETTER FINAL Y",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩉ U+AA49 CHAM LETTER FINAL R": 
+    {
+        "prefix": [
+            "..U.AA49",
+            "..U.CHAM LETTER FINAL R",
+            "U+AA49",
+        ],
+        "body": [
+            "${1|ꩉ,&#xAA49;,U+AA49,0xAA49,CHAM LETTER FINAL R|}$2",
+        ],
+        "description": [
+            "Code: U+AA49",
+            "Character/Symbol: ꩉ",
+            "Name: CHAM LETTER FINAL R",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩊ U+AA4A CHAM LETTER FINAL L": 
+    {
+        "prefix": [
+            "..U.AA4A",
+            "..U.CHAM LETTER FINAL L",
+            "U+AA4A",
+        ],
+        "body": [
+            "${1|ꩊ,&#xAA4A;,U+AA4A,0xAA4A,CHAM LETTER FINAL L|}$2",
+        ],
+        "description": [
+            "Code: U+AA4A",
+            "Character/Symbol: ꩊ",
+            "Name: CHAM LETTER FINAL L",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩋ U+AA4B CHAM LETTER FINAL SS": 
+    {
+        "prefix": [
+            "..U.AA4B",
+            "..U.CHAM LETTER FINAL SS",
+            "U+AA4B",
+        ],
+        "body": [
+            "${1|ꩋ,&#xAA4B;,U+AA4B,0xAA4B,CHAM LETTER FINAL SS|}$2",
+        ],
+        "description": [
+            "Code: U+AA4B",
+            "Character/Symbol: ꩋ",
+            "Name: CHAM LETTER FINAL SS",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩌ U+AA4C CHAM CONSONANT SIGN FINAL M": 
+    {
+        "prefix": [
+            "..U.AA4C",
+            "..U.CHAM CONSONANT SIGN FINAL M",
+            "U+AA4C",
+        ],
+        "body": [
+            "${1|ꩌ,&#xAA4C;,U+AA4C,0xAA4C,CHAM CONSONANT SIGN FINAL M|}$2",
+        ],
+        "description": [
+            "Code: U+AA4C",
+            "Character/Symbol: ꩌ",
+            "Name: CHAM CONSONANT SIGN FINAL M",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩍ U+AA4D CHAM CONSONANT SIGN FINAL H": 
+    {
+        "prefix": [
+            "..U.AA4D",
+            "..U.CHAM CONSONANT SIGN FINAL H",
+            "U+AA4D",
+        ],
+        "body": [
+            "${1|ꩍ,&#xAA4D;,U+AA4D,0xAA4D,CHAM CONSONANT SIGN FINAL H|}$2",
+        ],
+        "description": [
+            "Code: U+AA4D",
+            "Character/Symbol: ꩍ",
+            "Name: CHAM CONSONANT SIGN FINAL H",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩐ U+AA50 CHAM DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.AA50",
+            "..U.CHAM DIGIT ZERO",
+            "U+AA50",
+        ],
+        "body": [
+            "${1|꩐,&#xAA50;,U+AA50,0xAA50,CHAM DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+AA50",
+            "Character/Symbol: ꩐",
+            "Name: CHAM DIGIT ZERO",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩑ U+AA51 CHAM DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.AA51",
+            "..U.CHAM DIGIT ONE",
+            "U+AA51",
+        ],
+        "body": [
+            "${1|꩑,&#xAA51;,U+AA51,0xAA51,CHAM DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+AA51",
+            "Character/Symbol: ꩑",
+            "Name: CHAM DIGIT ONE",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩒ U+AA52 CHAM DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.AA52",
+            "..U.CHAM DIGIT TWO",
+            "U+AA52",
+        ],
+        "body": [
+            "${1|꩒,&#xAA52;,U+AA52,0xAA52,CHAM DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+AA52",
+            "Character/Symbol: ꩒",
+            "Name: CHAM DIGIT TWO",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩓ U+AA53 CHAM DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.AA53",
+            "..U.CHAM DIGIT THREE",
+            "U+AA53",
+        ],
+        "body": [
+            "${1|꩓,&#xAA53;,U+AA53,0xAA53,CHAM DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+AA53",
+            "Character/Symbol: ꩓",
+            "Name: CHAM DIGIT THREE",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩔ U+AA54 CHAM DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.AA54",
+            "..U.CHAM DIGIT FOUR",
+            "U+AA54",
+        ],
+        "body": [
+            "${1|꩔,&#xAA54;,U+AA54,0xAA54,CHAM DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+AA54",
+            "Character/Symbol: ꩔",
+            "Name: CHAM DIGIT FOUR",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩕ U+AA55 CHAM DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.AA55",
+            "..U.CHAM DIGIT FIVE",
+            "U+AA55",
+        ],
+        "body": [
+            "${1|꩕,&#xAA55;,U+AA55,0xAA55,CHAM DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+AA55",
+            "Character/Symbol: ꩕",
+            "Name: CHAM DIGIT FIVE",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩖ U+AA56 CHAM DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.AA56",
+            "..U.CHAM DIGIT SIX",
+            "U+AA56",
+        ],
+        "body": [
+            "${1|꩖,&#xAA56;,U+AA56,0xAA56,CHAM DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+AA56",
+            "Character/Symbol: ꩖",
+            "Name: CHAM DIGIT SIX",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩗ U+AA57 CHAM DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.AA57",
+            "..U.CHAM DIGIT SEVEN",
+            "U+AA57",
+        ],
+        "body": [
+            "${1|꩗,&#xAA57;,U+AA57,0xAA57,CHAM DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+AA57",
+            "Character/Symbol: ꩗",
+            "Name: CHAM DIGIT SEVEN",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩘ U+AA58 CHAM DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.AA58",
+            "..U.CHAM DIGIT EIGHT",
+            "U+AA58",
+        ],
+        "body": [
+            "${1|꩘,&#xAA58;,U+AA58,0xAA58,CHAM DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+AA58",
+            "Character/Symbol: ꩘",
+            "Name: CHAM DIGIT EIGHT",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩙ U+AA59 CHAM DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.AA59",
+            "..U.CHAM DIGIT NINE",
+            "U+AA59",
+        ],
+        "body": [
+            "${1|꩙,&#xAA59;,U+AA59,0xAA59,CHAM DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+AA59",
+            "Character/Symbol: ꩙",
+            "Name: CHAM DIGIT NINE",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩜ U+AA5C CHAM PUNCTUATION SPIRAL": 
+    {
+        "prefix": [
+            "..U.AA5C",
+            "..U.CHAM PUNCTUATION SPIRAL",
+            "U+AA5C",
+        ],
+        "body": [
+            "${1|꩜,&#xAA5C;,U+AA5C,0xAA5C,CHAM PUNCTUATION SPIRAL|}$2",
+        ],
+        "description": [
+            "Code: U+AA5C",
+            "Character/Symbol: ꩜",
+            "Name: CHAM PUNCTUATION SPIRAL",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩝ U+AA5D CHAM PUNCTUATION DANDA": 
+    {
+        "prefix": [
+            "..U.AA5D",
+            "..U.CHAM PUNCTUATION DANDA",
+            "U+AA5D",
+        ],
+        "body": [
+            "${1|꩝,&#xAA5D;,U+AA5D,0xAA5D,CHAM PUNCTUATION DANDA|}$2",
+        ],
+        "description": [
+            "Code: U+AA5D",
+            "Character/Symbol: ꩝",
+            "Name: CHAM PUNCTUATION DANDA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩞ U+AA5E CHAM PUNCTUATION DOUBLE DANDA": 
+    {
+        "prefix": [
+            "..U.AA5E",
+            "..U.CHAM PUNCTUATION DOUBLE DANDA",
+            "U+AA5E",
+        ],
+        "body": [
+            "${1|꩞,&#xAA5E;,U+AA5E,0xAA5E,CHAM PUNCTUATION DOUBLE DANDA|}$2",
+        ],
+        "description": [
+            "Code: U+AA5E",
+            "Character/Symbol: ꩞",
+            "Name: CHAM PUNCTUATION DOUBLE DANDA",
+            "Group/Block: Cham",
+        ],
+    },
+
+    "Unicode ꩟ U+AA5F CHAM PUNCTUATION TRIPLE DANDA": 
+    {
+        "prefix": [
+            "..U.AA5F",
+            "..U.CHAM PUNCTUATION TRIPLE DANDA",
+            "U+AA5F",
+        ],
+        "body": [
+            "${1|꩟,&#xAA5F;,U+AA5F,0xAA5F,CHAM PUNCTUATION TRIPLE DANDA|}$2",
+        ],
+        "description": [
+            "Code: U+AA5F",
+            "Character/Symbol: ꩟",
+            "Name: CHAM PUNCTUATION TRIPLE DANDA",
+            "Group/Block: Cham",
+        ],
+    },
+
+}

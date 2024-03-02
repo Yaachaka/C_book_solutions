@@ -1,0 +1,1658 @@
+{
+    "Unicode Ꭰ U+13A0 CHEROKEE LETTER A": 
+    {
+        "prefix": [
+            "..U.13A0",
+            "..U.CHEROKEE LETTER A",
+            "U+13A0",
+        ],
+        "body": [
+            "${1|Ꭰ,&#x13A0;,U+13A0,0x13A0,CHEROKEE LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+13A0",
+            "Character/Symbol: Ꭰ",
+            "Name: CHEROKEE LETTER A",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭱ U+13A1 CHEROKEE LETTER E": 
+    {
+        "prefix": [
+            "..U.13A1",
+            "..U.CHEROKEE LETTER E",
+            "U+13A1",
+        ],
+        "body": [
+            "${1|Ꭱ,&#x13A1;,U+13A1,0x13A1,CHEROKEE LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+13A1",
+            "Character/Symbol: Ꭱ",
+            "Name: CHEROKEE LETTER E",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭲ U+13A2 CHEROKEE LETTER I": 
+    {
+        "prefix": [
+            "..U.13A2",
+            "..U.CHEROKEE LETTER I",
+            "U+13A2",
+        ],
+        "body": [
+            "${1|Ꭲ,&#x13A2;,U+13A2,0x13A2,CHEROKEE LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+13A2",
+            "Character/Symbol: Ꭲ",
+            "Name: CHEROKEE LETTER I",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭳ U+13A3 CHEROKEE LETTER O": 
+    {
+        "prefix": [
+            "..U.13A3",
+            "..U.CHEROKEE LETTER O",
+            "U+13A3",
+        ],
+        "body": [
+            "${1|Ꭳ,&#x13A3;,U+13A3,0x13A3,CHEROKEE LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+13A3",
+            "Character/Symbol: Ꭳ",
+            "Name: CHEROKEE LETTER O",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭴ U+13A4 CHEROKEE LETTER U": 
+    {
+        "prefix": [
+            "..U.13A4",
+            "..U.CHEROKEE LETTER U",
+            "U+13A4",
+        ],
+        "body": [
+            "${1|Ꭴ,&#x13A4;,U+13A4,0x13A4,CHEROKEE LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+13A4",
+            "Character/Symbol: Ꭴ",
+            "Name: CHEROKEE LETTER U",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭵ U+13A5 CHEROKEE LETTER V": 
+    {
+        "prefix": [
+            "..U.13A5",
+            "..U.CHEROKEE LETTER V",
+            "U+13A5",
+        ],
+        "body": [
+            "${1|Ꭵ,&#x13A5;,U+13A5,0x13A5,CHEROKEE LETTER V|}$2",
+        ],
+        "description": [
+            "Code: U+13A5",
+            "Character/Symbol: Ꭵ",
+            "Name: CHEROKEE LETTER V",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭶ U+13A6 CHEROKEE LETTER GA": 
+    {
+        "prefix": [
+            "..U.13A6",
+            "..U.CHEROKEE LETTER GA",
+            "U+13A6",
+        ],
+        "body": [
+            "${1|Ꭶ,&#x13A6;,U+13A6,0x13A6,CHEROKEE LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+13A6",
+            "Character/Symbol: Ꭶ",
+            "Name: CHEROKEE LETTER GA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭷ U+13A7 CHEROKEE LETTER KA": 
+    {
+        "prefix": [
+            "..U.13A7",
+            "..U.CHEROKEE LETTER KA",
+            "U+13A7",
+        ],
+        "body": [
+            "${1|Ꭷ,&#x13A7;,U+13A7,0x13A7,CHEROKEE LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+13A7",
+            "Character/Symbol: Ꭷ",
+            "Name: CHEROKEE LETTER KA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭸ U+13A8 CHEROKEE LETTER GE": 
+    {
+        "prefix": [
+            "..U.13A8",
+            "..U.CHEROKEE LETTER GE",
+            "U+13A8",
+        ],
+        "body": [
+            "${1|Ꭸ,&#x13A8;,U+13A8,0x13A8,CHEROKEE LETTER GE|}$2",
+        ],
+        "description": [
+            "Code: U+13A8",
+            "Character/Symbol: Ꭸ",
+            "Name: CHEROKEE LETTER GE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭹ U+13A9 CHEROKEE LETTER GI": 
+    {
+        "prefix": [
+            "..U.13A9",
+            "..U.CHEROKEE LETTER GI",
+            "U+13A9",
+        ],
+        "body": [
+            "${1|Ꭹ,&#x13A9;,U+13A9,0x13A9,CHEROKEE LETTER GI|}$2",
+        ],
+        "description": [
+            "Code: U+13A9",
+            "Character/Symbol: Ꭹ",
+            "Name: CHEROKEE LETTER GI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭺ U+13AA CHEROKEE LETTER GO": 
+    {
+        "prefix": [
+            "..U.13AA",
+            "..U.CHEROKEE LETTER GO",
+            "U+13AA",
+        ],
+        "body": [
+            "${1|Ꭺ,&#x13AA;,U+13AA,0x13AA,CHEROKEE LETTER GO|}$2",
+        ],
+        "description": [
+            "Code: U+13AA",
+            "Character/Symbol: Ꭺ",
+            "Name: CHEROKEE LETTER GO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭻ U+13AB CHEROKEE LETTER GU": 
+    {
+        "prefix": [
+            "..U.13AB",
+            "..U.CHEROKEE LETTER GU",
+            "U+13AB",
+        ],
+        "body": [
+            "${1|Ꭻ,&#x13AB;,U+13AB,0x13AB,CHEROKEE LETTER GU|}$2",
+        ],
+        "description": [
+            "Code: U+13AB",
+            "Character/Symbol: Ꭻ",
+            "Name: CHEROKEE LETTER GU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭼ U+13AC CHEROKEE LETTER GV": 
+    {
+        "prefix": [
+            "..U.13AC",
+            "..U.CHEROKEE LETTER GV",
+            "U+13AC",
+        ],
+        "body": [
+            "${1|Ꭼ,&#x13AC;,U+13AC,0x13AC,CHEROKEE LETTER GV|}$2",
+        ],
+        "description": [
+            "Code: U+13AC",
+            "Character/Symbol: Ꭼ",
+            "Name: CHEROKEE LETTER GV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭽ U+13AD CHEROKEE LETTER HA": 
+    {
+        "prefix": [
+            "..U.13AD",
+            "..U.CHEROKEE LETTER HA",
+            "U+13AD",
+        ],
+        "body": [
+            "${1|Ꭽ,&#x13AD;,U+13AD,0x13AD,CHEROKEE LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+13AD",
+            "Character/Symbol: Ꭽ",
+            "Name: CHEROKEE LETTER HA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭾ U+13AE CHEROKEE LETTER HE": 
+    {
+        "prefix": [
+            "..U.13AE",
+            "..U.CHEROKEE LETTER HE",
+            "U+13AE",
+        ],
+        "body": [
+            "${1|Ꭾ,&#x13AE;,U+13AE,0x13AE,CHEROKEE LETTER HE|}$2",
+        ],
+        "description": [
+            "Code: U+13AE",
+            "Character/Symbol: Ꭾ",
+            "Name: CHEROKEE LETTER HE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꭿ U+13AF CHEROKEE LETTER HI": 
+    {
+        "prefix": [
+            "..U.13AF",
+            "..U.CHEROKEE LETTER HI",
+            "U+13AF",
+        ],
+        "body": [
+            "${1|Ꭿ,&#x13AF;,U+13AF,0x13AF,CHEROKEE LETTER HI|}$2",
+        ],
+        "description": [
+            "Code: U+13AF",
+            "Character/Symbol: Ꭿ",
+            "Name: CHEROKEE LETTER HI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮀ U+13B0 CHEROKEE LETTER HO": 
+    {
+        "prefix": [
+            "..U.13B0",
+            "..U.CHEROKEE LETTER HO",
+            "U+13B0",
+        ],
+        "body": [
+            "${1|Ꮀ,&#x13B0;,U+13B0,0x13B0,CHEROKEE LETTER HO|}$2",
+        ],
+        "description": [
+            "Code: U+13B0",
+            "Character/Symbol: Ꮀ",
+            "Name: CHEROKEE LETTER HO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮁ U+13B1 CHEROKEE LETTER HU": 
+    {
+        "prefix": [
+            "..U.13B1",
+            "..U.CHEROKEE LETTER HU",
+            "U+13B1",
+        ],
+        "body": [
+            "${1|Ꮁ,&#x13B1;,U+13B1,0x13B1,CHEROKEE LETTER HU|}$2",
+        ],
+        "description": [
+            "Code: U+13B1",
+            "Character/Symbol: Ꮁ",
+            "Name: CHEROKEE LETTER HU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮂ U+13B2 CHEROKEE LETTER HV": 
+    {
+        "prefix": [
+            "..U.13B2",
+            "..U.CHEROKEE LETTER HV",
+            "U+13B2",
+        ],
+        "body": [
+            "${1|Ꮂ,&#x13B2;,U+13B2,0x13B2,CHEROKEE LETTER HV|}$2",
+        ],
+        "description": [
+            "Code: U+13B2",
+            "Character/Symbol: Ꮂ",
+            "Name: CHEROKEE LETTER HV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮃ U+13B3 CHEROKEE LETTER LA": 
+    {
+        "prefix": [
+            "..U.13B3",
+            "..U.CHEROKEE LETTER LA",
+            "U+13B3",
+        ],
+        "body": [
+            "${1|Ꮃ,&#x13B3;,U+13B3,0x13B3,CHEROKEE LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+13B3",
+            "Character/Symbol: Ꮃ",
+            "Name: CHEROKEE LETTER LA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮄ U+13B4 CHEROKEE LETTER LE": 
+    {
+        "prefix": [
+            "..U.13B4",
+            "..U.CHEROKEE LETTER LE",
+            "U+13B4",
+        ],
+        "body": [
+            "${1|Ꮄ,&#x13B4;,U+13B4,0x13B4,CHEROKEE LETTER LE|}$2",
+        ],
+        "description": [
+            "Code: U+13B4",
+            "Character/Symbol: Ꮄ",
+            "Name: CHEROKEE LETTER LE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮅ U+13B5 CHEROKEE LETTER LI": 
+    {
+        "prefix": [
+            "..U.13B5",
+            "..U.CHEROKEE LETTER LI",
+            "U+13B5",
+        ],
+        "body": [
+            "${1|Ꮅ,&#x13B5;,U+13B5,0x13B5,CHEROKEE LETTER LI|}$2",
+        ],
+        "description": [
+            "Code: U+13B5",
+            "Character/Symbol: Ꮅ",
+            "Name: CHEROKEE LETTER LI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮆ U+13B6 CHEROKEE LETTER LO": 
+    {
+        "prefix": [
+            "..U.13B6",
+            "..U.CHEROKEE LETTER LO",
+            "U+13B6",
+        ],
+        "body": [
+            "${1|Ꮆ,&#x13B6;,U+13B6,0x13B6,CHEROKEE LETTER LO|}$2",
+        ],
+        "description": [
+            "Code: U+13B6",
+            "Character/Symbol: Ꮆ",
+            "Name: CHEROKEE LETTER LO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮇ U+13B7 CHEROKEE LETTER LU": 
+    {
+        "prefix": [
+            "..U.13B7",
+            "..U.CHEROKEE LETTER LU",
+            "U+13B7",
+        ],
+        "body": [
+            "${1|Ꮇ,&#x13B7;,U+13B7,0x13B7,CHEROKEE LETTER LU|}$2",
+        ],
+        "description": [
+            "Code: U+13B7",
+            "Character/Symbol: Ꮇ",
+            "Name: CHEROKEE LETTER LU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮈ U+13B8 CHEROKEE LETTER LV": 
+    {
+        "prefix": [
+            "..U.13B8",
+            "..U.CHEROKEE LETTER LV",
+            "U+13B8",
+        ],
+        "body": [
+            "${1|Ꮈ,&#x13B8;,U+13B8,0x13B8,CHEROKEE LETTER LV|}$2",
+        ],
+        "description": [
+            "Code: U+13B8",
+            "Character/Symbol: Ꮈ",
+            "Name: CHEROKEE LETTER LV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮉ U+13B9 CHEROKEE LETTER MA": 
+    {
+        "prefix": [
+            "..U.13B9",
+            "..U.CHEROKEE LETTER MA",
+            "U+13B9",
+        ],
+        "body": [
+            "${1|Ꮉ,&#x13B9;,U+13B9,0x13B9,CHEROKEE LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+13B9",
+            "Character/Symbol: Ꮉ",
+            "Name: CHEROKEE LETTER MA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮊ U+13BA CHEROKEE LETTER ME": 
+    {
+        "prefix": [
+            "..U.13BA",
+            "..U.CHEROKEE LETTER ME",
+            "U+13BA",
+        ],
+        "body": [
+            "${1|Ꮊ,&#x13BA;,U+13BA,0x13BA,CHEROKEE LETTER ME|}$2",
+        ],
+        "description": [
+            "Code: U+13BA",
+            "Character/Symbol: Ꮊ",
+            "Name: CHEROKEE LETTER ME",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮋ U+13BB CHEROKEE LETTER MI": 
+    {
+        "prefix": [
+            "..U.13BB",
+            "..U.CHEROKEE LETTER MI",
+            "U+13BB",
+        ],
+        "body": [
+            "${1|Ꮋ,&#x13BB;,U+13BB,0x13BB,CHEROKEE LETTER MI|}$2",
+        ],
+        "description": [
+            "Code: U+13BB",
+            "Character/Symbol: Ꮋ",
+            "Name: CHEROKEE LETTER MI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮌ U+13BC CHEROKEE LETTER MO": 
+    {
+        "prefix": [
+            "..U.13BC",
+            "..U.CHEROKEE LETTER MO",
+            "U+13BC",
+        ],
+        "body": [
+            "${1|Ꮌ,&#x13BC;,U+13BC,0x13BC,CHEROKEE LETTER MO|}$2",
+        ],
+        "description": [
+            "Code: U+13BC",
+            "Character/Symbol: Ꮌ",
+            "Name: CHEROKEE LETTER MO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮍ U+13BD CHEROKEE LETTER MU": 
+    {
+        "prefix": [
+            "..U.13BD",
+            "..U.CHEROKEE LETTER MU",
+            "U+13BD",
+        ],
+        "body": [
+            "${1|Ꮍ,&#x13BD;,U+13BD,0x13BD,CHEROKEE LETTER MU|}$2",
+        ],
+        "description": [
+            "Code: U+13BD",
+            "Character/Symbol: Ꮍ",
+            "Name: CHEROKEE LETTER MU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮎ U+13BE CHEROKEE LETTER NA": 
+    {
+        "prefix": [
+            "..U.13BE",
+            "..U.CHEROKEE LETTER NA",
+            "U+13BE",
+        ],
+        "body": [
+            "${1|Ꮎ,&#x13BE;,U+13BE,0x13BE,CHEROKEE LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+13BE",
+            "Character/Symbol: Ꮎ",
+            "Name: CHEROKEE LETTER NA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮏ U+13BF CHEROKEE LETTER HNA": 
+    {
+        "prefix": [
+            "..U.13BF",
+            "..U.CHEROKEE LETTER HNA",
+            "U+13BF",
+        ],
+        "body": [
+            "${1|Ꮏ,&#x13BF;,U+13BF,0x13BF,CHEROKEE LETTER HNA|}$2",
+        ],
+        "description": [
+            "Code: U+13BF",
+            "Character/Symbol: Ꮏ",
+            "Name: CHEROKEE LETTER HNA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮐ U+13C0 CHEROKEE LETTER NAH": 
+    {
+        "prefix": [
+            "..U.13C0",
+            "..U.CHEROKEE LETTER NAH",
+            "U+13C0",
+        ],
+        "body": [
+            "${1|Ꮐ,&#x13C0;,U+13C0,0x13C0,CHEROKEE LETTER NAH|}$2",
+        ],
+        "description": [
+            "Code: U+13C0",
+            "Character/Symbol: Ꮐ",
+            "Name: CHEROKEE LETTER NAH",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮑ U+13C1 CHEROKEE LETTER NE": 
+    {
+        "prefix": [
+            "..U.13C1",
+            "..U.CHEROKEE LETTER NE",
+            "U+13C1",
+        ],
+        "body": [
+            "${1|Ꮑ,&#x13C1;,U+13C1,0x13C1,CHEROKEE LETTER NE|}$2",
+        ],
+        "description": [
+            "Code: U+13C1",
+            "Character/Symbol: Ꮑ",
+            "Name: CHEROKEE LETTER NE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮒ U+13C2 CHEROKEE LETTER NI": 
+    {
+        "prefix": [
+            "..U.13C2",
+            "..U.CHEROKEE LETTER NI",
+            "U+13C2",
+        ],
+        "body": [
+            "${1|Ꮒ,&#x13C2;,U+13C2,0x13C2,CHEROKEE LETTER NI|}$2",
+        ],
+        "description": [
+            "Code: U+13C2",
+            "Character/Symbol: Ꮒ",
+            "Name: CHEROKEE LETTER NI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮓ U+13C3 CHEROKEE LETTER NO": 
+    {
+        "prefix": [
+            "..U.13C3",
+            "..U.CHEROKEE LETTER NO",
+            "U+13C3",
+        ],
+        "body": [
+            "${1|Ꮓ,&#x13C3;,U+13C3,0x13C3,CHEROKEE LETTER NO|}$2",
+        ],
+        "description": [
+            "Code: U+13C3",
+            "Character/Symbol: Ꮓ",
+            "Name: CHEROKEE LETTER NO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮔ U+13C4 CHEROKEE LETTER NU": 
+    {
+        "prefix": [
+            "..U.13C4",
+            "..U.CHEROKEE LETTER NU",
+            "U+13C4",
+        ],
+        "body": [
+            "${1|Ꮔ,&#x13C4;,U+13C4,0x13C4,CHEROKEE LETTER NU|}$2",
+        ],
+        "description": [
+            "Code: U+13C4",
+            "Character/Symbol: Ꮔ",
+            "Name: CHEROKEE LETTER NU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮕ U+13C5 CHEROKEE LETTER NV": 
+    {
+        "prefix": [
+            "..U.13C5",
+            "..U.CHEROKEE LETTER NV",
+            "U+13C5",
+        ],
+        "body": [
+            "${1|Ꮕ,&#x13C5;,U+13C5,0x13C5,CHEROKEE LETTER NV|}$2",
+        ],
+        "description": [
+            "Code: U+13C5",
+            "Character/Symbol: Ꮕ",
+            "Name: CHEROKEE LETTER NV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮖ U+13C6 CHEROKEE LETTER QUA": 
+    {
+        "prefix": [
+            "..U.13C6",
+            "..U.CHEROKEE LETTER QUA",
+            "U+13C6",
+        ],
+        "body": [
+            "${1|Ꮖ,&#x13C6;,U+13C6,0x13C6,CHEROKEE LETTER QUA|}$2",
+        ],
+        "description": [
+            "Code: U+13C6",
+            "Character/Symbol: Ꮖ",
+            "Name: CHEROKEE LETTER QUA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮗ U+13C7 CHEROKEE LETTER QUE": 
+    {
+        "prefix": [
+            "..U.13C7",
+            "..U.CHEROKEE LETTER QUE",
+            "U+13C7",
+        ],
+        "body": [
+            "${1|Ꮗ,&#x13C7;,U+13C7,0x13C7,CHEROKEE LETTER QUE|}$2",
+        ],
+        "description": [
+            "Code: U+13C7",
+            "Character/Symbol: Ꮗ",
+            "Name: CHEROKEE LETTER QUE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮘ U+13C8 CHEROKEE LETTER QUI": 
+    {
+        "prefix": [
+            "..U.13C8",
+            "..U.CHEROKEE LETTER QUI",
+            "U+13C8",
+        ],
+        "body": [
+            "${1|Ꮘ,&#x13C8;,U+13C8,0x13C8,CHEROKEE LETTER QUI|}$2",
+        ],
+        "description": [
+            "Code: U+13C8",
+            "Character/Symbol: Ꮘ",
+            "Name: CHEROKEE LETTER QUI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮙ U+13C9 CHEROKEE LETTER QUO": 
+    {
+        "prefix": [
+            "..U.13C9",
+            "..U.CHEROKEE LETTER QUO",
+            "U+13C9",
+        ],
+        "body": [
+            "${1|Ꮙ,&#x13C9;,U+13C9,0x13C9,CHEROKEE LETTER QUO|}$2",
+        ],
+        "description": [
+            "Code: U+13C9",
+            "Character/Symbol: Ꮙ",
+            "Name: CHEROKEE LETTER QUO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮚ U+13CA CHEROKEE LETTER QUU": 
+    {
+        "prefix": [
+            "..U.13CA",
+            "..U.CHEROKEE LETTER QUU",
+            "U+13CA",
+        ],
+        "body": [
+            "${1|Ꮚ,&#x13CA;,U+13CA,0x13CA,CHEROKEE LETTER QUU|}$2",
+        ],
+        "description": [
+            "Code: U+13CA",
+            "Character/Symbol: Ꮚ",
+            "Name: CHEROKEE LETTER QUU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮛ U+13CB CHEROKEE LETTER QUV": 
+    {
+        "prefix": [
+            "..U.13CB",
+            "..U.CHEROKEE LETTER QUV",
+            "U+13CB",
+        ],
+        "body": [
+            "${1|Ꮛ,&#x13CB;,U+13CB,0x13CB,CHEROKEE LETTER QUV|}$2",
+        ],
+        "description": [
+            "Code: U+13CB",
+            "Character/Symbol: Ꮛ",
+            "Name: CHEROKEE LETTER QUV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮜ U+13CC CHEROKEE LETTER SA": 
+    {
+        "prefix": [
+            "..U.13CC",
+            "..U.CHEROKEE LETTER SA",
+            "U+13CC",
+        ],
+        "body": [
+            "${1|Ꮜ,&#x13CC;,U+13CC,0x13CC,CHEROKEE LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+13CC",
+            "Character/Symbol: Ꮜ",
+            "Name: CHEROKEE LETTER SA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮝ U+13CD CHEROKEE LETTER S": 
+    {
+        "prefix": [
+            "..U.13CD",
+            "..U.CHEROKEE LETTER S",
+            "U+13CD",
+        ],
+        "body": [
+            "${1|Ꮝ,&#x13CD;,U+13CD,0x13CD,CHEROKEE LETTER S|}$2",
+        ],
+        "description": [
+            "Code: U+13CD",
+            "Character/Symbol: Ꮝ",
+            "Name: CHEROKEE LETTER S",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮞ U+13CE CHEROKEE LETTER SE": 
+    {
+        "prefix": [
+            "..U.13CE",
+            "..U.CHEROKEE LETTER SE",
+            "U+13CE",
+        ],
+        "body": [
+            "${1|Ꮞ,&#x13CE;,U+13CE,0x13CE,CHEROKEE LETTER SE|}$2",
+        ],
+        "description": [
+            "Code: U+13CE",
+            "Character/Symbol: Ꮞ",
+            "Name: CHEROKEE LETTER SE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮟ U+13CF CHEROKEE LETTER SI": 
+    {
+        "prefix": [
+            "..U.13CF",
+            "..U.CHEROKEE LETTER SI",
+            "U+13CF",
+        ],
+        "body": [
+            "${1|Ꮟ,&#x13CF;,U+13CF,0x13CF,CHEROKEE LETTER SI|}$2",
+        ],
+        "description": [
+            "Code: U+13CF",
+            "Character/Symbol: Ꮟ",
+            "Name: CHEROKEE LETTER SI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮠ U+13D0 CHEROKEE LETTER SO": 
+    {
+        "prefix": [
+            "..U.13D0",
+            "..U.CHEROKEE LETTER SO",
+            "U+13D0",
+        ],
+        "body": [
+            "${1|Ꮠ,&#x13D0;,U+13D0,0x13D0,CHEROKEE LETTER SO|}$2",
+        ],
+        "description": [
+            "Code: U+13D0",
+            "Character/Symbol: Ꮠ",
+            "Name: CHEROKEE LETTER SO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮡ U+13D1 CHEROKEE LETTER SU": 
+    {
+        "prefix": [
+            "..U.13D1",
+            "..U.CHEROKEE LETTER SU",
+            "U+13D1",
+        ],
+        "body": [
+            "${1|Ꮡ,&#x13D1;,U+13D1,0x13D1,CHEROKEE LETTER SU|}$2",
+        ],
+        "description": [
+            "Code: U+13D1",
+            "Character/Symbol: Ꮡ",
+            "Name: CHEROKEE LETTER SU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮢ U+13D2 CHEROKEE LETTER SV": 
+    {
+        "prefix": [
+            "..U.13D2",
+            "..U.CHEROKEE LETTER SV",
+            "U+13D2",
+        ],
+        "body": [
+            "${1|Ꮢ,&#x13D2;,U+13D2,0x13D2,CHEROKEE LETTER SV|}$2",
+        ],
+        "description": [
+            "Code: U+13D2",
+            "Character/Symbol: Ꮢ",
+            "Name: CHEROKEE LETTER SV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮣ U+13D3 CHEROKEE LETTER DA": 
+    {
+        "prefix": [
+            "..U.13D3",
+            "..U.CHEROKEE LETTER DA",
+            "U+13D3",
+        ],
+        "body": [
+            "${1|Ꮣ,&#x13D3;,U+13D3,0x13D3,CHEROKEE LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+13D3",
+            "Character/Symbol: Ꮣ",
+            "Name: CHEROKEE LETTER DA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮤ U+13D4 CHEROKEE LETTER TA": 
+    {
+        "prefix": [
+            "..U.13D4",
+            "..U.CHEROKEE LETTER TA",
+            "U+13D4",
+        ],
+        "body": [
+            "${1|Ꮤ,&#x13D4;,U+13D4,0x13D4,CHEROKEE LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+13D4",
+            "Character/Symbol: Ꮤ",
+            "Name: CHEROKEE LETTER TA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮥ U+13D5 CHEROKEE LETTER DE": 
+    {
+        "prefix": [
+            "..U.13D5",
+            "..U.CHEROKEE LETTER DE",
+            "U+13D5",
+        ],
+        "body": [
+            "${1|Ꮥ,&#x13D5;,U+13D5,0x13D5,CHEROKEE LETTER DE|}$2",
+        ],
+        "description": [
+            "Code: U+13D5",
+            "Character/Symbol: Ꮥ",
+            "Name: CHEROKEE LETTER DE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮦ U+13D6 CHEROKEE LETTER TE": 
+    {
+        "prefix": [
+            "..U.13D6",
+            "..U.CHEROKEE LETTER TE",
+            "U+13D6",
+        ],
+        "body": [
+            "${1|Ꮦ,&#x13D6;,U+13D6,0x13D6,CHEROKEE LETTER TE|}$2",
+        ],
+        "description": [
+            "Code: U+13D6",
+            "Character/Symbol: Ꮦ",
+            "Name: CHEROKEE LETTER TE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮧ U+13D7 CHEROKEE LETTER DI": 
+    {
+        "prefix": [
+            "..U.13D7",
+            "..U.CHEROKEE LETTER DI",
+            "U+13D7",
+        ],
+        "body": [
+            "${1|Ꮧ,&#x13D7;,U+13D7,0x13D7,CHEROKEE LETTER DI|}$2",
+        ],
+        "description": [
+            "Code: U+13D7",
+            "Character/Symbol: Ꮧ",
+            "Name: CHEROKEE LETTER DI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮨ U+13D8 CHEROKEE LETTER TI": 
+    {
+        "prefix": [
+            "..U.13D8",
+            "..U.CHEROKEE LETTER TI",
+            "U+13D8",
+        ],
+        "body": [
+            "${1|Ꮨ,&#x13D8;,U+13D8,0x13D8,CHEROKEE LETTER TI|}$2",
+        ],
+        "description": [
+            "Code: U+13D8",
+            "Character/Symbol: Ꮨ",
+            "Name: CHEROKEE LETTER TI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮩ U+13D9 CHEROKEE LETTER DO": 
+    {
+        "prefix": [
+            "..U.13D9",
+            "..U.CHEROKEE LETTER DO",
+            "U+13D9",
+        ],
+        "body": [
+            "${1|Ꮩ,&#x13D9;,U+13D9,0x13D9,CHEROKEE LETTER DO|}$2",
+        ],
+        "description": [
+            "Code: U+13D9",
+            "Character/Symbol: Ꮩ",
+            "Name: CHEROKEE LETTER DO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮪ U+13DA CHEROKEE LETTER DU": 
+    {
+        "prefix": [
+            "..U.13DA",
+            "..U.CHEROKEE LETTER DU",
+            "U+13DA",
+        ],
+        "body": [
+            "${1|Ꮪ,&#x13DA;,U+13DA,0x13DA,CHEROKEE LETTER DU|}$2",
+        ],
+        "description": [
+            "Code: U+13DA",
+            "Character/Symbol: Ꮪ",
+            "Name: CHEROKEE LETTER DU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮫ U+13DB CHEROKEE LETTER DV": 
+    {
+        "prefix": [
+            "..U.13DB",
+            "..U.CHEROKEE LETTER DV",
+            "U+13DB",
+        ],
+        "body": [
+            "${1|Ꮫ,&#x13DB;,U+13DB,0x13DB,CHEROKEE LETTER DV|}$2",
+        ],
+        "description": [
+            "Code: U+13DB",
+            "Character/Symbol: Ꮫ",
+            "Name: CHEROKEE LETTER DV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮬ U+13DC CHEROKEE LETTER DLA": 
+    {
+        "prefix": [
+            "..U.13DC",
+            "..U.CHEROKEE LETTER DLA",
+            "U+13DC",
+        ],
+        "body": [
+            "${1|Ꮬ,&#x13DC;,U+13DC,0x13DC,CHEROKEE LETTER DLA|}$2",
+        ],
+        "description": [
+            "Code: U+13DC",
+            "Character/Symbol: Ꮬ",
+            "Name: CHEROKEE LETTER DLA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮭ U+13DD CHEROKEE LETTER TLA": 
+    {
+        "prefix": [
+            "..U.13DD",
+            "..U.CHEROKEE LETTER TLA",
+            "U+13DD",
+        ],
+        "body": [
+            "${1|Ꮭ,&#x13DD;,U+13DD,0x13DD,CHEROKEE LETTER TLA|}$2",
+        ],
+        "description": [
+            "Code: U+13DD",
+            "Character/Symbol: Ꮭ",
+            "Name: CHEROKEE LETTER TLA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮮ U+13DE CHEROKEE LETTER TLE": 
+    {
+        "prefix": [
+            "..U.13DE",
+            "..U.CHEROKEE LETTER TLE",
+            "U+13DE",
+        ],
+        "body": [
+            "${1|Ꮮ,&#x13DE;,U+13DE,0x13DE,CHEROKEE LETTER TLE|}$2",
+        ],
+        "description": [
+            "Code: U+13DE",
+            "Character/Symbol: Ꮮ",
+            "Name: CHEROKEE LETTER TLE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮯ U+13DF CHEROKEE LETTER TLI": 
+    {
+        "prefix": [
+            "..U.13DF",
+            "..U.CHEROKEE LETTER TLI",
+            "U+13DF",
+        ],
+        "body": [
+            "${1|Ꮯ,&#x13DF;,U+13DF,0x13DF,CHEROKEE LETTER TLI|}$2",
+        ],
+        "description": [
+            "Code: U+13DF",
+            "Character/Symbol: Ꮯ",
+            "Name: CHEROKEE LETTER TLI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮰ U+13E0 CHEROKEE LETTER TLO": 
+    {
+        "prefix": [
+            "..U.13E0",
+            "..U.CHEROKEE LETTER TLO",
+            "U+13E0",
+        ],
+        "body": [
+            "${1|Ꮰ,&#x13E0;,U+13E0,0x13E0,CHEROKEE LETTER TLO|}$2",
+        ],
+        "description": [
+            "Code: U+13E0",
+            "Character/Symbol: Ꮰ",
+            "Name: CHEROKEE LETTER TLO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮱ U+13E1 CHEROKEE LETTER TLU": 
+    {
+        "prefix": [
+            "..U.13E1",
+            "..U.CHEROKEE LETTER TLU",
+            "U+13E1",
+        ],
+        "body": [
+            "${1|Ꮱ,&#x13E1;,U+13E1,0x13E1,CHEROKEE LETTER TLU|}$2",
+        ],
+        "description": [
+            "Code: U+13E1",
+            "Character/Symbol: Ꮱ",
+            "Name: CHEROKEE LETTER TLU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮲ U+13E2 CHEROKEE LETTER TLV": 
+    {
+        "prefix": [
+            "..U.13E2",
+            "..U.CHEROKEE LETTER TLV",
+            "U+13E2",
+        ],
+        "body": [
+            "${1|Ꮲ,&#x13E2;,U+13E2,0x13E2,CHEROKEE LETTER TLV|}$2",
+        ],
+        "description": [
+            "Code: U+13E2",
+            "Character/Symbol: Ꮲ",
+            "Name: CHEROKEE LETTER TLV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮳ U+13E3 CHEROKEE LETTER TSA": 
+    {
+        "prefix": [
+            "..U.13E3",
+            "..U.CHEROKEE LETTER TSA",
+            "U+13E3",
+        ],
+        "body": [
+            "${1|Ꮳ,&#x13E3;,U+13E3,0x13E3,CHEROKEE LETTER TSA|}$2",
+        ],
+        "description": [
+            "Code: U+13E3",
+            "Character/Symbol: Ꮳ",
+            "Name: CHEROKEE LETTER TSA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮴ U+13E4 CHEROKEE LETTER TSE": 
+    {
+        "prefix": [
+            "..U.13E4",
+            "..U.CHEROKEE LETTER TSE",
+            "U+13E4",
+        ],
+        "body": [
+            "${1|Ꮴ,&#x13E4;,U+13E4,0x13E4,CHEROKEE LETTER TSE|}$2",
+        ],
+        "description": [
+            "Code: U+13E4",
+            "Character/Symbol: Ꮴ",
+            "Name: CHEROKEE LETTER TSE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮵ U+13E5 CHEROKEE LETTER TSI": 
+    {
+        "prefix": [
+            "..U.13E5",
+            "..U.CHEROKEE LETTER TSI",
+            "U+13E5",
+        ],
+        "body": [
+            "${1|Ꮵ,&#x13E5;,U+13E5,0x13E5,CHEROKEE LETTER TSI|}$2",
+        ],
+        "description": [
+            "Code: U+13E5",
+            "Character/Symbol: Ꮵ",
+            "Name: CHEROKEE LETTER TSI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮶ U+13E6 CHEROKEE LETTER TSO": 
+    {
+        "prefix": [
+            "..U.13E6",
+            "..U.CHEROKEE LETTER TSO",
+            "U+13E6",
+        ],
+        "body": [
+            "${1|Ꮶ,&#x13E6;,U+13E6,0x13E6,CHEROKEE LETTER TSO|}$2",
+        ],
+        "description": [
+            "Code: U+13E6",
+            "Character/Symbol: Ꮶ",
+            "Name: CHEROKEE LETTER TSO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮷ U+13E7 CHEROKEE LETTER TSU": 
+    {
+        "prefix": [
+            "..U.13E7",
+            "..U.CHEROKEE LETTER TSU",
+            "U+13E7",
+        ],
+        "body": [
+            "${1|Ꮷ,&#x13E7;,U+13E7,0x13E7,CHEROKEE LETTER TSU|}$2",
+        ],
+        "description": [
+            "Code: U+13E7",
+            "Character/Symbol: Ꮷ",
+            "Name: CHEROKEE LETTER TSU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮸ U+13E8 CHEROKEE LETTER TSV": 
+    {
+        "prefix": [
+            "..U.13E8",
+            "..U.CHEROKEE LETTER TSV",
+            "U+13E8",
+        ],
+        "body": [
+            "${1|Ꮸ,&#x13E8;,U+13E8,0x13E8,CHEROKEE LETTER TSV|}$2",
+        ],
+        "description": [
+            "Code: U+13E8",
+            "Character/Symbol: Ꮸ",
+            "Name: CHEROKEE LETTER TSV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮹ U+13E9 CHEROKEE LETTER WA": 
+    {
+        "prefix": [
+            "..U.13E9",
+            "..U.CHEROKEE LETTER WA",
+            "U+13E9",
+        ],
+        "body": [
+            "${1|Ꮹ,&#x13E9;,U+13E9,0x13E9,CHEROKEE LETTER WA|}$2",
+        ],
+        "description": [
+            "Code: U+13E9",
+            "Character/Symbol: Ꮹ",
+            "Name: CHEROKEE LETTER WA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮺ U+13EA CHEROKEE LETTER WE": 
+    {
+        "prefix": [
+            "..U.13EA",
+            "..U.CHEROKEE LETTER WE",
+            "U+13EA",
+        ],
+        "body": [
+            "${1|Ꮺ,&#x13EA;,U+13EA,0x13EA,CHEROKEE LETTER WE|}$2",
+        ],
+        "description": [
+            "Code: U+13EA",
+            "Character/Symbol: Ꮺ",
+            "Name: CHEROKEE LETTER WE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮻ U+13EB CHEROKEE LETTER WI": 
+    {
+        "prefix": [
+            "..U.13EB",
+            "..U.CHEROKEE LETTER WI",
+            "U+13EB",
+        ],
+        "body": [
+            "${1|Ꮻ,&#x13EB;,U+13EB,0x13EB,CHEROKEE LETTER WI|}$2",
+        ],
+        "description": [
+            "Code: U+13EB",
+            "Character/Symbol: Ꮻ",
+            "Name: CHEROKEE LETTER WI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮼ U+13EC CHEROKEE LETTER WO": 
+    {
+        "prefix": [
+            "..U.13EC",
+            "..U.CHEROKEE LETTER WO",
+            "U+13EC",
+        ],
+        "body": [
+            "${1|Ꮼ,&#x13EC;,U+13EC,0x13EC,CHEROKEE LETTER WO|}$2",
+        ],
+        "description": [
+            "Code: U+13EC",
+            "Character/Symbol: Ꮼ",
+            "Name: CHEROKEE LETTER WO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮽ U+13ED CHEROKEE LETTER WU": 
+    {
+        "prefix": [
+            "..U.13ED",
+            "..U.CHEROKEE LETTER WU",
+            "U+13ED",
+        ],
+        "body": [
+            "${1|Ꮽ,&#x13ED;,U+13ED,0x13ED,CHEROKEE LETTER WU|}$2",
+        ],
+        "description": [
+            "Code: U+13ED",
+            "Character/Symbol: Ꮽ",
+            "Name: CHEROKEE LETTER WU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮾ U+13EE CHEROKEE LETTER WV": 
+    {
+        "prefix": [
+            "..U.13EE",
+            "..U.CHEROKEE LETTER WV",
+            "U+13EE",
+        ],
+        "body": [
+            "${1|Ꮾ,&#x13EE;,U+13EE,0x13EE,CHEROKEE LETTER WV|}$2",
+        ],
+        "description": [
+            "Code: U+13EE",
+            "Character/Symbol: Ꮾ",
+            "Name: CHEROKEE LETTER WV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ꮿ U+13EF CHEROKEE LETTER YA": 
+    {
+        "prefix": [
+            "..U.13EF",
+            "..U.CHEROKEE LETTER YA",
+            "U+13EF",
+        ],
+        "body": [
+            "${1|Ꮿ,&#x13EF;,U+13EF,0x13EF,CHEROKEE LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+13EF",
+            "Character/Symbol: Ꮿ",
+            "Name: CHEROKEE LETTER YA",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ᏸ U+13F0 CHEROKEE LETTER YE": 
+    {
+        "prefix": [
+            "..U.13F0",
+            "..U.CHEROKEE LETTER YE",
+            "U+13F0",
+        ],
+        "body": [
+            "${1|Ᏸ,&#x13F0;,U+13F0,0x13F0,CHEROKEE LETTER YE|}$2",
+        ],
+        "description": [
+            "Code: U+13F0",
+            "Character/Symbol: Ᏸ",
+            "Name: CHEROKEE LETTER YE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ᏹ U+13F1 CHEROKEE LETTER YI": 
+    {
+        "prefix": [
+            "..U.13F1",
+            "..U.CHEROKEE LETTER YI",
+            "U+13F1",
+        ],
+        "body": [
+            "${1|Ᏹ,&#x13F1;,U+13F1,0x13F1,CHEROKEE LETTER YI|}$2",
+        ],
+        "description": [
+            "Code: U+13F1",
+            "Character/Symbol: Ᏹ",
+            "Name: CHEROKEE LETTER YI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ᏺ U+13F2 CHEROKEE LETTER YO": 
+    {
+        "prefix": [
+            "..U.13F2",
+            "..U.CHEROKEE LETTER YO",
+            "U+13F2",
+        ],
+        "body": [
+            "${1|Ᏺ,&#x13F2;,U+13F2,0x13F2,CHEROKEE LETTER YO|}$2",
+        ],
+        "description": [
+            "Code: U+13F2",
+            "Character/Symbol: Ᏺ",
+            "Name: CHEROKEE LETTER YO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ᏻ U+13F3 CHEROKEE LETTER YU": 
+    {
+        "prefix": [
+            "..U.13F3",
+            "..U.CHEROKEE LETTER YU",
+            "U+13F3",
+        ],
+        "body": [
+            "${1|Ᏻ,&#x13F3;,U+13F3,0x13F3,CHEROKEE LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+13F3",
+            "Character/Symbol: Ᏻ",
+            "Name: CHEROKEE LETTER YU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ᏼ U+13F4 CHEROKEE LETTER YV": 
+    {
+        "prefix": [
+            "..U.13F4",
+            "..U.CHEROKEE LETTER YV",
+            "U+13F4",
+        ],
+        "body": [
+            "${1|Ᏼ,&#x13F4;,U+13F4,0x13F4,CHEROKEE LETTER YV|}$2",
+        ],
+        "description": [
+            "Code: U+13F4",
+            "Character/Symbol: Ᏼ",
+            "Name: CHEROKEE LETTER YV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode Ᏽ U+13F5 CHEROKEE LETTER MV": 
+    {
+        "prefix": [
+            "..U.13F5",
+            "..U.CHEROKEE LETTER MV",
+            "U+13F5",
+        ],
+        "body": [
+            "${1|Ᏽ,&#x13F5;,U+13F5,0x13F5,CHEROKEE LETTER MV|}$2",
+        ],
+        "description": [
+            "Code: U+13F5",
+            "Character/Symbol: Ᏽ",
+            "Name: CHEROKEE LETTER MV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode ᏸ U+13F8 CHEROKEE SMALL LETTER YE": 
+    {
+        "prefix": [
+            "..U.13F8",
+            "..U.CHEROKEE SMALL LETTER YE",
+            "U+13F8",
+        ],
+        "body": [
+            "${1|ᏸ,&#x13F8;,U+13F8,0x13F8,CHEROKEE SMALL LETTER YE|}$2",
+        ],
+        "description": [
+            "Code: U+13F8",
+            "Character/Symbol: ᏸ",
+            "Name: CHEROKEE SMALL LETTER YE",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode ᏹ U+13F9 CHEROKEE SMALL LETTER YI": 
+    {
+        "prefix": [
+            "..U.13F9",
+            "..U.CHEROKEE SMALL LETTER YI",
+            "U+13F9",
+        ],
+        "body": [
+            "${1|ᏹ,&#x13F9;,U+13F9,0x13F9,CHEROKEE SMALL LETTER YI|}$2",
+        ],
+        "description": [
+            "Code: U+13F9",
+            "Character/Symbol: ᏹ",
+            "Name: CHEROKEE SMALL LETTER YI",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode ᏺ U+13FA CHEROKEE SMALL LETTER YO": 
+    {
+        "prefix": [
+            "..U.13FA",
+            "..U.CHEROKEE SMALL LETTER YO",
+            "U+13FA",
+        ],
+        "body": [
+            "${1|ᏺ,&#x13FA;,U+13FA,0x13FA,CHEROKEE SMALL LETTER YO|}$2",
+        ],
+        "description": [
+            "Code: U+13FA",
+            "Character/Symbol: ᏺ",
+            "Name: CHEROKEE SMALL LETTER YO",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode ᏻ U+13FB CHEROKEE SMALL LETTER YU": 
+    {
+        "prefix": [
+            "..U.13FB",
+            "..U.CHEROKEE SMALL LETTER YU",
+            "U+13FB",
+        ],
+        "body": [
+            "${1|ᏻ,&#x13FB;,U+13FB,0x13FB,CHEROKEE SMALL LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+13FB",
+            "Character/Symbol: ᏻ",
+            "Name: CHEROKEE SMALL LETTER YU",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode ᏼ U+13FC CHEROKEE SMALL LETTER YV": 
+    {
+        "prefix": [
+            "..U.13FC",
+            "..U.CHEROKEE SMALL LETTER YV",
+            "U+13FC",
+        ],
+        "body": [
+            "${1|ᏼ,&#x13FC;,U+13FC,0x13FC,CHEROKEE SMALL LETTER YV|}$2",
+        ],
+        "description": [
+            "Code: U+13FC",
+            "Character/Symbol: ᏼ",
+            "Name: CHEROKEE SMALL LETTER YV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+    "Unicode ᏽ U+13FD CHEROKEE SMALL LETTER MV": 
+    {
+        "prefix": [
+            "..U.13FD",
+            "..U.CHEROKEE SMALL LETTER MV",
+            "U+13FD",
+        ],
+        "body": [
+            "${1|ᏽ,&#x13FD;,U+13FD,0x13FD,CHEROKEE SMALL LETTER MV|}$2",
+        ],
+        "description": [
+            "Code: U+13FD",
+            "Character/Symbol: ᏽ",
+            "Name: CHEROKEE SMALL LETTER MV",
+            "Group/Block: Cherokee",
+        ],
+    },
+
+}

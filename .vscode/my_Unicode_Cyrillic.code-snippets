@@ -1,0 +1,4610 @@
+{
+    "Unicode Ѐ U+0400 CYRILLIC CAPITAL LETTER IE WITH GRAVE": 
+    {
+        "prefix": [
+            "..U.0400",
+            "..U.CYRILLIC CAPITAL LETTER IE WITH GRAVE",
+            "U+0400",
+        ],
+        "body": [
+            "${1|Ѐ,&#x0400;,U+0400,0x0400,CYRILLIC CAPITAL LETTER IE WITH GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+0400",
+            "Character/Symbol: Ѐ",
+            "Name: CYRILLIC CAPITAL LETTER IE WITH GRAVE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ё U+0401 CYRILLIC CAPITAL LETTER IO": 
+    {
+        "prefix": [
+            "..U.0401",
+            "..U.CYRILLIC CAPITAL LETTER IO",
+            "U+0401",
+        ],
+        "body": [
+            "${1|Ё,&#x0401;,U+0401,0x0401,CYRILLIC CAPITAL LETTER IO|}$2",
+        ],
+        "description": [
+            "Code: U+0401",
+            "Character/Symbol: Ё",
+            "Name: CYRILLIC CAPITAL LETTER IO",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ђ U+0402 CYRILLIC CAPITAL LETTER DJE": 
+    {
+        "prefix": [
+            "..U.0402",
+            "..U.CYRILLIC CAPITAL LETTER DJE",
+            "U+0402",
+        ],
+        "body": [
+            "${1|Ђ,&#x0402;,U+0402,0x0402,CYRILLIC CAPITAL LETTER DJE|}$2",
+        ],
+        "description": [
+            "Code: U+0402",
+            "Character/Symbol: Ђ",
+            "Name: CYRILLIC CAPITAL LETTER DJE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѓ U+0403 CYRILLIC CAPITAL LETTER GJE": 
+    {
+        "prefix": [
+            "..U.0403",
+            "..U.CYRILLIC CAPITAL LETTER GJE",
+            "U+0403",
+        ],
+        "body": [
+            "${1|Ѓ,&#x0403;,U+0403,0x0403,CYRILLIC CAPITAL LETTER GJE|}$2",
+        ],
+        "description": [
+            "Code: U+0403",
+            "Character/Symbol: Ѓ",
+            "Name: CYRILLIC CAPITAL LETTER GJE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Є U+0404 CYRILLIC CAPITAL LETTER UKRAINIAN IE": 
+    {
+        "prefix": [
+            "..U.0404",
+            "..U.CYRILLIC CAPITAL LETTER UKRAINIAN IE",
+            "U+0404",
+        ],
+        "body": [
+            "${1|Є,&#x0404;,U+0404,0x0404,CYRILLIC CAPITAL LETTER UKRAINIAN IE|}$2",
+        ],
+        "description": [
+            "Code: U+0404",
+            "Character/Symbol: Є",
+            "Name: CYRILLIC CAPITAL LETTER UKRAINIAN IE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѕ U+0405 CYRILLIC CAPITAL LETTER DZE": 
+    {
+        "prefix": [
+            "..U.0405",
+            "..U.CYRILLIC CAPITAL LETTER DZE",
+            "U+0405",
+        ],
+        "body": [
+            "${1|Ѕ,&#x0405;,U+0405,0x0405,CYRILLIC CAPITAL LETTER DZE|}$2",
+        ],
+        "description": [
+            "Code: U+0405",
+            "Character/Symbol: Ѕ",
+            "Name: CYRILLIC CAPITAL LETTER DZE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode І U+0406 CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I": 
+    {
+        "prefix": [
+            "..U.0406",
+            "..U.CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I",
+            "U+0406",
+        ],
+        "body": [
+            "${1|І,&#x0406;,U+0406,0x0406,CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I|}$2",
+        ],
+        "description": [
+            "Code: U+0406",
+            "Character/Symbol: І",
+            "Name: CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ї U+0407 CYRILLIC CAPITAL LETTER YI": 
+    {
+        "prefix": [
+            "..U.0407",
+            "..U.CYRILLIC CAPITAL LETTER YI",
+            "U+0407",
+        ],
+        "body": [
+            "${1|Ї,&#x0407;,U+0407,0x0407,CYRILLIC CAPITAL LETTER YI|}$2",
+        ],
+        "description": [
+            "Code: U+0407",
+            "Character/Symbol: Ї",
+            "Name: CYRILLIC CAPITAL LETTER YI",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ј U+0408 CYRILLIC CAPITAL LETTER JE": 
+    {
+        "prefix": [
+            "..U.0408",
+            "..U.CYRILLIC CAPITAL LETTER JE",
+            "U+0408",
+        ],
+        "body": [
+            "${1|Ј,&#x0408;,U+0408,0x0408,CYRILLIC CAPITAL LETTER JE|}$2",
+        ],
+        "description": [
+            "Code: U+0408",
+            "Character/Symbol: Ј",
+            "Name: CYRILLIC CAPITAL LETTER JE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Љ U+0409 CYRILLIC CAPITAL LETTER LJE": 
+    {
+        "prefix": [
+            "..U.0409",
+            "..U.CYRILLIC CAPITAL LETTER LJE",
+            "U+0409",
+        ],
+        "body": [
+            "${1|Љ,&#x0409;,U+0409,0x0409,CYRILLIC CAPITAL LETTER LJE|}$2",
+        ],
+        "description": [
+            "Code: U+0409",
+            "Character/Symbol: Љ",
+            "Name: CYRILLIC CAPITAL LETTER LJE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Њ U+040A CYRILLIC CAPITAL LETTER NJE": 
+    {
+        "prefix": [
+            "..U.040A",
+            "..U.CYRILLIC CAPITAL LETTER NJE",
+            "U+040A",
+        ],
+        "body": [
+            "${1|Њ,&#x040A;,U+040A,0x040A,CYRILLIC CAPITAL LETTER NJE|}$2",
+        ],
+        "description": [
+            "Code: U+040A",
+            "Character/Symbol: Њ",
+            "Name: CYRILLIC CAPITAL LETTER NJE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ћ U+040B CYRILLIC CAPITAL LETTER TSHE": 
+    {
+        "prefix": [
+            "..U.040B",
+            "..U.CYRILLIC CAPITAL LETTER TSHE",
+            "U+040B",
+        ],
+        "body": [
+            "${1|Ћ,&#x040B;,U+040B,0x040B,CYRILLIC CAPITAL LETTER TSHE|}$2",
+        ],
+        "description": [
+            "Code: U+040B",
+            "Character/Symbol: Ћ",
+            "Name: CYRILLIC CAPITAL LETTER TSHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ќ U+040C CYRILLIC CAPITAL LETTER KJE": 
+    {
+        "prefix": [
+            "..U.040C",
+            "..U.CYRILLIC CAPITAL LETTER KJE",
+            "U+040C",
+        ],
+        "body": [
+            "${1|Ќ,&#x040C;,U+040C,0x040C,CYRILLIC CAPITAL LETTER KJE|}$2",
+        ],
+        "description": [
+            "Code: U+040C",
+            "Character/Symbol: Ќ",
+            "Name: CYRILLIC CAPITAL LETTER KJE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѝ U+040D CYRILLIC CAPITAL LETTER I WITH GRAVE": 
+    {
+        "prefix": [
+            "..U.040D",
+            "..U.CYRILLIC CAPITAL LETTER I WITH GRAVE",
+            "U+040D",
+        ],
+        "body": [
+            "${1|Ѝ,&#x040D;,U+040D,0x040D,CYRILLIC CAPITAL LETTER I WITH GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+040D",
+            "Character/Symbol: Ѝ",
+            "Name: CYRILLIC CAPITAL LETTER I WITH GRAVE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ў U+040E CYRILLIC CAPITAL LETTER SHORT U": 
+    {
+        "prefix": [
+            "..U.040E",
+            "..U.CYRILLIC CAPITAL LETTER SHORT U",
+            "U+040E",
+        ],
+        "body": [
+            "${1|Ў,&#x040E;,U+040E,0x040E,CYRILLIC CAPITAL LETTER SHORT U|}$2",
+        ],
+        "description": [
+            "Code: U+040E",
+            "Character/Symbol: Ў",
+            "Name: CYRILLIC CAPITAL LETTER SHORT U",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Џ U+040F CYRILLIC CAPITAL LETTER DZHE": 
+    {
+        "prefix": [
+            "..U.040F",
+            "..U.CYRILLIC CAPITAL LETTER DZHE",
+            "U+040F",
+        ],
+        "body": [
+            "${1|Џ,&#x040F;,U+040F,0x040F,CYRILLIC CAPITAL LETTER DZHE|}$2",
+        ],
+        "description": [
+            "Code: U+040F",
+            "Character/Symbol: Џ",
+            "Name: CYRILLIC CAPITAL LETTER DZHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode А U+0410 CYRILLIC CAPITAL LETTER A": 
+    {
+        "prefix": [
+            "..U.0410",
+            "..U.CYRILLIC CAPITAL LETTER A",
+            "U+0410",
+        ],
+        "body": [
+            "${1|А,&#x0410;,U+0410,0x0410,CYRILLIC CAPITAL LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+0410",
+            "Character/Symbol: А",
+            "Name: CYRILLIC CAPITAL LETTER A",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Б U+0411 CYRILLIC CAPITAL LETTER BE": 
+    {
+        "prefix": [
+            "..U.0411",
+            "..U.CYRILLIC CAPITAL LETTER BE",
+            "U+0411",
+        ],
+        "body": [
+            "${1|Б,&#x0411;,U+0411,0x0411,CYRILLIC CAPITAL LETTER BE|}$2",
+        ],
+        "description": [
+            "Code: U+0411",
+            "Character/Symbol: Б",
+            "Name: CYRILLIC CAPITAL LETTER BE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode В U+0412 CYRILLIC CAPITAL LETTER VE": 
+    {
+        "prefix": [
+            "..U.0412",
+            "..U.CYRILLIC CAPITAL LETTER VE",
+            "U+0412",
+        ],
+        "body": [
+            "${1|В,&#x0412;,U+0412,0x0412,CYRILLIC CAPITAL LETTER VE|}$2",
+        ],
+        "description": [
+            "Code: U+0412",
+            "Character/Symbol: В",
+            "Name: CYRILLIC CAPITAL LETTER VE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Г U+0413 CYRILLIC CAPITAL LETTER GHE": 
+    {
+        "prefix": [
+            "..U.0413",
+            "..U.CYRILLIC CAPITAL LETTER GHE",
+            "U+0413",
+        ],
+        "body": [
+            "${1|Г,&#x0413;,U+0413,0x0413,CYRILLIC CAPITAL LETTER GHE|}$2",
+        ],
+        "description": [
+            "Code: U+0413",
+            "Character/Symbol: Г",
+            "Name: CYRILLIC CAPITAL LETTER GHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Д U+0414 CYRILLIC CAPITAL LETTER DE": 
+    {
+        "prefix": [
+            "..U.0414",
+            "..U.CYRILLIC CAPITAL LETTER DE",
+            "U+0414",
+        ],
+        "body": [
+            "${1|Д,&#x0414;,U+0414,0x0414,CYRILLIC CAPITAL LETTER DE|}$2",
+        ],
+        "description": [
+            "Code: U+0414",
+            "Character/Symbol: Д",
+            "Name: CYRILLIC CAPITAL LETTER DE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Е U+0415 CYRILLIC CAPITAL LETTER IE": 
+    {
+        "prefix": [
+            "..U.0415",
+            "..U.CYRILLIC CAPITAL LETTER IE",
+            "U+0415",
+        ],
+        "body": [
+            "${1|Е,&#x0415;,U+0415,0x0415,CYRILLIC CAPITAL LETTER IE|}$2",
+        ],
+        "description": [
+            "Code: U+0415",
+            "Character/Symbol: Е",
+            "Name: CYRILLIC CAPITAL LETTER IE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ж U+0416 CYRILLIC CAPITAL LETTER ZHE": 
+    {
+        "prefix": [
+            "..U.0416",
+            "..U.CYRILLIC CAPITAL LETTER ZHE",
+            "U+0416",
+        ],
+        "body": [
+            "${1|Ж,&#x0416;,U+0416,0x0416,CYRILLIC CAPITAL LETTER ZHE|}$2",
+        ],
+        "description": [
+            "Code: U+0416",
+            "Character/Symbol: Ж",
+            "Name: CYRILLIC CAPITAL LETTER ZHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode З U+0417 CYRILLIC CAPITAL LETTER ZE": 
+    {
+        "prefix": [
+            "..U.0417",
+            "..U.CYRILLIC CAPITAL LETTER ZE",
+            "U+0417",
+        ],
+        "body": [
+            "${1|З,&#x0417;,U+0417,0x0417,CYRILLIC CAPITAL LETTER ZE|}$2",
+        ],
+        "description": [
+            "Code: U+0417",
+            "Character/Symbol: З",
+            "Name: CYRILLIC CAPITAL LETTER ZE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode И U+0418 CYRILLIC CAPITAL LETTER I": 
+    {
+        "prefix": [
+            "..U.0418",
+            "..U.CYRILLIC CAPITAL LETTER I",
+            "U+0418",
+        ],
+        "body": [
+            "${1|И,&#x0418;,U+0418,0x0418,CYRILLIC CAPITAL LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+0418",
+            "Character/Symbol: И",
+            "Name: CYRILLIC CAPITAL LETTER I",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Й U+0419 CYRILLIC CAPITAL LETTER SHORT I": 
+    {
+        "prefix": [
+            "..U.0419",
+            "..U.CYRILLIC CAPITAL LETTER SHORT I",
+            "U+0419",
+        ],
+        "body": [
+            "${1|Й,&#x0419;,U+0419,0x0419,CYRILLIC CAPITAL LETTER SHORT I|}$2",
+        ],
+        "description": [
+            "Code: U+0419",
+            "Character/Symbol: Й",
+            "Name: CYRILLIC CAPITAL LETTER SHORT I",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode К U+041A CYRILLIC CAPITAL LETTER KA": 
+    {
+        "prefix": [
+            "..U.041A",
+            "..U.CYRILLIC CAPITAL LETTER KA",
+            "U+041A",
+        ],
+        "body": [
+            "${1|К,&#x041A;,U+041A,0x041A,CYRILLIC CAPITAL LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+041A",
+            "Character/Symbol: К",
+            "Name: CYRILLIC CAPITAL LETTER KA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Л U+041B CYRILLIC CAPITAL LETTER EL": 
+    {
+        "prefix": [
+            "..U.041B",
+            "..U.CYRILLIC CAPITAL LETTER EL",
+            "U+041B",
+        ],
+        "body": [
+            "${1|Л,&#x041B;,U+041B,0x041B,CYRILLIC CAPITAL LETTER EL|}$2",
+        ],
+        "description": [
+            "Code: U+041B",
+            "Character/Symbol: Л",
+            "Name: CYRILLIC CAPITAL LETTER EL",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode М U+041C CYRILLIC CAPITAL LETTER EM": 
+    {
+        "prefix": [
+            "..U.041C",
+            "..U.CYRILLIC CAPITAL LETTER EM",
+            "U+041C",
+        ],
+        "body": [
+            "${1|М,&#x041C;,U+041C,0x041C,CYRILLIC CAPITAL LETTER EM|}$2",
+        ],
+        "description": [
+            "Code: U+041C",
+            "Character/Symbol: М",
+            "Name: CYRILLIC CAPITAL LETTER EM",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Н U+041D CYRILLIC CAPITAL LETTER EN": 
+    {
+        "prefix": [
+            "..U.041D",
+            "..U.CYRILLIC CAPITAL LETTER EN",
+            "U+041D",
+        ],
+        "body": [
+            "${1|Н,&#x041D;,U+041D,0x041D,CYRILLIC CAPITAL LETTER EN|}$2",
+        ],
+        "description": [
+            "Code: U+041D",
+            "Character/Symbol: Н",
+            "Name: CYRILLIC CAPITAL LETTER EN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode О U+041E CYRILLIC CAPITAL LETTER O": 
+    {
+        "prefix": [
+            "..U.041E",
+            "..U.CYRILLIC CAPITAL LETTER O",
+            "U+041E",
+        ],
+        "body": [
+            "${1|О,&#x041E;,U+041E,0x041E,CYRILLIC CAPITAL LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+041E",
+            "Character/Symbol: О",
+            "Name: CYRILLIC CAPITAL LETTER O",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode П U+041F CYRILLIC CAPITAL LETTER PE": 
+    {
+        "prefix": [
+            "..U.041F",
+            "..U.CYRILLIC CAPITAL LETTER PE",
+            "U+041F",
+        ],
+        "body": [
+            "${1|П,&#x041F;,U+041F,0x041F,CYRILLIC CAPITAL LETTER PE|}$2",
+        ],
+        "description": [
+            "Code: U+041F",
+            "Character/Symbol: П",
+            "Name: CYRILLIC CAPITAL LETTER PE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Р U+0420 CYRILLIC CAPITAL LETTER ER": 
+    {
+        "prefix": [
+            "..U.0420",
+            "..U.CYRILLIC CAPITAL LETTER ER",
+            "U+0420",
+        ],
+        "body": [
+            "${1|Р,&#x0420;,U+0420,0x0420,CYRILLIC CAPITAL LETTER ER|}$2",
+        ],
+        "description": [
+            "Code: U+0420",
+            "Character/Symbol: Р",
+            "Name: CYRILLIC CAPITAL LETTER ER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode С U+0421 CYRILLIC CAPITAL LETTER ES": 
+    {
+        "prefix": [
+            "..U.0421",
+            "..U.CYRILLIC CAPITAL LETTER ES",
+            "U+0421",
+        ],
+        "body": [
+            "${1|С,&#x0421;,U+0421,0x0421,CYRILLIC CAPITAL LETTER ES|}$2",
+        ],
+        "description": [
+            "Code: U+0421",
+            "Character/Symbol: С",
+            "Name: CYRILLIC CAPITAL LETTER ES",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Т U+0422 CYRILLIC CAPITAL LETTER TE": 
+    {
+        "prefix": [
+            "..U.0422",
+            "..U.CYRILLIC CAPITAL LETTER TE",
+            "U+0422",
+        ],
+        "body": [
+            "${1|Т,&#x0422;,U+0422,0x0422,CYRILLIC CAPITAL LETTER TE|}$2",
+        ],
+        "description": [
+            "Code: U+0422",
+            "Character/Symbol: Т",
+            "Name: CYRILLIC CAPITAL LETTER TE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode У U+0423 CYRILLIC CAPITAL LETTER U": 
+    {
+        "prefix": [
+            "..U.0423",
+            "..U.CYRILLIC CAPITAL LETTER U",
+            "U+0423",
+        ],
+        "body": [
+            "${1|У,&#x0423;,U+0423,0x0423,CYRILLIC CAPITAL LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+0423",
+            "Character/Symbol: У",
+            "Name: CYRILLIC CAPITAL LETTER U",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ф U+0424 CYRILLIC CAPITAL LETTER EF": 
+    {
+        "prefix": [
+            "..U.0424",
+            "..U.CYRILLIC CAPITAL LETTER EF",
+            "U+0424",
+        ],
+        "body": [
+            "${1|Ф,&#x0424;,U+0424,0x0424,CYRILLIC CAPITAL LETTER EF|}$2",
+        ],
+        "description": [
+            "Code: U+0424",
+            "Character/Symbol: Ф",
+            "Name: CYRILLIC CAPITAL LETTER EF",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Х U+0425 CYRILLIC CAPITAL LETTER HA": 
+    {
+        "prefix": [
+            "..U.0425",
+            "..U.CYRILLIC CAPITAL LETTER HA",
+            "U+0425",
+        ],
+        "body": [
+            "${1|Х,&#x0425;,U+0425,0x0425,CYRILLIC CAPITAL LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+0425",
+            "Character/Symbol: Х",
+            "Name: CYRILLIC CAPITAL LETTER HA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ц U+0426 CYRILLIC CAPITAL LETTER TSE": 
+    {
+        "prefix": [
+            "..U.0426",
+            "..U.CYRILLIC CAPITAL LETTER TSE",
+            "U+0426",
+        ],
+        "body": [
+            "${1|Ц,&#x0426;,U+0426,0x0426,CYRILLIC CAPITAL LETTER TSE|}$2",
+        ],
+        "description": [
+            "Code: U+0426",
+            "Character/Symbol: Ц",
+            "Name: CYRILLIC CAPITAL LETTER TSE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ч U+0427 CYRILLIC CAPITAL LETTER CHE": 
+    {
+        "prefix": [
+            "..U.0427",
+            "..U.CYRILLIC CAPITAL LETTER CHE",
+            "U+0427",
+        ],
+        "body": [
+            "${1|Ч,&#x0427;,U+0427,0x0427,CYRILLIC CAPITAL LETTER CHE|}$2",
+        ],
+        "description": [
+            "Code: U+0427",
+            "Character/Symbol: Ч",
+            "Name: CYRILLIC CAPITAL LETTER CHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ш U+0428 CYRILLIC CAPITAL LETTER SHA": 
+    {
+        "prefix": [
+            "..U.0428",
+            "..U.CYRILLIC CAPITAL LETTER SHA",
+            "U+0428",
+        ],
+        "body": [
+            "${1|Ш,&#x0428;,U+0428,0x0428,CYRILLIC CAPITAL LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+0428",
+            "Character/Symbol: Ш",
+            "Name: CYRILLIC CAPITAL LETTER SHA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Щ U+0429 CYRILLIC CAPITAL LETTER SHCHA": 
+    {
+        "prefix": [
+            "..U.0429",
+            "..U.CYRILLIC CAPITAL LETTER SHCHA",
+            "U+0429",
+        ],
+        "body": [
+            "${1|Щ,&#x0429;,U+0429,0x0429,CYRILLIC CAPITAL LETTER SHCHA|}$2",
+        ],
+        "description": [
+            "Code: U+0429",
+            "Character/Symbol: Щ",
+            "Name: CYRILLIC CAPITAL LETTER SHCHA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ъ U+042A CYRILLIC CAPITAL LETTER HARD SIGN": 
+    {
+        "prefix": [
+            "..U.042A",
+            "..U.CYRILLIC CAPITAL LETTER HARD SIGN",
+            "U+042A",
+        ],
+        "body": [
+            "${1|Ъ,&#x042A;,U+042A,0x042A,CYRILLIC CAPITAL LETTER HARD SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+042A",
+            "Character/Symbol: Ъ",
+            "Name: CYRILLIC CAPITAL LETTER HARD SIGN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ы U+042B CYRILLIC CAPITAL LETTER YERU": 
+    {
+        "prefix": [
+            "..U.042B",
+            "..U.CYRILLIC CAPITAL LETTER YERU",
+            "U+042B",
+        ],
+        "body": [
+            "${1|Ы,&#x042B;,U+042B,0x042B,CYRILLIC CAPITAL LETTER YERU|}$2",
+        ],
+        "description": [
+            "Code: U+042B",
+            "Character/Symbol: Ы",
+            "Name: CYRILLIC CAPITAL LETTER YERU",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ь U+042C CYRILLIC CAPITAL LETTER SOFT SIGN": 
+    {
+        "prefix": [
+            "..U.042C",
+            "..U.CYRILLIC CAPITAL LETTER SOFT SIGN",
+            "U+042C",
+        ],
+        "body": [
+            "${1|Ь,&#x042C;,U+042C,0x042C,CYRILLIC CAPITAL LETTER SOFT SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+042C",
+            "Character/Symbol: Ь",
+            "Name: CYRILLIC CAPITAL LETTER SOFT SIGN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Э U+042D CYRILLIC CAPITAL LETTER E": 
+    {
+        "prefix": [
+            "..U.042D",
+            "..U.CYRILLIC CAPITAL LETTER E",
+            "U+042D",
+        ],
+        "body": [
+            "${1|Э,&#x042D;,U+042D,0x042D,CYRILLIC CAPITAL LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+042D",
+            "Character/Symbol: Э",
+            "Name: CYRILLIC CAPITAL LETTER E",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ю U+042E CYRILLIC CAPITAL LETTER YU": 
+    {
+        "prefix": [
+            "..U.042E",
+            "..U.CYRILLIC CAPITAL LETTER YU",
+            "U+042E",
+        ],
+        "body": [
+            "${1|Ю,&#x042E;,U+042E,0x042E,CYRILLIC CAPITAL LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+042E",
+            "Character/Symbol: Ю",
+            "Name: CYRILLIC CAPITAL LETTER YU",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Я U+042F CYRILLIC CAPITAL LETTER YA": 
+    {
+        "prefix": [
+            "..U.042F",
+            "..U.CYRILLIC CAPITAL LETTER YA",
+            "U+042F",
+        ],
+        "body": [
+            "${1|Я,&#x042F;,U+042F,0x042F,CYRILLIC CAPITAL LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+042F",
+            "Character/Symbol: Я",
+            "Name: CYRILLIC CAPITAL LETTER YA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode а U+0430 CYRILLIC SMALL LETTER A": 
+    {
+        "prefix": [
+            "..U.0430",
+            "..U.CYRILLIC SMALL LETTER A",
+            "U+0430",
+        ],
+        "body": [
+            "${1|а,&#x0430;,U+0430,0x0430,CYRILLIC SMALL LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+0430",
+            "Character/Symbol: а",
+            "Name: CYRILLIC SMALL LETTER A",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode б U+0431 CYRILLIC SMALL LETTER BE": 
+    {
+        "prefix": [
+            "..U.0431",
+            "..U.CYRILLIC SMALL LETTER BE",
+            "U+0431",
+        ],
+        "body": [
+            "${1|б,&#x0431;,U+0431,0x0431,CYRILLIC SMALL LETTER BE|}$2",
+        ],
+        "description": [
+            "Code: U+0431",
+            "Character/Symbol: б",
+            "Name: CYRILLIC SMALL LETTER BE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode в U+0432 CYRILLIC SMALL LETTER VE": 
+    {
+        "prefix": [
+            "..U.0432",
+            "..U.CYRILLIC SMALL LETTER VE",
+            "U+0432",
+        ],
+        "body": [
+            "${1|в,&#x0432;,U+0432,0x0432,CYRILLIC SMALL LETTER VE|}$2",
+        ],
+        "description": [
+            "Code: U+0432",
+            "Character/Symbol: в",
+            "Name: CYRILLIC SMALL LETTER VE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode г U+0433 CYRILLIC SMALL LETTER GHE": 
+    {
+        "prefix": [
+            "..U.0433",
+            "..U.CYRILLIC SMALL LETTER GHE",
+            "U+0433",
+        ],
+        "body": [
+            "${1|г,&#x0433;,U+0433,0x0433,CYRILLIC SMALL LETTER GHE|}$2",
+        ],
+        "description": [
+            "Code: U+0433",
+            "Character/Symbol: г",
+            "Name: CYRILLIC SMALL LETTER GHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode д U+0434 CYRILLIC SMALL LETTER DE": 
+    {
+        "prefix": [
+            "..U.0434",
+            "..U.CYRILLIC SMALL LETTER DE",
+            "U+0434",
+        ],
+        "body": [
+            "${1|д,&#x0434;,U+0434,0x0434,CYRILLIC SMALL LETTER DE|}$2",
+        ],
+        "description": [
+            "Code: U+0434",
+            "Character/Symbol: д",
+            "Name: CYRILLIC SMALL LETTER DE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode е U+0435 CYRILLIC SMALL LETTER IE": 
+    {
+        "prefix": [
+            "..U.0435",
+            "..U.CYRILLIC SMALL LETTER IE",
+            "U+0435",
+        ],
+        "body": [
+            "${1|е,&#x0435;,U+0435,0x0435,CYRILLIC SMALL LETTER IE|}$2",
+        ],
+        "description": [
+            "Code: U+0435",
+            "Character/Symbol: е",
+            "Name: CYRILLIC SMALL LETTER IE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ж U+0436 CYRILLIC SMALL LETTER ZHE": 
+    {
+        "prefix": [
+            "..U.0436",
+            "..U.CYRILLIC SMALL LETTER ZHE",
+            "U+0436",
+        ],
+        "body": [
+            "${1|ж,&#x0436;,U+0436,0x0436,CYRILLIC SMALL LETTER ZHE|}$2",
+        ],
+        "description": [
+            "Code: U+0436",
+            "Character/Symbol: ж",
+            "Name: CYRILLIC SMALL LETTER ZHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode з U+0437 CYRILLIC SMALL LETTER ZE": 
+    {
+        "prefix": [
+            "..U.0437",
+            "..U.CYRILLIC SMALL LETTER ZE",
+            "U+0437",
+        ],
+        "body": [
+            "${1|з,&#x0437;,U+0437,0x0437,CYRILLIC SMALL LETTER ZE|}$2",
+        ],
+        "description": [
+            "Code: U+0437",
+            "Character/Symbol: з",
+            "Name: CYRILLIC SMALL LETTER ZE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode и U+0438 CYRILLIC SMALL LETTER I": 
+    {
+        "prefix": [
+            "..U.0438",
+            "..U.CYRILLIC SMALL LETTER I",
+            "U+0438",
+        ],
+        "body": [
+            "${1|и,&#x0438;,U+0438,0x0438,CYRILLIC SMALL LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+0438",
+            "Character/Symbol: и",
+            "Name: CYRILLIC SMALL LETTER I",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode й U+0439 CYRILLIC SMALL LETTER SHORT I": 
+    {
+        "prefix": [
+            "..U.0439",
+            "..U.CYRILLIC SMALL LETTER SHORT I",
+            "U+0439",
+        ],
+        "body": [
+            "${1|й,&#x0439;,U+0439,0x0439,CYRILLIC SMALL LETTER SHORT I|}$2",
+        ],
+        "description": [
+            "Code: U+0439",
+            "Character/Symbol: й",
+            "Name: CYRILLIC SMALL LETTER SHORT I",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode к U+043A CYRILLIC SMALL LETTER KA": 
+    {
+        "prefix": [
+            "..U.043A",
+            "..U.CYRILLIC SMALL LETTER KA",
+            "U+043A",
+        ],
+        "body": [
+            "${1|к,&#x043A;,U+043A,0x043A,CYRILLIC SMALL LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+043A",
+            "Character/Symbol: к",
+            "Name: CYRILLIC SMALL LETTER KA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode л U+043B CYRILLIC SMALL LETTER EL": 
+    {
+        "prefix": [
+            "..U.043B",
+            "..U.CYRILLIC SMALL LETTER EL",
+            "U+043B",
+        ],
+        "body": [
+            "${1|л,&#x043B;,U+043B,0x043B,CYRILLIC SMALL LETTER EL|}$2",
+        ],
+        "description": [
+            "Code: U+043B",
+            "Character/Symbol: л",
+            "Name: CYRILLIC SMALL LETTER EL",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode м U+043C CYRILLIC SMALL LETTER EM": 
+    {
+        "prefix": [
+            "..U.043C",
+            "..U.CYRILLIC SMALL LETTER EM",
+            "U+043C",
+        ],
+        "body": [
+            "${1|м,&#x043C;,U+043C,0x043C,CYRILLIC SMALL LETTER EM|}$2",
+        ],
+        "description": [
+            "Code: U+043C",
+            "Character/Symbol: м",
+            "Name: CYRILLIC SMALL LETTER EM",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode н U+043D CYRILLIC SMALL LETTER EN": 
+    {
+        "prefix": [
+            "..U.043D",
+            "..U.CYRILLIC SMALL LETTER EN",
+            "U+043D",
+        ],
+        "body": [
+            "${1|н,&#x043D;,U+043D,0x043D,CYRILLIC SMALL LETTER EN|}$2",
+        ],
+        "description": [
+            "Code: U+043D",
+            "Character/Symbol: н",
+            "Name: CYRILLIC SMALL LETTER EN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode о U+043E CYRILLIC SMALL LETTER O": 
+    {
+        "prefix": [
+            "..U.043E",
+            "..U.CYRILLIC SMALL LETTER O",
+            "U+043E",
+        ],
+        "body": [
+            "${1|о,&#x043E;,U+043E,0x043E,CYRILLIC SMALL LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+043E",
+            "Character/Symbol: о",
+            "Name: CYRILLIC SMALL LETTER O",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode п U+043F CYRILLIC SMALL LETTER PE": 
+    {
+        "prefix": [
+            "..U.043F",
+            "..U.CYRILLIC SMALL LETTER PE",
+            "U+043F",
+        ],
+        "body": [
+            "${1|п,&#x043F;,U+043F,0x043F,CYRILLIC SMALL LETTER PE|}$2",
+        ],
+        "description": [
+            "Code: U+043F",
+            "Character/Symbol: п",
+            "Name: CYRILLIC SMALL LETTER PE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode р U+0440 CYRILLIC SMALL LETTER ER": 
+    {
+        "prefix": [
+            "..U.0440",
+            "..U.CYRILLIC SMALL LETTER ER",
+            "U+0440",
+        ],
+        "body": [
+            "${1|р,&#x0440;,U+0440,0x0440,CYRILLIC SMALL LETTER ER|}$2",
+        ],
+        "description": [
+            "Code: U+0440",
+            "Character/Symbol: р",
+            "Name: CYRILLIC SMALL LETTER ER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode с U+0441 CYRILLIC SMALL LETTER ES": 
+    {
+        "prefix": [
+            "..U.0441",
+            "..U.CYRILLIC SMALL LETTER ES",
+            "U+0441",
+        ],
+        "body": [
+            "${1|с,&#x0441;,U+0441,0x0441,CYRILLIC SMALL LETTER ES|}$2",
+        ],
+        "description": [
+            "Code: U+0441",
+            "Character/Symbol: с",
+            "Name: CYRILLIC SMALL LETTER ES",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode т U+0442 CYRILLIC SMALL LETTER TE": 
+    {
+        "prefix": [
+            "..U.0442",
+            "..U.CYRILLIC SMALL LETTER TE",
+            "U+0442",
+        ],
+        "body": [
+            "${1|т,&#x0442;,U+0442,0x0442,CYRILLIC SMALL LETTER TE|}$2",
+        ],
+        "description": [
+            "Code: U+0442",
+            "Character/Symbol: т",
+            "Name: CYRILLIC SMALL LETTER TE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode у U+0443 CYRILLIC SMALL LETTER U": 
+    {
+        "prefix": [
+            "..U.0443",
+            "..U.CYRILLIC SMALL LETTER U",
+            "U+0443",
+        ],
+        "body": [
+            "${1|у,&#x0443;,U+0443,0x0443,CYRILLIC SMALL LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+0443",
+            "Character/Symbol: у",
+            "Name: CYRILLIC SMALL LETTER U",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ф U+0444 CYRILLIC SMALL LETTER EF": 
+    {
+        "prefix": [
+            "..U.0444",
+            "..U.CYRILLIC SMALL LETTER EF",
+            "U+0444",
+        ],
+        "body": [
+            "${1|ф,&#x0444;,U+0444,0x0444,CYRILLIC SMALL LETTER EF|}$2",
+        ],
+        "description": [
+            "Code: U+0444",
+            "Character/Symbol: ф",
+            "Name: CYRILLIC SMALL LETTER EF",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode х U+0445 CYRILLIC SMALL LETTER HA": 
+    {
+        "prefix": [
+            "..U.0445",
+            "..U.CYRILLIC SMALL LETTER HA",
+            "U+0445",
+        ],
+        "body": [
+            "${1|х,&#x0445;,U+0445,0x0445,CYRILLIC SMALL LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+0445",
+            "Character/Symbol: х",
+            "Name: CYRILLIC SMALL LETTER HA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ц U+0446 CYRILLIC SMALL LETTER TSE": 
+    {
+        "prefix": [
+            "..U.0446",
+            "..U.CYRILLIC SMALL LETTER TSE",
+            "U+0446",
+        ],
+        "body": [
+            "${1|ц,&#x0446;,U+0446,0x0446,CYRILLIC SMALL LETTER TSE|}$2",
+        ],
+        "description": [
+            "Code: U+0446",
+            "Character/Symbol: ц",
+            "Name: CYRILLIC SMALL LETTER TSE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ч U+0447 CYRILLIC SMALL LETTER CHE": 
+    {
+        "prefix": [
+            "..U.0447",
+            "..U.CYRILLIC SMALL LETTER CHE",
+            "U+0447",
+        ],
+        "body": [
+            "${1|ч,&#x0447;,U+0447,0x0447,CYRILLIC SMALL LETTER CHE|}$2",
+        ],
+        "description": [
+            "Code: U+0447",
+            "Character/Symbol: ч",
+            "Name: CYRILLIC SMALL LETTER CHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ш U+0448 CYRILLIC SMALL LETTER SHA": 
+    {
+        "prefix": [
+            "..U.0448",
+            "..U.CYRILLIC SMALL LETTER SHA",
+            "U+0448",
+        ],
+        "body": [
+            "${1|ш,&#x0448;,U+0448,0x0448,CYRILLIC SMALL LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+0448",
+            "Character/Symbol: ш",
+            "Name: CYRILLIC SMALL LETTER SHA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode щ U+0449 CYRILLIC SMALL LETTER SHCHA": 
+    {
+        "prefix": [
+            "..U.0449",
+            "..U.CYRILLIC SMALL LETTER SHCHA",
+            "U+0449",
+        ],
+        "body": [
+            "${1|щ,&#x0449;,U+0449,0x0449,CYRILLIC SMALL LETTER SHCHA|}$2",
+        ],
+        "description": [
+            "Code: U+0449",
+            "Character/Symbol: щ",
+            "Name: CYRILLIC SMALL LETTER SHCHA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ъ U+044A CYRILLIC SMALL LETTER HARD SIGN": 
+    {
+        "prefix": [
+            "..U.044A",
+            "..U.CYRILLIC SMALL LETTER HARD SIGN",
+            "U+044A",
+        ],
+        "body": [
+            "${1|ъ,&#x044A;,U+044A,0x044A,CYRILLIC SMALL LETTER HARD SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+044A",
+            "Character/Symbol: ъ",
+            "Name: CYRILLIC SMALL LETTER HARD SIGN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ы U+044B CYRILLIC SMALL LETTER YERU": 
+    {
+        "prefix": [
+            "..U.044B",
+            "..U.CYRILLIC SMALL LETTER YERU",
+            "U+044B",
+        ],
+        "body": [
+            "${1|ы,&#x044B;,U+044B,0x044B,CYRILLIC SMALL LETTER YERU|}$2",
+        ],
+        "description": [
+            "Code: U+044B",
+            "Character/Symbol: ы",
+            "Name: CYRILLIC SMALL LETTER YERU",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ь U+044C CYRILLIC SMALL LETTER SOFT SIGN": 
+    {
+        "prefix": [
+            "..U.044C",
+            "..U.CYRILLIC SMALL LETTER SOFT SIGN",
+            "U+044C",
+        ],
+        "body": [
+            "${1|ь,&#x044C;,U+044C,0x044C,CYRILLIC SMALL LETTER SOFT SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+044C",
+            "Character/Symbol: ь",
+            "Name: CYRILLIC SMALL LETTER SOFT SIGN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode э U+044D CYRILLIC SMALL LETTER E": 
+    {
+        "prefix": [
+            "..U.044D",
+            "..U.CYRILLIC SMALL LETTER E",
+            "U+044D",
+        ],
+        "body": [
+            "${1|э,&#x044D;,U+044D,0x044D,CYRILLIC SMALL LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+044D",
+            "Character/Symbol: э",
+            "Name: CYRILLIC SMALL LETTER E",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ю U+044E CYRILLIC SMALL LETTER YU": 
+    {
+        "prefix": [
+            "..U.044E",
+            "..U.CYRILLIC SMALL LETTER YU",
+            "U+044E",
+        ],
+        "body": [
+            "${1|ю,&#x044E;,U+044E,0x044E,CYRILLIC SMALL LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+044E",
+            "Character/Symbol: ю",
+            "Name: CYRILLIC SMALL LETTER YU",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode я U+044F CYRILLIC SMALL LETTER YA": 
+    {
+        "prefix": [
+            "..U.044F",
+            "..U.CYRILLIC SMALL LETTER YA",
+            "U+044F",
+        ],
+        "body": [
+            "${1|я,&#x044F;,U+044F,0x044F,CYRILLIC SMALL LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+044F",
+            "Character/Symbol: я",
+            "Name: CYRILLIC SMALL LETTER YA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѐ U+0450 CYRILLIC SMALL LETTER IE WITH GRAVE": 
+    {
+        "prefix": [
+            "..U.0450",
+            "..U.CYRILLIC SMALL LETTER IE WITH GRAVE",
+            "U+0450",
+        ],
+        "body": [
+            "${1|ѐ,&#x0450;,U+0450,0x0450,CYRILLIC SMALL LETTER IE WITH GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+0450",
+            "Character/Symbol: ѐ",
+            "Name: CYRILLIC SMALL LETTER IE WITH GRAVE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ё U+0451 CYRILLIC SMALL LETTER IO": 
+    {
+        "prefix": [
+            "..U.0451",
+            "..U.CYRILLIC SMALL LETTER IO",
+            "U+0451",
+        ],
+        "body": [
+            "${1|ё,&#x0451;,U+0451,0x0451,CYRILLIC SMALL LETTER IO|}$2",
+        ],
+        "description": [
+            "Code: U+0451",
+            "Character/Symbol: ё",
+            "Name: CYRILLIC SMALL LETTER IO",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ђ U+0452 CYRILLIC SMALL LETTER DJE": 
+    {
+        "prefix": [
+            "..U.0452",
+            "..U.CYRILLIC SMALL LETTER DJE",
+            "U+0452",
+        ],
+        "body": [
+            "${1|ђ,&#x0452;,U+0452,0x0452,CYRILLIC SMALL LETTER DJE|}$2",
+        ],
+        "description": [
+            "Code: U+0452",
+            "Character/Symbol: ђ",
+            "Name: CYRILLIC SMALL LETTER DJE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѓ U+0453 CYRILLIC SMALL LETTER GJE": 
+    {
+        "prefix": [
+            "..U.0453",
+            "..U.CYRILLIC SMALL LETTER GJE",
+            "U+0453",
+        ],
+        "body": [
+            "${1|ѓ,&#x0453;,U+0453,0x0453,CYRILLIC SMALL LETTER GJE|}$2",
+        ],
+        "description": [
+            "Code: U+0453",
+            "Character/Symbol: ѓ",
+            "Name: CYRILLIC SMALL LETTER GJE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode є U+0454 CYRILLIC SMALL LETTER UKRAINIAN IE": 
+    {
+        "prefix": [
+            "..U.0454",
+            "..U.CYRILLIC SMALL LETTER UKRAINIAN IE",
+            "U+0454",
+        ],
+        "body": [
+            "${1|є,&#x0454;,U+0454,0x0454,CYRILLIC SMALL LETTER UKRAINIAN IE|}$2",
+        ],
+        "description": [
+            "Code: U+0454",
+            "Character/Symbol: є",
+            "Name: CYRILLIC SMALL LETTER UKRAINIAN IE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѕ U+0455 CYRILLIC SMALL LETTER DZE": 
+    {
+        "prefix": [
+            "..U.0455",
+            "..U.CYRILLIC SMALL LETTER DZE",
+            "U+0455",
+        ],
+        "body": [
+            "${1|ѕ,&#x0455;,U+0455,0x0455,CYRILLIC SMALL LETTER DZE|}$2",
+        ],
+        "description": [
+            "Code: U+0455",
+            "Character/Symbol: ѕ",
+            "Name: CYRILLIC SMALL LETTER DZE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode і U+0456 CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I": 
+    {
+        "prefix": [
+            "..U.0456",
+            "..U.CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I",
+            "U+0456",
+        ],
+        "body": [
+            "${1|і,&#x0456;,U+0456,0x0456,CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I|}$2",
+        ],
+        "description": [
+            "Code: U+0456",
+            "Character/Symbol: і",
+            "Name: CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ї U+0457 CYRILLIC SMALL LETTER YI": 
+    {
+        "prefix": [
+            "..U.0457",
+            "..U.CYRILLIC SMALL LETTER YI",
+            "U+0457",
+        ],
+        "body": [
+            "${1|ї,&#x0457;,U+0457,0x0457,CYRILLIC SMALL LETTER YI|}$2",
+        ],
+        "description": [
+            "Code: U+0457",
+            "Character/Symbol: ї",
+            "Name: CYRILLIC SMALL LETTER YI",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ј U+0458 CYRILLIC SMALL LETTER JE": 
+    {
+        "prefix": [
+            "..U.0458",
+            "..U.CYRILLIC SMALL LETTER JE",
+            "U+0458",
+        ],
+        "body": [
+            "${1|ј,&#x0458;,U+0458,0x0458,CYRILLIC SMALL LETTER JE|}$2",
+        ],
+        "description": [
+            "Code: U+0458",
+            "Character/Symbol: ј",
+            "Name: CYRILLIC SMALL LETTER JE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode љ U+0459 CYRILLIC SMALL LETTER LJE": 
+    {
+        "prefix": [
+            "..U.0459",
+            "..U.CYRILLIC SMALL LETTER LJE",
+            "U+0459",
+        ],
+        "body": [
+            "${1|љ,&#x0459;,U+0459,0x0459,CYRILLIC SMALL LETTER LJE|}$2",
+        ],
+        "description": [
+            "Code: U+0459",
+            "Character/Symbol: љ",
+            "Name: CYRILLIC SMALL LETTER LJE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode њ U+045A CYRILLIC SMALL LETTER NJE": 
+    {
+        "prefix": [
+            "..U.045A",
+            "..U.CYRILLIC SMALL LETTER NJE",
+            "U+045A",
+        ],
+        "body": [
+            "${1|њ,&#x045A;,U+045A,0x045A,CYRILLIC SMALL LETTER NJE|}$2",
+        ],
+        "description": [
+            "Code: U+045A",
+            "Character/Symbol: њ",
+            "Name: CYRILLIC SMALL LETTER NJE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ћ U+045B CYRILLIC SMALL LETTER TSHE": 
+    {
+        "prefix": [
+            "..U.045B",
+            "..U.CYRILLIC SMALL LETTER TSHE",
+            "U+045B",
+        ],
+        "body": [
+            "${1|ћ,&#x045B;,U+045B,0x045B,CYRILLIC SMALL LETTER TSHE|}$2",
+        ],
+        "description": [
+            "Code: U+045B",
+            "Character/Symbol: ћ",
+            "Name: CYRILLIC SMALL LETTER TSHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ќ U+045C CYRILLIC SMALL LETTER KJE": 
+    {
+        "prefix": [
+            "..U.045C",
+            "..U.CYRILLIC SMALL LETTER KJE",
+            "U+045C",
+        ],
+        "body": [
+            "${1|ќ,&#x045C;,U+045C,0x045C,CYRILLIC SMALL LETTER KJE|}$2",
+        ],
+        "description": [
+            "Code: U+045C",
+            "Character/Symbol: ќ",
+            "Name: CYRILLIC SMALL LETTER KJE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѝ U+045D CYRILLIC SMALL LETTER I WITH GRAVE": 
+    {
+        "prefix": [
+            "..U.045D",
+            "..U.CYRILLIC SMALL LETTER I WITH GRAVE",
+            "U+045D",
+        ],
+        "body": [
+            "${1|ѝ,&#x045D;,U+045D,0x045D,CYRILLIC SMALL LETTER I WITH GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+045D",
+            "Character/Symbol: ѝ",
+            "Name: CYRILLIC SMALL LETTER I WITH GRAVE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ў U+045E CYRILLIC SMALL LETTER SHORT U": 
+    {
+        "prefix": [
+            "..U.045E",
+            "..U.CYRILLIC SMALL LETTER SHORT U",
+            "U+045E",
+        ],
+        "body": [
+            "${1|ў,&#x045E;,U+045E,0x045E,CYRILLIC SMALL LETTER SHORT U|}$2",
+        ],
+        "description": [
+            "Code: U+045E",
+            "Character/Symbol: ў",
+            "Name: CYRILLIC SMALL LETTER SHORT U",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode џ U+045F CYRILLIC SMALL LETTER DZHE": 
+    {
+        "prefix": [
+            "..U.045F",
+            "..U.CYRILLIC SMALL LETTER DZHE",
+            "U+045F",
+        ],
+        "body": [
+            "${1|џ,&#x045F;,U+045F,0x045F,CYRILLIC SMALL LETTER DZHE|}$2",
+        ],
+        "description": [
+            "Code: U+045F",
+            "Character/Symbol: џ",
+            "Name: CYRILLIC SMALL LETTER DZHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѡ U+0460 CYRILLIC CAPITAL LETTER OMEGA": 
+    {
+        "prefix": [
+            "..U.0460",
+            "..U.CYRILLIC CAPITAL LETTER OMEGA",
+            "U+0460",
+        ],
+        "body": [
+            "${1|Ѡ,&#x0460;,U+0460,0x0460,CYRILLIC CAPITAL LETTER OMEGA|}$2",
+        ],
+        "description": [
+            "Code: U+0460",
+            "Character/Symbol: Ѡ",
+            "Name: CYRILLIC CAPITAL LETTER OMEGA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѡ U+0461 CYRILLIC SMALL LETTER OMEGA": 
+    {
+        "prefix": [
+            "..U.0461",
+            "..U.CYRILLIC SMALL LETTER OMEGA",
+            "U+0461",
+        ],
+        "body": [
+            "${1|ѡ,&#x0461;,U+0461,0x0461,CYRILLIC SMALL LETTER OMEGA|}$2",
+        ],
+        "description": [
+            "Code: U+0461",
+            "Character/Symbol: ѡ",
+            "Name: CYRILLIC SMALL LETTER OMEGA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѣ U+0462 CYRILLIC CAPITAL LETTER YAT": 
+    {
+        "prefix": [
+            "..U.0462",
+            "..U.CYRILLIC CAPITAL LETTER YAT",
+            "U+0462",
+        ],
+        "body": [
+            "${1|Ѣ,&#x0462;,U+0462,0x0462,CYRILLIC CAPITAL LETTER YAT|}$2",
+        ],
+        "description": [
+            "Code: U+0462",
+            "Character/Symbol: Ѣ",
+            "Name: CYRILLIC CAPITAL LETTER YAT",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѣ U+0463 CYRILLIC SMALL LETTER YAT": 
+    {
+        "prefix": [
+            "..U.0463",
+            "..U.CYRILLIC SMALL LETTER YAT",
+            "U+0463",
+        ],
+        "body": [
+            "${1|ѣ,&#x0463;,U+0463,0x0463,CYRILLIC SMALL LETTER YAT|}$2",
+        ],
+        "description": [
+            "Code: U+0463",
+            "Character/Symbol: ѣ",
+            "Name: CYRILLIC SMALL LETTER YAT",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѥ U+0464 CYRILLIC CAPITAL LETTER IOTIFIED E": 
+    {
+        "prefix": [
+            "..U.0464",
+            "..U.CYRILLIC CAPITAL LETTER IOTIFIED E",
+            "U+0464",
+        ],
+        "body": [
+            "${1|Ѥ,&#x0464;,U+0464,0x0464,CYRILLIC CAPITAL LETTER IOTIFIED E|}$2",
+        ],
+        "description": [
+            "Code: U+0464",
+            "Character/Symbol: Ѥ",
+            "Name: CYRILLIC CAPITAL LETTER IOTIFIED E",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѥ U+0465 CYRILLIC SMALL LETTER IOTIFIED E": 
+    {
+        "prefix": [
+            "..U.0465",
+            "..U.CYRILLIC SMALL LETTER IOTIFIED E",
+            "U+0465",
+        ],
+        "body": [
+            "${1|ѥ,&#x0465;,U+0465,0x0465,CYRILLIC SMALL LETTER IOTIFIED E|}$2",
+        ],
+        "description": [
+            "Code: U+0465",
+            "Character/Symbol: ѥ",
+            "Name: CYRILLIC SMALL LETTER IOTIFIED E",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѧ U+0466 CYRILLIC CAPITAL LETTER LITTLE YUS": 
+    {
+        "prefix": [
+            "..U.0466",
+            "..U.CYRILLIC CAPITAL LETTER LITTLE YUS",
+            "U+0466",
+        ],
+        "body": [
+            "${1|Ѧ,&#x0466;,U+0466,0x0466,CYRILLIC CAPITAL LETTER LITTLE YUS|}$2",
+        ],
+        "description": [
+            "Code: U+0466",
+            "Character/Symbol: Ѧ",
+            "Name: CYRILLIC CAPITAL LETTER LITTLE YUS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѧ U+0467 CYRILLIC SMALL LETTER LITTLE YUS": 
+    {
+        "prefix": [
+            "..U.0467",
+            "..U.CYRILLIC SMALL LETTER LITTLE YUS",
+            "U+0467",
+        ],
+        "body": [
+            "${1|ѧ,&#x0467;,U+0467,0x0467,CYRILLIC SMALL LETTER LITTLE YUS|}$2",
+        ],
+        "description": [
+            "Code: U+0467",
+            "Character/Symbol: ѧ",
+            "Name: CYRILLIC SMALL LETTER LITTLE YUS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѩ U+0468 CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS": 
+    {
+        "prefix": [
+            "..U.0468",
+            "..U.CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS",
+            "U+0468",
+        ],
+        "body": [
+            "${1|Ѩ,&#x0468;,U+0468,0x0468,CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS|}$2",
+        ],
+        "description": [
+            "Code: U+0468",
+            "Character/Symbol: Ѩ",
+            "Name: CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѩ U+0469 CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS": 
+    {
+        "prefix": [
+            "..U.0469",
+            "..U.CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS",
+            "U+0469",
+        ],
+        "body": [
+            "${1|ѩ,&#x0469;,U+0469,0x0469,CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS|}$2",
+        ],
+        "description": [
+            "Code: U+0469",
+            "Character/Symbol: ѩ",
+            "Name: CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѫ U+046A CYRILLIC CAPITAL LETTER BIG YUS": 
+    {
+        "prefix": [
+            "..U.046A",
+            "..U.CYRILLIC CAPITAL LETTER BIG YUS",
+            "U+046A",
+        ],
+        "body": [
+            "${1|Ѫ,&#x046A;,U+046A,0x046A,CYRILLIC CAPITAL LETTER BIG YUS|}$2",
+        ],
+        "description": [
+            "Code: U+046A",
+            "Character/Symbol: Ѫ",
+            "Name: CYRILLIC CAPITAL LETTER BIG YUS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѫ U+046B CYRILLIC SMALL LETTER BIG YUS": 
+    {
+        "prefix": [
+            "..U.046B",
+            "..U.CYRILLIC SMALL LETTER BIG YUS",
+            "U+046B",
+        ],
+        "body": [
+            "${1|ѫ,&#x046B;,U+046B,0x046B,CYRILLIC SMALL LETTER BIG YUS|}$2",
+        ],
+        "description": [
+            "Code: U+046B",
+            "Character/Symbol: ѫ",
+            "Name: CYRILLIC SMALL LETTER BIG YUS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѭ U+046C CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS": 
+    {
+        "prefix": [
+            "..U.046C",
+            "..U.CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS",
+            "U+046C",
+        ],
+        "body": [
+            "${1|Ѭ,&#x046C;,U+046C,0x046C,CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS|}$2",
+        ],
+        "description": [
+            "Code: U+046C",
+            "Character/Symbol: Ѭ",
+            "Name: CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѭ U+046D CYRILLIC SMALL LETTER IOTIFIED BIG YUS": 
+    {
+        "prefix": [
+            "..U.046D",
+            "..U.CYRILLIC SMALL LETTER IOTIFIED BIG YUS",
+            "U+046D",
+        ],
+        "body": [
+            "${1|ѭ,&#x046D;,U+046D,0x046D,CYRILLIC SMALL LETTER IOTIFIED BIG YUS|}$2",
+        ],
+        "description": [
+            "Code: U+046D",
+            "Character/Symbol: ѭ",
+            "Name: CYRILLIC SMALL LETTER IOTIFIED BIG YUS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѯ U+046E CYRILLIC CAPITAL LETTER KSI": 
+    {
+        "prefix": [
+            "..U.046E",
+            "..U.CYRILLIC CAPITAL LETTER KSI",
+            "U+046E",
+        ],
+        "body": [
+            "${1|Ѯ,&#x046E;,U+046E,0x046E,CYRILLIC CAPITAL LETTER KSI|}$2",
+        ],
+        "description": [
+            "Code: U+046E",
+            "Character/Symbol: Ѯ",
+            "Name: CYRILLIC CAPITAL LETTER KSI",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѯ U+046F CYRILLIC SMALL LETTER KSI": 
+    {
+        "prefix": [
+            "..U.046F",
+            "..U.CYRILLIC SMALL LETTER KSI",
+            "U+046F",
+        ],
+        "body": [
+            "${1|ѯ,&#x046F;,U+046F,0x046F,CYRILLIC SMALL LETTER KSI|}$2",
+        ],
+        "description": [
+            "Code: U+046F",
+            "Character/Symbol: ѯ",
+            "Name: CYRILLIC SMALL LETTER KSI",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѱ U+0470 CYRILLIC CAPITAL LETTER PSI": 
+    {
+        "prefix": [
+            "..U.0470",
+            "..U.CYRILLIC CAPITAL LETTER PSI",
+            "U+0470",
+        ],
+        "body": [
+            "${1|Ѱ,&#x0470;,U+0470,0x0470,CYRILLIC CAPITAL LETTER PSI|}$2",
+        ],
+        "description": [
+            "Code: U+0470",
+            "Character/Symbol: Ѱ",
+            "Name: CYRILLIC CAPITAL LETTER PSI",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѱ U+0471 CYRILLIC SMALL LETTER PSI": 
+    {
+        "prefix": [
+            "..U.0471",
+            "..U.CYRILLIC SMALL LETTER PSI",
+            "U+0471",
+        ],
+        "body": [
+            "${1|ѱ,&#x0471;,U+0471,0x0471,CYRILLIC SMALL LETTER PSI|}$2",
+        ],
+        "description": [
+            "Code: U+0471",
+            "Character/Symbol: ѱ",
+            "Name: CYRILLIC SMALL LETTER PSI",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѳ U+0472 CYRILLIC CAPITAL LETTER FITA": 
+    {
+        "prefix": [
+            "..U.0472",
+            "..U.CYRILLIC CAPITAL LETTER FITA",
+            "U+0472",
+        ],
+        "body": [
+            "${1|Ѳ,&#x0472;,U+0472,0x0472,CYRILLIC CAPITAL LETTER FITA|}$2",
+        ],
+        "description": [
+            "Code: U+0472",
+            "Character/Symbol: Ѳ",
+            "Name: CYRILLIC CAPITAL LETTER FITA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѳ U+0473 CYRILLIC SMALL LETTER FITA": 
+    {
+        "prefix": [
+            "..U.0473",
+            "..U.CYRILLIC SMALL LETTER FITA",
+            "U+0473",
+        ],
+        "body": [
+            "${1|ѳ,&#x0473;,U+0473,0x0473,CYRILLIC SMALL LETTER FITA|}$2",
+        ],
+        "description": [
+            "Code: U+0473",
+            "Character/Symbol: ѳ",
+            "Name: CYRILLIC SMALL LETTER FITA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѵ U+0474 CYRILLIC CAPITAL LETTER IZHITSA": 
+    {
+        "prefix": [
+            "..U.0474",
+            "..U.CYRILLIC CAPITAL LETTER IZHITSA",
+            "U+0474",
+        ],
+        "body": [
+            "${1|Ѵ,&#x0474;,U+0474,0x0474,CYRILLIC CAPITAL LETTER IZHITSA|}$2",
+        ],
+        "description": [
+            "Code: U+0474",
+            "Character/Symbol: Ѵ",
+            "Name: CYRILLIC CAPITAL LETTER IZHITSA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѵ U+0475 CYRILLIC SMALL LETTER IZHITSA": 
+    {
+        "prefix": [
+            "..U.0475",
+            "..U.CYRILLIC SMALL LETTER IZHITSA",
+            "U+0475",
+        ],
+        "body": [
+            "${1|ѵ,&#x0475;,U+0475,0x0475,CYRILLIC SMALL LETTER IZHITSA|}$2",
+        ],
+        "description": [
+            "Code: U+0475",
+            "Character/Symbol: ѵ",
+            "Name: CYRILLIC SMALL LETTER IZHITSA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѷ U+0476 CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT": 
+    {
+        "prefix": [
+            "..U.0476",
+            "..U.CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT",
+            "U+0476",
+        ],
+        "body": [
+            "${1|Ѷ,&#x0476;,U+0476,0x0476,CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+0476",
+            "Character/Symbol: Ѷ",
+            "Name: CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѷ U+0477 CYRILLIC SMALL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT": 
+    {
+        "prefix": [
+            "..U.0477",
+            "..U.CYRILLIC SMALL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT",
+            "U+0477",
+        ],
+        "body": [
+            "${1|ѷ,&#x0477;,U+0477,0x0477,CYRILLIC SMALL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+0477",
+            "Character/Symbol: ѷ",
+            "Name: CYRILLIC SMALL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѹ U+0478 CYRILLIC CAPITAL LETTER UK": 
+    {
+        "prefix": [
+            "..U.0478",
+            "..U.CYRILLIC CAPITAL LETTER UK",
+            "U+0478",
+        ],
+        "body": [
+            "${1|Ѹ,&#x0478;,U+0478,0x0478,CYRILLIC CAPITAL LETTER UK|}$2",
+        ],
+        "description": [
+            "Code: U+0478",
+            "Character/Symbol: Ѹ",
+            "Name: CYRILLIC CAPITAL LETTER UK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѹ U+0479 CYRILLIC SMALL LETTER UK": 
+    {
+        "prefix": [
+            "..U.0479",
+            "..U.CYRILLIC SMALL LETTER UK",
+            "U+0479",
+        ],
+        "body": [
+            "${1|ѹ,&#x0479;,U+0479,0x0479,CYRILLIC SMALL LETTER UK|}$2",
+        ],
+        "description": [
+            "Code: U+0479",
+            "Character/Symbol: ѹ",
+            "Name: CYRILLIC SMALL LETTER UK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѻ U+047A CYRILLIC CAPITAL LETTER ROUND OMEGA": 
+    {
+        "prefix": [
+            "..U.047A",
+            "..U.CYRILLIC CAPITAL LETTER ROUND OMEGA",
+            "U+047A",
+        ],
+        "body": [
+            "${1|Ѻ,&#x047A;,U+047A,0x047A,CYRILLIC CAPITAL LETTER ROUND OMEGA|}$2",
+        ],
+        "description": [
+            "Code: U+047A",
+            "Character/Symbol: Ѻ",
+            "Name: CYRILLIC CAPITAL LETTER ROUND OMEGA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѻ U+047B CYRILLIC SMALL LETTER ROUND OMEGA": 
+    {
+        "prefix": [
+            "..U.047B",
+            "..U.CYRILLIC SMALL LETTER ROUND OMEGA",
+            "U+047B",
+        ],
+        "body": [
+            "${1|ѻ,&#x047B;,U+047B,0x047B,CYRILLIC SMALL LETTER ROUND OMEGA|}$2",
+        ],
+        "description": [
+            "Code: U+047B",
+            "Character/Symbol: ѻ",
+            "Name: CYRILLIC SMALL LETTER ROUND OMEGA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѽ U+047C CYRILLIC CAPITAL LETTER OMEGA WITH TITLO": 
+    {
+        "prefix": [
+            "..U.047C",
+            "..U.CYRILLIC CAPITAL LETTER OMEGA WITH TITLO",
+            "U+047C",
+        ],
+        "body": [
+            "${1|Ѽ,&#x047C;,U+047C,0x047C,CYRILLIC CAPITAL LETTER OMEGA WITH TITLO|}$2",
+        ],
+        "description": [
+            "Code: U+047C",
+            "Character/Symbol: Ѽ",
+            "Name: CYRILLIC CAPITAL LETTER OMEGA WITH TITLO",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѽ U+047D CYRILLIC SMALL LETTER OMEGA WITH TITLO": 
+    {
+        "prefix": [
+            "..U.047D",
+            "..U.CYRILLIC SMALL LETTER OMEGA WITH TITLO",
+            "U+047D",
+        ],
+        "body": [
+            "${1|ѽ,&#x047D;,U+047D,0x047D,CYRILLIC SMALL LETTER OMEGA WITH TITLO|}$2",
+        ],
+        "description": [
+            "Code: U+047D",
+            "Character/Symbol: ѽ",
+            "Name: CYRILLIC SMALL LETTER OMEGA WITH TITLO",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ѿ U+047E CYRILLIC CAPITAL LETTER OT": 
+    {
+        "prefix": [
+            "..U.047E",
+            "..U.CYRILLIC CAPITAL LETTER OT",
+            "U+047E",
+        ],
+        "body": [
+            "${1|Ѿ,&#x047E;,U+047E,0x047E,CYRILLIC CAPITAL LETTER OT|}$2",
+        ],
+        "description": [
+            "Code: U+047E",
+            "Character/Symbol: Ѿ",
+            "Name: CYRILLIC CAPITAL LETTER OT",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ѿ U+047F CYRILLIC SMALL LETTER OT": 
+    {
+        "prefix": [
+            "..U.047F",
+            "..U.CYRILLIC SMALL LETTER OT",
+            "U+047F",
+        ],
+        "body": [
+            "${1|ѿ,&#x047F;,U+047F,0x047F,CYRILLIC SMALL LETTER OT|}$2",
+        ],
+        "description": [
+            "Code: U+047F",
+            "Character/Symbol: ѿ",
+            "Name: CYRILLIC SMALL LETTER OT",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҁ U+0480 CYRILLIC CAPITAL LETTER KOPPA": 
+    {
+        "prefix": [
+            "..U.0480",
+            "..U.CYRILLIC CAPITAL LETTER KOPPA",
+            "U+0480",
+        ],
+        "body": [
+            "${1|Ҁ,&#x0480;,U+0480,0x0480,CYRILLIC CAPITAL LETTER KOPPA|}$2",
+        ],
+        "description": [
+            "Code: U+0480",
+            "Character/Symbol: Ҁ",
+            "Name: CYRILLIC CAPITAL LETTER KOPPA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҁ U+0481 CYRILLIC SMALL LETTER KOPPA": 
+    {
+        "prefix": [
+            "..U.0481",
+            "..U.CYRILLIC SMALL LETTER KOPPA",
+            "U+0481",
+        ],
+        "body": [
+            "${1|ҁ,&#x0481;,U+0481,0x0481,CYRILLIC SMALL LETTER KOPPA|}$2",
+        ],
+        "description": [
+            "Code: U+0481",
+            "Character/Symbol: ҁ",
+            "Name: CYRILLIC SMALL LETTER KOPPA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҂ U+0482 CYRILLIC THOUSANDS SIGN": 
+    {
+        "prefix": [
+            "..U.0482",
+            "..U.CYRILLIC THOUSANDS SIGN",
+            "U+0482",
+        ],
+        "body": [
+            "${1|҂,&#x0482;,U+0482,0x0482,CYRILLIC THOUSANDS SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0482",
+            "Character/Symbol: ҂",
+            "Name: CYRILLIC THOUSANDS SIGN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҃ U+0483 COMBINING CYRILLIC TITLO": 
+    {
+        "prefix": [
+            "..U.0483",
+            "..U.COMBINING CYRILLIC TITLO",
+            "U+0483",
+        ],
+        "body": [
+            "${1|҃,&#x0483;,U+0483,0x0483,COMBINING CYRILLIC TITLO|}$2",
+        ],
+        "description": [
+            "Code: U+0483",
+            "Character/Symbol: ҃",
+            "Name: COMBINING CYRILLIC TITLO",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҄ U+0484 COMBINING CYRILLIC PALATALIZATION": 
+    {
+        "prefix": [
+            "..U.0484",
+            "..U.COMBINING CYRILLIC PALATALIZATION",
+            "U+0484",
+        ],
+        "body": [
+            "${1|҄,&#x0484;,U+0484,0x0484,COMBINING CYRILLIC PALATALIZATION|}$2",
+        ],
+        "description": [
+            "Code: U+0484",
+            "Character/Symbol: ҄",
+            "Name: COMBINING CYRILLIC PALATALIZATION",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҅ U+0485 COMBINING CYRILLIC DASIA PNEUMATA": 
+    {
+        "prefix": [
+            "..U.0485",
+            "..U.COMBINING CYRILLIC DASIA PNEUMATA",
+            "U+0485",
+        ],
+        "body": [
+            "${1|҅,&#x0485;,U+0485,0x0485,COMBINING CYRILLIC DASIA PNEUMATA|}$2",
+        ],
+        "description": [
+            "Code: U+0485",
+            "Character/Symbol: ҅",
+            "Name: COMBINING CYRILLIC DASIA PNEUMATA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҆ U+0486 COMBINING CYRILLIC PSILI PNEUMATA": 
+    {
+        "prefix": [
+            "..U.0486",
+            "..U.COMBINING CYRILLIC PSILI PNEUMATA",
+            "U+0486",
+        ],
+        "body": [
+            "${1|҆,&#x0486;,U+0486,0x0486,COMBINING CYRILLIC PSILI PNEUMATA|}$2",
+        ],
+        "description": [
+            "Code: U+0486",
+            "Character/Symbol: ҆",
+            "Name: COMBINING CYRILLIC PSILI PNEUMATA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҇ U+0487 COMBINING CYRILLIC POKRYTIE": 
+    {
+        "prefix": [
+            "..U.0487",
+            "..U.COMBINING CYRILLIC POKRYTIE",
+            "U+0487",
+        ],
+        "body": [
+            "${1|҇,&#x0487;,U+0487,0x0487,COMBINING CYRILLIC POKRYTIE|}$2",
+        ],
+        "description": [
+            "Code: U+0487",
+            "Character/Symbol: ҇",
+            "Name: COMBINING CYRILLIC POKRYTIE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҈ U+0488 COMBINING CYRILLIC HUNDRED THOUSANDS SIGN": 
+    {
+        "prefix": [
+            "..U.0488",
+            "..U.COMBINING CYRILLIC HUNDRED THOUSANDS SIGN",
+            "U+0488",
+        ],
+        "body": [
+            "${1|҈,&#x0488;,U+0488,0x0488,COMBINING CYRILLIC HUNDRED THOUSANDS SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0488",
+            "Character/Symbol: ҈",
+            "Name: COMBINING CYRILLIC HUNDRED THOUSANDS SIGN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҉ U+0489 COMBINING CYRILLIC MILLIONS SIGN": 
+    {
+        "prefix": [
+            "..U.0489",
+            "..U.COMBINING CYRILLIC MILLIONS SIGN",
+            "U+0489",
+        ],
+        "body": [
+            "${1|҉,&#x0489;,U+0489,0x0489,COMBINING CYRILLIC MILLIONS SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0489",
+            "Character/Symbol: ҉",
+            "Name: COMBINING CYRILLIC MILLIONS SIGN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҋ U+048A CYRILLIC CAPITAL LETTER SHORT I WITH TAIL": 
+    {
+        "prefix": [
+            "..U.048A",
+            "..U.CYRILLIC CAPITAL LETTER SHORT I WITH TAIL",
+            "U+048A",
+        ],
+        "body": [
+            "${1|Ҋ,&#x048A;,U+048A,0x048A,CYRILLIC CAPITAL LETTER SHORT I WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+048A",
+            "Character/Symbol: Ҋ",
+            "Name: CYRILLIC CAPITAL LETTER SHORT I WITH TAIL",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҋ U+048B CYRILLIC SMALL LETTER SHORT I WITH TAIL": 
+    {
+        "prefix": [
+            "..U.048B",
+            "..U.CYRILLIC SMALL LETTER SHORT I WITH TAIL",
+            "U+048B",
+        ],
+        "body": [
+            "${1|ҋ,&#x048B;,U+048B,0x048B,CYRILLIC SMALL LETTER SHORT I WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+048B",
+            "Character/Symbol: ҋ",
+            "Name: CYRILLIC SMALL LETTER SHORT I WITH TAIL",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҍ U+048C CYRILLIC CAPITAL LETTER SEMISOFT SIGN": 
+    {
+        "prefix": [
+            "..U.048C",
+            "..U.CYRILLIC CAPITAL LETTER SEMISOFT SIGN",
+            "U+048C",
+        ],
+        "body": [
+            "${1|Ҍ,&#x048C;,U+048C,0x048C,CYRILLIC CAPITAL LETTER SEMISOFT SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+048C",
+            "Character/Symbol: Ҍ",
+            "Name: CYRILLIC CAPITAL LETTER SEMISOFT SIGN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҍ U+048D CYRILLIC SMALL LETTER SEMISOFT SIGN": 
+    {
+        "prefix": [
+            "..U.048D",
+            "..U.CYRILLIC SMALL LETTER SEMISOFT SIGN",
+            "U+048D",
+        ],
+        "body": [
+            "${1|ҍ,&#x048D;,U+048D,0x048D,CYRILLIC SMALL LETTER SEMISOFT SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+048D",
+            "Character/Symbol: ҍ",
+            "Name: CYRILLIC SMALL LETTER SEMISOFT SIGN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҏ U+048E CYRILLIC CAPITAL LETTER ER WITH TICK": 
+    {
+        "prefix": [
+            "..U.048E",
+            "..U.CYRILLIC CAPITAL LETTER ER WITH TICK",
+            "U+048E",
+        ],
+        "body": [
+            "${1|Ҏ,&#x048E;,U+048E,0x048E,CYRILLIC CAPITAL LETTER ER WITH TICK|}$2",
+        ],
+        "description": [
+            "Code: U+048E",
+            "Character/Symbol: Ҏ",
+            "Name: CYRILLIC CAPITAL LETTER ER WITH TICK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҏ U+048F CYRILLIC SMALL LETTER ER WITH TICK": 
+    {
+        "prefix": [
+            "..U.048F",
+            "..U.CYRILLIC SMALL LETTER ER WITH TICK",
+            "U+048F",
+        ],
+        "body": [
+            "${1|ҏ,&#x048F;,U+048F,0x048F,CYRILLIC SMALL LETTER ER WITH TICK|}$2",
+        ],
+        "description": [
+            "Code: U+048F",
+            "Character/Symbol: ҏ",
+            "Name: CYRILLIC SMALL LETTER ER WITH TICK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ґ U+0490 CYRILLIC CAPITAL LETTER GHE WITH UPTURN": 
+    {
+        "prefix": [
+            "..U.0490",
+            "..U.CYRILLIC CAPITAL LETTER GHE WITH UPTURN",
+            "U+0490",
+        ],
+        "body": [
+            "${1|Ґ,&#x0490;,U+0490,0x0490,CYRILLIC CAPITAL LETTER GHE WITH UPTURN|}$2",
+        ],
+        "description": [
+            "Code: U+0490",
+            "Character/Symbol: Ґ",
+            "Name: CYRILLIC CAPITAL LETTER GHE WITH UPTURN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ґ U+0491 CYRILLIC SMALL LETTER GHE WITH UPTURN": 
+    {
+        "prefix": [
+            "..U.0491",
+            "..U.CYRILLIC SMALL LETTER GHE WITH UPTURN",
+            "U+0491",
+        ],
+        "body": [
+            "${1|ґ,&#x0491;,U+0491,0x0491,CYRILLIC SMALL LETTER GHE WITH UPTURN|}$2",
+        ],
+        "description": [
+            "Code: U+0491",
+            "Character/Symbol: ґ",
+            "Name: CYRILLIC SMALL LETTER GHE WITH UPTURN",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ғ U+0492 CYRILLIC CAPITAL LETTER GHE WITH STROKE": 
+    {
+        "prefix": [
+            "..U.0492",
+            "..U.CYRILLIC CAPITAL LETTER GHE WITH STROKE",
+            "U+0492",
+        ],
+        "body": [
+            "${1|Ғ,&#x0492;,U+0492,0x0492,CYRILLIC CAPITAL LETTER GHE WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+0492",
+            "Character/Symbol: Ғ",
+            "Name: CYRILLIC CAPITAL LETTER GHE WITH STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ғ U+0493 CYRILLIC SMALL LETTER GHE WITH STROKE": 
+    {
+        "prefix": [
+            "..U.0493",
+            "..U.CYRILLIC SMALL LETTER GHE WITH STROKE",
+            "U+0493",
+        ],
+        "body": [
+            "${1|ғ,&#x0493;,U+0493,0x0493,CYRILLIC SMALL LETTER GHE WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+0493",
+            "Character/Symbol: ғ",
+            "Name: CYRILLIC SMALL LETTER GHE WITH STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҕ U+0494 CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK": 
+    {
+        "prefix": [
+            "..U.0494",
+            "..U.CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK",
+            "U+0494",
+        ],
+        "body": [
+            "${1|Ҕ,&#x0494;,U+0494,0x0494,CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+0494",
+            "Character/Symbol: Ҕ",
+            "Name: CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҕ U+0495 CYRILLIC SMALL LETTER GHE WITH MIDDLE HOOK": 
+    {
+        "prefix": [
+            "..U.0495",
+            "..U.CYRILLIC SMALL LETTER GHE WITH MIDDLE HOOK",
+            "U+0495",
+        ],
+        "body": [
+            "${1|ҕ,&#x0495;,U+0495,0x0495,CYRILLIC SMALL LETTER GHE WITH MIDDLE HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+0495",
+            "Character/Symbol: ҕ",
+            "Name: CYRILLIC SMALL LETTER GHE WITH MIDDLE HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Җ U+0496 CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.0496",
+            "..U.CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER",
+            "U+0496",
+        ],
+        "body": [
+            "${1|Җ,&#x0496;,U+0496,0x0496,CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+0496",
+            "Character/Symbol: Җ",
+            "Name: CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode җ U+0497 CYRILLIC SMALL LETTER ZHE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.0497",
+            "..U.CYRILLIC SMALL LETTER ZHE WITH DESCENDER",
+            "U+0497",
+        ],
+        "body": [
+            "${1|җ,&#x0497;,U+0497,0x0497,CYRILLIC SMALL LETTER ZHE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+0497",
+            "Character/Symbol: җ",
+            "Name: CYRILLIC SMALL LETTER ZHE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҙ U+0498 CYRILLIC CAPITAL LETTER ZE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.0498",
+            "..U.CYRILLIC CAPITAL LETTER ZE WITH DESCENDER",
+            "U+0498",
+        ],
+        "body": [
+            "${1|Ҙ,&#x0498;,U+0498,0x0498,CYRILLIC CAPITAL LETTER ZE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+0498",
+            "Character/Symbol: Ҙ",
+            "Name: CYRILLIC CAPITAL LETTER ZE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҙ U+0499 CYRILLIC SMALL LETTER ZE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.0499",
+            "..U.CYRILLIC SMALL LETTER ZE WITH DESCENDER",
+            "U+0499",
+        ],
+        "body": [
+            "${1|ҙ,&#x0499;,U+0499,0x0499,CYRILLIC SMALL LETTER ZE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+0499",
+            "Character/Symbol: ҙ",
+            "Name: CYRILLIC SMALL LETTER ZE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Қ U+049A CYRILLIC CAPITAL LETTER KA WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.049A",
+            "..U.CYRILLIC CAPITAL LETTER KA WITH DESCENDER",
+            "U+049A",
+        ],
+        "body": [
+            "${1|Қ,&#x049A;,U+049A,0x049A,CYRILLIC CAPITAL LETTER KA WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+049A",
+            "Character/Symbol: Қ",
+            "Name: CYRILLIC CAPITAL LETTER KA WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode қ U+049B CYRILLIC SMALL LETTER KA WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.049B",
+            "..U.CYRILLIC SMALL LETTER KA WITH DESCENDER",
+            "U+049B",
+        ],
+        "body": [
+            "${1|қ,&#x049B;,U+049B,0x049B,CYRILLIC SMALL LETTER KA WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+049B",
+            "Character/Symbol: қ",
+            "Name: CYRILLIC SMALL LETTER KA WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҝ U+049C CYRILLIC CAPITAL LETTER KA WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.049C",
+            "..U.CYRILLIC CAPITAL LETTER KA WITH VERTICAL STROKE",
+            "U+049C",
+        ],
+        "body": [
+            "${1|Ҝ,&#x049C;,U+049C,0x049C,CYRILLIC CAPITAL LETTER KA WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+049C",
+            "Character/Symbol: Ҝ",
+            "Name: CYRILLIC CAPITAL LETTER KA WITH VERTICAL STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҝ U+049D CYRILLIC SMALL LETTER KA WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.049D",
+            "..U.CYRILLIC SMALL LETTER KA WITH VERTICAL STROKE",
+            "U+049D",
+        ],
+        "body": [
+            "${1|ҝ,&#x049D;,U+049D,0x049D,CYRILLIC SMALL LETTER KA WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+049D",
+            "Character/Symbol: ҝ",
+            "Name: CYRILLIC SMALL LETTER KA WITH VERTICAL STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҟ U+049E CYRILLIC CAPITAL LETTER KA WITH STROKE": 
+    {
+        "prefix": [
+            "..U.049E",
+            "..U.CYRILLIC CAPITAL LETTER KA WITH STROKE",
+            "U+049E",
+        ],
+        "body": [
+            "${1|Ҟ,&#x049E;,U+049E,0x049E,CYRILLIC CAPITAL LETTER KA WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+049E",
+            "Character/Symbol: Ҟ",
+            "Name: CYRILLIC CAPITAL LETTER KA WITH STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҟ U+049F CYRILLIC SMALL LETTER KA WITH STROKE": 
+    {
+        "prefix": [
+            "..U.049F",
+            "..U.CYRILLIC SMALL LETTER KA WITH STROKE",
+            "U+049F",
+        ],
+        "body": [
+            "${1|ҟ,&#x049F;,U+049F,0x049F,CYRILLIC SMALL LETTER KA WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+049F",
+            "Character/Symbol: ҟ",
+            "Name: CYRILLIC SMALL LETTER KA WITH STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҡ U+04A0 CYRILLIC CAPITAL LETTER BASHKIR KA": 
+    {
+        "prefix": [
+            "..U.04A0",
+            "..U.CYRILLIC CAPITAL LETTER BASHKIR KA",
+            "U+04A0",
+        ],
+        "body": [
+            "${1|Ҡ,&#x04A0;,U+04A0,0x04A0,CYRILLIC CAPITAL LETTER BASHKIR KA|}$2",
+        ],
+        "description": [
+            "Code: U+04A0",
+            "Character/Symbol: Ҡ",
+            "Name: CYRILLIC CAPITAL LETTER BASHKIR KA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҡ U+04A1 CYRILLIC SMALL LETTER BASHKIR KA": 
+    {
+        "prefix": [
+            "..U.04A1",
+            "..U.CYRILLIC SMALL LETTER BASHKIR KA",
+            "U+04A1",
+        ],
+        "body": [
+            "${1|ҡ,&#x04A1;,U+04A1,0x04A1,CYRILLIC SMALL LETTER BASHKIR KA|}$2",
+        ],
+        "description": [
+            "Code: U+04A1",
+            "Character/Symbol: ҡ",
+            "Name: CYRILLIC SMALL LETTER BASHKIR KA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ң U+04A2 CYRILLIC CAPITAL LETTER EN WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04A2",
+            "..U.CYRILLIC CAPITAL LETTER EN WITH DESCENDER",
+            "U+04A2",
+        ],
+        "body": [
+            "${1|Ң,&#x04A2;,U+04A2,0x04A2,CYRILLIC CAPITAL LETTER EN WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04A2",
+            "Character/Symbol: Ң",
+            "Name: CYRILLIC CAPITAL LETTER EN WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ң U+04A3 CYRILLIC SMALL LETTER EN WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04A3",
+            "..U.CYRILLIC SMALL LETTER EN WITH DESCENDER",
+            "U+04A3",
+        ],
+        "body": [
+            "${1|ң,&#x04A3;,U+04A3,0x04A3,CYRILLIC SMALL LETTER EN WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04A3",
+            "Character/Symbol: ң",
+            "Name: CYRILLIC SMALL LETTER EN WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҥ U+04A4 CYRILLIC CAPITAL LIGATURE EN GHE": 
+    {
+        "prefix": [
+            "..U.04A4",
+            "..U.CYRILLIC CAPITAL LIGATURE EN GHE",
+            "U+04A4",
+        ],
+        "body": [
+            "${1|Ҥ,&#x04A4;,U+04A4,0x04A4,CYRILLIC CAPITAL LIGATURE EN GHE|}$2",
+        ],
+        "description": [
+            "Code: U+04A4",
+            "Character/Symbol: Ҥ",
+            "Name: CYRILLIC CAPITAL LIGATURE EN GHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҥ U+04A5 CYRILLIC SMALL LIGATURE EN GHE": 
+    {
+        "prefix": [
+            "..U.04A5",
+            "..U.CYRILLIC SMALL LIGATURE EN GHE",
+            "U+04A5",
+        ],
+        "body": [
+            "${1|ҥ,&#x04A5;,U+04A5,0x04A5,CYRILLIC SMALL LIGATURE EN GHE|}$2",
+        ],
+        "description": [
+            "Code: U+04A5",
+            "Character/Symbol: ҥ",
+            "Name: CYRILLIC SMALL LIGATURE EN GHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҧ U+04A6 CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK": 
+    {
+        "prefix": [
+            "..U.04A6",
+            "..U.CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK",
+            "U+04A6",
+        ],
+        "body": [
+            "${1|Ҧ,&#x04A6;,U+04A6,0x04A6,CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+04A6",
+            "Character/Symbol: Ҧ",
+            "Name: CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҧ U+04A7 CYRILLIC SMALL LETTER PE WITH MIDDLE HOOK": 
+    {
+        "prefix": [
+            "..U.04A7",
+            "..U.CYRILLIC SMALL LETTER PE WITH MIDDLE HOOK",
+            "U+04A7",
+        ],
+        "body": [
+            "${1|ҧ,&#x04A7;,U+04A7,0x04A7,CYRILLIC SMALL LETTER PE WITH MIDDLE HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+04A7",
+            "Character/Symbol: ҧ",
+            "Name: CYRILLIC SMALL LETTER PE WITH MIDDLE HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҩ U+04A8 CYRILLIC CAPITAL LETTER ABKHASIAN HA": 
+    {
+        "prefix": [
+            "..U.04A8",
+            "..U.CYRILLIC CAPITAL LETTER ABKHASIAN HA",
+            "U+04A8",
+        ],
+        "body": [
+            "${1|Ҩ,&#x04A8;,U+04A8,0x04A8,CYRILLIC CAPITAL LETTER ABKHASIAN HA|}$2",
+        ],
+        "description": [
+            "Code: U+04A8",
+            "Character/Symbol: Ҩ",
+            "Name: CYRILLIC CAPITAL LETTER ABKHASIAN HA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҩ U+04A9 CYRILLIC SMALL LETTER ABKHASIAN HA": 
+    {
+        "prefix": [
+            "..U.04A9",
+            "..U.CYRILLIC SMALL LETTER ABKHASIAN HA",
+            "U+04A9",
+        ],
+        "body": [
+            "${1|ҩ,&#x04A9;,U+04A9,0x04A9,CYRILLIC SMALL LETTER ABKHASIAN HA|}$2",
+        ],
+        "description": [
+            "Code: U+04A9",
+            "Character/Symbol: ҩ",
+            "Name: CYRILLIC SMALL LETTER ABKHASIAN HA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҫ U+04AA CYRILLIC CAPITAL LETTER ES WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04AA",
+            "..U.CYRILLIC CAPITAL LETTER ES WITH DESCENDER",
+            "U+04AA",
+        ],
+        "body": [
+            "${1|Ҫ,&#x04AA;,U+04AA,0x04AA,CYRILLIC CAPITAL LETTER ES WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04AA",
+            "Character/Symbol: Ҫ",
+            "Name: CYRILLIC CAPITAL LETTER ES WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҫ U+04AB CYRILLIC SMALL LETTER ES WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04AB",
+            "..U.CYRILLIC SMALL LETTER ES WITH DESCENDER",
+            "U+04AB",
+        ],
+        "body": [
+            "${1|ҫ,&#x04AB;,U+04AB,0x04AB,CYRILLIC SMALL LETTER ES WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04AB",
+            "Character/Symbol: ҫ",
+            "Name: CYRILLIC SMALL LETTER ES WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҭ U+04AC CYRILLIC CAPITAL LETTER TE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04AC",
+            "..U.CYRILLIC CAPITAL LETTER TE WITH DESCENDER",
+            "U+04AC",
+        ],
+        "body": [
+            "${1|Ҭ,&#x04AC;,U+04AC,0x04AC,CYRILLIC CAPITAL LETTER TE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04AC",
+            "Character/Symbol: Ҭ",
+            "Name: CYRILLIC CAPITAL LETTER TE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҭ U+04AD CYRILLIC SMALL LETTER TE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04AD",
+            "..U.CYRILLIC SMALL LETTER TE WITH DESCENDER",
+            "U+04AD",
+        ],
+        "body": [
+            "${1|ҭ,&#x04AD;,U+04AD,0x04AD,CYRILLIC SMALL LETTER TE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04AD",
+            "Character/Symbol: ҭ",
+            "Name: CYRILLIC SMALL LETTER TE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ү U+04AE CYRILLIC CAPITAL LETTER STRAIGHT U": 
+    {
+        "prefix": [
+            "..U.04AE",
+            "..U.CYRILLIC CAPITAL LETTER STRAIGHT U",
+            "U+04AE",
+        ],
+        "body": [
+            "${1|Ү,&#x04AE;,U+04AE,0x04AE,CYRILLIC CAPITAL LETTER STRAIGHT U|}$2",
+        ],
+        "description": [
+            "Code: U+04AE",
+            "Character/Symbol: Ү",
+            "Name: CYRILLIC CAPITAL LETTER STRAIGHT U",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ү U+04AF CYRILLIC SMALL LETTER STRAIGHT U": 
+    {
+        "prefix": [
+            "..U.04AF",
+            "..U.CYRILLIC SMALL LETTER STRAIGHT U",
+            "U+04AF",
+        ],
+        "body": [
+            "${1|ү,&#x04AF;,U+04AF,0x04AF,CYRILLIC SMALL LETTER STRAIGHT U|}$2",
+        ],
+        "description": [
+            "Code: U+04AF",
+            "Character/Symbol: ү",
+            "Name: CYRILLIC SMALL LETTER STRAIGHT U",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ұ U+04B0 CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE": 
+    {
+        "prefix": [
+            "..U.04B0",
+            "..U.CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE",
+            "U+04B0",
+        ],
+        "body": [
+            "${1|Ұ,&#x04B0;,U+04B0,0x04B0,CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+04B0",
+            "Character/Symbol: Ұ",
+            "Name: CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ұ U+04B1 CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE": 
+    {
+        "prefix": [
+            "..U.04B1",
+            "..U.CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE",
+            "U+04B1",
+        ],
+        "body": [
+            "${1|ұ,&#x04B1;,U+04B1,0x04B1,CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+04B1",
+            "Character/Symbol: ұ",
+            "Name: CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҳ U+04B2 CYRILLIC CAPITAL LETTER HA WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04B2",
+            "..U.CYRILLIC CAPITAL LETTER HA WITH DESCENDER",
+            "U+04B2",
+        ],
+        "body": [
+            "${1|Ҳ,&#x04B2;,U+04B2,0x04B2,CYRILLIC CAPITAL LETTER HA WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04B2",
+            "Character/Symbol: Ҳ",
+            "Name: CYRILLIC CAPITAL LETTER HA WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҳ U+04B3 CYRILLIC SMALL LETTER HA WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04B3",
+            "..U.CYRILLIC SMALL LETTER HA WITH DESCENDER",
+            "U+04B3",
+        ],
+        "body": [
+            "${1|ҳ,&#x04B3;,U+04B3,0x04B3,CYRILLIC SMALL LETTER HA WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04B3",
+            "Character/Symbol: ҳ",
+            "Name: CYRILLIC SMALL LETTER HA WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҵ U+04B4 CYRILLIC CAPITAL LIGATURE TE TSE": 
+    {
+        "prefix": [
+            "..U.04B4",
+            "..U.CYRILLIC CAPITAL LIGATURE TE TSE",
+            "U+04B4",
+        ],
+        "body": [
+            "${1|Ҵ,&#x04B4;,U+04B4,0x04B4,CYRILLIC CAPITAL LIGATURE TE TSE|}$2",
+        ],
+        "description": [
+            "Code: U+04B4",
+            "Character/Symbol: Ҵ",
+            "Name: CYRILLIC CAPITAL LIGATURE TE TSE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҵ U+04B5 CYRILLIC SMALL LIGATURE TE TSE": 
+    {
+        "prefix": [
+            "..U.04B5",
+            "..U.CYRILLIC SMALL LIGATURE TE TSE",
+            "U+04B5",
+        ],
+        "body": [
+            "${1|ҵ,&#x04B5;,U+04B5,0x04B5,CYRILLIC SMALL LIGATURE TE TSE|}$2",
+        ],
+        "description": [
+            "Code: U+04B5",
+            "Character/Symbol: ҵ",
+            "Name: CYRILLIC SMALL LIGATURE TE TSE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҷ U+04B6 CYRILLIC CAPITAL LETTER CHE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04B6",
+            "..U.CYRILLIC CAPITAL LETTER CHE WITH DESCENDER",
+            "U+04B6",
+        ],
+        "body": [
+            "${1|Ҷ,&#x04B6;,U+04B6,0x04B6,CYRILLIC CAPITAL LETTER CHE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04B6",
+            "Character/Symbol: Ҷ",
+            "Name: CYRILLIC CAPITAL LETTER CHE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҷ U+04B7 CYRILLIC SMALL LETTER CHE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04B7",
+            "..U.CYRILLIC SMALL LETTER CHE WITH DESCENDER",
+            "U+04B7",
+        ],
+        "body": [
+            "${1|ҷ,&#x04B7;,U+04B7,0x04B7,CYRILLIC SMALL LETTER CHE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04B7",
+            "Character/Symbol: ҷ",
+            "Name: CYRILLIC SMALL LETTER CHE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҹ U+04B8 CYRILLIC CAPITAL LETTER CHE WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.04B8",
+            "..U.CYRILLIC CAPITAL LETTER CHE WITH VERTICAL STROKE",
+            "U+04B8",
+        ],
+        "body": [
+            "${1|Ҹ,&#x04B8;,U+04B8,0x04B8,CYRILLIC CAPITAL LETTER CHE WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+04B8",
+            "Character/Symbol: Ҹ",
+            "Name: CYRILLIC CAPITAL LETTER CHE WITH VERTICAL STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҹ U+04B9 CYRILLIC SMALL LETTER CHE WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.04B9",
+            "..U.CYRILLIC SMALL LETTER CHE WITH VERTICAL STROKE",
+            "U+04B9",
+        ],
+        "body": [
+            "${1|ҹ,&#x04B9;,U+04B9,0x04B9,CYRILLIC SMALL LETTER CHE WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+04B9",
+            "Character/Symbol: ҹ",
+            "Name: CYRILLIC SMALL LETTER CHE WITH VERTICAL STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Һ U+04BA CYRILLIC CAPITAL LETTER SHHA": 
+    {
+        "prefix": [
+            "..U.04BA",
+            "..U.CYRILLIC CAPITAL LETTER SHHA",
+            "U+04BA",
+        ],
+        "body": [
+            "${1|Һ,&#x04BA;,U+04BA,0x04BA,CYRILLIC CAPITAL LETTER SHHA|}$2",
+        ],
+        "description": [
+            "Code: U+04BA",
+            "Character/Symbol: Һ",
+            "Name: CYRILLIC CAPITAL LETTER SHHA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode һ U+04BB CYRILLIC SMALL LETTER SHHA": 
+    {
+        "prefix": [
+            "..U.04BB",
+            "..U.CYRILLIC SMALL LETTER SHHA",
+            "U+04BB",
+        ],
+        "body": [
+            "${1|һ,&#x04BB;,U+04BB,0x04BB,CYRILLIC SMALL LETTER SHHA|}$2",
+        ],
+        "description": [
+            "Code: U+04BB",
+            "Character/Symbol: һ",
+            "Name: CYRILLIC SMALL LETTER SHHA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҽ U+04BC CYRILLIC CAPITAL LETTER ABKHASIAN CHE": 
+    {
+        "prefix": [
+            "..U.04BC",
+            "..U.CYRILLIC CAPITAL LETTER ABKHASIAN CHE",
+            "U+04BC",
+        ],
+        "body": [
+            "${1|Ҽ,&#x04BC;,U+04BC,0x04BC,CYRILLIC CAPITAL LETTER ABKHASIAN CHE|}$2",
+        ],
+        "description": [
+            "Code: U+04BC",
+            "Character/Symbol: Ҽ",
+            "Name: CYRILLIC CAPITAL LETTER ABKHASIAN CHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҽ U+04BD CYRILLIC SMALL LETTER ABKHASIAN CHE": 
+    {
+        "prefix": [
+            "..U.04BD",
+            "..U.CYRILLIC SMALL LETTER ABKHASIAN CHE",
+            "U+04BD",
+        ],
+        "body": [
+            "${1|ҽ,&#x04BD;,U+04BD,0x04BD,CYRILLIC SMALL LETTER ABKHASIAN CHE|}$2",
+        ],
+        "description": [
+            "Code: U+04BD",
+            "Character/Symbol: ҽ",
+            "Name: CYRILLIC SMALL LETTER ABKHASIAN CHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ҿ U+04BE CYRILLIC CAPITAL LETTER ABKHASIAN CHE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04BE",
+            "..U.CYRILLIC CAPITAL LETTER ABKHASIAN CHE WITH DESCENDER",
+            "U+04BE",
+        ],
+        "body": [
+            "${1|Ҿ,&#x04BE;,U+04BE,0x04BE,CYRILLIC CAPITAL LETTER ABKHASIAN CHE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04BE",
+            "Character/Symbol: Ҿ",
+            "Name: CYRILLIC CAPITAL LETTER ABKHASIAN CHE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ҿ U+04BF CYRILLIC SMALL LETTER ABKHASIAN CHE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04BF",
+            "..U.CYRILLIC SMALL LETTER ABKHASIAN CHE WITH DESCENDER",
+            "U+04BF",
+        ],
+        "body": [
+            "${1|ҿ,&#x04BF;,U+04BF,0x04BF,CYRILLIC SMALL LETTER ABKHASIAN CHE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04BF",
+            "Character/Symbol: ҿ",
+            "Name: CYRILLIC SMALL LETTER ABKHASIAN CHE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӏ U+04C0 CYRILLIC LETTER PALOCHKA": 
+    {
+        "prefix": [
+            "..U.04C0",
+            "..U.CYRILLIC LETTER PALOCHKA",
+            "U+04C0",
+        ],
+        "body": [
+            "${1|Ӏ,&#x04C0;,U+04C0,0x04C0,CYRILLIC LETTER PALOCHKA|}$2",
+        ],
+        "description": [
+            "Code: U+04C0",
+            "Character/Symbol: Ӏ",
+            "Name: CYRILLIC LETTER PALOCHKA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӂ U+04C1 CYRILLIC CAPITAL LETTER ZHE WITH BREVE": 
+    {
+        "prefix": [
+            "..U.04C1",
+            "..U.CYRILLIC CAPITAL LETTER ZHE WITH BREVE",
+            "U+04C1",
+        ],
+        "body": [
+            "${1|Ӂ,&#x04C1;,U+04C1,0x04C1,CYRILLIC CAPITAL LETTER ZHE WITH BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+04C1",
+            "Character/Symbol: Ӂ",
+            "Name: CYRILLIC CAPITAL LETTER ZHE WITH BREVE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӂ U+04C2 CYRILLIC SMALL LETTER ZHE WITH BREVE": 
+    {
+        "prefix": [
+            "..U.04C2",
+            "..U.CYRILLIC SMALL LETTER ZHE WITH BREVE",
+            "U+04C2",
+        ],
+        "body": [
+            "${1|ӂ,&#x04C2;,U+04C2,0x04C2,CYRILLIC SMALL LETTER ZHE WITH BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+04C2",
+            "Character/Symbol: ӂ",
+            "Name: CYRILLIC SMALL LETTER ZHE WITH BREVE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӄ U+04C3 CYRILLIC CAPITAL LETTER KA WITH HOOK": 
+    {
+        "prefix": [
+            "..U.04C3",
+            "..U.CYRILLIC CAPITAL LETTER KA WITH HOOK",
+            "U+04C3",
+        ],
+        "body": [
+            "${1|Ӄ,&#x04C3;,U+04C3,0x04C3,CYRILLIC CAPITAL LETTER KA WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+04C3",
+            "Character/Symbol: Ӄ",
+            "Name: CYRILLIC CAPITAL LETTER KA WITH HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӄ U+04C4 CYRILLIC SMALL LETTER KA WITH HOOK": 
+    {
+        "prefix": [
+            "..U.04C4",
+            "..U.CYRILLIC SMALL LETTER KA WITH HOOK",
+            "U+04C4",
+        ],
+        "body": [
+            "${1|ӄ,&#x04C4;,U+04C4,0x04C4,CYRILLIC SMALL LETTER KA WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+04C4",
+            "Character/Symbol: ӄ",
+            "Name: CYRILLIC SMALL LETTER KA WITH HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӆ U+04C5 CYRILLIC CAPITAL LETTER EL WITH TAIL": 
+    {
+        "prefix": [
+            "..U.04C5",
+            "..U.CYRILLIC CAPITAL LETTER EL WITH TAIL",
+            "U+04C5",
+        ],
+        "body": [
+            "${1|Ӆ,&#x04C5;,U+04C5,0x04C5,CYRILLIC CAPITAL LETTER EL WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+04C5",
+            "Character/Symbol: Ӆ",
+            "Name: CYRILLIC CAPITAL LETTER EL WITH TAIL",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӆ U+04C6 CYRILLIC SMALL LETTER EL WITH TAIL": 
+    {
+        "prefix": [
+            "..U.04C6",
+            "..U.CYRILLIC SMALL LETTER EL WITH TAIL",
+            "U+04C6",
+        ],
+        "body": [
+            "${1|ӆ,&#x04C6;,U+04C6,0x04C6,CYRILLIC SMALL LETTER EL WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+04C6",
+            "Character/Symbol: ӆ",
+            "Name: CYRILLIC SMALL LETTER EL WITH TAIL",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӈ U+04C7 CYRILLIC CAPITAL LETTER EN WITH HOOK": 
+    {
+        "prefix": [
+            "..U.04C7",
+            "..U.CYRILLIC CAPITAL LETTER EN WITH HOOK",
+            "U+04C7",
+        ],
+        "body": [
+            "${1|Ӈ,&#x04C7;,U+04C7,0x04C7,CYRILLIC CAPITAL LETTER EN WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+04C7",
+            "Character/Symbol: Ӈ",
+            "Name: CYRILLIC CAPITAL LETTER EN WITH HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӈ U+04C8 CYRILLIC SMALL LETTER EN WITH HOOK": 
+    {
+        "prefix": [
+            "..U.04C8",
+            "..U.CYRILLIC SMALL LETTER EN WITH HOOK",
+            "U+04C8",
+        ],
+        "body": [
+            "${1|ӈ,&#x04C8;,U+04C8,0x04C8,CYRILLIC SMALL LETTER EN WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+04C8",
+            "Character/Symbol: ӈ",
+            "Name: CYRILLIC SMALL LETTER EN WITH HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӊ U+04C9 CYRILLIC CAPITAL LETTER EN WITH TAIL": 
+    {
+        "prefix": [
+            "..U.04C9",
+            "..U.CYRILLIC CAPITAL LETTER EN WITH TAIL",
+            "U+04C9",
+        ],
+        "body": [
+            "${1|Ӊ,&#x04C9;,U+04C9,0x04C9,CYRILLIC CAPITAL LETTER EN WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+04C9",
+            "Character/Symbol: Ӊ",
+            "Name: CYRILLIC CAPITAL LETTER EN WITH TAIL",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӊ U+04CA CYRILLIC SMALL LETTER EN WITH TAIL": 
+    {
+        "prefix": [
+            "..U.04CA",
+            "..U.CYRILLIC SMALL LETTER EN WITH TAIL",
+            "U+04CA",
+        ],
+        "body": [
+            "${1|ӊ,&#x04CA;,U+04CA,0x04CA,CYRILLIC SMALL LETTER EN WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+04CA",
+            "Character/Symbol: ӊ",
+            "Name: CYRILLIC SMALL LETTER EN WITH TAIL",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӌ U+04CB CYRILLIC CAPITAL LETTER KHAKASSIAN CHE": 
+    {
+        "prefix": [
+            "..U.04CB",
+            "..U.CYRILLIC CAPITAL LETTER KHAKASSIAN CHE",
+            "U+04CB",
+        ],
+        "body": [
+            "${1|Ӌ,&#x04CB;,U+04CB,0x04CB,CYRILLIC CAPITAL LETTER KHAKASSIAN CHE|}$2",
+        ],
+        "description": [
+            "Code: U+04CB",
+            "Character/Symbol: Ӌ",
+            "Name: CYRILLIC CAPITAL LETTER KHAKASSIAN CHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӌ U+04CC CYRILLIC SMALL LETTER KHAKASSIAN CHE": 
+    {
+        "prefix": [
+            "..U.04CC",
+            "..U.CYRILLIC SMALL LETTER KHAKASSIAN CHE",
+            "U+04CC",
+        ],
+        "body": [
+            "${1|ӌ,&#x04CC;,U+04CC,0x04CC,CYRILLIC SMALL LETTER KHAKASSIAN CHE|}$2",
+        ],
+        "description": [
+            "Code: U+04CC",
+            "Character/Symbol: ӌ",
+            "Name: CYRILLIC SMALL LETTER KHAKASSIAN CHE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӎ U+04CD CYRILLIC CAPITAL LETTER EM WITH TAIL": 
+    {
+        "prefix": [
+            "..U.04CD",
+            "..U.CYRILLIC CAPITAL LETTER EM WITH TAIL",
+            "U+04CD",
+        ],
+        "body": [
+            "${1|Ӎ,&#x04CD;,U+04CD,0x04CD,CYRILLIC CAPITAL LETTER EM WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+04CD",
+            "Character/Symbol: Ӎ",
+            "Name: CYRILLIC CAPITAL LETTER EM WITH TAIL",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӎ U+04CE CYRILLIC SMALL LETTER EM WITH TAIL": 
+    {
+        "prefix": [
+            "..U.04CE",
+            "..U.CYRILLIC SMALL LETTER EM WITH TAIL",
+            "U+04CE",
+        ],
+        "body": [
+            "${1|ӎ,&#x04CE;,U+04CE,0x04CE,CYRILLIC SMALL LETTER EM WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+04CE",
+            "Character/Symbol: ӎ",
+            "Name: CYRILLIC SMALL LETTER EM WITH TAIL",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӏ U+04CF CYRILLIC SMALL LETTER PALOCHKA": 
+    {
+        "prefix": [
+            "..U.04CF",
+            "..U.CYRILLIC SMALL LETTER PALOCHKA",
+            "U+04CF",
+        ],
+        "body": [
+            "${1|ӏ,&#x04CF;,U+04CF,0x04CF,CYRILLIC SMALL LETTER PALOCHKA|}$2",
+        ],
+        "description": [
+            "Code: U+04CF",
+            "Character/Symbol: ӏ",
+            "Name: CYRILLIC SMALL LETTER PALOCHKA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӑ U+04D0 CYRILLIC CAPITAL LETTER A WITH BREVE": 
+    {
+        "prefix": [
+            "..U.04D0",
+            "..U.CYRILLIC CAPITAL LETTER A WITH BREVE",
+            "U+04D0",
+        ],
+        "body": [
+            "${1|Ӑ,&#x04D0;,U+04D0,0x04D0,CYRILLIC CAPITAL LETTER A WITH BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+04D0",
+            "Character/Symbol: Ӑ",
+            "Name: CYRILLIC CAPITAL LETTER A WITH BREVE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӑ U+04D1 CYRILLIC SMALL LETTER A WITH BREVE": 
+    {
+        "prefix": [
+            "..U.04D1",
+            "..U.CYRILLIC SMALL LETTER A WITH BREVE",
+            "U+04D1",
+        ],
+        "body": [
+            "${1|ӑ,&#x04D1;,U+04D1,0x04D1,CYRILLIC SMALL LETTER A WITH BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+04D1",
+            "Character/Symbol: ӑ",
+            "Name: CYRILLIC SMALL LETTER A WITH BREVE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӓ U+04D2 CYRILLIC CAPITAL LETTER A WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04D2",
+            "..U.CYRILLIC CAPITAL LETTER A WITH DIAERESIS",
+            "U+04D2",
+        ],
+        "body": [
+            "${1|Ӓ,&#x04D2;,U+04D2,0x04D2,CYRILLIC CAPITAL LETTER A WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04D2",
+            "Character/Symbol: Ӓ",
+            "Name: CYRILLIC CAPITAL LETTER A WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӓ U+04D3 CYRILLIC SMALL LETTER A WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04D3",
+            "..U.CYRILLIC SMALL LETTER A WITH DIAERESIS",
+            "U+04D3",
+        ],
+        "body": [
+            "${1|ӓ,&#x04D3;,U+04D3,0x04D3,CYRILLIC SMALL LETTER A WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04D3",
+            "Character/Symbol: ӓ",
+            "Name: CYRILLIC SMALL LETTER A WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӕ U+04D4 CYRILLIC CAPITAL LIGATURE A IE": 
+    {
+        "prefix": [
+            "..U.04D4",
+            "..U.CYRILLIC CAPITAL LIGATURE A IE",
+            "U+04D4",
+        ],
+        "body": [
+            "${1|Ӕ,&#x04D4;,U+04D4,0x04D4,CYRILLIC CAPITAL LIGATURE A IE|}$2",
+        ],
+        "description": [
+            "Code: U+04D4",
+            "Character/Symbol: Ӕ",
+            "Name: CYRILLIC CAPITAL LIGATURE A IE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӕ U+04D5 CYRILLIC SMALL LIGATURE A IE": 
+    {
+        "prefix": [
+            "..U.04D5",
+            "..U.CYRILLIC SMALL LIGATURE A IE",
+            "U+04D5",
+        ],
+        "body": [
+            "${1|ӕ,&#x04D5;,U+04D5,0x04D5,CYRILLIC SMALL LIGATURE A IE|}$2",
+        ],
+        "description": [
+            "Code: U+04D5",
+            "Character/Symbol: ӕ",
+            "Name: CYRILLIC SMALL LIGATURE A IE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӗ U+04D6 CYRILLIC CAPITAL LETTER IE WITH BREVE": 
+    {
+        "prefix": [
+            "..U.04D6",
+            "..U.CYRILLIC CAPITAL LETTER IE WITH BREVE",
+            "U+04D6",
+        ],
+        "body": [
+            "${1|Ӗ,&#x04D6;,U+04D6,0x04D6,CYRILLIC CAPITAL LETTER IE WITH BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+04D6",
+            "Character/Symbol: Ӗ",
+            "Name: CYRILLIC CAPITAL LETTER IE WITH BREVE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӗ U+04D7 CYRILLIC SMALL LETTER IE WITH BREVE": 
+    {
+        "prefix": [
+            "..U.04D7",
+            "..U.CYRILLIC SMALL LETTER IE WITH BREVE",
+            "U+04D7",
+        ],
+        "body": [
+            "${1|ӗ,&#x04D7;,U+04D7,0x04D7,CYRILLIC SMALL LETTER IE WITH BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+04D7",
+            "Character/Symbol: ӗ",
+            "Name: CYRILLIC SMALL LETTER IE WITH BREVE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ә U+04D8 CYRILLIC CAPITAL LETTER SCHWA": 
+    {
+        "prefix": [
+            "..U.04D8",
+            "..U.CYRILLIC CAPITAL LETTER SCHWA",
+            "U+04D8",
+        ],
+        "body": [
+            "${1|Ә,&#x04D8;,U+04D8,0x04D8,CYRILLIC CAPITAL LETTER SCHWA|}$2",
+        ],
+        "description": [
+            "Code: U+04D8",
+            "Character/Symbol: Ә",
+            "Name: CYRILLIC CAPITAL LETTER SCHWA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ә U+04D9 CYRILLIC SMALL LETTER SCHWA": 
+    {
+        "prefix": [
+            "..U.04D9",
+            "..U.CYRILLIC SMALL LETTER SCHWA",
+            "U+04D9",
+        ],
+        "body": [
+            "${1|ә,&#x04D9;,U+04D9,0x04D9,CYRILLIC SMALL LETTER SCHWA|}$2",
+        ],
+        "description": [
+            "Code: U+04D9",
+            "Character/Symbol: ә",
+            "Name: CYRILLIC SMALL LETTER SCHWA",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӛ U+04DA CYRILLIC CAPITAL LETTER SCHWA WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04DA",
+            "..U.CYRILLIC CAPITAL LETTER SCHWA WITH DIAERESIS",
+            "U+04DA",
+        ],
+        "body": [
+            "${1|Ӛ,&#x04DA;,U+04DA,0x04DA,CYRILLIC CAPITAL LETTER SCHWA WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04DA",
+            "Character/Symbol: Ӛ",
+            "Name: CYRILLIC CAPITAL LETTER SCHWA WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӛ U+04DB CYRILLIC SMALL LETTER SCHWA WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04DB",
+            "..U.CYRILLIC SMALL LETTER SCHWA WITH DIAERESIS",
+            "U+04DB",
+        ],
+        "body": [
+            "${1|ӛ,&#x04DB;,U+04DB,0x04DB,CYRILLIC SMALL LETTER SCHWA WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04DB",
+            "Character/Symbol: ӛ",
+            "Name: CYRILLIC SMALL LETTER SCHWA WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӝ U+04DC CYRILLIC CAPITAL LETTER ZHE WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04DC",
+            "..U.CYRILLIC CAPITAL LETTER ZHE WITH DIAERESIS",
+            "U+04DC",
+        ],
+        "body": [
+            "${1|Ӝ,&#x04DC;,U+04DC,0x04DC,CYRILLIC CAPITAL LETTER ZHE WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04DC",
+            "Character/Symbol: Ӝ",
+            "Name: CYRILLIC CAPITAL LETTER ZHE WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӝ U+04DD CYRILLIC SMALL LETTER ZHE WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04DD",
+            "..U.CYRILLIC SMALL LETTER ZHE WITH DIAERESIS",
+            "U+04DD",
+        ],
+        "body": [
+            "${1|ӝ,&#x04DD;,U+04DD,0x04DD,CYRILLIC SMALL LETTER ZHE WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04DD",
+            "Character/Symbol: ӝ",
+            "Name: CYRILLIC SMALL LETTER ZHE WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӟ U+04DE CYRILLIC CAPITAL LETTER ZE WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04DE",
+            "..U.CYRILLIC CAPITAL LETTER ZE WITH DIAERESIS",
+            "U+04DE",
+        ],
+        "body": [
+            "${1|Ӟ,&#x04DE;,U+04DE,0x04DE,CYRILLIC CAPITAL LETTER ZE WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04DE",
+            "Character/Symbol: Ӟ",
+            "Name: CYRILLIC CAPITAL LETTER ZE WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӟ U+04DF CYRILLIC SMALL LETTER ZE WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04DF",
+            "..U.CYRILLIC SMALL LETTER ZE WITH DIAERESIS",
+            "U+04DF",
+        ],
+        "body": [
+            "${1|ӟ,&#x04DF;,U+04DF,0x04DF,CYRILLIC SMALL LETTER ZE WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04DF",
+            "Character/Symbol: ӟ",
+            "Name: CYRILLIC SMALL LETTER ZE WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӡ U+04E0 CYRILLIC CAPITAL LETTER ABKHASIAN DZE": 
+    {
+        "prefix": [
+            "..U.04E0",
+            "..U.CYRILLIC CAPITAL LETTER ABKHASIAN DZE",
+            "U+04E0",
+        ],
+        "body": [
+            "${1|Ӡ,&#x04E0;,U+04E0,0x04E0,CYRILLIC CAPITAL LETTER ABKHASIAN DZE|}$2",
+        ],
+        "description": [
+            "Code: U+04E0",
+            "Character/Symbol: Ӡ",
+            "Name: CYRILLIC CAPITAL LETTER ABKHASIAN DZE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӡ U+04E1 CYRILLIC SMALL LETTER ABKHASIAN DZE": 
+    {
+        "prefix": [
+            "..U.04E1",
+            "..U.CYRILLIC SMALL LETTER ABKHASIAN DZE",
+            "U+04E1",
+        ],
+        "body": [
+            "${1|ӡ,&#x04E1;,U+04E1,0x04E1,CYRILLIC SMALL LETTER ABKHASIAN DZE|}$2",
+        ],
+        "description": [
+            "Code: U+04E1",
+            "Character/Symbol: ӡ",
+            "Name: CYRILLIC SMALL LETTER ABKHASIAN DZE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӣ U+04E2 CYRILLIC CAPITAL LETTER I WITH MACRON": 
+    {
+        "prefix": [
+            "..U.04E2",
+            "..U.CYRILLIC CAPITAL LETTER I WITH MACRON",
+            "U+04E2",
+        ],
+        "body": [
+            "${1|Ӣ,&#x04E2;,U+04E2,0x04E2,CYRILLIC CAPITAL LETTER I WITH MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+04E2",
+            "Character/Symbol: Ӣ",
+            "Name: CYRILLIC CAPITAL LETTER I WITH MACRON",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӣ U+04E3 CYRILLIC SMALL LETTER I WITH MACRON": 
+    {
+        "prefix": [
+            "..U.04E3",
+            "..U.CYRILLIC SMALL LETTER I WITH MACRON",
+            "U+04E3",
+        ],
+        "body": [
+            "${1|ӣ,&#x04E3;,U+04E3,0x04E3,CYRILLIC SMALL LETTER I WITH MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+04E3",
+            "Character/Symbol: ӣ",
+            "Name: CYRILLIC SMALL LETTER I WITH MACRON",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӥ U+04E4 CYRILLIC CAPITAL LETTER I WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04E4",
+            "..U.CYRILLIC CAPITAL LETTER I WITH DIAERESIS",
+            "U+04E4",
+        ],
+        "body": [
+            "${1|Ӥ,&#x04E4;,U+04E4,0x04E4,CYRILLIC CAPITAL LETTER I WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04E4",
+            "Character/Symbol: Ӥ",
+            "Name: CYRILLIC CAPITAL LETTER I WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӥ U+04E5 CYRILLIC SMALL LETTER I WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04E5",
+            "..U.CYRILLIC SMALL LETTER I WITH DIAERESIS",
+            "U+04E5",
+        ],
+        "body": [
+            "${1|ӥ,&#x04E5;,U+04E5,0x04E5,CYRILLIC SMALL LETTER I WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04E5",
+            "Character/Symbol: ӥ",
+            "Name: CYRILLIC SMALL LETTER I WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӧ U+04E6 CYRILLIC CAPITAL LETTER O WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04E6",
+            "..U.CYRILLIC CAPITAL LETTER O WITH DIAERESIS",
+            "U+04E6",
+        ],
+        "body": [
+            "${1|Ӧ,&#x04E6;,U+04E6,0x04E6,CYRILLIC CAPITAL LETTER O WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04E6",
+            "Character/Symbol: Ӧ",
+            "Name: CYRILLIC CAPITAL LETTER O WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӧ U+04E7 CYRILLIC SMALL LETTER O WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04E7",
+            "..U.CYRILLIC SMALL LETTER O WITH DIAERESIS",
+            "U+04E7",
+        ],
+        "body": [
+            "${1|ӧ,&#x04E7;,U+04E7,0x04E7,CYRILLIC SMALL LETTER O WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04E7",
+            "Character/Symbol: ӧ",
+            "Name: CYRILLIC SMALL LETTER O WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ө U+04E8 CYRILLIC CAPITAL LETTER BARRED O": 
+    {
+        "prefix": [
+            "..U.04E8",
+            "..U.CYRILLIC CAPITAL LETTER BARRED O",
+            "U+04E8",
+        ],
+        "body": [
+            "${1|Ө,&#x04E8;,U+04E8,0x04E8,CYRILLIC CAPITAL LETTER BARRED O|}$2",
+        ],
+        "description": [
+            "Code: U+04E8",
+            "Character/Symbol: Ө",
+            "Name: CYRILLIC CAPITAL LETTER BARRED O",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ө U+04E9 CYRILLIC SMALL LETTER BARRED O": 
+    {
+        "prefix": [
+            "..U.04E9",
+            "..U.CYRILLIC SMALL LETTER BARRED O",
+            "U+04E9",
+        ],
+        "body": [
+            "${1|ө,&#x04E9;,U+04E9,0x04E9,CYRILLIC SMALL LETTER BARRED O|}$2",
+        ],
+        "description": [
+            "Code: U+04E9",
+            "Character/Symbol: ө",
+            "Name: CYRILLIC SMALL LETTER BARRED O",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӫ U+04EA CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04EA",
+            "..U.CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS",
+            "U+04EA",
+        ],
+        "body": [
+            "${1|Ӫ,&#x04EA;,U+04EA,0x04EA,CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04EA",
+            "Character/Symbol: Ӫ",
+            "Name: CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӫ U+04EB CYRILLIC SMALL LETTER BARRED O WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04EB",
+            "..U.CYRILLIC SMALL LETTER BARRED O WITH DIAERESIS",
+            "U+04EB",
+        ],
+        "body": [
+            "${1|ӫ,&#x04EB;,U+04EB,0x04EB,CYRILLIC SMALL LETTER BARRED O WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04EB",
+            "Character/Symbol: ӫ",
+            "Name: CYRILLIC SMALL LETTER BARRED O WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӭ U+04EC CYRILLIC CAPITAL LETTER E WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04EC",
+            "..U.CYRILLIC CAPITAL LETTER E WITH DIAERESIS",
+            "U+04EC",
+        ],
+        "body": [
+            "${1|Ӭ,&#x04EC;,U+04EC,0x04EC,CYRILLIC CAPITAL LETTER E WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04EC",
+            "Character/Symbol: Ӭ",
+            "Name: CYRILLIC CAPITAL LETTER E WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӭ U+04ED CYRILLIC SMALL LETTER E WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04ED",
+            "..U.CYRILLIC SMALL LETTER E WITH DIAERESIS",
+            "U+04ED",
+        ],
+        "body": [
+            "${1|ӭ,&#x04ED;,U+04ED,0x04ED,CYRILLIC SMALL LETTER E WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04ED",
+            "Character/Symbol: ӭ",
+            "Name: CYRILLIC SMALL LETTER E WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӯ U+04EE CYRILLIC CAPITAL LETTER U WITH MACRON": 
+    {
+        "prefix": [
+            "..U.04EE",
+            "..U.CYRILLIC CAPITAL LETTER U WITH MACRON",
+            "U+04EE",
+        ],
+        "body": [
+            "${1|Ӯ,&#x04EE;,U+04EE,0x04EE,CYRILLIC CAPITAL LETTER U WITH MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+04EE",
+            "Character/Symbol: Ӯ",
+            "Name: CYRILLIC CAPITAL LETTER U WITH MACRON",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӯ U+04EF CYRILLIC SMALL LETTER U WITH MACRON": 
+    {
+        "prefix": [
+            "..U.04EF",
+            "..U.CYRILLIC SMALL LETTER U WITH MACRON",
+            "U+04EF",
+        ],
+        "body": [
+            "${1|ӯ,&#x04EF;,U+04EF,0x04EF,CYRILLIC SMALL LETTER U WITH MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+04EF",
+            "Character/Symbol: ӯ",
+            "Name: CYRILLIC SMALL LETTER U WITH MACRON",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӱ U+04F0 CYRILLIC CAPITAL LETTER U WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04F0",
+            "..U.CYRILLIC CAPITAL LETTER U WITH DIAERESIS",
+            "U+04F0",
+        ],
+        "body": [
+            "${1|Ӱ,&#x04F0;,U+04F0,0x04F0,CYRILLIC CAPITAL LETTER U WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04F0",
+            "Character/Symbol: Ӱ",
+            "Name: CYRILLIC CAPITAL LETTER U WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӱ U+04F1 CYRILLIC SMALL LETTER U WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04F1",
+            "..U.CYRILLIC SMALL LETTER U WITH DIAERESIS",
+            "U+04F1",
+        ],
+        "body": [
+            "${1|ӱ,&#x04F1;,U+04F1,0x04F1,CYRILLIC SMALL LETTER U WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04F1",
+            "Character/Symbol: ӱ",
+            "Name: CYRILLIC SMALL LETTER U WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӳ U+04F2 CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE": 
+    {
+        "prefix": [
+            "..U.04F2",
+            "..U.CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE",
+            "U+04F2",
+        ],
+        "body": [
+            "${1|Ӳ,&#x04F2;,U+04F2,0x04F2,CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+04F2",
+            "Character/Symbol: Ӳ",
+            "Name: CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӳ U+04F3 CYRILLIC SMALL LETTER U WITH DOUBLE ACUTE": 
+    {
+        "prefix": [
+            "..U.04F3",
+            "..U.CYRILLIC SMALL LETTER U WITH DOUBLE ACUTE",
+            "U+04F3",
+        ],
+        "body": [
+            "${1|ӳ,&#x04F3;,U+04F3,0x04F3,CYRILLIC SMALL LETTER U WITH DOUBLE ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+04F3",
+            "Character/Symbol: ӳ",
+            "Name: CYRILLIC SMALL LETTER U WITH DOUBLE ACUTE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӵ U+04F4 CYRILLIC CAPITAL LETTER CHE WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04F4",
+            "..U.CYRILLIC CAPITAL LETTER CHE WITH DIAERESIS",
+            "U+04F4",
+        ],
+        "body": [
+            "${1|Ӵ,&#x04F4;,U+04F4,0x04F4,CYRILLIC CAPITAL LETTER CHE WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04F4",
+            "Character/Symbol: Ӵ",
+            "Name: CYRILLIC CAPITAL LETTER CHE WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӵ U+04F5 CYRILLIC SMALL LETTER CHE WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04F5",
+            "..U.CYRILLIC SMALL LETTER CHE WITH DIAERESIS",
+            "U+04F5",
+        ],
+        "body": [
+            "${1|ӵ,&#x04F5;,U+04F5,0x04F5,CYRILLIC SMALL LETTER CHE WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04F5",
+            "Character/Symbol: ӵ",
+            "Name: CYRILLIC SMALL LETTER CHE WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӷ U+04F6 CYRILLIC CAPITAL LETTER GHE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04F6",
+            "..U.CYRILLIC CAPITAL LETTER GHE WITH DESCENDER",
+            "U+04F6",
+        ],
+        "body": [
+            "${1|Ӷ,&#x04F6;,U+04F6,0x04F6,CYRILLIC CAPITAL LETTER GHE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04F6",
+            "Character/Symbol: Ӷ",
+            "Name: CYRILLIC CAPITAL LETTER GHE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӷ U+04F7 CYRILLIC SMALL LETTER GHE WITH DESCENDER": 
+    {
+        "prefix": [
+            "..U.04F7",
+            "..U.CYRILLIC SMALL LETTER GHE WITH DESCENDER",
+            "U+04F7",
+        ],
+        "body": [
+            "${1|ӷ,&#x04F7;,U+04F7,0x04F7,CYRILLIC SMALL LETTER GHE WITH DESCENDER|}$2",
+        ],
+        "description": [
+            "Code: U+04F7",
+            "Character/Symbol: ӷ",
+            "Name: CYRILLIC SMALL LETTER GHE WITH DESCENDER",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӹ U+04F8 CYRILLIC CAPITAL LETTER YERU WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04F8",
+            "..U.CYRILLIC CAPITAL LETTER YERU WITH DIAERESIS",
+            "U+04F8",
+        ],
+        "body": [
+            "${1|Ӹ,&#x04F8;,U+04F8,0x04F8,CYRILLIC CAPITAL LETTER YERU WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04F8",
+            "Character/Symbol: Ӹ",
+            "Name: CYRILLIC CAPITAL LETTER YERU WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӹ U+04F9 CYRILLIC SMALL LETTER YERU WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.04F9",
+            "..U.CYRILLIC SMALL LETTER YERU WITH DIAERESIS",
+            "U+04F9",
+        ],
+        "body": [
+            "${1|ӹ,&#x04F9;,U+04F9,0x04F9,CYRILLIC SMALL LETTER YERU WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+04F9",
+            "Character/Symbol: ӹ",
+            "Name: CYRILLIC SMALL LETTER YERU WITH DIAERESIS",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӻ U+04FA CYRILLIC CAPITAL LETTER GHE WITH STROKE AND HOOK": 
+    {
+        "prefix": [
+            "..U.04FA",
+            "..U.CYRILLIC CAPITAL LETTER GHE WITH STROKE AND HOOK",
+            "U+04FA",
+        ],
+        "body": [
+            "${1|Ӻ,&#x04FA;,U+04FA,0x04FA,CYRILLIC CAPITAL LETTER GHE WITH STROKE AND HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+04FA",
+            "Character/Symbol: Ӻ",
+            "Name: CYRILLIC CAPITAL LETTER GHE WITH STROKE AND HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӻ U+04FB CYRILLIC SMALL LETTER GHE WITH STROKE AND HOOK": 
+    {
+        "prefix": [
+            "..U.04FB",
+            "..U.CYRILLIC SMALL LETTER GHE WITH STROKE AND HOOK",
+            "U+04FB",
+        ],
+        "body": [
+            "${1|ӻ,&#x04FB;,U+04FB,0x04FB,CYRILLIC SMALL LETTER GHE WITH STROKE AND HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+04FB",
+            "Character/Symbol: ӻ",
+            "Name: CYRILLIC SMALL LETTER GHE WITH STROKE AND HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӽ U+04FC CYRILLIC CAPITAL LETTER HA WITH HOOK": 
+    {
+        "prefix": [
+            "..U.04FC",
+            "..U.CYRILLIC CAPITAL LETTER HA WITH HOOK",
+            "U+04FC",
+        ],
+        "body": [
+            "${1|Ӽ,&#x04FC;,U+04FC,0x04FC,CYRILLIC CAPITAL LETTER HA WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+04FC",
+            "Character/Symbol: Ӽ",
+            "Name: CYRILLIC CAPITAL LETTER HA WITH HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӽ U+04FD CYRILLIC SMALL LETTER HA WITH HOOK": 
+    {
+        "prefix": [
+            "..U.04FD",
+            "..U.CYRILLIC SMALL LETTER HA WITH HOOK",
+            "U+04FD",
+        ],
+        "body": [
+            "${1|ӽ,&#x04FD;,U+04FD,0x04FD,CYRILLIC SMALL LETTER HA WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+04FD",
+            "Character/Symbol: ӽ",
+            "Name: CYRILLIC SMALL LETTER HA WITH HOOK",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode Ӿ U+04FE CYRILLIC CAPITAL LETTER HA WITH STROKE": 
+    {
+        "prefix": [
+            "..U.04FE",
+            "..U.CYRILLIC CAPITAL LETTER HA WITH STROKE",
+            "U+04FE",
+        ],
+        "body": [
+            "${1|Ӿ,&#x04FE;,U+04FE,0x04FE,CYRILLIC CAPITAL LETTER HA WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+04FE",
+            "Character/Symbol: Ӿ",
+            "Name: CYRILLIC CAPITAL LETTER HA WITH STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+    "Unicode ӿ U+04FF CYRILLIC SMALL LETTER HA WITH STROKE": 
+    {
+        "prefix": [
+            "..U.04FF",
+            "..U.CYRILLIC SMALL LETTER HA WITH STROKE",
+            "U+04FF",
+        ],
+        "body": [
+            "${1|ӿ,&#x04FF;,U+04FF,0x04FF,CYRILLIC SMALL LETTER HA WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+04FF",
+            "Character/Symbol: ӿ",
+            "Name: CYRILLIC SMALL LETTER HA WITH STROKE",
+            "Group/Block: Cyrillic",
+        ],
+    },
+
+}

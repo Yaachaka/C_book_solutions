@@ -1,0 +1,4610 @@
+{
+    "Unicode ⠀ U+2800 BRAILLE PATTERN BLANK": 
+    {
+        "prefix": [
+            "..U.2800",
+            "..U.BRAILLE PATTERN BLANK",
+            "U+2800",
+        ],
+        "body": [
+            "${1|⠀,&#x2800;,U+2800,0x2800,BRAILLE PATTERN BLANK|}$2",
+        ],
+        "description": [
+            "Code: U+2800",
+            "Character/Symbol: ⠀",
+            "Name: BRAILLE PATTERN BLANK",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠁ U+2801 BRAILLE PATTERN DOTS-1": 
+    {
+        "prefix": [
+            "..U.2801",
+            "..U.BRAILLE PATTERN DOTS-1",
+            "U+2801",
+        ],
+        "body": [
+            "${1|⠁,&#x2801;,U+2801,0x2801,BRAILLE PATTERN DOTS-1|}$2",
+        ],
+        "description": [
+            "Code: U+2801",
+            "Character/Symbol: ⠁",
+            "Name: BRAILLE PATTERN DOTS-1",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠂ U+2802 BRAILLE PATTERN DOTS-2": 
+    {
+        "prefix": [
+            "..U.2802",
+            "..U.BRAILLE PATTERN DOTS-2",
+            "U+2802",
+        ],
+        "body": [
+            "${1|⠂,&#x2802;,U+2802,0x2802,BRAILLE PATTERN DOTS-2|}$2",
+        ],
+        "description": [
+            "Code: U+2802",
+            "Character/Symbol: ⠂",
+            "Name: BRAILLE PATTERN DOTS-2",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠃ U+2803 BRAILLE PATTERN DOTS-12": 
+    {
+        "prefix": [
+            "..U.2803",
+            "..U.BRAILLE PATTERN DOTS-12",
+            "U+2803",
+        ],
+        "body": [
+            "${1|⠃,&#x2803;,U+2803,0x2803,BRAILLE PATTERN DOTS-12|}$2",
+        ],
+        "description": [
+            "Code: U+2803",
+            "Character/Symbol: ⠃",
+            "Name: BRAILLE PATTERN DOTS-12",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠄ U+2804 BRAILLE PATTERN DOTS-3": 
+    {
+        "prefix": [
+            "..U.2804",
+            "..U.BRAILLE PATTERN DOTS-3",
+            "U+2804",
+        ],
+        "body": [
+            "${1|⠄,&#x2804;,U+2804,0x2804,BRAILLE PATTERN DOTS-3|}$2",
+        ],
+        "description": [
+            "Code: U+2804",
+            "Character/Symbol: ⠄",
+            "Name: BRAILLE PATTERN DOTS-3",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠅ U+2805 BRAILLE PATTERN DOTS-13": 
+    {
+        "prefix": [
+            "..U.2805",
+            "..U.BRAILLE PATTERN DOTS-13",
+            "U+2805",
+        ],
+        "body": [
+            "${1|⠅,&#x2805;,U+2805,0x2805,BRAILLE PATTERN DOTS-13|}$2",
+        ],
+        "description": [
+            "Code: U+2805",
+            "Character/Symbol: ⠅",
+            "Name: BRAILLE PATTERN DOTS-13",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠆ U+2806 BRAILLE PATTERN DOTS-23": 
+    {
+        "prefix": [
+            "..U.2806",
+            "..U.BRAILLE PATTERN DOTS-23",
+            "U+2806",
+        ],
+        "body": [
+            "${1|⠆,&#x2806;,U+2806,0x2806,BRAILLE PATTERN DOTS-23|}$2",
+        ],
+        "description": [
+            "Code: U+2806",
+            "Character/Symbol: ⠆",
+            "Name: BRAILLE PATTERN DOTS-23",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠇ U+2807 BRAILLE PATTERN DOTS-123": 
+    {
+        "prefix": [
+            "..U.2807",
+            "..U.BRAILLE PATTERN DOTS-123",
+            "U+2807",
+        ],
+        "body": [
+            "${1|⠇,&#x2807;,U+2807,0x2807,BRAILLE PATTERN DOTS-123|}$2",
+        ],
+        "description": [
+            "Code: U+2807",
+            "Character/Symbol: ⠇",
+            "Name: BRAILLE PATTERN DOTS-123",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠈ U+2808 BRAILLE PATTERN DOTS-4": 
+    {
+        "prefix": [
+            "..U.2808",
+            "..U.BRAILLE PATTERN DOTS-4",
+            "U+2808",
+        ],
+        "body": [
+            "${1|⠈,&#x2808;,U+2808,0x2808,BRAILLE PATTERN DOTS-4|}$2",
+        ],
+        "description": [
+            "Code: U+2808",
+            "Character/Symbol: ⠈",
+            "Name: BRAILLE PATTERN DOTS-4",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠉ U+2809 BRAILLE PATTERN DOTS-14": 
+    {
+        "prefix": [
+            "..U.2809",
+            "..U.BRAILLE PATTERN DOTS-14",
+            "U+2809",
+        ],
+        "body": [
+            "${1|⠉,&#x2809;,U+2809,0x2809,BRAILLE PATTERN DOTS-14|}$2",
+        ],
+        "description": [
+            "Code: U+2809",
+            "Character/Symbol: ⠉",
+            "Name: BRAILLE PATTERN DOTS-14",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠊ U+280A BRAILLE PATTERN DOTS-24": 
+    {
+        "prefix": [
+            "..U.280A",
+            "..U.BRAILLE PATTERN DOTS-24",
+            "U+280A",
+        ],
+        "body": [
+            "${1|⠊,&#x280A;,U+280A,0x280A,BRAILLE PATTERN DOTS-24|}$2",
+        ],
+        "description": [
+            "Code: U+280A",
+            "Character/Symbol: ⠊",
+            "Name: BRAILLE PATTERN DOTS-24",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠋ U+280B BRAILLE PATTERN DOTS-124": 
+    {
+        "prefix": [
+            "..U.280B",
+            "..U.BRAILLE PATTERN DOTS-124",
+            "U+280B",
+        ],
+        "body": [
+            "${1|⠋,&#x280B;,U+280B,0x280B,BRAILLE PATTERN DOTS-124|}$2",
+        ],
+        "description": [
+            "Code: U+280B",
+            "Character/Symbol: ⠋",
+            "Name: BRAILLE PATTERN DOTS-124",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠌ U+280C BRAILLE PATTERN DOTS-34": 
+    {
+        "prefix": [
+            "..U.280C",
+            "..U.BRAILLE PATTERN DOTS-34",
+            "U+280C",
+        ],
+        "body": [
+            "${1|⠌,&#x280C;,U+280C,0x280C,BRAILLE PATTERN DOTS-34|}$2",
+        ],
+        "description": [
+            "Code: U+280C",
+            "Character/Symbol: ⠌",
+            "Name: BRAILLE PATTERN DOTS-34",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠍ U+280D BRAILLE PATTERN DOTS-134": 
+    {
+        "prefix": [
+            "..U.280D",
+            "..U.BRAILLE PATTERN DOTS-134",
+            "U+280D",
+        ],
+        "body": [
+            "${1|⠍,&#x280D;,U+280D,0x280D,BRAILLE PATTERN DOTS-134|}$2",
+        ],
+        "description": [
+            "Code: U+280D",
+            "Character/Symbol: ⠍",
+            "Name: BRAILLE PATTERN DOTS-134",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠎ U+280E BRAILLE PATTERN DOTS-234": 
+    {
+        "prefix": [
+            "..U.280E",
+            "..U.BRAILLE PATTERN DOTS-234",
+            "U+280E",
+        ],
+        "body": [
+            "${1|⠎,&#x280E;,U+280E,0x280E,BRAILLE PATTERN DOTS-234|}$2",
+        ],
+        "description": [
+            "Code: U+280E",
+            "Character/Symbol: ⠎",
+            "Name: BRAILLE PATTERN DOTS-234",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠏ U+280F BRAILLE PATTERN DOTS-1234": 
+    {
+        "prefix": [
+            "..U.280F",
+            "..U.BRAILLE PATTERN DOTS-1234",
+            "U+280F",
+        ],
+        "body": [
+            "${1|⠏,&#x280F;,U+280F,0x280F,BRAILLE PATTERN DOTS-1234|}$2",
+        ],
+        "description": [
+            "Code: U+280F",
+            "Character/Symbol: ⠏",
+            "Name: BRAILLE PATTERN DOTS-1234",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠐ U+2810 BRAILLE PATTERN DOTS-5": 
+    {
+        "prefix": [
+            "..U.2810",
+            "..U.BRAILLE PATTERN DOTS-5",
+            "U+2810",
+        ],
+        "body": [
+            "${1|⠐,&#x2810;,U+2810,0x2810,BRAILLE PATTERN DOTS-5|}$2",
+        ],
+        "description": [
+            "Code: U+2810",
+            "Character/Symbol: ⠐",
+            "Name: BRAILLE PATTERN DOTS-5",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠑ U+2811 BRAILLE PATTERN DOTS-15": 
+    {
+        "prefix": [
+            "..U.2811",
+            "..U.BRAILLE PATTERN DOTS-15",
+            "U+2811",
+        ],
+        "body": [
+            "${1|⠑,&#x2811;,U+2811,0x2811,BRAILLE PATTERN DOTS-15|}$2",
+        ],
+        "description": [
+            "Code: U+2811",
+            "Character/Symbol: ⠑",
+            "Name: BRAILLE PATTERN DOTS-15",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠒ U+2812 BRAILLE PATTERN DOTS-25": 
+    {
+        "prefix": [
+            "..U.2812",
+            "..U.BRAILLE PATTERN DOTS-25",
+            "U+2812",
+        ],
+        "body": [
+            "${1|⠒,&#x2812;,U+2812,0x2812,BRAILLE PATTERN DOTS-25|}$2",
+        ],
+        "description": [
+            "Code: U+2812",
+            "Character/Symbol: ⠒",
+            "Name: BRAILLE PATTERN DOTS-25",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠓ U+2813 BRAILLE PATTERN DOTS-125": 
+    {
+        "prefix": [
+            "..U.2813",
+            "..U.BRAILLE PATTERN DOTS-125",
+            "U+2813",
+        ],
+        "body": [
+            "${1|⠓,&#x2813;,U+2813,0x2813,BRAILLE PATTERN DOTS-125|}$2",
+        ],
+        "description": [
+            "Code: U+2813",
+            "Character/Symbol: ⠓",
+            "Name: BRAILLE PATTERN DOTS-125",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠔ U+2814 BRAILLE PATTERN DOTS-35": 
+    {
+        "prefix": [
+            "..U.2814",
+            "..U.BRAILLE PATTERN DOTS-35",
+            "U+2814",
+        ],
+        "body": [
+            "${1|⠔,&#x2814;,U+2814,0x2814,BRAILLE PATTERN DOTS-35|}$2",
+        ],
+        "description": [
+            "Code: U+2814",
+            "Character/Symbol: ⠔",
+            "Name: BRAILLE PATTERN DOTS-35",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠕ U+2815 BRAILLE PATTERN DOTS-135": 
+    {
+        "prefix": [
+            "..U.2815",
+            "..U.BRAILLE PATTERN DOTS-135",
+            "U+2815",
+        ],
+        "body": [
+            "${1|⠕,&#x2815;,U+2815,0x2815,BRAILLE PATTERN DOTS-135|}$2",
+        ],
+        "description": [
+            "Code: U+2815",
+            "Character/Symbol: ⠕",
+            "Name: BRAILLE PATTERN DOTS-135",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠖ U+2816 BRAILLE PATTERN DOTS-235": 
+    {
+        "prefix": [
+            "..U.2816",
+            "..U.BRAILLE PATTERN DOTS-235",
+            "U+2816",
+        ],
+        "body": [
+            "${1|⠖,&#x2816;,U+2816,0x2816,BRAILLE PATTERN DOTS-235|}$2",
+        ],
+        "description": [
+            "Code: U+2816",
+            "Character/Symbol: ⠖",
+            "Name: BRAILLE PATTERN DOTS-235",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠗ U+2817 BRAILLE PATTERN DOTS-1235": 
+    {
+        "prefix": [
+            "..U.2817",
+            "..U.BRAILLE PATTERN DOTS-1235",
+            "U+2817",
+        ],
+        "body": [
+            "${1|⠗,&#x2817;,U+2817,0x2817,BRAILLE PATTERN DOTS-1235|}$2",
+        ],
+        "description": [
+            "Code: U+2817",
+            "Character/Symbol: ⠗",
+            "Name: BRAILLE PATTERN DOTS-1235",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠘ U+2818 BRAILLE PATTERN DOTS-45": 
+    {
+        "prefix": [
+            "..U.2818",
+            "..U.BRAILLE PATTERN DOTS-45",
+            "U+2818",
+        ],
+        "body": [
+            "${1|⠘,&#x2818;,U+2818,0x2818,BRAILLE PATTERN DOTS-45|}$2",
+        ],
+        "description": [
+            "Code: U+2818",
+            "Character/Symbol: ⠘",
+            "Name: BRAILLE PATTERN DOTS-45",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠙ U+2819 BRAILLE PATTERN DOTS-145": 
+    {
+        "prefix": [
+            "..U.2819",
+            "..U.BRAILLE PATTERN DOTS-145",
+            "U+2819",
+        ],
+        "body": [
+            "${1|⠙,&#x2819;,U+2819,0x2819,BRAILLE PATTERN DOTS-145|}$2",
+        ],
+        "description": [
+            "Code: U+2819",
+            "Character/Symbol: ⠙",
+            "Name: BRAILLE PATTERN DOTS-145",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠚ U+281A BRAILLE PATTERN DOTS-245": 
+    {
+        "prefix": [
+            "..U.281A",
+            "..U.BRAILLE PATTERN DOTS-245",
+            "U+281A",
+        ],
+        "body": [
+            "${1|⠚,&#x281A;,U+281A,0x281A,BRAILLE PATTERN DOTS-245|}$2",
+        ],
+        "description": [
+            "Code: U+281A",
+            "Character/Symbol: ⠚",
+            "Name: BRAILLE PATTERN DOTS-245",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠛ U+281B BRAILLE PATTERN DOTS-1245": 
+    {
+        "prefix": [
+            "..U.281B",
+            "..U.BRAILLE PATTERN DOTS-1245",
+            "U+281B",
+        ],
+        "body": [
+            "${1|⠛,&#x281B;,U+281B,0x281B,BRAILLE PATTERN DOTS-1245|}$2",
+        ],
+        "description": [
+            "Code: U+281B",
+            "Character/Symbol: ⠛",
+            "Name: BRAILLE PATTERN DOTS-1245",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠜ U+281C BRAILLE PATTERN DOTS-345": 
+    {
+        "prefix": [
+            "..U.281C",
+            "..U.BRAILLE PATTERN DOTS-345",
+            "U+281C",
+        ],
+        "body": [
+            "${1|⠜,&#x281C;,U+281C,0x281C,BRAILLE PATTERN DOTS-345|}$2",
+        ],
+        "description": [
+            "Code: U+281C",
+            "Character/Symbol: ⠜",
+            "Name: BRAILLE PATTERN DOTS-345",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠝ U+281D BRAILLE PATTERN DOTS-1345": 
+    {
+        "prefix": [
+            "..U.281D",
+            "..U.BRAILLE PATTERN DOTS-1345",
+            "U+281D",
+        ],
+        "body": [
+            "${1|⠝,&#x281D;,U+281D,0x281D,BRAILLE PATTERN DOTS-1345|}$2",
+        ],
+        "description": [
+            "Code: U+281D",
+            "Character/Symbol: ⠝",
+            "Name: BRAILLE PATTERN DOTS-1345",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠞ U+281E BRAILLE PATTERN DOTS-2345": 
+    {
+        "prefix": [
+            "..U.281E",
+            "..U.BRAILLE PATTERN DOTS-2345",
+            "U+281E",
+        ],
+        "body": [
+            "${1|⠞,&#x281E;,U+281E,0x281E,BRAILLE PATTERN DOTS-2345|}$2",
+        ],
+        "description": [
+            "Code: U+281E",
+            "Character/Symbol: ⠞",
+            "Name: BRAILLE PATTERN DOTS-2345",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠟ U+281F BRAILLE PATTERN DOTS-12345": 
+    {
+        "prefix": [
+            "..U.281F",
+            "..U.BRAILLE PATTERN DOTS-12345",
+            "U+281F",
+        ],
+        "body": [
+            "${1|⠟,&#x281F;,U+281F,0x281F,BRAILLE PATTERN DOTS-12345|}$2",
+        ],
+        "description": [
+            "Code: U+281F",
+            "Character/Symbol: ⠟",
+            "Name: BRAILLE PATTERN DOTS-12345",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠠ U+2820 BRAILLE PATTERN DOTS-6": 
+    {
+        "prefix": [
+            "..U.2820",
+            "..U.BRAILLE PATTERN DOTS-6",
+            "U+2820",
+        ],
+        "body": [
+            "${1|⠠,&#x2820;,U+2820,0x2820,BRAILLE PATTERN DOTS-6|}$2",
+        ],
+        "description": [
+            "Code: U+2820",
+            "Character/Symbol: ⠠",
+            "Name: BRAILLE PATTERN DOTS-6",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠡ U+2821 BRAILLE PATTERN DOTS-16": 
+    {
+        "prefix": [
+            "..U.2821",
+            "..U.BRAILLE PATTERN DOTS-16",
+            "U+2821",
+        ],
+        "body": [
+            "${1|⠡,&#x2821;,U+2821,0x2821,BRAILLE PATTERN DOTS-16|}$2",
+        ],
+        "description": [
+            "Code: U+2821",
+            "Character/Symbol: ⠡",
+            "Name: BRAILLE PATTERN DOTS-16",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠢ U+2822 BRAILLE PATTERN DOTS-26": 
+    {
+        "prefix": [
+            "..U.2822",
+            "..U.BRAILLE PATTERN DOTS-26",
+            "U+2822",
+        ],
+        "body": [
+            "${1|⠢,&#x2822;,U+2822,0x2822,BRAILLE PATTERN DOTS-26|}$2",
+        ],
+        "description": [
+            "Code: U+2822",
+            "Character/Symbol: ⠢",
+            "Name: BRAILLE PATTERN DOTS-26",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠣ U+2823 BRAILLE PATTERN DOTS-126": 
+    {
+        "prefix": [
+            "..U.2823",
+            "..U.BRAILLE PATTERN DOTS-126",
+            "U+2823",
+        ],
+        "body": [
+            "${1|⠣,&#x2823;,U+2823,0x2823,BRAILLE PATTERN DOTS-126|}$2",
+        ],
+        "description": [
+            "Code: U+2823",
+            "Character/Symbol: ⠣",
+            "Name: BRAILLE PATTERN DOTS-126",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠤ U+2824 BRAILLE PATTERN DOTS-36": 
+    {
+        "prefix": [
+            "..U.2824",
+            "..U.BRAILLE PATTERN DOTS-36",
+            "U+2824",
+        ],
+        "body": [
+            "${1|⠤,&#x2824;,U+2824,0x2824,BRAILLE PATTERN DOTS-36|}$2",
+        ],
+        "description": [
+            "Code: U+2824",
+            "Character/Symbol: ⠤",
+            "Name: BRAILLE PATTERN DOTS-36",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠥ U+2825 BRAILLE PATTERN DOTS-136": 
+    {
+        "prefix": [
+            "..U.2825",
+            "..U.BRAILLE PATTERN DOTS-136",
+            "U+2825",
+        ],
+        "body": [
+            "${1|⠥,&#x2825;,U+2825,0x2825,BRAILLE PATTERN DOTS-136|}$2",
+        ],
+        "description": [
+            "Code: U+2825",
+            "Character/Symbol: ⠥",
+            "Name: BRAILLE PATTERN DOTS-136",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠦ U+2826 BRAILLE PATTERN DOTS-236": 
+    {
+        "prefix": [
+            "..U.2826",
+            "..U.BRAILLE PATTERN DOTS-236",
+            "U+2826",
+        ],
+        "body": [
+            "${1|⠦,&#x2826;,U+2826,0x2826,BRAILLE PATTERN DOTS-236|}$2",
+        ],
+        "description": [
+            "Code: U+2826",
+            "Character/Symbol: ⠦",
+            "Name: BRAILLE PATTERN DOTS-236",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠧ U+2827 BRAILLE PATTERN DOTS-1236": 
+    {
+        "prefix": [
+            "..U.2827",
+            "..U.BRAILLE PATTERN DOTS-1236",
+            "U+2827",
+        ],
+        "body": [
+            "${1|⠧,&#x2827;,U+2827,0x2827,BRAILLE PATTERN DOTS-1236|}$2",
+        ],
+        "description": [
+            "Code: U+2827",
+            "Character/Symbol: ⠧",
+            "Name: BRAILLE PATTERN DOTS-1236",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠨ U+2828 BRAILLE PATTERN DOTS-46": 
+    {
+        "prefix": [
+            "..U.2828",
+            "..U.BRAILLE PATTERN DOTS-46",
+            "U+2828",
+        ],
+        "body": [
+            "${1|⠨,&#x2828;,U+2828,0x2828,BRAILLE PATTERN DOTS-46|}$2",
+        ],
+        "description": [
+            "Code: U+2828",
+            "Character/Symbol: ⠨",
+            "Name: BRAILLE PATTERN DOTS-46",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠩ U+2829 BRAILLE PATTERN DOTS-146": 
+    {
+        "prefix": [
+            "..U.2829",
+            "..U.BRAILLE PATTERN DOTS-146",
+            "U+2829",
+        ],
+        "body": [
+            "${1|⠩,&#x2829;,U+2829,0x2829,BRAILLE PATTERN DOTS-146|}$2",
+        ],
+        "description": [
+            "Code: U+2829",
+            "Character/Symbol: ⠩",
+            "Name: BRAILLE PATTERN DOTS-146",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠪ U+282A BRAILLE PATTERN DOTS-246": 
+    {
+        "prefix": [
+            "..U.282A",
+            "..U.BRAILLE PATTERN DOTS-246",
+            "U+282A",
+        ],
+        "body": [
+            "${1|⠪,&#x282A;,U+282A,0x282A,BRAILLE PATTERN DOTS-246|}$2",
+        ],
+        "description": [
+            "Code: U+282A",
+            "Character/Symbol: ⠪",
+            "Name: BRAILLE PATTERN DOTS-246",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠫ U+282B BRAILLE PATTERN DOTS-1246": 
+    {
+        "prefix": [
+            "..U.282B",
+            "..U.BRAILLE PATTERN DOTS-1246",
+            "U+282B",
+        ],
+        "body": [
+            "${1|⠫,&#x282B;,U+282B,0x282B,BRAILLE PATTERN DOTS-1246|}$2",
+        ],
+        "description": [
+            "Code: U+282B",
+            "Character/Symbol: ⠫",
+            "Name: BRAILLE PATTERN DOTS-1246",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠬ U+282C BRAILLE PATTERN DOTS-346": 
+    {
+        "prefix": [
+            "..U.282C",
+            "..U.BRAILLE PATTERN DOTS-346",
+            "U+282C",
+        ],
+        "body": [
+            "${1|⠬,&#x282C;,U+282C,0x282C,BRAILLE PATTERN DOTS-346|}$2",
+        ],
+        "description": [
+            "Code: U+282C",
+            "Character/Symbol: ⠬",
+            "Name: BRAILLE PATTERN DOTS-346",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠭ U+282D BRAILLE PATTERN DOTS-1346": 
+    {
+        "prefix": [
+            "..U.282D",
+            "..U.BRAILLE PATTERN DOTS-1346",
+            "U+282D",
+        ],
+        "body": [
+            "${1|⠭,&#x282D;,U+282D,0x282D,BRAILLE PATTERN DOTS-1346|}$2",
+        ],
+        "description": [
+            "Code: U+282D",
+            "Character/Symbol: ⠭",
+            "Name: BRAILLE PATTERN DOTS-1346",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠮ U+282E BRAILLE PATTERN DOTS-2346": 
+    {
+        "prefix": [
+            "..U.282E",
+            "..U.BRAILLE PATTERN DOTS-2346",
+            "U+282E",
+        ],
+        "body": [
+            "${1|⠮,&#x282E;,U+282E,0x282E,BRAILLE PATTERN DOTS-2346|}$2",
+        ],
+        "description": [
+            "Code: U+282E",
+            "Character/Symbol: ⠮",
+            "Name: BRAILLE PATTERN DOTS-2346",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠯ U+282F BRAILLE PATTERN DOTS-12346": 
+    {
+        "prefix": [
+            "..U.282F",
+            "..U.BRAILLE PATTERN DOTS-12346",
+            "U+282F",
+        ],
+        "body": [
+            "${1|⠯,&#x282F;,U+282F,0x282F,BRAILLE PATTERN DOTS-12346|}$2",
+        ],
+        "description": [
+            "Code: U+282F",
+            "Character/Symbol: ⠯",
+            "Name: BRAILLE PATTERN DOTS-12346",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠰ U+2830 BRAILLE PATTERN DOTS-56": 
+    {
+        "prefix": [
+            "..U.2830",
+            "..U.BRAILLE PATTERN DOTS-56",
+            "U+2830",
+        ],
+        "body": [
+            "${1|⠰,&#x2830;,U+2830,0x2830,BRAILLE PATTERN DOTS-56|}$2",
+        ],
+        "description": [
+            "Code: U+2830",
+            "Character/Symbol: ⠰",
+            "Name: BRAILLE PATTERN DOTS-56",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠱ U+2831 BRAILLE PATTERN DOTS-156": 
+    {
+        "prefix": [
+            "..U.2831",
+            "..U.BRAILLE PATTERN DOTS-156",
+            "U+2831",
+        ],
+        "body": [
+            "${1|⠱,&#x2831;,U+2831,0x2831,BRAILLE PATTERN DOTS-156|}$2",
+        ],
+        "description": [
+            "Code: U+2831",
+            "Character/Symbol: ⠱",
+            "Name: BRAILLE PATTERN DOTS-156",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠲ U+2832 BRAILLE PATTERN DOTS-256": 
+    {
+        "prefix": [
+            "..U.2832",
+            "..U.BRAILLE PATTERN DOTS-256",
+            "U+2832",
+        ],
+        "body": [
+            "${1|⠲,&#x2832;,U+2832,0x2832,BRAILLE PATTERN DOTS-256|}$2",
+        ],
+        "description": [
+            "Code: U+2832",
+            "Character/Symbol: ⠲",
+            "Name: BRAILLE PATTERN DOTS-256",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠳ U+2833 BRAILLE PATTERN DOTS-1256": 
+    {
+        "prefix": [
+            "..U.2833",
+            "..U.BRAILLE PATTERN DOTS-1256",
+            "U+2833",
+        ],
+        "body": [
+            "${1|⠳,&#x2833;,U+2833,0x2833,BRAILLE PATTERN DOTS-1256|}$2",
+        ],
+        "description": [
+            "Code: U+2833",
+            "Character/Symbol: ⠳",
+            "Name: BRAILLE PATTERN DOTS-1256",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠴ U+2834 BRAILLE PATTERN DOTS-356": 
+    {
+        "prefix": [
+            "..U.2834",
+            "..U.BRAILLE PATTERN DOTS-356",
+            "U+2834",
+        ],
+        "body": [
+            "${1|⠴,&#x2834;,U+2834,0x2834,BRAILLE PATTERN DOTS-356|}$2",
+        ],
+        "description": [
+            "Code: U+2834",
+            "Character/Symbol: ⠴",
+            "Name: BRAILLE PATTERN DOTS-356",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠵ U+2835 BRAILLE PATTERN DOTS-1356": 
+    {
+        "prefix": [
+            "..U.2835",
+            "..U.BRAILLE PATTERN DOTS-1356",
+            "U+2835",
+        ],
+        "body": [
+            "${1|⠵,&#x2835;,U+2835,0x2835,BRAILLE PATTERN DOTS-1356|}$2",
+        ],
+        "description": [
+            "Code: U+2835",
+            "Character/Symbol: ⠵",
+            "Name: BRAILLE PATTERN DOTS-1356",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠶ U+2836 BRAILLE PATTERN DOTS-2356": 
+    {
+        "prefix": [
+            "..U.2836",
+            "..U.BRAILLE PATTERN DOTS-2356",
+            "U+2836",
+        ],
+        "body": [
+            "${1|⠶,&#x2836;,U+2836,0x2836,BRAILLE PATTERN DOTS-2356|}$2",
+        ],
+        "description": [
+            "Code: U+2836",
+            "Character/Symbol: ⠶",
+            "Name: BRAILLE PATTERN DOTS-2356",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠷ U+2837 BRAILLE PATTERN DOTS-12356": 
+    {
+        "prefix": [
+            "..U.2837",
+            "..U.BRAILLE PATTERN DOTS-12356",
+            "U+2837",
+        ],
+        "body": [
+            "${1|⠷,&#x2837;,U+2837,0x2837,BRAILLE PATTERN DOTS-12356|}$2",
+        ],
+        "description": [
+            "Code: U+2837",
+            "Character/Symbol: ⠷",
+            "Name: BRAILLE PATTERN DOTS-12356",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠸ U+2838 BRAILLE PATTERN DOTS-456": 
+    {
+        "prefix": [
+            "..U.2838",
+            "..U.BRAILLE PATTERN DOTS-456",
+            "U+2838",
+        ],
+        "body": [
+            "${1|⠸,&#x2838;,U+2838,0x2838,BRAILLE PATTERN DOTS-456|}$2",
+        ],
+        "description": [
+            "Code: U+2838",
+            "Character/Symbol: ⠸",
+            "Name: BRAILLE PATTERN DOTS-456",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠹ U+2839 BRAILLE PATTERN DOTS-1456": 
+    {
+        "prefix": [
+            "..U.2839",
+            "..U.BRAILLE PATTERN DOTS-1456",
+            "U+2839",
+        ],
+        "body": [
+            "${1|⠹,&#x2839;,U+2839,0x2839,BRAILLE PATTERN DOTS-1456|}$2",
+        ],
+        "description": [
+            "Code: U+2839",
+            "Character/Symbol: ⠹",
+            "Name: BRAILLE PATTERN DOTS-1456",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠺ U+283A BRAILLE PATTERN DOTS-2456": 
+    {
+        "prefix": [
+            "..U.283A",
+            "..U.BRAILLE PATTERN DOTS-2456",
+            "U+283A",
+        ],
+        "body": [
+            "${1|⠺,&#x283A;,U+283A,0x283A,BRAILLE PATTERN DOTS-2456|}$2",
+        ],
+        "description": [
+            "Code: U+283A",
+            "Character/Symbol: ⠺",
+            "Name: BRAILLE PATTERN DOTS-2456",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠻ U+283B BRAILLE PATTERN DOTS-12456": 
+    {
+        "prefix": [
+            "..U.283B",
+            "..U.BRAILLE PATTERN DOTS-12456",
+            "U+283B",
+        ],
+        "body": [
+            "${1|⠻,&#x283B;,U+283B,0x283B,BRAILLE PATTERN DOTS-12456|}$2",
+        ],
+        "description": [
+            "Code: U+283B",
+            "Character/Symbol: ⠻",
+            "Name: BRAILLE PATTERN DOTS-12456",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠼ U+283C BRAILLE PATTERN DOTS-3456": 
+    {
+        "prefix": [
+            "..U.283C",
+            "..U.BRAILLE PATTERN DOTS-3456",
+            "U+283C",
+        ],
+        "body": [
+            "${1|⠼,&#x283C;,U+283C,0x283C,BRAILLE PATTERN DOTS-3456|}$2",
+        ],
+        "description": [
+            "Code: U+283C",
+            "Character/Symbol: ⠼",
+            "Name: BRAILLE PATTERN DOTS-3456",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠽ U+283D BRAILLE PATTERN DOTS-13456": 
+    {
+        "prefix": [
+            "..U.283D",
+            "..U.BRAILLE PATTERN DOTS-13456",
+            "U+283D",
+        ],
+        "body": [
+            "${1|⠽,&#x283D;,U+283D,0x283D,BRAILLE PATTERN DOTS-13456|}$2",
+        ],
+        "description": [
+            "Code: U+283D",
+            "Character/Symbol: ⠽",
+            "Name: BRAILLE PATTERN DOTS-13456",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠾ U+283E BRAILLE PATTERN DOTS-23456": 
+    {
+        "prefix": [
+            "..U.283E",
+            "..U.BRAILLE PATTERN DOTS-23456",
+            "U+283E",
+        ],
+        "body": [
+            "${1|⠾,&#x283E;,U+283E,0x283E,BRAILLE PATTERN DOTS-23456|}$2",
+        ],
+        "description": [
+            "Code: U+283E",
+            "Character/Symbol: ⠾",
+            "Name: BRAILLE PATTERN DOTS-23456",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⠿ U+283F BRAILLE PATTERN DOTS-123456": 
+    {
+        "prefix": [
+            "..U.283F",
+            "..U.BRAILLE PATTERN DOTS-123456",
+            "U+283F",
+        ],
+        "body": [
+            "${1|⠿,&#x283F;,U+283F,0x283F,BRAILLE PATTERN DOTS-123456|}$2",
+        ],
+        "description": [
+            "Code: U+283F",
+            "Character/Symbol: ⠿",
+            "Name: BRAILLE PATTERN DOTS-123456",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡀ U+2840 BRAILLE PATTERN DOTS-7": 
+    {
+        "prefix": [
+            "..U.2840",
+            "..U.BRAILLE PATTERN DOTS-7",
+            "U+2840",
+        ],
+        "body": [
+            "${1|⡀,&#x2840;,U+2840,0x2840,BRAILLE PATTERN DOTS-7|}$2",
+        ],
+        "description": [
+            "Code: U+2840",
+            "Character/Symbol: ⡀",
+            "Name: BRAILLE PATTERN DOTS-7",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡁ U+2841 BRAILLE PATTERN DOTS-17": 
+    {
+        "prefix": [
+            "..U.2841",
+            "..U.BRAILLE PATTERN DOTS-17",
+            "U+2841",
+        ],
+        "body": [
+            "${1|⡁,&#x2841;,U+2841,0x2841,BRAILLE PATTERN DOTS-17|}$2",
+        ],
+        "description": [
+            "Code: U+2841",
+            "Character/Symbol: ⡁",
+            "Name: BRAILLE PATTERN DOTS-17",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡂ U+2842 BRAILLE PATTERN DOTS-27": 
+    {
+        "prefix": [
+            "..U.2842",
+            "..U.BRAILLE PATTERN DOTS-27",
+            "U+2842",
+        ],
+        "body": [
+            "${1|⡂,&#x2842;,U+2842,0x2842,BRAILLE PATTERN DOTS-27|}$2",
+        ],
+        "description": [
+            "Code: U+2842",
+            "Character/Symbol: ⡂",
+            "Name: BRAILLE PATTERN DOTS-27",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡃ U+2843 BRAILLE PATTERN DOTS-127": 
+    {
+        "prefix": [
+            "..U.2843",
+            "..U.BRAILLE PATTERN DOTS-127",
+            "U+2843",
+        ],
+        "body": [
+            "${1|⡃,&#x2843;,U+2843,0x2843,BRAILLE PATTERN DOTS-127|}$2",
+        ],
+        "description": [
+            "Code: U+2843",
+            "Character/Symbol: ⡃",
+            "Name: BRAILLE PATTERN DOTS-127",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡄ U+2844 BRAILLE PATTERN DOTS-37": 
+    {
+        "prefix": [
+            "..U.2844",
+            "..U.BRAILLE PATTERN DOTS-37",
+            "U+2844",
+        ],
+        "body": [
+            "${1|⡄,&#x2844;,U+2844,0x2844,BRAILLE PATTERN DOTS-37|}$2",
+        ],
+        "description": [
+            "Code: U+2844",
+            "Character/Symbol: ⡄",
+            "Name: BRAILLE PATTERN DOTS-37",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡅ U+2845 BRAILLE PATTERN DOTS-137": 
+    {
+        "prefix": [
+            "..U.2845",
+            "..U.BRAILLE PATTERN DOTS-137",
+            "U+2845",
+        ],
+        "body": [
+            "${1|⡅,&#x2845;,U+2845,0x2845,BRAILLE PATTERN DOTS-137|}$2",
+        ],
+        "description": [
+            "Code: U+2845",
+            "Character/Symbol: ⡅",
+            "Name: BRAILLE PATTERN DOTS-137",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡆ U+2846 BRAILLE PATTERN DOTS-237": 
+    {
+        "prefix": [
+            "..U.2846",
+            "..U.BRAILLE PATTERN DOTS-237",
+            "U+2846",
+        ],
+        "body": [
+            "${1|⡆,&#x2846;,U+2846,0x2846,BRAILLE PATTERN DOTS-237|}$2",
+        ],
+        "description": [
+            "Code: U+2846",
+            "Character/Symbol: ⡆",
+            "Name: BRAILLE PATTERN DOTS-237",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡇ U+2847 BRAILLE PATTERN DOTS-1237": 
+    {
+        "prefix": [
+            "..U.2847",
+            "..U.BRAILLE PATTERN DOTS-1237",
+            "U+2847",
+        ],
+        "body": [
+            "${1|⡇,&#x2847;,U+2847,0x2847,BRAILLE PATTERN DOTS-1237|}$2",
+        ],
+        "description": [
+            "Code: U+2847",
+            "Character/Symbol: ⡇",
+            "Name: BRAILLE PATTERN DOTS-1237",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡈ U+2848 BRAILLE PATTERN DOTS-47": 
+    {
+        "prefix": [
+            "..U.2848",
+            "..U.BRAILLE PATTERN DOTS-47",
+            "U+2848",
+        ],
+        "body": [
+            "${1|⡈,&#x2848;,U+2848,0x2848,BRAILLE PATTERN DOTS-47|}$2",
+        ],
+        "description": [
+            "Code: U+2848",
+            "Character/Symbol: ⡈",
+            "Name: BRAILLE PATTERN DOTS-47",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡉ U+2849 BRAILLE PATTERN DOTS-147": 
+    {
+        "prefix": [
+            "..U.2849",
+            "..U.BRAILLE PATTERN DOTS-147",
+            "U+2849",
+        ],
+        "body": [
+            "${1|⡉,&#x2849;,U+2849,0x2849,BRAILLE PATTERN DOTS-147|}$2",
+        ],
+        "description": [
+            "Code: U+2849",
+            "Character/Symbol: ⡉",
+            "Name: BRAILLE PATTERN DOTS-147",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡊ U+284A BRAILLE PATTERN DOTS-247": 
+    {
+        "prefix": [
+            "..U.284A",
+            "..U.BRAILLE PATTERN DOTS-247",
+            "U+284A",
+        ],
+        "body": [
+            "${1|⡊,&#x284A;,U+284A,0x284A,BRAILLE PATTERN DOTS-247|}$2",
+        ],
+        "description": [
+            "Code: U+284A",
+            "Character/Symbol: ⡊",
+            "Name: BRAILLE PATTERN DOTS-247",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡋ U+284B BRAILLE PATTERN DOTS-1247": 
+    {
+        "prefix": [
+            "..U.284B",
+            "..U.BRAILLE PATTERN DOTS-1247",
+            "U+284B",
+        ],
+        "body": [
+            "${1|⡋,&#x284B;,U+284B,0x284B,BRAILLE PATTERN DOTS-1247|}$2",
+        ],
+        "description": [
+            "Code: U+284B",
+            "Character/Symbol: ⡋",
+            "Name: BRAILLE PATTERN DOTS-1247",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡌ U+284C BRAILLE PATTERN DOTS-347": 
+    {
+        "prefix": [
+            "..U.284C",
+            "..U.BRAILLE PATTERN DOTS-347",
+            "U+284C",
+        ],
+        "body": [
+            "${1|⡌,&#x284C;,U+284C,0x284C,BRAILLE PATTERN DOTS-347|}$2",
+        ],
+        "description": [
+            "Code: U+284C",
+            "Character/Symbol: ⡌",
+            "Name: BRAILLE PATTERN DOTS-347",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡍ U+284D BRAILLE PATTERN DOTS-1347": 
+    {
+        "prefix": [
+            "..U.284D",
+            "..U.BRAILLE PATTERN DOTS-1347",
+            "U+284D",
+        ],
+        "body": [
+            "${1|⡍,&#x284D;,U+284D,0x284D,BRAILLE PATTERN DOTS-1347|}$2",
+        ],
+        "description": [
+            "Code: U+284D",
+            "Character/Symbol: ⡍",
+            "Name: BRAILLE PATTERN DOTS-1347",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡎ U+284E BRAILLE PATTERN DOTS-2347": 
+    {
+        "prefix": [
+            "..U.284E",
+            "..U.BRAILLE PATTERN DOTS-2347",
+            "U+284E",
+        ],
+        "body": [
+            "${1|⡎,&#x284E;,U+284E,0x284E,BRAILLE PATTERN DOTS-2347|}$2",
+        ],
+        "description": [
+            "Code: U+284E",
+            "Character/Symbol: ⡎",
+            "Name: BRAILLE PATTERN DOTS-2347",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡏ U+284F BRAILLE PATTERN DOTS-12347": 
+    {
+        "prefix": [
+            "..U.284F",
+            "..U.BRAILLE PATTERN DOTS-12347",
+            "U+284F",
+        ],
+        "body": [
+            "${1|⡏,&#x284F;,U+284F,0x284F,BRAILLE PATTERN DOTS-12347|}$2",
+        ],
+        "description": [
+            "Code: U+284F",
+            "Character/Symbol: ⡏",
+            "Name: BRAILLE PATTERN DOTS-12347",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡐ U+2850 BRAILLE PATTERN DOTS-57": 
+    {
+        "prefix": [
+            "..U.2850",
+            "..U.BRAILLE PATTERN DOTS-57",
+            "U+2850",
+        ],
+        "body": [
+            "${1|⡐,&#x2850;,U+2850,0x2850,BRAILLE PATTERN DOTS-57|}$2",
+        ],
+        "description": [
+            "Code: U+2850",
+            "Character/Symbol: ⡐",
+            "Name: BRAILLE PATTERN DOTS-57",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡑ U+2851 BRAILLE PATTERN DOTS-157": 
+    {
+        "prefix": [
+            "..U.2851",
+            "..U.BRAILLE PATTERN DOTS-157",
+            "U+2851",
+        ],
+        "body": [
+            "${1|⡑,&#x2851;,U+2851,0x2851,BRAILLE PATTERN DOTS-157|}$2",
+        ],
+        "description": [
+            "Code: U+2851",
+            "Character/Symbol: ⡑",
+            "Name: BRAILLE PATTERN DOTS-157",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡒ U+2852 BRAILLE PATTERN DOTS-257": 
+    {
+        "prefix": [
+            "..U.2852",
+            "..U.BRAILLE PATTERN DOTS-257",
+            "U+2852",
+        ],
+        "body": [
+            "${1|⡒,&#x2852;,U+2852,0x2852,BRAILLE PATTERN DOTS-257|}$2",
+        ],
+        "description": [
+            "Code: U+2852",
+            "Character/Symbol: ⡒",
+            "Name: BRAILLE PATTERN DOTS-257",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡓ U+2853 BRAILLE PATTERN DOTS-1257": 
+    {
+        "prefix": [
+            "..U.2853",
+            "..U.BRAILLE PATTERN DOTS-1257",
+            "U+2853",
+        ],
+        "body": [
+            "${1|⡓,&#x2853;,U+2853,0x2853,BRAILLE PATTERN DOTS-1257|}$2",
+        ],
+        "description": [
+            "Code: U+2853",
+            "Character/Symbol: ⡓",
+            "Name: BRAILLE PATTERN DOTS-1257",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡔ U+2854 BRAILLE PATTERN DOTS-357": 
+    {
+        "prefix": [
+            "..U.2854",
+            "..U.BRAILLE PATTERN DOTS-357",
+            "U+2854",
+        ],
+        "body": [
+            "${1|⡔,&#x2854;,U+2854,0x2854,BRAILLE PATTERN DOTS-357|}$2",
+        ],
+        "description": [
+            "Code: U+2854",
+            "Character/Symbol: ⡔",
+            "Name: BRAILLE PATTERN DOTS-357",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡕ U+2855 BRAILLE PATTERN DOTS-1357": 
+    {
+        "prefix": [
+            "..U.2855",
+            "..U.BRAILLE PATTERN DOTS-1357",
+            "U+2855",
+        ],
+        "body": [
+            "${1|⡕,&#x2855;,U+2855,0x2855,BRAILLE PATTERN DOTS-1357|}$2",
+        ],
+        "description": [
+            "Code: U+2855",
+            "Character/Symbol: ⡕",
+            "Name: BRAILLE PATTERN DOTS-1357",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡖ U+2856 BRAILLE PATTERN DOTS-2357": 
+    {
+        "prefix": [
+            "..U.2856",
+            "..U.BRAILLE PATTERN DOTS-2357",
+            "U+2856",
+        ],
+        "body": [
+            "${1|⡖,&#x2856;,U+2856,0x2856,BRAILLE PATTERN DOTS-2357|}$2",
+        ],
+        "description": [
+            "Code: U+2856",
+            "Character/Symbol: ⡖",
+            "Name: BRAILLE PATTERN DOTS-2357",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡗ U+2857 BRAILLE PATTERN DOTS-12357": 
+    {
+        "prefix": [
+            "..U.2857",
+            "..U.BRAILLE PATTERN DOTS-12357",
+            "U+2857",
+        ],
+        "body": [
+            "${1|⡗,&#x2857;,U+2857,0x2857,BRAILLE PATTERN DOTS-12357|}$2",
+        ],
+        "description": [
+            "Code: U+2857",
+            "Character/Symbol: ⡗",
+            "Name: BRAILLE PATTERN DOTS-12357",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡘ U+2858 BRAILLE PATTERN DOTS-457": 
+    {
+        "prefix": [
+            "..U.2858",
+            "..U.BRAILLE PATTERN DOTS-457",
+            "U+2858",
+        ],
+        "body": [
+            "${1|⡘,&#x2858;,U+2858,0x2858,BRAILLE PATTERN DOTS-457|}$2",
+        ],
+        "description": [
+            "Code: U+2858",
+            "Character/Symbol: ⡘",
+            "Name: BRAILLE PATTERN DOTS-457",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡙ U+2859 BRAILLE PATTERN DOTS-1457": 
+    {
+        "prefix": [
+            "..U.2859",
+            "..U.BRAILLE PATTERN DOTS-1457",
+            "U+2859",
+        ],
+        "body": [
+            "${1|⡙,&#x2859;,U+2859,0x2859,BRAILLE PATTERN DOTS-1457|}$2",
+        ],
+        "description": [
+            "Code: U+2859",
+            "Character/Symbol: ⡙",
+            "Name: BRAILLE PATTERN DOTS-1457",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡚ U+285A BRAILLE PATTERN DOTS-2457": 
+    {
+        "prefix": [
+            "..U.285A",
+            "..U.BRAILLE PATTERN DOTS-2457",
+            "U+285A",
+        ],
+        "body": [
+            "${1|⡚,&#x285A;,U+285A,0x285A,BRAILLE PATTERN DOTS-2457|}$2",
+        ],
+        "description": [
+            "Code: U+285A",
+            "Character/Symbol: ⡚",
+            "Name: BRAILLE PATTERN DOTS-2457",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡛ U+285B BRAILLE PATTERN DOTS-12457": 
+    {
+        "prefix": [
+            "..U.285B",
+            "..U.BRAILLE PATTERN DOTS-12457",
+            "U+285B",
+        ],
+        "body": [
+            "${1|⡛,&#x285B;,U+285B,0x285B,BRAILLE PATTERN DOTS-12457|}$2",
+        ],
+        "description": [
+            "Code: U+285B",
+            "Character/Symbol: ⡛",
+            "Name: BRAILLE PATTERN DOTS-12457",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡜ U+285C BRAILLE PATTERN DOTS-3457": 
+    {
+        "prefix": [
+            "..U.285C",
+            "..U.BRAILLE PATTERN DOTS-3457",
+            "U+285C",
+        ],
+        "body": [
+            "${1|⡜,&#x285C;,U+285C,0x285C,BRAILLE PATTERN DOTS-3457|}$2",
+        ],
+        "description": [
+            "Code: U+285C",
+            "Character/Symbol: ⡜",
+            "Name: BRAILLE PATTERN DOTS-3457",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡝ U+285D BRAILLE PATTERN DOTS-13457": 
+    {
+        "prefix": [
+            "..U.285D",
+            "..U.BRAILLE PATTERN DOTS-13457",
+            "U+285D",
+        ],
+        "body": [
+            "${1|⡝,&#x285D;,U+285D,0x285D,BRAILLE PATTERN DOTS-13457|}$2",
+        ],
+        "description": [
+            "Code: U+285D",
+            "Character/Symbol: ⡝",
+            "Name: BRAILLE PATTERN DOTS-13457",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡞ U+285E BRAILLE PATTERN DOTS-23457": 
+    {
+        "prefix": [
+            "..U.285E",
+            "..U.BRAILLE PATTERN DOTS-23457",
+            "U+285E",
+        ],
+        "body": [
+            "${1|⡞,&#x285E;,U+285E,0x285E,BRAILLE PATTERN DOTS-23457|}$2",
+        ],
+        "description": [
+            "Code: U+285E",
+            "Character/Symbol: ⡞",
+            "Name: BRAILLE PATTERN DOTS-23457",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡟ U+285F BRAILLE PATTERN DOTS-123457": 
+    {
+        "prefix": [
+            "..U.285F",
+            "..U.BRAILLE PATTERN DOTS-123457",
+            "U+285F",
+        ],
+        "body": [
+            "${1|⡟,&#x285F;,U+285F,0x285F,BRAILLE PATTERN DOTS-123457|}$2",
+        ],
+        "description": [
+            "Code: U+285F",
+            "Character/Symbol: ⡟",
+            "Name: BRAILLE PATTERN DOTS-123457",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡠ U+2860 BRAILLE PATTERN DOTS-67": 
+    {
+        "prefix": [
+            "..U.2860",
+            "..U.BRAILLE PATTERN DOTS-67",
+            "U+2860",
+        ],
+        "body": [
+            "${1|⡠,&#x2860;,U+2860,0x2860,BRAILLE PATTERN DOTS-67|}$2",
+        ],
+        "description": [
+            "Code: U+2860",
+            "Character/Symbol: ⡠",
+            "Name: BRAILLE PATTERN DOTS-67",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡡ U+2861 BRAILLE PATTERN DOTS-167": 
+    {
+        "prefix": [
+            "..U.2861",
+            "..U.BRAILLE PATTERN DOTS-167",
+            "U+2861",
+        ],
+        "body": [
+            "${1|⡡,&#x2861;,U+2861,0x2861,BRAILLE PATTERN DOTS-167|}$2",
+        ],
+        "description": [
+            "Code: U+2861",
+            "Character/Symbol: ⡡",
+            "Name: BRAILLE PATTERN DOTS-167",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡢ U+2862 BRAILLE PATTERN DOTS-267": 
+    {
+        "prefix": [
+            "..U.2862",
+            "..U.BRAILLE PATTERN DOTS-267",
+            "U+2862",
+        ],
+        "body": [
+            "${1|⡢,&#x2862;,U+2862,0x2862,BRAILLE PATTERN DOTS-267|}$2",
+        ],
+        "description": [
+            "Code: U+2862",
+            "Character/Symbol: ⡢",
+            "Name: BRAILLE PATTERN DOTS-267",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡣ U+2863 BRAILLE PATTERN DOTS-1267": 
+    {
+        "prefix": [
+            "..U.2863",
+            "..U.BRAILLE PATTERN DOTS-1267",
+            "U+2863",
+        ],
+        "body": [
+            "${1|⡣,&#x2863;,U+2863,0x2863,BRAILLE PATTERN DOTS-1267|}$2",
+        ],
+        "description": [
+            "Code: U+2863",
+            "Character/Symbol: ⡣",
+            "Name: BRAILLE PATTERN DOTS-1267",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡤ U+2864 BRAILLE PATTERN DOTS-367": 
+    {
+        "prefix": [
+            "..U.2864",
+            "..U.BRAILLE PATTERN DOTS-367",
+            "U+2864",
+        ],
+        "body": [
+            "${1|⡤,&#x2864;,U+2864,0x2864,BRAILLE PATTERN DOTS-367|}$2",
+        ],
+        "description": [
+            "Code: U+2864",
+            "Character/Symbol: ⡤",
+            "Name: BRAILLE PATTERN DOTS-367",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡥ U+2865 BRAILLE PATTERN DOTS-1367": 
+    {
+        "prefix": [
+            "..U.2865",
+            "..U.BRAILLE PATTERN DOTS-1367",
+            "U+2865",
+        ],
+        "body": [
+            "${1|⡥,&#x2865;,U+2865,0x2865,BRAILLE PATTERN DOTS-1367|}$2",
+        ],
+        "description": [
+            "Code: U+2865",
+            "Character/Symbol: ⡥",
+            "Name: BRAILLE PATTERN DOTS-1367",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡦ U+2866 BRAILLE PATTERN DOTS-2367": 
+    {
+        "prefix": [
+            "..U.2866",
+            "..U.BRAILLE PATTERN DOTS-2367",
+            "U+2866",
+        ],
+        "body": [
+            "${1|⡦,&#x2866;,U+2866,0x2866,BRAILLE PATTERN DOTS-2367|}$2",
+        ],
+        "description": [
+            "Code: U+2866",
+            "Character/Symbol: ⡦",
+            "Name: BRAILLE PATTERN DOTS-2367",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡧ U+2867 BRAILLE PATTERN DOTS-12367": 
+    {
+        "prefix": [
+            "..U.2867",
+            "..U.BRAILLE PATTERN DOTS-12367",
+            "U+2867",
+        ],
+        "body": [
+            "${1|⡧,&#x2867;,U+2867,0x2867,BRAILLE PATTERN DOTS-12367|}$2",
+        ],
+        "description": [
+            "Code: U+2867",
+            "Character/Symbol: ⡧",
+            "Name: BRAILLE PATTERN DOTS-12367",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡨ U+2868 BRAILLE PATTERN DOTS-467": 
+    {
+        "prefix": [
+            "..U.2868",
+            "..U.BRAILLE PATTERN DOTS-467",
+            "U+2868",
+        ],
+        "body": [
+            "${1|⡨,&#x2868;,U+2868,0x2868,BRAILLE PATTERN DOTS-467|}$2",
+        ],
+        "description": [
+            "Code: U+2868",
+            "Character/Symbol: ⡨",
+            "Name: BRAILLE PATTERN DOTS-467",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡩ U+2869 BRAILLE PATTERN DOTS-1467": 
+    {
+        "prefix": [
+            "..U.2869",
+            "..U.BRAILLE PATTERN DOTS-1467",
+            "U+2869",
+        ],
+        "body": [
+            "${1|⡩,&#x2869;,U+2869,0x2869,BRAILLE PATTERN DOTS-1467|}$2",
+        ],
+        "description": [
+            "Code: U+2869",
+            "Character/Symbol: ⡩",
+            "Name: BRAILLE PATTERN DOTS-1467",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡪ U+286A BRAILLE PATTERN DOTS-2467": 
+    {
+        "prefix": [
+            "..U.286A",
+            "..U.BRAILLE PATTERN DOTS-2467",
+            "U+286A",
+        ],
+        "body": [
+            "${1|⡪,&#x286A;,U+286A,0x286A,BRAILLE PATTERN DOTS-2467|}$2",
+        ],
+        "description": [
+            "Code: U+286A",
+            "Character/Symbol: ⡪",
+            "Name: BRAILLE PATTERN DOTS-2467",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡫ U+286B BRAILLE PATTERN DOTS-12467": 
+    {
+        "prefix": [
+            "..U.286B",
+            "..U.BRAILLE PATTERN DOTS-12467",
+            "U+286B",
+        ],
+        "body": [
+            "${1|⡫,&#x286B;,U+286B,0x286B,BRAILLE PATTERN DOTS-12467|}$2",
+        ],
+        "description": [
+            "Code: U+286B",
+            "Character/Symbol: ⡫",
+            "Name: BRAILLE PATTERN DOTS-12467",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡬ U+286C BRAILLE PATTERN DOTS-3467": 
+    {
+        "prefix": [
+            "..U.286C",
+            "..U.BRAILLE PATTERN DOTS-3467",
+            "U+286C",
+        ],
+        "body": [
+            "${1|⡬,&#x286C;,U+286C,0x286C,BRAILLE PATTERN DOTS-3467|}$2",
+        ],
+        "description": [
+            "Code: U+286C",
+            "Character/Symbol: ⡬",
+            "Name: BRAILLE PATTERN DOTS-3467",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡭ U+286D BRAILLE PATTERN DOTS-13467": 
+    {
+        "prefix": [
+            "..U.286D",
+            "..U.BRAILLE PATTERN DOTS-13467",
+            "U+286D",
+        ],
+        "body": [
+            "${1|⡭,&#x286D;,U+286D,0x286D,BRAILLE PATTERN DOTS-13467|}$2",
+        ],
+        "description": [
+            "Code: U+286D",
+            "Character/Symbol: ⡭",
+            "Name: BRAILLE PATTERN DOTS-13467",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡮ U+286E BRAILLE PATTERN DOTS-23467": 
+    {
+        "prefix": [
+            "..U.286E",
+            "..U.BRAILLE PATTERN DOTS-23467",
+            "U+286E",
+        ],
+        "body": [
+            "${1|⡮,&#x286E;,U+286E,0x286E,BRAILLE PATTERN DOTS-23467|}$2",
+        ],
+        "description": [
+            "Code: U+286E",
+            "Character/Symbol: ⡮",
+            "Name: BRAILLE PATTERN DOTS-23467",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡯ U+286F BRAILLE PATTERN DOTS-123467": 
+    {
+        "prefix": [
+            "..U.286F",
+            "..U.BRAILLE PATTERN DOTS-123467",
+            "U+286F",
+        ],
+        "body": [
+            "${1|⡯,&#x286F;,U+286F,0x286F,BRAILLE PATTERN DOTS-123467|}$2",
+        ],
+        "description": [
+            "Code: U+286F",
+            "Character/Symbol: ⡯",
+            "Name: BRAILLE PATTERN DOTS-123467",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡰ U+2870 BRAILLE PATTERN DOTS-567": 
+    {
+        "prefix": [
+            "..U.2870",
+            "..U.BRAILLE PATTERN DOTS-567",
+            "U+2870",
+        ],
+        "body": [
+            "${1|⡰,&#x2870;,U+2870,0x2870,BRAILLE PATTERN DOTS-567|}$2",
+        ],
+        "description": [
+            "Code: U+2870",
+            "Character/Symbol: ⡰",
+            "Name: BRAILLE PATTERN DOTS-567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡱ U+2871 BRAILLE PATTERN DOTS-1567": 
+    {
+        "prefix": [
+            "..U.2871",
+            "..U.BRAILLE PATTERN DOTS-1567",
+            "U+2871",
+        ],
+        "body": [
+            "${1|⡱,&#x2871;,U+2871,0x2871,BRAILLE PATTERN DOTS-1567|}$2",
+        ],
+        "description": [
+            "Code: U+2871",
+            "Character/Symbol: ⡱",
+            "Name: BRAILLE PATTERN DOTS-1567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡲ U+2872 BRAILLE PATTERN DOTS-2567": 
+    {
+        "prefix": [
+            "..U.2872",
+            "..U.BRAILLE PATTERN DOTS-2567",
+            "U+2872",
+        ],
+        "body": [
+            "${1|⡲,&#x2872;,U+2872,0x2872,BRAILLE PATTERN DOTS-2567|}$2",
+        ],
+        "description": [
+            "Code: U+2872",
+            "Character/Symbol: ⡲",
+            "Name: BRAILLE PATTERN DOTS-2567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡳ U+2873 BRAILLE PATTERN DOTS-12567": 
+    {
+        "prefix": [
+            "..U.2873",
+            "..U.BRAILLE PATTERN DOTS-12567",
+            "U+2873",
+        ],
+        "body": [
+            "${1|⡳,&#x2873;,U+2873,0x2873,BRAILLE PATTERN DOTS-12567|}$2",
+        ],
+        "description": [
+            "Code: U+2873",
+            "Character/Symbol: ⡳",
+            "Name: BRAILLE PATTERN DOTS-12567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡴ U+2874 BRAILLE PATTERN DOTS-3567": 
+    {
+        "prefix": [
+            "..U.2874",
+            "..U.BRAILLE PATTERN DOTS-3567",
+            "U+2874",
+        ],
+        "body": [
+            "${1|⡴,&#x2874;,U+2874,0x2874,BRAILLE PATTERN DOTS-3567|}$2",
+        ],
+        "description": [
+            "Code: U+2874",
+            "Character/Symbol: ⡴",
+            "Name: BRAILLE PATTERN DOTS-3567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡵ U+2875 BRAILLE PATTERN DOTS-13567": 
+    {
+        "prefix": [
+            "..U.2875",
+            "..U.BRAILLE PATTERN DOTS-13567",
+            "U+2875",
+        ],
+        "body": [
+            "${1|⡵,&#x2875;,U+2875,0x2875,BRAILLE PATTERN DOTS-13567|}$2",
+        ],
+        "description": [
+            "Code: U+2875",
+            "Character/Symbol: ⡵",
+            "Name: BRAILLE PATTERN DOTS-13567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡶ U+2876 BRAILLE PATTERN DOTS-23567": 
+    {
+        "prefix": [
+            "..U.2876",
+            "..U.BRAILLE PATTERN DOTS-23567",
+            "U+2876",
+        ],
+        "body": [
+            "${1|⡶,&#x2876;,U+2876,0x2876,BRAILLE PATTERN DOTS-23567|}$2",
+        ],
+        "description": [
+            "Code: U+2876",
+            "Character/Symbol: ⡶",
+            "Name: BRAILLE PATTERN DOTS-23567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡷ U+2877 BRAILLE PATTERN DOTS-123567": 
+    {
+        "prefix": [
+            "..U.2877",
+            "..U.BRAILLE PATTERN DOTS-123567",
+            "U+2877",
+        ],
+        "body": [
+            "${1|⡷,&#x2877;,U+2877,0x2877,BRAILLE PATTERN DOTS-123567|}$2",
+        ],
+        "description": [
+            "Code: U+2877",
+            "Character/Symbol: ⡷",
+            "Name: BRAILLE PATTERN DOTS-123567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡸ U+2878 BRAILLE PATTERN DOTS-4567": 
+    {
+        "prefix": [
+            "..U.2878",
+            "..U.BRAILLE PATTERN DOTS-4567",
+            "U+2878",
+        ],
+        "body": [
+            "${1|⡸,&#x2878;,U+2878,0x2878,BRAILLE PATTERN DOTS-4567|}$2",
+        ],
+        "description": [
+            "Code: U+2878",
+            "Character/Symbol: ⡸",
+            "Name: BRAILLE PATTERN DOTS-4567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡹ U+2879 BRAILLE PATTERN DOTS-14567": 
+    {
+        "prefix": [
+            "..U.2879",
+            "..U.BRAILLE PATTERN DOTS-14567",
+            "U+2879",
+        ],
+        "body": [
+            "${1|⡹,&#x2879;,U+2879,0x2879,BRAILLE PATTERN DOTS-14567|}$2",
+        ],
+        "description": [
+            "Code: U+2879",
+            "Character/Symbol: ⡹",
+            "Name: BRAILLE PATTERN DOTS-14567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡺ U+287A BRAILLE PATTERN DOTS-24567": 
+    {
+        "prefix": [
+            "..U.287A",
+            "..U.BRAILLE PATTERN DOTS-24567",
+            "U+287A",
+        ],
+        "body": [
+            "${1|⡺,&#x287A;,U+287A,0x287A,BRAILLE PATTERN DOTS-24567|}$2",
+        ],
+        "description": [
+            "Code: U+287A",
+            "Character/Symbol: ⡺",
+            "Name: BRAILLE PATTERN DOTS-24567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡻ U+287B BRAILLE PATTERN DOTS-124567": 
+    {
+        "prefix": [
+            "..U.287B",
+            "..U.BRAILLE PATTERN DOTS-124567",
+            "U+287B",
+        ],
+        "body": [
+            "${1|⡻,&#x287B;,U+287B,0x287B,BRAILLE PATTERN DOTS-124567|}$2",
+        ],
+        "description": [
+            "Code: U+287B",
+            "Character/Symbol: ⡻",
+            "Name: BRAILLE PATTERN DOTS-124567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡼ U+287C BRAILLE PATTERN DOTS-34567": 
+    {
+        "prefix": [
+            "..U.287C",
+            "..U.BRAILLE PATTERN DOTS-34567",
+            "U+287C",
+        ],
+        "body": [
+            "${1|⡼,&#x287C;,U+287C,0x287C,BRAILLE PATTERN DOTS-34567|}$2",
+        ],
+        "description": [
+            "Code: U+287C",
+            "Character/Symbol: ⡼",
+            "Name: BRAILLE PATTERN DOTS-34567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡽ U+287D BRAILLE PATTERN DOTS-134567": 
+    {
+        "prefix": [
+            "..U.287D",
+            "..U.BRAILLE PATTERN DOTS-134567",
+            "U+287D",
+        ],
+        "body": [
+            "${1|⡽,&#x287D;,U+287D,0x287D,BRAILLE PATTERN DOTS-134567|}$2",
+        ],
+        "description": [
+            "Code: U+287D",
+            "Character/Symbol: ⡽",
+            "Name: BRAILLE PATTERN DOTS-134567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡾ U+287E BRAILLE PATTERN DOTS-234567": 
+    {
+        "prefix": [
+            "..U.287E",
+            "..U.BRAILLE PATTERN DOTS-234567",
+            "U+287E",
+        ],
+        "body": [
+            "${1|⡾,&#x287E;,U+287E,0x287E,BRAILLE PATTERN DOTS-234567|}$2",
+        ],
+        "description": [
+            "Code: U+287E",
+            "Character/Symbol: ⡾",
+            "Name: BRAILLE PATTERN DOTS-234567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⡿ U+287F BRAILLE PATTERN DOTS-1234567": 
+    {
+        "prefix": [
+            "..U.287F",
+            "..U.BRAILLE PATTERN DOTS-1234567",
+            "U+287F",
+        ],
+        "body": [
+            "${1|⡿,&#x287F;,U+287F,0x287F,BRAILLE PATTERN DOTS-1234567|}$2",
+        ],
+        "description": [
+            "Code: U+287F",
+            "Character/Symbol: ⡿",
+            "Name: BRAILLE PATTERN DOTS-1234567",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢀ U+2880 BRAILLE PATTERN DOTS-8": 
+    {
+        "prefix": [
+            "..U.2880",
+            "..U.BRAILLE PATTERN DOTS-8",
+            "U+2880",
+        ],
+        "body": [
+            "${1|⢀,&#x2880;,U+2880,0x2880,BRAILLE PATTERN DOTS-8|}$2",
+        ],
+        "description": [
+            "Code: U+2880",
+            "Character/Symbol: ⢀",
+            "Name: BRAILLE PATTERN DOTS-8",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢁ U+2881 BRAILLE PATTERN DOTS-18": 
+    {
+        "prefix": [
+            "..U.2881",
+            "..U.BRAILLE PATTERN DOTS-18",
+            "U+2881",
+        ],
+        "body": [
+            "${1|⢁,&#x2881;,U+2881,0x2881,BRAILLE PATTERN DOTS-18|}$2",
+        ],
+        "description": [
+            "Code: U+2881",
+            "Character/Symbol: ⢁",
+            "Name: BRAILLE PATTERN DOTS-18",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢂ U+2882 BRAILLE PATTERN DOTS-28": 
+    {
+        "prefix": [
+            "..U.2882",
+            "..U.BRAILLE PATTERN DOTS-28",
+            "U+2882",
+        ],
+        "body": [
+            "${1|⢂,&#x2882;,U+2882,0x2882,BRAILLE PATTERN DOTS-28|}$2",
+        ],
+        "description": [
+            "Code: U+2882",
+            "Character/Symbol: ⢂",
+            "Name: BRAILLE PATTERN DOTS-28",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢃ U+2883 BRAILLE PATTERN DOTS-128": 
+    {
+        "prefix": [
+            "..U.2883",
+            "..U.BRAILLE PATTERN DOTS-128",
+            "U+2883",
+        ],
+        "body": [
+            "${1|⢃,&#x2883;,U+2883,0x2883,BRAILLE PATTERN DOTS-128|}$2",
+        ],
+        "description": [
+            "Code: U+2883",
+            "Character/Symbol: ⢃",
+            "Name: BRAILLE PATTERN DOTS-128",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢄ U+2884 BRAILLE PATTERN DOTS-38": 
+    {
+        "prefix": [
+            "..U.2884",
+            "..U.BRAILLE PATTERN DOTS-38",
+            "U+2884",
+        ],
+        "body": [
+            "${1|⢄,&#x2884;,U+2884,0x2884,BRAILLE PATTERN DOTS-38|}$2",
+        ],
+        "description": [
+            "Code: U+2884",
+            "Character/Symbol: ⢄",
+            "Name: BRAILLE PATTERN DOTS-38",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢅ U+2885 BRAILLE PATTERN DOTS-138": 
+    {
+        "prefix": [
+            "..U.2885",
+            "..U.BRAILLE PATTERN DOTS-138",
+            "U+2885",
+        ],
+        "body": [
+            "${1|⢅,&#x2885;,U+2885,0x2885,BRAILLE PATTERN DOTS-138|}$2",
+        ],
+        "description": [
+            "Code: U+2885",
+            "Character/Symbol: ⢅",
+            "Name: BRAILLE PATTERN DOTS-138",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢆ U+2886 BRAILLE PATTERN DOTS-238": 
+    {
+        "prefix": [
+            "..U.2886",
+            "..U.BRAILLE PATTERN DOTS-238",
+            "U+2886",
+        ],
+        "body": [
+            "${1|⢆,&#x2886;,U+2886,0x2886,BRAILLE PATTERN DOTS-238|}$2",
+        ],
+        "description": [
+            "Code: U+2886",
+            "Character/Symbol: ⢆",
+            "Name: BRAILLE PATTERN DOTS-238",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢇ U+2887 BRAILLE PATTERN DOTS-1238": 
+    {
+        "prefix": [
+            "..U.2887",
+            "..U.BRAILLE PATTERN DOTS-1238",
+            "U+2887",
+        ],
+        "body": [
+            "${1|⢇,&#x2887;,U+2887,0x2887,BRAILLE PATTERN DOTS-1238|}$2",
+        ],
+        "description": [
+            "Code: U+2887",
+            "Character/Symbol: ⢇",
+            "Name: BRAILLE PATTERN DOTS-1238",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢈ U+2888 BRAILLE PATTERN DOTS-48": 
+    {
+        "prefix": [
+            "..U.2888",
+            "..U.BRAILLE PATTERN DOTS-48",
+            "U+2888",
+        ],
+        "body": [
+            "${1|⢈,&#x2888;,U+2888,0x2888,BRAILLE PATTERN DOTS-48|}$2",
+        ],
+        "description": [
+            "Code: U+2888",
+            "Character/Symbol: ⢈",
+            "Name: BRAILLE PATTERN DOTS-48",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢉ U+2889 BRAILLE PATTERN DOTS-148": 
+    {
+        "prefix": [
+            "..U.2889",
+            "..U.BRAILLE PATTERN DOTS-148",
+            "U+2889",
+        ],
+        "body": [
+            "${1|⢉,&#x2889;,U+2889,0x2889,BRAILLE PATTERN DOTS-148|}$2",
+        ],
+        "description": [
+            "Code: U+2889",
+            "Character/Symbol: ⢉",
+            "Name: BRAILLE PATTERN DOTS-148",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢊ U+288A BRAILLE PATTERN DOTS-248": 
+    {
+        "prefix": [
+            "..U.288A",
+            "..U.BRAILLE PATTERN DOTS-248",
+            "U+288A",
+        ],
+        "body": [
+            "${1|⢊,&#x288A;,U+288A,0x288A,BRAILLE PATTERN DOTS-248|}$2",
+        ],
+        "description": [
+            "Code: U+288A",
+            "Character/Symbol: ⢊",
+            "Name: BRAILLE PATTERN DOTS-248",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢋ U+288B BRAILLE PATTERN DOTS-1248": 
+    {
+        "prefix": [
+            "..U.288B",
+            "..U.BRAILLE PATTERN DOTS-1248",
+            "U+288B",
+        ],
+        "body": [
+            "${1|⢋,&#x288B;,U+288B,0x288B,BRAILLE PATTERN DOTS-1248|}$2",
+        ],
+        "description": [
+            "Code: U+288B",
+            "Character/Symbol: ⢋",
+            "Name: BRAILLE PATTERN DOTS-1248",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢌ U+288C BRAILLE PATTERN DOTS-348": 
+    {
+        "prefix": [
+            "..U.288C",
+            "..U.BRAILLE PATTERN DOTS-348",
+            "U+288C",
+        ],
+        "body": [
+            "${1|⢌,&#x288C;,U+288C,0x288C,BRAILLE PATTERN DOTS-348|}$2",
+        ],
+        "description": [
+            "Code: U+288C",
+            "Character/Symbol: ⢌",
+            "Name: BRAILLE PATTERN DOTS-348",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢍ U+288D BRAILLE PATTERN DOTS-1348": 
+    {
+        "prefix": [
+            "..U.288D",
+            "..U.BRAILLE PATTERN DOTS-1348",
+            "U+288D",
+        ],
+        "body": [
+            "${1|⢍,&#x288D;,U+288D,0x288D,BRAILLE PATTERN DOTS-1348|}$2",
+        ],
+        "description": [
+            "Code: U+288D",
+            "Character/Symbol: ⢍",
+            "Name: BRAILLE PATTERN DOTS-1348",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢎ U+288E BRAILLE PATTERN DOTS-2348": 
+    {
+        "prefix": [
+            "..U.288E",
+            "..U.BRAILLE PATTERN DOTS-2348",
+            "U+288E",
+        ],
+        "body": [
+            "${1|⢎,&#x288E;,U+288E,0x288E,BRAILLE PATTERN DOTS-2348|}$2",
+        ],
+        "description": [
+            "Code: U+288E",
+            "Character/Symbol: ⢎",
+            "Name: BRAILLE PATTERN DOTS-2348",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢏ U+288F BRAILLE PATTERN DOTS-12348": 
+    {
+        "prefix": [
+            "..U.288F",
+            "..U.BRAILLE PATTERN DOTS-12348",
+            "U+288F",
+        ],
+        "body": [
+            "${1|⢏,&#x288F;,U+288F,0x288F,BRAILLE PATTERN DOTS-12348|}$2",
+        ],
+        "description": [
+            "Code: U+288F",
+            "Character/Symbol: ⢏",
+            "Name: BRAILLE PATTERN DOTS-12348",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢐ U+2890 BRAILLE PATTERN DOTS-58": 
+    {
+        "prefix": [
+            "..U.2890",
+            "..U.BRAILLE PATTERN DOTS-58",
+            "U+2890",
+        ],
+        "body": [
+            "${1|⢐,&#x2890;,U+2890,0x2890,BRAILLE PATTERN DOTS-58|}$2",
+        ],
+        "description": [
+            "Code: U+2890",
+            "Character/Symbol: ⢐",
+            "Name: BRAILLE PATTERN DOTS-58",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢑ U+2891 BRAILLE PATTERN DOTS-158": 
+    {
+        "prefix": [
+            "..U.2891",
+            "..U.BRAILLE PATTERN DOTS-158",
+            "U+2891",
+        ],
+        "body": [
+            "${1|⢑,&#x2891;,U+2891,0x2891,BRAILLE PATTERN DOTS-158|}$2",
+        ],
+        "description": [
+            "Code: U+2891",
+            "Character/Symbol: ⢑",
+            "Name: BRAILLE PATTERN DOTS-158",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢒ U+2892 BRAILLE PATTERN DOTS-258": 
+    {
+        "prefix": [
+            "..U.2892",
+            "..U.BRAILLE PATTERN DOTS-258",
+            "U+2892",
+        ],
+        "body": [
+            "${1|⢒,&#x2892;,U+2892,0x2892,BRAILLE PATTERN DOTS-258|}$2",
+        ],
+        "description": [
+            "Code: U+2892",
+            "Character/Symbol: ⢒",
+            "Name: BRAILLE PATTERN DOTS-258",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢓ U+2893 BRAILLE PATTERN DOTS-1258": 
+    {
+        "prefix": [
+            "..U.2893",
+            "..U.BRAILLE PATTERN DOTS-1258",
+            "U+2893",
+        ],
+        "body": [
+            "${1|⢓,&#x2893;,U+2893,0x2893,BRAILLE PATTERN DOTS-1258|}$2",
+        ],
+        "description": [
+            "Code: U+2893",
+            "Character/Symbol: ⢓",
+            "Name: BRAILLE PATTERN DOTS-1258",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢔ U+2894 BRAILLE PATTERN DOTS-358": 
+    {
+        "prefix": [
+            "..U.2894",
+            "..U.BRAILLE PATTERN DOTS-358",
+            "U+2894",
+        ],
+        "body": [
+            "${1|⢔,&#x2894;,U+2894,0x2894,BRAILLE PATTERN DOTS-358|}$2",
+        ],
+        "description": [
+            "Code: U+2894",
+            "Character/Symbol: ⢔",
+            "Name: BRAILLE PATTERN DOTS-358",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢕ U+2895 BRAILLE PATTERN DOTS-1358": 
+    {
+        "prefix": [
+            "..U.2895",
+            "..U.BRAILLE PATTERN DOTS-1358",
+            "U+2895",
+        ],
+        "body": [
+            "${1|⢕,&#x2895;,U+2895,0x2895,BRAILLE PATTERN DOTS-1358|}$2",
+        ],
+        "description": [
+            "Code: U+2895",
+            "Character/Symbol: ⢕",
+            "Name: BRAILLE PATTERN DOTS-1358",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢖ U+2896 BRAILLE PATTERN DOTS-2358": 
+    {
+        "prefix": [
+            "..U.2896",
+            "..U.BRAILLE PATTERN DOTS-2358",
+            "U+2896",
+        ],
+        "body": [
+            "${1|⢖,&#x2896;,U+2896,0x2896,BRAILLE PATTERN DOTS-2358|}$2",
+        ],
+        "description": [
+            "Code: U+2896",
+            "Character/Symbol: ⢖",
+            "Name: BRAILLE PATTERN DOTS-2358",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢗ U+2897 BRAILLE PATTERN DOTS-12358": 
+    {
+        "prefix": [
+            "..U.2897",
+            "..U.BRAILLE PATTERN DOTS-12358",
+            "U+2897",
+        ],
+        "body": [
+            "${1|⢗,&#x2897;,U+2897,0x2897,BRAILLE PATTERN DOTS-12358|}$2",
+        ],
+        "description": [
+            "Code: U+2897",
+            "Character/Symbol: ⢗",
+            "Name: BRAILLE PATTERN DOTS-12358",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢘ U+2898 BRAILLE PATTERN DOTS-458": 
+    {
+        "prefix": [
+            "..U.2898",
+            "..U.BRAILLE PATTERN DOTS-458",
+            "U+2898",
+        ],
+        "body": [
+            "${1|⢘,&#x2898;,U+2898,0x2898,BRAILLE PATTERN DOTS-458|}$2",
+        ],
+        "description": [
+            "Code: U+2898",
+            "Character/Symbol: ⢘",
+            "Name: BRAILLE PATTERN DOTS-458",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢙ U+2899 BRAILLE PATTERN DOTS-1458": 
+    {
+        "prefix": [
+            "..U.2899",
+            "..U.BRAILLE PATTERN DOTS-1458",
+            "U+2899",
+        ],
+        "body": [
+            "${1|⢙,&#x2899;,U+2899,0x2899,BRAILLE PATTERN DOTS-1458|}$2",
+        ],
+        "description": [
+            "Code: U+2899",
+            "Character/Symbol: ⢙",
+            "Name: BRAILLE PATTERN DOTS-1458",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢚ U+289A BRAILLE PATTERN DOTS-2458": 
+    {
+        "prefix": [
+            "..U.289A",
+            "..U.BRAILLE PATTERN DOTS-2458",
+            "U+289A",
+        ],
+        "body": [
+            "${1|⢚,&#x289A;,U+289A,0x289A,BRAILLE PATTERN DOTS-2458|}$2",
+        ],
+        "description": [
+            "Code: U+289A",
+            "Character/Symbol: ⢚",
+            "Name: BRAILLE PATTERN DOTS-2458",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢛ U+289B BRAILLE PATTERN DOTS-12458": 
+    {
+        "prefix": [
+            "..U.289B",
+            "..U.BRAILLE PATTERN DOTS-12458",
+            "U+289B",
+        ],
+        "body": [
+            "${1|⢛,&#x289B;,U+289B,0x289B,BRAILLE PATTERN DOTS-12458|}$2",
+        ],
+        "description": [
+            "Code: U+289B",
+            "Character/Symbol: ⢛",
+            "Name: BRAILLE PATTERN DOTS-12458",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢜ U+289C BRAILLE PATTERN DOTS-3458": 
+    {
+        "prefix": [
+            "..U.289C",
+            "..U.BRAILLE PATTERN DOTS-3458",
+            "U+289C",
+        ],
+        "body": [
+            "${1|⢜,&#x289C;,U+289C,0x289C,BRAILLE PATTERN DOTS-3458|}$2",
+        ],
+        "description": [
+            "Code: U+289C",
+            "Character/Symbol: ⢜",
+            "Name: BRAILLE PATTERN DOTS-3458",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢝ U+289D BRAILLE PATTERN DOTS-13458": 
+    {
+        "prefix": [
+            "..U.289D",
+            "..U.BRAILLE PATTERN DOTS-13458",
+            "U+289D",
+        ],
+        "body": [
+            "${1|⢝,&#x289D;,U+289D,0x289D,BRAILLE PATTERN DOTS-13458|}$2",
+        ],
+        "description": [
+            "Code: U+289D",
+            "Character/Symbol: ⢝",
+            "Name: BRAILLE PATTERN DOTS-13458",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢞ U+289E BRAILLE PATTERN DOTS-23458": 
+    {
+        "prefix": [
+            "..U.289E",
+            "..U.BRAILLE PATTERN DOTS-23458",
+            "U+289E",
+        ],
+        "body": [
+            "${1|⢞,&#x289E;,U+289E,0x289E,BRAILLE PATTERN DOTS-23458|}$2",
+        ],
+        "description": [
+            "Code: U+289E",
+            "Character/Symbol: ⢞",
+            "Name: BRAILLE PATTERN DOTS-23458",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢟ U+289F BRAILLE PATTERN DOTS-123458": 
+    {
+        "prefix": [
+            "..U.289F",
+            "..U.BRAILLE PATTERN DOTS-123458",
+            "U+289F",
+        ],
+        "body": [
+            "${1|⢟,&#x289F;,U+289F,0x289F,BRAILLE PATTERN DOTS-123458|}$2",
+        ],
+        "description": [
+            "Code: U+289F",
+            "Character/Symbol: ⢟",
+            "Name: BRAILLE PATTERN DOTS-123458",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢠ U+28A0 BRAILLE PATTERN DOTS-68": 
+    {
+        "prefix": [
+            "..U.28A0",
+            "..U.BRAILLE PATTERN DOTS-68",
+            "U+28A0",
+        ],
+        "body": [
+            "${1|⢠,&#x28A0;,U+28A0,0x28A0,BRAILLE PATTERN DOTS-68|}$2",
+        ],
+        "description": [
+            "Code: U+28A0",
+            "Character/Symbol: ⢠",
+            "Name: BRAILLE PATTERN DOTS-68",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢡ U+28A1 BRAILLE PATTERN DOTS-168": 
+    {
+        "prefix": [
+            "..U.28A1",
+            "..U.BRAILLE PATTERN DOTS-168",
+            "U+28A1",
+        ],
+        "body": [
+            "${1|⢡,&#x28A1;,U+28A1,0x28A1,BRAILLE PATTERN DOTS-168|}$2",
+        ],
+        "description": [
+            "Code: U+28A1",
+            "Character/Symbol: ⢡",
+            "Name: BRAILLE PATTERN DOTS-168",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢢ U+28A2 BRAILLE PATTERN DOTS-268": 
+    {
+        "prefix": [
+            "..U.28A2",
+            "..U.BRAILLE PATTERN DOTS-268",
+            "U+28A2",
+        ],
+        "body": [
+            "${1|⢢,&#x28A2;,U+28A2,0x28A2,BRAILLE PATTERN DOTS-268|}$2",
+        ],
+        "description": [
+            "Code: U+28A2",
+            "Character/Symbol: ⢢",
+            "Name: BRAILLE PATTERN DOTS-268",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢣ U+28A3 BRAILLE PATTERN DOTS-1268": 
+    {
+        "prefix": [
+            "..U.28A3",
+            "..U.BRAILLE PATTERN DOTS-1268",
+            "U+28A3",
+        ],
+        "body": [
+            "${1|⢣,&#x28A3;,U+28A3,0x28A3,BRAILLE PATTERN DOTS-1268|}$2",
+        ],
+        "description": [
+            "Code: U+28A3",
+            "Character/Symbol: ⢣",
+            "Name: BRAILLE PATTERN DOTS-1268",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢤ U+28A4 BRAILLE PATTERN DOTS-368": 
+    {
+        "prefix": [
+            "..U.28A4",
+            "..U.BRAILLE PATTERN DOTS-368",
+            "U+28A4",
+        ],
+        "body": [
+            "${1|⢤,&#x28A4;,U+28A4,0x28A4,BRAILLE PATTERN DOTS-368|}$2",
+        ],
+        "description": [
+            "Code: U+28A4",
+            "Character/Symbol: ⢤",
+            "Name: BRAILLE PATTERN DOTS-368",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢥ U+28A5 BRAILLE PATTERN DOTS-1368": 
+    {
+        "prefix": [
+            "..U.28A5",
+            "..U.BRAILLE PATTERN DOTS-1368",
+            "U+28A5",
+        ],
+        "body": [
+            "${1|⢥,&#x28A5;,U+28A5,0x28A5,BRAILLE PATTERN DOTS-1368|}$2",
+        ],
+        "description": [
+            "Code: U+28A5",
+            "Character/Symbol: ⢥",
+            "Name: BRAILLE PATTERN DOTS-1368",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢦ U+28A6 BRAILLE PATTERN DOTS-2368": 
+    {
+        "prefix": [
+            "..U.28A6",
+            "..U.BRAILLE PATTERN DOTS-2368",
+            "U+28A6",
+        ],
+        "body": [
+            "${1|⢦,&#x28A6;,U+28A6,0x28A6,BRAILLE PATTERN DOTS-2368|}$2",
+        ],
+        "description": [
+            "Code: U+28A6",
+            "Character/Symbol: ⢦",
+            "Name: BRAILLE PATTERN DOTS-2368",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢧ U+28A7 BRAILLE PATTERN DOTS-12368": 
+    {
+        "prefix": [
+            "..U.28A7",
+            "..U.BRAILLE PATTERN DOTS-12368",
+            "U+28A7",
+        ],
+        "body": [
+            "${1|⢧,&#x28A7;,U+28A7,0x28A7,BRAILLE PATTERN DOTS-12368|}$2",
+        ],
+        "description": [
+            "Code: U+28A7",
+            "Character/Symbol: ⢧",
+            "Name: BRAILLE PATTERN DOTS-12368",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢨ U+28A8 BRAILLE PATTERN DOTS-468": 
+    {
+        "prefix": [
+            "..U.28A8",
+            "..U.BRAILLE PATTERN DOTS-468",
+            "U+28A8",
+        ],
+        "body": [
+            "${1|⢨,&#x28A8;,U+28A8,0x28A8,BRAILLE PATTERN DOTS-468|}$2",
+        ],
+        "description": [
+            "Code: U+28A8",
+            "Character/Symbol: ⢨",
+            "Name: BRAILLE PATTERN DOTS-468",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢩ U+28A9 BRAILLE PATTERN DOTS-1468": 
+    {
+        "prefix": [
+            "..U.28A9",
+            "..U.BRAILLE PATTERN DOTS-1468",
+            "U+28A9",
+        ],
+        "body": [
+            "${1|⢩,&#x28A9;,U+28A9,0x28A9,BRAILLE PATTERN DOTS-1468|}$2",
+        ],
+        "description": [
+            "Code: U+28A9",
+            "Character/Symbol: ⢩",
+            "Name: BRAILLE PATTERN DOTS-1468",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢪ U+28AA BRAILLE PATTERN DOTS-2468": 
+    {
+        "prefix": [
+            "..U.28AA",
+            "..U.BRAILLE PATTERN DOTS-2468",
+            "U+28AA",
+        ],
+        "body": [
+            "${1|⢪,&#x28AA;,U+28AA,0x28AA,BRAILLE PATTERN DOTS-2468|}$2",
+        ],
+        "description": [
+            "Code: U+28AA",
+            "Character/Symbol: ⢪",
+            "Name: BRAILLE PATTERN DOTS-2468",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢫ U+28AB BRAILLE PATTERN DOTS-12468": 
+    {
+        "prefix": [
+            "..U.28AB",
+            "..U.BRAILLE PATTERN DOTS-12468",
+            "U+28AB",
+        ],
+        "body": [
+            "${1|⢫,&#x28AB;,U+28AB,0x28AB,BRAILLE PATTERN DOTS-12468|}$2",
+        ],
+        "description": [
+            "Code: U+28AB",
+            "Character/Symbol: ⢫",
+            "Name: BRAILLE PATTERN DOTS-12468",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢬ U+28AC BRAILLE PATTERN DOTS-3468": 
+    {
+        "prefix": [
+            "..U.28AC",
+            "..U.BRAILLE PATTERN DOTS-3468",
+            "U+28AC",
+        ],
+        "body": [
+            "${1|⢬,&#x28AC;,U+28AC,0x28AC,BRAILLE PATTERN DOTS-3468|}$2",
+        ],
+        "description": [
+            "Code: U+28AC",
+            "Character/Symbol: ⢬",
+            "Name: BRAILLE PATTERN DOTS-3468",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢭ U+28AD BRAILLE PATTERN DOTS-13468": 
+    {
+        "prefix": [
+            "..U.28AD",
+            "..U.BRAILLE PATTERN DOTS-13468",
+            "U+28AD",
+        ],
+        "body": [
+            "${1|⢭,&#x28AD;,U+28AD,0x28AD,BRAILLE PATTERN DOTS-13468|}$2",
+        ],
+        "description": [
+            "Code: U+28AD",
+            "Character/Symbol: ⢭",
+            "Name: BRAILLE PATTERN DOTS-13468",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢮ U+28AE BRAILLE PATTERN DOTS-23468": 
+    {
+        "prefix": [
+            "..U.28AE",
+            "..U.BRAILLE PATTERN DOTS-23468",
+            "U+28AE",
+        ],
+        "body": [
+            "${1|⢮,&#x28AE;,U+28AE,0x28AE,BRAILLE PATTERN DOTS-23468|}$2",
+        ],
+        "description": [
+            "Code: U+28AE",
+            "Character/Symbol: ⢮",
+            "Name: BRAILLE PATTERN DOTS-23468",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢯ U+28AF BRAILLE PATTERN DOTS-123468": 
+    {
+        "prefix": [
+            "..U.28AF",
+            "..U.BRAILLE PATTERN DOTS-123468",
+            "U+28AF",
+        ],
+        "body": [
+            "${1|⢯,&#x28AF;,U+28AF,0x28AF,BRAILLE PATTERN DOTS-123468|}$2",
+        ],
+        "description": [
+            "Code: U+28AF",
+            "Character/Symbol: ⢯",
+            "Name: BRAILLE PATTERN DOTS-123468",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢰ U+28B0 BRAILLE PATTERN DOTS-568": 
+    {
+        "prefix": [
+            "..U.28B0",
+            "..U.BRAILLE PATTERN DOTS-568",
+            "U+28B0",
+        ],
+        "body": [
+            "${1|⢰,&#x28B0;,U+28B0,0x28B0,BRAILLE PATTERN DOTS-568|}$2",
+        ],
+        "description": [
+            "Code: U+28B0",
+            "Character/Symbol: ⢰",
+            "Name: BRAILLE PATTERN DOTS-568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢱ U+28B1 BRAILLE PATTERN DOTS-1568": 
+    {
+        "prefix": [
+            "..U.28B1",
+            "..U.BRAILLE PATTERN DOTS-1568",
+            "U+28B1",
+        ],
+        "body": [
+            "${1|⢱,&#x28B1;,U+28B1,0x28B1,BRAILLE PATTERN DOTS-1568|}$2",
+        ],
+        "description": [
+            "Code: U+28B1",
+            "Character/Symbol: ⢱",
+            "Name: BRAILLE PATTERN DOTS-1568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢲ U+28B2 BRAILLE PATTERN DOTS-2568": 
+    {
+        "prefix": [
+            "..U.28B2",
+            "..U.BRAILLE PATTERN DOTS-2568",
+            "U+28B2",
+        ],
+        "body": [
+            "${1|⢲,&#x28B2;,U+28B2,0x28B2,BRAILLE PATTERN DOTS-2568|}$2",
+        ],
+        "description": [
+            "Code: U+28B2",
+            "Character/Symbol: ⢲",
+            "Name: BRAILLE PATTERN DOTS-2568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢳ U+28B3 BRAILLE PATTERN DOTS-12568": 
+    {
+        "prefix": [
+            "..U.28B3",
+            "..U.BRAILLE PATTERN DOTS-12568",
+            "U+28B3",
+        ],
+        "body": [
+            "${1|⢳,&#x28B3;,U+28B3,0x28B3,BRAILLE PATTERN DOTS-12568|}$2",
+        ],
+        "description": [
+            "Code: U+28B3",
+            "Character/Symbol: ⢳",
+            "Name: BRAILLE PATTERN DOTS-12568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢴ U+28B4 BRAILLE PATTERN DOTS-3568": 
+    {
+        "prefix": [
+            "..U.28B4",
+            "..U.BRAILLE PATTERN DOTS-3568",
+            "U+28B4",
+        ],
+        "body": [
+            "${1|⢴,&#x28B4;,U+28B4,0x28B4,BRAILLE PATTERN DOTS-3568|}$2",
+        ],
+        "description": [
+            "Code: U+28B4",
+            "Character/Symbol: ⢴",
+            "Name: BRAILLE PATTERN DOTS-3568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢵ U+28B5 BRAILLE PATTERN DOTS-13568": 
+    {
+        "prefix": [
+            "..U.28B5",
+            "..U.BRAILLE PATTERN DOTS-13568",
+            "U+28B5",
+        ],
+        "body": [
+            "${1|⢵,&#x28B5;,U+28B5,0x28B5,BRAILLE PATTERN DOTS-13568|}$2",
+        ],
+        "description": [
+            "Code: U+28B5",
+            "Character/Symbol: ⢵",
+            "Name: BRAILLE PATTERN DOTS-13568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢶ U+28B6 BRAILLE PATTERN DOTS-23568": 
+    {
+        "prefix": [
+            "..U.28B6",
+            "..U.BRAILLE PATTERN DOTS-23568",
+            "U+28B6",
+        ],
+        "body": [
+            "${1|⢶,&#x28B6;,U+28B6,0x28B6,BRAILLE PATTERN DOTS-23568|}$2",
+        ],
+        "description": [
+            "Code: U+28B6",
+            "Character/Symbol: ⢶",
+            "Name: BRAILLE PATTERN DOTS-23568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢷ U+28B7 BRAILLE PATTERN DOTS-123568": 
+    {
+        "prefix": [
+            "..U.28B7",
+            "..U.BRAILLE PATTERN DOTS-123568",
+            "U+28B7",
+        ],
+        "body": [
+            "${1|⢷,&#x28B7;,U+28B7,0x28B7,BRAILLE PATTERN DOTS-123568|}$2",
+        ],
+        "description": [
+            "Code: U+28B7",
+            "Character/Symbol: ⢷",
+            "Name: BRAILLE PATTERN DOTS-123568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢸ U+28B8 BRAILLE PATTERN DOTS-4568": 
+    {
+        "prefix": [
+            "..U.28B8",
+            "..U.BRAILLE PATTERN DOTS-4568",
+            "U+28B8",
+        ],
+        "body": [
+            "${1|⢸,&#x28B8;,U+28B8,0x28B8,BRAILLE PATTERN DOTS-4568|}$2",
+        ],
+        "description": [
+            "Code: U+28B8",
+            "Character/Symbol: ⢸",
+            "Name: BRAILLE PATTERN DOTS-4568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢹ U+28B9 BRAILLE PATTERN DOTS-14568": 
+    {
+        "prefix": [
+            "..U.28B9",
+            "..U.BRAILLE PATTERN DOTS-14568",
+            "U+28B9",
+        ],
+        "body": [
+            "${1|⢹,&#x28B9;,U+28B9,0x28B9,BRAILLE PATTERN DOTS-14568|}$2",
+        ],
+        "description": [
+            "Code: U+28B9",
+            "Character/Symbol: ⢹",
+            "Name: BRAILLE PATTERN DOTS-14568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢺ U+28BA BRAILLE PATTERN DOTS-24568": 
+    {
+        "prefix": [
+            "..U.28BA",
+            "..U.BRAILLE PATTERN DOTS-24568",
+            "U+28BA",
+        ],
+        "body": [
+            "${1|⢺,&#x28BA;,U+28BA,0x28BA,BRAILLE PATTERN DOTS-24568|}$2",
+        ],
+        "description": [
+            "Code: U+28BA",
+            "Character/Symbol: ⢺",
+            "Name: BRAILLE PATTERN DOTS-24568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢻ U+28BB BRAILLE PATTERN DOTS-124568": 
+    {
+        "prefix": [
+            "..U.28BB",
+            "..U.BRAILLE PATTERN DOTS-124568",
+            "U+28BB",
+        ],
+        "body": [
+            "${1|⢻,&#x28BB;,U+28BB,0x28BB,BRAILLE PATTERN DOTS-124568|}$2",
+        ],
+        "description": [
+            "Code: U+28BB",
+            "Character/Symbol: ⢻",
+            "Name: BRAILLE PATTERN DOTS-124568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢼ U+28BC BRAILLE PATTERN DOTS-34568": 
+    {
+        "prefix": [
+            "..U.28BC",
+            "..U.BRAILLE PATTERN DOTS-34568",
+            "U+28BC",
+        ],
+        "body": [
+            "${1|⢼,&#x28BC;,U+28BC,0x28BC,BRAILLE PATTERN DOTS-34568|}$2",
+        ],
+        "description": [
+            "Code: U+28BC",
+            "Character/Symbol: ⢼",
+            "Name: BRAILLE PATTERN DOTS-34568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢽ U+28BD BRAILLE PATTERN DOTS-134568": 
+    {
+        "prefix": [
+            "..U.28BD",
+            "..U.BRAILLE PATTERN DOTS-134568",
+            "U+28BD",
+        ],
+        "body": [
+            "${1|⢽,&#x28BD;,U+28BD,0x28BD,BRAILLE PATTERN DOTS-134568|}$2",
+        ],
+        "description": [
+            "Code: U+28BD",
+            "Character/Symbol: ⢽",
+            "Name: BRAILLE PATTERN DOTS-134568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢾ U+28BE BRAILLE PATTERN DOTS-234568": 
+    {
+        "prefix": [
+            "..U.28BE",
+            "..U.BRAILLE PATTERN DOTS-234568",
+            "U+28BE",
+        ],
+        "body": [
+            "${1|⢾,&#x28BE;,U+28BE,0x28BE,BRAILLE PATTERN DOTS-234568|}$2",
+        ],
+        "description": [
+            "Code: U+28BE",
+            "Character/Symbol: ⢾",
+            "Name: BRAILLE PATTERN DOTS-234568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⢿ U+28BF BRAILLE PATTERN DOTS-1234568": 
+    {
+        "prefix": [
+            "..U.28BF",
+            "..U.BRAILLE PATTERN DOTS-1234568",
+            "U+28BF",
+        ],
+        "body": [
+            "${1|⢿,&#x28BF;,U+28BF,0x28BF,BRAILLE PATTERN DOTS-1234568|}$2",
+        ],
+        "description": [
+            "Code: U+28BF",
+            "Character/Symbol: ⢿",
+            "Name: BRAILLE PATTERN DOTS-1234568",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣀ U+28C0 BRAILLE PATTERN DOTS-78": 
+    {
+        "prefix": [
+            "..U.28C0",
+            "..U.BRAILLE PATTERN DOTS-78",
+            "U+28C0",
+        ],
+        "body": [
+            "${1|⣀,&#x28C0;,U+28C0,0x28C0,BRAILLE PATTERN DOTS-78|}$2",
+        ],
+        "description": [
+            "Code: U+28C0",
+            "Character/Symbol: ⣀",
+            "Name: BRAILLE PATTERN DOTS-78",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣁ U+28C1 BRAILLE PATTERN DOTS-178": 
+    {
+        "prefix": [
+            "..U.28C1",
+            "..U.BRAILLE PATTERN DOTS-178",
+            "U+28C1",
+        ],
+        "body": [
+            "${1|⣁,&#x28C1;,U+28C1,0x28C1,BRAILLE PATTERN DOTS-178|}$2",
+        ],
+        "description": [
+            "Code: U+28C1",
+            "Character/Symbol: ⣁",
+            "Name: BRAILLE PATTERN DOTS-178",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣂ U+28C2 BRAILLE PATTERN DOTS-278": 
+    {
+        "prefix": [
+            "..U.28C2",
+            "..U.BRAILLE PATTERN DOTS-278",
+            "U+28C2",
+        ],
+        "body": [
+            "${1|⣂,&#x28C2;,U+28C2,0x28C2,BRAILLE PATTERN DOTS-278|}$2",
+        ],
+        "description": [
+            "Code: U+28C2",
+            "Character/Symbol: ⣂",
+            "Name: BRAILLE PATTERN DOTS-278",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣃ U+28C3 BRAILLE PATTERN DOTS-1278": 
+    {
+        "prefix": [
+            "..U.28C3",
+            "..U.BRAILLE PATTERN DOTS-1278",
+            "U+28C3",
+        ],
+        "body": [
+            "${1|⣃,&#x28C3;,U+28C3,0x28C3,BRAILLE PATTERN DOTS-1278|}$2",
+        ],
+        "description": [
+            "Code: U+28C3",
+            "Character/Symbol: ⣃",
+            "Name: BRAILLE PATTERN DOTS-1278",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣄ U+28C4 BRAILLE PATTERN DOTS-378": 
+    {
+        "prefix": [
+            "..U.28C4",
+            "..U.BRAILLE PATTERN DOTS-378",
+            "U+28C4",
+        ],
+        "body": [
+            "${1|⣄,&#x28C4;,U+28C4,0x28C4,BRAILLE PATTERN DOTS-378|}$2",
+        ],
+        "description": [
+            "Code: U+28C4",
+            "Character/Symbol: ⣄",
+            "Name: BRAILLE PATTERN DOTS-378",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣅ U+28C5 BRAILLE PATTERN DOTS-1378": 
+    {
+        "prefix": [
+            "..U.28C5",
+            "..U.BRAILLE PATTERN DOTS-1378",
+            "U+28C5",
+        ],
+        "body": [
+            "${1|⣅,&#x28C5;,U+28C5,0x28C5,BRAILLE PATTERN DOTS-1378|}$2",
+        ],
+        "description": [
+            "Code: U+28C5",
+            "Character/Symbol: ⣅",
+            "Name: BRAILLE PATTERN DOTS-1378",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣆ U+28C6 BRAILLE PATTERN DOTS-2378": 
+    {
+        "prefix": [
+            "..U.28C6",
+            "..U.BRAILLE PATTERN DOTS-2378",
+            "U+28C6",
+        ],
+        "body": [
+            "${1|⣆,&#x28C6;,U+28C6,0x28C6,BRAILLE PATTERN DOTS-2378|}$2",
+        ],
+        "description": [
+            "Code: U+28C6",
+            "Character/Symbol: ⣆",
+            "Name: BRAILLE PATTERN DOTS-2378",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣇ U+28C7 BRAILLE PATTERN DOTS-12378": 
+    {
+        "prefix": [
+            "..U.28C7",
+            "..U.BRAILLE PATTERN DOTS-12378",
+            "U+28C7",
+        ],
+        "body": [
+            "${1|⣇,&#x28C7;,U+28C7,0x28C7,BRAILLE PATTERN DOTS-12378|}$2",
+        ],
+        "description": [
+            "Code: U+28C7",
+            "Character/Symbol: ⣇",
+            "Name: BRAILLE PATTERN DOTS-12378",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣈ U+28C8 BRAILLE PATTERN DOTS-478": 
+    {
+        "prefix": [
+            "..U.28C8",
+            "..U.BRAILLE PATTERN DOTS-478",
+            "U+28C8",
+        ],
+        "body": [
+            "${1|⣈,&#x28C8;,U+28C8,0x28C8,BRAILLE PATTERN DOTS-478|}$2",
+        ],
+        "description": [
+            "Code: U+28C8",
+            "Character/Symbol: ⣈",
+            "Name: BRAILLE PATTERN DOTS-478",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣉ U+28C9 BRAILLE PATTERN DOTS-1478": 
+    {
+        "prefix": [
+            "..U.28C9",
+            "..U.BRAILLE PATTERN DOTS-1478",
+            "U+28C9",
+        ],
+        "body": [
+            "${1|⣉,&#x28C9;,U+28C9,0x28C9,BRAILLE PATTERN DOTS-1478|}$2",
+        ],
+        "description": [
+            "Code: U+28C9",
+            "Character/Symbol: ⣉",
+            "Name: BRAILLE PATTERN DOTS-1478",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣊ U+28CA BRAILLE PATTERN DOTS-2478": 
+    {
+        "prefix": [
+            "..U.28CA",
+            "..U.BRAILLE PATTERN DOTS-2478",
+            "U+28CA",
+        ],
+        "body": [
+            "${1|⣊,&#x28CA;,U+28CA,0x28CA,BRAILLE PATTERN DOTS-2478|}$2",
+        ],
+        "description": [
+            "Code: U+28CA",
+            "Character/Symbol: ⣊",
+            "Name: BRAILLE PATTERN DOTS-2478",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣋ U+28CB BRAILLE PATTERN DOTS-12478": 
+    {
+        "prefix": [
+            "..U.28CB",
+            "..U.BRAILLE PATTERN DOTS-12478",
+            "U+28CB",
+        ],
+        "body": [
+            "${1|⣋,&#x28CB;,U+28CB,0x28CB,BRAILLE PATTERN DOTS-12478|}$2",
+        ],
+        "description": [
+            "Code: U+28CB",
+            "Character/Symbol: ⣋",
+            "Name: BRAILLE PATTERN DOTS-12478",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣌ U+28CC BRAILLE PATTERN DOTS-3478": 
+    {
+        "prefix": [
+            "..U.28CC",
+            "..U.BRAILLE PATTERN DOTS-3478",
+            "U+28CC",
+        ],
+        "body": [
+            "${1|⣌,&#x28CC;,U+28CC,0x28CC,BRAILLE PATTERN DOTS-3478|}$2",
+        ],
+        "description": [
+            "Code: U+28CC",
+            "Character/Symbol: ⣌",
+            "Name: BRAILLE PATTERN DOTS-3478",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣍ U+28CD BRAILLE PATTERN DOTS-13478": 
+    {
+        "prefix": [
+            "..U.28CD",
+            "..U.BRAILLE PATTERN DOTS-13478",
+            "U+28CD",
+        ],
+        "body": [
+            "${1|⣍,&#x28CD;,U+28CD,0x28CD,BRAILLE PATTERN DOTS-13478|}$2",
+        ],
+        "description": [
+            "Code: U+28CD",
+            "Character/Symbol: ⣍",
+            "Name: BRAILLE PATTERN DOTS-13478",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣎ U+28CE BRAILLE PATTERN DOTS-23478": 
+    {
+        "prefix": [
+            "..U.28CE",
+            "..U.BRAILLE PATTERN DOTS-23478",
+            "U+28CE",
+        ],
+        "body": [
+            "${1|⣎,&#x28CE;,U+28CE,0x28CE,BRAILLE PATTERN DOTS-23478|}$2",
+        ],
+        "description": [
+            "Code: U+28CE",
+            "Character/Symbol: ⣎",
+            "Name: BRAILLE PATTERN DOTS-23478",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣏ U+28CF BRAILLE PATTERN DOTS-123478": 
+    {
+        "prefix": [
+            "..U.28CF",
+            "..U.BRAILLE PATTERN DOTS-123478",
+            "U+28CF",
+        ],
+        "body": [
+            "${1|⣏,&#x28CF;,U+28CF,0x28CF,BRAILLE PATTERN DOTS-123478|}$2",
+        ],
+        "description": [
+            "Code: U+28CF",
+            "Character/Symbol: ⣏",
+            "Name: BRAILLE PATTERN DOTS-123478",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣐ U+28D0 BRAILLE PATTERN DOTS-578": 
+    {
+        "prefix": [
+            "..U.28D0",
+            "..U.BRAILLE PATTERN DOTS-578",
+            "U+28D0",
+        ],
+        "body": [
+            "${1|⣐,&#x28D0;,U+28D0,0x28D0,BRAILLE PATTERN DOTS-578|}$2",
+        ],
+        "description": [
+            "Code: U+28D0",
+            "Character/Symbol: ⣐",
+            "Name: BRAILLE PATTERN DOTS-578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣑ U+28D1 BRAILLE PATTERN DOTS-1578": 
+    {
+        "prefix": [
+            "..U.28D1",
+            "..U.BRAILLE PATTERN DOTS-1578",
+            "U+28D1",
+        ],
+        "body": [
+            "${1|⣑,&#x28D1;,U+28D1,0x28D1,BRAILLE PATTERN DOTS-1578|}$2",
+        ],
+        "description": [
+            "Code: U+28D1",
+            "Character/Symbol: ⣑",
+            "Name: BRAILLE PATTERN DOTS-1578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣒ U+28D2 BRAILLE PATTERN DOTS-2578": 
+    {
+        "prefix": [
+            "..U.28D2",
+            "..U.BRAILLE PATTERN DOTS-2578",
+            "U+28D2",
+        ],
+        "body": [
+            "${1|⣒,&#x28D2;,U+28D2,0x28D2,BRAILLE PATTERN DOTS-2578|}$2",
+        ],
+        "description": [
+            "Code: U+28D2",
+            "Character/Symbol: ⣒",
+            "Name: BRAILLE PATTERN DOTS-2578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣓ U+28D3 BRAILLE PATTERN DOTS-12578": 
+    {
+        "prefix": [
+            "..U.28D3",
+            "..U.BRAILLE PATTERN DOTS-12578",
+            "U+28D3",
+        ],
+        "body": [
+            "${1|⣓,&#x28D3;,U+28D3,0x28D3,BRAILLE PATTERN DOTS-12578|}$2",
+        ],
+        "description": [
+            "Code: U+28D3",
+            "Character/Symbol: ⣓",
+            "Name: BRAILLE PATTERN DOTS-12578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣔ U+28D4 BRAILLE PATTERN DOTS-3578": 
+    {
+        "prefix": [
+            "..U.28D4",
+            "..U.BRAILLE PATTERN DOTS-3578",
+            "U+28D4",
+        ],
+        "body": [
+            "${1|⣔,&#x28D4;,U+28D4,0x28D4,BRAILLE PATTERN DOTS-3578|}$2",
+        ],
+        "description": [
+            "Code: U+28D4",
+            "Character/Symbol: ⣔",
+            "Name: BRAILLE PATTERN DOTS-3578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣕ U+28D5 BRAILLE PATTERN DOTS-13578": 
+    {
+        "prefix": [
+            "..U.28D5",
+            "..U.BRAILLE PATTERN DOTS-13578",
+            "U+28D5",
+        ],
+        "body": [
+            "${1|⣕,&#x28D5;,U+28D5,0x28D5,BRAILLE PATTERN DOTS-13578|}$2",
+        ],
+        "description": [
+            "Code: U+28D5",
+            "Character/Symbol: ⣕",
+            "Name: BRAILLE PATTERN DOTS-13578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣖ U+28D6 BRAILLE PATTERN DOTS-23578": 
+    {
+        "prefix": [
+            "..U.28D6",
+            "..U.BRAILLE PATTERN DOTS-23578",
+            "U+28D6",
+        ],
+        "body": [
+            "${1|⣖,&#x28D6;,U+28D6,0x28D6,BRAILLE PATTERN DOTS-23578|}$2",
+        ],
+        "description": [
+            "Code: U+28D6",
+            "Character/Symbol: ⣖",
+            "Name: BRAILLE PATTERN DOTS-23578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣗ U+28D7 BRAILLE PATTERN DOTS-123578": 
+    {
+        "prefix": [
+            "..U.28D7",
+            "..U.BRAILLE PATTERN DOTS-123578",
+            "U+28D7",
+        ],
+        "body": [
+            "${1|⣗,&#x28D7;,U+28D7,0x28D7,BRAILLE PATTERN DOTS-123578|}$2",
+        ],
+        "description": [
+            "Code: U+28D7",
+            "Character/Symbol: ⣗",
+            "Name: BRAILLE PATTERN DOTS-123578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣘ U+28D8 BRAILLE PATTERN DOTS-4578": 
+    {
+        "prefix": [
+            "..U.28D8",
+            "..U.BRAILLE PATTERN DOTS-4578",
+            "U+28D8",
+        ],
+        "body": [
+            "${1|⣘,&#x28D8;,U+28D8,0x28D8,BRAILLE PATTERN DOTS-4578|}$2",
+        ],
+        "description": [
+            "Code: U+28D8",
+            "Character/Symbol: ⣘",
+            "Name: BRAILLE PATTERN DOTS-4578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣙ U+28D9 BRAILLE PATTERN DOTS-14578": 
+    {
+        "prefix": [
+            "..U.28D9",
+            "..U.BRAILLE PATTERN DOTS-14578",
+            "U+28D9",
+        ],
+        "body": [
+            "${1|⣙,&#x28D9;,U+28D9,0x28D9,BRAILLE PATTERN DOTS-14578|}$2",
+        ],
+        "description": [
+            "Code: U+28D9",
+            "Character/Symbol: ⣙",
+            "Name: BRAILLE PATTERN DOTS-14578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣚ U+28DA BRAILLE PATTERN DOTS-24578": 
+    {
+        "prefix": [
+            "..U.28DA",
+            "..U.BRAILLE PATTERN DOTS-24578",
+            "U+28DA",
+        ],
+        "body": [
+            "${1|⣚,&#x28DA;,U+28DA,0x28DA,BRAILLE PATTERN DOTS-24578|}$2",
+        ],
+        "description": [
+            "Code: U+28DA",
+            "Character/Symbol: ⣚",
+            "Name: BRAILLE PATTERN DOTS-24578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣛ U+28DB BRAILLE PATTERN DOTS-124578": 
+    {
+        "prefix": [
+            "..U.28DB",
+            "..U.BRAILLE PATTERN DOTS-124578",
+            "U+28DB",
+        ],
+        "body": [
+            "${1|⣛,&#x28DB;,U+28DB,0x28DB,BRAILLE PATTERN DOTS-124578|}$2",
+        ],
+        "description": [
+            "Code: U+28DB",
+            "Character/Symbol: ⣛",
+            "Name: BRAILLE PATTERN DOTS-124578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣜ U+28DC BRAILLE PATTERN DOTS-34578": 
+    {
+        "prefix": [
+            "..U.28DC",
+            "..U.BRAILLE PATTERN DOTS-34578",
+            "U+28DC",
+        ],
+        "body": [
+            "${1|⣜,&#x28DC;,U+28DC,0x28DC,BRAILLE PATTERN DOTS-34578|}$2",
+        ],
+        "description": [
+            "Code: U+28DC",
+            "Character/Symbol: ⣜",
+            "Name: BRAILLE PATTERN DOTS-34578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣝ U+28DD BRAILLE PATTERN DOTS-134578": 
+    {
+        "prefix": [
+            "..U.28DD",
+            "..U.BRAILLE PATTERN DOTS-134578",
+            "U+28DD",
+        ],
+        "body": [
+            "${1|⣝,&#x28DD;,U+28DD,0x28DD,BRAILLE PATTERN DOTS-134578|}$2",
+        ],
+        "description": [
+            "Code: U+28DD",
+            "Character/Symbol: ⣝",
+            "Name: BRAILLE PATTERN DOTS-134578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣞ U+28DE BRAILLE PATTERN DOTS-234578": 
+    {
+        "prefix": [
+            "..U.28DE",
+            "..U.BRAILLE PATTERN DOTS-234578",
+            "U+28DE",
+        ],
+        "body": [
+            "${1|⣞,&#x28DE;,U+28DE,0x28DE,BRAILLE PATTERN DOTS-234578|}$2",
+        ],
+        "description": [
+            "Code: U+28DE",
+            "Character/Symbol: ⣞",
+            "Name: BRAILLE PATTERN DOTS-234578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣟ U+28DF BRAILLE PATTERN DOTS-1234578": 
+    {
+        "prefix": [
+            "..U.28DF",
+            "..U.BRAILLE PATTERN DOTS-1234578",
+            "U+28DF",
+        ],
+        "body": [
+            "${1|⣟,&#x28DF;,U+28DF,0x28DF,BRAILLE PATTERN DOTS-1234578|}$2",
+        ],
+        "description": [
+            "Code: U+28DF",
+            "Character/Symbol: ⣟",
+            "Name: BRAILLE PATTERN DOTS-1234578",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣠ U+28E0 BRAILLE PATTERN DOTS-678": 
+    {
+        "prefix": [
+            "..U.28E0",
+            "..U.BRAILLE PATTERN DOTS-678",
+            "U+28E0",
+        ],
+        "body": [
+            "${1|⣠,&#x28E0;,U+28E0,0x28E0,BRAILLE PATTERN DOTS-678|}$2",
+        ],
+        "description": [
+            "Code: U+28E0",
+            "Character/Symbol: ⣠",
+            "Name: BRAILLE PATTERN DOTS-678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣡ U+28E1 BRAILLE PATTERN DOTS-1678": 
+    {
+        "prefix": [
+            "..U.28E1",
+            "..U.BRAILLE PATTERN DOTS-1678",
+            "U+28E1",
+        ],
+        "body": [
+            "${1|⣡,&#x28E1;,U+28E1,0x28E1,BRAILLE PATTERN DOTS-1678|}$2",
+        ],
+        "description": [
+            "Code: U+28E1",
+            "Character/Symbol: ⣡",
+            "Name: BRAILLE PATTERN DOTS-1678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣢ U+28E2 BRAILLE PATTERN DOTS-2678": 
+    {
+        "prefix": [
+            "..U.28E2",
+            "..U.BRAILLE PATTERN DOTS-2678",
+            "U+28E2",
+        ],
+        "body": [
+            "${1|⣢,&#x28E2;,U+28E2,0x28E2,BRAILLE PATTERN DOTS-2678|}$2",
+        ],
+        "description": [
+            "Code: U+28E2",
+            "Character/Symbol: ⣢",
+            "Name: BRAILLE PATTERN DOTS-2678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣣ U+28E3 BRAILLE PATTERN DOTS-12678": 
+    {
+        "prefix": [
+            "..U.28E3",
+            "..U.BRAILLE PATTERN DOTS-12678",
+            "U+28E3",
+        ],
+        "body": [
+            "${1|⣣,&#x28E3;,U+28E3,0x28E3,BRAILLE PATTERN DOTS-12678|}$2",
+        ],
+        "description": [
+            "Code: U+28E3",
+            "Character/Symbol: ⣣",
+            "Name: BRAILLE PATTERN DOTS-12678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣤ U+28E4 BRAILLE PATTERN DOTS-3678": 
+    {
+        "prefix": [
+            "..U.28E4",
+            "..U.BRAILLE PATTERN DOTS-3678",
+            "U+28E4",
+        ],
+        "body": [
+            "${1|⣤,&#x28E4;,U+28E4,0x28E4,BRAILLE PATTERN DOTS-3678|}$2",
+        ],
+        "description": [
+            "Code: U+28E4",
+            "Character/Symbol: ⣤",
+            "Name: BRAILLE PATTERN DOTS-3678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣥ U+28E5 BRAILLE PATTERN DOTS-13678": 
+    {
+        "prefix": [
+            "..U.28E5",
+            "..U.BRAILLE PATTERN DOTS-13678",
+            "U+28E5",
+        ],
+        "body": [
+            "${1|⣥,&#x28E5;,U+28E5,0x28E5,BRAILLE PATTERN DOTS-13678|}$2",
+        ],
+        "description": [
+            "Code: U+28E5",
+            "Character/Symbol: ⣥",
+            "Name: BRAILLE PATTERN DOTS-13678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣦ U+28E6 BRAILLE PATTERN DOTS-23678": 
+    {
+        "prefix": [
+            "..U.28E6",
+            "..U.BRAILLE PATTERN DOTS-23678",
+            "U+28E6",
+        ],
+        "body": [
+            "${1|⣦,&#x28E6;,U+28E6,0x28E6,BRAILLE PATTERN DOTS-23678|}$2",
+        ],
+        "description": [
+            "Code: U+28E6",
+            "Character/Symbol: ⣦",
+            "Name: BRAILLE PATTERN DOTS-23678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣧ U+28E7 BRAILLE PATTERN DOTS-123678": 
+    {
+        "prefix": [
+            "..U.28E7",
+            "..U.BRAILLE PATTERN DOTS-123678",
+            "U+28E7",
+        ],
+        "body": [
+            "${1|⣧,&#x28E7;,U+28E7,0x28E7,BRAILLE PATTERN DOTS-123678|}$2",
+        ],
+        "description": [
+            "Code: U+28E7",
+            "Character/Symbol: ⣧",
+            "Name: BRAILLE PATTERN DOTS-123678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣨ U+28E8 BRAILLE PATTERN DOTS-4678": 
+    {
+        "prefix": [
+            "..U.28E8",
+            "..U.BRAILLE PATTERN DOTS-4678",
+            "U+28E8",
+        ],
+        "body": [
+            "${1|⣨,&#x28E8;,U+28E8,0x28E8,BRAILLE PATTERN DOTS-4678|}$2",
+        ],
+        "description": [
+            "Code: U+28E8",
+            "Character/Symbol: ⣨",
+            "Name: BRAILLE PATTERN DOTS-4678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣩ U+28E9 BRAILLE PATTERN DOTS-14678": 
+    {
+        "prefix": [
+            "..U.28E9",
+            "..U.BRAILLE PATTERN DOTS-14678",
+            "U+28E9",
+        ],
+        "body": [
+            "${1|⣩,&#x28E9;,U+28E9,0x28E9,BRAILLE PATTERN DOTS-14678|}$2",
+        ],
+        "description": [
+            "Code: U+28E9",
+            "Character/Symbol: ⣩",
+            "Name: BRAILLE PATTERN DOTS-14678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣪ U+28EA BRAILLE PATTERN DOTS-24678": 
+    {
+        "prefix": [
+            "..U.28EA",
+            "..U.BRAILLE PATTERN DOTS-24678",
+            "U+28EA",
+        ],
+        "body": [
+            "${1|⣪,&#x28EA;,U+28EA,0x28EA,BRAILLE PATTERN DOTS-24678|}$2",
+        ],
+        "description": [
+            "Code: U+28EA",
+            "Character/Symbol: ⣪",
+            "Name: BRAILLE PATTERN DOTS-24678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣫ U+28EB BRAILLE PATTERN DOTS-124678": 
+    {
+        "prefix": [
+            "..U.28EB",
+            "..U.BRAILLE PATTERN DOTS-124678",
+            "U+28EB",
+        ],
+        "body": [
+            "${1|⣫,&#x28EB;,U+28EB,0x28EB,BRAILLE PATTERN DOTS-124678|}$2",
+        ],
+        "description": [
+            "Code: U+28EB",
+            "Character/Symbol: ⣫",
+            "Name: BRAILLE PATTERN DOTS-124678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣬ U+28EC BRAILLE PATTERN DOTS-34678": 
+    {
+        "prefix": [
+            "..U.28EC",
+            "..U.BRAILLE PATTERN DOTS-34678",
+            "U+28EC",
+        ],
+        "body": [
+            "${1|⣬,&#x28EC;,U+28EC,0x28EC,BRAILLE PATTERN DOTS-34678|}$2",
+        ],
+        "description": [
+            "Code: U+28EC",
+            "Character/Symbol: ⣬",
+            "Name: BRAILLE PATTERN DOTS-34678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣭ U+28ED BRAILLE PATTERN DOTS-134678": 
+    {
+        "prefix": [
+            "..U.28ED",
+            "..U.BRAILLE PATTERN DOTS-134678",
+            "U+28ED",
+        ],
+        "body": [
+            "${1|⣭,&#x28ED;,U+28ED,0x28ED,BRAILLE PATTERN DOTS-134678|}$2",
+        ],
+        "description": [
+            "Code: U+28ED",
+            "Character/Symbol: ⣭",
+            "Name: BRAILLE PATTERN DOTS-134678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣮ U+28EE BRAILLE PATTERN DOTS-234678": 
+    {
+        "prefix": [
+            "..U.28EE",
+            "..U.BRAILLE PATTERN DOTS-234678",
+            "U+28EE",
+        ],
+        "body": [
+            "${1|⣮,&#x28EE;,U+28EE,0x28EE,BRAILLE PATTERN DOTS-234678|}$2",
+        ],
+        "description": [
+            "Code: U+28EE",
+            "Character/Symbol: ⣮",
+            "Name: BRAILLE PATTERN DOTS-234678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣯ U+28EF BRAILLE PATTERN DOTS-1234678": 
+    {
+        "prefix": [
+            "..U.28EF",
+            "..U.BRAILLE PATTERN DOTS-1234678",
+            "U+28EF",
+        ],
+        "body": [
+            "${1|⣯,&#x28EF;,U+28EF,0x28EF,BRAILLE PATTERN DOTS-1234678|}$2",
+        ],
+        "description": [
+            "Code: U+28EF",
+            "Character/Symbol: ⣯",
+            "Name: BRAILLE PATTERN DOTS-1234678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣰ U+28F0 BRAILLE PATTERN DOTS-5678": 
+    {
+        "prefix": [
+            "..U.28F0",
+            "..U.BRAILLE PATTERN DOTS-5678",
+            "U+28F0",
+        ],
+        "body": [
+            "${1|⣰,&#x28F0;,U+28F0,0x28F0,BRAILLE PATTERN DOTS-5678|}$2",
+        ],
+        "description": [
+            "Code: U+28F0",
+            "Character/Symbol: ⣰",
+            "Name: BRAILLE PATTERN DOTS-5678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣱ U+28F1 BRAILLE PATTERN DOTS-15678": 
+    {
+        "prefix": [
+            "..U.28F1",
+            "..U.BRAILLE PATTERN DOTS-15678",
+            "U+28F1",
+        ],
+        "body": [
+            "${1|⣱,&#x28F1;,U+28F1,0x28F1,BRAILLE PATTERN DOTS-15678|}$2",
+        ],
+        "description": [
+            "Code: U+28F1",
+            "Character/Symbol: ⣱",
+            "Name: BRAILLE PATTERN DOTS-15678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣲ U+28F2 BRAILLE PATTERN DOTS-25678": 
+    {
+        "prefix": [
+            "..U.28F2",
+            "..U.BRAILLE PATTERN DOTS-25678",
+            "U+28F2",
+        ],
+        "body": [
+            "${1|⣲,&#x28F2;,U+28F2,0x28F2,BRAILLE PATTERN DOTS-25678|}$2",
+        ],
+        "description": [
+            "Code: U+28F2",
+            "Character/Symbol: ⣲",
+            "Name: BRAILLE PATTERN DOTS-25678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣳ U+28F3 BRAILLE PATTERN DOTS-125678": 
+    {
+        "prefix": [
+            "..U.28F3",
+            "..U.BRAILLE PATTERN DOTS-125678",
+            "U+28F3",
+        ],
+        "body": [
+            "${1|⣳,&#x28F3;,U+28F3,0x28F3,BRAILLE PATTERN DOTS-125678|}$2",
+        ],
+        "description": [
+            "Code: U+28F3",
+            "Character/Symbol: ⣳",
+            "Name: BRAILLE PATTERN DOTS-125678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣴ U+28F4 BRAILLE PATTERN DOTS-35678": 
+    {
+        "prefix": [
+            "..U.28F4",
+            "..U.BRAILLE PATTERN DOTS-35678",
+            "U+28F4",
+        ],
+        "body": [
+            "${1|⣴,&#x28F4;,U+28F4,0x28F4,BRAILLE PATTERN DOTS-35678|}$2",
+        ],
+        "description": [
+            "Code: U+28F4",
+            "Character/Symbol: ⣴",
+            "Name: BRAILLE PATTERN DOTS-35678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣵ U+28F5 BRAILLE PATTERN DOTS-135678": 
+    {
+        "prefix": [
+            "..U.28F5",
+            "..U.BRAILLE PATTERN DOTS-135678",
+            "U+28F5",
+        ],
+        "body": [
+            "${1|⣵,&#x28F5;,U+28F5,0x28F5,BRAILLE PATTERN DOTS-135678|}$2",
+        ],
+        "description": [
+            "Code: U+28F5",
+            "Character/Symbol: ⣵",
+            "Name: BRAILLE PATTERN DOTS-135678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣶ U+28F6 BRAILLE PATTERN DOTS-235678": 
+    {
+        "prefix": [
+            "..U.28F6",
+            "..U.BRAILLE PATTERN DOTS-235678",
+            "U+28F6",
+        ],
+        "body": [
+            "${1|⣶,&#x28F6;,U+28F6,0x28F6,BRAILLE PATTERN DOTS-235678|}$2",
+        ],
+        "description": [
+            "Code: U+28F6",
+            "Character/Symbol: ⣶",
+            "Name: BRAILLE PATTERN DOTS-235678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣷ U+28F7 BRAILLE PATTERN DOTS-1235678": 
+    {
+        "prefix": [
+            "..U.28F7",
+            "..U.BRAILLE PATTERN DOTS-1235678",
+            "U+28F7",
+        ],
+        "body": [
+            "${1|⣷,&#x28F7;,U+28F7,0x28F7,BRAILLE PATTERN DOTS-1235678|}$2",
+        ],
+        "description": [
+            "Code: U+28F7",
+            "Character/Symbol: ⣷",
+            "Name: BRAILLE PATTERN DOTS-1235678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣸ U+28F8 BRAILLE PATTERN DOTS-45678": 
+    {
+        "prefix": [
+            "..U.28F8",
+            "..U.BRAILLE PATTERN DOTS-45678",
+            "U+28F8",
+        ],
+        "body": [
+            "${1|⣸,&#x28F8;,U+28F8,0x28F8,BRAILLE PATTERN DOTS-45678|}$2",
+        ],
+        "description": [
+            "Code: U+28F8",
+            "Character/Symbol: ⣸",
+            "Name: BRAILLE PATTERN DOTS-45678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣹ U+28F9 BRAILLE PATTERN DOTS-145678": 
+    {
+        "prefix": [
+            "..U.28F9",
+            "..U.BRAILLE PATTERN DOTS-145678",
+            "U+28F9",
+        ],
+        "body": [
+            "${1|⣹,&#x28F9;,U+28F9,0x28F9,BRAILLE PATTERN DOTS-145678|}$2",
+        ],
+        "description": [
+            "Code: U+28F9",
+            "Character/Symbol: ⣹",
+            "Name: BRAILLE PATTERN DOTS-145678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣺ U+28FA BRAILLE PATTERN DOTS-245678": 
+    {
+        "prefix": [
+            "..U.28FA",
+            "..U.BRAILLE PATTERN DOTS-245678",
+            "U+28FA",
+        ],
+        "body": [
+            "${1|⣺,&#x28FA;,U+28FA,0x28FA,BRAILLE PATTERN DOTS-245678|}$2",
+        ],
+        "description": [
+            "Code: U+28FA",
+            "Character/Symbol: ⣺",
+            "Name: BRAILLE PATTERN DOTS-245678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣻ U+28FB BRAILLE PATTERN DOTS-1245678": 
+    {
+        "prefix": [
+            "..U.28FB",
+            "..U.BRAILLE PATTERN DOTS-1245678",
+            "U+28FB",
+        ],
+        "body": [
+            "${1|⣻,&#x28FB;,U+28FB,0x28FB,BRAILLE PATTERN DOTS-1245678|}$2",
+        ],
+        "description": [
+            "Code: U+28FB",
+            "Character/Symbol: ⣻",
+            "Name: BRAILLE PATTERN DOTS-1245678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣼ U+28FC BRAILLE PATTERN DOTS-345678": 
+    {
+        "prefix": [
+            "..U.28FC",
+            "..U.BRAILLE PATTERN DOTS-345678",
+            "U+28FC",
+        ],
+        "body": [
+            "${1|⣼,&#x28FC;,U+28FC,0x28FC,BRAILLE PATTERN DOTS-345678|}$2",
+        ],
+        "description": [
+            "Code: U+28FC",
+            "Character/Symbol: ⣼",
+            "Name: BRAILLE PATTERN DOTS-345678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣽ U+28FD BRAILLE PATTERN DOTS-1345678": 
+    {
+        "prefix": [
+            "..U.28FD",
+            "..U.BRAILLE PATTERN DOTS-1345678",
+            "U+28FD",
+        ],
+        "body": [
+            "${1|⣽,&#x28FD;,U+28FD,0x28FD,BRAILLE PATTERN DOTS-1345678|}$2",
+        ],
+        "description": [
+            "Code: U+28FD",
+            "Character/Symbol: ⣽",
+            "Name: BRAILLE PATTERN DOTS-1345678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣾ U+28FE BRAILLE PATTERN DOTS-2345678": 
+    {
+        "prefix": [
+            "..U.28FE",
+            "..U.BRAILLE PATTERN DOTS-2345678",
+            "U+28FE",
+        ],
+        "body": [
+            "${1|⣾,&#x28FE;,U+28FE,0x28FE,BRAILLE PATTERN DOTS-2345678|}$2",
+        ],
+        "description": [
+            "Code: U+28FE",
+            "Character/Symbol: ⣾",
+            "Name: BRAILLE PATTERN DOTS-2345678",
+            "Group/Block: Braille",
+        ],
+    },
+
+    "Unicode ⣿ U+28FF BRAILLE PATTERN DOTS-12345678": 
+    {
+        "prefix": [
+            "..U.28FF",
+            "..U.BRAILLE PATTERN DOTS-12345678",
+            "U+28FF",
+        ],
+        "body": [
+            "${1|⣿,&#x28FF;,U+28FF,0x28FF,BRAILLE PATTERN DOTS-12345678|}$2",
+        ],
+        "description": [
+            "Code: U+28FF",
+            "Character/Symbol: ⣿",
+            "Name: BRAILLE PATTERN DOTS-12345678",
+            "Group/Block: Braille",
+        ],
+    },
+
+}

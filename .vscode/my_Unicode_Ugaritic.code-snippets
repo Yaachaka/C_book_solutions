@@ -1,0 +1,560 @@
+{
+    "Unicode 𐎀 U+10380 UGARITIC LETTER ALPA": 
+    {
+        "prefix": [
+            "..U.10380",
+            "..U.UGARITIC LETTER ALPA",
+            "U+10380",
+        ],
+        "body": [
+            "${1|𐎀,&#x10380;,U+10380,0x10380,UGARITIC LETTER ALPA|}$2",
+        ],
+        "description": [
+            "Code: U+10380",
+            "Character/Symbol: 𐎀",
+            "Name: UGARITIC LETTER ALPA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎁 U+10381 UGARITIC LETTER BETA": 
+    {
+        "prefix": [
+            "..U.10381",
+            "..U.UGARITIC LETTER BETA",
+            "U+10381",
+        ],
+        "body": [
+            "${1|𐎁,&#x10381;,U+10381,0x10381,UGARITIC LETTER BETA|}$2",
+        ],
+        "description": [
+            "Code: U+10381",
+            "Character/Symbol: 𐎁",
+            "Name: UGARITIC LETTER BETA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎂 U+10382 UGARITIC LETTER GAMLA": 
+    {
+        "prefix": [
+            "..U.10382",
+            "..U.UGARITIC LETTER GAMLA",
+            "U+10382",
+        ],
+        "body": [
+            "${1|𐎂,&#x10382;,U+10382,0x10382,UGARITIC LETTER GAMLA|}$2",
+        ],
+        "description": [
+            "Code: U+10382",
+            "Character/Symbol: 𐎂",
+            "Name: UGARITIC LETTER GAMLA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎃 U+10383 UGARITIC LETTER KHA": 
+    {
+        "prefix": [
+            "..U.10383",
+            "..U.UGARITIC LETTER KHA",
+            "U+10383",
+        ],
+        "body": [
+            "${1|𐎃,&#x10383;,U+10383,0x10383,UGARITIC LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+10383",
+            "Character/Symbol: 𐎃",
+            "Name: UGARITIC LETTER KHA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎄 U+10384 UGARITIC LETTER DELTA": 
+    {
+        "prefix": [
+            "..U.10384",
+            "..U.UGARITIC LETTER DELTA",
+            "U+10384",
+        ],
+        "body": [
+            "${1|𐎄,&#x10384;,U+10384,0x10384,UGARITIC LETTER DELTA|}$2",
+        ],
+        "description": [
+            "Code: U+10384",
+            "Character/Symbol: 𐎄",
+            "Name: UGARITIC LETTER DELTA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎅 U+10385 UGARITIC LETTER HO": 
+    {
+        "prefix": [
+            "..U.10385",
+            "..U.UGARITIC LETTER HO",
+            "U+10385",
+        ],
+        "body": [
+            "${1|𐎅,&#x10385;,U+10385,0x10385,UGARITIC LETTER HO|}$2",
+        ],
+        "description": [
+            "Code: U+10385",
+            "Character/Symbol: 𐎅",
+            "Name: UGARITIC LETTER HO",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎆 U+10386 UGARITIC LETTER WO": 
+    {
+        "prefix": [
+            "..U.10386",
+            "..U.UGARITIC LETTER WO",
+            "U+10386",
+        ],
+        "body": [
+            "${1|𐎆,&#x10386;,U+10386,0x10386,UGARITIC LETTER WO|}$2",
+        ],
+        "description": [
+            "Code: U+10386",
+            "Character/Symbol: 𐎆",
+            "Name: UGARITIC LETTER WO",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎇 U+10387 UGARITIC LETTER ZETA": 
+    {
+        "prefix": [
+            "..U.10387",
+            "..U.UGARITIC LETTER ZETA",
+            "U+10387",
+        ],
+        "body": [
+            "${1|𐎇,&#x10387;,U+10387,0x10387,UGARITIC LETTER ZETA|}$2",
+        ],
+        "description": [
+            "Code: U+10387",
+            "Character/Symbol: 𐎇",
+            "Name: UGARITIC LETTER ZETA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎈 U+10388 UGARITIC LETTER HOTA": 
+    {
+        "prefix": [
+            "..U.10388",
+            "..U.UGARITIC LETTER HOTA",
+            "U+10388",
+        ],
+        "body": [
+            "${1|𐎈,&#x10388;,U+10388,0x10388,UGARITIC LETTER HOTA|}$2",
+        ],
+        "description": [
+            "Code: U+10388",
+            "Character/Symbol: 𐎈",
+            "Name: UGARITIC LETTER HOTA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎉 U+10389 UGARITIC LETTER TET": 
+    {
+        "prefix": [
+            "..U.10389",
+            "..U.UGARITIC LETTER TET",
+            "U+10389",
+        ],
+        "body": [
+            "${1|𐎉,&#x10389;,U+10389,0x10389,UGARITIC LETTER TET|}$2",
+        ],
+        "description": [
+            "Code: U+10389",
+            "Character/Symbol: 𐎉",
+            "Name: UGARITIC LETTER TET",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎊 U+1038A UGARITIC LETTER YOD": 
+    {
+        "prefix": [
+            "..U.1038A",
+            "..U.UGARITIC LETTER YOD",
+            "U+1038A",
+        ],
+        "body": [
+            "${1|𐎊,&#x1038A;,U+1038A,0x1038A,UGARITIC LETTER YOD|}$2",
+        ],
+        "description": [
+            "Code: U+1038A",
+            "Character/Symbol: 𐎊",
+            "Name: UGARITIC LETTER YOD",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎋 U+1038B UGARITIC LETTER KAF": 
+    {
+        "prefix": [
+            "..U.1038B",
+            "..U.UGARITIC LETTER KAF",
+            "U+1038B",
+        ],
+        "body": [
+            "${1|𐎋,&#x1038B;,U+1038B,0x1038B,UGARITIC LETTER KAF|}$2",
+        ],
+        "description": [
+            "Code: U+1038B",
+            "Character/Symbol: 𐎋",
+            "Name: UGARITIC LETTER KAF",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎌 U+1038C UGARITIC LETTER SHIN": 
+    {
+        "prefix": [
+            "..U.1038C",
+            "..U.UGARITIC LETTER SHIN",
+            "U+1038C",
+        ],
+        "body": [
+            "${1|𐎌,&#x1038C;,U+1038C,0x1038C,UGARITIC LETTER SHIN|}$2",
+        ],
+        "description": [
+            "Code: U+1038C",
+            "Character/Symbol: 𐎌",
+            "Name: UGARITIC LETTER SHIN",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎍 U+1038D UGARITIC LETTER LAMDA": 
+    {
+        "prefix": [
+            "..U.1038D",
+            "..U.UGARITIC LETTER LAMDA",
+            "U+1038D",
+        ],
+        "body": [
+            "${1|𐎍,&#x1038D;,U+1038D,0x1038D,UGARITIC LETTER LAMDA|}$2",
+        ],
+        "description": [
+            "Code: U+1038D",
+            "Character/Symbol: 𐎍",
+            "Name: UGARITIC LETTER LAMDA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎎 U+1038E UGARITIC LETTER MEM": 
+    {
+        "prefix": [
+            "..U.1038E",
+            "..U.UGARITIC LETTER MEM",
+            "U+1038E",
+        ],
+        "body": [
+            "${1|𐎎,&#x1038E;,U+1038E,0x1038E,UGARITIC LETTER MEM|}$2",
+        ],
+        "description": [
+            "Code: U+1038E",
+            "Character/Symbol: 𐎎",
+            "Name: UGARITIC LETTER MEM",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎏 U+1038F UGARITIC LETTER DHAL": 
+    {
+        "prefix": [
+            "..U.1038F",
+            "..U.UGARITIC LETTER DHAL",
+            "U+1038F",
+        ],
+        "body": [
+            "${1|𐎏,&#x1038F;,U+1038F,0x1038F,UGARITIC LETTER DHAL|}$2",
+        ],
+        "description": [
+            "Code: U+1038F",
+            "Character/Symbol: 𐎏",
+            "Name: UGARITIC LETTER DHAL",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎐 U+10390 UGARITIC LETTER NUN": 
+    {
+        "prefix": [
+            "..U.10390",
+            "..U.UGARITIC LETTER NUN",
+            "U+10390",
+        ],
+        "body": [
+            "${1|𐎐,&#x10390;,U+10390,0x10390,UGARITIC LETTER NUN|}$2",
+        ],
+        "description": [
+            "Code: U+10390",
+            "Character/Symbol: 𐎐",
+            "Name: UGARITIC LETTER NUN",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎑 U+10391 UGARITIC LETTER ZU": 
+    {
+        "prefix": [
+            "..U.10391",
+            "..U.UGARITIC LETTER ZU",
+            "U+10391",
+        ],
+        "body": [
+            "${1|𐎑,&#x10391;,U+10391,0x10391,UGARITIC LETTER ZU|}$2",
+        ],
+        "description": [
+            "Code: U+10391",
+            "Character/Symbol: 𐎑",
+            "Name: UGARITIC LETTER ZU",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎒 U+10392 UGARITIC LETTER SAMKA": 
+    {
+        "prefix": [
+            "..U.10392",
+            "..U.UGARITIC LETTER SAMKA",
+            "U+10392",
+        ],
+        "body": [
+            "${1|𐎒,&#x10392;,U+10392,0x10392,UGARITIC LETTER SAMKA|}$2",
+        ],
+        "description": [
+            "Code: U+10392",
+            "Character/Symbol: 𐎒",
+            "Name: UGARITIC LETTER SAMKA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎓 U+10393 UGARITIC LETTER AIN": 
+    {
+        "prefix": [
+            "..U.10393",
+            "..U.UGARITIC LETTER AIN",
+            "U+10393",
+        ],
+        "body": [
+            "${1|𐎓,&#x10393;,U+10393,0x10393,UGARITIC LETTER AIN|}$2",
+        ],
+        "description": [
+            "Code: U+10393",
+            "Character/Symbol: 𐎓",
+            "Name: UGARITIC LETTER AIN",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎔 U+10394 UGARITIC LETTER PU": 
+    {
+        "prefix": [
+            "..U.10394",
+            "..U.UGARITIC LETTER PU",
+            "U+10394",
+        ],
+        "body": [
+            "${1|𐎔,&#x10394;,U+10394,0x10394,UGARITIC LETTER PU|}$2",
+        ],
+        "description": [
+            "Code: U+10394",
+            "Character/Symbol: 𐎔",
+            "Name: UGARITIC LETTER PU",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎕 U+10395 UGARITIC LETTER SADE": 
+    {
+        "prefix": [
+            "..U.10395",
+            "..U.UGARITIC LETTER SADE",
+            "U+10395",
+        ],
+        "body": [
+            "${1|𐎕,&#x10395;,U+10395,0x10395,UGARITIC LETTER SADE|}$2",
+        ],
+        "description": [
+            "Code: U+10395",
+            "Character/Symbol: 𐎕",
+            "Name: UGARITIC LETTER SADE",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎖 U+10396 UGARITIC LETTER QOPA": 
+    {
+        "prefix": [
+            "..U.10396",
+            "..U.UGARITIC LETTER QOPA",
+            "U+10396",
+        ],
+        "body": [
+            "${1|𐎖,&#x10396;,U+10396,0x10396,UGARITIC LETTER QOPA|}$2",
+        ],
+        "description": [
+            "Code: U+10396",
+            "Character/Symbol: 𐎖",
+            "Name: UGARITIC LETTER QOPA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎗 U+10397 UGARITIC LETTER RASHA": 
+    {
+        "prefix": [
+            "..U.10397",
+            "..U.UGARITIC LETTER RASHA",
+            "U+10397",
+        ],
+        "body": [
+            "${1|𐎗,&#x10397;,U+10397,0x10397,UGARITIC LETTER RASHA|}$2",
+        ],
+        "description": [
+            "Code: U+10397",
+            "Character/Symbol: 𐎗",
+            "Name: UGARITIC LETTER RASHA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎘 U+10398 UGARITIC LETTER THANNA": 
+    {
+        "prefix": [
+            "..U.10398",
+            "..U.UGARITIC LETTER THANNA",
+            "U+10398",
+        ],
+        "body": [
+            "${1|𐎘,&#x10398;,U+10398,0x10398,UGARITIC LETTER THANNA|}$2",
+        ],
+        "description": [
+            "Code: U+10398",
+            "Character/Symbol: 𐎘",
+            "Name: UGARITIC LETTER THANNA",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎙 U+10399 UGARITIC LETTER GHAIN": 
+    {
+        "prefix": [
+            "..U.10399",
+            "..U.UGARITIC LETTER GHAIN",
+            "U+10399",
+        ],
+        "body": [
+            "${1|𐎙,&#x10399;,U+10399,0x10399,UGARITIC LETTER GHAIN|}$2",
+        ],
+        "description": [
+            "Code: U+10399",
+            "Character/Symbol: 𐎙",
+            "Name: UGARITIC LETTER GHAIN",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎚 U+1039A UGARITIC LETTER TO": 
+    {
+        "prefix": [
+            "..U.1039A",
+            "..U.UGARITIC LETTER TO",
+            "U+1039A",
+        ],
+        "body": [
+            "${1|𐎚,&#x1039A;,U+1039A,0x1039A,UGARITIC LETTER TO|}$2",
+        ],
+        "description": [
+            "Code: U+1039A",
+            "Character/Symbol: 𐎚",
+            "Name: UGARITIC LETTER TO",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎛 U+1039B UGARITIC LETTER I": 
+    {
+        "prefix": [
+            "..U.1039B",
+            "..U.UGARITIC LETTER I",
+            "U+1039B",
+        ],
+        "body": [
+            "${1|𐎛,&#x1039B;,U+1039B,0x1039B,UGARITIC LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+1039B",
+            "Character/Symbol: 𐎛",
+            "Name: UGARITIC LETTER I",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎜 U+1039C UGARITIC LETTER U": 
+    {
+        "prefix": [
+            "..U.1039C",
+            "..U.UGARITIC LETTER U",
+            "U+1039C",
+        ],
+        "body": [
+            "${1|𐎜,&#x1039C;,U+1039C,0x1039C,UGARITIC LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+1039C",
+            "Character/Symbol: 𐎜",
+            "Name: UGARITIC LETTER U",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎝 U+1039D UGARITIC LETTER SSU": 
+    {
+        "prefix": [
+            "..U.1039D",
+            "..U.UGARITIC LETTER SSU",
+            "U+1039D",
+        ],
+        "body": [
+            "${1|𐎝,&#x1039D;,U+1039D,0x1039D,UGARITIC LETTER SSU|}$2",
+        ],
+        "description": [
+            "Code: U+1039D",
+            "Character/Symbol: 𐎝",
+            "Name: UGARITIC LETTER SSU",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+    "Unicode 𐎟 U+1039F UGARITIC WORD DIVIDER": 
+    {
+        "prefix": [
+            "..U.1039F",
+            "..U.UGARITIC WORD DIVIDER",
+            "U+1039F",
+        ],
+        "body": [
+            "${1|𐎟,&#x1039F;,U+1039F,0x1039F,UGARITIC WORD DIVIDER|}$2",
+        ],
+        "description": [
+            "Code: U+1039F",
+            "Character/Symbol: 𐎟",
+            "Name: UGARITIC WORD DIVIDER",
+            "Group/Block: Ugaritic",
+        ],
+    },
+
+}

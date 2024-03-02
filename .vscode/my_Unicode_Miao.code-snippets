@@ -1,0 +1,2684 @@
+{
+    "Unicode 𖼀 U+16F00 MIAO LETTER PA": 
+    {
+        "prefix": [
+            "..U.16F00",
+            "..U.MIAO LETTER PA",
+            "U+16F00",
+        ],
+        "body": [
+            "${1|𖼀,&#x16F00;,U+16F00,0x16F00,MIAO LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+16F00",
+            "Character/Symbol: 𖼀",
+            "Name: MIAO LETTER PA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼁 U+16F01 MIAO LETTER BA": 
+    {
+        "prefix": [
+            "..U.16F01",
+            "..U.MIAO LETTER BA",
+            "U+16F01",
+        ],
+        "body": [
+            "${1|𖼁,&#x16F01;,U+16F01,0x16F01,MIAO LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+16F01",
+            "Character/Symbol: 𖼁",
+            "Name: MIAO LETTER BA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼂 U+16F02 MIAO LETTER YI PA": 
+    {
+        "prefix": [
+            "..U.16F02",
+            "..U.MIAO LETTER YI PA",
+            "U+16F02",
+        ],
+        "body": [
+            "${1|𖼂,&#x16F02;,U+16F02,0x16F02,MIAO LETTER YI PA|}$2",
+        ],
+        "description": [
+            "Code: U+16F02",
+            "Character/Symbol: 𖼂",
+            "Name: MIAO LETTER YI PA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼃 U+16F03 MIAO LETTER PLA": 
+    {
+        "prefix": [
+            "..U.16F03",
+            "..U.MIAO LETTER PLA",
+            "U+16F03",
+        ],
+        "body": [
+            "${1|𖼃,&#x16F03;,U+16F03,0x16F03,MIAO LETTER PLA|}$2",
+        ],
+        "description": [
+            "Code: U+16F03",
+            "Character/Symbol: 𖼃",
+            "Name: MIAO LETTER PLA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼄 U+16F04 MIAO LETTER MA": 
+    {
+        "prefix": [
+            "..U.16F04",
+            "..U.MIAO LETTER MA",
+            "U+16F04",
+        ],
+        "body": [
+            "${1|𖼄,&#x16F04;,U+16F04,0x16F04,MIAO LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+16F04",
+            "Character/Symbol: 𖼄",
+            "Name: MIAO LETTER MA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼅 U+16F05 MIAO LETTER MHA": 
+    {
+        "prefix": [
+            "..U.16F05",
+            "..U.MIAO LETTER MHA",
+            "U+16F05",
+        ],
+        "body": [
+            "${1|𖼅,&#x16F05;,U+16F05,0x16F05,MIAO LETTER MHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F05",
+            "Character/Symbol: 𖼅",
+            "Name: MIAO LETTER MHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼆 U+16F06 MIAO LETTER ARCHAIC MA": 
+    {
+        "prefix": [
+            "..U.16F06",
+            "..U.MIAO LETTER ARCHAIC MA",
+            "U+16F06",
+        ],
+        "body": [
+            "${1|𖼆,&#x16F06;,U+16F06,0x16F06,MIAO LETTER ARCHAIC MA|}$2",
+        ],
+        "description": [
+            "Code: U+16F06",
+            "Character/Symbol: 𖼆",
+            "Name: MIAO LETTER ARCHAIC MA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼇 U+16F07 MIAO LETTER FA": 
+    {
+        "prefix": [
+            "..U.16F07",
+            "..U.MIAO LETTER FA",
+            "U+16F07",
+        ],
+        "body": [
+            "${1|𖼇,&#x16F07;,U+16F07,0x16F07,MIAO LETTER FA|}$2",
+        ],
+        "description": [
+            "Code: U+16F07",
+            "Character/Symbol: 𖼇",
+            "Name: MIAO LETTER FA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼈 U+16F08 MIAO LETTER VA": 
+    {
+        "prefix": [
+            "..U.16F08",
+            "..U.MIAO LETTER VA",
+            "U+16F08",
+        ],
+        "body": [
+            "${1|𖼈,&#x16F08;,U+16F08,0x16F08,MIAO LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+16F08",
+            "Character/Symbol: 𖼈",
+            "Name: MIAO LETTER VA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼉 U+16F09 MIAO LETTER VFA": 
+    {
+        "prefix": [
+            "..U.16F09",
+            "..U.MIAO LETTER VFA",
+            "U+16F09",
+        ],
+        "body": [
+            "${1|𖼉,&#x16F09;,U+16F09,0x16F09,MIAO LETTER VFA|}$2",
+        ],
+        "description": [
+            "Code: U+16F09",
+            "Character/Symbol: 𖼉",
+            "Name: MIAO LETTER VFA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼊 U+16F0A MIAO LETTER TA": 
+    {
+        "prefix": [
+            "..U.16F0A",
+            "..U.MIAO LETTER TA",
+            "U+16F0A",
+        ],
+        "body": [
+            "${1|𖼊,&#x16F0A;,U+16F0A,0x16F0A,MIAO LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+16F0A",
+            "Character/Symbol: 𖼊",
+            "Name: MIAO LETTER TA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼋 U+16F0B MIAO LETTER DA": 
+    {
+        "prefix": [
+            "..U.16F0B",
+            "..U.MIAO LETTER DA",
+            "U+16F0B",
+        ],
+        "body": [
+            "${1|𖼋,&#x16F0B;,U+16F0B,0x16F0B,MIAO LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+16F0B",
+            "Character/Symbol: 𖼋",
+            "Name: MIAO LETTER DA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼌 U+16F0C MIAO LETTER YI TTA": 
+    {
+        "prefix": [
+            "..U.16F0C",
+            "..U.MIAO LETTER YI TTA",
+            "U+16F0C",
+        ],
+        "body": [
+            "${1|𖼌,&#x16F0C;,U+16F0C,0x16F0C,MIAO LETTER YI TTA|}$2",
+        ],
+        "description": [
+            "Code: U+16F0C",
+            "Character/Symbol: 𖼌",
+            "Name: MIAO LETTER YI TTA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼍 U+16F0D MIAO LETTER YI TA": 
+    {
+        "prefix": [
+            "..U.16F0D",
+            "..U.MIAO LETTER YI TA",
+            "U+16F0D",
+        ],
+        "body": [
+            "${1|𖼍,&#x16F0D;,U+16F0D,0x16F0D,MIAO LETTER YI TA|}$2",
+        ],
+        "description": [
+            "Code: U+16F0D",
+            "Character/Symbol: 𖼍",
+            "Name: MIAO LETTER YI TA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼎 U+16F0E MIAO LETTER TTA": 
+    {
+        "prefix": [
+            "..U.16F0E",
+            "..U.MIAO LETTER TTA",
+            "U+16F0E",
+        ],
+        "body": [
+            "${1|𖼎,&#x16F0E;,U+16F0E,0x16F0E,MIAO LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+16F0E",
+            "Character/Symbol: 𖼎",
+            "Name: MIAO LETTER TTA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼏 U+16F0F MIAO LETTER DDA": 
+    {
+        "prefix": [
+            "..U.16F0F",
+            "..U.MIAO LETTER DDA",
+            "U+16F0F",
+        ],
+        "body": [
+            "${1|𖼏,&#x16F0F;,U+16F0F,0x16F0F,MIAO LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+16F0F",
+            "Character/Symbol: 𖼏",
+            "Name: MIAO LETTER DDA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼐 U+16F10 MIAO LETTER NA": 
+    {
+        "prefix": [
+            "..U.16F10",
+            "..U.MIAO LETTER NA",
+            "U+16F10",
+        ],
+        "body": [
+            "${1|𖼐,&#x16F10;,U+16F10,0x16F10,MIAO LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+16F10",
+            "Character/Symbol: 𖼐",
+            "Name: MIAO LETTER NA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼑 U+16F11 MIAO LETTER NHA": 
+    {
+        "prefix": [
+            "..U.16F11",
+            "..U.MIAO LETTER NHA",
+            "U+16F11",
+        ],
+        "body": [
+            "${1|𖼑,&#x16F11;,U+16F11,0x16F11,MIAO LETTER NHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F11",
+            "Character/Symbol: 𖼑",
+            "Name: MIAO LETTER NHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼒 U+16F12 MIAO LETTER YI NNA": 
+    {
+        "prefix": [
+            "..U.16F12",
+            "..U.MIAO LETTER YI NNA",
+            "U+16F12",
+        ],
+        "body": [
+            "${1|𖼒,&#x16F12;,U+16F12,0x16F12,MIAO LETTER YI NNA|}$2",
+        ],
+        "description": [
+            "Code: U+16F12",
+            "Character/Symbol: 𖼒",
+            "Name: MIAO LETTER YI NNA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼓 U+16F13 MIAO LETTER ARCHAIC NA": 
+    {
+        "prefix": [
+            "..U.16F13",
+            "..U.MIAO LETTER ARCHAIC NA",
+            "U+16F13",
+        ],
+        "body": [
+            "${1|𖼓,&#x16F13;,U+16F13,0x16F13,MIAO LETTER ARCHAIC NA|}$2",
+        ],
+        "description": [
+            "Code: U+16F13",
+            "Character/Symbol: 𖼓",
+            "Name: MIAO LETTER ARCHAIC NA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼔 U+16F14 MIAO LETTER NNA": 
+    {
+        "prefix": [
+            "..U.16F14",
+            "..U.MIAO LETTER NNA",
+            "U+16F14",
+        ],
+        "body": [
+            "${1|𖼔,&#x16F14;,U+16F14,0x16F14,MIAO LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+16F14",
+            "Character/Symbol: 𖼔",
+            "Name: MIAO LETTER NNA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼕 U+16F15 MIAO LETTER NNHA": 
+    {
+        "prefix": [
+            "..U.16F15",
+            "..U.MIAO LETTER NNHA",
+            "U+16F15",
+        ],
+        "body": [
+            "${1|𖼕,&#x16F15;,U+16F15,0x16F15,MIAO LETTER NNHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F15",
+            "Character/Symbol: 𖼕",
+            "Name: MIAO LETTER NNHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼖 U+16F16 MIAO LETTER LA": 
+    {
+        "prefix": [
+            "..U.16F16",
+            "..U.MIAO LETTER LA",
+            "U+16F16",
+        ],
+        "body": [
+            "${1|𖼖,&#x16F16;,U+16F16,0x16F16,MIAO LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+16F16",
+            "Character/Symbol: 𖼖",
+            "Name: MIAO LETTER LA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼗 U+16F17 MIAO LETTER LYA": 
+    {
+        "prefix": [
+            "..U.16F17",
+            "..U.MIAO LETTER LYA",
+            "U+16F17",
+        ],
+        "body": [
+            "${1|𖼗,&#x16F17;,U+16F17,0x16F17,MIAO LETTER LYA|}$2",
+        ],
+        "description": [
+            "Code: U+16F17",
+            "Character/Symbol: 𖼗",
+            "Name: MIAO LETTER LYA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼘 U+16F18 MIAO LETTER LHA": 
+    {
+        "prefix": [
+            "..U.16F18",
+            "..U.MIAO LETTER LHA",
+            "U+16F18",
+        ],
+        "body": [
+            "${1|𖼘,&#x16F18;,U+16F18,0x16F18,MIAO LETTER LHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F18",
+            "Character/Symbol: 𖼘",
+            "Name: MIAO LETTER LHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼙 U+16F19 MIAO LETTER LHYA": 
+    {
+        "prefix": [
+            "..U.16F19",
+            "..U.MIAO LETTER LHYA",
+            "U+16F19",
+        ],
+        "body": [
+            "${1|𖼙,&#x16F19;,U+16F19,0x16F19,MIAO LETTER LHYA|}$2",
+        ],
+        "description": [
+            "Code: U+16F19",
+            "Character/Symbol: 𖼙",
+            "Name: MIAO LETTER LHYA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼚 U+16F1A MIAO LETTER TLHA": 
+    {
+        "prefix": [
+            "..U.16F1A",
+            "..U.MIAO LETTER TLHA",
+            "U+16F1A",
+        ],
+        "body": [
+            "${1|𖼚,&#x16F1A;,U+16F1A,0x16F1A,MIAO LETTER TLHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F1A",
+            "Character/Symbol: 𖼚",
+            "Name: MIAO LETTER TLHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼛 U+16F1B MIAO LETTER DLHA": 
+    {
+        "prefix": [
+            "..U.16F1B",
+            "..U.MIAO LETTER DLHA",
+            "U+16F1B",
+        ],
+        "body": [
+            "${1|𖼛,&#x16F1B;,U+16F1B,0x16F1B,MIAO LETTER DLHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F1B",
+            "Character/Symbol: 𖼛",
+            "Name: MIAO LETTER DLHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼜 U+16F1C MIAO LETTER TLHYA": 
+    {
+        "prefix": [
+            "..U.16F1C",
+            "..U.MIAO LETTER TLHYA",
+            "U+16F1C",
+        ],
+        "body": [
+            "${1|𖼜,&#x16F1C;,U+16F1C,0x16F1C,MIAO LETTER TLHYA|}$2",
+        ],
+        "description": [
+            "Code: U+16F1C",
+            "Character/Symbol: 𖼜",
+            "Name: MIAO LETTER TLHYA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼝 U+16F1D MIAO LETTER DLHYA": 
+    {
+        "prefix": [
+            "..U.16F1D",
+            "..U.MIAO LETTER DLHYA",
+            "U+16F1D",
+        ],
+        "body": [
+            "${1|𖼝,&#x16F1D;,U+16F1D,0x16F1D,MIAO LETTER DLHYA|}$2",
+        ],
+        "description": [
+            "Code: U+16F1D",
+            "Character/Symbol: 𖼝",
+            "Name: MIAO LETTER DLHYA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼞 U+16F1E MIAO LETTER KA": 
+    {
+        "prefix": [
+            "..U.16F1E",
+            "..U.MIAO LETTER KA",
+            "U+16F1E",
+        ],
+        "body": [
+            "${1|𖼞,&#x16F1E;,U+16F1E,0x16F1E,MIAO LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+16F1E",
+            "Character/Symbol: 𖼞",
+            "Name: MIAO LETTER KA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼟 U+16F1F MIAO LETTER GA": 
+    {
+        "prefix": [
+            "..U.16F1F",
+            "..U.MIAO LETTER GA",
+            "U+16F1F",
+        ],
+        "body": [
+            "${1|𖼟,&#x16F1F;,U+16F1F,0x16F1F,MIAO LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+16F1F",
+            "Character/Symbol: 𖼟",
+            "Name: MIAO LETTER GA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼠 U+16F20 MIAO LETTER YI KA": 
+    {
+        "prefix": [
+            "..U.16F20",
+            "..U.MIAO LETTER YI KA",
+            "U+16F20",
+        ],
+        "body": [
+            "${1|𖼠,&#x16F20;,U+16F20,0x16F20,MIAO LETTER YI KA|}$2",
+        ],
+        "description": [
+            "Code: U+16F20",
+            "Character/Symbol: 𖼠",
+            "Name: MIAO LETTER YI KA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼡 U+16F21 MIAO LETTER QA": 
+    {
+        "prefix": [
+            "..U.16F21",
+            "..U.MIAO LETTER QA",
+            "U+16F21",
+        ],
+        "body": [
+            "${1|𖼡,&#x16F21;,U+16F21,0x16F21,MIAO LETTER QA|}$2",
+        ],
+        "description": [
+            "Code: U+16F21",
+            "Character/Symbol: 𖼡",
+            "Name: MIAO LETTER QA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼢 U+16F22 MIAO LETTER QGA": 
+    {
+        "prefix": [
+            "..U.16F22",
+            "..U.MIAO LETTER QGA",
+            "U+16F22",
+        ],
+        "body": [
+            "${1|𖼢,&#x16F22;,U+16F22,0x16F22,MIAO LETTER QGA|}$2",
+        ],
+        "description": [
+            "Code: U+16F22",
+            "Character/Symbol: 𖼢",
+            "Name: MIAO LETTER QGA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼣 U+16F23 MIAO LETTER NGA": 
+    {
+        "prefix": [
+            "..U.16F23",
+            "..U.MIAO LETTER NGA",
+            "U+16F23",
+        ],
+        "body": [
+            "${1|𖼣,&#x16F23;,U+16F23,0x16F23,MIAO LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+16F23",
+            "Character/Symbol: 𖼣",
+            "Name: MIAO LETTER NGA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼤 U+16F24 MIAO LETTER NGHA": 
+    {
+        "prefix": [
+            "..U.16F24",
+            "..U.MIAO LETTER NGHA",
+            "U+16F24",
+        ],
+        "body": [
+            "${1|𖼤,&#x16F24;,U+16F24,0x16F24,MIAO LETTER NGHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F24",
+            "Character/Symbol: 𖼤",
+            "Name: MIAO LETTER NGHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼥 U+16F25 MIAO LETTER ARCHAIC NGA": 
+    {
+        "prefix": [
+            "..U.16F25",
+            "..U.MIAO LETTER ARCHAIC NGA",
+            "U+16F25",
+        ],
+        "body": [
+            "${1|𖼥,&#x16F25;,U+16F25,0x16F25,MIAO LETTER ARCHAIC NGA|}$2",
+        ],
+        "description": [
+            "Code: U+16F25",
+            "Character/Symbol: 𖼥",
+            "Name: MIAO LETTER ARCHAIC NGA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼦 U+16F26 MIAO LETTER HA": 
+    {
+        "prefix": [
+            "..U.16F26",
+            "..U.MIAO LETTER HA",
+            "U+16F26",
+        ],
+        "body": [
+            "${1|𖼦,&#x16F26;,U+16F26,0x16F26,MIAO LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+16F26",
+            "Character/Symbol: 𖼦",
+            "Name: MIAO LETTER HA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼧 U+16F27 MIAO LETTER XA": 
+    {
+        "prefix": [
+            "..U.16F27",
+            "..U.MIAO LETTER XA",
+            "U+16F27",
+        ],
+        "body": [
+            "${1|𖼧,&#x16F27;,U+16F27,0x16F27,MIAO LETTER XA|}$2",
+        ],
+        "description": [
+            "Code: U+16F27",
+            "Character/Symbol: 𖼧",
+            "Name: MIAO LETTER XA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼨 U+16F28 MIAO LETTER GHA": 
+    {
+        "prefix": [
+            "..U.16F28",
+            "..U.MIAO LETTER GHA",
+            "U+16F28",
+        ],
+        "body": [
+            "${1|𖼨,&#x16F28;,U+16F28,0x16F28,MIAO LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F28",
+            "Character/Symbol: 𖼨",
+            "Name: MIAO LETTER GHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼩 U+16F29 MIAO LETTER GHHA": 
+    {
+        "prefix": [
+            "..U.16F29",
+            "..U.MIAO LETTER GHHA",
+            "U+16F29",
+        ],
+        "body": [
+            "${1|𖼩,&#x16F29;,U+16F29,0x16F29,MIAO LETTER GHHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F29",
+            "Character/Symbol: 𖼩",
+            "Name: MIAO LETTER GHHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼪 U+16F2A MIAO LETTER TSSA": 
+    {
+        "prefix": [
+            "..U.16F2A",
+            "..U.MIAO LETTER TSSA",
+            "U+16F2A",
+        ],
+        "body": [
+            "${1|𖼪,&#x16F2A;,U+16F2A,0x16F2A,MIAO LETTER TSSA|}$2",
+        ],
+        "description": [
+            "Code: U+16F2A",
+            "Character/Symbol: 𖼪",
+            "Name: MIAO LETTER TSSA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼫 U+16F2B MIAO LETTER DZZA": 
+    {
+        "prefix": [
+            "..U.16F2B",
+            "..U.MIAO LETTER DZZA",
+            "U+16F2B",
+        ],
+        "body": [
+            "${1|𖼫,&#x16F2B;,U+16F2B,0x16F2B,MIAO LETTER DZZA|}$2",
+        ],
+        "description": [
+            "Code: U+16F2B",
+            "Character/Symbol: 𖼫",
+            "Name: MIAO LETTER DZZA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼬 U+16F2C MIAO LETTER NYA": 
+    {
+        "prefix": [
+            "..U.16F2C",
+            "..U.MIAO LETTER NYA",
+            "U+16F2C",
+        ],
+        "body": [
+            "${1|𖼬,&#x16F2C;,U+16F2C,0x16F2C,MIAO LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+16F2C",
+            "Character/Symbol: 𖼬",
+            "Name: MIAO LETTER NYA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼭 U+16F2D MIAO LETTER NYHA": 
+    {
+        "prefix": [
+            "..U.16F2D",
+            "..U.MIAO LETTER NYHA",
+            "U+16F2D",
+        ],
+        "body": [
+            "${1|𖼭,&#x16F2D;,U+16F2D,0x16F2D,MIAO LETTER NYHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F2D",
+            "Character/Symbol: 𖼭",
+            "Name: MIAO LETTER NYHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼮 U+16F2E MIAO LETTER TSHA": 
+    {
+        "prefix": [
+            "..U.16F2E",
+            "..U.MIAO LETTER TSHA",
+            "U+16F2E",
+        ],
+        "body": [
+            "${1|𖼮,&#x16F2E;,U+16F2E,0x16F2E,MIAO LETTER TSHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F2E",
+            "Character/Symbol: 𖼮",
+            "Name: MIAO LETTER TSHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼯 U+16F2F MIAO LETTER DZHA": 
+    {
+        "prefix": [
+            "..U.16F2F",
+            "..U.MIAO LETTER DZHA",
+            "U+16F2F",
+        ],
+        "body": [
+            "${1|𖼯,&#x16F2F;,U+16F2F,0x16F2F,MIAO LETTER DZHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F2F",
+            "Character/Symbol: 𖼯",
+            "Name: MIAO LETTER DZHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼰 U+16F30 MIAO LETTER YI TSHA": 
+    {
+        "prefix": [
+            "..U.16F30",
+            "..U.MIAO LETTER YI TSHA",
+            "U+16F30",
+        ],
+        "body": [
+            "${1|𖼰,&#x16F30;,U+16F30,0x16F30,MIAO LETTER YI TSHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F30",
+            "Character/Symbol: 𖼰",
+            "Name: MIAO LETTER YI TSHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼱 U+16F31 MIAO LETTER YI DZHA": 
+    {
+        "prefix": [
+            "..U.16F31",
+            "..U.MIAO LETTER YI DZHA",
+            "U+16F31",
+        ],
+        "body": [
+            "${1|𖼱,&#x16F31;,U+16F31,0x16F31,MIAO LETTER YI DZHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F31",
+            "Character/Symbol: 𖼱",
+            "Name: MIAO LETTER YI DZHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼲 U+16F32 MIAO LETTER REFORMED TSHA": 
+    {
+        "prefix": [
+            "..U.16F32",
+            "..U.MIAO LETTER REFORMED TSHA",
+            "U+16F32",
+        ],
+        "body": [
+            "${1|𖼲,&#x16F32;,U+16F32,0x16F32,MIAO LETTER REFORMED TSHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F32",
+            "Character/Symbol: 𖼲",
+            "Name: MIAO LETTER REFORMED TSHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼳 U+16F33 MIAO LETTER SHA": 
+    {
+        "prefix": [
+            "..U.16F33",
+            "..U.MIAO LETTER SHA",
+            "U+16F33",
+        ],
+        "body": [
+            "${1|𖼳,&#x16F33;,U+16F33,0x16F33,MIAO LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F33",
+            "Character/Symbol: 𖼳",
+            "Name: MIAO LETTER SHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼴 U+16F34 MIAO LETTER SSA": 
+    {
+        "prefix": [
+            "..U.16F34",
+            "..U.MIAO LETTER SSA",
+            "U+16F34",
+        ],
+        "body": [
+            "${1|𖼴,&#x16F34;,U+16F34,0x16F34,MIAO LETTER SSA|}$2",
+        ],
+        "description": [
+            "Code: U+16F34",
+            "Character/Symbol: 𖼴",
+            "Name: MIAO LETTER SSA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼵 U+16F35 MIAO LETTER ZHA": 
+    {
+        "prefix": [
+            "..U.16F35",
+            "..U.MIAO LETTER ZHA",
+            "U+16F35",
+        ],
+        "body": [
+            "${1|𖼵,&#x16F35;,U+16F35,0x16F35,MIAO LETTER ZHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F35",
+            "Character/Symbol: 𖼵",
+            "Name: MIAO LETTER ZHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼶 U+16F36 MIAO LETTER ZSHA": 
+    {
+        "prefix": [
+            "..U.16F36",
+            "..U.MIAO LETTER ZSHA",
+            "U+16F36",
+        ],
+        "body": [
+            "${1|𖼶,&#x16F36;,U+16F36,0x16F36,MIAO LETTER ZSHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F36",
+            "Character/Symbol: 𖼶",
+            "Name: MIAO LETTER ZSHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼷 U+16F37 MIAO LETTER TSA": 
+    {
+        "prefix": [
+            "..U.16F37",
+            "..U.MIAO LETTER TSA",
+            "U+16F37",
+        ],
+        "body": [
+            "${1|𖼷,&#x16F37;,U+16F37,0x16F37,MIAO LETTER TSA|}$2",
+        ],
+        "description": [
+            "Code: U+16F37",
+            "Character/Symbol: 𖼷",
+            "Name: MIAO LETTER TSA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼸 U+16F38 MIAO LETTER DZA": 
+    {
+        "prefix": [
+            "..U.16F38",
+            "..U.MIAO LETTER DZA",
+            "U+16F38",
+        ],
+        "body": [
+            "${1|𖼸,&#x16F38;,U+16F38,0x16F38,MIAO LETTER DZA|}$2",
+        ],
+        "description": [
+            "Code: U+16F38",
+            "Character/Symbol: 𖼸",
+            "Name: MIAO LETTER DZA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼹 U+16F39 MIAO LETTER YI TSA": 
+    {
+        "prefix": [
+            "..U.16F39",
+            "..U.MIAO LETTER YI TSA",
+            "U+16F39",
+        ],
+        "body": [
+            "${1|𖼹,&#x16F39;,U+16F39,0x16F39,MIAO LETTER YI TSA|}$2",
+        ],
+        "description": [
+            "Code: U+16F39",
+            "Character/Symbol: 𖼹",
+            "Name: MIAO LETTER YI TSA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼺 U+16F3A MIAO LETTER SA": 
+    {
+        "prefix": [
+            "..U.16F3A",
+            "..U.MIAO LETTER SA",
+            "U+16F3A",
+        ],
+        "body": [
+            "${1|𖼺,&#x16F3A;,U+16F3A,0x16F3A,MIAO LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+16F3A",
+            "Character/Symbol: 𖼺",
+            "Name: MIAO LETTER SA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼻 U+16F3B MIAO LETTER ZA": 
+    {
+        "prefix": [
+            "..U.16F3B",
+            "..U.MIAO LETTER ZA",
+            "U+16F3B",
+        ],
+        "body": [
+            "${1|𖼻,&#x16F3B;,U+16F3B,0x16F3B,MIAO LETTER ZA|}$2",
+        ],
+        "description": [
+            "Code: U+16F3B",
+            "Character/Symbol: 𖼻",
+            "Name: MIAO LETTER ZA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼼 U+16F3C MIAO LETTER ZSA": 
+    {
+        "prefix": [
+            "..U.16F3C",
+            "..U.MIAO LETTER ZSA",
+            "U+16F3C",
+        ],
+        "body": [
+            "${1|𖼼,&#x16F3C;,U+16F3C,0x16F3C,MIAO LETTER ZSA|}$2",
+        ],
+        "description": [
+            "Code: U+16F3C",
+            "Character/Symbol: 𖼼",
+            "Name: MIAO LETTER ZSA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼽 U+16F3D MIAO LETTER ZZA": 
+    {
+        "prefix": [
+            "..U.16F3D",
+            "..U.MIAO LETTER ZZA",
+            "U+16F3D",
+        ],
+        "body": [
+            "${1|𖼽,&#x16F3D;,U+16F3D,0x16F3D,MIAO LETTER ZZA|}$2",
+        ],
+        "description": [
+            "Code: U+16F3D",
+            "Character/Symbol: 𖼽",
+            "Name: MIAO LETTER ZZA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼾 U+16F3E MIAO LETTER ZZSA": 
+    {
+        "prefix": [
+            "..U.16F3E",
+            "..U.MIAO LETTER ZZSA",
+            "U+16F3E",
+        ],
+        "body": [
+            "${1|𖼾,&#x16F3E;,U+16F3E,0x16F3E,MIAO LETTER ZZSA|}$2",
+        ],
+        "description": [
+            "Code: U+16F3E",
+            "Character/Symbol: 𖼾",
+            "Name: MIAO LETTER ZZSA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖼿 U+16F3F MIAO LETTER ARCHAIC ZZA": 
+    {
+        "prefix": [
+            "..U.16F3F",
+            "..U.MIAO LETTER ARCHAIC ZZA",
+            "U+16F3F",
+        ],
+        "body": [
+            "${1|𖼿,&#x16F3F;,U+16F3F,0x16F3F,MIAO LETTER ARCHAIC ZZA|}$2",
+        ],
+        "description": [
+            "Code: U+16F3F",
+            "Character/Symbol: 𖼿",
+            "Name: MIAO LETTER ARCHAIC ZZA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽀 U+16F40 MIAO LETTER ZZYA": 
+    {
+        "prefix": [
+            "..U.16F40",
+            "..U.MIAO LETTER ZZYA",
+            "U+16F40",
+        ],
+        "body": [
+            "${1|𖽀,&#x16F40;,U+16F40,0x16F40,MIAO LETTER ZZYA|}$2",
+        ],
+        "description": [
+            "Code: U+16F40",
+            "Character/Symbol: 𖽀",
+            "Name: MIAO LETTER ZZYA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽁 U+16F41 MIAO LETTER ZZSYA": 
+    {
+        "prefix": [
+            "..U.16F41",
+            "..U.MIAO LETTER ZZSYA",
+            "U+16F41",
+        ],
+        "body": [
+            "${1|𖽁,&#x16F41;,U+16F41,0x16F41,MIAO LETTER ZZSYA|}$2",
+        ],
+        "description": [
+            "Code: U+16F41",
+            "Character/Symbol: 𖽁",
+            "Name: MIAO LETTER ZZSYA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽂 U+16F42 MIAO LETTER WA": 
+    {
+        "prefix": [
+            "..U.16F42",
+            "..U.MIAO LETTER WA",
+            "U+16F42",
+        ],
+        "body": [
+            "${1|𖽂,&#x16F42;,U+16F42,0x16F42,MIAO LETTER WA|}$2",
+        ],
+        "description": [
+            "Code: U+16F42",
+            "Character/Symbol: 𖽂",
+            "Name: MIAO LETTER WA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽃 U+16F43 MIAO LETTER AH": 
+    {
+        "prefix": [
+            "..U.16F43",
+            "..U.MIAO LETTER AH",
+            "U+16F43",
+        ],
+        "body": [
+            "${1|𖽃,&#x16F43;,U+16F43,0x16F43,MIAO LETTER AH|}$2",
+        ],
+        "description": [
+            "Code: U+16F43",
+            "Character/Symbol: 𖽃",
+            "Name: MIAO LETTER AH",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽄 U+16F44 MIAO LETTER HHA": 
+    {
+        "prefix": [
+            "..U.16F44",
+            "..U.MIAO LETTER HHA",
+            "U+16F44",
+        ],
+        "body": [
+            "${1|𖽄,&#x16F44;,U+16F44,0x16F44,MIAO LETTER HHA|}$2",
+        ],
+        "description": [
+            "Code: U+16F44",
+            "Character/Symbol: 𖽄",
+            "Name: MIAO LETTER HHA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽅 U+16F45 MIAO LETTER BRI": 
+    {
+        "prefix": [
+            "..U.16F45",
+            "..U.MIAO LETTER BRI",
+            "U+16F45",
+        ],
+        "body": [
+            "${1|𖽅,&#x16F45;,U+16F45,0x16F45,MIAO LETTER BRI|}$2",
+        ],
+        "description": [
+            "Code: U+16F45",
+            "Character/Symbol: 𖽅",
+            "Name: MIAO LETTER BRI",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽆 U+16F46 MIAO LETTER SYI": 
+    {
+        "prefix": [
+            "..U.16F46",
+            "..U.MIAO LETTER SYI",
+            "U+16F46",
+        ],
+        "body": [
+            "${1|𖽆,&#x16F46;,U+16F46,0x16F46,MIAO LETTER SYI|}$2",
+        ],
+        "description": [
+            "Code: U+16F46",
+            "Character/Symbol: 𖽆",
+            "Name: MIAO LETTER SYI",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽇 U+16F47 MIAO LETTER DZYI": 
+    {
+        "prefix": [
+            "..U.16F47",
+            "..U.MIAO LETTER DZYI",
+            "U+16F47",
+        ],
+        "body": [
+            "${1|𖽇,&#x16F47;,U+16F47,0x16F47,MIAO LETTER DZYI|}$2",
+        ],
+        "description": [
+            "Code: U+16F47",
+            "Character/Symbol: 𖽇",
+            "Name: MIAO LETTER DZYI",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽈 U+16F48 MIAO LETTER TE": 
+    {
+        "prefix": [
+            "..U.16F48",
+            "..U.MIAO LETTER TE",
+            "U+16F48",
+        ],
+        "body": [
+            "${1|𖽈,&#x16F48;,U+16F48,0x16F48,MIAO LETTER TE|}$2",
+        ],
+        "description": [
+            "Code: U+16F48",
+            "Character/Symbol: 𖽈",
+            "Name: MIAO LETTER TE",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽉 U+16F49 MIAO LETTER TSE": 
+    {
+        "prefix": [
+            "..U.16F49",
+            "..U.MIAO LETTER TSE",
+            "U+16F49",
+        ],
+        "body": [
+            "${1|𖽉,&#x16F49;,U+16F49,0x16F49,MIAO LETTER TSE|}$2",
+        ],
+        "description": [
+            "Code: U+16F49",
+            "Character/Symbol: 𖽉",
+            "Name: MIAO LETTER TSE",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽊 U+16F4A MIAO LETTER RTE": 
+    {
+        "prefix": [
+            "..U.16F4A",
+            "..U.MIAO LETTER RTE",
+            "U+16F4A",
+        ],
+        "body": [
+            "${1|𖽊,&#x16F4A;,U+16F4A,0x16F4A,MIAO LETTER RTE|}$2",
+        ],
+        "description": [
+            "Code: U+16F4A",
+            "Character/Symbol: 𖽊",
+            "Name: MIAO LETTER RTE",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽏 U+16F4F MIAO SIGN CONSONANT MODIFIER BAR": 
+    {
+        "prefix": [
+            "..U.16F4F",
+            "..U.MIAO SIGN CONSONANT MODIFIER BAR",
+            "U+16F4F",
+        ],
+        "body": [
+            "${1|𖽏,&#x16F4F;,U+16F4F,0x16F4F,MIAO SIGN CONSONANT MODIFIER BAR|}$2",
+        ],
+        "description": [
+            "Code: U+16F4F",
+            "Character/Symbol: 𖽏",
+            "Name: MIAO SIGN CONSONANT MODIFIER BAR",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽐 U+16F50 MIAO LETTER NASALIZATION": 
+    {
+        "prefix": [
+            "..U.16F50",
+            "..U.MIAO LETTER NASALIZATION",
+            "U+16F50",
+        ],
+        "body": [
+            "${1|𖽐,&#x16F50;,U+16F50,0x16F50,MIAO LETTER NASALIZATION|}$2",
+        ],
+        "description": [
+            "Code: U+16F50",
+            "Character/Symbol: 𖽐",
+            "Name: MIAO LETTER NASALIZATION",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽑 U+16F51 MIAO SIGN ASPIRATION": 
+    {
+        "prefix": [
+            "..U.16F51",
+            "..U.MIAO SIGN ASPIRATION",
+            "U+16F51",
+        ],
+        "body": [
+            "${1|𖽑,&#x16F51;,U+16F51,0x16F51,MIAO SIGN ASPIRATION|}$2",
+        ],
+        "description": [
+            "Code: U+16F51",
+            "Character/Symbol: 𖽑",
+            "Name: MIAO SIGN ASPIRATION",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽒 U+16F52 MIAO SIGN REFORMED VOICING": 
+    {
+        "prefix": [
+            "..U.16F52",
+            "..U.MIAO SIGN REFORMED VOICING",
+            "U+16F52",
+        ],
+        "body": [
+            "${1|𖽒,&#x16F52;,U+16F52,0x16F52,MIAO SIGN REFORMED VOICING|}$2",
+        ],
+        "description": [
+            "Code: U+16F52",
+            "Character/Symbol: 𖽒",
+            "Name: MIAO SIGN REFORMED VOICING",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽓 U+16F53 MIAO SIGN REFORMED ASPIRATION": 
+    {
+        "prefix": [
+            "..U.16F53",
+            "..U.MIAO SIGN REFORMED ASPIRATION",
+            "U+16F53",
+        ],
+        "body": [
+            "${1|𖽓,&#x16F53;,U+16F53,0x16F53,MIAO SIGN REFORMED ASPIRATION|}$2",
+        ],
+        "description": [
+            "Code: U+16F53",
+            "Character/Symbol: 𖽓",
+            "Name: MIAO SIGN REFORMED ASPIRATION",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽔 U+16F54 MIAO VOWEL SIGN A": 
+    {
+        "prefix": [
+            "..U.16F54",
+            "..U.MIAO VOWEL SIGN A",
+            "U+16F54",
+        ],
+        "body": [
+            "${1|𖽔,&#x16F54;,U+16F54,0x16F54,MIAO VOWEL SIGN A|}$2",
+        ],
+        "description": [
+            "Code: U+16F54",
+            "Character/Symbol: 𖽔",
+            "Name: MIAO VOWEL SIGN A",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽕 U+16F55 MIAO VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.16F55",
+            "..U.MIAO VOWEL SIGN AA",
+            "U+16F55",
+        ],
+        "body": [
+            "${1|𖽕,&#x16F55;,U+16F55,0x16F55,MIAO VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+16F55",
+            "Character/Symbol: 𖽕",
+            "Name: MIAO VOWEL SIGN AA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽖 U+16F56 MIAO VOWEL SIGN AHH": 
+    {
+        "prefix": [
+            "..U.16F56",
+            "..U.MIAO VOWEL SIGN AHH",
+            "U+16F56",
+        ],
+        "body": [
+            "${1|𖽖,&#x16F56;,U+16F56,0x16F56,MIAO VOWEL SIGN AHH|}$2",
+        ],
+        "description": [
+            "Code: U+16F56",
+            "Character/Symbol: 𖽖",
+            "Name: MIAO VOWEL SIGN AHH",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽗 U+16F57 MIAO VOWEL SIGN AN": 
+    {
+        "prefix": [
+            "..U.16F57",
+            "..U.MIAO VOWEL SIGN AN",
+            "U+16F57",
+        ],
+        "body": [
+            "${1|𖽗,&#x16F57;,U+16F57,0x16F57,MIAO VOWEL SIGN AN|}$2",
+        ],
+        "description": [
+            "Code: U+16F57",
+            "Character/Symbol: 𖽗",
+            "Name: MIAO VOWEL SIGN AN",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽘 U+16F58 MIAO VOWEL SIGN ANG": 
+    {
+        "prefix": [
+            "..U.16F58",
+            "..U.MIAO VOWEL SIGN ANG",
+            "U+16F58",
+        ],
+        "body": [
+            "${1|𖽘,&#x16F58;,U+16F58,0x16F58,MIAO VOWEL SIGN ANG|}$2",
+        ],
+        "description": [
+            "Code: U+16F58",
+            "Character/Symbol: 𖽘",
+            "Name: MIAO VOWEL SIGN ANG",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽙 U+16F59 MIAO VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.16F59",
+            "..U.MIAO VOWEL SIGN O",
+            "U+16F59",
+        ],
+        "body": [
+            "${1|𖽙,&#x16F59;,U+16F59,0x16F59,MIAO VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+16F59",
+            "Character/Symbol: 𖽙",
+            "Name: MIAO VOWEL SIGN O",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽚 U+16F5A MIAO VOWEL SIGN OO": 
+    {
+        "prefix": [
+            "..U.16F5A",
+            "..U.MIAO VOWEL SIGN OO",
+            "U+16F5A",
+        ],
+        "body": [
+            "${1|𖽚,&#x16F5A;,U+16F5A,0x16F5A,MIAO VOWEL SIGN OO|}$2",
+        ],
+        "description": [
+            "Code: U+16F5A",
+            "Character/Symbol: 𖽚",
+            "Name: MIAO VOWEL SIGN OO",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽛 U+16F5B MIAO VOWEL SIGN WO": 
+    {
+        "prefix": [
+            "..U.16F5B",
+            "..U.MIAO VOWEL SIGN WO",
+            "U+16F5B",
+        ],
+        "body": [
+            "${1|𖽛,&#x16F5B;,U+16F5B,0x16F5B,MIAO VOWEL SIGN WO|}$2",
+        ],
+        "description": [
+            "Code: U+16F5B",
+            "Character/Symbol: 𖽛",
+            "Name: MIAO VOWEL SIGN WO",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽜 U+16F5C MIAO VOWEL SIGN W": 
+    {
+        "prefix": [
+            "..U.16F5C",
+            "..U.MIAO VOWEL SIGN W",
+            "U+16F5C",
+        ],
+        "body": [
+            "${1|𖽜,&#x16F5C;,U+16F5C,0x16F5C,MIAO VOWEL SIGN W|}$2",
+        ],
+        "description": [
+            "Code: U+16F5C",
+            "Character/Symbol: 𖽜",
+            "Name: MIAO VOWEL SIGN W",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽝 U+16F5D MIAO VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.16F5D",
+            "..U.MIAO VOWEL SIGN E",
+            "U+16F5D",
+        ],
+        "body": [
+            "${1|𖽝,&#x16F5D;,U+16F5D,0x16F5D,MIAO VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+16F5D",
+            "Character/Symbol: 𖽝",
+            "Name: MIAO VOWEL SIGN E",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽞 U+16F5E MIAO VOWEL SIGN EN": 
+    {
+        "prefix": [
+            "..U.16F5E",
+            "..U.MIAO VOWEL SIGN EN",
+            "U+16F5E",
+        ],
+        "body": [
+            "${1|𖽞,&#x16F5E;,U+16F5E,0x16F5E,MIAO VOWEL SIGN EN|}$2",
+        ],
+        "description": [
+            "Code: U+16F5E",
+            "Character/Symbol: 𖽞",
+            "Name: MIAO VOWEL SIGN EN",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽟 U+16F5F MIAO VOWEL SIGN ENG": 
+    {
+        "prefix": [
+            "..U.16F5F",
+            "..U.MIAO VOWEL SIGN ENG",
+            "U+16F5F",
+        ],
+        "body": [
+            "${1|𖽟,&#x16F5F;,U+16F5F,0x16F5F,MIAO VOWEL SIGN ENG|}$2",
+        ],
+        "description": [
+            "Code: U+16F5F",
+            "Character/Symbol: 𖽟",
+            "Name: MIAO VOWEL SIGN ENG",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽠 U+16F60 MIAO VOWEL SIGN OEY": 
+    {
+        "prefix": [
+            "..U.16F60",
+            "..U.MIAO VOWEL SIGN OEY",
+            "U+16F60",
+        ],
+        "body": [
+            "${1|𖽠,&#x16F60;,U+16F60,0x16F60,MIAO VOWEL SIGN OEY|}$2",
+        ],
+        "description": [
+            "Code: U+16F60",
+            "Character/Symbol: 𖽠",
+            "Name: MIAO VOWEL SIGN OEY",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽡 U+16F61 MIAO VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.16F61",
+            "..U.MIAO VOWEL SIGN I",
+            "U+16F61",
+        ],
+        "body": [
+            "${1|𖽡,&#x16F61;,U+16F61,0x16F61,MIAO VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+16F61",
+            "Character/Symbol: 𖽡",
+            "Name: MIAO VOWEL SIGN I",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽢 U+16F62 MIAO VOWEL SIGN IA": 
+    {
+        "prefix": [
+            "..U.16F62",
+            "..U.MIAO VOWEL SIGN IA",
+            "U+16F62",
+        ],
+        "body": [
+            "${1|𖽢,&#x16F62;,U+16F62,0x16F62,MIAO VOWEL SIGN IA|}$2",
+        ],
+        "description": [
+            "Code: U+16F62",
+            "Character/Symbol: 𖽢",
+            "Name: MIAO VOWEL SIGN IA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽣 U+16F63 MIAO VOWEL SIGN IAN": 
+    {
+        "prefix": [
+            "..U.16F63",
+            "..U.MIAO VOWEL SIGN IAN",
+            "U+16F63",
+        ],
+        "body": [
+            "${1|𖽣,&#x16F63;,U+16F63,0x16F63,MIAO VOWEL SIGN IAN|}$2",
+        ],
+        "description": [
+            "Code: U+16F63",
+            "Character/Symbol: 𖽣",
+            "Name: MIAO VOWEL SIGN IAN",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽤 U+16F64 MIAO VOWEL SIGN IANG": 
+    {
+        "prefix": [
+            "..U.16F64",
+            "..U.MIAO VOWEL SIGN IANG",
+            "U+16F64",
+        ],
+        "body": [
+            "${1|𖽤,&#x16F64;,U+16F64,0x16F64,MIAO VOWEL SIGN IANG|}$2",
+        ],
+        "description": [
+            "Code: U+16F64",
+            "Character/Symbol: 𖽤",
+            "Name: MIAO VOWEL SIGN IANG",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽥 U+16F65 MIAO VOWEL SIGN IO": 
+    {
+        "prefix": [
+            "..U.16F65",
+            "..U.MIAO VOWEL SIGN IO",
+            "U+16F65",
+        ],
+        "body": [
+            "${1|𖽥,&#x16F65;,U+16F65,0x16F65,MIAO VOWEL SIGN IO|}$2",
+        ],
+        "description": [
+            "Code: U+16F65",
+            "Character/Symbol: 𖽥",
+            "Name: MIAO VOWEL SIGN IO",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽦 U+16F66 MIAO VOWEL SIGN IE": 
+    {
+        "prefix": [
+            "..U.16F66",
+            "..U.MIAO VOWEL SIGN IE",
+            "U+16F66",
+        ],
+        "body": [
+            "${1|𖽦,&#x16F66;,U+16F66,0x16F66,MIAO VOWEL SIGN IE|}$2",
+        ],
+        "description": [
+            "Code: U+16F66",
+            "Character/Symbol: 𖽦",
+            "Name: MIAO VOWEL SIGN IE",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽧 U+16F67 MIAO VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.16F67",
+            "..U.MIAO VOWEL SIGN II",
+            "U+16F67",
+        ],
+        "body": [
+            "${1|𖽧,&#x16F67;,U+16F67,0x16F67,MIAO VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+16F67",
+            "Character/Symbol: 𖽧",
+            "Name: MIAO VOWEL SIGN II",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽨 U+16F68 MIAO VOWEL SIGN IU": 
+    {
+        "prefix": [
+            "..U.16F68",
+            "..U.MIAO VOWEL SIGN IU",
+            "U+16F68",
+        ],
+        "body": [
+            "${1|𖽨,&#x16F68;,U+16F68,0x16F68,MIAO VOWEL SIGN IU|}$2",
+        ],
+        "description": [
+            "Code: U+16F68",
+            "Character/Symbol: 𖽨",
+            "Name: MIAO VOWEL SIGN IU",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽩 U+16F69 MIAO VOWEL SIGN ING": 
+    {
+        "prefix": [
+            "..U.16F69",
+            "..U.MIAO VOWEL SIGN ING",
+            "U+16F69",
+        ],
+        "body": [
+            "${1|𖽩,&#x16F69;,U+16F69,0x16F69,MIAO VOWEL SIGN ING|}$2",
+        ],
+        "description": [
+            "Code: U+16F69",
+            "Character/Symbol: 𖽩",
+            "Name: MIAO VOWEL SIGN ING",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽪 U+16F6A MIAO VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.16F6A",
+            "..U.MIAO VOWEL SIGN U",
+            "U+16F6A",
+        ],
+        "body": [
+            "${1|𖽪,&#x16F6A;,U+16F6A,0x16F6A,MIAO VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+16F6A",
+            "Character/Symbol: 𖽪",
+            "Name: MIAO VOWEL SIGN U",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽫 U+16F6B MIAO VOWEL SIGN UA": 
+    {
+        "prefix": [
+            "..U.16F6B",
+            "..U.MIAO VOWEL SIGN UA",
+            "U+16F6B",
+        ],
+        "body": [
+            "${1|𖽫,&#x16F6B;,U+16F6B,0x16F6B,MIAO VOWEL SIGN UA|}$2",
+        ],
+        "description": [
+            "Code: U+16F6B",
+            "Character/Symbol: 𖽫",
+            "Name: MIAO VOWEL SIGN UA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽬 U+16F6C MIAO VOWEL SIGN UAN": 
+    {
+        "prefix": [
+            "..U.16F6C",
+            "..U.MIAO VOWEL SIGN UAN",
+            "U+16F6C",
+        ],
+        "body": [
+            "${1|𖽬,&#x16F6C;,U+16F6C,0x16F6C,MIAO VOWEL SIGN UAN|}$2",
+        ],
+        "description": [
+            "Code: U+16F6C",
+            "Character/Symbol: 𖽬",
+            "Name: MIAO VOWEL SIGN UAN",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽭 U+16F6D MIAO VOWEL SIGN UANG": 
+    {
+        "prefix": [
+            "..U.16F6D",
+            "..U.MIAO VOWEL SIGN UANG",
+            "U+16F6D",
+        ],
+        "body": [
+            "${1|𖽭,&#x16F6D;,U+16F6D,0x16F6D,MIAO VOWEL SIGN UANG|}$2",
+        ],
+        "description": [
+            "Code: U+16F6D",
+            "Character/Symbol: 𖽭",
+            "Name: MIAO VOWEL SIGN UANG",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽮 U+16F6E MIAO VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.16F6E",
+            "..U.MIAO VOWEL SIGN UU",
+            "U+16F6E",
+        ],
+        "body": [
+            "${1|𖽮,&#x16F6E;,U+16F6E,0x16F6E,MIAO VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+16F6E",
+            "Character/Symbol: 𖽮",
+            "Name: MIAO VOWEL SIGN UU",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽯 U+16F6F MIAO VOWEL SIGN UEI": 
+    {
+        "prefix": [
+            "..U.16F6F",
+            "..U.MIAO VOWEL SIGN UEI",
+            "U+16F6F",
+        ],
+        "body": [
+            "${1|𖽯,&#x16F6F;,U+16F6F,0x16F6F,MIAO VOWEL SIGN UEI|}$2",
+        ],
+        "description": [
+            "Code: U+16F6F",
+            "Character/Symbol: 𖽯",
+            "Name: MIAO VOWEL SIGN UEI",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽰 U+16F70 MIAO VOWEL SIGN UNG": 
+    {
+        "prefix": [
+            "..U.16F70",
+            "..U.MIAO VOWEL SIGN UNG",
+            "U+16F70",
+        ],
+        "body": [
+            "${1|𖽰,&#x16F70;,U+16F70,0x16F70,MIAO VOWEL SIGN UNG|}$2",
+        ],
+        "description": [
+            "Code: U+16F70",
+            "Character/Symbol: 𖽰",
+            "Name: MIAO VOWEL SIGN UNG",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽱 U+16F71 MIAO VOWEL SIGN Y": 
+    {
+        "prefix": [
+            "..U.16F71",
+            "..U.MIAO VOWEL SIGN Y",
+            "U+16F71",
+        ],
+        "body": [
+            "${1|𖽱,&#x16F71;,U+16F71,0x16F71,MIAO VOWEL SIGN Y|}$2",
+        ],
+        "description": [
+            "Code: U+16F71",
+            "Character/Symbol: 𖽱",
+            "Name: MIAO VOWEL SIGN Y",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽲 U+16F72 MIAO VOWEL SIGN YI": 
+    {
+        "prefix": [
+            "..U.16F72",
+            "..U.MIAO VOWEL SIGN YI",
+            "U+16F72",
+        ],
+        "body": [
+            "${1|𖽲,&#x16F72;,U+16F72,0x16F72,MIAO VOWEL SIGN YI|}$2",
+        ],
+        "description": [
+            "Code: U+16F72",
+            "Character/Symbol: 𖽲",
+            "Name: MIAO VOWEL SIGN YI",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽳 U+16F73 MIAO VOWEL SIGN AE": 
+    {
+        "prefix": [
+            "..U.16F73",
+            "..U.MIAO VOWEL SIGN AE",
+            "U+16F73",
+        ],
+        "body": [
+            "${1|𖽳,&#x16F73;,U+16F73,0x16F73,MIAO VOWEL SIGN AE|}$2",
+        ],
+        "description": [
+            "Code: U+16F73",
+            "Character/Symbol: 𖽳",
+            "Name: MIAO VOWEL SIGN AE",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽴 U+16F74 MIAO VOWEL SIGN AEE": 
+    {
+        "prefix": [
+            "..U.16F74",
+            "..U.MIAO VOWEL SIGN AEE",
+            "U+16F74",
+        ],
+        "body": [
+            "${1|𖽴,&#x16F74;,U+16F74,0x16F74,MIAO VOWEL SIGN AEE|}$2",
+        ],
+        "description": [
+            "Code: U+16F74",
+            "Character/Symbol: 𖽴",
+            "Name: MIAO VOWEL SIGN AEE",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽵 U+16F75 MIAO VOWEL SIGN ERR": 
+    {
+        "prefix": [
+            "..U.16F75",
+            "..U.MIAO VOWEL SIGN ERR",
+            "U+16F75",
+        ],
+        "body": [
+            "${1|𖽵,&#x16F75;,U+16F75,0x16F75,MIAO VOWEL SIGN ERR|}$2",
+        ],
+        "description": [
+            "Code: U+16F75",
+            "Character/Symbol: 𖽵",
+            "Name: MIAO VOWEL SIGN ERR",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽶 U+16F76 MIAO VOWEL SIGN ROUNDED ERR": 
+    {
+        "prefix": [
+            "..U.16F76",
+            "..U.MIAO VOWEL SIGN ROUNDED ERR",
+            "U+16F76",
+        ],
+        "body": [
+            "${1|𖽶,&#x16F76;,U+16F76,0x16F76,MIAO VOWEL SIGN ROUNDED ERR|}$2",
+        ],
+        "description": [
+            "Code: U+16F76",
+            "Character/Symbol: 𖽶",
+            "Name: MIAO VOWEL SIGN ROUNDED ERR",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽷 U+16F77 MIAO VOWEL SIGN ER": 
+    {
+        "prefix": [
+            "..U.16F77",
+            "..U.MIAO VOWEL SIGN ER",
+            "U+16F77",
+        ],
+        "body": [
+            "${1|𖽷,&#x16F77;,U+16F77,0x16F77,MIAO VOWEL SIGN ER|}$2",
+        ],
+        "description": [
+            "Code: U+16F77",
+            "Character/Symbol: 𖽷",
+            "Name: MIAO VOWEL SIGN ER",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽸 U+16F78 MIAO VOWEL SIGN ROUNDED ER": 
+    {
+        "prefix": [
+            "..U.16F78",
+            "..U.MIAO VOWEL SIGN ROUNDED ER",
+            "U+16F78",
+        ],
+        "body": [
+            "${1|𖽸,&#x16F78;,U+16F78,0x16F78,MIAO VOWEL SIGN ROUNDED ER|}$2",
+        ],
+        "description": [
+            "Code: U+16F78",
+            "Character/Symbol: 𖽸",
+            "Name: MIAO VOWEL SIGN ROUNDED ER",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽹 U+16F79 MIAO VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.16F79",
+            "..U.MIAO VOWEL SIGN AI",
+            "U+16F79",
+        ],
+        "body": [
+            "${1|𖽹,&#x16F79;,U+16F79,0x16F79,MIAO VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+16F79",
+            "Character/Symbol: 𖽹",
+            "Name: MIAO VOWEL SIGN AI",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽺 U+16F7A MIAO VOWEL SIGN EI": 
+    {
+        "prefix": [
+            "..U.16F7A",
+            "..U.MIAO VOWEL SIGN EI",
+            "U+16F7A",
+        ],
+        "body": [
+            "${1|𖽺,&#x16F7A;,U+16F7A,0x16F7A,MIAO VOWEL SIGN EI|}$2",
+        ],
+        "description": [
+            "Code: U+16F7A",
+            "Character/Symbol: 𖽺",
+            "Name: MIAO VOWEL SIGN EI",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽻 U+16F7B MIAO VOWEL SIGN AU": 
+    {
+        "prefix": [
+            "..U.16F7B",
+            "..U.MIAO VOWEL SIGN AU",
+            "U+16F7B",
+        ],
+        "body": [
+            "${1|𖽻,&#x16F7B;,U+16F7B,0x16F7B,MIAO VOWEL SIGN AU|}$2",
+        ],
+        "description": [
+            "Code: U+16F7B",
+            "Character/Symbol: 𖽻",
+            "Name: MIAO VOWEL SIGN AU",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽼 U+16F7C MIAO VOWEL SIGN OU": 
+    {
+        "prefix": [
+            "..U.16F7C",
+            "..U.MIAO VOWEL SIGN OU",
+            "U+16F7C",
+        ],
+        "body": [
+            "${1|𖽼,&#x16F7C;,U+16F7C,0x16F7C,MIAO VOWEL SIGN OU|}$2",
+        ],
+        "description": [
+            "Code: U+16F7C",
+            "Character/Symbol: 𖽼",
+            "Name: MIAO VOWEL SIGN OU",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽽 U+16F7D MIAO VOWEL SIGN N": 
+    {
+        "prefix": [
+            "..U.16F7D",
+            "..U.MIAO VOWEL SIGN N",
+            "U+16F7D",
+        ],
+        "body": [
+            "${1|𖽽,&#x16F7D;,U+16F7D,0x16F7D,MIAO VOWEL SIGN N|}$2",
+        ],
+        "description": [
+            "Code: U+16F7D",
+            "Character/Symbol: 𖽽",
+            "Name: MIAO VOWEL SIGN N",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽾 U+16F7E MIAO VOWEL SIGN NG": 
+    {
+        "prefix": [
+            "..U.16F7E",
+            "..U.MIAO VOWEL SIGN NG",
+            "U+16F7E",
+        ],
+        "body": [
+            "${1|𖽾,&#x16F7E;,U+16F7E,0x16F7E,MIAO VOWEL SIGN NG|}$2",
+        ],
+        "description": [
+            "Code: U+16F7E",
+            "Character/Symbol: 𖽾",
+            "Name: MIAO VOWEL SIGN NG",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖽿 U+16F7F MIAO VOWEL SIGN UOG": 
+    {
+        "prefix": [
+            "..U.16F7F",
+            "..U.MIAO VOWEL SIGN UOG",
+            "U+16F7F",
+        ],
+        "body": [
+            "${1|𖽿,&#x16F7F;,U+16F7F,0x16F7F,MIAO VOWEL SIGN UOG|}$2",
+        ],
+        "description": [
+            "Code: U+16F7F",
+            "Character/Symbol: 𖽿",
+            "Name: MIAO VOWEL SIGN UOG",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾀 U+16F80 MIAO VOWEL SIGN YUI": 
+    {
+        "prefix": [
+            "..U.16F80",
+            "..U.MIAO VOWEL SIGN YUI",
+            "U+16F80",
+        ],
+        "body": [
+            "${1|𖾀,&#x16F80;,U+16F80,0x16F80,MIAO VOWEL SIGN YUI|}$2",
+        ],
+        "description": [
+            "Code: U+16F80",
+            "Character/Symbol: 𖾀",
+            "Name: MIAO VOWEL SIGN YUI",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾁 U+16F81 MIAO VOWEL SIGN OG": 
+    {
+        "prefix": [
+            "..U.16F81",
+            "..U.MIAO VOWEL SIGN OG",
+            "U+16F81",
+        ],
+        "body": [
+            "${1|𖾁,&#x16F81;,U+16F81,0x16F81,MIAO VOWEL SIGN OG|}$2",
+        ],
+        "description": [
+            "Code: U+16F81",
+            "Character/Symbol: 𖾁",
+            "Name: MIAO VOWEL SIGN OG",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾂 U+16F82 MIAO VOWEL SIGN OER": 
+    {
+        "prefix": [
+            "..U.16F82",
+            "..U.MIAO VOWEL SIGN OER",
+            "U+16F82",
+        ],
+        "body": [
+            "${1|𖾂,&#x16F82;,U+16F82,0x16F82,MIAO VOWEL SIGN OER|}$2",
+        ],
+        "description": [
+            "Code: U+16F82",
+            "Character/Symbol: 𖾂",
+            "Name: MIAO VOWEL SIGN OER",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾃 U+16F83 MIAO VOWEL SIGN VW": 
+    {
+        "prefix": [
+            "..U.16F83",
+            "..U.MIAO VOWEL SIGN VW",
+            "U+16F83",
+        ],
+        "body": [
+            "${1|𖾃,&#x16F83;,U+16F83,0x16F83,MIAO VOWEL SIGN VW|}$2",
+        ],
+        "description": [
+            "Code: U+16F83",
+            "Character/Symbol: 𖾃",
+            "Name: MIAO VOWEL SIGN VW",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾄 U+16F84 MIAO VOWEL SIGN IG": 
+    {
+        "prefix": [
+            "..U.16F84",
+            "..U.MIAO VOWEL SIGN IG",
+            "U+16F84",
+        ],
+        "body": [
+            "${1|𖾄,&#x16F84;,U+16F84,0x16F84,MIAO VOWEL SIGN IG|}$2",
+        ],
+        "description": [
+            "Code: U+16F84",
+            "Character/Symbol: 𖾄",
+            "Name: MIAO VOWEL SIGN IG",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾅 U+16F85 MIAO VOWEL SIGN EA": 
+    {
+        "prefix": [
+            "..U.16F85",
+            "..U.MIAO VOWEL SIGN EA",
+            "U+16F85",
+        ],
+        "body": [
+            "${1|𖾅,&#x16F85;,U+16F85,0x16F85,MIAO VOWEL SIGN EA|}$2",
+        ],
+        "description": [
+            "Code: U+16F85",
+            "Character/Symbol: 𖾅",
+            "Name: MIAO VOWEL SIGN EA",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾆 U+16F86 MIAO VOWEL SIGN IONG": 
+    {
+        "prefix": [
+            "..U.16F86",
+            "..U.MIAO VOWEL SIGN IONG",
+            "U+16F86",
+        ],
+        "body": [
+            "${1|𖾆,&#x16F86;,U+16F86,0x16F86,MIAO VOWEL SIGN IONG|}$2",
+        ],
+        "description": [
+            "Code: U+16F86",
+            "Character/Symbol: 𖾆",
+            "Name: MIAO VOWEL SIGN IONG",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾇 U+16F87 MIAO VOWEL SIGN UI": 
+    {
+        "prefix": [
+            "..U.16F87",
+            "..U.MIAO VOWEL SIGN UI",
+            "U+16F87",
+        ],
+        "body": [
+            "${1|𖾇,&#x16F87;,U+16F87,0x16F87,MIAO VOWEL SIGN UI|}$2",
+        ],
+        "description": [
+            "Code: U+16F87",
+            "Character/Symbol: 𖾇",
+            "Name: MIAO VOWEL SIGN UI",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾏 U+16F8F MIAO TONE RIGHT": 
+    {
+        "prefix": [
+            "..U.16F8F",
+            "..U.MIAO TONE RIGHT",
+            "U+16F8F",
+        ],
+        "body": [
+            "${1|𖾏,&#x16F8F;,U+16F8F,0x16F8F,MIAO TONE RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+16F8F",
+            "Character/Symbol: 𖾏",
+            "Name: MIAO TONE RIGHT",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾐 U+16F90 MIAO TONE TOP RIGHT": 
+    {
+        "prefix": [
+            "..U.16F90",
+            "..U.MIAO TONE TOP RIGHT",
+            "U+16F90",
+        ],
+        "body": [
+            "${1|𖾐,&#x16F90;,U+16F90,0x16F90,MIAO TONE TOP RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+16F90",
+            "Character/Symbol: 𖾐",
+            "Name: MIAO TONE TOP RIGHT",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾑 U+16F91 MIAO TONE ABOVE": 
+    {
+        "prefix": [
+            "..U.16F91",
+            "..U.MIAO TONE ABOVE",
+            "U+16F91",
+        ],
+        "body": [
+            "${1|𖾑,&#x16F91;,U+16F91,0x16F91,MIAO TONE ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+16F91",
+            "Character/Symbol: 𖾑",
+            "Name: MIAO TONE ABOVE",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾒 U+16F92 MIAO TONE BELOW": 
+    {
+        "prefix": [
+            "..U.16F92",
+            "..U.MIAO TONE BELOW",
+            "U+16F92",
+        ],
+        "body": [
+            "${1|𖾒,&#x16F92;,U+16F92,0x16F92,MIAO TONE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+16F92",
+            "Character/Symbol: 𖾒",
+            "Name: MIAO TONE BELOW",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾓 U+16F93 MIAO LETTER TONE-2": 
+    {
+        "prefix": [
+            "..U.16F93",
+            "..U.MIAO LETTER TONE-2",
+            "U+16F93",
+        ],
+        "body": [
+            "${1|𖾓,&#x16F93;,U+16F93,0x16F93,MIAO LETTER TONE-2|}$2",
+        ],
+        "description": [
+            "Code: U+16F93",
+            "Character/Symbol: 𖾓",
+            "Name: MIAO LETTER TONE-2",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾔 U+16F94 MIAO LETTER TONE-3": 
+    {
+        "prefix": [
+            "..U.16F94",
+            "..U.MIAO LETTER TONE-3",
+            "U+16F94",
+        ],
+        "body": [
+            "${1|𖾔,&#x16F94;,U+16F94,0x16F94,MIAO LETTER TONE-3|}$2",
+        ],
+        "description": [
+            "Code: U+16F94",
+            "Character/Symbol: 𖾔",
+            "Name: MIAO LETTER TONE-3",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾕 U+16F95 MIAO LETTER TONE-4": 
+    {
+        "prefix": [
+            "..U.16F95",
+            "..U.MIAO LETTER TONE-4",
+            "U+16F95",
+        ],
+        "body": [
+            "${1|𖾕,&#x16F95;,U+16F95,0x16F95,MIAO LETTER TONE-4|}$2",
+        ],
+        "description": [
+            "Code: U+16F95",
+            "Character/Symbol: 𖾕",
+            "Name: MIAO LETTER TONE-4",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾖 U+16F96 MIAO LETTER TONE-5": 
+    {
+        "prefix": [
+            "..U.16F96",
+            "..U.MIAO LETTER TONE-5",
+            "U+16F96",
+        ],
+        "body": [
+            "${1|𖾖,&#x16F96;,U+16F96,0x16F96,MIAO LETTER TONE-5|}$2",
+        ],
+        "description": [
+            "Code: U+16F96",
+            "Character/Symbol: 𖾖",
+            "Name: MIAO LETTER TONE-5",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾗 U+16F97 MIAO LETTER TONE-6": 
+    {
+        "prefix": [
+            "..U.16F97",
+            "..U.MIAO LETTER TONE-6",
+            "U+16F97",
+        ],
+        "body": [
+            "${1|𖾗,&#x16F97;,U+16F97,0x16F97,MIAO LETTER TONE-6|}$2",
+        ],
+        "description": [
+            "Code: U+16F97",
+            "Character/Symbol: 𖾗",
+            "Name: MIAO LETTER TONE-6",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾘 U+16F98 MIAO LETTER TONE-7": 
+    {
+        "prefix": [
+            "..U.16F98",
+            "..U.MIAO LETTER TONE-7",
+            "U+16F98",
+        ],
+        "body": [
+            "${1|𖾘,&#x16F98;,U+16F98,0x16F98,MIAO LETTER TONE-7|}$2",
+        ],
+        "description": [
+            "Code: U+16F98",
+            "Character/Symbol: 𖾘",
+            "Name: MIAO LETTER TONE-7",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾙 U+16F99 MIAO LETTER TONE-8": 
+    {
+        "prefix": [
+            "..U.16F99",
+            "..U.MIAO LETTER TONE-8",
+            "U+16F99",
+        ],
+        "body": [
+            "${1|𖾙,&#x16F99;,U+16F99,0x16F99,MIAO LETTER TONE-8|}$2",
+        ],
+        "description": [
+            "Code: U+16F99",
+            "Character/Symbol: 𖾙",
+            "Name: MIAO LETTER TONE-8",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾚 U+16F9A MIAO LETTER REFORMED TONE-1": 
+    {
+        "prefix": [
+            "..U.16F9A",
+            "..U.MIAO LETTER REFORMED TONE-1",
+            "U+16F9A",
+        ],
+        "body": [
+            "${1|𖾚,&#x16F9A;,U+16F9A,0x16F9A,MIAO LETTER REFORMED TONE-1|}$2",
+        ],
+        "description": [
+            "Code: U+16F9A",
+            "Character/Symbol: 𖾚",
+            "Name: MIAO LETTER REFORMED TONE-1",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾛 U+16F9B MIAO LETTER REFORMED TONE-2": 
+    {
+        "prefix": [
+            "..U.16F9B",
+            "..U.MIAO LETTER REFORMED TONE-2",
+            "U+16F9B",
+        ],
+        "body": [
+            "${1|𖾛,&#x16F9B;,U+16F9B,0x16F9B,MIAO LETTER REFORMED TONE-2|}$2",
+        ],
+        "description": [
+            "Code: U+16F9B",
+            "Character/Symbol: 𖾛",
+            "Name: MIAO LETTER REFORMED TONE-2",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾜 U+16F9C MIAO LETTER REFORMED TONE-4": 
+    {
+        "prefix": [
+            "..U.16F9C",
+            "..U.MIAO LETTER REFORMED TONE-4",
+            "U+16F9C",
+        ],
+        "body": [
+            "${1|𖾜,&#x16F9C;,U+16F9C,0x16F9C,MIAO LETTER REFORMED TONE-4|}$2",
+        ],
+        "description": [
+            "Code: U+16F9C",
+            "Character/Symbol: 𖾜",
+            "Name: MIAO LETTER REFORMED TONE-4",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾝 U+16F9D MIAO LETTER REFORMED TONE-5": 
+    {
+        "prefix": [
+            "..U.16F9D",
+            "..U.MIAO LETTER REFORMED TONE-5",
+            "U+16F9D",
+        ],
+        "body": [
+            "${1|𖾝,&#x16F9D;,U+16F9D,0x16F9D,MIAO LETTER REFORMED TONE-5|}$2",
+        ],
+        "description": [
+            "Code: U+16F9D",
+            "Character/Symbol: 𖾝",
+            "Name: MIAO LETTER REFORMED TONE-5",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾞 U+16F9E MIAO LETTER REFORMED TONE-6": 
+    {
+        "prefix": [
+            "..U.16F9E",
+            "..U.MIAO LETTER REFORMED TONE-6",
+            "U+16F9E",
+        ],
+        "body": [
+            "${1|𖾞,&#x16F9E;,U+16F9E,0x16F9E,MIAO LETTER REFORMED TONE-6|}$2",
+        ],
+        "description": [
+            "Code: U+16F9E",
+            "Character/Symbol: 𖾞",
+            "Name: MIAO LETTER REFORMED TONE-6",
+            "Group/Block: Miao",
+        ],
+    },
+
+    "Unicode 𖾟 U+16F9F MIAO LETTER REFORMED TONE-8": 
+    {
+        "prefix": [
+            "..U.16F9F",
+            "..U.MIAO LETTER REFORMED TONE-8",
+            "U+16F9F",
+        ],
+        "body": [
+            "${1|𖾟,&#x16F9F;,U+16F9F,0x16F9F,MIAO LETTER REFORMED TONE-8|}$2",
+        ],
+        "description": [
+            "Code: U+16F9F",
+            "Character/Symbol: 𖾟",
+            "Name: MIAO LETTER REFORMED TONE-8",
+            "Group/Block: Miao",
+        ],
+    },
+
+}

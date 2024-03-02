@@ -1,0 +1,4610 @@
+{
+    "Unicode ㌀ U+3300 SQUARE APAATO": 
+    {
+        "prefix": [
+            "..U.3300",
+            "..U.SQUARE APAATO",
+            "U+3300",
+        ],
+        "body": [
+            "${1|㌀,&#x3300;,U+3300,0x3300,SQUARE APAATO|}$2",
+        ],
+        "description": [
+            "Code: U+3300",
+            "Character/Symbol: ㌀",
+            "Name: SQUARE APAATO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌁ U+3301 SQUARE ARUHUA": 
+    {
+        "prefix": [
+            "..U.3301",
+            "..U.SQUARE ARUHUA",
+            "U+3301",
+        ],
+        "body": [
+            "${1|㌁,&#x3301;,U+3301,0x3301,SQUARE ARUHUA|}$2",
+        ],
+        "description": [
+            "Code: U+3301",
+            "Character/Symbol: ㌁",
+            "Name: SQUARE ARUHUA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌂ U+3302 SQUARE ANPEA": 
+    {
+        "prefix": [
+            "..U.3302",
+            "..U.SQUARE ANPEA",
+            "U+3302",
+        ],
+        "body": [
+            "${1|㌂,&#x3302;,U+3302,0x3302,SQUARE ANPEA|}$2",
+        ],
+        "description": [
+            "Code: U+3302",
+            "Character/Symbol: ㌂",
+            "Name: SQUARE ANPEA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌃ U+3303 SQUARE AARU": 
+    {
+        "prefix": [
+            "..U.3303",
+            "..U.SQUARE AARU",
+            "U+3303",
+        ],
+        "body": [
+            "${1|㌃,&#x3303;,U+3303,0x3303,SQUARE AARU|}$2",
+        ],
+        "description": [
+            "Code: U+3303",
+            "Character/Symbol: ㌃",
+            "Name: SQUARE AARU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌄ U+3304 SQUARE ININGU": 
+    {
+        "prefix": [
+            "..U.3304",
+            "..U.SQUARE ININGU",
+            "U+3304",
+        ],
+        "body": [
+            "${1|㌄,&#x3304;,U+3304,0x3304,SQUARE ININGU|}$2",
+        ],
+        "description": [
+            "Code: U+3304",
+            "Character/Symbol: ㌄",
+            "Name: SQUARE ININGU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌅ U+3305 SQUARE INTI": 
+    {
+        "prefix": [
+            "..U.3305",
+            "..U.SQUARE INTI",
+            "U+3305",
+        ],
+        "body": [
+            "${1|㌅,&#x3305;,U+3305,0x3305,SQUARE INTI|}$2",
+        ],
+        "description": [
+            "Code: U+3305",
+            "Character/Symbol: ㌅",
+            "Name: SQUARE INTI",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌆ U+3306 SQUARE UON": 
+    {
+        "prefix": [
+            "..U.3306",
+            "..U.SQUARE UON",
+            "U+3306",
+        ],
+        "body": [
+            "${1|㌆,&#x3306;,U+3306,0x3306,SQUARE UON|}$2",
+        ],
+        "description": [
+            "Code: U+3306",
+            "Character/Symbol: ㌆",
+            "Name: SQUARE UON",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌇ U+3307 SQUARE ESUKUUDO": 
+    {
+        "prefix": [
+            "..U.3307",
+            "..U.SQUARE ESUKUUDO",
+            "U+3307",
+        ],
+        "body": [
+            "${1|㌇,&#x3307;,U+3307,0x3307,SQUARE ESUKUUDO|}$2",
+        ],
+        "description": [
+            "Code: U+3307",
+            "Character/Symbol: ㌇",
+            "Name: SQUARE ESUKUUDO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌈ U+3308 SQUARE EEKAA": 
+    {
+        "prefix": [
+            "..U.3308",
+            "..U.SQUARE EEKAA",
+            "U+3308",
+        ],
+        "body": [
+            "${1|㌈,&#x3308;,U+3308,0x3308,SQUARE EEKAA|}$2",
+        ],
+        "description": [
+            "Code: U+3308",
+            "Character/Symbol: ㌈",
+            "Name: SQUARE EEKAA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌉ U+3309 SQUARE ONSU": 
+    {
+        "prefix": [
+            "..U.3309",
+            "..U.SQUARE ONSU",
+            "U+3309",
+        ],
+        "body": [
+            "${1|㌉,&#x3309;,U+3309,0x3309,SQUARE ONSU|}$2",
+        ],
+        "description": [
+            "Code: U+3309",
+            "Character/Symbol: ㌉",
+            "Name: SQUARE ONSU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌊ U+330A SQUARE OOMU": 
+    {
+        "prefix": [
+            "..U.330A",
+            "..U.SQUARE OOMU",
+            "U+330A",
+        ],
+        "body": [
+            "${1|㌊,&#x330A;,U+330A,0x330A,SQUARE OOMU|}$2",
+        ],
+        "description": [
+            "Code: U+330A",
+            "Character/Symbol: ㌊",
+            "Name: SQUARE OOMU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌋ U+330B SQUARE KAIRI": 
+    {
+        "prefix": [
+            "..U.330B",
+            "..U.SQUARE KAIRI",
+            "U+330B",
+        ],
+        "body": [
+            "${1|㌋,&#x330B;,U+330B,0x330B,SQUARE KAIRI|}$2",
+        ],
+        "description": [
+            "Code: U+330B",
+            "Character/Symbol: ㌋",
+            "Name: SQUARE KAIRI",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌌ U+330C SQUARE KARATTO": 
+    {
+        "prefix": [
+            "..U.330C",
+            "..U.SQUARE KARATTO",
+            "U+330C",
+        ],
+        "body": [
+            "${1|㌌,&#x330C;,U+330C,0x330C,SQUARE KARATTO|}$2",
+        ],
+        "description": [
+            "Code: U+330C",
+            "Character/Symbol: ㌌",
+            "Name: SQUARE KARATTO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌍ U+330D SQUARE KARORII": 
+    {
+        "prefix": [
+            "..U.330D",
+            "..U.SQUARE KARORII",
+            "U+330D",
+        ],
+        "body": [
+            "${1|㌍,&#x330D;,U+330D,0x330D,SQUARE KARORII|}$2",
+        ],
+        "description": [
+            "Code: U+330D",
+            "Character/Symbol: ㌍",
+            "Name: SQUARE KARORII",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌎ U+330E SQUARE GARON": 
+    {
+        "prefix": [
+            "..U.330E",
+            "..U.SQUARE GARON",
+            "U+330E",
+        ],
+        "body": [
+            "${1|㌎,&#x330E;,U+330E,0x330E,SQUARE GARON|}$2",
+        ],
+        "description": [
+            "Code: U+330E",
+            "Character/Symbol: ㌎",
+            "Name: SQUARE GARON",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌏ U+330F SQUARE GANMA": 
+    {
+        "prefix": [
+            "..U.330F",
+            "..U.SQUARE GANMA",
+            "U+330F",
+        ],
+        "body": [
+            "${1|㌏,&#x330F;,U+330F,0x330F,SQUARE GANMA|}$2",
+        ],
+        "description": [
+            "Code: U+330F",
+            "Character/Symbol: ㌏",
+            "Name: SQUARE GANMA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌐ U+3310 SQUARE GIGA": 
+    {
+        "prefix": [
+            "..U.3310",
+            "..U.SQUARE GIGA",
+            "U+3310",
+        ],
+        "body": [
+            "${1|㌐,&#x3310;,U+3310,0x3310,SQUARE GIGA|}$2",
+        ],
+        "description": [
+            "Code: U+3310",
+            "Character/Symbol: ㌐",
+            "Name: SQUARE GIGA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌑ U+3311 SQUARE GINII": 
+    {
+        "prefix": [
+            "..U.3311",
+            "..U.SQUARE GINII",
+            "U+3311",
+        ],
+        "body": [
+            "${1|㌑,&#x3311;,U+3311,0x3311,SQUARE GINII|}$2",
+        ],
+        "description": [
+            "Code: U+3311",
+            "Character/Symbol: ㌑",
+            "Name: SQUARE GINII",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌒ U+3312 SQUARE KYURII": 
+    {
+        "prefix": [
+            "..U.3312",
+            "..U.SQUARE KYURII",
+            "U+3312",
+        ],
+        "body": [
+            "${1|㌒,&#x3312;,U+3312,0x3312,SQUARE KYURII|}$2",
+        ],
+        "description": [
+            "Code: U+3312",
+            "Character/Symbol: ㌒",
+            "Name: SQUARE KYURII",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌓ U+3313 SQUARE GIRUDAA": 
+    {
+        "prefix": [
+            "..U.3313",
+            "..U.SQUARE GIRUDAA",
+            "U+3313",
+        ],
+        "body": [
+            "${1|㌓,&#x3313;,U+3313,0x3313,SQUARE GIRUDAA|}$2",
+        ],
+        "description": [
+            "Code: U+3313",
+            "Character/Symbol: ㌓",
+            "Name: SQUARE GIRUDAA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌔ U+3314 SQUARE KIRO": 
+    {
+        "prefix": [
+            "..U.3314",
+            "..U.SQUARE KIRO",
+            "U+3314",
+        ],
+        "body": [
+            "${1|㌔,&#x3314;,U+3314,0x3314,SQUARE KIRO|}$2",
+        ],
+        "description": [
+            "Code: U+3314",
+            "Character/Symbol: ㌔",
+            "Name: SQUARE KIRO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌕ U+3315 SQUARE KIROGURAMU": 
+    {
+        "prefix": [
+            "..U.3315",
+            "..U.SQUARE KIROGURAMU",
+            "U+3315",
+        ],
+        "body": [
+            "${1|㌕,&#x3315;,U+3315,0x3315,SQUARE KIROGURAMU|}$2",
+        ],
+        "description": [
+            "Code: U+3315",
+            "Character/Symbol: ㌕",
+            "Name: SQUARE KIROGURAMU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌖ U+3316 SQUARE KIROMEETORU": 
+    {
+        "prefix": [
+            "..U.3316",
+            "..U.SQUARE KIROMEETORU",
+            "U+3316",
+        ],
+        "body": [
+            "${1|㌖,&#x3316;,U+3316,0x3316,SQUARE KIROMEETORU|}$2",
+        ],
+        "description": [
+            "Code: U+3316",
+            "Character/Symbol: ㌖",
+            "Name: SQUARE KIROMEETORU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌗ U+3317 SQUARE KIROWATTO": 
+    {
+        "prefix": [
+            "..U.3317",
+            "..U.SQUARE KIROWATTO",
+            "U+3317",
+        ],
+        "body": [
+            "${1|㌗,&#x3317;,U+3317,0x3317,SQUARE KIROWATTO|}$2",
+        ],
+        "description": [
+            "Code: U+3317",
+            "Character/Symbol: ㌗",
+            "Name: SQUARE KIROWATTO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌘ U+3318 SQUARE GURAMU": 
+    {
+        "prefix": [
+            "..U.3318",
+            "..U.SQUARE GURAMU",
+            "U+3318",
+        ],
+        "body": [
+            "${1|㌘,&#x3318;,U+3318,0x3318,SQUARE GURAMU|}$2",
+        ],
+        "description": [
+            "Code: U+3318",
+            "Character/Symbol: ㌘",
+            "Name: SQUARE GURAMU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌙ U+3319 SQUARE GURAMUTON": 
+    {
+        "prefix": [
+            "..U.3319",
+            "..U.SQUARE GURAMUTON",
+            "U+3319",
+        ],
+        "body": [
+            "${1|㌙,&#x3319;,U+3319,0x3319,SQUARE GURAMUTON|}$2",
+        ],
+        "description": [
+            "Code: U+3319",
+            "Character/Symbol: ㌙",
+            "Name: SQUARE GURAMUTON",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌚ U+331A SQUARE KURUZEIRO": 
+    {
+        "prefix": [
+            "..U.331A",
+            "..U.SQUARE KURUZEIRO",
+            "U+331A",
+        ],
+        "body": [
+            "${1|㌚,&#x331A;,U+331A,0x331A,SQUARE KURUZEIRO|}$2",
+        ],
+        "description": [
+            "Code: U+331A",
+            "Character/Symbol: ㌚",
+            "Name: SQUARE KURUZEIRO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌛ U+331B SQUARE KUROONE": 
+    {
+        "prefix": [
+            "..U.331B",
+            "..U.SQUARE KUROONE",
+            "U+331B",
+        ],
+        "body": [
+            "${1|㌛,&#x331B;,U+331B,0x331B,SQUARE KUROONE|}$2",
+        ],
+        "description": [
+            "Code: U+331B",
+            "Character/Symbol: ㌛",
+            "Name: SQUARE KUROONE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌜ U+331C SQUARE KEESU": 
+    {
+        "prefix": [
+            "..U.331C",
+            "..U.SQUARE KEESU",
+            "U+331C",
+        ],
+        "body": [
+            "${1|㌜,&#x331C;,U+331C,0x331C,SQUARE KEESU|}$2",
+        ],
+        "description": [
+            "Code: U+331C",
+            "Character/Symbol: ㌜",
+            "Name: SQUARE KEESU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌝ U+331D SQUARE KORUNA": 
+    {
+        "prefix": [
+            "..U.331D",
+            "..U.SQUARE KORUNA",
+            "U+331D",
+        ],
+        "body": [
+            "${1|㌝,&#x331D;,U+331D,0x331D,SQUARE KORUNA|}$2",
+        ],
+        "description": [
+            "Code: U+331D",
+            "Character/Symbol: ㌝",
+            "Name: SQUARE KORUNA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌞ U+331E SQUARE KOOPO": 
+    {
+        "prefix": [
+            "..U.331E",
+            "..U.SQUARE KOOPO",
+            "U+331E",
+        ],
+        "body": [
+            "${1|㌞,&#x331E;,U+331E,0x331E,SQUARE KOOPO|}$2",
+        ],
+        "description": [
+            "Code: U+331E",
+            "Character/Symbol: ㌞",
+            "Name: SQUARE KOOPO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌟ U+331F SQUARE SAIKURU": 
+    {
+        "prefix": [
+            "..U.331F",
+            "..U.SQUARE SAIKURU",
+            "U+331F",
+        ],
+        "body": [
+            "${1|㌟,&#x331F;,U+331F,0x331F,SQUARE SAIKURU|}$2",
+        ],
+        "description": [
+            "Code: U+331F",
+            "Character/Symbol: ㌟",
+            "Name: SQUARE SAIKURU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌠ U+3320 SQUARE SANTIIMU": 
+    {
+        "prefix": [
+            "..U.3320",
+            "..U.SQUARE SANTIIMU",
+            "U+3320",
+        ],
+        "body": [
+            "${1|㌠,&#x3320;,U+3320,0x3320,SQUARE SANTIIMU|}$2",
+        ],
+        "description": [
+            "Code: U+3320",
+            "Character/Symbol: ㌠",
+            "Name: SQUARE SANTIIMU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌡ U+3321 SQUARE SIRINGU": 
+    {
+        "prefix": [
+            "..U.3321",
+            "..U.SQUARE SIRINGU",
+            "U+3321",
+        ],
+        "body": [
+            "${1|㌡,&#x3321;,U+3321,0x3321,SQUARE SIRINGU|}$2",
+        ],
+        "description": [
+            "Code: U+3321",
+            "Character/Symbol: ㌡",
+            "Name: SQUARE SIRINGU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌢ U+3322 SQUARE SENTI": 
+    {
+        "prefix": [
+            "..U.3322",
+            "..U.SQUARE SENTI",
+            "U+3322",
+        ],
+        "body": [
+            "${1|㌢,&#x3322;,U+3322,0x3322,SQUARE SENTI|}$2",
+        ],
+        "description": [
+            "Code: U+3322",
+            "Character/Symbol: ㌢",
+            "Name: SQUARE SENTI",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌣ U+3323 SQUARE SENTO": 
+    {
+        "prefix": [
+            "..U.3323",
+            "..U.SQUARE SENTO",
+            "U+3323",
+        ],
+        "body": [
+            "${1|㌣,&#x3323;,U+3323,0x3323,SQUARE SENTO|}$2",
+        ],
+        "description": [
+            "Code: U+3323",
+            "Character/Symbol: ㌣",
+            "Name: SQUARE SENTO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌤ U+3324 SQUARE DAASU": 
+    {
+        "prefix": [
+            "..U.3324",
+            "..U.SQUARE DAASU",
+            "U+3324",
+        ],
+        "body": [
+            "${1|㌤,&#x3324;,U+3324,0x3324,SQUARE DAASU|}$2",
+        ],
+        "description": [
+            "Code: U+3324",
+            "Character/Symbol: ㌤",
+            "Name: SQUARE DAASU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌥ U+3325 SQUARE DESI": 
+    {
+        "prefix": [
+            "..U.3325",
+            "..U.SQUARE DESI",
+            "U+3325",
+        ],
+        "body": [
+            "${1|㌥,&#x3325;,U+3325,0x3325,SQUARE DESI|}$2",
+        ],
+        "description": [
+            "Code: U+3325",
+            "Character/Symbol: ㌥",
+            "Name: SQUARE DESI",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌦ U+3326 SQUARE DORU": 
+    {
+        "prefix": [
+            "..U.3326",
+            "..U.SQUARE DORU",
+            "U+3326",
+        ],
+        "body": [
+            "${1|㌦,&#x3326;,U+3326,0x3326,SQUARE DORU|}$2",
+        ],
+        "description": [
+            "Code: U+3326",
+            "Character/Symbol: ㌦",
+            "Name: SQUARE DORU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌧ U+3327 SQUARE TON": 
+    {
+        "prefix": [
+            "..U.3327",
+            "..U.SQUARE TON",
+            "U+3327",
+        ],
+        "body": [
+            "${1|㌧,&#x3327;,U+3327,0x3327,SQUARE TON|}$2",
+        ],
+        "description": [
+            "Code: U+3327",
+            "Character/Symbol: ㌧",
+            "Name: SQUARE TON",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌨ U+3328 SQUARE NANO": 
+    {
+        "prefix": [
+            "..U.3328",
+            "..U.SQUARE NANO",
+            "U+3328",
+        ],
+        "body": [
+            "${1|㌨,&#x3328;,U+3328,0x3328,SQUARE NANO|}$2",
+        ],
+        "description": [
+            "Code: U+3328",
+            "Character/Symbol: ㌨",
+            "Name: SQUARE NANO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌩ U+3329 SQUARE NOTTO": 
+    {
+        "prefix": [
+            "..U.3329",
+            "..U.SQUARE NOTTO",
+            "U+3329",
+        ],
+        "body": [
+            "${1|㌩,&#x3329;,U+3329,0x3329,SQUARE NOTTO|}$2",
+        ],
+        "description": [
+            "Code: U+3329",
+            "Character/Symbol: ㌩",
+            "Name: SQUARE NOTTO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌪ U+332A SQUARE HAITU": 
+    {
+        "prefix": [
+            "..U.332A",
+            "..U.SQUARE HAITU",
+            "U+332A",
+        ],
+        "body": [
+            "${1|㌪,&#x332A;,U+332A,0x332A,SQUARE HAITU|}$2",
+        ],
+        "description": [
+            "Code: U+332A",
+            "Character/Symbol: ㌪",
+            "Name: SQUARE HAITU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌫ U+332B SQUARE PAASENTO": 
+    {
+        "prefix": [
+            "..U.332B",
+            "..U.SQUARE PAASENTO",
+            "U+332B",
+        ],
+        "body": [
+            "${1|㌫,&#x332B;,U+332B,0x332B,SQUARE PAASENTO|}$2",
+        ],
+        "description": [
+            "Code: U+332B",
+            "Character/Symbol: ㌫",
+            "Name: SQUARE PAASENTO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌬ U+332C SQUARE PAATU": 
+    {
+        "prefix": [
+            "..U.332C",
+            "..U.SQUARE PAATU",
+            "U+332C",
+        ],
+        "body": [
+            "${1|㌬,&#x332C;,U+332C,0x332C,SQUARE PAATU|}$2",
+        ],
+        "description": [
+            "Code: U+332C",
+            "Character/Symbol: ㌬",
+            "Name: SQUARE PAATU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌭ U+332D SQUARE BAARERU": 
+    {
+        "prefix": [
+            "..U.332D",
+            "..U.SQUARE BAARERU",
+            "U+332D",
+        ],
+        "body": [
+            "${1|㌭,&#x332D;,U+332D,0x332D,SQUARE BAARERU|}$2",
+        ],
+        "description": [
+            "Code: U+332D",
+            "Character/Symbol: ㌭",
+            "Name: SQUARE BAARERU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌮ U+332E SQUARE PIASUTORU": 
+    {
+        "prefix": [
+            "..U.332E",
+            "..U.SQUARE PIASUTORU",
+            "U+332E",
+        ],
+        "body": [
+            "${1|㌮,&#x332E;,U+332E,0x332E,SQUARE PIASUTORU|}$2",
+        ],
+        "description": [
+            "Code: U+332E",
+            "Character/Symbol: ㌮",
+            "Name: SQUARE PIASUTORU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌯ U+332F SQUARE PIKURU": 
+    {
+        "prefix": [
+            "..U.332F",
+            "..U.SQUARE PIKURU",
+            "U+332F",
+        ],
+        "body": [
+            "${1|㌯,&#x332F;,U+332F,0x332F,SQUARE PIKURU|}$2",
+        ],
+        "description": [
+            "Code: U+332F",
+            "Character/Symbol: ㌯",
+            "Name: SQUARE PIKURU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌰ U+3330 SQUARE PIKO": 
+    {
+        "prefix": [
+            "..U.3330",
+            "..U.SQUARE PIKO",
+            "U+3330",
+        ],
+        "body": [
+            "${1|㌰,&#x3330;,U+3330,0x3330,SQUARE PIKO|}$2",
+        ],
+        "description": [
+            "Code: U+3330",
+            "Character/Symbol: ㌰",
+            "Name: SQUARE PIKO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌱ U+3331 SQUARE BIRU": 
+    {
+        "prefix": [
+            "..U.3331",
+            "..U.SQUARE BIRU",
+            "U+3331",
+        ],
+        "body": [
+            "${1|㌱,&#x3331;,U+3331,0x3331,SQUARE BIRU|}$2",
+        ],
+        "description": [
+            "Code: U+3331",
+            "Character/Symbol: ㌱",
+            "Name: SQUARE BIRU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌲ U+3332 SQUARE HUARADDO": 
+    {
+        "prefix": [
+            "..U.3332",
+            "..U.SQUARE HUARADDO",
+            "U+3332",
+        ],
+        "body": [
+            "${1|㌲,&#x3332;,U+3332,0x3332,SQUARE HUARADDO|}$2",
+        ],
+        "description": [
+            "Code: U+3332",
+            "Character/Symbol: ㌲",
+            "Name: SQUARE HUARADDO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌳ U+3333 SQUARE HUIITO": 
+    {
+        "prefix": [
+            "..U.3333",
+            "..U.SQUARE HUIITO",
+            "U+3333",
+        ],
+        "body": [
+            "${1|㌳,&#x3333;,U+3333,0x3333,SQUARE HUIITO|}$2",
+        ],
+        "description": [
+            "Code: U+3333",
+            "Character/Symbol: ㌳",
+            "Name: SQUARE HUIITO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌴ U+3334 SQUARE BUSSYERU": 
+    {
+        "prefix": [
+            "..U.3334",
+            "..U.SQUARE BUSSYERU",
+            "U+3334",
+        ],
+        "body": [
+            "${1|㌴,&#x3334;,U+3334,0x3334,SQUARE BUSSYERU|}$2",
+        ],
+        "description": [
+            "Code: U+3334",
+            "Character/Symbol: ㌴",
+            "Name: SQUARE BUSSYERU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌵ U+3335 SQUARE HURAN": 
+    {
+        "prefix": [
+            "..U.3335",
+            "..U.SQUARE HURAN",
+            "U+3335",
+        ],
+        "body": [
+            "${1|㌵,&#x3335;,U+3335,0x3335,SQUARE HURAN|}$2",
+        ],
+        "description": [
+            "Code: U+3335",
+            "Character/Symbol: ㌵",
+            "Name: SQUARE HURAN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌶ U+3336 SQUARE HEKUTAARU": 
+    {
+        "prefix": [
+            "..U.3336",
+            "..U.SQUARE HEKUTAARU",
+            "U+3336",
+        ],
+        "body": [
+            "${1|㌶,&#x3336;,U+3336,0x3336,SQUARE HEKUTAARU|}$2",
+        ],
+        "description": [
+            "Code: U+3336",
+            "Character/Symbol: ㌶",
+            "Name: SQUARE HEKUTAARU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌷ U+3337 SQUARE PESO": 
+    {
+        "prefix": [
+            "..U.3337",
+            "..U.SQUARE PESO",
+            "U+3337",
+        ],
+        "body": [
+            "${1|㌷,&#x3337;,U+3337,0x3337,SQUARE PESO|}$2",
+        ],
+        "description": [
+            "Code: U+3337",
+            "Character/Symbol: ㌷",
+            "Name: SQUARE PESO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌸ U+3338 SQUARE PENIHI": 
+    {
+        "prefix": [
+            "..U.3338",
+            "..U.SQUARE PENIHI",
+            "U+3338",
+        ],
+        "body": [
+            "${1|㌸,&#x3338;,U+3338,0x3338,SQUARE PENIHI|}$2",
+        ],
+        "description": [
+            "Code: U+3338",
+            "Character/Symbol: ㌸",
+            "Name: SQUARE PENIHI",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌹ U+3339 SQUARE HERUTU": 
+    {
+        "prefix": [
+            "..U.3339",
+            "..U.SQUARE HERUTU",
+            "U+3339",
+        ],
+        "body": [
+            "${1|㌹,&#x3339;,U+3339,0x3339,SQUARE HERUTU|}$2",
+        ],
+        "description": [
+            "Code: U+3339",
+            "Character/Symbol: ㌹",
+            "Name: SQUARE HERUTU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌺ U+333A SQUARE PENSU": 
+    {
+        "prefix": [
+            "..U.333A",
+            "..U.SQUARE PENSU",
+            "U+333A",
+        ],
+        "body": [
+            "${1|㌺,&#x333A;,U+333A,0x333A,SQUARE PENSU|}$2",
+        ],
+        "description": [
+            "Code: U+333A",
+            "Character/Symbol: ㌺",
+            "Name: SQUARE PENSU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌻ U+333B SQUARE PEEZI": 
+    {
+        "prefix": [
+            "..U.333B",
+            "..U.SQUARE PEEZI",
+            "U+333B",
+        ],
+        "body": [
+            "${1|㌻,&#x333B;,U+333B,0x333B,SQUARE PEEZI|}$2",
+        ],
+        "description": [
+            "Code: U+333B",
+            "Character/Symbol: ㌻",
+            "Name: SQUARE PEEZI",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌼ U+333C SQUARE BEETA": 
+    {
+        "prefix": [
+            "..U.333C",
+            "..U.SQUARE BEETA",
+            "U+333C",
+        ],
+        "body": [
+            "${1|㌼,&#x333C;,U+333C,0x333C,SQUARE BEETA|}$2",
+        ],
+        "description": [
+            "Code: U+333C",
+            "Character/Symbol: ㌼",
+            "Name: SQUARE BEETA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌽ U+333D SQUARE POINTO": 
+    {
+        "prefix": [
+            "..U.333D",
+            "..U.SQUARE POINTO",
+            "U+333D",
+        ],
+        "body": [
+            "${1|㌽,&#x333D;,U+333D,0x333D,SQUARE POINTO|}$2",
+        ],
+        "description": [
+            "Code: U+333D",
+            "Character/Symbol: ㌽",
+            "Name: SQUARE POINTO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌾ U+333E SQUARE BORUTO": 
+    {
+        "prefix": [
+            "..U.333E",
+            "..U.SQUARE BORUTO",
+            "U+333E",
+        ],
+        "body": [
+            "${1|㌾,&#x333E;,U+333E,0x333E,SQUARE BORUTO|}$2",
+        ],
+        "description": [
+            "Code: U+333E",
+            "Character/Symbol: ㌾",
+            "Name: SQUARE BORUTO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㌿ U+333F SQUARE HON": 
+    {
+        "prefix": [
+            "..U.333F",
+            "..U.SQUARE HON",
+            "U+333F",
+        ],
+        "body": [
+            "${1|㌿,&#x333F;,U+333F,0x333F,SQUARE HON|}$2",
+        ],
+        "description": [
+            "Code: U+333F",
+            "Character/Symbol: ㌿",
+            "Name: SQUARE HON",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍀ U+3340 SQUARE PONDO": 
+    {
+        "prefix": [
+            "..U.3340",
+            "..U.SQUARE PONDO",
+            "U+3340",
+        ],
+        "body": [
+            "${1|㍀,&#x3340;,U+3340,0x3340,SQUARE PONDO|}$2",
+        ],
+        "description": [
+            "Code: U+3340",
+            "Character/Symbol: ㍀",
+            "Name: SQUARE PONDO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍁ U+3341 SQUARE HOORU": 
+    {
+        "prefix": [
+            "..U.3341",
+            "..U.SQUARE HOORU",
+            "U+3341",
+        ],
+        "body": [
+            "${1|㍁,&#x3341;,U+3341,0x3341,SQUARE HOORU|}$2",
+        ],
+        "description": [
+            "Code: U+3341",
+            "Character/Symbol: ㍁",
+            "Name: SQUARE HOORU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍂ U+3342 SQUARE HOON": 
+    {
+        "prefix": [
+            "..U.3342",
+            "..U.SQUARE HOON",
+            "U+3342",
+        ],
+        "body": [
+            "${1|㍂,&#x3342;,U+3342,0x3342,SQUARE HOON|}$2",
+        ],
+        "description": [
+            "Code: U+3342",
+            "Character/Symbol: ㍂",
+            "Name: SQUARE HOON",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍃ U+3343 SQUARE MAIKURO": 
+    {
+        "prefix": [
+            "..U.3343",
+            "..U.SQUARE MAIKURO",
+            "U+3343",
+        ],
+        "body": [
+            "${1|㍃,&#x3343;,U+3343,0x3343,SQUARE MAIKURO|}$2",
+        ],
+        "description": [
+            "Code: U+3343",
+            "Character/Symbol: ㍃",
+            "Name: SQUARE MAIKURO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍄ U+3344 SQUARE MAIRU": 
+    {
+        "prefix": [
+            "..U.3344",
+            "..U.SQUARE MAIRU",
+            "U+3344",
+        ],
+        "body": [
+            "${1|㍄,&#x3344;,U+3344,0x3344,SQUARE MAIRU|}$2",
+        ],
+        "description": [
+            "Code: U+3344",
+            "Character/Symbol: ㍄",
+            "Name: SQUARE MAIRU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍅ U+3345 SQUARE MAHHA": 
+    {
+        "prefix": [
+            "..U.3345",
+            "..U.SQUARE MAHHA",
+            "U+3345",
+        ],
+        "body": [
+            "${1|㍅,&#x3345;,U+3345,0x3345,SQUARE MAHHA|}$2",
+        ],
+        "description": [
+            "Code: U+3345",
+            "Character/Symbol: ㍅",
+            "Name: SQUARE MAHHA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍆ U+3346 SQUARE MARUKU": 
+    {
+        "prefix": [
+            "..U.3346",
+            "..U.SQUARE MARUKU",
+            "U+3346",
+        ],
+        "body": [
+            "${1|㍆,&#x3346;,U+3346,0x3346,SQUARE MARUKU|}$2",
+        ],
+        "description": [
+            "Code: U+3346",
+            "Character/Symbol: ㍆",
+            "Name: SQUARE MARUKU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍇ U+3347 SQUARE MANSYON": 
+    {
+        "prefix": [
+            "..U.3347",
+            "..U.SQUARE MANSYON",
+            "U+3347",
+        ],
+        "body": [
+            "${1|㍇,&#x3347;,U+3347,0x3347,SQUARE MANSYON|}$2",
+        ],
+        "description": [
+            "Code: U+3347",
+            "Character/Symbol: ㍇",
+            "Name: SQUARE MANSYON",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍈ U+3348 SQUARE MIKURON": 
+    {
+        "prefix": [
+            "..U.3348",
+            "..U.SQUARE MIKURON",
+            "U+3348",
+        ],
+        "body": [
+            "${1|㍈,&#x3348;,U+3348,0x3348,SQUARE MIKURON|}$2",
+        ],
+        "description": [
+            "Code: U+3348",
+            "Character/Symbol: ㍈",
+            "Name: SQUARE MIKURON",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍉ U+3349 SQUARE MIRI": 
+    {
+        "prefix": [
+            "..U.3349",
+            "..U.SQUARE MIRI",
+            "U+3349",
+        ],
+        "body": [
+            "${1|㍉,&#x3349;,U+3349,0x3349,SQUARE MIRI|}$2",
+        ],
+        "description": [
+            "Code: U+3349",
+            "Character/Symbol: ㍉",
+            "Name: SQUARE MIRI",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍊ U+334A SQUARE MIRIBAARU": 
+    {
+        "prefix": [
+            "..U.334A",
+            "..U.SQUARE MIRIBAARU",
+            "U+334A",
+        ],
+        "body": [
+            "${1|㍊,&#x334A;,U+334A,0x334A,SQUARE MIRIBAARU|}$2",
+        ],
+        "description": [
+            "Code: U+334A",
+            "Character/Symbol: ㍊",
+            "Name: SQUARE MIRIBAARU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍋ U+334B SQUARE MEGA": 
+    {
+        "prefix": [
+            "..U.334B",
+            "..U.SQUARE MEGA",
+            "U+334B",
+        ],
+        "body": [
+            "${1|㍋,&#x334B;,U+334B,0x334B,SQUARE MEGA|}$2",
+        ],
+        "description": [
+            "Code: U+334B",
+            "Character/Symbol: ㍋",
+            "Name: SQUARE MEGA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍌ U+334C SQUARE MEGATON": 
+    {
+        "prefix": [
+            "..U.334C",
+            "..U.SQUARE MEGATON",
+            "U+334C",
+        ],
+        "body": [
+            "${1|㍌,&#x334C;,U+334C,0x334C,SQUARE MEGATON|}$2",
+        ],
+        "description": [
+            "Code: U+334C",
+            "Character/Symbol: ㍌",
+            "Name: SQUARE MEGATON",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍍ U+334D SQUARE MEETORU": 
+    {
+        "prefix": [
+            "..U.334D",
+            "..U.SQUARE MEETORU",
+            "U+334D",
+        ],
+        "body": [
+            "${1|㍍,&#x334D;,U+334D,0x334D,SQUARE MEETORU|}$2",
+        ],
+        "description": [
+            "Code: U+334D",
+            "Character/Symbol: ㍍",
+            "Name: SQUARE MEETORU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍎ U+334E SQUARE YAADO": 
+    {
+        "prefix": [
+            "..U.334E",
+            "..U.SQUARE YAADO",
+            "U+334E",
+        ],
+        "body": [
+            "${1|㍎,&#x334E;,U+334E,0x334E,SQUARE YAADO|}$2",
+        ],
+        "description": [
+            "Code: U+334E",
+            "Character/Symbol: ㍎",
+            "Name: SQUARE YAADO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍏ U+334F SQUARE YAARU": 
+    {
+        "prefix": [
+            "..U.334F",
+            "..U.SQUARE YAARU",
+            "U+334F",
+        ],
+        "body": [
+            "${1|㍏,&#x334F;,U+334F,0x334F,SQUARE YAARU|}$2",
+        ],
+        "description": [
+            "Code: U+334F",
+            "Character/Symbol: ㍏",
+            "Name: SQUARE YAARU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍐ U+3350 SQUARE YUAN": 
+    {
+        "prefix": [
+            "..U.3350",
+            "..U.SQUARE YUAN",
+            "U+3350",
+        ],
+        "body": [
+            "${1|㍐,&#x3350;,U+3350,0x3350,SQUARE YUAN|}$2",
+        ],
+        "description": [
+            "Code: U+3350",
+            "Character/Symbol: ㍐",
+            "Name: SQUARE YUAN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍑ U+3351 SQUARE RITTORU": 
+    {
+        "prefix": [
+            "..U.3351",
+            "..U.SQUARE RITTORU",
+            "U+3351",
+        ],
+        "body": [
+            "${1|㍑,&#x3351;,U+3351,0x3351,SQUARE RITTORU|}$2",
+        ],
+        "description": [
+            "Code: U+3351",
+            "Character/Symbol: ㍑",
+            "Name: SQUARE RITTORU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍒ U+3352 SQUARE RIRA": 
+    {
+        "prefix": [
+            "..U.3352",
+            "..U.SQUARE RIRA",
+            "U+3352",
+        ],
+        "body": [
+            "${1|㍒,&#x3352;,U+3352,0x3352,SQUARE RIRA|}$2",
+        ],
+        "description": [
+            "Code: U+3352",
+            "Character/Symbol: ㍒",
+            "Name: SQUARE RIRA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍓ U+3353 SQUARE RUPII": 
+    {
+        "prefix": [
+            "..U.3353",
+            "..U.SQUARE RUPII",
+            "U+3353",
+        ],
+        "body": [
+            "${1|㍓,&#x3353;,U+3353,0x3353,SQUARE RUPII|}$2",
+        ],
+        "description": [
+            "Code: U+3353",
+            "Character/Symbol: ㍓",
+            "Name: SQUARE RUPII",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍔ U+3354 SQUARE RUUBURU": 
+    {
+        "prefix": [
+            "..U.3354",
+            "..U.SQUARE RUUBURU",
+            "U+3354",
+        ],
+        "body": [
+            "${1|㍔,&#x3354;,U+3354,0x3354,SQUARE RUUBURU|}$2",
+        ],
+        "description": [
+            "Code: U+3354",
+            "Character/Symbol: ㍔",
+            "Name: SQUARE RUUBURU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍕ U+3355 SQUARE REMU": 
+    {
+        "prefix": [
+            "..U.3355",
+            "..U.SQUARE REMU",
+            "U+3355",
+        ],
+        "body": [
+            "${1|㍕,&#x3355;,U+3355,0x3355,SQUARE REMU|}$2",
+        ],
+        "description": [
+            "Code: U+3355",
+            "Character/Symbol: ㍕",
+            "Name: SQUARE REMU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍖ U+3356 SQUARE RENTOGEN": 
+    {
+        "prefix": [
+            "..U.3356",
+            "..U.SQUARE RENTOGEN",
+            "U+3356",
+        ],
+        "body": [
+            "${1|㍖,&#x3356;,U+3356,0x3356,SQUARE RENTOGEN|}$2",
+        ],
+        "description": [
+            "Code: U+3356",
+            "Character/Symbol: ㍖",
+            "Name: SQUARE RENTOGEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍗ U+3357 SQUARE WATTO": 
+    {
+        "prefix": [
+            "..U.3357",
+            "..U.SQUARE WATTO",
+            "U+3357",
+        ],
+        "body": [
+            "${1|㍗,&#x3357;,U+3357,0x3357,SQUARE WATTO|}$2",
+        ],
+        "description": [
+            "Code: U+3357",
+            "Character/Symbol: ㍗",
+            "Name: SQUARE WATTO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍘ U+3358 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ZERO": 
+    {
+        "prefix": [
+            "..U.3358",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ZERO",
+            "U+3358",
+        ],
+        "body": [
+            "${1|㍘,&#x3358;,U+3358,0x3358,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+3358",
+            "Character/Symbol: ㍘",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ZERO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍙ U+3359 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ONE": 
+    {
+        "prefix": [
+            "..U.3359",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ONE",
+            "U+3359",
+        ],
+        "body": [
+            "${1|㍙,&#x3359;,U+3359,0x3359,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ONE|}$2",
+        ],
+        "description": [
+            "Code: U+3359",
+            "Character/Symbol: ㍙",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ONE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍚ U+335A IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWO": 
+    {
+        "prefix": [
+            "..U.335A",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWO",
+            "U+335A",
+        ],
+        "body": [
+            "${1|㍚,&#x335A;,U+335A,0x335A,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWO|}$2",
+        ],
+        "description": [
+            "Code: U+335A",
+            "Character/Symbol: ㍚",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍛ U+335B IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR THREE": 
+    {
+        "prefix": [
+            "..U.335B",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR THREE",
+            "U+335B",
+        ],
+        "body": [
+            "${1|㍛,&#x335B;,U+335B,0x335B,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR THREE|}$2",
+        ],
+        "description": [
+            "Code: U+335B",
+            "Character/Symbol: ㍛",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR THREE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍜ U+335C IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FOUR": 
+    {
+        "prefix": [
+            "..U.335C",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FOUR",
+            "U+335C",
+        ],
+        "body": [
+            "${1|㍜,&#x335C;,U+335C,0x335C,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+335C",
+            "Character/Symbol: ㍜",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FOUR",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍝ U+335D IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FIVE": 
+    {
+        "prefix": [
+            "..U.335D",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FIVE",
+            "U+335D",
+        ],
+        "body": [
+            "${1|㍝,&#x335D;,U+335D,0x335D,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+335D",
+            "Character/Symbol: ㍝",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FIVE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍞ U+335E IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SIX": 
+    {
+        "prefix": [
+            "..U.335E",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SIX",
+            "U+335E",
+        ],
+        "body": [
+            "${1|㍞,&#x335E;,U+335E,0x335E,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SIX|}$2",
+        ],
+        "description": [
+            "Code: U+335E",
+            "Character/Symbol: ㍞",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SIX",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍟ U+335F IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SEVEN": 
+    {
+        "prefix": [
+            "..U.335F",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SEVEN",
+            "U+335F",
+        ],
+        "body": [
+            "${1|㍟,&#x335F;,U+335F,0x335F,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+335F",
+            "Character/Symbol: ㍟",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SEVEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍠ U+3360 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR EIGHT": 
+    {
+        "prefix": [
+            "..U.3360",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR EIGHT",
+            "U+3360",
+        ],
+        "body": [
+            "${1|㍠,&#x3360;,U+3360,0x3360,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+3360",
+            "Character/Symbol: ㍠",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR EIGHT",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍡ U+3361 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR NINE": 
+    {
+        "prefix": [
+            "..U.3361",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR NINE",
+            "U+3361",
+        ],
+        "body": [
+            "${1|㍡,&#x3361;,U+3361,0x3361,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR NINE|}$2",
+        ],
+        "description": [
+            "Code: U+3361",
+            "Character/Symbol: ㍡",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR NINE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍢ U+3362 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TEN": 
+    {
+        "prefix": [
+            "..U.3362",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TEN",
+            "U+3362",
+        ],
+        "body": [
+            "${1|㍢,&#x3362;,U+3362,0x3362,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TEN|}$2",
+        ],
+        "description": [
+            "Code: U+3362",
+            "Character/Symbol: ㍢",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍣ U+3363 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ELEVEN": 
+    {
+        "prefix": [
+            "..U.3363",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ELEVEN",
+            "U+3363",
+        ],
+        "body": [
+            "${1|㍣,&#x3363;,U+3363,0x3363,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ELEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+3363",
+            "Character/Symbol: ㍣",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR ELEVEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍤ U+3364 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWELVE": 
+    {
+        "prefix": [
+            "..U.3364",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWELVE",
+            "U+3364",
+        ],
+        "body": [
+            "${1|㍤,&#x3364;,U+3364,0x3364,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWELVE|}$2",
+        ],
+        "description": [
+            "Code: U+3364",
+            "Character/Symbol: ㍤",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWELVE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍥ U+3365 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR THIRTEEN": 
+    {
+        "prefix": [
+            "..U.3365",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR THIRTEEN",
+            "U+3365",
+        ],
+        "body": [
+            "${1|㍥,&#x3365;,U+3365,0x3365,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR THIRTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+3365",
+            "Character/Symbol: ㍥",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR THIRTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍦ U+3366 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FOURTEEN": 
+    {
+        "prefix": [
+            "..U.3366",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FOURTEEN",
+            "U+3366",
+        ],
+        "body": [
+            "${1|㍦,&#x3366;,U+3366,0x3366,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FOURTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+3366",
+            "Character/Symbol: ㍦",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FOURTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍧ U+3367 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FIFTEEN": 
+    {
+        "prefix": [
+            "..U.3367",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FIFTEEN",
+            "U+3367",
+        ],
+        "body": [
+            "${1|㍧,&#x3367;,U+3367,0x3367,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FIFTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+3367",
+            "Character/Symbol: ㍧",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FIFTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍨ U+3368 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SIXTEEN": 
+    {
+        "prefix": [
+            "..U.3368",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SIXTEEN",
+            "U+3368",
+        ],
+        "body": [
+            "${1|㍨,&#x3368;,U+3368,0x3368,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SIXTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+3368",
+            "Character/Symbol: ㍨",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SIXTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍩ U+3369 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SEVENTEEN": 
+    {
+        "prefix": [
+            "..U.3369",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SEVENTEEN",
+            "U+3369",
+        ],
+        "body": [
+            "${1|㍩,&#x3369;,U+3369,0x3369,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SEVENTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+3369",
+            "Character/Symbol: ㍩",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR SEVENTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍪ U+336A IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR EIGHTEEN": 
+    {
+        "prefix": [
+            "..U.336A",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR EIGHTEEN",
+            "U+336A",
+        ],
+        "body": [
+            "${1|㍪,&#x336A;,U+336A,0x336A,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR EIGHTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+336A",
+            "Character/Symbol: ㍪",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR EIGHTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍫ U+336B IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR NINETEEN": 
+    {
+        "prefix": [
+            "..U.336B",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR NINETEEN",
+            "U+336B",
+        ],
+        "body": [
+            "${1|㍫,&#x336B;,U+336B,0x336B,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR NINETEEN|}$2",
+        ],
+        "description": [
+            "Code: U+336B",
+            "Character/Symbol: ㍫",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR NINETEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍬ U+336C IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY": 
+    {
+        "prefix": [
+            "..U.336C",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY",
+            "U+336C",
+        ],
+        "body": [
+            "${1|㍬,&#x336C;,U+336C,0x336C,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY|}$2",
+        ],
+        "description": [
+            "Code: U+336C",
+            "Character/Symbol: ㍬",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍭ U+336D IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-ONE": 
+    {
+        "prefix": [
+            "..U.336D",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-ONE",
+            "U+336D",
+        ],
+        "body": [
+            "${1|㍭,&#x336D;,U+336D,0x336D,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-ONE|}$2",
+        ],
+        "description": [
+            "Code: U+336D",
+            "Character/Symbol: ㍭",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-ONE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍮ U+336E IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-TWO": 
+    {
+        "prefix": [
+            "..U.336E",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-TWO",
+            "U+336E",
+        ],
+        "body": [
+            "${1|㍮,&#x336E;,U+336E,0x336E,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-TWO|}$2",
+        ],
+        "description": [
+            "Code: U+336E",
+            "Character/Symbol: ㍮",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-TWO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍯ U+336F IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-THREE": 
+    {
+        "prefix": [
+            "..U.336F",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-THREE",
+            "U+336F",
+        ],
+        "body": [
+            "${1|㍯,&#x336F;,U+336F,0x336F,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-THREE|}$2",
+        ],
+        "description": [
+            "Code: U+336F",
+            "Character/Symbol: ㍯",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-THREE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍰ U+3370 IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-FOUR": 
+    {
+        "prefix": [
+            "..U.3370",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-FOUR",
+            "U+3370",
+        ],
+        "body": [
+            "${1|㍰,&#x3370;,U+3370,0x3370,IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+3370",
+            "Character/Symbol: ㍰",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR TWENTY-FOUR",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍱ U+3371 SQUARE HPA": 
+    {
+        "prefix": [
+            "..U.3371",
+            "..U.SQUARE HPA",
+            "U+3371",
+        ],
+        "body": [
+            "${1|㍱,&#x3371;,U+3371,0x3371,SQUARE HPA|}$2",
+        ],
+        "description": [
+            "Code: U+3371",
+            "Character/Symbol: ㍱",
+            "Name: SQUARE HPA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍲ U+3372 SQUARE DA": 
+    {
+        "prefix": [
+            "..U.3372",
+            "..U.SQUARE DA",
+            "U+3372",
+        ],
+        "body": [
+            "${1|㍲,&#x3372;,U+3372,0x3372,SQUARE DA|}$2",
+        ],
+        "description": [
+            "Code: U+3372",
+            "Character/Symbol: ㍲",
+            "Name: SQUARE DA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍳ U+3373 SQUARE AU": 
+    {
+        "prefix": [
+            "..U.3373",
+            "..U.SQUARE AU",
+            "U+3373",
+        ],
+        "body": [
+            "${1|㍳,&#x3373;,U+3373,0x3373,SQUARE AU|}$2",
+        ],
+        "description": [
+            "Code: U+3373",
+            "Character/Symbol: ㍳",
+            "Name: SQUARE AU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍴ U+3374 SQUARE BAR": 
+    {
+        "prefix": [
+            "..U.3374",
+            "..U.SQUARE BAR",
+            "U+3374",
+        ],
+        "body": [
+            "${1|㍴,&#x3374;,U+3374,0x3374,SQUARE BAR|}$2",
+        ],
+        "description": [
+            "Code: U+3374",
+            "Character/Symbol: ㍴",
+            "Name: SQUARE BAR",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍵ U+3375 SQUARE OV": 
+    {
+        "prefix": [
+            "..U.3375",
+            "..U.SQUARE OV",
+            "U+3375",
+        ],
+        "body": [
+            "${1|㍵,&#x3375;,U+3375,0x3375,SQUARE OV|}$2",
+        ],
+        "description": [
+            "Code: U+3375",
+            "Character/Symbol: ㍵",
+            "Name: SQUARE OV",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍶ U+3376 SQUARE PC": 
+    {
+        "prefix": [
+            "..U.3376",
+            "..U.SQUARE PC",
+            "U+3376",
+        ],
+        "body": [
+            "${1|㍶,&#x3376;,U+3376,0x3376,SQUARE PC|}$2",
+        ],
+        "description": [
+            "Code: U+3376",
+            "Character/Symbol: ㍶",
+            "Name: SQUARE PC",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍷ U+3377 SQUARE DM": 
+    {
+        "prefix": [
+            "..U.3377",
+            "..U.SQUARE DM",
+            "U+3377",
+        ],
+        "body": [
+            "${1|㍷,&#x3377;,U+3377,0x3377,SQUARE DM|}$2",
+        ],
+        "description": [
+            "Code: U+3377",
+            "Character/Symbol: ㍷",
+            "Name: SQUARE DM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍸ U+3378 SQUARE DM SQUARED": 
+    {
+        "prefix": [
+            "..U.3378",
+            "..U.SQUARE DM SQUARED",
+            "U+3378",
+        ],
+        "body": [
+            "${1|㍸,&#x3378;,U+3378,0x3378,SQUARE DM SQUARED|}$2",
+        ],
+        "description": [
+            "Code: U+3378",
+            "Character/Symbol: ㍸",
+            "Name: SQUARE DM SQUARED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍹ U+3379 SQUARE DM CUBED": 
+    {
+        "prefix": [
+            "..U.3379",
+            "..U.SQUARE DM CUBED",
+            "U+3379",
+        ],
+        "body": [
+            "${1|㍹,&#x3379;,U+3379,0x3379,SQUARE DM CUBED|}$2",
+        ],
+        "description": [
+            "Code: U+3379",
+            "Character/Symbol: ㍹",
+            "Name: SQUARE DM CUBED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍺ U+337A SQUARE IU": 
+    {
+        "prefix": [
+            "..U.337A",
+            "..U.SQUARE IU",
+            "U+337A",
+        ],
+        "body": [
+            "${1|㍺,&#x337A;,U+337A,0x337A,SQUARE IU|}$2",
+        ],
+        "description": [
+            "Code: U+337A",
+            "Character/Symbol: ㍺",
+            "Name: SQUARE IU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍻ U+337B SQUARE ERA NAME HEISEI": 
+    {
+        "prefix": [
+            "..U.337B",
+            "..U.SQUARE ERA NAME HEISEI",
+            "U+337B",
+        ],
+        "body": [
+            "${1|㍻,&#x337B;,U+337B,0x337B,SQUARE ERA NAME HEISEI|}$2",
+        ],
+        "description": [
+            "Code: U+337B",
+            "Character/Symbol: ㍻",
+            "Name: SQUARE ERA NAME HEISEI",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍼ U+337C SQUARE ERA NAME SYOUWA": 
+    {
+        "prefix": [
+            "..U.337C",
+            "..U.SQUARE ERA NAME SYOUWA",
+            "U+337C",
+        ],
+        "body": [
+            "${1|㍼,&#x337C;,U+337C,0x337C,SQUARE ERA NAME SYOUWA|}$2",
+        ],
+        "description": [
+            "Code: U+337C",
+            "Character/Symbol: ㍼",
+            "Name: SQUARE ERA NAME SYOUWA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍽ U+337D SQUARE ERA NAME TAISYOU": 
+    {
+        "prefix": [
+            "..U.337D",
+            "..U.SQUARE ERA NAME TAISYOU",
+            "U+337D",
+        ],
+        "body": [
+            "${1|㍽,&#x337D;,U+337D,0x337D,SQUARE ERA NAME TAISYOU|}$2",
+        ],
+        "description": [
+            "Code: U+337D",
+            "Character/Symbol: ㍽",
+            "Name: SQUARE ERA NAME TAISYOU",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍾ U+337E SQUARE ERA NAME MEIZI": 
+    {
+        "prefix": [
+            "..U.337E",
+            "..U.SQUARE ERA NAME MEIZI",
+            "U+337E",
+        ],
+        "body": [
+            "${1|㍾,&#x337E;,U+337E,0x337E,SQUARE ERA NAME MEIZI|}$2",
+        ],
+        "description": [
+            "Code: U+337E",
+            "Character/Symbol: ㍾",
+            "Name: SQUARE ERA NAME MEIZI",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㍿ U+337F SQUARE CORPORATION": 
+    {
+        "prefix": [
+            "..U.337F",
+            "..U.SQUARE CORPORATION",
+            "U+337F",
+        ],
+        "body": [
+            "${1|㍿,&#x337F;,U+337F,0x337F,SQUARE CORPORATION|}$2",
+        ],
+        "description": [
+            "Code: U+337F",
+            "Character/Symbol: ㍿",
+            "Name: SQUARE CORPORATION",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎀ U+3380 SQUARE PA AMPS": 
+    {
+        "prefix": [
+            "..U.3380",
+            "..U.SQUARE PA AMPS",
+            "U+3380",
+        ],
+        "body": [
+            "${1|㎀,&#x3380;,U+3380,0x3380,SQUARE PA AMPS|}$2",
+        ],
+        "description": [
+            "Code: U+3380",
+            "Character/Symbol: ㎀",
+            "Name: SQUARE PA AMPS",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎁ U+3381 SQUARE NA": 
+    {
+        "prefix": [
+            "..U.3381",
+            "..U.SQUARE NA",
+            "U+3381",
+        ],
+        "body": [
+            "${1|㎁,&#x3381;,U+3381,0x3381,SQUARE NA|}$2",
+        ],
+        "description": [
+            "Code: U+3381",
+            "Character/Symbol: ㎁",
+            "Name: SQUARE NA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎂ U+3382 SQUARE MU A": 
+    {
+        "prefix": [
+            "..U.3382",
+            "..U.SQUARE MU A",
+            "U+3382",
+        ],
+        "body": [
+            "${1|㎂,&#x3382;,U+3382,0x3382,SQUARE MU A|}$2",
+        ],
+        "description": [
+            "Code: U+3382",
+            "Character/Symbol: ㎂",
+            "Name: SQUARE MU A",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎃ U+3383 SQUARE MA": 
+    {
+        "prefix": [
+            "..U.3383",
+            "..U.SQUARE MA",
+            "U+3383",
+        ],
+        "body": [
+            "${1|㎃,&#x3383;,U+3383,0x3383,SQUARE MA|}$2",
+        ],
+        "description": [
+            "Code: U+3383",
+            "Character/Symbol: ㎃",
+            "Name: SQUARE MA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎄ U+3384 SQUARE KA": 
+    {
+        "prefix": [
+            "..U.3384",
+            "..U.SQUARE KA",
+            "U+3384",
+        ],
+        "body": [
+            "${1|㎄,&#x3384;,U+3384,0x3384,SQUARE KA|}$2",
+        ],
+        "description": [
+            "Code: U+3384",
+            "Character/Symbol: ㎄",
+            "Name: SQUARE KA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎅ U+3385 SQUARE KB": 
+    {
+        "prefix": [
+            "..U.3385",
+            "..U.SQUARE KB",
+            "U+3385",
+        ],
+        "body": [
+            "${1|㎅,&#x3385;,U+3385,0x3385,SQUARE KB|}$2",
+        ],
+        "description": [
+            "Code: U+3385",
+            "Character/Symbol: ㎅",
+            "Name: SQUARE KB",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎆ U+3386 SQUARE MB": 
+    {
+        "prefix": [
+            "..U.3386",
+            "..U.SQUARE MB",
+            "U+3386",
+        ],
+        "body": [
+            "${1|㎆,&#x3386;,U+3386,0x3386,SQUARE MB|}$2",
+        ],
+        "description": [
+            "Code: U+3386",
+            "Character/Symbol: ㎆",
+            "Name: SQUARE MB",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎇ U+3387 SQUARE GB": 
+    {
+        "prefix": [
+            "..U.3387",
+            "..U.SQUARE GB",
+            "U+3387",
+        ],
+        "body": [
+            "${1|㎇,&#x3387;,U+3387,0x3387,SQUARE GB|}$2",
+        ],
+        "description": [
+            "Code: U+3387",
+            "Character/Symbol: ㎇",
+            "Name: SQUARE GB",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎈ U+3388 SQUARE CAL": 
+    {
+        "prefix": [
+            "..U.3388",
+            "..U.SQUARE CAL",
+            "U+3388",
+        ],
+        "body": [
+            "${1|㎈,&#x3388;,U+3388,0x3388,SQUARE CAL|}$2",
+        ],
+        "description": [
+            "Code: U+3388",
+            "Character/Symbol: ㎈",
+            "Name: SQUARE CAL",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎉ U+3389 SQUARE KCAL": 
+    {
+        "prefix": [
+            "..U.3389",
+            "..U.SQUARE KCAL",
+            "U+3389",
+        ],
+        "body": [
+            "${1|㎉,&#x3389;,U+3389,0x3389,SQUARE KCAL|}$2",
+        ],
+        "description": [
+            "Code: U+3389",
+            "Character/Symbol: ㎉",
+            "Name: SQUARE KCAL",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎊ U+338A SQUARE PF": 
+    {
+        "prefix": [
+            "..U.338A",
+            "..U.SQUARE PF",
+            "U+338A",
+        ],
+        "body": [
+            "${1|㎊,&#x338A;,U+338A,0x338A,SQUARE PF|}$2",
+        ],
+        "description": [
+            "Code: U+338A",
+            "Character/Symbol: ㎊",
+            "Name: SQUARE PF",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎋ U+338B SQUARE NF": 
+    {
+        "prefix": [
+            "..U.338B",
+            "..U.SQUARE NF",
+            "U+338B",
+        ],
+        "body": [
+            "${1|㎋,&#x338B;,U+338B,0x338B,SQUARE NF|}$2",
+        ],
+        "description": [
+            "Code: U+338B",
+            "Character/Symbol: ㎋",
+            "Name: SQUARE NF",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎌ U+338C SQUARE MU F": 
+    {
+        "prefix": [
+            "..U.338C",
+            "..U.SQUARE MU F",
+            "U+338C",
+        ],
+        "body": [
+            "${1|㎌,&#x338C;,U+338C,0x338C,SQUARE MU F|}$2",
+        ],
+        "description": [
+            "Code: U+338C",
+            "Character/Symbol: ㎌",
+            "Name: SQUARE MU F",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎍ U+338D SQUARE MU G": 
+    {
+        "prefix": [
+            "..U.338D",
+            "..U.SQUARE MU G",
+            "U+338D",
+        ],
+        "body": [
+            "${1|㎍,&#x338D;,U+338D,0x338D,SQUARE MU G|}$2",
+        ],
+        "description": [
+            "Code: U+338D",
+            "Character/Symbol: ㎍",
+            "Name: SQUARE MU G",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎎ U+338E SQUARE MG": 
+    {
+        "prefix": [
+            "..U.338E",
+            "..U.SQUARE MG",
+            "U+338E",
+        ],
+        "body": [
+            "${1|㎎,&#x338E;,U+338E,0x338E,SQUARE MG|}$2",
+        ],
+        "description": [
+            "Code: U+338E",
+            "Character/Symbol: ㎎",
+            "Name: SQUARE MG",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎏ U+338F SQUARE KG": 
+    {
+        "prefix": [
+            "..U.338F",
+            "..U.SQUARE KG",
+            "U+338F",
+        ],
+        "body": [
+            "${1|㎏,&#x338F;,U+338F,0x338F,SQUARE KG|}$2",
+        ],
+        "description": [
+            "Code: U+338F",
+            "Character/Symbol: ㎏",
+            "Name: SQUARE KG",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎐ U+3390 SQUARE HZ": 
+    {
+        "prefix": [
+            "..U.3390",
+            "..U.SQUARE HZ",
+            "U+3390",
+        ],
+        "body": [
+            "${1|㎐,&#x3390;,U+3390,0x3390,SQUARE HZ|}$2",
+        ],
+        "description": [
+            "Code: U+3390",
+            "Character/Symbol: ㎐",
+            "Name: SQUARE HZ",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎑ U+3391 SQUARE KHZ": 
+    {
+        "prefix": [
+            "..U.3391",
+            "..U.SQUARE KHZ",
+            "U+3391",
+        ],
+        "body": [
+            "${1|㎑,&#x3391;,U+3391,0x3391,SQUARE KHZ|}$2",
+        ],
+        "description": [
+            "Code: U+3391",
+            "Character/Symbol: ㎑",
+            "Name: SQUARE KHZ",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎒ U+3392 SQUARE MHZ": 
+    {
+        "prefix": [
+            "..U.3392",
+            "..U.SQUARE MHZ",
+            "U+3392",
+        ],
+        "body": [
+            "${1|㎒,&#x3392;,U+3392,0x3392,SQUARE MHZ|}$2",
+        ],
+        "description": [
+            "Code: U+3392",
+            "Character/Symbol: ㎒",
+            "Name: SQUARE MHZ",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎓ U+3393 SQUARE GHZ": 
+    {
+        "prefix": [
+            "..U.3393",
+            "..U.SQUARE GHZ",
+            "U+3393",
+        ],
+        "body": [
+            "${1|㎓,&#x3393;,U+3393,0x3393,SQUARE GHZ|}$2",
+        ],
+        "description": [
+            "Code: U+3393",
+            "Character/Symbol: ㎓",
+            "Name: SQUARE GHZ",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎔ U+3394 SQUARE THZ": 
+    {
+        "prefix": [
+            "..U.3394",
+            "..U.SQUARE THZ",
+            "U+3394",
+        ],
+        "body": [
+            "${1|㎔,&#x3394;,U+3394,0x3394,SQUARE THZ|}$2",
+        ],
+        "description": [
+            "Code: U+3394",
+            "Character/Symbol: ㎔",
+            "Name: SQUARE THZ",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎕ U+3395 SQUARE MU L": 
+    {
+        "prefix": [
+            "..U.3395",
+            "..U.SQUARE MU L",
+            "U+3395",
+        ],
+        "body": [
+            "${1|㎕,&#x3395;,U+3395,0x3395,SQUARE MU L|}$2",
+        ],
+        "description": [
+            "Code: U+3395",
+            "Character/Symbol: ㎕",
+            "Name: SQUARE MU L",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎖ U+3396 SQUARE ML": 
+    {
+        "prefix": [
+            "..U.3396",
+            "..U.SQUARE ML",
+            "U+3396",
+        ],
+        "body": [
+            "${1|㎖,&#x3396;,U+3396,0x3396,SQUARE ML|}$2",
+        ],
+        "description": [
+            "Code: U+3396",
+            "Character/Symbol: ㎖",
+            "Name: SQUARE ML",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎗ U+3397 SQUARE DL": 
+    {
+        "prefix": [
+            "..U.3397",
+            "..U.SQUARE DL",
+            "U+3397",
+        ],
+        "body": [
+            "${1|㎗,&#x3397;,U+3397,0x3397,SQUARE DL|}$2",
+        ],
+        "description": [
+            "Code: U+3397",
+            "Character/Symbol: ㎗",
+            "Name: SQUARE DL",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎘ U+3398 SQUARE KL": 
+    {
+        "prefix": [
+            "..U.3398",
+            "..U.SQUARE KL",
+            "U+3398",
+        ],
+        "body": [
+            "${1|㎘,&#x3398;,U+3398,0x3398,SQUARE KL|}$2",
+        ],
+        "description": [
+            "Code: U+3398",
+            "Character/Symbol: ㎘",
+            "Name: SQUARE KL",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎙ U+3399 SQUARE FM": 
+    {
+        "prefix": [
+            "..U.3399",
+            "..U.SQUARE FM",
+            "U+3399",
+        ],
+        "body": [
+            "${1|㎙,&#x3399;,U+3399,0x3399,SQUARE FM|}$2",
+        ],
+        "description": [
+            "Code: U+3399",
+            "Character/Symbol: ㎙",
+            "Name: SQUARE FM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎚ U+339A SQUARE NM": 
+    {
+        "prefix": [
+            "..U.339A",
+            "..U.SQUARE NM",
+            "U+339A",
+        ],
+        "body": [
+            "${1|㎚,&#x339A;,U+339A,0x339A,SQUARE NM|}$2",
+        ],
+        "description": [
+            "Code: U+339A",
+            "Character/Symbol: ㎚",
+            "Name: SQUARE NM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎛ U+339B SQUARE MU M": 
+    {
+        "prefix": [
+            "..U.339B",
+            "..U.SQUARE MU M",
+            "U+339B",
+        ],
+        "body": [
+            "${1|㎛,&#x339B;,U+339B,0x339B,SQUARE MU M|}$2",
+        ],
+        "description": [
+            "Code: U+339B",
+            "Character/Symbol: ㎛",
+            "Name: SQUARE MU M",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎜ U+339C SQUARE MM": 
+    {
+        "prefix": [
+            "..U.339C",
+            "..U.SQUARE MM",
+            "U+339C",
+        ],
+        "body": [
+            "${1|㎜,&#x339C;,U+339C,0x339C,SQUARE MM|}$2",
+        ],
+        "description": [
+            "Code: U+339C",
+            "Character/Symbol: ㎜",
+            "Name: SQUARE MM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎝ U+339D SQUARE CM": 
+    {
+        "prefix": [
+            "..U.339D",
+            "..U.SQUARE CM",
+            "U+339D",
+        ],
+        "body": [
+            "${1|㎝,&#x339D;,U+339D,0x339D,SQUARE CM|}$2",
+        ],
+        "description": [
+            "Code: U+339D",
+            "Character/Symbol: ㎝",
+            "Name: SQUARE CM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎞ U+339E SQUARE KM": 
+    {
+        "prefix": [
+            "..U.339E",
+            "..U.SQUARE KM",
+            "U+339E",
+        ],
+        "body": [
+            "${1|㎞,&#x339E;,U+339E,0x339E,SQUARE KM|}$2",
+        ],
+        "description": [
+            "Code: U+339E",
+            "Character/Symbol: ㎞",
+            "Name: SQUARE KM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎟ U+339F SQUARE MM SQUARED": 
+    {
+        "prefix": [
+            "..U.339F",
+            "..U.SQUARE MM SQUARED",
+            "U+339F",
+        ],
+        "body": [
+            "${1|㎟,&#x339F;,U+339F,0x339F,SQUARE MM SQUARED|}$2",
+        ],
+        "description": [
+            "Code: U+339F",
+            "Character/Symbol: ㎟",
+            "Name: SQUARE MM SQUARED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎠ U+33A0 SQUARE CM SQUARED": 
+    {
+        "prefix": [
+            "..U.33A0",
+            "..U.SQUARE CM SQUARED",
+            "U+33A0",
+        ],
+        "body": [
+            "${1|㎠,&#x33A0;,U+33A0,0x33A0,SQUARE CM SQUARED|}$2",
+        ],
+        "description": [
+            "Code: U+33A0",
+            "Character/Symbol: ㎠",
+            "Name: SQUARE CM SQUARED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎡ U+33A1 SQUARE M SQUARED": 
+    {
+        "prefix": [
+            "..U.33A1",
+            "..U.SQUARE M SQUARED",
+            "U+33A1",
+        ],
+        "body": [
+            "${1|㎡,&#x33A1;,U+33A1,0x33A1,SQUARE M SQUARED|}$2",
+        ],
+        "description": [
+            "Code: U+33A1",
+            "Character/Symbol: ㎡",
+            "Name: SQUARE M SQUARED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎢ U+33A2 SQUARE KM SQUARED": 
+    {
+        "prefix": [
+            "..U.33A2",
+            "..U.SQUARE KM SQUARED",
+            "U+33A2",
+        ],
+        "body": [
+            "${1|㎢,&#x33A2;,U+33A2,0x33A2,SQUARE KM SQUARED|}$2",
+        ],
+        "description": [
+            "Code: U+33A2",
+            "Character/Symbol: ㎢",
+            "Name: SQUARE KM SQUARED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎣ U+33A3 SQUARE MM CUBED": 
+    {
+        "prefix": [
+            "..U.33A3",
+            "..U.SQUARE MM CUBED",
+            "U+33A3",
+        ],
+        "body": [
+            "${1|㎣,&#x33A3;,U+33A3,0x33A3,SQUARE MM CUBED|}$2",
+        ],
+        "description": [
+            "Code: U+33A3",
+            "Character/Symbol: ㎣",
+            "Name: SQUARE MM CUBED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎤ U+33A4 SQUARE CM CUBED": 
+    {
+        "prefix": [
+            "..U.33A4",
+            "..U.SQUARE CM CUBED",
+            "U+33A4",
+        ],
+        "body": [
+            "${1|㎤,&#x33A4;,U+33A4,0x33A4,SQUARE CM CUBED|}$2",
+        ],
+        "description": [
+            "Code: U+33A4",
+            "Character/Symbol: ㎤",
+            "Name: SQUARE CM CUBED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎥ U+33A5 SQUARE M CUBED": 
+    {
+        "prefix": [
+            "..U.33A5",
+            "..U.SQUARE M CUBED",
+            "U+33A5",
+        ],
+        "body": [
+            "${1|㎥,&#x33A5;,U+33A5,0x33A5,SQUARE M CUBED|}$2",
+        ],
+        "description": [
+            "Code: U+33A5",
+            "Character/Symbol: ㎥",
+            "Name: SQUARE M CUBED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎦ U+33A6 SQUARE KM CUBED": 
+    {
+        "prefix": [
+            "..U.33A6",
+            "..U.SQUARE KM CUBED",
+            "U+33A6",
+        ],
+        "body": [
+            "${1|㎦,&#x33A6;,U+33A6,0x33A6,SQUARE KM CUBED|}$2",
+        ],
+        "description": [
+            "Code: U+33A6",
+            "Character/Symbol: ㎦",
+            "Name: SQUARE KM CUBED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎧ U+33A7 SQUARE M OVER S": 
+    {
+        "prefix": [
+            "..U.33A7",
+            "..U.SQUARE M OVER S",
+            "U+33A7",
+        ],
+        "body": [
+            "${1|㎧,&#x33A7;,U+33A7,0x33A7,SQUARE M OVER S|}$2",
+        ],
+        "description": [
+            "Code: U+33A7",
+            "Character/Symbol: ㎧",
+            "Name: SQUARE M OVER S",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎨ U+33A8 SQUARE M OVER S SQUARED": 
+    {
+        "prefix": [
+            "..U.33A8",
+            "..U.SQUARE M OVER S SQUARED",
+            "U+33A8",
+        ],
+        "body": [
+            "${1|㎨,&#x33A8;,U+33A8,0x33A8,SQUARE M OVER S SQUARED|}$2",
+        ],
+        "description": [
+            "Code: U+33A8",
+            "Character/Symbol: ㎨",
+            "Name: SQUARE M OVER S SQUARED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎩ U+33A9 SQUARE PA": 
+    {
+        "prefix": [
+            "..U.33A9",
+            "..U.SQUARE PA",
+            "U+33A9",
+        ],
+        "body": [
+            "${1|㎩,&#x33A9;,U+33A9,0x33A9,SQUARE PA|}$2",
+        ],
+        "description": [
+            "Code: U+33A9",
+            "Character/Symbol: ㎩",
+            "Name: SQUARE PA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎪ U+33AA SQUARE KPA": 
+    {
+        "prefix": [
+            "..U.33AA",
+            "..U.SQUARE KPA",
+            "U+33AA",
+        ],
+        "body": [
+            "${1|㎪,&#x33AA;,U+33AA,0x33AA,SQUARE KPA|}$2",
+        ],
+        "description": [
+            "Code: U+33AA",
+            "Character/Symbol: ㎪",
+            "Name: SQUARE KPA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎫ U+33AB SQUARE MPA": 
+    {
+        "prefix": [
+            "..U.33AB",
+            "..U.SQUARE MPA",
+            "U+33AB",
+        ],
+        "body": [
+            "${1|㎫,&#x33AB;,U+33AB,0x33AB,SQUARE MPA|}$2",
+        ],
+        "description": [
+            "Code: U+33AB",
+            "Character/Symbol: ㎫",
+            "Name: SQUARE MPA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎬ U+33AC SQUARE GPA": 
+    {
+        "prefix": [
+            "..U.33AC",
+            "..U.SQUARE GPA",
+            "U+33AC",
+        ],
+        "body": [
+            "${1|㎬,&#x33AC;,U+33AC,0x33AC,SQUARE GPA|}$2",
+        ],
+        "description": [
+            "Code: U+33AC",
+            "Character/Symbol: ㎬",
+            "Name: SQUARE GPA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎭ U+33AD SQUARE RAD": 
+    {
+        "prefix": [
+            "..U.33AD",
+            "..U.SQUARE RAD",
+            "U+33AD",
+        ],
+        "body": [
+            "${1|㎭,&#x33AD;,U+33AD,0x33AD,SQUARE RAD|}$2",
+        ],
+        "description": [
+            "Code: U+33AD",
+            "Character/Symbol: ㎭",
+            "Name: SQUARE RAD",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎮ U+33AE SQUARE RAD OVER S": 
+    {
+        "prefix": [
+            "..U.33AE",
+            "..U.SQUARE RAD OVER S",
+            "U+33AE",
+        ],
+        "body": [
+            "${1|㎮,&#x33AE;,U+33AE,0x33AE,SQUARE RAD OVER S|}$2",
+        ],
+        "description": [
+            "Code: U+33AE",
+            "Character/Symbol: ㎮",
+            "Name: SQUARE RAD OVER S",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎯ U+33AF SQUARE RAD OVER S SQUARED": 
+    {
+        "prefix": [
+            "..U.33AF",
+            "..U.SQUARE RAD OVER S SQUARED",
+            "U+33AF",
+        ],
+        "body": [
+            "${1|㎯,&#x33AF;,U+33AF,0x33AF,SQUARE RAD OVER S SQUARED|}$2",
+        ],
+        "description": [
+            "Code: U+33AF",
+            "Character/Symbol: ㎯",
+            "Name: SQUARE RAD OVER S SQUARED",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎰ U+33B0 SQUARE PS": 
+    {
+        "prefix": [
+            "..U.33B0",
+            "..U.SQUARE PS",
+            "U+33B0",
+        ],
+        "body": [
+            "${1|㎰,&#x33B0;,U+33B0,0x33B0,SQUARE PS|}$2",
+        ],
+        "description": [
+            "Code: U+33B0",
+            "Character/Symbol: ㎰",
+            "Name: SQUARE PS",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎱ U+33B1 SQUARE NS": 
+    {
+        "prefix": [
+            "..U.33B1",
+            "..U.SQUARE NS",
+            "U+33B1",
+        ],
+        "body": [
+            "${1|㎱,&#x33B1;,U+33B1,0x33B1,SQUARE NS|}$2",
+        ],
+        "description": [
+            "Code: U+33B1",
+            "Character/Symbol: ㎱",
+            "Name: SQUARE NS",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎲ U+33B2 SQUARE MU S": 
+    {
+        "prefix": [
+            "..U.33B2",
+            "..U.SQUARE MU S",
+            "U+33B2",
+        ],
+        "body": [
+            "${1|㎲,&#x33B2;,U+33B2,0x33B2,SQUARE MU S|}$2",
+        ],
+        "description": [
+            "Code: U+33B2",
+            "Character/Symbol: ㎲",
+            "Name: SQUARE MU S",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎳ U+33B3 SQUARE MS": 
+    {
+        "prefix": [
+            "..U.33B3",
+            "..U.SQUARE MS",
+            "U+33B3",
+        ],
+        "body": [
+            "${1|㎳,&#x33B3;,U+33B3,0x33B3,SQUARE MS|}$2",
+        ],
+        "description": [
+            "Code: U+33B3",
+            "Character/Symbol: ㎳",
+            "Name: SQUARE MS",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎴ U+33B4 SQUARE PV": 
+    {
+        "prefix": [
+            "..U.33B4",
+            "..U.SQUARE PV",
+            "U+33B4",
+        ],
+        "body": [
+            "${1|㎴,&#x33B4;,U+33B4,0x33B4,SQUARE PV|}$2",
+        ],
+        "description": [
+            "Code: U+33B4",
+            "Character/Symbol: ㎴",
+            "Name: SQUARE PV",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎵ U+33B5 SQUARE NV": 
+    {
+        "prefix": [
+            "..U.33B5",
+            "..U.SQUARE NV",
+            "U+33B5",
+        ],
+        "body": [
+            "${1|㎵,&#x33B5;,U+33B5,0x33B5,SQUARE NV|}$2",
+        ],
+        "description": [
+            "Code: U+33B5",
+            "Character/Symbol: ㎵",
+            "Name: SQUARE NV",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎶ U+33B6 SQUARE MU V": 
+    {
+        "prefix": [
+            "..U.33B6",
+            "..U.SQUARE MU V",
+            "U+33B6",
+        ],
+        "body": [
+            "${1|㎶,&#x33B6;,U+33B6,0x33B6,SQUARE MU V|}$2",
+        ],
+        "description": [
+            "Code: U+33B6",
+            "Character/Symbol: ㎶",
+            "Name: SQUARE MU V",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎷ U+33B7 SQUARE MV": 
+    {
+        "prefix": [
+            "..U.33B7",
+            "..U.SQUARE MV",
+            "U+33B7",
+        ],
+        "body": [
+            "${1|㎷,&#x33B7;,U+33B7,0x33B7,SQUARE MV|}$2",
+        ],
+        "description": [
+            "Code: U+33B7",
+            "Character/Symbol: ㎷",
+            "Name: SQUARE MV",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎸ U+33B8 SQUARE KV": 
+    {
+        "prefix": [
+            "..U.33B8",
+            "..U.SQUARE KV",
+            "U+33B8",
+        ],
+        "body": [
+            "${1|㎸,&#x33B8;,U+33B8,0x33B8,SQUARE KV|}$2",
+        ],
+        "description": [
+            "Code: U+33B8",
+            "Character/Symbol: ㎸",
+            "Name: SQUARE KV",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎹ U+33B9 SQUARE MV MEGA": 
+    {
+        "prefix": [
+            "..U.33B9",
+            "..U.SQUARE MV MEGA",
+            "U+33B9",
+        ],
+        "body": [
+            "${1|㎹,&#x33B9;,U+33B9,0x33B9,SQUARE MV MEGA|}$2",
+        ],
+        "description": [
+            "Code: U+33B9",
+            "Character/Symbol: ㎹",
+            "Name: SQUARE MV MEGA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎺ U+33BA SQUARE PW": 
+    {
+        "prefix": [
+            "..U.33BA",
+            "..U.SQUARE PW",
+            "U+33BA",
+        ],
+        "body": [
+            "${1|㎺,&#x33BA;,U+33BA,0x33BA,SQUARE PW|}$2",
+        ],
+        "description": [
+            "Code: U+33BA",
+            "Character/Symbol: ㎺",
+            "Name: SQUARE PW",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎻ U+33BB SQUARE NW": 
+    {
+        "prefix": [
+            "..U.33BB",
+            "..U.SQUARE NW",
+            "U+33BB",
+        ],
+        "body": [
+            "${1|㎻,&#x33BB;,U+33BB,0x33BB,SQUARE NW|}$2",
+        ],
+        "description": [
+            "Code: U+33BB",
+            "Character/Symbol: ㎻",
+            "Name: SQUARE NW",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎼ U+33BC SQUARE MU W": 
+    {
+        "prefix": [
+            "..U.33BC",
+            "..U.SQUARE MU W",
+            "U+33BC",
+        ],
+        "body": [
+            "${1|㎼,&#x33BC;,U+33BC,0x33BC,SQUARE MU W|}$2",
+        ],
+        "description": [
+            "Code: U+33BC",
+            "Character/Symbol: ㎼",
+            "Name: SQUARE MU W",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎽ U+33BD SQUARE MW": 
+    {
+        "prefix": [
+            "..U.33BD",
+            "..U.SQUARE MW",
+            "U+33BD",
+        ],
+        "body": [
+            "${1|㎽,&#x33BD;,U+33BD,0x33BD,SQUARE MW|}$2",
+        ],
+        "description": [
+            "Code: U+33BD",
+            "Character/Symbol: ㎽",
+            "Name: SQUARE MW",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎾ U+33BE SQUARE KW": 
+    {
+        "prefix": [
+            "..U.33BE",
+            "..U.SQUARE KW",
+            "U+33BE",
+        ],
+        "body": [
+            "${1|㎾,&#x33BE;,U+33BE,0x33BE,SQUARE KW|}$2",
+        ],
+        "description": [
+            "Code: U+33BE",
+            "Character/Symbol: ㎾",
+            "Name: SQUARE KW",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㎿ U+33BF SQUARE MW MEGA": 
+    {
+        "prefix": [
+            "..U.33BF",
+            "..U.SQUARE MW MEGA",
+            "U+33BF",
+        ],
+        "body": [
+            "${1|㎿,&#x33BF;,U+33BF,0x33BF,SQUARE MW MEGA|}$2",
+        ],
+        "description": [
+            "Code: U+33BF",
+            "Character/Symbol: ㎿",
+            "Name: SQUARE MW MEGA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏀ U+33C0 SQUARE K OHM": 
+    {
+        "prefix": [
+            "..U.33C0",
+            "..U.SQUARE K OHM",
+            "U+33C0",
+        ],
+        "body": [
+            "${1|㏀,&#x33C0;,U+33C0,0x33C0,SQUARE K OHM|}$2",
+        ],
+        "description": [
+            "Code: U+33C0",
+            "Character/Symbol: ㏀",
+            "Name: SQUARE K OHM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏁ U+33C1 SQUARE M OHM": 
+    {
+        "prefix": [
+            "..U.33C1",
+            "..U.SQUARE M OHM",
+            "U+33C1",
+        ],
+        "body": [
+            "${1|㏁,&#x33C1;,U+33C1,0x33C1,SQUARE M OHM|}$2",
+        ],
+        "description": [
+            "Code: U+33C1",
+            "Character/Symbol: ㏁",
+            "Name: SQUARE M OHM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏂ U+33C2 SQUARE AM": 
+    {
+        "prefix": [
+            "..U.33C2",
+            "..U.SQUARE AM",
+            "U+33C2",
+        ],
+        "body": [
+            "${1|㏂,&#x33C2;,U+33C2,0x33C2,SQUARE AM|}$2",
+        ],
+        "description": [
+            "Code: U+33C2",
+            "Character/Symbol: ㏂",
+            "Name: SQUARE AM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏃ U+33C3 SQUARE BQ": 
+    {
+        "prefix": [
+            "..U.33C3",
+            "..U.SQUARE BQ",
+            "U+33C3",
+        ],
+        "body": [
+            "${1|㏃,&#x33C3;,U+33C3,0x33C3,SQUARE BQ|}$2",
+        ],
+        "description": [
+            "Code: U+33C3",
+            "Character/Symbol: ㏃",
+            "Name: SQUARE BQ",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏄ U+33C4 SQUARE CC": 
+    {
+        "prefix": [
+            "..U.33C4",
+            "..U.SQUARE CC",
+            "U+33C4",
+        ],
+        "body": [
+            "${1|㏄,&#x33C4;,U+33C4,0x33C4,SQUARE CC|}$2",
+        ],
+        "description": [
+            "Code: U+33C4",
+            "Character/Symbol: ㏄",
+            "Name: SQUARE CC",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏅ U+33C5 SQUARE CD": 
+    {
+        "prefix": [
+            "..U.33C5",
+            "..U.SQUARE CD",
+            "U+33C5",
+        ],
+        "body": [
+            "${1|㏅,&#x33C5;,U+33C5,0x33C5,SQUARE CD|}$2",
+        ],
+        "description": [
+            "Code: U+33C5",
+            "Character/Symbol: ㏅",
+            "Name: SQUARE CD",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏆ U+33C6 SQUARE C OVER KG": 
+    {
+        "prefix": [
+            "..U.33C6",
+            "..U.SQUARE C OVER KG",
+            "U+33C6",
+        ],
+        "body": [
+            "${1|㏆,&#x33C6;,U+33C6,0x33C6,SQUARE C OVER KG|}$2",
+        ],
+        "description": [
+            "Code: U+33C6",
+            "Character/Symbol: ㏆",
+            "Name: SQUARE C OVER KG",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏇ U+33C7 SQUARE CO": 
+    {
+        "prefix": [
+            "..U.33C7",
+            "..U.SQUARE CO",
+            "U+33C7",
+        ],
+        "body": [
+            "${1|㏇,&#x33C7;,U+33C7,0x33C7,SQUARE CO|}$2",
+        ],
+        "description": [
+            "Code: U+33C7",
+            "Character/Symbol: ㏇",
+            "Name: SQUARE CO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏈ U+33C8 SQUARE DB": 
+    {
+        "prefix": [
+            "..U.33C8",
+            "..U.SQUARE DB",
+            "U+33C8",
+        ],
+        "body": [
+            "${1|㏈,&#x33C8;,U+33C8,0x33C8,SQUARE DB|}$2",
+        ],
+        "description": [
+            "Code: U+33C8",
+            "Character/Symbol: ㏈",
+            "Name: SQUARE DB",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏉ U+33C9 SQUARE GY": 
+    {
+        "prefix": [
+            "..U.33C9",
+            "..U.SQUARE GY",
+            "U+33C9",
+        ],
+        "body": [
+            "${1|㏉,&#x33C9;,U+33C9,0x33C9,SQUARE GY|}$2",
+        ],
+        "description": [
+            "Code: U+33C9",
+            "Character/Symbol: ㏉",
+            "Name: SQUARE GY",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏊ U+33CA SQUARE HA": 
+    {
+        "prefix": [
+            "..U.33CA",
+            "..U.SQUARE HA",
+            "U+33CA",
+        ],
+        "body": [
+            "${1|㏊,&#x33CA;,U+33CA,0x33CA,SQUARE HA|}$2",
+        ],
+        "description": [
+            "Code: U+33CA",
+            "Character/Symbol: ㏊",
+            "Name: SQUARE HA",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏋ U+33CB SQUARE HP": 
+    {
+        "prefix": [
+            "..U.33CB",
+            "..U.SQUARE HP",
+            "U+33CB",
+        ],
+        "body": [
+            "${1|㏋,&#x33CB;,U+33CB,0x33CB,SQUARE HP|}$2",
+        ],
+        "description": [
+            "Code: U+33CB",
+            "Character/Symbol: ㏋",
+            "Name: SQUARE HP",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏌ U+33CC SQUARE IN": 
+    {
+        "prefix": [
+            "..U.33CC",
+            "..U.SQUARE IN",
+            "U+33CC",
+        ],
+        "body": [
+            "${1|㏌,&#x33CC;,U+33CC,0x33CC,SQUARE IN|}$2",
+        ],
+        "description": [
+            "Code: U+33CC",
+            "Character/Symbol: ㏌",
+            "Name: SQUARE IN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏍ U+33CD SQUARE KK": 
+    {
+        "prefix": [
+            "..U.33CD",
+            "..U.SQUARE KK",
+            "U+33CD",
+        ],
+        "body": [
+            "${1|㏍,&#x33CD;,U+33CD,0x33CD,SQUARE KK|}$2",
+        ],
+        "description": [
+            "Code: U+33CD",
+            "Character/Symbol: ㏍",
+            "Name: SQUARE KK",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏎ U+33CE SQUARE KM CAPITAL": 
+    {
+        "prefix": [
+            "..U.33CE",
+            "..U.SQUARE KM CAPITAL",
+            "U+33CE",
+        ],
+        "body": [
+            "${1|㏎,&#x33CE;,U+33CE,0x33CE,SQUARE KM CAPITAL|}$2",
+        ],
+        "description": [
+            "Code: U+33CE",
+            "Character/Symbol: ㏎",
+            "Name: SQUARE KM CAPITAL",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏏ U+33CF SQUARE KT": 
+    {
+        "prefix": [
+            "..U.33CF",
+            "..U.SQUARE KT",
+            "U+33CF",
+        ],
+        "body": [
+            "${1|㏏,&#x33CF;,U+33CF,0x33CF,SQUARE KT|}$2",
+        ],
+        "description": [
+            "Code: U+33CF",
+            "Character/Symbol: ㏏",
+            "Name: SQUARE KT",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏐ U+33D0 SQUARE LM": 
+    {
+        "prefix": [
+            "..U.33D0",
+            "..U.SQUARE LM",
+            "U+33D0",
+        ],
+        "body": [
+            "${1|㏐,&#x33D0;,U+33D0,0x33D0,SQUARE LM|}$2",
+        ],
+        "description": [
+            "Code: U+33D0",
+            "Character/Symbol: ㏐",
+            "Name: SQUARE LM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏑ U+33D1 SQUARE LN": 
+    {
+        "prefix": [
+            "..U.33D1",
+            "..U.SQUARE LN",
+            "U+33D1",
+        ],
+        "body": [
+            "${1|㏑,&#x33D1;,U+33D1,0x33D1,SQUARE LN|}$2",
+        ],
+        "description": [
+            "Code: U+33D1",
+            "Character/Symbol: ㏑",
+            "Name: SQUARE LN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏒ U+33D2 SQUARE LOG": 
+    {
+        "prefix": [
+            "..U.33D2",
+            "..U.SQUARE LOG",
+            "U+33D2",
+        ],
+        "body": [
+            "${1|㏒,&#x33D2;,U+33D2,0x33D2,SQUARE LOG|}$2",
+        ],
+        "description": [
+            "Code: U+33D2",
+            "Character/Symbol: ㏒",
+            "Name: SQUARE LOG",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏓ U+33D3 SQUARE LX": 
+    {
+        "prefix": [
+            "..U.33D3",
+            "..U.SQUARE LX",
+            "U+33D3",
+        ],
+        "body": [
+            "${1|㏓,&#x33D3;,U+33D3,0x33D3,SQUARE LX|}$2",
+        ],
+        "description": [
+            "Code: U+33D3",
+            "Character/Symbol: ㏓",
+            "Name: SQUARE LX",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏔ U+33D4 SQUARE MB SMALL": 
+    {
+        "prefix": [
+            "..U.33D4",
+            "..U.SQUARE MB SMALL",
+            "U+33D4",
+        ],
+        "body": [
+            "${1|㏔,&#x33D4;,U+33D4,0x33D4,SQUARE MB SMALL|}$2",
+        ],
+        "description": [
+            "Code: U+33D4",
+            "Character/Symbol: ㏔",
+            "Name: SQUARE MB SMALL",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏕ U+33D5 SQUARE MIL": 
+    {
+        "prefix": [
+            "..U.33D5",
+            "..U.SQUARE MIL",
+            "U+33D5",
+        ],
+        "body": [
+            "${1|㏕,&#x33D5;,U+33D5,0x33D5,SQUARE MIL|}$2",
+        ],
+        "description": [
+            "Code: U+33D5",
+            "Character/Symbol: ㏕",
+            "Name: SQUARE MIL",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏖ U+33D6 SQUARE MOL": 
+    {
+        "prefix": [
+            "..U.33D6",
+            "..U.SQUARE MOL",
+            "U+33D6",
+        ],
+        "body": [
+            "${1|㏖,&#x33D6;,U+33D6,0x33D6,SQUARE MOL|}$2",
+        ],
+        "description": [
+            "Code: U+33D6",
+            "Character/Symbol: ㏖",
+            "Name: SQUARE MOL",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏗ U+33D7 SQUARE PH": 
+    {
+        "prefix": [
+            "..U.33D7",
+            "..U.SQUARE PH",
+            "U+33D7",
+        ],
+        "body": [
+            "${1|㏗,&#x33D7;,U+33D7,0x33D7,SQUARE PH|}$2",
+        ],
+        "description": [
+            "Code: U+33D7",
+            "Character/Symbol: ㏗",
+            "Name: SQUARE PH",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏘ U+33D8 SQUARE PM": 
+    {
+        "prefix": [
+            "..U.33D8",
+            "..U.SQUARE PM",
+            "U+33D8",
+        ],
+        "body": [
+            "${1|㏘,&#x33D8;,U+33D8,0x33D8,SQUARE PM|}$2",
+        ],
+        "description": [
+            "Code: U+33D8",
+            "Character/Symbol: ㏘",
+            "Name: SQUARE PM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏙ U+33D9 SQUARE PPM": 
+    {
+        "prefix": [
+            "..U.33D9",
+            "..U.SQUARE PPM",
+            "U+33D9",
+        ],
+        "body": [
+            "${1|㏙,&#x33D9;,U+33D9,0x33D9,SQUARE PPM|}$2",
+        ],
+        "description": [
+            "Code: U+33D9",
+            "Character/Symbol: ㏙",
+            "Name: SQUARE PPM",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏚ U+33DA SQUARE PR": 
+    {
+        "prefix": [
+            "..U.33DA",
+            "..U.SQUARE PR",
+            "U+33DA",
+        ],
+        "body": [
+            "${1|㏚,&#x33DA;,U+33DA,0x33DA,SQUARE PR|}$2",
+        ],
+        "description": [
+            "Code: U+33DA",
+            "Character/Symbol: ㏚",
+            "Name: SQUARE PR",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏛ U+33DB SQUARE SR": 
+    {
+        "prefix": [
+            "..U.33DB",
+            "..U.SQUARE SR",
+            "U+33DB",
+        ],
+        "body": [
+            "${1|㏛,&#x33DB;,U+33DB,0x33DB,SQUARE SR|}$2",
+        ],
+        "description": [
+            "Code: U+33DB",
+            "Character/Symbol: ㏛",
+            "Name: SQUARE SR",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏜ U+33DC SQUARE SV": 
+    {
+        "prefix": [
+            "..U.33DC",
+            "..U.SQUARE SV",
+            "U+33DC",
+        ],
+        "body": [
+            "${1|㏜,&#x33DC;,U+33DC,0x33DC,SQUARE SV|}$2",
+        ],
+        "description": [
+            "Code: U+33DC",
+            "Character/Symbol: ㏜",
+            "Name: SQUARE SV",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏝ U+33DD SQUARE WB": 
+    {
+        "prefix": [
+            "..U.33DD",
+            "..U.SQUARE WB",
+            "U+33DD",
+        ],
+        "body": [
+            "${1|㏝,&#x33DD;,U+33DD,0x33DD,SQUARE WB|}$2",
+        ],
+        "description": [
+            "Code: U+33DD",
+            "Character/Symbol: ㏝",
+            "Name: SQUARE WB",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏞ U+33DE SQUARE V OVER M": 
+    {
+        "prefix": [
+            "..U.33DE",
+            "..U.SQUARE V OVER M",
+            "U+33DE",
+        ],
+        "body": [
+            "${1|㏞,&#x33DE;,U+33DE,0x33DE,SQUARE V OVER M|}$2",
+        ],
+        "description": [
+            "Code: U+33DE",
+            "Character/Symbol: ㏞",
+            "Name: SQUARE V OVER M",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏟ U+33DF SQUARE A OVER M": 
+    {
+        "prefix": [
+            "..U.33DF",
+            "..U.SQUARE A OVER M",
+            "U+33DF",
+        ],
+        "body": [
+            "${1|㏟,&#x33DF;,U+33DF,0x33DF,SQUARE A OVER M|}$2",
+        ],
+        "description": [
+            "Code: U+33DF",
+            "Character/Symbol: ㏟",
+            "Name: SQUARE A OVER M",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏠ U+33E0 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY ONE": 
+    {
+        "prefix": [
+            "..U.33E0",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY ONE",
+            "U+33E0",
+        ],
+        "body": [
+            "${1|㏠,&#x33E0;,U+33E0,0x33E0,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY ONE|}$2",
+        ],
+        "description": [
+            "Code: U+33E0",
+            "Character/Symbol: ㏠",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY ONE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏡ U+33E1 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWO": 
+    {
+        "prefix": [
+            "..U.33E1",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWO",
+            "U+33E1",
+        ],
+        "body": [
+            "${1|㏡,&#x33E1;,U+33E1,0x33E1,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWO|}$2",
+        ],
+        "description": [
+            "Code: U+33E1",
+            "Character/Symbol: ㏡",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏢ U+33E2 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THREE": 
+    {
+        "prefix": [
+            "..U.33E2",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THREE",
+            "U+33E2",
+        ],
+        "body": [
+            "${1|㏢,&#x33E2;,U+33E2,0x33E2,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THREE|}$2",
+        ],
+        "description": [
+            "Code: U+33E2",
+            "Character/Symbol: ㏢",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THREE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏣ U+33E3 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FOUR": 
+    {
+        "prefix": [
+            "..U.33E3",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FOUR",
+            "U+33E3",
+        ],
+        "body": [
+            "${1|㏣,&#x33E3;,U+33E3,0x33E3,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+33E3",
+            "Character/Symbol: ㏣",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FOUR",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏤ U+33E4 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FIVE": 
+    {
+        "prefix": [
+            "..U.33E4",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FIVE",
+            "U+33E4",
+        ],
+        "body": [
+            "${1|㏤,&#x33E4;,U+33E4,0x33E4,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+33E4",
+            "Character/Symbol: ㏤",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FIVE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏥ U+33E5 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SIX": 
+    {
+        "prefix": [
+            "..U.33E5",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SIX",
+            "U+33E5",
+        ],
+        "body": [
+            "${1|㏥,&#x33E5;,U+33E5,0x33E5,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SIX|}$2",
+        ],
+        "description": [
+            "Code: U+33E5",
+            "Character/Symbol: ㏥",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SIX",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏦ U+33E6 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SEVEN": 
+    {
+        "prefix": [
+            "..U.33E6",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SEVEN",
+            "U+33E6",
+        ],
+        "body": [
+            "${1|㏦,&#x33E6;,U+33E6,0x33E6,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+33E6",
+            "Character/Symbol: ㏦",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SEVEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏧ U+33E7 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY EIGHT": 
+    {
+        "prefix": [
+            "..U.33E7",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY EIGHT",
+            "U+33E7",
+        ],
+        "body": [
+            "${1|㏧,&#x33E7;,U+33E7,0x33E7,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+33E7",
+            "Character/Symbol: ㏧",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY EIGHT",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏨ U+33E8 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY NINE": 
+    {
+        "prefix": [
+            "..U.33E8",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY NINE",
+            "U+33E8",
+        ],
+        "body": [
+            "${1|㏨,&#x33E8;,U+33E8,0x33E8,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY NINE|}$2",
+        ],
+        "description": [
+            "Code: U+33E8",
+            "Character/Symbol: ㏨",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY NINE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏩ U+33E9 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TEN": 
+    {
+        "prefix": [
+            "..U.33E9",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TEN",
+            "U+33E9",
+        ],
+        "body": [
+            "${1|㏩,&#x33E9;,U+33E9,0x33E9,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TEN|}$2",
+        ],
+        "description": [
+            "Code: U+33E9",
+            "Character/Symbol: ㏩",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏪ U+33EA IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY ELEVEN": 
+    {
+        "prefix": [
+            "..U.33EA",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY ELEVEN",
+            "U+33EA",
+        ],
+        "body": [
+            "${1|㏪,&#x33EA;,U+33EA,0x33EA,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY ELEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+33EA",
+            "Character/Symbol: ㏪",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY ELEVEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏫ U+33EB IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWELVE": 
+    {
+        "prefix": [
+            "..U.33EB",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWELVE",
+            "U+33EB",
+        ],
+        "body": [
+            "${1|㏫,&#x33EB;,U+33EB,0x33EB,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWELVE|}$2",
+        ],
+        "description": [
+            "Code: U+33EB",
+            "Character/Symbol: ㏫",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWELVE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏬ U+33EC IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTEEN": 
+    {
+        "prefix": [
+            "..U.33EC",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTEEN",
+            "U+33EC",
+        ],
+        "body": [
+            "${1|㏬,&#x33EC;,U+33EC,0x33EC,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+33EC",
+            "Character/Symbol: ㏬",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏭ U+33ED IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FOURTEEN": 
+    {
+        "prefix": [
+            "..U.33ED",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FOURTEEN",
+            "U+33ED",
+        ],
+        "body": [
+            "${1|㏭,&#x33ED;,U+33ED,0x33ED,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FOURTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+33ED",
+            "Character/Symbol: ㏭",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FOURTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏮ U+33EE IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FIFTEEN": 
+    {
+        "prefix": [
+            "..U.33EE",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FIFTEEN",
+            "U+33EE",
+        ],
+        "body": [
+            "${1|㏮,&#x33EE;,U+33EE,0x33EE,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FIFTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+33EE",
+            "Character/Symbol: ㏮",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY FIFTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏯ U+33EF IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SIXTEEN": 
+    {
+        "prefix": [
+            "..U.33EF",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SIXTEEN",
+            "U+33EF",
+        ],
+        "body": [
+            "${1|㏯,&#x33EF;,U+33EF,0x33EF,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SIXTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+33EF",
+            "Character/Symbol: ㏯",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SIXTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏰ U+33F0 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SEVENTEEN": 
+    {
+        "prefix": [
+            "..U.33F0",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SEVENTEEN",
+            "U+33F0",
+        ],
+        "body": [
+            "${1|㏰,&#x33F0;,U+33F0,0x33F0,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SEVENTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+33F0",
+            "Character/Symbol: ㏰",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY SEVENTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏱ U+33F1 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY EIGHTEEN": 
+    {
+        "prefix": [
+            "..U.33F1",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY EIGHTEEN",
+            "U+33F1",
+        ],
+        "body": [
+            "${1|㏱,&#x33F1;,U+33F1,0x33F1,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY EIGHTEEN|}$2",
+        ],
+        "description": [
+            "Code: U+33F1",
+            "Character/Symbol: ㏱",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY EIGHTEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏲ U+33F2 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY NINETEEN": 
+    {
+        "prefix": [
+            "..U.33F2",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY NINETEEN",
+            "U+33F2",
+        ],
+        "body": [
+            "${1|㏲,&#x33F2;,U+33F2,0x33F2,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY NINETEEN|}$2",
+        ],
+        "description": [
+            "Code: U+33F2",
+            "Character/Symbol: ㏲",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY NINETEEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏳ U+33F3 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY": 
+    {
+        "prefix": [
+            "..U.33F3",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY",
+            "U+33F3",
+        ],
+        "body": [
+            "${1|㏳,&#x33F3;,U+33F3,0x33F3,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY|}$2",
+        ],
+        "description": [
+            "Code: U+33F3",
+            "Character/Symbol: ㏳",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏴ U+33F4 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-ONE": 
+    {
+        "prefix": [
+            "..U.33F4",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-ONE",
+            "U+33F4",
+        ],
+        "body": [
+            "${1|㏴,&#x33F4;,U+33F4,0x33F4,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-ONE|}$2",
+        ],
+        "description": [
+            "Code: U+33F4",
+            "Character/Symbol: ㏴",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-ONE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏵ U+33F5 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-TWO": 
+    {
+        "prefix": [
+            "..U.33F5",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-TWO",
+            "U+33F5",
+        ],
+        "body": [
+            "${1|㏵,&#x33F5;,U+33F5,0x33F5,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-TWO|}$2",
+        ],
+        "description": [
+            "Code: U+33F5",
+            "Character/Symbol: ㏵",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-TWO",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏶ U+33F6 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-THREE": 
+    {
+        "prefix": [
+            "..U.33F6",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-THREE",
+            "U+33F6",
+        ],
+        "body": [
+            "${1|㏶,&#x33F6;,U+33F6,0x33F6,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-THREE|}$2",
+        ],
+        "description": [
+            "Code: U+33F6",
+            "Character/Symbol: ㏶",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-THREE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏷ U+33F7 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-FOUR": 
+    {
+        "prefix": [
+            "..U.33F7",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-FOUR",
+            "U+33F7",
+        ],
+        "body": [
+            "${1|㏷,&#x33F7;,U+33F7,0x33F7,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+33F7",
+            "Character/Symbol: ㏷",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-FOUR",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏸ U+33F8 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-FIVE": 
+    {
+        "prefix": [
+            "..U.33F8",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-FIVE",
+            "U+33F8",
+        ],
+        "body": [
+            "${1|㏸,&#x33F8;,U+33F8,0x33F8,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+33F8",
+            "Character/Symbol: ㏸",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-FIVE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏹ U+33F9 IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-SIX": 
+    {
+        "prefix": [
+            "..U.33F9",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-SIX",
+            "U+33F9",
+        ],
+        "body": [
+            "${1|㏹,&#x33F9;,U+33F9,0x33F9,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-SIX|}$2",
+        ],
+        "description": [
+            "Code: U+33F9",
+            "Character/Symbol: ㏹",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-SIX",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏺ U+33FA IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-SEVEN": 
+    {
+        "prefix": [
+            "..U.33FA",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-SEVEN",
+            "U+33FA",
+        ],
+        "body": [
+            "${1|㏺,&#x33FA;,U+33FA,0x33FA,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+33FA",
+            "Character/Symbol: ㏺",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-SEVEN",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏻ U+33FB IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-EIGHT": 
+    {
+        "prefix": [
+            "..U.33FB",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-EIGHT",
+            "U+33FB",
+        ],
+        "body": [
+            "${1|㏻,&#x33FB;,U+33FB,0x33FB,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+33FB",
+            "Character/Symbol: ㏻",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-EIGHT",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏼ U+33FC IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-NINE": 
+    {
+        "prefix": [
+            "..U.33FC",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-NINE",
+            "U+33FC",
+        ],
+        "body": [
+            "${1|㏼,&#x33FC;,U+33FC,0x33FC,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-NINE|}$2",
+        ],
+        "description": [
+            "Code: U+33FC",
+            "Character/Symbol: ㏼",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY TWENTY-NINE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏽ U+33FD IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTY": 
+    {
+        "prefix": [
+            "..U.33FD",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTY",
+            "U+33FD",
+        ],
+        "body": [
+            "${1|㏽,&#x33FD;,U+33FD,0x33FD,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTY|}$2",
+        ],
+        "description": [
+            "Code: U+33FD",
+            "Character/Symbol: ㏽",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTY",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏾ U+33FE IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTY-ONE": 
+    {
+        "prefix": [
+            "..U.33FE",
+            "..U.IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTY-ONE",
+            "U+33FE",
+        ],
+        "body": [
+            "${1|㏾,&#x33FE;,U+33FE,0x33FE,IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTY-ONE|}$2",
+        ],
+        "description": [
+            "Code: U+33FE",
+            "Character/Symbol: ㏾",
+            "Name: IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTY-ONE",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+    "Unicode ㏿ U+33FF SQUARE GAL": 
+    {
+        "prefix": [
+            "..U.33FF",
+            "..U.SQUARE GAL",
+            "U+33FF",
+        ],
+        "body": [
+            "${1|㏿,&#x33FF;,U+33FF,0x33FF,SQUARE GAL|}$2",
+        ],
+        "description": [
+            "Code: U+33FF",
+            "Character/Symbol: ㏿",
+            "Name: SQUARE GAL",
+            "Group/Block: CJK_Compat",
+        ],
+    },
+
+}

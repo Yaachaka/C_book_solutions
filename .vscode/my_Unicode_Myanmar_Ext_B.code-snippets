@@ -1,0 +1,560 @@
+{
+    "Unicode ꧠ U+A9E0 MYANMAR LETTER SHAN GHA": 
+    {
+        "prefix": [
+            "..U.A9E0",
+            "..U.MYANMAR LETTER SHAN GHA",
+            "U+A9E0",
+        ],
+        "body": [
+            "${1|ꧠ,&#xA9E0;,U+A9E0,0xA9E0,MYANMAR LETTER SHAN GHA|}$2",
+        ],
+        "description": [
+            "Code: U+A9E0",
+            "Character/Symbol: ꧠ",
+            "Name: MYANMAR LETTER SHAN GHA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧡ U+A9E1 MYANMAR LETTER SHAN CHA": 
+    {
+        "prefix": [
+            "..U.A9E1",
+            "..U.MYANMAR LETTER SHAN CHA",
+            "U+A9E1",
+        ],
+        "body": [
+            "${1|ꧡ,&#xA9E1;,U+A9E1,0xA9E1,MYANMAR LETTER SHAN CHA|}$2",
+        ],
+        "description": [
+            "Code: U+A9E1",
+            "Character/Symbol: ꧡ",
+            "Name: MYANMAR LETTER SHAN CHA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧢ U+A9E2 MYANMAR LETTER SHAN JHA": 
+    {
+        "prefix": [
+            "..U.A9E2",
+            "..U.MYANMAR LETTER SHAN JHA",
+            "U+A9E2",
+        ],
+        "body": [
+            "${1|ꧢ,&#xA9E2;,U+A9E2,0xA9E2,MYANMAR LETTER SHAN JHA|}$2",
+        ],
+        "description": [
+            "Code: U+A9E2",
+            "Character/Symbol: ꧢ",
+            "Name: MYANMAR LETTER SHAN JHA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧣ U+A9E3 MYANMAR LETTER SHAN NNA": 
+    {
+        "prefix": [
+            "..U.A9E3",
+            "..U.MYANMAR LETTER SHAN NNA",
+            "U+A9E3",
+        ],
+        "body": [
+            "${1|ꧣ,&#xA9E3;,U+A9E3,0xA9E3,MYANMAR LETTER SHAN NNA|}$2",
+        ],
+        "description": [
+            "Code: U+A9E3",
+            "Character/Symbol: ꧣ",
+            "Name: MYANMAR LETTER SHAN NNA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧤ U+A9E4 MYANMAR LETTER SHAN BHA": 
+    {
+        "prefix": [
+            "..U.A9E4",
+            "..U.MYANMAR LETTER SHAN BHA",
+            "U+A9E4",
+        ],
+        "body": [
+            "${1|ꧤ,&#xA9E4;,U+A9E4,0xA9E4,MYANMAR LETTER SHAN BHA|}$2",
+        ],
+        "description": [
+            "Code: U+A9E4",
+            "Character/Symbol: ꧤ",
+            "Name: MYANMAR LETTER SHAN BHA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧥ U+A9E5 MYANMAR SIGN SHAN SAW": 
+    {
+        "prefix": [
+            "..U.A9E5",
+            "..U.MYANMAR SIGN SHAN SAW",
+            "U+A9E5",
+        ],
+        "body": [
+            "${1|ꧥ,&#xA9E5;,U+A9E5,0xA9E5,MYANMAR SIGN SHAN SAW|}$2",
+        ],
+        "description": [
+            "Code: U+A9E5",
+            "Character/Symbol: ꧥ",
+            "Name: MYANMAR SIGN SHAN SAW",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧦ U+A9E6 MYANMAR MODIFIER LETTER SHAN REDUPLICATION": 
+    {
+        "prefix": [
+            "..U.A9E6",
+            "..U.MYANMAR MODIFIER LETTER SHAN REDUPLICATION",
+            "U+A9E6",
+        ],
+        "body": [
+            "${1|ꧦ,&#xA9E6;,U+A9E6,0xA9E6,MYANMAR MODIFIER LETTER SHAN REDUPLICATION|}$2",
+        ],
+        "description": [
+            "Code: U+A9E6",
+            "Character/Symbol: ꧦ",
+            "Name: MYANMAR MODIFIER LETTER SHAN REDUPLICATION",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧧ U+A9E7 MYANMAR LETTER TAI LAING NYA": 
+    {
+        "prefix": [
+            "..U.A9E7",
+            "..U.MYANMAR LETTER TAI LAING NYA",
+            "U+A9E7",
+        ],
+        "body": [
+            "${1|ꧧ,&#xA9E7;,U+A9E7,0xA9E7,MYANMAR LETTER TAI LAING NYA|}$2",
+        ],
+        "description": [
+            "Code: U+A9E7",
+            "Character/Symbol: ꧧ",
+            "Name: MYANMAR LETTER TAI LAING NYA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧨ U+A9E8 MYANMAR LETTER TAI LAING FA": 
+    {
+        "prefix": [
+            "..U.A9E8",
+            "..U.MYANMAR LETTER TAI LAING FA",
+            "U+A9E8",
+        ],
+        "body": [
+            "${1|ꧨ,&#xA9E8;,U+A9E8,0xA9E8,MYANMAR LETTER TAI LAING FA|}$2",
+        ],
+        "description": [
+            "Code: U+A9E8",
+            "Character/Symbol: ꧨ",
+            "Name: MYANMAR LETTER TAI LAING FA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧩ U+A9E9 MYANMAR LETTER TAI LAING GA": 
+    {
+        "prefix": [
+            "..U.A9E9",
+            "..U.MYANMAR LETTER TAI LAING GA",
+            "U+A9E9",
+        ],
+        "body": [
+            "${1|ꧩ,&#xA9E9;,U+A9E9,0xA9E9,MYANMAR LETTER TAI LAING GA|}$2",
+        ],
+        "description": [
+            "Code: U+A9E9",
+            "Character/Symbol: ꧩ",
+            "Name: MYANMAR LETTER TAI LAING GA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧪ U+A9EA MYANMAR LETTER TAI LAING GHA": 
+    {
+        "prefix": [
+            "..U.A9EA",
+            "..U.MYANMAR LETTER TAI LAING GHA",
+            "U+A9EA",
+        ],
+        "body": [
+            "${1|ꧪ,&#xA9EA;,U+A9EA,0xA9EA,MYANMAR LETTER TAI LAING GHA|}$2",
+        ],
+        "description": [
+            "Code: U+A9EA",
+            "Character/Symbol: ꧪ",
+            "Name: MYANMAR LETTER TAI LAING GHA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧫ U+A9EB MYANMAR LETTER TAI LAING JA": 
+    {
+        "prefix": [
+            "..U.A9EB",
+            "..U.MYANMAR LETTER TAI LAING JA",
+            "U+A9EB",
+        ],
+        "body": [
+            "${1|ꧫ,&#xA9EB;,U+A9EB,0xA9EB,MYANMAR LETTER TAI LAING JA|}$2",
+        ],
+        "description": [
+            "Code: U+A9EB",
+            "Character/Symbol: ꧫ",
+            "Name: MYANMAR LETTER TAI LAING JA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧬ U+A9EC MYANMAR LETTER TAI LAING JHA": 
+    {
+        "prefix": [
+            "..U.A9EC",
+            "..U.MYANMAR LETTER TAI LAING JHA",
+            "U+A9EC",
+        ],
+        "body": [
+            "${1|ꧬ,&#xA9EC;,U+A9EC,0xA9EC,MYANMAR LETTER TAI LAING JHA|}$2",
+        ],
+        "description": [
+            "Code: U+A9EC",
+            "Character/Symbol: ꧬ",
+            "Name: MYANMAR LETTER TAI LAING JHA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧭ U+A9ED MYANMAR LETTER TAI LAING DDA": 
+    {
+        "prefix": [
+            "..U.A9ED",
+            "..U.MYANMAR LETTER TAI LAING DDA",
+            "U+A9ED",
+        ],
+        "body": [
+            "${1|ꧭ,&#xA9ED;,U+A9ED,0xA9ED,MYANMAR LETTER TAI LAING DDA|}$2",
+        ],
+        "description": [
+            "Code: U+A9ED",
+            "Character/Symbol: ꧭ",
+            "Name: MYANMAR LETTER TAI LAING DDA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧮ U+A9EE MYANMAR LETTER TAI LAING DDHA": 
+    {
+        "prefix": [
+            "..U.A9EE",
+            "..U.MYANMAR LETTER TAI LAING DDHA",
+            "U+A9EE",
+        ],
+        "body": [
+            "${1|ꧮ,&#xA9EE;,U+A9EE,0xA9EE,MYANMAR LETTER TAI LAING DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+A9EE",
+            "Character/Symbol: ꧮ",
+            "Name: MYANMAR LETTER TAI LAING DDHA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧯ U+A9EF MYANMAR LETTER TAI LAING NNA": 
+    {
+        "prefix": [
+            "..U.A9EF",
+            "..U.MYANMAR LETTER TAI LAING NNA",
+            "U+A9EF",
+        ],
+        "body": [
+            "${1|ꧯ,&#xA9EF;,U+A9EF,0xA9EF,MYANMAR LETTER TAI LAING NNA|}$2",
+        ],
+        "description": [
+            "Code: U+A9EF",
+            "Character/Symbol: ꧯ",
+            "Name: MYANMAR LETTER TAI LAING NNA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧰ U+A9F0 MYANMAR TAI LAING DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.A9F0",
+            "..U.MYANMAR TAI LAING DIGIT ZERO",
+            "U+A9F0",
+        ],
+        "body": [
+            "${1|꧰,&#xA9F0;,U+A9F0,0xA9F0,MYANMAR TAI LAING DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+A9F0",
+            "Character/Symbol: ꧰",
+            "Name: MYANMAR TAI LAING DIGIT ZERO",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧱ U+A9F1 MYANMAR TAI LAING DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.A9F1",
+            "..U.MYANMAR TAI LAING DIGIT ONE",
+            "U+A9F1",
+        ],
+        "body": [
+            "${1|꧱,&#xA9F1;,U+A9F1,0xA9F1,MYANMAR TAI LAING DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+A9F1",
+            "Character/Symbol: ꧱",
+            "Name: MYANMAR TAI LAING DIGIT ONE",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧲ U+A9F2 MYANMAR TAI LAING DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.A9F2",
+            "..U.MYANMAR TAI LAING DIGIT TWO",
+            "U+A9F2",
+        ],
+        "body": [
+            "${1|꧲,&#xA9F2;,U+A9F2,0xA9F2,MYANMAR TAI LAING DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+A9F2",
+            "Character/Symbol: ꧲",
+            "Name: MYANMAR TAI LAING DIGIT TWO",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧳ U+A9F3 MYANMAR TAI LAING DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.A9F3",
+            "..U.MYANMAR TAI LAING DIGIT THREE",
+            "U+A9F3",
+        ],
+        "body": [
+            "${1|꧳,&#xA9F3;,U+A9F3,0xA9F3,MYANMAR TAI LAING DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+A9F3",
+            "Character/Symbol: ꧳",
+            "Name: MYANMAR TAI LAING DIGIT THREE",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧴ U+A9F4 MYANMAR TAI LAING DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.A9F4",
+            "..U.MYANMAR TAI LAING DIGIT FOUR",
+            "U+A9F4",
+        ],
+        "body": [
+            "${1|꧴,&#xA9F4;,U+A9F4,0xA9F4,MYANMAR TAI LAING DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+A9F4",
+            "Character/Symbol: ꧴",
+            "Name: MYANMAR TAI LAING DIGIT FOUR",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧵ U+A9F5 MYANMAR TAI LAING DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.A9F5",
+            "..U.MYANMAR TAI LAING DIGIT FIVE",
+            "U+A9F5",
+        ],
+        "body": [
+            "${1|꧵,&#xA9F5;,U+A9F5,0xA9F5,MYANMAR TAI LAING DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+A9F5",
+            "Character/Symbol: ꧵",
+            "Name: MYANMAR TAI LAING DIGIT FIVE",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧶ U+A9F6 MYANMAR TAI LAING DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.A9F6",
+            "..U.MYANMAR TAI LAING DIGIT SIX",
+            "U+A9F6",
+        ],
+        "body": [
+            "${1|꧶,&#xA9F6;,U+A9F6,0xA9F6,MYANMAR TAI LAING DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+A9F6",
+            "Character/Symbol: ꧶",
+            "Name: MYANMAR TAI LAING DIGIT SIX",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧷ U+A9F7 MYANMAR TAI LAING DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.A9F7",
+            "..U.MYANMAR TAI LAING DIGIT SEVEN",
+            "U+A9F7",
+        ],
+        "body": [
+            "${1|꧷,&#xA9F7;,U+A9F7,0xA9F7,MYANMAR TAI LAING DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+A9F7",
+            "Character/Symbol: ꧷",
+            "Name: MYANMAR TAI LAING DIGIT SEVEN",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧸ U+A9F8 MYANMAR TAI LAING DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.A9F8",
+            "..U.MYANMAR TAI LAING DIGIT EIGHT",
+            "U+A9F8",
+        ],
+        "body": [
+            "${1|꧸,&#xA9F8;,U+A9F8,0xA9F8,MYANMAR TAI LAING DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+A9F8",
+            "Character/Symbol: ꧸",
+            "Name: MYANMAR TAI LAING DIGIT EIGHT",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧹ U+A9F9 MYANMAR TAI LAING DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.A9F9",
+            "..U.MYANMAR TAI LAING DIGIT NINE",
+            "U+A9F9",
+        ],
+        "body": [
+            "${1|꧹,&#xA9F9;,U+A9F9,0xA9F9,MYANMAR TAI LAING DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+A9F9",
+            "Character/Symbol: ꧹",
+            "Name: MYANMAR TAI LAING DIGIT NINE",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧺ U+A9FA MYANMAR LETTER TAI LAING LLA": 
+    {
+        "prefix": [
+            "..U.A9FA",
+            "..U.MYANMAR LETTER TAI LAING LLA",
+            "U+A9FA",
+        ],
+        "body": [
+            "${1|ꧺ,&#xA9FA;,U+A9FA,0xA9FA,MYANMAR LETTER TAI LAING LLA|}$2",
+        ],
+        "description": [
+            "Code: U+A9FA",
+            "Character/Symbol: ꧺ",
+            "Name: MYANMAR LETTER TAI LAING LLA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧻ U+A9FB MYANMAR LETTER TAI LAING DA": 
+    {
+        "prefix": [
+            "..U.A9FB",
+            "..U.MYANMAR LETTER TAI LAING DA",
+            "U+A9FB",
+        ],
+        "body": [
+            "${1|ꧻ,&#xA9FB;,U+A9FB,0xA9FB,MYANMAR LETTER TAI LAING DA|}$2",
+        ],
+        "description": [
+            "Code: U+A9FB",
+            "Character/Symbol: ꧻ",
+            "Name: MYANMAR LETTER TAI LAING DA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧼ U+A9FC MYANMAR LETTER TAI LAING DHA": 
+    {
+        "prefix": [
+            "..U.A9FC",
+            "..U.MYANMAR LETTER TAI LAING DHA",
+            "U+A9FC",
+        ],
+        "body": [
+            "${1|ꧼ,&#xA9FC;,U+A9FC,0xA9FC,MYANMAR LETTER TAI LAING DHA|}$2",
+        ],
+        "description": [
+            "Code: U+A9FC",
+            "Character/Symbol: ꧼ",
+            "Name: MYANMAR LETTER TAI LAING DHA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧽ U+A9FD MYANMAR LETTER TAI LAING BA": 
+    {
+        "prefix": [
+            "..U.A9FD",
+            "..U.MYANMAR LETTER TAI LAING BA",
+            "U+A9FD",
+        ],
+        "body": [
+            "${1|ꧽ,&#xA9FD;,U+A9FD,0xA9FD,MYANMAR LETTER TAI LAING BA|}$2",
+        ],
+        "description": [
+            "Code: U+A9FD",
+            "Character/Symbol: ꧽ",
+            "Name: MYANMAR LETTER TAI LAING BA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+    "Unicode ꧾ U+A9FE MYANMAR LETTER TAI LAING BHA": 
+    {
+        "prefix": [
+            "..U.A9FE",
+            "..U.MYANMAR LETTER TAI LAING BHA",
+            "U+A9FE",
+        ],
+        "body": [
+            "${1|ꧾ,&#xA9FE;,U+A9FE,0xA9FE,MYANMAR LETTER TAI LAING BHA|}$2",
+        ],
+        "description": [
+            "Code: U+A9FE",
+            "Character/Symbol: ꧾ",
+            "Name: MYANMAR LETTER TAI LAING BHA",
+            "Group/Block: Myanmar_Ext_B",
+        ],
+    },
+
+}

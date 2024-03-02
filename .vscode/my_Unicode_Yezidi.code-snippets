@@ -1,0 +1,848 @@
+{
+    "Unicode 𐺀 U+10E80 YEZIDI LETTER ELIF": 
+    {
+        "prefix": [
+            "..U.10E80",
+            "..U.YEZIDI LETTER ELIF",
+            "U+10E80",
+        ],
+        "body": [
+            "${1|𐺀,&#x10E80;,U+10E80,0x10E80,YEZIDI LETTER ELIF|}$2",
+        ],
+        "description": [
+            "Code: U+10E80",
+            "Character/Symbol: 𐺀",
+            "Name: YEZIDI LETTER ELIF",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺁 U+10E81 YEZIDI LETTER BE": 
+    {
+        "prefix": [
+            "..U.10E81",
+            "..U.YEZIDI LETTER BE",
+            "U+10E81",
+        ],
+        "body": [
+            "${1|𐺁,&#x10E81;,U+10E81,0x10E81,YEZIDI LETTER BE|}$2",
+        ],
+        "description": [
+            "Code: U+10E81",
+            "Character/Symbol: 𐺁",
+            "Name: YEZIDI LETTER BE",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺂 U+10E82 YEZIDI LETTER PE": 
+    {
+        "prefix": [
+            "..U.10E82",
+            "..U.YEZIDI LETTER PE",
+            "U+10E82",
+        ],
+        "body": [
+            "${1|𐺂,&#x10E82;,U+10E82,0x10E82,YEZIDI LETTER PE|}$2",
+        ],
+        "description": [
+            "Code: U+10E82",
+            "Character/Symbol: 𐺂",
+            "Name: YEZIDI LETTER PE",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺃 U+10E83 YEZIDI LETTER PHE": 
+    {
+        "prefix": [
+            "..U.10E83",
+            "..U.YEZIDI LETTER PHE",
+            "U+10E83",
+        ],
+        "body": [
+            "${1|𐺃,&#x10E83;,U+10E83,0x10E83,YEZIDI LETTER PHE|}$2",
+        ],
+        "description": [
+            "Code: U+10E83",
+            "Character/Symbol: 𐺃",
+            "Name: YEZIDI LETTER PHE",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺄 U+10E84 YEZIDI LETTER THE": 
+    {
+        "prefix": [
+            "..U.10E84",
+            "..U.YEZIDI LETTER THE",
+            "U+10E84",
+        ],
+        "body": [
+            "${1|𐺄,&#x10E84;,U+10E84,0x10E84,YEZIDI LETTER THE|}$2",
+        ],
+        "description": [
+            "Code: U+10E84",
+            "Character/Symbol: 𐺄",
+            "Name: YEZIDI LETTER THE",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺅 U+10E85 YEZIDI LETTER SE": 
+    {
+        "prefix": [
+            "..U.10E85",
+            "..U.YEZIDI LETTER SE",
+            "U+10E85",
+        ],
+        "body": [
+            "${1|𐺅,&#x10E85;,U+10E85,0x10E85,YEZIDI LETTER SE|}$2",
+        ],
+        "description": [
+            "Code: U+10E85",
+            "Character/Symbol: 𐺅",
+            "Name: YEZIDI LETTER SE",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺆 U+10E86 YEZIDI LETTER CIM": 
+    {
+        "prefix": [
+            "..U.10E86",
+            "..U.YEZIDI LETTER CIM",
+            "U+10E86",
+        ],
+        "body": [
+            "${1|𐺆,&#x10E86;,U+10E86,0x10E86,YEZIDI LETTER CIM|}$2",
+        ],
+        "description": [
+            "Code: U+10E86",
+            "Character/Symbol: 𐺆",
+            "Name: YEZIDI LETTER CIM",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺇 U+10E87 YEZIDI LETTER CHIM": 
+    {
+        "prefix": [
+            "..U.10E87",
+            "..U.YEZIDI LETTER CHIM",
+            "U+10E87",
+        ],
+        "body": [
+            "${1|𐺇,&#x10E87;,U+10E87,0x10E87,YEZIDI LETTER CHIM|}$2",
+        ],
+        "description": [
+            "Code: U+10E87",
+            "Character/Symbol: 𐺇",
+            "Name: YEZIDI LETTER CHIM",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺈 U+10E88 YEZIDI LETTER CHHIM": 
+    {
+        "prefix": [
+            "..U.10E88",
+            "..U.YEZIDI LETTER CHHIM",
+            "U+10E88",
+        ],
+        "body": [
+            "${1|𐺈,&#x10E88;,U+10E88,0x10E88,YEZIDI LETTER CHHIM|}$2",
+        ],
+        "description": [
+            "Code: U+10E88",
+            "Character/Symbol: 𐺈",
+            "Name: YEZIDI LETTER CHHIM",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺉 U+10E89 YEZIDI LETTER HHA": 
+    {
+        "prefix": [
+            "..U.10E89",
+            "..U.YEZIDI LETTER HHA",
+            "U+10E89",
+        ],
+        "body": [
+            "${1|𐺉,&#x10E89;,U+10E89,0x10E89,YEZIDI LETTER HHA|}$2",
+        ],
+        "description": [
+            "Code: U+10E89",
+            "Character/Symbol: 𐺉",
+            "Name: YEZIDI LETTER HHA",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺊 U+10E8A YEZIDI LETTER XA": 
+    {
+        "prefix": [
+            "..U.10E8A",
+            "..U.YEZIDI LETTER XA",
+            "U+10E8A",
+        ],
+        "body": [
+            "${1|𐺊,&#x10E8A;,U+10E8A,0x10E8A,YEZIDI LETTER XA|}$2",
+        ],
+        "description": [
+            "Code: U+10E8A",
+            "Character/Symbol: 𐺊",
+            "Name: YEZIDI LETTER XA",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺋 U+10E8B YEZIDI LETTER DAL": 
+    {
+        "prefix": [
+            "..U.10E8B",
+            "..U.YEZIDI LETTER DAL",
+            "U+10E8B",
+        ],
+        "body": [
+            "${1|𐺋,&#x10E8B;,U+10E8B,0x10E8B,YEZIDI LETTER DAL|}$2",
+        ],
+        "description": [
+            "Code: U+10E8B",
+            "Character/Symbol: 𐺋",
+            "Name: YEZIDI LETTER DAL",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺌 U+10E8C YEZIDI LETTER ZAL": 
+    {
+        "prefix": [
+            "..U.10E8C",
+            "..U.YEZIDI LETTER ZAL",
+            "U+10E8C",
+        ],
+        "body": [
+            "${1|𐺌,&#x10E8C;,U+10E8C,0x10E8C,YEZIDI LETTER ZAL|}$2",
+        ],
+        "description": [
+            "Code: U+10E8C",
+            "Character/Symbol: 𐺌",
+            "Name: YEZIDI LETTER ZAL",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺍 U+10E8D YEZIDI LETTER RA": 
+    {
+        "prefix": [
+            "..U.10E8D",
+            "..U.YEZIDI LETTER RA",
+            "U+10E8D",
+        ],
+        "body": [
+            "${1|𐺍,&#x10E8D;,U+10E8D,0x10E8D,YEZIDI LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+10E8D",
+            "Character/Symbol: 𐺍",
+            "Name: YEZIDI LETTER RA",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺎 U+10E8E YEZIDI LETTER RHA": 
+    {
+        "prefix": [
+            "..U.10E8E",
+            "..U.YEZIDI LETTER RHA",
+            "U+10E8E",
+        ],
+        "body": [
+            "${1|𐺎,&#x10E8E;,U+10E8E,0x10E8E,YEZIDI LETTER RHA|}$2",
+        ],
+        "description": [
+            "Code: U+10E8E",
+            "Character/Symbol: 𐺎",
+            "Name: YEZIDI LETTER RHA",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺏 U+10E8F YEZIDI LETTER ZA": 
+    {
+        "prefix": [
+            "..U.10E8F",
+            "..U.YEZIDI LETTER ZA",
+            "U+10E8F",
+        ],
+        "body": [
+            "${1|𐺏,&#x10E8F;,U+10E8F,0x10E8F,YEZIDI LETTER ZA|}$2",
+        ],
+        "description": [
+            "Code: U+10E8F",
+            "Character/Symbol: 𐺏",
+            "Name: YEZIDI LETTER ZA",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺐 U+10E90 YEZIDI LETTER JA": 
+    {
+        "prefix": [
+            "..U.10E90",
+            "..U.YEZIDI LETTER JA",
+            "U+10E90",
+        ],
+        "body": [
+            "${1|𐺐,&#x10E90;,U+10E90,0x10E90,YEZIDI LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+10E90",
+            "Character/Symbol: 𐺐",
+            "Name: YEZIDI LETTER JA",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺑 U+10E91 YEZIDI LETTER SIN": 
+    {
+        "prefix": [
+            "..U.10E91",
+            "..U.YEZIDI LETTER SIN",
+            "U+10E91",
+        ],
+        "body": [
+            "${1|𐺑,&#x10E91;,U+10E91,0x10E91,YEZIDI LETTER SIN|}$2",
+        ],
+        "description": [
+            "Code: U+10E91",
+            "Character/Symbol: 𐺑",
+            "Name: YEZIDI LETTER SIN",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺒 U+10E92 YEZIDI LETTER SHIN": 
+    {
+        "prefix": [
+            "..U.10E92",
+            "..U.YEZIDI LETTER SHIN",
+            "U+10E92",
+        ],
+        "body": [
+            "${1|𐺒,&#x10E92;,U+10E92,0x10E92,YEZIDI LETTER SHIN|}$2",
+        ],
+        "description": [
+            "Code: U+10E92",
+            "Character/Symbol: 𐺒",
+            "Name: YEZIDI LETTER SHIN",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺓 U+10E93 YEZIDI LETTER SAD": 
+    {
+        "prefix": [
+            "..U.10E93",
+            "..U.YEZIDI LETTER SAD",
+            "U+10E93",
+        ],
+        "body": [
+            "${1|𐺓,&#x10E93;,U+10E93,0x10E93,YEZIDI LETTER SAD|}$2",
+        ],
+        "description": [
+            "Code: U+10E93",
+            "Character/Symbol: 𐺓",
+            "Name: YEZIDI LETTER SAD",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺔 U+10E94 YEZIDI LETTER DAD": 
+    {
+        "prefix": [
+            "..U.10E94",
+            "..U.YEZIDI LETTER DAD",
+            "U+10E94",
+        ],
+        "body": [
+            "${1|𐺔,&#x10E94;,U+10E94,0x10E94,YEZIDI LETTER DAD|}$2",
+        ],
+        "description": [
+            "Code: U+10E94",
+            "Character/Symbol: 𐺔",
+            "Name: YEZIDI LETTER DAD",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺕 U+10E95 YEZIDI LETTER TA": 
+    {
+        "prefix": [
+            "..U.10E95",
+            "..U.YEZIDI LETTER TA",
+            "U+10E95",
+        ],
+        "body": [
+            "${1|𐺕,&#x10E95;,U+10E95,0x10E95,YEZIDI LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+10E95",
+            "Character/Symbol: 𐺕",
+            "Name: YEZIDI LETTER TA",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺖 U+10E96 YEZIDI LETTER ZE": 
+    {
+        "prefix": [
+            "..U.10E96",
+            "..U.YEZIDI LETTER ZE",
+            "U+10E96",
+        ],
+        "body": [
+            "${1|𐺖,&#x10E96;,U+10E96,0x10E96,YEZIDI LETTER ZE|}$2",
+        ],
+        "description": [
+            "Code: U+10E96",
+            "Character/Symbol: 𐺖",
+            "Name: YEZIDI LETTER ZE",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺗 U+10E97 YEZIDI LETTER EYN": 
+    {
+        "prefix": [
+            "..U.10E97",
+            "..U.YEZIDI LETTER EYN",
+            "U+10E97",
+        ],
+        "body": [
+            "${1|𐺗,&#x10E97;,U+10E97,0x10E97,YEZIDI LETTER EYN|}$2",
+        ],
+        "description": [
+            "Code: U+10E97",
+            "Character/Symbol: 𐺗",
+            "Name: YEZIDI LETTER EYN",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺘 U+10E98 YEZIDI LETTER XHEYN": 
+    {
+        "prefix": [
+            "..U.10E98",
+            "..U.YEZIDI LETTER XHEYN",
+            "U+10E98",
+        ],
+        "body": [
+            "${1|𐺘,&#x10E98;,U+10E98,0x10E98,YEZIDI LETTER XHEYN|}$2",
+        ],
+        "description": [
+            "Code: U+10E98",
+            "Character/Symbol: 𐺘",
+            "Name: YEZIDI LETTER XHEYN",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺙 U+10E99 YEZIDI LETTER FA": 
+    {
+        "prefix": [
+            "..U.10E99",
+            "..U.YEZIDI LETTER FA",
+            "U+10E99",
+        ],
+        "body": [
+            "${1|𐺙,&#x10E99;,U+10E99,0x10E99,YEZIDI LETTER FA|}$2",
+        ],
+        "description": [
+            "Code: U+10E99",
+            "Character/Symbol: 𐺙",
+            "Name: YEZIDI LETTER FA",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺚 U+10E9A YEZIDI LETTER VA": 
+    {
+        "prefix": [
+            "..U.10E9A",
+            "..U.YEZIDI LETTER VA",
+            "U+10E9A",
+        ],
+        "body": [
+            "${1|𐺚,&#x10E9A;,U+10E9A,0x10E9A,YEZIDI LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+10E9A",
+            "Character/Symbol: 𐺚",
+            "Name: YEZIDI LETTER VA",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺛 U+10E9B YEZIDI LETTER VA ALTERNATE FORM": 
+    {
+        "prefix": [
+            "..U.10E9B",
+            "..U.YEZIDI LETTER VA ALTERNATE FORM",
+            "U+10E9B",
+        ],
+        "body": [
+            "${1|𐺛,&#x10E9B;,U+10E9B,0x10E9B,YEZIDI LETTER VA ALTERNATE FORM|}$2",
+        ],
+        "description": [
+            "Code: U+10E9B",
+            "Character/Symbol: 𐺛",
+            "Name: YEZIDI LETTER VA ALTERNATE FORM",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺜 U+10E9C YEZIDI LETTER QAF": 
+    {
+        "prefix": [
+            "..U.10E9C",
+            "..U.YEZIDI LETTER QAF",
+            "U+10E9C",
+        ],
+        "body": [
+            "${1|𐺜,&#x10E9C;,U+10E9C,0x10E9C,YEZIDI LETTER QAF|}$2",
+        ],
+        "description": [
+            "Code: U+10E9C",
+            "Character/Symbol: 𐺜",
+            "Name: YEZIDI LETTER QAF",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺝 U+10E9D YEZIDI LETTER KAF": 
+    {
+        "prefix": [
+            "..U.10E9D",
+            "..U.YEZIDI LETTER KAF",
+            "U+10E9D",
+        ],
+        "body": [
+            "${1|𐺝,&#x10E9D;,U+10E9D,0x10E9D,YEZIDI LETTER KAF|}$2",
+        ],
+        "description": [
+            "Code: U+10E9D",
+            "Character/Symbol: 𐺝",
+            "Name: YEZIDI LETTER KAF",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺞 U+10E9E YEZIDI LETTER KHAF": 
+    {
+        "prefix": [
+            "..U.10E9E",
+            "..U.YEZIDI LETTER KHAF",
+            "U+10E9E",
+        ],
+        "body": [
+            "${1|𐺞,&#x10E9E;,U+10E9E,0x10E9E,YEZIDI LETTER KHAF|}$2",
+        ],
+        "description": [
+            "Code: U+10E9E",
+            "Character/Symbol: 𐺞",
+            "Name: YEZIDI LETTER KHAF",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺟 U+10E9F YEZIDI LETTER GAF": 
+    {
+        "prefix": [
+            "..U.10E9F",
+            "..U.YEZIDI LETTER GAF",
+            "U+10E9F",
+        ],
+        "body": [
+            "${1|𐺟,&#x10E9F;,U+10E9F,0x10E9F,YEZIDI LETTER GAF|}$2",
+        ],
+        "description": [
+            "Code: U+10E9F",
+            "Character/Symbol: 𐺟",
+            "Name: YEZIDI LETTER GAF",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺠 U+10EA0 YEZIDI LETTER LAM": 
+    {
+        "prefix": [
+            "..U.10EA0",
+            "..U.YEZIDI LETTER LAM",
+            "U+10EA0",
+        ],
+        "body": [
+            "${1|𐺠,&#x10EA0;,U+10EA0,0x10EA0,YEZIDI LETTER LAM|}$2",
+        ],
+        "description": [
+            "Code: U+10EA0",
+            "Character/Symbol: 𐺠",
+            "Name: YEZIDI LETTER LAM",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺡 U+10EA1 YEZIDI LETTER MIM": 
+    {
+        "prefix": [
+            "..U.10EA1",
+            "..U.YEZIDI LETTER MIM",
+            "U+10EA1",
+        ],
+        "body": [
+            "${1|𐺡,&#x10EA1;,U+10EA1,0x10EA1,YEZIDI LETTER MIM|}$2",
+        ],
+        "description": [
+            "Code: U+10EA1",
+            "Character/Symbol: 𐺡",
+            "Name: YEZIDI LETTER MIM",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺢 U+10EA2 YEZIDI LETTER NUN": 
+    {
+        "prefix": [
+            "..U.10EA2",
+            "..U.YEZIDI LETTER NUN",
+            "U+10EA2",
+        ],
+        "body": [
+            "${1|𐺢,&#x10EA2;,U+10EA2,0x10EA2,YEZIDI LETTER NUN|}$2",
+        ],
+        "description": [
+            "Code: U+10EA2",
+            "Character/Symbol: 𐺢",
+            "Name: YEZIDI LETTER NUN",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺣 U+10EA3 YEZIDI LETTER UM": 
+    {
+        "prefix": [
+            "..U.10EA3",
+            "..U.YEZIDI LETTER UM",
+            "U+10EA3",
+        ],
+        "body": [
+            "${1|𐺣,&#x10EA3;,U+10EA3,0x10EA3,YEZIDI LETTER UM|}$2",
+        ],
+        "description": [
+            "Code: U+10EA3",
+            "Character/Symbol: 𐺣",
+            "Name: YEZIDI LETTER UM",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺤 U+10EA4 YEZIDI LETTER WAW": 
+    {
+        "prefix": [
+            "..U.10EA4",
+            "..U.YEZIDI LETTER WAW",
+            "U+10EA4",
+        ],
+        "body": [
+            "${1|𐺤,&#x10EA4;,U+10EA4,0x10EA4,YEZIDI LETTER WAW|}$2",
+        ],
+        "description": [
+            "Code: U+10EA4",
+            "Character/Symbol: 𐺤",
+            "Name: YEZIDI LETTER WAW",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺥 U+10EA5 YEZIDI LETTER OW": 
+    {
+        "prefix": [
+            "..U.10EA5",
+            "..U.YEZIDI LETTER OW",
+            "U+10EA5",
+        ],
+        "body": [
+            "${1|𐺥,&#x10EA5;,U+10EA5,0x10EA5,YEZIDI LETTER OW|}$2",
+        ],
+        "description": [
+            "Code: U+10EA5",
+            "Character/Symbol: 𐺥",
+            "Name: YEZIDI LETTER OW",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺦 U+10EA6 YEZIDI LETTER EW": 
+    {
+        "prefix": [
+            "..U.10EA6",
+            "..U.YEZIDI LETTER EW",
+            "U+10EA6",
+        ],
+        "body": [
+            "${1|𐺦,&#x10EA6;,U+10EA6,0x10EA6,YEZIDI LETTER EW|}$2",
+        ],
+        "description": [
+            "Code: U+10EA6",
+            "Character/Symbol: 𐺦",
+            "Name: YEZIDI LETTER EW",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺧 U+10EA7 YEZIDI LETTER HAY": 
+    {
+        "prefix": [
+            "..U.10EA7",
+            "..U.YEZIDI LETTER HAY",
+            "U+10EA7",
+        ],
+        "body": [
+            "${1|𐺧,&#x10EA7;,U+10EA7,0x10EA7,YEZIDI LETTER HAY|}$2",
+        ],
+        "description": [
+            "Code: U+10EA7",
+            "Character/Symbol: 𐺧",
+            "Name: YEZIDI LETTER HAY",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺨 U+10EA8 YEZIDI LETTER YOT": 
+    {
+        "prefix": [
+            "..U.10EA8",
+            "..U.YEZIDI LETTER YOT",
+            "U+10EA8",
+        ],
+        "body": [
+            "${1|𐺨,&#x10EA8;,U+10EA8,0x10EA8,YEZIDI LETTER YOT|}$2",
+        ],
+        "description": [
+            "Code: U+10EA8",
+            "Character/Symbol: 𐺨",
+            "Name: YEZIDI LETTER YOT",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺩 U+10EA9 YEZIDI LETTER ET": 
+    {
+        "prefix": [
+            "..U.10EA9",
+            "..U.YEZIDI LETTER ET",
+            "U+10EA9",
+        ],
+        "body": [
+            "${1|𐺩,&#x10EA9;,U+10EA9,0x10EA9,YEZIDI LETTER ET|}$2",
+        ],
+        "description": [
+            "Code: U+10EA9",
+            "Character/Symbol: 𐺩",
+            "Name: YEZIDI LETTER ET",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺫 U+10EAB YEZIDI COMBINING HAMZA MARK": 
+    {
+        "prefix": [
+            "..U.10EAB",
+            "..U.YEZIDI COMBINING HAMZA MARK",
+            "U+10EAB",
+        ],
+        "body": [
+            "${1|𐺫,&#x10EAB;,U+10EAB,0x10EAB,YEZIDI COMBINING HAMZA MARK|}$2",
+        ],
+        "description": [
+            "Code: U+10EAB",
+            "Character/Symbol: 𐺫",
+            "Name: YEZIDI COMBINING HAMZA MARK",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺬 U+10EAC YEZIDI COMBINING MADDA MARK": 
+    {
+        "prefix": [
+            "..U.10EAC",
+            "..U.YEZIDI COMBINING MADDA MARK",
+            "U+10EAC",
+        ],
+        "body": [
+            "${1|𐺬,&#x10EAC;,U+10EAC,0x10EAC,YEZIDI COMBINING MADDA MARK|}$2",
+        ],
+        "description": [
+            "Code: U+10EAC",
+            "Character/Symbol: 𐺬",
+            "Name: YEZIDI COMBINING MADDA MARK",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺭 U+10EAD YEZIDI HYPHENATION MARK": 
+    {
+        "prefix": [
+            "..U.10EAD",
+            "..U.YEZIDI HYPHENATION MARK",
+            "U+10EAD",
+        ],
+        "body": [
+            "${1|𐺭,&#x10EAD;,U+10EAD,0x10EAD,YEZIDI HYPHENATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+10EAD",
+            "Character/Symbol: 𐺭",
+            "Name: YEZIDI HYPHENATION MARK",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺰 U+10EB0 YEZIDI LETTER LAM WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.10EB0",
+            "..U.YEZIDI LETTER LAM WITH DOT ABOVE",
+            "U+10EB0",
+        ],
+        "body": [
+            "${1|𐺰,&#x10EB0;,U+10EB0,0x10EB0,YEZIDI LETTER LAM WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+10EB0",
+            "Character/Symbol: 𐺰",
+            "Name: YEZIDI LETTER LAM WITH DOT ABOVE",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+    "Unicode 𐺱 U+10EB1 YEZIDI LETTER YOT WITH CIRCUMFLEX ABOVE": 
+    {
+        "prefix": [
+            "..U.10EB1",
+            "..U.YEZIDI LETTER YOT WITH CIRCUMFLEX ABOVE",
+            "U+10EB1",
+        ],
+        "body": [
+            "${1|𐺱,&#x10EB1;,U+10EB1,0x10EB1,YEZIDI LETTER YOT WITH CIRCUMFLEX ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+10EB1",
+            "Character/Symbol: 𐺱",
+            "Name: YEZIDI LETTER YOT WITH CIRCUMFLEX ABOVE",
+            "Group/Block: Yezidi",
+        ],
+    },
+
+}

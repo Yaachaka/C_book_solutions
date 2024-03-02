@@ -1,0 +1,524 @@
+{
+    "Unicode 𐤀 U+10900 PHOENICIAN LETTER ALF": 
+    {
+        "prefix": [
+            "..U.10900",
+            "..U.PHOENICIAN LETTER ALF",
+            "U+10900",
+        ],
+        "body": [
+            "${1|𐤀,&#x10900;,U+10900,0x10900,PHOENICIAN LETTER ALF|}$2",
+        ],
+        "description": [
+            "Code: U+10900",
+            "Character/Symbol: 𐤀",
+            "Name: PHOENICIAN LETTER ALF",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤁 U+10901 PHOENICIAN LETTER BET": 
+    {
+        "prefix": [
+            "..U.10901",
+            "..U.PHOENICIAN LETTER BET",
+            "U+10901",
+        ],
+        "body": [
+            "${1|𐤁,&#x10901;,U+10901,0x10901,PHOENICIAN LETTER BET|}$2",
+        ],
+        "description": [
+            "Code: U+10901",
+            "Character/Symbol: 𐤁",
+            "Name: PHOENICIAN LETTER BET",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤂 U+10902 PHOENICIAN LETTER GAML": 
+    {
+        "prefix": [
+            "..U.10902",
+            "..U.PHOENICIAN LETTER GAML",
+            "U+10902",
+        ],
+        "body": [
+            "${1|𐤂,&#x10902;,U+10902,0x10902,PHOENICIAN LETTER GAML|}$2",
+        ],
+        "description": [
+            "Code: U+10902",
+            "Character/Symbol: 𐤂",
+            "Name: PHOENICIAN LETTER GAML",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤃 U+10903 PHOENICIAN LETTER DELT": 
+    {
+        "prefix": [
+            "..U.10903",
+            "..U.PHOENICIAN LETTER DELT",
+            "U+10903",
+        ],
+        "body": [
+            "${1|𐤃,&#x10903;,U+10903,0x10903,PHOENICIAN LETTER DELT|}$2",
+        ],
+        "description": [
+            "Code: U+10903",
+            "Character/Symbol: 𐤃",
+            "Name: PHOENICIAN LETTER DELT",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤄 U+10904 PHOENICIAN LETTER HE": 
+    {
+        "prefix": [
+            "..U.10904",
+            "..U.PHOENICIAN LETTER HE",
+            "U+10904",
+        ],
+        "body": [
+            "${1|𐤄,&#x10904;,U+10904,0x10904,PHOENICIAN LETTER HE|}$2",
+        ],
+        "description": [
+            "Code: U+10904",
+            "Character/Symbol: 𐤄",
+            "Name: PHOENICIAN LETTER HE",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤅 U+10905 PHOENICIAN LETTER WAU": 
+    {
+        "prefix": [
+            "..U.10905",
+            "..U.PHOENICIAN LETTER WAU",
+            "U+10905",
+        ],
+        "body": [
+            "${1|𐤅,&#x10905;,U+10905,0x10905,PHOENICIAN LETTER WAU|}$2",
+        ],
+        "description": [
+            "Code: U+10905",
+            "Character/Symbol: 𐤅",
+            "Name: PHOENICIAN LETTER WAU",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤆 U+10906 PHOENICIAN LETTER ZAI": 
+    {
+        "prefix": [
+            "..U.10906",
+            "..U.PHOENICIAN LETTER ZAI",
+            "U+10906",
+        ],
+        "body": [
+            "${1|𐤆,&#x10906;,U+10906,0x10906,PHOENICIAN LETTER ZAI|}$2",
+        ],
+        "description": [
+            "Code: U+10906",
+            "Character/Symbol: 𐤆",
+            "Name: PHOENICIAN LETTER ZAI",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤇 U+10907 PHOENICIAN LETTER HET": 
+    {
+        "prefix": [
+            "..U.10907",
+            "..U.PHOENICIAN LETTER HET",
+            "U+10907",
+        ],
+        "body": [
+            "${1|𐤇,&#x10907;,U+10907,0x10907,PHOENICIAN LETTER HET|}$2",
+        ],
+        "description": [
+            "Code: U+10907",
+            "Character/Symbol: 𐤇",
+            "Name: PHOENICIAN LETTER HET",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤈 U+10908 PHOENICIAN LETTER TET": 
+    {
+        "prefix": [
+            "..U.10908",
+            "..U.PHOENICIAN LETTER TET",
+            "U+10908",
+        ],
+        "body": [
+            "${1|𐤈,&#x10908;,U+10908,0x10908,PHOENICIAN LETTER TET|}$2",
+        ],
+        "description": [
+            "Code: U+10908",
+            "Character/Symbol: 𐤈",
+            "Name: PHOENICIAN LETTER TET",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤉 U+10909 PHOENICIAN LETTER YOD": 
+    {
+        "prefix": [
+            "..U.10909",
+            "..U.PHOENICIAN LETTER YOD",
+            "U+10909",
+        ],
+        "body": [
+            "${1|𐤉,&#x10909;,U+10909,0x10909,PHOENICIAN LETTER YOD|}$2",
+        ],
+        "description": [
+            "Code: U+10909",
+            "Character/Symbol: 𐤉",
+            "Name: PHOENICIAN LETTER YOD",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤊 U+1090A PHOENICIAN LETTER KAF": 
+    {
+        "prefix": [
+            "..U.1090A",
+            "..U.PHOENICIAN LETTER KAF",
+            "U+1090A",
+        ],
+        "body": [
+            "${1|𐤊,&#x1090A;,U+1090A,0x1090A,PHOENICIAN LETTER KAF|}$2",
+        ],
+        "description": [
+            "Code: U+1090A",
+            "Character/Symbol: 𐤊",
+            "Name: PHOENICIAN LETTER KAF",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤋 U+1090B PHOENICIAN LETTER LAMD": 
+    {
+        "prefix": [
+            "..U.1090B",
+            "..U.PHOENICIAN LETTER LAMD",
+            "U+1090B",
+        ],
+        "body": [
+            "${1|𐤋,&#x1090B;,U+1090B,0x1090B,PHOENICIAN LETTER LAMD|}$2",
+        ],
+        "description": [
+            "Code: U+1090B",
+            "Character/Symbol: 𐤋",
+            "Name: PHOENICIAN LETTER LAMD",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤌 U+1090C PHOENICIAN LETTER MEM": 
+    {
+        "prefix": [
+            "..U.1090C",
+            "..U.PHOENICIAN LETTER MEM",
+            "U+1090C",
+        ],
+        "body": [
+            "${1|𐤌,&#x1090C;,U+1090C,0x1090C,PHOENICIAN LETTER MEM|}$2",
+        ],
+        "description": [
+            "Code: U+1090C",
+            "Character/Symbol: 𐤌",
+            "Name: PHOENICIAN LETTER MEM",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤍 U+1090D PHOENICIAN LETTER NUN": 
+    {
+        "prefix": [
+            "..U.1090D",
+            "..U.PHOENICIAN LETTER NUN",
+            "U+1090D",
+        ],
+        "body": [
+            "${1|𐤍,&#x1090D;,U+1090D,0x1090D,PHOENICIAN LETTER NUN|}$2",
+        ],
+        "description": [
+            "Code: U+1090D",
+            "Character/Symbol: 𐤍",
+            "Name: PHOENICIAN LETTER NUN",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤎 U+1090E PHOENICIAN LETTER SEMK": 
+    {
+        "prefix": [
+            "..U.1090E",
+            "..U.PHOENICIAN LETTER SEMK",
+            "U+1090E",
+        ],
+        "body": [
+            "${1|𐤎,&#x1090E;,U+1090E,0x1090E,PHOENICIAN LETTER SEMK|}$2",
+        ],
+        "description": [
+            "Code: U+1090E",
+            "Character/Symbol: 𐤎",
+            "Name: PHOENICIAN LETTER SEMK",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤏 U+1090F PHOENICIAN LETTER AIN": 
+    {
+        "prefix": [
+            "..U.1090F",
+            "..U.PHOENICIAN LETTER AIN",
+            "U+1090F",
+        ],
+        "body": [
+            "${1|𐤏,&#x1090F;,U+1090F,0x1090F,PHOENICIAN LETTER AIN|}$2",
+        ],
+        "description": [
+            "Code: U+1090F",
+            "Character/Symbol: 𐤏",
+            "Name: PHOENICIAN LETTER AIN",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤐 U+10910 PHOENICIAN LETTER PE": 
+    {
+        "prefix": [
+            "..U.10910",
+            "..U.PHOENICIAN LETTER PE",
+            "U+10910",
+        ],
+        "body": [
+            "${1|𐤐,&#x10910;,U+10910,0x10910,PHOENICIAN LETTER PE|}$2",
+        ],
+        "description": [
+            "Code: U+10910",
+            "Character/Symbol: 𐤐",
+            "Name: PHOENICIAN LETTER PE",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤑 U+10911 PHOENICIAN LETTER SADE": 
+    {
+        "prefix": [
+            "..U.10911",
+            "..U.PHOENICIAN LETTER SADE",
+            "U+10911",
+        ],
+        "body": [
+            "${1|𐤑,&#x10911;,U+10911,0x10911,PHOENICIAN LETTER SADE|}$2",
+        ],
+        "description": [
+            "Code: U+10911",
+            "Character/Symbol: 𐤑",
+            "Name: PHOENICIAN LETTER SADE",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤒 U+10912 PHOENICIAN LETTER QOF": 
+    {
+        "prefix": [
+            "..U.10912",
+            "..U.PHOENICIAN LETTER QOF",
+            "U+10912",
+        ],
+        "body": [
+            "${1|𐤒,&#x10912;,U+10912,0x10912,PHOENICIAN LETTER QOF|}$2",
+        ],
+        "description": [
+            "Code: U+10912",
+            "Character/Symbol: 𐤒",
+            "Name: PHOENICIAN LETTER QOF",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤓 U+10913 PHOENICIAN LETTER ROSH": 
+    {
+        "prefix": [
+            "..U.10913",
+            "..U.PHOENICIAN LETTER ROSH",
+            "U+10913",
+        ],
+        "body": [
+            "${1|𐤓,&#x10913;,U+10913,0x10913,PHOENICIAN LETTER ROSH|}$2",
+        ],
+        "description": [
+            "Code: U+10913",
+            "Character/Symbol: 𐤓",
+            "Name: PHOENICIAN LETTER ROSH",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤔 U+10914 PHOENICIAN LETTER SHIN": 
+    {
+        "prefix": [
+            "..U.10914",
+            "..U.PHOENICIAN LETTER SHIN",
+            "U+10914",
+        ],
+        "body": [
+            "${1|𐤔,&#x10914;,U+10914,0x10914,PHOENICIAN LETTER SHIN|}$2",
+        ],
+        "description": [
+            "Code: U+10914",
+            "Character/Symbol: 𐤔",
+            "Name: PHOENICIAN LETTER SHIN",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤕 U+10915 PHOENICIAN LETTER TAU": 
+    {
+        "prefix": [
+            "..U.10915",
+            "..U.PHOENICIAN LETTER TAU",
+            "U+10915",
+        ],
+        "body": [
+            "${1|𐤕,&#x10915;,U+10915,0x10915,PHOENICIAN LETTER TAU|}$2",
+        ],
+        "description": [
+            "Code: U+10915",
+            "Character/Symbol: 𐤕",
+            "Name: PHOENICIAN LETTER TAU",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤖 U+10916 PHOENICIAN NUMBER ONE": 
+    {
+        "prefix": [
+            "..U.10916",
+            "..U.PHOENICIAN NUMBER ONE",
+            "U+10916",
+        ],
+        "body": [
+            "${1|𐤖,&#x10916;,U+10916,0x10916,PHOENICIAN NUMBER ONE|}$2",
+        ],
+        "description": [
+            "Code: U+10916",
+            "Character/Symbol: 𐤖",
+            "Name: PHOENICIAN NUMBER ONE",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤗 U+10917 PHOENICIAN NUMBER TEN": 
+    {
+        "prefix": [
+            "..U.10917",
+            "..U.PHOENICIAN NUMBER TEN",
+            "U+10917",
+        ],
+        "body": [
+            "${1|𐤗,&#x10917;,U+10917,0x10917,PHOENICIAN NUMBER TEN|}$2",
+        ],
+        "description": [
+            "Code: U+10917",
+            "Character/Symbol: 𐤗",
+            "Name: PHOENICIAN NUMBER TEN",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤘 U+10918 PHOENICIAN NUMBER TWENTY": 
+    {
+        "prefix": [
+            "..U.10918",
+            "..U.PHOENICIAN NUMBER TWENTY",
+            "U+10918",
+        ],
+        "body": [
+            "${1|𐤘,&#x10918;,U+10918,0x10918,PHOENICIAN NUMBER TWENTY|}$2",
+        ],
+        "description": [
+            "Code: U+10918",
+            "Character/Symbol: 𐤘",
+            "Name: PHOENICIAN NUMBER TWENTY",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤙 U+10919 PHOENICIAN NUMBER ONE HUNDRED": 
+    {
+        "prefix": [
+            "..U.10919",
+            "..U.PHOENICIAN NUMBER ONE HUNDRED",
+            "U+10919",
+        ],
+        "body": [
+            "${1|𐤙,&#x10919;,U+10919,0x10919,PHOENICIAN NUMBER ONE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+10919",
+            "Character/Symbol: 𐤙",
+            "Name: PHOENICIAN NUMBER ONE HUNDRED",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤚 U+1091A PHOENICIAN NUMBER TWO": 
+    {
+        "prefix": [
+            "..U.1091A",
+            "..U.PHOENICIAN NUMBER TWO",
+            "U+1091A",
+        ],
+        "body": [
+            "${1|𐤚,&#x1091A;,U+1091A,0x1091A,PHOENICIAN NUMBER TWO|}$2",
+        ],
+        "description": [
+            "Code: U+1091A",
+            "Character/Symbol: 𐤚",
+            "Name: PHOENICIAN NUMBER TWO",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤛 U+1091B PHOENICIAN NUMBER THREE": 
+    {
+        "prefix": [
+            "..U.1091B",
+            "..U.PHOENICIAN NUMBER THREE",
+            "U+1091B",
+        ],
+        "body": [
+            "${1|𐤛,&#x1091B;,U+1091B,0x1091B,PHOENICIAN NUMBER THREE|}$2",
+        ],
+        "description": [
+            "Code: U+1091B",
+            "Character/Symbol: 𐤛",
+            "Name: PHOENICIAN NUMBER THREE",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+    "Unicode 𐤟 U+1091F PHOENICIAN WORD SEPARATOR": 
+    {
+        "prefix": [
+            "..U.1091F",
+            "..U.PHOENICIAN WORD SEPARATOR",
+            "U+1091F",
+        ],
+        "body": [
+            "${1|𐤟,&#x1091F;,U+1091F,0x1091F,PHOENICIAN WORD SEPARATOR|}$2",
+        ],
+        "description": [
+            "Code: U+1091F",
+            "Character/Symbol: 𐤟",
+            "Name: PHOENICIAN WORD SEPARATOR",
+            "Group/Block: Phoenician",
+        ],
+    },
+
+}

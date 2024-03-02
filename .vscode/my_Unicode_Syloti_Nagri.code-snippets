@@ -1,0 +1,812 @@
+{
+    "Unicode ꠀ U+A800 SYLOTI NAGRI LETTER A": 
+    {
+        "prefix": [
+            "..U.A800",
+            "..U.SYLOTI NAGRI LETTER A",
+            "U+A800",
+        ],
+        "body": [
+            "${1|ꠀ,&#xA800;,U+A800,0xA800,SYLOTI NAGRI LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+A800",
+            "Character/Symbol: ꠀ",
+            "Name: SYLOTI NAGRI LETTER A",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠁ U+A801 SYLOTI NAGRI LETTER I": 
+    {
+        "prefix": [
+            "..U.A801",
+            "..U.SYLOTI NAGRI LETTER I",
+            "U+A801",
+        ],
+        "body": [
+            "${1|ꠁ,&#xA801;,U+A801,0xA801,SYLOTI NAGRI LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+A801",
+            "Character/Symbol: ꠁ",
+            "Name: SYLOTI NAGRI LETTER I",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠂ U+A802 SYLOTI NAGRI SIGN DVISVARA": 
+    {
+        "prefix": [
+            "..U.A802",
+            "..U.SYLOTI NAGRI SIGN DVISVARA",
+            "U+A802",
+        ],
+        "body": [
+            "${1|ꠂ,&#xA802;,U+A802,0xA802,SYLOTI NAGRI SIGN DVISVARA|}$2",
+        ],
+        "description": [
+            "Code: U+A802",
+            "Character/Symbol: ꠂ",
+            "Name: SYLOTI NAGRI SIGN DVISVARA",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠃ U+A803 SYLOTI NAGRI LETTER U": 
+    {
+        "prefix": [
+            "..U.A803",
+            "..U.SYLOTI NAGRI LETTER U",
+            "U+A803",
+        ],
+        "body": [
+            "${1|ꠃ,&#xA803;,U+A803,0xA803,SYLOTI NAGRI LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+A803",
+            "Character/Symbol: ꠃ",
+            "Name: SYLOTI NAGRI LETTER U",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠄ U+A804 SYLOTI NAGRI LETTER E": 
+    {
+        "prefix": [
+            "..U.A804",
+            "..U.SYLOTI NAGRI LETTER E",
+            "U+A804",
+        ],
+        "body": [
+            "${1|ꠄ,&#xA804;,U+A804,0xA804,SYLOTI NAGRI LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+A804",
+            "Character/Symbol: ꠄ",
+            "Name: SYLOTI NAGRI LETTER E",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠅ U+A805 SYLOTI NAGRI LETTER O": 
+    {
+        "prefix": [
+            "..U.A805",
+            "..U.SYLOTI NAGRI LETTER O",
+            "U+A805",
+        ],
+        "body": [
+            "${1|ꠅ,&#xA805;,U+A805,0xA805,SYLOTI NAGRI LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+A805",
+            "Character/Symbol: ꠅ",
+            "Name: SYLOTI NAGRI LETTER O",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠆ U+A806 SYLOTI NAGRI SIGN HASANTA": 
+    {
+        "prefix": [
+            "..U.A806",
+            "..U.SYLOTI NAGRI SIGN HASANTA",
+            "U+A806",
+        ],
+        "body": [
+            "${1|꠆,&#xA806;,U+A806,0xA806,SYLOTI NAGRI SIGN HASANTA|}$2",
+        ],
+        "description": [
+            "Code: U+A806",
+            "Character/Symbol: ꠆",
+            "Name: SYLOTI NAGRI SIGN HASANTA",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠇ U+A807 SYLOTI NAGRI LETTER KO": 
+    {
+        "prefix": [
+            "..U.A807",
+            "..U.SYLOTI NAGRI LETTER KO",
+            "U+A807",
+        ],
+        "body": [
+            "${1|ꠇ,&#xA807;,U+A807,0xA807,SYLOTI NAGRI LETTER KO|}$2",
+        ],
+        "description": [
+            "Code: U+A807",
+            "Character/Symbol: ꠇ",
+            "Name: SYLOTI NAGRI LETTER KO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠈ U+A808 SYLOTI NAGRI LETTER KHO": 
+    {
+        "prefix": [
+            "..U.A808",
+            "..U.SYLOTI NAGRI LETTER KHO",
+            "U+A808",
+        ],
+        "body": [
+            "${1|ꠈ,&#xA808;,U+A808,0xA808,SYLOTI NAGRI LETTER KHO|}$2",
+        ],
+        "description": [
+            "Code: U+A808",
+            "Character/Symbol: ꠈ",
+            "Name: SYLOTI NAGRI LETTER KHO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠉ U+A809 SYLOTI NAGRI LETTER GO": 
+    {
+        "prefix": [
+            "..U.A809",
+            "..U.SYLOTI NAGRI LETTER GO",
+            "U+A809",
+        ],
+        "body": [
+            "${1|ꠉ,&#xA809;,U+A809,0xA809,SYLOTI NAGRI LETTER GO|}$2",
+        ],
+        "description": [
+            "Code: U+A809",
+            "Character/Symbol: ꠉ",
+            "Name: SYLOTI NAGRI LETTER GO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠊ U+A80A SYLOTI NAGRI LETTER GHO": 
+    {
+        "prefix": [
+            "..U.A80A",
+            "..U.SYLOTI NAGRI LETTER GHO",
+            "U+A80A",
+        ],
+        "body": [
+            "${1|ꠊ,&#xA80A;,U+A80A,0xA80A,SYLOTI NAGRI LETTER GHO|}$2",
+        ],
+        "description": [
+            "Code: U+A80A",
+            "Character/Symbol: ꠊ",
+            "Name: SYLOTI NAGRI LETTER GHO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠋ U+A80B SYLOTI NAGRI SIGN ANUSVARA": 
+    {
+        "prefix": [
+            "..U.A80B",
+            "..U.SYLOTI NAGRI SIGN ANUSVARA",
+            "U+A80B",
+        ],
+        "body": [
+            "${1|ꠋ,&#xA80B;,U+A80B,0xA80B,SYLOTI NAGRI SIGN ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+A80B",
+            "Character/Symbol: ꠋ",
+            "Name: SYLOTI NAGRI SIGN ANUSVARA",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠌ U+A80C SYLOTI NAGRI LETTER CO": 
+    {
+        "prefix": [
+            "..U.A80C",
+            "..U.SYLOTI NAGRI LETTER CO",
+            "U+A80C",
+        ],
+        "body": [
+            "${1|ꠌ,&#xA80C;,U+A80C,0xA80C,SYLOTI NAGRI LETTER CO|}$2",
+        ],
+        "description": [
+            "Code: U+A80C",
+            "Character/Symbol: ꠌ",
+            "Name: SYLOTI NAGRI LETTER CO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠍ U+A80D SYLOTI NAGRI LETTER CHO": 
+    {
+        "prefix": [
+            "..U.A80D",
+            "..U.SYLOTI NAGRI LETTER CHO",
+            "U+A80D",
+        ],
+        "body": [
+            "${1|ꠍ,&#xA80D;,U+A80D,0xA80D,SYLOTI NAGRI LETTER CHO|}$2",
+        ],
+        "description": [
+            "Code: U+A80D",
+            "Character/Symbol: ꠍ",
+            "Name: SYLOTI NAGRI LETTER CHO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠎ U+A80E SYLOTI NAGRI LETTER JO": 
+    {
+        "prefix": [
+            "..U.A80E",
+            "..U.SYLOTI NAGRI LETTER JO",
+            "U+A80E",
+        ],
+        "body": [
+            "${1|ꠎ,&#xA80E;,U+A80E,0xA80E,SYLOTI NAGRI LETTER JO|}$2",
+        ],
+        "description": [
+            "Code: U+A80E",
+            "Character/Symbol: ꠎ",
+            "Name: SYLOTI NAGRI LETTER JO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠏ U+A80F SYLOTI NAGRI LETTER JHO": 
+    {
+        "prefix": [
+            "..U.A80F",
+            "..U.SYLOTI NAGRI LETTER JHO",
+            "U+A80F",
+        ],
+        "body": [
+            "${1|ꠏ,&#xA80F;,U+A80F,0xA80F,SYLOTI NAGRI LETTER JHO|}$2",
+        ],
+        "description": [
+            "Code: U+A80F",
+            "Character/Symbol: ꠏ",
+            "Name: SYLOTI NAGRI LETTER JHO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠐ U+A810 SYLOTI NAGRI LETTER TTO": 
+    {
+        "prefix": [
+            "..U.A810",
+            "..U.SYLOTI NAGRI LETTER TTO",
+            "U+A810",
+        ],
+        "body": [
+            "${1|ꠐ,&#xA810;,U+A810,0xA810,SYLOTI NAGRI LETTER TTO|}$2",
+        ],
+        "description": [
+            "Code: U+A810",
+            "Character/Symbol: ꠐ",
+            "Name: SYLOTI NAGRI LETTER TTO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠑ U+A811 SYLOTI NAGRI LETTER TTHO": 
+    {
+        "prefix": [
+            "..U.A811",
+            "..U.SYLOTI NAGRI LETTER TTHO",
+            "U+A811",
+        ],
+        "body": [
+            "${1|ꠑ,&#xA811;,U+A811,0xA811,SYLOTI NAGRI LETTER TTHO|}$2",
+        ],
+        "description": [
+            "Code: U+A811",
+            "Character/Symbol: ꠑ",
+            "Name: SYLOTI NAGRI LETTER TTHO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠒ U+A812 SYLOTI NAGRI LETTER DDO": 
+    {
+        "prefix": [
+            "..U.A812",
+            "..U.SYLOTI NAGRI LETTER DDO",
+            "U+A812",
+        ],
+        "body": [
+            "${1|ꠒ,&#xA812;,U+A812,0xA812,SYLOTI NAGRI LETTER DDO|}$2",
+        ],
+        "description": [
+            "Code: U+A812",
+            "Character/Symbol: ꠒ",
+            "Name: SYLOTI NAGRI LETTER DDO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠓ U+A813 SYLOTI NAGRI LETTER DDHO": 
+    {
+        "prefix": [
+            "..U.A813",
+            "..U.SYLOTI NAGRI LETTER DDHO",
+            "U+A813",
+        ],
+        "body": [
+            "${1|ꠓ,&#xA813;,U+A813,0xA813,SYLOTI NAGRI LETTER DDHO|}$2",
+        ],
+        "description": [
+            "Code: U+A813",
+            "Character/Symbol: ꠓ",
+            "Name: SYLOTI NAGRI LETTER DDHO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠔ U+A814 SYLOTI NAGRI LETTER TO": 
+    {
+        "prefix": [
+            "..U.A814",
+            "..U.SYLOTI NAGRI LETTER TO",
+            "U+A814",
+        ],
+        "body": [
+            "${1|ꠔ,&#xA814;,U+A814,0xA814,SYLOTI NAGRI LETTER TO|}$2",
+        ],
+        "description": [
+            "Code: U+A814",
+            "Character/Symbol: ꠔ",
+            "Name: SYLOTI NAGRI LETTER TO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠕ U+A815 SYLOTI NAGRI LETTER THO": 
+    {
+        "prefix": [
+            "..U.A815",
+            "..U.SYLOTI NAGRI LETTER THO",
+            "U+A815",
+        ],
+        "body": [
+            "${1|ꠕ,&#xA815;,U+A815,0xA815,SYLOTI NAGRI LETTER THO|}$2",
+        ],
+        "description": [
+            "Code: U+A815",
+            "Character/Symbol: ꠕ",
+            "Name: SYLOTI NAGRI LETTER THO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠖ U+A816 SYLOTI NAGRI LETTER DO": 
+    {
+        "prefix": [
+            "..U.A816",
+            "..U.SYLOTI NAGRI LETTER DO",
+            "U+A816",
+        ],
+        "body": [
+            "${1|ꠖ,&#xA816;,U+A816,0xA816,SYLOTI NAGRI LETTER DO|}$2",
+        ],
+        "description": [
+            "Code: U+A816",
+            "Character/Symbol: ꠖ",
+            "Name: SYLOTI NAGRI LETTER DO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠗ U+A817 SYLOTI NAGRI LETTER DHO": 
+    {
+        "prefix": [
+            "..U.A817",
+            "..U.SYLOTI NAGRI LETTER DHO",
+            "U+A817",
+        ],
+        "body": [
+            "${1|ꠗ,&#xA817;,U+A817,0xA817,SYLOTI NAGRI LETTER DHO|}$2",
+        ],
+        "description": [
+            "Code: U+A817",
+            "Character/Symbol: ꠗ",
+            "Name: SYLOTI NAGRI LETTER DHO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠘ U+A818 SYLOTI NAGRI LETTER NO": 
+    {
+        "prefix": [
+            "..U.A818",
+            "..U.SYLOTI NAGRI LETTER NO",
+            "U+A818",
+        ],
+        "body": [
+            "${1|ꠘ,&#xA818;,U+A818,0xA818,SYLOTI NAGRI LETTER NO|}$2",
+        ],
+        "description": [
+            "Code: U+A818",
+            "Character/Symbol: ꠘ",
+            "Name: SYLOTI NAGRI LETTER NO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠙ U+A819 SYLOTI NAGRI LETTER PO": 
+    {
+        "prefix": [
+            "..U.A819",
+            "..U.SYLOTI NAGRI LETTER PO",
+            "U+A819",
+        ],
+        "body": [
+            "${1|ꠙ,&#xA819;,U+A819,0xA819,SYLOTI NAGRI LETTER PO|}$2",
+        ],
+        "description": [
+            "Code: U+A819",
+            "Character/Symbol: ꠙ",
+            "Name: SYLOTI NAGRI LETTER PO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠚ U+A81A SYLOTI NAGRI LETTER PHO": 
+    {
+        "prefix": [
+            "..U.A81A",
+            "..U.SYLOTI NAGRI LETTER PHO",
+            "U+A81A",
+        ],
+        "body": [
+            "${1|ꠚ,&#xA81A;,U+A81A,0xA81A,SYLOTI NAGRI LETTER PHO|}$2",
+        ],
+        "description": [
+            "Code: U+A81A",
+            "Character/Symbol: ꠚ",
+            "Name: SYLOTI NAGRI LETTER PHO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠛ U+A81B SYLOTI NAGRI LETTER BO": 
+    {
+        "prefix": [
+            "..U.A81B",
+            "..U.SYLOTI NAGRI LETTER BO",
+            "U+A81B",
+        ],
+        "body": [
+            "${1|ꠛ,&#xA81B;,U+A81B,0xA81B,SYLOTI NAGRI LETTER BO|}$2",
+        ],
+        "description": [
+            "Code: U+A81B",
+            "Character/Symbol: ꠛ",
+            "Name: SYLOTI NAGRI LETTER BO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠜ U+A81C SYLOTI NAGRI LETTER BHO": 
+    {
+        "prefix": [
+            "..U.A81C",
+            "..U.SYLOTI NAGRI LETTER BHO",
+            "U+A81C",
+        ],
+        "body": [
+            "${1|ꠜ,&#xA81C;,U+A81C,0xA81C,SYLOTI NAGRI LETTER BHO|}$2",
+        ],
+        "description": [
+            "Code: U+A81C",
+            "Character/Symbol: ꠜ",
+            "Name: SYLOTI NAGRI LETTER BHO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠝ U+A81D SYLOTI NAGRI LETTER MO": 
+    {
+        "prefix": [
+            "..U.A81D",
+            "..U.SYLOTI NAGRI LETTER MO",
+            "U+A81D",
+        ],
+        "body": [
+            "${1|ꠝ,&#xA81D;,U+A81D,0xA81D,SYLOTI NAGRI LETTER MO|}$2",
+        ],
+        "description": [
+            "Code: U+A81D",
+            "Character/Symbol: ꠝ",
+            "Name: SYLOTI NAGRI LETTER MO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠞ U+A81E SYLOTI NAGRI LETTER RO": 
+    {
+        "prefix": [
+            "..U.A81E",
+            "..U.SYLOTI NAGRI LETTER RO",
+            "U+A81E",
+        ],
+        "body": [
+            "${1|ꠞ,&#xA81E;,U+A81E,0xA81E,SYLOTI NAGRI LETTER RO|}$2",
+        ],
+        "description": [
+            "Code: U+A81E",
+            "Character/Symbol: ꠞ",
+            "Name: SYLOTI NAGRI LETTER RO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠟ U+A81F SYLOTI NAGRI LETTER LO": 
+    {
+        "prefix": [
+            "..U.A81F",
+            "..U.SYLOTI NAGRI LETTER LO",
+            "U+A81F",
+        ],
+        "body": [
+            "${1|ꠟ,&#xA81F;,U+A81F,0xA81F,SYLOTI NAGRI LETTER LO|}$2",
+        ],
+        "description": [
+            "Code: U+A81F",
+            "Character/Symbol: ꠟ",
+            "Name: SYLOTI NAGRI LETTER LO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠠ U+A820 SYLOTI NAGRI LETTER RRO": 
+    {
+        "prefix": [
+            "..U.A820",
+            "..U.SYLOTI NAGRI LETTER RRO",
+            "U+A820",
+        ],
+        "body": [
+            "${1|ꠠ,&#xA820;,U+A820,0xA820,SYLOTI NAGRI LETTER RRO|}$2",
+        ],
+        "description": [
+            "Code: U+A820",
+            "Character/Symbol: ꠠ",
+            "Name: SYLOTI NAGRI LETTER RRO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠡ U+A821 SYLOTI NAGRI LETTER SO": 
+    {
+        "prefix": [
+            "..U.A821",
+            "..U.SYLOTI NAGRI LETTER SO",
+            "U+A821",
+        ],
+        "body": [
+            "${1|ꠡ,&#xA821;,U+A821,0xA821,SYLOTI NAGRI LETTER SO|}$2",
+        ],
+        "description": [
+            "Code: U+A821",
+            "Character/Symbol: ꠡ",
+            "Name: SYLOTI NAGRI LETTER SO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠢ U+A822 SYLOTI NAGRI LETTER HO": 
+    {
+        "prefix": [
+            "..U.A822",
+            "..U.SYLOTI NAGRI LETTER HO",
+            "U+A822",
+        ],
+        "body": [
+            "${1|ꠢ,&#xA822;,U+A822,0xA822,SYLOTI NAGRI LETTER HO|}$2",
+        ],
+        "description": [
+            "Code: U+A822",
+            "Character/Symbol: ꠢ",
+            "Name: SYLOTI NAGRI LETTER HO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠣ U+A823 SYLOTI NAGRI VOWEL SIGN A": 
+    {
+        "prefix": [
+            "..U.A823",
+            "..U.SYLOTI NAGRI VOWEL SIGN A",
+            "U+A823",
+        ],
+        "body": [
+            "${1|ꠣ,&#xA823;,U+A823,0xA823,SYLOTI NAGRI VOWEL SIGN A|}$2",
+        ],
+        "description": [
+            "Code: U+A823",
+            "Character/Symbol: ꠣ",
+            "Name: SYLOTI NAGRI VOWEL SIGN A",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠤ U+A824 SYLOTI NAGRI VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.A824",
+            "..U.SYLOTI NAGRI VOWEL SIGN I",
+            "U+A824",
+        ],
+        "body": [
+            "${1|ꠤ,&#xA824;,U+A824,0xA824,SYLOTI NAGRI VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+A824",
+            "Character/Symbol: ꠤ",
+            "Name: SYLOTI NAGRI VOWEL SIGN I",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠥ U+A825 SYLOTI NAGRI VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.A825",
+            "..U.SYLOTI NAGRI VOWEL SIGN U",
+            "U+A825",
+        ],
+        "body": [
+            "${1|ꠥ,&#xA825;,U+A825,0xA825,SYLOTI NAGRI VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+A825",
+            "Character/Symbol: ꠥ",
+            "Name: SYLOTI NAGRI VOWEL SIGN U",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠦ U+A826 SYLOTI NAGRI VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.A826",
+            "..U.SYLOTI NAGRI VOWEL SIGN E",
+            "U+A826",
+        ],
+        "body": [
+            "${1|ꠦ,&#xA826;,U+A826,0xA826,SYLOTI NAGRI VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+A826",
+            "Character/Symbol: ꠦ",
+            "Name: SYLOTI NAGRI VOWEL SIGN E",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠧ U+A827 SYLOTI NAGRI VOWEL SIGN OO": 
+    {
+        "prefix": [
+            "..U.A827",
+            "..U.SYLOTI NAGRI VOWEL SIGN OO",
+            "U+A827",
+        ],
+        "body": [
+            "${1|ꠧ,&#xA827;,U+A827,0xA827,SYLOTI NAGRI VOWEL SIGN OO|}$2",
+        ],
+        "description": [
+            "Code: U+A827",
+            "Character/Symbol: ꠧ",
+            "Name: SYLOTI NAGRI VOWEL SIGN OO",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠨ U+A828 SYLOTI NAGRI POETRY MARK-1": 
+    {
+        "prefix": [
+            "..U.A828",
+            "..U.SYLOTI NAGRI POETRY MARK-1",
+            "U+A828",
+        ],
+        "body": [
+            "${1|꠨,&#xA828;,U+A828,0xA828,SYLOTI NAGRI POETRY MARK-1|}$2",
+        ],
+        "description": [
+            "Code: U+A828",
+            "Character/Symbol: ꠨",
+            "Name: SYLOTI NAGRI POETRY MARK-1",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠩ U+A829 SYLOTI NAGRI POETRY MARK-2": 
+    {
+        "prefix": [
+            "..U.A829",
+            "..U.SYLOTI NAGRI POETRY MARK-2",
+            "U+A829",
+        ],
+        "body": [
+            "${1|꠩,&#xA829;,U+A829,0xA829,SYLOTI NAGRI POETRY MARK-2|}$2",
+        ],
+        "description": [
+            "Code: U+A829",
+            "Character/Symbol: ꠩",
+            "Name: SYLOTI NAGRI POETRY MARK-2",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠪ U+A82A SYLOTI NAGRI POETRY MARK-3": 
+    {
+        "prefix": [
+            "..U.A82A",
+            "..U.SYLOTI NAGRI POETRY MARK-3",
+            "U+A82A",
+        ],
+        "body": [
+            "${1|꠪,&#xA82A;,U+A82A,0xA82A,SYLOTI NAGRI POETRY MARK-3|}$2",
+        ],
+        "description": [
+            "Code: U+A82A",
+            "Character/Symbol: ꠪",
+            "Name: SYLOTI NAGRI POETRY MARK-3",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠫ U+A82B SYLOTI NAGRI POETRY MARK-4": 
+    {
+        "prefix": [
+            "..U.A82B",
+            "..U.SYLOTI NAGRI POETRY MARK-4",
+            "U+A82B",
+        ],
+        "body": [
+            "${1|꠫,&#xA82B;,U+A82B,0xA82B,SYLOTI NAGRI POETRY MARK-4|}$2",
+        ],
+        "description": [
+            "Code: U+A82B",
+            "Character/Symbol: ꠫",
+            "Name: SYLOTI NAGRI POETRY MARK-4",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+    "Unicode ꠬ U+A82C SYLOTI NAGRI SIGN ALTERNATE HASANTA": 
+    {
+        "prefix": [
+            "..U.A82C",
+            "..U.SYLOTI NAGRI SIGN ALTERNATE HASANTA",
+            "U+A82C",
+        ],
+        "body": [
+            "${1|꠬,&#xA82C;,U+A82C,0xA82C,SYLOTI NAGRI SIGN ALTERNATE HASANTA|}$2",
+        ],
+        "description": [
+            "Code: U+A82C",
+            "Character/Symbol: ꠬",
+            "Name: SYLOTI NAGRI SIGN ALTERNATE HASANTA",
+            "Group/Block: Syloti_Nagri",
+        ],
+    },
+
+}

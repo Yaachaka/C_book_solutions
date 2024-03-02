@@ -1,0 +1,1010 @@
+{
+    "Unicode ꯀ U+ABC0 MEETEI MAYEK LETTER KOK": 
+    {
+        "prefix": [
+            "..U.ABC0",
+            "..U.MEETEI MAYEK LETTER KOK",
+            "U+ABC0",
+        ],
+        "body": [
+            "${1|ꯀ,&#xABC0;,U+ABC0,0xABC0,MEETEI MAYEK LETTER KOK|}$2",
+        ],
+        "description": [
+            "Code: U+ABC0",
+            "Character/Symbol: ꯀ",
+            "Name: MEETEI MAYEK LETTER KOK",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯁ U+ABC1 MEETEI MAYEK LETTER SAM": 
+    {
+        "prefix": [
+            "..U.ABC1",
+            "..U.MEETEI MAYEK LETTER SAM",
+            "U+ABC1",
+        ],
+        "body": [
+            "${1|ꯁ,&#xABC1;,U+ABC1,0xABC1,MEETEI MAYEK LETTER SAM|}$2",
+        ],
+        "description": [
+            "Code: U+ABC1",
+            "Character/Symbol: ꯁ",
+            "Name: MEETEI MAYEK LETTER SAM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯂ U+ABC2 MEETEI MAYEK LETTER LAI": 
+    {
+        "prefix": [
+            "..U.ABC2",
+            "..U.MEETEI MAYEK LETTER LAI",
+            "U+ABC2",
+        ],
+        "body": [
+            "${1|ꯂ,&#xABC2;,U+ABC2,0xABC2,MEETEI MAYEK LETTER LAI|}$2",
+        ],
+        "description": [
+            "Code: U+ABC2",
+            "Character/Symbol: ꯂ",
+            "Name: MEETEI MAYEK LETTER LAI",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯃ U+ABC3 MEETEI MAYEK LETTER MIT": 
+    {
+        "prefix": [
+            "..U.ABC3",
+            "..U.MEETEI MAYEK LETTER MIT",
+            "U+ABC3",
+        ],
+        "body": [
+            "${1|ꯃ,&#xABC3;,U+ABC3,0xABC3,MEETEI MAYEK LETTER MIT|}$2",
+        ],
+        "description": [
+            "Code: U+ABC3",
+            "Character/Symbol: ꯃ",
+            "Name: MEETEI MAYEK LETTER MIT",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯄ U+ABC4 MEETEI MAYEK LETTER PA": 
+    {
+        "prefix": [
+            "..U.ABC4",
+            "..U.MEETEI MAYEK LETTER PA",
+            "U+ABC4",
+        ],
+        "body": [
+            "${1|ꯄ,&#xABC4;,U+ABC4,0xABC4,MEETEI MAYEK LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+ABC4",
+            "Character/Symbol: ꯄ",
+            "Name: MEETEI MAYEK LETTER PA",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯅ U+ABC5 MEETEI MAYEK LETTER NA": 
+    {
+        "prefix": [
+            "..U.ABC5",
+            "..U.MEETEI MAYEK LETTER NA",
+            "U+ABC5",
+        ],
+        "body": [
+            "${1|ꯅ,&#xABC5;,U+ABC5,0xABC5,MEETEI MAYEK LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+ABC5",
+            "Character/Symbol: ꯅ",
+            "Name: MEETEI MAYEK LETTER NA",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯆ U+ABC6 MEETEI MAYEK LETTER CHIL": 
+    {
+        "prefix": [
+            "..U.ABC6",
+            "..U.MEETEI MAYEK LETTER CHIL",
+            "U+ABC6",
+        ],
+        "body": [
+            "${1|ꯆ,&#xABC6;,U+ABC6,0xABC6,MEETEI MAYEK LETTER CHIL|}$2",
+        ],
+        "description": [
+            "Code: U+ABC6",
+            "Character/Symbol: ꯆ",
+            "Name: MEETEI MAYEK LETTER CHIL",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯇ U+ABC7 MEETEI MAYEK LETTER TIL": 
+    {
+        "prefix": [
+            "..U.ABC7",
+            "..U.MEETEI MAYEK LETTER TIL",
+            "U+ABC7",
+        ],
+        "body": [
+            "${1|ꯇ,&#xABC7;,U+ABC7,0xABC7,MEETEI MAYEK LETTER TIL|}$2",
+        ],
+        "description": [
+            "Code: U+ABC7",
+            "Character/Symbol: ꯇ",
+            "Name: MEETEI MAYEK LETTER TIL",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯈ U+ABC8 MEETEI MAYEK LETTER KHOU": 
+    {
+        "prefix": [
+            "..U.ABC8",
+            "..U.MEETEI MAYEK LETTER KHOU",
+            "U+ABC8",
+        ],
+        "body": [
+            "${1|ꯈ,&#xABC8;,U+ABC8,0xABC8,MEETEI MAYEK LETTER KHOU|}$2",
+        ],
+        "description": [
+            "Code: U+ABC8",
+            "Character/Symbol: ꯈ",
+            "Name: MEETEI MAYEK LETTER KHOU",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯉ U+ABC9 MEETEI MAYEK LETTER NGOU": 
+    {
+        "prefix": [
+            "..U.ABC9",
+            "..U.MEETEI MAYEK LETTER NGOU",
+            "U+ABC9",
+        ],
+        "body": [
+            "${1|ꯉ,&#xABC9;,U+ABC9,0xABC9,MEETEI MAYEK LETTER NGOU|}$2",
+        ],
+        "description": [
+            "Code: U+ABC9",
+            "Character/Symbol: ꯉ",
+            "Name: MEETEI MAYEK LETTER NGOU",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯊ U+ABCA MEETEI MAYEK LETTER THOU": 
+    {
+        "prefix": [
+            "..U.ABCA",
+            "..U.MEETEI MAYEK LETTER THOU",
+            "U+ABCA",
+        ],
+        "body": [
+            "${1|ꯊ,&#xABCA;,U+ABCA,0xABCA,MEETEI MAYEK LETTER THOU|}$2",
+        ],
+        "description": [
+            "Code: U+ABCA",
+            "Character/Symbol: ꯊ",
+            "Name: MEETEI MAYEK LETTER THOU",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯋ U+ABCB MEETEI MAYEK LETTER WAI": 
+    {
+        "prefix": [
+            "..U.ABCB",
+            "..U.MEETEI MAYEK LETTER WAI",
+            "U+ABCB",
+        ],
+        "body": [
+            "${1|ꯋ,&#xABCB;,U+ABCB,0xABCB,MEETEI MAYEK LETTER WAI|}$2",
+        ],
+        "description": [
+            "Code: U+ABCB",
+            "Character/Symbol: ꯋ",
+            "Name: MEETEI MAYEK LETTER WAI",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯌ U+ABCC MEETEI MAYEK LETTER YANG": 
+    {
+        "prefix": [
+            "..U.ABCC",
+            "..U.MEETEI MAYEK LETTER YANG",
+            "U+ABCC",
+        ],
+        "body": [
+            "${1|ꯌ,&#xABCC;,U+ABCC,0xABCC,MEETEI MAYEK LETTER YANG|}$2",
+        ],
+        "description": [
+            "Code: U+ABCC",
+            "Character/Symbol: ꯌ",
+            "Name: MEETEI MAYEK LETTER YANG",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯍ U+ABCD MEETEI MAYEK LETTER HUK": 
+    {
+        "prefix": [
+            "..U.ABCD",
+            "..U.MEETEI MAYEK LETTER HUK",
+            "U+ABCD",
+        ],
+        "body": [
+            "${1|ꯍ,&#xABCD;,U+ABCD,0xABCD,MEETEI MAYEK LETTER HUK|}$2",
+        ],
+        "description": [
+            "Code: U+ABCD",
+            "Character/Symbol: ꯍ",
+            "Name: MEETEI MAYEK LETTER HUK",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯎ U+ABCE MEETEI MAYEK LETTER UN": 
+    {
+        "prefix": [
+            "..U.ABCE",
+            "..U.MEETEI MAYEK LETTER UN",
+            "U+ABCE",
+        ],
+        "body": [
+            "${1|ꯎ,&#xABCE;,U+ABCE,0xABCE,MEETEI MAYEK LETTER UN|}$2",
+        ],
+        "description": [
+            "Code: U+ABCE",
+            "Character/Symbol: ꯎ",
+            "Name: MEETEI MAYEK LETTER UN",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯏ U+ABCF MEETEI MAYEK LETTER I": 
+    {
+        "prefix": [
+            "..U.ABCF",
+            "..U.MEETEI MAYEK LETTER I",
+            "U+ABCF",
+        ],
+        "body": [
+            "${1|ꯏ,&#xABCF;,U+ABCF,0xABCF,MEETEI MAYEK LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+ABCF",
+            "Character/Symbol: ꯏ",
+            "Name: MEETEI MAYEK LETTER I",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯐ U+ABD0 MEETEI MAYEK LETTER PHAM": 
+    {
+        "prefix": [
+            "..U.ABD0",
+            "..U.MEETEI MAYEK LETTER PHAM",
+            "U+ABD0",
+        ],
+        "body": [
+            "${1|ꯐ,&#xABD0;,U+ABD0,0xABD0,MEETEI MAYEK LETTER PHAM|}$2",
+        ],
+        "description": [
+            "Code: U+ABD0",
+            "Character/Symbol: ꯐ",
+            "Name: MEETEI MAYEK LETTER PHAM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯑ U+ABD1 MEETEI MAYEK LETTER ATIYA": 
+    {
+        "prefix": [
+            "..U.ABD1",
+            "..U.MEETEI MAYEK LETTER ATIYA",
+            "U+ABD1",
+        ],
+        "body": [
+            "${1|ꯑ,&#xABD1;,U+ABD1,0xABD1,MEETEI MAYEK LETTER ATIYA|}$2",
+        ],
+        "description": [
+            "Code: U+ABD1",
+            "Character/Symbol: ꯑ",
+            "Name: MEETEI MAYEK LETTER ATIYA",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯒ U+ABD2 MEETEI MAYEK LETTER GOK": 
+    {
+        "prefix": [
+            "..U.ABD2",
+            "..U.MEETEI MAYEK LETTER GOK",
+            "U+ABD2",
+        ],
+        "body": [
+            "${1|ꯒ,&#xABD2;,U+ABD2,0xABD2,MEETEI MAYEK LETTER GOK|}$2",
+        ],
+        "description": [
+            "Code: U+ABD2",
+            "Character/Symbol: ꯒ",
+            "Name: MEETEI MAYEK LETTER GOK",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯓ U+ABD3 MEETEI MAYEK LETTER JHAM": 
+    {
+        "prefix": [
+            "..U.ABD3",
+            "..U.MEETEI MAYEK LETTER JHAM",
+            "U+ABD3",
+        ],
+        "body": [
+            "${1|ꯓ,&#xABD3;,U+ABD3,0xABD3,MEETEI MAYEK LETTER JHAM|}$2",
+        ],
+        "description": [
+            "Code: U+ABD3",
+            "Character/Symbol: ꯓ",
+            "Name: MEETEI MAYEK LETTER JHAM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯔ U+ABD4 MEETEI MAYEK LETTER RAI": 
+    {
+        "prefix": [
+            "..U.ABD4",
+            "..U.MEETEI MAYEK LETTER RAI",
+            "U+ABD4",
+        ],
+        "body": [
+            "${1|ꯔ,&#xABD4;,U+ABD4,0xABD4,MEETEI MAYEK LETTER RAI|}$2",
+        ],
+        "description": [
+            "Code: U+ABD4",
+            "Character/Symbol: ꯔ",
+            "Name: MEETEI MAYEK LETTER RAI",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯕ U+ABD5 MEETEI MAYEK LETTER BA": 
+    {
+        "prefix": [
+            "..U.ABD5",
+            "..U.MEETEI MAYEK LETTER BA",
+            "U+ABD5",
+        ],
+        "body": [
+            "${1|ꯕ,&#xABD5;,U+ABD5,0xABD5,MEETEI MAYEK LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+ABD5",
+            "Character/Symbol: ꯕ",
+            "Name: MEETEI MAYEK LETTER BA",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯖ U+ABD6 MEETEI MAYEK LETTER JIL": 
+    {
+        "prefix": [
+            "..U.ABD6",
+            "..U.MEETEI MAYEK LETTER JIL",
+            "U+ABD6",
+        ],
+        "body": [
+            "${1|ꯖ,&#xABD6;,U+ABD6,0xABD6,MEETEI MAYEK LETTER JIL|}$2",
+        ],
+        "description": [
+            "Code: U+ABD6",
+            "Character/Symbol: ꯖ",
+            "Name: MEETEI MAYEK LETTER JIL",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯗ U+ABD7 MEETEI MAYEK LETTER DIL": 
+    {
+        "prefix": [
+            "..U.ABD7",
+            "..U.MEETEI MAYEK LETTER DIL",
+            "U+ABD7",
+        ],
+        "body": [
+            "${1|ꯗ,&#xABD7;,U+ABD7,0xABD7,MEETEI MAYEK LETTER DIL|}$2",
+        ],
+        "description": [
+            "Code: U+ABD7",
+            "Character/Symbol: ꯗ",
+            "Name: MEETEI MAYEK LETTER DIL",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯘ U+ABD8 MEETEI MAYEK LETTER GHOU": 
+    {
+        "prefix": [
+            "..U.ABD8",
+            "..U.MEETEI MAYEK LETTER GHOU",
+            "U+ABD8",
+        ],
+        "body": [
+            "${1|ꯘ,&#xABD8;,U+ABD8,0xABD8,MEETEI MAYEK LETTER GHOU|}$2",
+        ],
+        "description": [
+            "Code: U+ABD8",
+            "Character/Symbol: ꯘ",
+            "Name: MEETEI MAYEK LETTER GHOU",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯙ U+ABD9 MEETEI MAYEK LETTER DHOU": 
+    {
+        "prefix": [
+            "..U.ABD9",
+            "..U.MEETEI MAYEK LETTER DHOU",
+            "U+ABD9",
+        ],
+        "body": [
+            "${1|ꯙ,&#xABD9;,U+ABD9,0xABD9,MEETEI MAYEK LETTER DHOU|}$2",
+        ],
+        "description": [
+            "Code: U+ABD9",
+            "Character/Symbol: ꯙ",
+            "Name: MEETEI MAYEK LETTER DHOU",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯚ U+ABDA MEETEI MAYEK LETTER BHAM": 
+    {
+        "prefix": [
+            "..U.ABDA",
+            "..U.MEETEI MAYEK LETTER BHAM",
+            "U+ABDA",
+        ],
+        "body": [
+            "${1|ꯚ,&#xABDA;,U+ABDA,0xABDA,MEETEI MAYEK LETTER BHAM|}$2",
+        ],
+        "description": [
+            "Code: U+ABDA",
+            "Character/Symbol: ꯚ",
+            "Name: MEETEI MAYEK LETTER BHAM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯛ U+ABDB MEETEI MAYEK LETTER KOK LONSUM": 
+    {
+        "prefix": [
+            "..U.ABDB",
+            "..U.MEETEI MAYEK LETTER KOK LONSUM",
+            "U+ABDB",
+        ],
+        "body": [
+            "${1|ꯛ,&#xABDB;,U+ABDB,0xABDB,MEETEI MAYEK LETTER KOK LONSUM|}$2",
+        ],
+        "description": [
+            "Code: U+ABDB",
+            "Character/Symbol: ꯛ",
+            "Name: MEETEI MAYEK LETTER KOK LONSUM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯜ U+ABDC MEETEI MAYEK LETTER LAI LONSUM": 
+    {
+        "prefix": [
+            "..U.ABDC",
+            "..U.MEETEI MAYEK LETTER LAI LONSUM",
+            "U+ABDC",
+        ],
+        "body": [
+            "${1|ꯜ,&#xABDC;,U+ABDC,0xABDC,MEETEI MAYEK LETTER LAI LONSUM|}$2",
+        ],
+        "description": [
+            "Code: U+ABDC",
+            "Character/Symbol: ꯜ",
+            "Name: MEETEI MAYEK LETTER LAI LONSUM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯝ U+ABDD MEETEI MAYEK LETTER MIT LONSUM": 
+    {
+        "prefix": [
+            "..U.ABDD",
+            "..U.MEETEI MAYEK LETTER MIT LONSUM",
+            "U+ABDD",
+        ],
+        "body": [
+            "${1|ꯝ,&#xABDD;,U+ABDD,0xABDD,MEETEI MAYEK LETTER MIT LONSUM|}$2",
+        ],
+        "description": [
+            "Code: U+ABDD",
+            "Character/Symbol: ꯝ",
+            "Name: MEETEI MAYEK LETTER MIT LONSUM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯞ U+ABDE MEETEI MAYEK LETTER PA LONSUM": 
+    {
+        "prefix": [
+            "..U.ABDE",
+            "..U.MEETEI MAYEK LETTER PA LONSUM",
+            "U+ABDE",
+        ],
+        "body": [
+            "${1|ꯞ,&#xABDE;,U+ABDE,0xABDE,MEETEI MAYEK LETTER PA LONSUM|}$2",
+        ],
+        "description": [
+            "Code: U+ABDE",
+            "Character/Symbol: ꯞ",
+            "Name: MEETEI MAYEK LETTER PA LONSUM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯟ U+ABDF MEETEI MAYEK LETTER NA LONSUM": 
+    {
+        "prefix": [
+            "..U.ABDF",
+            "..U.MEETEI MAYEK LETTER NA LONSUM",
+            "U+ABDF",
+        ],
+        "body": [
+            "${1|ꯟ,&#xABDF;,U+ABDF,0xABDF,MEETEI MAYEK LETTER NA LONSUM|}$2",
+        ],
+        "description": [
+            "Code: U+ABDF",
+            "Character/Symbol: ꯟ",
+            "Name: MEETEI MAYEK LETTER NA LONSUM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯠ U+ABE0 MEETEI MAYEK LETTER TIL LONSUM": 
+    {
+        "prefix": [
+            "..U.ABE0",
+            "..U.MEETEI MAYEK LETTER TIL LONSUM",
+            "U+ABE0",
+        ],
+        "body": [
+            "${1|ꯠ,&#xABE0;,U+ABE0,0xABE0,MEETEI MAYEK LETTER TIL LONSUM|}$2",
+        ],
+        "description": [
+            "Code: U+ABE0",
+            "Character/Symbol: ꯠ",
+            "Name: MEETEI MAYEK LETTER TIL LONSUM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯡ U+ABE1 MEETEI MAYEK LETTER NGOU LONSUM": 
+    {
+        "prefix": [
+            "..U.ABE1",
+            "..U.MEETEI MAYEK LETTER NGOU LONSUM",
+            "U+ABE1",
+        ],
+        "body": [
+            "${1|ꯡ,&#xABE1;,U+ABE1,0xABE1,MEETEI MAYEK LETTER NGOU LONSUM|}$2",
+        ],
+        "description": [
+            "Code: U+ABE1",
+            "Character/Symbol: ꯡ",
+            "Name: MEETEI MAYEK LETTER NGOU LONSUM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯢ U+ABE2 MEETEI MAYEK LETTER I LONSUM": 
+    {
+        "prefix": [
+            "..U.ABE2",
+            "..U.MEETEI MAYEK LETTER I LONSUM",
+            "U+ABE2",
+        ],
+        "body": [
+            "${1|ꯢ,&#xABE2;,U+ABE2,0xABE2,MEETEI MAYEK LETTER I LONSUM|}$2",
+        ],
+        "description": [
+            "Code: U+ABE2",
+            "Character/Symbol: ꯢ",
+            "Name: MEETEI MAYEK LETTER I LONSUM",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯣ U+ABE3 MEETEI MAYEK VOWEL SIGN ONAP": 
+    {
+        "prefix": [
+            "..U.ABE3",
+            "..U.MEETEI MAYEK VOWEL SIGN ONAP",
+            "U+ABE3",
+        ],
+        "body": [
+            "${1|ꯣ,&#xABE3;,U+ABE3,0xABE3,MEETEI MAYEK VOWEL SIGN ONAP|}$2",
+        ],
+        "description": [
+            "Code: U+ABE3",
+            "Character/Symbol: ꯣ",
+            "Name: MEETEI MAYEK VOWEL SIGN ONAP",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯤ U+ABE4 MEETEI MAYEK VOWEL SIGN INAP": 
+    {
+        "prefix": [
+            "..U.ABE4",
+            "..U.MEETEI MAYEK VOWEL SIGN INAP",
+            "U+ABE4",
+        ],
+        "body": [
+            "${1|ꯤ,&#xABE4;,U+ABE4,0xABE4,MEETEI MAYEK VOWEL SIGN INAP|}$2",
+        ],
+        "description": [
+            "Code: U+ABE4",
+            "Character/Symbol: ꯤ",
+            "Name: MEETEI MAYEK VOWEL SIGN INAP",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯥ U+ABE5 MEETEI MAYEK VOWEL SIGN ANAP": 
+    {
+        "prefix": [
+            "..U.ABE5",
+            "..U.MEETEI MAYEK VOWEL SIGN ANAP",
+            "U+ABE5",
+        ],
+        "body": [
+            "${1|ꯥ,&#xABE5;,U+ABE5,0xABE5,MEETEI MAYEK VOWEL SIGN ANAP|}$2",
+        ],
+        "description": [
+            "Code: U+ABE5",
+            "Character/Symbol: ꯥ",
+            "Name: MEETEI MAYEK VOWEL SIGN ANAP",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯦ U+ABE6 MEETEI MAYEK VOWEL SIGN YENAP": 
+    {
+        "prefix": [
+            "..U.ABE6",
+            "..U.MEETEI MAYEK VOWEL SIGN YENAP",
+            "U+ABE6",
+        ],
+        "body": [
+            "${1|ꯦ,&#xABE6;,U+ABE6,0xABE6,MEETEI MAYEK VOWEL SIGN YENAP|}$2",
+        ],
+        "description": [
+            "Code: U+ABE6",
+            "Character/Symbol: ꯦ",
+            "Name: MEETEI MAYEK VOWEL SIGN YENAP",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯧ U+ABE7 MEETEI MAYEK VOWEL SIGN SOUNAP": 
+    {
+        "prefix": [
+            "..U.ABE7",
+            "..U.MEETEI MAYEK VOWEL SIGN SOUNAP",
+            "U+ABE7",
+        ],
+        "body": [
+            "${1|ꯧ,&#xABE7;,U+ABE7,0xABE7,MEETEI MAYEK VOWEL SIGN SOUNAP|}$2",
+        ],
+        "description": [
+            "Code: U+ABE7",
+            "Character/Symbol: ꯧ",
+            "Name: MEETEI MAYEK VOWEL SIGN SOUNAP",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯨ U+ABE8 MEETEI MAYEK VOWEL SIGN UNAP": 
+    {
+        "prefix": [
+            "..U.ABE8",
+            "..U.MEETEI MAYEK VOWEL SIGN UNAP",
+            "U+ABE8",
+        ],
+        "body": [
+            "${1|ꯨ,&#xABE8;,U+ABE8,0xABE8,MEETEI MAYEK VOWEL SIGN UNAP|}$2",
+        ],
+        "description": [
+            "Code: U+ABE8",
+            "Character/Symbol: ꯨ",
+            "Name: MEETEI MAYEK VOWEL SIGN UNAP",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯩ U+ABE9 MEETEI MAYEK VOWEL SIGN CHEINAP": 
+    {
+        "prefix": [
+            "..U.ABE9",
+            "..U.MEETEI MAYEK VOWEL SIGN CHEINAP",
+            "U+ABE9",
+        ],
+        "body": [
+            "${1|ꯩ,&#xABE9;,U+ABE9,0xABE9,MEETEI MAYEK VOWEL SIGN CHEINAP|}$2",
+        ],
+        "description": [
+            "Code: U+ABE9",
+            "Character/Symbol: ꯩ",
+            "Name: MEETEI MAYEK VOWEL SIGN CHEINAP",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯪ U+ABEA MEETEI MAYEK VOWEL SIGN NUNG": 
+    {
+        "prefix": [
+            "..U.ABEA",
+            "..U.MEETEI MAYEK VOWEL SIGN NUNG",
+            "U+ABEA",
+        ],
+        "body": [
+            "${1|ꯪ,&#xABEA;,U+ABEA,0xABEA,MEETEI MAYEK VOWEL SIGN NUNG|}$2",
+        ],
+        "description": [
+            "Code: U+ABEA",
+            "Character/Symbol: ꯪ",
+            "Name: MEETEI MAYEK VOWEL SIGN NUNG",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯫ U+ABEB MEETEI MAYEK CHEIKHEI": 
+    {
+        "prefix": [
+            "..U.ABEB",
+            "..U.MEETEI MAYEK CHEIKHEI",
+            "U+ABEB",
+        ],
+        "body": [
+            "${1|꯫,&#xABEB;,U+ABEB,0xABEB,MEETEI MAYEK CHEIKHEI|}$2",
+        ],
+        "description": [
+            "Code: U+ABEB",
+            "Character/Symbol: ꯫",
+            "Name: MEETEI MAYEK CHEIKHEI",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯬ U+ABEC MEETEI MAYEK LUM IYEK": 
+    {
+        "prefix": [
+            "..U.ABEC",
+            "..U.MEETEI MAYEK LUM IYEK",
+            "U+ABEC",
+        ],
+        "body": [
+            "${1|꯬,&#xABEC;,U+ABEC,0xABEC,MEETEI MAYEK LUM IYEK|}$2",
+        ],
+        "description": [
+            "Code: U+ABEC",
+            "Character/Symbol: ꯬",
+            "Name: MEETEI MAYEK LUM IYEK",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯭ U+ABED MEETEI MAYEK APUN IYEK": 
+    {
+        "prefix": [
+            "..U.ABED",
+            "..U.MEETEI MAYEK APUN IYEK",
+            "U+ABED",
+        ],
+        "body": [
+            "${1|꯭,&#xABED;,U+ABED,0xABED,MEETEI MAYEK APUN IYEK|}$2",
+        ],
+        "description": [
+            "Code: U+ABED",
+            "Character/Symbol: ꯭",
+            "Name: MEETEI MAYEK APUN IYEK",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯰ U+ABF0 MEETEI MAYEK DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.ABF0",
+            "..U.MEETEI MAYEK DIGIT ZERO",
+            "U+ABF0",
+        ],
+        "body": [
+            "${1|꯰,&#xABF0;,U+ABF0,0xABF0,MEETEI MAYEK DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+ABF0",
+            "Character/Symbol: ꯰",
+            "Name: MEETEI MAYEK DIGIT ZERO",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯱ U+ABF1 MEETEI MAYEK DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.ABF1",
+            "..U.MEETEI MAYEK DIGIT ONE",
+            "U+ABF1",
+        ],
+        "body": [
+            "${1|꯱,&#xABF1;,U+ABF1,0xABF1,MEETEI MAYEK DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+ABF1",
+            "Character/Symbol: ꯱",
+            "Name: MEETEI MAYEK DIGIT ONE",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯲ U+ABF2 MEETEI MAYEK DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.ABF2",
+            "..U.MEETEI MAYEK DIGIT TWO",
+            "U+ABF2",
+        ],
+        "body": [
+            "${1|꯲,&#xABF2;,U+ABF2,0xABF2,MEETEI MAYEK DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+ABF2",
+            "Character/Symbol: ꯲",
+            "Name: MEETEI MAYEK DIGIT TWO",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯳ U+ABF3 MEETEI MAYEK DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.ABF3",
+            "..U.MEETEI MAYEK DIGIT THREE",
+            "U+ABF3",
+        ],
+        "body": [
+            "${1|꯳,&#xABF3;,U+ABF3,0xABF3,MEETEI MAYEK DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+ABF3",
+            "Character/Symbol: ꯳",
+            "Name: MEETEI MAYEK DIGIT THREE",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯴ U+ABF4 MEETEI MAYEK DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.ABF4",
+            "..U.MEETEI MAYEK DIGIT FOUR",
+            "U+ABF4",
+        ],
+        "body": [
+            "${1|꯴,&#xABF4;,U+ABF4,0xABF4,MEETEI MAYEK DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+ABF4",
+            "Character/Symbol: ꯴",
+            "Name: MEETEI MAYEK DIGIT FOUR",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯵ U+ABF5 MEETEI MAYEK DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.ABF5",
+            "..U.MEETEI MAYEK DIGIT FIVE",
+            "U+ABF5",
+        ],
+        "body": [
+            "${1|꯵,&#xABF5;,U+ABF5,0xABF5,MEETEI MAYEK DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+ABF5",
+            "Character/Symbol: ꯵",
+            "Name: MEETEI MAYEK DIGIT FIVE",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯶ U+ABF6 MEETEI MAYEK DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.ABF6",
+            "..U.MEETEI MAYEK DIGIT SIX",
+            "U+ABF6",
+        ],
+        "body": [
+            "${1|꯶,&#xABF6;,U+ABF6,0xABF6,MEETEI MAYEK DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+ABF6",
+            "Character/Symbol: ꯶",
+            "Name: MEETEI MAYEK DIGIT SIX",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯷ U+ABF7 MEETEI MAYEK DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.ABF7",
+            "..U.MEETEI MAYEK DIGIT SEVEN",
+            "U+ABF7",
+        ],
+        "body": [
+            "${1|꯷,&#xABF7;,U+ABF7,0xABF7,MEETEI MAYEK DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+ABF7",
+            "Character/Symbol: ꯷",
+            "Name: MEETEI MAYEK DIGIT SEVEN",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯸ U+ABF8 MEETEI MAYEK DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.ABF8",
+            "..U.MEETEI MAYEK DIGIT EIGHT",
+            "U+ABF8",
+        ],
+        "body": [
+            "${1|꯸,&#xABF8;,U+ABF8,0xABF8,MEETEI MAYEK DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+ABF8",
+            "Character/Symbol: ꯸",
+            "Name: MEETEI MAYEK DIGIT EIGHT",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+    "Unicode ꯹ U+ABF9 MEETEI MAYEK DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.ABF9",
+            "..U.MEETEI MAYEK DIGIT NINE",
+            "U+ABF9",
+        ],
+        "body": [
+            "${1|꯹,&#xABF9;,U+ABF9,0xABF9,MEETEI MAYEK DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+ABF9",
+            "Character/Symbol: ꯹",
+            "Name: MEETEI MAYEK DIGIT NINE",
+            "Group/Block: Meetei_Mayek",
+        ],
+    },
+
+}

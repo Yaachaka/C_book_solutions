@@ -1,0 +1,740 @@
+{
+    "Unicode ࡰ U+0870 ARABIC LETTER ALEF WITH ATTACHED FATHA": 
+    {
+        "prefix": [
+            "..U.0870",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED FATHA",
+            "U+0870",
+        ],
+        "body": [
+            "${1|ࡰ,&#x0870;,U+0870,0x0870,ARABIC LETTER ALEF WITH ATTACHED FATHA|}$2",
+        ],
+        "description": [
+            "Code: U+0870",
+            "Character/Symbol: ࡰ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED FATHA",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡱ U+0871 ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA": 
+    {
+        "prefix": [
+            "..U.0871",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA",
+            "U+0871",
+        ],
+        "body": [
+            "${1|ࡱ,&#x0871;,U+0871,0x0871,ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA|}$2",
+        ],
+        "description": [
+            "Code: U+0871",
+            "Character/Symbol: ࡱ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡲ U+0872 ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE": 
+    {
+        "prefix": [
+            "..U.0872",
+            "..U.ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE",
+            "U+0872",
+        ],
+        "body": [
+            "${1|ࡲ,&#x0872;,U+0872,0x0872,ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+0872",
+            "Character/Symbol: ࡲ",
+            "Name: ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡳ U+0873 ARABIC LETTER ALEF WITH LEFT MIDDLE STROKE": 
+    {
+        "prefix": [
+            "..U.0873",
+            "..U.ARABIC LETTER ALEF WITH LEFT MIDDLE STROKE",
+            "U+0873",
+        ],
+        "body": [
+            "${1|ࡳ,&#x0873;,U+0873,0x0873,ARABIC LETTER ALEF WITH LEFT MIDDLE STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+0873",
+            "Character/Symbol: ࡳ",
+            "Name: ARABIC LETTER ALEF WITH LEFT MIDDLE STROKE",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡴ U+0874 ARABIC LETTER ALEF WITH ATTACHED KASRA": 
+    {
+        "prefix": [
+            "..U.0874",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED KASRA",
+            "U+0874",
+        ],
+        "body": [
+            "${1|ࡴ,&#x0874;,U+0874,0x0874,ARABIC LETTER ALEF WITH ATTACHED KASRA|}$2",
+        ],
+        "description": [
+            "Code: U+0874",
+            "Character/Symbol: ࡴ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED KASRA",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡵ U+0875 ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA": 
+    {
+        "prefix": [
+            "..U.0875",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA",
+            "U+0875",
+        ],
+        "body": [
+            "${1|ࡵ,&#x0875;,U+0875,0x0875,ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA|}$2",
+        ],
+        "description": [
+            "Code: U+0875",
+            "Character/Symbol: ࡵ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡶ U+0876 ARABIC LETTER ALEF WITH ATTACHED ROUND DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.0876",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED ROUND DOT ABOVE",
+            "U+0876",
+        ],
+        "body": [
+            "${1|ࡶ,&#x0876;,U+0876,0x0876,ARABIC LETTER ALEF WITH ATTACHED ROUND DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0876",
+            "Character/Symbol: ࡶ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED ROUND DOT ABOVE",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡷ U+0877 ARABIC LETTER ALEF WITH ATTACHED RIGHT ROUND DOT": 
+    {
+        "prefix": [
+            "..U.0877",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED RIGHT ROUND DOT",
+            "U+0877",
+        ],
+        "body": [
+            "${1|ࡷ,&#x0877;,U+0877,0x0877,ARABIC LETTER ALEF WITH ATTACHED RIGHT ROUND DOT|}$2",
+        ],
+        "description": [
+            "Code: U+0877",
+            "Character/Symbol: ࡷ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED RIGHT ROUND DOT",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡸ U+0878 ARABIC LETTER ALEF WITH ATTACHED LEFT ROUND DOT": 
+    {
+        "prefix": [
+            "..U.0878",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED LEFT ROUND DOT",
+            "U+0878",
+        ],
+        "body": [
+            "${1|ࡸ,&#x0878;,U+0878,0x0878,ARABIC LETTER ALEF WITH ATTACHED LEFT ROUND DOT|}$2",
+        ],
+        "description": [
+            "Code: U+0878",
+            "Character/Symbol: ࡸ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED LEFT ROUND DOT",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡹ U+0879 ARABIC LETTER ALEF WITH ATTACHED ROUND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.0879",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED ROUND DOT BELOW",
+            "U+0879",
+        ],
+        "body": [
+            "${1|ࡹ,&#x0879;,U+0879,0x0879,ARABIC LETTER ALEF WITH ATTACHED ROUND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0879",
+            "Character/Symbol: ࡹ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED ROUND DOT BELOW",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡺ U+087A ARABIC LETTER ALEF WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.087A",
+            "..U.ARABIC LETTER ALEF WITH DOT ABOVE",
+            "U+087A",
+        ],
+        "body": [
+            "${1|ࡺ,&#x087A;,U+087A,0x087A,ARABIC LETTER ALEF WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+087A",
+            "Character/Symbol: ࡺ",
+            "Name: ARABIC LETTER ALEF WITH DOT ABOVE",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡻ U+087B ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.087B",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND DOT ABOVE",
+            "U+087B",
+        ],
+        "body": [
+            "${1|ࡻ,&#x087B;,U+087B,0x087B,ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+087B",
+            "Character/Symbol: ࡻ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND DOT ABOVE",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡼ U+087C ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.087C",
+            "..U.ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND DOT ABOVE",
+            "U+087C",
+        ],
+        "body": [
+            "${1|ࡼ,&#x087C;,U+087C,0x087C,ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+087C",
+            "Character/Symbol: ࡼ",
+            "Name: ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND DOT ABOVE",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡽ U+087D ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.087D",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND DOT ABOVE",
+            "U+087D",
+        ],
+        "body": [
+            "${1|ࡽ,&#x087D;,U+087D,0x087D,ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+087D",
+            "Character/Symbol: ࡽ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND DOT ABOVE",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡾ U+087E ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND LEFT RING": 
+    {
+        "prefix": [
+            "..U.087E",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND LEFT RING",
+            "U+087E",
+        ],
+        "body": [
+            "${1|ࡾ,&#x087E;,U+087E,0x087E,ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND LEFT RING|}$2",
+        ],
+        "description": [
+            "Code: U+087E",
+            "Character/Symbol: ࡾ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND LEFT RING",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࡿ U+087F ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND LEFT RING": 
+    {
+        "prefix": [
+            "..U.087F",
+            "..U.ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND LEFT RING",
+            "U+087F",
+        ],
+        "body": [
+            "${1|ࡿ,&#x087F;,U+087F,0x087F,ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND LEFT RING|}$2",
+        ],
+        "description": [
+            "Code: U+087F",
+            "Character/Symbol: ࡿ",
+            "Name: ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND LEFT RING",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢀ U+0880 ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND LEFT RING": 
+    {
+        "prefix": [
+            "..U.0880",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND LEFT RING",
+            "U+0880",
+        ],
+        "body": [
+            "${1|ࢀ,&#x0880;,U+0880,0x0880,ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND LEFT RING|}$2",
+        ],
+        "description": [
+            "Code: U+0880",
+            "Character/Symbol: ࢀ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND LEFT RING",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢁ U+0881 ARABIC LETTER ALEF WITH ATTACHED RIGHT HAMZA": 
+    {
+        "prefix": [
+            "..U.0881",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED RIGHT HAMZA",
+            "U+0881",
+        ],
+        "body": [
+            "${1|ࢁ,&#x0881;,U+0881,0x0881,ARABIC LETTER ALEF WITH ATTACHED RIGHT HAMZA|}$2",
+        ],
+        "description": [
+            "Code: U+0881",
+            "Character/Symbol: ࢁ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED RIGHT HAMZA",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢂ U+0882 ARABIC LETTER ALEF WITH ATTACHED LEFT HAMZA": 
+    {
+        "prefix": [
+            "..U.0882",
+            "..U.ARABIC LETTER ALEF WITH ATTACHED LEFT HAMZA",
+            "U+0882",
+        ],
+        "body": [
+            "${1|ࢂ,&#x0882;,U+0882,0x0882,ARABIC LETTER ALEF WITH ATTACHED LEFT HAMZA|}$2",
+        ],
+        "description": [
+            "Code: U+0882",
+            "Character/Symbol: ࢂ",
+            "Name: ARABIC LETTER ALEF WITH ATTACHED LEFT HAMZA",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢃ U+0883 ARABIC TATWEEL WITH OVERSTRUCK HAMZA": 
+    {
+        "prefix": [
+            "..U.0883",
+            "..U.ARABIC TATWEEL WITH OVERSTRUCK HAMZA",
+            "U+0883",
+        ],
+        "body": [
+            "${1|ࢃ,&#x0883;,U+0883,0x0883,ARABIC TATWEEL WITH OVERSTRUCK HAMZA|}$2",
+        ],
+        "description": [
+            "Code: U+0883",
+            "Character/Symbol: ࢃ",
+            "Name: ARABIC TATWEEL WITH OVERSTRUCK HAMZA",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢄ U+0884 ARABIC TATWEEL WITH OVERSTRUCK WAW": 
+    {
+        "prefix": [
+            "..U.0884",
+            "..U.ARABIC TATWEEL WITH OVERSTRUCK WAW",
+            "U+0884",
+        ],
+        "body": [
+            "${1|ࢄ,&#x0884;,U+0884,0x0884,ARABIC TATWEEL WITH OVERSTRUCK WAW|}$2",
+        ],
+        "description": [
+            "Code: U+0884",
+            "Character/Symbol: ࢄ",
+            "Name: ARABIC TATWEEL WITH OVERSTRUCK WAW",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢅ U+0885 ARABIC TATWEEL WITH TWO DOTS BELOW": 
+    {
+        "prefix": [
+            "..U.0885",
+            "..U.ARABIC TATWEEL WITH TWO DOTS BELOW",
+            "U+0885",
+        ],
+        "body": [
+            "${1|ࢅ,&#x0885;,U+0885,0x0885,ARABIC TATWEEL WITH TWO DOTS BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+0885",
+            "Character/Symbol: ࢅ",
+            "Name: ARABIC TATWEEL WITH TWO DOTS BELOW",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢆ U+0886 ARABIC LETTER THIN YEH": 
+    {
+        "prefix": [
+            "..U.0886",
+            "..U.ARABIC LETTER THIN YEH",
+            "U+0886",
+        ],
+        "body": [
+            "${1|ࢆ,&#x0886;,U+0886,0x0886,ARABIC LETTER THIN YEH|}$2",
+        ],
+        "description": [
+            "Code: U+0886",
+            "Character/Symbol: ࢆ",
+            "Name: ARABIC LETTER THIN YEH",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢇ U+0887 ARABIC BASELINE ROUND DOT": 
+    {
+        "prefix": [
+            "..U.0887",
+            "..U.ARABIC BASELINE ROUND DOT",
+            "U+0887",
+        ],
+        "body": [
+            "${1|ࢇ,&#x0887;,U+0887,0x0887,ARABIC BASELINE ROUND DOT|}$2",
+        ],
+        "description": [
+            "Code: U+0887",
+            "Character/Symbol: ࢇ",
+            "Name: ARABIC BASELINE ROUND DOT",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢈ U+0888 ARABIC RAISED ROUND DOT": 
+    {
+        "prefix": [
+            "..U.0888",
+            "..U.ARABIC RAISED ROUND DOT",
+            "U+0888",
+        ],
+        "body": [
+            "${1|࢈,&#x0888;,U+0888,0x0888,ARABIC RAISED ROUND DOT|}$2",
+        ],
+        "description": [
+            "Code: U+0888",
+            "Character/Symbol: ࢈",
+            "Name: ARABIC RAISED ROUND DOT",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢉ U+0889 ARABIC LETTER NOON WITH INVERTED SMALL V": 
+    {
+        "prefix": [
+            "..U.0889",
+            "..U.ARABIC LETTER NOON WITH INVERTED SMALL V",
+            "U+0889",
+        ],
+        "body": [
+            "${1|ࢉ,&#x0889;,U+0889,0x0889,ARABIC LETTER NOON WITH INVERTED SMALL V|}$2",
+        ],
+        "description": [
+            "Code: U+0889",
+            "Character/Symbol: ࢉ",
+            "Name: ARABIC LETTER NOON WITH INVERTED SMALL V",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢊ U+088A ARABIC LETTER HAH WITH INVERTED SMALL V BELOW": 
+    {
+        "prefix": [
+            "..U.088A",
+            "..U.ARABIC LETTER HAH WITH INVERTED SMALL V BELOW",
+            "U+088A",
+        ],
+        "body": [
+            "${1|ࢊ,&#x088A;,U+088A,0x088A,ARABIC LETTER HAH WITH INVERTED SMALL V BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+088A",
+            "Character/Symbol: ࢊ",
+            "Name: ARABIC LETTER HAH WITH INVERTED SMALL V BELOW",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢋ U+088B ARABIC LETTER TAH WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.088B",
+            "..U.ARABIC LETTER TAH WITH DOT BELOW",
+            "U+088B",
+        ],
+        "body": [
+            "${1|ࢋ,&#x088B;,U+088B,0x088B,ARABIC LETTER TAH WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+088B",
+            "Character/Symbol: ࢋ",
+            "Name: ARABIC LETTER TAH WITH DOT BELOW",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢌ U+088C ARABIC LETTER TAH WITH THREE DOTS BELOW": 
+    {
+        "prefix": [
+            "..U.088C",
+            "..U.ARABIC LETTER TAH WITH THREE DOTS BELOW",
+            "U+088C",
+        ],
+        "body": [
+            "${1|ࢌ,&#x088C;,U+088C,0x088C,ARABIC LETTER TAH WITH THREE DOTS BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+088C",
+            "Character/Symbol: ࢌ",
+            "Name: ARABIC LETTER TAH WITH THREE DOTS BELOW",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢍ U+088D ARABIC LETTER KEHEH WITH TWO DOTS VERTICALLY BELOW": 
+    {
+        "prefix": [
+            "..U.088D",
+            "..U.ARABIC LETTER KEHEH WITH TWO DOTS VERTICALLY BELOW",
+            "U+088D",
+        ],
+        "body": [
+            "${1|ࢍ,&#x088D;,U+088D,0x088D,ARABIC LETTER KEHEH WITH TWO DOTS VERTICALLY BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+088D",
+            "Character/Symbol: ࢍ",
+            "Name: ARABIC LETTER KEHEH WITH TWO DOTS VERTICALLY BELOW",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢎ U+088E ARABIC VERTICAL TAIL": 
+    {
+        "prefix": [
+            "..U.088E",
+            "..U.ARABIC VERTICAL TAIL",
+            "U+088E",
+        ],
+        "body": [
+            "${1|ࢎ,&#x088E;,U+088E,0x088E,ARABIC VERTICAL TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+088E",
+            "Character/Symbol: ࢎ",
+            "Name: ARABIC VERTICAL TAIL",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢐ U+0890 ARABIC POUND MARK ABOVE": 
+    {
+        "prefix": [
+            "..U.0890",
+            "..U.ARABIC POUND MARK ABOVE",
+            "U+0890",
+        ],
+        "body": [
+            "${1|࢐,&#x0890;,U+0890,0x0890,ARABIC POUND MARK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0890",
+            "Character/Symbol: ࢐",
+            "Name: ARABIC POUND MARK ABOVE",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢑ U+0891 ARABIC PIASTRE MARK ABOVE": 
+    {
+        "prefix": [
+            "..U.0891",
+            "..U.ARABIC PIASTRE MARK ABOVE",
+            "U+0891",
+        ],
+        "body": [
+            "${1|࢑,&#x0891;,U+0891,0x0891,ARABIC PIASTRE MARK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0891",
+            "Character/Symbol: ࢑",
+            "Name: ARABIC PIASTRE MARK ABOVE",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢘ U+0898 ARABIC SMALL HIGH WORD AL-JUZ": 
+    {
+        "prefix": [
+            "..U.0898",
+            "..U.ARABIC SMALL HIGH WORD AL-JUZ",
+            "U+0898",
+        ],
+        "body": [
+            "${1|࢘,&#x0898;,U+0898,0x0898,ARABIC SMALL HIGH WORD AL-JUZ|}$2",
+        ],
+        "description": [
+            "Code: U+0898",
+            "Character/Symbol: ࢘",
+            "Name: ARABIC SMALL HIGH WORD AL-JUZ",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢙ U+0899 ARABIC SMALL LOW WORD ISHMAAM": 
+    {
+        "prefix": [
+            "..U.0899",
+            "..U.ARABIC SMALL LOW WORD ISHMAAM",
+            "U+0899",
+        ],
+        "body": [
+            "${1|࢙,&#x0899;,U+0899,0x0899,ARABIC SMALL LOW WORD ISHMAAM|}$2",
+        ],
+        "description": [
+            "Code: U+0899",
+            "Character/Symbol: ࢙",
+            "Name: ARABIC SMALL LOW WORD ISHMAAM",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢚ U+089A ARABIC SMALL LOW WORD IMAALA": 
+    {
+        "prefix": [
+            "..U.089A",
+            "..U.ARABIC SMALL LOW WORD IMAALA",
+            "U+089A",
+        ],
+        "body": [
+            "${1|࢚,&#x089A;,U+089A,0x089A,ARABIC SMALL LOW WORD IMAALA|}$2",
+        ],
+        "description": [
+            "Code: U+089A",
+            "Character/Symbol: ࢚",
+            "Name: ARABIC SMALL LOW WORD IMAALA",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢛ U+089B ARABIC SMALL LOW WORD TASHEEL": 
+    {
+        "prefix": [
+            "..U.089B",
+            "..U.ARABIC SMALL LOW WORD TASHEEL",
+            "U+089B",
+        ],
+        "body": [
+            "${1|࢛,&#x089B;,U+089B,0x089B,ARABIC SMALL LOW WORD TASHEEL|}$2",
+        ],
+        "description": [
+            "Code: U+089B",
+            "Character/Symbol: ࢛",
+            "Name: ARABIC SMALL LOW WORD TASHEEL",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢜ U+089C ARABIC MADDA WAAJIB": 
+    {
+        "prefix": [
+            "..U.089C",
+            "..U.ARABIC MADDA WAAJIB",
+            "U+089C",
+        ],
+        "body": [
+            "${1|࢜,&#x089C;,U+089C,0x089C,ARABIC MADDA WAAJIB|}$2",
+        ],
+        "description": [
+            "Code: U+089C",
+            "Character/Symbol: ࢜",
+            "Name: ARABIC MADDA WAAJIB",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢝ U+089D ARABIC SUPERSCRIPT ALEF MOKHASSAS": 
+    {
+        "prefix": [
+            "..U.089D",
+            "..U.ARABIC SUPERSCRIPT ALEF MOKHASSAS",
+            "U+089D",
+        ],
+        "body": [
+            "${1|࢝,&#x089D;,U+089D,0x089D,ARABIC SUPERSCRIPT ALEF MOKHASSAS|}$2",
+        ],
+        "description": [
+            "Code: U+089D",
+            "Character/Symbol: ࢝",
+            "Name: ARABIC SUPERSCRIPT ALEF MOKHASSAS",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢞ U+089E ARABIC DOUBLED MADDA": 
+    {
+        "prefix": [
+            "..U.089E",
+            "..U.ARABIC DOUBLED MADDA",
+            "U+089E",
+        ],
+        "body": [
+            "${1|࢞,&#x089E;,U+089E,0x089E,ARABIC DOUBLED MADDA|}$2",
+        ],
+        "description": [
+            "Code: U+089E",
+            "Character/Symbol: ࢞",
+            "Name: ARABIC DOUBLED MADDA",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+    "Unicode ࢟ U+089F ARABIC HALF MADDA OVER MADDA": 
+    {
+        "prefix": [
+            "..U.089F",
+            "..U.ARABIC HALF MADDA OVER MADDA",
+            "U+089F",
+        ],
+        "body": [
+            "${1|࢟,&#x089F;,U+089F,0x089F,ARABIC HALF MADDA OVER MADDA|}$2",
+        ],
+        "description": [
+            "Code: U+089F",
+            "Character/Symbol: ࢟",
+            "Name: ARABIC HALF MADDA OVER MADDA",
+            "Group/Block: Arabic_Ext_B",
+        ],
+    },
+
+}

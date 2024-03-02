@@ -1,0 +1,2306 @@
+{
+    "Unicode ⤀ U+2900 RIGHTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2900",
+            "..U.RIGHTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE",
+            "U+2900",
+        ],
+        "body": [
+            "${1|⤀,&#x2900;,U+2900,0x2900,RIGHTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2900",
+            "Character/Symbol: ⤀",
+            "Name: RIGHTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤁ U+2901 RIGHTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2901",
+            "..U.RIGHTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE",
+            "U+2901",
+        ],
+        "body": [
+            "${1|⤁,&#x2901;,U+2901,0x2901,RIGHTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2901",
+            "Character/Symbol: ⤁",
+            "Name: RIGHTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤂ U+2902 LEFTWARDS DOUBLE ARROW WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2902",
+            "..U.LEFTWARDS DOUBLE ARROW WITH VERTICAL STROKE",
+            "U+2902",
+        ],
+        "body": [
+            "${1|⤂,&#x2902;,U+2902,0x2902,LEFTWARDS DOUBLE ARROW WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2902",
+            "Character/Symbol: ⤂",
+            "Name: LEFTWARDS DOUBLE ARROW WITH VERTICAL STROKE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤃ U+2903 RIGHTWARDS DOUBLE ARROW WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2903",
+            "..U.RIGHTWARDS DOUBLE ARROW WITH VERTICAL STROKE",
+            "U+2903",
+        ],
+        "body": [
+            "${1|⤃,&#x2903;,U+2903,0x2903,RIGHTWARDS DOUBLE ARROW WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2903",
+            "Character/Symbol: ⤃",
+            "Name: RIGHTWARDS DOUBLE ARROW WITH VERTICAL STROKE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤄ U+2904 LEFT RIGHT DOUBLE ARROW WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2904",
+            "..U.LEFT RIGHT DOUBLE ARROW WITH VERTICAL STROKE",
+            "U+2904",
+        ],
+        "body": [
+            "${1|⤄,&#x2904;,U+2904,0x2904,LEFT RIGHT DOUBLE ARROW WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2904",
+            "Character/Symbol: ⤄",
+            "Name: LEFT RIGHT DOUBLE ARROW WITH VERTICAL STROKE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤅ U+2905 RIGHTWARDS TWO-HEADED ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.2905",
+            "..U.RIGHTWARDS TWO-HEADED ARROW FROM BAR",
+            "U+2905",
+        ],
+        "body": [
+            "${1|⤅,&#x2905;,U+2905,0x2905,RIGHTWARDS TWO-HEADED ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2905",
+            "Character/Symbol: ⤅",
+            "Name: RIGHTWARDS TWO-HEADED ARROW FROM BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤆ U+2906 LEFTWARDS DOUBLE ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.2906",
+            "..U.LEFTWARDS DOUBLE ARROW FROM BAR",
+            "U+2906",
+        ],
+        "body": [
+            "${1|⤆,&#x2906;,U+2906,0x2906,LEFTWARDS DOUBLE ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2906",
+            "Character/Symbol: ⤆",
+            "Name: LEFTWARDS DOUBLE ARROW FROM BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤇ U+2907 RIGHTWARDS DOUBLE ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.2907",
+            "..U.RIGHTWARDS DOUBLE ARROW FROM BAR",
+            "U+2907",
+        ],
+        "body": [
+            "${1|⤇,&#x2907;,U+2907,0x2907,RIGHTWARDS DOUBLE ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2907",
+            "Character/Symbol: ⤇",
+            "Name: RIGHTWARDS DOUBLE ARROW FROM BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤈ U+2908 DOWNWARDS ARROW WITH HORIZONTAL STROKE": 
+    {
+        "prefix": [
+            "..U.2908",
+            "..U.DOWNWARDS ARROW WITH HORIZONTAL STROKE",
+            "U+2908",
+        ],
+        "body": [
+            "${1|⤈,&#x2908;,U+2908,0x2908,DOWNWARDS ARROW WITH HORIZONTAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2908",
+            "Character/Symbol: ⤈",
+            "Name: DOWNWARDS ARROW WITH HORIZONTAL STROKE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤉ U+2909 UPWARDS ARROW WITH HORIZONTAL STROKE": 
+    {
+        "prefix": [
+            "..U.2909",
+            "..U.UPWARDS ARROW WITH HORIZONTAL STROKE",
+            "U+2909",
+        ],
+        "body": [
+            "${1|⤉,&#x2909;,U+2909,0x2909,UPWARDS ARROW WITH HORIZONTAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2909",
+            "Character/Symbol: ⤉",
+            "Name: UPWARDS ARROW WITH HORIZONTAL STROKE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤊ U+290A UPWARDS TRIPLE ARROW": 
+    {
+        "prefix": [
+            "..U.290A",
+            "..U.UPWARDS TRIPLE ARROW",
+            "U+290A",
+        ],
+        "body": [
+            "${1|⤊,&#x290A;,U+290A,0x290A,UPWARDS TRIPLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+290A",
+            "Character/Symbol: ⤊",
+            "Name: UPWARDS TRIPLE ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤋ U+290B DOWNWARDS TRIPLE ARROW": 
+    {
+        "prefix": [
+            "..U.290B",
+            "..U.DOWNWARDS TRIPLE ARROW",
+            "U+290B",
+        ],
+        "body": [
+            "${1|⤋,&#x290B;,U+290B,0x290B,DOWNWARDS TRIPLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+290B",
+            "Character/Symbol: ⤋",
+            "Name: DOWNWARDS TRIPLE ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤌ U+290C LEFTWARDS DOUBLE DASH ARROW": 
+    {
+        "prefix": [
+            "..U.290C",
+            "..U.LEFTWARDS DOUBLE DASH ARROW",
+            "U+290C",
+        ],
+        "body": [
+            "${1|⤌,&#x290C;,U+290C,0x290C,LEFTWARDS DOUBLE DASH ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+290C",
+            "Character/Symbol: ⤌",
+            "Name: LEFTWARDS DOUBLE DASH ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤍ U+290D RIGHTWARDS DOUBLE DASH ARROW": 
+    {
+        "prefix": [
+            "..U.290D",
+            "..U.RIGHTWARDS DOUBLE DASH ARROW",
+            "U+290D",
+        ],
+        "body": [
+            "${1|⤍,&#x290D;,U+290D,0x290D,RIGHTWARDS DOUBLE DASH ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+290D",
+            "Character/Symbol: ⤍",
+            "Name: RIGHTWARDS DOUBLE DASH ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤎ U+290E LEFTWARDS TRIPLE DASH ARROW": 
+    {
+        "prefix": [
+            "..U.290E",
+            "..U.LEFTWARDS TRIPLE DASH ARROW",
+            "U+290E",
+        ],
+        "body": [
+            "${1|⤎,&#x290E;,U+290E,0x290E,LEFTWARDS TRIPLE DASH ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+290E",
+            "Character/Symbol: ⤎",
+            "Name: LEFTWARDS TRIPLE DASH ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤏ U+290F RIGHTWARDS TRIPLE DASH ARROW": 
+    {
+        "prefix": [
+            "..U.290F",
+            "..U.RIGHTWARDS TRIPLE DASH ARROW",
+            "U+290F",
+        ],
+        "body": [
+            "${1|⤏,&#x290F;,U+290F,0x290F,RIGHTWARDS TRIPLE DASH ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+290F",
+            "Character/Symbol: ⤏",
+            "Name: RIGHTWARDS TRIPLE DASH ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤐ U+2910 RIGHTWARDS TWO-HEADED TRIPLE DASH ARROW": 
+    {
+        "prefix": [
+            "..U.2910",
+            "..U.RIGHTWARDS TWO-HEADED TRIPLE DASH ARROW",
+            "U+2910",
+        ],
+        "body": [
+            "${1|⤐,&#x2910;,U+2910,0x2910,RIGHTWARDS TWO-HEADED TRIPLE DASH ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2910",
+            "Character/Symbol: ⤐",
+            "Name: RIGHTWARDS TWO-HEADED TRIPLE DASH ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤑ U+2911 RIGHTWARDS ARROW WITH DOTTED STEM": 
+    {
+        "prefix": [
+            "..U.2911",
+            "..U.RIGHTWARDS ARROW WITH DOTTED STEM",
+            "U+2911",
+        ],
+        "body": [
+            "${1|⤑,&#x2911;,U+2911,0x2911,RIGHTWARDS ARROW WITH DOTTED STEM|}$2",
+        ],
+        "description": [
+            "Code: U+2911",
+            "Character/Symbol: ⤑",
+            "Name: RIGHTWARDS ARROW WITH DOTTED STEM",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤒ U+2912 UPWARDS ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.2912",
+            "..U.UPWARDS ARROW TO BAR",
+            "U+2912",
+        ],
+        "body": [
+            "${1|⤒,&#x2912;,U+2912,0x2912,UPWARDS ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2912",
+            "Character/Symbol: ⤒",
+            "Name: UPWARDS ARROW TO BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤓ U+2913 DOWNWARDS ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.2913",
+            "..U.DOWNWARDS ARROW TO BAR",
+            "U+2913",
+        ],
+        "body": [
+            "${1|⤓,&#x2913;,U+2913,0x2913,DOWNWARDS ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2913",
+            "Character/Symbol: ⤓",
+            "Name: DOWNWARDS ARROW TO BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤔ U+2914 RIGHTWARDS ARROW WITH TAIL WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2914",
+            "..U.RIGHTWARDS ARROW WITH TAIL WITH VERTICAL STROKE",
+            "U+2914",
+        ],
+        "body": [
+            "${1|⤔,&#x2914;,U+2914,0x2914,RIGHTWARDS ARROW WITH TAIL WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2914",
+            "Character/Symbol: ⤔",
+            "Name: RIGHTWARDS ARROW WITH TAIL WITH VERTICAL STROKE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤕ U+2915 RIGHTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2915",
+            "..U.RIGHTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE",
+            "U+2915",
+        ],
+        "body": [
+            "${1|⤕,&#x2915;,U+2915,0x2915,RIGHTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2915",
+            "Character/Symbol: ⤕",
+            "Name: RIGHTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤖ U+2916 RIGHTWARDS TWO-HEADED ARROW WITH TAIL": 
+    {
+        "prefix": [
+            "..U.2916",
+            "..U.RIGHTWARDS TWO-HEADED ARROW WITH TAIL",
+            "U+2916",
+        ],
+        "body": [
+            "${1|⤖,&#x2916;,U+2916,0x2916,RIGHTWARDS TWO-HEADED ARROW WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+2916",
+            "Character/Symbol: ⤖",
+            "Name: RIGHTWARDS TWO-HEADED ARROW WITH TAIL",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤗ U+2917 RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2917",
+            "..U.RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE",
+            "U+2917",
+        ],
+        "body": [
+            "${1|⤗,&#x2917;,U+2917,0x2917,RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2917",
+            "Character/Symbol: ⤗",
+            "Name: RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤘ U+2918 RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2918",
+            "..U.RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE",
+            "U+2918",
+        ],
+        "body": [
+            "${1|⤘,&#x2918;,U+2918,0x2918,RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2918",
+            "Character/Symbol: ⤘",
+            "Name: RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤙ U+2919 LEFTWARDS ARROW-TAIL": 
+    {
+        "prefix": [
+            "..U.2919",
+            "..U.LEFTWARDS ARROW-TAIL",
+            "U+2919",
+        ],
+        "body": [
+            "${1|⤙,&#x2919;,U+2919,0x2919,LEFTWARDS ARROW-TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+2919",
+            "Character/Symbol: ⤙",
+            "Name: LEFTWARDS ARROW-TAIL",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤚ U+291A RIGHTWARDS ARROW-TAIL": 
+    {
+        "prefix": [
+            "..U.291A",
+            "..U.RIGHTWARDS ARROW-TAIL",
+            "U+291A",
+        ],
+        "body": [
+            "${1|⤚,&#x291A;,U+291A,0x291A,RIGHTWARDS ARROW-TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+291A",
+            "Character/Symbol: ⤚",
+            "Name: RIGHTWARDS ARROW-TAIL",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤛ U+291B LEFTWARDS DOUBLE ARROW-TAIL": 
+    {
+        "prefix": [
+            "..U.291B",
+            "..U.LEFTWARDS DOUBLE ARROW-TAIL",
+            "U+291B",
+        ],
+        "body": [
+            "${1|⤛,&#x291B;,U+291B,0x291B,LEFTWARDS DOUBLE ARROW-TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+291B",
+            "Character/Symbol: ⤛",
+            "Name: LEFTWARDS DOUBLE ARROW-TAIL",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤜ U+291C RIGHTWARDS DOUBLE ARROW-TAIL": 
+    {
+        "prefix": [
+            "..U.291C",
+            "..U.RIGHTWARDS DOUBLE ARROW-TAIL",
+            "U+291C",
+        ],
+        "body": [
+            "${1|⤜,&#x291C;,U+291C,0x291C,RIGHTWARDS DOUBLE ARROW-TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+291C",
+            "Character/Symbol: ⤜",
+            "Name: RIGHTWARDS DOUBLE ARROW-TAIL",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤝ U+291D LEFTWARDS ARROW TO BLACK DIAMOND": 
+    {
+        "prefix": [
+            "..U.291D",
+            "..U.LEFTWARDS ARROW TO BLACK DIAMOND",
+            "U+291D",
+        ],
+        "body": [
+            "${1|⤝,&#x291D;,U+291D,0x291D,LEFTWARDS ARROW TO BLACK DIAMOND|}$2",
+        ],
+        "description": [
+            "Code: U+291D",
+            "Character/Symbol: ⤝",
+            "Name: LEFTWARDS ARROW TO BLACK DIAMOND",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤞ U+291E RIGHTWARDS ARROW TO BLACK DIAMOND": 
+    {
+        "prefix": [
+            "..U.291E",
+            "..U.RIGHTWARDS ARROW TO BLACK DIAMOND",
+            "U+291E",
+        ],
+        "body": [
+            "${1|⤞,&#x291E;,U+291E,0x291E,RIGHTWARDS ARROW TO BLACK DIAMOND|}$2",
+        ],
+        "description": [
+            "Code: U+291E",
+            "Character/Symbol: ⤞",
+            "Name: RIGHTWARDS ARROW TO BLACK DIAMOND",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤟ U+291F LEFTWARDS ARROW FROM BAR TO BLACK DIAMOND": 
+    {
+        "prefix": [
+            "..U.291F",
+            "..U.LEFTWARDS ARROW FROM BAR TO BLACK DIAMOND",
+            "U+291F",
+        ],
+        "body": [
+            "${1|⤟,&#x291F;,U+291F,0x291F,LEFTWARDS ARROW FROM BAR TO BLACK DIAMOND|}$2",
+        ],
+        "description": [
+            "Code: U+291F",
+            "Character/Symbol: ⤟",
+            "Name: LEFTWARDS ARROW FROM BAR TO BLACK DIAMOND",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤠ U+2920 RIGHTWARDS ARROW FROM BAR TO BLACK DIAMOND": 
+    {
+        "prefix": [
+            "..U.2920",
+            "..U.RIGHTWARDS ARROW FROM BAR TO BLACK DIAMOND",
+            "U+2920",
+        ],
+        "body": [
+            "${1|⤠,&#x2920;,U+2920,0x2920,RIGHTWARDS ARROW FROM BAR TO BLACK DIAMOND|}$2",
+        ],
+        "description": [
+            "Code: U+2920",
+            "Character/Symbol: ⤠",
+            "Name: RIGHTWARDS ARROW FROM BAR TO BLACK DIAMOND",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤡ U+2921 NORTH WEST AND SOUTH EAST ARROW": 
+    {
+        "prefix": [
+            "..U.2921",
+            "..U.NORTH WEST AND SOUTH EAST ARROW",
+            "U+2921",
+        ],
+        "body": [
+            "${1|⤡,&#x2921;,U+2921,0x2921,NORTH WEST AND SOUTH EAST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2921",
+            "Character/Symbol: ⤡",
+            "Name: NORTH WEST AND SOUTH EAST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤢ U+2922 NORTH EAST AND SOUTH WEST ARROW": 
+    {
+        "prefix": [
+            "..U.2922",
+            "..U.NORTH EAST AND SOUTH WEST ARROW",
+            "U+2922",
+        ],
+        "body": [
+            "${1|⤢,&#x2922;,U+2922,0x2922,NORTH EAST AND SOUTH WEST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2922",
+            "Character/Symbol: ⤢",
+            "Name: NORTH EAST AND SOUTH WEST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤣ U+2923 NORTH WEST ARROW WITH HOOK": 
+    {
+        "prefix": [
+            "..U.2923",
+            "..U.NORTH WEST ARROW WITH HOOK",
+            "U+2923",
+        ],
+        "body": [
+            "${1|⤣,&#x2923;,U+2923,0x2923,NORTH WEST ARROW WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+2923",
+            "Character/Symbol: ⤣",
+            "Name: NORTH WEST ARROW WITH HOOK",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤤ U+2924 NORTH EAST ARROW WITH HOOK": 
+    {
+        "prefix": [
+            "..U.2924",
+            "..U.NORTH EAST ARROW WITH HOOK",
+            "U+2924",
+        ],
+        "body": [
+            "${1|⤤,&#x2924;,U+2924,0x2924,NORTH EAST ARROW WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+2924",
+            "Character/Symbol: ⤤",
+            "Name: NORTH EAST ARROW WITH HOOK",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤥ U+2925 SOUTH EAST ARROW WITH HOOK": 
+    {
+        "prefix": [
+            "..U.2925",
+            "..U.SOUTH EAST ARROW WITH HOOK",
+            "U+2925",
+        ],
+        "body": [
+            "${1|⤥,&#x2925;,U+2925,0x2925,SOUTH EAST ARROW WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+2925",
+            "Character/Symbol: ⤥",
+            "Name: SOUTH EAST ARROW WITH HOOK",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤦ U+2926 SOUTH WEST ARROW WITH HOOK": 
+    {
+        "prefix": [
+            "..U.2926",
+            "..U.SOUTH WEST ARROW WITH HOOK",
+            "U+2926",
+        ],
+        "body": [
+            "${1|⤦,&#x2926;,U+2926,0x2926,SOUTH WEST ARROW WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+2926",
+            "Character/Symbol: ⤦",
+            "Name: SOUTH WEST ARROW WITH HOOK",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤧ U+2927 NORTH WEST ARROW AND NORTH EAST ARROW": 
+    {
+        "prefix": [
+            "..U.2927",
+            "..U.NORTH WEST ARROW AND NORTH EAST ARROW",
+            "U+2927",
+        ],
+        "body": [
+            "${1|⤧,&#x2927;,U+2927,0x2927,NORTH WEST ARROW AND NORTH EAST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2927",
+            "Character/Symbol: ⤧",
+            "Name: NORTH WEST ARROW AND NORTH EAST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤨ U+2928 NORTH EAST ARROW AND SOUTH EAST ARROW": 
+    {
+        "prefix": [
+            "..U.2928",
+            "..U.NORTH EAST ARROW AND SOUTH EAST ARROW",
+            "U+2928",
+        ],
+        "body": [
+            "${1|⤨,&#x2928;,U+2928,0x2928,NORTH EAST ARROW AND SOUTH EAST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2928",
+            "Character/Symbol: ⤨",
+            "Name: NORTH EAST ARROW AND SOUTH EAST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤩ U+2929 SOUTH EAST ARROW AND SOUTH WEST ARROW": 
+    {
+        "prefix": [
+            "..U.2929",
+            "..U.SOUTH EAST ARROW AND SOUTH WEST ARROW",
+            "U+2929",
+        ],
+        "body": [
+            "${1|⤩,&#x2929;,U+2929,0x2929,SOUTH EAST ARROW AND SOUTH WEST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2929",
+            "Character/Symbol: ⤩",
+            "Name: SOUTH EAST ARROW AND SOUTH WEST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤪ U+292A SOUTH WEST ARROW AND NORTH WEST ARROW": 
+    {
+        "prefix": [
+            "..U.292A",
+            "..U.SOUTH WEST ARROW AND NORTH WEST ARROW",
+            "U+292A",
+        ],
+        "body": [
+            "${1|⤪,&#x292A;,U+292A,0x292A,SOUTH WEST ARROW AND NORTH WEST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+292A",
+            "Character/Symbol: ⤪",
+            "Name: SOUTH WEST ARROW AND NORTH WEST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤫ U+292B RISING DIAGONAL CROSSING FALLING DIAGONAL": 
+    {
+        "prefix": [
+            "..U.292B",
+            "..U.RISING DIAGONAL CROSSING FALLING DIAGONAL",
+            "U+292B",
+        ],
+        "body": [
+            "${1|⤫,&#x292B;,U+292B,0x292B,RISING DIAGONAL CROSSING FALLING DIAGONAL|}$2",
+        ],
+        "description": [
+            "Code: U+292B",
+            "Character/Symbol: ⤫",
+            "Name: RISING DIAGONAL CROSSING FALLING DIAGONAL",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤬ U+292C FALLING DIAGONAL CROSSING RISING DIAGONAL": 
+    {
+        "prefix": [
+            "..U.292C",
+            "..U.FALLING DIAGONAL CROSSING RISING DIAGONAL",
+            "U+292C",
+        ],
+        "body": [
+            "${1|⤬,&#x292C;,U+292C,0x292C,FALLING DIAGONAL CROSSING RISING DIAGONAL|}$2",
+        ],
+        "description": [
+            "Code: U+292C",
+            "Character/Symbol: ⤬",
+            "Name: FALLING DIAGONAL CROSSING RISING DIAGONAL",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤭ U+292D SOUTH EAST ARROW CROSSING NORTH EAST ARROW": 
+    {
+        "prefix": [
+            "..U.292D",
+            "..U.SOUTH EAST ARROW CROSSING NORTH EAST ARROW",
+            "U+292D",
+        ],
+        "body": [
+            "${1|⤭,&#x292D;,U+292D,0x292D,SOUTH EAST ARROW CROSSING NORTH EAST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+292D",
+            "Character/Symbol: ⤭",
+            "Name: SOUTH EAST ARROW CROSSING NORTH EAST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤮ U+292E NORTH EAST ARROW CROSSING SOUTH EAST ARROW": 
+    {
+        "prefix": [
+            "..U.292E",
+            "..U.NORTH EAST ARROW CROSSING SOUTH EAST ARROW",
+            "U+292E",
+        ],
+        "body": [
+            "${1|⤮,&#x292E;,U+292E,0x292E,NORTH EAST ARROW CROSSING SOUTH EAST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+292E",
+            "Character/Symbol: ⤮",
+            "Name: NORTH EAST ARROW CROSSING SOUTH EAST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤯ U+292F FALLING DIAGONAL CROSSING NORTH EAST ARROW": 
+    {
+        "prefix": [
+            "..U.292F",
+            "..U.FALLING DIAGONAL CROSSING NORTH EAST ARROW",
+            "U+292F",
+        ],
+        "body": [
+            "${1|⤯,&#x292F;,U+292F,0x292F,FALLING DIAGONAL CROSSING NORTH EAST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+292F",
+            "Character/Symbol: ⤯",
+            "Name: FALLING DIAGONAL CROSSING NORTH EAST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤰ U+2930 RISING DIAGONAL CROSSING SOUTH EAST ARROW": 
+    {
+        "prefix": [
+            "..U.2930",
+            "..U.RISING DIAGONAL CROSSING SOUTH EAST ARROW",
+            "U+2930",
+        ],
+        "body": [
+            "${1|⤰,&#x2930;,U+2930,0x2930,RISING DIAGONAL CROSSING SOUTH EAST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2930",
+            "Character/Symbol: ⤰",
+            "Name: RISING DIAGONAL CROSSING SOUTH EAST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤱ U+2931 NORTH EAST ARROW CROSSING NORTH WEST ARROW": 
+    {
+        "prefix": [
+            "..U.2931",
+            "..U.NORTH EAST ARROW CROSSING NORTH WEST ARROW",
+            "U+2931",
+        ],
+        "body": [
+            "${1|⤱,&#x2931;,U+2931,0x2931,NORTH EAST ARROW CROSSING NORTH WEST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2931",
+            "Character/Symbol: ⤱",
+            "Name: NORTH EAST ARROW CROSSING NORTH WEST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤲ U+2932 NORTH WEST ARROW CROSSING NORTH EAST ARROW": 
+    {
+        "prefix": [
+            "..U.2932",
+            "..U.NORTH WEST ARROW CROSSING NORTH EAST ARROW",
+            "U+2932",
+        ],
+        "body": [
+            "${1|⤲,&#x2932;,U+2932,0x2932,NORTH WEST ARROW CROSSING NORTH EAST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2932",
+            "Character/Symbol: ⤲",
+            "Name: NORTH WEST ARROW CROSSING NORTH EAST ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤳ U+2933 WAVE ARROW POINTING DIRECTLY RIGHT": 
+    {
+        "prefix": [
+            "..U.2933",
+            "..U.WAVE ARROW POINTING DIRECTLY RIGHT",
+            "U+2933",
+        ],
+        "body": [
+            "${1|⤳,&#x2933;,U+2933,0x2933,WAVE ARROW POINTING DIRECTLY RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2933",
+            "Character/Symbol: ⤳",
+            "Name: WAVE ARROW POINTING DIRECTLY RIGHT",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤴ U+2934 ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS": 
+    {
+        "prefix": [
+            "..U.2934",
+            "..U.ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS",
+            "U+2934",
+        ],
+        "body": [
+            "${1|⤴,&#x2934;,U+2934,0x2934,ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2934",
+            "Character/Symbol: ⤴",
+            "Name: ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤵ U+2935 ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS": 
+    {
+        "prefix": [
+            "..U.2935",
+            "..U.ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS",
+            "U+2935",
+        ],
+        "body": [
+            "${1|⤵,&#x2935;,U+2935,0x2935,ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2935",
+            "Character/Symbol: ⤵",
+            "Name: ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤶ U+2936 ARROW POINTING DOWNWARDS THEN CURVING LEFTWARDS": 
+    {
+        "prefix": [
+            "..U.2936",
+            "..U.ARROW POINTING DOWNWARDS THEN CURVING LEFTWARDS",
+            "U+2936",
+        ],
+        "body": [
+            "${1|⤶,&#x2936;,U+2936,0x2936,ARROW POINTING DOWNWARDS THEN CURVING LEFTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2936",
+            "Character/Symbol: ⤶",
+            "Name: ARROW POINTING DOWNWARDS THEN CURVING LEFTWARDS",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤷ U+2937 ARROW POINTING DOWNWARDS THEN CURVING RIGHTWARDS": 
+    {
+        "prefix": [
+            "..U.2937",
+            "..U.ARROW POINTING DOWNWARDS THEN CURVING RIGHTWARDS",
+            "U+2937",
+        ],
+        "body": [
+            "${1|⤷,&#x2937;,U+2937,0x2937,ARROW POINTING DOWNWARDS THEN CURVING RIGHTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2937",
+            "Character/Symbol: ⤷",
+            "Name: ARROW POINTING DOWNWARDS THEN CURVING RIGHTWARDS",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤸ U+2938 RIGHT-SIDE ARC CLOCKWISE ARROW": 
+    {
+        "prefix": [
+            "..U.2938",
+            "..U.RIGHT-SIDE ARC CLOCKWISE ARROW",
+            "U+2938",
+        ],
+        "body": [
+            "${1|⤸,&#x2938;,U+2938,0x2938,RIGHT-SIDE ARC CLOCKWISE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2938",
+            "Character/Symbol: ⤸",
+            "Name: RIGHT-SIDE ARC CLOCKWISE ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤹ U+2939 LEFT-SIDE ARC ANTICLOCKWISE ARROW": 
+    {
+        "prefix": [
+            "..U.2939",
+            "..U.LEFT-SIDE ARC ANTICLOCKWISE ARROW",
+            "U+2939",
+        ],
+        "body": [
+            "${1|⤹,&#x2939;,U+2939,0x2939,LEFT-SIDE ARC ANTICLOCKWISE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2939",
+            "Character/Symbol: ⤹",
+            "Name: LEFT-SIDE ARC ANTICLOCKWISE ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤺ U+293A TOP ARC ANTICLOCKWISE ARROW": 
+    {
+        "prefix": [
+            "..U.293A",
+            "..U.TOP ARC ANTICLOCKWISE ARROW",
+            "U+293A",
+        ],
+        "body": [
+            "${1|⤺,&#x293A;,U+293A,0x293A,TOP ARC ANTICLOCKWISE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+293A",
+            "Character/Symbol: ⤺",
+            "Name: TOP ARC ANTICLOCKWISE ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤻ U+293B BOTTOM ARC ANTICLOCKWISE ARROW": 
+    {
+        "prefix": [
+            "..U.293B",
+            "..U.BOTTOM ARC ANTICLOCKWISE ARROW",
+            "U+293B",
+        ],
+        "body": [
+            "${1|⤻,&#x293B;,U+293B,0x293B,BOTTOM ARC ANTICLOCKWISE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+293B",
+            "Character/Symbol: ⤻",
+            "Name: BOTTOM ARC ANTICLOCKWISE ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤼ U+293C TOP ARC CLOCKWISE ARROW WITH MINUS": 
+    {
+        "prefix": [
+            "..U.293C",
+            "..U.TOP ARC CLOCKWISE ARROW WITH MINUS",
+            "U+293C",
+        ],
+        "body": [
+            "${1|⤼,&#x293C;,U+293C,0x293C,TOP ARC CLOCKWISE ARROW WITH MINUS|}$2",
+        ],
+        "description": [
+            "Code: U+293C",
+            "Character/Symbol: ⤼",
+            "Name: TOP ARC CLOCKWISE ARROW WITH MINUS",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤽ U+293D TOP ARC ANTICLOCKWISE ARROW WITH PLUS": 
+    {
+        "prefix": [
+            "..U.293D",
+            "..U.TOP ARC ANTICLOCKWISE ARROW WITH PLUS",
+            "U+293D",
+        ],
+        "body": [
+            "${1|⤽,&#x293D;,U+293D,0x293D,TOP ARC ANTICLOCKWISE ARROW WITH PLUS|}$2",
+        ],
+        "description": [
+            "Code: U+293D",
+            "Character/Symbol: ⤽",
+            "Name: TOP ARC ANTICLOCKWISE ARROW WITH PLUS",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤾ U+293E LOWER RIGHT SEMICIRCULAR CLOCKWISE ARROW": 
+    {
+        "prefix": [
+            "..U.293E",
+            "..U.LOWER RIGHT SEMICIRCULAR CLOCKWISE ARROW",
+            "U+293E",
+        ],
+        "body": [
+            "${1|⤾,&#x293E;,U+293E,0x293E,LOWER RIGHT SEMICIRCULAR CLOCKWISE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+293E",
+            "Character/Symbol: ⤾",
+            "Name: LOWER RIGHT SEMICIRCULAR CLOCKWISE ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⤿ U+293F LOWER LEFT SEMICIRCULAR ANTICLOCKWISE ARROW": 
+    {
+        "prefix": [
+            "..U.293F",
+            "..U.LOWER LEFT SEMICIRCULAR ANTICLOCKWISE ARROW",
+            "U+293F",
+        ],
+        "body": [
+            "${1|⤿,&#x293F;,U+293F,0x293F,LOWER LEFT SEMICIRCULAR ANTICLOCKWISE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+293F",
+            "Character/Symbol: ⤿",
+            "Name: LOWER LEFT SEMICIRCULAR ANTICLOCKWISE ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥀ U+2940 ANTICLOCKWISE CLOSED CIRCLE ARROW": 
+    {
+        "prefix": [
+            "..U.2940",
+            "..U.ANTICLOCKWISE CLOSED CIRCLE ARROW",
+            "U+2940",
+        ],
+        "body": [
+            "${1|⥀,&#x2940;,U+2940,0x2940,ANTICLOCKWISE CLOSED CIRCLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2940",
+            "Character/Symbol: ⥀",
+            "Name: ANTICLOCKWISE CLOSED CIRCLE ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥁ U+2941 CLOCKWISE CLOSED CIRCLE ARROW": 
+    {
+        "prefix": [
+            "..U.2941",
+            "..U.CLOCKWISE CLOSED CIRCLE ARROW",
+            "U+2941",
+        ],
+        "body": [
+            "${1|⥁,&#x2941;,U+2941,0x2941,CLOCKWISE CLOSED CIRCLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2941",
+            "Character/Symbol: ⥁",
+            "Name: CLOCKWISE CLOSED CIRCLE ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥂ U+2942 RIGHTWARDS ARROW ABOVE SHORT LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2942",
+            "..U.RIGHTWARDS ARROW ABOVE SHORT LEFTWARDS ARROW",
+            "U+2942",
+        ],
+        "body": [
+            "${1|⥂,&#x2942;,U+2942,0x2942,RIGHTWARDS ARROW ABOVE SHORT LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2942",
+            "Character/Symbol: ⥂",
+            "Name: RIGHTWARDS ARROW ABOVE SHORT LEFTWARDS ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥃ U+2943 LEFTWARDS ARROW ABOVE SHORT RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2943",
+            "..U.LEFTWARDS ARROW ABOVE SHORT RIGHTWARDS ARROW",
+            "U+2943",
+        ],
+        "body": [
+            "${1|⥃,&#x2943;,U+2943,0x2943,LEFTWARDS ARROW ABOVE SHORT RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2943",
+            "Character/Symbol: ⥃",
+            "Name: LEFTWARDS ARROW ABOVE SHORT RIGHTWARDS ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥄ U+2944 SHORT RIGHTWARDS ARROW ABOVE LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2944",
+            "..U.SHORT RIGHTWARDS ARROW ABOVE LEFTWARDS ARROW",
+            "U+2944",
+        ],
+        "body": [
+            "${1|⥄,&#x2944;,U+2944,0x2944,SHORT RIGHTWARDS ARROW ABOVE LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2944",
+            "Character/Symbol: ⥄",
+            "Name: SHORT RIGHTWARDS ARROW ABOVE LEFTWARDS ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥅ U+2945 RIGHTWARDS ARROW WITH PLUS BELOW": 
+    {
+        "prefix": [
+            "..U.2945",
+            "..U.RIGHTWARDS ARROW WITH PLUS BELOW",
+            "U+2945",
+        ],
+        "body": [
+            "${1|⥅,&#x2945;,U+2945,0x2945,RIGHTWARDS ARROW WITH PLUS BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+2945",
+            "Character/Symbol: ⥅",
+            "Name: RIGHTWARDS ARROW WITH PLUS BELOW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥆ U+2946 LEFTWARDS ARROW WITH PLUS BELOW": 
+    {
+        "prefix": [
+            "..U.2946",
+            "..U.LEFTWARDS ARROW WITH PLUS BELOW",
+            "U+2946",
+        ],
+        "body": [
+            "${1|⥆,&#x2946;,U+2946,0x2946,LEFTWARDS ARROW WITH PLUS BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+2946",
+            "Character/Symbol: ⥆",
+            "Name: LEFTWARDS ARROW WITH PLUS BELOW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥇ U+2947 RIGHTWARDS ARROW THROUGH X": 
+    {
+        "prefix": [
+            "..U.2947",
+            "..U.RIGHTWARDS ARROW THROUGH X",
+            "U+2947",
+        ],
+        "body": [
+            "${1|⥇,&#x2947;,U+2947,0x2947,RIGHTWARDS ARROW THROUGH X|}$2",
+        ],
+        "description": [
+            "Code: U+2947",
+            "Character/Symbol: ⥇",
+            "Name: RIGHTWARDS ARROW THROUGH X",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥈ U+2948 LEFT RIGHT ARROW THROUGH SMALL CIRCLE": 
+    {
+        "prefix": [
+            "..U.2948",
+            "..U.LEFT RIGHT ARROW THROUGH SMALL CIRCLE",
+            "U+2948",
+        ],
+        "body": [
+            "${1|⥈,&#x2948;,U+2948,0x2948,LEFT RIGHT ARROW THROUGH SMALL CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+2948",
+            "Character/Symbol: ⥈",
+            "Name: LEFT RIGHT ARROW THROUGH SMALL CIRCLE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥉ U+2949 UPWARDS TWO-HEADED ARROW FROM SMALL CIRCLE": 
+    {
+        "prefix": [
+            "..U.2949",
+            "..U.UPWARDS TWO-HEADED ARROW FROM SMALL CIRCLE",
+            "U+2949",
+        ],
+        "body": [
+            "${1|⥉,&#x2949;,U+2949,0x2949,UPWARDS TWO-HEADED ARROW FROM SMALL CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+2949",
+            "Character/Symbol: ⥉",
+            "Name: UPWARDS TWO-HEADED ARROW FROM SMALL CIRCLE",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥊ U+294A LEFT BARB UP RIGHT BARB DOWN HARPOON": 
+    {
+        "prefix": [
+            "..U.294A",
+            "..U.LEFT BARB UP RIGHT BARB DOWN HARPOON",
+            "U+294A",
+        ],
+        "body": [
+            "${1|⥊,&#x294A;,U+294A,0x294A,LEFT BARB UP RIGHT BARB DOWN HARPOON|}$2",
+        ],
+        "description": [
+            "Code: U+294A",
+            "Character/Symbol: ⥊",
+            "Name: LEFT BARB UP RIGHT BARB DOWN HARPOON",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥋ U+294B LEFT BARB DOWN RIGHT BARB UP HARPOON": 
+    {
+        "prefix": [
+            "..U.294B",
+            "..U.LEFT BARB DOWN RIGHT BARB UP HARPOON",
+            "U+294B",
+        ],
+        "body": [
+            "${1|⥋,&#x294B;,U+294B,0x294B,LEFT BARB DOWN RIGHT BARB UP HARPOON|}$2",
+        ],
+        "description": [
+            "Code: U+294B",
+            "Character/Symbol: ⥋",
+            "Name: LEFT BARB DOWN RIGHT BARB UP HARPOON",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥌ U+294C UP BARB RIGHT DOWN BARB LEFT HARPOON": 
+    {
+        "prefix": [
+            "..U.294C",
+            "..U.UP BARB RIGHT DOWN BARB LEFT HARPOON",
+            "U+294C",
+        ],
+        "body": [
+            "${1|⥌,&#x294C;,U+294C,0x294C,UP BARB RIGHT DOWN BARB LEFT HARPOON|}$2",
+        ],
+        "description": [
+            "Code: U+294C",
+            "Character/Symbol: ⥌",
+            "Name: UP BARB RIGHT DOWN BARB LEFT HARPOON",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥍ U+294D UP BARB LEFT DOWN BARB RIGHT HARPOON": 
+    {
+        "prefix": [
+            "..U.294D",
+            "..U.UP BARB LEFT DOWN BARB RIGHT HARPOON",
+            "U+294D",
+        ],
+        "body": [
+            "${1|⥍,&#x294D;,U+294D,0x294D,UP BARB LEFT DOWN BARB RIGHT HARPOON|}$2",
+        ],
+        "description": [
+            "Code: U+294D",
+            "Character/Symbol: ⥍",
+            "Name: UP BARB LEFT DOWN BARB RIGHT HARPOON",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥎ U+294E LEFT BARB UP RIGHT BARB UP HARPOON": 
+    {
+        "prefix": [
+            "..U.294E",
+            "..U.LEFT BARB UP RIGHT BARB UP HARPOON",
+            "U+294E",
+        ],
+        "body": [
+            "${1|⥎,&#x294E;,U+294E,0x294E,LEFT BARB UP RIGHT BARB UP HARPOON|}$2",
+        ],
+        "description": [
+            "Code: U+294E",
+            "Character/Symbol: ⥎",
+            "Name: LEFT BARB UP RIGHT BARB UP HARPOON",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥏ U+294F UP BARB RIGHT DOWN BARB RIGHT HARPOON": 
+    {
+        "prefix": [
+            "..U.294F",
+            "..U.UP BARB RIGHT DOWN BARB RIGHT HARPOON",
+            "U+294F",
+        ],
+        "body": [
+            "${1|⥏,&#x294F;,U+294F,0x294F,UP BARB RIGHT DOWN BARB RIGHT HARPOON|}$2",
+        ],
+        "description": [
+            "Code: U+294F",
+            "Character/Symbol: ⥏",
+            "Name: UP BARB RIGHT DOWN BARB RIGHT HARPOON",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥐ U+2950 LEFT BARB DOWN RIGHT BARB DOWN HARPOON": 
+    {
+        "prefix": [
+            "..U.2950",
+            "..U.LEFT BARB DOWN RIGHT BARB DOWN HARPOON",
+            "U+2950",
+        ],
+        "body": [
+            "${1|⥐,&#x2950;,U+2950,0x2950,LEFT BARB DOWN RIGHT BARB DOWN HARPOON|}$2",
+        ],
+        "description": [
+            "Code: U+2950",
+            "Character/Symbol: ⥐",
+            "Name: LEFT BARB DOWN RIGHT BARB DOWN HARPOON",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥑ U+2951 UP BARB LEFT DOWN BARB LEFT HARPOON": 
+    {
+        "prefix": [
+            "..U.2951",
+            "..U.UP BARB LEFT DOWN BARB LEFT HARPOON",
+            "U+2951",
+        ],
+        "body": [
+            "${1|⥑,&#x2951;,U+2951,0x2951,UP BARB LEFT DOWN BARB LEFT HARPOON|}$2",
+        ],
+        "description": [
+            "Code: U+2951",
+            "Character/Symbol: ⥑",
+            "Name: UP BARB LEFT DOWN BARB LEFT HARPOON",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥒ U+2952 LEFTWARDS HARPOON WITH BARB UP TO BAR": 
+    {
+        "prefix": [
+            "..U.2952",
+            "..U.LEFTWARDS HARPOON WITH BARB UP TO BAR",
+            "U+2952",
+        ],
+        "body": [
+            "${1|⥒,&#x2952;,U+2952,0x2952,LEFTWARDS HARPOON WITH BARB UP TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2952",
+            "Character/Symbol: ⥒",
+            "Name: LEFTWARDS HARPOON WITH BARB UP TO BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥓ U+2953 RIGHTWARDS HARPOON WITH BARB UP TO BAR": 
+    {
+        "prefix": [
+            "..U.2953",
+            "..U.RIGHTWARDS HARPOON WITH BARB UP TO BAR",
+            "U+2953",
+        ],
+        "body": [
+            "${1|⥓,&#x2953;,U+2953,0x2953,RIGHTWARDS HARPOON WITH BARB UP TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2953",
+            "Character/Symbol: ⥓",
+            "Name: RIGHTWARDS HARPOON WITH BARB UP TO BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥔ U+2954 UPWARDS HARPOON WITH BARB RIGHT TO BAR": 
+    {
+        "prefix": [
+            "..U.2954",
+            "..U.UPWARDS HARPOON WITH BARB RIGHT TO BAR",
+            "U+2954",
+        ],
+        "body": [
+            "${1|⥔,&#x2954;,U+2954,0x2954,UPWARDS HARPOON WITH BARB RIGHT TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2954",
+            "Character/Symbol: ⥔",
+            "Name: UPWARDS HARPOON WITH BARB RIGHT TO BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥕ U+2955 DOWNWARDS HARPOON WITH BARB RIGHT TO BAR": 
+    {
+        "prefix": [
+            "..U.2955",
+            "..U.DOWNWARDS HARPOON WITH BARB RIGHT TO BAR",
+            "U+2955",
+        ],
+        "body": [
+            "${1|⥕,&#x2955;,U+2955,0x2955,DOWNWARDS HARPOON WITH BARB RIGHT TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2955",
+            "Character/Symbol: ⥕",
+            "Name: DOWNWARDS HARPOON WITH BARB RIGHT TO BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥖ U+2956 LEFTWARDS HARPOON WITH BARB DOWN TO BAR": 
+    {
+        "prefix": [
+            "..U.2956",
+            "..U.LEFTWARDS HARPOON WITH BARB DOWN TO BAR",
+            "U+2956",
+        ],
+        "body": [
+            "${1|⥖,&#x2956;,U+2956,0x2956,LEFTWARDS HARPOON WITH BARB DOWN TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2956",
+            "Character/Symbol: ⥖",
+            "Name: LEFTWARDS HARPOON WITH BARB DOWN TO BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥗ U+2957 RIGHTWARDS HARPOON WITH BARB DOWN TO BAR": 
+    {
+        "prefix": [
+            "..U.2957",
+            "..U.RIGHTWARDS HARPOON WITH BARB DOWN TO BAR",
+            "U+2957",
+        ],
+        "body": [
+            "${1|⥗,&#x2957;,U+2957,0x2957,RIGHTWARDS HARPOON WITH BARB DOWN TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2957",
+            "Character/Symbol: ⥗",
+            "Name: RIGHTWARDS HARPOON WITH BARB DOWN TO BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥘ U+2958 UPWARDS HARPOON WITH BARB LEFT TO BAR": 
+    {
+        "prefix": [
+            "..U.2958",
+            "..U.UPWARDS HARPOON WITH BARB LEFT TO BAR",
+            "U+2958",
+        ],
+        "body": [
+            "${1|⥘,&#x2958;,U+2958,0x2958,UPWARDS HARPOON WITH BARB LEFT TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2958",
+            "Character/Symbol: ⥘",
+            "Name: UPWARDS HARPOON WITH BARB LEFT TO BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥙ U+2959 DOWNWARDS HARPOON WITH BARB LEFT TO BAR": 
+    {
+        "prefix": [
+            "..U.2959",
+            "..U.DOWNWARDS HARPOON WITH BARB LEFT TO BAR",
+            "U+2959",
+        ],
+        "body": [
+            "${1|⥙,&#x2959;,U+2959,0x2959,DOWNWARDS HARPOON WITH BARB LEFT TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2959",
+            "Character/Symbol: ⥙",
+            "Name: DOWNWARDS HARPOON WITH BARB LEFT TO BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥚ U+295A LEFTWARDS HARPOON WITH BARB UP FROM BAR": 
+    {
+        "prefix": [
+            "..U.295A",
+            "..U.LEFTWARDS HARPOON WITH BARB UP FROM BAR",
+            "U+295A",
+        ],
+        "body": [
+            "${1|⥚,&#x295A;,U+295A,0x295A,LEFTWARDS HARPOON WITH BARB UP FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+295A",
+            "Character/Symbol: ⥚",
+            "Name: LEFTWARDS HARPOON WITH BARB UP FROM BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥛ U+295B RIGHTWARDS HARPOON WITH BARB UP FROM BAR": 
+    {
+        "prefix": [
+            "..U.295B",
+            "..U.RIGHTWARDS HARPOON WITH BARB UP FROM BAR",
+            "U+295B",
+        ],
+        "body": [
+            "${1|⥛,&#x295B;,U+295B,0x295B,RIGHTWARDS HARPOON WITH BARB UP FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+295B",
+            "Character/Symbol: ⥛",
+            "Name: RIGHTWARDS HARPOON WITH BARB UP FROM BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥜ U+295C UPWARDS HARPOON WITH BARB RIGHT FROM BAR": 
+    {
+        "prefix": [
+            "..U.295C",
+            "..U.UPWARDS HARPOON WITH BARB RIGHT FROM BAR",
+            "U+295C",
+        ],
+        "body": [
+            "${1|⥜,&#x295C;,U+295C,0x295C,UPWARDS HARPOON WITH BARB RIGHT FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+295C",
+            "Character/Symbol: ⥜",
+            "Name: UPWARDS HARPOON WITH BARB RIGHT FROM BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥝ U+295D DOWNWARDS HARPOON WITH BARB RIGHT FROM BAR": 
+    {
+        "prefix": [
+            "..U.295D",
+            "..U.DOWNWARDS HARPOON WITH BARB RIGHT FROM BAR",
+            "U+295D",
+        ],
+        "body": [
+            "${1|⥝,&#x295D;,U+295D,0x295D,DOWNWARDS HARPOON WITH BARB RIGHT FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+295D",
+            "Character/Symbol: ⥝",
+            "Name: DOWNWARDS HARPOON WITH BARB RIGHT FROM BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥞ U+295E LEFTWARDS HARPOON WITH BARB DOWN FROM BAR": 
+    {
+        "prefix": [
+            "..U.295E",
+            "..U.LEFTWARDS HARPOON WITH BARB DOWN FROM BAR",
+            "U+295E",
+        ],
+        "body": [
+            "${1|⥞,&#x295E;,U+295E,0x295E,LEFTWARDS HARPOON WITH BARB DOWN FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+295E",
+            "Character/Symbol: ⥞",
+            "Name: LEFTWARDS HARPOON WITH BARB DOWN FROM BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥟ U+295F RIGHTWARDS HARPOON WITH BARB DOWN FROM BAR": 
+    {
+        "prefix": [
+            "..U.295F",
+            "..U.RIGHTWARDS HARPOON WITH BARB DOWN FROM BAR",
+            "U+295F",
+        ],
+        "body": [
+            "${1|⥟,&#x295F;,U+295F,0x295F,RIGHTWARDS HARPOON WITH BARB DOWN FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+295F",
+            "Character/Symbol: ⥟",
+            "Name: RIGHTWARDS HARPOON WITH BARB DOWN FROM BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥠ U+2960 UPWARDS HARPOON WITH BARB LEFT FROM BAR": 
+    {
+        "prefix": [
+            "..U.2960",
+            "..U.UPWARDS HARPOON WITH BARB LEFT FROM BAR",
+            "U+2960",
+        ],
+        "body": [
+            "${1|⥠,&#x2960;,U+2960,0x2960,UPWARDS HARPOON WITH BARB LEFT FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2960",
+            "Character/Symbol: ⥠",
+            "Name: UPWARDS HARPOON WITH BARB LEFT FROM BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥡ U+2961 DOWNWARDS HARPOON WITH BARB LEFT FROM BAR": 
+    {
+        "prefix": [
+            "..U.2961",
+            "..U.DOWNWARDS HARPOON WITH BARB LEFT FROM BAR",
+            "U+2961",
+        ],
+        "body": [
+            "${1|⥡,&#x2961;,U+2961,0x2961,DOWNWARDS HARPOON WITH BARB LEFT FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2961",
+            "Character/Symbol: ⥡",
+            "Name: DOWNWARDS HARPOON WITH BARB LEFT FROM BAR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥢ U+2962 LEFTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB DOWN": 
+    {
+        "prefix": [
+            "..U.2962",
+            "..U.LEFTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB DOWN",
+            "U+2962",
+        ],
+        "body": [
+            "${1|⥢,&#x2962;,U+2962,0x2962,LEFTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB DOWN|}$2",
+        ],
+        "description": [
+            "Code: U+2962",
+            "Character/Symbol: ⥢",
+            "Name: LEFTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB DOWN",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥣ U+2963 UPWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT": 
+    {
+        "prefix": [
+            "..U.2963",
+            "..U.UPWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT",
+            "U+2963",
+        ],
+        "body": [
+            "${1|⥣,&#x2963;,U+2963,0x2963,UPWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2963",
+            "Character/Symbol: ⥣",
+            "Name: UPWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥤ U+2964 RIGHTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB DOWN": 
+    {
+        "prefix": [
+            "..U.2964",
+            "..U.RIGHTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB DOWN",
+            "U+2964",
+        ],
+        "body": [
+            "${1|⥤,&#x2964;,U+2964,0x2964,RIGHTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB DOWN|}$2",
+        ],
+        "description": [
+            "Code: U+2964",
+            "Character/Symbol: ⥤",
+            "Name: RIGHTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB DOWN",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥥ U+2965 DOWNWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT": 
+    {
+        "prefix": [
+            "..U.2965",
+            "..U.DOWNWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT",
+            "U+2965",
+        ],
+        "body": [
+            "${1|⥥,&#x2965;,U+2965,0x2965,DOWNWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2965",
+            "Character/Symbol: ⥥",
+            "Name: DOWNWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥦ U+2966 LEFTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB UP": 
+    {
+        "prefix": [
+            "..U.2966",
+            "..U.LEFTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB UP",
+            "U+2966",
+        ],
+        "body": [
+            "${1|⥦,&#x2966;,U+2966,0x2966,LEFTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB UP|}$2",
+        ],
+        "description": [
+            "Code: U+2966",
+            "Character/Symbol: ⥦",
+            "Name: LEFTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB UP",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥧ U+2967 LEFTWARDS HARPOON WITH BARB DOWN ABOVE RIGHTWARDS HARPOON WITH BARB DOWN": 
+    {
+        "prefix": [
+            "..U.2967",
+            "..U.LEFTWARDS HARPOON WITH BARB DOWN ABOVE RIGHTWARDS HARPOON WITH BARB DOWN",
+            "U+2967",
+        ],
+        "body": [
+            "${1|⥧,&#x2967;,U+2967,0x2967,LEFTWARDS HARPOON WITH BARB DOWN ABOVE RIGHTWARDS HARPOON WITH BARB DOWN|}$2",
+        ],
+        "description": [
+            "Code: U+2967",
+            "Character/Symbol: ⥧",
+            "Name: LEFTWARDS HARPOON WITH BARB DOWN ABOVE RIGHTWARDS HARPOON WITH BARB DOWN",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥨ U+2968 RIGHTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB UP": 
+    {
+        "prefix": [
+            "..U.2968",
+            "..U.RIGHTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB UP",
+            "U+2968",
+        ],
+        "body": [
+            "${1|⥨,&#x2968;,U+2968,0x2968,RIGHTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB UP|}$2",
+        ],
+        "description": [
+            "Code: U+2968",
+            "Character/Symbol: ⥨",
+            "Name: RIGHTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB UP",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥩ U+2969 RIGHTWARDS HARPOON WITH BARB DOWN ABOVE LEFTWARDS HARPOON WITH BARB DOWN": 
+    {
+        "prefix": [
+            "..U.2969",
+            "..U.RIGHTWARDS HARPOON WITH BARB DOWN ABOVE LEFTWARDS HARPOON WITH BARB DOWN",
+            "U+2969",
+        ],
+        "body": [
+            "${1|⥩,&#x2969;,U+2969,0x2969,RIGHTWARDS HARPOON WITH BARB DOWN ABOVE LEFTWARDS HARPOON WITH BARB DOWN|}$2",
+        ],
+        "description": [
+            "Code: U+2969",
+            "Character/Symbol: ⥩",
+            "Name: RIGHTWARDS HARPOON WITH BARB DOWN ABOVE LEFTWARDS HARPOON WITH BARB DOWN",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥪ U+296A LEFTWARDS HARPOON WITH BARB UP ABOVE LONG DASH": 
+    {
+        "prefix": [
+            "..U.296A",
+            "..U.LEFTWARDS HARPOON WITH BARB UP ABOVE LONG DASH",
+            "U+296A",
+        ],
+        "body": [
+            "${1|⥪,&#x296A;,U+296A,0x296A,LEFTWARDS HARPOON WITH BARB UP ABOVE LONG DASH|}$2",
+        ],
+        "description": [
+            "Code: U+296A",
+            "Character/Symbol: ⥪",
+            "Name: LEFTWARDS HARPOON WITH BARB UP ABOVE LONG DASH",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥫ U+296B LEFTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH": 
+    {
+        "prefix": [
+            "..U.296B",
+            "..U.LEFTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH",
+            "U+296B",
+        ],
+        "body": [
+            "${1|⥫,&#x296B;,U+296B,0x296B,LEFTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH|}$2",
+        ],
+        "description": [
+            "Code: U+296B",
+            "Character/Symbol: ⥫",
+            "Name: LEFTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥬ U+296C RIGHTWARDS HARPOON WITH BARB UP ABOVE LONG DASH": 
+    {
+        "prefix": [
+            "..U.296C",
+            "..U.RIGHTWARDS HARPOON WITH BARB UP ABOVE LONG DASH",
+            "U+296C",
+        ],
+        "body": [
+            "${1|⥬,&#x296C;,U+296C,0x296C,RIGHTWARDS HARPOON WITH BARB UP ABOVE LONG DASH|}$2",
+        ],
+        "description": [
+            "Code: U+296C",
+            "Character/Symbol: ⥬",
+            "Name: RIGHTWARDS HARPOON WITH BARB UP ABOVE LONG DASH",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥭ U+296D RIGHTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH": 
+    {
+        "prefix": [
+            "..U.296D",
+            "..U.RIGHTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH",
+            "U+296D",
+        ],
+        "body": [
+            "${1|⥭,&#x296D;,U+296D,0x296D,RIGHTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH|}$2",
+        ],
+        "description": [
+            "Code: U+296D",
+            "Character/Symbol: ⥭",
+            "Name: RIGHTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥮ U+296E UPWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT": 
+    {
+        "prefix": [
+            "..U.296E",
+            "..U.UPWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT",
+            "U+296E",
+        ],
+        "body": [
+            "${1|⥮,&#x296E;,U+296E,0x296E,UPWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+296E",
+            "Character/Symbol: ⥮",
+            "Name: UPWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥯ U+296F DOWNWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT": 
+    {
+        "prefix": [
+            "..U.296F",
+            "..U.DOWNWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT",
+            "U+296F",
+        ],
+        "body": [
+            "${1|⥯,&#x296F;,U+296F,0x296F,DOWNWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+296F",
+            "Character/Symbol: ⥯",
+            "Name: DOWNWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥰ U+2970 RIGHT DOUBLE ARROW WITH ROUNDED HEAD": 
+    {
+        "prefix": [
+            "..U.2970",
+            "..U.RIGHT DOUBLE ARROW WITH ROUNDED HEAD",
+            "U+2970",
+        ],
+        "body": [
+            "${1|⥰,&#x2970;,U+2970,0x2970,RIGHT DOUBLE ARROW WITH ROUNDED HEAD|}$2",
+        ],
+        "description": [
+            "Code: U+2970",
+            "Character/Symbol: ⥰",
+            "Name: RIGHT DOUBLE ARROW WITH ROUNDED HEAD",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥱ U+2971 EQUALS SIGN ABOVE RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2971",
+            "..U.EQUALS SIGN ABOVE RIGHTWARDS ARROW",
+            "U+2971",
+        ],
+        "body": [
+            "${1|⥱,&#x2971;,U+2971,0x2971,EQUALS SIGN ABOVE RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2971",
+            "Character/Symbol: ⥱",
+            "Name: EQUALS SIGN ABOVE RIGHTWARDS ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥲ U+2972 TILDE OPERATOR ABOVE RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2972",
+            "..U.TILDE OPERATOR ABOVE RIGHTWARDS ARROW",
+            "U+2972",
+        ],
+        "body": [
+            "${1|⥲,&#x2972;,U+2972,0x2972,TILDE OPERATOR ABOVE RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2972",
+            "Character/Symbol: ⥲",
+            "Name: TILDE OPERATOR ABOVE RIGHTWARDS ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥳ U+2973 LEFTWARDS ARROW ABOVE TILDE OPERATOR": 
+    {
+        "prefix": [
+            "..U.2973",
+            "..U.LEFTWARDS ARROW ABOVE TILDE OPERATOR",
+            "U+2973",
+        ],
+        "body": [
+            "${1|⥳,&#x2973;,U+2973,0x2973,LEFTWARDS ARROW ABOVE TILDE OPERATOR|}$2",
+        ],
+        "description": [
+            "Code: U+2973",
+            "Character/Symbol: ⥳",
+            "Name: LEFTWARDS ARROW ABOVE TILDE OPERATOR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥴ U+2974 RIGHTWARDS ARROW ABOVE TILDE OPERATOR": 
+    {
+        "prefix": [
+            "..U.2974",
+            "..U.RIGHTWARDS ARROW ABOVE TILDE OPERATOR",
+            "U+2974",
+        ],
+        "body": [
+            "${1|⥴,&#x2974;,U+2974,0x2974,RIGHTWARDS ARROW ABOVE TILDE OPERATOR|}$2",
+        ],
+        "description": [
+            "Code: U+2974",
+            "Character/Symbol: ⥴",
+            "Name: RIGHTWARDS ARROW ABOVE TILDE OPERATOR",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥵ U+2975 RIGHTWARDS ARROW ABOVE ALMOST EQUAL TO": 
+    {
+        "prefix": [
+            "..U.2975",
+            "..U.RIGHTWARDS ARROW ABOVE ALMOST EQUAL TO",
+            "U+2975",
+        ],
+        "body": [
+            "${1|⥵,&#x2975;,U+2975,0x2975,RIGHTWARDS ARROW ABOVE ALMOST EQUAL TO|}$2",
+        ],
+        "description": [
+            "Code: U+2975",
+            "Character/Symbol: ⥵",
+            "Name: RIGHTWARDS ARROW ABOVE ALMOST EQUAL TO",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥶ U+2976 LESS-THAN ABOVE LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2976",
+            "..U.LESS-THAN ABOVE LEFTWARDS ARROW",
+            "U+2976",
+        ],
+        "body": [
+            "${1|⥶,&#x2976;,U+2976,0x2976,LESS-THAN ABOVE LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2976",
+            "Character/Symbol: ⥶",
+            "Name: LESS-THAN ABOVE LEFTWARDS ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥷ U+2977 LEFTWARDS ARROW THROUGH LESS-THAN": 
+    {
+        "prefix": [
+            "..U.2977",
+            "..U.LEFTWARDS ARROW THROUGH LESS-THAN",
+            "U+2977",
+        ],
+        "body": [
+            "${1|⥷,&#x2977;,U+2977,0x2977,LEFTWARDS ARROW THROUGH LESS-THAN|}$2",
+        ],
+        "description": [
+            "Code: U+2977",
+            "Character/Symbol: ⥷",
+            "Name: LEFTWARDS ARROW THROUGH LESS-THAN",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥸ U+2978 GREATER-THAN ABOVE RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2978",
+            "..U.GREATER-THAN ABOVE RIGHTWARDS ARROW",
+            "U+2978",
+        ],
+        "body": [
+            "${1|⥸,&#x2978;,U+2978,0x2978,GREATER-THAN ABOVE RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2978",
+            "Character/Symbol: ⥸",
+            "Name: GREATER-THAN ABOVE RIGHTWARDS ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥹ U+2979 SUBSET ABOVE RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2979",
+            "..U.SUBSET ABOVE RIGHTWARDS ARROW",
+            "U+2979",
+        ],
+        "body": [
+            "${1|⥹,&#x2979;,U+2979,0x2979,SUBSET ABOVE RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2979",
+            "Character/Symbol: ⥹",
+            "Name: SUBSET ABOVE RIGHTWARDS ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥺ U+297A LEFTWARDS ARROW THROUGH SUBSET": 
+    {
+        "prefix": [
+            "..U.297A",
+            "..U.LEFTWARDS ARROW THROUGH SUBSET",
+            "U+297A",
+        ],
+        "body": [
+            "${1|⥺,&#x297A;,U+297A,0x297A,LEFTWARDS ARROW THROUGH SUBSET|}$2",
+        ],
+        "description": [
+            "Code: U+297A",
+            "Character/Symbol: ⥺",
+            "Name: LEFTWARDS ARROW THROUGH SUBSET",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥻ U+297B SUPERSET ABOVE LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.297B",
+            "..U.SUPERSET ABOVE LEFTWARDS ARROW",
+            "U+297B",
+        ],
+        "body": [
+            "${1|⥻,&#x297B;,U+297B,0x297B,SUPERSET ABOVE LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+297B",
+            "Character/Symbol: ⥻",
+            "Name: SUPERSET ABOVE LEFTWARDS ARROW",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥼ U+297C LEFT FISH TAIL": 
+    {
+        "prefix": [
+            "..U.297C",
+            "..U.LEFT FISH TAIL",
+            "U+297C",
+        ],
+        "body": [
+            "${1|⥼,&#x297C;,U+297C,0x297C,LEFT FISH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+297C",
+            "Character/Symbol: ⥼",
+            "Name: LEFT FISH TAIL",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥽ U+297D RIGHT FISH TAIL": 
+    {
+        "prefix": [
+            "..U.297D",
+            "..U.RIGHT FISH TAIL",
+            "U+297D",
+        ],
+        "body": [
+            "${1|⥽,&#x297D;,U+297D,0x297D,RIGHT FISH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+297D",
+            "Character/Symbol: ⥽",
+            "Name: RIGHT FISH TAIL",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥾ U+297E UP FISH TAIL": 
+    {
+        "prefix": [
+            "..U.297E",
+            "..U.UP FISH TAIL",
+            "U+297E",
+        ],
+        "body": [
+            "${1|⥾,&#x297E;,U+297E,0x297E,UP FISH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+297E",
+            "Character/Symbol: ⥾",
+            "Name: UP FISH TAIL",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+    "Unicode ⥿ U+297F DOWN FISH TAIL": 
+    {
+        "prefix": [
+            "..U.297F",
+            "..U.DOWN FISH TAIL",
+            "U+297F",
+        ],
+        "body": [
+            "${1|⥿,&#x297F;,U+297F,0x297F,DOWN FISH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+297F",
+            "Character/Symbol: ⥿",
+            "Name: DOWN FISH TAIL",
+            "Group/Block: Sup_Arrows_B",
+        ],
+    },
+
+}

@@ -1,0 +1,56 @@
+{
+    "Unicode 𐻽 U+10EFD ARABIC SMALL LOW WORD SAKTA": 
+    {
+        "prefix": [
+            "..U.10EFD",
+            "..U.ARABIC SMALL LOW WORD SAKTA",
+            "U+10EFD",
+        ],
+        "body": [
+            "${1|𐻽,&#x10EFD;,U+10EFD,0x10EFD,ARABIC SMALL LOW WORD SAKTA|}$2",
+        ],
+        "description": [
+            "Code: U+10EFD",
+            "Character/Symbol: 𐻽",
+            "Name: ARABIC SMALL LOW WORD SAKTA",
+            "Group/Block: Arabic_Ext_C",
+        ],
+    },
+
+    "Unicode 𐻾 U+10EFE ARABIC SMALL LOW WORD QASR": 
+    {
+        "prefix": [
+            "..U.10EFE",
+            "..U.ARABIC SMALL LOW WORD QASR",
+            "U+10EFE",
+        ],
+        "body": [
+            "${1|𐻾,&#x10EFE;,U+10EFE,0x10EFE,ARABIC SMALL LOW WORD QASR|}$2",
+        ],
+        "description": [
+            "Code: U+10EFE",
+            "Character/Symbol: 𐻾",
+            "Name: ARABIC SMALL LOW WORD QASR",
+            "Group/Block: Arabic_Ext_C",
+        ],
+    },
+
+    "Unicode 𐻿 U+10EFF ARABIC SMALL LOW WORD MADDA": 
+    {
+        "prefix": [
+            "..U.10EFF",
+            "..U.ARABIC SMALL LOW WORD MADDA",
+            "U+10EFF",
+        ],
+        "body": [
+            "${1|𐻿,&#x10EFF;,U+10EFF,0x10EFF,ARABIC SMALL LOW WORD MADDA|}$2",
+        ],
+        "description": [
+            "Code: U+10EFF",
+            "Character/Symbol: 𐻿",
+            "Name: ARABIC SMALL LOW WORD MADDA",
+            "Group/Block: Arabic_Ext_C",
+        ],
+    },
+
+}

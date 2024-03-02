@@ -1,0 +1,4556 @@
+{
+    "Unicode ⬀ U+2B00 NORTH EAST WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.2B00",
+            "..U.NORTH EAST WHITE ARROW",
+            "U+2B00",
+        ],
+        "body": [
+            "${1|⬀,&#x2B00;,U+2B00,0x2B00,NORTH EAST WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B00",
+            "Character/Symbol: ⬀",
+            "Name: NORTH EAST WHITE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬁ U+2B01 NORTH WEST WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.2B01",
+            "..U.NORTH WEST WHITE ARROW",
+            "U+2B01",
+        ],
+        "body": [
+            "${1|⬁,&#x2B01;,U+2B01,0x2B01,NORTH WEST WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B01",
+            "Character/Symbol: ⬁",
+            "Name: NORTH WEST WHITE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬂ U+2B02 SOUTH EAST WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.2B02",
+            "..U.SOUTH EAST WHITE ARROW",
+            "U+2B02",
+        ],
+        "body": [
+            "${1|⬂,&#x2B02;,U+2B02,0x2B02,SOUTH EAST WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B02",
+            "Character/Symbol: ⬂",
+            "Name: SOUTH EAST WHITE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬃ U+2B03 SOUTH WEST WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.2B03",
+            "..U.SOUTH WEST WHITE ARROW",
+            "U+2B03",
+        ],
+        "body": [
+            "${1|⬃,&#x2B03;,U+2B03,0x2B03,SOUTH WEST WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B03",
+            "Character/Symbol: ⬃",
+            "Name: SOUTH WEST WHITE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬄ U+2B04 LEFT RIGHT WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.2B04",
+            "..U.LEFT RIGHT WHITE ARROW",
+            "U+2B04",
+        ],
+        "body": [
+            "${1|⬄,&#x2B04;,U+2B04,0x2B04,LEFT RIGHT WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B04",
+            "Character/Symbol: ⬄",
+            "Name: LEFT RIGHT WHITE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬅ U+2B05 LEFTWARDS BLACK ARROW": 
+    {
+        "prefix": [
+            "..U.2B05",
+            "..U.LEFTWARDS BLACK ARROW",
+            "U+2B05",
+        ],
+        "body": [
+            "${1|⬅,&#x2B05;,U+2B05,0x2B05,LEFTWARDS BLACK ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B05",
+            "Character/Symbol: ⬅",
+            "Name: LEFTWARDS BLACK ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬆ U+2B06 UPWARDS BLACK ARROW": 
+    {
+        "prefix": [
+            "..U.2B06",
+            "..U.UPWARDS BLACK ARROW",
+            "U+2B06",
+        ],
+        "body": [
+            "${1|⬆,&#x2B06;,U+2B06,0x2B06,UPWARDS BLACK ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B06",
+            "Character/Symbol: ⬆",
+            "Name: UPWARDS BLACK ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬇ U+2B07 DOWNWARDS BLACK ARROW": 
+    {
+        "prefix": [
+            "..U.2B07",
+            "..U.DOWNWARDS BLACK ARROW",
+            "U+2B07",
+        ],
+        "body": [
+            "${1|⬇,&#x2B07;,U+2B07,0x2B07,DOWNWARDS BLACK ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B07",
+            "Character/Symbol: ⬇",
+            "Name: DOWNWARDS BLACK ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬈ U+2B08 NORTH EAST BLACK ARROW": 
+    {
+        "prefix": [
+            "..U.2B08",
+            "..U.NORTH EAST BLACK ARROW",
+            "U+2B08",
+        ],
+        "body": [
+            "${1|⬈,&#x2B08;,U+2B08,0x2B08,NORTH EAST BLACK ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B08",
+            "Character/Symbol: ⬈",
+            "Name: NORTH EAST BLACK ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬉ U+2B09 NORTH WEST BLACK ARROW": 
+    {
+        "prefix": [
+            "..U.2B09",
+            "..U.NORTH WEST BLACK ARROW",
+            "U+2B09",
+        ],
+        "body": [
+            "${1|⬉,&#x2B09;,U+2B09,0x2B09,NORTH WEST BLACK ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B09",
+            "Character/Symbol: ⬉",
+            "Name: NORTH WEST BLACK ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬊ U+2B0A SOUTH EAST BLACK ARROW": 
+    {
+        "prefix": [
+            "..U.2B0A",
+            "..U.SOUTH EAST BLACK ARROW",
+            "U+2B0A",
+        ],
+        "body": [
+            "${1|⬊,&#x2B0A;,U+2B0A,0x2B0A,SOUTH EAST BLACK ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B0A",
+            "Character/Symbol: ⬊",
+            "Name: SOUTH EAST BLACK ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬋ U+2B0B SOUTH WEST BLACK ARROW": 
+    {
+        "prefix": [
+            "..U.2B0B",
+            "..U.SOUTH WEST BLACK ARROW",
+            "U+2B0B",
+        ],
+        "body": [
+            "${1|⬋,&#x2B0B;,U+2B0B,0x2B0B,SOUTH WEST BLACK ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B0B",
+            "Character/Symbol: ⬋",
+            "Name: SOUTH WEST BLACK ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬌ U+2B0C LEFT RIGHT BLACK ARROW": 
+    {
+        "prefix": [
+            "..U.2B0C",
+            "..U.LEFT RIGHT BLACK ARROW",
+            "U+2B0C",
+        ],
+        "body": [
+            "${1|⬌,&#x2B0C;,U+2B0C,0x2B0C,LEFT RIGHT BLACK ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B0C",
+            "Character/Symbol: ⬌",
+            "Name: LEFT RIGHT BLACK ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬍ U+2B0D UP DOWN BLACK ARROW": 
+    {
+        "prefix": [
+            "..U.2B0D",
+            "..U.UP DOWN BLACK ARROW",
+            "U+2B0D",
+        ],
+        "body": [
+            "${1|⬍,&#x2B0D;,U+2B0D,0x2B0D,UP DOWN BLACK ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B0D",
+            "Character/Symbol: ⬍",
+            "Name: UP DOWN BLACK ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬎ U+2B0E RIGHTWARDS ARROW WITH TIP DOWNWARDS": 
+    {
+        "prefix": [
+            "..U.2B0E",
+            "..U.RIGHTWARDS ARROW WITH TIP DOWNWARDS",
+            "U+2B0E",
+        ],
+        "body": [
+            "${1|⬎,&#x2B0E;,U+2B0E,0x2B0E,RIGHTWARDS ARROW WITH TIP DOWNWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2B0E",
+            "Character/Symbol: ⬎",
+            "Name: RIGHTWARDS ARROW WITH TIP DOWNWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬏ U+2B0F RIGHTWARDS ARROW WITH TIP UPWARDS": 
+    {
+        "prefix": [
+            "..U.2B0F",
+            "..U.RIGHTWARDS ARROW WITH TIP UPWARDS",
+            "U+2B0F",
+        ],
+        "body": [
+            "${1|⬏,&#x2B0F;,U+2B0F,0x2B0F,RIGHTWARDS ARROW WITH TIP UPWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2B0F",
+            "Character/Symbol: ⬏",
+            "Name: RIGHTWARDS ARROW WITH TIP UPWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬐ U+2B10 LEFTWARDS ARROW WITH TIP DOWNWARDS": 
+    {
+        "prefix": [
+            "..U.2B10",
+            "..U.LEFTWARDS ARROW WITH TIP DOWNWARDS",
+            "U+2B10",
+        ],
+        "body": [
+            "${1|⬐,&#x2B10;,U+2B10,0x2B10,LEFTWARDS ARROW WITH TIP DOWNWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2B10",
+            "Character/Symbol: ⬐",
+            "Name: LEFTWARDS ARROW WITH TIP DOWNWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬑ U+2B11 LEFTWARDS ARROW WITH TIP UPWARDS": 
+    {
+        "prefix": [
+            "..U.2B11",
+            "..U.LEFTWARDS ARROW WITH TIP UPWARDS",
+            "U+2B11",
+        ],
+        "body": [
+            "${1|⬑,&#x2B11;,U+2B11,0x2B11,LEFTWARDS ARROW WITH TIP UPWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2B11",
+            "Character/Symbol: ⬑",
+            "Name: LEFTWARDS ARROW WITH TIP UPWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬒ U+2B12 SQUARE WITH TOP HALF BLACK": 
+    {
+        "prefix": [
+            "..U.2B12",
+            "..U.SQUARE WITH TOP HALF BLACK",
+            "U+2B12",
+        ],
+        "body": [
+            "${1|⬒,&#x2B12;,U+2B12,0x2B12,SQUARE WITH TOP HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+2B12",
+            "Character/Symbol: ⬒",
+            "Name: SQUARE WITH TOP HALF BLACK",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬓ U+2B13 SQUARE WITH BOTTOM HALF BLACK": 
+    {
+        "prefix": [
+            "..U.2B13",
+            "..U.SQUARE WITH BOTTOM HALF BLACK",
+            "U+2B13",
+        ],
+        "body": [
+            "${1|⬓,&#x2B13;,U+2B13,0x2B13,SQUARE WITH BOTTOM HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+2B13",
+            "Character/Symbol: ⬓",
+            "Name: SQUARE WITH BOTTOM HALF BLACK",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬔ U+2B14 SQUARE WITH UPPER RIGHT DIAGONAL HALF BLACK": 
+    {
+        "prefix": [
+            "..U.2B14",
+            "..U.SQUARE WITH UPPER RIGHT DIAGONAL HALF BLACK",
+            "U+2B14",
+        ],
+        "body": [
+            "${1|⬔,&#x2B14;,U+2B14,0x2B14,SQUARE WITH UPPER RIGHT DIAGONAL HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+2B14",
+            "Character/Symbol: ⬔",
+            "Name: SQUARE WITH UPPER RIGHT DIAGONAL HALF BLACK",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬕ U+2B15 SQUARE WITH LOWER LEFT DIAGONAL HALF BLACK": 
+    {
+        "prefix": [
+            "..U.2B15",
+            "..U.SQUARE WITH LOWER LEFT DIAGONAL HALF BLACK",
+            "U+2B15",
+        ],
+        "body": [
+            "${1|⬕,&#x2B15;,U+2B15,0x2B15,SQUARE WITH LOWER LEFT DIAGONAL HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+2B15",
+            "Character/Symbol: ⬕",
+            "Name: SQUARE WITH LOWER LEFT DIAGONAL HALF BLACK",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬖ U+2B16 DIAMOND WITH LEFT HALF BLACK": 
+    {
+        "prefix": [
+            "..U.2B16",
+            "..U.DIAMOND WITH LEFT HALF BLACK",
+            "U+2B16",
+        ],
+        "body": [
+            "${1|⬖,&#x2B16;,U+2B16,0x2B16,DIAMOND WITH LEFT HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+2B16",
+            "Character/Symbol: ⬖",
+            "Name: DIAMOND WITH LEFT HALF BLACK",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬗ U+2B17 DIAMOND WITH RIGHT HALF BLACK": 
+    {
+        "prefix": [
+            "..U.2B17",
+            "..U.DIAMOND WITH RIGHT HALF BLACK",
+            "U+2B17",
+        ],
+        "body": [
+            "${1|⬗,&#x2B17;,U+2B17,0x2B17,DIAMOND WITH RIGHT HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+2B17",
+            "Character/Symbol: ⬗",
+            "Name: DIAMOND WITH RIGHT HALF BLACK",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬘ U+2B18 DIAMOND WITH TOP HALF BLACK": 
+    {
+        "prefix": [
+            "..U.2B18",
+            "..U.DIAMOND WITH TOP HALF BLACK",
+            "U+2B18",
+        ],
+        "body": [
+            "${1|⬘,&#x2B18;,U+2B18,0x2B18,DIAMOND WITH TOP HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+2B18",
+            "Character/Symbol: ⬘",
+            "Name: DIAMOND WITH TOP HALF BLACK",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬙ U+2B19 DIAMOND WITH BOTTOM HALF BLACK": 
+    {
+        "prefix": [
+            "..U.2B19",
+            "..U.DIAMOND WITH BOTTOM HALF BLACK",
+            "U+2B19",
+        ],
+        "body": [
+            "${1|⬙,&#x2B19;,U+2B19,0x2B19,DIAMOND WITH BOTTOM HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+2B19",
+            "Character/Symbol: ⬙",
+            "Name: DIAMOND WITH BOTTOM HALF BLACK",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬚ U+2B1A DOTTED SQUARE": 
+    {
+        "prefix": [
+            "..U.2B1A",
+            "..U.DOTTED SQUARE",
+            "U+2B1A",
+        ],
+        "body": [
+            "${1|⬚,&#x2B1A;,U+2B1A,0x2B1A,DOTTED SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+2B1A",
+            "Character/Symbol: ⬚",
+            "Name: DOTTED SQUARE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬛ U+2B1B BLACK LARGE SQUARE": 
+    {
+        "prefix": [
+            "..U.2B1B",
+            "..U.BLACK LARGE SQUARE",
+            "U+2B1B",
+        ],
+        "body": [
+            "${1|⬛,&#x2B1B;,U+2B1B,0x2B1B,BLACK LARGE SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+2B1B",
+            "Character/Symbol: ⬛",
+            "Name: BLACK LARGE SQUARE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬜ U+2B1C WHITE LARGE SQUARE": 
+    {
+        "prefix": [
+            "..U.2B1C",
+            "..U.WHITE LARGE SQUARE",
+            "U+2B1C",
+        ],
+        "body": [
+            "${1|⬜,&#x2B1C;,U+2B1C,0x2B1C,WHITE LARGE SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+2B1C",
+            "Character/Symbol: ⬜",
+            "Name: WHITE LARGE SQUARE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬝ U+2B1D BLACK VERY SMALL SQUARE": 
+    {
+        "prefix": [
+            "..U.2B1D",
+            "..U.BLACK VERY SMALL SQUARE",
+            "U+2B1D",
+        ],
+        "body": [
+            "${1|⬝,&#x2B1D;,U+2B1D,0x2B1D,BLACK VERY SMALL SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+2B1D",
+            "Character/Symbol: ⬝",
+            "Name: BLACK VERY SMALL SQUARE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬞ U+2B1E WHITE VERY SMALL SQUARE": 
+    {
+        "prefix": [
+            "..U.2B1E",
+            "..U.WHITE VERY SMALL SQUARE",
+            "U+2B1E",
+        ],
+        "body": [
+            "${1|⬞,&#x2B1E;,U+2B1E,0x2B1E,WHITE VERY SMALL SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+2B1E",
+            "Character/Symbol: ⬞",
+            "Name: WHITE VERY SMALL SQUARE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬟ U+2B1F BLACK PENTAGON": 
+    {
+        "prefix": [
+            "..U.2B1F",
+            "..U.BLACK PENTAGON",
+            "U+2B1F",
+        ],
+        "body": [
+            "${1|⬟,&#x2B1F;,U+2B1F,0x2B1F,BLACK PENTAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2B1F",
+            "Character/Symbol: ⬟",
+            "Name: BLACK PENTAGON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬠ U+2B20 WHITE PENTAGON": 
+    {
+        "prefix": [
+            "..U.2B20",
+            "..U.WHITE PENTAGON",
+            "U+2B20",
+        ],
+        "body": [
+            "${1|⬠,&#x2B20;,U+2B20,0x2B20,WHITE PENTAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2B20",
+            "Character/Symbol: ⬠",
+            "Name: WHITE PENTAGON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬡ U+2B21 WHITE HEXAGON": 
+    {
+        "prefix": [
+            "..U.2B21",
+            "..U.WHITE HEXAGON",
+            "U+2B21",
+        ],
+        "body": [
+            "${1|⬡,&#x2B21;,U+2B21,0x2B21,WHITE HEXAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2B21",
+            "Character/Symbol: ⬡",
+            "Name: WHITE HEXAGON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬢ U+2B22 BLACK HEXAGON": 
+    {
+        "prefix": [
+            "..U.2B22",
+            "..U.BLACK HEXAGON",
+            "U+2B22",
+        ],
+        "body": [
+            "${1|⬢,&#x2B22;,U+2B22,0x2B22,BLACK HEXAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2B22",
+            "Character/Symbol: ⬢",
+            "Name: BLACK HEXAGON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬣ U+2B23 HORIZONTAL BLACK HEXAGON": 
+    {
+        "prefix": [
+            "..U.2B23",
+            "..U.HORIZONTAL BLACK HEXAGON",
+            "U+2B23",
+        ],
+        "body": [
+            "${1|⬣,&#x2B23;,U+2B23,0x2B23,HORIZONTAL BLACK HEXAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2B23",
+            "Character/Symbol: ⬣",
+            "Name: HORIZONTAL BLACK HEXAGON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬤ U+2B24 BLACK LARGE CIRCLE": 
+    {
+        "prefix": [
+            "..U.2B24",
+            "..U.BLACK LARGE CIRCLE",
+            "U+2B24",
+        ],
+        "body": [
+            "${1|⬤,&#x2B24;,U+2B24,0x2B24,BLACK LARGE CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+2B24",
+            "Character/Symbol: ⬤",
+            "Name: BLACK LARGE CIRCLE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬥ U+2B25 BLACK MEDIUM DIAMOND": 
+    {
+        "prefix": [
+            "..U.2B25",
+            "..U.BLACK MEDIUM DIAMOND",
+            "U+2B25",
+        ],
+        "body": [
+            "${1|⬥,&#x2B25;,U+2B25,0x2B25,BLACK MEDIUM DIAMOND|}$2",
+        ],
+        "description": [
+            "Code: U+2B25",
+            "Character/Symbol: ⬥",
+            "Name: BLACK MEDIUM DIAMOND",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬦ U+2B26 WHITE MEDIUM DIAMOND": 
+    {
+        "prefix": [
+            "..U.2B26",
+            "..U.WHITE MEDIUM DIAMOND",
+            "U+2B26",
+        ],
+        "body": [
+            "${1|⬦,&#x2B26;,U+2B26,0x2B26,WHITE MEDIUM DIAMOND|}$2",
+        ],
+        "description": [
+            "Code: U+2B26",
+            "Character/Symbol: ⬦",
+            "Name: WHITE MEDIUM DIAMOND",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬧ U+2B27 BLACK MEDIUM LOZENGE": 
+    {
+        "prefix": [
+            "..U.2B27",
+            "..U.BLACK MEDIUM LOZENGE",
+            "U+2B27",
+        ],
+        "body": [
+            "${1|⬧,&#x2B27;,U+2B27,0x2B27,BLACK MEDIUM LOZENGE|}$2",
+        ],
+        "description": [
+            "Code: U+2B27",
+            "Character/Symbol: ⬧",
+            "Name: BLACK MEDIUM LOZENGE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬨ U+2B28 WHITE MEDIUM LOZENGE": 
+    {
+        "prefix": [
+            "..U.2B28",
+            "..U.WHITE MEDIUM LOZENGE",
+            "U+2B28",
+        ],
+        "body": [
+            "${1|⬨,&#x2B28;,U+2B28,0x2B28,WHITE MEDIUM LOZENGE|}$2",
+        ],
+        "description": [
+            "Code: U+2B28",
+            "Character/Symbol: ⬨",
+            "Name: WHITE MEDIUM LOZENGE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬩ U+2B29 BLACK SMALL DIAMOND": 
+    {
+        "prefix": [
+            "..U.2B29",
+            "..U.BLACK SMALL DIAMOND",
+            "U+2B29",
+        ],
+        "body": [
+            "${1|⬩,&#x2B29;,U+2B29,0x2B29,BLACK SMALL DIAMOND|}$2",
+        ],
+        "description": [
+            "Code: U+2B29",
+            "Character/Symbol: ⬩",
+            "Name: BLACK SMALL DIAMOND",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬪ U+2B2A BLACK SMALL LOZENGE": 
+    {
+        "prefix": [
+            "..U.2B2A",
+            "..U.BLACK SMALL LOZENGE",
+            "U+2B2A",
+        ],
+        "body": [
+            "${1|⬪,&#x2B2A;,U+2B2A,0x2B2A,BLACK SMALL LOZENGE|}$2",
+        ],
+        "description": [
+            "Code: U+2B2A",
+            "Character/Symbol: ⬪",
+            "Name: BLACK SMALL LOZENGE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬫ U+2B2B WHITE SMALL LOZENGE": 
+    {
+        "prefix": [
+            "..U.2B2B",
+            "..U.WHITE SMALL LOZENGE",
+            "U+2B2B",
+        ],
+        "body": [
+            "${1|⬫,&#x2B2B;,U+2B2B,0x2B2B,WHITE SMALL LOZENGE|}$2",
+        ],
+        "description": [
+            "Code: U+2B2B",
+            "Character/Symbol: ⬫",
+            "Name: WHITE SMALL LOZENGE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬬ U+2B2C BLACK HORIZONTAL ELLIPSE": 
+    {
+        "prefix": [
+            "..U.2B2C",
+            "..U.BLACK HORIZONTAL ELLIPSE",
+            "U+2B2C",
+        ],
+        "body": [
+            "${1|⬬,&#x2B2C;,U+2B2C,0x2B2C,BLACK HORIZONTAL ELLIPSE|}$2",
+        ],
+        "description": [
+            "Code: U+2B2C",
+            "Character/Symbol: ⬬",
+            "Name: BLACK HORIZONTAL ELLIPSE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬭ U+2B2D WHITE HORIZONTAL ELLIPSE": 
+    {
+        "prefix": [
+            "..U.2B2D",
+            "..U.WHITE HORIZONTAL ELLIPSE",
+            "U+2B2D",
+        ],
+        "body": [
+            "${1|⬭,&#x2B2D;,U+2B2D,0x2B2D,WHITE HORIZONTAL ELLIPSE|}$2",
+        ],
+        "description": [
+            "Code: U+2B2D",
+            "Character/Symbol: ⬭",
+            "Name: WHITE HORIZONTAL ELLIPSE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬮ U+2B2E BLACK VERTICAL ELLIPSE": 
+    {
+        "prefix": [
+            "..U.2B2E",
+            "..U.BLACK VERTICAL ELLIPSE",
+            "U+2B2E",
+        ],
+        "body": [
+            "${1|⬮,&#x2B2E;,U+2B2E,0x2B2E,BLACK VERTICAL ELLIPSE|}$2",
+        ],
+        "description": [
+            "Code: U+2B2E",
+            "Character/Symbol: ⬮",
+            "Name: BLACK VERTICAL ELLIPSE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬯ U+2B2F WHITE VERTICAL ELLIPSE": 
+    {
+        "prefix": [
+            "..U.2B2F",
+            "..U.WHITE VERTICAL ELLIPSE",
+            "U+2B2F",
+        ],
+        "body": [
+            "${1|⬯,&#x2B2F;,U+2B2F,0x2B2F,WHITE VERTICAL ELLIPSE|}$2",
+        ],
+        "description": [
+            "Code: U+2B2F",
+            "Character/Symbol: ⬯",
+            "Name: WHITE VERTICAL ELLIPSE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬰ U+2B30 LEFT ARROW WITH SMALL CIRCLE": 
+    {
+        "prefix": [
+            "..U.2B30",
+            "..U.LEFT ARROW WITH SMALL CIRCLE",
+            "U+2B30",
+        ],
+        "body": [
+            "${1|⬰,&#x2B30;,U+2B30,0x2B30,LEFT ARROW WITH SMALL CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+2B30",
+            "Character/Symbol: ⬰",
+            "Name: LEFT ARROW WITH SMALL CIRCLE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬱ U+2B31 THREE LEFTWARDS ARROWS": 
+    {
+        "prefix": [
+            "..U.2B31",
+            "..U.THREE LEFTWARDS ARROWS",
+            "U+2B31",
+        ],
+        "body": [
+            "${1|⬱,&#x2B31;,U+2B31,0x2B31,THREE LEFTWARDS ARROWS|}$2",
+        ],
+        "description": [
+            "Code: U+2B31",
+            "Character/Symbol: ⬱",
+            "Name: THREE LEFTWARDS ARROWS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬲ U+2B32 LEFT ARROW WITH CIRCLED PLUS": 
+    {
+        "prefix": [
+            "..U.2B32",
+            "..U.LEFT ARROW WITH CIRCLED PLUS",
+            "U+2B32",
+        ],
+        "body": [
+            "${1|⬲,&#x2B32;,U+2B32,0x2B32,LEFT ARROW WITH CIRCLED PLUS|}$2",
+        ],
+        "description": [
+            "Code: U+2B32",
+            "Character/Symbol: ⬲",
+            "Name: LEFT ARROW WITH CIRCLED PLUS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬳ U+2B33 LONG LEFTWARDS SQUIGGLE ARROW": 
+    {
+        "prefix": [
+            "..U.2B33",
+            "..U.LONG LEFTWARDS SQUIGGLE ARROW",
+            "U+2B33",
+        ],
+        "body": [
+            "${1|⬳,&#x2B33;,U+2B33,0x2B33,LONG LEFTWARDS SQUIGGLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B33",
+            "Character/Symbol: ⬳",
+            "Name: LONG LEFTWARDS SQUIGGLE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬴ U+2B34 LEFTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2B34",
+            "..U.LEFTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE",
+            "U+2B34",
+        ],
+        "body": [
+            "${1|⬴,&#x2B34;,U+2B34,0x2B34,LEFTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2B34",
+            "Character/Symbol: ⬴",
+            "Name: LEFTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬵ U+2B35 LEFTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2B35",
+            "..U.LEFTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE",
+            "U+2B35",
+        ],
+        "body": [
+            "${1|⬵,&#x2B35;,U+2B35,0x2B35,LEFTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2B35",
+            "Character/Symbol: ⬵",
+            "Name: LEFTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬶ U+2B36 LEFTWARDS TWO-HEADED ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.2B36",
+            "..U.LEFTWARDS TWO-HEADED ARROW FROM BAR",
+            "U+2B36",
+        ],
+        "body": [
+            "${1|⬶,&#x2B36;,U+2B36,0x2B36,LEFTWARDS TWO-HEADED ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B36",
+            "Character/Symbol: ⬶",
+            "Name: LEFTWARDS TWO-HEADED ARROW FROM BAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬷ U+2B37 LEFTWARDS TWO-HEADED TRIPLE DASH ARROW": 
+    {
+        "prefix": [
+            "..U.2B37",
+            "..U.LEFTWARDS TWO-HEADED TRIPLE DASH ARROW",
+            "U+2B37",
+        ],
+        "body": [
+            "${1|⬷,&#x2B37;,U+2B37,0x2B37,LEFTWARDS TWO-HEADED TRIPLE DASH ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B37",
+            "Character/Symbol: ⬷",
+            "Name: LEFTWARDS TWO-HEADED TRIPLE DASH ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬸ U+2B38 LEFTWARDS ARROW WITH DOTTED STEM": 
+    {
+        "prefix": [
+            "..U.2B38",
+            "..U.LEFTWARDS ARROW WITH DOTTED STEM",
+            "U+2B38",
+        ],
+        "body": [
+            "${1|⬸,&#x2B38;,U+2B38,0x2B38,LEFTWARDS ARROW WITH DOTTED STEM|}$2",
+        ],
+        "description": [
+            "Code: U+2B38",
+            "Character/Symbol: ⬸",
+            "Name: LEFTWARDS ARROW WITH DOTTED STEM",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬹ U+2B39 LEFTWARDS ARROW WITH TAIL WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2B39",
+            "..U.LEFTWARDS ARROW WITH TAIL WITH VERTICAL STROKE",
+            "U+2B39",
+        ],
+        "body": [
+            "${1|⬹,&#x2B39;,U+2B39,0x2B39,LEFTWARDS ARROW WITH TAIL WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2B39",
+            "Character/Symbol: ⬹",
+            "Name: LEFTWARDS ARROW WITH TAIL WITH VERTICAL STROKE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬺ U+2B3A LEFTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2B3A",
+            "..U.LEFTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE",
+            "U+2B3A",
+        ],
+        "body": [
+            "${1|⬺,&#x2B3A;,U+2B3A,0x2B3A,LEFTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2B3A",
+            "Character/Symbol: ⬺",
+            "Name: LEFTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬻ U+2B3B LEFTWARDS TWO-HEADED ARROW WITH TAIL": 
+    {
+        "prefix": [
+            "..U.2B3B",
+            "..U.LEFTWARDS TWO-HEADED ARROW WITH TAIL",
+            "U+2B3B",
+        ],
+        "body": [
+            "${1|⬻,&#x2B3B;,U+2B3B,0x2B3B,LEFTWARDS TWO-HEADED ARROW WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+2B3B",
+            "Character/Symbol: ⬻",
+            "Name: LEFTWARDS TWO-HEADED ARROW WITH TAIL",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬼ U+2B3C LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2B3C",
+            "..U.LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE",
+            "U+2B3C",
+        ],
+        "body": [
+            "${1|⬼,&#x2B3C;,U+2B3C,0x2B3C,LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2B3C",
+            "Character/Symbol: ⬼",
+            "Name: LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬽ U+2B3D LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.2B3D",
+            "..U.LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE",
+            "U+2B3D",
+        ],
+        "body": [
+            "${1|⬽,&#x2B3D;,U+2B3D,0x2B3D,LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2B3D",
+            "Character/Symbol: ⬽",
+            "Name: LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬾ U+2B3E LEFTWARDS ARROW THROUGH X": 
+    {
+        "prefix": [
+            "..U.2B3E",
+            "..U.LEFTWARDS ARROW THROUGH X",
+            "U+2B3E",
+        ],
+        "body": [
+            "${1|⬾,&#x2B3E;,U+2B3E,0x2B3E,LEFTWARDS ARROW THROUGH X|}$2",
+        ],
+        "description": [
+            "Code: U+2B3E",
+            "Character/Symbol: ⬾",
+            "Name: LEFTWARDS ARROW THROUGH X",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⬿ U+2B3F WAVE ARROW POINTING DIRECTLY LEFT": 
+    {
+        "prefix": [
+            "..U.2B3F",
+            "..U.WAVE ARROW POINTING DIRECTLY LEFT",
+            "U+2B3F",
+        ],
+        "body": [
+            "${1|⬿,&#x2B3F;,U+2B3F,0x2B3F,WAVE ARROW POINTING DIRECTLY LEFT|}$2",
+        ],
+        "description": [
+            "Code: U+2B3F",
+            "Character/Symbol: ⬿",
+            "Name: WAVE ARROW POINTING DIRECTLY LEFT",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭀ U+2B40 EQUALS SIGN ABOVE LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2B40",
+            "..U.EQUALS SIGN ABOVE LEFTWARDS ARROW",
+            "U+2B40",
+        ],
+        "body": [
+            "${1|⭀,&#x2B40;,U+2B40,0x2B40,EQUALS SIGN ABOVE LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B40",
+            "Character/Symbol: ⭀",
+            "Name: EQUALS SIGN ABOVE LEFTWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭁ U+2B41 REVERSE TILDE OPERATOR ABOVE LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2B41",
+            "..U.REVERSE TILDE OPERATOR ABOVE LEFTWARDS ARROW",
+            "U+2B41",
+        ],
+        "body": [
+            "${1|⭁,&#x2B41;,U+2B41,0x2B41,REVERSE TILDE OPERATOR ABOVE LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B41",
+            "Character/Symbol: ⭁",
+            "Name: REVERSE TILDE OPERATOR ABOVE LEFTWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭂ U+2B42 LEFTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO": 
+    {
+        "prefix": [
+            "..U.2B42",
+            "..U.LEFTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO",
+            "U+2B42",
+        ],
+        "body": [
+            "${1|⭂,&#x2B42;,U+2B42,0x2B42,LEFTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO|}$2",
+        ],
+        "description": [
+            "Code: U+2B42",
+            "Character/Symbol: ⭂",
+            "Name: LEFTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭃ U+2B43 RIGHTWARDS ARROW THROUGH GREATER-THAN": 
+    {
+        "prefix": [
+            "..U.2B43",
+            "..U.RIGHTWARDS ARROW THROUGH GREATER-THAN",
+            "U+2B43",
+        ],
+        "body": [
+            "${1|⭃,&#x2B43;,U+2B43,0x2B43,RIGHTWARDS ARROW THROUGH GREATER-THAN|}$2",
+        ],
+        "description": [
+            "Code: U+2B43",
+            "Character/Symbol: ⭃",
+            "Name: RIGHTWARDS ARROW THROUGH GREATER-THAN",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭄ U+2B44 RIGHTWARDS ARROW THROUGH SUPERSET": 
+    {
+        "prefix": [
+            "..U.2B44",
+            "..U.RIGHTWARDS ARROW THROUGH SUPERSET",
+            "U+2B44",
+        ],
+        "body": [
+            "${1|⭄,&#x2B44;,U+2B44,0x2B44,RIGHTWARDS ARROW THROUGH SUPERSET|}$2",
+        ],
+        "description": [
+            "Code: U+2B44",
+            "Character/Symbol: ⭄",
+            "Name: RIGHTWARDS ARROW THROUGH SUPERSET",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭅ U+2B45 LEFTWARDS QUADRUPLE ARROW": 
+    {
+        "prefix": [
+            "..U.2B45",
+            "..U.LEFTWARDS QUADRUPLE ARROW",
+            "U+2B45",
+        ],
+        "body": [
+            "${1|⭅,&#x2B45;,U+2B45,0x2B45,LEFTWARDS QUADRUPLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B45",
+            "Character/Symbol: ⭅",
+            "Name: LEFTWARDS QUADRUPLE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭆ U+2B46 RIGHTWARDS QUADRUPLE ARROW": 
+    {
+        "prefix": [
+            "..U.2B46",
+            "..U.RIGHTWARDS QUADRUPLE ARROW",
+            "U+2B46",
+        ],
+        "body": [
+            "${1|⭆,&#x2B46;,U+2B46,0x2B46,RIGHTWARDS QUADRUPLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B46",
+            "Character/Symbol: ⭆",
+            "Name: RIGHTWARDS QUADRUPLE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭇ U+2B47 REVERSE TILDE OPERATOR ABOVE RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2B47",
+            "..U.REVERSE TILDE OPERATOR ABOVE RIGHTWARDS ARROW",
+            "U+2B47",
+        ],
+        "body": [
+            "${1|⭇,&#x2B47;,U+2B47,0x2B47,REVERSE TILDE OPERATOR ABOVE RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B47",
+            "Character/Symbol: ⭇",
+            "Name: REVERSE TILDE OPERATOR ABOVE RIGHTWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭈ U+2B48 RIGHTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO": 
+    {
+        "prefix": [
+            "..U.2B48",
+            "..U.RIGHTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO",
+            "U+2B48",
+        ],
+        "body": [
+            "${1|⭈,&#x2B48;,U+2B48,0x2B48,RIGHTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO|}$2",
+        ],
+        "description": [
+            "Code: U+2B48",
+            "Character/Symbol: ⭈",
+            "Name: RIGHTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭉ U+2B49 TILDE OPERATOR ABOVE LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2B49",
+            "..U.TILDE OPERATOR ABOVE LEFTWARDS ARROW",
+            "U+2B49",
+        ],
+        "body": [
+            "${1|⭉,&#x2B49;,U+2B49,0x2B49,TILDE OPERATOR ABOVE LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B49",
+            "Character/Symbol: ⭉",
+            "Name: TILDE OPERATOR ABOVE LEFTWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭊ U+2B4A LEFTWARDS ARROW ABOVE ALMOST EQUAL TO": 
+    {
+        "prefix": [
+            "..U.2B4A",
+            "..U.LEFTWARDS ARROW ABOVE ALMOST EQUAL TO",
+            "U+2B4A",
+        ],
+        "body": [
+            "${1|⭊,&#x2B4A;,U+2B4A,0x2B4A,LEFTWARDS ARROW ABOVE ALMOST EQUAL TO|}$2",
+        ],
+        "description": [
+            "Code: U+2B4A",
+            "Character/Symbol: ⭊",
+            "Name: LEFTWARDS ARROW ABOVE ALMOST EQUAL TO",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭋ U+2B4B LEFTWARDS ARROW ABOVE REVERSE TILDE OPERATOR": 
+    {
+        "prefix": [
+            "..U.2B4B",
+            "..U.LEFTWARDS ARROW ABOVE REVERSE TILDE OPERATOR",
+            "U+2B4B",
+        ],
+        "body": [
+            "${1|⭋,&#x2B4B;,U+2B4B,0x2B4B,LEFTWARDS ARROW ABOVE REVERSE TILDE OPERATOR|}$2",
+        ],
+        "description": [
+            "Code: U+2B4B",
+            "Character/Symbol: ⭋",
+            "Name: LEFTWARDS ARROW ABOVE REVERSE TILDE OPERATOR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭌ U+2B4C RIGHTWARDS ARROW ABOVE REVERSE TILDE OPERATOR": 
+    {
+        "prefix": [
+            "..U.2B4C",
+            "..U.RIGHTWARDS ARROW ABOVE REVERSE TILDE OPERATOR",
+            "U+2B4C",
+        ],
+        "body": [
+            "${1|⭌,&#x2B4C;,U+2B4C,0x2B4C,RIGHTWARDS ARROW ABOVE REVERSE TILDE OPERATOR|}$2",
+        ],
+        "description": [
+            "Code: U+2B4C",
+            "Character/Symbol: ⭌",
+            "Name: RIGHTWARDS ARROW ABOVE REVERSE TILDE OPERATOR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭍ U+2B4D DOWNWARDS TRIANGLE-HEADED ZIGZAG ARROW": 
+    {
+        "prefix": [
+            "..U.2B4D",
+            "..U.DOWNWARDS TRIANGLE-HEADED ZIGZAG ARROW",
+            "U+2B4D",
+        ],
+        "body": [
+            "${1|⭍,&#x2B4D;,U+2B4D,0x2B4D,DOWNWARDS TRIANGLE-HEADED ZIGZAG ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B4D",
+            "Character/Symbol: ⭍",
+            "Name: DOWNWARDS TRIANGLE-HEADED ZIGZAG ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭎ U+2B4E SHORT SLANTED NORTH ARROW": 
+    {
+        "prefix": [
+            "..U.2B4E",
+            "..U.SHORT SLANTED NORTH ARROW",
+            "U+2B4E",
+        ],
+        "body": [
+            "${1|⭎,&#x2B4E;,U+2B4E,0x2B4E,SHORT SLANTED NORTH ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B4E",
+            "Character/Symbol: ⭎",
+            "Name: SHORT SLANTED NORTH ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭏ U+2B4F SHORT BACKSLANTED SOUTH ARROW": 
+    {
+        "prefix": [
+            "..U.2B4F",
+            "..U.SHORT BACKSLANTED SOUTH ARROW",
+            "U+2B4F",
+        ],
+        "body": [
+            "${1|⭏,&#x2B4F;,U+2B4F,0x2B4F,SHORT BACKSLANTED SOUTH ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B4F",
+            "Character/Symbol: ⭏",
+            "Name: SHORT BACKSLANTED SOUTH ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭐ U+2B50 WHITE MEDIUM STAR": 
+    {
+        "prefix": [
+            "..U.2B50",
+            "..U.WHITE MEDIUM STAR",
+            "U+2B50",
+        ],
+        "body": [
+            "${1|⭐,&#x2B50;,U+2B50,0x2B50,WHITE MEDIUM STAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B50",
+            "Character/Symbol: ⭐",
+            "Name: WHITE MEDIUM STAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭑ U+2B51 BLACK SMALL STAR": 
+    {
+        "prefix": [
+            "..U.2B51",
+            "..U.BLACK SMALL STAR",
+            "U+2B51",
+        ],
+        "body": [
+            "${1|⭑,&#x2B51;,U+2B51,0x2B51,BLACK SMALL STAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B51",
+            "Character/Symbol: ⭑",
+            "Name: BLACK SMALL STAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭒ U+2B52 WHITE SMALL STAR": 
+    {
+        "prefix": [
+            "..U.2B52",
+            "..U.WHITE SMALL STAR",
+            "U+2B52",
+        ],
+        "body": [
+            "${1|⭒,&#x2B52;,U+2B52,0x2B52,WHITE SMALL STAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B52",
+            "Character/Symbol: ⭒",
+            "Name: WHITE SMALL STAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭓ U+2B53 BLACK RIGHT-POINTING PENTAGON": 
+    {
+        "prefix": [
+            "..U.2B53",
+            "..U.BLACK RIGHT-POINTING PENTAGON",
+            "U+2B53",
+        ],
+        "body": [
+            "${1|⭓,&#x2B53;,U+2B53,0x2B53,BLACK RIGHT-POINTING PENTAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2B53",
+            "Character/Symbol: ⭓",
+            "Name: BLACK RIGHT-POINTING PENTAGON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭔ U+2B54 WHITE RIGHT-POINTING PENTAGON": 
+    {
+        "prefix": [
+            "..U.2B54",
+            "..U.WHITE RIGHT-POINTING PENTAGON",
+            "U+2B54",
+        ],
+        "body": [
+            "${1|⭔,&#x2B54;,U+2B54,0x2B54,WHITE RIGHT-POINTING PENTAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2B54",
+            "Character/Symbol: ⭔",
+            "Name: WHITE RIGHT-POINTING PENTAGON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭕ U+2B55 HEAVY LARGE CIRCLE": 
+    {
+        "prefix": [
+            "..U.2B55",
+            "..U.HEAVY LARGE CIRCLE",
+            "U+2B55",
+        ],
+        "body": [
+            "${1|⭕,&#x2B55;,U+2B55,0x2B55,HEAVY LARGE CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+2B55",
+            "Character/Symbol: ⭕",
+            "Name: HEAVY LARGE CIRCLE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭖ U+2B56 HEAVY OVAL WITH OVAL INSIDE": 
+    {
+        "prefix": [
+            "..U.2B56",
+            "..U.HEAVY OVAL WITH OVAL INSIDE",
+            "U+2B56",
+        ],
+        "body": [
+            "${1|⭖,&#x2B56;,U+2B56,0x2B56,HEAVY OVAL WITH OVAL INSIDE|}$2",
+        ],
+        "description": [
+            "Code: U+2B56",
+            "Character/Symbol: ⭖",
+            "Name: HEAVY OVAL WITH OVAL INSIDE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭗ U+2B57 HEAVY CIRCLE WITH CIRCLE INSIDE": 
+    {
+        "prefix": [
+            "..U.2B57",
+            "..U.HEAVY CIRCLE WITH CIRCLE INSIDE",
+            "U+2B57",
+        ],
+        "body": [
+            "${1|⭗,&#x2B57;,U+2B57,0x2B57,HEAVY CIRCLE WITH CIRCLE INSIDE|}$2",
+        ],
+        "description": [
+            "Code: U+2B57",
+            "Character/Symbol: ⭗",
+            "Name: HEAVY CIRCLE WITH CIRCLE INSIDE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭘ U+2B58 HEAVY CIRCLE": 
+    {
+        "prefix": [
+            "..U.2B58",
+            "..U.HEAVY CIRCLE",
+            "U+2B58",
+        ],
+        "body": [
+            "${1|⭘,&#x2B58;,U+2B58,0x2B58,HEAVY CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+2B58",
+            "Character/Symbol: ⭘",
+            "Name: HEAVY CIRCLE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭙ U+2B59 HEAVY CIRCLED SALTIRE": 
+    {
+        "prefix": [
+            "..U.2B59",
+            "..U.HEAVY CIRCLED SALTIRE",
+            "U+2B59",
+        ],
+        "body": [
+            "${1|⭙,&#x2B59;,U+2B59,0x2B59,HEAVY CIRCLED SALTIRE|}$2",
+        ],
+        "description": [
+            "Code: U+2B59",
+            "Character/Symbol: ⭙",
+            "Name: HEAVY CIRCLED SALTIRE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭚ U+2B5A SLANTED NORTH ARROW WITH HOOKED HEAD": 
+    {
+        "prefix": [
+            "..U.2B5A",
+            "..U.SLANTED NORTH ARROW WITH HOOKED HEAD",
+            "U+2B5A",
+        ],
+        "body": [
+            "${1|⭚,&#x2B5A;,U+2B5A,0x2B5A,SLANTED NORTH ARROW WITH HOOKED HEAD|}$2",
+        ],
+        "description": [
+            "Code: U+2B5A",
+            "Character/Symbol: ⭚",
+            "Name: SLANTED NORTH ARROW WITH HOOKED HEAD",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭛ U+2B5B BACKSLANTED SOUTH ARROW WITH HOOKED TAIL": 
+    {
+        "prefix": [
+            "..U.2B5B",
+            "..U.BACKSLANTED SOUTH ARROW WITH HOOKED TAIL",
+            "U+2B5B",
+        ],
+        "body": [
+            "${1|⭛,&#x2B5B;,U+2B5B,0x2B5B,BACKSLANTED SOUTH ARROW WITH HOOKED TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+2B5B",
+            "Character/Symbol: ⭛",
+            "Name: BACKSLANTED SOUTH ARROW WITH HOOKED TAIL",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭜ U+2B5C SLANTED NORTH ARROW WITH HORIZONTAL TAIL": 
+    {
+        "prefix": [
+            "..U.2B5C",
+            "..U.SLANTED NORTH ARROW WITH HORIZONTAL TAIL",
+            "U+2B5C",
+        ],
+        "body": [
+            "${1|⭜,&#x2B5C;,U+2B5C,0x2B5C,SLANTED NORTH ARROW WITH HORIZONTAL TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+2B5C",
+            "Character/Symbol: ⭜",
+            "Name: SLANTED NORTH ARROW WITH HORIZONTAL TAIL",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭝ U+2B5D BACKSLANTED SOUTH ARROW WITH HORIZONTAL TAIL": 
+    {
+        "prefix": [
+            "..U.2B5D",
+            "..U.BACKSLANTED SOUTH ARROW WITH HORIZONTAL TAIL",
+            "U+2B5D",
+        ],
+        "body": [
+            "${1|⭝,&#x2B5D;,U+2B5D,0x2B5D,BACKSLANTED SOUTH ARROW WITH HORIZONTAL TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+2B5D",
+            "Character/Symbol: ⭝",
+            "Name: BACKSLANTED SOUTH ARROW WITH HORIZONTAL TAIL",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭞ U+2B5E BENT ARROW POINTING DOWNWARDS THEN NORTH EAST": 
+    {
+        "prefix": [
+            "..U.2B5E",
+            "..U.BENT ARROW POINTING DOWNWARDS THEN NORTH EAST",
+            "U+2B5E",
+        ],
+        "body": [
+            "${1|⭞,&#x2B5E;,U+2B5E,0x2B5E,BENT ARROW POINTING DOWNWARDS THEN NORTH EAST|}$2",
+        ],
+        "description": [
+            "Code: U+2B5E",
+            "Character/Symbol: ⭞",
+            "Name: BENT ARROW POINTING DOWNWARDS THEN NORTH EAST",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭟ U+2B5F SHORT BENT ARROW POINTING DOWNWARDS THEN NORTH EAST": 
+    {
+        "prefix": [
+            "..U.2B5F",
+            "..U.SHORT BENT ARROW POINTING DOWNWARDS THEN NORTH EAST",
+            "U+2B5F",
+        ],
+        "body": [
+            "${1|⭟,&#x2B5F;,U+2B5F,0x2B5F,SHORT BENT ARROW POINTING DOWNWARDS THEN NORTH EAST|}$2",
+        ],
+        "description": [
+            "Code: U+2B5F",
+            "Character/Symbol: ⭟",
+            "Name: SHORT BENT ARROW POINTING DOWNWARDS THEN NORTH EAST",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭠ U+2B60 LEFTWARDS TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B60",
+            "..U.LEFTWARDS TRIANGLE-HEADED ARROW",
+            "U+2B60",
+        ],
+        "body": [
+            "${1|⭠,&#x2B60;,U+2B60,0x2B60,LEFTWARDS TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B60",
+            "Character/Symbol: ⭠",
+            "Name: LEFTWARDS TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭡ U+2B61 UPWARDS TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B61",
+            "..U.UPWARDS TRIANGLE-HEADED ARROW",
+            "U+2B61",
+        ],
+        "body": [
+            "${1|⭡,&#x2B61;,U+2B61,0x2B61,UPWARDS TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B61",
+            "Character/Symbol: ⭡",
+            "Name: UPWARDS TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭢ U+2B62 RIGHTWARDS TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B62",
+            "..U.RIGHTWARDS TRIANGLE-HEADED ARROW",
+            "U+2B62",
+        ],
+        "body": [
+            "${1|⭢,&#x2B62;,U+2B62,0x2B62,RIGHTWARDS TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B62",
+            "Character/Symbol: ⭢",
+            "Name: RIGHTWARDS TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭣ U+2B63 DOWNWARDS TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B63",
+            "..U.DOWNWARDS TRIANGLE-HEADED ARROW",
+            "U+2B63",
+        ],
+        "body": [
+            "${1|⭣,&#x2B63;,U+2B63,0x2B63,DOWNWARDS TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B63",
+            "Character/Symbol: ⭣",
+            "Name: DOWNWARDS TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭤ U+2B64 LEFT RIGHT TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B64",
+            "..U.LEFT RIGHT TRIANGLE-HEADED ARROW",
+            "U+2B64",
+        ],
+        "body": [
+            "${1|⭤,&#x2B64;,U+2B64,0x2B64,LEFT RIGHT TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B64",
+            "Character/Symbol: ⭤",
+            "Name: LEFT RIGHT TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭥ U+2B65 UP DOWN TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B65",
+            "..U.UP DOWN TRIANGLE-HEADED ARROW",
+            "U+2B65",
+        ],
+        "body": [
+            "${1|⭥,&#x2B65;,U+2B65,0x2B65,UP DOWN TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B65",
+            "Character/Symbol: ⭥",
+            "Name: UP DOWN TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭦ U+2B66 NORTH WEST TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B66",
+            "..U.NORTH WEST TRIANGLE-HEADED ARROW",
+            "U+2B66",
+        ],
+        "body": [
+            "${1|⭦,&#x2B66;,U+2B66,0x2B66,NORTH WEST TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B66",
+            "Character/Symbol: ⭦",
+            "Name: NORTH WEST TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭧ U+2B67 NORTH EAST TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B67",
+            "..U.NORTH EAST TRIANGLE-HEADED ARROW",
+            "U+2B67",
+        ],
+        "body": [
+            "${1|⭧,&#x2B67;,U+2B67,0x2B67,NORTH EAST TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B67",
+            "Character/Symbol: ⭧",
+            "Name: NORTH EAST TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭨ U+2B68 SOUTH EAST TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B68",
+            "..U.SOUTH EAST TRIANGLE-HEADED ARROW",
+            "U+2B68",
+        ],
+        "body": [
+            "${1|⭨,&#x2B68;,U+2B68,0x2B68,SOUTH EAST TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B68",
+            "Character/Symbol: ⭨",
+            "Name: SOUTH EAST TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭩ U+2B69 SOUTH WEST TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B69",
+            "..U.SOUTH WEST TRIANGLE-HEADED ARROW",
+            "U+2B69",
+        ],
+        "body": [
+            "${1|⭩,&#x2B69;,U+2B69,0x2B69,SOUTH WEST TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B69",
+            "Character/Symbol: ⭩",
+            "Name: SOUTH WEST TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭪ U+2B6A LEFTWARDS TRIANGLE-HEADED DASHED ARROW": 
+    {
+        "prefix": [
+            "..U.2B6A",
+            "..U.LEFTWARDS TRIANGLE-HEADED DASHED ARROW",
+            "U+2B6A",
+        ],
+        "body": [
+            "${1|⭪,&#x2B6A;,U+2B6A,0x2B6A,LEFTWARDS TRIANGLE-HEADED DASHED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B6A",
+            "Character/Symbol: ⭪",
+            "Name: LEFTWARDS TRIANGLE-HEADED DASHED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭫ U+2B6B UPWARDS TRIANGLE-HEADED DASHED ARROW": 
+    {
+        "prefix": [
+            "..U.2B6B",
+            "..U.UPWARDS TRIANGLE-HEADED DASHED ARROW",
+            "U+2B6B",
+        ],
+        "body": [
+            "${1|⭫,&#x2B6B;,U+2B6B,0x2B6B,UPWARDS TRIANGLE-HEADED DASHED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B6B",
+            "Character/Symbol: ⭫",
+            "Name: UPWARDS TRIANGLE-HEADED DASHED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭬ U+2B6C RIGHTWARDS TRIANGLE-HEADED DASHED ARROW": 
+    {
+        "prefix": [
+            "..U.2B6C",
+            "..U.RIGHTWARDS TRIANGLE-HEADED DASHED ARROW",
+            "U+2B6C",
+        ],
+        "body": [
+            "${1|⭬,&#x2B6C;,U+2B6C,0x2B6C,RIGHTWARDS TRIANGLE-HEADED DASHED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B6C",
+            "Character/Symbol: ⭬",
+            "Name: RIGHTWARDS TRIANGLE-HEADED DASHED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭭ U+2B6D DOWNWARDS TRIANGLE-HEADED DASHED ARROW": 
+    {
+        "prefix": [
+            "..U.2B6D",
+            "..U.DOWNWARDS TRIANGLE-HEADED DASHED ARROW",
+            "U+2B6D",
+        ],
+        "body": [
+            "${1|⭭,&#x2B6D;,U+2B6D,0x2B6D,DOWNWARDS TRIANGLE-HEADED DASHED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B6D",
+            "Character/Symbol: ⭭",
+            "Name: DOWNWARDS TRIANGLE-HEADED DASHED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭮ U+2B6E CLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW": 
+    {
+        "prefix": [
+            "..U.2B6E",
+            "..U.CLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW",
+            "U+2B6E",
+        ],
+        "body": [
+            "${1|⭮,&#x2B6E;,U+2B6E,0x2B6E,CLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B6E",
+            "Character/Symbol: ⭮",
+            "Name: CLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭯ U+2B6F ANTICLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW": 
+    {
+        "prefix": [
+            "..U.2B6F",
+            "..U.ANTICLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW",
+            "U+2B6F",
+        ],
+        "body": [
+            "${1|⭯,&#x2B6F;,U+2B6F,0x2B6F,ANTICLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B6F",
+            "Character/Symbol: ⭯",
+            "Name: ANTICLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭰ U+2B70 LEFTWARDS TRIANGLE-HEADED ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.2B70",
+            "..U.LEFTWARDS TRIANGLE-HEADED ARROW TO BAR",
+            "U+2B70",
+        ],
+        "body": [
+            "${1|⭰,&#x2B70;,U+2B70,0x2B70,LEFTWARDS TRIANGLE-HEADED ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B70",
+            "Character/Symbol: ⭰",
+            "Name: LEFTWARDS TRIANGLE-HEADED ARROW TO BAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭱ U+2B71 UPWARDS TRIANGLE-HEADED ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.2B71",
+            "..U.UPWARDS TRIANGLE-HEADED ARROW TO BAR",
+            "U+2B71",
+        ],
+        "body": [
+            "${1|⭱,&#x2B71;,U+2B71,0x2B71,UPWARDS TRIANGLE-HEADED ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B71",
+            "Character/Symbol: ⭱",
+            "Name: UPWARDS TRIANGLE-HEADED ARROW TO BAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭲ U+2B72 RIGHTWARDS TRIANGLE-HEADED ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.2B72",
+            "..U.RIGHTWARDS TRIANGLE-HEADED ARROW TO BAR",
+            "U+2B72",
+        ],
+        "body": [
+            "${1|⭲,&#x2B72;,U+2B72,0x2B72,RIGHTWARDS TRIANGLE-HEADED ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B72",
+            "Character/Symbol: ⭲",
+            "Name: RIGHTWARDS TRIANGLE-HEADED ARROW TO BAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭳ U+2B73 DOWNWARDS TRIANGLE-HEADED ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.2B73",
+            "..U.DOWNWARDS TRIANGLE-HEADED ARROW TO BAR",
+            "U+2B73",
+        ],
+        "body": [
+            "${1|⭳,&#x2B73;,U+2B73,0x2B73,DOWNWARDS TRIANGLE-HEADED ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B73",
+            "Character/Symbol: ⭳",
+            "Name: DOWNWARDS TRIANGLE-HEADED ARROW TO BAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭶ U+2B76 NORTH WEST TRIANGLE-HEADED ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.2B76",
+            "..U.NORTH WEST TRIANGLE-HEADED ARROW TO BAR",
+            "U+2B76",
+        ],
+        "body": [
+            "${1|⭶,&#x2B76;,U+2B76,0x2B76,NORTH WEST TRIANGLE-HEADED ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B76",
+            "Character/Symbol: ⭶",
+            "Name: NORTH WEST TRIANGLE-HEADED ARROW TO BAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭷ U+2B77 NORTH EAST TRIANGLE-HEADED ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.2B77",
+            "..U.NORTH EAST TRIANGLE-HEADED ARROW TO BAR",
+            "U+2B77",
+        ],
+        "body": [
+            "${1|⭷,&#x2B77;,U+2B77,0x2B77,NORTH EAST TRIANGLE-HEADED ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B77",
+            "Character/Symbol: ⭷",
+            "Name: NORTH EAST TRIANGLE-HEADED ARROW TO BAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭸ U+2B78 SOUTH EAST TRIANGLE-HEADED ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.2B78",
+            "..U.SOUTH EAST TRIANGLE-HEADED ARROW TO BAR",
+            "U+2B78",
+        ],
+        "body": [
+            "${1|⭸,&#x2B78;,U+2B78,0x2B78,SOUTH EAST TRIANGLE-HEADED ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B78",
+            "Character/Symbol: ⭸",
+            "Name: SOUTH EAST TRIANGLE-HEADED ARROW TO BAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭹ U+2B79 SOUTH WEST TRIANGLE-HEADED ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.2B79",
+            "..U.SOUTH WEST TRIANGLE-HEADED ARROW TO BAR",
+            "U+2B79",
+        ],
+        "body": [
+            "${1|⭹,&#x2B79;,U+2B79,0x2B79,SOUTH WEST TRIANGLE-HEADED ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2B79",
+            "Character/Symbol: ⭹",
+            "Name: SOUTH WEST TRIANGLE-HEADED ARROW TO BAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭺ U+2B7A LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE": 
+    {
+        "prefix": [
+            "..U.2B7A",
+            "..U.LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE",
+            "U+2B7A",
+        ],
+        "body": [
+            "${1|⭺,&#x2B7A;,U+2B7A,0x2B7A,LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2B7A",
+            "Character/Symbol: ⭺",
+            "Name: LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭻ U+2B7B UPWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE": 
+    {
+        "prefix": [
+            "..U.2B7B",
+            "..U.UPWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE",
+            "U+2B7B",
+        ],
+        "body": [
+            "${1|⭻,&#x2B7B;,U+2B7B,0x2B7B,UPWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2B7B",
+            "Character/Symbol: ⭻",
+            "Name: UPWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭼ U+2B7C RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE": 
+    {
+        "prefix": [
+            "..U.2B7C",
+            "..U.RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE",
+            "U+2B7C",
+        ],
+        "body": [
+            "${1|⭼,&#x2B7C;,U+2B7C,0x2B7C,RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2B7C",
+            "Character/Symbol: ⭼",
+            "Name: RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭽ U+2B7D DOWNWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE": 
+    {
+        "prefix": [
+            "..U.2B7D",
+            "..U.DOWNWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE",
+            "U+2B7D",
+        ],
+        "body": [
+            "${1|⭽,&#x2B7D;,U+2B7D,0x2B7D,DOWNWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+2B7D",
+            "Character/Symbol: ⭽",
+            "Name: DOWNWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭾ U+2B7E HORIZONTAL TAB KEY": 
+    {
+        "prefix": [
+            "..U.2B7E",
+            "..U.HORIZONTAL TAB KEY",
+            "U+2B7E",
+        ],
+        "body": [
+            "${1|⭾,&#x2B7E;,U+2B7E,0x2B7E,HORIZONTAL TAB KEY|}$2",
+        ],
+        "description": [
+            "Code: U+2B7E",
+            "Character/Symbol: ⭾",
+            "Name: HORIZONTAL TAB KEY",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⭿ U+2B7F VERTICAL TAB KEY": 
+    {
+        "prefix": [
+            "..U.2B7F",
+            "..U.VERTICAL TAB KEY",
+            "U+2B7F",
+        ],
+        "body": [
+            "${1|⭿,&#x2B7F;,U+2B7F,0x2B7F,VERTICAL TAB KEY|}$2",
+        ],
+        "description": [
+            "Code: U+2B7F",
+            "Character/Symbol: ⭿",
+            "Name: VERTICAL TAB KEY",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮀ U+2B80 LEFTWARDS TRIANGLE-HEADED ARROW OVER RIGHTWARDS TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B80",
+            "..U.LEFTWARDS TRIANGLE-HEADED ARROW OVER RIGHTWARDS TRIANGLE-HEADED ARROW",
+            "U+2B80",
+        ],
+        "body": [
+            "${1|⮀,&#x2B80;,U+2B80,0x2B80,LEFTWARDS TRIANGLE-HEADED ARROW OVER RIGHTWARDS TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B80",
+            "Character/Symbol: ⮀",
+            "Name: LEFTWARDS TRIANGLE-HEADED ARROW OVER RIGHTWARDS TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮁ U+2B81 UPWARDS TRIANGLE-HEADED ARROW LEFTWARDS OF DOWNWARDS TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B81",
+            "..U.UPWARDS TRIANGLE-HEADED ARROW LEFTWARDS OF DOWNWARDS TRIANGLE-HEADED ARROW",
+            "U+2B81",
+        ],
+        "body": [
+            "${1|⮁,&#x2B81;,U+2B81,0x2B81,UPWARDS TRIANGLE-HEADED ARROW LEFTWARDS OF DOWNWARDS TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B81",
+            "Character/Symbol: ⮁",
+            "Name: UPWARDS TRIANGLE-HEADED ARROW LEFTWARDS OF DOWNWARDS TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮂ U+2B82 RIGHTWARDS TRIANGLE-HEADED ARROW OVER LEFTWARDS TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B82",
+            "..U.RIGHTWARDS TRIANGLE-HEADED ARROW OVER LEFTWARDS TRIANGLE-HEADED ARROW",
+            "U+2B82",
+        ],
+        "body": [
+            "${1|⮂,&#x2B82;,U+2B82,0x2B82,RIGHTWARDS TRIANGLE-HEADED ARROW OVER LEFTWARDS TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B82",
+            "Character/Symbol: ⮂",
+            "Name: RIGHTWARDS TRIANGLE-HEADED ARROW OVER LEFTWARDS TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮃ U+2B83 DOWNWARDS TRIANGLE-HEADED ARROW LEFTWARDS OF UPWARDS TRIANGLE-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.2B83",
+            "..U.DOWNWARDS TRIANGLE-HEADED ARROW LEFTWARDS OF UPWARDS TRIANGLE-HEADED ARROW",
+            "U+2B83",
+        ],
+        "body": [
+            "${1|⮃,&#x2B83;,U+2B83,0x2B83,DOWNWARDS TRIANGLE-HEADED ARROW LEFTWARDS OF UPWARDS TRIANGLE-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B83",
+            "Character/Symbol: ⮃",
+            "Name: DOWNWARDS TRIANGLE-HEADED ARROW LEFTWARDS OF UPWARDS TRIANGLE-HEADED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮄ U+2B84 LEFTWARDS TRIANGLE-HEADED PAIRED ARROWS": 
+    {
+        "prefix": [
+            "..U.2B84",
+            "..U.LEFTWARDS TRIANGLE-HEADED PAIRED ARROWS",
+            "U+2B84",
+        ],
+        "body": [
+            "${1|⮄,&#x2B84;,U+2B84,0x2B84,LEFTWARDS TRIANGLE-HEADED PAIRED ARROWS|}$2",
+        ],
+        "description": [
+            "Code: U+2B84",
+            "Character/Symbol: ⮄",
+            "Name: LEFTWARDS TRIANGLE-HEADED PAIRED ARROWS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮅ U+2B85 UPWARDS TRIANGLE-HEADED PAIRED ARROWS": 
+    {
+        "prefix": [
+            "..U.2B85",
+            "..U.UPWARDS TRIANGLE-HEADED PAIRED ARROWS",
+            "U+2B85",
+        ],
+        "body": [
+            "${1|⮅,&#x2B85;,U+2B85,0x2B85,UPWARDS TRIANGLE-HEADED PAIRED ARROWS|}$2",
+        ],
+        "description": [
+            "Code: U+2B85",
+            "Character/Symbol: ⮅",
+            "Name: UPWARDS TRIANGLE-HEADED PAIRED ARROWS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮆ U+2B86 RIGHTWARDS TRIANGLE-HEADED PAIRED ARROWS": 
+    {
+        "prefix": [
+            "..U.2B86",
+            "..U.RIGHTWARDS TRIANGLE-HEADED PAIRED ARROWS",
+            "U+2B86",
+        ],
+        "body": [
+            "${1|⮆,&#x2B86;,U+2B86,0x2B86,RIGHTWARDS TRIANGLE-HEADED PAIRED ARROWS|}$2",
+        ],
+        "description": [
+            "Code: U+2B86",
+            "Character/Symbol: ⮆",
+            "Name: RIGHTWARDS TRIANGLE-HEADED PAIRED ARROWS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮇ U+2B87 DOWNWARDS TRIANGLE-HEADED PAIRED ARROWS": 
+    {
+        "prefix": [
+            "..U.2B87",
+            "..U.DOWNWARDS TRIANGLE-HEADED PAIRED ARROWS",
+            "U+2B87",
+        ],
+        "body": [
+            "${1|⮇,&#x2B87;,U+2B87,0x2B87,DOWNWARDS TRIANGLE-HEADED PAIRED ARROWS|}$2",
+        ],
+        "description": [
+            "Code: U+2B87",
+            "Character/Symbol: ⮇",
+            "Name: DOWNWARDS TRIANGLE-HEADED PAIRED ARROWS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮈ U+2B88 LEFTWARDS BLACK CIRCLED WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.2B88",
+            "..U.LEFTWARDS BLACK CIRCLED WHITE ARROW",
+            "U+2B88",
+        ],
+        "body": [
+            "${1|⮈,&#x2B88;,U+2B88,0x2B88,LEFTWARDS BLACK CIRCLED WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B88",
+            "Character/Symbol: ⮈",
+            "Name: LEFTWARDS BLACK CIRCLED WHITE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮉ U+2B89 UPWARDS BLACK CIRCLED WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.2B89",
+            "..U.UPWARDS BLACK CIRCLED WHITE ARROW",
+            "U+2B89",
+        ],
+        "body": [
+            "${1|⮉,&#x2B89;,U+2B89,0x2B89,UPWARDS BLACK CIRCLED WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B89",
+            "Character/Symbol: ⮉",
+            "Name: UPWARDS BLACK CIRCLED WHITE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮊ U+2B8A RIGHTWARDS BLACK CIRCLED WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.2B8A",
+            "..U.RIGHTWARDS BLACK CIRCLED WHITE ARROW",
+            "U+2B8A",
+        ],
+        "body": [
+            "${1|⮊,&#x2B8A;,U+2B8A,0x2B8A,RIGHTWARDS BLACK CIRCLED WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B8A",
+            "Character/Symbol: ⮊",
+            "Name: RIGHTWARDS BLACK CIRCLED WHITE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮋ U+2B8B DOWNWARDS BLACK CIRCLED WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.2B8B",
+            "..U.DOWNWARDS BLACK CIRCLED WHITE ARROW",
+            "U+2B8B",
+        ],
+        "body": [
+            "${1|⮋,&#x2B8B;,U+2B8B,0x2B8B,DOWNWARDS BLACK CIRCLED WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B8B",
+            "Character/Symbol: ⮋",
+            "Name: DOWNWARDS BLACK CIRCLED WHITE ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮌ U+2B8C ANTICLOCKWISE TRIANGLE-HEADED RIGHT U-SHAPED ARROW": 
+    {
+        "prefix": [
+            "..U.2B8C",
+            "..U.ANTICLOCKWISE TRIANGLE-HEADED RIGHT U-SHAPED ARROW",
+            "U+2B8C",
+        ],
+        "body": [
+            "${1|⮌,&#x2B8C;,U+2B8C,0x2B8C,ANTICLOCKWISE TRIANGLE-HEADED RIGHT U-SHAPED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B8C",
+            "Character/Symbol: ⮌",
+            "Name: ANTICLOCKWISE TRIANGLE-HEADED RIGHT U-SHAPED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮍ U+2B8D ANTICLOCKWISE TRIANGLE-HEADED BOTTOM U-SHAPED ARROW": 
+    {
+        "prefix": [
+            "..U.2B8D",
+            "..U.ANTICLOCKWISE TRIANGLE-HEADED BOTTOM U-SHAPED ARROW",
+            "U+2B8D",
+        ],
+        "body": [
+            "${1|⮍,&#x2B8D;,U+2B8D,0x2B8D,ANTICLOCKWISE TRIANGLE-HEADED BOTTOM U-SHAPED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B8D",
+            "Character/Symbol: ⮍",
+            "Name: ANTICLOCKWISE TRIANGLE-HEADED BOTTOM U-SHAPED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮎ U+2B8E ANTICLOCKWISE TRIANGLE-HEADED LEFT U-SHAPED ARROW": 
+    {
+        "prefix": [
+            "..U.2B8E",
+            "..U.ANTICLOCKWISE TRIANGLE-HEADED LEFT U-SHAPED ARROW",
+            "U+2B8E",
+        ],
+        "body": [
+            "${1|⮎,&#x2B8E;,U+2B8E,0x2B8E,ANTICLOCKWISE TRIANGLE-HEADED LEFT U-SHAPED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B8E",
+            "Character/Symbol: ⮎",
+            "Name: ANTICLOCKWISE TRIANGLE-HEADED LEFT U-SHAPED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮏ U+2B8F ANTICLOCKWISE TRIANGLE-HEADED TOP U-SHAPED ARROW": 
+    {
+        "prefix": [
+            "..U.2B8F",
+            "..U.ANTICLOCKWISE TRIANGLE-HEADED TOP U-SHAPED ARROW",
+            "U+2B8F",
+        ],
+        "body": [
+            "${1|⮏,&#x2B8F;,U+2B8F,0x2B8F,ANTICLOCKWISE TRIANGLE-HEADED TOP U-SHAPED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B8F",
+            "Character/Symbol: ⮏",
+            "Name: ANTICLOCKWISE TRIANGLE-HEADED TOP U-SHAPED ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮐ U+2B90 RETURN LEFT": 
+    {
+        "prefix": [
+            "..U.2B90",
+            "..U.RETURN LEFT",
+            "U+2B90",
+        ],
+        "body": [
+            "${1|⮐,&#x2B90;,U+2B90,0x2B90,RETURN LEFT|}$2",
+        ],
+        "description": [
+            "Code: U+2B90",
+            "Character/Symbol: ⮐",
+            "Name: RETURN LEFT",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮑ U+2B91 RETURN RIGHT": 
+    {
+        "prefix": [
+            "..U.2B91",
+            "..U.RETURN RIGHT",
+            "U+2B91",
+        ],
+        "body": [
+            "${1|⮑,&#x2B91;,U+2B91,0x2B91,RETURN RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2B91",
+            "Character/Symbol: ⮑",
+            "Name: RETURN RIGHT",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮒ U+2B92 NEWLINE LEFT": 
+    {
+        "prefix": [
+            "..U.2B92",
+            "..U.NEWLINE LEFT",
+            "U+2B92",
+        ],
+        "body": [
+            "${1|⮒,&#x2B92;,U+2B92,0x2B92,NEWLINE LEFT|}$2",
+        ],
+        "description": [
+            "Code: U+2B92",
+            "Character/Symbol: ⮒",
+            "Name: NEWLINE LEFT",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮓ U+2B93 NEWLINE RIGHT": 
+    {
+        "prefix": [
+            "..U.2B93",
+            "..U.NEWLINE RIGHT",
+            "U+2B93",
+        ],
+        "body": [
+            "${1|⮓,&#x2B93;,U+2B93,0x2B93,NEWLINE RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2B93",
+            "Character/Symbol: ⮓",
+            "Name: NEWLINE RIGHT",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮔ U+2B94 FOUR CORNER ARROWS CIRCLING ANTICLOCKWISE": 
+    {
+        "prefix": [
+            "..U.2B94",
+            "..U.FOUR CORNER ARROWS CIRCLING ANTICLOCKWISE",
+            "U+2B94",
+        ],
+        "body": [
+            "${1|⮔,&#x2B94;,U+2B94,0x2B94,FOUR CORNER ARROWS CIRCLING ANTICLOCKWISE|}$2",
+        ],
+        "description": [
+            "Code: U+2B94",
+            "Character/Symbol: ⮔",
+            "Name: FOUR CORNER ARROWS CIRCLING ANTICLOCKWISE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮕ U+2B95 RIGHTWARDS BLACK ARROW": 
+    {
+        "prefix": [
+            "..U.2B95",
+            "..U.RIGHTWARDS BLACK ARROW",
+            "U+2B95",
+        ],
+        "body": [
+            "${1|⮕,&#x2B95;,U+2B95,0x2B95,RIGHTWARDS BLACK ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2B95",
+            "Character/Symbol: ⮕",
+            "Name: RIGHTWARDS BLACK ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮗ U+2B97 SYMBOL FOR TYPE A ELECTRONICS": 
+    {
+        "prefix": [
+            "..U.2B97",
+            "..U.SYMBOL FOR TYPE A ELECTRONICS",
+            "U+2B97",
+        ],
+        "body": [
+            "${1|⮗,&#x2B97;,U+2B97,0x2B97,SYMBOL FOR TYPE A ELECTRONICS|}$2",
+        ],
+        "description": [
+            "Code: U+2B97",
+            "Character/Symbol: ⮗",
+            "Name: SYMBOL FOR TYPE A ELECTRONICS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮘ U+2B98 THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.2B98",
+            "..U.THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD",
+            "U+2B98",
+        ],
+        "body": [
+            "${1|⮘,&#x2B98;,U+2B98,0x2B98,THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+2B98",
+            "Character/Symbol: ⮘",
+            "Name: THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮙ U+2B99 THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.2B99",
+            "..U.THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD",
+            "U+2B99",
+        ],
+        "body": [
+            "${1|⮙,&#x2B99;,U+2B99,0x2B99,THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+2B99",
+            "Character/Symbol: ⮙",
+            "Name: THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮚ U+2B9A THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.2B9A",
+            "..U.THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD",
+            "U+2B9A",
+        ],
+        "body": [
+            "${1|⮚,&#x2B9A;,U+2B9A,0x2B9A,THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+2B9A",
+            "Character/Symbol: ⮚",
+            "Name: THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮛ U+2B9B THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.2B9B",
+            "..U.THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD",
+            "U+2B9B",
+        ],
+        "body": [
+            "${1|⮛,&#x2B9B;,U+2B9B,0x2B9B,THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+2B9B",
+            "Character/Symbol: ⮛",
+            "Name: THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮜ U+2B9C BLACK LEFTWARDS EQUILATERAL ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.2B9C",
+            "..U.BLACK LEFTWARDS EQUILATERAL ARROWHEAD",
+            "U+2B9C",
+        ],
+        "body": [
+            "${1|⮜,&#x2B9C;,U+2B9C,0x2B9C,BLACK LEFTWARDS EQUILATERAL ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+2B9C",
+            "Character/Symbol: ⮜",
+            "Name: BLACK LEFTWARDS EQUILATERAL ARROWHEAD",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮝ U+2B9D BLACK UPWARDS EQUILATERAL ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.2B9D",
+            "..U.BLACK UPWARDS EQUILATERAL ARROWHEAD",
+            "U+2B9D",
+        ],
+        "body": [
+            "${1|⮝,&#x2B9D;,U+2B9D,0x2B9D,BLACK UPWARDS EQUILATERAL ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+2B9D",
+            "Character/Symbol: ⮝",
+            "Name: BLACK UPWARDS EQUILATERAL ARROWHEAD",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮞ U+2B9E BLACK RIGHTWARDS EQUILATERAL ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.2B9E",
+            "..U.BLACK RIGHTWARDS EQUILATERAL ARROWHEAD",
+            "U+2B9E",
+        ],
+        "body": [
+            "${1|⮞,&#x2B9E;,U+2B9E,0x2B9E,BLACK RIGHTWARDS EQUILATERAL ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+2B9E",
+            "Character/Symbol: ⮞",
+            "Name: BLACK RIGHTWARDS EQUILATERAL ARROWHEAD",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮟ U+2B9F BLACK DOWNWARDS EQUILATERAL ARROWHEAD": 
+    {
+        "prefix": [
+            "..U.2B9F",
+            "..U.BLACK DOWNWARDS EQUILATERAL ARROWHEAD",
+            "U+2B9F",
+        ],
+        "body": [
+            "${1|⮟,&#x2B9F;,U+2B9F,0x2B9F,BLACK DOWNWARDS EQUILATERAL ARROWHEAD|}$2",
+        ],
+        "description": [
+            "Code: U+2B9F",
+            "Character/Symbol: ⮟",
+            "Name: BLACK DOWNWARDS EQUILATERAL ARROWHEAD",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮠ U+2BA0 DOWNWARDS TRIANGLE-HEADED ARROW WITH LONG TIP LEFTWARDS": 
+    {
+        "prefix": [
+            "..U.2BA0",
+            "..U.DOWNWARDS TRIANGLE-HEADED ARROW WITH LONG TIP LEFTWARDS",
+            "U+2BA0",
+        ],
+        "body": [
+            "${1|⮠,&#x2BA0;,U+2BA0,0x2BA0,DOWNWARDS TRIANGLE-HEADED ARROW WITH LONG TIP LEFTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2BA0",
+            "Character/Symbol: ⮠",
+            "Name: DOWNWARDS TRIANGLE-HEADED ARROW WITH LONG TIP LEFTWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮡ U+2BA1 DOWNWARDS TRIANGLE-HEADED ARROW WITH LONG TIP RIGHTWARDS": 
+    {
+        "prefix": [
+            "..U.2BA1",
+            "..U.DOWNWARDS TRIANGLE-HEADED ARROW WITH LONG TIP RIGHTWARDS",
+            "U+2BA1",
+        ],
+        "body": [
+            "${1|⮡,&#x2BA1;,U+2BA1,0x2BA1,DOWNWARDS TRIANGLE-HEADED ARROW WITH LONG TIP RIGHTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2BA1",
+            "Character/Symbol: ⮡",
+            "Name: DOWNWARDS TRIANGLE-HEADED ARROW WITH LONG TIP RIGHTWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮢ U+2BA2 UPWARDS TRIANGLE-HEADED ARROW WITH LONG TIP LEFTWARDS": 
+    {
+        "prefix": [
+            "..U.2BA2",
+            "..U.UPWARDS TRIANGLE-HEADED ARROW WITH LONG TIP LEFTWARDS",
+            "U+2BA2",
+        ],
+        "body": [
+            "${1|⮢,&#x2BA2;,U+2BA2,0x2BA2,UPWARDS TRIANGLE-HEADED ARROW WITH LONG TIP LEFTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2BA2",
+            "Character/Symbol: ⮢",
+            "Name: UPWARDS TRIANGLE-HEADED ARROW WITH LONG TIP LEFTWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮣ U+2BA3 UPWARDS TRIANGLE-HEADED ARROW WITH LONG TIP RIGHTWARDS": 
+    {
+        "prefix": [
+            "..U.2BA3",
+            "..U.UPWARDS TRIANGLE-HEADED ARROW WITH LONG TIP RIGHTWARDS",
+            "U+2BA3",
+        ],
+        "body": [
+            "${1|⮣,&#x2BA3;,U+2BA3,0x2BA3,UPWARDS TRIANGLE-HEADED ARROW WITH LONG TIP RIGHTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2BA3",
+            "Character/Symbol: ⮣",
+            "Name: UPWARDS TRIANGLE-HEADED ARROW WITH LONG TIP RIGHTWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮤ U+2BA4 LEFTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP UPWARDS": 
+    {
+        "prefix": [
+            "..U.2BA4",
+            "..U.LEFTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP UPWARDS",
+            "U+2BA4",
+        ],
+        "body": [
+            "${1|⮤,&#x2BA4;,U+2BA4,0x2BA4,LEFTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP UPWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2BA4",
+            "Character/Symbol: ⮤",
+            "Name: LEFTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP UPWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮥ U+2BA5 RIGHTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP UPWARDS": 
+    {
+        "prefix": [
+            "..U.2BA5",
+            "..U.RIGHTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP UPWARDS",
+            "U+2BA5",
+        ],
+        "body": [
+            "${1|⮥,&#x2BA5;,U+2BA5,0x2BA5,RIGHTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP UPWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2BA5",
+            "Character/Symbol: ⮥",
+            "Name: RIGHTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP UPWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮦ U+2BA6 LEFTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP DOWNWARDS": 
+    {
+        "prefix": [
+            "..U.2BA6",
+            "..U.LEFTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP DOWNWARDS",
+            "U+2BA6",
+        ],
+        "body": [
+            "${1|⮦,&#x2BA6;,U+2BA6,0x2BA6,LEFTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP DOWNWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2BA6",
+            "Character/Symbol: ⮦",
+            "Name: LEFTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP DOWNWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮧ U+2BA7 RIGHTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP DOWNWARDS": 
+    {
+        "prefix": [
+            "..U.2BA7",
+            "..U.RIGHTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP DOWNWARDS",
+            "U+2BA7",
+        ],
+        "body": [
+            "${1|⮧,&#x2BA7;,U+2BA7,0x2BA7,RIGHTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP DOWNWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+2BA7",
+            "Character/Symbol: ⮧",
+            "Name: RIGHTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP DOWNWARDS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮨ U+2BA8 BLACK CURVED DOWNWARDS AND LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2BA8",
+            "..U.BLACK CURVED DOWNWARDS AND LEFTWARDS ARROW",
+            "U+2BA8",
+        ],
+        "body": [
+            "${1|⮨,&#x2BA8;,U+2BA8,0x2BA8,BLACK CURVED DOWNWARDS AND LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2BA8",
+            "Character/Symbol: ⮨",
+            "Name: BLACK CURVED DOWNWARDS AND LEFTWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮩ U+2BA9 BLACK CURVED DOWNWARDS AND RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2BA9",
+            "..U.BLACK CURVED DOWNWARDS AND RIGHTWARDS ARROW",
+            "U+2BA9",
+        ],
+        "body": [
+            "${1|⮩,&#x2BA9;,U+2BA9,0x2BA9,BLACK CURVED DOWNWARDS AND RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2BA9",
+            "Character/Symbol: ⮩",
+            "Name: BLACK CURVED DOWNWARDS AND RIGHTWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮪ U+2BAA BLACK CURVED UPWARDS AND LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2BAA",
+            "..U.BLACK CURVED UPWARDS AND LEFTWARDS ARROW",
+            "U+2BAA",
+        ],
+        "body": [
+            "${1|⮪,&#x2BAA;,U+2BAA,0x2BAA,BLACK CURVED UPWARDS AND LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2BAA",
+            "Character/Symbol: ⮪",
+            "Name: BLACK CURVED UPWARDS AND LEFTWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮫ U+2BAB BLACK CURVED UPWARDS AND RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2BAB",
+            "..U.BLACK CURVED UPWARDS AND RIGHTWARDS ARROW",
+            "U+2BAB",
+        ],
+        "body": [
+            "${1|⮫,&#x2BAB;,U+2BAB,0x2BAB,BLACK CURVED UPWARDS AND RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2BAB",
+            "Character/Symbol: ⮫",
+            "Name: BLACK CURVED UPWARDS AND RIGHTWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮬ U+2BAC BLACK CURVED LEFTWARDS AND UPWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2BAC",
+            "..U.BLACK CURVED LEFTWARDS AND UPWARDS ARROW",
+            "U+2BAC",
+        ],
+        "body": [
+            "${1|⮬,&#x2BAC;,U+2BAC,0x2BAC,BLACK CURVED LEFTWARDS AND UPWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2BAC",
+            "Character/Symbol: ⮬",
+            "Name: BLACK CURVED LEFTWARDS AND UPWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮭ U+2BAD BLACK CURVED RIGHTWARDS AND UPWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2BAD",
+            "..U.BLACK CURVED RIGHTWARDS AND UPWARDS ARROW",
+            "U+2BAD",
+        ],
+        "body": [
+            "${1|⮭,&#x2BAD;,U+2BAD,0x2BAD,BLACK CURVED RIGHTWARDS AND UPWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2BAD",
+            "Character/Symbol: ⮭",
+            "Name: BLACK CURVED RIGHTWARDS AND UPWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮮ U+2BAE BLACK CURVED LEFTWARDS AND DOWNWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2BAE",
+            "..U.BLACK CURVED LEFTWARDS AND DOWNWARDS ARROW",
+            "U+2BAE",
+        ],
+        "body": [
+            "${1|⮮,&#x2BAE;,U+2BAE,0x2BAE,BLACK CURVED LEFTWARDS AND DOWNWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2BAE",
+            "Character/Symbol: ⮮",
+            "Name: BLACK CURVED LEFTWARDS AND DOWNWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮯ U+2BAF BLACK CURVED RIGHTWARDS AND DOWNWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2BAF",
+            "..U.BLACK CURVED RIGHTWARDS AND DOWNWARDS ARROW",
+            "U+2BAF",
+        ],
+        "body": [
+            "${1|⮯,&#x2BAF;,U+2BAF,0x2BAF,BLACK CURVED RIGHTWARDS AND DOWNWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2BAF",
+            "Character/Symbol: ⮯",
+            "Name: BLACK CURVED RIGHTWARDS AND DOWNWARDS ARROW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮰ U+2BB0 RIBBON ARROW DOWN LEFT": 
+    {
+        "prefix": [
+            "..U.2BB0",
+            "..U.RIBBON ARROW DOWN LEFT",
+            "U+2BB0",
+        ],
+        "body": [
+            "${1|⮰,&#x2BB0;,U+2BB0,0x2BB0,RIBBON ARROW DOWN LEFT|}$2",
+        ],
+        "description": [
+            "Code: U+2BB0",
+            "Character/Symbol: ⮰",
+            "Name: RIBBON ARROW DOWN LEFT",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮱ U+2BB1 RIBBON ARROW DOWN RIGHT": 
+    {
+        "prefix": [
+            "..U.2BB1",
+            "..U.RIBBON ARROW DOWN RIGHT",
+            "U+2BB1",
+        ],
+        "body": [
+            "${1|⮱,&#x2BB1;,U+2BB1,0x2BB1,RIBBON ARROW DOWN RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2BB1",
+            "Character/Symbol: ⮱",
+            "Name: RIBBON ARROW DOWN RIGHT",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮲ U+2BB2 RIBBON ARROW UP LEFT": 
+    {
+        "prefix": [
+            "..U.2BB2",
+            "..U.RIBBON ARROW UP LEFT",
+            "U+2BB2",
+        ],
+        "body": [
+            "${1|⮲,&#x2BB2;,U+2BB2,0x2BB2,RIBBON ARROW UP LEFT|}$2",
+        ],
+        "description": [
+            "Code: U+2BB2",
+            "Character/Symbol: ⮲",
+            "Name: RIBBON ARROW UP LEFT",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮳ U+2BB3 RIBBON ARROW UP RIGHT": 
+    {
+        "prefix": [
+            "..U.2BB3",
+            "..U.RIBBON ARROW UP RIGHT",
+            "U+2BB3",
+        ],
+        "body": [
+            "${1|⮳,&#x2BB3;,U+2BB3,0x2BB3,RIBBON ARROW UP RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2BB3",
+            "Character/Symbol: ⮳",
+            "Name: RIBBON ARROW UP RIGHT",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮴ U+2BB4 RIBBON ARROW LEFT UP": 
+    {
+        "prefix": [
+            "..U.2BB4",
+            "..U.RIBBON ARROW LEFT UP",
+            "U+2BB4",
+        ],
+        "body": [
+            "${1|⮴,&#x2BB4;,U+2BB4,0x2BB4,RIBBON ARROW LEFT UP|}$2",
+        ],
+        "description": [
+            "Code: U+2BB4",
+            "Character/Symbol: ⮴",
+            "Name: RIBBON ARROW LEFT UP",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮵ U+2BB5 RIBBON ARROW RIGHT UP": 
+    {
+        "prefix": [
+            "..U.2BB5",
+            "..U.RIBBON ARROW RIGHT UP",
+            "U+2BB5",
+        ],
+        "body": [
+            "${1|⮵,&#x2BB5;,U+2BB5,0x2BB5,RIBBON ARROW RIGHT UP|}$2",
+        ],
+        "description": [
+            "Code: U+2BB5",
+            "Character/Symbol: ⮵",
+            "Name: RIBBON ARROW RIGHT UP",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮶ U+2BB6 RIBBON ARROW LEFT DOWN": 
+    {
+        "prefix": [
+            "..U.2BB6",
+            "..U.RIBBON ARROW LEFT DOWN",
+            "U+2BB6",
+        ],
+        "body": [
+            "${1|⮶,&#x2BB6;,U+2BB6,0x2BB6,RIBBON ARROW LEFT DOWN|}$2",
+        ],
+        "description": [
+            "Code: U+2BB6",
+            "Character/Symbol: ⮶",
+            "Name: RIBBON ARROW LEFT DOWN",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮷ U+2BB7 RIBBON ARROW RIGHT DOWN": 
+    {
+        "prefix": [
+            "..U.2BB7",
+            "..U.RIBBON ARROW RIGHT DOWN",
+            "U+2BB7",
+        ],
+        "body": [
+            "${1|⮷,&#x2BB7;,U+2BB7,0x2BB7,RIBBON ARROW RIGHT DOWN|}$2",
+        ],
+        "description": [
+            "Code: U+2BB7",
+            "Character/Symbol: ⮷",
+            "Name: RIBBON ARROW RIGHT DOWN",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮸ U+2BB8 UPWARDS WHITE ARROW FROM BAR WITH HORIZONTAL BAR": 
+    {
+        "prefix": [
+            "..U.2BB8",
+            "..U.UPWARDS WHITE ARROW FROM BAR WITH HORIZONTAL BAR",
+            "U+2BB8",
+        ],
+        "body": [
+            "${1|⮸,&#x2BB8;,U+2BB8,0x2BB8,UPWARDS WHITE ARROW FROM BAR WITH HORIZONTAL BAR|}$2",
+        ],
+        "description": [
+            "Code: U+2BB8",
+            "Character/Symbol: ⮸",
+            "Name: UPWARDS WHITE ARROW FROM BAR WITH HORIZONTAL BAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮹ U+2BB9 UP ARROWHEAD IN A RECTANGLE BOX": 
+    {
+        "prefix": [
+            "..U.2BB9",
+            "..U.UP ARROWHEAD IN A RECTANGLE BOX",
+            "U+2BB9",
+        ],
+        "body": [
+            "${1|⮹,&#x2BB9;,U+2BB9,0x2BB9,UP ARROWHEAD IN A RECTANGLE BOX|}$2",
+        ],
+        "description": [
+            "Code: U+2BB9",
+            "Character/Symbol: ⮹",
+            "Name: UP ARROWHEAD IN A RECTANGLE BOX",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮺ U+2BBA OVERLAPPING WHITE SQUARES": 
+    {
+        "prefix": [
+            "..U.2BBA",
+            "..U.OVERLAPPING WHITE SQUARES",
+            "U+2BBA",
+        ],
+        "body": [
+            "${1|⮺,&#x2BBA;,U+2BBA,0x2BBA,OVERLAPPING WHITE SQUARES|}$2",
+        ],
+        "description": [
+            "Code: U+2BBA",
+            "Character/Symbol: ⮺",
+            "Name: OVERLAPPING WHITE SQUARES",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮻ U+2BBB OVERLAPPING WHITE AND BLACK SQUARES": 
+    {
+        "prefix": [
+            "..U.2BBB",
+            "..U.OVERLAPPING WHITE AND BLACK SQUARES",
+            "U+2BBB",
+        ],
+        "body": [
+            "${1|⮻,&#x2BBB;,U+2BBB,0x2BBB,OVERLAPPING WHITE AND BLACK SQUARES|}$2",
+        ],
+        "description": [
+            "Code: U+2BBB",
+            "Character/Symbol: ⮻",
+            "Name: OVERLAPPING WHITE AND BLACK SQUARES",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮼ U+2BBC OVERLAPPING BLACK SQUARES": 
+    {
+        "prefix": [
+            "..U.2BBC",
+            "..U.OVERLAPPING BLACK SQUARES",
+            "U+2BBC",
+        ],
+        "body": [
+            "${1|⮼,&#x2BBC;,U+2BBC,0x2BBC,OVERLAPPING BLACK SQUARES|}$2",
+        ],
+        "description": [
+            "Code: U+2BBC",
+            "Character/Symbol: ⮼",
+            "Name: OVERLAPPING BLACK SQUARES",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮽ U+2BBD BALLOT BOX WITH LIGHT X": 
+    {
+        "prefix": [
+            "..U.2BBD",
+            "..U.BALLOT BOX WITH LIGHT X",
+            "U+2BBD",
+        ],
+        "body": [
+            "${1|⮽,&#x2BBD;,U+2BBD,0x2BBD,BALLOT BOX WITH LIGHT X|}$2",
+        ],
+        "description": [
+            "Code: U+2BBD",
+            "Character/Symbol: ⮽",
+            "Name: BALLOT BOX WITH LIGHT X",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮾ U+2BBE CIRCLED X": 
+    {
+        "prefix": [
+            "..U.2BBE",
+            "..U.CIRCLED X",
+            "U+2BBE",
+        ],
+        "body": [
+            "${1|⮾,&#x2BBE;,U+2BBE,0x2BBE,CIRCLED X|}$2",
+        ],
+        "description": [
+            "Code: U+2BBE",
+            "Character/Symbol: ⮾",
+            "Name: CIRCLED X",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⮿ U+2BBF CIRCLED BOLD X": 
+    {
+        "prefix": [
+            "..U.2BBF",
+            "..U.CIRCLED BOLD X",
+            "U+2BBF",
+        ],
+        "body": [
+            "${1|⮿,&#x2BBF;,U+2BBF,0x2BBF,CIRCLED BOLD X|}$2",
+        ],
+        "description": [
+            "Code: U+2BBF",
+            "Character/Symbol: ⮿",
+            "Name: CIRCLED BOLD X",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯀ U+2BC0 BLACK SQUARE CENTRED": 
+    {
+        "prefix": [
+            "..U.2BC0",
+            "..U.BLACK SQUARE CENTRED",
+            "U+2BC0",
+        ],
+        "body": [
+            "${1|⯀,&#x2BC0;,U+2BC0,0x2BC0,BLACK SQUARE CENTRED|}$2",
+        ],
+        "description": [
+            "Code: U+2BC0",
+            "Character/Symbol: ⯀",
+            "Name: BLACK SQUARE CENTRED",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯁ U+2BC1 BLACK DIAMOND CENTRED": 
+    {
+        "prefix": [
+            "..U.2BC1",
+            "..U.BLACK DIAMOND CENTRED",
+            "U+2BC1",
+        ],
+        "body": [
+            "${1|⯁,&#x2BC1;,U+2BC1,0x2BC1,BLACK DIAMOND CENTRED|}$2",
+        ],
+        "description": [
+            "Code: U+2BC1",
+            "Character/Symbol: ⯁",
+            "Name: BLACK DIAMOND CENTRED",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯂ U+2BC2 TURNED BLACK PENTAGON": 
+    {
+        "prefix": [
+            "..U.2BC2",
+            "..U.TURNED BLACK PENTAGON",
+            "U+2BC2",
+        ],
+        "body": [
+            "${1|⯂,&#x2BC2;,U+2BC2,0x2BC2,TURNED BLACK PENTAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2BC2",
+            "Character/Symbol: ⯂",
+            "Name: TURNED BLACK PENTAGON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯃ U+2BC3 HORIZONTAL BLACK OCTAGON": 
+    {
+        "prefix": [
+            "..U.2BC3",
+            "..U.HORIZONTAL BLACK OCTAGON",
+            "U+2BC3",
+        ],
+        "body": [
+            "${1|⯃,&#x2BC3;,U+2BC3,0x2BC3,HORIZONTAL BLACK OCTAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2BC3",
+            "Character/Symbol: ⯃",
+            "Name: HORIZONTAL BLACK OCTAGON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯄ U+2BC4 BLACK OCTAGON": 
+    {
+        "prefix": [
+            "..U.2BC4",
+            "..U.BLACK OCTAGON",
+            "U+2BC4",
+        ],
+        "body": [
+            "${1|⯄,&#x2BC4;,U+2BC4,0x2BC4,BLACK OCTAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2BC4",
+            "Character/Symbol: ⯄",
+            "Name: BLACK OCTAGON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯅ U+2BC5 BLACK MEDIUM UP-POINTING TRIANGLE CENTRED": 
+    {
+        "prefix": [
+            "..U.2BC5",
+            "..U.BLACK MEDIUM UP-POINTING TRIANGLE CENTRED",
+            "U+2BC5",
+        ],
+        "body": [
+            "${1|⯅,&#x2BC5;,U+2BC5,0x2BC5,BLACK MEDIUM UP-POINTING TRIANGLE CENTRED|}$2",
+        ],
+        "description": [
+            "Code: U+2BC5",
+            "Character/Symbol: ⯅",
+            "Name: BLACK MEDIUM UP-POINTING TRIANGLE CENTRED",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯆ U+2BC6 BLACK MEDIUM DOWN-POINTING TRIANGLE CENTRED": 
+    {
+        "prefix": [
+            "..U.2BC6",
+            "..U.BLACK MEDIUM DOWN-POINTING TRIANGLE CENTRED",
+            "U+2BC6",
+        ],
+        "body": [
+            "${1|⯆,&#x2BC6;,U+2BC6,0x2BC6,BLACK MEDIUM DOWN-POINTING TRIANGLE CENTRED|}$2",
+        ],
+        "description": [
+            "Code: U+2BC6",
+            "Character/Symbol: ⯆",
+            "Name: BLACK MEDIUM DOWN-POINTING TRIANGLE CENTRED",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯇ U+2BC7 BLACK MEDIUM LEFT-POINTING TRIANGLE CENTRED": 
+    {
+        "prefix": [
+            "..U.2BC7",
+            "..U.BLACK MEDIUM LEFT-POINTING TRIANGLE CENTRED",
+            "U+2BC7",
+        ],
+        "body": [
+            "${1|⯇,&#x2BC7;,U+2BC7,0x2BC7,BLACK MEDIUM LEFT-POINTING TRIANGLE CENTRED|}$2",
+        ],
+        "description": [
+            "Code: U+2BC7",
+            "Character/Symbol: ⯇",
+            "Name: BLACK MEDIUM LEFT-POINTING TRIANGLE CENTRED",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯈ U+2BC8 BLACK MEDIUM RIGHT-POINTING TRIANGLE CENTRED": 
+    {
+        "prefix": [
+            "..U.2BC8",
+            "..U.BLACK MEDIUM RIGHT-POINTING TRIANGLE CENTRED",
+            "U+2BC8",
+        ],
+        "body": [
+            "${1|⯈,&#x2BC8;,U+2BC8,0x2BC8,BLACK MEDIUM RIGHT-POINTING TRIANGLE CENTRED|}$2",
+        ],
+        "description": [
+            "Code: U+2BC8",
+            "Character/Symbol: ⯈",
+            "Name: BLACK MEDIUM RIGHT-POINTING TRIANGLE CENTRED",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯉ U+2BC9 NEPTUNE FORM TWO": 
+    {
+        "prefix": [
+            "..U.2BC9",
+            "..U.NEPTUNE FORM TWO",
+            "U+2BC9",
+        ],
+        "body": [
+            "${1|⯉,&#x2BC9;,U+2BC9,0x2BC9,NEPTUNE FORM TWO|}$2",
+        ],
+        "description": [
+            "Code: U+2BC9",
+            "Character/Symbol: ⯉",
+            "Name: NEPTUNE FORM TWO",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯊ U+2BCA TOP HALF BLACK CIRCLE": 
+    {
+        "prefix": [
+            "..U.2BCA",
+            "..U.TOP HALF BLACK CIRCLE",
+            "U+2BCA",
+        ],
+        "body": [
+            "${1|⯊,&#x2BCA;,U+2BCA,0x2BCA,TOP HALF BLACK CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+2BCA",
+            "Character/Symbol: ⯊",
+            "Name: TOP HALF BLACK CIRCLE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯋ U+2BCB BOTTOM HALF BLACK CIRCLE": 
+    {
+        "prefix": [
+            "..U.2BCB",
+            "..U.BOTTOM HALF BLACK CIRCLE",
+            "U+2BCB",
+        ],
+        "body": [
+            "${1|⯋,&#x2BCB;,U+2BCB,0x2BCB,BOTTOM HALF BLACK CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+2BCB",
+            "Character/Symbol: ⯋",
+            "Name: BOTTOM HALF BLACK CIRCLE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯌ U+2BCC LIGHT FOUR POINTED BLACK CUSP": 
+    {
+        "prefix": [
+            "..U.2BCC",
+            "..U.LIGHT FOUR POINTED BLACK CUSP",
+            "U+2BCC",
+        ],
+        "body": [
+            "${1|⯌,&#x2BCC;,U+2BCC,0x2BCC,LIGHT FOUR POINTED BLACK CUSP|}$2",
+        ],
+        "description": [
+            "Code: U+2BCC",
+            "Character/Symbol: ⯌",
+            "Name: LIGHT FOUR POINTED BLACK CUSP",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯍ U+2BCD ROTATED LIGHT FOUR POINTED BLACK CUSP": 
+    {
+        "prefix": [
+            "..U.2BCD",
+            "..U.ROTATED LIGHT FOUR POINTED BLACK CUSP",
+            "U+2BCD",
+        ],
+        "body": [
+            "${1|⯍,&#x2BCD;,U+2BCD,0x2BCD,ROTATED LIGHT FOUR POINTED BLACK CUSP|}$2",
+        ],
+        "description": [
+            "Code: U+2BCD",
+            "Character/Symbol: ⯍",
+            "Name: ROTATED LIGHT FOUR POINTED BLACK CUSP",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯎ U+2BCE WHITE FOUR POINTED CUSP": 
+    {
+        "prefix": [
+            "..U.2BCE",
+            "..U.WHITE FOUR POINTED CUSP",
+            "U+2BCE",
+        ],
+        "body": [
+            "${1|⯎,&#x2BCE;,U+2BCE,0x2BCE,WHITE FOUR POINTED CUSP|}$2",
+        ],
+        "description": [
+            "Code: U+2BCE",
+            "Character/Symbol: ⯎",
+            "Name: WHITE FOUR POINTED CUSP",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯏ U+2BCF ROTATED WHITE FOUR POINTED CUSP": 
+    {
+        "prefix": [
+            "..U.2BCF",
+            "..U.ROTATED WHITE FOUR POINTED CUSP",
+            "U+2BCF",
+        ],
+        "body": [
+            "${1|⯏,&#x2BCF;,U+2BCF,0x2BCF,ROTATED WHITE FOUR POINTED CUSP|}$2",
+        ],
+        "description": [
+            "Code: U+2BCF",
+            "Character/Symbol: ⯏",
+            "Name: ROTATED WHITE FOUR POINTED CUSP",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯐ U+2BD0 SQUARE POSITION INDICATOR": 
+    {
+        "prefix": [
+            "..U.2BD0",
+            "..U.SQUARE POSITION INDICATOR",
+            "U+2BD0",
+        ],
+        "body": [
+            "${1|⯐,&#x2BD0;,U+2BD0,0x2BD0,SQUARE POSITION INDICATOR|}$2",
+        ],
+        "description": [
+            "Code: U+2BD0",
+            "Character/Symbol: ⯐",
+            "Name: SQUARE POSITION INDICATOR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯑ U+2BD1 UNCERTAINTY SIGN": 
+    {
+        "prefix": [
+            "..U.2BD1",
+            "..U.UNCERTAINTY SIGN",
+            "U+2BD1",
+        ],
+        "body": [
+            "${1|⯑,&#x2BD1;,U+2BD1,0x2BD1,UNCERTAINTY SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+2BD1",
+            "Character/Symbol: ⯑",
+            "Name: UNCERTAINTY SIGN",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯒ U+2BD2 GROUP MARK": 
+    {
+        "prefix": [
+            "..U.2BD2",
+            "..U.GROUP MARK",
+            "U+2BD2",
+        ],
+        "body": [
+            "${1|⯒,&#x2BD2;,U+2BD2,0x2BD2,GROUP MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2BD2",
+            "Character/Symbol: ⯒",
+            "Name: GROUP MARK",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯓ U+2BD3 PLUTO FORM TWO": 
+    {
+        "prefix": [
+            "..U.2BD3",
+            "..U.PLUTO FORM TWO",
+            "U+2BD3",
+        ],
+        "body": [
+            "${1|⯓,&#x2BD3;,U+2BD3,0x2BD3,PLUTO FORM TWO|}$2",
+        ],
+        "description": [
+            "Code: U+2BD3",
+            "Character/Symbol: ⯓",
+            "Name: PLUTO FORM TWO",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯔ U+2BD4 PLUTO FORM THREE": 
+    {
+        "prefix": [
+            "..U.2BD4",
+            "..U.PLUTO FORM THREE",
+            "U+2BD4",
+        ],
+        "body": [
+            "${1|⯔,&#x2BD4;,U+2BD4,0x2BD4,PLUTO FORM THREE|}$2",
+        ],
+        "description": [
+            "Code: U+2BD4",
+            "Character/Symbol: ⯔",
+            "Name: PLUTO FORM THREE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯕ U+2BD5 PLUTO FORM FOUR": 
+    {
+        "prefix": [
+            "..U.2BD5",
+            "..U.PLUTO FORM FOUR",
+            "U+2BD5",
+        ],
+        "body": [
+            "${1|⯕,&#x2BD5;,U+2BD5,0x2BD5,PLUTO FORM FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+2BD5",
+            "Character/Symbol: ⯕",
+            "Name: PLUTO FORM FOUR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯖ U+2BD6 PLUTO FORM FIVE": 
+    {
+        "prefix": [
+            "..U.2BD6",
+            "..U.PLUTO FORM FIVE",
+            "U+2BD6",
+        ],
+        "body": [
+            "${1|⯖,&#x2BD6;,U+2BD6,0x2BD6,PLUTO FORM FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+2BD6",
+            "Character/Symbol: ⯖",
+            "Name: PLUTO FORM FIVE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯗ U+2BD7 TRANSPLUTO": 
+    {
+        "prefix": [
+            "..U.2BD7",
+            "..U.TRANSPLUTO",
+            "U+2BD7",
+        ],
+        "body": [
+            "${1|⯗,&#x2BD7;,U+2BD7,0x2BD7,TRANSPLUTO|}$2",
+        ],
+        "description": [
+            "Code: U+2BD7",
+            "Character/Symbol: ⯗",
+            "Name: TRANSPLUTO",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯘ U+2BD8 PROSERPINA": 
+    {
+        "prefix": [
+            "..U.2BD8",
+            "..U.PROSERPINA",
+            "U+2BD8",
+        ],
+        "body": [
+            "${1|⯘,&#x2BD8;,U+2BD8,0x2BD8,PROSERPINA|}$2",
+        ],
+        "description": [
+            "Code: U+2BD8",
+            "Character/Symbol: ⯘",
+            "Name: PROSERPINA",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯙ U+2BD9 ASTRAEA": 
+    {
+        "prefix": [
+            "..U.2BD9",
+            "..U.ASTRAEA",
+            "U+2BD9",
+        ],
+        "body": [
+            "${1|⯙,&#x2BD9;,U+2BD9,0x2BD9,ASTRAEA|}$2",
+        ],
+        "description": [
+            "Code: U+2BD9",
+            "Character/Symbol: ⯙",
+            "Name: ASTRAEA",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯚ U+2BDA HYGIEA": 
+    {
+        "prefix": [
+            "..U.2BDA",
+            "..U.HYGIEA",
+            "U+2BDA",
+        ],
+        "body": [
+            "${1|⯚,&#x2BDA;,U+2BDA,0x2BDA,HYGIEA|}$2",
+        ],
+        "description": [
+            "Code: U+2BDA",
+            "Character/Symbol: ⯚",
+            "Name: HYGIEA",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯛ U+2BDB PHOLUS": 
+    {
+        "prefix": [
+            "..U.2BDB",
+            "..U.PHOLUS",
+            "U+2BDB",
+        ],
+        "body": [
+            "${1|⯛,&#x2BDB;,U+2BDB,0x2BDB,PHOLUS|}$2",
+        ],
+        "description": [
+            "Code: U+2BDB",
+            "Character/Symbol: ⯛",
+            "Name: PHOLUS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯜ U+2BDC NESSUS": 
+    {
+        "prefix": [
+            "..U.2BDC",
+            "..U.NESSUS",
+            "U+2BDC",
+        ],
+        "body": [
+            "${1|⯜,&#x2BDC;,U+2BDC,0x2BDC,NESSUS|}$2",
+        ],
+        "description": [
+            "Code: U+2BDC",
+            "Character/Symbol: ⯜",
+            "Name: NESSUS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯝ U+2BDD WHITE MOON SELENA": 
+    {
+        "prefix": [
+            "..U.2BDD",
+            "..U.WHITE MOON SELENA",
+            "U+2BDD",
+        ],
+        "body": [
+            "${1|⯝,&#x2BDD;,U+2BDD,0x2BDD,WHITE MOON SELENA|}$2",
+        ],
+        "description": [
+            "Code: U+2BDD",
+            "Character/Symbol: ⯝",
+            "Name: WHITE MOON SELENA",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯞ U+2BDE BLACK DIAMOND ON CROSS": 
+    {
+        "prefix": [
+            "..U.2BDE",
+            "..U.BLACK DIAMOND ON CROSS",
+            "U+2BDE",
+        ],
+        "body": [
+            "${1|⯞,&#x2BDE;,U+2BDE,0x2BDE,BLACK DIAMOND ON CROSS|}$2",
+        ],
+        "description": [
+            "Code: U+2BDE",
+            "Character/Symbol: ⯞",
+            "Name: BLACK DIAMOND ON CROSS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯟ U+2BDF TRUE LIGHT MOON ARTA": 
+    {
+        "prefix": [
+            "..U.2BDF",
+            "..U.TRUE LIGHT MOON ARTA",
+            "U+2BDF",
+        ],
+        "body": [
+            "${1|⯟,&#x2BDF;,U+2BDF,0x2BDF,TRUE LIGHT MOON ARTA|}$2",
+        ],
+        "description": [
+            "Code: U+2BDF",
+            "Character/Symbol: ⯟",
+            "Name: TRUE LIGHT MOON ARTA",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯠ U+2BE0 CUPIDO": 
+    {
+        "prefix": [
+            "..U.2BE0",
+            "..U.CUPIDO",
+            "U+2BE0",
+        ],
+        "body": [
+            "${1|⯠,&#x2BE0;,U+2BE0,0x2BE0,CUPIDO|}$2",
+        ],
+        "description": [
+            "Code: U+2BE0",
+            "Character/Symbol: ⯠",
+            "Name: CUPIDO",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯡ U+2BE1 HADES": 
+    {
+        "prefix": [
+            "..U.2BE1",
+            "..U.HADES",
+            "U+2BE1",
+        ],
+        "body": [
+            "${1|⯡,&#x2BE1;,U+2BE1,0x2BE1,HADES|}$2",
+        ],
+        "description": [
+            "Code: U+2BE1",
+            "Character/Symbol: ⯡",
+            "Name: HADES",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯢ U+2BE2 ZEUS": 
+    {
+        "prefix": [
+            "..U.2BE2",
+            "..U.ZEUS",
+            "U+2BE2",
+        ],
+        "body": [
+            "${1|⯢,&#x2BE2;,U+2BE2,0x2BE2,ZEUS|}$2",
+        ],
+        "description": [
+            "Code: U+2BE2",
+            "Character/Symbol: ⯢",
+            "Name: ZEUS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯣ U+2BE3 KRONOS": 
+    {
+        "prefix": [
+            "..U.2BE3",
+            "..U.KRONOS",
+            "U+2BE3",
+        ],
+        "body": [
+            "${1|⯣,&#x2BE3;,U+2BE3,0x2BE3,KRONOS|}$2",
+        ],
+        "description": [
+            "Code: U+2BE3",
+            "Character/Symbol: ⯣",
+            "Name: KRONOS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯤ U+2BE4 APOLLON": 
+    {
+        "prefix": [
+            "..U.2BE4",
+            "..U.APOLLON",
+            "U+2BE4",
+        ],
+        "body": [
+            "${1|⯤,&#x2BE4;,U+2BE4,0x2BE4,APOLLON|}$2",
+        ],
+        "description": [
+            "Code: U+2BE4",
+            "Character/Symbol: ⯤",
+            "Name: APOLLON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯥ U+2BE5 ADMETOS": 
+    {
+        "prefix": [
+            "..U.2BE5",
+            "..U.ADMETOS",
+            "U+2BE5",
+        ],
+        "body": [
+            "${1|⯥,&#x2BE5;,U+2BE5,0x2BE5,ADMETOS|}$2",
+        ],
+        "description": [
+            "Code: U+2BE5",
+            "Character/Symbol: ⯥",
+            "Name: ADMETOS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯦ U+2BE6 VULCANUS": 
+    {
+        "prefix": [
+            "..U.2BE6",
+            "..U.VULCANUS",
+            "U+2BE6",
+        ],
+        "body": [
+            "${1|⯦,&#x2BE6;,U+2BE6,0x2BE6,VULCANUS|}$2",
+        ],
+        "description": [
+            "Code: U+2BE6",
+            "Character/Symbol: ⯦",
+            "Name: VULCANUS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯧ U+2BE7 POSEIDON": 
+    {
+        "prefix": [
+            "..U.2BE7",
+            "..U.POSEIDON",
+            "U+2BE7",
+        ],
+        "body": [
+            "${1|⯧,&#x2BE7;,U+2BE7,0x2BE7,POSEIDON|}$2",
+        ],
+        "description": [
+            "Code: U+2BE7",
+            "Character/Symbol: ⯧",
+            "Name: POSEIDON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯨ U+2BE8 LEFT HALF BLACK STAR": 
+    {
+        "prefix": [
+            "..U.2BE8",
+            "..U.LEFT HALF BLACK STAR",
+            "U+2BE8",
+        ],
+        "body": [
+            "${1|⯨,&#x2BE8;,U+2BE8,0x2BE8,LEFT HALF BLACK STAR|}$2",
+        ],
+        "description": [
+            "Code: U+2BE8",
+            "Character/Symbol: ⯨",
+            "Name: LEFT HALF BLACK STAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯩ U+2BE9 RIGHT HALF BLACK STAR": 
+    {
+        "prefix": [
+            "..U.2BE9",
+            "..U.RIGHT HALF BLACK STAR",
+            "U+2BE9",
+        ],
+        "body": [
+            "${1|⯩,&#x2BE9;,U+2BE9,0x2BE9,RIGHT HALF BLACK STAR|}$2",
+        ],
+        "description": [
+            "Code: U+2BE9",
+            "Character/Symbol: ⯩",
+            "Name: RIGHT HALF BLACK STAR",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯪ U+2BEA STAR WITH LEFT HALF BLACK": 
+    {
+        "prefix": [
+            "..U.2BEA",
+            "..U.STAR WITH LEFT HALF BLACK",
+            "U+2BEA",
+        ],
+        "body": [
+            "${1|⯪,&#x2BEA;,U+2BEA,0x2BEA,STAR WITH LEFT HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+2BEA",
+            "Character/Symbol: ⯪",
+            "Name: STAR WITH LEFT HALF BLACK",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯫ U+2BEB STAR WITH RIGHT HALF BLACK": 
+    {
+        "prefix": [
+            "..U.2BEB",
+            "..U.STAR WITH RIGHT HALF BLACK",
+            "U+2BEB",
+        ],
+        "body": [
+            "${1|⯫,&#x2BEB;,U+2BEB,0x2BEB,STAR WITH RIGHT HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+2BEB",
+            "Character/Symbol: ⯫",
+            "Name: STAR WITH RIGHT HALF BLACK",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯬ U+2BEC LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS": 
+    {
+        "prefix": [
+            "..U.2BEC",
+            "..U.LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS",
+            "U+2BEC",
+        ],
+        "body": [
+            "${1|⯬,&#x2BEC;,U+2BEC,0x2BEC,LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS|}$2",
+        ],
+        "description": [
+            "Code: U+2BEC",
+            "Character/Symbol: ⯬",
+            "Name: LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯭ U+2BED UPWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS": 
+    {
+        "prefix": [
+            "..U.2BED",
+            "..U.UPWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS",
+            "U+2BED",
+        ],
+        "body": [
+            "${1|⯭,&#x2BED;,U+2BED,0x2BED,UPWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS|}$2",
+        ],
+        "description": [
+            "Code: U+2BED",
+            "Character/Symbol: ⯭",
+            "Name: UPWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯮ U+2BEE RIGHTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS": 
+    {
+        "prefix": [
+            "..U.2BEE",
+            "..U.RIGHTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS",
+            "U+2BEE",
+        ],
+        "body": [
+            "${1|⯮,&#x2BEE;,U+2BEE,0x2BEE,RIGHTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS|}$2",
+        ],
+        "description": [
+            "Code: U+2BEE",
+            "Character/Symbol: ⯮",
+            "Name: RIGHTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯯ U+2BEF DOWNWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS": 
+    {
+        "prefix": [
+            "..U.2BEF",
+            "..U.DOWNWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS",
+            "U+2BEF",
+        ],
+        "body": [
+            "${1|⯯,&#x2BEF;,U+2BEF,0x2BEF,DOWNWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS|}$2",
+        ],
+        "description": [
+            "Code: U+2BEF",
+            "Character/Symbol: ⯯",
+            "Name: DOWNWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯰ U+2BF0 ERIS FORM ONE": 
+    {
+        "prefix": [
+            "..U.2BF0",
+            "..U.ERIS FORM ONE",
+            "U+2BF0",
+        ],
+        "body": [
+            "${1|⯰,&#x2BF0;,U+2BF0,0x2BF0,ERIS FORM ONE|}$2",
+        ],
+        "description": [
+            "Code: U+2BF0",
+            "Character/Symbol: ⯰",
+            "Name: ERIS FORM ONE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯱ U+2BF1 ERIS FORM TWO": 
+    {
+        "prefix": [
+            "..U.2BF1",
+            "..U.ERIS FORM TWO",
+            "U+2BF1",
+        ],
+        "body": [
+            "${1|⯱,&#x2BF1;,U+2BF1,0x2BF1,ERIS FORM TWO|}$2",
+        ],
+        "description": [
+            "Code: U+2BF1",
+            "Character/Symbol: ⯱",
+            "Name: ERIS FORM TWO",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯲ U+2BF2 SEDNA": 
+    {
+        "prefix": [
+            "..U.2BF2",
+            "..U.SEDNA",
+            "U+2BF2",
+        ],
+        "body": [
+            "${1|⯲,&#x2BF2;,U+2BF2,0x2BF2,SEDNA|}$2",
+        ],
+        "description": [
+            "Code: U+2BF2",
+            "Character/Symbol: ⯲",
+            "Name: SEDNA",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯳ U+2BF3 RUSSIAN ASTROLOGICAL SYMBOL VIGINTILE": 
+    {
+        "prefix": [
+            "..U.2BF3",
+            "..U.RUSSIAN ASTROLOGICAL SYMBOL VIGINTILE",
+            "U+2BF3",
+        ],
+        "body": [
+            "${1|⯳,&#x2BF3;,U+2BF3,0x2BF3,RUSSIAN ASTROLOGICAL SYMBOL VIGINTILE|}$2",
+        ],
+        "description": [
+            "Code: U+2BF3",
+            "Character/Symbol: ⯳",
+            "Name: RUSSIAN ASTROLOGICAL SYMBOL VIGINTILE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯴ U+2BF4 RUSSIAN ASTROLOGICAL SYMBOL NOVILE": 
+    {
+        "prefix": [
+            "..U.2BF4",
+            "..U.RUSSIAN ASTROLOGICAL SYMBOL NOVILE",
+            "U+2BF4",
+        ],
+        "body": [
+            "${1|⯴,&#x2BF4;,U+2BF4,0x2BF4,RUSSIAN ASTROLOGICAL SYMBOL NOVILE|}$2",
+        ],
+        "description": [
+            "Code: U+2BF4",
+            "Character/Symbol: ⯴",
+            "Name: RUSSIAN ASTROLOGICAL SYMBOL NOVILE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯵ U+2BF5 RUSSIAN ASTROLOGICAL SYMBOL QUINTILE": 
+    {
+        "prefix": [
+            "..U.2BF5",
+            "..U.RUSSIAN ASTROLOGICAL SYMBOL QUINTILE",
+            "U+2BF5",
+        ],
+        "body": [
+            "${1|⯵,&#x2BF5;,U+2BF5,0x2BF5,RUSSIAN ASTROLOGICAL SYMBOL QUINTILE|}$2",
+        ],
+        "description": [
+            "Code: U+2BF5",
+            "Character/Symbol: ⯵",
+            "Name: RUSSIAN ASTROLOGICAL SYMBOL QUINTILE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯶ U+2BF6 RUSSIAN ASTROLOGICAL SYMBOL BINOVILE": 
+    {
+        "prefix": [
+            "..U.2BF6",
+            "..U.RUSSIAN ASTROLOGICAL SYMBOL BINOVILE",
+            "U+2BF6",
+        ],
+        "body": [
+            "${1|⯶,&#x2BF6;,U+2BF6,0x2BF6,RUSSIAN ASTROLOGICAL SYMBOL BINOVILE|}$2",
+        ],
+        "description": [
+            "Code: U+2BF6",
+            "Character/Symbol: ⯶",
+            "Name: RUSSIAN ASTROLOGICAL SYMBOL BINOVILE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯷ U+2BF7 RUSSIAN ASTROLOGICAL SYMBOL SENTAGON": 
+    {
+        "prefix": [
+            "..U.2BF7",
+            "..U.RUSSIAN ASTROLOGICAL SYMBOL SENTAGON",
+            "U+2BF7",
+        ],
+        "body": [
+            "${1|⯷,&#x2BF7;,U+2BF7,0x2BF7,RUSSIAN ASTROLOGICAL SYMBOL SENTAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2BF7",
+            "Character/Symbol: ⯷",
+            "Name: RUSSIAN ASTROLOGICAL SYMBOL SENTAGON",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯸ U+2BF8 RUSSIAN ASTROLOGICAL SYMBOL TREDECILE": 
+    {
+        "prefix": [
+            "..U.2BF8",
+            "..U.RUSSIAN ASTROLOGICAL SYMBOL TREDECILE",
+            "U+2BF8",
+        ],
+        "body": [
+            "${1|⯸,&#x2BF8;,U+2BF8,0x2BF8,RUSSIAN ASTROLOGICAL SYMBOL TREDECILE|}$2",
+        ],
+        "description": [
+            "Code: U+2BF8",
+            "Character/Symbol: ⯸",
+            "Name: RUSSIAN ASTROLOGICAL SYMBOL TREDECILE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯹ U+2BF9 EQUALS SIGN WITH INFINITY BELOW": 
+    {
+        "prefix": [
+            "..U.2BF9",
+            "..U.EQUALS SIGN WITH INFINITY BELOW",
+            "U+2BF9",
+        ],
+        "body": [
+            "${1|⯹,&#x2BF9;,U+2BF9,0x2BF9,EQUALS SIGN WITH INFINITY BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+2BF9",
+            "Character/Symbol: ⯹",
+            "Name: EQUALS SIGN WITH INFINITY BELOW",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯺ U+2BFA UNITED SYMBOL": 
+    {
+        "prefix": [
+            "..U.2BFA",
+            "..U.UNITED SYMBOL",
+            "U+2BFA",
+        ],
+        "body": [
+            "${1|⯺,&#x2BFA;,U+2BFA,0x2BFA,UNITED SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2BFA",
+            "Character/Symbol: ⯺",
+            "Name: UNITED SYMBOL",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯻ U+2BFB SEPARATED SYMBOL": 
+    {
+        "prefix": [
+            "..U.2BFB",
+            "..U.SEPARATED SYMBOL",
+            "U+2BFB",
+        ],
+        "body": [
+            "${1|⯻,&#x2BFB;,U+2BFB,0x2BFB,SEPARATED SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2BFB",
+            "Character/Symbol: ⯻",
+            "Name: SEPARATED SYMBOL",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯼ U+2BFC DOUBLED SYMBOL": 
+    {
+        "prefix": [
+            "..U.2BFC",
+            "..U.DOUBLED SYMBOL",
+            "U+2BFC",
+        ],
+        "body": [
+            "${1|⯼,&#x2BFC;,U+2BFC,0x2BFC,DOUBLED SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2BFC",
+            "Character/Symbol: ⯼",
+            "Name: DOUBLED SYMBOL",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯽ U+2BFD PASSED SYMBOL": 
+    {
+        "prefix": [
+            "..U.2BFD",
+            "..U.PASSED SYMBOL",
+            "U+2BFD",
+        ],
+        "body": [
+            "${1|⯽,&#x2BFD;,U+2BFD,0x2BFD,PASSED SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2BFD",
+            "Character/Symbol: ⯽",
+            "Name: PASSED SYMBOL",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯾ U+2BFE REVERSED RIGHT ANGLE": 
+    {
+        "prefix": [
+            "..U.2BFE",
+            "..U.REVERSED RIGHT ANGLE",
+            "U+2BFE",
+        ],
+        "body": [
+            "${1|⯾,&#x2BFE;,U+2BFE,0x2BFE,REVERSED RIGHT ANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+2BFE",
+            "Character/Symbol: ⯾",
+            "Name: REVERSED RIGHT ANGLE",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+    "Unicode ⯿ U+2BFF HELLSCHREIBER PAUSE SYMBOL": 
+    {
+        "prefix": [
+            "..U.2BFF",
+            "..U.HELLSCHREIBER PAUSE SYMBOL",
+            "U+2BFF",
+        ],
+        "body": [
+            "${1|⯿,&#x2BFF;,U+2BFF,0x2BFF,HELLSCHREIBER PAUSE SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2BFF",
+            "Character/Symbol: ⯿",
+            "Name: HELLSCHREIBER PAUSE SYMBOL",
+            "Group/Block: Misc_Arrows",
+        ],
+    },
+
+}

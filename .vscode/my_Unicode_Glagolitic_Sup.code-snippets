@@ -1,0 +1,686 @@
+{
+    "Unicode 𞀀 U+1E000 COMBINING GLAGOLITIC LETTER AZU": 
+    {
+        "prefix": [
+            "..U.1E000",
+            "..U.COMBINING GLAGOLITIC LETTER AZU",
+            "U+1E000",
+        ],
+        "body": [
+            "${1|𞀀,&#x1E000;,U+1E000,0x1E000,COMBINING GLAGOLITIC LETTER AZU|}$2",
+        ],
+        "description": [
+            "Code: U+1E000",
+            "Character/Symbol: 𞀀",
+            "Name: COMBINING GLAGOLITIC LETTER AZU",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀁 U+1E001 COMBINING GLAGOLITIC LETTER BUKY": 
+    {
+        "prefix": [
+            "..U.1E001",
+            "..U.COMBINING GLAGOLITIC LETTER BUKY",
+            "U+1E001",
+        ],
+        "body": [
+            "${1|𞀁,&#x1E001;,U+1E001,0x1E001,COMBINING GLAGOLITIC LETTER BUKY|}$2",
+        ],
+        "description": [
+            "Code: U+1E001",
+            "Character/Symbol: 𞀁",
+            "Name: COMBINING GLAGOLITIC LETTER BUKY",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀂 U+1E002 COMBINING GLAGOLITIC LETTER VEDE": 
+    {
+        "prefix": [
+            "..U.1E002",
+            "..U.COMBINING GLAGOLITIC LETTER VEDE",
+            "U+1E002",
+        ],
+        "body": [
+            "${1|𞀂,&#x1E002;,U+1E002,0x1E002,COMBINING GLAGOLITIC LETTER VEDE|}$2",
+        ],
+        "description": [
+            "Code: U+1E002",
+            "Character/Symbol: 𞀂",
+            "Name: COMBINING GLAGOLITIC LETTER VEDE",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀃 U+1E003 COMBINING GLAGOLITIC LETTER GLAGOLI": 
+    {
+        "prefix": [
+            "..U.1E003",
+            "..U.COMBINING GLAGOLITIC LETTER GLAGOLI",
+            "U+1E003",
+        ],
+        "body": [
+            "${1|𞀃,&#x1E003;,U+1E003,0x1E003,COMBINING GLAGOLITIC LETTER GLAGOLI|}$2",
+        ],
+        "description": [
+            "Code: U+1E003",
+            "Character/Symbol: 𞀃",
+            "Name: COMBINING GLAGOLITIC LETTER GLAGOLI",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀄 U+1E004 COMBINING GLAGOLITIC LETTER DOBRO": 
+    {
+        "prefix": [
+            "..U.1E004",
+            "..U.COMBINING GLAGOLITIC LETTER DOBRO",
+            "U+1E004",
+        ],
+        "body": [
+            "${1|𞀄,&#x1E004;,U+1E004,0x1E004,COMBINING GLAGOLITIC LETTER DOBRO|}$2",
+        ],
+        "description": [
+            "Code: U+1E004",
+            "Character/Symbol: 𞀄",
+            "Name: COMBINING GLAGOLITIC LETTER DOBRO",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀅 U+1E005 COMBINING GLAGOLITIC LETTER YESTU": 
+    {
+        "prefix": [
+            "..U.1E005",
+            "..U.COMBINING GLAGOLITIC LETTER YESTU",
+            "U+1E005",
+        ],
+        "body": [
+            "${1|𞀅,&#x1E005;,U+1E005,0x1E005,COMBINING GLAGOLITIC LETTER YESTU|}$2",
+        ],
+        "description": [
+            "Code: U+1E005",
+            "Character/Symbol: 𞀅",
+            "Name: COMBINING GLAGOLITIC LETTER YESTU",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀆 U+1E006 COMBINING GLAGOLITIC LETTER ZHIVETE": 
+    {
+        "prefix": [
+            "..U.1E006",
+            "..U.COMBINING GLAGOLITIC LETTER ZHIVETE",
+            "U+1E006",
+        ],
+        "body": [
+            "${1|𞀆,&#x1E006;,U+1E006,0x1E006,COMBINING GLAGOLITIC LETTER ZHIVETE|}$2",
+        ],
+        "description": [
+            "Code: U+1E006",
+            "Character/Symbol: 𞀆",
+            "Name: COMBINING GLAGOLITIC LETTER ZHIVETE",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀈 U+1E008 COMBINING GLAGOLITIC LETTER ZEMLJA": 
+    {
+        "prefix": [
+            "..U.1E008",
+            "..U.COMBINING GLAGOLITIC LETTER ZEMLJA",
+            "U+1E008",
+        ],
+        "body": [
+            "${1|𞀈,&#x1E008;,U+1E008,0x1E008,COMBINING GLAGOLITIC LETTER ZEMLJA|}$2",
+        ],
+        "description": [
+            "Code: U+1E008",
+            "Character/Symbol: 𞀈",
+            "Name: COMBINING GLAGOLITIC LETTER ZEMLJA",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀉 U+1E009 COMBINING GLAGOLITIC LETTER IZHE": 
+    {
+        "prefix": [
+            "..U.1E009",
+            "..U.COMBINING GLAGOLITIC LETTER IZHE",
+            "U+1E009",
+        ],
+        "body": [
+            "${1|𞀉,&#x1E009;,U+1E009,0x1E009,COMBINING GLAGOLITIC LETTER IZHE|}$2",
+        ],
+        "description": [
+            "Code: U+1E009",
+            "Character/Symbol: 𞀉",
+            "Name: COMBINING GLAGOLITIC LETTER IZHE",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀊 U+1E00A COMBINING GLAGOLITIC LETTER INITIAL IZHE": 
+    {
+        "prefix": [
+            "..U.1E00A",
+            "..U.COMBINING GLAGOLITIC LETTER INITIAL IZHE",
+            "U+1E00A",
+        ],
+        "body": [
+            "${1|𞀊,&#x1E00A;,U+1E00A,0x1E00A,COMBINING GLAGOLITIC LETTER INITIAL IZHE|}$2",
+        ],
+        "description": [
+            "Code: U+1E00A",
+            "Character/Symbol: 𞀊",
+            "Name: COMBINING GLAGOLITIC LETTER INITIAL IZHE",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀋 U+1E00B COMBINING GLAGOLITIC LETTER I": 
+    {
+        "prefix": [
+            "..U.1E00B",
+            "..U.COMBINING GLAGOLITIC LETTER I",
+            "U+1E00B",
+        ],
+        "body": [
+            "${1|𞀋,&#x1E00B;,U+1E00B,0x1E00B,COMBINING GLAGOLITIC LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+1E00B",
+            "Character/Symbol: 𞀋",
+            "Name: COMBINING GLAGOLITIC LETTER I",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀌 U+1E00C COMBINING GLAGOLITIC LETTER DJERVI": 
+    {
+        "prefix": [
+            "..U.1E00C",
+            "..U.COMBINING GLAGOLITIC LETTER DJERVI",
+            "U+1E00C",
+        ],
+        "body": [
+            "${1|𞀌,&#x1E00C;,U+1E00C,0x1E00C,COMBINING GLAGOLITIC LETTER DJERVI|}$2",
+        ],
+        "description": [
+            "Code: U+1E00C",
+            "Character/Symbol: 𞀌",
+            "Name: COMBINING GLAGOLITIC LETTER DJERVI",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀍 U+1E00D COMBINING GLAGOLITIC LETTER KAKO": 
+    {
+        "prefix": [
+            "..U.1E00D",
+            "..U.COMBINING GLAGOLITIC LETTER KAKO",
+            "U+1E00D",
+        ],
+        "body": [
+            "${1|𞀍,&#x1E00D;,U+1E00D,0x1E00D,COMBINING GLAGOLITIC LETTER KAKO|}$2",
+        ],
+        "description": [
+            "Code: U+1E00D",
+            "Character/Symbol: 𞀍",
+            "Name: COMBINING GLAGOLITIC LETTER KAKO",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀎 U+1E00E COMBINING GLAGOLITIC LETTER LJUDIJE": 
+    {
+        "prefix": [
+            "..U.1E00E",
+            "..U.COMBINING GLAGOLITIC LETTER LJUDIJE",
+            "U+1E00E",
+        ],
+        "body": [
+            "${1|𞀎,&#x1E00E;,U+1E00E,0x1E00E,COMBINING GLAGOLITIC LETTER LJUDIJE|}$2",
+        ],
+        "description": [
+            "Code: U+1E00E",
+            "Character/Symbol: 𞀎",
+            "Name: COMBINING GLAGOLITIC LETTER LJUDIJE",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀏 U+1E00F COMBINING GLAGOLITIC LETTER MYSLITE": 
+    {
+        "prefix": [
+            "..U.1E00F",
+            "..U.COMBINING GLAGOLITIC LETTER MYSLITE",
+            "U+1E00F",
+        ],
+        "body": [
+            "${1|𞀏,&#x1E00F;,U+1E00F,0x1E00F,COMBINING GLAGOLITIC LETTER MYSLITE|}$2",
+        ],
+        "description": [
+            "Code: U+1E00F",
+            "Character/Symbol: 𞀏",
+            "Name: COMBINING GLAGOLITIC LETTER MYSLITE",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀐 U+1E010 COMBINING GLAGOLITIC LETTER NASHI": 
+    {
+        "prefix": [
+            "..U.1E010",
+            "..U.COMBINING GLAGOLITIC LETTER NASHI",
+            "U+1E010",
+        ],
+        "body": [
+            "${1|𞀐,&#x1E010;,U+1E010,0x1E010,COMBINING GLAGOLITIC LETTER NASHI|}$2",
+        ],
+        "description": [
+            "Code: U+1E010",
+            "Character/Symbol: 𞀐",
+            "Name: COMBINING GLAGOLITIC LETTER NASHI",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀑 U+1E011 COMBINING GLAGOLITIC LETTER ONU": 
+    {
+        "prefix": [
+            "..U.1E011",
+            "..U.COMBINING GLAGOLITIC LETTER ONU",
+            "U+1E011",
+        ],
+        "body": [
+            "${1|𞀑,&#x1E011;,U+1E011,0x1E011,COMBINING GLAGOLITIC LETTER ONU|}$2",
+        ],
+        "description": [
+            "Code: U+1E011",
+            "Character/Symbol: 𞀑",
+            "Name: COMBINING GLAGOLITIC LETTER ONU",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀒 U+1E012 COMBINING GLAGOLITIC LETTER POKOJI": 
+    {
+        "prefix": [
+            "..U.1E012",
+            "..U.COMBINING GLAGOLITIC LETTER POKOJI",
+            "U+1E012",
+        ],
+        "body": [
+            "${1|𞀒,&#x1E012;,U+1E012,0x1E012,COMBINING GLAGOLITIC LETTER POKOJI|}$2",
+        ],
+        "description": [
+            "Code: U+1E012",
+            "Character/Symbol: 𞀒",
+            "Name: COMBINING GLAGOLITIC LETTER POKOJI",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀓 U+1E013 COMBINING GLAGOLITIC LETTER RITSI": 
+    {
+        "prefix": [
+            "..U.1E013",
+            "..U.COMBINING GLAGOLITIC LETTER RITSI",
+            "U+1E013",
+        ],
+        "body": [
+            "${1|𞀓,&#x1E013;,U+1E013,0x1E013,COMBINING GLAGOLITIC LETTER RITSI|}$2",
+        ],
+        "description": [
+            "Code: U+1E013",
+            "Character/Symbol: 𞀓",
+            "Name: COMBINING GLAGOLITIC LETTER RITSI",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀔 U+1E014 COMBINING GLAGOLITIC LETTER SLOVO": 
+    {
+        "prefix": [
+            "..U.1E014",
+            "..U.COMBINING GLAGOLITIC LETTER SLOVO",
+            "U+1E014",
+        ],
+        "body": [
+            "${1|𞀔,&#x1E014;,U+1E014,0x1E014,COMBINING GLAGOLITIC LETTER SLOVO|}$2",
+        ],
+        "description": [
+            "Code: U+1E014",
+            "Character/Symbol: 𞀔",
+            "Name: COMBINING GLAGOLITIC LETTER SLOVO",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀕 U+1E015 COMBINING GLAGOLITIC LETTER TVRIDO": 
+    {
+        "prefix": [
+            "..U.1E015",
+            "..U.COMBINING GLAGOLITIC LETTER TVRIDO",
+            "U+1E015",
+        ],
+        "body": [
+            "${1|𞀕,&#x1E015;,U+1E015,0x1E015,COMBINING GLAGOLITIC LETTER TVRIDO|}$2",
+        ],
+        "description": [
+            "Code: U+1E015",
+            "Character/Symbol: 𞀕",
+            "Name: COMBINING GLAGOLITIC LETTER TVRIDO",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀖 U+1E016 COMBINING GLAGOLITIC LETTER UKU": 
+    {
+        "prefix": [
+            "..U.1E016",
+            "..U.COMBINING GLAGOLITIC LETTER UKU",
+            "U+1E016",
+        ],
+        "body": [
+            "${1|𞀖,&#x1E016;,U+1E016,0x1E016,COMBINING GLAGOLITIC LETTER UKU|}$2",
+        ],
+        "description": [
+            "Code: U+1E016",
+            "Character/Symbol: 𞀖",
+            "Name: COMBINING GLAGOLITIC LETTER UKU",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀗 U+1E017 COMBINING GLAGOLITIC LETTER FRITU": 
+    {
+        "prefix": [
+            "..U.1E017",
+            "..U.COMBINING GLAGOLITIC LETTER FRITU",
+            "U+1E017",
+        ],
+        "body": [
+            "${1|𞀗,&#x1E017;,U+1E017,0x1E017,COMBINING GLAGOLITIC LETTER FRITU|}$2",
+        ],
+        "description": [
+            "Code: U+1E017",
+            "Character/Symbol: 𞀗",
+            "Name: COMBINING GLAGOLITIC LETTER FRITU",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀘 U+1E018 COMBINING GLAGOLITIC LETTER HERU": 
+    {
+        "prefix": [
+            "..U.1E018",
+            "..U.COMBINING GLAGOLITIC LETTER HERU",
+            "U+1E018",
+        ],
+        "body": [
+            "${1|𞀘,&#x1E018;,U+1E018,0x1E018,COMBINING GLAGOLITIC LETTER HERU|}$2",
+        ],
+        "description": [
+            "Code: U+1E018",
+            "Character/Symbol: 𞀘",
+            "Name: COMBINING GLAGOLITIC LETTER HERU",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀛 U+1E01B COMBINING GLAGOLITIC LETTER SHTA": 
+    {
+        "prefix": [
+            "..U.1E01B",
+            "..U.COMBINING GLAGOLITIC LETTER SHTA",
+            "U+1E01B",
+        ],
+        "body": [
+            "${1|𞀛,&#x1E01B;,U+1E01B,0x1E01B,COMBINING GLAGOLITIC LETTER SHTA|}$2",
+        ],
+        "description": [
+            "Code: U+1E01B",
+            "Character/Symbol: 𞀛",
+            "Name: COMBINING GLAGOLITIC LETTER SHTA",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀜 U+1E01C COMBINING GLAGOLITIC LETTER TSI": 
+    {
+        "prefix": [
+            "..U.1E01C",
+            "..U.COMBINING GLAGOLITIC LETTER TSI",
+            "U+1E01C",
+        ],
+        "body": [
+            "${1|𞀜,&#x1E01C;,U+1E01C,0x1E01C,COMBINING GLAGOLITIC LETTER TSI|}$2",
+        ],
+        "description": [
+            "Code: U+1E01C",
+            "Character/Symbol: 𞀜",
+            "Name: COMBINING GLAGOLITIC LETTER TSI",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀝 U+1E01D COMBINING GLAGOLITIC LETTER CHRIVI": 
+    {
+        "prefix": [
+            "..U.1E01D",
+            "..U.COMBINING GLAGOLITIC LETTER CHRIVI",
+            "U+1E01D",
+        ],
+        "body": [
+            "${1|𞀝,&#x1E01D;,U+1E01D,0x1E01D,COMBINING GLAGOLITIC LETTER CHRIVI|}$2",
+        ],
+        "description": [
+            "Code: U+1E01D",
+            "Character/Symbol: 𞀝",
+            "Name: COMBINING GLAGOLITIC LETTER CHRIVI",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀞 U+1E01E COMBINING GLAGOLITIC LETTER SHA": 
+    {
+        "prefix": [
+            "..U.1E01E",
+            "..U.COMBINING GLAGOLITIC LETTER SHA",
+            "U+1E01E",
+        ],
+        "body": [
+            "${1|𞀞,&#x1E01E;,U+1E01E,0x1E01E,COMBINING GLAGOLITIC LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+1E01E",
+            "Character/Symbol: 𞀞",
+            "Name: COMBINING GLAGOLITIC LETTER SHA",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀟 U+1E01F COMBINING GLAGOLITIC LETTER YERU": 
+    {
+        "prefix": [
+            "..U.1E01F",
+            "..U.COMBINING GLAGOLITIC LETTER YERU",
+            "U+1E01F",
+        ],
+        "body": [
+            "${1|𞀟,&#x1E01F;,U+1E01F,0x1E01F,COMBINING GLAGOLITIC LETTER YERU|}$2",
+        ],
+        "description": [
+            "Code: U+1E01F",
+            "Character/Symbol: 𞀟",
+            "Name: COMBINING GLAGOLITIC LETTER YERU",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀠 U+1E020 COMBINING GLAGOLITIC LETTER YERI": 
+    {
+        "prefix": [
+            "..U.1E020",
+            "..U.COMBINING GLAGOLITIC LETTER YERI",
+            "U+1E020",
+        ],
+        "body": [
+            "${1|𞀠,&#x1E020;,U+1E020,0x1E020,COMBINING GLAGOLITIC LETTER YERI|}$2",
+        ],
+        "description": [
+            "Code: U+1E020",
+            "Character/Symbol: 𞀠",
+            "Name: COMBINING GLAGOLITIC LETTER YERI",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀡 U+1E021 COMBINING GLAGOLITIC LETTER YATI": 
+    {
+        "prefix": [
+            "..U.1E021",
+            "..U.COMBINING GLAGOLITIC LETTER YATI",
+            "U+1E021",
+        ],
+        "body": [
+            "${1|𞀡,&#x1E021;,U+1E021,0x1E021,COMBINING GLAGOLITIC LETTER YATI|}$2",
+        ],
+        "description": [
+            "Code: U+1E021",
+            "Character/Symbol: 𞀡",
+            "Name: COMBINING GLAGOLITIC LETTER YATI",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀣 U+1E023 COMBINING GLAGOLITIC LETTER YU": 
+    {
+        "prefix": [
+            "..U.1E023",
+            "..U.COMBINING GLAGOLITIC LETTER YU",
+            "U+1E023",
+        ],
+        "body": [
+            "${1|𞀣,&#x1E023;,U+1E023,0x1E023,COMBINING GLAGOLITIC LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+1E023",
+            "Character/Symbol: 𞀣",
+            "Name: COMBINING GLAGOLITIC LETTER YU",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀤 U+1E024 COMBINING GLAGOLITIC LETTER SMALL YUS": 
+    {
+        "prefix": [
+            "..U.1E024",
+            "..U.COMBINING GLAGOLITIC LETTER SMALL YUS",
+            "U+1E024",
+        ],
+        "body": [
+            "${1|𞀤,&#x1E024;,U+1E024,0x1E024,COMBINING GLAGOLITIC LETTER SMALL YUS|}$2",
+        ],
+        "description": [
+            "Code: U+1E024",
+            "Character/Symbol: 𞀤",
+            "Name: COMBINING GLAGOLITIC LETTER SMALL YUS",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀦 U+1E026 COMBINING GLAGOLITIC LETTER YO": 
+    {
+        "prefix": [
+            "..U.1E026",
+            "..U.COMBINING GLAGOLITIC LETTER YO",
+            "U+1E026",
+        ],
+        "body": [
+            "${1|𞀦,&#x1E026;,U+1E026,0x1E026,COMBINING GLAGOLITIC LETTER YO|}$2",
+        ],
+        "description": [
+            "Code: U+1E026",
+            "Character/Symbol: 𞀦",
+            "Name: COMBINING GLAGOLITIC LETTER YO",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀧 U+1E027 COMBINING GLAGOLITIC LETTER IOTATED SMALL YUS": 
+    {
+        "prefix": [
+            "..U.1E027",
+            "..U.COMBINING GLAGOLITIC LETTER IOTATED SMALL YUS",
+            "U+1E027",
+        ],
+        "body": [
+            "${1|𞀧,&#x1E027;,U+1E027,0x1E027,COMBINING GLAGOLITIC LETTER IOTATED SMALL YUS|}$2",
+        ],
+        "description": [
+            "Code: U+1E027",
+            "Character/Symbol: 𞀧",
+            "Name: COMBINING GLAGOLITIC LETTER IOTATED SMALL YUS",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀨 U+1E028 COMBINING GLAGOLITIC LETTER BIG YUS": 
+    {
+        "prefix": [
+            "..U.1E028",
+            "..U.COMBINING GLAGOLITIC LETTER BIG YUS",
+            "U+1E028",
+        ],
+        "body": [
+            "${1|𞀨,&#x1E028;,U+1E028,0x1E028,COMBINING GLAGOLITIC LETTER BIG YUS|}$2",
+        ],
+        "description": [
+            "Code: U+1E028",
+            "Character/Symbol: 𞀨",
+            "Name: COMBINING GLAGOLITIC LETTER BIG YUS",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀩 U+1E029 COMBINING GLAGOLITIC LETTER IOTATED BIG YUS": 
+    {
+        "prefix": [
+            "..U.1E029",
+            "..U.COMBINING GLAGOLITIC LETTER IOTATED BIG YUS",
+            "U+1E029",
+        ],
+        "body": [
+            "${1|𞀩,&#x1E029;,U+1E029,0x1E029,COMBINING GLAGOLITIC LETTER IOTATED BIG YUS|}$2",
+        ],
+        "description": [
+            "Code: U+1E029",
+            "Character/Symbol: 𞀩",
+            "Name: COMBINING GLAGOLITIC LETTER IOTATED BIG YUS",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+    "Unicode 𞀪 U+1E02A COMBINING GLAGOLITIC LETTER FITA": 
+    {
+        "prefix": [
+            "..U.1E02A",
+            "..U.COMBINING GLAGOLITIC LETTER FITA",
+            "U+1E02A",
+        ],
+        "body": [
+            "${1|𞀪,&#x1E02A;,U+1E02A,0x1E02A,COMBINING GLAGOLITIC LETTER FITA|}$2",
+        ],
+        "description": [
+            "Code: U+1E02A",
+            "Character/Symbol: 𞀪",
+            "Name: COMBINING GLAGOLITIC LETTER FITA",
+            "Group/Block: Glagolitic_Sup",
+        ],
+    },
+
+}

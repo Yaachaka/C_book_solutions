@@ -1,0 +1,1082 @@
+{
+    "Unicode ⅐ U+2150 VULGAR FRACTION ONE SEVENTH": 
+    {
+        "prefix": [
+            "..U.2150",
+            "..U.VULGAR FRACTION ONE SEVENTH",
+            "U+2150",
+        ],
+        "body": [
+            "${1|⅐,&#x2150;,U+2150,0x2150,VULGAR FRACTION ONE SEVENTH|}$2",
+        ],
+        "description": [
+            "Code: U+2150",
+            "Character/Symbol: ⅐",
+            "Name: VULGAR FRACTION ONE SEVENTH",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅑ U+2151 VULGAR FRACTION ONE NINTH": 
+    {
+        "prefix": [
+            "..U.2151",
+            "..U.VULGAR FRACTION ONE NINTH",
+            "U+2151",
+        ],
+        "body": [
+            "${1|⅑,&#x2151;,U+2151,0x2151,VULGAR FRACTION ONE NINTH|}$2",
+        ],
+        "description": [
+            "Code: U+2151",
+            "Character/Symbol: ⅑",
+            "Name: VULGAR FRACTION ONE NINTH",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅒ U+2152 VULGAR FRACTION ONE TENTH": 
+    {
+        "prefix": [
+            "..U.2152",
+            "..U.VULGAR FRACTION ONE TENTH",
+            "U+2152",
+        ],
+        "body": [
+            "${1|⅒,&#x2152;,U+2152,0x2152,VULGAR FRACTION ONE TENTH|}$2",
+        ],
+        "description": [
+            "Code: U+2152",
+            "Character/Symbol: ⅒",
+            "Name: VULGAR FRACTION ONE TENTH",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅓ U+2153 VULGAR FRACTION ONE THIRD": 
+    {
+        "prefix": [
+            "..U.2153",
+            "..U.VULGAR FRACTION ONE THIRD",
+            "U+2153",
+        ],
+        "body": [
+            "${1|⅓,&#x2153;,U+2153,0x2153,VULGAR FRACTION ONE THIRD|}$2",
+        ],
+        "description": [
+            "Code: U+2153",
+            "Character/Symbol: ⅓",
+            "Name: VULGAR FRACTION ONE THIRD",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅔ U+2154 VULGAR FRACTION TWO THIRDS": 
+    {
+        "prefix": [
+            "..U.2154",
+            "..U.VULGAR FRACTION TWO THIRDS",
+            "U+2154",
+        ],
+        "body": [
+            "${1|⅔,&#x2154;,U+2154,0x2154,VULGAR FRACTION TWO THIRDS|}$2",
+        ],
+        "description": [
+            "Code: U+2154",
+            "Character/Symbol: ⅔",
+            "Name: VULGAR FRACTION TWO THIRDS",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅕ U+2155 VULGAR FRACTION ONE FIFTH": 
+    {
+        "prefix": [
+            "..U.2155",
+            "..U.VULGAR FRACTION ONE FIFTH",
+            "U+2155",
+        ],
+        "body": [
+            "${1|⅕,&#x2155;,U+2155,0x2155,VULGAR FRACTION ONE FIFTH|}$2",
+        ],
+        "description": [
+            "Code: U+2155",
+            "Character/Symbol: ⅕",
+            "Name: VULGAR FRACTION ONE FIFTH",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅖ U+2156 VULGAR FRACTION TWO FIFTHS": 
+    {
+        "prefix": [
+            "..U.2156",
+            "..U.VULGAR FRACTION TWO FIFTHS",
+            "U+2156",
+        ],
+        "body": [
+            "${1|⅖,&#x2156;,U+2156,0x2156,VULGAR FRACTION TWO FIFTHS|}$2",
+        ],
+        "description": [
+            "Code: U+2156",
+            "Character/Symbol: ⅖",
+            "Name: VULGAR FRACTION TWO FIFTHS",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅗ U+2157 VULGAR FRACTION THREE FIFTHS": 
+    {
+        "prefix": [
+            "..U.2157",
+            "..U.VULGAR FRACTION THREE FIFTHS",
+            "U+2157",
+        ],
+        "body": [
+            "${1|⅗,&#x2157;,U+2157,0x2157,VULGAR FRACTION THREE FIFTHS|}$2",
+        ],
+        "description": [
+            "Code: U+2157",
+            "Character/Symbol: ⅗",
+            "Name: VULGAR FRACTION THREE FIFTHS",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅘ U+2158 VULGAR FRACTION FOUR FIFTHS": 
+    {
+        "prefix": [
+            "..U.2158",
+            "..U.VULGAR FRACTION FOUR FIFTHS",
+            "U+2158",
+        ],
+        "body": [
+            "${1|⅘,&#x2158;,U+2158,0x2158,VULGAR FRACTION FOUR FIFTHS|}$2",
+        ],
+        "description": [
+            "Code: U+2158",
+            "Character/Symbol: ⅘",
+            "Name: VULGAR FRACTION FOUR FIFTHS",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅙ U+2159 VULGAR FRACTION ONE SIXTH": 
+    {
+        "prefix": [
+            "..U.2159",
+            "..U.VULGAR FRACTION ONE SIXTH",
+            "U+2159",
+        ],
+        "body": [
+            "${1|⅙,&#x2159;,U+2159,0x2159,VULGAR FRACTION ONE SIXTH|}$2",
+        ],
+        "description": [
+            "Code: U+2159",
+            "Character/Symbol: ⅙",
+            "Name: VULGAR FRACTION ONE SIXTH",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅚ U+215A VULGAR FRACTION FIVE SIXTHS": 
+    {
+        "prefix": [
+            "..U.215A",
+            "..U.VULGAR FRACTION FIVE SIXTHS",
+            "U+215A",
+        ],
+        "body": [
+            "${1|⅚,&#x215A;,U+215A,0x215A,VULGAR FRACTION FIVE SIXTHS|}$2",
+        ],
+        "description": [
+            "Code: U+215A",
+            "Character/Symbol: ⅚",
+            "Name: VULGAR FRACTION FIVE SIXTHS",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅛ U+215B VULGAR FRACTION ONE EIGHTH": 
+    {
+        "prefix": [
+            "..U.215B",
+            "..U.VULGAR FRACTION ONE EIGHTH",
+            "U+215B",
+        ],
+        "body": [
+            "${1|⅛,&#x215B;,U+215B,0x215B,VULGAR FRACTION ONE EIGHTH|}$2",
+        ],
+        "description": [
+            "Code: U+215B",
+            "Character/Symbol: ⅛",
+            "Name: VULGAR FRACTION ONE EIGHTH",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅜ U+215C VULGAR FRACTION THREE EIGHTHS": 
+    {
+        "prefix": [
+            "..U.215C",
+            "..U.VULGAR FRACTION THREE EIGHTHS",
+            "U+215C",
+        ],
+        "body": [
+            "${1|⅜,&#x215C;,U+215C,0x215C,VULGAR FRACTION THREE EIGHTHS|}$2",
+        ],
+        "description": [
+            "Code: U+215C",
+            "Character/Symbol: ⅜",
+            "Name: VULGAR FRACTION THREE EIGHTHS",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅝ U+215D VULGAR FRACTION FIVE EIGHTHS": 
+    {
+        "prefix": [
+            "..U.215D",
+            "..U.VULGAR FRACTION FIVE EIGHTHS",
+            "U+215D",
+        ],
+        "body": [
+            "${1|⅝,&#x215D;,U+215D,0x215D,VULGAR FRACTION FIVE EIGHTHS|}$2",
+        ],
+        "description": [
+            "Code: U+215D",
+            "Character/Symbol: ⅝",
+            "Name: VULGAR FRACTION FIVE EIGHTHS",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅞ U+215E VULGAR FRACTION SEVEN EIGHTHS": 
+    {
+        "prefix": [
+            "..U.215E",
+            "..U.VULGAR FRACTION SEVEN EIGHTHS",
+            "U+215E",
+        ],
+        "body": [
+            "${1|⅞,&#x215E;,U+215E,0x215E,VULGAR FRACTION SEVEN EIGHTHS|}$2",
+        ],
+        "description": [
+            "Code: U+215E",
+            "Character/Symbol: ⅞",
+            "Name: VULGAR FRACTION SEVEN EIGHTHS",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅟ U+215F FRACTION NUMERATOR ONE": 
+    {
+        "prefix": [
+            "..U.215F",
+            "..U.FRACTION NUMERATOR ONE",
+            "U+215F",
+        ],
+        "body": [
+            "${1|⅟,&#x215F;,U+215F,0x215F,FRACTION NUMERATOR ONE|}$2",
+        ],
+        "description": [
+            "Code: U+215F",
+            "Character/Symbol: ⅟",
+            "Name: FRACTION NUMERATOR ONE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅰ U+2160 ROMAN NUMERAL ONE": 
+    {
+        "prefix": [
+            "..U.2160",
+            "..U.ROMAN NUMERAL ONE",
+            "U+2160",
+        ],
+        "body": [
+            "${1|Ⅰ,&#x2160;,U+2160,0x2160,ROMAN NUMERAL ONE|}$2",
+        ],
+        "description": [
+            "Code: U+2160",
+            "Character/Symbol: Ⅰ",
+            "Name: ROMAN NUMERAL ONE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅱ U+2161 ROMAN NUMERAL TWO": 
+    {
+        "prefix": [
+            "..U.2161",
+            "..U.ROMAN NUMERAL TWO",
+            "U+2161",
+        ],
+        "body": [
+            "${1|Ⅱ,&#x2161;,U+2161,0x2161,ROMAN NUMERAL TWO|}$2",
+        ],
+        "description": [
+            "Code: U+2161",
+            "Character/Symbol: Ⅱ",
+            "Name: ROMAN NUMERAL TWO",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅲ U+2162 ROMAN NUMERAL THREE": 
+    {
+        "prefix": [
+            "..U.2162",
+            "..U.ROMAN NUMERAL THREE",
+            "U+2162",
+        ],
+        "body": [
+            "${1|Ⅲ,&#x2162;,U+2162,0x2162,ROMAN NUMERAL THREE|}$2",
+        ],
+        "description": [
+            "Code: U+2162",
+            "Character/Symbol: Ⅲ",
+            "Name: ROMAN NUMERAL THREE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅳ U+2163 ROMAN NUMERAL FOUR": 
+    {
+        "prefix": [
+            "..U.2163",
+            "..U.ROMAN NUMERAL FOUR",
+            "U+2163",
+        ],
+        "body": [
+            "${1|Ⅳ,&#x2163;,U+2163,0x2163,ROMAN NUMERAL FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+2163",
+            "Character/Symbol: Ⅳ",
+            "Name: ROMAN NUMERAL FOUR",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅴ U+2164 ROMAN NUMERAL FIVE": 
+    {
+        "prefix": [
+            "..U.2164",
+            "..U.ROMAN NUMERAL FIVE",
+            "U+2164",
+        ],
+        "body": [
+            "${1|Ⅴ,&#x2164;,U+2164,0x2164,ROMAN NUMERAL FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+2164",
+            "Character/Symbol: Ⅴ",
+            "Name: ROMAN NUMERAL FIVE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅵ U+2165 ROMAN NUMERAL SIX": 
+    {
+        "prefix": [
+            "..U.2165",
+            "..U.ROMAN NUMERAL SIX",
+            "U+2165",
+        ],
+        "body": [
+            "${1|Ⅵ,&#x2165;,U+2165,0x2165,ROMAN NUMERAL SIX|}$2",
+        ],
+        "description": [
+            "Code: U+2165",
+            "Character/Symbol: Ⅵ",
+            "Name: ROMAN NUMERAL SIX",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅶ U+2166 ROMAN NUMERAL SEVEN": 
+    {
+        "prefix": [
+            "..U.2166",
+            "..U.ROMAN NUMERAL SEVEN",
+            "U+2166",
+        ],
+        "body": [
+            "${1|Ⅶ,&#x2166;,U+2166,0x2166,ROMAN NUMERAL SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+2166",
+            "Character/Symbol: Ⅶ",
+            "Name: ROMAN NUMERAL SEVEN",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅷ U+2167 ROMAN NUMERAL EIGHT": 
+    {
+        "prefix": [
+            "..U.2167",
+            "..U.ROMAN NUMERAL EIGHT",
+            "U+2167",
+        ],
+        "body": [
+            "${1|Ⅷ,&#x2167;,U+2167,0x2167,ROMAN NUMERAL EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2167",
+            "Character/Symbol: Ⅷ",
+            "Name: ROMAN NUMERAL EIGHT",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅸ U+2168 ROMAN NUMERAL NINE": 
+    {
+        "prefix": [
+            "..U.2168",
+            "..U.ROMAN NUMERAL NINE",
+            "U+2168",
+        ],
+        "body": [
+            "${1|Ⅸ,&#x2168;,U+2168,0x2168,ROMAN NUMERAL NINE|}$2",
+        ],
+        "description": [
+            "Code: U+2168",
+            "Character/Symbol: Ⅸ",
+            "Name: ROMAN NUMERAL NINE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅹ U+2169 ROMAN NUMERAL TEN": 
+    {
+        "prefix": [
+            "..U.2169",
+            "..U.ROMAN NUMERAL TEN",
+            "U+2169",
+        ],
+        "body": [
+            "${1|Ⅹ,&#x2169;,U+2169,0x2169,ROMAN NUMERAL TEN|}$2",
+        ],
+        "description": [
+            "Code: U+2169",
+            "Character/Symbol: Ⅹ",
+            "Name: ROMAN NUMERAL TEN",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅺ U+216A ROMAN NUMERAL ELEVEN": 
+    {
+        "prefix": [
+            "..U.216A",
+            "..U.ROMAN NUMERAL ELEVEN",
+            "U+216A",
+        ],
+        "body": [
+            "${1|Ⅺ,&#x216A;,U+216A,0x216A,ROMAN NUMERAL ELEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+216A",
+            "Character/Symbol: Ⅺ",
+            "Name: ROMAN NUMERAL ELEVEN",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅻ U+216B ROMAN NUMERAL TWELVE": 
+    {
+        "prefix": [
+            "..U.216B",
+            "..U.ROMAN NUMERAL TWELVE",
+            "U+216B",
+        ],
+        "body": [
+            "${1|Ⅻ,&#x216B;,U+216B,0x216B,ROMAN NUMERAL TWELVE|}$2",
+        ],
+        "description": [
+            "Code: U+216B",
+            "Character/Symbol: Ⅻ",
+            "Name: ROMAN NUMERAL TWELVE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅼ U+216C ROMAN NUMERAL FIFTY": 
+    {
+        "prefix": [
+            "..U.216C",
+            "..U.ROMAN NUMERAL FIFTY",
+            "U+216C",
+        ],
+        "body": [
+            "${1|Ⅼ,&#x216C;,U+216C,0x216C,ROMAN NUMERAL FIFTY|}$2",
+        ],
+        "description": [
+            "Code: U+216C",
+            "Character/Symbol: Ⅼ",
+            "Name: ROMAN NUMERAL FIFTY",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅽ U+216D ROMAN NUMERAL ONE HUNDRED": 
+    {
+        "prefix": [
+            "..U.216D",
+            "..U.ROMAN NUMERAL ONE HUNDRED",
+            "U+216D",
+        ],
+        "body": [
+            "${1|Ⅽ,&#x216D;,U+216D,0x216D,ROMAN NUMERAL ONE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+216D",
+            "Character/Symbol: Ⅽ",
+            "Name: ROMAN NUMERAL ONE HUNDRED",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅾ U+216E ROMAN NUMERAL FIVE HUNDRED": 
+    {
+        "prefix": [
+            "..U.216E",
+            "..U.ROMAN NUMERAL FIVE HUNDRED",
+            "U+216E",
+        ],
+        "body": [
+            "${1|Ⅾ,&#x216E;,U+216E,0x216E,ROMAN NUMERAL FIVE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+216E",
+            "Character/Symbol: Ⅾ",
+            "Name: ROMAN NUMERAL FIVE HUNDRED",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ⅿ U+216F ROMAN NUMERAL ONE THOUSAND": 
+    {
+        "prefix": [
+            "..U.216F",
+            "..U.ROMAN NUMERAL ONE THOUSAND",
+            "U+216F",
+        ],
+        "body": [
+            "${1|Ⅿ,&#x216F;,U+216F,0x216F,ROMAN NUMERAL ONE THOUSAND|}$2",
+        ],
+        "description": [
+            "Code: U+216F",
+            "Character/Symbol: Ⅿ",
+            "Name: ROMAN NUMERAL ONE THOUSAND",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅰ U+2170 SMALL ROMAN NUMERAL ONE": 
+    {
+        "prefix": [
+            "..U.2170",
+            "..U.SMALL ROMAN NUMERAL ONE",
+            "U+2170",
+        ],
+        "body": [
+            "${1|ⅰ,&#x2170;,U+2170,0x2170,SMALL ROMAN NUMERAL ONE|}$2",
+        ],
+        "description": [
+            "Code: U+2170",
+            "Character/Symbol: ⅰ",
+            "Name: SMALL ROMAN NUMERAL ONE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅱ U+2171 SMALL ROMAN NUMERAL TWO": 
+    {
+        "prefix": [
+            "..U.2171",
+            "..U.SMALL ROMAN NUMERAL TWO",
+            "U+2171",
+        ],
+        "body": [
+            "${1|ⅱ,&#x2171;,U+2171,0x2171,SMALL ROMAN NUMERAL TWO|}$2",
+        ],
+        "description": [
+            "Code: U+2171",
+            "Character/Symbol: ⅱ",
+            "Name: SMALL ROMAN NUMERAL TWO",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅲ U+2172 SMALL ROMAN NUMERAL THREE": 
+    {
+        "prefix": [
+            "..U.2172",
+            "..U.SMALL ROMAN NUMERAL THREE",
+            "U+2172",
+        ],
+        "body": [
+            "${1|ⅲ,&#x2172;,U+2172,0x2172,SMALL ROMAN NUMERAL THREE|}$2",
+        ],
+        "description": [
+            "Code: U+2172",
+            "Character/Symbol: ⅲ",
+            "Name: SMALL ROMAN NUMERAL THREE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅳ U+2173 SMALL ROMAN NUMERAL FOUR": 
+    {
+        "prefix": [
+            "..U.2173",
+            "..U.SMALL ROMAN NUMERAL FOUR",
+            "U+2173",
+        ],
+        "body": [
+            "${1|ⅳ,&#x2173;,U+2173,0x2173,SMALL ROMAN NUMERAL FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+2173",
+            "Character/Symbol: ⅳ",
+            "Name: SMALL ROMAN NUMERAL FOUR",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅴ U+2174 SMALL ROMAN NUMERAL FIVE": 
+    {
+        "prefix": [
+            "..U.2174",
+            "..U.SMALL ROMAN NUMERAL FIVE",
+            "U+2174",
+        ],
+        "body": [
+            "${1|ⅴ,&#x2174;,U+2174,0x2174,SMALL ROMAN NUMERAL FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+2174",
+            "Character/Symbol: ⅴ",
+            "Name: SMALL ROMAN NUMERAL FIVE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅵ U+2175 SMALL ROMAN NUMERAL SIX": 
+    {
+        "prefix": [
+            "..U.2175",
+            "..U.SMALL ROMAN NUMERAL SIX",
+            "U+2175",
+        ],
+        "body": [
+            "${1|ⅵ,&#x2175;,U+2175,0x2175,SMALL ROMAN NUMERAL SIX|}$2",
+        ],
+        "description": [
+            "Code: U+2175",
+            "Character/Symbol: ⅵ",
+            "Name: SMALL ROMAN NUMERAL SIX",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅶ U+2176 SMALL ROMAN NUMERAL SEVEN": 
+    {
+        "prefix": [
+            "..U.2176",
+            "..U.SMALL ROMAN NUMERAL SEVEN",
+            "U+2176",
+        ],
+        "body": [
+            "${1|ⅶ,&#x2176;,U+2176,0x2176,SMALL ROMAN NUMERAL SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+2176",
+            "Character/Symbol: ⅶ",
+            "Name: SMALL ROMAN NUMERAL SEVEN",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅷ U+2177 SMALL ROMAN NUMERAL EIGHT": 
+    {
+        "prefix": [
+            "..U.2177",
+            "..U.SMALL ROMAN NUMERAL EIGHT",
+            "U+2177",
+        ],
+        "body": [
+            "${1|ⅷ,&#x2177;,U+2177,0x2177,SMALL ROMAN NUMERAL EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2177",
+            "Character/Symbol: ⅷ",
+            "Name: SMALL ROMAN NUMERAL EIGHT",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅸ U+2178 SMALL ROMAN NUMERAL NINE": 
+    {
+        "prefix": [
+            "..U.2178",
+            "..U.SMALL ROMAN NUMERAL NINE",
+            "U+2178",
+        ],
+        "body": [
+            "${1|ⅸ,&#x2178;,U+2178,0x2178,SMALL ROMAN NUMERAL NINE|}$2",
+        ],
+        "description": [
+            "Code: U+2178",
+            "Character/Symbol: ⅸ",
+            "Name: SMALL ROMAN NUMERAL NINE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅹ U+2179 SMALL ROMAN NUMERAL TEN": 
+    {
+        "prefix": [
+            "..U.2179",
+            "..U.SMALL ROMAN NUMERAL TEN",
+            "U+2179",
+        ],
+        "body": [
+            "${1|ⅹ,&#x2179;,U+2179,0x2179,SMALL ROMAN NUMERAL TEN|}$2",
+        ],
+        "description": [
+            "Code: U+2179",
+            "Character/Symbol: ⅹ",
+            "Name: SMALL ROMAN NUMERAL TEN",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅺ U+217A SMALL ROMAN NUMERAL ELEVEN": 
+    {
+        "prefix": [
+            "..U.217A",
+            "..U.SMALL ROMAN NUMERAL ELEVEN",
+            "U+217A",
+        ],
+        "body": [
+            "${1|ⅺ,&#x217A;,U+217A,0x217A,SMALL ROMAN NUMERAL ELEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+217A",
+            "Character/Symbol: ⅺ",
+            "Name: SMALL ROMAN NUMERAL ELEVEN",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅻ U+217B SMALL ROMAN NUMERAL TWELVE": 
+    {
+        "prefix": [
+            "..U.217B",
+            "..U.SMALL ROMAN NUMERAL TWELVE",
+            "U+217B",
+        ],
+        "body": [
+            "${1|ⅻ,&#x217B;,U+217B,0x217B,SMALL ROMAN NUMERAL TWELVE|}$2",
+        ],
+        "description": [
+            "Code: U+217B",
+            "Character/Symbol: ⅻ",
+            "Name: SMALL ROMAN NUMERAL TWELVE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅼ U+217C SMALL ROMAN NUMERAL FIFTY": 
+    {
+        "prefix": [
+            "..U.217C",
+            "..U.SMALL ROMAN NUMERAL FIFTY",
+            "U+217C",
+        ],
+        "body": [
+            "${1|ⅼ,&#x217C;,U+217C,0x217C,SMALL ROMAN NUMERAL FIFTY|}$2",
+        ],
+        "description": [
+            "Code: U+217C",
+            "Character/Symbol: ⅼ",
+            "Name: SMALL ROMAN NUMERAL FIFTY",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅽ U+217D SMALL ROMAN NUMERAL ONE HUNDRED": 
+    {
+        "prefix": [
+            "..U.217D",
+            "..U.SMALL ROMAN NUMERAL ONE HUNDRED",
+            "U+217D",
+        ],
+        "body": [
+            "${1|ⅽ,&#x217D;,U+217D,0x217D,SMALL ROMAN NUMERAL ONE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+217D",
+            "Character/Symbol: ⅽ",
+            "Name: SMALL ROMAN NUMERAL ONE HUNDRED",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅾ U+217E SMALL ROMAN NUMERAL FIVE HUNDRED": 
+    {
+        "prefix": [
+            "..U.217E",
+            "..U.SMALL ROMAN NUMERAL FIVE HUNDRED",
+            "U+217E",
+        ],
+        "body": [
+            "${1|ⅾ,&#x217E;,U+217E,0x217E,SMALL ROMAN NUMERAL FIVE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+217E",
+            "Character/Symbol: ⅾ",
+            "Name: SMALL ROMAN NUMERAL FIVE HUNDRED",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ⅿ U+217F SMALL ROMAN NUMERAL ONE THOUSAND": 
+    {
+        "prefix": [
+            "..U.217F",
+            "..U.SMALL ROMAN NUMERAL ONE THOUSAND",
+            "U+217F",
+        ],
+        "body": [
+            "${1|ⅿ,&#x217F;,U+217F,0x217F,SMALL ROMAN NUMERAL ONE THOUSAND|}$2",
+        ],
+        "description": [
+            "Code: U+217F",
+            "Character/Symbol: ⅿ",
+            "Name: SMALL ROMAN NUMERAL ONE THOUSAND",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ↀ U+2180 ROMAN NUMERAL ONE THOUSAND C D": 
+    {
+        "prefix": [
+            "..U.2180",
+            "..U.ROMAN NUMERAL ONE THOUSAND C D",
+            "U+2180",
+        ],
+        "body": [
+            "${1|ↀ,&#x2180;,U+2180,0x2180,ROMAN NUMERAL ONE THOUSAND C D|}$2",
+        ],
+        "description": [
+            "Code: U+2180",
+            "Character/Symbol: ↀ",
+            "Name: ROMAN NUMERAL ONE THOUSAND C D",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ↁ U+2181 ROMAN NUMERAL FIVE THOUSAND": 
+    {
+        "prefix": [
+            "..U.2181",
+            "..U.ROMAN NUMERAL FIVE THOUSAND",
+            "U+2181",
+        ],
+        "body": [
+            "${1|ↁ,&#x2181;,U+2181,0x2181,ROMAN NUMERAL FIVE THOUSAND|}$2",
+        ],
+        "description": [
+            "Code: U+2181",
+            "Character/Symbol: ↁ",
+            "Name: ROMAN NUMERAL FIVE THOUSAND",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ↂ U+2182 ROMAN NUMERAL TEN THOUSAND": 
+    {
+        "prefix": [
+            "..U.2182",
+            "..U.ROMAN NUMERAL TEN THOUSAND",
+            "U+2182",
+        ],
+        "body": [
+            "${1|ↂ,&#x2182;,U+2182,0x2182,ROMAN NUMERAL TEN THOUSAND|}$2",
+        ],
+        "description": [
+            "Code: U+2182",
+            "Character/Symbol: ↂ",
+            "Name: ROMAN NUMERAL TEN THOUSAND",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode Ↄ U+2183 ROMAN NUMERAL REVERSED ONE HUNDRED": 
+    {
+        "prefix": [
+            "..U.2183",
+            "..U.ROMAN NUMERAL REVERSED ONE HUNDRED",
+            "U+2183",
+        ],
+        "body": [
+            "${1|Ↄ,&#x2183;,U+2183,0x2183,ROMAN NUMERAL REVERSED ONE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+2183",
+            "Character/Symbol: Ↄ",
+            "Name: ROMAN NUMERAL REVERSED ONE HUNDRED",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ↄ U+2184 LATIN SMALL LETTER REVERSED C": 
+    {
+        "prefix": [
+            "..U.2184",
+            "..U.LATIN SMALL LETTER REVERSED C",
+            "U+2184",
+        ],
+        "body": [
+            "${1|ↄ,&#x2184;,U+2184,0x2184,LATIN SMALL LETTER REVERSED C|}$2",
+        ],
+        "description": [
+            "Code: U+2184",
+            "Character/Symbol: ↄ",
+            "Name: LATIN SMALL LETTER REVERSED C",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ↅ U+2185 ROMAN NUMERAL SIX LATE FORM": 
+    {
+        "prefix": [
+            "..U.2185",
+            "..U.ROMAN NUMERAL SIX LATE FORM",
+            "U+2185",
+        ],
+        "body": [
+            "${1|ↅ,&#x2185;,U+2185,0x2185,ROMAN NUMERAL SIX LATE FORM|}$2",
+        ],
+        "description": [
+            "Code: U+2185",
+            "Character/Symbol: ↅ",
+            "Name: ROMAN NUMERAL SIX LATE FORM",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ↆ U+2186 ROMAN NUMERAL FIFTY EARLY FORM": 
+    {
+        "prefix": [
+            "..U.2186",
+            "..U.ROMAN NUMERAL FIFTY EARLY FORM",
+            "U+2186",
+        ],
+        "body": [
+            "${1|ↆ,&#x2186;,U+2186,0x2186,ROMAN NUMERAL FIFTY EARLY FORM|}$2",
+        ],
+        "description": [
+            "Code: U+2186",
+            "Character/Symbol: ↆ",
+            "Name: ROMAN NUMERAL FIFTY EARLY FORM",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ↇ U+2187 ROMAN NUMERAL FIFTY THOUSAND": 
+    {
+        "prefix": [
+            "..U.2187",
+            "..U.ROMAN NUMERAL FIFTY THOUSAND",
+            "U+2187",
+        ],
+        "body": [
+            "${1|ↇ,&#x2187;,U+2187,0x2187,ROMAN NUMERAL FIFTY THOUSAND|}$2",
+        ],
+        "description": [
+            "Code: U+2187",
+            "Character/Symbol: ↇ",
+            "Name: ROMAN NUMERAL FIFTY THOUSAND",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ↈ U+2188 ROMAN NUMERAL ONE HUNDRED THOUSAND": 
+    {
+        "prefix": [
+            "..U.2188",
+            "..U.ROMAN NUMERAL ONE HUNDRED THOUSAND",
+            "U+2188",
+        ],
+        "body": [
+            "${1|ↈ,&#x2188;,U+2188,0x2188,ROMAN NUMERAL ONE HUNDRED THOUSAND|}$2",
+        ],
+        "description": [
+            "Code: U+2188",
+            "Character/Symbol: ↈ",
+            "Name: ROMAN NUMERAL ONE HUNDRED THOUSAND",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ↉ U+2189 VULGAR FRACTION ZERO THIRDS": 
+    {
+        "prefix": [
+            "..U.2189",
+            "..U.VULGAR FRACTION ZERO THIRDS",
+            "U+2189",
+        ],
+        "body": [
+            "${1|↉,&#x2189;,U+2189,0x2189,VULGAR FRACTION ZERO THIRDS|}$2",
+        ],
+        "description": [
+            "Code: U+2189",
+            "Character/Symbol: ↉",
+            "Name: VULGAR FRACTION ZERO THIRDS",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ↊ U+218A TURNED DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.218A",
+            "..U.TURNED DIGIT TWO",
+            "U+218A",
+        ],
+        "body": [
+            "${1|↊,&#x218A;,U+218A,0x218A,TURNED DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+218A",
+            "Character/Symbol: ↊",
+            "Name: TURNED DIGIT TWO",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+    "Unicode ↋ U+218B TURNED DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.218B",
+            "..U.TURNED DIGIT THREE",
+            "U+218B",
+        ],
+        "body": [
+            "${1|↋,&#x218B;,U+218B,0x218B,TURNED DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+218B",
+            "Character/Symbol: ↋",
+            "Name: TURNED DIGIT THREE",
+            "Group/Block: Number_Forms",
+        ],
+    },
+
+}

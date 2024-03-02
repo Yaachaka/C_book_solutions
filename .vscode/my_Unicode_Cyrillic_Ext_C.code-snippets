@@ -1,0 +1,164 @@
+{
+    "Unicode ᲀ U+1C80 CYRILLIC SMALL LETTER ROUNDED VE": 
+    {
+        "prefix": [
+            "..U.1C80",
+            "..U.CYRILLIC SMALL LETTER ROUNDED VE",
+            "U+1C80",
+        ],
+        "body": [
+            "${1|ᲀ,&#x1C80;,U+1C80,0x1C80,CYRILLIC SMALL LETTER ROUNDED VE|}$2",
+        ],
+        "description": [
+            "Code: U+1C80",
+            "Character/Symbol: ᲀ",
+            "Name: CYRILLIC SMALL LETTER ROUNDED VE",
+            "Group/Block: Cyrillic_Ext_C",
+        ],
+    },
+
+    "Unicode ᲁ U+1C81 CYRILLIC SMALL LETTER LONG-LEGGED DE": 
+    {
+        "prefix": [
+            "..U.1C81",
+            "..U.CYRILLIC SMALL LETTER LONG-LEGGED DE",
+            "U+1C81",
+        ],
+        "body": [
+            "${1|ᲁ,&#x1C81;,U+1C81,0x1C81,CYRILLIC SMALL LETTER LONG-LEGGED DE|}$2",
+        ],
+        "description": [
+            "Code: U+1C81",
+            "Character/Symbol: ᲁ",
+            "Name: CYRILLIC SMALL LETTER LONG-LEGGED DE",
+            "Group/Block: Cyrillic_Ext_C",
+        ],
+    },
+
+    "Unicode ᲂ U+1C82 CYRILLIC SMALL LETTER NARROW O": 
+    {
+        "prefix": [
+            "..U.1C82",
+            "..U.CYRILLIC SMALL LETTER NARROW O",
+            "U+1C82",
+        ],
+        "body": [
+            "${1|ᲂ,&#x1C82;,U+1C82,0x1C82,CYRILLIC SMALL LETTER NARROW O|}$2",
+        ],
+        "description": [
+            "Code: U+1C82",
+            "Character/Symbol: ᲂ",
+            "Name: CYRILLIC SMALL LETTER NARROW O",
+            "Group/Block: Cyrillic_Ext_C",
+        ],
+    },
+
+    "Unicode ᲃ U+1C83 CYRILLIC SMALL LETTER WIDE ES": 
+    {
+        "prefix": [
+            "..U.1C83",
+            "..U.CYRILLIC SMALL LETTER WIDE ES",
+            "U+1C83",
+        ],
+        "body": [
+            "${1|ᲃ,&#x1C83;,U+1C83,0x1C83,CYRILLIC SMALL LETTER WIDE ES|}$2",
+        ],
+        "description": [
+            "Code: U+1C83",
+            "Character/Symbol: ᲃ",
+            "Name: CYRILLIC SMALL LETTER WIDE ES",
+            "Group/Block: Cyrillic_Ext_C",
+        ],
+    },
+
+    "Unicode ᲄ U+1C84 CYRILLIC SMALL LETTER TALL TE": 
+    {
+        "prefix": [
+            "..U.1C84",
+            "..U.CYRILLIC SMALL LETTER TALL TE",
+            "U+1C84",
+        ],
+        "body": [
+            "${1|ᲄ,&#x1C84;,U+1C84,0x1C84,CYRILLIC SMALL LETTER TALL TE|}$2",
+        ],
+        "description": [
+            "Code: U+1C84",
+            "Character/Symbol: ᲄ",
+            "Name: CYRILLIC SMALL LETTER TALL TE",
+            "Group/Block: Cyrillic_Ext_C",
+        ],
+    },
+
+    "Unicode ᲅ U+1C85 CYRILLIC SMALL LETTER THREE-LEGGED TE": 
+    {
+        "prefix": [
+            "..U.1C85",
+            "..U.CYRILLIC SMALL LETTER THREE-LEGGED TE",
+            "U+1C85",
+        ],
+        "body": [
+            "${1|ᲅ,&#x1C85;,U+1C85,0x1C85,CYRILLIC SMALL LETTER THREE-LEGGED TE|}$2",
+        ],
+        "description": [
+            "Code: U+1C85",
+            "Character/Symbol: ᲅ",
+            "Name: CYRILLIC SMALL LETTER THREE-LEGGED TE",
+            "Group/Block: Cyrillic_Ext_C",
+        ],
+    },
+
+    "Unicode ᲆ U+1C86 CYRILLIC SMALL LETTER TALL HARD SIGN": 
+    {
+        "prefix": [
+            "..U.1C86",
+            "..U.CYRILLIC SMALL LETTER TALL HARD SIGN",
+            "U+1C86",
+        ],
+        "body": [
+            "${1|ᲆ,&#x1C86;,U+1C86,0x1C86,CYRILLIC SMALL LETTER TALL HARD SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+1C86",
+            "Character/Symbol: ᲆ",
+            "Name: CYRILLIC SMALL LETTER TALL HARD SIGN",
+            "Group/Block: Cyrillic_Ext_C",
+        ],
+    },
+
+    "Unicode ᲇ U+1C87 CYRILLIC SMALL LETTER TALL YAT": 
+    {
+        "prefix": [
+            "..U.1C87",
+            "..U.CYRILLIC SMALL LETTER TALL YAT",
+            "U+1C87",
+        ],
+        "body": [
+            "${1|ᲇ,&#x1C87;,U+1C87,0x1C87,CYRILLIC SMALL LETTER TALL YAT|}$2",
+        ],
+        "description": [
+            "Code: U+1C87",
+            "Character/Symbol: ᲇ",
+            "Name: CYRILLIC SMALL LETTER TALL YAT",
+            "Group/Block: Cyrillic_Ext_C",
+        ],
+    },
+
+    "Unicode ᲈ U+1C88 CYRILLIC SMALL LETTER UNBLENDED UK": 
+    {
+        "prefix": [
+            "..U.1C88",
+            "..U.CYRILLIC SMALL LETTER UNBLENDED UK",
+            "U+1C88",
+        ],
+        "body": [
+            "${1|ᲈ,&#x1C88;,U+1C88,0x1C88,CYRILLIC SMALL LETTER UNBLENDED UK|}$2",
+        ],
+        "description": [
+            "Code: U+1C88",
+            "Character/Symbol: ᲈ",
+            "Name: CYRILLIC SMALL LETTER UNBLENDED UK",
+            "Group/Block: Cyrillic_Ext_C",
+        ],
+    },
+
+}

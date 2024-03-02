@@ -1,0 +1,1226 @@
+{
+    "Unicode 𐨀 U+10A00 KHAROSHTHI LETTER A": 
+    {
+        "prefix": [
+            "..U.10A00",
+            "..U.KHAROSHTHI LETTER A",
+            "U+10A00",
+        ],
+        "body": [
+            "${1|𐨀,&#x10A00;,U+10A00,0x10A00,KHAROSHTHI LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+10A00",
+            "Character/Symbol: 𐨀",
+            "Name: KHAROSHTHI LETTER A",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨁 U+10A01 KHAROSHTHI VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.10A01",
+            "..U.KHAROSHTHI VOWEL SIGN I",
+            "U+10A01",
+        ],
+        "body": [
+            "${1|𐨁,&#x10A01;,U+10A01,0x10A01,KHAROSHTHI VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+10A01",
+            "Character/Symbol: 𐨁",
+            "Name: KHAROSHTHI VOWEL SIGN I",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨂 U+10A02 KHAROSHTHI VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.10A02",
+            "..U.KHAROSHTHI VOWEL SIGN U",
+            "U+10A02",
+        ],
+        "body": [
+            "${1|𐨂,&#x10A02;,U+10A02,0x10A02,KHAROSHTHI VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+10A02",
+            "Character/Symbol: 𐨂",
+            "Name: KHAROSHTHI VOWEL SIGN U",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨃 U+10A03 KHAROSHTHI VOWEL SIGN VOCALIC R": 
+    {
+        "prefix": [
+            "..U.10A03",
+            "..U.KHAROSHTHI VOWEL SIGN VOCALIC R",
+            "U+10A03",
+        ],
+        "body": [
+            "${1|𐨃,&#x10A03;,U+10A03,0x10A03,KHAROSHTHI VOWEL SIGN VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+10A03",
+            "Character/Symbol: 𐨃",
+            "Name: KHAROSHTHI VOWEL SIGN VOCALIC R",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨅 U+10A05 KHAROSHTHI VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.10A05",
+            "..U.KHAROSHTHI VOWEL SIGN E",
+            "U+10A05",
+        ],
+        "body": [
+            "${1|𐨅,&#x10A05;,U+10A05,0x10A05,KHAROSHTHI VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+10A05",
+            "Character/Symbol: 𐨅",
+            "Name: KHAROSHTHI VOWEL SIGN E",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨆 U+10A06 KHAROSHTHI VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.10A06",
+            "..U.KHAROSHTHI VOWEL SIGN O",
+            "U+10A06",
+        ],
+        "body": [
+            "${1|𐨆,&#x10A06;,U+10A06,0x10A06,KHAROSHTHI VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+10A06",
+            "Character/Symbol: 𐨆",
+            "Name: KHAROSHTHI VOWEL SIGN O",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨌 U+10A0C KHAROSHTHI VOWEL LENGTH MARK": 
+    {
+        "prefix": [
+            "..U.10A0C",
+            "..U.KHAROSHTHI VOWEL LENGTH MARK",
+            "U+10A0C",
+        ],
+        "body": [
+            "${1|𐨌,&#x10A0C;,U+10A0C,0x10A0C,KHAROSHTHI VOWEL LENGTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+10A0C",
+            "Character/Symbol: 𐨌",
+            "Name: KHAROSHTHI VOWEL LENGTH MARK",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨍 U+10A0D KHAROSHTHI SIGN DOUBLE RING BELOW": 
+    {
+        "prefix": [
+            "..U.10A0D",
+            "..U.KHAROSHTHI SIGN DOUBLE RING BELOW",
+            "U+10A0D",
+        ],
+        "body": [
+            "${1|𐨍,&#x10A0D;,U+10A0D,0x10A0D,KHAROSHTHI SIGN DOUBLE RING BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+10A0D",
+            "Character/Symbol: 𐨍",
+            "Name: KHAROSHTHI SIGN DOUBLE RING BELOW",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨎 U+10A0E KHAROSHTHI SIGN ANUSVARA": 
+    {
+        "prefix": [
+            "..U.10A0E",
+            "..U.KHAROSHTHI SIGN ANUSVARA",
+            "U+10A0E",
+        ],
+        "body": [
+            "${1|𐨎,&#x10A0E;,U+10A0E,0x10A0E,KHAROSHTHI SIGN ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+10A0E",
+            "Character/Symbol: 𐨎",
+            "Name: KHAROSHTHI SIGN ANUSVARA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨏 U+10A0F KHAROSHTHI SIGN VISARGA": 
+    {
+        "prefix": [
+            "..U.10A0F",
+            "..U.KHAROSHTHI SIGN VISARGA",
+            "U+10A0F",
+        ],
+        "body": [
+            "${1|𐨏,&#x10A0F;,U+10A0F,0x10A0F,KHAROSHTHI SIGN VISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+10A0F",
+            "Character/Symbol: 𐨏",
+            "Name: KHAROSHTHI SIGN VISARGA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨐 U+10A10 KHAROSHTHI LETTER KA": 
+    {
+        "prefix": [
+            "..U.10A10",
+            "..U.KHAROSHTHI LETTER KA",
+            "U+10A10",
+        ],
+        "body": [
+            "${1|𐨐,&#x10A10;,U+10A10,0x10A10,KHAROSHTHI LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+10A10",
+            "Character/Symbol: 𐨐",
+            "Name: KHAROSHTHI LETTER KA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨑 U+10A11 KHAROSHTHI LETTER KHA": 
+    {
+        "prefix": [
+            "..U.10A11",
+            "..U.KHAROSHTHI LETTER KHA",
+            "U+10A11",
+        ],
+        "body": [
+            "${1|𐨑,&#x10A11;,U+10A11,0x10A11,KHAROSHTHI LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+10A11",
+            "Character/Symbol: 𐨑",
+            "Name: KHAROSHTHI LETTER KHA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨒 U+10A12 KHAROSHTHI LETTER GA": 
+    {
+        "prefix": [
+            "..U.10A12",
+            "..U.KHAROSHTHI LETTER GA",
+            "U+10A12",
+        ],
+        "body": [
+            "${1|𐨒,&#x10A12;,U+10A12,0x10A12,KHAROSHTHI LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+10A12",
+            "Character/Symbol: 𐨒",
+            "Name: KHAROSHTHI LETTER GA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨓 U+10A13 KHAROSHTHI LETTER GHA": 
+    {
+        "prefix": [
+            "..U.10A13",
+            "..U.KHAROSHTHI LETTER GHA",
+            "U+10A13",
+        ],
+        "body": [
+            "${1|𐨓,&#x10A13;,U+10A13,0x10A13,KHAROSHTHI LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+10A13",
+            "Character/Symbol: 𐨓",
+            "Name: KHAROSHTHI LETTER GHA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨕 U+10A15 KHAROSHTHI LETTER CA": 
+    {
+        "prefix": [
+            "..U.10A15",
+            "..U.KHAROSHTHI LETTER CA",
+            "U+10A15",
+        ],
+        "body": [
+            "${1|𐨕,&#x10A15;,U+10A15,0x10A15,KHAROSHTHI LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+10A15",
+            "Character/Symbol: 𐨕",
+            "Name: KHAROSHTHI LETTER CA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨖 U+10A16 KHAROSHTHI LETTER CHA": 
+    {
+        "prefix": [
+            "..U.10A16",
+            "..U.KHAROSHTHI LETTER CHA",
+            "U+10A16",
+        ],
+        "body": [
+            "${1|𐨖,&#x10A16;,U+10A16,0x10A16,KHAROSHTHI LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+10A16",
+            "Character/Symbol: 𐨖",
+            "Name: KHAROSHTHI LETTER CHA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨗 U+10A17 KHAROSHTHI LETTER JA": 
+    {
+        "prefix": [
+            "..U.10A17",
+            "..U.KHAROSHTHI LETTER JA",
+            "U+10A17",
+        ],
+        "body": [
+            "${1|𐨗,&#x10A17;,U+10A17,0x10A17,KHAROSHTHI LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+10A17",
+            "Character/Symbol: 𐨗",
+            "Name: KHAROSHTHI LETTER JA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨙 U+10A19 KHAROSHTHI LETTER NYA": 
+    {
+        "prefix": [
+            "..U.10A19",
+            "..U.KHAROSHTHI LETTER NYA",
+            "U+10A19",
+        ],
+        "body": [
+            "${1|𐨙,&#x10A19;,U+10A19,0x10A19,KHAROSHTHI LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+10A19",
+            "Character/Symbol: 𐨙",
+            "Name: KHAROSHTHI LETTER NYA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨚 U+10A1A KHAROSHTHI LETTER TTA": 
+    {
+        "prefix": [
+            "..U.10A1A",
+            "..U.KHAROSHTHI LETTER TTA",
+            "U+10A1A",
+        ],
+        "body": [
+            "${1|𐨚,&#x10A1A;,U+10A1A,0x10A1A,KHAROSHTHI LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+10A1A",
+            "Character/Symbol: 𐨚",
+            "Name: KHAROSHTHI LETTER TTA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨛 U+10A1B KHAROSHTHI LETTER TTHA": 
+    {
+        "prefix": [
+            "..U.10A1B",
+            "..U.KHAROSHTHI LETTER TTHA",
+            "U+10A1B",
+        ],
+        "body": [
+            "${1|𐨛,&#x10A1B;,U+10A1B,0x10A1B,KHAROSHTHI LETTER TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+10A1B",
+            "Character/Symbol: 𐨛",
+            "Name: KHAROSHTHI LETTER TTHA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨜 U+10A1C KHAROSHTHI LETTER DDA": 
+    {
+        "prefix": [
+            "..U.10A1C",
+            "..U.KHAROSHTHI LETTER DDA",
+            "U+10A1C",
+        ],
+        "body": [
+            "${1|𐨜,&#x10A1C;,U+10A1C,0x10A1C,KHAROSHTHI LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+10A1C",
+            "Character/Symbol: 𐨜",
+            "Name: KHAROSHTHI LETTER DDA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨝 U+10A1D KHAROSHTHI LETTER DDHA": 
+    {
+        "prefix": [
+            "..U.10A1D",
+            "..U.KHAROSHTHI LETTER DDHA",
+            "U+10A1D",
+        ],
+        "body": [
+            "${1|𐨝,&#x10A1D;,U+10A1D,0x10A1D,KHAROSHTHI LETTER DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+10A1D",
+            "Character/Symbol: 𐨝",
+            "Name: KHAROSHTHI LETTER DDHA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨞 U+10A1E KHAROSHTHI LETTER NNA": 
+    {
+        "prefix": [
+            "..U.10A1E",
+            "..U.KHAROSHTHI LETTER NNA",
+            "U+10A1E",
+        ],
+        "body": [
+            "${1|𐨞,&#x10A1E;,U+10A1E,0x10A1E,KHAROSHTHI LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+10A1E",
+            "Character/Symbol: 𐨞",
+            "Name: KHAROSHTHI LETTER NNA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨟 U+10A1F KHAROSHTHI LETTER TA": 
+    {
+        "prefix": [
+            "..U.10A1F",
+            "..U.KHAROSHTHI LETTER TA",
+            "U+10A1F",
+        ],
+        "body": [
+            "${1|𐨟,&#x10A1F;,U+10A1F,0x10A1F,KHAROSHTHI LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+10A1F",
+            "Character/Symbol: 𐨟",
+            "Name: KHAROSHTHI LETTER TA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨠 U+10A20 KHAROSHTHI LETTER THA": 
+    {
+        "prefix": [
+            "..U.10A20",
+            "..U.KHAROSHTHI LETTER THA",
+            "U+10A20",
+        ],
+        "body": [
+            "${1|𐨠,&#x10A20;,U+10A20,0x10A20,KHAROSHTHI LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+10A20",
+            "Character/Symbol: 𐨠",
+            "Name: KHAROSHTHI LETTER THA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨡 U+10A21 KHAROSHTHI LETTER DA": 
+    {
+        "prefix": [
+            "..U.10A21",
+            "..U.KHAROSHTHI LETTER DA",
+            "U+10A21",
+        ],
+        "body": [
+            "${1|𐨡,&#x10A21;,U+10A21,0x10A21,KHAROSHTHI LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+10A21",
+            "Character/Symbol: 𐨡",
+            "Name: KHAROSHTHI LETTER DA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨢 U+10A22 KHAROSHTHI LETTER DHA": 
+    {
+        "prefix": [
+            "..U.10A22",
+            "..U.KHAROSHTHI LETTER DHA",
+            "U+10A22",
+        ],
+        "body": [
+            "${1|𐨢,&#x10A22;,U+10A22,0x10A22,KHAROSHTHI LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+10A22",
+            "Character/Symbol: 𐨢",
+            "Name: KHAROSHTHI LETTER DHA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨣 U+10A23 KHAROSHTHI LETTER NA": 
+    {
+        "prefix": [
+            "..U.10A23",
+            "..U.KHAROSHTHI LETTER NA",
+            "U+10A23",
+        ],
+        "body": [
+            "${1|𐨣,&#x10A23;,U+10A23,0x10A23,KHAROSHTHI LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+10A23",
+            "Character/Symbol: 𐨣",
+            "Name: KHAROSHTHI LETTER NA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨤 U+10A24 KHAROSHTHI LETTER PA": 
+    {
+        "prefix": [
+            "..U.10A24",
+            "..U.KHAROSHTHI LETTER PA",
+            "U+10A24",
+        ],
+        "body": [
+            "${1|𐨤,&#x10A24;,U+10A24,0x10A24,KHAROSHTHI LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+10A24",
+            "Character/Symbol: 𐨤",
+            "Name: KHAROSHTHI LETTER PA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨥 U+10A25 KHAROSHTHI LETTER PHA": 
+    {
+        "prefix": [
+            "..U.10A25",
+            "..U.KHAROSHTHI LETTER PHA",
+            "U+10A25",
+        ],
+        "body": [
+            "${1|𐨥,&#x10A25;,U+10A25,0x10A25,KHAROSHTHI LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+10A25",
+            "Character/Symbol: 𐨥",
+            "Name: KHAROSHTHI LETTER PHA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨦 U+10A26 KHAROSHTHI LETTER BA": 
+    {
+        "prefix": [
+            "..U.10A26",
+            "..U.KHAROSHTHI LETTER BA",
+            "U+10A26",
+        ],
+        "body": [
+            "${1|𐨦,&#x10A26;,U+10A26,0x10A26,KHAROSHTHI LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+10A26",
+            "Character/Symbol: 𐨦",
+            "Name: KHAROSHTHI LETTER BA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨧 U+10A27 KHAROSHTHI LETTER BHA": 
+    {
+        "prefix": [
+            "..U.10A27",
+            "..U.KHAROSHTHI LETTER BHA",
+            "U+10A27",
+        ],
+        "body": [
+            "${1|𐨧,&#x10A27;,U+10A27,0x10A27,KHAROSHTHI LETTER BHA|}$2",
+        ],
+        "description": [
+            "Code: U+10A27",
+            "Character/Symbol: 𐨧",
+            "Name: KHAROSHTHI LETTER BHA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨨 U+10A28 KHAROSHTHI LETTER MA": 
+    {
+        "prefix": [
+            "..U.10A28",
+            "..U.KHAROSHTHI LETTER MA",
+            "U+10A28",
+        ],
+        "body": [
+            "${1|𐨨,&#x10A28;,U+10A28,0x10A28,KHAROSHTHI LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+10A28",
+            "Character/Symbol: 𐨨",
+            "Name: KHAROSHTHI LETTER MA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨩 U+10A29 KHAROSHTHI LETTER YA": 
+    {
+        "prefix": [
+            "..U.10A29",
+            "..U.KHAROSHTHI LETTER YA",
+            "U+10A29",
+        ],
+        "body": [
+            "${1|𐨩,&#x10A29;,U+10A29,0x10A29,KHAROSHTHI LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+10A29",
+            "Character/Symbol: 𐨩",
+            "Name: KHAROSHTHI LETTER YA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨪 U+10A2A KHAROSHTHI LETTER RA": 
+    {
+        "prefix": [
+            "..U.10A2A",
+            "..U.KHAROSHTHI LETTER RA",
+            "U+10A2A",
+        ],
+        "body": [
+            "${1|𐨪,&#x10A2A;,U+10A2A,0x10A2A,KHAROSHTHI LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+10A2A",
+            "Character/Symbol: 𐨪",
+            "Name: KHAROSHTHI LETTER RA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨫 U+10A2B KHAROSHTHI LETTER LA": 
+    {
+        "prefix": [
+            "..U.10A2B",
+            "..U.KHAROSHTHI LETTER LA",
+            "U+10A2B",
+        ],
+        "body": [
+            "${1|𐨫,&#x10A2B;,U+10A2B,0x10A2B,KHAROSHTHI LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+10A2B",
+            "Character/Symbol: 𐨫",
+            "Name: KHAROSHTHI LETTER LA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨬 U+10A2C KHAROSHTHI LETTER VA": 
+    {
+        "prefix": [
+            "..U.10A2C",
+            "..U.KHAROSHTHI LETTER VA",
+            "U+10A2C",
+        ],
+        "body": [
+            "${1|𐨬,&#x10A2C;,U+10A2C,0x10A2C,KHAROSHTHI LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+10A2C",
+            "Character/Symbol: 𐨬",
+            "Name: KHAROSHTHI LETTER VA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨭 U+10A2D KHAROSHTHI LETTER SHA": 
+    {
+        "prefix": [
+            "..U.10A2D",
+            "..U.KHAROSHTHI LETTER SHA",
+            "U+10A2D",
+        ],
+        "body": [
+            "${1|𐨭,&#x10A2D;,U+10A2D,0x10A2D,KHAROSHTHI LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+10A2D",
+            "Character/Symbol: 𐨭",
+            "Name: KHAROSHTHI LETTER SHA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨮 U+10A2E KHAROSHTHI LETTER SSA": 
+    {
+        "prefix": [
+            "..U.10A2E",
+            "..U.KHAROSHTHI LETTER SSA",
+            "U+10A2E",
+        ],
+        "body": [
+            "${1|𐨮,&#x10A2E;,U+10A2E,0x10A2E,KHAROSHTHI LETTER SSA|}$2",
+        ],
+        "description": [
+            "Code: U+10A2E",
+            "Character/Symbol: 𐨮",
+            "Name: KHAROSHTHI LETTER SSA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨯 U+10A2F KHAROSHTHI LETTER SA": 
+    {
+        "prefix": [
+            "..U.10A2F",
+            "..U.KHAROSHTHI LETTER SA",
+            "U+10A2F",
+        ],
+        "body": [
+            "${1|𐨯,&#x10A2F;,U+10A2F,0x10A2F,KHAROSHTHI LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+10A2F",
+            "Character/Symbol: 𐨯",
+            "Name: KHAROSHTHI LETTER SA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨰 U+10A30 KHAROSHTHI LETTER ZA": 
+    {
+        "prefix": [
+            "..U.10A30",
+            "..U.KHAROSHTHI LETTER ZA",
+            "U+10A30",
+        ],
+        "body": [
+            "${1|𐨰,&#x10A30;,U+10A30,0x10A30,KHAROSHTHI LETTER ZA|}$2",
+        ],
+        "description": [
+            "Code: U+10A30",
+            "Character/Symbol: 𐨰",
+            "Name: KHAROSHTHI LETTER ZA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨱 U+10A31 KHAROSHTHI LETTER HA": 
+    {
+        "prefix": [
+            "..U.10A31",
+            "..U.KHAROSHTHI LETTER HA",
+            "U+10A31",
+        ],
+        "body": [
+            "${1|𐨱,&#x10A31;,U+10A31,0x10A31,KHAROSHTHI LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+10A31",
+            "Character/Symbol: 𐨱",
+            "Name: KHAROSHTHI LETTER HA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨲 U+10A32 KHAROSHTHI LETTER KKA": 
+    {
+        "prefix": [
+            "..U.10A32",
+            "..U.KHAROSHTHI LETTER KKA",
+            "U+10A32",
+        ],
+        "body": [
+            "${1|𐨲,&#x10A32;,U+10A32,0x10A32,KHAROSHTHI LETTER KKA|}$2",
+        ],
+        "description": [
+            "Code: U+10A32",
+            "Character/Symbol: 𐨲",
+            "Name: KHAROSHTHI LETTER KKA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨳 U+10A33 KHAROSHTHI LETTER TTTHA": 
+    {
+        "prefix": [
+            "..U.10A33",
+            "..U.KHAROSHTHI LETTER TTTHA",
+            "U+10A33",
+        ],
+        "body": [
+            "${1|𐨳,&#x10A33;,U+10A33,0x10A33,KHAROSHTHI LETTER TTTHA|}$2",
+        ],
+        "description": [
+            "Code: U+10A33",
+            "Character/Symbol: 𐨳",
+            "Name: KHAROSHTHI LETTER TTTHA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨴 U+10A34 KHAROSHTHI LETTER TTTA": 
+    {
+        "prefix": [
+            "..U.10A34",
+            "..U.KHAROSHTHI LETTER TTTA",
+            "U+10A34",
+        ],
+        "body": [
+            "${1|𐨴,&#x10A34;,U+10A34,0x10A34,KHAROSHTHI LETTER TTTA|}$2",
+        ],
+        "description": [
+            "Code: U+10A34",
+            "Character/Symbol: 𐨴",
+            "Name: KHAROSHTHI LETTER TTTA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨵 U+10A35 KHAROSHTHI LETTER VHA": 
+    {
+        "prefix": [
+            "..U.10A35",
+            "..U.KHAROSHTHI LETTER VHA",
+            "U+10A35",
+        ],
+        "body": [
+            "${1|𐨵,&#x10A35;,U+10A35,0x10A35,KHAROSHTHI LETTER VHA|}$2",
+        ],
+        "description": [
+            "Code: U+10A35",
+            "Character/Symbol: 𐨵",
+            "Name: KHAROSHTHI LETTER VHA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨸 U+10A38 KHAROSHTHI SIGN BAR ABOVE": 
+    {
+        "prefix": [
+            "..U.10A38",
+            "..U.KHAROSHTHI SIGN BAR ABOVE",
+            "U+10A38",
+        ],
+        "body": [
+            "${1|𐨸,&#x10A38;,U+10A38,0x10A38,KHAROSHTHI SIGN BAR ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+10A38",
+            "Character/Symbol: 𐨸",
+            "Name: KHAROSHTHI SIGN BAR ABOVE",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨹 U+10A39 KHAROSHTHI SIGN CAUDA": 
+    {
+        "prefix": [
+            "..U.10A39",
+            "..U.KHAROSHTHI SIGN CAUDA",
+            "U+10A39",
+        ],
+        "body": [
+            "${1|𐨹,&#x10A39;,U+10A39,0x10A39,KHAROSHTHI SIGN CAUDA|}$2",
+        ],
+        "description": [
+            "Code: U+10A39",
+            "Character/Symbol: 𐨹",
+            "Name: KHAROSHTHI SIGN CAUDA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨺 U+10A3A KHAROSHTHI SIGN DOT BELOW": 
+    {
+        "prefix": [
+            "..U.10A3A",
+            "..U.KHAROSHTHI SIGN DOT BELOW",
+            "U+10A3A",
+        ],
+        "body": [
+            "${1|𐨺,&#x10A3A;,U+10A3A,0x10A3A,KHAROSHTHI SIGN DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+10A3A",
+            "Character/Symbol: 𐨺",
+            "Name: KHAROSHTHI SIGN DOT BELOW",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐨿 U+10A3F KHAROSHTHI VIRAMA": 
+    {
+        "prefix": [
+            "..U.10A3F",
+            "..U.KHAROSHTHI VIRAMA",
+            "U+10A3F",
+        ],
+        "body": [
+            "${1|𐨿,&#x10A3F;,U+10A3F,0x10A3F,KHAROSHTHI VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+10A3F",
+            "Character/Symbol: 𐨿",
+            "Name: KHAROSHTHI VIRAMA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩀 U+10A40 KHAROSHTHI DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.10A40",
+            "..U.KHAROSHTHI DIGIT ONE",
+            "U+10A40",
+        ],
+        "body": [
+            "${1|𐩀,&#x10A40;,U+10A40,0x10A40,KHAROSHTHI DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+10A40",
+            "Character/Symbol: 𐩀",
+            "Name: KHAROSHTHI DIGIT ONE",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩁 U+10A41 KHAROSHTHI DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.10A41",
+            "..U.KHAROSHTHI DIGIT TWO",
+            "U+10A41",
+        ],
+        "body": [
+            "${1|𐩁,&#x10A41;,U+10A41,0x10A41,KHAROSHTHI DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+10A41",
+            "Character/Symbol: 𐩁",
+            "Name: KHAROSHTHI DIGIT TWO",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩂 U+10A42 KHAROSHTHI DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.10A42",
+            "..U.KHAROSHTHI DIGIT THREE",
+            "U+10A42",
+        ],
+        "body": [
+            "${1|𐩂,&#x10A42;,U+10A42,0x10A42,KHAROSHTHI DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+10A42",
+            "Character/Symbol: 𐩂",
+            "Name: KHAROSHTHI DIGIT THREE",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩃 U+10A43 KHAROSHTHI DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.10A43",
+            "..U.KHAROSHTHI DIGIT FOUR",
+            "U+10A43",
+        ],
+        "body": [
+            "${1|𐩃,&#x10A43;,U+10A43,0x10A43,KHAROSHTHI DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+10A43",
+            "Character/Symbol: 𐩃",
+            "Name: KHAROSHTHI DIGIT FOUR",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩄 U+10A44 KHAROSHTHI NUMBER TEN": 
+    {
+        "prefix": [
+            "..U.10A44",
+            "..U.KHAROSHTHI NUMBER TEN",
+            "U+10A44",
+        ],
+        "body": [
+            "${1|𐩄,&#x10A44;,U+10A44,0x10A44,KHAROSHTHI NUMBER TEN|}$2",
+        ],
+        "description": [
+            "Code: U+10A44",
+            "Character/Symbol: 𐩄",
+            "Name: KHAROSHTHI NUMBER TEN",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩅 U+10A45 KHAROSHTHI NUMBER TWENTY": 
+    {
+        "prefix": [
+            "..U.10A45",
+            "..U.KHAROSHTHI NUMBER TWENTY",
+            "U+10A45",
+        ],
+        "body": [
+            "${1|𐩅,&#x10A45;,U+10A45,0x10A45,KHAROSHTHI NUMBER TWENTY|}$2",
+        ],
+        "description": [
+            "Code: U+10A45",
+            "Character/Symbol: 𐩅",
+            "Name: KHAROSHTHI NUMBER TWENTY",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩆 U+10A46 KHAROSHTHI NUMBER ONE HUNDRED": 
+    {
+        "prefix": [
+            "..U.10A46",
+            "..U.KHAROSHTHI NUMBER ONE HUNDRED",
+            "U+10A46",
+        ],
+        "body": [
+            "${1|𐩆,&#x10A46;,U+10A46,0x10A46,KHAROSHTHI NUMBER ONE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+10A46",
+            "Character/Symbol: 𐩆",
+            "Name: KHAROSHTHI NUMBER ONE HUNDRED",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩇 U+10A47 KHAROSHTHI NUMBER ONE THOUSAND": 
+    {
+        "prefix": [
+            "..U.10A47",
+            "..U.KHAROSHTHI NUMBER ONE THOUSAND",
+            "U+10A47",
+        ],
+        "body": [
+            "${1|𐩇,&#x10A47;,U+10A47,0x10A47,KHAROSHTHI NUMBER ONE THOUSAND|}$2",
+        ],
+        "description": [
+            "Code: U+10A47",
+            "Character/Symbol: 𐩇",
+            "Name: KHAROSHTHI NUMBER ONE THOUSAND",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩈 U+10A48 KHAROSHTHI FRACTION ONE HALF": 
+    {
+        "prefix": [
+            "..U.10A48",
+            "..U.KHAROSHTHI FRACTION ONE HALF",
+            "U+10A48",
+        ],
+        "body": [
+            "${1|𐩈,&#x10A48;,U+10A48,0x10A48,KHAROSHTHI FRACTION ONE HALF|}$2",
+        ],
+        "description": [
+            "Code: U+10A48",
+            "Character/Symbol: 𐩈",
+            "Name: KHAROSHTHI FRACTION ONE HALF",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩐 U+10A50 KHAROSHTHI PUNCTUATION DOT": 
+    {
+        "prefix": [
+            "..U.10A50",
+            "..U.KHAROSHTHI PUNCTUATION DOT",
+            "U+10A50",
+        ],
+        "body": [
+            "${1|𐩐,&#x10A50;,U+10A50,0x10A50,KHAROSHTHI PUNCTUATION DOT|}$2",
+        ],
+        "description": [
+            "Code: U+10A50",
+            "Character/Symbol: 𐩐",
+            "Name: KHAROSHTHI PUNCTUATION DOT",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩑 U+10A51 KHAROSHTHI PUNCTUATION SMALL CIRCLE": 
+    {
+        "prefix": [
+            "..U.10A51",
+            "..U.KHAROSHTHI PUNCTUATION SMALL CIRCLE",
+            "U+10A51",
+        ],
+        "body": [
+            "${1|𐩑,&#x10A51;,U+10A51,0x10A51,KHAROSHTHI PUNCTUATION SMALL CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+10A51",
+            "Character/Symbol: 𐩑",
+            "Name: KHAROSHTHI PUNCTUATION SMALL CIRCLE",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩒 U+10A52 KHAROSHTHI PUNCTUATION CIRCLE": 
+    {
+        "prefix": [
+            "..U.10A52",
+            "..U.KHAROSHTHI PUNCTUATION CIRCLE",
+            "U+10A52",
+        ],
+        "body": [
+            "${1|𐩒,&#x10A52;,U+10A52,0x10A52,KHAROSHTHI PUNCTUATION CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+10A52",
+            "Character/Symbol: 𐩒",
+            "Name: KHAROSHTHI PUNCTUATION CIRCLE",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩓 U+10A53 KHAROSHTHI PUNCTUATION CRESCENT BAR": 
+    {
+        "prefix": [
+            "..U.10A53",
+            "..U.KHAROSHTHI PUNCTUATION CRESCENT BAR",
+            "U+10A53",
+        ],
+        "body": [
+            "${1|𐩓,&#x10A53;,U+10A53,0x10A53,KHAROSHTHI PUNCTUATION CRESCENT BAR|}$2",
+        ],
+        "description": [
+            "Code: U+10A53",
+            "Character/Symbol: 𐩓",
+            "Name: KHAROSHTHI PUNCTUATION CRESCENT BAR",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩔 U+10A54 KHAROSHTHI PUNCTUATION MANGALAM": 
+    {
+        "prefix": [
+            "..U.10A54",
+            "..U.KHAROSHTHI PUNCTUATION MANGALAM",
+            "U+10A54",
+        ],
+        "body": [
+            "${1|𐩔,&#x10A54;,U+10A54,0x10A54,KHAROSHTHI PUNCTUATION MANGALAM|}$2",
+        ],
+        "description": [
+            "Code: U+10A54",
+            "Character/Symbol: 𐩔",
+            "Name: KHAROSHTHI PUNCTUATION MANGALAM",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩕 U+10A55 KHAROSHTHI PUNCTUATION LOTUS": 
+    {
+        "prefix": [
+            "..U.10A55",
+            "..U.KHAROSHTHI PUNCTUATION LOTUS",
+            "U+10A55",
+        ],
+        "body": [
+            "${1|𐩕,&#x10A55;,U+10A55,0x10A55,KHAROSHTHI PUNCTUATION LOTUS|}$2",
+        ],
+        "description": [
+            "Code: U+10A55",
+            "Character/Symbol: 𐩕",
+            "Name: KHAROSHTHI PUNCTUATION LOTUS",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩖 U+10A56 KHAROSHTHI PUNCTUATION DANDA": 
+    {
+        "prefix": [
+            "..U.10A56",
+            "..U.KHAROSHTHI PUNCTUATION DANDA",
+            "U+10A56",
+        ],
+        "body": [
+            "${1|𐩖,&#x10A56;,U+10A56,0x10A56,KHAROSHTHI PUNCTUATION DANDA|}$2",
+        ],
+        "description": [
+            "Code: U+10A56",
+            "Character/Symbol: 𐩖",
+            "Name: KHAROSHTHI PUNCTUATION DANDA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩗 U+10A57 KHAROSHTHI PUNCTUATION DOUBLE DANDA": 
+    {
+        "prefix": [
+            "..U.10A57",
+            "..U.KHAROSHTHI PUNCTUATION DOUBLE DANDA",
+            "U+10A57",
+        ],
+        "body": [
+            "${1|𐩗,&#x10A57;,U+10A57,0x10A57,KHAROSHTHI PUNCTUATION DOUBLE DANDA|}$2",
+        ],
+        "description": [
+            "Code: U+10A57",
+            "Character/Symbol: 𐩗",
+            "Name: KHAROSHTHI PUNCTUATION DOUBLE DANDA",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+    "Unicode 𐩘 U+10A58 KHAROSHTHI PUNCTUATION LINES": 
+    {
+        "prefix": [
+            "..U.10A58",
+            "..U.KHAROSHTHI PUNCTUATION LINES",
+            "U+10A58",
+        ],
+        "body": [
+            "${1|𐩘,&#x10A58;,U+10A58,0x10A58,KHAROSHTHI PUNCTUATION LINES|}$2",
+        ],
+        "description": [
+            "Code: U+10A58",
+            "Character/Symbol: 𐩘",
+            "Name: KHAROSHTHI PUNCTUATION LINES",
+            "Group/Block: Kharoshthi",
+        ],
+    },
+
+}

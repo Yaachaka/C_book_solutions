@@ -1,0 +1,1046 @@
+{
+    "Unicode ﬀ U+FB00 LATIN SMALL LIGATURE FF": 
+    {
+        "prefix": [
+            "..U.FB00",
+            "..U.LATIN SMALL LIGATURE FF",
+            "U+FB00",
+        ],
+        "body": [
+            "${1|ﬀ,&#xFB00;,U+FB00,0xFB00,LATIN SMALL LIGATURE FF|}$2",
+        ],
+        "description": [
+            "Code: U+FB00",
+            "Character/Symbol: ﬀ",
+            "Name: LATIN SMALL LIGATURE FF",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬁ U+FB01 LATIN SMALL LIGATURE FI": 
+    {
+        "prefix": [
+            "..U.FB01",
+            "..U.LATIN SMALL LIGATURE FI",
+            "U+FB01",
+        ],
+        "body": [
+            "${1|ﬁ,&#xFB01;,U+FB01,0xFB01,LATIN SMALL LIGATURE FI|}$2",
+        ],
+        "description": [
+            "Code: U+FB01",
+            "Character/Symbol: ﬁ",
+            "Name: LATIN SMALL LIGATURE FI",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬂ U+FB02 LATIN SMALL LIGATURE FL": 
+    {
+        "prefix": [
+            "..U.FB02",
+            "..U.LATIN SMALL LIGATURE FL",
+            "U+FB02",
+        ],
+        "body": [
+            "${1|ﬂ,&#xFB02;,U+FB02,0xFB02,LATIN SMALL LIGATURE FL|}$2",
+        ],
+        "description": [
+            "Code: U+FB02",
+            "Character/Symbol: ﬂ",
+            "Name: LATIN SMALL LIGATURE FL",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬃ U+FB03 LATIN SMALL LIGATURE FFI": 
+    {
+        "prefix": [
+            "..U.FB03",
+            "..U.LATIN SMALL LIGATURE FFI",
+            "U+FB03",
+        ],
+        "body": [
+            "${1|ﬃ,&#xFB03;,U+FB03,0xFB03,LATIN SMALL LIGATURE FFI|}$2",
+        ],
+        "description": [
+            "Code: U+FB03",
+            "Character/Symbol: ﬃ",
+            "Name: LATIN SMALL LIGATURE FFI",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬄ U+FB04 LATIN SMALL LIGATURE FFL": 
+    {
+        "prefix": [
+            "..U.FB04",
+            "..U.LATIN SMALL LIGATURE FFL",
+            "U+FB04",
+        ],
+        "body": [
+            "${1|ﬄ,&#xFB04;,U+FB04,0xFB04,LATIN SMALL LIGATURE FFL|}$2",
+        ],
+        "description": [
+            "Code: U+FB04",
+            "Character/Symbol: ﬄ",
+            "Name: LATIN SMALL LIGATURE FFL",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬅ U+FB05 LATIN SMALL LIGATURE LONG S T": 
+    {
+        "prefix": [
+            "..U.FB05",
+            "..U.LATIN SMALL LIGATURE LONG S T",
+            "U+FB05",
+        ],
+        "body": [
+            "${1|ﬅ,&#xFB05;,U+FB05,0xFB05,LATIN SMALL LIGATURE LONG S T|}$2",
+        ],
+        "description": [
+            "Code: U+FB05",
+            "Character/Symbol: ﬅ",
+            "Name: LATIN SMALL LIGATURE LONG S T",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬆ U+FB06 LATIN SMALL LIGATURE ST": 
+    {
+        "prefix": [
+            "..U.FB06",
+            "..U.LATIN SMALL LIGATURE ST",
+            "U+FB06",
+        ],
+        "body": [
+            "${1|ﬆ,&#xFB06;,U+FB06,0xFB06,LATIN SMALL LIGATURE ST|}$2",
+        ],
+        "description": [
+            "Code: U+FB06",
+            "Character/Symbol: ﬆ",
+            "Name: LATIN SMALL LIGATURE ST",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬓ U+FB13 ARMENIAN SMALL LIGATURE MEN NOW": 
+    {
+        "prefix": [
+            "..U.FB13",
+            "..U.ARMENIAN SMALL LIGATURE MEN NOW",
+            "U+FB13",
+        ],
+        "body": [
+            "${1|ﬓ,&#xFB13;,U+FB13,0xFB13,ARMENIAN SMALL LIGATURE MEN NOW|}$2",
+        ],
+        "description": [
+            "Code: U+FB13",
+            "Character/Symbol: ﬓ",
+            "Name: ARMENIAN SMALL LIGATURE MEN NOW",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬔ U+FB14 ARMENIAN SMALL LIGATURE MEN ECH": 
+    {
+        "prefix": [
+            "..U.FB14",
+            "..U.ARMENIAN SMALL LIGATURE MEN ECH",
+            "U+FB14",
+        ],
+        "body": [
+            "${1|ﬔ,&#xFB14;,U+FB14,0xFB14,ARMENIAN SMALL LIGATURE MEN ECH|}$2",
+        ],
+        "description": [
+            "Code: U+FB14",
+            "Character/Symbol: ﬔ",
+            "Name: ARMENIAN SMALL LIGATURE MEN ECH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬕ U+FB15 ARMENIAN SMALL LIGATURE MEN INI": 
+    {
+        "prefix": [
+            "..U.FB15",
+            "..U.ARMENIAN SMALL LIGATURE MEN INI",
+            "U+FB15",
+        ],
+        "body": [
+            "${1|ﬕ,&#xFB15;,U+FB15,0xFB15,ARMENIAN SMALL LIGATURE MEN INI|}$2",
+        ],
+        "description": [
+            "Code: U+FB15",
+            "Character/Symbol: ﬕ",
+            "Name: ARMENIAN SMALL LIGATURE MEN INI",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬖ U+FB16 ARMENIAN SMALL LIGATURE VEW NOW": 
+    {
+        "prefix": [
+            "..U.FB16",
+            "..U.ARMENIAN SMALL LIGATURE VEW NOW",
+            "U+FB16",
+        ],
+        "body": [
+            "${1|ﬖ,&#xFB16;,U+FB16,0xFB16,ARMENIAN SMALL LIGATURE VEW NOW|}$2",
+        ],
+        "description": [
+            "Code: U+FB16",
+            "Character/Symbol: ﬖ",
+            "Name: ARMENIAN SMALL LIGATURE VEW NOW",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬗ U+FB17 ARMENIAN SMALL LIGATURE MEN XEH": 
+    {
+        "prefix": [
+            "..U.FB17",
+            "..U.ARMENIAN SMALL LIGATURE MEN XEH",
+            "U+FB17",
+        ],
+        "body": [
+            "${1|ﬗ,&#xFB17;,U+FB17,0xFB17,ARMENIAN SMALL LIGATURE MEN XEH|}$2",
+        ],
+        "description": [
+            "Code: U+FB17",
+            "Character/Symbol: ﬗ",
+            "Name: ARMENIAN SMALL LIGATURE MEN XEH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode יִ U+FB1D HEBREW LETTER YOD WITH HIRIQ": 
+    {
+        "prefix": [
+            "..U.FB1D",
+            "..U.HEBREW LETTER YOD WITH HIRIQ",
+            "U+FB1D",
+        ],
+        "body": [
+            "${1|יִ,&#xFB1D;,U+FB1D,0xFB1D,HEBREW LETTER YOD WITH HIRIQ|}$2",
+        ],
+        "description": [
+            "Code: U+FB1D",
+            "Character/Symbol: יִ",
+            "Name: HEBREW LETTER YOD WITH HIRIQ",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬞ U+FB1E HEBREW POINT JUDEO-SPANISH VARIKA": 
+    {
+        "prefix": [
+            "..U.FB1E",
+            "..U.HEBREW POINT JUDEO-SPANISH VARIKA",
+            "U+FB1E",
+        ],
+        "body": [
+            "${1|ﬞ,&#xFB1E;,U+FB1E,0xFB1E,HEBREW POINT JUDEO-SPANISH VARIKA|}$2",
+        ],
+        "description": [
+            "Code: U+FB1E",
+            "Character/Symbol: ﬞ",
+            "Name: HEBREW POINT JUDEO-SPANISH VARIKA",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ײַ U+FB1F HEBREW LIGATURE YIDDISH YOD YOD PATAH": 
+    {
+        "prefix": [
+            "..U.FB1F",
+            "..U.HEBREW LIGATURE YIDDISH YOD YOD PATAH",
+            "U+FB1F",
+        ],
+        "body": [
+            "${1|ײַ,&#xFB1F;,U+FB1F,0xFB1F,HEBREW LIGATURE YIDDISH YOD YOD PATAH|}$2",
+        ],
+        "description": [
+            "Code: U+FB1F",
+            "Character/Symbol: ײַ",
+            "Name: HEBREW LIGATURE YIDDISH YOD YOD PATAH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬠ U+FB20 HEBREW LETTER ALTERNATIVE AYIN": 
+    {
+        "prefix": [
+            "..U.FB20",
+            "..U.HEBREW LETTER ALTERNATIVE AYIN",
+            "U+FB20",
+        ],
+        "body": [
+            "${1|ﬠ,&#xFB20;,U+FB20,0xFB20,HEBREW LETTER ALTERNATIVE AYIN|}$2",
+        ],
+        "description": [
+            "Code: U+FB20",
+            "Character/Symbol: ﬠ",
+            "Name: HEBREW LETTER ALTERNATIVE AYIN",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬡ U+FB21 HEBREW LETTER WIDE ALEF": 
+    {
+        "prefix": [
+            "..U.FB21",
+            "..U.HEBREW LETTER WIDE ALEF",
+            "U+FB21",
+        ],
+        "body": [
+            "${1|ﬡ,&#xFB21;,U+FB21,0xFB21,HEBREW LETTER WIDE ALEF|}$2",
+        ],
+        "description": [
+            "Code: U+FB21",
+            "Character/Symbol: ﬡ",
+            "Name: HEBREW LETTER WIDE ALEF",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬢ U+FB22 HEBREW LETTER WIDE DALET": 
+    {
+        "prefix": [
+            "..U.FB22",
+            "..U.HEBREW LETTER WIDE DALET",
+            "U+FB22",
+        ],
+        "body": [
+            "${1|ﬢ,&#xFB22;,U+FB22,0xFB22,HEBREW LETTER WIDE DALET|}$2",
+        ],
+        "description": [
+            "Code: U+FB22",
+            "Character/Symbol: ﬢ",
+            "Name: HEBREW LETTER WIDE DALET",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬣ U+FB23 HEBREW LETTER WIDE HE": 
+    {
+        "prefix": [
+            "..U.FB23",
+            "..U.HEBREW LETTER WIDE HE",
+            "U+FB23",
+        ],
+        "body": [
+            "${1|ﬣ,&#xFB23;,U+FB23,0xFB23,HEBREW LETTER WIDE HE|}$2",
+        ],
+        "description": [
+            "Code: U+FB23",
+            "Character/Symbol: ﬣ",
+            "Name: HEBREW LETTER WIDE HE",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬤ U+FB24 HEBREW LETTER WIDE KAF": 
+    {
+        "prefix": [
+            "..U.FB24",
+            "..U.HEBREW LETTER WIDE KAF",
+            "U+FB24",
+        ],
+        "body": [
+            "${1|ﬤ,&#xFB24;,U+FB24,0xFB24,HEBREW LETTER WIDE KAF|}$2",
+        ],
+        "description": [
+            "Code: U+FB24",
+            "Character/Symbol: ﬤ",
+            "Name: HEBREW LETTER WIDE KAF",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬥ U+FB25 HEBREW LETTER WIDE LAMED": 
+    {
+        "prefix": [
+            "..U.FB25",
+            "..U.HEBREW LETTER WIDE LAMED",
+            "U+FB25",
+        ],
+        "body": [
+            "${1|ﬥ,&#xFB25;,U+FB25,0xFB25,HEBREW LETTER WIDE LAMED|}$2",
+        ],
+        "description": [
+            "Code: U+FB25",
+            "Character/Symbol: ﬥ",
+            "Name: HEBREW LETTER WIDE LAMED",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬦ U+FB26 HEBREW LETTER WIDE FINAL MEM": 
+    {
+        "prefix": [
+            "..U.FB26",
+            "..U.HEBREW LETTER WIDE FINAL MEM",
+            "U+FB26",
+        ],
+        "body": [
+            "${1|ﬦ,&#xFB26;,U+FB26,0xFB26,HEBREW LETTER WIDE FINAL MEM|}$2",
+        ],
+        "description": [
+            "Code: U+FB26",
+            "Character/Symbol: ﬦ",
+            "Name: HEBREW LETTER WIDE FINAL MEM",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬧ U+FB27 HEBREW LETTER WIDE RESH": 
+    {
+        "prefix": [
+            "..U.FB27",
+            "..U.HEBREW LETTER WIDE RESH",
+            "U+FB27",
+        ],
+        "body": [
+            "${1|ﬧ,&#xFB27;,U+FB27,0xFB27,HEBREW LETTER WIDE RESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB27",
+            "Character/Symbol: ﬧ",
+            "Name: HEBREW LETTER WIDE RESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬨ U+FB28 HEBREW LETTER WIDE TAV": 
+    {
+        "prefix": [
+            "..U.FB28",
+            "..U.HEBREW LETTER WIDE TAV",
+            "U+FB28",
+        ],
+        "body": [
+            "${1|ﬨ,&#xFB28;,U+FB28,0xFB28,HEBREW LETTER WIDE TAV|}$2",
+        ],
+        "description": [
+            "Code: U+FB28",
+            "Character/Symbol: ﬨ",
+            "Name: HEBREW LETTER WIDE TAV",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﬩ U+FB29 HEBREW LETTER ALTERNATIVE PLUS SIGN": 
+    {
+        "prefix": [
+            "..U.FB29",
+            "..U.HEBREW LETTER ALTERNATIVE PLUS SIGN",
+            "U+FB29",
+        ],
+        "body": [
+            "${1|﬩,&#xFB29;,U+FB29,0xFB29,HEBREW LETTER ALTERNATIVE PLUS SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FB29",
+            "Character/Symbol: ﬩",
+            "Name: HEBREW LETTER ALTERNATIVE PLUS SIGN",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode שׁ U+FB2A HEBREW LETTER SHIN WITH SHIN DOT": 
+    {
+        "prefix": [
+            "..U.FB2A",
+            "..U.HEBREW LETTER SHIN WITH SHIN DOT",
+            "U+FB2A",
+        ],
+        "body": [
+            "${1|שׁ,&#xFB2A;,U+FB2A,0xFB2A,HEBREW LETTER SHIN WITH SHIN DOT|}$2",
+        ],
+        "description": [
+            "Code: U+FB2A",
+            "Character/Symbol: שׁ",
+            "Name: HEBREW LETTER SHIN WITH SHIN DOT",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode שׂ U+FB2B HEBREW LETTER SHIN WITH SIN DOT": 
+    {
+        "prefix": [
+            "..U.FB2B",
+            "..U.HEBREW LETTER SHIN WITH SIN DOT",
+            "U+FB2B",
+        ],
+        "body": [
+            "${1|שׂ,&#xFB2B;,U+FB2B,0xFB2B,HEBREW LETTER SHIN WITH SIN DOT|}$2",
+        ],
+        "description": [
+            "Code: U+FB2B",
+            "Character/Symbol: שׂ",
+            "Name: HEBREW LETTER SHIN WITH SIN DOT",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode שּׁ U+FB2C HEBREW LETTER SHIN WITH DAGESH AND SHIN DOT": 
+    {
+        "prefix": [
+            "..U.FB2C",
+            "..U.HEBREW LETTER SHIN WITH DAGESH AND SHIN DOT",
+            "U+FB2C",
+        ],
+        "body": [
+            "${1|שּׁ,&#xFB2C;,U+FB2C,0xFB2C,HEBREW LETTER SHIN WITH DAGESH AND SHIN DOT|}$2",
+        ],
+        "description": [
+            "Code: U+FB2C",
+            "Character/Symbol: שּׁ",
+            "Name: HEBREW LETTER SHIN WITH DAGESH AND SHIN DOT",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode שּׂ U+FB2D HEBREW LETTER SHIN WITH DAGESH AND SIN DOT": 
+    {
+        "prefix": [
+            "..U.FB2D",
+            "..U.HEBREW LETTER SHIN WITH DAGESH AND SIN DOT",
+            "U+FB2D",
+        ],
+        "body": [
+            "${1|שּׂ,&#xFB2D;,U+FB2D,0xFB2D,HEBREW LETTER SHIN WITH DAGESH AND SIN DOT|}$2",
+        ],
+        "description": [
+            "Code: U+FB2D",
+            "Character/Symbol: שּׂ",
+            "Name: HEBREW LETTER SHIN WITH DAGESH AND SIN DOT",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode אַ U+FB2E HEBREW LETTER ALEF WITH PATAH": 
+    {
+        "prefix": [
+            "..U.FB2E",
+            "..U.HEBREW LETTER ALEF WITH PATAH",
+            "U+FB2E",
+        ],
+        "body": [
+            "${1|אַ,&#xFB2E;,U+FB2E,0xFB2E,HEBREW LETTER ALEF WITH PATAH|}$2",
+        ],
+        "description": [
+            "Code: U+FB2E",
+            "Character/Symbol: אַ",
+            "Name: HEBREW LETTER ALEF WITH PATAH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode אָ U+FB2F HEBREW LETTER ALEF WITH QAMATS": 
+    {
+        "prefix": [
+            "..U.FB2F",
+            "..U.HEBREW LETTER ALEF WITH QAMATS",
+            "U+FB2F",
+        ],
+        "body": [
+            "${1|אָ,&#xFB2F;,U+FB2F,0xFB2F,HEBREW LETTER ALEF WITH QAMATS|}$2",
+        ],
+        "description": [
+            "Code: U+FB2F",
+            "Character/Symbol: אָ",
+            "Name: HEBREW LETTER ALEF WITH QAMATS",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode אּ U+FB30 HEBREW LETTER ALEF WITH MAPIQ": 
+    {
+        "prefix": [
+            "..U.FB30",
+            "..U.HEBREW LETTER ALEF WITH MAPIQ",
+            "U+FB30",
+        ],
+        "body": [
+            "${1|אּ,&#xFB30;,U+FB30,0xFB30,HEBREW LETTER ALEF WITH MAPIQ|}$2",
+        ],
+        "description": [
+            "Code: U+FB30",
+            "Character/Symbol: אּ",
+            "Name: HEBREW LETTER ALEF WITH MAPIQ",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode בּ U+FB31 HEBREW LETTER BET WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB31",
+            "..U.HEBREW LETTER BET WITH DAGESH",
+            "U+FB31",
+        ],
+        "body": [
+            "${1|בּ,&#xFB31;,U+FB31,0xFB31,HEBREW LETTER BET WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB31",
+            "Character/Symbol: בּ",
+            "Name: HEBREW LETTER BET WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode גּ U+FB32 HEBREW LETTER GIMEL WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB32",
+            "..U.HEBREW LETTER GIMEL WITH DAGESH",
+            "U+FB32",
+        ],
+        "body": [
+            "${1|גּ,&#xFB32;,U+FB32,0xFB32,HEBREW LETTER GIMEL WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB32",
+            "Character/Symbol: גּ",
+            "Name: HEBREW LETTER GIMEL WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode דּ U+FB33 HEBREW LETTER DALET WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB33",
+            "..U.HEBREW LETTER DALET WITH DAGESH",
+            "U+FB33",
+        ],
+        "body": [
+            "${1|דּ,&#xFB33;,U+FB33,0xFB33,HEBREW LETTER DALET WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB33",
+            "Character/Symbol: דּ",
+            "Name: HEBREW LETTER DALET WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode הּ U+FB34 HEBREW LETTER HE WITH MAPIQ": 
+    {
+        "prefix": [
+            "..U.FB34",
+            "..U.HEBREW LETTER HE WITH MAPIQ",
+            "U+FB34",
+        ],
+        "body": [
+            "${1|הּ,&#xFB34;,U+FB34,0xFB34,HEBREW LETTER HE WITH MAPIQ|}$2",
+        ],
+        "description": [
+            "Code: U+FB34",
+            "Character/Symbol: הּ",
+            "Name: HEBREW LETTER HE WITH MAPIQ",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode וּ U+FB35 HEBREW LETTER VAV WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB35",
+            "..U.HEBREW LETTER VAV WITH DAGESH",
+            "U+FB35",
+        ],
+        "body": [
+            "${1|וּ,&#xFB35;,U+FB35,0xFB35,HEBREW LETTER VAV WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB35",
+            "Character/Symbol: וּ",
+            "Name: HEBREW LETTER VAV WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode זּ U+FB36 HEBREW LETTER ZAYIN WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB36",
+            "..U.HEBREW LETTER ZAYIN WITH DAGESH",
+            "U+FB36",
+        ],
+        "body": [
+            "${1|זּ,&#xFB36;,U+FB36,0xFB36,HEBREW LETTER ZAYIN WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB36",
+            "Character/Symbol: זּ",
+            "Name: HEBREW LETTER ZAYIN WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode טּ U+FB38 HEBREW LETTER TET WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB38",
+            "..U.HEBREW LETTER TET WITH DAGESH",
+            "U+FB38",
+        ],
+        "body": [
+            "${1|טּ,&#xFB38;,U+FB38,0xFB38,HEBREW LETTER TET WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB38",
+            "Character/Symbol: טּ",
+            "Name: HEBREW LETTER TET WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode יּ U+FB39 HEBREW LETTER YOD WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB39",
+            "..U.HEBREW LETTER YOD WITH DAGESH",
+            "U+FB39",
+        ],
+        "body": [
+            "${1|יּ,&#xFB39;,U+FB39,0xFB39,HEBREW LETTER YOD WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB39",
+            "Character/Symbol: יּ",
+            "Name: HEBREW LETTER YOD WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ךּ U+FB3A HEBREW LETTER FINAL KAF WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB3A",
+            "..U.HEBREW LETTER FINAL KAF WITH DAGESH",
+            "U+FB3A",
+        ],
+        "body": [
+            "${1|ךּ,&#xFB3A;,U+FB3A,0xFB3A,HEBREW LETTER FINAL KAF WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB3A",
+            "Character/Symbol: ךּ",
+            "Name: HEBREW LETTER FINAL KAF WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode כּ U+FB3B HEBREW LETTER KAF WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB3B",
+            "..U.HEBREW LETTER KAF WITH DAGESH",
+            "U+FB3B",
+        ],
+        "body": [
+            "${1|כּ,&#xFB3B;,U+FB3B,0xFB3B,HEBREW LETTER KAF WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB3B",
+            "Character/Symbol: כּ",
+            "Name: HEBREW LETTER KAF WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode לּ U+FB3C HEBREW LETTER LAMED WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB3C",
+            "..U.HEBREW LETTER LAMED WITH DAGESH",
+            "U+FB3C",
+        ],
+        "body": [
+            "${1|לּ,&#xFB3C;,U+FB3C,0xFB3C,HEBREW LETTER LAMED WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB3C",
+            "Character/Symbol: לּ",
+            "Name: HEBREW LETTER LAMED WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode מּ U+FB3E HEBREW LETTER MEM WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB3E",
+            "..U.HEBREW LETTER MEM WITH DAGESH",
+            "U+FB3E",
+        ],
+        "body": [
+            "${1|מּ,&#xFB3E;,U+FB3E,0xFB3E,HEBREW LETTER MEM WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB3E",
+            "Character/Symbol: מּ",
+            "Name: HEBREW LETTER MEM WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode נּ U+FB40 HEBREW LETTER NUN WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB40",
+            "..U.HEBREW LETTER NUN WITH DAGESH",
+            "U+FB40",
+        ],
+        "body": [
+            "${1|נּ,&#xFB40;,U+FB40,0xFB40,HEBREW LETTER NUN WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB40",
+            "Character/Symbol: נּ",
+            "Name: HEBREW LETTER NUN WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode סּ U+FB41 HEBREW LETTER SAMEKH WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB41",
+            "..U.HEBREW LETTER SAMEKH WITH DAGESH",
+            "U+FB41",
+        ],
+        "body": [
+            "${1|סּ,&#xFB41;,U+FB41,0xFB41,HEBREW LETTER SAMEKH WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB41",
+            "Character/Symbol: סּ",
+            "Name: HEBREW LETTER SAMEKH WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ףּ U+FB43 HEBREW LETTER FINAL PE WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB43",
+            "..U.HEBREW LETTER FINAL PE WITH DAGESH",
+            "U+FB43",
+        ],
+        "body": [
+            "${1|ףּ,&#xFB43;,U+FB43,0xFB43,HEBREW LETTER FINAL PE WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB43",
+            "Character/Symbol: ףּ",
+            "Name: HEBREW LETTER FINAL PE WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode פּ U+FB44 HEBREW LETTER PE WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB44",
+            "..U.HEBREW LETTER PE WITH DAGESH",
+            "U+FB44",
+        ],
+        "body": [
+            "${1|פּ,&#xFB44;,U+FB44,0xFB44,HEBREW LETTER PE WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB44",
+            "Character/Symbol: פּ",
+            "Name: HEBREW LETTER PE WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode צּ U+FB46 HEBREW LETTER TSADI WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB46",
+            "..U.HEBREW LETTER TSADI WITH DAGESH",
+            "U+FB46",
+        ],
+        "body": [
+            "${1|צּ,&#xFB46;,U+FB46,0xFB46,HEBREW LETTER TSADI WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB46",
+            "Character/Symbol: צּ",
+            "Name: HEBREW LETTER TSADI WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode קּ U+FB47 HEBREW LETTER QOF WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB47",
+            "..U.HEBREW LETTER QOF WITH DAGESH",
+            "U+FB47",
+        ],
+        "body": [
+            "${1|קּ,&#xFB47;,U+FB47,0xFB47,HEBREW LETTER QOF WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB47",
+            "Character/Symbol: קּ",
+            "Name: HEBREW LETTER QOF WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode רּ U+FB48 HEBREW LETTER RESH WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB48",
+            "..U.HEBREW LETTER RESH WITH DAGESH",
+            "U+FB48",
+        ],
+        "body": [
+            "${1|רּ,&#xFB48;,U+FB48,0xFB48,HEBREW LETTER RESH WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB48",
+            "Character/Symbol: רּ",
+            "Name: HEBREW LETTER RESH WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode שּ U+FB49 HEBREW LETTER SHIN WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB49",
+            "..U.HEBREW LETTER SHIN WITH DAGESH",
+            "U+FB49",
+        ],
+        "body": [
+            "${1|שּ,&#xFB49;,U+FB49,0xFB49,HEBREW LETTER SHIN WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB49",
+            "Character/Symbol: שּ",
+            "Name: HEBREW LETTER SHIN WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode תּ U+FB4A HEBREW LETTER TAV WITH DAGESH": 
+    {
+        "prefix": [
+            "..U.FB4A",
+            "..U.HEBREW LETTER TAV WITH DAGESH",
+            "U+FB4A",
+        ],
+        "body": [
+            "${1|תּ,&#xFB4A;,U+FB4A,0xFB4A,HEBREW LETTER TAV WITH DAGESH|}$2",
+        ],
+        "description": [
+            "Code: U+FB4A",
+            "Character/Symbol: תּ",
+            "Name: HEBREW LETTER TAV WITH DAGESH",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode וֹ U+FB4B HEBREW LETTER VAV WITH HOLAM": 
+    {
+        "prefix": [
+            "..U.FB4B",
+            "..U.HEBREW LETTER VAV WITH HOLAM",
+            "U+FB4B",
+        ],
+        "body": [
+            "${1|וֹ,&#xFB4B;,U+FB4B,0xFB4B,HEBREW LETTER VAV WITH HOLAM|}$2",
+        ],
+        "description": [
+            "Code: U+FB4B",
+            "Character/Symbol: וֹ",
+            "Name: HEBREW LETTER VAV WITH HOLAM",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode בֿ U+FB4C HEBREW LETTER BET WITH RAFE": 
+    {
+        "prefix": [
+            "..U.FB4C",
+            "..U.HEBREW LETTER BET WITH RAFE",
+            "U+FB4C",
+        ],
+        "body": [
+            "${1|בֿ,&#xFB4C;,U+FB4C,0xFB4C,HEBREW LETTER BET WITH RAFE|}$2",
+        ],
+        "description": [
+            "Code: U+FB4C",
+            "Character/Symbol: בֿ",
+            "Name: HEBREW LETTER BET WITH RAFE",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode כֿ U+FB4D HEBREW LETTER KAF WITH RAFE": 
+    {
+        "prefix": [
+            "..U.FB4D",
+            "..U.HEBREW LETTER KAF WITH RAFE",
+            "U+FB4D",
+        ],
+        "body": [
+            "${1|כֿ,&#xFB4D;,U+FB4D,0xFB4D,HEBREW LETTER KAF WITH RAFE|}$2",
+        ],
+        "description": [
+            "Code: U+FB4D",
+            "Character/Symbol: כֿ",
+            "Name: HEBREW LETTER KAF WITH RAFE",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode פֿ U+FB4E HEBREW LETTER PE WITH RAFE": 
+    {
+        "prefix": [
+            "..U.FB4E",
+            "..U.HEBREW LETTER PE WITH RAFE",
+            "U+FB4E",
+        ],
+        "body": [
+            "${1|פֿ,&#xFB4E;,U+FB4E,0xFB4E,HEBREW LETTER PE WITH RAFE|}$2",
+        ],
+        "description": [
+            "Code: U+FB4E",
+            "Character/Symbol: פֿ",
+            "Name: HEBREW LETTER PE WITH RAFE",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+    "Unicode ﭏ U+FB4F HEBREW LIGATURE ALEF LAMED": 
+    {
+        "prefix": [
+            "..U.FB4F",
+            "..U.HEBREW LIGATURE ALEF LAMED",
+            "U+FB4F",
+        ],
+        "body": [
+            "${1|ﭏ,&#xFB4F;,U+FB4F,0xFB4F,HEBREW LIGATURE ALEF LAMED|}$2",
+        ],
+        "description": [
+            "Code: U+FB4F",
+            "Character/Symbol: ﭏ",
+            "Name: HEBREW LIGATURE ALEF LAMED",
+            "Group/Block: Alphabetic_PF",
+        ],
+    },
+
+}

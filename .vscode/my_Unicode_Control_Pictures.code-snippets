@@ -1,0 +1,704 @@
+{
+    "Unicode ␀ U+2400 SYMBOL FOR NULL": 
+    {
+        "prefix": [
+            "..U.2400",
+            "..U.SYMBOL FOR NULL",
+            "U+2400",
+        ],
+        "body": [
+            "${1|␀,&#x2400;,U+2400,0x2400,SYMBOL FOR NULL|}$2",
+        ],
+        "description": [
+            "Code: U+2400",
+            "Character/Symbol: ␀",
+            "Name: SYMBOL FOR NULL",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␁ U+2401 SYMBOL FOR START OF HEADING": 
+    {
+        "prefix": [
+            "..U.2401",
+            "..U.SYMBOL FOR START OF HEADING",
+            "U+2401",
+        ],
+        "body": [
+            "${1|␁,&#x2401;,U+2401,0x2401,SYMBOL FOR START OF HEADING|}$2",
+        ],
+        "description": [
+            "Code: U+2401",
+            "Character/Symbol: ␁",
+            "Name: SYMBOL FOR START OF HEADING",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␂ U+2402 SYMBOL FOR START OF TEXT": 
+    {
+        "prefix": [
+            "..U.2402",
+            "..U.SYMBOL FOR START OF TEXT",
+            "U+2402",
+        ],
+        "body": [
+            "${1|␂,&#x2402;,U+2402,0x2402,SYMBOL FOR START OF TEXT|}$2",
+        ],
+        "description": [
+            "Code: U+2402",
+            "Character/Symbol: ␂",
+            "Name: SYMBOL FOR START OF TEXT",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␃ U+2403 SYMBOL FOR END OF TEXT": 
+    {
+        "prefix": [
+            "..U.2403",
+            "..U.SYMBOL FOR END OF TEXT",
+            "U+2403",
+        ],
+        "body": [
+            "${1|␃,&#x2403;,U+2403,0x2403,SYMBOL FOR END OF TEXT|}$2",
+        ],
+        "description": [
+            "Code: U+2403",
+            "Character/Symbol: ␃",
+            "Name: SYMBOL FOR END OF TEXT",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␄ U+2404 SYMBOL FOR END OF TRANSMISSION": 
+    {
+        "prefix": [
+            "..U.2404",
+            "..U.SYMBOL FOR END OF TRANSMISSION",
+            "U+2404",
+        ],
+        "body": [
+            "${1|␄,&#x2404;,U+2404,0x2404,SYMBOL FOR END OF TRANSMISSION|}$2",
+        ],
+        "description": [
+            "Code: U+2404",
+            "Character/Symbol: ␄",
+            "Name: SYMBOL FOR END OF TRANSMISSION",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␅ U+2405 SYMBOL FOR ENQUIRY": 
+    {
+        "prefix": [
+            "..U.2405",
+            "..U.SYMBOL FOR ENQUIRY",
+            "U+2405",
+        ],
+        "body": [
+            "${1|␅,&#x2405;,U+2405,0x2405,SYMBOL FOR ENQUIRY|}$2",
+        ],
+        "description": [
+            "Code: U+2405",
+            "Character/Symbol: ␅",
+            "Name: SYMBOL FOR ENQUIRY",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␆ U+2406 SYMBOL FOR ACKNOWLEDGE": 
+    {
+        "prefix": [
+            "..U.2406",
+            "..U.SYMBOL FOR ACKNOWLEDGE",
+            "U+2406",
+        ],
+        "body": [
+            "${1|␆,&#x2406;,U+2406,0x2406,SYMBOL FOR ACKNOWLEDGE|}$2",
+        ],
+        "description": [
+            "Code: U+2406",
+            "Character/Symbol: ␆",
+            "Name: SYMBOL FOR ACKNOWLEDGE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␇ U+2407 SYMBOL FOR BELL": 
+    {
+        "prefix": [
+            "..U.2407",
+            "..U.SYMBOL FOR BELL",
+            "U+2407",
+        ],
+        "body": [
+            "${1|␇,&#x2407;,U+2407,0x2407,SYMBOL FOR BELL|}$2",
+        ],
+        "description": [
+            "Code: U+2407",
+            "Character/Symbol: ␇",
+            "Name: SYMBOL FOR BELL",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␈ U+2408 SYMBOL FOR BACKSPACE": 
+    {
+        "prefix": [
+            "..U.2408",
+            "..U.SYMBOL FOR BACKSPACE",
+            "U+2408",
+        ],
+        "body": [
+            "${1|␈,&#x2408;,U+2408,0x2408,SYMBOL FOR BACKSPACE|}$2",
+        ],
+        "description": [
+            "Code: U+2408",
+            "Character/Symbol: ␈",
+            "Name: SYMBOL FOR BACKSPACE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␉ U+2409 SYMBOL FOR HORIZONTAL TABULATION": 
+    {
+        "prefix": [
+            "..U.2409",
+            "..U.SYMBOL FOR HORIZONTAL TABULATION",
+            "U+2409",
+        ],
+        "body": [
+            "${1|␉,&#x2409;,U+2409,0x2409,SYMBOL FOR HORIZONTAL TABULATION|}$2",
+        ],
+        "description": [
+            "Code: U+2409",
+            "Character/Symbol: ␉",
+            "Name: SYMBOL FOR HORIZONTAL TABULATION",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␊ U+240A SYMBOL FOR LINE FEED": 
+    {
+        "prefix": [
+            "..U.240A",
+            "..U.SYMBOL FOR LINE FEED",
+            "U+240A",
+        ],
+        "body": [
+            "${1|␊,&#x240A;,U+240A,0x240A,SYMBOL FOR LINE FEED|}$2",
+        ],
+        "description": [
+            "Code: U+240A",
+            "Character/Symbol: ␊",
+            "Name: SYMBOL FOR LINE FEED",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␋ U+240B SYMBOL FOR VERTICAL TABULATION": 
+    {
+        "prefix": [
+            "..U.240B",
+            "..U.SYMBOL FOR VERTICAL TABULATION",
+            "U+240B",
+        ],
+        "body": [
+            "${1|␋,&#x240B;,U+240B,0x240B,SYMBOL FOR VERTICAL TABULATION|}$2",
+        ],
+        "description": [
+            "Code: U+240B",
+            "Character/Symbol: ␋",
+            "Name: SYMBOL FOR VERTICAL TABULATION",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␌ U+240C SYMBOL FOR FORM FEED": 
+    {
+        "prefix": [
+            "..U.240C",
+            "..U.SYMBOL FOR FORM FEED",
+            "U+240C",
+        ],
+        "body": [
+            "${1|␌,&#x240C;,U+240C,0x240C,SYMBOL FOR FORM FEED|}$2",
+        ],
+        "description": [
+            "Code: U+240C",
+            "Character/Symbol: ␌",
+            "Name: SYMBOL FOR FORM FEED",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␍ U+240D SYMBOL FOR CARRIAGE RETURN": 
+    {
+        "prefix": [
+            "..U.240D",
+            "..U.SYMBOL FOR CARRIAGE RETURN",
+            "U+240D",
+        ],
+        "body": [
+            "${1|␍,&#x240D;,U+240D,0x240D,SYMBOL FOR CARRIAGE RETURN|}$2",
+        ],
+        "description": [
+            "Code: U+240D",
+            "Character/Symbol: ␍",
+            "Name: SYMBOL FOR CARRIAGE RETURN",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␎ U+240E SYMBOL FOR SHIFT OUT": 
+    {
+        "prefix": [
+            "..U.240E",
+            "..U.SYMBOL FOR SHIFT OUT",
+            "U+240E",
+        ],
+        "body": [
+            "${1|␎,&#x240E;,U+240E,0x240E,SYMBOL FOR SHIFT OUT|}$2",
+        ],
+        "description": [
+            "Code: U+240E",
+            "Character/Symbol: ␎",
+            "Name: SYMBOL FOR SHIFT OUT",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␏ U+240F SYMBOL FOR SHIFT IN": 
+    {
+        "prefix": [
+            "..U.240F",
+            "..U.SYMBOL FOR SHIFT IN",
+            "U+240F",
+        ],
+        "body": [
+            "${1|␏,&#x240F;,U+240F,0x240F,SYMBOL FOR SHIFT IN|}$2",
+        ],
+        "description": [
+            "Code: U+240F",
+            "Character/Symbol: ␏",
+            "Name: SYMBOL FOR SHIFT IN",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␐ U+2410 SYMBOL FOR DATA LINK ESCAPE": 
+    {
+        "prefix": [
+            "..U.2410",
+            "..U.SYMBOL FOR DATA LINK ESCAPE",
+            "U+2410",
+        ],
+        "body": [
+            "${1|␐,&#x2410;,U+2410,0x2410,SYMBOL FOR DATA LINK ESCAPE|}$2",
+        ],
+        "description": [
+            "Code: U+2410",
+            "Character/Symbol: ␐",
+            "Name: SYMBOL FOR DATA LINK ESCAPE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␑ U+2411 SYMBOL FOR DEVICE CONTROL ONE": 
+    {
+        "prefix": [
+            "..U.2411",
+            "..U.SYMBOL FOR DEVICE CONTROL ONE",
+            "U+2411",
+        ],
+        "body": [
+            "${1|␑,&#x2411;,U+2411,0x2411,SYMBOL FOR DEVICE CONTROL ONE|}$2",
+        ],
+        "description": [
+            "Code: U+2411",
+            "Character/Symbol: ␑",
+            "Name: SYMBOL FOR DEVICE CONTROL ONE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␒ U+2412 SYMBOL FOR DEVICE CONTROL TWO": 
+    {
+        "prefix": [
+            "..U.2412",
+            "..U.SYMBOL FOR DEVICE CONTROL TWO",
+            "U+2412",
+        ],
+        "body": [
+            "${1|␒,&#x2412;,U+2412,0x2412,SYMBOL FOR DEVICE CONTROL TWO|}$2",
+        ],
+        "description": [
+            "Code: U+2412",
+            "Character/Symbol: ␒",
+            "Name: SYMBOL FOR DEVICE CONTROL TWO",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␓ U+2413 SYMBOL FOR DEVICE CONTROL THREE": 
+    {
+        "prefix": [
+            "..U.2413",
+            "..U.SYMBOL FOR DEVICE CONTROL THREE",
+            "U+2413",
+        ],
+        "body": [
+            "${1|␓,&#x2413;,U+2413,0x2413,SYMBOL FOR DEVICE CONTROL THREE|}$2",
+        ],
+        "description": [
+            "Code: U+2413",
+            "Character/Symbol: ␓",
+            "Name: SYMBOL FOR DEVICE CONTROL THREE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␔ U+2414 SYMBOL FOR DEVICE CONTROL FOUR": 
+    {
+        "prefix": [
+            "..U.2414",
+            "..U.SYMBOL FOR DEVICE CONTROL FOUR",
+            "U+2414",
+        ],
+        "body": [
+            "${1|␔,&#x2414;,U+2414,0x2414,SYMBOL FOR DEVICE CONTROL FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+2414",
+            "Character/Symbol: ␔",
+            "Name: SYMBOL FOR DEVICE CONTROL FOUR",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␕ U+2415 SYMBOL FOR NEGATIVE ACKNOWLEDGE": 
+    {
+        "prefix": [
+            "..U.2415",
+            "..U.SYMBOL FOR NEGATIVE ACKNOWLEDGE",
+            "U+2415",
+        ],
+        "body": [
+            "${1|␕,&#x2415;,U+2415,0x2415,SYMBOL FOR NEGATIVE ACKNOWLEDGE|}$2",
+        ],
+        "description": [
+            "Code: U+2415",
+            "Character/Symbol: ␕",
+            "Name: SYMBOL FOR NEGATIVE ACKNOWLEDGE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␖ U+2416 SYMBOL FOR SYNCHRONOUS IDLE": 
+    {
+        "prefix": [
+            "..U.2416",
+            "..U.SYMBOL FOR SYNCHRONOUS IDLE",
+            "U+2416",
+        ],
+        "body": [
+            "${1|␖,&#x2416;,U+2416,0x2416,SYMBOL FOR SYNCHRONOUS IDLE|}$2",
+        ],
+        "description": [
+            "Code: U+2416",
+            "Character/Symbol: ␖",
+            "Name: SYMBOL FOR SYNCHRONOUS IDLE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␗ U+2417 SYMBOL FOR END OF TRANSMISSION BLOCK": 
+    {
+        "prefix": [
+            "..U.2417",
+            "..U.SYMBOL FOR END OF TRANSMISSION BLOCK",
+            "U+2417",
+        ],
+        "body": [
+            "${1|␗,&#x2417;,U+2417,0x2417,SYMBOL FOR END OF TRANSMISSION BLOCK|}$2",
+        ],
+        "description": [
+            "Code: U+2417",
+            "Character/Symbol: ␗",
+            "Name: SYMBOL FOR END OF TRANSMISSION BLOCK",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␘ U+2418 SYMBOL FOR CANCEL": 
+    {
+        "prefix": [
+            "..U.2418",
+            "..U.SYMBOL FOR CANCEL",
+            "U+2418",
+        ],
+        "body": [
+            "${1|␘,&#x2418;,U+2418,0x2418,SYMBOL FOR CANCEL|}$2",
+        ],
+        "description": [
+            "Code: U+2418",
+            "Character/Symbol: ␘",
+            "Name: SYMBOL FOR CANCEL",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␙ U+2419 SYMBOL FOR END OF MEDIUM": 
+    {
+        "prefix": [
+            "..U.2419",
+            "..U.SYMBOL FOR END OF MEDIUM",
+            "U+2419",
+        ],
+        "body": [
+            "${1|␙,&#x2419;,U+2419,0x2419,SYMBOL FOR END OF MEDIUM|}$2",
+        ],
+        "description": [
+            "Code: U+2419",
+            "Character/Symbol: ␙",
+            "Name: SYMBOL FOR END OF MEDIUM",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␚ U+241A SYMBOL FOR SUBSTITUTE": 
+    {
+        "prefix": [
+            "..U.241A",
+            "..U.SYMBOL FOR SUBSTITUTE",
+            "U+241A",
+        ],
+        "body": [
+            "${1|␚,&#x241A;,U+241A,0x241A,SYMBOL FOR SUBSTITUTE|}$2",
+        ],
+        "description": [
+            "Code: U+241A",
+            "Character/Symbol: ␚",
+            "Name: SYMBOL FOR SUBSTITUTE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␛ U+241B SYMBOL FOR ESCAPE": 
+    {
+        "prefix": [
+            "..U.241B",
+            "..U.SYMBOL FOR ESCAPE",
+            "U+241B",
+        ],
+        "body": [
+            "${1|␛,&#x241B;,U+241B,0x241B,SYMBOL FOR ESCAPE|}$2",
+        ],
+        "description": [
+            "Code: U+241B",
+            "Character/Symbol: ␛",
+            "Name: SYMBOL FOR ESCAPE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␜ U+241C SYMBOL FOR FILE SEPARATOR": 
+    {
+        "prefix": [
+            "..U.241C",
+            "..U.SYMBOL FOR FILE SEPARATOR",
+            "U+241C",
+        ],
+        "body": [
+            "${1|␜,&#x241C;,U+241C,0x241C,SYMBOL FOR FILE SEPARATOR|}$2",
+        ],
+        "description": [
+            "Code: U+241C",
+            "Character/Symbol: ␜",
+            "Name: SYMBOL FOR FILE SEPARATOR",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␝ U+241D SYMBOL FOR GROUP SEPARATOR": 
+    {
+        "prefix": [
+            "..U.241D",
+            "..U.SYMBOL FOR GROUP SEPARATOR",
+            "U+241D",
+        ],
+        "body": [
+            "${1|␝,&#x241D;,U+241D,0x241D,SYMBOL FOR GROUP SEPARATOR|}$2",
+        ],
+        "description": [
+            "Code: U+241D",
+            "Character/Symbol: ␝",
+            "Name: SYMBOL FOR GROUP SEPARATOR",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␞ U+241E SYMBOL FOR RECORD SEPARATOR": 
+    {
+        "prefix": [
+            "..U.241E",
+            "..U.SYMBOL FOR RECORD SEPARATOR",
+            "U+241E",
+        ],
+        "body": [
+            "${1|␞,&#x241E;,U+241E,0x241E,SYMBOL FOR RECORD SEPARATOR|}$2",
+        ],
+        "description": [
+            "Code: U+241E",
+            "Character/Symbol: ␞",
+            "Name: SYMBOL FOR RECORD SEPARATOR",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␟ U+241F SYMBOL FOR UNIT SEPARATOR": 
+    {
+        "prefix": [
+            "..U.241F",
+            "..U.SYMBOL FOR UNIT SEPARATOR",
+            "U+241F",
+        ],
+        "body": [
+            "${1|␟,&#x241F;,U+241F,0x241F,SYMBOL FOR UNIT SEPARATOR|}$2",
+        ],
+        "description": [
+            "Code: U+241F",
+            "Character/Symbol: ␟",
+            "Name: SYMBOL FOR UNIT SEPARATOR",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␠ U+2420 SYMBOL FOR SPACE": 
+    {
+        "prefix": [
+            "..U.2420",
+            "..U.SYMBOL FOR SPACE",
+            "U+2420",
+        ],
+        "body": [
+            "${1|␠,&#x2420;,U+2420,0x2420,SYMBOL FOR SPACE|}$2",
+        ],
+        "description": [
+            "Code: U+2420",
+            "Character/Symbol: ␠",
+            "Name: SYMBOL FOR SPACE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␡ U+2421 SYMBOL FOR DELETE": 
+    {
+        "prefix": [
+            "..U.2421",
+            "..U.SYMBOL FOR DELETE",
+            "U+2421",
+        ],
+        "body": [
+            "${1|␡,&#x2421;,U+2421,0x2421,SYMBOL FOR DELETE|}$2",
+        ],
+        "description": [
+            "Code: U+2421",
+            "Character/Symbol: ␡",
+            "Name: SYMBOL FOR DELETE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␢ U+2422 BLANK SYMBOL": 
+    {
+        "prefix": [
+            "..U.2422",
+            "..U.BLANK SYMBOL",
+            "U+2422",
+        ],
+        "body": [
+            "${1|␢,&#x2422;,U+2422,0x2422,BLANK SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2422",
+            "Character/Symbol: ␢",
+            "Name: BLANK SYMBOL",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␣ U+2423 OPEN BOX": 
+    {
+        "prefix": [
+            "..U.2423",
+            "..U.OPEN BOX",
+            "U+2423",
+        ],
+        "body": [
+            "${1|␣,&#x2423;,U+2423,0x2423,OPEN BOX|}$2",
+        ],
+        "description": [
+            "Code: U+2423",
+            "Character/Symbol: ␣",
+            "Name: OPEN BOX",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␤ U+2424 SYMBOL FOR NEWLINE": 
+    {
+        "prefix": [
+            "..U.2424",
+            "..U.SYMBOL FOR NEWLINE",
+            "U+2424",
+        ],
+        "body": [
+            "${1|␤,&#x2424;,U+2424,0x2424,SYMBOL FOR NEWLINE|}$2",
+        ],
+        "description": [
+            "Code: U+2424",
+            "Character/Symbol: ␤",
+            "Name: SYMBOL FOR NEWLINE",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␥ U+2425 SYMBOL FOR DELETE FORM TWO": 
+    {
+        "prefix": [
+            "..U.2425",
+            "..U.SYMBOL FOR DELETE FORM TWO",
+            "U+2425",
+        ],
+        "body": [
+            "${1|␥,&#x2425;,U+2425,0x2425,SYMBOL FOR DELETE FORM TWO|}$2",
+        ],
+        "description": [
+            "Code: U+2425",
+            "Character/Symbol: ␥",
+            "Name: SYMBOL FOR DELETE FORM TWO",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+    "Unicode ␦ U+2426 SYMBOL FOR SUBSTITUTE FORM TWO": 
+    {
+        "prefix": [
+            "..U.2426",
+            "..U.SYMBOL FOR SUBSTITUTE FORM TWO",
+            "U+2426",
+        ],
+        "body": [
+            "${1|␦,&#x2426;,U+2426,0x2426,SYMBOL FOR SUBSTITUTE FORM TWO|}$2",
+        ],
+        "description": [
+            "Code: U+2426",
+            "Character/Symbol: ␦",
+            "Name: SYMBOL FOR SUBSTITUTE FORM TWO",
+            "Group/Block: Control_Pictures",
+        ],
+    },
+
+}

@@ -1,0 +1,1730 @@
+{
+    "Unicode ゠ U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN": 
+    {
+        "prefix": [
+            "..U.30A0",
+            "..U.KATAKANA-HIRAGANA DOUBLE HYPHEN",
+            "U+30A0",
+        ],
+        "body": [
+            "${1|゠,&#x30A0;,U+30A0,0x30A0,KATAKANA-HIRAGANA DOUBLE HYPHEN|}$2",
+        ],
+        "description": [
+            "Code: U+30A0",
+            "Character/Symbol: ゠",
+            "Name: KATAKANA-HIRAGANA DOUBLE HYPHEN",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ァ U+30A1 KATAKANA LETTER SMALL A": 
+    {
+        "prefix": [
+            "..U.30A1",
+            "..U.KATAKANA LETTER SMALL A",
+            "U+30A1",
+        ],
+        "body": [
+            "${1|ァ,&#x30A1;,U+30A1,0x30A1,KATAKANA LETTER SMALL A|}$2",
+        ],
+        "description": [
+            "Code: U+30A1",
+            "Character/Symbol: ァ",
+            "Name: KATAKANA LETTER SMALL A",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ア U+30A2 KATAKANA LETTER A": 
+    {
+        "prefix": [
+            "..U.30A2",
+            "..U.KATAKANA LETTER A",
+            "U+30A2",
+        ],
+        "body": [
+            "${1|ア,&#x30A2;,U+30A2,0x30A2,KATAKANA LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+30A2",
+            "Character/Symbol: ア",
+            "Name: KATAKANA LETTER A",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ィ U+30A3 KATAKANA LETTER SMALL I": 
+    {
+        "prefix": [
+            "..U.30A3",
+            "..U.KATAKANA LETTER SMALL I",
+            "U+30A3",
+        ],
+        "body": [
+            "${1|ィ,&#x30A3;,U+30A3,0x30A3,KATAKANA LETTER SMALL I|}$2",
+        ],
+        "description": [
+            "Code: U+30A3",
+            "Character/Symbol: ィ",
+            "Name: KATAKANA LETTER SMALL I",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode イ U+30A4 KATAKANA LETTER I": 
+    {
+        "prefix": [
+            "..U.30A4",
+            "..U.KATAKANA LETTER I",
+            "U+30A4",
+        ],
+        "body": [
+            "${1|イ,&#x30A4;,U+30A4,0x30A4,KATAKANA LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+30A4",
+            "Character/Symbol: イ",
+            "Name: KATAKANA LETTER I",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ゥ U+30A5 KATAKANA LETTER SMALL U": 
+    {
+        "prefix": [
+            "..U.30A5",
+            "..U.KATAKANA LETTER SMALL U",
+            "U+30A5",
+        ],
+        "body": [
+            "${1|ゥ,&#x30A5;,U+30A5,0x30A5,KATAKANA LETTER SMALL U|}$2",
+        ],
+        "description": [
+            "Code: U+30A5",
+            "Character/Symbol: ゥ",
+            "Name: KATAKANA LETTER SMALL U",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ウ U+30A6 KATAKANA LETTER U": 
+    {
+        "prefix": [
+            "..U.30A6",
+            "..U.KATAKANA LETTER U",
+            "U+30A6",
+        ],
+        "body": [
+            "${1|ウ,&#x30A6;,U+30A6,0x30A6,KATAKANA LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+30A6",
+            "Character/Symbol: ウ",
+            "Name: KATAKANA LETTER U",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ェ U+30A7 KATAKANA LETTER SMALL E": 
+    {
+        "prefix": [
+            "..U.30A7",
+            "..U.KATAKANA LETTER SMALL E",
+            "U+30A7",
+        ],
+        "body": [
+            "${1|ェ,&#x30A7;,U+30A7,0x30A7,KATAKANA LETTER SMALL E|}$2",
+        ],
+        "description": [
+            "Code: U+30A7",
+            "Character/Symbol: ェ",
+            "Name: KATAKANA LETTER SMALL E",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode エ U+30A8 KATAKANA LETTER E": 
+    {
+        "prefix": [
+            "..U.30A8",
+            "..U.KATAKANA LETTER E",
+            "U+30A8",
+        ],
+        "body": [
+            "${1|エ,&#x30A8;,U+30A8,0x30A8,KATAKANA LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+30A8",
+            "Character/Symbol: エ",
+            "Name: KATAKANA LETTER E",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ォ U+30A9 KATAKANA LETTER SMALL O": 
+    {
+        "prefix": [
+            "..U.30A9",
+            "..U.KATAKANA LETTER SMALL O",
+            "U+30A9",
+        ],
+        "body": [
+            "${1|ォ,&#x30A9;,U+30A9,0x30A9,KATAKANA LETTER SMALL O|}$2",
+        ],
+        "description": [
+            "Code: U+30A9",
+            "Character/Symbol: ォ",
+            "Name: KATAKANA LETTER SMALL O",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode オ U+30AA KATAKANA LETTER O": 
+    {
+        "prefix": [
+            "..U.30AA",
+            "..U.KATAKANA LETTER O",
+            "U+30AA",
+        ],
+        "body": [
+            "${1|オ,&#x30AA;,U+30AA,0x30AA,KATAKANA LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+30AA",
+            "Character/Symbol: オ",
+            "Name: KATAKANA LETTER O",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode カ U+30AB KATAKANA LETTER KA": 
+    {
+        "prefix": [
+            "..U.30AB",
+            "..U.KATAKANA LETTER KA",
+            "U+30AB",
+        ],
+        "body": [
+            "${1|カ,&#x30AB;,U+30AB,0x30AB,KATAKANA LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+30AB",
+            "Character/Symbol: カ",
+            "Name: KATAKANA LETTER KA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ガ U+30AC KATAKANA LETTER GA": 
+    {
+        "prefix": [
+            "..U.30AC",
+            "..U.KATAKANA LETTER GA",
+            "U+30AC",
+        ],
+        "body": [
+            "${1|ガ,&#x30AC;,U+30AC,0x30AC,KATAKANA LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+30AC",
+            "Character/Symbol: ガ",
+            "Name: KATAKANA LETTER GA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode キ U+30AD KATAKANA LETTER KI": 
+    {
+        "prefix": [
+            "..U.30AD",
+            "..U.KATAKANA LETTER KI",
+            "U+30AD",
+        ],
+        "body": [
+            "${1|キ,&#x30AD;,U+30AD,0x30AD,KATAKANA LETTER KI|}$2",
+        ],
+        "description": [
+            "Code: U+30AD",
+            "Character/Symbol: キ",
+            "Name: KATAKANA LETTER KI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ギ U+30AE KATAKANA LETTER GI": 
+    {
+        "prefix": [
+            "..U.30AE",
+            "..U.KATAKANA LETTER GI",
+            "U+30AE",
+        ],
+        "body": [
+            "${1|ギ,&#x30AE;,U+30AE,0x30AE,KATAKANA LETTER GI|}$2",
+        ],
+        "description": [
+            "Code: U+30AE",
+            "Character/Symbol: ギ",
+            "Name: KATAKANA LETTER GI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ク U+30AF KATAKANA LETTER KU": 
+    {
+        "prefix": [
+            "..U.30AF",
+            "..U.KATAKANA LETTER KU",
+            "U+30AF",
+        ],
+        "body": [
+            "${1|ク,&#x30AF;,U+30AF,0x30AF,KATAKANA LETTER KU|}$2",
+        ],
+        "description": [
+            "Code: U+30AF",
+            "Character/Symbol: ク",
+            "Name: KATAKANA LETTER KU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode グ U+30B0 KATAKANA LETTER GU": 
+    {
+        "prefix": [
+            "..U.30B0",
+            "..U.KATAKANA LETTER GU",
+            "U+30B0",
+        ],
+        "body": [
+            "${1|グ,&#x30B0;,U+30B0,0x30B0,KATAKANA LETTER GU|}$2",
+        ],
+        "description": [
+            "Code: U+30B0",
+            "Character/Symbol: グ",
+            "Name: KATAKANA LETTER GU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ケ U+30B1 KATAKANA LETTER KE": 
+    {
+        "prefix": [
+            "..U.30B1",
+            "..U.KATAKANA LETTER KE",
+            "U+30B1",
+        ],
+        "body": [
+            "${1|ケ,&#x30B1;,U+30B1,0x30B1,KATAKANA LETTER KE|}$2",
+        ],
+        "description": [
+            "Code: U+30B1",
+            "Character/Symbol: ケ",
+            "Name: KATAKANA LETTER KE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ゲ U+30B2 KATAKANA LETTER GE": 
+    {
+        "prefix": [
+            "..U.30B2",
+            "..U.KATAKANA LETTER GE",
+            "U+30B2",
+        ],
+        "body": [
+            "${1|ゲ,&#x30B2;,U+30B2,0x30B2,KATAKANA LETTER GE|}$2",
+        ],
+        "description": [
+            "Code: U+30B2",
+            "Character/Symbol: ゲ",
+            "Name: KATAKANA LETTER GE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode コ U+30B3 KATAKANA LETTER KO": 
+    {
+        "prefix": [
+            "..U.30B3",
+            "..U.KATAKANA LETTER KO",
+            "U+30B3",
+        ],
+        "body": [
+            "${1|コ,&#x30B3;,U+30B3,0x30B3,KATAKANA LETTER KO|}$2",
+        ],
+        "description": [
+            "Code: U+30B3",
+            "Character/Symbol: コ",
+            "Name: KATAKANA LETTER KO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ゴ U+30B4 KATAKANA LETTER GO": 
+    {
+        "prefix": [
+            "..U.30B4",
+            "..U.KATAKANA LETTER GO",
+            "U+30B4",
+        ],
+        "body": [
+            "${1|ゴ,&#x30B4;,U+30B4,0x30B4,KATAKANA LETTER GO|}$2",
+        ],
+        "description": [
+            "Code: U+30B4",
+            "Character/Symbol: ゴ",
+            "Name: KATAKANA LETTER GO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode サ U+30B5 KATAKANA LETTER SA": 
+    {
+        "prefix": [
+            "..U.30B5",
+            "..U.KATAKANA LETTER SA",
+            "U+30B5",
+        ],
+        "body": [
+            "${1|サ,&#x30B5;,U+30B5,0x30B5,KATAKANA LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+30B5",
+            "Character/Symbol: サ",
+            "Name: KATAKANA LETTER SA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ザ U+30B6 KATAKANA LETTER ZA": 
+    {
+        "prefix": [
+            "..U.30B6",
+            "..U.KATAKANA LETTER ZA",
+            "U+30B6",
+        ],
+        "body": [
+            "${1|ザ,&#x30B6;,U+30B6,0x30B6,KATAKANA LETTER ZA|}$2",
+        ],
+        "description": [
+            "Code: U+30B6",
+            "Character/Symbol: ザ",
+            "Name: KATAKANA LETTER ZA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode シ U+30B7 KATAKANA LETTER SI": 
+    {
+        "prefix": [
+            "..U.30B7",
+            "..U.KATAKANA LETTER SI",
+            "U+30B7",
+        ],
+        "body": [
+            "${1|シ,&#x30B7;,U+30B7,0x30B7,KATAKANA LETTER SI|}$2",
+        ],
+        "description": [
+            "Code: U+30B7",
+            "Character/Symbol: シ",
+            "Name: KATAKANA LETTER SI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ジ U+30B8 KATAKANA LETTER ZI": 
+    {
+        "prefix": [
+            "..U.30B8",
+            "..U.KATAKANA LETTER ZI",
+            "U+30B8",
+        ],
+        "body": [
+            "${1|ジ,&#x30B8;,U+30B8,0x30B8,KATAKANA LETTER ZI|}$2",
+        ],
+        "description": [
+            "Code: U+30B8",
+            "Character/Symbol: ジ",
+            "Name: KATAKANA LETTER ZI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ス U+30B9 KATAKANA LETTER SU": 
+    {
+        "prefix": [
+            "..U.30B9",
+            "..U.KATAKANA LETTER SU",
+            "U+30B9",
+        ],
+        "body": [
+            "${1|ス,&#x30B9;,U+30B9,0x30B9,KATAKANA LETTER SU|}$2",
+        ],
+        "description": [
+            "Code: U+30B9",
+            "Character/Symbol: ス",
+            "Name: KATAKANA LETTER SU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ズ U+30BA KATAKANA LETTER ZU": 
+    {
+        "prefix": [
+            "..U.30BA",
+            "..U.KATAKANA LETTER ZU",
+            "U+30BA",
+        ],
+        "body": [
+            "${1|ズ,&#x30BA;,U+30BA,0x30BA,KATAKANA LETTER ZU|}$2",
+        ],
+        "description": [
+            "Code: U+30BA",
+            "Character/Symbol: ズ",
+            "Name: KATAKANA LETTER ZU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode セ U+30BB KATAKANA LETTER SE": 
+    {
+        "prefix": [
+            "..U.30BB",
+            "..U.KATAKANA LETTER SE",
+            "U+30BB",
+        ],
+        "body": [
+            "${1|セ,&#x30BB;,U+30BB,0x30BB,KATAKANA LETTER SE|}$2",
+        ],
+        "description": [
+            "Code: U+30BB",
+            "Character/Symbol: セ",
+            "Name: KATAKANA LETTER SE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ゼ U+30BC KATAKANA LETTER ZE": 
+    {
+        "prefix": [
+            "..U.30BC",
+            "..U.KATAKANA LETTER ZE",
+            "U+30BC",
+        ],
+        "body": [
+            "${1|ゼ,&#x30BC;,U+30BC,0x30BC,KATAKANA LETTER ZE|}$2",
+        ],
+        "description": [
+            "Code: U+30BC",
+            "Character/Symbol: ゼ",
+            "Name: KATAKANA LETTER ZE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ソ U+30BD KATAKANA LETTER SO": 
+    {
+        "prefix": [
+            "..U.30BD",
+            "..U.KATAKANA LETTER SO",
+            "U+30BD",
+        ],
+        "body": [
+            "${1|ソ,&#x30BD;,U+30BD,0x30BD,KATAKANA LETTER SO|}$2",
+        ],
+        "description": [
+            "Code: U+30BD",
+            "Character/Symbol: ソ",
+            "Name: KATAKANA LETTER SO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ゾ U+30BE KATAKANA LETTER ZO": 
+    {
+        "prefix": [
+            "..U.30BE",
+            "..U.KATAKANA LETTER ZO",
+            "U+30BE",
+        ],
+        "body": [
+            "${1|ゾ,&#x30BE;,U+30BE,0x30BE,KATAKANA LETTER ZO|}$2",
+        ],
+        "description": [
+            "Code: U+30BE",
+            "Character/Symbol: ゾ",
+            "Name: KATAKANA LETTER ZO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode タ U+30BF KATAKANA LETTER TA": 
+    {
+        "prefix": [
+            "..U.30BF",
+            "..U.KATAKANA LETTER TA",
+            "U+30BF",
+        ],
+        "body": [
+            "${1|タ,&#x30BF;,U+30BF,0x30BF,KATAKANA LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+30BF",
+            "Character/Symbol: タ",
+            "Name: KATAKANA LETTER TA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ダ U+30C0 KATAKANA LETTER DA": 
+    {
+        "prefix": [
+            "..U.30C0",
+            "..U.KATAKANA LETTER DA",
+            "U+30C0",
+        ],
+        "body": [
+            "${1|ダ,&#x30C0;,U+30C0,0x30C0,KATAKANA LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+30C0",
+            "Character/Symbol: ダ",
+            "Name: KATAKANA LETTER DA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode チ U+30C1 KATAKANA LETTER TI": 
+    {
+        "prefix": [
+            "..U.30C1",
+            "..U.KATAKANA LETTER TI",
+            "U+30C1",
+        ],
+        "body": [
+            "${1|チ,&#x30C1;,U+30C1,0x30C1,KATAKANA LETTER TI|}$2",
+        ],
+        "description": [
+            "Code: U+30C1",
+            "Character/Symbol: チ",
+            "Name: KATAKANA LETTER TI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヂ U+30C2 KATAKANA LETTER DI": 
+    {
+        "prefix": [
+            "..U.30C2",
+            "..U.KATAKANA LETTER DI",
+            "U+30C2",
+        ],
+        "body": [
+            "${1|ヂ,&#x30C2;,U+30C2,0x30C2,KATAKANA LETTER DI|}$2",
+        ],
+        "description": [
+            "Code: U+30C2",
+            "Character/Symbol: ヂ",
+            "Name: KATAKANA LETTER DI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ッ U+30C3 KATAKANA LETTER SMALL TU": 
+    {
+        "prefix": [
+            "..U.30C3",
+            "..U.KATAKANA LETTER SMALL TU",
+            "U+30C3",
+        ],
+        "body": [
+            "${1|ッ,&#x30C3;,U+30C3,0x30C3,KATAKANA LETTER SMALL TU|}$2",
+        ],
+        "description": [
+            "Code: U+30C3",
+            "Character/Symbol: ッ",
+            "Name: KATAKANA LETTER SMALL TU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ツ U+30C4 KATAKANA LETTER TU": 
+    {
+        "prefix": [
+            "..U.30C4",
+            "..U.KATAKANA LETTER TU",
+            "U+30C4",
+        ],
+        "body": [
+            "${1|ツ,&#x30C4;,U+30C4,0x30C4,KATAKANA LETTER TU|}$2",
+        ],
+        "description": [
+            "Code: U+30C4",
+            "Character/Symbol: ツ",
+            "Name: KATAKANA LETTER TU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヅ U+30C5 KATAKANA LETTER DU": 
+    {
+        "prefix": [
+            "..U.30C5",
+            "..U.KATAKANA LETTER DU",
+            "U+30C5",
+        ],
+        "body": [
+            "${1|ヅ,&#x30C5;,U+30C5,0x30C5,KATAKANA LETTER DU|}$2",
+        ],
+        "description": [
+            "Code: U+30C5",
+            "Character/Symbol: ヅ",
+            "Name: KATAKANA LETTER DU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode テ U+30C6 KATAKANA LETTER TE": 
+    {
+        "prefix": [
+            "..U.30C6",
+            "..U.KATAKANA LETTER TE",
+            "U+30C6",
+        ],
+        "body": [
+            "${1|テ,&#x30C6;,U+30C6,0x30C6,KATAKANA LETTER TE|}$2",
+        ],
+        "description": [
+            "Code: U+30C6",
+            "Character/Symbol: テ",
+            "Name: KATAKANA LETTER TE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode デ U+30C7 KATAKANA LETTER DE": 
+    {
+        "prefix": [
+            "..U.30C7",
+            "..U.KATAKANA LETTER DE",
+            "U+30C7",
+        ],
+        "body": [
+            "${1|デ,&#x30C7;,U+30C7,0x30C7,KATAKANA LETTER DE|}$2",
+        ],
+        "description": [
+            "Code: U+30C7",
+            "Character/Symbol: デ",
+            "Name: KATAKANA LETTER DE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ト U+30C8 KATAKANA LETTER TO": 
+    {
+        "prefix": [
+            "..U.30C8",
+            "..U.KATAKANA LETTER TO",
+            "U+30C8",
+        ],
+        "body": [
+            "${1|ト,&#x30C8;,U+30C8,0x30C8,KATAKANA LETTER TO|}$2",
+        ],
+        "description": [
+            "Code: U+30C8",
+            "Character/Symbol: ト",
+            "Name: KATAKANA LETTER TO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ド U+30C9 KATAKANA LETTER DO": 
+    {
+        "prefix": [
+            "..U.30C9",
+            "..U.KATAKANA LETTER DO",
+            "U+30C9",
+        ],
+        "body": [
+            "${1|ド,&#x30C9;,U+30C9,0x30C9,KATAKANA LETTER DO|}$2",
+        ],
+        "description": [
+            "Code: U+30C9",
+            "Character/Symbol: ド",
+            "Name: KATAKANA LETTER DO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ナ U+30CA KATAKANA LETTER NA": 
+    {
+        "prefix": [
+            "..U.30CA",
+            "..U.KATAKANA LETTER NA",
+            "U+30CA",
+        ],
+        "body": [
+            "${1|ナ,&#x30CA;,U+30CA,0x30CA,KATAKANA LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+30CA",
+            "Character/Symbol: ナ",
+            "Name: KATAKANA LETTER NA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ニ U+30CB KATAKANA LETTER NI": 
+    {
+        "prefix": [
+            "..U.30CB",
+            "..U.KATAKANA LETTER NI",
+            "U+30CB",
+        ],
+        "body": [
+            "${1|ニ,&#x30CB;,U+30CB,0x30CB,KATAKANA LETTER NI|}$2",
+        ],
+        "description": [
+            "Code: U+30CB",
+            "Character/Symbol: ニ",
+            "Name: KATAKANA LETTER NI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヌ U+30CC KATAKANA LETTER NU": 
+    {
+        "prefix": [
+            "..U.30CC",
+            "..U.KATAKANA LETTER NU",
+            "U+30CC",
+        ],
+        "body": [
+            "${1|ヌ,&#x30CC;,U+30CC,0x30CC,KATAKANA LETTER NU|}$2",
+        ],
+        "description": [
+            "Code: U+30CC",
+            "Character/Symbol: ヌ",
+            "Name: KATAKANA LETTER NU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ネ U+30CD KATAKANA LETTER NE": 
+    {
+        "prefix": [
+            "..U.30CD",
+            "..U.KATAKANA LETTER NE",
+            "U+30CD",
+        ],
+        "body": [
+            "${1|ネ,&#x30CD;,U+30CD,0x30CD,KATAKANA LETTER NE|}$2",
+        ],
+        "description": [
+            "Code: U+30CD",
+            "Character/Symbol: ネ",
+            "Name: KATAKANA LETTER NE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ノ U+30CE KATAKANA LETTER NO": 
+    {
+        "prefix": [
+            "..U.30CE",
+            "..U.KATAKANA LETTER NO",
+            "U+30CE",
+        ],
+        "body": [
+            "${1|ノ,&#x30CE;,U+30CE,0x30CE,KATAKANA LETTER NO|}$2",
+        ],
+        "description": [
+            "Code: U+30CE",
+            "Character/Symbol: ノ",
+            "Name: KATAKANA LETTER NO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ハ U+30CF KATAKANA LETTER HA": 
+    {
+        "prefix": [
+            "..U.30CF",
+            "..U.KATAKANA LETTER HA",
+            "U+30CF",
+        ],
+        "body": [
+            "${1|ハ,&#x30CF;,U+30CF,0x30CF,KATAKANA LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+30CF",
+            "Character/Symbol: ハ",
+            "Name: KATAKANA LETTER HA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode バ U+30D0 KATAKANA LETTER BA": 
+    {
+        "prefix": [
+            "..U.30D0",
+            "..U.KATAKANA LETTER BA",
+            "U+30D0",
+        ],
+        "body": [
+            "${1|バ,&#x30D0;,U+30D0,0x30D0,KATAKANA LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+30D0",
+            "Character/Symbol: バ",
+            "Name: KATAKANA LETTER BA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode パ U+30D1 KATAKANA LETTER PA": 
+    {
+        "prefix": [
+            "..U.30D1",
+            "..U.KATAKANA LETTER PA",
+            "U+30D1",
+        ],
+        "body": [
+            "${1|パ,&#x30D1;,U+30D1,0x30D1,KATAKANA LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+30D1",
+            "Character/Symbol: パ",
+            "Name: KATAKANA LETTER PA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヒ U+30D2 KATAKANA LETTER HI": 
+    {
+        "prefix": [
+            "..U.30D2",
+            "..U.KATAKANA LETTER HI",
+            "U+30D2",
+        ],
+        "body": [
+            "${1|ヒ,&#x30D2;,U+30D2,0x30D2,KATAKANA LETTER HI|}$2",
+        ],
+        "description": [
+            "Code: U+30D2",
+            "Character/Symbol: ヒ",
+            "Name: KATAKANA LETTER HI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ビ U+30D3 KATAKANA LETTER BI": 
+    {
+        "prefix": [
+            "..U.30D3",
+            "..U.KATAKANA LETTER BI",
+            "U+30D3",
+        ],
+        "body": [
+            "${1|ビ,&#x30D3;,U+30D3,0x30D3,KATAKANA LETTER BI|}$2",
+        ],
+        "description": [
+            "Code: U+30D3",
+            "Character/Symbol: ビ",
+            "Name: KATAKANA LETTER BI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ピ U+30D4 KATAKANA LETTER PI": 
+    {
+        "prefix": [
+            "..U.30D4",
+            "..U.KATAKANA LETTER PI",
+            "U+30D4",
+        ],
+        "body": [
+            "${1|ピ,&#x30D4;,U+30D4,0x30D4,KATAKANA LETTER PI|}$2",
+        ],
+        "description": [
+            "Code: U+30D4",
+            "Character/Symbol: ピ",
+            "Name: KATAKANA LETTER PI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode フ U+30D5 KATAKANA LETTER HU": 
+    {
+        "prefix": [
+            "..U.30D5",
+            "..U.KATAKANA LETTER HU",
+            "U+30D5",
+        ],
+        "body": [
+            "${1|フ,&#x30D5;,U+30D5,0x30D5,KATAKANA LETTER HU|}$2",
+        ],
+        "description": [
+            "Code: U+30D5",
+            "Character/Symbol: フ",
+            "Name: KATAKANA LETTER HU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ブ U+30D6 KATAKANA LETTER BU": 
+    {
+        "prefix": [
+            "..U.30D6",
+            "..U.KATAKANA LETTER BU",
+            "U+30D6",
+        ],
+        "body": [
+            "${1|ブ,&#x30D6;,U+30D6,0x30D6,KATAKANA LETTER BU|}$2",
+        ],
+        "description": [
+            "Code: U+30D6",
+            "Character/Symbol: ブ",
+            "Name: KATAKANA LETTER BU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode プ U+30D7 KATAKANA LETTER PU": 
+    {
+        "prefix": [
+            "..U.30D7",
+            "..U.KATAKANA LETTER PU",
+            "U+30D7",
+        ],
+        "body": [
+            "${1|プ,&#x30D7;,U+30D7,0x30D7,KATAKANA LETTER PU|}$2",
+        ],
+        "description": [
+            "Code: U+30D7",
+            "Character/Symbol: プ",
+            "Name: KATAKANA LETTER PU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヘ U+30D8 KATAKANA LETTER HE": 
+    {
+        "prefix": [
+            "..U.30D8",
+            "..U.KATAKANA LETTER HE",
+            "U+30D8",
+        ],
+        "body": [
+            "${1|ヘ,&#x30D8;,U+30D8,0x30D8,KATAKANA LETTER HE|}$2",
+        ],
+        "description": [
+            "Code: U+30D8",
+            "Character/Symbol: ヘ",
+            "Name: KATAKANA LETTER HE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ベ U+30D9 KATAKANA LETTER BE": 
+    {
+        "prefix": [
+            "..U.30D9",
+            "..U.KATAKANA LETTER BE",
+            "U+30D9",
+        ],
+        "body": [
+            "${1|ベ,&#x30D9;,U+30D9,0x30D9,KATAKANA LETTER BE|}$2",
+        ],
+        "description": [
+            "Code: U+30D9",
+            "Character/Symbol: ベ",
+            "Name: KATAKANA LETTER BE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ペ U+30DA KATAKANA LETTER PE": 
+    {
+        "prefix": [
+            "..U.30DA",
+            "..U.KATAKANA LETTER PE",
+            "U+30DA",
+        ],
+        "body": [
+            "${1|ペ,&#x30DA;,U+30DA,0x30DA,KATAKANA LETTER PE|}$2",
+        ],
+        "description": [
+            "Code: U+30DA",
+            "Character/Symbol: ペ",
+            "Name: KATAKANA LETTER PE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ホ U+30DB KATAKANA LETTER HO": 
+    {
+        "prefix": [
+            "..U.30DB",
+            "..U.KATAKANA LETTER HO",
+            "U+30DB",
+        ],
+        "body": [
+            "${1|ホ,&#x30DB;,U+30DB,0x30DB,KATAKANA LETTER HO|}$2",
+        ],
+        "description": [
+            "Code: U+30DB",
+            "Character/Symbol: ホ",
+            "Name: KATAKANA LETTER HO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ボ U+30DC KATAKANA LETTER BO": 
+    {
+        "prefix": [
+            "..U.30DC",
+            "..U.KATAKANA LETTER BO",
+            "U+30DC",
+        ],
+        "body": [
+            "${1|ボ,&#x30DC;,U+30DC,0x30DC,KATAKANA LETTER BO|}$2",
+        ],
+        "description": [
+            "Code: U+30DC",
+            "Character/Symbol: ボ",
+            "Name: KATAKANA LETTER BO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ポ U+30DD KATAKANA LETTER PO": 
+    {
+        "prefix": [
+            "..U.30DD",
+            "..U.KATAKANA LETTER PO",
+            "U+30DD",
+        ],
+        "body": [
+            "${1|ポ,&#x30DD;,U+30DD,0x30DD,KATAKANA LETTER PO|}$2",
+        ],
+        "description": [
+            "Code: U+30DD",
+            "Character/Symbol: ポ",
+            "Name: KATAKANA LETTER PO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode マ U+30DE KATAKANA LETTER MA": 
+    {
+        "prefix": [
+            "..U.30DE",
+            "..U.KATAKANA LETTER MA",
+            "U+30DE",
+        ],
+        "body": [
+            "${1|マ,&#x30DE;,U+30DE,0x30DE,KATAKANA LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+30DE",
+            "Character/Symbol: マ",
+            "Name: KATAKANA LETTER MA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ミ U+30DF KATAKANA LETTER MI": 
+    {
+        "prefix": [
+            "..U.30DF",
+            "..U.KATAKANA LETTER MI",
+            "U+30DF",
+        ],
+        "body": [
+            "${1|ミ,&#x30DF;,U+30DF,0x30DF,KATAKANA LETTER MI|}$2",
+        ],
+        "description": [
+            "Code: U+30DF",
+            "Character/Symbol: ミ",
+            "Name: KATAKANA LETTER MI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ム U+30E0 KATAKANA LETTER MU": 
+    {
+        "prefix": [
+            "..U.30E0",
+            "..U.KATAKANA LETTER MU",
+            "U+30E0",
+        ],
+        "body": [
+            "${1|ム,&#x30E0;,U+30E0,0x30E0,KATAKANA LETTER MU|}$2",
+        ],
+        "description": [
+            "Code: U+30E0",
+            "Character/Symbol: ム",
+            "Name: KATAKANA LETTER MU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode メ U+30E1 KATAKANA LETTER ME": 
+    {
+        "prefix": [
+            "..U.30E1",
+            "..U.KATAKANA LETTER ME",
+            "U+30E1",
+        ],
+        "body": [
+            "${1|メ,&#x30E1;,U+30E1,0x30E1,KATAKANA LETTER ME|}$2",
+        ],
+        "description": [
+            "Code: U+30E1",
+            "Character/Symbol: メ",
+            "Name: KATAKANA LETTER ME",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode モ U+30E2 KATAKANA LETTER MO": 
+    {
+        "prefix": [
+            "..U.30E2",
+            "..U.KATAKANA LETTER MO",
+            "U+30E2",
+        ],
+        "body": [
+            "${1|モ,&#x30E2;,U+30E2,0x30E2,KATAKANA LETTER MO|}$2",
+        ],
+        "description": [
+            "Code: U+30E2",
+            "Character/Symbol: モ",
+            "Name: KATAKANA LETTER MO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ャ U+30E3 KATAKANA LETTER SMALL YA": 
+    {
+        "prefix": [
+            "..U.30E3",
+            "..U.KATAKANA LETTER SMALL YA",
+            "U+30E3",
+        ],
+        "body": [
+            "${1|ャ,&#x30E3;,U+30E3,0x30E3,KATAKANA LETTER SMALL YA|}$2",
+        ],
+        "description": [
+            "Code: U+30E3",
+            "Character/Symbol: ャ",
+            "Name: KATAKANA LETTER SMALL YA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヤ U+30E4 KATAKANA LETTER YA": 
+    {
+        "prefix": [
+            "..U.30E4",
+            "..U.KATAKANA LETTER YA",
+            "U+30E4",
+        ],
+        "body": [
+            "${1|ヤ,&#x30E4;,U+30E4,0x30E4,KATAKANA LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+30E4",
+            "Character/Symbol: ヤ",
+            "Name: KATAKANA LETTER YA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ュ U+30E5 KATAKANA LETTER SMALL YU": 
+    {
+        "prefix": [
+            "..U.30E5",
+            "..U.KATAKANA LETTER SMALL YU",
+            "U+30E5",
+        ],
+        "body": [
+            "${1|ュ,&#x30E5;,U+30E5,0x30E5,KATAKANA LETTER SMALL YU|}$2",
+        ],
+        "description": [
+            "Code: U+30E5",
+            "Character/Symbol: ュ",
+            "Name: KATAKANA LETTER SMALL YU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ユ U+30E6 KATAKANA LETTER YU": 
+    {
+        "prefix": [
+            "..U.30E6",
+            "..U.KATAKANA LETTER YU",
+            "U+30E6",
+        ],
+        "body": [
+            "${1|ユ,&#x30E6;,U+30E6,0x30E6,KATAKANA LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+30E6",
+            "Character/Symbol: ユ",
+            "Name: KATAKANA LETTER YU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ョ U+30E7 KATAKANA LETTER SMALL YO": 
+    {
+        "prefix": [
+            "..U.30E7",
+            "..U.KATAKANA LETTER SMALL YO",
+            "U+30E7",
+        ],
+        "body": [
+            "${1|ョ,&#x30E7;,U+30E7,0x30E7,KATAKANA LETTER SMALL YO|}$2",
+        ],
+        "description": [
+            "Code: U+30E7",
+            "Character/Symbol: ョ",
+            "Name: KATAKANA LETTER SMALL YO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヨ U+30E8 KATAKANA LETTER YO": 
+    {
+        "prefix": [
+            "..U.30E8",
+            "..U.KATAKANA LETTER YO",
+            "U+30E8",
+        ],
+        "body": [
+            "${1|ヨ,&#x30E8;,U+30E8,0x30E8,KATAKANA LETTER YO|}$2",
+        ],
+        "description": [
+            "Code: U+30E8",
+            "Character/Symbol: ヨ",
+            "Name: KATAKANA LETTER YO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ラ U+30E9 KATAKANA LETTER RA": 
+    {
+        "prefix": [
+            "..U.30E9",
+            "..U.KATAKANA LETTER RA",
+            "U+30E9",
+        ],
+        "body": [
+            "${1|ラ,&#x30E9;,U+30E9,0x30E9,KATAKANA LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+30E9",
+            "Character/Symbol: ラ",
+            "Name: KATAKANA LETTER RA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode リ U+30EA KATAKANA LETTER RI": 
+    {
+        "prefix": [
+            "..U.30EA",
+            "..U.KATAKANA LETTER RI",
+            "U+30EA",
+        ],
+        "body": [
+            "${1|リ,&#x30EA;,U+30EA,0x30EA,KATAKANA LETTER RI|}$2",
+        ],
+        "description": [
+            "Code: U+30EA",
+            "Character/Symbol: リ",
+            "Name: KATAKANA LETTER RI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ル U+30EB KATAKANA LETTER RU": 
+    {
+        "prefix": [
+            "..U.30EB",
+            "..U.KATAKANA LETTER RU",
+            "U+30EB",
+        ],
+        "body": [
+            "${1|ル,&#x30EB;,U+30EB,0x30EB,KATAKANA LETTER RU|}$2",
+        ],
+        "description": [
+            "Code: U+30EB",
+            "Character/Symbol: ル",
+            "Name: KATAKANA LETTER RU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode レ U+30EC KATAKANA LETTER RE": 
+    {
+        "prefix": [
+            "..U.30EC",
+            "..U.KATAKANA LETTER RE",
+            "U+30EC",
+        ],
+        "body": [
+            "${1|レ,&#x30EC;,U+30EC,0x30EC,KATAKANA LETTER RE|}$2",
+        ],
+        "description": [
+            "Code: U+30EC",
+            "Character/Symbol: レ",
+            "Name: KATAKANA LETTER RE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ロ U+30ED KATAKANA LETTER RO": 
+    {
+        "prefix": [
+            "..U.30ED",
+            "..U.KATAKANA LETTER RO",
+            "U+30ED",
+        ],
+        "body": [
+            "${1|ロ,&#x30ED;,U+30ED,0x30ED,KATAKANA LETTER RO|}$2",
+        ],
+        "description": [
+            "Code: U+30ED",
+            "Character/Symbol: ロ",
+            "Name: KATAKANA LETTER RO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヮ U+30EE KATAKANA LETTER SMALL WA": 
+    {
+        "prefix": [
+            "..U.30EE",
+            "..U.KATAKANA LETTER SMALL WA",
+            "U+30EE",
+        ],
+        "body": [
+            "${1|ヮ,&#x30EE;,U+30EE,0x30EE,KATAKANA LETTER SMALL WA|}$2",
+        ],
+        "description": [
+            "Code: U+30EE",
+            "Character/Symbol: ヮ",
+            "Name: KATAKANA LETTER SMALL WA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ワ U+30EF KATAKANA LETTER WA": 
+    {
+        "prefix": [
+            "..U.30EF",
+            "..U.KATAKANA LETTER WA",
+            "U+30EF",
+        ],
+        "body": [
+            "${1|ワ,&#x30EF;,U+30EF,0x30EF,KATAKANA LETTER WA|}$2",
+        ],
+        "description": [
+            "Code: U+30EF",
+            "Character/Symbol: ワ",
+            "Name: KATAKANA LETTER WA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヰ U+30F0 KATAKANA LETTER WI": 
+    {
+        "prefix": [
+            "..U.30F0",
+            "..U.KATAKANA LETTER WI",
+            "U+30F0",
+        ],
+        "body": [
+            "${1|ヰ,&#x30F0;,U+30F0,0x30F0,KATAKANA LETTER WI|}$2",
+        ],
+        "description": [
+            "Code: U+30F0",
+            "Character/Symbol: ヰ",
+            "Name: KATAKANA LETTER WI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヱ U+30F1 KATAKANA LETTER WE": 
+    {
+        "prefix": [
+            "..U.30F1",
+            "..U.KATAKANA LETTER WE",
+            "U+30F1",
+        ],
+        "body": [
+            "${1|ヱ,&#x30F1;,U+30F1,0x30F1,KATAKANA LETTER WE|}$2",
+        ],
+        "description": [
+            "Code: U+30F1",
+            "Character/Symbol: ヱ",
+            "Name: KATAKANA LETTER WE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヲ U+30F2 KATAKANA LETTER WO": 
+    {
+        "prefix": [
+            "..U.30F2",
+            "..U.KATAKANA LETTER WO",
+            "U+30F2",
+        ],
+        "body": [
+            "${1|ヲ,&#x30F2;,U+30F2,0x30F2,KATAKANA LETTER WO|}$2",
+        ],
+        "description": [
+            "Code: U+30F2",
+            "Character/Symbol: ヲ",
+            "Name: KATAKANA LETTER WO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ン U+30F3 KATAKANA LETTER N": 
+    {
+        "prefix": [
+            "..U.30F3",
+            "..U.KATAKANA LETTER N",
+            "U+30F3",
+        ],
+        "body": [
+            "${1|ン,&#x30F3;,U+30F3,0x30F3,KATAKANA LETTER N|}$2",
+        ],
+        "description": [
+            "Code: U+30F3",
+            "Character/Symbol: ン",
+            "Name: KATAKANA LETTER N",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヴ U+30F4 KATAKANA LETTER VU": 
+    {
+        "prefix": [
+            "..U.30F4",
+            "..U.KATAKANA LETTER VU",
+            "U+30F4",
+        ],
+        "body": [
+            "${1|ヴ,&#x30F4;,U+30F4,0x30F4,KATAKANA LETTER VU|}$2",
+        ],
+        "description": [
+            "Code: U+30F4",
+            "Character/Symbol: ヴ",
+            "Name: KATAKANA LETTER VU",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヵ U+30F5 KATAKANA LETTER SMALL KA": 
+    {
+        "prefix": [
+            "..U.30F5",
+            "..U.KATAKANA LETTER SMALL KA",
+            "U+30F5",
+        ],
+        "body": [
+            "${1|ヵ,&#x30F5;,U+30F5,0x30F5,KATAKANA LETTER SMALL KA|}$2",
+        ],
+        "description": [
+            "Code: U+30F5",
+            "Character/Symbol: ヵ",
+            "Name: KATAKANA LETTER SMALL KA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヶ U+30F6 KATAKANA LETTER SMALL KE": 
+    {
+        "prefix": [
+            "..U.30F6",
+            "..U.KATAKANA LETTER SMALL KE",
+            "U+30F6",
+        ],
+        "body": [
+            "${1|ヶ,&#x30F6;,U+30F6,0x30F6,KATAKANA LETTER SMALL KE|}$2",
+        ],
+        "description": [
+            "Code: U+30F6",
+            "Character/Symbol: ヶ",
+            "Name: KATAKANA LETTER SMALL KE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヷ U+30F7 KATAKANA LETTER VA": 
+    {
+        "prefix": [
+            "..U.30F7",
+            "..U.KATAKANA LETTER VA",
+            "U+30F7",
+        ],
+        "body": [
+            "${1|ヷ,&#x30F7;,U+30F7,0x30F7,KATAKANA LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+30F7",
+            "Character/Symbol: ヷ",
+            "Name: KATAKANA LETTER VA",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヸ U+30F8 KATAKANA LETTER VI": 
+    {
+        "prefix": [
+            "..U.30F8",
+            "..U.KATAKANA LETTER VI",
+            "U+30F8",
+        ],
+        "body": [
+            "${1|ヸ,&#x30F8;,U+30F8,0x30F8,KATAKANA LETTER VI|}$2",
+        ],
+        "description": [
+            "Code: U+30F8",
+            "Character/Symbol: ヸ",
+            "Name: KATAKANA LETTER VI",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヹ U+30F9 KATAKANA LETTER VE": 
+    {
+        "prefix": [
+            "..U.30F9",
+            "..U.KATAKANA LETTER VE",
+            "U+30F9",
+        ],
+        "body": [
+            "${1|ヹ,&#x30F9;,U+30F9,0x30F9,KATAKANA LETTER VE|}$2",
+        ],
+        "description": [
+            "Code: U+30F9",
+            "Character/Symbol: ヹ",
+            "Name: KATAKANA LETTER VE",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヺ U+30FA KATAKANA LETTER VO": 
+    {
+        "prefix": [
+            "..U.30FA",
+            "..U.KATAKANA LETTER VO",
+            "U+30FA",
+        ],
+        "body": [
+            "${1|ヺ,&#x30FA;,U+30FA,0x30FA,KATAKANA LETTER VO|}$2",
+        ],
+        "description": [
+            "Code: U+30FA",
+            "Character/Symbol: ヺ",
+            "Name: KATAKANA LETTER VO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ・ U+30FB KATAKANA MIDDLE DOT": 
+    {
+        "prefix": [
+            "..U.30FB",
+            "..U.KATAKANA MIDDLE DOT",
+            "U+30FB",
+        ],
+        "body": [
+            "${1|・,&#x30FB;,U+30FB,0x30FB,KATAKANA MIDDLE DOT|}$2",
+        ],
+        "description": [
+            "Code: U+30FB",
+            "Character/Symbol: ・",
+            "Name: KATAKANA MIDDLE DOT",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ー U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK": 
+    {
+        "prefix": [
+            "..U.30FC",
+            "..U.KATAKANA-HIRAGANA PROLONGED SOUND MARK",
+            "U+30FC",
+        ],
+        "body": [
+            "${1|ー,&#x30FC;,U+30FC,0x30FC,KATAKANA-HIRAGANA PROLONGED SOUND MARK|}$2",
+        ],
+        "description": [
+            "Code: U+30FC",
+            "Character/Symbol: ー",
+            "Name: KATAKANA-HIRAGANA PROLONGED SOUND MARK",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヽ U+30FD KATAKANA ITERATION MARK": 
+    {
+        "prefix": [
+            "..U.30FD",
+            "..U.KATAKANA ITERATION MARK",
+            "U+30FD",
+        ],
+        "body": [
+            "${1|ヽ,&#x30FD;,U+30FD,0x30FD,KATAKANA ITERATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+30FD",
+            "Character/Symbol: ヽ",
+            "Name: KATAKANA ITERATION MARK",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヾ U+30FE KATAKANA VOICED ITERATION MARK": 
+    {
+        "prefix": [
+            "..U.30FE",
+            "..U.KATAKANA VOICED ITERATION MARK",
+            "U+30FE",
+        ],
+        "body": [
+            "${1|ヾ,&#x30FE;,U+30FE,0x30FE,KATAKANA VOICED ITERATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+30FE",
+            "Character/Symbol: ヾ",
+            "Name: KATAKANA VOICED ITERATION MARK",
+            "Group/Block: Katakana",
+        ],
+    },
+
+    "Unicode ヿ U+30FF KATAKANA DIGRAPH KOTO": 
+    {
+        "prefix": [
+            "..U.30FF",
+            "..U.KATAKANA DIGRAPH KOTO",
+            "U+30FF",
+        ],
+        "body": [
+            "${1|ヿ,&#x30FF;,U+30FF,0x30FF,KATAKANA DIGRAPH KOTO|}$2",
+        ],
+        "description": [
+            "Code: U+30FF",
+            "Character/Symbol: ヿ",
+            "Name: KATAKANA DIGRAPH KOTO",
+            "Group/Block: Katakana",
+        ],
+    },
+
+}

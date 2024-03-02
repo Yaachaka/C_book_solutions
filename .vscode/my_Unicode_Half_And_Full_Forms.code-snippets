@@ -1,0 +1,4052 @@
+{
+    "Unicode ！ U+FF01 FULLWIDTH EXCLAMATION MARK": 
+    {
+        "prefix": [
+            "..U.FF01",
+            "..U.FULLWIDTH EXCLAMATION MARK",
+            "U+FF01",
+        ],
+        "body": [
+            "${1|！,&#xFF01;,U+FF01,0xFF01,FULLWIDTH EXCLAMATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+FF01",
+            "Character/Symbol: ！",
+            "Name: FULLWIDTH EXCLAMATION MARK",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＂ U+FF02 FULLWIDTH QUOTATION MARK": 
+    {
+        "prefix": [
+            "..U.FF02",
+            "..U.FULLWIDTH QUOTATION MARK",
+            "U+FF02",
+        ],
+        "body": [
+            "${1|＂,&#xFF02;,U+FF02,0xFF02,FULLWIDTH QUOTATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+FF02",
+            "Character/Symbol: ＂",
+            "Name: FULLWIDTH QUOTATION MARK",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＃ U+FF03 FULLWIDTH NUMBER SIGN": 
+    {
+        "prefix": [
+            "..U.FF03",
+            "..U.FULLWIDTH NUMBER SIGN",
+            "U+FF03",
+        ],
+        "body": [
+            "${1|＃,&#xFF03;,U+FF03,0xFF03,FULLWIDTH NUMBER SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FF03",
+            "Character/Symbol: ＃",
+            "Name: FULLWIDTH NUMBER SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＄ U+FF04 FULLWIDTH DOLLAR SIGN": 
+    {
+        "prefix": [
+            "..U.FF04",
+            "..U.FULLWIDTH DOLLAR SIGN",
+            "U+FF04",
+        ],
+        "body": [
+            "${1|＄,&#xFF04;,U+FF04,0xFF04,FULLWIDTH DOLLAR SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FF04",
+            "Character/Symbol: ＄",
+            "Name: FULLWIDTH DOLLAR SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ％ U+FF05 FULLWIDTH PERCENT SIGN": 
+    {
+        "prefix": [
+            "..U.FF05",
+            "..U.FULLWIDTH PERCENT SIGN",
+            "U+FF05",
+        ],
+        "body": [
+            "${1|％,&#xFF05;,U+FF05,0xFF05,FULLWIDTH PERCENT SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FF05",
+            "Character/Symbol: ％",
+            "Name: FULLWIDTH PERCENT SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＆ U+FF06 FULLWIDTH AMPERSAND": 
+    {
+        "prefix": [
+            "..U.FF06",
+            "..U.FULLWIDTH AMPERSAND",
+            "U+FF06",
+        ],
+        "body": [
+            "${1|＆,&#xFF06;,U+FF06,0xFF06,FULLWIDTH AMPERSAND|}$2",
+        ],
+        "description": [
+            "Code: U+FF06",
+            "Character/Symbol: ＆",
+            "Name: FULLWIDTH AMPERSAND",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＇ U+FF07 FULLWIDTH APOSTROPHE": 
+    {
+        "prefix": [
+            "..U.FF07",
+            "..U.FULLWIDTH APOSTROPHE",
+            "U+FF07",
+        ],
+        "body": [
+            "${1|＇,&#xFF07;,U+FF07,0xFF07,FULLWIDTH APOSTROPHE|}$2",
+        ],
+        "description": [
+            "Code: U+FF07",
+            "Character/Symbol: ＇",
+            "Name: FULLWIDTH APOSTROPHE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode （ U+FF08 FULLWIDTH LEFT PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.FF08",
+            "..U.FULLWIDTH LEFT PARENTHESIS",
+            "U+FF08",
+        ],
+        "body": [
+            "${1|（,&#xFF08;,U+FF08,0xFF08,FULLWIDTH LEFT PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+FF08",
+            "Character/Symbol: （",
+            "Name: FULLWIDTH LEFT PARENTHESIS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ） U+FF09 FULLWIDTH RIGHT PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.FF09",
+            "..U.FULLWIDTH RIGHT PARENTHESIS",
+            "U+FF09",
+        ],
+        "body": [
+            "${1|）,&#xFF09;,U+FF09,0xFF09,FULLWIDTH RIGHT PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+FF09",
+            "Character/Symbol: ）",
+            "Name: FULLWIDTH RIGHT PARENTHESIS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＊ U+FF0A FULLWIDTH ASTERISK": 
+    {
+        "prefix": [
+            "..U.FF0A",
+            "..U.FULLWIDTH ASTERISK",
+            "U+FF0A",
+        ],
+        "body": [
+            "${1|＊,&#xFF0A;,U+FF0A,0xFF0A,FULLWIDTH ASTERISK|}$2",
+        ],
+        "description": [
+            "Code: U+FF0A",
+            "Character/Symbol: ＊",
+            "Name: FULLWIDTH ASTERISK",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＋ U+FF0B FULLWIDTH PLUS SIGN": 
+    {
+        "prefix": [
+            "..U.FF0B",
+            "..U.FULLWIDTH PLUS SIGN",
+            "U+FF0B",
+        ],
+        "body": [
+            "${1|＋,&#xFF0B;,U+FF0B,0xFF0B,FULLWIDTH PLUS SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FF0B",
+            "Character/Symbol: ＋",
+            "Name: FULLWIDTH PLUS SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ， U+FF0C FULLWIDTH COMMA": 
+    {
+        "prefix": [
+            "..U.FF0C",
+            "..U.FULLWIDTH COMMA",
+            "U+FF0C",
+        ],
+        "body": [
+            "${1|，,&#xFF0C;,U+FF0C,0xFF0C,FULLWIDTH COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+FF0C",
+            "Character/Symbol: ，",
+            "Name: FULLWIDTH COMMA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode － U+FF0D FULLWIDTH HYPHEN-MINUS": 
+    {
+        "prefix": [
+            "..U.FF0D",
+            "..U.FULLWIDTH HYPHEN-MINUS",
+            "U+FF0D",
+        ],
+        "body": [
+            "${1|－,&#xFF0D;,U+FF0D,0xFF0D,FULLWIDTH HYPHEN-MINUS|}$2",
+        ],
+        "description": [
+            "Code: U+FF0D",
+            "Character/Symbol: －",
+            "Name: FULLWIDTH HYPHEN-MINUS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ． U+FF0E FULLWIDTH FULL STOP": 
+    {
+        "prefix": [
+            "..U.FF0E",
+            "..U.FULLWIDTH FULL STOP",
+            "U+FF0E",
+        ],
+        "body": [
+            "${1|．,&#xFF0E;,U+FF0E,0xFF0E,FULLWIDTH FULL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+FF0E",
+            "Character/Symbol: ．",
+            "Name: FULLWIDTH FULL STOP",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ／ U+FF0F FULLWIDTH SOLIDUS": 
+    {
+        "prefix": [
+            "..U.FF0F",
+            "..U.FULLWIDTH SOLIDUS",
+            "U+FF0F",
+        ],
+        "body": [
+            "${1|／,&#xFF0F;,U+FF0F,0xFF0F,FULLWIDTH SOLIDUS|}$2",
+        ],
+        "description": [
+            "Code: U+FF0F",
+            "Character/Symbol: ／",
+            "Name: FULLWIDTH SOLIDUS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ０ U+FF10 FULLWIDTH DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.FF10",
+            "..U.FULLWIDTH DIGIT ZERO",
+            "U+FF10",
+        ],
+        "body": [
+            "${1|０,&#xFF10;,U+FF10,0xFF10,FULLWIDTH DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+FF10",
+            "Character/Symbol: ０",
+            "Name: FULLWIDTH DIGIT ZERO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode １ U+FF11 FULLWIDTH DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.FF11",
+            "..U.FULLWIDTH DIGIT ONE",
+            "U+FF11",
+        ],
+        "body": [
+            "${1|１,&#xFF11;,U+FF11,0xFF11,FULLWIDTH DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+FF11",
+            "Character/Symbol: １",
+            "Name: FULLWIDTH DIGIT ONE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ２ U+FF12 FULLWIDTH DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.FF12",
+            "..U.FULLWIDTH DIGIT TWO",
+            "U+FF12",
+        ],
+        "body": [
+            "${1|２,&#xFF12;,U+FF12,0xFF12,FULLWIDTH DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+FF12",
+            "Character/Symbol: ２",
+            "Name: FULLWIDTH DIGIT TWO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ３ U+FF13 FULLWIDTH DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.FF13",
+            "..U.FULLWIDTH DIGIT THREE",
+            "U+FF13",
+        ],
+        "body": [
+            "${1|３,&#xFF13;,U+FF13,0xFF13,FULLWIDTH DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+FF13",
+            "Character/Symbol: ３",
+            "Name: FULLWIDTH DIGIT THREE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ４ U+FF14 FULLWIDTH DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.FF14",
+            "..U.FULLWIDTH DIGIT FOUR",
+            "U+FF14",
+        ],
+        "body": [
+            "${1|４,&#xFF14;,U+FF14,0xFF14,FULLWIDTH DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+FF14",
+            "Character/Symbol: ４",
+            "Name: FULLWIDTH DIGIT FOUR",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ５ U+FF15 FULLWIDTH DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.FF15",
+            "..U.FULLWIDTH DIGIT FIVE",
+            "U+FF15",
+        ],
+        "body": [
+            "${1|５,&#xFF15;,U+FF15,0xFF15,FULLWIDTH DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+FF15",
+            "Character/Symbol: ５",
+            "Name: FULLWIDTH DIGIT FIVE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ６ U+FF16 FULLWIDTH DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.FF16",
+            "..U.FULLWIDTH DIGIT SIX",
+            "U+FF16",
+        ],
+        "body": [
+            "${1|６,&#xFF16;,U+FF16,0xFF16,FULLWIDTH DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+FF16",
+            "Character/Symbol: ６",
+            "Name: FULLWIDTH DIGIT SIX",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ７ U+FF17 FULLWIDTH DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.FF17",
+            "..U.FULLWIDTH DIGIT SEVEN",
+            "U+FF17",
+        ],
+        "body": [
+            "${1|７,&#xFF17;,U+FF17,0xFF17,FULLWIDTH DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+FF17",
+            "Character/Symbol: ７",
+            "Name: FULLWIDTH DIGIT SEVEN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ８ U+FF18 FULLWIDTH DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.FF18",
+            "..U.FULLWIDTH DIGIT EIGHT",
+            "U+FF18",
+        ],
+        "body": [
+            "${1|８,&#xFF18;,U+FF18,0xFF18,FULLWIDTH DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+FF18",
+            "Character/Symbol: ８",
+            "Name: FULLWIDTH DIGIT EIGHT",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ９ U+FF19 FULLWIDTH DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.FF19",
+            "..U.FULLWIDTH DIGIT NINE",
+            "U+FF19",
+        ],
+        "body": [
+            "${1|９,&#xFF19;,U+FF19,0xFF19,FULLWIDTH DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+FF19",
+            "Character/Symbol: ９",
+            "Name: FULLWIDTH DIGIT NINE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ： U+FF1A FULLWIDTH COLON": 
+    {
+        "prefix": [
+            "..U.FF1A",
+            "..U.FULLWIDTH COLON",
+            "U+FF1A",
+        ],
+        "body": [
+            "${1|：,&#xFF1A;,U+FF1A,0xFF1A,FULLWIDTH COLON|}$2",
+        ],
+        "description": [
+            "Code: U+FF1A",
+            "Character/Symbol: ：",
+            "Name: FULLWIDTH COLON",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ； U+FF1B FULLWIDTH SEMICOLON": 
+    {
+        "prefix": [
+            "..U.FF1B",
+            "..U.FULLWIDTH SEMICOLON",
+            "U+FF1B",
+        ],
+        "body": [
+            "${1|；,&#xFF1B;,U+FF1B,0xFF1B,FULLWIDTH SEMICOLON|}$2",
+        ],
+        "description": [
+            "Code: U+FF1B",
+            "Character/Symbol: ；",
+            "Name: FULLWIDTH SEMICOLON",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＜ U+FF1C FULLWIDTH LESS-THAN SIGN": 
+    {
+        "prefix": [
+            "..U.FF1C",
+            "..U.FULLWIDTH LESS-THAN SIGN",
+            "U+FF1C",
+        ],
+        "body": [
+            "${1|＜,&#xFF1C;,U+FF1C,0xFF1C,FULLWIDTH LESS-THAN SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FF1C",
+            "Character/Symbol: ＜",
+            "Name: FULLWIDTH LESS-THAN SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＝ U+FF1D FULLWIDTH EQUALS SIGN": 
+    {
+        "prefix": [
+            "..U.FF1D",
+            "..U.FULLWIDTH EQUALS SIGN",
+            "U+FF1D",
+        ],
+        "body": [
+            "${1|＝,&#xFF1D;,U+FF1D,0xFF1D,FULLWIDTH EQUALS SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FF1D",
+            "Character/Symbol: ＝",
+            "Name: FULLWIDTH EQUALS SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＞ U+FF1E FULLWIDTH GREATER-THAN SIGN": 
+    {
+        "prefix": [
+            "..U.FF1E",
+            "..U.FULLWIDTH GREATER-THAN SIGN",
+            "U+FF1E",
+        ],
+        "body": [
+            "${1|＞,&#xFF1E;,U+FF1E,0xFF1E,FULLWIDTH GREATER-THAN SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FF1E",
+            "Character/Symbol: ＞",
+            "Name: FULLWIDTH GREATER-THAN SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ？ U+FF1F FULLWIDTH QUESTION MARK": 
+    {
+        "prefix": [
+            "..U.FF1F",
+            "..U.FULLWIDTH QUESTION MARK",
+            "U+FF1F",
+        ],
+        "body": [
+            "${1|？,&#xFF1F;,U+FF1F,0xFF1F,FULLWIDTH QUESTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+FF1F",
+            "Character/Symbol: ？",
+            "Name: FULLWIDTH QUESTION MARK",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＠ U+FF20 FULLWIDTH COMMERCIAL AT": 
+    {
+        "prefix": [
+            "..U.FF20",
+            "..U.FULLWIDTH COMMERCIAL AT",
+            "U+FF20",
+        ],
+        "body": [
+            "${1|＠,&#xFF20;,U+FF20,0xFF20,FULLWIDTH COMMERCIAL AT|}$2",
+        ],
+        "description": [
+            "Code: U+FF20",
+            "Character/Symbol: ＠",
+            "Name: FULLWIDTH COMMERCIAL AT",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ａ U+FF21 FULLWIDTH LATIN CAPITAL LETTER A": 
+    {
+        "prefix": [
+            "..U.FF21",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER A",
+            "U+FF21",
+        ],
+        "body": [
+            "${1|Ａ,&#xFF21;,U+FF21,0xFF21,FULLWIDTH LATIN CAPITAL LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+FF21",
+            "Character/Symbol: Ａ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER A",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｂ U+FF22 FULLWIDTH LATIN CAPITAL LETTER B": 
+    {
+        "prefix": [
+            "..U.FF22",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER B",
+            "U+FF22",
+        ],
+        "body": [
+            "${1|Ｂ,&#xFF22;,U+FF22,0xFF22,FULLWIDTH LATIN CAPITAL LETTER B|}$2",
+        ],
+        "description": [
+            "Code: U+FF22",
+            "Character/Symbol: Ｂ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER B",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｃ U+FF23 FULLWIDTH LATIN CAPITAL LETTER C": 
+    {
+        "prefix": [
+            "..U.FF23",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER C",
+            "U+FF23",
+        ],
+        "body": [
+            "${1|Ｃ,&#xFF23;,U+FF23,0xFF23,FULLWIDTH LATIN CAPITAL LETTER C|}$2",
+        ],
+        "description": [
+            "Code: U+FF23",
+            "Character/Symbol: Ｃ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER C",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｄ U+FF24 FULLWIDTH LATIN CAPITAL LETTER D": 
+    {
+        "prefix": [
+            "..U.FF24",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER D",
+            "U+FF24",
+        ],
+        "body": [
+            "${1|Ｄ,&#xFF24;,U+FF24,0xFF24,FULLWIDTH LATIN CAPITAL LETTER D|}$2",
+        ],
+        "description": [
+            "Code: U+FF24",
+            "Character/Symbol: Ｄ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER D",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｅ U+FF25 FULLWIDTH LATIN CAPITAL LETTER E": 
+    {
+        "prefix": [
+            "..U.FF25",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER E",
+            "U+FF25",
+        ],
+        "body": [
+            "${1|Ｅ,&#xFF25;,U+FF25,0xFF25,FULLWIDTH LATIN CAPITAL LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+FF25",
+            "Character/Symbol: Ｅ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER E",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｆ U+FF26 FULLWIDTH LATIN CAPITAL LETTER F": 
+    {
+        "prefix": [
+            "..U.FF26",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER F",
+            "U+FF26",
+        ],
+        "body": [
+            "${1|Ｆ,&#xFF26;,U+FF26,0xFF26,FULLWIDTH LATIN CAPITAL LETTER F|}$2",
+        ],
+        "description": [
+            "Code: U+FF26",
+            "Character/Symbol: Ｆ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER F",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｇ U+FF27 FULLWIDTH LATIN CAPITAL LETTER G": 
+    {
+        "prefix": [
+            "..U.FF27",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER G",
+            "U+FF27",
+        ],
+        "body": [
+            "${1|Ｇ,&#xFF27;,U+FF27,0xFF27,FULLWIDTH LATIN CAPITAL LETTER G|}$2",
+        ],
+        "description": [
+            "Code: U+FF27",
+            "Character/Symbol: Ｇ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER G",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｈ U+FF28 FULLWIDTH LATIN CAPITAL LETTER H": 
+    {
+        "prefix": [
+            "..U.FF28",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER H",
+            "U+FF28",
+        ],
+        "body": [
+            "${1|Ｈ,&#xFF28;,U+FF28,0xFF28,FULLWIDTH LATIN CAPITAL LETTER H|}$2",
+        ],
+        "description": [
+            "Code: U+FF28",
+            "Character/Symbol: Ｈ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER H",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｉ U+FF29 FULLWIDTH LATIN CAPITAL LETTER I": 
+    {
+        "prefix": [
+            "..U.FF29",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER I",
+            "U+FF29",
+        ],
+        "body": [
+            "${1|Ｉ,&#xFF29;,U+FF29,0xFF29,FULLWIDTH LATIN CAPITAL LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+FF29",
+            "Character/Symbol: Ｉ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER I",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｊ U+FF2A FULLWIDTH LATIN CAPITAL LETTER J": 
+    {
+        "prefix": [
+            "..U.FF2A",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER J",
+            "U+FF2A",
+        ],
+        "body": [
+            "${1|Ｊ,&#xFF2A;,U+FF2A,0xFF2A,FULLWIDTH LATIN CAPITAL LETTER J|}$2",
+        ],
+        "description": [
+            "Code: U+FF2A",
+            "Character/Symbol: Ｊ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER J",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｋ U+FF2B FULLWIDTH LATIN CAPITAL LETTER K": 
+    {
+        "prefix": [
+            "..U.FF2B",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER K",
+            "U+FF2B",
+        ],
+        "body": [
+            "${1|Ｋ,&#xFF2B;,U+FF2B,0xFF2B,FULLWIDTH LATIN CAPITAL LETTER K|}$2",
+        ],
+        "description": [
+            "Code: U+FF2B",
+            "Character/Symbol: Ｋ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER K",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｌ U+FF2C FULLWIDTH LATIN CAPITAL LETTER L": 
+    {
+        "prefix": [
+            "..U.FF2C",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER L",
+            "U+FF2C",
+        ],
+        "body": [
+            "${1|Ｌ,&#xFF2C;,U+FF2C,0xFF2C,FULLWIDTH LATIN CAPITAL LETTER L|}$2",
+        ],
+        "description": [
+            "Code: U+FF2C",
+            "Character/Symbol: Ｌ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER L",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｍ U+FF2D FULLWIDTH LATIN CAPITAL LETTER M": 
+    {
+        "prefix": [
+            "..U.FF2D",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER M",
+            "U+FF2D",
+        ],
+        "body": [
+            "${1|Ｍ,&#xFF2D;,U+FF2D,0xFF2D,FULLWIDTH LATIN CAPITAL LETTER M|}$2",
+        ],
+        "description": [
+            "Code: U+FF2D",
+            "Character/Symbol: Ｍ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER M",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｎ U+FF2E FULLWIDTH LATIN CAPITAL LETTER N": 
+    {
+        "prefix": [
+            "..U.FF2E",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER N",
+            "U+FF2E",
+        ],
+        "body": [
+            "${1|Ｎ,&#xFF2E;,U+FF2E,0xFF2E,FULLWIDTH LATIN CAPITAL LETTER N|}$2",
+        ],
+        "description": [
+            "Code: U+FF2E",
+            "Character/Symbol: Ｎ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER N",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｏ U+FF2F FULLWIDTH LATIN CAPITAL LETTER O": 
+    {
+        "prefix": [
+            "..U.FF2F",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER O",
+            "U+FF2F",
+        ],
+        "body": [
+            "${1|Ｏ,&#xFF2F;,U+FF2F,0xFF2F,FULLWIDTH LATIN CAPITAL LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+FF2F",
+            "Character/Symbol: Ｏ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER O",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｐ U+FF30 FULLWIDTH LATIN CAPITAL LETTER P": 
+    {
+        "prefix": [
+            "..U.FF30",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER P",
+            "U+FF30",
+        ],
+        "body": [
+            "${1|Ｐ,&#xFF30;,U+FF30,0xFF30,FULLWIDTH LATIN CAPITAL LETTER P|}$2",
+        ],
+        "description": [
+            "Code: U+FF30",
+            "Character/Symbol: Ｐ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER P",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｑ U+FF31 FULLWIDTH LATIN CAPITAL LETTER Q": 
+    {
+        "prefix": [
+            "..U.FF31",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER Q",
+            "U+FF31",
+        ],
+        "body": [
+            "${1|Ｑ,&#xFF31;,U+FF31,0xFF31,FULLWIDTH LATIN CAPITAL LETTER Q|}$2",
+        ],
+        "description": [
+            "Code: U+FF31",
+            "Character/Symbol: Ｑ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER Q",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｒ U+FF32 FULLWIDTH LATIN CAPITAL LETTER R": 
+    {
+        "prefix": [
+            "..U.FF32",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER R",
+            "U+FF32",
+        ],
+        "body": [
+            "${1|Ｒ,&#xFF32;,U+FF32,0xFF32,FULLWIDTH LATIN CAPITAL LETTER R|}$2",
+        ],
+        "description": [
+            "Code: U+FF32",
+            "Character/Symbol: Ｒ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER R",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｓ U+FF33 FULLWIDTH LATIN CAPITAL LETTER S": 
+    {
+        "prefix": [
+            "..U.FF33",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER S",
+            "U+FF33",
+        ],
+        "body": [
+            "${1|Ｓ,&#xFF33;,U+FF33,0xFF33,FULLWIDTH LATIN CAPITAL LETTER S|}$2",
+        ],
+        "description": [
+            "Code: U+FF33",
+            "Character/Symbol: Ｓ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER S",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｔ U+FF34 FULLWIDTH LATIN CAPITAL LETTER T": 
+    {
+        "prefix": [
+            "..U.FF34",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER T",
+            "U+FF34",
+        ],
+        "body": [
+            "${1|Ｔ,&#xFF34;,U+FF34,0xFF34,FULLWIDTH LATIN CAPITAL LETTER T|}$2",
+        ],
+        "description": [
+            "Code: U+FF34",
+            "Character/Symbol: Ｔ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER T",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｕ U+FF35 FULLWIDTH LATIN CAPITAL LETTER U": 
+    {
+        "prefix": [
+            "..U.FF35",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER U",
+            "U+FF35",
+        ],
+        "body": [
+            "${1|Ｕ,&#xFF35;,U+FF35,0xFF35,FULLWIDTH LATIN CAPITAL LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+FF35",
+            "Character/Symbol: Ｕ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER U",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｖ U+FF36 FULLWIDTH LATIN CAPITAL LETTER V": 
+    {
+        "prefix": [
+            "..U.FF36",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER V",
+            "U+FF36",
+        ],
+        "body": [
+            "${1|Ｖ,&#xFF36;,U+FF36,0xFF36,FULLWIDTH LATIN CAPITAL LETTER V|}$2",
+        ],
+        "description": [
+            "Code: U+FF36",
+            "Character/Symbol: Ｖ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER V",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｗ U+FF37 FULLWIDTH LATIN CAPITAL LETTER W": 
+    {
+        "prefix": [
+            "..U.FF37",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER W",
+            "U+FF37",
+        ],
+        "body": [
+            "${1|Ｗ,&#xFF37;,U+FF37,0xFF37,FULLWIDTH LATIN CAPITAL LETTER W|}$2",
+        ],
+        "description": [
+            "Code: U+FF37",
+            "Character/Symbol: Ｗ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER W",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｘ U+FF38 FULLWIDTH LATIN CAPITAL LETTER X": 
+    {
+        "prefix": [
+            "..U.FF38",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER X",
+            "U+FF38",
+        ],
+        "body": [
+            "${1|Ｘ,&#xFF38;,U+FF38,0xFF38,FULLWIDTH LATIN CAPITAL LETTER X|}$2",
+        ],
+        "description": [
+            "Code: U+FF38",
+            "Character/Symbol: Ｘ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER X",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｙ U+FF39 FULLWIDTH LATIN CAPITAL LETTER Y": 
+    {
+        "prefix": [
+            "..U.FF39",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER Y",
+            "U+FF39",
+        ],
+        "body": [
+            "${1|Ｙ,&#xFF39;,U+FF39,0xFF39,FULLWIDTH LATIN CAPITAL LETTER Y|}$2",
+        ],
+        "description": [
+            "Code: U+FF39",
+            "Character/Symbol: Ｙ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER Y",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode Ｚ U+FF3A FULLWIDTH LATIN CAPITAL LETTER Z": 
+    {
+        "prefix": [
+            "..U.FF3A",
+            "..U.FULLWIDTH LATIN CAPITAL LETTER Z",
+            "U+FF3A",
+        ],
+        "body": [
+            "${1|Ｚ,&#xFF3A;,U+FF3A,0xFF3A,FULLWIDTH LATIN CAPITAL LETTER Z|}$2",
+        ],
+        "description": [
+            "Code: U+FF3A",
+            "Character/Symbol: Ｚ",
+            "Name: FULLWIDTH LATIN CAPITAL LETTER Z",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ［ U+FF3B FULLWIDTH LEFT SQUARE BRACKET": 
+    {
+        "prefix": [
+            "..U.FF3B",
+            "..U.FULLWIDTH LEFT SQUARE BRACKET",
+            "U+FF3B",
+        ],
+        "body": [
+            "${1|［,&#xFF3B;,U+FF3B,0xFF3B,FULLWIDTH LEFT SQUARE BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+FF3B",
+            "Character/Symbol: ［",
+            "Name: FULLWIDTH LEFT SQUARE BRACKET",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＼ U+FF3C FULLWIDTH REVERSE SOLIDUS": 
+    {
+        "prefix": [
+            "..U.FF3C",
+            "..U.FULLWIDTH REVERSE SOLIDUS",
+            "U+FF3C",
+        ],
+        "body": [
+            "${1|＼,&#xFF3C;,U+FF3C,0xFF3C,FULLWIDTH REVERSE SOLIDUS|}$2",
+        ],
+        "description": [
+            "Code: U+FF3C",
+            "Character/Symbol: ＼",
+            "Name: FULLWIDTH REVERSE SOLIDUS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ］ U+FF3D FULLWIDTH RIGHT SQUARE BRACKET": 
+    {
+        "prefix": [
+            "..U.FF3D",
+            "..U.FULLWIDTH RIGHT SQUARE BRACKET",
+            "U+FF3D",
+        ],
+        "body": [
+            "${1|］,&#xFF3D;,U+FF3D,0xFF3D,FULLWIDTH RIGHT SQUARE BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+FF3D",
+            "Character/Symbol: ］",
+            "Name: FULLWIDTH RIGHT SQUARE BRACKET",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＾ U+FF3E FULLWIDTH CIRCUMFLEX ACCENT": 
+    {
+        "prefix": [
+            "..U.FF3E",
+            "..U.FULLWIDTH CIRCUMFLEX ACCENT",
+            "U+FF3E",
+        ],
+        "body": [
+            "${1|＾,&#xFF3E;,U+FF3E,0xFF3E,FULLWIDTH CIRCUMFLEX ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+FF3E",
+            "Character/Symbol: ＾",
+            "Name: FULLWIDTH CIRCUMFLEX ACCENT",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ＿ U+FF3F FULLWIDTH LOW LINE": 
+    {
+        "prefix": [
+            "..U.FF3F",
+            "..U.FULLWIDTH LOW LINE",
+            "U+FF3F",
+        ],
+        "body": [
+            "${1|＿,&#xFF3F;,U+FF3F,0xFF3F,FULLWIDTH LOW LINE|}$2",
+        ],
+        "description": [
+            "Code: U+FF3F",
+            "Character/Symbol: ＿",
+            "Name: FULLWIDTH LOW LINE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｀ U+FF40 FULLWIDTH GRAVE ACCENT": 
+    {
+        "prefix": [
+            "..U.FF40",
+            "..U.FULLWIDTH GRAVE ACCENT",
+            "U+FF40",
+        ],
+        "body": [
+            "${1|｀,&#xFF40;,U+FF40,0xFF40,FULLWIDTH GRAVE ACCENT|}$2",
+        ],
+        "description": [
+            "Code: U+FF40",
+            "Character/Symbol: ｀",
+            "Name: FULLWIDTH GRAVE ACCENT",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ａ U+FF41 FULLWIDTH LATIN SMALL LETTER A": 
+    {
+        "prefix": [
+            "..U.FF41",
+            "..U.FULLWIDTH LATIN SMALL LETTER A",
+            "U+FF41",
+        ],
+        "body": [
+            "${1|ａ,&#xFF41;,U+FF41,0xFF41,FULLWIDTH LATIN SMALL LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+FF41",
+            "Character/Symbol: ａ",
+            "Name: FULLWIDTH LATIN SMALL LETTER A",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｂ U+FF42 FULLWIDTH LATIN SMALL LETTER B": 
+    {
+        "prefix": [
+            "..U.FF42",
+            "..U.FULLWIDTH LATIN SMALL LETTER B",
+            "U+FF42",
+        ],
+        "body": [
+            "${1|ｂ,&#xFF42;,U+FF42,0xFF42,FULLWIDTH LATIN SMALL LETTER B|}$2",
+        ],
+        "description": [
+            "Code: U+FF42",
+            "Character/Symbol: ｂ",
+            "Name: FULLWIDTH LATIN SMALL LETTER B",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｃ U+FF43 FULLWIDTH LATIN SMALL LETTER C": 
+    {
+        "prefix": [
+            "..U.FF43",
+            "..U.FULLWIDTH LATIN SMALL LETTER C",
+            "U+FF43",
+        ],
+        "body": [
+            "${1|ｃ,&#xFF43;,U+FF43,0xFF43,FULLWIDTH LATIN SMALL LETTER C|}$2",
+        ],
+        "description": [
+            "Code: U+FF43",
+            "Character/Symbol: ｃ",
+            "Name: FULLWIDTH LATIN SMALL LETTER C",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｄ U+FF44 FULLWIDTH LATIN SMALL LETTER D": 
+    {
+        "prefix": [
+            "..U.FF44",
+            "..U.FULLWIDTH LATIN SMALL LETTER D",
+            "U+FF44",
+        ],
+        "body": [
+            "${1|ｄ,&#xFF44;,U+FF44,0xFF44,FULLWIDTH LATIN SMALL LETTER D|}$2",
+        ],
+        "description": [
+            "Code: U+FF44",
+            "Character/Symbol: ｄ",
+            "Name: FULLWIDTH LATIN SMALL LETTER D",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｅ U+FF45 FULLWIDTH LATIN SMALL LETTER E": 
+    {
+        "prefix": [
+            "..U.FF45",
+            "..U.FULLWIDTH LATIN SMALL LETTER E",
+            "U+FF45",
+        ],
+        "body": [
+            "${1|ｅ,&#xFF45;,U+FF45,0xFF45,FULLWIDTH LATIN SMALL LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+FF45",
+            "Character/Symbol: ｅ",
+            "Name: FULLWIDTH LATIN SMALL LETTER E",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｆ U+FF46 FULLWIDTH LATIN SMALL LETTER F": 
+    {
+        "prefix": [
+            "..U.FF46",
+            "..U.FULLWIDTH LATIN SMALL LETTER F",
+            "U+FF46",
+        ],
+        "body": [
+            "${1|ｆ,&#xFF46;,U+FF46,0xFF46,FULLWIDTH LATIN SMALL LETTER F|}$2",
+        ],
+        "description": [
+            "Code: U+FF46",
+            "Character/Symbol: ｆ",
+            "Name: FULLWIDTH LATIN SMALL LETTER F",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｇ U+FF47 FULLWIDTH LATIN SMALL LETTER G": 
+    {
+        "prefix": [
+            "..U.FF47",
+            "..U.FULLWIDTH LATIN SMALL LETTER G",
+            "U+FF47",
+        ],
+        "body": [
+            "${1|ｇ,&#xFF47;,U+FF47,0xFF47,FULLWIDTH LATIN SMALL LETTER G|}$2",
+        ],
+        "description": [
+            "Code: U+FF47",
+            "Character/Symbol: ｇ",
+            "Name: FULLWIDTH LATIN SMALL LETTER G",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｈ U+FF48 FULLWIDTH LATIN SMALL LETTER H": 
+    {
+        "prefix": [
+            "..U.FF48",
+            "..U.FULLWIDTH LATIN SMALL LETTER H",
+            "U+FF48",
+        ],
+        "body": [
+            "${1|ｈ,&#xFF48;,U+FF48,0xFF48,FULLWIDTH LATIN SMALL LETTER H|}$2",
+        ],
+        "description": [
+            "Code: U+FF48",
+            "Character/Symbol: ｈ",
+            "Name: FULLWIDTH LATIN SMALL LETTER H",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｉ U+FF49 FULLWIDTH LATIN SMALL LETTER I": 
+    {
+        "prefix": [
+            "..U.FF49",
+            "..U.FULLWIDTH LATIN SMALL LETTER I",
+            "U+FF49",
+        ],
+        "body": [
+            "${1|ｉ,&#xFF49;,U+FF49,0xFF49,FULLWIDTH LATIN SMALL LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+FF49",
+            "Character/Symbol: ｉ",
+            "Name: FULLWIDTH LATIN SMALL LETTER I",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｊ U+FF4A FULLWIDTH LATIN SMALL LETTER J": 
+    {
+        "prefix": [
+            "..U.FF4A",
+            "..U.FULLWIDTH LATIN SMALL LETTER J",
+            "U+FF4A",
+        ],
+        "body": [
+            "${1|ｊ,&#xFF4A;,U+FF4A,0xFF4A,FULLWIDTH LATIN SMALL LETTER J|}$2",
+        ],
+        "description": [
+            "Code: U+FF4A",
+            "Character/Symbol: ｊ",
+            "Name: FULLWIDTH LATIN SMALL LETTER J",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｋ U+FF4B FULLWIDTH LATIN SMALL LETTER K": 
+    {
+        "prefix": [
+            "..U.FF4B",
+            "..U.FULLWIDTH LATIN SMALL LETTER K",
+            "U+FF4B",
+        ],
+        "body": [
+            "${1|ｋ,&#xFF4B;,U+FF4B,0xFF4B,FULLWIDTH LATIN SMALL LETTER K|}$2",
+        ],
+        "description": [
+            "Code: U+FF4B",
+            "Character/Symbol: ｋ",
+            "Name: FULLWIDTH LATIN SMALL LETTER K",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｌ U+FF4C FULLWIDTH LATIN SMALL LETTER L": 
+    {
+        "prefix": [
+            "..U.FF4C",
+            "..U.FULLWIDTH LATIN SMALL LETTER L",
+            "U+FF4C",
+        ],
+        "body": [
+            "${1|ｌ,&#xFF4C;,U+FF4C,0xFF4C,FULLWIDTH LATIN SMALL LETTER L|}$2",
+        ],
+        "description": [
+            "Code: U+FF4C",
+            "Character/Symbol: ｌ",
+            "Name: FULLWIDTH LATIN SMALL LETTER L",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｍ U+FF4D FULLWIDTH LATIN SMALL LETTER M": 
+    {
+        "prefix": [
+            "..U.FF4D",
+            "..U.FULLWIDTH LATIN SMALL LETTER M",
+            "U+FF4D",
+        ],
+        "body": [
+            "${1|ｍ,&#xFF4D;,U+FF4D,0xFF4D,FULLWIDTH LATIN SMALL LETTER M|}$2",
+        ],
+        "description": [
+            "Code: U+FF4D",
+            "Character/Symbol: ｍ",
+            "Name: FULLWIDTH LATIN SMALL LETTER M",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｎ U+FF4E FULLWIDTH LATIN SMALL LETTER N": 
+    {
+        "prefix": [
+            "..U.FF4E",
+            "..U.FULLWIDTH LATIN SMALL LETTER N",
+            "U+FF4E",
+        ],
+        "body": [
+            "${1|ｎ,&#xFF4E;,U+FF4E,0xFF4E,FULLWIDTH LATIN SMALL LETTER N|}$2",
+        ],
+        "description": [
+            "Code: U+FF4E",
+            "Character/Symbol: ｎ",
+            "Name: FULLWIDTH LATIN SMALL LETTER N",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｏ U+FF4F FULLWIDTH LATIN SMALL LETTER O": 
+    {
+        "prefix": [
+            "..U.FF4F",
+            "..U.FULLWIDTH LATIN SMALL LETTER O",
+            "U+FF4F",
+        ],
+        "body": [
+            "${1|ｏ,&#xFF4F;,U+FF4F,0xFF4F,FULLWIDTH LATIN SMALL LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+FF4F",
+            "Character/Symbol: ｏ",
+            "Name: FULLWIDTH LATIN SMALL LETTER O",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｐ U+FF50 FULLWIDTH LATIN SMALL LETTER P": 
+    {
+        "prefix": [
+            "..U.FF50",
+            "..U.FULLWIDTH LATIN SMALL LETTER P",
+            "U+FF50",
+        ],
+        "body": [
+            "${1|ｐ,&#xFF50;,U+FF50,0xFF50,FULLWIDTH LATIN SMALL LETTER P|}$2",
+        ],
+        "description": [
+            "Code: U+FF50",
+            "Character/Symbol: ｐ",
+            "Name: FULLWIDTH LATIN SMALL LETTER P",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｑ U+FF51 FULLWIDTH LATIN SMALL LETTER Q": 
+    {
+        "prefix": [
+            "..U.FF51",
+            "..U.FULLWIDTH LATIN SMALL LETTER Q",
+            "U+FF51",
+        ],
+        "body": [
+            "${1|ｑ,&#xFF51;,U+FF51,0xFF51,FULLWIDTH LATIN SMALL LETTER Q|}$2",
+        ],
+        "description": [
+            "Code: U+FF51",
+            "Character/Symbol: ｑ",
+            "Name: FULLWIDTH LATIN SMALL LETTER Q",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｒ U+FF52 FULLWIDTH LATIN SMALL LETTER R": 
+    {
+        "prefix": [
+            "..U.FF52",
+            "..U.FULLWIDTH LATIN SMALL LETTER R",
+            "U+FF52",
+        ],
+        "body": [
+            "${1|ｒ,&#xFF52;,U+FF52,0xFF52,FULLWIDTH LATIN SMALL LETTER R|}$2",
+        ],
+        "description": [
+            "Code: U+FF52",
+            "Character/Symbol: ｒ",
+            "Name: FULLWIDTH LATIN SMALL LETTER R",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｓ U+FF53 FULLWIDTH LATIN SMALL LETTER S": 
+    {
+        "prefix": [
+            "..U.FF53",
+            "..U.FULLWIDTH LATIN SMALL LETTER S",
+            "U+FF53",
+        ],
+        "body": [
+            "${1|ｓ,&#xFF53;,U+FF53,0xFF53,FULLWIDTH LATIN SMALL LETTER S|}$2",
+        ],
+        "description": [
+            "Code: U+FF53",
+            "Character/Symbol: ｓ",
+            "Name: FULLWIDTH LATIN SMALL LETTER S",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｔ U+FF54 FULLWIDTH LATIN SMALL LETTER T": 
+    {
+        "prefix": [
+            "..U.FF54",
+            "..U.FULLWIDTH LATIN SMALL LETTER T",
+            "U+FF54",
+        ],
+        "body": [
+            "${1|ｔ,&#xFF54;,U+FF54,0xFF54,FULLWIDTH LATIN SMALL LETTER T|}$2",
+        ],
+        "description": [
+            "Code: U+FF54",
+            "Character/Symbol: ｔ",
+            "Name: FULLWIDTH LATIN SMALL LETTER T",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｕ U+FF55 FULLWIDTH LATIN SMALL LETTER U": 
+    {
+        "prefix": [
+            "..U.FF55",
+            "..U.FULLWIDTH LATIN SMALL LETTER U",
+            "U+FF55",
+        ],
+        "body": [
+            "${1|ｕ,&#xFF55;,U+FF55,0xFF55,FULLWIDTH LATIN SMALL LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+FF55",
+            "Character/Symbol: ｕ",
+            "Name: FULLWIDTH LATIN SMALL LETTER U",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｖ U+FF56 FULLWIDTH LATIN SMALL LETTER V": 
+    {
+        "prefix": [
+            "..U.FF56",
+            "..U.FULLWIDTH LATIN SMALL LETTER V",
+            "U+FF56",
+        ],
+        "body": [
+            "${1|ｖ,&#xFF56;,U+FF56,0xFF56,FULLWIDTH LATIN SMALL LETTER V|}$2",
+        ],
+        "description": [
+            "Code: U+FF56",
+            "Character/Symbol: ｖ",
+            "Name: FULLWIDTH LATIN SMALL LETTER V",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｗ U+FF57 FULLWIDTH LATIN SMALL LETTER W": 
+    {
+        "prefix": [
+            "..U.FF57",
+            "..U.FULLWIDTH LATIN SMALL LETTER W",
+            "U+FF57",
+        ],
+        "body": [
+            "${1|ｗ,&#xFF57;,U+FF57,0xFF57,FULLWIDTH LATIN SMALL LETTER W|}$2",
+        ],
+        "description": [
+            "Code: U+FF57",
+            "Character/Symbol: ｗ",
+            "Name: FULLWIDTH LATIN SMALL LETTER W",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｘ U+FF58 FULLWIDTH LATIN SMALL LETTER X": 
+    {
+        "prefix": [
+            "..U.FF58",
+            "..U.FULLWIDTH LATIN SMALL LETTER X",
+            "U+FF58",
+        ],
+        "body": [
+            "${1|ｘ,&#xFF58;,U+FF58,0xFF58,FULLWIDTH LATIN SMALL LETTER X|}$2",
+        ],
+        "description": [
+            "Code: U+FF58",
+            "Character/Symbol: ｘ",
+            "Name: FULLWIDTH LATIN SMALL LETTER X",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｙ U+FF59 FULLWIDTH LATIN SMALL LETTER Y": 
+    {
+        "prefix": [
+            "..U.FF59",
+            "..U.FULLWIDTH LATIN SMALL LETTER Y",
+            "U+FF59",
+        ],
+        "body": [
+            "${1|ｙ,&#xFF59;,U+FF59,0xFF59,FULLWIDTH LATIN SMALL LETTER Y|}$2",
+        ],
+        "description": [
+            "Code: U+FF59",
+            "Character/Symbol: ｙ",
+            "Name: FULLWIDTH LATIN SMALL LETTER Y",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｚ U+FF5A FULLWIDTH LATIN SMALL LETTER Z": 
+    {
+        "prefix": [
+            "..U.FF5A",
+            "..U.FULLWIDTH LATIN SMALL LETTER Z",
+            "U+FF5A",
+        ],
+        "body": [
+            "${1|ｚ,&#xFF5A;,U+FF5A,0xFF5A,FULLWIDTH LATIN SMALL LETTER Z|}$2",
+        ],
+        "description": [
+            "Code: U+FF5A",
+            "Character/Symbol: ｚ",
+            "Name: FULLWIDTH LATIN SMALL LETTER Z",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｛ U+FF5B FULLWIDTH LEFT CURLY BRACKET": 
+    {
+        "prefix": [
+            "..U.FF5B",
+            "..U.FULLWIDTH LEFT CURLY BRACKET",
+            "U+FF5B",
+        ],
+        "body": [
+            "${1|｛,&#xFF5B;,U+FF5B,0xFF5B,FULLWIDTH LEFT CURLY BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+FF5B",
+            "Character/Symbol: ｛",
+            "Name: FULLWIDTH LEFT CURLY BRACKET",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｜ U+FF5C FULLWIDTH VERTICAL LINE": 
+    {
+        "prefix": [
+            "..U.FF5C",
+            "..U.FULLWIDTH VERTICAL LINE",
+            "U+FF5C",
+        ],
+        "body": [
+            "${1|｜,&#xFF5C;,U+FF5C,0xFF5C,FULLWIDTH VERTICAL LINE|}$2",
+        ],
+        "description": [
+            "Code: U+FF5C",
+            "Character/Symbol: ｜",
+            "Name: FULLWIDTH VERTICAL LINE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｝ U+FF5D FULLWIDTH RIGHT CURLY BRACKET": 
+    {
+        "prefix": [
+            "..U.FF5D",
+            "..U.FULLWIDTH RIGHT CURLY BRACKET",
+            "U+FF5D",
+        ],
+        "body": [
+            "${1|｝,&#xFF5D;,U+FF5D,0xFF5D,FULLWIDTH RIGHT CURLY BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+FF5D",
+            "Character/Symbol: ｝",
+            "Name: FULLWIDTH RIGHT CURLY BRACKET",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ～ U+FF5E FULLWIDTH TILDE": 
+    {
+        "prefix": [
+            "..U.FF5E",
+            "..U.FULLWIDTH TILDE",
+            "U+FF5E",
+        ],
+        "body": [
+            "${1|～,&#xFF5E;,U+FF5E,0xFF5E,FULLWIDTH TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+FF5E",
+            "Character/Symbol: ～",
+            "Name: FULLWIDTH TILDE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｟ U+FF5F FULLWIDTH LEFT WHITE PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.FF5F",
+            "..U.FULLWIDTH LEFT WHITE PARENTHESIS",
+            "U+FF5F",
+        ],
+        "body": [
+            "${1|｟,&#xFF5F;,U+FF5F,0xFF5F,FULLWIDTH LEFT WHITE PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+FF5F",
+            "Character/Symbol: ｟",
+            "Name: FULLWIDTH LEFT WHITE PARENTHESIS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｠ U+FF60 FULLWIDTH RIGHT WHITE PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.FF60",
+            "..U.FULLWIDTH RIGHT WHITE PARENTHESIS",
+            "U+FF60",
+        ],
+        "body": [
+            "${1|｠,&#xFF60;,U+FF60,0xFF60,FULLWIDTH RIGHT WHITE PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+FF60",
+            "Character/Symbol: ｠",
+            "Name: FULLWIDTH RIGHT WHITE PARENTHESIS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｡ U+FF61 HALFWIDTH IDEOGRAPHIC FULL STOP": 
+    {
+        "prefix": [
+            "..U.FF61",
+            "..U.HALFWIDTH IDEOGRAPHIC FULL STOP",
+            "U+FF61",
+        ],
+        "body": [
+            "${1|｡,&#xFF61;,U+FF61,0xFF61,HALFWIDTH IDEOGRAPHIC FULL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+FF61",
+            "Character/Symbol: ｡",
+            "Name: HALFWIDTH IDEOGRAPHIC FULL STOP",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｢ U+FF62 HALFWIDTH LEFT CORNER BRACKET": 
+    {
+        "prefix": [
+            "..U.FF62",
+            "..U.HALFWIDTH LEFT CORNER BRACKET",
+            "U+FF62",
+        ],
+        "body": [
+            "${1|｢,&#xFF62;,U+FF62,0xFF62,HALFWIDTH LEFT CORNER BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+FF62",
+            "Character/Symbol: ｢",
+            "Name: HALFWIDTH LEFT CORNER BRACKET",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｣ U+FF63 HALFWIDTH RIGHT CORNER BRACKET": 
+    {
+        "prefix": [
+            "..U.FF63",
+            "..U.HALFWIDTH RIGHT CORNER BRACKET",
+            "U+FF63",
+        ],
+        "body": [
+            "${1|｣,&#xFF63;,U+FF63,0xFF63,HALFWIDTH RIGHT CORNER BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+FF63",
+            "Character/Symbol: ｣",
+            "Name: HALFWIDTH RIGHT CORNER BRACKET",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ､ U+FF64 HALFWIDTH IDEOGRAPHIC COMMA": 
+    {
+        "prefix": [
+            "..U.FF64",
+            "..U.HALFWIDTH IDEOGRAPHIC COMMA",
+            "U+FF64",
+        ],
+        "body": [
+            "${1|､,&#xFF64;,U+FF64,0xFF64,HALFWIDTH IDEOGRAPHIC COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+FF64",
+            "Character/Symbol: ､",
+            "Name: HALFWIDTH IDEOGRAPHIC COMMA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ･ U+FF65 HALFWIDTH KATAKANA MIDDLE DOT": 
+    {
+        "prefix": [
+            "..U.FF65",
+            "..U.HALFWIDTH KATAKANA MIDDLE DOT",
+            "U+FF65",
+        ],
+        "body": [
+            "${1|･,&#xFF65;,U+FF65,0xFF65,HALFWIDTH KATAKANA MIDDLE DOT|}$2",
+        ],
+        "description": [
+            "Code: U+FF65",
+            "Character/Symbol: ･",
+            "Name: HALFWIDTH KATAKANA MIDDLE DOT",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｦ U+FF66 HALFWIDTH KATAKANA LETTER WO": 
+    {
+        "prefix": [
+            "..U.FF66",
+            "..U.HALFWIDTH KATAKANA LETTER WO",
+            "U+FF66",
+        ],
+        "body": [
+            "${1|ｦ,&#xFF66;,U+FF66,0xFF66,HALFWIDTH KATAKANA LETTER WO|}$2",
+        ],
+        "description": [
+            "Code: U+FF66",
+            "Character/Symbol: ｦ",
+            "Name: HALFWIDTH KATAKANA LETTER WO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｧ U+FF67 HALFWIDTH KATAKANA LETTER SMALL A": 
+    {
+        "prefix": [
+            "..U.FF67",
+            "..U.HALFWIDTH KATAKANA LETTER SMALL A",
+            "U+FF67",
+        ],
+        "body": [
+            "${1|ｧ,&#xFF67;,U+FF67,0xFF67,HALFWIDTH KATAKANA LETTER SMALL A|}$2",
+        ],
+        "description": [
+            "Code: U+FF67",
+            "Character/Symbol: ｧ",
+            "Name: HALFWIDTH KATAKANA LETTER SMALL A",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｨ U+FF68 HALFWIDTH KATAKANA LETTER SMALL I": 
+    {
+        "prefix": [
+            "..U.FF68",
+            "..U.HALFWIDTH KATAKANA LETTER SMALL I",
+            "U+FF68",
+        ],
+        "body": [
+            "${1|ｨ,&#xFF68;,U+FF68,0xFF68,HALFWIDTH KATAKANA LETTER SMALL I|}$2",
+        ],
+        "description": [
+            "Code: U+FF68",
+            "Character/Symbol: ｨ",
+            "Name: HALFWIDTH KATAKANA LETTER SMALL I",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｩ U+FF69 HALFWIDTH KATAKANA LETTER SMALL U": 
+    {
+        "prefix": [
+            "..U.FF69",
+            "..U.HALFWIDTH KATAKANA LETTER SMALL U",
+            "U+FF69",
+        ],
+        "body": [
+            "${1|ｩ,&#xFF69;,U+FF69,0xFF69,HALFWIDTH KATAKANA LETTER SMALL U|}$2",
+        ],
+        "description": [
+            "Code: U+FF69",
+            "Character/Symbol: ｩ",
+            "Name: HALFWIDTH KATAKANA LETTER SMALL U",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｪ U+FF6A HALFWIDTH KATAKANA LETTER SMALL E": 
+    {
+        "prefix": [
+            "..U.FF6A",
+            "..U.HALFWIDTH KATAKANA LETTER SMALL E",
+            "U+FF6A",
+        ],
+        "body": [
+            "${1|ｪ,&#xFF6A;,U+FF6A,0xFF6A,HALFWIDTH KATAKANA LETTER SMALL E|}$2",
+        ],
+        "description": [
+            "Code: U+FF6A",
+            "Character/Symbol: ｪ",
+            "Name: HALFWIDTH KATAKANA LETTER SMALL E",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｫ U+FF6B HALFWIDTH KATAKANA LETTER SMALL O": 
+    {
+        "prefix": [
+            "..U.FF6B",
+            "..U.HALFWIDTH KATAKANA LETTER SMALL O",
+            "U+FF6B",
+        ],
+        "body": [
+            "${1|ｫ,&#xFF6B;,U+FF6B,0xFF6B,HALFWIDTH KATAKANA LETTER SMALL O|}$2",
+        ],
+        "description": [
+            "Code: U+FF6B",
+            "Character/Symbol: ｫ",
+            "Name: HALFWIDTH KATAKANA LETTER SMALL O",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｬ U+FF6C HALFWIDTH KATAKANA LETTER SMALL YA": 
+    {
+        "prefix": [
+            "..U.FF6C",
+            "..U.HALFWIDTH KATAKANA LETTER SMALL YA",
+            "U+FF6C",
+        ],
+        "body": [
+            "${1|ｬ,&#xFF6C;,U+FF6C,0xFF6C,HALFWIDTH KATAKANA LETTER SMALL YA|}$2",
+        ],
+        "description": [
+            "Code: U+FF6C",
+            "Character/Symbol: ｬ",
+            "Name: HALFWIDTH KATAKANA LETTER SMALL YA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｭ U+FF6D HALFWIDTH KATAKANA LETTER SMALL YU": 
+    {
+        "prefix": [
+            "..U.FF6D",
+            "..U.HALFWIDTH KATAKANA LETTER SMALL YU",
+            "U+FF6D",
+        ],
+        "body": [
+            "${1|ｭ,&#xFF6D;,U+FF6D,0xFF6D,HALFWIDTH KATAKANA LETTER SMALL YU|}$2",
+        ],
+        "description": [
+            "Code: U+FF6D",
+            "Character/Symbol: ｭ",
+            "Name: HALFWIDTH KATAKANA LETTER SMALL YU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｮ U+FF6E HALFWIDTH KATAKANA LETTER SMALL YO": 
+    {
+        "prefix": [
+            "..U.FF6E",
+            "..U.HALFWIDTH KATAKANA LETTER SMALL YO",
+            "U+FF6E",
+        ],
+        "body": [
+            "${1|ｮ,&#xFF6E;,U+FF6E,0xFF6E,HALFWIDTH KATAKANA LETTER SMALL YO|}$2",
+        ],
+        "description": [
+            "Code: U+FF6E",
+            "Character/Symbol: ｮ",
+            "Name: HALFWIDTH KATAKANA LETTER SMALL YO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｯ U+FF6F HALFWIDTH KATAKANA LETTER SMALL TU": 
+    {
+        "prefix": [
+            "..U.FF6F",
+            "..U.HALFWIDTH KATAKANA LETTER SMALL TU",
+            "U+FF6F",
+        ],
+        "body": [
+            "${1|ｯ,&#xFF6F;,U+FF6F,0xFF6F,HALFWIDTH KATAKANA LETTER SMALL TU|}$2",
+        ],
+        "description": [
+            "Code: U+FF6F",
+            "Character/Symbol: ｯ",
+            "Name: HALFWIDTH KATAKANA LETTER SMALL TU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｰ U+FF70 HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK": 
+    {
+        "prefix": [
+            "..U.FF70",
+            "..U.HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK",
+            "U+FF70",
+        ],
+        "body": [
+            "${1|ｰ,&#xFF70;,U+FF70,0xFF70,HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK|}$2",
+        ],
+        "description": [
+            "Code: U+FF70",
+            "Character/Symbol: ｰ",
+            "Name: HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｱ U+FF71 HALFWIDTH KATAKANA LETTER A": 
+    {
+        "prefix": [
+            "..U.FF71",
+            "..U.HALFWIDTH KATAKANA LETTER A",
+            "U+FF71",
+        ],
+        "body": [
+            "${1|ｱ,&#xFF71;,U+FF71,0xFF71,HALFWIDTH KATAKANA LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+FF71",
+            "Character/Symbol: ｱ",
+            "Name: HALFWIDTH KATAKANA LETTER A",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｲ U+FF72 HALFWIDTH KATAKANA LETTER I": 
+    {
+        "prefix": [
+            "..U.FF72",
+            "..U.HALFWIDTH KATAKANA LETTER I",
+            "U+FF72",
+        ],
+        "body": [
+            "${1|ｲ,&#xFF72;,U+FF72,0xFF72,HALFWIDTH KATAKANA LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+FF72",
+            "Character/Symbol: ｲ",
+            "Name: HALFWIDTH KATAKANA LETTER I",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｳ U+FF73 HALFWIDTH KATAKANA LETTER U": 
+    {
+        "prefix": [
+            "..U.FF73",
+            "..U.HALFWIDTH KATAKANA LETTER U",
+            "U+FF73",
+        ],
+        "body": [
+            "${1|ｳ,&#xFF73;,U+FF73,0xFF73,HALFWIDTH KATAKANA LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+FF73",
+            "Character/Symbol: ｳ",
+            "Name: HALFWIDTH KATAKANA LETTER U",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｴ U+FF74 HALFWIDTH KATAKANA LETTER E": 
+    {
+        "prefix": [
+            "..U.FF74",
+            "..U.HALFWIDTH KATAKANA LETTER E",
+            "U+FF74",
+        ],
+        "body": [
+            "${1|ｴ,&#xFF74;,U+FF74,0xFF74,HALFWIDTH KATAKANA LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+FF74",
+            "Character/Symbol: ｴ",
+            "Name: HALFWIDTH KATAKANA LETTER E",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｵ U+FF75 HALFWIDTH KATAKANA LETTER O": 
+    {
+        "prefix": [
+            "..U.FF75",
+            "..U.HALFWIDTH KATAKANA LETTER O",
+            "U+FF75",
+        ],
+        "body": [
+            "${1|ｵ,&#xFF75;,U+FF75,0xFF75,HALFWIDTH KATAKANA LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+FF75",
+            "Character/Symbol: ｵ",
+            "Name: HALFWIDTH KATAKANA LETTER O",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｶ U+FF76 HALFWIDTH KATAKANA LETTER KA": 
+    {
+        "prefix": [
+            "..U.FF76",
+            "..U.HALFWIDTH KATAKANA LETTER KA",
+            "U+FF76",
+        ],
+        "body": [
+            "${1|ｶ,&#xFF76;,U+FF76,0xFF76,HALFWIDTH KATAKANA LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+FF76",
+            "Character/Symbol: ｶ",
+            "Name: HALFWIDTH KATAKANA LETTER KA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｷ U+FF77 HALFWIDTH KATAKANA LETTER KI": 
+    {
+        "prefix": [
+            "..U.FF77",
+            "..U.HALFWIDTH KATAKANA LETTER KI",
+            "U+FF77",
+        ],
+        "body": [
+            "${1|ｷ,&#xFF77;,U+FF77,0xFF77,HALFWIDTH KATAKANA LETTER KI|}$2",
+        ],
+        "description": [
+            "Code: U+FF77",
+            "Character/Symbol: ｷ",
+            "Name: HALFWIDTH KATAKANA LETTER KI",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｸ U+FF78 HALFWIDTH KATAKANA LETTER KU": 
+    {
+        "prefix": [
+            "..U.FF78",
+            "..U.HALFWIDTH KATAKANA LETTER KU",
+            "U+FF78",
+        ],
+        "body": [
+            "${1|ｸ,&#xFF78;,U+FF78,0xFF78,HALFWIDTH KATAKANA LETTER KU|}$2",
+        ],
+        "description": [
+            "Code: U+FF78",
+            "Character/Symbol: ｸ",
+            "Name: HALFWIDTH KATAKANA LETTER KU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｹ U+FF79 HALFWIDTH KATAKANA LETTER KE": 
+    {
+        "prefix": [
+            "..U.FF79",
+            "..U.HALFWIDTH KATAKANA LETTER KE",
+            "U+FF79",
+        ],
+        "body": [
+            "${1|ｹ,&#xFF79;,U+FF79,0xFF79,HALFWIDTH KATAKANA LETTER KE|}$2",
+        ],
+        "description": [
+            "Code: U+FF79",
+            "Character/Symbol: ｹ",
+            "Name: HALFWIDTH KATAKANA LETTER KE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｺ U+FF7A HALFWIDTH KATAKANA LETTER KO": 
+    {
+        "prefix": [
+            "..U.FF7A",
+            "..U.HALFWIDTH KATAKANA LETTER KO",
+            "U+FF7A",
+        ],
+        "body": [
+            "${1|ｺ,&#xFF7A;,U+FF7A,0xFF7A,HALFWIDTH KATAKANA LETTER KO|}$2",
+        ],
+        "description": [
+            "Code: U+FF7A",
+            "Character/Symbol: ｺ",
+            "Name: HALFWIDTH KATAKANA LETTER KO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｻ U+FF7B HALFWIDTH KATAKANA LETTER SA": 
+    {
+        "prefix": [
+            "..U.FF7B",
+            "..U.HALFWIDTH KATAKANA LETTER SA",
+            "U+FF7B",
+        ],
+        "body": [
+            "${1|ｻ,&#xFF7B;,U+FF7B,0xFF7B,HALFWIDTH KATAKANA LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+FF7B",
+            "Character/Symbol: ｻ",
+            "Name: HALFWIDTH KATAKANA LETTER SA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｼ U+FF7C HALFWIDTH KATAKANA LETTER SI": 
+    {
+        "prefix": [
+            "..U.FF7C",
+            "..U.HALFWIDTH KATAKANA LETTER SI",
+            "U+FF7C",
+        ],
+        "body": [
+            "${1|ｼ,&#xFF7C;,U+FF7C,0xFF7C,HALFWIDTH KATAKANA LETTER SI|}$2",
+        ],
+        "description": [
+            "Code: U+FF7C",
+            "Character/Symbol: ｼ",
+            "Name: HALFWIDTH KATAKANA LETTER SI",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｽ U+FF7D HALFWIDTH KATAKANA LETTER SU": 
+    {
+        "prefix": [
+            "..U.FF7D",
+            "..U.HALFWIDTH KATAKANA LETTER SU",
+            "U+FF7D",
+        ],
+        "body": [
+            "${1|ｽ,&#xFF7D;,U+FF7D,0xFF7D,HALFWIDTH KATAKANA LETTER SU|}$2",
+        ],
+        "description": [
+            "Code: U+FF7D",
+            "Character/Symbol: ｽ",
+            "Name: HALFWIDTH KATAKANA LETTER SU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｾ U+FF7E HALFWIDTH KATAKANA LETTER SE": 
+    {
+        "prefix": [
+            "..U.FF7E",
+            "..U.HALFWIDTH KATAKANA LETTER SE",
+            "U+FF7E",
+        ],
+        "body": [
+            "${1|ｾ,&#xFF7E;,U+FF7E,0xFF7E,HALFWIDTH KATAKANA LETTER SE|}$2",
+        ],
+        "description": [
+            "Code: U+FF7E",
+            "Character/Symbol: ｾ",
+            "Name: HALFWIDTH KATAKANA LETTER SE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ｿ U+FF7F HALFWIDTH KATAKANA LETTER SO": 
+    {
+        "prefix": [
+            "..U.FF7F",
+            "..U.HALFWIDTH KATAKANA LETTER SO",
+            "U+FF7F",
+        ],
+        "body": [
+            "${1|ｿ,&#xFF7F;,U+FF7F,0xFF7F,HALFWIDTH KATAKANA LETTER SO|}$2",
+        ],
+        "description": [
+            "Code: U+FF7F",
+            "Character/Symbol: ｿ",
+            "Name: HALFWIDTH KATAKANA LETTER SO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾀ U+FF80 HALFWIDTH KATAKANA LETTER TA": 
+    {
+        "prefix": [
+            "..U.FF80",
+            "..U.HALFWIDTH KATAKANA LETTER TA",
+            "U+FF80",
+        ],
+        "body": [
+            "${1|ﾀ,&#xFF80;,U+FF80,0xFF80,HALFWIDTH KATAKANA LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+FF80",
+            "Character/Symbol: ﾀ",
+            "Name: HALFWIDTH KATAKANA LETTER TA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾁ U+FF81 HALFWIDTH KATAKANA LETTER TI": 
+    {
+        "prefix": [
+            "..U.FF81",
+            "..U.HALFWIDTH KATAKANA LETTER TI",
+            "U+FF81",
+        ],
+        "body": [
+            "${1|ﾁ,&#xFF81;,U+FF81,0xFF81,HALFWIDTH KATAKANA LETTER TI|}$2",
+        ],
+        "description": [
+            "Code: U+FF81",
+            "Character/Symbol: ﾁ",
+            "Name: HALFWIDTH KATAKANA LETTER TI",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾂ U+FF82 HALFWIDTH KATAKANA LETTER TU": 
+    {
+        "prefix": [
+            "..U.FF82",
+            "..U.HALFWIDTH KATAKANA LETTER TU",
+            "U+FF82",
+        ],
+        "body": [
+            "${1|ﾂ,&#xFF82;,U+FF82,0xFF82,HALFWIDTH KATAKANA LETTER TU|}$2",
+        ],
+        "description": [
+            "Code: U+FF82",
+            "Character/Symbol: ﾂ",
+            "Name: HALFWIDTH KATAKANA LETTER TU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾃ U+FF83 HALFWIDTH KATAKANA LETTER TE": 
+    {
+        "prefix": [
+            "..U.FF83",
+            "..U.HALFWIDTH KATAKANA LETTER TE",
+            "U+FF83",
+        ],
+        "body": [
+            "${1|ﾃ,&#xFF83;,U+FF83,0xFF83,HALFWIDTH KATAKANA LETTER TE|}$2",
+        ],
+        "description": [
+            "Code: U+FF83",
+            "Character/Symbol: ﾃ",
+            "Name: HALFWIDTH KATAKANA LETTER TE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾄ U+FF84 HALFWIDTH KATAKANA LETTER TO": 
+    {
+        "prefix": [
+            "..U.FF84",
+            "..U.HALFWIDTH KATAKANA LETTER TO",
+            "U+FF84",
+        ],
+        "body": [
+            "${1|ﾄ,&#xFF84;,U+FF84,0xFF84,HALFWIDTH KATAKANA LETTER TO|}$2",
+        ],
+        "description": [
+            "Code: U+FF84",
+            "Character/Symbol: ﾄ",
+            "Name: HALFWIDTH KATAKANA LETTER TO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾅ U+FF85 HALFWIDTH KATAKANA LETTER NA": 
+    {
+        "prefix": [
+            "..U.FF85",
+            "..U.HALFWIDTH KATAKANA LETTER NA",
+            "U+FF85",
+        ],
+        "body": [
+            "${1|ﾅ,&#xFF85;,U+FF85,0xFF85,HALFWIDTH KATAKANA LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+FF85",
+            "Character/Symbol: ﾅ",
+            "Name: HALFWIDTH KATAKANA LETTER NA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾆ U+FF86 HALFWIDTH KATAKANA LETTER NI": 
+    {
+        "prefix": [
+            "..U.FF86",
+            "..U.HALFWIDTH KATAKANA LETTER NI",
+            "U+FF86",
+        ],
+        "body": [
+            "${1|ﾆ,&#xFF86;,U+FF86,0xFF86,HALFWIDTH KATAKANA LETTER NI|}$2",
+        ],
+        "description": [
+            "Code: U+FF86",
+            "Character/Symbol: ﾆ",
+            "Name: HALFWIDTH KATAKANA LETTER NI",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾇ U+FF87 HALFWIDTH KATAKANA LETTER NU": 
+    {
+        "prefix": [
+            "..U.FF87",
+            "..U.HALFWIDTH KATAKANA LETTER NU",
+            "U+FF87",
+        ],
+        "body": [
+            "${1|ﾇ,&#xFF87;,U+FF87,0xFF87,HALFWIDTH KATAKANA LETTER NU|}$2",
+        ],
+        "description": [
+            "Code: U+FF87",
+            "Character/Symbol: ﾇ",
+            "Name: HALFWIDTH KATAKANA LETTER NU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾈ U+FF88 HALFWIDTH KATAKANA LETTER NE": 
+    {
+        "prefix": [
+            "..U.FF88",
+            "..U.HALFWIDTH KATAKANA LETTER NE",
+            "U+FF88",
+        ],
+        "body": [
+            "${1|ﾈ,&#xFF88;,U+FF88,0xFF88,HALFWIDTH KATAKANA LETTER NE|}$2",
+        ],
+        "description": [
+            "Code: U+FF88",
+            "Character/Symbol: ﾈ",
+            "Name: HALFWIDTH KATAKANA LETTER NE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾉ U+FF89 HALFWIDTH KATAKANA LETTER NO": 
+    {
+        "prefix": [
+            "..U.FF89",
+            "..U.HALFWIDTH KATAKANA LETTER NO",
+            "U+FF89",
+        ],
+        "body": [
+            "${1|ﾉ,&#xFF89;,U+FF89,0xFF89,HALFWIDTH KATAKANA LETTER NO|}$2",
+        ],
+        "description": [
+            "Code: U+FF89",
+            "Character/Symbol: ﾉ",
+            "Name: HALFWIDTH KATAKANA LETTER NO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾊ U+FF8A HALFWIDTH KATAKANA LETTER HA": 
+    {
+        "prefix": [
+            "..U.FF8A",
+            "..U.HALFWIDTH KATAKANA LETTER HA",
+            "U+FF8A",
+        ],
+        "body": [
+            "${1|ﾊ,&#xFF8A;,U+FF8A,0xFF8A,HALFWIDTH KATAKANA LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+FF8A",
+            "Character/Symbol: ﾊ",
+            "Name: HALFWIDTH KATAKANA LETTER HA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾋ U+FF8B HALFWIDTH KATAKANA LETTER HI": 
+    {
+        "prefix": [
+            "..U.FF8B",
+            "..U.HALFWIDTH KATAKANA LETTER HI",
+            "U+FF8B",
+        ],
+        "body": [
+            "${1|ﾋ,&#xFF8B;,U+FF8B,0xFF8B,HALFWIDTH KATAKANA LETTER HI|}$2",
+        ],
+        "description": [
+            "Code: U+FF8B",
+            "Character/Symbol: ﾋ",
+            "Name: HALFWIDTH KATAKANA LETTER HI",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾌ U+FF8C HALFWIDTH KATAKANA LETTER HU": 
+    {
+        "prefix": [
+            "..U.FF8C",
+            "..U.HALFWIDTH KATAKANA LETTER HU",
+            "U+FF8C",
+        ],
+        "body": [
+            "${1|ﾌ,&#xFF8C;,U+FF8C,0xFF8C,HALFWIDTH KATAKANA LETTER HU|}$2",
+        ],
+        "description": [
+            "Code: U+FF8C",
+            "Character/Symbol: ﾌ",
+            "Name: HALFWIDTH KATAKANA LETTER HU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾍ U+FF8D HALFWIDTH KATAKANA LETTER HE": 
+    {
+        "prefix": [
+            "..U.FF8D",
+            "..U.HALFWIDTH KATAKANA LETTER HE",
+            "U+FF8D",
+        ],
+        "body": [
+            "${1|ﾍ,&#xFF8D;,U+FF8D,0xFF8D,HALFWIDTH KATAKANA LETTER HE|}$2",
+        ],
+        "description": [
+            "Code: U+FF8D",
+            "Character/Symbol: ﾍ",
+            "Name: HALFWIDTH KATAKANA LETTER HE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾎ U+FF8E HALFWIDTH KATAKANA LETTER HO": 
+    {
+        "prefix": [
+            "..U.FF8E",
+            "..U.HALFWIDTH KATAKANA LETTER HO",
+            "U+FF8E",
+        ],
+        "body": [
+            "${1|ﾎ,&#xFF8E;,U+FF8E,0xFF8E,HALFWIDTH KATAKANA LETTER HO|}$2",
+        ],
+        "description": [
+            "Code: U+FF8E",
+            "Character/Symbol: ﾎ",
+            "Name: HALFWIDTH KATAKANA LETTER HO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾏ U+FF8F HALFWIDTH KATAKANA LETTER MA": 
+    {
+        "prefix": [
+            "..U.FF8F",
+            "..U.HALFWIDTH KATAKANA LETTER MA",
+            "U+FF8F",
+        ],
+        "body": [
+            "${1|ﾏ,&#xFF8F;,U+FF8F,0xFF8F,HALFWIDTH KATAKANA LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+FF8F",
+            "Character/Symbol: ﾏ",
+            "Name: HALFWIDTH KATAKANA LETTER MA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾐ U+FF90 HALFWIDTH KATAKANA LETTER MI": 
+    {
+        "prefix": [
+            "..U.FF90",
+            "..U.HALFWIDTH KATAKANA LETTER MI",
+            "U+FF90",
+        ],
+        "body": [
+            "${1|ﾐ,&#xFF90;,U+FF90,0xFF90,HALFWIDTH KATAKANA LETTER MI|}$2",
+        ],
+        "description": [
+            "Code: U+FF90",
+            "Character/Symbol: ﾐ",
+            "Name: HALFWIDTH KATAKANA LETTER MI",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾑ U+FF91 HALFWIDTH KATAKANA LETTER MU": 
+    {
+        "prefix": [
+            "..U.FF91",
+            "..U.HALFWIDTH KATAKANA LETTER MU",
+            "U+FF91",
+        ],
+        "body": [
+            "${1|ﾑ,&#xFF91;,U+FF91,0xFF91,HALFWIDTH KATAKANA LETTER MU|}$2",
+        ],
+        "description": [
+            "Code: U+FF91",
+            "Character/Symbol: ﾑ",
+            "Name: HALFWIDTH KATAKANA LETTER MU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾒ U+FF92 HALFWIDTH KATAKANA LETTER ME": 
+    {
+        "prefix": [
+            "..U.FF92",
+            "..U.HALFWIDTH KATAKANA LETTER ME",
+            "U+FF92",
+        ],
+        "body": [
+            "${1|ﾒ,&#xFF92;,U+FF92,0xFF92,HALFWIDTH KATAKANA LETTER ME|}$2",
+        ],
+        "description": [
+            "Code: U+FF92",
+            "Character/Symbol: ﾒ",
+            "Name: HALFWIDTH KATAKANA LETTER ME",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾓ U+FF93 HALFWIDTH KATAKANA LETTER MO": 
+    {
+        "prefix": [
+            "..U.FF93",
+            "..U.HALFWIDTH KATAKANA LETTER MO",
+            "U+FF93",
+        ],
+        "body": [
+            "${1|ﾓ,&#xFF93;,U+FF93,0xFF93,HALFWIDTH KATAKANA LETTER MO|}$2",
+        ],
+        "description": [
+            "Code: U+FF93",
+            "Character/Symbol: ﾓ",
+            "Name: HALFWIDTH KATAKANA LETTER MO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾔ U+FF94 HALFWIDTH KATAKANA LETTER YA": 
+    {
+        "prefix": [
+            "..U.FF94",
+            "..U.HALFWIDTH KATAKANA LETTER YA",
+            "U+FF94",
+        ],
+        "body": [
+            "${1|ﾔ,&#xFF94;,U+FF94,0xFF94,HALFWIDTH KATAKANA LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+FF94",
+            "Character/Symbol: ﾔ",
+            "Name: HALFWIDTH KATAKANA LETTER YA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾕ U+FF95 HALFWIDTH KATAKANA LETTER YU": 
+    {
+        "prefix": [
+            "..U.FF95",
+            "..U.HALFWIDTH KATAKANA LETTER YU",
+            "U+FF95",
+        ],
+        "body": [
+            "${1|ﾕ,&#xFF95;,U+FF95,0xFF95,HALFWIDTH KATAKANA LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+FF95",
+            "Character/Symbol: ﾕ",
+            "Name: HALFWIDTH KATAKANA LETTER YU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾖ U+FF96 HALFWIDTH KATAKANA LETTER YO": 
+    {
+        "prefix": [
+            "..U.FF96",
+            "..U.HALFWIDTH KATAKANA LETTER YO",
+            "U+FF96",
+        ],
+        "body": [
+            "${1|ﾖ,&#xFF96;,U+FF96,0xFF96,HALFWIDTH KATAKANA LETTER YO|}$2",
+        ],
+        "description": [
+            "Code: U+FF96",
+            "Character/Symbol: ﾖ",
+            "Name: HALFWIDTH KATAKANA LETTER YO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾗ U+FF97 HALFWIDTH KATAKANA LETTER RA": 
+    {
+        "prefix": [
+            "..U.FF97",
+            "..U.HALFWIDTH KATAKANA LETTER RA",
+            "U+FF97",
+        ],
+        "body": [
+            "${1|ﾗ,&#xFF97;,U+FF97,0xFF97,HALFWIDTH KATAKANA LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+FF97",
+            "Character/Symbol: ﾗ",
+            "Name: HALFWIDTH KATAKANA LETTER RA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾘ U+FF98 HALFWIDTH KATAKANA LETTER RI": 
+    {
+        "prefix": [
+            "..U.FF98",
+            "..U.HALFWIDTH KATAKANA LETTER RI",
+            "U+FF98",
+        ],
+        "body": [
+            "${1|ﾘ,&#xFF98;,U+FF98,0xFF98,HALFWIDTH KATAKANA LETTER RI|}$2",
+        ],
+        "description": [
+            "Code: U+FF98",
+            "Character/Symbol: ﾘ",
+            "Name: HALFWIDTH KATAKANA LETTER RI",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾙ U+FF99 HALFWIDTH KATAKANA LETTER RU": 
+    {
+        "prefix": [
+            "..U.FF99",
+            "..U.HALFWIDTH KATAKANA LETTER RU",
+            "U+FF99",
+        ],
+        "body": [
+            "${1|ﾙ,&#xFF99;,U+FF99,0xFF99,HALFWIDTH KATAKANA LETTER RU|}$2",
+        ],
+        "description": [
+            "Code: U+FF99",
+            "Character/Symbol: ﾙ",
+            "Name: HALFWIDTH KATAKANA LETTER RU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾚ U+FF9A HALFWIDTH KATAKANA LETTER RE": 
+    {
+        "prefix": [
+            "..U.FF9A",
+            "..U.HALFWIDTH KATAKANA LETTER RE",
+            "U+FF9A",
+        ],
+        "body": [
+            "${1|ﾚ,&#xFF9A;,U+FF9A,0xFF9A,HALFWIDTH KATAKANA LETTER RE|}$2",
+        ],
+        "description": [
+            "Code: U+FF9A",
+            "Character/Symbol: ﾚ",
+            "Name: HALFWIDTH KATAKANA LETTER RE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾛ U+FF9B HALFWIDTH KATAKANA LETTER RO": 
+    {
+        "prefix": [
+            "..U.FF9B",
+            "..U.HALFWIDTH KATAKANA LETTER RO",
+            "U+FF9B",
+        ],
+        "body": [
+            "${1|ﾛ,&#xFF9B;,U+FF9B,0xFF9B,HALFWIDTH KATAKANA LETTER RO|}$2",
+        ],
+        "description": [
+            "Code: U+FF9B",
+            "Character/Symbol: ﾛ",
+            "Name: HALFWIDTH KATAKANA LETTER RO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾜ U+FF9C HALFWIDTH KATAKANA LETTER WA": 
+    {
+        "prefix": [
+            "..U.FF9C",
+            "..U.HALFWIDTH KATAKANA LETTER WA",
+            "U+FF9C",
+        ],
+        "body": [
+            "${1|ﾜ,&#xFF9C;,U+FF9C,0xFF9C,HALFWIDTH KATAKANA LETTER WA|}$2",
+        ],
+        "description": [
+            "Code: U+FF9C",
+            "Character/Symbol: ﾜ",
+            "Name: HALFWIDTH KATAKANA LETTER WA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾝ U+FF9D HALFWIDTH KATAKANA LETTER N": 
+    {
+        "prefix": [
+            "..U.FF9D",
+            "..U.HALFWIDTH KATAKANA LETTER N",
+            "U+FF9D",
+        ],
+        "body": [
+            "${1|ﾝ,&#xFF9D;,U+FF9D,0xFF9D,HALFWIDTH KATAKANA LETTER N|}$2",
+        ],
+        "description": [
+            "Code: U+FF9D",
+            "Character/Symbol: ﾝ",
+            "Name: HALFWIDTH KATAKANA LETTER N",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾞ U+FF9E HALFWIDTH KATAKANA VOICED SOUND MARK": 
+    {
+        "prefix": [
+            "..U.FF9E",
+            "..U.HALFWIDTH KATAKANA VOICED SOUND MARK",
+            "U+FF9E",
+        ],
+        "body": [
+            "${1|ﾞ,&#xFF9E;,U+FF9E,0xFF9E,HALFWIDTH KATAKANA VOICED SOUND MARK|}$2",
+        ],
+        "description": [
+            "Code: U+FF9E",
+            "Character/Symbol: ﾞ",
+            "Name: HALFWIDTH KATAKANA VOICED SOUND MARK",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾟ U+FF9F HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK": 
+    {
+        "prefix": [
+            "..U.FF9F",
+            "..U.HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK",
+            "U+FF9F",
+        ],
+        "body": [
+            "${1|ﾟ,&#xFF9F;,U+FF9F,0xFF9F,HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK|}$2",
+        ],
+        "description": [
+            "Code: U+FF9F",
+            "Character/Symbol: ﾟ",
+            "Name: HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾠ U+FFA0 HALFWIDTH HANGUL FILLER": 
+    {
+        "prefix": [
+            "..U.FFA0",
+            "..U.HALFWIDTH HANGUL FILLER",
+            "U+FFA0",
+        ],
+        "body": [
+            "${1|ﾠ,&#xFFA0;,U+FFA0,0xFFA0,HALFWIDTH HANGUL FILLER|}$2",
+        ],
+        "description": [
+            "Code: U+FFA0",
+            "Character/Symbol: ﾠ",
+            "Name: HALFWIDTH HANGUL FILLER",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾡ U+FFA1 HALFWIDTH HANGUL LETTER KIYEOK": 
+    {
+        "prefix": [
+            "..U.FFA1",
+            "..U.HALFWIDTH HANGUL LETTER KIYEOK",
+            "U+FFA1",
+        ],
+        "body": [
+            "${1|ﾡ,&#xFFA1;,U+FFA1,0xFFA1,HALFWIDTH HANGUL LETTER KIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+FFA1",
+            "Character/Symbol: ﾡ",
+            "Name: HALFWIDTH HANGUL LETTER KIYEOK",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾢ U+FFA2 HALFWIDTH HANGUL LETTER SSANGKIYEOK": 
+    {
+        "prefix": [
+            "..U.FFA2",
+            "..U.HALFWIDTH HANGUL LETTER SSANGKIYEOK",
+            "U+FFA2",
+        ],
+        "body": [
+            "${1|ﾢ,&#xFFA2;,U+FFA2,0xFFA2,HALFWIDTH HANGUL LETTER SSANGKIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+FFA2",
+            "Character/Symbol: ﾢ",
+            "Name: HALFWIDTH HANGUL LETTER SSANGKIYEOK",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾣ U+FFA3 HALFWIDTH HANGUL LETTER KIYEOK-SIOS": 
+    {
+        "prefix": [
+            "..U.FFA3",
+            "..U.HALFWIDTH HANGUL LETTER KIYEOK-SIOS",
+            "U+FFA3",
+        ],
+        "body": [
+            "${1|ﾣ,&#xFFA3;,U+FFA3,0xFFA3,HALFWIDTH HANGUL LETTER KIYEOK-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+FFA3",
+            "Character/Symbol: ﾣ",
+            "Name: HALFWIDTH HANGUL LETTER KIYEOK-SIOS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾤ U+FFA4 HALFWIDTH HANGUL LETTER NIEUN": 
+    {
+        "prefix": [
+            "..U.FFA4",
+            "..U.HALFWIDTH HANGUL LETTER NIEUN",
+            "U+FFA4",
+        ],
+        "body": [
+            "${1|ﾤ,&#xFFA4;,U+FFA4,0xFFA4,HALFWIDTH HANGUL LETTER NIEUN|}$2",
+        ],
+        "description": [
+            "Code: U+FFA4",
+            "Character/Symbol: ﾤ",
+            "Name: HALFWIDTH HANGUL LETTER NIEUN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾥ U+FFA5 HALFWIDTH HANGUL LETTER NIEUN-CIEUC": 
+    {
+        "prefix": [
+            "..U.FFA5",
+            "..U.HALFWIDTH HANGUL LETTER NIEUN-CIEUC",
+            "U+FFA5",
+        ],
+        "body": [
+            "${1|ﾥ,&#xFFA5;,U+FFA5,0xFFA5,HALFWIDTH HANGUL LETTER NIEUN-CIEUC|}$2",
+        ],
+        "description": [
+            "Code: U+FFA5",
+            "Character/Symbol: ﾥ",
+            "Name: HALFWIDTH HANGUL LETTER NIEUN-CIEUC",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾦ U+FFA6 HALFWIDTH HANGUL LETTER NIEUN-HIEUH": 
+    {
+        "prefix": [
+            "..U.FFA6",
+            "..U.HALFWIDTH HANGUL LETTER NIEUN-HIEUH",
+            "U+FFA6",
+        ],
+        "body": [
+            "${1|ﾦ,&#xFFA6;,U+FFA6,0xFFA6,HALFWIDTH HANGUL LETTER NIEUN-HIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+FFA6",
+            "Character/Symbol: ﾦ",
+            "Name: HALFWIDTH HANGUL LETTER NIEUN-HIEUH",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾧ U+FFA7 HALFWIDTH HANGUL LETTER TIKEUT": 
+    {
+        "prefix": [
+            "..U.FFA7",
+            "..U.HALFWIDTH HANGUL LETTER TIKEUT",
+            "U+FFA7",
+        ],
+        "body": [
+            "${1|ﾧ,&#xFFA7;,U+FFA7,0xFFA7,HALFWIDTH HANGUL LETTER TIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+FFA7",
+            "Character/Symbol: ﾧ",
+            "Name: HALFWIDTH HANGUL LETTER TIKEUT",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾨ U+FFA8 HALFWIDTH HANGUL LETTER SSANGTIKEUT": 
+    {
+        "prefix": [
+            "..U.FFA8",
+            "..U.HALFWIDTH HANGUL LETTER SSANGTIKEUT",
+            "U+FFA8",
+        ],
+        "body": [
+            "${1|ﾨ,&#xFFA8;,U+FFA8,0xFFA8,HALFWIDTH HANGUL LETTER SSANGTIKEUT|}$2",
+        ],
+        "description": [
+            "Code: U+FFA8",
+            "Character/Symbol: ﾨ",
+            "Name: HALFWIDTH HANGUL LETTER SSANGTIKEUT",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾩ U+FFA9 HALFWIDTH HANGUL LETTER RIEUL": 
+    {
+        "prefix": [
+            "..U.FFA9",
+            "..U.HALFWIDTH HANGUL LETTER RIEUL",
+            "U+FFA9",
+        ],
+        "body": [
+            "${1|ﾩ,&#xFFA9;,U+FFA9,0xFFA9,HALFWIDTH HANGUL LETTER RIEUL|}$2",
+        ],
+        "description": [
+            "Code: U+FFA9",
+            "Character/Symbol: ﾩ",
+            "Name: HALFWIDTH HANGUL LETTER RIEUL",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾪ U+FFAA HALFWIDTH HANGUL LETTER RIEUL-KIYEOK": 
+    {
+        "prefix": [
+            "..U.FFAA",
+            "..U.HALFWIDTH HANGUL LETTER RIEUL-KIYEOK",
+            "U+FFAA",
+        ],
+        "body": [
+            "${1|ﾪ,&#xFFAA;,U+FFAA,0xFFAA,HALFWIDTH HANGUL LETTER RIEUL-KIYEOK|}$2",
+        ],
+        "description": [
+            "Code: U+FFAA",
+            "Character/Symbol: ﾪ",
+            "Name: HALFWIDTH HANGUL LETTER RIEUL-KIYEOK",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾫ U+FFAB HALFWIDTH HANGUL LETTER RIEUL-MIEUM": 
+    {
+        "prefix": [
+            "..U.FFAB",
+            "..U.HALFWIDTH HANGUL LETTER RIEUL-MIEUM",
+            "U+FFAB",
+        ],
+        "body": [
+            "${1|ﾫ,&#xFFAB;,U+FFAB,0xFFAB,HALFWIDTH HANGUL LETTER RIEUL-MIEUM|}$2",
+        ],
+        "description": [
+            "Code: U+FFAB",
+            "Character/Symbol: ﾫ",
+            "Name: HALFWIDTH HANGUL LETTER RIEUL-MIEUM",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾬ U+FFAC HALFWIDTH HANGUL LETTER RIEUL-PIEUP": 
+    {
+        "prefix": [
+            "..U.FFAC",
+            "..U.HALFWIDTH HANGUL LETTER RIEUL-PIEUP",
+            "U+FFAC",
+        ],
+        "body": [
+            "${1|ﾬ,&#xFFAC;,U+FFAC,0xFFAC,HALFWIDTH HANGUL LETTER RIEUL-PIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+FFAC",
+            "Character/Symbol: ﾬ",
+            "Name: HALFWIDTH HANGUL LETTER RIEUL-PIEUP",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾭ U+FFAD HALFWIDTH HANGUL LETTER RIEUL-SIOS": 
+    {
+        "prefix": [
+            "..U.FFAD",
+            "..U.HALFWIDTH HANGUL LETTER RIEUL-SIOS",
+            "U+FFAD",
+        ],
+        "body": [
+            "${1|ﾭ,&#xFFAD;,U+FFAD,0xFFAD,HALFWIDTH HANGUL LETTER RIEUL-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+FFAD",
+            "Character/Symbol: ﾭ",
+            "Name: HALFWIDTH HANGUL LETTER RIEUL-SIOS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾮ U+FFAE HALFWIDTH HANGUL LETTER RIEUL-THIEUTH": 
+    {
+        "prefix": [
+            "..U.FFAE",
+            "..U.HALFWIDTH HANGUL LETTER RIEUL-THIEUTH",
+            "U+FFAE",
+        ],
+        "body": [
+            "${1|ﾮ,&#xFFAE;,U+FFAE,0xFFAE,HALFWIDTH HANGUL LETTER RIEUL-THIEUTH|}$2",
+        ],
+        "description": [
+            "Code: U+FFAE",
+            "Character/Symbol: ﾮ",
+            "Name: HALFWIDTH HANGUL LETTER RIEUL-THIEUTH",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾯ U+FFAF HALFWIDTH HANGUL LETTER RIEUL-PHIEUPH": 
+    {
+        "prefix": [
+            "..U.FFAF",
+            "..U.HALFWIDTH HANGUL LETTER RIEUL-PHIEUPH",
+            "U+FFAF",
+        ],
+        "body": [
+            "${1|ﾯ,&#xFFAF;,U+FFAF,0xFFAF,HALFWIDTH HANGUL LETTER RIEUL-PHIEUPH|}$2",
+        ],
+        "description": [
+            "Code: U+FFAF",
+            "Character/Symbol: ﾯ",
+            "Name: HALFWIDTH HANGUL LETTER RIEUL-PHIEUPH",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾰ U+FFB0 HALFWIDTH HANGUL LETTER RIEUL-HIEUH": 
+    {
+        "prefix": [
+            "..U.FFB0",
+            "..U.HALFWIDTH HANGUL LETTER RIEUL-HIEUH",
+            "U+FFB0",
+        ],
+        "body": [
+            "${1|ﾰ,&#xFFB0;,U+FFB0,0xFFB0,HALFWIDTH HANGUL LETTER RIEUL-HIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+FFB0",
+            "Character/Symbol: ﾰ",
+            "Name: HALFWIDTH HANGUL LETTER RIEUL-HIEUH",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾱ U+FFB1 HALFWIDTH HANGUL LETTER MIEUM": 
+    {
+        "prefix": [
+            "..U.FFB1",
+            "..U.HALFWIDTH HANGUL LETTER MIEUM",
+            "U+FFB1",
+        ],
+        "body": [
+            "${1|ﾱ,&#xFFB1;,U+FFB1,0xFFB1,HALFWIDTH HANGUL LETTER MIEUM|}$2",
+        ],
+        "description": [
+            "Code: U+FFB1",
+            "Character/Symbol: ﾱ",
+            "Name: HALFWIDTH HANGUL LETTER MIEUM",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾲ U+FFB2 HALFWIDTH HANGUL LETTER PIEUP": 
+    {
+        "prefix": [
+            "..U.FFB2",
+            "..U.HALFWIDTH HANGUL LETTER PIEUP",
+            "U+FFB2",
+        ],
+        "body": [
+            "${1|ﾲ,&#xFFB2;,U+FFB2,0xFFB2,HALFWIDTH HANGUL LETTER PIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+FFB2",
+            "Character/Symbol: ﾲ",
+            "Name: HALFWIDTH HANGUL LETTER PIEUP",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾳ U+FFB3 HALFWIDTH HANGUL LETTER SSANGPIEUP": 
+    {
+        "prefix": [
+            "..U.FFB3",
+            "..U.HALFWIDTH HANGUL LETTER SSANGPIEUP",
+            "U+FFB3",
+        ],
+        "body": [
+            "${1|ﾳ,&#xFFB3;,U+FFB3,0xFFB3,HALFWIDTH HANGUL LETTER SSANGPIEUP|}$2",
+        ],
+        "description": [
+            "Code: U+FFB3",
+            "Character/Symbol: ﾳ",
+            "Name: HALFWIDTH HANGUL LETTER SSANGPIEUP",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾴ U+FFB4 HALFWIDTH HANGUL LETTER PIEUP-SIOS": 
+    {
+        "prefix": [
+            "..U.FFB4",
+            "..U.HALFWIDTH HANGUL LETTER PIEUP-SIOS",
+            "U+FFB4",
+        ],
+        "body": [
+            "${1|ﾴ,&#xFFB4;,U+FFB4,0xFFB4,HALFWIDTH HANGUL LETTER PIEUP-SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+FFB4",
+            "Character/Symbol: ﾴ",
+            "Name: HALFWIDTH HANGUL LETTER PIEUP-SIOS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾵ U+FFB5 HALFWIDTH HANGUL LETTER SIOS": 
+    {
+        "prefix": [
+            "..U.FFB5",
+            "..U.HALFWIDTH HANGUL LETTER SIOS",
+            "U+FFB5",
+        ],
+        "body": [
+            "${1|ﾵ,&#xFFB5;,U+FFB5,0xFFB5,HALFWIDTH HANGUL LETTER SIOS|}$2",
+        ],
+        "description": [
+            "Code: U+FFB5",
+            "Character/Symbol: ﾵ",
+            "Name: HALFWIDTH HANGUL LETTER SIOS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾶ U+FFB6 HALFWIDTH HANGUL LETTER SSANGSIOS": 
+    {
+        "prefix": [
+            "..U.FFB6",
+            "..U.HALFWIDTH HANGUL LETTER SSANGSIOS",
+            "U+FFB6",
+        ],
+        "body": [
+            "${1|ﾶ,&#xFFB6;,U+FFB6,0xFFB6,HALFWIDTH HANGUL LETTER SSANGSIOS|}$2",
+        ],
+        "description": [
+            "Code: U+FFB6",
+            "Character/Symbol: ﾶ",
+            "Name: HALFWIDTH HANGUL LETTER SSANGSIOS",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾷ U+FFB7 HALFWIDTH HANGUL LETTER IEUNG": 
+    {
+        "prefix": [
+            "..U.FFB7",
+            "..U.HALFWIDTH HANGUL LETTER IEUNG",
+            "U+FFB7",
+        ],
+        "body": [
+            "${1|ﾷ,&#xFFB7;,U+FFB7,0xFFB7,HALFWIDTH HANGUL LETTER IEUNG|}$2",
+        ],
+        "description": [
+            "Code: U+FFB7",
+            "Character/Symbol: ﾷ",
+            "Name: HALFWIDTH HANGUL LETTER IEUNG",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾸ U+FFB8 HALFWIDTH HANGUL LETTER CIEUC": 
+    {
+        "prefix": [
+            "..U.FFB8",
+            "..U.HALFWIDTH HANGUL LETTER CIEUC",
+            "U+FFB8",
+        ],
+        "body": [
+            "${1|ﾸ,&#xFFB8;,U+FFB8,0xFFB8,HALFWIDTH HANGUL LETTER CIEUC|}$2",
+        ],
+        "description": [
+            "Code: U+FFB8",
+            "Character/Symbol: ﾸ",
+            "Name: HALFWIDTH HANGUL LETTER CIEUC",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾹ U+FFB9 HALFWIDTH HANGUL LETTER SSANGCIEUC": 
+    {
+        "prefix": [
+            "..U.FFB9",
+            "..U.HALFWIDTH HANGUL LETTER SSANGCIEUC",
+            "U+FFB9",
+        ],
+        "body": [
+            "${1|ﾹ,&#xFFB9;,U+FFB9,0xFFB9,HALFWIDTH HANGUL LETTER SSANGCIEUC|}$2",
+        ],
+        "description": [
+            "Code: U+FFB9",
+            "Character/Symbol: ﾹ",
+            "Name: HALFWIDTH HANGUL LETTER SSANGCIEUC",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾺ U+FFBA HALFWIDTH HANGUL LETTER CHIEUCH": 
+    {
+        "prefix": [
+            "..U.FFBA",
+            "..U.HALFWIDTH HANGUL LETTER CHIEUCH",
+            "U+FFBA",
+        ],
+        "body": [
+            "${1|ﾺ,&#xFFBA;,U+FFBA,0xFFBA,HALFWIDTH HANGUL LETTER CHIEUCH|}$2",
+        ],
+        "description": [
+            "Code: U+FFBA",
+            "Character/Symbol: ﾺ",
+            "Name: HALFWIDTH HANGUL LETTER CHIEUCH",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾻ U+FFBB HALFWIDTH HANGUL LETTER KHIEUKH": 
+    {
+        "prefix": [
+            "..U.FFBB",
+            "..U.HALFWIDTH HANGUL LETTER KHIEUKH",
+            "U+FFBB",
+        ],
+        "body": [
+            "${1|ﾻ,&#xFFBB;,U+FFBB,0xFFBB,HALFWIDTH HANGUL LETTER KHIEUKH|}$2",
+        ],
+        "description": [
+            "Code: U+FFBB",
+            "Character/Symbol: ﾻ",
+            "Name: HALFWIDTH HANGUL LETTER KHIEUKH",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾼ U+FFBC HALFWIDTH HANGUL LETTER THIEUTH": 
+    {
+        "prefix": [
+            "..U.FFBC",
+            "..U.HALFWIDTH HANGUL LETTER THIEUTH",
+            "U+FFBC",
+        ],
+        "body": [
+            "${1|ﾼ,&#xFFBC;,U+FFBC,0xFFBC,HALFWIDTH HANGUL LETTER THIEUTH|}$2",
+        ],
+        "description": [
+            "Code: U+FFBC",
+            "Character/Symbol: ﾼ",
+            "Name: HALFWIDTH HANGUL LETTER THIEUTH",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾽ U+FFBD HALFWIDTH HANGUL LETTER PHIEUPH": 
+    {
+        "prefix": [
+            "..U.FFBD",
+            "..U.HALFWIDTH HANGUL LETTER PHIEUPH",
+            "U+FFBD",
+        ],
+        "body": [
+            "${1|ﾽ,&#xFFBD;,U+FFBD,0xFFBD,HALFWIDTH HANGUL LETTER PHIEUPH|}$2",
+        ],
+        "description": [
+            "Code: U+FFBD",
+            "Character/Symbol: ﾽ",
+            "Name: HALFWIDTH HANGUL LETTER PHIEUPH",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ﾾ U+FFBE HALFWIDTH HANGUL LETTER HIEUH": 
+    {
+        "prefix": [
+            "..U.FFBE",
+            "..U.HALFWIDTH HANGUL LETTER HIEUH",
+            "U+FFBE",
+        ],
+        "body": [
+            "${1|ﾾ,&#xFFBE;,U+FFBE,0xFFBE,HALFWIDTH HANGUL LETTER HIEUH|}$2",
+        ],
+        "description": [
+            "Code: U+FFBE",
+            "Character/Symbol: ﾾ",
+            "Name: HALFWIDTH HANGUL LETTER HIEUH",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￂ U+FFC2 HALFWIDTH HANGUL LETTER A": 
+    {
+        "prefix": [
+            "..U.FFC2",
+            "..U.HALFWIDTH HANGUL LETTER A",
+            "U+FFC2",
+        ],
+        "body": [
+            "${1|ￂ,&#xFFC2;,U+FFC2,0xFFC2,HALFWIDTH HANGUL LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+FFC2",
+            "Character/Symbol: ￂ",
+            "Name: HALFWIDTH HANGUL LETTER A",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￃ U+FFC3 HALFWIDTH HANGUL LETTER AE": 
+    {
+        "prefix": [
+            "..U.FFC3",
+            "..U.HALFWIDTH HANGUL LETTER AE",
+            "U+FFC3",
+        ],
+        "body": [
+            "${1|ￃ,&#xFFC3;,U+FFC3,0xFFC3,HALFWIDTH HANGUL LETTER AE|}$2",
+        ],
+        "description": [
+            "Code: U+FFC3",
+            "Character/Symbol: ￃ",
+            "Name: HALFWIDTH HANGUL LETTER AE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￄ U+FFC4 HALFWIDTH HANGUL LETTER YA": 
+    {
+        "prefix": [
+            "..U.FFC4",
+            "..U.HALFWIDTH HANGUL LETTER YA",
+            "U+FFC4",
+        ],
+        "body": [
+            "${1|ￄ,&#xFFC4;,U+FFC4,0xFFC4,HALFWIDTH HANGUL LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+FFC4",
+            "Character/Symbol: ￄ",
+            "Name: HALFWIDTH HANGUL LETTER YA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￅ U+FFC5 HALFWIDTH HANGUL LETTER YAE": 
+    {
+        "prefix": [
+            "..U.FFC5",
+            "..U.HALFWIDTH HANGUL LETTER YAE",
+            "U+FFC5",
+        ],
+        "body": [
+            "${1|ￅ,&#xFFC5;,U+FFC5,0xFFC5,HALFWIDTH HANGUL LETTER YAE|}$2",
+        ],
+        "description": [
+            "Code: U+FFC5",
+            "Character/Symbol: ￅ",
+            "Name: HALFWIDTH HANGUL LETTER YAE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￆ U+FFC6 HALFWIDTH HANGUL LETTER EO": 
+    {
+        "prefix": [
+            "..U.FFC6",
+            "..U.HALFWIDTH HANGUL LETTER EO",
+            "U+FFC6",
+        ],
+        "body": [
+            "${1|ￆ,&#xFFC6;,U+FFC6,0xFFC6,HALFWIDTH HANGUL LETTER EO|}$2",
+        ],
+        "description": [
+            "Code: U+FFC6",
+            "Character/Symbol: ￆ",
+            "Name: HALFWIDTH HANGUL LETTER EO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￇ U+FFC7 HALFWIDTH HANGUL LETTER E": 
+    {
+        "prefix": [
+            "..U.FFC7",
+            "..U.HALFWIDTH HANGUL LETTER E",
+            "U+FFC7",
+        ],
+        "body": [
+            "${1|ￇ,&#xFFC7;,U+FFC7,0xFFC7,HALFWIDTH HANGUL LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+FFC7",
+            "Character/Symbol: ￇ",
+            "Name: HALFWIDTH HANGUL LETTER E",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￊ U+FFCA HALFWIDTH HANGUL LETTER YEO": 
+    {
+        "prefix": [
+            "..U.FFCA",
+            "..U.HALFWIDTH HANGUL LETTER YEO",
+            "U+FFCA",
+        ],
+        "body": [
+            "${1|ￊ,&#xFFCA;,U+FFCA,0xFFCA,HALFWIDTH HANGUL LETTER YEO|}$2",
+        ],
+        "description": [
+            "Code: U+FFCA",
+            "Character/Symbol: ￊ",
+            "Name: HALFWIDTH HANGUL LETTER YEO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￋ U+FFCB HALFWIDTH HANGUL LETTER YE": 
+    {
+        "prefix": [
+            "..U.FFCB",
+            "..U.HALFWIDTH HANGUL LETTER YE",
+            "U+FFCB",
+        ],
+        "body": [
+            "${1|ￋ,&#xFFCB;,U+FFCB,0xFFCB,HALFWIDTH HANGUL LETTER YE|}$2",
+        ],
+        "description": [
+            "Code: U+FFCB",
+            "Character/Symbol: ￋ",
+            "Name: HALFWIDTH HANGUL LETTER YE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￌ U+FFCC HALFWIDTH HANGUL LETTER O": 
+    {
+        "prefix": [
+            "..U.FFCC",
+            "..U.HALFWIDTH HANGUL LETTER O",
+            "U+FFCC",
+        ],
+        "body": [
+            "${1|ￌ,&#xFFCC;,U+FFCC,0xFFCC,HALFWIDTH HANGUL LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+FFCC",
+            "Character/Symbol: ￌ",
+            "Name: HALFWIDTH HANGUL LETTER O",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￍ U+FFCD HALFWIDTH HANGUL LETTER WA": 
+    {
+        "prefix": [
+            "..U.FFCD",
+            "..U.HALFWIDTH HANGUL LETTER WA",
+            "U+FFCD",
+        ],
+        "body": [
+            "${1|ￍ,&#xFFCD;,U+FFCD,0xFFCD,HALFWIDTH HANGUL LETTER WA|}$2",
+        ],
+        "description": [
+            "Code: U+FFCD",
+            "Character/Symbol: ￍ",
+            "Name: HALFWIDTH HANGUL LETTER WA",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￎ U+FFCE HALFWIDTH HANGUL LETTER WAE": 
+    {
+        "prefix": [
+            "..U.FFCE",
+            "..U.HALFWIDTH HANGUL LETTER WAE",
+            "U+FFCE",
+        ],
+        "body": [
+            "${1|ￎ,&#xFFCE;,U+FFCE,0xFFCE,HALFWIDTH HANGUL LETTER WAE|}$2",
+        ],
+        "description": [
+            "Code: U+FFCE",
+            "Character/Symbol: ￎ",
+            "Name: HALFWIDTH HANGUL LETTER WAE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￏ U+FFCF HALFWIDTH HANGUL LETTER OE": 
+    {
+        "prefix": [
+            "..U.FFCF",
+            "..U.HALFWIDTH HANGUL LETTER OE",
+            "U+FFCF",
+        ],
+        "body": [
+            "${1|ￏ,&#xFFCF;,U+FFCF,0xFFCF,HALFWIDTH HANGUL LETTER OE|}$2",
+        ],
+        "description": [
+            "Code: U+FFCF",
+            "Character/Symbol: ￏ",
+            "Name: HALFWIDTH HANGUL LETTER OE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￒ U+FFD2 HALFWIDTH HANGUL LETTER YO": 
+    {
+        "prefix": [
+            "..U.FFD2",
+            "..U.HALFWIDTH HANGUL LETTER YO",
+            "U+FFD2",
+        ],
+        "body": [
+            "${1|ￒ,&#xFFD2;,U+FFD2,0xFFD2,HALFWIDTH HANGUL LETTER YO|}$2",
+        ],
+        "description": [
+            "Code: U+FFD2",
+            "Character/Symbol: ￒ",
+            "Name: HALFWIDTH HANGUL LETTER YO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￓ U+FFD3 HALFWIDTH HANGUL LETTER U": 
+    {
+        "prefix": [
+            "..U.FFD3",
+            "..U.HALFWIDTH HANGUL LETTER U",
+            "U+FFD3",
+        ],
+        "body": [
+            "${1|ￓ,&#xFFD3;,U+FFD3,0xFFD3,HALFWIDTH HANGUL LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+FFD3",
+            "Character/Symbol: ￓ",
+            "Name: HALFWIDTH HANGUL LETTER U",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￔ U+FFD4 HALFWIDTH HANGUL LETTER WEO": 
+    {
+        "prefix": [
+            "..U.FFD4",
+            "..U.HALFWIDTH HANGUL LETTER WEO",
+            "U+FFD4",
+        ],
+        "body": [
+            "${1|ￔ,&#xFFD4;,U+FFD4,0xFFD4,HALFWIDTH HANGUL LETTER WEO|}$2",
+        ],
+        "description": [
+            "Code: U+FFD4",
+            "Character/Symbol: ￔ",
+            "Name: HALFWIDTH HANGUL LETTER WEO",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￕ U+FFD5 HALFWIDTH HANGUL LETTER WE": 
+    {
+        "prefix": [
+            "..U.FFD5",
+            "..U.HALFWIDTH HANGUL LETTER WE",
+            "U+FFD5",
+        ],
+        "body": [
+            "${1|ￕ,&#xFFD5;,U+FFD5,0xFFD5,HALFWIDTH HANGUL LETTER WE|}$2",
+        ],
+        "description": [
+            "Code: U+FFD5",
+            "Character/Symbol: ￕ",
+            "Name: HALFWIDTH HANGUL LETTER WE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￖ U+FFD6 HALFWIDTH HANGUL LETTER WI": 
+    {
+        "prefix": [
+            "..U.FFD6",
+            "..U.HALFWIDTH HANGUL LETTER WI",
+            "U+FFD6",
+        ],
+        "body": [
+            "${1|ￖ,&#xFFD6;,U+FFD6,0xFFD6,HALFWIDTH HANGUL LETTER WI|}$2",
+        ],
+        "description": [
+            "Code: U+FFD6",
+            "Character/Symbol: ￖ",
+            "Name: HALFWIDTH HANGUL LETTER WI",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￗ U+FFD7 HALFWIDTH HANGUL LETTER YU": 
+    {
+        "prefix": [
+            "..U.FFD7",
+            "..U.HALFWIDTH HANGUL LETTER YU",
+            "U+FFD7",
+        ],
+        "body": [
+            "${1|ￗ,&#xFFD7;,U+FFD7,0xFFD7,HALFWIDTH HANGUL LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+FFD7",
+            "Character/Symbol: ￗ",
+            "Name: HALFWIDTH HANGUL LETTER YU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￚ U+FFDA HALFWIDTH HANGUL LETTER EU": 
+    {
+        "prefix": [
+            "..U.FFDA",
+            "..U.HALFWIDTH HANGUL LETTER EU",
+            "U+FFDA",
+        ],
+        "body": [
+            "${1|ￚ,&#xFFDA;,U+FFDA,0xFFDA,HALFWIDTH HANGUL LETTER EU|}$2",
+        ],
+        "description": [
+            "Code: U+FFDA",
+            "Character/Symbol: ￚ",
+            "Name: HALFWIDTH HANGUL LETTER EU",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￛ U+FFDB HALFWIDTH HANGUL LETTER YI": 
+    {
+        "prefix": [
+            "..U.FFDB",
+            "..U.HALFWIDTH HANGUL LETTER YI",
+            "U+FFDB",
+        ],
+        "body": [
+            "${1|ￛ,&#xFFDB;,U+FFDB,0xFFDB,HALFWIDTH HANGUL LETTER YI|}$2",
+        ],
+        "description": [
+            "Code: U+FFDB",
+            "Character/Symbol: ￛ",
+            "Name: HALFWIDTH HANGUL LETTER YI",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￜ U+FFDC HALFWIDTH HANGUL LETTER I": 
+    {
+        "prefix": [
+            "..U.FFDC",
+            "..U.HALFWIDTH HANGUL LETTER I",
+            "U+FFDC",
+        ],
+        "body": [
+            "${1|ￜ,&#xFFDC;,U+FFDC,0xFFDC,HALFWIDTH HANGUL LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+FFDC",
+            "Character/Symbol: ￜ",
+            "Name: HALFWIDTH HANGUL LETTER I",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￠ U+FFE0 FULLWIDTH CENT SIGN": 
+    {
+        "prefix": [
+            "..U.FFE0",
+            "..U.FULLWIDTH CENT SIGN",
+            "U+FFE0",
+        ],
+        "body": [
+            "${1|￠,&#xFFE0;,U+FFE0,0xFFE0,FULLWIDTH CENT SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FFE0",
+            "Character/Symbol: ￠",
+            "Name: FULLWIDTH CENT SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￡ U+FFE1 FULLWIDTH POUND SIGN": 
+    {
+        "prefix": [
+            "..U.FFE1",
+            "..U.FULLWIDTH POUND SIGN",
+            "U+FFE1",
+        ],
+        "body": [
+            "${1|￡,&#xFFE1;,U+FFE1,0xFFE1,FULLWIDTH POUND SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FFE1",
+            "Character/Symbol: ￡",
+            "Name: FULLWIDTH POUND SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￢ U+FFE2 FULLWIDTH NOT SIGN": 
+    {
+        "prefix": [
+            "..U.FFE2",
+            "..U.FULLWIDTH NOT SIGN",
+            "U+FFE2",
+        ],
+        "body": [
+            "${1|￢,&#xFFE2;,U+FFE2,0xFFE2,FULLWIDTH NOT SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FFE2",
+            "Character/Symbol: ￢",
+            "Name: FULLWIDTH NOT SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￣ U+FFE3 FULLWIDTH MACRON": 
+    {
+        "prefix": [
+            "..U.FFE3",
+            "..U.FULLWIDTH MACRON",
+            "U+FFE3",
+        ],
+        "body": [
+            "${1|￣,&#xFFE3;,U+FFE3,0xFFE3,FULLWIDTH MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+FFE3",
+            "Character/Symbol: ￣",
+            "Name: FULLWIDTH MACRON",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￤ U+FFE4 FULLWIDTH BROKEN BAR": 
+    {
+        "prefix": [
+            "..U.FFE4",
+            "..U.FULLWIDTH BROKEN BAR",
+            "U+FFE4",
+        ],
+        "body": [
+            "${1|￤,&#xFFE4;,U+FFE4,0xFFE4,FULLWIDTH BROKEN BAR|}$2",
+        ],
+        "description": [
+            "Code: U+FFE4",
+            "Character/Symbol: ￤",
+            "Name: FULLWIDTH BROKEN BAR",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￥ U+FFE5 FULLWIDTH YEN SIGN": 
+    {
+        "prefix": [
+            "..U.FFE5",
+            "..U.FULLWIDTH YEN SIGN",
+            "U+FFE5",
+        ],
+        "body": [
+            "${1|￥,&#xFFE5;,U+FFE5,0xFFE5,FULLWIDTH YEN SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FFE5",
+            "Character/Symbol: ￥",
+            "Name: FULLWIDTH YEN SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￦ U+FFE6 FULLWIDTH WON SIGN": 
+    {
+        "prefix": [
+            "..U.FFE6",
+            "..U.FULLWIDTH WON SIGN",
+            "U+FFE6",
+        ],
+        "body": [
+            "${1|￦,&#xFFE6;,U+FFE6,0xFFE6,FULLWIDTH WON SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FFE6",
+            "Character/Symbol: ￦",
+            "Name: FULLWIDTH WON SIGN",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￨ U+FFE8 HALFWIDTH FORMS LIGHT VERTICAL": 
+    {
+        "prefix": [
+            "..U.FFE8",
+            "..U.HALFWIDTH FORMS LIGHT VERTICAL",
+            "U+FFE8",
+        ],
+        "body": [
+            "${1|￨,&#xFFE8;,U+FFE8,0xFFE8,HALFWIDTH FORMS LIGHT VERTICAL|}$2",
+        ],
+        "description": [
+            "Code: U+FFE8",
+            "Character/Symbol: ￨",
+            "Name: HALFWIDTH FORMS LIGHT VERTICAL",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￩ U+FFE9 HALFWIDTH LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.FFE9",
+            "..U.HALFWIDTH LEFTWARDS ARROW",
+            "U+FFE9",
+        ],
+        "body": [
+            "${1|￩,&#xFFE9;,U+FFE9,0xFFE9,HALFWIDTH LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+FFE9",
+            "Character/Symbol: ￩",
+            "Name: HALFWIDTH LEFTWARDS ARROW",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￪ U+FFEA HALFWIDTH UPWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.FFEA",
+            "..U.HALFWIDTH UPWARDS ARROW",
+            "U+FFEA",
+        ],
+        "body": [
+            "${1|￪,&#xFFEA;,U+FFEA,0xFFEA,HALFWIDTH UPWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+FFEA",
+            "Character/Symbol: ￪",
+            "Name: HALFWIDTH UPWARDS ARROW",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￫ U+FFEB HALFWIDTH RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.FFEB",
+            "..U.HALFWIDTH RIGHTWARDS ARROW",
+            "U+FFEB",
+        ],
+        "body": [
+            "${1|￫,&#xFFEB;,U+FFEB,0xFFEB,HALFWIDTH RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+FFEB",
+            "Character/Symbol: ￫",
+            "Name: HALFWIDTH RIGHTWARDS ARROW",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￬ U+FFEC HALFWIDTH DOWNWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.FFEC",
+            "..U.HALFWIDTH DOWNWARDS ARROW",
+            "U+FFEC",
+        ],
+        "body": [
+            "${1|￬,&#xFFEC;,U+FFEC,0xFFEC,HALFWIDTH DOWNWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+FFEC",
+            "Character/Symbol: ￬",
+            "Name: HALFWIDTH DOWNWARDS ARROW",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￭ U+FFED HALFWIDTH BLACK SQUARE": 
+    {
+        "prefix": [
+            "..U.FFED",
+            "..U.HALFWIDTH BLACK SQUARE",
+            "U+FFED",
+        ],
+        "body": [
+            "${1|￭,&#xFFED;,U+FFED,0xFFED,HALFWIDTH BLACK SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+FFED",
+            "Character/Symbol: ￭",
+            "Name: HALFWIDTH BLACK SQUARE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+    "Unicode ￮ U+FFEE HALFWIDTH WHITE CIRCLE": 
+    {
+        "prefix": [
+            "..U.FFEE",
+            "..U.HALFWIDTH WHITE CIRCLE",
+            "U+FFEE",
+        ],
+        "body": [
+            "${1|￮,&#xFFEE;,U+FFEE,0xFFEE,HALFWIDTH WHITE CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+FFEE",
+            "Character/Symbol: ￮",
+            "Name: HALFWIDTH WHITE CIRCLE",
+            "Group/Block: Half_And_Full_Forms",
+        ],
+    },
+
+}

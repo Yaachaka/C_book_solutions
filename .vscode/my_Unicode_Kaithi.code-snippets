@@ -1,0 +1,1226 @@
+{
+    "Unicode 𑂀 U+11080 KAITHI SIGN CANDRABINDU": 
+    {
+        "prefix": [
+            "..U.11080",
+            "..U.KAITHI SIGN CANDRABINDU",
+            "U+11080",
+        ],
+        "body": [
+            "${1|𑂀,&#x11080;,U+11080,0x11080,KAITHI SIGN CANDRABINDU|}$2",
+        ],
+        "description": [
+            "Code: U+11080",
+            "Character/Symbol: 𑂀",
+            "Name: KAITHI SIGN CANDRABINDU",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂁 U+11081 KAITHI SIGN ANUSVARA": 
+    {
+        "prefix": [
+            "..U.11081",
+            "..U.KAITHI SIGN ANUSVARA",
+            "U+11081",
+        ],
+        "body": [
+            "${1|𑂁,&#x11081;,U+11081,0x11081,KAITHI SIGN ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+11081",
+            "Character/Symbol: 𑂁",
+            "Name: KAITHI SIGN ANUSVARA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂂 U+11082 KAITHI SIGN VISARGA": 
+    {
+        "prefix": [
+            "..U.11082",
+            "..U.KAITHI SIGN VISARGA",
+            "U+11082",
+        ],
+        "body": [
+            "${1|𑂂,&#x11082;,U+11082,0x11082,KAITHI SIGN VISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+11082",
+            "Character/Symbol: 𑂂",
+            "Name: KAITHI SIGN VISARGA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂃 U+11083 KAITHI LETTER A": 
+    {
+        "prefix": [
+            "..U.11083",
+            "..U.KAITHI LETTER A",
+            "U+11083",
+        ],
+        "body": [
+            "${1|𑂃,&#x11083;,U+11083,0x11083,KAITHI LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+11083",
+            "Character/Symbol: 𑂃",
+            "Name: KAITHI LETTER A",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂄 U+11084 KAITHI LETTER AA": 
+    {
+        "prefix": [
+            "..U.11084",
+            "..U.KAITHI LETTER AA",
+            "U+11084",
+        ],
+        "body": [
+            "${1|𑂄,&#x11084;,U+11084,0x11084,KAITHI LETTER AA|}$2",
+        ],
+        "description": [
+            "Code: U+11084",
+            "Character/Symbol: 𑂄",
+            "Name: KAITHI LETTER AA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂅 U+11085 KAITHI LETTER I": 
+    {
+        "prefix": [
+            "..U.11085",
+            "..U.KAITHI LETTER I",
+            "U+11085",
+        ],
+        "body": [
+            "${1|𑂅,&#x11085;,U+11085,0x11085,KAITHI LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+11085",
+            "Character/Symbol: 𑂅",
+            "Name: KAITHI LETTER I",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂆 U+11086 KAITHI LETTER II": 
+    {
+        "prefix": [
+            "..U.11086",
+            "..U.KAITHI LETTER II",
+            "U+11086",
+        ],
+        "body": [
+            "${1|𑂆,&#x11086;,U+11086,0x11086,KAITHI LETTER II|}$2",
+        ],
+        "description": [
+            "Code: U+11086",
+            "Character/Symbol: 𑂆",
+            "Name: KAITHI LETTER II",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂇 U+11087 KAITHI LETTER U": 
+    {
+        "prefix": [
+            "..U.11087",
+            "..U.KAITHI LETTER U",
+            "U+11087",
+        ],
+        "body": [
+            "${1|𑂇,&#x11087;,U+11087,0x11087,KAITHI LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+11087",
+            "Character/Symbol: 𑂇",
+            "Name: KAITHI LETTER U",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂈 U+11088 KAITHI LETTER UU": 
+    {
+        "prefix": [
+            "..U.11088",
+            "..U.KAITHI LETTER UU",
+            "U+11088",
+        ],
+        "body": [
+            "${1|𑂈,&#x11088;,U+11088,0x11088,KAITHI LETTER UU|}$2",
+        ],
+        "description": [
+            "Code: U+11088",
+            "Character/Symbol: 𑂈",
+            "Name: KAITHI LETTER UU",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂉 U+11089 KAITHI LETTER E": 
+    {
+        "prefix": [
+            "..U.11089",
+            "..U.KAITHI LETTER E",
+            "U+11089",
+        ],
+        "body": [
+            "${1|𑂉,&#x11089;,U+11089,0x11089,KAITHI LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+11089",
+            "Character/Symbol: 𑂉",
+            "Name: KAITHI LETTER E",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂊 U+1108A KAITHI LETTER AI": 
+    {
+        "prefix": [
+            "..U.1108A",
+            "..U.KAITHI LETTER AI",
+            "U+1108A",
+        ],
+        "body": [
+            "${1|𑂊,&#x1108A;,U+1108A,0x1108A,KAITHI LETTER AI|}$2",
+        ],
+        "description": [
+            "Code: U+1108A",
+            "Character/Symbol: 𑂊",
+            "Name: KAITHI LETTER AI",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂋 U+1108B KAITHI LETTER O": 
+    {
+        "prefix": [
+            "..U.1108B",
+            "..U.KAITHI LETTER O",
+            "U+1108B",
+        ],
+        "body": [
+            "${1|𑂋,&#x1108B;,U+1108B,0x1108B,KAITHI LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+1108B",
+            "Character/Symbol: 𑂋",
+            "Name: KAITHI LETTER O",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂌 U+1108C KAITHI LETTER AU": 
+    {
+        "prefix": [
+            "..U.1108C",
+            "..U.KAITHI LETTER AU",
+            "U+1108C",
+        ],
+        "body": [
+            "${1|𑂌,&#x1108C;,U+1108C,0x1108C,KAITHI LETTER AU|}$2",
+        ],
+        "description": [
+            "Code: U+1108C",
+            "Character/Symbol: 𑂌",
+            "Name: KAITHI LETTER AU",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂍 U+1108D KAITHI LETTER KA": 
+    {
+        "prefix": [
+            "..U.1108D",
+            "..U.KAITHI LETTER KA",
+            "U+1108D",
+        ],
+        "body": [
+            "${1|𑂍,&#x1108D;,U+1108D,0x1108D,KAITHI LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+1108D",
+            "Character/Symbol: 𑂍",
+            "Name: KAITHI LETTER KA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂎 U+1108E KAITHI LETTER KHA": 
+    {
+        "prefix": [
+            "..U.1108E",
+            "..U.KAITHI LETTER KHA",
+            "U+1108E",
+        ],
+        "body": [
+            "${1|𑂎,&#x1108E;,U+1108E,0x1108E,KAITHI LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+1108E",
+            "Character/Symbol: 𑂎",
+            "Name: KAITHI LETTER KHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂏 U+1108F KAITHI LETTER GA": 
+    {
+        "prefix": [
+            "..U.1108F",
+            "..U.KAITHI LETTER GA",
+            "U+1108F",
+        ],
+        "body": [
+            "${1|𑂏,&#x1108F;,U+1108F,0x1108F,KAITHI LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+1108F",
+            "Character/Symbol: 𑂏",
+            "Name: KAITHI LETTER GA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂐 U+11090 KAITHI LETTER GHA": 
+    {
+        "prefix": [
+            "..U.11090",
+            "..U.KAITHI LETTER GHA",
+            "U+11090",
+        ],
+        "body": [
+            "${1|𑂐,&#x11090;,U+11090,0x11090,KAITHI LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+11090",
+            "Character/Symbol: 𑂐",
+            "Name: KAITHI LETTER GHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂑 U+11091 KAITHI LETTER NGA": 
+    {
+        "prefix": [
+            "..U.11091",
+            "..U.KAITHI LETTER NGA",
+            "U+11091",
+        ],
+        "body": [
+            "${1|𑂑,&#x11091;,U+11091,0x11091,KAITHI LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+11091",
+            "Character/Symbol: 𑂑",
+            "Name: KAITHI LETTER NGA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂒 U+11092 KAITHI LETTER CA": 
+    {
+        "prefix": [
+            "..U.11092",
+            "..U.KAITHI LETTER CA",
+            "U+11092",
+        ],
+        "body": [
+            "${1|𑂒,&#x11092;,U+11092,0x11092,KAITHI LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+11092",
+            "Character/Symbol: 𑂒",
+            "Name: KAITHI LETTER CA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂓 U+11093 KAITHI LETTER CHA": 
+    {
+        "prefix": [
+            "..U.11093",
+            "..U.KAITHI LETTER CHA",
+            "U+11093",
+        ],
+        "body": [
+            "${1|𑂓,&#x11093;,U+11093,0x11093,KAITHI LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+11093",
+            "Character/Symbol: 𑂓",
+            "Name: KAITHI LETTER CHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂔 U+11094 KAITHI LETTER JA": 
+    {
+        "prefix": [
+            "..U.11094",
+            "..U.KAITHI LETTER JA",
+            "U+11094",
+        ],
+        "body": [
+            "${1|𑂔,&#x11094;,U+11094,0x11094,KAITHI LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+11094",
+            "Character/Symbol: 𑂔",
+            "Name: KAITHI LETTER JA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂕 U+11095 KAITHI LETTER JHA": 
+    {
+        "prefix": [
+            "..U.11095",
+            "..U.KAITHI LETTER JHA",
+            "U+11095",
+        ],
+        "body": [
+            "${1|𑂕,&#x11095;,U+11095,0x11095,KAITHI LETTER JHA|}$2",
+        ],
+        "description": [
+            "Code: U+11095",
+            "Character/Symbol: 𑂕",
+            "Name: KAITHI LETTER JHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂖 U+11096 KAITHI LETTER NYA": 
+    {
+        "prefix": [
+            "..U.11096",
+            "..U.KAITHI LETTER NYA",
+            "U+11096",
+        ],
+        "body": [
+            "${1|𑂖,&#x11096;,U+11096,0x11096,KAITHI LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+11096",
+            "Character/Symbol: 𑂖",
+            "Name: KAITHI LETTER NYA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂗 U+11097 KAITHI LETTER TTA": 
+    {
+        "prefix": [
+            "..U.11097",
+            "..U.KAITHI LETTER TTA",
+            "U+11097",
+        ],
+        "body": [
+            "${1|𑂗,&#x11097;,U+11097,0x11097,KAITHI LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+11097",
+            "Character/Symbol: 𑂗",
+            "Name: KAITHI LETTER TTA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂘 U+11098 KAITHI LETTER TTHA": 
+    {
+        "prefix": [
+            "..U.11098",
+            "..U.KAITHI LETTER TTHA",
+            "U+11098",
+        ],
+        "body": [
+            "${1|𑂘,&#x11098;,U+11098,0x11098,KAITHI LETTER TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+11098",
+            "Character/Symbol: 𑂘",
+            "Name: KAITHI LETTER TTHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂙 U+11099 KAITHI LETTER DDA": 
+    {
+        "prefix": [
+            "..U.11099",
+            "..U.KAITHI LETTER DDA",
+            "U+11099",
+        ],
+        "body": [
+            "${1|𑂙,&#x11099;,U+11099,0x11099,KAITHI LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+11099",
+            "Character/Symbol: 𑂙",
+            "Name: KAITHI LETTER DDA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂚 U+1109A KAITHI LETTER DDDHA": 
+    {
+        "prefix": [
+            "..U.1109A",
+            "..U.KAITHI LETTER DDDHA",
+            "U+1109A",
+        ],
+        "body": [
+            "${1|𑂚,&#x1109A;,U+1109A,0x1109A,KAITHI LETTER DDDHA|}$2",
+        ],
+        "description": [
+            "Code: U+1109A",
+            "Character/Symbol: 𑂚",
+            "Name: KAITHI LETTER DDDHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂛 U+1109B KAITHI LETTER DDHA": 
+    {
+        "prefix": [
+            "..U.1109B",
+            "..U.KAITHI LETTER DDHA",
+            "U+1109B",
+        ],
+        "body": [
+            "${1|𑂛,&#x1109B;,U+1109B,0x1109B,KAITHI LETTER DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+1109B",
+            "Character/Symbol: 𑂛",
+            "Name: KAITHI LETTER DDHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂜 U+1109C KAITHI LETTER RHA": 
+    {
+        "prefix": [
+            "..U.1109C",
+            "..U.KAITHI LETTER RHA",
+            "U+1109C",
+        ],
+        "body": [
+            "${1|𑂜,&#x1109C;,U+1109C,0x1109C,KAITHI LETTER RHA|}$2",
+        ],
+        "description": [
+            "Code: U+1109C",
+            "Character/Symbol: 𑂜",
+            "Name: KAITHI LETTER RHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂝 U+1109D KAITHI LETTER NNA": 
+    {
+        "prefix": [
+            "..U.1109D",
+            "..U.KAITHI LETTER NNA",
+            "U+1109D",
+        ],
+        "body": [
+            "${1|𑂝,&#x1109D;,U+1109D,0x1109D,KAITHI LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+1109D",
+            "Character/Symbol: 𑂝",
+            "Name: KAITHI LETTER NNA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂞 U+1109E KAITHI LETTER TA": 
+    {
+        "prefix": [
+            "..U.1109E",
+            "..U.KAITHI LETTER TA",
+            "U+1109E",
+        ],
+        "body": [
+            "${1|𑂞,&#x1109E;,U+1109E,0x1109E,KAITHI LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+1109E",
+            "Character/Symbol: 𑂞",
+            "Name: KAITHI LETTER TA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂟 U+1109F KAITHI LETTER THA": 
+    {
+        "prefix": [
+            "..U.1109F",
+            "..U.KAITHI LETTER THA",
+            "U+1109F",
+        ],
+        "body": [
+            "${1|𑂟,&#x1109F;,U+1109F,0x1109F,KAITHI LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+1109F",
+            "Character/Symbol: 𑂟",
+            "Name: KAITHI LETTER THA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂠 U+110A0 KAITHI LETTER DA": 
+    {
+        "prefix": [
+            "..U.110A0",
+            "..U.KAITHI LETTER DA",
+            "U+110A0",
+        ],
+        "body": [
+            "${1|𑂠,&#x110A0;,U+110A0,0x110A0,KAITHI LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+110A0",
+            "Character/Symbol: 𑂠",
+            "Name: KAITHI LETTER DA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂡 U+110A1 KAITHI LETTER DHA": 
+    {
+        "prefix": [
+            "..U.110A1",
+            "..U.KAITHI LETTER DHA",
+            "U+110A1",
+        ],
+        "body": [
+            "${1|𑂡,&#x110A1;,U+110A1,0x110A1,KAITHI LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+110A1",
+            "Character/Symbol: 𑂡",
+            "Name: KAITHI LETTER DHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂢 U+110A2 KAITHI LETTER NA": 
+    {
+        "prefix": [
+            "..U.110A2",
+            "..U.KAITHI LETTER NA",
+            "U+110A2",
+        ],
+        "body": [
+            "${1|𑂢,&#x110A2;,U+110A2,0x110A2,KAITHI LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+110A2",
+            "Character/Symbol: 𑂢",
+            "Name: KAITHI LETTER NA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂣 U+110A3 KAITHI LETTER PA": 
+    {
+        "prefix": [
+            "..U.110A3",
+            "..U.KAITHI LETTER PA",
+            "U+110A3",
+        ],
+        "body": [
+            "${1|𑂣,&#x110A3;,U+110A3,0x110A3,KAITHI LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+110A3",
+            "Character/Symbol: 𑂣",
+            "Name: KAITHI LETTER PA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂤 U+110A4 KAITHI LETTER PHA": 
+    {
+        "prefix": [
+            "..U.110A4",
+            "..U.KAITHI LETTER PHA",
+            "U+110A4",
+        ],
+        "body": [
+            "${1|𑂤,&#x110A4;,U+110A4,0x110A4,KAITHI LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+110A4",
+            "Character/Symbol: 𑂤",
+            "Name: KAITHI LETTER PHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂥 U+110A5 KAITHI LETTER BA": 
+    {
+        "prefix": [
+            "..U.110A5",
+            "..U.KAITHI LETTER BA",
+            "U+110A5",
+        ],
+        "body": [
+            "${1|𑂥,&#x110A5;,U+110A5,0x110A5,KAITHI LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+110A5",
+            "Character/Symbol: 𑂥",
+            "Name: KAITHI LETTER BA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂦 U+110A6 KAITHI LETTER BHA": 
+    {
+        "prefix": [
+            "..U.110A6",
+            "..U.KAITHI LETTER BHA",
+            "U+110A6",
+        ],
+        "body": [
+            "${1|𑂦,&#x110A6;,U+110A6,0x110A6,KAITHI LETTER BHA|}$2",
+        ],
+        "description": [
+            "Code: U+110A6",
+            "Character/Symbol: 𑂦",
+            "Name: KAITHI LETTER BHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂧 U+110A7 KAITHI LETTER MA": 
+    {
+        "prefix": [
+            "..U.110A7",
+            "..U.KAITHI LETTER MA",
+            "U+110A7",
+        ],
+        "body": [
+            "${1|𑂧,&#x110A7;,U+110A7,0x110A7,KAITHI LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+110A7",
+            "Character/Symbol: 𑂧",
+            "Name: KAITHI LETTER MA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂨 U+110A8 KAITHI LETTER YA": 
+    {
+        "prefix": [
+            "..U.110A8",
+            "..U.KAITHI LETTER YA",
+            "U+110A8",
+        ],
+        "body": [
+            "${1|𑂨,&#x110A8;,U+110A8,0x110A8,KAITHI LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+110A8",
+            "Character/Symbol: 𑂨",
+            "Name: KAITHI LETTER YA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂩 U+110A9 KAITHI LETTER RA": 
+    {
+        "prefix": [
+            "..U.110A9",
+            "..U.KAITHI LETTER RA",
+            "U+110A9",
+        ],
+        "body": [
+            "${1|𑂩,&#x110A9;,U+110A9,0x110A9,KAITHI LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+110A9",
+            "Character/Symbol: 𑂩",
+            "Name: KAITHI LETTER RA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂪 U+110AA KAITHI LETTER LA": 
+    {
+        "prefix": [
+            "..U.110AA",
+            "..U.KAITHI LETTER LA",
+            "U+110AA",
+        ],
+        "body": [
+            "${1|𑂪,&#x110AA;,U+110AA,0x110AA,KAITHI LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+110AA",
+            "Character/Symbol: 𑂪",
+            "Name: KAITHI LETTER LA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂫 U+110AB KAITHI LETTER VA": 
+    {
+        "prefix": [
+            "..U.110AB",
+            "..U.KAITHI LETTER VA",
+            "U+110AB",
+        ],
+        "body": [
+            "${1|𑂫,&#x110AB;,U+110AB,0x110AB,KAITHI LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+110AB",
+            "Character/Symbol: 𑂫",
+            "Name: KAITHI LETTER VA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂬 U+110AC KAITHI LETTER SHA": 
+    {
+        "prefix": [
+            "..U.110AC",
+            "..U.KAITHI LETTER SHA",
+            "U+110AC",
+        ],
+        "body": [
+            "${1|𑂬,&#x110AC;,U+110AC,0x110AC,KAITHI LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+110AC",
+            "Character/Symbol: 𑂬",
+            "Name: KAITHI LETTER SHA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂭 U+110AD KAITHI LETTER SSA": 
+    {
+        "prefix": [
+            "..U.110AD",
+            "..U.KAITHI LETTER SSA",
+            "U+110AD",
+        ],
+        "body": [
+            "${1|𑂭,&#x110AD;,U+110AD,0x110AD,KAITHI LETTER SSA|}$2",
+        ],
+        "description": [
+            "Code: U+110AD",
+            "Character/Symbol: 𑂭",
+            "Name: KAITHI LETTER SSA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂮 U+110AE KAITHI LETTER SA": 
+    {
+        "prefix": [
+            "..U.110AE",
+            "..U.KAITHI LETTER SA",
+            "U+110AE",
+        ],
+        "body": [
+            "${1|𑂮,&#x110AE;,U+110AE,0x110AE,KAITHI LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+110AE",
+            "Character/Symbol: 𑂮",
+            "Name: KAITHI LETTER SA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂯 U+110AF KAITHI LETTER HA": 
+    {
+        "prefix": [
+            "..U.110AF",
+            "..U.KAITHI LETTER HA",
+            "U+110AF",
+        ],
+        "body": [
+            "${1|𑂯,&#x110AF;,U+110AF,0x110AF,KAITHI LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+110AF",
+            "Character/Symbol: 𑂯",
+            "Name: KAITHI LETTER HA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂰 U+110B0 KAITHI VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.110B0",
+            "..U.KAITHI VOWEL SIGN AA",
+            "U+110B0",
+        ],
+        "body": [
+            "${1|𑂰,&#x110B0;,U+110B0,0x110B0,KAITHI VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+110B0",
+            "Character/Symbol: 𑂰",
+            "Name: KAITHI VOWEL SIGN AA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂱 U+110B1 KAITHI VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.110B1",
+            "..U.KAITHI VOWEL SIGN I",
+            "U+110B1",
+        ],
+        "body": [
+            "${1|𑂱,&#x110B1;,U+110B1,0x110B1,KAITHI VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+110B1",
+            "Character/Symbol: 𑂱",
+            "Name: KAITHI VOWEL SIGN I",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂲 U+110B2 KAITHI VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.110B2",
+            "..U.KAITHI VOWEL SIGN II",
+            "U+110B2",
+        ],
+        "body": [
+            "${1|𑂲,&#x110B2;,U+110B2,0x110B2,KAITHI VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+110B2",
+            "Character/Symbol: 𑂲",
+            "Name: KAITHI VOWEL SIGN II",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂳 U+110B3 KAITHI VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.110B3",
+            "..U.KAITHI VOWEL SIGN U",
+            "U+110B3",
+        ],
+        "body": [
+            "${1|𑂳,&#x110B3;,U+110B3,0x110B3,KAITHI VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+110B3",
+            "Character/Symbol: 𑂳",
+            "Name: KAITHI VOWEL SIGN U",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂴 U+110B4 KAITHI VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.110B4",
+            "..U.KAITHI VOWEL SIGN UU",
+            "U+110B4",
+        ],
+        "body": [
+            "${1|𑂴,&#x110B4;,U+110B4,0x110B4,KAITHI VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+110B4",
+            "Character/Symbol: 𑂴",
+            "Name: KAITHI VOWEL SIGN UU",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂵 U+110B5 KAITHI VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.110B5",
+            "..U.KAITHI VOWEL SIGN E",
+            "U+110B5",
+        ],
+        "body": [
+            "${1|𑂵,&#x110B5;,U+110B5,0x110B5,KAITHI VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+110B5",
+            "Character/Symbol: 𑂵",
+            "Name: KAITHI VOWEL SIGN E",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂶 U+110B6 KAITHI VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.110B6",
+            "..U.KAITHI VOWEL SIGN AI",
+            "U+110B6",
+        ],
+        "body": [
+            "${1|𑂶,&#x110B6;,U+110B6,0x110B6,KAITHI VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+110B6",
+            "Character/Symbol: 𑂶",
+            "Name: KAITHI VOWEL SIGN AI",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂷 U+110B7 KAITHI VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.110B7",
+            "..U.KAITHI VOWEL SIGN O",
+            "U+110B7",
+        ],
+        "body": [
+            "${1|𑂷,&#x110B7;,U+110B7,0x110B7,KAITHI VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+110B7",
+            "Character/Symbol: 𑂷",
+            "Name: KAITHI VOWEL SIGN O",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂸 U+110B8 KAITHI VOWEL SIGN AU": 
+    {
+        "prefix": [
+            "..U.110B8",
+            "..U.KAITHI VOWEL SIGN AU",
+            "U+110B8",
+        ],
+        "body": [
+            "${1|𑂸,&#x110B8;,U+110B8,0x110B8,KAITHI VOWEL SIGN AU|}$2",
+        ],
+        "description": [
+            "Code: U+110B8",
+            "Character/Symbol: 𑂸",
+            "Name: KAITHI VOWEL SIGN AU",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂹 U+110B9 KAITHI SIGN VIRAMA": 
+    {
+        "prefix": [
+            "..U.110B9",
+            "..U.KAITHI SIGN VIRAMA",
+            "U+110B9",
+        ],
+        "body": [
+            "${1|𑂹,&#x110B9;,U+110B9,0x110B9,KAITHI SIGN VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+110B9",
+            "Character/Symbol: 𑂹",
+            "Name: KAITHI SIGN VIRAMA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂺 U+110BA KAITHI SIGN NUKTA": 
+    {
+        "prefix": [
+            "..U.110BA",
+            "..U.KAITHI SIGN NUKTA",
+            "U+110BA",
+        ],
+        "body": [
+            "${1|𑂺,&#x110BA;,U+110BA,0x110BA,KAITHI SIGN NUKTA|}$2",
+        ],
+        "description": [
+            "Code: U+110BA",
+            "Character/Symbol: 𑂺",
+            "Name: KAITHI SIGN NUKTA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂻 U+110BB KAITHI ABBREVIATION SIGN": 
+    {
+        "prefix": [
+            "..U.110BB",
+            "..U.KAITHI ABBREVIATION SIGN",
+            "U+110BB",
+        ],
+        "body": [
+            "${1|𑂻,&#x110BB;,U+110BB,0x110BB,KAITHI ABBREVIATION SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+110BB",
+            "Character/Symbol: 𑂻",
+            "Name: KAITHI ABBREVIATION SIGN",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂼 U+110BC KAITHI ENUMERATION SIGN": 
+    {
+        "prefix": [
+            "..U.110BC",
+            "..U.KAITHI ENUMERATION SIGN",
+            "U+110BC",
+        ],
+        "body": [
+            "${1|𑂼,&#x110BC;,U+110BC,0x110BC,KAITHI ENUMERATION SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+110BC",
+            "Character/Symbol: 𑂼",
+            "Name: KAITHI ENUMERATION SIGN",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂽 U+110BD KAITHI NUMBER SIGN": 
+    {
+        "prefix": [
+            "..U.110BD",
+            "..U.KAITHI NUMBER SIGN",
+            "U+110BD",
+        ],
+        "body": [
+            "${1|𑂽,&#x110BD;,U+110BD,0x110BD,KAITHI NUMBER SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+110BD",
+            "Character/Symbol: 𑂽",
+            "Name: KAITHI NUMBER SIGN",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂾 U+110BE KAITHI SECTION MARK": 
+    {
+        "prefix": [
+            "..U.110BE",
+            "..U.KAITHI SECTION MARK",
+            "U+110BE",
+        ],
+        "body": [
+            "${1|𑂾,&#x110BE;,U+110BE,0x110BE,KAITHI SECTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+110BE",
+            "Character/Symbol: 𑂾",
+            "Name: KAITHI SECTION MARK",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑂿 U+110BF KAITHI DOUBLE SECTION MARK": 
+    {
+        "prefix": [
+            "..U.110BF",
+            "..U.KAITHI DOUBLE SECTION MARK",
+            "U+110BF",
+        ],
+        "body": [
+            "${1|𑂿,&#x110BF;,U+110BF,0x110BF,KAITHI DOUBLE SECTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+110BF",
+            "Character/Symbol: 𑂿",
+            "Name: KAITHI DOUBLE SECTION MARK",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑃀 U+110C0 KAITHI DANDA": 
+    {
+        "prefix": [
+            "..U.110C0",
+            "..U.KAITHI DANDA",
+            "U+110C0",
+        ],
+        "body": [
+            "${1|𑃀,&#x110C0;,U+110C0,0x110C0,KAITHI DANDA|}$2",
+        ],
+        "description": [
+            "Code: U+110C0",
+            "Character/Symbol: 𑃀",
+            "Name: KAITHI DANDA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑃁 U+110C1 KAITHI DOUBLE DANDA": 
+    {
+        "prefix": [
+            "..U.110C1",
+            "..U.KAITHI DOUBLE DANDA",
+            "U+110C1",
+        ],
+        "body": [
+            "${1|𑃁,&#x110C1;,U+110C1,0x110C1,KAITHI DOUBLE DANDA|}$2",
+        ],
+        "description": [
+            "Code: U+110C1",
+            "Character/Symbol: 𑃁",
+            "Name: KAITHI DOUBLE DANDA",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑃂 U+110C2 KAITHI VOWEL SIGN VOCALIC R": 
+    {
+        "prefix": [
+            "..U.110C2",
+            "..U.KAITHI VOWEL SIGN VOCALIC R",
+            "U+110C2",
+        ],
+        "body": [
+            "${1|𑃂,&#x110C2;,U+110C2,0x110C2,KAITHI VOWEL SIGN VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+110C2",
+            "Character/Symbol: 𑃂",
+            "Name: KAITHI VOWEL SIGN VOCALIC R",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+    "Unicode 𑃍 U+110CD KAITHI NUMBER SIGN ABOVE": 
+    {
+        "prefix": [
+            "..U.110CD",
+            "..U.KAITHI NUMBER SIGN ABOVE",
+            "U+110CD",
+        ],
+        "body": [
+            "${1|𑃍,&#x110CD;,U+110CD,0x110CD,KAITHI NUMBER SIGN ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+110CD",
+            "Character/Symbol: 𑃍",
+            "Name: KAITHI NUMBER SIGN ABOVE",
+            "Group/Block: Kaithi",
+        ],
+    },
+
+}

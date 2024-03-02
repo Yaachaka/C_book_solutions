@@ -1,0 +1,164 @@
+{
+    "Unicode 𘴀 U+18D00 TANGUT IDEOGRAPH-#": 
+    {
+        "prefix": [
+            "..U.18D00",
+            "..U.TANGUT IDEOGRAPH-#",
+            "U+18D00",
+        ],
+        "body": [
+            "${1|𘴀,&#x18D00;,U+18D00,0x18D00,TANGUT IDEOGRAPH-#|}$2",
+        ],
+        "description": [
+            "Code: U+18D00",
+            "Character/Symbol: 𘴀",
+            "Name: TANGUT IDEOGRAPH-#",
+            "Group/Block: Tangut_Sup",
+        ],
+    },
+
+    "Unicode 𘴁 U+18D01 TANGUT IDEOGRAPH-#": 
+    {
+        "prefix": [
+            "..U.18D01",
+            "..U.TANGUT IDEOGRAPH-#",
+            "U+18D01",
+        ],
+        "body": [
+            "${1|𘴁,&#x18D01;,U+18D01,0x18D01,TANGUT IDEOGRAPH-#|}$2",
+        ],
+        "description": [
+            "Code: U+18D01",
+            "Character/Symbol: 𘴁",
+            "Name: TANGUT IDEOGRAPH-#",
+            "Group/Block: Tangut_Sup",
+        ],
+    },
+
+    "Unicode 𘴂 U+18D02 TANGUT IDEOGRAPH-#": 
+    {
+        "prefix": [
+            "..U.18D02",
+            "..U.TANGUT IDEOGRAPH-#",
+            "U+18D02",
+        ],
+        "body": [
+            "${1|𘴂,&#x18D02;,U+18D02,0x18D02,TANGUT IDEOGRAPH-#|}$2",
+        ],
+        "description": [
+            "Code: U+18D02",
+            "Character/Symbol: 𘴂",
+            "Name: TANGUT IDEOGRAPH-#",
+            "Group/Block: Tangut_Sup",
+        ],
+    },
+
+    "Unicode 𘴃 U+18D03 TANGUT IDEOGRAPH-#": 
+    {
+        "prefix": [
+            "..U.18D03",
+            "..U.TANGUT IDEOGRAPH-#",
+            "U+18D03",
+        ],
+        "body": [
+            "${1|𘴃,&#x18D03;,U+18D03,0x18D03,TANGUT IDEOGRAPH-#|}$2",
+        ],
+        "description": [
+            "Code: U+18D03",
+            "Character/Symbol: 𘴃",
+            "Name: TANGUT IDEOGRAPH-#",
+            "Group/Block: Tangut_Sup",
+        ],
+    },
+
+    "Unicode 𘴄 U+18D04 TANGUT IDEOGRAPH-#": 
+    {
+        "prefix": [
+            "..U.18D04",
+            "..U.TANGUT IDEOGRAPH-#",
+            "U+18D04",
+        ],
+        "body": [
+            "${1|𘴄,&#x18D04;,U+18D04,0x18D04,TANGUT IDEOGRAPH-#|}$2",
+        ],
+        "description": [
+            "Code: U+18D04",
+            "Character/Symbol: 𘴄",
+            "Name: TANGUT IDEOGRAPH-#",
+            "Group/Block: Tangut_Sup",
+        ],
+    },
+
+    "Unicode 𘴅 U+18D05 TANGUT IDEOGRAPH-#": 
+    {
+        "prefix": [
+            "..U.18D05",
+            "..U.TANGUT IDEOGRAPH-#",
+            "U+18D05",
+        ],
+        "body": [
+            "${1|𘴅,&#x18D05;,U+18D05,0x18D05,TANGUT IDEOGRAPH-#|}$2",
+        ],
+        "description": [
+            "Code: U+18D05",
+            "Character/Symbol: 𘴅",
+            "Name: TANGUT IDEOGRAPH-#",
+            "Group/Block: Tangut_Sup",
+        ],
+    },
+
+    "Unicode 𘴆 U+18D06 TANGUT IDEOGRAPH-#": 
+    {
+        "prefix": [
+            "..U.18D06",
+            "..U.TANGUT IDEOGRAPH-#",
+            "U+18D06",
+        ],
+        "body": [
+            "${1|𘴆,&#x18D06;,U+18D06,0x18D06,TANGUT IDEOGRAPH-#|}$2",
+        ],
+        "description": [
+            "Code: U+18D06",
+            "Character/Symbol: 𘴆",
+            "Name: TANGUT IDEOGRAPH-#",
+            "Group/Block: Tangut_Sup",
+        ],
+    },
+
+    "Unicode 𘴇 U+18D07 TANGUT IDEOGRAPH-#": 
+    {
+        "prefix": [
+            "..U.18D07",
+            "..U.TANGUT IDEOGRAPH-#",
+            "U+18D07",
+        ],
+        "body": [
+            "${1|𘴇,&#x18D07;,U+18D07,0x18D07,TANGUT IDEOGRAPH-#|}$2",
+        ],
+        "description": [
+            "Code: U+18D07",
+            "Character/Symbol: 𘴇",
+            "Name: TANGUT IDEOGRAPH-#",
+            "Group/Block: Tangut_Sup",
+        ],
+    },
+
+    "Unicode 𘴈 U+18D08 TANGUT IDEOGRAPH-#": 
+    {
+        "prefix": [
+            "..U.18D08",
+            "..U.TANGUT IDEOGRAPH-#",
+            "U+18D08",
+        ],
+        "body": [
+            "${1|𘴈,&#x18D08;,U+18D08,0x18D08,TANGUT IDEOGRAPH-#|}$2",
+        ],
+        "description": [
+            "Code: U+18D08",
+            "Character/Symbol: 𘴈",
+            "Name: TANGUT IDEOGRAPH-#",
+            "Group/Block: Tangut_Sup",
+        ],
+    },
+
+}

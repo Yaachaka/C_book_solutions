@@ -1,0 +1,956 @@
+{
+    "Unicode 𐔰 U+10530 CAUCASIAN ALBANIAN LETTER ALT": 
+    {
+        "prefix": [
+            "..U.10530",
+            "..U.CAUCASIAN ALBANIAN LETTER ALT",
+            "U+10530",
+        ],
+        "body": [
+            "${1|𐔰,&#x10530;,U+10530,0x10530,CAUCASIAN ALBANIAN LETTER ALT|}$2",
+        ],
+        "description": [
+            "Code: U+10530",
+            "Character/Symbol: 𐔰",
+            "Name: CAUCASIAN ALBANIAN LETTER ALT",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔱 U+10531 CAUCASIAN ALBANIAN LETTER BET": 
+    {
+        "prefix": [
+            "..U.10531",
+            "..U.CAUCASIAN ALBANIAN LETTER BET",
+            "U+10531",
+        ],
+        "body": [
+            "${1|𐔱,&#x10531;,U+10531,0x10531,CAUCASIAN ALBANIAN LETTER BET|}$2",
+        ],
+        "description": [
+            "Code: U+10531",
+            "Character/Symbol: 𐔱",
+            "Name: CAUCASIAN ALBANIAN LETTER BET",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔲 U+10532 CAUCASIAN ALBANIAN LETTER GIM": 
+    {
+        "prefix": [
+            "..U.10532",
+            "..U.CAUCASIAN ALBANIAN LETTER GIM",
+            "U+10532",
+        ],
+        "body": [
+            "${1|𐔲,&#x10532;,U+10532,0x10532,CAUCASIAN ALBANIAN LETTER GIM|}$2",
+        ],
+        "description": [
+            "Code: U+10532",
+            "Character/Symbol: 𐔲",
+            "Name: CAUCASIAN ALBANIAN LETTER GIM",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔳 U+10533 CAUCASIAN ALBANIAN LETTER DAT": 
+    {
+        "prefix": [
+            "..U.10533",
+            "..U.CAUCASIAN ALBANIAN LETTER DAT",
+            "U+10533",
+        ],
+        "body": [
+            "${1|𐔳,&#x10533;,U+10533,0x10533,CAUCASIAN ALBANIAN LETTER DAT|}$2",
+        ],
+        "description": [
+            "Code: U+10533",
+            "Character/Symbol: 𐔳",
+            "Name: CAUCASIAN ALBANIAN LETTER DAT",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔴 U+10534 CAUCASIAN ALBANIAN LETTER EB": 
+    {
+        "prefix": [
+            "..U.10534",
+            "..U.CAUCASIAN ALBANIAN LETTER EB",
+            "U+10534",
+        ],
+        "body": [
+            "${1|𐔴,&#x10534;,U+10534,0x10534,CAUCASIAN ALBANIAN LETTER EB|}$2",
+        ],
+        "description": [
+            "Code: U+10534",
+            "Character/Symbol: 𐔴",
+            "Name: CAUCASIAN ALBANIAN LETTER EB",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔵 U+10535 CAUCASIAN ALBANIAN LETTER ZARL": 
+    {
+        "prefix": [
+            "..U.10535",
+            "..U.CAUCASIAN ALBANIAN LETTER ZARL",
+            "U+10535",
+        ],
+        "body": [
+            "${1|𐔵,&#x10535;,U+10535,0x10535,CAUCASIAN ALBANIAN LETTER ZARL|}$2",
+        ],
+        "description": [
+            "Code: U+10535",
+            "Character/Symbol: 𐔵",
+            "Name: CAUCASIAN ALBANIAN LETTER ZARL",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔶 U+10536 CAUCASIAN ALBANIAN LETTER EYN": 
+    {
+        "prefix": [
+            "..U.10536",
+            "..U.CAUCASIAN ALBANIAN LETTER EYN",
+            "U+10536",
+        ],
+        "body": [
+            "${1|𐔶,&#x10536;,U+10536,0x10536,CAUCASIAN ALBANIAN LETTER EYN|}$2",
+        ],
+        "description": [
+            "Code: U+10536",
+            "Character/Symbol: 𐔶",
+            "Name: CAUCASIAN ALBANIAN LETTER EYN",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔷 U+10537 CAUCASIAN ALBANIAN LETTER ZHIL": 
+    {
+        "prefix": [
+            "..U.10537",
+            "..U.CAUCASIAN ALBANIAN LETTER ZHIL",
+            "U+10537",
+        ],
+        "body": [
+            "${1|𐔷,&#x10537;,U+10537,0x10537,CAUCASIAN ALBANIAN LETTER ZHIL|}$2",
+        ],
+        "description": [
+            "Code: U+10537",
+            "Character/Symbol: 𐔷",
+            "Name: CAUCASIAN ALBANIAN LETTER ZHIL",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔸 U+10538 CAUCASIAN ALBANIAN LETTER TAS": 
+    {
+        "prefix": [
+            "..U.10538",
+            "..U.CAUCASIAN ALBANIAN LETTER TAS",
+            "U+10538",
+        ],
+        "body": [
+            "${1|𐔸,&#x10538;,U+10538,0x10538,CAUCASIAN ALBANIAN LETTER TAS|}$2",
+        ],
+        "description": [
+            "Code: U+10538",
+            "Character/Symbol: 𐔸",
+            "Name: CAUCASIAN ALBANIAN LETTER TAS",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔹 U+10539 CAUCASIAN ALBANIAN LETTER CHA": 
+    {
+        "prefix": [
+            "..U.10539",
+            "..U.CAUCASIAN ALBANIAN LETTER CHA",
+            "U+10539",
+        ],
+        "body": [
+            "${1|𐔹,&#x10539;,U+10539,0x10539,CAUCASIAN ALBANIAN LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+10539",
+            "Character/Symbol: 𐔹",
+            "Name: CAUCASIAN ALBANIAN LETTER CHA",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔺 U+1053A CAUCASIAN ALBANIAN LETTER YOWD": 
+    {
+        "prefix": [
+            "..U.1053A",
+            "..U.CAUCASIAN ALBANIAN LETTER YOWD",
+            "U+1053A",
+        ],
+        "body": [
+            "${1|𐔺,&#x1053A;,U+1053A,0x1053A,CAUCASIAN ALBANIAN LETTER YOWD|}$2",
+        ],
+        "description": [
+            "Code: U+1053A",
+            "Character/Symbol: 𐔺",
+            "Name: CAUCASIAN ALBANIAN LETTER YOWD",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔻 U+1053B CAUCASIAN ALBANIAN LETTER ZHA": 
+    {
+        "prefix": [
+            "..U.1053B",
+            "..U.CAUCASIAN ALBANIAN LETTER ZHA",
+            "U+1053B",
+        ],
+        "body": [
+            "${1|𐔻,&#x1053B;,U+1053B,0x1053B,CAUCASIAN ALBANIAN LETTER ZHA|}$2",
+        ],
+        "description": [
+            "Code: U+1053B",
+            "Character/Symbol: 𐔻",
+            "Name: CAUCASIAN ALBANIAN LETTER ZHA",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔼 U+1053C CAUCASIAN ALBANIAN LETTER IRB": 
+    {
+        "prefix": [
+            "..U.1053C",
+            "..U.CAUCASIAN ALBANIAN LETTER IRB",
+            "U+1053C",
+        ],
+        "body": [
+            "${1|𐔼,&#x1053C;,U+1053C,0x1053C,CAUCASIAN ALBANIAN LETTER IRB|}$2",
+        ],
+        "description": [
+            "Code: U+1053C",
+            "Character/Symbol: 𐔼",
+            "Name: CAUCASIAN ALBANIAN LETTER IRB",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔽 U+1053D CAUCASIAN ALBANIAN LETTER SHA": 
+    {
+        "prefix": [
+            "..U.1053D",
+            "..U.CAUCASIAN ALBANIAN LETTER SHA",
+            "U+1053D",
+        ],
+        "body": [
+            "${1|𐔽,&#x1053D;,U+1053D,0x1053D,CAUCASIAN ALBANIAN LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+1053D",
+            "Character/Symbol: 𐔽",
+            "Name: CAUCASIAN ALBANIAN LETTER SHA",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔾 U+1053E CAUCASIAN ALBANIAN LETTER LAN": 
+    {
+        "prefix": [
+            "..U.1053E",
+            "..U.CAUCASIAN ALBANIAN LETTER LAN",
+            "U+1053E",
+        ],
+        "body": [
+            "${1|𐔾,&#x1053E;,U+1053E,0x1053E,CAUCASIAN ALBANIAN LETTER LAN|}$2",
+        ],
+        "description": [
+            "Code: U+1053E",
+            "Character/Symbol: 𐔾",
+            "Name: CAUCASIAN ALBANIAN LETTER LAN",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐔿 U+1053F CAUCASIAN ALBANIAN LETTER INYA": 
+    {
+        "prefix": [
+            "..U.1053F",
+            "..U.CAUCASIAN ALBANIAN LETTER INYA",
+            "U+1053F",
+        ],
+        "body": [
+            "${1|𐔿,&#x1053F;,U+1053F,0x1053F,CAUCASIAN ALBANIAN LETTER INYA|}$2",
+        ],
+        "description": [
+            "Code: U+1053F",
+            "Character/Symbol: 𐔿",
+            "Name: CAUCASIAN ALBANIAN LETTER INYA",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕀 U+10540 CAUCASIAN ALBANIAN LETTER XEYN": 
+    {
+        "prefix": [
+            "..U.10540",
+            "..U.CAUCASIAN ALBANIAN LETTER XEYN",
+            "U+10540",
+        ],
+        "body": [
+            "${1|𐕀,&#x10540;,U+10540,0x10540,CAUCASIAN ALBANIAN LETTER XEYN|}$2",
+        ],
+        "description": [
+            "Code: U+10540",
+            "Character/Symbol: 𐕀",
+            "Name: CAUCASIAN ALBANIAN LETTER XEYN",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕁 U+10541 CAUCASIAN ALBANIAN LETTER DYAN": 
+    {
+        "prefix": [
+            "..U.10541",
+            "..U.CAUCASIAN ALBANIAN LETTER DYAN",
+            "U+10541",
+        ],
+        "body": [
+            "${1|𐕁,&#x10541;,U+10541,0x10541,CAUCASIAN ALBANIAN LETTER DYAN|}$2",
+        ],
+        "description": [
+            "Code: U+10541",
+            "Character/Symbol: 𐕁",
+            "Name: CAUCASIAN ALBANIAN LETTER DYAN",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕂 U+10542 CAUCASIAN ALBANIAN LETTER CAR": 
+    {
+        "prefix": [
+            "..U.10542",
+            "..U.CAUCASIAN ALBANIAN LETTER CAR",
+            "U+10542",
+        ],
+        "body": [
+            "${1|𐕂,&#x10542;,U+10542,0x10542,CAUCASIAN ALBANIAN LETTER CAR|}$2",
+        ],
+        "description": [
+            "Code: U+10542",
+            "Character/Symbol: 𐕂",
+            "Name: CAUCASIAN ALBANIAN LETTER CAR",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕃 U+10543 CAUCASIAN ALBANIAN LETTER JHOX": 
+    {
+        "prefix": [
+            "..U.10543",
+            "..U.CAUCASIAN ALBANIAN LETTER JHOX",
+            "U+10543",
+        ],
+        "body": [
+            "${1|𐕃,&#x10543;,U+10543,0x10543,CAUCASIAN ALBANIAN LETTER JHOX|}$2",
+        ],
+        "description": [
+            "Code: U+10543",
+            "Character/Symbol: 𐕃",
+            "Name: CAUCASIAN ALBANIAN LETTER JHOX",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕄 U+10544 CAUCASIAN ALBANIAN LETTER KAR": 
+    {
+        "prefix": [
+            "..U.10544",
+            "..U.CAUCASIAN ALBANIAN LETTER KAR",
+            "U+10544",
+        ],
+        "body": [
+            "${1|𐕄,&#x10544;,U+10544,0x10544,CAUCASIAN ALBANIAN LETTER KAR|}$2",
+        ],
+        "description": [
+            "Code: U+10544",
+            "Character/Symbol: 𐕄",
+            "Name: CAUCASIAN ALBANIAN LETTER KAR",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕅 U+10545 CAUCASIAN ALBANIAN LETTER LYIT": 
+    {
+        "prefix": [
+            "..U.10545",
+            "..U.CAUCASIAN ALBANIAN LETTER LYIT",
+            "U+10545",
+        ],
+        "body": [
+            "${1|𐕅,&#x10545;,U+10545,0x10545,CAUCASIAN ALBANIAN LETTER LYIT|}$2",
+        ],
+        "description": [
+            "Code: U+10545",
+            "Character/Symbol: 𐕅",
+            "Name: CAUCASIAN ALBANIAN LETTER LYIT",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕆 U+10546 CAUCASIAN ALBANIAN LETTER HEYT": 
+    {
+        "prefix": [
+            "..U.10546",
+            "..U.CAUCASIAN ALBANIAN LETTER HEYT",
+            "U+10546",
+        ],
+        "body": [
+            "${1|𐕆,&#x10546;,U+10546,0x10546,CAUCASIAN ALBANIAN LETTER HEYT|}$2",
+        ],
+        "description": [
+            "Code: U+10546",
+            "Character/Symbol: 𐕆",
+            "Name: CAUCASIAN ALBANIAN LETTER HEYT",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕇 U+10547 CAUCASIAN ALBANIAN LETTER QAY": 
+    {
+        "prefix": [
+            "..U.10547",
+            "..U.CAUCASIAN ALBANIAN LETTER QAY",
+            "U+10547",
+        ],
+        "body": [
+            "${1|𐕇,&#x10547;,U+10547,0x10547,CAUCASIAN ALBANIAN LETTER QAY|}$2",
+        ],
+        "description": [
+            "Code: U+10547",
+            "Character/Symbol: 𐕇",
+            "Name: CAUCASIAN ALBANIAN LETTER QAY",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕈 U+10548 CAUCASIAN ALBANIAN LETTER AOR": 
+    {
+        "prefix": [
+            "..U.10548",
+            "..U.CAUCASIAN ALBANIAN LETTER AOR",
+            "U+10548",
+        ],
+        "body": [
+            "${1|𐕈,&#x10548;,U+10548,0x10548,CAUCASIAN ALBANIAN LETTER AOR|}$2",
+        ],
+        "description": [
+            "Code: U+10548",
+            "Character/Symbol: 𐕈",
+            "Name: CAUCASIAN ALBANIAN LETTER AOR",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕉 U+10549 CAUCASIAN ALBANIAN LETTER CHOY": 
+    {
+        "prefix": [
+            "..U.10549",
+            "..U.CAUCASIAN ALBANIAN LETTER CHOY",
+            "U+10549",
+        ],
+        "body": [
+            "${1|𐕉,&#x10549;,U+10549,0x10549,CAUCASIAN ALBANIAN LETTER CHOY|}$2",
+        ],
+        "description": [
+            "Code: U+10549",
+            "Character/Symbol: 𐕉",
+            "Name: CAUCASIAN ALBANIAN LETTER CHOY",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕊 U+1054A CAUCASIAN ALBANIAN LETTER CHI": 
+    {
+        "prefix": [
+            "..U.1054A",
+            "..U.CAUCASIAN ALBANIAN LETTER CHI",
+            "U+1054A",
+        ],
+        "body": [
+            "${1|𐕊,&#x1054A;,U+1054A,0x1054A,CAUCASIAN ALBANIAN LETTER CHI|}$2",
+        ],
+        "description": [
+            "Code: U+1054A",
+            "Character/Symbol: 𐕊",
+            "Name: CAUCASIAN ALBANIAN LETTER CHI",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕋 U+1054B CAUCASIAN ALBANIAN LETTER CYAY": 
+    {
+        "prefix": [
+            "..U.1054B",
+            "..U.CAUCASIAN ALBANIAN LETTER CYAY",
+            "U+1054B",
+        ],
+        "body": [
+            "${1|𐕋,&#x1054B;,U+1054B,0x1054B,CAUCASIAN ALBANIAN LETTER CYAY|}$2",
+        ],
+        "description": [
+            "Code: U+1054B",
+            "Character/Symbol: 𐕋",
+            "Name: CAUCASIAN ALBANIAN LETTER CYAY",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕌 U+1054C CAUCASIAN ALBANIAN LETTER MAQ": 
+    {
+        "prefix": [
+            "..U.1054C",
+            "..U.CAUCASIAN ALBANIAN LETTER MAQ",
+            "U+1054C",
+        ],
+        "body": [
+            "${1|𐕌,&#x1054C;,U+1054C,0x1054C,CAUCASIAN ALBANIAN LETTER MAQ|}$2",
+        ],
+        "description": [
+            "Code: U+1054C",
+            "Character/Symbol: 𐕌",
+            "Name: CAUCASIAN ALBANIAN LETTER MAQ",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕍 U+1054D CAUCASIAN ALBANIAN LETTER QAR": 
+    {
+        "prefix": [
+            "..U.1054D",
+            "..U.CAUCASIAN ALBANIAN LETTER QAR",
+            "U+1054D",
+        ],
+        "body": [
+            "${1|𐕍,&#x1054D;,U+1054D,0x1054D,CAUCASIAN ALBANIAN LETTER QAR|}$2",
+        ],
+        "description": [
+            "Code: U+1054D",
+            "Character/Symbol: 𐕍",
+            "Name: CAUCASIAN ALBANIAN LETTER QAR",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕎 U+1054E CAUCASIAN ALBANIAN LETTER NOWC": 
+    {
+        "prefix": [
+            "..U.1054E",
+            "..U.CAUCASIAN ALBANIAN LETTER NOWC",
+            "U+1054E",
+        ],
+        "body": [
+            "${1|𐕎,&#x1054E;,U+1054E,0x1054E,CAUCASIAN ALBANIAN LETTER NOWC|}$2",
+        ],
+        "description": [
+            "Code: U+1054E",
+            "Character/Symbol: 𐕎",
+            "Name: CAUCASIAN ALBANIAN LETTER NOWC",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕏 U+1054F CAUCASIAN ALBANIAN LETTER DZYAY": 
+    {
+        "prefix": [
+            "..U.1054F",
+            "..U.CAUCASIAN ALBANIAN LETTER DZYAY",
+            "U+1054F",
+        ],
+        "body": [
+            "${1|𐕏,&#x1054F;,U+1054F,0x1054F,CAUCASIAN ALBANIAN LETTER DZYAY|}$2",
+        ],
+        "description": [
+            "Code: U+1054F",
+            "Character/Symbol: 𐕏",
+            "Name: CAUCASIAN ALBANIAN LETTER DZYAY",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕐 U+10550 CAUCASIAN ALBANIAN LETTER SHAK": 
+    {
+        "prefix": [
+            "..U.10550",
+            "..U.CAUCASIAN ALBANIAN LETTER SHAK",
+            "U+10550",
+        ],
+        "body": [
+            "${1|𐕐,&#x10550;,U+10550,0x10550,CAUCASIAN ALBANIAN LETTER SHAK|}$2",
+        ],
+        "description": [
+            "Code: U+10550",
+            "Character/Symbol: 𐕐",
+            "Name: CAUCASIAN ALBANIAN LETTER SHAK",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕑 U+10551 CAUCASIAN ALBANIAN LETTER JAYN": 
+    {
+        "prefix": [
+            "..U.10551",
+            "..U.CAUCASIAN ALBANIAN LETTER JAYN",
+            "U+10551",
+        ],
+        "body": [
+            "${1|𐕑,&#x10551;,U+10551,0x10551,CAUCASIAN ALBANIAN LETTER JAYN|}$2",
+        ],
+        "description": [
+            "Code: U+10551",
+            "Character/Symbol: 𐕑",
+            "Name: CAUCASIAN ALBANIAN LETTER JAYN",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕒 U+10552 CAUCASIAN ALBANIAN LETTER ON": 
+    {
+        "prefix": [
+            "..U.10552",
+            "..U.CAUCASIAN ALBANIAN LETTER ON",
+            "U+10552",
+        ],
+        "body": [
+            "${1|𐕒,&#x10552;,U+10552,0x10552,CAUCASIAN ALBANIAN LETTER ON|}$2",
+        ],
+        "description": [
+            "Code: U+10552",
+            "Character/Symbol: 𐕒",
+            "Name: CAUCASIAN ALBANIAN LETTER ON",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕓 U+10553 CAUCASIAN ALBANIAN LETTER TYAY": 
+    {
+        "prefix": [
+            "..U.10553",
+            "..U.CAUCASIAN ALBANIAN LETTER TYAY",
+            "U+10553",
+        ],
+        "body": [
+            "${1|𐕓,&#x10553;,U+10553,0x10553,CAUCASIAN ALBANIAN LETTER TYAY|}$2",
+        ],
+        "description": [
+            "Code: U+10553",
+            "Character/Symbol: 𐕓",
+            "Name: CAUCASIAN ALBANIAN LETTER TYAY",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕔 U+10554 CAUCASIAN ALBANIAN LETTER FAM": 
+    {
+        "prefix": [
+            "..U.10554",
+            "..U.CAUCASIAN ALBANIAN LETTER FAM",
+            "U+10554",
+        ],
+        "body": [
+            "${1|𐕔,&#x10554;,U+10554,0x10554,CAUCASIAN ALBANIAN LETTER FAM|}$2",
+        ],
+        "description": [
+            "Code: U+10554",
+            "Character/Symbol: 𐕔",
+            "Name: CAUCASIAN ALBANIAN LETTER FAM",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕕 U+10555 CAUCASIAN ALBANIAN LETTER DZAY": 
+    {
+        "prefix": [
+            "..U.10555",
+            "..U.CAUCASIAN ALBANIAN LETTER DZAY",
+            "U+10555",
+        ],
+        "body": [
+            "${1|𐕕,&#x10555;,U+10555,0x10555,CAUCASIAN ALBANIAN LETTER DZAY|}$2",
+        ],
+        "description": [
+            "Code: U+10555",
+            "Character/Symbol: 𐕕",
+            "Name: CAUCASIAN ALBANIAN LETTER DZAY",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕖 U+10556 CAUCASIAN ALBANIAN LETTER CHAT": 
+    {
+        "prefix": [
+            "..U.10556",
+            "..U.CAUCASIAN ALBANIAN LETTER CHAT",
+            "U+10556",
+        ],
+        "body": [
+            "${1|𐕖,&#x10556;,U+10556,0x10556,CAUCASIAN ALBANIAN LETTER CHAT|}$2",
+        ],
+        "description": [
+            "Code: U+10556",
+            "Character/Symbol: 𐕖",
+            "Name: CAUCASIAN ALBANIAN LETTER CHAT",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕗 U+10557 CAUCASIAN ALBANIAN LETTER PEN": 
+    {
+        "prefix": [
+            "..U.10557",
+            "..U.CAUCASIAN ALBANIAN LETTER PEN",
+            "U+10557",
+        ],
+        "body": [
+            "${1|𐕗,&#x10557;,U+10557,0x10557,CAUCASIAN ALBANIAN LETTER PEN|}$2",
+        ],
+        "description": [
+            "Code: U+10557",
+            "Character/Symbol: 𐕗",
+            "Name: CAUCASIAN ALBANIAN LETTER PEN",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕘 U+10558 CAUCASIAN ALBANIAN LETTER GHEYS": 
+    {
+        "prefix": [
+            "..U.10558",
+            "..U.CAUCASIAN ALBANIAN LETTER GHEYS",
+            "U+10558",
+        ],
+        "body": [
+            "${1|𐕘,&#x10558;,U+10558,0x10558,CAUCASIAN ALBANIAN LETTER GHEYS|}$2",
+        ],
+        "description": [
+            "Code: U+10558",
+            "Character/Symbol: 𐕘",
+            "Name: CAUCASIAN ALBANIAN LETTER GHEYS",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕙 U+10559 CAUCASIAN ALBANIAN LETTER RAT": 
+    {
+        "prefix": [
+            "..U.10559",
+            "..U.CAUCASIAN ALBANIAN LETTER RAT",
+            "U+10559",
+        ],
+        "body": [
+            "${1|𐕙,&#x10559;,U+10559,0x10559,CAUCASIAN ALBANIAN LETTER RAT|}$2",
+        ],
+        "description": [
+            "Code: U+10559",
+            "Character/Symbol: 𐕙",
+            "Name: CAUCASIAN ALBANIAN LETTER RAT",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕚 U+1055A CAUCASIAN ALBANIAN LETTER SEYK": 
+    {
+        "prefix": [
+            "..U.1055A",
+            "..U.CAUCASIAN ALBANIAN LETTER SEYK",
+            "U+1055A",
+        ],
+        "body": [
+            "${1|𐕚,&#x1055A;,U+1055A,0x1055A,CAUCASIAN ALBANIAN LETTER SEYK|}$2",
+        ],
+        "description": [
+            "Code: U+1055A",
+            "Character/Symbol: 𐕚",
+            "Name: CAUCASIAN ALBANIAN LETTER SEYK",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕛 U+1055B CAUCASIAN ALBANIAN LETTER VEYZ": 
+    {
+        "prefix": [
+            "..U.1055B",
+            "..U.CAUCASIAN ALBANIAN LETTER VEYZ",
+            "U+1055B",
+        ],
+        "body": [
+            "${1|𐕛,&#x1055B;,U+1055B,0x1055B,CAUCASIAN ALBANIAN LETTER VEYZ|}$2",
+        ],
+        "description": [
+            "Code: U+1055B",
+            "Character/Symbol: 𐕛",
+            "Name: CAUCASIAN ALBANIAN LETTER VEYZ",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕜 U+1055C CAUCASIAN ALBANIAN LETTER TIWR": 
+    {
+        "prefix": [
+            "..U.1055C",
+            "..U.CAUCASIAN ALBANIAN LETTER TIWR",
+            "U+1055C",
+        ],
+        "body": [
+            "${1|𐕜,&#x1055C;,U+1055C,0x1055C,CAUCASIAN ALBANIAN LETTER TIWR|}$2",
+        ],
+        "description": [
+            "Code: U+1055C",
+            "Character/Symbol: 𐕜",
+            "Name: CAUCASIAN ALBANIAN LETTER TIWR",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕝 U+1055D CAUCASIAN ALBANIAN LETTER SHOY": 
+    {
+        "prefix": [
+            "..U.1055D",
+            "..U.CAUCASIAN ALBANIAN LETTER SHOY",
+            "U+1055D",
+        ],
+        "body": [
+            "${1|𐕝,&#x1055D;,U+1055D,0x1055D,CAUCASIAN ALBANIAN LETTER SHOY|}$2",
+        ],
+        "description": [
+            "Code: U+1055D",
+            "Character/Symbol: 𐕝",
+            "Name: CAUCASIAN ALBANIAN LETTER SHOY",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕞 U+1055E CAUCASIAN ALBANIAN LETTER IWN": 
+    {
+        "prefix": [
+            "..U.1055E",
+            "..U.CAUCASIAN ALBANIAN LETTER IWN",
+            "U+1055E",
+        ],
+        "body": [
+            "${1|𐕞,&#x1055E;,U+1055E,0x1055E,CAUCASIAN ALBANIAN LETTER IWN|}$2",
+        ],
+        "description": [
+            "Code: U+1055E",
+            "Character/Symbol: 𐕞",
+            "Name: CAUCASIAN ALBANIAN LETTER IWN",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕟 U+1055F CAUCASIAN ALBANIAN LETTER CYAW": 
+    {
+        "prefix": [
+            "..U.1055F",
+            "..U.CAUCASIAN ALBANIAN LETTER CYAW",
+            "U+1055F",
+        ],
+        "body": [
+            "${1|𐕟,&#x1055F;,U+1055F,0x1055F,CAUCASIAN ALBANIAN LETTER CYAW|}$2",
+        ],
+        "description": [
+            "Code: U+1055F",
+            "Character/Symbol: 𐕟",
+            "Name: CAUCASIAN ALBANIAN LETTER CYAW",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕠 U+10560 CAUCASIAN ALBANIAN LETTER CAYN": 
+    {
+        "prefix": [
+            "..U.10560",
+            "..U.CAUCASIAN ALBANIAN LETTER CAYN",
+            "U+10560",
+        ],
+        "body": [
+            "${1|𐕠,&#x10560;,U+10560,0x10560,CAUCASIAN ALBANIAN LETTER CAYN|}$2",
+        ],
+        "description": [
+            "Code: U+10560",
+            "Character/Symbol: 𐕠",
+            "Name: CAUCASIAN ALBANIAN LETTER CAYN",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕡 U+10561 CAUCASIAN ALBANIAN LETTER YAYD": 
+    {
+        "prefix": [
+            "..U.10561",
+            "..U.CAUCASIAN ALBANIAN LETTER YAYD",
+            "U+10561",
+        ],
+        "body": [
+            "${1|𐕡,&#x10561;,U+10561,0x10561,CAUCASIAN ALBANIAN LETTER YAYD|}$2",
+        ],
+        "description": [
+            "Code: U+10561",
+            "Character/Symbol: 𐕡",
+            "Name: CAUCASIAN ALBANIAN LETTER YAYD",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕢 U+10562 CAUCASIAN ALBANIAN LETTER PIWR": 
+    {
+        "prefix": [
+            "..U.10562",
+            "..U.CAUCASIAN ALBANIAN LETTER PIWR",
+            "U+10562",
+        ],
+        "body": [
+            "${1|𐕢,&#x10562;,U+10562,0x10562,CAUCASIAN ALBANIAN LETTER PIWR|}$2",
+        ],
+        "description": [
+            "Code: U+10562",
+            "Character/Symbol: 𐕢",
+            "Name: CAUCASIAN ALBANIAN LETTER PIWR",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕣 U+10563 CAUCASIAN ALBANIAN LETTER KIW": 
+    {
+        "prefix": [
+            "..U.10563",
+            "..U.CAUCASIAN ALBANIAN LETTER KIW",
+            "U+10563",
+        ],
+        "body": [
+            "${1|𐕣,&#x10563;,U+10563,0x10563,CAUCASIAN ALBANIAN LETTER KIW|}$2",
+        ],
+        "description": [
+            "Code: U+10563",
+            "Character/Symbol: 𐕣",
+            "Name: CAUCASIAN ALBANIAN LETTER KIW",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+    "Unicode 𐕯 U+1056F CAUCASIAN ALBANIAN CITATION MARK": 
+    {
+        "prefix": [
+            "..U.1056F",
+            "..U.CAUCASIAN ALBANIAN CITATION MARK",
+            "U+1056F",
+        ],
+        "body": [
+            "${1|𐕯,&#x1056F;,U+1056F,0x1056F,CAUCASIAN ALBANIAN CITATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+1056F",
+            "Character/Symbol: 𐕯",
+            "Name: CAUCASIAN ALBANIAN CITATION MARK",
+            "Group/Block: Caucasian_Albanian",
+        ],
+    },
+
+}

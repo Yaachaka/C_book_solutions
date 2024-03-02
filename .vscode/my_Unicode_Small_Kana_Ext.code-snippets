@@ -1,0 +1,164 @@
+{
+    "Unicode 𛄲 U+1B132 HIRAGANA LETTER SMALL KO": 
+    {
+        "prefix": [
+            "..U.1B132",
+            "..U.HIRAGANA LETTER SMALL KO",
+            "U+1B132",
+        ],
+        "body": [
+            "${1|𛄲,&#x1B132;,U+1B132,0x1B132,HIRAGANA LETTER SMALL KO|}$2",
+        ],
+        "description": [
+            "Code: U+1B132",
+            "Character/Symbol: 𛄲",
+            "Name: HIRAGANA LETTER SMALL KO",
+            "Group/Block: Small_Kana_Ext",
+        ],
+    },
+
+    "Unicode 𛅐 U+1B150 HIRAGANA LETTER SMALL WI": 
+    {
+        "prefix": [
+            "..U.1B150",
+            "..U.HIRAGANA LETTER SMALL WI",
+            "U+1B150",
+        ],
+        "body": [
+            "${1|𛅐,&#x1B150;,U+1B150,0x1B150,HIRAGANA LETTER SMALL WI|}$2",
+        ],
+        "description": [
+            "Code: U+1B150",
+            "Character/Symbol: 𛅐",
+            "Name: HIRAGANA LETTER SMALL WI",
+            "Group/Block: Small_Kana_Ext",
+        ],
+    },
+
+    "Unicode 𛅑 U+1B151 HIRAGANA LETTER SMALL WE": 
+    {
+        "prefix": [
+            "..U.1B151",
+            "..U.HIRAGANA LETTER SMALL WE",
+            "U+1B151",
+        ],
+        "body": [
+            "${1|𛅑,&#x1B151;,U+1B151,0x1B151,HIRAGANA LETTER SMALL WE|}$2",
+        ],
+        "description": [
+            "Code: U+1B151",
+            "Character/Symbol: 𛅑",
+            "Name: HIRAGANA LETTER SMALL WE",
+            "Group/Block: Small_Kana_Ext",
+        ],
+    },
+
+    "Unicode 𛅒 U+1B152 HIRAGANA LETTER SMALL WO": 
+    {
+        "prefix": [
+            "..U.1B152",
+            "..U.HIRAGANA LETTER SMALL WO",
+            "U+1B152",
+        ],
+        "body": [
+            "${1|𛅒,&#x1B152;,U+1B152,0x1B152,HIRAGANA LETTER SMALL WO|}$2",
+        ],
+        "description": [
+            "Code: U+1B152",
+            "Character/Symbol: 𛅒",
+            "Name: HIRAGANA LETTER SMALL WO",
+            "Group/Block: Small_Kana_Ext",
+        ],
+    },
+
+    "Unicode 𛅕 U+1B155 KATAKANA LETTER SMALL KO": 
+    {
+        "prefix": [
+            "..U.1B155",
+            "..U.KATAKANA LETTER SMALL KO",
+            "U+1B155",
+        ],
+        "body": [
+            "${1|𛅕,&#x1B155;,U+1B155,0x1B155,KATAKANA LETTER SMALL KO|}$2",
+        ],
+        "description": [
+            "Code: U+1B155",
+            "Character/Symbol: 𛅕",
+            "Name: KATAKANA LETTER SMALL KO",
+            "Group/Block: Small_Kana_Ext",
+        ],
+    },
+
+    "Unicode 𛅤 U+1B164 KATAKANA LETTER SMALL WI": 
+    {
+        "prefix": [
+            "..U.1B164",
+            "..U.KATAKANA LETTER SMALL WI",
+            "U+1B164",
+        ],
+        "body": [
+            "${1|𛅤,&#x1B164;,U+1B164,0x1B164,KATAKANA LETTER SMALL WI|}$2",
+        ],
+        "description": [
+            "Code: U+1B164",
+            "Character/Symbol: 𛅤",
+            "Name: KATAKANA LETTER SMALL WI",
+            "Group/Block: Small_Kana_Ext",
+        ],
+    },
+
+    "Unicode 𛅥 U+1B165 KATAKANA LETTER SMALL WE": 
+    {
+        "prefix": [
+            "..U.1B165",
+            "..U.KATAKANA LETTER SMALL WE",
+            "U+1B165",
+        ],
+        "body": [
+            "${1|𛅥,&#x1B165;,U+1B165,0x1B165,KATAKANA LETTER SMALL WE|}$2",
+        ],
+        "description": [
+            "Code: U+1B165",
+            "Character/Symbol: 𛅥",
+            "Name: KATAKANA LETTER SMALL WE",
+            "Group/Block: Small_Kana_Ext",
+        ],
+    },
+
+    "Unicode 𛅦 U+1B166 KATAKANA LETTER SMALL WO": 
+    {
+        "prefix": [
+            "..U.1B166",
+            "..U.KATAKANA LETTER SMALL WO",
+            "U+1B166",
+        ],
+        "body": [
+            "${1|𛅦,&#x1B166;,U+1B166,0x1B166,KATAKANA LETTER SMALL WO|}$2",
+        ],
+        "description": [
+            "Code: U+1B166",
+            "Character/Symbol: 𛅦",
+            "Name: KATAKANA LETTER SMALL WO",
+            "Group/Block: Small_Kana_Ext",
+        ],
+    },
+
+    "Unicode 𛅧 U+1B167 KATAKANA LETTER SMALL N": 
+    {
+        "prefix": [
+            "..U.1B167",
+            "..U.KATAKANA LETTER SMALL N",
+            "U+1B167",
+        ],
+        "body": [
+            "${1|𛅧,&#x1B167;,U+1B167,0x1B167,KATAKANA LETTER SMALL N|}$2",
+        ],
+        "description": [
+            "Code: U+1B167",
+            "Character/Symbol: 𛅧",
+            "Name: KATAKANA LETTER SMALL N",
+            "Group/Block: Small_Kana_Ext",
+        ],
+    },
+
+}

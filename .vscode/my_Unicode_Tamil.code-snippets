@@ -1,0 +1,1298 @@
+{
+    "Unicode ஂ U+0B82 TAMIL SIGN ANUSVARA": 
+    {
+        "prefix": [
+            "..U.0B82",
+            "..U.TAMIL SIGN ANUSVARA",
+            "U+0B82",
+        ],
+        "body": [
+            "${1|ஂ,&#x0B82;,U+0B82,0x0B82,TAMIL SIGN ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+0B82",
+            "Character/Symbol: ஂ",
+            "Name: TAMIL SIGN ANUSVARA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஃ U+0B83 TAMIL SIGN VISARGA": 
+    {
+        "prefix": [
+            "..U.0B83",
+            "..U.TAMIL SIGN VISARGA",
+            "U+0B83",
+        ],
+        "body": [
+            "${1|ஃ,&#x0B83;,U+0B83,0x0B83,TAMIL SIGN VISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+0B83",
+            "Character/Symbol: ஃ",
+            "Name: TAMIL SIGN VISARGA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode அ U+0B85 TAMIL LETTER A": 
+    {
+        "prefix": [
+            "..U.0B85",
+            "..U.TAMIL LETTER A",
+            "U+0B85",
+        ],
+        "body": [
+            "${1|அ,&#x0B85;,U+0B85,0x0B85,TAMIL LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+0B85",
+            "Character/Symbol: அ",
+            "Name: TAMIL LETTER A",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஆ U+0B86 TAMIL LETTER AA": 
+    {
+        "prefix": [
+            "..U.0B86",
+            "..U.TAMIL LETTER AA",
+            "U+0B86",
+        ],
+        "body": [
+            "${1|ஆ,&#x0B86;,U+0B86,0x0B86,TAMIL LETTER AA|}$2",
+        ],
+        "description": [
+            "Code: U+0B86",
+            "Character/Symbol: ஆ",
+            "Name: TAMIL LETTER AA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode இ U+0B87 TAMIL LETTER I": 
+    {
+        "prefix": [
+            "..U.0B87",
+            "..U.TAMIL LETTER I",
+            "U+0B87",
+        ],
+        "body": [
+            "${1|இ,&#x0B87;,U+0B87,0x0B87,TAMIL LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+0B87",
+            "Character/Symbol: இ",
+            "Name: TAMIL LETTER I",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஈ U+0B88 TAMIL LETTER II": 
+    {
+        "prefix": [
+            "..U.0B88",
+            "..U.TAMIL LETTER II",
+            "U+0B88",
+        ],
+        "body": [
+            "${1|ஈ,&#x0B88;,U+0B88,0x0B88,TAMIL LETTER II|}$2",
+        ],
+        "description": [
+            "Code: U+0B88",
+            "Character/Symbol: ஈ",
+            "Name: TAMIL LETTER II",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode உ U+0B89 TAMIL LETTER U": 
+    {
+        "prefix": [
+            "..U.0B89",
+            "..U.TAMIL LETTER U",
+            "U+0B89",
+        ],
+        "body": [
+            "${1|உ,&#x0B89;,U+0B89,0x0B89,TAMIL LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+0B89",
+            "Character/Symbol: உ",
+            "Name: TAMIL LETTER U",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஊ U+0B8A TAMIL LETTER UU": 
+    {
+        "prefix": [
+            "..U.0B8A",
+            "..U.TAMIL LETTER UU",
+            "U+0B8A",
+        ],
+        "body": [
+            "${1|ஊ,&#x0B8A;,U+0B8A,0x0B8A,TAMIL LETTER UU|}$2",
+        ],
+        "description": [
+            "Code: U+0B8A",
+            "Character/Symbol: ஊ",
+            "Name: TAMIL LETTER UU",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode எ U+0B8E TAMIL LETTER E": 
+    {
+        "prefix": [
+            "..U.0B8E",
+            "..U.TAMIL LETTER E",
+            "U+0B8E",
+        ],
+        "body": [
+            "${1|எ,&#x0B8E;,U+0B8E,0x0B8E,TAMIL LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+0B8E",
+            "Character/Symbol: எ",
+            "Name: TAMIL LETTER E",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஏ U+0B8F TAMIL LETTER EE": 
+    {
+        "prefix": [
+            "..U.0B8F",
+            "..U.TAMIL LETTER EE",
+            "U+0B8F",
+        ],
+        "body": [
+            "${1|ஏ,&#x0B8F;,U+0B8F,0x0B8F,TAMIL LETTER EE|}$2",
+        ],
+        "description": [
+            "Code: U+0B8F",
+            "Character/Symbol: ஏ",
+            "Name: TAMIL LETTER EE",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஐ U+0B90 TAMIL LETTER AI": 
+    {
+        "prefix": [
+            "..U.0B90",
+            "..U.TAMIL LETTER AI",
+            "U+0B90",
+        ],
+        "body": [
+            "${1|ஐ,&#x0B90;,U+0B90,0x0B90,TAMIL LETTER AI|}$2",
+        ],
+        "description": [
+            "Code: U+0B90",
+            "Character/Symbol: ஐ",
+            "Name: TAMIL LETTER AI",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஒ U+0B92 TAMIL LETTER O": 
+    {
+        "prefix": [
+            "..U.0B92",
+            "..U.TAMIL LETTER O",
+            "U+0B92",
+        ],
+        "body": [
+            "${1|ஒ,&#x0B92;,U+0B92,0x0B92,TAMIL LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+0B92",
+            "Character/Symbol: ஒ",
+            "Name: TAMIL LETTER O",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஓ U+0B93 TAMIL LETTER OO": 
+    {
+        "prefix": [
+            "..U.0B93",
+            "..U.TAMIL LETTER OO",
+            "U+0B93",
+        ],
+        "body": [
+            "${1|ஓ,&#x0B93;,U+0B93,0x0B93,TAMIL LETTER OO|}$2",
+        ],
+        "description": [
+            "Code: U+0B93",
+            "Character/Symbol: ஓ",
+            "Name: TAMIL LETTER OO",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஔ U+0B94 TAMIL LETTER AU": 
+    {
+        "prefix": [
+            "..U.0B94",
+            "..U.TAMIL LETTER AU",
+            "U+0B94",
+        ],
+        "body": [
+            "${1|ஔ,&#x0B94;,U+0B94,0x0B94,TAMIL LETTER AU|}$2",
+        ],
+        "description": [
+            "Code: U+0B94",
+            "Character/Symbol: ஔ",
+            "Name: TAMIL LETTER AU",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode க U+0B95 TAMIL LETTER KA": 
+    {
+        "prefix": [
+            "..U.0B95",
+            "..U.TAMIL LETTER KA",
+            "U+0B95",
+        ],
+        "body": [
+            "${1|க,&#x0B95;,U+0B95,0x0B95,TAMIL LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+0B95",
+            "Character/Symbol: க",
+            "Name: TAMIL LETTER KA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ங U+0B99 TAMIL LETTER NGA": 
+    {
+        "prefix": [
+            "..U.0B99",
+            "..U.TAMIL LETTER NGA",
+            "U+0B99",
+        ],
+        "body": [
+            "${1|ங,&#x0B99;,U+0B99,0x0B99,TAMIL LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+0B99",
+            "Character/Symbol: ங",
+            "Name: TAMIL LETTER NGA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ச U+0B9A TAMIL LETTER CA": 
+    {
+        "prefix": [
+            "..U.0B9A",
+            "..U.TAMIL LETTER CA",
+            "U+0B9A",
+        ],
+        "body": [
+            "${1|ச,&#x0B9A;,U+0B9A,0x0B9A,TAMIL LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+0B9A",
+            "Character/Symbol: ச",
+            "Name: TAMIL LETTER CA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஜ U+0B9C TAMIL LETTER JA": 
+    {
+        "prefix": [
+            "..U.0B9C",
+            "..U.TAMIL LETTER JA",
+            "U+0B9C",
+        ],
+        "body": [
+            "${1|ஜ,&#x0B9C;,U+0B9C,0x0B9C,TAMIL LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+0B9C",
+            "Character/Symbol: ஜ",
+            "Name: TAMIL LETTER JA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஞ U+0B9E TAMIL LETTER NYA": 
+    {
+        "prefix": [
+            "..U.0B9E",
+            "..U.TAMIL LETTER NYA",
+            "U+0B9E",
+        ],
+        "body": [
+            "${1|ஞ,&#x0B9E;,U+0B9E,0x0B9E,TAMIL LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+0B9E",
+            "Character/Symbol: ஞ",
+            "Name: TAMIL LETTER NYA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ட U+0B9F TAMIL LETTER TTA": 
+    {
+        "prefix": [
+            "..U.0B9F",
+            "..U.TAMIL LETTER TTA",
+            "U+0B9F",
+        ],
+        "body": [
+            "${1|ட,&#x0B9F;,U+0B9F,0x0B9F,TAMIL LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+0B9F",
+            "Character/Symbol: ட",
+            "Name: TAMIL LETTER TTA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ண U+0BA3 TAMIL LETTER NNA": 
+    {
+        "prefix": [
+            "..U.0BA3",
+            "..U.TAMIL LETTER NNA",
+            "U+0BA3",
+        ],
+        "body": [
+            "${1|ண,&#x0BA3;,U+0BA3,0x0BA3,TAMIL LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+0BA3",
+            "Character/Symbol: ண",
+            "Name: TAMIL LETTER NNA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode த U+0BA4 TAMIL LETTER TA": 
+    {
+        "prefix": [
+            "..U.0BA4",
+            "..U.TAMIL LETTER TA",
+            "U+0BA4",
+        ],
+        "body": [
+            "${1|த,&#x0BA4;,U+0BA4,0x0BA4,TAMIL LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+0BA4",
+            "Character/Symbol: த",
+            "Name: TAMIL LETTER TA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ந U+0BA8 TAMIL LETTER NA": 
+    {
+        "prefix": [
+            "..U.0BA8",
+            "..U.TAMIL LETTER NA",
+            "U+0BA8",
+        ],
+        "body": [
+            "${1|ந,&#x0BA8;,U+0BA8,0x0BA8,TAMIL LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+0BA8",
+            "Character/Symbol: ந",
+            "Name: TAMIL LETTER NA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ன U+0BA9 TAMIL LETTER NNNA": 
+    {
+        "prefix": [
+            "..U.0BA9",
+            "..U.TAMIL LETTER NNNA",
+            "U+0BA9",
+        ],
+        "body": [
+            "${1|ன,&#x0BA9;,U+0BA9,0x0BA9,TAMIL LETTER NNNA|}$2",
+        ],
+        "description": [
+            "Code: U+0BA9",
+            "Character/Symbol: ன",
+            "Name: TAMIL LETTER NNNA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ப U+0BAA TAMIL LETTER PA": 
+    {
+        "prefix": [
+            "..U.0BAA",
+            "..U.TAMIL LETTER PA",
+            "U+0BAA",
+        ],
+        "body": [
+            "${1|ப,&#x0BAA;,U+0BAA,0x0BAA,TAMIL LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+0BAA",
+            "Character/Symbol: ப",
+            "Name: TAMIL LETTER PA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ம U+0BAE TAMIL LETTER MA": 
+    {
+        "prefix": [
+            "..U.0BAE",
+            "..U.TAMIL LETTER MA",
+            "U+0BAE",
+        ],
+        "body": [
+            "${1|ம,&#x0BAE;,U+0BAE,0x0BAE,TAMIL LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+0BAE",
+            "Character/Symbol: ம",
+            "Name: TAMIL LETTER MA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ய U+0BAF TAMIL LETTER YA": 
+    {
+        "prefix": [
+            "..U.0BAF",
+            "..U.TAMIL LETTER YA",
+            "U+0BAF",
+        ],
+        "body": [
+            "${1|ய,&#x0BAF;,U+0BAF,0x0BAF,TAMIL LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+0BAF",
+            "Character/Symbol: ய",
+            "Name: TAMIL LETTER YA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ர U+0BB0 TAMIL LETTER RA": 
+    {
+        "prefix": [
+            "..U.0BB0",
+            "..U.TAMIL LETTER RA",
+            "U+0BB0",
+        ],
+        "body": [
+            "${1|ர,&#x0BB0;,U+0BB0,0x0BB0,TAMIL LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+0BB0",
+            "Character/Symbol: ர",
+            "Name: TAMIL LETTER RA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ற U+0BB1 TAMIL LETTER RRA": 
+    {
+        "prefix": [
+            "..U.0BB1",
+            "..U.TAMIL LETTER RRA",
+            "U+0BB1",
+        ],
+        "body": [
+            "${1|ற,&#x0BB1;,U+0BB1,0x0BB1,TAMIL LETTER RRA|}$2",
+        ],
+        "description": [
+            "Code: U+0BB1",
+            "Character/Symbol: ற",
+            "Name: TAMIL LETTER RRA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ல U+0BB2 TAMIL LETTER LA": 
+    {
+        "prefix": [
+            "..U.0BB2",
+            "..U.TAMIL LETTER LA",
+            "U+0BB2",
+        ],
+        "body": [
+            "${1|ல,&#x0BB2;,U+0BB2,0x0BB2,TAMIL LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+0BB2",
+            "Character/Symbol: ல",
+            "Name: TAMIL LETTER LA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ள U+0BB3 TAMIL LETTER LLA": 
+    {
+        "prefix": [
+            "..U.0BB3",
+            "..U.TAMIL LETTER LLA",
+            "U+0BB3",
+        ],
+        "body": [
+            "${1|ள,&#x0BB3;,U+0BB3,0x0BB3,TAMIL LETTER LLA|}$2",
+        ],
+        "description": [
+            "Code: U+0BB3",
+            "Character/Symbol: ள",
+            "Name: TAMIL LETTER LLA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ழ U+0BB4 TAMIL LETTER LLLA": 
+    {
+        "prefix": [
+            "..U.0BB4",
+            "..U.TAMIL LETTER LLLA",
+            "U+0BB4",
+        ],
+        "body": [
+            "${1|ழ,&#x0BB4;,U+0BB4,0x0BB4,TAMIL LETTER LLLA|}$2",
+        ],
+        "description": [
+            "Code: U+0BB4",
+            "Character/Symbol: ழ",
+            "Name: TAMIL LETTER LLLA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode வ U+0BB5 TAMIL LETTER VA": 
+    {
+        "prefix": [
+            "..U.0BB5",
+            "..U.TAMIL LETTER VA",
+            "U+0BB5",
+        ],
+        "body": [
+            "${1|வ,&#x0BB5;,U+0BB5,0x0BB5,TAMIL LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+0BB5",
+            "Character/Symbol: வ",
+            "Name: TAMIL LETTER VA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஶ U+0BB6 TAMIL LETTER SHA": 
+    {
+        "prefix": [
+            "..U.0BB6",
+            "..U.TAMIL LETTER SHA",
+            "U+0BB6",
+        ],
+        "body": [
+            "${1|ஶ,&#x0BB6;,U+0BB6,0x0BB6,TAMIL LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+0BB6",
+            "Character/Symbol: ஶ",
+            "Name: TAMIL LETTER SHA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஷ U+0BB7 TAMIL LETTER SSA": 
+    {
+        "prefix": [
+            "..U.0BB7",
+            "..U.TAMIL LETTER SSA",
+            "U+0BB7",
+        ],
+        "body": [
+            "${1|ஷ,&#x0BB7;,U+0BB7,0x0BB7,TAMIL LETTER SSA|}$2",
+        ],
+        "description": [
+            "Code: U+0BB7",
+            "Character/Symbol: ஷ",
+            "Name: TAMIL LETTER SSA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஸ U+0BB8 TAMIL LETTER SA": 
+    {
+        "prefix": [
+            "..U.0BB8",
+            "..U.TAMIL LETTER SA",
+            "U+0BB8",
+        ],
+        "body": [
+            "${1|ஸ,&#x0BB8;,U+0BB8,0x0BB8,TAMIL LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+0BB8",
+            "Character/Symbol: ஸ",
+            "Name: TAMIL LETTER SA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ஹ U+0BB9 TAMIL LETTER HA": 
+    {
+        "prefix": [
+            "..U.0BB9",
+            "..U.TAMIL LETTER HA",
+            "U+0BB9",
+        ],
+        "body": [
+            "${1|ஹ,&#x0BB9;,U+0BB9,0x0BB9,TAMIL LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+0BB9",
+            "Character/Symbol: ஹ",
+            "Name: TAMIL LETTER HA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ா U+0BBE TAMIL VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.0BBE",
+            "..U.TAMIL VOWEL SIGN AA",
+            "U+0BBE",
+        ],
+        "body": [
+            "${1|ா,&#x0BBE;,U+0BBE,0x0BBE,TAMIL VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+0BBE",
+            "Character/Symbol: ா",
+            "Name: TAMIL VOWEL SIGN AA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ி U+0BBF TAMIL VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.0BBF",
+            "..U.TAMIL VOWEL SIGN I",
+            "U+0BBF",
+        ],
+        "body": [
+            "${1|ி,&#x0BBF;,U+0BBF,0x0BBF,TAMIL VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+0BBF",
+            "Character/Symbol: ி",
+            "Name: TAMIL VOWEL SIGN I",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ீ U+0BC0 TAMIL VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.0BC0",
+            "..U.TAMIL VOWEL SIGN II",
+            "U+0BC0",
+        ],
+        "body": [
+            "${1|ீ,&#x0BC0;,U+0BC0,0x0BC0,TAMIL VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+0BC0",
+            "Character/Symbol: ீ",
+            "Name: TAMIL VOWEL SIGN II",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ு U+0BC1 TAMIL VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.0BC1",
+            "..U.TAMIL VOWEL SIGN U",
+            "U+0BC1",
+        ],
+        "body": [
+            "${1|ு,&#x0BC1;,U+0BC1,0x0BC1,TAMIL VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+0BC1",
+            "Character/Symbol: ு",
+            "Name: TAMIL VOWEL SIGN U",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ூ U+0BC2 TAMIL VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.0BC2",
+            "..U.TAMIL VOWEL SIGN UU",
+            "U+0BC2",
+        ],
+        "body": [
+            "${1|ூ,&#x0BC2;,U+0BC2,0x0BC2,TAMIL VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+0BC2",
+            "Character/Symbol: ூ",
+            "Name: TAMIL VOWEL SIGN UU",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ெ U+0BC6 TAMIL VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.0BC6",
+            "..U.TAMIL VOWEL SIGN E",
+            "U+0BC6",
+        ],
+        "body": [
+            "${1|ெ,&#x0BC6;,U+0BC6,0x0BC6,TAMIL VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+0BC6",
+            "Character/Symbol: ெ",
+            "Name: TAMIL VOWEL SIGN E",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ே U+0BC7 TAMIL VOWEL SIGN EE": 
+    {
+        "prefix": [
+            "..U.0BC7",
+            "..U.TAMIL VOWEL SIGN EE",
+            "U+0BC7",
+        ],
+        "body": [
+            "${1|ே,&#x0BC7;,U+0BC7,0x0BC7,TAMIL VOWEL SIGN EE|}$2",
+        ],
+        "description": [
+            "Code: U+0BC7",
+            "Character/Symbol: ே",
+            "Name: TAMIL VOWEL SIGN EE",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ை U+0BC8 TAMIL VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.0BC8",
+            "..U.TAMIL VOWEL SIGN AI",
+            "U+0BC8",
+        ],
+        "body": [
+            "${1|ை,&#x0BC8;,U+0BC8,0x0BC8,TAMIL VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+0BC8",
+            "Character/Symbol: ை",
+            "Name: TAMIL VOWEL SIGN AI",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ொ U+0BCA TAMIL VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.0BCA",
+            "..U.TAMIL VOWEL SIGN O",
+            "U+0BCA",
+        ],
+        "body": [
+            "${1|ொ,&#x0BCA;,U+0BCA,0x0BCA,TAMIL VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+0BCA",
+            "Character/Symbol: ொ",
+            "Name: TAMIL VOWEL SIGN O",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ோ U+0BCB TAMIL VOWEL SIGN OO": 
+    {
+        "prefix": [
+            "..U.0BCB",
+            "..U.TAMIL VOWEL SIGN OO",
+            "U+0BCB",
+        ],
+        "body": [
+            "${1|ோ,&#x0BCB;,U+0BCB,0x0BCB,TAMIL VOWEL SIGN OO|}$2",
+        ],
+        "description": [
+            "Code: U+0BCB",
+            "Character/Symbol: ோ",
+            "Name: TAMIL VOWEL SIGN OO",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௌ U+0BCC TAMIL VOWEL SIGN AU": 
+    {
+        "prefix": [
+            "..U.0BCC",
+            "..U.TAMIL VOWEL SIGN AU",
+            "U+0BCC",
+        ],
+        "body": [
+            "${1|ௌ,&#x0BCC;,U+0BCC,0x0BCC,TAMIL VOWEL SIGN AU|}$2",
+        ],
+        "description": [
+            "Code: U+0BCC",
+            "Character/Symbol: ௌ",
+            "Name: TAMIL VOWEL SIGN AU",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ் U+0BCD TAMIL SIGN VIRAMA": 
+    {
+        "prefix": [
+            "..U.0BCD",
+            "..U.TAMIL SIGN VIRAMA",
+            "U+0BCD",
+        ],
+        "body": [
+            "${1|்,&#x0BCD;,U+0BCD,0x0BCD,TAMIL SIGN VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+0BCD",
+            "Character/Symbol: ்",
+            "Name: TAMIL SIGN VIRAMA",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௐ U+0BD0 TAMIL OM": 
+    {
+        "prefix": [
+            "..U.0BD0",
+            "..U.TAMIL OM",
+            "U+0BD0",
+        ],
+        "body": [
+            "${1|ௐ,&#x0BD0;,U+0BD0,0x0BD0,TAMIL OM|}$2",
+        ],
+        "description": [
+            "Code: U+0BD0",
+            "Character/Symbol: ௐ",
+            "Name: TAMIL OM",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௗ U+0BD7 TAMIL AU LENGTH MARK": 
+    {
+        "prefix": [
+            "..U.0BD7",
+            "..U.TAMIL AU LENGTH MARK",
+            "U+0BD7",
+        ],
+        "body": [
+            "${1|ௗ,&#x0BD7;,U+0BD7,0x0BD7,TAMIL AU LENGTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+0BD7",
+            "Character/Symbol: ௗ",
+            "Name: TAMIL AU LENGTH MARK",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௦ U+0BE6 TAMIL DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.0BE6",
+            "..U.TAMIL DIGIT ZERO",
+            "U+0BE6",
+        ],
+        "body": [
+            "${1|௦,&#x0BE6;,U+0BE6,0x0BE6,TAMIL DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+0BE6",
+            "Character/Symbol: ௦",
+            "Name: TAMIL DIGIT ZERO",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௧ U+0BE7 TAMIL DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.0BE7",
+            "..U.TAMIL DIGIT ONE",
+            "U+0BE7",
+        ],
+        "body": [
+            "${1|௧,&#x0BE7;,U+0BE7,0x0BE7,TAMIL DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+0BE7",
+            "Character/Symbol: ௧",
+            "Name: TAMIL DIGIT ONE",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௨ U+0BE8 TAMIL DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.0BE8",
+            "..U.TAMIL DIGIT TWO",
+            "U+0BE8",
+        ],
+        "body": [
+            "${1|௨,&#x0BE8;,U+0BE8,0x0BE8,TAMIL DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+0BE8",
+            "Character/Symbol: ௨",
+            "Name: TAMIL DIGIT TWO",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௩ U+0BE9 TAMIL DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.0BE9",
+            "..U.TAMIL DIGIT THREE",
+            "U+0BE9",
+        ],
+        "body": [
+            "${1|௩,&#x0BE9;,U+0BE9,0x0BE9,TAMIL DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+0BE9",
+            "Character/Symbol: ௩",
+            "Name: TAMIL DIGIT THREE",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௪ U+0BEA TAMIL DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.0BEA",
+            "..U.TAMIL DIGIT FOUR",
+            "U+0BEA",
+        ],
+        "body": [
+            "${1|௪,&#x0BEA;,U+0BEA,0x0BEA,TAMIL DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+0BEA",
+            "Character/Symbol: ௪",
+            "Name: TAMIL DIGIT FOUR",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௫ U+0BEB TAMIL DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.0BEB",
+            "..U.TAMIL DIGIT FIVE",
+            "U+0BEB",
+        ],
+        "body": [
+            "${1|௫,&#x0BEB;,U+0BEB,0x0BEB,TAMIL DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+0BEB",
+            "Character/Symbol: ௫",
+            "Name: TAMIL DIGIT FIVE",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௬ U+0BEC TAMIL DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.0BEC",
+            "..U.TAMIL DIGIT SIX",
+            "U+0BEC",
+        ],
+        "body": [
+            "${1|௬,&#x0BEC;,U+0BEC,0x0BEC,TAMIL DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+0BEC",
+            "Character/Symbol: ௬",
+            "Name: TAMIL DIGIT SIX",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௭ U+0BED TAMIL DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.0BED",
+            "..U.TAMIL DIGIT SEVEN",
+            "U+0BED",
+        ],
+        "body": [
+            "${1|௭,&#x0BED;,U+0BED,0x0BED,TAMIL DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+0BED",
+            "Character/Symbol: ௭",
+            "Name: TAMIL DIGIT SEVEN",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௮ U+0BEE TAMIL DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.0BEE",
+            "..U.TAMIL DIGIT EIGHT",
+            "U+0BEE",
+        ],
+        "body": [
+            "${1|௮,&#x0BEE;,U+0BEE,0x0BEE,TAMIL DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+0BEE",
+            "Character/Symbol: ௮",
+            "Name: TAMIL DIGIT EIGHT",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௯ U+0BEF TAMIL DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.0BEF",
+            "..U.TAMIL DIGIT NINE",
+            "U+0BEF",
+        ],
+        "body": [
+            "${1|௯,&#x0BEF;,U+0BEF,0x0BEF,TAMIL DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+0BEF",
+            "Character/Symbol: ௯",
+            "Name: TAMIL DIGIT NINE",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௰ U+0BF0 TAMIL NUMBER TEN": 
+    {
+        "prefix": [
+            "..U.0BF0",
+            "..U.TAMIL NUMBER TEN",
+            "U+0BF0",
+        ],
+        "body": [
+            "${1|௰,&#x0BF0;,U+0BF0,0x0BF0,TAMIL NUMBER TEN|}$2",
+        ],
+        "description": [
+            "Code: U+0BF0",
+            "Character/Symbol: ௰",
+            "Name: TAMIL NUMBER TEN",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௱ U+0BF1 TAMIL NUMBER ONE HUNDRED": 
+    {
+        "prefix": [
+            "..U.0BF1",
+            "..U.TAMIL NUMBER ONE HUNDRED",
+            "U+0BF1",
+        ],
+        "body": [
+            "${1|௱,&#x0BF1;,U+0BF1,0x0BF1,TAMIL NUMBER ONE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+0BF1",
+            "Character/Symbol: ௱",
+            "Name: TAMIL NUMBER ONE HUNDRED",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௲ U+0BF2 TAMIL NUMBER ONE THOUSAND": 
+    {
+        "prefix": [
+            "..U.0BF2",
+            "..U.TAMIL NUMBER ONE THOUSAND",
+            "U+0BF2",
+        ],
+        "body": [
+            "${1|௲,&#x0BF2;,U+0BF2,0x0BF2,TAMIL NUMBER ONE THOUSAND|}$2",
+        ],
+        "description": [
+            "Code: U+0BF2",
+            "Character/Symbol: ௲",
+            "Name: TAMIL NUMBER ONE THOUSAND",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௳ U+0BF3 TAMIL DAY SIGN": 
+    {
+        "prefix": [
+            "..U.0BF3",
+            "..U.TAMIL DAY SIGN",
+            "U+0BF3",
+        ],
+        "body": [
+            "${1|௳,&#x0BF3;,U+0BF3,0x0BF3,TAMIL DAY SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0BF3",
+            "Character/Symbol: ௳",
+            "Name: TAMIL DAY SIGN",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௴ U+0BF4 TAMIL MONTH SIGN": 
+    {
+        "prefix": [
+            "..U.0BF4",
+            "..U.TAMIL MONTH SIGN",
+            "U+0BF4",
+        ],
+        "body": [
+            "${1|௴,&#x0BF4;,U+0BF4,0x0BF4,TAMIL MONTH SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0BF4",
+            "Character/Symbol: ௴",
+            "Name: TAMIL MONTH SIGN",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௵ U+0BF5 TAMIL YEAR SIGN": 
+    {
+        "prefix": [
+            "..U.0BF5",
+            "..U.TAMIL YEAR SIGN",
+            "U+0BF5",
+        ],
+        "body": [
+            "${1|௵,&#x0BF5;,U+0BF5,0x0BF5,TAMIL YEAR SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0BF5",
+            "Character/Symbol: ௵",
+            "Name: TAMIL YEAR SIGN",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௶ U+0BF6 TAMIL DEBIT SIGN": 
+    {
+        "prefix": [
+            "..U.0BF6",
+            "..U.TAMIL DEBIT SIGN",
+            "U+0BF6",
+        ],
+        "body": [
+            "${1|௶,&#x0BF6;,U+0BF6,0x0BF6,TAMIL DEBIT SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0BF6",
+            "Character/Symbol: ௶",
+            "Name: TAMIL DEBIT SIGN",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௷ U+0BF7 TAMIL CREDIT SIGN": 
+    {
+        "prefix": [
+            "..U.0BF7",
+            "..U.TAMIL CREDIT SIGN",
+            "U+0BF7",
+        ],
+        "body": [
+            "${1|௷,&#x0BF7;,U+0BF7,0x0BF7,TAMIL CREDIT SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0BF7",
+            "Character/Symbol: ௷",
+            "Name: TAMIL CREDIT SIGN",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௸ U+0BF8 TAMIL AS ABOVE SIGN": 
+    {
+        "prefix": [
+            "..U.0BF8",
+            "..U.TAMIL AS ABOVE SIGN",
+            "U+0BF8",
+        ],
+        "body": [
+            "${1|௸,&#x0BF8;,U+0BF8,0x0BF8,TAMIL AS ABOVE SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0BF8",
+            "Character/Symbol: ௸",
+            "Name: TAMIL AS ABOVE SIGN",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௹ U+0BF9 TAMIL RUPEE SIGN": 
+    {
+        "prefix": [
+            "..U.0BF9",
+            "..U.TAMIL RUPEE SIGN",
+            "U+0BF9",
+        ],
+        "body": [
+            "${1|௹,&#x0BF9;,U+0BF9,0x0BF9,TAMIL RUPEE SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0BF9",
+            "Character/Symbol: ௹",
+            "Name: TAMIL RUPEE SIGN",
+            "Group/Block: Tamil",
+        ],
+    },
+
+    "Unicode ௺ U+0BFA TAMIL NUMBER SIGN": 
+    {
+        "prefix": [
+            "..U.0BFA",
+            "..U.TAMIL NUMBER SIGN",
+            "U+0BFA",
+        ],
+        "body": [
+            "${1|௺,&#x0BFA;,U+0BFA,0x0BFA,TAMIL NUMBER SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0BFA",
+            "Character/Symbol: ௺",
+            "Name: TAMIL NUMBER SIGN",
+            "Group/Block: Tamil",
+        ],
+    },
+
+}

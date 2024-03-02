@@ -1,0 +1,2432 @@
+{
+    "Unicode Ͱ U+0370 GREEK CAPITAL LETTER HETA": 
+    {
+        "prefix": [
+            "..U.0370",
+            "..U.GREEK CAPITAL LETTER HETA",
+            "U+0370",
+        ],
+        "body": [
+            "${1|Ͱ,&#x0370;,U+0370,0x0370,GREEK CAPITAL LETTER HETA|}$2",
+        ],
+        "description": [
+            "Code: U+0370",
+            "Character/Symbol: Ͱ",
+            "Name: GREEK CAPITAL LETTER HETA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ͱ U+0371 GREEK SMALL LETTER HETA": 
+    {
+        "prefix": [
+            "..U.0371",
+            "..U.GREEK SMALL LETTER HETA",
+            "U+0371",
+        ],
+        "body": [
+            "${1|ͱ,&#x0371;,U+0371,0x0371,GREEK SMALL LETTER HETA|}$2",
+        ],
+        "description": [
+            "Code: U+0371",
+            "Character/Symbol: ͱ",
+            "Name: GREEK SMALL LETTER HETA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ͳ U+0372 GREEK CAPITAL LETTER ARCHAIC SAMPI": 
+    {
+        "prefix": [
+            "..U.0372",
+            "..U.GREEK CAPITAL LETTER ARCHAIC SAMPI",
+            "U+0372",
+        ],
+        "body": [
+            "${1|Ͳ,&#x0372;,U+0372,0x0372,GREEK CAPITAL LETTER ARCHAIC SAMPI|}$2",
+        ],
+        "description": [
+            "Code: U+0372",
+            "Character/Symbol: Ͳ",
+            "Name: GREEK CAPITAL LETTER ARCHAIC SAMPI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ͳ U+0373 GREEK SMALL LETTER ARCHAIC SAMPI": 
+    {
+        "prefix": [
+            "..U.0373",
+            "..U.GREEK SMALL LETTER ARCHAIC SAMPI",
+            "U+0373",
+        ],
+        "body": [
+            "${1|ͳ,&#x0373;,U+0373,0x0373,GREEK SMALL LETTER ARCHAIC SAMPI|}$2",
+        ],
+        "description": [
+            "Code: U+0373",
+            "Character/Symbol: ͳ",
+            "Name: GREEK SMALL LETTER ARCHAIC SAMPI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ʹ U+0374 GREEK NUMERAL SIGN": 
+    {
+        "prefix": [
+            "..U.0374",
+            "..U.GREEK NUMERAL SIGN",
+            "U+0374",
+        ],
+        "body": [
+            "${1|ʹ,&#x0374;,U+0374,0x0374,GREEK NUMERAL SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0374",
+            "Character/Symbol: ʹ",
+            "Name: GREEK NUMERAL SIGN",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ͵ U+0375 GREEK LOWER NUMERAL SIGN": 
+    {
+        "prefix": [
+            "..U.0375",
+            "..U.GREEK LOWER NUMERAL SIGN",
+            "U+0375",
+        ],
+        "body": [
+            "${1|͵,&#x0375;,U+0375,0x0375,GREEK LOWER NUMERAL SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0375",
+            "Character/Symbol: ͵",
+            "Name: GREEK LOWER NUMERAL SIGN",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ͷ U+0376 GREEK CAPITAL LETTER PAMPHYLIAN DIGAMMA": 
+    {
+        "prefix": [
+            "..U.0376",
+            "..U.GREEK CAPITAL LETTER PAMPHYLIAN DIGAMMA",
+            "U+0376",
+        ],
+        "body": [
+            "${1|Ͷ,&#x0376;,U+0376,0x0376,GREEK CAPITAL LETTER PAMPHYLIAN DIGAMMA|}$2",
+        ],
+        "description": [
+            "Code: U+0376",
+            "Character/Symbol: Ͷ",
+            "Name: GREEK CAPITAL LETTER PAMPHYLIAN DIGAMMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ͷ U+0377 GREEK SMALL LETTER PAMPHYLIAN DIGAMMA": 
+    {
+        "prefix": [
+            "..U.0377",
+            "..U.GREEK SMALL LETTER PAMPHYLIAN DIGAMMA",
+            "U+0377",
+        ],
+        "body": [
+            "${1|ͷ,&#x0377;,U+0377,0x0377,GREEK SMALL LETTER PAMPHYLIAN DIGAMMA|}$2",
+        ],
+        "description": [
+            "Code: U+0377",
+            "Character/Symbol: ͷ",
+            "Name: GREEK SMALL LETTER PAMPHYLIAN DIGAMMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ͺ U+037A GREEK YPOGEGRAMMENI": 
+    {
+        "prefix": [
+            "..U.037A",
+            "..U.GREEK YPOGEGRAMMENI",
+            "U+037A",
+        ],
+        "body": [
+            "${1|ͺ,&#x037A;,U+037A,0x037A,GREEK YPOGEGRAMMENI|}$2",
+        ],
+        "description": [
+            "Code: U+037A",
+            "Character/Symbol: ͺ",
+            "Name: GREEK YPOGEGRAMMENI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ͻ U+037B GREEK SMALL REVERSED LUNATE SIGMA SYMBOL": 
+    {
+        "prefix": [
+            "..U.037B",
+            "..U.GREEK SMALL REVERSED LUNATE SIGMA SYMBOL",
+            "U+037B",
+        ],
+        "body": [
+            "${1|ͻ,&#x037B;,U+037B,0x037B,GREEK SMALL REVERSED LUNATE SIGMA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+037B",
+            "Character/Symbol: ͻ",
+            "Name: GREEK SMALL REVERSED LUNATE SIGMA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ͼ U+037C GREEK SMALL DOTTED LUNATE SIGMA SYMBOL": 
+    {
+        "prefix": [
+            "..U.037C",
+            "..U.GREEK SMALL DOTTED LUNATE SIGMA SYMBOL",
+            "U+037C",
+        ],
+        "body": [
+            "${1|ͼ,&#x037C;,U+037C,0x037C,GREEK SMALL DOTTED LUNATE SIGMA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+037C",
+            "Character/Symbol: ͼ",
+            "Name: GREEK SMALL DOTTED LUNATE SIGMA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ͽ U+037D GREEK SMALL REVERSED DOTTED LUNATE SIGMA SYMBOL": 
+    {
+        "prefix": [
+            "..U.037D",
+            "..U.GREEK SMALL REVERSED DOTTED LUNATE SIGMA SYMBOL",
+            "U+037D",
+        ],
+        "body": [
+            "${1|ͽ,&#x037D;,U+037D,0x037D,GREEK SMALL REVERSED DOTTED LUNATE SIGMA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+037D",
+            "Character/Symbol: ͽ",
+            "Name: GREEK SMALL REVERSED DOTTED LUNATE SIGMA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ; U+037E GREEK QUESTION MARK": 
+    {
+        "prefix": [
+            "..U.037E",
+            "..U.GREEK QUESTION MARK",
+            "U+037E",
+        ],
+        "body": [
+            "${1|;,&#x037E;,U+037E,0x037E,GREEK QUESTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+037E",
+            "Character/Symbol: ;",
+            "Name: GREEK QUESTION MARK",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϳ U+037F GREEK CAPITAL LETTER YOT": 
+    {
+        "prefix": [
+            "..U.037F",
+            "..U.GREEK CAPITAL LETTER YOT",
+            "U+037F",
+        ],
+        "body": [
+            "${1|Ϳ,&#x037F;,U+037F,0x037F,GREEK CAPITAL LETTER YOT|}$2",
+        ],
+        "description": [
+            "Code: U+037F",
+            "Character/Symbol: Ϳ",
+            "Name: GREEK CAPITAL LETTER YOT",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ΄ U+0384 GREEK TONOS": 
+    {
+        "prefix": [
+            "..U.0384",
+            "..U.GREEK TONOS",
+            "U+0384",
+        ],
+        "body": [
+            "${1|΄,&#x0384;,U+0384,0x0384,GREEK TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+0384",
+            "Character/Symbol: ΄",
+            "Name: GREEK TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ΅ U+0385 GREEK DIALYTIKA TONOS": 
+    {
+        "prefix": [
+            "..U.0385",
+            "..U.GREEK DIALYTIKA TONOS",
+            "U+0385",
+        ],
+        "body": [
+            "${1|΅,&#x0385;,U+0385,0x0385,GREEK DIALYTIKA TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+0385",
+            "Character/Symbol: ΅",
+            "Name: GREEK DIALYTIKA TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ά U+0386 GREEK CAPITAL LETTER ALPHA WITH TONOS": 
+    {
+        "prefix": [
+            "..U.0386",
+            "..U.GREEK CAPITAL LETTER ALPHA WITH TONOS",
+            "U+0386",
+        ],
+        "body": [
+            "${1|Ά,&#x0386;,U+0386,0x0386,GREEK CAPITAL LETTER ALPHA WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+0386",
+            "Character/Symbol: Ά",
+            "Name: GREEK CAPITAL LETTER ALPHA WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode · U+0387 GREEK ANO TELEIA": 
+    {
+        "prefix": [
+            "..U.0387",
+            "..U.GREEK ANO TELEIA",
+            "U+0387",
+        ],
+        "body": [
+            "${1|·,&#x0387;,U+0387,0x0387,GREEK ANO TELEIA|}$2",
+        ],
+        "description": [
+            "Code: U+0387",
+            "Character/Symbol: ·",
+            "Name: GREEK ANO TELEIA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Έ U+0388 GREEK CAPITAL LETTER EPSILON WITH TONOS": 
+    {
+        "prefix": [
+            "..U.0388",
+            "..U.GREEK CAPITAL LETTER EPSILON WITH TONOS",
+            "U+0388",
+        ],
+        "body": [
+            "${1|Έ,&#x0388;,U+0388,0x0388,GREEK CAPITAL LETTER EPSILON WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+0388",
+            "Character/Symbol: Έ",
+            "Name: GREEK CAPITAL LETTER EPSILON WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ή U+0389 GREEK CAPITAL LETTER ETA WITH TONOS": 
+    {
+        "prefix": [
+            "..U.0389",
+            "..U.GREEK CAPITAL LETTER ETA WITH TONOS",
+            "U+0389",
+        ],
+        "body": [
+            "${1|Ή,&#x0389;,U+0389,0x0389,GREEK CAPITAL LETTER ETA WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+0389",
+            "Character/Symbol: Ή",
+            "Name: GREEK CAPITAL LETTER ETA WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ί U+038A GREEK CAPITAL LETTER IOTA WITH TONOS": 
+    {
+        "prefix": [
+            "..U.038A",
+            "..U.GREEK CAPITAL LETTER IOTA WITH TONOS",
+            "U+038A",
+        ],
+        "body": [
+            "${1|Ί,&#x038A;,U+038A,0x038A,GREEK CAPITAL LETTER IOTA WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+038A",
+            "Character/Symbol: Ί",
+            "Name: GREEK CAPITAL LETTER IOTA WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ό U+038C GREEK CAPITAL LETTER OMICRON WITH TONOS": 
+    {
+        "prefix": [
+            "..U.038C",
+            "..U.GREEK CAPITAL LETTER OMICRON WITH TONOS",
+            "U+038C",
+        ],
+        "body": [
+            "${1|Ό,&#x038C;,U+038C,0x038C,GREEK CAPITAL LETTER OMICRON WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+038C",
+            "Character/Symbol: Ό",
+            "Name: GREEK CAPITAL LETTER OMICRON WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ύ U+038E GREEK CAPITAL LETTER UPSILON WITH TONOS": 
+    {
+        "prefix": [
+            "..U.038E",
+            "..U.GREEK CAPITAL LETTER UPSILON WITH TONOS",
+            "U+038E",
+        ],
+        "body": [
+            "${1|Ύ,&#x038E;,U+038E,0x038E,GREEK CAPITAL LETTER UPSILON WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+038E",
+            "Character/Symbol: Ύ",
+            "Name: GREEK CAPITAL LETTER UPSILON WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ώ U+038F GREEK CAPITAL LETTER OMEGA WITH TONOS": 
+    {
+        "prefix": [
+            "..U.038F",
+            "..U.GREEK CAPITAL LETTER OMEGA WITH TONOS",
+            "U+038F",
+        ],
+        "body": [
+            "${1|Ώ,&#x038F;,U+038F,0x038F,GREEK CAPITAL LETTER OMEGA WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+038F",
+            "Character/Symbol: Ώ",
+            "Name: GREEK CAPITAL LETTER OMEGA WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ΐ U+0390 GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS": 
+    {
+        "prefix": [
+            "..U.0390",
+            "..U.GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS",
+            "U+0390",
+        ],
+        "body": [
+            "${1|ΐ,&#x0390;,U+0390,0x0390,GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+0390",
+            "Character/Symbol: ΐ",
+            "Name: GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Α U+0391 GREEK CAPITAL LETTER ALPHA": 
+    {
+        "prefix": [
+            "..U.0391",
+            "..U.GREEK CAPITAL LETTER ALPHA",
+            "U+0391",
+        ],
+        "body": [
+            "${1|Α,&#x0391;,U+0391,0x0391,GREEK CAPITAL LETTER ALPHA|}$2",
+        ],
+        "description": [
+            "Code: U+0391",
+            "Character/Symbol: Α",
+            "Name: GREEK CAPITAL LETTER ALPHA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Β U+0392 GREEK CAPITAL LETTER BETA": 
+    {
+        "prefix": [
+            "..U.0392",
+            "..U.GREEK CAPITAL LETTER BETA",
+            "U+0392",
+        ],
+        "body": [
+            "${1|Β,&#x0392;,U+0392,0x0392,GREEK CAPITAL LETTER BETA|}$2",
+        ],
+        "description": [
+            "Code: U+0392",
+            "Character/Symbol: Β",
+            "Name: GREEK CAPITAL LETTER BETA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Γ U+0393 GREEK CAPITAL LETTER GAMMA": 
+    {
+        "prefix": [
+            "..U.0393",
+            "..U.GREEK CAPITAL LETTER GAMMA",
+            "U+0393",
+        ],
+        "body": [
+            "${1|Γ,&#x0393;,U+0393,0x0393,GREEK CAPITAL LETTER GAMMA|}$2",
+        ],
+        "description": [
+            "Code: U+0393",
+            "Character/Symbol: Γ",
+            "Name: GREEK CAPITAL LETTER GAMMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Δ U+0394 GREEK CAPITAL LETTER DELTA": 
+    {
+        "prefix": [
+            "..U.0394",
+            "..U.GREEK CAPITAL LETTER DELTA",
+            "U+0394",
+        ],
+        "body": [
+            "${1|Δ,&#x0394;,U+0394,0x0394,GREEK CAPITAL LETTER DELTA|}$2",
+        ],
+        "description": [
+            "Code: U+0394",
+            "Character/Symbol: Δ",
+            "Name: GREEK CAPITAL LETTER DELTA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ε U+0395 GREEK CAPITAL LETTER EPSILON": 
+    {
+        "prefix": [
+            "..U.0395",
+            "..U.GREEK CAPITAL LETTER EPSILON",
+            "U+0395",
+        ],
+        "body": [
+            "${1|Ε,&#x0395;,U+0395,0x0395,GREEK CAPITAL LETTER EPSILON|}$2",
+        ],
+        "description": [
+            "Code: U+0395",
+            "Character/Symbol: Ε",
+            "Name: GREEK CAPITAL LETTER EPSILON",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ζ U+0396 GREEK CAPITAL LETTER ZETA": 
+    {
+        "prefix": [
+            "..U.0396",
+            "..U.GREEK CAPITAL LETTER ZETA",
+            "U+0396",
+        ],
+        "body": [
+            "${1|Ζ,&#x0396;,U+0396,0x0396,GREEK CAPITAL LETTER ZETA|}$2",
+        ],
+        "description": [
+            "Code: U+0396",
+            "Character/Symbol: Ζ",
+            "Name: GREEK CAPITAL LETTER ZETA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Η U+0397 GREEK CAPITAL LETTER ETA": 
+    {
+        "prefix": [
+            "..U.0397",
+            "..U.GREEK CAPITAL LETTER ETA",
+            "U+0397",
+        ],
+        "body": [
+            "${1|Η,&#x0397;,U+0397,0x0397,GREEK CAPITAL LETTER ETA|}$2",
+        ],
+        "description": [
+            "Code: U+0397",
+            "Character/Symbol: Η",
+            "Name: GREEK CAPITAL LETTER ETA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Θ U+0398 GREEK CAPITAL LETTER THETA": 
+    {
+        "prefix": [
+            "..U.0398",
+            "..U.GREEK CAPITAL LETTER THETA",
+            "U+0398",
+        ],
+        "body": [
+            "${1|Θ,&#x0398;,U+0398,0x0398,GREEK CAPITAL LETTER THETA|}$2",
+        ],
+        "description": [
+            "Code: U+0398",
+            "Character/Symbol: Θ",
+            "Name: GREEK CAPITAL LETTER THETA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ι U+0399 GREEK CAPITAL LETTER IOTA": 
+    {
+        "prefix": [
+            "..U.0399",
+            "..U.GREEK CAPITAL LETTER IOTA",
+            "U+0399",
+        ],
+        "body": [
+            "${1|Ι,&#x0399;,U+0399,0x0399,GREEK CAPITAL LETTER IOTA|}$2",
+        ],
+        "description": [
+            "Code: U+0399",
+            "Character/Symbol: Ι",
+            "Name: GREEK CAPITAL LETTER IOTA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Κ U+039A GREEK CAPITAL LETTER KAPPA": 
+    {
+        "prefix": [
+            "..U.039A",
+            "..U.GREEK CAPITAL LETTER KAPPA",
+            "U+039A",
+        ],
+        "body": [
+            "${1|Κ,&#x039A;,U+039A,0x039A,GREEK CAPITAL LETTER KAPPA|}$2",
+        ],
+        "description": [
+            "Code: U+039A",
+            "Character/Symbol: Κ",
+            "Name: GREEK CAPITAL LETTER KAPPA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Λ U+039B GREEK CAPITAL LETTER LAMDA": 
+    {
+        "prefix": [
+            "..U.039B",
+            "..U.GREEK CAPITAL LETTER LAMDA",
+            "U+039B",
+        ],
+        "body": [
+            "${1|Λ,&#x039B;,U+039B,0x039B,GREEK CAPITAL LETTER LAMDA|}$2",
+        ],
+        "description": [
+            "Code: U+039B",
+            "Character/Symbol: Λ",
+            "Name: GREEK CAPITAL LETTER LAMDA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Μ U+039C GREEK CAPITAL LETTER MU": 
+    {
+        "prefix": [
+            "..U.039C",
+            "..U.GREEK CAPITAL LETTER MU",
+            "U+039C",
+        ],
+        "body": [
+            "${1|Μ,&#x039C;,U+039C,0x039C,GREEK CAPITAL LETTER MU|}$2",
+        ],
+        "description": [
+            "Code: U+039C",
+            "Character/Symbol: Μ",
+            "Name: GREEK CAPITAL LETTER MU",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ν U+039D GREEK CAPITAL LETTER NU": 
+    {
+        "prefix": [
+            "..U.039D",
+            "..U.GREEK CAPITAL LETTER NU",
+            "U+039D",
+        ],
+        "body": [
+            "${1|Ν,&#x039D;,U+039D,0x039D,GREEK CAPITAL LETTER NU|}$2",
+        ],
+        "description": [
+            "Code: U+039D",
+            "Character/Symbol: Ν",
+            "Name: GREEK CAPITAL LETTER NU",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ξ U+039E GREEK CAPITAL LETTER XI": 
+    {
+        "prefix": [
+            "..U.039E",
+            "..U.GREEK CAPITAL LETTER XI",
+            "U+039E",
+        ],
+        "body": [
+            "${1|Ξ,&#x039E;,U+039E,0x039E,GREEK CAPITAL LETTER XI|}$2",
+        ],
+        "description": [
+            "Code: U+039E",
+            "Character/Symbol: Ξ",
+            "Name: GREEK CAPITAL LETTER XI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ο U+039F GREEK CAPITAL LETTER OMICRON": 
+    {
+        "prefix": [
+            "..U.039F",
+            "..U.GREEK CAPITAL LETTER OMICRON",
+            "U+039F",
+        ],
+        "body": [
+            "${1|Ο,&#x039F;,U+039F,0x039F,GREEK CAPITAL LETTER OMICRON|}$2",
+        ],
+        "description": [
+            "Code: U+039F",
+            "Character/Symbol: Ο",
+            "Name: GREEK CAPITAL LETTER OMICRON",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Π U+03A0 GREEK CAPITAL LETTER PI": 
+    {
+        "prefix": [
+            "..U.03A0",
+            "..U.GREEK CAPITAL LETTER PI",
+            "U+03A0",
+        ],
+        "body": [
+            "${1|Π,&#x03A0;,U+03A0,0x03A0,GREEK CAPITAL LETTER PI|}$2",
+        ],
+        "description": [
+            "Code: U+03A0",
+            "Character/Symbol: Π",
+            "Name: GREEK CAPITAL LETTER PI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ρ U+03A1 GREEK CAPITAL LETTER RHO": 
+    {
+        "prefix": [
+            "..U.03A1",
+            "..U.GREEK CAPITAL LETTER RHO",
+            "U+03A1",
+        ],
+        "body": [
+            "${1|Ρ,&#x03A1;,U+03A1,0x03A1,GREEK CAPITAL LETTER RHO|}$2",
+        ],
+        "description": [
+            "Code: U+03A1",
+            "Character/Symbol: Ρ",
+            "Name: GREEK CAPITAL LETTER RHO",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Σ U+03A3 GREEK CAPITAL LETTER SIGMA": 
+    {
+        "prefix": [
+            "..U.03A3",
+            "..U.GREEK CAPITAL LETTER SIGMA",
+            "U+03A3",
+        ],
+        "body": [
+            "${1|Σ,&#x03A3;,U+03A3,0x03A3,GREEK CAPITAL LETTER SIGMA|}$2",
+        ],
+        "description": [
+            "Code: U+03A3",
+            "Character/Symbol: Σ",
+            "Name: GREEK CAPITAL LETTER SIGMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Τ U+03A4 GREEK CAPITAL LETTER TAU": 
+    {
+        "prefix": [
+            "..U.03A4",
+            "..U.GREEK CAPITAL LETTER TAU",
+            "U+03A4",
+        ],
+        "body": [
+            "${1|Τ,&#x03A4;,U+03A4,0x03A4,GREEK CAPITAL LETTER TAU|}$2",
+        ],
+        "description": [
+            "Code: U+03A4",
+            "Character/Symbol: Τ",
+            "Name: GREEK CAPITAL LETTER TAU",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Υ U+03A5 GREEK CAPITAL LETTER UPSILON": 
+    {
+        "prefix": [
+            "..U.03A5",
+            "..U.GREEK CAPITAL LETTER UPSILON",
+            "U+03A5",
+        ],
+        "body": [
+            "${1|Υ,&#x03A5;,U+03A5,0x03A5,GREEK CAPITAL LETTER UPSILON|}$2",
+        ],
+        "description": [
+            "Code: U+03A5",
+            "Character/Symbol: Υ",
+            "Name: GREEK CAPITAL LETTER UPSILON",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Φ U+03A6 GREEK CAPITAL LETTER PHI": 
+    {
+        "prefix": [
+            "..U.03A6",
+            "..U.GREEK CAPITAL LETTER PHI",
+            "U+03A6",
+        ],
+        "body": [
+            "${1|Φ,&#x03A6;,U+03A6,0x03A6,GREEK CAPITAL LETTER PHI|}$2",
+        ],
+        "description": [
+            "Code: U+03A6",
+            "Character/Symbol: Φ",
+            "Name: GREEK CAPITAL LETTER PHI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Χ U+03A7 GREEK CAPITAL LETTER CHI": 
+    {
+        "prefix": [
+            "..U.03A7",
+            "..U.GREEK CAPITAL LETTER CHI",
+            "U+03A7",
+        ],
+        "body": [
+            "${1|Χ,&#x03A7;,U+03A7,0x03A7,GREEK CAPITAL LETTER CHI|}$2",
+        ],
+        "description": [
+            "Code: U+03A7",
+            "Character/Symbol: Χ",
+            "Name: GREEK CAPITAL LETTER CHI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ψ U+03A8 GREEK CAPITAL LETTER PSI": 
+    {
+        "prefix": [
+            "..U.03A8",
+            "..U.GREEK CAPITAL LETTER PSI",
+            "U+03A8",
+        ],
+        "body": [
+            "${1|Ψ,&#x03A8;,U+03A8,0x03A8,GREEK CAPITAL LETTER PSI|}$2",
+        ],
+        "description": [
+            "Code: U+03A8",
+            "Character/Symbol: Ψ",
+            "Name: GREEK CAPITAL LETTER PSI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ω U+03A9 GREEK CAPITAL LETTER OMEGA": 
+    {
+        "prefix": [
+            "..U.03A9",
+            "..U.GREEK CAPITAL LETTER OMEGA",
+            "U+03A9",
+        ],
+        "body": [
+            "${1|Ω,&#x03A9;,U+03A9,0x03A9,GREEK CAPITAL LETTER OMEGA|}$2",
+        ],
+        "description": [
+            "Code: U+03A9",
+            "Character/Symbol: Ω",
+            "Name: GREEK CAPITAL LETTER OMEGA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϊ U+03AA GREEK CAPITAL LETTER IOTA WITH DIALYTIKA": 
+    {
+        "prefix": [
+            "..U.03AA",
+            "..U.GREEK CAPITAL LETTER IOTA WITH DIALYTIKA",
+            "U+03AA",
+        ],
+        "body": [
+            "${1|Ϊ,&#x03AA;,U+03AA,0x03AA,GREEK CAPITAL LETTER IOTA WITH DIALYTIKA|}$2",
+        ],
+        "description": [
+            "Code: U+03AA",
+            "Character/Symbol: Ϊ",
+            "Name: GREEK CAPITAL LETTER IOTA WITH DIALYTIKA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϋ U+03AB GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA": 
+    {
+        "prefix": [
+            "..U.03AB",
+            "..U.GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA",
+            "U+03AB",
+        ],
+        "body": [
+            "${1|Ϋ,&#x03AB;,U+03AB,0x03AB,GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA|}$2",
+        ],
+        "description": [
+            "Code: U+03AB",
+            "Character/Symbol: Ϋ",
+            "Name: GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ά U+03AC GREEK SMALL LETTER ALPHA WITH TONOS": 
+    {
+        "prefix": [
+            "..U.03AC",
+            "..U.GREEK SMALL LETTER ALPHA WITH TONOS",
+            "U+03AC",
+        ],
+        "body": [
+            "${1|ά,&#x03AC;,U+03AC,0x03AC,GREEK SMALL LETTER ALPHA WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+03AC",
+            "Character/Symbol: ά",
+            "Name: GREEK SMALL LETTER ALPHA WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode έ U+03AD GREEK SMALL LETTER EPSILON WITH TONOS": 
+    {
+        "prefix": [
+            "..U.03AD",
+            "..U.GREEK SMALL LETTER EPSILON WITH TONOS",
+            "U+03AD",
+        ],
+        "body": [
+            "${1|έ,&#x03AD;,U+03AD,0x03AD,GREEK SMALL LETTER EPSILON WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+03AD",
+            "Character/Symbol: έ",
+            "Name: GREEK SMALL LETTER EPSILON WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ή U+03AE GREEK SMALL LETTER ETA WITH TONOS": 
+    {
+        "prefix": [
+            "..U.03AE",
+            "..U.GREEK SMALL LETTER ETA WITH TONOS",
+            "U+03AE",
+        ],
+        "body": [
+            "${1|ή,&#x03AE;,U+03AE,0x03AE,GREEK SMALL LETTER ETA WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+03AE",
+            "Character/Symbol: ή",
+            "Name: GREEK SMALL LETTER ETA WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ί U+03AF GREEK SMALL LETTER IOTA WITH TONOS": 
+    {
+        "prefix": [
+            "..U.03AF",
+            "..U.GREEK SMALL LETTER IOTA WITH TONOS",
+            "U+03AF",
+        ],
+        "body": [
+            "${1|ί,&#x03AF;,U+03AF,0x03AF,GREEK SMALL LETTER IOTA WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+03AF",
+            "Character/Symbol: ί",
+            "Name: GREEK SMALL LETTER IOTA WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ΰ U+03B0 GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS": 
+    {
+        "prefix": [
+            "..U.03B0",
+            "..U.GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS",
+            "U+03B0",
+        ],
+        "body": [
+            "${1|ΰ,&#x03B0;,U+03B0,0x03B0,GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+03B0",
+            "Character/Symbol: ΰ",
+            "Name: GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode α U+03B1 GREEK SMALL LETTER ALPHA": 
+    {
+        "prefix": [
+            "..U.03B1",
+            "..U.GREEK SMALL LETTER ALPHA",
+            "U+03B1",
+        ],
+        "body": [
+            "${1|α,&#x03B1;,U+03B1,0x03B1,GREEK SMALL LETTER ALPHA|}$2",
+        ],
+        "description": [
+            "Code: U+03B1",
+            "Character/Symbol: α",
+            "Name: GREEK SMALL LETTER ALPHA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode β U+03B2 GREEK SMALL LETTER BETA": 
+    {
+        "prefix": [
+            "..U.03B2",
+            "..U.GREEK SMALL LETTER BETA",
+            "U+03B2",
+        ],
+        "body": [
+            "${1|β,&#x03B2;,U+03B2,0x03B2,GREEK SMALL LETTER BETA|}$2",
+        ],
+        "description": [
+            "Code: U+03B2",
+            "Character/Symbol: β",
+            "Name: GREEK SMALL LETTER BETA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode γ U+03B3 GREEK SMALL LETTER GAMMA": 
+    {
+        "prefix": [
+            "..U.03B3",
+            "..U.GREEK SMALL LETTER GAMMA",
+            "U+03B3",
+        ],
+        "body": [
+            "${1|γ,&#x03B3;,U+03B3,0x03B3,GREEK SMALL LETTER GAMMA|}$2",
+        ],
+        "description": [
+            "Code: U+03B3",
+            "Character/Symbol: γ",
+            "Name: GREEK SMALL LETTER GAMMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode δ U+03B4 GREEK SMALL LETTER DELTA": 
+    {
+        "prefix": [
+            "..U.03B4",
+            "..U.GREEK SMALL LETTER DELTA",
+            "U+03B4",
+        ],
+        "body": [
+            "${1|δ,&#x03B4;,U+03B4,0x03B4,GREEK SMALL LETTER DELTA|}$2",
+        ],
+        "description": [
+            "Code: U+03B4",
+            "Character/Symbol: δ",
+            "Name: GREEK SMALL LETTER DELTA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ε U+03B5 GREEK SMALL LETTER EPSILON": 
+    {
+        "prefix": [
+            "..U.03B5",
+            "..U.GREEK SMALL LETTER EPSILON",
+            "U+03B5",
+        ],
+        "body": [
+            "${1|ε,&#x03B5;,U+03B5,0x03B5,GREEK SMALL LETTER EPSILON|}$2",
+        ],
+        "description": [
+            "Code: U+03B5",
+            "Character/Symbol: ε",
+            "Name: GREEK SMALL LETTER EPSILON",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ζ U+03B6 GREEK SMALL LETTER ZETA": 
+    {
+        "prefix": [
+            "..U.03B6",
+            "..U.GREEK SMALL LETTER ZETA",
+            "U+03B6",
+        ],
+        "body": [
+            "${1|ζ,&#x03B6;,U+03B6,0x03B6,GREEK SMALL LETTER ZETA|}$2",
+        ],
+        "description": [
+            "Code: U+03B6",
+            "Character/Symbol: ζ",
+            "Name: GREEK SMALL LETTER ZETA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode η U+03B7 GREEK SMALL LETTER ETA": 
+    {
+        "prefix": [
+            "..U.03B7",
+            "..U.GREEK SMALL LETTER ETA",
+            "U+03B7",
+        ],
+        "body": [
+            "${1|η,&#x03B7;,U+03B7,0x03B7,GREEK SMALL LETTER ETA|}$2",
+        ],
+        "description": [
+            "Code: U+03B7",
+            "Character/Symbol: η",
+            "Name: GREEK SMALL LETTER ETA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode θ U+03B8 GREEK SMALL LETTER THETA": 
+    {
+        "prefix": [
+            "..U.03B8",
+            "..U.GREEK SMALL LETTER THETA",
+            "U+03B8",
+        ],
+        "body": [
+            "${1|θ,&#x03B8;,U+03B8,0x03B8,GREEK SMALL LETTER THETA|}$2",
+        ],
+        "description": [
+            "Code: U+03B8",
+            "Character/Symbol: θ",
+            "Name: GREEK SMALL LETTER THETA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ι U+03B9 GREEK SMALL LETTER IOTA": 
+    {
+        "prefix": [
+            "..U.03B9",
+            "..U.GREEK SMALL LETTER IOTA",
+            "U+03B9",
+        ],
+        "body": [
+            "${1|ι,&#x03B9;,U+03B9,0x03B9,GREEK SMALL LETTER IOTA|}$2",
+        ],
+        "description": [
+            "Code: U+03B9",
+            "Character/Symbol: ι",
+            "Name: GREEK SMALL LETTER IOTA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode κ U+03BA GREEK SMALL LETTER KAPPA": 
+    {
+        "prefix": [
+            "..U.03BA",
+            "..U.GREEK SMALL LETTER KAPPA",
+            "U+03BA",
+        ],
+        "body": [
+            "${1|κ,&#x03BA;,U+03BA,0x03BA,GREEK SMALL LETTER KAPPA|}$2",
+        ],
+        "description": [
+            "Code: U+03BA",
+            "Character/Symbol: κ",
+            "Name: GREEK SMALL LETTER KAPPA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode λ U+03BB GREEK SMALL LETTER LAMDA": 
+    {
+        "prefix": [
+            "..U.03BB",
+            "..U.GREEK SMALL LETTER LAMDA",
+            "U+03BB",
+        ],
+        "body": [
+            "${1|λ,&#x03BB;,U+03BB,0x03BB,GREEK SMALL LETTER LAMDA|}$2",
+        ],
+        "description": [
+            "Code: U+03BB",
+            "Character/Symbol: λ",
+            "Name: GREEK SMALL LETTER LAMDA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode μ U+03BC GREEK SMALL LETTER MU": 
+    {
+        "prefix": [
+            "..U.03BC",
+            "..U.GREEK SMALL LETTER MU",
+            "U+03BC",
+        ],
+        "body": [
+            "${1|μ,&#x03BC;,U+03BC,0x03BC,GREEK SMALL LETTER MU|}$2",
+        ],
+        "description": [
+            "Code: U+03BC",
+            "Character/Symbol: μ",
+            "Name: GREEK SMALL LETTER MU",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ν U+03BD GREEK SMALL LETTER NU": 
+    {
+        "prefix": [
+            "..U.03BD",
+            "..U.GREEK SMALL LETTER NU",
+            "U+03BD",
+        ],
+        "body": [
+            "${1|ν,&#x03BD;,U+03BD,0x03BD,GREEK SMALL LETTER NU|}$2",
+        ],
+        "description": [
+            "Code: U+03BD",
+            "Character/Symbol: ν",
+            "Name: GREEK SMALL LETTER NU",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ξ U+03BE GREEK SMALL LETTER XI": 
+    {
+        "prefix": [
+            "..U.03BE",
+            "..U.GREEK SMALL LETTER XI",
+            "U+03BE",
+        ],
+        "body": [
+            "${1|ξ,&#x03BE;,U+03BE,0x03BE,GREEK SMALL LETTER XI|}$2",
+        ],
+        "description": [
+            "Code: U+03BE",
+            "Character/Symbol: ξ",
+            "Name: GREEK SMALL LETTER XI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ο U+03BF GREEK SMALL LETTER OMICRON": 
+    {
+        "prefix": [
+            "..U.03BF",
+            "..U.GREEK SMALL LETTER OMICRON",
+            "U+03BF",
+        ],
+        "body": [
+            "${1|ο,&#x03BF;,U+03BF,0x03BF,GREEK SMALL LETTER OMICRON|}$2",
+        ],
+        "description": [
+            "Code: U+03BF",
+            "Character/Symbol: ο",
+            "Name: GREEK SMALL LETTER OMICRON",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode π U+03C0 GREEK SMALL LETTER PI": 
+    {
+        "prefix": [
+            "..U.03C0",
+            "..U.GREEK SMALL LETTER PI",
+            "U+03C0",
+        ],
+        "body": [
+            "${1|π,&#x03C0;,U+03C0,0x03C0,GREEK SMALL LETTER PI|}$2",
+        ],
+        "description": [
+            "Code: U+03C0",
+            "Character/Symbol: π",
+            "Name: GREEK SMALL LETTER PI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ρ U+03C1 GREEK SMALL LETTER RHO": 
+    {
+        "prefix": [
+            "..U.03C1",
+            "..U.GREEK SMALL LETTER RHO",
+            "U+03C1",
+        ],
+        "body": [
+            "${1|ρ,&#x03C1;,U+03C1,0x03C1,GREEK SMALL LETTER RHO|}$2",
+        ],
+        "description": [
+            "Code: U+03C1",
+            "Character/Symbol: ρ",
+            "Name: GREEK SMALL LETTER RHO",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ς U+03C2 GREEK SMALL LETTER FINAL SIGMA": 
+    {
+        "prefix": [
+            "..U.03C2",
+            "..U.GREEK SMALL LETTER FINAL SIGMA",
+            "U+03C2",
+        ],
+        "body": [
+            "${1|ς,&#x03C2;,U+03C2,0x03C2,GREEK SMALL LETTER FINAL SIGMA|}$2",
+        ],
+        "description": [
+            "Code: U+03C2",
+            "Character/Symbol: ς",
+            "Name: GREEK SMALL LETTER FINAL SIGMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode σ U+03C3 GREEK SMALL LETTER SIGMA": 
+    {
+        "prefix": [
+            "..U.03C3",
+            "..U.GREEK SMALL LETTER SIGMA",
+            "U+03C3",
+        ],
+        "body": [
+            "${1|σ,&#x03C3;,U+03C3,0x03C3,GREEK SMALL LETTER SIGMA|}$2",
+        ],
+        "description": [
+            "Code: U+03C3",
+            "Character/Symbol: σ",
+            "Name: GREEK SMALL LETTER SIGMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode τ U+03C4 GREEK SMALL LETTER TAU": 
+    {
+        "prefix": [
+            "..U.03C4",
+            "..U.GREEK SMALL LETTER TAU",
+            "U+03C4",
+        ],
+        "body": [
+            "${1|τ,&#x03C4;,U+03C4,0x03C4,GREEK SMALL LETTER TAU|}$2",
+        ],
+        "description": [
+            "Code: U+03C4",
+            "Character/Symbol: τ",
+            "Name: GREEK SMALL LETTER TAU",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode υ U+03C5 GREEK SMALL LETTER UPSILON": 
+    {
+        "prefix": [
+            "..U.03C5",
+            "..U.GREEK SMALL LETTER UPSILON",
+            "U+03C5",
+        ],
+        "body": [
+            "${1|υ,&#x03C5;,U+03C5,0x03C5,GREEK SMALL LETTER UPSILON|}$2",
+        ],
+        "description": [
+            "Code: U+03C5",
+            "Character/Symbol: υ",
+            "Name: GREEK SMALL LETTER UPSILON",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode φ U+03C6 GREEK SMALL LETTER PHI": 
+    {
+        "prefix": [
+            "..U.03C6",
+            "..U.GREEK SMALL LETTER PHI",
+            "U+03C6",
+        ],
+        "body": [
+            "${1|φ,&#x03C6;,U+03C6,0x03C6,GREEK SMALL LETTER PHI|}$2",
+        ],
+        "description": [
+            "Code: U+03C6",
+            "Character/Symbol: φ",
+            "Name: GREEK SMALL LETTER PHI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode χ U+03C7 GREEK SMALL LETTER CHI": 
+    {
+        "prefix": [
+            "..U.03C7",
+            "..U.GREEK SMALL LETTER CHI",
+            "U+03C7",
+        ],
+        "body": [
+            "${1|χ,&#x03C7;,U+03C7,0x03C7,GREEK SMALL LETTER CHI|}$2",
+        ],
+        "description": [
+            "Code: U+03C7",
+            "Character/Symbol: χ",
+            "Name: GREEK SMALL LETTER CHI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ψ U+03C8 GREEK SMALL LETTER PSI": 
+    {
+        "prefix": [
+            "..U.03C8",
+            "..U.GREEK SMALL LETTER PSI",
+            "U+03C8",
+        ],
+        "body": [
+            "${1|ψ,&#x03C8;,U+03C8,0x03C8,GREEK SMALL LETTER PSI|}$2",
+        ],
+        "description": [
+            "Code: U+03C8",
+            "Character/Symbol: ψ",
+            "Name: GREEK SMALL LETTER PSI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ω U+03C9 GREEK SMALL LETTER OMEGA": 
+    {
+        "prefix": [
+            "..U.03C9",
+            "..U.GREEK SMALL LETTER OMEGA",
+            "U+03C9",
+        ],
+        "body": [
+            "${1|ω,&#x03C9;,U+03C9,0x03C9,GREEK SMALL LETTER OMEGA|}$2",
+        ],
+        "description": [
+            "Code: U+03C9",
+            "Character/Symbol: ω",
+            "Name: GREEK SMALL LETTER OMEGA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϊ U+03CA GREEK SMALL LETTER IOTA WITH DIALYTIKA": 
+    {
+        "prefix": [
+            "..U.03CA",
+            "..U.GREEK SMALL LETTER IOTA WITH DIALYTIKA",
+            "U+03CA",
+        ],
+        "body": [
+            "${1|ϊ,&#x03CA;,U+03CA,0x03CA,GREEK SMALL LETTER IOTA WITH DIALYTIKA|}$2",
+        ],
+        "description": [
+            "Code: U+03CA",
+            "Character/Symbol: ϊ",
+            "Name: GREEK SMALL LETTER IOTA WITH DIALYTIKA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϋ U+03CB GREEK SMALL LETTER UPSILON WITH DIALYTIKA": 
+    {
+        "prefix": [
+            "..U.03CB",
+            "..U.GREEK SMALL LETTER UPSILON WITH DIALYTIKA",
+            "U+03CB",
+        ],
+        "body": [
+            "${1|ϋ,&#x03CB;,U+03CB,0x03CB,GREEK SMALL LETTER UPSILON WITH DIALYTIKA|}$2",
+        ],
+        "description": [
+            "Code: U+03CB",
+            "Character/Symbol: ϋ",
+            "Name: GREEK SMALL LETTER UPSILON WITH DIALYTIKA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ό U+03CC GREEK SMALL LETTER OMICRON WITH TONOS": 
+    {
+        "prefix": [
+            "..U.03CC",
+            "..U.GREEK SMALL LETTER OMICRON WITH TONOS",
+            "U+03CC",
+        ],
+        "body": [
+            "${1|ό,&#x03CC;,U+03CC,0x03CC,GREEK SMALL LETTER OMICRON WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+03CC",
+            "Character/Symbol: ό",
+            "Name: GREEK SMALL LETTER OMICRON WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ύ U+03CD GREEK SMALL LETTER UPSILON WITH TONOS": 
+    {
+        "prefix": [
+            "..U.03CD",
+            "..U.GREEK SMALL LETTER UPSILON WITH TONOS",
+            "U+03CD",
+        ],
+        "body": [
+            "${1|ύ,&#x03CD;,U+03CD,0x03CD,GREEK SMALL LETTER UPSILON WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+03CD",
+            "Character/Symbol: ύ",
+            "Name: GREEK SMALL LETTER UPSILON WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ώ U+03CE GREEK SMALL LETTER OMEGA WITH TONOS": 
+    {
+        "prefix": [
+            "..U.03CE",
+            "..U.GREEK SMALL LETTER OMEGA WITH TONOS",
+            "U+03CE",
+        ],
+        "body": [
+            "${1|ώ,&#x03CE;,U+03CE,0x03CE,GREEK SMALL LETTER OMEGA WITH TONOS|}$2",
+        ],
+        "description": [
+            "Code: U+03CE",
+            "Character/Symbol: ώ",
+            "Name: GREEK SMALL LETTER OMEGA WITH TONOS",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϗ U+03CF GREEK CAPITAL KAI SYMBOL": 
+    {
+        "prefix": [
+            "..U.03CF",
+            "..U.GREEK CAPITAL KAI SYMBOL",
+            "U+03CF",
+        ],
+        "body": [
+            "${1|Ϗ,&#x03CF;,U+03CF,0x03CF,GREEK CAPITAL KAI SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03CF",
+            "Character/Symbol: Ϗ",
+            "Name: GREEK CAPITAL KAI SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϐ U+03D0 GREEK BETA SYMBOL": 
+    {
+        "prefix": [
+            "..U.03D0",
+            "..U.GREEK BETA SYMBOL",
+            "U+03D0",
+        ],
+        "body": [
+            "${1|ϐ,&#x03D0;,U+03D0,0x03D0,GREEK BETA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03D0",
+            "Character/Symbol: ϐ",
+            "Name: GREEK BETA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϑ U+03D1 GREEK THETA SYMBOL": 
+    {
+        "prefix": [
+            "..U.03D1",
+            "..U.GREEK THETA SYMBOL",
+            "U+03D1",
+        ],
+        "body": [
+            "${1|ϑ,&#x03D1;,U+03D1,0x03D1,GREEK THETA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03D1",
+            "Character/Symbol: ϑ",
+            "Name: GREEK THETA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϒ U+03D2 GREEK UPSILON WITH HOOK SYMBOL": 
+    {
+        "prefix": [
+            "..U.03D2",
+            "..U.GREEK UPSILON WITH HOOK SYMBOL",
+            "U+03D2",
+        ],
+        "body": [
+            "${1|ϒ,&#x03D2;,U+03D2,0x03D2,GREEK UPSILON WITH HOOK SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03D2",
+            "Character/Symbol: ϒ",
+            "Name: GREEK UPSILON WITH HOOK SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϓ U+03D3 GREEK UPSILON WITH ACUTE AND HOOK SYMBOL": 
+    {
+        "prefix": [
+            "..U.03D3",
+            "..U.GREEK UPSILON WITH ACUTE AND HOOK SYMBOL",
+            "U+03D3",
+        ],
+        "body": [
+            "${1|ϓ,&#x03D3;,U+03D3,0x03D3,GREEK UPSILON WITH ACUTE AND HOOK SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03D3",
+            "Character/Symbol: ϓ",
+            "Name: GREEK UPSILON WITH ACUTE AND HOOK SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϔ U+03D4 GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL": 
+    {
+        "prefix": [
+            "..U.03D4",
+            "..U.GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL",
+            "U+03D4",
+        ],
+        "body": [
+            "${1|ϔ,&#x03D4;,U+03D4,0x03D4,GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03D4",
+            "Character/Symbol: ϔ",
+            "Name: GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϕ U+03D5 GREEK PHI SYMBOL": 
+    {
+        "prefix": [
+            "..U.03D5",
+            "..U.GREEK PHI SYMBOL",
+            "U+03D5",
+        ],
+        "body": [
+            "${1|ϕ,&#x03D5;,U+03D5,0x03D5,GREEK PHI SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03D5",
+            "Character/Symbol: ϕ",
+            "Name: GREEK PHI SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϖ U+03D6 GREEK PI SYMBOL": 
+    {
+        "prefix": [
+            "..U.03D6",
+            "..U.GREEK PI SYMBOL",
+            "U+03D6",
+        ],
+        "body": [
+            "${1|ϖ,&#x03D6;,U+03D6,0x03D6,GREEK PI SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03D6",
+            "Character/Symbol: ϖ",
+            "Name: GREEK PI SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϗ U+03D7 GREEK KAI SYMBOL": 
+    {
+        "prefix": [
+            "..U.03D7",
+            "..U.GREEK KAI SYMBOL",
+            "U+03D7",
+        ],
+        "body": [
+            "${1|ϗ,&#x03D7;,U+03D7,0x03D7,GREEK KAI SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03D7",
+            "Character/Symbol: ϗ",
+            "Name: GREEK KAI SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϙ U+03D8 GREEK LETTER ARCHAIC KOPPA": 
+    {
+        "prefix": [
+            "..U.03D8",
+            "..U.GREEK LETTER ARCHAIC KOPPA",
+            "U+03D8",
+        ],
+        "body": [
+            "${1|Ϙ,&#x03D8;,U+03D8,0x03D8,GREEK LETTER ARCHAIC KOPPA|}$2",
+        ],
+        "description": [
+            "Code: U+03D8",
+            "Character/Symbol: Ϙ",
+            "Name: GREEK LETTER ARCHAIC KOPPA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϙ U+03D9 GREEK SMALL LETTER ARCHAIC KOPPA": 
+    {
+        "prefix": [
+            "..U.03D9",
+            "..U.GREEK SMALL LETTER ARCHAIC KOPPA",
+            "U+03D9",
+        ],
+        "body": [
+            "${1|ϙ,&#x03D9;,U+03D9,0x03D9,GREEK SMALL LETTER ARCHAIC KOPPA|}$2",
+        ],
+        "description": [
+            "Code: U+03D9",
+            "Character/Symbol: ϙ",
+            "Name: GREEK SMALL LETTER ARCHAIC KOPPA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϛ U+03DA GREEK LETTER STIGMA": 
+    {
+        "prefix": [
+            "..U.03DA",
+            "..U.GREEK LETTER STIGMA",
+            "U+03DA",
+        ],
+        "body": [
+            "${1|Ϛ,&#x03DA;,U+03DA,0x03DA,GREEK LETTER STIGMA|}$2",
+        ],
+        "description": [
+            "Code: U+03DA",
+            "Character/Symbol: Ϛ",
+            "Name: GREEK LETTER STIGMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϛ U+03DB GREEK SMALL LETTER STIGMA": 
+    {
+        "prefix": [
+            "..U.03DB",
+            "..U.GREEK SMALL LETTER STIGMA",
+            "U+03DB",
+        ],
+        "body": [
+            "${1|ϛ,&#x03DB;,U+03DB,0x03DB,GREEK SMALL LETTER STIGMA|}$2",
+        ],
+        "description": [
+            "Code: U+03DB",
+            "Character/Symbol: ϛ",
+            "Name: GREEK SMALL LETTER STIGMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϝ U+03DC GREEK LETTER DIGAMMA": 
+    {
+        "prefix": [
+            "..U.03DC",
+            "..U.GREEK LETTER DIGAMMA",
+            "U+03DC",
+        ],
+        "body": [
+            "${1|Ϝ,&#x03DC;,U+03DC,0x03DC,GREEK LETTER DIGAMMA|}$2",
+        ],
+        "description": [
+            "Code: U+03DC",
+            "Character/Symbol: Ϝ",
+            "Name: GREEK LETTER DIGAMMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϝ U+03DD GREEK SMALL LETTER DIGAMMA": 
+    {
+        "prefix": [
+            "..U.03DD",
+            "..U.GREEK SMALL LETTER DIGAMMA",
+            "U+03DD",
+        ],
+        "body": [
+            "${1|ϝ,&#x03DD;,U+03DD,0x03DD,GREEK SMALL LETTER DIGAMMA|}$2",
+        ],
+        "description": [
+            "Code: U+03DD",
+            "Character/Symbol: ϝ",
+            "Name: GREEK SMALL LETTER DIGAMMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϟ U+03DE GREEK LETTER KOPPA": 
+    {
+        "prefix": [
+            "..U.03DE",
+            "..U.GREEK LETTER KOPPA",
+            "U+03DE",
+        ],
+        "body": [
+            "${1|Ϟ,&#x03DE;,U+03DE,0x03DE,GREEK LETTER KOPPA|}$2",
+        ],
+        "description": [
+            "Code: U+03DE",
+            "Character/Symbol: Ϟ",
+            "Name: GREEK LETTER KOPPA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϟ U+03DF GREEK SMALL LETTER KOPPA": 
+    {
+        "prefix": [
+            "..U.03DF",
+            "..U.GREEK SMALL LETTER KOPPA",
+            "U+03DF",
+        ],
+        "body": [
+            "${1|ϟ,&#x03DF;,U+03DF,0x03DF,GREEK SMALL LETTER KOPPA|}$2",
+        ],
+        "description": [
+            "Code: U+03DF",
+            "Character/Symbol: ϟ",
+            "Name: GREEK SMALL LETTER KOPPA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϡ U+03E0 GREEK LETTER SAMPI": 
+    {
+        "prefix": [
+            "..U.03E0",
+            "..U.GREEK LETTER SAMPI",
+            "U+03E0",
+        ],
+        "body": [
+            "${1|Ϡ,&#x03E0;,U+03E0,0x03E0,GREEK LETTER SAMPI|}$2",
+        ],
+        "description": [
+            "Code: U+03E0",
+            "Character/Symbol: Ϡ",
+            "Name: GREEK LETTER SAMPI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϡ U+03E1 GREEK SMALL LETTER SAMPI": 
+    {
+        "prefix": [
+            "..U.03E1",
+            "..U.GREEK SMALL LETTER SAMPI",
+            "U+03E1",
+        ],
+        "body": [
+            "${1|ϡ,&#x03E1;,U+03E1,0x03E1,GREEK SMALL LETTER SAMPI|}$2",
+        ],
+        "description": [
+            "Code: U+03E1",
+            "Character/Symbol: ϡ",
+            "Name: GREEK SMALL LETTER SAMPI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϣ U+03E2 COPTIC CAPITAL LETTER SHEI": 
+    {
+        "prefix": [
+            "..U.03E2",
+            "..U.COPTIC CAPITAL LETTER SHEI",
+            "U+03E2",
+        ],
+        "body": [
+            "${1|Ϣ,&#x03E2;,U+03E2,0x03E2,COPTIC CAPITAL LETTER SHEI|}$2",
+        ],
+        "description": [
+            "Code: U+03E2",
+            "Character/Symbol: Ϣ",
+            "Name: COPTIC CAPITAL LETTER SHEI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϣ U+03E3 COPTIC SMALL LETTER SHEI": 
+    {
+        "prefix": [
+            "..U.03E3",
+            "..U.COPTIC SMALL LETTER SHEI",
+            "U+03E3",
+        ],
+        "body": [
+            "${1|ϣ,&#x03E3;,U+03E3,0x03E3,COPTIC SMALL LETTER SHEI|}$2",
+        ],
+        "description": [
+            "Code: U+03E3",
+            "Character/Symbol: ϣ",
+            "Name: COPTIC SMALL LETTER SHEI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϥ U+03E4 COPTIC CAPITAL LETTER FEI": 
+    {
+        "prefix": [
+            "..U.03E4",
+            "..U.COPTIC CAPITAL LETTER FEI",
+            "U+03E4",
+        ],
+        "body": [
+            "${1|Ϥ,&#x03E4;,U+03E4,0x03E4,COPTIC CAPITAL LETTER FEI|}$2",
+        ],
+        "description": [
+            "Code: U+03E4",
+            "Character/Symbol: Ϥ",
+            "Name: COPTIC CAPITAL LETTER FEI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϥ U+03E5 COPTIC SMALL LETTER FEI": 
+    {
+        "prefix": [
+            "..U.03E5",
+            "..U.COPTIC SMALL LETTER FEI",
+            "U+03E5",
+        ],
+        "body": [
+            "${1|ϥ,&#x03E5;,U+03E5,0x03E5,COPTIC SMALL LETTER FEI|}$2",
+        ],
+        "description": [
+            "Code: U+03E5",
+            "Character/Symbol: ϥ",
+            "Name: COPTIC SMALL LETTER FEI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϧ U+03E6 COPTIC CAPITAL LETTER KHEI": 
+    {
+        "prefix": [
+            "..U.03E6",
+            "..U.COPTIC CAPITAL LETTER KHEI",
+            "U+03E6",
+        ],
+        "body": [
+            "${1|Ϧ,&#x03E6;,U+03E6,0x03E6,COPTIC CAPITAL LETTER KHEI|}$2",
+        ],
+        "description": [
+            "Code: U+03E6",
+            "Character/Symbol: Ϧ",
+            "Name: COPTIC CAPITAL LETTER KHEI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϧ U+03E7 COPTIC SMALL LETTER KHEI": 
+    {
+        "prefix": [
+            "..U.03E7",
+            "..U.COPTIC SMALL LETTER KHEI",
+            "U+03E7",
+        ],
+        "body": [
+            "${1|ϧ,&#x03E7;,U+03E7,0x03E7,COPTIC SMALL LETTER KHEI|}$2",
+        ],
+        "description": [
+            "Code: U+03E7",
+            "Character/Symbol: ϧ",
+            "Name: COPTIC SMALL LETTER KHEI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϩ U+03E8 COPTIC CAPITAL LETTER HORI": 
+    {
+        "prefix": [
+            "..U.03E8",
+            "..U.COPTIC CAPITAL LETTER HORI",
+            "U+03E8",
+        ],
+        "body": [
+            "${1|Ϩ,&#x03E8;,U+03E8,0x03E8,COPTIC CAPITAL LETTER HORI|}$2",
+        ],
+        "description": [
+            "Code: U+03E8",
+            "Character/Symbol: Ϩ",
+            "Name: COPTIC CAPITAL LETTER HORI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϩ U+03E9 COPTIC SMALL LETTER HORI": 
+    {
+        "prefix": [
+            "..U.03E9",
+            "..U.COPTIC SMALL LETTER HORI",
+            "U+03E9",
+        ],
+        "body": [
+            "${1|ϩ,&#x03E9;,U+03E9,0x03E9,COPTIC SMALL LETTER HORI|}$2",
+        ],
+        "description": [
+            "Code: U+03E9",
+            "Character/Symbol: ϩ",
+            "Name: COPTIC SMALL LETTER HORI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϫ U+03EA COPTIC CAPITAL LETTER GANGIA": 
+    {
+        "prefix": [
+            "..U.03EA",
+            "..U.COPTIC CAPITAL LETTER GANGIA",
+            "U+03EA",
+        ],
+        "body": [
+            "${1|Ϫ,&#x03EA;,U+03EA,0x03EA,COPTIC CAPITAL LETTER GANGIA|}$2",
+        ],
+        "description": [
+            "Code: U+03EA",
+            "Character/Symbol: Ϫ",
+            "Name: COPTIC CAPITAL LETTER GANGIA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϫ U+03EB COPTIC SMALL LETTER GANGIA": 
+    {
+        "prefix": [
+            "..U.03EB",
+            "..U.COPTIC SMALL LETTER GANGIA",
+            "U+03EB",
+        ],
+        "body": [
+            "${1|ϫ,&#x03EB;,U+03EB,0x03EB,COPTIC SMALL LETTER GANGIA|}$2",
+        ],
+        "description": [
+            "Code: U+03EB",
+            "Character/Symbol: ϫ",
+            "Name: COPTIC SMALL LETTER GANGIA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϭ U+03EC COPTIC CAPITAL LETTER SHIMA": 
+    {
+        "prefix": [
+            "..U.03EC",
+            "..U.COPTIC CAPITAL LETTER SHIMA",
+            "U+03EC",
+        ],
+        "body": [
+            "${1|Ϭ,&#x03EC;,U+03EC,0x03EC,COPTIC CAPITAL LETTER SHIMA|}$2",
+        ],
+        "description": [
+            "Code: U+03EC",
+            "Character/Symbol: Ϭ",
+            "Name: COPTIC CAPITAL LETTER SHIMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϭ U+03ED COPTIC SMALL LETTER SHIMA": 
+    {
+        "prefix": [
+            "..U.03ED",
+            "..U.COPTIC SMALL LETTER SHIMA",
+            "U+03ED",
+        ],
+        "body": [
+            "${1|ϭ,&#x03ED;,U+03ED,0x03ED,COPTIC SMALL LETTER SHIMA|}$2",
+        ],
+        "description": [
+            "Code: U+03ED",
+            "Character/Symbol: ϭ",
+            "Name: COPTIC SMALL LETTER SHIMA",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϯ U+03EE COPTIC CAPITAL LETTER DEI": 
+    {
+        "prefix": [
+            "..U.03EE",
+            "..U.COPTIC CAPITAL LETTER DEI",
+            "U+03EE",
+        ],
+        "body": [
+            "${1|Ϯ,&#x03EE;,U+03EE,0x03EE,COPTIC CAPITAL LETTER DEI|}$2",
+        ],
+        "description": [
+            "Code: U+03EE",
+            "Character/Symbol: Ϯ",
+            "Name: COPTIC CAPITAL LETTER DEI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϯ U+03EF COPTIC SMALL LETTER DEI": 
+    {
+        "prefix": [
+            "..U.03EF",
+            "..U.COPTIC SMALL LETTER DEI",
+            "U+03EF",
+        ],
+        "body": [
+            "${1|ϯ,&#x03EF;,U+03EF,0x03EF,COPTIC SMALL LETTER DEI|}$2",
+        ],
+        "description": [
+            "Code: U+03EF",
+            "Character/Symbol: ϯ",
+            "Name: COPTIC SMALL LETTER DEI",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϰ U+03F0 GREEK KAPPA SYMBOL": 
+    {
+        "prefix": [
+            "..U.03F0",
+            "..U.GREEK KAPPA SYMBOL",
+            "U+03F0",
+        ],
+        "body": [
+            "${1|ϰ,&#x03F0;,U+03F0,0x03F0,GREEK KAPPA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03F0",
+            "Character/Symbol: ϰ",
+            "Name: GREEK KAPPA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϱ U+03F1 GREEK RHO SYMBOL": 
+    {
+        "prefix": [
+            "..U.03F1",
+            "..U.GREEK RHO SYMBOL",
+            "U+03F1",
+        ],
+        "body": [
+            "${1|ϱ,&#x03F1;,U+03F1,0x03F1,GREEK RHO SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03F1",
+            "Character/Symbol: ϱ",
+            "Name: GREEK RHO SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϲ U+03F2 GREEK LUNATE SIGMA SYMBOL": 
+    {
+        "prefix": [
+            "..U.03F2",
+            "..U.GREEK LUNATE SIGMA SYMBOL",
+            "U+03F2",
+        ],
+        "body": [
+            "${1|ϲ,&#x03F2;,U+03F2,0x03F2,GREEK LUNATE SIGMA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03F2",
+            "Character/Symbol: ϲ",
+            "Name: GREEK LUNATE SIGMA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϳ U+03F3 GREEK LETTER YOT": 
+    {
+        "prefix": [
+            "..U.03F3",
+            "..U.GREEK LETTER YOT",
+            "U+03F3",
+        ],
+        "body": [
+            "${1|ϳ,&#x03F3;,U+03F3,0x03F3,GREEK LETTER YOT|}$2",
+        ],
+        "description": [
+            "Code: U+03F3",
+            "Character/Symbol: ϳ",
+            "Name: GREEK LETTER YOT",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϴ U+03F4 GREEK CAPITAL THETA SYMBOL": 
+    {
+        "prefix": [
+            "..U.03F4",
+            "..U.GREEK CAPITAL THETA SYMBOL",
+            "U+03F4",
+        ],
+        "body": [
+            "${1|ϴ,&#x03F4;,U+03F4,0x03F4,GREEK CAPITAL THETA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03F4",
+            "Character/Symbol: ϴ",
+            "Name: GREEK CAPITAL THETA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϵ U+03F5 GREEK LUNATE EPSILON SYMBOL": 
+    {
+        "prefix": [
+            "..U.03F5",
+            "..U.GREEK LUNATE EPSILON SYMBOL",
+            "U+03F5",
+        ],
+        "body": [
+            "${1|ϵ,&#x03F5;,U+03F5,0x03F5,GREEK LUNATE EPSILON SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03F5",
+            "Character/Symbol: ϵ",
+            "Name: GREEK LUNATE EPSILON SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϶ U+03F6 GREEK REVERSED LUNATE EPSILON SYMBOL": 
+    {
+        "prefix": [
+            "..U.03F6",
+            "..U.GREEK REVERSED LUNATE EPSILON SYMBOL",
+            "U+03F6",
+        ],
+        "body": [
+            "${1|϶,&#x03F6;,U+03F6,0x03F6,GREEK REVERSED LUNATE EPSILON SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03F6",
+            "Character/Symbol: ϶",
+            "Name: GREEK REVERSED LUNATE EPSILON SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϸ U+03F7 GREEK CAPITAL LETTER SHO": 
+    {
+        "prefix": [
+            "..U.03F7",
+            "..U.GREEK CAPITAL LETTER SHO",
+            "U+03F7",
+        ],
+        "body": [
+            "${1|Ϸ,&#x03F7;,U+03F7,0x03F7,GREEK CAPITAL LETTER SHO|}$2",
+        ],
+        "description": [
+            "Code: U+03F7",
+            "Character/Symbol: Ϸ",
+            "Name: GREEK CAPITAL LETTER SHO",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϸ U+03F8 GREEK SMALL LETTER SHO": 
+    {
+        "prefix": [
+            "..U.03F8",
+            "..U.GREEK SMALL LETTER SHO",
+            "U+03F8",
+        ],
+        "body": [
+            "${1|ϸ,&#x03F8;,U+03F8,0x03F8,GREEK SMALL LETTER SHO|}$2",
+        ],
+        "description": [
+            "Code: U+03F8",
+            "Character/Symbol: ϸ",
+            "Name: GREEK SMALL LETTER SHO",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϲ U+03F9 GREEK CAPITAL LUNATE SIGMA SYMBOL": 
+    {
+        "prefix": [
+            "..U.03F9",
+            "..U.GREEK CAPITAL LUNATE SIGMA SYMBOL",
+            "U+03F9",
+        ],
+        "body": [
+            "${1|Ϲ,&#x03F9;,U+03F9,0x03F9,GREEK CAPITAL LUNATE SIGMA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03F9",
+            "Character/Symbol: Ϲ",
+            "Name: GREEK CAPITAL LUNATE SIGMA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ϻ U+03FA GREEK CAPITAL LETTER SAN": 
+    {
+        "prefix": [
+            "..U.03FA",
+            "..U.GREEK CAPITAL LETTER SAN",
+            "U+03FA",
+        ],
+        "body": [
+            "${1|Ϻ,&#x03FA;,U+03FA,0x03FA,GREEK CAPITAL LETTER SAN|}$2",
+        ],
+        "description": [
+            "Code: U+03FA",
+            "Character/Symbol: Ϻ",
+            "Name: GREEK CAPITAL LETTER SAN",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϻ U+03FB GREEK SMALL LETTER SAN": 
+    {
+        "prefix": [
+            "..U.03FB",
+            "..U.GREEK SMALL LETTER SAN",
+            "U+03FB",
+        ],
+        "body": [
+            "${1|ϻ,&#x03FB;,U+03FB,0x03FB,GREEK SMALL LETTER SAN|}$2",
+        ],
+        "description": [
+            "Code: U+03FB",
+            "Character/Symbol: ϻ",
+            "Name: GREEK SMALL LETTER SAN",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode ϼ U+03FC GREEK RHO WITH STROKE SYMBOL": 
+    {
+        "prefix": [
+            "..U.03FC",
+            "..U.GREEK RHO WITH STROKE SYMBOL",
+            "U+03FC",
+        ],
+        "body": [
+            "${1|ϼ,&#x03FC;,U+03FC,0x03FC,GREEK RHO WITH STROKE SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03FC",
+            "Character/Symbol: ϼ",
+            "Name: GREEK RHO WITH STROKE SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ͻ U+03FD GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL": 
+    {
+        "prefix": [
+            "..U.03FD",
+            "..U.GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL",
+            "U+03FD",
+        ],
+        "body": [
+            "${1|Ͻ,&#x03FD;,U+03FD,0x03FD,GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03FD",
+            "Character/Symbol: Ͻ",
+            "Name: GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ͼ U+03FE GREEK CAPITAL DOTTED LUNATE SIGMA SYMBOL": 
+    {
+        "prefix": [
+            "..U.03FE",
+            "..U.GREEK CAPITAL DOTTED LUNATE SIGMA SYMBOL",
+            "U+03FE",
+        ],
+        "body": [
+            "${1|Ͼ,&#x03FE;,U+03FE,0x03FE,GREEK CAPITAL DOTTED LUNATE SIGMA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03FE",
+            "Character/Symbol: Ͼ",
+            "Name: GREEK CAPITAL DOTTED LUNATE SIGMA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+    "Unicode Ͽ U+03FF GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL": 
+    {
+        "prefix": [
+            "..U.03FF",
+            "..U.GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL",
+            "U+03FF",
+        ],
+        "body": [
+            "${1|Ͽ,&#x03FF;,U+03FF,0x03FF,GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+03FF",
+            "Character/Symbol: Ͽ",
+            "Name: GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL",
+            "Group/Block: Greek",
+        ],
+    },
+
+}

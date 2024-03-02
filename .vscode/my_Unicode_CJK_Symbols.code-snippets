@@ -1,0 +1,1154 @@
+{
+    "Unicode 　 U+3000 IDEOGRAPHIC SPACE": 
+    {
+        "prefix": [
+            "..U.3000",
+            "..U.IDEOGRAPHIC SPACE",
+            "U+3000",
+        ],
+        "body": [
+            "${1|　,&#x3000;,U+3000,0x3000,IDEOGRAPHIC SPACE|}$2",
+        ],
+        "description": [
+            "Code: U+3000",
+            "Character/Symbol: 　",
+            "Name: IDEOGRAPHIC SPACE",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 、 U+3001 IDEOGRAPHIC COMMA": 
+    {
+        "prefix": [
+            "..U.3001",
+            "..U.IDEOGRAPHIC COMMA",
+            "U+3001",
+        ],
+        "body": [
+            "${1|、,&#x3001;,U+3001,0x3001,IDEOGRAPHIC COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+3001",
+            "Character/Symbol: 、",
+            "Name: IDEOGRAPHIC COMMA",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 。 U+3002 IDEOGRAPHIC FULL STOP": 
+    {
+        "prefix": [
+            "..U.3002",
+            "..U.IDEOGRAPHIC FULL STOP",
+            "U+3002",
+        ],
+        "body": [
+            "${1|。,&#x3002;,U+3002,0x3002,IDEOGRAPHIC FULL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+3002",
+            "Character/Symbol: 。",
+            "Name: IDEOGRAPHIC FULL STOP",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〃 U+3003 DITTO MARK": 
+    {
+        "prefix": [
+            "..U.3003",
+            "..U.DITTO MARK",
+            "U+3003",
+        ],
+        "body": [
+            "${1|〃,&#x3003;,U+3003,0x3003,DITTO MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3003",
+            "Character/Symbol: 〃",
+            "Name: DITTO MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〄 U+3004 JAPANESE INDUSTRIAL STANDARD SYMBOL": 
+    {
+        "prefix": [
+            "..U.3004",
+            "..U.JAPANESE INDUSTRIAL STANDARD SYMBOL",
+            "U+3004",
+        ],
+        "body": [
+            "${1|〄,&#x3004;,U+3004,0x3004,JAPANESE INDUSTRIAL STANDARD SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+3004",
+            "Character/Symbol: 〄",
+            "Name: JAPANESE INDUSTRIAL STANDARD SYMBOL",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 々 U+3005 IDEOGRAPHIC ITERATION MARK": 
+    {
+        "prefix": [
+            "..U.3005",
+            "..U.IDEOGRAPHIC ITERATION MARK",
+            "U+3005",
+        ],
+        "body": [
+            "${1|々,&#x3005;,U+3005,0x3005,IDEOGRAPHIC ITERATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3005",
+            "Character/Symbol: 々",
+            "Name: IDEOGRAPHIC ITERATION MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〆 U+3006 IDEOGRAPHIC CLOSING MARK": 
+    {
+        "prefix": [
+            "..U.3006",
+            "..U.IDEOGRAPHIC CLOSING MARK",
+            "U+3006",
+        ],
+        "body": [
+            "${1|〆,&#x3006;,U+3006,0x3006,IDEOGRAPHIC CLOSING MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3006",
+            "Character/Symbol: 〆",
+            "Name: IDEOGRAPHIC CLOSING MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〇 U+3007 IDEOGRAPHIC NUMBER ZERO": 
+    {
+        "prefix": [
+            "..U.3007",
+            "..U.IDEOGRAPHIC NUMBER ZERO",
+            "U+3007",
+        ],
+        "body": [
+            "${1|〇,&#x3007;,U+3007,0x3007,IDEOGRAPHIC NUMBER ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+3007",
+            "Character/Symbol: 〇",
+            "Name: IDEOGRAPHIC NUMBER ZERO",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〈 U+3008 LEFT ANGLE BRACKET": 
+    {
+        "prefix": [
+            "..U.3008",
+            "..U.LEFT ANGLE BRACKET",
+            "U+3008",
+        ],
+        "body": [
+            "${1|〈,&#x3008;,U+3008,0x3008,LEFT ANGLE BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+3008",
+            "Character/Symbol: 〈",
+            "Name: LEFT ANGLE BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〉 U+3009 RIGHT ANGLE BRACKET": 
+    {
+        "prefix": [
+            "..U.3009",
+            "..U.RIGHT ANGLE BRACKET",
+            "U+3009",
+        ],
+        "body": [
+            "${1|〉,&#x3009;,U+3009,0x3009,RIGHT ANGLE BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+3009",
+            "Character/Symbol: 〉",
+            "Name: RIGHT ANGLE BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 《 U+300A LEFT DOUBLE ANGLE BRACKET": 
+    {
+        "prefix": [
+            "..U.300A",
+            "..U.LEFT DOUBLE ANGLE BRACKET",
+            "U+300A",
+        ],
+        "body": [
+            "${1|《,&#x300A;,U+300A,0x300A,LEFT DOUBLE ANGLE BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+300A",
+            "Character/Symbol: 《",
+            "Name: LEFT DOUBLE ANGLE BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 》 U+300B RIGHT DOUBLE ANGLE BRACKET": 
+    {
+        "prefix": [
+            "..U.300B",
+            "..U.RIGHT DOUBLE ANGLE BRACKET",
+            "U+300B",
+        ],
+        "body": [
+            "${1|》,&#x300B;,U+300B,0x300B,RIGHT DOUBLE ANGLE BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+300B",
+            "Character/Symbol: 》",
+            "Name: RIGHT DOUBLE ANGLE BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 「 U+300C LEFT CORNER BRACKET": 
+    {
+        "prefix": [
+            "..U.300C",
+            "..U.LEFT CORNER BRACKET",
+            "U+300C",
+        ],
+        "body": [
+            "${1|「,&#x300C;,U+300C,0x300C,LEFT CORNER BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+300C",
+            "Character/Symbol: 「",
+            "Name: LEFT CORNER BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 」 U+300D RIGHT CORNER BRACKET": 
+    {
+        "prefix": [
+            "..U.300D",
+            "..U.RIGHT CORNER BRACKET",
+            "U+300D",
+        ],
+        "body": [
+            "${1|」,&#x300D;,U+300D,0x300D,RIGHT CORNER BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+300D",
+            "Character/Symbol: 」",
+            "Name: RIGHT CORNER BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 『 U+300E LEFT WHITE CORNER BRACKET": 
+    {
+        "prefix": [
+            "..U.300E",
+            "..U.LEFT WHITE CORNER BRACKET",
+            "U+300E",
+        ],
+        "body": [
+            "${1|『,&#x300E;,U+300E,0x300E,LEFT WHITE CORNER BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+300E",
+            "Character/Symbol: 『",
+            "Name: LEFT WHITE CORNER BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 』 U+300F RIGHT WHITE CORNER BRACKET": 
+    {
+        "prefix": [
+            "..U.300F",
+            "..U.RIGHT WHITE CORNER BRACKET",
+            "U+300F",
+        ],
+        "body": [
+            "${1|』,&#x300F;,U+300F,0x300F,RIGHT WHITE CORNER BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+300F",
+            "Character/Symbol: 』",
+            "Name: RIGHT WHITE CORNER BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 【 U+3010 LEFT BLACK LENTICULAR BRACKET": 
+    {
+        "prefix": [
+            "..U.3010",
+            "..U.LEFT BLACK LENTICULAR BRACKET",
+            "U+3010",
+        ],
+        "body": [
+            "${1|【,&#x3010;,U+3010,0x3010,LEFT BLACK LENTICULAR BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+3010",
+            "Character/Symbol: 【",
+            "Name: LEFT BLACK LENTICULAR BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 】 U+3011 RIGHT BLACK LENTICULAR BRACKET": 
+    {
+        "prefix": [
+            "..U.3011",
+            "..U.RIGHT BLACK LENTICULAR BRACKET",
+            "U+3011",
+        ],
+        "body": [
+            "${1|】,&#x3011;,U+3011,0x3011,RIGHT BLACK LENTICULAR BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+3011",
+            "Character/Symbol: 】",
+            "Name: RIGHT BLACK LENTICULAR BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〒 U+3012 POSTAL MARK": 
+    {
+        "prefix": [
+            "..U.3012",
+            "..U.POSTAL MARK",
+            "U+3012",
+        ],
+        "body": [
+            "${1|〒,&#x3012;,U+3012,0x3012,POSTAL MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3012",
+            "Character/Symbol: 〒",
+            "Name: POSTAL MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〓 U+3013 GETA MARK": 
+    {
+        "prefix": [
+            "..U.3013",
+            "..U.GETA MARK",
+            "U+3013",
+        ],
+        "body": [
+            "${1|〓,&#x3013;,U+3013,0x3013,GETA MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3013",
+            "Character/Symbol: 〓",
+            "Name: GETA MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〔 U+3014 LEFT TORTOISE SHELL BRACKET": 
+    {
+        "prefix": [
+            "..U.3014",
+            "..U.LEFT TORTOISE SHELL BRACKET",
+            "U+3014",
+        ],
+        "body": [
+            "${1|〔,&#x3014;,U+3014,0x3014,LEFT TORTOISE SHELL BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+3014",
+            "Character/Symbol: 〔",
+            "Name: LEFT TORTOISE SHELL BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〕 U+3015 RIGHT TORTOISE SHELL BRACKET": 
+    {
+        "prefix": [
+            "..U.3015",
+            "..U.RIGHT TORTOISE SHELL BRACKET",
+            "U+3015",
+        ],
+        "body": [
+            "${1|〕,&#x3015;,U+3015,0x3015,RIGHT TORTOISE SHELL BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+3015",
+            "Character/Symbol: 〕",
+            "Name: RIGHT TORTOISE SHELL BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〖 U+3016 LEFT WHITE LENTICULAR BRACKET": 
+    {
+        "prefix": [
+            "..U.3016",
+            "..U.LEFT WHITE LENTICULAR BRACKET",
+            "U+3016",
+        ],
+        "body": [
+            "${1|〖,&#x3016;,U+3016,0x3016,LEFT WHITE LENTICULAR BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+3016",
+            "Character/Symbol: 〖",
+            "Name: LEFT WHITE LENTICULAR BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〗 U+3017 RIGHT WHITE LENTICULAR BRACKET": 
+    {
+        "prefix": [
+            "..U.3017",
+            "..U.RIGHT WHITE LENTICULAR BRACKET",
+            "U+3017",
+        ],
+        "body": [
+            "${1|〗,&#x3017;,U+3017,0x3017,RIGHT WHITE LENTICULAR BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+3017",
+            "Character/Symbol: 〗",
+            "Name: RIGHT WHITE LENTICULAR BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〘 U+3018 LEFT WHITE TORTOISE SHELL BRACKET": 
+    {
+        "prefix": [
+            "..U.3018",
+            "..U.LEFT WHITE TORTOISE SHELL BRACKET",
+            "U+3018",
+        ],
+        "body": [
+            "${1|〘,&#x3018;,U+3018,0x3018,LEFT WHITE TORTOISE SHELL BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+3018",
+            "Character/Symbol: 〘",
+            "Name: LEFT WHITE TORTOISE SHELL BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〙 U+3019 RIGHT WHITE TORTOISE SHELL BRACKET": 
+    {
+        "prefix": [
+            "..U.3019",
+            "..U.RIGHT WHITE TORTOISE SHELL BRACKET",
+            "U+3019",
+        ],
+        "body": [
+            "${1|〙,&#x3019;,U+3019,0x3019,RIGHT WHITE TORTOISE SHELL BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+3019",
+            "Character/Symbol: 〙",
+            "Name: RIGHT WHITE TORTOISE SHELL BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〚 U+301A LEFT WHITE SQUARE BRACKET": 
+    {
+        "prefix": [
+            "..U.301A",
+            "..U.LEFT WHITE SQUARE BRACKET",
+            "U+301A",
+        ],
+        "body": [
+            "${1|〚,&#x301A;,U+301A,0x301A,LEFT WHITE SQUARE BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+301A",
+            "Character/Symbol: 〚",
+            "Name: LEFT WHITE SQUARE BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〛 U+301B RIGHT WHITE SQUARE BRACKET": 
+    {
+        "prefix": [
+            "..U.301B",
+            "..U.RIGHT WHITE SQUARE BRACKET",
+            "U+301B",
+        ],
+        "body": [
+            "${1|〛,&#x301B;,U+301B,0x301B,RIGHT WHITE SQUARE BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+301B",
+            "Character/Symbol: 〛",
+            "Name: RIGHT WHITE SQUARE BRACKET",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〜 U+301C WAVE DASH": 
+    {
+        "prefix": [
+            "..U.301C",
+            "..U.WAVE DASH",
+            "U+301C",
+        ],
+        "body": [
+            "${1|〜,&#x301C;,U+301C,0x301C,WAVE DASH|}$2",
+        ],
+        "description": [
+            "Code: U+301C",
+            "Character/Symbol: 〜",
+            "Name: WAVE DASH",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〝 U+301D REVERSED DOUBLE PRIME QUOTATION MARK": 
+    {
+        "prefix": [
+            "..U.301D",
+            "..U.REVERSED DOUBLE PRIME QUOTATION MARK",
+            "U+301D",
+        ],
+        "body": [
+            "${1|〝,&#x301D;,U+301D,0x301D,REVERSED DOUBLE PRIME QUOTATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+301D",
+            "Character/Symbol: 〝",
+            "Name: REVERSED DOUBLE PRIME QUOTATION MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〞 U+301E DOUBLE PRIME QUOTATION MARK": 
+    {
+        "prefix": [
+            "..U.301E",
+            "..U.DOUBLE PRIME QUOTATION MARK",
+            "U+301E",
+        ],
+        "body": [
+            "${1|〞,&#x301E;,U+301E,0x301E,DOUBLE PRIME QUOTATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+301E",
+            "Character/Symbol: 〞",
+            "Name: DOUBLE PRIME QUOTATION MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〟 U+301F LOW DOUBLE PRIME QUOTATION MARK": 
+    {
+        "prefix": [
+            "..U.301F",
+            "..U.LOW DOUBLE PRIME QUOTATION MARK",
+            "U+301F",
+        ],
+        "body": [
+            "${1|〟,&#x301F;,U+301F,0x301F,LOW DOUBLE PRIME QUOTATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+301F",
+            "Character/Symbol: 〟",
+            "Name: LOW DOUBLE PRIME QUOTATION MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〠 U+3020 POSTAL MARK FACE": 
+    {
+        "prefix": [
+            "..U.3020",
+            "..U.POSTAL MARK FACE",
+            "U+3020",
+        ],
+        "body": [
+            "${1|〠,&#x3020;,U+3020,0x3020,POSTAL MARK FACE|}$2",
+        ],
+        "description": [
+            "Code: U+3020",
+            "Character/Symbol: 〠",
+            "Name: POSTAL MARK FACE",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〡 U+3021 HANGZHOU NUMERAL ONE": 
+    {
+        "prefix": [
+            "..U.3021",
+            "..U.HANGZHOU NUMERAL ONE",
+            "U+3021",
+        ],
+        "body": [
+            "${1|〡,&#x3021;,U+3021,0x3021,HANGZHOU NUMERAL ONE|}$2",
+        ],
+        "description": [
+            "Code: U+3021",
+            "Character/Symbol: 〡",
+            "Name: HANGZHOU NUMERAL ONE",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〢 U+3022 HANGZHOU NUMERAL TWO": 
+    {
+        "prefix": [
+            "..U.3022",
+            "..U.HANGZHOU NUMERAL TWO",
+            "U+3022",
+        ],
+        "body": [
+            "${1|〢,&#x3022;,U+3022,0x3022,HANGZHOU NUMERAL TWO|}$2",
+        ],
+        "description": [
+            "Code: U+3022",
+            "Character/Symbol: 〢",
+            "Name: HANGZHOU NUMERAL TWO",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〣 U+3023 HANGZHOU NUMERAL THREE": 
+    {
+        "prefix": [
+            "..U.3023",
+            "..U.HANGZHOU NUMERAL THREE",
+            "U+3023",
+        ],
+        "body": [
+            "${1|〣,&#x3023;,U+3023,0x3023,HANGZHOU NUMERAL THREE|}$2",
+        ],
+        "description": [
+            "Code: U+3023",
+            "Character/Symbol: 〣",
+            "Name: HANGZHOU NUMERAL THREE",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〤 U+3024 HANGZHOU NUMERAL FOUR": 
+    {
+        "prefix": [
+            "..U.3024",
+            "..U.HANGZHOU NUMERAL FOUR",
+            "U+3024",
+        ],
+        "body": [
+            "${1|〤,&#x3024;,U+3024,0x3024,HANGZHOU NUMERAL FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+3024",
+            "Character/Symbol: 〤",
+            "Name: HANGZHOU NUMERAL FOUR",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〥 U+3025 HANGZHOU NUMERAL FIVE": 
+    {
+        "prefix": [
+            "..U.3025",
+            "..U.HANGZHOU NUMERAL FIVE",
+            "U+3025",
+        ],
+        "body": [
+            "${1|〥,&#x3025;,U+3025,0x3025,HANGZHOU NUMERAL FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+3025",
+            "Character/Symbol: 〥",
+            "Name: HANGZHOU NUMERAL FIVE",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〦 U+3026 HANGZHOU NUMERAL SIX": 
+    {
+        "prefix": [
+            "..U.3026",
+            "..U.HANGZHOU NUMERAL SIX",
+            "U+3026",
+        ],
+        "body": [
+            "${1|〦,&#x3026;,U+3026,0x3026,HANGZHOU NUMERAL SIX|}$2",
+        ],
+        "description": [
+            "Code: U+3026",
+            "Character/Symbol: 〦",
+            "Name: HANGZHOU NUMERAL SIX",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〧 U+3027 HANGZHOU NUMERAL SEVEN": 
+    {
+        "prefix": [
+            "..U.3027",
+            "..U.HANGZHOU NUMERAL SEVEN",
+            "U+3027",
+        ],
+        "body": [
+            "${1|〧,&#x3027;,U+3027,0x3027,HANGZHOU NUMERAL SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+3027",
+            "Character/Symbol: 〧",
+            "Name: HANGZHOU NUMERAL SEVEN",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〨 U+3028 HANGZHOU NUMERAL EIGHT": 
+    {
+        "prefix": [
+            "..U.3028",
+            "..U.HANGZHOU NUMERAL EIGHT",
+            "U+3028",
+        ],
+        "body": [
+            "${1|〨,&#x3028;,U+3028,0x3028,HANGZHOU NUMERAL EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+3028",
+            "Character/Symbol: 〨",
+            "Name: HANGZHOU NUMERAL EIGHT",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〩 U+3029 HANGZHOU NUMERAL NINE": 
+    {
+        "prefix": [
+            "..U.3029",
+            "..U.HANGZHOU NUMERAL NINE",
+            "U+3029",
+        ],
+        "body": [
+            "${1|〩,&#x3029;,U+3029,0x3029,HANGZHOU NUMERAL NINE|}$2",
+        ],
+        "description": [
+            "Code: U+3029",
+            "Character/Symbol: 〩",
+            "Name: HANGZHOU NUMERAL NINE",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〪 U+302A IDEOGRAPHIC LEVEL TONE MARK": 
+    {
+        "prefix": [
+            "..U.302A",
+            "..U.IDEOGRAPHIC LEVEL TONE MARK",
+            "U+302A",
+        ],
+        "body": [
+            "${1|〪,&#x302A;,U+302A,0x302A,IDEOGRAPHIC LEVEL TONE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+302A",
+            "Character/Symbol: 〪",
+            "Name: IDEOGRAPHIC LEVEL TONE MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〫 U+302B IDEOGRAPHIC RISING TONE MARK": 
+    {
+        "prefix": [
+            "..U.302B",
+            "..U.IDEOGRAPHIC RISING TONE MARK",
+            "U+302B",
+        ],
+        "body": [
+            "${1|〫,&#x302B;,U+302B,0x302B,IDEOGRAPHIC RISING TONE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+302B",
+            "Character/Symbol: 〫",
+            "Name: IDEOGRAPHIC RISING TONE MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〬 U+302C IDEOGRAPHIC DEPARTING TONE MARK": 
+    {
+        "prefix": [
+            "..U.302C",
+            "..U.IDEOGRAPHIC DEPARTING TONE MARK",
+            "U+302C",
+        ],
+        "body": [
+            "${1|〬,&#x302C;,U+302C,0x302C,IDEOGRAPHIC DEPARTING TONE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+302C",
+            "Character/Symbol: 〬",
+            "Name: IDEOGRAPHIC DEPARTING TONE MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〭 U+302D IDEOGRAPHIC ENTERING TONE MARK": 
+    {
+        "prefix": [
+            "..U.302D",
+            "..U.IDEOGRAPHIC ENTERING TONE MARK",
+            "U+302D",
+        ],
+        "body": [
+            "${1|〭,&#x302D;,U+302D,0x302D,IDEOGRAPHIC ENTERING TONE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+302D",
+            "Character/Symbol: 〭",
+            "Name: IDEOGRAPHIC ENTERING TONE MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〮 U+302E HANGUL SINGLE DOT TONE MARK": 
+    {
+        "prefix": [
+            "..U.302E",
+            "..U.HANGUL SINGLE DOT TONE MARK",
+            "U+302E",
+        ],
+        "body": [
+            "${1|〮,&#x302E;,U+302E,0x302E,HANGUL SINGLE DOT TONE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+302E",
+            "Character/Symbol: 〮",
+            "Name: HANGUL SINGLE DOT TONE MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〯 U+302F HANGUL DOUBLE DOT TONE MARK": 
+    {
+        "prefix": [
+            "..U.302F",
+            "..U.HANGUL DOUBLE DOT TONE MARK",
+            "U+302F",
+        ],
+        "body": [
+            "${1|〯,&#x302F;,U+302F,0x302F,HANGUL DOUBLE DOT TONE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+302F",
+            "Character/Symbol: 〯",
+            "Name: HANGUL DOUBLE DOT TONE MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〰 U+3030 WAVY DASH": 
+    {
+        "prefix": [
+            "..U.3030",
+            "..U.WAVY DASH",
+            "U+3030",
+        ],
+        "body": [
+            "${1|〰,&#x3030;,U+3030,0x3030,WAVY DASH|}$2",
+        ],
+        "description": [
+            "Code: U+3030",
+            "Character/Symbol: 〰",
+            "Name: WAVY DASH",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〱 U+3031 VERTICAL KANA REPEAT MARK": 
+    {
+        "prefix": [
+            "..U.3031",
+            "..U.VERTICAL KANA REPEAT MARK",
+            "U+3031",
+        ],
+        "body": [
+            "${1|〱,&#x3031;,U+3031,0x3031,VERTICAL KANA REPEAT MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3031",
+            "Character/Symbol: 〱",
+            "Name: VERTICAL KANA REPEAT MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〲 U+3032 VERTICAL KANA REPEAT WITH VOICED SOUND MARK": 
+    {
+        "prefix": [
+            "..U.3032",
+            "..U.VERTICAL KANA REPEAT WITH VOICED SOUND MARK",
+            "U+3032",
+        ],
+        "body": [
+            "${1|〲,&#x3032;,U+3032,0x3032,VERTICAL KANA REPEAT WITH VOICED SOUND MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3032",
+            "Character/Symbol: 〲",
+            "Name: VERTICAL KANA REPEAT WITH VOICED SOUND MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〳 U+3033 VERTICAL KANA REPEAT MARK UPPER HALF": 
+    {
+        "prefix": [
+            "..U.3033",
+            "..U.VERTICAL KANA REPEAT MARK UPPER HALF",
+            "U+3033",
+        ],
+        "body": [
+            "${1|〳,&#x3033;,U+3033,0x3033,VERTICAL KANA REPEAT MARK UPPER HALF|}$2",
+        ],
+        "description": [
+            "Code: U+3033",
+            "Character/Symbol: 〳",
+            "Name: VERTICAL KANA REPEAT MARK UPPER HALF",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〴 U+3034 VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF": 
+    {
+        "prefix": [
+            "..U.3034",
+            "..U.VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF",
+            "U+3034",
+        ],
+        "body": [
+            "${1|〴,&#x3034;,U+3034,0x3034,VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF|}$2",
+        ],
+        "description": [
+            "Code: U+3034",
+            "Character/Symbol: 〴",
+            "Name: VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〵 U+3035 VERTICAL KANA REPEAT MARK LOWER HALF": 
+    {
+        "prefix": [
+            "..U.3035",
+            "..U.VERTICAL KANA REPEAT MARK LOWER HALF",
+            "U+3035",
+        ],
+        "body": [
+            "${1|〵,&#x3035;,U+3035,0x3035,VERTICAL KANA REPEAT MARK LOWER HALF|}$2",
+        ],
+        "description": [
+            "Code: U+3035",
+            "Character/Symbol: 〵",
+            "Name: VERTICAL KANA REPEAT MARK LOWER HALF",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〶 U+3036 CIRCLED POSTAL MARK": 
+    {
+        "prefix": [
+            "..U.3036",
+            "..U.CIRCLED POSTAL MARK",
+            "U+3036",
+        ],
+        "body": [
+            "${1|〶,&#x3036;,U+3036,0x3036,CIRCLED POSTAL MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3036",
+            "Character/Symbol: 〶",
+            "Name: CIRCLED POSTAL MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〷 U+3037 IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL": 
+    {
+        "prefix": [
+            "..U.3037",
+            "..U.IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL",
+            "U+3037",
+        ],
+        "body": [
+            "${1|〷,&#x3037;,U+3037,0x3037,IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+3037",
+            "Character/Symbol: 〷",
+            "Name: IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〸 U+3038 HANGZHOU NUMERAL TEN": 
+    {
+        "prefix": [
+            "..U.3038",
+            "..U.HANGZHOU NUMERAL TEN",
+            "U+3038",
+        ],
+        "body": [
+            "${1|〸,&#x3038;,U+3038,0x3038,HANGZHOU NUMERAL TEN|}$2",
+        ],
+        "description": [
+            "Code: U+3038",
+            "Character/Symbol: 〸",
+            "Name: HANGZHOU NUMERAL TEN",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〹 U+3039 HANGZHOU NUMERAL TWENTY": 
+    {
+        "prefix": [
+            "..U.3039",
+            "..U.HANGZHOU NUMERAL TWENTY",
+            "U+3039",
+        ],
+        "body": [
+            "${1|〹,&#x3039;,U+3039,0x3039,HANGZHOU NUMERAL TWENTY|}$2",
+        ],
+        "description": [
+            "Code: U+3039",
+            "Character/Symbol: 〹",
+            "Name: HANGZHOU NUMERAL TWENTY",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〺 U+303A HANGZHOU NUMERAL THIRTY": 
+    {
+        "prefix": [
+            "..U.303A",
+            "..U.HANGZHOU NUMERAL THIRTY",
+            "U+303A",
+        ],
+        "body": [
+            "${1|〺,&#x303A;,U+303A,0x303A,HANGZHOU NUMERAL THIRTY|}$2",
+        ],
+        "description": [
+            "Code: U+303A",
+            "Character/Symbol: 〺",
+            "Name: HANGZHOU NUMERAL THIRTY",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〻 U+303B VERTICAL IDEOGRAPHIC ITERATION MARK": 
+    {
+        "prefix": [
+            "..U.303B",
+            "..U.VERTICAL IDEOGRAPHIC ITERATION MARK",
+            "U+303B",
+        ],
+        "body": [
+            "${1|〻,&#x303B;,U+303B,0x303B,VERTICAL IDEOGRAPHIC ITERATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+303B",
+            "Character/Symbol: 〻",
+            "Name: VERTICAL IDEOGRAPHIC ITERATION MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〼 U+303C MASU MARK": 
+    {
+        "prefix": [
+            "..U.303C",
+            "..U.MASU MARK",
+            "U+303C",
+        ],
+        "body": [
+            "${1|〼,&#x303C;,U+303C,0x303C,MASU MARK|}$2",
+        ],
+        "description": [
+            "Code: U+303C",
+            "Character/Symbol: 〼",
+            "Name: MASU MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〽 U+303D PART ALTERNATION MARK": 
+    {
+        "prefix": [
+            "..U.303D",
+            "..U.PART ALTERNATION MARK",
+            "U+303D",
+        ],
+        "body": [
+            "${1|〽,&#x303D;,U+303D,0x303D,PART ALTERNATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+303D",
+            "Character/Symbol: 〽",
+            "Name: PART ALTERNATION MARK",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〾 U+303E IDEOGRAPHIC VARIATION INDICATOR": 
+    {
+        "prefix": [
+            "..U.303E",
+            "..U.IDEOGRAPHIC VARIATION INDICATOR",
+            "U+303E",
+        ],
+        "body": [
+            "${1|〾,&#x303E;,U+303E,0x303E,IDEOGRAPHIC VARIATION INDICATOR|}$2",
+        ],
+        "description": [
+            "Code: U+303E",
+            "Character/Symbol: 〾",
+            "Name: IDEOGRAPHIC VARIATION INDICATOR",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+    "Unicode 〿 U+303F IDEOGRAPHIC HALF FILL SPACE": 
+    {
+        "prefix": [
+            "..U.303F",
+            "..U.IDEOGRAPHIC HALF FILL SPACE",
+            "U+303F",
+        ],
+        "body": [
+            "${1|〿,&#x303F;,U+303F,0x303F,IDEOGRAPHIC HALF FILL SPACE|}$2",
+        ],
+        "description": [
+            "Code: U+303F",
+            "Character/Symbol: 〿",
+            "Name: IDEOGRAPHIC HALF FILL SPACE",
+            "Group/Block: CJK_Symbols",
+        ],
+    },
+
+}

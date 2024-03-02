@@ -1,0 +1,686 @@
+{
+    "Unicode 𓐰 U+13430 EGYPTIAN HIEROGLYPH VERTICAL JOINER": 
+    {
+        "prefix": [
+            "..U.13430",
+            "..U.EGYPTIAN HIEROGLYPH VERTICAL JOINER",
+            "U+13430",
+        ],
+        "body": [
+            "${1|𓐰,&#x13430;,U+13430,0x13430,EGYPTIAN HIEROGLYPH VERTICAL JOINER|}$2",
+        ],
+        "description": [
+            "Code: U+13430",
+            "Character/Symbol: 𓐰",
+            "Name: EGYPTIAN HIEROGLYPH VERTICAL JOINER",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐱 U+13431 EGYPTIAN HIEROGLYPH HORIZONTAL JOINER": 
+    {
+        "prefix": [
+            "..U.13431",
+            "..U.EGYPTIAN HIEROGLYPH HORIZONTAL JOINER",
+            "U+13431",
+        ],
+        "body": [
+            "${1|𓐱,&#x13431;,U+13431,0x13431,EGYPTIAN HIEROGLYPH HORIZONTAL JOINER|}$2",
+        ],
+        "description": [
+            "Code: U+13431",
+            "Character/Symbol: 𓐱",
+            "Name: EGYPTIAN HIEROGLYPH HORIZONTAL JOINER",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐲 U+13432 EGYPTIAN HIEROGLYPH INSERT AT TOP START": 
+    {
+        "prefix": [
+            "..U.13432",
+            "..U.EGYPTIAN HIEROGLYPH INSERT AT TOP START",
+            "U+13432",
+        ],
+        "body": [
+            "${1|𓐲,&#x13432;,U+13432,0x13432,EGYPTIAN HIEROGLYPH INSERT AT TOP START|}$2",
+        ],
+        "description": [
+            "Code: U+13432",
+            "Character/Symbol: 𓐲",
+            "Name: EGYPTIAN HIEROGLYPH INSERT AT TOP START",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐳 U+13433 EGYPTIAN HIEROGLYPH INSERT AT BOTTOM START": 
+    {
+        "prefix": [
+            "..U.13433",
+            "..U.EGYPTIAN HIEROGLYPH INSERT AT BOTTOM START",
+            "U+13433",
+        ],
+        "body": [
+            "${1|𓐳,&#x13433;,U+13433,0x13433,EGYPTIAN HIEROGLYPH INSERT AT BOTTOM START|}$2",
+        ],
+        "description": [
+            "Code: U+13433",
+            "Character/Symbol: 𓐳",
+            "Name: EGYPTIAN HIEROGLYPH INSERT AT BOTTOM START",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐴 U+13434 EGYPTIAN HIEROGLYPH INSERT AT TOP END": 
+    {
+        "prefix": [
+            "..U.13434",
+            "..U.EGYPTIAN HIEROGLYPH INSERT AT TOP END",
+            "U+13434",
+        ],
+        "body": [
+            "${1|𓐴,&#x13434;,U+13434,0x13434,EGYPTIAN HIEROGLYPH INSERT AT TOP END|}$2",
+        ],
+        "description": [
+            "Code: U+13434",
+            "Character/Symbol: 𓐴",
+            "Name: EGYPTIAN HIEROGLYPH INSERT AT TOP END",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐵 U+13435 EGYPTIAN HIEROGLYPH INSERT AT BOTTOM END": 
+    {
+        "prefix": [
+            "..U.13435",
+            "..U.EGYPTIAN HIEROGLYPH INSERT AT BOTTOM END",
+            "U+13435",
+        ],
+        "body": [
+            "${1|𓐵,&#x13435;,U+13435,0x13435,EGYPTIAN HIEROGLYPH INSERT AT BOTTOM END|}$2",
+        ],
+        "description": [
+            "Code: U+13435",
+            "Character/Symbol: 𓐵",
+            "Name: EGYPTIAN HIEROGLYPH INSERT AT BOTTOM END",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐶 U+13436 EGYPTIAN HIEROGLYPH OVERLAY MIDDLE": 
+    {
+        "prefix": [
+            "..U.13436",
+            "..U.EGYPTIAN HIEROGLYPH OVERLAY MIDDLE",
+            "U+13436",
+        ],
+        "body": [
+            "${1|𓐶,&#x13436;,U+13436,0x13436,EGYPTIAN HIEROGLYPH OVERLAY MIDDLE|}$2",
+        ],
+        "description": [
+            "Code: U+13436",
+            "Character/Symbol: 𓐶",
+            "Name: EGYPTIAN HIEROGLYPH OVERLAY MIDDLE",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐷 U+13437 EGYPTIAN HIEROGLYPH BEGIN SEGMENT": 
+    {
+        "prefix": [
+            "..U.13437",
+            "..U.EGYPTIAN HIEROGLYPH BEGIN SEGMENT",
+            "U+13437",
+        ],
+        "body": [
+            "${1|𓐷,&#x13437;,U+13437,0x13437,EGYPTIAN HIEROGLYPH BEGIN SEGMENT|}$2",
+        ],
+        "description": [
+            "Code: U+13437",
+            "Character/Symbol: 𓐷",
+            "Name: EGYPTIAN HIEROGLYPH BEGIN SEGMENT",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐸 U+13438 EGYPTIAN HIEROGLYPH END SEGMENT": 
+    {
+        "prefix": [
+            "..U.13438",
+            "..U.EGYPTIAN HIEROGLYPH END SEGMENT",
+            "U+13438",
+        ],
+        "body": [
+            "${1|𓐸,&#x13438;,U+13438,0x13438,EGYPTIAN HIEROGLYPH END SEGMENT|}$2",
+        ],
+        "description": [
+            "Code: U+13438",
+            "Character/Symbol: 𓐸",
+            "Name: EGYPTIAN HIEROGLYPH END SEGMENT",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐹 U+13439 EGYPTIAN HIEROGLYPH INSERT AT MIDDLE": 
+    {
+        "prefix": [
+            "..U.13439",
+            "..U.EGYPTIAN HIEROGLYPH INSERT AT MIDDLE",
+            "U+13439",
+        ],
+        "body": [
+            "${1|𓐹,&#x13439;,U+13439,0x13439,EGYPTIAN HIEROGLYPH INSERT AT MIDDLE|}$2",
+        ],
+        "description": [
+            "Code: U+13439",
+            "Character/Symbol: 𓐹",
+            "Name: EGYPTIAN HIEROGLYPH INSERT AT MIDDLE",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐺 U+1343A EGYPTIAN HIEROGLYPH INSERT AT TOP": 
+    {
+        "prefix": [
+            "..U.1343A",
+            "..U.EGYPTIAN HIEROGLYPH INSERT AT TOP",
+            "U+1343A",
+        ],
+        "body": [
+            "${1|𓐺,&#x1343A;,U+1343A,0x1343A,EGYPTIAN HIEROGLYPH INSERT AT TOP|}$2",
+        ],
+        "description": [
+            "Code: U+1343A",
+            "Character/Symbol: 𓐺",
+            "Name: EGYPTIAN HIEROGLYPH INSERT AT TOP",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐻 U+1343B EGYPTIAN HIEROGLYPH INSERT AT BOTTOM": 
+    {
+        "prefix": [
+            "..U.1343B",
+            "..U.EGYPTIAN HIEROGLYPH INSERT AT BOTTOM",
+            "U+1343B",
+        ],
+        "body": [
+            "${1|𓐻,&#x1343B;,U+1343B,0x1343B,EGYPTIAN HIEROGLYPH INSERT AT BOTTOM|}$2",
+        ],
+        "description": [
+            "Code: U+1343B",
+            "Character/Symbol: 𓐻",
+            "Name: EGYPTIAN HIEROGLYPH INSERT AT BOTTOM",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐼 U+1343C EGYPTIAN HIEROGLYPH BEGIN ENCLOSURE": 
+    {
+        "prefix": [
+            "..U.1343C",
+            "..U.EGYPTIAN HIEROGLYPH BEGIN ENCLOSURE",
+            "U+1343C",
+        ],
+        "body": [
+            "${1|𓐼,&#x1343C;,U+1343C,0x1343C,EGYPTIAN HIEROGLYPH BEGIN ENCLOSURE|}$2",
+        ],
+        "description": [
+            "Code: U+1343C",
+            "Character/Symbol: 𓐼",
+            "Name: EGYPTIAN HIEROGLYPH BEGIN ENCLOSURE",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐽 U+1343D EGYPTIAN HIEROGLYPH END ENCLOSURE": 
+    {
+        "prefix": [
+            "..U.1343D",
+            "..U.EGYPTIAN HIEROGLYPH END ENCLOSURE",
+            "U+1343D",
+        ],
+        "body": [
+            "${1|𓐽,&#x1343D;,U+1343D,0x1343D,EGYPTIAN HIEROGLYPH END ENCLOSURE|}$2",
+        ],
+        "description": [
+            "Code: U+1343D",
+            "Character/Symbol: 𓐽",
+            "Name: EGYPTIAN HIEROGLYPH END ENCLOSURE",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐾 U+1343E EGYPTIAN HIEROGLYPH BEGIN WALLED ENCLOSURE": 
+    {
+        "prefix": [
+            "..U.1343E",
+            "..U.EGYPTIAN HIEROGLYPH BEGIN WALLED ENCLOSURE",
+            "U+1343E",
+        ],
+        "body": [
+            "${1|𓐾,&#x1343E;,U+1343E,0x1343E,EGYPTIAN HIEROGLYPH BEGIN WALLED ENCLOSURE|}$2",
+        ],
+        "description": [
+            "Code: U+1343E",
+            "Character/Symbol: 𓐾",
+            "Name: EGYPTIAN HIEROGLYPH BEGIN WALLED ENCLOSURE",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓐿 U+1343F EGYPTIAN HIEROGLYPH END WALLED ENCLOSURE": 
+    {
+        "prefix": [
+            "..U.1343F",
+            "..U.EGYPTIAN HIEROGLYPH END WALLED ENCLOSURE",
+            "U+1343F",
+        ],
+        "body": [
+            "${1|𓐿,&#x1343F;,U+1343F,0x1343F,EGYPTIAN HIEROGLYPH END WALLED ENCLOSURE|}$2",
+        ],
+        "description": [
+            "Code: U+1343F",
+            "Character/Symbol: 𓐿",
+            "Name: EGYPTIAN HIEROGLYPH END WALLED ENCLOSURE",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑀 U+13440 EGYPTIAN HIEROGLYPH MIRROR HORIZONTALLY": 
+    {
+        "prefix": [
+            "..U.13440",
+            "..U.EGYPTIAN HIEROGLYPH MIRROR HORIZONTALLY",
+            "U+13440",
+        ],
+        "body": [
+            "${1|𓑀,&#x13440;,U+13440,0x13440,EGYPTIAN HIEROGLYPH MIRROR HORIZONTALLY|}$2",
+        ],
+        "description": [
+            "Code: U+13440",
+            "Character/Symbol: 𓑀",
+            "Name: EGYPTIAN HIEROGLYPH MIRROR HORIZONTALLY",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑁 U+13441 EGYPTIAN HIEROGLYPH FULL BLANK": 
+    {
+        "prefix": [
+            "..U.13441",
+            "..U.EGYPTIAN HIEROGLYPH FULL BLANK",
+            "U+13441",
+        ],
+        "body": [
+            "${1|𓑁,&#x13441;,U+13441,0x13441,EGYPTIAN HIEROGLYPH FULL BLANK|}$2",
+        ],
+        "description": [
+            "Code: U+13441",
+            "Character/Symbol: 𓑁",
+            "Name: EGYPTIAN HIEROGLYPH FULL BLANK",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑂 U+13442 EGYPTIAN HIEROGLYPH HALF BLANK": 
+    {
+        "prefix": [
+            "..U.13442",
+            "..U.EGYPTIAN HIEROGLYPH HALF BLANK",
+            "U+13442",
+        ],
+        "body": [
+            "${1|𓑂,&#x13442;,U+13442,0x13442,EGYPTIAN HIEROGLYPH HALF BLANK|}$2",
+        ],
+        "description": [
+            "Code: U+13442",
+            "Character/Symbol: 𓑂",
+            "Name: EGYPTIAN HIEROGLYPH HALF BLANK",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑃 U+13443 EGYPTIAN HIEROGLYPH LOST SIGN": 
+    {
+        "prefix": [
+            "..U.13443",
+            "..U.EGYPTIAN HIEROGLYPH LOST SIGN",
+            "U+13443",
+        ],
+        "body": [
+            "${1|𓑃,&#x13443;,U+13443,0x13443,EGYPTIAN HIEROGLYPH LOST SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+13443",
+            "Character/Symbol: 𓑃",
+            "Name: EGYPTIAN HIEROGLYPH LOST SIGN",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑄 U+13444 EGYPTIAN HIEROGLYPH HALF LOST SIGN": 
+    {
+        "prefix": [
+            "..U.13444",
+            "..U.EGYPTIAN HIEROGLYPH HALF LOST SIGN",
+            "U+13444",
+        ],
+        "body": [
+            "${1|𓑄,&#x13444;,U+13444,0x13444,EGYPTIAN HIEROGLYPH HALF LOST SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+13444",
+            "Character/Symbol: 𓑄",
+            "Name: EGYPTIAN HIEROGLYPH HALF LOST SIGN",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑅 U+13445 EGYPTIAN HIEROGLYPH TALL LOST SIGN": 
+    {
+        "prefix": [
+            "..U.13445",
+            "..U.EGYPTIAN HIEROGLYPH TALL LOST SIGN",
+            "U+13445",
+        ],
+        "body": [
+            "${1|𓑅,&#x13445;,U+13445,0x13445,EGYPTIAN HIEROGLYPH TALL LOST SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+13445",
+            "Character/Symbol: 𓑅",
+            "Name: EGYPTIAN HIEROGLYPH TALL LOST SIGN",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑆 U+13446 EGYPTIAN HIEROGLYPH WIDE LOST SIGN": 
+    {
+        "prefix": [
+            "..U.13446",
+            "..U.EGYPTIAN HIEROGLYPH WIDE LOST SIGN",
+            "U+13446",
+        ],
+        "body": [
+            "${1|𓑆,&#x13446;,U+13446,0x13446,EGYPTIAN HIEROGLYPH WIDE LOST SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+13446",
+            "Character/Symbol: 𓑆",
+            "Name: EGYPTIAN HIEROGLYPH WIDE LOST SIGN",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑇 U+13447 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START": 
+    {
+        "prefix": [
+            "..U.13447",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START",
+            "U+13447",
+        ],
+        "body": [
+            "${1|𓑇,&#x13447;,U+13447,0x13447,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START|}$2",
+        ],
+        "description": [
+            "Code: U+13447",
+            "Character/Symbol: 𓑇",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑈 U+13448 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START": 
+    {
+        "prefix": [
+            "..U.13448",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START",
+            "U+13448",
+        ],
+        "body": [
+            "${1|𓑈,&#x13448;,U+13448,0x13448,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START|}$2",
+        ],
+        "description": [
+            "Code: U+13448",
+            "Character/Symbol: 𓑈",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑉 U+13449 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START": 
+    {
+        "prefix": [
+            "..U.13449",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START",
+            "U+13449",
+        ],
+        "body": [
+            "${1|𓑉,&#x13449;,U+13449,0x13449,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START|}$2",
+        ],
+        "description": [
+            "Code: U+13449",
+            "Character/Symbol: 𓑉",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑊 U+1344A EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP END": 
+    {
+        "prefix": [
+            "..U.1344A",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP END",
+            "U+1344A",
+        ],
+        "body": [
+            "${1|𓑊,&#x1344A;,U+1344A,0x1344A,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP END|}$2",
+        ],
+        "description": [
+            "Code: U+1344A",
+            "Character/Symbol: 𓑊",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP END",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑋 U+1344B EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP": 
+    {
+        "prefix": [
+            "..U.1344B",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP",
+            "U+1344B",
+        ],
+        "body": [
+            "${1|𓑋,&#x1344B;,U+1344B,0x1344B,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP|}$2",
+        ],
+        "description": [
+            "Code: U+1344B",
+            "Character/Symbol: 𓑋",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑌 U+1344C EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START AND TOP END": 
+    {
+        "prefix": [
+            "..U.1344C",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START AND TOP END",
+            "U+1344C",
+        ],
+        "body": [
+            "${1|𓑌,&#x1344C;,U+1344C,0x1344C,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START AND TOP END|}$2",
+        ],
+        "description": [
+            "Code: U+1344C",
+            "Character/Symbol: 𓑌",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START AND TOP END",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑍 U+1344D EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND TOP": 
+    {
+        "prefix": [
+            "..U.1344D",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND TOP",
+            "U+1344D",
+        ],
+        "body": [
+            "${1|𓑍,&#x1344D;,U+1344D,0x1344D,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND TOP|}$2",
+        ],
+        "description": [
+            "Code: U+1344D",
+            "Character/Symbol: 𓑍",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND TOP",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑎 U+1344E EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM END": 
+    {
+        "prefix": [
+            "..U.1344E",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM END",
+            "U+1344E",
+        ],
+        "body": [
+            "${1|𓑎,&#x1344E;,U+1344E,0x1344E,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM END|}$2",
+        ],
+        "description": [
+            "Code: U+1344E",
+            "Character/Symbol: 𓑎",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM END",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑏 U+1344F EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START AND BOTTOM END": 
+    {
+        "prefix": [
+            "..U.1344F",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START AND BOTTOM END",
+            "U+1344F",
+        ],
+        "body": [
+            "${1|𓑏,&#x1344F;,U+1344F,0x1344F,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START AND BOTTOM END|}$2",
+        ],
+        "description": [
+            "Code: U+1344F",
+            "Character/Symbol: 𓑏",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START AND BOTTOM END",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑐 U+13450 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM": 
+    {
+        "prefix": [
+            "..U.13450",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM",
+            "U+13450",
+        ],
+        "body": [
+            "${1|𓑐,&#x13450;,U+13450,0x13450,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM|}$2",
+        ],
+        "description": [
+            "Code: U+13450",
+            "Character/Symbol: 𓑐",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑑 U+13451 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND BOTTOM": 
+    {
+        "prefix": [
+            "..U.13451",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND BOTTOM",
+            "U+13451",
+        ],
+        "body": [
+            "${1|𓑑,&#x13451;,U+13451,0x13451,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND BOTTOM|}$2",
+        ],
+        "description": [
+            "Code: U+13451",
+            "Character/Symbol: 𓑑",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND BOTTOM",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑒 U+13452 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT END": 
+    {
+        "prefix": [
+            "..U.13452",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT END",
+            "U+13452",
+        ],
+        "body": [
+            "${1|𓑒,&#x13452;,U+13452,0x13452,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT END|}$2",
+        ],
+        "description": [
+            "Code: U+13452",
+            "Character/Symbol: 𓑒",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT END",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑓 U+13453 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP AND END": 
+    {
+        "prefix": [
+            "..U.13453",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP AND END",
+            "U+13453",
+        ],
+        "body": [
+            "${1|𓑓,&#x13453;,U+13453,0x13453,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP AND END|}$2",
+        ],
+        "description": [
+            "Code: U+13453",
+            "Character/Symbol: 𓑓",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP AND END",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑔 U+13454 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM AND END": 
+    {
+        "prefix": [
+            "..U.13454",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM AND END",
+            "U+13454",
+        ],
+        "body": [
+            "${1|𓑔,&#x13454;,U+13454,0x13454,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM AND END|}$2",
+        ],
+        "description": [
+            "Code: U+13454",
+            "Character/Symbol: 𓑔",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM AND END",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+    "Unicode 𓑕 U+13455 EGYPTIAN HIEROGLYPH MODIFIER DAMAGED": 
+    {
+        "prefix": [
+            "..U.13455",
+            "..U.EGYPTIAN HIEROGLYPH MODIFIER DAMAGED",
+            "U+13455",
+        ],
+        "body": [
+            "${1|𓑕,&#x13455;,U+13455,0x13455,EGYPTIAN HIEROGLYPH MODIFIER DAMAGED|}$2",
+        ],
+        "description": [
+            "Code: U+13455",
+            "Character/Symbol: 𓑕",
+            "Name: EGYPTIAN HIEROGLYPH MODIFIER DAMAGED",
+            "Group/Block: Egyptian_Hieroglyph_Format_Controls",
+        ],
+    },
+
+}

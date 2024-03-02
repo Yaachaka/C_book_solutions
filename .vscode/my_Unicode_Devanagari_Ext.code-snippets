@@ -1,0 +1,578 @@
+{
+    "Unicode ꣠ U+A8E0 COMBINING DEVANAGARI DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.A8E0",
+            "..U.COMBINING DEVANAGARI DIGIT ZERO",
+            "U+A8E0",
+        ],
+        "body": [
+            "${1|꣠,&#xA8E0;,U+A8E0,0xA8E0,COMBINING DEVANAGARI DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+A8E0",
+            "Character/Symbol: ꣠",
+            "Name: COMBINING DEVANAGARI DIGIT ZERO",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣡ U+A8E1 COMBINING DEVANAGARI DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.A8E1",
+            "..U.COMBINING DEVANAGARI DIGIT ONE",
+            "U+A8E1",
+        ],
+        "body": [
+            "${1|꣡,&#xA8E1;,U+A8E1,0xA8E1,COMBINING DEVANAGARI DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+A8E1",
+            "Character/Symbol: ꣡",
+            "Name: COMBINING DEVANAGARI DIGIT ONE",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣢ U+A8E2 COMBINING DEVANAGARI DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.A8E2",
+            "..U.COMBINING DEVANAGARI DIGIT TWO",
+            "U+A8E2",
+        ],
+        "body": [
+            "${1|꣢,&#xA8E2;,U+A8E2,0xA8E2,COMBINING DEVANAGARI DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+A8E2",
+            "Character/Symbol: ꣢",
+            "Name: COMBINING DEVANAGARI DIGIT TWO",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣣ U+A8E3 COMBINING DEVANAGARI DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.A8E3",
+            "..U.COMBINING DEVANAGARI DIGIT THREE",
+            "U+A8E3",
+        ],
+        "body": [
+            "${1|꣣,&#xA8E3;,U+A8E3,0xA8E3,COMBINING DEVANAGARI DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+A8E3",
+            "Character/Symbol: ꣣",
+            "Name: COMBINING DEVANAGARI DIGIT THREE",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣤ U+A8E4 COMBINING DEVANAGARI DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.A8E4",
+            "..U.COMBINING DEVANAGARI DIGIT FOUR",
+            "U+A8E4",
+        ],
+        "body": [
+            "${1|꣤,&#xA8E4;,U+A8E4,0xA8E4,COMBINING DEVANAGARI DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+A8E4",
+            "Character/Symbol: ꣤",
+            "Name: COMBINING DEVANAGARI DIGIT FOUR",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣥ U+A8E5 COMBINING DEVANAGARI DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.A8E5",
+            "..U.COMBINING DEVANAGARI DIGIT FIVE",
+            "U+A8E5",
+        ],
+        "body": [
+            "${1|꣥,&#xA8E5;,U+A8E5,0xA8E5,COMBINING DEVANAGARI DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+A8E5",
+            "Character/Symbol: ꣥",
+            "Name: COMBINING DEVANAGARI DIGIT FIVE",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣦ U+A8E6 COMBINING DEVANAGARI DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.A8E6",
+            "..U.COMBINING DEVANAGARI DIGIT SIX",
+            "U+A8E6",
+        ],
+        "body": [
+            "${1|꣦,&#xA8E6;,U+A8E6,0xA8E6,COMBINING DEVANAGARI DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+A8E6",
+            "Character/Symbol: ꣦",
+            "Name: COMBINING DEVANAGARI DIGIT SIX",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣧ U+A8E7 COMBINING DEVANAGARI DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.A8E7",
+            "..U.COMBINING DEVANAGARI DIGIT SEVEN",
+            "U+A8E7",
+        ],
+        "body": [
+            "${1|꣧,&#xA8E7;,U+A8E7,0xA8E7,COMBINING DEVANAGARI DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+A8E7",
+            "Character/Symbol: ꣧",
+            "Name: COMBINING DEVANAGARI DIGIT SEVEN",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣨ U+A8E8 COMBINING DEVANAGARI DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.A8E8",
+            "..U.COMBINING DEVANAGARI DIGIT EIGHT",
+            "U+A8E8",
+        ],
+        "body": [
+            "${1|꣨,&#xA8E8;,U+A8E8,0xA8E8,COMBINING DEVANAGARI DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+A8E8",
+            "Character/Symbol: ꣨",
+            "Name: COMBINING DEVANAGARI DIGIT EIGHT",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣩ U+A8E9 COMBINING DEVANAGARI DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.A8E9",
+            "..U.COMBINING DEVANAGARI DIGIT NINE",
+            "U+A8E9",
+        ],
+        "body": [
+            "${1|꣩,&#xA8E9;,U+A8E9,0xA8E9,COMBINING DEVANAGARI DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+A8E9",
+            "Character/Symbol: ꣩",
+            "Name: COMBINING DEVANAGARI DIGIT NINE",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣪ U+A8EA COMBINING DEVANAGARI LETTER A": 
+    {
+        "prefix": [
+            "..U.A8EA",
+            "..U.COMBINING DEVANAGARI LETTER A",
+            "U+A8EA",
+        ],
+        "body": [
+            "${1|꣪,&#xA8EA;,U+A8EA,0xA8EA,COMBINING DEVANAGARI LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+A8EA",
+            "Character/Symbol: ꣪",
+            "Name: COMBINING DEVANAGARI LETTER A",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣫ U+A8EB COMBINING DEVANAGARI LETTER U": 
+    {
+        "prefix": [
+            "..U.A8EB",
+            "..U.COMBINING DEVANAGARI LETTER U",
+            "U+A8EB",
+        ],
+        "body": [
+            "${1|꣫,&#xA8EB;,U+A8EB,0xA8EB,COMBINING DEVANAGARI LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+A8EB",
+            "Character/Symbol: ꣫",
+            "Name: COMBINING DEVANAGARI LETTER U",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣬ U+A8EC COMBINING DEVANAGARI LETTER KA": 
+    {
+        "prefix": [
+            "..U.A8EC",
+            "..U.COMBINING DEVANAGARI LETTER KA",
+            "U+A8EC",
+        ],
+        "body": [
+            "${1|꣬,&#xA8EC;,U+A8EC,0xA8EC,COMBINING DEVANAGARI LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+A8EC",
+            "Character/Symbol: ꣬",
+            "Name: COMBINING DEVANAGARI LETTER KA",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣭ U+A8ED COMBINING DEVANAGARI LETTER NA": 
+    {
+        "prefix": [
+            "..U.A8ED",
+            "..U.COMBINING DEVANAGARI LETTER NA",
+            "U+A8ED",
+        ],
+        "body": [
+            "${1|꣭,&#xA8ED;,U+A8ED,0xA8ED,COMBINING DEVANAGARI LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+A8ED",
+            "Character/Symbol: ꣭",
+            "Name: COMBINING DEVANAGARI LETTER NA",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣮ U+A8EE COMBINING DEVANAGARI LETTER PA": 
+    {
+        "prefix": [
+            "..U.A8EE",
+            "..U.COMBINING DEVANAGARI LETTER PA",
+            "U+A8EE",
+        ],
+        "body": [
+            "${1|꣮,&#xA8EE;,U+A8EE,0xA8EE,COMBINING DEVANAGARI LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+A8EE",
+            "Character/Symbol: ꣮",
+            "Name: COMBINING DEVANAGARI LETTER PA",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣯ U+A8EF COMBINING DEVANAGARI LETTER RA": 
+    {
+        "prefix": [
+            "..U.A8EF",
+            "..U.COMBINING DEVANAGARI LETTER RA",
+            "U+A8EF",
+        ],
+        "body": [
+            "${1|꣯,&#xA8EF;,U+A8EF,0xA8EF,COMBINING DEVANAGARI LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+A8EF",
+            "Character/Symbol: ꣯",
+            "Name: COMBINING DEVANAGARI LETTER RA",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣰ U+A8F0 COMBINING DEVANAGARI LETTER VI": 
+    {
+        "prefix": [
+            "..U.A8F0",
+            "..U.COMBINING DEVANAGARI LETTER VI",
+            "U+A8F0",
+        ],
+        "body": [
+            "${1|꣰,&#xA8F0;,U+A8F0,0xA8F0,COMBINING DEVANAGARI LETTER VI|}$2",
+        ],
+        "description": [
+            "Code: U+A8F0",
+            "Character/Symbol: ꣰",
+            "Name: COMBINING DEVANAGARI LETTER VI",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣱ U+A8F1 COMBINING DEVANAGARI SIGN AVAGRAHA": 
+    {
+        "prefix": [
+            "..U.A8F1",
+            "..U.COMBINING DEVANAGARI SIGN AVAGRAHA",
+            "U+A8F1",
+        ],
+        "body": [
+            "${1|꣱,&#xA8F1;,U+A8F1,0xA8F1,COMBINING DEVANAGARI SIGN AVAGRAHA|}$2",
+        ],
+        "description": [
+            "Code: U+A8F1",
+            "Character/Symbol: ꣱",
+            "Name: COMBINING DEVANAGARI SIGN AVAGRAHA",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣲ U+A8F2 DEVANAGARI SIGN SPACING CANDRABINDU": 
+    {
+        "prefix": [
+            "..U.A8F2",
+            "..U.DEVANAGARI SIGN SPACING CANDRABINDU",
+            "U+A8F2",
+        ],
+        "body": [
+            "${1|ꣲ,&#xA8F2;,U+A8F2,0xA8F2,DEVANAGARI SIGN SPACING CANDRABINDU|}$2",
+        ],
+        "description": [
+            "Code: U+A8F2",
+            "Character/Symbol: ꣲ",
+            "Name: DEVANAGARI SIGN SPACING CANDRABINDU",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣳ U+A8F3 DEVANAGARI SIGN CANDRABINDU VIRAMA": 
+    {
+        "prefix": [
+            "..U.A8F3",
+            "..U.DEVANAGARI SIGN CANDRABINDU VIRAMA",
+            "U+A8F3",
+        ],
+        "body": [
+            "${1|ꣳ,&#xA8F3;,U+A8F3,0xA8F3,DEVANAGARI SIGN CANDRABINDU VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+A8F3",
+            "Character/Symbol: ꣳ",
+            "Name: DEVANAGARI SIGN CANDRABINDU VIRAMA",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣴ U+A8F4 DEVANAGARI SIGN DOUBLE CANDRABINDU VIRAMA": 
+    {
+        "prefix": [
+            "..U.A8F4",
+            "..U.DEVANAGARI SIGN DOUBLE CANDRABINDU VIRAMA",
+            "U+A8F4",
+        ],
+        "body": [
+            "${1|ꣴ,&#xA8F4;,U+A8F4,0xA8F4,DEVANAGARI SIGN DOUBLE CANDRABINDU VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+A8F4",
+            "Character/Symbol: ꣴ",
+            "Name: DEVANAGARI SIGN DOUBLE CANDRABINDU VIRAMA",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣵ U+A8F5 DEVANAGARI SIGN CANDRABINDU TWO": 
+    {
+        "prefix": [
+            "..U.A8F5",
+            "..U.DEVANAGARI SIGN CANDRABINDU TWO",
+            "U+A8F5",
+        ],
+        "body": [
+            "${1|ꣵ,&#xA8F5;,U+A8F5,0xA8F5,DEVANAGARI SIGN CANDRABINDU TWO|}$2",
+        ],
+        "description": [
+            "Code: U+A8F5",
+            "Character/Symbol: ꣵ",
+            "Name: DEVANAGARI SIGN CANDRABINDU TWO",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣶ U+A8F6 DEVANAGARI SIGN CANDRABINDU THREE": 
+    {
+        "prefix": [
+            "..U.A8F6",
+            "..U.DEVANAGARI SIGN CANDRABINDU THREE",
+            "U+A8F6",
+        ],
+        "body": [
+            "${1|ꣶ,&#xA8F6;,U+A8F6,0xA8F6,DEVANAGARI SIGN CANDRABINDU THREE|}$2",
+        ],
+        "description": [
+            "Code: U+A8F6",
+            "Character/Symbol: ꣶ",
+            "Name: DEVANAGARI SIGN CANDRABINDU THREE",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣷ U+A8F7 DEVANAGARI SIGN CANDRABINDU AVAGRAHA": 
+    {
+        "prefix": [
+            "..U.A8F7",
+            "..U.DEVANAGARI SIGN CANDRABINDU AVAGRAHA",
+            "U+A8F7",
+        ],
+        "body": [
+            "${1|ꣷ,&#xA8F7;,U+A8F7,0xA8F7,DEVANAGARI SIGN CANDRABINDU AVAGRAHA|}$2",
+        ],
+        "description": [
+            "Code: U+A8F7",
+            "Character/Symbol: ꣷ",
+            "Name: DEVANAGARI SIGN CANDRABINDU AVAGRAHA",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣸ U+A8F8 DEVANAGARI SIGN PUSHPIKA": 
+    {
+        "prefix": [
+            "..U.A8F8",
+            "..U.DEVANAGARI SIGN PUSHPIKA",
+            "U+A8F8",
+        ],
+        "body": [
+            "${1|꣸,&#xA8F8;,U+A8F8,0xA8F8,DEVANAGARI SIGN PUSHPIKA|}$2",
+        ],
+        "description": [
+            "Code: U+A8F8",
+            "Character/Symbol: ꣸",
+            "Name: DEVANAGARI SIGN PUSHPIKA",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣹ U+A8F9 DEVANAGARI GAP FILLER": 
+    {
+        "prefix": [
+            "..U.A8F9",
+            "..U.DEVANAGARI GAP FILLER",
+            "U+A8F9",
+        ],
+        "body": [
+            "${1|꣹,&#xA8F9;,U+A8F9,0xA8F9,DEVANAGARI GAP FILLER|}$2",
+        ],
+        "description": [
+            "Code: U+A8F9",
+            "Character/Symbol: ꣹",
+            "Name: DEVANAGARI GAP FILLER",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣺ U+A8FA DEVANAGARI CARET": 
+    {
+        "prefix": [
+            "..U.A8FA",
+            "..U.DEVANAGARI CARET",
+            "U+A8FA",
+        ],
+        "body": [
+            "${1|꣺,&#xA8FA;,U+A8FA,0xA8FA,DEVANAGARI CARET|}$2",
+        ],
+        "description": [
+            "Code: U+A8FA",
+            "Character/Symbol: ꣺",
+            "Name: DEVANAGARI CARET",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣻ U+A8FB DEVANAGARI HEADSTROKE": 
+    {
+        "prefix": [
+            "..U.A8FB",
+            "..U.DEVANAGARI HEADSTROKE",
+            "U+A8FB",
+        ],
+        "body": [
+            "${1|ꣻ,&#xA8FB;,U+A8FB,0xA8FB,DEVANAGARI HEADSTROKE|}$2",
+        ],
+        "description": [
+            "Code: U+A8FB",
+            "Character/Symbol: ꣻ",
+            "Name: DEVANAGARI HEADSTROKE",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣼ U+A8FC DEVANAGARI SIGN SIDDHAM": 
+    {
+        "prefix": [
+            "..U.A8FC",
+            "..U.DEVANAGARI SIGN SIDDHAM",
+            "U+A8FC",
+        ],
+        "body": [
+            "${1|꣼,&#xA8FC;,U+A8FC,0xA8FC,DEVANAGARI SIGN SIDDHAM|}$2",
+        ],
+        "description": [
+            "Code: U+A8FC",
+            "Character/Symbol: ꣼",
+            "Name: DEVANAGARI SIGN SIDDHAM",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣽ U+A8FD DEVANAGARI JAIN OM": 
+    {
+        "prefix": [
+            "..U.A8FD",
+            "..U.DEVANAGARI JAIN OM",
+            "U+A8FD",
+        ],
+        "body": [
+            "${1|ꣽ,&#xA8FD;,U+A8FD,0xA8FD,DEVANAGARI JAIN OM|}$2",
+        ],
+        "description": [
+            "Code: U+A8FD",
+            "Character/Symbol: ꣽ",
+            "Name: DEVANAGARI JAIN OM",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣾ U+A8FE DEVANAGARI LETTER AY": 
+    {
+        "prefix": [
+            "..U.A8FE",
+            "..U.DEVANAGARI LETTER AY",
+            "U+A8FE",
+        ],
+        "body": [
+            "${1|ꣾ,&#xA8FE;,U+A8FE,0xA8FE,DEVANAGARI LETTER AY|}$2",
+        ],
+        "description": [
+            "Code: U+A8FE",
+            "Character/Symbol: ꣾ",
+            "Name: DEVANAGARI LETTER AY",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+    "Unicode ꣿ U+A8FF DEVANAGARI VOWEL SIGN AY": 
+    {
+        "prefix": [
+            "..U.A8FF",
+            "..U.DEVANAGARI VOWEL SIGN AY",
+            "U+A8FF",
+        ],
+        "body": [
+            "${1|ꣿ,&#xA8FF;,U+A8FF,0xA8FF,DEVANAGARI VOWEL SIGN AY|}$2",
+        ],
+        "description": [
+            "Code: U+A8FF",
+            "Character/Symbol: ꣿ",
+            "Name: DEVANAGARI VOWEL SIGN AY",
+            "Group/Block: Devanagari_Ext",
+        ],
+    },
+
+}

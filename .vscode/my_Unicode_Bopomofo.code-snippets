@@ -1,0 +1,776 @@
+{
+    "Unicode ㄅ U+3105 BOPOMOFO LETTER B": 
+    {
+        "prefix": [
+            "..U.3105",
+            "..U.BOPOMOFO LETTER B",
+            "U+3105",
+        ],
+        "body": [
+            "${1|ㄅ,&#x3105;,U+3105,0x3105,BOPOMOFO LETTER B|}$2",
+        ],
+        "description": [
+            "Code: U+3105",
+            "Character/Symbol: ㄅ",
+            "Name: BOPOMOFO LETTER B",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄆ U+3106 BOPOMOFO LETTER P": 
+    {
+        "prefix": [
+            "..U.3106",
+            "..U.BOPOMOFO LETTER P",
+            "U+3106",
+        ],
+        "body": [
+            "${1|ㄆ,&#x3106;,U+3106,0x3106,BOPOMOFO LETTER P|}$2",
+        ],
+        "description": [
+            "Code: U+3106",
+            "Character/Symbol: ㄆ",
+            "Name: BOPOMOFO LETTER P",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄇ U+3107 BOPOMOFO LETTER M": 
+    {
+        "prefix": [
+            "..U.3107",
+            "..U.BOPOMOFO LETTER M",
+            "U+3107",
+        ],
+        "body": [
+            "${1|ㄇ,&#x3107;,U+3107,0x3107,BOPOMOFO LETTER M|}$2",
+        ],
+        "description": [
+            "Code: U+3107",
+            "Character/Symbol: ㄇ",
+            "Name: BOPOMOFO LETTER M",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄈ U+3108 BOPOMOFO LETTER F": 
+    {
+        "prefix": [
+            "..U.3108",
+            "..U.BOPOMOFO LETTER F",
+            "U+3108",
+        ],
+        "body": [
+            "${1|ㄈ,&#x3108;,U+3108,0x3108,BOPOMOFO LETTER F|}$2",
+        ],
+        "description": [
+            "Code: U+3108",
+            "Character/Symbol: ㄈ",
+            "Name: BOPOMOFO LETTER F",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄉ U+3109 BOPOMOFO LETTER D": 
+    {
+        "prefix": [
+            "..U.3109",
+            "..U.BOPOMOFO LETTER D",
+            "U+3109",
+        ],
+        "body": [
+            "${1|ㄉ,&#x3109;,U+3109,0x3109,BOPOMOFO LETTER D|}$2",
+        ],
+        "description": [
+            "Code: U+3109",
+            "Character/Symbol: ㄉ",
+            "Name: BOPOMOFO LETTER D",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄊ U+310A BOPOMOFO LETTER T": 
+    {
+        "prefix": [
+            "..U.310A",
+            "..U.BOPOMOFO LETTER T",
+            "U+310A",
+        ],
+        "body": [
+            "${1|ㄊ,&#x310A;,U+310A,0x310A,BOPOMOFO LETTER T|}$2",
+        ],
+        "description": [
+            "Code: U+310A",
+            "Character/Symbol: ㄊ",
+            "Name: BOPOMOFO LETTER T",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄋ U+310B BOPOMOFO LETTER N": 
+    {
+        "prefix": [
+            "..U.310B",
+            "..U.BOPOMOFO LETTER N",
+            "U+310B",
+        ],
+        "body": [
+            "${1|ㄋ,&#x310B;,U+310B,0x310B,BOPOMOFO LETTER N|}$2",
+        ],
+        "description": [
+            "Code: U+310B",
+            "Character/Symbol: ㄋ",
+            "Name: BOPOMOFO LETTER N",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄌ U+310C BOPOMOFO LETTER L": 
+    {
+        "prefix": [
+            "..U.310C",
+            "..U.BOPOMOFO LETTER L",
+            "U+310C",
+        ],
+        "body": [
+            "${1|ㄌ,&#x310C;,U+310C,0x310C,BOPOMOFO LETTER L|}$2",
+        ],
+        "description": [
+            "Code: U+310C",
+            "Character/Symbol: ㄌ",
+            "Name: BOPOMOFO LETTER L",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄍ U+310D BOPOMOFO LETTER G": 
+    {
+        "prefix": [
+            "..U.310D",
+            "..U.BOPOMOFO LETTER G",
+            "U+310D",
+        ],
+        "body": [
+            "${1|ㄍ,&#x310D;,U+310D,0x310D,BOPOMOFO LETTER G|}$2",
+        ],
+        "description": [
+            "Code: U+310D",
+            "Character/Symbol: ㄍ",
+            "Name: BOPOMOFO LETTER G",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄎ U+310E BOPOMOFO LETTER K": 
+    {
+        "prefix": [
+            "..U.310E",
+            "..U.BOPOMOFO LETTER K",
+            "U+310E",
+        ],
+        "body": [
+            "${1|ㄎ,&#x310E;,U+310E,0x310E,BOPOMOFO LETTER K|}$2",
+        ],
+        "description": [
+            "Code: U+310E",
+            "Character/Symbol: ㄎ",
+            "Name: BOPOMOFO LETTER K",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄏ U+310F BOPOMOFO LETTER H": 
+    {
+        "prefix": [
+            "..U.310F",
+            "..U.BOPOMOFO LETTER H",
+            "U+310F",
+        ],
+        "body": [
+            "${1|ㄏ,&#x310F;,U+310F,0x310F,BOPOMOFO LETTER H|}$2",
+        ],
+        "description": [
+            "Code: U+310F",
+            "Character/Symbol: ㄏ",
+            "Name: BOPOMOFO LETTER H",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄐ U+3110 BOPOMOFO LETTER J": 
+    {
+        "prefix": [
+            "..U.3110",
+            "..U.BOPOMOFO LETTER J",
+            "U+3110",
+        ],
+        "body": [
+            "${1|ㄐ,&#x3110;,U+3110,0x3110,BOPOMOFO LETTER J|}$2",
+        ],
+        "description": [
+            "Code: U+3110",
+            "Character/Symbol: ㄐ",
+            "Name: BOPOMOFO LETTER J",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄑ U+3111 BOPOMOFO LETTER Q": 
+    {
+        "prefix": [
+            "..U.3111",
+            "..U.BOPOMOFO LETTER Q",
+            "U+3111",
+        ],
+        "body": [
+            "${1|ㄑ,&#x3111;,U+3111,0x3111,BOPOMOFO LETTER Q|}$2",
+        ],
+        "description": [
+            "Code: U+3111",
+            "Character/Symbol: ㄑ",
+            "Name: BOPOMOFO LETTER Q",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄒ U+3112 BOPOMOFO LETTER X": 
+    {
+        "prefix": [
+            "..U.3112",
+            "..U.BOPOMOFO LETTER X",
+            "U+3112",
+        ],
+        "body": [
+            "${1|ㄒ,&#x3112;,U+3112,0x3112,BOPOMOFO LETTER X|}$2",
+        ],
+        "description": [
+            "Code: U+3112",
+            "Character/Symbol: ㄒ",
+            "Name: BOPOMOFO LETTER X",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄓ U+3113 BOPOMOFO LETTER ZH": 
+    {
+        "prefix": [
+            "..U.3113",
+            "..U.BOPOMOFO LETTER ZH",
+            "U+3113",
+        ],
+        "body": [
+            "${1|ㄓ,&#x3113;,U+3113,0x3113,BOPOMOFO LETTER ZH|}$2",
+        ],
+        "description": [
+            "Code: U+3113",
+            "Character/Symbol: ㄓ",
+            "Name: BOPOMOFO LETTER ZH",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄔ U+3114 BOPOMOFO LETTER CH": 
+    {
+        "prefix": [
+            "..U.3114",
+            "..U.BOPOMOFO LETTER CH",
+            "U+3114",
+        ],
+        "body": [
+            "${1|ㄔ,&#x3114;,U+3114,0x3114,BOPOMOFO LETTER CH|}$2",
+        ],
+        "description": [
+            "Code: U+3114",
+            "Character/Symbol: ㄔ",
+            "Name: BOPOMOFO LETTER CH",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄕ U+3115 BOPOMOFO LETTER SH": 
+    {
+        "prefix": [
+            "..U.3115",
+            "..U.BOPOMOFO LETTER SH",
+            "U+3115",
+        ],
+        "body": [
+            "${1|ㄕ,&#x3115;,U+3115,0x3115,BOPOMOFO LETTER SH|}$2",
+        ],
+        "description": [
+            "Code: U+3115",
+            "Character/Symbol: ㄕ",
+            "Name: BOPOMOFO LETTER SH",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄖ U+3116 BOPOMOFO LETTER R": 
+    {
+        "prefix": [
+            "..U.3116",
+            "..U.BOPOMOFO LETTER R",
+            "U+3116",
+        ],
+        "body": [
+            "${1|ㄖ,&#x3116;,U+3116,0x3116,BOPOMOFO LETTER R|}$2",
+        ],
+        "description": [
+            "Code: U+3116",
+            "Character/Symbol: ㄖ",
+            "Name: BOPOMOFO LETTER R",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄗ U+3117 BOPOMOFO LETTER Z": 
+    {
+        "prefix": [
+            "..U.3117",
+            "..U.BOPOMOFO LETTER Z",
+            "U+3117",
+        ],
+        "body": [
+            "${1|ㄗ,&#x3117;,U+3117,0x3117,BOPOMOFO LETTER Z|}$2",
+        ],
+        "description": [
+            "Code: U+3117",
+            "Character/Symbol: ㄗ",
+            "Name: BOPOMOFO LETTER Z",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄘ U+3118 BOPOMOFO LETTER C": 
+    {
+        "prefix": [
+            "..U.3118",
+            "..U.BOPOMOFO LETTER C",
+            "U+3118",
+        ],
+        "body": [
+            "${1|ㄘ,&#x3118;,U+3118,0x3118,BOPOMOFO LETTER C|}$2",
+        ],
+        "description": [
+            "Code: U+3118",
+            "Character/Symbol: ㄘ",
+            "Name: BOPOMOFO LETTER C",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄙ U+3119 BOPOMOFO LETTER S": 
+    {
+        "prefix": [
+            "..U.3119",
+            "..U.BOPOMOFO LETTER S",
+            "U+3119",
+        ],
+        "body": [
+            "${1|ㄙ,&#x3119;,U+3119,0x3119,BOPOMOFO LETTER S|}$2",
+        ],
+        "description": [
+            "Code: U+3119",
+            "Character/Symbol: ㄙ",
+            "Name: BOPOMOFO LETTER S",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄚ U+311A BOPOMOFO LETTER A": 
+    {
+        "prefix": [
+            "..U.311A",
+            "..U.BOPOMOFO LETTER A",
+            "U+311A",
+        ],
+        "body": [
+            "${1|ㄚ,&#x311A;,U+311A,0x311A,BOPOMOFO LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+311A",
+            "Character/Symbol: ㄚ",
+            "Name: BOPOMOFO LETTER A",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄛ U+311B BOPOMOFO LETTER O": 
+    {
+        "prefix": [
+            "..U.311B",
+            "..U.BOPOMOFO LETTER O",
+            "U+311B",
+        ],
+        "body": [
+            "${1|ㄛ,&#x311B;,U+311B,0x311B,BOPOMOFO LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+311B",
+            "Character/Symbol: ㄛ",
+            "Name: BOPOMOFO LETTER O",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄜ U+311C BOPOMOFO LETTER E": 
+    {
+        "prefix": [
+            "..U.311C",
+            "..U.BOPOMOFO LETTER E",
+            "U+311C",
+        ],
+        "body": [
+            "${1|ㄜ,&#x311C;,U+311C,0x311C,BOPOMOFO LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+311C",
+            "Character/Symbol: ㄜ",
+            "Name: BOPOMOFO LETTER E",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄝ U+311D BOPOMOFO LETTER EH": 
+    {
+        "prefix": [
+            "..U.311D",
+            "..U.BOPOMOFO LETTER EH",
+            "U+311D",
+        ],
+        "body": [
+            "${1|ㄝ,&#x311D;,U+311D,0x311D,BOPOMOFO LETTER EH|}$2",
+        ],
+        "description": [
+            "Code: U+311D",
+            "Character/Symbol: ㄝ",
+            "Name: BOPOMOFO LETTER EH",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄞ U+311E BOPOMOFO LETTER AI": 
+    {
+        "prefix": [
+            "..U.311E",
+            "..U.BOPOMOFO LETTER AI",
+            "U+311E",
+        ],
+        "body": [
+            "${1|ㄞ,&#x311E;,U+311E,0x311E,BOPOMOFO LETTER AI|}$2",
+        ],
+        "description": [
+            "Code: U+311E",
+            "Character/Symbol: ㄞ",
+            "Name: BOPOMOFO LETTER AI",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄟ U+311F BOPOMOFO LETTER EI": 
+    {
+        "prefix": [
+            "..U.311F",
+            "..U.BOPOMOFO LETTER EI",
+            "U+311F",
+        ],
+        "body": [
+            "${1|ㄟ,&#x311F;,U+311F,0x311F,BOPOMOFO LETTER EI|}$2",
+        ],
+        "description": [
+            "Code: U+311F",
+            "Character/Symbol: ㄟ",
+            "Name: BOPOMOFO LETTER EI",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄠ U+3120 BOPOMOFO LETTER AU": 
+    {
+        "prefix": [
+            "..U.3120",
+            "..U.BOPOMOFO LETTER AU",
+            "U+3120",
+        ],
+        "body": [
+            "${1|ㄠ,&#x3120;,U+3120,0x3120,BOPOMOFO LETTER AU|}$2",
+        ],
+        "description": [
+            "Code: U+3120",
+            "Character/Symbol: ㄠ",
+            "Name: BOPOMOFO LETTER AU",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄡ U+3121 BOPOMOFO LETTER OU": 
+    {
+        "prefix": [
+            "..U.3121",
+            "..U.BOPOMOFO LETTER OU",
+            "U+3121",
+        ],
+        "body": [
+            "${1|ㄡ,&#x3121;,U+3121,0x3121,BOPOMOFO LETTER OU|}$2",
+        ],
+        "description": [
+            "Code: U+3121",
+            "Character/Symbol: ㄡ",
+            "Name: BOPOMOFO LETTER OU",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄢ U+3122 BOPOMOFO LETTER AN": 
+    {
+        "prefix": [
+            "..U.3122",
+            "..U.BOPOMOFO LETTER AN",
+            "U+3122",
+        ],
+        "body": [
+            "${1|ㄢ,&#x3122;,U+3122,0x3122,BOPOMOFO LETTER AN|}$2",
+        ],
+        "description": [
+            "Code: U+3122",
+            "Character/Symbol: ㄢ",
+            "Name: BOPOMOFO LETTER AN",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄣ U+3123 BOPOMOFO LETTER EN": 
+    {
+        "prefix": [
+            "..U.3123",
+            "..U.BOPOMOFO LETTER EN",
+            "U+3123",
+        ],
+        "body": [
+            "${1|ㄣ,&#x3123;,U+3123,0x3123,BOPOMOFO LETTER EN|}$2",
+        ],
+        "description": [
+            "Code: U+3123",
+            "Character/Symbol: ㄣ",
+            "Name: BOPOMOFO LETTER EN",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄤ U+3124 BOPOMOFO LETTER ANG": 
+    {
+        "prefix": [
+            "..U.3124",
+            "..U.BOPOMOFO LETTER ANG",
+            "U+3124",
+        ],
+        "body": [
+            "${1|ㄤ,&#x3124;,U+3124,0x3124,BOPOMOFO LETTER ANG|}$2",
+        ],
+        "description": [
+            "Code: U+3124",
+            "Character/Symbol: ㄤ",
+            "Name: BOPOMOFO LETTER ANG",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄥ U+3125 BOPOMOFO LETTER ENG": 
+    {
+        "prefix": [
+            "..U.3125",
+            "..U.BOPOMOFO LETTER ENG",
+            "U+3125",
+        ],
+        "body": [
+            "${1|ㄥ,&#x3125;,U+3125,0x3125,BOPOMOFO LETTER ENG|}$2",
+        ],
+        "description": [
+            "Code: U+3125",
+            "Character/Symbol: ㄥ",
+            "Name: BOPOMOFO LETTER ENG",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄦ U+3126 BOPOMOFO LETTER ER": 
+    {
+        "prefix": [
+            "..U.3126",
+            "..U.BOPOMOFO LETTER ER",
+            "U+3126",
+        ],
+        "body": [
+            "${1|ㄦ,&#x3126;,U+3126,0x3126,BOPOMOFO LETTER ER|}$2",
+        ],
+        "description": [
+            "Code: U+3126",
+            "Character/Symbol: ㄦ",
+            "Name: BOPOMOFO LETTER ER",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄧ U+3127 BOPOMOFO LETTER I": 
+    {
+        "prefix": [
+            "..U.3127",
+            "..U.BOPOMOFO LETTER I",
+            "U+3127",
+        ],
+        "body": [
+            "${1|ㄧ,&#x3127;,U+3127,0x3127,BOPOMOFO LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+3127",
+            "Character/Symbol: ㄧ",
+            "Name: BOPOMOFO LETTER I",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄨ U+3128 BOPOMOFO LETTER U": 
+    {
+        "prefix": [
+            "..U.3128",
+            "..U.BOPOMOFO LETTER U",
+            "U+3128",
+        ],
+        "body": [
+            "${1|ㄨ,&#x3128;,U+3128,0x3128,BOPOMOFO LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+3128",
+            "Character/Symbol: ㄨ",
+            "Name: BOPOMOFO LETTER U",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄩ U+3129 BOPOMOFO LETTER IU": 
+    {
+        "prefix": [
+            "..U.3129",
+            "..U.BOPOMOFO LETTER IU",
+            "U+3129",
+        ],
+        "body": [
+            "${1|ㄩ,&#x3129;,U+3129,0x3129,BOPOMOFO LETTER IU|}$2",
+        ],
+        "description": [
+            "Code: U+3129",
+            "Character/Symbol: ㄩ",
+            "Name: BOPOMOFO LETTER IU",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄪ U+312A BOPOMOFO LETTER V": 
+    {
+        "prefix": [
+            "..U.312A",
+            "..U.BOPOMOFO LETTER V",
+            "U+312A",
+        ],
+        "body": [
+            "${1|ㄪ,&#x312A;,U+312A,0x312A,BOPOMOFO LETTER V|}$2",
+        ],
+        "description": [
+            "Code: U+312A",
+            "Character/Symbol: ㄪ",
+            "Name: BOPOMOFO LETTER V",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄫ U+312B BOPOMOFO LETTER NG": 
+    {
+        "prefix": [
+            "..U.312B",
+            "..U.BOPOMOFO LETTER NG",
+            "U+312B",
+        ],
+        "body": [
+            "${1|ㄫ,&#x312B;,U+312B,0x312B,BOPOMOFO LETTER NG|}$2",
+        ],
+        "description": [
+            "Code: U+312B",
+            "Character/Symbol: ㄫ",
+            "Name: BOPOMOFO LETTER NG",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄬ U+312C BOPOMOFO LETTER GN": 
+    {
+        "prefix": [
+            "..U.312C",
+            "..U.BOPOMOFO LETTER GN",
+            "U+312C",
+        ],
+        "body": [
+            "${1|ㄬ,&#x312C;,U+312C,0x312C,BOPOMOFO LETTER GN|}$2",
+        ],
+        "description": [
+            "Code: U+312C",
+            "Character/Symbol: ㄬ",
+            "Name: BOPOMOFO LETTER GN",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄭ U+312D BOPOMOFO LETTER IH": 
+    {
+        "prefix": [
+            "..U.312D",
+            "..U.BOPOMOFO LETTER IH",
+            "U+312D",
+        ],
+        "body": [
+            "${1|ㄭ,&#x312D;,U+312D,0x312D,BOPOMOFO LETTER IH|}$2",
+        ],
+        "description": [
+            "Code: U+312D",
+            "Character/Symbol: ㄭ",
+            "Name: BOPOMOFO LETTER IH",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄮ U+312E BOPOMOFO LETTER O WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.312E",
+            "..U.BOPOMOFO LETTER O WITH DOT ABOVE",
+            "U+312E",
+        ],
+        "body": [
+            "${1|ㄮ,&#x312E;,U+312E,0x312E,BOPOMOFO LETTER O WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+312E",
+            "Character/Symbol: ㄮ",
+            "Name: BOPOMOFO LETTER O WITH DOT ABOVE",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+    "Unicode ㄯ U+312F BOPOMOFO LETTER NN": 
+    {
+        "prefix": [
+            "..U.312F",
+            "..U.BOPOMOFO LETTER NN",
+            "U+312F",
+        ],
+        "body": [
+            "${1|ㄯ,&#x312F;,U+312F,0x312F,BOPOMOFO LETTER NN|}$2",
+        ],
+        "description": [
+            "Code: U+312F",
+            "Character/Symbol: ㄯ",
+            "Name: BOPOMOFO LETTER NN",
+            "Group/Block: Bopomofo",
+        ],
+    },
+
+}

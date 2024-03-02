@@ -1,0 +1,1442 @@
+{
+    "Unicode 𐐀 U+10400 DESERET CAPITAL LETTER LONG I": 
+    {
+        "prefix": [
+            "..U.10400",
+            "..U.DESERET CAPITAL LETTER LONG I",
+            "U+10400",
+        ],
+        "body": [
+            "${1|𐐀,&#x10400;,U+10400,0x10400,DESERET CAPITAL LETTER LONG I|}$2",
+        ],
+        "description": [
+            "Code: U+10400",
+            "Character/Symbol: 𐐀",
+            "Name: DESERET CAPITAL LETTER LONG I",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐁 U+10401 DESERET CAPITAL LETTER LONG E": 
+    {
+        "prefix": [
+            "..U.10401",
+            "..U.DESERET CAPITAL LETTER LONG E",
+            "U+10401",
+        ],
+        "body": [
+            "${1|𐐁,&#x10401;,U+10401,0x10401,DESERET CAPITAL LETTER LONG E|}$2",
+        ],
+        "description": [
+            "Code: U+10401",
+            "Character/Symbol: 𐐁",
+            "Name: DESERET CAPITAL LETTER LONG E",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐂 U+10402 DESERET CAPITAL LETTER LONG A": 
+    {
+        "prefix": [
+            "..U.10402",
+            "..U.DESERET CAPITAL LETTER LONG A",
+            "U+10402",
+        ],
+        "body": [
+            "${1|𐐂,&#x10402;,U+10402,0x10402,DESERET CAPITAL LETTER LONG A|}$2",
+        ],
+        "description": [
+            "Code: U+10402",
+            "Character/Symbol: 𐐂",
+            "Name: DESERET CAPITAL LETTER LONG A",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐃 U+10403 DESERET CAPITAL LETTER LONG AH": 
+    {
+        "prefix": [
+            "..U.10403",
+            "..U.DESERET CAPITAL LETTER LONG AH",
+            "U+10403",
+        ],
+        "body": [
+            "${1|𐐃,&#x10403;,U+10403,0x10403,DESERET CAPITAL LETTER LONG AH|}$2",
+        ],
+        "description": [
+            "Code: U+10403",
+            "Character/Symbol: 𐐃",
+            "Name: DESERET CAPITAL LETTER LONG AH",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐄 U+10404 DESERET CAPITAL LETTER LONG O": 
+    {
+        "prefix": [
+            "..U.10404",
+            "..U.DESERET CAPITAL LETTER LONG O",
+            "U+10404",
+        ],
+        "body": [
+            "${1|𐐄,&#x10404;,U+10404,0x10404,DESERET CAPITAL LETTER LONG O|}$2",
+        ],
+        "description": [
+            "Code: U+10404",
+            "Character/Symbol: 𐐄",
+            "Name: DESERET CAPITAL LETTER LONG O",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐅 U+10405 DESERET CAPITAL LETTER LONG OO": 
+    {
+        "prefix": [
+            "..U.10405",
+            "..U.DESERET CAPITAL LETTER LONG OO",
+            "U+10405",
+        ],
+        "body": [
+            "${1|𐐅,&#x10405;,U+10405,0x10405,DESERET CAPITAL LETTER LONG OO|}$2",
+        ],
+        "description": [
+            "Code: U+10405",
+            "Character/Symbol: 𐐅",
+            "Name: DESERET CAPITAL LETTER LONG OO",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐆 U+10406 DESERET CAPITAL LETTER SHORT I": 
+    {
+        "prefix": [
+            "..U.10406",
+            "..U.DESERET CAPITAL LETTER SHORT I",
+            "U+10406",
+        ],
+        "body": [
+            "${1|𐐆,&#x10406;,U+10406,0x10406,DESERET CAPITAL LETTER SHORT I|}$2",
+        ],
+        "description": [
+            "Code: U+10406",
+            "Character/Symbol: 𐐆",
+            "Name: DESERET CAPITAL LETTER SHORT I",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐇 U+10407 DESERET CAPITAL LETTER SHORT E": 
+    {
+        "prefix": [
+            "..U.10407",
+            "..U.DESERET CAPITAL LETTER SHORT E",
+            "U+10407",
+        ],
+        "body": [
+            "${1|𐐇,&#x10407;,U+10407,0x10407,DESERET CAPITAL LETTER SHORT E|}$2",
+        ],
+        "description": [
+            "Code: U+10407",
+            "Character/Symbol: 𐐇",
+            "Name: DESERET CAPITAL LETTER SHORT E",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐈 U+10408 DESERET CAPITAL LETTER SHORT A": 
+    {
+        "prefix": [
+            "..U.10408",
+            "..U.DESERET CAPITAL LETTER SHORT A",
+            "U+10408",
+        ],
+        "body": [
+            "${1|𐐈,&#x10408;,U+10408,0x10408,DESERET CAPITAL LETTER SHORT A|}$2",
+        ],
+        "description": [
+            "Code: U+10408",
+            "Character/Symbol: 𐐈",
+            "Name: DESERET CAPITAL LETTER SHORT A",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐉 U+10409 DESERET CAPITAL LETTER SHORT AH": 
+    {
+        "prefix": [
+            "..U.10409",
+            "..U.DESERET CAPITAL LETTER SHORT AH",
+            "U+10409",
+        ],
+        "body": [
+            "${1|𐐉,&#x10409;,U+10409,0x10409,DESERET CAPITAL LETTER SHORT AH|}$2",
+        ],
+        "description": [
+            "Code: U+10409",
+            "Character/Symbol: 𐐉",
+            "Name: DESERET CAPITAL LETTER SHORT AH",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐊 U+1040A DESERET CAPITAL LETTER SHORT O": 
+    {
+        "prefix": [
+            "..U.1040A",
+            "..U.DESERET CAPITAL LETTER SHORT O",
+            "U+1040A",
+        ],
+        "body": [
+            "${1|𐐊,&#x1040A;,U+1040A,0x1040A,DESERET CAPITAL LETTER SHORT O|}$2",
+        ],
+        "description": [
+            "Code: U+1040A",
+            "Character/Symbol: 𐐊",
+            "Name: DESERET CAPITAL LETTER SHORT O",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐋 U+1040B DESERET CAPITAL LETTER SHORT OO": 
+    {
+        "prefix": [
+            "..U.1040B",
+            "..U.DESERET CAPITAL LETTER SHORT OO",
+            "U+1040B",
+        ],
+        "body": [
+            "${1|𐐋,&#x1040B;,U+1040B,0x1040B,DESERET CAPITAL LETTER SHORT OO|}$2",
+        ],
+        "description": [
+            "Code: U+1040B",
+            "Character/Symbol: 𐐋",
+            "Name: DESERET CAPITAL LETTER SHORT OO",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐌 U+1040C DESERET CAPITAL LETTER AY": 
+    {
+        "prefix": [
+            "..U.1040C",
+            "..U.DESERET CAPITAL LETTER AY",
+            "U+1040C",
+        ],
+        "body": [
+            "${1|𐐌,&#x1040C;,U+1040C,0x1040C,DESERET CAPITAL LETTER AY|}$2",
+        ],
+        "description": [
+            "Code: U+1040C",
+            "Character/Symbol: 𐐌",
+            "Name: DESERET CAPITAL LETTER AY",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐍 U+1040D DESERET CAPITAL LETTER OW": 
+    {
+        "prefix": [
+            "..U.1040D",
+            "..U.DESERET CAPITAL LETTER OW",
+            "U+1040D",
+        ],
+        "body": [
+            "${1|𐐍,&#x1040D;,U+1040D,0x1040D,DESERET CAPITAL LETTER OW|}$2",
+        ],
+        "description": [
+            "Code: U+1040D",
+            "Character/Symbol: 𐐍",
+            "Name: DESERET CAPITAL LETTER OW",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐎 U+1040E DESERET CAPITAL LETTER WU": 
+    {
+        "prefix": [
+            "..U.1040E",
+            "..U.DESERET CAPITAL LETTER WU",
+            "U+1040E",
+        ],
+        "body": [
+            "${1|𐐎,&#x1040E;,U+1040E,0x1040E,DESERET CAPITAL LETTER WU|}$2",
+        ],
+        "description": [
+            "Code: U+1040E",
+            "Character/Symbol: 𐐎",
+            "Name: DESERET CAPITAL LETTER WU",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐏 U+1040F DESERET CAPITAL LETTER YEE": 
+    {
+        "prefix": [
+            "..U.1040F",
+            "..U.DESERET CAPITAL LETTER YEE",
+            "U+1040F",
+        ],
+        "body": [
+            "${1|𐐏,&#x1040F;,U+1040F,0x1040F,DESERET CAPITAL LETTER YEE|}$2",
+        ],
+        "description": [
+            "Code: U+1040F",
+            "Character/Symbol: 𐐏",
+            "Name: DESERET CAPITAL LETTER YEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐐 U+10410 DESERET CAPITAL LETTER H": 
+    {
+        "prefix": [
+            "..U.10410",
+            "..U.DESERET CAPITAL LETTER H",
+            "U+10410",
+        ],
+        "body": [
+            "${1|𐐐,&#x10410;,U+10410,0x10410,DESERET CAPITAL LETTER H|}$2",
+        ],
+        "description": [
+            "Code: U+10410",
+            "Character/Symbol: 𐐐",
+            "Name: DESERET CAPITAL LETTER H",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐑 U+10411 DESERET CAPITAL LETTER PEE": 
+    {
+        "prefix": [
+            "..U.10411",
+            "..U.DESERET CAPITAL LETTER PEE",
+            "U+10411",
+        ],
+        "body": [
+            "${1|𐐑,&#x10411;,U+10411,0x10411,DESERET CAPITAL LETTER PEE|}$2",
+        ],
+        "description": [
+            "Code: U+10411",
+            "Character/Symbol: 𐐑",
+            "Name: DESERET CAPITAL LETTER PEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐒 U+10412 DESERET CAPITAL LETTER BEE": 
+    {
+        "prefix": [
+            "..U.10412",
+            "..U.DESERET CAPITAL LETTER BEE",
+            "U+10412",
+        ],
+        "body": [
+            "${1|𐐒,&#x10412;,U+10412,0x10412,DESERET CAPITAL LETTER BEE|}$2",
+        ],
+        "description": [
+            "Code: U+10412",
+            "Character/Symbol: 𐐒",
+            "Name: DESERET CAPITAL LETTER BEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐓 U+10413 DESERET CAPITAL LETTER TEE": 
+    {
+        "prefix": [
+            "..U.10413",
+            "..U.DESERET CAPITAL LETTER TEE",
+            "U+10413",
+        ],
+        "body": [
+            "${1|𐐓,&#x10413;,U+10413,0x10413,DESERET CAPITAL LETTER TEE|}$2",
+        ],
+        "description": [
+            "Code: U+10413",
+            "Character/Symbol: 𐐓",
+            "Name: DESERET CAPITAL LETTER TEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐔 U+10414 DESERET CAPITAL LETTER DEE": 
+    {
+        "prefix": [
+            "..U.10414",
+            "..U.DESERET CAPITAL LETTER DEE",
+            "U+10414",
+        ],
+        "body": [
+            "${1|𐐔,&#x10414;,U+10414,0x10414,DESERET CAPITAL LETTER DEE|}$2",
+        ],
+        "description": [
+            "Code: U+10414",
+            "Character/Symbol: 𐐔",
+            "Name: DESERET CAPITAL LETTER DEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐕 U+10415 DESERET CAPITAL LETTER CHEE": 
+    {
+        "prefix": [
+            "..U.10415",
+            "..U.DESERET CAPITAL LETTER CHEE",
+            "U+10415",
+        ],
+        "body": [
+            "${1|𐐕,&#x10415;,U+10415,0x10415,DESERET CAPITAL LETTER CHEE|}$2",
+        ],
+        "description": [
+            "Code: U+10415",
+            "Character/Symbol: 𐐕",
+            "Name: DESERET CAPITAL LETTER CHEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐖 U+10416 DESERET CAPITAL LETTER JEE": 
+    {
+        "prefix": [
+            "..U.10416",
+            "..U.DESERET CAPITAL LETTER JEE",
+            "U+10416",
+        ],
+        "body": [
+            "${1|𐐖,&#x10416;,U+10416,0x10416,DESERET CAPITAL LETTER JEE|}$2",
+        ],
+        "description": [
+            "Code: U+10416",
+            "Character/Symbol: 𐐖",
+            "Name: DESERET CAPITAL LETTER JEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐗 U+10417 DESERET CAPITAL LETTER KAY": 
+    {
+        "prefix": [
+            "..U.10417",
+            "..U.DESERET CAPITAL LETTER KAY",
+            "U+10417",
+        ],
+        "body": [
+            "${1|𐐗,&#x10417;,U+10417,0x10417,DESERET CAPITAL LETTER KAY|}$2",
+        ],
+        "description": [
+            "Code: U+10417",
+            "Character/Symbol: 𐐗",
+            "Name: DESERET CAPITAL LETTER KAY",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐘 U+10418 DESERET CAPITAL LETTER GAY": 
+    {
+        "prefix": [
+            "..U.10418",
+            "..U.DESERET CAPITAL LETTER GAY",
+            "U+10418",
+        ],
+        "body": [
+            "${1|𐐘,&#x10418;,U+10418,0x10418,DESERET CAPITAL LETTER GAY|}$2",
+        ],
+        "description": [
+            "Code: U+10418",
+            "Character/Symbol: 𐐘",
+            "Name: DESERET CAPITAL LETTER GAY",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐙 U+10419 DESERET CAPITAL LETTER EF": 
+    {
+        "prefix": [
+            "..U.10419",
+            "..U.DESERET CAPITAL LETTER EF",
+            "U+10419",
+        ],
+        "body": [
+            "${1|𐐙,&#x10419;,U+10419,0x10419,DESERET CAPITAL LETTER EF|}$2",
+        ],
+        "description": [
+            "Code: U+10419",
+            "Character/Symbol: 𐐙",
+            "Name: DESERET CAPITAL LETTER EF",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐚 U+1041A DESERET CAPITAL LETTER VEE": 
+    {
+        "prefix": [
+            "..U.1041A",
+            "..U.DESERET CAPITAL LETTER VEE",
+            "U+1041A",
+        ],
+        "body": [
+            "${1|𐐚,&#x1041A;,U+1041A,0x1041A,DESERET CAPITAL LETTER VEE|}$2",
+        ],
+        "description": [
+            "Code: U+1041A",
+            "Character/Symbol: 𐐚",
+            "Name: DESERET CAPITAL LETTER VEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐛 U+1041B DESERET CAPITAL LETTER ETH": 
+    {
+        "prefix": [
+            "..U.1041B",
+            "..U.DESERET CAPITAL LETTER ETH",
+            "U+1041B",
+        ],
+        "body": [
+            "${1|𐐛,&#x1041B;,U+1041B,0x1041B,DESERET CAPITAL LETTER ETH|}$2",
+        ],
+        "description": [
+            "Code: U+1041B",
+            "Character/Symbol: 𐐛",
+            "Name: DESERET CAPITAL LETTER ETH",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐜 U+1041C DESERET CAPITAL LETTER THEE": 
+    {
+        "prefix": [
+            "..U.1041C",
+            "..U.DESERET CAPITAL LETTER THEE",
+            "U+1041C",
+        ],
+        "body": [
+            "${1|𐐜,&#x1041C;,U+1041C,0x1041C,DESERET CAPITAL LETTER THEE|}$2",
+        ],
+        "description": [
+            "Code: U+1041C",
+            "Character/Symbol: 𐐜",
+            "Name: DESERET CAPITAL LETTER THEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐝 U+1041D DESERET CAPITAL LETTER ES": 
+    {
+        "prefix": [
+            "..U.1041D",
+            "..U.DESERET CAPITAL LETTER ES",
+            "U+1041D",
+        ],
+        "body": [
+            "${1|𐐝,&#x1041D;,U+1041D,0x1041D,DESERET CAPITAL LETTER ES|}$2",
+        ],
+        "description": [
+            "Code: U+1041D",
+            "Character/Symbol: 𐐝",
+            "Name: DESERET CAPITAL LETTER ES",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐞 U+1041E DESERET CAPITAL LETTER ZEE": 
+    {
+        "prefix": [
+            "..U.1041E",
+            "..U.DESERET CAPITAL LETTER ZEE",
+            "U+1041E",
+        ],
+        "body": [
+            "${1|𐐞,&#x1041E;,U+1041E,0x1041E,DESERET CAPITAL LETTER ZEE|}$2",
+        ],
+        "description": [
+            "Code: U+1041E",
+            "Character/Symbol: 𐐞",
+            "Name: DESERET CAPITAL LETTER ZEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐟 U+1041F DESERET CAPITAL LETTER ESH": 
+    {
+        "prefix": [
+            "..U.1041F",
+            "..U.DESERET CAPITAL LETTER ESH",
+            "U+1041F",
+        ],
+        "body": [
+            "${1|𐐟,&#x1041F;,U+1041F,0x1041F,DESERET CAPITAL LETTER ESH|}$2",
+        ],
+        "description": [
+            "Code: U+1041F",
+            "Character/Symbol: 𐐟",
+            "Name: DESERET CAPITAL LETTER ESH",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐠 U+10420 DESERET CAPITAL LETTER ZHEE": 
+    {
+        "prefix": [
+            "..U.10420",
+            "..U.DESERET CAPITAL LETTER ZHEE",
+            "U+10420",
+        ],
+        "body": [
+            "${1|𐐠,&#x10420;,U+10420,0x10420,DESERET CAPITAL LETTER ZHEE|}$2",
+        ],
+        "description": [
+            "Code: U+10420",
+            "Character/Symbol: 𐐠",
+            "Name: DESERET CAPITAL LETTER ZHEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐡 U+10421 DESERET CAPITAL LETTER ER": 
+    {
+        "prefix": [
+            "..U.10421",
+            "..U.DESERET CAPITAL LETTER ER",
+            "U+10421",
+        ],
+        "body": [
+            "${1|𐐡,&#x10421;,U+10421,0x10421,DESERET CAPITAL LETTER ER|}$2",
+        ],
+        "description": [
+            "Code: U+10421",
+            "Character/Symbol: 𐐡",
+            "Name: DESERET CAPITAL LETTER ER",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐢 U+10422 DESERET CAPITAL LETTER EL": 
+    {
+        "prefix": [
+            "..U.10422",
+            "..U.DESERET CAPITAL LETTER EL",
+            "U+10422",
+        ],
+        "body": [
+            "${1|𐐢,&#x10422;,U+10422,0x10422,DESERET CAPITAL LETTER EL|}$2",
+        ],
+        "description": [
+            "Code: U+10422",
+            "Character/Symbol: 𐐢",
+            "Name: DESERET CAPITAL LETTER EL",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐣 U+10423 DESERET CAPITAL LETTER EM": 
+    {
+        "prefix": [
+            "..U.10423",
+            "..U.DESERET CAPITAL LETTER EM",
+            "U+10423",
+        ],
+        "body": [
+            "${1|𐐣,&#x10423;,U+10423,0x10423,DESERET CAPITAL LETTER EM|}$2",
+        ],
+        "description": [
+            "Code: U+10423",
+            "Character/Symbol: 𐐣",
+            "Name: DESERET CAPITAL LETTER EM",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐤 U+10424 DESERET CAPITAL LETTER EN": 
+    {
+        "prefix": [
+            "..U.10424",
+            "..U.DESERET CAPITAL LETTER EN",
+            "U+10424",
+        ],
+        "body": [
+            "${1|𐐤,&#x10424;,U+10424,0x10424,DESERET CAPITAL LETTER EN|}$2",
+        ],
+        "description": [
+            "Code: U+10424",
+            "Character/Symbol: 𐐤",
+            "Name: DESERET CAPITAL LETTER EN",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐥 U+10425 DESERET CAPITAL LETTER ENG": 
+    {
+        "prefix": [
+            "..U.10425",
+            "..U.DESERET CAPITAL LETTER ENG",
+            "U+10425",
+        ],
+        "body": [
+            "${1|𐐥,&#x10425;,U+10425,0x10425,DESERET CAPITAL LETTER ENG|}$2",
+        ],
+        "description": [
+            "Code: U+10425",
+            "Character/Symbol: 𐐥",
+            "Name: DESERET CAPITAL LETTER ENG",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐦 U+10426 DESERET CAPITAL LETTER OI": 
+    {
+        "prefix": [
+            "..U.10426",
+            "..U.DESERET CAPITAL LETTER OI",
+            "U+10426",
+        ],
+        "body": [
+            "${1|𐐦,&#x10426;,U+10426,0x10426,DESERET CAPITAL LETTER OI|}$2",
+        ],
+        "description": [
+            "Code: U+10426",
+            "Character/Symbol: 𐐦",
+            "Name: DESERET CAPITAL LETTER OI",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐧 U+10427 DESERET CAPITAL LETTER EW": 
+    {
+        "prefix": [
+            "..U.10427",
+            "..U.DESERET CAPITAL LETTER EW",
+            "U+10427",
+        ],
+        "body": [
+            "${1|𐐧,&#x10427;,U+10427,0x10427,DESERET CAPITAL LETTER EW|}$2",
+        ],
+        "description": [
+            "Code: U+10427",
+            "Character/Symbol: 𐐧",
+            "Name: DESERET CAPITAL LETTER EW",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐨 U+10428 DESERET SMALL LETTER LONG I": 
+    {
+        "prefix": [
+            "..U.10428",
+            "..U.DESERET SMALL LETTER LONG I",
+            "U+10428",
+        ],
+        "body": [
+            "${1|𐐨,&#x10428;,U+10428,0x10428,DESERET SMALL LETTER LONG I|}$2",
+        ],
+        "description": [
+            "Code: U+10428",
+            "Character/Symbol: 𐐨",
+            "Name: DESERET SMALL LETTER LONG I",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐩 U+10429 DESERET SMALL LETTER LONG E": 
+    {
+        "prefix": [
+            "..U.10429",
+            "..U.DESERET SMALL LETTER LONG E",
+            "U+10429",
+        ],
+        "body": [
+            "${1|𐐩,&#x10429;,U+10429,0x10429,DESERET SMALL LETTER LONG E|}$2",
+        ],
+        "description": [
+            "Code: U+10429",
+            "Character/Symbol: 𐐩",
+            "Name: DESERET SMALL LETTER LONG E",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐪 U+1042A DESERET SMALL LETTER LONG A": 
+    {
+        "prefix": [
+            "..U.1042A",
+            "..U.DESERET SMALL LETTER LONG A",
+            "U+1042A",
+        ],
+        "body": [
+            "${1|𐐪,&#x1042A;,U+1042A,0x1042A,DESERET SMALL LETTER LONG A|}$2",
+        ],
+        "description": [
+            "Code: U+1042A",
+            "Character/Symbol: 𐐪",
+            "Name: DESERET SMALL LETTER LONG A",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐫 U+1042B DESERET SMALL LETTER LONG AH": 
+    {
+        "prefix": [
+            "..U.1042B",
+            "..U.DESERET SMALL LETTER LONG AH",
+            "U+1042B",
+        ],
+        "body": [
+            "${1|𐐫,&#x1042B;,U+1042B,0x1042B,DESERET SMALL LETTER LONG AH|}$2",
+        ],
+        "description": [
+            "Code: U+1042B",
+            "Character/Symbol: 𐐫",
+            "Name: DESERET SMALL LETTER LONG AH",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐬 U+1042C DESERET SMALL LETTER LONG O": 
+    {
+        "prefix": [
+            "..U.1042C",
+            "..U.DESERET SMALL LETTER LONG O",
+            "U+1042C",
+        ],
+        "body": [
+            "${1|𐐬,&#x1042C;,U+1042C,0x1042C,DESERET SMALL LETTER LONG O|}$2",
+        ],
+        "description": [
+            "Code: U+1042C",
+            "Character/Symbol: 𐐬",
+            "Name: DESERET SMALL LETTER LONG O",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐭 U+1042D DESERET SMALL LETTER LONG OO": 
+    {
+        "prefix": [
+            "..U.1042D",
+            "..U.DESERET SMALL LETTER LONG OO",
+            "U+1042D",
+        ],
+        "body": [
+            "${1|𐐭,&#x1042D;,U+1042D,0x1042D,DESERET SMALL LETTER LONG OO|}$2",
+        ],
+        "description": [
+            "Code: U+1042D",
+            "Character/Symbol: 𐐭",
+            "Name: DESERET SMALL LETTER LONG OO",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐮 U+1042E DESERET SMALL LETTER SHORT I": 
+    {
+        "prefix": [
+            "..U.1042E",
+            "..U.DESERET SMALL LETTER SHORT I",
+            "U+1042E",
+        ],
+        "body": [
+            "${1|𐐮,&#x1042E;,U+1042E,0x1042E,DESERET SMALL LETTER SHORT I|}$2",
+        ],
+        "description": [
+            "Code: U+1042E",
+            "Character/Symbol: 𐐮",
+            "Name: DESERET SMALL LETTER SHORT I",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐯 U+1042F DESERET SMALL LETTER SHORT E": 
+    {
+        "prefix": [
+            "..U.1042F",
+            "..U.DESERET SMALL LETTER SHORT E",
+            "U+1042F",
+        ],
+        "body": [
+            "${1|𐐯,&#x1042F;,U+1042F,0x1042F,DESERET SMALL LETTER SHORT E|}$2",
+        ],
+        "description": [
+            "Code: U+1042F",
+            "Character/Symbol: 𐐯",
+            "Name: DESERET SMALL LETTER SHORT E",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐰 U+10430 DESERET SMALL LETTER SHORT A": 
+    {
+        "prefix": [
+            "..U.10430",
+            "..U.DESERET SMALL LETTER SHORT A",
+            "U+10430",
+        ],
+        "body": [
+            "${1|𐐰,&#x10430;,U+10430,0x10430,DESERET SMALL LETTER SHORT A|}$2",
+        ],
+        "description": [
+            "Code: U+10430",
+            "Character/Symbol: 𐐰",
+            "Name: DESERET SMALL LETTER SHORT A",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐱 U+10431 DESERET SMALL LETTER SHORT AH": 
+    {
+        "prefix": [
+            "..U.10431",
+            "..U.DESERET SMALL LETTER SHORT AH",
+            "U+10431",
+        ],
+        "body": [
+            "${1|𐐱,&#x10431;,U+10431,0x10431,DESERET SMALL LETTER SHORT AH|}$2",
+        ],
+        "description": [
+            "Code: U+10431",
+            "Character/Symbol: 𐐱",
+            "Name: DESERET SMALL LETTER SHORT AH",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐲 U+10432 DESERET SMALL LETTER SHORT O": 
+    {
+        "prefix": [
+            "..U.10432",
+            "..U.DESERET SMALL LETTER SHORT O",
+            "U+10432",
+        ],
+        "body": [
+            "${1|𐐲,&#x10432;,U+10432,0x10432,DESERET SMALL LETTER SHORT O|}$2",
+        ],
+        "description": [
+            "Code: U+10432",
+            "Character/Symbol: 𐐲",
+            "Name: DESERET SMALL LETTER SHORT O",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐳 U+10433 DESERET SMALL LETTER SHORT OO": 
+    {
+        "prefix": [
+            "..U.10433",
+            "..U.DESERET SMALL LETTER SHORT OO",
+            "U+10433",
+        ],
+        "body": [
+            "${1|𐐳,&#x10433;,U+10433,0x10433,DESERET SMALL LETTER SHORT OO|}$2",
+        ],
+        "description": [
+            "Code: U+10433",
+            "Character/Symbol: 𐐳",
+            "Name: DESERET SMALL LETTER SHORT OO",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐴 U+10434 DESERET SMALL LETTER AY": 
+    {
+        "prefix": [
+            "..U.10434",
+            "..U.DESERET SMALL LETTER AY",
+            "U+10434",
+        ],
+        "body": [
+            "${1|𐐴,&#x10434;,U+10434,0x10434,DESERET SMALL LETTER AY|}$2",
+        ],
+        "description": [
+            "Code: U+10434",
+            "Character/Symbol: 𐐴",
+            "Name: DESERET SMALL LETTER AY",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐵 U+10435 DESERET SMALL LETTER OW": 
+    {
+        "prefix": [
+            "..U.10435",
+            "..U.DESERET SMALL LETTER OW",
+            "U+10435",
+        ],
+        "body": [
+            "${1|𐐵,&#x10435;,U+10435,0x10435,DESERET SMALL LETTER OW|}$2",
+        ],
+        "description": [
+            "Code: U+10435",
+            "Character/Symbol: 𐐵",
+            "Name: DESERET SMALL LETTER OW",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐶 U+10436 DESERET SMALL LETTER WU": 
+    {
+        "prefix": [
+            "..U.10436",
+            "..U.DESERET SMALL LETTER WU",
+            "U+10436",
+        ],
+        "body": [
+            "${1|𐐶,&#x10436;,U+10436,0x10436,DESERET SMALL LETTER WU|}$2",
+        ],
+        "description": [
+            "Code: U+10436",
+            "Character/Symbol: 𐐶",
+            "Name: DESERET SMALL LETTER WU",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐷 U+10437 DESERET SMALL LETTER YEE": 
+    {
+        "prefix": [
+            "..U.10437",
+            "..U.DESERET SMALL LETTER YEE",
+            "U+10437",
+        ],
+        "body": [
+            "${1|𐐷,&#x10437;,U+10437,0x10437,DESERET SMALL LETTER YEE|}$2",
+        ],
+        "description": [
+            "Code: U+10437",
+            "Character/Symbol: 𐐷",
+            "Name: DESERET SMALL LETTER YEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐸 U+10438 DESERET SMALL LETTER H": 
+    {
+        "prefix": [
+            "..U.10438",
+            "..U.DESERET SMALL LETTER H",
+            "U+10438",
+        ],
+        "body": [
+            "${1|𐐸,&#x10438;,U+10438,0x10438,DESERET SMALL LETTER H|}$2",
+        ],
+        "description": [
+            "Code: U+10438",
+            "Character/Symbol: 𐐸",
+            "Name: DESERET SMALL LETTER H",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐹 U+10439 DESERET SMALL LETTER PEE": 
+    {
+        "prefix": [
+            "..U.10439",
+            "..U.DESERET SMALL LETTER PEE",
+            "U+10439",
+        ],
+        "body": [
+            "${1|𐐹,&#x10439;,U+10439,0x10439,DESERET SMALL LETTER PEE|}$2",
+        ],
+        "description": [
+            "Code: U+10439",
+            "Character/Symbol: 𐐹",
+            "Name: DESERET SMALL LETTER PEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐺 U+1043A DESERET SMALL LETTER BEE": 
+    {
+        "prefix": [
+            "..U.1043A",
+            "..U.DESERET SMALL LETTER BEE",
+            "U+1043A",
+        ],
+        "body": [
+            "${1|𐐺,&#x1043A;,U+1043A,0x1043A,DESERET SMALL LETTER BEE|}$2",
+        ],
+        "description": [
+            "Code: U+1043A",
+            "Character/Symbol: 𐐺",
+            "Name: DESERET SMALL LETTER BEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐻 U+1043B DESERET SMALL LETTER TEE": 
+    {
+        "prefix": [
+            "..U.1043B",
+            "..U.DESERET SMALL LETTER TEE",
+            "U+1043B",
+        ],
+        "body": [
+            "${1|𐐻,&#x1043B;,U+1043B,0x1043B,DESERET SMALL LETTER TEE|}$2",
+        ],
+        "description": [
+            "Code: U+1043B",
+            "Character/Symbol: 𐐻",
+            "Name: DESERET SMALL LETTER TEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐼 U+1043C DESERET SMALL LETTER DEE": 
+    {
+        "prefix": [
+            "..U.1043C",
+            "..U.DESERET SMALL LETTER DEE",
+            "U+1043C",
+        ],
+        "body": [
+            "${1|𐐼,&#x1043C;,U+1043C,0x1043C,DESERET SMALL LETTER DEE|}$2",
+        ],
+        "description": [
+            "Code: U+1043C",
+            "Character/Symbol: 𐐼",
+            "Name: DESERET SMALL LETTER DEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐽 U+1043D DESERET SMALL LETTER CHEE": 
+    {
+        "prefix": [
+            "..U.1043D",
+            "..U.DESERET SMALL LETTER CHEE",
+            "U+1043D",
+        ],
+        "body": [
+            "${1|𐐽,&#x1043D;,U+1043D,0x1043D,DESERET SMALL LETTER CHEE|}$2",
+        ],
+        "description": [
+            "Code: U+1043D",
+            "Character/Symbol: 𐐽",
+            "Name: DESERET SMALL LETTER CHEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐾 U+1043E DESERET SMALL LETTER JEE": 
+    {
+        "prefix": [
+            "..U.1043E",
+            "..U.DESERET SMALL LETTER JEE",
+            "U+1043E",
+        ],
+        "body": [
+            "${1|𐐾,&#x1043E;,U+1043E,0x1043E,DESERET SMALL LETTER JEE|}$2",
+        ],
+        "description": [
+            "Code: U+1043E",
+            "Character/Symbol: 𐐾",
+            "Name: DESERET SMALL LETTER JEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐐿 U+1043F DESERET SMALL LETTER KAY": 
+    {
+        "prefix": [
+            "..U.1043F",
+            "..U.DESERET SMALL LETTER KAY",
+            "U+1043F",
+        ],
+        "body": [
+            "${1|𐐿,&#x1043F;,U+1043F,0x1043F,DESERET SMALL LETTER KAY|}$2",
+        ],
+        "description": [
+            "Code: U+1043F",
+            "Character/Symbol: 𐐿",
+            "Name: DESERET SMALL LETTER KAY",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑀 U+10440 DESERET SMALL LETTER GAY": 
+    {
+        "prefix": [
+            "..U.10440",
+            "..U.DESERET SMALL LETTER GAY",
+            "U+10440",
+        ],
+        "body": [
+            "${1|𐑀,&#x10440;,U+10440,0x10440,DESERET SMALL LETTER GAY|}$2",
+        ],
+        "description": [
+            "Code: U+10440",
+            "Character/Symbol: 𐑀",
+            "Name: DESERET SMALL LETTER GAY",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑁 U+10441 DESERET SMALL LETTER EF": 
+    {
+        "prefix": [
+            "..U.10441",
+            "..U.DESERET SMALL LETTER EF",
+            "U+10441",
+        ],
+        "body": [
+            "${1|𐑁,&#x10441;,U+10441,0x10441,DESERET SMALL LETTER EF|}$2",
+        ],
+        "description": [
+            "Code: U+10441",
+            "Character/Symbol: 𐑁",
+            "Name: DESERET SMALL LETTER EF",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑂 U+10442 DESERET SMALL LETTER VEE": 
+    {
+        "prefix": [
+            "..U.10442",
+            "..U.DESERET SMALL LETTER VEE",
+            "U+10442",
+        ],
+        "body": [
+            "${1|𐑂,&#x10442;,U+10442,0x10442,DESERET SMALL LETTER VEE|}$2",
+        ],
+        "description": [
+            "Code: U+10442",
+            "Character/Symbol: 𐑂",
+            "Name: DESERET SMALL LETTER VEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑃 U+10443 DESERET SMALL LETTER ETH": 
+    {
+        "prefix": [
+            "..U.10443",
+            "..U.DESERET SMALL LETTER ETH",
+            "U+10443",
+        ],
+        "body": [
+            "${1|𐑃,&#x10443;,U+10443,0x10443,DESERET SMALL LETTER ETH|}$2",
+        ],
+        "description": [
+            "Code: U+10443",
+            "Character/Symbol: 𐑃",
+            "Name: DESERET SMALL LETTER ETH",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑄 U+10444 DESERET SMALL LETTER THEE": 
+    {
+        "prefix": [
+            "..U.10444",
+            "..U.DESERET SMALL LETTER THEE",
+            "U+10444",
+        ],
+        "body": [
+            "${1|𐑄,&#x10444;,U+10444,0x10444,DESERET SMALL LETTER THEE|}$2",
+        ],
+        "description": [
+            "Code: U+10444",
+            "Character/Symbol: 𐑄",
+            "Name: DESERET SMALL LETTER THEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑅 U+10445 DESERET SMALL LETTER ES": 
+    {
+        "prefix": [
+            "..U.10445",
+            "..U.DESERET SMALL LETTER ES",
+            "U+10445",
+        ],
+        "body": [
+            "${1|𐑅,&#x10445;,U+10445,0x10445,DESERET SMALL LETTER ES|}$2",
+        ],
+        "description": [
+            "Code: U+10445",
+            "Character/Symbol: 𐑅",
+            "Name: DESERET SMALL LETTER ES",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑆 U+10446 DESERET SMALL LETTER ZEE": 
+    {
+        "prefix": [
+            "..U.10446",
+            "..U.DESERET SMALL LETTER ZEE",
+            "U+10446",
+        ],
+        "body": [
+            "${1|𐑆,&#x10446;,U+10446,0x10446,DESERET SMALL LETTER ZEE|}$2",
+        ],
+        "description": [
+            "Code: U+10446",
+            "Character/Symbol: 𐑆",
+            "Name: DESERET SMALL LETTER ZEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑇 U+10447 DESERET SMALL LETTER ESH": 
+    {
+        "prefix": [
+            "..U.10447",
+            "..U.DESERET SMALL LETTER ESH",
+            "U+10447",
+        ],
+        "body": [
+            "${1|𐑇,&#x10447;,U+10447,0x10447,DESERET SMALL LETTER ESH|}$2",
+        ],
+        "description": [
+            "Code: U+10447",
+            "Character/Symbol: 𐑇",
+            "Name: DESERET SMALL LETTER ESH",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑈 U+10448 DESERET SMALL LETTER ZHEE": 
+    {
+        "prefix": [
+            "..U.10448",
+            "..U.DESERET SMALL LETTER ZHEE",
+            "U+10448",
+        ],
+        "body": [
+            "${1|𐑈,&#x10448;,U+10448,0x10448,DESERET SMALL LETTER ZHEE|}$2",
+        ],
+        "description": [
+            "Code: U+10448",
+            "Character/Symbol: 𐑈",
+            "Name: DESERET SMALL LETTER ZHEE",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑉 U+10449 DESERET SMALL LETTER ER": 
+    {
+        "prefix": [
+            "..U.10449",
+            "..U.DESERET SMALL LETTER ER",
+            "U+10449",
+        ],
+        "body": [
+            "${1|𐑉,&#x10449;,U+10449,0x10449,DESERET SMALL LETTER ER|}$2",
+        ],
+        "description": [
+            "Code: U+10449",
+            "Character/Symbol: 𐑉",
+            "Name: DESERET SMALL LETTER ER",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑊 U+1044A DESERET SMALL LETTER EL": 
+    {
+        "prefix": [
+            "..U.1044A",
+            "..U.DESERET SMALL LETTER EL",
+            "U+1044A",
+        ],
+        "body": [
+            "${1|𐑊,&#x1044A;,U+1044A,0x1044A,DESERET SMALL LETTER EL|}$2",
+        ],
+        "description": [
+            "Code: U+1044A",
+            "Character/Symbol: 𐑊",
+            "Name: DESERET SMALL LETTER EL",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑋 U+1044B DESERET SMALL LETTER EM": 
+    {
+        "prefix": [
+            "..U.1044B",
+            "..U.DESERET SMALL LETTER EM",
+            "U+1044B",
+        ],
+        "body": [
+            "${1|𐑋,&#x1044B;,U+1044B,0x1044B,DESERET SMALL LETTER EM|}$2",
+        ],
+        "description": [
+            "Code: U+1044B",
+            "Character/Symbol: 𐑋",
+            "Name: DESERET SMALL LETTER EM",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑌 U+1044C DESERET SMALL LETTER EN": 
+    {
+        "prefix": [
+            "..U.1044C",
+            "..U.DESERET SMALL LETTER EN",
+            "U+1044C",
+        ],
+        "body": [
+            "${1|𐑌,&#x1044C;,U+1044C,0x1044C,DESERET SMALL LETTER EN|}$2",
+        ],
+        "description": [
+            "Code: U+1044C",
+            "Character/Symbol: 𐑌",
+            "Name: DESERET SMALL LETTER EN",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑍 U+1044D DESERET SMALL LETTER ENG": 
+    {
+        "prefix": [
+            "..U.1044D",
+            "..U.DESERET SMALL LETTER ENG",
+            "U+1044D",
+        ],
+        "body": [
+            "${1|𐑍,&#x1044D;,U+1044D,0x1044D,DESERET SMALL LETTER ENG|}$2",
+        ],
+        "description": [
+            "Code: U+1044D",
+            "Character/Symbol: 𐑍",
+            "Name: DESERET SMALL LETTER ENG",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑎 U+1044E DESERET SMALL LETTER OI": 
+    {
+        "prefix": [
+            "..U.1044E",
+            "..U.DESERET SMALL LETTER OI",
+            "U+1044E",
+        ],
+        "body": [
+            "${1|𐑎,&#x1044E;,U+1044E,0x1044E,DESERET SMALL LETTER OI|}$2",
+        ],
+        "description": [
+            "Code: U+1044E",
+            "Character/Symbol: 𐑎",
+            "Name: DESERET SMALL LETTER OI",
+            "Group/Block: Deseret",
+        ],
+    },
+
+    "Unicode 𐑏 U+1044F DESERET SMALL LETTER EW": 
+    {
+        "prefix": [
+            "..U.1044F",
+            "..U.DESERET SMALL LETTER EW",
+            "U+1044F",
+        ],
+        "body": [
+            "${1|𐑏,&#x1044F;,U+1044F,0x1044F,DESERET SMALL LETTER EW|}$2",
+        ],
+        "description": [
+            "Code: U+1044F",
+            "Character/Symbol: 𐑏",
+            "Name: DESERET SMALL LETTER EW",
+            "Group/Block: Deseret",
+        ],
+    },
+
+}

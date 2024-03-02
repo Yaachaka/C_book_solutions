@@ -1,0 +1,1676 @@
+{
+    "Unicode ぁ U+3041 HIRAGANA LETTER SMALL A": 
+    {
+        "prefix": [
+            "..U.3041",
+            "..U.HIRAGANA LETTER SMALL A",
+            "U+3041",
+        ],
+        "body": [
+            "${1|ぁ,&#x3041;,U+3041,0x3041,HIRAGANA LETTER SMALL A|}$2",
+        ],
+        "description": [
+            "Code: U+3041",
+            "Character/Symbol: ぁ",
+            "Name: HIRAGANA LETTER SMALL A",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode あ U+3042 HIRAGANA LETTER A": 
+    {
+        "prefix": [
+            "..U.3042",
+            "..U.HIRAGANA LETTER A",
+            "U+3042",
+        ],
+        "body": [
+            "${1|あ,&#x3042;,U+3042,0x3042,HIRAGANA LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+3042",
+            "Character/Symbol: あ",
+            "Name: HIRAGANA LETTER A",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぃ U+3043 HIRAGANA LETTER SMALL I": 
+    {
+        "prefix": [
+            "..U.3043",
+            "..U.HIRAGANA LETTER SMALL I",
+            "U+3043",
+        ],
+        "body": [
+            "${1|ぃ,&#x3043;,U+3043,0x3043,HIRAGANA LETTER SMALL I|}$2",
+        ],
+        "description": [
+            "Code: U+3043",
+            "Character/Symbol: ぃ",
+            "Name: HIRAGANA LETTER SMALL I",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode い U+3044 HIRAGANA LETTER I": 
+    {
+        "prefix": [
+            "..U.3044",
+            "..U.HIRAGANA LETTER I",
+            "U+3044",
+        ],
+        "body": [
+            "${1|い,&#x3044;,U+3044,0x3044,HIRAGANA LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+3044",
+            "Character/Symbol: い",
+            "Name: HIRAGANA LETTER I",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぅ U+3045 HIRAGANA LETTER SMALL U": 
+    {
+        "prefix": [
+            "..U.3045",
+            "..U.HIRAGANA LETTER SMALL U",
+            "U+3045",
+        ],
+        "body": [
+            "${1|ぅ,&#x3045;,U+3045,0x3045,HIRAGANA LETTER SMALL U|}$2",
+        ],
+        "description": [
+            "Code: U+3045",
+            "Character/Symbol: ぅ",
+            "Name: HIRAGANA LETTER SMALL U",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode う U+3046 HIRAGANA LETTER U": 
+    {
+        "prefix": [
+            "..U.3046",
+            "..U.HIRAGANA LETTER U",
+            "U+3046",
+        ],
+        "body": [
+            "${1|う,&#x3046;,U+3046,0x3046,HIRAGANA LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+3046",
+            "Character/Symbol: う",
+            "Name: HIRAGANA LETTER U",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぇ U+3047 HIRAGANA LETTER SMALL E": 
+    {
+        "prefix": [
+            "..U.3047",
+            "..U.HIRAGANA LETTER SMALL E",
+            "U+3047",
+        ],
+        "body": [
+            "${1|ぇ,&#x3047;,U+3047,0x3047,HIRAGANA LETTER SMALL E|}$2",
+        ],
+        "description": [
+            "Code: U+3047",
+            "Character/Symbol: ぇ",
+            "Name: HIRAGANA LETTER SMALL E",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode え U+3048 HIRAGANA LETTER E": 
+    {
+        "prefix": [
+            "..U.3048",
+            "..U.HIRAGANA LETTER E",
+            "U+3048",
+        ],
+        "body": [
+            "${1|え,&#x3048;,U+3048,0x3048,HIRAGANA LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+3048",
+            "Character/Symbol: え",
+            "Name: HIRAGANA LETTER E",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぉ U+3049 HIRAGANA LETTER SMALL O": 
+    {
+        "prefix": [
+            "..U.3049",
+            "..U.HIRAGANA LETTER SMALL O",
+            "U+3049",
+        ],
+        "body": [
+            "${1|ぉ,&#x3049;,U+3049,0x3049,HIRAGANA LETTER SMALL O|}$2",
+        ],
+        "description": [
+            "Code: U+3049",
+            "Character/Symbol: ぉ",
+            "Name: HIRAGANA LETTER SMALL O",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode お U+304A HIRAGANA LETTER O": 
+    {
+        "prefix": [
+            "..U.304A",
+            "..U.HIRAGANA LETTER O",
+            "U+304A",
+        ],
+        "body": [
+            "${1|お,&#x304A;,U+304A,0x304A,HIRAGANA LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+304A",
+            "Character/Symbol: お",
+            "Name: HIRAGANA LETTER O",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode か U+304B HIRAGANA LETTER KA": 
+    {
+        "prefix": [
+            "..U.304B",
+            "..U.HIRAGANA LETTER KA",
+            "U+304B",
+        ],
+        "body": [
+            "${1|か,&#x304B;,U+304B,0x304B,HIRAGANA LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+304B",
+            "Character/Symbol: か",
+            "Name: HIRAGANA LETTER KA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode が U+304C HIRAGANA LETTER GA": 
+    {
+        "prefix": [
+            "..U.304C",
+            "..U.HIRAGANA LETTER GA",
+            "U+304C",
+        ],
+        "body": [
+            "${1|が,&#x304C;,U+304C,0x304C,HIRAGANA LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+304C",
+            "Character/Symbol: が",
+            "Name: HIRAGANA LETTER GA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode き U+304D HIRAGANA LETTER KI": 
+    {
+        "prefix": [
+            "..U.304D",
+            "..U.HIRAGANA LETTER KI",
+            "U+304D",
+        ],
+        "body": [
+            "${1|き,&#x304D;,U+304D,0x304D,HIRAGANA LETTER KI|}$2",
+        ],
+        "description": [
+            "Code: U+304D",
+            "Character/Symbol: き",
+            "Name: HIRAGANA LETTER KI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぎ U+304E HIRAGANA LETTER GI": 
+    {
+        "prefix": [
+            "..U.304E",
+            "..U.HIRAGANA LETTER GI",
+            "U+304E",
+        ],
+        "body": [
+            "${1|ぎ,&#x304E;,U+304E,0x304E,HIRAGANA LETTER GI|}$2",
+        ],
+        "description": [
+            "Code: U+304E",
+            "Character/Symbol: ぎ",
+            "Name: HIRAGANA LETTER GI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode く U+304F HIRAGANA LETTER KU": 
+    {
+        "prefix": [
+            "..U.304F",
+            "..U.HIRAGANA LETTER KU",
+            "U+304F",
+        ],
+        "body": [
+            "${1|く,&#x304F;,U+304F,0x304F,HIRAGANA LETTER KU|}$2",
+        ],
+        "description": [
+            "Code: U+304F",
+            "Character/Symbol: く",
+            "Name: HIRAGANA LETTER KU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぐ U+3050 HIRAGANA LETTER GU": 
+    {
+        "prefix": [
+            "..U.3050",
+            "..U.HIRAGANA LETTER GU",
+            "U+3050",
+        ],
+        "body": [
+            "${1|ぐ,&#x3050;,U+3050,0x3050,HIRAGANA LETTER GU|}$2",
+        ],
+        "description": [
+            "Code: U+3050",
+            "Character/Symbol: ぐ",
+            "Name: HIRAGANA LETTER GU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode け U+3051 HIRAGANA LETTER KE": 
+    {
+        "prefix": [
+            "..U.3051",
+            "..U.HIRAGANA LETTER KE",
+            "U+3051",
+        ],
+        "body": [
+            "${1|け,&#x3051;,U+3051,0x3051,HIRAGANA LETTER KE|}$2",
+        ],
+        "description": [
+            "Code: U+3051",
+            "Character/Symbol: け",
+            "Name: HIRAGANA LETTER KE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode げ U+3052 HIRAGANA LETTER GE": 
+    {
+        "prefix": [
+            "..U.3052",
+            "..U.HIRAGANA LETTER GE",
+            "U+3052",
+        ],
+        "body": [
+            "${1|げ,&#x3052;,U+3052,0x3052,HIRAGANA LETTER GE|}$2",
+        ],
+        "description": [
+            "Code: U+3052",
+            "Character/Symbol: げ",
+            "Name: HIRAGANA LETTER GE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode こ U+3053 HIRAGANA LETTER KO": 
+    {
+        "prefix": [
+            "..U.3053",
+            "..U.HIRAGANA LETTER KO",
+            "U+3053",
+        ],
+        "body": [
+            "${1|こ,&#x3053;,U+3053,0x3053,HIRAGANA LETTER KO|}$2",
+        ],
+        "description": [
+            "Code: U+3053",
+            "Character/Symbol: こ",
+            "Name: HIRAGANA LETTER KO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ご U+3054 HIRAGANA LETTER GO": 
+    {
+        "prefix": [
+            "..U.3054",
+            "..U.HIRAGANA LETTER GO",
+            "U+3054",
+        ],
+        "body": [
+            "${1|ご,&#x3054;,U+3054,0x3054,HIRAGANA LETTER GO|}$2",
+        ],
+        "description": [
+            "Code: U+3054",
+            "Character/Symbol: ご",
+            "Name: HIRAGANA LETTER GO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode さ U+3055 HIRAGANA LETTER SA": 
+    {
+        "prefix": [
+            "..U.3055",
+            "..U.HIRAGANA LETTER SA",
+            "U+3055",
+        ],
+        "body": [
+            "${1|さ,&#x3055;,U+3055,0x3055,HIRAGANA LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+3055",
+            "Character/Symbol: さ",
+            "Name: HIRAGANA LETTER SA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ざ U+3056 HIRAGANA LETTER ZA": 
+    {
+        "prefix": [
+            "..U.3056",
+            "..U.HIRAGANA LETTER ZA",
+            "U+3056",
+        ],
+        "body": [
+            "${1|ざ,&#x3056;,U+3056,0x3056,HIRAGANA LETTER ZA|}$2",
+        ],
+        "description": [
+            "Code: U+3056",
+            "Character/Symbol: ざ",
+            "Name: HIRAGANA LETTER ZA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode し U+3057 HIRAGANA LETTER SI": 
+    {
+        "prefix": [
+            "..U.3057",
+            "..U.HIRAGANA LETTER SI",
+            "U+3057",
+        ],
+        "body": [
+            "${1|し,&#x3057;,U+3057,0x3057,HIRAGANA LETTER SI|}$2",
+        ],
+        "description": [
+            "Code: U+3057",
+            "Character/Symbol: し",
+            "Name: HIRAGANA LETTER SI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode じ U+3058 HIRAGANA LETTER ZI": 
+    {
+        "prefix": [
+            "..U.3058",
+            "..U.HIRAGANA LETTER ZI",
+            "U+3058",
+        ],
+        "body": [
+            "${1|じ,&#x3058;,U+3058,0x3058,HIRAGANA LETTER ZI|}$2",
+        ],
+        "description": [
+            "Code: U+3058",
+            "Character/Symbol: じ",
+            "Name: HIRAGANA LETTER ZI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode す U+3059 HIRAGANA LETTER SU": 
+    {
+        "prefix": [
+            "..U.3059",
+            "..U.HIRAGANA LETTER SU",
+            "U+3059",
+        ],
+        "body": [
+            "${1|す,&#x3059;,U+3059,0x3059,HIRAGANA LETTER SU|}$2",
+        ],
+        "description": [
+            "Code: U+3059",
+            "Character/Symbol: す",
+            "Name: HIRAGANA LETTER SU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ず U+305A HIRAGANA LETTER ZU": 
+    {
+        "prefix": [
+            "..U.305A",
+            "..U.HIRAGANA LETTER ZU",
+            "U+305A",
+        ],
+        "body": [
+            "${1|ず,&#x305A;,U+305A,0x305A,HIRAGANA LETTER ZU|}$2",
+        ],
+        "description": [
+            "Code: U+305A",
+            "Character/Symbol: ず",
+            "Name: HIRAGANA LETTER ZU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode せ U+305B HIRAGANA LETTER SE": 
+    {
+        "prefix": [
+            "..U.305B",
+            "..U.HIRAGANA LETTER SE",
+            "U+305B",
+        ],
+        "body": [
+            "${1|せ,&#x305B;,U+305B,0x305B,HIRAGANA LETTER SE|}$2",
+        ],
+        "description": [
+            "Code: U+305B",
+            "Character/Symbol: せ",
+            "Name: HIRAGANA LETTER SE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぜ U+305C HIRAGANA LETTER ZE": 
+    {
+        "prefix": [
+            "..U.305C",
+            "..U.HIRAGANA LETTER ZE",
+            "U+305C",
+        ],
+        "body": [
+            "${1|ぜ,&#x305C;,U+305C,0x305C,HIRAGANA LETTER ZE|}$2",
+        ],
+        "description": [
+            "Code: U+305C",
+            "Character/Symbol: ぜ",
+            "Name: HIRAGANA LETTER ZE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode そ U+305D HIRAGANA LETTER SO": 
+    {
+        "prefix": [
+            "..U.305D",
+            "..U.HIRAGANA LETTER SO",
+            "U+305D",
+        ],
+        "body": [
+            "${1|そ,&#x305D;,U+305D,0x305D,HIRAGANA LETTER SO|}$2",
+        ],
+        "description": [
+            "Code: U+305D",
+            "Character/Symbol: そ",
+            "Name: HIRAGANA LETTER SO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぞ U+305E HIRAGANA LETTER ZO": 
+    {
+        "prefix": [
+            "..U.305E",
+            "..U.HIRAGANA LETTER ZO",
+            "U+305E",
+        ],
+        "body": [
+            "${1|ぞ,&#x305E;,U+305E,0x305E,HIRAGANA LETTER ZO|}$2",
+        ],
+        "description": [
+            "Code: U+305E",
+            "Character/Symbol: ぞ",
+            "Name: HIRAGANA LETTER ZO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode た U+305F HIRAGANA LETTER TA": 
+    {
+        "prefix": [
+            "..U.305F",
+            "..U.HIRAGANA LETTER TA",
+            "U+305F",
+        ],
+        "body": [
+            "${1|た,&#x305F;,U+305F,0x305F,HIRAGANA LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+305F",
+            "Character/Symbol: た",
+            "Name: HIRAGANA LETTER TA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode だ U+3060 HIRAGANA LETTER DA": 
+    {
+        "prefix": [
+            "..U.3060",
+            "..U.HIRAGANA LETTER DA",
+            "U+3060",
+        ],
+        "body": [
+            "${1|だ,&#x3060;,U+3060,0x3060,HIRAGANA LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+3060",
+            "Character/Symbol: だ",
+            "Name: HIRAGANA LETTER DA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ち U+3061 HIRAGANA LETTER TI": 
+    {
+        "prefix": [
+            "..U.3061",
+            "..U.HIRAGANA LETTER TI",
+            "U+3061",
+        ],
+        "body": [
+            "${1|ち,&#x3061;,U+3061,0x3061,HIRAGANA LETTER TI|}$2",
+        ],
+        "description": [
+            "Code: U+3061",
+            "Character/Symbol: ち",
+            "Name: HIRAGANA LETTER TI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぢ U+3062 HIRAGANA LETTER DI": 
+    {
+        "prefix": [
+            "..U.3062",
+            "..U.HIRAGANA LETTER DI",
+            "U+3062",
+        ],
+        "body": [
+            "${1|ぢ,&#x3062;,U+3062,0x3062,HIRAGANA LETTER DI|}$2",
+        ],
+        "description": [
+            "Code: U+3062",
+            "Character/Symbol: ぢ",
+            "Name: HIRAGANA LETTER DI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode っ U+3063 HIRAGANA LETTER SMALL TU": 
+    {
+        "prefix": [
+            "..U.3063",
+            "..U.HIRAGANA LETTER SMALL TU",
+            "U+3063",
+        ],
+        "body": [
+            "${1|っ,&#x3063;,U+3063,0x3063,HIRAGANA LETTER SMALL TU|}$2",
+        ],
+        "description": [
+            "Code: U+3063",
+            "Character/Symbol: っ",
+            "Name: HIRAGANA LETTER SMALL TU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode つ U+3064 HIRAGANA LETTER TU": 
+    {
+        "prefix": [
+            "..U.3064",
+            "..U.HIRAGANA LETTER TU",
+            "U+3064",
+        ],
+        "body": [
+            "${1|つ,&#x3064;,U+3064,0x3064,HIRAGANA LETTER TU|}$2",
+        ],
+        "description": [
+            "Code: U+3064",
+            "Character/Symbol: つ",
+            "Name: HIRAGANA LETTER TU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode づ U+3065 HIRAGANA LETTER DU": 
+    {
+        "prefix": [
+            "..U.3065",
+            "..U.HIRAGANA LETTER DU",
+            "U+3065",
+        ],
+        "body": [
+            "${1|づ,&#x3065;,U+3065,0x3065,HIRAGANA LETTER DU|}$2",
+        ],
+        "description": [
+            "Code: U+3065",
+            "Character/Symbol: づ",
+            "Name: HIRAGANA LETTER DU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode て U+3066 HIRAGANA LETTER TE": 
+    {
+        "prefix": [
+            "..U.3066",
+            "..U.HIRAGANA LETTER TE",
+            "U+3066",
+        ],
+        "body": [
+            "${1|て,&#x3066;,U+3066,0x3066,HIRAGANA LETTER TE|}$2",
+        ],
+        "description": [
+            "Code: U+3066",
+            "Character/Symbol: て",
+            "Name: HIRAGANA LETTER TE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode で U+3067 HIRAGANA LETTER DE": 
+    {
+        "prefix": [
+            "..U.3067",
+            "..U.HIRAGANA LETTER DE",
+            "U+3067",
+        ],
+        "body": [
+            "${1|で,&#x3067;,U+3067,0x3067,HIRAGANA LETTER DE|}$2",
+        ],
+        "description": [
+            "Code: U+3067",
+            "Character/Symbol: で",
+            "Name: HIRAGANA LETTER DE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode と U+3068 HIRAGANA LETTER TO": 
+    {
+        "prefix": [
+            "..U.3068",
+            "..U.HIRAGANA LETTER TO",
+            "U+3068",
+        ],
+        "body": [
+            "${1|と,&#x3068;,U+3068,0x3068,HIRAGANA LETTER TO|}$2",
+        ],
+        "description": [
+            "Code: U+3068",
+            "Character/Symbol: と",
+            "Name: HIRAGANA LETTER TO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ど U+3069 HIRAGANA LETTER DO": 
+    {
+        "prefix": [
+            "..U.3069",
+            "..U.HIRAGANA LETTER DO",
+            "U+3069",
+        ],
+        "body": [
+            "${1|ど,&#x3069;,U+3069,0x3069,HIRAGANA LETTER DO|}$2",
+        ],
+        "description": [
+            "Code: U+3069",
+            "Character/Symbol: ど",
+            "Name: HIRAGANA LETTER DO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode な U+306A HIRAGANA LETTER NA": 
+    {
+        "prefix": [
+            "..U.306A",
+            "..U.HIRAGANA LETTER NA",
+            "U+306A",
+        ],
+        "body": [
+            "${1|な,&#x306A;,U+306A,0x306A,HIRAGANA LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+306A",
+            "Character/Symbol: な",
+            "Name: HIRAGANA LETTER NA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode に U+306B HIRAGANA LETTER NI": 
+    {
+        "prefix": [
+            "..U.306B",
+            "..U.HIRAGANA LETTER NI",
+            "U+306B",
+        ],
+        "body": [
+            "${1|に,&#x306B;,U+306B,0x306B,HIRAGANA LETTER NI|}$2",
+        ],
+        "description": [
+            "Code: U+306B",
+            "Character/Symbol: に",
+            "Name: HIRAGANA LETTER NI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぬ U+306C HIRAGANA LETTER NU": 
+    {
+        "prefix": [
+            "..U.306C",
+            "..U.HIRAGANA LETTER NU",
+            "U+306C",
+        ],
+        "body": [
+            "${1|ぬ,&#x306C;,U+306C,0x306C,HIRAGANA LETTER NU|}$2",
+        ],
+        "description": [
+            "Code: U+306C",
+            "Character/Symbol: ぬ",
+            "Name: HIRAGANA LETTER NU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ね U+306D HIRAGANA LETTER NE": 
+    {
+        "prefix": [
+            "..U.306D",
+            "..U.HIRAGANA LETTER NE",
+            "U+306D",
+        ],
+        "body": [
+            "${1|ね,&#x306D;,U+306D,0x306D,HIRAGANA LETTER NE|}$2",
+        ],
+        "description": [
+            "Code: U+306D",
+            "Character/Symbol: ね",
+            "Name: HIRAGANA LETTER NE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode の U+306E HIRAGANA LETTER NO": 
+    {
+        "prefix": [
+            "..U.306E",
+            "..U.HIRAGANA LETTER NO",
+            "U+306E",
+        ],
+        "body": [
+            "${1|の,&#x306E;,U+306E,0x306E,HIRAGANA LETTER NO|}$2",
+        ],
+        "description": [
+            "Code: U+306E",
+            "Character/Symbol: の",
+            "Name: HIRAGANA LETTER NO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode は U+306F HIRAGANA LETTER HA": 
+    {
+        "prefix": [
+            "..U.306F",
+            "..U.HIRAGANA LETTER HA",
+            "U+306F",
+        ],
+        "body": [
+            "${1|は,&#x306F;,U+306F,0x306F,HIRAGANA LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+306F",
+            "Character/Symbol: は",
+            "Name: HIRAGANA LETTER HA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ば U+3070 HIRAGANA LETTER BA": 
+    {
+        "prefix": [
+            "..U.3070",
+            "..U.HIRAGANA LETTER BA",
+            "U+3070",
+        ],
+        "body": [
+            "${1|ば,&#x3070;,U+3070,0x3070,HIRAGANA LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+3070",
+            "Character/Symbol: ば",
+            "Name: HIRAGANA LETTER BA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぱ U+3071 HIRAGANA LETTER PA": 
+    {
+        "prefix": [
+            "..U.3071",
+            "..U.HIRAGANA LETTER PA",
+            "U+3071",
+        ],
+        "body": [
+            "${1|ぱ,&#x3071;,U+3071,0x3071,HIRAGANA LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+3071",
+            "Character/Symbol: ぱ",
+            "Name: HIRAGANA LETTER PA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ひ U+3072 HIRAGANA LETTER HI": 
+    {
+        "prefix": [
+            "..U.3072",
+            "..U.HIRAGANA LETTER HI",
+            "U+3072",
+        ],
+        "body": [
+            "${1|ひ,&#x3072;,U+3072,0x3072,HIRAGANA LETTER HI|}$2",
+        ],
+        "description": [
+            "Code: U+3072",
+            "Character/Symbol: ひ",
+            "Name: HIRAGANA LETTER HI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode び U+3073 HIRAGANA LETTER BI": 
+    {
+        "prefix": [
+            "..U.3073",
+            "..U.HIRAGANA LETTER BI",
+            "U+3073",
+        ],
+        "body": [
+            "${1|び,&#x3073;,U+3073,0x3073,HIRAGANA LETTER BI|}$2",
+        ],
+        "description": [
+            "Code: U+3073",
+            "Character/Symbol: び",
+            "Name: HIRAGANA LETTER BI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぴ U+3074 HIRAGANA LETTER PI": 
+    {
+        "prefix": [
+            "..U.3074",
+            "..U.HIRAGANA LETTER PI",
+            "U+3074",
+        ],
+        "body": [
+            "${1|ぴ,&#x3074;,U+3074,0x3074,HIRAGANA LETTER PI|}$2",
+        ],
+        "description": [
+            "Code: U+3074",
+            "Character/Symbol: ぴ",
+            "Name: HIRAGANA LETTER PI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ふ U+3075 HIRAGANA LETTER HU": 
+    {
+        "prefix": [
+            "..U.3075",
+            "..U.HIRAGANA LETTER HU",
+            "U+3075",
+        ],
+        "body": [
+            "${1|ふ,&#x3075;,U+3075,0x3075,HIRAGANA LETTER HU|}$2",
+        ],
+        "description": [
+            "Code: U+3075",
+            "Character/Symbol: ふ",
+            "Name: HIRAGANA LETTER HU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぶ U+3076 HIRAGANA LETTER BU": 
+    {
+        "prefix": [
+            "..U.3076",
+            "..U.HIRAGANA LETTER BU",
+            "U+3076",
+        ],
+        "body": [
+            "${1|ぶ,&#x3076;,U+3076,0x3076,HIRAGANA LETTER BU|}$2",
+        ],
+        "description": [
+            "Code: U+3076",
+            "Character/Symbol: ぶ",
+            "Name: HIRAGANA LETTER BU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぷ U+3077 HIRAGANA LETTER PU": 
+    {
+        "prefix": [
+            "..U.3077",
+            "..U.HIRAGANA LETTER PU",
+            "U+3077",
+        ],
+        "body": [
+            "${1|ぷ,&#x3077;,U+3077,0x3077,HIRAGANA LETTER PU|}$2",
+        ],
+        "description": [
+            "Code: U+3077",
+            "Character/Symbol: ぷ",
+            "Name: HIRAGANA LETTER PU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode へ U+3078 HIRAGANA LETTER HE": 
+    {
+        "prefix": [
+            "..U.3078",
+            "..U.HIRAGANA LETTER HE",
+            "U+3078",
+        ],
+        "body": [
+            "${1|へ,&#x3078;,U+3078,0x3078,HIRAGANA LETTER HE|}$2",
+        ],
+        "description": [
+            "Code: U+3078",
+            "Character/Symbol: へ",
+            "Name: HIRAGANA LETTER HE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode べ U+3079 HIRAGANA LETTER BE": 
+    {
+        "prefix": [
+            "..U.3079",
+            "..U.HIRAGANA LETTER BE",
+            "U+3079",
+        ],
+        "body": [
+            "${1|べ,&#x3079;,U+3079,0x3079,HIRAGANA LETTER BE|}$2",
+        ],
+        "description": [
+            "Code: U+3079",
+            "Character/Symbol: べ",
+            "Name: HIRAGANA LETTER BE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぺ U+307A HIRAGANA LETTER PE": 
+    {
+        "prefix": [
+            "..U.307A",
+            "..U.HIRAGANA LETTER PE",
+            "U+307A",
+        ],
+        "body": [
+            "${1|ぺ,&#x307A;,U+307A,0x307A,HIRAGANA LETTER PE|}$2",
+        ],
+        "description": [
+            "Code: U+307A",
+            "Character/Symbol: ぺ",
+            "Name: HIRAGANA LETTER PE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ほ U+307B HIRAGANA LETTER HO": 
+    {
+        "prefix": [
+            "..U.307B",
+            "..U.HIRAGANA LETTER HO",
+            "U+307B",
+        ],
+        "body": [
+            "${1|ほ,&#x307B;,U+307B,0x307B,HIRAGANA LETTER HO|}$2",
+        ],
+        "description": [
+            "Code: U+307B",
+            "Character/Symbol: ほ",
+            "Name: HIRAGANA LETTER HO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぼ U+307C HIRAGANA LETTER BO": 
+    {
+        "prefix": [
+            "..U.307C",
+            "..U.HIRAGANA LETTER BO",
+            "U+307C",
+        ],
+        "body": [
+            "${1|ぼ,&#x307C;,U+307C,0x307C,HIRAGANA LETTER BO|}$2",
+        ],
+        "description": [
+            "Code: U+307C",
+            "Character/Symbol: ぼ",
+            "Name: HIRAGANA LETTER BO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ぽ U+307D HIRAGANA LETTER PO": 
+    {
+        "prefix": [
+            "..U.307D",
+            "..U.HIRAGANA LETTER PO",
+            "U+307D",
+        ],
+        "body": [
+            "${1|ぽ,&#x307D;,U+307D,0x307D,HIRAGANA LETTER PO|}$2",
+        ],
+        "description": [
+            "Code: U+307D",
+            "Character/Symbol: ぽ",
+            "Name: HIRAGANA LETTER PO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ま U+307E HIRAGANA LETTER MA": 
+    {
+        "prefix": [
+            "..U.307E",
+            "..U.HIRAGANA LETTER MA",
+            "U+307E",
+        ],
+        "body": [
+            "${1|ま,&#x307E;,U+307E,0x307E,HIRAGANA LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+307E",
+            "Character/Symbol: ま",
+            "Name: HIRAGANA LETTER MA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode み U+307F HIRAGANA LETTER MI": 
+    {
+        "prefix": [
+            "..U.307F",
+            "..U.HIRAGANA LETTER MI",
+            "U+307F",
+        ],
+        "body": [
+            "${1|み,&#x307F;,U+307F,0x307F,HIRAGANA LETTER MI|}$2",
+        ],
+        "description": [
+            "Code: U+307F",
+            "Character/Symbol: み",
+            "Name: HIRAGANA LETTER MI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode む U+3080 HIRAGANA LETTER MU": 
+    {
+        "prefix": [
+            "..U.3080",
+            "..U.HIRAGANA LETTER MU",
+            "U+3080",
+        ],
+        "body": [
+            "${1|む,&#x3080;,U+3080,0x3080,HIRAGANA LETTER MU|}$2",
+        ],
+        "description": [
+            "Code: U+3080",
+            "Character/Symbol: む",
+            "Name: HIRAGANA LETTER MU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode め U+3081 HIRAGANA LETTER ME": 
+    {
+        "prefix": [
+            "..U.3081",
+            "..U.HIRAGANA LETTER ME",
+            "U+3081",
+        ],
+        "body": [
+            "${1|め,&#x3081;,U+3081,0x3081,HIRAGANA LETTER ME|}$2",
+        ],
+        "description": [
+            "Code: U+3081",
+            "Character/Symbol: め",
+            "Name: HIRAGANA LETTER ME",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode も U+3082 HIRAGANA LETTER MO": 
+    {
+        "prefix": [
+            "..U.3082",
+            "..U.HIRAGANA LETTER MO",
+            "U+3082",
+        ],
+        "body": [
+            "${1|も,&#x3082;,U+3082,0x3082,HIRAGANA LETTER MO|}$2",
+        ],
+        "description": [
+            "Code: U+3082",
+            "Character/Symbol: も",
+            "Name: HIRAGANA LETTER MO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゃ U+3083 HIRAGANA LETTER SMALL YA": 
+    {
+        "prefix": [
+            "..U.3083",
+            "..U.HIRAGANA LETTER SMALL YA",
+            "U+3083",
+        ],
+        "body": [
+            "${1|ゃ,&#x3083;,U+3083,0x3083,HIRAGANA LETTER SMALL YA|}$2",
+        ],
+        "description": [
+            "Code: U+3083",
+            "Character/Symbol: ゃ",
+            "Name: HIRAGANA LETTER SMALL YA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode や U+3084 HIRAGANA LETTER YA": 
+    {
+        "prefix": [
+            "..U.3084",
+            "..U.HIRAGANA LETTER YA",
+            "U+3084",
+        ],
+        "body": [
+            "${1|や,&#x3084;,U+3084,0x3084,HIRAGANA LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+3084",
+            "Character/Symbol: や",
+            "Name: HIRAGANA LETTER YA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゅ U+3085 HIRAGANA LETTER SMALL YU": 
+    {
+        "prefix": [
+            "..U.3085",
+            "..U.HIRAGANA LETTER SMALL YU",
+            "U+3085",
+        ],
+        "body": [
+            "${1|ゅ,&#x3085;,U+3085,0x3085,HIRAGANA LETTER SMALL YU|}$2",
+        ],
+        "description": [
+            "Code: U+3085",
+            "Character/Symbol: ゅ",
+            "Name: HIRAGANA LETTER SMALL YU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゆ U+3086 HIRAGANA LETTER YU": 
+    {
+        "prefix": [
+            "..U.3086",
+            "..U.HIRAGANA LETTER YU",
+            "U+3086",
+        ],
+        "body": [
+            "${1|ゆ,&#x3086;,U+3086,0x3086,HIRAGANA LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+3086",
+            "Character/Symbol: ゆ",
+            "Name: HIRAGANA LETTER YU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ょ U+3087 HIRAGANA LETTER SMALL YO": 
+    {
+        "prefix": [
+            "..U.3087",
+            "..U.HIRAGANA LETTER SMALL YO",
+            "U+3087",
+        ],
+        "body": [
+            "${1|ょ,&#x3087;,U+3087,0x3087,HIRAGANA LETTER SMALL YO|}$2",
+        ],
+        "description": [
+            "Code: U+3087",
+            "Character/Symbol: ょ",
+            "Name: HIRAGANA LETTER SMALL YO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode よ U+3088 HIRAGANA LETTER YO": 
+    {
+        "prefix": [
+            "..U.3088",
+            "..U.HIRAGANA LETTER YO",
+            "U+3088",
+        ],
+        "body": [
+            "${1|よ,&#x3088;,U+3088,0x3088,HIRAGANA LETTER YO|}$2",
+        ],
+        "description": [
+            "Code: U+3088",
+            "Character/Symbol: よ",
+            "Name: HIRAGANA LETTER YO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ら U+3089 HIRAGANA LETTER RA": 
+    {
+        "prefix": [
+            "..U.3089",
+            "..U.HIRAGANA LETTER RA",
+            "U+3089",
+        ],
+        "body": [
+            "${1|ら,&#x3089;,U+3089,0x3089,HIRAGANA LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+3089",
+            "Character/Symbol: ら",
+            "Name: HIRAGANA LETTER RA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode り U+308A HIRAGANA LETTER RI": 
+    {
+        "prefix": [
+            "..U.308A",
+            "..U.HIRAGANA LETTER RI",
+            "U+308A",
+        ],
+        "body": [
+            "${1|り,&#x308A;,U+308A,0x308A,HIRAGANA LETTER RI|}$2",
+        ],
+        "description": [
+            "Code: U+308A",
+            "Character/Symbol: り",
+            "Name: HIRAGANA LETTER RI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode る U+308B HIRAGANA LETTER RU": 
+    {
+        "prefix": [
+            "..U.308B",
+            "..U.HIRAGANA LETTER RU",
+            "U+308B",
+        ],
+        "body": [
+            "${1|る,&#x308B;,U+308B,0x308B,HIRAGANA LETTER RU|}$2",
+        ],
+        "description": [
+            "Code: U+308B",
+            "Character/Symbol: る",
+            "Name: HIRAGANA LETTER RU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode れ U+308C HIRAGANA LETTER RE": 
+    {
+        "prefix": [
+            "..U.308C",
+            "..U.HIRAGANA LETTER RE",
+            "U+308C",
+        ],
+        "body": [
+            "${1|れ,&#x308C;,U+308C,0x308C,HIRAGANA LETTER RE|}$2",
+        ],
+        "description": [
+            "Code: U+308C",
+            "Character/Symbol: れ",
+            "Name: HIRAGANA LETTER RE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ろ U+308D HIRAGANA LETTER RO": 
+    {
+        "prefix": [
+            "..U.308D",
+            "..U.HIRAGANA LETTER RO",
+            "U+308D",
+        ],
+        "body": [
+            "${1|ろ,&#x308D;,U+308D,0x308D,HIRAGANA LETTER RO|}$2",
+        ],
+        "description": [
+            "Code: U+308D",
+            "Character/Symbol: ろ",
+            "Name: HIRAGANA LETTER RO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゎ U+308E HIRAGANA LETTER SMALL WA": 
+    {
+        "prefix": [
+            "..U.308E",
+            "..U.HIRAGANA LETTER SMALL WA",
+            "U+308E",
+        ],
+        "body": [
+            "${1|ゎ,&#x308E;,U+308E,0x308E,HIRAGANA LETTER SMALL WA|}$2",
+        ],
+        "description": [
+            "Code: U+308E",
+            "Character/Symbol: ゎ",
+            "Name: HIRAGANA LETTER SMALL WA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode わ U+308F HIRAGANA LETTER WA": 
+    {
+        "prefix": [
+            "..U.308F",
+            "..U.HIRAGANA LETTER WA",
+            "U+308F",
+        ],
+        "body": [
+            "${1|わ,&#x308F;,U+308F,0x308F,HIRAGANA LETTER WA|}$2",
+        ],
+        "description": [
+            "Code: U+308F",
+            "Character/Symbol: わ",
+            "Name: HIRAGANA LETTER WA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゐ U+3090 HIRAGANA LETTER WI": 
+    {
+        "prefix": [
+            "..U.3090",
+            "..U.HIRAGANA LETTER WI",
+            "U+3090",
+        ],
+        "body": [
+            "${1|ゐ,&#x3090;,U+3090,0x3090,HIRAGANA LETTER WI|}$2",
+        ],
+        "description": [
+            "Code: U+3090",
+            "Character/Symbol: ゐ",
+            "Name: HIRAGANA LETTER WI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゑ U+3091 HIRAGANA LETTER WE": 
+    {
+        "prefix": [
+            "..U.3091",
+            "..U.HIRAGANA LETTER WE",
+            "U+3091",
+        ],
+        "body": [
+            "${1|ゑ,&#x3091;,U+3091,0x3091,HIRAGANA LETTER WE|}$2",
+        ],
+        "description": [
+            "Code: U+3091",
+            "Character/Symbol: ゑ",
+            "Name: HIRAGANA LETTER WE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode を U+3092 HIRAGANA LETTER WO": 
+    {
+        "prefix": [
+            "..U.3092",
+            "..U.HIRAGANA LETTER WO",
+            "U+3092",
+        ],
+        "body": [
+            "${1|を,&#x3092;,U+3092,0x3092,HIRAGANA LETTER WO|}$2",
+        ],
+        "description": [
+            "Code: U+3092",
+            "Character/Symbol: を",
+            "Name: HIRAGANA LETTER WO",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ん U+3093 HIRAGANA LETTER N": 
+    {
+        "prefix": [
+            "..U.3093",
+            "..U.HIRAGANA LETTER N",
+            "U+3093",
+        ],
+        "body": [
+            "${1|ん,&#x3093;,U+3093,0x3093,HIRAGANA LETTER N|}$2",
+        ],
+        "description": [
+            "Code: U+3093",
+            "Character/Symbol: ん",
+            "Name: HIRAGANA LETTER N",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゔ U+3094 HIRAGANA LETTER VU": 
+    {
+        "prefix": [
+            "..U.3094",
+            "..U.HIRAGANA LETTER VU",
+            "U+3094",
+        ],
+        "body": [
+            "${1|ゔ,&#x3094;,U+3094,0x3094,HIRAGANA LETTER VU|}$2",
+        ],
+        "description": [
+            "Code: U+3094",
+            "Character/Symbol: ゔ",
+            "Name: HIRAGANA LETTER VU",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゕ U+3095 HIRAGANA LETTER SMALL KA": 
+    {
+        "prefix": [
+            "..U.3095",
+            "..U.HIRAGANA LETTER SMALL KA",
+            "U+3095",
+        ],
+        "body": [
+            "${1|ゕ,&#x3095;,U+3095,0x3095,HIRAGANA LETTER SMALL KA|}$2",
+        ],
+        "description": [
+            "Code: U+3095",
+            "Character/Symbol: ゕ",
+            "Name: HIRAGANA LETTER SMALL KA",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゖ U+3096 HIRAGANA LETTER SMALL KE": 
+    {
+        "prefix": [
+            "..U.3096",
+            "..U.HIRAGANA LETTER SMALL KE",
+            "U+3096",
+        ],
+        "body": [
+            "${1|ゖ,&#x3096;,U+3096,0x3096,HIRAGANA LETTER SMALL KE|}$2",
+        ],
+        "description": [
+            "Code: U+3096",
+            "Character/Symbol: ゖ",
+            "Name: HIRAGANA LETTER SMALL KE",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゙ U+3099 COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK": 
+    {
+        "prefix": [
+            "..U.3099",
+            "..U.COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK",
+            "U+3099",
+        ],
+        "body": [
+            "${1|゙,&#x3099;,U+3099,0x3099,COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK|}$2",
+        ],
+        "description": [
+            "Code: U+3099",
+            "Character/Symbol: ゙",
+            "Name: COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゚ U+309A COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK": 
+    {
+        "prefix": [
+            "..U.309A",
+            "..U.COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK",
+            "U+309A",
+        ],
+        "body": [
+            "${1|゚,&#x309A;,U+309A,0x309A,COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK|}$2",
+        ],
+        "description": [
+            "Code: U+309A",
+            "Character/Symbol: ゚",
+            "Name: COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゛ U+309B KATAKANA-HIRAGANA VOICED SOUND MARK": 
+    {
+        "prefix": [
+            "..U.309B",
+            "..U.KATAKANA-HIRAGANA VOICED SOUND MARK",
+            "U+309B",
+        ],
+        "body": [
+            "${1|゛,&#x309B;,U+309B,0x309B,KATAKANA-HIRAGANA VOICED SOUND MARK|}$2",
+        ],
+        "description": [
+            "Code: U+309B",
+            "Character/Symbol: ゛",
+            "Name: KATAKANA-HIRAGANA VOICED SOUND MARK",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゜ U+309C KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK": 
+    {
+        "prefix": [
+            "..U.309C",
+            "..U.KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK",
+            "U+309C",
+        ],
+        "body": [
+            "${1|゜,&#x309C;,U+309C,0x309C,KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK|}$2",
+        ],
+        "description": [
+            "Code: U+309C",
+            "Character/Symbol: ゜",
+            "Name: KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゝ U+309D HIRAGANA ITERATION MARK": 
+    {
+        "prefix": [
+            "..U.309D",
+            "..U.HIRAGANA ITERATION MARK",
+            "U+309D",
+        ],
+        "body": [
+            "${1|ゝ,&#x309D;,U+309D,0x309D,HIRAGANA ITERATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+309D",
+            "Character/Symbol: ゝ",
+            "Name: HIRAGANA ITERATION MARK",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゞ U+309E HIRAGANA VOICED ITERATION MARK": 
+    {
+        "prefix": [
+            "..U.309E",
+            "..U.HIRAGANA VOICED ITERATION MARK",
+            "U+309E",
+        ],
+        "body": [
+            "${1|ゞ,&#x309E;,U+309E,0x309E,HIRAGANA VOICED ITERATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+309E",
+            "Character/Symbol: ゞ",
+            "Name: HIRAGANA VOICED ITERATION MARK",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+    "Unicode ゟ U+309F HIRAGANA DIGRAPH YORI": 
+    {
+        "prefix": [
+            "..U.309F",
+            "..U.HIRAGANA DIGRAPH YORI",
+            "U+309F",
+        ],
+        "body": [
+            "${1|ゟ,&#x309F;,U+309F,0x309F,HIRAGANA DIGRAPH YORI|}$2",
+        ],
+        "description": [
+            "Code: U+309F",
+            "Character/Symbol: ゟ",
+            "Name: HIRAGANA DIGRAPH YORI",
+            "Group/Block: Hiragana",
+        ],
+    },
+
+}

@@ -1,0 +1,470 @@
+{
+    "Unicode ᎀ U+1380 ETHIOPIC SYLLABLE SEBATBEIT MWA": 
+    {
+        "prefix": [
+            "..U.1380",
+            "..U.ETHIOPIC SYLLABLE SEBATBEIT MWA",
+            "U+1380",
+        ],
+        "body": [
+            "${1|ᎀ,&#x1380;,U+1380,0x1380,ETHIOPIC SYLLABLE SEBATBEIT MWA|}$2",
+        ],
+        "description": [
+            "Code: U+1380",
+            "Character/Symbol: ᎀ",
+            "Name: ETHIOPIC SYLLABLE SEBATBEIT MWA",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎁ U+1381 ETHIOPIC SYLLABLE MWI": 
+    {
+        "prefix": [
+            "..U.1381",
+            "..U.ETHIOPIC SYLLABLE MWI",
+            "U+1381",
+        ],
+        "body": [
+            "${1|ᎁ,&#x1381;,U+1381,0x1381,ETHIOPIC SYLLABLE MWI|}$2",
+        ],
+        "description": [
+            "Code: U+1381",
+            "Character/Symbol: ᎁ",
+            "Name: ETHIOPIC SYLLABLE MWI",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎂ U+1382 ETHIOPIC SYLLABLE MWEE": 
+    {
+        "prefix": [
+            "..U.1382",
+            "..U.ETHIOPIC SYLLABLE MWEE",
+            "U+1382",
+        ],
+        "body": [
+            "${1|ᎂ,&#x1382;,U+1382,0x1382,ETHIOPIC SYLLABLE MWEE|}$2",
+        ],
+        "description": [
+            "Code: U+1382",
+            "Character/Symbol: ᎂ",
+            "Name: ETHIOPIC SYLLABLE MWEE",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎃ U+1383 ETHIOPIC SYLLABLE MWE": 
+    {
+        "prefix": [
+            "..U.1383",
+            "..U.ETHIOPIC SYLLABLE MWE",
+            "U+1383",
+        ],
+        "body": [
+            "${1|ᎃ,&#x1383;,U+1383,0x1383,ETHIOPIC SYLLABLE MWE|}$2",
+        ],
+        "description": [
+            "Code: U+1383",
+            "Character/Symbol: ᎃ",
+            "Name: ETHIOPIC SYLLABLE MWE",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎄ U+1384 ETHIOPIC SYLLABLE SEBATBEIT BWA": 
+    {
+        "prefix": [
+            "..U.1384",
+            "..U.ETHIOPIC SYLLABLE SEBATBEIT BWA",
+            "U+1384",
+        ],
+        "body": [
+            "${1|ᎄ,&#x1384;,U+1384,0x1384,ETHIOPIC SYLLABLE SEBATBEIT BWA|}$2",
+        ],
+        "description": [
+            "Code: U+1384",
+            "Character/Symbol: ᎄ",
+            "Name: ETHIOPIC SYLLABLE SEBATBEIT BWA",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎅ U+1385 ETHIOPIC SYLLABLE BWI": 
+    {
+        "prefix": [
+            "..U.1385",
+            "..U.ETHIOPIC SYLLABLE BWI",
+            "U+1385",
+        ],
+        "body": [
+            "${1|ᎅ,&#x1385;,U+1385,0x1385,ETHIOPIC SYLLABLE BWI|}$2",
+        ],
+        "description": [
+            "Code: U+1385",
+            "Character/Symbol: ᎅ",
+            "Name: ETHIOPIC SYLLABLE BWI",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎆ U+1386 ETHIOPIC SYLLABLE BWEE": 
+    {
+        "prefix": [
+            "..U.1386",
+            "..U.ETHIOPIC SYLLABLE BWEE",
+            "U+1386",
+        ],
+        "body": [
+            "${1|ᎆ,&#x1386;,U+1386,0x1386,ETHIOPIC SYLLABLE BWEE|}$2",
+        ],
+        "description": [
+            "Code: U+1386",
+            "Character/Symbol: ᎆ",
+            "Name: ETHIOPIC SYLLABLE BWEE",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎇ U+1387 ETHIOPIC SYLLABLE BWE": 
+    {
+        "prefix": [
+            "..U.1387",
+            "..U.ETHIOPIC SYLLABLE BWE",
+            "U+1387",
+        ],
+        "body": [
+            "${1|ᎇ,&#x1387;,U+1387,0x1387,ETHIOPIC SYLLABLE BWE|}$2",
+        ],
+        "description": [
+            "Code: U+1387",
+            "Character/Symbol: ᎇ",
+            "Name: ETHIOPIC SYLLABLE BWE",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎈ U+1388 ETHIOPIC SYLLABLE SEBATBEIT FWA": 
+    {
+        "prefix": [
+            "..U.1388",
+            "..U.ETHIOPIC SYLLABLE SEBATBEIT FWA",
+            "U+1388",
+        ],
+        "body": [
+            "${1|ᎈ,&#x1388;,U+1388,0x1388,ETHIOPIC SYLLABLE SEBATBEIT FWA|}$2",
+        ],
+        "description": [
+            "Code: U+1388",
+            "Character/Symbol: ᎈ",
+            "Name: ETHIOPIC SYLLABLE SEBATBEIT FWA",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎉ U+1389 ETHIOPIC SYLLABLE FWI": 
+    {
+        "prefix": [
+            "..U.1389",
+            "..U.ETHIOPIC SYLLABLE FWI",
+            "U+1389",
+        ],
+        "body": [
+            "${1|ᎉ,&#x1389;,U+1389,0x1389,ETHIOPIC SYLLABLE FWI|}$2",
+        ],
+        "description": [
+            "Code: U+1389",
+            "Character/Symbol: ᎉ",
+            "Name: ETHIOPIC SYLLABLE FWI",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎊ U+138A ETHIOPIC SYLLABLE FWEE": 
+    {
+        "prefix": [
+            "..U.138A",
+            "..U.ETHIOPIC SYLLABLE FWEE",
+            "U+138A",
+        ],
+        "body": [
+            "${1|ᎊ,&#x138A;,U+138A,0x138A,ETHIOPIC SYLLABLE FWEE|}$2",
+        ],
+        "description": [
+            "Code: U+138A",
+            "Character/Symbol: ᎊ",
+            "Name: ETHIOPIC SYLLABLE FWEE",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎋ U+138B ETHIOPIC SYLLABLE FWE": 
+    {
+        "prefix": [
+            "..U.138B",
+            "..U.ETHIOPIC SYLLABLE FWE",
+            "U+138B",
+        ],
+        "body": [
+            "${1|ᎋ,&#x138B;,U+138B,0x138B,ETHIOPIC SYLLABLE FWE|}$2",
+        ],
+        "description": [
+            "Code: U+138B",
+            "Character/Symbol: ᎋ",
+            "Name: ETHIOPIC SYLLABLE FWE",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎌ U+138C ETHIOPIC SYLLABLE SEBATBEIT PWA": 
+    {
+        "prefix": [
+            "..U.138C",
+            "..U.ETHIOPIC SYLLABLE SEBATBEIT PWA",
+            "U+138C",
+        ],
+        "body": [
+            "${1|ᎌ,&#x138C;,U+138C,0x138C,ETHIOPIC SYLLABLE SEBATBEIT PWA|}$2",
+        ],
+        "description": [
+            "Code: U+138C",
+            "Character/Symbol: ᎌ",
+            "Name: ETHIOPIC SYLLABLE SEBATBEIT PWA",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎍ U+138D ETHIOPIC SYLLABLE PWI": 
+    {
+        "prefix": [
+            "..U.138D",
+            "..U.ETHIOPIC SYLLABLE PWI",
+            "U+138D",
+        ],
+        "body": [
+            "${1|ᎍ,&#x138D;,U+138D,0x138D,ETHIOPIC SYLLABLE PWI|}$2",
+        ],
+        "description": [
+            "Code: U+138D",
+            "Character/Symbol: ᎍ",
+            "Name: ETHIOPIC SYLLABLE PWI",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎎ U+138E ETHIOPIC SYLLABLE PWEE": 
+    {
+        "prefix": [
+            "..U.138E",
+            "..U.ETHIOPIC SYLLABLE PWEE",
+            "U+138E",
+        ],
+        "body": [
+            "${1|ᎎ,&#x138E;,U+138E,0x138E,ETHIOPIC SYLLABLE PWEE|}$2",
+        ],
+        "description": [
+            "Code: U+138E",
+            "Character/Symbol: ᎎ",
+            "Name: ETHIOPIC SYLLABLE PWEE",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎏ U+138F ETHIOPIC SYLLABLE PWE": 
+    {
+        "prefix": [
+            "..U.138F",
+            "..U.ETHIOPIC SYLLABLE PWE",
+            "U+138F",
+        ],
+        "body": [
+            "${1|ᎏ,&#x138F;,U+138F,0x138F,ETHIOPIC SYLLABLE PWE|}$2",
+        ],
+        "description": [
+            "Code: U+138F",
+            "Character/Symbol: ᎏ",
+            "Name: ETHIOPIC SYLLABLE PWE",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎐ U+1390 ETHIOPIC TONAL MARK YIZET": 
+    {
+        "prefix": [
+            "..U.1390",
+            "..U.ETHIOPIC TONAL MARK YIZET",
+            "U+1390",
+        ],
+        "body": [
+            "${1|᎐,&#x1390;,U+1390,0x1390,ETHIOPIC TONAL MARK YIZET|}$2",
+        ],
+        "description": [
+            "Code: U+1390",
+            "Character/Symbol: ᎐",
+            "Name: ETHIOPIC TONAL MARK YIZET",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎑ U+1391 ETHIOPIC TONAL MARK DERET": 
+    {
+        "prefix": [
+            "..U.1391",
+            "..U.ETHIOPIC TONAL MARK DERET",
+            "U+1391",
+        ],
+        "body": [
+            "${1|᎑,&#x1391;,U+1391,0x1391,ETHIOPIC TONAL MARK DERET|}$2",
+        ],
+        "description": [
+            "Code: U+1391",
+            "Character/Symbol: ᎑",
+            "Name: ETHIOPIC TONAL MARK DERET",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎒ U+1392 ETHIOPIC TONAL MARK RIKRIK": 
+    {
+        "prefix": [
+            "..U.1392",
+            "..U.ETHIOPIC TONAL MARK RIKRIK",
+            "U+1392",
+        ],
+        "body": [
+            "${1|᎒,&#x1392;,U+1392,0x1392,ETHIOPIC TONAL MARK RIKRIK|}$2",
+        ],
+        "description": [
+            "Code: U+1392",
+            "Character/Symbol: ᎒",
+            "Name: ETHIOPIC TONAL MARK RIKRIK",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎓ U+1393 ETHIOPIC TONAL MARK SHORT RIKRIK": 
+    {
+        "prefix": [
+            "..U.1393",
+            "..U.ETHIOPIC TONAL MARK SHORT RIKRIK",
+            "U+1393",
+        ],
+        "body": [
+            "${1|᎓,&#x1393;,U+1393,0x1393,ETHIOPIC TONAL MARK SHORT RIKRIK|}$2",
+        ],
+        "description": [
+            "Code: U+1393",
+            "Character/Symbol: ᎓",
+            "Name: ETHIOPIC TONAL MARK SHORT RIKRIK",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎔ U+1394 ETHIOPIC TONAL MARK DIFAT": 
+    {
+        "prefix": [
+            "..U.1394",
+            "..U.ETHIOPIC TONAL MARK DIFAT",
+            "U+1394",
+        ],
+        "body": [
+            "${1|᎔,&#x1394;,U+1394,0x1394,ETHIOPIC TONAL MARK DIFAT|}$2",
+        ],
+        "description": [
+            "Code: U+1394",
+            "Character/Symbol: ᎔",
+            "Name: ETHIOPIC TONAL MARK DIFAT",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎕ U+1395 ETHIOPIC TONAL MARK KENAT": 
+    {
+        "prefix": [
+            "..U.1395",
+            "..U.ETHIOPIC TONAL MARK KENAT",
+            "U+1395",
+        ],
+        "body": [
+            "${1|᎕,&#x1395;,U+1395,0x1395,ETHIOPIC TONAL MARK KENAT|}$2",
+        ],
+        "description": [
+            "Code: U+1395",
+            "Character/Symbol: ᎕",
+            "Name: ETHIOPIC TONAL MARK KENAT",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎖ U+1396 ETHIOPIC TONAL MARK CHIRET": 
+    {
+        "prefix": [
+            "..U.1396",
+            "..U.ETHIOPIC TONAL MARK CHIRET",
+            "U+1396",
+        ],
+        "body": [
+            "${1|᎖,&#x1396;,U+1396,0x1396,ETHIOPIC TONAL MARK CHIRET|}$2",
+        ],
+        "description": [
+            "Code: U+1396",
+            "Character/Symbol: ᎖",
+            "Name: ETHIOPIC TONAL MARK CHIRET",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎗ U+1397 ETHIOPIC TONAL MARK HIDET": 
+    {
+        "prefix": [
+            "..U.1397",
+            "..U.ETHIOPIC TONAL MARK HIDET",
+            "U+1397",
+        ],
+        "body": [
+            "${1|᎗,&#x1397;,U+1397,0x1397,ETHIOPIC TONAL MARK HIDET|}$2",
+        ],
+        "description": [
+            "Code: U+1397",
+            "Character/Symbol: ᎗",
+            "Name: ETHIOPIC TONAL MARK HIDET",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎘ U+1398 ETHIOPIC TONAL MARK DERET-HIDET": 
+    {
+        "prefix": [
+            "..U.1398",
+            "..U.ETHIOPIC TONAL MARK DERET-HIDET",
+            "U+1398",
+        ],
+        "body": [
+            "${1|᎘,&#x1398;,U+1398,0x1398,ETHIOPIC TONAL MARK DERET-HIDET|}$2",
+        ],
+        "description": [
+            "Code: U+1398",
+            "Character/Symbol: ᎘",
+            "Name: ETHIOPIC TONAL MARK DERET-HIDET",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+    "Unicode ᎙ U+1399 ETHIOPIC TONAL MARK KURT": 
+    {
+        "prefix": [
+            "..U.1399",
+            "..U.ETHIOPIC TONAL MARK KURT",
+            "U+1399",
+        ],
+        "body": [
+            "${1|᎙,&#x1399;,U+1399,0x1399,ETHIOPIC TONAL MARK KURT|}$2",
+        ],
+        "description": [
+            "Code: U+1399",
+            "Character/Symbol: ᎙",
+            "Name: ETHIOPIC TONAL MARK KURT",
+            "Group/Block: Ethiopic_Sup",
+        ],
+    },
+
+}

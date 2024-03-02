@@ -1,0 +1,1442 @@
+{
+    "Unicode ℀ U+2100 ACCOUNT OF": 
+    {
+        "prefix": [
+            "..U.2100",
+            "..U.ACCOUNT OF",
+            "U+2100",
+        ],
+        "body": [
+            "${1|℀,&#x2100;,U+2100,0x2100,ACCOUNT OF|}$2",
+        ],
+        "description": [
+            "Code: U+2100",
+            "Character/Symbol: ℀",
+            "Name: ACCOUNT OF",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℁ U+2101 ADDRESSED TO THE SUBJECT": 
+    {
+        "prefix": [
+            "..U.2101",
+            "..U.ADDRESSED TO THE SUBJECT",
+            "U+2101",
+        ],
+        "body": [
+            "${1|℁,&#x2101;,U+2101,0x2101,ADDRESSED TO THE SUBJECT|}$2",
+        ],
+        "description": [
+            "Code: U+2101",
+            "Character/Symbol: ℁",
+            "Name: ADDRESSED TO THE SUBJECT",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℂ U+2102 DOUBLE-STRUCK CAPITAL C": 
+    {
+        "prefix": [
+            "..U.2102",
+            "..U.DOUBLE-STRUCK CAPITAL C",
+            "U+2102",
+        ],
+        "body": [
+            "${1|ℂ,&#x2102;,U+2102,0x2102,DOUBLE-STRUCK CAPITAL C|}$2",
+        ],
+        "description": [
+            "Code: U+2102",
+            "Character/Symbol: ℂ",
+            "Name: DOUBLE-STRUCK CAPITAL C",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℃ U+2103 DEGREE CELSIUS": 
+    {
+        "prefix": [
+            "..U.2103",
+            "..U.DEGREE CELSIUS",
+            "U+2103",
+        ],
+        "body": [
+            "${1|℃,&#x2103;,U+2103,0x2103,DEGREE CELSIUS|}$2",
+        ],
+        "description": [
+            "Code: U+2103",
+            "Character/Symbol: ℃",
+            "Name: DEGREE CELSIUS",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℄ U+2104 CENTRE LINE SYMBOL": 
+    {
+        "prefix": [
+            "..U.2104",
+            "..U.CENTRE LINE SYMBOL",
+            "U+2104",
+        ],
+        "body": [
+            "${1|℄,&#x2104;,U+2104,0x2104,CENTRE LINE SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2104",
+            "Character/Symbol: ℄",
+            "Name: CENTRE LINE SYMBOL",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℅ U+2105 CARE OF": 
+    {
+        "prefix": [
+            "..U.2105",
+            "..U.CARE OF",
+            "U+2105",
+        ],
+        "body": [
+            "${1|℅,&#x2105;,U+2105,0x2105,CARE OF|}$2",
+        ],
+        "description": [
+            "Code: U+2105",
+            "Character/Symbol: ℅",
+            "Name: CARE OF",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℆ U+2106 CADA UNA": 
+    {
+        "prefix": [
+            "..U.2106",
+            "..U.CADA UNA",
+            "U+2106",
+        ],
+        "body": [
+            "${1|℆,&#x2106;,U+2106,0x2106,CADA UNA|}$2",
+        ],
+        "description": [
+            "Code: U+2106",
+            "Character/Symbol: ℆",
+            "Name: CADA UNA",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℇ U+2107 EULER CONSTANT": 
+    {
+        "prefix": [
+            "..U.2107",
+            "..U.EULER CONSTANT",
+            "U+2107",
+        ],
+        "body": [
+            "${1|ℇ,&#x2107;,U+2107,0x2107,EULER CONSTANT|}$2",
+        ],
+        "description": [
+            "Code: U+2107",
+            "Character/Symbol: ℇ",
+            "Name: EULER CONSTANT",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℈ U+2108 SCRUPLE": 
+    {
+        "prefix": [
+            "..U.2108",
+            "..U.SCRUPLE",
+            "U+2108",
+        ],
+        "body": [
+            "${1|℈,&#x2108;,U+2108,0x2108,SCRUPLE|}$2",
+        ],
+        "description": [
+            "Code: U+2108",
+            "Character/Symbol: ℈",
+            "Name: SCRUPLE",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℉ U+2109 DEGREE FAHRENHEIT": 
+    {
+        "prefix": [
+            "..U.2109",
+            "..U.DEGREE FAHRENHEIT",
+            "U+2109",
+        ],
+        "body": [
+            "${1|℉,&#x2109;,U+2109,0x2109,DEGREE FAHRENHEIT|}$2",
+        ],
+        "description": [
+            "Code: U+2109",
+            "Character/Symbol: ℉",
+            "Name: DEGREE FAHRENHEIT",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℊ U+210A SCRIPT SMALL G": 
+    {
+        "prefix": [
+            "..U.210A",
+            "..U.SCRIPT SMALL G",
+            "U+210A",
+        ],
+        "body": [
+            "${1|ℊ,&#x210A;,U+210A,0x210A,SCRIPT SMALL G|}$2",
+        ],
+        "description": [
+            "Code: U+210A",
+            "Character/Symbol: ℊ",
+            "Name: SCRIPT SMALL G",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℋ U+210B SCRIPT CAPITAL H": 
+    {
+        "prefix": [
+            "..U.210B",
+            "..U.SCRIPT CAPITAL H",
+            "U+210B",
+        ],
+        "body": [
+            "${1|ℋ,&#x210B;,U+210B,0x210B,SCRIPT CAPITAL H|}$2",
+        ],
+        "description": [
+            "Code: U+210B",
+            "Character/Symbol: ℋ",
+            "Name: SCRIPT CAPITAL H",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℌ U+210C BLACK-LETTER CAPITAL H": 
+    {
+        "prefix": [
+            "..U.210C",
+            "..U.BLACK-LETTER CAPITAL H",
+            "U+210C",
+        ],
+        "body": [
+            "${1|ℌ,&#x210C;,U+210C,0x210C,BLACK-LETTER CAPITAL H|}$2",
+        ],
+        "description": [
+            "Code: U+210C",
+            "Character/Symbol: ℌ",
+            "Name: BLACK-LETTER CAPITAL H",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℍ U+210D DOUBLE-STRUCK CAPITAL H": 
+    {
+        "prefix": [
+            "..U.210D",
+            "..U.DOUBLE-STRUCK CAPITAL H",
+            "U+210D",
+        ],
+        "body": [
+            "${1|ℍ,&#x210D;,U+210D,0x210D,DOUBLE-STRUCK CAPITAL H|}$2",
+        ],
+        "description": [
+            "Code: U+210D",
+            "Character/Symbol: ℍ",
+            "Name: DOUBLE-STRUCK CAPITAL H",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℎ U+210E PLANCK CONSTANT": 
+    {
+        "prefix": [
+            "..U.210E",
+            "..U.PLANCK CONSTANT",
+            "U+210E",
+        ],
+        "body": [
+            "${1|ℎ,&#x210E;,U+210E,0x210E,PLANCK CONSTANT|}$2",
+        ],
+        "description": [
+            "Code: U+210E",
+            "Character/Symbol: ℎ",
+            "Name: PLANCK CONSTANT",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℏ U+210F PLANCK CONSTANT OVER TWO PI": 
+    {
+        "prefix": [
+            "..U.210F",
+            "..U.PLANCK CONSTANT OVER TWO PI",
+            "U+210F",
+        ],
+        "body": [
+            "${1|ℏ,&#x210F;,U+210F,0x210F,PLANCK CONSTANT OVER TWO PI|}$2",
+        ],
+        "description": [
+            "Code: U+210F",
+            "Character/Symbol: ℏ",
+            "Name: PLANCK CONSTANT OVER TWO PI",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℐ U+2110 SCRIPT CAPITAL I": 
+    {
+        "prefix": [
+            "..U.2110",
+            "..U.SCRIPT CAPITAL I",
+            "U+2110",
+        ],
+        "body": [
+            "${1|ℐ,&#x2110;,U+2110,0x2110,SCRIPT CAPITAL I|}$2",
+        ],
+        "description": [
+            "Code: U+2110",
+            "Character/Symbol: ℐ",
+            "Name: SCRIPT CAPITAL I",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℑ U+2111 BLACK-LETTER CAPITAL I": 
+    {
+        "prefix": [
+            "..U.2111",
+            "..U.BLACK-LETTER CAPITAL I",
+            "U+2111",
+        ],
+        "body": [
+            "${1|ℑ,&#x2111;,U+2111,0x2111,BLACK-LETTER CAPITAL I|}$2",
+        ],
+        "description": [
+            "Code: U+2111",
+            "Character/Symbol: ℑ",
+            "Name: BLACK-LETTER CAPITAL I",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℒ U+2112 SCRIPT CAPITAL L": 
+    {
+        "prefix": [
+            "..U.2112",
+            "..U.SCRIPT CAPITAL L",
+            "U+2112",
+        ],
+        "body": [
+            "${1|ℒ,&#x2112;,U+2112,0x2112,SCRIPT CAPITAL L|}$2",
+        ],
+        "description": [
+            "Code: U+2112",
+            "Character/Symbol: ℒ",
+            "Name: SCRIPT CAPITAL L",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℓ U+2113 SCRIPT SMALL L": 
+    {
+        "prefix": [
+            "..U.2113",
+            "..U.SCRIPT SMALL L",
+            "U+2113",
+        ],
+        "body": [
+            "${1|ℓ,&#x2113;,U+2113,0x2113,SCRIPT SMALL L|}$2",
+        ],
+        "description": [
+            "Code: U+2113",
+            "Character/Symbol: ℓ",
+            "Name: SCRIPT SMALL L",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℔ U+2114 L B BAR SYMBOL": 
+    {
+        "prefix": [
+            "..U.2114",
+            "..U.L B BAR SYMBOL",
+            "U+2114",
+        ],
+        "body": [
+            "${1|℔,&#x2114;,U+2114,0x2114,L B BAR SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2114",
+            "Character/Symbol: ℔",
+            "Name: L B BAR SYMBOL",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℕ U+2115 DOUBLE-STRUCK CAPITAL N": 
+    {
+        "prefix": [
+            "..U.2115",
+            "..U.DOUBLE-STRUCK CAPITAL N",
+            "U+2115",
+        ],
+        "body": [
+            "${1|ℕ,&#x2115;,U+2115,0x2115,DOUBLE-STRUCK CAPITAL N|}$2",
+        ],
+        "description": [
+            "Code: U+2115",
+            "Character/Symbol: ℕ",
+            "Name: DOUBLE-STRUCK CAPITAL N",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode № U+2116 NUMERO SIGN": 
+    {
+        "prefix": [
+            "..U.2116",
+            "..U.NUMERO SIGN",
+            "U+2116",
+        ],
+        "body": [
+            "${1|№,&#x2116;,U+2116,0x2116,NUMERO SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+2116",
+            "Character/Symbol: №",
+            "Name: NUMERO SIGN",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℗ U+2117 SOUND RECORDING COPYRIGHT": 
+    {
+        "prefix": [
+            "..U.2117",
+            "..U.SOUND RECORDING COPYRIGHT",
+            "U+2117",
+        ],
+        "body": [
+            "${1|℗,&#x2117;,U+2117,0x2117,SOUND RECORDING COPYRIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2117",
+            "Character/Symbol: ℗",
+            "Name: SOUND RECORDING COPYRIGHT",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℘ U+2118 SCRIPT CAPITAL P": 
+    {
+        "prefix": [
+            "..U.2118",
+            "..U.SCRIPT CAPITAL P",
+            "U+2118",
+        ],
+        "body": [
+            "${1|℘,&#x2118;,U+2118,0x2118,SCRIPT CAPITAL P|}$2",
+        ],
+        "description": [
+            "Code: U+2118",
+            "Character/Symbol: ℘",
+            "Name: SCRIPT CAPITAL P",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℙ U+2119 DOUBLE-STRUCK CAPITAL P": 
+    {
+        "prefix": [
+            "..U.2119",
+            "..U.DOUBLE-STRUCK CAPITAL P",
+            "U+2119",
+        ],
+        "body": [
+            "${1|ℙ,&#x2119;,U+2119,0x2119,DOUBLE-STRUCK CAPITAL P|}$2",
+        ],
+        "description": [
+            "Code: U+2119",
+            "Character/Symbol: ℙ",
+            "Name: DOUBLE-STRUCK CAPITAL P",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℚ U+211A DOUBLE-STRUCK CAPITAL Q": 
+    {
+        "prefix": [
+            "..U.211A",
+            "..U.DOUBLE-STRUCK CAPITAL Q",
+            "U+211A",
+        ],
+        "body": [
+            "${1|ℚ,&#x211A;,U+211A,0x211A,DOUBLE-STRUCK CAPITAL Q|}$2",
+        ],
+        "description": [
+            "Code: U+211A",
+            "Character/Symbol: ℚ",
+            "Name: DOUBLE-STRUCK CAPITAL Q",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℛ U+211B SCRIPT CAPITAL R": 
+    {
+        "prefix": [
+            "..U.211B",
+            "..U.SCRIPT CAPITAL R",
+            "U+211B",
+        ],
+        "body": [
+            "${1|ℛ,&#x211B;,U+211B,0x211B,SCRIPT CAPITAL R|}$2",
+        ],
+        "description": [
+            "Code: U+211B",
+            "Character/Symbol: ℛ",
+            "Name: SCRIPT CAPITAL R",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℜ U+211C BLACK-LETTER CAPITAL R": 
+    {
+        "prefix": [
+            "..U.211C",
+            "..U.BLACK-LETTER CAPITAL R",
+            "U+211C",
+        ],
+        "body": [
+            "${1|ℜ,&#x211C;,U+211C,0x211C,BLACK-LETTER CAPITAL R|}$2",
+        ],
+        "description": [
+            "Code: U+211C",
+            "Character/Symbol: ℜ",
+            "Name: BLACK-LETTER CAPITAL R",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℝ U+211D DOUBLE-STRUCK CAPITAL R": 
+    {
+        "prefix": [
+            "..U.211D",
+            "..U.DOUBLE-STRUCK CAPITAL R",
+            "U+211D",
+        ],
+        "body": [
+            "${1|ℝ,&#x211D;,U+211D,0x211D,DOUBLE-STRUCK CAPITAL R|}$2",
+        ],
+        "description": [
+            "Code: U+211D",
+            "Character/Symbol: ℝ",
+            "Name: DOUBLE-STRUCK CAPITAL R",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℞ U+211E PRESCRIPTION TAKE": 
+    {
+        "prefix": [
+            "..U.211E",
+            "..U.PRESCRIPTION TAKE",
+            "U+211E",
+        ],
+        "body": [
+            "${1|℞,&#x211E;,U+211E,0x211E,PRESCRIPTION TAKE|}$2",
+        ],
+        "description": [
+            "Code: U+211E",
+            "Character/Symbol: ℞",
+            "Name: PRESCRIPTION TAKE",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℟ U+211F RESPONSE": 
+    {
+        "prefix": [
+            "..U.211F",
+            "..U.RESPONSE",
+            "U+211F",
+        ],
+        "body": [
+            "${1|℟,&#x211F;,U+211F,0x211F,RESPONSE|}$2",
+        ],
+        "description": [
+            "Code: U+211F",
+            "Character/Symbol: ℟",
+            "Name: RESPONSE",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℠ U+2120 SERVICE MARK": 
+    {
+        "prefix": [
+            "..U.2120",
+            "..U.SERVICE MARK",
+            "U+2120",
+        ],
+        "body": [
+            "${1|℠,&#x2120;,U+2120,0x2120,SERVICE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+2120",
+            "Character/Symbol: ℠",
+            "Name: SERVICE MARK",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℡ U+2121 TELEPHONE SIGN": 
+    {
+        "prefix": [
+            "..U.2121",
+            "..U.TELEPHONE SIGN",
+            "U+2121",
+        ],
+        "body": [
+            "${1|℡,&#x2121;,U+2121,0x2121,TELEPHONE SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+2121",
+            "Character/Symbol: ℡",
+            "Name: TELEPHONE SIGN",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ™ U+2122 TRADE MARK SIGN": 
+    {
+        "prefix": [
+            "..U.2122",
+            "..U.TRADE MARK SIGN",
+            "U+2122",
+        ],
+        "body": [
+            "${1|™,&#x2122;,U+2122,0x2122,TRADE MARK SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+2122",
+            "Character/Symbol: ™",
+            "Name: TRADE MARK SIGN",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℣ U+2123 VERSICLE": 
+    {
+        "prefix": [
+            "..U.2123",
+            "..U.VERSICLE",
+            "U+2123",
+        ],
+        "body": [
+            "${1|℣,&#x2123;,U+2123,0x2123,VERSICLE|}$2",
+        ],
+        "description": [
+            "Code: U+2123",
+            "Character/Symbol: ℣",
+            "Name: VERSICLE",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℤ U+2124 DOUBLE-STRUCK CAPITAL Z": 
+    {
+        "prefix": [
+            "..U.2124",
+            "..U.DOUBLE-STRUCK CAPITAL Z",
+            "U+2124",
+        ],
+        "body": [
+            "${1|ℤ,&#x2124;,U+2124,0x2124,DOUBLE-STRUCK CAPITAL Z|}$2",
+        ],
+        "description": [
+            "Code: U+2124",
+            "Character/Symbol: ℤ",
+            "Name: DOUBLE-STRUCK CAPITAL Z",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℥ U+2125 OUNCE SIGN": 
+    {
+        "prefix": [
+            "..U.2125",
+            "..U.OUNCE SIGN",
+            "U+2125",
+        ],
+        "body": [
+            "${1|℥,&#x2125;,U+2125,0x2125,OUNCE SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+2125",
+            "Character/Symbol: ℥",
+            "Name: OUNCE SIGN",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode Ω U+2126 OHM SIGN": 
+    {
+        "prefix": [
+            "..U.2126",
+            "..U.OHM SIGN",
+            "U+2126",
+        ],
+        "body": [
+            "${1|Ω,&#x2126;,U+2126,0x2126,OHM SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+2126",
+            "Character/Symbol: Ω",
+            "Name: OHM SIGN",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℧ U+2127 INVERTED OHM SIGN": 
+    {
+        "prefix": [
+            "..U.2127",
+            "..U.INVERTED OHM SIGN",
+            "U+2127",
+        ],
+        "body": [
+            "${1|℧,&#x2127;,U+2127,0x2127,INVERTED OHM SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+2127",
+            "Character/Symbol: ℧",
+            "Name: INVERTED OHM SIGN",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℨ U+2128 BLACK-LETTER CAPITAL Z": 
+    {
+        "prefix": [
+            "..U.2128",
+            "..U.BLACK-LETTER CAPITAL Z",
+            "U+2128",
+        ],
+        "body": [
+            "${1|ℨ,&#x2128;,U+2128,0x2128,BLACK-LETTER CAPITAL Z|}$2",
+        ],
+        "description": [
+            "Code: U+2128",
+            "Character/Symbol: ℨ",
+            "Name: BLACK-LETTER CAPITAL Z",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℩ U+2129 TURNED GREEK SMALL LETTER IOTA": 
+    {
+        "prefix": [
+            "..U.2129",
+            "..U.TURNED GREEK SMALL LETTER IOTA",
+            "U+2129",
+        ],
+        "body": [
+            "${1|℩,&#x2129;,U+2129,0x2129,TURNED GREEK SMALL LETTER IOTA|}$2",
+        ],
+        "description": [
+            "Code: U+2129",
+            "Character/Symbol: ℩",
+            "Name: TURNED GREEK SMALL LETTER IOTA",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode K U+212A KELVIN SIGN": 
+    {
+        "prefix": [
+            "..U.212A",
+            "..U.KELVIN SIGN",
+            "U+212A",
+        ],
+        "body": [
+            "${1|K,&#x212A;,U+212A,0x212A,KELVIN SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+212A",
+            "Character/Symbol: K",
+            "Name: KELVIN SIGN",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode Å U+212B ANGSTROM SIGN": 
+    {
+        "prefix": [
+            "..U.212B",
+            "..U.ANGSTROM SIGN",
+            "U+212B",
+        ],
+        "body": [
+            "${1|Å,&#x212B;,U+212B,0x212B,ANGSTROM SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+212B",
+            "Character/Symbol: Å",
+            "Name: ANGSTROM SIGN",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℬ U+212C SCRIPT CAPITAL B": 
+    {
+        "prefix": [
+            "..U.212C",
+            "..U.SCRIPT CAPITAL B",
+            "U+212C",
+        ],
+        "body": [
+            "${1|ℬ,&#x212C;,U+212C,0x212C,SCRIPT CAPITAL B|}$2",
+        ],
+        "description": [
+            "Code: U+212C",
+            "Character/Symbol: ℬ",
+            "Name: SCRIPT CAPITAL B",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℭ U+212D BLACK-LETTER CAPITAL C": 
+    {
+        "prefix": [
+            "..U.212D",
+            "..U.BLACK-LETTER CAPITAL C",
+            "U+212D",
+        ],
+        "body": [
+            "${1|ℭ,&#x212D;,U+212D,0x212D,BLACK-LETTER CAPITAL C|}$2",
+        ],
+        "description": [
+            "Code: U+212D",
+            "Character/Symbol: ℭ",
+            "Name: BLACK-LETTER CAPITAL C",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℮ U+212E ESTIMATED SYMBOL": 
+    {
+        "prefix": [
+            "..U.212E",
+            "..U.ESTIMATED SYMBOL",
+            "U+212E",
+        ],
+        "body": [
+            "${1|℮,&#x212E;,U+212E,0x212E,ESTIMATED SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+212E",
+            "Character/Symbol: ℮",
+            "Name: ESTIMATED SYMBOL",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℯ U+212F SCRIPT SMALL E": 
+    {
+        "prefix": [
+            "..U.212F",
+            "..U.SCRIPT SMALL E",
+            "U+212F",
+        ],
+        "body": [
+            "${1|ℯ,&#x212F;,U+212F,0x212F,SCRIPT SMALL E|}$2",
+        ],
+        "description": [
+            "Code: U+212F",
+            "Character/Symbol: ℯ",
+            "Name: SCRIPT SMALL E",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℰ U+2130 SCRIPT CAPITAL E": 
+    {
+        "prefix": [
+            "..U.2130",
+            "..U.SCRIPT CAPITAL E",
+            "U+2130",
+        ],
+        "body": [
+            "${1|ℰ,&#x2130;,U+2130,0x2130,SCRIPT CAPITAL E|}$2",
+        ],
+        "description": [
+            "Code: U+2130",
+            "Character/Symbol: ℰ",
+            "Name: SCRIPT CAPITAL E",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℱ U+2131 SCRIPT CAPITAL F": 
+    {
+        "prefix": [
+            "..U.2131",
+            "..U.SCRIPT CAPITAL F",
+            "U+2131",
+        ],
+        "body": [
+            "${1|ℱ,&#x2131;,U+2131,0x2131,SCRIPT CAPITAL F|}$2",
+        ],
+        "description": [
+            "Code: U+2131",
+            "Character/Symbol: ℱ",
+            "Name: SCRIPT CAPITAL F",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode Ⅎ U+2132 TURNED CAPITAL F": 
+    {
+        "prefix": [
+            "..U.2132",
+            "..U.TURNED CAPITAL F",
+            "U+2132",
+        ],
+        "body": [
+            "${1|Ⅎ,&#x2132;,U+2132,0x2132,TURNED CAPITAL F|}$2",
+        ],
+        "description": [
+            "Code: U+2132",
+            "Character/Symbol: Ⅎ",
+            "Name: TURNED CAPITAL F",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℳ U+2133 SCRIPT CAPITAL M": 
+    {
+        "prefix": [
+            "..U.2133",
+            "..U.SCRIPT CAPITAL M",
+            "U+2133",
+        ],
+        "body": [
+            "${1|ℳ,&#x2133;,U+2133,0x2133,SCRIPT CAPITAL M|}$2",
+        ],
+        "description": [
+            "Code: U+2133",
+            "Character/Symbol: ℳ",
+            "Name: SCRIPT CAPITAL M",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℴ U+2134 SCRIPT SMALL O": 
+    {
+        "prefix": [
+            "..U.2134",
+            "..U.SCRIPT SMALL O",
+            "U+2134",
+        ],
+        "body": [
+            "${1|ℴ,&#x2134;,U+2134,0x2134,SCRIPT SMALL O|}$2",
+        ],
+        "description": [
+            "Code: U+2134",
+            "Character/Symbol: ℴ",
+            "Name: SCRIPT SMALL O",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℵ U+2135 ALEF SYMBOL": 
+    {
+        "prefix": [
+            "..U.2135",
+            "..U.ALEF SYMBOL",
+            "U+2135",
+        ],
+        "body": [
+            "${1|ℵ,&#x2135;,U+2135,0x2135,ALEF SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2135",
+            "Character/Symbol: ℵ",
+            "Name: ALEF SYMBOL",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℶ U+2136 BET SYMBOL": 
+    {
+        "prefix": [
+            "..U.2136",
+            "..U.BET SYMBOL",
+            "U+2136",
+        ],
+        "body": [
+            "${1|ℶ,&#x2136;,U+2136,0x2136,BET SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2136",
+            "Character/Symbol: ℶ",
+            "Name: BET SYMBOL",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℷ U+2137 GIMEL SYMBOL": 
+    {
+        "prefix": [
+            "..U.2137",
+            "..U.GIMEL SYMBOL",
+            "U+2137",
+        ],
+        "body": [
+            "${1|ℷ,&#x2137;,U+2137,0x2137,GIMEL SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2137",
+            "Character/Symbol: ℷ",
+            "Name: GIMEL SYMBOL",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℸ U+2138 DALET SYMBOL": 
+    {
+        "prefix": [
+            "..U.2138",
+            "..U.DALET SYMBOL",
+            "U+2138",
+        ],
+        "body": [
+            "${1|ℸ,&#x2138;,U+2138,0x2138,DALET SYMBOL|}$2",
+        ],
+        "description": [
+            "Code: U+2138",
+            "Character/Symbol: ℸ",
+            "Name: DALET SYMBOL",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℹ U+2139 INFORMATION SOURCE": 
+    {
+        "prefix": [
+            "..U.2139",
+            "..U.INFORMATION SOURCE",
+            "U+2139",
+        ],
+        "body": [
+            "${1|ℹ,&#x2139;,U+2139,0x2139,INFORMATION SOURCE|}$2",
+        ],
+        "description": [
+            "Code: U+2139",
+            "Character/Symbol: ℹ",
+            "Name: INFORMATION SOURCE",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℺ U+213A ROTATED CAPITAL Q": 
+    {
+        "prefix": [
+            "..U.213A",
+            "..U.ROTATED CAPITAL Q",
+            "U+213A",
+        ],
+        "body": [
+            "${1|℺,&#x213A;,U+213A,0x213A,ROTATED CAPITAL Q|}$2",
+        ],
+        "description": [
+            "Code: U+213A",
+            "Character/Symbol: ℺",
+            "Name: ROTATED CAPITAL Q",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℻ U+213B FACSIMILE SIGN": 
+    {
+        "prefix": [
+            "..U.213B",
+            "..U.FACSIMILE SIGN",
+            "U+213B",
+        ],
+        "body": [
+            "${1|℻,&#x213B;,U+213B,0x213B,FACSIMILE SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+213B",
+            "Character/Symbol: ℻",
+            "Name: FACSIMILE SIGN",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℼ U+213C DOUBLE-STRUCK SMALL PI": 
+    {
+        "prefix": [
+            "..U.213C",
+            "..U.DOUBLE-STRUCK SMALL PI",
+            "U+213C",
+        ],
+        "body": [
+            "${1|ℼ,&#x213C;,U+213C,0x213C,DOUBLE-STRUCK SMALL PI|}$2",
+        ],
+        "description": [
+            "Code: U+213C",
+            "Character/Symbol: ℼ",
+            "Name: DOUBLE-STRUCK SMALL PI",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℽ U+213D DOUBLE-STRUCK SMALL GAMMA": 
+    {
+        "prefix": [
+            "..U.213D",
+            "..U.DOUBLE-STRUCK SMALL GAMMA",
+            "U+213D",
+        ],
+        "body": [
+            "${1|ℽ,&#x213D;,U+213D,0x213D,DOUBLE-STRUCK SMALL GAMMA|}$2",
+        ],
+        "description": [
+            "Code: U+213D",
+            "Character/Symbol: ℽ",
+            "Name: DOUBLE-STRUCK SMALL GAMMA",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℾ U+213E DOUBLE-STRUCK CAPITAL GAMMA": 
+    {
+        "prefix": [
+            "..U.213E",
+            "..U.DOUBLE-STRUCK CAPITAL GAMMA",
+            "U+213E",
+        ],
+        "body": [
+            "${1|ℾ,&#x213E;,U+213E,0x213E,DOUBLE-STRUCK CAPITAL GAMMA|}$2",
+        ],
+        "description": [
+            "Code: U+213E",
+            "Character/Symbol: ℾ",
+            "Name: DOUBLE-STRUCK CAPITAL GAMMA",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ℿ U+213F DOUBLE-STRUCK CAPITAL PI": 
+    {
+        "prefix": [
+            "..U.213F",
+            "..U.DOUBLE-STRUCK CAPITAL PI",
+            "U+213F",
+        ],
+        "body": [
+            "${1|ℿ,&#x213F;,U+213F,0x213F,DOUBLE-STRUCK CAPITAL PI|}$2",
+        ],
+        "description": [
+            "Code: U+213F",
+            "Character/Symbol: ℿ",
+            "Name: DOUBLE-STRUCK CAPITAL PI",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅀ U+2140 DOUBLE-STRUCK N-ARY SUMMATION": 
+    {
+        "prefix": [
+            "..U.2140",
+            "..U.DOUBLE-STRUCK N-ARY SUMMATION",
+            "U+2140",
+        ],
+        "body": [
+            "${1|⅀,&#x2140;,U+2140,0x2140,DOUBLE-STRUCK N-ARY SUMMATION|}$2",
+        ],
+        "description": [
+            "Code: U+2140",
+            "Character/Symbol: ⅀",
+            "Name: DOUBLE-STRUCK N-ARY SUMMATION",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅁ U+2141 TURNED SANS-SERIF CAPITAL G": 
+    {
+        "prefix": [
+            "..U.2141",
+            "..U.TURNED SANS-SERIF CAPITAL G",
+            "U+2141",
+        ],
+        "body": [
+            "${1|⅁,&#x2141;,U+2141,0x2141,TURNED SANS-SERIF CAPITAL G|}$2",
+        ],
+        "description": [
+            "Code: U+2141",
+            "Character/Symbol: ⅁",
+            "Name: TURNED SANS-SERIF CAPITAL G",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅂ U+2142 TURNED SANS-SERIF CAPITAL L": 
+    {
+        "prefix": [
+            "..U.2142",
+            "..U.TURNED SANS-SERIF CAPITAL L",
+            "U+2142",
+        ],
+        "body": [
+            "${1|⅂,&#x2142;,U+2142,0x2142,TURNED SANS-SERIF CAPITAL L|}$2",
+        ],
+        "description": [
+            "Code: U+2142",
+            "Character/Symbol: ⅂",
+            "Name: TURNED SANS-SERIF CAPITAL L",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅃ U+2143 REVERSED SANS-SERIF CAPITAL L": 
+    {
+        "prefix": [
+            "..U.2143",
+            "..U.REVERSED SANS-SERIF CAPITAL L",
+            "U+2143",
+        ],
+        "body": [
+            "${1|⅃,&#x2143;,U+2143,0x2143,REVERSED SANS-SERIF CAPITAL L|}$2",
+        ],
+        "description": [
+            "Code: U+2143",
+            "Character/Symbol: ⅃",
+            "Name: REVERSED SANS-SERIF CAPITAL L",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅄ U+2144 TURNED SANS-SERIF CAPITAL Y": 
+    {
+        "prefix": [
+            "..U.2144",
+            "..U.TURNED SANS-SERIF CAPITAL Y",
+            "U+2144",
+        ],
+        "body": [
+            "${1|⅄,&#x2144;,U+2144,0x2144,TURNED SANS-SERIF CAPITAL Y|}$2",
+        ],
+        "description": [
+            "Code: U+2144",
+            "Character/Symbol: ⅄",
+            "Name: TURNED SANS-SERIF CAPITAL Y",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅅ U+2145 DOUBLE-STRUCK ITALIC CAPITAL D": 
+    {
+        "prefix": [
+            "..U.2145",
+            "..U.DOUBLE-STRUCK ITALIC CAPITAL D",
+            "U+2145",
+        ],
+        "body": [
+            "${1|ⅅ,&#x2145;,U+2145,0x2145,DOUBLE-STRUCK ITALIC CAPITAL D|}$2",
+        ],
+        "description": [
+            "Code: U+2145",
+            "Character/Symbol: ⅅ",
+            "Name: DOUBLE-STRUCK ITALIC CAPITAL D",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅆ U+2146 DOUBLE-STRUCK ITALIC SMALL D": 
+    {
+        "prefix": [
+            "..U.2146",
+            "..U.DOUBLE-STRUCK ITALIC SMALL D",
+            "U+2146",
+        ],
+        "body": [
+            "${1|ⅆ,&#x2146;,U+2146,0x2146,DOUBLE-STRUCK ITALIC SMALL D|}$2",
+        ],
+        "description": [
+            "Code: U+2146",
+            "Character/Symbol: ⅆ",
+            "Name: DOUBLE-STRUCK ITALIC SMALL D",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅇ U+2147 DOUBLE-STRUCK ITALIC SMALL E": 
+    {
+        "prefix": [
+            "..U.2147",
+            "..U.DOUBLE-STRUCK ITALIC SMALL E",
+            "U+2147",
+        ],
+        "body": [
+            "${1|ⅇ,&#x2147;,U+2147,0x2147,DOUBLE-STRUCK ITALIC SMALL E|}$2",
+        ],
+        "description": [
+            "Code: U+2147",
+            "Character/Symbol: ⅇ",
+            "Name: DOUBLE-STRUCK ITALIC SMALL E",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅈ U+2148 DOUBLE-STRUCK ITALIC SMALL I": 
+    {
+        "prefix": [
+            "..U.2148",
+            "..U.DOUBLE-STRUCK ITALIC SMALL I",
+            "U+2148",
+        ],
+        "body": [
+            "${1|ⅈ,&#x2148;,U+2148,0x2148,DOUBLE-STRUCK ITALIC SMALL I|}$2",
+        ],
+        "description": [
+            "Code: U+2148",
+            "Character/Symbol: ⅈ",
+            "Name: DOUBLE-STRUCK ITALIC SMALL I",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅉ U+2149 DOUBLE-STRUCK ITALIC SMALL J": 
+    {
+        "prefix": [
+            "..U.2149",
+            "..U.DOUBLE-STRUCK ITALIC SMALL J",
+            "U+2149",
+        ],
+        "body": [
+            "${1|ⅉ,&#x2149;,U+2149,0x2149,DOUBLE-STRUCK ITALIC SMALL J|}$2",
+        ],
+        "description": [
+            "Code: U+2149",
+            "Character/Symbol: ⅉ",
+            "Name: DOUBLE-STRUCK ITALIC SMALL J",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅊ U+214A PROPERTY LINE": 
+    {
+        "prefix": [
+            "..U.214A",
+            "..U.PROPERTY LINE",
+            "U+214A",
+        ],
+        "body": [
+            "${1|⅊,&#x214A;,U+214A,0x214A,PROPERTY LINE|}$2",
+        ],
+        "description": [
+            "Code: U+214A",
+            "Character/Symbol: ⅊",
+            "Name: PROPERTY LINE",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅋ U+214B TURNED AMPERSAND": 
+    {
+        "prefix": [
+            "..U.214B",
+            "..U.TURNED AMPERSAND",
+            "U+214B",
+        ],
+        "body": [
+            "${1|⅋,&#x214B;,U+214B,0x214B,TURNED AMPERSAND|}$2",
+        ],
+        "description": [
+            "Code: U+214B",
+            "Character/Symbol: ⅋",
+            "Name: TURNED AMPERSAND",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅌ U+214C PER SIGN": 
+    {
+        "prefix": [
+            "..U.214C",
+            "..U.PER SIGN",
+            "U+214C",
+        ],
+        "body": [
+            "${1|⅌,&#x214C;,U+214C,0x214C,PER SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+214C",
+            "Character/Symbol: ⅌",
+            "Name: PER SIGN",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅍ U+214D AKTIESELSKAB": 
+    {
+        "prefix": [
+            "..U.214D",
+            "..U.AKTIESELSKAB",
+            "U+214D",
+        ],
+        "body": [
+            "${1|⅍,&#x214D;,U+214D,0x214D,AKTIESELSKAB|}$2",
+        ],
+        "description": [
+            "Code: U+214D",
+            "Character/Symbol: ⅍",
+            "Name: AKTIESELSKAB",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅎ U+214E TURNED SMALL F": 
+    {
+        "prefix": [
+            "..U.214E",
+            "..U.TURNED SMALL F",
+            "U+214E",
+        ],
+        "body": [
+            "${1|ⅎ,&#x214E;,U+214E,0x214E,TURNED SMALL F|}$2",
+        ],
+        "description": [
+            "Code: U+214E",
+            "Character/Symbol: ⅎ",
+            "Name: TURNED SMALL F",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+    "Unicode ⅏ U+214F SYMBOL FOR SAMARITAN SOURCE": 
+    {
+        "prefix": [
+            "..U.214F",
+            "..U.SYMBOL FOR SAMARITAN SOURCE",
+            "U+214F",
+        ],
+        "body": [
+            "${1|⅏,&#x214F;,U+214F,0x214F,SYMBOL FOR SAMARITAN SOURCE|}$2",
+        ],
+        "description": [
+            "Code: U+214F",
+            "Character/Symbol: ⅏",
+            "Name: SYMBOL FOR SAMARITAN SOURCE",
+            "Group/Block: Letterlike_Symbols",
+        ],
+    },
+
+}

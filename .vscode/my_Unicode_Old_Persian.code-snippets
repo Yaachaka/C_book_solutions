@@ -1,0 +1,902 @@
+{
+    "Unicode 𐎠 U+103A0 OLD PERSIAN SIGN A": 
+    {
+        "prefix": [
+            "..U.103A0",
+            "..U.OLD PERSIAN SIGN A",
+            "U+103A0",
+        ],
+        "body": [
+            "${1|𐎠,&#x103A0;,U+103A0,0x103A0,OLD PERSIAN SIGN A|}$2",
+        ],
+        "description": [
+            "Code: U+103A0",
+            "Character/Symbol: 𐎠",
+            "Name: OLD PERSIAN SIGN A",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎡 U+103A1 OLD PERSIAN SIGN I": 
+    {
+        "prefix": [
+            "..U.103A1",
+            "..U.OLD PERSIAN SIGN I",
+            "U+103A1",
+        ],
+        "body": [
+            "${1|𐎡,&#x103A1;,U+103A1,0x103A1,OLD PERSIAN SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+103A1",
+            "Character/Symbol: 𐎡",
+            "Name: OLD PERSIAN SIGN I",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎢 U+103A2 OLD PERSIAN SIGN U": 
+    {
+        "prefix": [
+            "..U.103A2",
+            "..U.OLD PERSIAN SIGN U",
+            "U+103A2",
+        ],
+        "body": [
+            "${1|𐎢,&#x103A2;,U+103A2,0x103A2,OLD PERSIAN SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+103A2",
+            "Character/Symbol: 𐎢",
+            "Name: OLD PERSIAN SIGN U",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎣 U+103A3 OLD PERSIAN SIGN KA": 
+    {
+        "prefix": [
+            "..U.103A3",
+            "..U.OLD PERSIAN SIGN KA",
+            "U+103A3",
+        ],
+        "body": [
+            "${1|𐎣,&#x103A3;,U+103A3,0x103A3,OLD PERSIAN SIGN KA|}$2",
+        ],
+        "description": [
+            "Code: U+103A3",
+            "Character/Symbol: 𐎣",
+            "Name: OLD PERSIAN SIGN KA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎤 U+103A4 OLD PERSIAN SIGN KU": 
+    {
+        "prefix": [
+            "..U.103A4",
+            "..U.OLD PERSIAN SIGN KU",
+            "U+103A4",
+        ],
+        "body": [
+            "${1|𐎤,&#x103A4;,U+103A4,0x103A4,OLD PERSIAN SIGN KU|}$2",
+        ],
+        "description": [
+            "Code: U+103A4",
+            "Character/Symbol: 𐎤",
+            "Name: OLD PERSIAN SIGN KU",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎥 U+103A5 OLD PERSIAN SIGN GA": 
+    {
+        "prefix": [
+            "..U.103A5",
+            "..U.OLD PERSIAN SIGN GA",
+            "U+103A5",
+        ],
+        "body": [
+            "${1|𐎥,&#x103A5;,U+103A5,0x103A5,OLD PERSIAN SIGN GA|}$2",
+        ],
+        "description": [
+            "Code: U+103A5",
+            "Character/Symbol: 𐎥",
+            "Name: OLD PERSIAN SIGN GA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎦 U+103A6 OLD PERSIAN SIGN GU": 
+    {
+        "prefix": [
+            "..U.103A6",
+            "..U.OLD PERSIAN SIGN GU",
+            "U+103A6",
+        ],
+        "body": [
+            "${1|𐎦,&#x103A6;,U+103A6,0x103A6,OLD PERSIAN SIGN GU|}$2",
+        ],
+        "description": [
+            "Code: U+103A6",
+            "Character/Symbol: 𐎦",
+            "Name: OLD PERSIAN SIGN GU",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎧 U+103A7 OLD PERSIAN SIGN XA": 
+    {
+        "prefix": [
+            "..U.103A7",
+            "..U.OLD PERSIAN SIGN XA",
+            "U+103A7",
+        ],
+        "body": [
+            "${1|𐎧,&#x103A7;,U+103A7,0x103A7,OLD PERSIAN SIGN XA|}$2",
+        ],
+        "description": [
+            "Code: U+103A7",
+            "Character/Symbol: 𐎧",
+            "Name: OLD PERSIAN SIGN XA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎨 U+103A8 OLD PERSIAN SIGN CA": 
+    {
+        "prefix": [
+            "..U.103A8",
+            "..U.OLD PERSIAN SIGN CA",
+            "U+103A8",
+        ],
+        "body": [
+            "${1|𐎨,&#x103A8;,U+103A8,0x103A8,OLD PERSIAN SIGN CA|}$2",
+        ],
+        "description": [
+            "Code: U+103A8",
+            "Character/Symbol: 𐎨",
+            "Name: OLD PERSIAN SIGN CA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎩 U+103A9 OLD PERSIAN SIGN JA": 
+    {
+        "prefix": [
+            "..U.103A9",
+            "..U.OLD PERSIAN SIGN JA",
+            "U+103A9",
+        ],
+        "body": [
+            "${1|𐎩,&#x103A9;,U+103A9,0x103A9,OLD PERSIAN SIGN JA|}$2",
+        ],
+        "description": [
+            "Code: U+103A9",
+            "Character/Symbol: 𐎩",
+            "Name: OLD PERSIAN SIGN JA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎪 U+103AA OLD PERSIAN SIGN JI": 
+    {
+        "prefix": [
+            "..U.103AA",
+            "..U.OLD PERSIAN SIGN JI",
+            "U+103AA",
+        ],
+        "body": [
+            "${1|𐎪,&#x103AA;,U+103AA,0x103AA,OLD PERSIAN SIGN JI|}$2",
+        ],
+        "description": [
+            "Code: U+103AA",
+            "Character/Symbol: 𐎪",
+            "Name: OLD PERSIAN SIGN JI",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎫 U+103AB OLD PERSIAN SIGN TA": 
+    {
+        "prefix": [
+            "..U.103AB",
+            "..U.OLD PERSIAN SIGN TA",
+            "U+103AB",
+        ],
+        "body": [
+            "${1|𐎫,&#x103AB;,U+103AB,0x103AB,OLD PERSIAN SIGN TA|}$2",
+        ],
+        "description": [
+            "Code: U+103AB",
+            "Character/Symbol: 𐎫",
+            "Name: OLD PERSIAN SIGN TA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎬 U+103AC OLD PERSIAN SIGN TU": 
+    {
+        "prefix": [
+            "..U.103AC",
+            "..U.OLD PERSIAN SIGN TU",
+            "U+103AC",
+        ],
+        "body": [
+            "${1|𐎬,&#x103AC;,U+103AC,0x103AC,OLD PERSIAN SIGN TU|}$2",
+        ],
+        "description": [
+            "Code: U+103AC",
+            "Character/Symbol: 𐎬",
+            "Name: OLD PERSIAN SIGN TU",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎭 U+103AD OLD PERSIAN SIGN DA": 
+    {
+        "prefix": [
+            "..U.103AD",
+            "..U.OLD PERSIAN SIGN DA",
+            "U+103AD",
+        ],
+        "body": [
+            "${1|𐎭,&#x103AD;,U+103AD,0x103AD,OLD PERSIAN SIGN DA|}$2",
+        ],
+        "description": [
+            "Code: U+103AD",
+            "Character/Symbol: 𐎭",
+            "Name: OLD PERSIAN SIGN DA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎮 U+103AE OLD PERSIAN SIGN DI": 
+    {
+        "prefix": [
+            "..U.103AE",
+            "..U.OLD PERSIAN SIGN DI",
+            "U+103AE",
+        ],
+        "body": [
+            "${1|𐎮,&#x103AE;,U+103AE,0x103AE,OLD PERSIAN SIGN DI|}$2",
+        ],
+        "description": [
+            "Code: U+103AE",
+            "Character/Symbol: 𐎮",
+            "Name: OLD PERSIAN SIGN DI",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎯 U+103AF OLD PERSIAN SIGN DU": 
+    {
+        "prefix": [
+            "..U.103AF",
+            "..U.OLD PERSIAN SIGN DU",
+            "U+103AF",
+        ],
+        "body": [
+            "${1|𐎯,&#x103AF;,U+103AF,0x103AF,OLD PERSIAN SIGN DU|}$2",
+        ],
+        "description": [
+            "Code: U+103AF",
+            "Character/Symbol: 𐎯",
+            "Name: OLD PERSIAN SIGN DU",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎰 U+103B0 OLD PERSIAN SIGN THA": 
+    {
+        "prefix": [
+            "..U.103B0",
+            "..U.OLD PERSIAN SIGN THA",
+            "U+103B0",
+        ],
+        "body": [
+            "${1|𐎰,&#x103B0;,U+103B0,0x103B0,OLD PERSIAN SIGN THA|}$2",
+        ],
+        "description": [
+            "Code: U+103B0",
+            "Character/Symbol: 𐎰",
+            "Name: OLD PERSIAN SIGN THA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎱 U+103B1 OLD PERSIAN SIGN PA": 
+    {
+        "prefix": [
+            "..U.103B1",
+            "..U.OLD PERSIAN SIGN PA",
+            "U+103B1",
+        ],
+        "body": [
+            "${1|𐎱,&#x103B1;,U+103B1,0x103B1,OLD PERSIAN SIGN PA|}$2",
+        ],
+        "description": [
+            "Code: U+103B1",
+            "Character/Symbol: 𐎱",
+            "Name: OLD PERSIAN SIGN PA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎲 U+103B2 OLD PERSIAN SIGN BA": 
+    {
+        "prefix": [
+            "..U.103B2",
+            "..U.OLD PERSIAN SIGN BA",
+            "U+103B2",
+        ],
+        "body": [
+            "${1|𐎲,&#x103B2;,U+103B2,0x103B2,OLD PERSIAN SIGN BA|}$2",
+        ],
+        "description": [
+            "Code: U+103B2",
+            "Character/Symbol: 𐎲",
+            "Name: OLD PERSIAN SIGN BA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎳 U+103B3 OLD PERSIAN SIGN FA": 
+    {
+        "prefix": [
+            "..U.103B3",
+            "..U.OLD PERSIAN SIGN FA",
+            "U+103B3",
+        ],
+        "body": [
+            "${1|𐎳,&#x103B3;,U+103B3,0x103B3,OLD PERSIAN SIGN FA|}$2",
+        ],
+        "description": [
+            "Code: U+103B3",
+            "Character/Symbol: 𐎳",
+            "Name: OLD PERSIAN SIGN FA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎴 U+103B4 OLD PERSIAN SIGN NA": 
+    {
+        "prefix": [
+            "..U.103B4",
+            "..U.OLD PERSIAN SIGN NA",
+            "U+103B4",
+        ],
+        "body": [
+            "${1|𐎴,&#x103B4;,U+103B4,0x103B4,OLD PERSIAN SIGN NA|}$2",
+        ],
+        "description": [
+            "Code: U+103B4",
+            "Character/Symbol: 𐎴",
+            "Name: OLD PERSIAN SIGN NA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎵 U+103B5 OLD PERSIAN SIGN NU": 
+    {
+        "prefix": [
+            "..U.103B5",
+            "..U.OLD PERSIAN SIGN NU",
+            "U+103B5",
+        ],
+        "body": [
+            "${1|𐎵,&#x103B5;,U+103B5,0x103B5,OLD PERSIAN SIGN NU|}$2",
+        ],
+        "description": [
+            "Code: U+103B5",
+            "Character/Symbol: 𐎵",
+            "Name: OLD PERSIAN SIGN NU",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎶 U+103B6 OLD PERSIAN SIGN MA": 
+    {
+        "prefix": [
+            "..U.103B6",
+            "..U.OLD PERSIAN SIGN MA",
+            "U+103B6",
+        ],
+        "body": [
+            "${1|𐎶,&#x103B6;,U+103B6,0x103B6,OLD PERSIAN SIGN MA|}$2",
+        ],
+        "description": [
+            "Code: U+103B6",
+            "Character/Symbol: 𐎶",
+            "Name: OLD PERSIAN SIGN MA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎷 U+103B7 OLD PERSIAN SIGN MI": 
+    {
+        "prefix": [
+            "..U.103B7",
+            "..U.OLD PERSIAN SIGN MI",
+            "U+103B7",
+        ],
+        "body": [
+            "${1|𐎷,&#x103B7;,U+103B7,0x103B7,OLD PERSIAN SIGN MI|}$2",
+        ],
+        "description": [
+            "Code: U+103B7",
+            "Character/Symbol: 𐎷",
+            "Name: OLD PERSIAN SIGN MI",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎸 U+103B8 OLD PERSIAN SIGN MU": 
+    {
+        "prefix": [
+            "..U.103B8",
+            "..U.OLD PERSIAN SIGN MU",
+            "U+103B8",
+        ],
+        "body": [
+            "${1|𐎸,&#x103B8;,U+103B8,0x103B8,OLD PERSIAN SIGN MU|}$2",
+        ],
+        "description": [
+            "Code: U+103B8",
+            "Character/Symbol: 𐎸",
+            "Name: OLD PERSIAN SIGN MU",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎹 U+103B9 OLD PERSIAN SIGN YA": 
+    {
+        "prefix": [
+            "..U.103B9",
+            "..U.OLD PERSIAN SIGN YA",
+            "U+103B9",
+        ],
+        "body": [
+            "${1|𐎹,&#x103B9;,U+103B9,0x103B9,OLD PERSIAN SIGN YA|}$2",
+        ],
+        "description": [
+            "Code: U+103B9",
+            "Character/Symbol: 𐎹",
+            "Name: OLD PERSIAN SIGN YA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎺 U+103BA OLD PERSIAN SIGN VA": 
+    {
+        "prefix": [
+            "..U.103BA",
+            "..U.OLD PERSIAN SIGN VA",
+            "U+103BA",
+        ],
+        "body": [
+            "${1|𐎺,&#x103BA;,U+103BA,0x103BA,OLD PERSIAN SIGN VA|}$2",
+        ],
+        "description": [
+            "Code: U+103BA",
+            "Character/Symbol: 𐎺",
+            "Name: OLD PERSIAN SIGN VA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎻 U+103BB OLD PERSIAN SIGN VI": 
+    {
+        "prefix": [
+            "..U.103BB",
+            "..U.OLD PERSIAN SIGN VI",
+            "U+103BB",
+        ],
+        "body": [
+            "${1|𐎻,&#x103BB;,U+103BB,0x103BB,OLD PERSIAN SIGN VI|}$2",
+        ],
+        "description": [
+            "Code: U+103BB",
+            "Character/Symbol: 𐎻",
+            "Name: OLD PERSIAN SIGN VI",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎼 U+103BC OLD PERSIAN SIGN RA": 
+    {
+        "prefix": [
+            "..U.103BC",
+            "..U.OLD PERSIAN SIGN RA",
+            "U+103BC",
+        ],
+        "body": [
+            "${1|𐎼,&#x103BC;,U+103BC,0x103BC,OLD PERSIAN SIGN RA|}$2",
+        ],
+        "description": [
+            "Code: U+103BC",
+            "Character/Symbol: 𐎼",
+            "Name: OLD PERSIAN SIGN RA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎽 U+103BD OLD PERSIAN SIGN RU": 
+    {
+        "prefix": [
+            "..U.103BD",
+            "..U.OLD PERSIAN SIGN RU",
+            "U+103BD",
+        ],
+        "body": [
+            "${1|𐎽,&#x103BD;,U+103BD,0x103BD,OLD PERSIAN SIGN RU|}$2",
+        ],
+        "description": [
+            "Code: U+103BD",
+            "Character/Symbol: 𐎽",
+            "Name: OLD PERSIAN SIGN RU",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎾 U+103BE OLD PERSIAN SIGN LA": 
+    {
+        "prefix": [
+            "..U.103BE",
+            "..U.OLD PERSIAN SIGN LA",
+            "U+103BE",
+        ],
+        "body": [
+            "${1|𐎾,&#x103BE;,U+103BE,0x103BE,OLD PERSIAN SIGN LA|}$2",
+        ],
+        "description": [
+            "Code: U+103BE",
+            "Character/Symbol: 𐎾",
+            "Name: OLD PERSIAN SIGN LA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐎿 U+103BF OLD PERSIAN SIGN SA": 
+    {
+        "prefix": [
+            "..U.103BF",
+            "..U.OLD PERSIAN SIGN SA",
+            "U+103BF",
+        ],
+        "body": [
+            "${1|𐎿,&#x103BF;,U+103BF,0x103BF,OLD PERSIAN SIGN SA|}$2",
+        ],
+        "description": [
+            "Code: U+103BF",
+            "Character/Symbol: 𐎿",
+            "Name: OLD PERSIAN SIGN SA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏀 U+103C0 OLD PERSIAN SIGN ZA": 
+    {
+        "prefix": [
+            "..U.103C0",
+            "..U.OLD PERSIAN SIGN ZA",
+            "U+103C0",
+        ],
+        "body": [
+            "${1|𐏀,&#x103C0;,U+103C0,0x103C0,OLD PERSIAN SIGN ZA|}$2",
+        ],
+        "description": [
+            "Code: U+103C0",
+            "Character/Symbol: 𐏀",
+            "Name: OLD PERSIAN SIGN ZA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏁 U+103C1 OLD PERSIAN SIGN SHA": 
+    {
+        "prefix": [
+            "..U.103C1",
+            "..U.OLD PERSIAN SIGN SHA",
+            "U+103C1",
+        ],
+        "body": [
+            "${1|𐏁,&#x103C1;,U+103C1,0x103C1,OLD PERSIAN SIGN SHA|}$2",
+        ],
+        "description": [
+            "Code: U+103C1",
+            "Character/Symbol: 𐏁",
+            "Name: OLD PERSIAN SIGN SHA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏂 U+103C2 OLD PERSIAN SIGN SSA": 
+    {
+        "prefix": [
+            "..U.103C2",
+            "..U.OLD PERSIAN SIGN SSA",
+            "U+103C2",
+        ],
+        "body": [
+            "${1|𐏂,&#x103C2;,U+103C2,0x103C2,OLD PERSIAN SIGN SSA|}$2",
+        ],
+        "description": [
+            "Code: U+103C2",
+            "Character/Symbol: 𐏂",
+            "Name: OLD PERSIAN SIGN SSA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏃 U+103C3 OLD PERSIAN SIGN HA": 
+    {
+        "prefix": [
+            "..U.103C3",
+            "..U.OLD PERSIAN SIGN HA",
+            "U+103C3",
+        ],
+        "body": [
+            "${1|𐏃,&#x103C3;,U+103C3,0x103C3,OLD PERSIAN SIGN HA|}$2",
+        ],
+        "description": [
+            "Code: U+103C3",
+            "Character/Symbol: 𐏃",
+            "Name: OLD PERSIAN SIGN HA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏈 U+103C8 OLD PERSIAN SIGN AURAMAZDAA": 
+    {
+        "prefix": [
+            "..U.103C8",
+            "..U.OLD PERSIAN SIGN AURAMAZDAA",
+            "U+103C8",
+        ],
+        "body": [
+            "${1|𐏈,&#x103C8;,U+103C8,0x103C8,OLD PERSIAN SIGN AURAMAZDAA|}$2",
+        ],
+        "description": [
+            "Code: U+103C8",
+            "Character/Symbol: 𐏈",
+            "Name: OLD PERSIAN SIGN AURAMAZDAA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏉 U+103C9 OLD PERSIAN SIGN AURAMAZDAA-2": 
+    {
+        "prefix": [
+            "..U.103C9",
+            "..U.OLD PERSIAN SIGN AURAMAZDAA-2",
+            "U+103C9",
+        ],
+        "body": [
+            "${1|𐏉,&#x103C9;,U+103C9,0x103C9,OLD PERSIAN SIGN AURAMAZDAA-2|}$2",
+        ],
+        "description": [
+            "Code: U+103C9",
+            "Character/Symbol: 𐏉",
+            "Name: OLD PERSIAN SIGN AURAMAZDAA-2",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏊 U+103CA OLD PERSIAN SIGN AURAMAZDAAHA": 
+    {
+        "prefix": [
+            "..U.103CA",
+            "..U.OLD PERSIAN SIGN AURAMAZDAAHA",
+            "U+103CA",
+        ],
+        "body": [
+            "${1|𐏊,&#x103CA;,U+103CA,0x103CA,OLD PERSIAN SIGN AURAMAZDAAHA|}$2",
+        ],
+        "description": [
+            "Code: U+103CA",
+            "Character/Symbol: 𐏊",
+            "Name: OLD PERSIAN SIGN AURAMAZDAAHA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏋 U+103CB OLD PERSIAN SIGN XSHAAYATHIYA": 
+    {
+        "prefix": [
+            "..U.103CB",
+            "..U.OLD PERSIAN SIGN XSHAAYATHIYA",
+            "U+103CB",
+        ],
+        "body": [
+            "${1|𐏋,&#x103CB;,U+103CB,0x103CB,OLD PERSIAN SIGN XSHAAYATHIYA|}$2",
+        ],
+        "description": [
+            "Code: U+103CB",
+            "Character/Symbol: 𐏋",
+            "Name: OLD PERSIAN SIGN XSHAAYATHIYA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏌 U+103CC OLD PERSIAN SIGN DAHYAAUSH": 
+    {
+        "prefix": [
+            "..U.103CC",
+            "..U.OLD PERSIAN SIGN DAHYAAUSH",
+            "U+103CC",
+        ],
+        "body": [
+            "${1|𐏌,&#x103CC;,U+103CC,0x103CC,OLD PERSIAN SIGN DAHYAAUSH|}$2",
+        ],
+        "description": [
+            "Code: U+103CC",
+            "Character/Symbol: 𐏌",
+            "Name: OLD PERSIAN SIGN DAHYAAUSH",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏍 U+103CD OLD PERSIAN SIGN DAHYAAUSH-2": 
+    {
+        "prefix": [
+            "..U.103CD",
+            "..U.OLD PERSIAN SIGN DAHYAAUSH-2",
+            "U+103CD",
+        ],
+        "body": [
+            "${1|𐏍,&#x103CD;,U+103CD,0x103CD,OLD PERSIAN SIGN DAHYAAUSH-2|}$2",
+        ],
+        "description": [
+            "Code: U+103CD",
+            "Character/Symbol: 𐏍",
+            "Name: OLD PERSIAN SIGN DAHYAAUSH-2",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏎 U+103CE OLD PERSIAN SIGN BAGA": 
+    {
+        "prefix": [
+            "..U.103CE",
+            "..U.OLD PERSIAN SIGN BAGA",
+            "U+103CE",
+        ],
+        "body": [
+            "${1|𐏎,&#x103CE;,U+103CE,0x103CE,OLD PERSIAN SIGN BAGA|}$2",
+        ],
+        "description": [
+            "Code: U+103CE",
+            "Character/Symbol: 𐏎",
+            "Name: OLD PERSIAN SIGN BAGA",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏏 U+103CF OLD PERSIAN SIGN BUUMISH": 
+    {
+        "prefix": [
+            "..U.103CF",
+            "..U.OLD PERSIAN SIGN BUUMISH",
+            "U+103CF",
+        ],
+        "body": [
+            "${1|𐏏,&#x103CF;,U+103CF,0x103CF,OLD PERSIAN SIGN BUUMISH|}$2",
+        ],
+        "description": [
+            "Code: U+103CF",
+            "Character/Symbol: 𐏏",
+            "Name: OLD PERSIAN SIGN BUUMISH",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏐 U+103D0 OLD PERSIAN WORD DIVIDER": 
+    {
+        "prefix": [
+            "..U.103D0",
+            "..U.OLD PERSIAN WORD DIVIDER",
+            "U+103D0",
+        ],
+        "body": [
+            "${1|𐏐,&#x103D0;,U+103D0,0x103D0,OLD PERSIAN WORD DIVIDER|}$2",
+        ],
+        "description": [
+            "Code: U+103D0",
+            "Character/Symbol: 𐏐",
+            "Name: OLD PERSIAN WORD DIVIDER",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏑 U+103D1 OLD PERSIAN NUMBER ONE": 
+    {
+        "prefix": [
+            "..U.103D1",
+            "..U.OLD PERSIAN NUMBER ONE",
+            "U+103D1",
+        ],
+        "body": [
+            "${1|𐏑,&#x103D1;,U+103D1,0x103D1,OLD PERSIAN NUMBER ONE|}$2",
+        ],
+        "description": [
+            "Code: U+103D1",
+            "Character/Symbol: 𐏑",
+            "Name: OLD PERSIAN NUMBER ONE",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏒 U+103D2 OLD PERSIAN NUMBER TWO": 
+    {
+        "prefix": [
+            "..U.103D2",
+            "..U.OLD PERSIAN NUMBER TWO",
+            "U+103D2",
+        ],
+        "body": [
+            "${1|𐏒,&#x103D2;,U+103D2,0x103D2,OLD PERSIAN NUMBER TWO|}$2",
+        ],
+        "description": [
+            "Code: U+103D2",
+            "Character/Symbol: 𐏒",
+            "Name: OLD PERSIAN NUMBER TWO",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏓 U+103D3 OLD PERSIAN NUMBER TEN": 
+    {
+        "prefix": [
+            "..U.103D3",
+            "..U.OLD PERSIAN NUMBER TEN",
+            "U+103D3",
+        ],
+        "body": [
+            "${1|𐏓,&#x103D3;,U+103D3,0x103D3,OLD PERSIAN NUMBER TEN|}$2",
+        ],
+        "description": [
+            "Code: U+103D3",
+            "Character/Symbol: 𐏓",
+            "Name: OLD PERSIAN NUMBER TEN",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏔 U+103D4 OLD PERSIAN NUMBER TWENTY": 
+    {
+        "prefix": [
+            "..U.103D4",
+            "..U.OLD PERSIAN NUMBER TWENTY",
+            "U+103D4",
+        ],
+        "body": [
+            "${1|𐏔,&#x103D4;,U+103D4,0x103D4,OLD PERSIAN NUMBER TWENTY|}$2",
+        ],
+        "description": [
+            "Code: U+103D4",
+            "Character/Symbol: 𐏔",
+            "Name: OLD PERSIAN NUMBER TWENTY",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+    "Unicode 𐏕 U+103D5 OLD PERSIAN NUMBER HUNDRED": 
+    {
+        "prefix": [
+            "..U.103D5",
+            "..U.OLD PERSIAN NUMBER HUNDRED",
+            "U+103D5",
+        ],
+        "body": [
+            "${1|𐏕,&#x103D5;,U+103D5,0x103D5,OLD PERSIAN NUMBER HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+103D5",
+            "Character/Symbol: 𐏕",
+            "Name: OLD PERSIAN NUMBER HUNDRED",
+            "Group/Block: Old_Persian",
+        ],
+    },
+
+}

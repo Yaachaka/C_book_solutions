@@ -1,0 +1,2540 @@
+{
+    "Unicode ﹰ U+FE70 ARABIC FATHATAN ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE70",
+            "..U.ARABIC FATHATAN ISOLATED FORM",
+            "U+FE70",
+        ],
+        "body": [
+            "${1|ﹰ,&#xFE70;,U+FE70,0xFE70,ARABIC FATHATAN ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE70",
+            "Character/Symbol: ﹰ",
+            "Name: ARABIC FATHATAN ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹱ U+FE71 ARABIC TATWEEL WITH FATHATAN ABOVE": 
+    {
+        "prefix": [
+            "..U.FE71",
+            "..U.ARABIC TATWEEL WITH FATHATAN ABOVE",
+            "U+FE71",
+        ],
+        "body": [
+            "${1|ﹱ,&#xFE71;,U+FE71,0xFE71,ARABIC TATWEEL WITH FATHATAN ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+FE71",
+            "Character/Symbol: ﹱ",
+            "Name: ARABIC TATWEEL WITH FATHATAN ABOVE",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹲ U+FE72 ARABIC DAMMATAN ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE72",
+            "..U.ARABIC DAMMATAN ISOLATED FORM",
+            "U+FE72",
+        ],
+        "body": [
+            "${1|ﹲ,&#xFE72;,U+FE72,0xFE72,ARABIC DAMMATAN ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE72",
+            "Character/Symbol: ﹲ",
+            "Name: ARABIC DAMMATAN ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹳ U+FE73 ARABIC TAIL FRAGMENT": 
+    {
+        "prefix": [
+            "..U.FE73",
+            "..U.ARABIC TAIL FRAGMENT",
+            "U+FE73",
+        ],
+        "body": [
+            "${1|ﹳ,&#xFE73;,U+FE73,0xFE73,ARABIC TAIL FRAGMENT|}$2",
+        ],
+        "description": [
+            "Code: U+FE73",
+            "Character/Symbol: ﹳ",
+            "Name: ARABIC TAIL FRAGMENT",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹴ U+FE74 ARABIC KASRATAN ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE74",
+            "..U.ARABIC KASRATAN ISOLATED FORM",
+            "U+FE74",
+        ],
+        "body": [
+            "${1|ﹴ,&#xFE74;,U+FE74,0xFE74,ARABIC KASRATAN ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE74",
+            "Character/Symbol: ﹴ",
+            "Name: ARABIC KASRATAN ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹶ U+FE76 ARABIC FATHA ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE76",
+            "..U.ARABIC FATHA ISOLATED FORM",
+            "U+FE76",
+        ],
+        "body": [
+            "${1|ﹶ,&#xFE76;,U+FE76,0xFE76,ARABIC FATHA ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE76",
+            "Character/Symbol: ﹶ",
+            "Name: ARABIC FATHA ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹷ U+FE77 ARABIC FATHA MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE77",
+            "..U.ARABIC FATHA MEDIAL FORM",
+            "U+FE77",
+        ],
+        "body": [
+            "${1|ﹷ,&#xFE77;,U+FE77,0xFE77,ARABIC FATHA MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE77",
+            "Character/Symbol: ﹷ",
+            "Name: ARABIC FATHA MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹸ U+FE78 ARABIC DAMMA ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE78",
+            "..U.ARABIC DAMMA ISOLATED FORM",
+            "U+FE78",
+        ],
+        "body": [
+            "${1|ﹸ,&#xFE78;,U+FE78,0xFE78,ARABIC DAMMA ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE78",
+            "Character/Symbol: ﹸ",
+            "Name: ARABIC DAMMA ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹹ U+FE79 ARABIC DAMMA MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE79",
+            "..U.ARABIC DAMMA MEDIAL FORM",
+            "U+FE79",
+        ],
+        "body": [
+            "${1|ﹹ,&#xFE79;,U+FE79,0xFE79,ARABIC DAMMA MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE79",
+            "Character/Symbol: ﹹ",
+            "Name: ARABIC DAMMA MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹺ U+FE7A ARABIC KASRA ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE7A",
+            "..U.ARABIC KASRA ISOLATED FORM",
+            "U+FE7A",
+        ],
+        "body": [
+            "${1|ﹺ,&#xFE7A;,U+FE7A,0xFE7A,ARABIC KASRA ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE7A",
+            "Character/Symbol: ﹺ",
+            "Name: ARABIC KASRA ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹻ U+FE7B ARABIC KASRA MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE7B",
+            "..U.ARABIC KASRA MEDIAL FORM",
+            "U+FE7B",
+        ],
+        "body": [
+            "${1|ﹻ,&#xFE7B;,U+FE7B,0xFE7B,ARABIC KASRA MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE7B",
+            "Character/Symbol: ﹻ",
+            "Name: ARABIC KASRA MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹼ U+FE7C ARABIC SHADDA ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE7C",
+            "..U.ARABIC SHADDA ISOLATED FORM",
+            "U+FE7C",
+        ],
+        "body": [
+            "${1|ﹼ,&#xFE7C;,U+FE7C,0xFE7C,ARABIC SHADDA ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE7C",
+            "Character/Symbol: ﹼ",
+            "Name: ARABIC SHADDA ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹽ U+FE7D ARABIC SHADDA MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE7D",
+            "..U.ARABIC SHADDA MEDIAL FORM",
+            "U+FE7D",
+        ],
+        "body": [
+            "${1|ﹽ,&#xFE7D;,U+FE7D,0xFE7D,ARABIC SHADDA MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE7D",
+            "Character/Symbol: ﹽ",
+            "Name: ARABIC SHADDA MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹾ U+FE7E ARABIC SUKUN ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE7E",
+            "..U.ARABIC SUKUN ISOLATED FORM",
+            "U+FE7E",
+        ],
+        "body": [
+            "${1|ﹾ,&#xFE7E;,U+FE7E,0xFE7E,ARABIC SUKUN ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE7E",
+            "Character/Symbol: ﹾ",
+            "Name: ARABIC SUKUN ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﹿ U+FE7F ARABIC SUKUN MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE7F",
+            "..U.ARABIC SUKUN MEDIAL FORM",
+            "U+FE7F",
+        ],
+        "body": [
+            "${1|ﹿ,&#xFE7F;,U+FE7F,0xFE7F,ARABIC SUKUN MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE7F",
+            "Character/Symbol: ﹿ",
+            "Name: ARABIC SUKUN MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺀ U+FE80 ARABIC LETTER HAMZA ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE80",
+            "..U.ARABIC LETTER HAMZA ISOLATED FORM",
+            "U+FE80",
+        ],
+        "body": [
+            "${1|ﺀ,&#xFE80;,U+FE80,0xFE80,ARABIC LETTER HAMZA ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE80",
+            "Character/Symbol: ﺀ",
+            "Name: ARABIC LETTER HAMZA ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺁ U+FE81 ARABIC LETTER ALEF WITH MADDA ABOVE ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE81",
+            "..U.ARABIC LETTER ALEF WITH MADDA ABOVE ISOLATED FORM",
+            "U+FE81",
+        ],
+        "body": [
+            "${1|ﺁ,&#xFE81;,U+FE81,0xFE81,ARABIC LETTER ALEF WITH MADDA ABOVE ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE81",
+            "Character/Symbol: ﺁ",
+            "Name: ARABIC LETTER ALEF WITH MADDA ABOVE ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺂ U+FE82 ARABIC LETTER ALEF WITH MADDA ABOVE FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FE82",
+            "..U.ARABIC LETTER ALEF WITH MADDA ABOVE FINAL FORM",
+            "U+FE82",
+        ],
+        "body": [
+            "${1|ﺂ,&#xFE82;,U+FE82,0xFE82,ARABIC LETTER ALEF WITH MADDA ABOVE FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE82",
+            "Character/Symbol: ﺂ",
+            "Name: ARABIC LETTER ALEF WITH MADDA ABOVE FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺃ U+FE83 ARABIC LETTER ALEF WITH HAMZA ABOVE ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE83",
+            "..U.ARABIC LETTER ALEF WITH HAMZA ABOVE ISOLATED FORM",
+            "U+FE83",
+        ],
+        "body": [
+            "${1|ﺃ,&#xFE83;,U+FE83,0xFE83,ARABIC LETTER ALEF WITH HAMZA ABOVE ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE83",
+            "Character/Symbol: ﺃ",
+            "Name: ARABIC LETTER ALEF WITH HAMZA ABOVE ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺄ U+FE84 ARABIC LETTER ALEF WITH HAMZA ABOVE FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FE84",
+            "..U.ARABIC LETTER ALEF WITH HAMZA ABOVE FINAL FORM",
+            "U+FE84",
+        ],
+        "body": [
+            "${1|ﺄ,&#xFE84;,U+FE84,0xFE84,ARABIC LETTER ALEF WITH HAMZA ABOVE FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE84",
+            "Character/Symbol: ﺄ",
+            "Name: ARABIC LETTER ALEF WITH HAMZA ABOVE FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺅ U+FE85 ARABIC LETTER WAW WITH HAMZA ABOVE ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE85",
+            "..U.ARABIC LETTER WAW WITH HAMZA ABOVE ISOLATED FORM",
+            "U+FE85",
+        ],
+        "body": [
+            "${1|ﺅ,&#xFE85;,U+FE85,0xFE85,ARABIC LETTER WAW WITH HAMZA ABOVE ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE85",
+            "Character/Symbol: ﺅ",
+            "Name: ARABIC LETTER WAW WITH HAMZA ABOVE ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺆ U+FE86 ARABIC LETTER WAW WITH HAMZA ABOVE FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FE86",
+            "..U.ARABIC LETTER WAW WITH HAMZA ABOVE FINAL FORM",
+            "U+FE86",
+        ],
+        "body": [
+            "${1|ﺆ,&#xFE86;,U+FE86,0xFE86,ARABIC LETTER WAW WITH HAMZA ABOVE FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE86",
+            "Character/Symbol: ﺆ",
+            "Name: ARABIC LETTER WAW WITH HAMZA ABOVE FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺇ U+FE87 ARABIC LETTER ALEF WITH HAMZA BELOW ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE87",
+            "..U.ARABIC LETTER ALEF WITH HAMZA BELOW ISOLATED FORM",
+            "U+FE87",
+        ],
+        "body": [
+            "${1|ﺇ,&#xFE87;,U+FE87,0xFE87,ARABIC LETTER ALEF WITH HAMZA BELOW ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE87",
+            "Character/Symbol: ﺇ",
+            "Name: ARABIC LETTER ALEF WITH HAMZA BELOW ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺈ U+FE88 ARABIC LETTER ALEF WITH HAMZA BELOW FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FE88",
+            "..U.ARABIC LETTER ALEF WITH HAMZA BELOW FINAL FORM",
+            "U+FE88",
+        ],
+        "body": [
+            "${1|ﺈ,&#xFE88;,U+FE88,0xFE88,ARABIC LETTER ALEF WITH HAMZA BELOW FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE88",
+            "Character/Symbol: ﺈ",
+            "Name: ARABIC LETTER ALEF WITH HAMZA BELOW FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺉ U+FE89 ARABIC LETTER YEH WITH HAMZA ABOVE ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE89",
+            "..U.ARABIC LETTER YEH WITH HAMZA ABOVE ISOLATED FORM",
+            "U+FE89",
+        ],
+        "body": [
+            "${1|ﺉ,&#xFE89;,U+FE89,0xFE89,ARABIC LETTER YEH WITH HAMZA ABOVE ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE89",
+            "Character/Symbol: ﺉ",
+            "Name: ARABIC LETTER YEH WITH HAMZA ABOVE ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺊ U+FE8A ARABIC LETTER YEH WITH HAMZA ABOVE FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FE8A",
+            "..U.ARABIC LETTER YEH WITH HAMZA ABOVE FINAL FORM",
+            "U+FE8A",
+        ],
+        "body": [
+            "${1|ﺊ,&#xFE8A;,U+FE8A,0xFE8A,ARABIC LETTER YEH WITH HAMZA ABOVE FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE8A",
+            "Character/Symbol: ﺊ",
+            "Name: ARABIC LETTER YEH WITH HAMZA ABOVE FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺋ U+FE8B ARABIC LETTER YEH WITH HAMZA ABOVE INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE8B",
+            "..U.ARABIC LETTER YEH WITH HAMZA ABOVE INITIAL FORM",
+            "U+FE8B",
+        ],
+        "body": [
+            "${1|ﺋ,&#xFE8B;,U+FE8B,0xFE8B,ARABIC LETTER YEH WITH HAMZA ABOVE INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE8B",
+            "Character/Symbol: ﺋ",
+            "Name: ARABIC LETTER YEH WITH HAMZA ABOVE INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺌ U+FE8C ARABIC LETTER YEH WITH HAMZA ABOVE MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE8C",
+            "..U.ARABIC LETTER YEH WITH HAMZA ABOVE MEDIAL FORM",
+            "U+FE8C",
+        ],
+        "body": [
+            "${1|ﺌ,&#xFE8C;,U+FE8C,0xFE8C,ARABIC LETTER YEH WITH HAMZA ABOVE MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE8C",
+            "Character/Symbol: ﺌ",
+            "Name: ARABIC LETTER YEH WITH HAMZA ABOVE MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺍ U+FE8D ARABIC LETTER ALEF ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE8D",
+            "..U.ARABIC LETTER ALEF ISOLATED FORM",
+            "U+FE8D",
+        ],
+        "body": [
+            "${1|ﺍ,&#xFE8D;,U+FE8D,0xFE8D,ARABIC LETTER ALEF ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE8D",
+            "Character/Symbol: ﺍ",
+            "Name: ARABIC LETTER ALEF ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺎ U+FE8E ARABIC LETTER ALEF FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FE8E",
+            "..U.ARABIC LETTER ALEF FINAL FORM",
+            "U+FE8E",
+        ],
+        "body": [
+            "${1|ﺎ,&#xFE8E;,U+FE8E,0xFE8E,ARABIC LETTER ALEF FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE8E",
+            "Character/Symbol: ﺎ",
+            "Name: ARABIC LETTER ALEF FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺏ U+FE8F ARABIC LETTER BEH ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE8F",
+            "..U.ARABIC LETTER BEH ISOLATED FORM",
+            "U+FE8F",
+        ],
+        "body": [
+            "${1|ﺏ,&#xFE8F;,U+FE8F,0xFE8F,ARABIC LETTER BEH ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE8F",
+            "Character/Symbol: ﺏ",
+            "Name: ARABIC LETTER BEH ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺐ U+FE90 ARABIC LETTER BEH FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FE90",
+            "..U.ARABIC LETTER BEH FINAL FORM",
+            "U+FE90",
+        ],
+        "body": [
+            "${1|ﺐ,&#xFE90;,U+FE90,0xFE90,ARABIC LETTER BEH FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE90",
+            "Character/Symbol: ﺐ",
+            "Name: ARABIC LETTER BEH FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺑ U+FE91 ARABIC LETTER BEH INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE91",
+            "..U.ARABIC LETTER BEH INITIAL FORM",
+            "U+FE91",
+        ],
+        "body": [
+            "${1|ﺑ,&#xFE91;,U+FE91,0xFE91,ARABIC LETTER BEH INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE91",
+            "Character/Symbol: ﺑ",
+            "Name: ARABIC LETTER BEH INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺒ U+FE92 ARABIC LETTER BEH MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE92",
+            "..U.ARABIC LETTER BEH MEDIAL FORM",
+            "U+FE92",
+        ],
+        "body": [
+            "${1|ﺒ,&#xFE92;,U+FE92,0xFE92,ARABIC LETTER BEH MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE92",
+            "Character/Symbol: ﺒ",
+            "Name: ARABIC LETTER BEH MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺓ U+FE93 ARABIC LETTER TEH MARBUTA ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE93",
+            "..U.ARABIC LETTER TEH MARBUTA ISOLATED FORM",
+            "U+FE93",
+        ],
+        "body": [
+            "${1|ﺓ,&#xFE93;,U+FE93,0xFE93,ARABIC LETTER TEH MARBUTA ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE93",
+            "Character/Symbol: ﺓ",
+            "Name: ARABIC LETTER TEH MARBUTA ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺔ U+FE94 ARABIC LETTER TEH MARBUTA FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FE94",
+            "..U.ARABIC LETTER TEH MARBUTA FINAL FORM",
+            "U+FE94",
+        ],
+        "body": [
+            "${1|ﺔ,&#xFE94;,U+FE94,0xFE94,ARABIC LETTER TEH MARBUTA FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE94",
+            "Character/Symbol: ﺔ",
+            "Name: ARABIC LETTER TEH MARBUTA FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺕ U+FE95 ARABIC LETTER TEH ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE95",
+            "..U.ARABIC LETTER TEH ISOLATED FORM",
+            "U+FE95",
+        ],
+        "body": [
+            "${1|ﺕ,&#xFE95;,U+FE95,0xFE95,ARABIC LETTER TEH ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE95",
+            "Character/Symbol: ﺕ",
+            "Name: ARABIC LETTER TEH ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺖ U+FE96 ARABIC LETTER TEH FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FE96",
+            "..U.ARABIC LETTER TEH FINAL FORM",
+            "U+FE96",
+        ],
+        "body": [
+            "${1|ﺖ,&#xFE96;,U+FE96,0xFE96,ARABIC LETTER TEH FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE96",
+            "Character/Symbol: ﺖ",
+            "Name: ARABIC LETTER TEH FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺗ U+FE97 ARABIC LETTER TEH INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE97",
+            "..U.ARABIC LETTER TEH INITIAL FORM",
+            "U+FE97",
+        ],
+        "body": [
+            "${1|ﺗ,&#xFE97;,U+FE97,0xFE97,ARABIC LETTER TEH INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE97",
+            "Character/Symbol: ﺗ",
+            "Name: ARABIC LETTER TEH INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺘ U+FE98 ARABIC LETTER TEH MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE98",
+            "..U.ARABIC LETTER TEH MEDIAL FORM",
+            "U+FE98",
+        ],
+        "body": [
+            "${1|ﺘ,&#xFE98;,U+FE98,0xFE98,ARABIC LETTER TEH MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE98",
+            "Character/Symbol: ﺘ",
+            "Name: ARABIC LETTER TEH MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺙ U+FE99 ARABIC LETTER THEH ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE99",
+            "..U.ARABIC LETTER THEH ISOLATED FORM",
+            "U+FE99",
+        ],
+        "body": [
+            "${1|ﺙ,&#xFE99;,U+FE99,0xFE99,ARABIC LETTER THEH ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE99",
+            "Character/Symbol: ﺙ",
+            "Name: ARABIC LETTER THEH ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺚ U+FE9A ARABIC LETTER THEH FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FE9A",
+            "..U.ARABIC LETTER THEH FINAL FORM",
+            "U+FE9A",
+        ],
+        "body": [
+            "${1|ﺚ,&#xFE9A;,U+FE9A,0xFE9A,ARABIC LETTER THEH FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE9A",
+            "Character/Symbol: ﺚ",
+            "Name: ARABIC LETTER THEH FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺛ U+FE9B ARABIC LETTER THEH INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE9B",
+            "..U.ARABIC LETTER THEH INITIAL FORM",
+            "U+FE9B",
+        ],
+        "body": [
+            "${1|ﺛ,&#xFE9B;,U+FE9B,0xFE9B,ARABIC LETTER THEH INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE9B",
+            "Character/Symbol: ﺛ",
+            "Name: ARABIC LETTER THEH INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺜ U+FE9C ARABIC LETTER THEH MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE9C",
+            "..U.ARABIC LETTER THEH MEDIAL FORM",
+            "U+FE9C",
+        ],
+        "body": [
+            "${1|ﺜ,&#xFE9C;,U+FE9C,0xFE9C,ARABIC LETTER THEH MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE9C",
+            "Character/Symbol: ﺜ",
+            "Name: ARABIC LETTER THEH MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺝ U+FE9D ARABIC LETTER JEEM ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FE9D",
+            "..U.ARABIC LETTER JEEM ISOLATED FORM",
+            "U+FE9D",
+        ],
+        "body": [
+            "${1|ﺝ,&#xFE9D;,U+FE9D,0xFE9D,ARABIC LETTER JEEM ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE9D",
+            "Character/Symbol: ﺝ",
+            "Name: ARABIC LETTER JEEM ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺞ U+FE9E ARABIC LETTER JEEM FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FE9E",
+            "..U.ARABIC LETTER JEEM FINAL FORM",
+            "U+FE9E",
+        ],
+        "body": [
+            "${1|ﺞ,&#xFE9E;,U+FE9E,0xFE9E,ARABIC LETTER JEEM FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE9E",
+            "Character/Symbol: ﺞ",
+            "Name: ARABIC LETTER JEEM FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺟ U+FE9F ARABIC LETTER JEEM INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FE9F",
+            "..U.ARABIC LETTER JEEM INITIAL FORM",
+            "U+FE9F",
+        ],
+        "body": [
+            "${1|ﺟ,&#xFE9F;,U+FE9F,0xFE9F,ARABIC LETTER JEEM INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FE9F",
+            "Character/Symbol: ﺟ",
+            "Name: ARABIC LETTER JEEM INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺠ U+FEA0 ARABIC LETTER JEEM MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEA0",
+            "..U.ARABIC LETTER JEEM MEDIAL FORM",
+            "U+FEA0",
+        ],
+        "body": [
+            "${1|ﺠ,&#xFEA0;,U+FEA0,0xFEA0,ARABIC LETTER JEEM MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEA0",
+            "Character/Symbol: ﺠ",
+            "Name: ARABIC LETTER JEEM MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺡ U+FEA1 ARABIC LETTER HAH ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEA1",
+            "..U.ARABIC LETTER HAH ISOLATED FORM",
+            "U+FEA1",
+        ],
+        "body": [
+            "${1|ﺡ,&#xFEA1;,U+FEA1,0xFEA1,ARABIC LETTER HAH ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEA1",
+            "Character/Symbol: ﺡ",
+            "Name: ARABIC LETTER HAH ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺢ U+FEA2 ARABIC LETTER HAH FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEA2",
+            "..U.ARABIC LETTER HAH FINAL FORM",
+            "U+FEA2",
+        ],
+        "body": [
+            "${1|ﺢ,&#xFEA2;,U+FEA2,0xFEA2,ARABIC LETTER HAH FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEA2",
+            "Character/Symbol: ﺢ",
+            "Name: ARABIC LETTER HAH FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺣ U+FEA3 ARABIC LETTER HAH INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEA3",
+            "..U.ARABIC LETTER HAH INITIAL FORM",
+            "U+FEA3",
+        ],
+        "body": [
+            "${1|ﺣ,&#xFEA3;,U+FEA3,0xFEA3,ARABIC LETTER HAH INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEA3",
+            "Character/Symbol: ﺣ",
+            "Name: ARABIC LETTER HAH INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺤ U+FEA4 ARABIC LETTER HAH MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEA4",
+            "..U.ARABIC LETTER HAH MEDIAL FORM",
+            "U+FEA4",
+        ],
+        "body": [
+            "${1|ﺤ,&#xFEA4;,U+FEA4,0xFEA4,ARABIC LETTER HAH MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEA4",
+            "Character/Symbol: ﺤ",
+            "Name: ARABIC LETTER HAH MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺥ U+FEA5 ARABIC LETTER KHAH ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEA5",
+            "..U.ARABIC LETTER KHAH ISOLATED FORM",
+            "U+FEA5",
+        ],
+        "body": [
+            "${1|ﺥ,&#xFEA5;,U+FEA5,0xFEA5,ARABIC LETTER KHAH ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEA5",
+            "Character/Symbol: ﺥ",
+            "Name: ARABIC LETTER KHAH ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺦ U+FEA6 ARABIC LETTER KHAH FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEA6",
+            "..U.ARABIC LETTER KHAH FINAL FORM",
+            "U+FEA6",
+        ],
+        "body": [
+            "${1|ﺦ,&#xFEA6;,U+FEA6,0xFEA6,ARABIC LETTER KHAH FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEA6",
+            "Character/Symbol: ﺦ",
+            "Name: ARABIC LETTER KHAH FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺧ U+FEA7 ARABIC LETTER KHAH INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEA7",
+            "..U.ARABIC LETTER KHAH INITIAL FORM",
+            "U+FEA7",
+        ],
+        "body": [
+            "${1|ﺧ,&#xFEA7;,U+FEA7,0xFEA7,ARABIC LETTER KHAH INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEA7",
+            "Character/Symbol: ﺧ",
+            "Name: ARABIC LETTER KHAH INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺨ U+FEA8 ARABIC LETTER KHAH MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEA8",
+            "..U.ARABIC LETTER KHAH MEDIAL FORM",
+            "U+FEA8",
+        ],
+        "body": [
+            "${1|ﺨ,&#xFEA8;,U+FEA8,0xFEA8,ARABIC LETTER KHAH MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEA8",
+            "Character/Symbol: ﺨ",
+            "Name: ARABIC LETTER KHAH MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺩ U+FEA9 ARABIC LETTER DAL ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEA9",
+            "..U.ARABIC LETTER DAL ISOLATED FORM",
+            "U+FEA9",
+        ],
+        "body": [
+            "${1|ﺩ,&#xFEA9;,U+FEA9,0xFEA9,ARABIC LETTER DAL ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEA9",
+            "Character/Symbol: ﺩ",
+            "Name: ARABIC LETTER DAL ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺪ U+FEAA ARABIC LETTER DAL FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEAA",
+            "..U.ARABIC LETTER DAL FINAL FORM",
+            "U+FEAA",
+        ],
+        "body": [
+            "${1|ﺪ,&#xFEAA;,U+FEAA,0xFEAA,ARABIC LETTER DAL FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEAA",
+            "Character/Symbol: ﺪ",
+            "Name: ARABIC LETTER DAL FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺫ U+FEAB ARABIC LETTER THAL ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEAB",
+            "..U.ARABIC LETTER THAL ISOLATED FORM",
+            "U+FEAB",
+        ],
+        "body": [
+            "${1|ﺫ,&#xFEAB;,U+FEAB,0xFEAB,ARABIC LETTER THAL ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEAB",
+            "Character/Symbol: ﺫ",
+            "Name: ARABIC LETTER THAL ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺬ U+FEAC ARABIC LETTER THAL FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEAC",
+            "..U.ARABIC LETTER THAL FINAL FORM",
+            "U+FEAC",
+        ],
+        "body": [
+            "${1|ﺬ,&#xFEAC;,U+FEAC,0xFEAC,ARABIC LETTER THAL FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEAC",
+            "Character/Symbol: ﺬ",
+            "Name: ARABIC LETTER THAL FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺭ U+FEAD ARABIC LETTER REH ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEAD",
+            "..U.ARABIC LETTER REH ISOLATED FORM",
+            "U+FEAD",
+        ],
+        "body": [
+            "${1|ﺭ,&#xFEAD;,U+FEAD,0xFEAD,ARABIC LETTER REH ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEAD",
+            "Character/Symbol: ﺭ",
+            "Name: ARABIC LETTER REH ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺮ U+FEAE ARABIC LETTER REH FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEAE",
+            "..U.ARABIC LETTER REH FINAL FORM",
+            "U+FEAE",
+        ],
+        "body": [
+            "${1|ﺮ,&#xFEAE;,U+FEAE,0xFEAE,ARABIC LETTER REH FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEAE",
+            "Character/Symbol: ﺮ",
+            "Name: ARABIC LETTER REH FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺯ U+FEAF ARABIC LETTER ZAIN ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEAF",
+            "..U.ARABIC LETTER ZAIN ISOLATED FORM",
+            "U+FEAF",
+        ],
+        "body": [
+            "${1|ﺯ,&#xFEAF;,U+FEAF,0xFEAF,ARABIC LETTER ZAIN ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEAF",
+            "Character/Symbol: ﺯ",
+            "Name: ARABIC LETTER ZAIN ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺰ U+FEB0 ARABIC LETTER ZAIN FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEB0",
+            "..U.ARABIC LETTER ZAIN FINAL FORM",
+            "U+FEB0",
+        ],
+        "body": [
+            "${1|ﺰ,&#xFEB0;,U+FEB0,0xFEB0,ARABIC LETTER ZAIN FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEB0",
+            "Character/Symbol: ﺰ",
+            "Name: ARABIC LETTER ZAIN FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺱ U+FEB1 ARABIC LETTER SEEN ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEB1",
+            "..U.ARABIC LETTER SEEN ISOLATED FORM",
+            "U+FEB1",
+        ],
+        "body": [
+            "${1|ﺱ,&#xFEB1;,U+FEB1,0xFEB1,ARABIC LETTER SEEN ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEB1",
+            "Character/Symbol: ﺱ",
+            "Name: ARABIC LETTER SEEN ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺲ U+FEB2 ARABIC LETTER SEEN FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEB2",
+            "..U.ARABIC LETTER SEEN FINAL FORM",
+            "U+FEB2",
+        ],
+        "body": [
+            "${1|ﺲ,&#xFEB2;,U+FEB2,0xFEB2,ARABIC LETTER SEEN FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEB2",
+            "Character/Symbol: ﺲ",
+            "Name: ARABIC LETTER SEEN FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺳ U+FEB3 ARABIC LETTER SEEN INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEB3",
+            "..U.ARABIC LETTER SEEN INITIAL FORM",
+            "U+FEB3",
+        ],
+        "body": [
+            "${1|ﺳ,&#xFEB3;,U+FEB3,0xFEB3,ARABIC LETTER SEEN INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEB3",
+            "Character/Symbol: ﺳ",
+            "Name: ARABIC LETTER SEEN INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺴ U+FEB4 ARABIC LETTER SEEN MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEB4",
+            "..U.ARABIC LETTER SEEN MEDIAL FORM",
+            "U+FEB4",
+        ],
+        "body": [
+            "${1|ﺴ,&#xFEB4;,U+FEB4,0xFEB4,ARABIC LETTER SEEN MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEB4",
+            "Character/Symbol: ﺴ",
+            "Name: ARABIC LETTER SEEN MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺵ U+FEB5 ARABIC LETTER SHEEN ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEB5",
+            "..U.ARABIC LETTER SHEEN ISOLATED FORM",
+            "U+FEB5",
+        ],
+        "body": [
+            "${1|ﺵ,&#xFEB5;,U+FEB5,0xFEB5,ARABIC LETTER SHEEN ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEB5",
+            "Character/Symbol: ﺵ",
+            "Name: ARABIC LETTER SHEEN ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺶ U+FEB6 ARABIC LETTER SHEEN FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEB6",
+            "..U.ARABIC LETTER SHEEN FINAL FORM",
+            "U+FEB6",
+        ],
+        "body": [
+            "${1|ﺶ,&#xFEB6;,U+FEB6,0xFEB6,ARABIC LETTER SHEEN FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEB6",
+            "Character/Symbol: ﺶ",
+            "Name: ARABIC LETTER SHEEN FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺷ U+FEB7 ARABIC LETTER SHEEN INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEB7",
+            "..U.ARABIC LETTER SHEEN INITIAL FORM",
+            "U+FEB7",
+        ],
+        "body": [
+            "${1|ﺷ,&#xFEB7;,U+FEB7,0xFEB7,ARABIC LETTER SHEEN INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEB7",
+            "Character/Symbol: ﺷ",
+            "Name: ARABIC LETTER SHEEN INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺸ U+FEB8 ARABIC LETTER SHEEN MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEB8",
+            "..U.ARABIC LETTER SHEEN MEDIAL FORM",
+            "U+FEB8",
+        ],
+        "body": [
+            "${1|ﺸ,&#xFEB8;,U+FEB8,0xFEB8,ARABIC LETTER SHEEN MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEB8",
+            "Character/Symbol: ﺸ",
+            "Name: ARABIC LETTER SHEEN MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺹ U+FEB9 ARABIC LETTER SAD ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEB9",
+            "..U.ARABIC LETTER SAD ISOLATED FORM",
+            "U+FEB9",
+        ],
+        "body": [
+            "${1|ﺹ,&#xFEB9;,U+FEB9,0xFEB9,ARABIC LETTER SAD ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEB9",
+            "Character/Symbol: ﺹ",
+            "Name: ARABIC LETTER SAD ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺺ U+FEBA ARABIC LETTER SAD FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEBA",
+            "..U.ARABIC LETTER SAD FINAL FORM",
+            "U+FEBA",
+        ],
+        "body": [
+            "${1|ﺺ,&#xFEBA;,U+FEBA,0xFEBA,ARABIC LETTER SAD FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEBA",
+            "Character/Symbol: ﺺ",
+            "Name: ARABIC LETTER SAD FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺻ U+FEBB ARABIC LETTER SAD INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEBB",
+            "..U.ARABIC LETTER SAD INITIAL FORM",
+            "U+FEBB",
+        ],
+        "body": [
+            "${1|ﺻ,&#xFEBB;,U+FEBB,0xFEBB,ARABIC LETTER SAD INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEBB",
+            "Character/Symbol: ﺻ",
+            "Name: ARABIC LETTER SAD INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺼ U+FEBC ARABIC LETTER SAD MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEBC",
+            "..U.ARABIC LETTER SAD MEDIAL FORM",
+            "U+FEBC",
+        ],
+        "body": [
+            "${1|ﺼ,&#xFEBC;,U+FEBC,0xFEBC,ARABIC LETTER SAD MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEBC",
+            "Character/Symbol: ﺼ",
+            "Name: ARABIC LETTER SAD MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺽ U+FEBD ARABIC LETTER DAD ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEBD",
+            "..U.ARABIC LETTER DAD ISOLATED FORM",
+            "U+FEBD",
+        ],
+        "body": [
+            "${1|ﺽ,&#xFEBD;,U+FEBD,0xFEBD,ARABIC LETTER DAD ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEBD",
+            "Character/Symbol: ﺽ",
+            "Name: ARABIC LETTER DAD ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺾ U+FEBE ARABIC LETTER DAD FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEBE",
+            "..U.ARABIC LETTER DAD FINAL FORM",
+            "U+FEBE",
+        ],
+        "body": [
+            "${1|ﺾ,&#xFEBE;,U+FEBE,0xFEBE,ARABIC LETTER DAD FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEBE",
+            "Character/Symbol: ﺾ",
+            "Name: ARABIC LETTER DAD FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﺿ U+FEBF ARABIC LETTER DAD INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEBF",
+            "..U.ARABIC LETTER DAD INITIAL FORM",
+            "U+FEBF",
+        ],
+        "body": [
+            "${1|ﺿ,&#xFEBF;,U+FEBF,0xFEBF,ARABIC LETTER DAD INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEBF",
+            "Character/Symbol: ﺿ",
+            "Name: ARABIC LETTER DAD INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻀ U+FEC0 ARABIC LETTER DAD MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEC0",
+            "..U.ARABIC LETTER DAD MEDIAL FORM",
+            "U+FEC0",
+        ],
+        "body": [
+            "${1|ﻀ,&#xFEC0;,U+FEC0,0xFEC0,ARABIC LETTER DAD MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEC0",
+            "Character/Symbol: ﻀ",
+            "Name: ARABIC LETTER DAD MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻁ U+FEC1 ARABIC LETTER TAH ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEC1",
+            "..U.ARABIC LETTER TAH ISOLATED FORM",
+            "U+FEC1",
+        ],
+        "body": [
+            "${1|ﻁ,&#xFEC1;,U+FEC1,0xFEC1,ARABIC LETTER TAH ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEC1",
+            "Character/Symbol: ﻁ",
+            "Name: ARABIC LETTER TAH ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻂ U+FEC2 ARABIC LETTER TAH FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEC2",
+            "..U.ARABIC LETTER TAH FINAL FORM",
+            "U+FEC2",
+        ],
+        "body": [
+            "${1|ﻂ,&#xFEC2;,U+FEC2,0xFEC2,ARABIC LETTER TAH FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEC2",
+            "Character/Symbol: ﻂ",
+            "Name: ARABIC LETTER TAH FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻃ U+FEC3 ARABIC LETTER TAH INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEC3",
+            "..U.ARABIC LETTER TAH INITIAL FORM",
+            "U+FEC3",
+        ],
+        "body": [
+            "${1|ﻃ,&#xFEC3;,U+FEC3,0xFEC3,ARABIC LETTER TAH INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEC3",
+            "Character/Symbol: ﻃ",
+            "Name: ARABIC LETTER TAH INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻄ U+FEC4 ARABIC LETTER TAH MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEC4",
+            "..U.ARABIC LETTER TAH MEDIAL FORM",
+            "U+FEC4",
+        ],
+        "body": [
+            "${1|ﻄ,&#xFEC4;,U+FEC4,0xFEC4,ARABIC LETTER TAH MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEC4",
+            "Character/Symbol: ﻄ",
+            "Name: ARABIC LETTER TAH MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻅ U+FEC5 ARABIC LETTER ZAH ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEC5",
+            "..U.ARABIC LETTER ZAH ISOLATED FORM",
+            "U+FEC5",
+        ],
+        "body": [
+            "${1|ﻅ,&#xFEC5;,U+FEC5,0xFEC5,ARABIC LETTER ZAH ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEC5",
+            "Character/Symbol: ﻅ",
+            "Name: ARABIC LETTER ZAH ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻆ U+FEC6 ARABIC LETTER ZAH FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEC6",
+            "..U.ARABIC LETTER ZAH FINAL FORM",
+            "U+FEC6",
+        ],
+        "body": [
+            "${1|ﻆ,&#xFEC6;,U+FEC6,0xFEC6,ARABIC LETTER ZAH FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEC6",
+            "Character/Symbol: ﻆ",
+            "Name: ARABIC LETTER ZAH FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻇ U+FEC7 ARABIC LETTER ZAH INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEC7",
+            "..U.ARABIC LETTER ZAH INITIAL FORM",
+            "U+FEC7",
+        ],
+        "body": [
+            "${1|ﻇ,&#xFEC7;,U+FEC7,0xFEC7,ARABIC LETTER ZAH INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEC7",
+            "Character/Symbol: ﻇ",
+            "Name: ARABIC LETTER ZAH INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻈ U+FEC8 ARABIC LETTER ZAH MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEC8",
+            "..U.ARABIC LETTER ZAH MEDIAL FORM",
+            "U+FEC8",
+        ],
+        "body": [
+            "${1|ﻈ,&#xFEC8;,U+FEC8,0xFEC8,ARABIC LETTER ZAH MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEC8",
+            "Character/Symbol: ﻈ",
+            "Name: ARABIC LETTER ZAH MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻉ U+FEC9 ARABIC LETTER AIN ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEC9",
+            "..U.ARABIC LETTER AIN ISOLATED FORM",
+            "U+FEC9",
+        ],
+        "body": [
+            "${1|ﻉ,&#xFEC9;,U+FEC9,0xFEC9,ARABIC LETTER AIN ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEC9",
+            "Character/Symbol: ﻉ",
+            "Name: ARABIC LETTER AIN ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻊ U+FECA ARABIC LETTER AIN FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FECA",
+            "..U.ARABIC LETTER AIN FINAL FORM",
+            "U+FECA",
+        ],
+        "body": [
+            "${1|ﻊ,&#xFECA;,U+FECA,0xFECA,ARABIC LETTER AIN FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FECA",
+            "Character/Symbol: ﻊ",
+            "Name: ARABIC LETTER AIN FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻋ U+FECB ARABIC LETTER AIN INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FECB",
+            "..U.ARABIC LETTER AIN INITIAL FORM",
+            "U+FECB",
+        ],
+        "body": [
+            "${1|ﻋ,&#xFECB;,U+FECB,0xFECB,ARABIC LETTER AIN INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FECB",
+            "Character/Symbol: ﻋ",
+            "Name: ARABIC LETTER AIN INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻌ U+FECC ARABIC LETTER AIN MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FECC",
+            "..U.ARABIC LETTER AIN MEDIAL FORM",
+            "U+FECC",
+        ],
+        "body": [
+            "${1|ﻌ,&#xFECC;,U+FECC,0xFECC,ARABIC LETTER AIN MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FECC",
+            "Character/Symbol: ﻌ",
+            "Name: ARABIC LETTER AIN MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻍ U+FECD ARABIC LETTER GHAIN ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FECD",
+            "..U.ARABIC LETTER GHAIN ISOLATED FORM",
+            "U+FECD",
+        ],
+        "body": [
+            "${1|ﻍ,&#xFECD;,U+FECD,0xFECD,ARABIC LETTER GHAIN ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FECD",
+            "Character/Symbol: ﻍ",
+            "Name: ARABIC LETTER GHAIN ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻎ U+FECE ARABIC LETTER GHAIN FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FECE",
+            "..U.ARABIC LETTER GHAIN FINAL FORM",
+            "U+FECE",
+        ],
+        "body": [
+            "${1|ﻎ,&#xFECE;,U+FECE,0xFECE,ARABIC LETTER GHAIN FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FECE",
+            "Character/Symbol: ﻎ",
+            "Name: ARABIC LETTER GHAIN FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻏ U+FECF ARABIC LETTER GHAIN INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FECF",
+            "..U.ARABIC LETTER GHAIN INITIAL FORM",
+            "U+FECF",
+        ],
+        "body": [
+            "${1|ﻏ,&#xFECF;,U+FECF,0xFECF,ARABIC LETTER GHAIN INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FECF",
+            "Character/Symbol: ﻏ",
+            "Name: ARABIC LETTER GHAIN INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻐ U+FED0 ARABIC LETTER GHAIN MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FED0",
+            "..U.ARABIC LETTER GHAIN MEDIAL FORM",
+            "U+FED0",
+        ],
+        "body": [
+            "${1|ﻐ,&#xFED0;,U+FED0,0xFED0,ARABIC LETTER GHAIN MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FED0",
+            "Character/Symbol: ﻐ",
+            "Name: ARABIC LETTER GHAIN MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻑ U+FED1 ARABIC LETTER FEH ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FED1",
+            "..U.ARABIC LETTER FEH ISOLATED FORM",
+            "U+FED1",
+        ],
+        "body": [
+            "${1|ﻑ,&#xFED1;,U+FED1,0xFED1,ARABIC LETTER FEH ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FED1",
+            "Character/Symbol: ﻑ",
+            "Name: ARABIC LETTER FEH ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻒ U+FED2 ARABIC LETTER FEH FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FED2",
+            "..U.ARABIC LETTER FEH FINAL FORM",
+            "U+FED2",
+        ],
+        "body": [
+            "${1|ﻒ,&#xFED2;,U+FED2,0xFED2,ARABIC LETTER FEH FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FED2",
+            "Character/Symbol: ﻒ",
+            "Name: ARABIC LETTER FEH FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻓ U+FED3 ARABIC LETTER FEH INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FED3",
+            "..U.ARABIC LETTER FEH INITIAL FORM",
+            "U+FED3",
+        ],
+        "body": [
+            "${1|ﻓ,&#xFED3;,U+FED3,0xFED3,ARABIC LETTER FEH INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FED3",
+            "Character/Symbol: ﻓ",
+            "Name: ARABIC LETTER FEH INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻔ U+FED4 ARABIC LETTER FEH MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FED4",
+            "..U.ARABIC LETTER FEH MEDIAL FORM",
+            "U+FED4",
+        ],
+        "body": [
+            "${1|ﻔ,&#xFED4;,U+FED4,0xFED4,ARABIC LETTER FEH MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FED4",
+            "Character/Symbol: ﻔ",
+            "Name: ARABIC LETTER FEH MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻕ U+FED5 ARABIC LETTER QAF ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FED5",
+            "..U.ARABIC LETTER QAF ISOLATED FORM",
+            "U+FED5",
+        ],
+        "body": [
+            "${1|ﻕ,&#xFED5;,U+FED5,0xFED5,ARABIC LETTER QAF ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FED5",
+            "Character/Symbol: ﻕ",
+            "Name: ARABIC LETTER QAF ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻖ U+FED6 ARABIC LETTER QAF FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FED6",
+            "..U.ARABIC LETTER QAF FINAL FORM",
+            "U+FED6",
+        ],
+        "body": [
+            "${1|ﻖ,&#xFED6;,U+FED6,0xFED6,ARABIC LETTER QAF FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FED6",
+            "Character/Symbol: ﻖ",
+            "Name: ARABIC LETTER QAF FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻗ U+FED7 ARABIC LETTER QAF INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FED7",
+            "..U.ARABIC LETTER QAF INITIAL FORM",
+            "U+FED7",
+        ],
+        "body": [
+            "${1|ﻗ,&#xFED7;,U+FED7,0xFED7,ARABIC LETTER QAF INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FED7",
+            "Character/Symbol: ﻗ",
+            "Name: ARABIC LETTER QAF INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻘ U+FED8 ARABIC LETTER QAF MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FED8",
+            "..U.ARABIC LETTER QAF MEDIAL FORM",
+            "U+FED8",
+        ],
+        "body": [
+            "${1|ﻘ,&#xFED8;,U+FED8,0xFED8,ARABIC LETTER QAF MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FED8",
+            "Character/Symbol: ﻘ",
+            "Name: ARABIC LETTER QAF MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻙ U+FED9 ARABIC LETTER KAF ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FED9",
+            "..U.ARABIC LETTER KAF ISOLATED FORM",
+            "U+FED9",
+        ],
+        "body": [
+            "${1|ﻙ,&#xFED9;,U+FED9,0xFED9,ARABIC LETTER KAF ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FED9",
+            "Character/Symbol: ﻙ",
+            "Name: ARABIC LETTER KAF ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻚ U+FEDA ARABIC LETTER KAF FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEDA",
+            "..U.ARABIC LETTER KAF FINAL FORM",
+            "U+FEDA",
+        ],
+        "body": [
+            "${1|ﻚ,&#xFEDA;,U+FEDA,0xFEDA,ARABIC LETTER KAF FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEDA",
+            "Character/Symbol: ﻚ",
+            "Name: ARABIC LETTER KAF FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻛ U+FEDB ARABIC LETTER KAF INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEDB",
+            "..U.ARABIC LETTER KAF INITIAL FORM",
+            "U+FEDB",
+        ],
+        "body": [
+            "${1|ﻛ,&#xFEDB;,U+FEDB,0xFEDB,ARABIC LETTER KAF INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEDB",
+            "Character/Symbol: ﻛ",
+            "Name: ARABIC LETTER KAF INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻜ U+FEDC ARABIC LETTER KAF MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEDC",
+            "..U.ARABIC LETTER KAF MEDIAL FORM",
+            "U+FEDC",
+        ],
+        "body": [
+            "${1|ﻜ,&#xFEDC;,U+FEDC,0xFEDC,ARABIC LETTER KAF MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEDC",
+            "Character/Symbol: ﻜ",
+            "Name: ARABIC LETTER KAF MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻝ U+FEDD ARABIC LETTER LAM ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEDD",
+            "..U.ARABIC LETTER LAM ISOLATED FORM",
+            "U+FEDD",
+        ],
+        "body": [
+            "${1|ﻝ,&#xFEDD;,U+FEDD,0xFEDD,ARABIC LETTER LAM ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEDD",
+            "Character/Symbol: ﻝ",
+            "Name: ARABIC LETTER LAM ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻞ U+FEDE ARABIC LETTER LAM FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEDE",
+            "..U.ARABIC LETTER LAM FINAL FORM",
+            "U+FEDE",
+        ],
+        "body": [
+            "${1|ﻞ,&#xFEDE;,U+FEDE,0xFEDE,ARABIC LETTER LAM FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEDE",
+            "Character/Symbol: ﻞ",
+            "Name: ARABIC LETTER LAM FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻟ U+FEDF ARABIC LETTER LAM INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEDF",
+            "..U.ARABIC LETTER LAM INITIAL FORM",
+            "U+FEDF",
+        ],
+        "body": [
+            "${1|ﻟ,&#xFEDF;,U+FEDF,0xFEDF,ARABIC LETTER LAM INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEDF",
+            "Character/Symbol: ﻟ",
+            "Name: ARABIC LETTER LAM INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻠ U+FEE0 ARABIC LETTER LAM MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEE0",
+            "..U.ARABIC LETTER LAM MEDIAL FORM",
+            "U+FEE0",
+        ],
+        "body": [
+            "${1|ﻠ,&#xFEE0;,U+FEE0,0xFEE0,ARABIC LETTER LAM MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEE0",
+            "Character/Symbol: ﻠ",
+            "Name: ARABIC LETTER LAM MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻡ U+FEE1 ARABIC LETTER MEEM ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEE1",
+            "..U.ARABIC LETTER MEEM ISOLATED FORM",
+            "U+FEE1",
+        ],
+        "body": [
+            "${1|ﻡ,&#xFEE1;,U+FEE1,0xFEE1,ARABIC LETTER MEEM ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEE1",
+            "Character/Symbol: ﻡ",
+            "Name: ARABIC LETTER MEEM ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻢ U+FEE2 ARABIC LETTER MEEM FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEE2",
+            "..U.ARABIC LETTER MEEM FINAL FORM",
+            "U+FEE2",
+        ],
+        "body": [
+            "${1|ﻢ,&#xFEE2;,U+FEE2,0xFEE2,ARABIC LETTER MEEM FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEE2",
+            "Character/Symbol: ﻢ",
+            "Name: ARABIC LETTER MEEM FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻣ U+FEE3 ARABIC LETTER MEEM INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEE3",
+            "..U.ARABIC LETTER MEEM INITIAL FORM",
+            "U+FEE3",
+        ],
+        "body": [
+            "${1|ﻣ,&#xFEE3;,U+FEE3,0xFEE3,ARABIC LETTER MEEM INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEE3",
+            "Character/Symbol: ﻣ",
+            "Name: ARABIC LETTER MEEM INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻤ U+FEE4 ARABIC LETTER MEEM MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEE4",
+            "..U.ARABIC LETTER MEEM MEDIAL FORM",
+            "U+FEE4",
+        ],
+        "body": [
+            "${1|ﻤ,&#xFEE4;,U+FEE4,0xFEE4,ARABIC LETTER MEEM MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEE4",
+            "Character/Symbol: ﻤ",
+            "Name: ARABIC LETTER MEEM MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻥ U+FEE5 ARABIC LETTER NOON ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEE5",
+            "..U.ARABIC LETTER NOON ISOLATED FORM",
+            "U+FEE5",
+        ],
+        "body": [
+            "${1|ﻥ,&#xFEE5;,U+FEE5,0xFEE5,ARABIC LETTER NOON ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEE5",
+            "Character/Symbol: ﻥ",
+            "Name: ARABIC LETTER NOON ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻦ U+FEE6 ARABIC LETTER NOON FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEE6",
+            "..U.ARABIC LETTER NOON FINAL FORM",
+            "U+FEE6",
+        ],
+        "body": [
+            "${1|ﻦ,&#xFEE6;,U+FEE6,0xFEE6,ARABIC LETTER NOON FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEE6",
+            "Character/Symbol: ﻦ",
+            "Name: ARABIC LETTER NOON FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻧ U+FEE7 ARABIC LETTER NOON INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEE7",
+            "..U.ARABIC LETTER NOON INITIAL FORM",
+            "U+FEE7",
+        ],
+        "body": [
+            "${1|ﻧ,&#xFEE7;,U+FEE7,0xFEE7,ARABIC LETTER NOON INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEE7",
+            "Character/Symbol: ﻧ",
+            "Name: ARABIC LETTER NOON INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻨ U+FEE8 ARABIC LETTER NOON MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEE8",
+            "..U.ARABIC LETTER NOON MEDIAL FORM",
+            "U+FEE8",
+        ],
+        "body": [
+            "${1|ﻨ,&#xFEE8;,U+FEE8,0xFEE8,ARABIC LETTER NOON MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEE8",
+            "Character/Symbol: ﻨ",
+            "Name: ARABIC LETTER NOON MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻩ U+FEE9 ARABIC LETTER HEH ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEE9",
+            "..U.ARABIC LETTER HEH ISOLATED FORM",
+            "U+FEE9",
+        ],
+        "body": [
+            "${1|ﻩ,&#xFEE9;,U+FEE9,0xFEE9,ARABIC LETTER HEH ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEE9",
+            "Character/Symbol: ﻩ",
+            "Name: ARABIC LETTER HEH ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻪ U+FEEA ARABIC LETTER HEH FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEEA",
+            "..U.ARABIC LETTER HEH FINAL FORM",
+            "U+FEEA",
+        ],
+        "body": [
+            "${1|ﻪ,&#xFEEA;,U+FEEA,0xFEEA,ARABIC LETTER HEH FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEEA",
+            "Character/Symbol: ﻪ",
+            "Name: ARABIC LETTER HEH FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻫ U+FEEB ARABIC LETTER HEH INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEEB",
+            "..U.ARABIC LETTER HEH INITIAL FORM",
+            "U+FEEB",
+        ],
+        "body": [
+            "${1|ﻫ,&#xFEEB;,U+FEEB,0xFEEB,ARABIC LETTER HEH INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEEB",
+            "Character/Symbol: ﻫ",
+            "Name: ARABIC LETTER HEH INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻬ U+FEEC ARABIC LETTER HEH MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEEC",
+            "..U.ARABIC LETTER HEH MEDIAL FORM",
+            "U+FEEC",
+        ],
+        "body": [
+            "${1|ﻬ,&#xFEEC;,U+FEEC,0xFEEC,ARABIC LETTER HEH MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEEC",
+            "Character/Symbol: ﻬ",
+            "Name: ARABIC LETTER HEH MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻭ U+FEED ARABIC LETTER WAW ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEED",
+            "..U.ARABIC LETTER WAW ISOLATED FORM",
+            "U+FEED",
+        ],
+        "body": [
+            "${1|ﻭ,&#xFEED;,U+FEED,0xFEED,ARABIC LETTER WAW ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEED",
+            "Character/Symbol: ﻭ",
+            "Name: ARABIC LETTER WAW ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻮ U+FEEE ARABIC LETTER WAW FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEEE",
+            "..U.ARABIC LETTER WAW FINAL FORM",
+            "U+FEEE",
+        ],
+        "body": [
+            "${1|ﻮ,&#xFEEE;,U+FEEE,0xFEEE,ARABIC LETTER WAW FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEEE",
+            "Character/Symbol: ﻮ",
+            "Name: ARABIC LETTER WAW FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻯ U+FEEF ARABIC LETTER ALEF MAKSURA ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEEF",
+            "..U.ARABIC LETTER ALEF MAKSURA ISOLATED FORM",
+            "U+FEEF",
+        ],
+        "body": [
+            "${1|ﻯ,&#xFEEF;,U+FEEF,0xFEEF,ARABIC LETTER ALEF MAKSURA ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEEF",
+            "Character/Symbol: ﻯ",
+            "Name: ARABIC LETTER ALEF MAKSURA ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻰ U+FEF0 ARABIC LETTER ALEF MAKSURA FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEF0",
+            "..U.ARABIC LETTER ALEF MAKSURA FINAL FORM",
+            "U+FEF0",
+        ],
+        "body": [
+            "${1|ﻰ,&#xFEF0;,U+FEF0,0xFEF0,ARABIC LETTER ALEF MAKSURA FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEF0",
+            "Character/Symbol: ﻰ",
+            "Name: ARABIC LETTER ALEF MAKSURA FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻱ U+FEF1 ARABIC LETTER YEH ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEF1",
+            "..U.ARABIC LETTER YEH ISOLATED FORM",
+            "U+FEF1",
+        ],
+        "body": [
+            "${1|ﻱ,&#xFEF1;,U+FEF1,0xFEF1,ARABIC LETTER YEH ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEF1",
+            "Character/Symbol: ﻱ",
+            "Name: ARABIC LETTER YEH ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻲ U+FEF2 ARABIC LETTER YEH FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEF2",
+            "..U.ARABIC LETTER YEH FINAL FORM",
+            "U+FEF2",
+        ],
+        "body": [
+            "${1|ﻲ,&#xFEF2;,U+FEF2,0xFEF2,ARABIC LETTER YEH FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEF2",
+            "Character/Symbol: ﻲ",
+            "Name: ARABIC LETTER YEH FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻳ U+FEF3 ARABIC LETTER YEH INITIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEF3",
+            "..U.ARABIC LETTER YEH INITIAL FORM",
+            "U+FEF3",
+        ],
+        "body": [
+            "${1|ﻳ,&#xFEF3;,U+FEF3,0xFEF3,ARABIC LETTER YEH INITIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEF3",
+            "Character/Symbol: ﻳ",
+            "Name: ARABIC LETTER YEH INITIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻴ U+FEF4 ARABIC LETTER YEH MEDIAL FORM": 
+    {
+        "prefix": [
+            "..U.FEF4",
+            "..U.ARABIC LETTER YEH MEDIAL FORM",
+            "U+FEF4",
+        ],
+        "body": [
+            "${1|ﻴ,&#xFEF4;,U+FEF4,0xFEF4,ARABIC LETTER YEH MEDIAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEF4",
+            "Character/Symbol: ﻴ",
+            "Name: ARABIC LETTER YEH MEDIAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻵ U+FEF5 ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEF5",
+            "..U.ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE ISOLATED FORM",
+            "U+FEF5",
+        ],
+        "body": [
+            "${1|ﻵ,&#xFEF5;,U+FEF5,0xFEF5,ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEF5",
+            "Character/Symbol: ﻵ",
+            "Name: ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻶ U+FEF6 ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEF6",
+            "..U.ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE FINAL FORM",
+            "U+FEF6",
+        ],
+        "body": [
+            "${1|ﻶ,&#xFEF6;,U+FEF6,0xFEF6,ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEF6",
+            "Character/Symbol: ﻶ",
+            "Name: ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻷ U+FEF7 ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEF7",
+            "..U.ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE ISOLATED FORM",
+            "U+FEF7",
+        ],
+        "body": [
+            "${1|ﻷ,&#xFEF7;,U+FEF7,0xFEF7,ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEF7",
+            "Character/Symbol: ﻷ",
+            "Name: ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻸ U+FEF8 ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEF8",
+            "..U.ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE FINAL FORM",
+            "U+FEF8",
+        ],
+        "body": [
+            "${1|ﻸ,&#xFEF8;,U+FEF8,0xFEF8,ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEF8",
+            "Character/Symbol: ﻸ",
+            "Name: ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻹ U+FEF9 ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEF9",
+            "..U.ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW ISOLATED FORM",
+            "U+FEF9",
+        ],
+        "body": [
+            "${1|ﻹ,&#xFEF9;,U+FEF9,0xFEF9,ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEF9",
+            "Character/Symbol: ﻹ",
+            "Name: ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻺ U+FEFA ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEFA",
+            "..U.ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW FINAL FORM",
+            "U+FEFA",
+        ],
+        "body": [
+            "${1|ﻺ,&#xFEFA;,U+FEFA,0xFEFA,ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEFA",
+            "Character/Symbol: ﻺ",
+            "Name: ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻻ U+FEFB ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM": 
+    {
+        "prefix": [
+            "..U.FEFB",
+            "..U.ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM",
+            "U+FEFB",
+        ],
+        "body": [
+            "${1|ﻻ,&#xFEFB;,U+FEFB,0xFEFB,ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEFB",
+            "Character/Symbol: ﻻ",
+            "Name: ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻼ U+FEFC ARABIC LIGATURE LAM WITH ALEF FINAL FORM": 
+    {
+        "prefix": [
+            "..U.FEFC",
+            "..U.ARABIC LIGATURE LAM WITH ALEF FINAL FORM",
+            "U+FEFC",
+        ],
+        "body": [
+            "${1|ﻼ,&#xFEFC;,U+FEFC,0xFEFC,ARABIC LIGATURE LAM WITH ALEF FINAL FORM|}$2",
+        ],
+        "description": [
+            "Code: U+FEFC",
+            "Character/Symbol: ﻼ",
+            "Name: ARABIC LIGATURE LAM WITH ALEF FINAL FORM",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+    "Unicode ﻿ U+FEFF ZERO WIDTH NO-BREAK SPACE": 
+    {
+        "prefix": [
+            "..U.FEFF",
+            "..U.ZERO WIDTH NO-BREAK SPACE",
+            "U+FEFF",
+        ],
+        "body": [
+            "${1|﻿,&#xFEFF;,U+FEFF,0xFEFF,ZERO WIDTH NO-BREAK SPACE|}$2",
+        ],
+        "description": [
+            "Code: U+FEFF",
+            "Character/Symbol: ﻿",
+            "Name: ZERO WIDTH NO-BREAK SPACE",
+            "Group/Block: Arabic_PF_B",
+        ],
+    },
+
+}

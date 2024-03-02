@@ -1,0 +1,6446 @@
+{
+    "Unicode ሀ U+1200 ETHIOPIC SYLLABLE HA": 
+    {
+        "prefix": [
+            "..U.1200",
+            "..U.ETHIOPIC SYLLABLE HA",
+            "U+1200",
+        ],
+        "body": [
+            "${1|ሀ,&#x1200;,U+1200,0x1200,ETHIOPIC SYLLABLE HA|}$2",
+        ],
+        "description": [
+            "Code: U+1200",
+            "Character/Symbol: ሀ",
+            "Name: ETHIOPIC SYLLABLE HA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሁ U+1201 ETHIOPIC SYLLABLE HU": 
+    {
+        "prefix": [
+            "..U.1201",
+            "..U.ETHIOPIC SYLLABLE HU",
+            "U+1201",
+        ],
+        "body": [
+            "${1|ሁ,&#x1201;,U+1201,0x1201,ETHIOPIC SYLLABLE HU|}$2",
+        ],
+        "description": [
+            "Code: U+1201",
+            "Character/Symbol: ሁ",
+            "Name: ETHIOPIC SYLLABLE HU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሂ U+1202 ETHIOPIC SYLLABLE HI": 
+    {
+        "prefix": [
+            "..U.1202",
+            "..U.ETHIOPIC SYLLABLE HI",
+            "U+1202",
+        ],
+        "body": [
+            "${1|ሂ,&#x1202;,U+1202,0x1202,ETHIOPIC SYLLABLE HI|}$2",
+        ],
+        "description": [
+            "Code: U+1202",
+            "Character/Symbol: ሂ",
+            "Name: ETHIOPIC SYLLABLE HI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሃ U+1203 ETHIOPIC SYLLABLE HAA": 
+    {
+        "prefix": [
+            "..U.1203",
+            "..U.ETHIOPIC SYLLABLE HAA",
+            "U+1203",
+        ],
+        "body": [
+            "${1|ሃ,&#x1203;,U+1203,0x1203,ETHIOPIC SYLLABLE HAA|}$2",
+        ],
+        "description": [
+            "Code: U+1203",
+            "Character/Symbol: ሃ",
+            "Name: ETHIOPIC SYLLABLE HAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሄ U+1204 ETHIOPIC SYLLABLE HEE": 
+    {
+        "prefix": [
+            "..U.1204",
+            "..U.ETHIOPIC SYLLABLE HEE",
+            "U+1204",
+        ],
+        "body": [
+            "${1|ሄ,&#x1204;,U+1204,0x1204,ETHIOPIC SYLLABLE HEE|}$2",
+        ],
+        "description": [
+            "Code: U+1204",
+            "Character/Symbol: ሄ",
+            "Name: ETHIOPIC SYLLABLE HEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ህ U+1205 ETHIOPIC SYLLABLE HE": 
+    {
+        "prefix": [
+            "..U.1205",
+            "..U.ETHIOPIC SYLLABLE HE",
+            "U+1205",
+        ],
+        "body": [
+            "${1|ህ,&#x1205;,U+1205,0x1205,ETHIOPIC SYLLABLE HE|}$2",
+        ],
+        "description": [
+            "Code: U+1205",
+            "Character/Symbol: ህ",
+            "Name: ETHIOPIC SYLLABLE HE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሆ U+1206 ETHIOPIC SYLLABLE HO": 
+    {
+        "prefix": [
+            "..U.1206",
+            "..U.ETHIOPIC SYLLABLE HO",
+            "U+1206",
+        ],
+        "body": [
+            "${1|ሆ,&#x1206;,U+1206,0x1206,ETHIOPIC SYLLABLE HO|}$2",
+        ],
+        "description": [
+            "Code: U+1206",
+            "Character/Symbol: ሆ",
+            "Name: ETHIOPIC SYLLABLE HO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሇ U+1207 ETHIOPIC SYLLABLE HOA": 
+    {
+        "prefix": [
+            "..U.1207",
+            "..U.ETHIOPIC SYLLABLE HOA",
+            "U+1207",
+        ],
+        "body": [
+            "${1|ሇ,&#x1207;,U+1207,0x1207,ETHIOPIC SYLLABLE HOA|}$2",
+        ],
+        "description": [
+            "Code: U+1207",
+            "Character/Symbol: ሇ",
+            "Name: ETHIOPIC SYLLABLE HOA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ለ U+1208 ETHIOPIC SYLLABLE LA": 
+    {
+        "prefix": [
+            "..U.1208",
+            "..U.ETHIOPIC SYLLABLE LA",
+            "U+1208",
+        ],
+        "body": [
+            "${1|ለ,&#x1208;,U+1208,0x1208,ETHIOPIC SYLLABLE LA|}$2",
+        ],
+        "description": [
+            "Code: U+1208",
+            "Character/Symbol: ለ",
+            "Name: ETHIOPIC SYLLABLE LA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሉ U+1209 ETHIOPIC SYLLABLE LU": 
+    {
+        "prefix": [
+            "..U.1209",
+            "..U.ETHIOPIC SYLLABLE LU",
+            "U+1209",
+        ],
+        "body": [
+            "${1|ሉ,&#x1209;,U+1209,0x1209,ETHIOPIC SYLLABLE LU|}$2",
+        ],
+        "description": [
+            "Code: U+1209",
+            "Character/Symbol: ሉ",
+            "Name: ETHIOPIC SYLLABLE LU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሊ U+120A ETHIOPIC SYLLABLE LI": 
+    {
+        "prefix": [
+            "..U.120A",
+            "..U.ETHIOPIC SYLLABLE LI",
+            "U+120A",
+        ],
+        "body": [
+            "${1|ሊ,&#x120A;,U+120A,0x120A,ETHIOPIC SYLLABLE LI|}$2",
+        ],
+        "description": [
+            "Code: U+120A",
+            "Character/Symbol: ሊ",
+            "Name: ETHIOPIC SYLLABLE LI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ላ U+120B ETHIOPIC SYLLABLE LAA": 
+    {
+        "prefix": [
+            "..U.120B",
+            "..U.ETHIOPIC SYLLABLE LAA",
+            "U+120B",
+        ],
+        "body": [
+            "${1|ላ,&#x120B;,U+120B,0x120B,ETHIOPIC SYLLABLE LAA|}$2",
+        ],
+        "description": [
+            "Code: U+120B",
+            "Character/Symbol: ላ",
+            "Name: ETHIOPIC SYLLABLE LAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሌ U+120C ETHIOPIC SYLLABLE LEE": 
+    {
+        "prefix": [
+            "..U.120C",
+            "..U.ETHIOPIC SYLLABLE LEE",
+            "U+120C",
+        ],
+        "body": [
+            "${1|ሌ,&#x120C;,U+120C,0x120C,ETHIOPIC SYLLABLE LEE|}$2",
+        ],
+        "description": [
+            "Code: U+120C",
+            "Character/Symbol: ሌ",
+            "Name: ETHIOPIC SYLLABLE LEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ል U+120D ETHIOPIC SYLLABLE LE": 
+    {
+        "prefix": [
+            "..U.120D",
+            "..U.ETHIOPIC SYLLABLE LE",
+            "U+120D",
+        ],
+        "body": [
+            "${1|ል,&#x120D;,U+120D,0x120D,ETHIOPIC SYLLABLE LE|}$2",
+        ],
+        "description": [
+            "Code: U+120D",
+            "Character/Symbol: ል",
+            "Name: ETHIOPIC SYLLABLE LE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሎ U+120E ETHIOPIC SYLLABLE LO": 
+    {
+        "prefix": [
+            "..U.120E",
+            "..U.ETHIOPIC SYLLABLE LO",
+            "U+120E",
+        ],
+        "body": [
+            "${1|ሎ,&#x120E;,U+120E,0x120E,ETHIOPIC SYLLABLE LO|}$2",
+        ],
+        "description": [
+            "Code: U+120E",
+            "Character/Symbol: ሎ",
+            "Name: ETHIOPIC SYLLABLE LO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሏ U+120F ETHIOPIC SYLLABLE LWA": 
+    {
+        "prefix": [
+            "..U.120F",
+            "..U.ETHIOPIC SYLLABLE LWA",
+            "U+120F",
+        ],
+        "body": [
+            "${1|ሏ,&#x120F;,U+120F,0x120F,ETHIOPIC SYLLABLE LWA|}$2",
+        ],
+        "description": [
+            "Code: U+120F",
+            "Character/Symbol: ሏ",
+            "Name: ETHIOPIC SYLLABLE LWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሐ U+1210 ETHIOPIC SYLLABLE HHA": 
+    {
+        "prefix": [
+            "..U.1210",
+            "..U.ETHIOPIC SYLLABLE HHA",
+            "U+1210",
+        ],
+        "body": [
+            "${1|ሐ,&#x1210;,U+1210,0x1210,ETHIOPIC SYLLABLE HHA|}$2",
+        ],
+        "description": [
+            "Code: U+1210",
+            "Character/Symbol: ሐ",
+            "Name: ETHIOPIC SYLLABLE HHA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሑ U+1211 ETHIOPIC SYLLABLE HHU": 
+    {
+        "prefix": [
+            "..U.1211",
+            "..U.ETHIOPIC SYLLABLE HHU",
+            "U+1211",
+        ],
+        "body": [
+            "${1|ሑ,&#x1211;,U+1211,0x1211,ETHIOPIC SYLLABLE HHU|}$2",
+        ],
+        "description": [
+            "Code: U+1211",
+            "Character/Symbol: ሑ",
+            "Name: ETHIOPIC SYLLABLE HHU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሒ U+1212 ETHIOPIC SYLLABLE HHI": 
+    {
+        "prefix": [
+            "..U.1212",
+            "..U.ETHIOPIC SYLLABLE HHI",
+            "U+1212",
+        ],
+        "body": [
+            "${1|ሒ,&#x1212;,U+1212,0x1212,ETHIOPIC SYLLABLE HHI|}$2",
+        ],
+        "description": [
+            "Code: U+1212",
+            "Character/Symbol: ሒ",
+            "Name: ETHIOPIC SYLLABLE HHI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሓ U+1213 ETHIOPIC SYLLABLE HHAA": 
+    {
+        "prefix": [
+            "..U.1213",
+            "..U.ETHIOPIC SYLLABLE HHAA",
+            "U+1213",
+        ],
+        "body": [
+            "${1|ሓ,&#x1213;,U+1213,0x1213,ETHIOPIC SYLLABLE HHAA|}$2",
+        ],
+        "description": [
+            "Code: U+1213",
+            "Character/Symbol: ሓ",
+            "Name: ETHIOPIC SYLLABLE HHAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሔ U+1214 ETHIOPIC SYLLABLE HHEE": 
+    {
+        "prefix": [
+            "..U.1214",
+            "..U.ETHIOPIC SYLLABLE HHEE",
+            "U+1214",
+        ],
+        "body": [
+            "${1|ሔ,&#x1214;,U+1214,0x1214,ETHIOPIC SYLLABLE HHEE|}$2",
+        ],
+        "description": [
+            "Code: U+1214",
+            "Character/Symbol: ሔ",
+            "Name: ETHIOPIC SYLLABLE HHEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሕ U+1215 ETHIOPIC SYLLABLE HHE": 
+    {
+        "prefix": [
+            "..U.1215",
+            "..U.ETHIOPIC SYLLABLE HHE",
+            "U+1215",
+        ],
+        "body": [
+            "${1|ሕ,&#x1215;,U+1215,0x1215,ETHIOPIC SYLLABLE HHE|}$2",
+        ],
+        "description": [
+            "Code: U+1215",
+            "Character/Symbol: ሕ",
+            "Name: ETHIOPIC SYLLABLE HHE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሖ U+1216 ETHIOPIC SYLLABLE HHO": 
+    {
+        "prefix": [
+            "..U.1216",
+            "..U.ETHIOPIC SYLLABLE HHO",
+            "U+1216",
+        ],
+        "body": [
+            "${1|ሖ,&#x1216;,U+1216,0x1216,ETHIOPIC SYLLABLE HHO|}$2",
+        ],
+        "description": [
+            "Code: U+1216",
+            "Character/Symbol: ሖ",
+            "Name: ETHIOPIC SYLLABLE HHO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሗ U+1217 ETHIOPIC SYLLABLE HHWA": 
+    {
+        "prefix": [
+            "..U.1217",
+            "..U.ETHIOPIC SYLLABLE HHWA",
+            "U+1217",
+        ],
+        "body": [
+            "${1|ሗ,&#x1217;,U+1217,0x1217,ETHIOPIC SYLLABLE HHWA|}$2",
+        ],
+        "description": [
+            "Code: U+1217",
+            "Character/Symbol: ሗ",
+            "Name: ETHIOPIC SYLLABLE HHWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode መ U+1218 ETHIOPIC SYLLABLE MA": 
+    {
+        "prefix": [
+            "..U.1218",
+            "..U.ETHIOPIC SYLLABLE MA",
+            "U+1218",
+        ],
+        "body": [
+            "${1|መ,&#x1218;,U+1218,0x1218,ETHIOPIC SYLLABLE MA|}$2",
+        ],
+        "description": [
+            "Code: U+1218",
+            "Character/Symbol: መ",
+            "Name: ETHIOPIC SYLLABLE MA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሙ U+1219 ETHIOPIC SYLLABLE MU": 
+    {
+        "prefix": [
+            "..U.1219",
+            "..U.ETHIOPIC SYLLABLE MU",
+            "U+1219",
+        ],
+        "body": [
+            "${1|ሙ,&#x1219;,U+1219,0x1219,ETHIOPIC SYLLABLE MU|}$2",
+        ],
+        "description": [
+            "Code: U+1219",
+            "Character/Symbol: ሙ",
+            "Name: ETHIOPIC SYLLABLE MU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሚ U+121A ETHIOPIC SYLLABLE MI": 
+    {
+        "prefix": [
+            "..U.121A",
+            "..U.ETHIOPIC SYLLABLE MI",
+            "U+121A",
+        ],
+        "body": [
+            "${1|ሚ,&#x121A;,U+121A,0x121A,ETHIOPIC SYLLABLE MI|}$2",
+        ],
+        "description": [
+            "Code: U+121A",
+            "Character/Symbol: ሚ",
+            "Name: ETHIOPIC SYLLABLE MI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ማ U+121B ETHIOPIC SYLLABLE MAA": 
+    {
+        "prefix": [
+            "..U.121B",
+            "..U.ETHIOPIC SYLLABLE MAA",
+            "U+121B",
+        ],
+        "body": [
+            "${1|ማ,&#x121B;,U+121B,0x121B,ETHIOPIC SYLLABLE MAA|}$2",
+        ],
+        "description": [
+            "Code: U+121B",
+            "Character/Symbol: ማ",
+            "Name: ETHIOPIC SYLLABLE MAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሜ U+121C ETHIOPIC SYLLABLE MEE": 
+    {
+        "prefix": [
+            "..U.121C",
+            "..U.ETHIOPIC SYLLABLE MEE",
+            "U+121C",
+        ],
+        "body": [
+            "${1|ሜ,&#x121C;,U+121C,0x121C,ETHIOPIC SYLLABLE MEE|}$2",
+        ],
+        "description": [
+            "Code: U+121C",
+            "Character/Symbol: ሜ",
+            "Name: ETHIOPIC SYLLABLE MEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ም U+121D ETHIOPIC SYLLABLE ME": 
+    {
+        "prefix": [
+            "..U.121D",
+            "..U.ETHIOPIC SYLLABLE ME",
+            "U+121D",
+        ],
+        "body": [
+            "${1|ም,&#x121D;,U+121D,0x121D,ETHIOPIC SYLLABLE ME|}$2",
+        ],
+        "description": [
+            "Code: U+121D",
+            "Character/Symbol: ም",
+            "Name: ETHIOPIC SYLLABLE ME",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሞ U+121E ETHIOPIC SYLLABLE MO": 
+    {
+        "prefix": [
+            "..U.121E",
+            "..U.ETHIOPIC SYLLABLE MO",
+            "U+121E",
+        ],
+        "body": [
+            "${1|ሞ,&#x121E;,U+121E,0x121E,ETHIOPIC SYLLABLE MO|}$2",
+        ],
+        "description": [
+            "Code: U+121E",
+            "Character/Symbol: ሞ",
+            "Name: ETHIOPIC SYLLABLE MO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሟ U+121F ETHIOPIC SYLLABLE MWA": 
+    {
+        "prefix": [
+            "..U.121F",
+            "..U.ETHIOPIC SYLLABLE MWA",
+            "U+121F",
+        ],
+        "body": [
+            "${1|ሟ,&#x121F;,U+121F,0x121F,ETHIOPIC SYLLABLE MWA|}$2",
+        ],
+        "description": [
+            "Code: U+121F",
+            "Character/Symbol: ሟ",
+            "Name: ETHIOPIC SYLLABLE MWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሠ U+1220 ETHIOPIC SYLLABLE SZA": 
+    {
+        "prefix": [
+            "..U.1220",
+            "..U.ETHIOPIC SYLLABLE SZA",
+            "U+1220",
+        ],
+        "body": [
+            "${1|ሠ,&#x1220;,U+1220,0x1220,ETHIOPIC SYLLABLE SZA|}$2",
+        ],
+        "description": [
+            "Code: U+1220",
+            "Character/Symbol: ሠ",
+            "Name: ETHIOPIC SYLLABLE SZA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሡ U+1221 ETHIOPIC SYLLABLE SZU": 
+    {
+        "prefix": [
+            "..U.1221",
+            "..U.ETHIOPIC SYLLABLE SZU",
+            "U+1221",
+        ],
+        "body": [
+            "${1|ሡ,&#x1221;,U+1221,0x1221,ETHIOPIC SYLLABLE SZU|}$2",
+        ],
+        "description": [
+            "Code: U+1221",
+            "Character/Symbol: ሡ",
+            "Name: ETHIOPIC SYLLABLE SZU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሢ U+1222 ETHIOPIC SYLLABLE SZI": 
+    {
+        "prefix": [
+            "..U.1222",
+            "..U.ETHIOPIC SYLLABLE SZI",
+            "U+1222",
+        ],
+        "body": [
+            "${1|ሢ,&#x1222;,U+1222,0x1222,ETHIOPIC SYLLABLE SZI|}$2",
+        ],
+        "description": [
+            "Code: U+1222",
+            "Character/Symbol: ሢ",
+            "Name: ETHIOPIC SYLLABLE SZI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሣ U+1223 ETHIOPIC SYLLABLE SZAA": 
+    {
+        "prefix": [
+            "..U.1223",
+            "..U.ETHIOPIC SYLLABLE SZAA",
+            "U+1223",
+        ],
+        "body": [
+            "${1|ሣ,&#x1223;,U+1223,0x1223,ETHIOPIC SYLLABLE SZAA|}$2",
+        ],
+        "description": [
+            "Code: U+1223",
+            "Character/Symbol: ሣ",
+            "Name: ETHIOPIC SYLLABLE SZAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሤ U+1224 ETHIOPIC SYLLABLE SZEE": 
+    {
+        "prefix": [
+            "..U.1224",
+            "..U.ETHIOPIC SYLLABLE SZEE",
+            "U+1224",
+        ],
+        "body": [
+            "${1|ሤ,&#x1224;,U+1224,0x1224,ETHIOPIC SYLLABLE SZEE|}$2",
+        ],
+        "description": [
+            "Code: U+1224",
+            "Character/Symbol: ሤ",
+            "Name: ETHIOPIC SYLLABLE SZEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሥ U+1225 ETHIOPIC SYLLABLE SZE": 
+    {
+        "prefix": [
+            "..U.1225",
+            "..U.ETHIOPIC SYLLABLE SZE",
+            "U+1225",
+        ],
+        "body": [
+            "${1|ሥ,&#x1225;,U+1225,0x1225,ETHIOPIC SYLLABLE SZE|}$2",
+        ],
+        "description": [
+            "Code: U+1225",
+            "Character/Symbol: ሥ",
+            "Name: ETHIOPIC SYLLABLE SZE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሦ U+1226 ETHIOPIC SYLLABLE SZO": 
+    {
+        "prefix": [
+            "..U.1226",
+            "..U.ETHIOPIC SYLLABLE SZO",
+            "U+1226",
+        ],
+        "body": [
+            "${1|ሦ,&#x1226;,U+1226,0x1226,ETHIOPIC SYLLABLE SZO|}$2",
+        ],
+        "description": [
+            "Code: U+1226",
+            "Character/Symbol: ሦ",
+            "Name: ETHIOPIC SYLLABLE SZO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሧ U+1227 ETHIOPIC SYLLABLE SZWA": 
+    {
+        "prefix": [
+            "..U.1227",
+            "..U.ETHIOPIC SYLLABLE SZWA",
+            "U+1227",
+        ],
+        "body": [
+            "${1|ሧ,&#x1227;,U+1227,0x1227,ETHIOPIC SYLLABLE SZWA|}$2",
+        ],
+        "description": [
+            "Code: U+1227",
+            "Character/Symbol: ሧ",
+            "Name: ETHIOPIC SYLLABLE SZWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ረ U+1228 ETHIOPIC SYLLABLE RA": 
+    {
+        "prefix": [
+            "..U.1228",
+            "..U.ETHIOPIC SYLLABLE RA",
+            "U+1228",
+        ],
+        "body": [
+            "${1|ረ,&#x1228;,U+1228,0x1228,ETHIOPIC SYLLABLE RA|}$2",
+        ],
+        "description": [
+            "Code: U+1228",
+            "Character/Symbol: ረ",
+            "Name: ETHIOPIC SYLLABLE RA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሩ U+1229 ETHIOPIC SYLLABLE RU": 
+    {
+        "prefix": [
+            "..U.1229",
+            "..U.ETHIOPIC SYLLABLE RU",
+            "U+1229",
+        ],
+        "body": [
+            "${1|ሩ,&#x1229;,U+1229,0x1229,ETHIOPIC SYLLABLE RU|}$2",
+        ],
+        "description": [
+            "Code: U+1229",
+            "Character/Symbol: ሩ",
+            "Name: ETHIOPIC SYLLABLE RU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሪ U+122A ETHIOPIC SYLLABLE RI": 
+    {
+        "prefix": [
+            "..U.122A",
+            "..U.ETHIOPIC SYLLABLE RI",
+            "U+122A",
+        ],
+        "body": [
+            "${1|ሪ,&#x122A;,U+122A,0x122A,ETHIOPIC SYLLABLE RI|}$2",
+        ],
+        "description": [
+            "Code: U+122A",
+            "Character/Symbol: ሪ",
+            "Name: ETHIOPIC SYLLABLE RI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ራ U+122B ETHIOPIC SYLLABLE RAA": 
+    {
+        "prefix": [
+            "..U.122B",
+            "..U.ETHIOPIC SYLLABLE RAA",
+            "U+122B",
+        ],
+        "body": [
+            "${1|ራ,&#x122B;,U+122B,0x122B,ETHIOPIC SYLLABLE RAA|}$2",
+        ],
+        "description": [
+            "Code: U+122B",
+            "Character/Symbol: ራ",
+            "Name: ETHIOPIC SYLLABLE RAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሬ U+122C ETHIOPIC SYLLABLE REE": 
+    {
+        "prefix": [
+            "..U.122C",
+            "..U.ETHIOPIC SYLLABLE REE",
+            "U+122C",
+        ],
+        "body": [
+            "${1|ሬ,&#x122C;,U+122C,0x122C,ETHIOPIC SYLLABLE REE|}$2",
+        ],
+        "description": [
+            "Code: U+122C",
+            "Character/Symbol: ሬ",
+            "Name: ETHIOPIC SYLLABLE REE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ር U+122D ETHIOPIC SYLLABLE RE": 
+    {
+        "prefix": [
+            "..U.122D",
+            "..U.ETHIOPIC SYLLABLE RE",
+            "U+122D",
+        ],
+        "body": [
+            "${1|ር,&#x122D;,U+122D,0x122D,ETHIOPIC SYLLABLE RE|}$2",
+        ],
+        "description": [
+            "Code: U+122D",
+            "Character/Symbol: ር",
+            "Name: ETHIOPIC SYLLABLE RE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሮ U+122E ETHIOPIC SYLLABLE RO": 
+    {
+        "prefix": [
+            "..U.122E",
+            "..U.ETHIOPIC SYLLABLE RO",
+            "U+122E",
+        ],
+        "body": [
+            "${1|ሮ,&#x122E;,U+122E,0x122E,ETHIOPIC SYLLABLE RO|}$2",
+        ],
+        "description": [
+            "Code: U+122E",
+            "Character/Symbol: ሮ",
+            "Name: ETHIOPIC SYLLABLE RO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሯ U+122F ETHIOPIC SYLLABLE RWA": 
+    {
+        "prefix": [
+            "..U.122F",
+            "..U.ETHIOPIC SYLLABLE RWA",
+            "U+122F",
+        ],
+        "body": [
+            "${1|ሯ,&#x122F;,U+122F,0x122F,ETHIOPIC SYLLABLE RWA|}$2",
+        ],
+        "description": [
+            "Code: U+122F",
+            "Character/Symbol: ሯ",
+            "Name: ETHIOPIC SYLLABLE RWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሰ U+1230 ETHIOPIC SYLLABLE SA": 
+    {
+        "prefix": [
+            "..U.1230",
+            "..U.ETHIOPIC SYLLABLE SA",
+            "U+1230",
+        ],
+        "body": [
+            "${1|ሰ,&#x1230;,U+1230,0x1230,ETHIOPIC SYLLABLE SA|}$2",
+        ],
+        "description": [
+            "Code: U+1230",
+            "Character/Symbol: ሰ",
+            "Name: ETHIOPIC SYLLABLE SA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሱ U+1231 ETHIOPIC SYLLABLE SU": 
+    {
+        "prefix": [
+            "..U.1231",
+            "..U.ETHIOPIC SYLLABLE SU",
+            "U+1231",
+        ],
+        "body": [
+            "${1|ሱ,&#x1231;,U+1231,0x1231,ETHIOPIC SYLLABLE SU|}$2",
+        ],
+        "description": [
+            "Code: U+1231",
+            "Character/Symbol: ሱ",
+            "Name: ETHIOPIC SYLLABLE SU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሲ U+1232 ETHIOPIC SYLLABLE SI": 
+    {
+        "prefix": [
+            "..U.1232",
+            "..U.ETHIOPIC SYLLABLE SI",
+            "U+1232",
+        ],
+        "body": [
+            "${1|ሲ,&#x1232;,U+1232,0x1232,ETHIOPIC SYLLABLE SI|}$2",
+        ],
+        "description": [
+            "Code: U+1232",
+            "Character/Symbol: ሲ",
+            "Name: ETHIOPIC SYLLABLE SI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሳ U+1233 ETHIOPIC SYLLABLE SAA": 
+    {
+        "prefix": [
+            "..U.1233",
+            "..U.ETHIOPIC SYLLABLE SAA",
+            "U+1233",
+        ],
+        "body": [
+            "${1|ሳ,&#x1233;,U+1233,0x1233,ETHIOPIC SYLLABLE SAA|}$2",
+        ],
+        "description": [
+            "Code: U+1233",
+            "Character/Symbol: ሳ",
+            "Name: ETHIOPIC SYLLABLE SAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሴ U+1234 ETHIOPIC SYLLABLE SEE": 
+    {
+        "prefix": [
+            "..U.1234",
+            "..U.ETHIOPIC SYLLABLE SEE",
+            "U+1234",
+        ],
+        "body": [
+            "${1|ሴ,&#x1234;,U+1234,0x1234,ETHIOPIC SYLLABLE SEE|}$2",
+        ],
+        "description": [
+            "Code: U+1234",
+            "Character/Symbol: ሴ",
+            "Name: ETHIOPIC SYLLABLE SEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ስ U+1235 ETHIOPIC SYLLABLE SE": 
+    {
+        "prefix": [
+            "..U.1235",
+            "..U.ETHIOPIC SYLLABLE SE",
+            "U+1235",
+        ],
+        "body": [
+            "${1|ስ,&#x1235;,U+1235,0x1235,ETHIOPIC SYLLABLE SE|}$2",
+        ],
+        "description": [
+            "Code: U+1235",
+            "Character/Symbol: ስ",
+            "Name: ETHIOPIC SYLLABLE SE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሶ U+1236 ETHIOPIC SYLLABLE SO": 
+    {
+        "prefix": [
+            "..U.1236",
+            "..U.ETHIOPIC SYLLABLE SO",
+            "U+1236",
+        ],
+        "body": [
+            "${1|ሶ,&#x1236;,U+1236,0x1236,ETHIOPIC SYLLABLE SO|}$2",
+        ],
+        "description": [
+            "Code: U+1236",
+            "Character/Symbol: ሶ",
+            "Name: ETHIOPIC SYLLABLE SO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሷ U+1237 ETHIOPIC SYLLABLE SWA": 
+    {
+        "prefix": [
+            "..U.1237",
+            "..U.ETHIOPIC SYLLABLE SWA",
+            "U+1237",
+        ],
+        "body": [
+            "${1|ሷ,&#x1237;,U+1237,0x1237,ETHIOPIC SYLLABLE SWA|}$2",
+        ],
+        "description": [
+            "Code: U+1237",
+            "Character/Symbol: ሷ",
+            "Name: ETHIOPIC SYLLABLE SWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሸ U+1238 ETHIOPIC SYLLABLE SHA": 
+    {
+        "prefix": [
+            "..U.1238",
+            "..U.ETHIOPIC SYLLABLE SHA",
+            "U+1238",
+        ],
+        "body": [
+            "${1|ሸ,&#x1238;,U+1238,0x1238,ETHIOPIC SYLLABLE SHA|}$2",
+        ],
+        "description": [
+            "Code: U+1238",
+            "Character/Symbol: ሸ",
+            "Name: ETHIOPIC SYLLABLE SHA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሹ U+1239 ETHIOPIC SYLLABLE SHU": 
+    {
+        "prefix": [
+            "..U.1239",
+            "..U.ETHIOPIC SYLLABLE SHU",
+            "U+1239",
+        ],
+        "body": [
+            "${1|ሹ,&#x1239;,U+1239,0x1239,ETHIOPIC SYLLABLE SHU|}$2",
+        ],
+        "description": [
+            "Code: U+1239",
+            "Character/Symbol: ሹ",
+            "Name: ETHIOPIC SYLLABLE SHU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሺ U+123A ETHIOPIC SYLLABLE SHI": 
+    {
+        "prefix": [
+            "..U.123A",
+            "..U.ETHIOPIC SYLLABLE SHI",
+            "U+123A",
+        ],
+        "body": [
+            "${1|ሺ,&#x123A;,U+123A,0x123A,ETHIOPIC SYLLABLE SHI|}$2",
+        ],
+        "description": [
+            "Code: U+123A",
+            "Character/Symbol: ሺ",
+            "Name: ETHIOPIC SYLLABLE SHI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሻ U+123B ETHIOPIC SYLLABLE SHAA": 
+    {
+        "prefix": [
+            "..U.123B",
+            "..U.ETHIOPIC SYLLABLE SHAA",
+            "U+123B",
+        ],
+        "body": [
+            "${1|ሻ,&#x123B;,U+123B,0x123B,ETHIOPIC SYLLABLE SHAA|}$2",
+        ],
+        "description": [
+            "Code: U+123B",
+            "Character/Symbol: ሻ",
+            "Name: ETHIOPIC SYLLABLE SHAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሼ U+123C ETHIOPIC SYLLABLE SHEE": 
+    {
+        "prefix": [
+            "..U.123C",
+            "..U.ETHIOPIC SYLLABLE SHEE",
+            "U+123C",
+        ],
+        "body": [
+            "${1|ሼ,&#x123C;,U+123C,0x123C,ETHIOPIC SYLLABLE SHEE|}$2",
+        ],
+        "description": [
+            "Code: U+123C",
+            "Character/Symbol: ሼ",
+            "Name: ETHIOPIC SYLLABLE SHEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሽ U+123D ETHIOPIC SYLLABLE SHE": 
+    {
+        "prefix": [
+            "..U.123D",
+            "..U.ETHIOPIC SYLLABLE SHE",
+            "U+123D",
+        ],
+        "body": [
+            "${1|ሽ,&#x123D;,U+123D,0x123D,ETHIOPIC SYLLABLE SHE|}$2",
+        ],
+        "description": [
+            "Code: U+123D",
+            "Character/Symbol: ሽ",
+            "Name: ETHIOPIC SYLLABLE SHE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሾ U+123E ETHIOPIC SYLLABLE SHO": 
+    {
+        "prefix": [
+            "..U.123E",
+            "..U.ETHIOPIC SYLLABLE SHO",
+            "U+123E",
+        ],
+        "body": [
+            "${1|ሾ,&#x123E;,U+123E,0x123E,ETHIOPIC SYLLABLE SHO|}$2",
+        ],
+        "description": [
+            "Code: U+123E",
+            "Character/Symbol: ሾ",
+            "Name: ETHIOPIC SYLLABLE SHO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ሿ U+123F ETHIOPIC SYLLABLE SHWA": 
+    {
+        "prefix": [
+            "..U.123F",
+            "..U.ETHIOPIC SYLLABLE SHWA",
+            "U+123F",
+        ],
+        "body": [
+            "${1|ሿ,&#x123F;,U+123F,0x123F,ETHIOPIC SYLLABLE SHWA|}$2",
+        ],
+        "description": [
+            "Code: U+123F",
+            "Character/Symbol: ሿ",
+            "Name: ETHIOPIC SYLLABLE SHWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቀ U+1240 ETHIOPIC SYLLABLE QA": 
+    {
+        "prefix": [
+            "..U.1240",
+            "..U.ETHIOPIC SYLLABLE QA",
+            "U+1240",
+        ],
+        "body": [
+            "${1|ቀ,&#x1240;,U+1240,0x1240,ETHIOPIC SYLLABLE QA|}$2",
+        ],
+        "description": [
+            "Code: U+1240",
+            "Character/Symbol: ቀ",
+            "Name: ETHIOPIC SYLLABLE QA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቁ U+1241 ETHIOPIC SYLLABLE QU": 
+    {
+        "prefix": [
+            "..U.1241",
+            "..U.ETHIOPIC SYLLABLE QU",
+            "U+1241",
+        ],
+        "body": [
+            "${1|ቁ,&#x1241;,U+1241,0x1241,ETHIOPIC SYLLABLE QU|}$2",
+        ],
+        "description": [
+            "Code: U+1241",
+            "Character/Symbol: ቁ",
+            "Name: ETHIOPIC SYLLABLE QU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቂ U+1242 ETHIOPIC SYLLABLE QI": 
+    {
+        "prefix": [
+            "..U.1242",
+            "..U.ETHIOPIC SYLLABLE QI",
+            "U+1242",
+        ],
+        "body": [
+            "${1|ቂ,&#x1242;,U+1242,0x1242,ETHIOPIC SYLLABLE QI|}$2",
+        ],
+        "description": [
+            "Code: U+1242",
+            "Character/Symbol: ቂ",
+            "Name: ETHIOPIC SYLLABLE QI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቃ U+1243 ETHIOPIC SYLLABLE QAA": 
+    {
+        "prefix": [
+            "..U.1243",
+            "..U.ETHIOPIC SYLLABLE QAA",
+            "U+1243",
+        ],
+        "body": [
+            "${1|ቃ,&#x1243;,U+1243,0x1243,ETHIOPIC SYLLABLE QAA|}$2",
+        ],
+        "description": [
+            "Code: U+1243",
+            "Character/Symbol: ቃ",
+            "Name: ETHIOPIC SYLLABLE QAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቄ U+1244 ETHIOPIC SYLLABLE QEE": 
+    {
+        "prefix": [
+            "..U.1244",
+            "..U.ETHIOPIC SYLLABLE QEE",
+            "U+1244",
+        ],
+        "body": [
+            "${1|ቄ,&#x1244;,U+1244,0x1244,ETHIOPIC SYLLABLE QEE|}$2",
+        ],
+        "description": [
+            "Code: U+1244",
+            "Character/Symbol: ቄ",
+            "Name: ETHIOPIC SYLLABLE QEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቅ U+1245 ETHIOPIC SYLLABLE QE": 
+    {
+        "prefix": [
+            "..U.1245",
+            "..U.ETHIOPIC SYLLABLE QE",
+            "U+1245",
+        ],
+        "body": [
+            "${1|ቅ,&#x1245;,U+1245,0x1245,ETHIOPIC SYLLABLE QE|}$2",
+        ],
+        "description": [
+            "Code: U+1245",
+            "Character/Symbol: ቅ",
+            "Name: ETHIOPIC SYLLABLE QE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቆ U+1246 ETHIOPIC SYLLABLE QO": 
+    {
+        "prefix": [
+            "..U.1246",
+            "..U.ETHIOPIC SYLLABLE QO",
+            "U+1246",
+        ],
+        "body": [
+            "${1|ቆ,&#x1246;,U+1246,0x1246,ETHIOPIC SYLLABLE QO|}$2",
+        ],
+        "description": [
+            "Code: U+1246",
+            "Character/Symbol: ቆ",
+            "Name: ETHIOPIC SYLLABLE QO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቇ U+1247 ETHIOPIC SYLLABLE QOA": 
+    {
+        "prefix": [
+            "..U.1247",
+            "..U.ETHIOPIC SYLLABLE QOA",
+            "U+1247",
+        ],
+        "body": [
+            "${1|ቇ,&#x1247;,U+1247,0x1247,ETHIOPIC SYLLABLE QOA|}$2",
+        ],
+        "description": [
+            "Code: U+1247",
+            "Character/Symbol: ቇ",
+            "Name: ETHIOPIC SYLLABLE QOA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቈ U+1248 ETHIOPIC SYLLABLE QWA": 
+    {
+        "prefix": [
+            "..U.1248",
+            "..U.ETHIOPIC SYLLABLE QWA",
+            "U+1248",
+        ],
+        "body": [
+            "${1|ቈ,&#x1248;,U+1248,0x1248,ETHIOPIC SYLLABLE QWA|}$2",
+        ],
+        "description": [
+            "Code: U+1248",
+            "Character/Symbol: ቈ",
+            "Name: ETHIOPIC SYLLABLE QWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቊ U+124A ETHIOPIC SYLLABLE QWI": 
+    {
+        "prefix": [
+            "..U.124A",
+            "..U.ETHIOPIC SYLLABLE QWI",
+            "U+124A",
+        ],
+        "body": [
+            "${1|ቊ,&#x124A;,U+124A,0x124A,ETHIOPIC SYLLABLE QWI|}$2",
+        ],
+        "description": [
+            "Code: U+124A",
+            "Character/Symbol: ቊ",
+            "Name: ETHIOPIC SYLLABLE QWI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቋ U+124B ETHIOPIC SYLLABLE QWAA": 
+    {
+        "prefix": [
+            "..U.124B",
+            "..U.ETHIOPIC SYLLABLE QWAA",
+            "U+124B",
+        ],
+        "body": [
+            "${1|ቋ,&#x124B;,U+124B,0x124B,ETHIOPIC SYLLABLE QWAA|}$2",
+        ],
+        "description": [
+            "Code: U+124B",
+            "Character/Symbol: ቋ",
+            "Name: ETHIOPIC SYLLABLE QWAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቌ U+124C ETHIOPIC SYLLABLE QWEE": 
+    {
+        "prefix": [
+            "..U.124C",
+            "..U.ETHIOPIC SYLLABLE QWEE",
+            "U+124C",
+        ],
+        "body": [
+            "${1|ቌ,&#x124C;,U+124C,0x124C,ETHIOPIC SYLLABLE QWEE|}$2",
+        ],
+        "description": [
+            "Code: U+124C",
+            "Character/Symbol: ቌ",
+            "Name: ETHIOPIC SYLLABLE QWEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቍ U+124D ETHIOPIC SYLLABLE QWE": 
+    {
+        "prefix": [
+            "..U.124D",
+            "..U.ETHIOPIC SYLLABLE QWE",
+            "U+124D",
+        ],
+        "body": [
+            "${1|ቍ,&#x124D;,U+124D,0x124D,ETHIOPIC SYLLABLE QWE|}$2",
+        ],
+        "description": [
+            "Code: U+124D",
+            "Character/Symbol: ቍ",
+            "Name: ETHIOPIC SYLLABLE QWE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቐ U+1250 ETHIOPIC SYLLABLE QHA": 
+    {
+        "prefix": [
+            "..U.1250",
+            "..U.ETHIOPIC SYLLABLE QHA",
+            "U+1250",
+        ],
+        "body": [
+            "${1|ቐ,&#x1250;,U+1250,0x1250,ETHIOPIC SYLLABLE QHA|}$2",
+        ],
+        "description": [
+            "Code: U+1250",
+            "Character/Symbol: ቐ",
+            "Name: ETHIOPIC SYLLABLE QHA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቑ U+1251 ETHIOPIC SYLLABLE QHU": 
+    {
+        "prefix": [
+            "..U.1251",
+            "..U.ETHIOPIC SYLLABLE QHU",
+            "U+1251",
+        ],
+        "body": [
+            "${1|ቑ,&#x1251;,U+1251,0x1251,ETHIOPIC SYLLABLE QHU|}$2",
+        ],
+        "description": [
+            "Code: U+1251",
+            "Character/Symbol: ቑ",
+            "Name: ETHIOPIC SYLLABLE QHU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቒ U+1252 ETHIOPIC SYLLABLE QHI": 
+    {
+        "prefix": [
+            "..U.1252",
+            "..U.ETHIOPIC SYLLABLE QHI",
+            "U+1252",
+        ],
+        "body": [
+            "${1|ቒ,&#x1252;,U+1252,0x1252,ETHIOPIC SYLLABLE QHI|}$2",
+        ],
+        "description": [
+            "Code: U+1252",
+            "Character/Symbol: ቒ",
+            "Name: ETHIOPIC SYLLABLE QHI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቓ U+1253 ETHIOPIC SYLLABLE QHAA": 
+    {
+        "prefix": [
+            "..U.1253",
+            "..U.ETHIOPIC SYLLABLE QHAA",
+            "U+1253",
+        ],
+        "body": [
+            "${1|ቓ,&#x1253;,U+1253,0x1253,ETHIOPIC SYLLABLE QHAA|}$2",
+        ],
+        "description": [
+            "Code: U+1253",
+            "Character/Symbol: ቓ",
+            "Name: ETHIOPIC SYLLABLE QHAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቔ U+1254 ETHIOPIC SYLLABLE QHEE": 
+    {
+        "prefix": [
+            "..U.1254",
+            "..U.ETHIOPIC SYLLABLE QHEE",
+            "U+1254",
+        ],
+        "body": [
+            "${1|ቔ,&#x1254;,U+1254,0x1254,ETHIOPIC SYLLABLE QHEE|}$2",
+        ],
+        "description": [
+            "Code: U+1254",
+            "Character/Symbol: ቔ",
+            "Name: ETHIOPIC SYLLABLE QHEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቕ U+1255 ETHIOPIC SYLLABLE QHE": 
+    {
+        "prefix": [
+            "..U.1255",
+            "..U.ETHIOPIC SYLLABLE QHE",
+            "U+1255",
+        ],
+        "body": [
+            "${1|ቕ,&#x1255;,U+1255,0x1255,ETHIOPIC SYLLABLE QHE|}$2",
+        ],
+        "description": [
+            "Code: U+1255",
+            "Character/Symbol: ቕ",
+            "Name: ETHIOPIC SYLLABLE QHE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቖ U+1256 ETHIOPIC SYLLABLE QHO": 
+    {
+        "prefix": [
+            "..U.1256",
+            "..U.ETHIOPIC SYLLABLE QHO",
+            "U+1256",
+        ],
+        "body": [
+            "${1|ቖ,&#x1256;,U+1256,0x1256,ETHIOPIC SYLLABLE QHO|}$2",
+        ],
+        "description": [
+            "Code: U+1256",
+            "Character/Symbol: ቖ",
+            "Name: ETHIOPIC SYLLABLE QHO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቘ U+1258 ETHIOPIC SYLLABLE QHWA": 
+    {
+        "prefix": [
+            "..U.1258",
+            "..U.ETHIOPIC SYLLABLE QHWA",
+            "U+1258",
+        ],
+        "body": [
+            "${1|ቘ,&#x1258;,U+1258,0x1258,ETHIOPIC SYLLABLE QHWA|}$2",
+        ],
+        "description": [
+            "Code: U+1258",
+            "Character/Symbol: ቘ",
+            "Name: ETHIOPIC SYLLABLE QHWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቚ U+125A ETHIOPIC SYLLABLE QHWI": 
+    {
+        "prefix": [
+            "..U.125A",
+            "..U.ETHIOPIC SYLLABLE QHWI",
+            "U+125A",
+        ],
+        "body": [
+            "${1|ቚ,&#x125A;,U+125A,0x125A,ETHIOPIC SYLLABLE QHWI|}$2",
+        ],
+        "description": [
+            "Code: U+125A",
+            "Character/Symbol: ቚ",
+            "Name: ETHIOPIC SYLLABLE QHWI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቛ U+125B ETHIOPIC SYLLABLE QHWAA": 
+    {
+        "prefix": [
+            "..U.125B",
+            "..U.ETHIOPIC SYLLABLE QHWAA",
+            "U+125B",
+        ],
+        "body": [
+            "${1|ቛ,&#x125B;,U+125B,0x125B,ETHIOPIC SYLLABLE QHWAA|}$2",
+        ],
+        "description": [
+            "Code: U+125B",
+            "Character/Symbol: ቛ",
+            "Name: ETHIOPIC SYLLABLE QHWAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቜ U+125C ETHIOPIC SYLLABLE QHWEE": 
+    {
+        "prefix": [
+            "..U.125C",
+            "..U.ETHIOPIC SYLLABLE QHWEE",
+            "U+125C",
+        ],
+        "body": [
+            "${1|ቜ,&#x125C;,U+125C,0x125C,ETHIOPIC SYLLABLE QHWEE|}$2",
+        ],
+        "description": [
+            "Code: U+125C",
+            "Character/Symbol: ቜ",
+            "Name: ETHIOPIC SYLLABLE QHWEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቝ U+125D ETHIOPIC SYLLABLE QHWE": 
+    {
+        "prefix": [
+            "..U.125D",
+            "..U.ETHIOPIC SYLLABLE QHWE",
+            "U+125D",
+        ],
+        "body": [
+            "${1|ቝ,&#x125D;,U+125D,0x125D,ETHIOPIC SYLLABLE QHWE|}$2",
+        ],
+        "description": [
+            "Code: U+125D",
+            "Character/Symbol: ቝ",
+            "Name: ETHIOPIC SYLLABLE QHWE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode በ U+1260 ETHIOPIC SYLLABLE BA": 
+    {
+        "prefix": [
+            "..U.1260",
+            "..U.ETHIOPIC SYLLABLE BA",
+            "U+1260",
+        ],
+        "body": [
+            "${1|በ,&#x1260;,U+1260,0x1260,ETHIOPIC SYLLABLE BA|}$2",
+        ],
+        "description": [
+            "Code: U+1260",
+            "Character/Symbol: በ",
+            "Name: ETHIOPIC SYLLABLE BA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቡ U+1261 ETHIOPIC SYLLABLE BU": 
+    {
+        "prefix": [
+            "..U.1261",
+            "..U.ETHIOPIC SYLLABLE BU",
+            "U+1261",
+        ],
+        "body": [
+            "${1|ቡ,&#x1261;,U+1261,0x1261,ETHIOPIC SYLLABLE BU|}$2",
+        ],
+        "description": [
+            "Code: U+1261",
+            "Character/Symbol: ቡ",
+            "Name: ETHIOPIC SYLLABLE BU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቢ U+1262 ETHIOPIC SYLLABLE BI": 
+    {
+        "prefix": [
+            "..U.1262",
+            "..U.ETHIOPIC SYLLABLE BI",
+            "U+1262",
+        ],
+        "body": [
+            "${1|ቢ,&#x1262;,U+1262,0x1262,ETHIOPIC SYLLABLE BI|}$2",
+        ],
+        "description": [
+            "Code: U+1262",
+            "Character/Symbol: ቢ",
+            "Name: ETHIOPIC SYLLABLE BI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ባ U+1263 ETHIOPIC SYLLABLE BAA": 
+    {
+        "prefix": [
+            "..U.1263",
+            "..U.ETHIOPIC SYLLABLE BAA",
+            "U+1263",
+        ],
+        "body": [
+            "${1|ባ,&#x1263;,U+1263,0x1263,ETHIOPIC SYLLABLE BAA|}$2",
+        ],
+        "description": [
+            "Code: U+1263",
+            "Character/Symbol: ባ",
+            "Name: ETHIOPIC SYLLABLE BAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቤ U+1264 ETHIOPIC SYLLABLE BEE": 
+    {
+        "prefix": [
+            "..U.1264",
+            "..U.ETHIOPIC SYLLABLE BEE",
+            "U+1264",
+        ],
+        "body": [
+            "${1|ቤ,&#x1264;,U+1264,0x1264,ETHIOPIC SYLLABLE BEE|}$2",
+        ],
+        "description": [
+            "Code: U+1264",
+            "Character/Symbol: ቤ",
+            "Name: ETHIOPIC SYLLABLE BEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ብ U+1265 ETHIOPIC SYLLABLE BE": 
+    {
+        "prefix": [
+            "..U.1265",
+            "..U.ETHIOPIC SYLLABLE BE",
+            "U+1265",
+        ],
+        "body": [
+            "${1|ብ,&#x1265;,U+1265,0x1265,ETHIOPIC SYLLABLE BE|}$2",
+        ],
+        "description": [
+            "Code: U+1265",
+            "Character/Symbol: ብ",
+            "Name: ETHIOPIC SYLLABLE BE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቦ U+1266 ETHIOPIC SYLLABLE BO": 
+    {
+        "prefix": [
+            "..U.1266",
+            "..U.ETHIOPIC SYLLABLE BO",
+            "U+1266",
+        ],
+        "body": [
+            "${1|ቦ,&#x1266;,U+1266,0x1266,ETHIOPIC SYLLABLE BO|}$2",
+        ],
+        "description": [
+            "Code: U+1266",
+            "Character/Symbol: ቦ",
+            "Name: ETHIOPIC SYLLABLE BO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቧ U+1267 ETHIOPIC SYLLABLE BWA": 
+    {
+        "prefix": [
+            "..U.1267",
+            "..U.ETHIOPIC SYLLABLE BWA",
+            "U+1267",
+        ],
+        "body": [
+            "${1|ቧ,&#x1267;,U+1267,0x1267,ETHIOPIC SYLLABLE BWA|}$2",
+        ],
+        "description": [
+            "Code: U+1267",
+            "Character/Symbol: ቧ",
+            "Name: ETHIOPIC SYLLABLE BWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቨ U+1268 ETHIOPIC SYLLABLE VA": 
+    {
+        "prefix": [
+            "..U.1268",
+            "..U.ETHIOPIC SYLLABLE VA",
+            "U+1268",
+        ],
+        "body": [
+            "${1|ቨ,&#x1268;,U+1268,0x1268,ETHIOPIC SYLLABLE VA|}$2",
+        ],
+        "description": [
+            "Code: U+1268",
+            "Character/Symbol: ቨ",
+            "Name: ETHIOPIC SYLLABLE VA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቩ U+1269 ETHIOPIC SYLLABLE VU": 
+    {
+        "prefix": [
+            "..U.1269",
+            "..U.ETHIOPIC SYLLABLE VU",
+            "U+1269",
+        ],
+        "body": [
+            "${1|ቩ,&#x1269;,U+1269,0x1269,ETHIOPIC SYLLABLE VU|}$2",
+        ],
+        "description": [
+            "Code: U+1269",
+            "Character/Symbol: ቩ",
+            "Name: ETHIOPIC SYLLABLE VU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቪ U+126A ETHIOPIC SYLLABLE VI": 
+    {
+        "prefix": [
+            "..U.126A",
+            "..U.ETHIOPIC SYLLABLE VI",
+            "U+126A",
+        ],
+        "body": [
+            "${1|ቪ,&#x126A;,U+126A,0x126A,ETHIOPIC SYLLABLE VI|}$2",
+        ],
+        "description": [
+            "Code: U+126A",
+            "Character/Symbol: ቪ",
+            "Name: ETHIOPIC SYLLABLE VI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቫ U+126B ETHIOPIC SYLLABLE VAA": 
+    {
+        "prefix": [
+            "..U.126B",
+            "..U.ETHIOPIC SYLLABLE VAA",
+            "U+126B",
+        ],
+        "body": [
+            "${1|ቫ,&#x126B;,U+126B,0x126B,ETHIOPIC SYLLABLE VAA|}$2",
+        ],
+        "description": [
+            "Code: U+126B",
+            "Character/Symbol: ቫ",
+            "Name: ETHIOPIC SYLLABLE VAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቬ U+126C ETHIOPIC SYLLABLE VEE": 
+    {
+        "prefix": [
+            "..U.126C",
+            "..U.ETHIOPIC SYLLABLE VEE",
+            "U+126C",
+        ],
+        "body": [
+            "${1|ቬ,&#x126C;,U+126C,0x126C,ETHIOPIC SYLLABLE VEE|}$2",
+        ],
+        "description": [
+            "Code: U+126C",
+            "Character/Symbol: ቬ",
+            "Name: ETHIOPIC SYLLABLE VEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቭ U+126D ETHIOPIC SYLLABLE VE": 
+    {
+        "prefix": [
+            "..U.126D",
+            "..U.ETHIOPIC SYLLABLE VE",
+            "U+126D",
+        ],
+        "body": [
+            "${1|ቭ,&#x126D;,U+126D,0x126D,ETHIOPIC SYLLABLE VE|}$2",
+        ],
+        "description": [
+            "Code: U+126D",
+            "Character/Symbol: ቭ",
+            "Name: ETHIOPIC SYLLABLE VE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቮ U+126E ETHIOPIC SYLLABLE VO": 
+    {
+        "prefix": [
+            "..U.126E",
+            "..U.ETHIOPIC SYLLABLE VO",
+            "U+126E",
+        ],
+        "body": [
+            "${1|ቮ,&#x126E;,U+126E,0x126E,ETHIOPIC SYLLABLE VO|}$2",
+        ],
+        "description": [
+            "Code: U+126E",
+            "Character/Symbol: ቮ",
+            "Name: ETHIOPIC SYLLABLE VO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቯ U+126F ETHIOPIC SYLLABLE VWA": 
+    {
+        "prefix": [
+            "..U.126F",
+            "..U.ETHIOPIC SYLLABLE VWA",
+            "U+126F",
+        ],
+        "body": [
+            "${1|ቯ,&#x126F;,U+126F,0x126F,ETHIOPIC SYLLABLE VWA|}$2",
+        ],
+        "description": [
+            "Code: U+126F",
+            "Character/Symbol: ቯ",
+            "Name: ETHIOPIC SYLLABLE VWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ተ U+1270 ETHIOPIC SYLLABLE TA": 
+    {
+        "prefix": [
+            "..U.1270",
+            "..U.ETHIOPIC SYLLABLE TA",
+            "U+1270",
+        ],
+        "body": [
+            "${1|ተ,&#x1270;,U+1270,0x1270,ETHIOPIC SYLLABLE TA|}$2",
+        ],
+        "description": [
+            "Code: U+1270",
+            "Character/Symbol: ተ",
+            "Name: ETHIOPIC SYLLABLE TA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቱ U+1271 ETHIOPIC SYLLABLE TU": 
+    {
+        "prefix": [
+            "..U.1271",
+            "..U.ETHIOPIC SYLLABLE TU",
+            "U+1271",
+        ],
+        "body": [
+            "${1|ቱ,&#x1271;,U+1271,0x1271,ETHIOPIC SYLLABLE TU|}$2",
+        ],
+        "description": [
+            "Code: U+1271",
+            "Character/Symbol: ቱ",
+            "Name: ETHIOPIC SYLLABLE TU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቲ U+1272 ETHIOPIC SYLLABLE TI": 
+    {
+        "prefix": [
+            "..U.1272",
+            "..U.ETHIOPIC SYLLABLE TI",
+            "U+1272",
+        ],
+        "body": [
+            "${1|ቲ,&#x1272;,U+1272,0x1272,ETHIOPIC SYLLABLE TI|}$2",
+        ],
+        "description": [
+            "Code: U+1272",
+            "Character/Symbol: ቲ",
+            "Name: ETHIOPIC SYLLABLE TI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ታ U+1273 ETHIOPIC SYLLABLE TAA": 
+    {
+        "prefix": [
+            "..U.1273",
+            "..U.ETHIOPIC SYLLABLE TAA",
+            "U+1273",
+        ],
+        "body": [
+            "${1|ታ,&#x1273;,U+1273,0x1273,ETHIOPIC SYLLABLE TAA|}$2",
+        ],
+        "description": [
+            "Code: U+1273",
+            "Character/Symbol: ታ",
+            "Name: ETHIOPIC SYLLABLE TAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቴ U+1274 ETHIOPIC SYLLABLE TEE": 
+    {
+        "prefix": [
+            "..U.1274",
+            "..U.ETHIOPIC SYLLABLE TEE",
+            "U+1274",
+        ],
+        "body": [
+            "${1|ቴ,&#x1274;,U+1274,0x1274,ETHIOPIC SYLLABLE TEE|}$2",
+        ],
+        "description": [
+            "Code: U+1274",
+            "Character/Symbol: ቴ",
+            "Name: ETHIOPIC SYLLABLE TEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ት U+1275 ETHIOPIC SYLLABLE TE": 
+    {
+        "prefix": [
+            "..U.1275",
+            "..U.ETHIOPIC SYLLABLE TE",
+            "U+1275",
+        ],
+        "body": [
+            "${1|ት,&#x1275;,U+1275,0x1275,ETHIOPIC SYLLABLE TE|}$2",
+        ],
+        "description": [
+            "Code: U+1275",
+            "Character/Symbol: ት",
+            "Name: ETHIOPIC SYLLABLE TE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቶ U+1276 ETHIOPIC SYLLABLE TO": 
+    {
+        "prefix": [
+            "..U.1276",
+            "..U.ETHIOPIC SYLLABLE TO",
+            "U+1276",
+        ],
+        "body": [
+            "${1|ቶ,&#x1276;,U+1276,0x1276,ETHIOPIC SYLLABLE TO|}$2",
+        ],
+        "description": [
+            "Code: U+1276",
+            "Character/Symbol: ቶ",
+            "Name: ETHIOPIC SYLLABLE TO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቷ U+1277 ETHIOPIC SYLLABLE TWA": 
+    {
+        "prefix": [
+            "..U.1277",
+            "..U.ETHIOPIC SYLLABLE TWA",
+            "U+1277",
+        ],
+        "body": [
+            "${1|ቷ,&#x1277;,U+1277,0x1277,ETHIOPIC SYLLABLE TWA|}$2",
+        ],
+        "description": [
+            "Code: U+1277",
+            "Character/Symbol: ቷ",
+            "Name: ETHIOPIC SYLLABLE TWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቸ U+1278 ETHIOPIC SYLLABLE CA": 
+    {
+        "prefix": [
+            "..U.1278",
+            "..U.ETHIOPIC SYLLABLE CA",
+            "U+1278",
+        ],
+        "body": [
+            "${1|ቸ,&#x1278;,U+1278,0x1278,ETHIOPIC SYLLABLE CA|}$2",
+        ],
+        "description": [
+            "Code: U+1278",
+            "Character/Symbol: ቸ",
+            "Name: ETHIOPIC SYLLABLE CA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቹ U+1279 ETHIOPIC SYLLABLE CU": 
+    {
+        "prefix": [
+            "..U.1279",
+            "..U.ETHIOPIC SYLLABLE CU",
+            "U+1279",
+        ],
+        "body": [
+            "${1|ቹ,&#x1279;,U+1279,0x1279,ETHIOPIC SYLLABLE CU|}$2",
+        ],
+        "description": [
+            "Code: U+1279",
+            "Character/Symbol: ቹ",
+            "Name: ETHIOPIC SYLLABLE CU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቺ U+127A ETHIOPIC SYLLABLE CI": 
+    {
+        "prefix": [
+            "..U.127A",
+            "..U.ETHIOPIC SYLLABLE CI",
+            "U+127A",
+        ],
+        "body": [
+            "${1|ቺ,&#x127A;,U+127A,0x127A,ETHIOPIC SYLLABLE CI|}$2",
+        ],
+        "description": [
+            "Code: U+127A",
+            "Character/Symbol: ቺ",
+            "Name: ETHIOPIC SYLLABLE CI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቻ U+127B ETHIOPIC SYLLABLE CAA": 
+    {
+        "prefix": [
+            "..U.127B",
+            "..U.ETHIOPIC SYLLABLE CAA",
+            "U+127B",
+        ],
+        "body": [
+            "${1|ቻ,&#x127B;,U+127B,0x127B,ETHIOPIC SYLLABLE CAA|}$2",
+        ],
+        "description": [
+            "Code: U+127B",
+            "Character/Symbol: ቻ",
+            "Name: ETHIOPIC SYLLABLE CAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቼ U+127C ETHIOPIC SYLLABLE CEE": 
+    {
+        "prefix": [
+            "..U.127C",
+            "..U.ETHIOPIC SYLLABLE CEE",
+            "U+127C",
+        ],
+        "body": [
+            "${1|ቼ,&#x127C;,U+127C,0x127C,ETHIOPIC SYLLABLE CEE|}$2",
+        ],
+        "description": [
+            "Code: U+127C",
+            "Character/Symbol: ቼ",
+            "Name: ETHIOPIC SYLLABLE CEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ች U+127D ETHIOPIC SYLLABLE CE": 
+    {
+        "prefix": [
+            "..U.127D",
+            "..U.ETHIOPIC SYLLABLE CE",
+            "U+127D",
+        ],
+        "body": [
+            "${1|ች,&#x127D;,U+127D,0x127D,ETHIOPIC SYLLABLE CE|}$2",
+        ],
+        "description": [
+            "Code: U+127D",
+            "Character/Symbol: ች",
+            "Name: ETHIOPIC SYLLABLE CE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቾ U+127E ETHIOPIC SYLLABLE CO": 
+    {
+        "prefix": [
+            "..U.127E",
+            "..U.ETHIOPIC SYLLABLE CO",
+            "U+127E",
+        ],
+        "body": [
+            "${1|ቾ,&#x127E;,U+127E,0x127E,ETHIOPIC SYLLABLE CO|}$2",
+        ],
+        "description": [
+            "Code: U+127E",
+            "Character/Symbol: ቾ",
+            "Name: ETHIOPIC SYLLABLE CO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ቿ U+127F ETHIOPIC SYLLABLE CWA": 
+    {
+        "prefix": [
+            "..U.127F",
+            "..U.ETHIOPIC SYLLABLE CWA",
+            "U+127F",
+        ],
+        "body": [
+            "${1|ቿ,&#x127F;,U+127F,0x127F,ETHIOPIC SYLLABLE CWA|}$2",
+        ],
+        "description": [
+            "Code: U+127F",
+            "Character/Symbol: ቿ",
+            "Name: ETHIOPIC SYLLABLE CWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኀ U+1280 ETHIOPIC SYLLABLE XA": 
+    {
+        "prefix": [
+            "..U.1280",
+            "..U.ETHIOPIC SYLLABLE XA",
+            "U+1280",
+        ],
+        "body": [
+            "${1|ኀ,&#x1280;,U+1280,0x1280,ETHIOPIC SYLLABLE XA|}$2",
+        ],
+        "description": [
+            "Code: U+1280",
+            "Character/Symbol: ኀ",
+            "Name: ETHIOPIC SYLLABLE XA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኁ U+1281 ETHIOPIC SYLLABLE XU": 
+    {
+        "prefix": [
+            "..U.1281",
+            "..U.ETHIOPIC SYLLABLE XU",
+            "U+1281",
+        ],
+        "body": [
+            "${1|ኁ,&#x1281;,U+1281,0x1281,ETHIOPIC SYLLABLE XU|}$2",
+        ],
+        "description": [
+            "Code: U+1281",
+            "Character/Symbol: ኁ",
+            "Name: ETHIOPIC SYLLABLE XU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኂ U+1282 ETHIOPIC SYLLABLE XI": 
+    {
+        "prefix": [
+            "..U.1282",
+            "..U.ETHIOPIC SYLLABLE XI",
+            "U+1282",
+        ],
+        "body": [
+            "${1|ኂ,&#x1282;,U+1282,0x1282,ETHIOPIC SYLLABLE XI|}$2",
+        ],
+        "description": [
+            "Code: U+1282",
+            "Character/Symbol: ኂ",
+            "Name: ETHIOPIC SYLLABLE XI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኃ U+1283 ETHIOPIC SYLLABLE XAA": 
+    {
+        "prefix": [
+            "..U.1283",
+            "..U.ETHIOPIC SYLLABLE XAA",
+            "U+1283",
+        ],
+        "body": [
+            "${1|ኃ,&#x1283;,U+1283,0x1283,ETHIOPIC SYLLABLE XAA|}$2",
+        ],
+        "description": [
+            "Code: U+1283",
+            "Character/Symbol: ኃ",
+            "Name: ETHIOPIC SYLLABLE XAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኄ U+1284 ETHIOPIC SYLLABLE XEE": 
+    {
+        "prefix": [
+            "..U.1284",
+            "..U.ETHIOPIC SYLLABLE XEE",
+            "U+1284",
+        ],
+        "body": [
+            "${1|ኄ,&#x1284;,U+1284,0x1284,ETHIOPIC SYLLABLE XEE|}$2",
+        ],
+        "description": [
+            "Code: U+1284",
+            "Character/Symbol: ኄ",
+            "Name: ETHIOPIC SYLLABLE XEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኅ U+1285 ETHIOPIC SYLLABLE XE": 
+    {
+        "prefix": [
+            "..U.1285",
+            "..U.ETHIOPIC SYLLABLE XE",
+            "U+1285",
+        ],
+        "body": [
+            "${1|ኅ,&#x1285;,U+1285,0x1285,ETHIOPIC SYLLABLE XE|}$2",
+        ],
+        "description": [
+            "Code: U+1285",
+            "Character/Symbol: ኅ",
+            "Name: ETHIOPIC SYLLABLE XE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኆ U+1286 ETHIOPIC SYLLABLE XO": 
+    {
+        "prefix": [
+            "..U.1286",
+            "..U.ETHIOPIC SYLLABLE XO",
+            "U+1286",
+        ],
+        "body": [
+            "${1|ኆ,&#x1286;,U+1286,0x1286,ETHIOPIC SYLLABLE XO|}$2",
+        ],
+        "description": [
+            "Code: U+1286",
+            "Character/Symbol: ኆ",
+            "Name: ETHIOPIC SYLLABLE XO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኇ U+1287 ETHIOPIC SYLLABLE XOA": 
+    {
+        "prefix": [
+            "..U.1287",
+            "..U.ETHIOPIC SYLLABLE XOA",
+            "U+1287",
+        ],
+        "body": [
+            "${1|ኇ,&#x1287;,U+1287,0x1287,ETHIOPIC SYLLABLE XOA|}$2",
+        ],
+        "description": [
+            "Code: U+1287",
+            "Character/Symbol: ኇ",
+            "Name: ETHIOPIC SYLLABLE XOA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኈ U+1288 ETHIOPIC SYLLABLE XWA": 
+    {
+        "prefix": [
+            "..U.1288",
+            "..U.ETHIOPIC SYLLABLE XWA",
+            "U+1288",
+        ],
+        "body": [
+            "${1|ኈ,&#x1288;,U+1288,0x1288,ETHIOPIC SYLLABLE XWA|}$2",
+        ],
+        "description": [
+            "Code: U+1288",
+            "Character/Symbol: ኈ",
+            "Name: ETHIOPIC SYLLABLE XWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኊ U+128A ETHIOPIC SYLLABLE XWI": 
+    {
+        "prefix": [
+            "..U.128A",
+            "..U.ETHIOPIC SYLLABLE XWI",
+            "U+128A",
+        ],
+        "body": [
+            "${1|ኊ,&#x128A;,U+128A,0x128A,ETHIOPIC SYLLABLE XWI|}$2",
+        ],
+        "description": [
+            "Code: U+128A",
+            "Character/Symbol: ኊ",
+            "Name: ETHIOPIC SYLLABLE XWI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኋ U+128B ETHIOPIC SYLLABLE XWAA": 
+    {
+        "prefix": [
+            "..U.128B",
+            "..U.ETHIOPIC SYLLABLE XWAA",
+            "U+128B",
+        ],
+        "body": [
+            "${1|ኋ,&#x128B;,U+128B,0x128B,ETHIOPIC SYLLABLE XWAA|}$2",
+        ],
+        "description": [
+            "Code: U+128B",
+            "Character/Symbol: ኋ",
+            "Name: ETHIOPIC SYLLABLE XWAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኌ U+128C ETHIOPIC SYLLABLE XWEE": 
+    {
+        "prefix": [
+            "..U.128C",
+            "..U.ETHIOPIC SYLLABLE XWEE",
+            "U+128C",
+        ],
+        "body": [
+            "${1|ኌ,&#x128C;,U+128C,0x128C,ETHIOPIC SYLLABLE XWEE|}$2",
+        ],
+        "description": [
+            "Code: U+128C",
+            "Character/Symbol: ኌ",
+            "Name: ETHIOPIC SYLLABLE XWEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኍ U+128D ETHIOPIC SYLLABLE XWE": 
+    {
+        "prefix": [
+            "..U.128D",
+            "..U.ETHIOPIC SYLLABLE XWE",
+            "U+128D",
+        ],
+        "body": [
+            "${1|ኍ,&#x128D;,U+128D,0x128D,ETHIOPIC SYLLABLE XWE|}$2",
+        ],
+        "description": [
+            "Code: U+128D",
+            "Character/Symbol: ኍ",
+            "Name: ETHIOPIC SYLLABLE XWE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ነ U+1290 ETHIOPIC SYLLABLE NA": 
+    {
+        "prefix": [
+            "..U.1290",
+            "..U.ETHIOPIC SYLLABLE NA",
+            "U+1290",
+        ],
+        "body": [
+            "${1|ነ,&#x1290;,U+1290,0x1290,ETHIOPIC SYLLABLE NA|}$2",
+        ],
+        "description": [
+            "Code: U+1290",
+            "Character/Symbol: ነ",
+            "Name: ETHIOPIC SYLLABLE NA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኑ U+1291 ETHIOPIC SYLLABLE NU": 
+    {
+        "prefix": [
+            "..U.1291",
+            "..U.ETHIOPIC SYLLABLE NU",
+            "U+1291",
+        ],
+        "body": [
+            "${1|ኑ,&#x1291;,U+1291,0x1291,ETHIOPIC SYLLABLE NU|}$2",
+        ],
+        "description": [
+            "Code: U+1291",
+            "Character/Symbol: ኑ",
+            "Name: ETHIOPIC SYLLABLE NU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኒ U+1292 ETHIOPIC SYLLABLE NI": 
+    {
+        "prefix": [
+            "..U.1292",
+            "..U.ETHIOPIC SYLLABLE NI",
+            "U+1292",
+        ],
+        "body": [
+            "${1|ኒ,&#x1292;,U+1292,0x1292,ETHIOPIC SYLLABLE NI|}$2",
+        ],
+        "description": [
+            "Code: U+1292",
+            "Character/Symbol: ኒ",
+            "Name: ETHIOPIC SYLLABLE NI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ና U+1293 ETHIOPIC SYLLABLE NAA": 
+    {
+        "prefix": [
+            "..U.1293",
+            "..U.ETHIOPIC SYLLABLE NAA",
+            "U+1293",
+        ],
+        "body": [
+            "${1|ና,&#x1293;,U+1293,0x1293,ETHIOPIC SYLLABLE NAA|}$2",
+        ],
+        "description": [
+            "Code: U+1293",
+            "Character/Symbol: ና",
+            "Name: ETHIOPIC SYLLABLE NAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኔ U+1294 ETHIOPIC SYLLABLE NEE": 
+    {
+        "prefix": [
+            "..U.1294",
+            "..U.ETHIOPIC SYLLABLE NEE",
+            "U+1294",
+        ],
+        "body": [
+            "${1|ኔ,&#x1294;,U+1294,0x1294,ETHIOPIC SYLLABLE NEE|}$2",
+        ],
+        "description": [
+            "Code: U+1294",
+            "Character/Symbol: ኔ",
+            "Name: ETHIOPIC SYLLABLE NEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ን U+1295 ETHIOPIC SYLLABLE NE": 
+    {
+        "prefix": [
+            "..U.1295",
+            "..U.ETHIOPIC SYLLABLE NE",
+            "U+1295",
+        ],
+        "body": [
+            "${1|ን,&#x1295;,U+1295,0x1295,ETHIOPIC SYLLABLE NE|}$2",
+        ],
+        "description": [
+            "Code: U+1295",
+            "Character/Symbol: ን",
+            "Name: ETHIOPIC SYLLABLE NE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኖ U+1296 ETHIOPIC SYLLABLE NO": 
+    {
+        "prefix": [
+            "..U.1296",
+            "..U.ETHIOPIC SYLLABLE NO",
+            "U+1296",
+        ],
+        "body": [
+            "${1|ኖ,&#x1296;,U+1296,0x1296,ETHIOPIC SYLLABLE NO|}$2",
+        ],
+        "description": [
+            "Code: U+1296",
+            "Character/Symbol: ኖ",
+            "Name: ETHIOPIC SYLLABLE NO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኗ U+1297 ETHIOPIC SYLLABLE NWA": 
+    {
+        "prefix": [
+            "..U.1297",
+            "..U.ETHIOPIC SYLLABLE NWA",
+            "U+1297",
+        ],
+        "body": [
+            "${1|ኗ,&#x1297;,U+1297,0x1297,ETHIOPIC SYLLABLE NWA|}$2",
+        ],
+        "description": [
+            "Code: U+1297",
+            "Character/Symbol: ኗ",
+            "Name: ETHIOPIC SYLLABLE NWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኘ U+1298 ETHIOPIC SYLLABLE NYA": 
+    {
+        "prefix": [
+            "..U.1298",
+            "..U.ETHIOPIC SYLLABLE NYA",
+            "U+1298",
+        ],
+        "body": [
+            "${1|ኘ,&#x1298;,U+1298,0x1298,ETHIOPIC SYLLABLE NYA|}$2",
+        ],
+        "description": [
+            "Code: U+1298",
+            "Character/Symbol: ኘ",
+            "Name: ETHIOPIC SYLLABLE NYA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኙ U+1299 ETHIOPIC SYLLABLE NYU": 
+    {
+        "prefix": [
+            "..U.1299",
+            "..U.ETHIOPIC SYLLABLE NYU",
+            "U+1299",
+        ],
+        "body": [
+            "${1|ኙ,&#x1299;,U+1299,0x1299,ETHIOPIC SYLLABLE NYU|}$2",
+        ],
+        "description": [
+            "Code: U+1299",
+            "Character/Symbol: ኙ",
+            "Name: ETHIOPIC SYLLABLE NYU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኚ U+129A ETHIOPIC SYLLABLE NYI": 
+    {
+        "prefix": [
+            "..U.129A",
+            "..U.ETHIOPIC SYLLABLE NYI",
+            "U+129A",
+        ],
+        "body": [
+            "${1|ኚ,&#x129A;,U+129A,0x129A,ETHIOPIC SYLLABLE NYI|}$2",
+        ],
+        "description": [
+            "Code: U+129A",
+            "Character/Symbol: ኚ",
+            "Name: ETHIOPIC SYLLABLE NYI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኛ U+129B ETHIOPIC SYLLABLE NYAA": 
+    {
+        "prefix": [
+            "..U.129B",
+            "..U.ETHIOPIC SYLLABLE NYAA",
+            "U+129B",
+        ],
+        "body": [
+            "${1|ኛ,&#x129B;,U+129B,0x129B,ETHIOPIC SYLLABLE NYAA|}$2",
+        ],
+        "description": [
+            "Code: U+129B",
+            "Character/Symbol: ኛ",
+            "Name: ETHIOPIC SYLLABLE NYAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኜ U+129C ETHIOPIC SYLLABLE NYEE": 
+    {
+        "prefix": [
+            "..U.129C",
+            "..U.ETHIOPIC SYLLABLE NYEE",
+            "U+129C",
+        ],
+        "body": [
+            "${1|ኜ,&#x129C;,U+129C,0x129C,ETHIOPIC SYLLABLE NYEE|}$2",
+        ],
+        "description": [
+            "Code: U+129C",
+            "Character/Symbol: ኜ",
+            "Name: ETHIOPIC SYLLABLE NYEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኝ U+129D ETHIOPIC SYLLABLE NYE": 
+    {
+        "prefix": [
+            "..U.129D",
+            "..U.ETHIOPIC SYLLABLE NYE",
+            "U+129D",
+        ],
+        "body": [
+            "${1|ኝ,&#x129D;,U+129D,0x129D,ETHIOPIC SYLLABLE NYE|}$2",
+        ],
+        "description": [
+            "Code: U+129D",
+            "Character/Symbol: ኝ",
+            "Name: ETHIOPIC SYLLABLE NYE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኞ U+129E ETHIOPIC SYLLABLE NYO": 
+    {
+        "prefix": [
+            "..U.129E",
+            "..U.ETHIOPIC SYLLABLE NYO",
+            "U+129E",
+        ],
+        "body": [
+            "${1|ኞ,&#x129E;,U+129E,0x129E,ETHIOPIC SYLLABLE NYO|}$2",
+        ],
+        "description": [
+            "Code: U+129E",
+            "Character/Symbol: ኞ",
+            "Name: ETHIOPIC SYLLABLE NYO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኟ U+129F ETHIOPIC SYLLABLE NYWA": 
+    {
+        "prefix": [
+            "..U.129F",
+            "..U.ETHIOPIC SYLLABLE NYWA",
+            "U+129F",
+        ],
+        "body": [
+            "${1|ኟ,&#x129F;,U+129F,0x129F,ETHIOPIC SYLLABLE NYWA|}$2",
+        ],
+        "description": [
+            "Code: U+129F",
+            "Character/Symbol: ኟ",
+            "Name: ETHIOPIC SYLLABLE NYWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode አ U+12A0 ETHIOPIC SYLLABLE GLOTTAL A": 
+    {
+        "prefix": [
+            "..U.12A0",
+            "..U.ETHIOPIC SYLLABLE GLOTTAL A",
+            "U+12A0",
+        ],
+        "body": [
+            "${1|አ,&#x12A0;,U+12A0,0x12A0,ETHIOPIC SYLLABLE GLOTTAL A|}$2",
+        ],
+        "description": [
+            "Code: U+12A0",
+            "Character/Symbol: አ",
+            "Name: ETHIOPIC SYLLABLE GLOTTAL A",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኡ U+12A1 ETHIOPIC SYLLABLE GLOTTAL U": 
+    {
+        "prefix": [
+            "..U.12A1",
+            "..U.ETHIOPIC SYLLABLE GLOTTAL U",
+            "U+12A1",
+        ],
+        "body": [
+            "${1|ኡ,&#x12A1;,U+12A1,0x12A1,ETHIOPIC SYLLABLE GLOTTAL U|}$2",
+        ],
+        "description": [
+            "Code: U+12A1",
+            "Character/Symbol: ኡ",
+            "Name: ETHIOPIC SYLLABLE GLOTTAL U",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኢ U+12A2 ETHIOPIC SYLLABLE GLOTTAL I": 
+    {
+        "prefix": [
+            "..U.12A2",
+            "..U.ETHIOPIC SYLLABLE GLOTTAL I",
+            "U+12A2",
+        ],
+        "body": [
+            "${1|ኢ,&#x12A2;,U+12A2,0x12A2,ETHIOPIC SYLLABLE GLOTTAL I|}$2",
+        ],
+        "description": [
+            "Code: U+12A2",
+            "Character/Symbol: ኢ",
+            "Name: ETHIOPIC SYLLABLE GLOTTAL I",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኣ U+12A3 ETHIOPIC SYLLABLE GLOTTAL AA": 
+    {
+        "prefix": [
+            "..U.12A3",
+            "..U.ETHIOPIC SYLLABLE GLOTTAL AA",
+            "U+12A3",
+        ],
+        "body": [
+            "${1|ኣ,&#x12A3;,U+12A3,0x12A3,ETHIOPIC SYLLABLE GLOTTAL AA|}$2",
+        ],
+        "description": [
+            "Code: U+12A3",
+            "Character/Symbol: ኣ",
+            "Name: ETHIOPIC SYLLABLE GLOTTAL AA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኤ U+12A4 ETHIOPIC SYLLABLE GLOTTAL EE": 
+    {
+        "prefix": [
+            "..U.12A4",
+            "..U.ETHIOPIC SYLLABLE GLOTTAL EE",
+            "U+12A4",
+        ],
+        "body": [
+            "${1|ኤ,&#x12A4;,U+12A4,0x12A4,ETHIOPIC SYLLABLE GLOTTAL EE|}$2",
+        ],
+        "description": [
+            "Code: U+12A4",
+            "Character/Symbol: ኤ",
+            "Name: ETHIOPIC SYLLABLE GLOTTAL EE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode እ U+12A5 ETHIOPIC SYLLABLE GLOTTAL E": 
+    {
+        "prefix": [
+            "..U.12A5",
+            "..U.ETHIOPIC SYLLABLE GLOTTAL E",
+            "U+12A5",
+        ],
+        "body": [
+            "${1|እ,&#x12A5;,U+12A5,0x12A5,ETHIOPIC SYLLABLE GLOTTAL E|}$2",
+        ],
+        "description": [
+            "Code: U+12A5",
+            "Character/Symbol: እ",
+            "Name: ETHIOPIC SYLLABLE GLOTTAL E",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኦ U+12A6 ETHIOPIC SYLLABLE GLOTTAL O": 
+    {
+        "prefix": [
+            "..U.12A6",
+            "..U.ETHIOPIC SYLLABLE GLOTTAL O",
+            "U+12A6",
+        ],
+        "body": [
+            "${1|ኦ,&#x12A6;,U+12A6,0x12A6,ETHIOPIC SYLLABLE GLOTTAL O|}$2",
+        ],
+        "description": [
+            "Code: U+12A6",
+            "Character/Symbol: ኦ",
+            "Name: ETHIOPIC SYLLABLE GLOTTAL O",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኧ U+12A7 ETHIOPIC SYLLABLE GLOTTAL WA": 
+    {
+        "prefix": [
+            "..U.12A7",
+            "..U.ETHIOPIC SYLLABLE GLOTTAL WA",
+            "U+12A7",
+        ],
+        "body": [
+            "${1|ኧ,&#x12A7;,U+12A7,0x12A7,ETHIOPIC SYLLABLE GLOTTAL WA|}$2",
+        ],
+        "description": [
+            "Code: U+12A7",
+            "Character/Symbol: ኧ",
+            "Name: ETHIOPIC SYLLABLE GLOTTAL WA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ከ U+12A8 ETHIOPIC SYLLABLE KA": 
+    {
+        "prefix": [
+            "..U.12A8",
+            "..U.ETHIOPIC SYLLABLE KA",
+            "U+12A8",
+        ],
+        "body": [
+            "${1|ከ,&#x12A8;,U+12A8,0x12A8,ETHIOPIC SYLLABLE KA|}$2",
+        ],
+        "description": [
+            "Code: U+12A8",
+            "Character/Symbol: ከ",
+            "Name: ETHIOPIC SYLLABLE KA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኩ U+12A9 ETHIOPIC SYLLABLE KU": 
+    {
+        "prefix": [
+            "..U.12A9",
+            "..U.ETHIOPIC SYLLABLE KU",
+            "U+12A9",
+        ],
+        "body": [
+            "${1|ኩ,&#x12A9;,U+12A9,0x12A9,ETHIOPIC SYLLABLE KU|}$2",
+        ],
+        "description": [
+            "Code: U+12A9",
+            "Character/Symbol: ኩ",
+            "Name: ETHIOPIC SYLLABLE KU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኪ U+12AA ETHIOPIC SYLLABLE KI": 
+    {
+        "prefix": [
+            "..U.12AA",
+            "..U.ETHIOPIC SYLLABLE KI",
+            "U+12AA",
+        ],
+        "body": [
+            "${1|ኪ,&#x12AA;,U+12AA,0x12AA,ETHIOPIC SYLLABLE KI|}$2",
+        ],
+        "description": [
+            "Code: U+12AA",
+            "Character/Symbol: ኪ",
+            "Name: ETHIOPIC SYLLABLE KI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ካ U+12AB ETHIOPIC SYLLABLE KAA": 
+    {
+        "prefix": [
+            "..U.12AB",
+            "..U.ETHIOPIC SYLLABLE KAA",
+            "U+12AB",
+        ],
+        "body": [
+            "${1|ካ,&#x12AB;,U+12AB,0x12AB,ETHIOPIC SYLLABLE KAA|}$2",
+        ],
+        "description": [
+            "Code: U+12AB",
+            "Character/Symbol: ካ",
+            "Name: ETHIOPIC SYLLABLE KAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኬ U+12AC ETHIOPIC SYLLABLE KEE": 
+    {
+        "prefix": [
+            "..U.12AC",
+            "..U.ETHIOPIC SYLLABLE KEE",
+            "U+12AC",
+        ],
+        "body": [
+            "${1|ኬ,&#x12AC;,U+12AC,0x12AC,ETHIOPIC SYLLABLE KEE|}$2",
+        ],
+        "description": [
+            "Code: U+12AC",
+            "Character/Symbol: ኬ",
+            "Name: ETHIOPIC SYLLABLE KEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ክ U+12AD ETHIOPIC SYLLABLE KE": 
+    {
+        "prefix": [
+            "..U.12AD",
+            "..U.ETHIOPIC SYLLABLE KE",
+            "U+12AD",
+        ],
+        "body": [
+            "${1|ክ,&#x12AD;,U+12AD,0x12AD,ETHIOPIC SYLLABLE KE|}$2",
+        ],
+        "description": [
+            "Code: U+12AD",
+            "Character/Symbol: ክ",
+            "Name: ETHIOPIC SYLLABLE KE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኮ U+12AE ETHIOPIC SYLLABLE KO": 
+    {
+        "prefix": [
+            "..U.12AE",
+            "..U.ETHIOPIC SYLLABLE KO",
+            "U+12AE",
+        ],
+        "body": [
+            "${1|ኮ,&#x12AE;,U+12AE,0x12AE,ETHIOPIC SYLLABLE KO|}$2",
+        ],
+        "description": [
+            "Code: U+12AE",
+            "Character/Symbol: ኮ",
+            "Name: ETHIOPIC SYLLABLE KO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኯ U+12AF ETHIOPIC SYLLABLE KOA": 
+    {
+        "prefix": [
+            "..U.12AF",
+            "..U.ETHIOPIC SYLLABLE KOA",
+            "U+12AF",
+        ],
+        "body": [
+            "${1|ኯ,&#x12AF;,U+12AF,0x12AF,ETHIOPIC SYLLABLE KOA|}$2",
+        ],
+        "description": [
+            "Code: U+12AF",
+            "Character/Symbol: ኯ",
+            "Name: ETHIOPIC SYLLABLE KOA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኰ U+12B0 ETHIOPIC SYLLABLE KWA": 
+    {
+        "prefix": [
+            "..U.12B0",
+            "..U.ETHIOPIC SYLLABLE KWA",
+            "U+12B0",
+        ],
+        "body": [
+            "${1|ኰ,&#x12B0;,U+12B0,0x12B0,ETHIOPIC SYLLABLE KWA|}$2",
+        ],
+        "description": [
+            "Code: U+12B0",
+            "Character/Symbol: ኰ",
+            "Name: ETHIOPIC SYLLABLE KWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኲ U+12B2 ETHIOPIC SYLLABLE KWI": 
+    {
+        "prefix": [
+            "..U.12B2",
+            "..U.ETHIOPIC SYLLABLE KWI",
+            "U+12B2",
+        ],
+        "body": [
+            "${1|ኲ,&#x12B2;,U+12B2,0x12B2,ETHIOPIC SYLLABLE KWI|}$2",
+        ],
+        "description": [
+            "Code: U+12B2",
+            "Character/Symbol: ኲ",
+            "Name: ETHIOPIC SYLLABLE KWI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኳ U+12B3 ETHIOPIC SYLLABLE KWAA": 
+    {
+        "prefix": [
+            "..U.12B3",
+            "..U.ETHIOPIC SYLLABLE KWAA",
+            "U+12B3",
+        ],
+        "body": [
+            "${1|ኳ,&#x12B3;,U+12B3,0x12B3,ETHIOPIC SYLLABLE KWAA|}$2",
+        ],
+        "description": [
+            "Code: U+12B3",
+            "Character/Symbol: ኳ",
+            "Name: ETHIOPIC SYLLABLE KWAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኴ U+12B4 ETHIOPIC SYLLABLE KWEE": 
+    {
+        "prefix": [
+            "..U.12B4",
+            "..U.ETHIOPIC SYLLABLE KWEE",
+            "U+12B4",
+        ],
+        "body": [
+            "${1|ኴ,&#x12B4;,U+12B4,0x12B4,ETHIOPIC SYLLABLE KWEE|}$2",
+        ],
+        "description": [
+            "Code: U+12B4",
+            "Character/Symbol: ኴ",
+            "Name: ETHIOPIC SYLLABLE KWEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኵ U+12B5 ETHIOPIC SYLLABLE KWE": 
+    {
+        "prefix": [
+            "..U.12B5",
+            "..U.ETHIOPIC SYLLABLE KWE",
+            "U+12B5",
+        ],
+        "body": [
+            "${1|ኵ,&#x12B5;,U+12B5,0x12B5,ETHIOPIC SYLLABLE KWE|}$2",
+        ],
+        "description": [
+            "Code: U+12B5",
+            "Character/Symbol: ኵ",
+            "Name: ETHIOPIC SYLLABLE KWE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኸ U+12B8 ETHIOPIC SYLLABLE KXA": 
+    {
+        "prefix": [
+            "..U.12B8",
+            "..U.ETHIOPIC SYLLABLE KXA",
+            "U+12B8",
+        ],
+        "body": [
+            "${1|ኸ,&#x12B8;,U+12B8,0x12B8,ETHIOPIC SYLLABLE KXA|}$2",
+        ],
+        "description": [
+            "Code: U+12B8",
+            "Character/Symbol: ኸ",
+            "Name: ETHIOPIC SYLLABLE KXA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኹ U+12B9 ETHIOPIC SYLLABLE KXU": 
+    {
+        "prefix": [
+            "..U.12B9",
+            "..U.ETHIOPIC SYLLABLE KXU",
+            "U+12B9",
+        ],
+        "body": [
+            "${1|ኹ,&#x12B9;,U+12B9,0x12B9,ETHIOPIC SYLLABLE KXU|}$2",
+        ],
+        "description": [
+            "Code: U+12B9",
+            "Character/Symbol: ኹ",
+            "Name: ETHIOPIC SYLLABLE KXU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኺ U+12BA ETHIOPIC SYLLABLE KXI": 
+    {
+        "prefix": [
+            "..U.12BA",
+            "..U.ETHIOPIC SYLLABLE KXI",
+            "U+12BA",
+        ],
+        "body": [
+            "${1|ኺ,&#x12BA;,U+12BA,0x12BA,ETHIOPIC SYLLABLE KXI|}$2",
+        ],
+        "description": [
+            "Code: U+12BA",
+            "Character/Symbol: ኺ",
+            "Name: ETHIOPIC SYLLABLE KXI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኻ U+12BB ETHIOPIC SYLLABLE KXAA": 
+    {
+        "prefix": [
+            "..U.12BB",
+            "..U.ETHIOPIC SYLLABLE KXAA",
+            "U+12BB",
+        ],
+        "body": [
+            "${1|ኻ,&#x12BB;,U+12BB,0x12BB,ETHIOPIC SYLLABLE KXAA|}$2",
+        ],
+        "description": [
+            "Code: U+12BB",
+            "Character/Symbol: ኻ",
+            "Name: ETHIOPIC SYLLABLE KXAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኼ U+12BC ETHIOPIC SYLLABLE KXEE": 
+    {
+        "prefix": [
+            "..U.12BC",
+            "..U.ETHIOPIC SYLLABLE KXEE",
+            "U+12BC",
+        ],
+        "body": [
+            "${1|ኼ,&#x12BC;,U+12BC,0x12BC,ETHIOPIC SYLLABLE KXEE|}$2",
+        ],
+        "description": [
+            "Code: U+12BC",
+            "Character/Symbol: ኼ",
+            "Name: ETHIOPIC SYLLABLE KXEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኽ U+12BD ETHIOPIC SYLLABLE KXE": 
+    {
+        "prefix": [
+            "..U.12BD",
+            "..U.ETHIOPIC SYLLABLE KXE",
+            "U+12BD",
+        ],
+        "body": [
+            "${1|ኽ,&#x12BD;,U+12BD,0x12BD,ETHIOPIC SYLLABLE KXE|}$2",
+        ],
+        "description": [
+            "Code: U+12BD",
+            "Character/Symbol: ኽ",
+            "Name: ETHIOPIC SYLLABLE KXE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ኾ U+12BE ETHIOPIC SYLLABLE KXO": 
+    {
+        "prefix": [
+            "..U.12BE",
+            "..U.ETHIOPIC SYLLABLE KXO",
+            "U+12BE",
+        ],
+        "body": [
+            "${1|ኾ,&#x12BE;,U+12BE,0x12BE,ETHIOPIC SYLLABLE KXO|}$2",
+        ],
+        "description": [
+            "Code: U+12BE",
+            "Character/Symbol: ኾ",
+            "Name: ETHIOPIC SYLLABLE KXO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዀ U+12C0 ETHIOPIC SYLLABLE KXWA": 
+    {
+        "prefix": [
+            "..U.12C0",
+            "..U.ETHIOPIC SYLLABLE KXWA",
+            "U+12C0",
+        ],
+        "body": [
+            "${1|ዀ,&#x12C0;,U+12C0,0x12C0,ETHIOPIC SYLLABLE KXWA|}$2",
+        ],
+        "description": [
+            "Code: U+12C0",
+            "Character/Symbol: ዀ",
+            "Name: ETHIOPIC SYLLABLE KXWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዂ U+12C2 ETHIOPIC SYLLABLE KXWI": 
+    {
+        "prefix": [
+            "..U.12C2",
+            "..U.ETHIOPIC SYLLABLE KXWI",
+            "U+12C2",
+        ],
+        "body": [
+            "${1|ዂ,&#x12C2;,U+12C2,0x12C2,ETHIOPIC SYLLABLE KXWI|}$2",
+        ],
+        "description": [
+            "Code: U+12C2",
+            "Character/Symbol: ዂ",
+            "Name: ETHIOPIC SYLLABLE KXWI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዃ U+12C3 ETHIOPIC SYLLABLE KXWAA": 
+    {
+        "prefix": [
+            "..U.12C3",
+            "..U.ETHIOPIC SYLLABLE KXWAA",
+            "U+12C3",
+        ],
+        "body": [
+            "${1|ዃ,&#x12C3;,U+12C3,0x12C3,ETHIOPIC SYLLABLE KXWAA|}$2",
+        ],
+        "description": [
+            "Code: U+12C3",
+            "Character/Symbol: ዃ",
+            "Name: ETHIOPIC SYLLABLE KXWAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዄ U+12C4 ETHIOPIC SYLLABLE KXWEE": 
+    {
+        "prefix": [
+            "..U.12C4",
+            "..U.ETHIOPIC SYLLABLE KXWEE",
+            "U+12C4",
+        ],
+        "body": [
+            "${1|ዄ,&#x12C4;,U+12C4,0x12C4,ETHIOPIC SYLLABLE KXWEE|}$2",
+        ],
+        "description": [
+            "Code: U+12C4",
+            "Character/Symbol: ዄ",
+            "Name: ETHIOPIC SYLLABLE KXWEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዅ U+12C5 ETHIOPIC SYLLABLE KXWE": 
+    {
+        "prefix": [
+            "..U.12C5",
+            "..U.ETHIOPIC SYLLABLE KXWE",
+            "U+12C5",
+        ],
+        "body": [
+            "${1|ዅ,&#x12C5;,U+12C5,0x12C5,ETHIOPIC SYLLABLE KXWE|}$2",
+        ],
+        "description": [
+            "Code: U+12C5",
+            "Character/Symbol: ዅ",
+            "Name: ETHIOPIC SYLLABLE KXWE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ወ U+12C8 ETHIOPIC SYLLABLE WA": 
+    {
+        "prefix": [
+            "..U.12C8",
+            "..U.ETHIOPIC SYLLABLE WA",
+            "U+12C8",
+        ],
+        "body": [
+            "${1|ወ,&#x12C8;,U+12C8,0x12C8,ETHIOPIC SYLLABLE WA|}$2",
+        ],
+        "description": [
+            "Code: U+12C8",
+            "Character/Symbol: ወ",
+            "Name: ETHIOPIC SYLLABLE WA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዉ U+12C9 ETHIOPIC SYLLABLE WU": 
+    {
+        "prefix": [
+            "..U.12C9",
+            "..U.ETHIOPIC SYLLABLE WU",
+            "U+12C9",
+        ],
+        "body": [
+            "${1|ዉ,&#x12C9;,U+12C9,0x12C9,ETHIOPIC SYLLABLE WU|}$2",
+        ],
+        "description": [
+            "Code: U+12C9",
+            "Character/Symbol: ዉ",
+            "Name: ETHIOPIC SYLLABLE WU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዊ U+12CA ETHIOPIC SYLLABLE WI": 
+    {
+        "prefix": [
+            "..U.12CA",
+            "..U.ETHIOPIC SYLLABLE WI",
+            "U+12CA",
+        ],
+        "body": [
+            "${1|ዊ,&#x12CA;,U+12CA,0x12CA,ETHIOPIC SYLLABLE WI|}$2",
+        ],
+        "description": [
+            "Code: U+12CA",
+            "Character/Symbol: ዊ",
+            "Name: ETHIOPIC SYLLABLE WI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዋ U+12CB ETHIOPIC SYLLABLE WAA": 
+    {
+        "prefix": [
+            "..U.12CB",
+            "..U.ETHIOPIC SYLLABLE WAA",
+            "U+12CB",
+        ],
+        "body": [
+            "${1|ዋ,&#x12CB;,U+12CB,0x12CB,ETHIOPIC SYLLABLE WAA|}$2",
+        ],
+        "description": [
+            "Code: U+12CB",
+            "Character/Symbol: ዋ",
+            "Name: ETHIOPIC SYLLABLE WAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዌ U+12CC ETHIOPIC SYLLABLE WEE": 
+    {
+        "prefix": [
+            "..U.12CC",
+            "..U.ETHIOPIC SYLLABLE WEE",
+            "U+12CC",
+        ],
+        "body": [
+            "${1|ዌ,&#x12CC;,U+12CC,0x12CC,ETHIOPIC SYLLABLE WEE|}$2",
+        ],
+        "description": [
+            "Code: U+12CC",
+            "Character/Symbol: ዌ",
+            "Name: ETHIOPIC SYLLABLE WEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ው U+12CD ETHIOPIC SYLLABLE WE": 
+    {
+        "prefix": [
+            "..U.12CD",
+            "..U.ETHIOPIC SYLLABLE WE",
+            "U+12CD",
+        ],
+        "body": [
+            "${1|ው,&#x12CD;,U+12CD,0x12CD,ETHIOPIC SYLLABLE WE|}$2",
+        ],
+        "description": [
+            "Code: U+12CD",
+            "Character/Symbol: ው",
+            "Name: ETHIOPIC SYLLABLE WE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዎ U+12CE ETHIOPIC SYLLABLE WO": 
+    {
+        "prefix": [
+            "..U.12CE",
+            "..U.ETHIOPIC SYLLABLE WO",
+            "U+12CE",
+        ],
+        "body": [
+            "${1|ዎ,&#x12CE;,U+12CE,0x12CE,ETHIOPIC SYLLABLE WO|}$2",
+        ],
+        "description": [
+            "Code: U+12CE",
+            "Character/Symbol: ዎ",
+            "Name: ETHIOPIC SYLLABLE WO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዏ U+12CF ETHIOPIC SYLLABLE WOA": 
+    {
+        "prefix": [
+            "..U.12CF",
+            "..U.ETHIOPIC SYLLABLE WOA",
+            "U+12CF",
+        ],
+        "body": [
+            "${1|ዏ,&#x12CF;,U+12CF,0x12CF,ETHIOPIC SYLLABLE WOA|}$2",
+        ],
+        "description": [
+            "Code: U+12CF",
+            "Character/Symbol: ዏ",
+            "Name: ETHIOPIC SYLLABLE WOA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዐ U+12D0 ETHIOPIC SYLLABLE PHARYNGEAL A": 
+    {
+        "prefix": [
+            "..U.12D0",
+            "..U.ETHIOPIC SYLLABLE PHARYNGEAL A",
+            "U+12D0",
+        ],
+        "body": [
+            "${1|ዐ,&#x12D0;,U+12D0,0x12D0,ETHIOPIC SYLLABLE PHARYNGEAL A|}$2",
+        ],
+        "description": [
+            "Code: U+12D0",
+            "Character/Symbol: ዐ",
+            "Name: ETHIOPIC SYLLABLE PHARYNGEAL A",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዑ U+12D1 ETHIOPIC SYLLABLE PHARYNGEAL U": 
+    {
+        "prefix": [
+            "..U.12D1",
+            "..U.ETHIOPIC SYLLABLE PHARYNGEAL U",
+            "U+12D1",
+        ],
+        "body": [
+            "${1|ዑ,&#x12D1;,U+12D1,0x12D1,ETHIOPIC SYLLABLE PHARYNGEAL U|}$2",
+        ],
+        "description": [
+            "Code: U+12D1",
+            "Character/Symbol: ዑ",
+            "Name: ETHIOPIC SYLLABLE PHARYNGEAL U",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዒ U+12D2 ETHIOPIC SYLLABLE PHARYNGEAL I": 
+    {
+        "prefix": [
+            "..U.12D2",
+            "..U.ETHIOPIC SYLLABLE PHARYNGEAL I",
+            "U+12D2",
+        ],
+        "body": [
+            "${1|ዒ,&#x12D2;,U+12D2,0x12D2,ETHIOPIC SYLLABLE PHARYNGEAL I|}$2",
+        ],
+        "description": [
+            "Code: U+12D2",
+            "Character/Symbol: ዒ",
+            "Name: ETHIOPIC SYLLABLE PHARYNGEAL I",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዓ U+12D3 ETHIOPIC SYLLABLE PHARYNGEAL AA": 
+    {
+        "prefix": [
+            "..U.12D3",
+            "..U.ETHIOPIC SYLLABLE PHARYNGEAL AA",
+            "U+12D3",
+        ],
+        "body": [
+            "${1|ዓ,&#x12D3;,U+12D3,0x12D3,ETHIOPIC SYLLABLE PHARYNGEAL AA|}$2",
+        ],
+        "description": [
+            "Code: U+12D3",
+            "Character/Symbol: ዓ",
+            "Name: ETHIOPIC SYLLABLE PHARYNGEAL AA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዔ U+12D4 ETHIOPIC SYLLABLE PHARYNGEAL EE": 
+    {
+        "prefix": [
+            "..U.12D4",
+            "..U.ETHIOPIC SYLLABLE PHARYNGEAL EE",
+            "U+12D4",
+        ],
+        "body": [
+            "${1|ዔ,&#x12D4;,U+12D4,0x12D4,ETHIOPIC SYLLABLE PHARYNGEAL EE|}$2",
+        ],
+        "description": [
+            "Code: U+12D4",
+            "Character/Symbol: ዔ",
+            "Name: ETHIOPIC SYLLABLE PHARYNGEAL EE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዕ U+12D5 ETHIOPIC SYLLABLE PHARYNGEAL E": 
+    {
+        "prefix": [
+            "..U.12D5",
+            "..U.ETHIOPIC SYLLABLE PHARYNGEAL E",
+            "U+12D5",
+        ],
+        "body": [
+            "${1|ዕ,&#x12D5;,U+12D5,0x12D5,ETHIOPIC SYLLABLE PHARYNGEAL E|}$2",
+        ],
+        "description": [
+            "Code: U+12D5",
+            "Character/Symbol: ዕ",
+            "Name: ETHIOPIC SYLLABLE PHARYNGEAL E",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዖ U+12D6 ETHIOPIC SYLLABLE PHARYNGEAL O": 
+    {
+        "prefix": [
+            "..U.12D6",
+            "..U.ETHIOPIC SYLLABLE PHARYNGEAL O",
+            "U+12D6",
+        ],
+        "body": [
+            "${1|ዖ,&#x12D6;,U+12D6,0x12D6,ETHIOPIC SYLLABLE PHARYNGEAL O|}$2",
+        ],
+        "description": [
+            "Code: U+12D6",
+            "Character/Symbol: ዖ",
+            "Name: ETHIOPIC SYLLABLE PHARYNGEAL O",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዘ U+12D8 ETHIOPIC SYLLABLE ZA": 
+    {
+        "prefix": [
+            "..U.12D8",
+            "..U.ETHIOPIC SYLLABLE ZA",
+            "U+12D8",
+        ],
+        "body": [
+            "${1|ዘ,&#x12D8;,U+12D8,0x12D8,ETHIOPIC SYLLABLE ZA|}$2",
+        ],
+        "description": [
+            "Code: U+12D8",
+            "Character/Symbol: ዘ",
+            "Name: ETHIOPIC SYLLABLE ZA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዙ U+12D9 ETHIOPIC SYLLABLE ZU": 
+    {
+        "prefix": [
+            "..U.12D9",
+            "..U.ETHIOPIC SYLLABLE ZU",
+            "U+12D9",
+        ],
+        "body": [
+            "${1|ዙ,&#x12D9;,U+12D9,0x12D9,ETHIOPIC SYLLABLE ZU|}$2",
+        ],
+        "description": [
+            "Code: U+12D9",
+            "Character/Symbol: ዙ",
+            "Name: ETHIOPIC SYLLABLE ZU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዚ U+12DA ETHIOPIC SYLLABLE ZI": 
+    {
+        "prefix": [
+            "..U.12DA",
+            "..U.ETHIOPIC SYLLABLE ZI",
+            "U+12DA",
+        ],
+        "body": [
+            "${1|ዚ,&#x12DA;,U+12DA,0x12DA,ETHIOPIC SYLLABLE ZI|}$2",
+        ],
+        "description": [
+            "Code: U+12DA",
+            "Character/Symbol: ዚ",
+            "Name: ETHIOPIC SYLLABLE ZI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዛ U+12DB ETHIOPIC SYLLABLE ZAA": 
+    {
+        "prefix": [
+            "..U.12DB",
+            "..U.ETHIOPIC SYLLABLE ZAA",
+            "U+12DB",
+        ],
+        "body": [
+            "${1|ዛ,&#x12DB;,U+12DB,0x12DB,ETHIOPIC SYLLABLE ZAA|}$2",
+        ],
+        "description": [
+            "Code: U+12DB",
+            "Character/Symbol: ዛ",
+            "Name: ETHIOPIC SYLLABLE ZAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዜ U+12DC ETHIOPIC SYLLABLE ZEE": 
+    {
+        "prefix": [
+            "..U.12DC",
+            "..U.ETHIOPIC SYLLABLE ZEE",
+            "U+12DC",
+        ],
+        "body": [
+            "${1|ዜ,&#x12DC;,U+12DC,0x12DC,ETHIOPIC SYLLABLE ZEE|}$2",
+        ],
+        "description": [
+            "Code: U+12DC",
+            "Character/Symbol: ዜ",
+            "Name: ETHIOPIC SYLLABLE ZEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዝ U+12DD ETHIOPIC SYLLABLE ZE": 
+    {
+        "prefix": [
+            "..U.12DD",
+            "..U.ETHIOPIC SYLLABLE ZE",
+            "U+12DD",
+        ],
+        "body": [
+            "${1|ዝ,&#x12DD;,U+12DD,0x12DD,ETHIOPIC SYLLABLE ZE|}$2",
+        ],
+        "description": [
+            "Code: U+12DD",
+            "Character/Symbol: ዝ",
+            "Name: ETHIOPIC SYLLABLE ZE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዞ U+12DE ETHIOPIC SYLLABLE ZO": 
+    {
+        "prefix": [
+            "..U.12DE",
+            "..U.ETHIOPIC SYLLABLE ZO",
+            "U+12DE",
+        ],
+        "body": [
+            "${1|ዞ,&#x12DE;,U+12DE,0x12DE,ETHIOPIC SYLLABLE ZO|}$2",
+        ],
+        "description": [
+            "Code: U+12DE",
+            "Character/Symbol: ዞ",
+            "Name: ETHIOPIC SYLLABLE ZO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዟ U+12DF ETHIOPIC SYLLABLE ZWA": 
+    {
+        "prefix": [
+            "..U.12DF",
+            "..U.ETHIOPIC SYLLABLE ZWA",
+            "U+12DF",
+        ],
+        "body": [
+            "${1|ዟ,&#x12DF;,U+12DF,0x12DF,ETHIOPIC SYLLABLE ZWA|}$2",
+        ],
+        "description": [
+            "Code: U+12DF",
+            "Character/Symbol: ዟ",
+            "Name: ETHIOPIC SYLLABLE ZWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዠ U+12E0 ETHIOPIC SYLLABLE ZHA": 
+    {
+        "prefix": [
+            "..U.12E0",
+            "..U.ETHIOPIC SYLLABLE ZHA",
+            "U+12E0",
+        ],
+        "body": [
+            "${1|ዠ,&#x12E0;,U+12E0,0x12E0,ETHIOPIC SYLLABLE ZHA|}$2",
+        ],
+        "description": [
+            "Code: U+12E0",
+            "Character/Symbol: ዠ",
+            "Name: ETHIOPIC SYLLABLE ZHA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዡ U+12E1 ETHIOPIC SYLLABLE ZHU": 
+    {
+        "prefix": [
+            "..U.12E1",
+            "..U.ETHIOPIC SYLLABLE ZHU",
+            "U+12E1",
+        ],
+        "body": [
+            "${1|ዡ,&#x12E1;,U+12E1,0x12E1,ETHIOPIC SYLLABLE ZHU|}$2",
+        ],
+        "description": [
+            "Code: U+12E1",
+            "Character/Symbol: ዡ",
+            "Name: ETHIOPIC SYLLABLE ZHU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዢ U+12E2 ETHIOPIC SYLLABLE ZHI": 
+    {
+        "prefix": [
+            "..U.12E2",
+            "..U.ETHIOPIC SYLLABLE ZHI",
+            "U+12E2",
+        ],
+        "body": [
+            "${1|ዢ,&#x12E2;,U+12E2,0x12E2,ETHIOPIC SYLLABLE ZHI|}$2",
+        ],
+        "description": [
+            "Code: U+12E2",
+            "Character/Symbol: ዢ",
+            "Name: ETHIOPIC SYLLABLE ZHI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዣ U+12E3 ETHIOPIC SYLLABLE ZHAA": 
+    {
+        "prefix": [
+            "..U.12E3",
+            "..U.ETHIOPIC SYLLABLE ZHAA",
+            "U+12E3",
+        ],
+        "body": [
+            "${1|ዣ,&#x12E3;,U+12E3,0x12E3,ETHIOPIC SYLLABLE ZHAA|}$2",
+        ],
+        "description": [
+            "Code: U+12E3",
+            "Character/Symbol: ዣ",
+            "Name: ETHIOPIC SYLLABLE ZHAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዤ U+12E4 ETHIOPIC SYLLABLE ZHEE": 
+    {
+        "prefix": [
+            "..U.12E4",
+            "..U.ETHIOPIC SYLLABLE ZHEE",
+            "U+12E4",
+        ],
+        "body": [
+            "${1|ዤ,&#x12E4;,U+12E4,0x12E4,ETHIOPIC SYLLABLE ZHEE|}$2",
+        ],
+        "description": [
+            "Code: U+12E4",
+            "Character/Symbol: ዤ",
+            "Name: ETHIOPIC SYLLABLE ZHEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዥ U+12E5 ETHIOPIC SYLLABLE ZHE": 
+    {
+        "prefix": [
+            "..U.12E5",
+            "..U.ETHIOPIC SYLLABLE ZHE",
+            "U+12E5",
+        ],
+        "body": [
+            "${1|ዥ,&#x12E5;,U+12E5,0x12E5,ETHIOPIC SYLLABLE ZHE|}$2",
+        ],
+        "description": [
+            "Code: U+12E5",
+            "Character/Symbol: ዥ",
+            "Name: ETHIOPIC SYLLABLE ZHE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዦ U+12E6 ETHIOPIC SYLLABLE ZHO": 
+    {
+        "prefix": [
+            "..U.12E6",
+            "..U.ETHIOPIC SYLLABLE ZHO",
+            "U+12E6",
+        ],
+        "body": [
+            "${1|ዦ,&#x12E6;,U+12E6,0x12E6,ETHIOPIC SYLLABLE ZHO|}$2",
+        ],
+        "description": [
+            "Code: U+12E6",
+            "Character/Symbol: ዦ",
+            "Name: ETHIOPIC SYLLABLE ZHO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዧ U+12E7 ETHIOPIC SYLLABLE ZHWA": 
+    {
+        "prefix": [
+            "..U.12E7",
+            "..U.ETHIOPIC SYLLABLE ZHWA",
+            "U+12E7",
+        ],
+        "body": [
+            "${1|ዧ,&#x12E7;,U+12E7,0x12E7,ETHIOPIC SYLLABLE ZHWA|}$2",
+        ],
+        "description": [
+            "Code: U+12E7",
+            "Character/Symbol: ዧ",
+            "Name: ETHIOPIC SYLLABLE ZHWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode የ U+12E8 ETHIOPIC SYLLABLE YA": 
+    {
+        "prefix": [
+            "..U.12E8",
+            "..U.ETHIOPIC SYLLABLE YA",
+            "U+12E8",
+        ],
+        "body": [
+            "${1|የ,&#x12E8;,U+12E8,0x12E8,ETHIOPIC SYLLABLE YA|}$2",
+        ],
+        "description": [
+            "Code: U+12E8",
+            "Character/Symbol: የ",
+            "Name: ETHIOPIC SYLLABLE YA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዩ U+12E9 ETHIOPIC SYLLABLE YU": 
+    {
+        "prefix": [
+            "..U.12E9",
+            "..U.ETHIOPIC SYLLABLE YU",
+            "U+12E9",
+        ],
+        "body": [
+            "${1|ዩ,&#x12E9;,U+12E9,0x12E9,ETHIOPIC SYLLABLE YU|}$2",
+        ],
+        "description": [
+            "Code: U+12E9",
+            "Character/Symbol: ዩ",
+            "Name: ETHIOPIC SYLLABLE YU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዪ U+12EA ETHIOPIC SYLLABLE YI": 
+    {
+        "prefix": [
+            "..U.12EA",
+            "..U.ETHIOPIC SYLLABLE YI",
+            "U+12EA",
+        ],
+        "body": [
+            "${1|ዪ,&#x12EA;,U+12EA,0x12EA,ETHIOPIC SYLLABLE YI|}$2",
+        ],
+        "description": [
+            "Code: U+12EA",
+            "Character/Symbol: ዪ",
+            "Name: ETHIOPIC SYLLABLE YI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ያ U+12EB ETHIOPIC SYLLABLE YAA": 
+    {
+        "prefix": [
+            "..U.12EB",
+            "..U.ETHIOPIC SYLLABLE YAA",
+            "U+12EB",
+        ],
+        "body": [
+            "${1|ያ,&#x12EB;,U+12EB,0x12EB,ETHIOPIC SYLLABLE YAA|}$2",
+        ],
+        "description": [
+            "Code: U+12EB",
+            "Character/Symbol: ያ",
+            "Name: ETHIOPIC SYLLABLE YAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዬ U+12EC ETHIOPIC SYLLABLE YEE": 
+    {
+        "prefix": [
+            "..U.12EC",
+            "..U.ETHIOPIC SYLLABLE YEE",
+            "U+12EC",
+        ],
+        "body": [
+            "${1|ዬ,&#x12EC;,U+12EC,0x12EC,ETHIOPIC SYLLABLE YEE|}$2",
+        ],
+        "description": [
+            "Code: U+12EC",
+            "Character/Symbol: ዬ",
+            "Name: ETHIOPIC SYLLABLE YEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ይ U+12ED ETHIOPIC SYLLABLE YE": 
+    {
+        "prefix": [
+            "..U.12ED",
+            "..U.ETHIOPIC SYLLABLE YE",
+            "U+12ED",
+        ],
+        "body": [
+            "${1|ይ,&#x12ED;,U+12ED,0x12ED,ETHIOPIC SYLLABLE YE|}$2",
+        ],
+        "description": [
+            "Code: U+12ED",
+            "Character/Symbol: ይ",
+            "Name: ETHIOPIC SYLLABLE YE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዮ U+12EE ETHIOPIC SYLLABLE YO": 
+    {
+        "prefix": [
+            "..U.12EE",
+            "..U.ETHIOPIC SYLLABLE YO",
+            "U+12EE",
+        ],
+        "body": [
+            "${1|ዮ,&#x12EE;,U+12EE,0x12EE,ETHIOPIC SYLLABLE YO|}$2",
+        ],
+        "description": [
+            "Code: U+12EE",
+            "Character/Symbol: ዮ",
+            "Name: ETHIOPIC SYLLABLE YO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዯ U+12EF ETHIOPIC SYLLABLE YOA": 
+    {
+        "prefix": [
+            "..U.12EF",
+            "..U.ETHIOPIC SYLLABLE YOA",
+            "U+12EF",
+        ],
+        "body": [
+            "${1|ዯ,&#x12EF;,U+12EF,0x12EF,ETHIOPIC SYLLABLE YOA|}$2",
+        ],
+        "description": [
+            "Code: U+12EF",
+            "Character/Symbol: ዯ",
+            "Name: ETHIOPIC SYLLABLE YOA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ደ U+12F0 ETHIOPIC SYLLABLE DA": 
+    {
+        "prefix": [
+            "..U.12F0",
+            "..U.ETHIOPIC SYLLABLE DA",
+            "U+12F0",
+        ],
+        "body": [
+            "${1|ደ,&#x12F0;,U+12F0,0x12F0,ETHIOPIC SYLLABLE DA|}$2",
+        ],
+        "description": [
+            "Code: U+12F0",
+            "Character/Symbol: ደ",
+            "Name: ETHIOPIC SYLLABLE DA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዱ U+12F1 ETHIOPIC SYLLABLE DU": 
+    {
+        "prefix": [
+            "..U.12F1",
+            "..U.ETHIOPIC SYLLABLE DU",
+            "U+12F1",
+        ],
+        "body": [
+            "${1|ዱ,&#x12F1;,U+12F1,0x12F1,ETHIOPIC SYLLABLE DU|}$2",
+        ],
+        "description": [
+            "Code: U+12F1",
+            "Character/Symbol: ዱ",
+            "Name: ETHIOPIC SYLLABLE DU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዲ U+12F2 ETHIOPIC SYLLABLE DI": 
+    {
+        "prefix": [
+            "..U.12F2",
+            "..U.ETHIOPIC SYLLABLE DI",
+            "U+12F2",
+        ],
+        "body": [
+            "${1|ዲ,&#x12F2;,U+12F2,0x12F2,ETHIOPIC SYLLABLE DI|}$2",
+        ],
+        "description": [
+            "Code: U+12F2",
+            "Character/Symbol: ዲ",
+            "Name: ETHIOPIC SYLLABLE DI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዳ U+12F3 ETHIOPIC SYLLABLE DAA": 
+    {
+        "prefix": [
+            "..U.12F3",
+            "..U.ETHIOPIC SYLLABLE DAA",
+            "U+12F3",
+        ],
+        "body": [
+            "${1|ዳ,&#x12F3;,U+12F3,0x12F3,ETHIOPIC SYLLABLE DAA|}$2",
+        ],
+        "description": [
+            "Code: U+12F3",
+            "Character/Symbol: ዳ",
+            "Name: ETHIOPIC SYLLABLE DAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዴ U+12F4 ETHIOPIC SYLLABLE DEE": 
+    {
+        "prefix": [
+            "..U.12F4",
+            "..U.ETHIOPIC SYLLABLE DEE",
+            "U+12F4",
+        ],
+        "body": [
+            "${1|ዴ,&#x12F4;,U+12F4,0x12F4,ETHIOPIC SYLLABLE DEE|}$2",
+        ],
+        "description": [
+            "Code: U+12F4",
+            "Character/Symbol: ዴ",
+            "Name: ETHIOPIC SYLLABLE DEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ድ U+12F5 ETHIOPIC SYLLABLE DE": 
+    {
+        "prefix": [
+            "..U.12F5",
+            "..U.ETHIOPIC SYLLABLE DE",
+            "U+12F5",
+        ],
+        "body": [
+            "${1|ድ,&#x12F5;,U+12F5,0x12F5,ETHIOPIC SYLLABLE DE|}$2",
+        ],
+        "description": [
+            "Code: U+12F5",
+            "Character/Symbol: ድ",
+            "Name: ETHIOPIC SYLLABLE DE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዶ U+12F6 ETHIOPIC SYLLABLE DO": 
+    {
+        "prefix": [
+            "..U.12F6",
+            "..U.ETHIOPIC SYLLABLE DO",
+            "U+12F6",
+        ],
+        "body": [
+            "${1|ዶ,&#x12F6;,U+12F6,0x12F6,ETHIOPIC SYLLABLE DO|}$2",
+        ],
+        "description": [
+            "Code: U+12F6",
+            "Character/Symbol: ዶ",
+            "Name: ETHIOPIC SYLLABLE DO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዷ U+12F7 ETHIOPIC SYLLABLE DWA": 
+    {
+        "prefix": [
+            "..U.12F7",
+            "..U.ETHIOPIC SYLLABLE DWA",
+            "U+12F7",
+        ],
+        "body": [
+            "${1|ዷ,&#x12F7;,U+12F7,0x12F7,ETHIOPIC SYLLABLE DWA|}$2",
+        ],
+        "description": [
+            "Code: U+12F7",
+            "Character/Symbol: ዷ",
+            "Name: ETHIOPIC SYLLABLE DWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዸ U+12F8 ETHIOPIC SYLLABLE DDA": 
+    {
+        "prefix": [
+            "..U.12F8",
+            "..U.ETHIOPIC SYLLABLE DDA",
+            "U+12F8",
+        ],
+        "body": [
+            "${1|ዸ,&#x12F8;,U+12F8,0x12F8,ETHIOPIC SYLLABLE DDA|}$2",
+        ],
+        "description": [
+            "Code: U+12F8",
+            "Character/Symbol: ዸ",
+            "Name: ETHIOPIC SYLLABLE DDA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዹ U+12F9 ETHIOPIC SYLLABLE DDU": 
+    {
+        "prefix": [
+            "..U.12F9",
+            "..U.ETHIOPIC SYLLABLE DDU",
+            "U+12F9",
+        ],
+        "body": [
+            "${1|ዹ,&#x12F9;,U+12F9,0x12F9,ETHIOPIC SYLLABLE DDU|}$2",
+        ],
+        "description": [
+            "Code: U+12F9",
+            "Character/Symbol: ዹ",
+            "Name: ETHIOPIC SYLLABLE DDU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዺ U+12FA ETHIOPIC SYLLABLE DDI": 
+    {
+        "prefix": [
+            "..U.12FA",
+            "..U.ETHIOPIC SYLLABLE DDI",
+            "U+12FA",
+        ],
+        "body": [
+            "${1|ዺ,&#x12FA;,U+12FA,0x12FA,ETHIOPIC SYLLABLE DDI|}$2",
+        ],
+        "description": [
+            "Code: U+12FA",
+            "Character/Symbol: ዺ",
+            "Name: ETHIOPIC SYLLABLE DDI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዻ U+12FB ETHIOPIC SYLLABLE DDAA": 
+    {
+        "prefix": [
+            "..U.12FB",
+            "..U.ETHIOPIC SYLLABLE DDAA",
+            "U+12FB",
+        ],
+        "body": [
+            "${1|ዻ,&#x12FB;,U+12FB,0x12FB,ETHIOPIC SYLLABLE DDAA|}$2",
+        ],
+        "description": [
+            "Code: U+12FB",
+            "Character/Symbol: ዻ",
+            "Name: ETHIOPIC SYLLABLE DDAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዼ U+12FC ETHIOPIC SYLLABLE DDEE": 
+    {
+        "prefix": [
+            "..U.12FC",
+            "..U.ETHIOPIC SYLLABLE DDEE",
+            "U+12FC",
+        ],
+        "body": [
+            "${1|ዼ,&#x12FC;,U+12FC,0x12FC,ETHIOPIC SYLLABLE DDEE|}$2",
+        ],
+        "description": [
+            "Code: U+12FC",
+            "Character/Symbol: ዼ",
+            "Name: ETHIOPIC SYLLABLE DDEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዽ U+12FD ETHIOPIC SYLLABLE DDE": 
+    {
+        "prefix": [
+            "..U.12FD",
+            "..U.ETHIOPIC SYLLABLE DDE",
+            "U+12FD",
+        ],
+        "body": [
+            "${1|ዽ,&#x12FD;,U+12FD,0x12FD,ETHIOPIC SYLLABLE DDE|}$2",
+        ],
+        "description": [
+            "Code: U+12FD",
+            "Character/Symbol: ዽ",
+            "Name: ETHIOPIC SYLLABLE DDE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዾ U+12FE ETHIOPIC SYLLABLE DDO": 
+    {
+        "prefix": [
+            "..U.12FE",
+            "..U.ETHIOPIC SYLLABLE DDO",
+            "U+12FE",
+        ],
+        "body": [
+            "${1|ዾ,&#x12FE;,U+12FE,0x12FE,ETHIOPIC SYLLABLE DDO|}$2",
+        ],
+        "description": [
+            "Code: U+12FE",
+            "Character/Symbol: ዾ",
+            "Name: ETHIOPIC SYLLABLE DDO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ዿ U+12FF ETHIOPIC SYLLABLE DDWA": 
+    {
+        "prefix": [
+            "..U.12FF",
+            "..U.ETHIOPIC SYLLABLE DDWA",
+            "U+12FF",
+        ],
+        "body": [
+            "${1|ዿ,&#x12FF;,U+12FF,0x12FF,ETHIOPIC SYLLABLE DDWA|}$2",
+        ],
+        "description": [
+            "Code: U+12FF",
+            "Character/Symbol: ዿ",
+            "Name: ETHIOPIC SYLLABLE DDWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጀ U+1300 ETHIOPIC SYLLABLE JA": 
+    {
+        "prefix": [
+            "..U.1300",
+            "..U.ETHIOPIC SYLLABLE JA",
+            "U+1300",
+        ],
+        "body": [
+            "${1|ጀ,&#x1300;,U+1300,0x1300,ETHIOPIC SYLLABLE JA|}$2",
+        ],
+        "description": [
+            "Code: U+1300",
+            "Character/Symbol: ጀ",
+            "Name: ETHIOPIC SYLLABLE JA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጁ U+1301 ETHIOPIC SYLLABLE JU": 
+    {
+        "prefix": [
+            "..U.1301",
+            "..U.ETHIOPIC SYLLABLE JU",
+            "U+1301",
+        ],
+        "body": [
+            "${1|ጁ,&#x1301;,U+1301,0x1301,ETHIOPIC SYLLABLE JU|}$2",
+        ],
+        "description": [
+            "Code: U+1301",
+            "Character/Symbol: ጁ",
+            "Name: ETHIOPIC SYLLABLE JU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጂ U+1302 ETHIOPIC SYLLABLE JI": 
+    {
+        "prefix": [
+            "..U.1302",
+            "..U.ETHIOPIC SYLLABLE JI",
+            "U+1302",
+        ],
+        "body": [
+            "${1|ጂ,&#x1302;,U+1302,0x1302,ETHIOPIC SYLLABLE JI|}$2",
+        ],
+        "description": [
+            "Code: U+1302",
+            "Character/Symbol: ጂ",
+            "Name: ETHIOPIC SYLLABLE JI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጃ U+1303 ETHIOPIC SYLLABLE JAA": 
+    {
+        "prefix": [
+            "..U.1303",
+            "..U.ETHIOPIC SYLLABLE JAA",
+            "U+1303",
+        ],
+        "body": [
+            "${1|ጃ,&#x1303;,U+1303,0x1303,ETHIOPIC SYLLABLE JAA|}$2",
+        ],
+        "description": [
+            "Code: U+1303",
+            "Character/Symbol: ጃ",
+            "Name: ETHIOPIC SYLLABLE JAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጄ U+1304 ETHIOPIC SYLLABLE JEE": 
+    {
+        "prefix": [
+            "..U.1304",
+            "..U.ETHIOPIC SYLLABLE JEE",
+            "U+1304",
+        ],
+        "body": [
+            "${1|ጄ,&#x1304;,U+1304,0x1304,ETHIOPIC SYLLABLE JEE|}$2",
+        ],
+        "description": [
+            "Code: U+1304",
+            "Character/Symbol: ጄ",
+            "Name: ETHIOPIC SYLLABLE JEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጅ U+1305 ETHIOPIC SYLLABLE JE": 
+    {
+        "prefix": [
+            "..U.1305",
+            "..U.ETHIOPIC SYLLABLE JE",
+            "U+1305",
+        ],
+        "body": [
+            "${1|ጅ,&#x1305;,U+1305,0x1305,ETHIOPIC SYLLABLE JE|}$2",
+        ],
+        "description": [
+            "Code: U+1305",
+            "Character/Symbol: ጅ",
+            "Name: ETHIOPIC SYLLABLE JE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጆ U+1306 ETHIOPIC SYLLABLE JO": 
+    {
+        "prefix": [
+            "..U.1306",
+            "..U.ETHIOPIC SYLLABLE JO",
+            "U+1306",
+        ],
+        "body": [
+            "${1|ጆ,&#x1306;,U+1306,0x1306,ETHIOPIC SYLLABLE JO|}$2",
+        ],
+        "description": [
+            "Code: U+1306",
+            "Character/Symbol: ጆ",
+            "Name: ETHIOPIC SYLLABLE JO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጇ U+1307 ETHIOPIC SYLLABLE JWA": 
+    {
+        "prefix": [
+            "..U.1307",
+            "..U.ETHIOPIC SYLLABLE JWA",
+            "U+1307",
+        ],
+        "body": [
+            "${1|ጇ,&#x1307;,U+1307,0x1307,ETHIOPIC SYLLABLE JWA|}$2",
+        ],
+        "description": [
+            "Code: U+1307",
+            "Character/Symbol: ጇ",
+            "Name: ETHIOPIC SYLLABLE JWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ገ U+1308 ETHIOPIC SYLLABLE GA": 
+    {
+        "prefix": [
+            "..U.1308",
+            "..U.ETHIOPIC SYLLABLE GA",
+            "U+1308",
+        ],
+        "body": [
+            "${1|ገ,&#x1308;,U+1308,0x1308,ETHIOPIC SYLLABLE GA|}$2",
+        ],
+        "description": [
+            "Code: U+1308",
+            "Character/Symbol: ገ",
+            "Name: ETHIOPIC SYLLABLE GA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጉ U+1309 ETHIOPIC SYLLABLE GU": 
+    {
+        "prefix": [
+            "..U.1309",
+            "..U.ETHIOPIC SYLLABLE GU",
+            "U+1309",
+        ],
+        "body": [
+            "${1|ጉ,&#x1309;,U+1309,0x1309,ETHIOPIC SYLLABLE GU|}$2",
+        ],
+        "description": [
+            "Code: U+1309",
+            "Character/Symbol: ጉ",
+            "Name: ETHIOPIC SYLLABLE GU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጊ U+130A ETHIOPIC SYLLABLE GI": 
+    {
+        "prefix": [
+            "..U.130A",
+            "..U.ETHIOPIC SYLLABLE GI",
+            "U+130A",
+        ],
+        "body": [
+            "${1|ጊ,&#x130A;,U+130A,0x130A,ETHIOPIC SYLLABLE GI|}$2",
+        ],
+        "description": [
+            "Code: U+130A",
+            "Character/Symbol: ጊ",
+            "Name: ETHIOPIC SYLLABLE GI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጋ U+130B ETHIOPIC SYLLABLE GAA": 
+    {
+        "prefix": [
+            "..U.130B",
+            "..U.ETHIOPIC SYLLABLE GAA",
+            "U+130B",
+        ],
+        "body": [
+            "${1|ጋ,&#x130B;,U+130B,0x130B,ETHIOPIC SYLLABLE GAA|}$2",
+        ],
+        "description": [
+            "Code: U+130B",
+            "Character/Symbol: ጋ",
+            "Name: ETHIOPIC SYLLABLE GAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጌ U+130C ETHIOPIC SYLLABLE GEE": 
+    {
+        "prefix": [
+            "..U.130C",
+            "..U.ETHIOPIC SYLLABLE GEE",
+            "U+130C",
+        ],
+        "body": [
+            "${1|ጌ,&#x130C;,U+130C,0x130C,ETHIOPIC SYLLABLE GEE|}$2",
+        ],
+        "description": [
+            "Code: U+130C",
+            "Character/Symbol: ጌ",
+            "Name: ETHIOPIC SYLLABLE GEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ግ U+130D ETHIOPIC SYLLABLE GE": 
+    {
+        "prefix": [
+            "..U.130D",
+            "..U.ETHIOPIC SYLLABLE GE",
+            "U+130D",
+        ],
+        "body": [
+            "${1|ግ,&#x130D;,U+130D,0x130D,ETHIOPIC SYLLABLE GE|}$2",
+        ],
+        "description": [
+            "Code: U+130D",
+            "Character/Symbol: ግ",
+            "Name: ETHIOPIC SYLLABLE GE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጎ U+130E ETHIOPIC SYLLABLE GO": 
+    {
+        "prefix": [
+            "..U.130E",
+            "..U.ETHIOPIC SYLLABLE GO",
+            "U+130E",
+        ],
+        "body": [
+            "${1|ጎ,&#x130E;,U+130E,0x130E,ETHIOPIC SYLLABLE GO|}$2",
+        ],
+        "description": [
+            "Code: U+130E",
+            "Character/Symbol: ጎ",
+            "Name: ETHIOPIC SYLLABLE GO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጏ U+130F ETHIOPIC SYLLABLE GOA": 
+    {
+        "prefix": [
+            "..U.130F",
+            "..U.ETHIOPIC SYLLABLE GOA",
+            "U+130F",
+        ],
+        "body": [
+            "${1|ጏ,&#x130F;,U+130F,0x130F,ETHIOPIC SYLLABLE GOA|}$2",
+        ],
+        "description": [
+            "Code: U+130F",
+            "Character/Symbol: ጏ",
+            "Name: ETHIOPIC SYLLABLE GOA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጐ U+1310 ETHIOPIC SYLLABLE GWA": 
+    {
+        "prefix": [
+            "..U.1310",
+            "..U.ETHIOPIC SYLLABLE GWA",
+            "U+1310",
+        ],
+        "body": [
+            "${1|ጐ,&#x1310;,U+1310,0x1310,ETHIOPIC SYLLABLE GWA|}$2",
+        ],
+        "description": [
+            "Code: U+1310",
+            "Character/Symbol: ጐ",
+            "Name: ETHIOPIC SYLLABLE GWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጒ U+1312 ETHIOPIC SYLLABLE GWI": 
+    {
+        "prefix": [
+            "..U.1312",
+            "..U.ETHIOPIC SYLLABLE GWI",
+            "U+1312",
+        ],
+        "body": [
+            "${1|ጒ,&#x1312;,U+1312,0x1312,ETHIOPIC SYLLABLE GWI|}$2",
+        ],
+        "description": [
+            "Code: U+1312",
+            "Character/Symbol: ጒ",
+            "Name: ETHIOPIC SYLLABLE GWI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጓ U+1313 ETHIOPIC SYLLABLE GWAA": 
+    {
+        "prefix": [
+            "..U.1313",
+            "..U.ETHIOPIC SYLLABLE GWAA",
+            "U+1313",
+        ],
+        "body": [
+            "${1|ጓ,&#x1313;,U+1313,0x1313,ETHIOPIC SYLLABLE GWAA|}$2",
+        ],
+        "description": [
+            "Code: U+1313",
+            "Character/Symbol: ጓ",
+            "Name: ETHIOPIC SYLLABLE GWAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጔ U+1314 ETHIOPIC SYLLABLE GWEE": 
+    {
+        "prefix": [
+            "..U.1314",
+            "..U.ETHIOPIC SYLLABLE GWEE",
+            "U+1314",
+        ],
+        "body": [
+            "${1|ጔ,&#x1314;,U+1314,0x1314,ETHIOPIC SYLLABLE GWEE|}$2",
+        ],
+        "description": [
+            "Code: U+1314",
+            "Character/Symbol: ጔ",
+            "Name: ETHIOPIC SYLLABLE GWEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጕ U+1315 ETHIOPIC SYLLABLE GWE": 
+    {
+        "prefix": [
+            "..U.1315",
+            "..U.ETHIOPIC SYLLABLE GWE",
+            "U+1315",
+        ],
+        "body": [
+            "${1|ጕ,&#x1315;,U+1315,0x1315,ETHIOPIC SYLLABLE GWE|}$2",
+        ],
+        "description": [
+            "Code: U+1315",
+            "Character/Symbol: ጕ",
+            "Name: ETHIOPIC SYLLABLE GWE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጘ U+1318 ETHIOPIC SYLLABLE GGA": 
+    {
+        "prefix": [
+            "..U.1318",
+            "..U.ETHIOPIC SYLLABLE GGA",
+            "U+1318",
+        ],
+        "body": [
+            "${1|ጘ,&#x1318;,U+1318,0x1318,ETHIOPIC SYLLABLE GGA|}$2",
+        ],
+        "description": [
+            "Code: U+1318",
+            "Character/Symbol: ጘ",
+            "Name: ETHIOPIC SYLLABLE GGA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጙ U+1319 ETHIOPIC SYLLABLE GGU": 
+    {
+        "prefix": [
+            "..U.1319",
+            "..U.ETHIOPIC SYLLABLE GGU",
+            "U+1319",
+        ],
+        "body": [
+            "${1|ጙ,&#x1319;,U+1319,0x1319,ETHIOPIC SYLLABLE GGU|}$2",
+        ],
+        "description": [
+            "Code: U+1319",
+            "Character/Symbol: ጙ",
+            "Name: ETHIOPIC SYLLABLE GGU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጚ U+131A ETHIOPIC SYLLABLE GGI": 
+    {
+        "prefix": [
+            "..U.131A",
+            "..U.ETHIOPIC SYLLABLE GGI",
+            "U+131A",
+        ],
+        "body": [
+            "${1|ጚ,&#x131A;,U+131A,0x131A,ETHIOPIC SYLLABLE GGI|}$2",
+        ],
+        "description": [
+            "Code: U+131A",
+            "Character/Symbol: ጚ",
+            "Name: ETHIOPIC SYLLABLE GGI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጛ U+131B ETHIOPIC SYLLABLE GGAA": 
+    {
+        "prefix": [
+            "..U.131B",
+            "..U.ETHIOPIC SYLLABLE GGAA",
+            "U+131B",
+        ],
+        "body": [
+            "${1|ጛ,&#x131B;,U+131B,0x131B,ETHIOPIC SYLLABLE GGAA|}$2",
+        ],
+        "description": [
+            "Code: U+131B",
+            "Character/Symbol: ጛ",
+            "Name: ETHIOPIC SYLLABLE GGAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጜ U+131C ETHIOPIC SYLLABLE GGEE": 
+    {
+        "prefix": [
+            "..U.131C",
+            "..U.ETHIOPIC SYLLABLE GGEE",
+            "U+131C",
+        ],
+        "body": [
+            "${1|ጜ,&#x131C;,U+131C,0x131C,ETHIOPIC SYLLABLE GGEE|}$2",
+        ],
+        "description": [
+            "Code: U+131C",
+            "Character/Symbol: ጜ",
+            "Name: ETHIOPIC SYLLABLE GGEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጝ U+131D ETHIOPIC SYLLABLE GGE": 
+    {
+        "prefix": [
+            "..U.131D",
+            "..U.ETHIOPIC SYLLABLE GGE",
+            "U+131D",
+        ],
+        "body": [
+            "${1|ጝ,&#x131D;,U+131D,0x131D,ETHIOPIC SYLLABLE GGE|}$2",
+        ],
+        "description": [
+            "Code: U+131D",
+            "Character/Symbol: ጝ",
+            "Name: ETHIOPIC SYLLABLE GGE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጞ U+131E ETHIOPIC SYLLABLE GGO": 
+    {
+        "prefix": [
+            "..U.131E",
+            "..U.ETHIOPIC SYLLABLE GGO",
+            "U+131E",
+        ],
+        "body": [
+            "${1|ጞ,&#x131E;,U+131E,0x131E,ETHIOPIC SYLLABLE GGO|}$2",
+        ],
+        "description": [
+            "Code: U+131E",
+            "Character/Symbol: ጞ",
+            "Name: ETHIOPIC SYLLABLE GGO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጟ U+131F ETHIOPIC SYLLABLE GGWAA": 
+    {
+        "prefix": [
+            "..U.131F",
+            "..U.ETHIOPIC SYLLABLE GGWAA",
+            "U+131F",
+        ],
+        "body": [
+            "${1|ጟ,&#x131F;,U+131F,0x131F,ETHIOPIC SYLLABLE GGWAA|}$2",
+        ],
+        "description": [
+            "Code: U+131F",
+            "Character/Symbol: ጟ",
+            "Name: ETHIOPIC SYLLABLE GGWAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጠ U+1320 ETHIOPIC SYLLABLE THA": 
+    {
+        "prefix": [
+            "..U.1320",
+            "..U.ETHIOPIC SYLLABLE THA",
+            "U+1320",
+        ],
+        "body": [
+            "${1|ጠ,&#x1320;,U+1320,0x1320,ETHIOPIC SYLLABLE THA|}$2",
+        ],
+        "description": [
+            "Code: U+1320",
+            "Character/Symbol: ጠ",
+            "Name: ETHIOPIC SYLLABLE THA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጡ U+1321 ETHIOPIC SYLLABLE THU": 
+    {
+        "prefix": [
+            "..U.1321",
+            "..U.ETHIOPIC SYLLABLE THU",
+            "U+1321",
+        ],
+        "body": [
+            "${1|ጡ,&#x1321;,U+1321,0x1321,ETHIOPIC SYLLABLE THU|}$2",
+        ],
+        "description": [
+            "Code: U+1321",
+            "Character/Symbol: ጡ",
+            "Name: ETHIOPIC SYLLABLE THU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጢ U+1322 ETHIOPIC SYLLABLE THI": 
+    {
+        "prefix": [
+            "..U.1322",
+            "..U.ETHIOPIC SYLLABLE THI",
+            "U+1322",
+        ],
+        "body": [
+            "${1|ጢ,&#x1322;,U+1322,0x1322,ETHIOPIC SYLLABLE THI|}$2",
+        ],
+        "description": [
+            "Code: U+1322",
+            "Character/Symbol: ጢ",
+            "Name: ETHIOPIC SYLLABLE THI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጣ U+1323 ETHIOPIC SYLLABLE THAA": 
+    {
+        "prefix": [
+            "..U.1323",
+            "..U.ETHIOPIC SYLLABLE THAA",
+            "U+1323",
+        ],
+        "body": [
+            "${1|ጣ,&#x1323;,U+1323,0x1323,ETHIOPIC SYLLABLE THAA|}$2",
+        ],
+        "description": [
+            "Code: U+1323",
+            "Character/Symbol: ጣ",
+            "Name: ETHIOPIC SYLLABLE THAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጤ U+1324 ETHIOPIC SYLLABLE THEE": 
+    {
+        "prefix": [
+            "..U.1324",
+            "..U.ETHIOPIC SYLLABLE THEE",
+            "U+1324",
+        ],
+        "body": [
+            "${1|ጤ,&#x1324;,U+1324,0x1324,ETHIOPIC SYLLABLE THEE|}$2",
+        ],
+        "description": [
+            "Code: U+1324",
+            "Character/Symbol: ጤ",
+            "Name: ETHIOPIC SYLLABLE THEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጥ U+1325 ETHIOPIC SYLLABLE THE": 
+    {
+        "prefix": [
+            "..U.1325",
+            "..U.ETHIOPIC SYLLABLE THE",
+            "U+1325",
+        ],
+        "body": [
+            "${1|ጥ,&#x1325;,U+1325,0x1325,ETHIOPIC SYLLABLE THE|}$2",
+        ],
+        "description": [
+            "Code: U+1325",
+            "Character/Symbol: ጥ",
+            "Name: ETHIOPIC SYLLABLE THE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጦ U+1326 ETHIOPIC SYLLABLE THO": 
+    {
+        "prefix": [
+            "..U.1326",
+            "..U.ETHIOPIC SYLLABLE THO",
+            "U+1326",
+        ],
+        "body": [
+            "${1|ጦ,&#x1326;,U+1326,0x1326,ETHIOPIC SYLLABLE THO|}$2",
+        ],
+        "description": [
+            "Code: U+1326",
+            "Character/Symbol: ጦ",
+            "Name: ETHIOPIC SYLLABLE THO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጧ U+1327 ETHIOPIC SYLLABLE THWA": 
+    {
+        "prefix": [
+            "..U.1327",
+            "..U.ETHIOPIC SYLLABLE THWA",
+            "U+1327",
+        ],
+        "body": [
+            "${1|ጧ,&#x1327;,U+1327,0x1327,ETHIOPIC SYLLABLE THWA|}$2",
+        ],
+        "description": [
+            "Code: U+1327",
+            "Character/Symbol: ጧ",
+            "Name: ETHIOPIC SYLLABLE THWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጨ U+1328 ETHIOPIC SYLLABLE CHA": 
+    {
+        "prefix": [
+            "..U.1328",
+            "..U.ETHIOPIC SYLLABLE CHA",
+            "U+1328",
+        ],
+        "body": [
+            "${1|ጨ,&#x1328;,U+1328,0x1328,ETHIOPIC SYLLABLE CHA|}$2",
+        ],
+        "description": [
+            "Code: U+1328",
+            "Character/Symbol: ጨ",
+            "Name: ETHIOPIC SYLLABLE CHA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጩ U+1329 ETHIOPIC SYLLABLE CHU": 
+    {
+        "prefix": [
+            "..U.1329",
+            "..U.ETHIOPIC SYLLABLE CHU",
+            "U+1329",
+        ],
+        "body": [
+            "${1|ጩ,&#x1329;,U+1329,0x1329,ETHIOPIC SYLLABLE CHU|}$2",
+        ],
+        "description": [
+            "Code: U+1329",
+            "Character/Symbol: ጩ",
+            "Name: ETHIOPIC SYLLABLE CHU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጪ U+132A ETHIOPIC SYLLABLE CHI": 
+    {
+        "prefix": [
+            "..U.132A",
+            "..U.ETHIOPIC SYLLABLE CHI",
+            "U+132A",
+        ],
+        "body": [
+            "${1|ጪ,&#x132A;,U+132A,0x132A,ETHIOPIC SYLLABLE CHI|}$2",
+        ],
+        "description": [
+            "Code: U+132A",
+            "Character/Symbol: ጪ",
+            "Name: ETHIOPIC SYLLABLE CHI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጫ U+132B ETHIOPIC SYLLABLE CHAA": 
+    {
+        "prefix": [
+            "..U.132B",
+            "..U.ETHIOPIC SYLLABLE CHAA",
+            "U+132B",
+        ],
+        "body": [
+            "${1|ጫ,&#x132B;,U+132B,0x132B,ETHIOPIC SYLLABLE CHAA|}$2",
+        ],
+        "description": [
+            "Code: U+132B",
+            "Character/Symbol: ጫ",
+            "Name: ETHIOPIC SYLLABLE CHAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጬ U+132C ETHIOPIC SYLLABLE CHEE": 
+    {
+        "prefix": [
+            "..U.132C",
+            "..U.ETHIOPIC SYLLABLE CHEE",
+            "U+132C",
+        ],
+        "body": [
+            "${1|ጬ,&#x132C;,U+132C,0x132C,ETHIOPIC SYLLABLE CHEE|}$2",
+        ],
+        "description": [
+            "Code: U+132C",
+            "Character/Symbol: ጬ",
+            "Name: ETHIOPIC SYLLABLE CHEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጭ U+132D ETHIOPIC SYLLABLE CHE": 
+    {
+        "prefix": [
+            "..U.132D",
+            "..U.ETHIOPIC SYLLABLE CHE",
+            "U+132D",
+        ],
+        "body": [
+            "${1|ጭ,&#x132D;,U+132D,0x132D,ETHIOPIC SYLLABLE CHE|}$2",
+        ],
+        "description": [
+            "Code: U+132D",
+            "Character/Symbol: ጭ",
+            "Name: ETHIOPIC SYLLABLE CHE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጮ U+132E ETHIOPIC SYLLABLE CHO": 
+    {
+        "prefix": [
+            "..U.132E",
+            "..U.ETHIOPIC SYLLABLE CHO",
+            "U+132E",
+        ],
+        "body": [
+            "${1|ጮ,&#x132E;,U+132E,0x132E,ETHIOPIC SYLLABLE CHO|}$2",
+        ],
+        "description": [
+            "Code: U+132E",
+            "Character/Symbol: ጮ",
+            "Name: ETHIOPIC SYLLABLE CHO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጯ U+132F ETHIOPIC SYLLABLE CHWA": 
+    {
+        "prefix": [
+            "..U.132F",
+            "..U.ETHIOPIC SYLLABLE CHWA",
+            "U+132F",
+        ],
+        "body": [
+            "${1|ጯ,&#x132F;,U+132F,0x132F,ETHIOPIC SYLLABLE CHWA|}$2",
+        ],
+        "description": [
+            "Code: U+132F",
+            "Character/Symbol: ጯ",
+            "Name: ETHIOPIC SYLLABLE CHWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጰ U+1330 ETHIOPIC SYLLABLE PHA": 
+    {
+        "prefix": [
+            "..U.1330",
+            "..U.ETHIOPIC SYLLABLE PHA",
+            "U+1330",
+        ],
+        "body": [
+            "${1|ጰ,&#x1330;,U+1330,0x1330,ETHIOPIC SYLLABLE PHA|}$2",
+        ],
+        "description": [
+            "Code: U+1330",
+            "Character/Symbol: ጰ",
+            "Name: ETHIOPIC SYLLABLE PHA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጱ U+1331 ETHIOPIC SYLLABLE PHU": 
+    {
+        "prefix": [
+            "..U.1331",
+            "..U.ETHIOPIC SYLLABLE PHU",
+            "U+1331",
+        ],
+        "body": [
+            "${1|ጱ,&#x1331;,U+1331,0x1331,ETHIOPIC SYLLABLE PHU|}$2",
+        ],
+        "description": [
+            "Code: U+1331",
+            "Character/Symbol: ጱ",
+            "Name: ETHIOPIC SYLLABLE PHU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጲ U+1332 ETHIOPIC SYLLABLE PHI": 
+    {
+        "prefix": [
+            "..U.1332",
+            "..U.ETHIOPIC SYLLABLE PHI",
+            "U+1332",
+        ],
+        "body": [
+            "${1|ጲ,&#x1332;,U+1332,0x1332,ETHIOPIC SYLLABLE PHI|}$2",
+        ],
+        "description": [
+            "Code: U+1332",
+            "Character/Symbol: ጲ",
+            "Name: ETHIOPIC SYLLABLE PHI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጳ U+1333 ETHIOPIC SYLLABLE PHAA": 
+    {
+        "prefix": [
+            "..U.1333",
+            "..U.ETHIOPIC SYLLABLE PHAA",
+            "U+1333",
+        ],
+        "body": [
+            "${1|ጳ,&#x1333;,U+1333,0x1333,ETHIOPIC SYLLABLE PHAA|}$2",
+        ],
+        "description": [
+            "Code: U+1333",
+            "Character/Symbol: ጳ",
+            "Name: ETHIOPIC SYLLABLE PHAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጴ U+1334 ETHIOPIC SYLLABLE PHEE": 
+    {
+        "prefix": [
+            "..U.1334",
+            "..U.ETHIOPIC SYLLABLE PHEE",
+            "U+1334",
+        ],
+        "body": [
+            "${1|ጴ,&#x1334;,U+1334,0x1334,ETHIOPIC SYLLABLE PHEE|}$2",
+        ],
+        "description": [
+            "Code: U+1334",
+            "Character/Symbol: ጴ",
+            "Name: ETHIOPIC SYLLABLE PHEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጵ U+1335 ETHIOPIC SYLLABLE PHE": 
+    {
+        "prefix": [
+            "..U.1335",
+            "..U.ETHIOPIC SYLLABLE PHE",
+            "U+1335",
+        ],
+        "body": [
+            "${1|ጵ,&#x1335;,U+1335,0x1335,ETHIOPIC SYLLABLE PHE|}$2",
+        ],
+        "description": [
+            "Code: U+1335",
+            "Character/Symbol: ጵ",
+            "Name: ETHIOPIC SYLLABLE PHE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጶ U+1336 ETHIOPIC SYLLABLE PHO": 
+    {
+        "prefix": [
+            "..U.1336",
+            "..U.ETHIOPIC SYLLABLE PHO",
+            "U+1336",
+        ],
+        "body": [
+            "${1|ጶ,&#x1336;,U+1336,0x1336,ETHIOPIC SYLLABLE PHO|}$2",
+        ],
+        "description": [
+            "Code: U+1336",
+            "Character/Symbol: ጶ",
+            "Name: ETHIOPIC SYLLABLE PHO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጷ U+1337 ETHIOPIC SYLLABLE PHWA": 
+    {
+        "prefix": [
+            "..U.1337",
+            "..U.ETHIOPIC SYLLABLE PHWA",
+            "U+1337",
+        ],
+        "body": [
+            "${1|ጷ,&#x1337;,U+1337,0x1337,ETHIOPIC SYLLABLE PHWA|}$2",
+        ],
+        "description": [
+            "Code: U+1337",
+            "Character/Symbol: ጷ",
+            "Name: ETHIOPIC SYLLABLE PHWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጸ U+1338 ETHIOPIC SYLLABLE TSA": 
+    {
+        "prefix": [
+            "..U.1338",
+            "..U.ETHIOPIC SYLLABLE TSA",
+            "U+1338",
+        ],
+        "body": [
+            "${1|ጸ,&#x1338;,U+1338,0x1338,ETHIOPIC SYLLABLE TSA|}$2",
+        ],
+        "description": [
+            "Code: U+1338",
+            "Character/Symbol: ጸ",
+            "Name: ETHIOPIC SYLLABLE TSA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጹ U+1339 ETHIOPIC SYLLABLE TSU": 
+    {
+        "prefix": [
+            "..U.1339",
+            "..U.ETHIOPIC SYLLABLE TSU",
+            "U+1339",
+        ],
+        "body": [
+            "${1|ጹ,&#x1339;,U+1339,0x1339,ETHIOPIC SYLLABLE TSU|}$2",
+        ],
+        "description": [
+            "Code: U+1339",
+            "Character/Symbol: ጹ",
+            "Name: ETHIOPIC SYLLABLE TSU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጺ U+133A ETHIOPIC SYLLABLE TSI": 
+    {
+        "prefix": [
+            "..U.133A",
+            "..U.ETHIOPIC SYLLABLE TSI",
+            "U+133A",
+        ],
+        "body": [
+            "${1|ጺ,&#x133A;,U+133A,0x133A,ETHIOPIC SYLLABLE TSI|}$2",
+        ],
+        "description": [
+            "Code: U+133A",
+            "Character/Symbol: ጺ",
+            "Name: ETHIOPIC SYLLABLE TSI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጻ U+133B ETHIOPIC SYLLABLE TSAA": 
+    {
+        "prefix": [
+            "..U.133B",
+            "..U.ETHIOPIC SYLLABLE TSAA",
+            "U+133B",
+        ],
+        "body": [
+            "${1|ጻ,&#x133B;,U+133B,0x133B,ETHIOPIC SYLLABLE TSAA|}$2",
+        ],
+        "description": [
+            "Code: U+133B",
+            "Character/Symbol: ጻ",
+            "Name: ETHIOPIC SYLLABLE TSAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጼ U+133C ETHIOPIC SYLLABLE TSEE": 
+    {
+        "prefix": [
+            "..U.133C",
+            "..U.ETHIOPIC SYLLABLE TSEE",
+            "U+133C",
+        ],
+        "body": [
+            "${1|ጼ,&#x133C;,U+133C,0x133C,ETHIOPIC SYLLABLE TSEE|}$2",
+        ],
+        "description": [
+            "Code: U+133C",
+            "Character/Symbol: ጼ",
+            "Name: ETHIOPIC SYLLABLE TSEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጽ U+133D ETHIOPIC SYLLABLE TSE": 
+    {
+        "prefix": [
+            "..U.133D",
+            "..U.ETHIOPIC SYLLABLE TSE",
+            "U+133D",
+        ],
+        "body": [
+            "${1|ጽ,&#x133D;,U+133D,0x133D,ETHIOPIC SYLLABLE TSE|}$2",
+        ],
+        "description": [
+            "Code: U+133D",
+            "Character/Symbol: ጽ",
+            "Name: ETHIOPIC SYLLABLE TSE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጾ U+133E ETHIOPIC SYLLABLE TSO": 
+    {
+        "prefix": [
+            "..U.133E",
+            "..U.ETHIOPIC SYLLABLE TSO",
+            "U+133E",
+        ],
+        "body": [
+            "${1|ጾ,&#x133E;,U+133E,0x133E,ETHIOPIC SYLLABLE TSO|}$2",
+        ],
+        "description": [
+            "Code: U+133E",
+            "Character/Symbol: ጾ",
+            "Name: ETHIOPIC SYLLABLE TSO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ጿ U+133F ETHIOPIC SYLLABLE TSWA": 
+    {
+        "prefix": [
+            "..U.133F",
+            "..U.ETHIOPIC SYLLABLE TSWA",
+            "U+133F",
+        ],
+        "body": [
+            "${1|ጿ,&#x133F;,U+133F,0x133F,ETHIOPIC SYLLABLE TSWA|}$2",
+        ],
+        "description": [
+            "Code: U+133F",
+            "Character/Symbol: ጿ",
+            "Name: ETHIOPIC SYLLABLE TSWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፀ U+1340 ETHIOPIC SYLLABLE TZA": 
+    {
+        "prefix": [
+            "..U.1340",
+            "..U.ETHIOPIC SYLLABLE TZA",
+            "U+1340",
+        ],
+        "body": [
+            "${1|ፀ,&#x1340;,U+1340,0x1340,ETHIOPIC SYLLABLE TZA|}$2",
+        ],
+        "description": [
+            "Code: U+1340",
+            "Character/Symbol: ፀ",
+            "Name: ETHIOPIC SYLLABLE TZA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፁ U+1341 ETHIOPIC SYLLABLE TZU": 
+    {
+        "prefix": [
+            "..U.1341",
+            "..U.ETHIOPIC SYLLABLE TZU",
+            "U+1341",
+        ],
+        "body": [
+            "${1|ፁ,&#x1341;,U+1341,0x1341,ETHIOPIC SYLLABLE TZU|}$2",
+        ],
+        "description": [
+            "Code: U+1341",
+            "Character/Symbol: ፁ",
+            "Name: ETHIOPIC SYLLABLE TZU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፂ U+1342 ETHIOPIC SYLLABLE TZI": 
+    {
+        "prefix": [
+            "..U.1342",
+            "..U.ETHIOPIC SYLLABLE TZI",
+            "U+1342",
+        ],
+        "body": [
+            "${1|ፂ,&#x1342;,U+1342,0x1342,ETHIOPIC SYLLABLE TZI|}$2",
+        ],
+        "description": [
+            "Code: U+1342",
+            "Character/Symbol: ፂ",
+            "Name: ETHIOPIC SYLLABLE TZI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፃ U+1343 ETHIOPIC SYLLABLE TZAA": 
+    {
+        "prefix": [
+            "..U.1343",
+            "..U.ETHIOPIC SYLLABLE TZAA",
+            "U+1343",
+        ],
+        "body": [
+            "${1|ፃ,&#x1343;,U+1343,0x1343,ETHIOPIC SYLLABLE TZAA|}$2",
+        ],
+        "description": [
+            "Code: U+1343",
+            "Character/Symbol: ፃ",
+            "Name: ETHIOPIC SYLLABLE TZAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፄ U+1344 ETHIOPIC SYLLABLE TZEE": 
+    {
+        "prefix": [
+            "..U.1344",
+            "..U.ETHIOPIC SYLLABLE TZEE",
+            "U+1344",
+        ],
+        "body": [
+            "${1|ፄ,&#x1344;,U+1344,0x1344,ETHIOPIC SYLLABLE TZEE|}$2",
+        ],
+        "description": [
+            "Code: U+1344",
+            "Character/Symbol: ፄ",
+            "Name: ETHIOPIC SYLLABLE TZEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፅ U+1345 ETHIOPIC SYLLABLE TZE": 
+    {
+        "prefix": [
+            "..U.1345",
+            "..U.ETHIOPIC SYLLABLE TZE",
+            "U+1345",
+        ],
+        "body": [
+            "${1|ፅ,&#x1345;,U+1345,0x1345,ETHIOPIC SYLLABLE TZE|}$2",
+        ],
+        "description": [
+            "Code: U+1345",
+            "Character/Symbol: ፅ",
+            "Name: ETHIOPIC SYLLABLE TZE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፆ U+1346 ETHIOPIC SYLLABLE TZO": 
+    {
+        "prefix": [
+            "..U.1346",
+            "..U.ETHIOPIC SYLLABLE TZO",
+            "U+1346",
+        ],
+        "body": [
+            "${1|ፆ,&#x1346;,U+1346,0x1346,ETHIOPIC SYLLABLE TZO|}$2",
+        ],
+        "description": [
+            "Code: U+1346",
+            "Character/Symbol: ፆ",
+            "Name: ETHIOPIC SYLLABLE TZO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፇ U+1347 ETHIOPIC SYLLABLE TZOA": 
+    {
+        "prefix": [
+            "..U.1347",
+            "..U.ETHIOPIC SYLLABLE TZOA",
+            "U+1347",
+        ],
+        "body": [
+            "${1|ፇ,&#x1347;,U+1347,0x1347,ETHIOPIC SYLLABLE TZOA|}$2",
+        ],
+        "description": [
+            "Code: U+1347",
+            "Character/Symbol: ፇ",
+            "Name: ETHIOPIC SYLLABLE TZOA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፈ U+1348 ETHIOPIC SYLLABLE FA": 
+    {
+        "prefix": [
+            "..U.1348",
+            "..U.ETHIOPIC SYLLABLE FA",
+            "U+1348",
+        ],
+        "body": [
+            "${1|ፈ,&#x1348;,U+1348,0x1348,ETHIOPIC SYLLABLE FA|}$2",
+        ],
+        "description": [
+            "Code: U+1348",
+            "Character/Symbol: ፈ",
+            "Name: ETHIOPIC SYLLABLE FA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፉ U+1349 ETHIOPIC SYLLABLE FU": 
+    {
+        "prefix": [
+            "..U.1349",
+            "..U.ETHIOPIC SYLLABLE FU",
+            "U+1349",
+        ],
+        "body": [
+            "${1|ፉ,&#x1349;,U+1349,0x1349,ETHIOPIC SYLLABLE FU|}$2",
+        ],
+        "description": [
+            "Code: U+1349",
+            "Character/Symbol: ፉ",
+            "Name: ETHIOPIC SYLLABLE FU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፊ U+134A ETHIOPIC SYLLABLE FI": 
+    {
+        "prefix": [
+            "..U.134A",
+            "..U.ETHIOPIC SYLLABLE FI",
+            "U+134A",
+        ],
+        "body": [
+            "${1|ፊ,&#x134A;,U+134A,0x134A,ETHIOPIC SYLLABLE FI|}$2",
+        ],
+        "description": [
+            "Code: U+134A",
+            "Character/Symbol: ፊ",
+            "Name: ETHIOPIC SYLLABLE FI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፋ U+134B ETHIOPIC SYLLABLE FAA": 
+    {
+        "prefix": [
+            "..U.134B",
+            "..U.ETHIOPIC SYLLABLE FAA",
+            "U+134B",
+        ],
+        "body": [
+            "${1|ፋ,&#x134B;,U+134B,0x134B,ETHIOPIC SYLLABLE FAA|}$2",
+        ],
+        "description": [
+            "Code: U+134B",
+            "Character/Symbol: ፋ",
+            "Name: ETHIOPIC SYLLABLE FAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፌ U+134C ETHIOPIC SYLLABLE FEE": 
+    {
+        "prefix": [
+            "..U.134C",
+            "..U.ETHIOPIC SYLLABLE FEE",
+            "U+134C",
+        ],
+        "body": [
+            "${1|ፌ,&#x134C;,U+134C,0x134C,ETHIOPIC SYLLABLE FEE|}$2",
+        ],
+        "description": [
+            "Code: U+134C",
+            "Character/Symbol: ፌ",
+            "Name: ETHIOPIC SYLLABLE FEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፍ U+134D ETHIOPIC SYLLABLE FE": 
+    {
+        "prefix": [
+            "..U.134D",
+            "..U.ETHIOPIC SYLLABLE FE",
+            "U+134D",
+        ],
+        "body": [
+            "${1|ፍ,&#x134D;,U+134D,0x134D,ETHIOPIC SYLLABLE FE|}$2",
+        ],
+        "description": [
+            "Code: U+134D",
+            "Character/Symbol: ፍ",
+            "Name: ETHIOPIC SYLLABLE FE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፎ U+134E ETHIOPIC SYLLABLE FO": 
+    {
+        "prefix": [
+            "..U.134E",
+            "..U.ETHIOPIC SYLLABLE FO",
+            "U+134E",
+        ],
+        "body": [
+            "${1|ፎ,&#x134E;,U+134E,0x134E,ETHIOPIC SYLLABLE FO|}$2",
+        ],
+        "description": [
+            "Code: U+134E",
+            "Character/Symbol: ፎ",
+            "Name: ETHIOPIC SYLLABLE FO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፏ U+134F ETHIOPIC SYLLABLE FWA": 
+    {
+        "prefix": [
+            "..U.134F",
+            "..U.ETHIOPIC SYLLABLE FWA",
+            "U+134F",
+        ],
+        "body": [
+            "${1|ፏ,&#x134F;,U+134F,0x134F,ETHIOPIC SYLLABLE FWA|}$2",
+        ],
+        "description": [
+            "Code: U+134F",
+            "Character/Symbol: ፏ",
+            "Name: ETHIOPIC SYLLABLE FWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፐ U+1350 ETHIOPIC SYLLABLE PA": 
+    {
+        "prefix": [
+            "..U.1350",
+            "..U.ETHIOPIC SYLLABLE PA",
+            "U+1350",
+        ],
+        "body": [
+            "${1|ፐ,&#x1350;,U+1350,0x1350,ETHIOPIC SYLLABLE PA|}$2",
+        ],
+        "description": [
+            "Code: U+1350",
+            "Character/Symbol: ፐ",
+            "Name: ETHIOPIC SYLLABLE PA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፑ U+1351 ETHIOPIC SYLLABLE PU": 
+    {
+        "prefix": [
+            "..U.1351",
+            "..U.ETHIOPIC SYLLABLE PU",
+            "U+1351",
+        ],
+        "body": [
+            "${1|ፑ,&#x1351;,U+1351,0x1351,ETHIOPIC SYLLABLE PU|}$2",
+        ],
+        "description": [
+            "Code: U+1351",
+            "Character/Symbol: ፑ",
+            "Name: ETHIOPIC SYLLABLE PU",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፒ U+1352 ETHIOPIC SYLLABLE PI": 
+    {
+        "prefix": [
+            "..U.1352",
+            "..U.ETHIOPIC SYLLABLE PI",
+            "U+1352",
+        ],
+        "body": [
+            "${1|ፒ,&#x1352;,U+1352,0x1352,ETHIOPIC SYLLABLE PI|}$2",
+        ],
+        "description": [
+            "Code: U+1352",
+            "Character/Symbol: ፒ",
+            "Name: ETHIOPIC SYLLABLE PI",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፓ U+1353 ETHIOPIC SYLLABLE PAA": 
+    {
+        "prefix": [
+            "..U.1353",
+            "..U.ETHIOPIC SYLLABLE PAA",
+            "U+1353",
+        ],
+        "body": [
+            "${1|ፓ,&#x1353;,U+1353,0x1353,ETHIOPIC SYLLABLE PAA|}$2",
+        ],
+        "description": [
+            "Code: U+1353",
+            "Character/Symbol: ፓ",
+            "Name: ETHIOPIC SYLLABLE PAA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፔ U+1354 ETHIOPIC SYLLABLE PEE": 
+    {
+        "prefix": [
+            "..U.1354",
+            "..U.ETHIOPIC SYLLABLE PEE",
+            "U+1354",
+        ],
+        "body": [
+            "${1|ፔ,&#x1354;,U+1354,0x1354,ETHIOPIC SYLLABLE PEE|}$2",
+        ],
+        "description": [
+            "Code: U+1354",
+            "Character/Symbol: ፔ",
+            "Name: ETHIOPIC SYLLABLE PEE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፕ U+1355 ETHIOPIC SYLLABLE PE": 
+    {
+        "prefix": [
+            "..U.1355",
+            "..U.ETHIOPIC SYLLABLE PE",
+            "U+1355",
+        ],
+        "body": [
+            "${1|ፕ,&#x1355;,U+1355,0x1355,ETHIOPIC SYLLABLE PE|}$2",
+        ],
+        "description": [
+            "Code: U+1355",
+            "Character/Symbol: ፕ",
+            "Name: ETHIOPIC SYLLABLE PE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፖ U+1356 ETHIOPIC SYLLABLE PO": 
+    {
+        "prefix": [
+            "..U.1356",
+            "..U.ETHIOPIC SYLLABLE PO",
+            "U+1356",
+        ],
+        "body": [
+            "${1|ፖ,&#x1356;,U+1356,0x1356,ETHIOPIC SYLLABLE PO|}$2",
+        ],
+        "description": [
+            "Code: U+1356",
+            "Character/Symbol: ፖ",
+            "Name: ETHIOPIC SYLLABLE PO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፗ U+1357 ETHIOPIC SYLLABLE PWA": 
+    {
+        "prefix": [
+            "..U.1357",
+            "..U.ETHIOPIC SYLLABLE PWA",
+            "U+1357",
+        ],
+        "body": [
+            "${1|ፗ,&#x1357;,U+1357,0x1357,ETHIOPIC SYLLABLE PWA|}$2",
+        ],
+        "description": [
+            "Code: U+1357",
+            "Character/Symbol: ፗ",
+            "Name: ETHIOPIC SYLLABLE PWA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፘ U+1358 ETHIOPIC SYLLABLE RYA": 
+    {
+        "prefix": [
+            "..U.1358",
+            "..U.ETHIOPIC SYLLABLE RYA",
+            "U+1358",
+        ],
+        "body": [
+            "${1|ፘ,&#x1358;,U+1358,0x1358,ETHIOPIC SYLLABLE RYA|}$2",
+        ],
+        "description": [
+            "Code: U+1358",
+            "Character/Symbol: ፘ",
+            "Name: ETHIOPIC SYLLABLE RYA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፙ U+1359 ETHIOPIC SYLLABLE MYA": 
+    {
+        "prefix": [
+            "..U.1359",
+            "..U.ETHIOPIC SYLLABLE MYA",
+            "U+1359",
+        ],
+        "body": [
+            "${1|ፙ,&#x1359;,U+1359,0x1359,ETHIOPIC SYLLABLE MYA|}$2",
+        ],
+        "description": [
+            "Code: U+1359",
+            "Character/Symbol: ፙ",
+            "Name: ETHIOPIC SYLLABLE MYA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፚ U+135A ETHIOPIC SYLLABLE FYA": 
+    {
+        "prefix": [
+            "..U.135A",
+            "..U.ETHIOPIC SYLLABLE FYA",
+            "U+135A",
+        ],
+        "body": [
+            "${1|ፚ,&#x135A;,U+135A,0x135A,ETHIOPIC SYLLABLE FYA|}$2",
+        ],
+        "description": [
+            "Code: U+135A",
+            "Character/Symbol: ፚ",
+            "Name: ETHIOPIC SYLLABLE FYA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፝ U+135D ETHIOPIC COMBINING GEMINATION AND VOWEL LENGTH MARK": 
+    {
+        "prefix": [
+            "..U.135D",
+            "..U.ETHIOPIC COMBINING GEMINATION AND VOWEL LENGTH MARK",
+            "U+135D",
+        ],
+        "body": [
+            "${1|፝,&#x135D;,U+135D,0x135D,ETHIOPIC COMBINING GEMINATION AND VOWEL LENGTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+135D",
+            "Character/Symbol: ፝",
+            "Name: ETHIOPIC COMBINING GEMINATION AND VOWEL LENGTH MARK",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፞ U+135E ETHIOPIC COMBINING VOWEL LENGTH MARK": 
+    {
+        "prefix": [
+            "..U.135E",
+            "..U.ETHIOPIC COMBINING VOWEL LENGTH MARK",
+            "U+135E",
+        ],
+        "body": [
+            "${1|፞,&#x135E;,U+135E,0x135E,ETHIOPIC COMBINING VOWEL LENGTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+135E",
+            "Character/Symbol: ፞",
+            "Name: ETHIOPIC COMBINING VOWEL LENGTH MARK",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፟ U+135F ETHIOPIC COMBINING GEMINATION MARK": 
+    {
+        "prefix": [
+            "..U.135F",
+            "..U.ETHIOPIC COMBINING GEMINATION MARK",
+            "U+135F",
+        ],
+        "body": [
+            "${1|፟,&#x135F;,U+135F,0x135F,ETHIOPIC COMBINING GEMINATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+135F",
+            "Character/Symbol: ፟",
+            "Name: ETHIOPIC COMBINING GEMINATION MARK",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፠ U+1360 ETHIOPIC SECTION MARK": 
+    {
+        "prefix": [
+            "..U.1360",
+            "..U.ETHIOPIC SECTION MARK",
+            "U+1360",
+        ],
+        "body": [
+            "${1|፠,&#x1360;,U+1360,0x1360,ETHIOPIC SECTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+1360",
+            "Character/Symbol: ፠",
+            "Name: ETHIOPIC SECTION MARK",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፡ U+1361 ETHIOPIC WORDSPACE": 
+    {
+        "prefix": [
+            "..U.1361",
+            "..U.ETHIOPIC WORDSPACE",
+            "U+1361",
+        ],
+        "body": [
+            "${1|፡,&#x1361;,U+1361,0x1361,ETHIOPIC WORDSPACE|}$2",
+        ],
+        "description": [
+            "Code: U+1361",
+            "Character/Symbol: ፡",
+            "Name: ETHIOPIC WORDSPACE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ። U+1362 ETHIOPIC FULL STOP": 
+    {
+        "prefix": [
+            "..U.1362",
+            "..U.ETHIOPIC FULL STOP",
+            "U+1362",
+        ],
+        "body": [
+            "${1|።,&#x1362;,U+1362,0x1362,ETHIOPIC FULL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+1362",
+            "Character/Symbol: ።",
+            "Name: ETHIOPIC FULL STOP",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፣ U+1363 ETHIOPIC COMMA": 
+    {
+        "prefix": [
+            "..U.1363",
+            "..U.ETHIOPIC COMMA",
+            "U+1363",
+        ],
+        "body": [
+            "${1|፣,&#x1363;,U+1363,0x1363,ETHIOPIC COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+1363",
+            "Character/Symbol: ፣",
+            "Name: ETHIOPIC COMMA",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፤ U+1364 ETHIOPIC SEMICOLON": 
+    {
+        "prefix": [
+            "..U.1364",
+            "..U.ETHIOPIC SEMICOLON",
+            "U+1364",
+        ],
+        "body": [
+            "${1|፤,&#x1364;,U+1364,0x1364,ETHIOPIC SEMICOLON|}$2",
+        ],
+        "description": [
+            "Code: U+1364",
+            "Character/Symbol: ፤",
+            "Name: ETHIOPIC SEMICOLON",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፥ U+1365 ETHIOPIC COLON": 
+    {
+        "prefix": [
+            "..U.1365",
+            "..U.ETHIOPIC COLON",
+            "U+1365",
+        ],
+        "body": [
+            "${1|፥,&#x1365;,U+1365,0x1365,ETHIOPIC COLON|}$2",
+        ],
+        "description": [
+            "Code: U+1365",
+            "Character/Symbol: ፥",
+            "Name: ETHIOPIC COLON",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፦ U+1366 ETHIOPIC PREFACE COLON": 
+    {
+        "prefix": [
+            "..U.1366",
+            "..U.ETHIOPIC PREFACE COLON",
+            "U+1366",
+        ],
+        "body": [
+            "${1|፦,&#x1366;,U+1366,0x1366,ETHIOPIC PREFACE COLON|}$2",
+        ],
+        "description": [
+            "Code: U+1366",
+            "Character/Symbol: ፦",
+            "Name: ETHIOPIC PREFACE COLON",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፧ U+1367 ETHIOPIC QUESTION MARK": 
+    {
+        "prefix": [
+            "..U.1367",
+            "..U.ETHIOPIC QUESTION MARK",
+            "U+1367",
+        ],
+        "body": [
+            "${1|፧,&#x1367;,U+1367,0x1367,ETHIOPIC QUESTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+1367",
+            "Character/Symbol: ፧",
+            "Name: ETHIOPIC QUESTION MARK",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፨ U+1368 ETHIOPIC PARAGRAPH SEPARATOR": 
+    {
+        "prefix": [
+            "..U.1368",
+            "..U.ETHIOPIC PARAGRAPH SEPARATOR",
+            "U+1368",
+        ],
+        "body": [
+            "${1|፨,&#x1368;,U+1368,0x1368,ETHIOPIC PARAGRAPH SEPARATOR|}$2",
+        ],
+        "description": [
+            "Code: U+1368",
+            "Character/Symbol: ፨",
+            "Name: ETHIOPIC PARAGRAPH SEPARATOR",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፩ U+1369 ETHIOPIC DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.1369",
+            "..U.ETHIOPIC DIGIT ONE",
+            "U+1369",
+        ],
+        "body": [
+            "${1|፩,&#x1369;,U+1369,0x1369,ETHIOPIC DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+1369",
+            "Character/Symbol: ፩",
+            "Name: ETHIOPIC DIGIT ONE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፪ U+136A ETHIOPIC DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.136A",
+            "..U.ETHIOPIC DIGIT TWO",
+            "U+136A",
+        ],
+        "body": [
+            "${1|፪,&#x136A;,U+136A,0x136A,ETHIOPIC DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+136A",
+            "Character/Symbol: ፪",
+            "Name: ETHIOPIC DIGIT TWO",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፫ U+136B ETHIOPIC DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.136B",
+            "..U.ETHIOPIC DIGIT THREE",
+            "U+136B",
+        ],
+        "body": [
+            "${1|፫,&#x136B;,U+136B,0x136B,ETHIOPIC DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+136B",
+            "Character/Symbol: ፫",
+            "Name: ETHIOPIC DIGIT THREE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፬ U+136C ETHIOPIC DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.136C",
+            "..U.ETHIOPIC DIGIT FOUR",
+            "U+136C",
+        ],
+        "body": [
+            "${1|፬,&#x136C;,U+136C,0x136C,ETHIOPIC DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+136C",
+            "Character/Symbol: ፬",
+            "Name: ETHIOPIC DIGIT FOUR",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፭ U+136D ETHIOPIC DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.136D",
+            "..U.ETHIOPIC DIGIT FIVE",
+            "U+136D",
+        ],
+        "body": [
+            "${1|፭,&#x136D;,U+136D,0x136D,ETHIOPIC DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+136D",
+            "Character/Symbol: ፭",
+            "Name: ETHIOPIC DIGIT FIVE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፮ U+136E ETHIOPIC DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.136E",
+            "..U.ETHIOPIC DIGIT SIX",
+            "U+136E",
+        ],
+        "body": [
+            "${1|፮,&#x136E;,U+136E,0x136E,ETHIOPIC DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+136E",
+            "Character/Symbol: ፮",
+            "Name: ETHIOPIC DIGIT SIX",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፯ U+136F ETHIOPIC DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.136F",
+            "..U.ETHIOPIC DIGIT SEVEN",
+            "U+136F",
+        ],
+        "body": [
+            "${1|፯,&#x136F;,U+136F,0x136F,ETHIOPIC DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+136F",
+            "Character/Symbol: ፯",
+            "Name: ETHIOPIC DIGIT SEVEN",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፰ U+1370 ETHIOPIC DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.1370",
+            "..U.ETHIOPIC DIGIT EIGHT",
+            "U+1370",
+        ],
+        "body": [
+            "${1|፰,&#x1370;,U+1370,0x1370,ETHIOPIC DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+1370",
+            "Character/Symbol: ፰",
+            "Name: ETHIOPIC DIGIT EIGHT",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፱ U+1371 ETHIOPIC DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.1371",
+            "..U.ETHIOPIC DIGIT NINE",
+            "U+1371",
+        ],
+        "body": [
+            "${1|፱,&#x1371;,U+1371,0x1371,ETHIOPIC DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+1371",
+            "Character/Symbol: ፱",
+            "Name: ETHIOPIC DIGIT NINE",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፲ U+1372 ETHIOPIC NUMBER TEN": 
+    {
+        "prefix": [
+            "..U.1372",
+            "..U.ETHIOPIC NUMBER TEN",
+            "U+1372",
+        ],
+        "body": [
+            "${1|፲,&#x1372;,U+1372,0x1372,ETHIOPIC NUMBER TEN|}$2",
+        ],
+        "description": [
+            "Code: U+1372",
+            "Character/Symbol: ፲",
+            "Name: ETHIOPIC NUMBER TEN",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፳ U+1373 ETHIOPIC NUMBER TWENTY": 
+    {
+        "prefix": [
+            "..U.1373",
+            "..U.ETHIOPIC NUMBER TWENTY",
+            "U+1373",
+        ],
+        "body": [
+            "${1|፳,&#x1373;,U+1373,0x1373,ETHIOPIC NUMBER TWENTY|}$2",
+        ],
+        "description": [
+            "Code: U+1373",
+            "Character/Symbol: ፳",
+            "Name: ETHIOPIC NUMBER TWENTY",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፴ U+1374 ETHIOPIC NUMBER THIRTY": 
+    {
+        "prefix": [
+            "..U.1374",
+            "..U.ETHIOPIC NUMBER THIRTY",
+            "U+1374",
+        ],
+        "body": [
+            "${1|፴,&#x1374;,U+1374,0x1374,ETHIOPIC NUMBER THIRTY|}$2",
+        ],
+        "description": [
+            "Code: U+1374",
+            "Character/Symbol: ፴",
+            "Name: ETHIOPIC NUMBER THIRTY",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፵ U+1375 ETHIOPIC NUMBER FORTY": 
+    {
+        "prefix": [
+            "..U.1375",
+            "..U.ETHIOPIC NUMBER FORTY",
+            "U+1375",
+        ],
+        "body": [
+            "${1|፵,&#x1375;,U+1375,0x1375,ETHIOPIC NUMBER FORTY|}$2",
+        ],
+        "description": [
+            "Code: U+1375",
+            "Character/Symbol: ፵",
+            "Name: ETHIOPIC NUMBER FORTY",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፶ U+1376 ETHIOPIC NUMBER FIFTY": 
+    {
+        "prefix": [
+            "..U.1376",
+            "..U.ETHIOPIC NUMBER FIFTY",
+            "U+1376",
+        ],
+        "body": [
+            "${1|፶,&#x1376;,U+1376,0x1376,ETHIOPIC NUMBER FIFTY|}$2",
+        ],
+        "description": [
+            "Code: U+1376",
+            "Character/Symbol: ፶",
+            "Name: ETHIOPIC NUMBER FIFTY",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፷ U+1377 ETHIOPIC NUMBER SIXTY": 
+    {
+        "prefix": [
+            "..U.1377",
+            "..U.ETHIOPIC NUMBER SIXTY",
+            "U+1377",
+        ],
+        "body": [
+            "${1|፷,&#x1377;,U+1377,0x1377,ETHIOPIC NUMBER SIXTY|}$2",
+        ],
+        "description": [
+            "Code: U+1377",
+            "Character/Symbol: ፷",
+            "Name: ETHIOPIC NUMBER SIXTY",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፸ U+1378 ETHIOPIC NUMBER SEVENTY": 
+    {
+        "prefix": [
+            "..U.1378",
+            "..U.ETHIOPIC NUMBER SEVENTY",
+            "U+1378",
+        ],
+        "body": [
+            "${1|፸,&#x1378;,U+1378,0x1378,ETHIOPIC NUMBER SEVENTY|}$2",
+        ],
+        "description": [
+            "Code: U+1378",
+            "Character/Symbol: ፸",
+            "Name: ETHIOPIC NUMBER SEVENTY",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፹ U+1379 ETHIOPIC NUMBER EIGHTY": 
+    {
+        "prefix": [
+            "..U.1379",
+            "..U.ETHIOPIC NUMBER EIGHTY",
+            "U+1379",
+        ],
+        "body": [
+            "${1|፹,&#x1379;,U+1379,0x1379,ETHIOPIC NUMBER EIGHTY|}$2",
+        ],
+        "description": [
+            "Code: U+1379",
+            "Character/Symbol: ፹",
+            "Name: ETHIOPIC NUMBER EIGHTY",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፺ U+137A ETHIOPIC NUMBER NINETY": 
+    {
+        "prefix": [
+            "..U.137A",
+            "..U.ETHIOPIC NUMBER NINETY",
+            "U+137A",
+        ],
+        "body": [
+            "${1|፺,&#x137A;,U+137A,0x137A,ETHIOPIC NUMBER NINETY|}$2",
+        ],
+        "description": [
+            "Code: U+137A",
+            "Character/Symbol: ፺",
+            "Name: ETHIOPIC NUMBER NINETY",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፻ U+137B ETHIOPIC NUMBER HUNDRED": 
+    {
+        "prefix": [
+            "..U.137B",
+            "..U.ETHIOPIC NUMBER HUNDRED",
+            "U+137B",
+        ],
+        "body": [
+            "${1|፻,&#x137B;,U+137B,0x137B,ETHIOPIC NUMBER HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+137B",
+            "Character/Symbol: ፻",
+            "Name: ETHIOPIC NUMBER HUNDRED",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+    "Unicode ፼ U+137C ETHIOPIC NUMBER TEN THOUSAND": 
+    {
+        "prefix": [
+            "..U.137C",
+            "..U.ETHIOPIC NUMBER TEN THOUSAND",
+            "U+137C",
+        ],
+        "body": [
+            "${1|፼,&#x137C;,U+137C,0x137C,ETHIOPIC NUMBER TEN THOUSAND|}$2",
+        ],
+        "description": [
+            "Code: U+137C",
+            "Character/Symbol: ፼",
+            "Name: ETHIOPIC NUMBER TEN THOUSAND",
+            "Group/Block: Ethiopic",
+        ],
+    },
+
+}

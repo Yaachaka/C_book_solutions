@@ -1,0 +1,1442 @@
+{
+    "Unicode ਁ U+0A01 GURMUKHI SIGN ADAK BINDI": 
+    {
+        "prefix": [
+            "..U.0A01",
+            "..U.GURMUKHI SIGN ADAK BINDI",
+            "U+0A01",
+        ],
+        "body": [
+            "${1|ਁ,&#x0A01;,U+0A01,0x0A01,GURMUKHI SIGN ADAK BINDI|}$2",
+        ],
+        "description": [
+            "Code: U+0A01",
+            "Character/Symbol: ਁ",
+            "Name: GURMUKHI SIGN ADAK BINDI",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਂ U+0A02 GURMUKHI SIGN BINDI": 
+    {
+        "prefix": [
+            "..U.0A02",
+            "..U.GURMUKHI SIGN BINDI",
+            "U+0A02",
+        ],
+        "body": [
+            "${1|ਂ,&#x0A02;,U+0A02,0x0A02,GURMUKHI SIGN BINDI|}$2",
+        ],
+        "description": [
+            "Code: U+0A02",
+            "Character/Symbol: ਂ",
+            "Name: GURMUKHI SIGN BINDI",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਃ U+0A03 GURMUKHI SIGN VISARGA": 
+    {
+        "prefix": [
+            "..U.0A03",
+            "..U.GURMUKHI SIGN VISARGA",
+            "U+0A03",
+        ],
+        "body": [
+            "${1|ਃ,&#x0A03;,U+0A03,0x0A03,GURMUKHI SIGN VISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+0A03",
+            "Character/Symbol: ਃ",
+            "Name: GURMUKHI SIGN VISARGA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਅ U+0A05 GURMUKHI LETTER A": 
+    {
+        "prefix": [
+            "..U.0A05",
+            "..U.GURMUKHI LETTER A",
+            "U+0A05",
+        ],
+        "body": [
+            "${1|ਅ,&#x0A05;,U+0A05,0x0A05,GURMUKHI LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+0A05",
+            "Character/Symbol: ਅ",
+            "Name: GURMUKHI LETTER A",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਆ U+0A06 GURMUKHI LETTER AA": 
+    {
+        "prefix": [
+            "..U.0A06",
+            "..U.GURMUKHI LETTER AA",
+            "U+0A06",
+        ],
+        "body": [
+            "${1|ਆ,&#x0A06;,U+0A06,0x0A06,GURMUKHI LETTER AA|}$2",
+        ],
+        "description": [
+            "Code: U+0A06",
+            "Character/Symbol: ਆ",
+            "Name: GURMUKHI LETTER AA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਇ U+0A07 GURMUKHI LETTER I": 
+    {
+        "prefix": [
+            "..U.0A07",
+            "..U.GURMUKHI LETTER I",
+            "U+0A07",
+        ],
+        "body": [
+            "${1|ਇ,&#x0A07;,U+0A07,0x0A07,GURMUKHI LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+0A07",
+            "Character/Symbol: ਇ",
+            "Name: GURMUKHI LETTER I",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਈ U+0A08 GURMUKHI LETTER II": 
+    {
+        "prefix": [
+            "..U.0A08",
+            "..U.GURMUKHI LETTER II",
+            "U+0A08",
+        ],
+        "body": [
+            "${1|ਈ,&#x0A08;,U+0A08,0x0A08,GURMUKHI LETTER II|}$2",
+        ],
+        "description": [
+            "Code: U+0A08",
+            "Character/Symbol: ਈ",
+            "Name: GURMUKHI LETTER II",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਉ U+0A09 GURMUKHI LETTER U": 
+    {
+        "prefix": [
+            "..U.0A09",
+            "..U.GURMUKHI LETTER U",
+            "U+0A09",
+        ],
+        "body": [
+            "${1|ਉ,&#x0A09;,U+0A09,0x0A09,GURMUKHI LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+0A09",
+            "Character/Symbol: ਉ",
+            "Name: GURMUKHI LETTER U",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਊ U+0A0A GURMUKHI LETTER UU": 
+    {
+        "prefix": [
+            "..U.0A0A",
+            "..U.GURMUKHI LETTER UU",
+            "U+0A0A",
+        ],
+        "body": [
+            "${1|ਊ,&#x0A0A;,U+0A0A,0x0A0A,GURMUKHI LETTER UU|}$2",
+        ],
+        "description": [
+            "Code: U+0A0A",
+            "Character/Symbol: ਊ",
+            "Name: GURMUKHI LETTER UU",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਏ U+0A0F GURMUKHI LETTER EE": 
+    {
+        "prefix": [
+            "..U.0A0F",
+            "..U.GURMUKHI LETTER EE",
+            "U+0A0F",
+        ],
+        "body": [
+            "${1|ਏ,&#x0A0F;,U+0A0F,0x0A0F,GURMUKHI LETTER EE|}$2",
+        ],
+        "description": [
+            "Code: U+0A0F",
+            "Character/Symbol: ਏ",
+            "Name: GURMUKHI LETTER EE",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਐ U+0A10 GURMUKHI LETTER AI": 
+    {
+        "prefix": [
+            "..U.0A10",
+            "..U.GURMUKHI LETTER AI",
+            "U+0A10",
+        ],
+        "body": [
+            "${1|ਐ,&#x0A10;,U+0A10,0x0A10,GURMUKHI LETTER AI|}$2",
+        ],
+        "description": [
+            "Code: U+0A10",
+            "Character/Symbol: ਐ",
+            "Name: GURMUKHI LETTER AI",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਓ U+0A13 GURMUKHI LETTER OO": 
+    {
+        "prefix": [
+            "..U.0A13",
+            "..U.GURMUKHI LETTER OO",
+            "U+0A13",
+        ],
+        "body": [
+            "${1|ਓ,&#x0A13;,U+0A13,0x0A13,GURMUKHI LETTER OO|}$2",
+        ],
+        "description": [
+            "Code: U+0A13",
+            "Character/Symbol: ਓ",
+            "Name: GURMUKHI LETTER OO",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਔ U+0A14 GURMUKHI LETTER AU": 
+    {
+        "prefix": [
+            "..U.0A14",
+            "..U.GURMUKHI LETTER AU",
+            "U+0A14",
+        ],
+        "body": [
+            "${1|ਔ,&#x0A14;,U+0A14,0x0A14,GURMUKHI LETTER AU|}$2",
+        ],
+        "description": [
+            "Code: U+0A14",
+            "Character/Symbol: ਔ",
+            "Name: GURMUKHI LETTER AU",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਕ U+0A15 GURMUKHI LETTER KA": 
+    {
+        "prefix": [
+            "..U.0A15",
+            "..U.GURMUKHI LETTER KA",
+            "U+0A15",
+        ],
+        "body": [
+            "${1|ਕ,&#x0A15;,U+0A15,0x0A15,GURMUKHI LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+0A15",
+            "Character/Symbol: ਕ",
+            "Name: GURMUKHI LETTER KA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਖ U+0A16 GURMUKHI LETTER KHA": 
+    {
+        "prefix": [
+            "..U.0A16",
+            "..U.GURMUKHI LETTER KHA",
+            "U+0A16",
+        ],
+        "body": [
+            "${1|ਖ,&#x0A16;,U+0A16,0x0A16,GURMUKHI LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A16",
+            "Character/Symbol: ਖ",
+            "Name: GURMUKHI LETTER KHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਗ U+0A17 GURMUKHI LETTER GA": 
+    {
+        "prefix": [
+            "..U.0A17",
+            "..U.GURMUKHI LETTER GA",
+            "U+0A17",
+        ],
+        "body": [
+            "${1|ਗ,&#x0A17;,U+0A17,0x0A17,GURMUKHI LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+0A17",
+            "Character/Symbol: ਗ",
+            "Name: GURMUKHI LETTER GA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਘ U+0A18 GURMUKHI LETTER GHA": 
+    {
+        "prefix": [
+            "..U.0A18",
+            "..U.GURMUKHI LETTER GHA",
+            "U+0A18",
+        ],
+        "body": [
+            "${1|ਘ,&#x0A18;,U+0A18,0x0A18,GURMUKHI LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A18",
+            "Character/Symbol: ਘ",
+            "Name: GURMUKHI LETTER GHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਙ U+0A19 GURMUKHI LETTER NGA": 
+    {
+        "prefix": [
+            "..U.0A19",
+            "..U.GURMUKHI LETTER NGA",
+            "U+0A19",
+        ],
+        "body": [
+            "${1|ਙ,&#x0A19;,U+0A19,0x0A19,GURMUKHI LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+0A19",
+            "Character/Symbol: ਙ",
+            "Name: GURMUKHI LETTER NGA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਚ U+0A1A GURMUKHI LETTER CA": 
+    {
+        "prefix": [
+            "..U.0A1A",
+            "..U.GURMUKHI LETTER CA",
+            "U+0A1A",
+        ],
+        "body": [
+            "${1|ਚ,&#x0A1A;,U+0A1A,0x0A1A,GURMUKHI LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+0A1A",
+            "Character/Symbol: ਚ",
+            "Name: GURMUKHI LETTER CA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਛ U+0A1B GURMUKHI LETTER CHA": 
+    {
+        "prefix": [
+            "..U.0A1B",
+            "..U.GURMUKHI LETTER CHA",
+            "U+0A1B",
+        ],
+        "body": [
+            "${1|ਛ,&#x0A1B;,U+0A1B,0x0A1B,GURMUKHI LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A1B",
+            "Character/Symbol: ਛ",
+            "Name: GURMUKHI LETTER CHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਜ U+0A1C GURMUKHI LETTER JA": 
+    {
+        "prefix": [
+            "..U.0A1C",
+            "..U.GURMUKHI LETTER JA",
+            "U+0A1C",
+        ],
+        "body": [
+            "${1|ਜ,&#x0A1C;,U+0A1C,0x0A1C,GURMUKHI LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+0A1C",
+            "Character/Symbol: ਜ",
+            "Name: GURMUKHI LETTER JA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਝ U+0A1D GURMUKHI LETTER JHA": 
+    {
+        "prefix": [
+            "..U.0A1D",
+            "..U.GURMUKHI LETTER JHA",
+            "U+0A1D",
+        ],
+        "body": [
+            "${1|ਝ,&#x0A1D;,U+0A1D,0x0A1D,GURMUKHI LETTER JHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A1D",
+            "Character/Symbol: ਝ",
+            "Name: GURMUKHI LETTER JHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਞ U+0A1E GURMUKHI LETTER NYA": 
+    {
+        "prefix": [
+            "..U.0A1E",
+            "..U.GURMUKHI LETTER NYA",
+            "U+0A1E",
+        ],
+        "body": [
+            "${1|ਞ,&#x0A1E;,U+0A1E,0x0A1E,GURMUKHI LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+0A1E",
+            "Character/Symbol: ਞ",
+            "Name: GURMUKHI LETTER NYA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਟ U+0A1F GURMUKHI LETTER TTA": 
+    {
+        "prefix": [
+            "..U.0A1F",
+            "..U.GURMUKHI LETTER TTA",
+            "U+0A1F",
+        ],
+        "body": [
+            "${1|ਟ,&#x0A1F;,U+0A1F,0x0A1F,GURMUKHI LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+0A1F",
+            "Character/Symbol: ਟ",
+            "Name: GURMUKHI LETTER TTA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਠ U+0A20 GURMUKHI LETTER TTHA": 
+    {
+        "prefix": [
+            "..U.0A20",
+            "..U.GURMUKHI LETTER TTHA",
+            "U+0A20",
+        ],
+        "body": [
+            "${1|ਠ,&#x0A20;,U+0A20,0x0A20,GURMUKHI LETTER TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A20",
+            "Character/Symbol: ਠ",
+            "Name: GURMUKHI LETTER TTHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਡ U+0A21 GURMUKHI LETTER DDA": 
+    {
+        "prefix": [
+            "..U.0A21",
+            "..U.GURMUKHI LETTER DDA",
+            "U+0A21",
+        ],
+        "body": [
+            "${1|ਡ,&#x0A21;,U+0A21,0x0A21,GURMUKHI LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+0A21",
+            "Character/Symbol: ਡ",
+            "Name: GURMUKHI LETTER DDA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਢ U+0A22 GURMUKHI LETTER DDHA": 
+    {
+        "prefix": [
+            "..U.0A22",
+            "..U.GURMUKHI LETTER DDHA",
+            "U+0A22",
+        ],
+        "body": [
+            "${1|ਢ,&#x0A22;,U+0A22,0x0A22,GURMUKHI LETTER DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A22",
+            "Character/Symbol: ਢ",
+            "Name: GURMUKHI LETTER DDHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਣ U+0A23 GURMUKHI LETTER NNA": 
+    {
+        "prefix": [
+            "..U.0A23",
+            "..U.GURMUKHI LETTER NNA",
+            "U+0A23",
+        ],
+        "body": [
+            "${1|ਣ,&#x0A23;,U+0A23,0x0A23,GURMUKHI LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+0A23",
+            "Character/Symbol: ਣ",
+            "Name: GURMUKHI LETTER NNA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਤ U+0A24 GURMUKHI LETTER TA": 
+    {
+        "prefix": [
+            "..U.0A24",
+            "..U.GURMUKHI LETTER TA",
+            "U+0A24",
+        ],
+        "body": [
+            "${1|ਤ,&#x0A24;,U+0A24,0x0A24,GURMUKHI LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+0A24",
+            "Character/Symbol: ਤ",
+            "Name: GURMUKHI LETTER TA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਥ U+0A25 GURMUKHI LETTER THA": 
+    {
+        "prefix": [
+            "..U.0A25",
+            "..U.GURMUKHI LETTER THA",
+            "U+0A25",
+        ],
+        "body": [
+            "${1|ਥ,&#x0A25;,U+0A25,0x0A25,GURMUKHI LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+0A25",
+            "Character/Symbol: ਥ",
+            "Name: GURMUKHI LETTER THA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਦ U+0A26 GURMUKHI LETTER DA": 
+    {
+        "prefix": [
+            "..U.0A26",
+            "..U.GURMUKHI LETTER DA",
+            "U+0A26",
+        ],
+        "body": [
+            "${1|ਦ,&#x0A26;,U+0A26,0x0A26,GURMUKHI LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+0A26",
+            "Character/Symbol: ਦ",
+            "Name: GURMUKHI LETTER DA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਧ U+0A27 GURMUKHI LETTER DHA": 
+    {
+        "prefix": [
+            "..U.0A27",
+            "..U.GURMUKHI LETTER DHA",
+            "U+0A27",
+        ],
+        "body": [
+            "${1|ਧ,&#x0A27;,U+0A27,0x0A27,GURMUKHI LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A27",
+            "Character/Symbol: ਧ",
+            "Name: GURMUKHI LETTER DHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਨ U+0A28 GURMUKHI LETTER NA": 
+    {
+        "prefix": [
+            "..U.0A28",
+            "..U.GURMUKHI LETTER NA",
+            "U+0A28",
+        ],
+        "body": [
+            "${1|ਨ,&#x0A28;,U+0A28,0x0A28,GURMUKHI LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+0A28",
+            "Character/Symbol: ਨ",
+            "Name: GURMUKHI LETTER NA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਪ U+0A2A GURMUKHI LETTER PA": 
+    {
+        "prefix": [
+            "..U.0A2A",
+            "..U.GURMUKHI LETTER PA",
+            "U+0A2A",
+        ],
+        "body": [
+            "${1|ਪ,&#x0A2A;,U+0A2A,0x0A2A,GURMUKHI LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+0A2A",
+            "Character/Symbol: ਪ",
+            "Name: GURMUKHI LETTER PA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਫ U+0A2B GURMUKHI LETTER PHA": 
+    {
+        "prefix": [
+            "..U.0A2B",
+            "..U.GURMUKHI LETTER PHA",
+            "U+0A2B",
+        ],
+        "body": [
+            "${1|ਫ,&#x0A2B;,U+0A2B,0x0A2B,GURMUKHI LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A2B",
+            "Character/Symbol: ਫ",
+            "Name: GURMUKHI LETTER PHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਬ U+0A2C GURMUKHI LETTER BA": 
+    {
+        "prefix": [
+            "..U.0A2C",
+            "..U.GURMUKHI LETTER BA",
+            "U+0A2C",
+        ],
+        "body": [
+            "${1|ਬ,&#x0A2C;,U+0A2C,0x0A2C,GURMUKHI LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+0A2C",
+            "Character/Symbol: ਬ",
+            "Name: GURMUKHI LETTER BA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਭ U+0A2D GURMUKHI LETTER BHA": 
+    {
+        "prefix": [
+            "..U.0A2D",
+            "..U.GURMUKHI LETTER BHA",
+            "U+0A2D",
+        ],
+        "body": [
+            "${1|ਭ,&#x0A2D;,U+0A2D,0x0A2D,GURMUKHI LETTER BHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A2D",
+            "Character/Symbol: ਭ",
+            "Name: GURMUKHI LETTER BHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਮ U+0A2E GURMUKHI LETTER MA": 
+    {
+        "prefix": [
+            "..U.0A2E",
+            "..U.GURMUKHI LETTER MA",
+            "U+0A2E",
+        ],
+        "body": [
+            "${1|ਮ,&#x0A2E;,U+0A2E,0x0A2E,GURMUKHI LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+0A2E",
+            "Character/Symbol: ਮ",
+            "Name: GURMUKHI LETTER MA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਯ U+0A2F GURMUKHI LETTER YA": 
+    {
+        "prefix": [
+            "..U.0A2F",
+            "..U.GURMUKHI LETTER YA",
+            "U+0A2F",
+        ],
+        "body": [
+            "${1|ਯ,&#x0A2F;,U+0A2F,0x0A2F,GURMUKHI LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+0A2F",
+            "Character/Symbol: ਯ",
+            "Name: GURMUKHI LETTER YA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਰ U+0A30 GURMUKHI LETTER RA": 
+    {
+        "prefix": [
+            "..U.0A30",
+            "..U.GURMUKHI LETTER RA",
+            "U+0A30",
+        ],
+        "body": [
+            "${1|ਰ,&#x0A30;,U+0A30,0x0A30,GURMUKHI LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+0A30",
+            "Character/Symbol: ਰ",
+            "Name: GURMUKHI LETTER RA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਲ U+0A32 GURMUKHI LETTER LA": 
+    {
+        "prefix": [
+            "..U.0A32",
+            "..U.GURMUKHI LETTER LA",
+            "U+0A32",
+        ],
+        "body": [
+            "${1|ਲ,&#x0A32;,U+0A32,0x0A32,GURMUKHI LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+0A32",
+            "Character/Symbol: ਲ",
+            "Name: GURMUKHI LETTER LA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਲ਼ U+0A33 GURMUKHI LETTER LLA": 
+    {
+        "prefix": [
+            "..U.0A33",
+            "..U.GURMUKHI LETTER LLA",
+            "U+0A33",
+        ],
+        "body": [
+            "${1|ਲ਼,&#x0A33;,U+0A33,0x0A33,GURMUKHI LETTER LLA|}$2",
+        ],
+        "description": [
+            "Code: U+0A33",
+            "Character/Symbol: ਲ਼",
+            "Name: GURMUKHI LETTER LLA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਵ U+0A35 GURMUKHI LETTER VA": 
+    {
+        "prefix": [
+            "..U.0A35",
+            "..U.GURMUKHI LETTER VA",
+            "U+0A35",
+        ],
+        "body": [
+            "${1|ਵ,&#x0A35;,U+0A35,0x0A35,GURMUKHI LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+0A35",
+            "Character/Symbol: ਵ",
+            "Name: GURMUKHI LETTER VA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਸ਼ U+0A36 GURMUKHI LETTER SHA": 
+    {
+        "prefix": [
+            "..U.0A36",
+            "..U.GURMUKHI LETTER SHA",
+            "U+0A36",
+        ],
+        "body": [
+            "${1|ਸ਼,&#x0A36;,U+0A36,0x0A36,GURMUKHI LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A36",
+            "Character/Symbol: ਸ਼",
+            "Name: GURMUKHI LETTER SHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਸ U+0A38 GURMUKHI LETTER SA": 
+    {
+        "prefix": [
+            "..U.0A38",
+            "..U.GURMUKHI LETTER SA",
+            "U+0A38",
+        ],
+        "body": [
+            "${1|ਸ,&#x0A38;,U+0A38,0x0A38,GURMUKHI LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+0A38",
+            "Character/Symbol: ਸ",
+            "Name: GURMUKHI LETTER SA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਹ U+0A39 GURMUKHI LETTER HA": 
+    {
+        "prefix": [
+            "..U.0A39",
+            "..U.GURMUKHI LETTER HA",
+            "U+0A39",
+        ],
+        "body": [
+            "${1|ਹ,&#x0A39;,U+0A39,0x0A39,GURMUKHI LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+0A39",
+            "Character/Symbol: ਹ",
+            "Name: GURMUKHI LETTER HA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਼ U+0A3C GURMUKHI SIGN NUKTA": 
+    {
+        "prefix": [
+            "..U.0A3C",
+            "..U.GURMUKHI SIGN NUKTA",
+            "U+0A3C",
+        ],
+        "body": [
+            "${1|਼,&#x0A3C;,U+0A3C,0x0A3C,GURMUKHI SIGN NUKTA|}$2",
+        ],
+        "description": [
+            "Code: U+0A3C",
+            "Character/Symbol: ਼",
+            "Name: GURMUKHI SIGN NUKTA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਾ U+0A3E GURMUKHI VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.0A3E",
+            "..U.GURMUKHI VOWEL SIGN AA",
+            "U+0A3E",
+        ],
+        "body": [
+            "${1|ਾ,&#x0A3E;,U+0A3E,0x0A3E,GURMUKHI VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+0A3E",
+            "Character/Symbol: ਾ",
+            "Name: GURMUKHI VOWEL SIGN AA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਿ U+0A3F GURMUKHI VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.0A3F",
+            "..U.GURMUKHI VOWEL SIGN I",
+            "U+0A3F",
+        ],
+        "body": [
+            "${1|ਿ,&#x0A3F;,U+0A3F,0x0A3F,GURMUKHI VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+0A3F",
+            "Character/Symbol: ਿ",
+            "Name: GURMUKHI VOWEL SIGN I",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੀ U+0A40 GURMUKHI VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.0A40",
+            "..U.GURMUKHI VOWEL SIGN II",
+            "U+0A40",
+        ],
+        "body": [
+            "${1|ੀ,&#x0A40;,U+0A40,0x0A40,GURMUKHI VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+0A40",
+            "Character/Symbol: ੀ",
+            "Name: GURMUKHI VOWEL SIGN II",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੁ U+0A41 GURMUKHI VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.0A41",
+            "..U.GURMUKHI VOWEL SIGN U",
+            "U+0A41",
+        ],
+        "body": [
+            "${1|ੁ,&#x0A41;,U+0A41,0x0A41,GURMUKHI VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+0A41",
+            "Character/Symbol: ੁ",
+            "Name: GURMUKHI VOWEL SIGN U",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੂ U+0A42 GURMUKHI VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.0A42",
+            "..U.GURMUKHI VOWEL SIGN UU",
+            "U+0A42",
+        ],
+        "body": [
+            "${1|ੂ,&#x0A42;,U+0A42,0x0A42,GURMUKHI VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+0A42",
+            "Character/Symbol: ੂ",
+            "Name: GURMUKHI VOWEL SIGN UU",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੇ U+0A47 GURMUKHI VOWEL SIGN EE": 
+    {
+        "prefix": [
+            "..U.0A47",
+            "..U.GURMUKHI VOWEL SIGN EE",
+            "U+0A47",
+        ],
+        "body": [
+            "${1|ੇ,&#x0A47;,U+0A47,0x0A47,GURMUKHI VOWEL SIGN EE|}$2",
+        ],
+        "description": [
+            "Code: U+0A47",
+            "Character/Symbol: ੇ",
+            "Name: GURMUKHI VOWEL SIGN EE",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੈ U+0A48 GURMUKHI VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.0A48",
+            "..U.GURMUKHI VOWEL SIGN AI",
+            "U+0A48",
+        ],
+        "body": [
+            "${1|ੈ,&#x0A48;,U+0A48,0x0A48,GURMUKHI VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+0A48",
+            "Character/Symbol: ੈ",
+            "Name: GURMUKHI VOWEL SIGN AI",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੋ U+0A4B GURMUKHI VOWEL SIGN OO": 
+    {
+        "prefix": [
+            "..U.0A4B",
+            "..U.GURMUKHI VOWEL SIGN OO",
+            "U+0A4B",
+        ],
+        "body": [
+            "${1|ੋ,&#x0A4B;,U+0A4B,0x0A4B,GURMUKHI VOWEL SIGN OO|}$2",
+        ],
+        "description": [
+            "Code: U+0A4B",
+            "Character/Symbol: ੋ",
+            "Name: GURMUKHI VOWEL SIGN OO",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੌ U+0A4C GURMUKHI VOWEL SIGN AU": 
+    {
+        "prefix": [
+            "..U.0A4C",
+            "..U.GURMUKHI VOWEL SIGN AU",
+            "U+0A4C",
+        ],
+        "body": [
+            "${1|ੌ,&#x0A4C;,U+0A4C,0x0A4C,GURMUKHI VOWEL SIGN AU|}$2",
+        ],
+        "description": [
+            "Code: U+0A4C",
+            "Character/Symbol: ੌ",
+            "Name: GURMUKHI VOWEL SIGN AU",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੍ U+0A4D GURMUKHI SIGN VIRAMA": 
+    {
+        "prefix": [
+            "..U.0A4D",
+            "..U.GURMUKHI SIGN VIRAMA",
+            "U+0A4D",
+        ],
+        "body": [
+            "${1|੍,&#x0A4D;,U+0A4D,0x0A4D,GURMUKHI SIGN VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+0A4D",
+            "Character/Symbol: ੍",
+            "Name: GURMUKHI SIGN VIRAMA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੑ U+0A51 GURMUKHI SIGN UDAAT": 
+    {
+        "prefix": [
+            "..U.0A51",
+            "..U.GURMUKHI SIGN UDAAT",
+            "U+0A51",
+        ],
+        "body": [
+            "${1|ੑ,&#x0A51;,U+0A51,0x0A51,GURMUKHI SIGN UDAAT|}$2",
+        ],
+        "description": [
+            "Code: U+0A51",
+            "Character/Symbol: ੑ",
+            "Name: GURMUKHI SIGN UDAAT",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਖ਼ U+0A59 GURMUKHI LETTER KHHA": 
+    {
+        "prefix": [
+            "..U.0A59",
+            "..U.GURMUKHI LETTER KHHA",
+            "U+0A59",
+        ],
+        "body": [
+            "${1|ਖ਼,&#x0A59;,U+0A59,0x0A59,GURMUKHI LETTER KHHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A59",
+            "Character/Symbol: ਖ਼",
+            "Name: GURMUKHI LETTER KHHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਗ਼ U+0A5A GURMUKHI LETTER GHHA": 
+    {
+        "prefix": [
+            "..U.0A5A",
+            "..U.GURMUKHI LETTER GHHA",
+            "U+0A5A",
+        ],
+        "body": [
+            "${1|ਗ਼,&#x0A5A;,U+0A5A,0x0A5A,GURMUKHI LETTER GHHA|}$2",
+        ],
+        "description": [
+            "Code: U+0A5A",
+            "Character/Symbol: ਗ਼",
+            "Name: GURMUKHI LETTER GHHA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਜ਼ U+0A5B GURMUKHI LETTER ZA": 
+    {
+        "prefix": [
+            "..U.0A5B",
+            "..U.GURMUKHI LETTER ZA",
+            "U+0A5B",
+        ],
+        "body": [
+            "${1|ਜ਼,&#x0A5B;,U+0A5B,0x0A5B,GURMUKHI LETTER ZA|}$2",
+        ],
+        "description": [
+            "Code: U+0A5B",
+            "Character/Symbol: ਜ਼",
+            "Name: GURMUKHI LETTER ZA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੜ U+0A5C GURMUKHI LETTER RRA": 
+    {
+        "prefix": [
+            "..U.0A5C",
+            "..U.GURMUKHI LETTER RRA",
+            "U+0A5C",
+        ],
+        "body": [
+            "${1|ੜ,&#x0A5C;,U+0A5C,0x0A5C,GURMUKHI LETTER RRA|}$2",
+        ],
+        "description": [
+            "Code: U+0A5C",
+            "Character/Symbol: ੜ",
+            "Name: GURMUKHI LETTER RRA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ਫ਼ U+0A5E GURMUKHI LETTER FA": 
+    {
+        "prefix": [
+            "..U.0A5E",
+            "..U.GURMUKHI LETTER FA",
+            "U+0A5E",
+        ],
+        "body": [
+            "${1|ਫ਼,&#x0A5E;,U+0A5E,0x0A5E,GURMUKHI LETTER FA|}$2",
+        ],
+        "description": [
+            "Code: U+0A5E",
+            "Character/Symbol: ਫ਼",
+            "Name: GURMUKHI LETTER FA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੦ U+0A66 GURMUKHI DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.0A66",
+            "..U.GURMUKHI DIGIT ZERO",
+            "U+0A66",
+        ],
+        "body": [
+            "${1|੦,&#x0A66;,U+0A66,0x0A66,GURMUKHI DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+0A66",
+            "Character/Symbol: ੦",
+            "Name: GURMUKHI DIGIT ZERO",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੧ U+0A67 GURMUKHI DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.0A67",
+            "..U.GURMUKHI DIGIT ONE",
+            "U+0A67",
+        ],
+        "body": [
+            "${1|੧,&#x0A67;,U+0A67,0x0A67,GURMUKHI DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+0A67",
+            "Character/Symbol: ੧",
+            "Name: GURMUKHI DIGIT ONE",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੨ U+0A68 GURMUKHI DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.0A68",
+            "..U.GURMUKHI DIGIT TWO",
+            "U+0A68",
+        ],
+        "body": [
+            "${1|੨,&#x0A68;,U+0A68,0x0A68,GURMUKHI DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+0A68",
+            "Character/Symbol: ੨",
+            "Name: GURMUKHI DIGIT TWO",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੩ U+0A69 GURMUKHI DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.0A69",
+            "..U.GURMUKHI DIGIT THREE",
+            "U+0A69",
+        ],
+        "body": [
+            "${1|੩,&#x0A69;,U+0A69,0x0A69,GURMUKHI DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+0A69",
+            "Character/Symbol: ੩",
+            "Name: GURMUKHI DIGIT THREE",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੪ U+0A6A GURMUKHI DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.0A6A",
+            "..U.GURMUKHI DIGIT FOUR",
+            "U+0A6A",
+        ],
+        "body": [
+            "${1|੪,&#x0A6A;,U+0A6A,0x0A6A,GURMUKHI DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+0A6A",
+            "Character/Symbol: ੪",
+            "Name: GURMUKHI DIGIT FOUR",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੫ U+0A6B GURMUKHI DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.0A6B",
+            "..U.GURMUKHI DIGIT FIVE",
+            "U+0A6B",
+        ],
+        "body": [
+            "${1|੫,&#x0A6B;,U+0A6B,0x0A6B,GURMUKHI DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+0A6B",
+            "Character/Symbol: ੫",
+            "Name: GURMUKHI DIGIT FIVE",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੬ U+0A6C GURMUKHI DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.0A6C",
+            "..U.GURMUKHI DIGIT SIX",
+            "U+0A6C",
+        ],
+        "body": [
+            "${1|੬,&#x0A6C;,U+0A6C,0x0A6C,GURMUKHI DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+0A6C",
+            "Character/Symbol: ੬",
+            "Name: GURMUKHI DIGIT SIX",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੭ U+0A6D GURMUKHI DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.0A6D",
+            "..U.GURMUKHI DIGIT SEVEN",
+            "U+0A6D",
+        ],
+        "body": [
+            "${1|੭,&#x0A6D;,U+0A6D,0x0A6D,GURMUKHI DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+0A6D",
+            "Character/Symbol: ੭",
+            "Name: GURMUKHI DIGIT SEVEN",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੮ U+0A6E GURMUKHI DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.0A6E",
+            "..U.GURMUKHI DIGIT EIGHT",
+            "U+0A6E",
+        ],
+        "body": [
+            "${1|੮,&#x0A6E;,U+0A6E,0x0A6E,GURMUKHI DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+0A6E",
+            "Character/Symbol: ੮",
+            "Name: GURMUKHI DIGIT EIGHT",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੯ U+0A6F GURMUKHI DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.0A6F",
+            "..U.GURMUKHI DIGIT NINE",
+            "U+0A6F",
+        ],
+        "body": [
+            "${1|੯,&#x0A6F;,U+0A6F,0x0A6F,GURMUKHI DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+0A6F",
+            "Character/Symbol: ੯",
+            "Name: GURMUKHI DIGIT NINE",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੰ U+0A70 GURMUKHI TIPPI": 
+    {
+        "prefix": [
+            "..U.0A70",
+            "..U.GURMUKHI TIPPI",
+            "U+0A70",
+        ],
+        "body": [
+            "${1|ੰ,&#x0A70;,U+0A70,0x0A70,GURMUKHI TIPPI|}$2",
+        ],
+        "description": [
+            "Code: U+0A70",
+            "Character/Symbol: ੰ",
+            "Name: GURMUKHI TIPPI",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੱ U+0A71 GURMUKHI ADDAK": 
+    {
+        "prefix": [
+            "..U.0A71",
+            "..U.GURMUKHI ADDAK",
+            "U+0A71",
+        ],
+        "body": [
+            "${1|ੱ,&#x0A71;,U+0A71,0x0A71,GURMUKHI ADDAK|}$2",
+        ],
+        "description": [
+            "Code: U+0A71",
+            "Character/Symbol: ੱ",
+            "Name: GURMUKHI ADDAK",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੲ U+0A72 GURMUKHI IRI": 
+    {
+        "prefix": [
+            "..U.0A72",
+            "..U.GURMUKHI IRI",
+            "U+0A72",
+        ],
+        "body": [
+            "${1|ੲ,&#x0A72;,U+0A72,0x0A72,GURMUKHI IRI|}$2",
+        ],
+        "description": [
+            "Code: U+0A72",
+            "Character/Symbol: ੲ",
+            "Name: GURMUKHI IRI",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੳ U+0A73 GURMUKHI URA": 
+    {
+        "prefix": [
+            "..U.0A73",
+            "..U.GURMUKHI URA",
+            "U+0A73",
+        ],
+        "body": [
+            "${1|ੳ,&#x0A73;,U+0A73,0x0A73,GURMUKHI URA|}$2",
+        ],
+        "description": [
+            "Code: U+0A73",
+            "Character/Symbol: ੳ",
+            "Name: GURMUKHI URA",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੴ U+0A74 GURMUKHI EK ONKAR": 
+    {
+        "prefix": [
+            "..U.0A74",
+            "..U.GURMUKHI EK ONKAR",
+            "U+0A74",
+        ],
+        "body": [
+            "${1|ੴ,&#x0A74;,U+0A74,0x0A74,GURMUKHI EK ONKAR|}$2",
+        ],
+        "description": [
+            "Code: U+0A74",
+            "Character/Symbol: ੴ",
+            "Name: GURMUKHI EK ONKAR",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੵ U+0A75 GURMUKHI SIGN YAKASH": 
+    {
+        "prefix": [
+            "..U.0A75",
+            "..U.GURMUKHI SIGN YAKASH",
+            "U+0A75",
+        ],
+        "body": [
+            "${1|ੵ,&#x0A75;,U+0A75,0x0A75,GURMUKHI SIGN YAKASH|}$2",
+        ],
+        "description": [
+            "Code: U+0A75",
+            "Character/Symbol: ੵ",
+            "Name: GURMUKHI SIGN YAKASH",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+    "Unicode ੶ U+0A76 GURMUKHI ABBREVIATION SIGN": 
+    {
+        "prefix": [
+            "..U.0A76",
+            "..U.GURMUKHI ABBREVIATION SIGN",
+            "U+0A76",
+        ],
+        "body": [
+            "${1|੶,&#x0A76;,U+0A76,0x0A76,GURMUKHI ABBREVIATION SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+0A76",
+            "Character/Symbol: ੶",
+            "Name: GURMUKHI ABBREVIATION SIGN",
+            "Group/Block: Gurmukhi",
+        ],
+    },
+
+}

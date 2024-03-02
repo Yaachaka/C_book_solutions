@@ -1,0 +1,1496 @@
+{
+    "Unicode ກ U+0E81 LAO LETTER KO": 
+    {
+        "prefix": [
+            "..U.0E81",
+            "..U.LAO LETTER KO",
+            "U+0E81",
+        ],
+        "body": [
+            "${1|ກ,&#x0E81;,U+0E81,0x0E81,LAO LETTER KO|}$2",
+        ],
+        "description": [
+            "Code: U+0E81",
+            "Character/Symbol: ກ",
+            "Name: LAO LETTER KO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຂ U+0E82 LAO LETTER KHO SUNG": 
+    {
+        "prefix": [
+            "..U.0E82",
+            "..U.LAO LETTER KHO SUNG",
+            "U+0E82",
+        ],
+        "body": [
+            "${1|ຂ,&#x0E82;,U+0E82,0x0E82,LAO LETTER KHO SUNG|}$2",
+        ],
+        "description": [
+            "Code: U+0E82",
+            "Character/Symbol: ຂ",
+            "Name: LAO LETTER KHO SUNG",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຄ U+0E84 LAO LETTER KHO TAM": 
+    {
+        "prefix": [
+            "..U.0E84",
+            "..U.LAO LETTER KHO TAM",
+            "U+0E84",
+        ],
+        "body": [
+            "${1|ຄ,&#x0E84;,U+0E84,0x0E84,LAO LETTER KHO TAM|}$2",
+        ],
+        "description": [
+            "Code: U+0E84",
+            "Character/Symbol: ຄ",
+            "Name: LAO LETTER KHO TAM",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຆ U+0E86 LAO LETTER PALI GHA": 
+    {
+        "prefix": [
+            "..U.0E86",
+            "..U.LAO LETTER PALI GHA",
+            "U+0E86",
+        ],
+        "body": [
+            "${1|ຆ,&#x0E86;,U+0E86,0x0E86,LAO LETTER PALI GHA|}$2",
+        ],
+        "description": [
+            "Code: U+0E86",
+            "Character/Symbol: ຆ",
+            "Name: LAO LETTER PALI GHA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ງ U+0E87 LAO LETTER NGO": 
+    {
+        "prefix": [
+            "..U.0E87",
+            "..U.LAO LETTER NGO",
+            "U+0E87",
+        ],
+        "body": [
+            "${1|ງ,&#x0E87;,U+0E87,0x0E87,LAO LETTER NGO|}$2",
+        ],
+        "description": [
+            "Code: U+0E87",
+            "Character/Symbol: ງ",
+            "Name: LAO LETTER NGO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຈ U+0E88 LAO LETTER CO": 
+    {
+        "prefix": [
+            "..U.0E88",
+            "..U.LAO LETTER CO",
+            "U+0E88",
+        ],
+        "body": [
+            "${1|ຈ,&#x0E88;,U+0E88,0x0E88,LAO LETTER CO|}$2",
+        ],
+        "description": [
+            "Code: U+0E88",
+            "Character/Symbol: ຈ",
+            "Name: LAO LETTER CO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຉ U+0E89 LAO LETTER PALI CHA": 
+    {
+        "prefix": [
+            "..U.0E89",
+            "..U.LAO LETTER PALI CHA",
+            "U+0E89",
+        ],
+        "body": [
+            "${1|ຉ,&#x0E89;,U+0E89,0x0E89,LAO LETTER PALI CHA|}$2",
+        ],
+        "description": [
+            "Code: U+0E89",
+            "Character/Symbol: ຉ",
+            "Name: LAO LETTER PALI CHA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຊ U+0E8A LAO LETTER SO TAM": 
+    {
+        "prefix": [
+            "..U.0E8A",
+            "..U.LAO LETTER SO TAM",
+            "U+0E8A",
+        ],
+        "body": [
+            "${1|ຊ,&#x0E8A;,U+0E8A,0x0E8A,LAO LETTER SO TAM|}$2",
+        ],
+        "description": [
+            "Code: U+0E8A",
+            "Character/Symbol: ຊ",
+            "Name: LAO LETTER SO TAM",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຌ U+0E8C LAO LETTER PALI JHA": 
+    {
+        "prefix": [
+            "..U.0E8C",
+            "..U.LAO LETTER PALI JHA",
+            "U+0E8C",
+        ],
+        "body": [
+            "${1|ຌ,&#x0E8C;,U+0E8C,0x0E8C,LAO LETTER PALI JHA|}$2",
+        ],
+        "description": [
+            "Code: U+0E8C",
+            "Character/Symbol: ຌ",
+            "Name: LAO LETTER PALI JHA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຍ U+0E8D LAO LETTER NYO": 
+    {
+        "prefix": [
+            "..U.0E8D",
+            "..U.LAO LETTER NYO",
+            "U+0E8D",
+        ],
+        "body": [
+            "${1|ຍ,&#x0E8D;,U+0E8D,0x0E8D,LAO LETTER NYO|}$2",
+        ],
+        "description": [
+            "Code: U+0E8D",
+            "Character/Symbol: ຍ",
+            "Name: LAO LETTER NYO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຎ U+0E8E LAO LETTER PALI NYA": 
+    {
+        "prefix": [
+            "..U.0E8E",
+            "..U.LAO LETTER PALI NYA",
+            "U+0E8E",
+        ],
+        "body": [
+            "${1|ຎ,&#x0E8E;,U+0E8E,0x0E8E,LAO LETTER PALI NYA|}$2",
+        ],
+        "description": [
+            "Code: U+0E8E",
+            "Character/Symbol: ຎ",
+            "Name: LAO LETTER PALI NYA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຏ U+0E8F LAO LETTER PALI TTA": 
+    {
+        "prefix": [
+            "..U.0E8F",
+            "..U.LAO LETTER PALI TTA",
+            "U+0E8F",
+        ],
+        "body": [
+            "${1|ຏ,&#x0E8F;,U+0E8F,0x0E8F,LAO LETTER PALI TTA|}$2",
+        ],
+        "description": [
+            "Code: U+0E8F",
+            "Character/Symbol: ຏ",
+            "Name: LAO LETTER PALI TTA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຐ U+0E90 LAO LETTER PALI TTHA": 
+    {
+        "prefix": [
+            "..U.0E90",
+            "..U.LAO LETTER PALI TTHA",
+            "U+0E90",
+        ],
+        "body": [
+            "${1|ຐ,&#x0E90;,U+0E90,0x0E90,LAO LETTER PALI TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+0E90",
+            "Character/Symbol: ຐ",
+            "Name: LAO LETTER PALI TTHA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຑ U+0E91 LAO LETTER PALI DDA": 
+    {
+        "prefix": [
+            "..U.0E91",
+            "..U.LAO LETTER PALI DDA",
+            "U+0E91",
+        ],
+        "body": [
+            "${1|ຑ,&#x0E91;,U+0E91,0x0E91,LAO LETTER PALI DDA|}$2",
+        ],
+        "description": [
+            "Code: U+0E91",
+            "Character/Symbol: ຑ",
+            "Name: LAO LETTER PALI DDA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຒ U+0E92 LAO LETTER PALI DDHA": 
+    {
+        "prefix": [
+            "..U.0E92",
+            "..U.LAO LETTER PALI DDHA",
+            "U+0E92",
+        ],
+        "body": [
+            "${1|ຒ,&#x0E92;,U+0E92,0x0E92,LAO LETTER PALI DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+0E92",
+            "Character/Symbol: ຒ",
+            "Name: LAO LETTER PALI DDHA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຓ U+0E93 LAO LETTER PALI NNA": 
+    {
+        "prefix": [
+            "..U.0E93",
+            "..U.LAO LETTER PALI NNA",
+            "U+0E93",
+        ],
+        "body": [
+            "${1|ຓ,&#x0E93;,U+0E93,0x0E93,LAO LETTER PALI NNA|}$2",
+        ],
+        "description": [
+            "Code: U+0E93",
+            "Character/Symbol: ຓ",
+            "Name: LAO LETTER PALI NNA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ດ U+0E94 LAO LETTER DO": 
+    {
+        "prefix": [
+            "..U.0E94",
+            "..U.LAO LETTER DO",
+            "U+0E94",
+        ],
+        "body": [
+            "${1|ດ,&#x0E94;,U+0E94,0x0E94,LAO LETTER DO|}$2",
+        ],
+        "description": [
+            "Code: U+0E94",
+            "Character/Symbol: ດ",
+            "Name: LAO LETTER DO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຕ U+0E95 LAO LETTER TO": 
+    {
+        "prefix": [
+            "..U.0E95",
+            "..U.LAO LETTER TO",
+            "U+0E95",
+        ],
+        "body": [
+            "${1|ຕ,&#x0E95;,U+0E95,0x0E95,LAO LETTER TO|}$2",
+        ],
+        "description": [
+            "Code: U+0E95",
+            "Character/Symbol: ຕ",
+            "Name: LAO LETTER TO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຖ U+0E96 LAO LETTER THO SUNG": 
+    {
+        "prefix": [
+            "..U.0E96",
+            "..U.LAO LETTER THO SUNG",
+            "U+0E96",
+        ],
+        "body": [
+            "${1|ຖ,&#x0E96;,U+0E96,0x0E96,LAO LETTER THO SUNG|}$2",
+        ],
+        "description": [
+            "Code: U+0E96",
+            "Character/Symbol: ຖ",
+            "Name: LAO LETTER THO SUNG",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ທ U+0E97 LAO LETTER THO TAM": 
+    {
+        "prefix": [
+            "..U.0E97",
+            "..U.LAO LETTER THO TAM",
+            "U+0E97",
+        ],
+        "body": [
+            "${1|ທ,&#x0E97;,U+0E97,0x0E97,LAO LETTER THO TAM|}$2",
+        ],
+        "description": [
+            "Code: U+0E97",
+            "Character/Symbol: ທ",
+            "Name: LAO LETTER THO TAM",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຘ U+0E98 LAO LETTER PALI DHA": 
+    {
+        "prefix": [
+            "..U.0E98",
+            "..U.LAO LETTER PALI DHA",
+            "U+0E98",
+        ],
+        "body": [
+            "${1|ຘ,&#x0E98;,U+0E98,0x0E98,LAO LETTER PALI DHA|}$2",
+        ],
+        "description": [
+            "Code: U+0E98",
+            "Character/Symbol: ຘ",
+            "Name: LAO LETTER PALI DHA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ນ U+0E99 LAO LETTER NO": 
+    {
+        "prefix": [
+            "..U.0E99",
+            "..U.LAO LETTER NO",
+            "U+0E99",
+        ],
+        "body": [
+            "${1|ນ,&#x0E99;,U+0E99,0x0E99,LAO LETTER NO|}$2",
+        ],
+        "description": [
+            "Code: U+0E99",
+            "Character/Symbol: ນ",
+            "Name: LAO LETTER NO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ບ U+0E9A LAO LETTER BO": 
+    {
+        "prefix": [
+            "..U.0E9A",
+            "..U.LAO LETTER BO",
+            "U+0E9A",
+        ],
+        "body": [
+            "${1|ບ,&#x0E9A;,U+0E9A,0x0E9A,LAO LETTER BO|}$2",
+        ],
+        "description": [
+            "Code: U+0E9A",
+            "Character/Symbol: ບ",
+            "Name: LAO LETTER BO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ປ U+0E9B LAO LETTER PO": 
+    {
+        "prefix": [
+            "..U.0E9B",
+            "..U.LAO LETTER PO",
+            "U+0E9B",
+        ],
+        "body": [
+            "${1|ປ,&#x0E9B;,U+0E9B,0x0E9B,LAO LETTER PO|}$2",
+        ],
+        "description": [
+            "Code: U+0E9B",
+            "Character/Symbol: ປ",
+            "Name: LAO LETTER PO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຜ U+0E9C LAO LETTER PHO SUNG": 
+    {
+        "prefix": [
+            "..U.0E9C",
+            "..U.LAO LETTER PHO SUNG",
+            "U+0E9C",
+        ],
+        "body": [
+            "${1|ຜ,&#x0E9C;,U+0E9C,0x0E9C,LAO LETTER PHO SUNG|}$2",
+        ],
+        "description": [
+            "Code: U+0E9C",
+            "Character/Symbol: ຜ",
+            "Name: LAO LETTER PHO SUNG",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຝ U+0E9D LAO LETTER FO TAM": 
+    {
+        "prefix": [
+            "..U.0E9D",
+            "..U.LAO LETTER FO TAM",
+            "U+0E9D",
+        ],
+        "body": [
+            "${1|ຝ,&#x0E9D;,U+0E9D,0x0E9D,LAO LETTER FO TAM|}$2",
+        ],
+        "description": [
+            "Code: U+0E9D",
+            "Character/Symbol: ຝ",
+            "Name: LAO LETTER FO TAM",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ພ U+0E9E LAO LETTER PHO TAM": 
+    {
+        "prefix": [
+            "..U.0E9E",
+            "..U.LAO LETTER PHO TAM",
+            "U+0E9E",
+        ],
+        "body": [
+            "${1|ພ,&#x0E9E;,U+0E9E,0x0E9E,LAO LETTER PHO TAM|}$2",
+        ],
+        "description": [
+            "Code: U+0E9E",
+            "Character/Symbol: ພ",
+            "Name: LAO LETTER PHO TAM",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຟ U+0E9F LAO LETTER FO SUNG": 
+    {
+        "prefix": [
+            "..U.0E9F",
+            "..U.LAO LETTER FO SUNG",
+            "U+0E9F",
+        ],
+        "body": [
+            "${1|ຟ,&#x0E9F;,U+0E9F,0x0E9F,LAO LETTER FO SUNG|}$2",
+        ],
+        "description": [
+            "Code: U+0E9F",
+            "Character/Symbol: ຟ",
+            "Name: LAO LETTER FO SUNG",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຠ U+0EA0 LAO LETTER PALI BHA": 
+    {
+        "prefix": [
+            "..U.0EA0",
+            "..U.LAO LETTER PALI BHA",
+            "U+0EA0",
+        ],
+        "body": [
+            "${1|ຠ,&#x0EA0;,U+0EA0,0x0EA0,LAO LETTER PALI BHA|}$2",
+        ],
+        "description": [
+            "Code: U+0EA0",
+            "Character/Symbol: ຠ",
+            "Name: LAO LETTER PALI BHA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ມ U+0EA1 LAO LETTER MO": 
+    {
+        "prefix": [
+            "..U.0EA1",
+            "..U.LAO LETTER MO",
+            "U+0EA1",
+        ],
+        "body": [
+            "${1|ມ,&#x0EA1;,U+0EA1,0x0EA1,LAO LETTER MO|}$2",
+        ],
+        "description": [
+            "Code: U+0EA1",
+            "Character/Symbol: ມ",
+            "Name: LAO LETTER MO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຢ U+0EA2 LAO LETTER YO": 
+    {
+        "prefix": [
+            "..U.0EA2",
+            "..U.LAO LETTER YO",
+            "U+0EA2",
+        ],
+        "body": [
+            "${1|ຢ,&#x0EA2;,U+0EA2,0x0EA2,LAO LETTER YO|}$2",
+        ],
+        "description": [
+            "Code: U+0EA2",
+            "Character/Symbol: ຢ",
+            "Name: LAO LETTER YO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຣ U+0EA3 LAO LETTER LO LING": 
+    {
+        "prefix": [
+            "..U.0EA3",
+            "..U.LAO LETTER LO LING",
+            "U+0EA3",
+        ],
+        "body": [
+            "${1|ຣ,&#x0EA3;,U+0EA3,0x0EA3,LAO LETTER LO LING|}$2",
+        ],
+        "description": [
+            "Code: U+0EA3",
+            "Character/Symbol: ຣ",
+            "Name: LAO LETTER LO LING",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ລ U+0EA5 LAO LETTER LO LOOT": 
+    {
+        "prefix": [
+            "..U.0EA5",
+            "..U.LAO LETTER LO LOOT",
+            "U+0EA5",
+        ],
+        "body": [
+            "${1|ລ,&#x0EA5;,U+0EA5,0x0EA5,LAO LETTER LO LOOT|}$2",
+        ],
+        "description": [
+            "Code: U+0EA5",
+            "Character/Symbol: ລ",
+            "Name: LAO LETTER LO LOOT",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ວ U+0EA7 LAO LETTER WO": 
+    {
+        "prefix": [
+            "..U.0EA7",
+            "..U.LAO LETTER WO",
+            "U+0EA7",
+        ],
+        "body": [
+            "${1|ວ,&#x0EA7;,U+0EA7,0x0EA7,LAO LETTER WO|}$2",
+        ],
+        "description": [
+            "Code: U+0EA7",
+            "Character/Symbol: ວ",
+            "Name: LAO LETTER WO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຨ U+0EA8 LAO LETTER SANSKRIT SHA": 
+    {
+        "prefix": [
+            "..U.0EA8",
+            "..U.LAO LETTER SANSKRIT SHA",
+            "U+0EA8",
+        ],
+        "body": [
+            "${1|ຨ,&#x0EA8;,U+0EA8,0x0EA8,LAO LETTER SANSKRIT SHA|}$2",
+        ],
+        "description": [
+            "Code: U+0EA8",
+            "Character/Symbol: ຨ",
+            "Name: LAO LETTER SANSKRIT SHA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຩ U+0EA9 LAO LETTER SANSKRIT SSA": 
+    {
+        "prefix": [
+            "..U.0EA9",
+            "..U.LAO LETTER SANSKRIT SSA",
+            "U+0EA9",
+        ],
+        "body": [
+            "${1|ຩ,&#x0EA9;,U+0EA9,0x0EA9,LAO LETTER SANSKRIT SSA|}$2",
+        ],
+        "description": [
+            "Code: U+0EA9",
+            "Character/Symbol: ຩ",
+            "Name: LAO LETTER SANSKRIT SSA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ສ U+0EAA LAO LETTER SO SUNG": 
+    {
+        "prefix": [
+            "..U.0EAA",
+            "..U.LAO LETTER SO SUNG",
+            "U+0EAA",
+        ],
+        "body": [
+            "${1|ສ,&#x0EAA;,U+0EAA,0x0EAA,LAO LETTER SO SUNG|}$2",
+        ],
+        "description": [
+            "Code: U+0EAA",
+            "Character/Symbol: ສ",
+            "Name: LAO LETTER SO SUNG",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຫ U+0EAB LAO LETTER HO SUNG": 
+    {
+        "prefix": [
+            "..U.0EAB",
+            "..U.LAO LETTER HO SUNG",
+            "U+0EAB",
+        ],
+        "body": [
+            "${1|ຫ,&#x0EAB;,U+0EAB,0x0EAB,LAO LETTER HO SUNG|}$2",
+        ],
+        "description": [
+            "Code: U+0EAB",
+            "Character/Symbol: ຫ",
+            "Name: LAO LETTER HO SUNG",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຬ U+0EAC LAO LETTER PALI LLA": 
+    {
+        "prefix": [
+            "..U.0EAC",
+            "..U.LAO LETTER PALI LLA",
+            "U+0EAC",
+        ],
+        "body": [
+            "${1|ຬ,&#x0EAC;,U+0EAC,0x0EAC,LAO LETTER PALI LLA|}$2",
+        ],
+        "description": [
+            "Code: U+0EAC",
+            "Character/Symbol: ຬ",
+            "Name: LAO LETTER PALI LLA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ອ U+0EAD LAO LETTER O": 
+    {
+        "prefix": [
+            "..U.0EAD",
+            "..U.LAO LETTER O",
+            "U+0EAD",
+        ],
+        "body": [
+            "${1|ອ,&#x0EAD;,U+0EAD,0x0EAD,LAO LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+0EAD",
+            "Character/Symbol: ອ",
+            "Name: LAO LETTER O",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຮ U+0EAE LAO LETTER HO TAM": 
+    {
+        "prefix": [
+            "..U.0EAE",
+            "..U.LAO LETTER HO TAM",
+            "U+0EAE",
+        ],
+        "body": [
+            "${1|ຮ,&#x0EAE;,U+0EAE,0x0EAE,LAO LETTER HO TAM|}$2",
+        ],
+        "description": [
+            "Code: U+0EAE",
+            "Character/Symbol: ຮ",
+            "Name: LAO LETTER HO TAM",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຯ U+0EAF LAO ELLIPSIS": 
+    {
+        "prefix": [
+            "..U.0EAF",
+            "..U.LAO ELLIPSIS",
+            "U+0EAF",
+        ],
+        "body": [
+            "${1|ຯ,&#x0EAF;,U+0EAF,0x0EAF,LAO ELLIPSIS|}$2",
+        ],
+        "description": [
+            "Code: U+0EAF",
+            "Character/Symbol: ຯ",
+            "Name: LAO ELLIPSIS",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ະ U+0EB0 LAO VOWEL SIGN A": 
+    {
+        "prefix": [
+            "..U.0EB0",
+            "..U.LAO VOWEL SIGN A",
+            "U+0EB0",
+        ],
+        "body": [
+            "${1|ະ,&#x0EB0;,U+0EB0,0x0EB0,LAO VOWEL SIGN A|}$2",
+        ],
+        "description": [
+            "Code: U+0EB0",
+            "Character/Symbol: ະ",
+            "Name: LAO VOWEL SIGN A",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ັ U+0EB1 LAO VOWEL SIGN MAI KAN": 
+    {
+        "prefix": [
+            "..U.0EB1",
+            "..U.LAO VOWEL SIGN MAI KAN",
+            "U+0EB1",
+        ],
+        "body": [
+            "${1|ັ,&#x0EB1;,U+0EB1,0x0EB1,LAO VOWEL SIGN MAI KAN|}$2",
+        ],
+        "description": [
+            "Code: U+0EB1",
+            "Character/Symbol: ັ",
+            "Name: LAO VOWEL SIGN MAI KAN",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode າ U+0EB2 LAO VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.0EB2",
+            "..U.LAO VOWEL SIGN AA",
+            "U+0EB2",
+        ],
+        "body": [
+            "${1|າ,&#x0EB2;,U+0EB2,0x0EB2,LAO VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+0EB2",
+            "Character/Symbol: າ",
+            "Name: LAO VOWEL SIGN AA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຳ U+0EB3 LAO VOWEL SIGN AM": 
+    {
+        "prefix": [
+            "..U.0EB3",
+            "..U.LAO VOWEL SIGN AM",
+            "U+0EB3",
+        ],
+        "body": [
+            "${1|ຳ,&#x0EB3;,U+0EB3,0x0EB3,LAO VOWEL SIGN AM|}$2",
+        ],
+        "description": [
+            "Code: U+0EB3",
+            "Character/Symbol: ຳ",
+            "Name: LAO VOWEL SIGN AM",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ິ U+0EB4 LAO VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.0EB4",
+            "..U.LAO VOWEL SIGN I",
+            "U+0EB4",
+        ],
+        "body": [
+            "${1|ິ,&#x0EB4;,U+0EB4,0x0EB4,LAO VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+0EB4",
+            "Character/Symbol: ິ",
+            "Name: LAO VOWEL SIGN I",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ີ U+0EB5 LAO VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.0EB5",
+            "..U.LAO VOWEL SIGN II",
+            "U+0EB5",
+        ],
+        "body": [
+            "${1|ີ,&#x0EB5;,U+0EB5,0x0EB5,LAO VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+0EB5",
+            "Character/Symbol: ີ",
+            "Name: LAO VOWEL SIGN II",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຶ U+0EB6 LAO VOWEL SIGN Y": 
+    {
+        "prefix": [
+            "..U.0EB6",
+            "..U.LAO VOWEL SIGN Y",
+            "U+0EB6",
+        ],
+        "body": [
+            "${1|ຶ,&#x0EB6;,U+0EB6,0x0EB6,LAO VOWEL SIGN Y|}$2",
+        ],
+        "description": [
+            "Code: U+0EB6",
+            "Character/Symbol: ຶ",
+            "Name: LAO VOWEL SIGN Y",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ື U+0EB7 LAO VOWEL SIGN YY": 
+    {
+        "prefix": [
+            "..U.0EB7",
+            "..U.LAO VOWEL SIGN YY",
+            "U+0EB7",
+        ],
+        "body": [
+            "${1|ື,&#x0EB7;,U+0EB7,0x0EB7,LAO VOWEL SIGN YY|}$2",
+        ],
+        "description": [
+            "Code: U+0EB7",
+            "Character/Symbol: ື",
+            "Name: LAO VOWEL SIGN YY",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຸ U+0EB8 LAO VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.0EB8",
+            "..U.LAO VOWEL SIGN U",
+            "U+0EB8",
+        ],
+        "body": [
+            "${1|ຸ,&#x0EB8;,U+0EB8,0x0EB8,LAO VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+0EB8",
+            "Character/Symbol: ຸ",
+            "Name: LAO VOWEL SIGN U",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ູ U+0EB9 LAO VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.0EB9",
+            "..U.LAO VOWEL SIGN UU",
+            "U+0EB9",
+        ],
+        "body": [
+            "${1|ູ,&#x0EB9;,U+0EB9,0x0EB9,LAO VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+0EB9",
+            "Character/Symbol: ູ",
+            "Name: LAO VOWEL SIGN UU",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຺ U+0EBA LAO SIGN PALI VIRAMA": 
+    {
+        "prefix": [
+            "..U.0EBA",
+            "..U.LAO SIGN PALI VIRAMA",
+            "U+0EBA",
+        ],
+        "body": [
+            "${1|຺,&#x0EBA;,U+0EBA,0x0EBA,LAO SIGN PALI VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+0EBA",
+            "Character/Symbol: ຺",
+            "Name: LAO SIGN PALI VIRAMA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ົ U+0EBB LAO VOWEL SIGN MAI KON": 
+    {
+        "prefix": [
+            "..U.0EBB",
+            "..U.LAO VOWEL SIGN MAI KON",
+            "U+0EBB",
+        ],
+        "body": [
+            "${1|ົ,&#x0EBB;,U+0EBB,0x0EBB,LAO VOWEL SIGN MAI KON|}$2",
+        ],
+        "description": [
+            "Code: U+0EBB",
+            "Character/Symbol: ົ",
+            "Name: LAO VOWEL SIGN MAI KON",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຼ U+0EBC LAO SEMIVOWEL SIGN LO": 
+    {
+        "prefix": [
+            "..U.0EBC",
+            "..U.LAO SEMIVOWEL SIGN LO",
+            "U+0EBC",
+        ],
+        "body": [
+            "${1|ຼ,&#x0EBC;,U+0EBC,0x0EBC,LAO SEMIVOWEL SIGN LO|}$2",
+        ],
+        "description": [
+            "Code: U+0EBC",
+            "Character/Symbol: ຼ",
+            "Name: LAO SEMIVOWEL SIGN LO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ຽ U+0EBD LAO SEMIVOWEL SIGN NYO": 
+    {
+        "prefix": [
+            "..U.0EBD",
+            "..U.LAO SEMIVOWEL SIGN NYO",
+            "U+0EBD",
+        ],
+        "body": [
+            "${1|ຽ,&#x0EBD;,U+0EBD,0x0EBD,LAO SEMIVOWEL SIGN NYO|}$2",
+        ],
+        "description": [
+            "Code: U+0EBD",
+            "Character/Symbol: ຽ",
+            "Name: LAO SEMIVOWEL SIGN NYO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ເ U+0EC0 LAO VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.0EC0",
+            "..U.LAO VOWEL SIGN E",
+            "U+0EC0",
+        ],
+        "body": [
+            "${1|ເ,&#x0EC0;,U+0EC0,0x0EC0,LAO VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+0EC0",
+            "Character/Symbol: ເ",
+            "Name: LAO VOWEL SIGN E",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ແ U+0EC1 LAO VOWEL SIGN EI": 
+    {
+        "prefix": [
+            "..U.0EC1",
+            "..U.LAO VOWEL SIGN EI",
+            "U+0EC1",
+        ],
+        "body": [
+            "${1|ແ,&#x0EC1;,U+0EC1,0x0EC1,LAO VOWEL SIGN EI|}$2",
+        ],
+        "description": [
+            "Code: U+0EC1",
+            "Character/Symbol: ແ",
+            "Name: LAO VOWEL SIGN EI",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໂ U+0EC2 LAO VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.0EC2",
+            "..U.LAO VOWEL SIGN O",
+            "U+0EC2",
+        ],
+        "body": [
+            "${1|ໂ,&#x0EC2;,U+0EC2,0x0EC2,LAO VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+0EC2",
+            "Character/Symbol: ໂ",
+            "Name: LAO VOWEL SIGN O",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໃ U+0EC3 LAO VOWEL SIGN AY": 
+    {
+        "prefix": [
+            "..U.0EC3",
+            "..U.LAO VOWEL SIGN AY",
+            "U+0EC3",
+        ],
+        "body": [
+            "${1|ໃ,&#x0EC3;,U+0EC3,0x0EC3,LAO VOWEL SIGN AY|}$2",
+        ],
+        "description": [
+            "Code: U+0EC3",
+            "Character/Symbol: ໃ",
+            "Name: LAO VOWEL SIGN AY",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໄ U+0EC4 LAO VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.0EC4",
+            "..U.LAO VOWEL SIGN AI",
+            "U+0EC4",
+        ],
+        "body": [
+            "${1|ໄ,&#x0EC4;,U+0EC4,0x0EC4,LAO VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+0EC4",
+            "Character/Symbol: ໄ",
+            "Name: LAO VOWEL SIGN AI",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໆ U+0EC6 LAO KO LA": 
+    {
+        "prefix": [
+            "..U.0EC6",
+            "..U.LAO KO LA",
+            "U+0EC6",
+        ],
+        "body": [
+            "${1|ໆ,&#x0EC6;,U+0EC6,0x0EC6,LAO KO LA|}$2",
+        ],
+        "description": [
+            "Code: U+0EC6",
+            "Character/Symbol: ໆ",
+            "Name: LAO KO LA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ່ U+0EC8 LAO TONE MAI EK": 
+    {
+        "prefix": [
+            "..U.0EC8",
+            "..U.LAO TONE MAI EK",
+            "U+0EC8",
+        ],
+        "body": [
+            "${1|່,&#x0EC8;,U+0EC8,0x0EC8,LAO TONE MAI EK|}$2",
+        ],
+        "description": [
+            "Code: U+0EC8",
+            "Character/Symbol: ່",
+            "Name: LAO TONE MAI EK",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ້ U+0EC9 LAO TONE MAI THO": 
+    {
+        "prefix": [
+            "..U.0EC9",
+            "..U.LAO TONE MAI THO",
+            "U+0EC9",
+        ],
+        "body": [
+            "${1|້,&#x0EC9;,U+0EC9,0x0EC9,LAO TONE MAI THO|}$2",
+        ],
+        "description": [
+            "Code: U+0EC9",
+            "Character/Symbol: ້",
+            "Name: LAO TONE MAI THO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໊ U+0ECA LAO TONE MAI TI": 
+    {
+        "prefix": [
+            "..U.0ECA",
+            "..U.LAO TONE MAI TI",
+            "U+0ECA",
+        ],
+        "body": [
+            "${1|໊,&#x0ECA;,U+0ECA,0x0ECA,LAO TONE MAI TI|}$2",
+        ],
+        "description": [
+            "Code: U+0ECA",
+            "Character/Symbol: ໊",
+            "Name: LAO TONE MAI TI",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໋ U+0ECB LAO TONE MAI CATAWA": 
+    {
+        "prefix": [
+            "..U.0ECB",
+            "..U.LAO TONE MAI CATAWA",
+            "U+0ECB",
+        ],
+        "body": [
+            "${1|໋,&#x0ECB;,U+0ECB,0x0ECB,LAO TONE MAI CATAWA|}$2",
+        ],
+        "description": [
+            "Code: U+0ECB",
+            "Character/Symbol: ໋",
+            "Name: LAO TONE MAI CATAWA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໌ U+0ECC LAO CANCELLATION MARK": 
+    {
+        "prefix": [
+            "..U.0ECC",
+            "..U.LAO CANCELLATION MARK",
+            "U+0ECC",
+        ],
+        "body": [
+            "${1|໌,&#x0ECC;,U+0ECC,0x0ECC,LAO CANCELLATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+0ECC",
+            "Character/Symbol: ໌",
+            "Name: LAO CANCELLATION MARK",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໍ U+0ECD LAO NIGGAHITA": 
+    {
+        "prefix": [
+            "..U.0ECD",
+            "..U.LAO NIGGAHITA",
+            "U+0ECD",
+        ],
+        "body": [
+            "${1|ໍ,&#x0ECD;,U+0ECD,0x0ECD,LAO NIGGAHITA|}$2",
+        ],
+        "description": [
+            "Code: U+0ECD",
+            "Character/Symbol: ໍ",
+            "Name: LAO NIGGAHITA",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໎ U+0ECE LAO YAMAKKAN": 
+    {
+        "prefix": [
+            "..U.0ECE",
+            "..U.LAO YAMAKKAN",
+            "U+0ECE",
+        ],
+        "body": [
+            "${1|໎,&#x0ECE;,U+0ECE,0x0ECE,LAO YAMAKKAN|}$2",
+        ],
+        "description": [
+            "Code: U+0ECE",
+            "Character/Symbol: ໎",
+            "Name: LAO YAMAKKAN",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໐ U+0ED0 LAO DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.0ED0",
+            "..U.LAO DIGIT ZERO",
+            "U+0ED0",
+        ],
+        "body": [
+            "${1|໐,&#x0ED0;,U+0ED0,0x0ED0,LAO DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+0ED0",
+            "Character/Symbol: ໐",
+            "Name: LAO DIGIT ZERO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໑ U+0ED1 LAO DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.0ED1",
+            "..U.LAO DIGIT ONE",
+            "U+0ED1",
+        ],
+        "body": [
+            "${1|໑,&#x0ED1;,U+0ED1,0x0ED1,LAO DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+0ED1",
+            "Character/Symbol: ໑",
+            "Name: LAO DIGIT ONE",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໒ U+0ED2 LAO DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.0ED2",
+            "..U.LAO DIGIT TWO",
+            "U+0ED2",
+        ],
+        "body": [
+            "${1|໒,&#x0ED2;,U+0ED2,0x0ED2,LAO DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+0ED2",
+            "Character/Symbol: ໒",
+            "Name: LAO DIGIT TWO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໓ U+0ED3 LAO DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.0ED3",
+            "..U.LAO DIGIT THREE",
+            "U+0ED3",
+        ],
+        "body": [
+            "${1|໓,&#x0ED3;,U+0ED3,0x0ED3,LAO DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+0ED3",
+            "Character/Symbol: ໓",
+            "Name: LAO DIGIT THREE",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໔ U+0ED4 LAO DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.0ED4",
+            "..U.LAO DIGIT FOUR",
+            "U+0ED4",
+        ],
+        "body": [
+            "${1|໔,&#x0ED4;,U+0ED4,0x0ED4,LAO DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+0ED4",
+            "Character/Symbol: ໔",
+            "Name: LAO DIGIT FOUR",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໕ U+0ED5 LAO DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.0ED5",
+            "..U.LAO DIGIT FIVE",
+            "U+0ED5",
+        ],
+        "body": [
+            "${1|໕,&#x0ED5;,U+0ED5,0x0ED5,LAO DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+0ED5",
+            "Character/Symbol: ໕",
+            "Name: LAO DIGIT FIVE",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໖ U+0ED6 LAO DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.0ED6",
+            "..U.LAO DIGIT SIX",
+            "U+0ED6",
+        ],
+        "body": [
+            "${1|໖,&#x0ED6;,U+0ED6,0x0ED6,LAO DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+0ED6",
+            "Character/Symbol: ໖",
+            "Name: LAO DIGIT SIX",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໗ U+0ED7 LAO DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.0ED7",
+            "..U.LAO DIGIT SEVEN",
+            "U+0ED7",
+        ],
+        "body": [
+            "${1|໗,&#x0ED7;,U+0ED7,0x0ED7,LAO DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+0ED7",
+            "Character/Symbol: ໗",
+            "Name: LAO DIGIT SEVEN",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໘ U+0ED8 LAO DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.0ED8",
+            "..U.LAO DIGIT EIGHT",
+            "U+0ED8",
+        ],
+        "body": [
+            "${1|໘,&#x0ED8;,U+0ED8,0x0ED8,LAO DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+0ED8",
+            "Character/Symbol: ໘",
+            "Name: LAO DIGIT EIGHT",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໙ U+0ED9 LAO DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.0ED9",
+            "..U.LAO DIGIT NINE",
+            "U+0ED9",
+        ],
+        "body": [
+            "${1|໙,&#x0ED9;,U+0ED9,0x0ED9,LAO DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+0ED9",
+            "Character/Symbol: ໙",
+            "Name: LAO DIGIT NINE",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໜ U+0EDC LAO HO NO": 
+    {
+        "prefix": [
+            "..U.0EDC",
+            "..U.LAO HO NO",
+            "U+0EDC",
+        ],
+        "body": [
+            "${1|ໜ,&#x0EDC;,U+0EDC,0x0EDC,LAO HO NO|}$2",
+        ],
+        "description": [
+            "Code: U+0EDC",
+            "Character/Symbol: ໜ",
+            "Name: LAO HO NO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໝ U+0EDD LAO HO MO": 
+    {
+        "prefix": [
+            "..U.0EDD",
+            "..U.LAO HO MO",
+            "U+0EDD",
+        ],
+        "body": [
+            "${1|ໝ,&#x0EDD;,U+0EDD,0x0EDD,LAO HO MO|}$2",
+        ],
+        "description": [
+            "Code: U+0EDD",
+            "Character/Symbol: ໝ",
+            "Name: LAO HO MO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໞ U+0EDE LAO LETTER KHMU GO": 
+    {
+        "prefix": [
+            "..U.0EDE",
+            "..U.LAO LETTER KHMU GO",
+            "U+0EDE",
+        ],
+        "body": [
+            "${1|ໞ,&#x0EDE;,U+0EDE,0x0EDE,LAO LETTER KHMU GO|}$2",
+        ],
+        "description": [
+            "Code: U+0EDE",
+            "Character/Symbol: ໞ",
+            "Name: LAO LETTER KHMU GO",
+            "Group/Block: Lao",
+        ],
+    },
+
+    "Unicode ໟ U+0EDF LAO LETTER KHMU NYO": 
+    {
+        "prefix": [
+            "..U.0EDF",
+            "..U.LAO LETTER KHMU NYO",
+            "U+0EDF",
+        ],
+        "body": [
+            "${1|ໟ,&#x0EDF;,U+0EDF,0x0EDF,LAO LETTER KHMU NYO|}$2",
+        ],
+        "description": [
+            "Code: U+0EDF",
+            "Character/Symbol: ໟ",
+            "Name: LAO LETTER KHMU NYO",
+            "Group/Block: Lao",
+        ],
+    },
+
+}

@@ -1,0 +1,4610 @@
+{
+    "Unicode Ḁ U+1E00 LATIN CAPITAL LETTER A WITH RING BELOW": 
+    {
+        "prefix": [
+            "..U.1E00",
+            "..U.LATIN CAPITAL LETTER A WITH RING BELOW",
+            "U+1E00",
+        ],
+        "body": [
+            "${1|Ḁ,&#x1E00;,U+1E00,0x1E00,LATIN CAPITAL LETTER A WITH RING BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E00",
+            "Character/Symbol: Ḁ",
+            "Name: LATIN CAPITAL LETTER A WITH RING BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḁ U+1E01 LATIN SMALL LETTER A WITH RING BELOW": 
+    {
+        "prefix": [
+            "..U.1E01",
+            "..U.LATIN SMALL LETTER A WITH RING BELOW",
+            "U+1E01",
+        ],
+        "body": [
+            "${1|ḁ,&#x1E01;,U+1E01,0x1E01,LATIN SMALL LETTER A WITH RING BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E01",
+            "Character/Symbol: ḁ",
+            "Name: LATIN SMALL LETTER A WITH RING BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḃ U+1E02 LATIN CAPITAL LETTER B WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E02",
+            "..U.LATIN CAPITAL LETTER B WITH DOT ABOVE",
+            "U+1E02",
+        ],
+        "body": [
+            "${1|Ḃ,&#x1E02;,U+1E02,0x1E02,LATIN CAPITAL LETTER B WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E02",
+            "Character/Symbol: Ḃ",
+            "Name: LATIN CAPITAL LETTER B WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḃ U+1E03 LATIN SMALL LETTER B WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E03",
+            "..U.LATIN SMALL LETTER B WITH DOT ABOVE",
+            "U+1E03",
+        ],
+        "body": [
+            "${1|ḃ,&#x1E03;,U+1E03,0x1E03,LATIN SMALL LETTER B WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E03",
+            "Character/Symbol: ḃ",
+            "Name: LATIN SMALL LETTER B WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḅ U+1E04 LATIN CAPITAL LETTER B WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E04",
+            "..U.LATIN CAPITAL LETTER B WITH DOT BELOW",
+            "U+1E04",
+        ],
+        "body": [
+            "${1|Ḅ,&#x1E04;,U+1E04,0x1E04,LATIN CAPITAL LETTER B WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E04",
+            "Character/Symbol: Ḅ",
+            "Name: LATIN CAPITAL LETTER B WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḅ U+1E05 LATIN SMALL LETTER B WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E05",
+            "..U.LATIN SMALL LETTER B WITH DOT BELOW",
+            "U+1E05",
+        ],
+        "body": [
+            "${1|ḅ,&#x1E05;,U+1E05,0x1E05,LATIN SMALL LETTER B WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E05",
+            "Character/Symbol: ḅ",
+            "Name: LATIN SMALL LETTER B WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḇ U+1E06 LATIN CAPITAL LETTER B WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E06",
+            "..U.LATIN CAPITAL LETTER B WITH LINE BELOW",
+            "U+1E06",
+        ],
+        "body": [
+            "${1|Ḇ,&#x1E06;,U+1E06,0x1E06,LATIN CAPITAL LETTER B WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E06",
+            "Character/Symbol: Ḇ",
+            "Name: LATIN CAPITAL LETTER B WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḇ U+1E07 LATIN SMALL LETTER B WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E07",
+            "..U.LATIN SMALL LETTER B WITH LINE BELOW",
+            "U+1E07",
+        ],
+        "body": [
+            "${1|ḇ,&#x1E07;,U+1E07,0x1E07,LATIN SMALL LETTER B WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E07",
+            "Character/Symbol: ḇ",
+            "Name: LATIN SMALL LETTER B WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḉ U+1E08 LATIN CAPITAL LETTER C WITH CEDILLA AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E08",
+            "..U.LATIN CAPITAL LETTER C WITH CEDILLA AND ACUTE",
+            "U+1E08",
+        ],
+        "body": [
+            "${1|Ḉ,&#x1E08;,U+1E08,0x1E08,LATIN CAPITAL LETTER C WITH CEDILLA AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E08",
+            "Character/Symbol: Ḉ",
+            "Name: LATIN CAPITAL LETTER C WITH CEDILLA AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḉ U+1E09 LATIN SMALL LETTER C WITH CEDILLA AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E09",
+            "..U.LATIN SMALL LETTER C WITH CEDILLA AND ACUTE",
+            "U+1E09",
+        ],
+        "body": [
+            "${1|ḉ,&#x1E09;,U+1E09,0x1E09,LATIN SMALL LETTER C WITH CEDILLA AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E09",
+            "Character/Symbol: ḉ",
+            "Name: LATIN SMALL LETTER C WITH CEDILLA AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḋ U+1E0A LATIN CAPITAL LETTER D WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E0A",
+            "..U.LATIN CAPITAL LETTER D WITH DOT ABOVE",
+            "U+1E0A",
+        ],
+        "body": [
+            "${1|Ḋ,&#x1E0A;,U+1E0A,0x1E0A,LATIN CAPITAL LETTER D WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E0A",
+            "Character/Symbol: Ḋ",
+            "Name: LATIN CAPITAL LETTER D WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḋ U+1E0B LATIN SMALL LETTER D WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E0B",
+            "..U.LATIN SMALL LETTER D WITH DOT ABOVE",
+            "U+1E0B",
+        ],
+        "body": [
+            "${1|ḋ,&#x1E0B;,U+1E0B,0x1E0B,LATIN SMALL LETTER D WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E0B",
+            "Character/Symbol: ḋ",
+            "Name: LATIN SMALL LETTER D WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḍ U+1E0C LATIN CAPITAL LETTER D WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E0C",
+            "..U.LATIN CAPITAL LETTER D WITH DOT BELOW",
+            "U+1E0C",
+        ],
+        "body": [
+            "${1|Ḍ,&#x1E0C;,U+1E0C,0x1E0C,LATIN CAPITAL LETTER D WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E0C",
+            "Character/Symbol: Ḍ",
+            "Name: LATIN CAPITAL LETTER D WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḍ U+1E0D LATIN SMALL LETTER D WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E0D",
+            "..U.LATIN SMALL LETTER D WITH DOT BELOW",
+            "U+1E0D",
+        ],
+        "body": [
+            "${1|ḍ,&#x1E0D;,U+1E0D,0x1E0D,LATIN SMALL LETTER D WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E0D",
+            "Character/Symbol: ḍ",
+            "Name: LATIN SMALL LETTER D WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḏ U+1E0E LATIN CAPITAL LETTER D WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E0E",
+            "..U.LATIN CAPITAL LETTER D WITH LINE BELOW",
+            "U+1E0E",
+        ],
+        "body": [
+            "${1|Ḏ,&#x1E0E;,U+1E0E,0x1E0E,LATIN CAPITAL LETTER D WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E0E",
+            "Character/Symbol: Ḏ",
+            "Name: LATIN CAPITAL LETTER D WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḏ U+1E0F LATIN SMALL LETTER D WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E0F",
+            "..U.LATIN SMALL LETTER D WITH LINE BELOW",
+            "U+1E0F",
+        ],
+        "body": [
+            "${1|ḏ,&#x1E0F;,U+1E0F,0x1E0F,LATIN SMALL LETTER D WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E0F",
+            "Character/Symbol: ḏ",
+            "Name: LATIN SMALL LETTER D WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḑ U+1E10 LATIN CAPITAL LETTER D WITH CEDILLA": 
+    {
+        "prefix": [
+            "..U.1E10",
+            "..U.LATIN CAPITAL LETTER D WITH CEDILLA",
+            "U+1E10",
+        ],
+        "body": [
+            "${1|Ḑ,&#x1E10;,U+1E10,0x1E10,LATIN CAPITAL LETTER D WITH CEDILLA|}$2",
+        ],
+        "description": [
+            "Code: U+1E10",
+            "Character/Symbol: Ḑ",
+            "Name: LATIN CAPITAL LETTER D WITH CEDILLA",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḑ U+1E11 LATIN SMALL LETTER D WITH CEDILLA": 
+    {
+        "prefix": [
+            "..U.1E11",
+            "..U.LATIN SMALL LETTER D WITH CEDILLA",
+            "U+1E11",
+        ],
+        "body": [
+            "${1|ḑ,&#x1E11;,U+1E11,0x1E11,LATIN SMALL LETTER D WITH CEDILLA|}$2",
+        ],
+        "description": [
+            "Code: U+1E11",
+            "Character/Symbol: ḑ",
+            "Name: LATIN SMALL LETTER D WITH CEDILLA",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḓ U+1E12 LATIN CAPITAL LETTER D WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E12",
+            "..U.LATIN CAPITAL LETTER D WITH CIRCUMFLEX BELOW",
+            "U+1E12",
+        ],
+        "body": [
+            "${1|Ḓ,&#x1E12;,U+1E12,0x1E12,LATIN CAPITAL LETTER D WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E12",
+            "Character/Symbol: Ḓ",
+            "Name: LATIN CAPITAL LETTER D WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḓ U+1E13 LATIN SMALL LETTER D WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E13",
+            "..U.LATIN SMALL LETTER D WITH CIRCUMFLEX BELOW",
+            "U+1E13",
+        ],
+        "body": [
+            "${1|ḓ,&#x1E13;,U+1E13,0x1E13,LATIN SMALL LETTER D WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E13",
+            "Character/Symbol: ḓ",
+            "Name: LATIN SMALL LETTER D WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḕ U+1E14 LATIN CAPITAL LETTER E WITH MACRON AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1E14",
+            "..U.LATIN CAPITAL LETTER E WITH MACRON AND GRAVE",
+            "U+1E14",
+        ],
+        "body": [
+            "${1|Ḕ,&#x1E14;,U+1E14,0x1E14,LATIN CAPITAL LETTER E WITH MACRON AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E14",
+            "Character/Symbol: Ḕ",
+            "Name: LATIN CAPITAL LETTER E WITH MACRON AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḕ U+1E15 LATIN SMALL LETTER E WITH MACRON AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1E15",
+            "..U.LATIN SMALL LETTER E WITH MACRON AND GRAVE",
+            "U+1E15",
+        ],
+        "body": [
+            "${1|ḕ,&#x1E15;,U+1E15,0x1E15,LATIN SMALL LETTER E WITH MACRON AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E15",
+            "Character/Symbol: ḕ",
+            "Name: LATIN SMALL LETTER E WITH MACRON AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḗ U+1E16 LATIN CAPITAL LETTER E WITH MACRON AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E16",
+            "..U.LATIN CAPITAL LETTER E WITH MACRON AND ACUTE",
+            "U+1E16",
+        ],
+        "body": [
+            "${1|Ḗ,&#x1E16;,U+1E16,0x1E16,LATIN CAPITAL LETTER E WITH MACRON AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E16",
+            "Character/Symbol: Ḗ",
+            "Name: LATIN CAPITAL LETTER E WITH MACRON AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḗ U+1E17 LATIN SMALL LETTER E WITH MACRON AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E17",
+            "..U.LATIN SMALL LETTER E WITH MACRON AND ACUTE",
+            "U+1E17",
+        ],
+        "body": [
+            "${1|ḗ,&#x1E17;,U+1E17,0x1E17,LATIN SMALL LETTER E WITH MACRON AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E17",
+            "Character/Symbol: ḗ",
+            "Name: LATIN SMALL LETTER E WITH MACRON AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḙ U+1E18 LATIN CAPITAL LETTER E WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E18",
+            "..U.LATIN CAPITAL LETTER E WITH CIRCUMFLEX BELOW",
+            "U+1E18",
+        ],
+        "body": [
+            "${1|Ḙ,&#x1E18;,U+1E18,0x1E18,LATIN CAPITAL LETTER E WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E18",
+            "Character/Symbol: Ḙ",
+            "Name: LATIN CAPITAL LETTER E WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḙ U+1E19 LATIN SMALL LETTER E WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E19",
+            "..U.LATIN SMALL LETTER E WITH CIRCUMFLEX BELOW",
+            "U+1E19",
+        ],
+        "body": [
+            "${1|ḙ,&#x1E19;,U+1E19,0x1E19,LATIN SMALL LETTER E WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E19",
+            "Character/Symbol: ḙ",
+            "Name: LATIN SMALL LETTER E WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḛ U+1E1A LATIN CAPITAL LETTER E WITH TILDE BELOW": 
+    {
+        "prefix": [
+            "..U.1E1A",
+            "..U.LATIN CAPITAL LETTER E WITH TILDE BELOW",
+            "U+1E1A",
+        ],
+        "body": [
+            "${1|Ḛ,&#x1E1A;,U+1E1A,0x1E1A,LATIN CAPITAL LETTER E WITH TILDE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E1A",
+            "Character/Symbol: Ḛ",
+            "Name: LATIN CAPITAL LETTER E WITH TILDE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḛ U+1E1B LATIN SMALL LETTER E WITH TILDE BELOW": 
+    {
+        "prefix": [
+            "..U.1E1B",
+            "..U.LATIN SMALL LETTER E WITH TILDE BELOW",
+            "U+1E1B",
+        ],
+        "body": [
+            "${1|ḛ,&#x1E1B;,U+1E1B,0x1E1B,LATIN SMALL LETTER E WITH TILDE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E1B",
+            "Character/Symbol: ḛ",
+            "Name: LATIN SMALL LETTER E WITH TILDE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḝ U+1E1C LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE": 
+    {
+        "prefix": [
+            "..U.1E1C",
+            "..U.LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE",
+            "U+1E1C",
+        ],
+        "body": [
+            "${1|Ḝ,&#x1E1C;,U+1E1C,0x1E1C,LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E1C",
+            "Character/Symbol: Ḝ",
+            "Name: LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḝ U+1E1D LATIN SMALL LETTER E WITH CEDILLA AND BREVE": 
+    {
+        "prefix": [
+            "..U.1E1D",
+            "..U.LATIN SMALL LETTER E WITH CEDILLA AND BREVE",
+            "U+1E1D",
+        ],
+        "body": [
+            "${1|ḝ,&#x1E1D;,U+1E1D,0x1E1D,LATIN SMALL LETTER E WITH CEDILLA AND BREVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E1D",
+            "Character/Symbol: ḝ",
+            "Name: LATIN SMALL LETTER E WITH CEDILLA AND BREVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḟ U+1E1E LATIN CAPITAL LETTER F WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E1E",
+            "..U.LATIN CAPITAL LETTER F WITH DOT ABOVE",
+            "U+1E1E",
+        ],
+        "body": [
+            "${1|Ḟ,&#x1E1E;,U+1E1E,0x1E1E,LATIN CAPITAL LETTER F WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E1E",
+            "Character/Symbol: Ḟ",
+            "Name: LATIN CAPITAL LETTER F WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḟ U+1E1F LATIN SMALL LETTER F WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E1F",
+            "..U.LATIN SMALL LETTER F WITH DOT ABOVE",
+            "U+1E1F",
+        ],
+        "body": [
+            "${1|ḟ,&#x1E1F;,U+1E1F,0x1E1F,LATIN SMALL LETTER F WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E1F",
+            "Character/Symbol: ḟ",
+            "Name: LATIN SMALL LETTER F WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḡ U+1E20 LATIN CAPITAL LETTER G WITH MACRON": 
+    {
+        "prefix": [
+            "..U.1E20",
+            "..U.LATIN CAPITAL LETTER G WITH MACRON",
+            "U+1E20",
+        ],
+        "body": [
+            "${1|Ḡ,&#x1E20;,U+1E20,0x1E20,LATIN CAPITAL LETTER G WITH MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+1E20",
+            "Character/Symbol: Ḡ",
+            "Name: LATIN CAPITAL LETTER G WITH MACRON",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḡ U+1E21 LATIN SMALL LETTER G WITH MACRON": 
+    {
+        "prefix": [
+            "..U.1E21",
+            "..U.LATIN SMALL LETTER G WITH MACRON",
+            "U+1E21",
+        ],
+        "body": [
+            "${1|ḡ,&#x1E21;,U+1E21,0x1E21,LATIN SMALL LETTER G WITH MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+1E21",
+            "Character/Symbol: ḡ",
+            "Name: LATIN SMALL LETTER G WITH MACRON",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḣ U+1E22 LATIN CAPITAL LETTER H WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E22",
+            "..U.LATIN CAPITAL LETTER H WITH DOT ABOVE",
+            "U+1E22",
+        ],
+        "body": [
+            "${1|Ḣ,&#x1E22;,U+1E22,0x1E22,LATIN CAPITAL LETTER H WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E22",
+            "Character/Symbol: Ḣ",
+            "Name: LATIN CAPITAL LETTER H WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḣ U+1E23 LATIN SMALL LETTER H WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E23",
+            "..U.LATIN SMALL LETTER H WITH DOT ABOVE",
+            "U+1E23",
+        ],
+        "body": [
+            "${1|ḣ,&#x1E23;,U+1E23,0x1E23,LATIN SMALL LETTER H WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E23",
+            "Character/Symbol: ḣ",
+            "Name: LATIN SMALL LETTER H WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḥ U+1E24 LATIN CAPITAL LETTER H WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E24",
+            "..U.LATIN CAPITAL LETTER H WITH DOT BELOW",
+            "U+1E24",
+        ],
+        "body": [
+            "${1|Ḥ,&#x1E24;,U+1E24,0x1E24,LATIN CAPITAL LETTER H WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E24",
+            "Character/Symbol: Ḥ",
+            "Name: LATIN CAPITAL LETTER H WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḥ U+1E25 LATIN SMALL LETTER H WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E25",
+            "..U.LATIN SMALL LETTER H WITH DOT BELOW",
+            "U+1E25",
+        ],
+        "body": [
+            "${1|ḥ,&#x1E25;,U+1E25,0x1E25,LATIN SMALL LETTER H WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E25",
+            "Character/Symbol: ḥ",
+            "Name: LATIN SMALL LETTER H WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḧ U+1E26 LATIN CAPITAL LETTER H WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.1E26",
+            "..U.LATIN CAPITAL LETTER H WITH DIAERESIS",
+            "U+1E26",
+        ],
+        "body": [
+            "${1|Ḧ,&#x1E26;,U+1E26,0x1E26,LATIN CAPITAL LETTER H WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+1E26",
+            "Character/Symbol: Ḧ",
+            "Name: LATIN CAPITAL LETTER H WITH DIAERESIS",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḧ U+1E27 LATIN SMALL LETTER H WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.1E27",
+            "..U.LATIN SMALL LETTER H WITH DIAERESIS",
+            "U+1E27",
+        ],
+        "body": [
+            "${1|ḧ,&#x1E27;,U+1E27,0x1E27,LATIN SMALL LETTER H WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+1E27",
+            "Character/Symbol: ḧ",
+            "Name: LATIN SMALL LETTER H WITH DIAERESIS",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḩ U+1E28 LATIN CAPITAL LETTER H WITH CEDILLA": 
+    {
+        "prefix": [
+            "..U.1E28",
+            "..U.LATIN CAPITAL LETTER H WITH CEDILLA",
+            "U+1E28",
+        ],
+        "body": [
+            "${1|Ḩ,&#x1E28;,U+1E28,0x1E28,LATIN CAPITAL LETTER H WITH CEDILLA|}$2",
+        ],
+        "description": [
+            "Code: U+1E28",
+            "Character/Symbol: Ḩ",
+            "Name: LATIN CAPITAL LETTER H WITH CEDILLA",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḩ U+1E29 LATIN SMALL LETTER H WITH CEDILLA": 
+    {
+        "prefix": [
+            "..U.1E29",
+            "..U.LATIN SMALL LETTER H WITH CEDILLA",
+            "U+1E29",
+        ],
+        "body": [
+            "${1|ḩ,&#x1E29;,U+1E29,0x1E29,LATIN SMALL LETTER H WITH CEDILLA|}$2",
+        ],
+        "description": [
+            "Code: U+1E29",
+            "Character/Symbol: ḩ",
+            "Name: LATIN SMALL LETTER H WITH CEDILLA",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḫ U+1E2A LATIN CAPITAL LETTER H WITH BREVE BELOW": 
+    {
+        "prefix": [
+            "..U.1E2A",
+            "..U.LATIN CAPITAL LETTER H WITH BREVE BELOW",
+            "U+1E2A",
+        ],
+        "body": [
+            "${1|Ḫ,&#x1E2A;,U+1E2A,0x1E2A,LATIN CAPITAL LETTER H WITH BREVE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E2A",
+            "Character/Symbol: Ḫ",
+            "Name: LATIN CAPITAL LETTER H WITH BREVE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḫ U+1E2B LATIN SMALL LETTER H WITH BREVE BELOW": 
+    {
+        "prefix": [
+            "..U.1E2B",
+            "..U.LATIN SMALL LETTER H WITH BREVE BELOW",
+            "U+1E2B",
+        ],
+        "body": [
+            "${1|ḫ,&#x1E2B;,U+1E2B,0x1E2B,LATIN SMALL LETTER H WITH BREVE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E2B",
+            "Character/Symbol: ḫ",
+            "Name: LATIN SMALL LETTER H WITH BREVE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḭ U+1E2C LATIN CAPITAL LETTER I WITH TILDE BELOW": 
+    {
+        "prefix": [
+            "..U.1E2C",
+            "..U.LATIN CAPITAL LETTER I WITH TILDE BELOW",
+            "U+1E2C",
+        ],
+        "body": [
+            "${1|Ḭ,&#x1E2C;,U+1E2C,0x1E2C,LATIN CAPITAL LETTER I WITH TILDE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E2C",
+            "Character/Symbol: Ḭ",
+            "Name: LATIN CAPITAL LETTER I WITH TILDE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḭ U+1E2D LATIN SMALL LETTER I WITH TILDE BELOW": 
+    {
+        "prefix": [
+            "..U.1E2D",
+            "..U.LATIN SMALL LETTER I WITH TILDE BELOW",
+            "U+1E2D",
+        ],
+        "body": [
+            "${1|ḭ,&#x1E2D;,U+1E2D,0x1E2D,LATIN SMALL LETTER I WITH TILDE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E2D",
+            "Character/Symbol: ḭ",
+            "Name: LATIN SMALL LETTER I WITH TILDE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḯ U+1E2E LATIN CAPITAL LETTER I WITH DIAERESIS AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E2E",
+            "..U.LATIN CAPITAL LETTER I WITH DIAERESIS AND ACUTE",
+            "U+1E2E",
+        ],
+        "body": [
+            "${1|Ḯ,&#x1E2E;,U+1E2E,0x1E2E,LATIN CAPITAL LETTER I WITH DIAERESIS AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E2E",
+            "Character/Symbol: Ḯ",
+            "Name: LATIN CAPITAL LETTER I WITH DIAERESIS AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḯ U+1E2F LATIN SMALL LETTER I WITH DIAERESIS AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E2F",
+            "..U.LATIN SMALL LETTER I WITH DIAERESIS AND ACUTE",
+            "U+1E2F",
+        ],
+        "body": [
+            "${1|ḯ,&#x1E2F;,U+1E2F,0x1E2F,LATIN SMALL LETTER I WITH DIAERESIS AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E2F",
+            "Character/Symbol: ḯ",
+            "Name: LATIN SMALL LETTER I WITH DIAERESIS AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḱ U+1E30 LATIN CAPITAL LETTER K WITH ACUTE": 
+    {
+        "prefix": [
+            "..U.1E30",
+            "..U.LATIN CAPITAL LETTER K WITH ACUTE",
+            "U+1E30",
+        ],
+        "body": [
+            "${1|Ḱ,&#x1E30;,U+1E30,0x1E30,LATIN CAPITAL LETTER K WITH ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E30",
+            "Character/Symbol: Ḱ",
+            "Name: LATIN CAPITAL LETTER K WITH ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḱ U+1E31 LATIN SMALL LETTER K WITH ACUTE": 
+    {
+        "prefix": [
+            "..U.1E31",
+            "..U.LATIN SMALL LETTER K WITH ACUTE",
+            "U+1E31",
+        ],
+        "body": [
+            "${1|ḱ,&#x1E31;,U+1E31,0x1E31,LATIN SMALL LETTER K WITH ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E31",
+            "Character/Symbol: ḱ",
+            "Name: LATIN SMALL LETTER K WITH ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḳ U+1E32 LATIN CAPITAL LETTER K WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E32",
+            "..U.LATIN CAPITAL LETTER K WITH DOT BELOW",
+            "U+1E32",
+        ],
+        "body": [
+            "${1|Ḳ,&#x1E32;,U+1E32,0x1E32,LATIN CAPITAL LETTER K WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E32",
+            "Character/Symbol: Ḳ",
+            "Name: LATIN CAPITAL LETTER K WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḳ U+1E33 LATIN SMALL LETTER K WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E33",
+            "..U.LATIN SMALL LETTER K WITH DOT BELOW",
+            "U+1E33",
+        ],
+        "body": [
+            "${1|ḳ,&#x1E33;,U+1E33,0x1E33,LATIN SMALL LETTER K WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E33",
+            "Character/Symbol: ḳ",
+            "Name: LATIN SMALL LETTER K WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḵ U+1E34 LATIN CAPITAL LETTER K WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E34",
+            "..U.LATIN CAPITAL LETTER K WITH LINE BELOW",
+            "U+1E34",
+        ],
+        "body": [
+            "${1|Ḵ,&#x1E34;,U+1E34,0x1E34,LATIN CAPITAL LETTER K WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E34",
+            "Character/Symbol: Ḵ",
+            "Name: LATIN CAPITAL LETTER K WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḵ U+1E35 LATIN SMALL LETTER K WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E35",
+            "..U.LATIN SMALL LETTER K WITH LINE BELOW",
+            "U+1E35",
+        ],
+        "body": [
+            "${1|ḵ,&#x1E35;,U+1E35,0x1E35,LATIN SMALL LETTER K WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E35",
+            "Character/Symbol: ḵ",
+            "Name: LATIN SMALL LETTER K WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḷ U+1E36 LATIN CAPITAL LETTER L WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E36",
+            "..U.LATIN CAPITAL LETTER L WITH DOT BELOW",
+            "U+1E36",
+        ],
+        "body": [
+            "${1|Ḷ,&#x1E36;,U+1E36,0x1E36,LATIN CAPITAL LETTER L WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E36",
+            "Character/Symbol: Ḷ",
+            "Name: LATIN CAPITAL LETTER L WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḷ U+1E37 LATIN SMALL LETTER L WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E37",
+            "..U.LATIN SMALL LETTER L WITH DOT BELOW",
+            "U+1E37",
+        ],
+        "body": [
+            "${1|ḷ,&#x1E37;,U+1E37,0x1E37,LATIN SMALL LETTER L WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E37",
+            "Character/Symbol: ḷ",
+            "Name: LATIN SMALL LETTER L WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḹ U+1E38 LATIN CAPITAL LETTER L WITH DOT BELOW AND MACRON": 
+    {
+        "prefix": [
+            "..U.1E38",
+            "..U.LATIN CAPITAL LETTER L WITH DOT BELOW AND MACRON",
+            "U+1E38",
+        ],
+        "body": [
+            "${1|Ḹ,&#x1E38;,U+1E38,0x1E38,LATIN CAPITAL LETTER L WITH DOT BELOW AND MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+1E38",
+            "Character/Symbol: Ḹ",
+            "Name: LATIN CAPITAL LETTER L WITH DOT BELOW AND MACRON",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḹ U+1E39 LATIN SMALL LETTER L WITH DOT BELOW AND MACRON": 
+    {
+        "prefix": [
+            "..U.1E39",
+            "..U.LATIN SMALL LETTER L WITH DOT BELOW AND MACRON",
+            "U+1E39",
+        ],
+        "body": [
+            "${1|ḹ,&#x1E39;,U+1E39,0x1E39,LATIN SMALL LETTER L WITH DOT BELOW AND MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+1E39",
+            "Character/Symbol: ḹ",
+            "Name: LATIN SMALL LETTER L WITH DOT BELOW AND MACRON",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḻ U+1E3A LATIN CAPITAL LETTER L WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E3A",
+            "..U.LATIN CAPITAL LETTER L WITH LINE BELOW",
+            "U+1E3A",
+        ],
+        "body": [
+            "${1|Ḻ,&#x1E3A;,U+1E3A,0x1E3A,LATIN CAPITAL LETTER L WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E3A",
+            "Character/Symbol: Ḻ",
+            "Name: LATIN CAPITAL LETTER L WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḻ U+1E3B LATIN SMALL LETTER L WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E3B",
+            "..U.LATIN SMALL LETTER L WITH LINE BELOW",
+            "U+1E3B",
+        ],
+        "body": [
+            "${1|ḻ,&#x1E3B;,U+1E3B,0x1E3B,LATIN SMALL LETTER L WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E3B",
+            "Character/Symbol: ḻ",
+            "Name: LATIN SMALL LETTER L WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḽ U+1E3C LATIN CAPITAL LETTER L WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E3C",
+            "..U.LATIN CAPITAL LETTER L WITH CIRCUMFLEX BELOW",
+            "U+1E3C",
+        ],
+        "body": [
+            "${1|Ḽ,&#x1E3C;,U+1E3C,0x1E3C,LATIN CAPITAL LETTER L WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E3C",
+            "Character/Symbol: Ḽ",
+            "Name: LATIN CAPITAL LETTER L WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḽ U+1E3D LATIN SMALL LETTER L WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E3D",
+            "..U.LATIN SMALL LETTER L WITH CIRCUMFLEX BELOW",
+            "U+1E3D",
+        ],
+        "body": [
+            "${1|ḽ,&#x1E3D;,U+1E3D,0x1E3D,LATIN SMALL LETTER L WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E3D",
+            "Character/Symbol: ḽ",
+            "Name: LATIN SMALL LETTER L WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ḿ U+1E3E LATIN CAPITAL LETTER M WITH ACUTE": 
+    {
+        "prefix": [
+            "..U.1E3E",
+            "..U.LATIN CAPITAL LETTER M WITH ACUTE",
+            "U+1E3E",
+        ],
+        "body": [
+            "${1|Ḿ,&#x1E3E;,U+1E3E,0x1E3E,LATIN CAPITAL LETTER M WITH ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E3E",
+            "Character/Symbol: Ḿ",
+            "Name: LATIN CAPITAL LETTER M WITH ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ḿ U+1E3F LATIN SMALL LETTER M WITH ACUTE": 
+    {
+        "prefix": [
+            "..U.1E3F",
+            "..U.LATIN SMALL LETTER M WITH ACUTE",
+            "U+1E3F",
+        ],
+        "body": [
+            "${1|ḿ,&#x1E3F;,U+1E3F,0x1E3F,LATIN SMALL LETTER M WITH ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E3F",
+            "Character/Symbol: ḿ",
+            "Name: LATIN SMALL LETTER M WITH ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṁ U+1E40 LATIN CAPITAL LETTER M WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E40",
+            "..U.LATIN CAPITAL LETTER M WITH DOT ABOVE",
+            "U+1E40",
+        ],
+        "body": [
+            "${1|Ṁ,&#x1E40;,U+1E40,0x1E40,LATIN CAPITAL LETTER M WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E40",
+            "Character/Symbol: Ṁ",
+            "Name: LATIN CAPITAL LETTER M WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṁ U+1E41 LATIN SMALL LETTER M WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E41",
+            "..U.LATIN SMALL LETTER M WITH DOT ABOVE",
+            "U+1E41",
+        ],
+        "body": [
+            "${1|ṁ,&#x1E41;,U+1E41,0x1E41,LATIN SMALL LETTER M WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E41",
+            "Character/Symbol: ṁ",
+            "Name: LATIN SMALL LETTER M WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṃ U+1E42 LATIN CAPITAL LETTER M WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E42",
+            "..U.LATIN CAPITAL LETTER M WITH DOT BELOW",
+            "U+1E42",
+        ],
+        "body": [
+            "${1|Ṃ,&#x1E42;,U+1E42,0x1E42,LATIN CAPITAL LETTER M WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E42",
+            "Character/Symbol: Ṃ",
+            "Name: LATIN CAPITAL LETTER M WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṃ U+1E43 LATIN SMALL LETTER M WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E43",
+            "..U.LATIN SMALL LETTER M WITH DOT BELOW",
+            "U+1E43",
+        ],
+        "body": [
+            "${1|ṃ,&#x1E43;,U+1E43,0x1E43,LATIN SMALL LETTER M WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E43",
+            "Character/Symbol: ṃ",
+            "Name: LATIN SMALL LETTER M WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṅ U+1E44 LATIN CAPITAL LETTER N WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E44",
+            "..U.LATIN CAPITAL LETTER N WITH DOT ABOVE",
+            "U+1E44",
+        ],
+        "body": [
+            "${1|Ṅ,&#x1E44;,U+1E44,0x1E44,LATIN CAPITAL LETTER N WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E44",
+            "Character/Symbol: Ṅ",
+            "Name: LATIN CAPITAL LETTER N WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṅ U+1E45 LATIN SMALL LETTER N WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E45",
+            "..U.LATIN SMALL LETTER N WITH DOT ABOVE",
+            "U+1E45",
+        ],
+        "body": [
+            "${1|ṅ,&#x1E45;,U+1E45,0x1E45,LATIN SMALL LETTER N WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E45",
+            "Character/Symbol: ṅ",
+            "Name: LATIN SMALL LETTER N WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṇ U+1E46 LATIN CAPITAL LETTER N WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E46",
+            "..U.LATIN CAPITAL LETTER N WITH DOT BELOW",
+            "U+1E46",
+        ],
+        "body": [
+            "${1|Ṇ,&#x1E46;,U+1E46,0x1E46,LATIN CAPITAL LETTER N WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E46",
+            "Character/Symbol: Ṇ",
+            "Name: LATIN CAPITAL LETTER N WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṇ U+1E47 LATIN SMALL LETTER N WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E47",
+            "..U.LATIN SMALL LETTER N WITH DOT BELOW",
+            "U+1E47",
+        ],
+        "body": [
+            "${1|ṇ,&#x1E47;,U+1E47,0x1E47,LATIN SMALL LETTER N WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E47",
+            "Character/Symbol: ṇ",
+            "Name: LATIN SMALL LETTER N WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṉ U+1E48 LATIN CAPITAL LETTER N WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E48",
+            "..U.LATIN CAPITAL LETTER N WITH LINE BELOW",
+            "U+1E48",
+        ],
+        "body": [
+            "${1|Ṉ,&#x1E48;,U+1E48,0x1E48,LATIN CAPITAL LETTER N WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E48",
+            "Character/Symbol: Ṉ",
+            "Name: LATIN CAPITAL LETTER N WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṉ U+1E49 LATIN SMALL LETTER N WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E49",
+            "..U.LATIN SMALL LETTER N WITH LINE BELOW",
+            "U+1E49",
+        ],
+        "body": [
+            "${1|ṉ,&#x1E49;,U+1E49,0x1E49,LATIN SMALL LETTER N WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E49",
+            "Character/Symbol: ṉ",
+            "Name: LATIN SMALL LETTER N WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṋ U+1E4A LATIN CAPITAL LETTER N WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E4A",
+            "..U.LATIN CAPITAL LETTER N WITH CIRCUMFLEX BELOW",
+            "U+1E4A",
+        ],
+        "body": [
+            "${1|Ṋ,&#x1E4A;,U+1E4A,0x1E4A,LATIN CAPITAL LETTER N WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E4A",
+            "Character/Symbol: Ṋ",
+            "Name: LATIN CAPITAL LETTER N WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṋ U+1E4B LATIN SMALL LETTER N WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E4B",
+            "..U.LATIN SMALL LETTER N WITH CIRCUMFLEX BELOW",
+            "U+1E4B",
+        ],
+        "body": [
+            "${1|ṋ,&#x1E4B;,U+1E4B,0x1E4B,LATIN SMALL LETTER N WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E4B",
+            "Character/Symbol: ṋ",
+            "Name: LATIN SMALL LETTER N WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṍ U+1E4C LATIN CAPITAL LETTER O WITH TILDE AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E4C",
+            "..U.LATIN CAPITAL LETTER O WITH TILDE AND ACUTE",
+            "U+1E4C",
+        ],
+        "body": [
+            "${1|Ṍ,&#x1E4C;,U+1E4C,0x1E4C,LATIN CAPITAL LETTER O WITH TILDE AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E4C",
+            "Character/Symbol: Ṍ",
+            "Name: LATIN CAPITAL LETTER O WITH TILDE AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṍ U+1E4D LATIN SMALL LETTER O WITH TILDE AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E4D",
+            "..U.LATIN SMALL LETTER O WITH TILDE AND ACUTE",
+            "U+1E4D",
+        ],
+        "body": [
+            "${1|ṍ,&#x1E4D;,U+1E4D,0x1E4D,LATIN SMALL LETTER O WITH TILDE AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E4D",
+            "Character/Symbol: ṍ",
+            "Name: LATIN SMALL LETTER O WITH TILDE AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṏ U+1E4E LATIN CAPITAL LETTER O WITH TILDE AND DIAERESIS": 
+    {
+        "prefix": [
+            "..U.1E4E",
+            "..U.LATIN CAPITAL LETTER O WITH TILDE AND DIAERESIS",
+            "U+1E4E",
+        ],
+        "body": [
+            "${1|Ṏ,&#x1E4E;,U+1E4E,0x1E4E,LATIN CAPITAL LETTER O WITH TILDE AND DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+1E4E",
+            "Character/Symbol: Ṏ",
+            "Name: LATIN CAPITAL LETTER O WITH TILDE AND DIAERESIS",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṏ U+1E4F LATIN SMALL LETTER O WITH TILDE AND DIAERESIS": 
+    {
+        "prefix": [
+            "..U.1E4F",
+            "..U.LATIN SMALL LETTER O WITH TILDE AND DIAERESIS",
+            "U+1E4F",
+        ],
+        "body": [
+            "${1|ṏ,&#x1E4F;,U+1E4F,0x1E4F,LATIN SMALL LETTER O WITH TILDE AND DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+1E4F",
+            "Character/Symbol: ṏ",
+            "Name: LATIN SMALL LETTER O WITH TILDE AND DIAERESIS",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṑ U+1E50 LATIN CAPITAL LETTER O WITH MACRON AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1E50",
+            "..U.LATIN CAPITAL LETTER O WITH MACRON AND GRAVE",
+            "U+1E50",
+        ],
+        "body": [
+            "${1|Ṑ,&#x1E50;,U+1E50,0x1E50,LATIN CAPITAL LETTER O WITH MACRON AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E50",
+            "Character/Symbol: Ṑ",
+            "Name: LATIN CAPITAL LETTER O WITH MACRON AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṑ U+1E51 LATIN SMALL LETTER O WITH MACRON AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1E51",
+            "..U.LATIN SMALL LETTER O WITH MACRON AND GRAVE",
+            "U+1E51",
+        ],
+        "body": [
+            "${1|ṑ,&#x1E51;,U+1E51,0x1E51,LATIN SMALL LETTER O WITH MACRON AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E51",
+            "Character/Symbol: ṑ",
+            "Name: LATIN SMALL LETTER O WITH MACRON AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṓ U+1E52 LATIN CAPITAL LETTER O WITH MACRON AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E52",
+            "..U.LATIN CAPITAL LETTER O WITH MACRON AND ACUTE",
+            "U+1E52",
+        ],
+        "body": [
+            "${1|Ṓ,&#x1E52;,U+1E52,0x1E52,LATIN CAPITAL LETTER O WITH MACRON AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E52",
+            "Character/Symbol: Ṓ",
+            "Name: LATIN CAPITAL LETTER O WITH MACRON AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṓ U+1E53 LATIN SMALL LETTER O WITH MACRON AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E53",
+            "..U.LATIN SMALL LETTER O WITH MACRON AND ACUTE",
+            "U+1E53",
+        ],
+        "body": [
+            "${1|ṓ,&#x1E53;,U+1E53,0x1E53,LATIN SMALL LETTER O WITH MACRON AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E53",
+            "Character/Symbol: ṓ",
+            "Name: LATIN SMALL LETTER O WITH MACRON AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṕ U+1E54 LATIN CAPITAL LETTER P WITH ACUTE": 
+    {
+        "prefix": [
+            "..U.1E54",
+            "..U.LATIN CAPITAL LETTER P WITH ACUTE",
+            "U+1E54",
+        ],
+        "body": [
+            "${1|Ṕ,&#x1E54;,U+1E54,0x1E54,LATIN CAPITAL LETTER P WITH ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E54",
+            "Character/Symbol: Ṕ",
+            "Name: LATIN CAPITAL LETTER P WITH ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṕ U+1E55 LATIN SMALL LETTER P WITH ACUTE": 
+    {
+        "prefix": [
+            "..U.1E55",
+            "..U.LATIN SMALL LETTER P WITH ACUTE",
+            "U+1E55",
+        ],
+        "body": [
+            "${1|ṕ,&#x1E55;,U+1E55,0x1E55,LATIN SMALL LETTER P WITH ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E55",
+            "Character/Symbol: ṕ",
+            "Name: LATIN SMALL LETTER P WITH ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṗ U+1E56 LATIN CAPITAL LETTER P WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E56",
+            "..U.LATIN CAPITAL LETTER P WITH DOT ABOVE",
+            "U+1E56",
+        ],
+        "body": [
+            "${1|Ṗ,&#x1E56;,U+1E56,0x1E56,LATIN CAPITAL LETTER P WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E56",
+            "Character/Symbol: Ṗ",
+            "Name: LATIN CAPITAL LETTER P WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṗ U+1E57 LATIN SMALL LETTER P WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E57",
+            "..U.LATIN SMALL LETTER P WITH DOT ABOVE",
+            "U+1E57",
+        ],
+        "body": [
+            "${1|ṗ,&#x1E57;,U+1E57,0x1E57,LATIN SMALL LETTER P WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E57",
+            "Character/Symbol: ṗ",
+            "Name: LATIN SMALL LETTER P WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṙ U+1E58 LATIN CAPITAL LETTER R WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E58",
+            "..U.LATIN CAPITAL LETTER R WITH DOT ABOVE",
+            "U+1E58",
+        ],
+        "body": [
+            "${1|Ṙ,&#x1E58;,U+1E58,0x1E58,LATIN CAPITAL LETTER R WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E58",
+            "Character/Symbol: Ṙ",
+            "Name: LATIN CAPITAL LETTER R WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṙ U+1E59 LATIN SMALL LETTER R WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E59",
+            "..U.LATIN SMALL LETTER R WITH DOT ABOVE",
+            "U+1E59",
+        ],
+        "body": [
+            "${1|ṙ,&#x1E59;,U+1E59,0x1E59,LATIN SMALL LETTER R WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E59",
+            "Character/Symbol: ṙ",
+            "Name: LATIN SMALL LETTER R WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṛ U+1E5A LATIN CAPITAL LETTER R WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E5A",
+            "..U.LATIN CAPITAL LETTER R WITH DOT BELOW",
+            "U+1E5A",
+        ],
+        "body": [
+            "${1|Ṛ,&#x1E5A;,U+1E5A,0x1E5A,LATIN CAPITAL LETTER R WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E5A",
+            "Character/Symbol: Ṛ",
+            "Name: LATIN CAPITAL LETTER R WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṛ U+1E5B LATIN SMALL LETTER R WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E5B",
+            "..U.LATIN SMALL LETTER R WITH DOT BELOW",
+            "U+1E5B",
+        ],
+        "body": [
+            "${1|ṛ,&#x1E5B;,U+1E5B,0x1E5B,LATIN SMALL LETTER R WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E5B",
+            "Character/Symbol: ṛ",
+            "Name: LATIN SMALL LETTER R WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṝ U+1E5C LATIN CAPITAL LETTER R WITH DOT BELOW AND MACRON": 
+    {
+        "prefix": [
+            "..U.1E5C",
+            "..U.LATIN CAPITAL LETTER R WITH DOT BELOW AND MACRON",
+            "U+1E5C",
+        ],
+        "body": [
+            "${1|Ṝ,&#x1E5C;,U+1E5C,0x1E5C,LATIN CAPITAL LETTER R WITH DOT BELOW AND MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+1E5C",
+            "Character/Symbol: Ṝ",
+            "Name: LATIN CAPITAL LETTER R WITH DOT BELOW AND MACRON",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṝ U+1E5D LATIN SMALL LETTER R WITH DOT BELOW AND MACRON": 
+    {
+        "prefix": [
+            "..U.1E5D",
+            "..U.LATIN SMALL LETTER R WITH DOT BELOW AND MACRON",
+            "U+1E5D",
+        ],
+        "body": [
+            "${1|ṝ,&#x1E5D;,U+1E5D,0x1E5D,LATIN SMALL LETTER R WITH DOT BELOW AND MACRON|}$2",
+        ],
+        "description": [
+            "Code: U+1E5D",
+            "Character/Symbol: ṝ",
+            "Name: LATIN SMALL LETTER R WITH DOT BELOW AND MACRON",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṟ U+1E5E LATIN CAPITAL LETTER R WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E5E",
+            "..U.LATIN CAPITAL LETTER R WITH LINE BELOW",
+            "U+1E5E",
+        ],
+        "body": [
+            "${1|Ṟ,&#x1E5E;,U+1E5E,0x1E5E,LATIN CAPITAL LETTER R WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E5E",
+            "Character/Symbol: Ṟ",
+            "Name: LATIN CAPITAL LETTER R WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṟ U+1E5F LATIN SMALL LETTER R WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E5F",
+            "..U.LATIN SMALL LETTER R WITH LINE BELOW",
+            "U+1E5F",
+        ],
+        "body": [
+            "${1|ṟ,&#x1E5F;,U+1E5F,0x1E5F,LATIN SMALL LETTER R WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E5F",
+            "Character/Symbol: ṟ",
+            "Name: LATIN SMALL LETTER R WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṡ U+1E60 LATIN CAPITAL LETTER S WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E60",
+            "..U.LATIN CAPITAL LETTER S WITH DOT ABOVE",
+            "U+1E60",
+        ],
+        "body": [
+            "${1|Ṡ,&#x1E60;,U+1E60,0x1E60,LATIN CAPITAL LETTER S WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E60",
+            "Character/Symbol: Ṡ",
+            "Name: LATIN CAPITAL LETTER S WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṡ U+1E61 LATIN SMALL LETTER S WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E61",
+            "..U.LATIN SMALL LETTER S WITH DOT ABOVE",
+            "U+1E61",
+        ],
+        "body": [
+            "${1|ṡ,&#x1E61;,U+1E61,0x1E61,LATIN SMALL LETTER S WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E61",
+            "Character/Symbol: ṡ",
+            "Name: LATIN SMALL LETTER S WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṣ U+1E62 LATIN CAPITAL LETTER S WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E62",
+            "..U.LATIN CAPITAL LETTER S WITH DOT BELOW",
+            "U+1E62",
+        ],
+        "body": [
+            "${1|Ṣ,&#x1E62;,U+1E62,0x1E62,LATIN CAPITAL LETTER S WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E62",
+            "Character/Symbol: Ṣ",
+            "Name: LATIN CAPITAL LETTER S WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṣ U+1E63 LATIN SMALL LETTER S WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E63",
+            "..U.LATIN SMALL LETTER S WITH DOT BELOW",
+            "U+1E63",
+        ],
+        "body": [
+            "${1|ṣ,&#x1E63;,U+1E63,0x1E63,LATIN SMALL LETTER S WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E63",
+            "Character/Symbol: ṣ",
+            "Name: LATIN SMALL LETTER S WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṥ U+1E64 LATIN CAPITAL LETTER S WITH ACUTE AND DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E64",
+            "..U.LATIN CAPITAL LETTER S WITH ACUTE AND DOT ABOVE",
+            "U+1E64",
+        ],
+        "body": [
+            "${1|Ṥ,&#x1E64;,U+1E64,0x1E64,LATIN CAPITAL LETTER S WITH ACUTE AND DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E64",
+            "Character/Symbol: Ṥ",
+            "Name: LATIN CAPITAL LETTER S WITH ACUTE AND DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṥ U+1E65 LATIN SMALL LETTER S WITH ACUTE AND DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E65",
+            "..U.LATIN SMALL LETTER S WITH ACUTE AND DOT ABOVE",
+            "U+1E65",
+        ],
+        "body": [
+            "${1|ṥ,&#x1E65;,U+1E65,0x1E65,LATIN SMALL LETTER S WITH ACUTE AND DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E65",
+            "Character/Symbol: ṥ",
+            "Name: LATIN SMALL LETTER S WITH ACUTE AND DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṧ U+1E66 LATIN CAPITAL LETTER S WITH CARON AND DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E66",
+            "..U.LATIN CAPITAL LETTER S WITH CARON AND DOT ABOVE",
+            "U+1E66",
+        ],
+        "body": [
+            "${1|Ṧ,&#x1E66;,U+1E66,0x1E66,LATIN CAPITAL LETTER S WITH CARON AND DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E66",
+            "Character/Symbol: Ṧ",
+            "Name: LATIN CAPITAL LETTER S WITH CARON AND DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṧ U+1E67 LATIN SMALL LETTER S WITH CARON AND DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E67",
+            "..U.LATIN SMALL LETTER S WITH CARON AND DOT ABOVE",
+            "U+1E67",
+        ],
+        "body": [
+            "${1|ṧ,&#x1E67;,U+1E67,0x1E67,LATIN SMALL LETTER S WITH CARON AND DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E67",
+            "Character/Symbol: ṧ",
+            "Name: LATIN SMALL LETTER S WITH CARON AND DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṩ U+1E68 LATIN CAPITAL LETTER S WITH DOT BELOW AND DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E68",
+            "..U.LATIN CAPITAL LETTER S WITH DOT BELOW AND DOT ABOVE",
+            "U+1E68",
+        ],
+        "body": [
+            "${1|Ṩ,&#x1E68;,U+1E68,0x1E68,LATIN CAPITAL LETTER S WITH DOT BELOW AND DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E68",
+            "Character/Symbol: Ṩ",
+            "Name: LATIN CAPITAL LETTER S WITH DOT BELOW AND DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṩ U+1E69 LATIN SMALL LETTER S WITH DOT BELOW AND DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E69",
+            "..U.LATIN SMALL LETTER S WITH DOT BELOW AND DOT ABOVE",
+            "U+1E69",
+        ],
+        "body": [
+            "${1|ṩ,&#x1E69;,U+1E69,0x1E69,LATIN SMALL LETTER S WITH DOT BELOW AND DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E69",
+            "Character/Symbol: ṩ",
+            "Name: LATIN SMALL LETTER S WITH DOT BELOW AND DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṫ U+1E6A LATIN CAPITAL LETTER T WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E6A",
+            "..U.LATIN CAPITAL LETTER T WITH DOT ABOVE",
+            "U+1E6A",
+        ],
+        "body": [
+            "${1|Ṫ,&#x1E6A;,U+1E6A,0x1E6A,LATIN CAPITAL LETTER T WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E6A",
+            "Character/Symbol: Ṫ",
+            "Name: LATIN CAPITAL LETTER T WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṫ U+1E6B LATIN SMALL LETTER T WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E6B",
+            "..U.LATIN SMALL LETTER T WITH DOT ABOVE",
+            "U+1E6B",
+        ],
+        "body": [
+            "${1|ṫ,&#x1E6B;,U+1E6B,0x1E6B,LATIN SMALL LETTER T WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E6B",
+            "Character/Symbol: ṫ",
+            "Name: LATIN SMALL LETTER T WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṭ U+1E6C LATIN CAPITAL LETTER T WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E6C",
+            "..U.LATIN CAPITAL LETTER T WITH DOT BELOW",
+            "U+1E6C",
+        ],
+        "body": [
+            "${1|Ṭ,&#x1E6C;,U+1E6C,0x1E6C,LATIN CAPITAL LETTER T WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E6C",
+            "Character/Symbol: Ṭ",
+            "Name: LATIN CAPITAL LETTER T WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṭ U+1E6D LATIN SMALL LETTER T WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E6D",
+            "..U.LATIN SMALL LETTER T WITH DOT BELOW",
+            "U+1E6D",
+        ],
+        "body": [
+            "${1|ṭ,&#x1E6D;,U+1E6D,0x1E6D,LATIN SMALL LETTER T WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E6D",
+            "Character/Symbol: ṭ",
+            "Name: LATIN SMALL LETTER T WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṯ U+1E6E LATIN CAPITAL LETTER T WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E6E",
+            "..U.LATIN CAPITAL LETTER T WITH LINE BELOW",
+            "U+1E6E",
+        ],
+        "body": [
+            "${1|Ṯ,&#x1E6E;,U+1E6E,0x1E6E,LATIN CAPITAL LETTER T WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E6E",
+            "Character/Symbol: Ṯ",
+            "Name: LATIN CAPITAL LETTER T WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṯ U+1E6F LATIN SMALL LETTER T WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E6F",
+            "..U.LATIN SMALL LETTER T WITH LINE BELOW",
+            "U+1E6F",
+        ],
+        "body": [
+            "${1|ṯ,&#x1E6F;,U+1E6F,0x1E6F,LATIN SMALL LETTER T WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E6F",
+            "Character/Symbol: ṯ",
+            "Name: LATIN SMALL LETTER T WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṱ U+1E70 LATIN CAPITAL LETTER T WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E70",
+            "..U.LATIN CAPITAL LETTER T WITH CIRCUMFLEX BELOW",
+            "U+1E70",
+        ],
+        "body": [
+            "${1|Ṱ,&#x1E70;,U+1E70,0x1E70,LATIN CAPITAL LETTER T WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E70",
+            "Character/Symbol: Ṱ",
+            "Name: LATIN CAPITAL LETTER T WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṱ U+1E71 LATIN SMALL LETTER T WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E71",
+            "..U.LATIN SMALL LETTER T WITH CIRCUMFLEX BELOW",
+            "U+1E71",
+        ],
+        "body": [
+            "${1|ṱ,&#x1E71;,U+1E71,0x1E71,LATIN SMALL LETTER T WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E71",
+            "Character/Symbol: ṱ",
+            "Name: LATIN SMALL LETTER T WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṳ U+1E72 LATIN CAPITAL LETTER U WITH DIAERESIS BELOW": 
+    {
+        "prefix": [
+            "..U.1E72",
+            "..U.LATIN CAPITAL LETTER U WITH DIAERESIS BELOW",
+            "U+1E72",
+        ],
+        "body": [
+            "${1|Ṳ,&#x1E72;,U+1E72,0x1E72,LATIN CAPITAL LETTER U WITH DIAERESIS BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E72",
+            "Character/Symbol: Ṳ",
+            "Name: LATIN CAPITAL LETTER U WITH DIAERESIS BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṳ U+1E73 LATIN SMALL LETTER U WITH DIAERESIS BELOW": 
+    {
+        "prefix": [
+            "..U.1E73",
+            "..U.LATIN SMALL LETTER U WITH DIAERESIS BELOW",
+            "U+1E73",
+        ],
+        "body": [
+            "${1|ṳ,&#x1E73;,U+1E73,0x1E73,LATIN SMALL LETTER U WITH DIAERESIS BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E73",
+            "Character/Symbol: ṳ",
+            "Name: LATIN SMALL LETTER U WITH DIAERESIS BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṵ U+1E74 LATIN CAPITAL LETTER U WITH TILDE BELOW": 
+    {
+        "prefix": [
+            "..U.1E74",
+            "..U.LATIN CAPITAL LETTER U WITH TILDE BELOW",
+            "U+1E74",
+        ],
+        "body": [
+            "${1|Ṵ,&#x1E74;,U+1E74,0x1E74,LATIN CAPITAL LETTER U WITH TILDE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E74",
+            "Character/Symbol: Ṵ",
+            "Name: LATIN CAPITAL LETTER U WITH TILDE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṵ U+1E75 LATIN SMALL LETTER U WITH TILDE BELOW": 
+    {
+        "prefix": [
+            "..U.1E75",
+            "..U.LATIN SMALL LETTER U WITH TILDE BELOW",
+            "U+1E75",
+        ],
+        "body": [
+            "${1|ṵ,&#x1E75;,U+1E75,0x1E75,LATIN SMALL LETTER U WITH TILDE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E75",
+            "Character/Symbol: ṵ",
+            "Name: LATIN SMALL LETTER U WITH TILDE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṷ U+1E76 LATIN CAPITAL LETTER U WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E76",
+            "..U.LATIN CAPITAL LETTER U WITH CIRCUMFLEX BELOW",
+            "U+1E76",
+        ],
+        "body": [
+            "${1|Ṷ,&#x1E76;,U+1E76,0x1E76,LATIN CAPITAL LETTER U WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E76",
+            "Character/Symbol: Ṷ",
+            "Name: LATIN CAPITAL LETTER U WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṷ U+1E77 LATIN SMALL LETTER U WITH CIRCUMFLEX BELOW": 
+    {
+        "prefix": [
+            "..U.1E77",
+            "..U.LATIN SMALL LETTER U WITH CIRCUMFLEX BELOW",
+            "U+1E77",
+        ],
+        "body": [
+            "${1|ṷ,&#x1E77;,U+1E77,0x1E77,LATIN SMALL LETTER U WITH CIRCUMFLEX BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E77",
+            "Character/Symbol: ṷ",
+            "Name: LATIN SMALL LETTER U WITH CIRCUMFLEX BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṹ U+1E78 LATIN CAPITAL LETTER U WITH TILDE AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E78",
+            "..U.LATIN CAPITAL LETTER U WITH TILDE AND ACUTE",
+            "U+1E78",
+        ],
+        "body": [
+            "${1|Ṹ,&#x1E78;,U+1E78,0x1E78,LATIN CAPITAL LETTER U WITH TILDE AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E78",
+            "Character/Symbol: Ṹ",
+            "Name: LATIN CAPITAL LETTER U WITH TILDE AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṹ U+1E79 LATIN SMALL LETTER U WITH TILDE AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1E79",
+            "..U.LATIN SMALL LETTER U WITH TILDE AND ACUTE",
+            "U+1E79",
+        ],
+        "body": [
+            "${1|ṹ,&#x1E79;,U+1E79,0x1E79,LATIN SMALL LETTER U WITH TILDE AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E79",
+            "Character/Symbol: ṹ",
+            "Name: LATIN SMALL LETTER U WITH TILDE AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṻ U+1E7A LATIN CAPITAL LETTER U WITH MACRON AND DIAERESIS": 
+    {
+        "prefix": [
+            "..U.1E7A",
+            "..U.LATIN CAPITAL LETTER U WITH MACRON AND DIAERESIS",
+            "U+1E7A",
+        ],
+        "body": [
+            "${1|Ṻ,&#x1E7A;,U+1E7A,0x1E7A,LATIN CAPITAL LETTER U WITH MACRON AND DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+1E7A",
+            "Character/Symbol: Ṻ",
+            "Name: LATIN CAPITAL LETTER U WITH MACRON AND DIAERESIS",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṻ U+1E7B LATIN SMALL LETTER U WITH MACRON AND DIAERESIS": 
+    {
+        "prefix": [
+            "..U.1E7B",
+            "..U.LATIN SMALL LETTER U WITH MACRON AND DIAERESIS",
+            "U+1E7B",
+        ],
+        "body": [
+            "${1|ṻ,&#x1E7B;,U+1E7B,0x1E7B,LATIN SMALL LETTER U WITH MACRON AND DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+1E7B",
+            "Character/Symbol: ṻ",
+            "Name: LATIN SMALL LETTER U WITH MACRON AND DIAERESIS",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṽ U+1E7C LATIN CAPITAL LETTER V WITH TILDE": 
+    {
+        "prefix": [
+            "..U.1E7C",
+            "..U.LATIN CAPITAL LETTER V WITH TILDE",
+            "U+1E7C",
+        ],
+        "body": [
+            "${1|Ṽ,&#x1E7C;,U+1E7C,0x1E7C,LATIN CAPITAL LETTER V WITH TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1E7C",
+            "Character/Symbol: Ṽ",
+            "Name: LATIN CAPITAL LETTER V WITH TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṽ U+1E7D LATIN SMALL LETTER V WITH TILDE": 
+    {
+        "prefix": [
+            "..U.1E7D",
+            "..U.LATIN SMALL LETTER V WITH TILDE",
+            "U+1E7D",
+        ],
+        "body": [
+            "${1|ṽ,&#x1E7D;,U+1E7D,0x1E7D,LATIN SMALL LETTER V WITH TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1E7D",
+            "Character/Symbol: ṽ",
+            "Name: LATIN SMALL LETTER V WITH TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ṿ U+1E7E LATIN CAPITAL LETTER V WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E7E",
+            "..U.LATIN CAPITAL LETTER V WITH DOT BELOW",
+            "U+1E7E",
+        ],
+        "body": [
+            "${1|Ṿ,&#x1E7E;,U+1E7E,0x1E7E,LATIN CAPITAL LETTER V WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E7E",
+            "Character/Symbol: Ṿ",
+            "Name: LATIN CAPITAL LETTER V WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ṿ U+1E7F LATIN SMALL LETTER V WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E7F",
+            "..U.LATIN SMALL LETTER V WITH DOT BELOW",
+            "U+1E7F",
+        ],
+        "body": [
+            "${1|ṿ,&#x1E7F;,U+1E7F,0x1E7F,LATIN SMALL LETTER V WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E7F",
+            "Character/Symbol: ṿ",
+            "Name: LATIN SMALL LETTER V WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẁ U+1E80 LATIN CAPITAL LETTER W WITH GRAVE": 
+    {
+        "prefix": [
+            "..U.1E80",
+            "..U.LATIN CAPITAL LETTER W WITH GRAVE",
+            "U+1E80",
+        ],
+        "body": [
+            "${1|Ẁ,&#x1E80;,U+1E80,0x1E80,LATIN CAPITAL LETTER W WITH GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E80",
+            "Character/Symbol: Ẁ",
+            "Name: LATIN CAPITAL LETTER W WITH GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẁ U+1E81 LATIN SMALL LETTER W WITH GRAVE": 
+    {
+        "prefix": [
+            "..U.1E81",
+            "..U.LATIN SMALL LETTER W WITH GRAVE",
+            "U+1E81",
+        ],
+        "body": [
+            "${1|ẁ,&#x1E81;,U+1E81,0x1E81,LATIN SMALL LETTER W WITH GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E81",
+            "Character/Symbol: ẁ",
+            "Name: LATIN SMALL LETTER W WITH GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẃ U+1E82 LATIN CAPITAL LETTER W WITH ACUTE": 
+    {
+        "prefix": [
+            "..U.1E82",
+            "..U.LATIN CAPITAL LETTER W WITH ACUTE",
+            "U+1E82",
+        ],
+        "body": [
+            "${1|Ẃ,&#x1E82;,U+1E82,0x1E82,LATIN CAPITAL LETTER W WITH ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E82",
+            "Character/Symbol: Ẃ",
+            "Name: LATIN CAPITAL LETTER W WITH ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẃ U+1E83 LATIN SMALL LETTER W WITH ACUTE": 
+    {
+        "prefix": [
+            "..U.1E83",
+            "..U.LATIN SMALL LETTER W WITH ACUTE",
+            "U+1E83",
+        ],
+        "body": [
+            "${1|ẃ,&#x1E83;,U+1E83,0x1E83,LATIN SMALL LETTER W WITH ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1E83",
+            "Character/Symbol: ẃ",
+            "Name: LATIN SMALL LETTER W WITH ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẅ U+1E84 LATIN CAPITAL LETTER W WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.1E84",
+            "..U.LATIN CAPITAL LETTER W WITH DIAERESIS",
+            "U+1E84",
+        ],
+        "body": [
+            "${1|Ẅ,&#x1E84;,U+1E84,0x1E84,LATIN CAPITAL LETTER W WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+1E84",
+            "Character/Symbol: Ẅ",
+            "Name: LATIN CAPITAL LETTER W WITH DIAERESIS",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẅ U+1E85 LATIN SMALL LETTER W WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.1E85",
+            "..U.LATIN SMALL LETTER W WITH DIAERESIS",
+            "U+1E85",
+        ],
+        "body": [
+            "${1|ẅ,&#x1E85;,U+1E85,0x1E85,LATIN SMALL LETTER W WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+1E85",
+            "Character/Symbol: ẅ",
+            "Name: LATIN SMALL LETTER W WITH DIAERESIS",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẇ U+1E86 LATIN CAPITAL LETTER W WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E86",
+            "..U.LATIN CAPITAL LETTER W WITH DOT ABOVE",
+            "U+1E86",
+        ],
+        "body": [
+            "${1|Ẇ,&#x1E86;,U+1E86,0x1E86,LATIN CAPITAL LETTER W WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E86",
+            "Character/Symbol: Ẇ",
+            "Name: LATIN CAPITAL LETTER W WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẇ U+1E87 LATIN SMALL LETTER W WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E87",
+            "..U.LATIN SMALL LETTER W WITH DOT ABOVE",
+            "U+1E87",
+        ],
+        "body": [
+            "${1|ẇ,&#x1E87;,U+1E87,0x1E87,LATIN SMALL LETTER W WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E87",
+            "Character/Symbol: ẇ",
+            "Name: LATIN SMALL LETTER W WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẉ U+1E88 LATIN CAPITAL LETTER W WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E88",
+            "..U.LATIN CAPITAL LETTER W WITH DOT BELOW",
+            "U+1E88",
+        ],
+        "body": [
+            "${1|Ẉ,&#x1E88;,U+1E88,0x1E88,LATIN CAPITAL LETTER W WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E88",
+            "Character/Symbol: Ẉ",
+            "Name: LATIN CAPITAL LETTER W WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẉ U+1E89 LATIN SMALL LETTER W WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E89",
+            "..U.LATIN SMALL LETTER W WITH DOT BELOW",
+            "U+1E89",
+        ],
+        "body": [
+            "${1|ẉ,&#x1E89;,U+1E89,0x1E89,LATIN SMALL LETTER W WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E89",
+            "Character/Symbol: ẉ",
+            "Name: LATIN SMALL LETTER W WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẋ U+1E8A LATIN CAPITAL LETTER X WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E8A",
+            "..U.LATIN CAPITAL LETTER X WITH DOT ABOVE",
+            "U+1E8A",
+        ],
+        "body": [
+            "${1|Ẋ,&#x1E8A;,U+1E8A,0x1E8A,LATIN CAPITAL LETTER X WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E8A",
+            "Character/Symbol: Ẋ",
+            "Name: LATIN CAPITAL LETTER X WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẋ U+1E8B LATIN SMALL LETTER X WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E8B",
+            "..U.LATIN SMALL LETTER X WITH DOT ABOVE",
+            "U+1E8B",
+        ],
+        "body": [
+            "${1|ẋ,&#x1E8B;,U+1E8B,0x1E8B,LATIN SMALL LETTER X WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E8B",
+            "Character/Symbol: ẋ",
+            "Name: LATIN SMALL LETTER X WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẍ U+1E8C LATIN CAPITAL LETTER X WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.1E8C",
+            "..U.LATIN CAPITAL LETTER X WITH DIAERESIS",
+            "U+1E8C",
+        ],
+        "body": [
+            "${1|Ẍ,&#x1E8C;,U+1E8C,0x1E8C,LATIN CAPITAL LETTER X WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+1E8C",
+            "Character/Symbol: Ẍ",
+            "Name: LATIN CAPITAL LETTER X WITH DIAERESIS",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẍ U+1E8D LATIN SMALL LETTER X WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.1E8D",
+            "..U.LATIN SMALL LETTER X WITH DIAERESIS",
+            "U+1E8D",
+        ],
+        "body": [
+            "${1|ẍ,&#x1E8D;,U+1E8D,0x1E8D,LATIN SMALL LETTER X WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+1E8D",
+            "Character/Symbol: ẍ",
+            "Name: LATIN SMALL LETTER X WITH DIAERESIS",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẏ U+1E8E LATIN CAPITAL LETTER Y WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E8E",
+            "..U.LATIN CAPITAL LETTER Y WITH DOT ABOVE",
+            "U+1E8E",
+        ],
+        "body": [
+            "${1|Ẏ,&#x1E8E;,U+1E8E,0x1E8E,LATIN CAPITAL LETTER Y WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E8E",
+            "Character/Symbol: Ẏ",
+            "Name: LATIN CAPITAL LETTER Y WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẏ U+1E8F LATIN SMALL LETTER Y WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E8F",
+            "..U.LATIN SMALL LETTER Y WITH DOT ABOVE",
+            "U+1E8F",
+        ],
+        "body": [
+            "${1|ẏ,&#x1E8F;,U+1E8F,0x1E8F,LATIN SMALL LETTER Y WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E8F",
+            "Character/Symbol: ẏ",
+            "Name: LATIN SMALL LETTER Y WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẑ U+1E90 LATIN CAPITAL LETTER Z WITH CIRCUMFLEX": 
+    {
+        "prefix": [
+            "..U.1E90",
+            "..U.LATIN CAPITAL LETTER Z WITH CIRCUMFLEX",
+            "U+1E90",
+        ],
+        "body": [
+            "${1|Ẑ,&#x1E90;,U+1E90,0x1E90,LATIN CAPITAL LETTER Z WITH CIRCUMFLEX|}$2",
+        ],
+        "description": [
+            "Code: U+1E90",
+            "Character/Symbol: Ẑ",
+            "Name: LATIN CAPITAL LETTER Z WITH CIRCUMFLEX",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẑ U+1E91 LATIN SMALL LETTER Z WITH CIRCUMFLEX": 
+    {
+        "prefix": [
+            "..U.1E91",
+            "..U.LATIN SMALL LETTER Z WITH CIRCUMFLEX",
+            "U+1E91",
+        ],
+        "body": [
+            "${1|ẑ,&#x1E91;,U+1E91,0x1E91,LATIN SMALL LETTER Z WITH CIRCUMFLEX|}$2",
+        ],
+        "description": [
+            "Code: U+1E91",
+            "Character/Symbol: ẑ",
+            "Name: LATIN SMALL LETTER Z WITH CIRCUMFLEX",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẓ U+1E92 LATIN CAPITAL LETTER Z WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E92",
+            "..U.LATIN CAPITAL LETTER Z WITH DOT BELOW",
+            "U+1E92",
+        ],
+        "body": [
+            "${1|Ẓ,&#x1E92;,U+1E92,0x1E92,LATIN CAPITAL LETTER Z WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E92",
+            "Character/Symbol: Ẓ",
+            "Name: LATIN CAPITAL LETTER Z WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẓ U+1E93 LATIN SMALL LETTER Z WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1E93",
+            "..U.LATIN SMALL LETTER Z WITH DOT BELOW",
+            "U+1E93",
+        ],
+        "body": [
+            "${1|ẓ,&#x1E93;,U+1E93,0x1E93,LATIN SMALL LETTER Z WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E93",
+            "Character/Symbol: ẓ",
+            "Name: LATIN SMALL LETTER Z WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẕ U+1E94 LATIN CAPITAL LETTER Z WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E94",
+            "..U.LATIN CAPITAL LETTER Z WITH LINE BELOW",
+            "U+1E94",
+        ],
+        "body": [
+            "${1|Ẕ,&#x1E94;,U+1E94,0x1E94,LATIN CAPITAL LETTER Z WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E94",
+            "Character/Symbol: Ẕ",
+            "Name: LATIN CAPITAL LETTER Z WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẕ U+1E95 LATIN SMALL LETTER Z WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E95",
+            "..U.LATIN SMALL LETTER Z WITH LINE BELOW",
+            "U+1E95",
+        ],
+        "body": [
+            "${1|ẕ,&#x1E95;,U+1E95,0x1E95,LATIN SMALL LETTER Z WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E95",
+            "Character/Symbol: ẕ",
+            "Name: LATIN SMALL LETTER Z WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẖ U+1E96 LATIN SMALL LETTER H WITH LINE BELOW": 
+    {
+        "prefix": [
+            "..U.1E96",
+            "..U.LATIN SMALL LETTER H WITH LINE BELOW",
+            "U+1E96",
+        ],
+        "body": [
+            "${1|ẖ,&#x1E96;,U+1E96,0x1E96,LATIN SMALL LETTER H WITH LINE BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1E96",
+            "Character/Symbol: ẖ",
+            "Name: LATIN SMALL LETTER H WITH LINE BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẗ U+1E97 LATIN SMALL LETTER T WITH DIAERESIS": 
+    {
+        "prefix": [
+            "..U.1E97",
+            "..U.LATIN SMALL LETTER T WITH DIAERESIS",
+            "U+1E97",
+        ],
+        "body": [
+            "${1|ẗ,&#x1E97;,U+1E97,0x1E97,LATIN SMALL LETTER T WITH DIAERESIS|}$2",
+        ],
+        "description": [
+            "Code: U+1E97",
+            "Character/Symbol: ẗ",
+            "Name: LATIN SMALL LETTER T WITH DIAERESIS",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẘ U+1E98 LATIN SMALL LETTER W WITH RING ABOVE": 
+    {
+        "prefix": [
+            "..U.1E98",
+            "..U.LATIN SMALL LETTER W WITH RING ABOVE",
+            "U+1E98",
+        ],
+        "body": [
+            "${1|ẘ,&#x1E98;,U+1E98,0x1E98,LATIN SMALL LETTER W WITH RING ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E98",
+            "Character/Symbol: ẘ",
+            "Name: LATIN SMALL LETTER W WITH RING ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẙ U+1E99 LATIN SMALL LETTER Y WITH RING ABOVE": 
+    {
+        "prefix": [
+            "..U.1E99",
+            "..U.LATIN SMALL LETTER Y WITH RING ABOVE",
+            "U+1E99",
+        ],
+        "body": [
+            "${1|ẙ,&#x1E99;,U+1E99,0x1E99,LATIN SMALL LETTER Y WITH RING ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E99",
+            "Character/Symbol: ẙ",
+            "Name: LATIN SMALL LETTER Y WITH RING ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẚ U+1E9A LATIN SMALL LETTER A WITH RIGHT HALF RING": 
+    {
+        "prefix": [
+            "..U.1E9A",
+            "..U.LATIN SMALL LETTER A WITH RIGHT HALF RING",
+            "U+1E9A",
+        ],
+        "body": [
+            "${1|ẚ,&#x1E9A;,U+1E9A,0x1E9A,LATIN SMALL LETTER A WITH RIGHT HALF RING|}$2",
+        ],
+        "description": [
+            "Code: U+1E9A",
+            "Character/Symbol: ẚ",
+            "Name: LATIN SMALL LETTER A WITH RIGHT HALF RING",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẛ U+1E9B LATIN SMALL LETTER LONG S WITH DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.1E9B",
+            "..U.LATIN SMALL LETTER LONG S WITH DOT ABOVE",
+            "U+1E9B",
+        ],
+        "body": [
+            "${1|ẛ,&#x1E9B;,U+1E9B,0x1E9B,LATIN SMALL LETTER LONG S WITH DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1E9B",
+            "Character/Symbol: ẛ",
+            "Name: LATIN SMALL LETTER LONG S WITH DOT ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẜ U+1E9C LATIN SMALL LETTER LONG S WITH DIAGONAL STROKE": 
+    {
+        "prefix": [
+            "..U.1E9C",
+            "..U.LATIN SMALL LETTER LONG S WITH DIAGONAL STROKE",
+            "U+1E9C",
+        ],
+        "body": [
+            "${1|ẜ,&#x1E9C;,U+1E9C,0x1E9C,LATIN SMALL LETTER LONG S WITH DIAGONAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+1E9C",
+            "Character/Symbol: ẜ",
+            "Name: LATIN SMALL LETTER LONG S WITH DIAGONAL STROKE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẝ U+1E9D LATIN SMALL LETTER LONG S WITH HIGH STROKE": 
+    {
+        "prefix": [
+            "..U.1E9D",
+            "..U.LATIN SMALL LETTER LONG S WITH HIGH STROKE",
+            "U+1E9D",
+        ],
+        "body": [
+            "${1|ẝ,&#x1E9D;,U+1E9D,0x1E9D,LATIN SMALL LETTER LONG S WITH HIGH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+1E9D",
+            "Character/Symbol: ẝ",
+            "Name: LATIN SMALL LETTER LONG S WITH HIGH STROKE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẞ U+1E9E LATIN CAPITAL LETTER SHARP S": 
+    {
+        "prefix": [
+            "..U.1E9E",
+            "..U.LATIN CAPITAL LETTER SHARP S",
+            "U+1E9E",
+        ],
+        "body": [
+            "${1|ẞ,&#x1E9E;,U+1E9E,0x1E9E,LATIN CAPITAL LETTER SHARP S|}$2",
+        ],
+        "description": [
+            "Code: U+1E9E",
+            "Character/Symbol: ẞ",
+            "Name: LATIN CAPITAL LETTER SHARP S",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẟ U+1E9F LATIN SMALL LETTER DELTA": 
+    {
+        "prefix": [
+            "..U.1E9F",
+            "..U.LATIN SMALL LETTER DELTA",
+            "U+1E9F",
+        ],
+        "body": [
+            "${1|ẟ,&#x1E9F;,U+1E9F,0x1E9F,LATIN SMALL LETTER DELTA|}$2",
+        ],
+        "description": [
+            "Code: U+1E9F",
+            "Character/Symbol: ẟ",
+            "Name: LATIN SMALL LETTER DELTA",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ạ U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EA0",
+            "..U.LATIN CAPITAL LETTER A WITH DOT BELOW",
+            "U+1EA0",
+        ],
+        "body": [
+            "${1|Ạ,&#x1EA0;,U+1EA0,0x1EA0,LATIN CAPITAL LETTER A WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EA0",
+            "Character/Symbol: Ạ",
+            "Name: LATIN CAPITAL LETTER A WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ạ U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EA1",
+            "..U.LATIN SMALL LETTER A WITH DOT BELOW",
+            "U+1EA1",
+        ],
+        "body": [
+            "${1|ạ,&#x1EA1;,U+1EA1,0x1EA1,LATIN SMALL LETTER A WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EA1",
+            "Character/Symbol: ạ",
+            "Name: LATIN SMALL LETTER A WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ả U+1EA2 LATIN CAPITAL LETTER A WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EA2",
+            "..U.LATIN CAPITAL LETTER A WITH HOOK ABOVE",
+            "U+1EA2",
+        ],
+        "body": [
+            "${1|Ả,&#x1EA2;,U+1EA2,0x1EA2,LATIN CAPITAL LETTER A WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EA2",
+            "Character/Symbol: Ả",
+            "Name: LATIN CAPITAL LETTER A WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ả U+1EA3 LATIN SMALL LETTER A WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EA3",
+            "..U.LATIN SMALL LETTER A WITH HOOK ABOVE",
+            "U+1EA3",
+        ],
+        "body": [
+            "${1|ả,&#x1EA3;,U+1EA3,0x1EA3,LATIN SMALL LETTER A WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EA3",
+            "Character/Symbol: ả",
+            "Name: LATIN SMALL LETTER A WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ấ U+1EA4 LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1EA4",
+            "..U.LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND ACUTE",
+            "U+1EA4",
+        ],
+        "body": [
+            "${1|Ấ,&#x1EA4;,U+1EA4,0x1EA4,LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1EA4",
+            "Character/Symbol: Ấ",
+            "Name: LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ấ U+1EA5 LATIN SMALL LETTER A WITH CIRCUMFLEX AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1EA5",
+            "..U.LATIN SMALL LETTER A WITH CIRCUMFLEX AND ACUTE",
+            "U+1EA5",
+        ],
+        "body": [
+            "${1|ấ,&#x1EA5;,U+1EA5,0x1EA5,LATIN SMALL LETTER A WITH CIRCUMFLEX AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1EA5",
+            "Character/Symbol: ấ",
+            "Name: LATIN SMALL LETTER A WITH CIRCUMFLEX AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ầ U+1EA6 LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1EA6",
+            "..U.LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND GRAVE",
+            "U+1EA6",
+        ],
+        "body": [
+            "${1|Ầ,&#x1EA6;,U+1EA6,0x1EA6,LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EA6",
+            "Character/Symbol: Ầ",
+            "Name: LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ầ U+1EA7 LATIN SMALL LETTER A WITH CIRCUMFLEX AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1EA7",
+            "..U.LATIN SMALL LETTER A WITH CIRCUMFLEX AND GRAVE",
+            "U+1EA7",
+        ],
+        "body": [
+            "${1|ầ,&#x1EA7;,U+1EA7,0x1EA7,LATIN SMALL LETTER A WITH CIRCUMFLEX AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EA7",
+            "Character/Symbol: ầ",
+            "Name: LATIN SMALL LETTER A WITH CIRCUMFLEX AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẩ U+1EA8 LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EA8",
+            "..U.LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE",
+            "U+1EA8",
+        ],
+        "body": [
+            "${1|Ẩ,&#x1EA8;,U+1EA8,0x1EA8,LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EA8",
+            "Character/Symbol: Ẩ",
+            "Name: LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẩ U+1EA9 LATIN SMALL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EA9",
+            "..U.LATIN SMALL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE",
+            "U+1EA9",
+        ],
+        "body": [
+            "${1|ẩ,&#x1EA9;,U+1EA9,0x1EA9,LATIN SMALL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EA9",
+            "Character/Symbol: ẩ",
+            "Name: LATIN SMALL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẫ U+1EAA LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND TILDE": 
+    {
+        "prefix": [
+            "..U.1EAA",
+            "..U.LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND TILDE",
+            "U+1EAA",
+        ],
+        "body": [
+            "${1|Ẫ,&#x1EAA;,U+1EAA,0x1EAA,LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EAA",
+            "Character/Symbol: Ẫ",
+            "Name: LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẫ U+1EAB LATIN SMALL LETTER A WITH CIRCUMFLEX AND TILDE": 
+    {
+        "prefix": [
+            "..U.1EAB",
+            "..U.LATIN SMALL LETTER A WITH CIRCUMFLEX AND TILDE",
+            "U+1EAB",
+        ],
+        "body": [
+            "${1|ẫ,&#x1EAB;,U+1EAB,0x1EAB,LATIN SMALL LETTER A WITH CIRCUMFLEX AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EAB",
+            "Character/Symbol: ẫ",
+            "Name: LATIN SMALL LETTER A WITH CIRCUMFLEX AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ậ U+1EAC LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EAC",
+            "..U.LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND DOT BELOW",
+            "U+1EAC",
+        ],
+        "body": [
+            "${1|Ậ,&#x1EAC;,U+1EAC,0x1EAC,LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EAC",
+            "Character/Symbol: Ậ",
+            "Name: LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ậ U+1EAD LATIN SMALL LETTER A WITH CIRCUMFLEX AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EAD",
+            "..U.LATIN SMALL LETTER A WITH CIRCUMFLEX AND DOT BELOW",
+            "U+1EAD",
+        ],
+        "body": [
+            "${1|ậ,&#x1EAD;,U+1EAD,0x1EAD,LATIN SMALL LETTER A WITH CIRCUMFLEX AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EAD",
+            "Character/Symbol: ậ",
+            "Name: LATIN SMALL LETTER A WITH CIRCUMFLEX AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ắ U+1EAE LATIN CAPITAL LETTER A WITH BREVE AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1EAE",
+            "..U.LATIN CAPITAL LETTER A WITH BREVE AND ACUTE",
+            "U+1EAE",
+        ],
+        "body": [
+            "${1|Ắ,&#x1EAE;,U+1EAE,0x1EAE,LATIN CAPITAL LETTER A WITH BREVE AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1EAE",
+            "Character/Symbol: Ắ",
+            "Name: LATIN CAPITAL LETTER A WITH BREVE AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ắ U+1EAF LATIN SMALL LETTER A WITH BREVE AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1EAF",
+            "..U.LATIN SMALL LETTER A WITH BREVE AND ACUTE",
+            "U+1EAF",
+        ],
+        "body": [
+            "${1|ắ,&#x1EAF;,U+1EAF,0x1EAF,LATIN SMALL LETTER A WITH BREVE AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1EAF",
+            "Character/Symbol: ắ",
+            "Name: LATIN SMALL LETTER A WITH BREVE AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ằ U+1EB0 LATIN CAPITAL LETTER A WITH BREVE AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1EB0",
+            "..U.LATIN CAPITAL LETTER A WITH BREVE AND GRAVE",
+            "U+1EB0",
+        ],
+        "body": [
+            "${1|Ằ,&#x1EB0;,U+1EB0,0x1EB0,LATIN CAPITAL LETTER A WITH BREVE AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EB0",
+            "Character/Symbol: Ằ",
+            "Name: LATIN CAPITAL LETTER A WITH BREVE AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ằ U+1EB1 LATIN SMALL LETTER A WITH BREVE AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1EB1",
+            "..U.LATIN SMALL LETTER A WITH BREVE AND GRAVE",
+            "U+1EB1",
+        ],
+        "body": [
+            "${1|ằ,&#x1EB1;,U+1EB1,0x1EB1,LATIN SMALL LETTER A WITH BREVE AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EB1",
+            "Character/Symbol: ằ",
+            "Name: LATIN SMALL LETTER A WITH BREVE AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẳ U+1EB2 LATIN CAPITAL LETTER A WITH BREVE AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EB2",
+            "..U.LATIN CAPITAL LETTER A WITH BREVE AND HOOK ABOVE",
+            "U+1EB2",
+        ],
+        "body": [
+            "${1|Ẳ,&#x1EB2;,U+1EB2,0x1EB2,LATIN CAPITAL LETTER A WITH BREVE AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EB2",
+            "Character/Symbol: Ẳ",
+            "Name: LATIN CAPITAL LETTER A WITH BREVE AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẳ U+1EB3 LATIN SMALL LETTER A WITH BREVE AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EB3",
+            "..U.LATIN SMALL LETTER A WITH BREVE AND HOOK ABOVE",
+            "U+1EB3",
+        ],
+        "body": [
+            "${1|ẳ,&#x1EB3;,U+1EB3,0x1EB3,LATIN SMALL LETTER A WITH BREVE AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EB3",
+            "Character/Symbol: ẳ",
+            "Name: LATIN SMALL LETTER A WITH BREVE AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẵ U+1EB4 LATIN CAPITAL LETTER A WITH BREVE AND TILDE": 
+    {
+        "prefix": [
+            "..U.1EB4",
+            "..U.LATIN CAPITAL LETTER A WITH BREVE AND TILDE",
+            "U+1EB4",
+        ],
+        "body": [
+            "${1|Ẵ,&#x1EB4;,U+1EB4,0x1EB4,LATIN CAPITAL LETTER A WITH BREVE AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EB4",
+            "Character/Symbol: Ẵ",
+            "Name: LATIN CAPITAL LETTER A WITH BREVE AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẵ U+1EB5 LATIN SMALL LETTER A WITH BREVE AND TILDE": 
+    {
+        "prefix": [
+            "..U.1EB5",
+            "..U.LATIN SMALL LETTER A WITH BREVE AND TILDE",
+            "U+1EB5",
+        ],
+        "body": [
+            "${1|ẵ,&#x1EB5;,U+1EB5,0x1EB5,LATIN SMALL LETTER A WITH BREVE AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EB5",
+            "Character/Symbol: ẵ",
+            "Name: LATIN SMALL LETTER A WITH BREVE AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ặ U+1EB6 LATIN CAPITAL LETTER A WITH BREVE AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EB6",
+            "..U.LATIN CAPITAL LETTER A WITH BREVE AND DOT BELOW",
+            "U+1EB6",
+        ],
+        "body": [
+            "${1|Ặ,&#x1EB6;,U+1EB6,0x1EB6,LATIN CAPITAL LETTER A WITH BREVE AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EB6",
+            "Character/Symbol: Ặ",
+            "Name: LATIN CAPITAL LETTER A WITH BREVE AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ặ U+1EB7 LATIN SMALL LETTER A WITH BREVE AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EB7",
+            "..U.LATIN SMALL LETTER A WITH BREVE AND DOT BELOW",
+            "U+1EB7",
+        ],
+        "body": [
+            "${1|ặ,&#x1EB7;,U+1EB7,0x1EB7,LATIN SMALL LETTER A WITH BREVE AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EB7",
+            "Character/Symbol: ặ",
+            "Name: LATIN SMALL LETTER A WITH BREVE AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẹ U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EB8",
+            "..U.LATIN CAPITAL LETTER E WITH DOT BELOW",
+            "U+1EB8",
+        ],
+        "body": [
+            "${1|Ẹ,&#x1EB8;,U+1EB8,0x1EB8,LATIN CAPITAL LETTER E WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EB8",
+            "Character/Symbol: Ẹ",
+            "Name: LATIN CAPITAL LETTER E WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẹ U+1EB9 LATIN SMALL LETTER E WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EB9",
+            "..U.LATIN SMALL LETTER E WITH DOT BELOW",
+            "U+1EB9",
+        ],
+        "body": [
+            "${1|ẹ,&#x1EB9;,U+1EB9,0x1EB9,LATIN SMALL LETTER E WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EB9",
+            "Character/Symbol: ẹ",
+            "Name: LATIN SMALL LETTER E WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẻ U+1EBA LATIN CAPITAL LETTER E WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EBA",
+            "..U.LATIN CAPITAL LETTER E WITH HOOK ABOVE",
+            "U+1EBA",
+        ],
+        "body": [
+            "${1|Ẻ,&#x1EBA;,U+1EBA,0x1EBA,LATIN CAPITAL LETTER E WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EBA",
+            "Character/Symbol: Ẻ",
+            "Name: LATIN CAPITAL LETTER E WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẻ U+1EBB LATIN SMALL LETTER E WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EBB",
+            "..U.LATIN SMALL LETTER E WITH HOOK ABOVE",
+            "U+1EBB",
+        ],
+        "body": [
+            "${1|ẻ,&#x1EBB;,U+1EBB,0x1EBB,LATIN SMALL LETTER E WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EBB",
+            "Character/Symbol: ẻ",
+            "Name: LATIN SMALL LETTER E WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ẽ U+1EBC LATIN CAPITAL LETTER E WITH TILDE": 
+    {
+        "prefix": [
+            "..U.1EBC",
+            "..U.LATIN CAPITAL LETTER E WITH TILDE",
+            "U+1EBC",
+        ],
+        "body": [
+            "${1|Ẽ,&#x1EBC;,U+1EBC,0x1EBC,LATIN CAPITAL LETTER E WITH TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EBC",
+            "Character/Symbol: Ẽ",
+            "Name: LATIN CAPITAL LETTER E WITH TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ẽ U+1EBD LATIN SMALL LETTER E WITH TILDE": 
+    {
+        "prefix": [
+            "..U.1EBD",
+            "..U.LATIN SMALL LETTER E WITH TILDE",
+            "U+1EBD",
+        ],
+        "body": [
+            "${1|ẽ,&#x1EBD;,U+1EBD,0x1EBD,LATIN SMALL LETTER E WITH TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EBD",
+            "Character/Symbol: ẽ",
+            "Name: LATIN SMALL LETTER E WITH TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ế U+1EBE LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1EBE",
+            "..U.LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND ACUTE",
+            "U+1EBE",
+        ],
+        "body": [
+            "${1|Ế,&#x1EBE;,U+1EBE,0x1EBE,LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1EBE",
+            "Character/Symbol: Ế",
+            "Name: LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ế U+1EBF LATIN SMALL LETTER E WITH CIRCUMFLEX AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1EBF",
+            "..U.LATIN SMALL LETTER E WITH CIRCUMFLEX AND ACUTE",
+            "U+1EBF",
+        ],
+        "body": [
+            "${1|ế,&#x1EBF;,U+1EBF,0x1EBF,LATIN SMALL LETTER E WITH CIRCUMFLEX AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1EBF",
+            "Character/Symbol: ế",
+            "Name: LATIN SMALL LETTER E WITH CIRCUMFLEX AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ề U+1EC0 LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1EC0",
+            "..U.LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND GRAVE",
+            "U+1EC0",
+        ],
+        "body": [
+            "${1|Ề,&#x1EC0;,U+1EC0,0x1EC0,LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EC0",
+            "Character/Symbol: Ề",
+            "Name: LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ề U+1EC1 LATIN SMALL LETTER E WITH CIRCUMFLEX AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1EC1",
+            "..U.LATIN SMALL LETTER E WITH CIRCUMFLEX AND GRAVE",
+            "U+1EC1",
+        ],
+        "body": [
+            "${1|ề,&#x1EC1;,U+1EC1,0x1EC1,LATIN SMALL LETTER E WITH CIRCUMFLEX AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EC1",
+            "Character/Symbol: ề",
+            "Name: LATIN SMALL LETTER E WITH CIRCUMFLEX AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ể U+1EC2 LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EC2",
+            "..U.LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND HOOK ABOVE",
+            "U+1EC2",
+        ],
+        "body": [
+            "${1|Ể,&#x1EC2;,U+1EC2,0x1EC2,LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EC2",
+            "Character/Symbol: Ể",
+            "Name: LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ể U+1EC3 LATIN SMALL LETTER E WITH CIRCUMFLEX AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EC3",
+            "..U.LATIN SMALL LETTER E WITH CIRCUMFLEX AND HOOK ABOVE",
+            "U+1EC3",
+        ],
+        "body": [
+            "${1|ể,&#x1EC3;,U+1EC3,0x1EC3,LATIN SMALL LETTER E WITH CIRCUMFLEX AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EC3",
+            "Character/Symbol: ể",
+            "Name: LATIN SMALL LETTER E WITH CIRCUMFLEX AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ễ U+1EC4 LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND TILDE": 
+    {
+        "prefix": [
+            "..U.1EC4",
+            "..U.LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND TILDE",
+            "U+1EC4",
+        ],
+        "body": [
+            "${1|Ễ,&#x1EC4;,U+1EC4,0x1EC4,LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EC4",
+            "Character/Symbol: Ễ",
+            "Name: LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ễ U+1EC5 LATIN SMALL LETTER E WITH CIRCUMFLEX AND TILDE": 
+    {
+        "prefix": [
+            "..U.1EC5",
+            "..U.LATIN SMALL LETTER E WITH CIRCUMFLEX AND TILDE",
+            "U+1EC5",
+        ],
+        "body": [
+            "${1|ễ,&#x1EC5;,U+1EC5,0x1EC5,LATIN SMALL LETTER E WITH CIRCUMFLEX AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EC5",
+            "Character/Symbol: ễ",
+            "Name: LATIN SMALL LETTER E WITH CIRCUMFLEX AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ệ U+1EC6 LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EC6",
+            "..U.LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND DOT BELOW",
+            "U+1EC6",
+        ],
+        "body": [
+            "${1|Ệ,&#x1EC6;,U+1EC6,0x1EC6,LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EC6",
+            "Character/Symbol: Ệ",
+            "Name: LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ệ U+1EC7 LATIN SMALL LETTER E WITH CIRCUMFLEX AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EC7",
+            "..U.LATIN SMALL LETTER E WITH CIRCUMFLEX AND DOT BELOW",
+            "U+1EC7",
+        ],
+        "body": [
+            "${1|ệ,&#x1EC7;,U+1EC7,0x1EC7,LATIN SMALL LETTER E WITH CIRCUMFLEX AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EC7",
+            "Character/Symbol: ệ",
+            "Name: LATIN SMALL LETTER E WITH CIRCUMFLEX AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ỉ U+1EC8 LATIN CAPITAL LETTER I WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EC8",
+            "..U.LATIN CAPITAL LETTER I WITH HOOK ABOVE",
+            "U+1EC8",
+        ],
+        "body": [
+            "${1|Ỉ,&#x1EC8;,U+1EC8,0x1EC8,LATIN CAPITAL LETTER I WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EC8",
+            "Character/Symbol: Ỉ",
+            "Name: LATIN CAPITAL LETTER I WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ỉ U+1EC9 LATIN SMALL LETTER I WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EC9",
+            "..U.LATIN SMALL LETTER I WITH HOOK ABOVE",
+            "U+1EC9",
+        ],
+        "body": [
+            "${1|ỉ,&#x1EC9;,U+1EC9,0x1EC9,LATIN SMALL LETTER I WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EC9",
+            "Character/Symbol: ỉ",
+            "Name: LATIN SMALL LETTER I WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ị U+1ECA LATIN CAPITAL LETTER I WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1ECA",
+            "..U.LATIN CAPITAL LETTER I WITH DOT BELOW",
+            "U+1ECA",
+        ],
+        "body": [
+            "${1|Ị,&#x1ECA;,U+1ECA,0x1ECA,LATIN CAPITAL LETTER I WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1ECA",
+            "Character/Symbol: Ị",
+            "Name: LATIN CAPITAL LETTER I WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ị U+1ECB LATIN SMALL LETTER I WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1ECB",
+            "..U.LATIN SMALL LETTER I WITH DOT BELOW",
+            "U+1ECB",
+        ],
+        "body": [
+            "${1|ị,&#x1ECB;,U+1ECB,0x1ECB,LATIN SMALL LETTER I WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1ECB",
+            "Character/Symbol: ị",
+            "Name: LATIN SMALL LETTER I WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ọ U+1ECC LATIN CAPITAL LETTER O WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1ECC",
+            "..U.LATIN CAPITAL LETTER O WITH DOT BELOW",
+            "U+1ECC",
+        ],
+        "body": [
+            "${1|Ọ,&#x1ECC;,U+1ECC,0x1ECC,LATIN CAPITAL LETTER O WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1ECC",
+            "Character/Symbol: Ọ",
+            "Name: LATIN CAPITAL LETTER O WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ọ U+1ECD LATIN SMALL LETTER O WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1ECD",
+            "..U.LATIN SMALL LETTER O WITH DOT BELOW",
+            "U+1ECD",
+        ],
+        "body": [
+            "${1|ọ,&#x1ECD;,U+1ECD,0x1ECD,LATIN SMALL LETTER O WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1ECD",
+            "Character/Symbol: ọ",
+            "Name: LATIN SMALL LETTER O WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ỏ U+1ECE LATIN CAPITAL LETTER O WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1ECE",
+            "..U.LATIN CAPITAL LETTER O WITH HOOK ABOVE",
+            "U+1ECE",
+        ],
+        "body": [
+            "${1|Ỏ,&#x1ECE;,U+1ECE,0x1ECE,LATIN CAPITAL LETTER O WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1ECE",
+            "Character/Symbol: Ỏ",
+            "Name: LATIN CAPITAL LETTER O WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ỏ U+1ECF LATIN SMALL LETTER O WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1ECF",
+            "..U.LATIN SMALL LETTER O WITH HOOK ABOVE",
+            "U+1ECF",
+        ],
+        "body": [
+            "${1|ỏ,&#x1ECF;,U+1ECF,0x1ECF,LATIN SMALL LETTER O WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1ECF",
+            "Character/Symbol: ỏ",
+            "Name: LATIN SMALL LETTER O WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ố U+1ED0 LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1ED0",
+            "..U.LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND ACUTE",
+            "U+1ED0",
+        ],
+        "body": [
+            "${1|Ố,&#x1ED0;,U+1ED0,0x1ED0,LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1ED0",
+            "Character/Symbol: Ố",
+            "Name: LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ố U+1ED1 LATIN SMALL LETTER O WITH CIRCUMFLEX AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1ED1",
+            "..U.LATIN SMALL LETTER O WITH CIRCUMFLEX AND ACUTE",
+            "U+1ED1",
+        ],
+        "body": [
+            "${1|ố,&#x1ED1;,U+1ED1,0x1ED1,LATIN SMALL LETTER O WITH CIRCUMFLEX AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1ED1",
+            "Character/Symbol: ố",
+            "Name: LATIN SMALL LETTER O WITH CIRCUMFLEX AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ồ U+1ED2 LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1ED2",
+            "..U.LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND GRAVE",
+            "U+1ED2",
+        ],
+        "body": [
+            "${1|Ồ,&#x1ED2;,U+1ED2,0x1ED2,LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1ED2",
+            "Character/Symbol: Ồ",
+            "Name: LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ồ U+1ED3 LATIN SMALL LETTER O WITH CIRCUMFLEX AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1ED3",
+            "..U.LATIN SMALL LETTER O WITH CIRCUMFLEX AND GRAVE",
+            "U+1ED3",
+        ],
+        "body": [
+            "${1|ồ,&#x1ED3;,U+1ED3,0x1ED3,LATIN SMALL LETTER O WITH CIRCUMFLEX AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1ED3",
+            "Character/Symbol: ồ",
+            "Name: LATIN SMALL LETTER O WITH CIRCUMFLEX AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ổ U+1ED4 LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1ED4",
+            "..U.LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND HOOK ABOVE",
+            "U+1ED4",
+        ],
+        "body": [
+            "${1|Ổ,&#x1ED4;,U+1ED4,0x1ED4,LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1ED4",
+            "Character/Symbol: Ổ",
+            "Name: LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ổ U+1ED5 LATIN SMALL LETTER O WITH CIRCUMFLEX AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1ED5",
+            "..U.LATIN SMALL LETTER O WITH CIRCUMFLEX AND HOOK ABOVE",
+            "U+1ED5",
+        ],
+        "body": [
+            "${1|ổ,&#x1ED5;,U+1ED5,0x1ED5,LATIN SMALL LETTER O WITH CIRCUMFLEX AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1ED5",
+            "Character/Symbol: ổ",
+            "Name: LATIN SMALL LETTER O WITH CIRCUMFLEX AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ỗ U+1ED6 LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND TILDE": 
+    {
+        "prefix": [
+            "..U.1ED6",
+            "..U.LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND TILDE",
+            "U+1ED6",
+        ],
+        "body": [
+            "${1|Ỗ,&#x1ED6;,U+1ED6,0x1ED6,LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1ED6",
+            "Character/Symbol: Ỗ",
+            "Name: LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ỗ U+1ED7 LATIN SMALL LETTER O WITH CIRCUMFLEX AND TILDE": 
+    {
+        "prefix": [
+            "..U.1ED7",
+            "..U.LATIN SMALL LETTER O WITH CIRCUMFLEX AND TILDE",
+            "U+1ED7",
+        ],
+        "body": [
+            "${1|ỗ,&#x1ED7;,U+1ED7,0x1ED7,LATIN SMALL LETTER O WITH CIRCUMFLEX AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1ED7",
+            "Character/Symbol: ỗ",
+            "Name: LATIN SMALL LETTER O WITH CIRCUMFLEX AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ộ U+1ED8 LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1ED8",
+            "..U.LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND DOT BELOW",
+            "U+1ED8",
+        ],
+        "body": [
+            "${1|Ộ,&#x1ED8;,U+1ED8,0x1ED8,LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1ED8",
+            "Character/Symbol: Ộ",
+            "Name: LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ộ U+1ED9 LATIN SMALL LETTER O WITH CIRCUMFLEX AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1ED9",
+            "..U.LATIN SMALL LETTER O WITH CIRCUMFLEX AND DOT BELOW",
+            "U+1ED9",
+        ],
+        "body": [
+            "${1|ộ,&#x1ED9;,U+1ED9,0x1ED9,LATIN SMALL LETTER O WITH CIRCUMFLEX AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1ED9",
+            "Character/Symbol: ộ",
+            "Name: LATIN SMALL LETTER O WITH CIRCUMFLEX AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ớ U+1EDA LATIN CAPITAL LETTER O WITH HORN AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1EDA",
+            "..U.LATIN CAPITAL LETTER O WITH HORN AND ACUTE",
+            "U+1EDA",
+        ],
+        "body": [
+            "${1|Ớ,&#x1EDA;,U+1EDA,0x1EDA,LATIN CAPITAL LETTER O WITH HORN AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1EDA",
+            "Character/Symbol: Ớ",
+            "Name: LATIN CAPITAL LETTER O WITH HORN AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ớ U+1EDB LATIN SMALL LETTER O WITH HORN AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1EDB",
+            "..U.LATIN SMALL LETTER O WITH HORN AND ACUTE",
+            "U+1EDB",
+        ],
+        "body": [
+            "${1|ớ,&#x1EDB;,U+1EDB,0x1EDB,LATIN SMALL LETTER O WITH HORN AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1EDB",
+            "Character/Symbol: ớ",
+            "Name: LATIN SMALL LETTER O WITH HORN AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ờ U+1EDC LATIN CAPITAL LETTER O WITH HORN AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1EDC",
+            "..U.LATIN CAPITAL LETTER O WITH HORN AND GRAVE",
+            "U+1EDC",
+        ],
+        "body": [
+            "${1|Ờ,&#x1EDC;,U+1EDC,0x1EDC,LATIN CAPITAL LETTER O WITH HORN AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EDC",
+            "Character/Symbol: Ờ",
+            "Name: LATIN CAPITAL LETTER O WITH HORN AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ờ U+1EDD LATIN SMALL LETTER O WITH HORN AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1EDD",
+            "..U.LATIN SMALL LETTER O WITH HORN AND GRAVE",
+            "U+1EDD",
+        ],
+        "body": [
+            "${1|ờ,&#x1EDD;,U+1EDD,0x1EDD,LATIN SMALL LETTER O WITH HORN AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EDD",
+            "Character/Symbol: ờ",
+            "Name: LATIN SMALL LETTER O WITH HORN AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ở U+1EDE LATIN CAPITAL LETTER O WITH HORN AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EDE",
+            "..U.LATIN CAPITAL LETTER O WITH HORN AND HOOK ABOVE",
+            "U+1EDE",
+        ],
+        "body": [
+            "${1|Ở,&#x1EDE;,U+1EDE,0x1EDE,LATIN CAPITAL LETTER O WITH HORN AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EDE",
+            "Character/Symbol: Ở",
+            "Name: LATIN CAPITAL LETTER O WITH HORN AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ở U+1EDF LATIN SMALL LETTER O WITH HORN AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EDF",
+            "..U.LATIN SMALL LETTER O WITH HORN AND HOOK ABOVE",
+            "U+1EDF",
+        ],
+        "body": [
+            "${1|ở,&#x1EDF;,U+1EDF,0x1EDF,LATIN SMALL LETTER O WITH HORN AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EDF",
+            "Character/Symbol: ở",
+            "Name: LATIN SMALL LETTER O WITH HORN AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ỡ U+1EE0 LATIN CAPITAL LETTER O WITH HORN AND TILDE": 
+    {
+        "prefix": [
+            "..U.1EE0",
+            "..U.LATIN CAPITAL LETTER O WITH HORN AND TILDE",
+            "U+1EE0",
+        ],
+        "body": [
+            "${1|Ỡ,&#x1EE0;,U+1EE0,0x1EE0,LATIN CAPITAL LETTER O WITH HORN AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EE0",
+            "Character/Symbol: Ỡ",
+            "Name: LATIN CAPITAL LETTER O WITH HORN AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ỡ U+1EE1 LATIN SMALL LETTER O WITH HORN AND TILDE": 
+    {
+        "prefix": [
+            "..U.1EE1",
+            "..U.LATIN SMALL LETTER O WITH HORN AND TILDE",
+            "U+1EE1",
+        ],
+        "body": [
+            "${1|ỡ,&#x1EE1;,U+1EE1,0x1EE1,LATIN SMALL LETTER O WITH HORN AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EE1",
+            "Character/Symbol: ỡ",
+            "Name: LATIN SMALL LETTER O WITH HORN AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ợ U+1EE2 LATIN CAPITAL LETTER O WITH HORN AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EE2",
+            "..U.LATIN CAPITAL LETTER O WITH HORN AND DOT BELOW",
+            "U+1EE2",
+        ],
+        "body": [
+            "${1|Ợ,&#x1EE2;,U+1EE2,0x1EE2,LATIN CAPITAL LETTER O WITH HORN AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EE2",
+            "Character/Symbol: Ợ",
+            "Name: LATIN CAPITAL LETTER O WITH HORN AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ợ U+1EE3 LATIN SMALL LETTER O WITH HORN AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EE3",
+            "..U.LATIN SMALL LETTER O WITH HORN AND DOT BELOW",
+            "U+1EE3",
+        ],
+        "body": [
+            "${1|ợ,&#x1EE3;,U+1EE3,0x1EE3,LATIN SMALL LETTER O WITH HORN AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EE3",
+            "Character/Symbol: ợ",
+            "Name: LATIN SMALL LETTER O WITH HORN AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ụ U+1EE4 LATIN CAPITAL LETTER U WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EE4",
+            "..U.LATIN CAPITAL LETTER U WITH DOT BELOW",
+            "U+1EE4",
+        ],
+        "body": [
+            "${1|Ụ,&#x1EE4;,U+1EE4,0x1EE4,LATIN CAPITAL LETTER U WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EE4",
+            "Character/Symbol: Ụ",
+            "Name: LATIN CAPITAL LETTER U WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ụ U+1EE5 LATIN SMALL LETTER U WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EE5",
+            "..U.LATIN SMALL LETTER U WITH DOT BELOW",
+            "U+1EE5",
+        ],
+        "body": [
+            "${1|ụ,&#x1EE5;,U+1EE5,0x1EE5,LATIN SMALL LETTER U WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EE5",
+            "Character/Symbol: ụ",
+            "Name: LATIN SMALL LETTER U WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ủ U+1EE6 LATIN CAPITAL LETTER U WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EE6",
+            "..U.LATIN CAPITAL LETTER U WITH HOOK ABOVE",
+            "U+1EE6",
+        ],
+        "body": [
+            "${1|Ủ,&#x1EE6;,U+1EE6,0x1EE6,LATIN CAPITAL LETTER U WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EE6",
+            "Character/Symbol: Ủ",
+            "Name: LATIN CAPITAL LETTER U WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ủ U+1EE7 LATIN SMALL LETTER U WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EE7",
+            "..U.LATIN SMALL LETTER U WITH HOOK ABOVE",
+            "U+1EE7",
+        ],
+        "body": [
+            "${1|ủ,&#x1EE7;,U+1EE7,0x1EE7,LATIN SMALL LETTER U WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EE7",
+            "Character/Symbol: ủ",
+            "Name: LATIN SMALL LETTER U WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ứ U+1EE8 LATIN CAPITAL LETTER U WITH HORN AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1EE8",
+            "..U.LATIN CAPITAL LETTER U WITH HORN AND ACUTE",
+            "U+1EE8",
+        ],
+        "body": [
+            "${1|Ứ,&#x1EE8;,U+1EE8,0x1EE8,LATIN CAPITAL LETTER U WITH HORN AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1EE8",
+            "Character/Symbol: Ứ",
+            "Name: LATIN CAPITAL LETTER U WITH HORN AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ứ U+1EE9 LATIN SMALL LETTER U WITH HORN AND ACUTE": 
+    {
+        "prefix": [
+            "..U.1EE9",
+            "..U.LATIN SMALL LETTER U WITH HORN AND ACUTE",
+            "U+1EE9",
+        ],
+        "body": [
+            "${1|ứ,&#x1EE9;,U+1EE9,0x1EE9,LATIN SMALL LETTER U WITH HORN AND ACUTE|}$2",
+        ],
+        "description": [
+            "Code: U+1EE9",
+            "Character/Symbol: ứ",
+            "Name: LATIN SMALL LETTER U WITH HORN AND ACUTE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ừ U+1EEA LATIN CAPITAL LETTER U WITH HORN AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1EEA",
+            "..U.LATIN CAPITAL LETTER U WITH HORN AND GRAVE",
+            "U+1EEA",
+        ],
+        "body": [
+            "${1|Ừ,&#x1EEA;,U+1EEA,0x1EEA,LATIN CAPITAL LETTER U WITH HORN AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EEA",
+            "Character/Symbol: Ừ",
+            "Name: LATIN CAPITAL LETTER U WITH HORN AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ừ U+1EEB LATIN SMALL LETTER U WITH HORN AND GRAVE": 
+    {
+        "prefix": [
+            "..U.1EEB",
+            "..U.LATIN SMALL LETTER U WITH HORN AND GRAVE",
+            "U+1EEB",
+        ],
+        "body": [
+            "${1|ừ,&#x1EEB;,U+1EEB,0x1EEB,LATIN SMALL LETTER U WITH HORN AND GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EEB",
+            "Character/Symbol: ừ",
+            "Name: LATIN SMALL LETTER U WITH HORN AND GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ử U+1EEC LATIN CAPITAL LETTER U WITH HORN AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EEC",
+            "..U.LATIN CAPITAL LETTER U WITH HORN AND HOOK ABOVE",
+            "U+1EEC",
+        ],
+        "body": [
+            "${1|Ử,&#x1EEC;,U+1EEC,0x1EEC,LATIN CAPITAL LETTER U WITH HORN AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EEC",
+            "Character/Symbol: Ử",
+            "Name: LATIN CAPITAL LETTER U WITH HORN AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ử U+1EED LATIN SMALL LETTER U WITH HORN AND HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EED",
+            "..U.LATIN SMALL LETTER U WITH HORN AND HOOK ABOVE",
+            "U+1EED",
+        ],
+        "body": [
+            "${1|ử,&#x1EED;,U+1EED,0x1EED,LATIN SMALL LETTER U WITH HORN AND HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EED",
+            "Character/Symbol: ử",
+            "Name: LATIN SMALL LETTER U WITH HORN AND HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ữ U+1EEE LATIN CAPITAL LETTER U WITH HORN AND TILDE": 
+    {
+        "prefix": [
+            "..U.1EEE",
+            "..U.LATIN CAPITAL LETTER U WITH HORN AND TILDE",
+            "U+1EEE",
+        ],
+        "body": [
+            "${1|Ữ,&#x1EEE;,U+1EEE,0x1EEE,LATIN CAPITAL LETTER U WITH HORN AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EEE",
+            "Character/Symbol: Ữ",
+            "Name: LATIN CAPITAL LETTER U WITH HORN AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ữ U+1EEF LATIN SMALL LETTER U WITH HORN AND TILDE": 
+    {
+        "prefix": [
+            "..U.1EEF",
+            "..U.LATIN SMALL LETTER U WITH HORN AND TILDE",
+            "U+1EEF",
+        ],
+        "body": [
+            "${1|ữ,&#x1EEF;,U+1EEF,0x1EEF,LATIN SMALL LETTER U WITH HORN AND TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EEF",
+            "Character/Symbol: ữ",
+            "Name: LATIN SMALL LETTER U WITH HORN AND TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ự U+1EF0 LATIN CAPITAL LETTER U WITH HORN AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EF0",
+            "..U.LATIN CAPITAL LETTER U WITH HORN AND DOT BELOW",
+            "U+1EF0",
+        ],
+        "body": [
+            "${1|Ự,&#x1EF0;,U+1EF0,0x1EF0,LATIN CAPITAL LETTER U WITH HORN AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EF0",
+            "Character/Symbol: Ự",
+            "Name: LATIN CAPITAL LETTER U WITH HORN AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ự U+1EF1 LATIN SMALL LETTER U WITH HORN AND DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EF1",
+            "..U.LATIN SMALL LETTER U WITH HORN AND DOT BELOW",
+            "U+1EF1",
+        ],
+        "body": [
+            "${1|ự,&#x1EF1;,U+1EF1,0x1EF1,LATIN SMALL LETTER U WITH HORN AND DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EF1",
+            "Character/Symbol: ự",
+            "Name: LATIN SMALL LETTER U WITH HORN AND DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ỳ U+1EF2 LATIN CAPITAL LETTER Y WITH GRAVE": 
+    {
+        "prefix": [
+            "..U.1EF2",
+            "..U.LATIN CAPITAL LETTER Y WITH GRAVE",
+            "U+1EF2",
+        ],
+        "body": [
+            "${1|Ỳ,&#x1EF2;,U+1EF2,0x1EF2,LATIN CAPITAL LETTER Y WITH GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EF2",
+            "Character/Symbol: Ỳ",
+            "Name: LATIN CAPITAL LETTER Y WITH GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ỳ U+1EF3 LATIN SMALL LETTER Y WITH GRAVE": 
+    {
+        "prefix": [
+            "..U.1EF3",
+            "..U.LATIN SMALL LETTER Y WITH GRAVE",
+            "U+1EF3",
+        ],
+        "body": [
+            "${1|ỳ,&#x1EF3;,U+1EF3,0x1EF3,LATIN SMALL LETTER Y WITH GRAVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EF3",
+            "Character/Symbol: ỳ",
+            "Name: LATIN SMALL LETTER Y WITH GRAVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ỵ U+1EF4 LATIN CAPITAL LETTER Y WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EF4",
+            "..U.LATIN CAPITAL LETTER Y WITH DOT BELOW",
+            "U+1EF4",
+        ],
+        "body": [
+            "${1|Ỵ,&#x1EF4;,U+1EF4,0x1EF4,LATIN CAPITAL LETTER Y WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EF4",
+            "Character/Symbol: Ỵ",
+            "Name: LATIN CAPITAL LETTER Y WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ỵ U+1EF5 LATIN SMALL LETTER Y WITH DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1EF5",
+            "..U.LATIN SMALL LETTER Y WITH DOT BELOW",
+            "U+1EF5",
+        ],
+        "body": [
+            "${1|ỵ,&#x1EF5;,U+1EF5,0x1EF5,LATIN SMALL LETTER Y WITH DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1EF5",
+            "Character/Symbol: ỵ",
+            "Name: LATIN SMALL LETTER Y WITH DOT BELOW",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ỷ U+1EF6 LATIN CAPITAL LETTER Y WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EF6",
+            "..U.LATIN CAPITAL LETTER Y WITH HOOK ABOVE",
+            "U+1EF6",
+        ],
+        "body": [
+            "${1|Ỷ,&#x1EF6;,U+1EF6,0x1EF6,LATIN CAPITAL LETTER Y WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EF6",
+            "Character/Symbol: Ỷ",
+            "Name: LATIN CAPITAL LETTER Y WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ỷ U+1EF7 LATIN SMALL LETTER Y WITH HOOK ABOVE": 
+    {
+        "prefix": [
+            "..U.1EF7",
+            "..U.LATIN SMALL LETTER Y WITH HOOK ABOVE",
+            "U+1EF7",
+        ],
+        "body": [
+            "${1|ỷ,&#x1EF7;,U+1EF7,0x1EF7,LATIN SMALL LETTER Y WITH HOOK ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1EF7",
+            "Character/Symbol: ỷ",
+            "Name: LATIN SMALL LETTER Y WITH HOOK ABOVE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ỹ U+1EF8 LATIN CAPITAL LETTER Y WITH TILDE": 
+    {
+        "prefix": [
+            "..U.1EF8",
+            "..U.LATIN CAPITAL LETTER Y WITH TILDE",
+            "U+1EF8",
+        ],
+        "body": [
+            "${1|Ỹ,&#x1EF8;,U+1EF8,0x1EF8,LATIN CAPITAL LETTER Y WITH TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EF8",
+            "Character/Symbol: Ỹ",
+            "Name: LATIN CAPITAL LETTER Y WITH TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ỹ U+1EF9 LATIN SMALL LETTER Y WITH TILDE": 
+    {
+        "prefix": [
+            "..U.1EF9",
+            "..U.LATIN SMALL LETTER Y WITH TILDE",
+            "U+1EF9",
+        ],
+        "body": [
+            "${1|ỹ,&#x1EF9;,U+1EF9,0x1EF9,LATIN SMALL LETTER Y WITH TILDE|}$2",
+        ],
+        "description": [
+            "Code: U+1EF9",
+            "Character/Symbol: ỹ",
+            "Name: LATIN SMALL LETTER Y WITH TILDE",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ỻ U+1EFA LATIN CAPITAL LETTER MIDDLE-WELSH LL": 
+    {
+        "prefix": [
+            "..U.1EFA",
+            "..U.LATIN CAPITAL LETTER MIDDLE-WELSH LL",
+            "U+1EFA",
+        ],
+        "body": [
+            "${1|Ỻ,&#x1EFA;,U+1EFA,0x1EFA,LATIN CAPITAL LETTER MIDDLE-WELSH LL|}$2",
+        ],
+        "description": [
+            "Code: U+1EFA",
+            "Character/Symbol: Ỻ",
+            "Name: LATIN CAPITAL LETTER MIDDLE-WELSH LL",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ỻ U+1EFB LATIN SMALL LETTER MIDDLE-WELSH LL": 
+    {
+        "prefix": [
+            "..U.1EFB",
+            "..U.LATIN SMALL LETTER MIDDLE-WELSH LL",
+            "U+1EFB",
+        ],
+        "body": [
+            "${1|ỻ,&#x1EFB;,U+1EFB,0x1EFB,LATIN SMALL LETTER MIDDLE-WELSH LL|}$2",
+        ],
+        "description": [
+            "Code: U+1EFB",
+            "Character/Symbol: ỻ",
+            "Name: LATIN SMALL LETTER MIDDLE-WELSH LL",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ỽ U+1EFC LATIN CAPITAL LETTER MIDDLE-WELSH V": 
+    {
+        "prefix": [
+            "..U.1EFC",
+            "..U.LATIN CAPITAL LETTER MIDDLE-WELSH V",
+            "U+1EFC",
+        ],
+        "body": [
+            "${1|Ỽ,&#x1EFC;,U+1EFC,0x1EFC,LATIN CAPITAL LETTER MIDDLE-WELSH V|}$2",
+        ],
+        "description": [
+            "Code: U+1EFC",
+            "Character/Symbol: Ỽ",
+            "Name: LATIN CAPITAL LETTER MIDDLE-WELSH V",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ỽ U+1EFD LATIN SMALL LETTER MIDDLE-WELSH V": 
+    {
+        "prefix": [
+            "..U.1EFD",
+            "..U.LATIN SMALL LETTER MIDDLE-WELSH V",
+            "U+1EFD",
+        ],
+        "body": [
+            "${1|ỽ,&#x1EFD;,U+1EFD,0x1EFD,LATIN SMALL LETTER MIDDLE-WELSH V|}$2",
+        ],
+        "description": [
+            "Code: U+1EFD",
+            "Character/Symbol: ỽ",
+            "Name: LATIN SMALL LETTER MIDDLE-WELSH V",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode Ỿ U+1EFE LATIN CAPITAL LETTER Y WITH LOOP": 
+    {
+        "prefix": [
+            "..U.1EFE",
+            "..U.LATIN CAPITAL LETTER Y WITH LOOP",
+            "U+1EFE",
+        ],
+        "body": [
+            "${1|Ỿ,&#x1EFE;,U+1EFE,0x1EFE,LATIN CAPITAL LETTER Y WITH LOOP|}$2",
+        ],
+        "description": [
+            "Code: U+1EFE",
+            "Character/Symbol: Ỿ",
+            "Name: LATIN CAPITAL LETTER Y WITH LOOP",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+    "Unicode ỿ U+1EFF LATIN SMALL LETTER Y WITH LOOP": 
+    {
+        "prefix": [
+            "..U.1EFF",
+            "..U.LATIN SMALL LETTER Y WITH LOOP",
+            "U+1EFF",
+        ],
+        "body": [
+            "${1|ỿ,&#x1EFF;,U+1EFF,0x1EFF,LATIN SMALL LETTER Y WITH LOOP|}$2",
+        ],
+        "description": [
+            "Code: U+1EFF",
+            "Character/Symbol: ỿ",
+            "Name: LATIN SMALL LETTER Y WITH LOOP",
+            "Group/Block: Latin_Ext_Additional",
+        ],
+    },
+
+}

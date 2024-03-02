@@ -1,0 +1,1640 @@
+{
+    "Unicode ಀ U+0C80 KANNADA SIGN SPACING CANDRABINDU": 
+    {
+        "prefix": [
+            "..U.0C80",
+            "..U.KANNADA SIGN SPACING CANDRABINDU",
+            "U+0C80",
+        ],
+        "body": [
+            "${1|ಀ,&#x0C80;,U+0C80,0x0C80,KANNADA SIGN SPACING CANDRABINDU|}$2",
+        ],
+        "description": [
+            "Code: U+0C80",
+            "Character/Symbol: ಀ",
+            "Name: KANNADA SIGN SPACING CANDRABINDU",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಁ U+0C81 KANNADA SIGN CANDRABINDU": 
+    {
+        "prefix": [
+            "..U.0C81",
+            "..U.KANNADA SIGN CANDRABINDU",
+            "U+0C81",
+        ],
+        "body": [
+            "${1|ಁ,&#x0C81;,U+0C81,0x0C81,KANNADA SIGN CANDRABINDU|}$2",
+        ],
+        "description": [
+            "Code: U+0C81",
+            "Character/Symbol: ಁ",
+            "Name: KANNADA SIGN CANDRABINDU",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಂ U+0C82 KANNADA SIGN ANUSVARA": 
+    {
+        "prefix": [
+            "..U.0C82",
+            "..U.KANNADA SIGN ANUSVARA",
+            "U+0C82",
+        ],
+        "body": [
+            "${1|ಂ,&#x0C82;,U+0C82,0x0C82,KANNADA SIGN ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+0C82",
+            "Character/Symbol: ಂ",
+            "Name: KANNADA SIGN ANUSVARA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಃ U+0C83 KANNADA SIGN VISARGA": 
+    {
+        "prefix": [
+            "..U.0C83",
+            "..U.KANNADA SIGN VISARGA",
+            "U+0C83",
+        ],
+        "body": [
+            "${1|ಃ,&#x0C83;,U+0C83,0x0C83,KANNADA SIGN VISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+0C83",
+            "Character/Symbol: ಃ",
+            "Name: KANNADA SIGN VISARGA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಄ U+0C84 KANNADA SIGN SIDDHAM": 
+    {
+        "prefix": [
+            "..U.0C84",
+            "..U.KANNADA SIGN SIDDHAM",
+            "U+0C84",
+        ],
+        "body": [
+            "${1|಄,&#x0C84;,U+0C84,0x0C84,KANNADA SIGN SIDDHAM|}$2",
+        ],
+        "description": [
+            "Code: U+0C84",
+            "Character/Symbol: ಄",
+            "Name: KANNADA SIGN SIDDHAM",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಅ U+0C85 KANNADA LETTER A": 
+    {
+        "prefix": [
+            "..U.0C85",
+            "..U.KANNADA LETTER A",
+            "U+0C85",
+        ],
+        "body": [
+            "${1|ಅ,&#x0C85;,U+0C85,0x0C85,KANNADA LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+0C85",
+            "Character/Symbol: ಅ",
+            "Name: KANNADA LETTER A",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಆ U+0C86 KANNADA LETTER AA": 
+    {
+        "prefix": [
+            "..U.0C86",
+            "..U.KANNADA LETTER AA",
+            "U+0C86",
+        ],
+        "body": [
+            "${1|ಆ,&#x0C86;,U+0C86,0x0C86,KANNADA LETTER AA|}$2",
+        ],
+        "description": [
+            "Code: U+0C86",
+            "Character/Symbol: ಆ",
+            "Name: KANNADA LETTER AA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಇ U+0C87 KANNADA LETTER I": 
+    {
+        "prefix": [
+            "..U.0C87",
+            "..U.KANNADA LETTER I",
+            "U+0C87",
+        ],
+        "body": [
+            "${1|ಇ,&#x0C87;,U+0C87,0x0C87,KANNADA LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+0C87",
+            "Character/Symbol: ಇ",
+            "Name: KANNADA LETTER I",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಈ U+0C88 KANNADA LETTER II": 
+    {
+        "prefix": [
+            "..U.0C88",
+            "..U.KANNADA LETTER II",
+            "U+0C88",
+        ],
+        "body": [
+            "${1|ಈ,&#x0C88;,U+0C88,0x0C88,KANNADA LETTER II|}$2",
+        ],
+        "description": [
+            "Code: U+0C88",
+            "Character/Symbol: ಈ",
+            "Name: KANNADA LETTER II",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಉ U+0C89 KANNADA LETTER U": 
+    {
+        "prefix": [
+            "..U.0C89",
+            "..U.KANNADA LETTER U",
+            "U+0C89",
+        ],
+        "body": [
+            "${1|ಉ,&#x0C89;,U+0C89,0x0C89,KANNADA LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+0C89",
+            "Character/Symbol: ಉ",
+            "Name: KANNADA LETTER U",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಊ U+0C8A KANNADA LETTER UU": 
+    {
+        "prefix": [
+            "..U.0C8A",
+            "..U.KANNADA LETTER UU",
+            "U+0C8A",
+        ],
+        "body": [
+            "${1|ಊ,&#x0C8A;,U+0C8A,0x0C8A,KANNADA LETTER UU|}$2",
+        ],
+        "description": [
+            "Code: U+0C8A",
+            "Character/Symbol: ಊ",
+            "Name: KANNADA LETTER UU",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಋ U+0C8B KANNADA LETTER VOCALIC R": 
+    {
+        "prefix": [
+            "..U.0C8B",
+            "..U.KANNADA LETTER VOCALIC R",
+            "U+0C8B",
+        ],
+        "body": [
+            "${1|ಋ,&#x0C8B;,U+0C8B,0x0C8B,KANNADA LETTER VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+0C8B",
+            "Character/Symbol: ಋ",
+            "Name: KANNADA LETTER VOCALIC R",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಌ U+0C8C KANNADA LETTER VOCALIC L": 
+    {
+        "prefix": [
+            "..U.0C8C",
+            "..U.KANNADA LETTER VOCALIC L",
+            "U+0C8C",
+        ],
+        "body": [
+            "${1|ಌ,&#x0C8C;,U+0C8C,0x0C8C,KANNADA LETTER VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+0C8C",
+            "Character/Symbol: ಌ",
+            "Name: KANNADA LETTER VOCALIC L",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಎ U+0C8E KANNADA LETTER E": 
+    {
+        "prefix": [
+            "..U.0C8E",
+            "..U.KANNADA LETTER E",
+            "U+0C8E",
+        ],
+        "body": [
+            "${1|ಎ,&#x0C8E;,U+0C8E,0x0C8E,KANNADA LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+0C8E",
+            "Character/Symbol: ಎ",
+            "Name: KANNADA LETTER E",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಏ U+0C8F KANNADA LETTER EE": 
+    {
+        "prefix": [
+            "..U.0C8F",
+            "..U.KANNADA LETTER EE",
+            "U+0C8F",
+        ],
+        "body": [
+            "${1|ಏ,&#x0C8F;,U+0C8F,0x0C8F,KANNADA LETTER EE|}$2",
+        ],
+        "description": [
+            "Code: U+0C8F",
+            "Character/Symbol: ಏ",
+            "Name: KANNADA LETTER EE",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಐ U+0C90 KANNADA LETTER AI": 
+    {
+        "prefix": [
+            "..U.0C90",
+            "..U.KANNADA LETTER AI",
+            "U+0C90",
+        ],
+        "body": [
+            "${1|ಐ,&#x0C90;,U+0C90,0x0C90,KANNADA LETTER AI|}$2",
+        ],
+        "description": [
+            "Code: U+0C90",
+            "Character/Symbol: ಐ",
+            "Name: KANNADA LETTER AI",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಒ U+0C92 KANNADA LETTER O": 
+    {
+        "prefix": [
+            "..U.0C92",
+            "..U.KANNADA LETTER O",
+            "U+0C92",
+        ],
+        "body": [
+            "${1|ಒ,&#x0C92;,U+0C92,0x0C92,KANNADA LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+0C92",
+            "Character/Symbol: ಒ",
+            "Name: KANNADA LETTER O",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಓ U+0C93 KANNADA LETTER OO": 
+    {
+        "prefix": [
+            "..U.0C93",
+            "..U.KANNADA LETTER OO",
+            "U+0C93",
+        ],
+        "body": [
+            "${1|ಓ,&#x0C93;,U+0C93,0x0C93,KANNADA LETTER OO|}$2",
+        ],
+        "description": [
+            "Code: U+0C93",
+            "Character/Symbol: ಓ",
+            "Name: KANNADA LETTER OO",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಔ U+0C94 KANNADA LETTER AU": 
+    {
+        "prefix": [
+            "..U.0C94",
+            "..U.KANNADA LETTER AU",
+            "U+0C94",
+        ],
+        "body": [
+            "${1|ಔ,&#x0C94;,U+0C94,0x0C94,KANNADA LETTER AU|}$2",
+        ],
+        "description": [
+            "Code: U+0C94",
+            "Character/Symbol: ಔ",
+            "Name: KANNADA LETTER AU",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಕ U+0C95 KANNADA LETTER KA": 
+    {
+        "prefix": [
+            "..U.0C95",
+            "..U.KANNADA LETTER KA",
+            "U+0C95",
+        ],
+        "body": [
+            "${1|ಕ,&#x0C95;,U+0C95,0x0C95,KANNADA LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+0C95",
+            "Character/Symbol: ಕ",
+            "Name: KANNADA LETTER KA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಖ U+0C96 KANNADA LETTER KHA": 
+    {
+        "prefix": [
+            "..U.0C96",
+            "..U.KANNADA LETTER KHA",
+            "U+0C96",
+        ],
+        "body": [
+            "${1|ಖ,&#x0C96;,U+0C96,0x0C96,KANNADA LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+0C96",
+            "Character/Symbol: ಖ",
+            "Name: KANNADA LETTER KHA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಗ U+0C97 KANNADA LETTER GA": 
+    {
+        "prefix": [
+            "..U.0C97",
+            "..U.KANNADA LETTER GA",
+            "U+0C97",
+        ],
+        "body": [
+            "${1|ಗ,&#x0C97;,U+0C97,0x0C97,KANNADA LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+0C97",
+            "Character/Symbol: ಗ",
+            "Name: KANNADA LETTER GA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಘ U+0C98 KANNADA LETTER GHA": 
+    {
+        "prefix": [
+            "..U.0C98",
+            "..U.KANNADA LETTER GHA",
+            "U+0C98",
+        ],
+        "body": [
+            "${1|ಘ,&#x0C98;,U+0C98,0x0C98,KANNADA LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+0C98",
+            "Character/Symbol: ಘ",
+            "Name: KANNADA LETTER GHA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಙ U+0C99 KANNADA LETTER NGA": 
+    {
+        "prefix": [
+            "..U.0C99",
+            "..U.KANNADA LETTER NGA",
+            "U+0C99",
+        ],
+        "body": [
+            "${1|ಙ,&#x0C99;,U+0C99,0x0C99,KANNADA LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+0C99",
+            "Character/Symbol: ಙ",
+            "Name: KANNADA LETTER NGA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಚ U+0C9A KANNADA LETTER CA": 
+    {
+        "prefix": [
+            "..U.0C9A",
+            "..U.KANNADA LETTER CA",
+            "U+0C9A",
+        ],
+        "body": [
+            "${1|ಚ,&#x0C9A;,U+0C9A,0x0C9A,KANNADA LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+0C9A",
+            "Character/Symbol: ಚ",
+            "Name: KANNADA LETTER CA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಛ U+0C9B KANNADA LETTER CHA": 
+    {
+        "prefix": [
+            "..U.0C9B",
+            "..U.KANNADA LETTER CHA",
+            "U+0C9B",
+        ],
+        "body": [
+            "${1|ಛ,&#x0C9B;,U+0C9B,0x0C9B,KANNADA LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+0C9B",
+            "Character/Symbol: ಛ",
+            "Name: KANNADA LETTER CHA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಜ U+0C9C KANNADA LETTER JA": 
+    {
+        "prefix": [
+            "..U.0C9C",
+            "..U.KANNADA LETTER JA",
+            "U+0C9C",
+        ],
+        "body": [
+            "${1|ಜ,&#x0C9C;,U+0C9C,0x0C9C,KANNADA LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+0C9C",
+            "Character/Symbol: ಜ",
+            "Name: KANNADA LETTER JA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಝ U+0C9D KANNADA LETTER JHA": 
+    {
+        "prefix": [
+            "..U.0C9D",
+            "..U.KANNADA LETTER JHA",
+            "U+0C9D",
+        ],
+        "body": [
+            "${1|ಝ,&#x0C9D;,U+0C9D,0x0C9D,KANNADA LETTER JHA|}$2",
+        ],
+        "description": [
+            "Code: U+0C9D",
+            "Character/Symbol: ಝ",
+            "Name: KANNADA LETTER JHA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಞ U+0C9E KANNADA LETTER NYA": 
+    {
+        "prefix": [
+            "..U.0C9E",
+            "..U.KANNADA LETTER NYA",
+            "U+0C9E",
+        ],
+        "body": [
+            "${1|ಞ,&#x0C9E;,U+0C9E,0x0C9E,KANNADA LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+0C9E",
+            "Character/Symbol: ಞ",
+            "Name: KANNADA LETTER NYA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಟ U+0C9F KANNADA LETTER TTA": 
+    {
+        "prefix": [
+            "..U.0C9F",
+            "..U.KANNADA LETTER TTA",
+            "U+0C9F",
+        ],
+        "body": [
+            "${1|ಟ,&#x0C9F;,U+0C9F,0x0C9F,KANNADA LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+0C9F",
+            "Character/Symbol: ಟ",
+            "Name: KANNADA LETTER TTA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಠ U+0CA0 KANNADA LETTER TTHA": 
+    {
+        "prefix": [
+            "..U.0CA0",
+            "..U.KANNADA LETTER TTHA",
+            "U+0CA0",
+        ],
+        "body": [
+            "${1|ಠ,&#x0CA0;,U+0CA0,0x0CA0,KANNADA LETTER TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+0CA0",
+            "Character/Symbol: ಠ",
+            "Name: KANNADA LETTER TTHA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಡ U+0CA1 KANNADA LETTER DDA": 
+    {
+        "prefix": [
+            "..U.0CA1",
+            "..U.KANNADA LETTER DDA",
+            "U+0CA1",
+        ],
+        "body": [
+            "${1|ಡ,&#x0CA1;,U+0CA1,0x0CA1,KANNADA LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+0CA1",
+            "Character/Symbol: ಡ",
+            "Name: KANNADA LETTER DDA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಢ U+0CA2 KANNADA LETTER DDHA": 
+    {
+        "prefix": [
+            "..U.0CA2",
+            "..U.KANNADA LETTER DDHA",
+            "U+0CA2",
+        ],
+        "body": [
+            "${1|ಢ,&#x0CA2;,U+0CA2,0x0CA2,KANNADA LETTER DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+0CA2",
+            "Character/Symbol: ಢ",
+            "Name: KANNADA LETTER DDHA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಣ U+0CA3 KANNADA LETTER NNA": 
+    {
+        "prefix": [
+            "..U.0CA3",
+            "..U.KANNADA LETTER NNA",
+            "U+0CA3",
+        ],
+        "body": [
+            "${1|ಣ,&#x0CA3;,U+0CA3,0x0CA3,KANNADA LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+0CA3",
+            "Character/Symbol: ಣ",
+            "Name: KANNADA LETTER NNA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ತ U+0CA4 KANNADA LETTER TA": 
+    {
+        "prefix": [
+            "..U.0CA4",
+            "..U.KANNADA LETTER TA",
+            "U+0CA4",
+        ],
+        "body": [
+            "${1|ತ,&#x0CA4;,U+0CA4,0x0CA4,KANNADA LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+0CA4",
+            "Character/Symbol: ತ",
+            "Name: KANNADA LETTER TA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಥ U+0CA5 KANNADA LETTER THA": 
+    {
+        "prefix": [
+            "..U.0CA5",
+            "..U.KANNADA LETTER THA",
+            "U+0CA5",
+        ],
+        "body": [
+            "${1|ಥ,&#x0CA5;,U+0CA5,0x0CA5,KANNADA LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+0CA5",
+            "Character/Symbol: ಥ",
+            "Name: KANNADA LETTER THA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ದ U+0CA6 KANNADA LETTER DA": 
+    {
+        "prefix": [
+            "..U.0CA6",
+            "..U.KANNADA LETTER DA",
+            "U+0CA6",
+        ],
+        "body": [
+            "${1|ದ,&#x0CA6;,U+0CA6,0x0CA6,KANNADA LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+0CA6",
+            "Character/Symbol: ದ",
+            "Name: KANNADA LETTER DA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಧ U+0CA7 KANNADA LETTER DHA": 
+    {
+        "prefix": [
+            "..U.0CA7",
+            "..U.KANNADA LETTER DHA",
+            "U+0CA7",
+        ],
+        "body": [
+            "${1|ಧ,&#x0CA7;,U+0CA7,0x0CA7,KANNADA LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+0CA7",
+            "Character/Symbol: ಧ",
+            "Name: KANNADA LETTER DHA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ನ U+0CA8 KANNADA LETTER NA": 
+    {
+        "prefix": [
+            "..U.0CA8",
+            "..U.KANNADA LETTER NA",
+            "U+0CA8",
+        ],
+        "body": [
+            "${1|ನ,&#x0CA8;,U+0CA8,0x0CA8,KANNADA LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+0CA8",
+            "Character/Symbol: ನ",
+            "Name: KANNADA LETTER NA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಪ U+0CAA KANNADA LETTER PA": 
+    {
+        "prefix": [
+            "..U.0CAA",
+            "..U.KANNADA LETTER PA",
+            "U+0CAA",
+        ],
+        "body": [
+            "${1|ಪ,&#x0CAA;,U+0CAA,0x0CAA,KANNADA LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+0CAA",
+            "Character/Symbol: ಪ",
+            "Name: KANNADA LETTER PA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಫ U+0CAB KANNADA LETTER PHA": 
+    {
+        "prefix": [
+            "..U.0CAB",
+            "..U.KANNADA LETTER PHA",
+            "U+0CAB",
+        ],
+        "body": [
+            "${1|ಫ,&#x0CAB;,U+0CAB,0x0CAB,KANNADA LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+0CAB",
+            "Character/Symbol: ಫ",
+            "Name: KANNADA LETTER PHA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಬ U+0CAC KANNADA LETTER BA": 
+    {
+        "prefix": [
+            "..U.0CAC",
+            "..U.KANNADA LETTER BA",
+            "U+0CAC",
+        ],
+        "body": [
+            "${1|ಬ,&#x0CAC;,U+0CAC,0x0CAC,KANNADA LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+0CAC",
+            "Character/Symbol: ಬ",
+            "Name: KANNADA LETTER BA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಭ U+0CAD KANNADA LETTER BHA": 
+    {
+        "prefix": [
+            "..U.0CAD",
+            "..U.KANNADA LETTER BHA",
+            "U+0CAD",
+        ],
+        "body": [
+            "${1|ಭ,&#x0CAD;,U+0CAD,0x0CAD,KANNADA LETTER BHA|}$2",
+        ],
+        "description": [
+            "Code: U+0CAD",
+            "Character/Symbol: ಭ",
+            "Name: KANNADA LETTER BHA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಮ U+0CAE KANNADA LETTER MA": 
+    {
+        "prefix": [
+            "..U.0CAE",
+            "..U.KANNADA LETTER MA",
+            "U+0CAE",
+        ],
+        "body": [
+            "${1|ಮ,&#x0CAE;,U+0CAE,0x0CAE,KANNADA LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+0CAE",
+            "Character/Symbol: ಮ",
+            "Name: KANNADA LETTER MA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಯ U+0CAF KANNADA LETTER YA": 
+    {
+        "prefix": [
+            "..U.0CAF",
+            "..U.KANNADA LETTER YA",
+            "U+0CAF",
+        ],
+        "body": [
+            "${1|ಯ,&#x0CAF;,U+0CAF,0x0CAF,KANNADA LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+0CAF",
+            "Character/Symbol: ಯ",
+            "Name: KANNADA LETTER YA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ರ U+0CB0 KANNADA LETTER RA": 
+    {
+        "prefix": [
+            "..U.0CB0",
+            "..U.KANNADA LETTER RA",
+            "U+0CB0",
+        ],
+        "body": [
+            "${1|ರ,&#x0CB0;,U+0CB0,0x0CB0,KANNADA LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+0CB0",
+            "Character/Symbol: ರ",
+            "Name: KANNADA LETTER RA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಱ U+0CB1 KANNADA LETTER RRA": 
+    {
+        "prefix": [
+            "..U.0CB1",
+            "..U.KANNADA LETTER RRA",
+            "U+0CB1",
+        ],
+        "body": [
+            "${1|ಱ,&#x0CB1;,U+0CB1,0x0CB1,KANNADA LETTER RRA|}$2",
+        ],
+        "description": [
+            "Code: U+0CB1",
+            "Character/Symbol: ಱ",
+            "Name: KANNADA LETTER RRA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಲ U+0CB2 KANNADA LETTER LA": 
+    {
+        "prefix": [
+            "..U.0CB2",
+            "..U.KANNADA LETTER LA",
+            "U+0CB2",
+        ],
+        "body": [
+            "${1|ಲ,&#x0CB2;,U+0CB2,0x0CB2,KANNADA LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+0CB2",
+            "Character/Symbol: ಲ",
+            "Name: KANNADA LETTER LA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಳ U+0CB3 KANNADA LETTER LLA": 
+    {
+        "prefix": [
+            "..U.0CB3",
+            "..U.KANNADA LETTER LLA",
+            "U+0CB3",
+        ],
+        "body": [
+            "${1|ಳ,&#x0CB3;,U+0CB3,0x0CB3,KANNADA LETTER LLA|}$2",
+        ],
+        "description": [
+            "Code: U+0CB3",
+            "Character/Symbol: ಳ",
+            "Name: KANNADA LETTER LLA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ವ U+0CB5 KANNADA LETTER VA": 
+    {
+        "prefix": [
+            "..U.0CB5",
+            "..U.KANNADA LETTER VA",
+            "U+0CB5",
+        ],
+        "body": [
+            "${1|ವ,&#x0CB5;,U+0CB5,0x0CB5,KANNADA LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+0CB5",
+            "Character/Symbol: ವ",
+            "Name: KANNADA LETTER VA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಶ U+0CB6 KANNADA LETTER SHA": 
+    {
+        "prefix": [
+            "..U.0CB6",
+            "..U.KANNADA LETTER SHA",
+            "U+0CB6",
+        ],
+        "body": [
+            "${1|ಶ,&#x0CB6;,U+0CB6,0x0CB6,KANNADA LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+0CB6",
+            "Character/Symbol: ಶ",
+            "Name: KANNADA LETTER SHA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಷ U+0CB7 KANNADA LETTER SSA": 
+    {
+        "prefix": [
+            "..U.0CB7",
+            "..U.KANNADA LETTER SSA",
+            "U+0CB7",
+        ],
+        "body": [
+            "${1|ಷ,&#x0CB7;,U+0CB7,0x0CB7,KANNADA LETTER SSA|}$2",
+        ],
+        "description": [
+            "Code: U+0CB7",
+            "Character/Symbol: ಷ",
+            "Name: KANNADA LETTER SSA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಸ U+0CB8 KANNADA LETTER SA": 
+    {
+        "prefix": [
+            "..U.0CB8",
+            "..U.KANNADA LETTER SA",
+            "U+0CB8",
+        ],
+        "body": [
+            "${1|ಸ,&#x0CB8;,U+0CB8,0x0CB8,KANNADA LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+0CB8",
+            "Character/Symbol: ಸ",
+            "Name: KANNADA LETTER SA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಹ U+0CB9 KANNADA LETTER HA": 
+    {
+        "prefix": [
+            "..U.0CB9",
+            "..U.KANNADA LETTER HA",
+            "U+0CB9",
+        ],
+        "body": [
+            "${1|ಹ,&#x0CB9;,U+0CB9,0x0CB9,KANNADA LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+0CB9",
+            "Character/Symbol: ಹ",
+            "Name: KANNADA LETTER HA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಼ U+0CBC KANNADA SIGN NUKTA": 
+    {
+        "prefix": [
+            "..U.0CBC",
+            "..U.KANNADA SIGN NUKTA",
+            "U+0CBC",
+        ],
+        "body": [
+            "${1|಼,&#x0CBC;,U+0CBC,0x0CBC,KANNADA SIGN NUKTA|}$2",
+        ],
+        "description": [
+            "Code: U+0CBC",
+            "Character/Symbol: ಼",
+            "Name: KANNADA SIGN NUKTA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಽ U+0CBD KANNADA SIGN AVAGRAHA": 
+    {
+        "prefix": [
+            "..U.0CBD",
+            "..U.KANNADA SIGN AVAGRAHA",
+            "U+0CBD",
+        ],
+        "body": [
+            "${1|ಽ,&#x0CBD;,U+0CBD,0x0CBD,KANNADA SIGN AVAGRAHA|}$2",
+        ],
+        "description": [
+            "Code: U+0CBD",
+            "Character/Symbol: ಽ",
+            "Name: KANNADA SIGN AVAGRAHA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಾ U+0CBE KANNADA VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.0CBE",
+            "..U.KANNADA VOWEL SIGN AA",
+            "U+0CBE",
+        ],
+        "body": [
+            "${1|ಾ,&#x0CBE;,U+0CBE,0x0CBE,KANNADA VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+0CBE",
+            "Character/Symbol: ಾ",
+            "Name: KANNADA VOWEL SIGN AA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ಿ U+0CBF KANNADA VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.0CBF",
+            "..U.KANNADA VOWEL SIGN I",
+            "U+0CBF",
+        ],
+        "body": [
+            "${1|ಿ,&#x0CBF;,U+0CBF,0x0CBF,KANNADA VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+0CBF",
+            "Character/Symbol: ಿ",
+            "Name: KANNADA VOWEL SIGN I",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೀ U+0CC0 KANNADA VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.0CC0",
+            "..U.KANNADA VOWEL SIGN II",
+            "U+0CC0",
+        ],
+        "body": [
+            "${1|ೀ,&#x0CC0;,U+0CC0,0x0CC0,KANNADA VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+0CC0",
+            "Character/Symbol: ೀ",
+            "Name: KANNADA VOWEL SIGN II",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ು U+0CC1 KANNADA VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.0CC1",
+            "..U.KANNADA VOWEL SIGN U",
+            "U+0CC1",
+        ],
+        "body": [
+            "${1|ು,&#x0CC1;,U+0CC1,0x0CC1,KANNADA VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+0CC1",
+            "Character/Symbol: ು",
+            "Name: KANNADA VOWEL SIGN U",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೂ U+0CC2 KANNADA VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.0CC2",
+            "..U.KANNADA VOWEL SIGN UU",
+            "U+0CC2",
+        ],
+        "body": [
+            "${1|ೂ,&#x0CC2;,U+0CC2,0x0CC2,KANNADA VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+0CC2",
+            "Character/Symbol: ೂ",
+            "Name: KANNADA VOWEL SIGN UU",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೃ U+0CC3 KANNADA VOWEL SIGN VOCALIC R": 
+    {
+        "prefix": [
+            "..U.0CC3",
+            "..U.KANNADA VOWEL SIGN VOCALIC R",
+            "U+0CC3",
+        ],
+        "body": [
+            "${1|ೃ,&#x0CC3;,U+0CC3,0x0CC3,KANNADA VOWEL SIGN VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+0CC3",
+            "Character/Symbol: ೃ",
+            "Name: KANNADA VOWEL SIGN VOCALIC R",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೄ U+0CC4 KANNADA VOWEL SIGN VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.0CC4",
+            "..U.KANNADA VOWEL SIGN VOCALIC RR",
+            "U+0CC4",
+        ],
+        "body": [
+            "${1|ೄ,&#x0CC4;,U+0CC4,0x0CC4,KANNADA VOWEL SIGN VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+0CC4",
+            "Character/Symbol: ೄ",
+            "Name: KANNADA VOWEL SIGN VOCALIC RR",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೆ U+0CC6 KANNADA VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.0CC6",
+            "..U.KANNADA VOWEL SIGN E",
+            "U+0CC6",
+        ],
+        "body": [
+            "${1|ೆ,&#x0CC6;,U+0CC6,0x0CC6,KANNADA VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+0CC6",
+            "Character/Symbol: ೆ",
+            "Name: KANNADA VOWEL SIGN E",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೇ U+0CC7 KANNADA VOWEL SIGN EE": 
+    {
+        "prefix": [
+            "..U.0CC7",
+            "..U.KANNADA VOWEL SIGN EE",
+            "U+0CC7",
+        ],
+        "body": [
+            "${1|ೇ,&#x0CC7;,U+0CC7,0x0CC7,KANNADA VOWEL SIGN EE|}$2",
+        ],
+        "description": [
+            "Code: U+0CC7",
+            "Character/Symbol: ೇ",
+            "Name: KANNADA VOWEL SIGN EE",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೈ U+0CC8 KANNADA VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.0CC8",
+            "..U.KANNADA VOWEL SIGN AI",
+            "U+0CC8",
+        ],
+        "body": [
+            "${1|ೈ,&#x0CC8;,U+0CC8,0x0CC8,KANNADA VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+0CC8",
+            "Character/Symbol: ೈ",
+            "Name: KANNADA VOWEL SIGN AI",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೊ U+0CCA KANNADA VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.0CCA",
+            "..U.KANNADA VOWEL SIGN O",
+            "U+0CCA",
+        ],
+        "body": [
+            "${1|ೊ,&#x0CCA;,U+0CCA,0x0CCA,KANNADA VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+0CCA",
+            "Character/Symbol: ೊ",
+            "Name: KANNADA VOWEL SIGN O",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೋ U+0CCB KANNADA VOWEL SIGN OO": 
+    {
+        "prefix": [
+            "..U.0CCB",
+            "..U.KANNADA VOWEL SIGN OO",
+            "U+0CCB",
+        ],
+        "body": [
+            "${1|ೋ,&#x0CCB;,U+0CCB,0x0CCB,KANNADA VOWEL SIGN OO|}$2",
+        ],
+        "description": [
+            "Code: U+0CCB",
+            "Character/Symbol: ೋ",
+            "Name: KANNADA VOWEL SIGN OO",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೌ U+0CCC KANNADA VOWEL SIGN AU": 
+    {
+        "prefix": [
+            "..U.0CCC",
+            "..U.KANNADA VOWEL SIGN AU",
+            "U+0CCC",
+        ],
+        "body": [
+            "${1|ೌ,&#x0CCC;,U+0CCC,0x0CCC,KANNADA VOWEL SIGN AU|}$2",
+        ],
+        "description": [
+            "Code: U+0CCC",
+            "Character/Symbol: ೌ",
+            "Name: KANNADA VOWEL SIGN AU",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ್ U+0CCD KANNADA SIGN VIRAMA": 
+    {
+        "prefix": [
+            "..U.0CCD",
+            "..U.KANNADA SIGN VIRAMA",
+            "U+0CCD",
+        ],
+        "body": [
+            "${1|್,&#x0CCD;,U+0CCD,0x0CCD,KANNADA SIGN VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+0CCD",
+            "Character/Symbol: ್",
+            "Name: KANNADA SIGN VIRAMA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೕ U+0CD5 KANNADA LENGTH MARK": 
+    {
+        "prefix": [
+            "..U.0CD5",
+            "..U.KANNADA LENGTH MARK",
+            "U+0CD5",
+        ],
+        "body": [
+            "${1|ೕ,&#x0CD5;,U+0CD5,0x0CD5,KANNADA LENGTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+0CD5",
+            "Character/Symbol: ೕ",
+            "Name: KANNADA LENGTH MARK",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೖ U+0CD6 KANNADA AI LENGTH MARK": 
+    {
+        "prefix": [
+            "..U.0CD6",
+            "..U.KANNADA AI LENGTH MARK",
+            "U+0CD6",
+        ],
+        "body": [
+            "${1|ೖ,&#x0CD6;,U+0CD6,0x0CD6,KANNADA AI LENGTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+0CD6",
+            "Character/Symbol: ೖ",
+            "Name: KANNADA AI LENGTH MARK",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೝ U+0CDD KANNADA LETTER NAKAARA POLLU": 
+    {
+        "prefix": [
+            "..U.0CDD",
+            "..U.KANNADA LETTER NAKAARA POLLU",
+            "U+0CDD",
+        ],
+        "body": [
+            "${1|ೝ,&#x0CDD;,U+0CDD,0x0CDD,KANNADA LETTER NAKAARA POLLU|}$2",
+        ],
+        "description": [
+            "Code: U+0CDD",
+            "Character/Symbol: ೝ",
+            "Name: KANNADA LETTER NAKAARA POLLU",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೞ U+0CDE KANNADA LETTER FA": 
+    {
+        "prefix": [
+            "..U.0CDE",
+            "..U.KANNADA LETTER FA",
+            "U+0CDE",
+        ],
+        "body": [
+            "${1|ೞ,&#x0CDE;,U+0CDE,0x0CDE,KANNADA LETTER FA|}$2",
+        ],
+        "description": [
+            "Code: U+0CDE",
+            "Character/Symbol: ೞ",
+            "Name: KANNADA LETTER FA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೠ U+0CE0 KANNADA LETTER VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.0CE0",
+            "..U.KANNADA LETTER VOCALIC RR",
+            "U+0CE0",
+        ],
+        "body": [
+            "${1|ೠ,&#x0CE0;,U+0CE0,0x0CE0,KANNADA LETTER VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+0CE0",
+            "Character/Symbol: ೠ",
+            "Name: KANNADA LETTER VOCALIC RR",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೡ U+0CE1 KANNADA LETTER VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.0CE1",
+            "..U.KANNADA LETTER VOCALIC LL",
+            "U+0CE1",
+        ],
+        "body": [
+            "${1|ೡ,&#x0CE1;,U+0CE1,0x0CE1,KANNADA LETTER VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+0CE1",
+            "Character/Symbol: ೡ",
+            "Name: KANNADA LETTER VOCALIC LL",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೢ U+0CE2 KANNADA VOWEL SIGN VOCALIC L": 
+    {
+        "prefix": [
+            "..U.0CE2",
+            "..U.KANNADA VOWEL SIGN VOCALIC L",
+            "U+0CE2",
+        ],
+        "body": [
+            "${1|ೢ,&#x0CE2;,U+0CE2,0x0CE2,KANNADA VOWEL SIGN VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+0CE2",
+            "Character/Symbol: ೢ",
+            "Name: KANNADA VOWEL SIGN VOCALIC L",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೣ U+0CE3 KANNADA VOWEL SIGN VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.0CE3",
+            "..U.KANNADA VOWEL SIGN VOCALIC LL",
+            "U+0CE3",
+        ],
+        "body": [
+            "${1|ೣ,&#x0CE3;,U+0CE3,0x0CE3,KANNADA VOWEL SIGN VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+0CE3",
+            "Character/Symbol: ೣ",
+            "Name: KANNADA VOWEL SIGN VOCALIC LL",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೦ U+0CE6 KANNADA DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.0CE6",
+            "..U.KANNADA DIGIT ZERO",
+            "U+0CE6",
+        ],
+        "body": [
+            "${1|೦,&#x0CE6;,U+0CE6,0x0CE6,KANNADA DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+0CE6",
+            "Character/Symbol: ೦",
+            "Name: KANNADA DIGIT ZERO",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೧ U+0CE7 KANNADA DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.0CE7",
+            "..U.KANNADA DIGIT ONE",
+            "U+0CE7",
+        ],
+        "body": [
+            "${1|೧,&#x0CE7;,U+0CE7,0x0CE7,KANNADA DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+0CE7",
+            "Character/Symbol: ೧",
+            "Name: KANNADA DIGIT ONE",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೨ U+0CE8 KANNADA DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.0CE8",
+            "..U.KANNADA DIGIT TWO",
+            "U+0CE8",
+        ],
+        "body": [
+            "${1|೨,&#x0CE8;,U+0CE8,0x0CE8,KANNADA DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+0CE8",
+            "Character/Symbol: ೨",
+            "Name: KANNADA DIGIT TWO",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೩ U+0CE9 KANNADA DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.0CE9",
+            "..U.KANNADA DIGIT THREE",
+            "U+0CE9",
+        ],
+        "body": [
+            "${1|೩,&#x0CE9;,U+0CE9,0x0CE9,KANNADA DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+0CE9",
+            "Character/Symbol: ೩",
+            "Name: KANNADA DIGIT THREE",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೪ U+0CEA KANNADA DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.0CEA",
+            "..U.KANNADA DIGIT FOUR",
+            "U+0CEA",
+        ],
+        "body": [
+            "${1|೪,&#x0CEA;,U+0CEA,0x0CEA,KANNADA DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+0CEA",
+            "Character/Symbol: ೪",
+            "Name: KANNADA DIGIT FOUR",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೫ U+0CEB KANNADA DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.0CEB",
+            "..U.KANNADA DIGIT FIVE",
+            "U+0CEB",
+        ],
+        "body": [
+            "${1|೫,&#x0CEB;,U+0CEB,0x0CEB,KANNADA DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+0CEB",
+            "Character/Symbol: ೫",
+            "Name: KANNADA DIGIT FIVE",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೬ U+0CEC KANNADA DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.0CEC",
+            "..U.KANNADA DIGIT SIX",
+            "U+0CEC",
+        ],
+        "body": [
+            "${1|೬,&#x0CEC;,U+0CEC,0x0CEC,KANNADA DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+0CEC",
+            "Character/Symbol: ೬",
+            "Name: KANNADA DIGIT SIX",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೭ U+0CED KANNADA DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.0CED",
+            "..U.KANNADA DIGIT SEVEN",
+            "U+0CED",
+        ],
+        "body": [
+            "${1|೭,&#x0CED;,U+0CED,0x0CED,KANNADA DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+0CED",
+            "Character/Symbol: ೭",
+            "Name: KANNADA DIGIT SEVEN",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೮ U+0CEE KANNADA DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.0CEE",
+            "..U.KANNADA DIGIT EIGHT",
+            "U+0CEE",
+        ],
+        "body": [
+            "${1|೮,&#x0CEE;,U+0CEE,0x0CEE,KANNADA DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+0CEE",
+            "Character/Symbol: ೮",
+            "Name: KANNADA DIGIT EIGHT",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೯ U+0CEF KANNADA DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.0CEF",
+            "..U.KANNADA DIGIT NINE",
+            "U+0CEF",
+        ],
+        "body": [
+            "${1|೯,&#x0CEF;,U+0CEF,0x0CEF,KANNADA DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+0CEF",
+            "Character/Symbol: ೯",
+            "Name: KANNADA DIGIT NINE",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೱ U+0CF1 KANNADA SIGN JIHVAMULIYA": 
+    {
+        "prefix": [
+            "..U.0CF1",
+            "..U.KANNADA SIGN JIHVAMULIYA",
+            "U+0CF1",
+        ],
+        "body": [
+            "${1|ೱ,&#x0CF1;,U+0CF1,0x0CF1,KANNADA SIGN JIHVAMULIYA|}$2",
+        ],
+        "description": [
+            "Code: U+0CF1",
+            "Character/Symbol: ೱ",
+            "Name: KANNADA SIGN JIHVAMULIYA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೲ U+0CF2 KANNADA SIGN UPADHMANIYA": 
+    {
+        "prefix": [
+            "..U.0CF2",
+            "..U.KANNADA SIGN UPADHMANIYA",
+            "U+0CF2",
+        ],
+        "body": [
+            "${1|ೲ,&#x0CF2;,U+0CF2,0x0CF2,KANNADA SIGN UPADHMANIYA|}$2",
+        ],
+        "description": [
+            "Code: U+0CF2",
+            "Character/Symbol: ೲ",
+            "Name: KANNADA SIGN UPADHMANIYA",
+            "Group/Block: Kannada",
+        ],
+    },
+
+    "Unicode ೳ U+0CF3 KANNADA SIGN COMBINING ANUSVARA ABOVE RIGHT": 
+    {
+        "prefix": [
+            "..U.0CF3",
+            "..U.KANNADA SIGN COMBINING ANUSVARA ABOVE RIGHT",
+            "U+0CF3",
+        ],
+        "body": [
+            "${1|ೳ,&#x0CF3;,U+0CF3,0x0CF3,KANNADA SIGN COMBINING ANUSVARA ABOVE RIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+0CF3",
+            "Character/Symbol: ೳ",
+            "Name: KANNADA SIGN COMBINING ANUSVARA ABOVE RIGHT",
+            "Group/Block: Kannada",
+        ],
+    },
+
+}

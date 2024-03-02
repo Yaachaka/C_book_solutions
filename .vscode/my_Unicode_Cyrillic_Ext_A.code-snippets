@@ -1,0 +1,578 @@
+{
+    "Unicode ⷠ U+2DE0 COMBINING CYRILLIC LETTER BE": 
+    {
+        "prefix": [
+            "..U.2DE0",
+            "..U.COMBINING CYRILLIC LETTER BE",
+            "U+2DE0",
+        ],
+        "body": [
+            "${1|ⷠ,&#x2DE0;,U+2DE0,0x2DE0,COMBINING CYRILLIC LETTER BE|}$2",
+        ],
+        "description": [
+            "Code: U+2DE0",
+            "Character/Symbol: ⷠ",
+            "Name: COMBINING CYRILLIC LETTER BE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷡ U+2DE1 COMBINING CYRILLIC LETTER VE": 
+    {
+        "prefix": [
+            "..U.2DE1",
+            "..U.COMBINING CYRILLIC LETTER VE",
+            "U+2DE1",
+        ],
+        "body": [
+            "${1|ⷡ,&#x2DE1;,U+2DE1,0x2DE1,COMBINING CYRILLIC LETTER VE|}$2",
+        ],
+        "description": [
+            "Code: U+2DE1",
+            "Character/Symbol: ⷡ",
+            "Name: COMBINING CYRILLIC LETTER VE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷢ U+2DE2 COMBINING CYRILLIC LETTER GHE": 
+    {
+        "prefix": [
+            "..U.2DE2",
+            "..U.COMBINING CYRILLIC LETTER GHE",
+            "U+2DE2",
+        ],
+        "body": [
+            "${1|ⷢ,&#x2DE2;,U+2DE2,0x2DE2,COMBINING CYRILLIC LETTER GHE|}$2",
+        ],
+        "description": [
+            "Code: U+2DE2",
+            "Character/Symbol: ⷢ",
+            "Name: COMBINING CYRILLIC LETTER GHE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷣ U+2DE3 COMBINING CYRILLIC LETTER DE": 
+    {
+        "prefix": [
+            "..U.2DE3",
+            "..U.COMBINING CYRILLIC LETTER DE",
+            "U+2DE3",
+        ],
+        "body": [
+            "${1|ⷣ,&#x2DE3;,U+2DE3,0x2DE3,COMBINING CYRILLIC LETTER DE|}$2",
+        ],
+        "description": [
+            "Code: U+2DE3",
+            "Character/Symbol: ⷣ",
+            "Name: COMBINING CYRILLIC LETTER DE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷤ U+2DE4 COMBINING CYRILLIC LETTER ZHE": 
+    {
+        "prefix": [
+            "..U.2DE4",
+            "..U.COMBINING CYRILLIC LETTER ZHE",
+            "U+2DE4",
+        ],
+        "body": [
+            "${1|ⷤ,&#x2DE4;,U+2DE4,0x2DE4,COMBINING CYRILLIC LETTER ZHE|}$2",
+        ],
+        "description": [
+            "Code: U+2DE4",
+            "Character/Symbol: ⷤ",
+            "Name: COMBINING CYRILLIC LETTER ZHE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷥ U+2DE5 COMBINING CYRILLIC LETTER ZE": 
+    {
+        "prefix": [
+            "..U.2DE5",
+            "..U.COMBINING CYRILLIC LETTER ZE",
+            "U+2DE5",
+        ],
+        "body": [
+            "${1|ⷥ,&#x2DE5;,U+2DE5,0x2DE5,COMBINING CYRILLIC LETTER ZE|}$2",
+        ],
+        "description": [
+            "Code: U+2DE5",
+            "Character/Symbol: ⷥ",
+            "Name: COMBINING CYRILLIC LETTER ZE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷦ U+2DE6 COMBINING CYRILLIC LETTER KA": 
+    {
+        "prefix": [
+            "..U.2DE6",
+            "..U.COMBINING CYRILLIC LETTER KA",
+            "U+2DE6",
+        ],
+        "body": [
+            "${1|ⷦ,&#x2DE6;,U+2DE6,0x2DE6,COMBINING CYRILLIC LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+2DE6",
+            "Character/Symbol: ⷦ",
+            "Name: COMBINING CYRILLIC LETTER KA",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷧ U+2DE7 COMBINING CYRILLIC LETTER EL": 
+    {
+        "prefix": [
+            "..U.2DE7",
+            "..U.COMBINING CYRILLIC LETTER EL",
+            "U+2DE7",
+        ],
+        "body": [
+            "${1|ⷧ,&#x2DE7;,U+2DE7,0x2DE7,COMBINING CYRILLIC LETTER EL|}$2",
+        ],
+        "description": [
+            "Code: U+2DE7",
+            "Character/Symbol: ⷧ",
+            "Name: COMBINING CYRILLIC LETTER EL",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷨ U+2DE8 COMBINING CYRILLIC LETTER EM": 
+    {
+        "prefix": [
+            "..U.2DE8",
+            "..U.COMBINING CYRILLIC LETTER EM",
+            "U+2DE8",
+        ],
+        "body": [
+            "${1|ⷨ,&#x2DE8;,U+2DE8,0x2DE8,COMBINING CYRILLIC LETTER EM|}$2",
+        ],
+        "description": [
+            "Code: U+2DE8",
+            "Character/Symbol: ⷨ",
+            "Name: COMBINING CYRILLIC LETTER EM",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷩ U+2DE9 COMBINING CYRILLIC LETTER EN": 
+    {
+        "prefix": [
+            "..U.2DE9",
+            "..U.COMBINING CYRILLIC LETTER EN",
+            "U+2DE9",
+        ],
+        "body": [
+            "${1|ⷩ,&#x2DE9;,U+2DE9,0x2DE9,COMBINING CYRILLIC LETTER EN|}$2",
+        ],
+        "description": [
+            "Code: U+2DE9",
+            "Character/Symbol: ⷩ",
+            "Name: COMBINING CYRILLIC LETTER EN",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷪ U+2DEA COMBINING CYRILLIC LETTER O": 
+    {
+        "prefix": [
+            "..U.2DEA",
+            "..U.COMBINING CYRILLIC LETTER O",
+            "U+2DEA",
+        ],
+        "body": [
+            "${1|ⷪ,&#x2DEA;,U+2DEA,0x2DEA,COMBINING CYRILLIC LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+2DEA",
+            "Character/Symbol: ⷪ",
+            "Name: COMBINING CYRILLIC LETTER O",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷫ U+2DEB COMBINING CYRILLIC LETTER PE": 
+    {
+        "prefix": [
+            "..U.2DEB",
+            "..U.COMBINING CYRILLIC LETTER PE",
+            "U+2DEB",
+        ],
+        "body": [
+            "${1|ⷫ,&#x2DEB;,U+2DEB,0x2DEB,COMBINING CYRILLIC LETTER PE|}$2",
+        ],
+        "description": [
+            "Code: U+2DEB",
+            "Character/Symbol: ⷫ",
+            "Name: COMBINING CYRILLIC LETTER PE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷬ U+2DEC COMBINING CYRILLIC LETTER ER": 
+    {
+        "prefix": [
+            "..U.2DEC",
+            "..U.COMBINING CYRILLIC LETTER ER",
+            "U+2DEC",
+        ],
+        "body": [
+            "${1|ⷬ,&#x2DEC;,U+2DEC,0x2DEC,COMBINING CYRILLIC LETTER ER|}$2",
+        ],
+        "description": [
+            "Code: U+2DEC",
+            "Character/Symbol: ⷬ",
+            "Name: COMBINING CYRILLIC LETTER ER",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷭ U+2DED COMBINING CYRILLIC LETTER ES": 
+    {
+        "prefix": [
+            "..U.2DED",
+            "..U.COMBINING CYRILLIC LETTER ES",
+            "U+2DED",
+        ],
+        "body": [
+            "${1|ⷭ,&#x2DED;,U+2DED,0x2DED,COMBINING CYRILLIC LETTER ES|}$2",
+        ],
+        "description": [
+            "Code: U+2DED",
+            "Character/Symbol: ⷭ",
+            "Name: COMBINING CYRILLIC LETTER ES",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷮ U+2DEE COMBINING CYRILLIC LETTER TE": 
+    {
+        "prefix": [
+            "..U.2DEE",
+            "..U.COMBINING CYRILLIC LETTER TE",
+            "U+2DEE",
+        ],
+        "body": [
+            "${1|ⷮ,&#x2DEE;,U+2DEE,0x2DEE,COMBINING CYRILLIC LETTER TE|}$2",
+        ],
+        "description": [
+            "Code: U+2DEE",
+            "Character/Symbol: ⷮ",
+            "Name: COMBINING CYRILLIC LETTER TE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷯ U+2DEF COMBINING CYRILLIC LETTER HA": 
+    {
+        "prefix": [
+            "..U.2DEF",
+            "..U.COMBINING CYRILLIC LETTER HA",
+            "U+2DEF",
+        ],
+        "body": [
+            "${1|ⷯ,&#x2DEF;,U+2DEF,0x2DEF,COMBINING CYRILLIC LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+2DEF",
+            "Character/Symbol: ⷯ",
+            "Name: COMBINING CYRILLIC LETTER HA",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷰ U+2DF0 COMBINING CYRILLIC LETTER TSE": 
+    {
+        "prefix": [
+            "..U.2DF0",
+            "..U.COMBINING CYRILLIC LETTER TSE",
+            "U+2DF0",
+        ],
+        "body": [
+            "${1|ⷰ,&#x2DF0;,U+2DF0,0x2DF0,COMBINING CYRILLIC LETTER TSE|}$2",
+        ],
+        "description": [
+            "Code: U+2DF0",
+            "Character/Symbol: ⷰ",
+            "Name: COMBINING CYRILLIC LETTER TSE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷱ U+2DF1 COMBINING CYRILLIC LETTER CHE": 
+    {
+        "prefix": [
+            "..U.2DF1",
+            "..U.COMBINING CYRILLIC LETTER CHE",
+            "U+2DF1",
+        ],
+        "body": [
+            "${1|ⷱ,&#x2DF1;,U+2DF1,0x2DF1,COMBINING CYRILLIC LETTER CHE|}$2",
+        ],
+        "description": [
+            "Code: U+2DF1",
+            "Character/Symbol: ⷱ",
+            "Name: COMBINING CYRILLIC LETTER CHE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷲ U+2DF2 COMBINING CYRILLIC LETTER SHA": 
+    {
+        "prefix": [
+            "..U.2DF2",
+            "..U.COMBINING CYRILLIC LETTER SHA",
+            "U+2DF2",
+        ],
+        "body": [
+            "${1|ⷲ,&#x2DF2;,U+2DF2,0x2DF2,COMBINING CYRILLIC LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+2DF2",
+            "Character/Symbol: ⷲ",
+            "Name: COMBINING CYRILLIC LETTER SHA",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷳ U+2DF3 COMBINING CYRILLIC LETTER SHCHA": 
+    {
+        "prefix": [
+            "..U.2DF3",
+            "..U.COMBINING CYRILLIC LETTER SHCHA",
+            "U+2DF3",
+        ],
+        "body": [
+            "${1|ⷳ,&#x2DF3;,U+2DF3,0x2DF3,COMBINING CYRILLIC LETTER SHCHA|}$2",
+        ],
+        "description": [
+            "Code: U+2DF3",
+            "Character/Symbol: ⷳ",
+            "Name: COMBINING CYRILLIC LETTER SHCHA",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷴ U+2DF4 COMBINING CYRILLIC LETTER FITA": 
+    {
+        "prefix": [
+            "..U.2DF4",
+            "..U.COMBINING CYRILLIC LETTER FITA",
+            "U+2DF4",
+        ],
+        "body": [
+            "${1|ⷴ,&#x2DF4;,U+2DF4,0x2DF4,COMBINING CYRILLIC LETTER FITA|}$2",
+        ],
+        "description": [
+            "Code: U+2DF4",
+            "Character/Symbol: ⷴ",
+            "Name: COMBINING CYRILLIC LETTER FITA",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷵ U+2DF5 COMBINING CYRILLIC LETTER ES-TE": 
+    {
+        "prefix": [
+            "..U.2DF5",
+            "..U.COMBINING CYRILLIC LETTER ES-TE",
+            "U+2DF5",
+        ],
+        "body": [
+            "${1|ⷵ,&#x2DF5;,U+2DF5,0x2DF5,COMBINING CYRILLIC LETTER ES-TE|}$2",
+        ],
+        "description": [
+            "Code: U+2DF5",
+            "Character/Symbol: ⷵ",
+            "Name: COMBINING CYRILLIC LETTER ES-TE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷶ U+2DF6 COMBINING CYRILLIC LETTER A": 
+    {
+        "prefix": [
+            "..U.2DF6",
+            "..U.COMBINING CYRILLIC LETTER A",
+            "U+2DF6",
+        ],
+        "body": [
+            "${1|ⷶ,&#x2DF6;,U+2DF6,0x2DF6,COMBINING CYRILLIC LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+2DF6",
+            "Character/Symbol: ⷶ",
+            "Name: COMBINING CYRILLIC LETTER A",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷷ U+2DF7 COMBINING CYRILLIC LETTER IE": 
+    {
+        "prefix": [
+            "..U.2DF7",
+            "..U.COMBINING CYRILLIC LETTER IE",
+            "U+2DF7",
+        ],
+        "body": [
+            "${1|ⷷ,&#x2DF7;,U+2DF7,0x2DF7,COMBINING CYRILLIC LETTER IE|}$2",
+        ],
+        "description": [
+            "Code: U+2DF7",
+            "Character/Symbol: ⷷ",
+            "Name: COMBINING CYRILLIC LETTER IE",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷸ U+2DF8 COMBINING CYRILLIC LETTER DJERV": 
+    {
+        "prefix": [
+            "..U.2DF8",
+            "..U.COMBINING CYRILLIC LETTER DJERV",
+            "U+2DF8",
+        ],
+        "body": [
+            "${1|ⷸ,&#x2DF8;,U+2DF8,0x2DF8,COMBINING CYRILLIC LETTER DJERV|}$2",
+        ],
+        "description": [
+            "Code: U+2DF8",
+            "Character/Symbol: ⷸ",
+            "Name: COMBINING CYRILLIC LETTER DJERV",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷹ U+2DF9 COMBINING CYRILLIC LETTER MONOGRAPH UK": 
+    {
+        "prefix": [
+            "..U.2DF9",
+            "..U.COMBINING CYRILLIC LETTER MONOGRAPH UK",
+            "U+2DF9",
+        ],
+        "body": [
+            "${1|ⷹ,&#x2DF9;,U+2DF9,0x2DF9,COMBINING CYRILLIC LETTER MONOGRAPH UK|}$2",
+        ],
+        "description": [
+            "Code: U+2DF9",
+            "Character/Symbol: ⷹ",
+            "Name: COMBINING CYRILLIC LETTER MONOGRAPH UK",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷺ U+2DFA COMBINING CYRILLIC LETTER YAT": 
+    {
+        "prefix": [
+            "..U.2DFA",
+            "..U.COMBINING CYRILLIC LETTER YAT",
+            "U+2DFA",
+        ],
+        "body": [
+            "${1|ⷺ,&#x2DFA;,U+2DFA,0x2DFA,COMBINING CYRILLIC LETTER YAT|}$2",
+        ],
+        "description": [
+            "Code: U+2DFA",
+            "Character/Symbol: ⷺ",
+            "Name: COMBINING CYRILLIC LETTER YAT",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷻ U+2DFB COMBINING CYRILLIC LETTER YU": 
+    {
+        "prefix": [
+            "..U.2DFB",
+            "..U.COMBINING CYRILLIC LETTER YU",
+            "U+2DFB",
+        ],
+        "body": [
+            "${1|ⷻ,&#x2DFB;,U+2DFB,0x2DFB,COMBINING CYRILLIC LETTER YU|}$2",
+        ],
+        "description": [
+            "Code: U+2DFB",
+            "Character/Symbol: ⷻ",
+            "Name: COMBINING CYRILLIC LETTER YU",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷼ U+2DFC COMBINING CYRILLIC LETTER IOTIFIED A": 
+    {
+        "prefix": [
+            "..U.2DFC",
+            "..U.COMBINING CYRILLIC LETTER IOTIFIED A",
+            "U+2DFC",
+        ],
+        "body": [
+            "${1|ⷼ,&#x2DFC;,U+2DFC,0x2DFC,COMBINING CYRILLIC LETTER IOTIFIED A|}$2",
+        ],
+        "description": [
+            "Code: U+2DFC",
+            "Character/Symbol: ⷼ",
+            "Name: COMBINING CYRILLIC LETTER IOTIFIED A",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷽ U+2DFD COMBINING CYRILLIC LETTER LITTLE YUS": 
+    {
+        "prefix": [
+            "..U.2DFD",
+            "..U.COMBINING CYRILLIC LETTER LITTLE YUS",
+            "U+2DFD",
+        ],
+        "body": [
+            "${1|ⷽ,&#x2DFD;,U+2DFD,0x2DFD,COMBINING CYRILLIC LETTER LITTLE YUS|}$2",
+        ],
+        "description": [
+            "Code: U+2DFD",
+            "Character/Symbol: ⷽ",
+            "Name: COMBINING CYRILLIC LETTER LITTLE YUS",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷾ U+2DFE COMBINING CYRILLIC LETTER BIG YUS": 
+    {
+        "prefix": [
+            "..U.2DFE",
+            "..U.COMBINING CYRILLIC LETTER BIG YUS",
+            "U+2DFE",
+        ],
+        "body": [
+            "${1|ⷾ,&#x2DFE;,U+2DFE,0x2DFE,COMBINING CYRILLIC LETTER BIG YUS|}$2",
+        ],
+        "description": [
+            "Code: U+2DFE",
+            "Character/Symbol: ⷾ",
+            "Name: COMBINING CYRILLIC LETTER BIG YUS",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+    "Unicode ⷿ U+2DFF COMBINING CYRILLIC LETTER IOTIFIED BIG YUS": 
+    {
+        "prefix": [
+            "..U.2DFF",
+            "..U.COMBINING CYRILLIC LETTER IOTIFIED BIG YUS",
+            "U+2DFF",
+        ],
+        "body": [
+            "${1|ⷿ,&#x2DFF;,U+2DFF,0x2DFF,COMBINING CYRILLIC LETTER IOTIFIED BIG YUS|}$2",
+        ],
+        "description": [
+            "Code: U+2DFF",
+            "Character/Symbol: ⷿ",
+            "Name: COMBINING CYRILLIC LETTER IOTIFIED BIG YUS",
+            "Group/Block: Cyrillic_Ext_A",
+        ],
+    },
+
+}

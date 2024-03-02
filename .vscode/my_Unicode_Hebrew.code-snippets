@@ -1,0 +1,1586 @@
+{
+    "Unicode ֑ U+0591 HEBREW ACCENT ETNAHTA": 
+    {
+        "prefix": [
+            "..U.0591",
+            "..U.HEBREW ACCENT ETNAHTA",
+            "U+0591",
+        ],
+        "body": [
+            "${1|֑,&#x0591;,U+0591,0x0591,HEBREW ACCENT ETNAHTA|}$2",
+        ],
+        "description": [
+            "Code: U+0591",
+            "Character/Symbol: ֑",
+            "Name: HEBREW ACCENT ETNAHTA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֒ U+0592 HEBREW ACCENT SEGOL": 
+    {
+        "prefix": [
+            "..U.0592",
+            "..U.HEBREW ACCENT SEGOL",
+            "U+0592",
+        ],
+        "body": [
+            "${1|֒,&#x0592;,U+0592,0x0592,HEBREW ACCENT SEGOL|}$2",
+        ],
+        "description": [
+            "Code: U+0592",
+            "Character/Symbol: ֒",
+            "Name: HEBREW ACCENT SEGOL",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֓ U+0593 HEBREW ACCENT SHALSHELET": 
+    {
+        "prefix": [
+            "..U.0593",
+            "..U.HEBREW ACCENT SHALSHELET",
+            "U+0593",
+        ],
+        "body": [
+            "${1|֓,&#x0593;,U+0593,0x0593,HEBREW ACCENT SHALSHELET|}$2",
+        ],
+        "description": [
+            "Code: U+0593",
+            "Character/Symbol: ֓",
+            "Name: HEBREW ACCENT SHALSHELET",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֔ U+0594 HEBREW ACCENT ZAQEF QATAN": 
+    {
+        "prefix": [
+            "..U.0594",
+            "..U.HEBREW ACCENT ZAQEF QATAN",
+            "U+0594",
+        ],
+        "body": [
+            "${1|֔,&#x0594;,U+0594,0x0594,HEBREW ACCENT ZAQEF QATAN|}$2",
+        ],
+        "description": [
+            "Code: U+0594",
+            "Character/Symbol: ֔",
+            "Name: HEBREW ACCENT ZAQEF QATAN",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֕ U+0595 HEBREW ACCENT ZAQEF GADOL": 
+    {
+        "prefix": [
+            "..U.0595",
+            "..U.HEBREW ACCENT ZAQEF GADOL",
+            "U+0595",
+        ],
+        "body": [
+            "${1|֕,&#x0595;,U+0595,0x0595,HEBREW ACCENT ZAQEF GADOL|}$2",
+        ],
+        "description": [
+            "Code: U+0595",
+            "Character/Symbol: ֕",
+            "Name: HEBREW ACCENT ZAQEF GADOL",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֖ U+0596 HEBREW ACCENT TIPEHA": 
+    {
+        "prefix": [
+            "..U.0596",
+            "..U.HEBREW ACCENT TIPEHA",
+            "U+0596",
+        ],
+        "body": [
+            "${1|֖,&#x0596;,U+0596,0x0596,HEBREW ACCENT TIPEHA|}$2",
+        ],
+        "description": [
+            "Code: U+0596",
+            "Character/Symbol: ֖",
+            "Name: HEBREW ACCENT TIPEHA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֗ U+0597 HEBREW ACCENT REVIA": 
+    {
+        "prefix": [
+            "..U.0597",
+            "..U.HEBREW ACCENT REVIA",
+            "U+0597",
+        ],
+        "body": [
+            "${1|֗,&#x0597;,U+0597,0x0597,HEBREW ACCENT REVIA|}$2",
+        ],
+        "description": [
+            "Code: U+0597",
+            "Character/Symbol: ֗",
+            "Name: HEBREW ACCENT REVIA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֘ U+0598 HEBREW ACCENT ZARQA": 
+    {
+        "prefix": [
+            "..U.0598",
+            "..U.HEBREW ACCENT ZARQA",
+            "U+0598",
+        ],
+        "body": [
+            "${1|֘,&#x0598;,U+0598,0x0598,HEBREW ACCENT ZARQA|}$2",
+        ],
+        "description": [
+            "Code: U+0598",
+            "Character/Symbol: ֘",
+            "Name: HEBREW ACCENT ZARQA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֙ U+0599 HEBREW ACCENT PASHTA": 
+    {
+        "prefix": [
+            "..U.0599",
+            "..U.HEBREW ACCENT PASHTA",
+            "U+0599",
+        ],
+        "body": [
+            "${1|֙,&#x0599;,U+0599,0x0599,HEBREW ACCENT PASHTA|}$2",
+        ],
+        "description": [
+            "Code: U+0599",
+            "Character/Symbol: ֙",
+            "Name: HEBREW ACCENT PASHTA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֚ U+059A HEBREW ACCENT YETIV": 
+    {
+        "prefix": [
+            "..U.059A",
+            "..U.HEBREW ACCENT YETIV",
+            "U+059A",
+        ],
+        "body": [
+            "${1|֚,&#x059A;,U+059A,0x059A,HEBREW ACCENT YETIV|}$2",
+        ],
+        "description": [
+            "Code: U+059A",
+            "Character/Symbol: ֚",
+            "Name: HEBREW ACCENT YETIV",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֛ U+059B HEBREW ACCENT TEVIR": 
+    {
+        "prefix": [
+            "..U.059B",
+            "..U.HEBREW ACCENT TEVIR",
+            "U+059B",
+        ],
+        "body": [
+            "${1|֛,&#x059B;,U+059B,0x059B,HEBREW ACCENT TEVIR|}$2",
+        ],
+        "description": [
+            "Code: U+059B",
+            "Character/Symbol: ֛",
+            "Name: HEBREW ACCENT TEVIR",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֜ U+059C HEBREW ACCENT GERESH": 
+    {
+        "prefix": [
+            "..U.059C",
+            "..U.HEBREW ACCENT GERESH",
+            "U+059C",
+        ],
+        "body": [
+            "${1|֜,&#x059C;,U+059C,0x059C,HEBREW ACCENT GERESH|}$2",
+        ],
+        "description": [
+            "Code: U+059C",
+            "Character/Symbol: ֜",
+            "Name: HEBREW ACCENT GERESH",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֝ U+059D HEBREW ACCENT GERESH MUQDAM": 
+    {
+        "prefix": [
+            "..U.059D",
+            "..U.HEBREW ACCENT GERESH MUQDAM",
+            "U+059D",
+        ],
+        "body": [
+            "${1|֝,&#x059D;,U+059D,0x059D,HEBREW ACCENT GERESH MUQDAM|}$2",
+        ],
+        "description": [
+            "Code: U+059D",
+            "Character/Symbol: ֝",
+            "Name: HEBREW ACCENT GERESH MUQDAM",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֞ U+059E HEBREW ACCENT GERSHAYIM": 
+    {
+        "prefix": [
+            "..U.059E",
+            "..U.HEBREW ACCENT GERSHAYIM",
+            "U+059E",
+        ],
+        "body": [
+            "${1|֞,&#x059E;,U+059E,0x059E,HEBREW ACCENT GERSHAYIM|}$2",
+        ],
+        "description": [
+            "Code: U+059E",
+            "Character/Symbol: ֞",
+            "Name: HEBREW ACCENT GERSHAYIM",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֟ U+059F HEBREW ACCENT QARNEY PARA": 
+    {
+        "prefix": [
+            "..U.059F",
+            "..U.HEBREW ACCENT QARNEY PARA",
+            "U+059F",
+        ],
+        "body": [
+            "${1|֟,&#x059F;,U+059F,0x059F,HEBREW ACCENT QARNEY PARA|}$2",
+        ],
+        "description": [
+            "Code: U+059F",
+            "Character/Symbol: ֟",
+            "Name: HEBREW ACCENT QARNEY PARA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֠ U+05A0 HEBREW ACCENT TELISHA GEDOLA": 
+    {
+        "prefix": [
+            "..U.05A0",
+            "..U.HEBREW ACCENT TELISHA GEDOLA",
+            "U+05A0",
+        ],
+        "body": [
+            "${1|֠,&#x05A0;,U+05A0,0x05A0,HEBREW ACCENT TELISHA GEDOLA|}$2",
+        ],
+        "description": [
+            "Code: U+05A0",
+            "Character/Symbol: ֠",
+            "Name: HEBREW ACCENT TELISHA GEDOLA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֡ U+05A1 HEBREW ACCENT PAZER": 
+    {
+        "prefix": [
+            "..U.05A1",
+            "..U.HEBREW ACCENT PAZER",
+            "U+05A1",
+        ],
+        "body": [
+            "${1|֡,&#x05A1;,U+05A1,0x05A1,HEBREW ACCENT PAZER|}$2",
+        ],
+        "description": [
+            "Code: U+05A1",
+            "Character/Symbol: ֡",
+            "Name: HEBREW ACCENT PAZER",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֢ U+05A2 HEBREW ACCENT ATNAH HAFUKH": 
+    {
+        "prefix": [
+            "..U.05A2",
+            "..U.HEBREW ACCENT ATNAH HAFUKH",
+            "U+05A2",
+        ],
+        "body": [
+            "${1|֢,&#x05A2;,U+05A2,0x05A2,HEBREW ACCENT ATNAH HAFUKH|}$2",
+        ],
+        "description": [
+            "Code: U+05A2",
+            "Character/Symbol: ֢",
+            "Name: HEBREW ACCENT ATNAH HAFUKH",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֣ U+05A3 HEBREW ACCENT MUNAH": 
+    {
+        "prefix": [
+            "..U.05A3",
+            "..U.HEBREW ACCENT MUNAH",
+            "U+05A3",
+        ],
+        "body": [
+            "${1|֣,&#x05A3;,U+05A3,0x05A3,HEBREW ACCENT MUNAH|}$2",
+        ],
+        "description": [
+            "Code: U+05A3",
+            "Character/Symbol: ֣",
+            "Name: HEBREW ACCENT MUNAH",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֤ U+05A4 HEBREW ACCENT MAHAPAKH": 
+    {
+        "prefix": [
+            "..U.05A4",
+            "..U.HEBREW ACCENT MAHAPAKH",
+            "U+05A4",
+        ],
+        "body": [
+            "${1|֤,&#x05A4;,U+05A4,0x05A4,HEBREW ACCENT MAHAPAKH|}$2",
+        ],
+        "description": [
+            "Code: U+05A4",
+            "Character/Symbol: ֤",
+            "Name: HEBREW ACCENT MAHAPAKH",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֥ U+05A5 HEBREW ACCENT MERKHA": 
+    {
+        "prefix": [
+            "..U.05A5",
+            "..U.HEBREW ACCENT MERKHA",
+            "U+05A5",
+        ],
+        "body": [
+            "${1|֥,&#x05A5;,U+05A5,0x05A5,HEBREW ACCENT MERKHA|}$2",
+        ],
+        "description": [
+            "Code: U+05A5",
+            "Character/Symbol: ֥",
+            "Name: HEBREW ACCENT MERKHA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֦ U+05A6 HEBREW ACCENT MERKHA KEFULA": 
+    {
+        "prefix": [
+            "..U.05A6",
+            "..U.HEBREW ACCENT MERKHA KEFULA",
+            "U+05A6",
+        ],
+        "body": [
+            "${1|֦,&#x05A6;,U+05A6,0x05A6,HEBREW ACCENT MERKHA KEFULA|}$2",
+        ],
+        "description": [
+            "Code: U+05A6",
+            "Character/Symbol: ֦",
+            "Name: HEBREW ACCENT MERKHA KEFULA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֧ U+05A7 HEBREW ACCENT DARGA": 
+    {
+        "prefix": [
+            "..U.05A7",
+            "..U.HEBREW ACCENT DARGA",
+            "U+05A7",
+        ],
+        "body": [
+            "${1|֧,&#x05A7;,U+05A7,0x05A7,HEBREW ACCENT DARGA|}$2",
+        ],
+        "description": [
+            "Code: U+05A7",
+            "Character/Symbol: ֧",
+            "Name: HEBREW ACCENT DARGA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֨ U+05A8 HEBREW ACCENT QADMA": 
+    {
+        "prefix": [
+            "..U.05A8",
+            "..U.HEBREW ACCENT QADMA",
+            "U+05A8",
+        ],
+        "body": [
+            "${1|֨,&#x05A8;,U+05A8,0x05A8,HEBREW ACCENT QADMA|}$2",
+        ],
+        "description": [
+            "Code: U+05A8",
+            "Character/Symbol: ֨",
+            "Name: HEBREW ACCENT QADMA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֩ U+05A9 HEBREW ACCENT TELISHA QETANA": 
+    {
+        "prefix": [
+            "..U.05A9",
+            "..U.HEBREW ACCENT TELISHA QETANA",
+            "U+05A9",
+        ],
+        "body": [
+            "${1|֩,&#x05A9;,U+05A9,0x05A9,HEBREW ACCENT TELISHA QETANA|}$2",
+        ],
+        "description": [
+            "Code: U+05A9",
+            "Character/Symbol: ֩",
+            "Name: HEBREW ACCENT TELISHA QETANA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֪ U+05AA HEBREW ACCENT YERAH BEN YOMO": 
+    {
+        "prefix": [
+            "..U.05AA",
+            "..U.HEBREW ACCENT YERAH BEN YOMO",
+            "U+05AA",
+        ],
+        "body": [
+            "${1|֪,&#x05AA;,U+05AA,0x05AA,HEBREW ACCENT YERAH BEN YOMO|}$2",
+        ],
+        "description": [
+            "Code: U+05AA",
+            "Character/Symbol: ֪",
+            "Name: HEBREW ACCENT YERAH BEN YOMO",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֫ U+05AB HEBREW ACCENT OLE": 
+    {
+        "prefix": [
+            "..U.05AB",
+            "..U.HEBREW ACCENT OLE",
+            "U+05AB",
+        ],
+        "body": [
+            "${1|֫,&#x05AB;,U+05AB,0x05AB,HEBREW ACCENT OLE|}$2",
+        ],
+        "description": [
+            "Code: U+05AB",
+            "Character/Symbol: ֫",
+            "Name: HEBREW ACCENT OLE",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֬ U+05AC HEBREW ACCENT ILUY": 
+    {
+        "prefix": [
+            "..U.05AC",
+            "..U.HEBREW ACCENT ILUY",
+            "U+05AC",
+        ],
+        "body": [
+            "${1|֬,&#x05AC;,U+05AC,0x05AC,HEBREW ACCENT ILUY|}$2",
+        ],
+        "description": [
+            "Code: U+05AC",
+            "Character/Symbol: ֬",
+            "Name: HEBREW ACCENT ILUY",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֭ U+05AD HEBREW ACCENT DEHI": 
+    {
+        "prefix": [
+            "..U.05AD",
+            "..U.HEBREW ACCENT DEHI",
+            "U+05AD",
+        ],
+        "body": [
+            "${1|֭,&#x05AD;,U+05AD,0x05AD,HEBREW ACCENT DEHI|}$2",
+        ],
+        "description": [
+            "Code: U+05AD",
+            "Character/Symbol: ֭",
+            "Name: HEBREW ACCENT DEHI",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֮ U+05AE HEBREW ACCENT ZINOR": 
+    {
+        "prefix": [
+            "..U.05AE",
+            "..U.HEBREW ACCENT ZINOR",
+            "U+05AE",
+        ],
+        "body": [
+            "${1|֮,&#x05AE;,U+05AE,0x05AE,HEBREW ACCENT ZINOR|}$2",
+        ],
+        "description": [
+            "Code: U+05AE",
+            "Character/Symbol: ֮",
+            "Name: HEBREW ACCENT ZINOR",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֯ U+05AF HEBREW MARK MASORA CIRCLE": 
+    {
+        "prefix": [
+            "..U.05AF",
+            "..U.HEBREW MARK MASORA CIRCLE",
+            "U+05AF",
+        ],
+        "body": [
+            "${1|֯,&#x05AF;,U+05AF,0x05AF,HEBREW MARK MASORA CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+05AF",
+            "Character/Symbol: ֯",
+            "Name: HEBREW MARK MASORA CIRCLE",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ְ U+05B0 HEBREW POINT SHEVA": 
+    {
+        "prefix": [
+            "..U.05B0",
+            "..U.HEBREW POINT SHEVA",
+            "U+05B0",
+        ],
+        "body": [
+            "${1|ְ,&#x05B0;,U+05B0,0x05B0,HEBREW POINT SHEVA|}$2",
+        ],
+        "description": [
+            "Code: U+05B0",
+            "Character/Symbol: ְ",
+            "Name: HEBREW POINT SHEVA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֱ U+05B1 HEBREW POINT HATAF SEGOL": 
+    {
+        "prefix": [
+            "..U.05B1",
+            "..U.HEBREW POINT HATAF SEGOL",
+            "U+05B1",
+        ],
+        "body": [
+            "${1|ֱ,&#x05B1;,U+05B1,0x05B1,HEBREW POINT HATAF SEGOL|}$2",
+        ],
+        "description": [
+            "Code: U+05B1",
+            "Character/Symbol: ֱ",
+            "Name: HEBREW POINT HATAF SEGOL",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֲ U+05B2 HEBREW POINT HATAF PATAH": 
+    {
+        "prefix": [
+            "..U.05B2",
+            "..U.HEBREW POINT HATAF PATAH",
+            "U+05B2",
+        ],
+        "body": [
+            "${1|ֲ,&#x05B2;,U+05B2,0x05B2,HEBREW POINT HATAF PATAH|}$2",
+        ],
+        "description": [
+            "Code: U+05B2",
+            "Character/Symbol: ֲ",
+            "Name: HEBREW POINT HATAF PATAH",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֳ U+05B3 HEBREW POINT HATAF QAMATS": 
+    {
+        "prefix": [
+            "..U.05B3",
+            "..U.HEBREW POINT HATAF QAMATS",
+            "U+05B3",
+        ],
+        "body": [
+            "${1|ֳ,&#x05B3;,U+05B3,0x05B3,HEBREW POINT HATAF QAMATS|}$2",
+        ],
+        "description": [
+            "Code: U+05B3",
+            "Character/Symbol: ֳ",
+            "Name: HEBREW POINT HATAF QAMATS",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ִ U+05B4 HEBREW POINT HIRIQ": 
+    {
+        "prefix": [
+            "..U.05B4",
+            "..U.HEBREW POINT HIRIQ",
+            "U+05B4",
+        ],
+        "body": [
+            "${1|ִ,&#x05B4;,U+05B4,0x05B4,HEBREW POINT HIRIQ|}$2",
+        ],
+        "description": [
+            "Code: U+05B4",
+            "Character/Symbol: ִ",
+            "Name: HEBREW POINT HIRIQ",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֵ U+05B5 HEBREW POINT TSERE": 
+    {
+        "prefix": [
+            "..U.05B5",
+            "..U.HEBREW POINT TSERE",
+            "U+05B5",
+        ],
+        "body": [
+            "${1|ֵ,&#x05B5;,U+05B5,0x05B5,HEBREW POINT TSERE|}$2",
+        ],
+        "description": [
+            "Code: U+05B5",
+            "Character/Symbol: ֵ",
+            "Name: HEBREW POINT TSERE",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֶ U+05B6 HEBREW POINT SEGOL": 
+    {
+        "prefix": [
+            "..U.05B6",
+            "..U.HEBREW POINT SEGOL",
+            "U+05B6",
+        ],
+        "body": [
+            "${1|ֶ,&#x05B6;,U+05B6,0x05B6,HEBREW POINT SEGOL|}$2",
+        ],
+        "description": [
+            "Code: U+05B6",
+            "Character/Symbol: ֶ",
+            "Name: HEBREW POINT SEGOL",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ַ U+05B7 HEBREW POINT PATAH": 
+    {
+        "prefix": [
+            "..U.05B7",
+            "..U.HEBREW POINT PATAH",
+            "U+05B7",
+        ],
+        "body": [
+            "${1|ַ,&#x05B7;,U+05B7,0x05B7,HEBREW POINT PATAH|}$2",
+        ],
+        "description": [
+            "Code: U+05B7",
+            "Character/Symbol: ַ",
+            "Name: HEBREW POINT PATAH",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ָ U+05B8 HEBREW POINT QAMATS": 
+    {
+        "prefix": [
+            "..U.05B8",
+            "..U.HEBREW POINT QAMATS",
+            "U+05B8",
+        ],
+        "body": [
+            "${1|ָ,&#x05B8;,U+05B8,0x05B8,HEBREW POINT QAMATS|}$2",
+        ],
+        "description": [
+            "Code: U+05B8",
+            "Character/Symbol: ָ",
+            "Name: HEBREW POINT QAMATS",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֹ U+05B9 HEBREW POINT HOLAM": 
+    {
+        "prefix": [
+            "..U.05B9",
+            "..U.HEBREW POINT HOLAM",
+            "U+05B9",
+        ],
+        "body": [
+            "${1|ֹ,&#x05B9;,U+05B9,0x05B9,HEBREW POINT HOLAM|}$2",
+        ],
+        "description": [
+            "Code: U+05B9",
+            "Character/Symbol: ֹ",
+            "Name: HEBREW POINT HOLAM",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֺ U+05BA HEBREW POINT HOLAM HASER FOR VAV": 
+    {
+        "prefix": [
+            "..U.05BA",
+            "..U.HEBREW POINT HOLAM HASER FOR VAV",
+            "U+05BA",
+        ],
+        "body": [
+            "${1|ֺ,&#x05BA;,U+05BA,0x05BA,HEBREW POINT HOLAM HASER FOR VAV|}$2",
+        ],
+        "description": [
+            "Code: U+05BA",
+            "Character/Symbol: ֺ",
+            "Name: HEBREW POINT HOLAM HASER FOR VAV",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֻ U+05BB HEBREW POINT QUBUTS": 
+    {
+        "prefix": [
+            "..U.05BB",
+            "..U.HEBREW POINT QUBUTS",
+            "U+05BB",
+        ],
+        "body": [
+            "${1|ֻ,&#x05BB;,U+05BB,0x05BB,HEBREW POINT QUBUTS|}$2",
+        ],
+        "description": [
+            "Code: U+05BB",
+            "Character/Symbol: ֻ",
+            "Name: HEBREW POINT QUBUTS",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ּ U+05BC HEBREW POINT DAGESH OR MAPIQ": 
+    {
+        "prefix": [
+            "..U.05BC",
+            "..U.HEBREW POINT DAGESH OR MAPIQ",
+            "U+05BC",
+        ],
+        "body": [
+            "${1|ּ,&#x05BC;,U+05BC,0x05BC,HEBREW POINT DAGESH OR MAPIQ|}$2",
+        ],
+        "description": [
+            "Code: U+05BC",
+            "Character/Symbol: ּ",
+            "Name: HEBREW POINT DAGESH OR MAPIQ",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֽ U+05BD HEBREW POINT METEG": 
+    {
+        "prefix": [
+            "..U.05BD",
+            "..U.HEBREW POINT METEG",
+            "U+05BD",
+        ],
+        "body": [
+            "${1|ֽ,&#x05BD;,U+05BD,0x05BD,HEBREW POINT METEG|}$2",
+        ],
+        "description": [
+            "Code: U+05BD",
+            "Character/Symbol: ֽ",
+            "Name: HEBREW POINT METEG",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ־ U+05BE HEBREW PUNCTUATION MAQAF": 
+    {
+        "prefix": [
+            "..U.05BE",
+            "..U.HEBREW PUNCTUATION MAQAF",
+            "U+05BE",
+        ],
+        "body": [
+            "${1|־,&#x05BE;,U+05BE,0x05BE,HEBREW PUNCTUATION MAQAF|}$2",
+        ],
+        "description": [
+            "Code: U+05BE",
+            "Character/Symbol: ־",
+            "Name: HEBREW PUNCTUATION MAQAF",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ֿ U+05BF HEBREW POINT RAFE": 
+    {
+        "prefix": [
+            "..U.05BF",
+            "..U.HEBREW POINT RAFE",
+            "U+05BF",
+        ],
+        "body": [
+            "${1|ֿ,&#x05BF;,U+05BF,0x05BF,HEBREW POINT RAFE|}$2",
+        ],
+        "description": [
+            "Code: U+05BF",
+            "Character/Symbol: ֿ",
+            "Name: HEBREW POINT RAFE",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ׀ U+05C0 HEBREW PUNCTUATION PASEQ": 
+    {
+        "prefix": [
+            "..U.05C0",
+            "..U.HEBREW PUNCTUATION PASEQ",
+            "U+05C0",
+        ],
+        "body": [
+            "${1|׀,&#x05C0;,U+05C0,0x05C0,HEBREW PUNCTUATION PASEQ|}$2",
+        ],
+        "description": [
+            "Code: U+05C0",
+            "Character/Symbol: ׀",
+            "Name: HEBREW PUNCTUATION PASEQ",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ׁ U+05C1 HEBREW POINT SHIN DOT": 
+    {
+        "prefix": [
+            "..U.05C1",
+            "..U.HEBREW POINT SHIN DOT",
+            "U+05C1",
+        ],
+        "body": [
+            "${1|ׁ,&#x05C1;,U+05C1,0x05C1,HEBREW POINT SHIN DOT|}$2",
+        ],
+        "description": [
+            "Code: U+05C1",
+            "Character/Symbol: ׁ",
+            "Name: HEBREW POINT SHIN DOT",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ׂ U+05C2 HEBREW POINT SIN DOT": 
+    {
+        "prefix": [
+            "..U.05C2",
+            "..U.HEBREW POINT SIN DOT",
+            "U+05C2",
+        ],
+        "body": [
+            "${1|ׂ,&#x05C2;,U+05C2,0x05C2,HEBREW POINT SIN DOT|}$2",
+        ],
+        "description": [
+            "Code: U+05C2",
+            "Character/Symbol: ׂ",
+            "Name: HEBREW POINT SIN DOT",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ׃ U+05C3 HEBREW PUNCTUATION SOF PASUQ": 
+    {
+        "prefix": [
+            "..U.05C3",
+            "..U.HEBREW PUNCTUATION SOF PASUQ",
+            "U+05C3",
+        ],
+        "body": [
+            "${1|׃,&#x05C3;,U+05C3,0x05C3,HEBREW PUNCTUATION SOF PASUQ|}$2",
+        ],
+        "description": [
+            "Code: U+05C3",
+            "Character/Symbol: ׃",
+            "Name: HEBREW PUNCTUATION SOF PASUQ",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ׄ U+05C4 HEBREW MARK UPPER DOT": 
+    {
+        "prefix": [
+            "..U.05C4",
+            "..U.HEBREW MARK UPPER DOT",
+            "U+05C4",
+        ],
+        "body": [
+            "${1|ׄ,&#x05C4;,U+05C4,0x05C4,HEBREW MARK UPPER DOT|}$2",
+        ],
+        "description": [
+            "Code: U+05C4",
+            "Character/Symbol: ׄ",
+            "Name: HEBREW MARK UPPER DOT",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ׅ U+05C5 HEBREW MARK LOWER DOT": 
+    {
+        "prefix": [
+            "..U.05C5",
+            "..U.HEBREW MARK LOWER DOT",
+            "U+05C5",
+        ],
+        "body": [
+            "${1|ׅ,&#x05C5;,U+05C5,0x05C5,HEBREW MARK LOWER DOT|}$2",
+        ],
+        "description": [
+            "Code: U+05C5",
+            "Character/Symbol: ׅ",
+            "Name: HEBREW MARK LOWER DOT",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ׆ U+05C6 HEBREW PUNCTUATION NUN HAFUKHA": 
+    {
+        "prefix": [
+            "..U.05C6",
+            "..U.HEBREW PUNCTUATION NUN HAFUKHA",
+            "U+05C6",
+        ],
+        "body": [
+            "${1|׆,&#x05C6;,U+05C6,0x05C6,HEBREW PUNCTUATION NUN HAFUKHA|}$2",
+        ],
+        "description": [
+            "Code: U+05C6",
+            "Character/Symbol: ׆",
+            "Name: HEBREW PUNCTUATION NUN HAFUKHA",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ׇ U+05C7 HEBREW POINT QAMATS QATAN": 
+    {
+        "prefix": [
+            "..U.05C7",
+            "..U.HEBREW POINT QAMATS QATAN",
+            "U+05C7",
+        ],
+        "body": [
+            "${1|ׇ,&#x05C7;,U+05C7,0x05C7,HEBREW POINT QAMATS QATAN|}$2",
+        ],
+        "description": [
+            "Code: U+05C7",
+            "Character/Symbol: ׇ",
+            "Name: HEBREW POINT QAMATS QATAN",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode א U+05D0 HEBREW LETTER ALEF": 
+    {
+        "prefix": [
+            "..U.05D0",
+            "..U.HEBREW LETTER ALEF",
+            "U+05D0",
+        ],
+        "body": [
+            "${1|א,&#x05D0;,U+05D0,0x05D0,HEBREW LETTER ALEF|}$2",
+        ],
+        "description": [
+            "Code: U+05D0",
+            "Character/Symbol: א",
+            "Name: HEBREW LETTER ALEF",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ב U+05D1 HEBREW LETTER BET": 
+    {
+        "prefix": [
+            "..U.05D1",
+            "..U.HEBREW LETTER BET",
+            "U+05D1",
+        ],
+        "body": [
+            "${1|ב,&#x05D1;,U+05D1,0x05D1,HEBREW LETTER BET|}$2",
+        ],
+        "description": [
+            "Code: U+05D1",
+            "Character/Symbol: ב",
+            "Name: HEBREW LETTER BET",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ג U+05D2 HEBREW LETTER GIMEL": 
+    {
+        "prefix": [
+            "..U.05D2",
+            "..U.HEBREW LETTER GIMEL",
+            "U+05D2",
+        ],
+        "body": [
+            "${1|ג,&#x05D2;,U+05D2,0x05D2,HEBREW LETTER GIMEL|}$2",
+        ],
+        "description": [
+            "Code: U+05D2",
+            "Character/Symbol: ג",
+            "Name: HEBREW LETTER GIMEL",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ד U+05D3 HEBREW LETTER DALET": 
+    {
+        "prefix": [
+            "..U.05D3",
+            "..U.HEBREW LETTER DALET",
+            "U+05D3",
+        ],
+        "body": [
+            "${1|ד,&#x05D3;,U+05D3,0x05D3,HEBREW LETTER DALET|}$2",
+        ],
+        "description": [
+            "Code: U+05D3",
+            "Character/Symbol: ד",
+            "Name: HEBREW LETTER DALET",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ה U+05D4 HEBREW LETTER HE": 
+    {
+        "prefix": [
+            "..U.05D4",
+            "..U.HEBREW LETTER HE",
+            "U+05D4",
+        ],
+        "body": [
+            "${1|ה,&#x05D4;,U+05D4,0x05D4,HEBREW LETTER HE|}$2",
+        ],
+        "description": [
+            "Code: U+05D4",
+            "Character/Symbol: ה",
+            "Name: HEBREW LETTER HE",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ו U+05D5 HEBREW LETTER VAV": 
+    {
+        "prefix": [
+            "..U.05D5",
+            "..U.HEBREW LETTER VAV",
+            "U+05D5",
+        ],
+        "body": [
+            "${1|ו,&#x05D5;,U+05D5,0x05D5,HEBREW LETTER VAV|}$2",
+        ],
+        "description": [
+            "Code: U+05D5",
+            "Character/Symbol: ו",
+            "Name: HEBREW LETTER VAV",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ז U+05D6 HEBREW LETTER ZAYIN": 
+    {
+        "prefix": [
+            "..U.05D6",
+            "..U.HEBREW LETTER ZAYIN",
+            "U+05D6",
+        ],
+        "body": [
+            "${1|ז,&#x05D6;,U+05D6,0x05D6,HEBREW LETTER ZAYIN|}$2",
+        ],
+        "description": [
+            "Code: U+05D6",
+            "Character/Symbol: ז",
+            "Name: HEBREW LETTER ZAYIN",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ח U+05D7 HEBREW LETTER HET": 
+    {
+        "prefix": [
+            "..U.05D7",
+            "..U.HEBREW LETTER HET",
+            "U+05D7",
+        ],
+        "body": [
+            "${1|ח,&#x05D7;,U+05D7,0x05D7,HEBREW LETTER HET|}$2",
+        ],
+        "description": [
+            "Code: U+05D7",
+            "Character/Symbol: ח",
+            "Name: HEBREW LETTER HET",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ט U+05D8 HEBREW LETTER TET": 
+    {
+        "prefix": [
+            "..U.05D8",
+            "..U.HEBREW LETTER TET",
+            "U+05D8",
+        ],
+        "body": [
+            "${1|ט,&#x05D8;,U+05D8,0x05D8,HEBREW LETTER TET|}$2",
+        ],
+        "description": [
+            "Code: U+05D8",
+            "Character/Symbol: ט",
+            "Name: HEBREW LETTER TET",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode י U+05D9 HEBREW LETTER YOD": 
+    {
+        "prefix": [
+            "..U.05D9",
+            "..U.HEBREW LETTER YOD",
+            "U+05D9",
+        ],
+        "body": [
+            "${1|י,&#x05D9;,U+05D9,0x05D9,HEBREW LETTER YOD|}$2",
+        ],
+        "description": [
+            "Code: U+05D9",
+            "Character/Symbol: י",
+            "Name: HEBREW LETTER YOD",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ך U+05DA HEBREW LETTER FINAL KAF": 
+    {
+        "prefix": [
+            "..U.05DA",
+            "..U.HEBREW LETTER FINAL KAF",
+            "U+05DA",
+        ],
+        "body": [
+            "${1|ך,&#x05DA;,U+05DA,0x05DA,HEBREW LETTER FINAL KAF|}$2",
+        ],
+        "description": [
+            "Code: U+05DA",
+            "Character/Symbol: ך",
+            "Name: HEBREW LETTER FINAL KAF",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode כ U+05DB HEBREW LETTER KAF": 
+    {
+        "prefix": [
+            "..U.05DB",
+            "..U.HEBREW LETTER KAF",
+            "U+05DB",
+        ],
+        "body": [
+            "${1|כ,&#x05DB;,U+05DB,0x05DB,HEBREW LETTER KAF|}$2",
+        ],
+        "description": [
+            "Code: U+05DB",
+            "Character/Symbol: כ",
+            "Name: HEBREW LETTER KAF",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ל U+05DC HEBREW LETTER LAMED": 
+    {
+        "prefix": [
+            "..U.05DC",
+            "..U.HEBREW LETTER LAMED",
+            "U+05DC",
+        ],
+        "body": [
+            "${1|ל,&#x05DC;,U+05DC,0x05DC,HEBREW LETTER LAMED|}$2",
+        ],
+        "description": [
+            "Code: U+05DC",
+            "Character/Symbol: ל",
+            "Name: HEBREW LETTER LAMED",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ם U+05DD HEBREW LETTER FINAL MEM": 
+    {
+        "prefix": [
+            "..U.05DD",
+            "..U.HEBREW LETTER FINAL MEM",
+            "U+05DD",
+        ],
+        "body": [
+            "${1|ם,&#x05DD;,U+05DD,0x05DD,HEBREW LETTER FINAL MEM|}$2",
+        ],
+        "description": [
+            "Code: U+05DD",
+            "Character/Symbol: ם",
+            "Name: HEBREW LETTER FINAL MEM",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode מ U+05DE HEBREW LETTER MEM": 
+    {
+        "prefix": [
+            "..U.05DE",
+            "..U.HEBREW LETTER MEM",
+            "U+05DE",
+        ],
+        "body": [
+            "${1|מ,&#x05DE;,U+05DE,0x05DE,HEBREW LETTER MEM|}$2",
+        ],
+        "description": [
+            "Code: U+05DE",
+            "Character/Symbol: מ",
+            "Name: HEBREW LETTER MEM",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ן U+05DF HEBREW LETTER FINAL NUN": 
+    {
+        "prefix": [
+            "..U.05DF",
+            "..U.HEBREW LETTER FINAL NUN",
+            "U+05DF",
+        ],
+        "body": [
+            "${1|ן,&#x05DF;,U+05DF,0x05DF,HEBREW LETTER FINAL NUN|}$2",
+        ],
+        "description": [
+            "Code: U+05DF",
+            "Character/Symbol: ן",
+            "Name: HEBREW LETTER FINAL NUN",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode נ U+05E0 HEBREW LETTER NUN": 
+    {
+        "prefix": [
+            "..U.05E0",
+            "..U.HEBREW LETTER NUN",
+            "U+05E0",
+        ],
+        "body": [
+            "${1|נ,&#x05E0;,U+05E0,0x05E0,HEBREW LETTER NUN|}$2",
+        ],
+        "description": [
+            "Code: U+05E0",
+            "Character/Symbol: נ",
+            "Name: HEBREW LETTER NUN",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ס U+05E1 HEBREW LETTER SAMEKH": 
+    {
+        "prefix": [
+            "..U.05E1",
+            "..U.HEBREW LETTER SAMEKH",
+            "U+05E1",
+        ],
+        "body": [
+            "${1|ס,&#x05E1;,U+05E1,0x05E1,HEBREW LETTER SAMEKH|}$2",
+        ],
+        "description": [
+            "Code: U+05E1",
+            "Character/Symbol: ס",
+            "Name: HEBREW LETTER SAMEKH",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ע U+05E2 HEBREW LETTER AYIN": 
+    {
+        "prefix": [
+            "..U.05E2",
+            "..U.HEBREW LETTER AYIN",
+            "U+05E2",
+        ],
+        "body": [
+            "${1|ע,&#x05E2;,U+05E2,0x05E2,HEBREW LETTER AYIN|}$2",
+        ],
+        "description": [
+            "Code: U+05E2",
+            "Character/Symbol: ע",
+            "Name: HEBREW LETTER AYIN",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ף U+05E3 HEBREW LETTER FINAL PE": 
+    {
+        "prefix": [
+            "..U.05E3",
+            "..U.HEBREW LETTER FINAL PE",
+            "U+05E3",
+        ],
+        "body": [
+            "${1|ף,&#x05E3;,U+05E3,0x05E3,HEBREW LETTER FINAL PE|}$2",
+        ],
+        "description": [
+            "Code: U+05E3",
+            "Character/Symbol: ף",
+            "Name: HEBREW LETTER FINAL PE",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode פ U+05E4 HEBREW LETTER PE": 
+    {
+        "prefix": [
+            "..U.05E4",
+            "..U.HEBREW LETTER PE",
+            "U+05E4",
+        ],
+        "body": [
+            "${1|פ,&#x05E4;,U+05E4,0x05E4,HEBREW LETTER PE|}$2",
+        ],
+        "description": [
+            "Code: U+05E4",
+            "Character/Symbol: פ",
+            "Name: HEBREW LETTER PE",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ץ U+05E5 HEBREW LETTER FINAL TSADI": 
+    {
+        "prefix": [
+            "..U.05E5",
+            "..U.HEBREW LETTER FINAL TSADI",
+            "U+05E5",
+        ],
+        "body": [
+            "${1|ץ,&#x05E5;,U+05E5,0x05E5,HEBREW LETTER FINAL TSADI|}$2",
+        ],
+        "description": [
+            "Code: U+05E5",
+            "Character/Symbol: ץ",
+            "Name: HEBREW LETTER FINAL TSADI",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode צ U+05E6 HEBREW LETTER TSADI": 
+    {
+        "prefix": [
+            "..U.05E6",
+            "..U.HEBREW LETTER TSADI",
+            "U+05E6",
+        ],
+        "body": [
+            "${1|צ,&#x05E6;,U+05E6,0x05E6,HEBREW LETTER TSADI|}$2",
+        ],
+        "description": [
+            "Code: U+05E6",
+            "Character/Symbol: צ",
+            "Name: HEBREW LETTER TSADI",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ק U+05E7 HEBREW LETTER QOF": 
+    {
+        "prefix": [
+            "..U.05E7",
+            "..U.HEBREW LETTER QOF",
+            "U+05E7",
+        ],
+        "body": [
+            "${1|ק,&#x05E7;,U+05E7,0x05E7,HEBREW LETTER QOF|}$2",
+        ],
+        "description": [
+            "Code: U+05E7",
+            "Character/Symbol: ק",
+            "Name: HEBREW LETTER QOF",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ר U+05E8 HEBREW LETTER RESH": 
+    {
+        "prefix": [
+            "..U.05E8",
+            "..U.HEBREW LETTER RESH",
+            "U+05E8",
+        ],
+        "body": [
+            "${1|ר,&#x05E8;,U+05E8,0x05E8,HEBREW LETTER RESH|}$2",
+        ],
+        "description": [
+            "Code: U+05E8",
+            "Character/Symbol: ר",
+            "Name: HEBREW LETTER RESH",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ש U+05E9 HEBREW LETTER SHIN": 
+    {
+        "prefix": [
+            "..U.05E9",
+            "..U.HEBREW LETTER SHIN",
+            "U+05E9",
+        ],
+        "body": [
+            "${1|ש,&#x05E9;,U+05E9,0x05E9,HEBREW LETTER SHIN|}$2",
+        ],
+        "description": [
+            "Code: U+05E9",
+            "Character/Symbol: ש",
+            "Name: HEBREW LETTER SHIN",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ת U+05EA HEBREW LETTER TAV": 
+    {
+        "prefix": [
+            "..U.05EA",
+            "..U.HEBREW LETTER TAV",
+            "U+05EA",
+        ],
+        "body": [
+            "${1|ת,&#x05EA;,U+05EA,0x05EA,HEBREW LETTER TAV|}$2",
+        ],
+        "description": [
+            "Code: U+05EA",
+            "Character/Symbol: ת",
+            "Name: HEBREW LETTER TAV",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ׯ U+05EF HEBREW YOD TRIANGLE": 
+    {
+        "prefix": [
+            "..U.05EF",
+            "..U.HEBREW YOD TRIANGLE",
+            "U+05EF",
+        ],
+        "body": [
+            "${1|ׯ,&#x05EF;,U+05EF,0x05EF,HEBREW YOD TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+05EF",
+            "Character/Symbol: ׯ",
+            "Name: HEBREW YOD TRIANGLE",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode װ U+05F0 HEBREW LIGATURE YIDDISH DOUBLE VAV": 
+    {
+        "prefix": [
+            "..U.05F0",
+            "..U.HEBREW LIGATURE YIDDISH DOUBLE VAV",
+            "U+05F0",
+        ],
+        "body": [
+            "${1|װ,&#x05F0;,U+05F0,0x05F0,HEBREW LIGATURE YIDDISH DOUBLE VAV|}$2",
+        ],
+        "description": [
+            "Code: U+05F0",
+            "Character/Symbol: װ",
+            "Name: HEBREW LIGATURE YIDDISH DOUBLE VAV",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ױ U+05F1 HEBREW LIGATURE YIDDISH VAV YOD": 
+    {
+        "prefix": [
+            "..U.05F1",
+            "..U.HEBREW LIGATURE YIDDISH VAV YOD",
+            "U+05F1",
+        ],
+        "body": [
+            "${1|ױ,&#x05F1;,U+05F1,0x05F1,HEBREW LIGATURE YIDDISH VAV YOD|}$2",
+        ],
+        "description": [
+            "Code: U+05F1",
+            "Character/Symbol: ױ",
+            "Name: HEBREW LIGATURE YIDDISH VAV YOD",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ײ U+05F2 HEBREW LIGATURE YIDDISH DOUBLE YOD": 
+    {
+        "prefix": [
+            "..U.05F2",
+            "..U.HEBREW LIGATURE YIDDISH DOUBLE YOD",
+            "U+05F2",
+        ],
+        "body": [
+            "${1|ײ,&#x05F2;,U+05F2,0x05F2,HEBREW LIGATURE YIDDISH DOUBLE YOD|}$2",
+        ],
+        "description": [
+            "Code: U+05F2",
+            "Character/Symbol: ײ",
+            "Name: HEBREW LIGATURE YIDDISH DOUBLE YOD",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ׳ U+05F3 HEBREW PUNCTUATION GERESH": 
+    {
+        "prefix": [
+            "..U.05F3",
+            "..U.HEBREW PUNCTUATION GERESH",
+            "U+05F3",
+        ],
+        "body": [
+            "${1|׳,&#x05F3;,U+05F3,0x05F3,HEBREW PUNCTUATION GERESH|}$2",
+        ],
+        "description": [
+            "Code: U+05F3",
+            "Character/Symbol: ׳",
+            "Name: HEBREW PUNCTUATION GERESH",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+    "Unicode ״ U+05F4 HEBREW PUNCTUATION GERSHAYIM": 
+    {
+        "prefix": [
+            "..U.05F4",
+            "..U.HEBREW PUNCTUATION GERSHAYIM",
+            "U+05F4",
+        ],
+        "body": [
+            "${1|״,&#x05F4;,U+05F4,0x05F4,HEBREW PUNCTUATION GERSHAYIM|}$2",
+        ],
+        "description": [
+            "Code: U+05F4",
+            "Character/Symbol: ״",
+            "Name: HEBREW PUNCTUATION GERSHAYIM",
+            "Group/Block: Hebrew",
+        ],
+    },
+
+}

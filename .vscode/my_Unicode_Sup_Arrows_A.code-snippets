@@ -1,0 +1,290 @@
+{
+    "Unicode ⟰ U+27F0 UPWARDS QUADRUPLE ARROW": 
+    {
+        "prefix": [
+            "..U.27F0",
+            "..U.UPWARDS QUADRUPLE ARROW",
+            "U+27F0",
+        ],
+        "body": [
+            "${1|⟰,&#x27F0;,U+27F0,0x27F0,UPWARDS QUADRUPLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+27F0",
+            "Character/Symbol: ⟰",
+            "Name: UPWARDS QUADRUPLE ARROW",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟱ U+27F1 DOWNWARDS QUADRUPLE ARROW": 
+    {
+        "prefix": [
+            "..U.27F1",
+            "..U.DOWNWARDS QUADRUPLE ARROW",
+            "U+27F1",
+        ],
+        "body": [
+            "${1|⟱,&#x27F1;,U+27F1,0x27F1,DOWNWARDS QUADRUPLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+27F1",
+            "Character/Symbol: ⟱",
+            "Name: DOWNWARDS QUADRUPLE ARROW",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟲ U+27F2 ANTICLOCKWISE GAPPED CIRCLE ARROW": 
+    {
+        "prefix": [
+            "..U.27F2",
+            "..U.ANTICLOCKWISE GAPPED CIRCLE ARROW",
+            "U+27F2",
+        ],
+        "body": [
+            "${1|⟲,&#x27F2;,U+27F2,0x27F2,ANTICLOCKWISE GAPPED CIRCLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+27F2",
+            "Character/Symbol: ⟲",
+            "Name: ANTICLOCKWISE GAPPED CIRCLE ARROW",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟳ U+27F3 CLOCKWISE GAPPED CIRCLE ARROW": 
+    {
+        "prefix": [
+            "..U.27F3",
+            "..U.CLOCKWISE GAPPED CIRCLE ARROW",
+            "U+27F3",
+        ],
+        "body": [
+            "${1|⟳,&#x27F3;,U+27F3,0x27F3,CLOCKWISE GAPPED CIRCLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+27F3",
+            "Character/Symbol: ⟳",
+            "Name: CLOCKWISE GAPPED CIRCLE ARROW",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟴ U+27F4 RIGHT ARROW WITH CIRCLED PLUS": 
+    {
+        "prefix": [
+            "..U.27F4",
+            "..U.RIGHT ARROW WITH CIRCLED PLUS",
+            "U+27F4",
+        ],
+        "body": [
+            "${1|⟴,&#x27F4;,U+27F4,0x27F4,RIGHT ARROW WITH CIRCLED PLUS|}$2",
+        ],
+        "description": [
+            "Code: U+27F4",
+            "Character/Symbol: ⟴",
+            "Name: RIGHT ARROW WITH CIRCLED PLUS",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟵ U+27F5 LONG LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.27F5",
+            "..U.LONG LEFTWARDS ARROW",
+            "U+27F5",
+        ],
+        "body": [
+            "${1|⟵,&#x27F5;,U+27F5,0x27F5,LONG LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+27F5",
+            "Character/Symbol: ⟵",
+            "Name: LONG LEFTWARDS ARROW",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟶ U+27F6 LONG RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.27F6",
+            "..U.LONG RIGHTWARDS ARROW",
+            "U+27F6",
+        ],
+        "body": [
+            "${1|⟶,&#x27F6;,U+27F6,0x27F6,LONG RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+27F6",
+            "Character/Symbol: ⟶",
+            "Name: LONG RIGHTWARDS ARROW",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟷ U+27F7 LONG LEFT RIGHT ARROW": 
+    {
+        "prefix": [
+            "..U.27F7",
+            "..U.LONG LEFT RIGHT ARROW",
+            "U+27F7",
+        ],
+        "body": [
+            "${1|⟷,&#x27F7;,U+27F7,0x27F7,LONG LEFT RIGHT ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+27F7",
+            "Character/Symbol: ⟷",
+            "Name: LONG LEFT RIGHT ARROW",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟸ U+27F8 LONG LEFTWARDS DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.27F8",
+            "..U.LONG LEFTWARDS DOUBLE ARROW",
+            "U+27F8",
+        ],
+        "body": [
+            "${1|⟸,&#x27F8;,U+27F8,0x27F8,LONG LEFTWARDS DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+27F8",
+            "Character/Symbol: ⟸",
+            "Name: LONG LEFTWARDS DOUBLE ARROW",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟹ U+27F9 LONG RIGHTWARDS DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.27F9",
+            "..U.LONG RIGHTWARDS DOUBLE ARROW",
+            "U+27F9",
+        ],
+        "body": [
+            "${1|⟹,&#x27F9;,U+27F9,0x27F9,LONG RIGHTWARDS DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+27F9",
+            "Character/Symbol: ⟹",
+            "Name: LONG RIGHTWARDS DOUBLE ARROW",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟺ U+27FA LONG LEFT RIGHT DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.27FA",
+            "..U.LONG LEFT RIGHT DOUBLE ARROW",
+            "U+27FA",
+        ],
+        "body": [
+            "${1|⟺,&#x27FA;,U+27FA,0x27FA,LONG LEFT RIGHT DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+27FA",
+            "Character/Symbol: ⟺",
+            "Name: LONG LEFT RIGHT DOUBLE ARROW",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟻ U+27FB LONG LEFTWARDS ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.27FB",
+            "..U.LONG LEFTWARDS ARROW FROM BAR",
+            "U+27FB",
+        ],
+        "body": [
+            "${1|⟻,&#x27FB;,U+27FB,0x27FB,LONG LEFTWARDS ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+27FB",
+            "Character/Symbol: ⟻",
+            "Name: LONG LEFTWARDS ARROW FROM BAR",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟼ U+27FC LONG RIGHTWARDS ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.27FC",
+            "..U.LONG RIGHTWARDS ARROW FROM BAR",
+            "U+27FC",
+        ],
+        "body": [
+            "${1|⟼,&#x27FC;,U+27FC,0x27FC,LONG RIGHTWARDS ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+27FC",
+            "Character/Symbol: ⟼",
+            "Name: LONG RIGHTWARDS ARROW FROM BAR",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟽ U+27FD LONG LEFTWARDS DOUBLE ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.27FD",
+            "..U.LONG LEFTWARDS DOUBLE ARROW FROM BAR",
+            "U+27FD",
+        ],
+        "body": [
+            "${1|⟽,&#x27FD;,U+27FD,0x27FD,LONG LEFTWARDS DOUBLE ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+27FD",
+            "Character/Symbol: ⟽",
+            "Name: LONG LEFTWARDS DOUBLE ARROW FROM BAR",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟾ U+27FE LONG RIGHTWARDS DOUBLE ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.27FE",
+            "..U.LONG RIGHTWARDS DOUBLE ARROW FROM BAR",
+            "U+27FE",
+        ],
+        "body": [
+            "${1|⟾,&#x27FE;,U+27FE,0x27FE,LONG RIGHTWARDS DOUBLE ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+27FE",
+            "Character/Symbol: ⟾",
+            "Name: LONG RIGHTWARDS DOUBLE ARROW FROM BAR",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+    "Unicode ⟿ U+27FF LONG RIGHTWARDS SQUIGGLE ARROW": 
+    {
+        "prefix": [
+            "..U.27FF",
+            "..U.LONG RIGHTWARDS SQUIGGLE ARROW",
+            "U+27FF",
+        ],
+        "body": [
+            "${1|⟿,&#x27FF;,U+27FF,0x27FF,LONG RIGHTWARDS SQUIGGLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+27FF",
+            "Character/Symbol: ⟿",
+            "Name: LONG RIGHTWARDS SQUIGGLE ARROW",
+            "Group/Block: Sup_Arrows_A",
+        ],
+    },
+
+}

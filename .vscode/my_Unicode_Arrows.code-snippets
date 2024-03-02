@@ -1,0 +1,2018 @@
+{
+    "Unicode ← U+2190 LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2190",
+            "..U.LEFTWARDS ARROW",
+            "U+2190",
+        ],
+        "body": [
+            "${1|←,&#x2190;,U+2190,0x2190,LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2190",
+            "Character/Symbol: ←",
+            "Name: LEFTWARDS ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↑ U+2191 UPWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2191",
+            "..U.UPWARDS ARROW",
+            "U+2191",
+        ],
+        "body": [
+            "${1|↑,&#x2191;,U+2191,0x2191,UPWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2191",
+            "Character/Symbol: ↑",
+            "Name: UPWARDS ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode → U+2192 RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2192",
+            "..U.RIGHTWARDS ARROW",
+            "U+2192",
+        ],
+        "body": [
+            "${1|→,&#x2192;,U+2192,0x2192,RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2192",
+            "Character/Symbol: →",
+            "Name: RIGHTWARDS ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↓ U+2193 DOWNWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.2193",
+            "..U.DOWNWARDS ARROW",
+            "U+2193",
+        ],
+        "body": [
+            "${1|↓,&#x2193;,U+2193,0x2193,DOWNWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2193",
+            "Character/Symbol: ↓",
+            "Name: DOWNWARDS ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↔ U+2194 LEFT RIGHT ARROW": 
+    {
+        "prefix": [
+            "..U.2194",
+            "..U.LEFT RIGHT ARROW",
+            "U+2194",
+        ],
+        "body": [
+            "${1|↔,&#x2194;,U+2194,0x2194,LEFT RIGHT ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2194",
+            "Character/Symbol: ↔",
+            "Name: LEFT RIGHT ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↕ U+2195 UP DOWN ARROW": 
+    {
+        "prefix": [
+            "..U.2195",
+            "..U.UP DOWN ARROW",
+            "U+2195",
+        ],
+        "body": [
+            "${1|↕,&#x2195;,U+2195,0x2195,UP DOWN ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2195",
+            "Character/Symbol: ↕",
+            "Name: UP DOWN ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↖ U+2196 NORTH WEST ARROW": 
+    {
+        "prefix": [
+            "..U.2196",
+            "..U.NORTH WEST ARROW",
+            "U+2196",
+        ],
+        "body": [
+            "${1|↖,&#x2196;,U+2196,0x2196,NORTH WEST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2196",
+            "Character/Symbol: ↖",
+            "Name: NORTH WEST ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↗ U+2197 NORTH EAST ARROW": 
+    {
+        "prefix": [
+            "..U.2197",
+            "..U.NORTH EAST ARROW",
+            "U+2197",
+        ],
+        "body": [
+            "${1|↗,&#x2197;,U+2197,0x2197,NORTH EAST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2197",
+            "Character/Symbol: ↗",
+            "Name: NORTH EAST ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↘ U+2198 SOUTH EAST ARROW": 
+    {
+        "prefix": [
+            "..U.2198",
+            "..U.SOUTH EAST ARROW",
+            "U+2198",
+        ],
+        "body": [
+            "${1|↘,&#x2198;,U+2198,0x2198,SOUTH EAST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2198",
+            "Character/Symbol: ↘",
+            "Name: SOUTH EAST ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↙ U+2199 SOUTH WEST ARROW": 
+    {
+        "prefix": [
+            "..U.2199",
+            "..U.SOUTH WEST ARROW",
+            "U+2199",
+        ],
+        "body": [
+            "${1|↙,&#x2199;,U+2199,0x2199,SOUTH WEST ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2199",
+            "Character/Symbol: ↙",
+            "Name: SOUTH WEST ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↚ U+219A LEFTWARDS ARROW WITH STROKE": 
+    {
+        "prefix": [
+            "..U.219A",
+            "..U.LEFTWARDS ARROW WITH STROKE",
+            "U+219A",
+        ],
+        "body": [
+            "${1|↚,&#x219A;,U+219A,0x219A,LEFTWARDS ARROW WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+219A",
+            "Character/Symbol: ↚",
+            "Name: LEFTWARDS ARROW WITH STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↛ U+219B RIGHTWARDS ARROW WITH STROKE": 
+    {
+        "prefix": [
+            "..U.219B",
+            "..U.RIGHTWARDS ARROW WITH STROKE",
+            "U+219B",
+        ],
+        "body": [
+            "${1|↛,&#x219B;,U+219B,0x219B,RIGHTWARDS ARROW WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+219B",
+            "Character/Symbol: ↛",
+            "Name: RIGHTWARDS ARROW WITH STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↜ U+219C LEFTWARDS WAVE ARROW": 
+    {
+        "prefix": [
+            "..U.219C",
+            "..U.LEFTWARDS WAVE ARROW",
+            "U+219C",
+        ],
+        "body": [
+            "${1|↜,&#x219C;,U+219C,0x219C,LEFTWARDS WAVE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+219C",
+            "Character/Symbol: ↜",
+            "Name: LEFTWARDS WAVE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↝ U+219D RIGHTWARDS WAVE ARROW": 
+    {
+        "prefix": [
+            "..U.219D",
+            "..U.RIGHTWARDS WAVE ARROW",
+            "U+219D",
+        ],
+        "body": [
+            "${1|↝,&#x219D;,U+219D,0x219D,RIGHTWARDS WAVE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+219D",
+            "Character/Symbol: ↝",
+            "Name: RIGHTWARDS WAVE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↞ U+219E LEFTWARDS TWO HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.219E",
+            "..U.LEFTWARDS TWO HEADED ARROW",
+            "U+219E",
+        ],
+        "body": [
+            "${1|↞,&#x219E;,U+219E,0x219E,LEFTWARDS TWO HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+219E",
+            "Character/Symbol: ↞",
+            "Name: LEFTWARDS TWO HEADED ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↟ U+219F UPWARDS TWO HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.219F",
+            "..U.UPWARDS TWO HEADED ARROW",
+            "U+219F",
+        ],
+        "body": [
+            "${1|↟,&#x219F;,U+219F,0x219F,UPWARDS TWO HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+219F",
+            "Character/Symbol: ↟",
+            "Name: UPWARDS TWO HEADED ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↠ U+21A0 RIGHTWARDS TWO HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.21A0",
+            "..U.RIGHTWARDS TWO HEADED ARROW",
+            "U+21A0",
+        ],
+        "body": [
+            "${1|↠,&#x21A0;,U+21A0,0x21A0,RIGHTWARDS TWO HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21A0",
+            "Character/Symbol: ↠",
+            "Name: RIGHTWARDS TWO HEADED ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↡ U+21A1 DOWNWARDS TWO HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.21A1",
+            "..U.DOWNWARDS TWO HEADED ARROW",
+            "U+21A1",
+        ],
+        "body": [
+            "${1|↡,&#x21A1;,U+21A1,0x21A1,DOWNWARDS TWO HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21A1",
+            "Character/Symbol: ↡",
+            "Name: DOWNWARDS TWO HEADED ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↢ U+21A2 LEFTWARDS ARROW WITH TAIL": 
+    {
+        "prefix": [
+            "..U.21A2",
+            "..U.LEFTWARDS ARROW WITH TAIL",
+            "U+21A2",
+        ],
+        "body": [
+            "${1|↢,&#x21A2;,U+21A2,0x21A2,LEFTWARDS ARROW WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+21A2",
+            "Character/Symbol: ↢",
+            "Name: LEFTWARDS ARROW WITH TAIL",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↣ U+21A3 RIGHTWARDS ARROW WITH TAIL": 
+    {
+        "prefix": [
+            "..U.21A3",
+            "..U.RIGHTWARDS ARROW WITH TAIL",
+            "U+21A3",
+        ],
+        "body": [
+            "${1|↣,&#x21A3;,U+21A3,0x21A3,RIGHTWARDS ARROW WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+21A3",
+            "Character/Symbol: ↣",
+            "Name: RIGHTWARDS ARROW WITH TAIL",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↤ U+21A4 LEFTWARDS ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.21A4",
+            "..U.LEFTWARDS ARROW FROM BAR",
+            "U+21A4",
+        ],
+        "body": [
+            "${1|↤,&#x21A4;,U+21A4,0x21A4,LEFTWARDS ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+21A4",
+            "Character/Symbol: ↤",
+            "Name: LEFTWARDS ARROW FROM BAR",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↥ U+21A5 UPWARDS ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.21A5",
+            "..U.UPWARDS ARROW FROM BAR",
+            "U+21A5",
+        ],
+        "body": [
+            "${1|↥,&#x21A5;,U+21A5,0x21A5,UPWARDS ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+21A5",
+            "Character/Symbol: ↥",
+            "Name: UPWARDS ARROW FROM BAR",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↦ U+21A6 RIGHTWARDS ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.21A6",
+            "..U.RIGHTWARDS ARROW FROM BAR",
+            "U+21A6",
+        ],
+        "body": [
+            "${1|↦,&#x21A6;,U+21A6,0x21A6,RIGHTWARDS ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+21A6",
+            "Character/Symbol: ↦",
+            "Name: RIGHTWARDS ARROW FROM BAR",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↧ U+21A7 DOWNWARDS ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.21A7",
+            "..U.DOWNWARDS ARROW FROM BAR",
+            "U+21A7",
+        ],
+        "body": [
+            "${1|↧,&#x21A7;,U+21A7,0x21A7,DOWNWARDS ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+21A7",
+            "Character/Symbol: ↧",
+            "Name: DOWNWARDS ARROW FROM BAR",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↨ U+21A8 UP DOWN ARROW WITH BASE": 
+    {
+        "prefix": [
+            "..U.21A8",
+            "..U.UP DOWN ARROW WITH BASE",
+            "U+21A8",
+        ],
+        "body": [
+            "${1|↨,&#x21A8;,U+21A8,0x21A8,UP DOWN ARROW WITH BASE|}$2",
+        ],
+        "description": [
+            "Code: U+21A8",
+            "Character/Symbol: ↨",
+            "Name: UP DOWN ARROW WITH BASE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↩ U+21A9 LEFTWARDS ARROW WITH HOOK": 
+    {
+        "prefix": [
+            "..U.21A9",
+            "..U.LEFTWARDS ARROW WITH HOOK",
+            "U+21A9",
+        ],
+        "body": [
+            "${1|↩,&#x21A9;,U+21A9,0x21A9,LEFTWARDS ARROW WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+21A9",
+            "Character/Symbol: ↩",
+            "Name: LEFTWARDS ARROW WITH HOOK",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↪ U+21AA RIGHTWARDS ARROW WITH HOOK": 
+    {
+        "prefix": [
+            "..U.21AA",
+            "..U.RIGHTWARDS ARROW WITH HOOK",
+            "U+21AA",
+        ],
+        "body": [
+            "${1|↪,&#x21AA;,U+21AA,0x21AA,RIGHTWARDS ARROW WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+21AA",
+            "Character/Symbol: ↪",
+            "Name: RIGHTWARDS ARROW WITH HOOK",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↫ U+21AB LEFTWARDS ARROW WITH LOOP": 
+    {
+        "prefix": [
+            "..U.21AB",
+            "..U.LEFTWARDS ARROW WITH LOOP",
+            "U+21AB",
+        ],
+        "body": [
+            "${1|↫,&#x21AB;,U+21AB,0x21AB,LEFTWARDS ARROW WITH LOOP|}$2",
+        ],
+        "description": [
+            "Code: U+21AB",
+            "Character/Symbol: ↫",
+            "Name: LEFTWARDS ARROW WITH LOOP",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↬ U+21AC RIGHTWARDS ARROW WITH LOOP": 
+    {
+        "prefix": [
+            "..U.21AC",
+            "..U.RIGHTWARDS ARROW WITH LOOP",
+            "U+21AC",
+        ],
+        "body": [
+            "${1|↬,&#x21AC;,U+21AC,0x21AC,RIGHTWARDS ARROW WITH LOOP|}$2",
+        ],
+        "description": [
+            "Code: U+21AC",
+            "Character/Symbol: ↬",
+            "Name: RIGHTWARDS ARROW WITH LOOP",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↭ U+21AD LEFT RIGHT WAVE ARROW": 
+    {
+        "prefix": [
+            "..U.21AD",
+            "..U.LEFT RIGHT WAVE ARROW",
+            "U+21AD",
+        ],
+        "body": [
+            "${1|↭,&#x21AD;,U+21AD,0x21AD,LEFT RIGHT WAVE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21AD",
+            "Character/Symbol: ↭",
+            "Name: LEFT RIGHT WAVE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↮ U+21AE LEFT RIGHT ARROW WITH STROKE": 
+    {
+        "prefix": [
+            "..U.21AE",
+            "..U.LEFT RIGHT ARROW WITH STROKE",
+            "U+21AE",
+        ],
+        "body": [
+            "${1|↮,&#x21AE;,U+21AE,0x21AE,LEFT RIGHT ARROW WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21AE",
+            "Character/Symbol: ↮",
+            "Name: LEFT RIGHT ARROW WITH STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↯ U+21AF DOWNWARDS ZIGZAG ARROW": 
+    {
+        "prefix": [
+            "..U.21AF",
+            "..U.DOWNWARDS ZIGZAG ARROW",
+            "U+21AF",
+        ],
+        "body": [
+            "${1|↯,&#x21AF;,U+21AF,0x21AF,DOWNWARDS ZIGZAG ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21AF",
+            "Character/Symbol: ↯",
+            "Name: DOWNWARDS ZIGZAG ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↰ U+21B0 UPWARDS ARROW WITH TIP LEFTWARDS": 
+    {
+        "prefix": [
+            "..U.21B0",
+            "..U.UPWARDS ARROW WITH TIP LEFTWARDS",
+            "U+21B0",
+        ],
+        "body": [
+            "${1|↰,&#x21B0;,U+21B0,0x21B0,UPWARDS ARROW WITH TIP LEFTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21B0",
+            "Character/Symbol: ↰",
+            "Name: UPWARDS ARROW WITH TIP LEFTWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↱ U+21B1 UPWARDS ARROW WITH TIP RIGHTWARDS": 
+    {
+        "prefix": [
+            "..U.21B1",
+            "..U.UPWARDS ARROW WITH TIP RIGHTWARDS",
+            "U+21B1",
+        ],
+        "body": [
+            "${1|↱,&#x21B1;,U+21B1,0x21B1,UPWARDS ARROW WITH TIP RIGHTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21B1",
+            "Character/Symbol: ↱",
+            "Name: UPWARDS ARROW WITH TIP RIGHTWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↲ U+21B2 DOWNWARDS ARROW WITH TIP LEFTWARDS": 
+    {
+        "prefix": [
+            "..U.21B2",
+            "..U.DOWNWARDS ARROW WITH TIP LEFTWARDS",
+            "U+21B2",
+        ],
+        "body": [
+            "${1|↲,&#x21B2;,U+21B2,0x21B2,DOWNWARDS ARROW WITH TIP LEFTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21B2",
+            "Character/Symbol: ↲",
+            "Name: DOWNWARDS ARROW WITH TIP LEFTWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↳ U+21B3 DOWNWARDS ARROW WITH TIP RIGHTWARDS": 
+    {
+        "prefix": [
+            "..U.21B3",
+            "..U.DOWNWARDS ARROW WITH TIP RIGHTWARDS",
+            "U+21B3",
+        ],
+        "body": [
+            "${1|↳,&#x21B3;,U+21B3,0x21B3,DOWNWARDS ARROW WITH TIP RIGHTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21B3",
+            "Character/Symbol: ↳",
+            "Name: DOWNWARDS ARROW WITH TIP RIGHTWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↴ U+21B4 RIGHTWARDS ARROW WITH CORNER DOWNWARDS": 
+    {
+        "prefix": [
+            "..U.21B4",
+            "..U.RIGHTWARDS ARROW WITH CORNER DOWNWARDS",
+            "U+21B4",
+        ],
+        "body": [
+            "${1|↴,&#x21B4;,U+21B4,0x21B4,RIGHTWARDS ARROW WITH CORNER DOWNWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21B4",
+            "Character/Symbol: ↴",
+            "Name: RIGHTWARDS ARROW WITH CORNER DOWNWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↵ U+21B5 DOWNWARDS ARROW WITH CORNER LEFTWARDS": 
+    {
+        "prefix": [
+            "..U.21B5",
+            "..U.DOWNWARDS ARROW WITH CORNER LEFTWARDS",
+            "U+21B5",
+        ],
+        "body": [
+            "${1|↵,&#x21B5;,U+21B5,0x21B5,DOWNWARDS ARROW WITH CORNER LEFTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21B5",
+            "Character/Symbol: ↵",
+            "Name: DOWNWARDS ARROW WITH CORNER LEFTWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↶ U+21B6 ANTICLOCKWISE TOP SEMICIRCLE ARROW": 
+    {
+        "prefix": [
+            "..U.21B6",
+            "..U.ANTICLOCKWISE TOP SEMICIRCLE ARROW",
+            "U+21B6",
+        ],
+        "body": [
+            "${1|↶,&#x21B6;,U+21B6,0x21B6,ANTICLOCKWISE TOP SEMICIRCLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21B6",
+            "Character/Symbol: ↶",
+            "Name: ANTICLOCKWISE TOP SEMICIRCLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↷ U+21B7 CLOCKWISE TOP SEMICIRCLE ARROW": 
+    {
+        "prefix": [
+            "..U.21B7",
+            "..U.CLOCKWISE TOP SEMICIRCLE ARROW",
+            "U+21B7",
+        ],
+        "body": [
+            "${1|↷,&#x21B7;,U+21B7,0x21B7,CLOCKWISE TOP SEMICIRCLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21B7",
+            "Character/Symbol: ↷",
+            "Name: CLOCKWISE TOP SEMICIRCLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↸ U+21B8 NORTH WEST ARROW TO LONG BAR": 
+    {
+        "prefix": [
+            "..U.21B8",
+            "..U.NORTH WEST ARROW TO LONG BAR",
+            "U+21B8",
+        ],
+        "body": [
+            "${1|↸,&#x21B8;,U+21B8,0x21B8,NORTH WEST ARROW TO LONG BAR|}$2",
+        ],
+        "description": [
+            "Code: U+21B8",
+            "Character/Symbol: ↸",
+            "Name: NORTH WEST ARROW TO LONG BAR",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↹ U+21B9 LEFTWARDS ARROW TO BAR OVER RIGHTWARDS ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.21B9",
+            "..U.LEFTWARDS ARROW TO BAR OVER RIGHTWARDS ARROW TO BAR",
+            "U+21B9",
+        ],
+        "body": [
+            "${1|↹,&#x21B9;,U+21B9,0x21B9,LEFTWARDS ARROW TO BAR OVER RIGHTWARDS ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+21B9",
+            "Character/Symbol: ↹",
+            "Name: LEFTWARDS ARROW TO BAR OVER RIGHTWARDS ARROW TO BAR",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↺ U+21BA ANTICLOCKWISE OPEN CIRCLE ARROW": 
+    {
+        "prefix": [
+            "..U.21BA",
+            "..U.ANTICLOCKWISE OPEN CIRCLE ARROW",
+            "U+21BA",
+        ],
+        "body": [
+            "${1|↺,&#x21BA;,U+21BA,0x21BA,ANTICLOCKWISE OPEN CIRCLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21BA",
+            "Character/Symbol: ↺",
+            "Name: ANTICLOCKWISE OPEN CIRCLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↻ U+21BB CLOCKWISE OPEN CIRCLE ARROW": 
+    {
+        "prefix": [
+            "..U.21BB",
+            "..U.CLOCKWISE OPEN CIRCLE ARROW",
+            "U+21BB",
+        ],
+        "body": [
+            "${1|↻,&#x21BB;,U+21BB,0x21BB,CLOCKWISE OPEN CIRCLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21BB",
+            "Character/Symbol: ↻",
+            "Name: CLOCKWISE OPEN CIRCLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↼ U+21BC LEFTWARDS HARPOON WITH BARB UPWARDS": 
+    {
+        "prefix": [
+            "..U.21BC",
+            "..U.LEFTWARDS HARPOON WITH BARB UPWARDS",
+            "U+21BC",
+        ],
+        "body": [
+            "${1|↼,&#x21BC;,U+21BC,0x21BC,LEFTWARDS HARPOON WITH BARB UPWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21BC",
+            "Character/Symbol: ↼",
+            "Name: LEFTWARDS HARPOON WITH BARB UPWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↽ U+21BD LEFTWARDS HARPOON WITH BARB DOWNWARDS": 
+    {
+        "prefix": [
+            "..U.21BD",
+            "..U.LEFTWARDS HARPOON WITH BARB DOWNWARDS",
+            "U+21BD",
+        ],
+        "body": [
+            "${1|↽,&#x21BD;,U+21BD,0x21BD,LEFTWARDS HARPOON WITH BARB DOWNWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21BD",
+            "Character/Symbol: ↽",
+            "Name: LEFTWARDS HARPOON WITH BARB DOWNWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↾ U+21BE UPWARDS HARPOON WITH BARB RIGHTWARDS": 
+    {
+        "prefix": [
+            "..U.21BE",
+            "..U.UPWARDS HARPOON WITH BARB RIGHTWARDS",
+            "U+21BE",
+        ],
+        "body": [
+            "${1|↾,&#x21BE;,U+21BE,0x21BE,UPWARDS HARPOON WITH BARB RIGHTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21BE",
+            "Character/Symbol: ↾",
+            "Name: UPWARDS HARPOON WITH BARB RIGHTWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ↿ U+21BF UPWARDS HARPOON WITH BARB LEFTWARDS": 
+    {
+        "prefix": [
+            "..U.21BF",
+            "..U.UPWARDS HARPOON WITH BARB LEFTWARDS",
+            "U+21BF",
+        ],
+        "body": [
+            "${1|↿,&#x21BF;,U+21BF,0x21BF,UPWARDS HARPOON WITH BARB LEFTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21BF",
+            "Character/Symbol: ↿",
+            "Name: UPWARDS HARPOON WITH BARB LEFTWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇀ U+21C0 RIGHTWARDS HARPOON WITH BARB UPWARDS": 
+    {
+        "prefix": [
+            "..U.21C0",
+            "..U.RIGHTWARDS HARPOON WITH BARB UPWARDS",
+            "U+21C0",
+        ],
+        "body": [
+            "${1|⇀,&#x21C0;,U+21C0,0x21C0,RIGHTWARDS HARPOON WITH BARB UPWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21C0",
+            "Character/Symbol: ⇀",
+            "Name: RIGHTWARDS HARPOON WITH BARB UPWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇁ U+21C1 RIGHTWARDS HARPOON WITH BARB DOWNWARDS": 
+    {
+        "prefix": [
+            "..U.21C1",
+            "..U.RIGHTWARDS HARPOON WITH BARB DOWNWARDS",
+            "U+21C1",
+        ],
+        "body": [
+            "${1|⇁,&#x21C1;,U+21C1,0x21C1,RIGHTWARDS HARPOON WITH BARB DOWNWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21C1",
+            "Character/Symbol: ⇁",
+            "Name: RIGHTWARDS HARPOON WITH BARB DOWNWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇂ U+21C2 DOWNWARDS HARPOON WITH BARB RIGHTWARDS": 
+    {
+        "prefix": [
+            "..U.21C2",
+            "..U.DOWNWARDS HARPOON WITH BARB RIGHTWARDS",
+            "U+21C2",
+        ],
+        "body": [
+            "${1|⇂,&#x21C2;,U+21C2,0x21C2,DOWNWARDS HARPOON WITH BARB RIGHTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21C2",
+            "Character/Symbol: ⇂",
+            "Name: DOWNWARDS HARPOON WITH BARB RIGHTWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇃ U+21C3 DOWNWARDS HARPOON WITH BARB LEFTWARDS": 
+    {
+        "prefix": [
+            "..U.21C3",
+            "..U.DOWNWARDS HARPOON WITH BARB LEFTWARDS",
+            "U+21C3",
+        ],
+        "body": [
+            "${1|⇃,&#x21C3;,U+21C3,0x21C3,DOWNWARDS HARPOON WITH BARB LEFTWARDS|}$2",
+        ],
+        "description": [
+            "Code: U+21C3",
+            "Character/Symbol: ⇃",
+            "Name: DOWNWARDS HARPOON WITH BARB LEFTWARDS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇄ U+21C4 RIGHTWARDS ARROW OVER LEFTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.21C4",
+            "..U.RIGHTWARDS ARROW OVER LEFTWARDS ARROW",
+            "U+21C4",
+        ],
+        "body": [
+            "${1|⇄,&#x21C4;,U+21C4,0x21C4,RIGHTWARDS ARROW OVER LEFTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21C4",
+            "Character/Symbol: ⇄",
+            "Name: RIGHTWARDS ARROW OVER LEFTWARDS ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇅ U+21C5 UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.21C5",
+            "..U.UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW",
+            "U+21C5",
+        ],
+        "body": [
+            "${1|⇅,&#x21C5;,U+21C5,0x21C5,UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21C5",
+            "Character/Symbol: ⇅",
+            "Name: UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇆ U+21C6 LEFTWARDS ARROW OVER RIGHTWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.21C6",
+            "..U.LEFTWARDS ARROW OVER RIGHTWARDS ARROW",
+            "U+21C6",
+        ],
+        "body": [
+            "${1|⇆,&#x21C6;,U+21C6,0x21C6,LEFTWARDS ARROW OVER RIGHTWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21C6",
+            "Character/Symbol: ⇆",
+            "Name: LEFTWARDS ARROW OVER RIGHTWARDS ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇇ U+21C7 LEFTWARDS PAIRED ARROWS": 
+    {
+        "prefix": [
+            "..U.21C7",
+            "..U.LEFTWARDS PAIRED ARROWS",
+            "U+21C7",
+        ],
+        "body": [
+            "${1|⇇,&#x21C7;,U+21C7,0x21C7,LEFTWARDS PAIRED ARROWS|}$2",
+        ],
+        "description": [
+            "Code: U+21C7",
+            "Character/Symbol: ⇇",
+            "Name: LEFTWARDS PAIRED ARROWS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇈ U+21C8 UPWARDS PAIRED ARROWS": 
+    {
+        "prefix": [
+            "..U.21C8",
+            "..U.UPWARDS PAIRED ARROWS",
+            "U+21C8",
+        ],
+        "body": [
+            "${1|⇈,&#x21C8;,U+21C8,0x21C8,UPWARDS PAIRED ARROWS|}$2",
+        ],
+        "description": [
+            "Code: U+21C8",
+            "Character/Symbol: ⇈",
+            "Name: UPWARDS PAIRED ARROWS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇉ U+21C9 RIGHTWARDS PAIRED ARROWS": 
+    {
+        "prefix": [
+            "..U.21C9",
+            "..U.RIGHTWARDS PAIRED ARROWS",
+            "U+21C9",
+        ],
+        "body": [
+            "${1|⇉,&#x21C9;,U+21C9,0x21C9,RIGHTWARDS PAIRED ARROWS|}$2",
+        ],
+        "description": [
+            "Code: U+21C9",
+            "Character/Symbol: ⇉",
+            "Name: RIGHTWARDS PAIRED ARROWS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇊ U+21CA DOWNWARDS PAIRED ARROWS": 
+    {
+        "prefix": [
+            "..U.21CA",
+            "..U.DOWNWARDS PAIRED ARROWS",
+            "U+21CA",
+        ],
+        "body": [
+            "${1|⇊,&#x21CA;,U+21CA,0x21CA,DOWNWARDS PAIRED ARROWS|}$2",
+        ],
+        "description": [
+            "Code: U+21CA",
+            "Character/Symbol: ⇊",
+            "Name: DOWNWARDS PAIRED ARROWS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇋ U+21CB LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON": 
+    {
+        "prefix": [
+            "..U.21CB",
+            "..U.LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON",
+            "U+21CB",
+        ],
+        "body": [
+            "${1|⇋,&#x21CB;,U+21CB,0x21CB,LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON|}$2",
+        ],
+        "description": [
+            "Code: U+21CB",
+            "Character/Symbol: ⇋",
+            "Name: LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇌ U+21CC RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON": 
+    {
+        "prefix": [
+            "..U.21CC",
+            "..U.RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON",
+            "U+21CC",
+        ],
+        "body": [
+            "${1|⇌,&#x21CC;,U+21CC,0x21CC,RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON|}$2",
+        ],
+        "description": [
+            "Code: U+21CC",
+            "Character/Symbol: ⇌",
+            "Name: RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇍ U+21CD LEFTWARDS DOUBLE ARROW WITH STROKE": 
+    {
+        "prefix": [
+            "..U.21CD",
+            "..U.LEFTWARDS DOUBLE ARROW WITH STROKE",
+            "U+21CD",
+        ],
+        "body": [
+            "${1|⇍,&#x21CD;,U+21CD,0x21CD,LEFTWARDS DOUBLE ARROW WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21CD",
+            "Character/Symbol: ⇍",
+            "Name: LEFTWARDS DOUBLE ARROW WITH STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇎ U+21CE LEFT RIGHT DOUBLE ARROW WITH STROKE": 
+    {
+        "prefix": [
+            "..U.21CE",
+            "..U.LEFT RIGHT DOUBLE ARROW WITH STROKE",
+            "U+21CE",
+        ],
+        "body": [
+            "${1|⇎,&#x21CE;,U+21CE,0x21CE,LEFT RIGHT DOUBLE ARROW WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21CE",
+            "Character/Symbol: ⇎",
+            "Name: LEFT RIGHT DOUBLE ARROW WITH STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇏ U+21CF RIGHTWARDS DOUBLE ARROW WITH STROKE": 
+    {
+        "prefix": [
+            "..U.21CF",
+            "..U.RIGHTWARDS DOUBLE ARROW WITH STROKE",
+            "U+21CF",
+        ],
+        "body": [
+            "${1|⇏,&#x21CF;,U+21CF,0x21CF,RIGHTWARDS DOUBLE ARROW WITH STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21CF",
+            "Character/Symbol: ⇏",
+            "Name: RIGHTWARDS DOUBLE ARROW WITH STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇐ U+21D0 LEFTWARDS DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.21D0",
+            "..U.LEFTWARDS DOUBLE ARROW",
+            "U+21D0",
+        ],
+        "body": [
+            "${1|⇐,&#x21D0;,U+21D0,0x21D0,LEFTWARDS DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21D0",
+            "Character/Symbol: ⇐",
+            "Name: LEFTWARDS DOUBLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇑ U+21D1 UPWARDS DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.21D1",
+            "..U.UPWARDS DOUBLE ARROW",
+            "U+21D1",
+        ],
+        "body": [
+            "${1|⇑,&#x21D1;,U+21D1,0x21D1,UPWARDS DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21D1",
+            "Character/Symbol: ⇑",
+            "Name: UPWARDS DOUBLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇒ U+21D2 RIGHTWARDS DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.21D2",
+            "..U.RIGHTWARDS DOUBLE ARROW",
+            "U+21D2",
+        ],
+        "body": [
+            "${1|⇒,&#x21D2;,U+21D2,0x21D2,RIGHTWARDS DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21D2",
+            "Character/Symbol: ⇒",
+            "Name: RIGHTWARDS DOUBLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇓ U+21D3 DOWNWARDS DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.21D3",
+            "..U.DOWNWARDS DOUBLE ARROW",
+            "U+21D3",
+        ],
+        "body": [
+            "${1|⇓,&#x21D3;,U+21D3,0x21D3,DOWNWARDS DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21D3",
+            "Character/Symbol: ⇓",
+            "Name: DOWNWARDS DOUBLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇔ U+21D4 LEFT RIGHT DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.21D4",
+            "..U.LEFT RIGHT DOUBLE ARROW",
+            "U+21D4",
+        ],
+        "body": [
+            "${1|⇔,&#x21D4;,U+21D4,0x21D4,LEFT RIGHT DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21D4",
+            "Character/Symbol: ⇔",
+            "Name: LEFT RIGHT DOUBLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇕ U+21D5 UP DOWN DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.21D5",
+            "..U.UP DOWN DOUBLE ARROW",
+            "U+21D5",
+        ],
+        "body": [
+            "${1|⇕,&#x21D5;,U+21D5,0x21D5,UP DOWN DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21D5",
+            "Character/Symbol: ⇕",
+            "Name: UP DOWN DOUBLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇖ U+21D6 NORTH WEST DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.21D6",
+            "..U.NORTH WEST DOUBLE ARROW",
+            "U+21D6",
+        ],
+        "body": [
+            "${1|⇖,&#x21D6;,U+21D6,0x21D6,NORTH WEST DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21D6",
+            "Character/Symbol: ⇖",
+            "Name: NORTH WEST DOUBLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇗ U+21D7 NORTH EAST DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.21D7",
+            "..U.NORTH EAST DOUBLE ARROW",
+            "U+21D7",
+        ],
+        "body": [
+            "${1|⇗,&#x21D7;,U+21D7,0x21D7,NORTH EAST DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21D7",
+            "Character/Symbol: ⇗",
+            "Name: NORTH EAST DOUBLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇘ U+21D8 SOUTH EAST DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.21D8",
+            "..U.SOUTH EAST DOUBLE ARROW",
+            "U+21D8",
+        ],
+        "body": [
+            "${1|⇘,&#x21D8;,U+21D8,0x21D8,SOUTH EAST DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21D8",
+            "Character/Symbol: ⇘",
+            "Name: SOUTH EAST DOUBLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇙ U+21D9 SOUTH WEST DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.21D9",
+            "..U.SOUTH WEST DOUBLE ARROW",
+            "U+21D9",
+        ],
+        "body": [
+            "${1|⇙,&#x21D9;,U+21D9,0x21D9,SOUTH WEST DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21D9",
+            "Character/Symbol: ⇙",
+            "Name: SOUTH WEST DOUBLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇚ U+21DA LEFTWARDS TRIPLE ARROW": 
+    {
+        "prefix": [
+            "..U.21DA",
+            "..U.LEFTWARDS TRIPLE ARROW",
+            "U+21DA",
+        ],
+        "body": [
+            "${1|⇚,&#x21DA;,U+21DA,0x21DA,LEFTWARDS TRIPLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21DA",
+            "Character/Symbol: ⇚",
+            "Name: LEFTWARDS TRIPLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇛ U+21DB RIGHTWARDS TRIPLE ARROW": 
+    {
+        "prefix": [
+            "..U.21DB",
+            "..U.RIGHTWARDS TRIPLE ARROW",
+            "U+21DB",
+        ],
+        "body": [
+            "${1|⇛,&#x21DB;,U+21DB,0x21DB,RIGHTWARDS TRIPLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21DB",
+            "Character/Symbol: ⇛",
+            "Name: RIGHTWARDS TRIPLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇜ U+21DC LEFTWARDS SQUIGGLE ARROW": 
+    {
+        "prefix": [
+            "..U.21DC",
+            "..U.LEFTWARDS SQUIGGLE ARROW",
+            "U+21DC",
+        ],
+        "body": [
+            "${1|⇜,&#x21DC;,U+21DC,0x21DC,LEFTWARDS SQUIGGLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21DC",
+            "Character/Symbol: ⇜",
+            "Name: LEFTWARDS SQUIGGLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇝ U+21DD RIGHTWARDS SQUIGGLE ARROW": 
+    {
+        "prefix": [
+            "..U.21DD",
+            "..U.RIGHTWARDS SQUIGGLE ARROW",
+            "U+21DD",
+        ],
+        "body": [
+            "${1|⇝,&#x21DD;,U+21DD,0x21DD,RIGHTWARDS SQUIGGLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21DD",
+            "Character/Symbol: ⇝",
+            "Name: RIGHTWARDS SQUIGGLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇞ U+21DE UPWARDS ARROW WITH DOUBLE STROKE": 
+    {
+        "prefix": [
+            "..U.21DE",
+            "..U.UPWARDS ARROW WITH DOUBLE STROKE",
+            "U+21DE",
+        ],
+        "body": [
+            "${1|⇞,&#x21DE;,U+21DE,0x21DE,UPWARDS ARROW WITH DOUBLE STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21DE",
+            "Character/Symbol: ⇞",
+            "Name: UPWARDS ARROW WITH DOUBLE STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇟ U+21DF DOWNWARDS ARROW WITH DOUBLE STROKE": 
+    {
+        "prefix": [
+            "..U.21DF",
+            "..U.DOWNWARDS ARROW WITH DOUBLE STROKE",
+            "U+21DF",
+        ],
+        "body": [
+            "${1|⇟,&#x21DF;,U+21DF,0x21DF,DOWNWARDS ARROW WITH DOUBLE STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21DF",
+            "Character/Symbol: ⇟",
+            "Name: DOWNWARDS ARROW WITH DOUBLE STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇠ U+21E0 LEFTWARDS DASHED ARROW": 
+    {
+        "prefix": [
+            "..U.21E0",
+            "..U.LEFTWARDS DASHED ARROW",
+            "U+21E0",
+        ],
+        "body": [
+            "${1|⇠,&#x21E0;,U+21E0,0x21E0,LEFTWARDS DASHED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21E0",
+            "Character/Symbol: ⇠",
+            "Name: LEFTWARDS DASHED ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇡ U+21E1 UPWARDS DASHED ARROW": 
+    {
+        "prefix": [
+            "..U.21E1",
+            "..U.UPWARDS DASHED ARROW",
+            "U+21E1",
+        ],
+        "body": [
+            "${1|⇡,&#x21E1;,U+21E1,0x21E1,UPWARDS DASHED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21E1",
+            "Character/Symbol: ⇡",
+            "Name: UPWARDS DASHED ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇢ U+21E2 RIGHTWARDS DASHED ARROW": 
+    {
+        "prefix": [
+            "..U.21E2",
+            "..U.RIGHTWARDS DASHED ARROW",
+            "U+21E2",
+        ],
+        "body": [
+            "${1|⇢,&#x21E2;,U+21E2,0x21E2,RIGHTWARDS DASHED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21E2",
+            "Character/Symbol: ⇢",
+            "Name: RIGHTWARDS DASHED ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇣ U+21E3 DOWNWARDS DASHED ARROW": 
+    {
+        "prefix": [
+            "..U.21E3",
+            "..U.DOWNWARDS DASHED ARROW",
+            "U+21E3",
+        ],
+        "body": [
+            "${1|⇣,&#x21E3;,U+21E3,0x21E3,DOWNWARDS DASHED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21E3",
+            "Character/Symbol: ⇣",
+            "Name: DOWNWARDS DASHED ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇤ U+21E4 LEFTWARDS ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.21E4",
+            "..U.LEFTWARDS ARROW TO BAR",
+            "U+21E4",
+        ],
+        "body": [
+            "${1|⇤,&#x21E4;,U+21E4,0x21E4,LEFTWARDS ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+21E4",
+            "Character/Symbol: ⇤",
+            "Name: LEFTWARDS ARROW TO BAR",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇥ U+21E5 RIGHTWARDS ARROW TO BAR": 
+    {
+        "prefix": [
+            "..U.21E5",
+            "..U.RIGHTWARDS ARROW TO BAR",
+            "U+21E5",
+        ],
+        "body": [
+            "${1|⇥,&#x21E5;,U+21E5,0x21E5,RIGHTWARDS ARROW TO BAR|}$2",
+        ],
+        "description": [
+            "Code: U+21E5",
+            "Character/Symbol: ⇥",
+            "Name: RIGHTWARDS ARROW TO BAR",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇦ U+21E6 LEFTWARDS WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.21E6",
+            "..U.LEFTWARDS WHITE ARROW",
+            "U+21E6",
+        ],
+        "body": [
+            "${1|⇦,&#x21E6;,U+21E6,0x21E6,LEFTWARDS WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21E6",
+            "Character/Symbol: ⇦",
+            "Name: LEFTWARDS WHITE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇧ U+21E7 UPWARDS WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.21E7",
+            "..U.UPWARDS WHITE ARROW",
+            "U+21E7",
+        ],
+        "body": [
+            "${1|⇧,&#x21E7;,U+21E7,0x21E7,UPWARDS WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21E7",
+            "Character/Symbol: ⇧",
+            "Name: UPWARDS WHITE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇨ U+21E8 RIGHTWARDS WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.21E8",
+            "..U.RIGHTWARDS WHITE ARROW",
+            "U+21E8",
+        ],
+        "body": [
+            "${1|⇨,&#x21E8;,U+21E8,0x21E8,RIGHTWARDS WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21E8",
+            "Character/Symbol: ⇨",
+            "Name: RIGHTWARDS WHITE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇩ U+21E9 DOWNWARDS WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.21E9",
+            "..U.DOWNWARDS WHITE ARROW",
+            "U+21E9",
+        ],
+        "body": [
+            "${1|⇩,&#x21E9;,U+21E9,0x21E9,DOWNWARDS WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21E9",
+            "Character/Symbol: ⇩",
+            "Name: DOWNWARDS WHITE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇪ U+21EA UPWARDS WHITE ARROW FROM BAR": 
+    {
+        "prefix": [
+            "..U.21EA",
+            "..U.UPWARDS WHITE ARROW FROM BAR",
+            "U+21EA",
+        ],
+        "body": [
+            "${1|⇪,&#x21EA;,U+21EA,0x21EA,UPWARDS WHITE ARROW FROM BAR|}$2",
+        ],
+        "description": [
+            "Code: U+21EA",
+            "Character/Symbol: ⇪",
+            "Name: UPWARDS WHITE ARROW FROM BAR",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇫ U+21EB UPWARDS WHITE ARROW ON PEDESTAL": 
+    {
+        "prefix": [
+            "..U.21EB",
+            "..U.UPWARDS WHITE ARROW ON PEDESTAL",
+            "U+21EB",
+        ],
+        "body": [
+            "${1|⇫,&#x21EB;,U+21EB,0x21EB,UPWARDS WHITE ARROW ON PEDESTAL|}$2",
+        ],
+        "description": [
+            "Code: U+21EB",
+            "Character/Symbol: ⇫",
+            "Name: UPWARDS WHITE ARROW ON PEDESTAL",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇬ U+21EC UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR": 
+    {
+        "prefix": [
+            "..U.21EC",
+            "..U.UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR",
+            "U+21EC",
+        ],
+        "body": [
+            "${1|⇬,&#x21EC;,U+21EC,0x21EC,UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR|}$2",
+        ],
+        "description": [
+            "Code: U+21EC",
+            "Character/Symbol: ⇬",
+            "Name: UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇭ U+21ED UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR": 
+    {
+        "prefix": [
+            "..U.21ED",
+            "..U.UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR",
+            "U+21ED",
+        ],
+        "body": [
+            "${1|⇭,&#x21ED;,U+21ED,0x21ED,UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR|}$2",
+        ],
+        "description": [
+            "Code: U+21ED",
+            "Character/Symbol: ⇭",
+            "Name: UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇮ U+21EE UPWARDS WHITE DOUBLE ARROW": 
+    {
+        "prefix": [
+            "..U.21EE",
+            "..U.UPWARDS WHITE DOUBLE ARROW",
+            "U+21EE",
+        ],
+        "body": [
+            "${1|⇮,&#x21EE;,U+21EE,0x21EE,UPWARDS WHITE DOUBLE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21EE",
+            "Character/Symbol: ⇮",
+            "Name: UPWARDS WHITE DOUBLE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇯ U+21EF UPWARDS WHITE DOUBLE ARROW ON PEDESTAL": 
+    {
+        "prefix": [
+            "..U.21EF",
+            "..U.UPWARDS WHITE DOUBLE ARROW ON PEDESTAL",
+            "U+21EF",
+        ],
+        "body": [
+            "${1|⇯,&#x21EF;,U+21EF,0x21EF,UPWARDS WHITE DOUBLE ARROW ON PEDESTAL|}$2",
+        ],
+        "description": [
+            "Code: U+21EF",
+            "Character/Symbol: ⇯",
+            "Name: UPWARDS WHITE DOUBLE ARROW ON PEDESTAL",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇰ U+21F0 RIGHTWARDS WHITE ARROW FROM WALL": 
+    {
+        "prefix": [
+            "..U.21F0",
+            "..U.RIGHTWARDS WHITE ARROW FROM WALL",
+            "U+21F0",
+        ],
+        "body": [
+            "${1|⇰,&#x21F0;,U+21F0,0x21F0,RIGHTWARDS WHITE ARROW FROM WALL|}$2",
+        ],
+        "description": [
+            "Code: U+21F0",
+            "Character/Symbol: ⇰",
+            "Name: RIGHTWARDS WHITE ARROW FROM WALL",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇱ U+21F1 NORTH WEST ARROW TO CORNER": 
+    {
+        "prefix": [
+            "..U.21F1",
+            "..U.NORTH WEST ARROW TO CORNER",
+            "U+21F1",
+        ],
+        "body": [
+            "${1|⇱,&#x21F1;,U+21F1,0x21F1,NORTH WEST ARROW TO CORNER|}$2",
+        ],
+        "description": [
+            "Code: U+21F1",
+            "Character/Symbol: ⇱",
+            "Name: NORTH WEST ARROW TO CORNER",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇲ U+21F2 SOUTH EAST ARROW TO CORNER": 
+    {
+        "prefix": [
+            "..U.21F2",
+            "..U.SOUTH EAST ARROW TO CORNER",
+            "U+21F2",
+        ],
+        "body": [
+            "${1|⇲,&#x21F2;,U+21F2,0x21F2,SOUTH EAST ARROW TO CORNER|}$2",
+        ],
+        "description": [
+            "Code: U+21F2",
+            "Character/Symbol: ⇲",
+            "Name: SOUTH EAST ARROW TO CORNER",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇳ U+21F3 UP DOWN WHITE ARROW": 
+    {
+        "prefix": [
+            "..U.21F3",
+            "..U.UP DOWN WHITE ARROW",
+            "U+21F3",
+        ],
+        "body": [
+            "${1|⇳,&#x21F3;,U+21F3,0x21F3,UP DOWN WHITE ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21F3",
+            "Character/Symbol: ⇳",
+            "Name: UP DOWN WHITE ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇴ U+21F4 RIGHT ARROW WITH SMALL CIRCLE": 
+    {
+        "prefix": [
+            "..U.21F4",
+            "..U.RIGHT ARROW WITH SMALL CIRCLE",
+            "U+21F4",
+        ],
+        "body": [
+            "${1|⇴,&#x21F4;,U+21F4,0x21F4,RIGHT ARROW WITH SMALL CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+21F4",
+            "Character/Symbol: ⇴",
+            "Name: RIGHT ARROW WITH SMALL CIRCLE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇵ U+21F5 DOWNWARDS ARROW LEFTWARDS OF UPWARDS ARROW": 
+    {
+        "prefix": [
+            "..U.21F5",
+            "..U.DOWNWARDS ARROW LEFTWARDS OF UPWARDS ARROW",
+            "U+21F5",
+        ],
+        "body": [
+            "${1|⇵,&#x21F5;,U+21F5,0x21F5,DOWNWARDS ARROW LEFTWARDS OF UPWARDS ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21F5",
+            "Character/Symbol: ⇵",
+            "Name: DOWNWARDS ARROW LEFTWARDS OF UPWARDS ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇶ U+21F6 THREE RIGHTWARDS ARROWS": 
+    {
+        "prefix": [
+            "..U.21F6",
+            "..U.THREE RIGHTWARDS ARROWS",
+            "U+21F6",
+        ],
+        "body": [
+            "${1|⇶,&#x21F6;,U+21F6,0x21F6,THREE RIGHTWARDS ARROWS|}$2",
+        ],
+        "description": [
+            "Code: U+21F6",
+            "Character/Symbol: ⇶",
+            "Name: THREE RIGHTWARDS ARROWS",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇷ U+21F7 LEFTWARDS ARROW WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.21F7",
+            "..U.LEFTWARDS ARROW WITH VERTICAL STROKE",
+            "U+21F7",
+        ],
+        "body": [
+            "${1|⇷,&#x21F7;,U+21F7,0x21F7,LEFTWARDS ARROW WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21F7",
+            "Character/Symbol: ⇷",
+            "Name: LEFTWARDS ARROW WITH VERTICAL STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇸ U+21F8 RIGHTWARDS ARROW WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.21F8",
+            "..U.RIGHTWARDS ARROW WITH VERTICAL STROKE",
+            "U+21F8",
+        ],
+        "body": [
+            "${1|⇸,&#x21F8;,U+21F8,0x21F8,RIGHTWARDS ARROW WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21F8",
+            "Character/Symbol: ⇸",
+            "Name: RIGHTWARDS ARROW WITH VERTICAL STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇹ U+21F9 LEFT RIGHT ARROW WITH VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.21F9",
+            "..U.LEFT RIGHT ARROW WITH VERTICAL STROKE",
+            "U+21F9",
+        ],
+        "body": [
+            "${1|⇹,&#x21F9;,U+21F9,0x21F9,LEFT RIGHT ARROW WITH VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21F9",
+            "Character/Symbol: ⇹",
+            "Name: LEFT RIGHT ARROW WITH VERTICAL STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇺ U+21FA LEFTWARDS ARROW WITH DOUBLE VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.21FA",
+            "..U.LEFTWARDS ARROW WITH DOUBLE VERTICAL STROKE",
+            "U+21FA",
+        ],
+        "body": [
+            "${1|⇺,&#x21FA;,U+21FA,0x21FA,LEFTWARDS ARROW WITH DOUBLE VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21FA",
+            "Character/Symbol: ⇺",
+            "Name: LEFTWARDS ARROW WITH DOUBLE VERTICAL STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇻ U+21FB RIGHTWARDS ARROW WITH DOUBLE VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.21FB",
+            "..U.RIGHTWARDS ARROW WITH DOUBLE VERTICAL STROKE",
+            "U+21FB",
+        ],
+        "body": [
+            "${1|⇻,&#x21FB;,U+21FB,0x21FB,RIGHTWARDS ARROW WITH DOUBLE VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21FB",
+            "Character/Symbol: ⇻",
+            "Name: RIGHTWARDS ARROW WITH DOUBLE VERTICAL STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇼ U+21FC LEFT RIGHT ARROW WITH DOUBLE VERTICAL STROKE": 
+    {
+        "prefix": [
+            "..U.21FC",
+            "..U.LEFT RIGHT ARROW WITH DOUBLE VERTICAL STROKE",
+            "U+21FC",
+        ],
+        "body": [
+            "${1|⇼,&#x21FC;,U+21FC,0x21FC,LEFT RIGHT ARROW WITH DOUBLE VERTICAL STROKE|}$2",
+        ],
+        "description": [
+            "Code: U+21FC",
+            "Character/Symbol: ⇼",
+            "Name: LEFT RIGHT ARROW WITH DOUBLE VERTICAL STROKE",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇽ U+21FD LEFTWARDS OPEN-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.21FD",
+            "..U.LEFTWARDS OPEN-HEADED ARROW",
+            "U+21FD",
+        ],
+        "body": [
+            "${1|⇽,&#x21FD;,U+21FD,0x21FD,LEFTWARDS OPEN-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21FD",
+            "Character/Symbol: ⇽",
+            "Name: LEFTWARDS OPEN-HEADED ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇾ U+21FE RIGHTWARDS OPEN-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.21FE",
+            "..U.RIGHTWARDS OPEN-HEADED ARROW",
+            "U+21FE",
+        ],
+        "body": [
+            "${1|⇾,&#x21FE;,U+21FE,0x21FE,RIGHTWARDS OPEN-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21FE",
+            "Character/Symbol: ⇾",
+            "Name: RIGHTWARDS OPEN-HEADED ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+    "Unicode ⇿ U+21FF LEFT RIGHT OPEN-HEADED ARROW": 
+    {
+        "prefix": [
+            "..U.21FF",
+            "..U.LEFT RIGHT OPEN-HEADED ARROW",
+            "U+21FF",
+        ],
+        "body": [
+            "${1|⇿,&#x21FF;,U+21FF,0x21FF,LEFT RIGHT OPEN-HEADED ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+21FF",
+            "Character/Symbol: ⇿",
+            "Name: LEFT RIGHT OPEN-HEADED ARROW",
+            "Group/Block: Arrows",
+        ],
+    },
+
+}

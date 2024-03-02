@@ -1,0 +1,182 @@
+{
+    "Unicode 𑬀 U+11B00 DEVANAGARI HEAD MARK": 
+    {
+        "prefix": [
+            "..U.11B00",
+            "..U.DEVANAGARI HEAD MARK",
+            "U+11B00",
+        ],
+        "body": [
+            "${1|𑬀,&#x11B00;,U+11B00,0x11B00,DEVANAGARI HEAD MARK|}$2",
+        ],
+        "description": [
+            "Code: U+11B00",
+            "Character/Symbol: 𑬀",
+            "Name: DEVANAGARI HEAD MARK",
+            "Group/Block: Devanagari_Ext_A",
+        ],
+    },
+
+    "Unicode 𑬁 U+11B01 DEVANAGARI HEAD MARK WITH HEADSTROKE": 
+    {
+        "prefix": [
+            "..U.11B01",
+            "..U.DEVANAGARI HEAD MARK WITH HEADSTROKE",
+            "U+11B01",
+        ],
+        "body": [
+            "${1|𑬁,&#x11B01;,U+11B01,0x11B01,DEVANAGARI HEAD MARK WITH HEADSTROKE|}$2",
+        ],
+        "description": [
+            "Code: U+11B01",
+            "Character/Symbol: 𑬁",
+            "Name: DEVANAGARI HEAD MARK WITH HEADSTROKE",
+            "Group/Block: Devanagari_Ext_A",
+        ],
+    },
+
+    "Unicode 𑬂 U+11B02 DEVANAGARI SIGN BHALE": 
+    {
+        "prefix": [
+            "..U.11B02",
+            "..U.DEVANAGARI SIGN BHALE",
+            "U+11B02",
+        ],
+        "body": [
+            "${1|𑬂,&#x11B02;,U+11B02,0x11B02,DEVANAGARI SIGN BHALE|}$2",
+        ],
+        "description": [
+            "Code: U+11B02",
+            "Character/Symbol: 𑬂",
+            "Name: DEVANAGARI SIGN BHALE",
+            "Group/Block: Devanagari_Ext_A",
+        ],
+    },
+
+    "Unicode 𑬃 U+11B03 DEVANAGARI SIGN BHALE WITH HOOK": 
+    {
+        "prefix": [
+            "..U.11B03",
+            "..U.DEVANAGARI SIGN BHALE WITH HOOK",
+            "U+11B03",
+        ],
+        "body": [
+            "${1|𑬃,&#x11B03;,U+11B03,0x11B03,DEVANAGARI SIGN BHALE WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+11B03",
+            "Character/Symbol: 𑬃",
+            "Name: DEVANAGARI SIGN BHALE WITH HOOK",
+            "Group/Block: Devanagari_Ext_A",
+        ],
+    },
+
+    "Unicode 𑬄 U+11B04 DEVANAGARI SIGN EXTENDED BHALE": 
+    {
+        "prefix": [
+            "..U.11B04",
+            "..U.DEVANAGARI SIGN EXTENDED BHALE",
+            "U+11B04",
+        ],
+        "body": [
+            "${1|𑬄,&#x11B04;,U+11B04,0x11B04,DEVANAGARI SIGN EXTENDED BHALE|}$2",
+        ],
+        "description": [
+            "Code: U+11B04",
+            "Character/Symbol: 𑬄",
+            "Name: DEVANAGARI SIGN EXTENDED BHALE",
+            "Group/Block: Devanagari_Ext_A",
+        ],
+    },
+
+    "Unicode 𑬅 U+11B05 DEVANAGARI SIGN EXTENDED BHALE WITH HOOK": 
+    {
+        "prefix": [
+            "..U.11B05",
+            "..U.DEVANAGARI SIGN EXTENDED BHALE WITH HOOK",
+            "U+11B05",
+        ],
+        "body": [
+            "${1|𑬅,&#x11B05;,U+11B05,0x11B05,DEVANAGARI SIGN EXTENDED BHALE WITH HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+11B05",
+            "Character/Symbol: 𑬅",
+            "Name: DEVANAGARI SIGN EXTENDED BHALE WITH HOOK",
+            "Group/Block: Devanagari_Ext_A",
+        ],
+    },
+
+    "Unicode 𑬆 U+11B06 DEVANAGARI SIGN WESTERN FIVE-LIKE BHALE": 
+    {
+        "prefix": [
+            "..U.11B06",
+            "..U.DEVANAGARI SIGN WESTERN FIVE-LIKE BHALE",
+            "U+11B06",
+        ],
+        "body": [
+            "${1|𑬆,&#x11B06;,U+11B06,0x11B06,DEVANAGARI SIGN WESTERN FIVE-LIKE BHALE|}$2",
+        ],
+        "description": [
+            "Code: U+11B06",
+            "Character/Symbol: 𑬆",
+            "Name: DEVANAGARI SIGN WESTERN FIVE-LIKE BHALE",
+            "Group/Block: Devanagari_Ext_A",
+        ],
+    },
+
+    "Unicode 𑬇 U+11B07 DEVANAGARI SIGN WESTERN NINE-LIKE BHALE": 
+    {
+        "prefix": [
+            "..U.11B07",
+            "..U.DEVANAGARI SIGN WESTERN NINE-LIKE BHALE",
+            "U+11B07",
+        ],
+        "body": [
+            "${1|𑬇,&#x11B07;,U+11B07,0x11B07,DEVANAGARI SIGN WESTERN NINE-LIKE BHALE|}$2",
+        ],
+        "description": [
+            "Code: U+11B07",
+            "Character/Symbol: 𑬇",
+            "Name: DEVANAGARI SIGN WESTERN NINE-LIKE BHALE",
+            "Group/Block: Devanagari_Ext_A",
+        ],
+    },
+
+    "Unicode 𑬈 U+11B08 DEVANAGARI SIGN REVERSED NINE-LIKE BHALE": 
+    {
+        "prefix": [
+            "..U.11B08",
+            "..U.DEVANAGARI SIGN REVERSED NINE-LIKE BHALE",
+            "U+11B08",
+        ],
+        "body": [
+            "${1|𑬈,&#x11B08;,U+11B08,0x11B08,DEVANAGARI SIGN REVERSED NINE-LIKE BHALE|}$2",
+        ],
+        "description": [
+            "Code: U+11B08",
+            "Character/Symbol: 𑬈",
+            "Name: DEVANAGARI SIGN REVERSED NINE-LIKE BHALE",
+            "Group/Block: Devanagari_Ext_A",
+        ],
+    },
+
+    "Unicode 𑬉 U+11B09 DEVANAGARI SIGN MINDU": 
+    {
+        "prefix": [
+            "..U.11B09",
+            "..U.DEVANAGARI SIGN MINDU",
+            "U+11B09",
+        ],
+        "body": [
+            "${1|𑬉,&#x11B09;,U+11B09,0x11B09,DEVANAGARI SIGN MINDU|}$2",
+        ],
+        "description": [
+            "Code: U+11B09",
+            "Character/Symbol: 𑬉",
+            "Name: DEVANAGARI SIGN MINDU",
+            "Group/Block: Devanagari_Ext_A",
+        ],
+    },
+
+}

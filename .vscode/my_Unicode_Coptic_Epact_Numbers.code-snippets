@@ -1,0 +1,506 @@
+{
+    "Unicode 𐋠 U+102E0 COPTIC EPACT THOUSANDS MARK": 
+    {
+        "prefix": [
+            "..U.102E0",
+            "..U.COPTIC EPACT THOUSANDS MARK",
+            "U+102E0",
+        ],
+        "body": [
+            "${1|𐋠,&#x102E0;,U+102E0,0x102E0,COPTIC EPACT THOUSANDS MARK|}$2",
+        ],
+        "description": [
+            "Code: U+102E0",
+            "Character/Symbol: 𐋠",
+            "Name: COPTIC EPACT THOUSANDS MARK",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋡 U+102E1 COPTIC EPACT DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.102E1",
+            "..U.COPTIC EPACT DIGIT ONE",
+            "U+102E1",
+        ],
+        "body": [
+            "${1|𐋡,&#x102E1;,U+102E1,0x102E1,COPTIC EPACT DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+102E1",
+            "Character/Symbol: 𐋡",
+            "Name: COPTIC EPACT DIGIT ONE",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋢 U+102E2 COPTIC EPACT DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.102E2",
+            "..U.COPTIC EPACT DIGIT TWO",
+            "U+102E2",
+        ],
+        "body": [
+            "${1|𐋢,&#x102E2;,U+102E2,0x102E2,COPTIC EPACT DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+102E2",
+            "Character/Symbol: 𐋢",
+            "Name: COPTIC EPACT DIGIT TWO",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋣 U+102E3 COPTIC EPACT DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.102E3",
+            "..U.COPTIC EPACT DIGIT THREE",
+            "U+102E3",
+        ],
+        "body": [
+            "${1|𐋣,&#x102E3;,U+102E3,0x102E3,COPTIC EPACT DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+102E3",
+            "Character/Symbol: 𐋣",
+            "Name: COPTIC EPACT DIGIT THREE",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋤 U+102E4 COPTIC EPACT DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.102E4",
+            "..U.COPTIC EPACT DIGIT FOUR",
+            "U+102E4",
+        ],
+        "body": [
+            "${1|𐋤,&#x102E4;,U+102E4,0x102E4,COPTIC EPACT DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+102E4",
+            "Character/Symbol: 𐋤",
+            "Name: COPTIC EPACT DIGIT FOUR",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋥 U+102E5 COPTIC EPACT DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.102E5",
+            "..U.COPTIC EPACT DIGIT FIVE",
+            "U+102E5",
+        ],
+        "body": [
+            "${1|𐋥,&#x102E5;,U+102E5,0x102E5,COPTIC EPACT DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+102E5",
+            "Character/Symbol: 𐋥",
+            "Name: COPTIC EPACT DIGIT FIVE",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋦 U+102E6 COPTIC EPACT DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.102E6",
+            "..U.COPTIC EPACT DIGIT SIX",
+            "U+102E6",
+        ],
+        "body": [
+            "${1|𐋦,&#x102E6;,U+102E6,0x102E6,COPTIC EPACT DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+102E6",
+            "Character/Symbol: 𐋦",
+            "Name: COPTIC EPACT DIGIT SIX",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋧 U+102E7 COPTIC EPACT DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.102E7",
+            "..U.COPTIC EPACT DIGIT SEVEN",
+            "U+102E7",
+        ],
+        "body": [
+            "${1|𐋧,&#x102E7;,U+102E7,0x102E7,COPTIC EPACT DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+102E7",
+            "Character/Symbol: 𐋧",
+            "Name: COPTIC EPACT DIGIT SEVEN",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋨 U+102E8 COPTIC EPACT DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.102E8",
+            "..U.COPTIC EPACT DIGIT EIGHT",
+            "U+102E8",
+        ],
+        "body": [
+            "${1|𐋨,&#x102E8;,U+102E8,0x102E8,COPTIC EPACT DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+102E8",
+            "Character/Symbol: 𐋨",
+            "Name: COPTIC EPACT DIGIT EIGHT",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋩 U+102E9 COPTIC EPACT DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.102E9",
+            "..U.COPTIC EPACT DIGIT NINE",
+            "U+102E9",
+        ],
+        "body": [
+            "${1|𐋩,&#x102E9;,U+102E9,0x102E9,COPTIC EPACT DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+102E9",
+            "Character/Symbol: 𐋩",
+            "Name: COPTIC EPACT DIGIT NINE",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋪 U+102EA COPTIC EPACT NUMBER TEN": 
+    {
+        "prefix": [
+            "..U.102EA",
+            "..U.COPTIC EPACT NUMBER TEN",
+            "U+102EA",
+        ],
+        "body": [
+            "${1|𐋪,&#x102EA;,U+102EA,0x102EA,COPTIC EPACT NUMBER TEN|}$2",
+        ],
+        "description": [
+            "Code: U+102EA",
+            "Character/Symbol: 𐋪",
+            "Name: COPTIC EPACT NUMBER TEN",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋫 U+102EB COPTIC EPACT NUMBER TWENTY": 
+    {
+        "prefix": [
+            "..U.102EB",
+            "..U.COPTIC EPACT NUMBER TWENTY",
+            "U+102EB",
+        ],
+        "body": [
+            "${1|𐋫,&#x102EB;,U+102EB,0x102EB,COPTIC EPACT NUMBER TWENTY|}$2",
+        ],
+        "description": [
+            "Code: U+102EB",
+            "Character/Symbol: 𐋫",
+            "Name: COPTIC EPACT NUMBER TWENTY",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋬 U+102EC COPTIC EPACT NUMBER THIRTY": 
+    {
+        "prefix": [
+            "..U.102EC",
+            "..U.COPTIC EPACT NUMBER THIRTY",
+            "U+102EC",
+        ],
+        "body": [
+            "${1|𐋬,&#x102EC;,U+102EC,0x102EC,COPTIC EPACT NUMBER THIRTY|}$2",
+        ],
+        "description": [
+            "Code: U+102EC",
+            "Character/Symbol: 𐋬",
+            "Name: COPTIC EPACT NUMBER THIRTY",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋭 U+102ED COPTIC EPACT NUMBER FORTY": 
+    {
+        "prefix": [
+            "..U.102ED",
+            "..U.COPTIC EPACT NUMBER FORTY",
+            "U+102ED",
+        ],
+        "body": [
+            "${1|𐋭,&#x102ED;,U+102ED,0x102ED,COPTIC EPACT NUMBER FORTY|}$2",
+        ],
+        "description": [
+            "Code: U+102ED",
+            "Character/Symbol: 𐋭",
+            "Name: COPTIC EPACT NUMBER FORTY",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋮 U+102EE COPTIC EPACT NUMBER FIFTY": 
+    {
+        "prefix": [
+            "..U.102EE",
+            "..U.COPTIC EPACT NUMBER FIFTY",
+            "U+102EE",
+        ],
+        "body": [
+            "${1|𐋮,&#x102EE;,U+102EE,0x102EE,COPTIC EPACT NUMBER FIFTY|}$2",
+        ],
+        "description": [
+            "Code: U+102EE",
+            "Character/Symbol: 𐋮",
+            "Name: COPTIC EPACT NUMBER FIFTY",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋯 U+102EF COPTIC EPACT NUMBER SIXTY": 
+    {
+        "prefix": [
+            "..U.102EF",
+            "..U.COPTIC EPACT NUMBER SIXTY",
+            "U+102EF",
+        ],
+        "body": [
+            "${1|𐋯,&#x102EF;,U+102EF,0x102EF,COPTIC EPACT NUMBER SIXTY|}$2",
+        ],
+        "description": [
+            "Code: U+102EF",
+            "Character/Symbol: 𐋯",
+            "Name: COPTIC EPACT NUMBER SIXTY",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋰 U+102F0 COPTIC EPACT NUMBER SEVENTY": 
+    {
+        "prefix": [
+            "..U.102F0",
+            "..U.COPTIC EPACT NUMBER SEVENTY",
+            "U+102F0",
+        ],
+        "body": [
+            "${1|𐋰,&#x102F0;,U+102F0,0x102F0,COPTIC EPACT NUMBER SEVENTY|}$2",
+        ],
+        "description": [
+            "Code: U+102F0",
+            "Character/Symbol: 𐋰",
+            "Name: COPTIC EPACT NUMBER SEVENTY",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋱 U+102F1 COPTIC EPACT NUMBER EIGHTY": 
+    {
+        "prefix": [
+            "..U.102F1",
+            "..U.COPTIC EPACT NUMBER EIGHTY",
+            "U+102F1",
+        ],
+        "body": [
+            "${1|𐋱,&#x102F1;,U+102F1,0x102F1,COPTIC EPACT NUMBER EIGHTY|}$2",
+        ],
+        "description": [
+            "Code: U+102F1",
+            "Character/Symbol: 𐋱",
+            "Name: COPTIC EPACT NUMBER EIGHTY",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋲 U+102F2 COPTIC EPACT NUMBER NINETY": 
+    {
+        "prefix": [
+            "..U.102F2",
+            "..U.COPTIC EPACT NUMBER NINETY",
+            "U+102F2",
+        ],
+        "body": [
+            "${1|𐋲,&#x102F2;,U+102F2,0x102F2,COPTIC EPACT NUMBER NINETY|}$2",
+        ],
+        "description": [
+            "Code: U+102F2",
+            "Character/Symbol: 𐋲",
+            "Name: COPTIC EPACT NUMBER NINETY",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋳 U+102F3 COPTIC EPACT NUMBER ONE HUNDRED": 
+    {
+        "prefix": [
+            "..U.102F3",
+            "..U.COPTIC EPACT NUMBER ONE HUNDRED",
+            "U+102F3",
+        ],
+        "body": [
+            "${1|𐋳,&#x102F3;,U+102F3,0x102F3,COPTIC EPACT NUMBER ONE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+102F3",
+            "Character/Symbol: 𐋳",
+            "Name: COPTIC EPACT NUMBER ONE HUNDRED",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋴 U+102F4 COPTIC EPACT NUMBER TWO HUNDRED": 
+    {
+        "prefix": [
+            "..U.102F4",
+            "..U.COPTIC EPACT NUMBER TWO HUNDRED",
+            "U+102F4",
+        ],
+        "body": [
+            "${1|𐋴,&#x102F4;,U+102F4,0x102F4,COPTIC EPACT NUMBER TWO HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+102F4",
+            "Character/Symbol: 𐋴",
+            "Name: COPTIC EPACT NUMBER TWO HUNDRED",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋵 U+102F5 COPTIC EPACT NUMBER THREE HUNDRED": 
+    {
+        "prefix": [
+            "..U.102F5",
+            "..U.COPTIC EPACT NUMBER THREE HUNDRED",
+            "U+102F5",
+        ],
+        "body": [
+            "${1|𐋵,&#x102F5;,U+102F5,0x102F5,COPTIC EPACT NUMBER THREE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+102F5",
+            "Character/Symbol: 𐋵",
+            "Name: COPTIC EPACT NUMBER THREE HUNDRED",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋶 U+102F6 COPTIC EPACT NUMBER FOUR HUNDRED": 
+    {
+        "prefix": [
+            "..U.102F6",
+            "..U.COPTIC EPACT NUMBER FOUR HUNDRED",
+            "U+102F6",
+        ],
+        "body": [
+            "${1|𐋶,&#x102F6;,U+102F6,0x102F6,COPTIC EPACT NUMBER FOUR HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+102F6",
+            "Character/Symbol: 𐋶",
+            "Name: COPTIC EPACT NUMBER FOUR HUNDRED",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋷 U+102F7 COPTIC EPACT NUMBER FIVE HUNDRED": 
+    {
+        "prefix": [
+            "..U.102F7",
+            "..U.COPTIC EPACT NUMBER FIVE HUNDRED",
+            "U+102F7",
+        ],
+        "body": [
+            "${1|𐋷,&#x102F7;,U+102F7,0x102F7,COPTIC EPACT NUMBER FIVE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+102F7",
+            "Character/Symbol: 𐋷",
+            "Name: COPTIC EPACT NUMBER FIVE HUNDRED",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋸 U+102F8 COPTIC EPACT NUMBER SIX HUNDRED": 
+    {
+        "prefix": [
+            "..U.102F8",
+            "..U.COPTIC EPACT NUMBER SIX HUNDRED",
+            "U+102F8",
+        ],
+        "body": [
+            "${1|𐋸,&#x102F8;,U+102F8,0x102F8,COPTIC EPACT NUMBER SIX HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+102F8",
+            "Character/Symbol: 𐋸",
+            "Name: COPTIC EPACT NUMBER SIX HUNDRED",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋹 U+102F9 COPTIC EPACT NUMBER SEVEN HUNDRED": 
+    {
+        "prefix": [
+            "..U.102F9",
+            "..U.COPTIC EPACT NUMBER SEVEN HUNDRED",
+            "U+102F9",
+        ],
+        "body": [
+            "${1|𐋹,&#x102F9;,U+102F9,0x102F9,COPTIC EPACT NUMBER SEVEN HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+102F9",
+            "Character/Symbol: 𐋹",
+            "Name: COPTIC EPACT NUMBER SEVEN HUNDRED",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋺 U+102FA COPTIC EPACT NUMBER EIGHT HUNDRED": 
+    {
+        "prefix": [
+            "..U.102FA",
+            "..U.COPTIC EPACT NUMBER EIGHT HUNDRED",
+            "U+102FA",
+        ],
+        "body": [
+            "${1|𐋺,&#x102FA;,U+102FA,0x102FA,COPTIC EPACT NUMBER EIGHT HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+102FA",
+            "Character/Symbol: 𐋺",
+            "Name: COPTIC EPACT NUMBER EIGHT HUNDRED",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+    "Unicode 𐋻 U+102FB COPTIC EPACT NUMBER NINE HUNDRED": 
+    {
+        "prefix": [
+            "..U.102FB",
+            "..U.COPTIC EPACT NUMBER NINE HUNDRED",
+            "U+102FB",
+        ],
+        "body": [
+            "${1|𐋻,&#x102FB;,U+102FB,0x102FB,COPTIC EPACT NUMBER NINE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+102FB",
+            "Character/Symbol: 𐋻",
+            "Name: COPTIC EPACT NUMBER NINE HUNDRED",
+            "Group/Block: Coptic_Epact_Numbers",
+        ],
+    },
+
+}

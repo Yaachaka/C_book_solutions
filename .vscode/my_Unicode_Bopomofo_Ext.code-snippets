@@ -1,0 +1,578 @@
+{
+    "Unicode ㆠ U+31A0 BOPOMOFO LETTER BU": 
+    {
+        "prefix": [
+            "..U.31A0",
+            "..U.BOPOMOFO LETTER BU",
+            "U+31A0",
+        ],
+        "body": [
+            "${1|ㆠ,&#x31A0;,U+31A0,0x31A0,BOPOMOFO LETTER BU|}$2",
+        ],
+        "description": [
+            "Code: U+31A0",
+            "Character/Symbol: ㆠ",
+            "Name: BOPOMOFO LETTER BU",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆡ U+31A1 BOPOMOFO LETTER ZI": 
+    {
+        "prefix": [
+            "..U.31A1",
+            "..U.BOPOMOFO LETTER ZI",
+            "U+31A1",
+        ],
+        "body": [
+            "${1|ㆡ,&#x31A1;,U+31A1,0x31A1,BOPOMOFO LETTER ZI|}$2",
+        ],
+        "description": [
+            "Code: U+31A1",
+            "Character/Symbol: ㆡ",
+            "Name: BOPOMOFO LETTER ZI",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆢ U+31A2 BOPOMOFO LETTER JI": 
+    {
+        "prefix": [
+            "..U.31A2",
+            "..U.BOPOMOFO LETTER JI",
+            "U+31A2",
+        ],
+        "body": [
+            "${1|ㆢ,&#x31A2;,U+31A2,0x31A2,BOPOMOFO LETTER JI|}$2",
+        ],
+        "description": [
+            "Code: U+31A2",
+            "Character/Symbol: ㆢ",
+            "Name: BOPOMOFO LETTER JI",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆣ U+31A3 BOPOMOFO LETTER GU": 
+    {
+        "prefix": [
+            "..U.31A3",
+            "..U.BOPOMOFO LETTER GU",
+            "U+31A3",
+        ],
+        "body": [
+            "${1|ㆣ,&#x31A3;,U+31A3,0x31A3,BOPOMOFO LETTER GU|}$2",
+        ],
+        "description": [
+            "Code: U+31A3",
+            "Character/Symbol: ㆣ",
+            "Name: BOPOMOFO LETTER GU",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆤ U+31A4 BOPOMOFO LETTER EE": 
+    {
+        "prefix": [
+            "..U.31A4",
+            "..U.BOPOMOFO LETTER EE",
+            "U+31A4",
+        ],
+        "body": [
+            "${1|ㆤ,&#x31A4;,U+31A4,0x31A4,BOPOMOFO LETTER EE|}$2",
+        ],
+        "description": [
+            "Code: U+31A4",
+            "Character/Symbol: ㆤ",
+            "Name: BOPOMOFO LETTER EE",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆥ U+31A5 BOPOMOFO LETTER ENN": 
+    {
+        "prefix": [
+            "..U.31A5",
+            "..U.BOPOMOFO LETTER ENN",
+            "U+31A5",
+        ],
+        "body": [
+            "${1|ㆥ,&#x31A5;,U+31A5,0x31A5,BOPOMOFO LETTER ENN|}$2",
+        ],
+        "description": [
+            "Code: U+31A5",
+            "Character/Symbol: ㆥ",
+            "Name: BOPOMOFO LETTER ENN",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆦ U+31A6 BOPOMOFO LETTER OO": 
+    {
+        "prefix": [
+            "..U.31A6",
+            "..U.BOPOMOFO LETTER OO",
+            "U+31A6",
+        ],
+        "body": [
+            "${1|ㆦ,&#x31A6;,U+31A6,0x31A6,BOPOMOFO LETTER OO|}$2",
+        ],
+        "description": [
+            "Code: U+31A6",
+            "Character/Symbol: ㆦ",
+            "Name: BOPOMOFO LETTER OO",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆧ U+31A7 BOPOMOFO LETTER ONN": 
+    {
+        "prefix": [
+            "..U.31A7",
+            "..U.BOPOMOFO LETTER ONN",
+            "U+31A7",
+        ],
+        "body": [
+            "${1|ㆧ,&#x31A7;,U+31A7,0x31A7,BOPOMOFO LETTER ONN|}$2",
+        ],
+        "description": [
+            "Code: U+31A7",
+            "Character/Symbol: ㆧ",
+            "Name: BOPOMOFO LETTER ONN",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆨ U+31A8 BOPOMOFO LETTER IR": 
+    {
+        "prefix": [
+            "..U.31A8",
+            "..U.BOPOMOFO LETTER IR",
+            "U+31A8",
+        ],
+        "body": [
+            "${1|ㆨ,&#x31A8;,U+31A8,0x31A8,BOPOMOFO LETTER IR|}$2",
+        ],
+        "description": [
+            "Code: U+31A8",
+            "Character/Symbol: ㆨ",
+            "Name: BOPOMOFO LETTER IR",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆩ U+31A9 BOPOMOFO LETTER ANN": 
+    {
+        "prefix": [
+            "..U.31A9",
+            "..U.BOPOMOFO LETTER ANN",
+            "U+31A9",
+        ],
+        "body": [
+            "${1|ㆩ,&#x31A9;,U+31A9,0x31A9,BOPOMOFO LETTER ANN|}$2",
+        ],
+        "description": [
+            "Code: U+31A9",
+            "Character/Symbol: ㆩ",
+            "Name: BOPOMOFO LETTER ANN",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆪ U+31AA BOPOMOFO LETTER INN": 
+    {
+        "prefix": [
+            "..U.31AA",
+            "..U.BOPOMOFO LETTER INN",
+            "U+31AA",
+        ],
+        "body": [
+            "${1|ㆪ,&#x31AA;,U+31AA,0x31AA,BOPOMOFO LETTER INN|}$2",
+        ],
+        "description": [
+            "Code: U+31AA",
+            "Character/Symbol: ㆪ",
+            "Name: BOPOMOFO LETTER INN",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆫ U+31AB BOPOMOFO LETTER UNN": 
+    {
+        "prefix": [
+            "..U.31AB",
+            "..U.BOPOMOFO LETTER UNN",
+            "U+31AB",
+        ],
+        "body": [
+            "${1|ㆫ,&#x31AB;,U+31AB,0x31AB,BOPOMOFO LETTER UNN|}$2",
+        ],
+        "description": [
+            "Code: U+31AB",
+            "Character/Symbol: ㆫ",
+            "Name: BOPOMOFO LETTER UNN",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆬ U+31AC BOPOMOFO LETTER IM": 
+    {
+        "prefix": [
+            "..U.31AC",
+            "..U.BOPOMOFO LETTER IM",
+            "U+31AC",
+        ],
+        "body": [
+            "${1|ㆬ,&#x31AC;,U+31AC,0x31AC,BOPOMOFO LETTER IM|}$2",
+        ],
+        "description": [
+            "Code: U+31AC",
+            "Character/Symbol: ㆬ",
+            "Name: BOPOMOFO LETTER IM",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆭ U+31AD BOPOMOFO LETTER NGG": 
+    {
+        "prefix": [
+            "..U.31AD",
+            "..U.BOPOMOFO LETTER NGG",
+            "U+31AD",
+        ],
+        "body": [
+            "${1|ㆭ,&#x31AD;,U+31AD,0x31AD,BOPOMOFO LETTER NGG|}$2",
+        ],
+        "description": [
+            "Code: U+31AD",
+            "Character/Symbol: ㆭ",
+            "Name: BOPOMOFO LETTER NGG",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆮ U+31AE BOPOMOFO LETTER AINN": 
+    {
+        "prefix": [
+            "..U.31AE",
+            "..U.BOPOMOFO LETTER AINN",
+            "U+31AE",
+        ],
+        "body": [
+            "${1|ㆮ,&#x31AE;,U+31AE,0x31AE,BOPOMOFO LETTER AINN|}$2",
+        ],
+        "description": [
+            "Code: U+31AE",
+            "Character/Symbol: ㆮ",
+            "Name: BOPOMOFO LETTER AINN",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆯ U+31AF BOPOMOFO LETTER AUNN": 
+    {
+        "prefix": [
+            "..U.31AF",
+            "..U.BOPOMOFO LETTER AUNN",
+            "U+31AF",
+        ],
+        "body": [
+            "${1|ㆯ,&#x31AF;,U+31AF,0x31AF,BOPOMOFO LETTER AUNN|}$2",
+        ],
+        "description": [
+            "Code: U+31AF",
+            "Character/Symbol: ㆯ",
+            "Name: BOPOMOFO LETTER AUNN",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆰ U+31B0 BOPOMOFO LETTER AM": 
+    {
+        "prefix": [
+            "..U.31B0",
+            "..U.BOPOMOFO LETTER AM",
+            "U+31B0",
+        ],
+        "body": [
+            "${1|ㆰ,&#x31B0;,U+31B0,0x31B0,BOPOMOFO LETTER AM|}$2",
+        ],
+        "description": [
+            "Code: U+31B0",
+            "Character/Symbol: ㆰ",
+            "Name: BOPOMOFO LETTER AM",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆱ U+31B1 BOPOMOFO LETTER OM": 
+    {
+        "prefix": [
+            "..U.31B1",
+            "..U.BOPOMOFO LETTER OM",
+            "U+31B1",
+        ],
+        "body": [
+            "${1|ㆱ,&#x31B1;,U+31B1,0x31B1,BOPOMOFO LETTER OM|}$2",
+        ],
+        "description": [
+            "Code: U+31B1",
+            "Character/Symbol: ㆱ",
+            "Name: BOPOMOFO LETTER OM",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆲ U+31B2 BOPOMOFO LETTER ONG": 
+    {
+        "prefix": [
+            "..U.31B2",
+            "..U.BOPOMOFO LETTER ONG",
+            "U+31B2",
+        ],
+        "body": [
+            "${1|ㆲ,&#x31B2;,U+31B2,0x31B2,BOPOMOFO LETTER ONG|}$2",
+        ],
+        "description": [
+            "Code: U+31B2",
+            "Character/Symbol: ㆲ",
+            "Name: BOPOMOFO LETTER ONG",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆳ U+31B3 BOPOMOFO LETTER INNN": 
+    {
+        "prefix": [
+            "..U.31B3",
+            "..U.BOPOMOFO LETTER INNN",
+            "U+31B3",
+        ],
+        "body": [
+            "${1|ㆳ,&#x31B3;,U+31B3,0x31B3,BOPOMOFO LETTER INNN|}$2",
+        ],
+        "description": [
+            "Code: U+31B3",
+            "Character/Symbol: ㆳ",
+            "Name: BOPOMOFO LETTER INNN",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆴ U+31B4 BOPOMOFO FINAL LETTER P": 
+    {
+        "prefix": [
+            "..U.31B4",
+            "..U.BOPOMOFO FINAL LETTER P",
+            "U+31B4",
+        ],
+        "body": [
+            "${1|ㆴ,&#x31B4;,U+31B4,0x31B4,BOPOMOFO FINAL LETTER P|}$2",
+        ],
+        "description": [
+            "Code: U+31B4",
+            "Character/Symbol: ㆴ",
+            "Name: BOPOMOFO FINAL LETTER P",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆵ U+31B5 BOPOMOFO FINAL LETTER T": 
+    {
+        "prefix": [
+            "..U.31B5",
+            "..U.BOPOMOFO FINAL LETTER T",
+            "U+31B5",
+        ],
+        "body": [
+            "${1|ㆵ,&#x31B5;,U+31B5,0x31B5,BOPOMOFO FINAL LETTER T|}$2",
+        ],
+        "description": [
+            "Code: U+31B5",
+            "Character/Symbol: ㆵ",
+            "Name: BOPOMOFO FINAL LETTER T",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆶ U+31B6 BOPOMOFO FINAL LETTER K": 
+    {
+        "prefix": [
+            "..U.31B6",
+            "..U.BOPOMOFO FINAL LETTER K",
+            "U+31B6",
+        ],
+        "body": [
+            "${1|ㆶ,&#x31B6;,U+31B6,0x31B6,BOPOMOFO FINAL LETTER K|}$2",
+        ],
+        "description": [
+            "Code: U+31B6",
+            "Character/Symbol: ㆶ",
+            "Name: BOPOMOFO FINAL LETTER K",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆷ U+31B7 BOPOMOFO FINAL LETTER H": 
+    {
+        "prefix": [
+            "..U.31B7",
+            "..U.BOPOMOFO FINAL LETTER H",
+            "U+31B7",
+        ],
+        "body": [
+            "${1|ㆷ,&#x31B7;,U+31B7,0x31B7,BOPOMOFO FINAL LETTER H|}$2",
+        ],
+        "description": [
+            "Code: U+31B7",
+            "Character/Symbol: ㆷ",
+            "Name: BOPOMOFO FINAL LETTER H",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆸ U+31B8 BOPOMOFO LETTER GH": 
+    {
+        "prefix": [
+            "..U.31B8",
+            "..U.BOPOMOFO LETTER GH",
+            "U+31B8",
+        ],
+        "body": [
+            "${1|ㆸ,&#x31B8;,U+31B8,0x31B8,BOPOMOFO LETTER GH|}$2",
+        ],
+        "description": [
+            "Code: U+31B8",
+            "Character/Symbol: ㆸ",
+            "Name: BOPOMOFO LETTER GH",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆹ U+31B9 BOPOMOFO LETTER LH": 
+    {
+        "prefix": [
+            "..U.31B9",
+            "..U.BOPOMOFO LETTER LH",
+            "U+31B9",
+        ],
+        "body": [
+            "${1|ㆹ,&#x31B9;,U+31B9,0x31B9,BOPOMOFO LETTER LH|}$2",
+        ],
+        "description": [
+            "Code: U+31B9",
+            "Character/Symbol: ㆹ",
+            "Name: BOPOMOFO LETTER LH",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆺ U+31BA BOPOMOFO LETTER ZY": 
+    {
+        "prefix": [
+            "..U.31BA",
+            "..U.BOPOMOFO LETTER ZY",
+            "U+31BA",
+        ],
+        "body": [
+            "${1|ㆺ,&#x31BA;,U+31BA,0x31BA,BOPOMOFO LETTER ZY|}$2",
+        ],
+        "description": [
+            "Code: U+31BA",
+            "Character/Symbol: ㆺ",
+            "Name: BOPOMOFO LETTER ZY",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆻ U+31BB BOPOMOFO FINAL LETTER G": 
+    {
+        "prefix": [
+            "..U.31BB",
+            "..U.BOPOMOFO FINAL LETTER G",
+            "U+31BB",
+        ],
+        "body": [
+            "${1|ㆻ,&#x31BB;,U+31BB,0x31BB,BOPOMOFO FINAL LETTER G|}$2",
+        ],
+        "description": [
+            "Code: U+31BB",
+            "Character/Symbol: ㆻ",
+            "Name: BOPOMOFO FINAL LETTER G",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆼ U+31BC BOPOMOFO LETTER GW": 
+    {
+        "prefix": [
+            "..U.31BC",
+            "..U.BOPOMOFO LETTER GW",
+            "U+31BC",
+        ],
+        "body": [
+            "${1|ㆼ,&#x31BC;,U+31BC,0x31BC,BOPOMOFO LETTER GW|}$2",
+        ],
+        "description": [
+            "Code: U+31BC",
+            "Character/Symbol: ㆼ",
+            "Name: BOPOMOFO LETTER GW",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆽ U+31BD BOPOMOFO LETTER KW": 
+    {
+        "prefix": [
+            "..U.31BD",
+            "..U.BOPOMOFO LETTER KW",
+            "U+31BD",
+        ],
+        "body": [
+            "${1|ㆽ,&#x31BD;,U+31BD,0x31BD,BOPOMOFO LETTER KW|}$2",
+        ],
+        "description": [
+            "Code: U+31BD",
+            "Character/Symbol: ㆽ",
+            "Name: BOPOMOFO LETTER KW",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆾ U+31BE BOPOMOFO LETTER OE": 
+    {
+        "prefix": [
+            "..U.31BE",
+            "..U.BOPOMOFO LETTER OE",
+            "U+31BE",
+        ],
+        "body": [
+            "${1|ㆾ,&#x31BE;,U+31BE,0x31BE,BOPOMOFO LETTER OE|}$2",
+        ],
+        "description": [
+            "Code: U+31BE",
+            "Character/Symbol: ㆾ",
+            "Name: BOPOMOFO LETTER OE",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+    "Unicode ㆿ U+31BF BOPOMOFO LETTER AH": 
+    {
+        "prefix": [
+            "..U.31BF",
+            "..U.BOPOMOFO LETTER AH",
+            "U+31BF",
+        ],
+        "body": [
+            "${1|ㆿ,&#x31BF;,U+31BF,0x31BF,BOPOMOFO LETTER AH|}$2",
+        ],
+        "description": [
+            "Code: U+31BF",
+            "Character/Symbol: ㆿ",
+            "Name: BOPOMOFO LETTER AH",
+            "Group/Block: Bopomofo_Ext",
+        ],
+    },
+
+}

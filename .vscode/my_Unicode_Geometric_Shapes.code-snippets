@@ -1,0 +1,1730 @@
+{
+    "Unicode ■ U+25A0 BLACK SQUARE": 
+    {
+        "prefix": [
+            "..U.25A0",
+            "..U.BLACK SQUARE",
+            "U+25A0",
+        ],
+        "body": [
+            "${1|■,&#x25A0;,U+25A0,0x25A0,BLACK SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+25A0",
+            "Character/Symbol: ■",
+            "Name: BLACK SQUARE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode □ U+25A1 WHITE SQUARE": 
+    {
+        "prefix": [
+            "..U.25A1",
+            "..U.WHITE SQUARE",
+            "U+25A1",
+        ],
+        "body": [
+            "${1|□,&#x25A1;,U+25A1,0x25A1,WHITE SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+25A1",
+            "Character/Symbol: □",
+            "Name: WHITE SQUARE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▢ U+25A2 WHITE SQUARE WITH ROUNDED CORNERS": 
+    {
+        "prefix": [
+            "..U.25A2",
+            "..U.WHITE SQUARE WITH ROUNDED CORNERS",
+            "U+25A2",
+        ],
+        "body": [
+            "${1|▢,&#x25A2;,U+25A2,0x25A2,WHITE SQUARE WITH ROUNDED CORNERS|}$2",
+        ],
+        "description": [
+            "Code: U+25A2",
+            "Character/Symbol: ▢",
+            "Name: WHITE SQUARE WITH ROUNDED CORNERS",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▣ U+25A3 WHITE SQUARE CONTAINING BLACK SMALL SQUARE": 
+    {
+        "prefix": [
+            "..U.25A3",
+            "..U.WHITE SQUARE CONTAINING BLACK SMALL SQUARE",
+            "U+25A3",
+        ],
+        "body": [
+            "${1|▣,&#x25A3;,U+25A3,0x25A3,WHITE SQUARE CONTAINING BLACK SMALL SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+25A3",
+            "Character/Symbol: ▣",
+            "Name: WHITE SQUARE CONTAINING BLACK SMALL SQUARE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▤ U+25A4 SQUARE WITH HORIZONTAL FILL": 
+    {
+        "prefix": [
+            "..U.25A4",
+            "..U.SQUARE WITH HORIZONTAL FILL",
+            "U+25A4",
+        ],
+        "body": [
+            "${1|▤,&#x25A4;,U+25A4,0x25A4,SQUARE WITH HORIZONTAL FILL|}$2",
+        ],
+        "description": [
+            "Code: U+25A4",
+            "Character/Symbol: ▤",
+            "Name: SQUARE WITH HORIZONTAL FILL",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▥ U+25A5 SQUARE WITH VERTICAL FILL": 
+    {
+        "prefix": [
+            "..U.25A5",
+            "..U.SQUARE WITH VERTICAL FILL",
+            "U+25A5",
+        ],
+        "body": [
+            "${1|▥,&#x25A5;,U+25A5,0x25A5,SQUARE WITH VERTICAL FILL|}$2",
+        ],
+        "description": [
+            "Code: U+25A5",
+            "Character/Symbol: ▥",
+            "Name: SQUARE WITH VERTICAL FILL",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▦ U+25A6 SQUARE WITH ORTHOGONAL CROSSHATCH FILL": 
+    {
+        "prefix": [
+            "..U.25A6",
+            "..U.SQUARE WITH ORTHOGONAL CROSSHATCH FILL",
+            "U+25A6",
+        ],
+        "body": [
+            "${1|▦,&#x25A6;,U+25A6,0x25A6,SQUARE WITH ORTHOGONAL CROSSHATCH FILL|}$2",
+        ],
+        "description": [
+            "Code: U+25A6",
+            "Character/Symbol: ▦",
+            "Name: SQUARE WITH ORTHOGONAL CROSSHATCH FILL",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▧ U+25A7 SQUARE WITH UPPER LEFT TO LOWER RIGHT FILL": 
+    {
+        "prefix": [
+            "..U.25A7",
+            "..U.SQUARE WITH UPPER LEFT TO LOWER RIGHT FILL",
+            "U+25A7",
+        ],
+        "body": [
+            "${1|▧,&#x25A7;,U+25A7,0x25A7,SQUARE WITH UPPER LEFT TO LOWER RIGHT FILL|}$2",
+        ],
+        "description": [
+            "Code: U+25A7",
+            "Character/Symbol: ▧",
+            "Name: SQUARE WITH UPPER LEFT TO LOWER RIGHT FILL",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▨ U+25A8 SQUARE WITH UPPER RIGHT TO LOWER LEFT FILL": 
+    {
+        "prefix": [
+            "..U.25A8",
+            "..U.SQUARE WITH UPPER RIGHT TO LOWER LEFT FILL",
+            "U+25A8",
+        ],
+        "body": [
+            "${1|▨,&#x25A8;,U+25A8,0x25A8,SQUARE WITH UPPER RIGHT TO LOWER LEFT FILL|}$2",
+        ],
+        "description": [
+            "Code: U+25A8",
+            "Character/Symbol: ▨",
+            "Name: SQUARE WITH UPPER RIGHT TO LOWER LEFT FILL",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▩ U+25A9 SQUARE WITH DIAGONAL CROSSHATCH FILL": 
+    {
+        "prefix": [
+            "..U.25A9",
+            "..U.SQUARE WITH DIAGONAL CROSSHATCH FILL",
+            "U+25A9",
+        ],
+        "body": [
+            "${1|▩,&#x25A9;,U+25A9,0x25A9,SQUARE WITH DIAGONAL CROSSHATCH FILL|}$2",
+        ],
+        "description": [
+            "Code: U+25A9",
+            "Character/Symbol: ▩",
+            "Name: SQUARE WITH DIAGONAL CROSSHATCH FILL",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▪ U+25AA BLACK SMALL SQUARE": 
+    {
+        "prefix": [
+            "..U.25AA",
+            "..U.BLACK SMALL SQUARE",
+            "U+25AA",
+        ],
+        "body": [
+            "${1|▪,&#x25AA;,U+25AA,0x25AA,BLACK SMALL SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+25AA",
+            "Character/Symbol: ▪",
+            "Name: BLACK SMALL SQUARE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▫ U+25AB WHITE SMALL SQUARE": 
+    {
+        "prefix": [
+            "..U.25AB",
+            "..U.WHITE SMALL SQUARE",
+            "U+25AB",
+        ],
+        "body": [
+            "${1|▫,&#x25AB;,U+25AB,0x25AB,WHITE SMALL SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+25AB",
+            "Character/Symbol: ▫",
+            "Name: WHITE SMALL SQUARE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▬ U+25AC BLACK RECTANGLE": 
+    {
+        "prefix": [
+            "..U.25AC",
+            "..U.BLACK RECTANGLE",
+            "U+25AC",
+        ],
+        "body": [
+            "${1|▬,&#x25AC;,U+25AC,0x25AC,BLACK RECTANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25AC",
+            "Character/Symbol: ▬",
+            "Name: BLACK RECTANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▭ U+25AD WHITE RECTANGLE": 
+    {
+        "prefix": [
+            "..U.25AD",
+            "..U.WHITE RECTANGLE",
+            "U+25AD",
+        ],
+        "body": [
+            "${1|▭,&#x25AD;,U+25AD,0x25AD,WHITE RECTANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25AD",
+            "Character/Symbol: ▭",
+            "Name: WHITE RECTANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▮ U+25AE BLACK VERTICAL RECTANGLE": 
+    {
+        "prefix": [
+            "..U.25AE",
+            "..U.BLACK VERTICAL RECTANGLE",
+            "U+25AE",
+        ],
+        "body": [
+            "${1|▮,&#x25AE;,U+25AE,0x25AE,BLACK VERTICAL RECTANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25AE",
+            "Character/Symbol: ▮",
+            "Name: BLACK VERTICAL RECTANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▯ U+25AF WHITE VERTICAL RECTANGLE": 
+    {
+        "prefix": [
+            "..U.25AF",
+            "..U.WHITE VERTICAL RECTANGLE",
+            "U+25AF",
+        ],
+        "body": [
+            "${1|▯,&#x25AF;,U+25AF,0x25AF,WHITE VERTICAL RECTANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25AF",
+            "Character/Symbol: ▯",
+            "Name: WHITE VERTICAL RECTANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▰ U+25B0 BLACK PARALLELOGRAM": 
+    {
+        "prefix": [
+            "..U.25B0",
+            "..U.BLACK PARALLELOGRAM",
+            "U+25B0",
+        ],
+        "body": [
+            "${1|▰,&#x25B0;,U+25B0,0x25B0,BLACK PARALLELOGRAM|}$2",
+        ],
+        "description": [
+            "Code: U+25B0",
+            "Character/Symbol: ▰",
+            "Name: BLACK PARALLELOGRAM",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▱ U+25B1 WHITE PARALLELOGRAM": 
+    {
+        "prefix": [
+            "..U.25B1",
+            "..U.WHITE PARALLELOGRAM",
+            "U+25B1",
+        ],
+        "body": [
+            "${1|▱,&#x25B1;,U+25B1,0x25B1,WHITE PARALLELOGRAM|}$2",
+        ],
+        "description": [
+            "Code: U+25B1",
+            "Character/Symbol: ▱",
+            "Name: WHITE PARALLELOGRAM",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▲ U+25B2 BLACK UP-POINTING TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25B2",
+            "..U.BLACK UP-POINTING TRIANGLE",
+            "U+25B2",
+        ],
+        "body": [
+            "${1|▲,&#x25B2;,U+25B2,0x25B2,BLACK UP-POINTING TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25B2",
+            "Character/Symbol: ▲",
+            "Name: BLACK UP-POINTING TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode △ U+25B3 WHITE UP-POINTING TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25B3",
+            "..U.WHITE UP-POINTING TRIANGLE",
+            "U+25B3",
+        ],
+        "body": [
+            "${1|△,&#x25B3;,U+25B3,0x25B3,WHITE UP-POINTING TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25B3",
+            "Character/Symbol: △",
+            "Name: WHITE UP-POINTING TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▴ U+25B4 BLACK UP-POINTING SMALL TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25B4",
+            "..U.BLACK UP-POINTING SMALL TRIANGLE",
+            "U+25B4",
+        ],
+        "body": [
+            "${1|▴,&#x25B4;,U+25B4,0x25B4,BLACK UP-POINTING SMALL TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25B4",
+            "Character/Symbol: ▴",
+            "Name: BLACK UP-POINTING SMALL TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▵ U+25B5 WHITE UP-POINTING SMALL TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25B5",
+            "..U.WHITE UP-POINTING SMALL TRIANGLE",
+            "U+25B5",
+        ],
+        "body": [
+            "${1|▵,&#x25B5;,U+25B5,0x25B5,WHITE UP-POINTING SMALL TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25B5",
+            "Character/Symbol: ▵",
+            "Name: WHITE UP-POINTING SMALL TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▶ U+25B6 BLACK RIGHT-POINTING TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25B6",
+            "..U.BLACK RIGHT-POINTING TRIANGLE",
+            "U+25B6",
+        ],
+        "body": [
+            "${1|▶,&#x25B6;,U+25B6,0x25B6,BLACK RIGHT-POINTING TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25B6",
+            "Character/Symbol: ▶",
+            "Name: BLACK RIGHT-POINTING TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▷ U+25B7 WHITE RIGHT-POINTING TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25B7",
+            "..U.WHITE RIGHT-POINTING TRIANGLE",
+            "U+25B7",
+        ],
+        "body": [
+            "${1|▷,&#x25B7;,U+25B7,0x25B7,WHITE RIGHT-POINTING TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25B7",
+            "Character/Symbol: ▷",
+            "Name: WHITE RIGHT-POINTING TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▸ U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25B8",
+            "..U.BLACK RIGHT-POINTING SMALL TRIANGLE",
+            "U+25B8",
+        ],
+        "body": [
+            "${1|▸,&#x25B8;,U+25B8,0x25B8,BLACK RIGHT-POINTING SMALL TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25B8",
+            "Character/Symbol: ▸",
+            "Name: BLACK RIGHT-POINTING SMALL TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▹ U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25B9",
+            "..U.WHITE RIGHT-POINTING SMALL TRIANGLE",
+            "U+25B9",
+        ],
+        "body": [
+            "${1|▹,&#x25B9;,U+25B9,0x25B9,WHITE RIGHT-POINTING SMALL TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25B9",
+            "Character/Symbol: ▹",
+            "Name: WHITE RIGHT-POINTING SMALL TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ► U+25BA BLACK RIGHT-POINTING POINTER": 
+    {
+        "prefix": [
+            "..U.25BA",
+            "..U.BLACK RIGHT-POINTING POINTER",
+            "U+25BA",
+        ],
+        "body": [
+            "${1|►,&#x25BA;,U+25BA,0x25BA,BLACK RIGHT-POINTING POINTER|}$2",
+        ],
+        "description": [
+            "Code: U+25BA",
+            "Character/Symbol: ►",
+            "Name: BLACK RIGHT-POINTING POINTER",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▻ U+25BB WHITE RIGHT-POINTING POINTER": 
+    {
+        "prefix": [
+            "..U.25BB",
+            "..U.WHITE RIGHT-POINTING POINTER",
+            "U+25BB",
+        ],
+        "body": [
+            "${1|▻,&#x25BB;,U+25BB,0x25BB,WHITE RIGHT-POINTING POINTER|}$2",
+        ],
+        "description": [
+            "Code: U+25BB",
+            "Character/Symbol: ▻",
+            "Name: WHITE RIGHT-POINTING POINTER",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▼ U+25BC BLACK DOWN-POINTING TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25BC",
+            "..U.BLACK DOWN-POINTING TRIANGLE",
+            "U+25BC",
+        ],
+        "body": [
+            "${1|▼,&#x25BC;,U+25BC,0x25BC,BLACK DOWN-POINTING TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25BC",
+            "Character/Symbol: ▼",
+            "Name: BLACK DOWN-POINTING TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▽ U+25BD WHITE DOWN-POINTING TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25BD",
+            "..U.WHITE DOWN-POINTING TRIANGLE",
+            "U+25BD",
+        ],
+        "body": [
+            "${1|▽,&#x25BD;,U+25BD,0x25BD,WHITE DOWN-POINTING TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25BD",
+            "Character/Symbol: ▽",
+            "Name: WHITE DOWN-POINTING TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▾ U+25BE BLACK DOWN-POINTING SMALL TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25BE",
+            "..U.BLACK DOWN-POINTING SMALL TRIANGLE",
+            "U+25BE",
+        ],
+        "body": [
+            "${1|▾,&#x25BE;,U+25BE,0x25BE,BLACK DOWN-POINTING SMALL TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25BE",
+            "Character/Symbol: ▾",
+            "Name: BLACK DOWN-POINTING SMALL TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ▿ U+25BF WHITE DOWN-POINTING SMALL TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25BF",
+            "..U.WHITE DOWN-POINTING SMALL TRIANGLE",
+            "U+25BF",
+        ],
+        "body": [
+            "${1|▿,&#x25BF;,U+25BF,0x25BF,WHITE DOWN-POINTING SMALL TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25BF",
+            "Character/Symbol: ▿",
+            "Name: WHITE DOWN-POINTING SMALL TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◀ U+25C0 BLACK LEFT-POINTING TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25C0",
+            "..U.BLACK LEFT-POINTING TRIANGLE",
+            "U+25C0",
+        ],
+        "body": [
+            "${1|◀,&#x25C0;,U+25C0,0x25C0,BLACK LEFT-POINTING TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25C0",
+            "Character/Symbol: ◀",
+            "Name: BLACK LEFT-POINTING TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◁ U+25C1 WHITE LEFT-POINTING TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25C1",
+            "..U.WHITE LEFT-POINTING TRIANGLE",
+            "U+25C1",
+        ],
+        "body": [
+            "${1|◁,&#x25C1;,U+25C1,0x25C1,WHITE LEFT-POINTING TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25C1",
+            "Character/Symbol: ◁",
+            "Name: WHITE LEFT-POINTING TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◂ U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25C2",
+            "..U.BLACK LEFT-POINTING SMALL TRIANGLE",
+            "U+25C2",
+        ],
+        "body": [
+            "${1|◂,&#x25C2;,U+25C2,0x25C2,BLACK LEFT-POINTING SMALL TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25C2",
+            "Character/Symbol: ◂",
+            "Name: BLACK LEFT-POINTING SMALL TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◃ U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25C3",
+            "..U.WHITE LEFT-POINTING SMALL TRIANGLE",
+            "U+25C3",
+        ],
+        "body": [
+            "${1|◃,&#x25C3;,U+25C3,0x25C3,WHITE LEFT-POINTING SMALL TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25C3",
+            "Character/Symbol: ◃",
+            "Name: WHITE LEFT-POINTING SMALL TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◄ U+25C4 BLACK LEFT-POINTING POINTER": 
+    {
+        "prefix": [
+            "..U.25C4",
+            "..U.BLACK LEFT-POINTING POINTER",
+            "U+25C4",
+        ],
+        "body": [
+            "${1|◄,&#x25C4;,U+25C4,0x25C4,BLACK LEFT-POINTING POINTER|}$2",
+        ],
+        "description": [
+            "Code: U+25C4",
+            "Character/Symbol: ◄",
+            "Name: BLACK LEFT-POINTING POINTER",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◅ U+25C5 WHITE LEFT-POINTING POINTER": 
+    {
+        "prefix": [
+            "..U.25C5",
+            "..U.WHITE LEFT-POINTING POINTER",
+            "U+25C5",
+        ],
+        "body": [
+            "${1|◅,&#x25C5;,U+25C5,0x25C5,WHITE LEFT-POINTING POINTER|}$2",
+        ],
+        "description": [
+            "Code: U+25C5",
+            "Character/Symbol: ◅",
+            "Name: WHITE LEFT-POINTING POINTER",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◆ U+25C6 BLACK DIAMOND": 
+    {
+        "prefix": [
+            "..U.25C6",
+            "..U.BLACK DIAMOND",
+            "U+25C6",
+        ],
+        "body": [
+            "${1|◆,&#x25C6;,U+25C6,0x25C6,BLACK DIAMOND|}$2",
+        ],
+        "description": [
+            "Code: U+25C6",
+            "Character/Symbol: ◆",
+            "Name: BLACK DIAMOND",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◇ U+25C7 WHITE DIAMOND": 
+    {
+        "prefix": [
+            "..U.25C7",
+            "..U.WHITE DIAMOND",
+            "U+25C7",
+        ],
+        "body": [
+            "${1|◇,&#x25C7;,U+25C7,0x25C7,WHITE DIAMOND|}$2",
+        ],
+        "description": [
+            "Code: U+25C7",
+            "Character/Symbol: ◇",
+            "Name: WHITE DIAMOND",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◈ U+25C8 WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND": 
+    {
+        "prefix": [
+            "..U.25C8",
+            "..U.WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND",
+            "U+25C8",
+        ],
+        "body": [
+            "${1|◈,&#x25C8;,U+25C8,0x25C8,WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND|}$2",
+        ],
+        "description": [
+            "Code: U+25C8",
+            "Character/Symbol: ◈",
+            "Name: WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◉ U+25C9 FISHEYE": 
+    {
+        "prefix": [
+            "..U.25C9",
+            "..U.FISHEYE",
+            "U+25C9",
+        ],
+        "body": [
+            "${1|◉,&#x25C9;,U+25C9,0x25C9,FISHEYE|}$2",
+        ],
+        "description": [
+            "Code: U+25C9",
+            "Character/Symbol: ◉",
+            "Name: FISHEYE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◊ U+25CA LOZENGE": 
+    {
+        "prefix": [
+            "..U.25CA",
+            "..U.LOZENGE",
+            "U+25CA",
+        ],
+        "body": [
+            "${1|◊,&#x25CA;,U+25CA,0x25CA,LOZENGE|}$2",
+        ],
+        "description": [
+            "Code: U+25CA",
+            "Character/Symbol: ◊",
+            "Name: LOZENGE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ○ U+25CB WHITE CIRCLE": 
+    {
+        "prefix": [
+            "..U.25CB",
+            "..U.WHITE CIRCLE",
+            "U+25CB",
+        ],
+        "body": [
+            "${1|○,&#x25CB;,U+25CB,0x25CB,WHITE CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+25CB",
+            "Character/Symbol: ○",
+            "Name: WHITE CIRCLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◌ U+25CC DOTTED CIRCLE": 
+    {
+        "prefix": [
+            "..U.25CC",
+            "..U.DOTTED CIRCLE",
+            "U+25CC",
+        ],
+        "body": [
+            "${1|◌,&#x25CC;,U+25CC,0x25CC,DOTTED CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+25CC",
+            "Character/Symbol: ◌",
+            "Name: DOTTED CIRCLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◍ U+25CD CIRCLE WITH VERTICAL FILL": 
+    {
+        "prefix": [
+            "..U.25CD",
+            "..U.CIRCLE WITH VERTICAL FILL",
+            "U+25CD",
+        ],
+        "body": [
+            "${1|◍,&#x25CD;,U+25CD,0x25CD,CIRCLE WITH VERTICAL FILL|}$2",
+        ],
+        "description": [
+            "Code: U+25CD",
+            "Character/Symbol: ◍",
+            "Name: CIRCLE WITH VERTICAL FILL",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◎ U+25CE BULLSEYE": 
+    {
+        "prefix": [
+            "..U.25CE",
+            "..U.BULLSEYE",
+            "U+25CE",
+        ],
+        "body": [
+            "${1|◎,&#x25CE;,U+25CE,0x25CE,BULLSEYE|}$2",
+        ],
+        "description": [
+            "Code: U+25CE",
+            "Character/Symbol: ◎",
+            "Name: BULLSEYE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ● U+25CF BLACK CIRCLE": 
+    {
+        "prefix": [
+            "..U.25CF",
+            "..U.BLACK CIRCLE",
+            "U+25CF",
+        ],
+        "body": [
+            "${1|●,&#x25CF;,U+25CF,0x25CF,BLACK CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+25CF",
+            "Character/Symbol: ●",
+            "Name: BLACK CIRCLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◐ U+25D0 CIRCLE WITH LEFT HALF BLACK": 
+    {
+        "prefix": [
+            "..U.25D0",
+            "..U.CIRCLE WITH LEFT HALF BLACK",
+            "U+25D0",
+        ],
+        "body": [
+            "${1|◐,&#x25D0;,U+25D0,0x25D0,CIRCLE WITH LEFT HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25D0",
+            "Character/Symbol: ◐",
+            "Name: CIRCLE WITH LEFT HALF BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◑ U+25D1 CIRCLE WITH RIGHT HALF BLACK": 
+    {
+        "prefix": [
+            "..U.25D1",
+            "..U.CIRCLE WITH RIGHT HALF BLACK",
+            "U+25D1",
+        ],
+        "body": [
+            "${1|◑,&#x25D1;,U+25D1,0x25D1,CIRCLE WITH RIGHT HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25D1",
+            "Character/Symbol: ◑",
+            "Name: CIRCLE WITH RIGHT HALF BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◒ U+25D2 CIRCLE WITH LOWER HALF BLACK": 
+    {
+        "prefix": [
+            "..U.25D2",
+            "..U.CIRCLE WITH LOWER HALF BLACK",
+            "U+25D2",
+        ],
+        "body": [
+            "${1|◒,&#x25D2;,U+25D2,0x25D2,CIRCLE WITH LOWER HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25D2",
+            "Character/Symbol: ◒",
+            "Name: CIRCLE WITH LOWER HALF BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◓ U+25D3 CIRCLE WITH UPPER HALF BLACK": 
+    {
+        "prefix": [
+            "..U.25D3",
+            "..U.CIRCLE WITH UPPER HALF BLACK",
+            "U+25D3",
+        ],
+        "body": [
+            "${1|◓,&#x25D3;,U+25D3,0x25D3,CIRCLE WITH UPPER HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25D3",
+            "Character/Symbol: ◓",
+            "Name: CIRCLE WITH UPPER HALF BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◔ U+25D4 CIRCLE WITH UPPER RIGHT QUADRANT BLACK": 
+    {
+        "prefix": [
+            "..U.25D4",
+            "..U.CIRCLE WITH UPPER RIGHT QUADRANT BLACK",
+            "U+25D4",
+        ],
+        "body": [
+            "${1|◔,&#x25D4;,U+25D4,0x25D4,CIRCLE WITH UPPER RIGHT QUADRANT BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25D4",
+            "Character/Symbol: ◔",
+            "Name: CIRCLE WITH UPPER RIGHT QUADRANT BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◕ U+25D5 CIRCLE WITH ALL BUT UPPER LEFT QUADRANT BLACK": 
+    {
+        "prefix": [
+            "..U.25D5",
+            "..U.CIRCLE WITH ALL BUT UPPER LEFT QUADRANT BLACK",
+            "U+25D5",
+        ],
+        "body": [
+            "${1|◕,&#x25D5;,U+25D5,0x25D5,CIRCLE WITH ALL BUT UPPER LEFT QUADRANT BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25D5",
+            "Character/Symbol: ◕",
+            "Name: CIRCLE WITH ALL BUT UPPER LEFT QUADRANT BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◖ U+25D6 LEFT HALF BLACK CIRCLE": 
+    {
+        "prefix": [
+            "..U.25D6",
+            "..U.LEFT HALF BLACK CIRCLE",
+            "U+25D6",
+        ],
+        "body": [
+            "${1|◖,&#x25D6;,U+25D6,0x25D6,LEFT HALF BLACK CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+25D6",
+            "Character/Symbol: ◖",
+            "Name: LEFT HALF BLACK CIRCLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◗ U+25D7 RIGHT HALF BLACK CIRCLE": 
+    {
+        "prefix": [
+            "..U.25D7",
+            "..U.RIGHT HALF BLACK CIRCLE",
+            "U+25D7",
+        ],
+        "body": [
+            "${1|◗,&#x25D7;,U+25D7,0x25D7,RIGHT HALF BLACK CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+25D7",
+            "Character/Symbol: ◗",
+            "Name: RIGHT HALF BLACK CIRCLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◘ U+25D8 INVERSE BULLET": 
+    {
+        "prefix": [
+            "..U.25D8",
+            "..U.INVERSE BULLET",
+            "U+25D8",
+        ],
+        "body": [
+            "${1|◘,&#x25D8;,U+25D8,0x25D8,INVERSE BULLET|}$2",
+        ],
+        "description": [
+            "Code: U+25D8",
+            "Character/Symbol: ◘",
+            "Name: INVERSE BULLET",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◙ U+25D9 INVERSE WHITE CIRCLE": 
+    {
+        "prefix": [
+            "..U.25D9",
+            "..U.INVERSE WHITE CIRCLE",
+            "U+25D9",
+        ],
+        "body": [
+            "${1|◙,&#x25D9;,U+25D9,0x25D9,INVERSE WHITE CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+25D9",
+            "Character/Symbol: ◙",
+            "Name: INVERSE WHITE CIRCLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◚ U+25DA UPPER HALF INVERSE WHITE CIRCLE": 
+    {
+        "prefix": [
+            "..U.25DA",
+            "..U.UPPER HALF INVERSE WHITE CIRCLE",
+            "U+25DA",
+        ],
+        "body": [
+            "${1|◚,&#x25DA;,U+25DA,0x25DA,UPPER HALF INVERSE WHITE CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+25DA",
+            "Character/Symbol: ◚",
+            "Name: UPPER HALF INVERSE WHITE CIRCLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◛ U+25DB LOWER HALF INVERSE WHITE CIRCLE": 
+    {
+        "prefix": [
+            "..U.25DB",
+            "..U.LOWER HALF INVERSE WHITE CIRCLE",
+            "U+25DB",
+        ],
+        "body": [
+            "${1|◛,&#x25DB;,U+25DB,0x25DB,LOWER HALF INVERSE WHITE CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+25DB",
+            "Character/Symbol: ◛",
+            "Name: LOWER HALF INVERSE WHITE CIRCLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◜ U+25DC UPPER LEFT QUADRANT CIRCULAR ARC": 
+    {
+        "prefix": [
+            "..U.25DC",
+            "..U.UPPER LEFT QUADRANT CIRCULAR ARC",
+            "U+25DC",
+        ],
+        "body": [
+            "${1|◜,&#x25DC;,U+25DC,0x25DC,UPPER LEFT QUADRANT CIRCULAR ARC|}$2",
+        ],
+        "description": [
+            "Code: U+25DC",
+            "Character/Symbol: ◜",
+            "Name: UPPER LEFT QUADRANT CIRCULAR ARC",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◝ U+25DD UPPER RIGHT QUADRANT CIRCULAR ARC": 
+    {
+        "prefix": [
+            "..U.25DD",
+            "..U.UPPER RIGHT QUADRANT CIRCULAR ARC",
+            "U+25DD",
+        ],
+        "body": [
+            "${1|◝,&#x25DD;,U+25DD,0x25DD,UPPER RIGHT QUADRANT CIRCULAR ARC|}$2",
+        ],
+        "description": [
+            "Code: U+25DD",
+            "Character/Symbol: ◝",
+            "Name: UPPER RIGHT QUADRANT CIRCULAR ARC",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◞ U+25DE LOWER RIGHT QUADRANT CIRCULAR ARC": 
+    {
+        "prefix": [
+            "..U.25DE",
+            "..U.LOWER RIGHT QUADRANT CIRCULAR ARC",
+            "U+25DE",
+        ],
+        "body": [
+            "${1|◞,&#x25DE;,U+25DE,0x25DE,LOWER RIGHT QUADRANT CIRCULAR ARC|}$2",
+        ],
+        "description": [
+            "Code: U+25DE",
+            "Character/Symbol: ◞",
+            "Name: LOWER RIGHT QUADRANT CIRCULAR ARC",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◟ U+25DF LOWER LEFT QUADRANT CIRCULAR ARC": 
+    {
+        "prefix": [
+            "..U.25DF",
+            "..U.LOWER LEFT QUADRANT CIRCULAR ARC",
+            "U+25DF",
+        ],
+        "body": [
+            "${1|◟,&#x25DF;,U+25DF,0x25DF,LOWER LEFT QUADRANT CIRCULAR ARC|}$2",
+        ],
+        "description": [
+            "Code: U+25DF",
+            "Character/Symbol: ◟",
+            "Name: LOWER LEFT QUADRANT CIRCULAR ARC",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◠ U+25E0 UPPER HALF CIRCLE": 
+    {
+        "prefix": [
+            "..U.25E0",
+            "..U.UPPER HALF CIRCLE",
+            "U+25E0",
+        ],
+        "body": [
+            "${1|◠,&#x25E0;,U+25E0,0x25E0,UPPER HALF CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+25E0",
+            "Character/Symbol: ◠",
+            "Name: UPPER HALF CIRCLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◡ U+25E1 LOWER HALF CIRCLE": 
+    {
+        "prefix": [
+            "..U.25E1",
+            "..U.LOWER HALF CIRCLE",
+            "U+25E1",
+        ],
+        "body": [
+            "${1|◡,&#x25E1;,U+25E1,0x25E1,LOWER HALF CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+25E1",
+            "Character/Symbol: ◡",
+            "Name: LOWER HALF CIRCLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◢ U+25E2 BLACK LOWER RIGHT TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25E2",
+            "..U.BLACK LOWER RIGHT TRIANGLE",
+            "U+25E2",
+        ],
+        "body": [
+            "${1|◢,&#x25E2;,U+25E2,0x25E2,BLACK LOWER RIGHT TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25E2",
+            "Character/Symbol: ◢",
+            "Name: BLACK LOWER RIGHT TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◣ U+25E3 BLACK LOWER LEFT TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25E3",
+            "..U.BLACK LOWER LEFT TRIANGLE",
+            "U+25E3",
+        ],
+        "body": [
+            "${1|◣,&#x25E3;,U+25E3,0x25E3,BLACK LOWER LEFT TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25E3",
+            "Character/Symbol: ◣",
+            "Name: BLACK LOWER LEFT TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◤ U+25E4 BLACK UPPER LEFT TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25E4",
+            "..U.BLACK UPPER LEFT TRIANGLE",
+            "U+25E4",
+        ],
+        "body": [
+            "${1|◤,&#x25E4;,U+25E4,0x25E4,BLACK UPPER LEFT TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25E4",
+            "Character/Symbol: ◤",
+            "Name: BLACK UPPER LEFT TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◥ U+25E5 BLACK UPPER RIGHT TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25E5",
+            "..U.BLACK UPPER RIGHT TRIANGLE",
+            "U+25E5",
+        ],
+        "body": [
+            "${1|◥,&#x25E5;,U+25E5,0x25E5,BLACK UPPER RIGHT TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25E5",
+            "Character/Symbol: ◥",
+            "Name: BLACK UPPER RIGHT TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◦ U+25E6 WHITE BULLET": 
+    {
+        "prefix": [
+            "..U.25E6",
+            "..U.WHITE BULLET",
+            "U+25E6",
+        ],
+        "body": [
+            "${1|◦,&#x25E6;,U+25E6,0x25E6,WHITE BULLET|}$2",
+        ],
+        "description": [
+            "Code: U+25E6",
+            "Character/Symbol: ◦",
+            "Name: WHITE BULLET",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◧ U+25E7 SQUARE WITH LEFT HALF BLACK": 
+    {
+        "prefix": [
+            "..U.25E7",
+            "..U.SQUARE WITH LEFT HALF BLACK",
+            "U+25E7",
+        ],
+        "body": [
+            "${1|◧,&#x25E7;,U+25E7,0x25E7,SQUARE WITH LEFT HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25E7",
+            "Character/Symbol: ◧",
+            "Name: SQUARE WITH LEFT HALF BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◨ U+25E8 SQUARE WITH RIGHT HALF BLACK": 
+    {
+        "prefix": [
+            "..U.25E8",
+            "..U.SQUARE WITH RIGHT HALF BLACK",
+            "U+25E8",
+        ],
+        "body": [
+            "${1|◨,&#x25E8;,U+25E8,0x25E8,SQUARE WITH RIGHT HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25E8",
+            "Character/Symbol: ◨",
+            "Name: SQUARE WITH RIGHT HALF BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◩ U+25E9 SQUARE WITH UPPER LEFT DIAGONAL HALF BLACK": 
+    {
+        "prefix": [
+            "..U.25E9",
+            "..U.SQUARE WITH UPPER LEFT DIAGONAL HALF BLACK",
+            "U+25E9",
+        ],
+        "body": [
+            "${1|◩,&#x25E9;,U+25E9,0x25E9,SQUARE WITH UPPER LEFT DIAGONAL HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25E9",
+            "Character/Symbol: ◩",
+            "Name: SQUARE WITH UPPER LEFT DIAGONAL HALF BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◪ U+25EA SQUARE WITH LOWER RIGHT DIAGONAL HALF BLACK": 
+    {
+        "prefix": [
+            "..U.25EA",
+            "..U.SQUARE WITH LOWER RIGHT DIAGONAL HALF BLACK",
+            "U+25EA",
+        ],
+        "body": [
+            "${1|◪,&#x25EA;,U+25EA,0x25EA,SQUARE WITH LOWER RIGHT DIAGONAL HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25EA",
+            "Character/Symbol: ◪",
+            "Name: SQUARE WITH LOWER RIGHT DIAGONAL HALF BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◫ U+25EB WHITE SQUARE WITH VERTICAL BISECTING LINE": 
+    {
+        "prefix": [
+            "..U.25EB",
+            "..U.WHITE SQUARE WITH VERTICAL BISECTING LINE",
+            "U+25EB",
+        ],
+        "body": [
+            "${1|◫,&#x25EB;,U+25EB,0x25EB,WHITE SQUARE WITH VERTICAL BISECTING LINE|}$2",
+        ],
+        "description": [
+            "Code: U+25EB",
+            "Character/Symbol: ◫",
+            "Name: WHITE SQUARE WITH VERTICAL BISECTING LINE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◬ U+25EC WHITE UP-POINTING TRIANGLE WITH DOT": 
+    {
+        "prefix": [
+            "..U.25EC",
+            "..U.WHITE UP-POINTING TRIANGLE WITH DOT",
+            "U+25EC",
+        ],
+        "body": [
+            "${1|◬,&#x25EC;,U+25EC,0x25EC,WHITE UP-POINTING TRIANGLE WITH DOT|}$2",
+        ],
+        "description": [
+            "Code: U+25EC",
+            "Character/Symbol: ◬",
+            "Name: WHITE UP-POINTING TRIANGLE WITH DOT",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◭ U+25ED UP-POINTING TRIANGLE WITH LEFT HALF BLACK": 
+    {
+        "prefix": [
+            "..U.25ED",
+            "..U.UP-POINTING TRIANGLE WITH LEFT HALF BLACK",
+            "U+25ED",
+        ],
+        "body": [
+            "${1|◭,&#x25ED;,U+25ED,0x25ED,UP-POINTING TRIANGLE WITH LEFT HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25ED",
+            "Character/Symbol: ◭",
+            "Name: UP-POINTING TRIANGLE WITH LEFT HALF BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◮ U+25EE UP-POINTING TRIANGLE WITH RIGHT HALF BLACK": 
+    {
+        "prefix": [
+            "..U.25EE",
+            "..U.UP-POINTING TRIANGLE WITH RIGHT HALF BLACK",
+            "U+25EE",
+        ],
+        "body": [
+            "${1|◮,&#x25EE;,U+25EE,0x25EE,UP-POINTING TRIANGLE WITH RIGHT HALF BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+25EE",
+            "Character/Symbol: ◮",
+            "Name: UP-POINTING TRIANGLE WITH RIGHT HALF BLACK",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◯ U+25EF LARGE CIRCLE": 
+    {
+        "prefix": [
+            "..U.25EF",
+            "..U.LARGE CIRCLE",
+            "U+25EF",
+        ],
+        "body": [
+            "${1|◯,&#x25EF;,U+25EF,0x25EF,LARGE CIRCLE|}$2",
+        ],
+        "description": [
+            "Code: U+25EF",
+            "Character/Symbol: ◯",
+            "Name: LARGE CIRCLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◰ U+25F0 WHITE SQUARE WITH UPPER LEFT QUADRANT": 
+    {
+        "prefix": [
+            "..U.25F0",
+            "..U.WHITE SQUARE WITH UPPER LEFT QUADRANT",
+            "U+25F0",
+        ],
+        "body": [
+            "${1|◰,&#x25F0;,U+25F0,0x25F0,WHITE SQUARE WITH UPPER LEFT QUADRANT|}$2",
+        ],
+        "description": [
+            "Code: U+25F0",
+            "Character/Symbol: ◰",
+            "Name: WHITE SQUARE WITH UPPER LEFT QUADRANT",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◱ U+25F1 WHITE SQUARE WITH LOWER LEFT QUADRANT": 
+    {
+        "prefix": [
+            "..U.25F1",
+            "..U.WHITE SQUARE WITH LOWER LEFT QUADRANT",
+            "U+25F1",
+        ],
+        "body": [
+            "${1|◱,&#x25F1;,U+25F1,0x25F1,WHITE SQUARE WITH LOWER LEFT QUADRANT|}$2",
+        ],
+        "description": [
+            "Code: U+25F1",
+            "Character/Symbol: ◱",
+            "Name: WHITE SQUARE WITH LOWER LEFT QUADRANT",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◲ U+25F2 WHITE SQUARE WITH LOWER RIGHT QUADRANT": 
+    {
+        "prefix": [
+            "..U.25F2",
+            "..U.WHITE SQUARE WITH LOWER RIGHT QUADRANT",
+            "U+25F2",
+        ],
+        "body": [
+            "${1|◲,&#x25F2;,U+25F2,0x25F2,WHITE SQUARE WITH LOWER RIGHT QUADRANT|}$2",
+        ],
+        "description": [
+            "Code: U+25F2",
+            "Character/Symbol: ◲",
+            "Name: WHITE SQUARE WITH LOWER RIGHT QUADRANT",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◳ U+25F3 WHITE SQUARE WITH UPPER RIGHT QUADRANT": 
+    {
+        "prefix": [
+            "..U.25F3",
+            "..U.WHITE SQUARE WITH UPPER RIGHT QUADRANT",
+            "U+25F3",
+        ],
+        "body": [
+            "${1|◳,&#x25F3;,U+25F3,0x25F3,WHITE SQUARE WITH UPPER RIGHT QUADRANT|}$2",
+        ],
+        "description": [
+            "Code: U+25F3",
+            "Character/Symbol: ◳",
+            "Name: WHITE SQUARE WITH UPPER RIGHT QUADRANT",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◴ U+25F4 WHITE CIRCLE WITH UPPER LEFT QUADRANT": 
+    {
+        "prefix": [
+            "..U.25F4",
+            "..U.WHITE CIRCLE WITH UPPER LEFT QUADRANT",
+            "U+25F4",
+        ],
+        "body": [
+            "${1|◴,&#x25F4;,U+25F4,0x25F4,WHITE CIRCLE WITH UPPER LEFT QUADRANT|}$2",
+        ],
+        "description": [
+            "Code: U+25F4",
+            "Character/Symbol: ◴",
+            "Name: WHITE CIRCLE WITH UPPER LEFT QUADRANT",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◵ U+25F5 WHITE CIRCLE WITH LOWER LEFT QUADRANT": 
+    {
+        "prefix": [
+            "..U.25F5",
+            "..U.WHITE CIRCLE WITH LOWER LEFT QUADRANT",
+            "U+25F5",
+        ],
+        "body": [
+            "${1|◵,&#x25F5;,U+25F5,0x25F5,WHITE CIRCLE WITH LOWER LEFT QUADRANT|}$2",
+        ],
+        "description": [
+            "Code: U+25F5",
+            "Character/Symbol: ◵",
+            "Name: WHITE CIRCLE WITH LOWER LEFT QUADRANT",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◶ U+25F6 WHITE CIRCLE WITH LOWER RIGHT QUADRANT": 
+    {
+        "prefix": [
+            "..U.25F6",
+            "..U.WHITE CIRCLE WITH LOWER RIGHT QUADRANT",
+            "U+25F6",
+        ],
+        "body": [
+            "${1|◶,&#x25F6;,U+25F6,0x25F6,WHITE CIRCLE WITH LOWER RIGHT QUADRANT|}$2",
+        ],
+        "description": [
+            "Code: U+25F6",
+            "Character/Symbol: ◶",
+            "Name: WHITE CIRCLE WITH LOWER RIGHT QUADRANT",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◷ U+25F7 WHITE CIRCLE WITH UPPER RIGHT QUADRANT": 
+    {
+        "prefix": [
+            "..U.25F7",
+            "..U.WHITE CIRCLE WITH UPPER RIGHT QUADRANT",
+            "U+25F7",
+        ],
+        "body": [
+            "${1|◷,&#x25F7;,U+25F7,0x25F7,WHITE CIRCLE WITH UPPER RIGHT QUADRANT|}$2",
+        ],
+        "description": [
+            "Code: U+25F7",
+            "Character/Symbol: ◷",
+            "Name: WHITE CIRCLE WITH UPPER RIGHT QUADRANT",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◸ U+25F8 UPPER LEFT TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25F8",
+            "..U.UPPER LEFT TRIANGLE",
+            "U+25F8",
+        ],
+        "body": [
+            "${1|◸,&#x25F8;,U+25F8,0x25F8,UPPER LEFT TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25F8",
+            "Character/Symbol: ◸",
+            "Name: UPPER LEFT TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◹ U+25F9 UPPER RIGHT TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25F9",
+            "..U.UPPER RIGHT TRIANGLE",
+            "U+25F9",
+        ],
+        "body": [
+            "${1|◹,&#x25F9;,U+25F9,0x25F9,UPPER RIGHT TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25F9",
+            "Character/Symbol: ◹",
+            "Name: UPPER RIGHT TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◺ U+25FA LOWER LEFT TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25FA",
+            "..U.LOWER LEFT TRIANGLE",
+            "U+25FA",
+        ],
+        "body": [
+            "${1|◺,&#x25FA;,U+25FA,0x25FA,LOWER LEFT TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25FA",
+            "Character/Symbol: ◺",
+            "Name: LOWER LEFT TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◻ U+25FB WHITE MEDIUM SQUARE": 
+    {
+        "prefix": [
+            "..U.25FB",
+            "..U.WHITE MEDIUM SQUARE",
+            "U+25FB",
+        ],
+        "body": [
+            "${1|◻,&#x25FB;,U+25FB,0x25FB,WHITE MEDIUM SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+25FB",
+            "Character/Symbol: ◻",
+            "Name: WHITE MEDIUM SQUARE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◼ U+25FC BLACK MEDIUM SQUARE": 
+    {
+        "prefix": [
+            "..U.25FC",
+            "..U.BLACK MEDIUM SQUARE",
+            "U+25FC",
+        ],
+        "body": [
+            "${1|◼,&#x25FC;,U+25FC,0x25FC,BLACK MEDIUM SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+25FC",
+            "Character/Symbol: ◼",
+            "Name: BLACK MEDIUM SQUARE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◽ U+25FD WHITE MEDIUM SMALL SQUARE": 
+    {
+        "prefix": [
+            "..U.25FD",
+            "..U.WHITE MEDIUM SMALL SQUARE",
+            "U+25FD",
+        ],
+        "body": [
+            "${1|◽,&#x25FD;,U+25FD,0x25FD,WHITE MEDIUM SMALL SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+25FD",
+            "Character/Symbol: ◽",
+            "Name: WHITE MEDIUM SMALL SQUARE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◾ U+25FE BLACK MEDIUM SMALL SQUARE": 
+    {
+        "prefix": [
+            "..U.25FE",
+            "..U.BLACK MEDIUM SMALL SQUARE",
+            "U+25FE",
+        ],
+        "body": [
+            "${1|◾,&#x25FE;,U+25FE,0x25FE,BLACK MEDIUM SMALL SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+25FE",
+            "Character/Symbol: ◾",
+            "Name: BLACK MEDIUM SMALL SQUARE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+    "Unicode ◿ U+25FF LOWER RIGHT TRIANGLE": 
+    {
+        "prefix": [
+            "..U.25FF",
+            "..U.LOWER RIGHT TRIANGLE",
+            "U+25FF",
+        ],
+        "body": [
+            "${1|◿,&#x25FF;,U+25FF,0x25FF,LOWER RIGHT TRIANGLE|}$2",
+        ],
+        "description": [
+            "Code: U+25FF",
+            "Character/Symbol: ◿",
+            "Name: LOWER RIGHT TRIANGLE",
+            "Group/Block: Geometric_Shapes",
+        ],
+    },
+
+}

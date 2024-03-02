@@ -1,0 +1,3854 @@
+{
+    "Unicode ⼀ U+2F00 KANGXI RADICAL ONE": 
+    {
+        "prefix": [
+            "..U.2F00",
+            "..U.KANGXI RADICAL ONE",
+            "U+2F00",
+        ],
+        "body": [
+            "${1|⼀,&#x2F00;,U+2F00,0x2F00,KANGXI RADICAL ONE|}$2",
+        ],
+        "description": [
+            "Code: U+2F00",
+            "Character/Symbol: ⼀",
+            "Name: KANGXI RADICAL ONE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼁ U+2F01 KANGXI RADICAL LINE": 
+    {
+        "prefix": [
+            "..U.2F01",
+            "..U.KANGXI RADICAL LINE",
+            "U+2F01",
+        ],
+        "body": [
+            "${1|⼁,&#x2F01;,U+2F01,0x2F01,KANGXI RADICAL LINE|}$2",
+        ],
+        "description": [
+            "Code: U+2F01",
+            "Character/Symbol: ⼁",
+            "Name: KANGXI RADICAL LINE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼂ U+2F02 KANGXI RADICAL DOT": 
+    {
+        "prefix": [
+            "..U.2F02",
+            "..U.KANGXI RADICAL DOT",
+            "U+2F02",
+        ],
+        "body": [
+            "${1|⼂,&#x2F02;,U+2F02,0x2F02,KANGXI RADICAL DOT|}$2",
+        ],
+        "description": [
+            "Code: U+2F02",
+            "Character/Symbol: ⼂",
+            "Name: KANGXI RADICAL DOT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼃ U+2F03 KANGXI RADICAL SLASH": 
+    {
+        "prefix": [
+            "..U.2F03",
+            "..U.KANGXI RADICAL SLASH",
+            "U+2F03",
+        ],
+        "body": [
+            "${1|⼃,&#x2F03;,U+2F03,0x2F03,KANGXI RADICAL SLASH|}$2",
+        ],
+        "description": [
+            "Code: U+2F03",
+            "Character/Symbol: ⼃",
+            "Name: KANGXI RADICAL SLASH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼄ U+2F04 KANGXI RADICAL SECOND": 
+    {
+        "prefix": [
+            "..U.2F04",
+            "..U.KANGXI RADICAL SECOND",
+            "U+2F04",
+        ],
+        "body": [
+            "${1|⼄,&#x2F04;,U+2F04,0x2F04,KANGXI RADICAL SECOND|}$2",
+        ],
+        "description": [
+            "Code: U+2F04",
+            "Character/Symbol: ⼄",
+            "Name: KANGXI RADICAL SECOND",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼅ U+2F05 KANGXI RADICAL HOOK": 
+    {
+        "prefix": [
+            "..U.2F05",
+            "..U.KANGXI RADICAL HOOK",
+            "U+2F05",
+        ],
+        "body": [
+            "${1|⼅,&#x2F05;,U+2F05,0x2F05,KANGXI RADICAL HOOK|}$2",
+        ],
+        "description": [
+            "Code: U+2F05",
+            "Character/Symbol: ⼅",
+            "Name: KANGXI RADICAL HOOK",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼆ U+2F06 KANGXI RADICAL TWO": 
+    {
+        "prefix": [
+            "..U.2F06",
+            "..U.KANGXI RADICAL TWO",
+            "U+2F06",
+        ],
+        "body": [
+            "${1|⼆,&#x2F06;,U+2F06,0x2F06,KANGXI RADICAL TWO|}$2",
+        ],
+        "description": [
+            "Code: U+2F06",
+            "Character/Symbol: ⼆",
+            "Name: KANGXI RADICAL TWO",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼇ U+2F07 KANGXI RADICAL LID": 
+    {
+        "prefix": [
+            "..U.2F07",
+            "..U.KANGXI RADICAL LID",
+            "U+2F07",
+        ],
+        "body": [
+            "${1|⼇,&#x2F07;,U+2F07,0x2F07,KANGXI RADICAL LID|}$2",
+        ],
+        "description": [
+            "Code: U+2F07",
+            "Character/Symbol: ⼇",
+            "Name: KANGXI RADICAL LID",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼈ U+2F08 KANGXI RADICAL MAN": 
+    {
+        "prefix": [
+            "..U.2F08",
+            "..U.KANGXI RADICAL MAN",
+            "U+2F08",
+        ],
+        "body": [
+            "${1|⼈,&#x2F08;,U+2F08,0x2F08,KANGXI RADICAL MAN|}$2",
+        ],
+        "description": [
+            "Code: U+2F08",
+            "Character/Symbol: ⼈",
+            "Name: KANGXI RADICAL MAN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼉ U+2F09 KANGXI RADICAL LEGS": 
+    {
+        "prefix": [
+            "..U.2F09",
+            "..U.KANGXI RADICAL LEGS",
+            "U+2F09",
+        ],
+        "body": [
+            "${1|⼉,&#x2F09;,U+2F09,0x2F09,KANGXI RADICAL LEGS|}$2",
+        ],
+        "description": [
+            "Code: U+2F09",
+            "Character/Symbol: ⼉",
+            "Name: KANGXI RADICAL LEGS",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼊ U+2F0A KANGXI RADICAL ENTER": 
+    {
+        "prefix": [
+            "..U.2F0A",
+            "..U.KANGXI RADICAL ENTER",
+            "U+2F0A",
+        ],
+        "body": [
+            "${1|⼊,&#x2F0A;,U+2F0A,0x2F0A,KANGXI RADICAL ENTER|}$2",
+        ],
+        "description": [
+            "Code: U+2F0A",
+            "Character/Symbol: ⼊",
+            "Name: KANGXI RADICAL ENTER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼋ U+2F0B KANGXI RADICAL EIGHT": 
+    {
+        "prefix": [
+            "..U.2F0B",
+            "..U.KANGXI RADICAL EIGHT",
+            "U+2F0B",
+        ],
+        "body": [
+            "${1|⼋,&#x2F0B;,U+2F0B,0x2F0B,KANGXI RADICAL EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2F0B",
+            "Character/Symbol: ⼋",
+            "Name: KANGXI RADICAL EIGHT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼌ U+2F0C KANGXI RADICAL DOWN BOX": 
+    {
+        "prefix": [
+            "..U.2F0C",
+            "..U.KANGXI RADICAL DOWN BOX",
+            "U+2F0C",
+        ],
+        "body": [
+            "${1|⼌,&#x2F0C;,U+2F0C,0x2F0C,KANGXI RADICAL DOWN BOX|}$2",
+        ],
+        "description": [
+            "Code: U+2F0C",
+            "Character/Symbol: ⼌",
+            "Name: KANGXI RADICAL DOWN BOX",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼍ U+2F0D KANGXI RADICAL COVER": 
+    {
+        "prefix": [
+            "..U.2F0D",
+            "..U.KANGXI RADICAL COVER",
+            "U+2F0D",
+        ],
+        "body": [
+            "${1|⼍,&#x2F0D;,U+2F0D,0x2F0D,KANGXI RADICAL COVER|}$2",
+        ],
+        "description": [
+            "Code: U+2F0D",
+            "Character/Symbol: ⼍",
+            "Name: KANGXI RADICAL COVER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼎ U+2F0E KANGXI RADICAL ICE": 
+    {
+        "prefix": [
+            "..U.2F0E",
+            "..U.KANGXI RADICAL ICE",
+            "U+2F0E",
+        ],
+        "body": [
+            "${1|⼎,&#x2F0E;,U+2F0E,0x2F0E,KANGXI RADICAL ICE|}$2",
+        ],
+        "description": [
+            "Code: U+2F0E",
+            "Character/Symbol: ⼎",
+            "Name: KANGXI RADICAL ICE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼏ U+2F0F KANGXI RADICAL TABLE": 
+    {
+        "prefix": [
+            "..U.2F0F",
+            "..U.KANGXI RADICAL TABLE",
+            "U+2F0F",
+        ],
+        "body": [
+            "${1|⼏,&#x2F0F;,U+2F0F,0x2F0F,KANGXI RADICAL TABLE|}$2",
+        ],
+        "description": [
+            "Code: U+2F0F",
+            "Character/Symbol: ⼏",
+            "Name: KANGXI RADICAL TABLE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼐ U+2F10 KANGXI RADICAL OPEN BOX": 
+    {
+        "prefix": [
+            "..U.2F10",
+            "..U.KANGXI RADICAL OPEN BOX",
+            "U+2F10",
+        ],
+        "body": [
+            "${1|⼐,&#x2F10;,U+2F10,0x2F10,KANGXI RADICAL OPEN BOX|}$2",
+        ],
+        "description": [
+            "Code: U+2F10",
+            "Character/Symbol: ⼐",
+            "Name: KANGXI RADICAL OPEN BOX",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼑ U+2F11 KANGXI RADICAL KNIFE": 
+    {
+        "prefix": [
+            "..U.2F11",
+            "..U.KANGXI RADICAL KNIFE",
+            "U+2F11",
+        ],
+        "body": [
+            "${1|⼑,&#x2F11;,U+2F11,0x2F11,KANGXI RADICAL KNIFE|}$2",
+        ],
+        "description": [
+            "Code: U+2F11",
+            "Character/Symbol: ⼑",
+            "Name: KANGXI RADICAL KNIFE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼒ U+2F12 KANGXI RADICAL POWER": 
+    {
+        "prefix": [
+            "..U.2F12",
+            "..U.KANGXI RADICAL POWER",
+            "U+2F12",
+        ],
+        "body": [
+            "${1|⼒,&#x2F12;,U+2F12,0x2F12,KANGXI RADICAL POWER|}$2",
+        ],
+        "description": [
+            "Code: U+2F12",
+            "Character/Symbol: ⼒",
+            "Name: KANGXI RADICAL POWER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼓ U+2F13 KANGXI RADICAL WRAP": 
+    {
+        "prefix": [
+            "..U.2F13",
+            "..U.KANGXI RADICAL WRAP",
+            "U+2F13",
+        ],
+        "body": [
+            "${1|⼓,&#x2F13;,U+2F13,0x2F13,KANGXI RADICAL WRAP|}$2",
+        ],
+        "description": [
+            "Code: U+2F13",
+            "Character/Symbol: ⼓",
+            "Name: KANGXI RADICAL WRAP",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼔ U+2F14 KANGXI RADICAL SPOON": 
+    {
+        "prefix": [
+            "..U.2F14",
+            "..U.KANGXI RADICAL SPOON",
+            "U+2F14",
+        ],
+        "body": [
+            "${1|⼔,&#x2F14;,U+2F14,0x2F14,KANGXI RADICAL SPOON|}$2",
+        ],
+        "description": [
+            "Code: U+2F14",
+            "Character/Symbol: ⼔",
+            "Name: KANGXI RADICAL SPOON",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼕ U+2F15 KANGXI RADICAL RIGHT OPEN BOX": 
+    {
+        "prefix": [
+            "..U.2F15",
+            "..U.KANGXI RADICAL RIGHT OPEN BOX",
+            "U+2F15",
+        ],
+        "body": [
+            "${1|⼕,&#x2F15;,U+2F15,0x2F15,KANGXI RADICAL RIGHT OPEN BOX|}$2",
+        ],
+        "description": [
+            "Code: U+2F15",
+            "Character/Symbol: ⼕",
+            "Name: KANGXI RADICAL RIGHT OPEN BOX",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼖ U+2F16 KANGXI RADICAL HIDING ENCLOSURE": 
+    {
+        "prefix": [
+            "..U.2F16",
+            "..U.KANGXI RADICAL HIDING ENCLOSURE",
+            "U+2F16",
+        ],
+        "body": [
+            "${1|⼖,&#x2F16;,U+2F16,0x2F16,KANGXI RADICAL HIDING ENCLOSURE|}$2",
+        ],
+        "description": [
+            "Code: U+2F16",
+            "Character/Symbol: ⼖",
+            "Name: KANGXI RADICAL HIDING ENCLOSURE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼗ U+2F17 KANGXI RADICAL TEN": 
+    {
+        "prefix": [
+            "..U.2F17",
+            "..U.KANGXI RADICAL TEN",
+            "U+2F17",
+        ],
+        "body": [
+            "${1|⼗,&#x2F17;,U+2F17,0x2F17,KANGXI RADICAL TEN|}$2",
+        ],
+        "description": [
+            "Code: U+2F17",
+            "Character/Symbol: ⼗",
+            "Name: KANGXI RADICAL TEN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼘ U+2F18 KANGXI RADICAL DIVINATION": 
+    {
+        "prefix": [
+            "..U.2F18",
+            "..U.KANGXI RADICAL DIVINATION",
+            "U+2F18",
+        ],
+        "body": [
+            "${1|⼘,&#x2F18;,U+2F18,0x2F18,KANGXI RADICAL DIVINATION|}$2",
+        ],
+        "description": [
+            "Code: U+2F18",
+            "Character/Symbol: ⼘",
+            "Name: KANGXI RADICAL DIVINATION",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼙ U+2F19 KANGXI RADICAL SEAL": 
+    {
+        "prefix": [
+            "..U.2F19",
+            "..U.KANGXI RADICAL SEAL",
+            "U+2F19",
+        ],
+        "body": [
+            "${1|⼙,&#x2F19;,U+2F19,0x2F19,KANGXI RADICAL SEAL|}$2",
+        ],
+        "description": [
+            "Code: U+2F19",
+            "Character/Symbol: ⼙",
+            "Name: KANGXI RADICAL SEAL",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼚ U+2F1A KANGXI RADICAL CLIFF": 
+    {
+        "prefix": [
+            "..U.2F1A",
+            "..U.KANGXI RADICAL CLIFF",
+            "U+2F1A",
+        ],
+        "body": [
+            "${1|⼚,&#x2F1A;,U+2F1A,0x2F1A,KANGXI RADICAL CLIFF|}$2",
+        ],
+        "description": [
+            "Code: U+2F1A",
+            "Character/Symbol: ⼚",
+            "Name: KANGXI RADICAL CLIFF",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼛ U+2F1B KANGXI RADICAL PRIVATE": 
+    {
+        "prefix": [
+            "..U.2F1B",
+            "..U.KANGXI RADICAL PRIVATE",
+            "U+2F1B",
+        ],
+        "body": [
+            "${1|⼛,&#x2F1B;,U+2F1B,0x2F1B,KANGXI RADICAL PRIVATE|}$2",
+        ],
+        "description": [
+            "Code: U+2F1B",
+            "Character/Symbol: ⼛",
+            "Name: KANGXI RADICAL PRIVATE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼜ U+2F1C KANGXI RADICAL AGAIN": 
+    {
+        "prefix": [
+            "..U.2F1C",
+            "..U.KANGXI RADICAL AGAIN",
+            "U+2F1C",
+        ],
+        "body": [
+            "${1|⼜,&#x2F1C;,U+2F1C,0x2F1C,KANGXI RADICAL AGAIN|}$2",
+        ],
+        "description": [
+            "Code: U+2F1C",
+            "Character/Symbol: ⼜",
+            "Name: KANGXI RADICAL AGAIN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼝ U+2F1D KANGXI RADICAL MOUTH": 
+    {
+        "prefix": [
+            "..U.2F1D",
+            "..U.KANGXI RADICAL MOUTH",
+            "U+2F1D",
+        ],
+        "body": [
+            "${1|⼝,&#x2F1D;,U+2F1D,0x2F1D,KANGXI RADICAL MOUTH|}$2",
+        ],
+        "description": [
+            "Code: U+2F1D",
+            "Character/Symbol: ⼝",
+            "Name: KANGXI RADICAL MOUTH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼞ U+2F1E KANGXI RADICAL ENCLOSURE": 
+    {
+        "prefix": [
+            "..U.2F1E",
+            "..U.KANGXI RADICAL ENCLOSURE",
+            "U+2F1E",
+        ],
+        "body": [
+            "${1|⼞,&#x2F1E;,U+2F1E,0x2F1E,KANGXI RADICAL ENCLOSURE|}$2",
+        ],
+        "description": [
+            "Code: U+2F1E",
+            "Character/Symbol: ⼞",
+            "Name: KANGXI RADICAL ENCLOSURE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼟ U+2F1F KANGXI RADICAL EARTH": 
+    {
+        "prefix": [
+            "..U.2F1F",
+            "..U.KANGXI RADICAL EARTH",
+            "U+2F1F",
+        ],
+        "body": [
+            "${1|⼟,&#x2F1F;,U+2F1F,0x2F1F,KANGXI RADICAL EARTH|}$2",
+        ],
+        "description": [
+            "Code: U+2F1F",
+            "Character/Symbol: ⼟",
+            "Name: KANGXI RADICAL EARTH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼠ U+2F20 KANGXI RADICAL SCHOLAR": 
+    {
+        "prefix": [
+            "..U.2F20",
+            "..U.KANGXI RADICAL SCHOLAR",
+            "U+2F20",
+        ],
+        "body": [
+            "${1|⼠,&#x2F20;,U+2F20,0x2F20,KANGXI RADICAL SCHOLAR|}$2",
+        ],
+        "description": [
+            "Code: U+2F20",
+            "Character/Symbol: ⼠",
+            "Name: KANGXI RADICAL SCHOLAR",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼡ U+2F21 KANGXI RADICAL GO": 
+    {
+        "prefix": [
+            "..U.2F21",
+            "..U.KANGXI RADICAL GO",
+            "U+2F21",
+        ],
+        "body": [
+            "${1|⼡,&#x2F21;,U+2F21,0x2F21,KANGXI RADICAL GO|}$2",
+        ],
+        "description": [
+            "Code: U+2F21",
+            "Character/Symbol: ⼡",
+            "Name: KANGXI RADICAL GO",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼢ U+2F22 KANGXI RADICAL GO SLOWLY": 
+    {
+        "prefix": [
+            "..U.2F22",
+            "..U.KANGXI RADICAL GO SLOWLY",
+            "U+2F22",
+        ],
+        "body": [
+            "${1|⼢,&#x2F22;,U+2F22,0x2F22,KANGXI RADICAL GO SLOWLY|}$2",
+        ],
+        "description": [
+            "Code: U+2F22",
+            "Character/Symbol: ⼢",
+            "Name: KANGXI RADICAL GO SLOWLY",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼣ U+2F23 KANGXI RADICAL EVENING": 
+    {
+        "prefix": [
+            "..U.2F23",
+            "..U.KANGXI RADICAL EVENING",
+            "U+2F23",
+        ],
+        "body": [
+            "${1|⼣,&#x2F23;,U+2F23,0x2F23,KANGXI RADICAL EVENING|}$2",
+        ],
+        "description": [
+            "Code: U+2F23",
+            "Character/Symbol: ⼣",
+            "Name: KANGXI RADICAL EVENING",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼤ U+2F24 KANGXI RADICAL BIG": 
+    {
+        "prefix": [
+            "..U.2F24",
+            "..U.KANGXI RADICAL BIG",
+            "U+2F24",
+        ],
+        "body": [
+            "${1|⼤,&#x2F24;,U+2F24,0x2F24,KANGXI RADICAL BIG|}$2",
+        ],
+        "description": [
+            "Code: U+2F24",
+            "Character/Symbol: ⼤",
+            "Name: KANGXI RADICAL BIG",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼥ U+2F25 KANGXI RADICAL WOMAN": 
+    {
+        "prefix": [
+            "..U.2F25",
+            "..U.KANGXI RADICAL WOMAN",
+            "U+2F25",
+        ],
+        "body": [
+            "${1|⼥,&#x2F25;,U+2F25,0x2F25,KANGXI RADICAL WOMAN|}$2",
+        ],
+        "description": [
+            "Code: U+2F25",
+            "Character/Symbol: ⼥",
+            "Name: KANGXI RADICAL WOMAN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼦ U+2F26 KANGXI RADICAL CHILD": 
+    {
+        "prefix": [
+            "..U.2F26",
+            "..U.KANGXI RADICAL CHILD",
+            "U+2F26",
+        ],
+        "body": [
+            "${1|⼦,&#x2F26;,U+2F26,0x2F26,KANGXI RADICAL CHILD|}$2",
+        ],
+        "description": [
+            "Code: U+2F26",
+            "Character/Symbol: ⼦",
+            "Name: KANGXI RADICAL CHILD",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼧ U+2F27 KANGXI RADICAL ROOF": 
+    {
+        "prefix": [
+            "..U.2F27",
+            "..U.KANGXI RADICAL ROOF",
+            "U+2F27",
+        ],
+        "body": [
+            "${1|⼧,&#x2F27;,U+2F27,0x2F27,KANGXI RADICAL ROOF|}$2",
+        ],
+        "description": [
+            "Code: U+2F27",
+            "Character/Symbol: ⼧",
+            "Name: KANGXI RADICAL ROOF",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼨ U+2F28 KANGXI RADICAL INCH": 
+    {
+        "prefix": [
+            "..U.2F28",
+            "..U.KANGXI RADICAL INCH",
+            "U+2F28",
+        ],
+        "body": [
+            "${1|⼨,&#x2F28;,U+2F28,0x2F28,KANGXI RADICAL INCH|}$2",
+        ],
+        "description": [
+            "Code: U+2F28",
+            "Character/Symbol: ⼨",
+            "Name: KANGXI RADICAL INCH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼩ U+2F29 KANGXI RADICAL SMALL": 
+    {
+        "prefix": [
+            "..U.2F29",
+            "..U.KANGXI RADICAL SMALL",
+            "U+2F29",
+        ],
+        "body": [
+            "${1|⼩,&#x2F29;,U+2F29,0x2F29,KANGXI RADICAL SMALL|}$2",
+        ],
+        "description": [
+            "Code: U+2F29",
+            "Character/Symbol: ⼩",
+            "Name: KANGXI RADICAL SMALL",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼪ U+2F2A KANGXI RADICAL LAME": 
+    {
+        "prefix": [
+            "..U.2F2A",
+            "..U.KANGXI RADICAL LAME",
+            "U+2F2A",
+        ],
+        "body": [
+            "${1|⼪,&#x2F2A;,U+2F2A,0x2F2A,KANGXI RADICAL LAME|}$2",
+        ],
+        "description": [
+            "Code: U+2F2A",
+            "Character/Symbol: ⼪",
+            "Name: KANGXI RADICAL LAME",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼫ U+2F2B KANGXI RADICAL CORPSE": 
+    {
+        "prefix": [
+            "..U.2F2B",
+            "..U.KANGXI RADICAL CORPSE",
+            "U+2F2B",
+        ],
+        "body": [
+            "${1|⼫,&#x2F2B;,U+2F2B,0x2F2B,KANGXI RADICAL CORPSE|}$2",
+        ],
+        "description": [
+            "Code: U+2F2B",
+            "Character/Symbol: ⼫",
+            "Name: KANGXI RADICAL CORPSE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼬ U+2F2C KANGXI RADICAL SPROUT": 
+    {
+        "prefix": [
+            "..U.2F2C",
+            "..U.KANGXI RADICAL SPROUT",
+            "U+2F2C",
+        ],
+        "body": [
+            "${1|⼬,&#x2F2C;,U+2F2C,0x2F2C,KANGXI RADICAL SPROUT|}$2",
+        ],
+        "description": [
+            "Code: U+2F2C",
+            "Character/Symbol: ⼬",
+            "Name: KANGXI RADICAL SPROUT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼭ U+2F2D KANGXI RADICAL MOUNTAIN": 
+    {
+        "prefix": [
+            "..U.2F2D",
+            "..U.KANGXI RADICAL MOUNTAIN",
+            "U+2F2D",
+        ],
+        "body": [
+            "${1|⼭,&#x2F2D;,U+2F2D,0x2F2D,KANGXI RADICAL MOUNTAIN|}$2",
+        ],
+        "description": [
+            "Code: U+2F2D",
+            "Character/Symbol: ⼭",
+            "Name: KANGXI RADICAL MOUNTAIN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼮ U+2F2E KANGXI RADICAL RIVER": 
+    {
+        "prefix": [
+            "..U.2F2E",
+            "..U.KANGXI RADICAL RIVER",
+            "U+2F2E",
+        ],
+        "body": [
+            "${1|⼮,&#x2F2E;,U+2F2E,0x2F2E,KANGXI RADICAL RIVER|}$2",
+        ],
+        "description": [
+            "Code: U+2F2E",
+            "Character/Symbol: ⼮",
+            "Name: KANGXI RADICAL RIVER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼯ U+2F2F KANGXI RADICAL WORK": 
+    {
+        "prefix": [
+            "..U.2F2F",
+            "..U.KANGXI RADICAL WORK",
+            "U+2F2F",
+        ],
+        "body": [
+            "${1|⼯,&#x2F2F;,U+2F2F,0x2F2F,KANGXI RADICAL WORK|}$2",
+        ],
+        "description": [
+            "Code: U+2F2F",
+            "Character/Symbol: ⼯",
+            "Name: KANGXI RADICAL WORK",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼰ U+2F30 KANGXI RADICAL ONESELF": 
+    {
+        "prefix": [
+            "..U.2F30",
+            "..U.KANGXI RADICAL ONESELF",
+            "U+2F30",
+        ],
+        "body": [
+            "${1|⼰,&#x2F30;,U+2F30,0x2F30,KANGXI RADICAL ONESELF|}$2",
+        ],
+        "description": [
+            "Code: U+2F30",
+            "Character/Symbol: ⼰",
+            "Name: KANGXI RADICAL ONESELF",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼱ U+2F31 KANGXI RADICAL TURBAN": 
+    {
+        "prefix": [
+            "..U.2F31",
+            "..U.KANGXI RADICAL TURBAN",
+            "U+2F31",
+        ],
+        "body": [
+            "${1|⼱,&#x2F31;,U+2F31,0x2F31,KANGXI RADICAL TURBAN|}$2",
+        ],
+        "description": [
+            "Code: U+2F31",
+            "Character/Symbol: ⼱",
+            "Name: KANGXI RADICAL TURBAN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼲ U+2F32 KANGXI RADICAL DRY": 
+    {
+        "prefix": [
+            "..U.2F32",
+            "..U.KANGXI RADICAL DRY",
+            "U+2F32",
+        ],
+        "body": [
+            "${1|⼲,&#x2F32;,U+2F32,0x2F32,KANGXI RADICAL DRY|}$2",
+        ],
+        "description": [
+            "Code: U+2F32",
+            "Character/Symbol: ⼲",
+            "Name: KANGXI RADICAL DRY",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼳ U+2F33 KANGXI RADICAL SHORT THREAD": 
+    {
+        "prefix": [
+            "..U.2F33",
+            "..U.KANGXI RADICAL SHORT THREAD",
+            "U+2F33",
+        ],
+        "body": [
+            "${1|⼳,&#x2F33;,U+2F33,0x2F33,KANGXI RADICAL SHORT THREAD|}$2",
+        ],
+        "description": [
+            "Code: U+2F33",
+            "Character/Symbol: ⼳",
+            "Name: KANGXI RADICAL SHORT THREAD",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼴ U+2F34 KANGXI RADICAL DOTTED CLIFF": 
+    {
+        "prefix": [
+            "..U.2F34",
+            "..U.KANGXI RADICAL DOTTED CLIFF",
+            "U+2F34",
+        ],
+        "body": [
+            "${1|⼴,&#x2F34;,U+2F34,0x2F34,KANGXI RADICAL DOTTED CLIFF|}$2",
+        ],
+        "description": [
+            "Code: U+2F34",
+            "Character/Symbol: ⼴",
+            "Name: KANGXI RADICAL DOTTED CLIFF",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼵ U+2F35 KANGXI RADICAL LONG STRIDE": 
+    {
+        "prefix": [
+            "..U.2F35",
+            "..U.KANGXI RADICAL LONG STRIDE",
+            "U+2F35",
+        ],
+        "body": [
+            "${1|⼵,&#x2F35;,U+2F35,0x2F35,KANGXI RADICAL LONG STRIDE|}$2",
+        ],
+        "description": [
+            "Code: U+2F35",
+            "Character/Symbol: ⼵",
+            "Name: KANGXI RADICAL LONG STRIDE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼶ U+2F36 KANGXI RADICAL TWO HANDS": 
+    {
+        "prefix": [
+            "..U.2F36",
+            "..U.KANGXI RADICAL TWO HANDS",
+            "U+2F36",
+        ],
+        "body": [
+            "${1|⼶,&#x2F36;,U+2F36,0x2F36,KANGXI RADICAL TWO HANDS|}$2",
+        ],
+        "description": [
+            "Code: U+2F36",
+            "Character/Symbol: ⼶",
+            "Name: KANGXI RADICAL TWO HANDS",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼷ U+2F37 KANGXI RADICAL SHOOT": 
+    {
+        "prefix": [
+            "..U.2F37",
+            "..U.KANGXI RADICAL SHOOT",
+            "U+2F37",
+        ],
+        "body": [
+            "${1|⼷,&#x2F37;,U+2F37,0x2F37,KANGXI RADICAL SHOOT|}$2",
+        ],
+        "description": [
+            "Code: U+2F37",
+            "Character/Symbol: ⼷",
+            "Name: KANGXI RADICAL SHOOT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼸ U+2F38 KANGXI RADICAL BOW": 
+    {
+        "prefix": [
+            "..U.2F38",
+            "..U.KANGXI RADICAL BOW",
+            "U+2F38",
+        ],
+        "body": [
+            "${1|⼸,&#x2F38;,U+2F38,0x2F38,KANGXI RADICAL BOW|}$2",
+        ],
+        "description": [
+            "Code: U+2F38",
+            "Character/Symbol: ⼸",
+            "Name: KANGXI RADICAL BOW",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼹ U+2F39 KANGXI RADICAL SNOUT": 
+    {
+        "prefix": [
+            "..U.2F39",
+            "..U.KANGXI RADICAL SNOUT",
+            "U+2F39",
+        ],
+        "body": [
+            "${1|⼹,&#x2F39;,U+2F39,0x2F39,KANGXI RADICAL SNOUT|}$2",
+        ],
+        "description": [
+            "Code: U+2F39",
+            "Character/Symbol: ⼹",
+            "Name: KANGXI RADICAL SNOUT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼺ U+2F3A KANGXI RADICAL BRISTLE": 
+    {
+        "prefix": [
+            "..U.2F3A",
+            "..U.KANGXI RADICAL BRISTLE",
+            "U+2F3A",
+        ],
+        "body": [
+            "${1|⼺,&#x2F3A;,U+2F3A,0x2F3A,KANGXI RADICAL BRISTLE|}$2",
+        ],
+        "description": [
+            "Code: U+2F3A",
+            "Character/Symbol: ⼺",
+            "Name: KANGXI RADICAL BRISTLE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼻ U+2F3B KANGXI RADICAL STEP": 
+    {
+        "prefix": [
+            "..U.2F3B",
+            "..U.KANGXI RADICAL STEP",
+            "U+2F3B",
+        ],
+        "body": [
+            "${1|⼻,&#x2F3B;,U+2F3B,0x2F3B,KANGXI RADICAL STEP|}$2",
+        ],
+        "description": [
+            "Code: U+2F3B",
+            "Character/Symbol: ⼻",
+            "Name: KANGXI RADICAL STEP",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼼ U+2F3C KANGXI RADICAL HEART": 
+    {
+        "prefix": [
+            "..U.2F3C",
+            "..U.KANGXI RADICAL HEART",
+            "U+2F3C",
+        ],
+        "body": [
+            "${1|⼼,&#x2F3C;,U+2F3C,0x2F3C,KANGXI RADICAL HEART|}$2",
+        ],
+        "description": [
+            "Code: U+2F3C",
+            "Character/Symbol: ⼼",
+            "Name: KANGXI RADICAL HEART",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼽ U+2F3D KANGXI RADICAL HALBERD": 
+    {
+        "prefix": [
+            "..U.2F3D",
+            "..U.KANGXI RADICAL HALBERD",
+            "U+2F3D",
+        ],
+        "body": [
+            "${1|⼽,&#x2F3D;,U+2F3D,0x2F3D,KANGXI RADICAL HALBERD|}$2",
+        ],
+        "description": [
+            "Code: U+2F3D",
+            "Character/Symbol: ⼽",
+            "Name: KANGXI RADICAL HALBERD",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼾ U+2F3E KANGXI RADICAL DOOR": 
+    {
+        "prefix": [
+            "..U.2F3E",
+            "..U.KANGXI RADICAL DOOR",
+            "U+2F3E",
+        ],
+        "body": [
+            "${1|⼾,&#x2F3E;,U+2F3E,0x2F3E,KANGXI RADICAL DOOR|}$2",
+        ],
+        "description": [
+            "Code: U+2F3E",
+            "Character/Symbol: ⼾",
+            "Name: KANGXI RADICAL DOOR",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⼿ U+2F3F KANGXI RADICAL HAND": 
+    {
+        "prefix": [
+            "..U.2F3F",
+            "..U.KANGXI RADICAL HAND",
+            "U+2F3F",
+        ],
+        "body": [
+            "${1|⼿,&#x2F3F;,U+2F3F,0x2F3F,KANGXI RADICAL HAND|}$2",
+        ],
+        "description": [
+            "Code: U+2F3F",
+            "Character/Symbol: ⼿",
+            "Name: KANGXI RADICAL HAND",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽀ U+2F40 KANGXI RADICAL BRANCH": 
+    {
+        "prefix": [
+            "..U.2F40",
+            "..U.KANGXI RADICAL BRANCH",
+            "U+2F40",
+        ],
+        "body": [
+            "${1|⽀,&#x2F40;,U+2F40,0x2F40,KANGXI RADICAL BRANCH|}$2",
+        ],
+        "description": [
+            "Code: U+2F40",
+            "Character/Symbol: ⽀",
+            "Name: KANGXI RADICAL BRANCH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽁ U+2F41 KANGXI RADICAL RAP": 
+    {
+        "prefix": [
+            "..U.2F41",
+            "..U.KANGXI RADICAL RAP",
+            "U+2F41",
+        ],
+        "body": [
+            "${1|⽁,&#x2F41;,U+2F41,0x2F41,KANGXI RADICAL RAP|}$2",
+        ],
+        "description": [
+            "Code: U+2F41",
+            "Character/Symbol: ⽁",
+            "Name: KANGXI RADICAL RAP",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽂ U+2F42 KANGXI RADICAL SCRIPT": 
+    {
+        "prefix": [
+            "..U.2F42",
+            "..U.KANGXI RADICAL SCRIPT",
+            "U+2F42",
+        ],
+        "body": [
+            "${1|⽂,&#x2F42;,U+2F42,0x2F42,KANGXI RADICAL SCRIPT|}$2",
+        ],
+        "description": [
+            "Code: U+2F42",
+            "Character/Symbol: ⽂",
+            "Name: KANGXI RADICAL SCRIPT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽃ U+2F43 KANGXI RADICAL DIPPER": 
+    {
+        "prefix": [
+            "..U.2F43",
+            "..U.KANGXI RADICAL DIPPER",
+            "U+2F43",
+        ],
+        "body": [
+            "${1|⽃,&#x2F43;,U+2F43,0x2F43,KANGXI RADICAL DIPPER|}$2",
+        ],
+        "description": [
+            "Code: U+2F43",
+            "Character/Symbol: ⽃",
+            "Name: KANGXI RADICAL DIPPER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽄ U+2F44 KANGXI RADICAL AXE": 
+    {
+        "prefix": [
+            "..U.2F44",
+            "..U.KANGXI RADICAL AXE",
+            "U+2F44",
+        ],
+        "body": [
+            "${1|⽄,&#x2F44;,U+2F44,0x2F44,KANGXI RADICAL AXE|}$2",
+        ],
+        "description": [
+            "Code: U+2F44",
+            "Character/Symbol: ⽄",
+            "Name: KANGXI RADICAL AXE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽅ U+2F45 KANGXI RADICAL SQUARE": 
+    {
+        "prefix": [
+            "..U.2F45",
+            "..U.KANGXI RADICAL SQUARE",
+            "U+2F45",
+        ],
+        "body": [
+            "${1|⽅,&#x2F45;,U+2F45,0x2F45,KANGXI RADICAL SQUARE|}$2",
+        ],
+        "description": [
+            "Code: U+2F45",
+            "Character/Symbol: ⽅",
+            "Name: KANGXI RADICAL SQUARE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽆ U+2F46 KANGXI RADICAL NOT": 
+    {
+        "prefix": [
+            "..U.2F46",
+            "..U.KANGXI RADICAL NOT",
+            "U+2F46",
+        ],
+        "body": [
+            "${1|⽆,&#x2F46;,U+2F46,0x2F46,KANGXI RADICAL NOT|}$2",
+        ],
+        "description": [
+            "Code: U+2F46",
+            "Character/Symbol: ⽆",
+            "Name: KANGXI RADICAL NOT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽇ U+2F47 KANGXI RADICAL SUN": 
+    {
+        "prefix": [
+            "..U.2F47",
+            "..U.KANGXI RADICAL SUN",
+            "U+2F47",
+        ],
+        "body": [
+            "${1|⽇,&#x2F47;,U+2F47,0x2F47,KANGXI RADICAL SUN|}$2",
+        ],
+        "description": [
+            "Code: U+2F47",
+            "Character/Symbol: ⽇",
+            "Name: KANGXI RADICAL SUN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽈ U+2F48 KANGXI RADICAL SAY": 
+    {
+        "prefix": [
+            "..U.2F48",
+            "..U.KANGXI RADICAL SAY",
+            "U+2F48",
+        ],
+        "body": [
+            "${1|⽈,&#x2F48;,U+2F48,0x2F48,KANGXI RADICAL SAY|}$2",
+        ],
+        "description": [
+            "Code: U+2F48",
+            "Character/Symbol: ⽈",
+            "Name: KANGXI RADICAL SAY",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽉ U+2F49 KANGXI RADICAL MOON": 
+    {
+        "prefix": [
+            "..U.2F49",
+            "..U.KANGXI RADICAL MOON",
+            "U+2F49",
+        ],
+        "body": [
+            "${1|⽉,&#x2F49;,U+2F49,0x2F49,KANGXI RADICAL MOON|}$2",
+        ],
+        "description": [
+            "Code: U+2F49",
+            "Character/Symbol: ⽉",
+            "Name: KANGXI RADICAL MOON",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽊ U+2F4A KANGXI RADICAL TREE": 
+    {
+        "prefix": [
+            "..U.2F4A",
+            "..U.KANGXI RADICAL TREE",
+            "U+2F4A",
+        ],
+        "body": [
+            "${1|⽊,&#x2F4A;,U+2F4A,0x2F4A,KANGXI RADICAL TREE|}$2",
+        ],
+        "description": [
+            "Code: U+2F4A",
+            "Character/Symbol: ⽊",
+            "Name: KANGXI RADICAL TREE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽋ U+2F4B KANGXI RADICAL LACK": 
+    {
+        "prefix": [
+            "..U.2F4B",
+            "..U.KANGXI RADICAL LACK",
+            "U+2F4B",
+        ],
+        "body": [
+            "${1|⽋,&#x2F4B;,U+2F4B,0x2F4B,KANGXI RADICAL LACK|}$2",
+        ],
+        "description": [
+            "Code: U+2F4B",
+            "Character/Symbol: ⽋",
+            "Name: KANGXI RADICAL LACK",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽌ U+2F4C KANGXI RADICAL STOP": 
+    {
+        "prefix": [
+            "..U.2F4C",
+            "..U.KANGXI RADICAL STOP",
+            "U+2F4C",
+        ],
+        "body": [
+            "${1|⽌,&#x2F4C;,U+2F4C,0x2F4C,KANGXI RADICAL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+2F4C",
+            "Character/Symbol: ⽌",
+            "Name: KANGXI RADICAL STOP",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽍ U+2F4D KANGXI RADICAL DEATH": 
+    {
+        "prefix": [
+            "..U.2F4D",
+            "..U.KANGXI RADICAL DEATH",
+            "U+2F4D",
+        ],
+        "body": [
+            "${1|⽍,&#x2F4D;,U+2F4D,0x2F4D,KANGXI RADICAL DEATH|}$2",
+        ],
+        "description": [
+            "Code: U+2F4D",
+            "Character/Symbol: ⽍",
+            "Name: KANGXI RADICAL DEATH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽎ U+2F4E KANGXI RADICAL WEAPON": 
+    {
+        "prefix": [
+            "..U.2F4E",
+            "..U.KANGXI RADICAL WEAPON",
+            "U+2F4E",
+        ],
+        "body": [
+            "${1|⽎,&#x2F4E;,U+2F4E,0x2F4E,KANGXI RADICAL WEAPON|}$2",
+        ],
+        "description": [
+            "Code: U+2F4E",
+            "Character/Symbol: ⽎",
+            "Name: KANGXI RADICAL WEAPON",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽏ U+2F4F KANGXI RADICAL DO NOT": 
+    {
+        "prefix": [
+            "..U.2F4F",
+            "..U.KANGXI RADICAL DO NOT",
+            "U+2F4F",
+        ],
+        "body": [
+            "${1|⽏,&#x2F4F;,U+2F4F,0x2F4F,KANGXI RADICAL DO NOT|}$2",
+        ],
+        "description": [
+            "Code: U+2F4F",
+            "Character/Symbol: ⽏",
+            "Name: KANGXI RADICAL DO NOT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽐ U+2F50 KANGXI RADICAL COMPARE": 
+    {
+        "prefix": [
+            "..U.2F50",
+            "..U.KANGXI RADICAL COMPARE",
+            "U+2F50",
+        ],
+        "body": [
+            "${1|⽐,&#x2F50;,U+2F50,0x2F50,KANGXI RADICAL COMPARE|}$2",
+        ],
+        "description": [
+            "Code: U+2F50",
+            "Character/Symbol: ⽐",
+            "Name: KANGXI RADICAL COMPARE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽑ U+2F51 KANGXI RADICAL FUR": 
+    {
+        "prefix": [
+            "..U.2F51",
+            "..U.KANGXI RADICAL FUR",
+            "U+2F51",
+        ],
+        "body": [
+            "${1|⽑,&#x2F51;,U+2F51,0x2F51,KANGXI RADICAL FUR|}$2",
+        ],
+        "description": [
+            "Code: U+2F51",
+            "Character/Symbol: ⽑",
+            "Name: KANGXI RADICAL FUR",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽒ U+2F52 KANGXI RADICAL CLAN": 
+    {
+        "prefix": [
+            "..U.2F52",
+            "..U.KANGXI RADICAL CLAN",
+            "U+2F52",
+        ],
+        "body": [
+            "${1|⽒,&#x2F52;,U+2F52,0x2F52,KANGXI RADICAL CLAN|}$2",
+        ],
+        "description": [
+            "Code: U+2F52",
+            "Character/Symbol: ⽒",
+            "Name: KANGXI RADICAL CLAN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽓ U+2F53 KANGXI RADICAL STEAM": 
+    {
+        "prefix": [
+            "..U.2F53",
+            "..U.KANGXI RADICAL STEAM",
+            "U+2F53",
+        ],
+        "body": [
+            "${1|⽓,&#x2F53;,U+2F53,0x2F53,KANGXI RADICAL STEAM|}$2",
+        ],
+        "description": [
+            "Code: U+2F53",
+            "Character/Symbol: ⽓",
+            "Name: KANGXI RADICAL STEAM",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽔ U+2F54 KANGXI RADICAL WATER": 
+    {
+        "prefix": [
+            "..U.2F54",
+            "..U.KANGXI RADICAL WATER",
+            "U+2F54",
+        ],
+        "body": [
+            "${1|⽔,&#x2F54;,U+2F54,0x2F54,KANGXI RADICAL WATER|}$2",
+        ],
+        "description": [
+            "Code: U+2F54",
+            "Character/Symbol: ⽔",
+            "Name: KANGXI RADICAL WATER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽕ U+2F55 KANGXI RADICAL FIRE": 
+    {
+        "prefix": [
+            "..U.2F55",
+            "..U.KANGXI RADICAL FIRE",
+            "U+2F55",
+        ],
+        "body": [
+            "${1|⽕,&#x2F55;,U+2F55,0x2F55,KANGXI RADICAL FIRE|}$2",
+        ],
+        "description": [
+            "Code: U+2F55",
+            "Character/Symbol: ⽕",
+            "Name: KANGXI RADICAL FIRE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽖ U+2F56 KANGXI RADICAL CLAW": 
+    {
+        "prefix": [
+            "..U.2F56",
+            "..U.KANGXI RADICAL CLAW",
+            "U+2F56",
+        ],
+        "body": [
+            "${1|⽖,&#x2F56;,U+2F56,0x2F56,KANGXI RADICAL CLAW|}$2",
+        ],
+        "description": [
+            "Code: U+2F56",
+            "Character/Symbol: ⽖",
+            "Name: KANGXI RADICAL CLAW",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽗ U+2F57 KANGXI RADICAL FATHER": 
+    {
+        "prefix": [
+            "..U.2F57",
+            "..U.KANGXI RADICAL FATHER",
+            "U+2F57",
+        ],
+        "body": [
+            "${1|⽗,&#x2F57;,U+2F57,0x2F57,KANGXI RADICAL FATHER|}$2",
+        ],
+        "description": [
+            "Code: U+2F57",
+            "Character/Symbol: ⽗",
+            "Name: KANGXI RADICAL FATHER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽘ U+2F58 KANGXI RADICAL DOUBLE X": 
+    {
+        "prefix": [
+            "..U.2F58",
+            "..U.KANGXI RADICAL DOUBLE X",
+            "U+2F58",
+        ],
+        "body": [
+            "${1|⽘,&#x2F58;,U+2F58,0x2F58,KANGXI RADICAL DOUBLE X|}$2",
+        ],
+        "description": [
+            "Code: U+2F58",
+            "Character/Symbol: ⽘",
+            "Name: KANGXI RADICAL DOUBLE X",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽙ U+2F59 KANGXI RADICAL HALF TREE TRUNK": 
+    {
+        "prefix": [
+            "..U.2F59",
+            "..U.KANGXI RADICAL HALF TREE TRUNK",
+            "U+2F59",
+        ],
+        "body": [
+            "${1|⽙,&#x2F59;,U+2F59,0x2F59,KANGXI RADICAL HALF TREE TRUNK|}$2",
+        ],
+        "description": [
+            "Code: U+2F59",
+            "Character/Symbol: ⽙",
+            "Name: KANGXI RADICAL HALF TREE TRUNK",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽚ U+2F5A KANGXI RADICAL SLICE": 
+    {
+        "prefix": [
+            "..U.2F5A",
+            "..U.KANGXI RADICAL SLICE",
+            "U+2F5A",
+        ],
+        "body": [
+            "${1|⽚,&#x2F5A;,U+2F5A,0x2F5A,KANGXI RADICAL SLICE|}$2",
+        ],
+        "description": [
+            "Code: U+2F5A",
+            "Character/Symbol: ⽚",
+            "Name: KANGXI RADICAL SLICE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽛ U+2F5B KANGXI RADICAL FANG": 
+    {
+        "prefix": [
+            "..U.2F5B",
+            "..U.KANGXI RADICAL FANG",
+            "U+2F5B",
+        ],
+        "body": [
+            "${1|⽛,&#x2F5B;,U+2F5B,0x2F5B,KANGXI RADICAL FANG|}$2",
+        ],
+        "description": [
+            "Code: U+2F5B",
+            "Character/Symbol: ⽛",
+            "Name: KANGXI RADICAL FANG",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽜ U+2F5C KANGXI RADICAL COW": 
+    {
+        "prefix": [
+            "..U.2F5C",
+            "..U.KANGXI RADICAL COW",
+            "U+2F5C",
+        ],
+        "body": [
+            "${1|⽜,&#x2F5C;,U+2F5C,0x2F5C,KANGXI RADICAL COW|}$2",
+        ],
+        "description": [
+            "Code: U+2F5C",
+            "Character/Symbol: ⽜",
+            "Name: KANGXI RADICAL COW",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽝ U+2F5D KANGXI RADICAL DOG": 
+    {
+        "prefix": [
+            "..U.2F5D",
+            "..U.KANGXI RADICAL DOG",
+            "U+2F5D",
+        ],
+        "body": [
+            "${1|⽝,&#x2F5D;,U+2F5D,0x2F5D,KANGXI RADICAL DOG|}$2",
+        ],
+        "description": [
+            "Code: U+2F5D",
+            "Character/Symbol: ⽝",
+            "Name: KANGXI RADICAL DOG",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽞ U+2F5E KANGXI RADICAL PROFOUND": 
+    {
+        "prefix": [
+            "..U.2F5E",
+            "..U.KANGXI RADICAL PROFOUND",
+            "U+2F5E",
+        ],
+        "body": [
+            "${1|⽞,&#x2F5E;,U+2F5E,0x2F5E,KANGXI RADICAL PROFOUND|}$2",
+        ],
+        "description": [
+            "Code: U+2F5E",
+            "Character/Symbol: ⽞",
+            "Name: KANGXI RADICAL PROFOUND",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽟ U+2F5F KANGXI RADICAL JADE": 
+    {
+        "prefix": [
+            "..U.2F5F",
+            "..U.KANGXI RADICAL JADE",
+            "U+2F5F",
+        ],
+        "body": [
+            "${1|⽟,&#x2F5F;,U+2F5F,0x2F5F,KANGXI RADICAL JADE|}$2",
+        ],
+        "description": [
+            "Code: U+2F5F",
+            "Character/Symbol: ⽟",
+            "Name: KANGXI RADICAL JADE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽠ U+2F60 KANGXI RADICAL MELON": 
+    {
+        "prefix": [
+            "..U.2F60",
+            "..U.KANGXI RADICAL MELON",
+            "U+2F60",
+        ],
+        "body": [
+            "${1|⽠,&#x2F60;,U+2F60,0x2F60,KANGXI RADICAL MELON|}$2",
+        ],
+        "description": [
+            "Code: U+2F60",
+            "Character/Symbol: ⽠",
+            "Name: KANGXI RADICAL MELON",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽡ U+2F61 KANGXI RADICAL TILE": 
+    {
+        "prefix": [
+            "..U.2F61",
+            "..U.KANGXI RADICAL TILE",
+            "U+2F61",
+        ],
+        "body": [
+            "${1|⽡,&#x2F61;,U+2F61,0x2F61,KANGXI RADICAL TILE|}$2",
+        ],
+        "description": [
+            "Code: U+2F61",
+            "Character/Symbol: ⽡",
+            "Name: KANGXI RADICAL TILE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽢ U+2F62 KANGXI RADICAL SWEET": 
+    {
+        "prefix": [
+            "..U.2F62",
+            "..U.KANGXI RADICAL SWEET",
+            "U+2F62",
+        ],
+        "body": [
+            "${1|⽢,&#x2F62;,U+2F62,0x2F62,KANGXI RADICAL SWEET|}$2",
+        ],
+        "description": [
+            "Code: U+2F62",
+            "Character/Symbol: ⽢",
+            "Name: KANGXI RADICAL SWEET",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽣ U+2F63 KANGXI RADICAL LIFE": 
+    {
+        "prefix": [
+            "..U.2F63",
+            "..U.KANGXI RADICAL LIFE",
+            "U+2F63",
+        ],
+        "body": [
+            "${1|⽣,&#x2F63;,U+2F63,0x2F63,KANGXI RADICAL LIFE|}$2",
+        ],
+        "description": [
+            "Code: U+2F63",
+            "Character/Symbol: ⽣",
+            "Name: KANGXI RADICAL LIFE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽤ U+2F64 KANGXI RADICAL USE": 
+    {
+        "prefix": [
+            "..U.2F64",
+            "..U.KANGXI RADICAL USE",
+            "U+2F64",
+        ],
+        "body": [
+            "${1|⽤,&#x2F64;,U+2F64,0x2F64,KANGXI RADICAL USE|}$2",
+        ],
+        "description": [
+            "Code: U+2F64",
+            "Character/Symbol: ⽤",
+            "Name: KANGXI RADICAL USE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽥ U+2F65 KANGXI RADICAL FIELD": 
+    {
+        "prefix": [
+            "..U.2F65",
+            "..U.KANGXI RADICAL FIELD",
+            "U+2F65",
+        ],
+        "body": [
+            "${1|⽥,&#x2F65;,U+2F65,0x2F65,KANGXI RADICAL FIELD|}$2",
+        ],
+        "description": [
+            "Code: U+2F65",
+            "Character/Symbol: ⽥",
+            "Name: KANGXI RADICAL FIELD",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽦ U+2F66 KANGXI RADICAL BOLT OF CLOTH": 
+    {
+        "prefix": [
+            "..U.2F66",
+            "..U.KANGXI RADICAL BOLT OF CLOTH",
+            "U+2F66",
+        ],
+        "body": [
+            "${1|⽦,&#x2F66;,U+2F66,0x2F66,KANGXI RADICAL BOLT OF CLOTH|}$2",
+        ],
+        "description": [
+            "Code: U+2F66",
+            "Character/Symbol: ⽦",
+            "Name: KANGXI RADICAL BOLT OF CLOTH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽧ U+2F67 KANGXI RADICAL SICKNESS": 
+    {
+        "prefix": [
+            "..U.2F67",
+            "..U.KANGXI RADICAL SICKNESS",
+            "U+2F67",
+        ],
+        "body": [
+            "${1|⽧,&#x2F67;,U+2F67,0x2F67,KANGXI RADICAL SICKNESS|}$2",
+        ],
+        "description": [
+            "Code: U+2F67",
+            "Character/Symbol: ⽧",
+            "Name: KANGXI RADICAL SICKNESS",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽨ U+2F68 KANGXI RADICAL DOTTED TENT": 
+    {
+        "prefix": [
+            "..U.2F68",
+            "..U.KANGXI RADICAL DOTTED TENT",
+            "U+2F68",
+        ],
+        "body": [
+            "${1|⽨,&#x2F68;,U+2F68,0x2F68,KANGXI RADICAL DOTTED TENT|}$2",
+        ],
+        "description": [
+            "Code: U+2F68",
+            "Character/Symbol: ⽨",
+            "Name: KANGXI RADICAL DOTTED TENT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽩ U+2F69 KANGXI RADICAL WHITE": 
+    {
+        "prefix": [
+            "..U.2F69",
+            "..U.KANGXI RADICAL WHITE",
+            "U+2F69",
+        ],
+        "body": [
+            "${1|⽩,&#x2F69;,U+2F69,0x2F69,KANGXI RADICAL WHITE|}$2",
+        ],
+        "description": [
+            "Code: U+2F69",
+            "Character/Symbol: ⽩",
+            "Name: KANGXI RADICAL WHITE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽪ U+2F6A KANGXI RADICAL SKIN": 
+    {
+        "prefix": [
+            "..U.2F6A",
+            "..U.KANGXI RADICAL SKIN",
+            "U+2F6A",
+        ],
+        "body": [
+            "${1|⽪,&#x2F6A;,U+2F6A,0x2F6A,KANGXI RADICAL SKIN|}$2",
+        ],
+        "description": [
+            "Code: U+2F6A",
+            "Character/Symbol: ⽪",
+            "Name: KANGXI RADICAL SKIN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽫ U+2F6B KANGXI RADICAL DISH": 
+    {
+        "prefix": [
+            "..U.2F6B",
+            "..U.KANGXI RADICAL DISH",
+            "U+2F6B",
+        ],
+        "body": [
+            "${1|⽫,&#x2F6B;,U+2F6B,0x2F6B,KANGXI RADICAL DISH|}$2",
+        ],
+        "description": [
+            "Code: U+2F6B",
+            "Character/Symbol: ⽫",
+            "Name: KANGXI RADICAL DISH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽬ U+2F6C KANGXI RADICAL EYE": 
+    {
+        "prefix": [
+            "..U.2F6C",
+            "..U.KANGXI RADICAL EYE",
+            "U+2F6C",
+        ],
+        "body": [
+            "${1|⽬,&#x2F6C;,U+2F6C,0x2F6C,KANGXI RADICAL EYE|}$2",
+        ],
+        "description": [
+            "Code: U+2F6C",
+            "Character/Symbol: ⽬",
+            "Name: KANGXI RADICAL EYE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽭ U+2F6D KANGXI RADICAL SPEAR": 
+    {
+        "prefix": [
+            "..U.2F6D",
+            "..U.KANGXI RADICAL SPEAR",
+            "U+2F6D",
+        ],
+        "body": [
+            "${1|⽭,&#x2F6D;,U+2F6D,0x2F6D,KANGXI RADICAL SPEAR|}$2",
+        ],
+        "description": [
+            "Code: U+2F6D",
+            "Character/Symbol: ⽭",
+            "Name: KANGXI RADICAL SPEAR",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽮ U+2F6E KANGXI RADICAL ARROW": 
+    {
+        "prefix": [
+            "..U.2F6E",
+            "..U.KANGXI RADICAL ARROW",
+            "U+2F6E",
+        ],
+        "body": [
+            "${1|⽮,&#x2F6E;,U+2F6E,0x2F6E,KANGXI RADICAL ARROW|}$2",
+        ],
+        "description": [
+            "Code: U+2F6E",
+            "Character/Symbol: ⽮",
+            "Name: KANGXI RADICAL ARROW",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽯ U+2F6F KANGXI RADICAL STONE": 
+    {
+        "prefix": [
+            "..U.2F6F",
+            "..U.KANGXI RADICAL STONE",
+            "U+2F6F",
+        ],
+        "body": [
+            "${1|⽯,&#x2F6F;,U+2F6F,0x2F6F,KANGXI RADICAL STONE|}$2",
+        ],
+        "description": [
+            "Code: U+2F6F",
+            "Character/Symbol: ⽯",
+            "Name: KANGXI RADICAL STONE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽰ U+2F70 KANGXI RADICAL SPIRIT": 
+    {
+        "prefix": [
+            "..U.2F70",
+            "..U.KANGXI RADICAL SPIRIT",
+            "U+2F70",
+        ],
+        "body": [
+            "${1|⽰,&#x2F70;,U+2F70,0x2F70,KANGXI RADICAL SPIRIT|}$2",
+        ],
+        "description": [
+            "Code: U+2F70",
+            "Character/Symbol: ⽰",
+            "Name: KANGXI RADICAL SPIRIT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽱ U+2F71 KANGXI RADICAL TRACK": 
+    {
+        "prefix": [
+            "..U.2F71",
+            "..U.KANGXI RADICAL TRACK",
+            "U+2F71",
+        ],
+        "body": [
+            "${1|⽱,&#x2F71;,U+2F71,0x2F71,KANGXI RADICAL TRACK|}$2",
+        ],
+        "description": [
+            "Code: U+2F71",
+            "Character/Symbol: ⽱",
+            "Name: KANGXI RADICAL TRACK",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽲ U+2F72 KANGXI RADICAL GRAIN": 
+    {
+        "prefix": [
+            "..U.2F72",
+            "..U.KANGXI RADICAL GRAIN",
+            "U+2F72",
+        ],
+        "body": [
+            "${1|⽲,&#x2F72;,U+2F72,0x2F72,KANGXI RADICAL GRAIN|}$2",
+        ],
+        "description": [
+            "Code: U+2F72",
+            "Character/Symbol: ⽲",
+            "Name: KANGXI RADICAL GRAIN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽳ U+2F73 KANGXI RADICAL CAVE": 
+    {
+        "prefix": [
+            "..U.2F73",
+            "..U.KANGXI RADICAL CAVE",
+            "U+2F73",
+        ],
+        "body": [
+            "${1|⽳,&#x2F73;,U+2F73,0x2F73,KANGXI RADICAL CAVE|}$2",
+        ],
+        "description": [
+            "Code: U+2F73",
+            "Character/Symbol: ⽳",
+            "Name: KANGXI RADICAL CAVE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽴ U+2F74 KANGXI RADICAL STAND": 
+    {
+        "prefix": [
+            "..U.2F74",
+            "..U.KANGXI RADICAL STAND",
+            "U+2F74",
+        ],
+        "body": [
+            "${1|⽴,&#x2F74;,U+2F74,0x2F74,KANGXI RADICAL STAND|}$2",
+        ],
+        "description": [
+            "Code: U+2F74",
+            "Character/Symbol: ⽴",
+            "Name: KANGXI RADICAL STAND",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽵ U+2F75 KANGXI RADICAL BAMBOO": 
+    {
+        "prefix": [
+            "..U.2F75",
+            "..U.KANGXI RADICAL BAMBOO",
+            "U+2F75",
+        ],
+        "body": [
+            "${1|⽵,&#x2F75;,U+2F75,0x2F75,KANGXI RADICAL BAMBOO|}$2",
+        ],
+        "description": [
+            "Code: U+2F75",
+            "Character/Symbol: ⽵",
+            "Name: KANGXI RADICAL BAMBOO",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽶ U+2F76 KANGXI RADICAL RICE": 
+    {
+        "prefix": [
+            "..U.2F76",
+            "..U.KANGXI RADICAL RICE",
+            "U+2F76",
+        ],
+        "body": [
+            "${1|⽶,&#x2F76;,U+2F76,0x2F76,KANGXI RADICAL RICE|}$2",
+        ],
+        "description": [
+            "Code: U+2F76",
+            "Character/Symbol: ⽶",
+            "Name: KANGXI RADICAL RICE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽷ U+2F77 KANGXI RADICAL SILK": 
+    {
+        "prefix": [
+            "..U.2F77",
+            "..U.KANGXI RADICAL SILK",
+            "U+2F77",
+        ],
+        "body": [
+            "${1|⽷,&#x2F77;,U+2F77,0x2F77,KANGXI RADICAL SILK|}$2",
+        ],
+        "description": [
+            "Code: U+2F77",
+            "Character/Symbol: ⽷",
+            "Name: KANGXI RADICAL SILK",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽸ U+2F78 KANGXI RADICAL JAR": 
+    {
+        "prefix": [
+            "..U.2F78",
+            "..U.KANGXI RADICAL JAR",
+            "U+2F78",
+        ],
+        "body": [
+            "${1|⽸,&#x2F78;,U+2F78,0x2F78,KANGXI RADICAL JAR|}$2",
+        ],
+        "description": [
+            "Code: U+2F78",
+            "Character/Symbol: ⽸",
+            "Name: KANGXI RADICAL JAR",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽹ U+2F79 KANGXI RADICAL NET": 
+    {
+        "prefix": [
+            "..U.2F79",
+            "..U.KANGXI RADICAL NET",
+            "U+2F79",
+        ],
+        "body": [
+            "${1|⽹,&#x2F79;,U+2F79,0x2F79,KANGXI RADICAL NET|}$2",
+        ],
+        "description": [
+            "Code: U+2F79",
+            "Character/Symbol: ⽹",
+            "Name: KANGXI RADICAL NET",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽺ U+2F7A KANGXI RADICAL SHEEP": 
+    {
+        "prefix": [
+            "..U.2F7A",
+            "..U.KANGXI RADICAL SHEEP",
+            "U+2F7A",
+        ],
+        "body": [
+            "${1|⽺,&#x2F7A;,U+2F7A,0x2F7A,KANGXI RADICAL SHEEP|}$2",
+        ],
+        "description": [
+            "Code: U+2F7A",
+            "Character/Symbol: ⽺",
+            "Name: KANGXI RADICAL SHEEP",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽻ U+2F7B KANGXI RADICAL FEATHER": 
+    {
+        "prefix": [
+            "..U.2F7B",
+            "..U.KANGXI RADICAL FEATHER",
+            "U+2F7B",
+        ],
+        "body": [
+            "${1|⽻,&#x2F7B;,U+2F7B,0x2F7B,KANGXI RADICAL FEATHER|}$2",
+        ],
+        "description": [
+            "Code: U+2F7B",
+            "Character/Symbol: ⽻",
+            "Name: KANGXI RADICAL FEATHER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽼ U+2F7C KANGXI RADICAL OLD": 
+    {
+        "prefix": [
+            "..U.2F7C",
+            "..U.KANGXI RADICAL OLD",
+            "U+2F7C",
+        ],
+        "body": [
+            "${1|⽼,&#x2F7C;,U+2F7C,0x2F7C,KANGXI RADICAL OLD|}$2",
+        ],
+        "description": [
+            "Code: U+2F7C",
+            "Character/Symbol: ⽼",
+            "Name: KANGXI RADICAL OLD",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽽ U+2F7D KANGXI RADICAL AND": 
+    {
+        "prefix": [
+            "..U.2F7D",
+            "..U.KANGXI RADICAL AND",
+            "U+2F7D",
+        ],
+        "body": [
+            "${1|⽽,&#x2F7D;,U+2F7D,0x2F7D,KANGXI RADICAL AND|}$2",
+        ],
+        "description": [
+            "Code: U+2F7D",
+            "Character/Symbol: ⽽",
+            "Name: KANGXI RADICAL AND",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽾ U+2F7E KANGXI RADICAL PLOW": 
+    {
+        "prefix": [
+            "..U.2F7E",
+            "..U.KANGXI RADICAL PLOW",
+            "U+2F7E",
+        ],
+        "body": [
+            "${1|⽾,&#x2F7E;,U+2F7E,0x2F7E,KANGXI RADICAL PLOW|}$2",
+        ],
+        "description": [
+            "Code: U+2F7E",
+            "Character/Symbol: ⽾",
+            "Name: KANGXI RADICAL PLOW",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⽿ U+2F7F KANGXI RADICAL EAR": 
+    {
+        "prefix": [
+            "..U.2F7F",
+            "..U.KANGXI RADICAL EAR",
+            "U+2F7F",
+        ],
+        "body": [
+            "${1|⽿,&#x2F7F;,U+2F7F,0x2F7F,KANGXI RADICAL EAR|}$2",
+        ],
+        "description": [
+            "Code: U+2F7F",
+            "Character/Symbol: ⽿",
+            "Name: KANGXI RADICAL EAR",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾀ U+2F80 KANGXI RADICAL BRUSH": 
+    {
+        "prefix": [
+            "..U.2F80",
+            "..U.KANGXI RADICAL BRUSH",
+            "U+2F80",
+        ],
+        "body": [
+            "${1|⾀,&#x2F80;,U+2F80,0x2F80,KANGXI RADICAL BRUSH|}$2",
+        ],
+        "description": [
+            "Code: U+2F80",
+            "Character/Symbol: ⾀",
+            "Name: KANGXI RADICAL BRUSH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾁ U+2F81 KANGXI RADICAL MEAT": 
+    {
+        "prefix": [
+            "..U.2F81",
+            "..U.KANGXI RADICAL MEAT",
+            "U+2F81",
+        ],
+        "body": [
+            "${1|⾁,&#x2F81;,U+2F81,0x2F81,KANGXI RADICAL MEAT|}$2",
+        ],
+        "description": [
+            "Code: U+2F81",
+            "Character/Symbol: ⾁",
+            "Name: KANGXI RADICAL MEAT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾂ U+2F82 KANGXI RADICAL MINISTER": 
+    {
+        "prefix": [
+            "..U.2F82",
+            "..U.KANGXI RADICAL MINISTER",
+            "U+2F82",
+        ],
+        "body": [
+            "${1|⾂,&#x2F82;,U+2F82,0x2F82,KANGXI RADICAL MINISTER|}$2",
+        ],
+        "description": [
+            "Code: U+2F82",
+            "Character/Symbol: ⾂",
+            "Name: KANGXI RADICAL MINISTER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾃ U+2F83 KANGXI RADICAL SELF": 
+    {
+        "prefix": [
+            "..U.2F83",
+            "..U.KANGXI RADICAL SELF",
+            "U+2F83",
+        ],
+        "body": [
+            "${1|⾃,&#x2F83;,U+2F83,0x2F83,KANGXI RADICAL SELF|}$2",
+        ],
+        "description": [
+            "Code: U+2F83",
+            "Character/Symbol: ⾃",
+            "Name: KANGXI RADICAL SELF",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾄ U+2F84 KANGXI RADICAL ARRIVE": 
+    {
+        "prefix": [
+            "..U.2F84",
+            "..U.KANGXI RADICAL ARRIVE",
+            "U+2F84",
+        ],
+        "body": [
+            "${1|⾄,&#x2F84;,U+2F84,0x2F84,KANGXI RADICAL ARRIVE|}$2",
+        ],
+        "description": [
+            "Code: U+2F84",
+            "Character/Symbol: ⾄",
+            "Name: KANGXI RADICAL ARRIVE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾅ U+2F85 KANGXI RADICAL MORTAR": 
+    {
+        "prefix": [
+            "..U.2F85",
+            "..U.KANGXI RADICAL MORTAR",
+            "U+2F85",
+        ],
+        "body": [
+            "${1|⾅,&#x2F85;,U+2F85,0x2F85,KANGXI RADICAL MORTAR|}$2",
+        ],
+        "description": [
+            "Code: U+2F85",
+            "Character/Symbol: ⾅",
+            "Name: KANGXI RADICAL MORTAR",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾆ U+2F86 KANGXI RADICAL TONGUE": 
+    {
+        "prefix": [
+            "..U.2F86",
+            "..U.KANGXI RADICAL TONGUE",
+            "U+2F86",
+        ],
+        "body": [
+            "${1|⾆,&#x2F86;,U+2F86,0x2F86,KANGXI RADICAL TONGUE|}$2",
+        ],
+        "description": [
+            "Code: U+2F86",
+            "Character/Symbol: ⾆",
+            "Name: KANGXI RADICAL TONGUE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾇ U+2F87 KANGXI RADICAL OPPOSE": 
+    {
+        "prefix": [
+            "..U.2F87",
+            "..U.KANGXI RADICAL OPPOSE",
+            "U+2F87",
+        ],
+        "body": [
+            "${1|⾇,&#x2F87;,U+2F87,0x2F87,KANGXI RADICAL OPPOSE|}$2",
+        ],
+        "description": [
+            "Code: U+2F87",
+            "Character/Symbol: ⾇",
+            "Name: KANGXI RADICAL OPPOSE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾈ U+2F88 KANGXI RADICAL BOAT": 
+    {
+        "prefix": [
+            "..U.2F88",
+            "..U.KANGXI RADICAL BOAT",
+            "U+2F88",
+        ],
+        "body": [
+            "${1|⾈,&#x2F88;,U+2F88,0x2F88,KANGXI RADICAL BOAT|}$2",
+        ],
+        "description": [
+            "Code: U+2F88",
+            "Character/Symbol: ⾈",
+            "Name: KANGXI RADICAL BOAT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾉ U+2F89 KANGXI RADICAL STOPPING": 
+    {
+        "prefix": [
+            "..U.2F89",
+            "..U.KANGXI RADICAL STOPPING",
+            "U+2F89",
+        ],
+        "body": [
+            "${1|⾉,&#x2F89;,U+2F89,0x2F89,KANGXI RADICAL STOPPING|}$2",
+        ],
+        "description": [
+            "Code: U+2F89",
+            "Character/Symbol: ⾉",
+            "Name: KANGXI RADICAL STOPPING",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾊ U+2F8A KANGXI RADICAL COLOR": 
+    {
+        "prefix": [
+            "..U.2F8A",
+            "..U.KANGXI RADICAL COLOR",
+            "U+2F8A",
+        ],
+        "body": [
+            "${1|⾊,&#x2F8A;,U+2F8A,0x2F8A,KANGXI RADICAL COLOR|}$2",
+        ],
+        "description": [
+            "Code: U+2F8A",
+            "Character/Symbol: ⾊",
+            "Name: KANGXI RADICAL COLOR",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾋ U+2F8B KANGXI RADICAL GRASS": 
+    {
+        "prefix": [
+            "..U.2F8B",
+            "..U.KANGXI RADICAL GRASS",
+            "U+2F8B",
+        ],
+        "body": [
+            "${1|⾋,&#x2F8B;,U+2F8B,0x2F8B,KANGXI RADICAL GRASS|}$2",
+        ],
+        "description": [
+            "Code: U+2F8B",
+            "Character/Symbol: ⾋",
+            "Name: KANGXI RADICAL GRASS",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾌ U+2F8C KANGXI RADICAL TIGER": 
+    {
+        "prefix": [
+            "..U.2F8C",
+            "..U.KANGXI RADICAL TIGER",
+            "U+2F8C",
+        ],
+        "body": [
+            "${1|⾌,&#x2F8C;,U+2F8C,0x2F8C,KANGXI RADICAL TIGER|}$2",
+        ],
+        "description": [
+            "Code: U+2F8C",
+            "Character/Symbol: ⾌",
+            "Name: KANGXI RADICAL TIGER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾍ U+2F8D KANGXI RADICAL INSECT": 
+    {
+        "prefix": [
+            "..U.2F8D",
+            "..U.KANGXI RADICAL INSECT",
+            "U+2F8D",
+        ],
+        "body": [
+            "${1|⾍,&#x2F8D;,U+2F8D,0x2F8D,KANGXI RADICAL INSECT|}$2",
+        ],
+        "description": [
+            "Code: U+2F8D",
+            "Character/Symbol: ⾍",
+            "Name: KANGXI RADICAL INSECT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾎ U+2F8E KANGXI RADICAL BLOOD": 
+    {
+        "prefix": [
+            "..U.2F8E",
+            "..U.KANGXI RADICAL BLOOD",
+            "U+2F8E",
+        ],
+        "body": [
+            "${1|⾎,&#x2F8E;,U+2F8E,0x2F8E,KANGXI RADICAL BLOOD|}$2",
+        ],
+        "description": [
+            "Code: U+2F8E",
+            "Character/Symbol: ⾎",
+            "Name: KANGXI RADICAL BLOOD",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾏ U+2F8F KANGXI RADICAL WALK ENCLOSURE": 
+    {
+        "prefix": [
+            "..U.2F8F",
+            "..U.KANGXI RADICAL WALK ENCLOSURE",
+            "U+2F8F",
+        ],
+        "body": [
+            "${1|⾏,&#x2F8F;,U+2F8F,0x2F8F,KANGXI RADICAL WALK ENCLOSURE|}$2",
+        ],
+        "description": [
+            "Code: U+2F8F",
+            "Character/Symbol: ⾏",
+            "Name: KANGXI RADICAL WALK ENCLOSURE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾐ U+2F90 KANGXI RADICAL CLOTHES": 
+    {
+        "prefix": [
+            "..U.2F90",
+            "..U.KANGXI RADICAL CLOTHES",
+            "U+2F90",
+        ],
+        "body": [
+            "${1|⾐,&#x2F90;,U+2F90,0x2F90,KANGXI RADICAL CLOTHES|}$2",
+        ],
+        "description": [
+            "Code: U+2F90",
+            "Character/Symbol: ⾐",
+            "Name: KANGXI RADICAL CLOTHES",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾑ U+2F91 KANGXI RADICAL WEST": 
+    {
+        "prefix": [
+            "..U.2F91",
+            "..U.KANGXI RADICAL WEST",
+            "U+2F91",
+        ],
+        "body": [
+            "${1|⾑,&#x2F91;,U+2F91,0x2F91,KANGXI RADICAL WEST|}$2",
+        ],
+        "description": [
+            "Code: U+2F91",
+            "Character/Symbol: ⾑",
+            "Name: KANGXI RADICAL WEST",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾒ U+2F92 KANGXI RADICAL SEE": 
+    {
+        "prefix": [
+            "..U.2F92",
+            "..U.KANGXI RADICAL SEE",
+            "U+2F92",
+        ],
+        "body": [
+            "${1|⾒,&#x2F92;,U+2F92,0x2F92,KANGXI RADICAL SEE|}$2",
+        ],
+        "description": [
+            "Code: U+2F92",
+            "Character/Symbol: ⾒",
+            "Name: KANGXI RADICAL SEE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾓ U+2F93 KANGXI RADICAL HORN": 
+    {
+        "prefix": [
+            "..U.2F93",
+            "..U.KANGXI RADICAL HORN",
+            "U+2F93",
+        ],
+        "body": [
+            "${1|⾓,&#x2F93;,U+2F93,0x2F93,KANGXI RADICAL HORN|}$2",
+        ],
+        "description": [
+            "Code: U+2F93",
+            "Character/Symbol: ⾓",
+            "Name: KANGXI RADICAL HORN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾔ U+2F94 KANGXI RADICAL SPEECH": 
+    {
+        "prefix": [
+            "..U.2F94",
+            "..U.KANGXI RADICAL SPEECH",
+            "U+2F94",
+        ],
+        "body": [
+            "${1|⾔,&#x2F94;,U+2F94,0x2F94,KANGXI RADICAL SPEECH|}$2",
+        ],
+        "description": [
+            "Code: U+2F94",
+            "Character/Symbol: ⾔",
+            "Name: KANGXI RADICAL SPEECH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾕ U+2F95 KANGXI RADICAL VALLEY": 
+    {
+        "prefix": [
+            "..U.2F95",
+            "..U.KANGXI RADICAL VALLEY",
+            "U+2F95",
+        ],
+        "body": [
+            "${1|⾕,&#x2F95;,U+2F95,0x2F95,KANGXI RADICAL VALLEY|}$2",
+        ],
+        "description": [
+            "Code: U+2F95",
+            "Character/Symbol: ⾕",
+            "Name: KANGXI RADICAL VALLEY",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾖ U+2F96 KANGXI RADICAL BEAN": 
+    {
+        "prefix": [
+            "..U.2F96",
+            "..U.KANGXI RADICAL BEAN",
+            "U+2F96",
+        ],
+        "body": [
+            "${1|⾖,&#x2F96;,U+2F96,0x2F96,KANGXI RADICAL BEAN|}$2",
+        ],
+        "description": [
+            "Code: U+2F96",
+            "Character/Symbol: ⾖",
+            "Name: KANGXI RADICAL BEAN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾗ U+2F97 KANGXI RADICAL PIG": 
+    {
+        "prefix": [
+            "..U.2F97",
+            "..U.KANGXI RADICAL PIG",
+            "U+2F97",
+        ],
+        "body": [
+            "${1|⾗,&#x2F97;,U+2F97,0x2F97,KANGXI RADICAL PIG|}$2",
+        ],
+        "description": [
+            "Code: U+2F97",
+            "Character/Symbol: ⾗",
+            "Name: KANGXI RADICAL PIG",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾘ U+2F98 KANGXI RADICAL BADGER": 
+    {
+        "prefix": [
+            "..U.2F98",
+            "..U.KANGXI RADICAL BADGER",
+            "U+2F98",
+        ],
+        "body": [
+            "${1|⾘,&#x2F98;,U+2F98,0x2F98,KANGXI RADICAL BADGER|}$2",
+        ],
+        "description": [
+            "Code: U+2F98",
+            "Character/Symbol: ⾘",
+            "Name: KANGXI RADICAL BADGER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾙ U+2F99 KANGXI RADICAL SHELL": 
+    {
+        "prefix": [
+            "..U.2F99",
+            "..U.KANGXI RADICAL SHELL",
+            "U+2F99",
+        ],
+        "body": [
+            "${1|⾙,&#x2F99;,U+2F99,0x2F99,KANGXI RADICAL SHELL|}$2",
+        ],
+        "description": [
+            "Code: U+2F99",
+            "Character/Symbol: ⾙",
+            "Name: KANGXI RADICAL SHELL",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾚ U+2F9A KANGXI RADICAL RED": 
+    {
+        "prefix": [
+            "..U.2F9A",
+            "..U.KANGXI RADICAL RED",
+            "U+2F9A",
+        ],
+        "body": [
+            "${1|⾚,&#x2F9A;,U+2F9A,0x2F9A,KANGXI RADICAL RED|}$2",
+        ],
+        "description": [
+            "Code: U+2F9A",
+            "Character/Symbol: ⾚",
+            "Name: KANGXI RADICAL RED",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾛ U+2F9B KANGXI RADICAL RUN": 
+    {
+        "prefix": [
+            "..U.2F9B",
+            "..U.KANGXI RADICAL RUN",
+            "U+2F9B",
+        ],
+        "body": [
+            "${1|⾛,&#x2F9B;,U+2F9B,0x2F9B,KANGXI RADICAL RUN|}$2",
+        ],
+        "description": [
+            "Code: U+2F9B",
+            "Character/Symbol: ⾛",
+            "Name: KANGXI RADICAL RUN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾜ U+2F9C KANGXI RADICAL FOOT": 
+    {
+        "prefix": [
+            "..U.2F9C",
+            "..U.KANGXI RADICAL FOOT",
+            "U+2F9C",
+        ],
+        "body": [
+            "${1|⾜,&#x2F9C;,U+2F9C,0x2F9C,KANGXI RADICAL FOOT|}$2",
+        ],
+        "description": [
+            "Code: U+2F9C",
+            "Character/Symbol: ⾜",
+            "Name: KANGXI RADICAL FOOT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾝ U+2F9D KANGXI RADICAL BODY": 
+    {
+        "prefix": [
+            "..U.2F9D",
+            "..U.KANGXI RADICAL BODY",
+            "U+2F9D",
+        ],
+        "body": [
+            "${1|⾝,&#x2F9D;,U+2F9D,0x2F9D,KANGXI RADICAL BODY|}$2",
+        ],
+        "description": [
+            "Code: U+2F9D",
+            "Character/Symbol: ⾝",
+            "Name: KANGXI RADICAL BODY",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾞ U+2F9E KANGXI RADICAL CART": 
+    {
+        "prefix": [
+            "..U.2F9E",
+            "..U.KANGXI RADICAL CART",
+            "U+2F9E",
+        ],
+        "body": [
+            "${1|⾞,&#x2F9E;,U+2F9E,0x2F9E,KANGXI RADICAL CART|}$2",
+        ],
+        "description": [
+            "Code: U+2F9E",
+            "Character/Symbol: ⾞",
+            "Name: KANGXI RADICAL CART",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾟ U+2F9F KANGXI RADICAL BITTER": 
+    {
+        "prefix": [
+            "..U.2F9F",
+            "..U.KANGXI RADICAL BITTER",
+            "U+2F9F",
+        ],
+        "body": [
+            "${1|⾟,&#x2F9F;,U+2F9F,0x2F9F,KANGXI RADICAL BITTER|}$2",
+        ],
+        "description": [
+            "Code: U+2F9F",
+            "Character/Symbol: ⾟",
+            "Name: KANGXI RADICAL BITTER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾠ U+2FA0 KANGXI RADICAL MORNING": 
+    {
+        "prefix": [
+            "..U.2FA0",
+            "..U.KANGXI RADICAL MORNING",
+            "U+2FA0",
+        ],
+        "body": [
+            "${1|⾠,&#x2FA0;,U+2FA0,0x2FA0,KANGXI RADICAL MORNING|}$2",
+        ],
+        "description": [
+            "Code: U+2FA0",
+            "Character/Symbol: ⾠",
+            "Name: KANGXI RADICAL MORNING",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾡ U+2FA1 KANGXI RADICAL WALK": 
+    {
+        "prefix": [
+            "..U.2FA1",
+            "..U.KANGXI RADICAL WALK",
+            "U+2FA1",
+        ],
+        "body": [
+            "${1|⾡,&#x2FA1;,U+2FA1,0x2FA1,KANGXI RADICAL WALK|}$2",
+        ],
+        "description": [
+            "Code: U+2FA1",
+            "Character/Symbol: ⾡",
+            "Name: KANGXI RADICAL WALK",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾢ U+2FA2 KANGXI RADICAL CITY": 
+    {
+        "prefix": [
+            "..U.2FA2",
+            "..U.KANGXI RADICAL CITY",
+            "U+2FA2",
+        ],
+        "body": [
+            "${1|⾢,&#x2FA2;,U+2FA2,0x2FA2,KANGXI RADICAL CITY|}$2",
+        ],
+        "description": [
+            "Code: U+2FA2",
+            "Character/Symbol: ⾢",
+            "Name: KANGXI RADICAL CITY",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾣ U+2FA3 KANGXI RADICAL WINE": 
+    {
+        "prefix": [
+            "..U.2FA3",
+            "..U.KANGXI RADICAL WINE",
+            "U+2FA3",
+        ],
+        "body": [
+            "${1|⾣,&#x2FA3;,U+2FA3,0x2FA3,KANGXI RADICAL WINE|}$2",
+        ],
+        "description": [
+            "Code: U+2FA3",
+            "Character/Symbol: ⾣",
+            "Name: KANGXI RADICAL WINE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾤ U+2FA4 KANGXI RADICAL DISTINGUISH": 
+    {
+        "prefix": [
+            "..U.2FA4",
+            "..U.KANGXI RADICAL DISTINGUISH",
+            "U+2FA4",
+        ],
+        "body": [
+            "${1|⾤,&#x2FA4;,U+2FA4,0x2FA4,KANGXI RADICAL DISTINGUISH|}$2",
+        ],
+        "description": [
+            "Code: U+2FA4",
+            "Character/Symbol: ⾤",
+            "Name: KANGXI RADICAL DISTINGUISH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾥ U+2FA5 KANGXI RADICAL VILLAGE": 
+    {
+        "prefix": [
+            "..U.2FA5",
+            "..U.KANGXI RADICAL VILLAGE",
+            "U+2FA5",
+        ],
+        "body": [
+            "${1|⾥,&#x2FA5;,U+2FA5,0x2FA5,KANGXI RADICAL VILLAGE|}$2",
+        ],
+        "description": [
+            "Code: U+2FA5",
+            "Character/Symbol: ⾥",
+            "Name: KANGXI RADICAL VILLAGE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾦ U+2FA6 KANGXI RADICAL GOLD": 
+    {
+        "prefix": [
+            "..U.2FA6",
+            "..U.KANGXI RADICAL GOLD",
+            "U+2FA6",
+        ],
+        "body": [
+            "${1|⾦,&#x2FA6;,U+2FA6,0x2FA6,KANGXI RADICAL GOLD|}$2",
+        ],
+        "description": [
+            "Code: U+2FA6",
+            "Character/Symbol: ⾦",
+            "Name: KANGXI RADICAL GOLD",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾧ U+2FA7 KANGXI RADICAL LONG": 
+    {
+        "prefix": [
+            "..U.2FA7",
+            "..U.KANGXI RADICAL LONG",
+            "U+2FA7",
+        ],
+        "body": [
+            "${1|⾧,&#x2FA7;,U+2FA7,0x2FA7,KANGXI RADICAL LONG|}$2",
+        ],
+        "description": [
+            "Code: U+2FA7",
+            "Character/Symbol: ⾧",
+            "Name: KANGXI RADICAL LONG",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾨ U+2FA8 KANGXI RADICAL GATE": 
+    {
+        "prefix": [
+            "..U.2FA8",
+            "..U.KANGXI RADICAL GATE",
+            "U+2FA8",
+        ],
+        "body": [
+            "${1|⾨,&#x2FA8;,U+2FA8,0x2FA8,KANGXI RADICAL GATE|}$2",
+        ],
+        "description": [
+            "Code: U+2FA8",
+            "Character/Symbol: ⾨",
+            "Name: KANGXI RADICAL GATE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾩ U+2FA9 KANGXI RADICAL MOUND": 
+    {
+        "prefix": [
+            "..U.2FA9",
+            "..U.KANGXI RADICAL MOUND",
+            "U+2FA9",
+        ],
+        "body": [
+            "${1|⾩,&#x2FA9;,U+2FA9,0x2FA9,KANGXI RADICAL MOUND|}$2",
+        ],
+        "description": [
+            "Code: U+2FA9",
+            "Character/Symbol: ⾩",
+            "Name: KANGXI RADICAL MOUND",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾪ U+2FAA KANGXI RADICAL SLAVE": 
+    {
+        "prefix": [
+            "..U.2FAA",
+            "..U.KANGXI RADICAL SLAVE",
+            "U+2FAA",
+        ],
+        "body": [
+            "${1|⾪,&#x2FAA;,U+2FAA,0x2FAA,KANGXI RADICAL SLAVE|}$2",
+        ],
+        "description": [
+            "Code: U+2FAA",
+            "Character/Symbol: ⾪",
+            "Name: KANGXI RADICAL SLAVE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾫ U+2FAB KANGXI RADICAL SHORT TAILED BIRD": 
+    {
+        "prefix": [
+            "..U.2FAB",
+            "..U.KANGXI RADICAL SHORT TAILED BIRD",
+            "U+2FAB",
+        ],
+        "body": [
+            "${1|⾫,&#x2FAB;,U+2FAB,0x2FAB,KANGXI RADICAL SHORT TAILED BIRD|}$2",
+        ],
+        "description": [
+            "Code: U+2FAB",
+            "Character/Symbol: ⾫",
+            "Name: KANGXI RADICAL SHORT TAILED BIRD",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾬ U+2FAC KANGXI RADICAL RAIN": 
+    {
+        "prefix": [
+            "..U.2FAC",
+            "..U.KANGXI RADICAL RAIN",
+            "U+2FAC",
+        ],
+        "body": [
+            "${1|⾬,&#x2FAC;,U+2FAC,0x2FAC,KANGXI RADICAL RAIN|}$2",
+        ],
+        "description": [
+            "Code: U+2FAC",
+            "Character/Symbol: ⾬",
+            "Name: KANGXI RADICAL RAIN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾭ U+2FAD KANGXI RADICAL BLUE": 
+    {
+        "prefix": [
+            "..U.2FAD",
+            "..U.KANGXI RADICAL BLUE",
+            "U+2FAD",
+        ],
+        "body": [
+            "${1|⾭,&#x2FAD;,U+2FAD,0x2FAD,KANGXI RADICAL BLUE|}$2",
+        ],
+        "description": [
+            "Code: U+2FAD",
+            "Character/Symbol: ⾭",
+            "Name: KANGXI RADICAL BLUE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾮ U+2FAE KANGXI RADICAL WRONG": 
+    {
+        "prefix": [
+            "..U.2FAE",
+            "..U.KANGXI RADICAL WRONG",
+            "U+2FAE",
+        ],
+        "body": [
+            "${1|⾮,&#x2FAE;,U+2FAE,0x2FAE,KANGXI RADICAL WRONG|}$2",
+        ],
+        "description": [
+            "Code: U+2FAE",
+            "Character/Symbol: ⾮",
+            "Name: KANGXI RADICAL WRONG",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾯ U+2FAF KANGXI RADICAL FACE": 
+    {
+        "prefix": [
+            "..U.2FAF",
+            "..U.KANGXI RADICAL FACE",
+            "U+2FAF",
+        ],
+        "body": [
+            "${1|⾯,&#x2FAF;,U+2FAF,0x2FAF,KANGXI RADICAL FACE|}$2",
+        ],
+        "description": [
+            "Code: U+2FAF",
+            "Character/Symbol: ⾯",
+            "Name: KANGXI RADICAL FACE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾰ U+2FB0 KANGXI RADICAL LEATHER": 
+    {
+        "prefix": [
+            "..U.2FB0",
+            "..U.KANGXI RADICAL LEATHER",
+            "U+2FB0",
+        ],
+        "body": [
+            "${1|⾰,&#x2FB0;,U+2FB0,0x2FB0,KANGXI RADICAL LEATHER|}$2",
+        ],
+        "description": [
+            "Code: U+2FB0",
+            "Character/Symbol: ⾰",
+            "Name: KANGXI RADICAL LEATHER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾱ U+2FB1 KANGXI RADICAL TANNED LEATHER": 
+    {
+        "prefix": [
+            "..U.2FB1",
+            "..U.KANGXI RADICAL TANNED LEATHER",
+            "U+2FB1",
+        ],
+        "body": [
+            "${1|⾱,&#x2FB1;,U+2FB1,0x2FB1,KANGXI RADICAL TANNED LEATHER|}$2",
+        ],
+        "description": [
+            "Code: U+2FB1",
+            "Character/Symbol: ⾱",
+            "Name: KANGXI RADICAL TANNED LEATHER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾲ U+2FB2 KANGXI RADICAL LEEK": 
+    {
+        "prefix": [
+            "..U.2FB2",
+            "..U.KANGXI RADICAL LEEK",
+            "U+2FB2",
+        ],
+        "body": [
+            "${1|⾲,&#x2FB2;,U+2FB2,0x2FB2,KANGXI RADICAL LEEK|}$2",
+        ],
+        "description": [
+            "Code: U+2FB2",
+            "Character/Symbol: ⾲",
+            "Name: KANGXI RADICAL LEEK",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾳ U+2FB3 KANGXI RADICAL SOUND": 
+    {
+        "prefix": [
+            "..U.2FB3",
+            "..U.KANGXI RADICAL SOUND",
+            "U+2FB3",
+        ],
+        "body": [
+            "${1|⾳,&#x2FB3;,U+2FB3,0x2FB3,KANGXI RADICAL SOUND|}$2",
+        ],
+        "description": [
+            "Code: U+2FB3",
+            "Character/Symbol: ⾳",
+            "Name: KANGXI RADICAL SOUND",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾴ U+2FB4 KANGXI RADICAL LEAF": 
+    {
+        "prefix": [
+            "..U.2FB4",
+            "..U.KANGXI RADICAL LEAF",
+            "U+2FB4",
+        ],
+        "body": [
+            "${1|⾴,&#x2FB4;,U+2FB4,0x2FB4,KANGXI RADICAL LEAF|}$2",
+        ],
+        "description": [
+            "Code: U+2FB4",
+            "Character/Symbol: ⾴",
+            "Name: KANGXI RADICAL LEAF",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾵ U+2FB5 KANGXI RADICAL WIND": 
+    {
+        "prefix": [
+            "..U.2FB5",
+            "..U.KANGXI RADICAL WIND",
+            "U+2FB5",
+        ],
+        "body": [
+            "${1|⾵,&#x2FB5;,U+2FB5,0x2FB5,KANGXI RADICAL WIND|}$2",
+        ],
+        "description": [
+            "Code: U+2FB5",
+            "Character/Symbol: ⾵",
+            "Name: KANGXI RADICAL WIND",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾶ U+2FB6 KANGXI RADICAL FLY": 
+    {
+        "prefix": [
+            "..U.2FB6",
+            "..U.KANGXI RADICAL FLY",
+            "U+2FB6",
+        ],
+        "body": [
+            "${1|⾶,&#x2FB6;,U+2FB6,0x2FB6,KANGXI RADICAL FLY|}$2",
+        ],
+        "description": [
+            "Code: U+2FB6",
+            "Character/Symbol: ⾶",
+            "Name: KANGXI RADICAL FLY",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾷ U+2FB7 KANGXI RADICAL EAT": 
+    {
+        "prefix": [
+            "..U.2FB7",
+            "..U.KANGXI RADICAL EAT",
+            "U+2FB7",
+        ],
+        "body": [
+            "${1|⾷,&#x2FB7;,U+2FB7,0x2FB7,KANGXI RADICAL EAT|}$2",
+        ],
+        "description": [
+            "Code: U+2FB7",
+            "Character/Symbol: ⾷",
+            "Name: KANGXI RADICAL EAT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾸ U+2FB8 KANGXI RADICAL HEAD": 
+    {
+        "prefix": [
+            "..U.2FB8",
+            "..U.KANGXI RADICAL HEAD",
+            "U+2FB8",
+        ],
+        "body": [
+            "${1|⾸,&#x2FB8;,U+2FB8,0x2FB8,KANGXI RADICAL HEAD|}$2",
+        ],
+        "description": [
+            "Code: U+2FB8",
+            "Character/Symbol: ⾸",
+            "Name: KANGXI RADICAL HEAD",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾹ U+2FB9 KANGXI RADICAL FRAGRANT": 
+    {
+        "prefix": [
+            "..U.2FB9",
+            "..U.KANGXI RADICAL FRAGRANT",
+            "U+2FB9",
+        ],
+        "body": [
+            "${1|⾹,&#x2FB9;,U+2FB9,0x2FB9,KANGXI RADICAL FRAGRANT|}$2",
+        ],
+        "description": [
+            "Code: U+2FB9",
+            "Character/Symbol: ⾹",
+            "Name: KANGXI RADICAL FRAGRANT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾺ U+2FBA KANGXI RADICAL HORSE": 
+    {
+        "prefix": [
+            "..U.2FBA",
+            "..U.KANGXI RADICAL HORSE",
+            "U+2FBA",
+        ],
+        "body": [
+            "${1|⾺,&#x2FBA;,U+2FBA,0x2FBA,KANGXI RADICAL HORSE|}$2",
+        ],
+        "description": [
+            "Code: U+2FBA",
+            "Character/Symbol: ⾺",
+            "Name: KANGXI RADICAL HORSE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾻ U+2FBB KANGXI RADICAL BONE": 
+    {
+        "prefix": [
+            "..U.2FBB",
+            "..U.KANGXI RADICAL BONE",
+            "U+2FBB",
+        ],
+        "body": [
+            "${1|⾻,&#x2FBB;,U+2FBB,0x2FBB,KANGXI RADICAL BONE|}$2",
+        ],
+        "description": [
+            "Code: U+2FBB",
+            "Character/Symbol: ⾻",
+            "Name: KANGXI RADICAL BONE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾼ U+2FBC KANGXI RADICAL TALL": 
+    {
+        "prefix": [
+            "..U.2FBC",
+            "..U.KANGXI RADICAL TALL",
+            "U+2FBC",
+        ],
+        "body": [
+            "${1|⾼,&#x2FBC;,U+2FBC,0x2FBC,KANGXI RADICAL TALL|}$2",
+        ],
+        "description": [
+            "Code: U+2FBC",
+            "Character/Symbol: ⾼",
+            "Name: KANGXI RADICAL TALL",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾽ U+2FBD KANGXI RADICAL HAIR": 
+    {
+        "prefix": [
+            "..U.2FBD",
+            "..U.KANGXI RADICAL HAIR",
+            "U+2FBD",
+        ],
+        "body": [
+            "${1|⾽,&#x2FBD;,U+2FBD,0x2FBD,KANGXI RADICAL HAIR|}$2",
+        ],
+        "description": [
+            "Code: U+2FBD",
+            "Character/Symbol: ⾽",
+            "Name: KANGXI RADICAL HAIR",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾾ U+2FBE KANGXI RADICAL FIGHT": 
+    {
+        "prefix": [
+            "..U.2FBE",
+            "..U.KANGXI RADICAL FIGHT",
+            "U+2FBE",
+        ],
+        "body": [
+            "${1|⾾,&#x2FBE;,U+2FBE,0x2FBE,KANGXI RADICAL FIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+2FBE",
+            "Character/Symbol: ⾾",
+            "Name: KANGXI RADICAL FIGHT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⾿ U+2FBF KANGXI RADICAL SACRIFICIAL WINE": 
+    {
+        "prefix": [
+            "..U.2FBF",
+            "..U.KANGXI RADICAL SACRIFICIAL WINE",
+            "U+2FBF",
+        ],
+        "body": [
+            "${1|⾿,&#x2FBF;,U+2FBF,0x2FBF,KANGXI RADICAL SACRIFICIAL WINE|}$2",
+        ],
+        "description": [
+            "Code: U+2FBF",
+            "Character/Symbol: ⾿",
+            "Name: KANGXI RADICAL SACRIFICIAL WINE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿀ U+2FC0 KANGXI RADICAL CAULDRON": 
+    {
+        "prefix": [
+            "..U.2FC0",
+            "..U.KANGXI RADICAL CAULDRON",
+            "U+2FC0",
+        ],
+        "body": [
+            "${1|⿀,&#x2FC0;,U+2FC0,0x2FC0,KANGXI RADICAL CAULDRON|}$2",
+        ],
+        "description": [
+            "Code: U+2FC0",
+            "Character/Symbol: ⿀",
+            "Name: KANGXI RADICAL CAULDRON",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿁ U+2FC1 KANGXI RADICAL GHOST": 
+    {
+        "prefix": [
+            "..U.2FC1",
+            "..U.KANGXI RADICAL GHOST",
+            "U+2FC1",
+        ],
+        "body": [
+            "${1|⿁,&#x2FC1;,U+2FC1,0x2FC1,KANGXI RADICAL GHOST|}$2",
+        ],
+        "description": [
+            "Code: U+2FC1",
+            "Character/Symbol: ⿁",
+            "Name: KANGXI RADICAL GHOST",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿂ U+2FC2 KANGXI RADICAL FISH": 
+    {
+        "prefix": [
+            "..U.2FC2",
+            "..U.KANGXI RADICAL FISH",
+            "U+2FC2",
+        ],
+        "body": [
+            "${1|⿂,&#x2FC2;,U+2FC2,0x2FC2,KANGXI RADICAL FISH|}$2",
+        ],
+        "description": [
+            "Code: U+2FC2",
+            "Character/Symbol: ⿂",
+            "Name: KANGXI RADICAL FISH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿃ U+2FC3 KANGXI RADICAL BIRD": 
+    {
+        "prefix": [
+            "..U.2FC3",
+            "..U.KANGXI RADICAL BIRD",
+            "U+2FC3",
+        ],
+        "body": [
+            "${1|⿃,&#x2FC3;,U+2FC3,0x2FC3,KANGXI RADICAL BIRD|}$2",
+        ],
+        "description": [
+            "Code: U+2FC3",
+            "Character/Symbol: ⿃",
+            "Name: KANGXI RADICAL BIRD",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿄ U+2FC4 KANGXI RADICAL SALT": 
+    {
+        "prefix": [
+            "..U.2FC4",
+            "..U.KANGXI RADICAL SALT",
+            "U+2FC4",
+        ],
+        "body": [
+            "${1|⿄,&#x2FC4;,U+2FC4,0x2FC4,KANGXI RADICAL SALT|}$2",
+        ],
+        "description": [
+            "Code: U+2FC4",
+            "Character/Symbol: ⿄",
+            "Name: KANGXI RADICAL SALT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿅ U+2FC5 KANGXI RADICAL DEER": 
+    {
+        "prefix": [
+            "..U.2FC5",
+            "..U.KANGXI RADICAL DEER",
+            "U+2FC5",
+        ],
+        "body": [
+            "${1|⿅,&#x2FC5;,U+2FC5,0x2FC5,KANGXI RADICAL DEER|}$2",
+        ],
+        "description": [
+            "Code: U+2FC5",
+            "Character/Symbol: ⿅",
+            "Name: KANGXI RADICAL DEER",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿆ U+2FC6 KANGXI RADICAL WHEAT": 
+    {
+        "prefix": [
+            "..U.2FC6",
+            "..U.KANGXI RADICAL WHEAT",
+            "U+2FC6",
+        ],
+        "body": [
+            "${1|⿆,&#x2FC6;,U+2FC6,0x2FC6,KANGXI RADICAL WHEAT|}$2",
+        ],
+        "description": [
+            "Code: U+2FC6",
+            "Character/Symbol: ⿆",
+            "Name: KANGXI RADICAL WHEAT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿇ U+2FC7 KANGXI RADICAL HEMP": 
+    {
+        "prefix": [
+            "..U.2FC7",
+            "..U.KANGXI RADICAL HEMP",
+            "U+2FC7",
+        ],
+        "body": [
+            "${1|⿇,&#x2FC7;,U+2FC7,0x2FC7,KANGXI RADICAL HEMP|}$2",
+        ],
+        "description": [
+            "Code: U+2FC7",
+            "Character/Symbol: ⿇",
+            "Name: KANGXI RADICAL HEMP",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿈ U+2FC8 KANGXI RADICAL YELLOW": 
+    {
+        "prefix": [
+            "..U.2FC8",
+            "..U.KANGXI RADICAL YELLOW",
+            "U+2FC8",
+        ],
+        "body": [
+            "${1|⿈,&#x2FC8;,U+2FC8,0x2FC8,KANGXI RADICAL YELLOW|}$2",
+        ],
+        "description": [
+            "Code: U+2FC8",
+            "Character/Symbol: ⿈",
+            "Name: KANGXI RADICAL YELLOW",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿉ U+2FC9 KANGXI RADICAL MILLET": 
+    {
+        "prefix": [
+            "..U.2FC9",
+            "..U.KANGXI RADICAL MILLET",
+            "U+2FC9",
+        ],
+        "body": [
+            "${1|⿉,&#x2FC9;,U+2FC9,0x2FC9,KANGXI RADICAL MILLET|}$2",
+        ],
+        "description": [
+            "Code: U+2FC9",
+            "Character/Symbol: ⿉",
+            "Name: KANGXI RADICAL MILLET",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿊ U+2FCA KANGXI RADICAL BLACK": 
+    {
+        "prefix": [
+            "..U.2FCA",
+            "..U.KANGXI RADICAL BLACK",
+            "U+2FCA",
+        ],
+        "body": [
+            "${1|⿊,&#x2FCA;,U+2FCA,0x2FCA,KANGXI RADICAL BLACK|}$2",
+        ],
+        "description": [
+            "Code: U+2FCA",
+            "Character/Symbol: ⿊",
+            "Name: KANGXI RADICAL BLACK",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿋ U+2FCB KANGXI RADICAL EMBROIDERY": 
+    {
+        "prefix": [
+            "..U.2FCB",
+            "..U.KANGXI RADICAL EMBROIDERY",
+            "U+2FCB",
+        ],
+        "body": [
+            "${1|⿋,&#x2FCB;,U+2FCB,0x2FCB,KANGXI RADICAL EMBROIDERY|}$2",
+        ],
+        "description": [
+            "Code: U+2FCB",
+            "Character/Symbol: ⿋",
+            "Name: KANGXI RADICAL EMBROIDERY",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿌ U+2FCC KANGXI RADICAL FROG": 
+    {
+        "prefix": [
+            "..U.2FCC",
+            "..U.KANGXI RADICAL FROG",
+            "U+2FCC",
+        ],
+        "body": [
+            "${1|⿌,&#x2FCC;,U+2FCC,0x2FCC,KANGXI RADICAL FROG|}$2",
+        ],
+        "description": [
+            "Code: U+2FCC",
+            "Character/Symbol: ⿌",
+            "Name: KANGXI RADICAL FROG",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿍ U+2FCD KANGXI RADICAL TRIPOD": 
+    {
+        "prefix": [
+            "..U.2FCD",
+            "..U.KANGXI RADICAL TRIPOD",
+            "U+2FCD",
+        ],
+        "body": [
+            "${1|⿍,&#x2FCD;,U+2FCD,0x2FCD,KANGXI RADICAL TRIPOD|}$2",
+        ],
+        "description": [
+            "Code: U+2FCD",
+            "Character/Symbol: ⿍",
+            "Name: KANGXI RADICAL TRIPOD",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿎ U+2FCE KANGXI RADICAL DRUM": 
+    {
+        "prefix": [
+            "..U.2FCE",
+            "..U.KANGXI RADICAL DRUM",
+            "U+2FCE",
+        ],
+        "body": [
+            "${1|⿎,&#x2FCE;,U+2FCE,0x2FCE,KANGXI RADICAL DRUM|}$2",
+        ],
+        "description": [
+            "Code: U+2FCE",
+            "Character/Symbol: ⿎",
+            "Name: KANGXI RADICAL DRUM",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿏ U+2FCF KANGXI RADICAL RAT": 
+    {
+        "prefix": [
+            "..U.2FCF",
+            "..U.KANGXI RADICAL RAT",
+            "U+2FCF",
+        ],
+        "body": [
+            "${1|⿏,&#x2FCF;,U+2FCF,0x2FCF,KANGXI RADICAL RAT|}$2",
+        ],
+        "description": [
+            "Code: U+2FCF",
+            "Character/Symbol: ⿏",
+            "Name: KANGXI RADICAL RAT",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿐ U+2FD0 KANGXI RADICAL NOSE": 
+    {
+        "prefix": [
+            "..U.2FD0",
+            "..U.KANGXI RADICAL NOSE",
+            "U+2FD0",
+        ],
+        "body": [
+            "${1|⿐,&#x2FD0;,U+2FD0,0x2FD0,KANGXI RADICAL NOSE|}$2",
+        ],
+        "description": [
+            "Code: U+2FD0",
+            "Character/Symbol: ⿐",
+            "Name: KANGXI RADICAL NOSE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿑ U+2FD1 KANGXI RADICAL EVEN": 
+    {
+        "prefix": [
+            "..U.2FD1",
+            "..U.KANGXI RADICAL EVEN",
+            "U+2FD1",
+        ],
+        "body": [
+            "${1|⿑,&#x2FD1;,U+2FD1,0x2FD1,KANGXI RADICAL EVEN|}$2",
+        ],
+        "description": [
+            "Code: U+2FD1",
+            "Character/Symbol: ⿑",
+            "Name: KANGXI RADICAL EVEN",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿒ U+2FD2 KANGXI RADICAL TOOTH": 
+    {
+        "prefix": [
+            "..U.2FD2",
+            "..U.KANGXI RADICAL TOOTH",
+            "U+2FD2",
+        ],
+        "body": [
+            "${1|⿒,&#x2FD2;,U+2FD2,0x2FD2,KANGXI RADICAL TOOTH|}$2",
+        ],
+        "description": [
+            "Code: U+2FD2",
+            "Character/Symbol: ⿒",
+            "Name: KANGXI RADICAL TOOTH",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿓ U+2FD3 KANGXI RADICAL DRAGON": 
+    {
+        "prefix": [
+            "..U.2FD3",
+            "..U.KANGXI RADICAL DRAGON",
+            "U+2FD3",
+        ],
+        "body": [
+            "${1|⿓,&#x2FD3;,U+2FD3,0x2FD3,KANGXI RADICAL DRAGON|}$2",
+        ],
+        "description": [
+            "Code: U+2FD3",
+            "Character/Symbol: ⿓",
+            "Name: KANGXI RADICAL DRAGON",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿔ U+2FD4 KANGXI RADICAL TURTLE": 
+    {
+        "prefix": [
+            "..U.2FD4",
+            "..U.KANGXI RADICAL TURTLE",
+            "U+2FD4",
+        ],
+        "body": [
+            "${1|⿔,&#x2FD4;,U+2FD4,0x2FD4,KANGXI RADICAL TURTLE|}$2",
+        ],
+        "description": [
+            "Code: U+2FD4",
+            "Character/Symbol: ⿔",
+            "Name: KANGXI RADICAL TURTLE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+    "Unicode ⿕ U+2FD5 KANGXI RADICAL FLUTE": 
+    {
+        "prefix": [
+            "..U.2FD5",
+            "..U.KANGXI RADICAL FLUTE",
+            "U+2FD5",
+        ],
+        "body": [
+            "${1|⿕,&#x2FD5;,U+2FD5,0x2FD5,KANGXI RADICAL FLUTE|}$2",
+        ],
+        "description": [
+            "Code: U+2FD5",
+            "Character/Symbol: ⿕",
+            "Name: KANGXI RADICAL FLUTE",
+            "Group/Block: Kangxi",
+        ],
+    },
+
+}

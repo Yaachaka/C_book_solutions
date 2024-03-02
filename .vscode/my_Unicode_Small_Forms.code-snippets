@@ -1,0 +1,470 @@
+{
+    "Unicode ﹐ U+FE50 SMALL COMMA": 
+    {
+        "prefix": [
+            "..U.FE50",
+            "..U.SMALL COMMA",
+            "U+FE50",
+        ],
+        "body": [
+            "${1|﹐,&#xFE50;,U+FE50,0xFE50,SMALL COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+FE50",
+            "Character/Symbol: ﹐",
+            "Name: SMALL COMMA",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹑ U+FE51 SMALL IDEOGRAPHIC COMMA": 
+    {
+        "prefix": [
+            "..U.FE51",
+            "..U.SMALL IDEOGRAPHIC COMMA",
+            "U+FE51",
+        ],
+        "body": [
+            "${1|﹑,&#xFE51;,U+FE51,0xFE51,SMALL IDEOGRAPHIC COMMA|}$2",
+        ],
+        "description": [
+            "Code: U+FE51",
+            "Character/Symbol: ﹑",
+            "Name: SMALL IDEOGRAPHIC COMMA",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹒ U+FE52 SMALL FULL STOP": 
+    {
+        "prefix": [
+            "..U.FE52",
+            "..U.SMALL FULL STOP",
+            "U+FE52",
+        ],
+        "body": [
+            "${1|﹒,&#xFE52;,U+FE52,0xFE52,SMALL FULL STOP|}$2",
+        ],
+        "description": [
+            "Code: U+FE52",
+            "Character/Symbol: ﹒",
+            "Name: SMALL FULL STOP",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹔ U+FE54 SMALL SEMICOLON": 
+    {
+        "prefix": [
+            "..U.FE54",
+            "..U.SMALL SEMICOLON",
+            "U+FE54",
+        ],
+        "body": [
+            "${1|﹔,&#xFE54;,U+FE54,0xFE54,SMALL SEMICOLON|}$2",
+        ],
+        "description": [
+            "Code: U+FE54",
+            "Character/Symbol: ﹔",
+            "Name: SMALL SEMICOLON",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹕ U+FE55 SMALL COLON": 
+    {
+        "prefix": [
+            "..U.FE55",
+            "..U.SMALL COLON",
+            "U+FE55",
+        ],
+        "body": [
+            "${1|﹕,&#xFE55;,U+FE55,0xFE55,SMALL COLON|}$2",
+        ],
+        "description": [
+            "Code: U+FE55",
+            "Character/Symbol: ﹕",
+            "Name: SMALL COLON",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹖ U+FE56 SMALL QUESTION MARK": 
+    {
+        "prefix": [
+            "..U.FE56",
+            "..U.SMALL QUESTION MARK",
+            "U+FE56",
+        ],
+        "body": [
+            "${1|﹖,&#xFE56;,U+FE56,0xFE56,SMALL QUESTION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+FE56",
+            "Character/Symbol: ﹖",
+            "Name: SMALL QUESTION MARK",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹗ U+FE57 SMALL EXCLAMATION MARK": 
+    {
+        "prefix": [
+            "..U.FE57",
+            "..U.SMALL EXCLAMATION MARK",
+            "U+FE57",
+        ],
+        "body": [
+            "${1|﹗,&#xFE57;,U+FE57,0xFE57,SMALL EXCLAMATION MARK|}$2",
+        ],
+        "description": [
+            "Code: U+FE57",
+            "Character/Symbol: ﹗",
+            "Name: SMALL EXCLAMATION MARK",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹘ U+FE58 SMALL EM DASH": 
+    {
+        "prefix": [
+            "..U.FE58",
+            "..U.SMALL EM DASH",
+            "U+FE58",
+        ],
+        "body": [
+            "${1|﹘,&#xFE58;,U+FE58,0xFE58,SMALL EM DASH|}$2",
+        ],
+        "description": [
+            "Code: U+FE58",
+            "Character/Symbol: ﹘",
+            "Name: SMALL EM DASH",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹙ U+FE59 SMALL LEFT PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.FE59",
+            "..U.SMALL LEFT PARENTHESIS",
+            "U+FE59",
+        ],
+        "body": [
+            "${1|﹙,&#xFE59;,U+FE59,0xFE59,SMALL LEFT PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+FE59",
+            "Character/Symbol: ﹙",
+            "Name: SMALL LEFT PARENTHESIS",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹚ U+FE5A SMALL RIGHT PARENTHESIS": 
+    {
+        "prefix": [
+            "..U.FE5A",
+            "..U.SMALL RIGHT PARENTHESIS",
+            "U+FE5A",
+        ],
+        "body": [
+            "${1|﹚,&#xFE5A;,U+FE5A,0xFE5A,SMALL RIGHT PARENTHESIS|}$2",
+        ],
+        "description": [
+            "Code: U+FE5A",
+            "Character/Symbol: ﹚",
+            "Name: SMALL RIGHT PARENTHESIS",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹛ U+FE5B SMALL LEFT CURLY BRACKET": 
+    {
+        "prefix": [
+            "..U.FE5B",
+            "..U.SMALL LEFT CURLY BRACKET",
+            "U+FE5B",
+        ],
+        "body": [
+            "${1|﹛,&#xFE5B;,U+FE5B,0xFE5B,SMALL LEFT CURLY BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+FE5B",
+            "Character/Symbol: ﹛",
+            "Name: SMALL LEFT CURLY BRACKET",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹜ U+FE5C SMALL RIGHT CURLY BRACKET": 
+    {
+        "prefix": [
+            "..U.FE5C",
+            "..U.SMALL RIGHT CURLY BRACKET",
+            "U+FE5C",
+        ],
+        "body": [
+            "${1|﹜,&#xFE5C;,U+FE5C,0xFE5C,SMALL RIGHT CURLY BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+FE5C",
+            "Character/Symbol: ﹜",
+            "Name: SMALL RIGHT CURLY BRACKET",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹝ U+FE5D SMALL LEFT TORTOISE SHELL BRACKET": 
+    {
+        "prefix": [
+            "..U.FE5D",
+            "..U.SMALL LEFT TORTOISE SHELL BRACKET",
+            "U+FE5D",
+        ],
+        "body": [
+            "${1|﹝,&#xFE5D;,U+FE5D,0xFE5D,SMALL LEFT TORTOISE SHELL BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+FE5D",
+            "Character/Symbol: ﹝",
+            "Name: SMALL LEFT TORTOISE SHELL BRACKET",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹞ U+FE5E SMALL RIGHT TORTOISE SHELL BRACKET": 
+    {
+        "prefix": [
+            "..U.FE5E",
+            "..U.SMALL RIGHT TORTOISE SHELL BRACKET",
+            "U+FE5E",
+        ],
+        "body": [
+            "${1|﹞,&#xFE5E;,U+FE5E,0xFE5E,SMALL RIGHT TORTOISE SHELL BRACKET|}$2",
+        ],
+        "description": [
+            "Code: U+FE5E",
+            "Character/Symbol: ﹞",
+            "Name: SMALL RIGHT TORTOISE SHELL BRACKET",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹟ U+FE5F SMALL NUMBER SIGN": 
+    {
+        "prefix": [
+            "..U.FE5F",
+            "..U.SMALL NUMBER SIGN",
+            "U+FE5F",
+        ],
+        "body": [
+            "${1|﹟,&#xFE5F;,U+FE5F,0xFE5F,SMALL NUMBER SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FE5F",
+            "Character/Symbol: ﹟",
+            "Name: SMALL NUMBER SIGN",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹠ U+FE60 SMALL AMPERSAND": 
+    {
+        "prefix": [
+            "..U.FE60",
+            "..U.SMALL AMPERSAND",
+            "U+FE60",
+        ],
+        "body": [
+            "${1|﹠,&#xFE60;,U+FE60,0xFE60,SMALL AMPERSAND|}$2",
+        ],
+        "description": [
+            "Code: U+FE60",
+            "Character/Symbol: ﹠",
+            "Name: SMALL AMPERSAND",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹡ U+FE61 SMALL ASTERISK": 
+    {
+        "prefix": [
+            "..U.FE61",
+            "..U.SMALL ASTERISK",
+            "U+FE61",
+        ],
+        "body": [
+            "${1|﹡,&#xFE61;,U+FE61,0xFE61,SMALL ASTERISK|}$2",
+        ],
+        "description": [
+            "Code: U+FE61",
+            "Character/Symbol: ﹡",
+            "Name: SMALL ASTERISK",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹢ U+FE62 SMALL PLUS SIGN": 
+    {
+        "prefix": [
+            "..U.FE62",
+            "..U.SMALL PLUS SIGN",
+            "U+FE62",
+        ],
+        "body": [
+            "${1|﹢,&#xFE62;,U+FE62,0xFE62,SMALL PLUS SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FE62",
+            "Character/Symbol: ﹢",
+            "Name: SMALL PLUS SIGN",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹣ U+FE63 SMALL HYPHEN-MINUS": 
+    {
+        "prefix": [
+            "..U.FE63",
+            "..U.SMALL HYPHEN-MINUS",
+            "U+FE63",
+        ],
+        "body": [
+            "${1|﹣,&#xFE63;,U+FE63,0xFE63,SMALL HYPHEN-MINUS|}$2",
+        ],
+        "description": [
+            "Code: U+FE63",
+            "Character/Symbol: ﹣",
+            "Name: SMALL HYPHEN-MINUS",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹤ U+FE64 SMALL LESS-THAN SIGN": 
+    {
+        "prefix": [
+            "..U.FE64",
+            "..U.SMALL LESS-THAN SIGN",
+            "U+FE64",
+        ],
+        "body": [
+            "${1|﹤,&#xFE64;,U+FE64,0xFE64,SMALL LESS-THAN SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FE64",
+            "Character/Symbol: ﹤",
+            "Name: SMALL LESS-THAN SIGN",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹥ U+FE65 SMALL GREATER-THAN SIGN": 
+    {
+        "prefix": [
+            "..U.FE65",
+            "..U.SMALL GREATER-THAN SIGN",
+            "U+FE65",
+        ],
+        "body": [
+            "${1|﹥,&#xFE65;,U+FE65,0xFE65,SMALL GREATER-THAN SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FE65",
+            "Character/Symbol: ﹥",
+            "Name: SMALL GREATER-THAN SIGN",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹦ U+FE66 SMALL EQUALS SIGN": 
+    {
+        "prefix": [
+            "..U.FE66",
+            "..U.SMALL EQUALS SIGN",
+            "U+FE66",
+        ],
+        "body": [
+            "${1|﹦,&#xFE66;,U+FE66,0xFE66,SMALL EQUALS SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FE66",
+            "Character/Symbol: ﹦",
+            "Name: SMALL EQUALS SIGN",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹨ U+FE68 SMALL REVERSE SOLIDUS": 
+    {
+        "prefix": [
+            "..U.FE68",
+            "..U.SMALL REVERSE SOLIDUS",
+            "U+FE68",
+        ],
+        "body": [
+            "${1|﹨,&#xFE68;,U+FE68,0xFE68,SMALL REVERSE SOLIDUS|}$2",
+        ],
+        "description": [
+            "Code: U+FE68",
+            "Character/Symbol: ﹨",
+            "Name: SMALL REVERSE SOLIDUS",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹩ U+FE69 SMALL DOLLAR SIGN": 
+    {
+        "prefix": [
+            "..U.FE69",
+            "..U.SMALL DOLLAR SIGN",
+            "U+FE69",
+        ],
+        "body": [
+            "${1|﹩,&#xFE69;,U+FE69,0xFE69,SMALL DOLLAR SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FE69",
+            "Character/Symbol: ﹩",
+            "Name: SMALL DOLLAR SIGN",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹪ U+FE6A SMALL PERCENT SIGN": 
+    {
+        "prefix": [
+            "..U.FE6A",
+            "..U.SMALL PERCENT SIGN",
+            "U+FE6A",
+        ],
+        "body": [
+            "${1|﹪,&#xFE6A;,U+FE6A,0xFE6A,SMALL PERCENT SIGN|}$2",
+        ],
+        "description": [
+            "Code: U+FE6A",
+            "Character/Symbol: ﹪",
+            "Name: SMALL PERCENT SIGN",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+    "Unicode ﹫ U+FE6B SMALL COMMERCIAL AT": 
+    {
+        "prefix": [
+            "..U.FE6B",
+            "..U.SMALL COMMERCIAL AT",
+            "U+FE6B",
+        ],
+        "body": [
+            "${1|﹫,&#xFE6B;,U+FE6B,0xFE6B,SMALL COMMERCIAL AT|}$2",
+        ],
+        "description": [
+            "Code: U+FE6B",
+            "Character/Symbol: ﹫",
+            "Name: SMALL COMMERCIAL AT",
+            "Group/Block: Small_Forms",
+        ],
+    },
+
+}

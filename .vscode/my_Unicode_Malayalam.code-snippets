@@ -1,0 +1,2126 @@
+{
+    "Unicode ഀ U+0D00 MALAYALAM SIGN COMBINING ANUSVARA ABOVE": 
+    {
+        "prefix": [
+            "..U.0D00",
+            "..U.MALAYALAM SIGN COMBINING ANUSVARA ABOVE",
+            "U+0D00",
+        ],
+        "body": [
+            "${1|ഀ,&#x0D00;,U+0D00,0x0D00,MALAYALAM SIGN COMBINING ANUSVARA ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+0D00",
+            "Character/Symbol: ഀ",
+            "Name: MALAYALAM SIGN COMBINING ANUSVARA ABOVE",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഁ U+0D01 MALAYALAM SIGN CANDRABINDU": 
+    {
+        "prefix": [
+            "..U.0D01",
+            "..U.MALAYALAM SIGN CANDRABINDU",
+            "U+0D01",
+        ],
+        "body": [
+            "${1|ഁ,&#x0D01;,U+0D01,0x0D01,MALAYALAM SIGN CANDRABINDU|}$2",
+        ],
+        "description": [
+            "Code: U+0D01",
+            "Character/Symbol: ഁ",
+            "Name: MALAYALAM SIGN CANDRABINDU",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ം U+0D02 MALAYALAM SIGN ANUSVARA": 
+    {
+        "prefix": [
+            "..U.0D02",
+            "..U.MALAYALAM SIGN ANUSVARA",
+            "U+0D02",
+        ],
+        "body": [
+            "${1|ം,&#x0D02;,U+0D02,0x0D02,MALAYALAM SIGN ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+0D02",
+            "Character/Symbol: ം",
+            "Name: MALAYALAM SIGN ANUSVARA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഃ U+0D03 MALAYALAM SIGN VISARGA": 
+    {
+        "prefix": [
+            "..U.0D03",
+            "..U.MALAYALAM SIGN VISARGA",
+            "U+0D03",
+        ],
+        "body": [
+            "${1|ഃ,&#x0D03;,U+0D03,0x0D03,MALAYALAM SIGN VISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+0D03",
+            "Character/Symbol: ഃ",
+            "Name: MALAYALAM SIGN VISARGA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഄ U+0D04 MALAYALAM LETTER VEDIC ANUSVARA": 
+    {
+        "prefix": [
+            "..U.0D04",
+            "..U.MALAYALAM LETTER VEDIC ANUSVARA",
+            "U+0D04",
+        ],
+        "body": [
+            "${1|ഄ,&#x0D04;,U+0D04,0x0D04,MALAYALAM LETTER VEDIC ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+0D04",
+            "Character/Symbol: ഄ",
+            "Name: MALAYALAM LETTER VEDIC ANUSVARA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode അ U+0D05 MALAYALAM LETTER A": 
+    {
+        "prefix": [
+            "..U.0D05",
+            "..U.MALAYALAM LETTER A",
+            "U+0D05",
+        ],
+        "body": [
+            "${1|അ,&#x0D05;,U+0D05,0x0D05,MALAYALAM LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+0D05",
+            "Character/Symbol: അ",
+            "Name: MALAYALAM LETTER A",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ആ U+0D06 MALAYALAM LETTER AA": 
+    {
+        "prefix": [
+            "..U.0D06",
+            "..U.MALAYALAM LETTER AA",
+            "U+0D06",
+        ],
+        "body": [
+            "${1|ആ,&#x0D06;,U+0D06,0x0D06,MALAYALAM LETTER AA|}$2",
+        ],
+        "description": [
+            "Code: U+0D06",
+            "Character/Symbol: ആ",
+            "Name: MALAYALAM LETTER AA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഇ U+0D07 MALAYALAM LETTER I": 
+    {
+        "prefix": [
+            "..U.0D07",
+            "..U.MALAYALAM LETTER I",
+            "U+0D07",
+        ],
+        "body": [
+            "${1|ഇ,&#x0D07;,U+0D07,0x0D07,MALAYALAM LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+0D07",
+            "Character/Symbol: ഇ",
+            "Name: MALAYALAM LETTER I",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഈ U+0D08 MALAYALAM LETTER II": 
+    {
+        "prefix": [
+            "..U.0D08",
+            "..U.MALAYALAM LETTER II",
+            "U+0D08",
+        ],
+        "body": [
+            "${1|ഈ,&#x0D08;,U+0D08,0x0D08,MALAYALAM LETTER II|}$2",
+        ],
+        "description": [
+            "Code: U+0D08",
+            "Character/Symbol: ഈ",
+            "Name: MALAYALAM LETTER II",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഉ U+0D09 MALAYALAM LETTER U": 
+    {
+        "prefix": [
+            "..U.0D09",
+            "..U.MALAYALAM LETTER U",
+            "U+0D09",
+        ],
+        "body": [
+            "${1|ഉ,&#x0D09;,U+0D09,0x0D09,MALAYALAM LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+0D09",
+            "Character/Symbol: ഉ",
+            "Name: MALAYALAM LETTER U",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഊ U+0D0A MALAYALAM LETTER UU": 
+    {
+        "prefix": [
+            "..U.0D0A",
+            "..U.MALAYALAM LETTER UU",
+            "U+0D0A",
+        ],
+        "body": [
+            "${1|ഊ,&#x0D0A;,U+0D0A,0x0D0A,MALAYALAM LETTER UU|}$2",
+        ],
+        "description": [
+            "Code: U+0D0A",
+            "Character/Symbol: ഊ",
+            "Name: MALAYALAM LETTER UU",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഋ U+0D0B MALAYALAM LETTER VOCALIC R": 
+    {
+        "prefix": [
+            "..U.0D0B",
+            "..U.MALAYALAM LETTER VOCALIC R",
+            "U+0D0B",
+        ],
+        "body": [
+            "${1|ഋ,&#x0D0B;,U+0D0B,0x0D0B,MALAYALAM LETTER VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+0D0B",
+            "Character/Symbol: ഋ",
+            "Name: MALAYALAM LETTER VOCALIC R",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഌ U+0D0C MALAYALAM LETTER VOCALIC L": 
+    {
+        "prefix": [
+            "..U.0D0C",
+            "..U.MALAYALAM LETTER VOCALIC L",
+            "U+0D0C",
+        ],
+        "body": [
+            "${1|ഌ,&#x0D0C;,U+0D0C,0x0D0C,MALAYALAM LETTER VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+0D0C",
+            "Character/Symbol: ഌ",
+            "Name: MALAYALAM LETTER VOCALIC L",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode എ U+0D0E MALAYALAM LETTER E": 
+    {
+        "prefix": [
+            "..U.0D0E",
+            "..U.MALAYALAM LETTER E",
+            "U+0D0E",
+        ],
+        "body": [
+            "${1|എ,&#x0D0E;,U+0D0E,0x0D0E,MALAYALAM LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+0D0E",
+            "Character/Symbol: എ",
+            "Name: MALAYALAM LETTER E",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഏ U+0D0F MALAYALAM LETTER EE": 
+    {
+        "prefix": [
+            "..U.0D0F",
+            "..U.MALAYALAM LETTER EE",
+            "U+0D0F",
+        ],
+        "body": [
+            "${1|ഏ,&#x0D0F;,U+0D0F,0x0D0F,MALAYALAM LETTER EE|}$2",
+        ],
+        "description": [
+            "Code: U+0D0F",
+            "Character/Symbol: ഏ",
+            "Name: MALAYALAM LETTER EE",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഐ U+0D10 MALAYALAM LETTER AI": 
+    {
+        "prefix": [
+            "..U.0D10",
+            "..U.MALAYALAM LETTER AI",
+            "U+0D10",
+        ],
+        "body": [
+            "${1|ഐ,&#x0D10;,U+0D10,0x0D10,MALAYALAM LETTER AI|}$2",
+        ],
+        "description": [
+            "Code: U+0D10",
+            "Character/Symbol: ഐ",
+            "Name: MALAYALAM LETTER AI",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഒ U+0D12 MALAYALAM LETTER O": 
+    {
+        "prefix": [
+            "..U.0D12",
+            "..U.MALAYALAM LETTER O",
+            "U+0D12",
+        ],
+        "body": [
+            "${1|ഒ,&#x0D12;,U+0D12,0x0D12,MALAYALAM LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+0D12",
+            "Character/Symbol: ഒ",
+            "Name: MALAYALAM LETTER O",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഓ U+0D13 MALAYALAM LETTER OO": 
+    {
+        "prefix": [
+            "..U.0D13",
+            "..U.MALAYALAM LETTER OO",
+            "U+0D13",
+        ],
+        "body": [
+            "${1|ഓ,&#x0D13;,U+0D13,0x0D13,MALAYALAM LETTER OO|}$2",
+        ],
+        "description": [
+            "Code: U+0D13",
+            "Character/Symbol: ഓ",
+            "Name: MALAYALAM LETTER OO",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഔ U+0D14 MALAYALAM LETTER AU": 
+    {
+        "prefix": [
+            "..U.0D14",
+            "..U.MALAYALAM LETTER AU",
+            "U+0D14",
+        ],
+        "body": [
+            "${1|ഔ,&#x0D14;,U+0D14,0x0D14,MALAYALAM LETTER AU|}$2",
+        ],
+        "description": [
+            "Code: U+0D14",
+            "Character/Symbol: ഔ",
+            "Name: MALAYALAM LETTER AU",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ക U+0D15 MALAYALAM LETTER KA": 
+    {
+        "prefix": [
+            "..U.0D15",
+            "..U.MALAYALAM LETTER KA",
+            "U+0D15",
+        ],
+        "body": [
+            "${1|ക,&#x0D15;,U+0D15,0x0D15,MALAYALAM LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+0D15",
+            "Character/Symbol: ക",
+            "Name: MALAYALAM LETTER KA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഖ U+0D16 MALAYALAM LETTER KHA": 
+    {
+        "prefix": [
+            "..U.0D16",
+            "..U.MALAYALAM LETTER KHA",
+            "U+0D16",
+        ],
+        "body": [
+            "${1|ഖ,&#x0D16;,U+0D16,0x0D16,MALAYALAM LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+0D16",
+            "Character/Symbol: ഖ",
+            "Name: MALAYALAM LETTER KHA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഗ U+0D17 MALAYALAM LETTER GA": 
+    {
+        "prefix": [
+            "..U.0D17",
+            "..U.MALAYALAM LETTER GA",
+            "U+0D17",
+        ],
+        "body": [
+            "${1|ഗ,&#x0D17;,U+0D17,0x0D17,MALAYALAM LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+0D17",
+            "Character/Symbol: ഗ",
+            "Name: MALAYALAM LETTER GA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഘ U+0D18 MALAYALAM LETTER GHA": 
+    {
+        "prefix": [
+            "..U.0D18",
+            "..U.MALAYALAM LETTER GHA",
+            "U+0D18",
+        ],
+        "body": [
+            "${1|ഘ,&#x0D18;,U+0D18,0x0D18,MALAYALAM LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+0D18",
+            "Character/Symbol: ഘ",
+            "Name: MALAYALAM LETTER GHA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ങ U+0D19 MALAYALAM LETTER NGA": 
+    {
+        "prefix": [
+            "..U.0D19",
+            "..U.MALAYALAM LETTER NGA",
+            "U+0D19",
+        ],
+        "body": [
+            "${1|ങ,&#x0D19;,U+0D19,0x0D19,MALAYALAM LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+0D19",
+            "Character/Symbol: ങ",
+            "Name: MALAYALAM LETTER NGA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ച U+0D1A MALAYALAM LETTER CA": 
+    {
+        "prefix": [
+            "..U.0D1A",
+            "..U.MALAYALAM LETTER CA",
+            "U+0D1A",
+        ],
+        "body": [
+            "${1|ച,&#x0D1A;,U+0D1A,0x0D1A,MALAYALAM LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+0D1A",
+            "Character/Symbol: ച",
+            "Name: MALAYALAM LETTER CA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഛ U+0D1B MALAYALAM LETTER CHA": 
+    {
+        "prefix": [
+            "..U.0D1B",
+            "..U.MALAYALAM LETTER CHA",
+            "U+0D1B",
+        ],
+        "body": [
+            "${1|ഛ,&#x0D1B;,U+0D1B,0x0D1B,MALAYALAM LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+0D1B",
+            "Character/Symbol: ഛ",
+            "Name: MALAYALAM LETTER CHA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ജ U+0D1C MALAYALAM LETTER JA": 
+    {
+        "prefix": [
+            "..U.0D1C",
+            "..U.MALAYALAM LETTER JA",
+            "U+0D1C",
+        ],
+        "body": [
+            "${1|ജ,&#x0D1C;,U+0D1C,0x0D1C,MALAYALAM LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+0D1C",
+            "Character/Symbol: ജ",
+            "Name: MALAYALAM LETTER JA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഝ U+0D1D MALAYALAM LETTER JHA": 
+    {
+        "prefix": [
+            "..U.0D1D",
+            "..U.MALAYALAM LETTER JHA",
+            "U+0D1D",
+        ],
+        "body": [
+            "${1|ഝ,&#x0D1D;,U+0D1D,0x0D1D,MALAYALAM LETTER JHA|}$2",
+        ],
+        "description": [
+            "Code: U+0D1D",
+            "Character/Symbol: ഝ",
+            "Name: MALAYALAM LETTER JHA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഞ U+0D1E MALAYALAM LETTER NYA": 
+    {
+        "prefix": [
+            "..U.0D1E",
+            "..U.MALAYALAM LETTER NYA",
+            "U+0D1E",
+        ],
+        "body": [
+            "${1|ഞ,&#x0D1E;,U+0D1E,0x0D1E,MALAYALAM LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+0D1E",
+            "Character/Symbol: ഞ",
+            "Name: MALAYALAM LETTER NYA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ട U+0D1F MALAYALAM LETTER TTA": 
+    {
+        "prefix": [
+            "..U.0D1F",
+            "..U.MALAYALAM LETTER TTA",
+            "U+0D1F",
+        ],
+        "body": [
+            "${1|ട,&#x0D1F;,U+0D1F,0x0D1F,MALAYALAM LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+0D1F",
+            "Character/Symbol: ട",
+            "Name: MALAYALAM LETTER TTA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഠ U+0D20 MALAYALAM LETTER TTHA": 
+    {
+        "prefix": [
+            "..U.0D20",
+            "..U.MALAYALAM LETTER TTHA",
+            "U+0D20",
+        ],
+        "body": [
+            "${1|ഠ,&#x0D20;,U+0D20,0x0D20,MALAYALAM LETTER TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+0D20",
+            "Character/Symbol: ഠ",
+            "Name: MALAYALAM LETTER TTHA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഡ U+0D21 MALAYALAM LETTER DDA": 
+    {
+        "prefix": [
+            "..U.0D21",
+            "..U.MALAYALAM LETTER DDA",
+            "U+0D21",
+        ],
+        "body": [
+            "${1|ഡ,&#x0D21;,U+0D21,0x0D21,MALAYALAM LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+0D21",
+            "Character/Symbol: ഡ",
+            "Name: MALAYALAM LETTER DDA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഢ U+0D22 MALAYALAM LETTER DDHA": 
+    {
+        "prefix": [
+            "..U.0D22",
+            "..U.MALAYALAM LETTER DDHA",
+            "U+0D22",
+        ],
+        "body": [
+            "${1|ഢ,&#x0D22;,U+0D22,0x0D22,MALAYALAM LETTER DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+0D22",
+            "Character/Symbol: ഢ",
+            "Name: MALAYALAM LETTER DDHA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ണ U+0D23 MALAYALAM LETTER NNA": 
+    {
+        "prefix": [
+            "..U.0D23",
+            "..U.MALAYALAM LETTER NNA",
+            "U+0D23",
+        ],
+        "body": [
+            "${1|ണ,&#x0D23;,U+0D23,0x0D23,MALAYALAM LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D23",
+            "Character/Symbol: ണ",
+            "Name: MALAYALAM LETTER NNA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ത U+0D24 MALAYALAM LETTER TA": 
+    {
+        "prefix": [
+            "..U.0D24",
+            "..U.MALAYALAM LETTER TA",
+            "U+0D24",
+        ],
+        "body": [
+            "${1|ത,&#x0D24;,U+0D24,0x0D24,MALAYALAM LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+0D24",
+            "Character/Symbol: ത",
+            "Name: MALAYALAM LETTER TA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഥ U+0D25 MALAYALAM LETTER THA": 
+    {
+        "prefix": [
+            "..U.0D25",
+            "..U.MALAYALAM LETTER THA",
+            "U+0D25",
+        ],
+        "body": [
+            "${1|ഥ,&#x0D25;,U+0D25,0x0D25,MALAYALAM LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+0D25",
+            "Character/Symbol: ഥ",
+            "Name: MALAYALAM LETTER THA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ദ U+0D26 MALAYALAM LETTER DA": 
+    {
+        "prefix": [
+            "..U.0D26",
+            "..U.MALAYALAM LETTER DA",
+            "U+0D26",
+        ],
+        "body": [
+            "${1|ദ,&#x0D26;,U+0D26,0x0D26,MALAYALAM LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+0D26",
+            "Character/Symbol: ദ",
+            "Name: MALAYALAM LETTER DA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ധ U+0D27 MALAYALAM LETTER DHA": 
+    {
+        "prefix": [
+            "..U.0D27",
+            "..U.MALAYALAM LETTER DHA",
+            "U+0D27",
+        ],
+        "body": [
+            "${1|ധ,&#x0D27;,U+0D27,0x0D27,MALAYALAM LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+0D27",
+            "Character/Symbol: ധ",
+            "Name: MALAYALAM LETTER DHA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ന U+0D28 MALAYALAM LETTER NA": 
+    {
+        "prefix": [
+            "..U.0D28",
+            "..U.MALAYALAM LETTER NA",
+            "U+0D28",
+        ],
+        "body": [
+            "${1|ന,&#x0D28;,U+0D28,0x0D28,MALAYALAM LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+0D28",
+            "Character/Symbol: ന",
+            "Name: MALAYALAM LETTER NA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഩ U+0D29 MALAYALAM LETTER NNNA": 
+    {
+        "prefix": [
+            "..U.0D29",
+            "..U.MALAYALAM LETTER NNNA",
+            "U+0D29",
+        ],
+        "body": [
+            "${1|ഩ,&#x0D29;,U+0D29,0x0D29,MALAYALAM LETTER NNNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D29",
+            "Character/Symbol: ഩ",
+            "Name: MALAYALAM LETTER NNNA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode പ U+0D2A MALAYALAM LETTER PA": 
+    {
+        "prefix": [
+            "..U.0D2A",
+            "..U.MALAYALAM LETTER PA",
+            "U+0D2A",
+        ],
+        "body": [
+            "${1|പ,&#x0D2A;,U+0D2A,0x0D2A,MALAYALAM LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+0D2A",
+            "Character/Symbol: പ",
+            "Name: MALAYALAM LETTER PA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഫ U+0D2B MALAYALAM LETTER PHA": 
+    {
+        "prefix": [
+            "..U.0D2B",
+            "..U.MALAYALAM LETTER PHA",
+            "U+0D2B",
+        ],
+        "body": [
+            "${1|ഫ,&#x0D2B;,U+0D2B,0x0D2B,MALAYALAM LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+0D2B",
+            "Character/Symbol: ഫ",
+            "Name: MALAYALAM LETTER PHA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ബ U+0D2C MALAYALAM LETTER BA": 
+    {
+        "prefix": [
+            "..U.0D2C",
+            "..U.MALAYALAM LETTER BA",
+            "U+0D2C",
+        ],
+        "body": [
+            "${1|ബ,&#x0D2C;,U+0D2C,0x0D2C,MALAYALAM LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+0D2C",
+            "Character/Symbol: ബ",
+            "Name: MALAYALAM LETTER BA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഭ U+0D2D MALAYALAM LETTER BHA": 
+    {
+        "prefix": [
+            "..U.0D2D",
+            "..U.MALAYALAM LETTER BHA",
+            "U+0D2D",
+        ],
+        "body": [
+            "${1|ഭ,&#x0D2D;,U+0D2D,0x0D2D,MALAYALAM LETTER BHA|}$2",
+        ],
+        "description": [
+            "Code: U+0D2D",
+            "Character/Symbol: ഭ",
+            "Name: MALAYALAM LETTER BHA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode മ U+0D2E MALAYALAM LETTER MA": 
+    {
+        "prefix": [
+            "..U.0D2E",
+            "..U.MALAYALAM LETTER MA",
+            "U+0D2E",
+        ],
+        "body": [
+            "${1|മ,&#x0D2E;,U+0D2E,0x0D2E,MALAYALAM LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+0D2E",
+            "Character/Symbol: മ",
+            "Name: MALAYALAM LETTER MA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode യ U+0D2F MALAYALAM LETTER YA": 
+    {
+        "prefix": [
+            "..U.0D2F",
+            "..U.MALAYALAM LETTER YA",
+            "U+0D2F",
+        ],
+        "body": [
+            "${1|യ,&#x0D2F;,U+0D2F,0x0D2F,MALAYALAM LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+0D2F",
+            "Character/Symbol: യ",
+            "Name: MALAYALAM LETTER YA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ര U+0D30 MALAYALAM LETTER RA": 
+    {
+        "prefix": [
+            "..U.0D30",
+            "..U.MALAYALAM LETTER RA",
+            "U+0D30",
+        ],
+        "body": [
+            "${1|ര,&#x0D30;,U+0D30,0x0D30,MALAYALAM LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+0D30",
+            "Character/Symbol: ര",
+            "Name: MALAYALAM LETTER RA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode റ U+0D31 MALAYALAM LETTER RRA": 
+    {
+        "prefix": [
+            "..U.0D31",
+            "..U.MALAYALAM LETTER RRA",
+            "U+0D31",
+        ],
+        "body": [
+            "${1|റ,&#x0D31;,U+0D31,0x0D31,MALAYALAM LETTER RRA|}$2",
+        ],
+        "description": [
+            "Code: U+0D31",
+            "Character/Symbol: റ",
+            "Name: MALAYALAM LETTER RRA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ല U+0D32 MALAYALAM LETTER LA": 
+    {
+        "prefix": [
+            "..U.0D32",
+            "..U.MALAYALAM LETTER LA",
+            "U+0D32",
+        ],
+        "body": [
+            "${1|ല,&#x0D32;,U+0D32,0x0D32,MALAYALAM LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+0D32",
+            "Character/Symbol: ല",
+            "Name: MALAYALAM LETTER LA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ള U+0D33 MALAYALAM LETTER LLA": 
+    {
+        "prefix": [
+            "..U.0D33",
+            "..U.MALAYALAM LETTER LLA",
+            "U+0D33",
+        ],
+        "body": [
+            "${1|ള,&#x0D33;,U+0D33,0x0D33,MALAYALAM LETTER LLA|}$2",
+        ],
+        "description": [
+            "Code: U+0D33",
+            "Character/Symbol: ള",
+            "Name: MALAYALAM LETTER LLA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഴ U+0D34 MALAYALAM LETTER LLLA": 
+    {
+        "prefix": [
+            "..U.0D34",
+            "..U.MALAYALAM LETTER LLLA",
+            "U+0D34",
+        ],
+        "body": [
+            "${1|ഴ,&#x0D34;,U+0D34,0x0D34,MALAYALAM LETTER LLLA|}$2",
+        ],
+        "description": [
+            "Code: U+0D34",
+            "Character/Symbol: ഴ",
+            "Name: MALAYALAM LETTER LLLA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode വ U+0D35 MALAYALAM LETTER VA": 
+    {
+        "prefix": [
+            "..U.0D35",
+            "..U.MALAYALAM LETTER VA",
+            "U+0D35",
+        ],
+        "body": [
+            "${1|വ,&#x0D35;,U+0D35,0x0D35,MALAYALAM LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+0D35",
+            "Character/Symbol: വ",
+            "Name: MALAYALAM LETTER VA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ശ U+0D36 MALAYALAM LETTER SHA": 
+    {
+        "prefix": [
+            "..U.0D36",
+            "..U.MALAYALAM LETTER SHA",
+            "U+0D36",
+        ],
+        "body": [
+            "${1|ശ,&#x0D36;,U+0D36,0x0D36,MALAYALAM LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+0D36",
+            "Character/Symbol: ശ",
+            "Name: MALAYALAM LETTER SHA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഷ U+0D37 MALAYALAM LETTER SSA": 
+    {
+        "prefix": [
+            "..U.0D37",
+            "..U.MALAYALAM LETTER SSA",
+            "U+0D37",
+        ],
+        "body": [
+            "${1|ഷ,&#x0D37;,U+0D37,0x0D37,MALAYALAM LETTER SSA|}$2",
+        ],
+        "description": [
+            "Code: U+0D37",
+            "Character/Symbol: ഷ",
+            "Name: MALAYALAM LETTER SSA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode സ U+0D38 MALAYALAM LETTER SA": 
+    {
+        "prefix": [
+            "..U.0D38",
+            "..U.MALAYALAM LETTER SA",
+            "U+0D38",
+        ],
+        "body": [
+            "${1|സ,&#x0D38;,U+0D38,0x0D38,MALAYALAM LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+0D38",
+            "Character/Symbol: സ",
+            "Name: MALAYALAM LETTER SA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഹ U+0D39 MALAYALAM LETTER HA": 
+    {
+        "prefix": [
+            "..U.0D39",
+            "..U.MALAYALAM LETTER HA",
+            "U+0D39",
+        ],
+        "body": [
+            "${1|ഹ,&#x0D39;,U+0D39,0x0D39,MALAYALAM LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+0D39",
+            "Character/Symbol: ഹ",
+            "Name: MALAYALAM LETTER HA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഺ U+0D3A MALAYALAM LETTER TTTA": 
+    {
+        "prefix": [
+            "..U.0D3A",
+            "..U.MALAYALAM LETTER TTTA",
+            "U+0D3A",
+        ],
+        "body": [
+            "${1|ഺ,&#x0D3A;,U+0D3A,0x0D3A,MALAYALAM LETTER TTTA|}$2",
+        ],
+        "description": [
+            "Code: U+0D3A",
+            "Character/Symbol: ഺ",
+            "Name: MALAYALAM LETTER TTTA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഻ U+0D3B MALAYALAM SIGN VERTICAL BAR VIRAMA": 
+    {
+        "prefix": [
+            "..U.0D3B",
+            "..U.MALAYALAM SIGN VERTICAL BAR VIRAMA",
+            "U+0D3B",
+        ],
+        "body": [
+            "${1|഻,&#x0D3B;,U+0D3B,0x0D3B,MALAYALAM SIGN VERTICAL BAR VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+0D3B",
+            "Character/Symbol: ഻",
+            "Name: MALAYALAM SIGN VERTICAL BAR VIRAMA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഼ U+0D3C MALAYALAM SIGN CIRCULAR VIRAMA": 
+    {
+        "prefix": [
+            "..U.0D3C",
+            "..U.MALAYALAM SIGN CIRCULAR VIRAMA",
+            "U+0D3C",
+        ],
+        "body": [
+            "${1|഼,&#x0D3C;,U+0D3C,0x0D3C,MALAYALAM SIGN CIRCULAR VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+0D3C",
+            "Character/Symbol: ഼",
+            "Name: MALAYALAM SIGN CIRCULAR VIRAMA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ഽ U+0D3D MALAYALAM SIGN AVAGRAHA": 
+    {
+        "prefix": [
+            "..U.0D3D",
+            "..U.MALAYALAM SIGN AVAGRAHA",
+            "U+0D3D",
+        ],
+        "body": [
+            "${1|ഽ,&#x0D3D;,U+0D3D,0x0D3D,MALAYALAM SIGN AVAGRAHA|}$2",
+        ],
+        "description": [
+            "Code: U+0D3D",
+            "Character/Symbol: ഽ",
+            "Name: MALAYALAM SIGN AVAGRAHA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ാ U+0D3E MALAYALAM VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.0D3E",
+            "..U.MALAYALAM VOWEL SIGN AA",
+            "U+0D3E",
+        ],
+        "body": [
+            "${1|ാ,&#x0D3E;,U+0D3E,0x0D3E,MALAYALAM VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+0D3E",
+            "Character/Symbol: ാ",
+            "Name: MALAYALAM VOWEL SIGN AA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ി U+0D3F MALAYALAM VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.0D3F",
+            "..U.MALAYALAM VOWEL SIGN I",
+            "U+0D3F",
+        ],
+        "body": [
+            "${1|ി,&#x0D3F;,U+0D3F,0x0D3F,MALAYALAM VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+0D3F",
+            "Character/Symbol: ി",
+            "Name: MALAYALAM VOWEL SIGN I",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ീ U+0D40 MALAYALAM VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.0D40",
+            "..U.MALAYALAM VOWEL SIGN II",
+            "U+0D40",
+        ],
+        "body": [
+            "${1|ീ,&#x0D40;,U+0D40,0x0D40,MALAYALAM VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+0D40",
+            "Character/Symbol: ീ",
+            "Name: MALAYALAM VOWEL SIGN II",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ു U+0D41 MALAYALAM VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.0D41",
+            "..U.MALAYALAM VOWEL SIGN U",
+            "U+0D41",
+        ],
+        "body": [
+            "${1|ു,&#x0D41;,U+0D41,0x0D41,MALAYALAM VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+0D41",
+            "Character/Symbol: ു",
+            "Name: MALAYALAM VOWEL SIGN U",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൂ U+0D42 MALAYALAM VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.0D42",
+            "..U.MALAYALAM VOWEL SIGN UU",
+            "U+0D42",
+        ],
+        "body": [
+            "${1|ൂ,&#x0D42;,U+0D42,0x0D42,MALAYALAM VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+0D42",
+            "Character/Symbol: ൂ",
+            "Name: MALAYALAM VOWEL SIGN UU",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൃ U+0D43 MALAYALAM VOWEL SIGN VOCALIC R": 
+    {
+        "prefix": [
+            "..U.0D43",
+            "..U.MALAYALAM VOWEL SIGN VOCALIC R",
+            "U+0D43",
+        ],
+        "body": [
+            "${1|ൃ,&#x0D43;,U+0D43,0x0D43,MALAYALAM VOWEL SIGN VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+0D43",
+            "Character/Symbol: ൃ",
+            "Name: MALAYALAM VOWEL SIGN VOCALIC R",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൄ U+0D44 MALAYALAM VOWEL SIGN VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.0D44",
+            "..U.MALAYALAM VOWEL SIGN VOCALIC RR",
+            "U+0D44",
+        ],
+        "body": [
+            "${1|ൄ,&#x0D44;,U+0D44,0x0D44,MALAYALAM VOWEL SIGN VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+0D44",
+            "Character/Symbol: ൄ",
+            "Name: MALAYALAM VOWEL SIGN VOCALIC RR",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode െ U+0D46 MALAYALAM VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.0D46",
+            "..U.MALAYALAM VOWEL SIGN E",
+            "U+0D46",
+        ],
+        "body": [
+            "${1|െ,&#x0D46;,U+0D46,0x0D46,MALAYALAM VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+0D46",
+            "Character/Symbol: െ",
+            "Name: MALAYALAM VOWEL SIGN E",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode േ U+0D47 MALAYALAM VOWEL SIGN EE": 
+    {
+        "prefix": [
+            "..U.0D47",
+            "..U.MALAYALAM VOWEL SIGN EE",
+            "U+0D47",
+        ],
+        "body": [
+            "${1|േ,&#x0D47;,U+0D47,0x0D47,MALAYALAM VOWEL SIGN EE|}$2",
+        ],
+        "description": [
+            "Code: U+0D47",
+            "Character/Symbol: േ",
+            "Name: MALAYALAM VOWEL SIGN EE",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൈ U+0D48 MALAYALAM VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.0D48",
+            "..U.MALAYALAM VOWEL SIGN AI",
+            "U+0D48",
+        ],
+        "body": [
+            "${1|ൈ,&#x0D48;,U+0D48,0x0D48,MALAYALAM VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+0D48",
+            "Character/Symbol: ൈ",
+            "Name: MALAYALAM VOWEL SIGN AI",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൊ U+0D4A MALAYALAM VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.0D4A",
+            "..U.MALAYALAM VOWEL SIGN O",
+            "U+0D4A",
+        ],
+        "body": [
+            "${1|ൊ,&#x0D4A;,U+0D4A,0x0D4A,MALAYALAM VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+0D4A",
+            "Character/Symbol: ൊ",
+            "Name: MALAYALAM VOWEL SIGN O",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ോ U+0D4B MALAYALAM VOWEL SIGN OO": 
+    {
+        "prefix": [
+            "..U.0D4B",
+            "..U.MALAYALAM VOWEL SIGN OO",
+            "U+0D4B",
+        ],
+        "body": [
+            "${1|ോ,&#x0D4B;,U+0D4B,0x0D4B,MALAYALAM VOWEL SIGN OO|}$2",
+        ],
+        "description": [
+            "Code: U+0D4B",
+            "Character/Symbol: ോ",
+            "Name: MALAYALAM VOWEL SIGN OO",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൌ U+0D4C MALAYALAM VOWEL SIGN AU": 
+    {
+        "prefix": [
+            "..U.0D4C",
+            "..U.MALAYALAM VOWEL SIGN AU",
+            "U+0D4C",
+        ],
+        "body": [
+            "${1|ൌ,&#x0D4C;,U+0D4C,0x0D4C,MALAYALAM VOWEL SIGN AU|}$2",
+        ],
+        "description": [
+            "Code: U+0D4C",
+            "Character/Symbol: ൌ",
+            "Name: MALAYALAM VOWEL SIGN AU",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ് U+0D4D MALAYALAM SIGN VIRAMA": 
+    {
+        "prefix": [
+            "..U.0D4D",
+            "..U.MALAYALAM SIGN VIRAMA",
+            "U+0D4D",
+        ],
+        "body": [
+            "${1|്,&#x0D4D;,U+0D4D,0x0D4D,MALAYALAM SIGN VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+0D4D",
+            "Character/Symbol: ്",
+            "Name: MALAYALAM SIGN VIRAMA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൎ U+0D4E MALAYALAM LETTER DOT REPH": 
+    {
+        "prefix": [
+            "..U.0D4E",
+            "..U.MALAYALAM LETTER DOT REPH",
+            "U+0D4E",
+        ],
+        "body": [
+            "${1|ൎ,&#x0D4E;,U+0D4E,0x0D4E,MALAYALAM LETTER DOT REPH|}$2",
+        ],
+        "description": [
+            "Code: U+0D4E",
+            "Character/Symbol: ൎ",
+            "Name: MALAYALAM LETTER DOT REPH",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൏ U+0D4F MALAYALAM SIGN PARA": 
+    {
+        "prefix": [
+            "..U.0D4F",
+            "..U.MALAYALAM SIGN PARA",
+            "U+0D4F",
+        ],
+        "body": [
+            "${1|൏,&#x0D4F;,U+0D4F,0x0D4F,MALAYALAM SIGN PARA|}$2",
+        ],
+        "description": [
+            "Code: U+0D4F",
+            "Character/Symbol: ൏",
+            "Name: MALAYALAM SIGN PARA",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൔ U+0D54 MALAYALAM LETTER CHILLU M": 
+    {
+        "prefix": [
+            "..U.0D54",
+            "..U.MALAYALAM LETTER CHILLU M",
+            "U+0D54",
+        ],
+        "body": [
+            "${1|ൔ,&#x0D54;,U+0D54,0x0D54,MALAYALAM LETTER CHILLU M|}$2",
+        ],
+        "description": [
+            "Code: U+0D54",
+            "Character/Symbol: ൔ",
+            "Name: MALAYALAM LETTER CHILLU M",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൕ U+0D55 MALAYALAM LETTER CHILLU Y": 
+    {
+        "prefix": [
+            "..U.0D55",
+            "..U.MALAYALAM LETTER CHILLU Y",
+            "U+0D55",
+        ],
+        "body": [
+            "${1|ൕ,&#x0D55;,U+0D55,0x0D55,MALAYALAM LETTER CHILLU Y|}$2",
+        ],
+        "description": [
+            "Code: U+0D55",
+            "Character/Symbol: ൕ",
+            "Name: MALAYALAM LETTER CHILLU Y",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൖ U+0D56 MALAYALAM LETTER CHILLU LLL": 
+    {
+        "prefix": [
+            "..U.0D56",
+            "..U.MALAYALAM LETTER CHILLU LLL",
+            "U+0D56",
+        ],
+        "body": [
+            "${1|ൖ,&#x0D56;,U+0D56,0x0D56,MALAYALAM LETTER CHILLU LLL|}$2",
+        ],
+        "description": [
+            "Code: U+0D56",
+            "Character/Symbol: ൖ",
+            "Name: MALAYALAM LETTER CHILLU LLL",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൗ U+0D57 MALAYALAM AU LENGTH MARK": 
+    {
+        "prefix": [
+            "..U.0D57",
+            "..U.MALAYALAM AU LENGTH MARK",
+            "U+0D57",
+        ],
+        "body": [
+            "${1|ൗ,&#x0D57;,U+0D57,0x0D57,MALAYALAM AU LENGTH MARK|}$2",
+        ],
+        "description": [
+            "Code: U+0D57",
+            "Character/Symbol: ൗ",
+            "Name: MALAYALAM AU LENGTH MARK",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൘ U+0D58 MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH": 
+    {
+        "prefix": [
+            "..U.0D58",
+            "..U.MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH",
+            "U+0D58",
+        ],
+        "body": [
+            "${1|൘,&#x0D58;,U+0D58,0x0D58,MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH|}$2",
+        ],
+        "description": [
+            "Code: U+0D58",
+            "Character/Symbol: ൘",
+            "Name: MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൙ U+0D59 MALAYALAM FRACTION ONE FORTIETH": 
+    {
+        "prefix": [
+            "..U.0D59",
+            "..U.MALAYALAM FRACTION ONE FORTIETH",
+            "U+0D59",
+        ],
+        "body": [
+            "${1|൙,&#x0D59;,U+0D59,0x0D59,MALAYALAM FRACTION ONE FORTIETH|}$2",
+        ],
+        "description": [
+            "Code: U+0D59",
+            "Character/Symbol: ൙",
+            "Name: MALAYALAM FRACTION ONE FORTIETH",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൚ U+0D5A MALAYALAM FRACTION THREE EIGHTIETHS": 
+    {
+        "prefix": [
+            "..U.0D5A",
+            "..U.MALAYALAM FRACTION THREE EIGHTIETHS",
+            "U+0D5A",
+        ],
+        "body": [
+            "${1|൚,&#x0D5A;,U+0D5A,0x0D5A,MALAYALAM FRACTION THREE EIGHTIETHS|}$2",
+        ],
+        "description": [
+            "Code: U+0D5A",
+            "Character/Symbol: ൚",
+            "Name: MALAYALAM FRACTION THREE EIGHTIETHS",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൛ U+0D5B MALAYALAM FRACTION ONE TWENTIETH": 
+    {
+        "prefix": [
+            "..U.0D5B",
+            "..U.MALAYALAM FRACTION ONE TWENTIETH",
+            "U+0D5B",
+        ],
+        "body": [
+            "${1|൛,&#x0D5B;,U+0D5B,0x0D5B,MALAYALAM FRACTION ONE TWENTIETH|}$2",
+        ],
+        "description": [
+            "Code: U+0D5B",
+            "Character/Symbol: ൛",
+            "Name: MALAYALAM FRACTION ONE TWENTIETH",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൜ U+0D5C MALAYALAM FRACTION ONE TENTH": 
+    {
+        "prefix": [
+            "..U.0D5C",
+            "..U.MALAYALAM FRACTION ONE TENTH",
+            "U+0D5C",
+        ],
+        "body": [
+            "${1|൜,&#x0D5C;,U+0D5C,0x0D5C,MALAYALAM FRACTION ONE TENTH|}$2",
+        ],
+        "description": [
+            "Code: U+0D5C",
+            "Character/Symbol: ൜",
+            "Name: MALAYALAM FRACTION ONE TENTH",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൝ U+0D5D MALAYALAM FRACTION THREE TWENTIETHS": 
+    {
+        "prefix": [
+            "..U.0D5D",
+            "..U.MALAYALAM FRACTION THREE TWENTIETHS",
+            "U+0D5D",
+        ],
+        "body": [
+            "${1|൝,&#x0D5D;,U+0D5D,0x0D5D,MALAYALAM FRACTION THREE TWENTIETHS|}$2",
+        ],
+        "description": [
+            "Code: U+0D5D",
+            "Character/Symbol: ൝",
+            "Name: MALAYALAM FRACTION THREE TWENTIETHS",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൞ U+0D5E MALAYALAM FRACTION ONE FIFTH": 
+    {
+        "prefix": [
+            "..U.0D5E",
+            "..U.MALAYALAM FRACTION ONE FIFTH",
+            "U+0D5E",
+        ],
+        "body": [
+            "${1|൞,&#x0D5E;,U+0D5E,0x0D5E,MALAYALAM FRACTION ONE FIFTH|}$2",
+        ],
+        "description": [
+            "Code: U+0D5E",
+            "Character/Symbol: ൞",
+            "Name: MALAYALAM FRACTION ONE FIFTH",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൟ U+0D5F MALAYALAM LETTER ARCHAIC II": 
+    {
+        "prefix": [
+            "..U.0D5F",
+            "..U.MALAYALAM LETTER ARCHAIC II",
+            "U+0D5F",
+        ],
+        "body": [
+            "${1|ൟ,&#x0D5F;,U+0D5F,0x0D5F,MALAYALAM LETTER ARCHAIC II|}$2",
+        ],
+        "description": [
+            "Code: U+0D5F",
+            "Character/Symbol: ൟ",
+            "Name: MALAYALAM LETTER ARCHAIC II",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൠ U+0D60 MALAYALAM LETTER VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.0D60",
+            "..U.MALAYALAM LETTER VOCALIC RR",
+            "U+0D60",
+        ],
+        "body": [
+            "${1|ൠ,&#x0D60;,U+0D60,0x0D60,MALAYALAM LETTER VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+0D60",
+            "Character/Symbol: ൠ",
+            "Name: MALAYALAM LETTER VOCALIC RR",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൡ U+0D61 MALAYALAM LETTER VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.0D61",
+            "..U.MALAYALAM LETTER VOCALIC LL",
+            "U+0D61",
+        ],
+        "body": [
+            "${1|ൡ,&#x0D61;,U+0D61,0x0D61,MALAYALAM LETTER VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+0D61",
+            "Character/Symbol: ൡ",
+            "Name: MALAYALAM LETTER VOCALIC LL",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൢ U+0D62 MALAYALAM VOWEL SIGN VOCALIC L": 
+    {
+        "prefix": [
+            "..U.0D62",
+            "..U.MALAYALAM VOWEL SIGN VOCALIC L",
+            "U+0D62",
+        ],
+        "body": [
+            "${1|ൢ,&#x0D62;,U+0D62,0x0D62,MALAYALAM VOWEL SIGN VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+0D62",
+            "Character/Symbol: ൢ",
+            "Name: MALAYALAM VOWEL SIGN VOCALIC L",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൣ U+0D63 MALAYALAM VOWEL SIGN VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.0D63",
+            "..U.MALAYALAM VOWEL SIGN VOCALIC LL",
+            "U+0D63",
+        ],
+        "body": [
+            "${1|ൣ,&#x0D63;,U+0D63,0x0D63,MALAYALAM VOWEL SIGN VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+0D63",
+            "Character/Symbol: ൣ",
+            "Name: MALAYALAM VOWEL SIGN VOCALIC LL",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൦ U+0D66 MALAYALAM DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.0D66",
+            "..U.MALAYALAM DIGIT ZERO",
+            "U+0D66",
+        ],
+        "body": [
+            "${1|൦,&#x0D66;,U+0D66,0x0D66,MALAYALAM DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+0D66",
+            "Character/Symbol: ൦",
+            "Name: MALAYALAM DIGIT ZERO",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൧ U+0D67 MALAYALAM DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.0D67",
+            "..U.MALAYALAM DIGIT ONE",
+            "U+0D67",
+        ],
+        "body": [
+            "${1|൧,&#x0D67;,U+0D67,0x0D67,MALAYALAM DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+0D67",
+            "Character/Symbol: ൧",
+            "Name: MALAYALAM DIGIT ONE",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൨ U+0D68 MALAYALAM DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.0D68",
+            "..U.MALAYALAM DIGIT TWO",
+            "U+0D68",
+        ],
+        "body": [
+            "${1|൨,&#x0D68;,U+0D68,0x0D68,MALAYALAM DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+0D68",
+            "Character/Symbol: ൨",
+            "Name: MALAYALAM DIGIT TWO",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൩ U+0D69 MALAYALAM DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.0D69",
+            "..U.MALAYALAM DIGIT THREE",
+            "U+0D69",
+        ],
+        "body": [
+            "${1|൩,&#x0D69;,U+0D69,0x0D69,MALAYALAM DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+0D69",
+            "Character/Symbol: ൩",
+            "Name: MALAYALAM DIGIT THREE",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൪ U+0D6A MALAYALAM DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.0D6A",
+            "..U.MALAYALAM DIGIT FOUR",
+            "U+0D6A",
+        ],
+        "body": [
+            "${1|൪,&#x0D6A;,U+0D6A,0x0D6A,MALAYALAM DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+0D6A",
+            "Character/Symbol: ൪",
+            "Name: MALAYALAM DIGIT FOUR",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൫ U+0D6B MALAYALAM DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.0D6B",
+            "..U.MALAYALAM DIGIT FIVE",
+            "U+0D6B",
+        ],
+        "body": [
+            "${1|൫,&#x0D6B;,U+0D6B,0x0D6B,MALAYALAM DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+0D6B",
+            "Character/Symbol: ൫",
+            "Name: MALAYALAM DIGIT FIVE",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൬ U+0D6C MALAYALAM DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.0D6C",
+            "..U.MALAYALAM DIGIT SIX",
+            "U+0D6C",
+        ],
+        "body": [
+            "${1|൬,&#x0D6C;,U+0D6C,0x0D6C,MALAYALAM DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+0D6C",
+            "Character/Symbol: ൬",
+            "Name: MALAYALAM DIGIT SIX",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൭ U+0D6D MALAYALAM DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.0D6D",
+            "..U.MALAYALAM DIGIT SEVEN",
+            "U+0D6D",
+        ],
+        "body": [
+            "${1|൭,&#x0D6D;,U+0D6D,0x0D6D,MALAYALAM DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+0D6D",
+            "Character/Symbol: ൭",
+            "Name: MALAYALAM DIGIT SEVEN",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൮ U+0D6E MALAYALAM DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.0D6E",
+            "..U.MALAYALAM DIGIT EIGHT",
+            "U+0D6E",
+        ],
+        "body": [
+            "${1|൮,&#x0D6E;,U+0D6E,0x0D6E,MALAYALAM DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+0D6E",
+            "Character/Symbol: ൮",
+            "Name: MALAYALAM DIGIT EIGHT",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൯ U+0D6F MALAYALAM DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.0D6F",
+            "..U.MALAYALAM DIGIT NINE",
+            "U+0D6F",
+        ],
+        "body": [
+            "${1|൯,&#x0D6F;,U+0D6F,0x0D6F,MALAYALAM DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+0D6F",
+            "Character/Symbol: ൯",
+            "Name: MALAYALAM DIGIT NINE",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൰ U+0D70 MALAYALAM NUMBER TEN": 
+    {
+        "prefix": [
+            "..U.0D70",
+            "..U.MALAYALAM NUMBER TEN",
+            "U+0D70",
+        ],
+        "body": [
+            "${1|൰,&#x0D70;,U+0D70,0x0D70,MALAYALAM NUMBER TEN|}$2",
+        ],
+        "description": [
+            "Code: U+0D70",
+            "Character/Symbol: ൰",
+            "Name: MALAYALAM NUMBER TEN",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൱ U+0D71 MALAYALAM NUMBER ONE HUNDRED": 
+    {
+        "prefix": [
+            "..U.0D71",
+            "..U.MALAYALAM NUMBER ONE HUNDRED",
+            "U+0D71",
+        ],
+        "body": [
+            "${1|൱,&#x0D71;,U+0D71,0x0D71,MALAYALAM NUMBER ONE HUNDRED|}$2",
+        ],
+        "description": [
+            "Code: U+0D71",
+            "Character/Symbol: ൱",
+            "Name: MALAYALAM NUMBER ONE HUNDRED",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൲ U+0D72 MALAYALAM NUMBER ONE THOUSAND": 
+    {
+        "prefix": [
+            "..U.0D72",
+            "..U.MALAYALAM NUMBER ONE THOUSAND",
+            "U+0D72",
+        ],
+        "body": [
+            "${1|൲,&#x0D72;,U+0D72,0x0D72,MALAYALAM NUMBER ONE THOUSAND|}$2",
+        ],
+        "description": [
+            "Code: U+0D72",
+            "Character/Symbol: ൲",
+            "Name: MALAYALAM NUMBER ONE THOUSAND",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൳ U+0D73 MALAYALAM FRACTION ONE QUARTER": 
+    {
+        "prefix": [
+            "..U.0D73",
+            "..U.MALAYALAM FRACTION ONE QUARTER",
+            "U+0D73",
+        ],
+        "body": [
+            "${1|൳,&#x0D73;,U+0D73,0x0D73,MALAYALAM FRACTION ONE QUARTER|}$2",
+        ],
+        "description": [
+            "Code: U+0D73",
+            "Character/Symbol: ൳",
+            "Name: MALAYALAM FRACTION ONE QUARTER",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൴ U+0D74 MALAYALAM FRACTION ONE HALF": 
+    {
+        "prefix": [
+            "..U.0D74",
+            "..U.MALAYALAM FRACTION ONE HALF",
+            "U+0D74",
+        ],
+        "body": [
+            "${1|൴,&#x0D74;,U+0D74,0x0D74,MALAYALAM FRACTION ONE HALF|}$2",
+        ],
+        "description": [
+            "Code: U+0D74",
+            "Character/Symbol: ൴",
+            "Name: MALAYALAM FRACTION ONE HALF",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൵ U+0D75 MALAYALAM FRACTION THREE QUARTERS": 
+    {
+        "prefix": [
+            "..U.0D75",
+            "..U.MALAYALAM FRACTION THREE QUARTERS",
+            "U+0D75",
+        ],
+        "body": [
+            "${1|൵,&#x0D75;,U+0D75,0x0D75,MALAYALAM FRACTION THREE QUARTERS|}$2",
+        ],
+        "description": [
+            "Code: U+0D75",
+            "Character/Symbol: ൵",
+            "Name: MALAYALAM FRACTION THREE QUARTERS",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൶ U+0D76 MALAYALAM FRACTION ONE SIXTEENTH": 
+    {
+        "prefix": [
+            "..U.0D76",
+            "..U.MALAYALAM FRACTION ONE SIXTEENTH",
+            "U+0D76",
+        ],
+        "body": [
+            "${1|൶,&#x0D76;,U+0D76,0x0D76,MALAYALAM FRACTION ONE SIXTEENTH|}$2",
+        ],
+        "description": [
+            "Code: U+0D76",
+            "Character/Symbol: ൶",
+            "Name: MALAYALAM FRACTION ONE SIXTEENTH",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൷ U+0D77 MALAYALAM FRACTION ONE EIGHTH": 
+    {
+        "prefix": [
+            "..U.0D77",
+            "..U.MALAYALAM FRACTION ONE EIGHTH",
+            "U+0D77",
+        ],
+        "body": [
+            "${1|൷,&#x0D77;,U+0D77,0x0D77,MALAYALAM FRACTION ONE EIGHTH|}$2",
+        ],
+        "description": [
+            "Code: U+0D77",
+            "Character/Symbol: ൷",
+            "Name: MALAYALAM FRACTION ONE EIGHTH",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൸ U+0D78 MALAYALAM FRACTION THREE SIXTEENTHS": 
+    {
+        "prefix": [
+            "..U.0D78",
+            "..U.MALAYALAM FRACTION THREE SIXTEENTHS",
+            "U+0D78",
+        ],
+        "body": [
+            "${1|൸,&#x0D78;,U+0D78,0x0D78,MALAYALAM FRACTION THREE SIXTEENTHS|}$2",
+        ],
+        "description": [
+            "Code: U+0D78",
+            "Character/Symbol: ൸",
+            "Name: MALAYALAM FRACTION THREE SIXTEENTHS",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൹ U+0D79 MALAYALAM DATE MARK": 
+    {
+        "prefix": [
+            "..U.0D79",
+            "..U.MALAYALAM DATE MARK",
+            "U+0D79",
+        ],
+        "body": [
+            "${1|൹,&#x0D79;,U+0D79,0x0D79,MALAYALAM DATE MARK|}$2",
+        ],
+        "description": [
+            "Code: U+0D79",
+            "Character/Symbol: ൹",
+            "Name: MALAYALAM DATE MARK",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൺ U+0D7A MALAYALAM LETTER CHILLU NN": 
+    {
+        "prefix": [
+            "..U.0D7A",
+            "..U.MALAYALAM LETTER CHILLU NN",
+            "U+0D7A",
+        ],
+        "body": [
+            "${1|ൺ,&#x0D7A;,U+0D7A,0x0D7A,MALAYALAM LETTER CHILLU NN|}$2",
+        ],
+        "description": [
+            "Code: U+0D7A",
+            "Character/Symbol: ൺ",
+            "Name: MALAYALAM LETTER CHILLU NN",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൻ U+0D7B MALAYALAM LETTER CHILLU N": 
+    {
+        "prefix": [
+            "..U.0D7B",
+            "..U.MALAYALAM LETTER CHILLU N",
+            "U+0D7B",
+        ],
+        "body": [
+            "${1|ൻ,&#x0D7B;,U+0D7B,0x0D7B,MALAYALAM LETTER CHILLU N|}$2",
+        ],
+        "description": [
+            "Code: U+0D7B",
+            "Character/Symbol: ൻ",
+            "Name: MALAYALAM LETTER CHILLU N",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ർ U+0D7C MALAYALAM LETTER CHILLU RR": 
+    {
+        "prefix": [
+            "..U.0D7C",
+            "..U.MALAYALAM LETTER CHILLU RR",
+            "U+0D7C",
+        ],
+        "body": [
+            "${1|ർ,&#x0D7C;,U+0D7C,0x0D7C,MALAYALAM LETTER CHILLU RR|}$2",
+        ],
+        "description": [
+            "Code: U+0D7C",
+            "Character/Symbol: ർ",
+            "Name: MALAYALAM LETTER CHILLU RR",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൽ U+0D7D MALAYALAM LETTER CHILLU L": 
+    {
+        "prefix": [
+            "..U.0D7D",
+            "..U.MALAYALAM LETTER CHILLU L",
+            "U+0D7D",
+        ],
+        "body": [
+            "${1|ൽ,&#x0D7D;,U+0D7D,0x0D7D,MALAYALAM LETTER CHILLU L|}$2",
+        ],
+        "description": [
+            "Code: U+0D7D",
+            "Character/Symbol: ൽ",
+            "Name: MALAYALAM LETTER CHILLU L",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൾ U+0D7E MALAYALAM LETTER CHILLU LL": 
+    {
+        "prefix": [
+            "..U.0D7E",
+            "..U.MALAYALAM LETTER CHILLU LL",
+            "U+0D7E",
+        ],
+        "body": [
+            "${1|ൾ,&#x0D7E;,U+0D7E,0x0D7E,MALAYALAM LETTER CHILLU LL|}$2",
+        ],
+        "description": [
+            "Code: U+0D7E",
+            "Character/Symbol: ൾ",
+            "Name: MALAYALAM LETTER CHILLU LL",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+    "Unicode ൿ U+0D7F MALAYALAM LETTER CHILLU K": 
+    {
+        "prefix": [
+            "..U.0D7F",
+            "..U.MALAYALAM LETTER CHILLU K",
+            "U+0D7F",
+        ],
+        "body": [
+            "${1|ൿ,&#x0D7F;,U+0D7F,0x0D7F,MALAYALAM LETTER CHILLU K|}$2",
+        ],
+        "description": [
+            "Code: U+0D7F",
+            "Character/Symbol: ൿ",
+            "Name: MALAYALAM LETTER CHILLU K",
+            "Group/Block: Malayalam",
+        ],
+    },
+
+}

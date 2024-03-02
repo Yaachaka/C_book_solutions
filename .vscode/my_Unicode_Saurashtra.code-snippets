@@ -1,0 +1,1478 @@
+{
+    "Unicode ꢀ U+A880 SAURASHTRA SIGN ANUSVARA": 
+    {
+        "prefix": [
+            "..U.A880",
+            "..U.SAURASHTRA SIGN ANUSVARA",
+            "U+A880",
+        ],
+        "body": [
+            "${1|ꢀ,&#xA880;,U+A880,0xA880,SAURASHTRA SIGN ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+A880",
+            "Character/Symbol: ꢀ",
+            "Name: SAURASHTRA SIGN ANUSVARA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢁ U+A881 SAURASHTRA SIGN VISARGA": 
+    {
+        "prefix": [
+            "..U.A881",
+            "..U.SAURASHTRA SIGN VISARGA",
+            "U+A881",
+        ],
+        "body": [
+            "${1|ꢁ,&#xA881;,U+A881,0xA881,SAURASHTRA SIGN VISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+A881",
+            "Character/Symbol: ꢁ",
+            "Name: SAURASHTRA SIGN VISARGA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢂ U+A882 SAURASHTRA LETTER A": 
+    {
+        "prefix": [
+            "..U.A882",
+            "..U.SAURASHTRA LETTER A",
+            "U+A882",
+        ],
+        "body": [
+            "${1|ꢂ,&#xA882;,U+A882,0xA882,SAURASHTRA LETTER A|}$2",
+        ],
+        "description": [
+            "Code: U+A882",
+            "Character/Symbol: ꢂ",
+            "Name: SAURASHTRA LETTER A",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢃ U+A883 SAURASHTRA LETTER AA": 
+    {
+        "prefix": [
+            "..U.A883",
+            "..U.SAURASHTRA LETTER AA",
+            "U+A883",
+        ],
+        "body": [
+            "${1|ꢃ,&#xA883;,U+A883,0xA883,SAURASHTRA LETTER AA|}$2",
+        ],
+        "description": [
+            "Code: U+A883",
+            "Character/Symbol: ꢃ",
+            "Name: SAURASHTRA LETTER AA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢄ U+A884 SAURASHTRA LETTER I": 
+    {
+        "prefix": [
+            "..U.A884",
+            "..U.SAURASHTRA LETTER I",
+            "U+A884",
+        ],
+        "body": [
+            "${1|ꢄ,&#xA884;,U+A884,0xA884,SAURASHTRA LETTER I|}$2",
+        ],
+        "description": [
+            "Code: U+A884",
+            "Character/Symbol: ꢄ",
+            "Name: SAURASHTRA LETTER I",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢅ U+A885 SAURASHTRA LETTER II": 
+    {
+        "prefix": [
+            "..U.A885",
+            "..U.SAURASHTRA LETTER II",
+            "U+A885",
+        ],
+        "body": [
+            "${1|ꢅ,&#xA885;,U+A885,0xA885,SAURASHTRA LETTER II|}$2",
+        ],
+        "description": [
+            "Code: U+A885",
+            "Character/Symbol: ꢅ",
+            "Name: SAURASHTRA LETTER II",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢆ U+A886 SAURASHTRA LETTER U": 
+    {
+        "prefix": [
+            "..U.A886",
+            "..U.SAURASHTRA LETTER U",
+            "U+A886",
+        ],
+        "body": [
+            "${1|ꢆ,&#xA886;,U+A886,0xA886,SAURASHTRA LETTER U|}$2",
+        ],
+        "description": [
+            "Code: U+A886",
+            "Character/Symbol: ꢆ",
+            "Name: SAURASHTRA LETTER U",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢇ U+A887 SAURASHTRA LETTER UU": 
+    {
+        "prefix": [
+            "..U.A887",
+            "..U.SAURASHTRA LETTER UU",
+            "U+A887",
+        ],
+        "body": [
+            "${1|ꢇ,&#xA887;,U+A887,0xA887,SAURASHTRA LETTER UU|}$2",
+        ],
+        "description": [
+            "Code: U+A887",
+            "Character/Symbol: ꢇ",
+            "Name: SAURASHTRA LETTER UU",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢈ U+A888 SAURASHTRA LETTER VOCALIC R": 
+    {
+        "prefix": [
+            "..U.A888",
+            "..U.SAURASHTRA LETTER VOCALIC R",
+            "U+A888",
+        ],
+        "body": [
+            "${1|ꢈ,&#xA888;,U+A888,0xA888,SAURASHTRA LETTER VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+A888",
+            "Character/Symbol: ꢈ",
+            "Name: SAURASHTRA LETTER VOCALIC R",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢉ U+A889 SAURASHTRA LETTER VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.A889",
+            "..U.SAURASHTRA LETTER VOCALIC RR",
+            "U+A889",
+        ],
+        "body": [
+            "${1|ꢉ,&#xA889;,U+A889,0xA889,SAURASHTRA LETTER VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+A889",
+            "Character/Symbol: ꢉ",
+            "Name: SAURASHTRA LETTER VOCALIC RR",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢊ U+A88A SAURASHTRA LETTER VOCALIC L": 
+    {
+        "prefix": [
+            "..U.A88A",
+            "..U.SAURASHTRA LETTER VOCALIC L",
+            "U+A88A",
+        ],
+        "body": [
+            "${1|ꢊ,&#xA88A;,U+A88A,0xA88A,SAURASHTRA LETTER VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+A88A",
+            "Character/Symbol: ꢊ",
+            "Name: SAURASHTRA LETTER VOCALIC L",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢋ U+A88B SAURASHTRA LETTER VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.A88B",
+            "..U.SAURASHTRA LETTER VOCALIC LL",
+            "U+A88B",
+        ],
+        "body": [
+            "${1|ꢋ,&#xA88B;,U+A88B,0xA88B,SAURASHTRA LETTER VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+A88B",
+            "Character/Symbol: ꢋ",
+            "Name: SAURASHTRA LETTER VOCALIC LL",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢌ U+A88C SAURASHTRA LETTER E": 
+    {
+        "prefix": [
+            "..U.A88C",
+            "..U.SAURASHTRA LETTER E",
+            "U+A88C",
+        ],
+        "body": [
+            "${1|ꢌ,&#xA88C;,U+A88C,0xA88C,SAURASHTRA LETTER E|}$2",
+        ],
+        "description": [
+            "Code: U+A88C",
+            "Character/Symbol: ꢌ",
+            "Name: SAURASHTRA LETTER E",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢍ U+A88D SAURASHTRA LETTER EE": 
+    {
+        "prefix": [
+            "..U.A88D",
+            "..U.SAURASHTRA LETTER EE",
+            "U+A88D",
+        ],
+        "body": [
+            "${1|ꢍ,&#xA88D;,U+A88D,0xA88D,SAURASHTRA LETTER EE|}$2",
+        ],
+        "description": [
+            "Code: U+A88D",
+            "Character/Symbol: ꢍ",
+            "Name: SAURASHTRA LETTER EE",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢎ U+A88E SAURASHTRA LETTER AI": 
+    {
+        "prefix": [
+            "..U.A88E",
+            "..U.SAURASHTRA LETTER AI",
+            "U+A88E",
+        ],
+        "body": [
+            "${1|ꢎ,&#xA88E;,U+A88E,0xA88E,SAURASHTRA LETTER AI|}$2",
+        ],
+        "description": [
+            "Code: U+A88E",
+            "Character/Symbol: ꢎ",
+            "Name: SAURASHTRA LETTER AI",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢏ U+A88F SAURASHTRA LETTER O": 
+    {
+        "prefix": [
+            "..U.A88F",
+            "..U.SAURASHTRA LETTER O",
+            "U+A88F",
+        ],
+        "body": [
+            "${1|ꢏ,&#xA88F;,U+A88F,0xA88F,SAURASHTRA LETTER O|}$2",
+        ],
+        "description": [
+            "Code: U+A88F",
+            "Character/Symbol: ꢏ",
+            "Name: SAURASHTRA LETTER O",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢐ U+A890 SAURASHTRA LETTER OO": 
+    {
+        "prefix": [
+            "..U.A890",
+            "..U.SAURASHTRA LETTER OO",
+            "U+A890",
+        ],
+        "body": [
+            "${1|ꢐ,&#xA890;,U+A890,0xA890,SAURASHTRA LETTER OO|}$2",
+        ],
+        "description": [
+            "Code: U+A890",
+            "Character/Symbol: ꢐ",
+            "Name: SAURASHTRA LETTER OO",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢑ U+A891 SAURASHTRA LETTER AU": 
+    {
+        "prefix": [
+            "..U.A891",
+            "..U.SAURASHTRA LETTER AU",
+            "U+A891",
+        ],
+        "body": [
+            "${1|ꢑ,&#xA891;,U+A891,0xA891,SAURASHTRA LETTER AU|}$2",
+        ],
+        "description": [
+            "Code: U+A891",
+            "Character/Symbol: ꢑ",
+            "Name: SAURASHTRA LETTER AU",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢒ U+A892 SAURASHTRA LETTER KA": 
+    {
+        "prefix": [
+            "..U.A892",
+            "..U.SAURASHTRA LETTER KA",
+            "U+A892",
+        ],
+        "body": [
+            "${1|ꢒ,&#xA892;,U+A892,0xA892,SAURASHTRA LETTER KA|}$2",
+        ],
+        "description": [
+            "Code: U+A892",
+            "Character/Symbol: ꢒ",
+            "Name: SAURASHTRA LETTER KA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢓ U+A893 SAURASHTRA LETTER KHA": 
+    {
+        "prefix": [
+            "..U.A893",
+            "..U.SAURASHTRA LETTER KHA",
+            "U+A893",
+        ],
+        "body": [
+            "${1|ꢓ,&#xA893;,U+A893,0xA893,SAURASHTRA LETTER KHA|}$2",
+        ],
+        "description": [
+            "Code: U+A893",
+            "Character/Symbol: ꢓ",
+            "Name: SAURASHTRA LETTER KHA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢔ U+A894 SAURASHTRA LETTER GA": 
+    {
+        "prefix": [
+            "..U.A894",
+            "..U.SAURASHTRA LETTER GA",
+            "U+A894",
+        ],
+        "body": [
+            "${1|ꢔ,&#xA894;,U+A894,0xA894,SAURASHTRA LETTER GA|}$2",
+        ],
+        "description": [
+            "Code: U+A894",
+            "Character/Symbol: ꢔ",
+            "Name: SAURASHTRA LETTER GA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢕ U+A895 SAURASHTRA LETTER GHA": 
+    {
+        "prefix": [
+            "..U.A895",
+            "..U.SAURASHTRA LETTER GHA",
+            "U+A895",
+        ],
+        "body": [
+            "${1|ꢕ,&#xA895;,U+A895,0xA895,SAURASHTRA LETTER GHA|}$2",
+        ],
+        "description": [
+            "Code: U+A895",
+            "Character/Symbol: ꢕ",
+            "Name: SAURASHTRA LETTER GHA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢖ U+A896 SAURASHTRA LETTER NGA": 
+    {
+        "prefix": [
+            "..U.A896",
+            "..U.SAURASHTRA LETTER NGA",
+            "U+A896",
+        ],
+        "body": [
+            "${1|ꢖ,&#xA896;,U+A896,0xA896,SAURASHTRA LETTER NGA|}$2",
+        ],
+        "description": [
+            "Code: U+A896",
+            "Character/Symbol: ꢖ",
+            "Name: SAURASHTRA LETTER NGA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢗ U+A897 SAURASHTRA LETTER CA": 
+    {
+        "prefix": [
+            "..U.A897",
+            "..U.SAURASHTRA LETTER CA",
+            "U+A897",
+        ],
+        "body": [
+            "${1|ꢗ,&#xA897;,U+A897,0xA897,SAURASHTRA LETTER CA|}$2",
+        ],
+        "description": [
+            "Code: U+A897",
+            "Character/Symbol: ꢗ",
+            "Name: SAURASHTRA LETTER CA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢘ U+A898 SAURASHTRA LETTER CHA": 
+    {
+        "prefix": [
+            "..U.A898",
+            "..U.SAURASHTRA LETTER CHA",
+            "U+A898",
+        ],
+        "body": [
+            "${1|ꢘ,&#xA898;,U+A898,0xA898,SAURASHTRA LETTER CHA|}$2",
+        ],
+        "description": [
+            "Code: U+A898",
+            "Character/Symbol: ꢘ",
+            "Name: SAURASHTRA LETTER CHA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢙ U+A899 SAURASHTRA LETTER JA": 
+    {
+        "prefix": [
+            "..U.A899",
+            "..U.SAURASHTRA LETTER JA",
+            "U+A899",
+        ],
+        "body": [
+            "${1|ꢙ,&#xA899;,U+A899,0xA899,SAURASHTRA LETTER JA|}$2",
+        ],
+        "description": [
+            "Code: U+A899",
+            "Character/Symbol: ꢙ",
+            "Name: SAURASHTRA LETTER JA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢚ U+A89A SAURASHTRA LETTER JHA": 
+    {
+        "prefix": [
+            "..U.A89A",
+            "..U.SAURASHTRA LETTER JHA",
+            "U+A89A",
+        ],
+        "body": [
+            "${1|ꢚ,&#xA89A;,U+A89A,0xA89A,SAURASHTRA LETTER JHA|}$2",
+        ],
+        "description": [
+            "Code: U+A89A",
+            "Character/Symbol: ꢚ",
+            "Name: SAURASHTRA LETTER JHA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢛ U+A89B SAURASHTRA LETTER NYA": 
+    {
+        "prefix": [
+            "..U.A89B",
+            "..U.SAURASHTRA LETTER NYA",
+            "U+A89B",
+        ],
+        "body": [
+            "${1|ꢛ,&#xA89B;,U+A89B,0xA89B,SAURASHTRA LETTER NYA|}$2",
+        ],
+        "description": [
+            "Code: U+A89B",
+            "Character/Symbol: ꢛ",
+            "Name: SAURASHTRA LETTER NYA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢜ U+A89C SAURASHTRA LETTER TTA": 
+    {
+        "prefix": [
+            "..U.A89C",
+            "..U.SAURASHTRA LETTER TTA",
+            "U+A89C",
+        ],
+        "body": [
+            "${1|ꢜ,&#xA89C;,U+A89C,0xA89C,SAURASHTRA LETTER TTA|}$2",
+        ],
+        "description": [
+            "Code: U+A89C",
+            "Character/Symbol: ꢜ",
+            "Name: SAURASHTRA LETTER TTA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢝ U+A89D SAURASHTRA LETTER TTHA": 
+    {
+        "prefix": [
+            "..U.A89D",
+            "..U.SAURASHTRA LETTER TTHA",
+            "U+A89D",
+        ],
+        "body": [
+            "${1|ꢝ,&#xA89D;,U+A89D,0xA89D,SAURASHTRA LETTER TTHA|}$2",
+        ],
+        "description": [
+            "Code: U+A89D",
+            "Character/Symbol: ꢝ",
+            "Name: SAURASHTRA LETTER TTHA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢞ U+A89E SAURASHTRA LETTER DDA": 
+    {
+        "prefix": [
+            "..U.A89E",
+            "..U.SAURASHTRA LETTER DDA",
+            "U+A89E",
+        ],
+        "body": [
+            "${1|ꢞ,&#xA89E;,U+A89E,0xA89E,SAURASHTRA LETTER DDA|}$2",
+        ],
+        "description": [
+            "Code: U+A89E",
+            "Character/Symbol: ꢞ",
+            "Name: SAURASHTRA LETTER DDA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢟ U+A89F SAURASHTRA LETTER DDHA": 
+    {
+        "prefix": [
+            "..U.A89F",
+            "..U.SAURASHTRA LETTER DDHA",
+            "U+A89F",
+        ],
+        "body": [
+            "${1|ꢟ,&#xA89F;,U+A89F,0xA89F,SAURASHTRA LETTER DDHA|}$2",
+        ],
+        "description": [
+            "Code: U+A89F",
+            "Character/Symbol: ꢟ",
+            "Name: SAURASHTRA LETTER DDHA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢠ U+A8A0 SAURASHTRA LETTER NNA": 
+    {
+        "prefix": [
+            "..U.A8A0",
+            "..U.SAURASHTRA LETTER NNA",
+            "U+A8A0",
+        ],
+        "body": [
+            "${1|ꢠ,&#xA8A0;,U+A8A0,0xA8A0,SAURASHTRA LETTER NNA|}$2",
+        ],
+        "description": [
+            "Code: U+A8A0",
+            "Character/Symbol: ꢠ",
+            "Name: SAURASHTRA LETTER NNA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢡ U+A8A1 SAURASHTRA LETTER TA": 
+    {
+        "prefix": [
+            "..U.A8A1",
+            "..U.SAURASHTRA LETTER TA",
+            "U+A8A1",
+        ],
+        "body": [
+            "${1|ꢡ,&#xA8A1;,U+A8A1,0xA8A1,SAURASHTRA LETTER TA|}$2",
+        ],
+        "description": [
+            "Code: U+A8A1",
+            "Character/Symbol: ꢡ",
+            "Name: SAURASHTRA LETTER TA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢢ U+A8A2 SAURASHTRA LETTER THA": 
+    {
+        "prefix": [
+            "..U.A8A2",
+            "..U.SAURASHTRA LETTER THA",
+            "U+A8A2",
+        ],
+        "body": [
+            "${1|ꢢ,&#xA8A2;,U+A8A2,0xA8A2,SAURASHTRA LETTER THA|}$2",
+        ],
+        "description": [
+            "Code: U+A8A2",
+            "Character/Symbol: ꢢ",
+            "Name: SAURASHTRA LETTER THA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢣ U+A8A3 SAURASHTRA LETTER DA": 
+    {
+        "prefix": [
+            "..U.A8A3",
+            "..U.SAURASHTRA LETTER DA",
+            "U+A8A3",
+        ],
+        "body": [
+            "${1|ꢣ,&#xA8A3;,U+A8A3,0xA8A3,SAURASHTRA LETTER DA|}$2",
+        ],
+        "description": [
+            "Code: U+A8A3",
+            "Character/Symbol: ꢣ",
+            "Name: SAURASHTRA LETTER DA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢤ U+A8A4 SAURASHTRA LETTER DHA": 
+    {
+        "prefix": [
+            "..U.A8A4",
+            "..U.SAURASHTRA LETTER DHA",
+            "U+A8A4",
+        ],
+        "body": [
+            "${1|ꢤ,&#xA8A4;,U+A8A4,0xA8A4,SAURASHTRA LETTER DHA|}$2",
+        ],
+        "description": [
+            "Code: U+A8A4",
+            "Character/Symbol: ꢤ",
+            "Name: SAURASHTRA LETTER DHA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢥ U+A8A5 SAURASHTRA LETTER NA": 
+    {
+        "prefix": [
+            "..U.A8A5",
+            "..U.SAURASHTRA LETTER NA",
+            "U+A8A5",
+        ],
+        "body": [
+            "${1|ꢥ,&#xA8A5;,U+A8A5,0xA8A5,SAURASHTRA LETTER NA|}$2",
+        ],
+        "description": [
+            "Code: U+A8A5",
+            "Character/Symbol: ꢥ",
+            "Name: SAURASHTRA LETTER NA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢦ U+A8A6 SAURASHTRA LETTER PA": 
+    {
+        "prefix": [
+            "..U.A8A6",
+            "..U.SAURASHTRA LETTER PA",
+            "U+A8A6",
+        ],
+        "body": [
+            "${1|ꢦ,&#xA8A6;,U+A8A6,0xA8A6,SAURASHTRA LETTER PA|}$2",
+        ],
+        "description": [
+            "Code: U+A8A6",
+            "Character/Symbol: ꢦ",
+            "Name: SAURASHTRA LETTER PA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢧ U+A8A7 SAURASHTRA LETTER PHA": 
+    {
+        "prefix": [
+            "..U.A8A7",
+            "..U.SAURASHTRA LETTER PHA",
+            "U+A8A7",
+        ],
+        "body": [
+            "${1|ꢧ,&#xA8A7;,U+A8A7,0xA8A7,SAURASHTRA LETTER PHA|}$2",
+        ],
+        "description": [
+            "Code: U+A8A7",
+            "Character/Symbol: ꢧ",
+            "Name: SAURASHTRA LETTER PHA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢨ U+A8A8 SAURASHTRA LETTER BA": 
+    {
+        "prefix": [
+            "..U.A8A8",
+            "..U.SAURASHTRA LETTER BA",
+            "U+A8A8",
+        ],
+        "body": [
+            "${1|ꢨ,&#xA8A8;,U+A8A8,0xA8A8,SAURASHTRA LETTER BA|}$2",
+        ],
+        "description": [
+            "Code: U+A8A8",
+            "Character/Symbol: ꢨ",
+            "Name: SAURASHTRA LETTER BA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢩ U+A8A9 SAURASHTRA LETTER BHA": 
+    {
+        "prefix": [
+            "..U.A8A9",
+            "..U.SAURASHTRA LETTER BHA",
+            "U+A8A9",
+        ],
+        "body": [
+            "${1|ꢩ,&#xA8A9;,U+A8A9,0xA8A9,SAURASHTRA LETTER BHA|}$2",
+        ],
+        "description": [
+            "Code: U+A8A9",
+            "Character/Symbol: ꢩ",
+            "Name: SAURASHTRA LETTER BHA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢪ U+A8AA SAURASHTRA LETTER MA": 
+    {
+        "prefix": [
+            "..U.A8AA",
+            "..U.SAURASHTRA LETTER MA",
+            "U+A8AA",
+        ],
+        "body": [
+            "${1|ꢪ,&#xA8AA;,U+A8AA,0xA8AA,SAURASHTRA LETTER MA|}$2",
+        ],
+        "description": [
+            "Code: U+A8AA",
+            "Character/Symbol: ꢪ",
+            "Name: SAURASHTRA LETTER MA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢫ U+A8AB SAURASHTRA LETTER YA": 
+    {
+        "prefix": [
+            "..U.A8AB",
+            "..U.SAURASHTRA LETTER YA",
+            "U+A8AB",
+        ],
+        "body": [
+            "${1|ꢫ,&#xA8AB;,U+A8AB,0xA8AB,SAURASHTRA LETTER YA|}$2",
+        ],
+        "description": [
+            "Code: U+A8AB",
+            "Character/Symbol: ꢫ",
+            "Name: SAURASHTRA LETTER YA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢬ U+A8AC SAURASHTRA LETTER RA": 
+    {
+        "prefix": [
+            "..U.A8AC",
+            "..U.SAURASHTRA LETTER RA",
+            "U+A8AC",
+        ],
+        "body": [
+            "${1|ꢬ,&#xA8AC;,U+A8AC,0xA8AC,SAURASHTRA LETTER RA|}$2",
+        ],
+        "description": [
+            "Code: U+A8AC",
+            "Character/Symbol: ꢬ",
+            "Name: SAURASHTRA LETTER RA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢭ U+A8AD SAURASHTRA LETTER LA": 
+    {
+        "prefix": [
+            "..U.A8AD",
+            "..U.SAURASHTRA LETTER LA",
+            "U+A8AD",
+        ],
+        "body": [
+            "${1|ꢭ,&#xA8AD;,U+A8AD,0xA8AD,SAURASHTRA LETTER LA|}$2",
+        ],
+        "description": [
+            "Code: U+A8AD",
+            "Character/Symbol: ꢭ",
+            "Name: SAURASHTRA LETTER LA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢮ U+A8AE SAURASHTRA LETTER VA": 
+    {
+        "prefix": [
+            "..U.A8AE",
+            "..U.SAURASHTRA LETTER VA",
+            "U+A8AE",
+        ],
+        "body": [
+            "${1|ꢮ,&#xA8AE;,U+A8AE,0xA8AE,SAURASHTRA LETTER VA|}$2",
+        ],
+        "description": [
+            "Code: U+A8AE",
+            "Character/Symbol: ꢮ",
+            "Name: SAURASHTRA LETTER VA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢯ U+A8AF SAURASHTRA LETTER SHA": 
+    {
+        "prefix": [
+            "..U.A8AF",
+            "..U.SAURASHTRA LETTER SHA",
+            "U+A8AF",
+        ],
+        "body": [
+            "${1|ꢯ,&#xA8AF;,U+A8AF,0xA8AF,SAURASHTRA LETTER SHA|}$2",
+        ],
+        "description": [
+            "Code: U+A8AF",
+            "Character/Symbol: ꢯ",
+            "Name: SAURASHTRA LETTER SHA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢰ U+A8B0 SAURASHTRA LETTER SSA": 
+    {
+        "prefix": [
+            "..U.A8B0",
+            "..U.SAURASHTRA LETTER SSA",
+            "U+A8B0",
+        ],
+        "body": [
+            "${1|ꢰ,&#xA8B0;,U+A8B0,0xA8B0,SAURASHTRA LETTER SSA|}$2",
+        ],
+        "description": [
+            "Code: U+A8B0",
+            "Character/Symbol: ꢰ",
+            "Name: SAURASHTRA LETTER SSA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢱ U+A8B1 SAURASHTRA LETTER SA": 
+    {
+        "prefix": [
+            "..U.A8B1",
+            "..U.SAURASHTRA LETTER SA",
+            "U+A8B1",
+        ],
+        "body": [
+            "${1|ꢱ,&#xA8B1;,U+A8B1,0xA8B1,SAURASHTRA LETTER SA|}$2",
+        ],
+        "description": [
+            "Code: U+A8B1",
+            "Character/Symbol: ꢱ",
+            "Name: SAURASHTRA LETTER SA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢲ U+A8B2 SAURASHTRA LETTER HA": 
+    {
+        "prefix": [
+            "..U.A8B2",
+            "..U.SAURASHTRA LETTER HA",
+            "U+A8B2",
+        ],
+        "body": [
+            "${1|ꢲ,&#xA8B2;,U+A8B2,0xA8B2,SAURASHTRA LETTER HA|}$2",
+        ],
+        "description": [
+            "Code: U+A8B2",
+            "Character/Symbol: ꢲ",
+            "Name: SAURASHTRA LETTER HA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢳ U+A8B3 SAURASHTRA LETTER LLA": 
+    {
+        "prefix": [
+            "..U.A8B3",
+            "..U.SAURASHTRA LETTER LLA",
+            "U+A8B3",
+        ],
+        "body": [
+            "${1|ꢳ,&#xA8B3;,U+A8B3,0xA8B3,SAURASHTRA LETTER LLA|}$2",
+        ],
+        "description": [
+            "Code: U+A8B3",
+            "Character/Symbol: ꢳ",
+            "Name: SAURASHTRA LETTER LLA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢴ U+A8B4 SAURASHTRA CONSONANT SIGN HAARU": 
+    {
+        "prefix": [
+            "..U.A8B4",
+            "..U.SAURASHTRA CONSONANT SIGN HAARU",
+            "U+A8B4",
+        ],
+        "body": [
+            "${1|ꢴ,&#xA8B4;,U+A8B4,0xA8B4,SAURASHTRA CONSONANT SIGN HAARU|}$2",
+        ],
+        "description": [
+            "Code: U+A8B4",
+            "Character/Symbol: ꢴ",
+            "Name: SAURASHTRA CONSONANT SIGN HAARU",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢵ U+A8B5 SAURASHTRA VOWEL SIGN AA": 
+    {
+        "prefix": [
+            "..U.A8B5",
+            "..U.SAURASHTRA VOWEL SIGN AA",
+            "U+A8B5",
+        ],
+        "body": [
+            "${1|ꢵ,&#xA8B5;,U+A8B5,0xA8B5,SAURASHTRA VOWEL SIGN AA|}$2",
+        ],
+        "description": [
+            "Code: U+A8B5",
+            "Character/Symbol: ꢵ",
+            "Name: SAURASHTRA VOWEL SIGN AA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢶ U+A8B6 SAURASHTRA VOWEL SIGN I": 
+    {
+        "prefix": [
+            "..U.A8B6",
+            "..U.SAURASHTRA VOWEL SIGN I",
+            "U+A8B6",
+        ],
+        "body": [
+            "${1|ꢶ,&#xA8B6;,U+A8B6,0xA8B6,SAURASHTRA VOWEL SIGN I|}$2",
+        ],
+        "description": [
+            "Code: U+A8B6",
+            "Character/Symbol: ꢶ",
+            "Name: SAURASHTRA VOWEL SIGN I",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢷ U+A8B7 SAURASHTRA VOWEL SIGN II": 
+    {
+        "prefix": [
+            "..U.A8B7",
+            "..U.SAURASHTRA VOWEL SIGN II",
+            "U+A8B7",
+        ],
+        "body": [
+            "${1|ꢷ,&#xA8B7;,U+A8B7,0xA8B7,SAURASHTRA VOWEL SIGN II|}$2",
+        ],
+        "description": [
+            "Code: U+A8B7",
+            "Character/Symbol: ꢷ",
+            "Name: SAURASHTRA VOWEL SIGN II",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢸ U+A8B8 SAURASHTRA VOWEL SIGN U": 
+    {
+        "prefix": [
+            "..U.A8B8",
+            "..U.SAURASHTRA VOWEL SIGN U",
+            "U+A8B8",
+        ],
+        "body": [
+            "${1|ꢸ,&#xA8B8;,U+A8B8,0xA8B8,SAURASHTRA VOWEL SIGN U|}$2",
+        ],
+        "description": [
+            "Code: U+A8B8",
+            "Character/Symbol: ꢸ",
+            "Name: SAURASHTRA VOWEL SIGN U",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢹ U+A8B9 SAURASHTRA VOWEL SIGN UU": 
+    {
+        "prefix": [
+            "..U.A8B9",
+            "..U.SAURASHTRA VOWEL SIGN UU",
+            "U+A8B9",
+        ],
+        "body": [
+            "${1|ꢹ,&#xA8B9;,U+A8B9,0xA8B9,SAURASHTRA VOWEL SIGN UU|}$2",
+        ],
+        "description": [
+            "Code: U+A8B9",
+            "Character/Symbol: ꢹ",
+            "Name: SAURASHTRA VOWEL SIGN UU",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢺ U+A8BA SAURASHTRA VOWEL SIGN VOCALIC R": 
+    {
+        "prefix": [
+            "..U.A8BA",
+            "..U.SAURASHTRA VOWEL SIGN VOCALIC R",
+            "U+A8BA",
+        ],
+        "body": [
+            "${1|ꢺ,&#xA8BA;,U+A8BA,0xA8BA,SAURASHTRA VOWEL SIGN VOCALIC R|}$2",
+        ],
+        "description": [
+            "Code: U+A8BA",
+            "Character/Symbol: ꢺ",
+            "Name: SAURASHTRA VOWEL SIGN VOCALIC R",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢻ U+A8BB SAURASHTRA VOWEL SIGN VOCALIC RR": 
+    {
+        "prefix": [
+            "..U.A8BB",
+            "..U.SAURASHTRA VOWEL SIGN VOCALIC RR",
+            "U+A8BB",
+        ],
+        "body": [
+            "${1|ꢻ,&#xA8BB;,U+A8BB,0xA8BB,SAURASHTRA VOWEL SIGN VOCALIC RR|}$2",
+        ],
+        "description": [
+            "Code: U+A8BB",
+            "Character/Symbol: ꢻ",
+            "Name: SAURASHTRA VOWEL SIGN VOCALIC RR",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢼ U+A8BC SAURASHTRA VOWEL SIGN VOCALIC L": 
+    {
+        "prefix": [
+            "..U.A8BC",
+            "..U.SAURASHTRA VOWEL SIGN VOCALIC L",
+            "U+A8BC",
+        ],
+        "body": [
+            "${1|ꢼ,&#xA8BC;,U+A8BC,0xA8BC,SAURASHTRA VOWEL SIGN VOCALIC L|}$2",
+        ],
+        "description": [
+            "Code: U+A8BC",
+            "Character/Symbol: ꢼ",
+            "Name: SAURASHTRA VOWEL SIGN VOCALIC L",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢽ U+A8BD SAURASHTRA VOWEL SIGN VOCALIC LL": 
+    {
+        "prefix": [
+            "..U.A8BD",
+            "..U.SAURASHTRA VOWEL SIGN VOCALIC LL",
+            "U+A8BD",
+        ],
+        "body": [
+            "${1|ꢽ,&#xA8BD;,U+A8BD,0xA8BD,SAURASHTRA VOWEL SIGN VOCALIC LL|}$2",
+        ],
+        "description": [
+            "Code: U+A8BD",
+            "Character/Symbol: ꢽ",
+            "Name: SAURASHTRA VOWEL SIGN VOCALIC LL",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢾ U+A8BE SAURASHTRA VOWEL SIGN E": 
+    {
+        "prefix": [
+            "..U.A8BE",
+            "..U.SAURASHTRA VOWEL SIGN E",
+            "U+A8BE",
+        ],
+        "body": [
+            "${1|ꢾ,&#xA8BE;,U+A8BE,0xA8BE,SAURASHTRA VOWEL SIGN E|}$2",
+        ],
+        "description": [
+            "Code: U+A8BE",
+            "Character/Symbol: ꢾ",
+            "Name: SAURASHTRA VOWEL SIGN E",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꢿ U+A8BF SAURASHTRA VOWEL SIGN EE": 
+    {
+        "prefix": [
+            "..U.A8BF",
+            "..U.SAURASHTRA VOWEL SIGN EE",
+            "U+A8BF",
+        ],
+        "body": [
+            "${1|ꢿ,&#xA8BF;,U+A8BF,0xA8BF,SAURASHTRA VOWEL SIGN EE|}$2",
+        ],
+        "description": [
+            "Code: U+A8BF",
+            "Character/Symbol: ꢿ",
+            "Name: SAURASHTRA VOWEL SIGN EE",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣀ U+A8C0 SAURASHTRA VOWEL SIGN AI": 
+    {
+        "prefix": [
+            "..U.A8C0",
+            "..U.SAURASHTRA VOWEL SIGN AI",
+            "U+A8C0",
+        ],
+        "body": [
+            "${1|ꣀ,&#xA8C0;,U+A8C0,0xA8C0,SAURASHTRA VOWEL SIGN AI|}$2",
+        ],
+        "description": [
+            "Code: U+A8C0",
+            "Character/Symbol: ꣀ",
+            "Name: SAURASHTRA VOWEL SIGN AI",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣁ U+A8C1 SAURASHTRA VOWEL SIGN O": 
+    {
+        "prefix": [
+            "..U.A8C1",
+            "..U.SAURASHTRA VOWEL SIGN O",
+            "U+A8C1",
+        ],
+        "body": [
+            "${1|ꣁ,&#xA8C1;,U+A8C1,0xA8C1,SAURASHTRA VOWEL SIGN O|}$2",
+        ],
+        "description": [
+            "Code: U+A8C1",
+            "Character/Symbol: ꣁ",
+            "Name: SAURASHTRA VOWEL SIGN O",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣂ U+A8C2 SAURASHTRA VOWEL SIGN OO": 
+    {
+        "prefix": [
+            "..U.A8C2",
+            "..U.SAURASHTRA VOWEL SIGN OO",
+            "U+A8C2",
+        ],
+        "body": [
+            "${1|ꣂ,&#xA8C2;,U+A8C2,0xA8C2,SAURASHTRA VOWEL SIGN OO|}$2",
+        ],
+        "description": [
+            "Code: U+A8C2",
+            "Character/Symbol: ꣂ",
+            "Name: SAURASHTRA VOWEL SIGN OO",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣃ U+A8C3 SAURASHTRA VOWEL SIGN AU": 
+    {
+        "prefix": [
+            "..U.A8C3",
+            "..U.SAURASHTRA VOWEL SIGN AU",
+            "U+A8C3",
+        ],
+        "body": [
+            "${1|ꣃ,&#xA8C3;,U+A8C3,0xA8C3,SAURASHTRA VOWEL SIGN AU|}$2",
+        ],
+        "description": [
+            "Code: U+A8C3",
+            "Character/Symbol: ꣃ",
+            "Name: SAURASHTRA VOWEL SIGN AU",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣄ U+A8C4 SAURASHTRA SIGN VIRAMA": 
+    {
+        "prefix": [
+            "..U.A8C4",
+            "..U.SAURASHTRA SIGN VIRAMA",
+            "U+A8C4",
+        ],
+        "body": [
+            "${1|꣄,&#xA8C4;,U+A8C4,0xA8C4,SAURASHTRA SIGN VIRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+A8C4",
+            "Character/Symbol: ꣄",
+            "Name: SAURASHTRA SIGN VIRAMA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣅ U+A8C5 SAURASHTRA SIGN CANDRABINDU": 
+    {
+        "prefix": [
+            "..U.A8C5",
+            "..U.SAURASHTRA SIGN CANDRABINDU",
+            "U+A8C5",
+        ],
+        "body": [
+            "${1|ꣅ,&#xA8C5;,U+A8C5,0xA8C5,SAURASHTRA SIGN CANDRABINDU|}$2",
+        ],
+        "description": [
+            "Code: U+A8C5",
+            "Character/Symbol: ꣅ",
+            "Name: SAURASHTRA SIGN CANDRABINDU",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣎ U+A8CE SAURASHTRA DANDA": 
+    {
+        "prefix": [
+            "..U.A8CE",
+            "..U.SAURASHTRA DANDA",
+            "U+A8CE",
+        ],
+        "body": [
+            "${1|꣎,&#xA8CE;,U+A8CE,0xA8CE,SAURASHTRA DANDA|}$2",
+        ],
+        "description": [
+            "Code: U+A8CE",
+            "Character/Symbol: ꣎",
+            "Name: SAURASHTRA DANDA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣏ U+A8CF SAURASHTRA DOUBLE DANDA": 
+    {
+        "prefix": [
+            "..U.A8CF",
+            "..U.SAURASHTRA DOUBLE DANDA",
+            "U+A8CF",
+        ],
+        "body": [
+            "${1|꣏,&#xA8CF;,U+A8CF,0xA8CF,SAURASHTRA DOUBLE DANDA|}$2",
+        ],
+        "description": [
+            "Code: U+A8CF",
+            "Character/Symbol: ꣏",
+            "Name: SAURASHTRA DOUBLE DANDA",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣐ U+A8D0 SAURASHTRA DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.A8D0",
+            "..U.SAURASHTRA DIGIT ZERO",
+            "U+A8D0",
+        ],
+        "body": [
+            "${1|꣐,&#xA8D0;,U+A8D0,0xA8D0,SAURASHTRA DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+A8D0",
+            "Character/Symbol: ꣐",
+            "Name: SAURASHTRA DIGIT ZERO",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣑ U+A8D1 SAURASHTRA DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.A8D1",
+            "..U.SAURASHTRA DIGIT ONE",
+            "U+A8D1",
+        ],
+        "body": [
+            "${1|꣑,&#xA8D1;,U+A8D1,0xA8D1,SAURASHTRA DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+A8D1",
+            "Character/Symbol: ꣑",
+            "Name: SAURASHTRA DIGIT ONE",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣒ U+A8D2 SAURASHTRA DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.A8D2",
+            "..U.SAURASHTRA DIGIT TWO",
+            "U+A8D2",
+        ],
+        "body": [
+            "${1|꣒,&#xA8D2;,U+A8D2,0xA8D2,SAURASHTRA DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+A8D2",
+            "Character/Symbol: ꣒",
+            "Name: SAURASHTRA DIGIT TWO",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣓ U+A8D3 SAURASHTRA DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.A8D3",
+            "..U.SAURASHTRA DIGIT THREE",
+            "U+A8D3",
+        ],
+        "body": [
+            "${1|꣓,&#xA8D3;,U+A8D3,0xA8D3,SAURASHTRA DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+A8D3",
+            "Character/Symbol: ꣓",
+            "Name: SAURASHTRA DIGIT THREE",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣔ U+A8D4 SAURASHTRA DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.A8D4",
+            "..U.SAURASHTRA DIGIT FOUR",
+            "U+A8D4",
+        ],
+        "body": [
+            "${1|꣔,&#xA8D4;,U+A8D4,0xA8D4,SAURASHTRA DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+A8D4",
+            "Character/Symbol: ꣔",
+            "Name: SAURASHTRA DIGIT FOUR",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣕ U+A8D5 SAURASHTRA DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.A8D5",
+            "..U.SAURASHTRA DIGIT FIVE",
+            "U+A8D5",
+        ],
+        "body": [
+            "${1|꣕,&#xA8D5;,U+A8D5,0xA8D5,SAURASHTRA DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+A8D5",
+            "Character/Symbol: ꣕",
+            "Name: SAURASHTRA DIGIT FIVE",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣖ U+A8D6 SAURASHTRA DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.A8D6",
+            "..U.SAURASHTRA DIGIT SIX",
+            "U+A8D6",
+        ],
+        "body": [
+            "${1|꣖,&#xA8D6;,U+A8D6,0xA8D6,SAURASHTRA DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+A8D6",
+            "Character/Symbol: ꣖",
+            "Name: SAURASHTRA DIGIT SIX",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣗ U+A8D7 SAURASHTRA DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.A8D7",
+            "..U.SAURASHTRA DIGIT SEVEN",
+            "U+A8D7",
+        ],
+        "body": [
+            "${1|꣗,&#xA8D7;,U+A8D7,0xA8D7,SAURASHTRA DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+A8D7",
+            "Character/Symbol: ꣗",
+            "Name: SAURASHTRA DIGIT SEVEN",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣘ U+A8D8 SAURASHTRA DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.A8D8",
+            "..U.SAURASHTRA DIGIT EIGHT",
+            "U+A8D8",
+        ],
+        "body": [
+            "${1|꣘,&#xA8D8;,U+A8D8,0xA8D8,SAURASHTRA DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+A8D8",
+            "Character/Symbol: ꣘",
+            "Name: SAURASHTRA DIGIT EIGHT",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+    "Unicode ꣙ U+A8D9 SAURASHTRA DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.A8D9",
+            "..U.SAURASHTRA DIGIT NINE",
+            "U+A8D9",
+        ],
+        "body": [
+            "${1|꣙,&#xA8D9;,U+A8D9,0xA8D9,SAURASHTRA DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+A8D9",
+            "Character/Symbol: ꣙",
+            "Name: SAURASHTRA DIGIT NINE",
+            "Group/Block: Saurashtra",
+        ],
+    },
+
+}

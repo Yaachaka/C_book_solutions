@@ -1,0 +1,1640 @@
+{
+    "Unicode ඁ U+0D81 SINHALA SIGN CANDRABINDU": 
+    {
+        "prefix": [
+            "..U.0D81",
+            "..U.SINHALA SIGN CANDRABINDU",
+            "U+0D81",
+        ],
+        "body": [
+            "${1|ඁ,&#x0D81;,U+0D81,0x0D81,SINHALA SIGN CANDRABINDU|}$2",
+        ],
+        "description": [
+            "Code: U+0D81",
+            "Character/Symbol: ඁ",
+            "Name: SINHALA SIGN CANDRABINDU",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ං U+0D82 SINHALA SIGN ANUSVARAYA": 
+    {
+        "prefix": [
+            "..U.0D82",
+            "..U.SINHALA SIGN ANUSVARAYA",
+            "U+0D82",
+        ],
+        "body": [
+            "${1|ං,&#x0D82;,U+0D82,0x0D82,SINHALA SIGN ANUSVARAYA|}$2",
+        ],
+        "description": [
+            "Code: U+0D82",
+            "Character/Symbol: ං",
+            "Name: SINHALA SIGN ANUSVARAYA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඃ U+0D83 SINHALA SIGN VISARGAYA": 
+    {
+        "prefix": [
+            "..U.0D83",
+            "..U.SINHALA SIGN VISARGAYA",
+            "U+0D83",
+        ],
+        "body": [
+            "${1|ඃ,&#x0D83;,U+0D83,0x0D83,SINHALA SIGN VISARGAYA|}$2",
+        ],
+        "description": [
+            "Code: U+0D83",
+            "Character/Symbol: ඃ",
+            "Name: SINHALA SIGN VISARGAYA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode අ U+0D85 SINHALA LETTER AYANNA": 
+    {
+        "prefix": [
+            "..U.0D85",
+            "..U.SINHALA LETTER AYANNA",
+            "U+0D85",
+        ],
+        "body": [
+            "${1|අ,&#x0D85;,U+0D85,0x0D85,SINHALA LETTER AYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D85",
+            "Character/Symbol: අ",
+            "Name: SINHALA LETTER AYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ආ U+0D86 SINHALA LETTER AAYANNA": 
+    {
+        "prefix": [
+            "..U.0D86",
+            "..U.SINHALA LETTER AAYANNA",
+            "U+0D86",
+        ],
+        "body": [
+            "${1|ආ,&#x0D86;,U+0D86,0x0D86,SINHALA LETTER AAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D86",
+            "Character/Symbol: ආ",
+            "Name: SINHALA LETTER AAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඇ U+0D87 SINHALA LETTER AEYANNA": 
+    {
+        "prefix": [
+            "..U.0D87",
+            "..U.SINHALA LETTER AEYANNA",
+            "U+0D87",
+        ],
+        "body": [
+            "${1|ඇ,&#x0D87;,U+0D87,0x0D87,SINHALA LETTER AEYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D87",
+            "Character/Symbol: ඇ",
+            "Name: SINHALA LETTER AEYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඈ U+0D88 SINHALA LETTER AEEYANNA": 
+    {
+        "prefix": [
+            "..U.0D88",
+            "..U.SINHALA LETTER AEEYANNA",
+            "U+0D88",
+        ],
+        "body": [
+            "${1|ඈ,&#x0D88;,U+0D88,0x0D88,SINHALA LETTER AEEYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D88",
+            "Character/Symbol: ඈ",
+            "Name: SINHALA LETTER AEEYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඉ U+0D89 SINHALA LETTER IYANNA": 
+    {
+        "prefix": [
+            "..U.0D89",
+            "..U.SINHALA LETTER IYANNA",
+            "U+0D89",
+        ],
+        "body": [
+            "${1|ඉ,&#x0D89;,U+0D89,0x0D89,SINHALA LETTER IYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D89",
+            "Character/Symbol: ඉ",
+            "Name: SINHALA LETTER IYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඊ U+0D8A SINHALA LETTER IIYANNA": 
+    {
+        "prefix": [
+            "..U.0D8A",
+            "..U.SINHALA LETTER IIYANNA",
+            "U+0D8A",
+        ],
+        "body": [
+            "${1|ඊ,&#x0D8A;,U+0D8A,0x0D8A,SINHALA LETTER IIYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D8A",
+            "Character/Symbol: ඊ",
+            "Name: SINHALA LETTER IIYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode උ U+0D8B SINHALA LETTER UYANNA": 
+    {
+        "prefix": [
+            "..U.0D8B",
+            "..U.SINHALA LETTER UYANNA",
+            "U+0D8B",
+        ],
+        "body": [
+            "${1|උ,&#x0D8B;,U+0D8B,0x0D8B,SINHALA LETTER UYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D8B",
+            "Character/Symbol: උ",
+            "Name: SINHALA LETTER UYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඌ U+0D8C SINHALA LETTER UUYANNA": 
+    {
+        "prefix": [
+            "..U.0D8C",
+            "..U.SINHALA LETTER UUYANNA",
+            "U+0D8C",
+        ],
+        "body": [
+            "${1|ඌ,&#x0D8C;,U+0D8C,0x0D8C,SINHALA LETTER UUYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D8C",
+            "Character/Symbol: ඌ",
+            "Name: SINHALA LETTER UUYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඍ U+0D8D SINHALA LETTER IRUYANNA": 
+    {
+        "prefix": [
+            "..U.0D8D",
+            "..U.SINHALA LETTER IRUYANNA",
+            "U+0D8D",
+        ],
+        "body": [
+            "${1|ඍ,&#x0D8D;,U+0D8D,0x0D8D,SINHALA LETTER IRUYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D8D",
+            "Character/Symbol: ඍ",
+            "Name: SINHALA LETTER IRUYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඎ U+0D8E SINHALA LETTER IRUUYANNA": 
+    {
+        "prefix": [
+            "..U.0D8E",
+            "..U.SINHALA LETTER IRUUYANNA",
+            "U+0D8E",
+        ],
+        "body": [
+            "${1|ඎ,&#x0D8E;,U+0D8E,0x0D8E,SINHALA LETTER IRUUYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D8E",
+            "Character/Symbol: ඎ",
+            "Name: SINHALA LETTER IRUUYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඏ U+0D8F SINHALA LETTER ILUYANNA": 
+    {
+        "prefix": [
+            "..U.0D8F",
+            "..U.SINHALA LETTER ILUYANNA",
+            "U+0D8F",
+        ],
+        "body": [
+            "${1|ඏ,&#x0D8F;,U+0D8F,0x0D8F,SINHALA LETTER ILUYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D8F",
+            "Character/Symbol: ඏ",
+            "Name: SINHALA LETTER ILUYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඐ U+0D90 SINHALA LETTER ILUUYANNA": 
+    {
+        "prefix": [
+            "..U.0D90",
+            "..U.SINHALA LETTER ILUUYANNA",
+            "U+0D90",
+        ],
+        "body": [
+            "${1|ඐ,&#x0D90;,U+0D90,0x0D90,SINHALA LETTER ILUUYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D90",
+            "Character/Symbol: ඐ",
+            "Name: SINHALA LETTER ILUUYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode එ U+0D91 SINHALA LETTER EYANNA": 
+    {
+        "prefix": [
+            "..U.0D91",
+            "..U.SINHALA LETTER EYANNA",
+            "U+0D91",
+        ],
+        "body": [
+            "${1|එ,&#x0D91;,U+0D91,0x0D91,SINHALA LETTER EYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D91",
+            "Character/Symbol: එ",
+            "Name: SINHALA LETTER EYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඒ U+0D92 SINHALA LETTER EEYANNA": 
+    {
+        "prefix": [
+            "..U.0D92",
+            "..U.SINHALA LETTER EEYANNA",
+            "U+0D92",
+        ],
+        "body": [
+            "${1|ඒ,&#x0D92;,U+0D92,0x0D92,SINHALA LETTER EEYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D92",
+            "Character/Symbol: ඒ",
+            "Name: SINHALA LETTER EEYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඓ U+0D93 SINHALA LETTER AIYANNA": 
+    {
+        "prefix": [
+            "..U.0D93",
+            "..U.SINHALA LETTER AIYANNA",
+            "U+0D93",
+        ],
+        "body": [
+            "${1|ඓ,&#x0D93;,U+0D93,0x0D93,SINHALA LETTER AIYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D93",
+            "Character/Symbol: ඓ",
+            "Name: SINHALA LETTER AIYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඔ U+0D94 SINHALA LETTER OYANNA": 
+    {
+        "prefix": [
+            "..U.0D94",
+            "..U.SINHALA LETTER OYANNA",
+            "U+0D94",
+        ],
+        "body": [
+            "${1|ඔ,&#x0D94;,U+0D94,0x0D94,SINHALA LETTER OYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D94",
+            "Character/Symbol: ඔ",
+            "Name: SINHALA LETTER OYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඕ U+0D95 SINHALA LETTER OOYANNA": 
+    {
+        "prefix": [
+            "..U.0D95",
+            "..U.SINHALA LETTER OOYANNA",
+            "U+0D95",
+        ],
+        "body": [
+            "${1|ඕ,&#x0D95;,U+0D95,0x0D95,SINHALA LETTER OOYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D95",
+            "Character/Symbol: ඕ",
+            "Name: SINHALA LETTER OOYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඖ U+0D96 SINHALA LETTER AUYANNA": 
+    {
+        "prefix": [
+            "..U.0D96",
+            "..U.SINHALA LETTER AUYANNA",
+            "U+0D96",
+        ],
+        "body": [
+            "${1|ඖ,&#x0D96;,U+0D96,0x0D96,SINHALA LETTER AUYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D96",
+            "Character/Symbol: ඖ",
+            "Name: SINHALA LETTER AUYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ක U+0D9A SINHALA LETTER ALPAPRAANA KAYANNA": 
+    {
+        "prefix": [
+            "..U.0D9A",
+            "..U.SINHALA LETTER ALPAPRAANA KAYANNA",
+            "U+0D9A",
+        ],
+        "body": [
+            "${1|ක,&#x0D9A;,U+0D9A,0x0D9A,SINHALA LETTER ALPAPRAANA KAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D9A",
+            "Character/Symbol: ක",
+            "Name: SINHALA LETTER ALPAPRAANA KAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඛ U+0D9B SINHALA LETTER MAHAAPRAANA KAYANNA": 
+    {
+        "prefix": [
+            "..U.0D9B",
+            "..U.SINHALA LETTER MAHAAPRAANA KAYANNA",
+            "U+0D9B",
+        ],
+        "body": [
+            "${1|ඛ,&#x0D9B;,U+0D9B,0x0D9B,SINHALA LETTER MAHAAPRAANA KAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D9B",
+            "Character/Symbol: ඛ",
+            "Name: SINHALA LETTER MAHAAPRAANA KAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ග U+0D9C SINHALA LETTER ALPAPRAANA GAYANNA": 
+    {
+        "prefix": [
+            "..U.0D9C",
+            "..U.SINHALA LETTER ALPAPRAANA GAYANNA",
+            "U+0D9C",
+        ],
+        "body": [
+            "${1|ග,&#x0D9C;,U+0D9C,0x0D9C,SINHALA LETTER ALPAPRAANA GAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D9C",
+            "Character/Symbol: ග",
+            "Name: SINHALA LETTER ALPAPRAANA GAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඝ U+0D9D SINHALA LETTER MAHAAPRAANA GAYANNA": 
+    {
+        "prefix": [
+            "..U.0D9D",
+            "..U.SINHALA LETTER MAHAAPRAANA GAYANNA",
+            "U+0D9D",
+        ],
+        "body": [
+            "${1|ඝ,&#x0D9D;,U+0D9D,0x0D9D,SINHALA LETTER MAHAAPRAANA GAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D9D",
+            "Character/Symbol: ඝ",
+            "Name: SINHALA LETTER MAHAAPRAANA GAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඞ U+0D9E SINHALA LETTER KANTAJA NAASIKYAYA": 
+    {
+        "prefix": [
+            "..U.0D9E",
+            "..U.SINHALA LETTER KANTAJA NAASIKYAYA",
+            "U+0D9E",
+        ],
+        "body": [
+            "${1|ඞ,&#x0D9E;,U+0D9E,0x0D9E,SINHALA LETTER KANTAJA NAASIKYAYA|}$2",
+        ],
+        "description": [
+            "Code: U+0D9E",
+            "Character/Symbol: ඞ",
+            "Name: SINHALA LETTER KANTAJA NAASIKYAYA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඟ U+0D9F SINHALA LETTER SANYAKA GAYANNA": 
+    {
+        "prefix": [
+            "..U.0D9F",
+            "..U.SINHALA LETTER SANYAKA GAYANNA",
+            "U+0D9F",
+        ],
+        "body": [
+            "${1|ඟ,&#x0D9F;,U+0D9F,0x0D9F,SINHALA LETTER SANYAKA GAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0D9F",
+            "Character/Symbol: ඟ",
+            "Name: SINHALA LETTER SANYAKA GAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ච U+0DA0 SINHALA LETTER ALPAPRAANA CAYANNA": 
+    {
+        "prefix": [
+            "..U.0DA0",
+            "..U.SINHALA LETTER ALPAPRAANA CAYANNA",
+            "U+0DA0",
+        ],
+        "body": [
+            "${1|ච,&#x0DA0;,U+0DA0,0x0DA0,SINHALA LETTER ALPAPRAANA CAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DA0",
+            "Character/Symbol: ච",
+            "Name: SINHALA LETTER ALPAPRAANA CAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඡ U+0DA1 SINHALA LETTER MAHAAPRAANA CAYANNA": 
+    {
+        "prefix": [
+            "..U.0DA1",
+            "..U.SINHALA LETTER MAHAAPRAANA CAYANNA",
+            "U+0DA1",
+        ],
+        "body": [
+            "${1|ඡ,&#x0DA1;,U+0DA1,0x0DA1,SINHALA LETTER MAHAAPRAANA CAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DA1",
+            "Character/Symbol: ඡ",
+            "Name: SINHALA LETTER MAHAAPRAANA CAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ජ U+0DA2 SINHALA LETTER ALPAPRAANA JAYANNA": 
+    {
+        "prefix": [
+            "..U.0DA2",
+            "..U.SINHALA LETTER ALPAPRAANA JAYANNA",
+            "U+0DA2",
+        ],
+        "body": [
+            "${1|ජ,&#x0DA2;,U+0DA2,0x0DA2,SINHALA LETTER ALPAPRAANA JAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DA2",
+            "Character/Symbol: ජ",
+            "Name: SINHALA LETTER ALPAPRAANA JAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඣ U+0DA3 SINHALA LETTER MAHAAPRAANA JAYANNA": 
+    {
+        "prefix": [
+            "..U.0DA3",
+            "..U.SINHALA LETTER MAHAAPRAANA JAYANNA",
+            "U+0DA3",
+        ],
+        "body": [
+            "${1|ඣ,&#x0DA3;,U+0DA3,0x0DA3,SINHALA LETTER MAHAAPRAANA JAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DA3",
+            "Character/Symbol: ඣ",
+            "Name: SINHALA LETTER MAHAAPRAANA JAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඤ U+0DA4 SINHALA LETTER TAALUJA NAASIKYAYA": 
+    {
+        "prefix": [
+            "..U.0DA4",
+            "..U.SINHALA LETTER TAALUJA NAASIKYAYA",
+            "U+0DA4",
+        ],
+        "body": [
+            "${1|ඤ,&#x0DA4;,U+0DA4,0x0DA4,SINHALA LETTER TAALUJA NAASIKYAYA|}$2",
+        ],
+        "description": [
+            "Code: U+0DA4",
+            "Character/Symbol: ඤ",
+            "Name: SINHALA LETTER TAALUJA NAASIKYAYA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඥ U+0DA5 SINHALA LETTER TAALUJA SANYOOGA NAAKSIKYAYA": 
+    {
+        "prefix": [
+            "..U.0DA5",
+            "..U.SINHALA LETTER TAALUJA SANYOOGA NAAKSIKYAYA",
+            "U+0DA5",
+        ],
+        "body": [
+            "${1|ඥ,&#x0DA5;,U+0DA5,0x0DA5,SINHALA LETTER TAALUJA SANYOOGA NAAKSIKYAYA|}$2",
+        ],
+        "description": [
+            "Code: U+0DA5",
+            "Character/Symbol: ඥ",
+            "Name: SINHALA LETTER TAALUJA SANYOOGA NAAKSIKYAYA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඦ U+0DA6 SINHALA LETTER SANYAKA JAYANNA": 
+    {
+        "prefix": [
+            "..U.0DA6",
+            "..U.SINHALA LETTER SANYAKA JAYANNA",
+            "U+0DA6",
+        ],
+        "body": [
+            "${1|ඦ,&#x0DA6;,U+0DA6,0x0DA6,SINHALA LETTER SANYAKA JAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DA6",
+            "Character/Symbol: ඦ",
+            "Name: SINHALA LETTER SANYAKA JAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ට U+0DA7 SINHALA LETTER ALPAPRAANA TTAYANNA": 
+    {
+        "prefix": [
+            "..U.0DA7",
+            "..U.SINHALA LETTER ALPAPRAANA TTAYANNA",
+            "U+0DA7",
+        ],
+        "body": [
+            "${1|ට,&#x0DA7;,U+0DA7,0x0DA7,SINHALA LETTER ALPAPRAANA TTAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DA7",
+            "Character/Symbol: ට",
+            "Name: SINHALA LETTER ALPAPRAANA TTAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඨ U+0DA8 SINHALA LETTER MAHAAPRAANA TTAYANNA": 
+    {
+        "prefix": [
+            "..U.0DA8",
+            "..U.SINHALA LETTER MAHAAPRAANA TTAYANNA",
+            "U+0DA8",
+        ],
+        "body": [
+            "${1|ඨ,&#x0DA8;,U+0DA8,0x0DA8,SINHALA LETTER MAHAAPRAANA TTAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DA8",
+            "Character/Symbol: ඨ",
+            "Name: SINHALA LETTER MAHAAPRAANA TTAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඩ U+0DA9 SINHALA LETTER ALPAPRAANA DDAYANNA": 
+    {
+        "prefix": [
+            "..U.0DA9",
+            "..U.SINHALA LETTER ALPAPRAANA DDAYANNA",
+            "U+0DA9",
+        ],
+        "body": [
+            "${1|ඩ,&#x0DA9;,U+0DA9,0x0DA9,SINHALA LETTER ALPAPRAANA DDAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DA9",
+            "Character/Symbol: ඩ",
+            "Name: SINHALA LETTER ALPAPRAANA DDAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඪ U+0DAA SINHALA LETTER MAHAAPRAANA DDAYANNA": 
+    {
+        "prefix": [
+            "..U.0DAA",
+            "..U.SINHALA LETTER MAHAAPRAANA DDAYANNA",
+            "U+0DAA",
+        ],
+        "body": [
+            "${1|ඪ,&#x0DAA;,U+0DAA,0x0DAA,SINHALA LETTER MAHAAPRAANA DDAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DAA",
+            "Character/Symbol: ඪ",
+            "Name: SINHALA LETTER MAHAAPRAANA DDAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ණ U+0DAB SINHALA LETTER MUURDHAJA NAYANNA": 
+    {
+        "prefix": [
+            "..U.0DAB",
+            "..U.SINHALA LETTER MUURDHAJA NAYANNA",
+            "U+0DAB",
+        ],
+        "body": [
+            "${1|ණ,&#x0DAB;,U+0DAB,0x0DAB,SINHALA LETTER MUURDHAJA NAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DAB",
+            "Character/Symbol: ණ",
+            "Name: SINHALA LETTER MUURDHAJA NAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඬ U+0DAC SINHALA LETTER SANYAKA DDAYANNA": 
+    {
+        "prefix": [
+            "..U.0DAC",
+            "..U.SINHALA LETTER SANYAKA DDAYANNA",
+            "U+0DAC",
+        ],
+        "body": [
+            "${1|ඬ,&#x0DAC;,U+0DAC,0x0DAC,SINHALA LETTER SANYAKA DDAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DAC",
+            "Character/Symbol: ඬ",
+            "Name: SINHALA LETTER SANYAKA DDAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ත U+0DAD SINHALA LETTER ALPAPRAANA TAYANNA": 
+    {
+        "prefix": [
+            "..U.0DAD",
+            "..U.SINHALA LETTER ALPAPRAANA TAYANNA",
+            "U+0DAD",
+        ],
+        "body": [
+            "${1|ත,&#x0DAD;,U+0DAD,0x0DAD,SINHALA LETTER ALPAPRAANA TAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DAD",
+            "Character/Symbol: ත",
+            "Name: SINHALA LETTER ALPAPRAANA TAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ථ U+0DAE SINHALA LETTER MAHAAPRAANA TAYANNA": 
+    {
+        "prefix": [
+            "..U.0DAE",
+            "..U.SINHALA LETTER MAHAAPRAANA TAYANNA",
+            "U+0DAE",
+        ],
+        "body": [
+            "${1|ථ,&#x0DAE;,U+0DAE,0x0DAE,SINHALA LETTER MAHAAPRAANA TAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DAE",
+            "Character/Symbol: ථ",
+            "Name: SINHALA LETTER MAHAAPRAANA TAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ද U+0DAF SINHALA LETTER ALPAPRAANA DAYANNA": 
+    {
+        "prefix": [
+            "..U.0DAF",
+            "..U.SINHALA LETTER ALPAPRAANA DAYANNA",
+            "U+0DAF",
+        ],
+        "body": [
+            "${1|ද,&#x0DAF;,U+0DAF,0x0DAF,SINHALA LETTER ALPAPRAANA DAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DAF",
+            "Character/Symbol: ද",
+            "Name: SINHALA LETTER ALPAPRAANA DAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ධ U+0DB0 SINHALA LETTER MAHAAPRAANA DAYANNA": 
+    {
+        "prefix": [
+            "..U.0DB0",
+            "..U.SINHALA LETTER MAHAAPRAANA DAYANNA",
+            "U+0DB0",
+        ],
+        "body": [
+            "${1|ධ,&#x0DB0;,U+0DB0,0x0DB0,SINHALA LETTER MAHAAPRAANA DAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DB0",
+            "Character/Symbol: ධ",
+            "Name: SINHALA LETTER MAHAAPRAANA DAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode න U+0DB1 SINHALA LETTER DANTAJA NAYANNA": 
+    {
+        "prefix": [
+            "..U.0DB1",
+            "..U.SINHALA LETTER DANTAJA NAYANNA",
+            "U+0DB1",
+        ],
+        "body": [
+            "${1|න,&#x0DB1;,U+0DB1,0x0DB1,SINHALA LETTER DANTAJA NAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DB1",
+            "Character/Symbol: න",
+            "Name: SINHALA LETTER DANTAJA NAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඳ U+0DB3 SINHALA LETTER SANYAKA DAYANNA": 
+    {
+        "prefix": [
+            "..U.0DB3",
+            "..U.SINHALA LETTER SANYAKA DAYANNA",
+            "U+0DB3",
+        ],
+        "body": [
+            "${1|ඳ,&#x0DB3;,U+0DB3,0x0DB3,SINHALA LETTER SANYAKA DAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DB3",
+            "Character/Symbol: ඳ",
+            "Name: SINHALA LETTER SANYAKA DAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ප U+0DB4 SINHALA LETTER ALPAPRAANA PAYANNA": 
+    {
+        "prefix": [
+            "..U.0DB4",
+            "..U.SINHALA LETTER ALPAPRAANA PAYANNA",
+            "U+0DB4",
+        ],
+        "body": [
+            "${1|ප,&#x0DB4;,U+0DB4,0x0DB4,SINHALA LETTER ALPAPRAANA PAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DB4",
+            "Character/Symbol: ප",
+            "Name: SINHALA LETTER ALPAPRAANA PAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඵ U+0DB5 SINHALA LETTER MAHAAPRAANA PAYANNA": 
+    {
+        "prefix": [
+            "..U.0DB5",
+            "..U.SINHALA LETTER MAHAAPRAANA PAYANNA",
+            "U+0DB5",
+        ],
+        "body": [
+            "${1|ඵ,&#x0DB5;,U+0DB5,0x0DB5,SINHALA LETTER MAHAAPRAANA PAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DB5",
+            "Character/Symbol: ඵ",
+            "Name: SINHALA LETTER MAHAAPRAANA PAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode බ U+0DB6 SINHALA LETTER ALPAPRAANA BAYANNA": 
+    {
+        "prefix": [
+            "..U.0DB6",
+            "..U.SINHALA LETTER ALPAPRAANA BAYANNA",
+            "U+0DB6",
+        ],
+        "body": [
+            "${1|බ,&#x0DB6;,U+0DB6,0x0DB6,SINHALA LETTER ALPAPRAANA BAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DB6",
+            "Character/Symbol: බ",
+            "Name: SINHALA LETTER ALPAPRAANA BAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode භ U+0DB7 SINHALA LETTER MAHAAPRAANA BAYANNA": 
+    {
+        "prefix": [
+            "..U.0DB7",
+            "..U.SINHALA LETTER MAHAAPRAANA BAYANNA",
+            "U+0DB7",
+        ],
+        "body": [
+            "${1|භ,&#x0DB7;,U+0DB7,0x0DB7,SINHALA LETTER MAHAAPRAANA BAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DB7",
+            "Character/Symbol: භ",
+            "Name: SINHALA LETTER MAHAAPRAANA BAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ම U+0DB8 SINHALA LETTER MAYANNA": 
+    {
+        "prefix": [
+            "..U.0DB8",
+            "..U.SINHALA LETTER MAYANNA",
+            "U+0DB8",
+        ],
+        "body": [
+            "${1|ම,&#x0DB8;,U+0DB8,0x0DB8,SINHALA LETTER MAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DB8",
+            "Character/Symbol: ම",
+            "Name: SINHALA LETTER MAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ඹ U+0DB9 SINHALA LETTER AMBA BAYANNA": 
+    {
+        "prefix": [
+            "..U.0DB9",
+            "..U.SINHALA LETTER AMBA BAYANNA",
+            "U+0DB9",
+        ],
+        "body": [
+            "${1|ඹ,&#x0DB9;,U+0DB9,0x0DB9,SINHALA LETTER AMBA BAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DB9",
+            "Character/Symbol: ඹ",
+            "Name: SINHALA LETTER AMBA BAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ය U+0DBA SINHALA LETTER YAYANNA": 
+    {
+        "prefix": [
+            "..U.0DBA",
+            "..U.SINHALA LETTER YAYANNA",
+            "U+0DBA",
+        ],
+        "body": [
+            "${1|ය,&#x0DBA;,U+0DBA,0x0DBA,SINHALA LETTER YAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DBA",
+            "Character/Symbol: ය",
+            "Name: SINHALA LETTER YAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ර U+0DBB SINHALA LETTER RAYANNA": 
+    {
+        "prefix": [
+            "..U.0DBB",
+            "..U.SINHALA LETTER RAYANNA",
+            "U+0DBB",
+        ],
+        "body": [
+            "${1|ර,&#x0DBB;,U+0DBB,0x0DBB,SINHALA LETTER RAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DBB",
+            "Character/Symbol: ර",
+            "Name: SINHALA LETTER RAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ල U+0DBD SINHALA LETTER DANTAJA LAYANNA": 
+    {
+        "prefix": [
+            "..U.0DBD",
+            "..U.SINHALA LETTER DANTAJA LAYANNA",
+            "U+0DBD",
+        ],
+        "body": [
+            "${1|ල,&#x0DBD;,U+0DBD,0x0DBD,SINHALA LETTER DANTAJA LAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DBD",
+            "Character/Symbol: ල",
+            "Name: SINHALA LETTER DANTAJA LAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ව U+0DC0 SINHALA LETTER VAYANNA": 
+    {
+        "prefix": [
+            "..U.0DC0",
+            "..U.SINHALA LETTER VAYANNA",
+            "U+0DC0",
+        ],
+        "body": [
+            "${1|ව,&#x0DC0;,U+0DC0,0x0DC0,SINHALA LETTER VAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DC0",
+            "Character/Symbol: ව",
+            "Name: SINHALA LETTER VAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ශ U+0DC1 SINHALA LETTER TAALUJA SAYANNA": 
+    {
+        "prefix": [
+            "..U.0DC1",
+            "..U.SINHALA LETTER TAALUJA SAYANNA",
+            "U+0DC1",
+        ],
+        "body": [
+            "${1|ශ,&#x0DC1;,U+0DC1,0x0DC1,SINHALA LETTER TAALUJA SAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DC1",
+            "Character/Symbol: ශ",
+            "Name: SINHALA LETTER TAALUJA SAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෂ U+0DC2 SINHALA LETTER MUURDHAJA SAYANNA": 
+    {
+        "prefix": [
+            "..U.0DC2",
+            "..U.SINHALA LETTER MUURDHAJA SAYANNA",
+            "U+0DC2",
+        ],
+        "body": [
+            "${1|ෂ,&#x0DC2;,U+0DC2,0x0DC2,SINHALA LETTER MUURDHAJA SAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DC2",
+            "Character/Symbol: ෂ",
+            "Name: SINHALA LETTER MUURDHAJA SAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ස U+0DC3 SINHALA LETTER DANTAJA SAYANNA": 
+    {
+        "prefix": [
+            "..U.0DC3",
+            "..U.SINHALA LETTER DANTAJA SAYANNA",
+            "U+0DC3",
+        ],
+        "body": [
+            "${1|ස,&#x0DC3;,U+0DC3,0x0DC3,SINHALA LETTER DANTAJA SAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DC3",
+            "Character/Symbol: ස",
+            "Name: SINHALA LETTER DANTAJA SAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode හ U+0DC4 SINHALA LETTER HAYANNA": 
+    {
+        "prefix": [
+            "..U.0DC4",
+            "..U.SINHALA LETTER HAYANNA",
+            "U+0DC4",
+        ],
+        "body": [
+            "${1|හ,&#x0DC4;,U+0DC4,0x0DC4,SINHALA LETTER HAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DC4",
+            "Character/Symbol: හ",
+            "Name: SINHALA LETTER HAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ළ U+0DC5 SINHALA LETTER MUURDHAJA LAYANNA": 
+    {
+        "prefix": [
+            "..U.0DC5",
+            "..U.SINHALA LETTER MUURDHAJA LAYANNA",
+            "U+0DC5",
+        ],
+        "body": [
+            "${1|ළ,&#x0DC5;,U+0DC5,0x0DC5,SINHALA LETTER MUURDHAJA LAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DC5",
+            "Character/Symbol: ළ",
+            "Name: SINHALA LETTER MUURDHAJA LAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෆ U+0DC6 SINHALA LETTER FAYANNA": 
+    {
+        "prefix": [
+            "..U.0DC6",
+            "..U.SINHALA LETTER FAYANNA",
+            "U+0DC6",
+        ],
+        "body": [
+            "${1|ෆ,&#x0DC6;,U+0DC6,0x0DC6,SINHALA LETTER FAYANNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DC6",
+            "Character/Symbol: ෆ",
+            "Name: SINHALA LETTER FAYANNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ් U+0DCA SINHALA SIGN AL-LAKUNA": 
+    {
+        "prefix": [
+            "..U.0DCA",
+            "..U.SINHALA SIGN AL-LAKUNA",
+            "U+0DCA",
+        ],
+        "body": [
+            "${1|්,&#x0DCA;,U+0DCA,0x0DCA,SINHALA SIGN AL-LAKUNA|}$2",
+        ],
+        "description": [
+            "Code: U+0DCA",
+            "Character/Symbol: ්",
+            "Name: SINHALA SIGN AL-LAKUNA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ා U+0DCF SINHALA VOWEL SIGN AELA-PILLA": 
+    {
+        "prefix": [
+            "..U.0DCF",
+            "..U.SINHALA VOWEL SIGN AELA-PILLA",
+            "U+0DCF",
+        ],
+        "body": [
+            "${1|ා,&#x0DCF;,U+0DCF,0x0DCF,SINHALA VOWEL SIGN AELA-PILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0DCF",
+            "Character/Symbol: ා",
+            "Name: SINHALA VOWEL SIGN AELA-PILLA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ැ U+0DD0 SINHALA VOWEL SIGN KETTI AEDA-PILLA": 
+    {
+        "prefix": [
+            "..U.0DD0",
+            "..U.SINHALA VOWEL SIGN KETTI AEDA-PILLA",
+            "U+0DD0",
+        ],
+        "body": [
+            "${1|ැ,&#x0DD0;,U+0DD0,0x0DD0,SINHALA VOWEL SIGN KETTI AEDA-PILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0DD0",
+            "Character/Symbol: ැ",
+            "Name: SINHALA VOWEL SIGN KETTI AEDA-PILLA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෑ U+0DD1 SINHALA VOWEL SIGN DIGA AEDA-PILLA": 
+    {
+        "prefix": [
+            "..U.0DD1",
+            "..U.SINHALA VOWEL SIGN DIGA AEDA-PILLA",
+            "U+0DD1",
+        ],
+        "body": [
+            "${1|ෑ,&#x0DD1;,U+0DD1,0x0DD1,SINHALA VOWEL SIGN DIGA AEDA-PILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0DD1",
+            "Character/Symbol: ෑ",
+            "Name: SINHALA VOWEL SIGN DIGA AEDA-PILLA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ි U+0DD2 SINHALA VOWEL SIGN KETTI IS-PILLA": 
+    {
+        "prefix": [
+            "..U.0DD2",
+            "..U.SINHALA VOWEL SIGN KETTI IS-PILLA",
+            "U+0DD2",
+        ],
+        "body": [
+            "${1|ි,&#x0DD2;,U+0DD2,0x0DD2,SINHALA VOWEL SIGN KETTI IS-PILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0DD2",
+            "Character/Symbol: ි",
+            "Name: SINHALA VOWEL SIGN KETTI IS-PILLA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ී U+0DD3 SINHALA VOWEL SIGN DIGA IS-PILLA": 
+    {
+        "prefix": [
+            "..U.0DD3",
+            "..U.SINHALA VOWEL SIGN DIGA IS-PILLA",
+            "U+0DD3",
+        ],
+        "body": [
+            "${1|ී,&#x0DD3;,U+0DD3,0x0DD3,SINHALA VOWEL SIGN DIGA IS-PILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0DD3",
+            "Character/Symbol: ී",
+            "Name: SINHALA VOWEL SIGN DIGA IS-PILLA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ු U+0DD4 SINHALA VOWEL SIGN KETTI PAA-PILLA": 
+    {
+        "prefix": [
+            "..U.0DD4",
+            "..U.SINHALA VOWEL SIGN KETTI PAA-PILLA",
+            "U+0DD4",
+        ],
+        "body": [
+            "${1|ු,&#x0DD4;,U+0DD4,0x0DD4,SINHALA VOWEL SIGN KETTI PAA-PILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0DD4",
+            "Character/Symbol: ු",
+            "Name: SINHALA VOWEL SIGN KETTI PAA-PILLA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ූ U+0DD6 SINHALA VOWEL SIGN DIGA PAA-PILLA": 
+    {
+        "prefix": [
+            "..U.0DD6",
+            "..U.SINHALA VOWEL SIGN DIGA PAA-PILLA",
+            "U+0DD6",
+        ],
+        "body": [
+            "${1|ූ,&#x0DD6;,U+0DD6,0x0DD6,SINHALA VOWEL SIGN DIGA PAA-PILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0DD6",
+            "Character/Symbol: ූ",
+            "Name: SINHALA VOWEL SIGN DIGA PAA-PILLA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෘ U+0DD8 SINHALA VOWEL SIGN GAETTA-PILLA": 
+    {
+        "prefix": [
+            "..U.0DD8",
+            "..U.SINHALA VOWEL SIGN GAETTA-PILLA",
+            "U+0DD8",
+        ],
+        "body": [
+            "${1|ෘ,&#x0DD8;,U+0DD8,0x0DD8,SINHALA VOWEL SIGN GAETTA-PILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0DD8",
+            "Character/Symbol: ෘ",
+            "Name: SINHALA VOWEL SIGN GAETTA-PILLA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෙ U+0DD9 SINHALA VOWEL SIGN KOMBUVA": 
+    {
+        "prefix": [
+            "..U.0DD9",
+            "..U.SINHALA VOWEL SIGN KOMBUVA",
+            "U+0DD9",
+        ],
+        "body": [
+            "${1|ෙ,&#x0DD9;,U+0DD9,0x0DD9,SINHALA VOWEL SIGN KOMBUVA|}$2",
+        ],
+        "description": [
+            "Code: U+0DD9",
+            "Character/Symbol: ෙ",
+            "Name: SINHALA VOWEL SIGN KOMBUVA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ේ U+0DDA SINHALA VOWEL SIGN DIGA KOMBUVA": 
+    {
+        "prefix": [
+            "..U.0DDA",
+            "..U.SINHALA VOWEL SIGN DIGA KOMBUVA",
+            "U+0DDA",
+        ],
+        "body": [
+            "${1|ේ,&#x0DDA;,U+0DDA,0x0DDA,SINHALA VOWEL SIGN DIGA KOMBUVA|}$2",
+        ],
+        "description": [
+            "Code: U+0DDA",
+            "Character/Symbol: ේ",
+            "Name: SINHALA VOWEL SIGN DIGA KOMBUVA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෛ U+0DDB SINHALA VOWEL SIGN KOMBU DEKA": 
+    {
+        "prefix": [
+            "..U.0DDB",
+            "..U.SINHALA VOWEL SIGN KOMBU DEKA",
+            "U+0DDB",
+        ],
+        "body": [
+            "${1|ෛ,&#x0DDB;,U+0DDB,0x0DDB,SINHALA VOWEL SIGN KOMBU DEKA|}$2",
+        ],
+        "description": [
+            "Code: U+0DDB",
+            "Character/Symbol: ෛ",
+            "Name: SINHALA VOWEL SIGN KOMBU DEKA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ො U+0DDC SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA": 
+    {
+        "prefix": [
+            "..U.0DDC",
+            "..U.SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA",
+            "U+0DDC",
+        ],
+        "body": [
+            "${1|ො,&#x0DDC;,U+0DDC,0x0DDC,SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0DDC",
+            "Character/Symbol: ො",
+            "Name: SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෝ U+0DDD SINHALA VOWEL SIGN KOMBUVA HAA DIGA AELA-PILLA": 
+    {
+        "prefix": [
+            "..U.0DDD",
+            "..U.SINHALA VOWEL SIGN KOMBUVA HAA DIGA AELA-PILLA",
+            "U+0DDD",
+        ],
+        "body": [
+            "${1|ෝ,&#x0DDD;,U+0DDD,0x0DDD,SINHALA VOWEL SIGN KOMBUVA HAA DIGA AELA-PILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0DDD",
+            "Character/Symbol: ෝ",
+            "Name: SINHALA VOWEL SIGN KOMBUVA HAA DIGA AELA-PILLA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෞ U+0DDE SINHALA VOWEL SIGN KOMBUVA HAA GAYANUKITTA": 
+    {
+        "prefix": [
+            "..U.0DDE",
+            "..U.SINHALA VOWEL SIGN KOMBUVA HAA GAYANUKITTA",
+            "U+0DDE",
+        ],
+        "body": [
+            "${1|ෞ,&#x0DDE;,U+0DDE,0x0DDE,SINHALA VOWEL SIGN KOMBUVA HAA GAYANUKITTA|}$2",
+        ],
+        "description": [
+            "Code: U+0DDE",
+            "Character/Symbol: ෞ",
+            "Name: SINHALA VOWEL SIGN KOMBUVA HAA GAYANUKITTA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෟ U+0DDF SINHALA VOWEL SIGN GAYANUKITTA": 
+    {
+        "prefix": [
+            "..U.0DDF",
+            "..U.SINHALA VOWEL SIGN GAYANUKITTA",
+            "U+0DDF",
+        ],
+        "body": [
+            "${1|ෟ,&#x0DDF;,U+0DDF,0x0DDF,SINHALA VOWEL SIGN GAYANUKITTA|}$2",
+        ],
+        "description": [
+            "Code: U+0DDF",
+            "Character/Symbol: ෟ",
+            "Name: SINHALA VOWEL SIGN GAYANUKITTA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෦ U+0DE6 SINHALA LITH DIGIT ZERO": 
+    {
+        "prefix": [
+            "..U.0DE6",
+            "..U.SINHALA LITH DIGIT ZERO",
+            "U+0DE6",
+        ],
+        "body": [
+            "${1|෦,&#x0DE6;,U+0DE6,0x0DE6,SINHALA LITH DIGIT ZERO|}$2",
+        ],
+        "description": [
+            "Code: U+0DE6",
+            "Character/Symbol: ෦",
+            "Name: SINHALA LITH DIGIT ZERO",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෧ U+0DE7 SINHALA LITH DIGIT ONE": 
+    {
+        "prefix": [
+            "..U.0DE7",
+            "..U.SINHALA LITH DIGIT ONE",
+            "U+0DE7",
+        ],
+        "body": [
+            "${1|෧,&#x0DE7;,U+0DE7,0x0DE7,SINHALA LITH DIGIT ONE|}$2",
+        ],
+        "description": [
+            "Code: U+0DE7",
+            "Character/Symbol: ෧",
+            "Name: SINHALA LITH DIGIT ONE",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෨ U+0DE8 SINHALA LITH DIGIT TWO": 
+    {
+        "prefix": [
+            "..U.0DE8",
+            "..U.SINHALA LITH DIGIT TWO",
+            "U+0DE8",
+        ],
+        "body": [
+            "${1|෨,&#x0DE8;,U+0DE8,0x0DE8,SINHALA LITH DIGIT TWO|}$2",
+        ],
+        "description": [
+            "Code: U+0DE8",
+            "Character/Symbol: ෨",
+            "Name: SINHALA LITH DIGIT TWO",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෩ U+0DE9 SINHALA LITH DIGIT THREE": 
+    {
+        "prefix": [
+            "..U.0DE9",
+            "..U.SINHALA LITH DIGIT THREE",
+            "U+0DE9",
+        ],
+        "body": [
+            "${1|෩,&#x0DE9;,U+0DE9,0x0DE9,SINHALA LITH DIGIT THREE|}$2",
+        ],
+        "description": [
+            "Code: U+0DE9",
+            "Character/Symbol: ෩",
+            "Name: SINHALA LITH DIGIT THREE",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෪ U+0DEA SINHALA LITH DIGIT FOUR": 
+    {
+        "prefix": [
+            "..U.0DEA",
+            "..U.SINHALA LITH DIGIT FOUR",
+            "U+0DEA",
+        ],
+        "body": [
+            "${1|෪,&#x0DEA;,U+0DEA,0x0DEA,SINHALA LITH DIGIT FOUR|}$2",
+        ],
+        "description": [
+            "Code: U+0DEA",
+            "Character/Symbol: ෪",
+            "Name: SINHALA LITH DIGIT FOUR",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෫ U+0DEB SINHALA LITH DIGIT FIVE": 
+    {
+        "prefix": [
+            "..U.0DEB",
+            "..U.SINHALA LITH DIGIT FIVE",
+            "U+0DEB",
+        ],
+        "body": [
+            "${1|෫,&#x0DEB;,U+0DEB,0x0DEB,SINHALA LITH DIGIT FIVE|}$2",
+        ],
+        "description": [
+            "Code: U+0DEB",
+            "Character/Symbol: ෫",
+            "Name: SINHALA LITH DIGIT FIVE",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෬ U+0DEC SINHALA LITH DIGIT SIX": 
+    {
+        "prefix": [
+            "..U.0DEC",
+            "..U.SINHALA LITH DIGIT SIX",
+            "U+0DEC",
+        ],
+        "body": [
+            "${1|෬,&#x0DEC;,U+0DEC,0x0DEC,SINHALA LITH DIGIT SIX|}$2",
+        ],
+        "description": [
+            "Code: U+0DEC",
+            "Character/Symbol: ෬",
+            "Name: SINHALA LITH DIGIT SIX",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෭ U+0DED SINHALA LITH DIGIT SEVEN": 
+    {
+        "prefix": [
+            "..U.0DED",
+            "..U.SINHALA LITH DIGIT SEVEN",
+            "U+0DED",
+        ],
+        "body": [
+            "${1|෭,&#x0DED;,U+0DED,0x0DED,SINHALA LITH DIGIT SEVEN|}$2",
+        ],
+        "description": [
+            "Code: U+0DED",
+            "Character/Symbol: ෭",
+            "Name: SINHALA LITH DIGIT SEVEN",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෮ U+0DEE SINHALA LITH DIGIT EIGHT": 
+    {
+        "prefix": [
+            "..U.0DEE",
+            "..U.SINHALA LITH DIGIT EIGHT",
+            "U+0DEE",
+        ],
+        "body": [
+            "${1|෮,&#x0DEE;,U+0DEE,0x0DEE,SINHALA LITH DIGIT EIGHT|}$2",
+        ],
+        "description": [
+            "Code: U+0DEE",
+            "Character/Symbol: ෮",
+            "Name: SINHALA LITH DIGIT EIGHT",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෯ U+0DEF SINHALA LITH DIGIT NINE": 
+    {
+        "prefix": [
+            "..U.0DEF",
+            "..U.SINHALA LITH DIGIT NINE",
+            "U+0DEF",
+        ],
+        "body": [
+            "${1|෯,&#x0DEF;,U+0DEF,0x0DEF,SINHALA LITH DIGIT NINE|}$2",
+        ],
+        "description": [
+            "Code: U+0DEF",
+            "Character/Symbol: ෯",
+            "Name: SINHALA LITH DIGIT NINE",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෲ U+0DF2 SINHALA VOWEL SIGN DIGA GAETTA-PILLA": 
+    {
+        "prefix": [
+            "..U.0DF2",
+            "..U.SINHALA VOWEL SIGN DIGA GAETTA-PILLA",
+            "U+0DF2",
+        ],
+        "body": [
+            "${1|ෲ,&#x0DF2;,U+0DF2,0x0DF2,SINHALA VOWEL SIGN DIGA GAETTA-PILLA|}$2",
+        ],
+        "description": [
+            "Code: U+0DF2",
+            "Character/Symbol: ෲ",
+            "Name: SINHALA VOWEL SIGN DIGA GAETTA-PILLA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෳ U+0DF3 SINHALA VOWEL SIGN DIGA GAYANUKITTA": 
+    {
+        "prefix": [
+            "..U.0DF3",
+            "..U.SINHALA VOWEL SIGN DIGA GAYANUKITTA",
+            "U+0DF3",
+        ],
+        "body": [
+            "${1|ෳ,&#x0DF3;,U+0DF3,0x0DF3,SINHALA VOWEL SIGN DIGA GAYANUKITTA|}$2",
+        ],
+        "description": [
+            "Code: U+0DF3",
+            "Character/Symbol: ෳ",
+            "Name: SINHALA VOWEL SIGN DIGA GAYANUKITTA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+    "Unicode ෴ U+0DF4 SINHALA PUNCTUATION KUNDDALIYA": 
+    {
+        "prefix": [
+            "..U.0DF4",
+            "..U.SINHALA PUNCTUATION KUNDDALIYA",
+            "U+0DF4",
+        ],
+        "body": [
+            "${1|෴,&#x0DF4;,U+0DF4,0x0DF4,SINHALA PUNCTUATION KUNDDALIYA|}$2",
+        ],
+        "description": [
+            "Code: U+0DF4",
+            "Character/Symbol: ෴",
+            "Name: SINHALA PUNCTUATION KUNDDALIYA",
+            "Group/Block: Sinhala",
+        ],
+    },
+
+}

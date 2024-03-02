@@ -1,0 +1,776 @@
+{
+    "Unicode ᳐ U+1CD0 VEDIC TONE KARSHANA": 
+    {
+        "prefix": [
+            "..U.1CD0",
+            "..U.VEDIC TONE KARSHANA",
+            "U+1CD0",
+        ],
+        "body": [
+            "${1|᳐,&#x1CD0;,U+1CD0,0x1CD0,VEDIC TONE KARSHANA|}$2",
+        ],
+        "description": [
+            "Code: U+1CD0",
+            "Character/Symbol: ᳐",
+            "Name: VEDIC TONE KARSHANA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳑ U+1CD1 VEDIC TONE SHARA": 
+    {
+        "prefix": [
+            "..U.1CD1",
+            "..U.VEDIC TONE SHARA",
+            "U+1CD1",
+        ],
+        "body": [
+            "${1|᳑,&#x1CD1;,U+1CD1,0x1CD1,VEDIC TONE SHARA|}$2",
+        ],
+        "description": [
+            "Code: U+1CD1",
+            "Character/Symbol: ᳑",
+            "Name: VEDIC TONE SHARA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳒ U+1CD2 VEDIC TONE PRENKHA": 
+    {
+        "prefix": [
+            "..U.1CD2",
+            "..U.VEDIC TONE PRENKHA",
+            "U+1CD2",
+        ],
+        "body": [
+            "${1|᳒,&#x1CD2;,U+1CD2,0x1CD2,VEDIC TONE PRENKHA|}$2",
+        ],
+        "description": [
+            "Code: U+1CD2",
+            "Character/Symbol: ᳒",
+            "Name: VEDIC TONE PRENKHA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳓ U+1CD3 VEDIC SIGN NIHSHVASA": 
+    {
+        "prefix": [
+            "..U.1CD3",
+            "..U.VEDIC SIGN NIHSHVASA",
+            "U+1CD3",
+        ],
+        "body": [
+            "${1|᳓,&#x1CD3;,U+1CD3,0x1CD3,VEDIC SIGN NIHSHVASA|}$2",
+        ],
+        "description": [
+            "Code: U+1CD3",
+            "Character/Symbol: ᳓",
+            "Name: VEDIC SIGN NIHSHVASA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳔ U+1CD4 VEDIC SIGN YAJURVEDIC MIDLINE SVARITA": 
+    {
+        "prefix": [
+            "..U.1CD4",
+            "..U.VEDIC SIGN YAJURVEDIC MIDLINE SVARITA",
+            "U+1CD4",
+        ],
+        "body": [
+            "${1|᳔,&#x1CD4;,U+1CD4,0x1CD4,VEDIC SIGN YAJURVEDIC MIDLINE SVARITA|}$2",
+        ],
+        "description": [
+            "Code: U+1CD4",
+            "Character/Symbol: ᳔",
+            "Name: VEDIC SIGN YAJURVEDIC MIDLINE SVARITA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳕ U+1CD5 VEDIC TONE YAJURVEDIC AGGRAVATED INDEPENDENT SVARITA": 
+    {
+        "prefix": [
+            "..U.1CD5",
+            "..U.VEDIC TONE YAJURVEDIC AGGRAVATED INDEPENDENT SVARITA",
+            "U+1CD5",
+        ],
+        "body": [
+            "${1|᳕,&#x1CD5;,U+1CD5,0x1CD5,VEDIC TONE YAJURVEDIC AGGRAVATED INDEPENDENT SVARITA|}$2",
+        ],
+        "description": [
+            "Code: U+1CD5",
+            "Character/Symbol: ᳕",
+            "Name: VEDIC TONE YAJURVEDIC AGGRAVATED INDEPENDENT SVARITA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳖ U+1CD6 VEDIC TONE YAJURVEDIC INDEPENDENT SVARITA": 
+    {
+        "prefix": [
+            "..U.1CD6",
+            "..U.VEDIC TONE YAJURVEDIC INDEPENDENT SVARITA",
+            "U+1CD6",
+        ],
+        "body": [
+            "${1|᳖,&#x1CD6;,U+1CD6,0x1CD6,VEDIC TONE YAJURVEDIC INDEPENDENT SVARITA|}$2",
+        ],
+        "description": [
+            "Code: U+1CD6",
+            "Character/Symbol: ᳖",
+            "Name: VEDIC TONE YAJURVEDIC INDEPENDENT SVARITA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳗ U+1CD7 VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA": 
+    {
+        "prefix": [
+            "..U.1CD7",
+            "..U.VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA",
+            "U+1CD7",
+        ],
+        "body": [
+            "${1|᳗,&#x1CD7;,U+1CD7,0x1CD7,VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA|}$2",
+        ],
+        "description": [
+            "Code: U+1CD7",
+            "Character/Symbol: ᳗",
+            "Name: VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳘ U+1CD8 VEDIC TONE CANDRA BELOW": 
+    {
+        "prefix": [
+            "..U.1CD8",
+            "..U.VEDIC TONE CANDRA BELOW",
+            "U+1CD8",
+        ],
+        "body": [
+            "${1|᳘,&#x1CD8;,U+1CD8,0x1CD8,VEDIC TONE CANDRA BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1CD8",
+            "Character/Symbol: ᳘",
+            "Name: VEDIC TONE CANDRA BELOW",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳙ U+1CD9 VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER": 
+    {
+        "prefix": [
+            "..U.1CD9",
+            "..U.VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER",
+            "U+1CD9",
+        ],
+        "body": [
+            "${1|᳙,&#x1CD9;,U+1CD9,0x1CD9,VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER|}$2",
+        ],
+        "description": [
+            "Code: U+1CD9",
+            "Character/Symbol: ᳙",
+            "Name: VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳚ U+1CDA VEDIC TONE DOUBLE SVARITA": 
+    {
+        "prefix": [
+            "..U.1CDA",
+            "..U.VEDIC TONE DOUBLE SVARITA",
+            "U+1CDA",
+        ],
+        "body": [
+            "${1|᳚,&#x1CDA;,U+1CDA,0x1CDA,VEDIC TONE DOUBLE SVARITA|}$2",
+        ],
+        "description": [
+            "Code: U+1CDA",
+            "Character/Symbol: ᳚",
+            "Name: VEDIC TONE DOUBLE SVARITA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳛ U+1CDB VEDIC TONE TRIPLE SVARITA": 
+    {
+        "prefix": [
+            "..U.1CDB",
+            "..U.VEDIC TONE TRIPLE SVARITA",
+            "U+1CDB",
+        ],
+        "body": [
+            "${1|᳛,&#x1CDB;,U+1CDB,0x1CDB,VEDIC TONE TRIPLE SVARITA|}$2",
+        ],
+        "description": [
+            "Code: U+1CDB",
+            "Character/Symbol: ᳛",
+            "Name: VEDIC TONE TRIPLE SVARITA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳜ U+1CDC VEDIC TONE KATHAKA ANUDATTA": 
+    {
+        "prefix": [
+            "..U.1CDC",
+            "..U.VEDIC TONE KATHAKA ANUDATTA",
+            "U+1CDC",
+        ],
+        "body": [
+            "${1|᳜,&#x1CDC;,U+1CDC,0x1CDC,VEDIC TONE KATHAKA ANUDATTA|}$2",
+        ],
+        "description": [
+            "Code: U+1CDC",
+            "Character/Symbol: ᳜",
+            "Name: VEDIC TONE KATHAKA ANUDATTA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳝ U+1CDD VEDIC TONE DOT BELOW": 
+    {
+        "prefix": [
+            "..U.1CDD",
+            "..U.VEDIC TONE DOT BELOW",
+            "U+1CDD",
+        ],
+        "body": [
+            "${1|᳝,&#x1CDD;,U+1CDD,0x1CDD,VEDIC TONE DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1CDD",
+            "Character/Symbol: ᳝",
+            "Name: VEDIC TONE DOT BELOW",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳞ U+1CDE VEDIC TONE TWO DOTS BELOW": 
+    {
+        "prefix": [
+            "..U.1CDE",
+            "..U.VEDIC TONE TWO DOTS BELOW",
+            "U+1CDE",
+        ],
+        "body": [
+            "${1|᳞,&#x1CDE;,U+1CDE,0x1CDE,VEDIC TONE TWO DOTS BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1CDE",
+            "Character/Symbol: ᳞",
+            "Name: VEDIC TONE TWO DOTS BELOW",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳟ U+1CDF VEDIC TONE THREE DOTS BELOW": 
+    {
+        "prefix": [
+            "..U.1CDF",
+            "..U.VEDIC TONE THREE DOTS BELOW",
+            "U+1CDF",
+        ],
+        "body": [
+            "${1|᳟,&#x1CDF;,U+1CDF,0x1CDF,VEDIC TONE THREE DOTS BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+1CDF",
+            "Character/Symbol: ᳟",
+            "Name: VEDIC TONE THREE DOTS BELOW",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳠ U+1CE0 VEDIC TONE RIGVEDIC KASHMIRI INDEPENDENT SVARITA": 
+    {
+        "prefix": [
+            "..U.1CE0",
+            "..U.VEDIC TONE RIGVEDIC KASHMIRI INDEPENDENT SVARITA",
+            "U+1CE0",
+        ],
+        "body": [
+            "${1|᳠,&#x1CE0;,U+1CE0,0x1CE0,VEDIC TONE RIGVEDIC KASHMIRI INDEPENDENT SVARITA|}$2",
+        ],
+        "description": [
+            "Code: U+1CE0",
+            "Character/Symbol: ᳠",
+            "Name: VEDIC TONE RIGVEDIC KASHMIRI INDEPENDENT SVARITA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳡ U+1CE1 VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA": 
+    {
+        "prefix": [
+            "..U.1CE1",
+            "..U.VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA",
+            "U+1CE1",
+        ],
+        "body": [
+            "${1|᳡,&#x1CE1;,U+1CE1,0x1CE1,VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA|}$2",
+        ],
+        "description": [
+            "Code: U+1CE1",
+            "Character/Symbol: ᳡",
+            "Name: VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳢ U+1CE2 VEDIC SIGN VISARGA SVARITA": 
+    {
+        "prefix": [
+            "..U.1CE2",
+            "..U.VEDIC SIGN VISARGA SVARITA",
+            "U+1CE2",
+        ],
+        "body": [
+            "${1|᳢,&#x1CE2;,U+1CE2,0x1CE2,VEDIC SIGN VISARGA SVARITA|}$2",
+        ],
+        "description": [
+            "Code: U+1CE2",
+            "Character/Symbol: ᳢",
+            "Name: VEDIC SIGN VISARGA SVARITA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳣ U+1CE3 VEDIC SIGN VISARGA UDATTA": 
+    {
+        "prefix": [
+            "..U.1CE3",
+            "..U.VEDIC SIGN VISARGA UDATTA",
+            "U+1CE3",
+        ],
+        "body": [
+            "${1|᳣,&#x1CE3;,U+1CE3,0x1CE3,VEDIC SIGN VISARGA UDATTA|}$2",
+        ],
+        "description": [
+            "Code: U+1CE3",
+            "Character/Symbol: ᳣",
+            "Name: VEDIC SIGN VISARGA UDATTA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳤ U+1CE4 VEDIC SIGN REVERSED VISARGA UDATTA": 
+    {
+        "prefix": [
+            "..U.1CE4",
+            "..U.VEDIC SIGN REVERSED VISARGA UDATTA",
+            "U+1CE4",
+        ],
+        "body": [
+            "${1|᳤,&#x1CE4;,U+1CE4,0x1CE4,VEDIC SIGN REVERSED VISARGA UDATTA|}$2",
+        ],
+        "description": [
+            "Code: U+1CE4",
+            "Character/Symbol: ᳤",
+            "Name: VEDIC SIGN REVERSED VISARGA UDATTA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳥ U+1CE5 VEDIC SIGN VISARGA ANUDATTA": 
+    {
+        "prefix": [
+            "..U.1CE5",
+            "..U.VEDIC SIGN VISARGA ANUDATTA",
+            "U+1CE5",
+        ],
+        "body": [
+            "${1|᳥,&#x1CE5;,U+1CE5,0x1CE5,VEDIC SIGN VISARGA ANUDATTA|}$2",
+        ],
+        "description": [
+            "Code: U+1CE5",
+            "Character/Symbol: ᳥",
+            "Name: VEDIC SIGN VISARGA ANUDATTA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳦ U+1CE6 VEDIC SIGN REVERSED VISARGA ANUDATTA": 
+    {
+        "prefix": [
+            "..U.1CE6",
+            "..U.VEDIC SIGN REVERSED VISARGA ANUDATTA",
+            "U+1CE6",
+        ],
+        "body": [
+            "${1|᳦,&#x1CE6;,U+1CE6,0x1CE6,VEDIC SIGN REVERSED VISARGA ANUDATTA|}$2",
+        ],
+        "description": [
+            "Code: U+1CE6",
+            "Character/Symbol: ᳦",
+            "Name: VEDIC SIGN REVERSED VISARGA ANUDATTA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳧ U+1CE7 VEDIC SIGN VISARGA UDATTA WITH TAIL": 
+    {
+        "prefix": [
+            "..U.1CE7",
+            "..U.VEDIC SIGN VISARGA UDATTA WITH TAIL",
+            "U+1CE7",
+        ],
+        "body": [
+            "${1|᳧,&#x1CE7;,U+1CE7,0x1CE7,VEDIC SIGN VISARGA UDATTA WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+1CE7",
+            "Character/Symbol: ᳧",
+            "Name: VEDIC SIGN VISARGA UDATTA WITH TAIL",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳨ U+1CE8 VEDIC SIGN VISARGA ANUDATTA WITH TAIL": 
+    {
+        "prefix": [
+            "..U.1CE8",
+            "..U.VEDIC SIGN VISARGA ANUDATTA WITH TAIL",
+            "U+1CE8",
+        ],
+        "body": [
+            "${1|᳨,&#x1CE8;,U+1CE8,0x1CE8,VEDIC SIGN VISARGA ANUDATTA WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+1CE8",
+            "Character/Symbol: ᳨",
+            "Name: VEDIC SIGN VISARGA ANUDATTA WITH TAIL",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳩ U+1CE9 VEDIC SIGN ANUSVARA ANTARGOMUKHA": 
+    {
+        "prefix": [
+            "..U.1CE9",
+            "..U.VEDIC SIGN ANUSVARA ANTARGOMUKHA",
+            "U+1CE9",
+        ],
+        "body": [
+            "${1|ᳩ,&#x1CE9;,U+1CE9,0x1CE9,VEDIC SIGN ANUSVARA ANTARGOMUKHA|}$2",
+        ],
+        "description": [
+            "Code: U+1CE9",
+            "Character/Symbol: ᳩ",
+            "Name: VEDIC SIGN ANUSVARA ANTARGOMUKHA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳪ U+1CEA VEDIC SIGN ANUSVARA BAHIRGOMUKHA": 
+    {
+        "prefix": [
+            "..U.1CEA",
+            "..U.VEDIC SIGN ANUSVARA BAHIRGOMUKHA",
+            "U+1CEA",
+        ],
+        "body": [
+            "${1|ᳪ,&#x1CEA;,U+1CEA,0x1CEA,VEDIC SIGN ANUSVARA BAHIRGOMUKHA|}$2",
+        ],
+        "description": [
+            "Code: U+1CEA",
+            "Character/Symbol: ᳪ",
+            "Name: VEDIC SIGN ANUSVARA BAHIRGOMUKHA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳫ U+1CEB VEDIC SIGN ANUSVARA VAMAGOMUKHA": 
+    {
+        "prefix": [
+            "..U.1CEB",
+            "..U.VEDIC SIGN ANUSVARA VAMAGOMUKHA",
+            "U+1CEB",
+        ],
+        "body": [
+            "${1|ᳫ,&#x1CEB;,U+1CEB,0x1CEB,VEDIC SIGN ANUSVARA VAMAGOMUKHA|}$2",
+        ],
+        "description": [
+            "Code: U+1CEB",
+            "Character/Symbol: ᳫ",
+            "Name: VEDIC SIGN ANUSVARA VAMAGOMUKHA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳬ U+1CEC VEDIC SIGN ANUSVARA VAMAGOMUKHA WITH TAIL": 
+    {
+        "prefix": [
+            "..U.1CEC",
+            "..U.VEDIC SIGN ANUSVARA VAMAGOMUKHA WITH TAIL",
+            "U+1CEC",
+        ],
+        "body": [
+            "${1|ᳬ,&#x1CEC;,U+1CEC,0x1CEC,VEDIC SIGN ANUSVARA VAMAGOMUKHA WITH TAIL|}$2",
+        ],
+        "description": [
+            "Code: U+1CEC",
+            "Character/Symbol: ᳬ",
+            "Name: VEDIC SIGN ANUSVARA VAMAGOMUKHA WITH TAIL",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳭ U+1CED VEDIC SIGN TIRYAK": 
+    {
+        "prefix": [
+            "..U.1CED",
+            "..U.VEDIC SIGN TIRYAK",
+            "U+1CED",
+        ],
+        "body": [
+            "${1|᳭,&#x1CED;,U+1CED,0x1CED,VEDIC SIGN TIRYAK|}$2",
+        ],
+        "description": [
+            "Code: U+1CED",
+            "Character/Symbol: ᳭",
+            "Name: VEDIC SIGN TIRYAK",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳮ U+1CEE VEDIC SIGN HEXIFORM LONG ANUSVARA": 
+    {
+        "prefix": [
+            "..U.1CEE",
+            "..U.VEDIC SIGN HEXIFORM LONG ANUSVARA",
+            "U+1CEE",
+        ],
+        "body": [
+            "${1|ᳮ,&#x1CEE;,U+1CEE,0x1CEE,VEDIC SIGN HEXIFORM LONG ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+1CEE",
+            "Character/Symbol: ᳮ",
+            "Name: VEDIC SIGN HEXIFORM LONG ANUSVARA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳯ U+1CEF VEDIC SIGN LONG ANUSVARA": 
+    {
+        "prefix": [
+            "..U.1CEF",
+            "..U.VEDIC SIGN LONG ANUSVARA",
+            "U+1CEF",
+        ],
+        "body": [
+            "${1|ᳯ,&#x1CEF;,U+1CEF,0x1CEF,VEDIC SIGN LONG ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+1CEF",
+            "Character/Symbol: ᳯ",
+            "Name: VEDIC SIGN LONG ANUSVARA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳰ U+1CF0 VEDIC SIGN RTHANG LONG ANUSVARA": 
+    {
+        "prefix": [
+            "..U.1CF0",
+            "..U.VEDIC SIGN RTHANG LONG ANUSVARA",
+            "U+1CF0",
+        ],
+        "body": [
+            "${1|ᳰ,&#x1CF0;,U+1CF0,0x1CF0,VEDIC SIGN RTHANG LONG ANUSVARA|}$2",
+        ],
+        "description": [
+            "Code: U+1CF0",
+            "Character/Symbol: ᳰ",
+            "Name: VEDIC SIGN RTHANG LONG ANUSVARA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳱ U+1CF1 VEDIC SIGN ANUSVARA UBHAYATO MUKHA": 
+    {
+        "prefix": [
+            "..U.1CF1",
+            "..U.VEDIC SIGN ANUSVARA UBHAYATO MUKHA",
+            "U+1CF1",
+        ],
+        "body": [
+            "${1|ᳱ,&#x1CF1;,U+1CF1,0x1CF1,VEDIC SIGN ANUSVARA UBHAYATO MUKHA|}$2",
+        ],
+        "description": [
+            "Code: U+1CF1",
+            "Character/Symbol: ᳱ",
+            "Name: VEDIC SIGN ANUSVARA UBHAYATO MUKHA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳲ U+1CF2 VEDIC SIGN ARDHAVISARGA": 
+    {
+        "prefix": [
+            "..U.1CF2",
+            "..U.VEDIC SIGN ARDHAVISARGA",
+            "U+1CF2",
+        ],
+        "body": [
+            "${1|ᳲ,&#x1CF2;,U+1CF2,0x1CF2,VEDIC SIGN ARDHAVISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+1CF2",
+            "Character/Symbol: ᳲ",
+            "Name: VEDIC SIGN ARDHAVISARGA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳳ U+1CF3 VEDIC SIGN ROTATED ARDHAVISARGA": 
+    {
+        "prefix": [
+            "..U.1CF3",
+            "..U.VEDIC SIGN ROTATED ARDHAVISARGA",
+            "U+1CF3",
+        ],
+        "body": [
+            "${1|ᳳ,&#x1CF3;,U+1CF3,0x1CF3,VEDIC SIGN ROTATED ARDHAVISARGA|}$2",
+        ],
+        "description": [
+            "Code: U+1CF3",
+            "Character/Symbol: ᳳ",
+            "Name: VEDIC SIGN ROTATED ARDHAVISARGA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳴ U+1CF4 VEDIC TONE CANDRA ABOVE": 
+    {
+        "prefix": [
+            "..U.1CF4",
+            "..U.VEDIC TONE CANDRA ABOVE",
+            "U+1CF4",
+        ],
+        "body": [
+            "${1|᳴,&#x1CF4;,U+1CF4,0x1CF4,VEDIC TONE CANDRA ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1CF4",
+            "Character/Symbol: ᳴",
+            "Name: VEDIC TONE CANDRA ABOVE",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳵ U+1CF5 VEDIC SIGN JIHVAMULIYA": 
+    {
+        "prefix": [
+            "..U.1CF5",
+            "..U.VEDIC SIGN JIHVAMULIYA",
+            "U+1CF5",
+        ],
+        "body": [
+            "${1|ᳵ,&#x1CF5;,U+1CF5,0x1CF5,VEDIC SIGN JIHVAMULIYA|}$2",
+        ],
+        "description": [
+            "Code: U+1CF5",
+            "Character/Symbol: ᳵ",
+            "Name: VEDIC SIGN JIHVAMULIYA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳶ U+1CF6 VEDIC SIGN UPADHMANIYA": 
+    {
+        "prefix": [
+            "..U.1CF6",
+            "..U.VEDIC SIGN UPADHMANIYA",
+            "U+1CF6",
+        ],
+        "body": [
+            "${1|ᳶ,&#x1CF6;,U+1CF6,0x1CF6,VEDIC SIGN UPADHMANIYA|}$2",
+        ],
+        "description": [
+            "Code: U+1CF6",
+            "Character/Symbol: ᳶ",
+            "Name: VEDIC SIGN UPADHMANIYA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳷ U+1CF7 VEDIC SIGN ATIKRAMA": 
+    {
+        "prefix": [
+            "..U.1CF7",
+            "..U.VEDIC SIGN ATIKRAMA",
+            "U+1CF7",
+        ],
+        "body": [
+            "${1|᳷,&#x1CF7;,U+1CF7,0x1CF7,VEDIC SIGN ATIKRAMA|}$2",
+        ],
+        "description": [
+            "Code: U+1CF7",
+            "Character/Symbol: ᳷",
+            "Name: VEDIC SIGN ATIKRAMA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳸ U+1CF8 VEDIC TONE RING ABOVE": 
+    {
+        "prefix": [
+            "..U.1CF8",
+            "..U.VEDIC TONE RING ABOVE",
+            "U+1CF8",
+        ],
+        "body": [
+            "${1|᳸,&#x1CF8;,U+1CF8,0x1CF8,VEDIC TONE RING ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1CF8",
+            "Character/Symbol: ᳸",
+            "Name: VEDIC TONE RING ABOVE",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳹ U+1CF9 VEDIC TONE DOUBLE RING ABOVE": 
+    {
+        "prefix": [
+            "..U.1CF9",
+            "..U.VEDIC TONE DOUBLE RING ABOVE",
+            "U+1CF9",
+        ],
+        "body": [
+            "${1|᳹,&#x1CF9;,U+1CF9,0x1CF9,VEDIC TONE DOUBLE RING ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+1CF9",
+            "Character/Symbol: ᳹",
+            "Name: VEDIC TONE DOUBLE RING ABOVE",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+    "Unicode ᳺ U+1CFA VEDIC SIGN DOUBLE ANUSVARA ANTARGOMUKHA": 
+    {
+        "prefix": [
+            "..U.1CFA",
+            "..U.VEDIC SIGN DOUBLE ANUSVARA ANTARGOMUKHA",
+            "U+1CFA",
+        ],
+        "body": [
+            "${1|ᳺ,&#x1CFA;,U+1CFA,0x1CFA,VEDIC SIGN DOUBLE ANUSVARA ANTARGOMUKHA|}$2",
+        ],
+        "description": [
+            "Code: U+1CFA",
+            "Character/Symbol: ᳺ",
+            "Name: VEDIC SIGN DOUBLE ANUSVARA ANTARGOMUKHA",
+            "Group/Block: Vedic_Ext",
+        ],
+    },
+
+}

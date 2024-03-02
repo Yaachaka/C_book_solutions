@@ -1,0 +1,470 @@
+{
+    "Unicode 𐽰 U+10F70 OLD UYGHUR LETTER ALEPH": 
+    {
+        "prefix": [
+            "..U.10F70",
+            "..U.OLD UYGHUR LETTER ALEPH",
+            "U+10F70",
+        ],
+        "body": [
+            "${1|𐽰,&#x10F70;,U+10F70,0x10F70,OLD UYGHUR LETTER ALEPH|}$2",
+        ],
+        "description": [
+            "Code: U+10F70",
+            "Character/Symbol: 𐽰",
+            "Name: OLD UYGHUR LETTER ALEPH",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽱 U+10F71 OLD UYGHUR LETTER BETH": 
+    {
+        "prefix": [
+            "..U.10F71",
+            "..U.OLD UYGHUR LETTER BETH",
+            "U+10F71",
+        ],
+        "body": [
+            "${1|𐽱,&#x10F71;,U+10F71,0x10F71,OLD UYGHUR LETTER BETH|}$2",
+        ],
+        "description": [
+            "Code: U+10F71",
+            "Character/Symbol: 𐽱",
+            "Name: OLD UYGHUR LETTER BETH",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽲 U+10F72 OLD UYGHUR LETTER GIMEL-HETH": 
+    {
+        "prefix": [
+            "..U.10F72",
+            "..U.OLD UYGHUR LETTER GIMEL-HETH",
+            "U+10F72",
+        ],
+        "body": [
+            "${1|𐽲,&#x10F72;,U+10F72,0x10F72,OLD UYGHUR LETTER GIMEL-HETH|}$2",
+        ],
+        "description": [
+            "Code: U+10F72",
+            "Character/Symbol: 𐽲",
+            "Name: OLD UYGHUR LETTER GIMEL-HETH",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽳 U+10F73 OLD UYGHUR LETTER WAW": 
+    {
+        "prefix": [
+            "..U.10F73",
+            "..U.OLD UYGHUR LETTER WAW",
+            "U+10F73",
+        ],
+        "body": [
+            "${1|𐽳,&#x10F73;,U+10F73,0x10F73,OLD UYGHUR LETTER WAW|}$2",
+        ],
+        "description": [
+            "Code: U+10F73",
+            "Character/Symbol: 𐽳",
+            "Name: OLD UYGHUR LETTER WAW",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽴 U+10F74 OLD UYGHUR LETTER ZAYIN": 
+    {
+        "prefix": [
+            "..U.10F74",
+            "..U.OLD UYGHUR LETTER ZAYIN",
+            "U+10F74",
+        ],
+        "body": [
+            "${1|𐽴,&#x10F74;,U+10F74,0x10F74,OLD UYGHUR LETTER ZAYIN|}$2",
+        ],
+        "description": [
+            "Code: U+10F74",
+            "Character/Symbol: 𐽴",
+            "Name: OLD UYGHUR LETTER ZAYIN",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽵 U+10F75 OLD UYGHUR LETTER FINAL HETH": 
+    {
+        "prefix": [
+            "..U.10F75",
+            "..U.OLD UYGHUR LETTER FINAL HETH",
+            "U+10F75",
+        ],
+        "body": [
+            "${1|𐽵,&#x10F75;,U+10F75,0x10F75,OLD UYGHUR LETTER FINAL HETH|}$2",
+        ],
+        "description": [
+            "Code: U+10F75",
+            "Character/Symbol: 𐽵",
+            "Name: OLD UYGHUR LETTER FINAL HETH",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽶 U+10F76 OLD UYGHUR LETTER YODH": 
+    {
+        "prefix": [
+            "..U.10F76",
+            "..U.OLD UYGHUR LETTER YODH",
+            "U+10F76",
+        ],
+        "body": [
+            "${1|𐽶,&#x10F76;,U+10F76,0x10F76,OLD UYGHUR LETTER YODH|}$2",
+        ],
+        "description": [
+            "Code: U+10F76",
+            "Character/Symbol: 𐽶",
+            "Name: OLD UYGHUR LETTER YODH",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽷 U+10F77 OLD UYGHUR LETTER KAPH": 
+    {
+        "prefix": [
+            "..U.10F77",
+            "..U.OLD UYGHUR LETTER KAPH",
+            "U+10F77",
+        ],
+        "body": [
+            "${1|𐽷,&#x10F77;,U+10F77,0x10F77,OLD UYGHUR LETTER KAPH|}$2",
+        ],
+        "description": [
+            "Code: U+10F77",
+            "Character/Symbol: 𐽷",
+            "Name: OLD UYGHUR LETTER KAPH",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽸 U+10F78 OLD UYGHUR LETTER LAMEDH": 
+    {
+        "prefix": [
+            "..U.10F78",
+            "..U.OLD UYGHUR LETTER LAMEDH",
+            "U+10F78",
+        ],
+        "body": [
+            "${1|𐽸,&#x10F78;,U+10F78,0x10F78,OLD UYGHUR LETTER LAMEDH|}$2",
+        ],
+        "description": [
+            "Code: U+10F78",
+            "Character/Symbol: 𐽸",
+            "Name: OLD UYGHUR LETTER LAMEDH",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽹 U+10F79 OLD UYGHUR LETTER MEM": 
+    {
+        "prefix": [
+            "..U.10F79",
+            "..U.OLD UYGHUR LETTER MEM",
+            "U+10F79",
+        ],
+        "body": [
+            "${1|𐽹,&#x10F79;,U+10F79,0x10F79,OLD UYGHUR LETTER MEM|}$2",
+        ],
+        "description": [
+            "Code: U+10F79",
+            "Character/Symbol: 𐽹",
+            "Name: OLD UYGHUR LETTER MEM",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽺 U+10F7A OLD UYGHUR LETTER NUN": 
+    {
+        "prefix": [
+            "..U.10F7A",
+            "..U.OLD UYGHUR LETTER NUN",
+            "U+10F7A",
+        ],
+        "body": [
+            "${1|𐽺,&#x10F7A;,U+10F7A,0x10F7A,OLD UYGHUR LETTER NUN|}$2",
+        ],
+        "description": [
+            "Code: U+10F7A",
+            "Character/Symbol: 𐽺",
+            "Name: OLD UYGHUR LETTER NUN",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽻 U+10F7B OLD UYGHUR LETTER SAMEKH": 
+    {
+        "prefix": [
+            "..U.10F7B",
+            "..U.OLD UYGHUR LETTER SAMEKH",
+            "U+10F7B",
+        ],
+        "body": [
+            "${1|𐽻,&#x10F7B;,U+10F7B,0x10F7B,OLD UYGHUR LETTER SAMEKH|}$2",
+        ],
+        "description": [
+            "Code: U+10F7B",
+            "Character/Symbol: 𐽻",
+            "Name: OLD UYGHUR LETTER SAMEKH",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽼 U+10F7C OLD UYGHUR LETTER PE": 
+    {
+        "prefix": [
+            "..U.10F7C",
+            "..U.OLD UYGHUR LETTER PE",
+            "U+10F7C",
+        ],
+        "body": [
+            "${1|𐽼,&#x10F7C;,U+10F7C,0x10F7C,OLD UYGHUR LETTER PE|}$2",
+        ],
+        "description": [
+            "Code: U+10F7C",
+            "Character/Symbol: 𐽼",
+            "Name: OLD UYGHUR LETTER PE",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽽 U+10F7D OLD UYGHUR LETTER SADHE": 
+    {
+        "prefix": [
+            "..U.10F7D",
+            "..U.OLD UYGHUR LETTER SADHE",
+            "U+10F7D",
+        ],
+        "body": [
+            "${1|𐽽,&#x10F7D;,U+10F7D,0x10F7D,OLD UYGHUR LETTER SADHE|}$2",
+        ],
+        "description": [
+            "Code: U+10F7D",
+            "Character/Symbol: 𐽽",
+            "Name: OLD UYGHUR LETTER SADHE",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽾 U+10F7E OLD UYGHUR LETTER RESH": 
+    {
+        "prefix": [
+            "..U.10F7E",
+            "..U.OLD UYGHUR LETTER RESH",
+            "U+10F7E",
+        ],
+        "body": [
+            "${1|𐽾,&#x10F7E;,U+10F7E,0x10F7E,OLD UYGHUR LETTER RESH|}$2",
+        ],
+        "description": [
+            "Code: U+10F7E",
+            "Character/Symbol: 𐽾",
+            "Name: OLD UYGHUR LETTER RESH",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐽿 U+10F7F OLD UYGHUR LETTER SHIN": 
+    {
+        "prefix": [
+            "..U.10F7F",
+            "..U.OLD UYGHUR LETTER SHIN",
+            "U+10F7F",
+        ],
+        "body": [
+            "${1|𐽿,&#x10F7F;,U+10F7F,0x10F7F,OLD UYGHUR LETTER SHIN|}$2",
+        ],
+        "description": [
+            "Code: U+10F7F",
+            "Character/Symbol: 𐽿",
+            "Name: OLD UYGHUR LETTER SHIN",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐾀 U+10F80 OLD UYGHUR LETTER TAW": 
+    {
+        "prefix": [
+            "..U.10F80",
+            "..U.OLD UYGHUR LETTER TAW",
+            "U+10F80",
+        ],
+        "body": [
+            "${1|𐾀,&#x10F80;,U+10F80,0x10F80,OLD UYGHUR LETTER TAW|}$2",
+        ],
+        "description": [
+            "Code: U+10F80",
+            "Character/Symbol: 𐾀",
+            "Name: OLD UYGHUR LETTER TAW",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐾁 U+10F81 OLD UYGHUR LETTER LESH": 
+    {
+        "prefix": [
+            "..U.10F81",
+            "..U.OLD UYGHUR LETTER LESH",
+            "U+10F81",
+        ],
+        "body": [
+            "${1|𐾁,&#x10F81;,U+10F81,0x10F81,OLD UYGHUR LETTER LESH|}$2",
+        ],
+        "description": [
+            "Code: U+10F81",
+            "Character/Symbol: 𐾁",
+            "Name: OLD UYGHUR LETTER LESH",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐾂 U+10F82 OLD UYGHUR COMBINING DOT ABOVE": 
+    {
+        "prefix": [
+            "..U.10F82",
+            "..U.OLD UYGHUR COMBINING DOT ABOVE",
+            "U+10F82",
+        ],
+        "body": [
+            "${1|𐾂,&#x10F82;,U+10F82,0x10F82,OLD UYGHUR COMBINING DOT ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+10F82",
+            "Character/Symbol: 𐾂",
+            "Name: OLD UYGHUR COMBINING DOT ABOVE",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐾃 U+10F83 OLD UYGHUR COMBINING DOT BELOW": 
+    {
+        "prefix": [
+            "..U.10F83",
+            "..U.OLD UYGHUR COMBINING DOT BELOW",
+            "U+10F83",
+        ],
+        "body": [
+            "${1|𐾃,&#x10F83;,U+10F83,0x10F83,OLD UYGHUR COMBINING DOT BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+10F83",
+            "Character/Symbol: 𐾃",
+            "Name: OLD UYGHUR COMBINING DOT BELOW",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐾄 U+10F84 OLD UYGHUR COMBINING TWO DOTS ABOVE": 
+    {
+        "prefix": [
+            "..U.10F84",
+            "..U.OLD UYGHUR COMBINING TWO DOTS ABOVE",
+            "U+10F84",
+        ],
+        "body": [
+            "${1|𐾄,&#x10F84;,U+10F84,0x10F84,OLD UYGHUR COMBINING TWO DOTS ABOVE|}$2",
+        ],
+        "description": [
+            "Code: U+10F84",
+            "Character/Symbol: 𐾄",
+            "Name: OLD UYGHUR COMBINING TWO DOTS ABOVE",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐾅 U+10F85 OLD UYGHUR COMBINING TWO DOTS BELOW": 
+    {
+        "prefix": [
+            "..U.10F85",
+            "..U.OLD UYGHUR COMBINING TWO DOTS BELOW",
+            "U+10F85",
+        ],
+        "body": [
+            "${1|𐾅,&#x10F85;,U+10F85,0x10F85,OLD UYGHUR COMBINING TWO DOTS BELOW|}$2",
+        ],
+        "description": [
+            "Code: U+10F85",
+            "Character/Symbol: 𐾅",
+            "Name: OLD UYGHUR COMBINING TWO DOTS BELOW",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐾆 U+10F86 OLD UYGHUR PUNCTUATION BAR": 
+    {
+        "prefix": [
+            "..U.10F86",
+            "..U.OLD UYGHUR PUNCTUATION BAR",
+            "U+10F86",
+        ],
+        "body": [
+            "${1|𐾆,&#x10F86;,U+10F86,0x10F86,OLD UYGHUR PUNCTUATION BAR|}$2",
+        ],
+        "description": [
+            "Code: U+10F86",
+            "Character/Symbol: 𐾆",
+            "Name: OLD UYGHUR PUNCTUATION BAR",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐾇 U+10F87 OLD UYGHUR PUNCTUATION TWO BARS": 
+    {
+        "prefix": [
+            "..U.10F87",
+            "..U.OLD UYGHUR PUNCTUATION TWO BARS",
+            "U+10F87",
+        ],
+        "body": [
+            "${1|𐾇,&#x10F87;,U+10F87,0x10F87,OLD UYGHUR PUNCTUATION TWO BARS|}$2",
+        ],
+        "description": [
+            "Code: U+10F87",
+            "Character/Symbol: 𐾇",
+            "Name: OLD UYGHUR PUNCTUATION TWO BARS",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐾈 U+10F88 OLD UYGHUR PUNCTUATION TWO DOTS": 
+    {
+        "prefix": [
+            "..U.10F88",
+            "..U.OLD UYGHUR PUNCTUATION TWO DOTS",
+            "U+10F88",
+        ],
+        "body": [
+            "${1|𐾈,&#x10F88;,U+10F88,0x10F88,OLD UYGHUR PUNCTUATION TWO DOTS|}$2",
+        ],
+        "description": [
+            "Code: U+10F88",
+            "Character/Symbol: 𐾈",
+            "Name: OLD UYGHUR PUNCTUATION TWO DOTS",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+    "Unicode 𐾉 U+10F89 OLD UYGHUR PUNCTUATION FOUR DOTS": 
+    {
+        "prefix": [
+            "..U.10F89",
+            "..U.OLD UYGHUR PUNCTUATION FOUR DOTS",
+            "U+10F89",
+        ],
+        "body": [
+            "${1|𐾉,&#x10F89;,U+10F89,0x10F89,OLD UYGHUR PUNCTUATION FOUR DOTS|}$2",
+        ],
+        "description": [
+            "Code: U+10F89",
+            "Character/Symbol: 𐾉",
+            "Name: OLD UYGHUR PUNCTUATION FOUR DOTS",
+            "Group/Block: Old_Uyghur",
+        ],
+    },
+
+}
