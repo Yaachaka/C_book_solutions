@@ -1,1425 +1,5 @@
 Exercises
 
-Show the output produced by cach of the following program fragments. Assume that 1.
-and k are int variables.
-@i 1l=5:4 =3
-princE(medtedn NI R/ St )
-) i=2;j=3;
-
-printf("ed", (i + 10) % j)
-(© i=17; k=9;
-printf£("s¥d", (i + 20) $ k / 1)+
-
-Exercises 69
-
-@i=1;3 =2; k=3
-printE("¥d", (i + 5) % (3 + 2) /[ k)
-@ *2. Ifiand ] are positive integers, docs (-1) /3 always have the same value as - (1/3) ? Jus-
-tify your answer.
-
-3. What is the value of each of the following expressions in C89? (Give all possible values if
-an expression may have more than one value.)
-@8 /s
-M) -8 /5
-© 8/ -5
-(dr =8/ =5
-
-4. Repeat Exercise 3 for C99.
-
-w
-
-What is the value of each of the following expressions in C897 (Give all possible values if
-an expression may have more than one value.)
-
-@ 8 %5
-
-®) -8 %5
-
-() 8 % -5
-
-()-8l % -5
-
-6. Repeat Exercise 5 for C99.
-
-7. The algorithm for computing the UPC check digit ends with the following steps:
-
-Subtract 1 from the total.
-
-Compute the remainder when the adjusted total is divided by 10.
-Subtract the remainder from 9.
-
-It's tempting to try to simplify the algorithm by using these steps instead:
-
-Compute the remainder when the total is divided by 10.
-Subtract the remainder from 10,
-
-‘Why doesn’t this technique work?
-
-8.  Would the upc.c program still work if the expression 9 - ( (total - 1) % 10) were
-replaced by (10 - (total $10)) %107
-
-Section 4.2 ® 9. Show the output produced by each of the following program fragments. Assume that i, 3.
-and k are int variables.
-@i=17;9=8;
-a5
-printf ("%d $4", i,
-= 1;
-
-k =
-T
-("% %d %", i, 3§, K);
-1; § =2; k= 3;
-J == k;
-
-printf ("%d %d %¥d", i
-(d) & = 27 4 = 3; fe'="0F
-
-1= *= k;
-
-printf(r2d %4 %", i, j, k);
-
-70 Chapter 4 Expressions
-
-10, Show the output produced by each of the following program fragments. Assume that i and
-1 are int variables.
-(a) i = 67
-§ =4 4= i
-printf("%d %ad", i, j);
-®) 1=
-3§ = (1 == 2) + 1;
-printf("%d %d*, i, §);
-© i=7;
-=6+ (i=2.5);
-printf("sd %d", i, j);
-@ i=259=8;
-§i= @E ey & (4 =35
-printf("%d %", i, j);
-
-Section 4.3 *11.  Show the output produced by each of the following program fragments. Assume that i, j,
-and k are int variables.
-@ i=1;
-printf("$d ", i++ - 1);
-printf("sd", 1i);
-() i = 10; j
-
-printf ("%d i+ - +43);
-
-printf("%d it Vo
-©@i=73-=
-printE(Nsd I, et —f =
-
-printf("td sd", i, j):
-@i=3;4=4 k=
-
-printf("sd v, i++ - J4+ + —-K);
-
-printf("%d &4 &d", 4, j, k)i
-
-12.  Show the output produced by each of the following program fragments. Assume that i and
-jare int variables.
-(a) 1 5;
-+4i %3 -2
-prlntf("’id 8T G N it 95
-®) i=5;
-=3 - 2% iegs
-printf("sd %d", i, j):
-) i = 7;
-3 ko 22
-printf(“%d %", i, 3);
-@ i
-j = 3 #of 2y
-printf ("%d %d", i, )
-
-i0ow
-
-@ 13.  Only one of the expressions ++1 and i++ is exactly the same as (1 += 1); which is it?
-Justify your answer. :
-
-Section 4.4 14.  Supply parentheses to show how a C compiler would interpret each of the following expres-
-sions.
-Section 4.5
-
-15.
-
-2.
-
-Programming Projects 71
-
-()2 & b= ol d Gle
-®a/bsecta
-©-a-b+c-+4d
-(S S e G
-
-Give the values of 1 and 7 after each of the following expression statements has been exe-
-cuted. (Assume that 1 has the value [ initially and j has the value 2.)
-
-(@) A=
-(b) i-
-© 4 =4/ 1;
-(d) i % ++3;
-
-Programming Projects
-
-Write a program that asks the user to enter a two-digit number, then prints the number with
-its digits reversed. A session with the program should have the following appearance:
-
-Enter a two-digit number: 28
-The reversal is: 82
-
-Read the number using %d., then break it into two digits. Hint: If n is an integer, thenn % 10
-is the last digit in n and n / 10 is n with the last digit removed.
-
-Extend the program in Programming Project | to handle three-digit numbers.
-
-Rewrite the program in Programming Project 2 so that it prints the reversal of a three-digit
-number without using arithmetic (o split the number into digits. Hint: See the upe . ¢ pro-
-gram of Section 4.1.
-
-Wiite a program that reads an integer entered by the user and displays it in vctal (base 8):
-
-Enter a number between 0 and 32767: 1953
-In octal, your number is: 03641
-
-The output should be displayed using five digits, even if fewer digits are sufficient. Hint: Ta
-convert the number to octal, first divide it by 8; the remainder is the last digit of the octal
-number (1, in this case). Then divide the original number by 8 and repeat the process to
-arrive at the next-to-last digit. (print£ is capable of displaying numbers in base 8, as we'll
-see in Chapter 7, so there's actually an easier way to write this program.)
-
-Rewrite the upc. ¢ program of Section 4.1 so that the user enters 11 digits at one time,
-instead of entering one digit, then five digits, and then another five digits.
-
-Enter the first 11 digits of a UBRC: 01380015173
-Check digit: 5
-
-European countries use @ 13-digit code, known as a European Article Number (EAN)
-instead of the 12-digit Universal Product Code (UPC) found in North America. Each EAN
-ends with u check digit, just as & UPC does. The technique for calculating the check digit is
-also similar:
-
-Add the second, fourth, sixth, eighth, tenth, and twelfth digits.
-
-Add the first, third, fifth, seventh, ninth, and eleventh digits.
-
-Multiply the first sum by 3 and add it to the second sum.
-T2 Chapter 4 Expressions
-
-Subtract | from the total.
-Compute the remainder when the adjusted total is divided by 10.
-Subtract the remainder from 9.
-
-For example, consider Giilliioglu Turkish Delight Pistachio & Coconut, which has an EAN
-of 8691484260008, The first sumis 6+ 1+ 8+2+0+0= 17, and the second sumis 8 +9 +
-4+4+6+0=31. Multiplying the first sum by 3 and adding the second yields 82. Subtract-
-ing 1 gives 81. The remainder upon dividing by 10 is |. When the remainder is subtracted
-from 9, the result is 8, which matches the last digit of the original code. Your job is to mod-
-ify the upc . ¢ program of Section 4.1 so that it caleulates the check digit for an EAN. The
-user will enter the first 12 digits of the EAN as a single number:
-
-Enter the first 12 digits of an EAN: 869148426000
-Check digit: 8
-rarurn siatement »22
-
-expression statament » 4.5
-
-Selection Statements
-
-Programmers are not to be measured by their ingenuity and
-their logic but by the completeness of their case analysis.
-
-Although € has many operators. it has relatively few statements. We've encoun-
-tered just two so far: the return statement and the expression statement. Most of
-(s remaining statements fall into three categories, depending on how they affect
-the order in which statements are executed:
-
-u Selection statements, The if and switch statements allow a program to
-select a particular execution path from a set of alternatives.
-
-w Iteration statements. The while, do, and for statements support iteration
-(looping).
-
-= Jump statements. The break, continue, and goto statements cause an
-unconditional jump to some other place in the program. (The return state-
-ment belongs in this category, as well.)
-
-‘The only other statements in C are the compound statement, which groups several
-statements into a single statement, and the null statement, which performs no
-action.
-
-This chapter discusses the selection statements and the compound statement.
-(Chapter 6 covers the iteration statements. the jump statements, and the null state-
-ment.) Before we can write i f statements, we’ll need logical expressions: condi-
-tions that i f statements can test. Seetion 5.1 explains how logical expressions are
-built from the relational operators . >, and >=), the equality operators (==
-and ! =), and the logical operators (&&, | |.and 1). Section 5.2 covers the 1£ state-
-ment and compound statement, as well as introducing the conditional operator
-(?:), which can test a condition within an expression. Section 5.3 describes the
-switch statement.
-
-ey
-
-73
-74
-
-Chapter 5 Selection Statements
-
-5.1
-
-Table 5.1
-Relational Operators
-
-Logical Expressions
-
-Several of C's statements, including the if statement, must test the value of an
-expression to see if it is “true™ or “false.” For example, an i £ statement might need
-to test the expression i < j; a true value would indicate that i is less than j. In
-many programming languages, an expression such as 1 < j would have a special
-“Boolean” or “logical” type. Such a type would have only two values, false and
-frue. In C, however, a comparison such as i < j yields an integer: either 0 (false)
-or | (true). With this in mind, let’s look at the operators that are used to build logi-
-cal expressions.
-
-Relational Operators
-
-s relational operators (Table 5.1) correspond to the <, >, <, and 2 operators of
-mathematics, except that they produce 0 (false) or 1 (true) when used in expres-
-sions. For example, the value of 10 < 11 is 1; the value of 11 < 10 is 0.
-
-Symbol ‘Meaning
-& Iess than
-s greater than
-<= less than or equal to
-3= greater than or equal to
-
-The relational operators can be used to compare integers and floating-point
-numbers, with operands of mixed types allowed. Thus, 1 < 2.5 has the value 1,
-while 5.6 < 4 has the value 0.
-
-The precedence of the relational operators is lower than that of the arithmetic
-operators; for example, 1 + § <k - 1 means (i + ) < (k - 1). The relational
-operators are left associative.
-
-The expression
-
-Sl
-
-is legal in C, but doesn’t have the meaning that you might expect. Since the < oper-
-ator is left associative, this expression is equivalent to
-
-(3= <357 fs i
-
-In other words, the expression first tests whether 1 is less than j; the 1 or 0 pro-
-duced by this comparison is then compared to k. The expression does nof test
-whether j lies between i and k. (We'll see later in this section that the correct
-expression wouldbe i < § && § < k.)
-
-Table 5.2
-Equality Operators
-
-Table 5.3
-Logical Operators
-
-5.1 Logical Expressions 75
-
-Equality Operators
-
-Although the relational operators are denoted by the same symbols as in many
-other programming languages, the equality operators have a unique appearance
-(Table 5.2). The “equal to” operator is two adjacent = characters, not one, since a
-single = character represents the assignment operator. The “not equal to” operator
-is also two characters: ! and =.
-
-Symbol Meaning |
-
-== equal to
-not equal to
-
-Like the relational operators, the equality operators are left associative and
-produce either O (false) or 1 (true) as their result. However, the equality operators
-have lower precedence than the relational operators. For example, the expression
-
-o=k
-is equivalent to
-(i< 3§) == (3 < k)
-
-which is true if i < j and j < k are both true or both false.
-
-Clever programmers sometimes exploit the fact that the relational and equality
-operators return integer values. For example, the value of the expression (1 >=3)
-+ (1 ==19) iseither 0, 1, or 2, depending on whether i is less than, greater than,
-or equal to j, respectively. Tricky coding like this generally isn’t a good idea, how-
-ever; it makes programs hard to understand.
-
-Logical Operators
-
-More complicated logical expressions can be built from simpler ones by using the
-logical operators: and, or, and not (Table 5.3). The | operator is unary, while &&
-and | | are binary.
-
-Meaning
-1 logical negation
-& logical and
-
-Il logical or
-
-The logical operators produce either 0 or | as their result. Often, the operands
-will have values of 0 or 1, but this isn’t a requirement; the logical operators treat
-any nonzero operand as a true value and any zero operand as a falsc value.
-
-The logical operators behave as follows:
-
-= !lexpr has the value 1 if expr has the value 0.
-
-u exprl && expr2 has the value 1 if the values of expr/ and expr2 are both non
-Zero.
-76
-
-Chapter 5 Selection Statements
-
-5.2
-
-if statement
-
-m exprl | | expr2 has the value 1 if either expri or expr2 (or both) has a nonzero
-value.
-
-In all other cases, these operators produce the value 0.
-
-Both && and | | perform “short-circuit” evaluation of their operands. That is,
-these operators first evaluate the left operand, then the right operand. If the value of
-the expression can be deduced from the value of the left operand alone, then the
-right operand isn’t evaluated. Consider the following expression:
-
-(i 1=0) && (3 / i>0)
-
-I'o find the value of this expression, we must first evaluate (i t= 0). If 1 isn't
-equal to 0, then we'll need to evaluate (j / 1 > 0) to determine whether the entire
-expression is true or false. However, if 1 is equal to 0, then the entire expression
-must be false, so there’s no need to evaluate (j / i > 0). The advantage of short-
-circuit evaluation is apparent—without it, evaluating the expression would have
-caused a division by zero.
-
-Be wary of side effects in logical expressions. Thanks to the short-circuit nature of
-the && and | | operators, side effects in operands may not always occur. Consider
-the following expression:
-
-i 0 & ++3 > 0
-
-Although j is apparently incremented as a side effect of evaluating the expression,
-that isn't always the case. If 1 > 0 is false, then ++75 > 0 is not evaluated, so j isn't
-incremented. The problem can be fixed by changing the condition to ++5 > 0 &&
-
-i > 0 or, even better, by incrementing § separately.
-
-The ! operator has the same precedence as the unary plus and minus opera-
-tors. The precedence of && and | | is lower than that of the relational and equality
-operators; for example, 1 < j && k == mmeans (i < j) && (k ==m). The !
-operator is right associative; && and | | are left associative.
-
-The if Statement
-
-The 1f statement allows a program to choose between two alternatives by testing
-the value of an expression. In its simplest form, the i £ statement has the form
-
-if ( expression ) statement
-
-Notice that the parentheses around the expression are mandatory; they’re part of
-the if statement, not part of the expression. Also note that the word then doesn’t
-come after the parentheses, as it would in some programming languages.
-idiom
-
-idiom
-
-compound statement
-
-5.2 The if Statement 77
-
-When an i f statement is executed. the expression in the parentheses is evalu-
-ated: if the value of the expression is nonzero—which C interprets as true—the
-statement after the parentheses is executed. Here’s an example:
-
-if (line_num == MAX LINES)
-line_mum = 0;
-
-The statement line num = 0; is executed if the condition 1ine num ==
-MAX_LINES is true (has a nonzero value).
-
-Don’t confuse == (equality) with = (assignment). The statement
-
-T s 0
-tests whether i is equal to (). However, the statement
-if (i=0) ..
-assigns 0 to 1, then tests whether the result is nonzero. In this case, the test always
-fails.
-
-Confusing == with = is perhaps the most common C programming error,
-probably because = means “is equal to” in mathematics (and in certain program-
-
-ming languages). Some compilers issue a warning if they notice = where == would
-normally appear.
-
-Often the expression in an 1f statement will test whether a variable falls
-within a range of values. To test whether 0 < 1 < n, for example, we’d write
-
-if (0 <= 1 && i < n)
-To test the opposite condition (1 is outside the range), we'd write
-if (L <0 || i 5=n)
-
-Note the use of the | | operator instead of the && operator.
-
-Compound Statements
-
-In our i f statement template, notice that statement is singular, not plural:
-
-if | expression ) statement
-
-What if we want an i statement to control fwo or more statements? That’s where
-the compound statement comes in. A compound statement has the form
-
-{ statements }
-
-By putting braces around a group of statements, we can force the compiler to treat
-it as a single statement.
-78
-
-Chapter 6 Selection Statements
-
-if statement with
-else clause
-
-Here’s an example of a compound statement:
-{ line num = 0; page num++; }
-
-For clarity, I'll usually put a compound statement on several lines, with one state-
-ment per line:
-
-{
-line num = 0;
-page_num++;
-
-}
-
-Notice that each inner statement still ends with a semicolon, but the compound
-statement itself does not.
-
-Here’s what a compound statement would look like when used inside an if
-statement:
-
-if (line num
-line num
-page_num++;
-
-MAX LINES) {
-
-Compound statements are also common in loops and other places where the syntax
-of C requires a single statement, but we want more than one.
-
-The else Clause
-
-An if statement may have an else clause:
-
-if ( expression ) statement else starement
-
-The statement that follows the word else is executed if the expression in paren-
-theses has the value 0.
-Here's an example of an 1 f statement with an else clause:
-
-if (1 > )
-max = i;
-
-else
-max = j;
-
-Notice that both “inner” statements end with a semicolon.
-
-‘When an 1f statement contains an else clause, a layout issue arises: where
-should the else be placed? Many C programmers align it with the if at the
-beginning of the statement, as in the previous example. The inner statements are
-usually indented, but if they're short they can be put on the same line as the i f and
-else:
-
-if (4 > §) max = i
-else max = j;
-5.2 The if Statement 79
-
-There are no restrictions on what kind of statements can appear inside an if
-statement. In fact, i’s not unusual for if stalements to be nested inside other i f
-statements. Consider the following if statement, which finds the largest of the
-numbers stored in i, j, and k and stores that value in max:
-
-s e )
-3 & (S i)
-max = i;
-else
-max = k;
-else
-if (3 > k)
-max = 3;
-else
-max = k;
-
-1f statements can be nested to any depth. Notice how aligning each e1se with the
-matching 1 £ makes the nesting easier (o see. If you still find the nesting confusing.
-don’t hesitate to add braces:
-1 @ =g
-1f {1 > K)
-max = ij
-else
-max = k;
-} else {
-i£ (g =)
-max ;
-else
-max = k;
-}
-
-Adding braces to statements—even when they’re not necessary—is like using
-parentheses in expressions: both techniques help make a progrum more readable
-while at the same time avoiding the possibility that the compiler won’t understand
-the program the way we thought it did.
-
-Some programimers use as many braces as possible inside if statements (and
-iteration statements as well). A programmer who adopts this convention would
-include a pair of braces for every if clause and every else clause:
-
-G iy T
-
-5T LEE e ¢
-max = i;
-
-} else {
-max = k;
-
-1
-
-}-else
-
-if (5 > k) |
-max = 37
-
-} else {
-max = k;
-
-}
-
-}
-80
-
-Chapter 5 Selection Statements
-
-Using braces even when they’re not required has two advantages. First, the pro-
-gram becomes easier to modify, because more statements can easily be added to
-any if or else clause. Second, it helps avoid errors that can result from forget-
-ting to use braces when adding statements to an 1 or else clause.
-
-Cascaded i f Statements
-
-We'll often need to test a series of conditions, stopping as soon as one of them is
-true. A “cascaded” if statement is often the best way to write such a series of
-tests. For example, the following cascaded if statement tests whether n is less
-than 0, equal to 0, or greater than 0:
-
-if (n < 0)
-printf("n is less than 0\n");
-else
-if (n == 0)
-printf('n is equal to 0\n");
-else
-
-printf('n is greater than 0\n");
-
-Although the second if statement is nested inside the first, C programmers don’t
-usually indent it. Instead, they align each else with the original i f:
-
-if (n < 0)
-
-printf ("n is less than 0\n");
-else if (n == 0)
-
-printf('n is equal to 0\n");
-else
-
-printf('n is greater than 0\n");
-This arrangement gives the cascaded 1 f a distinctive appearance:
-
-if ( expression )
-statement
-
-elee if ( expression )
-statement
-
-else if ( expression )
-statemeni
-
-else
-statement
-
-The last two lines (e1ae statement) aren’t always present, of course. This way of
-indenting the cascaded if statement avoids the problem of excessive indentation
-when the number of tests is large. Moreover, it assures the reader that the statement
-is nothing more than a series of tests.
-
-Keep in mind that a cascaded i statement isn’t some new kind of statement;
-it’s just an ordinary if statement that happens to have another if statement as its
-else clause (and thar 1 f statement has another 1 £ statement as its else clause,
-ad infinitum).
-PROGRAM
-
-broker.c
-
-5.2 The if Statement 81
-
-Calculating a Broker’s Commission
-
-When stocks are sold or purchased through a broker, the broker’s commission is
-often computed using a sliding scale that depends upon the value of the stocks
-traded. Let’s say that a broker charges the amounts shown in the following table:
-
-Transaction size Commission rate
-Under $2,500 $30+1.7%
-$2,500-56,250 $56 +0.66%
-
-$6,250-$20,000 $76 +0.34%
-
-$20,000-$50,000 $100 + 0.22%
-$50,000-$500,000  $155+0.11%
-Over $500,000 $255 +0.09%
-
-The minimum charge is $39. Our next program asks the user to enter the amount of
-the trade, then displays the amount of the commission:
-
-Enter value of trade: 30000
-Commission: $166.00
-
-The heart of the program is a cascaded if statement that determines which range
-the trade falls into.
-
-/* Calculates a brecker's commission */
-#include <stdio.h>
-
-int main(void)
-
-{
-
-float commission, value;
-
-printf ("Enter value of trade: ");
-scanf ("$£", &value);
-
-if (value < 2500.00f)
-
-commission = 30.00f + .017f * value;
-else if (value < 6250.00f)
-
-commission = 56.00f + .0066F * value;
-else if (value < 20000.00f)
-
-commission = 76.00f + .0034f * value;
-else if (value < 50000.00f)
-
-commission = 100.00f + .0022f * value;
-else if (value < 500000.00f)
-
-commission = 155.00f + .0011f * value;
-else
-
-commission = 255.00f + .0009f * value;
-
-if (commission < 39.00f)
-commission = 39.00f;
-
-printf ("Commission: $%.2f\n", commission);
-
-return 0;
-82 Chapter 5 Selection Statements
-
-The cascaded if statement could have been written this way instead (the
-changes are indicated in bold):
-
-if (value < 2500.00%)
-commission = 30.00f + .017f * value;
-
-elge if (value >= 2500.00f && value < 6250.00f
-commission = 56.00f + .0066f * value;
-
-else if (value >= 6250.00f && value < 20000.00f)
-commission = 76.00f + .0034f * value;
-
-Although the program will still work, the added conditions aren’t necessary. For
-example, the first i £ clause tests whether value is less than 2500 and, if so, com-
-putes the commission. When we reach the second i f test (value >=2500.00£
-&& value < 6250.00f), we know that value can’t be less than 2500 and
-therefore must be greater than or equal to 2500. The condition value >=
-2500.00f will always be true, so there's no point in checking it.
-
-The “Dangling e1se” Problem
-
-When if statements are nested, we've got to watch out for the notorious “dangling
-else” problem. Consider the following example:
-
-if (y 1= 0)
-if (x 1= 0)
-result = x / y;
-else
-
-printf ("Error: y ic equal to 0\n");
-
-To which if statement does the else clause belong? The indentation suggests
-that it belongs to the outer i f statement. However, C follows the rule that an else
-clause belongs to the nearest 1 £ statement that hasn't already been paired with an
-else. In this example, the else clause actually belongs to the inner if state-
-ment, so a correctly indented version would look like this:
-
-if (y 1= 0)
-T8 (5 = 0)
-result = x / y;
-else
-
-printf ("Error: y is equal to 0\n");
-
-‘To make the else clause part of the outer i statement, we can enclose the inner
-if statement in braces:
-
-if (y t= 0) {
-if (x l=0)
-result = x / y;
-} else
-printf ("Error: y is equal to 0\n");
-
-This example illustrates the value of braces; if we’d used them in the original if
-statement, we wouldn’t have gotten into this situation in the first place.
-conditional
-expression
-
-5.2 The if Statement 83
-
-Conditional Expressions
-
-C’s i f statement allows a program to perform one of two actions depending on the
-value of a condition, C also provides an operator that allows an expression to pro-
-duce one of two values depending on the value of a condition.
-
-The conditional operator consists of two symbols (? and :), which must be
-used together in the following way:
-
-exprl ? expr2 : expr3
-
-exprl, expr2, and expr3 can be expressions of any type. The resulting expression is
-said to be a conditional expression. The conditional operator is unique among C
-operators in that it requires rhree operands instead of one or two. For this reason, it
-is often referred to as a ternary operator.
-
-The conditional expression exprl ? expr2 : expr3 should be read “if exprl
-then expr2 else expr3.” The expression is evaluated in stages: expr! is evaluated
-first; if its value isn’t zero, then expr2 is evaluated, and its value is the value of the
-entire conditional expression. If the value of expr/ is zero, then the value of expr3
-is the value of the conditional.
-
-The following example illustrates the conditional operator:
-
-int i, 3. k;
-
-5
-gl
-k= S /* k is now 2 */
-k 0 2k @iO) #g %k ds now 3 #/
-The conditional expression i > § 2 i : § in the first assignment to k returns the
-value of either 1 or j, depending on which one is larger. Since 1 has the value |
-and § has the value 2, the i > j comparison fails, and the value of the conditional
-is 2, which is assigned to k. In the second assignment to k, the 1 >= 0 comparison
-succeeds; the conditional expression (i >= 0 2 i : 0) has the value I, which is
-then added to j to produce 3. The parentheses are necessary, by the way; the prece-
-dence of the conditional operator is less than that of the other operators we've dis-
-cussed so far, with the exception of the assignment operatars.
-
-Conditional expressions tend to make programs shorter but harder to under-
-stand, so it’s probably best to avoid them. There are, however, a few places in
-
-which they’re tempting; one is the return statement. Instead of writing
-
-e (& > 3)
-return i;
-else
-
-return i;
-many programmers would write
-
-return i > § ? i : 3;
-84
-
-Chapter5 Selection Statements
-
-macro dofinitions > 14.3
-
-Calls of print£ can sometimes benefit from condition expressions. Instead of
-1f (1> 3)
-printf ("&d\n", i);
-else
-printf ("sd\n", §);
-we could simply write
-printf('sd\n®, 1 >3 2 i : §);
-
-Conditional expressions are also common in certain kinds of macro definitions,
-
-Boolean Values in C89
-
-For many years, the C language lacked a proper Boolean type, and there is none
-defined in the C89 standard. This omission is a minor annoyance, since many pro-
-grams need variables that can store either false or true. One way to work around
-this limitation of C89 is to declare an int variable and then assign it either 0 or 1;
-
-int £lag;
-flag = 0;
-flag = 1; ]
-
-Although this scheme works, it doesn't contribute much to program readability,
-It’s not obvious that £1ag is to be assigned only Boolean values and that 0 and |
-represent false and true.
-
-To make programs more understandable, C89 programmers often define mac-
-10s with names such as TRUE and FALSE:
-
-#define TRUE 1
-#define FALSE 0
-
-Assignments to £1ag now have a more natural appearance:
-flag = FALSE;
-Zlag = TRUE;
-To test whether £1ag is true, we can write
-if (flag == TRUE) ..
-or just
-if (flag)
-
-The latter form is better, not only because it's more concise, but also because it will
-still work correetly if £1ag has a value other than 0 or 1.
-To test whether £1ag is false, we can write
-
-if (flag == FALSE) .
-type definilions >7.5
-
-enumeralions > 185
-
-D
-04
-
-unsigned integer types »7. 1
-
-<gtdbool . h> header »21.5
-
-5.2 The it Statement 85
-
-or
-if (1£lag) ..
-Carrying this idea one step further. we might even define a macro that can be
-used as a type:
-#define BOOL int
-BOOL can take the place of int when declaring Boolean variables:
-BOOL flag;
-
-It's now clear that £1ag isn’t an ordinary integer variable, but instead represents a
-Boolean condition, (The compiler still treats £1ag as an int variable, of course.)
-In later chapters, we'll discover better ways to set up a Boolean type in C89 by
-using type definitions and enumerations.
-
-Boolean Values in C99
-
-The longstanding lack of a Boolean type has been remedied in C99, which pro-
-vides the _Boo1 type. In this version of C, a Boolean variable can be declared by
-writing
-
-_Bool flag;
-
-_Bool is an integer type (more precisely, an unsigned integer type), so a
-_Bool variable is really just an integer variable in disguise. Unlike an ordinary
-integer variable, however, a _Bool variable can only be assigned 0 or 1. In gen-
-eral, attempting to store a nonzero value into a _Bool variable will cause the vari-
-able to be assigned 1:
-
-flag = 5; /* flag ie assigned 1 */
-
-1t’s legal (although not advisable) to perform arithmetic on _Bool variables; it's
-also legal to print a _Bool variable (either 0 or | will be displayed). And, of
-course, a_Bool variable can be tested in an i f statement:
-
-if (flag) /* tests whether flag is 1 */
-
-In addition to defining the _Bool type, €99 also provides a new header,
-=stdbool . h>, that makes it easier to work with Boolean values. This header
-provides a macro, hoo1, that stands for _Bool. If <stdbool.h> is included,
-we can write
-
-beol flag; /* same as _Bool flag; */
-
-The <stdbool.h> header also supplies macros named true and false.
-which stand for 1 and 0, respectively, making it possible to write
-86 Chapter 5 Selection Statements
-
-flag = false;
-flag = true;
-
-Because the <stdbool . h> header is so handy, I'll use it in subsequent programs
-whenever Boolean variables are needed.
-
-5.3 The switch Statement
-
-In everyday programming, we'll often need to compare an expression against a
-series of values to see which one it currently matches. We saw in Section 5.2 that a
-cascaded if statement can be used for this purpose. For example, the following
-cascaded if statement prints the English word that corresponds to a numerical
-grade:
-
-if (grade == 4)
-printf ("Excellent") ;
-
-else if (grade == 3)
-printf ("Good") ;
-
-else if (grade == 2)
-printf ("Average");
-
-else if (grade == 1)
-printf ("Poor") ;
-
-else if (grade == 0)
-printf ("Failing");
-
-else
-printf ("Illegal grade'");
-
-As an alternative to this kind of cascaded if statement, C provides the switch
-statement. The following switch is equivalent to our cascaded i£:
-
-switch (grade) {
-4:
-
-case printf ("Excellent") ;
-break;
-
-case 3: printf("Good");
-break;
-
-case 2: printf("Average");
-break;
-
-case 1: printf("Poor");
-break;
-
-case 0: printf("Failing");
-break;
-
-default: printf('Illegal grade");
-break;
-
-)
-
-When this statement is executed, the value of the variable grade is tested against
-4,3,2, 1, and 0. If it matches 4, for example, the message Excellent is printed,
-
-breakstatement>64  then the break statement transfers control to the statement following the
-switch. If the value of grade doesn’t match any of the choices listed, the
-default case applies, and the message I11egal grade is printed.
-switch statement
-
-characters » 7.5
-
-5.3 The switch Statement 87
-
-A switch statement is often easier to read than a cascaded if statement.
-Moreover, switch statements are often faster than if statements, especially
-when there are more than a handful of cases.
-
-In its most common form, the switch statement has the form
-
-switch ( expression ) {
-case constant-expression : statements
-case constant-expression : statements
-default : statements
-
-The switch statement is fairly complex; let’s look at its components one by one:
-
-u Controlling expression. The word switch must be followed by an integer
-expression in parentheses. Characters are treated as integers in C and thus can
-be tested in switch statements. Floating-point numbers and strings don’t
-qualify, however.
-
-u Case labels. Each case begins with a label of the form
-case constant-expression
-
-A constant expression is much like an ordinary expression except that it can’t
-contain variables or function calls. Thus, 5 is a constant expression, and 5 +
-10 is a constant expression, but n + 10 isn’t a constant expression (unless n is
-a macro that represents a constant). The constant expression in a case label
-must evaluate to an integer (characters are also acceptable).
-
-» Statements. After each case label comes any number of statements. No braces
-are required around the statements. (Enjoy it—this is one of the few places in
-C where braces aren’t required.) The last statement in each group is normally
-break.
-
-Duplicate case labels aren’t allowed. The order of the cases doesn’t matter; in par-
-ticular, the default case doesn’t need to come last.
-
-Only one constant expression may follow the word case; however, several
-case labels may precede the same group of statements:
-
-switch (grade) {
-
-case 4:
-
-case 3:
-
-case 2:
-
-case 1 printf ("Passing") ;
-break;
-
-case 0: printf('Failing");
-break;
-
-default: printf('Illegal grade");
-break;
-88 Chapter 5 Selection Statements
-
-To save space, programimers sometimes put several case labels on the same line:
-
-switch (grade) {
-case 4: case 3: case 2: case 1:
-printf (*Passing") ;
-
-break;
-
-case 0: printf("Failing");
-break;
-
-default: printf("Illegal grade");
-break;
-
-}
-
-Unfortunately, there’s no way to write a case label that specifies a range of values,
-as there is in some programming languages.
-
-A switch statement isn’t required to have a default case. If default is
-missing and the value of the controlling expression doesn’t match any of the case
-labels, control simply passes to the next statement after the switch.
-
-The Role of the break Statement
-
-Now, let’s take a closer look at the mysterious break statement. As we've seen,
-executing a break statement causes the program to “break™ out of the switch
-statement; execution continues at the next statement after the switch.
-
-The reason that we need break has to do with the fact that the swi t-ch state-
-ment is really a form of “computed jump.” When the controlling expression is
-evaluated, control jumps to the case label matching the value of the switch
-expression. A case label is nothing more than a marker indicating a position within
-the switch, When the last statement in the case has been executed, control “falls
-through” to the first statement in the following case; the case label for the next case
-is ignored. Without break (or some other jump statement), control will flow from
-one case into the next. Consider the following switch statement:
-
-switch (grade) {
-case 4: printf('Excellent");
-cage 3: printf("Good");
-case 2: printf("Average");
-case 1: printf("Poor");
-case 0: printf("Failing");
-default: printf("Illegal grade");
-
-}
-If the value of grade is 3, the message printed is
-
-GoodAveragePoorFailingIllegal grade
-
--/: Forgetting to use break is a common error. Although omitting break is some-
-times done intentionally to allow several cases to share code, it’s usually just an
-oversight.
-
-PROGRAM
-
-date.c
-
-5.3 The switch Statement 89
-
-Since deliberately falling through from one case into the next is rare, it's a
-good idea to point out any deliberate omission of break:
-
-switch (grade) (
-case 4: case 3: case 2: case 1:
-num_passings++;
-/* FALL THROUGH */
-case 0: total grades++;
-break;
-}
-
-Without the comment, someone might later fix the “error” by adding an unwanted
-break statement.
-
-Although the last case in a switch statement never needs a break state-
-ment, it’s common practice to put one there anyway to guard against a “missing
-break” problem if cases should later be added.
-
-Printing a Date in Legal Form
-Contracts and other legal documents are often dated in the following way:
-
-Dated this day of R0,
-
-Let’s write a program that displays dates in this form. We'll have the user enter the
-date in month/day/year form, then we'll display the date in “legal” form:
-
-Enter date (mm/dd/yy): 7/19/14
-Dated this 19th day of July, 2014.
-
-We can get printf to do most of the formatting. However. we're left with two
-problems: how to add “th” (or st or “nd™ ar “rd™) to the day. and how to print the
-month as a word instead of a number. Fortunately, the switch statement is ideal
-for both situations; we’ll have one switch print the day suffix and another print
-the month name.
-
-/* Prints a date in legal form */
-#include <stdio.h>
-
-int main(void)
-
-{
-
-int month, day, year;
-
-printf ("Encer date (mm/dd/yy): ");
-scanf ("%d /%d /%d", &month, &day, &year);
-
-printf ("Dated this %¥d", day);
-switch (day) {
-case 1: case 21: case 31:
-printf ("st"); break;
-case 2: case 22:
-printf ("nd"); break;
-90 Chapter 5 Selection Staternents
-
-case 3: case 23:
-printf ("rd"); break;
-default: printf("th"); break;
-printf (" day of ");
-
-switch (month) {
-
-case 1: printf("January"); break;
-case 2: printf("February"); break;
-case 3 printf ("March") ; break;
-case 4: printf("April"); break;
-case 5: printf("May"); break;
-case 6: printf("June'); break;
-case 7: printf("July"); break;
-case 8 printf ("August") ; break;
-case 9 printf ("September"); break;
-case 10: printf("October"); break;
-case 11: printf ("November"); break;
-case 12: printf('December"); break;
-
-}
-
-printf (", 20%.2d.\n", year);
-return 0;
-
-)
-
-Note the use of % . 2d to display the last two digits of the year. If we had used
-%d instead, single-digit years would be displayed incorrectly (2005 would be
-printed as 205).
-
-Q&A
-
-Q: My compiler doesn’t give a warning when I use = instead of ==. Is there some
-way to force the compiler to notice the problem? [p. 77]
-A:  Here’s a trick that some programmers use: instead of writing
-if (i == 0) ..
-they habitually write
-if (0 == i) .
-Now suppose that the == operator is accidentally written as =:
-1f000 = @) .
-
-The compiler will produce an error message, since it's not possible to assign a
-value to 0. I don’t use this trick, because I think it makes programs look unnatural.
-Also, it can be used only when one of the operands in the test condition isn't an
-Ivalue.
-
-Fortunately, many compilers are capable of checking for suspect uses of the =
-operator in if conditions. The GCC compiler, for example, will perform this
-Q&A o1
-
-check if the -Wparentheses option is used or if -Wall (all warnings) is
-selected. GCC allows the programmer to suppress the warning in a particular case
-by enclosing the if condition in a second set of parentheses:
-
-S RS S
-
-C books seem to use several different styles of indentation and brace place-
-ment for compound statements. Which style is best?
-
-According to The New Hacker's Dictionary (Cambridge, Mass.: MIT Press, 1996),
-there are four common styles of indentation and brace placement:
-
-m The K&R style, used in Kernighan and Ritchie’s The C Programming Lan-
-guage, is the one I've chosen for the programs in this book. In the K&R style,
-the left brace appears at the end of a line:
-if (line num == MAX LINES) {
-
-line num = 0;
-
-page_num++;
-}
-The K&R style keeps programs compact by not putting the left brace on a line
-by itself. A disadvantage: the left brace can be hard to find. (I don’t consider
-this a problem, since the indentation of the inner statements makes it clear
-where the left brace should be.) The K&R style is the one most often used in
-Java, by the way.
-
-u The Allman style, named after Eric Allman (the author of sendmail and
-other UNIX utilities), puts the left brace on a separate line:
-
-if (line_num == MAX_ LINES)
-
-&
-line num = 0;
-page_num++;
-
-This style makes it easy to check that braces come in matching pairs.
-
-m The Whitesmiths style, popularized by the Whitesmiths C compiler, dictates
-that braces be indented:
-
-if (line_num == MAX LINES)
-{
-line num = 0;
-page_num++;
-
-m The GNU style, used in software developed by the GNU Project, indents the
-braces, then further indents the inner statements:
-
-if (line num == MAX LINES)
-{
-line_num = 0;
-page_num++;
-92 Chapter5 Selection Statements
-
-Q:
-
-= Q
-
-o @
-
-*Q:
-A
-
-lebels »6.4
-
-A
-
-‘Which style you use is mainly a matter of taste; there’s no proof that one style
-is clearly better than the others. In any event, choosing the right style is less impor-
-tant than applying it consistently.
-
-If i is an int variable and £ is a £1oat variable, what is the type of the con-
-ditional expression (i >07?4 : £)?
-
-When int and float values are mixed in a conditional expression, as they are
-here, the expression has type £loat. If i > 0 is true, the value of the expression
-will be the value of i after conversion to £1loat type.
-
-‘Why doesn’t C99 have a better name for its Boolean type? [p. 85]
-
-_Bool isn't a very elegant name, is it? More common names, such as bool or
-boolean, weren't chosen because existing C programs might already define
-these names, causing older code not to compile.
-
-OK, so why wouldn’t the name _Boo1 break older programs as well?
-
-The C89 standard specifies that names beginning with an underscore followed by
-an uppercase letter are reserved for future use and should not be used by program-
-mers.
-
-The template given for the switch statement described it as the “most com-
-mon form.” Are there other forms? [p. 87]
-
-The switch statement is a bit more general than described in this chapter,
-although the description given here is general enough for virtually all programs.
-For example, a switch statement can contain labels that aren’t preceded by the
-word case, which leads to an amusing (?) trap. Suppose that we accidentally mis-
-spell the word default:
-
-switch (.) {
-
-defualt: ..
-
-The compiler may not detect the error, since it assumes that defualt is an ordi-
-nary label.
-
-T’ve seen several methods of indenting the switch statement. Which way is
-best?
-
-There are at least two common methods. One is to put the statements in each case
-after the case label:
-
-switch (coin) {
-
-case 1: printf("Cent!);
-break;
-
-case 5: printf("Nickel");
-break;
-
-case 10: printf ("Dime");
-
-break;
-Section 5.1
-
-Exercises 93
-
-case 25: printf("Quarter");
-break;
-
-}
-
-If each case consists of a single action (a call of printf, in this example), the
-break statement could even go on the same line as the action:
-
-switch (coin) {
-case 1: printf("Cent"); break;
-case 5: printf('Nickel"); break;
-case 10: printf("Dime"); break;
-case 25: printf("Quarter"); break;
-
-The other method is to put the statements under the case label, indenting the
-statements to make the case label stand out:
-
-switch (coin) {
-
-case 1:
-printf ("Cent") ;
-break;
-
-case 5:
-printf ("Nickel") ;
-break;
-
-case 10:
-printf ("Dime") ;
-break;
-
-case 25:
-printf ("Quarter") ;
-break;
-
-}
-
-In one variation of this scheme, each case label is aligned under the word swi tch.
-
-The first method is fine when the statements in cach case are short and there
-are relatively few of them. The second method is better for large switch state-
-ments in which the statements in each case are complex and/or numerous.
-
-Exercises
-
 The following program fragments illustrate the relational and equality operators. Show the
 output produced by each, assuming that i, j. and k arc int variables.
 
@@ -3206,12 +1786,12 @@ Make no mistake about it: Computers process numbers—
 nol symbols. We measure our understanding (and control)
 by the extent to which we can arithmetize an activity.
 
-So far, we've used only two of C's basic (built-in) &ypes: int and £1loat. (We've
+So far, we've used only two of C's basic (built-in) &ypes: int and float. (We've
 also seen _Bool, which is a basic type in C99.) This chapter describes the rest of
 the basic types and dist s important issues about types in general. Section 7.1
 reveals the full range of integer types. which include long integers, short integers,
 and unsigned integers. Section 7.2 introduces the double and long double
-types, which provide a larger range of values and greater precision than £loat.
+types, which provide a larger range of values and greater precision than float.
 Section 7.3 covers the char type, which we'll need in order to work with charac-
 ter data. Section 7.4 tackles the thorny topic of converting a value of one type to an
 equivalent value of another. Section 7.5 shows how to use typedef to define new
@@ -3650,15 +2230,15 @@ in the table, since its length varies from one machine to another, with 80 bits 
 128 bits being the most common sizes.
 
 Type  Smallest Positive Value Largest Value Precision
-£loat 1.17549 x 107% 3.40282 x 10* 6 digits
+float 1.17549 x 107% 3.40282 x 10* 6 digits
 double 222507 x 10°% 1.79769 x 10*% 15 digits
 
 On computers that don’t follow the IEEE standard, Table 7.4 won’t be valid.
-In fact, on some machines, £1loat may have the same set of values as double, or
+In fact, on some machines, float may have the same set of values as double, or
 double may have the same values as long double. Macros that define the
 characteristics of the floating types can be found in the <f1oat . h> header.
 
-In C99, the floating types are divided into two categories. The £loat, dou-
+In C99, the floating types are divided into two categories. The float, dou-
 ble, and long double types fall into one category, called the real floating
 types. Floating types also include the complex types (Eloat Complex, dou-
 ble Complex, and long double Complex), which are new in C99,
@@ -3679,7 +2259,7 @@ By default, floating constants are stored as double-precision numbers. In other
 words, when a C compiler finds the constant 57.0 in a program, it arranges for the
 number to be stored in memory in the same format as a double variable. This
 rule generally causes no problems, since double values are converted automati-
-cally to £1oat when necessary.
+cally to float when necessary.
 134 Chapler 7 Basic Types
 
 ®
@@ -4177,7 +2757,7 @@ expression. The C compiler may then have to generate instructions that convert
 some operands to different types so that the hardware will be able to evaluate the
 expression. If we add a 16-bit short and a 32-bit int, for example, the compiler
 will arrange for the short value to be converted to 32 bits. If we add an int and
-a £1oat, the compiler will arrange for the int to be converted to £1oat format.
+a float, the compiler will arrange for the int to be converted to float format.
 This conversion is a little more complicated, since int and float values are
 stored in different ways.
 
@@ -4210,9 +2790,9 @@ The usual arithmetic conversions are applied (o the operands of most binary oper
 tors, including the arithmetic, relational, and equality operators. For example, let’s
 say that £ has type L1oat and 1 has type int. The usual arithmetic conversions
 will be applied to the operands in the expression £ + 1, because their types aren't
-the same. Clearly it’s safer to convert i to type £loat (matching £’s type) rather
+the same. Clearly it’s safer to convert i to type float (matching £’s type) rather
 than convert £ to type int (matching 1’s type). An integer can always be con-
-verted to £1oat: the worst that can happen is a minor loss of precision. Convert-
+verted to float: the worst that can happen is a minor loss of precision. Convert-
 ing a floating-point number to int, on the other hand, would cost us the fractional
 part of the number. Worse still, we'd get a completely meaningless result if the
 original number were larger than the largest possible integer or smaller than the
@@ -4244,7 +2824,7 @@ float
 That is, if one operand has type long double, then convert the other oper-
 and to type long double. Otherwise, if one operand has type double, con-
 vert the other operand to type double. Otherwise, if one operand has type
-float, convert the other operand to type £1oat. Note that these rules cover
+float, convert the other operand to type float. Note that these rules cover
 mixtures of integer and floating types: if one operand has type long int, for
 example, and the other has type double, the 1ong int operand is converted
 to double.
@@ -4435,7 +3015,7 @@ expression has the form
 
 type-name specifies the type to which the expression should be converted.
 The following example shows how to use a cast expression to compute the
-fractional part of a £1oat value:
+fractional part of a float value:
 
 float £, frac_part;
 
@@ -4443,7 +3023,7 @@ frac_part = £ - (int) £;
 
 The cast expression (int) £ represents the result of converting the value of £ to
 type int. C's usual arithmetic conversions then require that (int) £ be con-
-verted back to type £loat before the subtraction can be performed. The differ-
+verted back to type float before the subtraction can be performed. The differ-
 ence hetween £ and (int) £ is the fractional part of £, which was dropped
 during the cast.
 
@@ -4465,7 +3045,7 @@ Chapter 7 Basic Types
 
 As it's now written, the result of the division—an integer—will be converted to
 float form before being stored in quotient. We probably want dividend
-and divisox converted to £loat before the division, though, so that we geta
+and divisox converted to float before the division, though, so that we geta
 more exact answer. A cast expression will do the trick:
 
 quotient = (float) dividend / divisor;
@@ -4569,7 +3149,7 @@ Chapter 7 Basic Types
 portability tip
 
 The declarations of Dollars variables need not be changed. Without the type
-definition, we would need to locate all £1oat variables that store dollar amounts
+definition, we would need to locate all float variables that store dollar amounts
 (not necessarily an easy task) and change their declarations.
 
 Type Definitions and Portability
@@ -4704,11 +3284,11 @@ else
 
 printf("xr, i);
 
-Why are floating constants stored in double form rather than £loat form?
+Why are floating constants stored in double form rather than float form?
 [p- 133]
 
 For historical reasons, C gives preference to the double type; £lcat is treated
-as a second-class citizen. Consider, for instance, the discussion of £1loat in Ker-
+as a second-class citizen. Consider, for instance, the discussion of float in Ker-
 nighan and Ritchie's The C Programming Language: “The main reason for using
 float is to save storage in large arrays, or, less often, to save time on machines
 where double-precision arithmetic is particularly expensive.” C originally man-
@@ -4739,7 +3319,7 @@ variable-length argument i
 Q&A 158
 
 decimal numbers are also useful for defining constants with extreme values, such
-as the values of the macros in the <£1oat . h> header. These constants are casy to
+as the values of the macros in the <float . h> header. These constants are casy to
 write in hex but difficult to write in decimal.
 
 ‘Why do we use %1£ to read a double value but %£ to print it? [p. 134]
@@ -4747,16 +3327,16 @@ write in hex but difficult to write in decimal.
 This is a tough question to answer. First, notice that scanf and printf are
 unusual functions in that they aren't restricted to a fixed number of arguments. We
 say that scanf and printf have variable-length argument lists. When functions
-with variable-length argument lists are called, the compiler arranges for £loat
+with variable-length argument lists are called, the compiler arranges for float
 arguments to be converted automatically (o type double. As a result, printf
-can’t distinguish between £1loat and double arguments. This explains why ¥£
-works for both £1loat and double arguments in calls of printf.
+can’t distinguish between float and double arguments. This explains why ¥£
+works for both float and double arguments in calls of printf.
 
 scanf, on the other hand, is passed a pointer to a variable. £ tells scanf to
-store a £loat value at the address passed to it, while %1£ tells scanf to store a
+store a float value at the address passed to it, while %1£ tells scanf to store a
 double value at that address. The distinction between float and double is
 crucial here. If given the wrong conversion specification, scant will likely store
-the wrong number of bytes (not to mention the fact that the bit pattern for a £1loat
+the wrong number of bytes (not to mention the fact that the bit pattern for a float
 isn't the same as that for a double).
 
 What’s the proper way to pronounce chax? [p. 134]
@@ -4991,7 +3571,7 @@ Suppose that i and j are variables of type int. What is the type of the expressi
 Suppose that 1 is a variable of type int, j is a variable of type long, and k is a variable of
 type unsigned int. What is the type of the expression i + (int) j = k?
 
-Suppose that 1 is a variable of type int, £ is a variable of type £1oat, and d is a variable
+Suppose that 1 is a variable of type int, £ is a variable of type float, and d is a variable
 of type double. What is the type of the expression i * £ / d?
 
 Suppose that 1 is 4 variable of type int, £ is a variable of type £ loat, and d is a variable
@@ -5021,7 +3601,7 @@ Give the value and the type of each expression listed below.
 () s + m dars (® (int) £
 
 Does the following statement always compute the fractional part of £ correctly (assuming
-that £ and frac_part are £1loat variables)?
+that £ and frac_part are float variables)?
 
 frac_part = £ - (int) £;
 
@@ -5183,7 +3763,7 @@ for which the program correctly prints the factorial of n?
 (d) Repeat part (a), using a long long variable instead (if your compiler supports the
 long long type).
 
-(e) Repeat part (a), using a £1loat variable instead.
+(e) Repeat part (a), using a float variable instead.
 
 (f) Repeat part (a), using a double variable instead.
 
@@ -13916,7 +12496,7 @@ application of ##, let’s reconsider the MAX macro described earlier in this se
 As we observed then, MAX doesn’t behave properly if its arguments have side
 effects. The alternative to using the MAX macro is to write a max function. Unfor-
 tunately, one max function usually isn’t enough; we may need a max function
-whose arguments are int values, one whose arguments are £1oat values, and so
+whose arguments are int values, one whose arguments are float values, and so
 on. All these versions of max would be identical except for the types of the argu-
 ments and the return type, so it seems a shame to define each one from scratch.
 
@@ -13937,7 +12517,7 @@ return x > y ? x
 5
 
 Notice how type is joined with _max to form the name of the function.
-Suppose that we happen to need a max function that works with £loat val-
+Suppose that we happen to need a max function that works with float val-
 ues. Here's how we'd use GENERIC_MAX to define the function:
 
 GENERIC MAX (float]
@@ -21356,8 +19936,8 @@ Chapter 18 Declarations
 
 declaration
 
-tells the compiler that £ is a function that returns a £1oat value and has one argu-
-ment, also of type £loat.
+tells the compiler that £ is a function that returns a float value and has one argu-
+ment, also of type float.
 In general, a declaration has the following appearance:
 
 declaration-specifiers declarators ;
@@ -21953,7 +20533,7 @@ int *ap[i0];
 declares an array of 10 pointers to integers. We know that
 float *fp(float);
 
-declares a function that has a £1oat argument and returns a pointer to a float.
+declares a function that has a float argument and returns a pointer to a float.
 And, in Section 17.7, we learned that
 
 void (*pf) (int);
@@ -25112,7 +23692,7 @@ bits inn?
 né&=n- 1;
 Hint: Consider the effect on n if this statement is executed more than once.
 
-‘When stored according to the IEEE floating-point standard, a £1oat value consists of a 1
+‘When stored according to the IEEE floating-point standard, a float value consists of a 1
 bit sign (the leftmost—or most significant—bit), an 8-bit exponent, and a 23-bit fraction, in
 that order. Design a structure type that occupies 32 bits, with bit-tield members correspond-
 ing to the sign, exponent, and fraction. Declare the bit-fields to have type unsigned int.
@@ -25151,7 +23731,7 @@ forget that the x86 architecture is little-endian.
 
 Programming Projects
 
-Design a union that makes it possible to view a 32-bit value as either a £1oat or the struc-
+Design a union that makes it possible to view a 32-bit value as either a float or the struc-
 ture described in Exercise 14. Write a program that stores | in the structure’s sign field, 128
 in the exponent field, and 0 in the fraction field, then prints the £1cat value stored in the
 union. (The answer should be —2.0 if you’ve set up the bit-fields correctly.)
@@ -25321,7 +23901,7 @@ chapter.
 
 <float.h>
 
-<£loat. > header »23.1
+<float. > header »23.1
 
 <limits.h>
 
@@ -26636,8 +25216,8 @@ L  aheEfFaG longdouble e
 
 w Conversion specifier. The conversion specifier must be one of the characters
 listed in Table 22.6. Notice that £, F, e, E, g, G, a, and A are all designed to
-write double values. However, they work fine with £1oat values as well;
-thanks to the default argument promotions, £loat arguments are converted
+write double values. However, they work fine with float values as well;
+thanks to the default argument promotions, float arguments are converted
 automatically to double when passed to a function with a variable number of
 arguments. Similarly, a character passed to ..printf is converted automati-
 cally to int, so the ¢ conversion works properly.
@@ -27055,7 +25635,7 @@ have type unsigned int *.
 
 to have type unsigned int *.
 a'.al e B, Matches a floating-point number; the corresponding argument is
-£,F,g.G  assumed to have type £1oat *. In C99, the number can be infinity or
+£,F,g.G  assumed to have type float *. In C99, the number can be infinity or
 ™ NaN,
 
 (< Matches n characters, where n is the maximum field width, or one char-
@@ -28350,7 +26930,7 @@ any other statement; the answer must be a single call of printf.
 Suppose that we call scant as follows:
 n = scanf ("$d%£%d", &i, &x, &j);
 
-(1, i, and n are int variables and x is a £1oat variable.) Assuming that the input stream
+(1, i, and n are int variables and x is a float variable.) Assuming that the input stream
 contains the characters shown, give the values of i, j, n, and x after the call. In addition,
 indicate which characters were consumed by the call.
 
@@ -28788,7 +27368,7 @@ mum value of 2 (indicating binary representation).
 
 The remaining macros, which I'll present in a series of tables, describe the
 characteristics of specific types. Each macro begins with either FLT, DBL, or
-LDBL, depending on whether it refers to the £1oat, double, or long double
+LDBL, depending on whether it refers to the float, double, or long double
 type. The C standard provides extremely detailed definitions of these macros; my
 descriptions will be less precise but easier to understand. The tables indicate maxi-
 mum or minimum values for some macros, as specified in the standard.
@@ -28850,7 +27430,7 @@ est supparted floating type; it has a minimum value of 10. The value of
 FIT_EVAL_METHOD indicates whether an implementation will perform float-
 ing-point arithmetic using greater range and precision than is strictly nccessary. If
 this macro has the value 0, for example, then adding two £ Loat values would be
-done in the normal way. If it has the value 1, however, then the £loat values
+done in the normal way. If it has the value 1, however, then the float values
 would be converted to double before the addition is performed. Table 23.5 lists
 the possible values of FLT EVAL_METHOD. (Negative values not shown in the
 table indicate implementation-defined behavior.)
@@ -28860,13 +27440,13 @@ Value Meaning
 
 0 Evaluate all operations and constants just to the range and precision of the type
 
-5 Evaluate operations and constants of type £1oat and double to the range
+5 Evaluate operations and constants of type float and double to the range
 and precision of the double type
 
 2 Evaluate all operations and constants to the range and precision of the 1ong |
 double type
 
-Most of the macros in <£loat . h> are of interest only to experts in numeri-
+Most of the macros in <float . h> are of interest only to experts in numeri-
 cal analysis, making it probably one of the least-used headers in the standard
 library.
 
@@ -29353,13 +27933,13 @@ is raised.
 
 Types
 
-€99 adds two types, £loat_t and double t.to <math.h>. The float _t
-type is at least as “wide” as the £1oat type (meaning that it could be the £loat
+€99 adds two types, float_t and double t.to <math.h>. The float _t
+type is at least as “wide” as the float type (meaning that it could be the float
 type or any wider type, such as double). Similarly, double_t is required to be
 at least as wide as the double type. (It musl also be at least as wide as
 float_t.) These types are provided for the programmer who's trying to maxi-
-mize the performance of floating-point arithmetic, £1oat_t should be the most
-efficient floating-point type that's at least as wide as £1loat; double_t should
+mize the performance of floating-point arithmetic, float_t should be the most
+efficient floating-point type that's at least as wide as float; double_t should
 be the most efficient floating-point type that's at least as wide as double.
 
 The float t and double_t types are related to the FLT_EVAL_METHOD
@@ -29369,7 +27949,7 @@ macro, as shown in Table 23.8.
 Table 23.8
 Relationship between
 FLT_EVAL_METHOD
-and the £loat_t and
+and the float_t and
 double_t Types
 
 Value of 2 Meaning of Meaning of
@@ -29382,10 +27962,10 @@ Other Implementation-defined  Implementation-defined
 Macros
 
 €99 adds a number of macros to <math.h>. I'll mention just two of them at this
-point. INFINITY represents the £1loat version of positive or unsigned infinity.
+point. INFINITY represents the float version of positive or unsigned infinity.
 (If the implementation doesn’t support infinity, then INFINITY represents a
 float value that overflows at compile time.) The NAN macro represents the
-£loat version of “not a number.” More specifically, it represents a “quiet” NaN
+float version of “not a number.” More specifically, it represents a “quiet” NaN
 (one that doesn't raise an exception if used in an arithmetic expression). If quiet
 NaNs aren’t supported, the NAN macro won't be defined.
 
@@ -29430,7 +28010,7 @@ more complicated set of actions when overflow occurs:
 = If default rounding is in effect or if the return value is an “exact infinity” (such
 as 1og (0. 0) ), then the function returns either HUGE VAL, HUGE VALF, or
 HUGE_VALL, depending on the function’s return type. (HUGE_VALF and
-HUGE_VALL—the £loat and long double versions of HUGE_VAL—are
+HUGE_VALL—the float and long double versions of HUGE_VAL—are
 new in C99. Like HUGE VAL, they may represent positive infinity.) The value
 returned has the sign of the correct result.
 
@@ -29469,10 +28049,10 @@ One of the biggest changes in the C99 version of <math.h> is the addition
 of two more versions of most functions. In C89, there’s only a single version of
 each math function: typically, it takes at least one argument of type double and/
 or returns a double value. In C99, however. there are two additional versions:
-one for £loat and one for long double. The names of these functions are
+one for float and one for long double. The names of these functions are
 identical to the name of the original function except for the addition of an £ or 1
 suffix. For example, the original sqrt function, which takes the square root of a
-double value, is now joined by sqrtE (the £loat version) and sgrtl (the
+double value, is now joined by sqrtE (the float version) and sgrtl (the
 long double version). I'll list the prototypes for the new versions (in italics, as
 is my custom for functions that are new in C99). I won't describe the functions
 further, though, since they’re virtually identical to their C89 counterparts.
@@ -29823,7 +28403,7 @@ long double truncl(long double x);
 Besides additional versions of ceil and £loor, C99 has a number of new func-
 tions that convert a floating-point value to the nearest integer. Be careful when
 using these functions: although all of them return an integer, some functions
-return it in floating-point format (as a £loat, double, or long double
+return it in floating-point format (as a float, double, or long double
 value) and some return it in integer format (as a long int or long long int
 value).
 
@@ -34045,7 +32625,7 @@ between the call of va_start (or va_copy) and the matching call of va_end.
 
 When a function with a variable argument list is called, the compiler performs the
 default argument promotions on all arguments that match the ellipsis. In particular,
-char and short arguments are promoted to int, and £loat values are pro-
+char and short arguments are promoted to int, and float values are pro-
 moted to double. Consequently, it doesn’t make sense to pass types such as
 char, short, or float to va_arg, since arguments—after promotion—will
 never have one of those types.
@@ -34318,7 +32898,7 @@ strtoul returns ULONG_MAX.)
 C99 adds the atoll, strtof, strtold, strtoll, and strtoull
 functions. atoll is the same as the atol function, except that it converts a
 string to a long long int value. strtof and strtold are the same as
-strtod, except that they convert a string to a £1oat or long double value,
+strtod, except that they convert a string to a float or long double value,
 respectively. stxtoll is the same as strtol, except that it converts a string to
 a long long int value. strtoull is the same as strtoul, except that it
 converts a string to an unsigned long long int value. C99 also makes a
@@ -36220,7 +34800,7 @@ Conversion Rules for Complex Types
 Section 7.4 described the C99 rules for type conversion, but without covering the
 complex types. It's now time to rectify that situation. Before we get to the conver-
 sion rules, though, we'll need some new terminology. For each floating type there is
-a corresponding real type. In the case of the real floating types (£loat, double,
+a corresponding real type. In the case of the real floating types (float, double,
 and long double), the corresponding real type is the same as the original type.
 716
 
@@ -36337,7 +34917,7 @@ Chapter 27  Additional C99 Support for Mathematics
 
 #pragma directive » 14.5
 
-Also note that the type of _Complex_I (and hence the type of I) is £loat
+Also note that the type of _Complex_I (and hence the type of I) is float
 _Complex, not double _Complex. When it's used in expressions, I will auto-
 matically be widened to double _Complex or leng double _Complex if
 necessary.
@@ -36684,7 +35264,7 @@ priate version of a <math.h> or <complex.h> function.
 
 In €99, there are multiple versions of many math functions, as we saw in Sec-
 tions 23.3, 23.4, and 27.4. For example, the sqrt function comes in a double
-version (sqrt), a £loat version (sqrtf), and a long double version
+version (sqrt), a float version (sqrtf), and a long double version
 (sqrtl), as well as three versions for complex numbers (csqrt, csqrtf, and
 csqrt1). By using <tgmath.h>, the programmer can simply invoke sgrt
 without having to worry about which version is needed: the call sqrt (x) could
@@ -37072,7 +35652,7 @@ it returns a nonzero value.
 
 The fesetexceptflag function attempts to set the floating-point status
 flags represented by excepts. The states of the tlags are stored in the
-fexcept_t object pointed to by £1agp; this object must have been set by a pre-
+fexcept_t object pointed to by flagp; this object must have been set by a pre-
 vious call of fegetexcept£lag. Moreover, the second argument in the prior
 call of fegetexceptflag must have included all floating-point exceptions rep-
 resented by excepts. The fesetexceptflag function returns zero if
@@ -37187,16 +35767,16 @@ very popular function), the €99 committee chose not to provide a type-generic
 modf macro.
 
 When a <tgmath.h>macrois invoked with an integer argument, the double
-version of the corresponding function is called. Shouldn’t the £1oat version be
+version of the corresponding function is called. Shouldn’t the float version be
 called, according to the nsual arithmetic conversions? [p. 725]
 
 We're dealing with a macro, not a function, so the usual arithmetic conversions
 don’t come into play. The €99 committce had to create a rule for determining
 which version of a function would be called when an integer argument is passed to
 a <tgmath.h> macro. Although the committee at one point considered having
-the £1loat version called (for consistency with the usual arithmetic conversions),
+the float version called (for consistency with the usual arithmetic conversions),
 they eventually decided that choosing the double version was better. First, it’s
-safer: converting an integer to £loat may cause a loss of accuracy, especially for
+safer: converting an integer to float may cause a loss of accuracy, especially for
 integer types whose width is 32 bits or more. Second, it causes fewer surprises for
 the programmer. Suppose that 1 is an integer variable. If the <tgmath.h> header
 isn't included, the call sin (i) calls the sin function. On the other hand, if
@@ -37620,7 +36200,7 @@ snprintf function
 23
 
 additional macros in
-<£loat.h> header
+<float.h> header
 
 Appendix B C99 versus C89
 
@@ -37719,7 +36299,7 @@ floating-point exception, or both. The value of the math_errhandling mac-
 ro (defined in <math.hs>) indicates how errors are signaled by a particular
 implementation.
 
-€99 adds two new versions of most <math . h> functions, one for £1oat and one
+€99 adds two new versions of most <math . h> functions, one for float and one
 for long double. C99 also adds a number of completely new functions and
 function-like macros to <math.h>.
 
@@ -37864,7 +36444,7 @@ K&R C doesn’t support the signed type specifier.
 
 K&R C doesn’t support the U (or u) suffix to specify that an integer constant is
 unsigned, nor does it support the F (or £) suffix to indicate that a floating constant
-is to be stored as a £1oat value instead of a double value. In K&R C, the L (or
+is to be stored as a float value instead of a double value. In K&R C, the L (or
 1) suffix can't be used with floating constants.
 
 K&R C allows the use of long f£lcat as a synonym for double; this usage
@@ -37950,7 +36530,7 @@ int rand();
 When a K&R C definition or declaration is used, the compiler doesn’t check that
 the function is called with arguments of the proper number and type. Furthermore,
 the arguments aren’t automatically converted to the types of the corresponding
-parameters. Instead, the integral promotions are performed, and £1loat arguments
+parameters. Instead, the integral promotions are performed, and float arguments
 are converted (o double,
 
 K&R C doesn’t support the void type.
@@ -38064,7 +36644,7 @@ Function-like macros are included in this appendix (with the exception of the
 type-generic macros in <tgmath.h>). Each prototype for a macro is fol-
 lowed by the word macro.
 
-In C99, some <math. h> functions have three versions (one each for £1oat,
+In C99, some <math. h> functions have three versions (one each for float,
 double, and long double). All three are grouped into a single entry,
 under the name of the double version. For example, there’s only one entry
 (under acos) for the acos, acost, and acos1 functions. The name of each
@@ -38590,7 +37170,7 @@ fesetexceptflag Set Floating-Point Exception Flags (C99) <fenv.h>
 int fesetexceptflag(const fexcept t #*flagp,
 int excepts);
 Attempts to set the floating-point status flags represented by excepts to the
-states stored in the object pointed to by £1agp.
+states stored in the object pointed to by flagp.
 Returns ~ Zero if excepts is zero or if all specified exceptions were successfully set; other-
 wise, returns a nonzero value. 27.6
 fesetround Set Floating-Point Rounding Direction (C99) <fenv.h>
@@ -39969,12 +38549,12 @@ Returns
 
 Appendix D Standard Library Functions 787
 
-strtof is identical to st rtod, except that it converts a string to a £1oat value.
+strtof is identical to st rtod, except that it converts a string to a float value.
 
 The converted number. Returns zero if no conversion could be performed. If the
 number is too large to represent, returns plus or minus HUGE_VALF, depending on
 the number’s sign. If the number is too small to represent, returns a value whose
-magnitude is no greater than the smallest normalized positive £loat. 26.2
+magnitude is no greater than the smallest normalized positive float. 26.2
 
 strtoimax
 

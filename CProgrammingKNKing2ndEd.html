@@ -3133,5 +3133,1292 @@ href="./cknkCh04/cknkCh04Prj/cknkCh04PrjReadme.html">./cknkCh04/cknkCh04Prj/cknk
 href="./cknkCh04/cknkCh04Prj/">./cknkCh04/cknkCh04Prj/</a></li>
 </ul>
 <hr class="chapterDivider"/>
+<h1 id="selection-statements">5 Selection Statements</h1>
+<!-- START: div -->
+<div class="theQuote">
+<p>Programmers are not to be measured by their ingenuity and their logic
+but by the completeness of their case analysis.</p>
+</div>
+<!-- END: div -->
+<p>Although C has many operators, it has relatively few statements.
+We’ve encountered just two so far: the <code>return</code> statement and
+the expression statement. Most of C’s remaining statements fall into
+three categories, depending on how they affect the order in which
+statements are executed:</p>
+<ul>
+<li><strong><em>Selection statements</em></strong>, The <code>if</code>
+and <code>switch</code> statements allow a program to select a
+particular execution path from a set of alternatives.<br />
+</li>
+<li><strong><em>Iteration statements</em></strong>. The
+<code>while</code>, <code>do</code>, and <code>for</code> statements
+support iteration (looping).<br />
+</li>
+<li>*<strong>Jump statements</strong>. The <code>break</code>,
+<code>continue</code>, and <code>goto</code> statements cause an
+unconditional jump to some other place in the program. (The return
+statement belongs in this category, as well.)</li>
+</ul>
+<p>The only other statements in C are the compound statement, which
+groups several statements into a single statement, and the null
+statement, which performs no action.</p>
+<p>This chapter discusses the selection statements and the compound
+statement. (Chapter 6 covers the iteration statements, the jump
+statements, and the null statement.) Before we can write <code>if</code>
+statements, we’ll need logical expressions: conditions that
+<code>if</code> statements can test. Section 5.1 explains how logical
+expressions are built from the relational operators (<code>&lt;</code>,
+<code>&lt;=</code>, <code>&gt;</code>, and <code>&gt;=</code>), the
+equality operators (<code>==</code> and <code>!=</code>), and the
+logical operators (<code>&amp;&amp;</code>, <code>||</code>, and
+<code>!</code>). Section 5.2 covers the <code>if</code> statement and
+compound statement, as well as introducing the conditional operator
+(<code>?:</code>), which can test a condition within an expression.
+Section 5.3 describes the <code>switch</code> statement.</p>
+<h2 id="logical-expressions">5.1 Logical Expressions</h2>
+<p>Several of C’s statements, including the <code>if</code> statement,
+must test the value of an expression to see if it is “true™ or “false.”
+For example, an <code>if</code> statement might need to test the
+expression <code>i &lt; j;</code> a true value would indicate that
+<code>i</code> is less than <code>j</code>. In many programming
+languages, an expression such as <code>i &lt; j</code> would have a
+special “Boolean” or “logical” type. Such a type would have only two
+values, <code>false</code> and <code>frue</code>. In C, however, a
+comparison such as <code>i &lt; j</code> yields an integer: either 0
+(false) or 1 (true). With this in mind, let’s look at the operators that
+are used to build logical expressions.</p>
+<h3 id="relational-operators">5.1.1 Relational Operators</h3>
+<p>C’s <strong><em>relational operators</em></strong> (Table 5.1)
+correspond to the <code>&lt;</code>, <code>&gt;</code>, <code>≤</code>,
+and <code>≥</code> operators of mathematics, except that they produce 0
+(false) or 1 (true) when used in expressions. For example, the value of
+<code>10 &lt; 11</code> is 1; the value of <code>11 &lt; 10</code> is
+0.</p>
+<p><strong>Table 5.1</strong>: Relational Operators</p>
+<table>
+<thead>
+<tr class="header">
+<th>Symbol</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>&lt;</code></td>
+<td>less than</td>
+</tr>
+<tr class="even">
+<td><code>&gt;</code></td>
+<td>greater than</td>
+</tr>
+<tr class="odd">
+<td><code>≤</code></td>
+<td>less than or equal to</td>
+</tr>
+<tr class="even">
+<td><code>≥</code></td>
+<td>greater than or equal to</td>
+</tr>
+</tbody>
+</table>
+<p>The relational operators can be used to compare integers and
+floating-point numbers, with operands of mixed types allowed. Thus,
+<code>1 &lt; 2.5</code> has the value 1, while <code>5.6 &lt; 4</code>
+has the value 0.</p>
+<p>The precedence of the relational operators is lower than that of the
+arithmetic operators; for example, <code>i + j &lt; k - 1</code> means
+<code>(i + j) &lt; (k - 1)</code>. The relational operators are left
+associative.</p>
+<!-- START: div -->
+<div class="infoBox">
+<p>The expression <code>i &lt; j &lt; k</code> is legal in C, but
+doesn’t have the meaning that you might expect. Since the
+<code>&lt;</code> operator is left associative, this expression is
+equivalent to <code>(i &lt; j) &lt; k</code>.</p>
+<p>In other words, the expression first tests whether <code>i</code> is
+less than <code>j</code>; the 1 or 0 produced by this comparison is then
+compared to <code>k</code>. The expression does not test whether
+<code>j</code> lies between <code>i</code> and <code>k</code>. (We’ll
+see later in this section that the correct expression would be
+<code>i &lt; j &amp;&amp; j &lt; k</code>.)</p>
+</div>
+<!-- END: div -->
+<h3 id="equality-operators">5.1.2 Equality Operators</h3>
+<p>Although the relational operators are denoted by the same symbols as
+in many other programming languages, the <strong><em>equality
+operators</em></strong> have a unique appearance (Table 5.2). The “equal
+to” operator is two adjacent <code>=</code> characters, not one, since a
+single <code>=</code> character represents the assignment operator. The
+“not equal to” operator is also two characters: <code>!</code> and
+<code>=</code>.</p>
+<p><strong>Table 5.2</strong>: Equality Operators</p>
+<table>
+<thead>
+<tr class="header">
+<th>Symbol</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>==</code></td>
+<td>equal to</td>
+</tr>
+<tr class="even">
+<td><code>!=</code></td>
+<td>not equal to</td>
+</tr>
+</tbody>
+</table>
+<p>Like the relational operators, the equality operators are left
+associative and produce either O (false) or 1 (true) as their result.
+However, the equality operators have <em>lower</em> precedence than the
+relational operators. For example, the expression
+<code>i &lt; j == j &lt; k</code> is equivalent to
+<code>(i &lt; j) == (j &lt; k)</code> which is true if
+<code>i &lt; j</code> and <code>j &lt; k</code> are both true or both
+false.</p>
+<p>Clever programmers sometimes exploit the fact that the relational and
+equality operators return integer values. For example, the value of the
+expression <code>(i &gt;= j) + (i == j)</code> is either 0, 1, or 2,
+depending on whether <code>i</code> is less than, greater than, or equal
+to <code>j</code>, respectively. Tricky coding like this generally isn’t
+a good idea, however; it makes programs hard to understand.</p>
+<h3 id="logical-operators">5.1.3 Logical Operators</h3>
+<p>More complicated logical expressions can be built from simpler ones
+by using the <strong><em>logical operators</em></strong>: <em>and</em>,
+<em>or</em>, and <em>not</em> (Table 5.3). The <code>!</code> operator
+is unary, while <code>&amp;&amp;</code> and <code>||</code> are
+binary.</p>
+<p><strong>Table 5.3</strong>: Logical Operators</p>
+<table>
+<thead>
+<tr class="header">
+<th>Symbol</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>!</code></td>
+<td>logical negation</td>
+</tr>
+<tr class="even">
+<td><code>&amp;&amp;</code></td>
+<td>logical <em>and</em></td>
+</tr>
+<tr class="odd">
+<td><code>||</code></td>
+<td>logical <em>or</em></td>
+</tr>
+</tbody>
+</table>
+<p>The logical operators produce either 0 or 1 as their result. Often,
+the operands will have values of 0 or 1, but this isn’t a requirement;
+the logical operators treat any nonzero operand as a true value and any
+zero operand as a false value.</p>
+<p>The logical operators behave as follows:</p>
+<ul>
+<li><code>!expr</code> has the value 1 if <code>expr</code> has the
+value 0.<br />
+</li>
+<li><code>exprl &amp;&amp; expr2</code> has the value 1 if the values of
+<code>expr1</code> and <code>expr2</code> are both non Zero.<br />
+</li>
+<li><code>exprl || expr2</code> has the value 1 if either
+<code>expr1</code> or <code>expr2</code> (or both) has a nonzero
+value.</li>
+</ul>
+<p>In all other cases, these operators produce the value 0.</p>
+<p>Both <code>&amp;&amp;</code> and <code>||</code> perform
+“short-circuit” evaluation of their operands. That is, these operators
+first evaluate the left operand, then the right operand. If the value of
+the expression can be deduced from the value of the left operand alone,
+then the right operand isn’t evaluated. Consider the following
+expression:</p>
+<div class="sourceCode" id="cb155"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb155-1"><a href="#cb155-1" aria-hidden="true" tabindex="-1"></a><span class="op">(</span>i <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span> <span class="op">&amp;&amp;</span> <span class="op">(</span>j <span class="op">/</span> i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span></span></code></pre></div>
+<p>To find the value of this expression, we must first evaluate
+<code>(i != 0)</code>. If <code>i</code> isn’t equal to 0, then we’ll
+need to evaluate <code>(j / 1 &gt; 0)</code> to determine whether the
+entire expression is true or false. However, if <code>i</code> is equal
+to 0, then the entire expression must be false, so there’s no need to
+evaluate <code>(j / i &gt; 0)</code>. The advantage of short circuit
+evaluation is apparent—without it, evaluating the expression would have
+caused a division by zero.</p>
+..md<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Be wary of side effects in logical expressions. Thanks to the
+short-circuit nature of the <code>&amp;&amp;</code> and <code>||</code>
+operators, side effects in operands may not always occur. Consider the
+following expression:</p>
+<div class="sourceCode" id="cb156"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb156-1"><a href="#cb156-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">&gt;</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span> <span class="op">++</span>j <span class="op">&gt;</span> <span class="dv">0</span></span></code></pre></div>
+<p>Although <code>j</code> is apparently incremented as a side effect of
+evaluating the expression, that isn’t always the case. If
+<code>i &gt; 0</code> is false, then <code>++j &gt; 0</code> is not
+evaluated, so <code>j</code> isn’t incremented. The problem can be fixed
+by changing the condition to <code>++j &gt; 0 &amp;&amp; i &gt; 0</code>
+or, even better, by incrementing <code>j</code> separately.</p>
+</div>
+<!-- END: div -->
+<p>The <code>!</code> operator has the same precedence as the unary plus
+and minus operators. The precedence of <code>&amp;&amp;</code> and
+<code>||</code> is lower than that of the relational and equality
+operators; for example, <code>i &lt; j &amp;&amp; k == m</code> means
+<code>(i &lt; j) &amp;&amp; (k == m)</code>. The ! operator is right
+associative; <code>&amp;&amp;</code> and <code>||</code> are left
+associative.</p>
+<h2 id="the-if-statement">5.2 The <code>if</code> Statement</h2>
+<p>The <code>if</code> statement allows a program to choose between two
+alternatives by testing the value of an expression. In its simplest
+form, the <code>if</code> statement has the form</p>
+<pre><code>if(expression) statement</code></pre>
+<p>Notice that the parentheses around the expression are mandatory;
+they’re part of the <code>if</code> statement, not part of the
+expression. Also note that the word then doesn’t come after the
+parentheses, as it would in some programming languages.</p>
+<p>When an <code>if</code> statement is executed. the expression in the
+parentheses is evaluated: if the value of the expression is
+nonzero—which C interprets as true—the statement after the parentheses
+is executed. Here’s an example:</p>
+<div class="sourceCode" id="cb158"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb158-1"><a href="#cb158-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>line_num <span class="op">==</span> MAX_LINES<span class="op">)</span></span>
+<span id="cb158-2"><a href="#cb158-2" aria-hidden="true" tabindex="-1"></a>line_num <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>The statement <code>line_num = 0;</code> is executed if the condition
+<code>line_num == MAX_LINES</code> is true (has a nonzero value).</p>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Don’t confuse <code>==</code> (equality) with <code>=</code>
+(assignment). The statement <code>if(i == 0) ...</code> tests whether
+<code>i</code> is equal to 0. However, the statement
+<code>if (i = 0) ...</code> assigns 0 to <code>i</code>, then tests
+whether the <em>result</em> is nonzero. In this case, the test always
+fails.</p>
+<p><span class="QandA"></span></p>
+<p>Confusing <code>==</code> with <code>=</code> is perhaps the most
+common C programming error, probably because <code>=</code> means “is
+equal to” in mathematics (and in certain programming languages). Some
+compilers issue a warning if they notice <code>=</code> where
+<code>==</code> would normally appear.</p>
+</div>
+<!-- END: div -->
+<p>Often the expression in an <code>if</code> statement will test
+whether a variable falls within a range of values. To test whether
+<code>0 ≤ i &lt; n</code>, for example, we’d write</p>
+<div class="sourceCode" id="cb159"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb159-1"><a href="#cb159-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span><span class="dv">0</span> <span class="op">&lt;=</span> i <span class="op">&amp;&amp;</span> i <span class="op">&lt;</span> n<span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<p>To test the opposite condition (<code>i</code> is outside the range),
+we’d write</p>
+<div class="sourceCode" id="cb160"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb160-1"><a href="#cb160-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>i <span class="op">&lt;</span> <span class="dv">0</span> <span class="op">||</span> i <span class="op">&gt;=</span> n<span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<p>Note the use of the <code>||</code> operator instead of the
+<code>&amp;&amp;</code> operator.</p>
+<h3 id="compound-statements">5.2.1 Compound Statements</h3>
+<p>In our <code>if</code> statement template, notice that statement is
+singular, not plural:</p>
+<div class="sourceCode" id="cb161"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb161-1"><a href="#cb161-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span> expression <span class="op">)</span> statement</span></code></pre></div>
+<p>What if we want an <code>if</code> statement to control fwo or more
+statements? That’s where the <strong><em>compound
+statement</em></strong> comes in. A compound statement has the form</p>
+<div class="sourceCode" id="cb162"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb162-1"><a href="#cb162-1" aria-hidden="true" tabindex="-1"></a><span class="op">{</span> statements <span class="op">}</span></span></code></pre></div>
+<p>By putting braces around a group of statements, we can force the
+compiler to treat it as a single statement.</p>
+<p>Here’s an example of a compound statement:</p>
+<div class="sourceCode" id="cb163"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb163-1"><a href="#cb163-1" aria-hidden="true" tabindex="-1"></a><span class="op">{</span> line_num <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> page num<span class="op">++;</span> <span class="op">}</span></span></code></pre></div>
+<p>For clarity, I’ll usually put a compound statement on several lines,
+with one statement per line:</p>
+<div class="sourceCode" id="cb164"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb164-1"><a href="#cb164-1" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb164-2"><a href="#cb164-2" aria-hidden="true" tabindex="-1"></a>    line_num <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb164-3"><a href="#cb164-3" aria-hidden="true" tabindex="-1"></a>    page_num<span class="op">++;</span></span>
+<span id="cb164-4"><a href="#cb164-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Notice that each inner statement still ends with a semicolon, but the
+compound statement itself does not.</p>
+<p>Here’s what a compound statement would look like when used inside an
+<code>if</code> statement:</p>
+<div class="sourceCode" id="cb165"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb165-1"><a href="#cb165-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>line_num <span class="op">==</span> MAX LINES<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb165-2"><a href="#cb165-2" aria-hidden="true" tabindex="-1"></a>    line_num <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb165-3"><a href="#cb165-3" aria-hidden="true" tabindex="-1"></a>    page_num<span class="op">++;</span></span>
+<span id="cb165-4"><a href="#cb165-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Compound statements are also common in loops and other places where
+the syntax of C requires a single statement, but we want more than
+one.</p>
+<h3 id="the-else-clause">5.2.2 The <code>else</code> Clause</h3>
+<p>An <code>if</code> statement may have an <code>else</code>
+clause:</p>
+<div class="sourceCode" id="cb166"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb166-1"><a href="#cb166-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span> expression <span class="op">)</span> statement <span class="cf">else</span> statement</span></code></pre></div>
+<p>The statement that follows the word <code>else</code> is executed if
+the expression in parentheses has the value 0.</p>
+<p>Here’s an example of an <code>if</code> statement with an
+<code>else</code> clause:</p>
+<div class="sourceCode" id="cb167"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb167-1"><a href="#cb167-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>i <span class="op">&gt;</span> j<span class="op">)</span></span>
+<span id="cb167-2"><a href="#cb167-2" aria-hidden="true" tabindex="-1"></a>    max <span class="op">=</span> i<span class="op">;</span></span>
+<span id="cb167-3"><a href="#cb167-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb167-4"><a href="#cb167-4" aria-hidden="true" tabindex="-1"></a>    max <span class="op">=</span> j<span class="op">;</span></span></code></pre></div>
+<p>Notice that both “inner” statements end with a semicolon.</p>
+<p>When an <code>if</code> statement contains an <code>else</code>
+clause, a layout issue arises: where should the else be placed? Many C
+programmers align it with the <code>if</code> at the beginning of the
+statement, as in the previous example. The inner statements are usually
+indented, but if they’re short they can be put on the same line as the
+<code>if</code> and <code>else</code>:</p>
+<div class="sourceCode" id="cb168"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb168-1"><a href="#cb168-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>i <span class="op">&gt;</span> j<span class="op">)</span> max <span class="op">=</span> i<span class="op">;</span></span>
+<span id="cb168-2"><a href="#cb168-2" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> max <span class="op">=</span> j<span class="op">;</span></span></code></pre></div>
+<p>There are no restrictions on what kind of statements can appear
+inside an <code>if</code> statement. In fact, it’s not unusual for
+<code>if</code> stalements to be nested inside other <code>if</code>
+statements. Consider the following <code>if</code> statement, which
+finds the largest of the numbers stored in <code>i</code>,
+<code>j</code>, and <code>k</code> and stores that value in
+<code>max</code>:</p>
+<div class="sourceCode" id="cb169"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb169-1"><a href="#cb169-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>i <span class="op">&gt;</span> j<span class="op">)</span></span>
+<span id="cb169-2"><a href="#cb169-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>i <span class="op">&gt;</span> k<span class="op">)</span></span>
+<span id="cb169-3"><a href="#cb169-3" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> i<span class="op">;</span></span>
+<span id="cb169-4"><a href="#cb169-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb169-5"><a href="#cb169-5" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> k<span class="op">;</span></span>
+<span id="cb169-6"><a href="#cb169-6" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb169-7"><a href="#cb169-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>j <span class="op">&gt;</span> k<span class="op">)</span></span>
+<span id="cb169-8"><a href="#cb169-8" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> j<span class="op">;</span></span>
+<span id="cb169-9"><a href="#cb169-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb169-10"><a href="#cb169-10" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> k<span class="op">;</span></span>
+<span id="cb169-11"><a href="#cb169-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb169-12"><a href="#cb169-12" aria-hidden="true" tabindex="-1"></a>`if` statements can be nested to any depth<span class="op">.</span> Notice how aligning each `e1se` with the matching `if` makes the nesting easier to see<span class="op">.</span> If you still find the nesting confusing<span class="op">,</span> don’t hesitate to add braces<span class="op">:</span></span>
+<span id="cb169-13"><a href="#cb169-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb169-14"><a href="#cb169-14" aria-hidden="true" tabindex="-1"></a>```C</span>
+<span id="cb169-15"><a href="#cb169-15" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>i <span class="op">&gt;</span> j<span class="op">)</span></span>
+<span id="cb169-16"><a href="#cb169-16" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb169-17"><a href="#cb169-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>i <span class="op">&gt;</span> K<span class="op">)</span></span>
+<span id="cb169-18"><a href="#cb169-18" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> i<span class="op">;</span></span>
+<span id="cb169-19"><a href="#cb169-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb169-20"><a href="#cb169-20" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> k<span class="op">;</span></span>
+<span id="cb169-21"><a href="#cb169-21" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb169-22"><a href="#cb169-22" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb169-23"><a href="#cb169-23" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb169-24"><a href="#cb169-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>j <span class="op">&gt;</span> k<span class="op">)</span></span>
+<span id="cb169-25"><a href="#cb169-25" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> j<span class="op">;</span></span>
+<span id="cb169-26"><a href="#cb169-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb169-27"><a href="#cb169-27" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> k<span class="op">;</span></span>
+<span id="cb169-28"><a href="#cb169-28" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Adding braces to statements—even when they’re not necessary—is like
+using parentheses in expressions: both techniques help make a progrum
+more readable while at the same time avoiding the possibility that the
+compiler won’t understand the program the way we thought it did.</p>
+<p>Some programimers use as many braces as possible inside
+<code>if</code> statements (and iteration statements as well). A
+programmer who adopts this convention would include a pair of braces for
+every <code>if</code> clause and every <code>else</code> clause:</p>
+<div class="sourceCode" id="cb170"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb170-1"><a href="#cb170-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>i <span class="op">&gt;</span> j<span class="op">)</span></span>
+<span id="cb170-2"><a href="#cb170-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb170-3"><a href="#cb170-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>i <span class="op">&gt;</span> K<span class="op">)</span></span>
+<span id="cb170-4"><a href="#cb170-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb170-5"><a href="#cb170-5" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> i<span class="op">;</span></span>
+<span id="cb170-6"><a href="#cb170-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb170-7"><a href="#cb170-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb170-8"><a href="#cb170-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb170-9"><a href="#cb170-9" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> k<span class="op">;</span></span>
+<span id="cb170-10"><a href="#cb170-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb170-11"><a href="#cb170-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb170-12"><a href="#cb170-12" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb170-13"><a href="#cb170-13" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb170-14"><a href="#cb170-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>j <span class="op">&gt;</span> k<span class="op">)</span></span>
+<span id="cb170-15"><a href="#cb170-15" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb170-16"><a href="#cb170-16" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> j<span class="op">;</span></span>
+<span id="cb170-17"><a href="#cb170-17" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb170-18"><a href="#cb170-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb170-19"><a href="#cb170-19" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb170-20"><a href="#cb170-20" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> k<span class="op">;</span></span>
+<span id="cb170-21"><a href="#cb170-21" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb170-22"><a href="#cb170-22" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Using braces even when they’re not required has two advantages.
+First, the program becomes easier to modify, because more statements can
+easily be added to any <code>if</code> or <code>else</code> clause.
+Second, it helps avoid errors that can result from forgetting to use
+braces when adding statements to an <code>if</code> or <code>else</code>
+clause.</p>
+<h3 id="cascaded-i-f-statements">5.2.3 Cascaded i f Statements</h3>
+<p>We’ll often need to test a series of conditions, stopping as soon as
+one of them is true. A “cascaded” <code>if</code> statement is often the
+best way to write such a series of tests. For example, the following
+cascaded <code>if</code> statement tests whether <code>n</code> is less
+than 0, equal to 0, or greater than 0:</p>
+<div class="sourceCode" id="cb171"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb171-1"><a href="#cb171-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>n <span class="op">&lt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb171-2"><a href="#cb171-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;n is less than 0</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb171-3"><a href="#cb171-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb171-4"><a href="#cb171-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>n <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb171-5"><a href="#cb171-5" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;n is equal to 0</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb171-6"><a href="#cb171-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb171-7"><a href="#cb171-7" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;n is greater than 0</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>Although the second <code>if</code> statement is nested inside the
+first, C programmers don’t usually indent it. Instead, they align each
+else with the original <code>if</code>:</p>
+<div class="sourceCode" id="cb172"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb172-1"><a href="#cb172-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>n <span class="op">&lt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb172-2"><a href="#cb172-2" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;n is less than 0</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb172-3"><a href="#cb172-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>n <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb172-4"><a href="#cb172-4" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;n is equal to 0</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb172-5"><a href="#cb172-5" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb172-6"><a href="#cb172-6" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;n is greater than 0</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>This arrangement gives the cascaded <code>if</code> a distinctive
+appearance:</p>
+<div class="sourceCode" id="cb173"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb173-1"><a href="#cb173-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span> expression <span class="op">)</span></span>
+<span id="cb173-2"><a href="#cb173-2" aria-hidden="true" tabindex="-1"></a>    statement</span>
+<span id="cb173-3"><a href="#cb173-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span> expression <span class="op">)</span></span>
+<span id="cb173-4"><a href="#cb173-4" aria-hidden="true" tabindex="-1"></a>    statement</span>
+<span id="cb173-5"><a href="#cb173-5" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span>
+<span id="cb173-6"><a href="#cb173-6" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span> expression <span class="op">)</span></span>
+<span id="cb173-7"><a href="#cb173-7" aria-hidden="true" tabindex="-1"></a>    statement</span>
+<span id="cb173-8"><a href="#cb173-8" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb173-9"><a href="#cb173-9" aria-hidden="true" tabindex="-1"></a>    statement</span></code></pre></div>
+<p>The last two lines (<code>else</code> <em>statement</em>) aren’t
+always present, of course. This way of indenting the cascaded
+<code>if</code> statement avoids the problem of excessive indentation
+when the number of tests is large. Moreover, it assures the reader that
+the statement is nothing more than a series of tests.</p>
+<p>Keep in mind that a cascaded <code>if</code> statement isn’t some new
+kind of statement; it’s just an ordinary <code>if</code> statement that
+happens to have another <code>if</code> statement as its
+<code>else</code> clause (and <em>that</em> <code>if</code> statement
+has another <code>if</code> statement as its <code>else</code> clause,
+<em>ad infinitum</em>).</p>
+<h3 id="program-calculating-a-brokers-commission">5.2.4 (PROGRAM)
+Calculating a Broker’s Commission</h3>
+<p>When stocks are sold or purchased through a broker, the broker’s
+commission is often computed using a sliding scale that depends upon the
+value of the stocks traded. Let’s say that a broker charges the amounts
+shown in the following table:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Transaction size</th>
+<th>Commission rate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Under $2,500</td>
+<td>$30 + 1.7%</td>
+</tr>
+<tr class="even">
+<td>$2,500-$6,250</td>
+<td>$56 + 0.66%</td>
+</tr>
+<tr class="odd">
+<td>$6,250-$20,000</td>
+<td>$76 + 0.34%</td>
+</tr>
+<tr class="even">
+<td>$20,000-$50,000</td>
+<td>$100 + 0.22%</td>
+</tr>
+<tr class="odd">
+<td>$50,000-$500,000</td>
+<td>$155 + 0.11%</td>
+</tr>
+<tr class="even">
+<td>Over $500,000</td>
+<td>$255 + 0.09%</td>
+</tr>
+</tbody>
+</table>
+<p>The minimum charge is $39. Our next program asks the user to enter
+the amount of the trade, then displays the amount of the commission:</p>
+<pre class="shell"><code>Enter value of trade: 30000
+Commission: $166.00</code></pre>
+<p>The heart of the program is a cascaded if statement that determines
+which range the trade falls into.</p>
+<div class="sourceCode" id="cb175"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb175-1"><a href="#cb175-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
+<span id="cb175-2"><a href="#cb175-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: broker.c</span></span>
+<span id="cb175-3"><a href="#cb175-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Calculates a broker&#39;s commission </span></span>
+<span id="cb175-4"><a href="#cb175-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb175-5"><a href="#cb175-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb175-6"><a href="#cb175-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb175-7"><a href="#cb175-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb175-8"><a href="#cb175-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb175-9"><a href="#cb175-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb175-10"><a href="#cb175-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb175-11"><a href="#cb175-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">float</span> commission<span class="op">,</span> value<span class="op">;</span></span>
+<span id="cb175-12"><a href="#cb175-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb175-13"><a href="#cb175-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter value of trade: &quot;</span><span class="op">);</span></span>
+<span id="cb175-14"><a href="#cb175-14" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%f&quot;</span><span class="op">,</span> <span class="op">&amp;</span>value<span class="op">);</span></span>
+<span id="cb175-15"><a href="#cb175-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb175-16"><a href="#cb175-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>value <span class="op">&lt;</span> <span class="fl">2500.00</span><span class="bu">f</span><span class="op">)</span></span>
+<span id="cb175-17"><a href="#cb175-17" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb175-18"><a href="#cb175-18" aria-hidden="true" tabindex="-1"></a>        commission <span class="op">=</span> <span class="fl">30.00</span><span class="bu">f</span> <span class="op">+</span> <span class="op">(</span><span class="fl">0.017</span><span class="bu">f</span> <span class="op">*</span> value<span class="op">);</span></span>
+<span id="cb175-19"><a href="#cb175-19" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb175-20"><a href="#cb175-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>value <span class="op">&lt;</span> <span class="fl">6250.00</span><span class="bu">f</span><span class="op">)</span></span>
+<span id="cb175-21"><a href="#cb175-21" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb175-22"><a href="#cb175-22" aria-hidden="true" tabindex="-1"></a>        commission <span class="op">=</span> <span class="fl">56.00</span><span class="bu">f</span> <span class="op">+</span> <span class="op">(</span><span class="fl">0.0066</span><span class="bu">f</span> <span class="op">*</span> value<span class="op">);</span></span>
+<span id="cb175-23"><a href="#cb175-23" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb175-24"><a href="#cb175-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>value <span class="op">&lt;</span> <span class="fl">20000.00</span><span class="bu">f</span><span class="op">)</span></span>
+<span id="cb175-25"><a href="#cb175-25" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb175-26"><a href="#cb175-26" aria-hidden="true" tabindex="-1"></a>        commission <span class="op">=</span> <span class="fl">76.00</span><span class="bu">f</span> <span class="op">+</span> <span class="op">(</span><span class="fl">0.0034</span><span class="bu">f</span> <span class="op">+</span> value<span class="op">);</span></span>
+<span id="cb175-27"><a href="#cb175-27" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb175-28"><a href="#cb175-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>value <span class="op">&lt;</span> <span class="fl">50000.00</span><span class="bu">f</span><span class="op">)</span></span>
+<span id="cb175-29"><a href="#cb175-29" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb175-30"><a href="#cb175-30" aria-hidden="true" tabindex="-1"></a>        commission <span class="op">=</span> <span class="fl">100.00</span><span class="bu">f</span> <span class="op">+</span> <span class="op">(</span><span class="fl">0.0022</span><span class="bu">f</span> <span class="op">*</span> value<span class="op">);</span></span>
+<span id="cb175-31"><a href="#cb175-31" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb175-32"><a href="#cb175-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>value <span class="op">&lt;</span> <span class="fl">500000.00</span><span class="bu">f</span><span class="op">)</span></span>
+<span id="cb175-33"><a href="#cb175-33" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb175-34"><a href="#cb175-34" aria-hidden="true" tabindex="-1"></a>        commission <span class="op">=</span> <span class="fl">155.00</span><span class="bu">f</span> <span class="op">+</span> <span class="op">(</span><span class="fl">0.0011</span><span class="bu">f</span> <span class="op">*</span> value<span class="op">);</span></span>
+<span id="cb175-35"><a href="#cb175-35" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb175-36"><a href="#cb175-36" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb175-37"><a href="#cb175-37" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb175-38"><a href="#cb175-38" aria-hidden="true" tabindex="-1"></a>        commission <span class="op">=</span> <span class="fl">255.00</span><span class="bu">f</span> <span class="op">+</span> <span class="op">(</span><span class="fl">0.0009</span><span class="bu">f</span> <span class="op">*</span> value<span class="op">);</span></span>
+<span id="cb175-39"><a href="#cb175-39" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb175-40"><a href="#cb175-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb175-41"><a href="#cb175-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>commission <span class="op">&lt;</span> <span class="fl">39.00</span><span class="bu">f</span><span class="op">)</span></span>
+<span id="cb175-42"><a href="#cb175-42" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb175-43"><a href="#cb175-43" aria-hidden="true" tabindex="-1"></a>        commission <span class="op">=</span> <span class="fl">39.00</span><span class="bu">f</span><span class="op">;</span></span>
+<span id="cb175-44"><a href="#cb175-44" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb175-45"><a href="#cb175-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb175-46"><a href="#cb175-46" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Commission: $%.2f</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> commission<span class="op">);</span></span>
+<span id="cb175-47"><a href="#cb175-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb175-48"><a href="#cb175-48" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb175-49"><a href="#cb175-49" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The cascaded <code>if</code> statement could have been written this
+way instead:</p>
+<div class="sourceCode" id="cb176"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb176-1"><a href="#cb176-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>value <span class="op">&lt;</span> <span class="fl">2500.00</span><span class="bu">f</span><span class="op">)</span></span>
+<span id="cb176-2"><a href="#cb176-2" aria-hidden="true" tabindex="-1"></a>    commission <span class="op">=</span> <span class="fl">30.00</span><span class="bu">f</span> <span class="op">+</span> <span class="fl">.017</span><span class="bu">f</span> <span class="op">*</span> value<span class="op">;</span></span>
+<span id="cb176-3"><a href="#cb176-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>value <span class="op">&gt;=</span> <span class="fl">2500.00</span><span class="bu">f</span> <span class="op">&amp;&amp;</span> value <span class="op">&lt;</span> <span class="fl">6250.00</span><span class="bu">f</span><span class="op">)</span></span>
+<span id="cb176-4"><a href="#cb176-4" aria-hidden="true" tabindex="-1"></a>    commission <span class="op">=</span> <span class="fl">56.00</span><span class="bu">f</span> <span class="op">+</span> <span class="fl">.0066</span><span class="bu">f</span> <span class="op">*</span> value<span class="op">;</span></span>
+<span id="cb176-5"><a href="#cb176-5" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>value <span class="op">&gt;=</span> <span class="fl">6250.00</span><span class="bu">f</span> <span class="op">&amp;&amp;</span> value <span class="op">&lt;</span> <span class="fl">20000.00</span><span class="bu">f</span><span class="op">)</span></span>
+<span id="cb176-6"><a href="#cb176-6" aria-hidden="true" tabindex="-1"></a>    commission <span class="op">=</span> <span class="fl">76.00</span><span class="bu">f</span> <span class="op">+</span> <span class="fl">.0034</span><span class="bu">f</span> <span class="op">*</span> value<span class="op">;</span></span></code></pre></div>
+<p>Although the program will still work, the added conditions aren’t
+necessary. For example, the first <code>if</code> clause tests whether
+value is less than 2500 and, if so, computes the commission. When we
+reach the second <code>if</code> test
+(<code>value &gt;= 2500.00f &amp;&amp; value &lt; 6250.00f</code>), we
+know that value can’t be less than 2500 and therefore must be greater
+than or equal to 2500. The condition <code>value &gt;= 2500.00f</code>
+will always be true, so there’s no point in checking it.</p>
+<h3 id="the-dangling-e1se-problem">5.2.5 The “Dangling e1se”
+Problem</h3>
+<p>When <code>if</code> statements are nested, we’ve got to watch out
+for the notorious “dangling <code>else</code>” problem. Consider the
+following example:</p>
+<div class="sourceCode" id="cb177"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb177-1"><a href="#cb177-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>y <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb177-2"><a href="#cb177-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>x <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb177-3"><a href="#cb177-3" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> x <span class="op">/</span> y<span class="op">;</span></span>
+<span id="cb177-4"><a href="#cb177-4" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb177-5"><a href="#cb177-5" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Error: y ic equal to 0</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>To which <code>if</code> statement does the <code>else</code> clause
+belong? The indentation suggests that it belongs to the outer
+<code>if</code> statement. However, C follows the rule that an
+<code>else</code> clause belongs to the nearest <code>if</code>
+statement that hasn’t already been paired with an <code>else</code>. In
+this example, the <code>else</code> clause actually belongs to the inner
+<code>if</code> statement, so a correctly indented version would look
+like this:</p>
+<div class="sourceCode" id="cb178"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb178-1"><a href="#cb178-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>y <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb178-2"><a href="#cb178-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>x <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb178-3"><a href="#cb178-3" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> x <span class="op">/</span> y<span class="op">;</span></span>
+<span id="cb178-4"><a href="#cb178-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb178-5"><a href="#cb178-5" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Error: y ic equal to 0</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>To make the <code>else</code> clause part of the outer
+<code>if</code> statement, we can enclose the inner <code>if</code>
+statement in braces:</p>
+<div class="sourceCode" id="cb179"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb179-1"><a href="#cb179-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>y <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb179-2"><a href="#cb179-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb179-3"><a href="#cb179-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>x <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb179-4"><a href="#cb179-4" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> x <span class="op">/</span> y<span class="op">;</span></span>
+<span id="cb179-5"><a href="#cb179-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb179-6"><a href="#cb179-6" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb179-7"><a href="#cb179-7" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Error: y ic equal to 0</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>This example illustrates the value of braces; <code>if</code> we’d
+used them in the original <code>if</code> statement, we wouldn’t have
+gotten into this situation in the first place.</p>
+<h3 id="conditional-expressions">5.2.6 Conditional Expressions</h3>
+<p>C’s <code>if</code> statement allows a program to perform one of two
+actions depending on the value of a condition, C also provides an
+<em>operator</em> that allows an expression to produce one of two
+<em>values</em> depending on the value of a condition.</p>
+<p>The <strong><em>conditional operator</em></strong> consists of two
+symbols (<code>?</code> and <code>:</code>), which must be used together
+in the following way:</p>
+<div class="sourceCode" id="cb180"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb180-1"><a href="#cb180-1" aria-hidden="true" tabindex="-1"></a>exprl <span class="op">?</span> expr2 <span class="op">:</span> expr3</span></code></pre></div>
+<p><code>exprl</code>, <code>expr2</code>, and <code>expr3</code> can be
+expressions of any type. The resulting expression is said to be a
+<strong><em>conditional expression</em></strong>. The conditional
+operator is unique among C operators in that it requires three operands
+instead of one or two. For this reason, it is often referred to as a
+*<strong>ternary</strong> operator.</p>
+<p>The conditional expression <code>exprl</code> ? <code>expr2</code> :
+<code>expr3</code> should be read “if <code>exprl</code> then
+<code>expr2</code> else <code>expr3</code>.” The expression is evaluated
+in stages: <code>expr1</code> is evaluated first; if its value isn’t
+zero, then <code>expr2</code> is evaluated, and its value is the value
+of the entire conditional expression. If the value of <code>expr1</code>
+is zero, then the value of <code>expr3</code> is the value of the
+conditional.</p>
+<p>The following example illustrates the conditional operator:</p>
+<div class="sourceCode" id="cb181"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb181-1"><a href="#cb181-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">,</span> j<span class="op">,</span> k<span class="op">;</span></span>
+<span id="cb181-2"><a href="#cb181-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb181-3"><a href="#cb181-3" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb181-4"><a href="#cb181-4" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb181-5"><a href="#cb181-5" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> i <span class="op">&gt;</span> j <span class="op">?</span> i <span class="op">:</span> j<span class="op">;</span>    <span class="co">/* k is now 2 */</span></span>
+<span id="cb181-6"><a href="#cb181-6" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> <span class="op">(</span>i <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">?</span> i <span class="op">:</span> <span class="dv">0</span><span class="op">)</span> <span class="op">+</span> j<span class="op">;</span>    <span class="co">/* k is now 3 */</span></span></code></pre></div>
+<p>The conditional expression <code>i &gt; j ? i : j</code> in the first
+assignment to <code>k</code> returns the value of either <code>i</code>
+or <code>j</code>, depending on which one is larger. Since
+<code>i</code> has the value 1 and <code>j</code> has the value 2, the
+<code>i &gt; j</code> comparison fails, and the value of the conditional
+is 2, which is assigned to <code>k</code>. In the second assignment to
+<code>k</code>, the <code>i &gt;= 0</code> comparison succeeds; the
+conditional expression (<code>i &gt;= 0 ? i : 0</code>) has the value 1,
+which is then added to <code>j</code> to produce 3. The parentheses are
+necessary, by the way; the precedence of the conditional operator is
+less than that of the other operators we’ve discussed so far, with the
+exception of the assignment operators.</p>
+<p>Conditional expressions tend to make programs shorter but harder to
+understand, so it’s probably best to avoid them. There are, however, a
+few places in which they’re tempting; one is the return statement.
+Instead of writing</p>
+<div class="sourceCode" id="cb182"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb182-1"><a href="#cb182-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>i <span class="op">&gt;</span> j<span class="op">)</span></span>
+<span id="cb182-2"><a href="#cb182-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> i<span class="op">;</span></span>
+<span id="cb182-3"><a href="#cb182-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb182-4"><a href="#cb182-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> j<span class="op">;</span></span></code></pre></div>
+<p>many programmers would write</p>
+<div class="sourceCode" id="cb183"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb183-1"><a href="#cb183-1" aria-hidden="true" tabindex="-1"></a><span class="cf">return</span> i <span class="op">&gt;</span> j <span class="op">?</span> i <span class="op">:</span> j<span class="op">;</span></span></code></pre></div>
+<p>Calls of <code>printf</code> can sometimes benefit from condition
+expressions. Instead of</p>
+<div class="sourceCode" id="cb184"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb184-1"><a href="#cb184-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>i <span class="op">&gt;</span> j<span class="op">)</span></span>
+<span id="cb184-2"><a href="#cb184-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;&amp;d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span>
+<span id="cb184-3"><a href="#cb184-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb184-4"><a href="#cb184-4" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> j<span class="op">);</span></span></code></pre></div>
+<p>we could simply write</p>
+<div class="sourceCode" id="cb185"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb185-1"><a href="#cb185-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i <span class="op">&gt;</span> j <span class="op">?</span> i <span class="op">:</span> j<span class="op">);</span></span></code></pre></div>
+<p>Conditional expressions are also common in certain kinds of macro
+definitions,</p>
+<h3 id="boolean-values-in-c89">5.2.7 Boolean Values in C89</h3>
+<p>For many years, the C language lacked a proper Boolean type, and
+there is none defined in the C89 standard. This omission is a minor
+annoyance, since many programs need variables that can store either
+<code>false</code> or <code>true</code>. One way to work around this
+limitation of C89 is to declare an <code>int</code> variable and then
+assign it either 0 or 1;</p>
+<div class="sourceCode" id="cb186"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb186-1"><a href="#cb186-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> flag<span class="op">;</span></span>
+<span id="cb186-2"><a href="#cb186-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb186-3"><a href="#cb186-3" aria-hidden="true" tabindex="-1"></a>flag <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb186-4"><a href="#cb186-4" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span>
+<span id="cb186-5"><a href="#cb186-5" aria-hidden="true" tabindex="-1"></a>flag <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span></code></pre></div>
+<p>Although this scheme works, it doesn’t contribute much to program
+readability, It’s not obvious that <code>flag</code> is to be assigned
+only Boolean values and that 0 and 1 represent <code>false</code> and
+<code>true</code>.</p>
+<p>To make programs more understandable, C89 programmers often define
+macros with names such as <code>TRUE</code> and <code>FALSE</code>:</p>
+<div class="sourceCode" id="cb187"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb187-1"><a href="#cb187-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define TRUE 1</span></span>
+<span id="cb187-2"><a href="#cb187-2" aria-hidden="true" tabindex="-1"></a><span class="pp">#define FALSE 0</span></span></code></pre></div>
+<p>Assignments to <code>flag</code> now have a more natural
+appearance:</p>
+<div class="sourceCode" id="cb188"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb188-1"><a href="#cb188-1" aria-hidden="true" tabindex="-1"></a>flag <span class="op">=</span> FALSE<span class="op">;</span></span>
+<span id="cb188-2"><a href="#cb188-2" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span>
+<span id="cb188-3"><a href="#cb188-3" aria-hidden="true" tabindex="-1"></a>flag <span class="op">=</span> TRUE<span class="op">;</span></span></code></pre></div>
+<p>To test whether <code>flag</code> is true, we can write</p>
+<div class="sourceCode" id="cb189"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb189-1"><a href="#cb189-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>flag <span class="op">==</span> TRUE<span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<p>or just</p>
+<div class="sourceCode" id="cb190"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb190-1"><a href="#cb190-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>flag<span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<p>The latter form is better, not only because it’s more concise, but
+also because it will still work correctly if <code>flag</code> has a
+value other than 0 or 1.</p>
+<p>To test whether <code>flag</code> is false, we can write</p>
+<div class="sourceCode" id="cb191"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb191-1"><a href="#cb191-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>flag <span class="op">==</span> FALSE<span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<p>or</p>
+<div class="sourceCode" id="cb192"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb192-1"><a href="#cb192-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(!</span>flag<span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<p>Carrying this idea one step further, we might even define a macro
+that can be used as a type:</p>
+<div class="sourceCode" id="cb193"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb193-1"><a href="#cb193-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define BOOL int</span></span></code></pre></div>
+<p><code>BOOL</code> can take the place of <code>int</code> when
+declaring Boolean variables:</p>
+<div class="sourceCode" id="cb194"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb194-1"><a href="#cb194-1" aria-hidden="true" tabindex="-1"></a>BOOL flag<span class="op">;</span></span></code></pre></div>
+<p>It’s now clear that <code>flag</code> isn’t an ordinary integer
+variable, but instead represents a Boolean condition, (The compiler
+still treats <code>flag</code> as an <code>int</code> variable, of
+course.) In later chapters, we’ll discover better ways to set up a
+Boolean type in C89 by using type definitions and enumerations.</p>
+<p><span class="C99Symbol"></span></p>
+<h3 id="boolean-values-in-c99">5.2.8 Boolean Values in C99</h3>
+<p><span class="QandA"></span></p>
+<p>The longstanding lack of a Boolean type has been remedied in C99,
+which provides the <code>_Bool</code> type. In this version of C, a
+Boolean variable can be declared by writing</p>
+<div class="sourceCode" id="cb195"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb195-1"><a href="#cb195-1" aria-hidden="true" tabindex="-1"></a><span class="dt">_Bool</span> flag<span class="op">;</span></span></code></pre></div>
+<p><code>_Bool</code> is an integer type (more precisely, an
+<em>unsigned</em> integer type), so a <code>_Bool</code> variable is
+really just an integer variable in disguise. Unlike an ordinary integer
+variable, however, a <code>_Bool</code> variable can only be assigned 0
+or 1. In general, attempting to store a nonzero value into a
+<code>_Bool</code> variable will cause the variable to be assigned
+1:</p>
+<div class="sourceCode" id="cb196"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb196-1"><a href="#cb196-1" aria-hidden="true" tabindex="-1"></a>flag <span class="op">=</span> <span class="dv">5</span><span class="op">;</span> <span class="co">/* flag ie assigned 1 */</span></span></code></pre></div>
+<p>iI’s legal (although not advisable) to perform arithmetic on
+<code>_Bool</code> variables; it’s also legal to print a
+<code>_Bool</code> variable (either 0 or 1 will be displayed). And, of
+course, a <code>_Bool</code> variable can be tested in an
+<code>if</code> statement:</p>
+<div class="sourceCode" id="cb197"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb197-1"><a href="#cb197-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>flag<span class="op">)</span> <span class="co">/* tests whether flag is 1 */</span></span>
+<span id="cb197-2"><a href="#cb197-2" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span></code></pre></div>
+<p>In addition to defining the <code>_Bool</code> type, C99 also
+provides a new header, <code>&lt;stdbool.h&gt;</code>, that makes it
+easier to work with Boolean values. This header provides a macro,
+<code>bool</code>, that stands for <code>_Bool</code>. If
+<code>&lt;stdbool.h&gt;</code> is included, we can write</p>
+<div class="sourceCode" id="cb198"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb198-1"><a href="#cb198-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> flag<span class="op">;</span> <span class="co">/* same as _Bool flag; */</span></span></code></pre></div>
+<p>The <code>&lt;stdbool.h&gt;</code> header also supplies macros named
+<code>true</code> and <code>false</code>, which stand for 1 and 0,
+respectively, making it possible to write</p>
+<div class="sourceCode" id="cb199"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb199-1"><a href="#cb199-1" aria-hidden="true" tabindex="-1"></a>flag <span class="op">=</span> false<span class="op">;</span></span>
+<span id="cb199-2"><a href="#cb199-2" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span>
+<span id="cb199-3"><a href="#cb199-3" aria-hidden="true" tabindex="-1"></a>flag <span class="op">=</span> true<span class="op">;</span></span></code></pre></div>
+<p>Because the <code>&lt;stdbool.h&gt;</code> header is so handy, I’ll
+use it in subsequent programs whenever Boolean variables are needed.</p>
+<h2 id="the-switch-statement">5.3 The switch Statement</h2>
+<p>In everyday programming, we’ll often need to compare an expression
+against a series of values to see which one it currently matches. We saw
+in Section 5.2 that a cascaded <code>if</code> statement can be used for
+this purpose. For example, the following cascaded <code>if</code>
+statement prints the English word that corresponds to a numerical
+grade:</p>
+<div class="sourceCode" id="cb200"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb200-1"><a href="#cb200-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>grade <span class="op">==</span> <span class="dv">4</span><span class="op">)</span></span>
+<span id="cb200-2"><a href="#cb200-2" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;Excellent&quot;</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb200-3"><a href="#cb200-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>grade <span class="op">==</span> <span class="dv">3</span><span class="op">)</span></span>
+<span id="cb200-4"><a href="#cb200-4" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;Good&quot;</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb200-5"><a href="#cb200-5" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>grade <span class="op">==</span> <span class="dv">2</span><span class="op">)</span></span>
+<span id="cb200-6"><a href="#cb200-6" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;Average&quot;</span><span class="op">);</span></span>
+<span id="cb200-7"><a href="#cb200-7" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>grade <span class="op">==</span> <span class="dv">1</span><span class="op">)</span></span>
+<span id="cb200-8"><a href="#cb200-8" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;Poor&quot;</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb200-9"><a href="#cb200-9" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>grade <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb200-10"><a href="#cb200-10" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;Failing&quot;</span><span class="op">);</span></span>
+<span id="cb200-11"><a href="#cb200-11" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb200-12"><a href="#cb200-12" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;Illegal grade&#39;&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>As an alternative to this kind of cascaded <code>if</code> statement,
+C provides the switch statement. The following switch is equivalent to
+our cascaded <code>if</code>:</p>
+<div class="sourceCode" id="cb201"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb201-1"><a href="#cb201-1" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(</span>grade<span class="op">)</span></span>
+<span id="cb201-2"><a href="#cb201-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb201-3"><a href="#cb201-3" aria-hidden="true" tabindex="-1"></a><span class="cf">case</span> <span class="dv">4</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Excellent&quot;</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb201-4"><a href="#cb201-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb201-5"><a href="#cb201-5" aria-hidden="true" tabindex="-1"></a><span class="cf">case</span> <span class="dv">3</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Good&quot;</span><span class="op">);</span></span>
+<span id="cb201-6"><a href="#cb201-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb201-7"><a href="#cb201-7" aria-hidden="true" tabindex="-1"></a><span class="cf">case</span> <span class="dv">2</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Average&quot;</span><span class="op">);</span></span>
+<span id="cb201-8"><a href="#cb201-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb201-9"><a href="#cb201-9" aria-hidden="true" tabindex="-1"></a><span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Poor&quot;</span><span class="op">);</span></span>
+<span id="cb201-10"><a href="#cb201-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb201-11"><a href="#cb201-11" aria-hidden="true" tabindex="-1"></a><span class="cf">case</span> <span class="dv">0</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Failing&quot;</span><span class="op">);</span></span>
+<span id="cb201-12"><a href="#cb201-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb201-13"><a href="#cb201-13" aria-hidden="true" tabindex="-1"></a><span class="cf">default</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Illegal grade&quot;</span><span class="op">);</span></span>
+<span id="cb201-14"><a href="#cb201-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb201-15"><a href="#cb201-15" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>When this statement is executed, the value of the variable grade is
+tested against 4, 3, 2, 1, and 0. If it matches 4, for example, the
+message <code>Excellent</code> is printed, then the <code>break</code>
+statement transfers control to the statement following the
+<code>switch</code>. If the value of grade doesn’t match any of the
+choices listed, the <code>default</code> case applies, and the message
+<code>Illegal grade</code> is printed.</p>
+<p>A <code>switch</code> statement is often easier to read than a
+cascaded <code>if</code> statement. Moreover, <code>switch</code>
+statements are often faster than <code>if</code> statements, especially
+when there are more than a handful of cases.</p>
+<p><span class="QandA"></span></p>
+<p>In its most common form, the <code>switch</code> statement has the
+form</p>
+<div class="sourceCode" id="cb202"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb202-1"><a href="#cb202-1" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(</span> expression <span class="op">)</span> <span class="op">{</span></span>
+<span id="cb202-2"><a href="#cb202-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> constant<span class="op">-</span>expression <span class="op">:</span> statements</span>
+<span id="cb202-3"><a href="#cb202-3" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb202-4"><a href="#cb202-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> constant<span class="op">-</span>expression <span class="op">:</span> statements</span>
+<span id="cb202-5"><a href="#cb202-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">default</span> <span class="op">:</span> statements</span>
+<span id="cb202-6"><a href="#cb202-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The <code>switch</code> statement is fairly complex; let’s look at
+its components one by one:</p>
+<ul>
+<li><strong><em>Controlling expression</em></strong>. The word switch
+must be followed by an integer expression in parentheses. Characters are
+treated as integers in C and thus can be tested in <code>switch</code>
+statements. Floating-point numbers and strings don’t qualify,
+however.<br />
+</li>
+<li><strong><em>Case labels</em></strong>. Each case begins with a label
+of the form <code>case constant-expression:</code> A
+<strong><em>constant expression</em></strong> is much like an ordinary
+expression except that it can’t contain variables or function calls.
+Thus, 5 is a constant expression, and <code>5 + 10</code> is a constant
+expression, but <code>n + 10</code> isn’t a constant expression (unless
+<code>n</code> is a macro that represents a constant). The constant
+expression in a case label must evaluate to an integer (characters are
+also acceptable).<br />
+</li>
+<li><strong><em>Statements</em></strong>. After each case label comes
+any number of statements. No braces are required around the statements.
+(Enjoy it—this is one of the few places in C where braces aren’t
+required.) The last statement in each group is normally
+<code>break</code>.</li>
+</ul>
+<p>Duplicate case labels aren’t allowed. The order of the cases doesn’t
+matter; in particular, the default case doesn’t need to come last.</p>
+<p>Only one constant expression may follow the word <code>case</code>;
+however, several <code>case</code> labels may precede the same group of
+statements:</p>
+<div class="sourceCode" id="cb203"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb203-1"><a href="#cb203-1" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(</span>grade<span class="op">)</span></span>
+<span id="cb203-2"><a href="#cb203-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb203-3"><a href="#cb203-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">4</span><span class="op">:</span></span>
+<span id="cb203-4"><a href="#cb203-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">3</span><span class="op">:</span></span>
+<span id="cb203-5"><a href="#cb203-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">2</span><span class="op">:</span></span>
+<span id="cb203-6"><a href="#cb203-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Passing&quot;</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb203-7"><a href="#cb203-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb203-8"><a href="#cb203-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">0</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Failing&quot;</span><span class="op">);</span></span>
+<span id="cb203-9"><a href="#cb203-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb203-10"><a href="#cb203-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">default</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Illegal grade&quot;</span><span class="op">);</span></span>
+<span id="cb203-11"><a href="#cb203-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb203-12"><a href="#cb203-12" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>To save space, programmers sometimes put several case labels on the
+same line:</p>
+<div class="sourceCode" id="cb204"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb204-1"><a href="#cb204-1" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(</span>grade<span class="op">)</span></span>
+<span id="cb204-2"><a href="#cb204-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb204-3"><a href="#cb204-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">4</span><span class="op">:</span> <span class="cf">case</span> <span class="dv">3</span><span class="op">:</span> <span class="cf">case</span> <span class="dv">2</span><span class="op">:</span> <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> </span>
+<span id="cb204-4"><a href="#cb204-4" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Passing&quot;</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb204-5"><a href="#cb204-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb204-6"><a href="#cb204-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">0</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Failing&quot;</span><span class="op">);</span></span>
+<span id="cb204-7"><a href="#cb204-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb204-8"><a href="#cb204-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">default</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Illegal grade&quot;</span><span class="op">);</span></span>
+<span id="cb204-9"><a href="#cb204-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb204-10"><a href="#cb204-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Unfortunately, there’s no way to write a case label that specifies a
+range of values, as there is in some programming languages.</p>
+<p>A <code>switch</code> statement isn’t required to have a
+<code>default</code> case. If <code>default</code> is missing and the
+value of the controlling expression doesn’t match any of the case
+labels, control simply passes to the next statement after the
+<code>switch</code>.</p>
+<h3 id="the-role-of-the-break-statement">5.3.1 The Role of the break
+Statement</h3>
+<p>Now, let’s take a closer look at the mysterious <code>break</code>
+statement. As we’ve seen, executing a <code>break</code> statement
+causes the program to “break™ out of the <code>switch</code> statement;
+execution continues at the next statement after the
+<code>switch</code>.</p>
+<p>The reason that we need break has to do with the fact that the
+<code>switch</code> statement is really a form of “computed jump.” When
+the controlling expression is evaluated, control jumps to the case label
+matching the value of the <code>switch</code> expression. A case label
+is nothing more than a marker indicating a position within the
+<code>switch</code>, When the last statement in the case has been
+executed, control “falls through” to the first statement in the
+following case; the case label for the next case is ignored. Without
+<code>break</code> (or some other jump statement), control will flow
+from one case into the next. Consider the following switch
+statement:</p>
+<div class="sourceCode" id="cb205"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb205-1"><a href="#cb205-1" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(</span>grade<span class="op">)</span></span>
+<span id="cb205-2"><a href="#cb205-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb205-3"><a href="#cb205-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">4</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Excellent&quot;</span><span class="op">);</span></span>
+<span id="cb205-4"><a href="#cb205-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">3</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Good&quot;</span><span class="op">);</span></span>
+<span id="cb205-5"><a href="#cb205-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">2</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Average&quot;</span><span class="op">);</span></span>
+<span id="cb205-6"><a href="#cb205-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Poor&quot;</span><span class="op">);</span></span>
+<span id="cb205-7"><a href="#cb205-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">0</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Failing&quot;</span><span class="op">);</span></span>
+<span id="cb205-8"><a href="#cb205-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">default</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Illegal grade&quot;</span><span class="op">);</span></span>
+<span id="cb205-9"><a href="#cb205-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>If the value of grade is 3, the message printed is</p>
+<pre class="shell"><code>GoodAveragePoorFailingIllegal grade</code></pre>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Forgetting to use <code>break</code> is a common error. Although
+omitting <code>break</code> is sometimes done intentionally to allow
+several cases to share code, it’s usually just an oversight.</p>
+</div>
+<!-- END: div -->
+<p>Since deliberately falling through from one case into the next is
+rare, it’s a good idea to point out any deliberate omission of
+<code>break</code>:</p>
+<div class="sourceCode" id="cb207"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb207-1"><a href="#cb207-1" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(</span>grade<span class="op">)</span></span>
+<span id="cb207-2"><a href="#cb207-2" aria-hidden="true" tabindex="-1"></a><span class="op">(</span></span>
+<span id="cb207-3"><a href="#cb207-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">4</span><span class="op">:</span> <span class="cf">case</span> <span class="dv">3</span><span class="op">:</span> <span class="cf">case</span> <span class="dv">2</span><span class="op">:</span> <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span></span>
+<span id="cb207-4"><a href="#cb207-4" aria-hidden="true" tabindex="-1"></a>        num_passings<span class="op">++;</span></span>
+<span id="cb207-5"><a href="#cb207-5" aria-hidden="true" tabindex="-1"></a>        <span class="co">/* FALL THROUGH */</span></span>
+<span id="cb207-6"><a href="#cb207-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">0</span><span class="op">:</span> total grades<span class="op">++;</span></span>
+<span id="cb207-7"><a href="#cb207-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb207-8"><a href="#cb207-8" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Without the comment, someone might later fix the “error” by adding an
+unwanted <code>break</code> statement.</p>
+<p>Although the last case in a <code>switch</code> statement never needs
+a <code>break</code> statement, it’s common practice to put one there
+anyway to guard against a “missing <code>break</code>” problem if cases
+should later be added.</p>
+<h3 id="program-printing-a-date-in-legal-form">5.3.2 (PROGRAM) Printing
+a Date in Legal Form</h3>
+<p>Contracts and other legal documents are often dated in the following
+way:</p>
+<pre><code>Dated this __________ day of __________ . 20 __ .</code></pre>
+<p>Let’s write a program that displays dates in this form. We’ll have
+the user enter the date in month/day/year form, then we’ll display the
+date in “legal” form:</p>
+<pre class="shell"><code>Enter date (mm/dd/yy): 7/19/14
+Dated this 19th day of July, 2014.</code></pre>
+<p>We can get <code>printf</code> to do most of the formatting. However.
+we’re left with two problems: how to add “th” (or “st” or “nd” ar “rd”)
+to the day. and how to print the month as a word instead of a number.
+Fortunately, the <code>switch</code> statement is ideal for both
+situations; we’ll have one switch print the day suffix and another print
+the month name.</p>
+<div class="sourceCode" id="cb210"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb210-1"><a href="#cb210-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
+<span id="cb210-2"><a href="#cb210-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: date.c</span></span>
+<span id="cb210-3"><a href="#cb210-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Prints a date in legal form</span></span>
+<span id="cb210-4"><a href="#cb210-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb210-5"><a href="#cb210-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb210-6"><a href="#cb210-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb210-7"><a href="#cb210-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb210-8"><a href="#cb210-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb210-9"><a href="#cb210-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb210-10"><a href="#cb210-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb210-11"><a href="#cb210-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> month<span class="op">,</span> day<span class="op">,</span> year<span class="op">;</span></span>
+<span id="cb210-12"><a href="#cb210-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb210-13"><a href="#cb210-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter date (mm/dd/yy): &quot;</span><span class="op">);</span></span>
+<span id="cb210-14"><a href="#cb210-14" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d / %d /%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>month<span class="op">,</span> <span class="op">&amp;</span>day<span class="op">,</span> <span class="op">&amp;</span>year<span class="op">);</span></span>
+<span id="cb210-15"><a href="#cb210-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb210-16"><a href="#cb210-16" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Dated this %d&quot;</span><span class="op">,</span> day<span class="op">);</span></span>
+<span id="cb210-17"><a href="#cb210-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">switch</span><span class="op">(</span>day<span class="op">)</span></span>
+<span id="cb210-18"><a href="#cb210-18" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb210-19"><a href="#cb210-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> <span class="cf">case</span> <span class="dv">21</span><span class="op">:</span> <span class="cf">case</span> <span class="dv">31</span><span class="op">:</span></span>
+<span id="cb210-20"><a href="#cb210-20" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;st&quot;</span><span class="op">);</span></span>
+<span id="cb210-21"><a href="#cb210-21" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-22"><a href="#cb210-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">2</span><span class="op">:</span> <span class="cf">case</span> <span class="dv">22</span><span class="op">:</span></span>
+<span id="cb210-23"><a href="#cb210-23" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;nd&quot;</span><span class="op">);</span></span>
+<span id="cb210-24"><a href="#cb210-24" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-25"><a href="#cb210-25" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">3</span><span class="op">:</span> <span class="cf">case</span> <span class="dv">23</span><span class="op">:</span></span>
+<span id="cb210-26"><a href="#cb210-26" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;rd&quot;</span><span class="op">);</span></span>
+<span id="cb210-27"><a href="#cb210-27" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-28"><a href="#cb210-28" aria-hidden="true" tabindex="-1"></a>        <span class="cf">default</span><span class="op">:</span></span>
+<span id="cb210-29"><a href="#cb210-29" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;th&quot;</span><span class="op">);</span></span>
+<span id="cb210-30"><a href="#cb210-30" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-31"><a href="#cb210-31" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb210-32"><a href="#cb210-32" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot; day of &quot;</span><span class="op">);</span></span>
+<span id="cb210-33"><a href="#cb210-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb210-34"><a href="#cb210-34" aria-hidden="true" tabindex="-1"></a>    <span class="cf">switch</span> <span class="op">(</span>month<span class="op">)</span></span>
+<span id="cb210-35"><a href="#cb210-35" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb210-36"><a href="#cb210-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;January&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-37"><a href="#cb210-37" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">2</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;February&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-38"><a href="#cb210-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">3</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;March&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-39"><a href="#cb210-39" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">4</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;April&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-40"><a href="#cb210-40" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">5</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;May&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-41"><a href="#cb210-41" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">6</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;June&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-42"><a href="#cb210-42" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">7</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;July&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-43"><a href="#cb210-43" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">8</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;August&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-44"><a href="#cb210-44" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">9</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;September&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-45"><a href="#cb210-45" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">10</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;October&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-46"><a href="#cb210-46" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">11</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;November&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-47"><a href="#cb210-47" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> <span class="dv">12</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;December&quot;</span><span class="op">);</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb210-48"><a href="#cb210-48" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb210-49"><a href="#cb210-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb210-50"><a href="#cb210-50" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;, 20%.2d.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> year<span class="op">);</span></span>
+<span id="cb210-51"><a href="#cb210-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb210-52"><a href="#cb210-52" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb210-53"><a href="#cb210-53" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Note the use of <code>%.2d</code> to display the last two digits of
+the year. If we had used <code>%d</code> instead, single-digit years
+would be displayed incorrectly (2005 would be printed as 205).</p>
+<hr />
+<h2 id="q-a-3">Q &amp; A</h2>
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: My compiler doesn’t give a warning when I use <code>=</code>
+instead of <code>==</code>. Is there some way to force the compiler to
+notice the problem? [p. 77]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Here’s a trick that some programmers use: instead of writing</p>
+<div class="sourceCode" id="cb211"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb211-1"><a href="#cb211-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>i <span class="op">==</span> <span class="dv">0</span><span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<p>they habitually write</p>
+<div class="sourceCode" id="cb212"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb212-1"><a href="#cb212-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span><span class="dv">0</span> <span class="op">==</span> i<span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<p>Now suppose that the <code>==</code> operator is accidentally written
+as <code>=</code>:</p>
+<div class="sourceCode" id="cb213"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb213-1"><a href="#cb213-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span><span class="dv">0</span> <span class="op">=</span> i<span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<p>The compiler will produce an error message, since it’s not possible
+to assign a value to 0. I don’t use this trick, because I think it makes
+programs look unnatural. Also, it can be used only when one of the
+operands in the test condition isn’t an lvalue.</p>
+<p>Fortunately, many compilers are capable of checking for suspect uses
+of the <code>=</code> operator in <code>if</code> conditions. The GCC
+compiler, for example, will perform this check if the
+<code>-Wparentheses</code> option is used or if <code>-Wall</code> (all
+warnings) is selected. GCC allows the programmer to suppress the warning
+in a particular case by enclosing the if condition in a second set of
+parentheses:</p>
+<div class="sourceCode" id="cb214"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb214-1"><a href="#cb214-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">((</span>i <span class="op">=</span> j<span class="op">))</span> <span class="op">...</span></span></code></pre></div>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: C books seem to use several different styles of indentation and
+brace placement for compound statements. Which style is best?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>According to The <em>New Hacker’s Dictionary</em> (Cambridge, Mass.:
+MIT Press, 1996), there are four common styles of indentation and brace
+placement:</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p>The <em>K&amp;R</em> style, used in Kernighan and Ritchie’s <em>The C
+Programming Language</em>, is the one I’ve chosen for the programs in
+this book. In the K&amp;R style, the left brace appears at the end of a
+line:</p>
+<div class="sourceCode" id="cb215"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb215-1"><a href="#cb215-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>line_num <span class="op">==</span> MAX LINES<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb215-2"><a href="#cb215-2" aria-hidden="true" tabindex="-1"></a>    line num <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb215-3"><a href="#cb215-3" aria-hidden="true" tabindex="-1"></a>    page_num<span class="op">++;</span></span>
+<span id="cb215-4"><a href="#cb215-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The K&amp;R style keeps programs compact by not putting the left
+brace on a line by itself. A disadvantage: the left brace can be hard to
+find. (I don’t consider this a problem, since the indentation of the
+inner statements makes it clear where the left brace should be.) The
+K&amp;R style is the one most often used in Java, by the way.</p>
+</li>
+<li>
+<p>The <em>Allman style</em>, named after <strong>Eric Allman</strong>
+(the author of <code>sendmail</code> and other UNIX utilities), puts the
+left brace on a separate line:</p>
+<div class="sourceCode" id="cb216"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb216-1"><a href="#cb216-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>line_num <span class="op">==</span> MAX_ LINES<span class="op">)</span></span>
+<span id="cb216-2"><a href="#cb216-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb216-3"><a href="#cb216-3" aria-hidden="true" tabindex="-1"></a>    line_num <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb216-4"><a href="#cb216-4" aria-hidden="true" tabindex="-1"></a>    page_num<span class="op">++;</span></span>
+<span id="cb216-5"><a href="#cb216-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>This style makes it easy to check that braces come in matching
+pairs.</p>
+</li>
+<li>
+<p>The <em>Whitesmiths style</em>, popularized by the Whitesmiths C
+compiler, dictates that braces be indented:</p>
+<div class="sourceCode" id="cb217"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb217-1"><a href="#cb217-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>line_num <span class="op">==</span> MAX LINES<span class="op">)</span></span>
+<span id="cb217-2"><a href="#cb217-2" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb217-3"><a href="#cb217-3" aria-hidden="true" tabindex="-1"></a>    line_num <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb217-4"><a href="#cb217-4" aria-hidden="true" tabindex="-1"></a>    page_num<span class="op">++;</span></span>
+<span id="cb217-5"><a href="#cb217-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span></code></pre></div>
+</li>
+<li>
+<p>m The GNU style, used in software developed by the GNU Project,
+indents the braces, then further indents the inner statements:</p>
+<div class="sourceCode" id="cb218"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb218-1"><a href="#cb218-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>line_num <span class="op">==</span> MAX LINES<span class="op">)</span></span>
+<span id="cb218-2"><a href="#cb218-2" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb218-3"><a href="#cb218-3" aria-hidden="true" tabindex="-1"></a>        line_num <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb218-4"><a href="#cb218-4" aria-hidden="true" tabindex="-1"></a>        page_num<span class="op">++;</span></span>
+<span id="cb218-5"><a href="#cb218-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span></code></pre></div>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<p>Which style you use is mainly a matter of taste; there’s no proof
+that one style is clearly better than the others. In any event, choosing
+the right style is less important than applying it consistently.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: If <code>i</code> is an <code>int</code> variable and
+<code>f</code> is a <code>float</code> variable, what is the type of the
+conditional expression <code>(i &gt; 0 ? i : f)</code>?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: When <code>int</code> and <code>float</code> values are mixed in a
+conditional expression, as they are here, the expression has type
+<code>float</code>. If <code>i &gt; 0</code> is <code>true</code>, the
+value of the expression will be the value of <code>i</code> after
+conversion to <code>float</code> type.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Why doesn’t C99 have a better name for its Boolean type?
+[p. 85]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p><span class="C99Symbol"></span></p>
+<p>A: <code>_Bool</code> isn’t a very elegant name, is it? More common
+names, such as <code>bool</code> or <code>boolean</code>, weren’t chosen
+because existing C programs might already define these names, causing
+older code not to compile.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: OK, so why wouldn’t the name <code>_Bool</code> break older
+programs as well?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: The C89 standard specifies that names beginning with an underscore
+followed by an uppercase letter are reserved for future use and should
+not be used by programmers.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: The template given for the <code>switch</code> statement described
+it as the “most common form.” Are there other forms? [p. 87]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: The <code>switch</code> statement is a bit more general than
+described in this chapter, although the description given here is
+general enough for virtually all programs. For example, a
+<code>switch</code> statement can contain labels that aren’t preceded by
+the word <code>case</code>, which leads to an amusing (?) trap. Suppose
+that we accidentally misspell the word <code>default</code>:</p>
+<div class="sourceCode" id="cb219"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb219-1"><a href="#cb219-1" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(...)</span> <span class="op">{</span></span>
+<span id="cb219-2"><a href="#cb219-2" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb219-3"><a href="#cb219-3" aria-hidden="true" tabindex="-1"></a>    defualt<span class="op">:</span> <span class="op">...</span></span></code></pre></div>
+<p>The compiler may not detect the error, since it assumes that
+<code>defualt</code> is an ordinary label.</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: I’ve seen several methods of indenting the <code>switch</code>
+statement. Which way is best?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: There are at least two common methods. One is to put the
+statements in each case <em>after</em> the <code>case</code> label:</p>
+<div class="sourceCode" id="cb220"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb220-1"><a href="#cb220-1" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(</span>coin<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb220-2"><a href="#cb220-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Cent&quot;</span><span class="op">);</span></span>
+<span id="cb220-3"><a href="#cb220-3" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb220-4"><a href="#cb220-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">5</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Nickel&quot;</span><span class="op">);</span></span>
+<span id="cb220-5"><a href="#cb220-5" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb220-6"><a href="#cb220-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">10</span><span class="op">:</span> printf <span class="op">(</span><span class="st">&quot;Dime&quot;</span><span class="op">);</span></span>
+<span id="cb220-7"><a href="#cb220-7" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb220-8"><a href="#cb220-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">25</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Quarter&quot;</span><span class="op">);</span></span>
+<span id="cb220-9"><a href="#cb220-9" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb220-10"><a href="#cb220-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>If each case consists of a single action (a call of
+<code>printf</code>, in this example), the <code>break</code> statement
+could even go on the same line as the action:</p>
+<div class="sourceCode" id="cb221"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb221-1"><a href="#cb221-1" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(</span>coin<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb221-2"><a href="#cb221-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Cent&quot;</span><span class="op">);</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb221-3"><a href="#cb221-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">5</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Nickel&quot;</span><span class="op">);</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb221-4"><a href="#cb221-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">10</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Dime&quot;</span><span class="op">);</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb221-5"><a href="#cb221-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">25</span><span class="op">:</span> printf<span class="op">(</span><span class="st">&quot;Quarter&quot;</span><span class="op">);</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb221-6"><a href="#cb221-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The other method is to put the statements <em>under</em> the case
+label, indenting the statements to make the case label stand out:</p>
+<div class="sourceCode" id="cb222"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb222-1"><a href="#cb222-1" aria-hidden="true" tabindex="-1"></a><span class="cf">switch</span> <span class="op">(</span>coin<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb222-2"><a href="#cb222-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span></span>
+<span id="cb222-3"><a href="#cb222-3" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Cent&quot;</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb222-4"><a href="#cb222-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb222-5"><a href="#cb222-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">5</span><span class="op">:</span></span>
+<span id="cb222-6"><a href="#cb222-6" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Nickel&quot;</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb222-7"><a href="#cb222-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb222-8"><a href="#cb222-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">10</span><span class="op">:</span></span>
+<span id="cb222-9"><a href="#cb222-9" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Dime&quot;</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb222-10"><a href="#cb222-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb222-11"><a href="#cb222-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">25</span><span class="op">:</span></span>
+<span id="cb222-12"><a href="#cb222-12" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Quarter&quot;</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb222-13"><a href="#cb222-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb222-14"><a href="#cb222-14" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>In one variation of this scheme, each case label is aligned under the
+word <code>switch</code>.</p>
+<p>The first method is fine when the statements in each case are short
+and there are relatively few of them. The second method is better for
+large switch statements in which the statements in each case are complex
+and/or numerous.</p>
+</div>
+<!-- END: div -->
+<hr />
+<h2 id="examples-3">Examples</h2>
+<ul>
+<li>Programs: <a
+href="./cknkCh05/cknkCh05Exmp/">./cknkCh05/cknkCh05Exmp/</a></li>
+</ul>
+<h2 id="exercises-3">Exercises</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh05/cknkCh05Exrc/README.md">./cknkCh05/cknkCh05Exrc/README.md</a><br />
+</li>
+<li>Readme (html): <a
+href="./cknkCh05/cknkCh05Exrc/cknkCh05ExrcReadme.html">./cknkCh05/cknkCh05Exrc/cknkCh05ExrcReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh05/cknkCh05Exrc/">./cknkCh05/cknkCh05Exrc/</a></li>
+</ul>
+<h2 id="programming-projects-3">Programming Projects</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh05/cknkCh05Prj/README.md">./cknkCh05/cknkCh05Prj/README.md</a><br />
+</li>
+<li>Readme: <a
+href="./cknkCh05/cknkCh05Prj/cknkCh05PrjReadme.html">./cknkCh05/cknkCh05Prj/cknkCh05PrjReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh05/cknkCh05Prj/">./cknkCh05/cknkCh05Prj/</a></li>
+</ul>
+<hr class="chapterDivider"/>
+<hr class="chapterDivider"/>
 </body>
 </html>

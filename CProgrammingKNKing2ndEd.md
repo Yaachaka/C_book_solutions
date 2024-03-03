@@ -2622,5 +2622,1146 @@ assigns 1 to `i`. The value of the entire expression is 1, which is discarded. D
 
 <hr class="chapterDivider"/>
 
+# 5 Selection Statements
+
+<!-- START: div -->
+<div class="theQuote">
+
+Programmers are not to be measured by their ingenuity and
+their logic but by the completeness of their case analysis.
+
+</div>
+<!-- END: div -->
+
+Although C has many operators, it has relatively few statements. We've encountered just two so far: the `return` statement and the expression statement. Most of C's remaining statements fall into three categories, depending on how they affect the order in which statements are executed:
+
+- ***Selection statements***, The `if` and `switch` statements allow a program to select a particular execution path from a set of alternatives.  
+- ***Iteration statements***. The `while`, `do`, and `for` statements support iteration (looping).  
+- ***Jump statements**. The `break`, `continue`, and `goto` statements cause an unconditional jump to some other place in the program. (The return statement belongs in this category, as well.)
+
+The only other statements in C are the compound statement, which groups several statements into a single statement, and the null statement, which performs no action.
+
+This chapter discusses the selection statements and the compound statement. (Chapter 6 covers the iteration statements, the jump statements, and the null statement.) Before we can write `if` statements, we’ll need logical expressions: conditions that `if` statements can test. Section 5.1 explains how logical expressions are built from the relational operators (`<`, `<=`, `>`, and `>=`), the equality operators (`==` and `!=`), and the logical operators (`&&`, `||`, and `!`). Section 5.2 covers the `if` statement and compound statement, as well as introducing the conditional operator (`?:`), which can test a condition within an expression. Section 5.3 describes the `switch` statement.
+
+## 5.1 Logical Expressions
+
+Several of C's statements, including the `if` statement, must test the value of an expression to see if it is “true™ or “false.” For example, an `if` statement might need to test the expression `i < j;` a true value would indicate that `i` is less than `j`. In many programming languages, an expression such as `i < j` would have a special “Boolean” or “logical” type. Such a type would have only two values, `false` and `frue`. In C, however, a comparison such as `i < j` yields an integer: either 0 (false) or 1 (true). With this in mind, let’s look at the operators that are used to build logical expressions.
+
+### 5.1.1 Relational Operators
+
+C's ***relational operators*** (Table 5.1) correspond to the `<`, `>`, `≤`, and `≥` operators of
+mathematics, except that they produce 0 (false) or 1 (true) when used in expressions. For example, the value of `10 < 11` is 1; the value of `11 < 10` is 0.
+
+**Table 5.1**: Relational Operators
+
+|Symbol| Meaning|
+|---|---|
+|`<`|less than|
+|`>`|greater than|
+|`≤`|less than or equal to|
+|`≥`|greater than or equal to|
+
+The relational operators can be used to compare integers and floating-point numbers, with operands of mixed types allowed. Thus, `1 < 2.5` has the value 1, while `5.6 < 4` has the value 0.
+
+The precedence of the relational operators is lower than that of the arithmetic operators; for example, `i + j < k - 1` means `(i + j) < (k - 1)`. The relational operators are left associative.
+
+<!-- START: div -->
+<div class="infoBox">
+
+
+
+The expression `i < j < k` is legal in C, but doesn’t have the meaning that you might expect. Since the `<` operator is left associative, this expression is equivalent to `(i < j) < k`.
+
+In other words, the expression first tests whether `i` is less than `j`; the 1 or 0 produced by this comparison is then compared to `k`. The expression does not test whether `j` lies between `i` and `k`. (We'll see later in this section that the correct expression would be `i < j && j < k`.)
+
+</div>
+<!-- END: div -->
+
+### 5.1.2 Equality Operators
+
+Although the relational operators are denoted by the same symbols as in many other programming languages, the ***equality operators*** have a unique appearance (Table 5.2). The “equal to” operator is two adjacent `=` characters, not one, since a single `=` character represents the assignment operator. The “not equal to” operator is also two characters: `!` and `=`.
+
+**Table 5.2**: Equality Operators
+
+|Symbol|Meaning|
+|---|---|
+|`==`|equal to|
+|`!=`|not equal to|
+
+Like the relational operators, the equality operators are left associative and produce either O (false) or 1 (true) as their result. However, the equality operators have *lower* precedence than the relational operators. For example, the expression `i < j == j < k` is equivalent to `(i < j) == (j < k)` which is true if `i < j` and `j < k` are both true or both false.
+
+Clever programmers sometimes exploit the fact that the relational and equality operators return integer values. For example, the value of the expression `(i >= j) + (i == j)` is either 0, 1, or 2, depending on whether `i` is less than, greater than, or equal to `j`, respectively. Tricky coding like this generally isn’t a good idea, however; it makes programs hard to understand.
+
+### 5.1.3 Logical Operators
+
+More complicated logical expressions can be built from simpler ones by using the ***logical operators***: *and*, *or*, and *not* (Table 5.3). The `!` operator is unary, while `&&` and `||` are binary.
+
+**Table 5.3**: Logical Operators
+
+|Symbol|Meaning|
+|---|---|
+|`!`|logical negation|
+|`&&`|logical *and*|
+|`||`|logical *or*|
+
+The logical operators produce either 0 or 1 as their result. Often, the operands will have values of 0 or 1, but this isn’t a requirement; the logical operators treat any nonzero operand as a true value and any zero operand as a false value.
+
+The logical operators behave as follows:
+
+- `!expr` has the value 1 if `expr` has the value 0.  
+- `exprl && expr2` has the value 1 if the values of `expr1` and `expr2` are both non Zero.  
+- `exprl || expr2` has the value 1 if either `expr1` or `expr2` (or both) has a nonzero
+value.  
+
+In all other cases, these operators produce the value 0.
+
+Both `&&` and `||` perform “short-circuit” evaluation of their operands. That is, these operators first evaluate the left operand, then the right operand. If the value of the expression can be deduced from the value of the left operand alone, then the right operand isn’t evaluated. Consider the following expression:
+
+```C
+(i != 0) && (j / i > 0)
+```
+
+To find the value of this expression, we must first evaluate `(i != 0)`. If `i` isn't equal to 0, then we'll need to evaluate `(j / 1 > 0)` to determine whether the entire expression is true or false. However, if `i` is equal to 0, then the entire expression must be false, so there’s no need to evaluate `(j / i > 0)`. The advantage of short circuit evaluation is apparent—without it, evaluating the expression would have caused a division by zero.
+
+..md<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Be wary of side effects in logical expressions. Thanks to the short-circuit nature of the `&&` and `||` operators, side effects in operands may not always occur. Consider the following expression:
+
+```C
+i > 0 && ++j > 0
+```
+
+Although `j` is apparently incremented as a side effect of evaluating the expression, that isn't always the case. If `i > 0` is false, then `++j > 0` is not evaluated, so `j` isn't incremented. The problem can be fixed by changing the condition to `++j > 0 && i > 0` or, even better, by incrementing `j` separately.
+
+</div>
+<!-- END: div -->
+
+The `!` operator has the same precedence as the unary plus and minus operators. The precedence of `&&` and `||` is lower than that of the relational and equality operators; for example, `i < j && k == m` means `(i < j) && (k == m)`. The ! operator is right associative; `&&` and `||` are left associative.
+
+## 5.2 The `if` Statement
+
+The `if` statement allows a program to choose between two alternatives by testing the value of an expression. In its simplest form, the `if` statement has the form
+
+```
+if(expression) statement
+```
+
+Notice that the parentheses around the expression are mandatory; they’re part of the `if` statement, not part of the expression. Also note that the word then doesn’t come after the parentheses, as it would in some programming languages.
+
+When an `if` statement is executed. the expression in the parentheses is evaluated: if the value of the expression is nonzero—which C interprets as true—the statement after the parentheses is executed. Here’s an example:
+
+```C
+if (line_num == MAX_LINES)
+line_num = 0;
+```
+
+The statement `line_num = 0;` is executed if the condition `line_num == MAX_LINES` is true (has a nonzero value).
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Don’t confuse `==` (equality) with `=` (assignment). The statement `if(i == 0) ...` tests whether `i` is equal to 0. However, the statement `if (i = 0) ...` assigns 0 to `i`, then tests whether the *result* is nonzero. In this case, the test always fails.
+
+<span class="QandA"></span>
+
+Confusing `==` with `=` is perhaps the most common C programming error, probably because `=` means “is equal to” in mathematics (and in certain programming languages). Some compilers issue a warning if they notice `=` where `==` would normally appear.
+
+</div>
+<!-- END: div -->
+
+Often the expression in an `if` statement will test whether a variable falls within a range of values. To test whether `0 ≤ i < n`, for example, we’d write 
+
+```C
+if (0 <= i && i < n) ...
+```
+
+To test the opposite condition (`i` is outside the range), we'd write
+
+```C
+if (i < 0 || i >= n) ...
+```
+
+Note the use of the `||` operator instead of the `&&` operator.
+
+### 5.2.1 Compound Statements
+
+In our `if` statement template, notice that statement is singular, not plural:
+
+```C
+if ( expression ) statement
+```
+
+What if we want an `if` statement to control fwo or more statements? That’s where the ***compound statement*** comes in. A compound statement has the form
+
+```C
+{ statements }
+```
+
+By putting braces around a group of statements, we can force the compiler to treat it as a single statement.
+
+Here’s an example of a compound statement:
+
+```C
+{ line_num = 0; page num++; }
+```
+
+For clarity, I'll usually put a compound statement on several lines, with one statement per line:
+
+```C
+{
+    line_num = 0;
+    page_num++;
+}
+```
+
+Notice that each inner statement still ends with a semicolon, but the compound statement itself does not.
+
+Here’s what a compound statement would look like when used inside an `if` statement:
+
+```C
+if (line_num == MAX LINES) {
+    line_num = 0;
+    page_num++;
+}
+```
+
+Compound statements are also common in loops and other places where the syntax of C requires a single statement, but we want more than one.
+
+### 5.2.2 The `else` Clause
+
+An `if` statement may have an `else` clause:
+
+```C
+if ( expression ) statement else statement
+```
+
+The statement that follows the word `else` is executed if the expression in parentheses has the value 0.
+
+Here's an example of an `if` statement with an `else` clause:
+
+```C
+if (i > j)
+    max = i;
+else
+    max = j;
+```
+
+Notice that both “inner” statements end with a semicolon.
+
+When an `if` statement contains an `else` clause, a layout issue arises: where should the else be placed? Many C programmers align it with the `if` at the beginning of the statement, as in the previous example. The inner statements are usually indented, but if they're short they can be put on the same line as the `if` and `else`:
+
+```C
+if (i > j) max = i;
+else max = j;
+```
+
+There are no restrictions on what kind of statements can appear inside an `if` statement. In fact, it’s not unusual for `if` stalements to be nested inside other `if` statements. Consider the following `if` statement, which finds the largest of the numbers stored in `i`, `j`, and `k` and stores that value in `max`:
+
+```C
+if(i > j)
+    if(i > k)
+        max = i;
+    else
+        max = k;
+else
+    if (j > k)
+        max = j;
+    else
+        max = k;
+
+`if` statements can be nested to any depth. Notice how aligning each `e1se` with the matching `if` makes the nesting easier to see. If you still find the nesting confusing, don’t hesitate to add braces:
+
+```C
+if(i > j)
+{
+    if(i > K)
+        max = i;
+    else
+        max = k;
+}
+else
+{
+    if (j > k)
+        max = j;
+    else
+        max = k;
+}
+```
+
+Adding braces to statements—even when they’re not necessary—is like using parentheses in expressions: both techniques help make a progrum more readable while at the same time avoiding the possibility that the compiler won’t understand the program the way we thought it did.
+
+Some programimers use as many braces as possible inside `if` statements (and iteration statements as well). A programmer who adopts this convention would include a pair of braces for every `if` clause and every `else` clause:
+
+```C
+if(i > j)
+{
+    if(i > K)
+    {
+        max = i;
+    }
+    else
+    {
+        max = k;
+    }
+}
+else
+{
+    if (j > k)
+    {
+        max = j;
+    }
+    else
+    {
+        max = k;
+    }
+}
+```
+
+Using braces even when they’re not required has two advantages. First, the program becomes easier to modify, because more statements can easily be added to any `if` or `else` clause. Second, it helps avoid errors that can result from forgetting to use braces when adding statements to an `if` or `else` clause.
+
+### 5.2.3 Cascaded i f Statements
+
+We'll often need to test a series of conditions, stopping as soon as one of them is true. A “cascaded” `if` statement is often the best way to write such a series of tests. For example, the following cascaded `if` statement tests whether `n` is less than 0, equal to 0, or greater than 0:
+
+```C
+if (n < 0)
+    printf("n is less than 0\n");
+else
+    if (n == 0)
+        printf("n is equal to 0\n");
+    else
+        printf("n is greater than 0\n");
+```
+
+Although the second `if` statement is nested inside the first, C programmers don’t usually indent it. Instead, they align each else with the original `if`:
+
+```C
+if (n < 0)
+    printf ("n is less than 0\n");
+else if (n == 0)
+    printf("n is equal to 0\n");
+else
+    printf("n is greater than 0\n");
+```
+
+This arrangement gives the cascaded `if` a distinctive appearance:
+
+```C
+if ( expression )
+    statement
+else if ( expression )
+    statement
+...
+else if ( expression )
+    statement
+else
+    statement
+```
+
+The last two lines (`else` *statement*) aren’t always present, of course. This way of indenting the cascaded `if` statement avoids the problem of excessive indentation when the number of tests is large. Moreover, it assures the reader that the statement is nothing more than a series of tests.
+
+Keep in mind that a cascaded `if` statement isn’t some new kind of statement; it’s just an ordinary `if` statement that happens to have another `if` statement as its `else` clause (and *that* `if` statement has another `if` statement as its `else` clause, *ad infinitum*).
+
+### 5.2.4 (PROGRAM) Calculating a Broker’s Commission
+
+When stocks are sold or purchased through a broker, the broker’s commission is often computed using a sliding scale that depends upon the value of the stocks traded. Let’s say that a broker charges the amounts shown in the following table:
+
+|Transaction size|Commission rate|
+|---|---|
+|Under $2,500|$30 + 1.7%|
+|$2,500-$6,250|$56 + 0.66%|
+|$6,250-$20,000|$76 + 0.34%|
+|$20,000-$50,000|$100 + 0.22%|
+|$50,000-$500,000|$155 + 0.11%|
+|Over $500,000|$255 + 0.09%|
+
+The minimum charge is $39. Our next program asks the user to enter the amount of the trade, then displays the amount of the commission:
+
+```shell
+Enter value of trade: 30000
+Commission: $166.00
+```
+
+The heart of the program is a cascaded if statement that determines which range
+the trade falls into.
+
+```C
+/*
+ * file: broker.c
+ * Purpose: Calculates a broker's commission 
+ * Author: K. N. King
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+    float commission, value;
+
+    printf("Enter value of trade: ");
+    scanf("%f", &value);
+
+    if (value < 2500.00f)
+    {
+        commission = 30.00f + (0.017f * value);
+    }
+    else if (value < 6250.00f)
+    {
+        commission = 56.00f + (0.0066f * value);
+    }
+    else if (value < 20000.00f)
+    {
+        commission = 76.00f + (0.0034f + value);
+    }
+    else if (value < 50000.00f)
+    {
+        commission = 100.00f + (0.0022f * value);
+    }
+    else if (value < 500000.00f)
+    {
+        commission = 155.00f + (0.0011f * value);
+    }
+    else
+    {
+        commission = 255.00f + (0.0009f * value);
+    }
+
+    if (commission < 39.00f)
+    {
+        commission = 39.00f;
+    }
+
+    printf("Commission: $%.2f\n", commission);
+
+    return 0;
+}
+```
+
+The cascaded `if` statement could have been written this way instead:
+
+```C
+if (value < 2500.00f)
+    commission = 30.00f + .017f * value;
+else if (value >= 2500.00f && value < 6250.00f)
+    commission = 56.00f + .0066f * value;
+else if (value >= 6250.00f && value < 20000.00f)
+    commission = 76.00f + .0034f * value;
+```
+
+Although the program will still work, the added conditions aren’t necessary. For example, the first `if` clause tests whether value is less than 2500 and, if so, computes the commission. When we reach the second `if` test (`value >= 2500.00f && value < 6250.00f`), we know that value can’t be less than 2500 and therefore must be greater than or equal to 2500. The condition `value >= 2500.00f` will always be true, so there's no point in checking it.
+
+### 5.2.5 The “Dangling e1se” Problem
+
+When `if` statements are nested, we've got to watch out for the notorious “dangling `else`” problem. Consider the following example:
+
+```C
+if (y != 0)
+    if (x != 0)
+        result = x / y;
+else
+    printf("Error: y ic equal to 0\n");
+```
+
+To which `if` statement does the `else` clause belong? The indentation suggests that it belongs to the outer `if` statement. However, C follows the rule that an `else` clause belongs to the nearest `if` statement that hasn't already been paired with an `else`. In this example, the `else` clause actually belongs to the inner `if` statement, so a correctly indented version would look like this:
+
+
+```C
+if (y != 0)
+    if (x != 0)
+        result = x / y;
+    else
+        printf("Error: y ic equal to 0\n");
+```
+
+To make the `else` clause part of the outer `if` statement, we can enclose the inner `if` statement in braces:
+
+```C
+if (y != 0)
+{
+    if (x != 0)
+        result = x / y;
+}
+else
+    printf("Error: y ic equal to 0\n");
+```
+
+This example illustrates the value of braces; `if` we’d used them in the original `if` statement, we wouldn’t have gotten into this situation in the first place.
+
+### 5.2.6 Conditional Expressions
+
+C’s `if` statement allows a program to perform one of two actions depending on the value of a condition, C also provides an *operator* that allows an expression to produce one of two *values* depending on the value of a condition.
+
+The ***conditional operator*** consists of two symbols (`?` and `:`), which must be used together in the following way:
+
+```C
+exprl ? expr2 : expr3
+```
+
+`exprl`, `expr2`, and `expr3` can be expressions of any type. The resulting expression is said to be a ***conditional expression***. The conditional operator is unique among C operators in that it requires three operands instead of one or two. For this reason, it is often referred to as a ***ternary** operator.
+
+The conditional expression `exprl` ? `expr2` : `expr3` should be read “if `exprl` then `expr2` else `expr3`.” The expression is evaluated in stages: `expr1` is evaluated first; if its value isn’t zero, then `expr2` is evaluated, and its value is the value of the entire conditional expression. If the value of `expr1` is zero, then the value of `expr3` is the value of the conditional.
+
+The following example illustrates the conditional operator:
+
+```C
+int i, j, k;
+
+i = 1;
+j = 2;
+k = i > j ? i : j;    /* k is now 2 */
+k = (i >= 0 ? i : 0) + j;    /* k is now 3 */
+```
+
+The conditional expression `i > j ? i : j` in the first assignment to `k` returns the value of either `i` or `j`, depending on which one is larger. Since `i` has the value 1 and `j` has the value 2, the `i > j` comparison fails, and the value of the conditional is 2, which is assigned to `k`. In the second assignment to `k`, the `i >= 0` comparison succeeds; the conditional expression (`i >= 0 ? i : 0`) has the value 1, which is then added to `j` to produce 3. The parentheses are necessary, by the way; the precedence of the conditional operator is less than that of the other operators we've discussed so far, with the exception of the assignment operators.
+
+Conditional expressions tend to make programs shorter but harder to understand, so it’s probably best to avoid them. There are, however, a few places in which they’re tempting; one is the return statement. Instead of writing
+
+```C
+if(i > j)
+    return i;
+else
+    return j;
+```
+
+many programmers would write
+
+```C
+return i > j ? i : j;
+```
+
+Calls of `printf` can sometimes benefit from condition expressions. Instead of
+
+```C
+if(i > j)
+    printf("&d\n", i);
+else
+    printf("%d\n", j);
+```
+
+we could simply write
+
+```C
+printf("%d\n", i > j ? i : j);
+```
+
+Conditional expressions are also common in certain kinds of macro definitions,
+
+### 5.2.7 Boolean Values in C89
+
+For many years, the C language lacked a proper Boolean type, and there is none defined in the C89 standard. This omission is a minor annoyance, since many programs need variables that can store either `false` or `true`. One way to work around this limitation of C89 is to declare an `int` variable and then assign it either 0 or 1;
+
+```C
+int flag;
+
+flag = 0;
+...
+flag = 1;
+```
+
+Although this scheme works, it doesn't contribute much to program readability, It’s not obvious that `flag` is to be assigned only Boolean values and that 0 and 1 represent `false` and `true`.
+
+To make programs more understandable, C89 programmers often define macros with names such as `TRUE` and `FALSE`:
+
+```C
+#define TRUE 1
+#define FALSE 0
+```
+
+Assignments to `flag` now have a more natural appearance:
+
+```C
+flag = FALSE;
+...
+flag = TRUE;
+```
+
+To test whether `flag` is true, we can write
+
+```C
+if(flag == TRUE) ...
+```
+
+or just
+
+```C
+if (flag) ...
+```
+
+The latter form is better, not only because it's more concise, but also because it will still work correctly if `flag` has a value other than 0 or 1.
+
+To test whether `flag` is false, we can write
+
+```C
+if (flag == FALSE) ...
+```
+
+or
+
+```C
+if (!flag) ...
+```
+
+Carrying this idea one step further, we might even define a macro that can be used as a type:
+
+```C
+#define BOOL int
+```
+
+`BOOL` can take the place of `int` when declaring Boolean variables:
+
+```C
+BOOL flag;
+```
+
+It's now clear that `flag` isn’t an ordinary integer variable, but instead represents a Boolean condition, (The compiler still treats `flag` as an `int` variable, of course.) In later chapters, we'll discover better ways to set up a Boolean type in C89 by using type definitions and enumerations.
+
+<span class="C99Symbol"></span>
+
+### 5.2.8 Boolean Values in C99
+
+<span class="QandA"></span>
+
+The longstanding lack of a Boolean type has been remedied in C99, which provides the `_Bool` type. In this version of C, a Boolean variable can be declared by writing
+
+```C
+_Bool flag;
+```
+
+`_Bool` is an integer type (more precisely, an *unsigned* integer type), so a `_Bool` variable is really just an integer variable in disguise. Unlike an ordinary integer variable, however, a `_Bool` variable can only be assigned 0 or 1. In general, attempting to store a nonzero value into a `_Bool` variable will cause the variable to be assigned 1:
+
+```C
+flag = 5; /* flag ie assigned 1 */
+```
+
+iI’s legal (although not advisable) to perform arithmetic on `_Bool` variables; it's also legal to print a `_Bool` variable (either 0 or 1 will be displayed). And, of course, a `_Bool` variable can be tested in an `if` statement:
+
+```C
+if (flag) /* tests whether flag is 1 */
+...
+```
+
+In addition to defining the `_Bool` type, C99 also provides a new header, `<stdbool.h>`, that makes it easier to work with Boolean values. This header provides a macro, `bool`, that stands for `_Bool`. If `<stdbool.h>` is included, we can write
+
+```C
+bool flag; /* same as _Bool flag; */
+```
+
+The `<stdbool.h>` header also supplies macros named `true` and `false`, which stand for 1 and 0, respectively, making it possible to write
+
+```C
+flag = false;
+...
+flag = true;
+```
+
+Because the `<stdbool.h>` header is so handy, I'll use it in subsequent programs whenever Boolean variables are needed.
+
+## 5.3 The switch Statement
+
+In everyday programming, we'll often need to compare an expression against a series of values to see which one it currently matches. We saw in Section 5.2 that a cascaded `if` statement can be used for this purpose. For example, the following cascaded `if` statement prints the English word that corresponds to a numerical grade:
+
+```C
+if (grade == 4)
+    printf ("Excellent") ;
+else if (grade == 3)
+    printf ("Good") ;
+else if (grade == 2)
+    printf ("Average");
+else if (grade == 1)
+    printf ("Poor") ;
+else if (grade == 0)
+    printf ("Failing");
+else
+    printf ("Illegal grade'");
+```
+
+As an alternative to this kind of cascaded `if` statement, C provides the switch statement. The following switch is equivalent to our cascaded `if`:
+
+```C
+switch (grade)
+{
+case 4: printf("Excellent") ;
+    break;
+case 3: printf("Good");
+    break;
+case 2: printf("Average");
+    break;
+case 1: printf("Poor");
+    break;
+case 0: printf("Failing");
+    break;
+default: printf("Illegal grade");
+    break;
+}
+```
+
+When this statement is executed, the value of the variable grade is tested against 4, 3, 2, 1, and 0. If it matches 4, for example, the message `Excellent` is printed, then the `break` statement transfers control to the statement following the `switch`. If the value of grade doesn’t match any of the choices listed, the `default` case applies, and the message `Illegal grade` is printed.
+
+A `switch` statement is often easier to read than a cascaded `if` statement. Moreover, `switch` statements are often faster than `if` statements, especially when there are more than a handful of cases.
+
+<span class="QandA"></span>
+
+In its most common form, the `switch` statement has the form
+
+```C
+switch ( expression ) {
+    case constant-expression : statements
+    ...
+    case constant-expression : statements
+    default : statements
+}
+```
+
+The `switch` statement is fairly complex; let’s look at its components one by one:
+
+-  ***Controlling expression***. The word switch must be followed by an integer expression in parentheses. Characters are treated as integers in C and thus can be tested in `switch` statements. Floating-point numbers and strings don’t qualify, however.  
+- ***Case labels***. Each case begins with a label of the form `case constant-expression: ` A ***constant expression*** is much like an ordinary expression except that it can’t contain variables or function calls. Thus, 5 is a constant expression, and `5 + 10` is a constant expression, but `n + 10` isn’t a constant expression (unless `n` is a macro that represents a constant). The constant expression in a case label must evaluate to an integer (characters are also acceptable).  
+- ***Statements***. After each case label comes any number of statements. No braces are required around the statements. (Enjoy it—this is one of the few places in C where braces aren’t required.) The last statement in each group is normally `break`.  
+
+Duplicate case labels aren’t allowed. The order of the cases doesn’t matter; in particular, the default case doesn’t need to come last.
+
+Only one constant expression may follow the word `case`; however, several `case` labels may precede the same group of statements:
+
+```C
+switch (grade)
+{
+    case 4:
+    case 3:
+    case 2:
+    case 1: printf("Passing") ;
+        break;
+    case 0: printf("Failing");
+        break;
+    default: printf("Illegal grade");
+        break;
+}
+```
+
+To save space, programmers sometimes put several case labels on the same line:
+
+```C
+switch (grade)
+{
+    case 4: case 3: case 2: case 1: 
+        printf("Passing") ;
+        break;
+    case 0: printf("Failing");
+        break;
+    default: printf("Illegal grade");
+        break;
+}
+```
+
+Unfortunately, there’s no way to write a case label that specifies a range of values, as there is in some programming languages.
+
+A `switch` statement isn’t required to have a `default` case. If `default` is missing and the value of the controlling expression doesn’t match any of the case labels, control simply passes to the next statement after the `switch`.
+
+### 5.3.1 The Role of the break Statement
+
+Now, let’s take a closer look at the mysterious `break` statement. As we've seen, executing a `break` statement causes the program to “break™ out of the `switch` statement; execution continues at the next statement after the `switch`.
+
+The reason that we need break has to do with the fact that the `switch` statement is really a form of “computed jump.” When the controlling expression is evaluated, control jumps to the case label matching the value of the `switch` expression. A case label is nothing more than a marker indicating a position within the `switch`, When the last statement in the case has been executed, control “falls through” to the first statement in the following case; the case label for the next case is ignored. Without `break` (or some other jump statement), control will flow from one case into the next. Consider the following switch statement:
+
+```C
+switch (grade)
+{
+    case 4: printf("Excellent");
+    case 3: printf("Good");
+    case 2: printf("Average");
+    case 1: printf("Poor");
+    case 0: printf("Failing");
+    default: printf("Illegal grade");
+}
+```
+
+If the value of grade is 3, the message printed is
+
+```shell
+GoodAveragePoorFailingIllegal grade
+```
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Forgetting to use `break` is a common error. Although omitting `break` is sometimes done intentionally to allow several cases to share code, it’s usually just an oversight.
+
+</div>
+<!-- END: div -->
+
+Since deliberately falling through from one case into the next is rare, it's a good idea to point out any deliberate omission of `break`:
+
+```C
+switch (grade)
+(
+    case 4: case 3: case 2: case 1:
+        num_passings++;
+        /* FALL THROUGH */
+    case 0: total grades++;
+        break;
+}
+```
+
+Without the comment, someone might later fix the “error” by adding an unwanted `break` statement.
+
+Although the last case in a `switch` statement never needs a `break` statement, it’s common practice to put one there anyway to guard against a “missing `break`” problem if cases should later be added.
+
+### 5.3.2 (PROGRAM) Printing a Date in Legal Form
+Contracts and other legal documents are often dated in the following way:
+
+```
+Dated this __________ day of __________ . 20 __ .
+```
+
+Let’s write a program that displays dates in this form. We'll have the user enter the date in month/day/year form, then we'll display the date in "legal” form:
+
+```shell
+Enter date (mm/dd/yy): 7/19/14
+Dated this 19th day of July, 2014.
+```
+
+We can get `printf` to do most of the formatting. However. we're left with two problems: how to add “th” (or "st" or “nd" ar “rd") to the day. and how to print the month as a word instead of a number. Fortunately, the `switch` statement is ideal for both situations; we’ll have one switch print the day suffix and another print the month name.
+
+```C
+/*
+ * file: date.c
+ * Purpose: Prints a date in legal form
+ * Author: K. N. King
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+    int month, day, year;
+
+    printf("Enter date (mm/dd/yy): ");
+    scanf("%d / %d /%d", &month, &day, &year);
+
+    printf("Dated this %d", day);
+    switch(day)
+    {
+        case 1: case 21: case 31:
+            printf("st");
+            break;
+        case 2: case 22:
+            printf("nd");
+            break;
+        case 3: case 23:
+            printf("rd");
+            break;
+        default:
+            printf("th");
+            break;
+    }
+    printf(" day of ");
+
+    switch (month)
+    {
+        case 1: printf("January");break;
+        case 2: printf("February");break;
+        case 3: printf("March");break;
+        case 4: printf("April");break;
+        case 5: printf("May");break;
+        case 6: printf("June");break;
+        case 7: printf("July");break;
+        case 8: printf("August");break;
+        case 9: printf("September");break;
+        case 10: printf("October");break;
+        case 11: printf("November");break;
+        case 12: printf("December");break;
+    }
+
+    printf(", 20%.2d.\n", year);
+
+    return 0;
+}
+```
+
+Note the use of `%.2d` to display the last two digits of the year. If we had used `%d` instead, single-digit years would be displayed incorrectly (2005 would be printed as 205).
+
+---
+
+## Q & A
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: My compiler doesn’t give a warning when I use `=` instead of `==`. Is there some way to force the compiler to notice the problem? [p. 77]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A:  Here’s a trick that some programmers use: instead of writing
+
+```C
+if (i == 0) ...
+```
+
+they habitually write
+
+```C
+if (0 == i) ...
+```
+
+Now suppose that the `==` operator is accidentally written as `=`:
+
+```C
+if(0 = i) ...
+```
+
+The compiler will produce an error message, since it's not possible to assign a value to 0. I don’t use this trick, because I think it makes programs look unnatural. Also, it can be used only when one of the operands in the test condition isn't an lvalue.
+
+Fortunately, many compilers are capable of checking for suspect uses of the `=` operator in `if` conditions. The GCC compiler, for example, will perform this check if the `-Wparentheses` option is used or if `-Wall` (all warnings) is selected. GCC allows the programmer to suppress the warning in a particular case by enclosing the if condition in a second set of parentheses:
+
+```C
+if ((i = j)) ...
+```
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: C books seem to use several different styles of indentation and brace placement for compound statements. Which style is best?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+According to The *New Hacker's Dictionary* (Cambridge, Mass.: MIT Press, 1996), there are four common styles of indentation and brace placement:
+
+<!-- START: unordered-list -->
+<ul>
+<li>
+
+The *K&R* style, used in Kernighan and Ritchie’s *The C Programming Language*, is the one I've chosen for the programs in this book. In the K&R style, the left brace appears at the end of a line:
+
+```C
+if (line_num == MAX LINES) {
+    line num = 0;
+    page_num++;
+}
+```
+
+The K&R style keeps programs compact by not putting the left brace on a line by itself. A disadvantage: the left brace can be hard to find. (I don’t consider this a problem, since the indentation of the inner statements makes it clear where the left brace should be.) The K&R style is the one most often used in
+Java, by the way.
+
+</li>
+<li>
+
+The *Allman style*, named after **Eric Allman** (the author of `sendmail` and other UNIX utilities), puts the left brace on a separate line:
+
+```C
+if (line_num == MAX_ LINES)
+{
+    line_num = 0;
+    page_num++;
+}
+```
+
+This style makes it easy to check that braces come in matching pairs.
+
+</li>
+<li>
+
+The *Whitesmiths style*, popularized by the Whitesmiths C compiler, dictates that braces be indented:
+
+```C
+if (line_num == MAX LINES)
+    {
+    line_num = 0;
+    page_num++;
+    }
+```
+
+</li>
+<li>
+
+m The GNU style, used in software developed by the GNU Project, indents the braces, then further indents the inner statements:
+
+```C
+if (line_num == MAX LINES)
+    {
+        line_num = 0;
+        page_num++;
+    }
+```
+
+</li>
+</ul>
+<!-- END: unordered-list -->
+
+Which style you use is mainly a matter of taste; there’s no proof that one style is clearly better than the others. In any event, choosing the right style is less important than applying it consistently.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: If `i` is an `int` variable and `f` is a `float` variable, what is the type of the conditional expression `(i > 0 ? i : f)`?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: When `int` and `float` values are mixed in a conditional expression, as they are here, the expression has type `float`. If `i > 0` is `true`, the value of the expression will be the value of `i` after conversion to `float` type.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Why doesn’t C99 have a better name for its Boolean type? [p. 85]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="C99Symbol"></span>
+
+A: `_Bool` isn't a very elegant name, is it? More common names, such as `bool` or `boolean`, weren't chosen because existing C programs might already define these names, causing older code not to compile.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: OK, so why wouldn’t the name `_Bool` break older programs as well?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: The C89 standard specifies that names beginning with an underscore followed by an uppercase letter are reserved for future use and should not be used by programmers.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: The template given for the `switch` statement described it as the “most common form.” Are there other forms? [p. 87]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: The `switch` statement is a bit more general than described in this chapter, although the description given here is general enough for virtually all programs. For example, a `switch` statement can contain labels that aren’t preceded by the word `case`, which leads to an amusing (?) trap. Suppose that we accidentally misspell the word `default`:
+
+```C
+switch (...) {
+    ...
+    defualt: ...
+```
+
+The compiler may not detect the error, since it assumes that `defualt` is an ordinary label.
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: I’ve seen several methods of indenting the `switch` statement. Which way is best?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: There are at least two common methods. One is to put the statements in each case *after* the `case` label:
+
+```C
+switch (coin) {
+    case 1: printf("Cent");
+            break;
+    case 5: printf("Nickel");
+            break;
+    case 10: printf ("Dime");
+            break;
+    case 25: printf("Quarter");
+            break;
+}
+```
+
+If each case consists of a single action (a call of `printf`, in this example), the `break` statement could even go on the same line as the action:
+
+```C
+switch (coin) {
+    case 1: printf("Cent"); break;
+    case 5: printf("Nickel"); break;
+    case 10: printf("Dime"); break;
+    case 25: printf("Quarter"); break;
+}
+```
+
+The other method is to put the statements *under* the case label, indenting the statements to make the case label stand out:
+
+```C
+switch (coin) {
+    case 1:
+        printf("Cent") ;
+        break;
+    case 5:
+        printf("Nickel") ;
+        break;
+    case 10:
+        printf("Dime") ;
+        break;
+    case 25:
+        printf("Quarter") ;
+        break;
+}
+```
+
+In one variation of this scheme, each case label is aligned under the word `switch`.
+
+The first method is fine when the statements in each case are short and there are relatively few of them. The second method is better for large switch statements in which the statements in each case are complex and/or numerous.
+
+</div>
+<!-- END: div -->
+
+---
+
+## Examples
+
+- Programs: [./cknkCh05/cknkCh05Exmp/](./cknkCh05/cknkCh05Exmp/)
+
+## Exercises
+
+- Readme: [./cknkCh05/cknkCh05Exrc/README.md](./cknkCh05/cknkCh05Exrc/README.md)  
+- Readme (html): [./cknkCh05/cknkCh05Exrc/cknkCh05ExrcReadme.html](./cknkCh05/cknkCh05Exrc/cknkCh05ExrcReadme.html)  
+- Programs: [./cknkCh05/cknkCh05Exrc/](./cknkCh05/cknkCh05Exrc/)  
+
+## Programming Projects
+
+- Readme: [./cknkCh05/cknkCh05Prj/README.md](./cknkCh05/cknkCh05Prj/README.md)  
+- Readme: [./cknkCh05/cknkCh05Prj/cknkCh05PrjReadme.html](./cknkCh05/cknkCh05Prj/cknkCh05PrjReadme.html)  
+- Programs: [./cknkCh05/cknkCh05Prj/](./cknkCh05/cknkCh05Prj/)  
+
+<hr class="chapterDivider"/>
+
+
+
+<hr class="chapterDivider"/>
+
 </body>
 </html>
