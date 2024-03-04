@@ -1,1567 +1,3 @@
-Exercises
-
-The following program fragments illustrate the relational and equality operators. Show the
-output produced by each, assuming that i, j. and k arc int variables.
-
-(R NINER2 3
-
-k=1*3 6;
-printf ("3a", k);
-M) i =5;
-
-94 Chapter 5 Selection Statements
-
-Section 5.2
-
-o 2
-
-3,
-
-5
-
-D 6.
-
-The following program fragments illustrate the logical operators. Show the output produced
-by each, assuming that i, j, and k are int variables.
-@ i =10; 3 = 5;
-
-pripkE(NRAN,. Lk < )
-
-D) A 2
-printf("&a", [1i + 1)
-
-© i=5;3 =0; k=-5;
-printf("sd", i && 3 || k);
-
-@i=1;3=2; k=3
-
-] i i
-pringfitadn, do= G0 dkls
-
-The following program fragments illustrate the short-circuit behavior of logical expressions.
-Show the output produced by each, assuming that 1, j, and k are int variables.
-(@) i =3; j =4;k=5;
-printf("sd ", i < 3 || ++3 < k);
-printf("sd #d %d", 1, 3. k)
-b i=7;3=8;%k=9;
-printf("%d ", i - 7 & 4+ < k);
-
-printf ("%d %d %d", i, j, k);
-
-(&) 1= 7; 4 =5 i =
-printe (a5 = ) G S el )T
-printf('sd ¥ %¥d", i, j, k);
-
-@i=1;3=1; %
-printf ("$d ", ++i || ++3 && ++k);
-printf ("$d %d %d", i, j, k);
-
-‘Write a single expression whose value is either =1, 0, or +1, depending on whether i is less
-than. equal to, or greater than j, respectively.
-
-Ts the following 1 statement legal?
-L (nas=ad ixadlo)
-
-printf("n is between 1 and 10\n"):
-If 50, what does it do when n is equal to 07
-
-Is the following i £ statement legal?
-if (n == 1-10)
-
-printf("n is between 1 and 10\n");
-1f so, what does it do when n is equal to 57
-
-‘What does the following statement print if 1 has the value 172 What does it print if 1 has the
-value -17?
-
-printf ("4d\n®, 4 o= 0 2 4 2 ~L)5
-
-The following 1f statement is unnecessarily complicated. Simplify it as much as possible.
-(Hint: The entire statement can be replaced by a single assignment.)
-if (age >= 13)
-if (age <- 19)
-teenager = true;
-else
-teenager = false;
-elge if (age < 13)
-teenager = false;
-Section 5.3
-
-@-10.
-
-Programming Projects 95
-
-Are the following i £ statements equivalent? If not, why not?
-
-if (score >= 90)
-printf ("an);
-
-else if (score >= 80)
-printf("s");
-
-else if (score >= 70)
-
-printf(nen) ;
-
-else if (score >= 60)
-printf ("D");
-
-else
-
-printf ("F");
-
-if (score < 60)
-
-printf("F") ;
-
-else if (score < 70)
-print£("D") ;
-
-else if (score < 80)
-printf ("C") ;
-
-else if (score < 90)
-printf ("B") ;
-
-else
-printf ("a") ;
-
-What output does the following program fragment produce? (Assume that i is an integer
-variable.)
-Ch e b
-switch (i & 3)
-case 0: printf("zero®);
-case printf ("one") ;
-case 2: printf ("two");
-
-}
-
-The following table shows telephone area codes in the state of Georgia along with the larg-
-est city in each area:
-
-Areacode  Major city
-229 Albany
-404 Atlanta
-470 Atlanta
-478 Macon
-678 Atlanta
-706 Columbus
-762 Columbus
-770 Atlanta
-912 Savannah
-
-Write a switch statement whose controlling cxpression is the variable area_code. If the
-value of area_code is in the table, the switch statement will print the corresponding
-city name. Otherwise, the swi tch statement will display the message "Area code not
-recognized". Use the techniques discussed in Section 5.3 to make the switch state-
-ment as simple as possible.
-
-Programming Projects
-
-‘Write a program that calculates how many digits a number contains:
-
-Enter a number: 374
-The number 374 has 3 digits
-
-You may assume that the number has no more than four digits. Hinz: Use 1 £ statements to
-test the number. For example, if the number is between 0 and 9, it has one digit. If the num-
-ber is between 10 and 99, it has two digits.
-96 Chapter 5 Selection Statements
-
-@ 2. Write a program that asks the user for a 24-hour time, then displays the time in 12-hour
-form:
-
-Enter a 24-hour time: 21:11
-
-Equivalent 12-hour tim 9:11 BM
-Be careful not to display 12:00 as 0:00.
-
-3. Modify the brokexr . ¢ program of Section 5.2 by making both of the following changes:
-
-(a) Ask the user to enter the number of shares and the price per share, instead of the value
-of the trade.
-
-(b) Add statements that compute the commission charged by a rival broker ($33 plus 3¢ per
-share for fewer than 2000 shares; $33 plus 2¢ per share for 2000 shares or more). Dis-
-play the rival’s commission as well as the commission charged by the original broker.
-
-@ 4. Heres asimplified version of the Beaufort scale, which is used to estimate wind force:
-Speed (knots) Description
-
-L Calm
-
-1-3 Light air
-4-27 Breeze
-2847 Gale
-48-63 Storm
-Above 63 Hurricane
-
-Write a program that asks the user to enter a wind speed (in knots), then displays the corre-
-sponding description.
-
-5. Inone state. single residents are suhject to the following income tax:
-
-Income Amount of tax
-
-Not over $750 1% of income
-
-$750-$2.250 $7.50  plus 2% of amount over $750
-$2.250-$3.750  $37.50 plus 3% of amount over $2.250
-$3,750-$5.250 $82.50  plus 4% of amount over $3,750
-$5,250-$7,000 $142.50 plus 5% of amount over $5.250
-
-Over §7,000 $230.00 plus 6% of amount over $7,000
-Write a program that asks the user to enter the amount of taxable income, then displays the
-tax due.
-
-@ 6. Modify the upc . ¢ program of Section 4.1 so that it checks whether a UPC is valid. After
-the user enters a UPC, the program will display either VALID or NOT VALID.
-7. Write a program that finds the largest and smallest of four integers entered by the user:
-
-Enter four integers: 21 43 10 35
-Largest: 43
-Smallest: 10
-
-Use as few 1f statements as possible. Hint: Four i f statements are sufficient.
-
-8. The following table shows the daily flights from one city to another:
-
-Departure time Arrival iime
-
-8:00 a.m. 10:16 a.m.
-9:43 am. 11:52 am.
-11:19 am. 1:31 p.m.
-
-12:47 p.m. 3:00 p.m.
-® 10
-
-Programming Projects 97
-
-2:00 p.m. 4:08 p.m.
-3;45 p.m. 5:55 p.m.
-7:00 p.m. 9:20 p.m.
-9:45 p.m. 11:58 p.m.
-
-Write a program that asks user to enter a time (expressed in hours and minutes, using the 24-
-hour clock). The program then displays the departure and arrival times for the flight whose
-departure time is closest to that entered by the user:
-
-Enter a 24-hour time: 13:1§
-Closest departure time is 12:47 p.m., arriving at 3:00 p.m.
-
-Hinz: Convert the input into a time expressed in minutes since midnight, and compare it to
-the departure times, also expressed in minutes since midnight. For example, 13:15 is 13 X
-60 + 15 = 795 minutes since midnight, which is closer to 12:47 p.m. (767 minutes since
-midnight) than to any of the other departure times
-
-Write a program that prompts the user to enter two dates and then indicates which date
-comes earlier on the calendar:
-
-Enter first date (mm/dd/yy): 3/6/08
-Enter second date (mm/dd/yy): 5/17/07
-5/17/07 is earlier than 3/6/08
-
-Using the switch statement, write a program that converts a numerical grade into a letter
-grade:
-
-Enter numerical grade: 84
-
-Letter grade: B
-
-Use the following grading scale: A = 90-100, B = 80-89, C = 70-79, D = 6069, F = 0-59.
-Print an error message if the grade is larger than 100 or less than 0. Hinr: Break the grade
-into two digits, then use a switch statement to test the ten’s digit.
-
-Write a program that asks the user for a two-digit number, then prints the English word for
-the number:
-
-Enter a two-digit number: 45
-You entered the number forty-five.
-
-Hinr: Break the number into two digits. Use one swi tch statement to print the word for the
-first digit (“twenty” “thirty” and so forth). Use a second switch statement 1o print the
-word for the second digit. Don’t forget that the numbers between 11 and 19 require special
-treatment.
-6.1
-
-Loops
-
-A program without a loop and a structured
-variable isn't worth writing.
-
-Chapter 5 covered C’s selection statements, if and switch. This chapter intro-
-duces C’s iteration statements, which allow us to set up loops.
-
-A loop is a statement whose job is to repeatedly execute some other statement
-(the loop body). In C, every loop has a controlling expression. Each time the loop
-body is executed (an iteration of the loop), the controlling expression is evaluated;
-if the expression is true—has a value that’s not zero—the loop continues to exe-
-cute.
-
-C provides three iteration statements: while, do, and for, which are cov-
-ered in Sections 6.1, 6.2, and 6.3, respectively. The while statement is used for
-loops whose controlling expression is tested before the loop body is executed. The
-do statement is used if the expression is tested affer the loop body is executed. The
-for statement is convenient for loops that increment or decrement a counting vari-
-able. Section 6.3 also introduces the comma operator, which is used primarily in
-for statements.
-
-The last two sections of this chapter are devoted to C features that are used in
-conjunction with loops. Section 6.4 describes the break, continue, and goto
-statements. break jumps out of a loop and transfers control to the next statement
-after the loop, continue skips the rest of a loop iteration, and goto jumps to
-any statement within a function. Section 6.5 covers the null statement, which can
-be used to create loops with empty bodies.
-
-The while Statement
-
-Of all the ways to set up loops in C, the whi 1e statement is the simplest and most
-fundamental. The whi le statement has the form
-100
-
-Chapter 6 Loops
-
-while statement
-
-compound statements »5.2
-
-while ( expression ) statement
-
-The expression inside the parentheses is the controlling expression; the statement
-after the parentheses is the loop body. Here’s an example:
-
-while (i < n) /* controlling expression */
-= k2 /* loop body */
-
-Note that the parentheses are mandatory and that nothing goes between the right
-parenthesis and the loop body. (Some languages require the word do.)
-
-‘When a while statement is executed, the controlling expression is evaluated
-first. If its value is nonzero (true), the loop body is executed and the expression is
-tested again. The process continues in this fashion—first testing the controlling
-expression, then executing the loop body—until the controlling expression eventu-
-ally has the value zero.
-
-The following example uses a while statement to compute the smallest
-power of 2 that is greater than or equal to a number n:
-
-L)
-while (i < n)
-Al S R
-
-Suppose that 1 has the value 10. The following trace shows what happens when
-the while statement is executed:
-
-i=1; iisnow L.
-Isi<n?  Yes;continue.
-i=1i*2; iisnow?2.
-Isi<n? Yes; continue.
-i=i+*2; diisnow4.
-Isi<n? Yes: continue.
-i=i*2; iisnow8.
-Isi<n? Yes:; continue.
-i=1i*2; diisnowl6.
-Isi<n? No; exit from loop.
-
-Notice how the loop keeps going as long as the controlling expression (i < n) is
-true. When the expression is false, the loop terminates, and 1 is greater than or
-equal to n, as desired.
-
-Although the loop body must be a single statement, that’s merely a technical-
-ity. If we want more than one statement, we can just use braces to create a single
-compound statement:
-while (i > 0] {
-
-printf ("T minus %d and counting\n", i);
-L=2F
-
-}
-QaA
-
-idiom
-
-6.1 The while Statement 101
-
-Some programmers always use braces, even when they’re not strictly necessary:
-
-while (i = n) { /* braces allowed, but not reguired */
-1 =54 e 2n
-}
-As a second example, let’s trace the execution of the following statements,
-which display a series of “countdown’” messages:
-
-i = 10;
-
-while (i > 0) {
-printf ("T minus %d and counting\n", i);
-gt
-
-)
-
-Before the while statement is executed, the variable 1 is assigned the value 10.
-Since 10 is greater than 0, the loop body is executed, causing the message T
-minus 10 and counting to be printed and 1 to be decremented. The condition
-i > 0 is then tested again. Since 9 is greater than 0, the loop body is executed once
-more. This process continues until the message T minus 1 and counting is
-printed and i becomes 0. The test i > 0 then fails, causing the loop to terminate.
-
-The countdown example leads us to make several observations about the
-while statement:
-
-= The controlling expression is false when a while loop terminates. Thus,
-when a loop controlled by the expression 1 > 0 terminates. i must be less than
-or equal to 0. (Otherwise, we'd still be executing the loop!)
-
-m The body of a while loop may not be executed at all. Since the controlling
-expression is tested before the loop body is executed, it's possible that the
-body isn’t executed even once. If i has a negative or zero value when the
-countdown loop is first entered, the loop will do nothing.
-
-m A while statement can often be written in a variety of ways. For example, we
-could make the countdown loop more concise by decrementing 1 inside the
-call of print£;
-
-while (i > 0)
-printf ("T minus %d and counting\n", i
-
-Infinite Loops
-
-A while satement won't terminate if the controlling expression always has a
-nonzero value. In fact, C programmers sometimes deliberately create an infinite
-loop by using a nonzero constant as the controlling expression:
-
-vhile (1) ..
-
-A while statement of this form will execute forever unless its body contains a
-statement that transfers control out of the loop (break, goto, return) orcalls a
-function that causes the program to terminate.
-102
-
-Chapter 6 Loops
-
-PROGRAM
-
-square.c
-
-PROGRAM
-
-Printing a Table of Squares
-
-Let’s write a program that prints a table of squares, The program will first prompt
-the user to enter a number n. It will then print z lines of output, with each line con-
-taining a number between 1 and n together with its square:
-
-This program prints a table of squares.
-Enter number of entries in table: 5
-
-b
-
-4
-
-9
-
-16
-
-25
-
-G W e
-
-Let’s have the program store the desired number of squares in a variable
-named n. We'll need a loop that repeatedly prints a number i and its square, start-
-ing with 1 equal to 1. The loop will repeat as long as i is less than or equal to n.
-We'll have to make sure to add 1 to i each time through the loop.
-
-We'll write the loop as a while statement. (Frankly, we haven’t got much
-choice, since the while statement is the only kind of loop we've covered so far.)
-Here's the finished program:
-
-/* Prints a table of sguares using a while statement */
-#include <stdio.h>
-int main(veid)
-int i, n;
-printf ("This program prints a table of sguares.\n");
-printf ("Enter number of entries in table: ");
-scanf ("%d", &n);
-il
-while (i <= n) {
-printf ("$10d%10d\n", i, i * i);
-i4ai
-
-}
-
-return 0;
-Note how square . ¢ displays numbers in neatly aligned columns. The trick
-
-is to use a conversion specification like %104 instead of just %d, taking advantage
-of the fact that print £ right-justifies numbers when a field width is specified.
-
-Summing a Series of Numbers
-
-As a second example of the while statement, let’s write a program that sums a
-series of integers entered by the user, Here's what the user will see:
-sum.c
-
-6.2
-
-do statement
-
-6.2 The do Statement 108
-
-This program sums a ceries of integers.
-Enter integers (0 to terminate): 8 23 71 5 0
-The sum is: 107
-
-Clearly we’ll need a loop that uses scanf to read a number and then adds the
-number to a running total.
-
-Letting n represent the number just read and sum the total of all numbers pre-
-viously read, we end up with the following program:
-
-/* Sums a series of numbers */
-#include <stdio.h>
-int main(void)
-
-int n, sum = 0;
-
-printf ("This program sums a series of integers.\n");
-printf ("Enter integers (0 to terminate): ");
-
-scanf ("%d", &n);
-while (n t= 0) {
-sum += n;
-scanf ("$d", &n);
-
-printf ("The sum is: %d\n", sum);
-
-return 0;
-
-:
-
-Notice that the condition nn ! = 0 is tested just after a number is read, allowing the
-loop to terminate as soon as possible. Also note that there are two identical calls of
-scanf, which is often hard to avoid when using while loops.
-
-The do Statement
-
-The do statement is closely related to the while statement, in fact, the do state-
-ment is essentially just a while stalement whose controlling expression is tested
-after each execution of the loop body. The do statement has the form
-
-do statement while ( expression ) ;
-
-As with the while statement, the body of a do statement must be one statement
-(possibly compound, of course) and the controlling expression must be enclosed
-within parentheses.
-
-When a do statement is executed, the loop body is executed first, then the con-
-trolling expression is evaluated. If the value of the expression is nonzero, the loop
-104
-
-Chapter 6 Loops
-
-PROGRAM
-
-body is executed again and then the expression is evaluated once more. Execution
-of the do statement terminates when the controlling expression has the value 0
-after the loop body has been executed.
-
-Tet’s rewrite the countdown example of Section 6.1, using a do statement this
-time:
-
-i= 10y
-do {
-
-printf ("T minus %d and counting\n", i);
-
-£ENl
-} while (i > 0);
-When the do statement is executed, the loop body is first executed, causing the
-message T minus 10 and counting to be printed and i to be decremented.
-The condition i > 0 is now tested. Since 9 is greater than 0, the loop body is exe-
-cuted a second time. This process continues until the message T minus 1 and
-counting is printed and i becomes 0. The test i > 0 now fails, causing the loop.
-to terminate. As this example shows, the do statement is often indistinguishable
-from the whi le statement. The difference between the two is that the body of &
-do statement is always executed at least once; the body of a while statement is
-skipped entirely if the controlling expression is 0 initially.
-
-Incidentally, it’s a good idea to use braces in a// do statements, whether or not
-
-they’re needed, because a do statement without braces can easily be mistaken fora
-while statement:
-
-do
-printf ("T minus %d and counting\n", i--);
-while (i > 0);
-
-A careless reader might think that the word whi e was the beginning of a while
-statement.
-
-Calculating the Number of Digits in an Integer
-
-Although the while statement appears in C programs much more often than the
-do statement, the latter is handy for loops that must execute at least once. To illus-
-trate this point, let's write a program that calculates the number of digits in an infe-
-ger entered by the user:
-
-Enter a nonnegative integer: 60
-The number has 2 digit(s).
-
-Our strategy will be to divide the user’s input by 10 repeatedly until it
-becomes 0; the number of divisions performed is the number of digits. Clearly
-we’ll need some kind of loop, since we don’t know how many divisions it will take.
-to reach 0. But should we use a while statement or a do statement? The do state-
-ment turns out to be more attractive, because every integer—even 0—has at least
-one digit. Here's the program:
-numdigits.c
-
-6.3
-
-for statement
-
-6.3 The for Statement 105
-
-/* Calculates the number of digits in an integer */
-#include <stdio.h>
-int main(void)
-
-int digits = 0, n;
-
-printf("Enter a nonnegative integer: ");
-scanf ("%d", &n);
-
-do {
-n /- 10;
-digits++;
-
-} while (n > 0);
-
-printf ("The number has %d digit(s).\n", digits);
-
-return 0;
-
-To see why the do statement is the right choice, let’s see what would happen if
-we were to replace the do loop by a similar while loop:
-
-while (n > 0) {
-n /= 10;
-digits++;
-
-If nis 0 initially, this loop won’t execute at all, and the program would print
-
-The number has 0 digit(s).
-
-The for Statement
-
-We now come to the last of C’s loops: the £or statement. Don’t be discouraged by
-the for statement’s apparent complexity; it’s actually the best way to write many
-loops. The £or statement is ideal for loops that have a “counting” variable, but it’s
-versatile enough to be used for other kinds of loops as well.
-
-The for statement has the form
-
-for ( exprl ; expr2 ; expri ) statement
-
-where exprl, expr2, and expr3 are expressions. Here's an example:
-
-for (i = 207 i > 0; 1--)
-printf("T minus %d and counting\n", i);
-
-When this for statement is executed, the variable i is initialized to 10, then 1 is
-tested to see if it’s greater than 0. Since it is, the message T minus 10 and
-106
-
-Chapter 6 Loops
-
-counting is printed, then i is decremented. The condition i > 0 is then tested
-again. The loop body will be executed 10 times in all, with i varying from 10
-down to 1.
-
-The £or statement is closely related to the while statement. In fact, except
-in a few rare cases, a for loop can always be replaced by an equivalent while
-loop:
-
-exprl ;
-
-while ( expr2 ) {
-Sstatement
-expr3;
-
-As this pattern shows, exprl is an initialization step that's performed only once,
-before the loop begins to execute, expr2 controls loop termination (the loop contin-
-ues executing as long as the value of expr2 is nonzero), and expr3 is an operation
-to be performed at the end of each loop iteration. Applying this pattern to our pre-
-vious for loop example, we arrive at the following:
-
-i=10;
-
-while (i > 0) {
-printf ("T minus %d and counting\n", i);
-1=
-
-}
-
-Studying the equivalent while statement can help us understand the fine
-points of a for statement. For example, suppose that we replace i-- by --1i in
-our £or loop example:
-
-for (i = 10; & > 0; --4)
-printf ("T minus %d and counting\n", i);
-
-How does this change affect the loop? Looking at the equivalent while loop, we
-see that it has no effect:
-i = 130;
-while (i > 0) {
-printf ("T minus %d and counting\n", 1i);
-~=d
-
-i
-
-Since the first and third expressions in a for statement are executed as statements,
-their values are irrelevant—they’re useful only for their side effects. Consequently,
-these two expressions are usually assignments or increment/decrement expres-
-sions.
-
-for Statement Idioms
-
-The for statement is usually the best choice for loops that “count up” (increment
-a variable) or “count down™ (decrement a variable). A for statement that counts
-up or down a total of n times will usually have one of the following forms:
-idiom
-
-idiom
-
-idiom
-
-idiom
-
-6.3 The for Statement 107
-
-u Counting up from 0 to n-1:
-for (i = 0; i € n; i++) .
-n Counting up from 1 to n:
-for (I = 1@ i <= mp TH5)l e
-u Counting down from n-1 to 0:
-for H =im = A7 1 =007 d-o)l
-
-u Counting down from nto 1:
-
-for 5 =inptl SR =)
-
-Imitating these patterns will help you avoid some of the following errors,
-which beginning C programmers often make:
-
-m Using < instead of > (or vice versa) in the controlling expression. Notice that
-“counting up” loops use the < or <= operator, while “counting down™ loops
-rely on > or >=.
-
-= Using == in the controlling expression instead of <, <=, >, or »=. A control-
-ling expression needs to be true at the beginning of the loop, then later become
-false so that the loop can terminate. A test such as i == n doesn’t make much
-sense, because it won't be true initially.
-
-= “Off-by-one” errors such as writing the controlling expression as i <= n
-instead of 1 < n.
-
-Omitting Expressions in a for Statement
-
-The for statement is even more flexible than we've seen so far. Some £or loops
-may not need all three of the expressions that normally control the loop. so C
-allows us to omit any or all of the expressions.
-
-If the first expression is omitted, no initialization is performed before the loop
-is exccuted:
-
-1= 105
-for (G 3205 ==}
-printf ("T minus %d and counting\n", i);
-
-In this example, i has been initialized by a separate assignment, so we've omitted
-the first expression in the for statement. (Notice that the semicolon between the
-first and second expressions remains. The two semicolons must always be present,
-even when we’ve omitted some of the expressions.)
-
-If we omit the third expression in a for statement, the loop body is responsi-
-ble for ensuring that the value of the second expression eventually becomes false.
-Our £or statement example could be written like this:
-
-for (i = 10; i > 07)
-printf ("T minus %d and counting\n", i
-
-108
-
-Chapter 6 Loops
-
-idiom
-
-To compensate for omitting the third expression, we've arranged for i to be decre-
-mented inside the loop body.
-
-When the first and third expressions are both omitted, the resulting loop is
-nothing more than a while statement in disguise. For example, the loop
-
-for (3 1 > 07)
-printf ("T minus %d and counting\n", i--);
-
-is the same as
-
-while (i > 0)
-printf ("T minus %d and counting\n", i );
-
-The while version is clearer and therefore preferable,
-
-If the second expression is missing, it defaults to a true value, so the for
-statement doesn’t terminate (unless stopped in some other fashion). For example,
-some programmers use the following for statement to establish an infinite loop:
-
-Eor (i:i) .
-
-for Statements in C99
-
-In €99, the first expression in a for statement can be replaced by a declaration.
-"This teature allows the programmer (o declare a variable for use by the loop:
-
-for (dnt i = 0; i < n; is+)
-
-The variable i need not have been declared prior to this statement. (In fact, if a
-declaration of i already exists, this statement creates a new version of 1 that will
-be used solely within the loop.)
-
-A variable declared by a for statement can’t be accessed outside the body of
-the loop (we say that it’s not visible outside the loop):
-
-for (dnt i =07 I < ny dee)
-
-printf("&d", i); /* legal; i is visible inside loop */
-}
-printf ("&d", i); /*%* WRONG *%%/
-
-Having a for statement declare its own control variable is usually a good
-idea: it’s convenient and it can make programs easier to understand. However, if
-the program needs to access the variable afler loop termination, it’s necessary to
-use the older form of the for statement.
-
-Incidentally, a for statement may declare more than one variable, provided
-that all variables have the same type:
-
-for (int i = 0, j = 07 i < n; i++4)
-comma expression
-
-macro definition >74.3
-
-6.3 The for Statement 109
-
-The Comma Operator
-
-On occasion, we might like to write a for statement with two (or more) initializa-
-tion expressions or one that increments several variables each time through the
-loop. We can do this by using a comma expression as the first or third expression
-in the for statement.
-
-A comma expression has the form
-
-exprl , expr2
-
-where exprl and expr2 are any two expressions. A comma expression is evaluated
-in two steps: First, expr/ is evaluated and its valve discarded. Second, expr2 is
-evaluated: its value is the value of the entire expression. Evaluating expr/ should
-always have a side effect; if it doesn’t. then exprl serves no purpose.
-
-For example, suppose that 1 and j have the values 1 and 5, respectively. When
-the comma expression ++1, 1 + j is evaluated, i is first incremented, then i + j
-is evaluated, so the value of the expression is 7. (And, of course, 1 now has the
-value 2.) The precedence of the comma operator is less than that of all other opera-
-tors, by the way, so there’s no need to put parentheses around ++1 and i + j.
-
-Occasionally, we'll need to chain together a series of comma expressions, just
-as we sometimes chain assignments together. The comma operator is left associa-
-tive, so the compiler interprets
-
-as
-(fd = 2}, (@ =2)), tk = (i + 3))
-
-Since the left operand in a comma expression is evaluated before the right operand,
-the assignments 1 =1, 3 = 2, and k = 1 + J will be performed from left to right.
-
-The comma operator is provided for situations where C requires a single
-expression, but we'd like to have two or more expressions. In other words, the
-comma operator allows us to “glue” two expressions together to form a single
-expression. (Note the similarity to the compound statement, which allows us to
-treat a group of statements us a single statement.)
-
-The need to glue expressions together doesn’t arise that often. Certain macro
-definitions can benefit from the comma operator, as we’ll sce in a later chapter.
-The £or statement is the only other place where the comma operator is likely to be
-found. For example, suppose that we want to initialize two variables when entering
-a for statement. Instcad of writing
-
-sum = 0;
-for (i = 1; 4 <= N 444)
-sum += i;
-
-we can write
-110
-
-Chapter 6 Loops
-
-PROGRAM
-
-square2.c
-
-square3.c
-
-for (sum = 0, i = 1; i <= N; i++)
-sum += i;
-
-The expression sum = 0, i = 1 first assigns 0 to sum, then assigns | to i. With
-additional commas, the for statement could initialize more than two variables.
-
-Printing a Table of Squares (Revisited)
-
-The square. c program (Section 6,1) can be improved by converting its while
-loop to a for loop:
-
-/* Prints a table of squares using a for statement */
-#include <stdio.h>
-
-int main(void)
-
-{
-
-int oy
-
-printf ("This program prints a table of squares.\n");
-printf ("Enter number of entries in table: ");
-
-scanf ("%d", &n);
-
-for (i = 1; i <= n; i+4)
-printf("%10d¥10d\n", i, i * i);
-
-return 0;
-
-We can use this program to illustrate an important point about the for state-
-ment: C places no restrictions on the three expressions that control its behavior.
-Although these expressions usually initialize. test, and update the same variable,
-there’s no requirement that they be related in any way. Consider the following ver-
-sion of the same program:
-
-/* Prints a table of squares using an odd method */
-#include <stdio.h>
-int main(void)
-
-int i, n, odd, square;
-
-printf ("This program prints a table of squares.\n");
-printf ("Enter number of entries in table: ");
-scanf ("%d", &n);
-L
-odd = 3;
-for (square = 1; i <= n; odd += 2) |
-printf ("$104%10d\n", i, square);
-++1;
-finked lists > 17.5
-
-6.4
-
-6.4 ExitingfromaLoop 111
-
-square += odd;
-
-)
-
-return 0;
-
-}
-
-The for statement in this program initializes one variable (square), tests
-another (1), and increments a third (odd). i is the number to be squared, square
-is the square of i, and odd is the odd number that must be added to the current
-square to get the mext square (allowing the program to compute consecutive
-squares without performing any multiplications).
-
-The tremendous flexibility of the for statement can sometimes be useful;
-we’ll find it to be a great help when working with linked lists. The for statement
-can easily be misused, though, so don’t go overboard. The for loop in
-square3 .c would be a lot clearer if we rearranged its pieces so that the loop is
-clearly controlled by i.
-
-Exiting from a Loop
-
-We've seen how to write loops that have an exit point before the loop body (using
-while and for statements) or after it (using do statements). Occasionally, how-
-ever, we'll need a loop with an exit point in the middle. We may even want a loop
-to have more than one exit point. The break statement makes it possible to write
-either kind of loop.
-
-After we’ve examined the break statement, we’ll look at a couple of related
-slatements: continue and goto. The cont inue statement makes it possible to
-skip part of a loop iteration without jumping out of the loop. The goto statement
-allows a program to jump from one statement to another. Thanks to the availability
-of statements such as break and continue, the goto statement is rarely used.
-
-The break Statement
-
-We've already discussed how a break statement can transfer control out of a
-switch statement. The break statement can also be used to jump out of a
-while, do, or £or loop.
-
-Suppose that we're writing a program that checks whether a number n is
-prime. Our plan is to write a for statement that divides n by the numbers between
-2 and n — 1. We should break out of the loop as soon as any divisor is found;
-there’s no need to try the remaining possibilities. After the loop has terminated, we
-can use an if statement to determine whether termination was premature (hence n
-isn't prime) or normal (11 is prime):
-
-for (d d < nj d++)
-if (n % d == 0)
-break;
-
-112
-
-Chapter 6 Loops
-
-£ (d<e n)
-
-printf("¥d is divisible by %d\n", n, d);
-else
-
-printf("%d is prime\n", n);
-
-The break statement is particularly useful for writing loops in which the exit
-point is in the middle of the hody rather than at the beginning or end. Loops that
-read user input, terminating when a particular value is entered, often fall into this
-category:
-
-for ((z2) ]
-printf ("Enter a number (enter 0 to stop): ") ;
-scanf ("%d", &n);
-I (0 == "0)
-break;
-printf("sd cubed is %d\n", n, n * n * n);
-
-A break statement transfers control out of the innermost enclosing while,
-do, for, or switch statement. Thus, when these statements are nested, the
-break statement can escape only one level of nesting. Consider the case of a
-switch statement nested inside a while statement:
-
-while (.) {
-switch (.) {
-
-break;
-
-}
-}
-
-The break statement transfers control out of the swi tch statement, but not out
-of the while loop. I'll return to this point later.
-
-The continue Statement
-
-The continue statement doesn’t really belong here, because it doesn’t exit from
-a loop. It’s similar to break, though, so its inclusion in this section isn’t com-
-pletely arbitrary. break transfers control just past the end of a loop, while
-continue transfers control to a point just before the end of the loop body. With
-break, control leaves the loop; with cont inue, control remains inside the loop.
-There’s another difference between break and continue: break can be used
-in switch statements and loops (while, do, and for), whereas continue is
-limited to loops.
-
-The following example, which reads a series of numbers and computes their
-sum, illustrates a simple use of cont inue. The loop terminates when 10 nonzero
-numbers have been read. Whenever the number 0 is read, the cont inue state-
-ment is executed, skipping the rest of the loop body (the statements sum += 1 ;
-and n++; ) but remaining inside the loop.
-@D
-
-variable-length ariays »8.3.
-
-labeled statement
-
-goto statement
-
-6.4 Exiting fromalLoop 113
-
-n = 0p
-
-sum = 0;
-
-while (n < 10) {
-scanf ("%¥d", &i);
-
-LENH 0)
-
-continue;
-sum += i;
-g
-
-/* continue jumps to here */
-
-1
-If continue were not available, we could have written the example as follows:
-
-n=0;
-sum = 0;
-while (n < 10) {
-scanf ("§d", &i);
-14f (4 t="0) {
-sum += i;
-nes;
-
-}
-
-!
-
-The goto Statement
-
-break and continue are jump statements that transfer control from one point
-in the program to another. Both are restricted: the target of a break is a point just
-beyond the end of the enclosing loop, while the target of a continue is a point
-just before the end of the loop. The goto statement, on the other hand, is capable
-of jumping to any statement in a function, provided that the statement has a label.
-(€99 places an additional restriction on the goto statement: it can’t be used (o
-bypass the declaration of a variable-length array.)
-A label is just an identificr placed at the beginning of a statement:
-
-identifier : starement
-
-A statement may have more than one label. The goto statement itself has the form
-
-goto identifier ;
-
-Executing the statement goto L; transfers control to the statement that follows
-the label L, which must be in the same function as the goto statement itself.
-
-If C didn’t have a break statement, here’s how we might use a goto state-
-ment 1o exit prematurely from a loop:
-
-for (d = 2;
-if (n % 4d
-goto done;
-
-114
-
-Chapter 6 Loops
-
-©exit function > 9.5
-
-PROGRAM
-
-done:
-if (d < n)
-
-printf("%d is divisible by %d\n", n, d);:
-else
-
-printf ("%d is prime\n", n);
-
-The goto statement, a staple of older programming languages, is rarely
-needed in everyday C programming. The break, cont inue, and return state-
-ments  which are essentially restricted got.o statements—and the exit function
-are sufficient to handle most situations that might require a goto in other lan-
-guages.
-
-Nonetheless, the goto statement can be helpful once in a while. Consider the
-problem of exiting a loop from within a swi tch statement. As we saw earlicr, the
-break statement doesn’t quite have the desired effect: it exits from the switch,
-but not from the loop. A goto statement solves the problem:
-while (.) {
-
-switch (.) {
-
-goto loop_done; /* break won't work here */
-
-}
-
-}
-loop done:
-
-The goto statement is also useful for exiting from nested loops.
-
-Balancing a Checkbook
-
-Many simple interactive programs are menu-based: they present the user with a list
-of commands to choose from. Once the user has selected a command, the program
-performs the desired action, then prompts the user for another command. This pro-
-cess continues until the user selects an “exit” or “quit” command.
-
-The heart of such a program will obviously be a loop. Inside the loop will be
-statements that prompt the user for a command, read the command, then decide
-what action to take:
-
-for (i:) {
-prompt user to enter command ;
-read command ;
-execute command ;
-
-Executing the command will require a switch statement (or cascaded if state-
-ment):
-
-Boxr™ {57
-prompt user to enter command ;
-read command ;
-switch (command) {
-case command,: perform operation;; break;
-checking.c
-
-6.4 Exiting from a Loop
-
-case commandy: perform operationy; break;
-
-case command,: perform operation,; break;
-
-115
-
-default: printerror message; break;
-
-To illustrate this arrangement, let’s develop a program that maintains a check-
-book balance. The program will offer the user a menu of choices: clear the account
-balance, credit money to the account, debit money from the account, display the
-current balance, and exit the program. The choices are represented by the integers
-0, 1, 2, 3, and 4. respectively. Here's what a session with the program will look
-
-3=balance, 4-exit
-
-like:
-
-*¥* ACME checkbook-balancing program ***
-Commands: O=clear, l=credit, 2=debit,
-Enter command: 1
-
-Enter amount of credit: 1042.56
-
-Enter command: 2
-
-Enter amount of debit: 133.79
-
-Enter command: 1
-
-Enter amount of credit: 1754.32
-Enter command: 2
-Enter amount of debit:
-Enter command: 2
-Enter amount of debit: 68
-Enter comwand: 2
-
-Enter amount of debit: 50
-Enter command:
-Current balance
-Enter command: 4
-
-1400
-
-W
-
-$1145.09
-
-‘When the user enters the command 4 (exit), the program needs to exit from the
-switch statement and the surrounding loop. The break statement won't help,
-and we’d prefer not to use a goto statement. Instead, we’ll have the program exe-
-cute a return statement, which will cause the main function to return to the
-
-operating system.
-/* Balances a checkbook */
-#include <stdio.h>
-
-int main(void)
-
-{
-
-int cmd;
-
-float balance = 0.0f, credit, debit;
-
-printf ("*** ACME checkbook-balancing program ***\n");
-
-printf ("Commands: O=clear, l=-credit,
-printf ("3=balance, 4=exit\n\n");
-
-2=debit,
-
-L)
-116
-
-Chapter 6 Loops
-
-6.5
-
-For iz |
-printf ("Enter command:
-scanf ("%d", &cmd);
-switch d)
-case 0:
-balance = 0.0f;
-break;
-case 1:
-printf ("Enter amount of credit: ");
-scanf ("&f", &credit);
-balance += credit;
-break;
-case
-printf ("Enter amount of debit: ");
-scanf ("%£", &debit);
-balance -= debit;
-break
-case 3:
-printf ("Current balance: $%.2f\n", balance)];
-break;
-case 4:
-return 0;
-default:
-printf ("Commands: O=clear, l=credit, 2=debit, ");
-printf ("3=balance, 4=exit\n\n");
-break;
-
-}
-)
-}
-
-Note that the return statement is not followed by a break statement. A break
-immediately following a return can never be executed, and many compilers will
-issue a warning message.
-
-The Null Statement
-
-A statement can be null—devoid of symbols except for the semicolon at the end.
-Here’s an example:
-
-This line contains three statements: an assignment to i, a null statement, and an
-assignment to 5.
-
-The null statement is primarily good for one thing: writing loops whose bodies
-are empty. As an example, recall the prime-finding loop of Section 6.4:
-
-for (d = 2; d < n; dt+)
-if (n % d ©)
-break;
-
-reading characters »7.3
-
-A
-
-6.5 The Null Statement 117
-
-If we move the n % d == 0 condition into the loop’s controlling expression, the
-body of the loop becomes empty:
-
-for (d = 2; d <n & n %d != 0; d++)
-/* empty loop body */ ;
-
-Each time through the loop, the condition d < n is tested first: if it's false, the loop
-terminates. Otherwise, the condition n % d ! = 0 is tested, and if that’s false, the
-loop terminates. (In the latter case, nn % d == 0 must be true: in other words. we've
-found a divisor of n.)
-
-Note how we've put the null statement on a line by itsclf, instead of writing
-
-for (d - 2; d<n&&n %dl=0; dt+);
-
-C programmers customarily put the null statement on a line by itself. Otherwise.
-someone reading the program might get confused about whether the statement
-after the for was actually its body:
-
-for (d =2; d<n&n%d!=0; d+);
-if (d < n)
-printf("%d is divisible by %d\n", n, d);
-
-Converting an ordinary loop into one with an empty body doesn’t buy much:
-the new loop is often more concise but usually no more efficient. In a few cases,
-though. a loop with an empty body is clearly superior to the alternatives. For exam-
-ple, we’ll find these loops to be handy for reading character data.
-
-Accidentally putting a semicolon after the parentheses in an if, while, or for
-statement creates a null statement, thus ending the if, while, or for prema-
-turely.
-
-m Inan if statement, putting a semicolon after the parentheses creates an if
-statement that apparently performs the same action regardless of the value of
-its controlling expression:
-
-it (d == 0); /*%% HRONG **+/
-printf("Error: Division by zero\n");
-
-The call of print£ isn'tinside the i £ statement, so it’s performed regardless
-of whether d is equal to 0.
-
-= In a while statement, putting a semicolon after the parentheses may create
-an infinite loop:
-
-i=10;
-while (i > 0); /%% WRONG *##/
-printf("T minus %d and counting\n", i);
-
-=i
-
-}
-118
-
-Chapter 6 Loops
-
-Another possibility is that the loop terminates, but the statement that should be
-the loop body is executed only once, after the loop has terminated:
-
-i=11;
-
-while (--i > 0); [*¥% WRONG *#+/
-Printf ("T minus 3d and counting\n", i);
-
-This example prints the message
-
-T minus 0 and counting
-
-= Ina for statement, putting a semicolon after the parentheses causes the state-
-ment that should be the loop body to be executed only once:
-
-for (i = 16; 1 > 0; i--)5 %% WRONG, k¥ M/
-
-printf ("T minus %d and counting\n", i);
-This example also prints the message
-
-T minus 0 and counting
-
-Q&A
-
-The following loop appears in Section 6.
-
-while (i > 0)
-printf ("T winus 3d and counting\n", i--);
-
-‘Why not shorten the loop even more by removing the “> 0” test?
-
-while (i)
-printf ("T minus %d and counting\n", i--);
-
-This version will stop when i reaches 0, so it should be just as good as the
-original. [p. 101]
-
-The new version is certainly more concise, and many C programmers would write
-the loop in just this way. It does have drawbacks, though.
-
-First, the new loop is not as easy to read as the original. It's clear that the loop
-will terminate when 1 reaches 0, but it’s not obvious whether we're counting up or
-down. In the original loop, that information can be deduced from the controlling
-expression, i > 0.
-
-Second, the new loop behaves differently than the original if i should happen
-to have a negative value when the loop begins to execute. The original loop termi-
-nates immediately, but the new loop dvesn’t.
-
-Section 6.3 says that, except in rare cases, for loops can be converted to
-while loops using a standard pattern. Can you give an example of such a
-case? [p. 106]
-2
-
-Q&A 119
-
-When the body of a for loop contains a cont inue statement, the while pat-
-tern shown in Section 6.3 is no longer valid. Consider the following example from
-Section 6.4:
-
-n = 0;
-
-sum = 0;
-
-while (n < 10) {
-scanf ("%d", &i);
-if (4 == 0)
-
-continue;
-
-sum += i;
-Dt
-
-}
-
-At first glance, it looks as though we could convert the while loop into a for
-loop:
-
-sum = 0;
-for (n = 0; n < 10; n++)
-scanf ("&d", &i);
-if (1 == 0)
-continue;
-
-sum += i;
-
-Unfortunately, this loop isn’t equivalent to the original. When 1 is equal to 0, the
-original loop doesn’t increment 11, but the new loop does.
-
-Which form of infinite loop is preferable, while (1) or for (;;)? [p. 108]
-
-C programmers have traditionally preferred for (; ;) for reasons of efficiency:
-older compilers would often force programs to test the 1 condition cach time
-through the whi e loop. With modern compilers, however, there should be no dif-
-ference in performance
-
-I’ve heard that programmers should never use the continue statement. Is
-this true?
-
-It’s true that continue statements are rare. Still, continue is handy once in a
-while. Suppose we're writing a loop that reads some input data, checks that it’s
-valid, and, if so, processes the input in some way. If there are a number of validity
-tests, or if they’re complex, continue can be helpful. The loop would look
-something like this:
-
-for (i7) {
-read data ;
-if (data fails first test)
-continue;
-if (darta fails second tesr)
-continue;
-120
-
-Chapter 6 Loops
-
-if (data fails last rest)
-continue;
-process data ;
-
-)
-
-What’s so bad about the goto statement? [p. 114]
-The goto statement isn't inherently evil; it's just that we usually have better alter-
-natives. Programs that use more than a few goto statements can quickly degener-
-ate into “‘spaghetti code.” with control blithely jumping from here to there.
-Spaghetti code is hard to understand and hard to modify.
-
-goto statements make programs hard to read because they can jump either
-forward or backward. (In contrast, break and continue only jump forward.) A
-program that contains goto statements often requires the reader to jump back and
-forth in an attempt to follow the flow of control.
-
-goto statements can make programs hard to modify, since they make it possi-
-ble for a section of code to serve more than one purpose. For example, a statement
-that is preceded by a label might be reachable cither by “falling through™ from the
-previous statement or by executing one of several goto statements.
-
-Does the null statement have any uses besides indicating that the body of a
-loop is empty? [p. 116]
-Very few. Since the null statement can appear wherever a statement is allowed,
-there are many potential uses for the null statement. In practice, however, there’s
-only one other use of the null statement, and it's rare.
-
-Suppose that we need to put a label at the end of a compound statement. A
-label can’t stand alone: it must always be followed by a statement. Putting a null
-statement after the label solves the problem:
-
-{
-goto end of stmt;
-
-end of stmt: ;
-
-Are there any other ways to make an empty loop body stand out besides put-
-ting the null statement on a line by itself? [p. 117]
-
-Some programmers use a dummy cont inue statement:
-
-for (d = 2; d <n & n % d != 0; d++)
-continue;
-
-Others use an empty compound statement:
-
-for (d =2; d <n & n % d l=0; d++)
-
-{
 Exercises 121
 
 Exercises
@@ -1588,7 +24,7 @@ i /= 10;
 
 } while (i > 0);
 
-Section 6.3 *3. What output does the following £or statement produce?
+Section 6.3 *3. What output does the following `for` statement produce?
 
 e L e e
 printf("sd v, 1i);
@@ -1607,20 +43,20 @@ Toop bodies are the same)?
 
 }
 
-6. Translate the program fragment of Exercise | into a single £or statement.
-7. Translate the program fragment of Exercise 2 into a single £or statement
+6. Translate the program fragment of Exercise | into a single `for` statement.
+7. Translate the program fragment of Exercise 2 into a single `for` statement
 
 *#8.  What output does the following £ox statement produce?
 
 e LA TP e
 printf ("s$d ", i++);
 
-9. Translate the for statement of Exercise 8 into an equivalent while statement. You will
+9. Translate the `for` statement of Exercise 8 into an equivalent `while` statement. You will
 need one statement in addition to the whi le loop itself.
 
 Section 6.4 @ 10.  Show how to repl:
 
-a continue statement by an equivalent goto statement.
+a `continue` statement by an equivalent `goto` statement.
 
 11 What output does the following program fragment produce?
 122 Chapter 6 Loops
@@ -1715,14 +151,14 @@ Enter value of trade: 0
 
 Programming Project | in Chapter 4 asked you to write a program that displays a two-digit
 number with its digits reversed. Generalize the program so that the number can have one,
-two, three, or more digits. Hinr: Use a do loop that repeatedly divides the number by 10,
+two, three, or more digits. Hinr: Use a `do` loop that repeatedly divides the number by 10,
 stopping when it reaches 0.
 
 Wrile a program that prompts the user to enter a number n, then prints all even squares
 between | and . For example, if the user enters 100, the program should print the follow-
 ing:
 
-Rearrange the square3 . ¢ program so that the for loop initializes i, tests i, and incre-
+Rearrange the square3 . ¢ program so that the `for` loop initializes i, tests i, and incre-
 ments i. Don't rewrite the program: in particular, don't use any multiplications.
 
 Write a program that prints a one-month calendar. The user specifies the number of days in
@@ -1737,7 +173,7 @@ Enter starting day of the week (1=Sun, 7=Sat): 3
 20 21 22 23 24 25 26
 27 28 29 30 31
 
-Hint: This program isn’t as hard as it looks. The most important part is a for statement that
+Hint: This program isn’t as hard as it looks. The most important part is a `for` statement that
 uses a variable i to count from | to n, where n is the number of days in the month, printing
 each value of 1. Inside the loop, an 1 f statcment tests whether 1 is the last day in a week; if
 S0, it prints a new-line character.
@@ -2098,7 +534,7 @@ sum2.c
 7.1 Integer Types 131
 
 scanf ("$x", &u); /* reads u in base 16 */
-print£("$x", u); /* writes u in base 16 */
+printf("$x", u); /* writes u in base 16 */
 
 = When reading or writing a short integer. put the letter h in front of &, o, u, or
 S
@@ -2363,7 +799,7 @@ ters involved. These values depend on the character set in use, so programs that
 <, <=, >, and >= to compare characters may not be portable.
 
 The fact that characters have the same properties as numbers has some advan-
-tages. For example, we can easily write a £or statement whose control variable
+tages. For example, we can easily write a `for` statement whose control variable
 steps through all the upper-case letters:
 
 for (ch = 'A'; ch <= 'Z'; ch+)
@@ -2382,7 +818,7 @@ _Bool ype »62
 On the other hand, treating characters as numbers can lead to various programming
 errors that won’t be caught by the compiler, and lets us write meaningless expres-
 sions such as 'a' * 'b' / 'c'. It can also hamper portability, since our pro-
-grams may be based on assumptions about the underlying character set. (Our £or
+grams may be based on assumptions about the underlying character set. (Our for
 loop. for example, assumes that the letters from A to Z have consecutive codes.)
 
 Signed and Unsigned Characters
@@ -2531,7 +967,7 @@ sequences, however, universal character names are allowed in identifiers.
 
 Character-Handling Functions
 
-EBarlier in this section, we saw how 10 write an if statement that converts a lower-
+EBarlier in this section, we saw how 10 write an `if` statement that converts a lower-
 case letter to upper-case:
 
 1ral e <= ichiGetich ==z il)
@@ -2560,7 +996,7 @@ at the top:
 toupper isn’t the only useful character-handling function in the C library. Sec-
 tion 23.5 describes them all and gives examples of their use.
 
-Reading and Writing Characters using scanf and print£f
+Reading and Writing Characters using scanf and printff
 
 The %c conversion specification allows scanf and printf to read and write sin-
 gle characters:
@@ -2617,7 +1053,7 @@ Like scanf, getchar doesn't skip white-space characters as it reads.
 
 Using getchar and putchar (rather than scanf and printf) saves time
 when the program is executed. getchar and putchar are fast for two reasons.
-First, they’re much simpler than scanf and print£, which are designed to read
+First, they’re much simpler than scanf and printf, which are designed to read
 and write many kinds of data in a variety of formats. Second, getchar and
 putchar are usually implemented as macros for additional speed.
 
@@ -2696,7 +1132,7 @@ end of the message.
 We'll need a loop whose body reads a character and increments a counter. The
 loop will terminate as soon as a new-line character turns up. We could use cither
 scanf or getchar to read characters; most C programmers would choose
-getchar. Using a straightforward while loop, we might end up with the follow-
+getchar. Using a straightforward `while` loop, we might end up with the follow-
 ing program.
 142
 
@@ -2725,7 +1161,7 @@ printf ("Your message was %d character(s) long.\n", len);
 
 return 0;
 
-Recalling our discussion of idioms involving while loops and getchar, we
+Recalling our discussion of idioms involving `while` loops and getchar, we
 realize that the program can be shortened:
 
 /* Determines the length of a message */
@@ -2779,7 +1215,7 @@ match the type of the variable on the left side.
 = When the type of an argument in a function call doesn't match the type of the
 corresponding parameter.
 
-= When the type of the expression in a return statement doesn’t match the
+= When the type of the expression in a `return` statement doesn’t match the
 function’s return type.
 
 We’ll discuss the first two cases now and save the others for Chapter 9.
@@ -3269,9 +1705,9 @@ and hex notation. How do I write ordinary (signed) integers in octal or hex?
 
 You can use $o and %x to print a signed integer as long as its value isn't negative.
 These conversions cause printf to treat a signed integer as though it were
-unsigned: in other words, print £ will assume that the sign bit is part of the num-
+unsigned: in other words, printf will assume that the sign bit is part of the num-
 ber’s magnitude. As long as the sign bit is 0, there’s no problem. If the sign bit is 1,
-print £ will print an unexpectedly large number.
+printf will print an unexpectedly large number.
 
 But what if the number is negative? How can I write it in octal or hex?
 There’s no direct way to print a negative number in octal or hex. Fortunately, the
@@ -3615,7 +2051,7 @@ Programming Projects
 The square? . c program of Section 6.3 will fail (usually by printing strange answers) if
 1 * i exceeds the maximum int value. Run the program and determine the smallest value
 of n that causes failure, Try changing the type of i 0 short and running the program
-again. (Don’t forget 1o update the conversion specifications in the call of print£!) Then
+again. (Don’t forget 1o update the conversion specifications in the call of printf!) Then
 try long. From these experiments, what can you conclude about the number of bits used to
 store integer types on your machine?
 
@@ -3850,7 +2286,7 @@ In general, if an array contains elements of type 7; then each element of the ar
 treated as if it were a variable of type 7. In this example, the elements a [0],
 a[5].and a[i] behave like int variables.
 
-Arrays and for loops go hand-in-hand. Many programs contain £or loops
+Arrays and `for` loops go hand-in-hand. Many programs contain `for` loops
 whose job is to perform some operation on every element in an array. Here are a
 few examples of typical operations on an array a of length N:
 
@@ -3885,7 +2321,7 @@ afi]
 1; 3 <= 107 i#s)
 0;
 
-With some compilers, this innocent-looking for statement causes an infinite loop!
+With some compilers, this innocent-looking `for` statement causes an infinite loop!
 When i reaches 10, the program stores 0 into a [10]. But 2 [10] doesn’t exist,
 s0 () goes into memory immediately after a [9] . If the variable i happens to fol-
 low a [9] in memory—as might be the case—then 1 will be reset to 0, causing the
@@ -3899,7 +2335,7 @@ i=0;
 while (i <« N)
 ali++] = 0;
 
-Let’s trace this code. After i is set to 0, the while statement checks whether i is
+Let’s trace this code. After i is set to 0, the `while` statement checks whether i is
 less than N. If it is, O is assigned to a [0], i is incremented, and the loop repeats.
 Note that a [++1] wouldn’t be right, because 0 would be assigned to a [1] during
 the first loop iteration.
@@ -3969,7 +2405,7 @@ return 0;
 
 This program shows just how useful macros can be in conjunction with arrays.
 The macro N is used four times in the program: in the declaration of a, in the
-printf that displays a prompt, and in both £or loops. Should we later decide to
+printf that displays a prompt, and in both `for` loops. Should we later decide to
 change the size of the array, we need only edit the definition of N and recompile
 the program. Nothing else will need to be altered; even the prompt will still be cor-
 rect,
@@ -4204,11 +2640,11 @@ Years 6% 7% 8% 9% 10%
 4 126.25 131.08 136.05 141.16 146.41
 5 133.82 140.26 146.93 153.86 161.05
 
-Clearly, we can use a for statement to print the first row. The second row is a
+Clearly, we can use a `for` statement to print the first row. The second row is a
 little trickier, since its values depend on the numbers in the first row. Our solution
 is to store the first row in an array as it's computed, then use the values in the array
 to compute the second row. Of course, this process can be repeated for the third
-and later rows. We'll end up with two for statements, one nested inside the other.
+and later rows. We'll end up with two `for` statements, one nested inside the other.
 The outer loop will count from 1 to the number of years requested by the user. The
 inner loop will increment the interest rate from its lowest value to its highest value.
 interest.c
@@ -4251,7 +2687,7 @@ printf ("%7.2€%, value[il);
 printf ("\nt);
 return 0;
 
-Note the use of NUM_RATES to control two of the £or loops. If we later
+Note the use of NUM_RATES to control two of the `for` loops. If we later
 change the size of the value array. the loops will adjust automatically.
 
 Multidimensional Arrays
@@ -4288,12 +2724,12 @@ row 0 row 1 row 4
 
 ‘We'll usually ignore this detail, but sometimes it will affect our code.
 
-Just as for loops go hand-in-hand with one-dimensional arrays, nested for
+Just as `for` loops go hand-in-hand with one-dimensional arrays, nested for
 loops are ideal for processing multidimensional arrays. Consider, for example, the
 ing an array for use as an identity matrix. (In mathematics, an
 identity matrix has 1’s on the main diagonal, where the row and column index are
 the same, and 0's everywhere else.) We'll need to visit each element in the array in
-some systematic fashion. A pair of nested £or loops—one that steps through every
+some systematic fashion. A pair of nested `for` loops—one that steps through every
 row index and one that steps through each column index—is perfect for the job:
 
 #define N 10
@@ -4686,7 +3122,7 @@ memcpy (a, b, sizeof(al);
 Many programmers prefer memcpy, especially for large arrays, because it’s poten-
 tially faster than an ordinary loop.
 
-Section 6.4 mentioned that C99 doesn’t allow a goto statement to hypass the
+Section 6.4 mentioned that C99 doesn’t allow a `goto` statement to hypass the
 declaration of a variable-length array. What’s the reason for this restriction?
 
 The memory used to store a variable-length array is usually allocated when the
@@ -5011,7 +3447,7 @@ we'll see how to write functions other than main, and we'll learn more about
 main itself. Section 9.1 shows how to define and call functions. Section 9.2 then
 discusses function declarations and how they differ from function definitions.
 Next, Section 9.3 examines how arguments are passed to functions. The remainder
-of the chapter covers the return statement (Section 9.4), the related issue of pro-
+of the chapter covers the `return` statement (Section 9.4), the related issue of pro-
 gram termination (Section 9.5), and recursion (Section 9.6).
 
 Defi
@@ -5050,7 +3486,7 @@ ter is essentially a variable whose initial value will be supplied later, when t
 function is called.
 
 Every function has an executable part, called the body, which is enclosed in
-braces. The body of average consists of a single return statement. Exccuting
+braces. The body of average consists of a single `return` statement. Exccuting
 this statement causes the function to “return” to the place from which it was called:
 the value of (a +b) / 2 will be the value returned by the function.
 
@@ -5075,10 +3511,10 @@ ing effect:
 
 2. xand y are copied into a and b.
 
-3. average executes its return statement, returning the average of a and b.
+3. average executes its `return` statement, returning the average of a and b.
 
 . printf prints the value that average returns. (The return value of
-average hecomes one of print £'s arguments.)
+average hecomes one of printf's arguments.)
 
 F
 
@@ -5154,7 +3590,7 @@ countdown.c
 PROGRAM
 
 print_count has one parameter, n, of type int. It returns nothing, so I've
-specified void as the return type and omitted the return statement. Since
+specified void as the return type and omitted the `return` statement. Since
 rrint_count doesn’t return a value, we can’t call it in the same way we call
 average. Instead, a call of print_count must appear in a statement by itself:
 
@@ -5199,7 +3635,7 @@ of print_count will print
 T minus 10 and counting
 
 print_count then returns to the point at which it was called, which happens to
-be the body of a for statement. The for statement resumes where it left off, dec-
+be the body of a `for` statement. The `for` statement resumes where it left off, dec-
 rementing 1 to 9 and testing whether it's greater than 0. Itis, so print_count is
 called again, this time printing
 
@@ -5254,7 +3690,7 @@ int main(void)
 
 The execution of this program begins with the first statement in main, which
 happens to be a call of print_pun. When print_pun begins to execute, it in
-turn calls printf to display a string. When print£ returns, print_pun re-
+turn calls printf to display a string. When printf returns, print_pun re-
 turns to main
 
 Function Definitions
@@ -5390,7 +3826,7 @@ value 9:
 num_chars = printf("Hi, Mom!\n");
 
 Since we're probably not interested in the number of characters printed, we'll nor-
-mally discard print£'s return value:
+mally discard printf's return value:
 
 printf ("Hi, Mom!\n"); /* discards return value */
 
@@ -5479,8 +3915,8 @@ point in more detail.
 
 As is_prime demonstrates, a function may have more than one return
 statement. However, we can execute just one of these statements during a given
-call of the function, because reaching a return statement causes the function to
-return to where it was called. Well learn more about the return statement in
+call of the function, because reaching a `return` statement causes the function to
+return to where it was called. Well learn more about the `return` statement in
 Section 9.4,
 
 Function Declarations
@@ -6012,9 +4448,9 @@ Walies »4.2
 
 9.4
 
-return statement
+`return` statement
 
-9.4 The return Statement 201
+9.4 The `return` statement 201
 
 The only problem with this arrangement is that b must be declared as a variable
 and then initialized prior to the call. If b isn’t needed for any other purpose, it can
@@ -6053,10 +4489,10 @@ A compound literal is an lvalue, so the values of its elements can be changed.
 If desired, a compound literal can be made “read-only"” by adding the word const
 to its type, asin (const int []) {5, 4}.
 
-The return Statement
+The `return` statement
 
-A non-void function must use the return statement to specify what value it will
-return. The return statement has the form
+A non-void function must use the `return` statement to specify what value it will
+return. The `return` statement has the form
 
 return expression ;
 The expression is often just a constant or variable:
@@ -6077,9 +4513,9 @@ returnn >= 0 ? n : 0;
 ‘When this statement is executed, the expressionn >= 0 ? n : 0 is evaluated first.
 The statement returns the value of n if it’s not negative; otherwise, it returns 0.
 
-If the type of the expression in a return statement doesn’t match the func-
+If the type of the expression in a `return` statement doesn’t match the func-
 tion’s return type, the expression will be implicitly converted to the return type. For
-example, if a function is declared to return an int, but the return statement
+example, if a function is declared to return an int, but the `return` statement
 contains a double expression, the value of the expression is converted to int.
 
 return statlements may appear in functions whose return type is void, pro-
@@ -6087,8 +4523,8 @@ vided that no expression is given:
 
 return; /* return in a void function */
 
-Putting an expression in such a return statement will get you a compile-time
-error. In the following example, the return statement causes the function to
+Putting an expression in such a `return` statement will get you a compile-time
+error. In the following example, the `return` statement causes the function to
 return immediately when given a negative argument:
 
 void print_int(int i)
@@ -6097,8 +4533,8 @@ void print_int(int i)
 return;
 printf("sd", 1);
 
-If 1 is less than 0, print._int will return without calling print£.
-A return statement may appear at the end of a void function:
+If 1 is less than 0, print._int will return without calling printf.
+A `return` statement may appear at the end of a void function:
 
 void print_pun(void)
 
@@ -6109,7 +4545,7 @@ Using return is unnecessary, though, since the function will return automaticall
 after its last statement has been executed.
 
 If a non-void function reaches the end of its body—that is, it fails to execute
-a return statement—the behavior of the program is undefined if it attempts to
+a `return` statement—the behavior of the program is undefined if it attempts to
 use the value returned by the function. Some compilers will issue a warning such
 as “control reaches end of non-void function” if they detect the possibility of a
 non-void function “falling off” the end of its body.
@@ -6159,7 +4595,7 @@ ning the program later may decide to test it.
 
 The exit Function
 
-Executing a return statement in main is one way to terminate a program.
+Executing a `return` statement in main is one way to terminate a program.
 Another is calling the exit function, which belongs to <stdlib.h>, The argu-
 ment passed to exit has the same meaning as main’s return value: both indicate
 the program’s status at termination. To indicate normal termination, we'd pass 0:
@@ -6191,7 +4627,7 @@ inmain is equivalent to
 exit (expression) ;
 
 The difference between return and exit is that exit causes program termina-
-tion regardless of which function calls it. The return statement causes program
+tion regardless of which function calls it. The `return` statement causes program
 termination only when it appears in the main function. Some programmers use
 exit exclusively to make it easier to locate all exit points in a program.
 
@@ -6249,7 +4685,7 @@ power (5, 2) toreturn 5 x 5 = 25, causing
 power (5, 3) toretrn 5 x 25 = 125.
 
 Incidentally, we can condense the power function a bit by putting a conditional
-expression in the return statement:
+expression in the `return` statement:
 
 int power (int x, int n)
 
@@ -6450,7 +4886,7 @@ Although this version of Quicksort works, it’s not the best. There are numer-
 Instead of choosing the first element in the array as the partitioning element,
 it's better to take the median of the first element, the middle element, and the
 last element. The partitioning process itself can also be sped up. In particular,
-it’s possible to avoid the low < high tests in the two while loops.
+it’s possible to avoid the low < high tests in the two `while` loops.
 
 » Using a different method to sort small arrays. Instead of using Quicksort
 recursively all the way down to arrays with one element, it’s better to use a
@@ -6683,10 +5119,10 @@ the array, which is determined by the number of columns. The bottom line: the pr
 grammer must declare the number of columns in a.
 
 Why do some programmers put parentheses around the expression in a
-return statement?
+`return` statement?
 
 The examples in the first edition of Kernighan and Ritchie’s The C Programming
-Language always have parentheses in return statements, even though they
+Language always have parentheses in `return` statements, even though they
 aren’t required. Programmers (and authors of subsequent books) picked up the
 habit from K&R. I don't usc these parentheses, since they’re unnecessary and
 @ - -
@@ -6700,7 +5136,7 @@ parentheses.)
 What happens if a non-void function attempts to execute a return state-
 ment that has no expression? [p. 202]
 
-That depends on the version of C. In C89, executing a return statement without
+That depends on the version of C. In C89, executing a `return` statement without
 an expression in a non-void function causes undefined behavior (but only if the
 program attempts to use the value returned by the function). In C99, such a state-
 ment is illegal and should be detected as an error by the compiler.
@@ -6725,12 +5161,12 @@ Why does my compiler produce a “control reaches end of non-void function”
 warning when it compiles main?
 
 The compiler has noticed that ma in, despite having int as its return type, doesn’t
-have a return statement. Putting the statement
+have a `return` statement. Putting the statement
 
 return 0;
 
 at the end of main will keep the compiler happy. Incidentally, this is good practice
-even if your compiler doesn’t object to the lack of a return statement.
+even if your compiler doesn’t object to the lack of a `return` statement.
 
 ‘When a program is compiled using a C99 compiler, this warning shouldn’t
 oceur. In €99, it’s OK to “fall off” the end of main without returning a value: the
@@ -7008,7 +5444,7 @@ printf("\n");
 
 Instead of printing 10 rows, print all rows prints only one row. When
 print one row returns after being called the first time, i will have the value
-11. The for statement in print_all rows then increments i and tests
+11. The `for` statement in print_all rows then increments i and tests
 whether it's less than or equal to 10. It’s not, so the loop terminates and the func-
 tion returns.
 
@@ -7880,7 +6316,7 @@ else printf ("High card");
 printf ("\n\n") ;
 
 Notice the use of the exit functionin read cards (incase ' 0 of the first
-switch statement). exit is convenient for this program because of its ability to
+`switch` statement). exit is convenient for this program because of its ability to
 terminate execution from anywhere in the program.
 Section 10.4
 
@@ -8291,7 +6727,7 @@ printf("$d\n", *p); /+ prints 2 */
 
 Never apply the indirection operator to an uninitialized pointer variable. If a
 pointer variable p hasn’t been initialized, altempting to use the value of p in any
-way causes undefined behavior. In the following example, the call of print £ may
+way causes undefined behavior. In the following example, the call of printf may
 print garbage, cause the program to crash, or have some other effect:
 
 int *p;
@@ -9075,7 +7511,7 @@ At the end of the third iteration
 
 sum| 12 I
 
-The condition p < &a[N] in the for statement deserves special mention.
+The condition p < &a[N] in the `for` statement deserves special mention.
 Strange as it may seem, it’s legal to apply the address operator to a [N], even
 though this element doesn’t exist (a is indexed from 0 to N — 1). Using a [N] in
 this fashion is perfectly safe, since the loop doesn’t attempt to examine its value.
@@ -9085,7 +7521,7 @@ The body of the loop will be executed with p equal to &a[0], &a[1], ...,
 We could just as easily have written the loop without pointers, of course, using
 subscripting instead. The argument most often cited in support of pointer arithmetic
 is that it can save execution time. However, that depends on the implementation—
-some C compilers actually produce better code for loops that rely on subscripting.
+some C compilers actually produce better code `for` loops that rely on subscripting.
 262
 
 Chapter 12 Pointers and Arrays
@@ -9408,7 +7844,7 @@ As an example, let’s look at the problem of initializing all elements of a two
 dimensional array to zero. Suppose that the array has been declared as follows:
 
 int a[NUM_ROWS] [NUM_COLS] ;
-The obvious technique would be to use nested for loops:
+The obvious technique would be to use nested `for` loops:
 
 int row, col;
 for (row = 0; row < NUM ROWS; row++)
@@ -9824,7 +8260,7 @@ largest elements, storing them in the variables pointed to by largest and
 second_largest, respectively. Use pointer arithmetic—not subscripting—to visit array
 elements.
 
-Section 8.2 had a program fragment in which two nested £or loops initialized the array
+Section 8.2 had a program fragment in which two nested `for` loops initialized the array
 ident for use as an identity matrix. Rewrite this code, using a single pointer to step
 through the array one element at a time, Hini: Since we won't be using row and col index
 variables, it won’t be easy 10 tell where to store 1. Instead, we can use the fact that the first
@@ -9955,7 +8391,7 @@ A string literal is a sequence of characters enclosed within double quotes:
 "ihen you come to a fork in the road, take it."
 
 We first encountered string literals in Chapter 2: they often appear as format
-strings in calls of print £ and scanf.
+strings in calls of printf and scanf.
 
 217
 278
@@ -10025,7 +8461,7 @@ printf ("when you come to a fork in the road, take it. "
 
 How String Literals Are Stored
 
-We've used string literals often in calls of print £ and scant. But when we call
+We've used string literals often in calls of printf and scant. But when we call
 printf and supply a string literal as an argument, what are we actually passing?
 To answer this question, we need to know how string literals are stored.
 
@@ -10297,7 +8733,7 @@ The output will be
 Are we having fun yet?
 
 printf writes the characters in a string one hy one until it encounters a null char-
-acter. (If the null character is missing, print £ continues past the end of the string
+acter. (If the null character is missing, printf continues past the end of the string
 until—eventually—it finds a null character somewhere in memory.)
 
 To print just part of a string, we can use the conversion specification % .ps,
@@ -11009,7 +9445,7 @@ return n;
 
 }
 
-Replacing the for statement with a while statement, we arrive at the following
+Replacing the `for` statement with a `while` statement, we arrive at the following
 version of strlen:
 
 size t strlen(conct char *s)
@@ -11039,7 +9475,7 @@ return s - p;
 This version of st rlen computes the length of the string by locating the position
 of the null character, then subtracting from it the position of the first character in
 the string. The improvement in speed comes from not having to increment n inside
-the while loop. Note the appearance of the word const in the declaration of p,
+the `while` loop. Note the appearance of the word const in the declaration of p,
 by the way; without it, the compiler would notice that assigning s to p places the
 string that s points to at risk.
 
@@ -11086,7 +9522,7 @@ This version of strcat uses a two-step algorithm: (1) Locate the null character 
 the end of the string s1 and make p point to it. (2) Copy characters one by one
 from s2 to where p is pointing
 
-The first while statement in the function implements step (1). p is set to
+The first `while` statement in the function implements step (1). p is set to
 point to the first character in the s1 string. Assuming that s1 points to the string
 "abc", we have the following picture:
 13.6 String Idioms 299
@@ -11094,7 +9530,7 @@ point to the first character in the s1 string. Assuming that s1 points to the st
 p is then incremented as long as it doesn’t point to a null character. When the loop
 terminates, p must be pointing to the null character:
 
-The second while statement implements step (2). The loop body copies one
+The second `while` statement implements step (2). The loop body copies one
 character from where s2 points to where p points, then increments both p and s2.
 If s2 originally points to the string "def", here’s what the strings will look like
 
@@ -11148,7 +9584,7 @@ Repeatedly executing this expression has the effect of copying a series of chara
 ters from where s2 points (o where p points.
 
 But what causes the loop to terminate? Since the primary operator inside the
-parentheses is assignment, the while statement tests the valuc of the assign-
+parentheses is assignment, the `while` statement tests the valuc of the assign-
 ment—the character that was copied. All characters except the null character test
 true, so the loop won’t terminate until the null character has been copied. And
 since the loop terminates affer the assignment, we don’t need a separate statement
@@ -11495,7 +9931,7 @@ positive if s points to a “larger” string, There’s no guarantee that strcm
 ally written this way, though, so it’s best not to assume that the magnitude of its
 return value has any particular meaning.
 
-My compiler issues a warning when I try to compile the while statement in
+My compiler issues a warning when I try to compile the `while` statement in
 the strcat function:
 
 while (¥p+t = *82++)
@@ -11510,7 +9946,7 @@ getrid of the warning, rewrite the whi le loop as follows:
 
 while ((*p++ = *s244) 1= 0)
 
-Since the while statement normally tests whether *p++ = *s2++ is not 0, we
+Since the `while` statement normally tests whether *p++ = *s2++ is not 0, we
 haven’t changed the meaning of the statement. The warning goes away, however,
 because the statement now tests a condition, not an assignment. With the GCC
 compiler, putting a pair of parentheses around the assignment is another way to
@@ -11747,7 +10183,7 @@ return pl - s;
 (¢) In general, what value does £ return when passed two strings s and 7
 
 Use the techniques of Section 13.6 to condense the count:_spaces function of Section
-13.4. In particular, replace the for statement by a while loop.
+13.4. In particular, replace the `for` statement by a `while` loop.
 Write the following function:
 
 bool test extension(const char *file_name,
@@ -11804,7 +10240,7 @@ strlen to determine when the user has entered a four-letter word.
 Improve the remind . ¢ program of Section 13.5 in the following ways:
 
 (1) Have the program print an error message and ignore a reminder if the corresponding
-day is negative or larger than 31. Hinr: Use the continue statement.
+day is negative or larger than 31. Hinr: Use the `continue` statement.
 
 (b) Allow the user to enter a day, a 24-hour time, and a reminder. The printed reminder list
 should be sorted first by day. then by time. (The original program allows the user to
@@ -11862,7 +10298,7 @@ Improve the planet . ¢ program of Section 13.7 by having it ignore case when co
 command-line arguments with strings in the planets array.
 
 Modify Programming Project 11 from Chapter 5 5o that it uses arrays containing pointers to
-strings instead of switch statements. For example, instead of using a switch statement
+strings instead of `switch` statements. For example, instead of using a `switch` statement
 to print the word for the first digit. use the digit as an index into an array that contains the
 strings "twenty", "thirty", and so forth.
 
@@ -12465,7 +10901,7 @@ als, so this statement is equivalent to
 
 printf('i/j = %d\n", i/3);
 
-When the program is executed, print£ will display both the expression i/j and
+When the program is executed, printf will display both the expression i/j and
 its value, If 1 is 11 and 7 is 2, for example, the output will be
 
 i/l =5
@@ -12678,7 +11114,7 @@ enclosed the ealls of gets and puts in braces to form a compound statement:
 #define ECHO(s) { gets(s); puts(s); }
 
 Unfortunately, this method doesn’t work as well. Suppose that we use ECHO in an
-if statement:
+`if` statement:
 
 if (echo flag)
 ECHO (str) ;
@@ -12713,11 +11149,11 @@ Predefined Macros
 
 14.3 Macro Definitions 329
 
-but not statements. The solution is to wrap the statements in a do loop whose con-
+but not statements. The solution is to wrap the statements in a `do` loop whose con-
 dition is false (and which therefore will be executed just once):
 do { .. } while (0)
 
-Notice that the do statement isn’t complete—it needs a semicolon at the end. To
+Notice that the `do` statement isn’t complete—it needs a semicolon at the end. To
 see this trick (ahem, technique) in action, let’s incorporate it into our ECHO macro:
 
 #define ECHO(s) \
@@ -13007,11 +11443,11 @@ Chapter 14  The Preprocessor
 
 #endif directive
 
-The #1if and #endi £ Directives
+The #1if and #endif Directives
 
 Suppose we're in the process of debugging a program. We'd like the program to
-print the values of certain variables, so we put calls of print £ in critical parts of
-the program. Once we’ve located the bugs, it’s often a good idea to let the print£
+print the values of certain variables, so we put calls of printf in critical parts of
+the program. Once we’ve located the bugs, it’s often a good idea to let the printf
 calls remain, just in case we need them later. Conditional compilation allows us to
 leave the calls in place, but have the compiler ignore them.
 
@@ -13035,9 +11471,9 @@ During preprocessing, the #if directive will test the value of DEBUG. Since ils
 value isn’t zero. the preprocessor will leave the two calls of printf in the pro-
 gram (the #1f and #endif lines will disappear, though). If we change the value
 of DEBUG to zero and recompile the program, the preprocessor will remove all
-four lines from the program. The compiler won’t see the calls of print £, so they
+four lines from the program. The compiler won’t see the calls of printf, so they
 won’t occupy any space in the object code and won’t cost any time when the pro-
-gram is run. We can leave the #1 f-fendi £ blocks in the final program, allowing
+gram is run. We can leave the #1 f-fendif blocks in the final program, allowing
 diagnostic information to be produced later (by recompiling with DEBUG set to 1)
 if any problems turn up.
 In general, the #1 £ directive has the form
@@ -13050,8 +11486,8 @@ The #endif directive is even simpler:
 When the preprocessor encounters the #if directive, it evaluates the constant
 expression. If the value of the expression is zero, the lines between #if and
 #endif will be removed from the program during preprocessing. Otherwise, the
-lines between i1 and fendi £ will remain in the program to be processed by the
-compiler—the #1f and #endi £ will have had no effect on the program.
+lines between i1 and fendif will remain in the program to be processed by the
+compiler—the #1f and #endif will have had no effect on the program.
 
 It’s worth noting that the #1f directive treats undefined identifiers as macros
 that have the value 0. Thus, if we neglect to define DEBUG, the test
@@ -13622,7 +12058,7 @@ lines? [p. 338]
 
 No, the lines aren’t completely ignored. Comments are processed before prepro-
 cessing directives are executed, and the source code is divided into preprocessing
-tokens. Thus, an unterminated comment between i £ and #fendif may cause an
+tokens. Thus, an unterminated comment between if and #fendif may cause an
 crror message. Also, an unpaired single quote or double quote character may cause
 undefined behavior.
 
@@ -13665,7 +12101,7 @@ i=0;
 putchar (TOUPBER (s [++i]) ) ;
 346 Chapter 14  The Preprocessor
 
-E£print£ funclion >22.3
+E£printf funclion >22.3
 
 ® 7
 
@@ -13735,13 +12171,13 @@ Write the following parameterized macros.
 Functions can often—but not always—be written as parameterized macros. Discuss what
 characteristics of a function would make it unsuitable as a macro.
 
-(C99) C programmers often use the fprint £ function to write crror messages:
+(C99) C programmers often use the fprintf function to write crror messages:
 
 fprintf (stderr, "Range error: index = %¥d\n", index);
 
 stdexr is C's “standard error” stream; the remaining arguments are the same as those for
 printf, starting with the format string. Write a macro named ERROR that generates the
-call of £print £ shown above when given a format string and the items to be displayed:
+call of £printf shown above when given a format string and the items to be displayed:
 
 ERROR ("Range error: index - %d\n", index);
 
@@ -15678,7 +14114,7 @@ return 0; /* error detected at this line */
 The programmer failed to specify the return type of the function £ (a bit of sloppy
 programming). Since the preceding structure declaration wasn't terminated prop-
 erly, the compiler assumes that £ returns a value of type struct part. The error
-won't be detected until the compiler reaches the first return statement in the
+won't be detected until the compiler reaches the first `return` statement in the
 function. The result: a cryptic error message.
 
 Once we've created the part tag, we can use it to declare variables:
@@ -16424,7 +14860,7 @@ return i;
 The expression
 isspace (ch = getchar())
 
-controls the first while statement. This expression calls getchar to read achar-
+controls the first `while` statement. This expression calls getchar to read achar-
 acter, stores the character into ch, and then uses the isspace function to test
 whether ch is a white-space character. If not. the loop terminates with ch contain-
 ing a character that’s not white space. Section 15.3 explains why ch has type int
@@ -18284,7 +16720,7 @@ struct node *first = NULL;
 int n;
 
 printf ("Enter a series of integers (0 tc terminate): ");
-£or i)
+for i)
 scanf ("%d", &n);
 if (n == 0)
 return first;
@@ -18299,9 +16735,9 @@ the node containing the last number entered.
 Searching a Linked List
 
 Once we've created a linked list, we may need to search it for a particular piece of
-data. Although a while loop can be used to search a list, the for statement is
-often superior, We're accustomed to using the £or statement when writing loops
-that involve counting, but its flexibility makes the £or statement suitable for other
+data. Although a `while` loop can be used to search a list, the `for` statement is
+often superior, We're accustomed to using the `for` statement when writing loops
+that involve counting, but its flexibility makes the `for` statement suitable for other
 tasks as well, including operations on linked lists. Here's the customary way to
 visit the nodes in a linked list, using a pointer variable p to keep track of the “cur-
 rent” node:
@@ -18366,7 +16802,7 @@ return list;
 
 Since 1ist is NULL if we reach the end of the list, returning 11 st is correct even
 if we don’t find n. This version of search list might be a bit clearer if we
-used a while statement:
+used a `while` statement:
 
 struct node *search list(struct node *list, int n)
 
@@ -18400,7 +16836,7 @@ for (cur = list, prev = NULL;
 cur NULL && cur-s>value != n;
 prev cur, cur = cur-s>next)
 
-Here we see the power of C’s £or statement. This rather exotic example, with its
+Here we see the power of C’s `for` statement. This rather exotic example, with its
 empty body and liberal use of the comma operator, performs all the actions needed
 to search for n. When the loop terminates, cur points to the node to be deleted,
 while prev points to the previous node (if there is one).
@@ -19103,7 +17539,7 @@ file_cmd array and call the corresponding function:
 
 (*file_cmd([n]) () ; /* or f£ile cmdln] (); */
 
-Of course, we could get a similar effect with a switch statement. Using an array
+Of course, we could get a similar effect with a `switch` statement. Using an array
 of function pointers gives us more flexibility, however, since the elements of the
 array can be changed as the program is running.
 
@@ -19616,7 +18052,7 @@ return *(int *)p - *(int *)q;
 Bizarre, eh? The expression (int *)p casts p to type int *, so * (int *)p
 would be the integer that p points to. A word of warning, though: Subtracting two
 integers may cause overflow. If the integers being sorted are completely arbitrary,
-it’s safer to use if statements to compare * (int *) p with * (int *) q.
+it’s safer to use `if` statements to compare * (int *) p with * (int *) q.
 
 I needed to sort an array of strings, so I figured I'd just use strcmp as the
 comparison function. When I passed it to gsort, however, the compiler gave
@@ -20251,7 +18687,7 @@ take the address of a register variable. This restriction applies even if the co
 piler has elected to store the variable in memory.
 
 register is best used for variables that are accessed and/or updated fre-
-quently. For example, the loop control variable in a for statement is a good candi-
+quently. For example, the loop control variable in a `for` statement is a good candi-
 date for register treatment:
 
 int sum_array(int a[], int n)
@@ -20464,7 +18900,7 @@ address. A macro doesn't have an address.
 There are no absolute rules that dictate when to use #define and when to
 use const. I recommend using #def ine for constants that represent numbers or
 characters. That way, you'll be able to use the constants as array dimensions, in
-switch statements, and in other places where constant expressions are required.
+`switch` statements, and in other places where constant expressions are required.
 
 Declarators
 
@@ -20959,7 +19395,7 @@ after the function returns.
 Now let’s return to the question we started with: Why are selection statements
 and iteration statements considered to be blocks? Consider the following example:
 
-/* Example 1 - if statement without braces */
+/* Example 1 - `if` statement without braces */
 
 double *coefficients, value;
 
@@ -20974,9 +19410,9 @@ This program fragment apparently behaves in the desired fashion (but read on).
 coefficients will point to one of two objects created by compound literals,
 and this object will still exist at the time evaluate_polynomial is called.
 Now consider what happens if we put braces around the “inner” statements—the
-ones controlled hy the if statement:
+ones controlled hy the `if` statement:
 
-/* Example 2 - if statement with braces */
+/* Example 2 - `if` statement with braces */
 
 double *coefficients, value;
 
@@ -20998,7 +19434,7 @@ undefined behavior.
 Q&A 477
 
 The creators of C99 were unhappy with this state of affairs, because program-
-mers were unlikely to expect that simply adding braces within an if statement
+mers were unlikely to expect that simply adding braces within an `if` statement
 would cause undefined behavior. To avoid the problem, they decided that the inner
 statements would always be considered blocks. As a result, Example 1 and Exam-
 ple 2 are equivalent, with both exhibiting undefined behavior.
@@ -21007,8 +19443,8 @@ A similar problem can arise when a compound literal is part of the controlling
 expression of a selection statement or iteration statement. For this reason, each
 entire selection Statement and iteration statement is considered to be a block as
 well (as though an invisible set of braces surrounds the entire statement). So, for
-example, an if statement with an else clause consists of three blocks: each of
-the two inner statements is a block, as is the entire i £ statement.
+example, an `if` statement with an else clause consists of three blocks: each of
+the two inner statements is a block, as is the entire `if` statement.
 
 You said that storage for a variable with automatic storage duration is allo-
 cated when the surrounding block is executed. Is this true for C99’s variable-
@@ -21079,7 +19515,7 @@ const int m = n / 2;
 When £ is called, m will be initialized to the value of n / 2. The value of m will
 then remain constant until £ returns. When £ is called the next time, m will likely
 be given a different value. That’s where the problem arises. Suppose that m appears
-in a switch statement:
+in a `switch` statement:
 
 void £ (int n)
 const int m = n / 2;
@@ -21221,7 +19657,7 @@ printf ("Error %d: %s\n', n+-, message);
 Suppose that we declare x to be a const object. Which onc of the following statements
 about x is false?
 
-(a) If x is of type int. it can be uscd as the value of a casc label in a switch statement.
+(a) If x is of type int. it can be uscd as the value of a casc label in a `switch` statement.
 (b) The compiler will check that no assignment is made to x.
 
 (c) x is subject to the same scope rules as variables.
@@ -22437,7 +20873,7 @@ NULL to indicate that the stack is empty.
 A final comment about error handling: The C standard library contains a
 parameterized macro named assert that can terminate a program if a specified
 condition isn’t satisfied. We could use calls of this macro as replacements for the
-if statements and calls of terminate that currently appear in the stack ADT.
+`if` statements and calls of terminate that currently appear in the stack ADT.
 19.5 Design Issues for Abstract Data Types ~ 503
 
 Generic ADTs
@@ -22918,7 +21354,7 @@ position is stored in a variable:
 
 i&= ~(1 <2< j); /* clears bit j */
 
-u Testing a bit. The following if statement tests whether bit 4 of 1 is set:
+u Testing a bit. The following `if` statement tests whether bit 4 of 1 is set:
 if (1 & 0x0010) . /> tests bit 4 */
 To test whether bit j is set, we'd use the following statement:
 if (L & 1 << 3) w /* tests bit § */
@@ -22944,7 +21380,7 @@ i |= BLUE | GREEN; /* sets BLUE and GREEN bits */
 i &= ~(BLUE | GREEN); /* clears BLUE and GREEN bits */
 if (1 & (BLUE | GREEN)) .. /* tests BLUE and GREEN bits +/
 
-The if statement tests whether either the BLUE bit or the GREEN bit is set.
+The `if` statement tests whether either the BLUE bit or the GREEN bit is set.
 
 Using the Bitwise Operators to Access Bit-Fields
 
@@ -23431,9 +21867,9 @@ ptr += 10;
 
 The program is complicated somewhat by the possibility that the value of n
 isn't a multiple of 10, so there may be fewer than 10 bytes in the last group. Two of
-the for statements are controlled by the condition i < 10 && i < n. This condi-
+the `for` statements are controlled by the condition i < 10 && i < n. This condi-
 tion causes the loops to execute 10 times or n times, whichever is smaller. There’s
-also a for statement that compensates for any missing bytes in the last group by
+also a `for` statement that compensates for any missing bytes in the last group by
 displaying three spaces for each missing byte. That way, the characters that follow
 the last group of bytes will align properly with the character groups on previous
 lines.
@@ -24359,7 +22795,7 @@ the printf, scanf, putchar, getchar, puts, and gets functions. This
 chapter provides more information about these six functions, as well as introduc-
 ing a host of new functions, most of which deal with files. Fortunately, many of the
 new functions are closely related to functions with which we're already
-acquainted. £print£, for instance, is the “file version™ of the print£ function.
+acquainted. £printf, for instance, is the “file version™ of the printf function.
 
 We'll start the chapter with a discussion of some basic issues: the stream con-
 cept, the FTLE type, input and output redirection, and the difference between text
@@ -24379,7 +22815,7 @@ time (Section 22.4).
 
 Section 22.7 then shows how to perform random s operations on files.
 Finally, Section 22.8 describes the sprintf, snprintf, and sscanf func-
-tions, variants of print £ and scanf that write to a string or read from a string.
+tions, variants of printf and scanf that write to a string or read from a string.
 This chapter covers all but cight of the functions in <stdio.h>. One of
 these eight, the perror function, is closely related to the <errno. h> header, so
 
@@ -25048,7 +23484,7 @@ function may fail if asked to rename an open file.
 Formatted I/O
 
 In this section, we’ll examine library functions that use format strings to control
-reading and writing. These functions, which include our old friends print£ and
+reading and writing. These functions, which include our old friends printf and
 scant, have the ability to convert data from character form to numeric form dur-
 ing input and from numeric form to character form during output. None of the
 other 1/0 functions can do such conversions.
@@ -25270,7 +23706,7 @@ Converts 2 void * value to printable form.
 
 n ‘The corresponding argument must point to an object of type int. Stores
 in this object the number of characters written so far by this call of
-...print £; produces no output.
+...printf; produces no output.
 
 ¥ Writes the character %.
 99 only
@@ -25326,7 +23762,7 @@ u Previously undefined conversion specifications now allowed. In C89, the
 effect of using %1e, %1E, $1f, $1g, and $1G is undefined. These conversion
 specifications are legal in €99 (the 1 length madifier is simply ignored)
 
-Examples of ..print£ Conversion Specifications
+Examples of ..printf Conversion Specifications
 
 Whew! It’s about time for a few examples. We've seen plenty of everyday conver-
 sion specifications in previous chapters, so we’ll concentrate here on illustrating
@@ -25438,7 +23874,7 @@ Input/Output
 In the past, we've assumed that the minimum field width and precision were
 constants embedded in the format string. Putting the * character where either num-
 ber would normally go allows us to specify it as an argument after the format
-string, For example, the following calls of print £ all produce the same output:
+string, For example, the following calls of printf all produce the same output:
 
 printf ("%6.4d", i);
 printf("s*. 4ar, 6, i);
@@ -25464,11 +23900,11 @@ looks like when printed using %p, but it's likely to be shown as an octal or hex
 decimal number.
 
 The %n conversion is used to find out how many characters have been printed
-5o far by a call of ..print £. For example, after the call
+5o far by a call of ..printf. For example, after the call
 
 printf ("$d%n\n", 123, &len);
 
-the value of 1en will be 3, since print£ had written 3 characters (123) by the
+the value of 1en will be 3, since printf had written 3 characters (123) by the
 time it reached %n. Notice that & must precede len (because %n requires a
 pointer) and that 1en itself isn't printed.
 
@@ -25651,7 +24087,7 @@ to a character array.
 null character at the end. The corresponding argument is assumed to be a
 pointer to a character array.
 
-P Matches a pointer value in the form that ...print £ would have written
+P Matches a pointer value in the form that ...printf would have written
 it. The corresponding argument is assumed to be a pointer to a void *
 object.
 
@@ -25718,11 +24154,11 @@ The conversion specifications for scanf and fscanf have undergone some
 changes in C99, but the list isn’t as extensive as it was for the ..orintf functions:
 
 w Additional length modifiers. C99 adds the hh, 11,7, z, and t length modifi-
-ers. These correspond to the length modifiers in..print £ conversion specifi-
+ers. These correspond to the length modifiers in..printf conversion specifi-
 cations.
 
 = Additional conversion specifiers. C99 adds the 7. a, and A conversion specifi-
-ers. They're provided for symmetry with ..print£; the ..scanf functions
+ers. They're provided for symmetry with ..printf; the ..scanf functions
 treat them the same as e, E, £, g, and G.
 
 = Ability to read infinity and NaN. Just as the ..printf functions can write
@@ -25905,7 +24341,7 @@ return n;
 
 }
 
-The while loop’s controlling expression calls fscanf in an attempt to read an
+The `while` loop’s controlling expression calls fscanf in an attempt to read an
 integer from the file. If the attempt fails (Escanf returns a value other than 1),
 566
 
@@ -26014,7 +24450,7 @@ entiate between the two situations, we can call either £eof or ferror.
 
 One of the most common uses of £getc, gete, and getchar is to read
 characters from a file, one by one, until end-of-file occurs. It's customary to use the
-following while loop for that purpose:
+following `while` loop for that purpose:
 
 while ((ch = getc(fp)) != EOF) {
 
@@ -26475,11 +24911,11 @@ do with streams or files. Instead, they allow us to read and write data using a 
 as though it were a stream. The sprintf and snprintf functions write charac-
 ters into a string in the same way they would be written to a strcam; the sscanf
 function reads characters from a string as though it were reading from a stream.
-These functions, which closely resemble print£ and scanf, are quite useful.
+These functions, which closely resemble printf and scanf, are quite useful.
 sprintf and enprintf give us access to printf’s formatting capabilities
 without actually having to write data to a stream. Similarly, sscanf gives us
 access to scanf’s powerful pattern-matching capabilities. The remainder of this
-section covers sprint £, snprintf, and sscanf in detail.
+section covers sprintf, snprintf, and sscanf in detail.
 
 Three similar functions (veprintf, vsnprintf, and vsscanf) also
 belong to <stdio.h>. However, these functions rely on the va_list type,
@@ -26507,7 +24943,7 @@ Noze: In this and subsequent chapters, the prototype for a function that is new 
 99 will be in italics. Also, the name of the function will be italicized when it
 appears in the left margin,
 
-The sprintf function is similar to print £ and fprint £, except that it writes
+The sprintf function is similar to printf and fprintf, except that it writes
 output into a character array (pointed to by its first argument) instead of a stream.
 sprintf's second argument is a format string identical to that used by printE
 and £printf. For example, the call
@@ -26528,7 +24964,7 @@ sprintf is also convenient for converting numbers to character form.
 The snprintf function is the same as sprintf, except for the additional
 parameter . No more than n — | characters will be written to the string. not count-
 ing the terminating null character, which is always written unless n is zero. (Equiv-
-alently, we could say that snprint £ writes at most n characters to the string, the
+alently, we could say that snprintf writes at most n characters to the string, the
 last of which is a null character.) For example, the call
 
 gnprintf (name, 13, "%s, ¥s", "Einstein", "Albert");
@@ -26537,7 +24973,7 @@ will write "Einstein, Al" into name.
 
 snprintf returns the number of characters that would have been written
 (not including the null character) had there been no length restriction. If an encod-
-ing error occurs, snprintf returns a negative number. To see if snprint£ had
+ing error occurs, snprintf returns a negative number. To see if snprintf had
 room to write all the requested characters, we can test whether its return value was
 nonnegative and less than n.
 
@@ -26694,7 +25130,7 @@ or (b).
 
 Can the format string in a call of ..printf or ..scanf be a variable?
 
-Sure; it can be any expression of type char *, This property makes the ..print £
+Sure; it can be any expression of type char *, This property makes the ..printf
 and ...scanf functions even more versatile than we’ve had reason to suspect. Con-
 sider the following classic example from Kernighan and Ritchie’s The C Program-
 ming Language, which prints a program’s command-line arguments, separated by
@@ -26907,7 +25343,7 @@ Show how each of the following numbers will look if displayed by printf with
 
 (d) 0.0000235218
 
-Is there any difference between the print £ conversion specifications % . 4d and $044? If
+Is there any difference between the printf conversion specifications % . 4d and $044? If
 50, explain what it is.
 Section 22.4
 
@@ -26917,14 +25353,14 @@ Section 22.4
 
 Exercises 583
 
-‘Write a call of print£ that prints
+‘Write a call of printf that prints
 
 1 widget
 
 if the widget variable (of type int) has the value 1, and
 n widgets
 
-otherwise, where z is the value of widget. You are not allowed to use the if statement or
+otherwise, where z is the value of widget. You are not allowed to use the `if` statement or
 any other statement; the answer must be a single call of printf.
 
 Suppose that we call scant as follows:
@@ -29456,7 +27892,7 @@ numchax returns the number of times the character ch occurs in the string s.
 Replace the test condition in the following 1 £ statement by a single call of strchr:
 if (ch == 'a' || ch == 'b! || ch == ‘tc!)
 
-Replace the test condition in the following i £ statement by a single call of straty:
+Replace the test condition in the following `if` statement by a single call of straty:
 
 if (strcmpl(str, "foo") 0 || strcmp(str, "bar") == 0 ||
 strcmp(str, "baz") == 0) ..
@@ -30048,7 +28484,7 @@ void longjmp (jmp buf env, int val);
 
 Chapter 24  Error Handling
 
-goto statement » 6.4
+`goto` statement » 6.4
 
 setjimp
 QaA
@@ -30062,7 +28498,7 @@ PROGRAM
 tsetimp.c
 
 Normally, a function returns to the point at which it was called. We can’t use a
-goto statement to make it go elsewhere, because a goto can jump only to a label
+`goto` statement to make it go elsewhere, because a goto can jump only to a label
 within the same function. The <setjmp.h> header, however, makes it possible
 for one function to jump directly to another function without returning.
 
@@ -30301,7 +28737,7 @@ B!
 ® s
 
 Modify the stackADT2. c file of Section 19.4 so that it uses assert to test for errors
-instead of using 1if statements. (Note that the terminate function is no longer necessary
+instead of using 1`if` statements. (Note that the terminate function is no longer necessary
 and can be removed.)
 
 (a) Write a “wrapper” function named try math fen that calls a math function
@@ -30322,10 +28758,10 @@ Yy = TRY_MATH_FCN(sqrt, x);
 If the call of sqrt fails, the message will be Exror in call of sqrt. Hint: Have
 TRY_MATH FCNecall try math_fen.
 
-In the inventory.c program (see Section 16.3), the main function has a for loop that
+In the inventory.c program (see Section 16.3), the main function has a `for` loop that
 prompts the user to enter an operation code, reads the code, and then calls cither insert.
 search, update, or print. Add a call of setjmp to main in such a way that a subse-
-quent call of Longjmp will return to the £or loop. (After the Longimp, the user will be
+quent call of Longjmp will return to the `for` loop. (After the Longimp, the user will be
 prompted for an operation code, and the program will continue normally.) setjmp will
 need a jmp_buf variable: where should it be declared?
 25
@@ -30517,7 +28953,7 @@ found at www.unicode.org/cldr/.
 
 When a call of setlocale succeeds, it returns a pointer to a string associ-
 ated with the category in the new locale. (The string might be the locale name
-itsclf, for example.) On failure, set locale returns a null pointer.
+itself, for example.) On failure, set locale returns a null pointer.
 
 setlocale can also be used as a query function. If its second argument is a
 null pointer, setlocale returns a pointer to a string associated with the category
@@ -31499,7 +29935,7 @@ vEuprintf viprintf
 vEwscant vEscanf
 vewprintf venprintf, vsprintf
 vswscang vsscanf
-vwprint£ vprintf
+vwprintf vprintf
 vwscanf vecanf
 wprintf printf
 wscanf scanf
@@ -31542,7 +29978,7 @@ similar to sprintf and snprintf but not identical to either one. Like
 snprintf, it uses the parameter n to limit the number of (wide) characters that it
 will write. However, sworint¢ returns the number of wide characters actually
 written, not including the null character. In this respect, it resembles sprintf
-rather than snprint £, which returns the number of characters that would have
+rather than snprintf, which returns the number of characters that would have
 been written (not including the null character) had there been no length restriction.
 vswprintf
 
@@ -31556,11 +29992,11 @@ Equivalents
 
 swprintf returns a negative value if the number of wide characters to be written
 is n or more, which differs from the behavior of both sprintf and snprintf.
-vswprintf is equivalent to swprint£, with arg replacing the variable
+vswprintf is equivalent to swprintf, with arg replacing the variable
 argument list of swprintf. Like swprintf, which is similar—but not identi-
-cal—to sprintf and snprintf, the vswprint£ function is a combination of
-vsprintf and vsnprint £ If an attempt is made to write n or more wide char-
-acters, vewprint £ returns a negative integer, in a manner similar to swprintf.
+cal—to sprintf and snprintf, the vswprintf function is a combination of
+vsprintf and vsnprintf If an attempt is made to write n or more wide char-
+acters, vewprintf returns a negative integer, in a manner similar to swprintf.
 
 Wide-Character Input/Output Functions
 
@@ -32660,7 +31096,7 @@ tell that we want it to represent the null pointer. The solution is to add a cas
 ing (void *) NULL or (void *) 0 instead of NULL. (See the Q&A section at
 the end of Chapter 17 for more discussion of this point.)
 
-The v..print £ Functions
+The v..printf Functions
 
 int vfprintf (FILE * restrict stream,
 const char * restrict format,
@@ -32689,7 +31125,7 @@ The v..printf functions are closely related to fprintf, printt, and
 sprintf. Unlike these functions, however, the v..printf functions have a
 fixed number of arguments. Each function’s last argument is a va_11ist value,
 which implies that it will be called by a function with a variable argument list. In
-practice, the v..print £ functions are used primarily for writing “wrapper” func-
+practice, the v..printf functions are used primarily for writing “wrapper” func-
 tions that accept a variable number of arguments, which are then passed to a
 v..printf function.
 
@@ -32735,12 +31171,12 @@ tprintE(stders; 1 \nh)
 return n;
 
 The wrapper function—errort, in our example—is responsible for calling
-va_start prior to calling the v..print £ function and for calling va_end after
+va_start prior to calling the v..printf function and for calling va_end after
 the v..printf function returns. The wrapper function is allowed to call va_arg
-one or more times before calling the v..print £ function.
+one or more times before calling the v..printf function.
 
 The venprintf function was added to the C99 version of <stdio.h>. It
-corresponds to snprint£ (discussed in Section 22.8), which is also a C99 func-
+corresponds to snprintf (discussed in Section 22.8), which is also a C99 func-
 tion.
 
 The v..scan£f Functions
@@ -33165,7 +31601,7 @@ atexit (cleanup) ;
 
 When we pass a function pointer to atexit, it stores the pointer away for future
 reference. If the program later terminates normally (via a call of exit or a
-return statement in the main function). any function registered with atexit
+`return` statement in the main function). any function registered with atexit
 will be called automatically. (If two or more functions have been registered, they're
 called in the reverse of the order in which they were registered.)
 
@@ -33327,7 +31763,7 @@ if (ptr != NULL)
 printf("%s is %d miles from New York City.\n",
 city name, ptr->miles);
 else
-print£("3s wasn't found.\n", city name);
+printf("3s wasn't found.\n", city name);
 
 return 0;
 
@@ -33626,7 +32062,7 @@ ctime
 
 strftime
 
-Eprint £ unction »22.8
+Eprintf unction »22.8
 
 Tocales 25,1
 
@@ -33879,7 +32315,7 @@ tions complete the job.
 
 The following program illustrates the options. It displays the current date and
 time in three formats: the one used by ct ime, one close to what we want (created
-using strfrime), and the desired format (created using print£). The ctime
+using strfrime), and the desired format (created using printf). The ctime
 version is easy to do, the strftime version is a little harder. and the printf
 version is the most difficult
 700
@@ -33941,7 +32377,7 @@ Q&A
 Although <gtdlib.h> provides a number of functions that convert strings
 to numbers, there don’t appear to be any functions that convert numbers to
 strings. What gives?
-sprint£ function >228
+sprintf function >228
 
 Qs
 
@@ -33962,14 +32398,14 @@ Q&A 701
 Some C libraries supply functions with names like itoa that convert numbers to
 strings. Using these functions isn’t a great idea, though: they aren’t part of the C
 standard and won't be portable. The best way to perform this kind of conversion is
-to call a function such as sprint £ that writes formatted output into a string:
+to call a function such as sprintf that writes formatted output into a string:
 
 char str(20];
 i Ealc )
 
 sprintf (stx, "%d", i); /* writes i into the string str */
 
-Not only is sprint£ portable, but it also provides a great deal of control over the
+Not only is sprintf portable, but it also provides a great deal of control over the
 appearance of the number.
 
 The description of the strtod function says that C99 allows the string argu-
@@ -34090,7 +32526,7 @@ Exercises 703
 “normal” parameter, so you can’t remove the parameter n. Instead, assume that it represents
 one of the numbers to be compared.
 
-‘Write a simplified version of print £ in which the only conversion specification is %4, and
+‘Write a simplified version of printf in which the only conversion specification is %4, and
 all arguments after the first are assumed to have int type. If the function encounters a %
 character that’s not immediately followed by a d character, it should ignore both characters.
 ‘The function should use calls of putchar to produce all output. You may assume that the
@@ -34197,7 +32633,7 @@ Write a program that prompts the user for a date (month, day, and year) and an i
 then prints the date that's n days later.
 
 Write a program that prompts the user to enter two dates, then prints the difference between
-them, measured in days. Hint: Use the mktime and di ££time functions.
+them, measured in days. Hint: Use the mktime and dif£time functions.
 
 Write programs that display the current date and time in each of the following formats. Use
 strftime to do all or most of the formarting.
@@ -35249,7 +33685,7 @@ root2 = -0.2 + -0.4i
 
 The guadratic.c program shows how to display a complex number by
 extracting the real and imaginary parts and then writing each as a floating-point
-number. print £ lacks conversion specifiers for complex numbers, so there’s no
+number. printf lacks conversion specifiers for complex numbers, so there’s no
 easier technique. There’s also no shortcut for reading complex numbers; a program
 will need to obtain the real and imaginary parts separately and then combine them
 into a single complex number,
@@ -35982,7 +34418,7 @@ Five keywords are new in C99: inline, restrict, Bool, Cowplex, and
 _Imaginary.
 
 In C89, if a program reaches the end of the main function without executing a
-return statement, the value returned to the operating system is undefined. In C99,
+`return` statement, the value returned to the operating system is undefined. In C99,
 if main is declared to return an int., the program returns 0 to the operating system.
 
 Expressions
@@ -36001,7 +34437,7 @@ _Bool fype
 
 6
 
-for statements
+`for` statements
 
 7
 
@@ -36038,7 +34474,7 @@ Selection Statements
 
 Loops
 
-In (99, the first expression in a for statement can be replaced by a declaration,
+In (99, the first expression in a `for` statement can be replaced by a declaration,
 allowing the statement to declare its own control variable(s).
 
 Basic Types
@@ -36091,7 +34527,7 @@ compound literals
 
 declaration of main
 
-return statement
+`return` statement
 without expression
 
 14
@@ -36136,7 +34572,7 @@ array and structure values.
 return type other than int and/or parameters other than those specified by the
 standard.
 
-In C89, executing a return statement without an expression in a non-void func-
+In C89, executing a `return` statement without an expression in a non-void func-
 tion causes undefined behavior (but only if the program attempts to use the value
 returned by the function). In C99, such a statement is illegal.
 
@@ -36234,7 +34670,7 @@ is new in C99.
 
 Input/Output
 
-The conversion specifications for the ..print £ functions have undergone a num-
+The conversion specifications for the ..printf functions have undergone a num-
 ber of changes in C99, with new length modifiers, new conversion specificrs, the
 ability to write infinity and NaN, and support for wide characters. Also, the $1e,
 %1E, 31f, %1g, and $1G conversions are legal in C99; they caused undefined
@@ -36244,7 +34680,7 @@ In C99. the conversion specifications for the ..scanf functions have new length
 modifiers, new conversion specifiers, the ability to read infinity and NaN, and sup-
 port for wide characters.
 
-C99 adds the snprint £ function to the <gtdic. h> header.
+C99 adds the snprintf function to the <gtdic. h> header.
 
 Library Support for Numbers and Character Data
 
@@ -36408,7 +34844,7 @@ K&R C doesn’t support the unary + operator.
 
 Selection Statements
 
-In K&R C, the controlling expression (and case labels) in a switch statement
+In K&R C, the controlling expression (and case labels) in a `switch` statement
 must have type int after promotion. In C89, the expression and labels may be of
 any integral type, including unsigned int and long int.
 
@@ -38312,7 +36748,7 @@ Returns  Hyperbolic sine of x. A range error occurs if the magnitude of x is too
 snprintf Bounded Formatted Stiing Write (C99) <stdio.h>
 int snprintf (char * restrict s, size t n,
 const char * restrict format, ...);:
-Equivalent to £print £, but stores characters in the array pointed to by s instead
+Equivalent to £printf, but stores characters in the array pointed to by s instead
 of writing them to a stream. No more than n — 1 characters will be written to the
 array. The string pointed to by format specifies how subsequent arguments will
 be displayed. Stores a null character in the array at the end of output.
@@ -38322,7 +36758,7 @@ encoding error oceurs. 228
 sprintf Formatted String Write <stdio.h>
 int sprintf (char * restrict s,
 const char * restrict format, ...);
-Equivalent to £print£, but stores characters in the array pointed to by s instead
+Equivalent to £printf, but stores characters in the array pointed to by s instead
 of writing them to a stream. The string pointed to by format specifies how subse-
 quent arguments will be displayed. Stores a null character in the array at the end of
 output.
@@ -38408,7 +36844,7 @@ const char * restrict format,
 const struct tm * restrict timeptr);
 
 Stores characters in the array pointed to by s under control of the string pointed to
-by £ormat. The format string may contain ordinary characters, which are copied
+by format. The format string may contain ordinary characters, which are copied
 unchanged, and conversion specifiers, which are replaced by values from the struc-
 ture pointed to by timeptr. The maxsize parameter limits the number of char-
 acters (including the null character) that can be stored.
@@ -38839,7 +37275,7 @@ vEprintf Formatted File Write Using Variable Argument List <stdio.h>
 int vfprintf (FILE * restrict stream,
 const char * restrict format,
 va_list arg);
-Equivalent to £print £ with the variable argument list replaced by arg.
+Equivalent to £printf with the variable argument list replaced by arg.
 Returns  Number of characters written. Returns a negative value if an error oceurs. 261
 viscanf Formatted File Read Using Variable Argument List (C99) <stdio.h>
 int vfscanf (FILE * restrict stream,
@@ -38878,7 +37314,7 @@ List (C99)
 int vsnprintf(char * restrict s, size t n,
 const char * restrict format,
 va_list arg);
-Equivalent to snprint £ with the variable argument list replaced by arg.
+Equivalent to snprintf with the variable argument list replaced by arg.
 Returns  Number of characters that would have been stored in the array pointed to by s (not
 including the null character) had there been no length restriction. Returns a nega-
 tive value if an encoding error occurs. 26.1
@@ -38920,7 +37356,7 @@ vwprintf Wide-Character Formatted Write Using Variable Argument ~ <wchar .h>
 List (C99)
 int vwprintf (const wchar t * restrict format,
 va_list arg);
-Wide-character version of vprint£. 255
+Wide-character version of vprintf. 255
 vwscanf Wide-Character Formatted Read Using Variable Argument  <wchar.h>
 List (C99)
 int vwscanf (const wchar t * restrict format,

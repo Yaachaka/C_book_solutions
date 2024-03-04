@@ -4419,6 +4419,1310 @@ href="./cknkCh05/cknkCh05Prj/cknkCh05PrjReadme.html">./cknkCh05/cknkCh05Prj/cknk
 href="./cknkCh05/cknkCh05Prj/">./cknkCh05/cknkCh05Prj/</a></li>
 </ul>
 <hr class="chapterDivider"/>
+<h1 id="loops">6 Loops</h1>
+<!-- START: div -->
+<div class="theQuote">
+<p>A program without a loop and a structured variable isn’t worth
+writing.</p>
+</div>
+<!-- END: div -->
+<p>Chapter 5 covered C’s selection statements, <code>if</code> and
+<code>switch</code>. This chapter introduces C’s iteration statements,
+which allow us to set up loops.</p>
+<p>A <strong><em>loop</em></strong> is a statement whose job is to
+repeatedly execute some other statement (the <strong><em>loop
+body</em></strong>). In C, every loop has a <strong><em>controlling
+expression</em></strong>. Each time the loop body is executed (an
+iteration of the loop), the controlling expression is evaluated; if the
+expression is true—has a value that’s not zero—the loop continues to
+execute.</p>
+<p>C provides three iteration statements: <code>while</code>,
+<code>do</code>, and <code>for</code>, which are covered in Sections
+6.1, 6.2, and 6.3, respectively. The <code>while</code> statement is
+used for loops whose controlling expression is tested <em>before</em>
+the loop body is executed. The <em>do</em> statement is used if the
+expression is tested <em>after</em> the loop body is executed. The
+<code>for</code> statement is convenient for loops that increment or
+decrement a counting variable. Section 6.3 also introduces the comma
+operator, which is used primarily in <code>for</code> statements.</p>
+<p>The last two sections of this chapter are devoted to C features that
+are used in conjunction with loops. Section 6.4 describes the
+<code>break</code>, <code>continue</code>, and <code>goto</code>
+statements. <code>break</code> jumps out of a loop and transfers control
+to the next statement after the loop, <code>continue</code> skips the
+rest of a loop iteration, and goto jumps to any statement within a
+function. Section 6.5 covers the null statement, which can be used to
+create loops with empty bodies.</p>
+<h2 id="the-while-statement">6.1 The <code>while</code> Statement</h2>
+<p>Of all the ways to set up loops in C, the <code>while</code>
+statement is the simplest and most fundamental. The <code>while</code>
+statement has the form</p>
+<div class="sourceCode" id="cb223"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb223-1"><a href="#cb223-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span> expression <span class="op">)</span> statement</span></code></pre></div>
+<p>The expression inside the parentheses is the controlling expression;
+the statement after the parentheses is the loop body. Here’s an
+example:</p>
+<div class="sourceCode" id="cb224"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb224-1"><a href="#cb224-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&lt;</span> n<span class="op">)</span> <span class="co">/* controlling expression */</span></span>
+<span id="cb224-2"><a href="#cb224-2" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> i <span class="op">*</span> <span class="dv">2</span><span class="op">;</span> <span class="co">/* loop body */</span></span></code></pre></div>
+<p>Note that the parentheses are mandatory and that nothing goes between
+the right parenthesis and the loop body. (Some languages require the
+word <code>do</code>.)</p>
+<p>When a <code>while</code> statement is executed, the controlling
+expression is evaluated first. If its value is nonzero (true), the loop
+body is executed and the expression is tested again. The process
+continues in this fashion—first testing the controlling expression, then
+executing the loop body—until the controlling expression eventually has
+the value zero.</p>
+<p>The following example uses a <code>while</code> statement to compute
+the smallest power of 2 that is greater than or equal to a number
+<code>n</code>:</p>
+<div class="sourceCode" id="cb225"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb225-1"><a href="#cb225-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb225-2"><a href="#cb225-2" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&lt;</span> n<span class="op">)</span></span>
+<span id="cb225-3"><a href="#cb225-3" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> i <span class="op">*</span> <span class="dv">2</span><span class="op">;</span></span></code></pre></div>
+<p>Suppose that <code>n</code> has the value 10. The following trace
+shows what happens when the <code>while</code> statement is
+executed:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td><code>i = 1;</code></td>
+<td><code>i</code> is now 1.</td>
+</tr>
+<tr class="even">
+<td>Is <code>i &lt; n</code>?</td>
+<td>Yes; continue.</td>
+</tr>
+<tr class="odd">
+<td><code>i = i * 2;</code></td>
+<td><code>i</code> is now 2.</td>
+</tr>
+<tr class="even">
+<td>Is <code>i &lt; n</code>?</td>
+<td>Yes; continue.</td>
+</tr>
+<tr class="odd">
+<td><code>i = i * 2;</code></td>
+<td><code>i</code> is now 4.</td>
+</tr>
+<tr class="even">
+<td>Is <code>i &lt; n</code>?</td>
+<td>Yes: continue.</td>
+</tr>
+<tr class="odd">
+<td><code>i = i * 2;</code></td>
+<td><code>i</code> is now 8.</td>
+</tr>
+<tr class="even">
+<td>Is <code>i &lt; n</code>? Yes:; continue.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><code>i = i * 2;</code></td>
+<td><code>i</code> is now l6.</td>
+</tr>
+<tr class="even">
+<td>Is <code>i &lt; n</code>? No; exit from loop.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Notice how the loop keeps going as long as the controlling expression
+<code>(i &lt; n)</code> is true. When the expression is false, the loop
+terminates, and <code>i</code> is greater than or equal to
+<code>n</code>, as desired.</p>
+<p>Although the loop body must be a single statement, that’s merely a
+technicality. If we want more than one statement, we can just use braces
+to create a single compound statement:</p>
+<div class="sourceCode" id="cb226"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb226-1"><a href="#cb226-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span><span class="op">(</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb226-2"><a href="#cb226-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span>
+<span id="cb226-3"><a href="#cb226-3" aria-hidden="true" tabindex="-1"></a>    i<span class="op">--;</span></span>
+<span id="cb226-4"><a href="#cb226-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Some programmers always use braces, even when they’re not strictly
+necessary:</p>
+<div class="sourceCode" id="cb227"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb227-1"><a href="#cb227-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&lt;</span> n<span class="op">)</span> <span class="op">{</span> <span class="co">/* braces allowed, but not reguired */</span></span>
+<span id="cb227-2"><a href="#cb227-2" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> i <span class="op">*</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb227-3"><a href="#cb227-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>As a second example, let’s trace the execution of the following
+statements, which display a series of “countdown” messages:</p>
+<div class="sourceCode" id="cb228"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb228-1"><a href="#cb228-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb228-2"><a href="#cb228-2" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb228-3"><a href="#cb228-3" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span>
+<span id="cb228-4"><a href="#cb228-4" aria-hidden="true" tabindex="-1"></a>    i<span class="op">--;</span></span>
+<span id="cb228-5"><a href="#cb228-5" aria-hidden="true" tabindex="-1"></a><span class="op">)</span></span></code></pre></div>
+<p>Before the <code>while</code> statement is executed, the variable
+<code>i</code> is assigned the value 10. Since 10 is greater than 0, the
+loop body is executed, causing the message
+<code>T minus 10 and counting</code> to be printed and <code>i</code> to
+be decremented. The condition <code>i &gt; 0</code> is then tested
+again. Since 9 is greater than 0, the loop body is executed once more.
+This process continues until the message
+<code>T minus 1 and counting</code> is printed and <code>i</code>
+becomes 0. The test <code>i &gt; 0</code> then fails, causing the loop
+to terminate.</p>
+<p>The countdown example leads us to make several observations about the
+<code>while</code> statement:</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p>The controlling expression is false when a <code>while</code> loop
+terminates. Thus, when a loop controlled by the expression
+<code>1 &gt; 0</code> terminates. <code>i</code> must be less than or
+equal to 0. (Otherwise, we’d still be executing the loop!)</p>
+</li>
+<li>
+<p>The body of a <code>while</code> loop may not be executed at all.
+Since the controlling expression is tested <em>before</em> the loop body
+is executed, it’s possible that the body isn’t executed even once. If
+<code>i</code> has a negative or zero value when the countdown loop is
+first entered, the loop will do nothing.</p>
+</li>
+<li>
+<p>A <code>while</code> statement can often be written in a variety of
+ways. For example, we could make the countdown loop more concise by
+decrementing <code>i</code> inside the call of <code>printf</code>;</p>
+<p><span class="QandA"></span></p>
+<div class="sourceCode" id="cb229"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb229-1"><a href="#cb229-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb229-2"><a href="#cb229-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">--);</span></span></code></pre></div>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<h3 id="infinite-loops">6.1.1 Infinite Loops</h3>
+<p>A <code>while</code> satement won’t terminate if the controlling
+expression always has a nonzero value. In fact, C programmers sometimes
+deliberately create an <strong><em>infinite loop</em></strong> by using
+a nonzero constant as the controlling expression:</p>
+<div class="sourceCode" id="cb230"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb230-1"><a href="#cb230-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span><span class="dv">1</span><span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<p>A <code>while</code> statement of this form will execute forever
+unless its body contains a statement that transfers control out of the
+loop (<code>break</code>, <code>goto</code>, <code>return</code>) or
+calls a function that causes the program to terminate.</p>
+<h3 id="program-printing-a-table-of-squares">6.1.2 (PROGRAM) Printing a
+Table of Squares</h3>
+<p>Let’s write a program that prints a table of squares. The program
+will first prompt the user to enter a number <code>n</code>. It will
+then print <code>n</code> lines of output, with each line containing a
+number between 1 and <code>n</code> together with its square:</p>
+<pre class="shell"><code>This program prints a table of squares.
+Enter number of entries in table: 5
+         1         1
+         2         4
+         3         9
+         4        16
+         5        25</code></pre>
+<p>Let’s have the program store the desired number of squares in a
+variable named <code>n</code>. We’ll need a loop that repeatedly prints
+a number <code>i</code> and its square, starting with <code>i</code>
+equal to 1. The loop will repeat as long as <code>i</code> is less than
+or equal to <code>n</code>. We’ll have to make sure to add 1 to
+<code>i</code> each time through the loop.</p>
+<p>We’ll write the loop as a <code>while</code> statement. (Frankly, we
+haven’t got much choice, since the <code>while</code> statement is the
+only kind of loop we’ve covered so far.) Here’s the finished
+program:</p>
+<div class="sourceCode" id="cb232"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb232-1"><a href="#cb232-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
+<span id="cb232-2"><a href="#cb232-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: square.c</span></span>
+<span id="cb232-3"><a href="#cb232-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Prints a table of squares using a while statement</span></span>
+<span id="cb232-4"><a href="#cb232-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb232-5"><a href="#cb232-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb232-6"><a href="#cb232-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb232-7"><a href="#cb232-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb232-8"><a href="#cb232-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb232-9"><a href="#cb232-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb232-10"><a href="#cb232-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb232-11"><a href="#cb232-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> n<span class="op">;</span></span>
+<span id="cb232-12"><a href="#cb232-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb232-13"><a href="#cb232-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;This program prints a table of squares.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb232-14"><a href="#cb232-14" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter number of entries in table: &quot;</span><span class="op">);</span></span>
+<span id="cb232-15"><a href="#cb232-15" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>n<span class="op">);</span></span>
+<span id="cb232-16"><a href="#cb232-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb232-17"><a href="#cb232-17" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb232-18"><a href="#cb232-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>i <span class="op">&lt;=</span> n<span class="op">)</span></span>
+<span id="cb232-19"><a href="#cb232-19" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb232-20"><a href="#cb232-20" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;%10d%10d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">,</span> i <span class="op">*</span> i<span class="op">);</span></span>
+<span id="cb232-21"><a href="#cb232-21" aria-hidden="true" tabindex="-1"></a>        i<span class="op">++;</span></span>
+<span id="cb232-22"><a href="#cb232-22" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb232-23"><a href="#cb232-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb232-24"><a href="#cb232-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb232-25"><a href="#cb232-25" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Note how <code>square.¢</code> displays numbers in neatly aligned
+columns. The trick is to use a conversion specification like
+<code>%10d</code> instead of just <code>%d</code>, taking advantage of
+the fact that printf right-justifies numbers when a field width is
+specified.</p>
+<h3 id="summing-a-series-of-numbers">6.1.3 Summing a Series of
+Numbers</h3>
+<p>As a second example of the <code>while</code> statement, let’s write
+a program that sums a series of integers entered by the user, Here’s
+what the user will see:</p>
+<pre class="shell"><code>This program sums a series of integers.
+Enter integers (0 to terminate): 8 23 71 5 0
+The sum is: 107</code></pre>
+<p>Clearly we’ll need a loop that uses <code>scanf</code> to read a
+number and then adds the number to a running total.</p>
+<p>Letting <code>n</code> represent the number just read and sum the
+total of all numbers previously read, we end up with the following
+program:</p>
+<div class="sourceCode" id="cb234"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb234-1"><a href="#cb234-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
+<span id="cb234-2"><a href="#cb234-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: sum.c</span></span>
+<span id="cb234-3"><a href="#cb234-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Sums a series of numbers</span></span>
+<span id="cb234-4"><a href="#cb234-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb234-5"><a href="#cb234-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb234-6"><a href="#cb234-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb234-7"><a href="#cb234-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb234-8"><a href="#cb234-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb234-9"><a href="#cb234-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb234-10"><a href="#cb234-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb234-11"><a href="#cb234-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> n<span class="op">,</span> sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb234-12"><a href="#cb234-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb234-13"><a href="#cb234-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;This program sums a series of integers.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb234-14"><a href="#cb234-14" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter integers (0 to terminate): &quot;</span><span class="op">);</span></span>
+<span id="cb234-15"><a href="#cb234-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb234-16"><a href="#cb234-16" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>n<span class="op">);</span></span>
+<span id="cb234-17"><a href="#cb234-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>n <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb234-18"><a href="#cb234-18" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb234-19"><a href="#cb234-19" aria-hidden="true" tabindex="-1"></a>        sum <span class="op">+=</span> n<span class="op">;</span></span>
+<span id="cb234-20"><a href="#cb234-20" aria-hidden="true" tabindex="-1"></a>        scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>n<span class="op">);</span></span>
+<span id="cb234-21"><a href="#cb234-21" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb234-22"><a href="#cb234-22" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;The sum is: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> sum<span class="op">);</span></span>
+<span id="cb234-23"><a href="#cb234-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb234-24"><a href="#cb234-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb234-25"><a href="#cb234-25" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Notice that the condition <code>n != 0</code> is tested just after a
+number is read, allowing the loop to terminate as soon as possible. Also
+note that there are two identical calls of <code>scanf</code>, which is
+often hard to avoid when using <code>while</code> loops.</p>
+<h2 id="the-do-statement">The do Statement</h2>
+<p>The <code>do</code> statement is closely related to the
+<code>while</code> statement, in fact, the do statement is essentially
+just a <code>while</code> statement whose controlling expression is
+tested <em>after</em> each execution of the loop body. The
+<code>do</code> statement has the form</p>
+<div class="sourceCode" id="cb235"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb235-1"><a href="#cb235-1" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span> statement <span class="cf">while</span> <span class="op">(</span> expression <span class="op">)</span> <span class="op">;</span></span></code></pre></div>
+<p>As with the <code>while</code> statement, the body of a
+<code>do</code> statement must be one statement (possibly compound, of
+course) and the controlling expression must be enclosed within
+parentheses.</p>
+<p>When a <code>do</code> statement is executed, the loop body is
+executed first, then the controlling expression is evaluated. If the
+value of the expression is nonzero, the loop body is executed again and
+then the expression is evaluated once more. Execution of the
+<code>do</code> statement terminates when the controlling expression has
+the value 0 after the loop body has been executed.</p>
+<p>Let’s rewrite the countdown example of Section 6.1, using a
+<code>do</code> statement this time:</p>
+<div class="sourceCode" id="cb236"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb236-1"><a href="#cb236-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb236-2"><a href="#cb236-2" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span><span class="op">{</span></span>
+<span id="cb236-3"><a href="#cb236-3" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span>
+<span id="cb236-4"><a href="#cb236-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">--</span>i<span class="op">;</span></span>
+<span id="cb236-5"><a href="#cb236-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span><span class="cf">while</span><span class="op">(</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">);</span></span></code></pre></div>
+<p>When the <code>do</code> statement is executed, the loop body is
+first executed, causing the message <code>T minus 10 and counting</code>
+to be printed and <code>i</code> to be decremented. The condition
+<code>i &gt; 0</code> is now tested. Since 9 is greater than 0, the loop
+body is executed a second time. This process continues until the message
+<code>T minus 1 and counting</code> is printed and <code>i</code>
+becomes 0. The test <code>i &gt; 0</code> now fails, causing the loop to
+terminate. As this example shows, the <code>do</code> statement is often
+indistinguishable from the <code>while</code> statement. The difference
+between the two is that the body of a <code>do</code> statement is
+always executed at least once; the body of a <code>while</code>
+statement is skipped entirely if the controlling expression is 0
+initially.</p>
+<p>Incidentally, it’s a good idea to use braces in <em>all</em> do
+statements, whether or not they’re needed, because a <code>do</code>
+statement without braces can easily be mistaken fora <code>while</code>
+statement:</p>
+<div class="sourceCode" id="cb237"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb237-1"><a href="#cb237-1" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span></span>
+<span id="cb237-2"><a href="#cb237-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">--);</span></span>
+<span id="cb237-3"><a href="#cb237-3" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">);</span></span></code></pre></div>
+<p>A careless reader might think that the word <code>while</code> was
+the beginning of a <code>while</code> statement.</p>
+<h3 id="calculating-the-number-of-digits-in-an-integer">6.2.1
+Calculating the Number of Digits in an Integer</h3>
+<p>Although the <code>while</code> statement appears in C programs much
+more often than the <code>do</code> statement, the latter is handy for
+loops that must execute at least once. To illustrate this point, let’s
+write a program that calculates the number of digits in an integer
+entered by the user:</p>
+<pre class="shell"><code>Enter a nonnegative integer: 60
+The number has 2 digit(s).</code></pre>
+<p>Our strategy will be to divide the user’s input by 10 repeatedly
+until it becomes 0; the number of divisions performed is the number of
+digits. Clearly we’ll need some kind of loop, since we don’t know how
+many divisions it will take to reach 0. But should we use a
+<code>while</code> statement or a <code>do</code> statement? The
+<code>do</code> statement turns out to be more attractive, because every
+integer—even 0—has at least one digit. Here’s the program:</p>
+<div class="sourceCode" id="cb239"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb239-1"><a href="#cb239-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
+<span id="cb239-2"><a href="#cb239-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: numdigits.c</span></span>
+<span id="cb239-3"><a href="#cb239-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Calculates the number of digits in an integer</span></span>
+<span id="cb239-4"><a href="#cb239-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb239-5"><a href="#cb239-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb239-6"><a href="#cb239-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb239-7"><a href="#cb239-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb239-8"><a href="#cb239-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb239-9"><a href="#cb239-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb239-10"><a href="#cb239-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb239-11"><a href="#cb239-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> digits <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> n<span class="op">;</span></span>
+<span id="cb239-12"><a href="#cb239-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb239-13"><a href="#cb239-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter a nonnegative integer: &quot;</span><span class="op">);</span></span>
+<span id="cb239-14"><a href="#cb239-14" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>n<span class="op">);</span></span>
+<span id="cb239-15"><a href="#cb239-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb239-16"><a href="#cb239-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">do</span></span>
+<span id="cb239-17"><a href="#cb239-17" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb239-18"><a href="#cb239-18" aria-hidden="true" tabindex="-1"></a>        n <span class="op">/=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb239-19"><a href="#cb239-19" aria-hidden="true" tabindex="-1"></a>        digits<span class="op">++;</span></span>
+<span id="cb239-20"><a href="#cb239-20" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span><span class="cf">while</span><span class="op">(</span>n <span class="op">&gt;</span> <span class="dv">0</span><span class="op">);</span></span>
+<span id="cb239-21"><a href="#cb239-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb239-22"><a href="#cb239-22" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;The number has %d digit(s).</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> digits<span class="op">);</span></span>
+<span id="cb239-23"><a href="#cb239-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb239-24"><a href="#cb239-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb239-25"><a href="#cb239-25" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>To see why the <code>do</code> statement is the right choice, let’s
+see what would happen if we were to replace the <code>do</code> loop by
+a similar while loop:</p>
+<div class="sourceCode" id="cb240"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb240-1"><a href="#cb240-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span><span class="op">(</span>n <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb240-2"><a href="#cb240-2" aria-hidden="true" tabindex="-1"></a>    n <span class="op">/=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb240-3"><a href="#cb240-3" aria-hidden="true" tabindex="-1"></a>    digits<span class="op">++;</span></span>
+<span id="cb240-4"><a href="#cb240-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>If <code>n</code> is 0 initially, this loop won’t execute at all, and
+the program would print</p>
+<pre class="shell"><code>The number has 0 digit(s).</code></pre>
+<h2 id="the-for-statement">6.3 The <code>for</code> Statement</h2>
+<p>We now come to the last of C’s loops: the <code>for</code> statement.
+Don’t be discouraged by the <code>for</code> statement’s apparent
+complexity; it’s actually the best way to write many loops. The
+<code>for</code> statement is ideal for loops that have a “counting”
+variable, but it’s versatile enough to be used for other kinds of loops
+as well.</p>
+<p>The <code>for</code> statement has the form</p>
+<div class="sourceCode" id="cb242"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb242-1"><a href="#cb242-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span> exprl <span class="op">;</span> expr2 <span class="op">;</span> expr3 <span class="op">)</span> statement</span></code></pre></div>
+<p>where <code>exprl</code>, <code>expr2</code>, and <code>expr3</code>
+are expressions. Here’s an example:</p>
+<div class="sourceCode" id="cb243"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb243-1"><a href="#cb243-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">10</span><span class="op">;</span> i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">;</span> i<span class="op">--)</span></span>
+<span id="cb243-2"><a href="#cb243-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span></code></pre></div>
+<p>When this <code>for</code> statement is executed, the variable
+<code>i</code> is initialized to 10, then <code>i</code> is tested to
+see if it’s greater than 0. Since it is, the message
+<code>T minus 10 and counting</code> is printed, then <code>i</code> is
+decremented. The condition <code>i &gt; 0</code> is then tested again.
+The loop body will be executed 10 times in all, with <code>i</code>
+varying from 10 down to 1.</p>
+<p><span class="QandA"></span></p>
+<p>The <code>for</code> statement is closely related to the
+<code>while</code> statement. In fact, except in a few rare cases, a
+<code>for</code> loop can always be replaced by an equivalent
+<code>while</code> loop:</p>
+<div class="sourceCode" id="cb244"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb244-1"><a href="#cb244-1" aria-hidden="true" tabindex="-1"></a>exprl<span class="op">;</span></span>
+<span id="cb244-2"><a href="#cb244-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb244-3"><a href="#cb244-3" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span> expr2 <span class="op">)</span> <span class="op">{</span></span>
+<span id="cb244-4"><a href="#cb244-4" aria-hidden="true" tabindex="-1"></a>    Statement</span>
+<span id="cb244-5"><a href="#cb244-5" aria-hidden="true" tabindex="-1"></a>    expr3<span class="op">;</span></span>
+<span id="cb244-6"><a href="#cb244-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>As this pattern shows, <code>exprl</code> is an initialization step
+that’s performed only once, before the loop begins to execute,
+<code>expr2</code> controls loop termination (the loop continues
+executing as long as the value of <code>expr2</code> is nonzero), and
+<code>expr3</code> is an operation to be performed at the end of each
+loop iteration. Applying this pattern to our previous <code>for</code>
+loop example, we arrive at the following:</p>
+<div class="sourceCode" id="cb245"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb245-1"><a href="#cb245-1" aria-hidden="true" tabindex="-1"></a>i<span class="op">=</span><span class="dv">10</span><span class="op">;</span></span>
+<span id="cb245-2"><a href="#cb245-2" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb245-3"><a href="#cb245-3" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span>
+<span id="cb245-4"><a href="#cb245-4" aria-hidden="true" tabindex="-1"></a>    i<span class="op">--;</span></span>
+<span id="cb245-5"><a href="#cb245-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Studying the equivalent <code>while</code> statement can help us
+understand the fine points of a <code>for</code> statement. For example,
+suppose that we replace <code>i--</code> by <code>--i</code> in our
+<code>for</code> loop example:</p>
+<div class="sourceCode" id="cb246"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb246-1"><a href="#cb246-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">10</span><span class="op">;</span> i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">;</span> <span class="op">--</span>i<span class="op">)</span></span>
+<span id="cb246-2"><a href="#cb246-2" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span></code></pre></div>
+<p>How does this change affect the loop? Looking at the equivalent
+<code>while</code> loop, we see that it has no effect:</p>
+<div class="sourceCode" id="cb247"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb247-1"><a href="#cb247-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb247-2"><a href="#cb247-2" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb247-3"><a href="#cb247-3" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span>
+<span id="cb247-4"><a href="#cb247-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">--</span>i<span class="op">;</span></span>
+<span id="cb247-5"><a href="#cb247-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Since the first and third expressions in a <code>for</code> statement
+are executed as statements, their values are irrelevant—they’re useful
+only for their side effects. Consequently, these two expressions are
+usually assignments or increment/decrement expressions.</p>
+<h3 id="for-statement-idioms">6.3.1 <code>for</code> statement
+Idioms</h3>
+<p>The <code>for</code> statement is usually the best choice for loops
+that “count up” (increment a variable) or “count down™ (decrement a
+variable). A <code>for</code> statement that counts up or down a total
+of <code>n</code> times will usually have one of the following
+forms:</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p>Counting up from 0 to <code>n-1</code>:</p>
+<div class="sourceCode" id="cb248"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb248-1"><a href="#cb248-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span> <span class="op">...</span></span></code></pre></div>
+</li>
+<li>
+<p>Counting up from 1 to <code>n</code>:</p>
+<div class="sourceCode" id="cb249"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb249-1"><a href="#cb249-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> n<span class="op">;</span> i<span class="op">++)</span> <span class="op">....</span></span></code></pre></div>
+</li>
+<li>
+<p>Counting down from <code>n-1</code> to <code>0</code>:</p>
+<div class="sourceCode" id="cb250"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb250-1"><a href="#cb250-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> n<span class="op">-</span><span class="dv">1</span><span class="op">;</span> i <span class="op">&gt;=</span> <span class="dv">0</span><span class="op">;</span> i<span class="op">--)</span> <span class="op">...</span></span></code></pre></div>
+</li>
+<li>
+<p>Counting down from <code>n</code> to 1:</p>
+<div class="sourceCode" id="cb251"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb251-1"><a href="#cb251-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> n<span class="op">;</span> i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">;</span> i<span class="op">--)</span> <span class="op">...</span></span></code></pre></div>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<p>Imitating these patterns will help you avoid some of the following
+errors, which beginning C programmers often make:</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p>Using <code>&lt;</code> instead of <code>&gt;</code> (or vice versa)
+in the controlling expression. Notice that “counting up” loops use the
+<code>&lt;</code> or <code>&lt;=</code> operator, while “counting down™
+loops rely on <code>&gt;</code> or <code>&gt;=</code>.</p>
+</li>
+<li>
+<p>Using <code>==</code> in the controlling expression instead of
+<code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code>, or
+<code>&gt;=</code>. A controlling expression needs to be true at the
+beginning of the loop, then later become false so that the loop can
+terminate. A test such as <code>i == n</code> doesn’t make much sense,
+because it won’t be true initially.</p>
+</li>
+<li>
+<p>“Off-by-one” errors such as writing the controlling expression as
+<code>i &lt;= n</code> instead of <code>i &lt; n</code>.</p>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<h3 id="omitting-expressions-in-a-for-statement">6.3.2 Omitting
+Expressions in a <code>for</code> statement</h3>
+<p>The <code>for</code> statement is even more flexible than we’ve seen
+so far. Some <code>for</code> loops may not need all three of the
+expressions that normally control the loop. so C allows us to omit any
+or all of the expressions.</p>
+<p>If the first expression is omitted, no initialization is performed
+before the loop is exccuted:</p>
+<div class="sourceCode" id="cb252"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb252-1"><a href="#cb252-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb252-2"><a href="#cb252-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(;</span> i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">;</span> <span class="op">--</span>i<span class="op">)</span></span>
+<span id="cb252-3"><a href="#cb252-3" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span></code></pre></div>
+<p>In this example, <code>i</code> has been initialized by a separate
+assignment, so we’ve omitted the first expression in the
+<code>for</code> statement. (Notice that the semicolon between the first
+and second expressions remains. The two semicolons must always be
+present, even when we’ve omitted some of the expressions.)</p>
+<p>If we omit the <em>third</em> expression in a <code>for</code>
+statement, the loop body is responsible for ensuring that the value of
+the second expression eventually becomes false. Our <code>for</code>
+statement example could be written like this:</p>
+<div class="sourceCode" id="cb253"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb253-1"><a href="#cb253-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">10</span><span class="op">;</span> i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">;)</span></span>
+<span id="cb253-2"><a href="#cb253-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">--);</span></span></code></pre></div>
+<p>To compensate for omitting the third expression, we’ve arranged for
+<code>i</code> to be decremented inside the loop body.</p>
+<p>When the <em>first</em> and <em>third</em> expressions are both
+omitted, the resulting loop is nothing more than a <code>while</code>
+statement in disguise. For example, the loop</p>
+<div class="sourceCode" id="cb254"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb254-1"><a href="#cb254-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(;</span> i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">;)</span></span>
+<span id="cb254-2"><a href="#cb254-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">--);</span></span></code></pre></div>
+<p>is the same as</p>
+<div class="sourceCode" id="cb255"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb255-1"><a href="#cb255-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb255-2"><a href="#cb255-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">--);</span></span></code></pre></div>
+<p>The <code>while</code> version is clearer and therefore
+preferable.</p>
+<p><span class="QandA"></span></p>
+<p>If the second expression is missing, it defaults to a true value, so
+the for statement doesn’t terminate (unless stopped in some other
+fashion). For example, some programmers use the following
+<code>for</code> statement to establish an infinite loop:</p>
+<div class="sourceCode" id="cb256"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb256-1"><a href="#cb256-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(;;)</span> <span class="op">...</span></span></code></pre></div>
+<h3 id="for-statements-in-c99">6.3.3 <code>for</code> statements in
+C99</h3>
+<p>In €99, the first expression in a <code>for</code> statement can be
+replaced by a declaration. “This teature allows the programmer to
+declare a variable for use by the loop:</p>
+<div class="sourceCode" id="cb257"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb257-1"><a href="#cb257-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb257-2"><a href="#cb257-2" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span></code></pre></div>
+<p>The variable <code>i</code> need not have been declared prior to this
+statement. (In fact, if a declaration of <code>i</code> already exists,
+this statement creates a <em>new</em> version of <code>i</code> that
+will be used solely within the loop.)</p>
+<p>A variable declared by a <code>for</code> statement can’t be accessed
+outside the body of the loop (we say that it’s not
+<strong><em>visible</em></strong> outside the loop):</p>
+<div class="sourceCode" id="cb258"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb258-1"><a href="#cb258-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span><span class="dt">int</span> i <span class="op">=</span><span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span> <span class="op">{</span></span>
+<span id="cb258-2"><a href="#cb258-2" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb258-3"><a href="#cb258-3" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> i<span class="op">);</span> <span class="co">/* legal; i is visible inside loop */</span></span>
+<span id="cb258-4"><a href="#cb258-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb258-5"><a href="#cb258-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb258-6"><a href="#cb258-6" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> i<span class="op">);</span> <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>Having a <code>for</code> statement declare its own control variable
+is usually a good idea: it’s convenient and it can make programs easier
+to understand. However, if the program needs to access the variable
+afler loop termination, it’s necessary to use the older form of the
+<code>for</code> statement.</p>
+<p>Incidentally, a <code>for</code> statement may declare more than one
+variable, provided that all variables have the same type:</p>
+<div class="sourceCode" id="cb259"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb259-1"><a href="#cb259-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> j <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb259-2"><a href="#cb259-2" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span></code></pre></div>
+<h3 id="the-comma-operator">6.3.4 The Comma Operator</h3>
+<p>On occasion, we might like to write a <code>for</code> statement with
+two (or more) initialization expressions or one that increments several
+variables each time through the loop. We can do this by using a
+<strong><em>comma expression</em></strong> as the first or third
+expression in the <code>for</code> statement.</p>
+<p>A comma expression has the form</p>
+<div class="sourceCode" id="cb260"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb260-1"><a href="#cb260-1" aria-hidden="true" tabindex="-1"></a>exprl <span class="op">,</span> expr2</span></code></pre></div>
+<p>where <code>exprl</code> and <code>expr2</code> are any two
+expressions. A comma expression is evaluated in two steps: First,
+<code>expr1</code> is evaluated and its valve discarded. Second,
+<code>expr2</code> is evaluated: its value is the value of the entire
+expression. Evaluating <code>expr1</code> should always have a side
+effect; if it doesn’t. then <code>exprl</code> serves no purpose.</p>
+<p>For example, suppose that <code>i</code> and <code>j</code> have the
+values 1 and 5, respectively. When the comma expression
+<code>++i</code>, <code>i + j</code> is evaluated, <code>i</code> is
+first incremented, then <code>i + j</code> is evaluated, so the value of
+the expression is 7. (And, of course, 1 now has the value 2.) The
+precedence of the comma operator is less than that of all other
+operators, by the way, so there’s no need to put parentheses around
+<code>++i</code> and <code>i + j</code>.</p>
+<p>Occasionally, we’ll need to chain together a series of comma
+expressions, just as we sometimes chain assignments together. The comma
+operator is left associative, so the compiler interprets</p>
+<div class="sourceCode" id="cb261"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb261-1"><a href="#cb261-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">1</span><span class="op">,</span> j <span class="op">=</span> <span class="dv">2</span><span class="op">,</span> k <span class="op">=</span> i <span class="op">+</span> j</span></code></pre></div>
+<p>as</p>
+<div class="sourceCode" id="cb262"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb262-1"><a href="#cb262-1" aria-hidden="true" tabindex="-1"></a><span class="op">((</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">),</span> <span class="op">(</span>j <span class="op">=</span> <span class="dv">2</span><span class="op">)),</span> <span class="op">(</span>k <span class="op">=</span> <span class="op">(</span>i <span class="op">+</span> j<span class="op">))</span></span></code></pre></div>
+<p>Since the left operand in a comma expression is evaluated before the
+right operand, the assignments <code>i = 1</code>, <code>j = 2</code>
+and <code>k = i + j</code> will be performed from left to right.</p>
+<p>The comma operator is provided for situations where C requires a
+single expression, but we’d like to have two or more expressions. In
+other words, the comma operator allows us to “glue” two expressions
+together to form a single expression. (Note the similarity to the
+compound statement, which allows us to treat a group of statements us a
+single statement.)</p>
+<p>The need to glue expressions together doesn’t arise that often.
+Certain macro definitions can benefit from the comma operator, as we’ll
+sce in a later chapter. The <code>for</code> statement is the only other
+place where the comma operator is likely to be found. For example,
+suppose that we want to initialize two variables when entering a
+<code>for</code> statement. Instead of writing</p>
+<div class="sourceCode" id="cb263"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb263-1"><a href="#cb263-1" aria-hidden="true" tabindex="-1"></a>sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb263-2"><a href="#cb263-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> N<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb263-3"><a href="#cb263-3" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">+=</span> i<span class="op">;</span></span></code></pre></div>
+<p>we can write</p>
+<div class="sourceCode" id="cb264"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb264-1"><a href="#cb264-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>sum <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> N<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb264-2"><a href="#cb264-2" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">+=</span> i<span class="op">;</span></span></code></pre></div>
+<p>The expression <code>sum = 0</code>, <code>i = 1</code> first assigns
+0 to sum, then assigns 1 to <code>i</code>. With additional commas, the
+<code>for</code> statement could initialize more than two variables.</p>
+<h3 id="program-printing-a-table-of-squares-revisited">6.3.5 (PROGRAM)
+Printing a Table of Squares (Revisited)</h3>
+<p>The <code>square.c</code> program (Section 6.1) can be improved by
+converting its <code>while</code> loop to a <code>for</code> loop:</p>
+<div class="sourceCode" id="cb265"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb265-1"><a href="#cb265-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
+<span id="cb265-2"><a href="#cb265-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: square2.c</span></span>
+<span id="cb265-3"><a href="#cb265-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Prints a table of squares using a for statement</span></span>
+<span id="cb265-4"><a href="#cb265-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb265-5"><a href="#cb265-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb265-6"><a href="#cb265-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb265-7"><a href="#cb265-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb265-8"><a href="#cb265-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb265-9"><a href="#cb265-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb265-10"><a href="#cb265-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb265-11"><a href="#cb265-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> n<span class="op">;</span></span>
+<span id="cb265-12"><a href="#cb265-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb265-13"><a href="#cb265-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;This program prints a table of squares.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb265-14"><a href="#cb265-14" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter number of entries in table: &quot;</span><span class="op">);</span></span>
+<span id="cb265-15"><a href="#cb265-15" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>n<span class="op">);</span></span>
+<span id="cb265-16"><a href="#cb265-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb265-17"><a href="#cb265-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> n<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb265-18"><a href="#cb265-18" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb265-19"><a href="#cb265-19" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;%10d%10d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">,</span> i <span class="op">*</span> i<span class="op">);</span></span>
+<span id="cb265-20"><a href="#cb265-20" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb265-21"><a href="#cb265-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb265-22"><a href="#cb265-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb265-23"><a href="#cb265-23" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>We can use this program to illustrate an important point about the
+<code>for</code> statement: C places no restrictions on the three
+expressions that control its behavior. Although these expressions
+usually initialize. test, and update the same variable, there’s no
+requirement that they be related in any way. Consider the following
+version of the same program:</p>
+<div class="sourceCode" id="cb266"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb266-1"><a href="#cb266-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
+<span id="cb266-2"><a href="#cb266-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: square3.c</span></span>
+<span id="cb266-3"><a href="#cb266-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Prints a table of squares using an odd method</span></span>
+<span id="cb266-4"><a href="#cb266-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb266-5"><a href="#cb266-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb266-6"><a href="#cb266-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb266-7"><a href="#cb266-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb266-8"><a href="#cb266-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb266-9"><a href="#cb266-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb266-10"><a href="#cb266-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb266-11"><a href="#cb266-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> n<span class="op">,</span> odd<span class="op">,</span> square<span class="op">;</span></span>
+<span id="cb266-12"><a href="#cb266-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb266-13"><a href="#cb266-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;This program prints a table of squares.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb266-14"><a href="#cb266-14" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter number of entries in table: &quot;</span><span class="op">);</span></span>
+<span id="cb266-15"><a href="#cb266-15" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>n<span class="op">);</span></span>
+<span id="cb266-16"><a href="#cb266-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb266-17"><a href="#cb266-17" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb266-18"><a href="#cb266-18" aria-hidden="true" tabindex="-1"></a>    odd <span class="op">=</span> <span class="dv">3</span><span class="op">;</span></span>
+<span id="cb266-19"><a href="#cb266-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>square <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> n<span class="op">;</span> odd <span class="op">+=</span> <span class="dv">2</span><span class="op">)</span></span>
+<span id="cb266-20"><a href="#cb266-20" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb266-21"><a href="#cb266-21" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;%10d%10d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">,</span> square<span class="op">);</span></span>
+<span id="cb266-22"><a href="#cb266-22" aria-hidden="true" tabindex="-1"></a>        <span class="op">++</span>i<span class="op">;</span></span>
+<span id="cb266-23"><a href="#cb266-23" aria-hidden="true" tabindex="-1"></a>        square <span class="op">+=</span> odd<span class="op">;</span></span>
+<span id="cb266-24"><a href="#cb266-24" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb266-25"><a href="#cb266-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb266-26"><a href="#cb266-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb266-27"><a href="#cb266-27" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The <code>for</code> statement in this program initializes one
+variable (<code>square</code>), tests another (<code>i</code>), and
+increments a third (<code>odd</code>). <code>i</code> is the number to
+be squared, square is the square of <code>i</code>, and <code>odd</code>
+is the odd number that must be added to the current square to get the
+mext square (allowing the program to compute consecutive squares without
+performing any multiplications).</p>
+<p>The tremendous flexibility of the <code>for</code> statement can
+sometimes be useful; we’ll find it to be a great help when working with
+linked lists. The <code>for</code> statement can easily be misused,
+though, so don’t go overboard. The <code>for</code> loop in
+<code>square3.c</code> would be a lot clearer if we rearranged its
+pieces so that the loop is clearly controlled by <code>i</code>.</p>
+<h2 id="exiting-from-a-loop">6.4 Exiting from a Loop</h2>
+<p>We’ve seen how to write loops that have an exit point before the loop
+body (using <code>while</code> and <code>for</code> statements) or after
+it (using <code>do</code> statements). Occasionally, however, we’ll need
+a loop with an exit point in the middle. We may even want a loop to have
+more than one exit point. The <code>break</code> statement makes it
+possible to write either kind of loop.</p>
+<p>After we’ve examined the <code>break</code> statement, we’ll look at
+a couple of related slatements: <code>continue</code> and
+<code>goto</code>. The <code>continue</code> statement makes it possible
+to skip part of a loop iteration without jumping out of the loop. The
+<code>goto</code> statement allows a program to jump from one statement
+to another. Thanks to the availability of statements such as
+<code>break</code> and <code>continue</code>, the <code>goto</code>
+statement is rarely used.</p>
+<h3 id="the-break-statement">6.4.1 The break Statement</h3>
+<p>We’ve already discussed how a <code>break</code> statement can
+transfer control out of a <code>switch</code> statement. The
+<code>break</code> statement can also be used to jump out of a
+<code>while</code>, <code>do</code>, or <code>for</code> loop.</p>
+<p>Suppose that we’re writing a program that checks whether a number
+<code>n</code> is prime. Our plan is to write a <code>for</code>
+statement that divides <code>n</code> by the numbers between 2 and
+<code>n — 1</code>. We should break out of the loop as soon as any
+divisor is found; there’s no need to try the remaining possibilities.
+After the loop has terminated, we can use an <code>if</code> statement
+to determine whether termination was premature (hence <code>n</code>
+isn’t prime) or normal (<code>n</code> is prime):</p>
+<div class="sourceCode" id="cb267"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb267-1"><a href="#cb267-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>d <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> d <span class="op">&lt;</span> n<span class="op">;</span> d<span class="op">++)</span></span>
+<span id="cb267-2"><a href="#cb267-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>n <span class="op">%</span> d <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb267-3"><a href="#cb267-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb267-4"><a href="#cb267-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>d <span class="op">&lt;</span> n<span class="op">)</span></span>
+<span id="cb267-5"><a href="#cb267-5" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;%d is divisible by %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> n<span class="op">,</span> d<span class="op">);</span></span>
+<span id="cb267-6"><a href="#cb267-6" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb267-7"><a href="#cb267-7" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;%d is prime</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> n<span class="op">);</span></span></code></pre></div>
+<p>The <code>break</code> statement is particularly useful for writing
+loops in which the exit point is in the middle of the body rather than
+at the beginning or end. Loops that read user input, terminating when a
+particular value is entered, often fall into this category:</p>
+<div class="sourceCode" id="cb268"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb268-1"><a href="#cb268-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(;;)</span> <span class="op">{</span></span>
+<span id="cb268-2"><a href="#cb268-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter a number (enter 0 to stop): &quot;</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb268-3"><a href="#cb268-3" aria-hidden="true" tabindex="-1"></a>    scanf <span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>n<span class="op">);</span></span>
+<span id="cb268-4"><a href="#cb268-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>n <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb268-5"><a href="#cb268-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb268-6"><a href="#cb268-6" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;%d cubed is %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> n<span class="op">,</span> n <span class="op">*</span> n <span class="op">*</span> n<span class="op">);</span></span>
+<span id="cb268-7"><a href="#cb268-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>A <code>break</code> statement transfers control out of the
+<em>innermost</em> enclosing <code>while</code>, <code>do</code>,
+<code>for</code>, or <code>switch</code> statement. Thus, when these
+statements are nested, the <code>break</code> statement can escape only
+one level of nesting. Consider the case of a <code>switch</code>
+statement nested inside a <code>while</code> statement:</p>
+<div class="sourceCode" id="cb269"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb269-1"><a href="#cb269-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(...)</span> <span class="op">{</span></span>
+<span id="cb269-2"><a href="#cb269-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">switch</span> <span class="op">(...)</span> <span class="op">{</span></span>
+<span id="cb269-3"><a href="#cb269-3" aria-hidden="true" tabindex="-1"></a>        <span class="op">...</span></span>
+<span id="cb269-4"><a href="#cb269-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb269-5"><a href="#cb269-5" aria-hidden="true" tabindex="-1"></a>        <span class="op">...</span></span>
+<span id="cb269-6"><a href="#cb269-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb269-7"><a href="#cb269-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The <code>break</code> statement transfers control out of the
+<code>switch</code> statement, but not out of the <code>while</code>
+loop. I’ll <code>return</code> to this point later.</p>
+<h3 id="the-continue-statement">6.4.2 The continue Statement</h3>
+<p>The <code>continue</code> statement doesn’t really belong here,
+because it doesn’t exit from a loop. It’s similar to <code>break</code>,
+though, so its inclusion in this section isn’t completely arbitrary.
+<code>break</code> transfers control just past the end of a loop, while
+continue transfers control to a point just before the end of the loop
+body. With <code>break</code>, control leaves the loop; with
+<code>continue</code>, control remains inside the loop. There’s another
+difference between <code>break</code> and <code>continue</code>:
+<code>break</code> can be used in <code>switch</code> statements and
+loops (<code>while</code>, <code>do</code>, and <code>for</code>),
+whereas <code>continue</code> is limited to loops.</p>
+<p>The following example, which reads a series of numbers and computes
+their sum, illustrates a simple use of <code>continue</code>. The loop
+terminates when 10 nonzero numbers have been read. Whenever the number 0
+is read, the <code>continue</code> statement is executed, skipping the
+rest of the loop body (the statements <code>sum += 1;</code> and
+<code>n++;</code>) but remaining inside the loop.</p>
+<div class="sourceCode" id="cb270"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb270-1"><a href="#cb270-1" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb270-2"><a href="#cb270-2" aria-hidden="true" tabindex="-1"></a>sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb270-3"><a href="#cb270-3" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>n <span class="op">&lt;</span> <span class="dv">10</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb270-4"><a href="#cb270-4" aria-hidden="true" tabindex="-1"></a>    scanf <span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">);</span></span>
+<span id="cb270-5"><a href="#cb270-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>i <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb270-6"><a href="#cb270-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span><span class="op">;</span></span>
+<span id="cb270-7"><a href="#cb270-7" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">+=</span> i<span class="op">;</span></span>
+<span id="cb270-8"><a href="#cb270-8" aria-hidden="true" tabindex="-1"></a>    n<span class="op">++;</span></span>
+<span id="cb270-9"><a href="#cb270-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* continue jumps to here */</span></span>
+<span id="cb270-10"><a href="#cb270-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>If <code>continue</code> were not available, we could have written
+the example as follows:</p>
+<div class="sourceCode" id="cb271"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb271-1"><a href="#cb271-1" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb271-2"><a href="#cb271-2" aria-hidden="true" tabindex="-1"></a>sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb271-3"><a href="#cb271-3" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>n <span class="op">&lt;</span> <span class="dv">10</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb271-4"><a href="#cb271-4" aria-hidden="true" tabindex="-1"></a>    scanf <span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">);</span></span>
+<span id="cb271-5"><a href="#cb271-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>i <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb271-6"><a href="#cb271-6" aria-hidden="true" tabindex="-1"></a>        sum <span class="op">+=</span> i<span class="op">;</span></span>
+<span id="cb271-7"><a href="#cb271-7" aria-hidden="true" tabindex="-1"></a>        n<span class="op">++;</span></span>
+<span id="cb271-8"><a href="#cb271-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb271-9"><a href="#cb271-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<h3 id="the-goto-statement">6.4.3 The <code>goto</code> Statement</h3>
+<p><span class="C99Symbol"></span></p>
+<p><code>break</code> and <code>continue</code> are jump statements that
+transfer control from one point in the program to another. Both are
+restricted: the target of a <code>break</code> is a point just beyond
+the end of the enclosing loop, while the target of a
+<code>continue</code> is a point just before the end of the loop. The
+<code>goto</code> statement, on the other hand, is capable of jumping to
+any statement in a function, provided that the statement has a
+<strong><em>label</em></strong>. (C99 places an additional restriction
+on the <code>goto</code> statement: it can’t be used to bypass the
+declaration of a variable-length array.)</p>
+<p>A label is just an identificr placed at the beginning of a
+statement:</p>
+<div class="sourceCode" id="cb272"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb272-1"><a href="#cb272-1" aria-hidden="true" tabindex="-1"></a>identifier <span class="op">:</span> starement</span></code></pre></div>
+<p>A statement may have more than one label. The <code>goto</code>
+statement itself has the form</p>
+<div class="sourceCode" id="cb273"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb273-1"><a href="#cb273-1" aria-hidden="true" tabindex="-1"></a><span class="cf">goto</span> identifier <span class="op">;</span></span></code></pre></div>
+<p>Executing the statement <code>goto L;</code> transfers control to the
+statement that follows the label <code>L</code>, which must be in the
+same function as the <code>goto</code> statement itself.</p>
+<p>If C didn’t have a <code>break</code> statement, here’s how we might
+use a goto statement 1o exit prematurely from a loop:</p>
+<div class="sourceCode" id="cb274"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb274-1"><a href="#cb274-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>d <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> d <span class="op">&lt;</span> n<span class="op">;</span> d<span class="op">++)</span></span>
+<span id="cb274-2"><a href="#cb274-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>n <span class="op">%</span> d <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb274-3"><a href="#cb274-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">goto</span> done<span class="op">;</span></span>
+<span id="cb274-4"><a href="#cb274-4" aria-hidden="true" tabindex="-1"></a>    done<span class="op">:</span></span>
+<span id="cb274-5"><a href="#cb274-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>d <span class="op">&lt;</span> n<span class="op">)</span></span>
+<span id="cb274-6"><a href="#cb274-6" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;%d is divisible by %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> n<span class="op">,</span> d<span class="op">);</span></span>
+<span id="cb274-7"><a href="#cb274-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb274-8"><a href="#cb274-8" aria-hidden="true" tabindex="-1"></a>        printf <span class="op">(</span><span class="st">&quot;%d is prime</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> n<span class="op">);</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p>The <code>goto</code> statement, a staple of older programming
+languages, is rarely needed in everyday C programming. The
+<code>break</code>, <code>continue</code>, and <code>return</code>
+statements which are essentially restricted <code>goto</code>
+statements—and the <code>exit</code> function are sufficient to handle
+most situations that might require a <code>goto</code> in other
+languages.</p>
+<p>Nonetheless, the <code>goto</code> statement can be helpful once in a
+while. Consider the problem of exiting a loop from within a switch
+statement. As we saw earlier, the <code>break</code> statement doesn’t
+quite have the desired effect: it exits from the switch, but not from
+the loop. A <code>goto</code> statement solves the problem:</p>
+<div class="sourceCode" id="cb275"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb275-1"><a href="#cb275-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(...)</span> <span class="op">{</span></span>
+<span id="cb275-2"><a href="#cb275-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">switch</span> <span class="op">(...)</span> <span class="op">{</span></span>
+<span id="cb275-3"><a href="#cb275-3" aria-hidden="true" tabindex="-1"></a>        <span class="op">...</span></span>
+<span id="cb275-4"><a href="#cb275-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">goto</span> loop_done<span class="op">;</span> <span class="co">/* break won&#39;t work here */</span></span>
+<span id="cb275-5"><a href="#cb275-5" aria-hidden="true" tabindex="-1"></a>        <span class="op">...</span></span>
+<span id="cb275-6"><a href="#cb275-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb275-7"><a href="#cb275-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb275-8"><a href="#cb275-8" aria-hidden="true" tabindex="-1"></a>loop_done<span class="op">:</span> <span class="op">...</span></span></code></pre></div>
+<p>The <code>goto</code> statement is also useful for exiting from
+nested loops.</p>
+<h3 id="balancing-a-checkbook">6.4.4 Balancing a Checkbook</h3>
+<p>Many simple interactive programs are menu-based: they present the
+user with a list of commands to choose from. Once the user has selected
+a command, the program performs the desired action, then prompts the
+user for another command. This process continues until the user selects
+an “exit” or “quit” command.</p>
+<p>The heart of such a program will obviously be a loop. Inside the loop
+will be statements that prompt the user for a command, read the command,
+then decide what action to take:</p>
+<div class="sourceCode" id="cb276"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb276-1"><a href="#cb276-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(;;)</span> <span class="op">{</span></span>
+<span id="cb276-2"><a href="#cb276-2" aria-hidden="true" tabindex="-1"></a>    prompt user to enter command <span class="op">;</span></span>
+<span id="cb276-3"><a href="#cb276-3" aria-hidden="true" tabindex="-1"></a>    read command <span class="op">;</span></span>
+<span id="cb276-4"><a href="#cb276-4" aria-hidden="true" tabindex="-1"></a>    execute command <span class="op">;</span></span>
+<span id="cb276-5"><a href="#cb276-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Executing the command will require a <code>switch</code> statement
+(or cascaded if statement):</p>
+<div class="sourceCode" id="cb277"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb277-1"><a href="#cb277-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(;;)</span> <span class="op">{</span></span>
+<span id="cb277-2"><a href="#cb277-2" aria-hidden="true" tabindex="-1"></a>    prompt user to enter command <span class="op">;</span></span>
+<span id="cb277-3"><a href="#cb277-3" aria-hidden="true" tabindex="-1"></a>    read command <span class="op">;</span></span>
+<span id="cb277-4"><a href="#cb277-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">switch</span> <span class="op">(</span>command<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb277-5"><a href="#cb277-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> command₁<span class="op">:</span> perform operation₁<span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb277-6"><a href="#cb277-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> command₂<span class="op">:</span> perform operation₂<span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb277-7"><a href="#cb277-7" aria-hidden="true" tabindex="-1"></a>        <span class="op">.</span></span>
+<span id="cb277-8"><a href="#cb277-8" aria-hidden="true" tabindex="-1"></a>        <span class="op">.</span></span>
+<span id="cb277-9"><a href="#cb277-9" aria-hidden="true" tabindex="-1"></a>        <span class="op">.</span></span>
+<span id="cb277-10"><a href="#cb277-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">case</span> commandₙ<span class="op">:</span> perform operationₙ<span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb277-11"><a href="#cb277-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">default</span><span class="op">:</span> print error message<span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb277-12"><a href="#cb277-12" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb277-13"><a href="#cb277-13" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>To illustrate this arrangement, let’s develop a program that
+maintains a checkbook balance. The program will offer the user a menu of
+choices: clear the account balance, credit money to the account, debit
+money from the account, display the current balance, and exit the
+program. The choices are represented by the integers 0, 1, 2, 3, and 4,
+respectively. Here’s what a session with the program will look like:</p>
+<pre class="shell"><code>*** ACME checkbook-balancing program ***
+Commands: O=clear, l=credit, 2=debit, 3=balance, 4=exit
+
+Enter command: 1
+Enter amount of credit: 1042.56
+Enter command: 2
+Enter amount of debit: 133.79
+Enter command: 1
+Enter amount of credit: 1754.32
+Enter command: 2
+Enter amount of debit: 1400
+Enter command: 2
+Enter amount of debit: 68
+Enter comwand: 2
+Enter amount of debit: 50
+Enter command: 3
+Current balance: $1145.09
+Enter command: 4</code></pre>
+<p>When the user enters the command 4 (exit), the program needs to exit
+from the <code>switch</code> statement <em>and</em> the surrounding
+loop. The <code>break</code> statement won’t help, and we’d prefer not
+to use a <code>goto</code> statement. Instead, we’ll have the program
+execute a <code>return</code> statement, which will cause the main
+function to return to the operating system.</p>
+<div class="sourceCode" id="cb279"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb279-1"><a href="#cb279-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb279-2"><a href="#cb279-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: checking.c</span></span>
+<span id="cb279-3"><a href="#cb279-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Balances a checkbook</span></span>
+<span id="cb279-4"><a href="#cb279-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb279-5"><a href="#cb279-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb279-6"><a href="#cb279-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb279-7"><a href="#cb279-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb279-8"><a href="#cb279-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb279-9"><a href="#cb279-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb279-10"><a href="#cb279-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb279-11"><a href="#cb279-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> cmd<span class="op">;</span></span>
+<span id="cb279-12"><a href="#cb279-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">float</span> balance <span class="op">=</span> <span class="fl">0.0</span><span class="bu">f</span><span class="op">,</span> credit<span class="op">,</span> debit<span class="op">;</span></span>
+<span id="cb279-13"><a href="#cb279-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb279-14"><a href="#cb279-14" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;*** ACME checkbook-balancing program ***</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb279-15"><a href="#cb279-15" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Commands: 0=clear, 1=credit, 2=debit, &quot;</span><span class="op">);</span></span>
+<span id="cb279-16"><a href="#cb279-16" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;3=balance, 4=exit</span><span class="sc">\n\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb279-17"><a href="#cb279-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb279-18"><a href="#cb279-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(;;)</span></span>
+<span id="cb279-19"><a href="#cb279-19" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb279-20"><a href="#cb279-20" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Enter command: &quot;</span><span class="op">);</span></span>
+<span id="cb279-21"><a href="#cb279-21" aria-hidden="true" tabindex="-1"></a>        scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>cmd<span class="op">);</span></span>
+<span id="cb279-22"><a href="#cb279-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">switch</span><span class="op">(</span>cmd<span class="op">)</span></span>
+<span id="cb279-23"><a href="#cb279-23" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb279-24"><a href="#cb279-24" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="dv">0</span><span class="op">:</span></span>
+<span id="cb279-25"><a href="#cb279-25" aria-hidden="true" tabindex="-1"></a>                balance <span class="op">=</span> <span class="fl">0.0</span><span class="bu">f</span><span class="op">;</span></span>
+<span id="cb279-26"><a href="#cb279-26" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb279-27"><a href="#cb279-27" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span></span>
+<span id="cb279-28"><a href="#cb279-28" aria-hidden="true" tabindex="-1"></a>                printf<span class="op">(</span><span class="st">&quot;Enter amount of credit: &quot;</span><span class="op">);</span></span>
+<span id="cb279-29"><a href="#cb279-29" aria-hidden="true" tabindex="-1"></a>                scanf<span class="op">(</span><span class="st">&quot;%f&quot;</span><span class="op">,</span> <span class="op">&amp;</span>credit<span class="op">);</span></span>
+<span id="cb279-30"><a href="#cb279-30" aria-hidden="true" tabindex="-1"></a>                balance <span class="op">+=</span> credit<span class="op">;</span></span>
+<span id="cb279-31"><a href="#cb279-31" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb279-32"><a href="#cb279-32" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="dv">2</span><span class="op">:</span></span>
+<span id="cb279-33"><a href="#cb279-33" aria-hidden="true" tabindex="-1"></a>                printf<span class="op">(</span><span class="st">&quot;Enter amount of debit: &quot;</span><span class="op">);</span></span>
+<span id="cb279-34"><a href="#cb279-34" aria-hidden="true" tabindex="-1"></a>                scanf<span class="op">(</span><span class="st">&quot;%f&quot;</span><span class="op">,</span> <span class="op">&amp;</span>debit<span class="op">);</span></span>
+<span id="cb279-35"><a href="#cb279-35" aria-hidden="true" tabindex="-1"></a>                balance <span class="op">-=</span> debit<span class="op">;</span></span>
+<span id="cb279-36"><a href="#cb279-36" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb279-37"><a href="#cb279-37" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="dv">3</span><span class="op">:</span></span>
+<span id="cb279-38"><a href="#cb279-38" aria-hidden="true" tabindex="-1"></a>                printf<span class="op">(</span><span class="st">&quot;Current balance: $%.2f</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> balance<span class="op">);</span></span>
+<span id="cb279-39"><a href="#cb279-39" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb279-40"><a href="#cb279-40" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="dv">4</span><span class="op">:</span></span>
+<span id="cb279-41"><a href="#cb279-41" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb279-42"><a href="#cb279-42" aria-hidden="true" tabindex="-1"></a>            <span class="cf">default</span><span class="op">:</span></span>
+<span id="cb279-43"><a href="#cb279-43" aria-hidden="true" tabindex="-1"></a>                printf<span class="op">(</span><span class="st">&quot;Commands: 0=clear, 1=credit, 2=debit, &quot;</span><span class="op">);</span></span>
+<span id="cb279-44"><a href="#cb279-44" aria-hidden="true" tabindex="-1"></a>                printf<span class="op">(</span><span class="st">&quot;3=balance, 4=exit</span><span class="sc">\n\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb279-45"><a href="#cb279-45" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb279-46"><a href="#cb279-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb279-47"><a href="#cb279-47" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="cb279-48"><a href="#cb279-48" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb279-49"><a href="#cb279-49" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Note that the <code>return</code> statement is not followed by a
+<code>break</code> statement. A <code>break</code> immediately following
+a <code>return</code> can never be executed, and many compilers will
+issue a warning message.</p>
+<h2 id="the-null-statement">6.5 The Null Statement</h2>
+<p>A statement can be <strong><em>null</em></strong>—devoid of symbols
+except for the semicolon at the end.</p>
+<p>Here’s an example:</p>
+<div class="sourceCode" id="cb280"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb280-1"><a href="#cb280-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> <span class="op">;</span> j <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span></code></pre></div>
+<p>This line contains three statements: an assignment to <code>i</code>,
+a null statement, and an assignment to 5.</p>
+<p><span class="QandA"></span></p>
+<p>The null statement is primarily good for one thing: writing loops
+whose bodies are empty. As an example, recall the prime-finding loop of
+Section 6.4:</p>
+<div class="sourceCode" id="cb281"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb281-1"><a href="#cb281-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>d <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> d <span class="op">&lt;</span> n<span class="op">;</span> d<span class="op">++)</span></span>
+<span id="cb281-2"><a href="#cb281-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>n <span class="op">%</span> d <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb281-3"><a href="#cb281-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span><span class="op">;</span></span></code></pre></div>
+<p>If we move the <code>n % d == 0</code> condition into the loop’s
+controlling expression, the body of the loop becomes empty:</p>
+<div class="sourceCode" id="cb282"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb282-1"><a href="#cb282-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>d <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> d <span class="op">&lt;</span> n <span class="op">&amp;&amp;</span> n <span class="op">%</span> d <span class="op">!=</span> <span class="dv">0</span><span class="op">;</span> d<span class="op">++)</span></span>
+<span id="cb282-2"><a href="#cb282-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* empty loop body */</span> <span class="op">;</span></span></code></pre></div>
+<p>Each time through the loop, the condition <code>d &lt; n</code> is
+tested first: if it’s false, the loop terminates. Otherwise, the
+condition <code>n % d ! = 0</code> is tested, and if that’s false, the
+loop terminates. (In the latter case, <code>n % d == 0</code> must be
+true: in other words. we’ve found a divisor of <code>n</code>.)</p>
+<p>Note how we’ve put the null statement on a line by itself, instead of
+writing</p>
+<p>for (d - 2; d&lt;n&amp;&amp;n %dl=0; dt+);</p>
+<p>C programmers customarily put the null statement on a line by itself.
+Otherwise, someone reading the program might get confused about whether
+the statement after the <code>for</code> was actually its body:</p>
+<div class="sourceCode" id="cb283"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb283-1"><a href="#cb283-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>d <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> d <span class="op">&lt;</span> n <span class="op">&amp;&amp;</span> n <span class="op">%</span> d <span class="op">!=</span> <span class="dv">0</span><span class="op">;</span> d<span class="op">++);</span></span>
+<span id="cb283-2"><a href="#cb283-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>d <span class="op">&lt;</span> n<span class="op">)</span></span>
+<span id="cb283-3"><a href="#cb283-3" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;%d is divisible by %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> n<span class="op">,</span> d<span class="op">);</span></span></code></pre></div>
+<p>Converting an ordinary loop into one with an empty body doesn’t buy
+much: the new loop is often more concise but usually no more efficient.
+In a few cases, though. a loop with an empty body is clearly superior to
+the alternatives. For example, we’ll find these loops to be handy for
+reading character data.</p>
+<!-- START: div -->
+<div class="infoBox">
+<p>Accidentally putting a semicolon after the parentheses in an
+<code>if</code>, <code>while</code>, or <code>for</code> statement
+creates a null statement, thus ending the <code>if</code>,
+<code>while</code>, or <code>for</code> prematurely.</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p>In an <code>if</code> statement, putting a semicolon after the
+parentheses creates an <code>if</code> statement that apparently
+performs the same action regardless of the value of its controlling
+expression:</p>
+<div class="sourceCode" id="cb284"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb284-1"><a href="#cb284-1" aria-hidden="true" tabindex="-1"></a>it <span class="op">(</span>d <span class="op">==</span> <span class="dv">0</span><span class="op">);</span> <span class="co">/*** WRONG ***/</span></span>
+<span id="cb284-2"><a href="#cb284-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Error: Division by zero</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>The call of <code>printf</code> isn’t inside the <code>if</code>
+statement, so it’s performed regardless of whether <code>d</code> is
+equal to 0.</p>
+</li>
+<li>
+<p>In a <code>while</code> statement, putting a semicolon after the
+parentheses may create an infinite loop:</p>
+<div class="sourceCode" id="cb285"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb285-1"><a href="#cb285-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb285-2"><a href="#cb285-2" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">);</span> <span class="co">/*** WRONG ***/</span></span>
+<span id="cb285-3"><a href="#cb285-3" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb285-4"><a href="#cb285-4" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span>
+<span id="cb285-5"><a href="#cb285-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">--</span>i<span class="op">;</span></span>
+<span id="cb285-6"><a href="#cb285-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Another possibility is that the loop terminates, but the statement
+that should be the loop body is executed only once, after the loop has
+terminated:</p>
+<div class="sourceCode" id="cb286"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb286-1"><a href="#cb286-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">11</span><span class="op">;</span></span>
+<span id="cb286-2"><a href="#cb286-2" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(--</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">);</span> <span class="co">/*** WRONG ***/</span></span>
+<span id="cb286-3"><a href="#cb286-3" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;T minus 3d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span></code></pre></div>
+<p>This example prints the message</p>
+<pre class="shell"><code>T minus 0 and counting</code></pre>
+</li>
+<li>
+<p>In a <code>for</code> statement, putting a semicolon after the
+parentheses causes the statement that should be the loop body to be
+executed only once:</p>
+<div class="sourceCode" id="cb288"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb288-1"><a href="#cb288-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">10</span><span class="op">;</span> i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">;</span> i<span class="op">--)</span>    <span class="co">/*** WRONG ***/</span></span>
+<span id="cb288-2"><a href="#cb288-2" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">);</span></span></code></pre></div>
+<p>This example also prints the message</p>
+<pre class="shell"><code>T minus 0 and counting</code></pre>
+</li>
+</ul>
+<!-- END: unordered-list -->
+</div>
+<!-- END: div -->
+<hr />
+<h2 id="qa">Q&amp;A</h2>
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: The following loop appears in Section 6.1</p>
+<div class="sourceCode" id="cb290"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb290-1"><a href="#cb290-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb290-2"><a href="#cb290-2" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">--);</span></span></code></pre></div>
+<p>Why not shorten the loop even more by removing the “&gt; 0” test?</p>
+<div class="sourceCode" id="cb291"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb291-1"><a href="#cb291-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i<span class="op">)</span></span>
+<span id="cb291-2"><a href="#cb291-2" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;T minus %d and counting</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> i<span class="op">--);</span></span></code></pre></div>
+<p>This version will stop when <code>i</code> reaches 0, so it should be
+just as good as the original. [p. 101]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: The new version is certainly more concise, and many C programmers
+would write the loop in just this way. It does have drawbacks,
+though.</p>
+<p>First, the new loop is not as easy to read as the original. It’s
+clear that the loop will terminate when <code>i</code> reaches 0, but
+it’s not obvious whether we’re counting up or down. In the original
+loop, that information can be deduced from the controlling expression,
+<code>i &gt; 0</code>.</p>
+<p>Second, the new loop behaves differently than the original if
+<code>i</code> should happen to have a negative value when the loop
+begins to execute. The original loop terminates immediately, but the new
+loop doesn’t.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Section 6.3 says that, except in rare cases, <code>for</code>
+loops can be converted to <code>while</code> loops using a standard
+pattern. Can you give an example of such a case? [p. 106]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: When the body of a <code>for</code> loop contains a
+<code>continue</code> statement, the <code>while</code> pattern shown in
+Section 6.3 is no longer valid. Consider the following example from
+Section 6.4:</p>
+<div class="sourceCode" id="cb292"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb292-1"><a href="#cb292-1" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb292-2"><a href="#cb292-2" aria-hidden="true" tabindex="-1"></a>sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb292-3"><a href="#cb292-3" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>n <span class="op">&lt;</span> <span class="dv">10</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb292-4"><a href="#cb292-4" aria-hidden="true" tabindex="-1"></a>    scanf <span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">);</span></span>
+<span id="cb292-5"><a href="#cb292-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>i <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb292-6"><a href="#cb292-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span><span class="op">;</span></span>
+<span id="cb292-7"><a href="#cb292-7" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">+=</span> i<span class="op">;</span></span>
+<span id="cb292-8"><a href="#cb292-8" aria-hidden="true" tabindex="-1"></a>    n<span class="op">++;</span></span>
+<span id="cb292-9"><a href="#cb292-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>At first glance, it looks as though we could convert the
+<code>while</code> loop into a for loop:</p>
+<div class="sourceCode" id="cb293"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb293-1"><a href="#cb293-1" aria-hidden="true" tabindex="-1"></a>sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb293-2"><a href="#cb293-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> n <span class="op">&lt;</span> <span class="dv">10</span><span class="op">;</span> n<span class="op">++)</span> <span class="op">{</span></span>
+<span id="cb293-3"><a href="#cb293-3" aria-hidden="true" tabindex="-1"></a>    scanf <span class="op">(</span><span class="st">&quot;&amp;d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">);</span></span>
+<span id="cb293-4"><a href="#cb293-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>i <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb293-5"><a href="#cb293-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span><span class="op">;</span></span>
+<span id="cb293-6"><a href="#cb293-6" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">+=</span> i<span class="op">;</span></span>
+<span id="cb293-7"><a href="#cb293-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Unfortunately, this loop isn’t equivalent to the original. When
+<code>i</code> is equal to 0, the original loop doesn’t increment
+<code>n</code>, but the new loop does.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Which form of infinite loop is preferable, <code>while(1)</code>
+or <code>for(;;)</code>? [p. 108]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: C programmers have traditionally preferred <code>for(;;)</code>
+for reasons of efficiency: older compilers would often force programs to
+test the 1 condition cach time through the <code>while</code> loop. With
+modern compilers, however, there should be no difference in
+performance.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: I’ve heard that programmers should never use the
+<code>continue</code> statement. Is this true?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: It’s true that <code>continue</code> statements are rare. Still,
+<code>continue</code> is handy once in a while. Suppose we’re writing a
+loop that reads some input data, checks that it’s valid, and, if so,
+processes the input in some way. If there are a number of validity
+tests, or if they’re complex, <code>continue</code> can be helpful. The
+loop would look something like this:</p>
+<div class="sourceCode" id="cb294"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb294-1"><a href="#cb294-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(;;)</span> <span class="op">{</span></span>
+<span id="cb294-2"><a href="#cb294-2" aria-hidden="true" tabindex="-1"></a>    read data<span class="op">;</span></span>
+<span id="cb294-3"><a href="#cb294-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>data fails first test<span class="op">)</span></span>
+<span id="cb294-4"><a href="#cb294-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span><span class="op">;</span></span>
+<span id="cb294-5"><a href="#cb294-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>data fails second test<span class="op">)</span></span>
+<span id="cb294-6"><a href="#cb294-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span><span class="op">;</span></span>
+<span id="cb294-7"><a href="#cb294-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span></span>
+<span id="cb294-8"><a href="#cb294-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span></span>
+<span id="cb294-9"><a href="#cb294-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span></span>
+<span id="cb294-10"><a href="#cb294-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>data fails last test<span class="op">)</span></span>
+<span id="cb294-11"><a href="#cb294-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span><span class="op">;</span></span>
+<span id="cb294-12"><a href="#cb294-12" aria-hidden="true" tabindex="-1"></a>    process data <span class="op">;</span></span>
+<span id="cb294-13"><a href="#cb294-13" aria-hidden="true" tabindex="-1"></a><span class="op">)</span></span></code></pre></div>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: What’s so bad about the <code>goto</code> statement? [p. 114]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>The <code>goto</code> statement isn’t inherently evil; it’s just that
+we usually have better alternatives. Programs that use more than a few
+<code>goto</code> statements can quickly degenerate into “spaghetti
+code.” with control blithely jumping from here to there. Spaghetti code
+is hard to understand and hard to modify.</p>
+<p><code>goto</code> statements make programs hard to read because they
+can jump either forward or backward. (In contrast, <code>break</code>
+and <code>continue</code> only jump forward.) A program that contains
+<code>goto</code> statements often requires the reader to jump back and
+forth in an attempt to follow the flow of control.</p>
+<p><code>goto</code> statements can make programs hard to modify, since
+they make it possible for a section of code to serve more than one
+purpose. For example, a statement that is preceded by a label might be
+reachable either by “falling through™ from the previous statement or by
+executing one of several <code>goto</code> statements.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Does the null statement have any uses besides indicating that the
+body of a loop is empty? [p. 116]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Very few. Since the null statement can appear wherever a statement
+is allowed, there are many potential uses for the null statement. In
+practice, however, there’s only one other use of the null statement, and
+it’s rare.</p>
+<p>Suppose that we need to put a label at the end of a compound
+statement. A label can’t stand alone: it must always be followed by a
+statement. Putting a null statement after the label solves the
+problem:</p>
+<div class="sourceCode" id="cb295"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb295-1"><a href="#cb295-1" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb295-2"><a href="#cb295-2" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb295-3"><a href="#cb295-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">goto</span> end_of_stmt<span class="op">;</span></span>
+<span id="cb295-4"><a href="#cb295-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb295-5"><a href="#cb295-5" aria-hidden="true" tabindex="-1"></a>    end_of_stmt<span class="op">:</span> <span class="op">;</span></span>
+<span id="cb295-6"><a href="#cb295-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Are there any other ways to make an empty loop body stand out
+besides putting the null statement on a line by itself? [p. 117]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Some programmers use a dummy <code>continue</code> statement:</p>
+<div class="sourceCode" id="cb296"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb296-1"><a href="#cb296-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>d <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> d <span class="op">&lt;</span> n <span class="op">&amp;&amp;</span> n <span class="op">%</span> d <span class="op">!=</span> <span class="dv">0</span><span class="op">;</span> d<span class="op">++)</span></span>
+<span id="cb296-2"><a href="#cb296-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">continue</span><span class="op">;</span></span></code></pre></div>
+<p>Others use an empty compound statement:</p>
+<div class="sourceCode" id="cb297"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb297-1"><a href="#cb297-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>d <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> d <span class="op">&lt;</span> n <span class="op">&amp;&amp;</span> n <span class="op">%</span> d <span class="op">!=</span><span class="dv">0</span><span class="op">;</span> d<span class="op">++)</span></span>
+<span id="cb297-2"><a href="#cb297-2" aria-hidden="true" tabindex="-1"></a><span class="op">{}</span></span></code></pre></div>
+</div>
+<!-- END: div -->
+<hr />
+<h2 id="examples-4">Examples</h2>
+<ul>
+<li>Programs: <a
+href="./cknkCh06/cknkCh06Exmp/">./cknkCh06/cknkCh06Exmp/</a></li>
+</ul>
+<h2 id="exercises-4">Exercises</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh06/cknkCh06Exrc/README.md">./cknkCh06/cknkCh06Exrc/README.md</a><br />
+</li>
+<li>Readme (html): <a
+href="./cknkCh06/cknkCh06Exrc/cknkCh06ExrcReadme.html">./cknkCh06/cknkCh06Exrc/cknkCh06ExrcReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh06/cknkCh06Exrc/">./cknkCh06/cknkCh06Exrc/</a></li>
+</ul>
+<h2 id="programming-projects-4">Programming Projects</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh06/cknkCh06Prj/README.md">./cknkCh06/cknkCh06Prj/README.md</a><br />
+</li>
+<li>Readme: <a
+href="./cknkCh06/cknkCh06Prj/cknkCh06PrjReadme.html">./cknkCh06/cknkCh06Prj/cknkCh06PrjReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh06/cknkCh06Prj/">./cknkCh06/cknkCh06Prj/</a></li>
+</ul>
+<hr class="chapterDivider"/>
 <hr class="chapterDivider"/>
 </body>
 </html>
