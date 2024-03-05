@@ -5,7 +5,7 @@ Give the decimal value of each of the following integer constants.
 
 (b) 0x77
 
-(¢) 0XABC
+(c) 0XABC
 
 Which of the following are not legal constants in C? Classify each legal constant as either
 integer or floating-point.
@@ -34,16 +34,16 @@ Q 4
 (a) short unsigned int
 (b) short float
 
-(¢) longdouble
+(c) longdouble
 
 (d) unsigned long
 
-If ¢ is a variable of type char, which one of the following statements is illegal?
-@ i 4= ¢; /* i has type int */
+If c is a variable of type char, which one of the following statements is illegal?
+@ i 4= c; /* i has type int */
 
 B)c=2%*c-1;
 
-(¢) putchar (c) ;
+(c) putchar (c) ;
 
 (d) printf(c);
 
@@ -54,7 +54,7 @@ character set is ASCIL)
 
 (b) 0b1000001
 
-(¢) o101
+(c) o101
 
 (d) 0x4a1
 
@@ -137,7 +137,7 @@ again. (Don’t forget 1o update the conversion specifications in the call of pr
 try long. From these experiments, what can you conclude about the number of bits used to
 store integer types on your machine?
 
-Modify the square2 . ¢ program of Section 6.3 so that it pauses after every 24 squares and
+Modify the square2 . c program of Section 6.3 so that it pauses after every 24 squares and
 displays the following message:
 
 Press Enter to continue...
@@ -145,7 +145,7 @@ Press Enter to continue...
 After displaying the message, the program should use getchar to read a character.
 getchar won't allow the program to continue until the user presses the Enter key.
 
-Modify the sun2 . ¢ program of Section 7.1 to sum a series of double values.
+Modify the sun2 . c program of Section 7.1 to sum a series of double values.
 
 ‘Write a program that translates an alphabetic phone number into numeric form:
 
@@ -208,7 +208,7 @@ Equivalent 24-hour time: 3%
 
 See Programming Project 8 for a description of the input format.
 
-Wirite & program that counts the number of vowels (¢, ¢, i, 0, and u) in a sentence:
+Wirite & program that counts the number of vowels (c, c, i, 0, and u) in a sentence:
 
 Enter a sentence: And that's the way it is.
 Your sentence contains & vowels.
@@ -533,7 +533,7 @@ It's often the case that relatively few elements of an array need to be initiali
 explicitly: the other elements can be given default values. Consider the following
 example:
 
-intia[n51¢s 0,0, 29,0005 0, 0, Mo 1050, T, 10, 0, 0, 0 48}:
+intia[n51cs 0,0, 29,0005 0, 0, Mo 1050, T, 10, 0, 0, 0 48}:
 
 ‘We want element 2 of the array to be 29, element 9 to be 7, and element 14 to be
 48, but the other values are just zero. For a large array, writing an initializer in this
@@ -1038,7 +1038,7 @@ Variable-Length Arrays (C99)
 
 Section 8.1 stated that the length of an array variable must be specified by a con-
 stant expression. [n C99, however. it's sometimes possible to use an expression
-that’s not constant. The following modification of the reverse . ¢ program (Sec-
+that’s not constant. The following modification of the reverse . c program (Sec-
 tion 8.1) illustrates this ability:
 
 /* Reverses a series of numbers using a variable-length
@@ -2005,7 +2005,7 @@ Function Declarations
 
 In the programs in Section 9.1, the definition of each function was always placed
 above the point at which it was called. In fact, C doesn’t require that the definition
-of a function precede its calls. Suppose that we rearrange the average. ¢ pro-
+of a function precede its calls. Suppose that we rearrange the average. c pro-
 gram by putting the definition of average after the definition of main:
 
 #include <stdio.h>
@@ -2456,7 +2456,7 @@ int concatenate (int m, int n, int a[m], int b[n], int c[mn])
 {
 T
 
-The length of ¢ is the sum of the lengths of a and b. The expression used to spec-
+The length of c is the sum of the lengths of a and b. The expression used to spec-
 ify the length of c involves two other parameters, but in general it could refer to
 variables outside the function or even call other functions.
 
@@ -2620,7 +2620,7 @@ A `return` statement may appear at the end of a void function:
 
 void print_pun(void)
 
-printf("Ta ¢, or not to C: that is the guestion.\n");
+printf("Ta c, or not to C: that is the guestion.\n");
 return; /* OK, but not needed */
 
 Using return is unnecessary, though, since the function will return automatically
@@ -2798,7 +2798,7 @@ the divide-and-conquer strategy can be found in the popular sorting algorithm
 known as Quicksort. The Quicksort algorithm goes as follows (for simplicity,
 we’ll assume that the array being sorted is indexed from 1 to n):
 
-1. Choose an array element ¢ (the “partitioning element™), then rearrange the
+1. Choose an array element c (the “partitioning element™), then rearrange the
 array so that elements 1. ..., i — 1 are less than or equal to e, element i con-
 tains e, and elements i + 1, ..., n are greater than or equal to e.
 
@@ -3696,7 +3696,7 @@ srand, and rand functions, which we first used in deal . c (Section 8.2). This
 time, we're scaling the return value of rand so that it falls between 1 and
 MAX_NUMBER.
 
-Although guess. ¢ works fine, it relies on an external variable. We made
+Although guess. c works fine, it relies on an external variable. We made
 secret number external so that both choose_new_secret number and
 read_guesses could access it. If we alter chocose_new_secret number
 and read_guesses just a little, we should be able to move secret number
@@ -4013,7 +4013,7 @@ For input purposes, we'll abbreviate ranks and suits as follows (letters may be
 either upper- or lower-case):
 
 Ranks: 2 3 4 5 6 78 9t jgka
-Suits: ¢ d h s
+Suits: c d h s
 
 If the user enters an illegal card or tries to enter the same card twice, the program
 will ignore the card, issue an error message, and then request another card. Enter-
@@ -4464,11 +4464,11 @@ For each of the following scopes, list all variable and parameter names visible 
 
 (b) The g function
 
-(¢) The block in which e is declared
+(c) The block in which e is declared
 (d) The main function
 
 The following program outline shows only function definitions and variable declarations.
-int b, ¢y
+int b, cy
 
 void f(void)
 
@@ -4542,7 +4542,7 @@ instead. Each row of the array will represent a card. For example, if the array 
 hand, then hand [0] [0] will store the rank of the first card and hand [0] [1] will store
 the suit of the first card,
 
-Modify the pokex . ¢ program of Section 10.5 by having it recognize an additional cate-
+Modify the pokex . c program of Section 10.5 by having it recognize an additional cate-
 gory, “royal flush” (ace, king, queen, jack, ten of the same suit). A royal flush ranks higher
 than all other hands.
 
@@ -5395,7 +5395,7 @@ reduced numerator and reduced denominator are pointers to variables in
 which the function will store the numerator and denominator of the fraction once it has been
 reduced to lowest terms.
 
-Modify the poker . ¢ program of Section 10.5 by moving all external variables into main
+Modify the poker . c program of Section 10.5 by moving all external variables into main
 and modifying functions so that they communicate by passing arguments. The
 analyze hand function needs to change the straight, f1ush, four, three, and
 pairs variables, 5o it will have to be passed pointers to those variables. |
@@ -6559,7 +6559,7 @@ character has the code 0; the zero character has a different code (48 in ASCII).
 
 For example, the string literal "abc" is stored as an array of four characters
 
-(a, b, ¢, and \0):
+(a, b, c, and \0):
 ‘ \o |
 
 String literals may be empty: the string " " is stored as a single null character:
@@ -6791,7 +6791,7 @@ Pl =ihts /***x WRONG **%/
 P31 =" INor ST kS R TRONG Sxa e/
 
 Since p hasn’t heen initialized, we don’t know where it’s pointing. Using the
-pointer to write the characters a, b, ¢, and \0 into memory causes undefined
+pointer to write the characters a, b, c, and \0 into memory causes undefined
 behavior.
 
 Reading and Writing Strings
@@ -7693,7 +7693,7 @@ The figure at the top of the next page shows what the planets array will
 look like. Not all our strings were long enough to fill an entire row of the array, so
 C padded them with null characters. There’s a bit of wasted space in this array,
 since only three planets have names long enough (v reyuire eight characters
-(including the terminating null character). The remind. ¢ program (Section 13.5)
+(including the terminating null character). The remind. c program (Section 13.5)
 is a glaring example of this kind of waste. It stores reminders in rows of a two-
 dimensional character array, with 60 characters set aside for each reminder. In our
 example, the reminders ranged from 18 to 37 characters in length, so the amount of
@@ -8107,7 +8107,7 @@ call, and explain why the others are illegal.
 
 (b) putchar (*p) ;
 
-(¢) puts(p);
+(c) puts(p);
 
 (d) puts(*p);
 
@@ -8161,7 +8161,7 @@ equivalent to the other three?
 
 (b) stx[0] = '\0';
 
-(¢) strepy (str, "");
+(c) strepy (str, "");
 
 (d) strecat(str, "");
 
@@ -8262,7 +8262,7 @@ return pl - s;
 }
 (a) What is the value of f ("abcd", "babc")?
 (b) What is the value of f ("abcd”, "bed")?
-(¢) In general, what value does f return when passed two strings s and 7
+(c) In general, what value does f return when passed two strings s and 7
 
 Use the techniques of Section 13.6 to condense the count:_spaces function of Section
 13.4. In particular, replace the `for` statement by a `while` loop.
@@ -8319,7 +8319,7 @@ stremp to compare it with smallest_word; if the new word is “smaller,” use s
 1o save it in smallest word. Do a similar comparison with largest_word. Use
 strlen to determine when the user has entered a four-letter word.
 
-Improve the remind . ¢ program of Section 13.5 in the following ways:
+Improve the remind . c program of Section 13.5 in the following ways:
 
 (1) Have the program print an error message and ignore a reminder if the corresponding
 day is negative or larger than 31. Hinr: Use the `continue` statement.
@@ -8331,7 +8331,7 @@ enter a time, but it's treated as part of the reminder.)
 (c) Have the program print a one-year reminder list. Require the user to enter days in the
 form month/ day.
 
-Modity the deal . ¢ program of Section 8.2 so that it prints the full names of the cards it
+Modity the deal . c program of Section 8.2 so that it prints the full names of the cards it
 deals:
 312
 
@@ -8376,7 +8376,7 @@ Total: 94
 Hint: Use the atoi function to convert each command-line argument from string form to
 integer form.
 
-Improve the planet . ¢ program of Section 13.7 by having it ignore case when comparing
+Improve the planet . c program of Section 13.7 by having it ignore case when comparing
 command-line arguments with strings in the planets array.
 
 Modify Programming Project 11 from Chapter 5 5o that it uses arrays containing pointers to
@@ -8507,7 +8507,7 @@ standard input/output functions.)
 The following diagram shows the preprocessor’s role in the compilation pro-
 cess:
 
-¢ program
+c program
 
 Preprocessor
 
@@ -8527,7 +8527,7 @@ gram, containing no directives. The preprocessor’s output goes directly into t
 compiler, which checks the program for errors and translates it to object code
 (machine instructions).
 
-To see what the preprocessor does, let’s apply it to the celsius. ¢ program
+To see what the preprocessor does, let’s apply it to the celsius. c program
 of Section 2.6. Here’s the original program:
 
 /* Converts a Fahrenheit temperature to Celsius */
@@ -8858,7 +8858,7 @@ Here's a more complicated macro that behaves like a function:
 #define TOUPPER(c) ('a'<=(c)&&(c)<='z'2(c)-'a'+'a':(c))
 
 This macro tests whether the character c is between 'a' and 'z'. If so, it pro
-duces the upper-case version of ¢ by subtracting 'a' and adding 'A'. If not, it
+duces the upper-case version of c by subtracting 'a' and adding 'A'. If not, it
 leaves e unchanged. (The <ctype . h> header provides a similar function named
 toupper that’s more portable.)
 
@@ -9274,7 +9274,7 @@ printf ("Compiled on %s at $s\n", _ DATE_, _ TIME_);
 
 Each time it begins to execute, the program will print two lines of the form
 
-Wacky Windows (c¢) 2010 Wacky Software, Inc.
+Wacky Windows (cc) 2010 Wacky Software, Inc.
 Compiled on Dec 23 2010 at 22:18:48
 
 This information can be helpful for distinguishing among different versions of the
@@ -9859,8 +9859,8 @@ file foo.c:
 #line 10 "bar.c"
 
 Let’s say that the compiler detects an error on line 5 of foo .. c. The error message
-will refer to line 13 of file bar . ¢, not line 5 of file f00. c. (Why line 13? The
-directive occupies line 1 of f60. ¢, 5o the renumbering of f00 . ¢ begins at line 2,
+will refer to line 13 of file bar . c, not line 5 of file f00. c. (Why line 13? The
+directive occupies line 1 of f60. c, 5o the renumbering of f00 . c begins at line 2,
 which is treated as line 10 of bar. c.)
 
 At first glance, the #1ine directive is mystifying. Why would we want crror
@@ -9873,7 +9873,7 @@ example of such a program is yacc (Yet Another Compiler-Compiler), a UNIX
 utility that automatically generates part of a compiler. (The GNU version of yacc
 is named bison.) Before using yace, the programmer prepares a file that con-
 tains information for yacc as well as fragments of C code. From this file, yace
-generates a C program, y . tab. ¢, that incorporates the code supplied by the pro-
+generates a C program, y . tab. c, that incorporates the code supplied by the pro-
 grammer. The programmer then compiles y . tab . c in the usual way. By inserting
 #1line directives in y.tab.c, yacc tricks the compiler into believing that the
 code comes from the original file—the one written by the programmer. As a result,
@@ -10009,7 +10009,7 @@ an odd result. What’s going on?
 Thanks to rules that Kernighan and Ritchie call “bizarre,” macros whose replace-
 ment lists depend on ## usually can’t be called in a nested fashion. The problem is
 that CONCAT {a, CONCAT (b, c) ) isn’t expanded in a “normal” fashion, with
-CONCAT (b, ¢) yielding be, then CONCAT (a, be) giving abe. Macro parame-
+CONCAT (b, c) yielding be, then CONCAT (a, be) giving abe. Macro parame-
 ters that are preceded or followed by ## in a replacement list aren’t expanded at
 *Q:
 
@@ -10017,8 +10017,8 @@ sgrt function >23.5
 
 Q&A 343
 
-the time of substitution. As a result, CONCAT (a, CONCAT (b, ¢) ) expands to
-aCONCAT (b, ¢) , which can’t be expanded further. since there’s no macro named
+the time of substitution. As a result, CONCAT (a, CONCAT (b, c) ) expands to
+aCONCAT (b, c) , which can’t be expanded further. since there’s no macro named
 aCONCAT.
 
 There’s a way to solve the problem, but it’s not pretty. The trick is to define a
@@ -10026,7 +10026,7 @@ second macro that simply calls the first one:
 
 Hidefine CONCAT2 (x,y) CONCAT(x,y)
 
-Writing CONCAT2 (a, CONCAT2 (b, ¢) ) now yields the desired result. As the
+Writing CONCAT2 (a, CONCAT2 (b, c) ) now yields the desired result. As the
 preprocessor expands the outer call of CONCAT2, it will expand CONCAT2 (b, c)
 as well: the difference is that CONCAT2’s replacement list doesn’t contain ##. If
 none of this makes any sense, don't worry; it's not a problem that arises often.
@@ -10150,7 +10150,7 @@ Exercises
 
 (2) The cube of x.
 (b) The remainder when n is divided by 4.
-(¢) 1if the product of % and v is less than 100, 0 otherwise.
+(c) 1if the product of % and v is less than 100, 0 otherwise.
 
 Do your macros always work? If not, describe what arguments would make them fail.
 Write a macro NELEVMS (a) that computes the number of elements in a one-dimensional
@@ -10228,7 +10228,7 @@ return x > y ? X : y; \
 
 (b) Explain why GENERIC MAX doesn’t work for basic types such as unsigned long.
 
-(¢) Describe a technique that would allow us to use GENERTC_MAX with basic types such
+(c) Describe a technique that would allow us to use GENERTC_MAX with basic types such
 as unsigned long. Hint: Don't change the definition of GENERIC MAX.
 
 Supposc we want a macro that expands into a string containing the current line number and
@@ -10248,7 +10248,7 @@ Write the following parameterized macros.
 
 (a) CHECK(x,y,n) — Has the value | if both x and y fall between 0 and n — 1, inclusive.
 (b) MEDIAN (x,y, z) — Finds the median of x. y. and z.
-(¢) POLYNOMIAL (x) — Computes the polynomial 3x° + 2x! — 5x° — 2% + 7x— 6.
+(c) POLYNOMIAL (x) — Computes the polynomial 3x° + 2x! — 5x° — 2% + 7x— 6.
 
 Functions can often—but not always—be written as parameterized macros. Discuss what
 characteristics of a function would make it unsuitable as a macro.
@@ -10274,7 +10274,7 @@ Which of the following tests will fail?
 
 (b) #ifdef M
 
-(¢) #ifndef M
+(c) #ifndef M
 
 (d) #if defined (M)
 
@@ -10497,7 +10497,7 @@ discuss them in more detail later in this section. By convention, header files h
 the extension . h.
 
 Note: The C standard uses the term “source file” to refer to all files written by
-the programmer, including both . ¢ and . h files. I'll use “source file™ to refer to
+the programmer, including both . c and . h files. I'll use “source file™ to refer to
 . c files only.
 
 The #include Directive
@@ -10546,7 +10546,7 @@ locate the file, such as a directory path or drive specifier:
 
 Although the quotation marks in the #include directive make file names look
 like string literals. the preprocessor doesn’t treat them that way. (That’s fortunate,
-since \ ¢ and \u—which appear in the Windows example—would be treated as
+since \ c and \u—which appear in the Windows example—would be treated as
 escape sequences in a string literal.)
 
 It's wsually best not to include path or drive information in #include
@@ -10698,7 +10698,7 @@ int pop (void) ;
 (To avoid complicating the example, is_empty and is_full will return int
 values instead of Boolean values.) We'll include stack.h in calc.c to allow
 the compiler to check any calls of stack functions that appear in the latter file.
-We'll also include stack.hin stack. ¢ so the compiler can verify that the pro-
+We'll also include stack.hin stack. c so the compiler can verify that the pro-
 
 totypes in stack.h match the definitions in stack.c. The following figure
 shows stack.h, stack.c, and calc.c:
@@ -10793,7 +10793,7 @@ Ny
 while another file contains the declaration
 extern long i;
 
-An error of this kind ¢an cause the program to behave unpredictably.
+An error of this kind can cause the program to behave unpredictably.
 
 To avoid inconsistency, declarations of shared variables are usually put in
 header files. A source file that needs access to a particular variable can then
@@ -10837,7 +10837,7 @@ Protecting Header Files
 If a source file includes the same header file twice. compilation errors may result.
 This problem is common when header files include other header files. For exam-
 ple, suppose that filel.h includes file3.h, file2.h includes file3.h,
-and prog . ¢ includes both filel.h and file2.h (see the figure at the top of
+and prog . c includes both filel.h and file2.h (see the figure at the top of
 the next page). When prog. c is compiled, f11e3 . h will be compiled twice.
 
 Including the same header file twice doesn’t always cause a compilation error.
@@ -10923,7 +10923,7 @@ our case). Into foo.h, we'll put prototypes for the functions defined in foo.c.
 (Functions that are designed for use only within foo.ec need not—and should
 not—be declared in foo.h. The read_char function in our next program is an
 example.) We'll include foo.h in each source file that needs to call a function
-defined in foo. c. Moreover, we'll include foo. hin f00. ¢ so that the compiler
+defined in foo. c. Moreover, we'll include foo. hin f00. c so that the compiler
 can check that the function prototypes in foo . h are consistent with the definitions
 in foo.c.
 
@@ -10941,7 +10941,7 @@ file named quote that contains the following (poorly formatted) quotation from
 tory of Programming Languages II, edited by T. J. Bergin, Jr., and R. G. Gibson,
 Jr., Addison-Wesley. Reading, Mass., 1996, pages 671-687):
 
-¢ is quirky, flawed, and an
+c is quirky, flawed, and an
 enormous success. Although accidents of history
 surely helped, it evidently satisfied a meed
 
@@ -11372,8 +11372,8 @@ pile all source files, not just the ones that were affected by our most recent c
 To make it easier to build large programs, UNIX originated the concept of the
 makefile, a file containing the information necessary to build a program. A make-
 file not only lists the files that are part of the program, but also describes depen-
-dencies among the files. Suppose that the file foo. ¢ includes the file baxr . h. We
-say that foo . ¢ “depends” on bar . h, because a change to bar . h will require us
+dencies among the files. Suppose that the file foo. c includes the file baxr . h. We
+say that foo . c “depends” on bar . h, because a change to bar . h will require us
 to recompile foo. c.
 
 Here's a UNIX makefile for the justify program. The makefile uses GCC
@@ -11386,7 +11386,7 @@ justify.o: justify.c word.h line.h
 gee -c justify.c
 
 word.o: word.c word.h
-gec -c¢ word.c
+gec -cc word.c
 
 line.o: line.c line.h
 gee -c line.c
@@ -11508,7 +11508,7 @@ recompiled after a change, we need to consider two possibilities.
 The first possibility is that the change affects a single source file. In that case,
 only that file must be recompiled. (After that, the entire program will need to be
 relinked, of course.) Consider the justify program. Suppose that we decide to
-condense the read_char function in word. ¢ (changes are marked in bold):
+condense the read_char function in word. c (changes are marked in bold):
 
 int read char (void)
 
@@ -11598,7 +11598,7 @@ peedefined macros > 14.3
 15.4 Building a Multiple-File Program 371
 
 Once we've made these changes, we'll rebuild the justify program by recom-
-piling word. ¢ and justify . c and then relinking. There’s no need to recompile
+piling word. c and justify . c and then relinking. There’s no need to recompile
 line.c, which doesn't include word.h and therefore won't be affected by
 changes to it. With the GCC compiler, we could use the following command to
 rebuild the program:
@@ -11637,7 +11637,7 @@ value of a macro to be specified on the command line:
 gce -DDERUG=1 foo.c
 
 In this example, the DEBUG macro is defined to have the value 1 in the program
-foo. ¢, justas if the line
+foo. c, justas if the line
 
 #define DEBUG 1
 
@@ -11657,12 +11657,12 @@ You don’t have any examples that use the #include directive to include a
 source file. What would happen if we were to do this?
 
 That’s not a good practice, although it’s not illegal. Here’s an example of the kind
-of trouble you can get into. Suppose that foo . ¢ defines a function f that we'll
+of trouble you can get into. Suppose that foo . c defines a function f that we'll
 need inbar. c and baz. c, so we put the directive
 
 #include "foo.c!
 
-in both bar . ¢ and baz. c. Each of these files will compile nicely. The problem
+in both bar . c and baz. c. Each of these files will compile nicely. The problem
 comes later, when the linker discovers two copies of the object code for f. Of
 course, we would have gotten away with including foo. c if only bar.c had
 included it, not baz.c as well. To avoid problems, it's best (o use #include
@@ -11723,10 +11723,10 @@ Q: I needed to call a function in the file foo.e, so I included the matching
 header file, foo. h. My program compiled, but it won’t link. Why?
 
 A:  Compilation and linking are completely separate in C. Header files exist to provide
-information to the compiler, not the linker. If you want to call a function in foo. ¢,
-then you have to make sure that f0o. ¢ is compiled and that the linker is aware
+information to the compiler, not the linker. If you want to call a function in foo. c,
+then you have to make sure that f0o. c is compiled and that the linker is aware
 that it must search the object file for foo.c to find the function. Usually this
-means naming f0o. ¢ in the program’s makefile or project file.
+means naming f0o. c in the program’s makefile or project file.
 
 Q: If my program calls a function in <stdio.h>, does that mean that all func-
 tions in <stdio.h> will be linked with the program?
@@ -11752,7 +11752,7 @@ Section 15.2 @ 2. Whichof the following should rot be put in 4 header file? Why 
 (b) Function definitions
 374 Chapter 15 Writing Large Programs
 
-(¢) Macro definitions
+(c) Macro definitions
 (d) Type definitions
 
 3. We saw that writing #include <file> instead of #include "file" may not work if file is
@@ -11807,13 +11807,13 @@ return 0;
 
 (b) What is the output if the #define directive is removed from testdebug.c?
 
-(¢) Explain why the output is different in parts (a) and (b).
+(c) Explain why the output is different in parts (a) and (b).
 
 (d) Is it necessary for the DEBUG macro to be defined before debug . h is included in order
 for PRINT_DEBUG (o have the desired effect? Justify your answer.
 
-Section 15.4 5. Suppose that a program consists of three source files—main.c, f1.¢, and f2 .c—plus
-1wo header files, f1. h and f2 . h. All three source files include f1. h, but only f1. ¢ and
+Section 15.4 5. Suppose that a program consists of three source files—main.c, f1.c, and f2 .c—plus
+1wo header files, f1. h and f2 . h. All three source files include f1. h, but only f1. c and
 f2.c include f2.h, Write a makefile for this program, assuming that the compiler is gcc
 and that the executable file is to be named demo.
 
@@ -11846,7 +11846,7 @@ quicksort . c include this file.
 
 Modify the remind. c program of Section 13.5 so that the read line function is in a
 separate file named readline. c. Create a header file named readline.h that contains
-4 prototype for the function and have both remind. ¢ and readline.c include this file.
+4 prototype for the function and have both remind. c and readline.c include this file.
 
 Modify Programming Project 6 from Chapter 10 so that it has separate stack.h and
 stack. c files, as described in Section 15.2.
@@ -13100,7 +13100,7 @@ int sizes;
 }i
 
 Notice that the union (named item) is a member of the catalog item
-structure, and the book, mug, and shirt structures are members of item. If ¢ is
+structure, and the book, mug, and shirt structures are members of item. If c is
 acatalog_item structure that represents a book, we can print the book’s title in
 the following way:
 
@@ -13613,16 +13613,16 @@ Section 16.2
 
 o 2
 
-(a) Declare structure variables named c1. c2, and ¢3, each having members real and
+(a) Declare structure variables named c1. c2, and c3, each having members real and
 imaginary of type double,
 
 (b) Modify the declaration in part (a) so that c1's members initially have the values 0.0 and
-1.0, while ¢2’s members are 1.0 and 0.0 initially. (23 is not initialized.)
+1.0, while c2’s members are 1.0 and 0.0 initially. (23 is not initialized.)
 
-(¢) Write statements that copy the members of 2 into 1. Can this be done in one state-
+(c) Write statements that copy the members of 2 into 1. Can this be done in one state-
 ment, or does it require two?
 
-(d) Write statements that add the corresponding members of ¢1 and 2, storing the result
+(d) Write statements that add the corresponding members of c1 and 2, storing the result
 ine3.
 
 (a) Show how to declare a tag named complex for a structurc with two members, real
@@ -13630,7 +13630,7 @@ and imaginary. of type double.
 
 (b) Use the complex tag to declare variables named c1, c2, and c3.
 
-(¢) Write a function named make_complex that stores its two arguments (both of type
+(c) Write a function named make_complex that stores its two arguments (both of type
 double) in a complex structure, then returns the structure.
 
 (d) Write a function named add_complex that adds the corresponding members of its
@@ -13707,7 +13707,7 @@ If any argument is greater than 255, the corresponding member of the structure w
 
 (b) int getRed(struct coler c);
 
-Returns the value of ¢’s red member,
+Returns the value of c’s red member,
 
 () bool equal_color (struct color colerl, struct color colorz);
 Returns true if the corresponding members of colorl and coloxr2 are equal.
@@ -13715,16 +13715,16 @@ Returns true if the corresponding members of colorl and coloxr2 are equal.
 (d) struct color brighter(struct celor c);
 
 Returns a colox structure that represents a brighter version of the color c. The structure is
-identical to ¢, except that each member has been divided by 0.7 (with the result truncated to
-an integer). However, there are three special cases: (1) If all members of ¢ are zero, the
-function returns a color whose members all have the value 3. (2) If any member of ¢ is
+identical to c, except that each member has been divided by 0.7 (with the result truncated to
+an integer). However, there are three special cases: (1) If all members of c are zero, the
+function returns a color whose members all have the value 3. (2) If any member of c is
 greater than 0 but less than 3. it is replaced by 3 before the division by 0.7. (3) If dividing by
 0.7 causes a member to exceed 255, it is reduced to 255.
 
 (e) struct color darker(struct color c);
 
 Retumns a color structure that represents a darker version of the color e, The structure is
-identical to ¢, except that each member has been multiplied by 0.7 (with the result truncated
+identical to c, except that each member has been multiplied by 0.7 (with the result truncated
 10 an integer).
 
 The following structures are designed to store information about ohjects on a graphics
@@ -13747,7 +13747,7 @@ argument:
 (b) Compute the center of r. returning it as a point value. If either the x or y coordinate of
 the center isn't an integer, store its truncated value in the point structure.
 
-(¢) Move r by x units in the x direction and y units in the y direction, returning the modi-
+(c) Move r by x units in the x direction and y units in the y direction, returning the modi-
 
 fied version of r. (x and y are additional arguments to the function.)
 
@@ -13768,7 +13768,7 @@ struct {
 double a;
 union (
 char b[4];
-double ¢;
+double c;
 inkt d;
 } es
 char ff[4];
@@ -13814,7 +13814,7 @@ stores the radius of a circle, Indicate which of the following statements are le
 how to repair the ones that aren’t:
 (a) s.shape kind = RECTANGLE;
 (b) s.center.x = 10;
-(¢) s.height = 25;
+(c) s.height = 25;
 (@) s.u.rectangle.width = 8;
 (e) s.u.circle = 5;
 (f) s.u.radius = 5;
@@ -13840,7 +13840,7 @@ following operations on a shape structure s passed as an argument;
 (b) Move s by x units in the x direction and y units in the y direction, rcturning the modi-
 fied version of s. (x and y are additional arguments ta the function.)
 
-(¢) Scale s by a factor of ¢ (a double value), returning the modified version of s. (¢ is an
+(c) Scale s by a factor of c (a double value), returning the modified version of s. (c is an
 additional argument to the function.)
 
 (a) Declare a tag for an enumeration whose values represent the seven days of the week.
@@ -13858,7 +13858,7 @@ Which of the following statements about enumeration constants are true?
 
 (d) All constants in an enumeration must have different values.
 
-(¢) Enumeration constants may be used as integers in expressions.
+(c) Enumeration constants may be used as integers in expressions.
 
 Suppose that b and i are declared as follows:
 
@@ -13888,7 +13888,7 @@ the type of a piece and its color.
 (c) Using the Square type from part (b), declare an 8 x 8 array named board that can
 store the entire contents of a chesshoard.
 
-(d) Add an initializer to the declaration in part (¢) so that board’s initial value corresponds
+(d) Add an initializer to the declaration in part (c) so that board’s initial value corresponds
 to the usual arrangement of pieces at the start of a chess game. A square that's not occupied
 by a piece should have an “empty” piece value and the color black.
 
@@ -14084,7 +14084,7 @@ if ((p = walloc{10000)) NULL) {
 }
 
 The NULL macro is defined in six headers: <locale.h>, <stddef.h>,
-<stdio.h>, ¢<stdlib.h>, <string.h>, and <time.h>. (The C99 header
+<stdio.h>, c<stdlib.h>, <string.h>, and <time.h>. (The C99 header
 <wchar . h> also defines NULL.) As long as one of these headers is included in a
 program, the compiler will recognize NULL. A program that uses any of the mem-
 ory allocation functions will include <stdlib.hs>, of course, making NUIT.T,
@@ -14155,7 +14155,7 @@ will point to an uninitialized array of n + 1 characters:
 Calling strepy is one way to initialize this array:
 strepy (p, "abe');
 
-The first four characters in the array will now be a. b, ¢, and \ 0:
+The first four characters in the array will now be a. b, c, and \ 0:
 
 Using Dynamic Storage Allocation in String Functions
 
@@ -15455,7 +15455,7 @@ that we choose.
 Since the elements of the array that it sorts may be of any type—even a struc-
 ture or union type—gsor t must be told how to determine which of two array ele-
 ments is “smaller”” We'll provide this information to gsort by writing a
-comparison function. When given two pointers p and ¢ to array elements, the
+comparison function. When given two pointers p and c to array elements, the
 comparison function must return an integer that is negative if *p is “less than” *q,
 
 17.7 Pointers to Functions 441
@@ -17343,7 +17343,7 @@ There are two ways to avoid this error. One option is to add the word static
 to the function definition:
 
 static inline double average (dcuble a, double b)
-return (a + b) / 2¢
+return (a + b) / 2c
 average now has internal linkage, so it can’t be called from other files. Other
 
 files may contain their own definitions of average, which might be the same as
@@ -17668,7 +17668,7 @@ fiers, declarators, and ini
 
 (b) volatile unsigned long io_flags;
 
-(¢) extern char *file_name [MAX FILES], path[];
+(c) extern char *file_name [MAX FILES], path[];
 (d) static const char token buf[] = "";
 
 declarations, identify the storage class, type qualifiers, type speci-
@@ -17684,7 +17684,7 @@ shared by several files?
 (b) Suppose that a variable x is to be shared by several functions in one file but hidden from
 functions in other files. Which storage class should x be declured to have?
 
-(¢) Which storage classcs can affect the storage duration of a variable?
+(c) Which storage classcs can affect the storage duration of a variable?
 
 List the storage duration (static or automatic), scope (block or file), and linkage (internal,
 external, or none) of each variable and parameter in the following file:
@@ -17722,7 +17722,7 @@ State whether each of the following statements is true or false. Justify each an
 
 (b) Every variable declared inside a function has no linkage.
 
-(¢) Every variable with internal linkage has static storage duration.
+(c) Every variable with internal linkage has static storage duration.
 
 (d) Every parameter has block scope.
 
@@ -17798,7 +17798,7 @@ int (*f(float (*) (long), char *)) (double);
 Which of the following declarations are legal? (Assume that PT is a macro that represents
 3.14159.)
 
-(@) char ¢ = 65;
+(@) char c = 65;
 
 () static int i = 5, § = 1 * i;
 
@@ -17811,7 +17811,7 @@ Which kind of variables cannot be initialized?
 
 (b) Enumcration variables
 
-(¢) Suructure variables
+(c) Suructure variables
 
 (d) Union variables
 
@@ -18504,7 +18504,7 @@ struct stack type {
 int contents [STACK SIZE];
 
 int top;
-Here’s what stackaDT . ¢ will look like:
+Here’s what stackaDT . c will look like:
 #include <stdio.h>
 
 #include <stdlib.h>
@@ -18637,7 +18637,7 @@ and pop (which returns a value of type Ttem). The bodies of push and pop are
 unchanged.
 
 The stackelient.c file can be used to test the new stackADT.h and
-stackADT. ¢ to verify that the Stack type still works (it does!). Now we can
+stackADT. c to verify that the Stack type still works (it does!). Now we can
 change the item type any time we want by simply modifying the definition of the
 Item type in stackADT.h. (Although we won't have to change the stack-
 ADT. c file, we'll still need to recompile it.)
@@ -18791,7 +18791,7 @@ Chapter 19 Program Design
 
 stackADT3.c
 
-Our implementation will be similar to the one in the stack2. ¢ file of Sec-
+Our implementation will be similar to the one in the stack2. c file of Sec-
 tion 19.2. The linked list will consist of nodes, represented by the following struc-
 ture:
 
@@ -19168,9 +19168,9 @@ queue . hto take a Queue * parameler.
 (a) Add a peek function to stackADT. c. This function will have a parameter of type
 Stack. When called, it returns the top item on the stack but doesn’t modify the stack.
 
-(b) Repeat part (a), modifying stackaDT2 . ¢ this time.
-(¢) Repeat part (a), modifying stackADT3 . c this time.
-Modify stackADT2 . ¢ so that a stack automatically doubles in size when it becomes full.
+(b) Repeat part (a), modifying stackaDT2 . c this time.
+(c) Repeat part (a), modifying stackADT3 . c this time.
+Modify stackADT2 . c so that a stack automatically doubles in size when it becomes full.
 Have the push function dynamically allocate a new array that’s twice as large as the old
 
 one and then copy the stack contents from the old array to the new one. Be sure to have
@@ -19183,7 +19183,7 @@ Section 19.4. You may use any of the implementations of the ADT described in tha
 Modify Programming Project 6 from Chapter 10 so that it uses the stack ADT described in
 Section 19.4. You may use any of the implementations of the ADT described in that section.
 
-Modify the stackADT3. ¢ file of Section 19.4 by adding an int member named len to
+Modify the stackADT3. c file of Section 19.4 by adding an int member named len to
 the stack_type structure. This member will keep track of how many items are currently
 stored in a stack. Add a new function named length that has a Stack parameter and
 returns the value of the 1en member. (Some of the existing functions in stackADT3 .c
@@ -19192,7 +19192,7 @@ function (and displays the value that it returns) after each operation that modi
 
 Modify the stackADT . h and stackADT3 . c files of Section 19.4 so that a stack stores
 values of type void *, as described in Section 19.5; the Item type will no longer be used.
-Modify stackelient. ¢ so that it stores pointers to strings in the s1 and s2 stacks.
+Modify stackelient. c so that it stores pointers to strings in the s1 and s2 stacks.
 Programming Projects 507
 
 Starting from the queue . h header of Exercise I, create a file named queueADT .1 that
@@ -19203,7 +19203,7 @@ typedef struct gueue type *Queue;
 queue type is an incomplete structure type. Create a file named queueADT . c that con-
 tains the full definition of queue_type as well as definitions for all the functions in
 queue. h. Use a fixed-length array to store the items in a queue (see Exercise 3(a)). Create
-a file named gqueueclient . ¢ (similar to the stackcelient . c file of Section 19.4) that
+a file named gqueueclient . c (similar to the stackcelient . c file of Section 19.4) that
 creates two queues and performs operations on them. Be sure to provide create and
 destroy functions for your ADT.
 
@@ -19529,7 +19529,7 @@ character, z:
 XOR Q 00 (ASCII code for \)
 01111010 (ASCII code for z)
 
-The following program, xor . ¢, encrypts a message by XORing each charac-
+The following program, xor . c, encrypts a message by XORing each charac-
 ter with the & character. The original mes can be entered by the user or read
 from a file using input redirection; the encrypted message can be viewed on the
 screen or saved in a file using output redirection. For example, suppose that the file
@@ -20708,17 +20708,17 @@ float c;
 
 The value of offsetof (struct s, a) must be 0; C guarantees that the first
 member of a structure has the same address as the structure itself. We can't say for
-sure what the offsets of b and ¢ are. One possibility is that of fsctof (struct
+sure what the offsets of b and c are. One possibility is that of fsctof (struct
 s, b) is 1 (since a is one byte long), and of fsetof (struct s, c) is 9
 (assuming 32-bit integers). However, some compilers leave “holes”—unused
 bytes—in structures (see the Q&A section at the end of Chapter 16), which can
 affect the value produced by of fsetof. If a compiler should leave a three-byte
-hole after a, for example, then the offsets of b and ¢ would be 4 and 12, respec-
+hole after a, for example, then the offsets of b and c would be 4 and 12, respec-
 tively. But that’s the beauty of of fsetof: it produces the correct offsets for any
 compiler, enabling us to write portable programs.
 
 There are various uses for of fsetof. For example, suppose that we want to
-save the first two members of an s structure in a file, ignoring the ¢ member.
+save the first two members of an s structure in a file, ignoring the c member.
 Instead of having the fwrite function write sizecf (struct s) bytes, which
 would save the entire structure, we'll tell it to write only of fsetof (struct s,
 c) bytes.
@@ -20812,7 +20812,7 @@ Section 21.2
 
 The Standard Library
 
-(¢) What's the advantage of using an array to implement these macros?
+(c) What's the advantage of using an array to implement these macros?
 
 #define UPPER 0x01 /* upper-case letter */
 #define _LOWER 0x02 /* lower-case letter */
@@ -20856,7 +20856,7 @@ In which standard header would you expect to find each of the following?
 Programming Projects
 
 Write a program that declares the s structure (see Section 21.4) and prints the sizes and off-
-sets of the a, b, and ¢ members. (Use sizeof (o find sizes; use of fsetof to find off-
+sets of the a, b, and c members. (Use sizeof (o find sizes; use of fsetof to find off-
 sets.) Have the program print the size of the entire structure as well. From this information,
 determine whether or not the structure has any holes. If it does, describe the location and
 size of each.
@@ -21738,7 +21738,7 @@ write double values. However, they work fine with float values as well;
 thanks to the default argument promotions, float arguments are converted
 automatically to double when passed to a function with a variable number of
 arguments. Similarly, a character passed to ..printf is converted automati-
-cally to int, so the ¢ conversion works properly.
+cally to int, so the c conversion works properly.
 
 Be careful to follow the rules described here: the effect of using an invalid conver-
 sion specification is undefined.
@@ -21829,7 +21829,7 @@ allows the result of a floating-point operation to be infinity, negative infinit
 or NaN (“not a number”). For example, dividing 1.0 by 0.0 yields positive
 infinity, dividing —1.0 by 0.0 yields negative infinity, and dividing 0.0 by 0.0
 yields NaN (because the result is mathematically undefined). In C99, the a, A,
-¢, E, f. F, g, and G conversion specifiers are capable of converting these spe-
+c, E, f. F, g, and G conversion specifiers are capable of converting these spe-
 cial values to a form that can be displayed. a, e. f, and g convert positive
 infinity to inf or infinity (either one is legal), negative infinity to -inf
 or -infinity, and NaN to nan or -nan (possibly followed by a series of
@@ -22186,7 +22186,7 @@ Numeric data items can always begin with a sign (+ or -). The o, u, x, and X
 specifiers convert the item to unsigned form, however, so they’re not normally used
 to read negative numbers.
 
-The [ specifier is a more complicated (and more flexible) version of the ¢
+The [ specifier is a more complicated (and more flexible) version of the c
 specifier. A complete conversion specification using [ has the form % [ser] or
 % [“set], where set can be any set of characters. (If ] is one of the characters in
 sef, however. it must come first.) % [ser] matches any sequence of characters in ser
@@ -22204,7 +22204,7 @@ Conversion Functions
 
 A
 
-malches any string containing only the letters a, b, and ¢, while % [*abc]
+malches any string containing only the letters a, b, and c, while % [*abc]
 matches any string that doesn't contain a, b, or .
 Many of the ..scanf conversion specifiers are closely related to the numeric
 COIWEA‘aiuu [unctions in <stdlib.hs. These functions convert strings (like
@@ -22500,7 +22500,7 @@ int getc (FILE *stream);
 
 int getchar(veid) ;
 
-int ungetc(int ¢, FILE *stream);
+int ungetc(int c, FILE *stream);
 
 getchar reads a character from the stdin stream:
 ch = getchar() ; /* reads a character from stdin */
@@ -22586,9 +22586,9 @@ Copying a File
 
 The following program makes a copy of a file. The names of the original file and
 the new file will be specified on the command line when the program is executed.
-For example, to copy the file f1.c to f2. ¢, we'd use the command
+For example, to copy the file f1.c to f2. c, we'd use the command
 
-fcopy fl.c f2.¢
+fcopy fl.c f2.c
 
 feopy will issue an error message if there aren’t exactly two file names on the
 command line or if either file can’t be opened.
@@ -23401,7 +23401,7 @@ situations:
 (b) A mail program opens a file of saved messages so that it can add additional messages to
 the end.
 
-(¢) A graphics program opens a file containing a picture to be displayed on the screen,
+(c) A graphics program opens a file containing a picture to be displayed on the screen,
 
 (d) An operating system command interpreter opens a “shell seript” (or “batch file”) con-
 taining commands to be executed
@@ -23471,16 +23471,16 @@ dard input stream?
 
 (b) getchar()
 
-(¢) getc(stdin)
+(c) getc(stdin)
 
 (d) fgetc (stdin)
 
-The Ecopy . ¢ program has one minor flaw: it doesn't check for errors as it's writing to the
+The Ecopy . c program has one minor flaw: it doesn't check for errors as it's writing to the
 destination file. Errors during writing are rare, but do occasionally occur (the disk might
 become full, for example). Show how to add the missing error check to the program, assum-
 ing that we want it to display a message and terminate immediately if an error occurs.
 
-The following loop appears in the fcopy . ¢ program:
+The following loop appears in the fcopy . c program:
 
 while ((ch = getc(scurce fp)) != EOF)
 putc (ch, dest_fp) ;
@@ -23548,7 +23548,7 @@ whose data is arranged in 64-byte “records.” Use fp as the file pointer in e
 (a) Move to the beginning of record n. (Assume that the first record in the file is record 0.)
 (b) Move to the beginning of the last record in the file.
 
-(¢) Move forward one record.
+(c) Move forward one record.
 
 (d) Move backward two records.
 
@@ -23567,7 +23567,7 @@ string variable named sales_rank.
 
 Programming Projects
 
-Extend the canopen . ¢ program of Section 22.2 so that the user may put any number of
+Extend the canopen . c program of Section 22.2 so that the user may put any number of
 file names on the command line:
 
 canopen foo bar baz
@@ -23583,9 +23583,9 @@ Programming Projects 585
 
 Write a program named fcat that “concatenates™ any number of files by writing them to
 standard output, one after the other, with no break between files. For example, the following
-command will display the files f1.c, f2.c, and f3 . ¢ on the screen:
+command will display the files f1.c, f2.c, and f3 . c on the screen:
 
-foat fl.c f2.¢ f3.C!
+foat fl.c f2.c f3.C!
 
 fcat should issue an error message if any file can’t be opened. Hinr: Since it has no more
 than one file open at a time, fcat needs only a single file pointer variable. Once it’s fin-
@@ -23677,7 +23677,7 @@ will cause uncompress_file to open the file foo.txt.rle and write an uncom-
 pressed version of its contents to foo. txt. uncompress_file should display an error
 message if its command-line argument doesn’t end with the . rle extension.
 
-Modify the inventory . ¢ program of Section 16.3 by adding two new operations:
+Modify the inventory . c program of Section 16.3 by adding two new operations:
 m Save the database in a specified file.
 m Load the database from a specified file.
 
@@ -23773,7 +23773,7 @@ Chapter 22 Input/Output
 
 17.
 
-Modify the fcopy . ¢ program of Section 22.4 so that it uses fread and fwrite to copy
+Modify the fcopy . c program of Section 22.4 so that it uses fread and fwrite to copy
 the file in blocks of 512 bytes. (The last block may contain fewer than 512 bytes, of course.)
 
 Write a program that reads a series of phone numbers from a file and displays them in a
@@ -24226,7 +24226,7 @@ The exp function returns e raised to a power:
 exp(3.0) = 20.0855
 
 log is the inverse of exp—it computes the logarithm of a number to the base
-¢. 1og10 computes the “common” (base 10) logarithm:
+c. 1og10 computes the “common” (base 10) logarithm:
 
 log(20.0855) = 3.0
 10g10(1000) = 3.0
@@ -25100,7 +25100,7 @@ In other words, we could replace the statement
 
 a=b*ca+d;
 with
-a = fma(b, ¢, d);
+a = fma(b, c, d);
 
 This function was added to C99 because some newer CPUs have a “fused multi-
 ply-add” instruction that both multiplies and adds. Calling fma tells the compiler
@@ -25235,14 +25235,14 @@ int isalnum(int
 int isalpha (int
 int isblank(int c
 int iscntrl (int c
-int isdigit (int ¢
-int isgraph(int ¢
-int islower(int ¢
+int isdigit (int c
+int isgraph(int c
+int islower(int c
 int isprint(int c
 int ispunct(int c)
 int isspace(int c)
 int isupper(int c);
-int isxdigit(int ¢);
+int isxdigit(int c);
 Table 23.10
 Character-Classification
 Functions
@@ -25260,24 +25260,24 @@ particular property. Table 23.10 lists the property that each function tests.
 
 Function Test
 isalnum(c)  Isc alphanumeric?
-isalpha(c) Is ¢ alphabetic?
-isblank(c) Is ¢ a blank?"
+isalpha(c) Is c alphabetic?
+isblank(c) Is c a blank?"
 
-isentrl (¢) Is ¢ a control charueter?’
+isentrl (c) Is c a control charueter?’
 
 isdigit(c) Is c a decimal digit?
 
-isgraph (¢) Is c a printing character (other than a space)?
+isgraph (c) Is c a printing character (other than a space)?
 islower (c) Is c a lower-case letter?
 
-isprint(c) Is ¢ a printing character (including a space)?
+isprint(c) Is c a printing character (including a space)?
 ispunct (c)  Isc punctuation?'"!
 
-isspace(c) Is ¢ a white-space character?' !
+isspace(c) Is c a white-space character?' !
 
-isupper (c) Is ¢ an upper-case letter?
+isupper (c) Is c an upper-case letter?
 
-isxdigit(e) Is ¢ a hexadecimal digit?
+isxdigit(e) Is c a hexadecimal digit?
 
 "Ihe standard blank characters are space and horizontal tab (\t ). This
 function is new in C99,
@@ -25292,9 +25292,9 @@ iage return (\ ), horizontal tab (\t), and vertical tab (\v),
 o
 
 The C99 definition of ispunct is slightly different than the one in C89. In
-C89, ispunct (c¢) tests whether c is a printing character but not a space or a
+C89, ispunct (cc) tests whether c is a printing character but not a space or a
 character for which isalnum(c) is true. In C99, ispunct (c) tests whether
-c is a printing character for which neither isspace (¢) nor isalnum(c) is
+c is a printing character for which neither isspace (c) nor isalnum(c) is
 true.
 
 Testing the Character-Classification Functions
@@ -25821,7 +25821,7 @@ for applications in which a string contains a series of fields separated by a de
 
 Miscellaneous Functions
 
-void *memset(void *s, int ¢, size t n);
+void *memset(void *s, int c, size t n);
 size_t strlen(const char *s);
 
 memseL stores multiple copies of a character in a specified area of memory. If p
@@ -25955,7 +25955,7 @@ element in position 0,
 (b) Deleting the first character in a null-terminated string by moving all other characters
 back onc position.
 
-(¢) Copying a string into a character array that may not be large enough to hold it, If the
+(c) Copying a string into a character array that may not be large enough to hold it, If the
 array is too small, assume that the string is to be truncated; no null character is ncees-
 sary at the end.
 
@@ -26015,7 +26015,7 @@ any sequence of non-white-space characters. count words is allowed to modify the
 string.
 
 Programming Projects
-‘Write a program that finds the roots of the equation ¢ + bx + ¢ = 0 using the formula
+‘Write a program that finds the roots of the equation c + bx + c = 0 using the formula
 
 _ —bt/b2—4ac
 
@@ -26023,7 +26023,7 @@ _ —bt/b2—4ac
 
 G
 
-Have the program prompt for the values of a, b, and ¢, then print both values of x. (If b2
+Have the program prompt for the values of a, b, and c, then print both values of x. (If b2
 4ac is negative, the program should instcad print a message to the effect that the roots are
 complex.)
 
@@ -26120,12 +26120,12 @@ nothing. If the argument’s value is zero, assert wriles a message to stderr
 (the standard error stream) and calls the abort function to terminate program
 execution.
 
-For example, let’s say that the file demo. ¢ declares an array a of length 10.
+For example, let’s say that the file demo. c declares an array a of length 10.
 We're concerned that the statement
 
 ali]l = o;
 
-in demo . ¢ might cause the program to fail because i isn’t between 0 and 9. We
+in demo . c might cause the program to fail because i isn’t between 0 and 9. We
 can use assert to check this condition beforc we perform the assignment to
 alil:
 
@@ -26239,7 +26239,7 @@ domain error.
 
 u Range errors (ERANGE): A function’s return value is too large to be repre-
 sented in the function’s return type. For example, passing 1000 to the exp
-function usually causes a range error, because ¢'° is too large to represent as
+function usually causes a range error, because c'° is too large to represent as
 a double on most computers.
 
 Some functions can experience both kinds of errors; by comparing errno to
@@ -27473,7 +27473,7 @@ would have its bits split into groups of five bits and six bits. The five-bit gr
 25.2 Multibyte Characters and Wide Characters 651
 
 prefixed by 110 and the six-bit group is prefixed by 10. For example, the code
-point for the character ¢ is E4 (hexadecimal) or 11100100 (binary). In UTE-8, it
+point for the character c is E4 (hexadecimal) or 11100100 (binary). In UTE-8, it
 would be represented by the two-byte sequence 11000011 10100100. Note how
 the underlined portions, when joined together, spell out 00011100100.
 
@@ -28031,7 +28031,7 @@ swprintf
 lowing:
 
 = The %c conversion specifier is used when the corresponding argument has
-type int. [f the 1 length modifier is present (making the conversion 21¢), the
+type int. [f the 1 length modifier is present (making the conversion 21c), the
 argument is assumed to have type wint_t. In either case, the corresponding
 argument is written as a wide character.
 
@@ -28058,7 +28058,7 @@ multibyte characters before being stored.
 swprintf writes wide characters into an array of wehar_t elements. It's
 similar to sprintf and snprintf but not identical to either one. Like
 snprintf, it uses the parameter n to limit the number of (wide) characters that it
-will write. However, sworint¢ returns the number of wide characters actually
+will write. However, sworintc returns the number of wide characters actually
 written, not including the null character. In this respect, it resembles sprintf
 rather than snprintf, which returns the number of characters that would have
 been written (not including the null character) had there been no length restriction.
@@ -28086,7 +28086,7 @@ wint_t fgetwc (FILE *stream);
 wchar t *fgetws(wchar t * restrict s, int m,
 FILE * regtrict stream);
 
-wint_t fputwe(wchar t ¢, FiLk *stream);
+wint_t fputwe(wchar t c, FiLk *stream);
 
 int fputws(const wchar t * restrict s,
 FILE * restrict stream);
@@ -28346,7 +28346,7 @@ wchar_t *wecstok(wchar t * restrict si,
 const wchar t * restrict s2,
 
 wechar t *#* restrict ptr);
-wchar_t *wmemchr (const wchar t *s, wchar t ¢,
+wchar_t *wmemchr (const wchar t *s, wchar t c,
 
 gize t n);
 
@@ -28404,7 +28404,7 @@ of westok, a pointer to the same variable should be supplied as the third argu-
 ment; the value of this variable must not be changed between calls of westok.,
 
 To see how westok works, let’s redo the example of Section 23.6. Assume
-that str, p, and ¢ are declared as follows:
+that str, p, and c are declared as follows:
 wchar t str[] = L" April 28,1998";
 wchar t #p, *q;
 
@@ -28426,7 +28426,7 @@ D now points to the first character in 1998.
 Miscellaneous Functions
 
 size t woslen(const wehar t *s);
-wchar t *wmemset (wchar t *s, wchar t ¢, size t n);
+wchar t *wmemset (wchar t *s, wchar t c, size t n);
 Table 25.18
 Miscellancous Wide-String
 Functions and Their
@@ -28511,11 +28511,11 @@ int wctob(wint t c);
 The functions in this group convert single-byte characters to wide characters and
 vice versa,
 
-The btowe function returns WEOF if c is equal to EOF or if ¢ (when cast to
+The btowe function returns WEOF if c is equal to EOF or if c (when cast to
 unsigned char) isn't a valid single-byte character in the initial shift state. Oth-
 erwise, btowc returns the wide-character representation of c.
 
-The wetob function is the oppasite of btowe. It returns EOF if ¢ doesn’t
+The wetob function is the oppasite of btowe. It returns EOF if c doesn’t
 correspond to one multibyte character in the initial shift state. Otherwise, it returns
 the single-byte representation of c.
 
@@ -28931,7 +28931,7 @@ be represented by the string "d\x297\xe0 wvu".
 
 (b) créme brilée
 
-(¢) créme fraiche
+(c) créme fraiche
 
 (d) Fahrvergniigen
 
@@ -29573,7 +29573,7 @@ usually want rand to produce a different sequence each time the program is run.
 lar.) The easiest way to “randomize” the seed values is to call the time function,
 which returns a number that encodes the current date and time. Passing time’s
 return value to srand makes the behavior of rand vary from one run to the next.
-See the guess. c and guess2. ¢ programs (Section 10.2) for examples of this
+See the guess. c and guess2. c programs (Section 10.2) for examples of this
 technigue.
 PROGRAM
 
@@ -29973,7 +29973,7 @@ The clock function returns a clock t value representing the processor time
 used by the program since execution began. To convert this value to seconds, we
 can divide it by CLOCKS_PER_SEC, a macro defined in <time.h>.
 
-When ¢1ock is used to determine how long a program has been running, it’s
+When c1ock is used to determine how long a program has been running, it’s
 customary to call it twice: once at the beginning of main and once just before the
 program terminates:
 
@@ -30220,7 +30220,7 @@ Conversion Replacement
 2A Full weekday name (e.g.. Sunday)
 %b Abbreviated month name (e.g., Jun)
 %B Full month name (e.g., June)
-%c Complete day and time (¢.g., Sun Jun 3 17:48:34 2007)
+%c Complete day and time (c.g., Sun Jun 3 17:48:34 2007)
 acf Year divided by 100 and truncated to an integer (00-99)
 %d Day of month (01-31)
 Eholl Equivalent to $m/%d/%y
@@ -30563,7 +30563,7 @@ applying / and % to negative operands doesn’t give a portable result in C89. I
 defined, as is the sign of i % j. The answers computed by div and 1div, on the
 other hand, don’t depend on the implementation. The quotient is rounded toward
 zero; the remainder is computed according to the formulan = g X d + r, where n is
-the original number, ¢ is the quotient, d is the divisor, and r is the remainder. Here
+the original number, c is the quotient, d is the divisor, and r is the remainder. Here
 are a few examples:
 
 n d q r
@@ -30669,7 +30669,7 @@ Section 26.3 12.
 
 (a) atoi (str)
 (b) atol (str)
-(¢) atoll(str)
+(c) atoll(str)
 
 Although the bseaxrch function is normally used with a sorted array, it will sometimes
 work correctly with an array that is only partially sorted. What condition must an array sat-
@@ -30688,7 +30688,7 @@ Section 26.3 described some of the ISO 8601 date and time formats. Here are a fe
 53, and D is a digit between 1 through 7, beginning with Monday and ending with Sun-
 day
 
-(¢) Combined datc and time: ¥YYY-MM-DDThh:mm:ss
+(c) Combined datc and time: ¥YYY-MM-DDThh:mm:ss
 
 Give strftime strings that correspond to each of these formats.
 
@@ -30958,7 +30958,7 @@ WCHAR_MIN 0/ i nsigrod) Minimum wchar_t value
 WCHAR MAX 2255 (if unsigned) Maximum wchar _t value
 WINT MIN Sl Minimum wint_t value
 -~ 0 (if unsigned) ]
-WINT_MAX 2432767 (if signed)  npirmum wine ¢ valve
+WINT_MAX 2432767 (if signed)  npirmum wine c valve
 
 265535 (if unsigned)
 
@@ -31707,7 +31707,7 @@ long double creall(long double complex z);
 The carg function returns the argument (phase angle) of z, with a branch cut
 along the negative real axis. The return value lies in the interval [, +7].
 
-The ¢imag function returns the imaginary part of z.
+The cimag function returns the imaginary part of z.
 
 The conj function returns the complex conjugate of z.
 
@@ -31727,9 +31727,9 @@ _ b Jb? dac
 2a
 In general, the value of x will be a complex number, because the square root of b -
 4ac is imaginary if b° - dac (known as the discriminant) is less than 0.
-For example, suppose that a =5, b =2, and ¢ = 1, which gives us the equation
+For example, suppose that a =5, b =2, and c = 1, which gives us the equation
 
-5S¢ +2x+1=0
+5Sc +2x+1=0
 
 The value of the discriminant is 4 20 = 16, so the roots of the equation will be
 quadratic.c
@@ -31749,7 +31749,7 @@ functions, computes and displays the roots.
 int main(void)
 
 {
-double a = 5, b =2, ¢ = 1;
+double a = 5, b =2, c = 1;
 double complex discriminant sqrt = csqgrt(b * b - 4 * a * c);
 double complex rootl = (-b + discriminant_sqrt) / (2 * a);
 double complex root2 = (-b - discriminant sqrt) / (2 * a);
@@ -32425,7 +32425,7 @@ sin
 b=
 
 (C99) Write a program that displays the nth roots of unity when given a positive integer n.
-The nth roots of unity are given by the formula ¢’ where k is an integer between 0 and
+The nth roots of unity are given by the formula c’ where k is an integer between 0 and
 =l
 APPENDIX A
 C Operators
@@ -33358,7 +33358,7 @@ the key isn’t found. 262
 btowe Convert Byte to Wide Character (C99) <wchar .h>
 wint_t btowc(int c);
 
-Retuns ~ Wide-character representation of c. Returns WEOF if c is cqual to EOF or if ¢
+Retuns ~ Wide-character representation of c. Returns WEOF if c is cqual to EOF or if c
 (when cast to unsigned char) isn’t a valid single-byte character in the initial
 shift state. 255
 
@@ -33471,7 +33471,7 @@ clearerr Clear Stream Error <stdio.h>
 void clearerr (FILE *stream);
 Clears the end-of-file and error indicators for the stream pointed to by st ream.
 223
-c¢lock Processor Clock <time.h>
+cclock Processor Clock <time.h>
 clock t clock(void) ;
 Returns  Elapsed processor time (measured in “clock ticks™) since the beginning of program
 execution. (To convert into seconds, divide by CLOCKS_PER_SEC.) Returns
@@ -33806,9 +33806,9 @@ Writes output to the stream pointed to by stream. The stwring pointed to by
 format specifies how subsequent arguments will be displayed.
 Returns  Number of characters written. Returns a negative value if an error occurs. 223
 fputc Write Character to File <stdio.h>
-int fputc(int ¢, FILE *stream);
+int fputc(int c, FILE *stream);
 Writes the character c to the stream pointed to by stream.
-Returns ¢ (the character written). If a write error vccurs, fpute sets the stream’s error
+Returns c (the character written). If a write error vccurs, fpute sets the stream’s error
 indicator and returns EQF. 224
 fputs Write String to File <stdio.h>
 int fputs(const char * restrict s,
@@ -34031,31 +34031,31 @@ Returns A structure of type imaxdiv t containing members named quot (the quotien
 when numer is divided by denom) and rem (the remainder). The behavior is
 undefined if either part of the result can’t be represented. 272
 isalnum Test for Ajphanumeric <ctype.hs
-int isalnum(int ¢);
-Returns A nonzero value if ¢ is alphanumeric and zero otherwise. (c is alphanumeric if
+int isalnum(int c);
+Returns A nonzero value if c is alphanumeric and zero otherwise. (c is alphanumeric if
 either isalpha (c) or isdigit (c) is true.) 235
 isalpha T7est for Alphabetic <ctype.h>
-int isalpha (int ¢);
+int isalpha (int c);
 Returns A nonzero value if c is alphabetic and zero otherwise. In the "C" locale, c is
 alphabetic if either islower (c) or isupper (c) is true. 235
 isblank Test for Blank (C99) <ctype.hs
 int isblank(int c);
-Returns A nonzero value if ¢ is a blank character that is used to separate words within a
+Returns A nonzero value if c is a blank character that is used to separate words within a
 line of text. In the " C" locale. the blank characters are space (! ') and horizontal
 tab (*\t'). 235
 iscntrl Testfor Control Character <ctype.h>
 int iscntrl ERG ) a
-Returns A nonzero value if ¢ is a control character and zero otherwise. 235
+Returns A nonzero value if c is a control character and zero otherwise. 235
 isdigit Testfor Digit <ctype.h>
 int isdigit(int c);
-Returns A nonzero value if ¢ is a decimal digit and zero otherwise. 23.5
+Returns A nonzero value if c is a decimal digit and zero otherwise. 23.5
 isfinite Test for Finite Number (C99) <math.hs>
 int isfinite (real-floating x) ; macro
 Returns A nonzero value if x is finite (zero, subnormal, or normal, but not infinite or NaN)
 and zero otherwise. 234
 isgraph Test for Graphical Character <ctype.h>
 int isgraph(int c);
-Returns A nonzero value if ¢ is a printing character (except a space) and zero otherwise.
+Returns A nonzero value if c is a printing character (except a space) and zero otherwise.
 235
 isgreater Testfor Greater Than (C99) <math.h>
 
@@ -34116,15 +34116,15 @@ Returns A nonzero value if c is a printing character (including a space) and zer
 ispunct Test for Punctuation Character <ctype.h>
 int ispunct(int c);
 
-Returns A nonzero value if ¢ is a punctuation character and zero otherwise. All printing
+Returns A nonzero value if c is a punctuation character and zero otherwise. All printing
 characters except the space (' ') and the alphanumeric characters are considered
 punctuation, C99 change: In the "C" locale, all printing characters except those
 for which igspace or isalnum is truc are considered punctuation. 235
 
 isspace Testfor White-Space Character <ctype.h>
-int isspace(int ¢);
+int isspace(int c);
 
-Returns A nonzero value if ¢ is a white-space character and zero otherwise. In the "C"
+Returns A nonzero value if c is a white-space character and zero otherwise. In the "C"
 locale, the white-space characters are space (' '), form feed (' \f'), new-line
 ('\n'), carriage return (' \x '), horizontal tab (' \t '), and vertical tab (' \v').
 
@@ -34135,9 +34135,9 @@ int isunordered (real-floating x, real-floating y) ; macro
 Returns 1 if x and y are unordered (at least one is a NaN) and 0 otherwise. 234
 
 isupper Testfor Upper-Case Letter <ctype.h>
-int isupper(int ¢);
+int isupper(int c);
 
-Returns A nonzero value if ¢ is an upper-case letter and zero otherwise, 235
+Returns A nonzero value if c is an upper-case letter and zero otherwise, 235
 
 iswalnum Test for Alphanumeric Wide Character (C99) <wctype.h>
 int iswalnum(wint_t wc);
@@ -34507,10 +34507,10 @@ memchr
 Returns
 
 Search Memory Block for Character <string.h>
-void *memchr (const void *s, int ¢, size t n);
+void *memchr (const void *s, int c, size t n);
 
-A pointer (o the first occurrence of the character ¢ among the first n characters of
-the object pointed to by s, Returns a null pointer if ¢ isn’t found. 236
+A pointer (o the first occurrence of the character c among the first n characters of
+the object pointed to by s, Returns a null pointer if c isn’t found. 236
 
 memcmp
 
@@ -34555,7 +34555,7 @@ memset
 Initialize Memory Block <string.h>
 void *memset (void *s, int c, size t n);
 
-Stores ¢ in each of the first n characters of the object pointed to by s.
+Stores c in each of the first n characters of the object pointed to by s.
 
 Returns s (a pointer to the object). 236
 mktime Convert Broken-Down Local Time to Calendar Time <time.h>
@@ -34630,21 +34630,21 @@ Returns  Numbcr of characters written. Returns a negative value if an error occu
 
 putc Write Character to File <stdio.h>
 int putc(int e, FILE *stream);
-Writes the character ¢ to the stream pointed to by stream. Nofe: putc is nor-
+Writes the character c to the stream pointed to by stream. Nofe: putc is nor-
 mally implemented as a macro; it may evaluate st ream more than once.
 
-Returns ¢ (the character written). If a write error occurs, putc sets the stream’s error indi-
+Returns c (the character written). If a write error occurs, putc sets the stream’s error indi-
 cator and returns EOF. 224
 
 putchar Write Character <stdia.h>
 
 int putchar(int c);
 
-Writes the character ¢ to the stdout stream. Nore: putchar is normally imple-
+Writes the character c to the stdout stream. Nore: putchar is normally imple-
 mented as a macro.
 Appendix D Standard Library Functions 779
 
-Returns ¢ (the character written). If a write error occurs, putchar sets the stream's error
+Returns c (the character written). If a write error occurs, putchar sets the stream's error
 indicator and returns EOF. 7.3,224
 puts Write String <stdio.h>
 int puts(const char *s);
@@ -34652,7 +34652,7 @@ Writes the string pointed to by s to the stdout stream, then writes a new-line
 character.
 Returns A nonnegative value if successful. Returns EOF if a write error oceurs.  13.3, 225
 putwc Write Wide Character to File (C99) <wchar.hs
-wint_t putwc(wchar t ¢, FILE *stream);
+wint_t putwc(wchar t c, FILE *stream);
 Wide-character version of putc. 265
 putwchar Write Wide Character (C99) <wchar.hs>
 wint_t putwchar(wchar t c);
@@ -34880,7 +34880,7 @@ char *strchr(const char *s, int c);
 
 Returns A pointer o the first occurrence of the character c in the string pointed to by s.
 
-Returns a null pointer if ¢ isn't found. 236
+Returns a null pointer if c isn't found. 236
 stremp String Comparison <string.h>
 int strcmp(const char *sl, const char *s2);
 
@@ -35009,7 +35009,7 @@ Search String in Reverse for Character <string.hs
 char *strrchr(const char *s, int c);
 
 A pointer to the last occurrence of the character c in the string pointed to by &.
-Returns a null pointer if ¢ isn’t found. 236
+Returns a null pointer if c isn’t found. 236
 
 strspn
 
@@ -35286,15 +35286,15 @@ Returns A pointer to the file name. Returns a null pointer if a file name can’
 222
 tolower Convert to Lower Case <ctype.h>
 int tolower (int c);
-Returns  1f ¢ is an upper-case letter, returns the corresponding lower-case letter. If ¢ isn’t an
-upper-case letter, returns ¢ unchanged. 235
+Returns  1f c is an upper-case letter, returns the corresponding lower-case letter. If c isn’t an
+upper-case letter, returns c unchanged. 235
 toupper Convert to Upper Case <ctype.h>
 
 int toupper(int c);
 Appendix D Standard Library Functions ~ 791
 
-Returns  If ¢ is a lower-case letter, returns the corresponding upper-case letter. If c isn’t a
-lower-case letter, returns ¢ unchanged. 235
+Returns  If c is a lower-case letter, returns the corresponding upper-case letter. If c isn’t a
+lower-case letter, returns c unchanged. 235
 towctrans Transliterate Wide Character (C99) <wctype.h>
 wint_t towctrans(wint_t wc, wctrans_t desc);
 Returns  Mapped value of wc using the mapping described by desc. (desc must be a
@@ -35317,13 +35317,13 @@ truncl long double truncl (long double x);
 Returns % rounded to the integer (in floating-point formar) nearest to it but no larger in
 magnitude. 234
 ungetc Unread Character <stdio.h>
-int ungetc(int ¢, FILE *stream);
-Pushes the character ¢ back onto the stream pointed to by stream and clears the
+int ungetc(int c, FILE *stream);
+Pushes the character c back onto the stream pointed to by stream and clears the
 stream’s end-of-file indicator. The number of characters that can be pushed back
 by consecutive calls of ungetc varies; only the first call is guaranteed to succeed.
 Calling a file positioning function (Eseek, fsetpos, or rewind) causes the
 pushed-back character(s) to be lost.
-Returns ¢ (the pushed-back character). Returns EOF if an attempt is made to push back
+Returns c (the pushed-back character). Returns EOF if an attempt is made to push back
 EOF or to push back too many characters without a read or file positioning opera-
 tion. 224
 ungetwc Unread Wide Character (C99) <wchar.h>
@@ -35649,11 +35649,11 @@ size t wesxfrm(wchar t * restrict si,
 const wchar t * restrict s2, size t n);
 ‘Wide-character version of strxfrm. 255
 wctob  Convert Wide Character to Byte (C99) <wchar . h>
-int wctob(wint_t ¢);
+int wctob(wint_t c);
 
-Returns  Single-byte representation of ¢ as an unsigned char converted to int. Returns
+Returns  Single-byte representation of c as an unsigned char converted to int. Returns
 
-EQF if ¢ doesn’t correspond to one multibyte character in the initial shift state.
+EQF if c doesn’t correspond to one multibyte character in the initial shift state.
 255
 wctomb Convert Wide Character to Multibyte Character <stdlib.h>
 int wctomb(char *s, wchar_t we);
@@ -35701,7 +35701,7 @@ wchar t *wmemmove (wchar t *sl, const wchar t *s2,
 silze t n);
 Wide-character version of memmove 255
 wmemset Initialize Wide-Character Memory Block (C99) <wchar.h>
-wchar t *wmemset (wchar t *s, wchar_t ¢, size t n);
+wchar t *wmemset (wchar t *s, wchar_t c, size t n);
 ‘Wide-character version of memset. 255
 wprintf Wide-Character Formatted Write (C99) <wchar.h»
 int wprintf (const wchar t * restrict format, ...);
@@ -35735,7 +35735,7 @@ Decimal  Oct  Hex  Char  Character
 17 NEEE At del (*Q) | 49 1 81 Q 113 g
 18 22 N0 G2 (R [+50 12 82 R 114 r
 19 Vgl e dc3 (7S) 51 3|8 S 115 s
-20 \2¢ \x14 ded ("T) 52 4|8 T 116 t
+20 \2c \x14 ded ("T) 52 4|8 T 116 t
 21 N25  \x15 nak ("U) | 53 5 |8 U 117 u
 22 \26 \x16 syn ("V) 54 6 86 v 118 v
 23 X270 \xLT eb Wl S5 T 18T Wl 119w
@@ -35860,7 +35860,7 @@ ANSI eStandards Store (webstore.ansi.org). The C99 standard (ISO/IEC
 9899:1999) can be purchased at this site. Each set of corrections to the stan-
 dard (known as a Technical Corrigendum) can be downloaded for free.
 
-comp.lang.c Frequently Asked Questions (¢-fag.com). Steve Summit’s FAQ list for
+comp.lang.c Frequently Asked Questions (c-fag.com). Steve Summit’s FAQ list for
 the comp.lang.c newsgroup is a must-read for any C programmer.
 
 Dinkumware (www.dinkumware.com). Dinkumware is owned by P. J. Plauger, the

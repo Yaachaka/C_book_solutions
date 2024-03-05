@@ -4652,7 +4652,7 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb232-1"><a href="#cb2
 <span id="cb232-23"><a href="#cb232-23" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb232-24"><a href="#cb232-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
 <span id="cb232-25"><a href="#cb232-25" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<p>Note how <code>square.¢</code> displays numbers in neatly aligned
+<p>Note how <code>square.c</code> displays numbers in neatly aligned
 columns. The trick is to use a conversion specification like
 <code>%10d</code> instead of just <code>%d</code>, taking advantage of
 the fact that printf right-justifies numbers when a field width is
@@ -6740,7 +6740,7 @@ read and ignore all remaining characters in the current input line:</p>
 <div class="sourceCode" id="cb326"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb326-1"><a href="#cb326-1" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span> <span class="op">{</span>    </span>
 <span id="cb326-2"><a href="#cb326-2" aria-hidden="true" tabindex="-1"></a>    scanf <span class="op">(</span><span class="st">&quot;%c&quot;</span><span class="op">,</span> <span class="op">&amp;</span>ch<span class="op">);</span></span>
-<span id="cb326-3"><a href="#cb326-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span> <span class="cf">while</span> <span class="op">(</span>¢h <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">);</span></span></code></pre></div>
+<span id="cb326-3"><a href="#cb326-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span> <span class="cf">while</span> <span class="op">(</span>ch <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">);</span></span></code></pre></div>
 <p>When <code>scanf</code> is called the next time, it will read the
 first character on the next input line.</p>
 <h3
@@ -7088,7 +7088,7 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb338-1"><a href="#cb3
 <span id="cb338-8"><a href="#cb338-8" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> d<span class="op">;</span></span>
 <span id="cb338-9"><a href="#cb338-9" aria-hidden="true" tabindex="-1"></a><span class="dt">long</span> <span class="dt">double</span> ld<span class="op">;</span></span>
 <span id="cb338-10"><a href="#cb338-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb338-11"><a href="#cb338-11" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> i <span class="op">+</span> c<span class="op">;</span> <span class="co">/* ¢ is converted to int */</span></span>
+<span id="cb338-11"><a href="#cb338-11" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> i <span class="op">+</span> c<span class="op">;</span> <span class="co">/* c is converted to int */</span></span>
 <span id="cb338-12"><a href="#cb338-12" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> i <span class="op">+</span> s<span class="op">;</span> <span class="co">/* s is converted to int */</span></span>
 <span id="cb338-13"><a href="#cb338-13" aria-hidden="true" tabindex="-1"></a>u <span class="op">=</span> u <span class="op">+</span> i<span class="op">;</span> <span class="co">/* i is converted to unsigned int */</span></span>
 <span id="cb338-14"><a href="#cb338-14" aria-hidden="true" tabindex="-1"></a>l <span class="op">=</span> l <span class="op">+</span> u<span class="op">;</span> <span class="co">/* u is converted to long int */</span></span>
@@ -7109,7 +7109,7 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb339-1"><a href="#cb3
 <span id="cb339-3"><a href="#cb339-3" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> f<span class="op">;</span></span>
 <span id="cb339-4"><a href="#cb339-4" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> d<span class="op">;</span></span>
 <span id="cb339-5"><a href="#cb339-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb339-6"><a href="#cb339-6" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> c<span class="op">;</span> <span class="co">/* ¢ is converted to int */</span></span>
+<span id="cb339-6"><a href="#cb339-6" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> c<span class="op">;</span> <span class="co">/* c is converted to int */</span></span>
 <span id="cb339-7"><a href="#cb339-7" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> i<span class="op">;</span> <span class="co">/* i is converted to float */</span></span>
 <span id="cb339-8"><a href="#cb339-8" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> f<span class="op">;</span> <span class="co">/* f is converted to double */</span></span>
 <span id="cb339-9"><a href="#cb339-9" aria-hidden="true" tabindex="-1"></a></span>
@@ -7125,7 +7125,7 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb339-1"><a href="#cb3
 give a meaningless result (or worse) if the value is outside the range
 of the variable’s type:</p>
 <div class="sourceCode" id="cb340"><pre
-class="sourceCode c"><code class="sourceCode c"><span id="cb340-1"><a href="#cb340-1" aria-hidden="true" tabindex="-1"></a>¢ <span class="op">=</span> <span class="dv">10000</span><span class="op">;</span> <span class="co">/*** WRONG ***/</span></span>
+class="sourceCode c"><code class="sourceCode c"><span id="cb340-1"><a href="#cb340-1" aria-hidden="true" tabindex="-1"></a>c <span class="op">=</span> <span class="dv">10000</span><span class="op">;</span> <span class="co">/*** WRONG ***/</span></span>
 <span id="cb340-2"><a href="#cb340-2" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="fl">1.0e20</span><span class="op">;</span> <span class="co">/*** WRONG ***/</span></span>
 <span id="cb340-3"><a href="#cb340-3" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> <span class="fl">1.0e100</span><span class="op">;</span> <span class="co">/*** WRONG ***/</span></span></code></pre></div>
 <p>A “narrowing” assignment may elicit a warning from the compiler or

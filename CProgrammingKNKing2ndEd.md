@@ -3935,7 +3935,7 @@ int main(void)
 }
 ```
 
-Note how `square.¢` displays numbers in neatly aligned columns. The trick is to use a conversion specification like `%10d` instead of just `%d`, taking advantage of the fact that printf right-justifies numbers when a field width is specified.
+Note how `square.c` displays numbers in neatly aligned columns. The trick is to use a conversion specification like `%10d` instead of just `%d`, taking advantage of the fact that printf right-justifies numbers when a field width is specified.
 
 ### 6.1.3 Summing a Series of Numbers
 
@@ -5604,7 +5604,7 @@ Since `scanf` doesn’t normally skip white space, it’s easy to detect the end
 ```C
 do {    
     scanf ("%c", &ch);
-} while (¢h != '\n');
+} while (ch != '\n');
 ```
 
 When `scanf` is called the next time, it will read the first character on the next input line.
@@ -5844,7 +5844,7 @@ float f;
 double d;
 long double ld;
 
-i = i + c; /* ¢ is converted to int */
+i = i + c; /* c is converted to int */
 i = i + s; /* s is converted to int */
 u = u + i; /* i is converted to unsigned int */
 l = l + u; /* u is converted to long int */
@@ -5864,7 +5864,7 @@ int i;
 float f;
 double d;
 
-i = c; /* ¢ is converted to int */
+i = c; /* c is converted to int */
 f = i; /* i is converted to float */
 d = f; /* f is converted to double */
 
@@ -5882,7 +5882,7 @@ i = -842.97; /* i is now -842 */
 Moreover, assigning a value to a variable of a narrower type will give a meaningless result (or worse) if the value is outside the range of the variable's type:
 
 ```C
-¢ = 10000; /*** WRONG ***/
+c = 10000; /*** WRONG ***/
 i = 1.0e20; /*** WRONG ***/
 f = 1.0e100; /*** WRONG ***/
 ```
