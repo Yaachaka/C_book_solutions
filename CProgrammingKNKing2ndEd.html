@@ -7771,6 +7771,971 @@ href="./cknkCh07/cknkCh07Prj/cknkCh07PrjReadme.html">./cknkCh07/cknkCh07Prj/cknk
 href="./cknkCh07/cknkCh07Prj/">./cknkCh07/cknkCh07Prj/</a></li>
 </ul>
 <hr class="chapterDivider"/>
+<h1 id="arrays">8 Arrays</h1>
+<!-- START: div -->
+<div class="theQuote">
+<p>If a program manipulates a large amount of data, it does so in a
+small number of ways.</p>
+</div>
+<!-- END: div -->
+<p>So far, the only variables we’ve seen are
+<strong><em>scalar</em></strong>: capable of holding a single data item,
+C also supports <strong><em>aggregate</em></strong> variables, which can
+store collections of values. There are two kinds of aggregates in C:
+arrays and structures. This chapter shows how to declare and use arrays,
+both one-dimensional (Section 8.1) and multidimensional (Section 8.2).
+Section 8.3 covers C99’s variable-length arrays. The focus of the
+chapter is on one-dimensional arrays, which play a much bigger role in C
+than do multidimensional arrays. Later chapters (Chapter 12 in
+particular) provide additional information about arrays; Chapter 16
+covers structures.</p>
+<h2 id="one-dimensional-arrays">8.1 One-Dimensional Arrays</h2>
+<p>An <strong><em>array</em></strong> is a data structure containing a
+number of data values, all of which have the same type. These values,
+known as <strong><em>elements</em></strong>, can be individually
+selected by their position within the array.</p>
+<p>The simplest kind of array has just one dimension. The elements of a
+one dimensional array are conceptually arranged one after another in a
+single row (or column, if you prefer). Here’s how we might visualize a
+one-dimensional array named <code>a</code>:</p>
+<figure>
+<img src="images/dim1Array.jpg" alt="one dimensional array a" />
+<figcaption aria-hidden="true">one dimensional array a</figcaption>
+</figure>
+<p>To declare an array, we must specify the type of the array’s elements
+and the number of elements. For example, to declare that the array a has
+10 elements of type <code>int</code>, we would write</p>
+<div class="sourceCode" id="cb375"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb375-1"><a href="#cb375-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">10</span><span class="op">];</span></span></code></pre></div>
+<p>The elements of an array may be of any type; the length of the array
+can be specified by any (integer) constant expression. Since array
+lengths may need to be adjusted when the program is later changed, using
+a macro to define the length of an array is an excellent practice:</p>
+<div class="sourceCode" id="cb376"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb376-1"><a href="#cb376-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define N 10</span></span>
+<span id="cb376-2"><a href="#cb376-2" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span>
+<span id="cb376-3"><a href="#cb376-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span>N<span class="op">];</span></span></code></pre></div>
+<h3 id="array-subscripting">8.1.1 Array Subscripting</h3>
+<p><span class="QandA"></span></p>
+<p>To access a particular element of an array, we write the array name
+followed by an integer value in square brackets (this is referred to as
+subscripting or indexing the array). Array elements are always numbered
+starting from 0, so the elements of an array of length <code>n</code>
+are indexed from 0 to <code>n - 1</code>. For example, if <code>a</code>
+is an array with 10 elements, they’re designated by <code>a[0]</code>,
+<code>a[1]</code>, …, <code>a[9]</code>, as the following figure
+shows:</p>
+<figure>
+<img src="./images/arrSubscript.jpg" alt="Array subscripting" />
+<figcaption aria-hidden="true">Array subscripting</figcaption>
+</figure>
+<p>Expressions of the form <code>a[i]</code> are lvalues, so they can be
+used in the same way as ordinary variables:</p>
+<div class="sourceCode" id="cb377"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb377-1"><a href="#cb377-1" aria-hidden="true" tabindex="-1"></a>a<span class="op">[</span><span class="dv">0</span><span class="op">]</span> <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb377-2"><a href="#cb377-2" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> a<span class="op">[</span><span class="dv">5</span><span class="op">]);</span></span>
+<span id="cb377-3"><a href="#cb377-3" aria-hidden="true" tabindex="-1"></a><span class="op">++</span>a<span class="op">[</span>i<span class="op">];</span></span></code></pre></div>
+<p>In general, if an array contains elements of type <code>T</code>;
+then each element of the array is treated as if it were a variable of
+type <code>T</code>. In this example, the elements <code>a[0]</code>,
+<code>a[5]</code>, and <code>a[i]</code> behave like <code>int</code>
+variables.</p>
+<p>Arrays and <code>for</code> loops go hand-in-hand. Many programs
+contain <code>for</code> loops whose job is to perform some operation on
+every element in an array. Here are a few examples of typical operations
+on an array a of length <code>N</code>:</p>
+<div class="sourceCode" id="cb378"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb378-1"><a href="#cb378-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> N<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb378-2"><a href="#cb378-2" aria-hidden="true" tabindex="-1"></a>    a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> <span class="co">/* clears a */</span></span></code></pre></div>
+<div class="sourceCode" id="cb379"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb379-1"><a href="#cb379-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> N<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb379-2"><a href="#cb379-2" aria-hidden="true" tabindex="-1"></a>    scanf <span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>a<span class="op">[</span>i<span class="op">]);</span> <span class="co">/* reads data into a */</span></span></code></pre></div>
+<div class="sourceCode" id="cb380"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb380-1"><a href="#cb380-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> N<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb380-2"><a href="#cb380-2" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">+=</span> a<span class="op">[</span>i<span class="op">];</span> <span class="co">/* sums the elements of a */</span></span></code></pre></div>
+<p>Notice that we must use the <code>&amp;</code> symbol when calling
+<code>scanf</code> to read an array element, just as we would with an
+ordinary variable.</p>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>C doesn’t require that subscript bounds be checked; if a subscript
+goes out of range, the program’s behavior is undefined. One cause of a
+subscript going out of bounds: forgetting that an array with
+<code>n</code> elements is indexed from O to <code>n - 1</code>, not 1
+to <code>n</code>. (As one of my professors liked to say, “In this
+business, you’re always off by one.” He was right, of course.) The
+following example illustrates a bizarre effect that can be caused by
+this common blunder:</p>
+<div class="sourceCode" id="cb381"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb381-1"><a href="#cb381-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">10</span><span class="op">],</span> i<span class="op">;</span></span>
+<span id="cb381-2"><a href="#cb381-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb381-3"><a href="#cb381-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> <span class="dv">10</span><span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb381-4"><a href="#cb381-4" aria-hidden="true" tabindex="-1"></a>    a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>With some compilers, this innocent-looking <code>for</code> statement
+causes an infinite loop! When <code>i</code> reaches 10, the program
+stores 0 into <code>a[10]</code>. But <code>a[10]</code> doesn’t exist,
+so 0 goes into memory immediately after <code>a[9]</code>. If the
+variable <code>i</code> happens to follow <code>a[9]</code> in memory—as
+might be the case—then <code>i</code> will be reset to 0, causing the
+loop to start over.</p>
+</div>
+<!-- END: div -->
+<p>An array subscript may be any integer expression:</p>
+<div class="sourceCode" id="cb382"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb382-1"><a href="#cb382-1" aria-hidden="true" tabindex="-1"></a>a<span class="op">[</span>i <span class="op">+</span> j <span class="op">*</span> <span class="dv">10</span><span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>The expression can even have side effects:</p>
+<div class="sourceCode" id="cb383"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb383-1"><a href="#cb383-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb383-2"><a href="#cb383-2" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&lt;</span> N<span class="op">)</span></span>
+<span id="cb383-3"><a href="#cb383-3" aria-hidden="true" tabindex="-1"></a>    a<span class="op">[</span>i<span class="op">++]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>Let’s trace this code. After <code>i</code> is set to 0, the
+<code>while</code> statement checks whether <code>i</code> is less than
+<code>N</code>. If it is, <code>O</code> is assigned to
+<code>a[0]</code>, <code>i</code> is incremented, and the loop repeats.
+Note that <code>a[++i]</code> wouldn’t be right, because 0 would be
+assigned to <code>a[1]</code> during the first loop iteration.</p>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Be careful when an array subscript has a side effect. For example,
+the following loop—which is supposed to copy the elements of the array
+<code>b</code> into the array <code>a</code> may not work properly:</p>
+<div class="sourceCode" id="cb384"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb384-1"><a href="#cb384-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb384-2"><a href="#cb384-2" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>i <span class="op">&lt;</span> N<span class="op">)</span></span>
+<span id="cb384-3"><a href="#cb384-3" aria-hidden="true" tabindex="-1"></a>    a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> b<span class="op">[</span>i<span class="op">++];</span></span></code></pre></div>
+<p>The expression <code>a[i] = b[i++]</code> accesses the value of
+<code>i</code> and also modifies <code>i</code> elsewhere in the
+expression, which—as we saw in Section 4.4—causes undefined behavior. Of
+course, we can easily avoid the problem by removing the increment from
+the subscript:</p>
+<div class="sourceCode" id="cb385"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb385-1"><a href="#cb385-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> N<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb385-2"><a href="#cb385-2" aria-hidden="true" tabindex="-1"></a>    a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> b<span class="op">[</span>i<span class="op">];</span></span></code></pre></div>
+</div>
+<!-- END: div -->
+<h3 id="program-reversing-a-series-of-numbers">8.1.2 (PROGRAM) Reversing
+a Series of Numbers</h3>
+<p>Our first array program prompts the user to enter a series of
+numbers, then writes the numbers in reverse order:</p>
+<pre class="shell"><code>Enter 10 numbers: 34 82 49 102 7 94 23 11 50 31
+In reverse order: 31 50 11 23 94 7 102 49 82 34</code></pre>
+<p>Our strategy will be to store the numbers in an array as they’re
+read, then go through the array backwards, printing the elements one by
+one. In other words, we won’t actually reverse the elements in the
+array, but we’ll make the user think we did.</p>
+<div class="sourceCode" id="cb387"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb387-1"><a href="#cb387-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb387-2"><a href="#cb387-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: reverse.c</span></span>
+<span id="cb387-3"><a href="#cb387-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb387-4"><a href="#cb387-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Reverses a series of numbers */</span></span>
+<span id="cb387-5"><a href="#cb387-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb387-6"><a href="#cb387-6" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb387-7"><a href="#cb387-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb387-8"><a href="#cb387-8" aria-hidden="true" tabindex="-1"></a><span class="pp">#define N 10</span></span>
+<span id="cb387-9"><a href="#cb387-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb387-10"><a href="#cb387-10" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb387-11"><a href="#cb387-11" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb387-12"><a href="#cb387-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> a<span class="op">[</span>N<span class="op">],</span> i<span class="op">;</span></span>
+<span id="cb387-13"><a href="#cb387-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb387-14"><a href="#cb387-14" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter %d numbers: &quot;</span><span class="op">,</span> N<span class="op">);</span></span>
+<span id="cb387-15"><a href="#cb387-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> N<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb387-16"><a href="#cb387-16" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb387-17"><a href="#cb387-17" aria-hidden="true" tabindex="-1"></a>        scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>a<span class="op">[</span>i<span class="op">]);</span></span>
+<span id="cb387-18"><a href="#cb387-18" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb387-19"><a href="#cb387-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb387-20"><a href="#cb387-20" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;In reverse order:&quot;</span><span class="op">);</span></span>
+<span id="cb387-21"><a href="#cb387-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> N <span class="op">-</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&gt;=</span> <span class="dv">0</span><span class="op">;</span> i<span class="op">--)</span></span>
+<span id="cb387-22"><a href="#cb387-22" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb387-23"><a href="#cb387-23" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot; %d&quot;</span><span class="op">,</span> a<span class="op">[</span>i<span class="op">]);</span></span>
+<span id="cb387-24"><a href="#cb387-24" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb387-25"><a href="#cb387-25" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb387-26"><a href="#cb387-26" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb387-27"><a href="#cb387-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb387-28"><a href="#cb387-28" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>This program shows just how useful macros can be in conjunction with
+arrays. The macro <code>N</code> is used four times in the program: in
+the declaration of <code>a</code>, in the <code>printf</code> that
+displays a prompt, and in both <code>for</code> loops. Should we later
+decide to change the size of the array, we need only edit the definition
+of <code>N</code> and recompile the program. Nothing else will need to
+be altered; even the prompt will still be correct.</p>
+<h3 id="array-initialization">8.1.3 Array Initialization</h3>
+<p>An array, like any other variable, can be given an initial value at
+the time it’s declared. The rules are somewhat tricky, though, so we’ll
+cover some of them now and save others until later.</p>
+<p>The most common form of array initializer is a list of constant
+expressions enclosed in braces and separated by commas:</p>
+<div class="sourceCode" id="cb388"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb388-1"><a href="#cb388-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">10</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">5</span><span class="op">;</span> <span class="dv">6</span><span class="op">,</span> <span class="dv">7</span><span class="op">,</span> <span class="dv">8</span><span class="op">,</span> <span class="dv">9</span><span class="op">,</span> <span class="dv">10</span><span class="op">};</span></span></code></pre></div>
+<p>If the initializer is shorter than the array, the remaining elements
+of the array are given the value 0:</p>
+<div class="sourceCode" id="cb389"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb389-1"><a href="#cb389-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">10</span><span class="op">]</span> <span class="op">={</span><span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">5</span><span class="op">,</span> <span class="dv">6</span><span class="op">}</span> <span class="op">;</span></span>
+<span id="cb389-2"><a href="#cb389-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* initial value of a is {1, 2, 3, 4, 5, 6, 0, 0, 0, 0} */</span></span></code></pre></div>
+<p>Using this feature, we can easily initialize an array to all
+zeros:</p>
+<div class="sourceCode" id="cb390"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb390-1"><a href="#cb390-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">10</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">0</span><span class="op">}:</span></span>
+<span id="cb390-2"><a href="#cb390-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* initdal value of a is {0, 0, 0, 0, 0, 0, 0, O, 0, 0} */</span></span></code></pre></div>
+<p>1t’s illegal for an initializer to be completely empty, so we’ve put
+a single 0 inside the braces. It’s also illegal for an initializer to be
+longer than the array it initializes.</p>
+<p>If an initializer is present, the length of the array may be
+omitted:</p>
+<div class="sourceCode" id="cb391"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb391-1"><a href="#cb391-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">5</span><span class="op">,</span> <span class="dv">6</span><span class="op">,</span> <span class="dv">7</span><span class="op">,</span> <span class="dv">8</span><span class="op">,</span> <span class="dv">9</span><span class="op">,</span> <span class="dv">10</span><span class="op">};</span></span></code></pre></div>
+<p>The compiler uses the length of the initializer to determine how long
+the array is. The array still has a fixed number of elements (10, in
+this example), just as if we had specified the length explicitly.</p>
+<p><span class="C99Symbol"></span></p>
+<h3 id="designated-initializers">8.1.4 Designated Initializers</h3>
+<p>It’s often the case that relatively few elements of an array need to
+be initialized explicitly: the other elements can be given default
+values. Consider the following example:</p>
+<div class="sourceCode" id="cb392"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb392-1"><a href="#cb392-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">15</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">29</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">7</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">48</span><span class="op">}:</span></span></code></pre></div>
+<p>We want element 2 of the array to be 29, element 9 to be 7, and
+element 14 to be 48, but the other values are just zero. For a large
+array, writing an initializer in this fashion is tedious and error-prone
+(what if there were 200 zeros between two of the nonzero values?).</p>
+<p>C99’s <strong><em>designated initializers</em></strong> can be used
+to solve this problem. Here’s how we could redo the previous example
+using a designated initializer:</p>
+<div class="sourceCode" id="cb393"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb393-1"><a href="#cb393-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">15</span><span class="op">]</span> <span class="op">=</span> <span class="op">{[</span><span class="dv">2</span><span class="op">]</span> <span class="op">=</span> <span class="dv">29</span><span class="op">,</span> <span class="op">[</span><span class="dv">9</span><span class="op">]</span> <span class="op">=</span> <span class="dv">7</span><span class="op">,</span> <span class="op">[</span><span class="dv">14</span><span class="op">]</span> <span class="op">=</span> <span class="dv">48</span><span class="op">};</span></span></code></pre></div>
+<p>Each number in brackets is said to be a
+<strong><em>designator</em></strong>.</p>
+<p>Besides being shorter and easier to read (at least for some arrays),
+designated initializers have another advantage: the order in which the
+elements are listed no longer matters. Thus, our previous example could
+also be written in the following way:</p>
+<div class="sourceCode" id="cb394"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb394-1"><a href="#cb394-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">15</span><span class="op">]</span> <span class="op">=</span> <span class="op">{[</span><span class="dv">14</span><span class="op">]</span> <span class="op">=</span> <span class="dv">48</span><span class="op">,</span> <span class="op">[</span><span class="dv">9</span><span class="op">]</span> <span class="op">=</span> <span class="dv">7</span><span class="op">,</span> <span class="op">[</span><span class="dv">2</span><span class="op">]</span> <span class="op">=</span> <span class="dv">29</span><span class="op">};</span></span></code></pre></div>
+<p>Designators must be integer constant expressions. If the array being
+initialized has length <code>n</code>, each designator must be between 0
+and <code>n — 1</code>. However, if the length of the array is omitted,
+a designator can be any nonnegative integer. In the latter case, the
+compiler will deduce the length of the array from the largest
+designator.</p>
+<p>In the following example, the fact that 23 appears as a designator
+will force the array to have length 24:</p>
+<div class="sourceCode" id="cb395"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb395-1"><a href="#cb395-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> b<span class="op">[]</span> <span class="op">=</span> <span class="op">{[</span><span class="dv">5</span><span class="op">]</span> <span class="op">=</span> <span class="dv">10</span><span class="op">,</span> <span class="op">[</span><span class="dv">23</span><span class="op">]</span> <span class="op">=</span> <span class="dv">13</span><span class="op">,</span> <span class="op">[</span><span class="dv">11</span><span class="op">]</span> <span class="op">=</span> <span class="dv">36</span><span class="op">,</span> <span class="op">[</span><span class="dv">15</span><span class="op">]</span> <span class="op">=</span> <span class="dv">29</span><span class="op">};</span></span></code></pre></div>
+<p>An initializer may use both the older (element-by-element) technique
+and the newer (designated) technique:</p>
+<div class="sourceCode" id="cb396"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb396-1"><a href="#cb396-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> c<span class="op">[</span><span class="dv">10</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">5</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">9</span><span class="op">,</span> <span class="op">[</span><span class="dv">4</span><span class="op">]</span> <span class="op">=</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">7</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="op">[</span><span class="dv">8</span><span class="op">]</span> <span class="op">=</span> <span class="dv">6</span><span class="op">);</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p>This initializer specifies that the array’s first three elements will
+be 5, 1, and 9. Element 4 will have the value 3. The two elements after
+element 4 will be 7 and 2. Finally, element 8 will have the value 6. All
+elements for which no value is specified will default to zero.</p>
+<h3 id="program-checking-a-number-for-repeated-digits">8.1.5 (PROGRAM)
+Checking a Number for Repeated Digits</h3>
+<p>Our next program checks whether any of the digits in a number appear
+more than once. After the user enters a number, the program prints
+either <code>Repeated digit</code> or
+<code>No repeated digit</code>:</p>
+<pre class="shell"><code>Enter a number: 28212
+Repeated digit</code></pre>
+<p>The number 28212 has a repeated digit (2); a number like 9357
+doesn’t.</p>
+<p>The program uses an array of Boolean values to keep track of which
+digits appear in a number. The array, named <code>digit_seen</code>, is
+indexed from 0 to 9 to correspond to the 10 possible digits. Initially,
+every element of the array is false. (The initializer for
+<code>digit_seen</code> is {<code>false</code>}, which only initializes
+the first element of the array. However, the compiler will automatically
+make the remaining elements zero, which is equivalent to false.)</p>
+<p>When given a number <code>n</code>, the program examines
+<code>n</code>’s digits one at a time, storing each into the
+<code>digit</code> variable and then using it as an index into
+<code>digit_seen</code>. If <code>digit_seen[digit]</code> is true, then
+digit appears at least twice in <code>n</code>. On the other hand, if
+<code>digit_seen[digit]</code> is false, then digit has not been seen
+before, so the program sets <code>digit_seen[digit]</code> to
+<code>true</code> and keeps going.</p>
+<div class="sourceCode" id="cb398"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb398-1"><a href="#cb398-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb398-2"><a href="#cb398-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file:repdigit.c</span></span>
+<span id="cb398-3"><a href="#cb398-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb398-4"><a href="#cb398-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Checks numbers for repeated digits */</span></span>
+<span id="cb398-5"><a href="#cb398-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb398-6"><a href="#cb398-6" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb398-7"><a href="#cb398-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb398-8"><a href="#cb398-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb398-9"><a href="#cb398-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb398-10"><a href="#cb398-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb398-11"><a href="#cb398-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">bool</span> digit_seen<span class="op">[</span><span class="dv">10</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span>false<span class="op">};</span></span>
+<span id="cb398-12"><a href="#cb398-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> digit<span class="op">;</span></span>
+<span id="cb398-13"><a href="#cb398-13" aria-hidden="true" tabindex="-1"></a>    <span class="dt">long</span> n<span class="op">;</span></span>
+<span id="cb398-14"><a href="#cb398-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb398-15"><a href="#cb398-15" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter a number: &quot;</span><span class="op">);</span></span>
+<span id="cb398-16"><a href="#cb398-16" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%ld&quot;</span><span class="op">,</span> <span class="op">&amp;</span>n<span class="op">);</span></span>
+<span id="cb398-17"><a href="#cb398-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb398-18"><a href="#cb398-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>n <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb398-19"><a href="#cb398-19" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb398-20"><a href="#cb398-20" aria-hidden="true" tabindex="-1"></a>        digit <span class="op">=</span> n <span class="op">%</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb398-21"><a href="#cb398-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>digit_seen<span class="op">[</span>digit<span class="op">])</span></span>
+<span id="cb398-22"><a href="#cb398-22" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb398-23"><a href="#cb398-23" aria-hidden="true" tabindex="-1"></a>        digit_seen<span class="op">[</span>digit<span class="op">]</span> <span class="op">=</span> true<span class="op">;</span></span>
+<span id="cb398-24"><a href="#cb398-24" aria-hidden="true" tabindex="-1"></a>        n <span class="op">/=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb398-25"><a href="#cb398-25" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb398-26"><a href="#cb398-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb398-27"><a href="#cb398-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>n <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb398-28"><a href="#cb398-28" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Repeated digit</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb398-29"><a href="#cb398-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb398-30"><a href="#cb398-30" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;No repeated digit</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb398-31"><a href="#cb398-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb398-32"><a href="#cb398-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb398-33"><a href="#cb398-33" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><span class="C99Symbol"></span></p>
+<p>This program uses the names <code>bool</code>, <code>true</code>, and
+<code>false</code>, which are defined in C99’s
+<code>&lt;stdbool.h&gt;</code> header. If your compiler doesn’t support
+this header, you’ll need to define these names yourself. One way to do
+so is to put the following lines above the <code>main</code>
+function:</p>
+<div class="sourceCode" id="cb399"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb399-1"><a href="#cb399-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define true 1</span></span>
+<span id="cb399-2"><a href="#cb399-2" aria-hidden="true" tabindex="-1"></a><span class="pp">#define false 0</span></span>
+<span id="cb399-3"><a href="#cb399-3" aria-hidden="true" tabindex="-1"></a><span class="kw">typedef</span> <span class="dt">int</span> <span class="dt">bool</span><span class="op">;</span></span></code></pre></div>
+<p>Notice that <code>n</code> has type <code>long</code>, allowing the
+user fo enter numbers up to 2,147,483,647 (or more, on some
+machines).</p>
+<h3 id="using-the-sizeof-operator-with-arrays">8.1.6 Using the sizeof
+Operator with Arrays</h3>
+<p>The <code>sizeof</code> operator can determine the size of an array
+(in bytes). If <code>a</code> is an array of 10 integers, then
+<code>sizeof (a)</code> is typically 40 (assuming that each integer
+requires four bytes).</p>
+<p>We can also use <code>sizeof</code> to measure the size of an array
+element, such as <code>a[0]</code>. Dividing the array size by the
+element size gives the length of the array:</p>
+<div class="sourceCode" id="cb400"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb400-1"><a href="#cb400-1" aria-hidden="true" tabindex="-1"></a><span class="kw">sizeof</span><span class="op">(</span>a<span class="op">)</span> <span class="op">/</span> <span class="kw">sizeof</span><span class="op">(</span>a<span class="op">[</span>l0<span class="op">])</span></span></code></pre></div>
+<p>Some programmers use this expression when the length of the array is
+needed. To clear the array <code>a</code>, for example, we could
+write</p>
+<div class="sourceCode" id="cb401"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb401-1"><a href="#cb401-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="kw">sizeof</span><span class="op">(</span>a<span class="op">)</span> <span class="op">/</span> <span class="kw">sizeof</span><span class="op">(</span>a<span class="op">[</span><span class="dv">0</span><span class="op">]);</span> i<span class="op">++)</span></span>
+<span id="cb401-2"><a href="#cb401-2" aria-hidden="true" tabindex="-1"></a>    a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>With this technique, the loop doesn’t have to be modified if the
+array length should change at a later date. Using a macro to represent
+the array length has the same advantage, of course, but the
+<code>sizeof</code> technique is slightly better, since there’s no macro
+name to remember (and possibly get wrong).</p>
+<p>One minor annoyance is that some compilers produce a warning message
+for the expression <code>i &lt; sizeof (a) / sizeof (a[0])</code>. The
+variable <code>i</code> probably has type <code>int</code> (a signed
+type), whereas <code>sizeof</code> produces a value of type
+<code>size_t</code> (an unsigned type). We know from Section 7.4 that
+comparing a signed integer with an unsigned integer is a dangerous
+practice, although in this case it’s safe because both <code>i</code>
+and <code>sizeof (a) / sizeof (a[0])</code> have nonnegative values. To
+avoid a warning, we can add a cast that converts
+<code>sizeof (a) / sizeof (a[0])</code> to a signed integer:</p>
+<div class="sourceCode" id="cb402"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb402-1"><a href="#cb402-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="op">(</span><span class="dt">int</span><span class="op">)</span> <span class="op">(</span><span class="kw">sizeof</span><span class="op">(</span>a<span class="op">)</span> <span class="op">/</span> <span class="kw">sizeof</span><span class="op">(</span>a<span class="op">[</span><span class="dv">0</span><span class="op">]));</span> i<span class="op">++)</span></span>
+<span id="cb402-2"><a href="#cb402-2" aria-hidden="true" tabindex="-1"></a>    a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>Writing <code>(int) (sizeof (a) / sizeof (a[0]))</code> is a bit
+unwieldy; defining a macro that represents it is often helpful:</p>
+<div class="sourceCode" id="cb403"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb403-1"><a href="#cb403-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define SIZE ((int) (sizeof(a) / sizeof(a[0])))</span></span>
+<span id="cb403-2"><a href="#cb403-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb403-3"><a href="#cb403-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> SIZE<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb403-4"><a href="#cb403-4" aria-hidden="true" tabindex="-1"></a>a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>If we’re back to using a macro, though, what’s the advantage of
+sizeof`? We’ll answer that question in a later chapter (the trick is to
+add a parameter to the macro).</p>
+<h3 id="program-computing-interest">8.1.7 (PROGRAM) Computing
+Interest</h3>
+<p>Our next program prints a table showing the value of $100 invested at
+different rates of interest over a period of years. The user will enter
+an interest rate and the number of years the money will be invested. The
+table will show the value of the money at one-year intervals—at that
+interest rate and the next four higher rates—assuming that interest is
+compounded once a year. Here’s what a session with the program will look
+like:</p>
+<pre class="shell"><code>Enter interest rate: 6
+Enter number of years: 5
+
+Years     6%     7%     8%     9%    10%
+  1     106.00 107.00 108.00 108.00 110.00
+  2     112.36 114.49 116.64 118.81 121.00
+  3     119.10 122.50 125.97 129.50 133.10
+  4     126.25 131.08 136.05 141.16 146.41
+  5     133.82 140.26 146.93 153.86 161.05</code></pre>
+<p>Clearly, we can use a <code>for</code> statement to print the first
+row. The second row is a little trickier, since its values depend on the
+numbers in the first row. Our solution is to store the first row in an
+array as it’s computed, then use the values in the array to compute the
+second row. Of course, this process can be repeated for the third and
+later rows. We’ll end up with two <code>for</code> statements, one
+nested inside the other. The outer loop will count from 1 to the number
+of years requested by the user. The inner loop will increment the
+interest rate from its lowest value to its highest value.</p>
+<div class="sourceCode" id="cb405"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb405-1"><a href="#cb405-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb405-2"><a href="#cb405-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: interest.c</span></span>
+<span id="cb405-3"><a href="#cb405-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb405-4"><a href="#cb405-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Prints a tablet of compound interest */</span></span>
+<span id="cb405-5"><a href="#cb405-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb405-6"><a href="#cb405-6" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb405-7"><a href="#cb405-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb405-8"><a href="#cb405-8" aria-hidden="true" tabindex="-1"></a><span class="pp">#define NUM_RATES ((int) (sizeof(value) / sizeof(value[0])))</span></span>
+<span id="cb405-9"><a href="#cb405-9" aria-hidden="true" tabindex="-1"></a><span class="pp">#define INITIAL_BALANCE 100.00</span></span>
+<span id="cb405-10"><a href="#cb405-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb405-11"><a href="#cb405-11" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb405-12"><a href="#cb405-12" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb405-13"><a href="#cb405-13" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> low_rate<span class="op">,</span> num_years<span class="op">,</span> year<span class="op">;</span></span>
+<span id="cb405-14"><a href="#cb405-14" aria-hidden="true" tabindex="-1"></a>    <span class="dt">double</span> value<span class="op">[</span><span class="dv">5</span><span class="op">];</span></span>
+<span id="cb405-15"><a href="#cb405-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb405-16"><a href="#cb405-16" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter interest rate: &quot;</span><span class="op">);</span></span>
+<span id="cb405-17"><a href="#cb405-17" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>low_rate<span class="op">);</span></span>
+<span id="cb405-18"><a href="#cb405-18" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter number of years: &quot;</span><span class="op">);</span></span>
+<span id="cb405-19"><a href="#cb405-19" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>num_years<span class="op">);</span></span>
+<span id="cb405-20"><a href="#cb405-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb405-21"><a href="#cb405-21" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">Years&quot;</span><span class="op">);</span></span>
+<span id="cb405-22"><a href="#cb405-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> NUM_RATES<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb405-23"><a href="#cb405-23" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb405-24"><a href="#cb405-24" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;%6d%%&quot;</span><span class="op">,</span> low_rate <span class="op">+</span> i<span class="op">);</span></span>
+<span id="cb405-25"><a href="#cb405-25" aria-hidden="true" tabindex="-1"></a>        value<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> INITIAL_BALANCE<span class="op">;</span></span>
+<span id="cb405-26"><a href="#cb405-26" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb405-27"><a href="#cb405-27" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb405-28"><a href="#cb405-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb405-29"><a href="#cb405-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>year <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> year <span class="op">&lt;=</span> num_years<span class="op">;</span> year<span class="op">++)</span></span>
+<span id="cb405-30"><a href="#cb405-30" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb405-31"><a href="#cb405-31" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;%3d    &quot;</span><span class="op">,</span> year<span class="op">);</span></span>
+<span id="cb405-32"><a href="#cb405-32" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> NUM_RATES<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb405-33"><a href="#cb405-33" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb405-34"><a href="#cb405-34" aria-hidden="true" tabindex="-1"></a>            value<span class="op">[</span>i<span class="op">]</span> <span class="op">+=</span> <span class="op">(</span>low_rate <span class="op">+</span> i<span class="op">)</span> <span class="op">/</span> <span class="fl">100.0</span> <span class="op">*</span> value<span class="op">[</span>i<span class="op">];</span></span>
+<span id="cb405-35"><a href="#cb405-35" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;%7.2f&quot;</span><span class="op">,</span> value<span class="op">[</span>i<span class="op">]);</span></span>
+<span id="cb405-36"><a href="#cb405-36" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="cb405-37"><a href="#cb405-37" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb405-38"><a href="#cb405-38" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb405-39"><a href="#cb405-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb405-40"><a href="#cb405-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb405-41"><a href="#cb405-41" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Note the use of <code>NUM_RATES</code> to control two of the
+<code>for</code> loops. If we later change the size of the value array.
+the loops will adjust automatically.</p>
+<h2 id="multidimensional-arrays">8.2 Multidimensional Arrays</h2>
+<p>An array may have any number of dimensions. For example, the
+following declaration creates a two-dimensional array (a
+<em>matrix</em>, in mathematical terminology):</p>
+<div class="sourceCode" id="cb406"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb406-1"><a href="#cb406-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> m<span class="op">[</span><span class="dv">5</span><span class="op">][</span><span class="dv">9</span><span class="op">];</span></span></code></pre></div>
+<p>The array <code>m</code> has 5 rows and 9 columns. Both rows and
+columns are indexed from 0, as the following figure shows:</p>
+<figure>
+<img src="./images/multidimeArr.jpg" alt="multi-dimensional array" />
+<figcaption aria-hidden="true">multi-dimensional array</figcaption>
+</figure>
+<p>To access the element of <code>m</code> in row <code>i</code>, column
+<code>j</code>, we must write <code>m[1][j]</code>. The expression
+<code>m[i]</code> designates row <code>i</code> of <code>m</code>, and
+<code>m[i][j]</code> then selects element <code>j</code> in this
+row.</p>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Resist the temptation to write <code>m[i, j]</code> instead of
+<code>m[i][j]</code>. C treats the comma as an operator in this context,
+so <code>m[i, j]</code> is the same as m[j].</p>
+</div>
+<!-- END: div -->
+<p>Although we visualize two-dimensional arrays as tables, that’s not
+the way they’re actually stored in computer memory. C stores arrays in
+<strong><em>row-major order</em></strong>, with row 0 first, then row 1,
+and so forth. For example, here’s how the <code>m</code> array is
+stored:</p>
+<figure>
+<img src="./images/multiDimArr_row.jpg"
+alt="multi-dimensional array: row-major order" />
+<figcaption aria-hidden="true">multi-dimensional array: row-major
+order</figcaption>
+</figure>
+<p>We’ll usually ignore this detail, but sometimes it will affect our
+code.</p>
+<p>Just as <code>for</code> loops go hand-in-hand with one-dimensional
+arrays, nested for loops are ideal for processing multidimensional
+arrays. Consider, for example, the problem of initializing an array for
+use as an identity matrix. (In mathematics, an <em>identity matrix</em>
+has 1’s on the main diagonal, where the row and column index are the
+same, and 0’s everywhere else.) We’ll need to visit each element in the
+array in some systematic fashion. A pair of nested <code>for</code>
+loops—one that steps through every row index and one that steps through
+each column index—is perfect for the job:</p>
+<div class="sourceCode" id="cb407"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb407-1"><a href="#cb407-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define N 10</span></span>
+<span id="cb407-2"><a href="#cb407-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb407-3"><a href="#cb407-3" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> ident<span class="op">[</span>N<span class="op">][</span>N<span class="op">];</span></span>
+<span id="cb407-4"><a href="#cb407-4" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> row<span class="op">,</span> col<span class="op">;</span></span>
+<span id="cb407-5"><a href="#cb407-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb407-6"><a href="#cb407-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>row <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> row <span class="op">&lt;</span> N<span class="op">;</span> row<span class="op">++)</span></span>
+<span id="cb407-7"><a href="#cb407-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>col <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> col <span class="op">&lt;</span> N<span class="op">;</span> col<span class="op">++)</span></span>
+<span id="cb407-8"><a href="#cb407-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="op">(</span>row <span class="op">==</span> col<span class="op">)</span></span>
+<span id="cb407-9"><a href="#cb407-9" aria-hidden="true" tabindex="-1"></a>            ident<span class="op">[</span>row<span class="op">][</span>col<span class="op">]</span> <span class="op">=</span> <span class="fl">1.0</span><span class="op">;</span></span>
+<span id="cb407-10"><a href="#cb407-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span></span>
+<span id="cb407-11"><a href="#cb407-11" aria-hidden="true" tabindex="-1"></a>            ident<span class="op">[</span>row<span class="op">][</span>col<span class="op">]</span> <span class="op">=</span> <span class="fl">0.0</span><span class="op">;</span></span></code></pre></div>
+<p>Multidimensional arrays play a lesser role in C than in many other
+programming languages, primarily because C provides a more flexible way
+to store multidimensional data: arrays of pointers.</p>
+<h3 id="initializing-a-multidimensional-array">8.2.1 Initializing a
+Multidimensional Array</h3>
+<p>We can create an initializer for a two-dimensional array by nesting
+one-dimensional initializers:</p>
+<div class="sourceCode" id="cb408"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb408-1"><a href="#cb408-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> m<span class="op">[</span><span class="dv">5</span><span class="op">][</span><span class="dv">9</span><span class="op">]</span> <span class="op">=</span> <span class="op">{{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">},</span></span>
+<span id="cb408-2"><a href="#cb408-2" aria-hidden="true" tabindex="-1"></a>               <span class="op">{</span><span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">},</span></span>
+<span id="cb408-3"><a href="#cb408-3" aria-hidden="true" tabindex="-1"></a>               <span class="op">{</span><span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">},</span></span>
+<span id="cb408-4"><a href="#cb408-4" aria-hidden="true" tabindex="-1"></a>               <span class="op">{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">},</span></span>
+<span id="cb408-5"><a href="#cb408-5" aria-hidden="true" tabindex="-1"></a>               <span class="op">{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">}};</span></span></code></pre></div>
+<p>Each inner initializer provides values for one row of the matrix.
+Initializers for higher-dimensional arrays are constructed in a similar
+fashion.</p>
+<p>C provides a variety of ways to abbreviate initializers for
+multidimensional arrays:</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p>If an initializer isn’t large enongh to fill a multidimensional
+array, the remaining elements are given the value 0. For example, the
+following initializer fills only the first three rows of <code>m</code>:
+the last two rows will contain zeros:</p>
+<div class="sourceCode" id="cb409"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb409-1"><a href="#cb409-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> m<span class="op">[</span><span class="dv">5</span><span class="op">][</span><span class="dv">9</span><span class="op">]</span> <span class="op">=</span> <span class="op">{{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">},</span></span>
+<span id="cb409-2"><a href="#cb409-2" aria-hidden="true" tabindex="-1"></a>               <span class="op">{</span><span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">},</span></span>
+<span id="cb409-3"><a href="#cb409-3" aria-hidden="true" tabindex="-1"></a>               <span class="op">{</span><span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">}};</span></span></code></pre></div>
+</li>
+<li>
+<p>If an inner list isn’t long enough to fill a row, the remaining
+elements in the row are initialized to 0:</p>
+<div class="sourceCode" id="cb410"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb410-1"><a href="#cb410-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> m<span class="op">[</span><span class="dv">5</span><span class="op">][</span><span class="dv">9</span><span class="op">]</span> <span class="op">=</span> <span class="op">{{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">},</span></span>
+<span id="cb410-2"><a href="#cb410-2" aria-hidden="true" tabindex="-1"></a>               <span class="op">{</span><span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">},</span></span>
+<span id="cb410-3"><a href="#cb410-3" aria-hidden="true" tabindex="-1"></a>               <span class="op">{</span><span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">},</span></span>
+<span id="cb410-4"><a href="#cb410-4" aria-hidden="true" tabindex="-1"></a>               <span class="op">{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">},</span></span>
+<span id="cb410-5"><a href="#cb410-5" aria-hidden="true" tabindex="-1"></a>               <span class="op">{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">}};</span></span></code></pre></div>
+</li>
+<li>
+<p>We can even omit the inner braces:</p>
+<div class="sourceCode" id="cb411"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb411-1"><a href="#cb411-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> m<span class="op">[</span><span class="dv">5</span><span class="op">][</span><span class="dv">9</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+<span id="cb411-2"><a href="#cb411-2" aria-hidden="true" tabindex="-1"></a>               <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span></span>
+<span id="cb411-3"><a href="#cb411-3" aria-hidden="true" tabindex="-1"></a>               <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span></span>
+<span id="cb411-4"><a href="#cb411-4" aria-hidden="true" tabindex="-1"></a>               <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span></span>
+<span id="cb411-5"><a href="#cb411-5" aria-hidden="true" tabindex="-1"></a>               <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">1</span><span class="op">};</span></span></code></pre></div>
+<p>Once the compiler has seen enough values to fill one row, it begins
+filling the next.</p>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Omitting the inner braces in a multidimensional array initializer can
+be risky, since an extra element (or even worse, a missing element) will
+affect the rest of the initializer, Leaving out the braces causes some
+compilers to produce a warning message such as “missing braces around
+initializer.”</p>
+</div>
+<!-- END: div -->
+<p><span class="C99"></span></p>
+<p>C99’s designated initializers work with multidimensional arrays. For
+example, we could create a 2 x 2 identity matrix as follows:</p>
+<div class="sourceCode" id="cb412"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb412-1"><a href="#cb412-1" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> ident<span class="op">[</span><span class="dv">2</span><span class="op">][</span><span class="dv">2</span><span class="op">]</span> <span class="op">=</span> <span class="op">{[</span><span class="dv">0</span><span class="op">][</span><span class="dv">0</span><span class="op">]</span> <span class="op">=</span> <span class="fl">1.0</span><span class="op">,</span> <span class="op">[</span><span class="dv">1</span><span class="op">][</span><span class="dv">1</span><span class="op">]</span> <span class="op">=</span> <span class="fl">1.0</span><span class="op">};</span></span></code></pre></div>
+<p>As usual, all elements for which no value is specified will default
+to zero.</p>
+<h3 id="constant-arrays">8.2.2 Constant Arrays</h3>
+<p>Any array, whether one-dimensional or multidimensional, can be made
+“constant” by starting its declaration with the word
+<code>const</code>:</p>
+<div class="sourceCode" id="cb413"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb413-1"><a href="#cb413-1" aria-hidden="true" tabindex="-1"></a><span class="dt">const</span> <span class="dt">char</span> hex chars<span class="op">[]</span> <span class="op">=</span></span>
+<span id="cb413-2"><a href="#cb413-2" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span><span class="ch">&#39;0&#39;</span><span class="op">,</span> <span class="ch">&#39;1&#39;</span><span class="op">,</span> <span class="ch">&#39;2&#39;</span><span class="op">,</span> <span class="ch">&#39;3&#39;</span><span class="op">,</span> <span class="ch">&#39;4&#39;</span><span class="op">,</span> <span class="ch">&#39;5&#39;</span><span class="op">,</span> <span class="ch">&#39;6&#39;</span><span class="op">,</span> <span class="ch">&#39;7&#39;</span><span class="op">,</span> <span class="ch">&#39;8&#39;</span><span class="op">,</span> <span class="ch">&#39;9&#39;</span><span class="op">,</span> <span class="ch">&#39;A&#39;</span><span class="op">,</span> <span class="ch">&#39;B&#39;</span><span class="op">,</span> <span class="ch">&#39;C&#39;</span><span class="op">,</span> <span class="ch">&#39;D&#39;</span><span class="op">,</span> <span class="ch">&#39;E&#39;</span><span class="op">,</span> <span class="ch">&#39;F&#39;</span><span class="op">};</span></span></code></pre></div>
+<p>An array that’s been declared <code>const</code> should not be
+modified by the program: the compiler will detect direct attempts to
+modify an element.</p>
+<p>Declaring an array to be <code>const</code> has a couple of primary
+advantages. It documents that the program won’t change the array, which
+can be valuable information for someone reading the code later. It also
+helps the compiler catch errors, by informing it that we don’t intend to
+modify the array.</p>
+<p><code>const</code> isn’t limited to arrays; it works with any
+variable, as we’ll see later. However, <code>const</code> is
+particularly useful in array declarations, because arrays may contain
+reference information that won’t change during program execution.</p>
+<h3 id="program-dealing-a-hand-of-cards">8.2.3 (PROGRAM) Dealing a Hand
+of Cards</h3>
+<p>Our next program illustrates both two-dimensional arrays and constant
+arrays. The program deals a random hand from a standard deck of playing
+cards. (In case you haven’t had time to play games recently, each card
+in a standard deck has a <em>suit</em>–clubs, diamonds, hearts, or
+spades—and a <em>rank</em>—two, three, four, five, six, seven, eight,
+nine, ten, jack. queen, king, or ace.) We’ll have the user specify how
+many cards should be in the hand:</p>
+<div class="sourceCode" id="cb414"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb414-1"><a href="#cb414-1" aria-hidden="true" tabindex="-1"></a>Enter number of cards in hand<span class="op">:</span> <span class="dv">5</span></span>
+<span id="cb414-2"><a href="#cb414-2" aria-hidden="true" tabindex="-1"></a>Your hand<span class="op">:</span> <span class="dv">7</span><span class="er">c</span> <span class="dv">2</span><span class="er">s</span> <span class="dv">5</span><span class="er">d</span> as <span class="dv">2</span><span class="er">h</span></span></code></pre></div>
+<p>It’s not immediately obvious how we’d write such a program. How do we
+pick cards randomly from the deck? And how do we avoid picking the same
+card twice? Let’s tackle these problems separately.</p>
+<p>To pick cards randomly, we’ll use several C library functions. The
+<code>time</code> function (from <code>&lt;time.h&gt;</code>) returns
+the current time, encoded in a single number. The <code>srand</code>
+function (from <code>&lt;stdlib.h&gt;</code>) initializes C’s random
+number generator. Passing the return value of time to <code>srand</code>
+prevents the program from dealing the same cards every time we run it.
+The <code>rand</code> function (also from <code>&lt;stdlib.h&gt;</code>)
+produces an apparently random number each time it’s called. By using the
+<code>%</code> operator, we can scale the return value from rand so that
+it falls between 0 and 3 (for suits) or between 0 and 12 (for
+ranks).</p>
+<p>To avoid picking the same card twice, we’ll need to keep track of
+which cards have already been chosen. For that purpose, we’ll use an
+array named <code>in_hand</code> that has four rows (one for each suit)
+and 13 columns (one for each rank). In other words, each element in the
+array corresponds to one of the 52 cards in the deck. All elements of
+the array will be false to start with. Each time we pick a card at
+random, we’ll check whether the element of <code>in_hand</code>
+corresponding to that card is true or false. If it’s true, we’ll have to
+pick another card. If it’s false, we’ll store true in that card’s array
+element to remind us later that this card has already been picked.</p>
+<p>Once we’ve verified that a card is “new”—not already selected—we’ll
+need to translate its numerical rank and suit into characters and then
+display the card. To translate the rank and suit to character form,
+we’ll set up two arrays of characters—one for the rank and one for the
+suit—and then use the numbers to subscript the arrays. These arrays
+won’t change during program execution, so we may as well declare them to
+be <code>const</code>.</p>
+<div class="sourceCode" id="cb415"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb415-1"><a href="#cb415-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb415-2"><a href="#cb415-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: deal.c</span></span>
+<span id="cb415-3"><a href="#cb415-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb415-4"><a href="#cb415-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Deals a random hand of cards */</span></span>
+<span id="cb415-5"><a href="#cb415-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb415-6"><a href="#cb415-6" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb415-7"><a href="#cb415-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb415-8"><a href="#cb415-8" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdlib.h&gt;</span></span>
+<span id="cb415-9"><a href="#cb415-9" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;time.h&gt;</span></span>
+<span id="cb415-10"><a href="#cb415-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb415-11"><a href="#cb415-11" aria-hidden="true" tabindex="-1"></a><span class="pp">#define NUM_SUITS 4</span></span>
+<span id="cb415-12"><a href="#cb415-12" aria-hidden="true" tabindex="-1"></a><span class="pp">#define NUM_RANKS 13</span></span>
+<span id="cb415-13"><a href="#cb415-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb415-14"><a href="#cb415-14" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb415-15"><a href="#cb415-15" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb415-16"><a href="#cb415-16" aria-hidden="true" tabindex="-1"></a>    <span class="dt">bool</span> in_hand<span class="op">[</span>NUM_SUITS<span class="op">][</span>NUM_RANKS<span class="op">]</span> <span class="op">=</span> <span class="op">{</span>false<span class="op">};</span></span>
+<span id="cb415-17"><a href="#cb415-17" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> num_cards<span class="op">,</span> rank<span class="op">,</span> suit<span class="op">;</span></span>
+<span id="cb415-18"><a href="#cb415-18" aria-hidden="true" tabindex="-1"></a>    <span class="dt">const</span> <span class="dt">char</span> rank_code<span class="op">[]</span> <span class="op">=</span> <span class="op">{</span><span class="ch">&#39;2&#39;</span><span class="op">,</span> <span class="ch">&#39;3&#39;</span><span class="op">,</span> <span class="ch">&#39;4&#39;</span><span class="op">,</span> <span class="ch">&#39;5&#39;</span><span class="op">,</span> <span class="ch">&#39;6&#39;</span><span class="op">,</span> <span class="ch">&#39;7&#39;</span><span class="op">,</span> <span class="ch">&#39;8&#39;</span><span class="op">,</span> <span class="ch">&#39;9&#39;</span><span class="op">,</span> <span class="ch">&#39;t&#39;</span><span class="op">,</span> <span class="ch">&#39;j&#39;</span><span class="op">,</span> <span class="ch">&#39;q&#39;</span><span class="op">,</span> <span class="ch">&#39;k&#39;</span><span class="op">,</span> <span class="ch">&#39;a&#39;</span><span class="op">};</span></span>
+<span id="cb415-19"><a href="#cb415-19" aria-hidden="true" tabindex="-1"></a>    <span class="dt">const</span> <span class="dt">char</span> suit_code<span class="op">[]</span> <span class="op">=</span> <span class="op">{</span><span class="ch">&#39;c&#39;</span><span class="op">,</span> <span class="ch">&#39;d&#39;</span><span class="op">,</span> <span class="ch">&#39;h&#39;</span><span class="op">,</span> <span class="ch">&#39;s&#39;</span><span class="op">};</span></span>
+<span id="cb415-20"><a href="#cb415-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb415-21"><a href="#cb415-21" aria-hidden="true" tabindex="-1"></a>    srand<span class="op">((</span><span class="dt">unsigned</span><span class="op">)</span> time<span class="op">(</span>NULL<span class="op">));</span></span>
+<span id="cb415-22"><a href="#cb415-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb415-23"><a href="#cb415-23" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter number of cards in hand: &quot;</span><span class="op">);</span></span>
+<span id="cb415-24"><a href="#cb415-24" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>num_cards<span class="op">);</span></span>
+<span id="cb415-25"><a href="#cb415-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb415-26"><a href="#cb415-26" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Your hand: &quot;</span><span class="op">);</span></span>
+<span id="cb415-27"><a href="#cb415-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>num_cards <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb415-28"><a href="#cb415-28" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb415-29"><a href="#cb415-29" aria-hidden="true" tabindex="-1"></a>        suit <span class="op">=</span> rand<span class="op">()</span> <span class="op">%</span> NUM_SUITS<span class="op">;</span>    <span class="co">/* picks a random suit */</span></span>
+<span id="cb415-30"><a href="#cb415-30" aria-hidden="true" tabindex="-1"></a>        rank <span class="op">=</span> rand<span class="op">()</span> <span class="op">%</span> NUM_RANKS<span class="op">;</span>    <span class="co">/* picks a random rank */</span></span>
+<span id="cb415-31"><a href="#cb415-31" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(!</span>in_hand<span class="op">[</span>suit<span class="op">][</span>rank<span class="op">])</span></span>
+<span id="cb415-32"><a href="#cb415-32" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb415-33"><a href="#cb415-33" aria-hidden="true" tabindex="-1"></a>            in_hand<span class="op">[</span>suit<span class="op">][</span>rank<span class="op">]</span> <span class="op">=</span> true<span class="op">;</span></span>
+<span id="cb415-34"><a href="#cb415-34" aria-hidden="true" tabindex="-1"></a>            num_cards<span class="op">--;</span></span>
+<span id="cb415-35"><a href="#cb415-35" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot; %c%c&quot;</span><span class="op">,</span> rank_code<span class="op">[</span>rank<span class="op">],</span> suit_code<span class="op">[</span>suit<span class="op">]);</span></span>
+<span id="cb415-36"><a href="#cb415-36" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="cb415-37"><a href="#cb415-37" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb415-38"><a href="#cb415-38" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb415-39"><a href="#cb415-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb415-40"><a href="#cb415-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb415-41"><a href="#cb415-41" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Notice the initializer for the <code>in_hand</code> array:</p>
+<div class="sourceCode" id="cb416"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb416-1"><a href="#cb416-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> in_hand<span class="op">[</span>NUM_SUITS<span class="op">][</span>NUM_RANKS<span class="op">]</span> <span class="op">=</span> <span class="op">{</span>false<span class="op">};</span></span></code></pre></div>
+<p>Even though <code>in_hand</code> is a two-dimensional array, we can
+use a single pair of braces (at the risk of possibly incurring a warning
+from the compiler). Also, we’ve supplied only one value in the
+initializer, knowing that the compiler will fill in 0 (false) for the
+other elements.</p>
+<h2 id="variable-length-arrays-c99">8.3 Variable-Length Arrays
+(C99)</h2>
+<p>Section 8.1 stated that the length of an array variable must be
+specified by a constant expression. In C99, however. it’s sometimes
+possible to use an expression that’s <em>not</em> constant. The
+following modification of the <code>reverse.c</code> program (Section
+8.1) illustrates this ability:</p>
+<div class="sourceCode" id="cb417"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb417-1"><a href="#cb417-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb417-2"><a href="#cb417-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: reverse2.c</span></span>
+<span id="cb417-3"><a href="#cb417-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb417-4"><a href="#cb417-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Reverses a series of numbers using variable-length array - C99 only */</span></span>
+<span id="cb417-5"><a href="#cb417-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb417-6"><a href="#cb417-6" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb417-7"><a href="#cb417-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb417-8"><a href="#cb417-8" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb417-9"><a href="#cb417-9" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb417-10"><a href="#cb417-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> n<span class="op">;</span></span>
+<span id="cb417-11"><a href="#cb417-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb417-12"><a href="#cb417-12" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;How many numbers do you want to reverse?: &quot;</span><span class="op">);</span></span>
+<span id="cb417-13"><a href="#cb417-13" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>n<span class="op">);</span></span>
+<span id="cb417-14"><a href="#cb417-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb417-15"><a href="#cb417-15" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> a<span class="op">[</span>n<span class="op">];</span>    <span class="co">/* C99 only - length of array depends on n */</span></span>
+<span id="cb417-16"><a href="#cb417-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb417-17"><a href="#cb417-17" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter %d numbers: &quot;</span><span class="op">,</span> n<span class="op">);</span></span>
+<span id="cb417-18"><a href="#cb417-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb417-19"><a href="#cb417-19" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb417-20"><a href="#cb417-20" aria-hidden="true" tabindex="-1"></a>        scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>a<span class="op">[</span>i<span class="op">]);</span></span>
+<span id="cb417-21"><a href="#cb417-21" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb417-22"><a href="#cb417-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb417-23"><a href="#cb417-23" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;In reverse order:&quot;</span><span class="op">);</span></span>
+<span id="cb417-24"><a href="#cb417-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> n <span class="op">-</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&gt;=</span> <span class="dv">0</span><span class="op">;</span> i<span class="op">--)</span></span>
+<span id="cb417-25"><a href="#cb417-25" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb417-26"><a href="#cb417-26" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot; %d&quot;</span><span class="op">,</span> a<span class="op">[</span>i<span class="op">]);</span></span>
+<span id="cb417-27"><a href="#cb417-27" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb417-28"><a href="#cb417-28" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb417-29"><a href="#cb417-29" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb417-30"><a href="#cb417-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb417-31"><a href="#cb417-31" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The array <code>a</code> in this program is an example of a
+variable-length array (or <strong><em>VLA</em></strong> for short). The
+length of a VLA is computed when the program is executed, not when the
+program is compiled. The chief advantage of a VLA is that the programmer
+doesn’t have to pick an arbitrary length when declaring an array:
+instead, the program itself can calculate exactly how many elements are
+needed. If the programmer makes the choice, it’s likely that the array
+will be too long (wasting memory) or too short (causing the program to
+fail). In the <code>reverse2.c</code> program, the number entered by the
+user determines the length of <code>a</code>: the programmer doesn’t
+have to choose a fixed length, unlike in the original version of the
+program.</p>
+<p>The length of a VLA doesn’t have to be specified by a single
+variable. Arbitrary expressions, possibly containing operators, are also
+legal. For example:</p>
+<div class="sourceCode" id="cb418"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb418-1"><a href="#cb418-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">3</span> <span class="op">*</span> i <span class="op">+</span> <span class="dv">5</span><span class="op">];</span></span>
+<span id="cb418-2"><a href="#cb418-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> b<span class="op">[</span>j <span class="op">+</span> k<span class="op">];</span></span></code></pre></div>
+<p>Like other arrays, VLAs can be multidimensional:</p>
+<div class="sourceCode" id="cb419"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb419-1"><a href="#cb419-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> c<span class="op">[</span>m<span class="op">][</span>n<span class="op">];</span></span></code></pre></div>
+<p>The primary restriction on VLAs is that they can’t have static
+storage duration. (We haven’t yet seen any arrays with this property.)
+Another restriction is that a VLA may not have an initializer.</p>
+<p>Variable-length arrays are most often seen in functions other than
+<code>main</code>. One big advantage of a VLA that belongs to a function
+<code>f</code> is that it can have a different length each time
+<code>f</code> is called. We’ll explore this feature in Section 9.3.</p>
+<hr />
+<h2 id="qa-2">Q&amp;A</h2>
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Why do array subscripts start at 0 instead of 12 [p. 162]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Having subscripts begin at 0 simplifies the compiler a bit. Also,
+it can make array subscripting marginally faster.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: What if I want an array with subscripts that go from 1 to 10
+instead of 0 to 9?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Here’s a common trick: declare the array to have 11 elements
+instead of 10. The subscripts will go from 0 to 10, but you can just
+ignore element 0.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Is it possible to use a character as an array subscript?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Yes, because C treats characters as integers. You’ll probably need
+to “scale” the character before you use it as a subscript, though. Let’s
+say that we want the letter count array to keep track of a count for
+each letter in the alphabet. The array will need 26 elements, so we’d
+declare it in the following way:</p>
+<div class="sourceCode" id="cb420"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb420-1"><a href="#cb420-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> letter_count<span class="op">[</span><span class="dv">26</span><span class="op">];</span></span></code></pre></div>
+<p>However, we can’t use letters to subsctipt <code>letter_count</code>
+directly, because their integer values don’t fall between 0 and 25. To
+scale a lower-case letter to the proper range, we can simply subtract
+<code>'a'</code>; to scale an upper-case letter, we’ll subtract
+<code>'A'</code>. For example, if <code>ch</code> contains a lower-case
+letter, we’d write</p>
+<div class="sourceCode" id="cb421"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb421-1"><a href="#cb421-1" aria-hidden="true" tabindex="-1"></a>letter_count<span class="op">[</span>ch<span class="op">-</span><span class="ch">&#39;a&#39;</span><span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<p>to clear the count that corresponds to <code>ch</code>. A minor
+caveat: this technique isn’t completely portable, because it assumes
+that letters have consecutive codes. However, it works with most
+character sets. including ASCIL.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: It seems like a designated initializer could end up initializing
+an array element more than once. Consider the following array
+declaration:</p>
+<div class="sourceCode" id="cb422"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb422-1"><a href="#cb422-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">4</span><span class="op">,</span> <span class="dv">9</span><span class="op">,</span> <span class="fl">1.</span> <span class="dv">8</span><span class="op">,</span> <span class="op">[</span><span class="dv">0</span><span class="op">]</span> <span class="op">=</span> <span class="dv">5</span><span class="op">,</span> <span class="dv">7</span><span class="op">};</span></span></code></pre></div>
+<p>Is this declaration legal, and if so, what is the length of the
+array? [p. 166]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Yes, the declaration is legal. Here’s how it works: as it
+processes an initializer list, the compiler keeps track of which array
+element is to be initialized next. Normally, the next element is the one
+following the element that was last initialized. However, when a
+designator appears in the list, it forces the next element be the one
+represented by the designator, even if that element has already been
+initialized.</p>
+<p>Here’s a step-by-step look at how the compiler will process the
+initializer for the array <code>a</code>:</p>
+<blockquote>
+<p>The 4 initializes element 0; the next element to be initialized is
+element 1.<br />
+The 9 initializes element 1; the next element to be initialized is
+element 2.<br />
+The 1 initializes element 2; the next element to be initialized is
+element 3.<br />
+The 8 initializes element 3; the next element to be initialized is
+element 4.<br />
+The [0] designator causes the next element to become 0, so the 5
+initializes element 0 (replacing the 4 previously stored there). The
+next element to be initialized is element 1.<br />
+The 7 initializes element 1 (replacing the 9 previously stored there).
+The next element to be initialized is element 2 (which is irrelevant
+since we’re at the end of the list).</p>
+</blockquote>
+<p>The net effect is the same as if we had written</p>
+<div class="sourceCode" id="cb423"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb423-1"><a href="#cb423-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">5</span><span class="op">,</span> <span class="dv">7</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">8</span><span class="op">};</span></span></code></pre></div>
+<p>Thus, the length of this array is four.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: The compiler gives me an error message if I try to copy one array
+into another by using the assignment operator. What’s wrong?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Although it looks quite plausible, the assignment</p>
+<div class="sourceCode" id="cb424"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb424-1"><a href="#cb424-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> b<span class="op">;</span> <span class="co">/* a and b are arrays */</span></span></code></pre></div>
+<p>is indeed illegal. The reason for its illegality isn’t obvious; it
+has to do with the peculiar relationship between arrays and pointers in
+C, a topic we’ll explore in Chapter 12.</p>
+<p>The simplest way to copy one array into another is to use a loop that
+copies the elements, one by one:</p>
+<div class="sourceCode" id="cb425"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb425-1"><a href="#cb425-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> N<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb425-2"><a href="#cb425-2" aria-hidden="true" tabindex="-1"></a>    a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> b<span class="op">[</span>i<span class="op">];</span></span></code></pre></div>
+<p>Another possibility is to use the <code>memcpy</code> (“memory copy”)
+function from the <code>&lt;string.h&gt;</code> header.
+<code>memcpy</code> is a low-level function that simply copies bytes
+from one place to another. To copy the array <code>b</code> into the
+array <code>a</code>, use <code>memcpy</code> as follows:</p>
+<div class="sourceCode" id="cb426"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb426-1"><a href="#cb426-1" aria-hidden="true" tabindex="-1"></a>memcpy<span class="op">(</span>a<span class="op">,</span> b<span class="op">,</span> <span class="kw">sizeof</span><span class="op">(</span>a<span class="op">));</span></span></code></pre></div>
+<p>Many programmers prefer <code>memcpy</code>, especially for large
+arrays, because it’s potentially faster than an ordinary loop.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Section 6.4 mentioned that C99 doesn’t allow a <code>goto</code>
+statement to bypass the declaration of a variable-length array. What’s
+the reason for this restriction?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: The memory used to store a variable-length array is usually
+allocated when the declaration of the array is reached during program
+execution. Bypassing the declaration using a <code>goto</code> statement
+could result in a program accessing the elements of an array that was
+never allocated.</p>
+</div>
+<!-- END: div -->
+<hr />
+<h2 id="examples-6">Examples</h2>
+<ul>
+<li>Programs: <a
+href="./cknkCh08/cknkCh08Exmp/">./cknkCh08/cknkCh08Exmp/</a></li>
+</ul>
+<h2 id="exercises-6">Exercises</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh08/cknkCh08Exrc/README.md">./cknkCh08/cknkCh08Exrc/README.md</a><br />
+</li>
+<li>Readme (html): <a
+href="./cknkCh08/cknkCh08Exrc/cknkCh08ExrcReadme.html">./cknkCh08/cknkCh08Exrc/cknkCh08ExrcReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh08/cknkCh08Exrc/">./cknkCh08/cknkCh08Exrc/</a></li>
+</ul>
+<h2 id="programming-projects-6">Programming Projects</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh08/cknkCh08Prj/README.md">./cknkCh08/cknkCh08Prj/README.md</a><br />
+</li>
+<li>Readme: <a
+href="./cknkCh08/cknkCh08Prj/cknkCh08PrjReadme.html">./cknkCh08/cknkCh08Prj/cknkCh08PrjReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh08/cknkCh08Prj/">./cknkCh08/cknkCh08Prj/</a></li>
+</ul>
+<hr class="chapterDivider"/>
+<hr />
+<h2 id="examples-7">Examples</h2>
+<ul>
+<li>Programs: <a
+href="./cknkCh09/cknkCh09Exmp/">./cknkCh09/cknkCh09Exmp/</a></li>
+</ul>
+<h2 id="exercises-7">Exercises</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh09/cknkCh09Exrc/README.md">./cknkCh09/cknkCh09Exrc/README.md</a><br />
+</li>
+<li>Readme (html): <a
+href="./cknkCh09/cknkCh09Exrc/cknkCh09ExrcReadme.html">./cknkCh09/cknkCh09Exrc/cknkCh09ExrcReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh09/cknkCh09Exrc/">./cknkCh09/cknkCh09Exrc/</a></li>
+</ul>
+<h2 id="programming-projects-7">Programming Projects</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh09/cknkCh09Prj/README.md">./cknkCh09/cknkCh09Prj/README.md</a><br />
+</li>
+<li>Readme: <a
+href="./cknkCh09/cknkCh09Prj/cknkCh09PrjReadme.html">./cknkCh09/cknkCh09Prj/cknkCh09PrjReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh09/cknkCh09Prj/">./cknkCh09/cknkCh09Prj/</a></li>
+</ul>
 <hr class="chapterDivider"/>
 </body>
 </html>

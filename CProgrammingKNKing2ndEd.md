@@ -6449,8 +6449,894 @@ A: In C89, yes. In C99, however, there's one exception. The compiler can’t det
 
 <hr class="chapterDivider"/>
 
+# 8 Arrays
+
+<!-- START: div -->
+<div class="theQuote">
+
+If a program manipulates a large amount of data, it does so in a small number of ways.
+
+</div>
+<!-- END: div -->
+
+So far, the only variables we've seen are ***scalar***: capable of holding a single data item, C also supports ***aggregate*** variables, which can store collections of values. There are two kinds of aggregates in C: arrays and structures. This chapter shows how to declare and use arrays, both one-dimensional (Section 8.1) and multidimensional (Section 8.2). Section 8.3 covers C99's variable-length arrays. The focus of the chapter is on one-dimensional arrays, which play a much bigger role in C than do multidimensional arrays. Later chapters (Chapter 12 in particular) provide additional information about arrays; Chapter 16 covers structures.
+
+## 8.1 One-Dimensional Arrays
+
+An ***array*** is a data structure containing a number of data values, all of which have the same type. These values, known as ***elements***, can be individually selected by their position within the array.
+
+The simplest kind of array has just one dimension. The elements of a one dimensional array are conceptually arranged one after another in a single row (or column, if you prefer). Here's how we might visualize a one-dimensional array named `a`:
+
+![one dimensional array a](images/dim1Array.jpg)
+
+To declare an array, we must specify the type of the array’s elements and the number of elements. For example, to declare that the array a has 10 elements of type `int`, we would write
+
+```C
+int a[10];
+```
+
+The elements of an array may be of any type; the length of the array can be specified by any (integer) constant expression. Since array lengths may need to be adjusted when the program is later changed, using a macro to define the length of an array is an excellent practice:
+
+```C
+#define N 10
+...
+int a[N];
+```
+
+### 8.1.1 Array Subscripting
+
+<span class="QandA"></span>
+
+To access a particular element of an array, we write the array name followed by an integer value in square brackets (this is referred to as subscripting or indexing the array). Array elements are always numbered starting from 0, so the elements of an array of length `n` are indexed from 0 to `n - 1`. For example, if `a` is an array with 10 elements, they're designated by `a[0]`, `a[1]`, ..., `a[9]`, as the following figure shows:
+
+![Array subscripting](./images/arrSubscript.jpg)
+
+Expressions of the form `a[i]` are lvalues, so they can be used in the same way as ordinary variables:
+
+```C
+a[0] = 1;
+printf ("%d\n", a[5]);
+++a[i];
+```
+
+In general, if an array contains elements of type `T`; then each element of the array is treated as if it were a variable of type `T`. In this example, the elements `a[0]`, `a[5]`, and `a[i]` behave like `int` variables.
+
+Arrays and `for` loops go hand-in-hand. Many programs contain `for` loops whose job is to perform some operation on every element in an array. Here are a few examples of typical operations on an array a of length `N`:
+
+```C
+for (i = 0; i < N; i++)
+    a[i] = 0; /* clears a */
+```
+
+```C
+for (i = 0; i < N; i++)
+    scanf ("%d", &a[i]); /* reads data into a */
+```
+
+```C
+for (i = 0; i < N; i++)
+    sum += a[i]; /* sums the elements of a */
+```
+
+Notice that we must use the `&` symbol when calling `scanf` to read an array element, just as we would with an ordinary variable.
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+C doesn’t require that subscript bounds be checked; if a subscript goes out of range, the program’s behavior is undefined. One cause of a subscript going out of bounds: forgetting that an array with `n` elements is indexed from O to `n - 1`, not 1 to `n`. (As one of my professors liked to say, "In this business, you're always off by one.” He was right, of course.) The following example illustrates a bizarre effect
+that can be caused by this common blunder:
+
+```C
+int a[10], i;
+
+for (i = 1; i <= 10; i++)
+    a[i] = 0;
+```
+
+With some compilers, this innocent-looking `for` statement causes an infinite loop! When `i` reaches 10, the program stores 0 into `a[10]`. But `a[10]` doesn’t exist, so 0 goes into memory immediately after `a[9]`. If the variable `i` happens to follow `a[9]` in memory—as might be the case—then `i` will be reset to 0, causing the loop to start over.
+
+</div>
+<!-- END: div -->
+
+An array subscript may be any integer expression:
+
+```C
+a[i + j * 10] = 0;
+```
+
+The expression can even have side effects:
+
+```C
+i = 0;
+while (i < N)
+    a[i++] = 0;
+```
+
+Let’s trace this code. After `i` is set to 0, the `while` statement checks whether `i` is less than `N`. If it is, `O` is assigned to `a[0]`, `i` is incremented, and the loop repeats. Note that `a[++i]` wouldn’t be right, because 0 would be assigned to `a[1]` during the first loop iteration.
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Be careful when an array subscript has a side effect. For example, the following loop—which is supposed to copy the elements of the array `b` into the array `a` may not work properly:
+
+```C
+i = 0;
+while (i < N)
+    a[i] = b[i++];
+```
+
+The expression `a[i] = b[i++]` accesses the value of `i` and also modifies `i` elsewhere in the expression, which—as we saw in Section 4.4—causes undefined behavior. Of course, we can easily avoid the problem by removing the increment from the subscript:
+
+```C
+for (i = 0; i < N; i++)
+    a[i] = b[i];
+```
+
+</div>
+<!-- END: div -->
+
+### 8.1.2 (PROGRAM) Reversing a Series of Numbers
+
+Our first array program prompts the user to enter a series of numbers, then writes the numbers in reverse order:
+
+```shell
+Enter 10 numbers: 34 82 49 102 7 94 23 11 50 31
+In reverse order: 31 50 11 23 94 7 102 49 82 34
+```
+
+Our strategy will be to store the numbers in an array as they’re read, then go through the array backwards, printing the elements one by one. In other words, we won’t actually reverse the elements in the array, but we’ll make the user think we did.
+
+```C
+/**
+ * file: reverse.c
+ * Author: K. N. King
+ * Purpose: Reverses a series of numbers */
+
+#include <stdio.h>
+
+#define N 10
+
+int main(void)
+{
+    int a[N], i;
+
+    printf("Enter %d numbers: ", N);
+    for(i = 0; i < N; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+
+    printf("In reverse order:");
+    for(i = N - 1; i >= 0; i--)
+    {
+        printf(" %d", a[i]);
+    }
+    printf("\n");
+    
+    return 0;
+}
+```
+
+This program shows just how useful macros can be in conjunction with arrays. The macro `N` is used four times in the program: in the declaration of `a`, in the `printf` that displays a prompt, and in both `for` loops. Should we later decide to change the size of the array, we need only edit the definition of `N` and recompile the program. Nothing else will need to be altered; even the prompt will still be correct.
+
+### 8.1.3 Array Initialization
+
+An array, like any other variable, can be given an initial value at the time it's declared. The rules are somewhat tricky, though, so we’ll cover some of them now and save others until later.
+
+The most common form of array initializer is a list of constant expressions enclosed in braces and separated by commas:
+
+```C
+int a[10] = {1, 2, 3, 4, 5; 6, 7, 8, 9, 10};
+```
+
+If the initializer is shorter than the array, the remaining elements of the array are
+given the value 0:
+
+```C
+int a[10] ={1, 2, 3, 4, 5, 6} ;
+    /* initial value of a is {1, 2, 3, 4, 5, 6, 0, 0, 0, 0} */
+```
+
+Using this feature, we can easily initialize an array to all zeros:
+
+```C
+int a[10] = {0}:
+    /* initdal value of a is {0, 0, 0, 0, 0, 0, 0, O, 0, 0} */
+```
+
+1t’s illegal for an initializer to be completely empty, so we’ve put a single 0 inside the braces. It's also illegal for an initializer to be longer than the array it initializes.
+
+If an initializer is present, the length of the array may be omitted:
+
+```C
+int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+```
+
+The compiler uses the length of the initializer to determine how long the array is. The array still has a fixed number of elements (10, in this example), just as if we had specified the length explicitly.
+
+<span class="C99Symbol"></span>
+
+### 8.1.4 Designated Initializers
+
+It's often the case that relatively few elements of an array need to be initialized explicitly: the other elements can be given default values. Consider the following example:
+
+```C
+int a[15] = {0, 0, 29, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 48}:
+```
+
+We want element 2 of the array to be 29, element 9 to be 7, and element 14 to be 48, but the other values are just zero. For a large array, writing an initializer in this fashion is tedious and error-prone (what if there were 200 zeros between two of the nonzero values?).
+
+C99's ***designated initializers*** can be used to solve this problem. Here's how we could redo the previous example using a designated initializer:
+
+```C
+int a[15] = {[2] = 29, [9] = 7, [14] = 48};
+```
+
+Each number in brackets is said to be a ***designator***.
+
+Besides being shorter and easier to read (at least for some arrays), designated initializers have another advantage: the order in which the elements are listed no longer matters. Thus, our previous example could also be written in the following way:
+
+```C
+int a[15] = {[14] = 48, [9] = 7, [2] = 29};
+```
+
+Designators must be integer constant expressions. If the array being initialized has length `n`, each designator must be between 0 and `n — 1`. However, if the length of the array is omitted, a designator can be any nonnegative integer. In the latter case, the compiler will deduce the length of the array from the largest designator.
+
+In the following example, the fact that 23 appears as a designator will force the array to have length 24:
+
+```C
+int b[] = {[5] = 10, [23] = 13, [11] = 36, [15] = 29};
+```
+
+An initializer may use both the older (element-by-element) technique and the newer (designated) technique:
+
+```C
+int c[10] = {5, 1, 9, [4] = 3, 7, 2, [8] = 6);
+```
+
+<span class="QandA"></span>
+
+This initializer specifies that the array’s first three elements will be 5, 1, and 9. Element 4 will have the value 3. The two elements after element 4 will be 7 and 2. Finally, element 8 will have the value 6. All elements for which no value is specified will default to zero.
+
+### 8.1.5 (PROGRAM) Checking a Number for Repeated Digits
+
+Our next program checks whether any of the digits in a number appear more than once. After the user enters a number, the program prints either `Repeated digit` or `No repeated digit`:
+
+```shell
+Enter a number: 28212
+Repeated digit
+```
+
+The number 28212 has a repeated digit (2); a number like 9357 doesn’t.
+
+The program uses an array of Boolean values to keep track of which digits appear in a number. The array, named `digit_seen`, is indexed from 0 to 9 to correspond to the 10 possible digits. Initially, every element of the array is false. (The initializer for `digit_seen` is {`false`}, which only initializes the first element of the array. However, the compiler will automatically make the remaining elements zero, which is equivalent to false.)
+
+When given a number `n`, the program examines `n`'s digits one at a time, storing each into the `digit` variable and then using it as an index into `digit_seen`. If `digit_seen[digit]` is true, then digit appears at least twice in `n`. On the other hand, if `digit_seen[digit]` is false, then digit has not been seen before, so the program sets `digit_seen[digit]` to `true` and keeps going.
+
+```C
+/**
+ * file:repdigit.c
+ * Author: K. N. King
+ * Purpose: Checks numbers for repeated digits */
+
+#include <stdio.h>
+#include <stdbool.h>
+
+int main(void)
+{
+    bool digit_seen[10] = {false};
+    int digit;
+    long n;
+
+    printf("Enter a number: ");
+    scanf("%ld", &n);
+
+    while(n > 0)
+    {
+        digit = n % 10;
+        if(digit_seen[digit])
+            break;
+        digit_seen[digit] = true;
+        n /= 10;
+    }
+
+    if(n > 0)
+        printf("Repeated digit\n");
+    else
+        printf("No repeated digit\n");
+
+    return 0;
+}
+```
+
+<span class="C99Symbol"></span>
+
+This program uses the names `bool`, `true`, and `false`, which are defined in C99's `<stdbool.h>` header. If your compiler doesn’t support this header, you'll need to define these names yourself. One way to do so is to put the following lines above the `main` function:
+
+```C
+#define true 1
+#define false 0
+typedef int bool;
+```
+
+Notice that `n` has type `long`, allowing the user fo enter numbers up to 2,147,483,647 (or more, on some machines).
+
+### 8.1.6 Using the sizeof Operator with Arrays
+
+The `sizeof` operator can determine the size of an array (in bytes). If `a` is an array of 10 integers, then `sizeof (a)` is typically 40 (assuming that each integer requires four bytes).
+
+We can also use `sizeof` to measure the size of an array element, such as `a[0]`. Dividing the array size by the element size gives the length of the array:
+
+```C
+sizeof(a) / sizeof(a[l0])
+```
+
+Some programmers use this expression when the length of the array is needed. To clear the array `a`, for example, we could write
+
+```C
+for (i = 0; i < sizeof(a) / sizeof(a[0]); i++)
+    a[i] = 0;
+```
+
+With this technique, the loop doesn’t have to be modified if the array length should change at a later date. Using a macro to represent the array length has the same advantage, of course, but the `sizeof` technique is slightly better, since there’s no macro name to remember (and possibly get wrong).
+
+One minor annoyance is that some compilers produce a warning message for the expression `i < sizeof (a) / sizeof (a[0])`. The variable `i` probably has type `int` (a signed type), whereas `sizeof` produces a value of type `size_t` (an unsigned type). We know from Section 7.4 that comparing a signed integer with an unsigned integer is a dangerous practice, although in this case it's safe because both `i` and `sizeof (a) / sizeof (a[0])` have nonnegative values. To avoid a warning, we can add a cast that converts `sizeof (a) / sizeof (a[0])` to a signed integer:
+
+```C
+for(i = 0; i < (int) (sizeof(a) / sizeof(a[0])); i++)
+    a[i] = 0;
+```
+
+Writing `(int) (sizeof (a) / sizeof (a[0]))` is a bit unwieldy; defining a macro that represents it is often helpful:
+
+```C
+#define SIZE ((int) (sizeof(a) / sizeof(a[0])))
+
+for (i = 0; i < SIZE; i++)
+a[i] = 0;
+```
+
+If we're back to using a macro, though, what's the advantage of sizeof`? We'll answer that question in a later chapter (the trick is to add a parameter to the macro).
+
+### 8.1.7 (PROGRAM) Computing Interest
+
+Our next program prints a table showing the value of $100 invested at different rates of interest over a period of years. The user will enter an interest rate and the number of years the money will be invested. The table will show the value of the money at one-year intervals—at that interest rate and the next four higher rates—assuming that interest is compounded once a year. Here’s what a session with the program will look like:
+
+```shell
+Enter interest rate: 6
+Enter number of years: 5
+
+Years     6%     7%     8%     9%    10%
+  1     106.00 107.00 108.00 108.00 110.00
+  2     112.36 114.49 116.64 118.81 121.00
+  3     119.10 122.50 125.97 129.50 133.10
+  4     126.25 131.08 136.05 141.16 146.41
+  5     133.82 140.26 146.93 153.86 161.05
+```
+
+Clearly, we can use a `for` statement to print the first row. The second row is a little trickier, since its values depend on the numbers in the first row. Our solution is to store the first row in an array as it's computed, then use the values in the array to compute the second row. Of course, this process can be repeated for the third and later rows. We'll end up with two `for` statements, one nested inside the other. The outer loop will count from 1 to the number of years requested by the user. The inner loop will increment the interest rate from its lowest value to its highest value.
+
+```C
+/**
+ * file: interest.c
+ * Author: K. N. King
+ * Purpose: Prints a tablet of compound interest */
+
+#include <stdio.h>
+
+#define NUM_RATES ((int) (sizeof(value) / sizeof(value[0])))
+#define INITIAL_BALANCE 100.00
+
+int main(void)
+{
+    int i, low_rate, num_years, year;
+    double value[5];
+
+    printf("Enter interest rate: ");
+    scanf("%d", &low_rate);
+    printf("Enter number of years: ");
+    scanf("%d", &num_years);
+
+    printf("\nYears");
+    for(i = 0; i < NUM_RATES; i++)
+    {
+        printf("%6d%%", low_rate + i);
+        value[i] = INITIAL_BALANCE;
+    }
+    printf("\n");
+
+    for(year = 1; year <= num_years; year++)
+    {
+        printf("%3d    ", year);
+        for(i = 0; i < NUM_RATES; i++)
+        {
+            value[i] += (low_rate + i) / 100.0 * value[i];
+            printf("%7.2f", value[i]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+```
+
+Note the use of `NUM_RATES` to control two of the `for` loops. If we later change the size of the value array. the loops will adjust automatically.
+
+## 8.2 Multidimensional Arrays
+
+An array may have any number of dimensions. For example, the following declaration creates a two-dimensional array (a *matrix*, in mathematical terminology):
+
+```C
+int m[5][9];
+```
+
+The array `m` has 5 rows and 9 columns. Both rows and columns are indexed from 0, as the following figure shows:
+
+![multi-dimensional array](./images/multidimeArr.jpg)
+
+To access the element of `m` in row `i`, column `j`, we must write `m[1][j]`. The expression `m[i]` designates row `i` of `m`, and `m[i][j]` then selects element `j` in this row.
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Resist the temptation to write `m[i, j]` instead of `m[i][j]`. C treats the comma as an operator in this context, so `m[i, j]` is the same as m[j].
+
+</div>
+<!-- END: div -->
+
+Although we visualize two-dimensional arrays as tables, that’s not the way they’re actually stored in computer memory. C stores arrays in ***row-major order***, with row 0 first, then row 1, and so forth. For example, here’s how the `m` array is stored:
+
+![multi-dimensional array: row-major order](./images/multiDimArr_row.jpg)
+
+We'll usually ignore this detail, but sometimes it will affect our code.
+
+Just as `for` loops go hand-in-hand with one-dimensional arrays, nested for loops are ideal for processing multidimensional arrays. Consider, for example, the problem of initializing an array for use as an identity matrix. (In mathematics, an *identity matrix* has 1’s on the main diagonal, where the row and column index are the same, and 0's everywhere else.) We'll need to visit each element in the array in some systematic fashion. A pair of nested `for` loops—one that steps through every row index and one that steps through each column index—is perfect for the job:
+
+```C
+#define N 10
+
+double ident[N][N];
+int row, col;
+
+for (row = 0; row < N; row++)
+    for (col = 0; col < N; col++)
+        if (row == col)
+            ident[row][col] = 1.0;
+        else
+            ident[row][col] = 0.0;
+```
+
+Multidimensional arrays play a lesser role in C than in many other programming languages, primarily because C provides a more flexible way to store multidimensional data: arrays of pointers.
+
+### 8.2.1 Initializing a Multidimensional Array
+
+We can create an initializer for a two-dimensional array by nesting one-dimensional initializers:
+
+```C
+int m[5][9] = {{1, 1, 1, 1, 1, 0, 1, 1, 1},
+               {0, 1, 0, 1, 0, 1, 0, 1, 0},
+               {0, 1, 0, 1, 1, 0, 0, 1, 0},
+               {1, 1, 0, 1, 0, 0, 0, 1, 0},
+               {1, 1, 0, 1, 0, 0, 1, 1, 1}};
+```
+
+Each inner initializer provides values for one row of the matrix. Initializers for higher-dimensional arrays are constructed in a similar fashion.
+
+C provides a variety of ways to abbreviate initializers for multidimensional arrays:
+
+<!-- START: unordered-list -->
+<ul>
+<li>
+
+If an initializer isn’t large enongh to fill a multidimensional array, the remaining elements are given the value 0. For example, the following initializer fills only the first three rows of `m`: the last two rows will contain zeros:
+
+```C
+int m[5][9] = {{1, 1, 1, 1, 1, 0, 1, 1, 1},
+               {0, 1, 0, 1, 0, 1, 0, 1, 0},
+               {0, 1, 0, 1, 1, 0, 0, 1, 0}};
+```
+
+</li>
+<li>
+
+If an inner list isn’t long enough to fill a row, the remaining elements in the row are initialized to 0:
+
+```C
+int m[5][9] = {{1, 1, 1, 1, 1, 0, 1, 1, 1},
+               {0, 1, 0, 1, 0, 1, 0, 1},
+               {0, 1, 0, 1, 1, 0, 0, 1},
+               {1, 1, 0, 1, 0, 0, 0, 1},
+               {1, 1, 0, 1, 0, 0, 1, 1, 1}};
+```
+
+</li>
+<li>
+
+We can even omit the inner braces:
+
+```C
+int m[5][9] = {1, 1, 1, 1, 1, 0, 1, 1, 1,
+               0, 1, 0, 1, 0, 1, 0, 1, 0,
+               0, 1, 0, 1, 1, 0, 0, 1, 0,
+               1, 1, 0, 1, 0, 0, 0, 1, 0,
+               1, 1, 0, 1, 0, 0, 1, 1, 1};
+```
+
+Once the compiler has seen enough values to fill one row, it begins filling the next.
+
+</li>
+</ul>
+<!-- END: unordered-list -->
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Omitting the inner braces in a multidimensional array initializer can be risky, since an extra element (or even worse, a missing element) will affect the rest of the initializer, Leaving out the braces causes some compilers to produce a warning message such as “missing braces around initializer.”
+
+</div>
+<!-- END: div -->
+
+<span class="C99"></span>
+
+C99’s designated initializers work with multidimensional arrays. For example, we could create a 2 x 2 identity matrix as follows:
+
+```C
+double ident[2][2] = {[0][0] = 1.0, [1][1] = 1.0};
+```
+
+As usual, all elements for which no value is specified will default to zero.
+
+### 8.2.2 Constant Arrays
+
+Any array, whether one-dimensional or multidimensional, can be made “constant” by starting its declaration with the word `const`:
+
+```C
+const char hex chars[] =
+    {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
+```
+
+An array that’s been declared `const` should not be modified by the program: the compiler will detect direct attempts to modify an element.
+
+Declaring an array to be `const` has a couple of primary advantages. It documents that the program won’t change the array, which can be valuable information for someone reading the code later. It also helps the compiler catch errors, by informing it that we don’t intend to modify the array.
+
+`const` isn’t limited to arrays; it works with any variable, as we’ll see later. However, `const` is particularly useful in array declarations, because arrays may contain reference information that won’t change during program execution.
+
+### 8.2.3 (PROGRAM) Dealing a Hand of Cards
+
+Our next program illustrates both two-dimensional arrays and constant arrays. The program deals a random hand from a standard deck of playing cards. (In case you haven’t had time to play games recently, each card in a standard deck has a *suit*--clubs, diamonds, hearts, or spades—and a *rank*—two, three, four, five, six, seven, eight, nine, ten, jack. queen, king, or ace.) We'll have the user specify how many cards should be in the hand:
+
+```C
+Enter number of cards in hand: 5
+Your hand: 7c 2s 5d as 2h
+```
+
+It’s not immediately obvious how we’d write such a program. How do we pick cards randomly from the deck? And how do we avoid picking the same card twice? Let’s tackle these problems separately.
+
+To pick cards randomly, we'll use several C library functions. The `time` function (from `<time.h>`) returns the current time, encoded in a single number. The `srand` function (from `<stdlib.h>`) initializes C’s random number generator. Passing the return value of time to `srand` prevents the program from dealing the same cards every time we run it. The `rand` function (also from `<stdlib.h>`) produces an apparently random number each time it’s called. By using the `%` operator, we can scale the return value from rand so that it falls between 0 and 3 (for suits) or between 0 and 12 (for ranks).
+
+To avoid picking the same card twice, we’ll need to keep track of which cards have already been chosen. For that purpose, we'll use an array named `in_hand` that has four rows (one for each suit) and 13 columns (one for each rank). In other words, each element in the array corresponds to one of the 52 cards in the deck. All elements of the array will be false to start with. Each time we pick a card at random, we’ll check whether the element of `in_hand` corresponding to that card is true or false. If it’s true, we’ll have to pick another card. If it’s false, we’ll store true in that card’s array element to remind us later that this card has already been picked.
+
+Once we've verified that a card is “new”—not already selected—we’ll need to translate its numerical rank and suit into characters and then display the card. To translate the rank and suit to character form, we'll set up two arrays of characters—one for the rank and one for the suit—and then use the numbers to subscript the arrays. These arrays won't change during program execution, so we may as well declare them to be `const`.
+
+```C
+/**
+ * file: deal.c
+ * Author: K. N. King
+ * Purpose: Deals a random hand of cards */
+
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define NUM_SUITS 4
+#define NUM_RANKS 13
+
+int main(void)
+{
+    bool in_hand[NUM_SUITS][NUM_RANKS] = {false};
+    int num_cards, rank, suit;
+    const char rank_code[] = {'2', '3', '4', '5', '6', '7', '8', '9', 't', 'j', 'q', 'k', 'a'};
+    const char suit_code[] = {'c', 'd', 'h', 's'};
+
+    srand((unsigned) time(NULL));
+
+    printf("Enter number of cards in hand: ");
+    scanf("%d", &num_cards);
+
+    printf("Your hand: ");
+    while(num_cards > 0)
+    {
+        suit = rand() % NUM_SUITS;    /* picks a random suit */
+        rank = rand() % NUM_RANKS;    /* picks a random rank */
+        if(!in_hand[suit][rank])
+        {
+            in_hand[suit][rank] = true;
+            num_cards--;
+            printf(" %c%c", rank_code[rank], suit_code[suit]);
+        }
+    }
+    printf("\n");
+
+    return 0;
+}
+```
+
+Notice the initializer for the `in_hand` array:
+
+```C
+bool in_hand[NUM_SUITS][NUM_RANKS] = {false};
+```
+
+Even though `in_hand` is a two-dimensional array, we can use a single pair of braces (at the risk of possibly incurring a warning from the compiler). Also, we've supplied only one value in the initializer, knowing that the compiler will fill in 0 (false) for the other elements.
+
+## 8.3 Variable-Length Arrays (C99)
+
+Section 8.1 stated that the length of an array variable must be specified by a constant expression. In C99, however. it's sometimes possible to use an expression that’s *not* constant. The following modification of the `reverse.c` program (Section 8.1) illustrates this ability:
+
+```C
+/**
+ * file: reverse2.c
+ * Author: K. N. King
+ * Purpose: Reverses a series of numbers using variable-length array - C99 only */
+
+#include <stdio.h>
+
+int main(void)
+{
+    int i, n;
+
+    printf("How many numbers do you want to reverse?: ");
+    scanf("%d", &n);
+
+    int a[n];    /* C99 only - length of array depends on n */
+
+    printf("Enter %d numbers: ", n);
+    for(i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+
+    printf("In reverse order:");
+    for(i = n - 1; i >= 0; i--)
+    {
+        printf(" %d", a[i]);
+    }
+    printf("\n");
+    
+    return 0;
+}
+```
+
+The array `a` in this program is an example of a variable-length array (or ***VLA*** for short). The length of a VLA is computed when the program is executed, not when the program is compiled. The chief advantage of a VLA is that the programmer doesn’t have to pick an arbitrary length when declaring an array: instead, the program itself can calculate exactly how many elements are needed. If the programmer makes the choice, it's likely that the array will be too long (wasting memory) or too short (causing the program to fail). In the `reverse2.c` program, the number entered by the user determines the length of `a`: the programmer doesn’t have to choose a fixed length, unlike in the original version of the program.
+
+The length of a VLA doesn’t have to be specified by a single variable. Arbitrary expressions, possibly containing operators, are also legal. For example:
+
+```C
+int a[3 * i + 5];
+int b[j + k];
+```
+
+Like other arrays, VLAs can be multidimensional:
+
+```C
+int c[m][n];
+```
+
+The primary restriction on VLAs is that they can’t have static storage duration. (We haven’t yet seen any arrays with this property.) Another restriction is that a VLA may not have an initializer.
+
+Variable-length arrays are most often seen in functions other than `main`. One big advantage of a VLA that belongs to a function `f` is that it can have a different length each time `f` is called. We'll explore this feature in Section 9.3.
+
+---
+
+## Q&A
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Why do array subscripts start at 0 instead of 12 [p. 162]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Having subscripts begin at 0 simplifies the compiler a bit. Also, it can make array
+subscripting marginally faster.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: What if I want an array with subscripts that go from 1 to 10 instead of 0 to 9?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Here’s a common trick: declare the array to have 11 elements instead of 10. The subscripts will go from 0 to 10, but you can just ignore element 0.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Is it possible to use a character as an array subscript?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Yes, because C treats characters as integers. You'll probably need to “scale” the character before you use it as a subscript, though. Let’s say that we want the letter count array to keep track of a count for each letter in the alphabet. The array will need 26 elements, so we'd declare it in the following way:
+
+```C
+int letter_count[26];
+```
+
+However, we can’t use letters to subsctipt `letter_count` directly, because their integer values don't fall between 0 and 25. To scale a lower-case letter to the proper range, we can simply subtract `'a'`; to scale an upper-case letter, we’ll subtract `'A'`. For example, if `ch` contains a lower-case letter, we'd write
+
+```C
+letter_count[ch-'a'] = 0;
+```
+
+to clear the count that corresponds to `ch`. A minor caveat: this technique isn’t completely portable, because it assumes that letters have consecutive codes. However, it works with most character sets. including ASCIL.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: It seems like a designated initializer could end up initializing an array element more than once. Consider the following array declaration:
+
+```C
+int a[] = {4, 9, 1. 8, [0] = 5, 7};
+```
+
+Is this declaration legal, and if so, what is the length of the array? [p. 166]
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Yes, the declaration is legal. Here's how it works: as it processes an initializer list, the compiler keeps track of which array element is to be initialized next. Normally, the next element is the one following the element that was last initialized. However, when a designator appears in the list, it forces the next element be the one represented by the designator, even if that element has already been initialized.
+
+Here's a step-by-step look at how the compiler will process the initializer for the array `a`:
+
+> The 4 initializes element 0; the next element to be initialized is element 1.  
+> The 9 initializes element 1; the next element to be initialized is element 2.  
+> The 1 initializes element 2; the next element to be initialized is element 3.  
+> The 8 initializes element 3; the next element to be initialized is element 4.  
+> The [0] designator causes the next element to become 0, so the 5 initializes element 0 (replacing the 4 previously stored there). The next element to be initialized is element 1.  
+> The 7 initializes element 1 (replacing the 9 previously stored there). The next element to be initialized is element 2 (which is irrelevant since we're at the end of the list).  
+
+The net effect is the same as if we had written
+
+```C
+int a[] = {5, 7, 1, 8};
+```
+
+Thus, the length of this array is four.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: The compiler gives me an error message if I try to copy one array into another by using the assignment operator. What’s wrong?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Although it looks quite plausible, the assignment
+
+```C
+a = b; /* a and b are arrays */
+```
+
+is indeed illegal. The reason for its illegality isn’t obvious; it has to do with the peculiar relationship between arrays and pointers in C, a topic we'll explore in Chapter 12.
+
+The simplest way to copy one array into another is to use a loop that copies the elements, one by one:
+
+```C
+for (i = 0; i < N; i++)
+    a[i] = b[i];
+```
+
+Another possibility is to use the `memcpy` (“memory copy”) function from the `<string.h>` header. `memcpy` is a low-level function that simply copies bytes from one place to another. To copy the array `b` into the array `a`, use `memcpy` as follows:
+
+```C
+memcpy(a, b, sizeof(a));
+```
+
+Many programmers prefer `memcpy`, especially for large arrays, because it’s potentially faster than an ordinary loop.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Section 6.4 mentioned that C99 doesn’t allow a `goto` statement to bypass the declaration of a variable-length array. What’s the reason for this restriction?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: The memory used to store a variable-length array is usually allocated when the declaration of the array is reached during program execution. Bypassing the declaration using a `goto` statement could result in a program accessing the elements of an array that was never allocated.
+
+</div>
+<!-- END: div -->
+
+---
+
+## Examples
+
+- Programs: [./cknkCh08/cknkCh08Exmp/](./cknkCh08/cknkCh08Exmp/)
+
+## Exercises
+
+- Readme: [./cknkCh08/cknkCh08Exrc/README.md](./cknkCh08/cknkCh08Exrc/README.md)  
+- Readme (html): [./cknkCh08/cknkCh08Exrc/cknkCh08ExrcReadme.html](./cknkCh08/cknkCh08Exrc/cknkCh08ExrcReadme.html)  
+- Programs: [./cknkCh08/cknkCh08Exrc/](./cknkCh08/cknkCh08Exrc/)  
+
+## Programming Projects
+
+- Readme: [./cknkCh08/cknkCh08Prj/README.md](./cknkCh08/cknkCh08Prj/README.md)  
+- Readme: [./cknkCh08/cknkCh08Prj/cknkCh08PrjReadme.html](./cknkCh08/cknkCh08Prj/cknkCh08PrjReadme.html)  
+- Programs: [./cknkCh08/cknkCh08Prj/](./cknkCh08/cknkCh08Prj/)  
 
 <hr class="chapterDivider"/>
+
+
+---
+
+## Examples
+
+- Programs: [./cknkCh09/cknkCh09Exmp/](./cknkCh09/cknkCh09Exmp/)
+
+## Exercises
+
+- Readme: [./cknkCh09/cknkCh09Exrc/README.md](./cknkCh09/cknkCh09Exrc/README.md)  
+- Readme (html): [./cknkCh09/cknkCh09Exrc/cknkCh09ExrcReadme.html](./cknkCh09/cknkCh09Exrc/cknkCh09ExrcReadme.html)  
+- Programs: [./cknkCh09/cknkCh09Exrc/](./cknkCh09/cknkCh09Exrc/)  
+
+## Programming Projects
+
+- Readme: [./cknkCh09/cknkCh09Prj/README.md](./cknkCh09/cknkCh09Prj/README.md)  
+- Readme: [./cknkCh09/cknkCh09Prj/cknkCh09PrjReadme.html](./cknkCh09/cknkCh09Prj/cknkCh09PrjReadme.html)  
+- Programs: [./cknkCh09/cknkCh09Prj/](./cknkCh09/cknkCh09Prj/)  
+
+<hr class="chapterDivider"/>
+
 
 </body>
 </html>
