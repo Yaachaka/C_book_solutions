@@ -3638,8 +3638,8 @@ shown in the following table:</p>
 the amount of the trade, then displays the amount of the commission:</p>
 <pre class="shell"><code>Enter value of trade: 30000
 Commission: $166.00</code></pre>
-<p>The heart of the program is a cascaded if statement that determines
-which range the trade falls into.</p>
+<p>The heart of the program is a cascaded <code>if</code> statement that
+determines which range the trade falls into.</p>
 <div class="sourceCode" id="cb175"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb175-1"><a href="#cb175-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
 <span id="cb175-2"><a href="#cb175-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: broker.c</span></span>
@@ -4970,7 +4970,7 @@ fashion). For example, some programmers use the following
 class="sourceCode c"><code class="sourceCode c"><span id="cb256-1"><a href="#cb256-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(;;)</span> <span class="op">...</span></span></code></pre></div>
 <h3 id="for-statements-in-c99">6.3.3 <code>for</code> statements in
 C99</h3>
-<p>In €99, the first expression in a <code>for</code> statement can be
+<p>In C99, the first expression in a <code>for</code> statement can be
 replaced by a declaration. “This teature allows the programmer to
 declare a variable for use by the loop:</p>
 <div class="sourceCode" id="cb257"><pre
@@ -5312,7 +5312,7 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb276-1"><a href="#cb2
 <span id="cb276-4"><a href="#cb276-4" aria-hidden="true" tabindex="-1"></a>    execute command <span class="op">;</span></span>
 <span id="cb276-5"><a href="#cb276-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <p>Executing the command will require a <code>switch</code> statement
-(or cascaded if statement):</p>
+(or cascaded <code>if</code> statement):</p>
 <div class="sourceCode" id="cb277"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb277-1"><a href="#cb277-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(;;)</span> <span class="op">{</span></span>
 <span id="cb277-2"><a href="#cb277-2" aria-hidden="true" tabindex="-1"></a>    prompt user to enter command <span class="op">;</span></span>
@@ -5721,6 +5721,2054 @@ href="./cknkCh06/cknkCh06Prj/cknkCh06PrjReadme.html">./cknkCh06/cknkCh06Prj/cknk
 </li>
 <li>Programs: <a
 href="./cknkCh06/cknkCh06Prj/">./cknkCh06/cknkCh06Prj/</a></li>
+</ul>
+<hr class="chapterDivider"/>
+<h1 id="basic-types">7 Basic Types</h1>
+<!-- START: div -->
+<div class="theQuote">
+<p>Make no mistake about it: Computers process numbers—not symbols. We
+measure our understanding (and control) by the extent to which we can
+arithmetize an activity.</p>
+</div>
+<!-- END: div -->
+<p>So far, we’ve used only two of C’s <strong><em>basic</em></strong>
+(built-in) <strong><em>types</em></strong>: <code>int</code> and
+<code>float</code>. (We’ve also seen <code>_Bool</code>, which is a
+basic type in C99.) This chapter describes the rest of the basic types
+and dist s important issues about types in general. Section 7.1 reveals
+the full range of integer types. which include long integers, short
+integers, and unsigned integers. Section 7.2 introduces the
+<code>double</code> and <code>long double</code> types, which provide a
+larger range of values and greater precision than <code>float</code>.
+Section 7.3 covers the <code>char</code> type, which we’ll need in order
+to work with character data. Section 7.4 tackles the thorny topic of
+converting a value of one type to an equivalent value of another.
+Section 7.5 shows how to use <code>typedef</code> to define new type
+names. Finally, Section 7.6 describes the <code>sizeof</code> operator,
+which measures the amount of storage required for a type.</p>
+<h2 id="integer-types">7.1 Integer Types</h2>
+<p>C supports two fundamentally different kinds of numeric types:
+integer types and floating types. Values of an integer type are whole
+numbers, while values of a floating type can have a fractional part as
+well. The integer types, in turn, are divided into two categories:
+<code>signed</code> and <code>unsigned</code>.</p>
+<!-- START: div -->
+<section id="signed-and-unsigned-integers" class="infoBox">
+<h2>Signed and Unsigned Integers</h2>
+<p>The leftmost bit of a <strong><em>signed</em></strong> integer (known
+as the sign bit) is 0 if the number is positive or zero, 1 if it’s
+negative. Thus, the largest 16-bit integer has the binary
+representation</p>
+<p>0111111111111111</p>
+<p>which has the value 32,767 (2<sup>15</sup> — 1). The largest 32-bit
+integer is</p>
+<p>01111111111111111111111111111111</p>
+<p>which has the value 2,147,483,647 (2<sup>31</sup> — 1). An integer
+with no sign bit (the leftmost bit is considered part of the number’s
+magnitude) is said to be <strong><em>unsigned</em></strong>. The largest
+16-bit unsigned integer is 65,535 (2<sup>16</sup> - 1), and the largest
+32-bit unsigned integer is 4,294,967,295 (2<sup>32</sup> - 1).</p>
+<p>By default, integer variables are signed in C—the leftmost bit is
+reserved for the sign. To tell the compiler that a variable has no sign
+bit, we declare it to be unsigned. Unsigned numbers are primarily useful
+for systems programming and low-level, machine-dependent applications.
+We’ll discuss typical applications for unsigned numbers in Chapter 20;
+until then, we’ll generally avoid them.</p>
+</section>
+<!-- END: div -->
+<p>C’s integer types come in different sizes. The <code>int</code> type
+is usually 32 bits, but may be 16 bits on older CPUs. Since some
+programs require numbers that are too large to store in <code>int</code>
+form, C also provides <code>long</code> integers. At times, we may need
+to conserve memory by instructing the compiler to store a number in less
+space than normal; such a number is called a
+<strong><em>short</em></strong> integer.</p>
+<p>To construct an integer type that exactly meets our needs, we can
+specify that a variable is <code>long</code> or <code>short</code>,
+<code>signed</code> or <code>unsigned</code>. We can even combine
+specifiers (e.g., <code>long unsigned int</code>). However, only the
+following six combinations actually produce different types:</p>
+<div class="sourceCode" id="cb298"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb298-1"><a href="#cb298-1" aria-hidden="true" tabindex="-1"></a><span class="dt">short</span> <span class="dt">int</span></span>
+<span id="cb298-2"><a href="#cb298-2" aria-hidden="true" tabindex="-1"></a><span class="dt">unsigned</span> <span class="dt">short</span> <span class="dt">int</span></span>
+<span id="cb298-3"><a href="#cb298-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb298-4"><a href="#cb298-4" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span></span>
+<span id="cb298-5"><a href="#cb298-5" aria-hidden="true" tabindex="-1"></a><span class="dt">unsigned</span> <span class="dt">int</span></span>
+<span id="cb298-6"><a href="#cb298-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb298-7"><a href="#cb298-7" aria-hidden="true" tabindex="-1"></a><span class="dt">long</span> <span class="dt">int</span></span>
+<span id="cb298-8"><a href="#cb298-8" aria-hidden="true" tabindex="-1"></a><span class="dt">unsigned</span> <span class="dt">long</span> <span class="dt">int</span></span></code></pre></div>
+<p>Other combinations are synonyms for one of these six types. (For
+example, <code>long signed int</code> is the same as
+<code>long int</code>, since integers are always signed unless otherwise
+specified.) Incidentally, the order of the specifiers doesn’t matter;
+<code>unsigned short int</code> is the same as
+<code>short unsigned int</code>.</p>
+<p>C allows us to abbreviate the names of integer types by dropping the
+word <code>int</code>. For example, <code>unsigned short int</code> may
+be abbreviated to <code>unsigned short</code>, and <code>long int</code>
+may be abbreviated to just <code>long</code>. Omitting <code>int</code>
+is a widespread practice among C programmers, and some newer C-based
+languages (including Java) actually require the programmer to write
+<code>short</code> or <code>long</code> rather than
+<code>short int</code> or <code>long int</code>. For these reasons, I’ll
+often omit the word <code>int</code> when it’s not strictly
+necessary.</p>
+<p>The range of values represented by each of the six integer types
+varies from one machine to another. However, there are a couple of rules
+that all compilers must obey. First, the C standard requires that
+<code>short int</code>, <code>int</code>, and <code>long int</code> each
+cover a certain minimum range of values (see Section 23.2 for details).
+Second, the standard requires that <code>int</code> not be shorter than
+<code>short int</code>, and <code>long int</code> not be shorter than
+<code>int</code>. However, it’s possible that <code>short int</code>
+represents the same range of values as <code>int</code>; also,
+<code>int</code> may have the same range as <code>long int</code>.</p>
+<p>Table 7.1 shows the usual range of values for the integer types on a
+16-bit machine; note that <code>short int</code> and <code>int</code>
+have identical ranges.</p>
+<p><strong>Table 7.1</strong>: Integer Types on a 16-bit Machine</p>
+<table>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Smallest Value</th>
+<th>Largest Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>short int</code></td>
+<td>32,768</td>
+<td>32,767</td>
+</tr>
+<tr class="even">
+<td><code>unsigned short int</code></td>
+<td>0</td>
+<td>65,535</td>
+</tr>
+<tr class="odd">
+<td><code>int</code></td>
+<td>-32,768</td>
+<td>32,767</td>
+</tr>
+<tr class="even">
+<td><code>unsigned int</code></td>
+<td>0</td>
+<td>65,535</td>
+</tr>
+<tr class="odd">
+<td><code>long int</code></td>
+<td>-2,147,483,648</td>
+<td>2,147 483,647</td>
+</tr>
+<tr class="even">
+<td><code>unsigned long int</code></td>
+<td>0</td>
+<td>4.294.967.295</td>
+</tr>
+</tbody>
+</table>
+<p>Table 7.2 shows the usual ranges on a 32-bit machine; here
+<code>int</code> and <code>long int</code> have identical ranges.</p>
+<p><strong>Table 7.2</strong>: Integer Types on a 32-bit Machine</p>
+<table>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Smallest Value</th>
+<th>Largest Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>short int</code></td>
+<td>32,768</td>
+<td>32,767</td>
+</tr>
+<tr class="even">
+<td><code>unsigned short int</code></td>
+<td>0</td>
+<td>65,535</td>
+</tr>
+<tr class="odd">
+<td><code>int</code></td>
+<td>-2,147,483,648</td>
+<td>2,147,483,647</td>
+</tr>
+<tr class="even">
+<td><code>unsigned int</code></td>
+<td>0</td>
+<td>4,294.967,295</td>
+</tr>
+<tr class="odd">
+<td><code>long int</code></td>
+<td>-2,147,483,648</td>
+<td>2,147,483,647</td>
+</tr>
+<tr class="even">
+<td><code>unsigned long int</code></td>
+<td>0</td>
+<td>4,294,967,295</td>
+</tr>
+</tbody>
+</table>
+<p>In recent years, 64-bit CPUs have become more common. Table 7.3 shows
+typical ranges for the integer types on a 64-bit machine (especially
+under UNIX).</p>
+<p><strong>Table 7.3</strong>: Integer Types on a 64-bit Machine</p>
+<table>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Smallest Value</th>
+<th>Largest Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>short int</code></td>
+<td>32,768</td>
+<td>32,767</td>
+</tr>
+<tr class="even">
+<td><code>unsigned short int</code></td>
+<td>0</td>
+<td>65,535</td>
+</tr>
+<tr class="odd">
+<td><code>int</code></td>
+<td>-2,147,483,648</td>
+<td>2,147,483,647</td>
+</tr>
+<tr class="even">
+<td><code>unsigned int</code></td>
+<td>0</td>
+<td>4,294,967,295</td>
+</tr>
+<tr class="odd">
+<td><code>long int</code></td>
+<td>-9,223,372,036,854,775,808</td>
+<td>9,223,372,036,854,775,807</td>
+</tr>
+<tr class="even">
+<td><code>unsigned long int</code></td>
+<td>0</td>
+<td>18,446,744,073,709,551,615</td>
+</tr>
+</tbody>
+</table>
+<p>Once more, let me emphasize that the ranges shown in Tables 7.1, 7.2,
+and 7.3 aren’t mandated by the C standard and may vary from one compiler
+to another. One way to determine the ranges of the integer types for a
+particular implementation is to check the <code>&lt;1imits.h&gt;</code>
+header, which is part of the standard library. This header defines
+macros that represent the smallest and largest values of each integer
+type.</p>
+<p><span class="C99Symbol"></span></p>
+<h3 id="integer-types-in-c99">7.1.1 Integer Types in C99</h3>
+<p>C99 provides two additional standard integer types,
+<code>long long int</code> and <code>unsigned long long int</code>.
+These types were added because of the growing need for very large
+integers and the ability of newer processors to support 64-bit
+arithmetic. Both <code>long long</code> types are required to be at
+least 64 bits wide, so the range of <code>long long int</code> values is
+typically -2<sup>63</sup> (-9,223,372,036,854,775,808) to 2<sup>63</sup>
+- 1 (9,223,372,036,854,775,807), and range of
+<code>unsigned long long int</code> values is usually 0 to
+2<sup>64</sup> — 1 (18,446,744,073,709,551,615).</p>
+<p>The <code>short int</code>, <code>int</code>, <code>long int</code>,
+and <code>long long int</code> types (along with the
+<code>signed char</code> type) are called <strong><em>standard signed
+integer types</em></strong> in C99. The <code>unsigned short int</code>,
+<code>unsigned int</code>, <code>unsigned long int</code>, and
+<code>unsigned long long int</code> types (along with the
+<code>unsigned char</code> type and the <code>_Bool</code> type) are
+called <strong><em>standard unsigned integer types</em></strong>.</p>
+<p>In addition to the standard integer types, the C99 standard allows
+implementation-defined <strong><em>extended integer types</em></strong>,
+both signed and unsigned. For example, a compiler might provide signed
+and unsigned 128-bit integer types.</p>
+<h3 id="integer-constants">7.1.2 Integer Constants</h3>
+<p>Let’s turn our attention to
+<strong><em>constants</em></strong>—numbers that appear in the text of a
+program, not numbers that are read, written, or computed. C allows
+integer constants to be written in decimal (base 10), octal (base 8), or
+hexadecimal (base 16).</p>
+<!-- START: div -->
+<section id="octal-and-hexadecimal-numbers" class="infoBox">
+<h2>Octal and Hexadecimal Numbers</h2>
+<p>An octal number is written using only the digits 0 through 7. Each
+position in an octal number represents a power of 8 (just as each
+position in a decimal number represents a power of 10). Thus, the octal
+number 237 represents the decimal number <span
+class="displayInlineMath"><span
+class="math display">2 × 8<sup>2</sup> + 3 × 8<sup>1</sup> + 7 × 8<sup>0</sup> = 128 + 24 + 7 = 159</span></span>.</p>
+<p>A hexadecimal (or hex) number is written using the digits 0 through 9
+plus the letters A through F, which stand for 10 through 15,
+respectively. Each pasition in a hex number represents a power of 16;
+the hex number <code>1AF</code> has the decimal value <span
+class="displayInlineMath"><span
+class="math display">1 × 16<sup>2</sup> + 10 × 16<sup>1</sup> + 15 × 16<sup>0</sup> = 256 + 160 + 15 = 431</span></span>.</p>
+</section>
+<!-- END: div -->
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p><strong><em>Decimal</em></strong> constants contain digits between 0
+and 9, but must not begin with a Zero:</p>
+<div class="sourceCode" id="cb299"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb299-1"><a href="#cb299-1" aria-hidden="true" tabindex="-1"></a><span class="dv">15</span> <span class="dv">255</span> <span class="dv">32767</span></span></code></pre></div>
+</li>
+<li>
+<p><strong><em>Octal</em></strong> constants contain only digits between
+0 and 7, and <em>must</em> begin with a zero:</p>
+<div class="sourceCode" id="cb300"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb300-1"><a href="#cb300-1" aria-hidden="true" tabindex="-1"></a><span class="bn">017</span> <span class="bn">0377</span> <span class="bn">077777</span></span></code></pre></div>
+</li>
+<li>
+<p><strong>Hexadecimal</strong> constants contain digits between 0 and 9
+and letters between <code>a</code> and <code>f</code>, and always begin
+with <code>0x</code>:</p>
+<div class="sourceCode" id="cb301"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb301-1"><a href="#cb301-1" aria-hidden="true" tabindex="-1"></a><span class="bn">0xf</span> Oxff Ox7fff</span></code></pre></div>
+<p>The letters in a hexadecimal constant may be either upper or lower
+case:</p>
+<div class="sourceCode" id="cb302"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb302-1"><a href="#cb302-1" aria-hidden="true" tabindex="-1"></a>Oxff OxfF OxFf OxFF OXff OXEF OXFf OXFF</span></code></pre></div>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<p>Keep in mind that octal and hexadecimal are nothing more than an
+alternative way of writing numbers; they have no effect on how the
+numbers are actually stored. (Integers are always stored in binary,
+regardless of what notation we’ve used to express them.) We can switch
+from one notation to another at any time, and even mix them:
+<code>10 + 015 + 0x20</code> has the value 55 (decimal). Octal and hex
+are most convenient for writing low-level programs; we won’t use these
+notations much until Chapter 20.</p>
+<p>The type of a decimal integer constant is normally <code>int</code>.
+However, if the value of the constant is too large to store as an
+<code>int</code>, the constant has type <code>long int</code> instead.
+In the unlikely case that the constant is too large to store as a
+<code>long int</code>, the compiler will try
+<code>unsigned long int</code> as a last resort. The rules for
+determining the type of an <em>octal</em> or <em>hexadecimal</em>
+constant are slightly different: the compiler will go through the types
+<code>int</code>, <code>unsigned int</code>, <code>long int</code>, and
+<code>unsigned long int</code> until it finds one capable of
+representing the constant.</p>
+<p>To force the compiler to treat a constant as a long integer, just
+follow it with the letter <code>L</code> (or <code>l</code>):</p>
+<div class="sourceCode" id="cb303"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb303-1"><a href="#cb303-1" aria-hidden="true" tabindex="-1"></a><span class="dv">15</span><span class="bu">L</span> <span class="bn">0377</span><span class="bu">L</span> Ox7fffL</span></code></pre></div>
+<p>To indicate that a constant is unsigned, put the letter
+<code>U</code> (or <code>u</code>) after it:</p>
+<div class="sourceCode" id="cb304"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb304-1"><a href="#cb304-1" aria-hidden="true" tabindex="-1"></a><span class="dv">15</span><span class="bu">U</span> <span class="bn">03770</span> Ox7fffU</span></code></pre></div>
+<p><code>L</code> and <code>U</code> may be used in combination to show
+that a constant is both long <em>and</em> unsigned:
+<code>OxffffffffUL</code>. (The order of the <code>L</code> and
+<code>U</code> doesn’t matter, nor does their case.)</p>
+<p><span class="C99Symbol"></span></p>
+<h3 id="integer-constants-in-c99">Integer Constants in C99</h3>
+<p>In C99, integer constants that end with either <code>LL</code> or
+<code>ll</code> (the case of the two letters must match) have type
+<code>long long int</code>. Adding the letter <code>U</code> (or
+<code>u</code>) before or after the <code>LL</code> or <code>ll</code>
+denotes a constant of type <code>unsigned long long int</code>.</p>
+<p>C99’s general rules for determining the type of an integer constant
+are a bit different from those in C89, The type of a decimal constant
+with no suffix (<code>U</code>, <code>u</code>, <code>L</code>,
+<code>l</code>, <code>LL</code>, or <code>ll</code>) is the “smallest”
+of the types <code>int</code>, <code>long int</code>, or
+<code>long long int</code> that can represent the value of that
+constant. For an octal or hexadecimal constant, however, the list of
+possible types is <code>int</code>, <code>unsigned int</code>,
+<code>long int</code>, <code>unsigned long int</code>,
+<code>long long int</code>, and <code>unsigned long long int</code>, in
+that order. Any suffix at the end of a constant changes the list of
+possible types. For example, a constant that ends with <code>U</code>
+(or <code>u</code>) must have one of the types
+<code>unsigned int</code>, <code>unsigned long int</code>, or
+<code>unsigned long long int</code>. A decimal constant that ends with
+<code>L</code> (or <code>l</code>) must have one of the types
+<code>long int</code> or <code>long long int</code>. There’s also a
+provision for a constant to have an extended integer type if it’s too
+large to represent using one of the standard integer types.</p>
+<h3 id="integer-overflow">7.1.4 Integer Overflow</h3>
+<p>When arithmetic operations are performed on integers, it’s possible
+that the result will be too large to represent. For example, when an
+arithmetic operation is performed on two <code>int</code> values, the
+result must be able to be represented as an <code>int</code>. If the
+result can’t be represented as an <code>int</code> (because it requires
+too many bits), we say that <strong><em>overflow</em></strong> has
+occurred.</p>
+<p>The behavior when integer overflow occurs depends on whether the
+operands were <em>signed</em> or <em>unsigned</em>. When overflow occurs
+during an operation on signed integers, the program’s behavior is
+undefined. Recall from Section 4.4 that the consequences of undefined
+behavior may vary. Most likely the result of the operation will simply
+be wrong, but the program could crash or exhibit other undesirable
+behavior.</p>
+<p>When overflow occurs during an operation on unsigned integers,
+though, the result is defined: we get the correct answer modulo
+2<sup>n</sup>, where <code>n</code> is the number of bits used to store
+the result. For example, if we add 1 to the unsigned 16-bit number
+65,533, the result is guaranteed to be 0.</p>
+<h3 id="reading-and-writing-integers">7.1.5 Reading and Writing
+Integers</h3>
+<p>Suppose that a program isn’t working because one of its
+<code>int</code> variables is overflowing. Our first thought is to
+change the type of the variable from <code>int</code> to
+<code>long int</code>. But we’re not done yet; we need to see how the
+change will affect the rest of the program. In particular, we must check
+whether the variable is used in a call of <code>printf</code> or
+<code>scanf</code>. If so, the format string in the call will need to be
+changed, since the %d conversion works only for the <code>int</code>
+type.</p>
+<p>Reading and writing unsigned, short, and long integers requires
+several new conversion specifiers:</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p><span class="QandA"></span></p>
+<p>When reading or writing an <em>unsigned</em> integer, use the letter
+<code>u</code>, <code>o</code>, or <code>x</code> instead of
+<code>d</code> in the conversion specification. If the <code>u</code>
+specifier is present, the number is read (or written) in decimal
+notation; <code>o</code> indicates octal notation, and <code>x</code>
+indicates hexadecimal notation.</p>
+<div class="sourceCode" id="cb305"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb305-1"><a href="#cb305-1" aria-hidden="true" tabindex="-1"></a><span class="dt">unsigned</span> <span class="dt">int</span> u<span class="op">;</span></span>
+<span id="cb305-2"><a href="#cb305-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb305-3"><a href="#cb305-3" aria-hidden="true" tabindex="-1"></a>scanf <span class="op">(</span><span class="st">&quot;%u&quot;</span><span class="op">,</span> <span class="op">&amp;</span>u<span class="op">);</span> <span class="co">/* reads u in base 10 */</span></span>
+<span id="cb305-4"><a href="#cb305-4" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;%u&quot;</span><span class="op">,</span> u<span class="op">);</span> <span class="co">/* writes u in base 10 */</span></span>
+<span id="cb305-5"><a href="#cb305-5" aria-hidden="true" tabindex="-1"></a>scanf <span class="op">(</span><span class="st">&quot;%o&quot;</span><span class="op">,</span> <span class="op">&amp;</span>u<span class="op">);</span> <span class="co">/* reads u in base 8 */</span></span>
+<span id="cb305-6"><a href="#cb305-6" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;%o&quot;</span><span class="op">,</span> u<span class="op">);</span> <span class="co">/* writes u in base 8 */</span></span>
+<span id="cb305-7"><a href="#cb305-7" aria-hidden="true" tabindex="-1"></a>scanf <span class="op">(</span><span class="st">&quot;%x&quot;</span><span class="op">,</span> <span class="op">&amp;</span>u<span class="op">);</span> <span class="co">/* reads u in base 16 */</span></span>
+<span id="cb305-8"><a href="#cb305-8" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%x&quot;</span><span class="op">,</span> u<span class="op">);</span> <span class="co">/* writes u in base 16 */</span></span></code></pre></div>
+</li>
+<li>
+<p>When reading or writing a <em>short</em> integer. put the letter
+<code>h</code> in front of <code>d</code>, <code>o</code>,
+<code>u</code>, or <code>x</code></p>
+<div class="sourceCode" id="cb306"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb306-1"><a href="#cb306-1" aria-hidden="true" tabindex="-1"></a><span class="dt">short</span> s<span class="op">;</span></span>
+<span id="cb306-2"><a href="#cb306-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb306-3"><a href="#cb306-3" aria-hidden="true" tabindex="-1"></a>scanf <span class="op">(</span><span class="st">&quot;%hd&quot;</span><span class="op">,</span> <span class="op">&amp;</span>s<span class="op">);</span></span>
+<span id="cb306-4"><a href="#cb306-4" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;%hd&quot;</span><span class="op">,</span> s<span class="op">);</span></span></code></pre></div>
+</li>
+<li>
+<p>When reading or writing a <em>long</em> integer, put the letter
+<code>l</code> (“ell,” not “one”) in front of <code>d</code>,
+<code>o</code>, <code>u</code>, or <code>x</code>:</p>
+<div class="sourceCode" id="cb307"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb307-1"><a href="#cb307-1" aria-hidden="true" tabindex="-1"></a><span class="dt">long</span> l<span class="op">;</span></span>
+<span id="cb307-2"><a href="#cb307-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb307-3"><a href="#cb307-3" aria-hidden="true" tabindex="-1"></a>scanf <span class="op">(</span><span class="st">&quot;%ld&quot;</span><span class="op">,</span> <span class="op">&amp;</span>l<span class="op">);</span></span>
+<span id="cb307-4"><a href="#cb307-4" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%ld&quot;</span><span class="op">,</span> l<span class="op">);</span></span></code></pre></div>
+</li>
+<li>
+<p><span class="C99Symbol"></span></p>
+<p>When reading or writing a <em>long long</em> integer (C99 only), put
+the letters <code>ll</code> in front of <code>d</code>, <code>o</code>,
+<code>u</code>, or <code>x</code>:</p>
+<div class="sourceCode" id="cb308"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb308-1"><a href="#cb308-1" aria-hidden="true" tabindex="-1"></a><span class="dt">long</span> <span class="dt">long</span> ll<span class="op">;</span></span>
+<span id="cb308-2"><a href="#cb308-2" aria-hidden="true" tabindex="-1"></a>scanf <span class="op">(</span><span class="st">&quot;%lld&quot;</span><span class="op">,</span> <span class="op">&amp;</span>ll<span class="op">);</span></span>
+<span id="cb308-3"><a href="#cb308-3" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;%lld&quot;</span><span class="op">,</span> ll<span class="op">);</span></span></code></pre></div>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<h3 id="program-summing-a-series-of-numbers-revisited">7.1.6 (PROGRAM)
+Summing a Series of Numbers (Revisited)</h3>
+<p>In Section 6.1, we wrote a program that sums a series of integers
+entered by the user. One problem with this program is that the sum (or
+one of the input numbers) might exceed the largest value allowed for an
+<code>int</code> variable. Here’s what might happen if the program is
+run on a machine whose integers are 16 bits long:</p>
+<pre class="shell"><code>This program sums a series of integers.
+Enter integers (0 to terminate): 10000 20000 30000 0
+The sum is: -5536</code></pre>
+<p>The sum was 60,000, which wouldn’t fit in an <code>int</code>
+variable, so overflow occurred. When overflow occurs with signed
+numbers, the outcome is undefined. In this case, we got an apparently
+meaningless number. To improve the program, let’s switch to
+<code>Long</code> variables.</p>
+<div class="sourceCode" id="cb310"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb310-1"><a href="#cb310-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
+<span id="cb310-2"><a href="#cb310-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: sum2.c</span></span>
+<span id="cb310-3"><a href="#cb310-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Sums a series of numbers (using long variables)</span></span>
+<span id="cb310-4"><a href="#cb310-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb310-5"><a href="#cb310-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb310-6"><a href="#cb310-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb310-7"><a href="#cb310-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb310-8"><a href="#cb310-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb310-9"><a href="#cb310-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb310-10"><a href="#cb310-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb310-11"><a href="#cb310-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">long</span> n<span class="op">,</span> sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb310-12"><a href="#cb310-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb310-13"><a href="#cb310-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;This program sums a series of integers.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb310-14"><a href="#cb310-14" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter integers (0 to terminate): &quot;</span><span class="op">);</span></span>
+<span id="cb310-15"><a href="#cb310-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb310-16"><a href="#cb310-16" aria-hidden="true" tabindex="-1"></a>    scanf<span class="op">(</span><span class="st">&quot;%ld&quot;</span><span class="op">,</span> <span class="op">&amp;</span>n<span class="op">);</span></span>
+<span id="cb310-17"><a href="#cb310-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>n <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb310-18"><a href="#cb310-18" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb310-19"><a href="#cb310-19" aria-hidden="true" tabindex="-1"></a>        sum <span class="op">+=</span> n<span class="op">;</span></span>
+<span id="cb310-20"><a href="#cb310-20" aria-hidden="true" tabindex="-1"></a>        scanf<span class="op">(</span><span class="st">&quot;%ld&quot;</span><span class="op">,</span> <span class="op">&amp;</span>n<span class="op">);</span></span>
+<span id="cb310-21"><a href="#cb310-21" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb310-22"><a href="#cb310-22" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;The sum is: %ld</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> sum<span class="op">);</span></span>
+<span id="cb310-23"><a href="#cb310-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb310-24"><a href="#cb310-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb310-25"><a href="#cb310-25" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The change was fairly simple: we declared <code>n</code> and
+<code>sum</code> to be <code>long</code> variables instead of
+<code>int</code> variables, then we changed the conversion
+specifications in <code>scanf</code> and <code>printf</code> to
+<code>%l1d</code> instead of <code>%d</code>.</p>
+<h2 id="floating-types">7.2 Floating Types</h2>
+<p>The integer types aren’t suitable for all applications. Sometimes
+we’ll need variables that can store numbers with digits after the
+decimal point, or numbers that are exceedingly large or small. Numbers
+like these are stored in floating-point format (so called because the
+decimal point “floats”). C provides three floating types, corresponding
+to different floating-point formats:</p>
+<ul>
+<li><code>float</code> Single-precision floating-point<br />
+</li>
+<li><code>double</code> Double-precision floating-point<br />
+</li>
+<li><code>long double</code> Extended-precision floating-point</li>
+</ul>
+<p><code>float</code> is suitable when the amount of precision isn’t
+critical (calculating temperatures to one decimal point, for example).
+<code>double</code> provides greater precision enough for most programs.
+<code>long double</code>, which supplies the ultimate in precision, is
+rarely used.</p>
+<p>The C standard doesn’t state how much precision the
+<code>float</code>, <code>double</code>, and <code>long double</code>
+types provide, since different computers may store floating-point
+numbers in different ways. Most modern computers follow the
+specifications in IEEE Standard 754 (also known as IEC 60559), so we’ll
+use it as an example.</p>
+<!-- START: div -->
+<section id="the-ieee-floating-point-standard" class="infoBox">
+<h2>The IEEE Floating-Point Standard</h2>
+<p>IEEE Standard 754, developed by the Institute of Electrical and
+Electronics Engineers, provides two primary formats for floating-point
+numbers: single precision (32 bits) and double precision (64 bits).
+Numbers are stored in a form of scientific notation, with each number
+having three parts: a <strong><em>sign</em></strong>, an
+<strong><em>exponent</em></strong>, and a
+<strong><em>fraction</em></strong>. The number of bits reserved for the
+exponent determines how large (or small) numbers can be, while the
+number of bits in the fraction determines the precision. In
+single-precision format, the exponent is 8 bits long, while the fraction
+occupies 23 bits. As a result, a single-precision number has a maximum
+value of approximately 3.40 x 10<sup>38</sup>, with a precision of about
+6 decimal digits.</p>
+<p>The IEEE standard also describes two other formats, single extended
+precision and double extended precision. The standard doesn’t specify
+the number of bits in these formats, although it requires that the
+single extended type occupy at least 43 bits and the double extended
+type at least 79 bits. For more information about the IEEE standard and
+floating-point arithmetic in general, see “What every computer scientist
+should know about floating-point arithmetic” by David Goldberg (<em>ACM
+Computing Surveys</em>, vol. 23, no. 1 (March 1991): 5-48).</p>
+</section>
+<!-- END: div -->
+<p>Table 7.4 shows the characteristics of the floating types when
+implemented according to the IEEE standard. (The table shows the
+smallest positive <em>normalized</em> values. Subnormal numbers can be
+smaller.) The <code>long double</code> type isn’t shown in the table,
+since its length varies from one machine to another, with 80 bits and
+128 bits being the most common sizes.</p>
+<p><strong>Table 7.4</strong>: Floating Type Characteristics (IEEE
+Standard)</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Smallest Positive Value</th>
+<th>Largest Value</th>
+<th>Precision</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>float</td>
+<td>1.17549 x 10<sup>-38</sup></td>
+<td>3.40282 x 10<sup>38</sup></td>
+<td>6 digits</td>
+</tr>
+<tr class="even">
+<td>double</td>
+<td>2.22507 x 10<sup>-308</sup></td>
+<td>1.79769 x 10<sup>308</sup></td>
+<td>15 digits</td>
+</tr>
+</tbody>
+</table>
+<p>On computers that don’t follow the IEEE standard, Table 7.4 won’t be
+valid. In fact, on some machines, <code>float</code> may have the same
+set of values as <code>double</code>, or <code>double</code> may have
+the same values as <code>long double</code>. Macros that define the
+characteristics of the floating types can be found in the
+<code>&lt;float.h&gt;</code> header.</p>
+<p>In C99, the floating types are divided into two categories. The
+<code>float</code>, <code>double</code>, and <code>long double</code>
+types fall into one category, called the <strong><em>real floating
+types</em></strong>. Floating types also include the complex types
+(<code>float _Complex</code>, <code>double _Complex</code>, and
+<code>long double _Complex</code>), which are new in C99.</p>
+<h3 id="floating-constants">7.2.1 Floating Constants</h3>
+<p>Floating constants can be written in a variety of ways. The following
+constants, for example, are all valid ways of writing the number
+57.0:</p>
+<div class="sourceCode" id="cb311"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb311-1"><a href="#cb311-1" aria-hidden="true" tabindex="-1"></a><span class="fl">57.0</span> <span class="fl">57.</span> <span class="fl">57.0e0</span> <span class="fl">57E0</span> <span class="fl">5.7e1</span> <span class="fl">5.7e+1</span> <span class="fl">.57e2</span> <span class="fl">570.e-1</span></span></code></pre></div>
+<p>A floating constant must contain a decimal point and/or an exponent;
+the exponent indicates the power of 10 by which the number is to be
+scaled. If an exponent is present, it must be preceded by the letter
+<code>E</code> (or <code>e</code>). An optional <code>+</code> or
+<code>-</code> sign may appear after the <code>E</code> (or
+<code>e</code>).</p>
+<p>By default, floating constants are stored as double-precision
+numbers. In other words, when a C compiler finds the constant 57.0 in a
+program, it arranges for the number to be stored in memory in the same
+format as a <code>double</code> variable. This rule generally causes no
+problems, since <code>double</code> values are converted automatically
+to <code>float</code> when necessary.</p>
+<p>On occasion, it may be necessary to force the compiler to store a
+floating constant in <code>float</code> or <code>long double</code>
+format. To indicate that only single precision is desired, put the
+letter <code>F</code> (or <code>f</code>) at the end of the constant
+(for example, <code>57.0F</code>). To indicate that a constant should be
+stored in <code>long double</code> format, put the letter <code>L</code>
+(or <code>l</code>) at the end (<code>57.OL</code>).</p>
+<p><span class="C99Symbol"></span> <span class="QandA"></span></p>
+<p>C99 has a provision for writing floating constants in hexadecimal.
+Such a constant begins with <code>0x</code> or <code>0X</code> (like a
+hexadecimal integer constant). This feature is rarely used.</p>
+<h3 id="reading-and-writing-floating-point-numbers">7.2.2 Reading and
+Writing Floating-Point Numbers</h3>
+<p>As we’ve discussed, the conversion specifications <code>%e</code>,
+<code>%f</code>, and <code>%g</code> are used for reading and writing
+single-precision floating-point numbers. Values of types
+<code>double</code> and <code>long double</code> require slightly
+different conversions:</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p>When <em>reading</em> a value of type <code>double</code>, put the
+letter <code>l</code> in front of <code>e</code>, <code>f</code>, or
+<code>g</code>:</p>
+<div class="sourceCode" id="cb312"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb312-1"><a href="#cb312-1" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> d<span class="op">;</span></span>
+<span id="cb312-2"><a href="#cb312-2" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%lf&quot;</span><span class="op">,</span> <span class="op">&amp;</span>d<span class="op">);</span></span></code></pre></div>
+<p><span class="QandA"></span> <span class="C99Symbol"></span></p>
+<p><em>Note</em>: Use <code>l</code> only in a <code>scanf</code> format
+string, not a <code>printf</code> string. In a <code>printf</code>
+format string, the <code>e</code>, <code>f</code>, and <code>g</code>
+conversions can be used to write either <code>float</code> or
+<code>double</code> values. (C99 legalizes the use of <code>%le</code>,
+<code>%lf</code>, and <code>%lg</code> in calls of <code>printf</code>,
+although the <code>l</code> has no effect.)</p>
+</li>
+<li>
+<p>When reading or writing a value of type <code>long double</code>, put
+the letter <code>L</code> in front of <code>e</code>, <code>£</code>, or
+<code>g</code>:</p>
+<div class="sourceCode" id="cb313"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb313-1"><a href="#cb313-1" aria-hidden="true" tabindex="-1"></a><span class="dt">long</span> <span class="dt">double</span> ld<span class="op">;</span></span>
+<span id="cb313-2"><a href="#cb313-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb313-3"><a href="#cb313-3" aria-hidden="true" tabindex="-1"></a>scanf <span class="op">(</span><span class="st">&quot;%Lf&quot;</span><span class="op">,</span> <span class="op">&amp;</span>ld<span class="op">);</span></span>
+<span id="cb313-4"><a href="#cb313-4" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;%Lf&quot;</span><span class="op">,</span> ld<span class="op">);</span></span></code></pre></div>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<h2 id="character-types">7.3 Character Types</h2>
+<p><span class="QandA"></span></p>
+<p>The only remaining basic type is <code>char</code>, the character
+type. The values of type <code>char</code> can vary from one computer to
+another, because different machines may have different underlying
+character sets.</p>
+<!-- START: div -->
+<section id="character-sets" class="infoBox">
+<h2>Character Sets</h2>
+<p>Today’s most popular character set is ASCII (American Standard Code
+for Information Interchange), a 7-bit code capable of representing 128
+characters. In ASCII, the digits 0 to 9 are represented by the codes
+0110000-0111001, and the uppercase letters A to Z are represented by
+1000001-1011010. ASCII is often extended to a 256-character code known
+as <strong>Latin-1</strong> that provides the characters necessary for
+Western European and many African languages.</p>
+</section>
+<!-- END: div -->
+<p>A variable of type <code>char</code> can be assigned any single
+character:</p>
+<div class="sourceCode" id="cb314"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb314-1"><a href="#cb314-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> ch<span class="op">;</span></span>
+<span id="cb314-2"><a href="#cb314-2" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> <span class="ch">&#39;a&#39;</span><span class="op">;</span> <span class="co">/* lower-case a */</span></span>
+<span id="cb314-3"><a href="#cb314-3" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> <span class="ch">&#39;A&#39;</span><span class="op">;</span> <span class="co">/* upper-case A */</span></span>
+<span id="cb314-4"><a href="#cb314-4" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> <span class="ch">&#39;0&#39;</span><span class="op">;</span> <span class="co">/* zero */</span></span>
+<span id="cb314-5"><a href="#cb314-5" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> <span class="ch">&#39; &#39;</span><span class="op">;</span> <span class="co">/* space */</span></span></code></pre></div>
+<p>Notice that character constants are enclosed in single quotes, not
+double quotes.</p>
+<h3 id="operations-on-characters">7.3.1 Operations on Characters</h3>
+<p>Working with characters in C is simple, because of one fact: <em>C
+treats characters as small integers</em>. After all, characters are
+encoded in binary, and it doesn’t take much imagination to view these
+binary codes as integers. In ASCII, for example, character codes range
+from 0000000 to 1111111, which we can think of as the integers from 0 to
+127. The character <code>'a'</code> has the value 97. <code>'A'</code>
+has the value 65. <code>'0'</code> has the value 48, and
+<code>' '</code> has the value 32. The connection between characters and
+integers in C is so strong that character constants actually have
+<code>int</code> type rather than <code>char</code> type (an interesting
+fact, but not one that will often matter to us).</p>
+<p>When a character appears in a computation, C simply uses its integer
+value. Consider the following examples, which assume the ASCII character
+set:</p>
+<div class="sourceCode" id="cb315"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb315-1"><a href="#cb315-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> ch<span class="op">;</span></span>
+<span id="cb315-2"><a href="#cb315-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb315-3"><a href="#cb315-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb315-4"><a href="#cb315-4" aria-hidden="true" tabindex="-1"></a>i<span class="op">=</span><span class="ch">&#39;a&#39;</span><span class="op">;</span> <span class="co">/* i is now 97 */</span></span>
+<span id="cb315-5"><a href="#cb315-5" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> <span class="dv">65</span><span class="op">;</span> <span class="co">/* ch is mow &#39;A&#39; */</span></span>
+<span id="cb315-6"><a href="#cb315-6" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> ch <span class="op">+</span> <span class="dv">1</span><span class="op">;</span> <span class="co">/* ch is now &#39;B&#39; */</span></span>
+<span id="cb315-7"><a href="#cb315-7" aria-hidden="true" tabindex="-1"></a>ch<span class="op">++;</span> <span class="co">/* ch is now &#39;c&#39; */</span></span></code></pre></div>
+<p>Characters can be compared, just as numbers can. The following
+<code>if</code> statement checks whether <code>ch</code> contains a
+lower-case letter; if so, it converts <code>ch</code> to upper case.</p>
+<div class="sourceCode" id="cb316"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb316-1"><a href="#cb316-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span><span class="ch">&#39;a&#39;</span> <span class="op">&lt;=</span> ch <span class="op">&amp;&amp;</span> ch <span class="op">&lt;=</span> <span class="ch">&#39;z&#39;</span><span class="op">)</span></span>
+<span id="cb316-2"><a href="#cb316-2" aria-hidden="true" tabindex="-1"></a>    ch <span class="op">=</span> ch <span class="op">-</span> <span class="ch">&#39;a&#39;</span> <span class="op">+</span> <span class="ch">&#39;A&#39;</span><span class="op">;</span></span></code></pre></div>
+<p>Comparisons such as <code>'a' &lt;= ch</code> are done using the
+integer values of the characters involved. These values depend on the
+character set in use, so programs that use <code>&lt;</code>,
+<code>&lt;=</code>, <code>&gt;</code>, and <code>&gt;=</code> to compare
+characters may not be portable.</p>
+<p>The fact that characters have the same properties as numbers has some
+advantages. For example, we can easily write a <code>for</code>
+statement whose control variable steps through all the upper-case
+letters:</p>
+<div class="sourceCode" id="cb317"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb317-1"><a href="#cb317-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>ch <span class="op">=</span> <span class="ch">&#39;A&#39;</span><span class="op">;</span> ch <span class="op">&lt;=</span> <span class="ch">&#39;Z&#39;</span><span class="op">;</span> ch<span class="op">++)</span> <span class="op">...</span></span></code></pre></div>
+<p>On the other hand, treating characters as numbers can lead to various
+programming errors that won’t be caught by the compiler, and lets us
+write meaningless expressions such as ‘a’ * ‘b’ / ‘c’. It can also
+hamper portability, since our programs may be based on assumptions about
+the underlying character set. (Our <code>for</code> loop, for example,
+assumes that the letters from A to Z have consecutive codes.)</p>
+<h3 id="signed-and-unsigned-characters">7.3.2 Signed and Unsigned
+Characters</h3>
+<p>Since C allows characters to be used as integers, it shouldn’t be
+surprising that the <code>char</code> type—like the integer types—exists
+in both <code>signed</code> and <code>unsigned</code> versions. Signed
+characters normally have values between —128 and 127, while unsigned
+characters have values between 0 and 255.</p>
+<p>The C standard doesn’t specify whether ordinary <code>char</code> is
+a signed or an unsigned type: some compilers treat it as a signed type.
+while others treat it as an unsigned type. (Some even allow the
+programmer to select, via a compiler option, whether <code>char</code>
+should be signed or unsigned.)</p>
+<p><span class="QandA"></span></p>
+<p>Most of the time, we don’t really care whether <code>char</code> is
+signed or unsigned. Once in a while, though, we do, especially if we’re
+using a character variable to store a small integer. For this reason, C
+allows the use of the words <code>signed</code> and
+<code>unsigned</code> to modify <code>char</code>:</p>
+<div class="sourceCode" id="cb318"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb318-1"><a href="#cb318-1" aria-hidden="true" tabindex="-1"></a><span class="dt">signed</span> <span class="dt">char</span> sch<span class="op">;</span></span>
+<span id="cb318-2"><a href="#cb318-2" aria-hidden="true" tabindex="-1"></a><span class="dt">unsigned</span> <span class="dt">char</span> uch<span class="op">;</span></span></code></pre></div>
+<p><em>Don’t assume that <code>char</code> is either signed or unsigned
+by defauli. If it marters, use <code>signed char</code> or
+<code>unsigned char</code> instead of <code>char</code>.</em></p>
+<p>In light of the close relationship between characters and integers,
+C89 uses the term integral types to refer to both the integer types and
+the character types. Enumerated types are also integral types.</p>
+<p><span class="C99Symbol"></span></p>
+<p>C99 doesn’t use the term “integral types.” Instead, it expands the
+meaning of “integer types” to include the character types and the
+enumerated types. C99’s <code>_Bool</code> type is considered to be an
+unsigned integer type.</p>
+<h3 id="arithmetic-types">7.3.3 Arithmetic Types</h3>
+<p>The integer types and floating types are collectively known as
+<strong><em>arithmetic types</em></strong>. Here’s a summary of the
+arithmetic types in C89, divided into categories and subcategories:</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p>Integral types</p>
+<ul>
+<li><code>char</code><br />
+</li>
+<li>Signed integer types (<code>signed char</code>,
+<code>short int</code>, <code>int</code>, <code>long int</code>)<br />
+</li>
+<li>Unsigned integer types (<code>unsigned char</code>,
+<code>unsigned short int</code>, <code>unsigned int</code>,
+<code>unsigned long int</code>)<br />
+</li>
+<li>Enumerated types</li>
+</ul>
+</li>
+<li>
+<p>Floating types (<code>float</code>, <code>double</code>,
+<code>long double</code>)</p>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<p><span class="C99Symbol"></span></p>
+<p>C99 has a more complicated hierarchy for its arithmetic types:</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p>Integer types</p>
+<ul>
+<li><code>char</code><br />
+</li>
+<li>Signed integer types, both standard (<code>signed char</code>,
+<code>short int</code>, <code>int</code>, <code>long int</code>,
+<code>long long int</code>) and extended<br />
+</li>
+<li>Unsigned integer types, both standard (<code>unsigned char</code>,
+<code>unsigned short int</code>, <code>unsigned int</code>,
+<code>unsigned long int</code>, <code>unsigned long long int</code>,
+<code>_Bool</code>) and extended<br />
+</li>
+<li>Enumerated types</li>
+</ul>
+</li>
+<li>
+<p>Floating types</p>
+<ul>
+<li>Real floating types (<code>float</code>, <code>double</code>,
+<code>long double</code>)<br />
+</li>
+<li>Complex types (<code>float _Complex</code>,
+<code>double _Complex</code>, <code>long double _Complex</code>)</li>
+</ul>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<h3 id="escape-sequences-1">7.3.4 Escape Sequences</h3>
+<p>A character constant is usually one character enclosed in single
+quotes, as we’ve seen in previous examples. However, certain special
+characters—including the new-line character—can’t be written in this
+way, because they’re invisible (non-printing) or because they can’t be
+entered from the keyboard. So that programs can deal with every
+character in the underlying character set, C provides a special
+notation, the escape sequence.</p>
+<p>There are two kinds of escape sequences: <strong><em>character
+escapes</em></strong> and <strong><em>numeric escapes</em></strong>. We
+saw a partial list of character escapes in Section 3.1; Table 7.5 gives
+the complete set.</p>
+<p><strong>Table 7.5</strong>: Character Escapes</p>
+<table>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Escape Sequence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Alert (bell)</td>
+<td><code>\a</code></td>
+</tr>
+<tr class="even">
+<td>Backspace</td>
+<td><code>\b</code></td>
+</tr>
+<tr class="odd">
+<td>Form feed</td>
+<td><code>\f</code></td>
+</tr>
+<tr class="even">
+<td>New line</td>
+<td><code>\n</code></td>
+</tr>
+<tr class="odd">
+<td>Carriage return</td>
+<td><code>\r</code></td>
+</tr>
+<tr class="even">
+<td>Horizontal tab</td>
+<td><code>\t</code></td>
+</tr>
+<tr class="odd">
+<td>Vertical tab</td>
+<td><code>\v</code></td>
+</tr>
+<tr class="even">
+<td>Backslash</td>
+<td><code>\\</code></td>
+</tr>
+<tr class="odd">
+<td>Question mark</td>
+<td><code>\?</code></td>
+</tr>
+<tr class="even">
+<td>Single quote</td>
+<td><code>\'</code></td>
+</tr>
+<tr class="odd">
+<td>Double quote</td>
+<td><code>\"</code></td>
+</tr>
+</tbody>
+</table>
+<p><span class="QandA"></span></p>
+<p>The <code>\a</code>, <code>\b</code>, <code>\f</code>,
+<code>\r</code>, <code>\t</code>, and <code>\v</code> escapes represent
+common ASCII control characters. The <code>\n</code> escape represents
+the ASCII line-feed character. The <code>\\</code> escape allows a
+character constant or string to contain the <code>\</code> character.
+The <code>\'</code> escape allows a character constant to contain the
+<code>'</code> character, while the <code>\"</code> escape allows a
+string to contain the <code>"</code> character. The <code>\?</code>
+escape is rarely used.</p>
+<p>Character escapes are handy, but they have a problem: the list of
+character escapes doesn’t include all the nonprinting ASCII characters,
+just the most common. Character escapes are also useless for
+representing characters beyond the basic 128 ASCII characters. Numeric
+escapes, which can represent any character, are the solution to this
+problem.</p>
+<p>To write a numeric escape for a particular character, first look up
+the character’s octal or hexadecimal value in a table like the one in
+Appendix E. For example, the ASCII escape character (decimal value: 27)
+has the value 33 in octal and 1B in hex. Either of these codes can be
+used to write an escape sequence:</p>
+<ul>
+<li>An <strong><em>octal escape sequence</em></strong> consists of the
+<code>\</code> character followed by an octal number with at most three
+digits. (This number must be representable as an unsigned character, so
+its maximum value is normally 377 octal.) For example, the escape
+character could be written <code>\33</code> or <code>\033</code>, Octal
+numbers in escape sequences—unlike octal constants—don’t have to begin
+with 0.<br />
+</li>
+<li>A hexadecimal escape sequence consists of <code>\x</code> followed
+by a hexadecimal number. Although C places no limit on the number of
+digits in the hexadecimal number, it must be representable as an
+unsigned character (hence it can’t exceed FF if characters are eight
+bits long). Using this notation, the escape character would be written
+<code>\x1b</code> or <code>\x1B</code>. The <code>x</code> must be in
+lower case, but the hex digits (such as <code>b</code>) can be upper or
+lower case.</li>
+</ul>
+<p>When used as a character constant, an escape sequence must be
+enclosed in single quotes. For example, a constant representing the
+escape character would be written <code>'\33'</code> (or
+<code>'\x1b'</code>). Escape sequences tend to get a bit cryptic, so
+it’s often a good idea to give them names using
+<code>#define</code>:</p>
+<div class="sourceCode" id="cb319"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb319-1"><a href="#cb319-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define ESC &#39;\33&#39; /* ASCII escape character */</span></span></code></pre></div>
+<p>Escape sequences can be embedded in strings as well, as we saw in
+Section 3.1.</p>
+<p><span class="C99Symbol"></span></p>
+<p>Escape sequences aren’t the only special notations for representing
+characters. Trigraph sequences provide a way to represent the characters
+<code>#</code>, <code>[</code>, <code>\</code>, <code>]</code>,
+<code>^</code>, <code>{</code>, <code>|</code>. <code>}</code>, and
+<code>~</code>, which may not be available on keyboards in some
+countries. C99 adds universal character names, which resemble escape
+sequences. Unlike escape sequences, however, universal character names
+are allowed in identifiers.</p>
+<h3 id="character-handling-functions">7.3.5 Character-Handling
+Functions</h3>
+<p>Earlier in this section, we saw how to write an <code>if</code>
+statement that converts a lowercase letter to upper-case:</p>
+<div class="sourceCode" id="cb320"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb320-1"><a href="#cb320-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span><span class="ch">&#39;a&#39;</span> <span class="op">&lt;=</span> ch <span class="op">&amp;&amp;</span> ch <span class="op">&lt;=</span> <span class="ch">&#39;z&#39;</span><span class="op">)</span></span>
+<span id="cb320-2"><a href="#cb320-2" aria-hidden="true" tabindex="-1"></a>    ch <span class="op">=</span> ch <span class="op">-</span> <span class="ch">&#39;a&#39;</span> <span class="op">+</span> <span class="ch">&#39;A&#39;</span><span class="op">;</span></span></code></pre></div>
+<p>This isn’t the best method, though. A faster—and more portable—way to
+convert case is to call C’s <code>toupper</code> library function:</p>
+<div class="sourceCode" id="cb321"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb321-1"><a href="#cb321-1" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> toupper <span class="op">(</span>ch<span class="op">);</span> <span class="co">/* converts ch to upper case */</span></span></code></pre></div>
+<p>When it’s called, <code>toupper</code> checks whether its argument
+(<code>ch</code> in this case) is a lower-case letter. If so, it returns
+the corresponding upper-case letter. Otherwise, <code>toupper</code>
+returns the value of the argument. In our example, we’ve used the
+assignment operator to store the return value of <code>toupper</code>
+back into the <code>ch</code> variable, although we could just as easily
+have done something else with it—stored it in another variable, say, or
+tested it in an <code>if</code> statement:</p>
+<div class="sourceCode" id="cb322"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb322-1"><a href="#cb322-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>toupper<span class="op">(</span>ch<span class="op">)</span> <span class="op">==</span> <span class="ch">&#39;A&#39;</span><span class="op">)</span> <span class="op">...</span></span></code></pre></div>
+<p>Programs that call <code>toupper</code> need to have the following
+<code>#include</code> directive at the top:</p>
+<div class="sourceCode" id="cb323"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb323-1"><a href="#cb323-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;ctype.h&gt;</span></span></code></pre></div>
+<p><code>toupper</code> isn’t the only useful character-handling
+function in the C library. Section 23.5 describes them all and gives
+examples of their use.</p>
+<h3 id="reading-and-writing-characters-using-scanf-and-printf">7.3.6
+Reading and Writing Characters using <code>scanf</code> and
+<code>printf</code></h3>
+<p>The <code>%c</code> conversion specification allows
+<code>scanf</code> and <code>printf</code> to read and write single
+characters:</p>
+<div class="sourceCode" id="cb324"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb324-1"><a href="#cb324-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> ch<span class="op">;</span></span>
+<span id="cb324-2"><a href="#cb324-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb324-3"><a href="#cb324-3" aria-hidden="true" tabindex="-1"></a>scanf <span class="op">(</span><span class="st">&quot;%c&quot;</span><span class="op">,</span> <span class="op">&amp;</span>ch<span class="op">);</span> <span class="co">/* reads a single character */</span></span>
+<span id="cb324-4"><a href="#cb324-4" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;%c&quot;</span><span class="op">,</span> ch<span class="op">);</span> <span class="co">/* writes a single character */</span></span></code></pre></div>
+<p><code>scanf</code> doesn’t skip white-space characters before reading
+a character. If the next unread character is a space. then the variable
+<code>ch</code> in the previous example will contain a space after
+<code>scanf</code> returns. To force <code>scanf</code> to skip white
+space before reading a character, put a space in its format string just
+before <code>%c</code>:</p>
+<div class="sourceCode" id="cb325"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb325-1"><a href="#cb325-1" aria-hidden="true" tabindex="-1"></a>scanf <span class="op">(</span><span class="st">&quot; %c&quot;</span><span class="op">,</span> <span class="op">&amp;</span>ch<span class="op">);</span> <span class="co">/* skips white space, then reads ch */</span></span></code></pre></div>
+<p>Recall from Section 3.2 that a blank in a <code>scanf</code> format
+string means “skip zero or more white-space characters.”</p>
+<p>Since <code>scanf</code> doesn’t normally skip white space, it’s easy
+to detect the end of an input line: check to see if the character just
+read is the new-line character. For example, the following loop will
+read and ignore all remaining characters in the current input line:</p>
+<div class="sourceCode" id="cb326"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb326-1"><a href="#cb326-1" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span> <span class="op">{</span>    </span>
+<span id="cb326-2"><a href="#cb326-2" aria-hidden="true" tabindex="-1"></a>    scanf <span class="op">(</span><span class="st">&quot;%c&quot;</span><span class="op">,</span> <span class="op">&amp;</span>ch<span class="op">);</span></span>
+<span id="cb326-3"><a href="#cb326-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span> <span class="cf">while</span> <span class="op">(</span>¢h <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">);</span></span></code></pre></div>
+<p>When <code>scanf</code> is called the next time, it will read the
+first character on the next input line.</p>
+<h3
+id="reading-and-writing-characters-using-getchar-and-putchar">Reading
+and Writing Characters using <code>getchar</code> and
+<code>putchar</code></h3>
+<p><span class="QandA"></span></p>
+<p>C provides other ways to read and write single characters. In
+particular, we can use the <code>getchar</code> and <code>putchar</code>
+functions instead of calling <code>scanf</code> and <code>printf</code>.
+<code>putchar</code> writes a single character:</p>
+<div class="sourceCode" id="cb327"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb327-1"><a href="#cb327-1" aria-hidden="true" tabindex="-1"></a>putchar<span class="op">(</span>ch<span class="op">)</span> <span class="op">;</span></span></code></pre></div>
+<p>Each time <code>getchar</code> is called, it reads one character,
+which it returns. In order to save this character, we must use
+assignment to store it in a variable:</p>
+<div class="sourceCode" id="cb328"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb328-1"><a href="#cb328-1" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> getchar<span class="op">();</span> <span class="co">/* reads a character and stores it in ch */</span></span></code></pre></div>
+<p><code>getchar</code> actually returns an <code>int</code> value
+rather than a <code>char</code> value (the reason will be discussed in
+later chapters). As a result, it’s not unusual for a variable to have
+type <code>int</code> rather than <code>char</code> if it will be used
+to store a character read by <code>getchar</code>. Like
+<code>scanf</code>, <code>getchar</code> doesn’t skip white-space
+characters as it reads.</p>
+<p>Using <code>getchar</code> and <code>putchar</code> (rather than
+<code>scanf</code> and <code>printf</code>) saves time when the program
+is executed. <code>getchar</code> and <code>putchar</code> are fast for
+two reasons. First, they’re much simpler than <code>scanf</code> and
+<code>printf</code>, which are designed to read and write many kinds of
+data in a variety of formats. Second, <code>getchar</code> and
+<code>putchar</code> are usually implemented as macros for additional
+speed.</p>
+<p><code>getchar</code> has another advantage over <code>scanf</code>:
+because it returns the character that it reads, <code>getchar</code>
+lends itself to various C idioms, including loops that search for a
+character or skip over all occurrences of a character. Consider the
+<code>scanf</code> loop that we used to skip the rest of an input
+line:</p>
+<div class="sourceCode" id="cb329"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb329-1"><a href="#cb329-1" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span> <span class="op">{</span></span>
+<span id="cb329-2"><a href="#cb329-2" aria-hidden="true" tabindex="-1"></a>    scanf <span class="op">(</span><span class="st">&quot;%c&quot;</span><span class="op">,</span> <span class="op">&amp;</span>ch<span class="op">);</span></span>
+<span id="cb329-3"><a href="#cb329-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span> <span class="cf">while</span> <span class="op">(</span>ch <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">);</span></span></code></pre></div>
+<p>Rewriting this loop using <code>getchar</code> gives us the
+following:</p>
+<div class="sourceCode" id="cb330"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb330-1"><a href="#cb330-1" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span> <span class="op">{</span></span>
+<span id="cb330-2"><a href="#cb330-2" aria-hidden="true" tabindex="-1"></a>    ch <span class="op">=</span> getchar<span class="op">();</span></span>
+<span id="cb330-3"><a href="#cb330-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span> <span class="cf">while</span> <span class="op">(</span>ch <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">);</span></span></code></pre></div>
+<p>Moving the call of <code>getchar</code> into the controlling
+expression allows us to condense the loop:</p>
+<div class="sourceCode" id="cb331"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb331-1"><a href="#cb331-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">((</span>ch <span class="op">=</span> getchar<span class="op">())</span> <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">)</span></span></code></pre></div>
+<p>This loop reads a character, stores it into the variable
+<code>ch</code>, then tests if <code>ch</code> is not equal to the
+new-line character. If the test succeeds, the loop body (which is empty)
+is executed, then the loop test is performed once more, causing a new
+character to be read. Actually, we don’t even need the <code>ch</code>
+variable; we can just compare the return value of <code>getchar</code>
+with the new-line character:</p>
+<div class="sourceCode" id="cb332"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb332-1"><a href="#cb332-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>getchar<span class="op">()</span> <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">)</span> <span class="co">/* skips rest of line */</span></span></code></pre></div>
+<p>The resulting loop is a well-known C idiom that’s cryptic but worth
+learning.</p>
+<p><code>getchar</code> is useful in loops that skip characters as well
+as loops that search for characters. Consider the following statement,
+which uses <code>getchar</code> to skip an indefinite number of blank
+characters:</p>
+<div class="sourceCode" id="cb333"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb333-1"><a href="#cb333-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">((</span>ch <span class="op">=</span> getchar<span class="op">())</span> <span class="op">==</span> <span class="ch">&#39; &#39;</span><span class="op">)</span> <span class="co">/* skips blanks */</span></span></code></pre></div>
+<p>When the loop terminates, <code>ch</code> will contain the first
+nonblank character that <code>getchar</code> encountered.</p>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Be careful if you mix <code>getchar</code> and <code>scanf</code> in
+the same program. <code>scanf</code> has a tendency to leave behind
+characters that it has “peeked” at but not read, including the new-line
+character. Consider what happens if we try to read a number first, then
+a character:</p>
+<div class="sourceCode" id="cb334"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb334-1"><a href="#cb334-1" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;Enter an integer: &quot;</span><span class="op">);</span></span>
+<span id="cb334-2"><a href="#cb334-2" aria-hidden="true" tabindex="-1"></a>scanf <span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">);</span></span>
+<span id="cb334-3"><a href="#cb334-3" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;Enter a command: &quot;</span><span class="op">);</span></span>
+<span id="cb334-4"><a href="#cb334-4" aria-hidden="true" tabindex="-1"></a>command <span class="op">=</span> getchar<span class="op">();</span></span></code></pre></div>
+<p>The call of <code>scanf</code> will leave behind any characters that
+weren’t consumed during the reading of <code>i</code>, including (but
+not limited to) the new-line character. <code>getchar</code> will fetch
+the first leftover character, which wasn’t what we had in mind.</p>
+</div>
+<!-- END: div -->
+<h3 id="program-determining-the-length-of-a-message">7.3.8 (PROGRAM)
+Determining the Length of a Message</h3>
+<p>To illustrate how characters are read, let’s write a program that
+calculates the length of a message. After the user enters the message,
+the program displays the length:</p>
+<pre class="shell"><code>Enter a message: Brevity is the soul of wit.
+Your message was 27 character(s) long.</code></pre>
+<p>The length includes spaces and punctuation, but not the new-line
+character at the end of the message.</p>
+<p>We’ll need a loop whose body reads a character and increments a
+counter. The loop will terminate as soon as a new-line character turns
+up. We could use either <code>scanf</code> or <code>getchar</code> to
+read characters; most C programmers would choose <code>getchar</code>.
+Using a straightforward <code>while</code> loop, we might end up with
+the following program.</p>
+<div class="sourceCode" id="cb336"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb336-1"><a href="#cb336-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb336-2"><a href="#cb336-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: length.c</span></span>
+<span id="cb336-3"><a href="#cb336-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb336-4"><a href="#cb336-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Determines the length of a message </span></span>
+<span id="cb336-5"><a href="#cb336-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb336-6"><a href="#cb336-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb336-7"><a href="#cb336-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb336-8"><a href="#cb336-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb336-9"><a href="#cb336-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb336-10"><a href="#cb336-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb336-11"><a href="#cb336-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> ch<span class="op">;</span></span>
+<span id="cb336-12"><a href="#cb336-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> len <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb336-13"><a href="#cb336-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb336-14"><a href="#cb336-14" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter a message: &quot;</span><span class="op">);</span></span>
+<span id="cb336-15"><a href="#cb336-15" aria-hidden="true" tabindex="-1"></a>    ch <span class="op">=</span> getchar<span class="op">();</span></span>
+<span id="cb336-16"><a href="#cb336-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>ch <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">)</span></span>
+<span id="cb336-17"><a href="#cb336-17" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb336-18"><a href="#cb336-18" aria-hidden="true" tabindex="-1"></a>        len<span class="op">++;</span></span>
+<span id="cb336-19"><a href="#cb336-19" aria-hidden="true" tabindex="-1"></a>        ch <span class="op">=</span> getchar<span class="op">();</span></span>
+<span id="cb336-20"><a href="#cb336-20" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb336-21"><a href="#cb336-21" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Your message was %d character(s) long. </span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> len<span class="op">);</span></span>
+<span id="cb336-22"><a href="#cb336-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb336-23"><a href="#cb336-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb336-24"><a href="#cb336-24" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Recalling our discussion of idioms involving <code>while</code> loops
+and <code>getchar</code>, we realize that the program can be
+shortened:</p>
+<div class="sourceCode" id="cb337"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb337-1"><a href="#cb337-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb337-2"><a href="#cb337-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: length2.c</span></span>
+<span id="cb337-3"><a href="#cb337-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb337-4"><a href="#cb337-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Determines the length of a message </span></span>
+<span id="cb337-5"><a href="#cb337-5" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb337-6"><a href="#cb337-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb337-7"><a href="#cb337-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb337-8"><a href="#cb337-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb337-9"><a href="#cb337-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb337-10"><a href="#cb337-10" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb337-11"><a href="#cb337-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> ch<span class="op">;</span></span>
+<span id="cb337-12"><a href="#cb337-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> len <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb337-13"><a href="#cb337-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb337-14"><a href="#cb337-14" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter a message: &quot;</span><span class="op">);</span></span>
+<span id="cb337-15"><a href="#cb337-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>getchar<span class="op">()</span> <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">)</span></span>
+<span id="cb337-16"><a href="#cb337-16" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb337-17"><a href="#cb337-17" aria-hidden="true" tabindex="-1"></a>        len<span class="op">++;</span></span>
+<span id="cb337-18"><a href="#cb337-18" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb337-19"><a href="#cb337-19" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Your message was %d character(s) long. </span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> len<span class="op">);</span></span>
+<span id="cb337-20"><a href="#cb337-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb337-21"><a href="#cb337-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb337-22"><a href="#cb337-22" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<h2 id="type-conversion">7.4 Type Conversion</h2>
+<p>Computers tend to be more restrictive than C when it comes to
+arithmetic. For a computer to perform an arithmetic operation, the
+operands must usually be of the same size (the same number of bits) and
+be stored in the same way. A computer may be able to add two 16-bit
+integers directly, but not a 16-bit integer and a 32-bit integer or a
+32-bit integer and a 32-bit floating-point number.</p>
+<p>C, on the other hand, allows the basic types to be mixed in
+expressions. We can combine integers, floating-point numbers, and even
+characters in a single expression. The C compiler may then have to
+generate instructions that convert some operands to different types so
+that the hardware will be able to evaluate the expression. If we add a
+16-bit <code>short</code> and a 32-bit <code>int</code>, for example,
+the compiler will arrange for the <code>short</code> value to be
+converted to 32 bits. If we add an <code>int</code> and a
+<code>float</code>, the compiler will arrange for the <code>int</code>
+to be converted to <code>float</code> format. This conversion is a
+little more complicated, since <code>int</code> and <code>float</code>
+values are stored in different ways.</p>
+<p>Because the compiler handles these conversions automatically, without
+the programmer’s involvement, they’re known as <strong><em>implicit
+conversions</em></strong>. C also allows the programmer to perform
+<strong><em>explicit conversions</em></strong>, using the cast operator.
+I’ll discuss implicit conversions first, postponing explicit conversions
+until later in the section. Unfortunately, the rules for performing
+implicit conversions are somewhat complex, primarily because C has so
+many different arithmetic types.</p>
+<p>Implicit conversions are performed in the following situations:</p>
+<ul>
+<li>When the operands in an arithmetic or logical expression don’t have
+the same type. (C performs what are known as the <strong><em>usual
+arithmetic</em></strong> conversions.)<br />
+When the type of the expression on the right side of an assignment
+doesn’t match the type of the variable on the left side.<br />
+</li>
+<li>When the type of an argument in a function call doesn’t match the
+type of the corresponding parameter.<br />
+</li>
+<li>When the type of the expression in a <code>return</code> statement
+doesn’t match the function’s return type.</li>
+</ul>
+<p>We’ll discuss the first two cases now and save the others for Chapter
+9.</p>
+<h3 id="the-usual-arithmetic-conversions">7.4.1 The Usual Arithmetic
+Conversions</h3>
+<p>The usual arithmetic conversions are applied to the operands of most
+binary operators, including the arithmetic, relational, and equality
+operators. For example, let’s say that <code>f</code> has type
+<code>float</code> and <code>i</code> has type <code>int</code>. The
+usual arithmetic conversions will be applied to the operands in the
+expression <code>f + i</code>, because their types aren’t the same.
+Clearly it’s safer to convert <code>i</code> to type <code>float</code>
+(matching <code>f</code>’s type) rather than convert <code>f</code> to
+type <code>int</code> (matching <code>i</code>’s type). An integer can
+always be converted to <code>float</code>: the worst that can happen is
+a minor loss of precision. Converting a floating-point number to
+<code>int</code>, on the other hand, would cost us the fractional part
+of the number. Worse still, we’d get a completely meaningless result if
+the original number were larger than the largest possible integer or
+smaller than the smallest integer.</p>
+<p><span class="QandA"></span></p>
+<p>The strategy behind the usual arithmetic conversions is to convert
+operands to the “narrowest” type that will safely accommodate both
+values. (Roughly speaking, one type is narrower than another if it
+requires fewer bytes to store.) The types of the operands can often be
+made to match by converting the operand of the narrower type to the type
+of the other operand (this act is known as promotion). Among the most
+common promotions are the integral promotions, which convert a character
+or short integer to type <code>int</code> (or to
+<code>unsigned int</code> in some cases).</p>
+<p>We can divide the rules for performing the usual arithmetic
+conversions into two cases:</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p><strong><em>The type of either operand is a floating
+type</em></strong>. Use the following diagram to promote the operand
+whose type is narrower:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><code>long double</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span
+class="unicode_UPWARDS_ARROW"></span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><code>double</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span
+class="unicode_UPWARDS_ARROW"></span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><code>float</code></td>
+</tr>
+</tbody>
+</table>
+<p>That is, if one operand has type <code>long double</code>, then
+convert the other operand to type <code>long double</code>. Otherwise,
+if one operand has type <code>double</code>, convert the other operand
+to type <code>double</code>. Otherwise, if one operand has type
+<code>float</code>, convert the other operand to type
+<code>float</code>. Note that these rules cover mixtures of integer and
+floating types: if one operand has type <code>long int</code>, for
+example, and the other has type <code>double</code>, the
+<code>long int</code> operand is converted to <code>double</code>.</p>
+</li>
+<li>
+<p><strong><em>Neither operand type is a floating type</em></strong>.
+First perform integral promotion on both operands (guaranteeing that
+neither operand will be a character or <code>short</code> integer). Then
+use the following diagram to promote the operand whose type is
+narrower:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><code>unsigned long int</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span
+class="unicode_UPWARDS_ARROW"></span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><code>long int</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span
+class="unicode_UPWARDS_ARROW"></span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><code>unsigned int</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span
+class="unicode_UPWARDS_ARROW"></span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><code>int</code></td>
+</tr>
+</tbody>
+</table>
+<p>There’s one special case, but it occurs only when
+<code>long int</code> and <code>unsigned int</code> have the same length
+(32 bits, say). Under these circumstances, if one operand has type
+<code>long int</code> and the other has type <code>unsigned int</code>,
+both are converted to <code>unsigned long int</code>.</p>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>When a signed operand is combined with an unsigned operand, the
+signed operand is converted to an unsigned value. The conversion
+involves adding or subtracting a multiple of <code>n + 1</code>, where
+<code>n</code> is the largest representable value of the unsigned type.
+This rule can cause obscure programming errors.</p>
+<p>Suppose that the <code>int</code> variable <code>i</code> has the
+value -10 and the <code>unsigned int</code> variable <code>u</code> has
+the value 10. If we compare <code>i</code> and <code>u</code> using the
+<code>&lt;</code> operator, we might expect to get the result 1 (true).
+Before the comparison, however, 1 is converted to
+<code>unsigned int</code>. Since a negative number can’t be represented
+as an unsigned integer, the converted value won’t be -10. Instead, the
+value 4,294,967,296 is added (assuming that 4,294,967,295 is the largest
+<code>unsigned int</code> value), giving a converted value of
+4,294,967,286. The comparison <code>i &lt; u</code> will therefore
+produce 0. Some compilers produce a warning message such as “comparison
+between signed and unsigned” when a program attempts to compare a signed
+number with an unsigned number.</p>
+<p>Because of traps like this one, it’s best to use unsigned integers as
+little as possible and, especially, never mix them with signed
+integers.</p>
+</div>
+<!-- END: div -->
+<p>The following example shows the usual arithmetic conversions in
+action:</p>
+<div class="sourceCode" id="cb338"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb338-1"><a href="#cb338-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> c<span class="op">;</span></span>
+<span id="cb338-2"><a href="#cb338-2" aria-hidden="true" tabindex="-1"></a><span class="dt">short</span> <span class="dt">int</span> s<span class="op">;</span></span>
+<span id="cb338-3"><a href="#cb338-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb338-4"><a href="#cb338-4" aria-hidden="true" tabindex="-1"></a><span class="dt">unsigned</span> <span class="dt">int</span> u<span class="op">;</span></span>
+<span id="cb338-5"><a href="#cb338-5" aria-hidden="true" tabindex="-1"></a><span class="dt">long</span> <span class="dt">int</span> l<span class="op">;</span></span>
+<span id="cb338-6"><a href="#cb338-6" aria-hidden="true" tabindex="-1"></a><span class="dt">unsigned</span> <span class="dt">long</span> <span class="dt">int</span> ul<span class="op">;</span></span>
+<span id="cb338-7"><a href="#cb338-7" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> f<span class="op">;</span></span>
+<span id="cb338-8"><a href="#cb338-8" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> d<span class="op">;</span></span>
+<span id="cb338-9"><a href="#cb338-9" aria-hidden="true" tabindex="-1"></a><span class="dt">long</span> <span class="dt">double</span> ld<span class="op">;</span></span>
+<span id="cb338-10"><a href="#cb338-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb338-11"><a href="#cb338-11" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> i <span class="op">+</span> c<span class="op">;</span> <span class="co">/* ¢ is converted to int */</span></span>
+<span id="cb338-12"><a href="#cb338-12" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> i <span class="op">+</span> s<span class="op">;</span> <span class="co">/* s is converted to int */</span></span>
+<span id="cb338-13"><a href="#cb338-13" aria-hidden="true" tabindex="-1"></a>u <span class="op">=</span> u <span class="op">+</span> i<span class="op">;</span> <span class="co">/* i is converted to unsigned int */</span></span>
+<span id="cb338-14"><a href="#cb338-14" aria-hidden="true" tabindex="-1"></a>l <span class="op">=</span> l <span class="op">+</span> u<span class="op">;</span> <span class="co">/* u is converted to long int */</span></span>
+<span id="cb338-15"><a href="#cb338-15" aria-hidden="true" tabindex="-1"></a>ul <span class="op">=</span> ul <span class="op">+</span> l<span class="op">;</span> <span class="co">/* l is converted to unsigned long int */</span></span>
+<span id="cb338-16"><a href="#cb338-16" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> f <span class="op">+</span> ul<span class="op">;</span> <span class="co">/* ul is converted to float */</span></span>
+<span id="cb338-17"><a href="#cb338-17" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> d <span class="op">+</span> f<span class="op">;</span> <span class="co">/* f is converted to double */</span></span>
+<span id="cb338-18"><a href="#cb338-18" aria-hidden="true" tabindex="-1"></a>ld <span class="op">=</span> ld <span class="op">+</span> d<span class="op">;</span> <span class="co">/* d is converted to long double */</span></span></code></pre></div>
+<h3 id="conversion-during-assignment">7.4.2 Conversion During
+Assignment</h3>
+<p>The usual arithmetic conversions don’t apply to assignment. Instead,
+C follows the simple rule that the expression on the right side of the
+assignment is converted to the type of the variable on the left side. If
+the variable’s type is at least as “wide” as the expression’s, this will
+work without a snag. For example:</p>
+<div class="sourceCode" id="cb339"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb339-1"><a href="#cb339-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> c<span class="op">;</span></span>
+<span id="cb339-2"><a href="#cb339-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb339-3"><a href="#cb339-3" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> f<span class="op">;</span></span>
+<span id="cb339-4"><a href="#cb339-4" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> d<span class="op">;</span></span>
+<span id="cb339-5"><a href="#cb339-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb339-6"><a href="#cb339-6" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> c<span class="op">;</span> <span class="co">/* ¢ is converted to int */</span></span>
+<span id="cb339-7"><a href="#cb339-7" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> i<span class="op">;</span> <span class="co">/* i is converted to float */</span></span>
+<span id="cb339-8"><a href="#cb339-8" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> f<span class="op">;</span> <span class="co">/* f is converted to double */</span></span>
+<span id="cb339-9"><a href="#cb339-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb339-10"><a href="#cb339-10" aria-hidden="true" tabindex="-1"></a>Other cases are problematic<span class="op">.</span> Assigning a floating<span class="op">-</span>point number to an integer variable drops the fractional part of the number<span class="op">:</span></span>
+<span id="cb339-11"><a href="#cb339-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb339-12"><a href="#cb339-12" aria-hidden="true" tabindex="-1"></a>```C</span>
+<span id="cb339-13"><a href="#cb339-13" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span></span>
+<span id="cb339-14"><a href="#cb339-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb339-15"><a href="#cb339-15" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="fl">842.97</span><span class="op">;</span> <span class="co">/* i is now 842 */</span></span>
+<span id="cb339-16"><a href="#cb339-16" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="op">-</span><span class="fl">842.97</span><span class="op">;</span> <span class="co">/* i is now -842 */</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p>Moreover, assigning a value to a variable of a narrower type will
+give a meaningless result (or worse) if the value is outside the range
+of the variable’s type:</p>
+<div class="sourceCode" id="cb340"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb340-1"><a href="#cb340-1" aria-hidden="true" tabindex="-1"></a>¢ <span class="op">=</span> <span class="dv">10000</span><span class="op">;</span> <span class="co">/*** WRONG ***/</span></span>
+<span id="cb340-2"><a href="#cb340-2" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="fl">1.0e20</span><span class="op">;</span> <span class="co">/*** WRONG ***/</span></span>
+<span id="cb340-3"><a href="#cb340-3" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> <span class="fl">1.0e100</span><span class="op">;</span> <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>A “narrowing” assignment may elicit a warning from the compiler or
+from tools such as <strong><em>lint</em></strong>.</p>
+<p>It’s a good idea to append the <code>f</code> suffix to a
+floating-point constant if it will be assigned to a <code>float</code>
+variable, as we’ve been doing since Chapter 2:</p>
+<div class="sourceCode" id="cb341"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb341-1"><a href="#cb341-1" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> <span class="fl">3.14159</span><span class="bu">f</span><span class="op">;</span></span></code></pre></div>
+<p>Without the suffix, the constant 3.14159 would have type
+<code>double</code>, possibly causing a warning message.</p>
+<p><span class="C99Symbol"></span></p>
+<h3 id="implicit-conversions-in-c99">7.4.3 Implicit Conversions in
+C99</h3>
+<p>The rules for implicit conversions in C99 are somewhat different from
+the rules in C89, primarily because C99 has additional types
+(<code>_Bool</code>, <code>long long</code> types. extended integer
+types, and complex types).</p>
+<p>For the purpose of defining conversion rules, C99 gives each integer
+type an “integer conversion rank.” Here are the ranks from highest to
+lowest:</p>
+<ol type="1">
+<li><code>long long int</code>, <code>unsigned long long int</code></li>
+<li><code>long int</code>, <code>unsigned long int</code></li>
+<li><code>int</code>, <code>unsigned int</code></li>
+<li><code>short int</code>, <code>unsigned short int</code></li>
+<li><code>char</code>, <code>signed char</code>,
+<code>unsigned char</code></li>
+<li><code>_Bool</code></li>
+</ol>
+<p>For simplicity. I’m ignoring extended integer types and enumerated
+types.</p>
+<p>In place of C89’s integral promotions, C99 has “integer promotions,”
+which involve converting any type whose rank is less than
+<code>int</code> and <code>unsigned int</code> to <code>int</code>
+(provided that all values of the type can be represented using
+<code>int</code>) or else to <code>unsigned int</code>.</p>
+<p>As in C89, the C99 rules for performing the usual arithmetic
+conversions can be divided into two cases:</p>
+<ul>
+<li><strong><em>The type of either operand is a floating
+type</em></strong>. As long as neither operand has a complex type, the
+rules are the same as before. (The conversion rules for complex types
+will be discussed in Section 27.3.)<br />
+</li>
+<li><strong><em>Neither operand type is a floating type</em></strong>.
+First perform integer promotion on both operands. If the types of the
+two operands are now the same, the process ends. Otherwise, use the
+following rules, stopping at the first one that applies:
+<ul>
+<li>If both operands have signed types or both have unsigned types,
+convert the operand whose type has lesser integer conversion rank to the
+type of the operand with greater rank.<br />
+</li>
+<li>If the unsigned operand has rank greater or equal to the rank of the
+type of the signed operand, convert the signed operand to the type of
+the unsigned operand.<br />
+</li>
+<li>If the type of the signed operand can represent all of the values of
+the type of the unsigned operand, convert the unsigned operand to the
+type of the signed operand.<br />
+</li>
+<li>Otherwise, convert both operands to the unsigned type corresponding
+to the type of the signed operand.</li>
+</ul></li>
+</ul>
+<p>Incidentally, all arithmetic types can be converted to
+<code>_Bool</code> type. The result of the conversion is 0 if the
+original value is 0: otherwise, the result is 1.</p>
+<h3 id="casting">7.4.4 Casting</h3>
+<p>Although C’s implicit conversions are convenient, we sometimes need a
+greater degree of control over type conversion. For this reason, C
+provides <strong><em>casts</em></strong>. A cast expression has the
+form</p>
+<div class="sourceCode" id="cb342"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb342-1"><a href="#cb342-1" aria-hidden="true" tabindex="-1"></a><span class="op">(</span> type<span class="op">-</span>name <span class="op">)</span> expression</span></code></pre></div>
+<p><em>type-name</em> specifies the type to which the expression should
+be converted.</p>
+<p>The following example shows how to use a cast expression to compute
+the fractional part of a <code>float</code> value:</p>
+<div class="sourceCode" id="cb343"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb343-1"><a href="#cb343-1" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> f<span class="op">,</span> frac_part<span class="op">;</span></span>
+<span id="cb343-2"><a href="#cb343-2" aria-hidden="true" tabindex="-1"></a>frac_part <span class="op">=</span> f <span class="op">-</span> <span class="op">(</span><span class="dt">int</span><span class="op">)</span> f<span class="op">;</span></span></code></pre></div>
+<p>The cast expression <code>(int) f</code> represents the result of
+converting the value of <code>f</code> to type <code>int</code>. C’s
+usual arithmetic conversions then require that <code>(int) f</code> be
+converted back to type <code>float</code> before the subtraction can be
+performed. The difference hetween <code>f</code> and
+<code>(int) f</code> is the fractional part of <code>f</code>, which was
+dropped during the cast.</p>
+<p>Cast expressions enable us to document type conversions that would
+take place anyway:</p>
+<div class="sourceCode" id="cb344"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb344-1"><a href="#cb344-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="op">(</span><span class="dt">int</span><span class="op">)</span> f<span class="op">;</span> <span class="co">/* f is converted to int */</span></span></code></pre></div>
+<p>They also enable us to overrule the compiler and force it to do
+conversions that we want. Consider the following example:</p>
+<div class="sourceCode" id="cb345"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb345-1"><a href="#cb345-1" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> quotient<span class="op">;</span></span>
+<span id="cb345-2"><a href="#cb345-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> dividend<span class="op">,</span> divisor<span class="op">;</span></span>
+<span id="cb345-3"><a href="#cb345-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb345-4"><a href="#cb345-4" aria-hidden="true" tabindex="-1"></a>quotient <span class="op">=</span> dividend <span class="op">/</span> divisor<span class="op">;</span></span></code></pre></div>
+<p>As it’s now written, the result of the division—an integer—will be
+converted to <code>float</code> form before being stored in quotient. We
+probably want dividend and divisor converted to `float before the
+division, though, so that we get a more exact answer. A cast expression
+will do the trick:</p>
+<div class="sourceCode" id="cb346"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb346-1"><a href="#cb346-1" aria-hidden="true" tabindex="-1"></a>quotient <span class="op">=</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> dividend <span class="op">/</span> divisor<span class="op">;</span></span></code></pre></div>
+<p><code>divisor</code> doesn’t need a cast, since casting
+<code>dividend</code> to <code>float</code> forces the compiler to
+convert <code>divisor</code> to <code>float</code> also.</p>
+<p>Incidentally, C regards ( <em>type-name</em> ) as a unary operator.
+Unary operators have higher precedence than binary operators, so the
+compiler interprets</p>
+<div class="sourceCode" id="cb347"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb347-1"><a href="#cb347-1" aria-hidden="true" tabindex="-1"></a><span class="op">(</span><span class="dt">float</span><span class="op">)</span> dividend <span class="op">/</span> divisor</span></code></pre></div>
+<p>as</p>
+<div class="sourceCode" id="cb348"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb348-1"><a href="#cb348-1" aria-hidden="true" tabindex="-1"></a><span class="op">((</span><span class="dt">float</span><span class="op">)</span> dividend<span class="op">)</span> <span class="op">/</span> divisor</span></code></pre></div>
+<p>If you find this confusing, note that there are other ways to
+accomplish the same effect:</p>
+<div class="sourceCode" id="cb349"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb349-1"><a href="#cb349-1" aria-hidden="true" tabindex="-1"></a>quotient <span class="op">=</span> dividend <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> divisor<span class="op">;</span></span></code></pre></div>
+<p>or</p>
+<div class="sourceCode" id="cb350"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb350-1"><a href="#cb350-1" aria-hidden="true" tabindex="-1"></a>quotient <span class="op">=</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> dividend <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> divisor<span class="op">;</span></span></code></pre></div>
+<p>Casts are sometimes necessary to avoid overflow. Consider the
+following example:</p>
+<div class="sourceCode" id="cb351"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb351-1"><a href="#cb351-1" aria-hidden="true" tabindex="-1"></a><span class="dt">long</span> i<span class="op">;</span></span>
+<span id="cb351-2"><a href="#cb351-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> j <span class="op">=</span> <span class="dv">1000</span><span class="op">;</span></span>
+<span id="cb351-3"><a href="#cb351-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb351-4"><a href="#cb351-4" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> j <span class="op">*</span> j<span class="op">;</span> <span class="co">/* overflow may occur */</span></span></code></pre></div>
+<p>At first glance, this statement looks fine. The value of
+<code>j * j</code> is 1,000,000, and <code>i</code> is a
+<code>long</code>, so it can easily store values of this size. right?
+The problem is that when two <code>int</code> values are multiplied, the
+result will have <code>int</code> type. But <code>j * j</code> is too
+large to represent as an <code>int</code> on some machines, causing an
+overflow. Fortunately, using a cast avoids the problem:</p>
+<div class="sourceCode" id="cb352"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb352-1"><a href="#cb352-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="op">(</span><span class="dt">long</span><span class="op">)</span> j <span class="op">*</span> j<span class="op">;</span></span></code></pre></div>
+<p>Since the cast operator takes precedence over <code>*</code>, the
+first <code>j</code> is converted to <code>long</code> type, forcing the
+second <code>j</code> to be converted as well. Note that the
+statement</p>
+<div class="sourceCode" id="cb353"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb353-1"><a href="#cb353-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="op">(</span><span class="dt">long</span><span class="op">)</span> <span class="op">(</span>j <span class="op">*</span> j<span class="op">);</span> <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>wouldn’t work, since the overflow would already have occurred by the
+time of the cast.</p>
+<h2 id="type-definitions">7.5 Type Definitions</h2>
+<p>In Section 5.2, we used the <code>#define</code> directive to create
+a macro that could be used as a Boolean type:</p>
+<div class="sourceCode" id="cb354"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb354-1"><a href="#cb354-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define BOOL int</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p>There’s a better way to set up a Boolean type, though, using a
+feature known as a <strong><em>type definition</em></strong>:</p>
+<div class="sourceCode" id="cb355"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb355-1"><a href="#cb355-1" aria-hidden="true" tabindex="-1"></a><span class="kw">typedef</span> <span class="dt">int</span> Bool<span class="op">;</span></span></code></pre></div>
+<p>Notice that the name of the type being defined comes <em>last</em>.
+Note also that I’ve capitalized the word <code>Bool</code>. Capitalizing
+the first letter of a type name isn’t required; it’s just a convention
+that some C programmers employ.</p>
+<p>Using <code>typedef</code> to define <code>Bool</code> causes the
+compiler to add <code>Bool</code> to the list of type names that it
+recognizes. <code>Bool</code> can now be used in the same way as the
+built-in type names—in variable declarations, cast expressions, and
+elsewhere. For example, we might use <code>Bool</code> to declare
+variables:</p>
+<div class="sourceCode" id="cb356"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb356-1"><a href="#cb356-1" aria-hidden="true" tabindex="-1"></a>Bool flag<span class="op">;</span> <span class="co">/* same as int flag; */</span></span></code></pre></div>
+<p>The compiler treats <code>Bool</code> as a synonym for
+<code>int</code>; thus, <code>flag</code> is really nothing more than an
+ordinary <code>int</code> variable.</p>
+<h3 id="advantages-of-type-definitions">7.5.1 Advantages of Type
+Definitions</h3>
+<p>Type definitions can make a program more understandable (assuming
+that the programmer has been careful to choose meaningful type names).
+For example, suppose that the variables <code>cash_in</code> and
+<code>cash_out</code> will be used to store dollar amounts. Declaring
+<code>Dollars</code> as</p>
+<div class="sourceCode" id="cb357"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb357-1"><a href="#cb357-1" aria-hidden="true" tabindex="-1"></a><span class="kw">typedef</span> <span class="dt">float</span> Dollars<span class="op">;</span></span></code></pre></div>
+<p>and then writing</p>
+<div class="sourceCode" id="cb358"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb358-1"><a href="#cb358-1" aria-hidden="true" tabindex="-1"></a>Dollars cash_in<span class="op">,</span> cash out<span class="op">;</span></span></code></pre></div>
+<p>is more informative than just writing</p>
+<div class="sourceCode" id="cb359"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb359-1"><a href="#cb359-1" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> cash_in<span class="op">,</span> cash out<span class="op">;</span></span></code></pre></div>
+<p>Type definitions can also make a program easier to modify. If we
+later decide that Dollars should really be defined as
+<code>double</code>, all we need do is change the type definition:</p>
+<div class="sourceCode" id="cb360"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb360-1"><a href="#cb360-1" aria-hidden="true" tabindex="-1"></a><span class="kw">typedef</span> <span class="dt">double</span> Dollars<span class="op">;</span></span></code></pre></div>
+<p>The declarations of <code>Dollars</code> variables need not be
+changed. Without the type definition, we would need to locate all
+<code>float</code> variables that store dollar amounts (not necessarily
+an easy task) and change their declarations.</p>
+<h3 id="type-definitions-and-portability">7.5.2 Type Definitions and
+Portability</h3>
+<p>Type definitions are an important tool for writing portable programs.
+One of the problems with moving a program from one computer to another
+is that types may have different ranges on different machines, If
+<code>i</code> is an <code>int</code> variable, an assignment like</p>
+<div class="sourceCode" id="cb361"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb361-1"><a href="#cb361-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">100000</span><span class="op">;</span></span></code></pre></div>
+<p>is fine on a machine with 32-bit integers, but will fail on a machine
+with 16-bit integers.</p>
+<p><em>For greater portability, consider using <code>typedef</code> to
+define new names for integer types.</em></p>
+<p>Suppose that we’re writing a program that needs variables capable of
+storing product quantities in the range 0-50,000. We could use
+<code>long</code> variables for this purpose (since they’re guaranteed
+to be able to hold numbers up to at least 2,147,483,647), but we’d
+rather use <code>int</code> variables, since arithmetic on
+<code>int</code> values may be faster than operations on
+<code>long</code> values; also, <code>int</code> variables may take up
+less space.</p>
+<p>Instead of using the <code>int</code> type to declare quantity
+variables, we can define our own “quantity” type:</p>
+<div class="sourceCode" id="cb362"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb362-1"><a href="#cb362-1" aria-hidden="true" tabindex="-1"></a><span class="kw">typedef</span> <span class="dt">int</span> Quantity<span class="op">;</span></span></code></pre></div>
+<p>and use this type to declare variables:</p>
+<div class="sourceCode" id="cb363"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb363-1"><a href="#cb363-1" aria-hidden="true" tabindex="-1"></a>Quantity q<span class="op">;</span></span></code></pre></div>
+<p>When we transport the program to a machine with shorter integers,
+we’ll change the definition of Quantity:</p>
+<div class="sourceCode" id="cb364"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb364-1"><a href="#cb364-1" aria-hidden="true" tabindex="-1"></a><span class="kw">typedef</span> <span class="dt">long</span> Quantity<span class="op">;</span></span></code></pre></div>
+<p>This technique doesn’t solve all our problems, unfortunately, since
+changing the definition of <code>Quantity</code> may affect the way
+<code>Quantity</code> variables are used. At the very least, calls of
+<code>printf</code> and <code>scanf</code> that use
+<code>Quantity</code> variables will need to be changed, with
+<code>%d</code> conversion specifications replaced by
+<code>%ld</code>.</p>
+<p>The C library itself uses <code>typedef</code> to create names for
+types that can vary from one C implementation to another; these types
+often have names that end with <code>_t</code>, such as
+<code>ptrdiff_t</code>, <code>size_t</code>, and
+<code>wchar_t</code>.The exact definitions of these types will vary, but
+here are some typical examples:</p>
+<div class="sourceCode" id="cb365"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb365-1"><a href="#cb365-1" aria-hidden="true" tabindex="-1"></a><span class="kw">typedef</span> <span class="dt">long</span> <span class="dt">int</span> <span class="dt">ptrdiff_t</span><span class="op">;</span></span>
+<span id="cb365-2"><a href="#cb365-2" aria-hidden="true" tabindex="-1"></a><span class="kw">typedef</span> <span class="dt">unsigned</span> <span class="dt">long</span> <span class="dt">int</span> <span class="dt">size_t</span><span class="op">;</span></span>
+<span id="cb365-3"><a href="#cb365-3" aria-hidden="true" tabindex="-1"></a><span class="kw">typedef</span> <span class="dt">int</span> <span class="dt">wchar_t</span><span class="op">;</span></span></code></pre></div>
+<p><span class="C99Symbol"></span></p>
+<p>In C99, the <code>&lt;stdint.h&gt;</code> header uses
+<code>typedef</code> to define names for integer types with a particular
+number of bits. For example, <code>int32_t</code> is a signed integer
+type with exactly 32 bits. Using these types is an effective way to make
+programs more portable.</p>
+<h2 id="the-sizeof-operator">7.6 The sizeof Operator</h2>
+<p>The sizeof operator allows a program to determine how much memory is
+required to store values of a particular type. The value of the
+expression</p>
+<div class="sourceCode" id="cb366"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb366-1"><a href="#cb366-1" aria-hidden="true" tabindex="-1"></a><span class="kw">sizeof</span> <span class="op">(</span> type<span class="op">-</span>name <span class="op">)</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p>is an unsigned integer representing the number of bytes required to
+store a value belonging to type-name. <code>sizeof (char)</code> is
+always 1, but the sizes of the other types may vary. On a 32-bit
+machine, <code>sizeof (int)</code> is normally 4. Note that
+<code>sizeof</code> is a rather unusual operator, since the compiler
+itself can usually determine the value of a <code>sizeof</code>
+expression.</p>
+<p>The <code>sizeof</code> operator can also be applied to constants,
+variables, and expressions in general. If <code>i</code> and
+<code>j</code> are <code>int</code> variables, then
+<code>sizeof (i)</code> is 4 on a 32-bit machine, as is
+<code>sizeof (i + j)</code>. When applied to an expression—as opposed to
+a type—<code>sizeof</code> doesn’t require parentheses; we could write
+<code>sizeof i</code> instead of <code>sizeof (i)</code>. However,
+parentheses may be needed anyway because of operator precedence. The
+compiler would interpret <code>sizeof i + j</code> as
+<code>(sizeof i) + j</code>, because sizeof—a unary operator—takes
+precedence over the binary <code>+</code> operator. To avoid problems, I
+always use parentheses in <code>sizeof</code> expressions.</p>
+<p>Printing a <code>sizeof</code> value requires care, because the type
+of a <code>sizeof</code> expression is an implementation-defined type
+named <code>size_t</code>. In C89, it’s best to convert the value of the
+expression to a known type before printing it. <code>size_t</code> is
+guaranteed to be an unsigned integer type, so it’s safest to cast a
+<code>sizeof</code> expression to unsigned <code>long</code> (the
+largest of C89’s unsigned types) and then print it using the
+<code>%lu</code> conversion:</p>
+<div class="sourceCode" id="cb367"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb367-1"><a href="#cb367-1" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;Size of int: %lu</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> <span class="op">(</span><span class="dt">unsigned</span> <span class="dt">long</span><span class="op">)</span> <span class="kw">sizeof</span> <span class="op">(</span><span class="dt">int</span><span class="op">));</span></span></code></pre></div>
+<p><span class="C99Symbol"></span></p>
+<p>In C99, the <code>size_t</code> type can be larger than
+<code>unsigned long</code>. However, the <code>printf</code> function in
+C99 is capable of displaying <code>size_t</code> values directly,
+without needing a cast. The trick is to use the letter <code>z</code> in
+the conversion specification, followed by one of the usual integer codes
+(typically <code>u</code>):</p>
+<div class="sourceCode" id="cb368"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb368-1"><a href="#cb368-1" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;Size of int: %zu</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> <span class="kw">sizeof</span> <span class="op">(</span><span class="dt">int</span><span class="op">));</span> <span class="co">/* C99 only */</span></span></code></pre></div>
+<hr />
+<h2 id="qa-1">Q&amp;A</h2>
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Section 7.1 says that <code>%o</code> and <code>%x</code> are used
+to write unsigned integers in octal and hex notation. How do I write
+ordinary (signed) integers in octal or hex? [p- 130]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: You can use <code>%o</code> and <code>%x</code> to print a signed
+integer as long as its value isn’t negative. These conversions cause
+<code>printf</code> to treat a signed integer as though it were
+unsigned: in other words, <code>printf</code> will assume that the sign
+bit is part of the number’s magnitude. As long as the sign bit is 0,
+there’s no problem. If the sign bit is 1, <code>printf</code> will print
+an unexpectedly large number.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: But what if the number <em>is</em> negative? How can I write it in
+octal or hex?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: There’s no direct way to print a negative number in octal or hex.
+Fortunately, the need to do so is pretty rare. You can, of course, test
+whether the number is negative and print a minus sign yourself:</p>
+<div class="sourceCode" id="cb369"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb369-1"><a href="#cb369-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>i <span class="op">&lt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb369-2"><a href="#cb369-2" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;-%x&quot;</span><span class="op">,</span> <span class="op">-</span>i<span class="op">);</span></span>
+<span id="cb369-3"><a href="#cb369-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb369-4"><a href="#cb369-4" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;%x&quot;</span><span class="op">,</span> i<span class="op">);</span></span></code></pre></div>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Why are floating constants stored in <code>double</code> form
+rather than <code>float</code> form? [p- 133]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: For historical reasons, C gives preference to the
+<code>double</code> type; <code>float</code> is treated as a
+second-class citizen. Consider, for instance, the discussion of
+<code>float</code> in Kernighan and Ritchie’s <em>The C Programming
+Language</em>: “The main reason for using <code>float</code> is to save
+storage in large arrays, or, less often, to save time on machines where
+double-precision arithmetic is particularly expensive.” C originally
+mandated that all floating-point arithmetic be done in double precision.
+(C89 and C99 have no such requirement.)</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: What do hexadecimal floating constants look like, and what are
+they good for? [p. 134]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: A hexadecimal floating constant begins with <code>0x</code> or
+<code>0X</code> and must contain an exponent, which is preceded by the
+letter <code>P</code> (or <code>p</code>). The exponent may have a sign,
+and the constant may end with <code>f</code>, <code>F</code>,
+<code>l</code>, or <code>L</code>. The exponent is expressed in decimal,
+but represents a power of 2, not a power of 10. For example,
+<code>0x1.Bp3</code> represents the number 1.6875 x 2<sup>3</sup> =
+13.5. The hex digit <code>B</code> corresponds to the bit pattern 1011,
+The <code>B</code> occurs to the right of the period, so each 1 bit
+represents a negative power of 2. Summing these powers of 2
+(2<sup>-1</sup> + 2<sup>-3</sup> + 2<sup>-4</sup>) yields .6875.</p>
+<p>Hexadecimal floating constants are primarily useful for specifying
+constants that require great precision (including mathematical constants
+such as <code>e</code> and π). Hex numbers have a precise binary
+representation, whereas a constant written in decimal may be subject to
+a tiny rounding error when converted to binary, Hexadecimal numbers are
+also useful for defining constants with extreme values, such as the
+values of the macros in the <code>&lt;float.h&gt;</code> header. These
+constants are easy to write in hex but difficult to write in
+decimal.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Why do we use <code>%lf</code> to read a <code>double</code> value
+but <code>%f</code> to print it? [p. 134]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: This is a tough question to answer. First, notice that
+<code>scanf</code> and <code>printf</code> are unusual functions in that
+they aren’t restricted to a fixed number of arguments. We say that
+<code>scanf</code> and <code>printf</code> have variable-length argument
+lists. When functions with variable-length argument lists are called,
+the compiler arranges for <code>float</code> arguments to be converted
+automatically to type <code>double</code>. As a result,
+<code>printf</code> can’t distinguish between <code>float</code> and
+<code>double</code> arguments. This explains why <code>%f</code> works
+for both <code>float</code> and <code>double</code> arguments in calls
+of <code>printf</code>.</p>
+<p><code>scanf</code>, on the other hand, is passed a <em>pointer</em>
+to a variable. <code>%f</code> tells <code>scanf</code> to store a
+<code>float</code> value at the address passed to it, while
+<code>%lf</code> tells <code>scanf</code> to store a double value at
+that address. The distinction between <code>float</code> and
+<code>double</code> is crucial here. If given the wrong conversion
+specification, <code>scanf</code> will likely store the wrong number of
+bytes (not to mention the fact that the bit pattern for a
+<code>float</code> isn’t the same as that for a
+<code>double</code>).</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: What’s the proper way to pronounce <code>char</code>? [p. 134]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: There’s no universally accepted pronunciation. Some people
+pronounce <code>char</code> in the same way as the first syllable of
+“character.” Others say “char.” as in</p>
+<div class="sourceCode" id="cb370"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb370-1"><a href="#cb370-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> broiled<span class="op">;</span></span></code></pre></div>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: When does it matter whether a character variable is signed or
+unsigned? [p. 136]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: If we store only 7-bit characters in the variable, it doesn’t
+matter, since the sign bit will be zero. If we plan to store 8-bit
+characters, however, we’ll probably want the variable to have
+<code>unsigned char</code> type. Consider the following example:</p>
+<div class="sourceCode" id="cb371"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb371-1"><a href="#cb371-1" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> <span class="ch">&#39;\xdb&#39;</span><span class="op">;</span></span></code></pre></div>
+<p>If <code>ch</code> has been declared to have type <code>char</code>,
+the compiler may choose to treat it as a signed character (many
+compilers do). As long as <code>ch</code> is used only as a character,
+there won’t be any problem. But if <code>ch</code> is ever used in a
+context that requires the compiler to convert its value to an integer,
+we’re likely to have trouble: the resulting integer will be negative,
+since <code>ch</code>’s sign bit is 1.</p>
+<p>Here’s another situation: In some kinds of programs, it’s customary
+to use <code>char</code> variables to store one-byte integers. If we’re
+writing such a program, we’ll have to decide whether each variable
+should be <code>signed char</code> or <code>unsigned char</code>, just
+as we must decide whether ordinary integer variables should have type
+<code>int</code> or <code>unsigned int</code>.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: I don’t understand how the new-line character can be the ASCII
+line-feed character. When a user enters input and presses the Enter key,
+doesn’t the program read this as a carriage-return character or a
+carriage return plus a line feed? [p. 137]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Nope. As part of C’s UNIX heritage. it always regards the end of a
+line as being marked by a single line-feed character. (In UNIX text
+files, a single line-feed character—but no carriage return—appears at
+the end of each line.) The C library takes care of translating the
+user’s keypress into a line-feed character. When a program reads from a
+file, the I/O library translates the file’s end-of-line marker (whatever
+it may be) into a single line-feed character. The same transformations
+occur—in reverse—when output is written to the screen or to a file. (See
+Section 22.1 for details.)</p>
+<p>Although these translations may seem confusing, they serve an
+important purpose: insulating programs from details that may vary from
+one operating system to another.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: What’s the purpose of the <code>\?</code> escape sequence?
+[p. 138]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: The <code>\?</code> escape is related to trigraph sequences, which
+begin with <code>??</code>. If you should put <code>??</code> in a
+string, there’s a possibility that the compiler will mistake it for the
+beginning of a trigraph. Replacing the second <code>?</code> by
+<code>\?</code> fixes the problem.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: If <code>getchar</code> is faster, why would we ever want to use
+<code>scanf</code> to read individual characters? [p. 140]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Although it’s not as fast as <code>getchar</code>, the
+<code>scanf</code> function is more flexible. As we saw previously, the
+<code>"%c"</code> format string causes <code>scanf</code> to read the
+next input character; <code>" %c"</code> causes it to read the next
+non-white-space character. Also, <code>scanf</code> is good at reading
+characters that are mixed in with other kinds of data. Let’s say that
+our input data consists of an integer, then a single nonnumeric
+character, then another integer. By using the format string
+<code>"%d%c%d"</code>, we can get <code>scanf</code> to read all three
+items.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Under what circumstances do the integral promotions convert a
+character or short integer to <code>unsigned int</code>? [p. 143]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: The integral promotions yield an <code>unsigned int</code> if the
+<code>int</code> type isn’t large enough to include all possible values
+of the original type. Since characters are usually eight bits long, they
+are almost always converted to <code>int</code>, which is guaranteed to
+be at least 16 bits long. Signed short integers can always be converted
+to <code>int</code> as well. Unsigned short integers are problematic, If
+short integers have the same length as ordinary integers (as they do on
+a 16-bit machine), then <code>unsigned short</code> integers will have
+to be converted to <code>unsigned int</code>, since the largest unsigned
+short integer (65,535 on a 16-bit machine) is larger than the largest
+<code>int</code> (32.767).</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Exactly what happens if I assign a value to a variable that’s not
+large enough to hold it? [p. 146]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: Roughly speaking, if the value is of an integral type and the
+variable is of an <code>unsigned</code> type, the extra bits are thrown
+aways if the variable has a <code>signed</code> type, the result is
+implementation-defined. Assigning a floating-point number to a
+variable—integer or floating—that’s too small to hold it produces
+undefined behavior: anything can happen, including program
+termination.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: Why does C bother to provide type definitions? Isn’t defining a
+<code>BOOL</code> macro just as good as defining a <code>Bool</code>
+type using <code>typedef</code>? [p. 149]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: There are two important differences between type definitions and
+macro definitions. First, type definitions are more powerful than macro
+definitions. In particular, array and pointer types can’t be defined as
+macros. Suppose that we try to use a macro to define a “pointer to
+integer” type:</p>
+<div class="sourceCode" id="cb372"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb372-1"><a href="#cb372-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define PTR_TO_INT int *</span></span></code></pre></div>
+<p>The declaration</p>
+<div class="sourceCode" id="cb373"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb373-1"><a href="#cb373-1" aria-hidden="true" tabindex="-1"></a>PTR_TO_INT p<span class="op">,</span> q<span class="op">,</span> r<span class="op">;</span></span></code></pre></div>
+<p>will become</p>
+<div class="sourceCode" id="cb374"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb374-1"><a href="#cb374-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">*</span> p<span class="op">,</span> g<span class="op">,</span> r<span class="op">;</span></span></code></pre></div>
+<p>after preprocessing. Unfortunately, only <code>p</code> is a pointer:
+<code>g</code> and <code>r</code> are ordinary integer variables. Type
+definitions don’t have this problem.</p>
+<p>Second, <code>typedef</code> names are subject to the same scope
+rules as variables; a <code>typedef</code> name defined inside a
+function body wouldn’t be recognized outside the function. Macro names,
+on the other hand, are replaced by the preprocessor wherever they
+appear.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: You said that compilers “can usually determine the value of a
+<code>sizeof</code> expression.” Can’t a compiler always determine the
+value of a <code>sizeof</code> expression? [p- 151]</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: In C89, yes. In C99, however, there’s one exception. The compiler
+can’t determine the size of a variable-length array, because the number
+of elements in the array may change during the execution of the
+program.</p>
+</div>
+<!-- END: div -->
+<hr />
+<h2 id="examples-5">Examples</h2>
+<ul>
+<li>Programs: <a
+href="./cknkCh07/cknkCh07Exmp/">./cknkCh07/cknkCh07Exmp/</a></li>
+</ul>
+<h2 id="exercises-5">Exercises</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh07/cknkCh07Exrc/README.md">./cknkCh07/cknkCh07Exrc/README.md</a><br />
+</li>
+<li>Readme (html): <a
+href="./cknkCh07/cknkCh07Exrc/cknkCh07ExrcReadme.html">./cknkCh07/cknkCh07Exrc/cknkCh07ExrcReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh07/cknkCh07Exrc/">./cknkCh07/cknkCh07Exrc/</a></li>
+</ul>
+<h2 id="programming-projects-5">Programming Projects</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh07/cknkCh07Prj/README.md">./cknkCh07/cknkCh07Prj/README.md</a><br />
+</li>
+<li>Readme: <a
+href="./cknkCh07/cknkCh07Prj/cknkCh07PrjReadme.html">./cknkCh07/cknkCh07Prj/cknkCh07PrjReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh07/cknkCh07Prj/">./cknkCh07/cknkCh07Prj/</a></li>
 </ul>
 <hr class="chapterDivider"/>
 <hr class="chapterDivider"/>

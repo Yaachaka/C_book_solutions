@@ -18,7 +18,7 @@
 
 	"markdown-table":
 	{
-		"scope": ["markdown", "md", "MarkDown", "MD"],
+		"scope": "markdown, md, MarkDown, MD",
 		"prefix": ["md-table", "..md-table"],
 		"body": [
 			"<!-- START: table -->",
@@ -83,7 +83,7 @@
 
 	"markdown-span":
 	{
-		"scope": ["markdown", "md", "MarkDown", "MD"],
+		"scope": "markdown, md, MarkDown, MD",
 		"prefix": ["md-span", "..md-span"],
 		"body": [
 			"<span class=\"$1\">$2</span>",
@@ -93,7 +93,7 @@
 
 	"markdown-div":
 	{
-		"scope": ["markdown", "md", "MarkDown", "MD"],
+		"scope": "markdown, md, MarkDown, MD",
 		"prefix": ["md-div", "..md-div"],
 		"body": [
 			"<!-- START: div -->",
@@ -110,7 +110,7 @@
 
 	"markdown-ol":
 	{
-		"scope": ["markdown", "md", "MarkDown", "MD"],
+		"scope": "markdown, md, MarkDown, MD",
 		"prefix": ["md-ol", "..md-ol"],
 		"body": [
 			"<!-- START: ordered-list -->",
@@ -168,7 +168,7 @@
 
 	"markdown-ul":
 	{
-		"scope": ["markdown", "md", "MarkDown", "MD"],
+		"scope": "markdown, md, MarkDown, MD",
 		"prefix": ["md-ul", "..md-ul"],
 		"body": [
 			"<!-- START: unordered-list -->",
@@ -226,7 +226,7 @@
 
 	"markdown-codeBlock":
 	{
-		"scope": ["markdown", "md", "MarkDown", "MD"],
+		"scope": "markdown, md, MarkDown, MD",
 		"prefix": ["..md-codeBlock", "```"],
 		"body": [
 			"```$1",
@@ -235,5 +235,25 @@
 			"",
 		],
 		"description": ["Markdown codeblock"]
+	},
+
+	"markdown (HTML) -superscript":
+	{
+		"scope": "markdown, md, MarkDown, MD",
+		"prefix": ["..md-superscript", "```"],
+		"body": [
+			"<sup>$1</sup>$2",
+		],
+		"description": ["HTML superscript in markdown"]
+	},
+
+	"markdown (HTML) -subscript":
+	{
+		"scope": "markdown, md, MarkDown, MD",
+		"prefix": ["..md-subscript", "```"],
+		"body": [
+			"<sub>$1</sub>$2",
+		],
+		"description": ["HTML subscript in markdown"]
 	},
 }

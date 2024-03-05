@@ -410,3 +410,9 @@ tr:nth-child(even) { /* Alternating row background */
     margin: 0.5rem;
     padding: 1px;
 }
+
+.unicode_UPWARDS_ARROW::after
+{
+    content: "\2191";
+    /* font-size: 24px; */
+}

@@ -17,7 +17,7 @@
 	// }
 
 	"main function": {
-		"scope": ["c", "C"],
+		"scope": "c, C",
 		"prefix": ["..fn.main", "main"],
 		"body": [
 			"int main(void)",
@@ -25,14 +25,14 @@
 			"\t$1",
 			"\t",
 			"\tprintf(\"\\n\");",
-			"\treturn 0;"
+			"\treturn 0;",
 			"}\t//FUNCTION END: main"
 		],
 		"description": "Main function template"
 	},
 
 	"file top": {
-		"scope": ["c", "C"],
+		"scope": "c, C",
 		"prefix": ["..file.top", "fileTop", "fTop"],
 		"body": [
 			"/********************************************************************************",
@@ -47,7 +47,7 @@
 
 	"include - standard header":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["include", "..include"],
 		"body": [
 			"#include <$1>$2",
@@ -57,7 +57,7 @@
 
 	"include - user header":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["Uinclude", "..Uinclude"],
 		"body": [
 			"#include \"$1\"$2",
@@ -67,7 +67,7 @@
 	
 	"printf":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["printf", "..printf"],
 		"body": [
 			"printf(\"$1\\n\");$2",
@@ -77,7 +77,7 @@
 
 	"scanf":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["scanf", "..scanf"],
 		"body": [
 			"scanf(\"%$1\", &$2);$3",
@@ -87,7 +87,7 @@
 
 	"multi line comment":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["..ml-comm", "../**"],
 		"body": [
 			"/**",
@@ -99,7 +99,7 @@
 
 	"if statement":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["if", "..if"],
 		"body": [
 			"if($1)",
@@ -112,7 +112,7 @@
 
 	"if-else statement":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["else", "..else", "ifelse", "..ifelse"],
 		"body": [
 			"if($1)",
@@ -130,7 +130,7 @@
 	
 	"else-if statement":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["elseif", "..elseif"],
 		"body": [
 			"if($1)",
@@ -152,7 +152,7 @@
 	
 	"switch statement":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["switch", "..switch"],
 		"body": [
 			"switch($1)",
@@ -175,7 +175,7 @@
 
 	"conditional (ternary) operator":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["conditionalTernaryOperator", "..?", "ternOp", "condOp", "conditionalOperator", "..ternOp", "..ternary"],
 		"body": [
 			"($1) ? ($2) : ($3)$4",
@@ -186,7 +186,7 @@
 
 	"while statement":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["while", "..while"],
 		"body": [
 			"while($1)",
@@ -200,7 +200,7 @@
 
 	"do-while statement":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["do-while", "..do-while", "do", "..do"],
 		"body": [
 			"do($1)",
@@ -214,7 +214,7 @@
 
 	"for statement":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["for", "..for"],
 		"body": [
 			"for($1; $2; $3)",
@@ -226,9 +226,9 @@
 		"description": ["C: for statement"]
 	},
 
-	"C: comment set":
+	"C: function definition":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["func", "..func", "funcDef", "function", "..function"],
 		"body": [
 			"/**",
@@ -247,12 +247,12 @@
 			"}\t// FUNCTION END: $2$5",
 			
 		],
-		"description": ["C: comment set"]
+		"description": ["C: function definition"]
 	},
 
 	"C: comment set":
 	{
-		"scope": ["C", "c"],
+		"scope": "c, C",
 		"prefix": ["commSet", "..commSet"],
 		"body": [
 			"/* START: Header inclusions*/",
