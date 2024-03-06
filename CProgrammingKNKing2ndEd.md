@@ -952,7 +952,7 @@ Continuing a string from one line to the next requires a special technique that 
 
 <div class="QandA_question">
 
-Q: What does GCC stand for? [p. 11]
+Q: What does GCC stand for?
 
 </div>
 <div class="QandA_answer">
@@ -1046,7 +1046,7 @@ gcc -O -Wall -W -pedantic -ansi -std=c99 -o pun pun.c
 </div>
 <div class="QandA_question">
 
-Q: Why is C so terse? It seems as though programs would be more readable if C used `begin` and `end` instead of `{` and `}`, `integer` instead of `int`, and so forth. [p. 12]
+Q: Why is C so terse? It seems as though programs would be more readable if C used `begin` and `end` instead of `{` and `}`, `integer` instead of `int`, and so forth.
 
 </div>
 <div class="QandA_answer">
@@ -1056,7 +1056,7 @@ A: Legend has it that the brevity of C programs is due to the environment that e
 </div>
 <div class="QandA_question">
 
-Q: In some C books, the `main` function ends with `exit(0)` instead of `return 0`. Are these the same? [p. 14]
+Q: In some C books, the `main` function ends with `exit(0)` instead of `return 0`. Are these the same?
 
 </div>
 <div class="QandA_answer">
@@ -1066,7 +1066,7 @@ A: When they appear inside `main`, these statements are indeed equivalent: both 
 </div>
 <div class="QandA_question">
 
-Q: What happens if a program reaches the end of the `main` function without executing a `return` statement? [p. 14]
+Q: What happens if a program reaches the end of the `main` function without executing a `return` statement?
 
 </div>
 <div class="QandA_answer">
@@ -1138,7 +1138,7 @@ In any event, there's a better way to disable portions of a program, as we'll se
 </div>
 <div class="QandA_question">
 
-Q: Where does the `float` type get its name? [p. 17]
+Q: Where does the `float` type get its name?
 
 </div>
 <div class="QandA_answer">
@@ -1148,7 +1148,7 @@ A: `float` is short for "floating-point", a technique for storing numbers in whi
 </div>
 <div class="QandA_question">
 
-Q: Why do floating-point constants need to end with letter `f`? [p. 19]
+Q: Why do floating-point constants need to end with letter `f`?
 
 </div>
 <div class="QandA_answer">
@@ -1158,7 +1158,7 @@ A: For the full explanation, see Chapter 7. Here's the short answer: a constant 
 </div>
 <div class="QandA_question">
 
-*Q: Is it really true that there's no limit on the length of an identifier? [p. 26]
+*Q: Is it really true that there's no limit on the length of an identifier?
 
 </div>
 <div class="QandA_answer">
@@ -1178,7 +1178,7 @@ Most compilers and linkers are more generous than the standard, so these rules a
 </div>
 <div class="QandA_question">
 
-Q: How many spaces should I use for indentation? [p. 28]
+Q: How many spaces should I use for indentation?
 
 </div>
 <div class="QandA_answer">
@@ -1623,7 +1623,7 @@ Note that the resulting fraction isn't reduced to lowest terms.
 
 <div class="QandA_question">
 
-*Q: I've seen the `%i` conversion used to read and write integers. What's the difference between `%i` and `%d`? [p. 39]
+*Q: I've seen the `%i` conversion used to read and write integers. What's the difference between `%i` and `%d`?
 
 </div>
 <div class="QandA_answer">
@@ -1653,7 +1653,7 @@ Net profit: 10%
 </div>
 <div class="QandA_question">
 
-Q: The `\t` escape is supposed to cause `printf` to advance to the next tab stop. How do I know how far apart tab stops are? [p. 41]
+Q: The `\t` escape is supposed to cause `printf` to advance to the next tab stop. How do I know how far apart tab stops are?
 
 </div>
 <div class="QandA_answer">
@@ -1694,7 +1694,7 @@ What can we do about this sad state of affairs? Later, we'll see how to test whe
 </div>
 <div class="QandA_question">
 
-Q: I don't understand how `scanf` can "put back" characters and read them again later. [p. 44]
+Q: I don't understand how `scanf` can "put back" characters and read them again later.
 
 </div>
 <div class="QandA_answer">
@@ -2404,7 +2404,7 @@ Since `i` and `j` aren’t changed, this statement has no effect and therefore s
 
 <span class="warningEmoji"></span>
 
-A slip of the finger can easily create a “do-nothing™ expression statement. For example, instead of entering
+A slip of the finger can easily create a “do-nothing" expression statement. For example, instead of entering
 
 ```C
 i = j;
@@ -2443,7 +2443,7 @@ A:  Raising an integer to a small positive integer power is best done by repeate
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: I want to apply the `%` operator to a floating-point operand, but my program won’t compile. What can I do? [p. 54]
+Q: I want to apply the `%` operator to a floating-point operand, but my program won’t compile. What can I do?
 
 </div>
 <!-- END: div -->
@@ -2458,7 +2458,7 @@ A: The `%` operator requires integer operands. Try the `fmod` function instead.
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why are the rules for using the `/` and `%` operators with negative operands so complicated? [p. 54]
+Q: Why are the rules for using the `/` and `%` operators with negative operands so complicated?
 
 </div>
 <!-- END: div -->
@@ -2475,14 +2475,14 @@ A:  The rules aren’t as complicated as they may first appear. In both C89 and 
 <!-- START: div -->
 <div class="QandA_question">
 
-If C has lvalues, does it also have rvalues? [p. 59]
+If C has lvalues, does it also have rvalues?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-Yes, indeed. An *l*value is an expression that can appear on the *left* side of an assignment; an *r*value is an expression that can appear on the *right* side. Thus, an rvalue could be a variable, constant, or more complex expression. In this book, as in the C standard, we’ll use the term “expression™ instead of “rvalue.”
+Yes, indeed. An *l*value is an expression that can appear on the *left* side of an assignment; an *r*value is an expression that can appear on the *right* side. Thus, an rvalue could be a variable, constant, or more complex expression. In this book, as in the C standard, we’ll use the term “expression" instead of “rvalue.”
 
 </div>
 <!-- END: div -->
@@ -2490,7 +2490,7 @@ Yes, indeed. An *l*value is an expression that can appear on the *left* side of 
 <!-- START: div -->
 <div class="QandA_question">
 
-You said that `v += e` isn’t equivalent to `v = v + e` if `v` has a side effect. Can you explain? [p. 60]
+You said that `v += e` isn’t equivalent to `v = v + e` if `v` has a side effect. Can you explain?
 
 </div>
 <!-- END: div -->
@@ -2516,7 +2516,7 @@ The value of `i` is modified as well as used elsewhere in the statement, so the 
 <!-- START: div -->
 <div class="QandA_question">
 
-Why does C provide the `++` and `--` operators? Are they faster than other ways of incrementing and decrementing, or they are just more convenient? [p. 61]
+Why does C provide the `++` and `--` operators? Are they faster than other ways of incrementing and decrementing, or they are just more convenient?
 
 </div>
 <!-- END: div -->
@@ -2546,7 +2546,7 @@ Yes; the increment and decrement operations can be applied to floating-point num
 <!-- START: div -->
 <div class="QandA_question">
 
-When I use the postfix version of `++` or `--`, just when is the increment or decrement performed? [p. 62]
+When I use the postfix version of `++` or `--`, just when is the increment or decrement performed?
 
 </div>
 <!-- END: div -->
@@ -2563,7 +2563,7 @@ Certain operators that we’ll encounter in later chapters (logical and. logical
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What do you mean when you say that the value of an expression statement is discarded? [p. 65]
+Q: What do you mean when you say that the value of an expression statement is discarded?
 
 </div>
 <!-- END: div -->
@@ -2645,7 +2645,7 @@ This chapter discusses the selection statements and the compound statement. (Cha
 
 ## 5.1 Logical Expressions
 
-Several of C's statements, including the `if` statement, must test the value of an expression to see if it is “true™ or “false.” For example, an `if` statement might need to test the expression `i < j;` a true value would indicate that `i` is less than `j`. In many programming languages, an expression such as `i < j` would have a special “Boolean” or “logical” type. Such a type would have only two values, `false` and `frue`. In C, however, a comparison such as `i < j` yields an integer: either 0 (false) or 1 (true). With this in mind, let’s look at the operators that are used to build logical expressions.
+Several of C's statements, including the `if` statement, must test the value of an expression to see if it is “true" or “false.” For example, an `if` statement might need to test the expression `i < j;` a true value would indicate that `i` is less than `j`. In many programming languages, an expression such as `i < j` would have a special “Boolean” or “logical” type. Such a type would have only two values, `false` and `frue`. In C, however, a comparison such as `i < j` yields an integer: either 0 (false) or 1 (true). With this in mind, let’s look at the operators that are used to build logical expressions.
 
 ### 5.1.1 Relational Operators
 
@@ -2860,7 +2860,7 @@ if (i > j) max = i;
 else max = j;
 ```
 
-There are no restrictions on what kind of statements can appear inside an `if` statement. In fact, it’s not unusual for `if` stalements to be nested inside other `if` statements. Consider the following `if` statement, which finds the largest of the numbers stored in `i`, `j`, and `k` and stores that value in `max`:
+There are no restrictions on what kind of statements can appear inside an `if` statement. In fact, it’s not unusual for `if` statements to be nested inside other `if` statements. Consider the following `if` statement, which finds the largest of the numbers stored in `i`, `j`, and `k` and stores that value in `max`:
 
 ```C
 if(i > j)
@@ -3363,7 +3363,7 @@ A `switch` statement isn’t required to have a `default` case. If `default` is 
 
 ### 5.3.1 The Role of the break Statement
 
-Now, let’s take a closer look at the mysterious `break` statement. As we've seen, executing a `break` statement causes the program to “break™ out of the `switch` statement; execution continues at the next statement after the `switch`.
+Now, let’s take a closer look at the mysterious `break` statement. As we've seen, executing a `break` statement causes the program to “break" out of the `switch` statement; execution continues at the next statement after the `switch`.
 
 The reason that we need break has to do with the fact that the `switch` statement is really a form of “computed jump.” When the controlling expression is evaluated, control jumps to the case label matching the value of the `switch` expression. A case label is nothing more than a marker indicating a position within the `switch`, When the last statement in the case has been executed, control “falls through” to the first statement in the following case; the case label for the next case is ignored. Without `break` (or some other jump statement), control will flow from one case into the next. Consider the following switch statement:
 
@@ -3493,7 +3493,7 @@ Note the use of `%.2d` to display the last two digits of the year. If we had use
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: My compiler doesn’t give a warning when I use `=` instead of `==`. Is there some way to force the compiler to notice the problem? [p. 77]
+Q: My compiler doesn’t give a warning when I use `=` instead of `==`. Is there some way to force the compiler to notice the problem?
 
 </div>
 <!-- END: div -->
@@ -3625,7 +3625,7 @@ A: When `int` and `float` values are mixed in a conditional expression, as they 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why doesn’t C99 have a better name for its Boolean type? [p. 85]
+Q: Why doesn’t C99 have a better name for its Boolean type?
 
 </div>
 <!-- END: div -->
@@ -3657,7 +3657,7 @@ A: The C89 standard specifies that names beginning with an underscore followed b
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: The template given for the `switch` statement described it as the “most common form.” Are there other forms? [p. 87]
+Q: The template given for the `switch` statement described it as the “most common form.” Are there other forms?
 
 </div>
 <!-- END: div -->
@@ -4132,7 +4132,7 @@ Since the first and third expressions in a `for` statement are executed as state
 
 ### 6.3.1 `for` statement Idioms
 
-The `for` statement is usually the best choice for loops that “count up” (increment a variable) or “count down™ (decrement a variable). A `for` statement that counts up or down a total of `n` times will usually have one of the following forms:
+The `for` statement is usually the best choice for loops that “count up” (increment a variable) or “count down" (decrement a variable). A `for` statement that counts up or down a total of `n` times will usually have one of the following forms:
 
 <!-- START: unordered-list -->
 <ul>
@@ -4181,7 +4181,7 @@ Imitating these patterns will help you avoid some of the following errors, which
 <ul>
 <li>
 
-Using `<` instead of `>` (or vice versa) in the controlling expression. Notice that “counting up” loops use the `<` or `<=` operator, while “counting down™ loops rely on `>` or `>=`.
+Using `<` instead of `>` (or vice versa) in the controlling expression. Notice that “counting up” loops use the `<` or `<=` operator, while “counting down" loops rely on `>` or `>=`.
 
 </li>
 <li>
@@ -4767,7 +4767,7 @@ while (i)
     printf ("T minus %d and counting\n", i--);
 ```
 
-This version will stop when `i` reaches 0, so it should be just as good as the original. [p. 101]
+This version will stop when `i` reaches 0, so it should be just as good as the original.
 
 </div>
 <!-- END: div -->
@@ -4788,7 +4788,7 @@ Second, the new loop behaves differently than the original if `i` should happen 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Section 6.3 says that, except in rare cases, `for` loops can be converted to `while` loops using a standard pattern. Can you give an example of such a case? [p. 106]
+Q: Section 6.3 says that, except in rare cases, `for` loops can be converted to `while` loops using a standard pattern. Can you give an example of such a case?
 
 </div>
 <!-- END: div -->
@@ -4831,7 +4831,7 @@ Unfortunately, this loop isn’t equivalent to the original. When `i` is equal t
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Which form of infinite loop is preferable, `while(1)` or `for(;;)`? [p. 108]
+Q: Which form of infinite loop is preferable, `while(1)` or `for(;;)`?
 
 </div>
 <!-- END: div -->
@@ -4881,7 +4881,7 @@ for (;;) {
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What’s so bad about the `goto` statement? [p. 114]
+Q: What’s so bad about the `goto` statement?
 
 </div>
 <!-- END: div -->
@@ -4892,7 +4892,7 @@ The `goto` statement isn't inherently evil; it's just that we usually have bette
 
 `goto` statements make programs hard to read because they can jump either forward or backward. (In contrast, `break` and `continue` only jump forward.) A program that contains `goto` statements often requires the reader to jump back and forth in an attempt to follow the flow of control.
 
-`goto` statements can make programs hard to modify, since they make it possible for a section of code to serve more than one purpose. For example, a statement that is preceded by a label might be reachable either by “falling through™ from the previous statement or by executing one of several `goto` statements.
+`goto` statements can make programs hard to modify, since they make it possible for a section of code to serve more than one purpose. For example, a statement that is preceded by a label might be reachable either by “falling through" from the previous statement or by executing one of several `goto` statements.
 
 </div>
 <!-- END: div -->
@@ -4902,7 +4902,7 @@ The `goto` statement isn't inherently evil; it's just that we usually have bette
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Does the null statement have any uses besides indicating that the body of a loop is empty? [p. 116]
+Q: Does the null statement have any uses besides indicating that the body of a loop is empty?
 
 </div>
 <!-- END: div -->
@@ -4930,7 +4930,7 @@ Suppose that we need to put a label at the end of a compound statement. A label 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Are there any other ways to make an empty loop body stand out besides putting the null statement on a line by itself? [p. 117]
+Q: Are there any other ways to make an empty loop body stand out besides putting the null statement on a line by itself?
 
 </div>
 <!-- END: div -->
@@ -6209,7 +6209,7 @@ A: For historical reasons, C gives preference to the `double` type; `float` is t
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What do hexadecimal floating constants look like, and what are they good for? [p. 134]
+Q: What do hexadecimal floating constants look like, and what are they good for?
 
 </div>
 <!-- END: div -->
@@ -6228,7 +6228,7 @@ Hexadecimal floating constants are primarily useful for specifying constants tha
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why do we use `%lf` to read a `double` value but `%f` to print it? [p. 134]
+Q: Why do we use `%lf` to read a `double` value but `%f` to print it?
 
 </div>
 <!-- END: div -->
@@ -6247,7 +6247,7 @@ A: This is a tough question to answer. First, notice that `scanf` and `printf` a
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What’s the proper way to pronounce `char`? [p. 134]
+Q: What’s the proper way to pronounce `char`?
 
 </div>
 <!-- END: div -->
@@ -6268,7 +6268,7 @@ char broiled;
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: When does it matter whether a character variable is signed or unsigned? [p. 136]
+Q: When does it matter whether a character variable is signed or unsigned?
 
 </div>
 <!-- END: div -->
@@ -6293,7 +6293,7 @@ Here’s another situation: In some kinds of programs, it’s customary to use `
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: I don’t understand how the new-line character can be the ASCII line-feed character. When a user enters input and presses the Enter key, doesn’t the program read this as a carriage-return character or a carriage return plus a line feed? [p. 137]
+Q: I don’t understand how the new-line character can be the ASCII line-feed character. When a user enters input and presses the Enter key, doesn’t the program read this as a carriage-return character or a carriage return plus a line feed?
 
 </div>
 <!-- END: div -->
@@ -6312,7 +6312,7 @@ Although these translations may seem confusing, they serve an important purpose:
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What’s the purpose of the `\?` escape sequence? [p. 138]
+Q: What’s the purpose of the `\?` escape sequence?
 
 </div>
 <!-- END: div -->
@@ -6329,7 +6329,7 @@ A: The `\?` escape is related to trigraph sequences, which begin with `??`. If y
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: If `getchar` is faster, why would we ever want to use `scanf` to read individual characters? [p. 140]
+Q: If `getchar` is faster, why would we ever want to use `scanf` to read individual characters?
 
 </div>
 <!-- END: div -->
@@ -6346,7 +6346,7 @@ A: Although it’s not as fast as `getchar`, the `scanf` function is more flexib
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Under what circumstances do the integral promotions convert a character or short integer to `unsigned int`? [p. 143]
+Q: Under what circumstances do the integral promotions convert a character or short integer to `unsigned int`?
 
 </div>
 <!-- END: div -->
@@ -6363,7 +6363,7 @@ A: The integral promotions yield an `unsigned int` if the `int` type isn't large
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Exactly what happens if I assign a value to a variable that’s not large enough to hold it? [p. 146]
+Q: Exactly what happens if I assign a value to a variable that’s not large enough to hold it?
 
 </div>
 <!-- END: div -->
@@ -6380,7 +6380,7 @@ A: Roughly speaking, if the value is of an integral type and the variable is of 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why does C bother to provide type definitions? Isn’t defining a `BOOL` macro just as good as defining a `Bool` type using `typedef`? [p. 149]
+Q: Why does C bother to provide type definitions? Isn’t defining a `BOOL` macro just as good as defining a `Bool` type using `typedef`?
 
 </div>
 <!-- END: div -->
@@ -7142,7 +7142,7 @@ Variable-length arrays are most often seen in functions other than `main`. One b
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why do array subscripts start at 0 instead of 12 [p. 162]
+Q: Why do array subscripts start at 0 instead of 1?
 
 </div>
 <!-- END: div -->
@@ -7212,7 +7212,7 @@ Q: It seems like a designated initializer could end up initializing an array ele
 int a[] = {4, 9, 1. 8, [0] = 5, 7};
 ```
 
-Is this declaration legal, and if so, what is the length of the array? [p. 166]
+Is this declaration legal, and if so, what is the length of the array?
 
 </div>
 <!-- END: div -->
@@ -7316,6 +7316,1655 @@ A: The memory used to store a variable-length array is usually allocated when th
 
 <hr class="chapterDivider"/>
 
+# 9 Functions
+
+<!-- START: div -->
+<div class="theQuote">
+
+If you have a procedure with ten parameters, you probably missed some.
+
+</div>
+<!-- END: div -->
+
+We saw in Chapter 2 that a function is simply a series of statements that have been grouped together and given a name. Although the term “function” comes from mathematics, C functions don't always resemble math functions. In C, a function doesn’t necessarily have arguments, nor does it necessarily compute a value. (In some programming languages, a “function” returns a value, whereas a “procedure" doesn’t. C lacks this distinction.)
+
+Functions are the building blocks of C programs. Each function is essentially a small program, with its own declarations and statements. Using functions, we can divide a program into small pieces that are easier for us—and others—to understand and modify. Functions can take some of the tedium out of programming by allowing us to avoid duplicating code that’s used more than once. Moreover, functions are reusable: we can take a function that was originally part of one program and use it in others.
+
+Our programs so far have consisted of just the `main` function. In this chapter, we'll see how to write functions other than `main`, and we'll learn more about `main` itself. Section 9.1 shows how to define and call functions. Section 9.2 then discusses function declarations and how they differ from function definitions. Next, Section 9.3 examines how arguments are passed to functions. The remainder of the chapter covers the `return` statement (Section 9.4), the related issue of program termination (Section 9.5), and recursion (Section 9.6).
+
+## 9.1 Defining and Calling Functions
+
+Before we go over the formal rules for defining a function. let's look at three simple programs that define functions.
+
+### 9.1.1 (PROGRAM) Computing Averages
+
+Suppose we often need to compute the average of two `double` values. The C library doesn’t have an “average” function, but we can easily define our own. Here’s what it would look like:
+
+```C
+double average(double a, double b)
+{
+    return (a + b) / 2;
+}
+```
+
+<span class="QandA"></span>
+
+The word `double` at the beginning is average’s ***refurn type***: the type of data that the function returns each time it's called. The identifiers `a` and `b` (the function's ***parameters***) represent the two numbers that will be supplied when `average` is called. Each parameter must have a type (just like every variable has a type): in this example, both `a` and `b` have type `double`. (It may look odd, but the word `double` must appear twice, once for `a` and once for `b`.) A function parameter is essentially a variable whose initial value will be supplied later, when the function is called.
+
+Every function has an executable part, called the ***body***, which is enclosed in braces. The body of `average` consists of a single `return` statement. Executing this statement causes the function to “return” to the place from which it was called: the value of `(a + b) / 2` will be the value returned by the function.
+
+To call a function, we write the function name, followed by a list of arguments. For example, `average (x, y)` is a call of the average function. Arguments are used to supply information to a function; in this case, average needs to know which two numbers to average. The effect of the call `average (x, y)` is to copy the values of `x` and `y` into the parameters `a` and `b`, and then execute the body of `average`. An argument doesn’t have to be a variable; any expression of a compatible type will do, allowing us to write `average (5.1, 8.9)` or `average (x/2, y/3)`.
+
+We'll put the call of `average` in the place where we need to use the return value. For example, we could write
+
+```C
+printf("Average: %g\n", average(x, y));
+```
+
+to compute the average of `x` and `y` and then print it. This statement has the following effect:
+
+1. The `average` function is called with `x` and `y` as arguments.  
+2. `x` and `y` are copied into `a` and `b`.  
+3. `average` executes its `return` statement, returning the average of `a` and `b`.  
+4. `printf` prints the value that average returns. (The `return` value of average becomes one of `printf`'s arguments.)  
+
+Note that the return value of `average` isn’t saved anywhere; the program prints it and then discards it. If we had needed the return value later in the program, we could have captured it in a variable:
+
+avg = average(x, y);
+
+This statement calls `average`, then saves its return value in the variable `avg`.
+
+Now, let’s use the `average` function in a complete program. The following program reads three numbers and computes their averages, one pair at a time:
+
+```shell
+Enter three numbers: 3.5 9.6 10.2
+Average of 3.5 and 9.6: 6.55
+Average of 9.6 and 10.2: 9.9
+Average of 3.5 and 10.2: 6.85
+```
+
+Among other things, this program shows that a function can be called as often as we need.
+
+```C
+/**
+ * file: average.c
+ * Author: K. N. King
+ * Purpose: Computes pairwise averages of three numbers
+ */
+
+#include <stdio.h>
+double average(double a, double b)
+{
+    return (a + b) / 2;
+}
+
+int main(void)
+{
+    double x, y, z;
+
+    printf ("Enter three numbers: ");
+    scanf ("%lf%lf%lf", &x, &y, &z);
+    printf("Average of %g and %g: %g\n", x, y, average(x, y));
+    printf("Average of %g and %g: %g\n", y, z, average(y, z));
+    printf("Average of %g and %g: %g\n", x, z, average(x, z));
+
+    return 0;
+}
+```
+
+Notice that I've put the definition of `average` before `main`. We'll see in Section 9.2 that putting `average` after `main` causes problems.
+
+### 9.1.2 (PROGRAM) Printing a Countdown
+
+Not every function returns a value. For example, a function whose job is to produce output may not need to return anything. To indicate that a function has no return value, we specify that its return type is `void`. (`void` is a type with no values.) Consider the following function, which prints the message `T minus n and counting`, where `n` is supplied when the function is called:
+
+```C
+void print_count (int n)
+{
+    printf ("T minus %d and counting\n", n);
+}
+```
+
+`print_count` has one parameter, `n`, of type `int`. It returns nothing, so I've specified `void` as the return type and omitted the `return` statement. Since `print_count` doesn’t return a value, we can’t call it in the same way we call `average`. Instead, a call of `print_count` must appear in a statement by itself:
+
+```C
+print_count (i) ;
+```
+
+Here’s a program that calls `print_count` 10 times inside a loop:
+
+```C
+/**
+ * file: countdown.c
+ * Author: K. N. King
+ * Purpose: Prints a countdown
+ */
+
+#include <stdio.h>
+
+void print_count(int n)
+{
+    printf("T minus %d and counting\n", n);
+}
+
+int main(void)
+{
+
+    int i;
+
+    for(i = 10; i > 0; --i)
+        print_count(i) ;
+
+    return 0;
+}
+```
+
+Initially, `i` has the value 10. When `print_count` is called for the first time, `i` is copied into `n`, so that `n` takes on the value 10 as well, As a result, the first call of `print_count` will print
+
+```shell
+T minus 10 and counting
+```
+
+`print_count` then returns to the point at which it was called, which happens to be the body of a `for` statement. The `for` statement resumes where it left off, decrementing 1 to 9 and testing whether it's greater than 0. It is, so `print_count` is called again, this time printing
+
+```C
+T minus 9 and counting
+```
+
+Each time `print_count` is called, `i` is different, so `print_count` will print 10 different messages.
+
+### 0.1.3 (PROGRAM) Printing a Pun (Revisited)
+
+Some functions have no parameters at all. Consider `print_pun`, which prints a bad pun each time it’s called:
+
+```C
+void print_pun(void)
+{
+    printf ("To C, or not to C: that is the question.\n");
+}
+```
+
+The word `void` in parentheses indicates that `print_pun` has no arguments. (This time, we're using `void` as a placeholder that means “nothing goes here.")
+
+To call a function with no arguments, we write the function’s name, followed by parentheses:
+
+```C
+print_pun();
+```
+
+The parentheses must be present, even though there are no arguments. Here's a tiny program that tests the print_pun function;
+
+```C
+/**
+ * file: pun2.c
+ * Author: K. N. King
+ * Purpose: Prints a bad pun
+ */
+
+#include <stdio.h>
+
+void print_pun(void)
+{
+    printf("To C, or not to C: that is the question.\n");
+}
+
+int main(void)
+{
+    print_pun();
+    return 0;
+}
+```
+
+The execution of this program begins with the first statement in `main`, which happens to be a call of `print_pun`. When `print_pun` begins to execute, it in turn calls `printf` to display a string. When `printf` returns, `print_pun` returns to `main`.
+
+### 9.1.4 Function Definitions
+
+Now that we've seen several examples, let's look at the general form of a ***function definition***:
+
+```C
+return-type function-name ( parameters )
+{
+    declarations
+    statements
+}
+```
+
+The return type of a function is the type of value that the function returns. The following rules govern the return type:
+
+<!-- START: unordered-list -->
+<ul>
+<li>
+
+Functions may not return arrays, but there are no other restrictions on the return type.
+
+</li>
+<li>
+
+Specifying that the return type is `void` indicates that the function doesn’t return a value.
+
+</li>
+<li>
+
+<span class="C99Symbol"></span>
+
+If the return type is omitted in C89. the function is presumed to return a value of type `int`. In C99, it’s illegal to omit the return type of a function.
+
+</li>
+</ul>
+<!-- END: unordered-list -->
+
+As a matter of style, some programmers put the return type above the function name;
+
+```C
+double
+average (double a, double b)
+{
+    return (a + b) / 2;
+}
+```
+
+Putting the return type on a separate line is especially useful if the return type is
+lengthy, like `unsigned long int`.
+
+<span class="QandA"></span>
+
+After the function name comes a list of parameters. Each parameter is preceded by a specification of its type; parameters are separated by commas. If the function has no parameters, the word `void` should appear between the parentheses. *Note*: A separate type must be specified for each parameter, even when several parameters have the same type:
+
+```C
+double average(double a, b)    /*** WRONG ***/
+{
+    return (a + b) / 2;
+}
+```
+
+The body of a function may include both declarations and statements. For example, the `average` function could be written
+
+```C
+double average(double a, double b)
+{
+    double sum; /* declaration */
+
+    sum = a + b; /* statement */
+    return sum / 2; /* statement */
+}
+```
+
+<span class="C99Symbol"></span>
+
+Variables declared in the body of a function belong exclusively to that function; they can’t be examined or modified by other functions. In C89, variable declarations must come first, before all statements in the body of a function. In C99, variable declarations and statements can be mixed, as long as each variable is declared prior to the first statement that uses the variable. (Some pre-C99 compilers also allow mixing of declarations and statements.)
+
+The body of a function whose return type is `void` (which I'll call a “void function") can be empty:
+
+```C
+void print_pun(void)
+{
+}
+```
+
+Leaving the body empty may make sense during program development; we can leave room for the function without taking the time to complete it, then come back later and write the body.
+
+### 9.1.5 Function Calls
+
+A function call consists of a function name followed by a list of arguments, enclosed in parentheses:
+
+```C
+average (x, y)
+print_count (i)
+print_pun()
+```
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+If the parentheses are missing, the function won't get called:
+
+```C
+print_pun; /*** WRONG ***/
+```
+
+<span class="QandA"></span>
+
+The result is a legal (albeit meaningless) expression statement that looks correct, but has no effect. Some compilers issue a warning such as "*statement with no effect*."
+
+</div>
+<!-- END: div -->
+
+A call of a `void` function is always followed by a semicolon to turn it into a statement:
+
+```C
+print_count (i) ;
+print_pun() ;
+```
+
+A call of a non-`void` function, on the other hand, produces a value that can be stored in a variable, tested, printed, or used in some other way:
+
+```C
+avg = average(x, y);
+if (average(x, y) > 0)
+    printf ("Average is positive\n");
+printt("The average is %g\n", average(x, y));
+```
+
+The value returned by a non-`void` function can always be discarded if it’s not needed:
+
+```C
+average (x, y); /* discards return value */
+```
+
+This call of `average` is an example of an expression statement: a statement that evaluates an expression but then discards the result.
+
+Ignoring the return value of `average` is an odd thing to do, but for some functions it makes sense. The `printf` function, for example, returns the number of characters that it prints. After the following call, `num_chars` will have the value 9:
+
+```C
+num_chars = printf("Hi, Mom!\n");
+```
+
+Since we're probably not interested in the number of characters printed, we'll normally discard `printf`'s return value:
+
+```C
+printf ("Hi, Mom!\n"); /* discards return value */
+```
+
+To make it clear that we're deliberately discarding the return value of a function, C allows us to put (`void`) before the call:
+
+```C
+(void) printf("Hi, Mom!\n");
+```
+
+What we're doing is casting (converting) the return value of `printf` to type void. (In C, “casting to void" is a polite way of saying “throwing away.”") Using (`void`) makes it clear to others that you deliberately discarded the return value, not just forgot that there was one. Unfortunately, there are a great many functions in the C library whose values are routinely ignored; using (`void`) when calling them all can get tiresome, so I haven’t done so in this book.
+
+### 9.1.6 Testing Whether a Number Is Prime
+
+To see how functions can make programs easier to understand, let’s write a program that tests whether a number is prime. The program will prompt the user to enter a number. then respond with a message indicating whether or not the number is prime:
+
+```shell
+Enter a number: 34
+Not prime
+```
+
+Instead of putting the prime-testing details in main, we'll define a separate function that returns true if its parameter is a prime number and false if it isn’t. When given a number `n`, the `is_prime` function will divide `n` by each of the numbers between 2 and the square root of `n`; if the remainder is ever 0, we know that `n` isn’t prime.
+
+```C
+/**
+ * file: prime.c
+ * Author: K. N. King
+ * Purpose: Tests whether a number is prime
+ */
+
+#include <stdbool.h> /* C99 only */
+#include <stdio.h>
+
+bool is_prime(int n)
+{
+    int divisor;
+
+    if(n <= 1)
+        return false;
+    for(divisor = 2; divisor * divisor <= n; divisor++)
+        if(n % divisor == 0)
+            return false;
+    return true;
+}
+
+int main(void)
+
+{
+    int n;
+
+    printf("Enter a nuwber: ");
+    scanf ("%d", &n);
+    if(is_prime(n))
+        printf("Prime\n") ;
+    else
+        printf("Not prime\n");
+
+    return 0;
+}
+```
+
+Notice that `main` contains a variable named `n` even though `is_prime`'s parameter is also named `n`. In general, a function may declare a variable with the same name as a variable in another function. The two variables represent different locations in memory, so assigning a new value to one variable doesn’t change the other. (This property extends to parameters as well.) Section 10.1 discusses this point in more detail.
+
+As `is_prime` demonstrates, a function may have more than one return statement. However, we can execute just one of these statements during a given call of the function, because reaching a `return` statement causes the function to return to where it was called. Well learn more about the `return` statement in Section 9.4.
+
+## 9.2 Function Declarations
+
+In the programs in Section 9.1, the definition of each function was always placed above the point at which it was called. In fact, C doesn’t require that the definition of a function precede its calls. Suppose that we rearrange the `average.c` program by putting the definition of average after the definition of main:
+
+```C
+#include <stdio.h>
+int main(void)
+{
+    double x, y, z;
+    printf("Enter three numbers: ");
+    scanf("%lf%lf%lf", &x, &y, &z);
+    printf("Average of %g and %g: %g\n", x, y, average(x, y));
+    printf("Average of %g and %g: %g\n", y, z, average(y, z));
+    printf("Average of %g and %g: %g\n", x, z, average(x, z));
+
+    return 0;
+}
+
+double average (double a, double b)
+{
+    return (a + b) / 2;
+}
+```
+
+When the compiler encounters the first call of `average` in `main`, it has no information about `average`: it doesn’t know how many parameters `average` has, what the types of these parameters are, or what kind of value `average` returns. Instead of producing an error message, though. the compiler assumes that `average` returns an `int` value (recall from Section 9.1 that the return type of a function is `int` by default). We say that the compiler has created an implicit declaration of the function. The compiler is unable to check that we're passing `average` the right number of arguments and that the arguments have the proper type. Instead. it performs the default argument promotions and hopes for the best. When it encounters the definition of `average` later in the program, the compiler notices that the function’s return type is actually `double`, not `int`, and so we get an error message.
+
+One way to avoid the problem of call-before-definition is to arrange the program so that the definition of each function precedes all its calls. Unfortunately, such an arrangement doesn’t always exist, and even when it does, it may make the program harder to understand by putting its function definitions in an unnatural order.
+
+Fortunately, C offers a better solution; declare each function before calling it. A function declaration provides the compiler with a brief glimpse at a function whose full definition will appear later. A function declaration resembles the first line of a function definition with a semicolon added at the end:
+
+```C
+return-type function-name ( parameters ) ;
+```
+
+<span class="QandA"></span>
+
+Needless to say, the declaration of a function must be consistent with the function’s definition.
+Here’s how our program would look with a declaration of `average` added:
+
+```C
+#include <stdio.h>
+
+double average (double a, double b); /* DECLARATION */
+
+int main(void)
+{
+    double x, y, z;
+
+    printf ("Enter three numbers: ");
+    scanf ("%lf%lf%lf", &x, &y, &z);
+    printf ("Average of %g and %g: %g\n", x, y, average(x, y));
+    printf ("Average of %g and %g: %g\n", y, z, average(y, z));
+    printf ("Average of %g and %g: ¥g\n", x, z, average(x, z)):
+
+    return 0;
+}
+
+double average (double a, dcuble b) /* DEFINITION */
+{
+    return (a + b) / 2;
+}
+```
+
+<span class="QandA"></span>
+
+Function declarations of the kind we've been discussing are known as ***function prototypes*** to distinguish them from an older style of function declaration in which the parentheses are left empty. A prototype provides a complete description of how to call a function: how many arguments to supply. what their types should be, and what type of result will be returned.
+
+Incidentally, a function prototype doesn’t have to specify the names of the function’s parameters, as long as their *types* are present:
+
+```C
+double average (double, double);
+```
+
+<span class="QandA"></span>
+
+It's usually best not to omit parameter names, since they help document the purpose of each parameter and remind the programmer of the order in which arguments must appear when the function is called. However, there are legitimate reasons for omitting parameter names, and some programmers prefer to do so.
+
+<span class="C99Symbol"></span>
+
+C99 has adopted the rule that either a declaration or a definition of a function must be present prior to any call of the function. Calling a function for which the compiler has not yet seen a declaration or definition is an error.
+
+## 6.3 Arguments
+
+Let’s review the difference between a parameter and an argument. *Parameters* appear in function definitions; they're dummy names that represent values to be supplied when the function is called. *Arguments* are expressions that appear in function calls. When the distinction between *argument* and 8 isn’t important, I'll sometimes use *argument to mean either.
+
+In C, arguments are ***passed by value***: when a function is called, each argument is evaluated and its value assigned to the corresponding parameter. Since the parameter contains a copy of the argument’s value, any changes made to the parameter during the execution of the function don’t affect the argument. In effect, each parameter behaves like a variable that’s been initialized to the value of the matching argument.
+
+The fact that arguments are passed by value has both advantages and disadvantages. Since a parameter can be modified without affecting the corresponding argument, we can use paramelers as variables within the function, thereby reducing the number of genuine variables needed. Consider the following function, which raises a number x` to a power `n`:
+
+```C
+int power (int x, int n)
+{
+    int i, result = 1;
+
+    for (i = 1; i <= n; i++)
+        result = result * x;
+
+    return result;
+}
+```
+
+Since `n` is a *copy* of the original exponent, we can modify it inside the function, thus removing the need for `i`:
+
+```C
+int power (int x, int n)
+{
+    int result = 1;
+
+    while (n-- > 0)
+    result = result * x;
+
+    return result;
+}
+```
+
+Unfortunately, C’s requirement that arguments be passed by value makes it difficult to write certain kinds of functions. For example, suppose that we need a function that will decompose a double value into an integer part and a fractional part. Since a function can’t rerurn two numbers, we might try passing a pair of variables to the function and having it modify them:
+
+```C
+void decompose (double x, long int_part, double frac_part)
+{
+    int part = (long) x; /* drops the fractional part of x */
+    frac_part = x - int_part;
+}
+```
+
+Suppose that we call the function in the following way:
+
+```C
+decompose(3.14158, i, d);
+```
+
+At the beginning of the call, 3.14159 is copied into `x`, `i`'s value is copied into `int_part`, and `d`’s value is copied into `frac_part`. The statements inside decompose then assign 3 to `int_part` and `.14159` to frac_part, and the function returns. Unfortunately, `i` and `d` weren't affected by the assignments to `int_part` and `frac_part`, so they haye the same values after the call as they did before the call. With a little extra effort, decompose can be made to work, as we'll see in Section 11.4. However, we'll need to cover more of C's features first.
+
+### 9.3.1 Argument Conversions
+
+C allows function calls in which the types of the arguments don’t match the types of the parameters. The rules governing how the arguments are converted depend on whether or not the compiler has seen a prototype for the function (or the function’s full definition) prior to the call:
+
+<!-- START: unordered-list -->
+<ul>
+<li>
+
+***The compiler has encountered a prototype prior to the call***. The value of each argument is implicitly converted to the type of the corresponding parameter as if by assignment. For example, if an `int` argument is passed to a function that was expecting a `double`, the argument is converted to `double` automatically.
+
+</li>
+<li>
+
+<span class="C99Symbol"></span>
+
+***The compiler has not encountered a prototype prior to the call***. The compiler performs the ***default argument promotions***: (1) `float` arguments are converted to `double`. (2) The integral promotions are performed, causing `char` and `short` arguments to be converted to `int`. (In C99, the integer promotions are performed.)
+
+</li>
+</ul>
+<!-- END: unordered-list -->
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Relying on the default argument promotions is dangerous. Consider the following program:
+
+```C
+#include <stdio.h>
+
+int main(void)
+{
+    double x = 3.0;
+    printf ("Square: %d\n", square(x));
+
+    return 0;
+}
+
+int square (int n)
+{
+    return n * n;
+}
+```
+
+At the time `square` is called, the compiler hasn’t seen a prototype yet, so it doesn’t know that `square` expects an argument of type `int`. Instead, the compiler performs the default argument promotions on `x`, with no effect. Since it's expecting an argument of type `int` but has been given a `double` value instead, the effect of calling `square` is undefined. The problem can be fixed by casting `square`’s argument to the proper type:
+
+```C
+printf ("Square: %d\n", square((int) x));
+```
+
+<span class="C99Symbol"></span>
+
+Of course, a much better solution is to provide a prototype for `square` before calling it. In C99, calling `square` without first providing a declaration or definition of the function is an error.
+
+</div>
+<!-- END: div -->
+
+### 9.3.2 Array Arguments
+
+<span class="QandA"></span>
+
+Arrays are often used as arguments. When a function parameter is a one-dimensional array, the length of the array can be (and is normally) left unspecified:
+
+```C
+int f(int a[]) /* no length specified */
+{
+    ...
+}
+```
+
+The argument can be any one-dimensional array whose elements are of the proper type. There’s just one problem: how will `f` know how long the array is? Unfortunately, C doesn’t provide any easy way for a function to determine the length of an array passed to it. Instead, we'll have to supply the length—if the function needs it—as an additional argument.
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Although we can use the `sizeof` operator to help determine the length of an array variable, it doesn’t give the correct answer for an array parameter:
+
+```C
+int f(int a[])
+{
+    int len = sizeof(a) / sizeof(a[0]);
+    /*** WRONG: not the number of elements in a ***/
+    ...
+}
+```
+
+Section 12.3 explains why.
+
+</div>
+<!-- END: div -->
+
+The following function illustrates the use of one-dimensional array arguments. When given an array `a` of `int` values, `sum_array` returns the sum of the elements in `a`. Since `sum_array` needs to know the length of `a`, we must supply it as a second argument.
+
+```C
+int sum_array(int a[], int n)
+{
+    int i, sum = 0;
+
+    for (i = 0; i < n; i++)
+        sum += a[i];
+
+    return sum;
+}
+```
+
+The prototype for `sum_array` has the following appearance:
+
+```C
+int sum_array(int a[], int n);
+```
+
+As usual, we can omit the parameter names if we wish:
+
+```C
+int sum_array(int [], int);
+```
+
+When `sum_array` is called, the first argument will be the name of an array, and the second will be its length. For example:
+
+```C
+#define LEN 100
+
+int main(void)
+{
+    int b[LEN], total;
+    ...
+    total = sum_array(b, LEN);
+    ...
+}
+```
+
+Notice that we don’t put brackets after an array name when passing it to a function:
+
+```C
+total = sum_array(b[], LEN); /*** WRONG ***/
+```
+
+An important point about array arguments: A function has no way to check that we've passed it the correct array length. We can exploit this fact by telling the function that the array is smaller than it really is. Suppose that we’ve only stored 50 numbers in the `b` array, even though it can hold 100. We can sum just the first 50 elements by writing
+
+```C
+total = sum_array(b, 50); /* sums first 50 elements */
+```
+
+`sum_array` will ignore the other 50 elements. (Indeed, it won’t know that they even exist!)
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Be careful not to tell a function that an array argument is larger than it really is:
+
+```C
+total = sum_array(b, 150); /*** WRONG ***/
+```
+
+In this example, `sum_array` will go past the end of the array, causing undefined behavior.
+
+</div>
+<!-- END: div -->
+
+Another important thing to know is that a function is allowed to change the elements of an array parameter, and the change is reflected in the corresponding argument. For example, the following function modifies an array by storing zero into each of its elements:
+
+```C
+void store_zeros(int a[], int n)
+{
+    int i;
+
+    for (i = 0; i < n; i++)
+        a[i] = 0;
+}
+```
+
+The call
+
+```C
+store_zeros (b, 100);
+```
+
+will store zero into the first 100 elements of the array `b`. This ability to modify the elements of an array argument may seem to contradict the fact that C passes arguments by value. In fact, there's no contradiction, but I won’t be able to explain why until Section 12.3.
+
+<span class="QandA"></span>
+
+If a parameter is a multidimensional array. only the length of the first dimen-
+sion may be omitted when the parameter is declared. For example, if we revise the
+sum_array function so that a is a two-dimensional array, we must specify the
+number of columns in a, although we don’t have to indicate the number of rows:
+
+```C
+#define LEN 10
+
+int sum_two_dimensional_array(int a[] [LEN], int n)
+{
+    int i, j, sum = 0;
+    for (i = 0; i < m; i++)
+        for (j = 0; j < LEN; j++)
+            sum += a[i][j];
+
+    return sum;
+}
+```
+
+Not being able to pass multidimensional arrays with an arbitrary number of columns can be a nuisance. Fortunately, we can often work around this difficulty by using arrays of pointers. C99’s variable-length array parameters provide an even better solution to the problem,
+
+<span class="C99Symbol"></span>
+
+### 9.3.3 Variable-Length Array Parameters
+
+C99 adds several new twists to array arguments. The first has to do with variable length arrays (VLAs), a feature of C99 that allows the length of an array to be specified using a non-constant expression. Variable-length arrays can also be parameters, as it turns out.
+
+Consider the `sum_array` function discussed earlier in this section. Here’s the definition of `sum_array`, with the body omitted:
+
+```C
+int sum_array(int a[], int n)
+{
+    ...
+}
+```
+
+As it stands now, there's no direct link between `n` and the length of the array `a`. Although the function body treats `n` as `a`’s length, the actual length of the array could in fact be larger than `n` (or smaller, in which case the function won't work correctly).
+
+Using a variable-length array parameter, we can explicitly state that `a`’s length is `n`:
+
+```C
+int sum_array(int n, int a[n])
+{
+    ...
+}
+```
+
+The value of the first parameter (`n`) specifies the length of the second parameter (`a`). Note that the order of the parameters has been switched; order is important when variable length array parameters are used.
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+The following version of `sum_array` is illegal:
+
+```C
+int sum_array(int a[n], int n)  /*** WRONG ***/
+{
+    ...
+}
+```
+
+The compiler will issue an error message at `int a[n]`, because it hasn't yet seen `n`.
+
+</div>
+<!-- END: div -->
+
+There are several ways to write the prototype for our new version of `sum_array`. One possibility is to make it look exactly like the function definition:
+
+```C
+int sum_array(int n, int a[n]); /* Version 1 */
+```
+
+Another possibility is to replace the array length by an asterisk (`*`):
+
+```C
+int sum_array(int n, int a[*]); /* Version 2a */
+```
+
+The reason for using the `*` notation is that parameter names are optional in function declarations. If the name of the first parameter is omitted, it wouldn’t be possible to specify that the length of the array is `n`, but the `*` provides a clue that the length of the array is related to parameters that come earlier in the list:
+
+```C
+int sum_array(int, int [*]); /* Version 2b */
+```
+
+It’s also legal to leave the brackets empty, as we normally do when declaring an array parameter:
+
+```C
+int sum_array(int n, int a[]); /* Version 3a */
+int sum_array(int, int[]); /* Version 3b */
+```
+
+Leaving the brackets empty isn't a good choice, because it doesn’t expose the relationship between `n` and `a`.
+
+In general, the length of a variable-length array parameter can be any expression. For example, suppose that we were to write a tunction that concatenates two arrays `a` and `b` by copying the elements of `a`, followed by the elements of `b`, into `a` third array named `c`:
+
+```C
+int concatenate (int m, int n, int a[m], int b[n], int c[m+n])
+{
+    ...
+}
+```
+
+The length of `c` is the sum of the lengths of `a` and `b`. The expression used to specify the length of `c` involves two other parameters, but in general it could refer to variables outside the function or even call other functions.
+
+Variable length array parameters with a single dimension—as in all our examples so far—have limited usefulness. They make a function declaration or definition more descriptive by stating the desired length of an array argument. However, no additional error-checking is performed: it's still possible for an array argument to be too long or too short.
+
+It turns out that variable-length array parameters are most useful for multidimensional arrays. Earlier in this section, we tried to write a function that sums the elements in a two-dimensional array. Our original function was limited to arrays with a fixed number of columns. If we use a variable-length array parameter, we can generalize the function to any number of columns:
+
+```C
+int sum_two_dimensional_array(int n, int m, int a[n][m])
+{
+    int i, j, sum = 0;
+
+    for (i = 0; i < n; i++)
+        for (j = 0; j < m; j++)
+            sum += a[i][j];
+
+    return sum;
+}
+```
+
+Prototypes for this function include the following:
+
+```C
+int sum_two_dimensional_array(int n, int m, int a[n][m]);
+int sum_two_dimensional_array(int n, int m, int a[*][*]);
+int sum_two_dimensional_array(int n, int m, int a[][m]);
+int sum_two_dimensional_array(int n, int m, int a[][*]);
+```
+
+<span class="C99Symbol"></span>
+
+### 9.3.4 Using static in Array Parameter Declarations
+
+C99 allows the use of the keyword `static` in the declaration of array parameters. (The keyword itself existed before C99. Section 18.2 discusses its traditional uses.)
+
+In the following example, putting `static` in front of the number 3 indicates that the length of `a` is guaranteed to be at least 3:
+
+```C
+int sum_array(int a[static 3], int n)
+{
+    ...
+}
+```
+
+Using `static` in this way has no effect on the behavior of the program. The presence of `static` is merely a “hint” that may allow a C compiler to generate faster instructions for accessing the array. (If the compiler knows that an array will always have a certain minimum length, it can arrange to “prefetch” these elements from memory when the function is called, before the elements are actually needed by statements within the function.)
+
+One last note about `static`: If an array parameter has more than one dimension, `static` can be used only in the first dimension (for example, when specifying the number of rows in a two-dimensional array).
+
+<span class="C99Symbol"></span>
+
+### 9.3.5 Compound Literals
+
+Let’s return to the original `sum_array` function one last time. When `sum_array` is called, the first argument is usually the name of an array (the one whose elements are to be summed). For example, we might call `sum_array` in the following way:
+
+```C
+int b[] = {3, 0, 3, 4, 1};
+total = sum_array(b, 5);
+```
+
+The only problem with this arrangement is that `b` must be declared as a variable and then initialized prior to the call. If `b` isn’t needed for any other purpose, it can be mildly annoying to create it solely for the purpose of calling `sum_array`.
+
+In C99, we can avoid this annoyance by using a ***compound literal***: an unnamed array that's created “on the fly” by simply specifying which elements it contains. The following call of `sum_array` has a compound literal (shown in bold) as its first argument:
+
+```C
+total = sum_array((int []){3, 0, 3, 4, 1}, 5);
+```
+
+In this example, the compound literal creates an array containing the five integers 3, 0, 3, 4, and 1. We didn’t specify the length of the array, so it’s determined by the number of elements in the literal. We also have the option of specifying a length explicitly: `(int [4]) {1, 9, 2, 1}` is equivalent to `(int []) {1, 9, 2, 1}`.
+
+In general, a compound literal consists of a type name within parentheses, followed by a set of values enclosed by braces. A compound literal resembles a cast applied to an initializer, In fact, compound literals and initializers obey the same rules. A compound literal may contain designators, just like a designated initializer, and it may fail to provide full initialization (in which case any uninitialized elements default to zero). For example, the literal `(int [10]) {8, 6}` has 10 elements; the first two have the values 8 and 6, and the remaining elements have the value 0.
+
+Compound literals created inside a function may contain arbitrary expressions, not just constants, For example, we could write
+
+```C
+total = sum array((int []){2 * i, i + j, j * k}, 3);
+```
+
+where `i`, `j`, and `k` are variables. This aspect of compound literals greatly enhances their usefulness.
+
+A compound literal is an lvalue, so the values of its elements can be changed. If desired, a compound literal can be made “read-only" by adding the word `const` to its type, as in `(const int []) {5, 4}`.
+
+## 9.4 The `return` statement
+
+A non-`void` function must use the `return` statement to specify what value it will return. The `return` statement has the form
+
+```C
+return expression ;
+```
+
+The expression is often just a constant or variable:
+
+```C
+return 0;
+return status;
+```
+
+More complex expressions are possible. For example, it’s not unusual to see the conditional operator used in a return expression:
+
+```C
+return n >= 0 ? n : 0;
+```
+
+When this statement is executed, the expression `n >= 0 ? n : 0` is evaluated first. The statement returns the value of `n` if it’s not negative; otherwise, it returns 0.
+
+If the type of the expression in a `return` statement doesn’t match the function’s return type, the expression will be implicitly converted to the return type. For example, if a function is declared to return an `int`, but the `return` statement contains a `double` expression, the value of the expression is converted to `int`.
+
+`return` statlements may appear in functions whose return type is `void`, provided that no expression is given:
+
+```C
+return; /* return in a void function */
+```
+
+<span class="QandA"></span>
+
+Putting an expression in such a `return` statement will get you a compile-time error. In the following example, the `return` statement causes the function to return immediately when given a negative argument:
+
+```C
+void print_int(int i)
+{
+    if (i < 0)
+        return;
+    printf("%d", i);
+}
+```
+
+If `i` is less than 0, `print_int` will return without calling `printf`. 
+
+A `return` statement may appear at the end of a `void` function:
+
+```C
+void print_pun(void)
+{
+    printf("To c, or not to C: that is the guestion.\n");
+    return; /* OK, but not needed */
+}
+```
+
+Using `return` is unnecessary, though, since the function will return automatically after its last statement has been executed.
+
+If a non-`void` function reaches the end of its body—that is, it fails to execute a `return` statement—the behavior of the program is undefined if it attempts to use the value returned by the function. Some compilers will issue a warning such as “*control reaches end of non-void function*” if they detect the possibility of a non-void function “falling off” the end of its body.
+
+## 9.5 Program Termination
+
+Since `main` is a function, it must have a return type. Normally, the return type of `main` is `int`, which is why the programs we’ve seen so far have defined main in the following way:
+
+```C
+int main(void)
+{
+    ...
+}
+```
+
+Older C programs often omit `main`’s return type, taking advantage of the fact that it traditionally defaults to `int`:
+
+```C
+main ()
+{
+    ...
+}
+```
+
+<span class="C99Symbol"></span>
+
+Omitting the return type of a function isn't legal in C99, so it’s best to avoid this practice. Omitting the word `void` in main’s parameter list remains legal, but—as a matter of style—it’s best to be explicit about the fact that `main` has no parameters. (We'll see later that `main` sometimes does have two parameters, usually named `argc` and `argv`.)
+
+<span class="QandA"></span>
+
+The value returned by `main` is a status code that—in some operating systems—can be tested when the program terminates, `main` should return 0 if the program terminates normally; to indicate abnormal termination, `main` should return a value other than 0. (Actually, there’s no rule to prevent us from using the return value for other purposes.) It's good practice to make sure that every C program returns a status code, even if there are no plans to use it, since someone running the program later may decide to test it.
+
+### 9.5.1 The `exit` Function
+
+Executing a `return` statement in `main` is one way to terminate a program. Another is calling the `exit` function, which belongs to `<stdlib.h>`, The argument passed to `exit` has the same meaning as `main`’s return value: both indicate the program’s status at termination. To indicate normal termination, we'd pass 0:
+
+```C
+exit(0); /* normal termination */
+```
+
+Since 0 is a bit cryptic, C allows us to pass `EXIT_SUCCESS` instead (the effect is the same):
+
+```C
+exit(EXIT_SUCCESS) ; /* normal termination */
+```
+
+Passing `EXIT_FATLURE` indicates abnormal termination:
+
+```C
+exit(EXIT_FAILURE) ; /* abnormal termination */
+```
+
+`EXIT_SUCCESS` and `EXIT_FAILURE` are macros defined in `<stdlib.h>`. The values of `EXIT_SUCCESS` and `EXIT_FAILURE` are implementation defined: typical values are 0 and 1, respectively.
+
+As methods of terminating a program, `return` and `exit` are closely related. In fact, the statement
+
+```C
+return expression;
+```
+
+in `main` is equivalent to
+
+```C
+exit (expression) ;
+```
+
+The difference between `return` and `exit` is that `exit` causes program termination regardless of which function calls it. The `return` statement causes program termination only when it appears in the `main` function. Some programmers use `exit` exclusively to make it easier to locate all exit points in a program.
+
+## 9.6 Recursion
+
+A function is ***recursive*** if it calls itself. For example, the following function computes `n!` recursively, using the formula `n! = n x (n—1)!`:
+
+```C
+int fact(int n)
+{
+    if(n <= 1)
+        return 1;
+    else
+        return n * fact(n - 1);
+}
+```
+
+Some programming languages rely heavily on recursion, while others don’t even allow it. C falls somewhere in the middle: it allows recursion, but most C programmers don’t use it that often.
+
+To see how recursion works, let’s trace the execution of the statement
+
+```C
+i = fact(3);
+```
+
+Here’s what happens:
+
+`fact (3)` finds that 3 is not less than or equal to 1, so it calls  
+--> `fact (2)`, which finds that 2 is not less than or equal to 1, so it calls  
+----> `fact (1)`, which finds that 1 is less than or equal to 1, so it returns 1, causing  
+--> `fact (2)` to return `2 x 1 = 2`, causing  
+`fact (3)` to return `3 x 2 = 6`.  
+
+Notice how the unfinished calls of `fact` “pile up" until `fact` is finally passed 1. At that point, the old calls of `fact` begin to “unwind” one by one, until the original call—`fact (3)` —finally returns with the answer, 6.
+
+Here’s another example of recursion: a function that computes <span class="displayInlineMath">$$ x^n $$</span>, using the formula <span class="displayInlineMath">$$ x^n = x \times x^{n-1} $$</span>.
+
+```C
+int power(int x, int n)
+{
+    if (n == 0)
+        return 1;
+    else
+        return x * power(x, n - 1);
+}
+```
+
+The call `power (5, 3)` would be executed as follows:
+
+`power (5, 3)` finds that 3 is not equal to 0, so it calls  
+--> `power (5, 2)`, which finds that 2 is not equal to 0, so it calls  
+----> `power (5, 1)`, which finds that 1 is not equal to 0, so it calls  
+------> `power (5, 0)`, which finds that 0 is equal to 0, so it returns 1, causing  
+----> `power (5, 1)` to return 5 X 1 = 5, causing  
+--> `power (5, 2)` to return 5 x 5 = 25, causing  
+`power (5, 3)` to return 5 x 25 = 125.  
+
+Incidentally, we can condense the `power` function a bit by putting a conditional expression in the `return` statement:
+
+```C
+int power (int x, int n)
+{
+    return n == 0 ? 1 : x * power(x, m - 1);
+}
+```
+
+Both `fact` and `power` are careful to test a “termination condition" as soon as they’re called. When `fact` is called, it immediately checks whether its parameter is less than or equal to 1. When `power` is called, it first checks whether its second parameter is equal to 0. All recursive functions need some kind of termination condition in order to prevent infinite recursion.
+
+### 9.6.1 The Quicksort Algorithm
+
+At this point, you may wonder why we're bothering with recursion; after all, neither `fact` nor `power` really needs it. Well, you've got a point. Neither function makes much of a case for recursion, because each calls itself just once. Recursion is much more helpful for sophisticated algorithms that require a function to call itself two or more times.
+
+In practice, recursion often arises naturally as a result of an algorithm design technique known as ***divide-and-conquer***, in which a large problem is divided into smaller pieces that are then tackled by the same algorithm. A classic example of the divide-and-conquer strategy can be found in the popular sorting algorithm known as ***Quicksort***. The Quicksort algorithm goes as follows (for simplicity, we’ll assume that the array being sorted is indexed from 1 to `n`):
+
+1. Choose an array element `e` (the “partitioning element"), then rearrange the array so that elements `1. ..., i — 1` are less than or equal to `e`, element `i` contains `e`, and elements `i + 1, ..., n` are greater than or equal to `e`.  
+2. Sort elements `1, ..., i — 1` by using Quicksort recursively.  
+3. Sort elements `i + 1, ..., n` by using Quicksort recursively.  
+
+After step 1, the element `e` is in its proper location. Since the elements to the left of `e` are all less than or equal to it, they’ll be in their proper places once they’ve been sorted in step 2; similar reasoning applies to the elements to the right of `e`.
+
+Step 1 of the Quicksort algorithm is obviously critical. There are various methods to partition an array, some much better than others. We'll use a technique that’s easy to understand but not particularly efficient. I'll first describe the partitioning algorithm informally; later, we’ll translate it into C code.
+
+The algorithm relies on two “markers" named *low* and *high*, which keep track of positions within the array. Initially, *low* points to the first element of the array and *high* points to the last element. We start by copying the first element (the partitioning element) into a temporary location elsewhere, leaving a “hole” in the array. Next, we move *high* across the array from right to left until it points to an element that’s smaller than the partitioning element. We then copy the element into the hole that *low* points to, which creates a new hole (pointed to by *high*). We now move *low* from left to right, looking for an element that’s larger than the partitioning element. When we find one. we copy it into the hole that *high* points to. The process repeats, with *low* and *high* taking turns, until they meet somewhere in the middle of the array. At that time, both will point to a hole; all we need do is copy the partitioning element into the hole. The following diagrams illustrate how Quicksort would sort an array of integers:
+
+|||
+|---|---|
+|Let’s start with an array containing seven elements. *low* points to the first element; *high* points to the last one.|![](./images/Ch09_quickSort_1.jpg)|
+|The first element, 12, is the partitioning element. Copying it somewhere else leaves a hole at the beginning of the array.|![](./images/Ch09_quickSort_2.jpg)|
+|We now compare the element pointed to by *high* with 12. Since 10 is smaller than 12, it’s on the wrong side of the array, so we move it to the hole and shift *low* to the right.|![](./images/Ch09_quickSort_3.jpg)|
+|*low* points to the number 3, which is less than 12 and therefore doesn’t need to be moved. We shift *low* to the right instead.|![](./images/Ch09_quickSort_4.jpg)|
+|Since 6 is also less than 12, we shift *low* again.|![](./images/Ch09_quickSort_5.jpg)|
+|*low* now points 1o 18, which is larger than 12 and therefore out of position. After moving 18 to the hole, we shift *high* to the left.|![](./images/Ch09_quickSort_6.jpg)|
+|high points to 15, which is greater than 12 and thus doesn't need to be moved. We shift *high* to the left and continue.|![](./images/Ch09_quickSort_7.jpg)|
+|*high* points to 7, which is out of position. After moving 7 to the hole, we shift *low* to the right.|![](./images/Ch09_quickSort_8.jpg)|
+|*low* and *high* are now equal, so we move the partitioning element to the hole.|![](./images/Ch09_quickSort_9.jpg)|
+
+At this point, we've accomplished our objective: all elements to the left of the partitioning element are less than or equal to 12, and all elements to the right are greater than or equal to 12. Now that the array has been partitioned. we can use Quicksort recursively to sort the first four elements of the array (10, 3, 6. and 7) and the last two (15 and 18).
+
+### 9.6.2 (PROGRAM) Quicksort
+
+Let’s develop a recursive function named `quicksort` that uses the Quicksort algorithm to sort an array of integers. To test the function, we'll have `main` read 10 numbers into an array, call `guicksort` to sort the array, then print the elements in the array:
+
+```shell
+Enter 10 numbers to be sorted: 9 16 47 82 4 66 12 3 25 51
+In sorted order: 3 4 9 12 16 25 47 51 66 82
+```
+
+Since the code for partitioning the array is a bit lengthy, I'll put it in a separate function named `split`.
+
+```C
+/**
+ * file: prime.c
+ * Author: K. N. King
+ * Purpose: sorts an array of integers using Quicksort algorithm
+ */
+
+#include <stdio.h>
+#define N 10
+
+void quicksort(int a[], int low, int high);
+int split(int a[], int low, int high);
+
+int main(void)
+{
+    int a[N], i;
+    printf("Enter %d numbers to be sorted: ", N);
+
+    for (i = 0; i < N; i++)
+        scanf("%d", &a[i]);
+
+    quicksort(a, 0, N - 1);
+
+    printf("In sorted order: ");
+    for(i = 0; i < N; i++)
+        printf("%d ", a[i]);
+    printf("\n") ;
+
+    return 0;
+}    // FUNCTION END: main
+
+void quicksort(int a[], int low, int high)
+{
+    int middle;
+    if(low >= high) return;
+    middle = split(a, low, high);
+    quicksort(a, low, middle - 1);
+    quicksort(a, middle + 1, high) ;
+}    // FUNCTION END: quicksort
+
+int split(int a[], int low, int high)
+{
+    int part_element = a[low];
+
+    for(;;)
+    {
+        while(low < high && part_element <= a[high] )
+        high--;
+        if(low >= high) break;
+        a[low++] = a[high];
+
+        while(low < high && a[low] <= part_element)
+            low++;
+
+        if(low >= high) break;
+        a[high--] = a[low];
+    }
+
+    a[high] = part_element;
+    return high;
+}
+```
+
+Although this version of Quicksort works, it’s not the best. There are numerous ways to improve the program’s performance, including:
+
+- ***Improving the partitioning algorithm***. Our method isn't the most efficient. Instead of choosing the first element in the array as the partitioning element, it's better to take the median of the first element, the middle element, and the last element. The partitioning process itself can also be sped up. In particular, it’s possible to avoid the `low < high` tests in the two `while` loops.  
+- ***Using a different method to sort small arrays***. Instead of using Quicksort recursively all the way down to arrays with one element, it’s better to use a simpler method for small arrays (those with fewer than, say, 25 elements).  
+- ***Making Quicksort nonrecursive***. Although Quicksort is a recursive algorithm by nature—and is easiest to understand in recursive form—it's actually more efficient if the recursion is removed.
+
+For details about improving Quicksort, consult a book on algorithm design, such as **Robert Sedgewick**’s *Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching*, Third Edition (Boston, Mass.: Addison-Wesley, 1998).  
+
+---
+
+## Q&A
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Some C books appear to use terms other than *parameter* and *argument*. Is there any standard terminology?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: As with many other aspects of C, there’s no general agreement on terminology, although the C89 and C99 standards use *parameter* and *argument*. The following table should help you translate:
+
+|This book:|Other books:|
+|---|---|
+|parameter|formal argument, formal parameter|
+|argument|actual argument, actual parameter|
+
+Keep in mind that—when no confusion would result—I sometimes deliberately blur the distinction between the two terms, using *argument* to mean either.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: I’ve seen programs in which parameter types are specified in separate declarations after the parameter list, as in the following example:
+
+```C
+double average(a, b)
+double a, b;
+{
+    return (a + b) / 2;
+}
+```
+
+Is this practice legal?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: This method of defining functions comes from K&R C, so you may encounter it in older books and programs. C89 and C99 support this style so that older programs will still compile. I'd avoid using it in new programs, however. for a couple of reasons.
+
+First, functions that are defined in the older way aren’t subject to the same degree of error-checking. When a function is defined in the older way—and no prototype is present—the compiler won't check that the function is called with the right number of arguments, nor will it check that the arguments have the proper types. Instead, it will perform the default argument promotions.
+
+Second, the C standard says that the older style is “obsolescent,” meaning that its use is discouraged and that it may be dropped from C eventually.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Some programming languages allow procedures and functions to be nested within each other. Does C allow function definitions to be nested?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: No. C does not permit the definition of one function to appear in the body of another. Among other things, this restriction simplifics the compiler.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Why does the compiler allow the use of function names that aren’t followed by parentheses?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: We'll see in a later chapter that the compiler treats a function name not followed by parentheses as a pointer to the function. Pointers to functions have legitimate uses, so the compiler can't automatically assume that a function name without parentheses is an error. The statement
+
+```C
+print_pun;
+```
+
+is legal because the compiler treats `print_pun` as a pointer and therefore an expression, making this a valid (although pointless) expression statement.
+
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: In the function call `f(a, b)`, how does the compiler know whether the comma is punctuation or whether it’s an operator?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: It turns out that the arguments in a function call can’t be arbitrary expressions. Instead, they must be “assignment expressions,” which can’t contain commas used as operators unless they're enclosed in parentheses. In other words, in the call `f(a, b)` the comma is punctuation; in the call `f((a, b))` it's an operator.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Do the names of parameters in a function prototype have to match the names given later in the function’s definition?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: No. Some programmers take advantage of this fact by giving long names to parameters in the prototype, then using shorter names in the actual definition. Or a French-speaking programmer might use English names in prototypes, then switch to more familiar French names in function definitions.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: I still don’t understand why we bother with function prototypes. If we just put definitions of all the functions before `main`, we're covered, right?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Wrong. First, you're assuming that only main calls the other functions, which is unrealistic. In practice, some of the functions will call each other. If we put all function definitions above `main`, we'll have to watch their order carefully. Calling a function that hasn’t been defined yet can lead to big problems.
+
+But that’s not all. Suppose that two functions call each other (which isn’t as far-fetched as it may sound). No matter which function we define first, it will end up calling a function that hasn't been defined yet.
+
+But there’s still more! Once programs reach a certain size, it won’t be feasible to put all the functions in one file anymore. When we reach that point, we'll need prototypes to tell the compiler about functions in other files.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: I’ve seen function declarations that omit all information about parameters:
+
+```C
+double average() ;
+```
+
+Is this practice legal?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Yes. This declaration informs the compiler that average returns a `double` value but provides no information about the number and types of its parameters. (Leaving the parentheses empty doesn’t necessarily mean that average has no parameters.)
+
+In K&R C, this form of function declaration is the only one allowed; the form that we've been using—the function prototype, in which parameter information is included—was introduced in C89. The older kind of function declaration is now obsolescent, although still allowed.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Why would a programmer deliberately omit parameter names in a function prototype? Isn’t it easier to just leave the names?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Omitting parameter names in prototypes is typically done for defensive purposes. If a macro happens to have the same name as a parameter, the parameter name will be replaced during preprocessing, thereby damaging the prototype in which it appears. This isn’t likely to be a problem in a small program written by one person but can occur in large applications written by many people.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Is it legal to put a function declaration inside the body of another function?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Yes. Here’s an example:
+
+```C
+int main(void)
+{
+    double average (double a, double b);
+    ...
+}
+```
+
+This declaration of `average` is valid only for the body of `main`; if other functions need to call `average`, they’ll each have to declare it.
+
+The advantage of this practice is that it’s clearer to the reader which functions call which other functions. (In this example, we see that `main` will be calling `average`.) On the other hand, it can be a nuisance if several functions need to call the same function. Even worse, trying to add and remove declarations during program maintenance can be a real pain. For these reasons, I'll always put function declarations outside function bodies.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: If several functions have the same return type, can their declarations be combined? For example, since both `print_pun` and `print_count` have `void` as their return type, is the following declaration legal?
+
+```C
+void print_pun(void), print_count (int n);
+```
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Yes. In fact, C even allows us to combine function declarations with variable declarations:
+
+```C
+double x, y, average(double a, double b);
+```
+
+Combining declarations in this way usually isn’t a good idea, though: it can easily cause confusion.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: What happens if I specify a length for a one-dimensional array parameter?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: The compiler ignores it. Consider the following example:
+
+```C
+double inner_product(double v[3], double w[3]);
+```
+
+Other than documenting that inner product’s arguments are supposed to be arrays of length 3, specifying a length doesn’t buy us much. The compiler won’t check that the arguments actually have length 3, so there’s no added security. In fact, the practice is misleading in that it suggests that inner product can only be passed arrays of length 3. when in fact we can pass arrays of arbitrary length.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Why can the first dimension in an array parameter be left unspecified, but not the other dimensions?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: First, we need to discuss how arrays are passed in C. As Section 12.3 explains, when an array is passed to a function, the function is given a pointer to the first element in the array.
+
+Next, we need to know how the subscripting operator works. Suppose that `a` is a one-dimensional array passed to a function. When we write
+
+```C
+a[i] = 0;
+```
+
+the compiler generates instructions that compute the address of `a[i]` by multiplying 1 by the size of an array element and adding the result to the address that represents (the pointer passed to the function). This calculation doesn’t depend on the length of `a`, which explains why we can omit it when defining the function.
+
+What about multidimensional arrays? Recall that C stores arrays in row-major order, with the elements in row 0 stored first, then the elements in row 1, and so forth. Suppose that `a` is a two-dimensional array parameter and we write
+
+```C
+a[i][j] = 0;
+```
+
+The compiler generates instructions to do the following: (1) multiply `i` by the size of a single row of `a`: (2) add this result to the address that `a` represents; (3) multiply `j` by the size of an array element; and (4) add this result to the address computed in step 2. To generate these instructions, the compiler must know the size of a row in the array, which is determined by the number of columns. The bottom line: the programmer must declare the number of columns in `a`.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Why do some programmers put parentheses around the expression in a `return` statement?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: The examples in the first edition of Kernighan and Ritchie’s *The C Programming Language* always have parentheses in `return` statements, even though they aren’t required. Programmers (and authors of subsequent books) picked up the habit from K&R. I don't use these parentheses, since they’re unnecessary and contribute nothing to readability. (Kernighan and Ritchie apparently agree: the return statements in the second edition of *The C Programming Language* lack parentheses.)
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: What happens if a non-`void` function attempts to execute a return statement that has no expression?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: <span class="C99Symbol"></span>
+
+That depends on the version of C. In C89, executing a `return` statement without an expression in a non-`void` function causes undefined behavior (but only if the program attempts to use the value returned by the function). In C99, such a statement is illegal and should be detected as an error by the compiler.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: How can I test `main`’s return value to see if a program has terminated normally?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: That depends on your operating system. Many operating systems allow this value to be tested within a “batch file" or “shell script” that contains commands to run several programs. For example, the line
+
+```C
+if errorlevel 1 command
+```
+
+in a Windows batch file will execute *command* if the last program terminated with a status code greater than or equal to 1.
+
+In UNIX, each shell has its own method for testing the status code. In the Bourne shell, the variable `$?` contains the status of the last program run. The C shell has a similar variable, but its name is `$status`.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Why does my compiler produce a “*control reaches end of non-`void` function*”
+warning when it compiles `main`?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: The compiler has noticed that `main`, despite having `int` as its return type, doesn’t have a `return` statement. Putting the statement
+
+```C
+return 0;
+```
+
+at the end of `main` will keep the compiler happy. Incidentally, this is good practice even if your compiler doesn’t object to the lack of a `return` statement.
+
+<span class="C99Symbol"></span>
+
+When a program is compiled using a C99 compiler, this warning shouldn’t occur. In C99, it’s OK to “fall off” the end of `main` without returning a value: the standard states that `main` automatically returns 0 in this situation.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: With regard to the previous question: Why not just define `main`’s return type to be `void`?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Although this practice is fairly common, it’s illegal according to the C89 standard. Even if it weren't illegal, it wouldn’t be a good idea, since it presumes that no one will ever test the program’s status upon termination.
+
+<span class="C99Symbol"></span>
+
+C99 opens the door to legalizing this practice, by allowing `main` to be declared “in some other implementation-defined manner” (with a return type other than `int` or parameters other than those specified by the standard). However, any such usage isn’t portable, so it’s best to declare `main`'s return type to be `int`.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+Q: Is it legal for a function `f1` to call a function `f2`, which then calls `f1`?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+A: Yes. This is just an indirect form of recursion in which one call of `f1` leads to another. (But make sure that either `f1` or `f2` eventually terminates!)
+
+</div>
+<!-- END: div -->
 
 ---
 
