@@ -6386,11 +6386,11 @@ to test a series of conditions:
 
 #if expri
 
-Lines 10 be included if exprl is nonzero
+Lines 10 be included if expr1 is nonzero
 
 #elif expr2
 
-Lines to be included if exprl is zero but expr2 is nonzero
+Lines to be included if expr1 is zero but expr2 is nonzero
 #else
 
 Lines to be included otherwise

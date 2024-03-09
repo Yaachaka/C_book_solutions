@@ -286,6 +286,8 @@ tr:nth-child(even) { /* Alternating row background */
     border-style: ridge;
     border-color: #000;
     background: rgb(208, 225, 225);
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .warningEmoji::before
