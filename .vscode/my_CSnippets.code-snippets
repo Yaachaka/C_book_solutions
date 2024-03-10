@@ -20,15 +20,26 @@
 		"scope": "c, C",
 		"prefix": ["..fn.main", "main"],
 		"body": [
-			"int main(void)",
+			"/**",
+			" * Function name: main",
+			" * Return type: int",
+			" * Return value description: ",
+			" * Parameters: $1",
+			" * Param1 descr.: ",
+			" * Param2 descr.: ",
+			" * Param3 descr.: ",
+			" * Function description: $2",
+			" */",
+			"int main(${1:void})",
 			"{",
-			"\t$1",
+			"\t$3",
 			"\t",
 			"\tprintf(\"\\n\");",
 			"\treturn 0;",
 			"}\t//FUNCTION END: main"
 		],
-		"description": "Main function template"
+		"description": "Main function template",
+		
 	},
 
 	"file top": {
@@ -102,10 +113,10 @@
 		"scope": "c, C",
 		"prefix": ["if", "..if"],
 		"body": [
-			"if($1)",
+			"if($2)",
 			"{",
-			"\t$2",
-			"}\t// if condition: ",
+			"\t$3",
+			"}\t// if condition: $1",
 		],
 		"description": ["C: if statement"]
 	},
@@ -115,14 +126,14 @@
 		"scope": "c, C",
 		"prefix": ["else", "..else", "ifelse", "..ifelse"],
 		"body": [
-			"if($1)",
-			"{",
-			"\t$2",
-			"}\t// if condition: ",
-			"else",
+			"if($2)",
 			"{",
 			"\t$3",
-			"}\t// else condition: ",
+			"}\t// if condition: $1",
+			"else",
+			"{",
+			"\t$5",
+			"}\t// else condition: $4",
 			
 		],
 		"description": ["C: if-else statement"]
@@ -133,18 +144,18 @@
 		"scope": "c, C",
 		"prefix": ["elseif", "..elseif"],
 		"body": [
-			"if($1)",
-			"{",
-			"\t$2",
-			"}\t// if condition: ",
-			"else if",
+			"if($2)",
 			"{",
 			"\t$3",
-			"}\t// else-if condition: ",
+			"}\t// if condition: $1",
+			"else if($5)",
+			"{",
+			"\t$6",
+			"}\t// else-if condition: $4",
 			"else",
 			"{",
-			"\t${4:/* Do Nothing */}",
-			"}\t// else condition: ",
+			"\t${8:/* Do Nothing */}",
+			"}\t// else condition: $7",
 			
 		],
 		"description": ["C: else-if statement"]
@@ -155,19 +166,19 @@
 		"scope": "c, C",
 		"prefix": ["switch", "..switch"],
 		"body": [
-			"switch($1)",
+			"switch($2)",
 			"{",
-			"\tcase $2:",
-			"\t\t$3",
+			"\tcase $3:",
+			"\t\t$4",
 			"\t\tbreak;",
-			"\tcase $4:",
-			"\t\t$5",
-			"\t\tbreak;",
-			"\tdefault:",
+			"\tcase $5:",
 			"\t\t$6",
 			"\t\tbreak;",
+			"\tdefault:",
+			"\t\t$7",
+			"\t\tbreak;",
 			"\t",
-			"}\t// switch statement: ",
+			"}\t// switch statement: $1",
 			
 		],
 		"description": ["C: switch statement"]
@@ -189,10 +200,10 @@
 		"scope": "c, C",
 		"prefix": ["while", "..while"],
 		"body": [
-			"while($1)",
+			"while($2)",
 			"{",
-			"\t$2",
-			"}\t// while statement: $3",
+			"\t$3",
+			"}\t// while statement: $1",
 			
 		],
 		"description": ["C: while statement"]
@@ -203,10 +214,10 @@
 		"scope": "c, C",
 		"prefix": ["do-while", "..do-while", "do", "..do"],
 		"body": [
-			"do($1)",
+			"do",
 			"{",
-			"\t$2",
-			"}while($3);\t// do-while statement: $4",
+			"\t$3",
+			"}while($2);\t// do-while statement: $1",
 			
 		],
 		"description": ["C: do-while statement"]
@@ -217,10 +228,10 @@
 		"scope": "c, C",
 		"prefix": ["for", "..for"],
 		"body": [
-			"for($1; $2; $3)",
+			"for($2; $3; $4)",
 			"{",
-			"\t$4",
-			"}\t// for statement: $4",
+			"\t$5",
+			"}\t// for statement: $1",
 			
 		],
 		"description": ["C: for statement"]
@@ -239,12 +250,12 @@
 			" * Param1 descr.: ",
 			" * Param2 descr.: ",
 			" * Param3 descr.: ",
-			" * Function description: ",
+			" * Function description: $4",
 			" */",
 			"${1|void,int,float,bool,char,short,long,long long,double,long double|} $2($3)",
 			"{",
-			"\t$4",
-			"}\t// FUNCTION END: $2$5",
+			"\t$5",
+			"}\t// FUNCTION END: $2",
 			
 		],
 		"description": ["C: function definition"]
