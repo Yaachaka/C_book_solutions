@@ -10623,5 +10623,1211 @@ href="./cknkCh09/cknkCh09Prj/cknkCh09PrjReadme.html">./cknkCh09/cknkCh09Prj/cknk
 href="./cknkCh09/cknkCh09Prj/">./cknkCh09/cknkCh09Prj/</a></li>
 </ul>
 <hr class="chapterDivider"/>
+<h1 id="program-organization">10 Program Organization</h1>
+<!-- START: div -->
+<div class="theQuote">
+<p>As Will Rogers would have said, “There is no such thing as a free
+variable.”</p>
+</div>
+<!-- END: div -->
+<p>Having covered functions in Chapter 9, we’re ready to confront
+several issues that arise when a program contains more than one
+function. The chapter begins with a discussion of the differences
+between local variables (Section 10.1) and external variables (Section
+10.2). Section 10.3 then considers blocks (compound statements
+containing declarations). Section 10.4 tackles the scope rules that
+apply to local names, external names, and names declared in blocks.
+Finally, Section 10.5 suggests a way to organize function prototypes,
+function definitions, variable declarations, and the other parts of a C
+program.</p>
+<h2 id="local-variables">10.1 Local Variables</h2>
+<p>A variable declared in the body of a function is said to be
+<strong><em>local</em></strong> to the function. In the following
+function, <code>sum</code> is a local variable:</p>
+<div class="sourceCode" id="cb523"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb523-1"><a href="#cb523-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> sum_digits<span class="op">(</span><span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb523-2"><a href="#cb523-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb523-3"><a href="#cb523-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> sum <span class="op">=</span> <span class="dv">0</span> <span class="co">/* local variable */</span></span>
+<span id="cb523-4"><a href="#cb523-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb523-5"><a href="#cb523-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> <span class="op">(</span>n <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb523-6"><a href="#cb523-6" aria-hidden="true" tabindex="-1"></a>        sum <span class="op">+=</span> n <span class="op">%</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb523-7"><a href="#cb523-7" aria-hidden="true" tabindex="-1"></a>        n <span class="op">/=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb523-8"><a href="#cb523-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb523-9"><a href="#cb523-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb523-10"><a href="#cb523-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sum<span class="op">;</span></span>
+<span id="cb523-11"><a href="#cb523-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>By default, local variables have the following properties:</p>
+<ul>
+<li><strong><em>Automatic storage duration</em></strong>. The
+<strong><em>storage duration</em></strong> (or
+<strong><em>extent</em></strong>) of a variable is the portion of
+program execution during which storage for the variable exists. Storage
+for a local variable is “automatically” allocated when the enclosing
+function is called and deallocated when the function returns, so the
+variable is said to have <strong><em>automatic storage
+duration</em></strong>. A local variable doesn’t retain its value when
+its enclosing function returns. When the function is called again,
+there’s no guarantee that the variable will still have its old
+value.<br />
+</li>
+<li><strong><em>Block scope</em></strong>. The
+<strong><em>scope</em></strong> of a variable is the portion of the
+program text in which the variable can be referenced. A local variable
+has <strong><em>block scope</em></strong>: it is visible from its point
+of declaration to the end of the enclosing function body. Since the
+scope of a local variable doesn’t extend beyond the function to which it
+belongs, other functions can use the same name for other purposes.</li>
+</ul>
+<p>Section 18.2 covers these and other related concepts in more
+detail.</p>
+<p><span class="C99Symbol"></span></p>
+<p>Since C99 doesn’t require variable declarations to come at the
+beginning of a function, it’s possible for a local variable to have a
+very small scope. In the following example, the scope of <code>i</code>
+doesn’t begin until the line on which it’s declared, which could be near
+the end of the function body:</p>
+<div class="sourceCode" id="cb524"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb524-1"><a href="#cb524-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> f<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb524-2"><a href="#cb524-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb524-3"><a href="#cb524-3" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb524-4"><a href="#cb524-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">;</span>    <span class="co">// START HERE: scope of i</span></span>
+<span id="cb524-5"><a href="#cb524-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb524-6"><a href="#cb524-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>    <span class="co">// </span><span class="re">END</span><span class="co"> HERE: scope of i</span></span></code></pre></div>
+<h3 id="static-local-variables">10.1.1 Static Local Variables</h3>
+<p>Putting the word <code>static</code> in the declaration of a local
+variable causes it to have <strong><em>static storage
+duration</em></strong> instead of automatic storage duration. A variable
+with static storage duration has a permanent storage location, so it
+retains its value throughout the execution of the program. Consider the
+following function:</p>
+<div class="sourceCode" id="cb525"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb525-1"><a href="#cb525-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> f<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb525-2"><a href="#cb525-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb525-3"><a href="#cb525-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">static</span> <span class="dt">int</span> i<span class="op">;</span> <span class="co">/* static local variable */</span></span>
+<span id="cb525-4"><a href="#cb525-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb525-5"><a href="#cb525-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p>Since the local variable <code>i</code> has been declared
+<code>static</code>, it occupies the same memory location throughout the
+execution of the program. When <code>f</code> returns, <code>i</code>
+won’t lose its value.</p>
+<p>A static local variable still has block scope, so it’s not visible to
+other functions. In a nutshell, a static variable is a place to hide
+data from other functions but retain it for future calls of the same
+function.</p>
+<h3 id="parameters">10.1.2 Parameters</h3>
+<p>Parameters have the same properties—automatic storage duration and
+block scope—as local variables. In fact, the only real difference
+between parameters and local variables is that each parameter is
+initialized automatically when a function is called (by being assigned
+the value of the corresponding argument).</p>
+<h2 id="external-variables">10.2 External Variables</h2>
+<p>Passing arguments is one way to transmit information to a function.
+Functions can also communicate through <strong><em>external
+variables</em></strong>—variables that are declared outside the body of
+any function.</p>
+<p>The properties of external variables (or <strong><em>global
+variables</em></strong>, as they’re sometimes called) are different from
+those of local variables:</p>
+<ul>
+<li><strong><em>Static storage duration</em></strong>. External
+variables have static storage duration, just like local variables that
+have been declared <code>static</code>. A value stored in an external
+variable will stay there indefinitely.<br />
+</li>
+<li><strong><em>File scope</em></strong>. An external variable has file
+scope: it is visible from its point of declaration to the end of the
+enclosing file. As a result, an external variable can be accessed (and
+potentially modified) by all functions that follow its declaration.</li>
+</ul>
+<h3 id="example-using-external-variables-to-implement-a-stack">10.2.1
+Example: Using External Variables to Implement a Stack</h3>
+<p>To illustrate how external variables might be used. let’s look at a
+data structure known as a <strong><em>stack</em></strong>. (Stacks are
+an abstract concept, not a C feature: they can be implemented in most
+programming languages.) A stack, like an array. can store multiple data
+items of the same type. However, the operations on a stack are limited:
+we can either <strong><em>push</em></strong> an item onto the stack (add
+it to one end—the “stack top”) or pop it from the stack (remove it from
+the same end). Examining or modifying an item that’s not at the top of
+the stack is forbidden.</p>
+<p>One way to implement a stack in C is to store its items in an array,
+which we’ll call <code>contents</code>. A separate integer variable
+named <code>top</code> marks the position of the stack top. When the
+stack is empty, <code>top</code> has the value 0. To push an item on the
+stack, we simply store the item in <code>contents</code> at the position
+indicated by <code>top</code>, then increment <code>top</code>. Popping
+an item requires decrementing <code>top</code>, then using it as an
+index into <code>contents</code> to fetch the item that’s being
+popped.</p>
+<p>Based on this outline, here’s a program fragment (not a complete
+program) that declares the <code>contents</code> and <code>top</code>
+variables for a stack and provides a set of functions that represent
+operations on the stack. All five functions need access to the
+<code>top</code> variable, and two functions need access to
+<code>contents</code>, so we’ll make <code>contents</code> and
+<code>top</code> external.</p>
+<div class="sourceCode" id="cb526"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb526-1"><a href="#cb526-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span><span class="pp"> </span><span class="co">/* C99 only */</span></span>
+<span id="cb526-2"><a href="#cb526-2" aria-hidden="true" tabindex="-1"></a><span class="pp">#define STACK_SIZE 100</span></span>
+<span id="cb526-3"><a href="#cb526-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb526-4"><a href="#cb526-4" aria-hidden="true" tabindex="-1"></a><span class="co">/* external variables */</span></span>
+<span id="cb526-5"><a href="#cb526-5" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> contents<span class="op">[</span>STACK_SIZE<span class="op">]</span> <span class="op">;</span></span>
+<span id="cb526-6"><a href="#cb526-6" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> top <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb526-7"><a href="#cb526-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb526-8"><a href="#cb526-8" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> make_empty <span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb526-9"><a href="#cb526-9" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb526-10"><a href="#cb526-10" aria-hidden="true" tabindex="-1"></a>    top <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb526-11"><a href="#cb526-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb526-12"><a href="#cb526-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb526-13"><a href="#cb526-13" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> is_empty <span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb526-14"><a href="#cb526-14" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb526-15"><a href="#cb526-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> top <span class="op">==</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb526-16"><a href="#cb526-16" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb526-17"><a href="#cb526-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb526-18"><a href="#cb526-18" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> is_full <span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb526-19"><a href="#cb526-19" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb526-20"><a href="#cb526-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> top <span class="op">==</span> STACK_SIZE<span class="op">;</span></span>
+<span id="cb526-21"><a href="#cb526-21" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb526-22"><a href="#cb526-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb526-23"><a href="#cb526-23" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> push<span class="op">(</span><span class="dt">int</span> i<span class="op">)</span></span>
+<span id="cb526-24"><a href="#cb526-24" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb526-25"><a href="#cb526-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>is_full<span class="op">())</span></span>
+<span id="cb526-26"><a href="#cb526-26" aria-hidden="true" tabindex="-1"></a>        stack_overflow<span class="op">();</span></span>
+<span id="cb526-27"><a href="#cb526-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb526-28"><a href="#cb526-28" aria-hidden="true" tabindex="-1"></a>        contents <span class="op">[</span>top<span class="op">++]</span> <span class="op">=</span> i<span class="op">;</span></span>
+<span id="cb526-29"><a href="#cb526-29" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb526-30"><a href="#cb526-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb526-31"><a href="#cb526-31" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> pop <span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb526-32"><a href="#cb526-32" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb526-33"><a href="#cb526-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>is_empty<span class="op">())</span></span>
+<span id="cb526-34"><a href="#cb526-34" aria-hidden="true" tabindex="-1"></a>        stack_underflow<span class="op">()</span> <span class="op">;</span></span>
+<span id="cb526-35"><a href="#cb526-35" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb526-36"><a href="#cb526-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> contents<span class="op">[--</span>top<span class="op">];</span></span>
+<span id="cb526-37"><a href="#cb526-37" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<h3 id="pros-and-cons-of-external-variables">10.2.2 Pros and Cons of
+External Variables</h3>
+<p>External variables are convenient when many functions must share a
+variable or when a few functions share a large number of variables. In
+most cases, however, it’s better for functions to communicate through
+parameters rather than by sharing variables. Here’s why:</p>
+<ul>
+<li>If we change an external variable during program maintenance (by
+altering its type, say), we’ll need to check every function in the same
+file to see how the change affects it.<br />
+</li>
+<li>If an external variable is assigned an incorrect value, it may be
+difficult to identify the guilty function. It’s like trying to solve a
+murder committed at a crowded party—there’s no easy way to narrow the
+list of suspects.<br />
+</li>
+<li>Functions that rely on external variables are hard to reuse in other
+programs. A function that depends on external variables isn’t
+self-contained: to reuse the function, we’ll have to drag along any
+external variables that it needs.</li>
+</ul>
+<p>Many C programmers rely far too much on external variables. One
+common abuse: using the same external variable for different purposes in
+different functions. Suppose that several functions need a variable
+named <code>i</code> to control a <code>for</code> statement. Instead of
+declaring <code>i</code> in each function that uses it, some programmers
+declare it at the top of the program, thereby making the variable
+visible to all functions. This practice is poor not only for the reasons
+listed earlier, but also because it’s misleading; someone reading the
+program later may think that the uses of the variable are related, when
+in fact they’re not.</p>
+<p>When you use external variables, make sure they have meaningful
+names. (Local variables don’t always need meaningful names: it’s often
+hard to think of a better name than <code>i</code> for the control
+variable in a <code>for</code> loop.) If you find yourself using names
+like <code>i</code> and temp for external variables. that’s a clue that
+perhaps they should really be local variables.</p>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Making variables external when they should be local can lead to some
+rather frustrating bugs. Consider the following example. which is
+supposed to display a 10 x 10 arrangement of asterisks:</p>
+<div class="sourceCode" id="cb527"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb527-1"><a href="#cb527-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb527-2"><a href="#cb527-2" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> print_one_row<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb527-3"><a href="#cb527-3" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb527-4"><a href="#cb527-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> <span class="dv">10</span><span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb527-5"><a href="#cb527-5" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;*&quot;</span><span class="op">);</span></span>
+<span id="cb527-6"><a href="#cb527-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb527-7"><a href="#cb527-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb527-8"><a href="#cb527-8" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> print_all_rows <span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb527-9"><a href="#cb527-9" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb527-10"><a href="#cb527-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> <span class="dv">10</span><span class="op">;</span> i<span class="op">++)</span> <span class="op">{</span></span>
+<span id="cb527-11"><a href="#cb527-11" aria-hidden="true" tabindex="-1"></a>        print_one_row<span class="op">();</span></span>
+<span id="cb527-12"><a href="#cb527-12" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb527-13"><a href="#cb527-13" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb527-14"><a href="#cb527-14" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Instead of printing 10 rows, <code>print_all_rows</code> prints only
+one row. When <code>print_one_row</code> returns after being called the
+first time, <code>i</code> will have the value 11. The <code>for</code>
+statement in <code>print_all_rows</code> then increments <code>i</code>
+and tests whether it’s less than or equal to 10. It’s not, so the loop
+terminates and the function returns.</p>
+</div>
+<!-- END: div -->
+<h3 id="guessing-a-number">10.2.3 Guessing a Number</h3>
+<p>To get more experience with external variables, we’ll write a simple
+game-playing program. The program generates a random number between 1
+and 100, which the user attempts to guess in as few tries as possible.
+Here’s what the user will see when the program is run:</p>
+<pre class="shell"><code>Guess the secret number between 1 and 100.
+
+A new number has been chosen.
+Enter guess: 55
+Too low; try again.
+Enter guess: 65
+Too high; try again.
+Enter guess: 60
+Too high; try again.
+Enter guess: 58
+You won in 4 guesses!
+
+Play again? (Y/N) y
+
+A new number has been chosen.
+Enter guess: 78
+Too high; try again.
+Enter guess: 34
+You won in 2 guesses!
+
+Play again? (Y/N) n</code></pre>
+<p>This program will need to carry out several different tasks:
+initializing the random number generator, choosing a secret number, and
+interacting with the user until the correct number is picked. If we
+write a separate function to handle each task, we might end up with the
+following program.</p>
+<div class="sourceCode" id="cb529"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb529-1"><a href="#cb529-1" aria-hidden="true" tabindex="-1"></a><span class="co">/********************************************************************************</span></span>
+<span id="cb529-2"><a href="#cb529-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * File: guess.c</span></span>
+<span id="cb529-3"><a href="#cb529-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb529-4"><a href="#cb529-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Asks user to guess a hidden number</span></span>
+<span id="cb529-5"><a href="#cb529-5" aria-hidden="true" tabindex="-1"></a><span class="co"> ********************************************************************************/</span></span>
+<span id="cb529-6"><a href="#cb529-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-7"><a href="#cb529-7" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Header inclusions*/</span></span>
+<span id="cb529-8"><a href="#cb529-8" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb529-9"><a href="#cb529-9" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdlib.h&gt;</span></span>
+<span id="cb529-10"><a href="#cb529-10" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;time.h&gt;</span></span>
+<span id="cb529-11"><a href="#cb529-11" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Header inclusions*/</span></span>
+<span id="cb529-12"><a href="#cb529-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-13"><a href="#cb529-13" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: MACRO definitions*/</span></span>
+<span id="cb529-14"><a href="#cb529-14" aria-hidden="true" tabindex="-1"></a><span class="pp">#define MAX_NUMBER 100</span></span>
+<span id="cb529-15"><a href="#cb529-15" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: MACRO definitions*/</span></span>
+<span id="cb529-16"><a href="#cb529-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-17"><a href="#cb529-17" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: type definitions*/</span></span>
+<span id="cb529-18"><a href="#cb529-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-19"><a href="#cb529-19" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: type definitions*/</span></span>
+<span id="cb529-20"><a href="#cb529-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-21"><a href="#cb529-21" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: External Variable declarations*/</span></span>
+<span id="cb529-22"><a href="#cb529-22" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> secret_number<span class="op">;</span></span>
+<span id="cb529-23"><a href="#cb529-23" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: External Variable declarations*/</span></span>
+<span id="cb529-24"><a href="#cb529-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-25"><a href="#cb529-25" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Function prototypes*/</span></span>
+<span id="cb529-26"><a href="#cb529-26" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> initialize_number_generator<span class="op">(</span><span class="dt">void</span><span class="op">);</span></span>
+<span id="cb529-27"><a href="#cb529-27" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> choose_new_secret_number<span class="op">(</span><span class="dt">void</span><span class="op">);</span></span>
+<span id="cb529-28"><a href="#cb529-28" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> read_guesses<span class="op">(</span><span class="dt">void</span><span class="op">);</span></span>
+<span id="cb529-29"><a href="#cb529-29" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Function prototypes*/</span></span>
+<span id="cb529-30"><a href="#cb529-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-31"><a href="#cb529-31" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb529-32"><a href="#cb529-32" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb529-33"><a href="#cb529-33" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> command<span class="op">;</span></span>
+<span id="cb529-34"><a href="#cb529-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-35"><a href="#cb529-35" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Guess the number between 1 and %d. </span><span class="sc">\n\n</span><span class="st">&quot;</span><span class="op">,</span> MAX_NUMBER<span class="op">);</span></span>
+<span id="cb529-36"><a href="#cb529-36" aria-hidden="true" tabindex="-1"></a>    initialize_number_generator<span class="op">();</span></span>
+<span id="cb529-37"><a href="#cb529-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">do</span></span>
+<span id="cb529-38"><a href="#cb529-38" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb529-39"><a href="#cb529-39" aria-hidden="true" tabindex="-1"></a>        choose_new_secret_number<span class="op">();</span></span>
+<span id="cb529-40"><a href="#cb529-40" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;A new number has been chosen.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb529-41"><a href="#cb529-41" aria-hidden="true" tabindex="-1"></a>        read_guesses<span class="op">();</span></span>
+<span id="cb529-42"><a href="#cb529-42" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Play again? (Y/N) &quot;</span><span class="op">);</span></span>
+<span id="cb529-43"><a href="#cb529-43" aria-hidden="true" tabindex="-1"></a>        scanf<span class="op">(</span><span class="st">&quot; %c&quot;</span><span class="op">,</span> <span class="op">&amp;</span>command<span class="op">);</span></span>
+<span id="cb529-44"><a href="#cb529-44" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb529-45"><a href="#cb529-45" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span><span class="cf">while</span><span class="op">(</span>command <span class="op">==</span> <span class="ch">&#39;y&#39;</span> <span class="op">||</span> command <span class="op">==</span> <span class="ch">&#39;Y&#39;</span><span class="op">);</span>   <span class="co">// do-while statement: </span></span>
+<span id="cb529-46"><a href="#cb529-46" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb529-47"><a href="#cb529-47" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb529-48"><a href="#cb529-48" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb529-49"><a href="#cb529-49" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">//FUNCTION </span><span class="re">END</span><span class="co">: main</span></span>
+<span id="cb529-50"><a href="#cb529-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-51"><a href="#cb529-51" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb529-52"><a href="#cb529-52" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: initialize_number_generator</span></span>
+<span id="cb529-53"><a href="#cb529-53" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: void</span></span>
+<span id="cb529-54"><a href="#cb529-54" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb529-55"><a href="#cb529-55" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: void</span></span>
+<span id="cb529-56"><a href="#cb529-56" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb529-57"><a href="#cb529-57" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb529-58"><a href="#cb529-58" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb529-59"><a href="#cb529-59" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: Initializes the random number generator using the time of day.</span></span>
+<span id="cb529-60"><a href="#cb529-60" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb529-61"><a href="#cb529-61" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> initialize_number_generator<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb529-62"><a href="#cb529-62" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb529-63"><a href="#cb529-63" aria-hidden="true" tabindex="-1"></a>    srand<span class="op">((</span><span class="dt">unsigned</span><span class="op">)</span> time<span class="op">(</span>NULL<span class="op">));</span></span>
+<span id="cb529-64"><a href="#cb529-64" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: initialize_number_generator</span></span>
+<span id="cb529-65"><a href="#cb529-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-66"><a href="#cb529-66" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb529-67"><a href="#cb529-67" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: choose_new_secret_number</span></span>
+<span id="cb529-68"><a href="#cb529-68" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: void</span></span>
+<span id="cb529-69"><a href="#cb529-69" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb529-70"><a href="#cb529-70" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: void</span></span>
+<span id="cb529-71"><a href="#cb529-71" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb529-72"><a href="#cb529-72" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb529-73"><a href="#cb529-73" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb529-74"><a href="#cb529-74" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: Randomly selects a number between 1 and MAX_NUMBER and stores it in secret_number.</span></span>
+<span id="cb529-75"><a href="#cb529-75" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb529-76"><a href="#cb529-76" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> choose_new_secret_number<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb529-77"><a href="#cb529-77" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb529-78"><a href="#cb529-78" aria-hidden="true" tabindex="-1"></a>    secret_number <span class="op">=</span> rand<span class="op">()</span> <span class="op">%</span> MAX_NUMBER <span class="op">+</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb529-79"><a href="#cb529-79" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: choose_new_secret_number</span></span>
+<span id="cb529-80"><a href="#cb529-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-81"><a href="#cb529-81" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb529-82"><a href="#cb529-82" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: read_guesses</span></span>
+<span id="cb529-83"><a href="#cb529-83" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: void</span></span>
+<span id="cb529-84"><a href="#cb529-84" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb529-85"><a href="#cb529-85" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: void</span></span>
+<span id="cb529-86"><a href="#cb529-86" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb529-87"><a href="#cb529-87" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb529-88"><a href="#cb529-88" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb529-89"><a href="#cb529-89" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: Repeatedly reads user guesses and tells the user whether each guess is too low, too high, or correct. When the guess is correct, prints the total number of guesses and returns.</span></span>
+<span id="cb529-90"><a href="#cb529-90" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb529-91"><a href="#cb529-91" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> read_guesses<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb529-92"><a href="#cb529-92" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb529-93"><a href="#cb529-93" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> guess<span class="op">,</span> num_guesses <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb529-94"><a href="#cb529-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb529-95"><a href="#cb529-95" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(;</span> <span class="op">;</span> <span class="op">)</span></span>
+<span id="cb529-96"><a href="#cb529-96" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb529-97"><a href="#cb529-97" aria-hidden="true" tabindex="-1"></a>        num_guesses<span class="op">++;</span></span>
+<span id="cb529-98"><a href="#cb529-98" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Enter guess: &quot;</span><span class="op">);</span></span>
+<span id="cb529-99"><a href="#cb529-99" aria-hidden="true" tabindex="-1"></a>        scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>guess<span class="op">);</span></span>
+<span id="cb529-100"><a href="#cb529-100" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>guess <span class="op">==</span> secret_number<span class="op">)</span></span>
+<span id="cb529-101"><a href="#cb529-101" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb529-102"><a href="#cb529-102" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;You won in %d guesses!</span><span class="sc">\n\n</span><span class="st">&quot;</span><span class="op">,</span> num_guesses<span class="op">);</span></span>
+<span id="cb529-103"><a href="#cb529-103" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span><span class="op">;</span></span>
+<span id="cb529-104"><a href="#cb529-104" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// if condition: </span></span>
+<span id="cb529-105"><a href="#cb529-105" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>guess <span class="op">&lt;</span> secret_number<span class="op">)</span></span>
+<span id="cb529-106"><a href="#cb529-106" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb529-107"><a href="#cb529-107" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;Too low; try again.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb529-108"><a href="#cb529-108" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// else-if condition: </span></span>
+<span id="cb529-109"><a href="#cb529-109" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span></span>
+<span id="cb529-110"><a href="#cb529-110" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb529-111"><a href="#cb529-111" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;Too high; try again.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb529-112"><a href="#cb529-112" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// else condition: </span></span>
+<span id="cb529-113"><a href="#cb529-113" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb529-114"><a href="#cb529-114" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: read_guesses</span></span></code></pre></div>
+<p>For random number generation, the <code>guess.c</code> program relies
+on the <code>time</code>, <code>srand</code>, and <code>rand</code>
+functions, which we first used in <code>deal.c</code> (Section 8.2).
+This time, we’re scaling the return value of <code>rand</code> so that
+it falls between 1 and <code>MAX_NUMBER</code>.</p>
+<p>Although <code>guess.c</code> works fine, it relies on an external
+variable. We made secret number external so that both
+<code>choose_new_secret_number</code> and <code>read_guesses</code>
+could access it. If we alter <code>choose_new_secret_number</code> and
+<code>read_guesses</code> just a little, we should be able to move
+secret number into the <code>main</code> function. We’ll modify
+<code>choose_new_secret_number</code> so that it returns the new number,
+and we’ll rewrite read_guesses so that secret number can be passed to it
+as an argument.</p>
+<p>Here’s our new program, with changes:</p>
+<div class="sourceCode" id="cb530"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb530-1"><a href="#cb530-1" aria-hidden="true" tabindex="-1"></a><span class="co">/********************************************************************************</span></span>
+<span id="cb530-2"><a href="#cb530-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * File: guess2.c</span></span>
+<span id="cb530-3"><a href="#cb530-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb530-4"><a href="#cb530-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Asks user to guess a hidden number</span></span>
+<span id="cb530-5"><a href="#cb530-5" aria-hidden="true" tabindex="-1"></a><span class="co"> ********************************************************************************/</span></span>
+<span id="cb530-6"><a href="#cb530-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-7"><a href="#cb530-7" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Header inclusions*/</span></span>
+<span id="cb530-8"><a href="#cb530-8" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb530-9"><a href="#cb530-9" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdlib.h&gt;</span></span>
+<span id="cb530-10"><a href="#cb530-10" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;time.h&gt;</span></span>
+<span id="cb530-11"><a href="#cb530-11" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Header inclusions*/</span></span>
+<span id="cb530-12"><a href="#cb530-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-13"><a href="#cb530-13" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: MACRO definitions*/</span></span>
+<span id="cb530-14"><a href="#cb530-14" aria-hidden="true" tabindex="-1"></a><span class="pp">#define MAX_NUMBER 100</span></span>
+<span id="cb530-15"><a href="#cb530-15" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: MACRO definitions*/</span></span>
+<span id="cb530-16"><a href="#cb530-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-17"><a href="#cb530-17" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: type definitions*/</span></span>
+<span id="cb530-18"><a href="#cb530-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-19"><a href="#cb530-19" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: type definitions*/</span></span>
+<span id="cb530-20"><a href="#cb530-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-21"><a href="#cb530-21" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: External Variable declarations*/</span></span>
+<span id="cb530-22"><a href="#cb530-22" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> secret_number<span class="op">;</span></span>
+<span id="cb530-23"><a href="#cb530-23" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: External Variable declarations*/</span></span>
+<span id="cb530-24"><a href="#cb530-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-25"><a href="#cb530-25" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Function prototypes*/</span></span>
+<span id="cb530-26"><a href="#cb530-26" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> initialize_number_generator<span class="op">(</span><span class="dt">void</span><span class="op">);</span></span>
+<span id="cb530-27"><a href="#cb530-27" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> new_secret_number<span class="op">(</span><span class="dt">void</span><span class="op">);</span></span>
+<span id="cb530-28"><a href="#cb530-28" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> read_guesses<span class="op">(</span><span class="dt">int</span> secret_number<span class="op">);</span></span>
+<span id="cb530-29"><a href="#cb530-29" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Function prototypes*/</span></span>
+<span id="cb530-30"><a href="#cb530-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-31"><a href="#cb530-31" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb530-32"><a href="#cb530-32" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb530-33"><a href="#cb530-33" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> command<span class="op">;</span></span>
+<span id="cb530-34"><a href="#cb530-34" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> secret_number<span class="op">;</span></span>
+<span id="cb530-35"><a href="#cb530-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-36"><a href="#cb530-36" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Guess the number between 1 and %d. </span><span class="sc">\n\n</span><span class="st">&quot;</span><span class="op">,</span> MAX_NUMBER<span class="op">);</span></span>
+<span id="cb530-37"><a href="#cb530-37" aria-hidden="true" tabindex="-1"></a>    initialize_number_generator<span class="op">();</span></span>
+<span id="cb530-38"><a href="#cb530-38" aria-hidden="true" tabindex="-1"></a>    <span class="cf">do</span></span>
+<span id="cb530-39"><a href="#cb530-39" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb530-40"><a href="#cb530-40" aria-hidden="true" tabindex="-1"></a>        secret_number <span class="op">=</span> new_secret_number<span class="op">();</span></span>
+<span id="cb530-41"><a href="#cb530-41" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;A new number has been chosen.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb530-42"><a href="#cb530-42" aria-hidden="true" tabindex="-1"></a>        read_guesses<span class="op">(</span>secret_number<span class="op">);</span></span>
+<span id="cb530-43"><a href="#cb530-43" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Play again? (Y/N) &quot;</span><span class="op">);</span></span>
+<span id="cb530-44"><a href="#cb530-44" aria-hidden="true" tabindex="-1"></a>        scanf<span class="op">(</span><span class="st">&quot; %c&quot;</span><span class="op">,</span> <span class="op">&amp;</span>command<span class="op">);</span></span>
+<span id="cb530-45"><a href="#cb530-45" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb530-46"><a href="#cb530-46" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span><span class="cf">while</span><span class="op">(</span>command <span class="op">==</span> <span class="ch">&#39;y&#39;</span> <span class="op">||</span> command <span class="op">==</span> <span class="ch">&#39;Y&#39;</span><span class="op">);</span>   <span class="co">// do-while statement: </span></span>
+<span id="cb530-47"><a href="#cb530-47" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb530-48"><a href="#cb530-48" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb530-49"><a href="#cb530-49" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb530-50"><a href="#cb530-50" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">//FUNCTION </span><span class="re">END</span><span class="co">: main</span></span>
+<span id="cb530-51"><a href="#cb530-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-52"><a href="#cb530-52" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb530-53"><a href="#cb530-53" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: initialize_number_generator</span></span>
+<span id="cb530-54"><a href="#cb530-54" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: void</span></span>
+<span id="cb530-55"><a href="#cb530-55" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb530-56"><a href="#cb530-56" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: void</span></span>
+<span id="cb530-57"><a href="#cb530-57" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb530-58"><a href="#cb530-58" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb530-59"><a href="#cb530-59" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb530-60"><a href="#cb530-60" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: Initializes the random number generator using the time of day.</span></span>
+<span id="cb530-61"><a href="#cb530-61" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb530-62"><a href="#cb530-62" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> initialize_number_generator<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb530-63"><a href="#cb530-63" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb530-64"><a href="#cb530-64" aria-hidden="true" tabindex="-1"></a>    srand<span class="op">((</span><span class="dt">unsigned</span><span class="op">)</span> time<span class="op">(</span>NULL<span class="op">));</span></span>
+<span id="cb530-65"><a href="#cb530-65" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: initialize_number_generator</span></span>
+<span id="cb530-66"><a href="#cb530-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-67"><a href="#cb530-67" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb530-68"><a href="#cb530-68" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: new_secret_number</span></span>
+<span id="cb530-69"><a href="#cb530-69" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: int</span></span>
+<span id="cb530-70"><a href="#cb530-70" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb530-71"><a href="#cb530-71" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: void</span></span>
+<span id="cb530-72"><a href="#cb530-72" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb530-73"><a href="#cb530-73" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb530-74"><a href="#cb530-74" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb530-75"><a href="#cb530-75" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: Returns a randomly chosen number betyween 1 and MAX_NUMBER.</span></span>
+<span id="cb530-76"><a href="#cb530-76" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb530-77"><a href="#cb530-77" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> new_secret_number<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb530-78"><a href="#cb530-78" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb530-79"><a href="#cb530-79" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> rand<span class="op">()</span> <span class="op">%</span> MAX_NUMBER <span class="op">+</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb530-80"><a href="#cb530-80" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: new_secret_number</span></span>
+<span id="cb530-81"><a href="#cb530-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-82"><a href="#cb530-82" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb530-83"><a href="#cb530-83" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: read_guesses</span></span>
+<span id="cb530-84"><a href="#cb530-84" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: void</span></span>
+<span id="cb530-85"><a href="#cb530-85" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb530-86"><a href="#cb530-86" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: int secret_number</span></span>
+<span id="cb530-87"><a href="#cb530-87" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb530-88"><a href="#cb530-88" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb530-89"><a href="#cb530-89" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb530-90"><a href="#cb530-90" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: Repeatedly reads user guesses and tells the user whether each guess is too low, too high, or correct. When the guess is correct, prints the total number of guesses and returns.</span></span>
+<span id="cb530-91"><a href="#cb530-91" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb530-92"><a href="#cb530-92" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> read_guesses<span class="op">(</span><span class="dt">int</span> secret_number<span class="op">)</span></span>
+<span id="cb530-93"><a href="#cb530-93" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb530-94"><a href="#cb530-94" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> guess<span class="op">,</span> num_guesses <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb530-95"><a href="#cb530-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb530-96"><a href="#cb530-96" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(;</span> <span class="op">;</span> <span class="op">)</span></span>
+<span id="cb530-97"><a href="#cb530-97" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb530-98"><a href="#cb530-98" aria-hidden="true" tabindex="-1"></a>        num_guesses<span class="op">++;</span></span>
+<span id="cb530-99"><a href="#cb530-99" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Enter guess: &quot;</span><span class="op">);</span></span>
+<span id="cb530-100"><a href="#cb530-100" aria-hidden="true" tabindex="-1"></a>        scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>guess<span class="op">);</span></span>
+<span id="cb530-101"><a href="#cb530-101" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>guess <span class="op">==</span> secret_number<span class="op">)</span></span>
+<span id="cb530-102"><a href="#cb530-102" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb530-103"><a href="#cb530-103" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;You won in %d guesses!</span><span class="sc">\n\n</span><span class="st">&quot;</span><span class="op">,</span> num_guesses<span class="op">);</span></span>
+<span id="cb530-104"><a href="#cb530-104" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span><span class="op">;</span></span>
+<span id="cb530-105"><a href="#cb530-105" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// if condition: </span></span>
+<span id="cb530-106"><a href="#cb530-106" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span> <span class="cf">if</span> <span class="op">(</span>guess <span class="op">&lt;</span> secret_number<span class="op">)</span></span>
+<span id="cb530-107"><a href="#cb530-107" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb530-108"><a href="#cb530-108" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;Too low; try again.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb530-109"><a href="#cb530-109" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// else-if condition: </span></span>
+<span id="cb530-110"><a href="#cb530-110" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span></span>
+<span id="cb530-111"><a href="#cb530-111" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb530-112"><a href="#cb530-112" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;Too high; try again.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb530-113"><a href="#cb530-113" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// else condition: </span></span>
+<span id="cb530-114"><a href="#cb530-114" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb530-115"><a href="#cb530-115" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: read_guesses</span></span></code></pre></div>
+<h2 id="blocks">10.3 Blocks</h2>
+<p>In Section 5.2, we encountered compound statements of the form</p>
+<div class="sourceCode" id="cb531"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb531-1"><a href="#cb531-1" aria-hidden="true" tabindex="-1"></a><span class="op">{</span> statements <span class="op">}</span></span></code></pre></div>
+<p>It turns out that C allows compound statements to contain
+declarations as well:</p>
+<div class="sourceCode" id="cb532"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb532-1"><a href="#cb532-1" aria-hidden="true" tabindex="-1"></a><span class="op">{</span> declarations statements <span class="op">}</span></span></code></pre></div>
+<p>I’ll use the term <strong><em>block</em></strong> to describe such a
+compound statement. Here’s an example of a block:</p>
+<div class="sourceCode" id="cb533"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb533-1"><a href="#cb533-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>i <span class="op">&gt;</span> j<span class="op">){</span></span>
+<span id="cb533-2"><a href="#cb533-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* swap values of i and j */</span></span>
+<span id="cb533-3"><a href="#cb533-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> temp <span class="op">=</span> i</span>
+<span id="cb533-4"><a href="#cb533-4" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> j<span class="op">;</span></span>
+<span id="cb533-5"><a href="#cb533-5" aria-hidden="true" tabindex="-1"></a>    j <span class="op">=</span> temp<span class="op">;</span></span>
+<span id="cb533-6"><a href="#cb533-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>By default, the storage duration of a variable declared in a block is
+automatic: storage for the variable is allocated when the block is
+entered and deallocated when the block is exited. The variable has block
+scope: it can’t be referenced outside the block. A variable that belongs
+to a block can be declared <code>static</code> to give it static storage
+duration,</p>
+<p>The body of a function is a block. Blocks are also useful inside a
+function body when we need variables for temporary use. In our last
+example, we needed a variable temporarily so that we could swap the
+values of <code>i</code> and <code>j</code>. Putting temporary variables
+in blocks has two advantages: (1) It avoids cluttering the declarations
+at the beginning of the function body with variables that are used only
+briefly. (2) It reduces name conflicts. In our example, the name
+<code>temp</code> can be used elsewhere in the same function for
+different purposes—the <code>temp</code> variable is strictly local to
+the block in which it’s declared.</p>
+<p><span class="C99Symbol"></span></p>
+<p>C99 allows variables to be declared anywhere within a block. just as
+it allows variables to be declared anywhere within a function.</p>
+<h2 id="scope">10.4 Scope</h2>
+<p>In a C program, the same identifier may have several different
+meanings. C’s scope rules enable the programmer (and the compiler) to
+determine which meaning is relevant at a given point in the program.</p>
+<p>Here’s the most important scope rule: When a declaration inside a
+block names an identifier that’s already visible (because it has file
+scope or because it’s declared in an enclosing block), the new
+declaration temporarily “hides” the old one, and the identifier takes on
+a new meaning. At the end of the block, the identifier regains its old
+meaning.</p>
+<p>Consider the (somewhat extreme) example given below, in which the
+identifier <code>i</code> has four different meanings:</p>
+<div class="sourceCode" id="cb534"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb534-1"><a href="#cb534-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">;</span>    <span class="co">/* Declaration 1 */</span></span>
+<span id="cb534-2"><a href="#cb534-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb534-3"><a href="#cb534-3" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> f<span class="op">(</span><span class="dt">int</span> i<span class="op">)</span>    <span class="co">/* Declaration 2 */</span></span>
+<span id="cb534-4"><a href="#cb534-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb534-5"><a href="#cb534-5" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span>    <span class="co">// Affects i in declaration 2</span></span>
+<span id="cb534-6"><a href="#cb534-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb534-7"><a href="#cb534-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb534-8"><a href="#cb534-8" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> g<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb534-9"><a href="#cb534-9" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb534-10"><a href="#cb534-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i <span class="op">=</span> <span class="dv">2</span><span class="op">;</span>    <span class="co">/* Declaration 3 */</span></span>
+<span id="cb534-11"><a href="#cb534-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb534-12"><a href="#cb534-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>i <span class="op">&gt;</span> <span class="dv">0</span><span class="op">)</span> <span class="op">{</span>    <span class="co">/* Act on i of declration 3 */</span></span>
+<span id="cb534-13"><a href="#cb534-13" aria-hidden="true" tabindex="-1"></a>        <span class="dt">int</span> i<span class="op">;</span>    <span class="co">/* Declaration 4 */</span></span>
+<span id="cb534-14"><a href="#cb534-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb534-15"><a href="#cb534-15" aria-hidden="true" tabindex="-1"></a>        i <span class="op">=</span> <span class="dv">3</span><span class="op">;</span>    <span class="co">/* Affects i of declaration 4 */</span></span>
+<span id="cb534-16"><a href="#cb534-16" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb534-17"><a href="#cb534-17" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> <span class="dv">4</span><span class="op">;</span>    <span class="co">/* Act on i of declaration 3 */</span></span>
+<span id="cb534-18"><a href="#cb534-18" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb534-19"><a href="#cb534-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb534-20"><a href="#cb534-20" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> h<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb534-21"><a href="#cb534-21" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb534-22"><a href="#cb534-22" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> <span class="dv">5</span><span class="op">;</span>    <span class="co">/* Act on i of declaration 1 */</span></span>
+<span id="cb534-23"><a href="#cb534-23" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<ul>
+<li>In Declaration 1, <code>i</code> is a variable with static storage
+duration and file scope.<br />
+</li>
+<li>In Declaration 2, <code>i</code> is a parameter with block
+scope.<br />
+</li>
+<li>In Declaration 3, <code>i</code> is an automatic variable with block
+scope.<br />
+</li>
+<li>In Declaration 4, <code>i</code> is also automatic and has block
+scope.</li>
+</ul>
+<p><code>i</code> is used five times. C’s scope rules allow us to
+determine the meaning of <code>i</code> in each case:</p>
+<ul>
+<li>The <code>i = 1</code> assignment refers to the parameter in
+Declaration 2, not the variable in Declaration 1, since Declaration 2
+hides Declaration 1.<br />
+</li>
+<li>The <code>i &gt; 0</code> test refers to the variable in Declaration
+3, since Declaration 3 hides Declaration 1 and Declaration 2 is out of
+scope.<br />
+</li>
+<li>The <code>i = 3</code> assignment refers to the variable in
+Declaration 4, which hides Declaration 3.<br />
+</li>
+<li>The <code>i = 4</code> assignment refers to the variable in
+Declaration 3. It can’t refer to Declaration 4, which is out of
+scope.<br />
+</li>
+<li>The <code>i = 5</code> assignment refers to the variable in
+Declaration 1.</li>
+</ul>
+<h2 id="organizing-a-c-program">10.5 Organizing a C Program</h2>
+<p>Now that we’ve seen the major elements that make up a C program, it’s
+time to develop a strategy for their arrangement. For now. we’ll assume
+that a program always fits into a single file. Chapter 15 shows how to
+organize a program that’s split over several files.</p>
+<p>So far, we’ve seen that a program may contain the following:</p>
+<ul>
+<li>Preprocessing directives such as <code>#include</code> and
+<code>#define</code><br />
+</li>
+<li>Type definitions<br />
+</li>
+<li>Declarations of external variables<br />
+</li>
+<li>Function prototypes<br />
+</li>
+<li>Function definitions</li>
+</ul>
+<p><span class="C99Symbol"></span></p>
+<p>C imposes only a few rules on the order of these items: A
+preprocessing directive doesn’t take effect until the line on which it
+appears. A type name can’t be used until it’s been defined. A variable
+can’t be used until it’s declared. Although C isn’t as picky about
+functions, I strongly recommend that every function be defined or
+declared prior to its first call. (C99 makes this a requirement
+anyway.)</p>
+<p>There are several ways to organize a program so that these rules are
+obeyed. Here’s one possible ordering:</p>
+<ul>
+<li><code>#include</code> directives<br />
+</li>
+<li><code>#define</code> directives<br />
+</li>
+<li>Type definitions<br />
+</li>
+<li>Declarations of external variables<br />
+</li>
+<li>Prototypes for functions other than <code>main</code><br />
+</li>
+<li>Definition of <code>main</code><br />
+</li>
+<li>Definitions of other functions</li>
+</ul>
+<p>It makes sense to put <code>#include</code> directives first, since
+they bring in information that will likely be needed in several places
+within the program. <code>#define</code> directives create macros, which
+are generally used throughout the program. Putting type definitions
+above the declarations of external variables is logical, since the
+declarations of these variables may refer to the type names just
+defined. Declaring external variables next makes them available to all
+the functions that follow. Declaring all functions except for
+<code>main</code> avoids the problems that arise when a function is
+called before the compiler has seen its prototype. This practice also
+makes it possible to arrange the function definitions in any order
+whatsoever: alphabetically by function name or with related functions
+grouped together, for example. Defining <code>main</code> before the
+other functions makes it easier for a reader to locate the program’s
+starting point.</p>
+<p>A final suggestion: Precede each function definition by a boxed
+comment that gives the name of the function, explains its purpose,
+discusses the meaning of each parameter, describes its return value (if
+any), and lists any side effects it has (such as madifying external
+variables).</p>
+<h3 id="program-classifying-a-poker-hand">10.5.1 (PROGRAM) Classifying a
+Poker Hand</h3>
+<p>To show how a C program might be organized, let’s attempt a program
+that’s a little more complex than our previous examples. The program
+will read and classify a poker hand. Each card in the hand will have
+both a <em>suit</em> (clubs, diamonds, hearts, or spades) and a
+<em>rank</em> (two, three, four, five, six. seven, eight, nine, ten,
+jack. queen, king, or ace). We won’t allow the use of jokers, and we’ll
+assume that aces are high. The program will read a hand of five cards,
+then classify the hand into one of the following categories (listed in
+order from best to worst):</p>
+<ul>
+<li>straight flush (both a straight and a flush)<br />
+</li>
+<li>four-of-a-kind (four cards of the same rank)<br />
+</li>
+<li>full house (a three-of-a-kind and a pair)<br />
+</li>
+<li>flush (five cards of the same suit)<br />
+</li>
+<li>straight (five cards with consecutive ranks)<br />
+</li>
+<li>three-of-a-kind (three cards of the same rank)<br />
+</li>
+<li>two pairs<br />
+</li>
+<li>pair (two cards of the same rank)<br />
+</li>
+<li>high card (any other hand)</li>
+</ul>
+<p>If a hand falls into two or more categories, the program will choose
+the best one.</p>
+<p>For input purposes, we’ll abbreviate ranks and suits as follows
+(letters may be either upper- or lower-case):</p>
+<p>Ranks: <code>2 3 4 5 6 7 8 9 t j g k a</code> Suits:
+<code>c d h s</code></p>
+<p>If the user enters an illegal card or tries to enter the same card
+twice, the program will ignore the card, issue an error message, and
+then request another card. Entering the number 0 instead of a card will
+cause the program to terminate.</p>
+<p>A session with the program will have the following appearance;</p>
+<pre class="shell"><code>Enter a card: 2s
+Enter a card: 5s
+Enter a card: 4s
+Enter a card: 3s
+Enter a card: 6s
+Straight flush
+
+Enter a card: 8c
+Enter a card: as
+Enter a card: 8c
+Duplicate card; ignored.
+Enter a card: 7c
+Enter a cazd: ad
+Enter a card: 3h
+Pair
+
+Enter a card: 6s
+Enter a card: d2
+Bad card; ignored.
+Enter a card: 2d
+Enter a card: 9c
+Enter a card: 4h
+Enter a card: ts
+High card
+
+Enter a card: 0</code></pre>
+<p>From this description of the program, we see that it has three
+tasks:</p>
+<ul>
+<li>Read a hand of five cards.<br />
+</li>
+<li>Analyze the hand for pairs, straights, and so forth.<br />
+</li>
+<li>Print the classification of the hand.</li>
+</ul>
+<p>We’ll divide the program into three
+functions—<code>read_cards</code>, <code>analyze_hand</code>, and
+<code>print_result</code>—that perform these three tasks.
+<code>main</code> does nothing but call these functions inside an
+endless loop. The functions will need to share a fairly large amount of
+information, so we’ll have them communicate through external variables.
+<code>read_cards</code> will store information about the hand into
+several external variables, <code>analyze_hand</code> will then examine
+these variables, storing its findings into other external variables for
+the benefit of <code>print_result</code>.</p>
+<p>Based on this preliminary design, we can begin to sketch an outline
+of the program:</p>
+<div class="sourceCode" id="cb536"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb536-1"><a href="#cb536-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* #include directives go here */</span></span>
+<span id="cb536-2"><a href="#cb536-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb536-3"><a href="#cb536-3" aria-hidden="true" tabindex="-1"></a><span class="co">/* #define directives go here */</span></span>
+<span id="cb536-4"><a href="#cb536-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb536-5"><a href="#cb536-5" aria-hidden="true" tabindex="-1"></a><span class="co">/* declarations of external variables go here */</span></span>
+<span id="cb536-6"><a href="#cb536-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb536-7"><a href="#cb536-7" aria-hidden="true" tabindex="-1"></a><span class="co">/* prototypes */</span></span>
+<span id="cb536-8"><a href="#cb536-8" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> read_cards<span class="op">(</span><span class="dt">void</span><span class="op">);</span></span>
+<span id="cb536-9"><a href="#cb536-9" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> analyze_hand<span class="op">(</span><span class="dt">void</span><span class="op">)</span> <span class="op">;</span></span>
+<span id="cb536-10"><a href="#cb536-10" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> print_result <span class="op">(</span><span class="dt">void</span><span class="op">);</span></span>
+<span id="cb536-11"><a href="#cb536-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb536-12"><a href="#cb536-12" aria-hidden="true" tabindex="-1"></a><span class="co">/*********************************************************</span></span>
+<span id="cb536-13"><a href="#cb536-13" aria-hidden="true" tabindex="-1"></a><span class="co">* main: Calls read_cards, analyze_hand, and print_result *</span></span>
+<span id="cb536-14"><a href="#cb536-14" aria-hidden="true" tabindex="-1"></a><span class="co">*       repeatedly.                                      *</span></span>
+<span id="cb536-15"><a href="#cb536-15" aria-hidden="true" tabindex="-1"></a><span class="co">**********************************************************/</span></span>
+<span id="cb536-16"><a href="#cb536-16" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb536-17"><a href="#cb536-17" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb536-18"><a href="#cb536-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(;;)</span> <span class="op">{</span></span>
+<span id="cb536-19"><a href="#cb536-19" aria-hidden="true" tabindex="-1"></a>        read_cards<span class="op">();</span></span>
+<span id="cb536-20"><a href="#cb536-20" aria-hidden="true" tabindex="-1"></a>        analyze_hand <span class="op">()</span> <span class="op">;</span></span>
+<span id="cb536-21"><a href="#cb536-21" aria-hidden="true" tabindex="-1"></a>        print_result<span class="op">();</span></span>
+<span id="cb536-22"><a href="#cb536-22" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb536-23"><a href="#cb536-23" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb536-24"><a href="#cb536-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb536-25"><a href="#cb536-25" aria-hidden="true" tabindex="-1"></a><span class="co">/*********************************************************</span></span>
+<span id="cb536-26"><a href="#cb536-26" aria-hidden="true" tabindex="-1"></a><span class="co">* read_cards: Reads the cards into external variables;   *</span></span>
+<span id="cb536-27"><a href="#cb536-27" aria-hidden="true" tabindex="-1"></a><span class="co">*             checks for bad cards and duplicate cards.  *</span></span>
+<span id="cb536-28"><a href="#cb536-28" aria-hidden="true" tabindex="-1"></a><span class="co">**********************************************************/</span></span>
+<span id="cb536-29"><a href="#cb536-29" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> read_cards<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb536-30"><a href="#cb536-30" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb536-31"><a href="#cb536-31" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb536-32"><a href="#cb536-32" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb536-33"><a href="#cb536-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb536-34"><a href="#cb536-34" aria-hidden="true" tabindex="-1"></a><span class="co">/*********************************************************</span></span>
+<span id="cb536-35"><a href="#cb536-35" aria-hidden="true" tabindex="-1"></a><span class="co">* analyze_hand: Determines whether the hand contains a   *</span></span>
+<span id="cb536-36"><a href="#cb536-36" aria-hidden="true" tabindex="-1"></a><span class="co">*               straight, a flush, four-of-a-kind,       *</span></span>
+<span id="cb536-37"><a href="#cb536-37" aria-hidden="true" tabindex="-1"></a><span class="co">*               and/or three-of-a-kind; determines the   *</span></span>
+<span id="cb536-38"><a href="#cb536-38" aria-hidden="true" tabindex="-1"></a><span class="co">*               number of pairs; stores the results into *</span></span>
+<span id="cb536-39"><a href="#cb536-39" aria-hidden="true" tabindex="-1"></a><span class="co">*               external variables.                      *</span></span>
+<span id="cb536-40"><a href="#cb536-40" aria-hidden="true" tabindex="-1"></a><span class="co">**********************************************************/</span></span>
+<span id="cb536-41"><a href="#cb536-41" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> analyze_hand<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb536-42"><a href="#cb536-42" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb536-43"><a href="#cb536-43" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb536-44"><a href="#cb536-44" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb536-45"><a href="#cb536-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb536-46"><a href="#cb536-46" aria-hidden="true" tabindex="-1"></a><span class="co">/*********************************************************</span></span>
+<span id="cb536-47"><a href="#cb536-47" aria-hidden="true" tabindex="-1"></a><span class="co">+ print_result: Notifies the user of the result, using   *</span></span>
+<span id="cb536-48"><a href="#cb536-48" aria-hidden="true" tabindex="-1"></a><span class="co">*               the external variables set by            *</span></span>
+<span id="cb536-49"><a href="#cb536-49" aria-hidden="true" tabindex="-1"></a><span class="co">*               analyze_hand.                            *</span></span>
+<span id="cb536-50"><a href="#cb536-50" aria-hidden="true" tabindex="-1"></a><span class="co">**********************************************************/</span></span>
+<span id="cb536-51"><a href="#cb536-51" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> print_result <span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb536-52"><a href="#cb536-52" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb536-53"><a href="#cb536-53" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb536-54"><a href="#cb536-54" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The most pressing question that remains is how to represent the hand
+of cards. Let’s see what operations <code>read_cards</code> and
+<code>analyze_hand</code> will perform on the hand. During the analysis
+of the hand, <code>analyze_hand</code> will need to know how many cards
+are in each rank and each suit. This suggests that we use two arrays,
+<code>num_in_rank</code> and <code>num_in_suit</code>. The value of
+<code>num_in_rank[r]</code> will be the number of cards with rank
+<code>r</code>, and the value of <code>num_in_suit[s]</code> will be the
+number of cards with suit <code>s</code>. (We’ll encode ranks as numbers
+between 0 and 12, and suits as numbers between 0 and 3.) We’ll also need
+a third array, <code>card_exists</code>, so that read cards can detect
+duplicate cards. Each time <code>read_cards</code> reads a card with
+rank <code>r</code> and suit <code>s</code>, it checks whether the value
+of <code>card_exists[r][s]</code> is <code>true</code>. If so, the card
+was previously entered; if not, <code>read_cards</code> assigns
+<code>true</code> to <code>card_exists[r][s]</code>.</p>
+<p>Both the <code>read_cards</code> function and the
+<code>analyze_hand</code> function will need access to the
+<code>num_in_rank</code> and <code>num_in_suit</code> arrays, so I’ll
+make them external variables. The <code>card_exists</code> array is used
+only by <code>read_cards</code>, so it can be local to that function. As
+a rule, variables should be made external only if necessary.</p>
+<p>Having decided on the major data structures, we can now finish the
+program:</p>
+<div class="sourceCode" id="cb537"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb537-1"><a href="#cb537-1" aria-hidden="true" tabindex="-1"></a><span class="co">/********************************************************************************</span></span>
+<span id="cb537-2"><a href="#cb537-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * File: poker.c</span></span>
+<span id="cb537-3"><a href="#cb537-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb537-4"><a href="#cb537-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Classifies a poker hand</span></span>
+<span id="cb537-5"><a href="#cb537-5" aria-hidden="true" tabindex="-1"></a><span class="co"> ********************************************************************************/</span></span>
+<span id="cb537-6"><a href="#cb537-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-7"><a href="#cb537-7" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Header inclusions*/</span></span>
+<span id="cb537-8"><a href="#cb537-8" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span><span class="pp">    </span><span class="co">/* C99 only */</span></span>
+<span id="cb537-9"><a href="#cb537-9" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb537-10"><a href="#cb537-10" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdlib.h&gt;</span></span>
+<span id="cb537-11"><a href="#cb537-11" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Header inclusions*/</span></span>
+<span id="cb537-12"><a href="#cb537-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-13"><a href="#cb537-13" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: MACRO definitions*/</span></span>
+<span id="cb537-14"><a href="#cb537-14" aria-hidden="true" tabindex="-1"></a><span class="pp">#define NUM_RANKS 13</span></span>
+<span id="cb537-15"><a href="#cb537-15" aria-hidden="true" tabindex="-1"></a><span class="pp">#define NUM_SUITS 4</span></span>
+<span id="cb537-16"><a href="#cb537-16" aria-hidden="true" tabindex="-1"></a><span class="pp">#define NUM_CARDS 5</span></span>
+<span id="cb537-17"><a href="#cb537-17" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: MACRO definitions*/</span></span>
+<span id="cb537-18"><a href="#cb537-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-19"><a href="#cb537-19" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: type definitions*/</span></span>
+<span id="cb537-20"><a href="#cb537-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-21"><a href="#cb537-21" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: type definitions*/</span></span>
+<span id="cb537-22"><a href="#cb537-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-23"><a href="#cb537-23" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: External Variable declarations*/</span></span>
+<span id="cb537-24"><a href="#cb537-24" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> num_in_rank<span class="op">[</span>NUM_RANKS<span class="op">];</span></span>
+<span id="cb537-25"><a href="#cb537-25" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> num_in_suit<span class="op">[</span>NUM_SUITS<span class="op">];</span></span>
+<span id="cb537-26"><a href="#cb537-26" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> straight<span class="op">,</span> flush<span class="op">,</span> four<span class="op">,</span> three<span class="op">;</span></span>
+<span id="cb537-27"><a href="#cb537-27" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> pairs<span class="op">;</span> <span class="co">/* can be 0, 1, or 2 */</span></span>
+<span id="cb537-28"><a href="#cb537-28" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: External Variable declarations*/</span></span>
+<span id="cb537-29"><a href="#cb537-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-30"><a href="#cb537-30" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Function prototypes*/</span></span>
+<span id="cb537-31"><a href="#cb537-31" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> read_cards<span class="op">(</span><span class="dt">void</span><span class="op">);</span></span>
+<span id="cb537-32"><a href="#cb537-32" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> analyze_hand<span class="op">(</span><span class="dt">void</span><span class="op">);</span></span>
+<span id="cb537-33"><a href="#cb537-33" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> print_result<span class="op">(</span><span class="dt">void</span><span class="op">);</span></span>
+<span id="cb537-34"><a href="#cb537-34" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Function prototypes*/</span></span>
+<span id="cb537-35"><a href="#cb537-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-36"><a href="#cb537-36" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb537-37"><a href="#cb537-37" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: main</span></span>
+<span id="cb537-38"><a href="#cb537-38" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: int</span></span>
+<span id="cb537-39"><a href="#cb537-39" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb537-40"><a href="#cb537-40" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: void</span></span>
+<span id="cb537-41"><a href="#cb537-41" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb537-42"><a href="#cb537-42" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb537-43"><a href="#cb537-43" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb537-44"><a href="#cb537-44" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: Calls read_cards, analyze_hand, and print_result repeatedly.</span></span>
+<span id="cb537-45"><a href="#cb537-45" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb537-46"><a href="#cb537-46" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb537-47"><a href="#cb537-47" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb537-48"><a href="#cb537-48" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(;</span> <span class="op">;</span> <span class="op">)</span></span>
+<span id="cb537-49"><a href="#cb537-49" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-50"><a href="#cb537-50" aria-hidden="true" tabindex="-1"></a>        read_cards<span class="op">();</span></span>
+<span id="cb537-51"><a href="#cb537-51" aria-hidden="true" tabindex="-1"></a>        analyze_hand<span class="op">();</span></span>
+<span id="cb537-52"><a href="#cb537-52" aria-hidden="true" tabindex="-1"></a>        print_result<span class="op">();</span></span>
+<span id="cb537-53"><a href="#cb537-53" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb537-54"><a href="#cb537-54" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb537-55"><a href="#cb537-55" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb537-56"><a href="#cb537-56" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb537-57"><a href="#cb537-57" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">//FUNCTION </span><span class="re">END</span><span class="co">: main</span></span>
+<span id="cb537-58"><a href="#cb537-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-59"><a href="#cb537-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-60"><a href="#cb537-60" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb537-61"><a href="#cb537-61" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: read_cards</span></span>
+<span id="cb537-62"><a href="#cb537-62" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: void</span></span>
+<span id="cb537-63"><a href="#cb537-63" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb537-64"><a href="#cb537-64" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: void</span></span>
+<span id="cb537-65"><a href="#cb537-65" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb537-66"><a href="#cb537-66" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb537-67"><a href="#cb537-67" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb537-68"><a href="#cb537-68" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: Reads the cards into the external variables num_in_rank and num_in_suit; checks for bad cards and duplicate cards.</span></span>
+<span id="cb537-69"><a href="#cb537-69" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb537-70"><a href="#cb537-70" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> read_cards<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb537-71"><a href="#cb537-71" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb537-72"><a href="#cb537-72" aria-hidden="true" tabindex="-1"></a>    <span class="dt">bool</span> card_exists<span class="op">[</span>NUM_RANKS<span class="op">][</span>NUM_SUITS<span class="op">];</span></span>
+<span id="cb537-73"><a href="#cb537-73" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> ch<span class="op">,</span> rank_ch<span class="op">,</span> suit_ch<span class="op">;</span></span>
+<span id="cb537-74"><a href="#cb537-74" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> rank<span class="op">,</span> suit<span class="op">;</span></span>
+<span id="cb537-75"><a href="#cb537-75" aria-hidden="true" tabindex="-1"></a>    <span class="dt">bool</span> bad_card<span class="op">;</span></span>
+<span id="cb537-76"><a href="#cb537-76" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> cards_read <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb537-77"><a href="#cb537-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-78"><a href="#cb537-78" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>rank <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> rank <span class="op">&lt;</span> NUM_RANKS<span class="op">;</span> rank<span class="op">++)</span></span>
+<span id="cb537-79"><a href="#cb537-79" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-80"><a href="#cb537-80" aria-hidden="true" tabindex="-1"></a>        num_in_rank<span class="op">[</span>rank<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb537-81"><a href="#cb537-81" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span><span class="op">(</span>suit <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> suit <span class="op">&lt;</span> NUM_SUITS<span class="op">;</span> suit<span class="op">++)</span></span>
+<span id="cb537-82"><a href="#cb537-82" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb537-83"><a href="#cb537-83" aria-hidden="true" tabindex="-1"></a>            card_exists<span class="op">[</span>rank<span class="op">][</span>suit<span class="op">]</span> <span class="op">=</span> false<span class="op">;</span></span>
+<span id="cb537-84"><a href="#cb537-84" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb537-85"><a href="#cb537-85" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: clear card_exists</span></span>
+<span id="cb537-86"><a href="#cb537-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-87"><a href="#cb537-87" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>suit <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> suit <span class="op">&lt;</span> NUM_SUITS<span class="op">;</span> suit<span class="op">++)</span></span>
+<span id="cb537-88"><a href="#cb537-88" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-89"><a href="#cb537-89" aria-hidden="true" tabindex="-1"></a>        num_in_suit<span class="op">[</span>suit<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb537-90"><a href="#cb537-90" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb537-91"><a href="#cb537-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-92"><a href="#cb537-92" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>cards_read <span class="op">&lt;</span> NUM_CARDS<span class="op">)</span></span>
+<span id="cb537-93"><a href="#cb537-93" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-94"><a href="#cb537-94" aria-hidden="true" tabindex="-1"></a>        bad_card <span class="op">=</span> false<span class="op">;</span></span>
+<span id="cb537-95"><a href="#cb537-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-96"><a href="#cb537-96" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Enter a card: &quot;</span><span class="op">);</span></span>
+<span id="cb537-97"><a href="#cb537-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-98"><a href="#cb537-98" aria-hidden="true" tabindex="-1"></a>        rank_ch <span class="op">=</span> getchar<span class="op">();</span></span>
+<span id="cb537-99"><a href="#cb537-99" aria-hidden="true" tabindex="-1"></a>        <span class="cf">switch</span><span class="op">(</span>rank_ch<span class="op">)</span></span>
+<span id="cb537-100"><a href="#cb537-100" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb537-101"><a href="#cb537-101" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;0&#39;</span><span class="op">:</span> exit<span class="op">(</span>EXIT_SUCCESS<span class="op">);</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-102"><a href="#cb537-102" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;2&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">0</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-103"><a href="#cb537-103" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;3&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">1</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-104"><a href="#cb537-104" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;4&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">2</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-105"><a href="#cb537-105" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;5&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">3</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-106"><a href="#cb537-106" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;6&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">4</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-107"><a href="#cb537-107" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;7&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">5</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-108"><a href="#cb537-108" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;8&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">6</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-109"><a href="#cb537-109" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;9&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">7</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-110"><a href="#cb537-110" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;t&#39;</span><span class="op">:</span> <span class="cf">case</span> <span class="ch">&#39;T&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">8</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-111"><a href="#cb537-111" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;j&#39;</span><span class="op">:</span> <span class="cf">case</span> <span class="ch">&#39;J&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">9</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-112"><a href="#cb537-112" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;q&#39;</span><span class="op">:</span> <span class="cf">case</span> <span class="ch">&#39;Q&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">10</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-113"><a href="#cb537-113" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;k&#39;</span><span class="op">:</span> <span class="cf">case</span> <span class="ch">&#39;K&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">11</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-114"><a href="#cb537-114" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;a&#39;</span><span class="op">:</span> <span class="cf">case</span> <span class="ch">&#39;A&#39;</span><span class="op">:</span> rank <span class="op">=</span> <span class="dv">12</span><span class="op">;</span><span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-115"><a href="#cb537-115" aria-hidden="true" tabindex="-1"></a>            <span class="cf">default</span><span class="op">:</span> bad_card <span class="op">=</span> true<span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-116"><a href="#cb537-116" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// switch statement: rank</span></span>
+<span id="cb537-117"><a href="#cb537-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-118"><a href="#cb537-118" aria-hidden="true" tabindex="-1"></a>        suit_ch <span class="op">=</span> getchar<span class="op">();</span></span>
+<span id="cb537-119"><a href="#cb537-119" aria-hidden="true" tabindex="-1"></a>        <span class="cf">switch</span><span class="op">(</span>suit_ch<span class="op">)</span></span>
+<span id="cb537-120"><a href="#cb537-120" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb537-121"><a href="#cb537-121" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;c&#39;</span><span class="op">:</span> <span class="cf">case</span> <span class="ch">&#39;C&#39;</span><span class="op">:</span> suit <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-122"><a href="#cb537-122" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;d&#39;</span><span class="op">:</span> <span class="cf">case</span> <span class="ch">&#39;D&#39;</span><span class="op">:</span> suit <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-123"><a href="#cb537-123" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;h&#39;</span><span class="op">:</span> <span class="cf">case</span> <span class="ch">&#39;H&#39;</span><span class="op">:</span> suit <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-124"><a href="#cb537-124" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;s&#39;</span><span class="op">:</span> <span class="cf">case</span> <span class="ch">&#39;S&#39;</span><span class="op">:</span> suit <span class="op">=</span> <span class="dv">3</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-125"><a href="#cb537-125" aria-hidden="true" tabindex="-1"></a>            <span class="cf">default</span><span class="op">:</span> bad_card <span class="op">=</span> true<span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb537-126"><a href="#cb537-126" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb537-127"><a href="#cb537-127" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// switch statement: suit</span></span>
+<span id="cb537-128"><a href="#cb537-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-129"><a href="#cb537-129" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span><span class="op">((</span>ch <span class="op">=</span> getchar<span class="op">())</span> <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">)</span></span>
+<span id="cb537-130"><a href="#cb537-130" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb537-131"><a href="#cb537-131" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span><span class="op">(</span>ch <span class="op">!=</span> <span class="ch">&#39; &#39;</span><span class="op">)</span></span>
+<span id="cb537-132"><a href="#cb537-132" aria-hidden="true" tabindex="-1"></a>            <span class="op">{</span></span>
+<span id="cb537-133"><a href="#cb537-133" aria-hidden="true" tabindex="-1"></a>                bad_card <span class="op">=</span> true<span class="op">;</span></span>
+<span id="cb537-134"><a href="#cb537-134" aria-hidden="true" tabindex="-1"></a>            <span class="op">}</span>   <span class="co">// if condition: </span></span>
+<span id="cb537-135"><a href="#cb537-135" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// while statement: </span></span>
+<span id="cb537-136"><a href="#cb537-136" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>bad_card<span class="op">)</span></span>
+<span id="cb537-137"><a href="#cb537-137" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb537-138"><a href="#cb537-138" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;Bad card; ignored.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb537-139"><a href="#cb537-139" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// if condition: </span></span>
+<span id="cb537-140"><a href="#cb537-140" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span> <span class="cf">if</span><span class="op">(</span>card_exists<span class="op">[</span>rank<span class="op">][</span>suit<span class="op">])</span></span>
+<span id="cb537-141"><a href="#cb537-141" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb537-142"><a href="#cb537-142" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;Duplicate card; ignored.</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb537-143"><a href="#cb537-143" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// else-if condition: </span></span>
+<span id="cb537-144"><a href="#cb537-144" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span></span>
+<span id="cb537-145"><a href="#cb537-145" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb537-146"><a href="#cb537-146" aria-hidden="true" tabindex="-1"></a>            num_in_rank<span class="op">[</span>rank<span class="op">]++;</span></span>
+<span id="cb537-147"><a href="#cb537-147" aria-hidden="true" tabindex="-1"></a>            num_in_suit<span class="op">[</span>suit<span class="op">]++;</span></span>
+<span id="cb537-148"><a href="#cb537-148" aria-hidden="true" tabindex="-1"></a>            card_exists<span class="op">[</span>rank<span class="op">][</span>suit<span class="op">]</span> <span class="op">=</span> true<span class="op">;</span></span>
+<span id="cb537-149"><a href="#cb537-149" aria-hidden="true" tabindex="-1"></a>            cards_read<span class="op">++;</span></span>
+<span id="cb537-150"><a href="#cb537-150" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// else condition: </span></span>
+<span id="cb537-151"><a href="#cb537-151" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// while statement: allowed number of cards read</span></span>
+<span id="cb537-152"><a href="#cb537-152" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-153"><a href="#cb537-153" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: read_cards</span></span>
+<span id="cb537-154"><a href="#cb537-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-155"><a href="#cb537-155" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb537-156"><a href="#cb537-156" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: analyze_hand</span></span>
+<span id="cb537-157"><a href="#cb537-157" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: void</span></span>
+<span id="cb537-158"><a href="#cb537-158" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb537-159"><a href="#cb537-159" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: void</span></span>
+<span id="cb537-160"><a href="#cb537-160" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb537-161"><a href="#cb537-161" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb537-162"><a href="#cb537-162" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb537-163"><a href="#cb537-163" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: Determines whether the hand contains a straight, a flush, four-of-a-kind, and/or three-of-a-kind; determines the number of pairs; stores the results into the external variables straight, flush, four, three, and pairs.</span></span>
+<span id="cb537-164"><a href="#cb537-164" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb537-165"><a href="#cb537-165" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> analyze_hand<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb537-166"><a href="#cb537-166" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb537-167"><a href="#cb537-167" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> num_consec <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb537-168"><a href="#cb537-168" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> rank<span class="op">,</span> suit<span class="op">;</span></span>
+<span id="cb537-169"><a href="#cb537-169" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb537-170"><a href="#cb537-170" aria-hidden="true" tabindex="-1"></a>    straight <span class="op">=</span> false<span class="op">;</span></span>
+<span id="cb537-171"><a href="#cb537-171" aria-hidden="true" tabindex="-1"></a>    flush <span class="op">=</span> false<span class="op">;</span></span>
+<span id="cb537-172"><a href="#cb537-172" aria-hidden="true" tabindex="-1"></a>    four <span class="op">=</span> false<span class="op">;</span></span>
+<span id="cb537-173"><a href="#cb537-173" aria-hidden="true" tabindex="-1"></a>    three <span class="op">=</span> false<span class="op">;</span></span>
+<span id="cb537-174"><a href="#cb537-174" aria-hidden="true" tabindex="-1"></a>    pairs <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb537-175"><a href="#cb537-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-176"><a href="#cb537-176" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* check for flush */</span></span>
+<span id="cb537-177"><a href="#cb537-177" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>suit <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> suit <span class="op">&lt;</span> NUM_SUITS<span class="op">;</span> suit<span class="op">++)</span></span>
+<span id="cb537-178"><a href="#cb537-178" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-179"><a href="#cb537-179" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>num_in_suit<span class="op">[</span>suit<span class="op">]</span> <span class="op">==</span> NUM_CARDS<span class="op">)</span></span>
+<span id="cb537-180"><a href="#cb537-180" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb537-181"><a href="#cb537-181" aria-hidden="true" tabindex="-1"></a>            flush <span class="op">=</span> true<span class="op">;</span></span>
+<span id="cb537-182"><a href="#cb537-182" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// if condition: </span></span>
+<span id="cb537-183"><a href="#cb537-183" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb537-184"><a href="#cb537-184" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* check for straight */</span></span>
+<span id="cb537-185"><a href="#cb537-185" aria-hidden="true" tabindex="-1"></a>    rank <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb537-186"><a href="#cb537-186" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>num_in_rank<span class="op">[</span>rank<span class="op">]</span> <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb537-187"><a href="#cb537-187" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-188"><a href="#cb537-188" aria-hidden="true" tabindex="-1"></a>        rank<span class="op">++;</span></span>
+<span id="cb537-189"><a href="#cb537-189" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// while statement: </span></span>
+<span id="cb537-190"><a href="#cb537-190" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(;</span> rank <span class="op">&lt;</span> NUM_RANKS <span class="op">&amp;&amp;</span> num_in_rank<span class="op">[</span>rank<span class="op">]</span> <span class="op">&gt;</span> <span class="dv">0</span><span class="op">;</span> rank<span class="op">++)</span></span>
+<span id="cb537-191"><a href="#cb537-191" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-192"><a href="#cb537-192" aria-hidden="true" tabindex="-1"></a>        num_consec<span class="op">++;</span></span>
+<span id="cb537-193"><a href="#cb537-193" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb537-194"><a href="#cb537-194" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>num_consec <span class="op">==</span> NUM_CARDS<span class="op">)</span></span>
+<span id="cb537-195"><a href="#cb537-195" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-196"><a href="#cb537-196" aria-hidden="true" tabindex="-1"></a>        straight <span class="op">=</span> true<span class="op">;</span></span>
+<span id="cb537-197"><a href="#cb537-197" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span><span class="op">;</span>    <span class="co">// return out of the function</span></span>
+<span id="cb537-198"><a href="#cb537-198" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// if condition: </span></span>
+<span id="cb537-199"><a href="#cb537-199" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-200"><a href="#cb537-200" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* check for 4-of-a-kind, 3-of-a-kind, and pairs */</span></span>
+<span id="cb537-201"><a href="#cb537-201" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>rank <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> rank <span class="op">&lt;</span> NUM_RANKS<span class="op">;</span> rank<span class="op">++)</span></span>
+<span id="cb537-202"><a href="#cb537-202" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-203"><a href="#cb537-203" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>num_in_rank<span class="op">[</span>rank<span class="op">]</span> <span class="op">==</span> <span class="dv">4</span><span class="op">)</span></span>
+<span id="cb537-204"><a href="#cb537-204" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb537-205"><a href="#cb537-205" aria-hidden="true" tabindex="-1"></a>            four <span class="op">=</span> true<span class="op">;</span></span>
+<span id="cb537-206"><a href="#cb537-206" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// if condition: </span></span>
+<span id="cb537-207"><a href="#cb537-207" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>num_in_rank<span class="op">[</span>rank<span class="op">]</span> <span class="op">==</span> <span class="dv">3</span><span class="op">)</span></span>
+<span id="cb537-208"><a href="#cb537-208" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb537-209"><a href="#cb537-209" aria-hidden="true" tabindex="-1"></a>            three <span class="op">=</span> true<span class="op">;</span></span>
+<span id="cb537-210"><a href="#cb537-210" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// if condition: </span></span>
+<span id="cb537-211"><a href="#cb537-211" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>num_in_rank<span class="op">[</span>rank<span class="op">]</span> <span class="op">==</span> <span class="dv">2</span><span class="op">)</span></span>
+<span id="cb537-212"><a href="#cb537-212" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb537-213"><a href="#cb537-213" aria-hidden="true" tabindex="-1"></a>            pairs<span class="op">++;</span></span>
+<span id="cb537-214"><a href="#cb537-214" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// if condition: </span></span>
+<span id="cb537-215"><a href="#cb537-215" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb537-216"><a href="#cb537-216" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: analyze_hand</span></span>
+<span id="cb537-217"><a href="#cb537-217" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb537-218"><a href="#cb537-218" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb537-219"><a href="#cb537-219" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: print_result</span></span>
+<span id="cb537-220"><a href="#cb537-220" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: void</span></span>
+<span id="cb537-221"><a href="#cb537-221" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb537-222"><a href="#cb537-222" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: void</span></span>
+<span id="cb537-223"><a href="#cb537-223" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb537-224"><a href="#cb537-224" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb537-225"><a href="#cb537-225" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb537-226"><a href="#cb537-226" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: Prints the classification of the hand, based on the values of the external variables straight, flush, four, three, and pairs.</span></span>
+<span id="cb537-227"><a href="#cb537-227" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb537-228"><a href="#cb537-228" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> print_result<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb537-229"><a href="#cb537-229" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb537-230"><a href="#cb537-230" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>straight <span class="op">&amp;&amp;</span> flush<span class="op">)</span></span>
+<span id="cb537-231"><a href="#cb537-231" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-232"><a href="#cb537-232" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Straight flush&quot;</span><span class="op">);</span></span>
+<span id="cb537-233"><a href="#cb537-233" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// if condition: </span></span>
+<span id="cb537-234"><a href="#cb537-234" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span><span class="op">(</span>four<span class="op">)</span></span>
+<span id="cb537-235"><a href="#cb537-235" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-236"><a href="#cb537-236" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Four of a kind&quot;</span><span class="op">);</span></span>
+<span id="cb537-237"><a href="#cb537-237" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// else-if condition: </span></span>
+<span id="cb537-238"><a href="#cb537-238" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span><span class="op">(</span>three <span class="op">&amp;&amp;</span> pairs <span class="op">==</span> <span class="dv">1</span><span class="op">)</span></span>
+<span id="cb537-239"><a href="#cb537-239" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-240"><a href="#cb537-240" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Full house&quot;</span><span class="op">);</span></span>
+<span id="cb537-241"><a href="#cb537-241" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// else-if condition: </span></span>
+<span id="cb537-242"><a href="#cb537-242" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span><span class="op">(</span>flush<span class="op">)</span></span>
+<span id="cb537-243"><a href="#cb537-243" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-244"><a href="#cb537-244" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Flush&quot;</span><span class="op">);</span></span>
+<span id="cb537-245"><a href="#cb537-245" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// else-if condition: </span></span>
+<span id="cb537-246"><a href="#cb537-246" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span><span class="op">(</span>straight<span class="op">)</span></span>
+<span id="cb537-247"><a href="#cb537-247" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-248"><a href="#cb537-248" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Straight&quot;</span><span class="op">);</span></span>
+<span id="cb537-249"><a href="#cb537-249" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// else-if condition: </span></span>
+<span id="cb537-250"><a href="#cb537-250" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span><span class="op">(</span>three<span class="op">)</span></span>
+<span id="cb537-251"><a href="#cb537-251" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-252"><a href="#cb537-252" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Three of a kind&quot;</span><span class="op">);</span></span>
+<span id="cb537-253"><a href="#cb537-253" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// else-if condition: </span></span>
+<span id="cb537-254"><a href="#cb537-254" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span><span class="op">(</span>pairs <span class="op">==</span> <span class="dv">2</span><span class="op">)</span></span>
+<span id="cb537-255"><a href="#cb537-255" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-256"><a href="#cb537-256" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Two pairs&quot;</span><span class="op">);</span></span>
+<span id="cb537-257"><a href="#cb537-257" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// else-if condition: </span></span>
+<span id="cb537-258"><a href="#cb537-258" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">if</span><span class="op">(</span>pairs <span class="op">==</span> <span class="dv">1</span><span class="op">)</span></span>
+<span id="cb537-259"><a href="#cb537-259" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-260"><a href="#cb537-260" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Pair&quot;</span><span class="op">);</span></span>
+<span id="cb537-261"><a href="#cb537-261" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// else-if condition: </span></span>
+<span id="cb537-262"><a href="#cb537-262" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb537-263"><a href="#cb537-263" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb537-264"><a href="#cb537-264" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;High card&quot;</span><span class="op">);</span></span>
+<span id="cb537-265"><a href="#cb537-265" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// else condition: </span></span>
+<span id="cb537-266"><a href="#cb537-266" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb537-267"><a href="#cb537-267" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: print_result</span></span></code></pre></div>
+<p>Notice the use of the <code>exit</code> function in
+<code>read_cards</code> (incase <code>0</code> of the first
+<code>switch</code> statement). <code>exit</code> is convenient for this
+program because of its ability to terminate execution from anywhere in
+the program.</p>
+<hr />
+<h2 id="qa-4">Q&amp;A</h2>
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: What impact do local variables with static storage duration have
+on recursive functions?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: When a function is called recursively, fresh copies are made of
+its automatic variables for each call. This doesn’t occur for static
+variables, though. Instead, all calls of the function share the
+<em>same</em> static variables.</p>
+</div>
+<!-- END: div -->
+<hr />
+<!-- START: div -->
+<div class="QandA_question">
+<p>Q: In the following example, <code>j</code> is initialized to the
+same value as <code>i</code>, but there are two variables named
+<code>i</code>:</p>
+<div class="sourceCode" id="cb538"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb538-1"><a href="#cb538-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb538-2"><a href="#cb538-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb538-3"><a href="#cb538-3" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> f<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb538-4"><a href="#cb538-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb538-5"><a href="#cb538-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> j <span class="op">=</span> i<span class="op">;</span></span>
+<span id="cb538-6"><a href="#cb538-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb538-7"><a href="#cb538-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb538-8"><a href="#cb538-8" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Is this code legal? If so, what is <code>j</code>’s initial value, 1
+or 2?</p>
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+<p>A: The code is indeed legal. The scope of a local variable doesn’t
+begin until its declaration. Therefore, the declaration of
+<code>j</code> refers to the external variable named <code>i</code>. The
+initial value of <code>j</code> will be 1.</p>
+</div>
+<!-- END: div -->
+<hr />
+<h2 id="examples-8">Examples</h2>
+<ul>
+<li>Programs: <a
+href="./cknkCh10/cknkCh10Exmp/">./cknkCh10/cknkCh10Exmp/</a></li>
+</ul>
+<h2 id="exercises-8">Exercises</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh10/cknkCh10Exrc/README.md">./cknkCh10/cknkCh10Exrc/README.md</a><br />
+</li>
+<li>Readme (html): <a
+href="./cknkCh10/cknkCh10Exrc/cknkCh10ExrcReadme.html">./cknkCh10/cknkCh10Exrc/cknkCh10ExrcReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh10/cknkCh10Exrc/">./cknkCh10/cknkCh10Exrc/</a></li>
+</ul>
+<h2 id="programming-projects-8">Programming Projects</h2>
+<ul>
+<li>Readme: <a
+href="./cknkCh10/cknkCh10Prj/README.md">./cknkCh10/cknkCh10Prj/README.md</a><br />
+</li>
+<li>Readme: <a
+href="./cknkCh10/cknkCh10Prj/cknkCh10PrjReadme.html">./cknkCh10/cknkCh10Prj/cknkCh10PrjReadme.html</a><br />
+</li>
+<li>Programs: <a
+href="./cknkCh10/cknkCh10Prj/">./cknkCh10/cknkCh10Prj/</a></li>
+</ul>
+<hr class="chapterDivider"/>
 </body>
 </html>
