@@ -256,4 +256,17 @@
 		],
 		"description": ["HTML subscript in markdown"]
 	},
+
+	"markdown-todo": {
+		"prefix": "md-todo, ..md-todo",
+		"body": [
+		  "<!-- START: div -->",
+		  "<div class=\"todo\">",
+		  "<p class=\"todo-pipelined todo-title\"><b>TASK TITLE:</b> $1</p>",
+		  "<!--<p class=\"todo-description\"><b>Description/Comment:</b> $2</p>-->$3",
+		  "</div>",
+		  "<!-- END: div -->$4"
+		],
+		"description": "markdown-todo"
+	  }
 }

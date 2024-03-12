@@ -421,3 +421,63 @@ tr:nth-child(even) { /* Alternating row background */
     content: "\2191";
     /* font-size: 24px; */
 }
+
+.todo
+{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4%;
+    padding: 3px;
+    margin: 1px;
+}
+
+.todo-pipelined::before
+{
+    content: "\279F";
+    color: grey;
+    border-radius: 50%;
+    border-style: solid;
+    margin-right: 5px;
+    padding: 1px;
+}
+
+.todo-inprogress::before
+{
+    content: "\270D";
+    color: blue;
+    border-radius: 50%;
+    border-style: solid;
+    margin-right: 5px;
+    padding: 1px;
+}
+
+.todo-completed::before
+{
+    content: "\2714";
+    color: green;
+    border-radius: 50%;
+    border-style: solid;
+    margin-right: 5px;
+    padding: 1px;
+}
+
+.todo-rejected::before
+{
+    content: "\2717";
+    color: red;
+    border-radius: 50%;
+    border-style: solid;
+    margin-right: 5px;
+    padding: 1px;
+}
+
+.todo-onhold::before
+{
+    content: "\270B";
+    color: yellow;
+    border-radius: 50%;
+    border-style: solid;
+    margin-right: 5px;
+    padding: 1px;
+}
