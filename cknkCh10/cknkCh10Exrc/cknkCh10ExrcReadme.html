@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>
+Chapter 10 exercises
+</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../myStyle.css">
+</head>
+<body>
+<h2 id="program-organization">10 Program Organization</h2>
+<h1 id="chapter-10-excercises">Chapter 10 Excercises</h1>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch10exrc001">cknkCh10Exrc001</h1>
+<p>Section 10.4</p>
+<!-- START: Problem Statement -->
+<p>The following program outline shows only function definitions and
+variable declarations.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> f<span class="op">(</span><span class="dt">int</span> b<span class="op">)</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> c<span class="op">;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> g<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> d<span class="op">;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>        <span class="dt">int</span> e<span class="op">;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> f<span class="op">;</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>For each of the following scopes, list all variable and parameter
+names visible in that scope:</p>
+<ol type="a">
+<li>The <code>f</code> function<br />
+</li>
+<li>The <code>g</code> function<br />
+</li>
+<li>The block in which <code>e</code> is declared<br />
+</li>
+<li>The <code>main</code> function</li>
+</ol>
+<!-- END: Problem Statement -->
+<h1 id="solution">Solution:</h1>
+<h2 id="program-link">Program Link</h2>
+<p><a href="./cknkCh10Exrc001.c">cknkCh10Exrc001.c</a></p>
+<h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
+<h3 id="trial1">Trial1:</h3>
+<h4 id="trial1-execution">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch10exrc002">cknkCh10Exrc002</h1>
+<p>Section 10.4</p>
+<!-- START: Problem Statement -->
+<p>The following program outline shows only function definitions and
+variable declarations.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> b<span class="op">,</span> c<span class="op">;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> f<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> b<span class="op">,</span> d<span class="op">;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> g<span class="op">(</span><span class="dt">int</span> a<span class="op">)</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> c<span class="op">;</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>        <span class="dt">int</span> a<span class="op">,</span> d<span class="op">;</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> c<span class="op">,</span> d<span class="op">;</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>For each of the following scopes, list all variable and parameter
+names visible in that scope. If there’s more than one variable or
+parameter with the same name, indicate which one is visible.</p>
+<ol type="a">
+<li>The <code>f</code> function<br />
+</li>
+<li>The <code>g</code> function<br />
+</li>
+<li>The block in which <code>a</code> and <code>d</code> are
+declared<br />
+</li>
+<li>The <code>main</code> function</li>
+</ol>
+<!-- END: Problem Statement -->
+<h1 id="solution-1">Solution:</h1>
+<h2 id="program-link-1">Program Link</h2>
+<p><a href="./cknkCh10Exrc002.c">cknkCh10Exrc002.c</a></p>
+<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
+<h3 id="trial1-1">Trial1:</h3>
+<h4 id="trial1-execution-1">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch10exrc003">cknkCh10Exrc003</h1>
+<p>Section 10.4</p>
+<!-- START: Problem Statement -->
+<p>Suppose that a program has only one function (<code>main</code>). How
+many different variables named <code>i</code> could this program
+contain?</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-2">Solution:</h1>
+<h2 id="program-link-2">Program Link</h2>
+<p><a href="./cknkCh10Exrc003.c">cknkCh10Exrc003.c</a></p>
+<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
+<h3 id="trial1-2">Trial1:</h3>
+<h4 id="trial1-execution-2">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-2">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<hr class="hr1ExrcPrj"/>
+</body>
+</html>
