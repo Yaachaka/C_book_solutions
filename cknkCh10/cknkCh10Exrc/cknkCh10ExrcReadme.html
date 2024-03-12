@@ -47,45 +47,79 @@ names visible in that scope:</p>
 </ol>
 <!-- END: Problem Statement -->
 <h1 id="solution">Solution:</h1>
-<h2 id="program-link">Program Link</h2>
-<p><a href="./cknkCh10Exrc001.c">cknkCh10Exrc001.c</a></p>
-<h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
-<h3 id="trial1">Trial1:</h3>
-<h4 id="trial1-execution">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
+<p>The <code>f</code> function</p>
+<ul>
+<li>External variable <code>a</code> is visible inside the function
+<code>f</code>.<br />
+</li>
+<li>Parameter variable <code>b</code> is visible throughout the function
+<code>f</code> and has automatic storage duration.<br />
+</li>
+<li>Local variable <code>c</code> is visible inside the function
+<code>f</code> from the line of declaration to the end of the function
+<code>f</code>. And the variable has automatic storage duration.</li>
+</ul>
+</li>
+<li>
+<p>The <code>g</code> function</p>
+<ul>
+<li>External variable <code>a</code> is visible inside the function
+<code>g</code>.<br />
+</li>
+<li>Local variable <code>d</code> is visible inside the function
+<code>g</code> from the line of declaration to the end of the function
+<code>g</code>. And the variable has automatic storage duration. The
+variable is visible inside any block of the function <code>g</code> that
+appear after the declaration of the variable.<br />
+</li>
+<li>Local variable <code>e</code> is visible only to the block of
+function <code>g</code> in which its duration is only until the end of
+the block (not the function block).</li>
+</ul>
+</li>
+<li>
+<p>The block in which <code>e</code> is declared</p>
+<p><em>Note: The answer given for option <code>(b)</code> is applicable
+here too. In brief, external variable <code>a</code>, local variable
+<code>d</code> (declared in function <code>g</code>) and local variable
+<code>e</code> (declared inside the block inside of function
+<code>g</code>) are visible to the block.</em></p>
+</li>
+<li>
+<p>The <code>main</code> function</p>
+<p>External variable <code>a</code> and the local variable
+<code>f</code> are visible inside the <code>main</code> function.</p>
+</li>
+</ol>
+<!-- END: ordered-list -->
 <hr class="hr1ExrcPrj"/>
 <h1 id="cknkch10exrc002">cknkCh10Exrc002</h1>
 <p>Section 10.4</p>
 <!-- START: Problem Statement -->
 <p>The following program outline shows only function definitions and
 variable declarations.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> b<span class="op">,</span> c<span class="op">;</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> f<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> b<span class="op">,</span> d<span class="op">;</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> g<span class="op">(</span><span class="dt">int</span> a<span class="op">)</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> c<span class="op">;</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>        <span class="dt">int</span> a<span class="op">,</span> d<span class="op">;</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> c<span class="op">,</span> d<span class="op">;</span></span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> b<span class="op">,</span> c<span class="op">;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> f<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> b<span class="op">,</span> d<span class="op">;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> g<span class="op">(</span><span class="dt">int</span> a<span class="op">)</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> c<span class="op">;</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>        <span class="dt">int</span> a<span class="op">,</span> d<span class="op">;</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> c<span class="op">,</span> d<span class="op">;</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <p>For each of the following scopes, list all variable and parameter
 names visible in that scope. If there’s more than one variable or
 parameter with the same name, indicate which one is visible.</p>
@@ -101,20 +135,66 @@ declared<br />
 </ol>
 <!-- END: Problem Statement -->
 <h1 id="solution-1">Solution:</h1>
-<h2 id="program-link-1">Program Link</h2>
-<p><a href="./cknkCh10Exrc002.c">cknkCh10Exrc002.c</a></p>
-<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
-<h3 id="trial1-1">Trial1:</h3>
-<h4 id="trial1-execution-1">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-1">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-1">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
+<p>The <code>f</code> function</p>
+<ul>
+<li>The external variable <code>c</code> is visible.<br />
+</li>
+<li>The local variable <code>b</code> hides the external variable
+<code>b</code> and is visible throught the function.<br />
+</li>
+<li>The local variable <code>d</code> is visible inside the
+function.</li>
+</ul>
+</li>
+<li>
+<p>The <code>g</code> function</p>
+<ul>
+<li>External variable <code>b</code> is visible throughout the function
+<code>g</code> without conflicts.<br />
+</li>
+<li>External variable <code>c</code> is hidden by the local variable
+<code>c</code>. And the local variable <code>c</code> is visible
+throughout the function.<br />
+</li>
+<li>Parametric variable <code>a</code> is visible till the end of the
+function excluding the block inside the function. Because the local
+variable <code>a</code> declared inside the internal block of the
+function hides the parametric variable <code>a</code>. Visibility of the
+local variable <code>a</code> is limited to the internal block of the
+function.<br />
+</li>
+<li>Local variable <code>d</code> is visible only inside the internal
+block of the function and is not visible to the entire function. Local
+variable <code>d</code> declared inside the function <code>f</code> is
+different from the local variable <code>d</code> declared inside the
+internal block of the function <code>g</code>.</li>
+</ul>
+</li>
+<li>
+<p>The block in which <code>a</code> and <code>d</code> are declared</p>
+<p><em>Note: The answer provided in option <code>(b)</code> is
+applicable here also.</em></p>
+</li>
+<li>
+<p>The <code>main</code> function</p>
+<ul>
+<li>External variable <code>b</code> is visible in the <code>main</code>
+function.<br />
+</li>
+<li>External variable <code>c</code> is hidden by the local variable
+<code>c</code> of the <code>main</code> function. Local variable
+<code>c</code> is visible throught the <code>main</code> function.<br />
+</li>
+<li>Local variable <code>d</code> is visible throughout the
+<code>main</code> function. This variable is different from the ones in
+functions <code>f</code> or <code>g</code>.</li>
+</ul>
+</li>
+</ol>
+<!-- END: ordered-list -->
 <hr class="hr1ExrcPrj"/>
 <h1 id="cknkch10exrc003">cknkCh10Exrc003</h1>
 <p>Section 10.4</p>
@@ -124,20 +204,9 @@ many different variables named <code>i</code> could this program
 contain?</p>
 <!-- END: Problem Statement -->
 <h1 id="solution-2">Solution:</h1>
-<h2 id="program-link-2">Program Link</h2>
-<p><a href="./cknkCh10Exrc003.c">cknkCh10Exrc003.c</a></p>
-<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
-<h3 id="trial1-2">Trial1:</h3>
-<h4 id="trial1-execution-2">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre class="shell"><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-2">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-2">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
+<p>There can be any number of variables named <code>i</code> exist in
+the program since there can be any number of blocks in the one
+function.</p>
 <hr class="hr1ExrcPrj"/>
 </body>
 </html>

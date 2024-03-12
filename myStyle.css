@@ -25,6 +25,7 @@ div
 code
 {
     background-color: ghostwhite;
+    color: #000;
     border-radius: 15%;
     padding: 1px;
     white-space: pre-wrap;
@@ -243,6 +244,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 }
 
 table {
+  color: #000;
   border-collapse: collapse; /* Removes space between cell borders */
   width: 100%; /* Adjust as needed */
   margin: 0 auto; /* Centers table */
@@ -281,6 +283,7 @@ tr:nth-child(even) { /* Alternating row background */
 
 .infoBox
 {
+    color: #000;
     /* Inner border */
     border-width: 3px;
     border-style: ridge;

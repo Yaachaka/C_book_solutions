@@ -54,41 +54,42 @@ d. The `main` function
 
 # Solution:
 
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
 
-## Program Link
+The `f` function
 
-[cknkCh10Exrc001.c](./cknkCh10Exrc001.c)
+- External variable `a` is visible inside the function `f`.  
+- Parameter variable `b` is visible throughout the function `f` and has automatic storage duration.  
+- Local variable `c` is visible inside the function `f` from the line of declaration to the end of the function `f`. And the variable has automatic storage duration.  
 
-## Output/ExecutionLog:
+</li>
+<li>
 
+The `g` function
 
-### Trial1:
+- External variable `a` is visible inside the function `g`.  
+- Local variable `d` is visible inside the function `g` from the line of declaration to the end of the function `g`. And the variable has automatic storage duration. The variable is visible inside any block of the function `g` that appear after the declaration of the variable.  
+- Local variable `e` is visible only to the block of function `g` in which its duration is only until the end of the block (not the function block).   
 
-#### Trial1 execution:
+</li>
+<li>
 
-<!-- START: terminal interaction or other output -->
+The block in which `e` is declared
 
-```shell
+*Note: The answer given for option `(b)` is applicable here too. In brief, external variable `a`, local variable `d` (declared in function `g`) and local variable `e` (declared inside the block inside of function `g`) are visible to the block.*
 
-```
+</li>
+<li>
 
-<!-- END: terminal interaction or other output -->
+The `main` function
 
-#### Trial1 Comments:
+External variable `a` and the local variable `f` are visible inside the `main` function.
 
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+</li>
+</ol>
+<!-- END: ordered-list -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -133,41 +134,45 @@ d. The `main` function
 
 # Solution:
 
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
 
-## Program Link
+The `f` function
 
-[cknkCh10Exrc002.c](./cknkCh10Exrc002.c)
+- The external variable `c` is visible.  
+- The local variable `b` hides the external variable `b` and is visible throught the function.  
+- The local variable `d` is visible inside the function.  
 
-## Output/ExecutionLog:
+</li>
+<li>
 
+The `g` function
 
-### Trial1:
+- External variable `b` is visible throughout the function `g` without conflicts.  
+- External variable `c` is hidden by the local variable `c`. And the local variable `c` is visible throughout the function.  
+- Parametric variable `a` is visible till the end of the function excluding the block inside the function. Because the local variable `a` declared inside the internal block of the function hides the parametric variable `a`. Visibility of the local variable `a` is limited to the internal block of the function.  
+- Local variable `d` is visible only inside the internal block of the function and is not visible to the entire function. Local variable `d` declared inside the function `f` is different from the local variable `d` declared inside the internal block of the function `g`.  
 
-#### Trial1 execution:
+</li>
+<li>
 
-<!-- START: terminal interaction or other output -->
+The block in which `a` and `d` are declared
 
-```shell
+*Note: The answer provided in option `(b)` is applicable here also.*
 
-```
+</li>
+<li>
 
-<!-- END: terminal interaction or other output -->
+The `main` function
 
-#### Trial1 Comments:
+- External variable `b` is visible in the `main` function.  
+- External variable `c` is hidden by the local variable `c` of the `main` function. Local variable `c` is visible throught the `main` function.  
+- Local variable `d` is visible throughout the `main` function. This variable is different from the ones in functions `f` or `g`.  
 
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+</li>
+</ol>
+<!-- END: ordered-list -->
 
 <hr class="hr1ExrcPrj"/>
 
@@ -183,41 +188,7 @@ Suppose that a program has only one function (`main`). How many different variab
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh10Exrc003.c](./cknkCh10Exrc003.c)
-
-## Output/ExecutionLog:
-
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```shell
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+There can be any number of variables named `i` exist in the program since there can be any number of blocks in the one function.
 
 <hr class="hr1ExrcPrj"/>
 
