@@ -10840,8 +10840,8 @@ in fact they’re not.</p>
 names. (Local variables don’t always need meaningful names: it’s often
 hard to think of a better name than <code>i</code> for the control
 variable in a <code>for</code> loop.) If you find yourself using names
-like <code>i</code> and temp for external variables. that’s a clue that
-perhaps they should really be local variables.</p>
+like <code>i</code> and <code>temp</code> for external variables, that’s
+a clue that perhaps they should really be local variables.</p>
 <!-- START: div -->
 <div class="infoBox">
 <p><span class="warningEmoji"></span></p>
@@ -10853,7 +10853,7 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb527-1"><a href="#cb5
 <span id="cb527-2"><a href="#cb527-2" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> print_one_row<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
 <span id="cb527-3"><a href="#cb527-3" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
 <span id="cb527-4"><a href="#cb527-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> <span class="dv">10</span><span class="op">;</span> i<span class="op">++)</span></span>
-<span id="cb527-5"><a href="#cb527-5" aria-hidden="true" tabindex="-1"></a>    printf <span class="op">(</span><span class="st">&quot;*&quot;</span><span class="op">);</span></span>
+<span id="cb527-5"><a href="#cb527-5" aria-hidden="true" tabindex="-1"></a>        printf <span class="op">(</span><span class="st">&quot;*&quot;</span><span class="op">);</span></span>
 <span id="cb527-6"><a href="#cb527-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
 <span id="cb527-7"><a href="#cb527-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb527-8"><a href="#cb527-8" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> print_all_rows <span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
@@ -11023,14 +11023,14 @@ functions, which we first used in <code>deal.c</code> (Section 8.2).
 This time, we’re scaling the return value of <code>rand</code> so that
 it falls between 1 and <code>MAX_NUMBER</code>.</p>
 <p>Although <code>guess.c</code> works fine, it relies on an external
-variable. We made secret number external so that both
+variable. We made <code>secret_number</code> external so that both
 <code>choose_new_secret_number</code> and <code>read_guesses</code>
 could access it. If we alter <code>choose_new_secret_number</code> and
 <code>read_guesses</code> just a little, we should be able to move
-secret number into the <code>main</code> function. We’ll modify
-<code>choose_new_secret_number</code> so that it returns the new number,
-and we’ll rewrite read_guesses so that secret number can be passed to it
-as an argument.</p>
+<code>secret_number</code> into the <code>main</code> function. We’ll
+modify <code>choose_new_secret_number</code> so that it returns the new
+number, and we’ll rewrite <code>read_guesses</code> so that
+<code>secret_number</code> can be passed to it as an argument.</p>
 <p>Here’s our new program, with changes:</p>
 <div class="sourceCode" id="cb530"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb530-1"><a href="#cb530-1" aria-hidden="true" tabindex="-1"></a><span class="co">/********************************************************************************</span></span>
@@ -11182,7 +11182,7 @@ briefly. (2) It reduces name conflicts. In our example, the name
 different purposes—the <code>temp</code> variable is strictly local to
 the block in which it’s declared.</p>
 <p><span class="C99Symbol"></span></p>
-<p>C99 allows variables to be declared anywhere within a block. just as
+<p>C99 allows variables to be declared anywhere within a block, just as
 it allows variables to be declared anywhere within a function.</p>
 <h2 id="scope">10.4 Scope</h2>
 <p>In a C program, the same identifier may have several different
@@ -11315,7 +11315,7 @@ starting point.</p>
 <p>A final suggestion: Precede each function definition by a boxed
 comment that gives the name of the function, explains its purpose,
 discusses the meaning of each parameter, describes its return value (if
-any), and lists any side effects it has (such as madifying external
+any), and lists any side effects it has (such as modifying external
 variables).</p>
 <h3 id="program-classifying-a-poker-hand">10.5.1 (PROGRAM) Classifying a
 Poker Hand</h3>
@@ -11324,7 +11324,7 @@ that’s a little more complex than our previous examples. The program
 will read and classify a poker hand. Each card in the hand will have
 both a <em>suit</em> (clubs, diamonds, hearts, or spades) and a
 <em>rank</em> (two, three, four, five, six. seven, eight, nine, ten,
-jack. queen, king, or ace). We won’t allow the use of jokers, and we’ll
+jack, queen, king, or ace). We won’t allow the use of jokers, and we’ll
 assume that aces are high. The program will read a hand of five cards,
 then classify the hand into one of the following categories (listed in
 order from best to worst):</p>
@@ -11351,7 +11351,7 @@ order from best to worst):</p>
 the best one.</p>
 <p>For input purposes, we’ll abbreviate ranks and suits as follows
 (letters may be either upper- or lower-case):</p>
-<p>Ranks: <code>2 3 4 5 6 7 8 9 t j g k a</code> Suits:
+<p>Ranks: <code>2 3 4 5 6 7 8 9 t j q k a</code> Suits:
 <code>c d h s</code></p>
 <p>If the user enters an illegal card or tries to enter the same card
 twice, the program will ignore the card, issue an error message, and
@@ -11470,11 +11470,11 @@ are in each rank and each suit. This suggests that we use two arrays,
 <code>r</code>, and the value of <code>num_in_suit[s]</code> will be the
 number of cards with suit <code>s</code>. (We’ll encode ranks as numbers
 between 0 and 12, and suits as numbers between 0 and 3.) We’ll also need
-a third array, <code>card_exists</code>, so that read cards can detect
-duplicate cards. Each time <code>read_cards</code> reads a card with
-rank <code>r</code> and suit <code>s</code>, it checks whether the value
-of <code>card_exists[r][s]</code> is <code>true</code>. If so, the card
-was previously entered; if not, <code>read_cards</code> assigns
+a third array, <code>card_exists</code>, so that <code>read_cards</code>
+can detect duplicate cards. Each time <code>read_cards</code> reads a
+card with rank <code>r</code> and suit <code>s</code>, it checks whether
+the value of <code>card_exists[r][s]</code> is <code>true</code>. If so,
+the card was previously entered; if not, <code>read_cards</code> assigns
 <code>true</code> to <code>card_exists[r][s]</code>.</p>
 <p>Both the <code>read_cards</code> function and the
 <code>analyze_hand</code> function will need access to the

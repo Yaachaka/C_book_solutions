@@ -9215,7 +9215,7 @@ External variables are convenient when many functions must share a variable or w
 
 Many C programmers rely far too much on external variables. One common abuse: using the same external variable for different purposes in different functions. Suppose that several functions need a variable named `i` to control a `for` statement. Instead of declaring `i` in each function that uses it, some programmers declare it at the top of the program, thereby making the variable visible to all functions. This practice is poor not only for the reasons listed earlier, but also because it's misleading; someone reading the program later may think that the uses of the variable are related, when in fact they're not.
 
-When you use external variables, make sure they have meaningful names. (Local variables don’t always need meaningful names: it’s often hard to think of a better name than `i` for the control variable in a `for` loop.) If you find yourself using names like `i` and temp for external variables. that’s a clue that perhaps they should really be local variables.
+When you use external variables, make sure they have meaningful names. (Local variables don’t always need meaningful names: it’s often hard to think of a better name than `i` for the control variable in a `for` loop.) If you find yourself using names like `i` and `temp` for external variables, that’s a clue that perhaps they should really be local variables.
 
 <!-- START: div -->
 <div class="infoBox">
@@ -9229,7 +9229,7 @@ int i;
 void print_one_row(void)
 {
     for (i = 1; i <= 10; i++)
-    printf ("*");
+        printf ("*");
 }
 
 void print_all_rows (void)
@@ -9395,7 +9395,7 @@ void read_guesses(void)
 
 For random number generation, the `guess.c` program relies on the `time`, `srand`, and `rand` functions, which we first used in `deal.c` (Section 8.2). This time, we're scaling the return value of `rand` so that it falls between 1 and `MAX_NUMBER`.
 
-Although `guess.c` works fine, it relies on an external variable. We made secret number external so that both `choose_new_secret_number` and `read_guesses` could access it. If we alter `choose_new_secret_number` and `read_guesses` just a little, we should be able to move secret number into the `main` function. We'll modify `choose_new_secret_number` so that it returns the new number, and we’ll rewrite read_guesses so that secret number can be passed to it as an argument.
+Although `guess.c` works fine, it relies on an external variable. We made `secret_number` external so that both `choose_new_secret_number` and `read_guesses` could access it. If we alter `choose_new_secret_number` and `read_guesses` just a little, we should be able to move `secret_number` into the `main` function. We'll modify `choose_new_secret_number` so that it returns the new number, and we’ll rewrite `read_guesses` so that `secret_number` can be passed to it as an argument.
 
 Here's our new program, with changes:
 
@@ -9548,7 +9548,7 @@ The body of a function is a block. Blocks are also useful inside a function body
 
 <span class="C99Symbol"></span>
 
-C99 allows variables to be declared anywhere within a block. just as it allows variables to be declared anywhere within a function.
+C99 allows variables to be declared anywhere within a block, just as it allows variables to be declared anywhere within a function.
 
 ## 10.4 Scope
 
@@ -9625,11 +9625,11 @@ There are several ways to organize a program so that these rules are obeyed. Her
 
 It makes sense to put `#include` directives first, since they bring in information that will likely be needed in several places within the program. `#define` directives create macros, which are generally used throughout the program. Putting type definitions above the declarations of external variables is logical, since the declarations of these variables may refer to the type names just defined. Declaring external variables next makes them available to all the functions that follow. Declaring all functions except for `main` avoids the problems that arise when a function is called before the compiler has seen its prototype. This practice also makes it possible to arrange the function definitions in any order whatsoever: alphabetically by function name or with related functions grouped together, for example. Defining `main` before the other functions makes it easier for a reader to locate the program’s starting point.
 
-A final suggestion: Precede each function definition by a boxed comment that gives the name of the function, explains its purpose, discusses the meaning of each parameter, describes its return value (if any), and lists any side effects it has (such as madifying external variables).
+A final suggestion: Precede each function definition by a boxed comment that gives the name of the function, explains its purpose, discusses the meaning of each parameter, describes its return value (if any), and lists any side effects it has (such as modifying external variables).
 
 ### 10.5.1 (PROGRAM) Classifying a Poker Hand
 
-To show how a C program might be organized, let’s attempt a program that’s a little more complex than our previous examples. The program will read and classify a poker hand. Each card in the hand will have both a *suit* (clubs, diamonds, hearts, or spades) and a *rank* (two, three, four, five, six. seven, eight, nine, ten, jack. queen, king, or ace). We won't allow the use of jokers, and we’ll assume that aces are high. The program will read a hand of five cards, then classify the hand into one of the following categories (listed in order from best to worst):
+To show how a C program might be organized, let’s attempt a program that’s a little more complex than our previous examples. The program will read and classify a poker hand. Each card in the hand will have both a *suit* (clubs, diamonds, hearts, or spades) and a *rank* (two, three, four, five, six. seven, eight, nine, ten, jack, queen, king, or ace). We won't allow the use of jokers, and we’ll assume that aces are high. The program will read a hand of five cards, then classify the hand into one of the following categories (listed in order from best to worst):
 
 - straight flush (both a straight and a flush)  
 - four-of-a-kind (four cards of the same rank)  
@@ -9645,7 +9645,7 @@ If a hand falls into two or more categories, the program will choose the best on
 
 For input purposes, we'll abbreviate ranks and suits as follows (letters may be either upper- or lower-case):
 
-Ranks: `2 3 4 5 6 7 8 9 t j g k a`
+Ranks: `2 3 4 5 6 7 8 9 t j q k a`
 Suits: `c d h s`
 
 If the user enters an illegal card or tries to enter the same card twice, the program will ignore the card, issue an error message, and then request another card. Entering the number 0 instead of a card will cause the program to terminate.
@@ -9748,7 +9748,7 @@ void print_result (void)
 }
 ```
 
-The most pressing question that remains is how to represent the hand of cards. Let's see what operations `read_cards` and `analyze_hand` will perform on the hand. During the analysis of the hand, `analyze_hand` will need to know how many cards are in each rank and each suit. This suggests that we use two arrays, `num_in_rank` and `num_in_suit`. The value of `num_in_rank[r]` will be the number of cards with rank `r`, and the value of `num_in_suit[s]` will be the number of cards with suit `s`. (We’ll encode ranks as numbers between 0 and 12, and suits as numbers between 0 and 3.) We'll also need a third array, `card_exists`, so that read cards can detect duplicate cards. Each time `read_cards` reads a card with rank `r` and suit `s`, it checks whether the value of `card_exists[r][s]` is `true`. If so, the card was previously entered; if not, `read_cards` assigns `true` to `card_exists[r][s]`.
+The most pressing question that remains is how to represent the hand of cards. Let's see what operations `read_cards` and `analyze_hand` will perform on the hand. During the analysis of the hand, `analyze_hand` will need to know how many cards are in each rank and each suit. This suggests that we use two arrays, `num_in_rank` and `num_in_suit`. The value of `num_in_rank[r]` will be the number of cards with rank `r`, and the value of `num_in_suit[s]` will be the number of cards with suit `s`. (We’ll encode ranks as numbers between 0 and 12, and suits as numbers between 0 and 3.) We'll also need a third array, `card_exists`, so that `read_cards` can detect duplicate cards. Each time `read_cards` reads a card with rank `r` and suit `s`, it checks whether the value of `card_exists[r][s]` is `true`. If so, the card was previously entered; if not, `read_cards` assigns `true` to `card_exists[r][s]`.
 
 Both the `read_cards` function and the `analyze_hand` function will need access to the `num_in_rank` and `num_in_suit` arrays, so I'll make them external variables. The `card_exists` array is used only by `read_cards`, so it can be local to that function. As a rule, variables should be made external only if necessary.
 
