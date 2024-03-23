@@ -1,0 +1,361 @@
+<html>
+<head>
+<title>
+Chapter 10 Programming Projects
+</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../myStyle.css">
+</head>
+<body>
+<h2 id="program-organization">10 Program Organization</h2>
+<h1 id="chapter-10-programming-projects">Chapter 10 Programming
+Projects</h1>
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch10prj001">cknkCh10Prj001</h1>
+<!-- START: Problem Statement -->
+<p>Modify the stack example of Section 10.2 so that it stores characters
+instead of integers. Next, add a <code>main</code> function that asks
+the user to enter a series of parentheses and/or braces,then indicates
+whether or not they’re properly nested:</p>
+<pre><code>Enter parentheses and/or braces: ((){}{()})
+Parentheses/braces are nested properly</code></pre>
+<p><em>Hint</em>: As the program reads characters, have it push each
+left parenthesis or left brace. When it reads a right parenthesis or
+brace, have it pop the stack and check that the item popped is a
+matching parenthesis or brace. (If not, the parentheses/braces aren’t
+nested properly.) When the program reads the new-line character, have it
+check whether the stack is empty; if so, the parentheses/braces are
+matched. If the stack isn’t empty (or if <code>stack_underflow</code> is
+ever called), the parentheses/braces aren’t matched. If
+<code>stack_overflow</code> is called, have the program print the
+message <code>Stack overtlow</code> and terminate immediately.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution">Solution:</h1>
+<h2 id="program-link">Program Link</h2>
+<p><a href="./cknkCh10Prj001.c">cknkCh10Prj001.c</a></p>
+<h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
+<h3 id="trial1">Trial1:</h3>
+<h4 id="trial1-execution">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2">Trial2:</h3>
+<h4 id="trial2-execution">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3">Trial3:</h3>
+<h4 id="trial3-execution">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch10prj002">cknkCh10Prj002</h1>
+<!-- START: Problem Statement -->
+<p>Modify the <code>poker.c</code> program of Section 10.5 by moving the
+<code>num_in_rank</code> and <code>num_in_suit</code> arrays into
+<code>main</code>, which will pass them as arguments to
+<code>read_cards</code> and <code>analyze_hand</code>.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-1">Solution:</h1>
+<h2 id="program-link-1">Program Link</h2>
+<p><a href="./cknkCh10Prj002.c">cknkCh10Prj002.c</a></p>
+<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
+<h3 id="trial1-1">Trial1:</h3>
+<h4 id="trial1-execution-1">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-1">Trial2:</h3>
+<h4 id="trial2-execution-1">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-1">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-1">Trial3:</h3>
+<h4 id="trial3-execution-1">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-1">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch10prj003">cknkCh10Prj003</h1>
+<!-- START: Problem Statement -->
+<p>Remove the <code>num_in_rank</code>, <code>num_in_suit</code>, and
+<code>card_exists</code> arrays from the <code>poker.c</code> program of
+Section 10.5. Have the program store the cards in a 5 x 2 array instead.
+Each row of the array will represent a card. For example, if the array
+is named <code>hand</code>, then <code>hand[0][0]</code> will store the
+rank of the first card and <code>hand[0][1]</code> will store the suit
+of the first card,</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-2">Solution:</h1>
+<h2 id="program-link-2">Program Link</h2>
+<p><a href="./cknkCh10Prj003.c">cknkCh10Prj003.c</a></p>
+<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
+<h3 id="trial1-2">Trial1:</h3>
+<h4 id="trial1-execution-2">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-2">Trial2:</h3>
+<h4 id="trial2-execution-2">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-2">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-2">Trial3:</h3>
+<h4 id="trial3-execution-2">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-2">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-2">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch10prj004">cknkCh10Prj004</h1>
+<!-- START: Problem Statement -->
+<p>Modify the <code>poker.c</code> program of Section 10.5 by having it
+recognize an additional category, “royal flush” (ace, king, queen, jack,
+ten of the same suit). A royal flush ranks higher than all other
+hands.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-3">Solution:</h1>
+<h2 id="program-link-3">Program Link</h2>
+<p><a href="./cknkCh10Prj004.c">cknkCh10Prj004.c</a></p>
+<h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
+<h3 id="trial1-3">Trial1:</h3>
+<h4 id="trial1-execution-3">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-3">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-3">Trial2:</h3>
+<h4 id="trial2-execution-3">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-3">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-3">Trial3:</h3>
+<h4 id="trial3-execution-3">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-3">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-3">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch10prj005">cknkCh10Prj005</h1>
+<!-- START: Problem Statement -->
+<p>Modify the <code>poker.c</code> program of Section 10.5 by allowing
+“ace-low” straights (ace, two, three, four, five).</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-4">Solution:</h1>
+<h2 id="program-link-4">Program Link</h2>
+<p><a href="./cknkCh10Prj005.c">cknkCh10Prj005.c</a></p>
+<h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
+<h3 id="trial1-4">Trial1:</h3>
+<h4 id="trial1-execution-4">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-4">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-4">Trial2:</h3>
+<h4 id="trial2-execution-4">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-4">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-4">Trial3:</h3>
+<h4 id="trial3-execution-4">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-4">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-4">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch10prj006">cknkCh10Prj006</h1>
+<!-- START: Problem Statement -->
+<p>Some calculators (notably those from Hewlett-Packard) use a system of
+writing mathematical expressions known as <strong>Reverse Polish
+Notation (RPN)</strong>. In this notation, operators are placed after
+their operands instead of benween their operands. For example,
+<code>1 + 2</code> would be written <code>1 2 +</code> in RPN, and
+<code>1 + 2 * 3</code> would be written <code>1 2 3 * +</code>. RPN
+expressions can easily be evaluated using a stack. The algorithm
+involves reading the operators and operands in an expression from left
+to right, performing the following actions:</p>
+<ul>
+<li>When an operand is encountered, push it onto the stack.<br />
+</li>
+<li>When an operator is encountered, pop its operands from the stack,
+perform the operation on those operands, and then push the result onto
+the stack.</li>
+</ul>
+<p>Write a program that evaluates RPN expressions. The operands will be
+single-digit integers. The operators are <code>+</code>, <code>-</code>,
+<code>*</code>, <code>/</code>, and <code>=</code>. The <code>=</code>
+operator causes the top stack item to be displayed; afterwards, the
+stack is cleared and the user is prompted to enter another expression.
+The process continues until the user enters a character that is not an
+operator or operand:</p>
+<pre><code>Enter an RPN expression: 1 2 3 * + =
+Value of expression: 7
+
+Enter an RPN expression: 5 8 * 4 9 - / =
+Value of expression: -8
+
+Enter an RPN expression: q</code></pre>
+<p>If the stack overflows, the program will display the message
+<code>Expression is too complex</code> and terminate. If the stack
+underflows (because of an expression such as 12 + +), the program will
+display the message <code>Not enough operands in expression</code> and
+terminate. <em>Hints</em>: Incorporate the stack code from Section 10.2
+into your program. Use <code>scanf (" %c", &amp;ch)</code> to read the
+operators and operands.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-5">Solution:</h1>
+<h2 id="program-link-5">Program Link</h2>
+<p><a href="./cknkCh10Prj006.c">cknkCh10Prj006.c</a></p>
+<h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
+<h3 id="trial1-5">Trial1:</h3>
+<h4 id="trial1-execution-5">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-5">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-5">Trial2:</h3>
+<h4 id="trial2-execution-5">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-5">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-5">Trial3:</h3>
+<h4 id="trial3-execution-5">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-5">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-5">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<hr class="hr1ExrcPrj"/>
+<h1 id="cknkch10prj007">cknkCh10Prj007</h1>
+<!-- START: Problem Statement -->
+<p>Write a program that prompts the user for a number and then displays
+the number, using characters to simulate the effect of a seven-segment
+display:</p>
+<pre><code>Enter a number: 491-9014
+     _       _   _
+|_| |_|   | |_| | |   | |_|
+  |  _|   |  _| |_|   |   |</code></pre>
+<p>Characters other than digits should be ignored. Write the program so
+that the maximum number of digits is controlled by a macro named
+<code>MAX_DIGITS</code>, which has the value 10. If the number contains
+more than this number of digits, the extra digits are ignored.
+<em>Hints</em>: Use two external arrays. One is the segments array (see
+Exercise 6 in Chapter 8), which stores data representing the
+correspondence between digits and segments. The other array, digits,
+will be an array of characters with 4 rows (since each segmented digit
+is four characters high) and <code>MAX_DIGITS * 4</code> columns (digits
+are three characters wide, but a space is needed between digits for
+readability), Write your program as four functions: <code>main</code>,
+<code>clear_digits_array</code>. <code>process_digit</code>, and
+<code>print_digits</code> array. Here are the prototypes for the latter
+three functions:</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> clear_digits_array<span class="op">(</span><span class="dt">void</span><span class="op">);</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> process_digit<span class="op">(</span><span class="dt">int</span> digit<span class="op">,</span> <span class="dt">int</span> position<span class="op">);</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> print_digits_array<span class="op">(</span><span class="dt">void</span><span class="op">);</span></span></code></pre></div>
+<p><code>clear_digits_array</code> will store blank characters into all
+elements of the <code>digits</code> array, <code>process_digit</code>
+will store the seven-segment representation of digit into a specified
+position in the <code>digits</code> array (positions range from 0 to
+<code>MAX_DIGITS - 1</code>). <code>print_digits</code> array will
+display the rows of the <code>digits</code> array, each on a single
+line, producing output such as that shown in the example.</p>
+<!-- END: Problem Statement -->
+<h1 id="solution-6">Solution:</h1>
+<h2 id="program-link-6">Program Link</h2>
+<p><a href="./cknkCh10Prj007.c">cknkCh10Prj007.c</a></p>
+<h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
+<h3 id="trial1-6">Trial1:</h3>
+<h4 id="trial1-execution-6">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-6">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-6">Trial2:</h3>
+<h4 id="trial2-execution-6">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-6">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-6">Trial3:</h3>
+<h4 id="trial3-execution-6">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre class="shell"><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-6">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-6">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<hr class="hr1ExrcPrj"/>
+</body>
+</html>
