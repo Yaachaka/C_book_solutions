@@ -54,8 +54,10 @@ Parentheses/braces are nested properly
 
 <!-- START: terminal interaction or other output -->
 
-```shell
-
+```
+Enter parentheses and/or braces: {((({({({({((({{{((({{{(({{
+Stack Overflow: Sorry, the stack is already full!!!
+Parentheses/braces are not nested properly.
 ```
 
 <!-- END: terminal interaction or other output -->
@@ -64,7 +66,7 @@ Parentheses/braces are nested properly
 
 <!-- START: Comments -->
 
-
+The input is such a way that all the entries are opening braces so that the stack gets overflowed.
 
 <!-- END: Comments -->
 
@@ -74,19 +76,12 @@ Parentheses/braces are nested properly
 
 <!-- START: terminal interaction or other output -->
 
-```shell
-
+```
+Enter parentheses and/or braces: ((){}{()})
+Parentheses/braces are nested properly.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -94,27 +89,12 @@ Parentheses/braces are nested properly
 
 <!-- START: terminal interaction or other output -->
 
-```shell
-
+```
+Enter parentheses and/or braces: ((){}{()}){
+Parentheses/braces are not nested properly.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -154,7 +134,7 @@ Modify the `poker.c` program of Section 10.5 by moving the `num_in_rank` and `nu
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -174,7 +154,7 @@ Modify the `poker.c` program of Section 10.5 by moving the `num_in_rank` and `nu
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -194,7 +174,7 @@ Modify the `poker.c` program of Section 10.5 by moving the `num_in_rank` and `nu
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -254,7 +234,7 @@ Remove the `num_in_rank`, `num_in_suit`, and `card_exists` arrays from the `poke
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -274,7 +254,7 @@ Remove the `num_in_rank`, `num_in_suit`, and `card_exists` arrays from the `poke
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -294,7 +274,7 @@ Remove the `num_in_rank`, `num_in_suit`, and `card_exists` arrays from the `poke
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -354,7 +334,7 @@ Modify the `poker.c` program of Section 10.5 by having it recognize an additiona
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -374,7 +354,7 @@ Modify the `poker.c` program of Section 10.5 by having it recognize an additiona
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -394,7 +374,7 @@ Modify the `poker.c` program of Section 10.5 by having it recognize an additiona
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -454,7 +434,7 @@ Modify the `poker.c` program of Section 10.5 by allowing “ace-low” straights
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -474,7 +454,7 @@ Modify the `poker.c` program of Section 10.5 by allowing “ace-low” straights
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -494,7 +474,7 @@ Modify the `poker.c` program of Section 10.5 by allowing “ace-low” straights
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -571,7 +551,7 @@ If the stack overflows, the program will display the message `Expression is too 
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -591,7 +571,7 @@ If the stack overflows, the program will display the message `Expression is too 
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -611,7 +591,7 @@ If the stack overflows, the program will display the message `Expression is too 
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -688,7 +668,7 @@ void print_digits_array(void);
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -708,7 +688,7 @@ void print_digits_array(void);
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 
@@ -728,7 +708,7 @@ void print_digits_array(void);
 
 <!-- START: terminal interaction or other output -->
 
-```shell
+```
 
 ```
 

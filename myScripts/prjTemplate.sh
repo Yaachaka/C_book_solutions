@@ -71,7 +71,7 @@ do
 
 <!-- START: terminal interaction or other output -->
 
-\`\`\`shell
+\`\`\`
 
 \`\`\`
 
