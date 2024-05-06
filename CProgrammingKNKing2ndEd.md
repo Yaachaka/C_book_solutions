@@ -1,7 +1,8 @@
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C Programming</title>
-    <meta charset="utf-8">
     <link rel="stylesheet" href="./myStyle.css">
 </head>
 
@@ -1229,19 +1230,19 @@ A: That's a tough question. Leave too little space, and the eye has trouble dete
 
 ## Examples
 
-- Programs: [./cknkCh02/cknkCh02Exmp/](./cknkCh02/cknkCh02Exmp/)
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh02/cknkCh02Exmp/](./cknkCh02/cknkCh02Exmp/)
 
 ## Exercises
 
-- Readme: [./cknkCh02/cknkCh02Exrc/README.md](./cknkCh02/cknkCh02Exrc/README.md)  
-- Readme (html): [./cknkCh02/cknkCh02Exrc/cknkCh02ExrcReadme.html](./cknkCh02/cknkCh02Exrc/cknkCh02ExrcReadme.html)  
-- Programs: [./cknkCh02/cknkCh02Exrc/](./cknkCh02/cknkCh02Exrc/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh02/cknkCh02Exrc/README.md](./cknkCh02/cknkCh02Exrc/README.md)  
+- Readme (html): <span class="unicode_LINK_SYMBOL"></span>[./cknkCh02/cknkCh02Exrc/cknkCh02ExrcReadme.html](./cknkCh02/cknkCh02Exrc/cknkCh02ExrcReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh02/cknkCh02Exrc/](./cknkCh02/cknkCh02Exrc/)  
 
 ## Programming Projects
 
-- Readme: [./cknkCh02/cknkCh02Prj/README.md](./cknkCh02/cknkCh02Prj/README.md)  
-- Readme: [./cknkCh02/cknkCh02Prj/cknkCh02PrjReadme.html](./cknkCh02/cknkCh02Prj/cknkCh02PrjReadme.html)  
-- Programs: [./cknkCh02/cknkCh02Prj/](./cknkCh02/cknkCh02Prj/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh02/cknkCh02Prj/README.md](./cknkCh02/cknkCh02Prj/README.md)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh02/cknkCh02Prj/cknkCh02PrjReadme.html](./cknkCh02/cknkCh02Prj/cknkCh02PrjReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh02/cknkCh02Prj/](./cknkCh02/cknkCh02Prj/)  
 
 <hr class="chapterDivider"/>
 
@@ -1790,19 +1791,19 @@ scanf("%d,%d", &i, &j);
 
 ## Examples
 
-- Programs: [./cknkCh03/cknkCh03Exmp/](./cknkCh03/cknkCh03Exmp/)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh03/cknkCh03Exmp/](./cknkCh03/cknkCh03Exmp/)  
 
 ## Exercises
 
-- Readme: [./cknkCh03/cknkCh03Exrc/README.md](./cknkCh03/cknkCh03Exrc/README.md)  
-- Readme (html): [./cknkCh03/cknkCh03Exrc/cknkCh03ExrcReadme.html](./cknkCh03/cknkCh03Exrc/cknkCh03ExrcReadme.html)  
-- Programs: [./cknkCh03/cknkCh03Exrc/](./cknkCh03/cknkCh03Exrc/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh03/cknkCh03Exrc/README.md](./cknkCh03/cknkCh03Exrc/README.md)  
+- Readme (html): <span class="unicode_LINK_SYMBOL"></span>[./cknkCh03/cknkCh03Exrc/cknkCh03ExrcReadme.html](./cknkCh03/cknkCh03Exrc/cknkCh03ExrcReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh03/cknkCh03Exrc/](./cknkCh03/cknkCh03Exrc/)  
 
 ## Programming Projects
 
-- Readme: [./cknkCh03/cknkCh03Prj/README.md](./cknkCh03/cknkCh03Prj/README.md)  
-- Readme (html): [./cknkCh03/cknkCh03Prj/cknkCh03PrjReadme.html](./cknkCh03/cknkCh03Prj/cknkCh03PrjReadme.html)  
-- Programs: [./cknkCh03/cknkCh03Prj/](./cknkCh03/cknkCh03Prj/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh03/cknkCh03Prj/README.md](./cknkCh03/cknkCh03Prj/README.md)  
+- Readme (html): <span class="unicode_LINK_SYMBOL"></span>[./cknkCh03/cknkCh03Prj/cknkCh03PrjReadme.html](./cknkCh03/cknkCh03Prj/cknkCh03PrjReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh03/cknkCh03Prj/](./cknkCh03/cknkCh03Prj/)  
 
 
 <hr class="chapterDivider"/>
@@ -2173,7 +2174,7 @@ i + j = 0;    /*** WRONG ***/
 
 The compiler will detect errors of this nature, and you'll get an error message such as "*invalid lvalue in assignment*."
 
-### 3.2.3 Compound Assignment
+### 4.2.3 Compound Assignment
 
 Assignments that use the old value of a variable to compute its new value are common in C programs. The following statement, for example, adds 2 to the value stored in `i`:
 
@@ -2680,19 +2681,19 @@ assigns 1 to `i`. The value of the entire expression is 1, which is discarded. D
 
 ## Examples
 
-- Programs: [./cknkCh04/cknkCh04Exmp/](./cknkCh04/cknkCh04Exmp/)
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh04/cknkCh04Exmp/](./cknkCh04/cknkCh04Exmp/)
 
 ## Exercises
 
-- Readme: [./cknkCh04/cknkCh04Exrc/README.md](./cknkCh04/cknkCh04Exrc/README.md)  
-- Readme (html): [./cknkCh04/cknkCh04Exrc/cknkCh04ExrcReadme.html](./cknkCh04/cknkCh04Exrc/cknkCh04ExrcReadme.html)  
-- Programs: [./cknkCh04/cknkCh04Exrc/](./cknkCh04/cknkCh04Exrc/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh04/cknkCh04Exrc/README.md](./cknkCh04/cknkCh04Exrc/README.md)  
+- Readme (html): <span class="unicode_LINK_SYMBOL"></span>[./cknkCh04/cknkCh04Exrc/cknkCh04ExrcReadme.html](./cknkCh04/cknkCh04Exrc/cknkCh04ExrcReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh04/cknkCh04Exrc/](./cknkCh04/cknkCh04Exrc/)  
 
 ## Programming Projects
 
-- Readme: [./cknkCh04/cknkCh04Prj/README.md](./cknkCh04/cknkCh04Prj/README.md)  
-- Readme: [./cknkCh04/cknkCh04Prj/cknkCh04PrjReadme.html](./cknkCh04/cknkCh04Prj/cknkCh04PrjReadme.html)  
-- Programs: [./cknkCh04/cknkCh04Prj/](./cknkCh04/cknkCh04Prj/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh04/cknkCh04Prj/README.md](./cknkCh04/cknkCh04Prj/README.md)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh04/cknkCh04Prj/cknkCh04PrjReadme.html](./cknkCh04/cknkCh04Prj/cknkCh04PrjReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh04/cknkCh04Prj/](./cknkCh04/cknkCh04Prj/)  
 
 <hr class="chapterDivider"/>
 
@@ -3130,7 +3131,7 @@ else if (value >= 6250.00f && value < 20000.00f)
 
 Although the program will still work, the added conditions aren’t necessary. For example, the first `if` clause tests whether value is less than 2500 and, if so, computes the commission. When we reach the second `if` test (`value >= 2500.00f && value < 6250.00f`), we know that value can’t be less than 2500 and therefore must be greater than or equal to 2500. The condition `value >= 2500.00f` will always be true, so there's no point in checking it.
 
-### 5.2.5 The “Dangling e1se” Problem
+### 5.2.5 The "Dangling `else`" Problem
 
 When `if` statements are nested, we've got to watch out for the notorious “dangling `else`” problem. Consider the following example:
 
@@ -3336,7 +3337,7 @@ flag = true;
 
 Because the `<stdbool.h>` header is so handy, I'll use it in subsequent programs whenever Boolean variables are needed.
 
-## 5.3 The switch Statement
+## 5.3 The `switch` Statement
 
 In everyday programming, we'll often need to compare an expression against a series of values to see which one it currently matches. We saw in Section 5.2 that a cascaded `if` statement can be used for this purpose. For example, the following cascaded `if` statement prints the English word that corresponds to a numerical grade:
 
@@ -3830,19 +3831,19 @@ The first method is fine when the statements in each case are short and there ar
 
 ## Examples
 
-- Programs: [./cknkCh05/cknkCh05Exmp/](./cknkCh05/cknkCh05Exmp/)
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh05/cknkCh05Exmp/](./cknkCh05/cknkCh05Exmp/)
 
 ## Exercises
 
-- Readme: [./cknkCh05/cknkCh05Exrc/README.md](./cknkCh05/cknkCh05Exrc/README.md)  
-- Readme (html): [./cknkCh05/cknkCh05Exrc/cknkCh05ExrcReadme.html](./cknkCh05/cknkCh05Exrc/cknkCh05ExrcReadme.html)  
-- Programs: [./cknkCh05/cknkCh05Exrc/](./cknkCh05/cknkCh05Exrc/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh05/cknkCh05Exrc/README.md](./cknkCh05/cknkCh05Exrc/README.md)  
+- Readme (html): <span class="unicode_LINK_SYMBOL"></span>[./cknkCh05/cknkCh05Exrc/cknkCh05ExrcReadme.html](./cknkCh05/cknkCh05Exrc/cknkCh05ExrcReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh05/cknkCh05Exrc/](./cknkCh05/cknkCh05Exrc/)  
 
 ## Programming Projects
 
-- Readme: [./cknkCh05/cknkCh05Prj/README.md](./cknkCh05/cknkCh05Prj/README.md)  
-- Readme: [./cknkCh05/cknkCh05Prj/cknkCh05PrjReadme.html](./cknkCh05/cknkCh05Prj/cknkCh05PrjReadme.html)  
-- Programs: [./cknkCh05/cknkCh05Prj/](./cknkCh05/cknkCh05Prj/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh05/cknkCh05Prj/README.md](./cknkCh05/cknkCh05Prj/README.md)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh05/cknkCh05Prj/cknkCh05PrjReadme.html](./cknkCh05/cknkCh05Prj/cknkCh05PrjReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh05/cknkCh05Prj/](./cknkCh05/cknkCh05Prj/)  
 
 <hr class="chapterDivider"/>
 
@@ -4102,7 +4103,7 @@ while (i > 0);
 
 A careless reader might think that the word `while` was the beginning of a `while` statement.
 
-### 6.2.1 Calculating the Number of Digits in an Integer
+### 6.2.1 (PROGRAM) Calculating the Number of Digits in an Integer
 
 Although the `while` statement appears in C programs much more often than the `do` statement, the latter is handy for loops that must execute at least once. To illustrate this point, let's write a program that calculates the number of digits in an integer entered by the user:
 
@@ -4608,7 +4609,7 @@ loop_done: ...
 
 The `goto` statement is also useful for exiting from nested loops.
 
-### 6.4.4 Balancing a Checkbook
+### 6.4.4 (PROGRAM) Balancing a Checkbook
 
 Many simple interactive programs are menu-based: they present the user with a list of commands to choose from. Once the user has selected a command, the program performs the desired action, then prompts the user for another command. This process continues until the user selects an “exit” or “quit” command.
 
@@ -5049,19 +5050,19 @@ for(d = 2; d < n && n % d !=0; d++)
 
 ## Examples
 
-- Programs: [./cknkCh06/cknkCh06Exmp/](./cknkCh06/cknkCh06Exmp/)
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh06/cknkCh06Exmp/](./cknkCh06/cknkCh06Exmp/)
 
 ## Exercises
 
-- Readme: [./cknkCh06/cknkCh06Exrc/README.md](./cknkCh06/cknkCh06Exrc/README.md)  
-- Readme (html): [./cknkCh06/cknkCh06Exrc/cknkCh06ExrcReadme.html](./cknkCh06/cknkCh06Exrc/cknkCh06ExrcReadme.html)  
-- Programs: [./cknkCh06/cknkCh06Exrc/](./cknkCh06/cknkCh06Exrc/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh06/cknkCh06Exrc/README.md](./cknkCh06/cknkCh06Exrc/README.md)  
+- Readme (html): <span class="unicode_LINK_SYMBOL"></span>[./cknkCh06/cknkCh06Exrc/cknkCh06ExrcReadme.html](./cknkCh06/cknkCh06Exrc/cknkCh06ExrcReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh06/cknkCh06Exrc/](./cknkCh06/cknkCh06Exrc/)  
 
 ## Programming Projects
 
-- Readme: [./cknkCh06/cknkCh06Prj/README.md](./cknkCh06/cknkCh06Prj/README.md)  
-- Readme: [./cknkCh06/cknkCh06Prj/cknkCh06PrjReadme.html](./cknkCh06/cknkCh06Prj/cknkCh06PrjReadme.html)  
-- Programs: [./cknkCh06/cknkCh06Prj/](./cknkCh06/cknkCh06Prj/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh06/cknkCh06Prj/README.md](./cknkCh06/cknkCh06Prj/README.md)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh06/cknkCh06Prj/cknkCh06PrjReadme.html](./cknkCh06/cknkCh06Prj/cknkCh06PrjReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh06/cknkCh06Prj/](./cknkCh06/cknkCh06Prj/)  
 
 <hr class="chapterDivider"/>
 
@@ -5700,7 +5701,7 @@ do {
 
 When `scanf` is called the next time, it will read the first character on the next input line.
 
-### Reading and Writing Characters using `getchar` and `putchar`
+### 7.3.7 Reading and Writing Characters using `getchar` and `putchar`
 
 <span class="QandA"></span>
 
@@ -6525,19 +6526,19 @@ A: In C89, yes. In C99, however, there's one exception. The compiler can’t det
 
 ## Examples
 
-- Programs: [./cknkCh07/cknkCh07Exmp/](./cknkCh07/cknkCh07Exmp/)
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh07/cknkCh07Exmp/](./cknkCh07/cknkCh07Exmp/)
 
 ## Exercises
 
-- Readme: [./cknkCh07/cknkCh07Exrc/README.md](./cknkCh07/cknkCh07Exrc/README.md)  
-- Readme (html): [./cknkCh07/cknkCh07Exrc/cknkCh07ExrcReadme.html](./cknkCh07/cknkCh07Exrc/cknkCh07ExrcReadme.html)  
-- Programs: [./cknkCh07/cknkCh07Exrc/](./cknkCh07/cknkCh07Exrc/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh07/cknkCh07Exrc/README.md](./cknkCh07/cknkCh07Exrc/README.md)  
+- Readme (html): <span class="unicode_LINK_SYMBOL"></span>[./cknkCh07/cknkCh07Exrc/cknkCh07ExrcReadme.html](./cknkCh07/cknkCh07Exrc/cknkCh07ExrcReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh07/cknkCh07Exrc/](./cknkCh07/cknkCh07Exrc/)  
 
 ## Programming Projects
 
-- Readme: [./cknkCh07/cknkCh07Prj/README.md](./cknkCh07/cknkCh07Prj/README.md)  
-- Readme: [./cknkCh07/cknkCh07Prj/cknkCh07PrjReadme.html](./cknkCh07/cknkCh07Prj/cknkCh07PrjReadme.html)  
-- Programs: [./cknkCh07/cknkCh07Prj/](./cknkCh07/cknkCh07Prj/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh07/cknkCh07Prj/README.md](./cknkCh07/cknkCh07Prj/README.md)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh07/cknkCh07Prj/cknkCh07PrjReadme.html](./cknkCh07/cknkCh07Prj/cknkCh07PrjReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh07/cknkCh07Prj/](./cknkCh07/cknkCh07Prj/)  
 
 <hr class="chapterDivider"/>
 
@@ -7392,19 +7393,19 @@ A: The memory used to store a variable-length array is usually allocated when th
 
 ## Examples
 
-- Programs: [./cknkCh08/cknkCh08Exmp/](./cknkCh08/cknkCh08Exmp/)
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh08/cknkCh08Exmp/](./cknkCh08/cknkCh08Exmp/)
 
 ## Exercises
 
-- Readme: [./cknkCh08/cknkCh08Exrc/README.md](./cknkCh08/cknkCh08Exrc/README.md)  
-- Readme (html): [./cknkCh08/cknkCh08Exrc/cknkCh08ExrcReadme.html](./cknkCh08/cknkCh08Exrc/cknkCh08ExrcReadme.html)  
-- Programs: [./cknkCh08/cknkCh08Exrc/](./cknkCh08/cknkCh08Exrc/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh08/cknkCh08Exrc/README.md](./cknkCh08/cknkCh08Exrc/README.md)  
+- Readme (html): <span class="unicode_LINK_SYMBOL"></span>[./cknkCh08/cknkCh08Exrc/cknkCh08ExrcReadme.html](./cknkCh08/cknkCh08Exrc/cknkCh08ExrcReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh08/cknkCh08Exrc/](./cknkCh08/cknkCh08Exrc/)  
 
 ## Programming Projects
 
-- Readme: [./cknkCh08/cknkCh08Prj/README.md](./cknkCh08/cknkCh08Prj/README.md)  
-- Readme: [./cknkCh08/cknkCh08Prj/cknkCh08PrjReadme.html](./cknkCh08/cknkCh08Prj/cknkCh08PrjReadme.html)  
-- Programs: [./cknkCh08/cknkCh08Prj/](./cknkCh08/cknkCh08Prj/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh08/cknkCh08Prj/README.md](./cknkCh08/cknkCh08Prj/README.md)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh08/cknkCh08Prj/cknkCh08PrjReadme.html](./cknkCh08/cknkCh08Prj/cknkCh08PrjReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh08/cknkCh08Prj/](./cknkCh08/cknkCh08Prj/)  
 
 <hr class="chapterDivider"/>
 
@@ -7767,7 +7768,7 @@ To make it clear that we're deliberately discarding the return value of a functi
 
 What we're doing is casting (converting) the return value of `printf` to type void. (In C, “casting to void" is a polite way of saying “throwing away.") Using (`void`) makes it clear to others that you deliberately discarded the return value, not just forgot that there was one. Unfortunately, there are a great many functions in the C library whose values are routinely ignored; using (`void`) when calling them all can get tiresome, so I haven’t done so in this book.
 
-### 9.1.6 Testing Whether a Number Is Prime
+### 9.1.6 (PROGRAM) Testing Whether a Number Is Prime
 
 To see how functions can make programs easier to understand, let’s write a program that tests whether a number is prime. The program will prompt the user to enter a number. then respond with a message indicating whether or not the number is prime:
 
@@ -9059,19 +9060,19 @@ A: Yes. This is just an indirect form of recursion in which one call of `f1` lea
 
 ## Examples
 
-- Programs: [./cknkCh09/cknkCh09Exmp/](./cknkCh09/cknkCh09Exmp/)
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh09/cknkCh09Exmp/](./cknkCh09/cknkCh09Exmp/)
 
 ## Exercises
 
-- Readme: [./cknkCh09/cknkCh09Exrc/README.md](./cknkCh09/cknkCh09Exrc/README.md)  
-- Readme (html): [./cknkCh09/cknkCh09Exrc/cknkCh09ExrcReadme.html](./cknkCh09/cknkCh09Exrc/cknkCh09ExrcReadme.html)  
-- Programs: [./cknkCh09/cknkCh09Exrc/](./cknkCh09/cknkCh09Exrc/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh09/cknkCh09Exrc/README.md](./cknkCh09/cknkCh09Exrc/README.md)  
+- Readme (html): <span class="unicode_LINK_SYMBOL"></span>[./cknkCh09/cknkCh09Exrc/cknkCh09ExrcReadme.html](./cknkCh09/cknkCh09Exrc/cknkCh09ExrcReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh09/cknkCh09Exrc/](./cknkCh09/cknkCh09Exrc/)  
 
 ## Programming Projects
 
-- Readme: [./cknkCh09/cknkCh09Prj/README.md](./cknkCh09/cknkCh09Prj/README.md)  
-- Readme: [./cknkCh09/cknkCh09Prj/cknkCh09PrjReadme.html](./cknkCh09/cknkCh09Prj/cknkCh09PrjReadme.html)  
-- Programs: [./cknkCh09/cknkCh09Prj/](./cknkCh09/cknkCh09Prj/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh09/cknkCh09Prj/README.md](./cknkCh09/cknkCh09Prj/README.md)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh09/cknkCh09Prj/cknkCh09PrjReadme.html](./cknkCh09/cknkCh09Prj/cknkCh09PrjReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh09/cknkCh09Prj/](./cknkCh09/cknkCh09Prj/)  
 
 <hr class="chapterDivider"/>
 
@@ -9159,7 +9160,7 @@ The properties of external variables (or ***global variables***, as they're some
 
 ### 10.2.1 Example: Using External Variables to Implement a Stack
 
-To illustrate how external variables might be used. let's look at a data structure known as a ***stack***. (Stacks are an abstract concept, not a C feature: they can be implemented in most programming languages.) A stack, like an array. can store multiple data items of the same type. However, the operations on a stack are limited: we can either ***push*** an item onto the stack (add it to one end—the “stack top”) or pop it from the stack (remove it from the same end). Examining or modifying an item that's not at the top of the stack is forbidden.
+To illustrate how external variables might be used. let's look at a data structure known as a ***stack***. (Stacks are an abstract concept, not a C feature: they can be implemented in most programming languages.) A stack, like an array, can store multiple data items of the same type. However, the operations on a stack are limited: we can either ***push*** an item onto the stack (add it to one end—the “stack top”) or pop it from the stack (remove it from the same end). Examining or modifying an item that's not at the top of the stack is forbidden.
 
 One way to implement a stack in C is to store its items in an array, which we’ll call `contents`. A separate integer variable named `top` marks the position of the stack top. When the stack is empty, `top` has the value 0. To push an item on the stack, we simply store the item in `contents` at the position indicated by `top`, then increment `top`. Popping an item requires decrementing `top`, then using it as an index into `contents` to fetch the item that’s being popped.
 
@@ -9246,7 +9247,7 @@ Instead of printing 10 rows, `print_all_rows` prints only one row. When `print_o
 </div>
 <!-- END: div -->
 
-### 10.2.3 Guessing a Number
+### 10.2.3 (PROGRAM) Guessing a Number
 
 To get more experience with external variables, we’ll write a simple game-playing program. The program generates a random number between 1 and 100, which the user attempts to guess in as few tries as possible. Here's what the user will see when the program is run:
 
@@ -9629,7 +9630,7 @@ A final suggestion: Precede each function definition by a boxed comment that giv
 
 ### 10.5.1 (PROGRAM) Classifying a Poker Hand
 
-To show how a C program might be organized, let’s attempt a program that’s a little more complex than our previous examples. The program will read and classify a poker hand. Each card in the hand will have both a *suit* (clubs, diamonds, hearts, or spades) and a *rank* (two, three, four, five, six. seven, eight, nine, ten, jack, queen, king, or ace). We won't allow the use of jokers, and we’ll assume that aces are high. The program will read a hand of five cards, then classify the hand into one of the following categories (listed in order from best to worst):
+To show how a C program might be organized, let’s attempt a program that’s a little more complex than our previous examples. The program will read and classify a poker hand. Each card in the hand will have both a *suit* (clubs, diamonds, hearts, or spades) and a *rank* (two, three, four, five, six, seven, eight, nine, ten, jack, queen, king, or ace). We won't allow the use of jokers, and we’ll assume that aces are high. The program will read a hand of five cards, then classify the hand into one of the following categories (listed in order from best to worst):
 
 - straight flush (both a straight and a flush)  
 - four-of-a-kind (four cards of the same rank)  
@@ -10079,19 +10080,19 @@ A: The code is indeed legal. The scope of a local variable doesn’t begin until
 
 ## Examples
 
-- Programs: [./cknkCh10/cknkCh10Exmp/](./cknkCh10/cknkCh10Exmp/)
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh10/cknkCh10Exmp/](./cknkCh10/cknkCh10Exmp/)
 
 ## Exercises
 
-- Readme: [./cknkCh10/cknkCh10Exrc/README.md](./cknkCh10/cknkCh10Exrc/README.md)  
-- Readme (html): [./cknkCh10/cknkCh10Exrc/cknkCh10ExrcReadme.html](./cknkCh10/cknkCh10Exrc/cknkCh10ExrcReadme.html)  
-- Programs: [./cknkCh10/cknkCh10Exrc/](./cknkCh10/cknkCh10Exrc/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh10/cknkCh10Exrc/README.md](./cknkCh10/cknkCh10Exrc/README.md)  
+- Readme (html): <span class="unicode_LINK_SYMBOL"></span>[./cknkCh10/cknkCh10Exrc/cknkCh10ExrcReadme.html](./cknkCh10/cknkCh10Exrc/cknkCh10ExrcReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh10/cknkCh10Exrc/](./cknkCh10/cknkCh10Exrc/)  
 
 ## Programming Projects
 
-- Readme: [./cknkCh10/cknkCh10Prj/README.md](./cknkCh10/cknkCh10Prj/README.md)  
-- Readme: [./cknkCh10/cknkCh10Prj/cknkCh10PrjReadme.html](./cknkCh10/cknkCh10Prj/cknkCh10PrjReadme.html)  
-- Programs: [./cknkCh10/cknkCh10Prj/](./cknkCh10/cknkCh10Prj/)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh10/cknkCh10Prj/README.md](./cknkCh10/cknkCh10Prj/README.md)  
+- Readme: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh10/cknkCh10Prj/cknkCh10PrjReadme.html](./cknkCh10/cknkCh10Prj/cknkCh10PrjReadme.html)  
+- Programs: <span class="unicode_LINK_SYMBOL"></span>[./cknkCh10/cknkCh10Prj/](./cknkCh10/cknkCh10Prj/)  
 
 <hr class="chapterDivider"/>
 

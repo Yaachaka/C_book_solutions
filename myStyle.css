@@ -3,7 +3,14 @@ body
     /* background: wheat; */
     width: 96%;
     margin: 0 auto;
-
+    font-family: sans-serif;
+    font-size: large;
+    /* background-color: #c2b6b6; */
+    /* font-family: arial; */
+    /* font-family: Helvetica; */
+    /* font-family: Georgia; */
+    /* font-family: Verdana; */
+    /* font-family: Calibri; */
 }
 
 div
@@ -117,7 +124,6 @@ code.sourceCode > span
 div.sourceCode 
 { 
   margin: 1em 0; 
-  
 }
 
 pre.sourceCode 
@@ -289,8 +295,7 @@ tr:nth-child(even) { /* Alternating row background */
     border-style: ridge;
     border-color: #000;
     background: rgb(208, 225, 225);
-    padding-left: 2px;
-    padding-right: 2px;
+    padding: 1px 7px;
 }
 
 .warningEmoji::before
@@ -388,6 +393,9 @@ tr:nth-child(even) { /* Alternating row background */
 .QandA_question
 {
     color: red;
+    background-color: wheat;
+    border-radius: 5px;
+    padding: 1px 7px;
 }
 
 .QandA_question pre, .QandA_question code, .QandA_question math
@@ -398,6 +406,9 @@ tr:nth-child(even) { /* Alternating row background */
 .QandA_answer
 {
     color: rgb(8, 8, 78);
+    background-color:lightblue;
+    border-radius: 5px;
+    padding: 1px 7px;
 }
 
 .QandA_answer pre, .QandA_answer code, .QandA_answer math
@@ -419,6 +430,13 @@ tr:nth-child(even) { /* Alternating row background */
 .unicode_UPWARDS_ARROW::after
 {
     content: "\2191";
+    /* font-size: 24px; */
+}
+
+.unicode_LINK_SYMBOL::after
+{
+  /* 1F517 ;;; 🔗 ;;; LINK SYMBOL */
+    content: "\1F517";
     /* font-size: 24px; */
 }
 
