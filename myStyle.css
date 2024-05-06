@@ -1,10 +1,11 @@
 body
 {
-    /* background: wheat; */
+    background-color: white;
     width: 96%;
     margin: 0 auto;
     font-family: sans-serif;
     font-size: large;
+    color: black;
     /* background-color: #c2b6b6; */
     /* font-family: arial; */
     /* font-family: Helvetica; */
@@ -498,4 +499,22 @@ tr:nth-child(even) { /* Alternating row background */
     border-style: solid;
     margin-right: 5px;
     padding: 1px;
+}
+
+.ch_problem
+{
+    background-color: rgb(239 201 201);
+    border-radius: 5px;
+    border-color: #880000;
+    border-style: groove;
+    padding: 1px 7px;
+}
+
+.ch_solution
+{
+  background-color: rgb(157 231 164);
+  border-radius: 5px;
+  border-color: #0d5c03;
+  border-style: dashed;
+  padding: 1px 7px;
 }

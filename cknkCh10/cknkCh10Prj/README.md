@@ -13,6 +13,10 @@
 
 <hr class="hr1ExrcPrj"/>
 
+    
+<!-- START: div -->
+<div class="ch_problem">
+
 # cknkCh10Prj001
 
 <!-- START: Problem Statement -->
@@ -27,6 +31,12 @@ Parentheses/braces are nested properly
 *Hint*: As the program reads characters, have it push each left parenthesis or left brace. When it reads a right parenthesis or brace, have it pop the stack and check that the item popped is a matching parenthesis or brace. (If not, the parentheses/braces aren’t nested properly.) When the program reads the new-line character, have it check whether the stack is empty; if so, the parentheses/braces are matched. If the stack isn't empty (or if `stack_underflow` is ever called), the parentheses/braces aren’t matched. If `stack_overflow` is called, have the program print the message `Stack overtlow` and terminate immediately.
 
 <!-- END: Problem Statement -->
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class=ch_solution>
 
 # Solution:
 
@@ -105,7 +115,14 @@ Parentheses/braces are nested properly
 
 <!-- END: Comments -->
 
+</div>
+<!-- END: div -->
+
 <hr class="hr1ExrcPrj"/>
+
+    
+<!-- START: div -->
+<div class="ch_problem">
 
 # cknkCh10Prj002
 
@@ -114,6 +131,12 @@ Parentheses/braces are nested properly
 Modify the `poker.c` program of Section 10.5 by moving the `num_in_rank` and `num_in_suit` arrays into `main`, which will pass them as arguments to `read_cards` and `analyze_hand`.
 
 <!-- END: Problem Statement -->
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class=ch_solution>
 
 # Solution:
 
@@ -192,7 +215,14 @@ Modify the `poker.c` program of Section 10.5 by moving the `num_in_rank` and `nu
 
 <!-- END: Comments -->
 
+</div>
+<!-- END: div -->
+
 <hr class="hr1ExrcPrj"/>
+
+    
+<!-- START: div -->
+<div class="ch_problem">
 
 # cknkCh10Prj003
 
@@ -201,6 +231,12 @@ Modify the `poker.c` program of Section 10.5 by moving the `num_in_rank` and `nu
 Remove the `num_in_rank`, `num_in_suit`, and `card_exists` arrays from the `poker.c` program of Section 10.5. Have the program store the cards in a 5 x 2 array instead. Each row of the array will represent a card. For example, if the array is named `hand`, then `hand[0][0]` will store the rank of the first card and `hand[0][1]` will store the suit of the first card,
 
 <!-- END: Problem Statement -->
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class=ch_solution>
 
 # Solution:
 
@@ -279,7 +315,14 @@ Remove the `num_in_rank`, `num_in_suit`, and `card_exists` arrays from the `poke
 
 <!-- END: Comments -->
 
+</div>
+<!-- END: div -->
+
 <hr class="hr1ExrcPrj"/>
+
+    
+<!-- START: div -->
+<div class="ch_problem">
 
 # cknkCh10Prj004
 
@@ -288,6 +331,12 @@ Remove the `num_in_rank`, `num_in_suit`, and `card_exists` arrays from the `poke
 Modify the `poker.c` program of Section 10.5 by having it recognize an additional category, "royal flush" (ace, king, queen, jack, ten of the same suit). A royal flush ranks higher than all other hands.
 
 <!-- END: Problem Statement -->
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class=ch_solution>
 
 # Solution:
 
@@ -366,7 +415,14 @@ Modify the `poker.c` program of Section 10.5 by having it recognize an additiona
 
 <!-- END: Comments -->
 
+</div>
+<!-- END: div -->
+
 <hr class="hr1ExrcPrj"/>
+
+    
+<!-- START: div -->
+<div class="ch_problem">
 
 # cknkCh10Prj005
 
@@ -375,6 +431,12 @@ Modify the `poker.c` program of Section 10.5 by having it recognize an additiona
 Modify the `poker.c` program of Section 10.5 by allowing “ace-low” straights (ace, two, three, four, five).
 
 <!-- END: Problem Statement -->
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class=ch_solution>
 
 # Solution:
 
@@ -453,7 +515,14 @@ Modify the `poker.c` program of Section 10.5 by allowing “ace-low” straights
 
 <!-- END: Comments -->
 
+</div>
+<!-- END: div -->
+
 <hr class="hr1ExrcPrj"/>
+
+    
+<!-- START: div -->
+<div class="ch_problem">
 
 # cknkCh10Prj006
 
@@ -479,6 +548,12 @@ Enter an RPN expression: q
 If the stack overflows, the program will display the message `Expression is too complex` and terminate. If the stack underflows (because of an expression such as 12 + +), the program will display the message `Not enough operands in expression` and terminate. *Hints*: Incorporate the stack code from Section 10.2 into your program. Use `scanf (" %c", &ch)` to read the operators and operands.
 
 <!-- END: Problem Statement -->
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class=ch_solution>
 
 # Solution:
 
@@ -557,7 +632,14 @@ If the stack overflows, the program will display the message `Expression is too 
 
 <!-- END: Comments -->
 
+</div>
+<!-- END: div -->
+
 <hr class="hr1ExrcPrj"/>
+
+    
+<!-- START: div -->
+<div class="ch_problem">
 
 # cknkCh10Prj007
 
@@ -583,6 +665,12 @@ void print_digits_array(void);
 `clear_digits_array` will store blank characters into all elements of the `digits` array, `process_digit` will store the seven-segment representation of digit into a specified position in the `digits` array (positions range from 0 to `MAX_DIGITS - 1`). `print_digits` array will display the rows of the `digits` array, each on a single line, producing output such as that shown in the example.
 
 <!-- END: Problem Statement -->
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class=ch_solution>
 
 # Solution:
 
@@ -660,6 +748,9 @@ void print_digits_array(void);
 
 
 <!-- END: Comments -->
+
+</div>
+<!-- END: div -->
 
 <hr class="hr1ExrcPrj"/>
 

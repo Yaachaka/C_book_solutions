@@ -34,13 +34,23 @@ for i in $(seq 1 $exrcCount);
 do
     name2=$name1$(printf "%03d" $i)
 
-    echo "# $name2
+    echo "    
+<!-- START: div -->
+<div class=\"ch_problem\">
+
+# $name2
 
 <!-- START: Problem Statement -->
 
 
 
 <!-- END: Problem Statement -->
+
+</div>
+<!-- END: div -->
+
+<!-- START: div -->
+<div class="ch_solution">
 
 # Solution:
 
@@ -83,6 +93,9 @@ do
 
 
 <!-- END: Comments -->
+
+</div>
+<!-- END: div -->
 
 <hr class=\"hr1ExrcPrj\"/>
 " >> $prefChapter/$name1/README.md # Fourth echo
