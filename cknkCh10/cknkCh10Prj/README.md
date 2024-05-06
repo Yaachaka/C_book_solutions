@@ -1,7 +1,8 @@
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chapter 10 Programming Projects</title>
-<meta charset="utf-8">
 <link rel="stylesheet" href="../../myStyle.css">
 </head>
 <body>

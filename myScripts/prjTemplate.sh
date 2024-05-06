@@ -16,8 +16,9 @@ mkdir $prefChapter/$name1
 
 echo "<html>
 <head>
+<meta charset=\"UTF-8\">
+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
 <title>Chapter $chapter Programming Projects</title>
-<meta charset=\"utf-8\">
 <link rel=\"stylesheet\" href=\"../../myStyle.css\">
 </head>
 <body>
