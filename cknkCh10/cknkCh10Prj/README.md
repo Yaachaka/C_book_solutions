@@ -135,66 +135,71 @@ Modify the `poker.c` program of Section 10.5 by moving the `num_in_rank` and `nu
 <!-- START: terminal interaction or other output -->
 
 ```
+Enter a card: 3s
+Enter a card: 6p
+Bad card; ignored.
+Enter a card: 6h
+Enter a card: 9c
+Enter a card: ac
+Enter a card: kc
+High card
 
+Enter a card: 4h
+Enter a card: 6
+h
+Bad card; ignored.
+Enter a card: 6h
+Enter a card: 8h
+Enter a card: ah
+Enter a card: kh
+Flush
+
+Enter a card: 2c
+Enter a card: 4c
+Enter a card: 5h
+Enter a card: 8h
+Enter a card: ad
+High card
+
+Enter a card: 3d
+Enter a card: 5d
+Enter a card: 8d
+Enter a card: 4h
+Enter a card: 9h
+High card
+
+Enter a card: 3d
+Enter a card: 2d
+Enter a card: 6h
+Enter a card: 5h
+Enter a card: kc
+High card
+
+Enter a card: 2s
+Enter a card: 3s
+Enter a card: 5s
+Enter a card: 6s
+Enter a card: 8s
+Flush
+
+Enter a card: 8c
+Enter a card: 8h
+Enter a card: 4d
+Enter a card: 4h
+Enter a card: 6s
+Two pairs
+
+Enter a card: 9s
+Enter a card: 9c
+Enter a card: 9h
+Enter a card: 9d
+Enter a card: ac
+Four of a kind
+
+Enter a card: 0
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
