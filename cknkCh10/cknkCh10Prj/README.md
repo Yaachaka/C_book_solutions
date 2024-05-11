@@ -395,66 +395,24 @@ Modify the `poker.c` program of Section 10.5 by having it recognize an additiona
 <!-- START: terminal interaction or other output -->
 
 ```
+Enter a card: 4h
+Enter a card: 6h
+Enter a card: 8h
+Enter a card: 5h
+Enter a card: 7h
+Straight flush
 
+Enter a card: ks
+Enter a card: qs
+Enter a card: ts
+Enter a card: as
+Enter a card: js
+Royal flush
+
+Enter a card: 0
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
