@@ -485,7 +485,7 @@ Enter a card: 0
 
 <!-- START: Problem Statement -->
 
-Some calculators (notably those from Hewlett-Packard) use a system of writing mathematical expressions known as **Reverse Polish Notation (RPN)**. In this notation, operators are placed after their operands instead of benween their operands. For example, `1 + 2` would be written `1 2 +` in RPN, and `1 + 2 * 3` would be written `1 2 3 * +`. RPN expressions can easily be evaluated using a stack. The algorithm involves reading the operators and operands in an expression from left to right, performing the following actions:
+Some calculators (notably those from Hewlett-Packard) use a system of writing mathematical expressions known as **Reverse Polish Notation (RPN)**. In this notation, operators are placed after their operands instead of between their operands. For example, `1 + 2` would be written `1 2 +` in RPN, and `1 + 2 * 3` would be written `1 2 3 * +`. RPN expressions can easily be evaluated using a stack. The algorithm involves reading the operators and operands in an expression from left to right, performing the following actions:
 
 - When an operand is encountered, push it onto the stack.  
 - When an operator is encountered, pop its operands from the stack, perform the operation on those operands, and then push the result onto the stack.  
@@ -528,18 +528,16 @@ If the stack overflows, the program will display the message `Expression is too 
 <!-- START: terminal interaction or other output -->
 
 ```
+Enter an RPN expression: 1 2 3 * + =
+Value of expression: 7
 
+Enter an RPN expression: 5 8 * 4 9 - / =
+Value of expression: -8
+
+Enter an RPN expression: q
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -548,18 +546,11 @@ If the stack overflows, the program will display the message `Expression is too 
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter an RPN expression: 1 2 3 * + + =
+Stack Underflow: Not enough operands in expression!!!
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -568,26 +559,29 @@ If the stack overflows, the program will display the message `Expression is too 
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter an RPN expression: 1 2 3 4 5 6 7 8 9 2 3 - - + + / * - + / / =
+Stack Overflow: Expression is too complex!!!
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial3 Comments:
+### Trial4:
 
-<!-- START: Comments -->
+#### Trial4 execution:
 
+<!-- START: terminal interaction or other output -->
 
+```
+Enter an RPN expression: 1 2 3 * =
+Value of expression: 6
 
-<!-- END: Comments -->
+NOTE: Not enough operators. Discarding the remaining operands from stack!!!
 
-# Exercise Comment:
+Enter an RPN expression: 5 8 * 4 4 - / =
+Denominator is 0 for division operation. Exiting...
+```
 
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+<!-- END: terminal interaction or other output -->
 
 </div>
 <!-- END: div -->
