@@ -8232,7 +8232,7 @@ int sum_array(int, int[]); /* Version 3b */
 
 Leaving the brackets empty isn't a good choice, because it doesn’t expose the relationship between `n` and `a`.
 
-In general, the length of a variable-length array parameter can be any expression. For example, suppose that we were to write a function that concatenates two arrays `a` and `b` by copying the elements of `a`, followed by the elements of `b`, into `a` third array named `c`:
+In general, the length of a variable-length array parameter can be any expression. For example, suppose that we were to write a function that concatenates two arrays `a` and `b` by copying the elements of `a`, followed by the elements of `b`, into a third array named `c`:
 
 ```C
 int concatenate (int m, int n, int a[m], int b[n], int c[m+n])
@@ -8516,7 +8516,7 @@ At this point, you may wonder why we're bothering with recursion; after all, nei
 
 In practice, recursion often arises naturally as a result of an algorithm design technique known as ***divide-and-conquer***, in which a large problem is divided into smaller pieces that are then tackled by the same algorithm. A classic example of the divide-and-conquer strategy can be found in the popular sorting algorithm known as ***Quicksort***. The Quicksort algorithm goes as follows (for simplicity, we’ll assume that the array being sorted is indexed from 1 to `n`):
 
-1. Choose an array element `e` (the “partitioning element"), then rearrange the array so that elements `1. ..., i — 1` are less than or equal to `e`, element `i` contains `e`, and elements `i + 1, ..., n` are greater than or equal to `e`.  
+1. Choose an array element `e` (the "partitioning element"), then rearrange the array so that elements `1, ..., i — 1` are less than or equal to `e`, element `i` contains `e`, and elements `i + 1, ..., n` are greater than or equal to `e`.  
 2. Sort elements `1, ..., i — 1` by using Quicksort recursively.  
 3. Sort elements `i + 1, ..., n` by using Quicksort recursively.  
 
