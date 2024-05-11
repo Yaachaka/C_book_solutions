@@ -453,66 +453,24 @@ Modify the `poker.c` program of Section 10.5 by allowing “ace-low” straights
 <!-- START: terminal interaction or other output -->
 
 ```
+Enter a card: 3s   
+Enter a card: 5d
+Enter a card: 2h
+Enter a card: ac
+Enter a card: 4s
+Ace-Low Straight
 
+Enter a card: 4s
+Enter a card: 6d
+Enter a card: 8h
+Enter a card: 5c
+Enter a card: 7h
+Straight
+
+Enter a card: 0
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
