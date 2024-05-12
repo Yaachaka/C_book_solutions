@@ -409,11 +409,11 @@ Denominator is 0 for division operation. Exiting...</code></pre>
      _       _   _
 |_| |_|   | |_| | |   | |_|
   |  _|   |  _| |_|   |   |</code></pre>
-<p>Characters other than digits should be ignored. Write the program so that the maximum number of digits is controlled by a macro named <code>MAX_DIGITS</code>, which has the value 10. If the number contains more than this number of digits, the extra digits are ignored. <em>Hints</em>: Use two external arrays. One is the segments array (see Exercise 6 in Chapter 8), which stores data representing the correspondence between digits and segments. The other array, digits, will be an array of characters with 4 rows (since each segmented digit is four characters high) and <code>MAX_DIGITS * 4</code> columns (digits are three characters wide, but a space is needed between digits for readability), Write your program as four functions: <code>main</code>, <code>clear_digits_array</code>. <code>process_digit</code>, and <code>print_digits</code> array. Here are the prototypes for the latter three functions:</p>
+<p>Characters other than digits should be ignored. Write the program so that the maximum number of digits is controlled by a macro named <code>MAX_DIGITS</code>, which has the value 10. If the number contains more than this number of digits, the extra digits are ignored. <em>Hints</em>: Use two external arrays. One is the <code>segments</code> array (see Exercise 6 in Chapter 8), which stores data representing the correspondence between digits and segments. The other array, <code>digits</code>, will be an array of characters with 4 rows (since each segmented digit is four characters high) and <code>MAX_DIGITS * 4</code> columns (digits are three characters wide, but a space is needed between digits for readability). Write your program as four functions: <code>main</code>, <code>clear_digits_array</code>, <code>process_digit</code>, and <code>print_digits_array</code>. Here are the prototypes for the latter three functions:</p>
 <div class="sourceCode" id="cb16"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true"></a><span class="dt">void</span> clear_digits_array(<span class="dt">void</span>);</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true"></a><span class="dt">void</span> process_digit(<span class="dt">int</span> digit, <span class="dt">int</span> position);</span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true"></a><span class="dt">void</span> print_digits_array(<span class="dt">void</span>);</span></code></pre></div>
-<p><code>clear_digits_array</code> will store blank characters into all elements of the <code>digits</code> array, <code>process_digit</code> will store the seven-segment representation of digit into a specified position in the <code>digits</code> array (positions range from 0 to <code>MAX_DIGITS - 1</code>). <code>print_digits</code> array will display the rows of the <code>digits</code> array, each on a single line, producing output such as that shown in the example.</p>
+<p><code>clear_digits_array</code> will store blank characters into all elements of the <code>digits</code> array, <code>process_digit</code> will store the seven-segment representation of digit into a specified position in the <code>digits</code> array (positions range from 0 to <code>MAX_DIGITS - 1</code>). <code>print_digits_array</code> will display the rows of the <code>digits</code> array, each on a single line, producing output such as that shown in the example.</p>
 <!-- END: Problem Statement -->
 </section>
 <!-- END: div -->
@@ -426,29 +426,38 @@ Denominator is 0 for division operation. Exiting...</code></pre>
 <h3 id="trial1-6">Trial1:</h3>
 <h4 id="trial1-execution-6">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
+<pre><code>Enter a number: 491-9014
+    _     _  _       
+|_||_|  ||_|| |  ||_|
+  |  |  |  || |  |  |
+    _     _  _       </code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-1">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <h3 id="trial2-3">Trial2:</h3>
 <h4 id="trial2-execution-3">Trial2 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
+<pre><code>Enter a number: 387
+ _  _  _ 
+ _||_|  |
+  || |  |
+ _  _    </code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <h3 id="trial3-2">Trial3:</h3>
 <h4 id="trial3-execution-2">Trial3 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
+<pre><code>Enter a number: 0123456789989
+ _     _  _     _  _  _  _  _ 
+| |  | _| _||_||_ |_   ||_||_|
+| |  ||    |  |  || |  || |  |
+ _     _  _     _  _     _  _ </code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <h1 id="exercise-comment">Exercise Comment:</h1>
 <!-- START: Comments -->
+<p><strong>Suggestion:</strong> For better appearance in the output, we can change the number of rows in <code>digits</code> array to 3 and arrange the segment 3 in the 3rd row itself with underscore (<code>_</code>) as the character.</p>
+<p>For reference, segment numbers in a digit,</p>
+<pre><code> _        ₀ 
+|_|     ⁵ ₆ ¹
+| |     ⁴ ₃ ²
+ ‾        </code></pre>
 <!-- END: Comments -->
 </div>
 <!-- END: div -->
