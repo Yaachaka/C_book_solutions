@@ -6897,5 +6897,104 @@ Enter a card: 0</code></pre>
 <li>Programs: <span class="unicode_LINK_SYMBOL"></span><a href="./cknkCh10/cknkCh10Prj/">./cknkCh10/cknkCh10Prj/</a></li>
 </ul>
 <hr class="chapterDivider"/>
+<h1 id="pointers">11 Pointers</h1>
+<!-- START: div -->
+<div class="theQuote">
+<p>The 11th commandment was “Thou Shalt Compute” or “Thou Shalt Not Compute” — I forget which.</p>
+</div>
+<!-- END: div -->
+<p>Pointers are one of C’s most important—and most often misunderstood—features. Because of their importance, we’ll devote three chapters to pointers. In this chapter, we’ll concentrate on the basics; Chapters 12 and 17 cover more advanced uses of pointers.</p>
+<p>We’ll start with a discussion of memory addresses and their relationship to pointer variables (Section 11.1). Section 11.2 then introduces the address and indirection operators. Section 11.3 covers pointer assignment. Section 11.4 explains how to pass pointers to functions, while Section 11.5 discusses returning pointers from functions.</p>
+<h2 id="pointer-variables">11.1 Pointer Variables</h2>
+<p>The first step in understanding pointers is visualizing what they represent at the machine level. In most modern computers, main memory is divided into bytes, with each byte capable of storing eight bits of information:</p>
+<p><img src="./images/cknkCh11Sec11p1_1.png" /></p>
+<p>Each byte has a unique address to distinguish it from the other bytes in memory. If there are <code>n</code> bytes in memory, we can think of addresses as numbers that range from <code>0</code> to <code>n - 1</code>.</p>
+<p><img src="./images/cknkCh11Sec11p1_2.png" /></p>
+<p>An executable program consists of both <em>code</em> (machine instructions corresponding to statements in the original C program) and <em>data</em> (variables in the original program). Each variable in the program occupies one or more bytes of memory; the address of the first byte is said to be the address of the variable. In the following figure, the variable <code>i</code> occupies the bytes at addresses 2000 and 2001, so <code>i</code>’s address is 2000:</p>
+<p><img src="./images/cknkCh11Sec11p1_3.png" /></p>
+<p><span class="QandA"></span></p>
+<p>Here’s where pointers come in. Although addresses are represented by numbers, their range of values may differ from that of integers, so we can’t necessarily store them in ordinary integer variables. We can, however, store them in special pointer variables. When we store the address of a variable <code>i</code> in the pointer variable <code>p</code>, we say that <code>p</code> “points to” <code>i</code>. In other words, a pointer is nothing more than an address, and a pointer variable is just a variable that can store an address.</p>
+<p>Instead of showing addresses as numbers in our examples, I’ll use a simpler notation. To indicate that a pointer variable <code>p</code> stores the address of a variable <code>i</code>, I’ll show the contents of <code>p</code> as an arrow directed toward <code>i</code>:</p>
+<p><img src="./images/cknkCh11Sec11p1_4.png" /></p>
+<h3 id="declaring-pointer-variables">11.1.1 Declaring Pointer Variables</h3>
+<p>A pointer variable is declared in much the same way as an ordinary variable. The only difference is that the name of a pointer variable must be preceded by an asterisk:</p>
+<div class="sourceCode" id="cb539"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb539-1"><a href="#cb539-1" aria-hidden="true"></a><span class="dt">int</span> *p;</span></code></pre></div>
+<p>This declaration states that <code>p</code> is a pointer variable capable of pointing to <strong><em>objects</em></strong> of type <code>int</code>. I’m using the term <em>object</em> instead of <em>variable</em> since—as we’ll see in Chapter 17—<code>p</code> might point to an area of memory that doesn’t belong to a variable. (Be aware that “object” will have a different meaning when we discuss program design in Chapter 19.)</p>
+<p>Pointer variables can appear in declarations along with other variables:</p>
+<div class="sourceCode" id="cb540"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb540-1"><a href="#cb540-1" aria-hidden="true"></a><span class="dt">int</span> i, j, a[<span class="dv">10</span>], b[<span class="dv">20</span>], *p, *q;</span></code></pre></div>
+<p>In this example, <code>i</code> and <code>j</code> are ordinary integer variables, <code>a</code> and <code>b</code> are arrays of integers, and <code>p</code> and <code>q</code> are pointers to integer objects.</p>
+<p>C requires that every pointer variable point only to objects of a particular type (the <strong><em>referenced type</em></strong>):</p>
+<div class="sourceCode" id="cb541"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb541-1"><a href="#cb541-1" aria-hidden="true"></a><span class="dt">int</span> *p; <span class="co">/* points only to integers */</span></span>
+<span id="cb541-2"><a href="#cb541-2" aria-hidden="true"></a><span class="dt">double</span> *q; <span class="co">/* points only to doubles */</span></span>
+<span id="cb541-3"><a href="#cb541-3" aria-hidden="true"></a><span class="dt">char</span> *r; <span class="co">/* points only to characters */</span></span></code></pre></div>
+<p>There are no restrictions on what the referenced type may be. In fact, a pointer variable can even point to another pointer.</p>
+<h2 id="the-address-and-indirection-operators">11.2 The Address and Indirection Operators</h2>
+<p>C provides a pair of operators designed specifically for use with pointers. To find the address of a variable, we use the <strong><em><code>&amp;</code> (address)</em></strong> operator. If <code>x</code> is a variable, then <code>&amp;x</code> is the address of <code>x</code> in memory. To gain access to the object that a pointer points to, we use the <strong><em><code>*</code> (indirection)</em></strong> operator. If <code>p</code> is a pointer, then <code>*p</code> represents the object to which <code>p</code> currently points.</p>
+<h3 id="the-address-operator">11.2.1 The Address Operator</h3>
+<p>Declaring a pointer variable sets aside space for a pointer but doesn’t make it point to an object:</p>
+<div class="sourceCode" id="cb542"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb542-1"><a href="#cb542-1" aria-hidden="true"></a><span class="dt">int</span> *p; <span class="co">/* points nowhere in particular */</span></span></code></pre></div>
+<p>It’s crucial to initialize <code>p</code> before we use it. One way to initialize a pointer variable is to assign it the address of some variable—or, more generally, lvalue—using the <code>&amp;</code> operator:</p>
+<div class="sourceCode" id="cb543"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb543-1"><a href="#cb543-1" aria-hidden="true"></a><span class="dt">int</span> i, *p;</span>
+<span id="cb543-2"><a href="#cb543-2" aria-hidden="true"></a>...</span>
+<span id="cb543-3"><a href="#cb543-3" aria-hidden="true"></a>p = &amp;i;</span></code></pre></div>
+<p>By assigning the address of <code>i</code> to the variable <code>p</code>, this statement makes <code>p</code> point to <code>i</code>:</p>
+<p><img src="./images/cknkCh11Sec11p2p1_1.png" alt="cknkCh11Sec11p2p1_1.png not found" /></p>
+<p>It’s also possible to initialize a pointer variable at the time we declare it:</p>
+<p><span class="QandA"></span></p>
+<div class="sourceCode" id="cb544"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb544-1"><a href="#cb544-1" aria-hidden="true"></a><span class="dt">int</span> i;</span>
+<span id="cb544-2"><a href="#cb544-2" aria-hidden="true"></a><span class="dt">int</span> *p = &amp;i;</span></code></pre></div>
+<p>We can even combine the declaration of <code>i</code> with the declaration of <code>p</code>, provided that <code>i</code> is declared first:</p>
+<div class="sourceCode" id="cb545"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb545-1"><a href="#cb545-1" aria-hidden="true"></a><span class="dt">int</span> i, *p = &amp;i;</span></code></pre></div>
+<h3 id="the-indirection-operator">11.2.2 The Indirection Operator</h3>
+<p>Once a pointer variable points to an object, we can use the <code>*</code> (indirection) operator to access what’s stored in the object. If <code>p</code> points to <code>i</code>, for example, we can print the value of <code>i</code> as follows;</p>
+<div class="sourceCode" id="cb546"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb546-1"><a href="#cb546-1" aria-hidden="true"></a>printf (<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, *p);</span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p><code>printf</code> will display the value of <code>i</code>, not the address of <code>i</code>.</p>
+<p>The mathematically inclined reader may wish to think of <code>*</code> as the inverse of <code>&amp;</code>. Applying <code>&amp;</code> to a variable produces a pointer to the variable; applying <code>*</code> to the pointer takes us back to the original variable:</p>
+<div class="sourceCode" id="cb547"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb547-1"><a href="#cb547-1" aria-hidden="true"></a>j = *&amp;i; <span class="co">/* same as j = i; */</span></span></code></pre></div>
+<p>As long as <code>p</code> points to <code>i</code>, <code>*p</code> is an <strong><em>alias</em></strong> for <code>i</code>. Not only does <code>*p</code> have the same value as <code>i</code>, but changing the value of <code>*p</code> also changes the value of <code>i</code>. (<code>*p</code> is an lvalue, so assignment to it is legal.) The following example illustrates the equivalence of <code>*p</code> and <code>i</code>; diagrams show the values of <code>p</code> and <code>i</code> at various points in the computation.</p>
+<div class="sourceCode" id="cb548"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb548-1"><a href="#cb548-1" aria-hidden="true"></a>p = &amp;i;</span></code></pre></div>
+<p><img src="./images/cknkCh11Sec11p2p2_1.png" alt="cknkCh11Sec11p2p2_1.png not available"/></p>
+<div class="sourceCode" id="cb549"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb549-1"><a href="#cb549-1" aria-hidden="true"></a>i = <span class="dv">1</span>;</span></code></pre></div>
+<p><img src="./images/cknkCh11Sec11p2p2_2.png" alt="cknkCh11Sec11p2p2_2.png not available"/></p>
+<div class="sourceCode" id="cb550"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb550-1"><a href="#cb550-1" aria-hidden="true"></a>printf (<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, i); <span class="co">/* prints 1 */</span></span>
+<span id="cb550-2"><a href="#cb550-2" aria-hidden="true"></a>printf (<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, *p); <span class="co">/* prints 1 */</span></span>
+<span id="cb550-3"><a href="#cb550-3" aria-hidden="true"></a>*p = <span class="dv">2</span>;</span></code></pre></div>
+<p><img src="./images/cknkCh11Sec11p2p2_3.png" alt="cknkCh11Sec11p2p2_3.png not available"/></p>
+<div class="sourceCode" id="cb551"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb551-1"><a href="#cb551-1" aria-hidden="true"></a>printf(<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, i); <span class="co">/* prints 2 */</span></span>
+<span id="cb551-2"><a href="#cb551-2" aria-hidden="true"></a>printf(<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, *p); <span class="co">/* prints 2 */</span></span></code></pre></div>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Never apply the indirection operator to an uninitialized pointer variable. If a pointer variable <code>p</code> hasn’t been initialized, altempting to use the value of <code>p</code> in any way causes undefined behavior. In the following example, the call of <code>printf</code> <em>may print garbage</em>, <em>cause the program to crash</em>, or <em>have some other effect</em>:</p>
+<div class="sourceCode" id="cb552"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb552-1"><a href="#cb552-1" aria-hidden="true"></a><span class="dt">int</span> *p;</span>
+<span id="cb552-2"><a href="#cb552-2" aria-hidden="true"></a>printf(<span class="st">&quot;%d&quot;</span>, *p);    <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>Assigning a value to <code>*p</code> is particularly dangerous. If <code>p</code> happens to contain a valid memory address, the following assignment will attempt to modify the data stored at that address:</p>
+<div class="sourceCode" id="cb553"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb553-1"><a href="#cb553-1" aria-hidden="true"></a><span class="dt">int</span> *p;</span>
+<span id="cb553-2"><a href="#cb553-2" aria-hidden="true"></a>*p = <span class="dv">1</span>; <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>If the location modified by this assignment belongs to the program, it may behave erratically; if it belongs to the operating system, the program will most likely crash. Your compiler may issue a warning that <code>p</code> is uninitialized, so pay close attention o any warning messages you get.</p>
+</div>
+<!-- END: div -->
+<h2 id="examples-9">Examples</h2>
+<ul>
+<li>Programs: <span class="unicode_LINK_SYMBOL"></span><a href="./cknkCh11/cknkCh11Exmp/">./cknkCh11/cknkCh11Exmp/</a></li>
+</ul>
+<h2 id="exercises-9">Exercises</h2>
+<ul>
+<li>Readme: <span class="unicode_LINK_SYMBOL"></span><a href="./cknkCh11/cknkCh11Exrc/README.md">./cknkCh11/cknkCh11Exrc/README.md</a><br />
+</li>
+<li>Readme (html): <span class="unicode_LINK_SYMBOL"></span><a href="./cknkCh11/cknkCh11Exrc/cknkCh11ExrcReadme.html">./cknkCh11/cknkCh11Exrc/cknkCh11ExrcReadme.html</a><br />
+</li>
+<li>Programs: <span class="unicode_LINK_SYMBOL"></span><a href="./cknkCh11/cknkCh11Exrc/">./cknkCh11/cknkCh11Exrc/</a></li>
+</ul>
+<h2 id="programming-projects-9">Programming Projects</h2>
+<ul>
+<li>Readme: <span class="unicode_LINK_SYMBOL"></span><a href="./cknkCh11/cknkCh11Prj/README.md">./cknkCh11/cknkCh11Prj/README.md</a><br />
+</li>
+<li>Readme: <span class="unicode_LINK_SYMBOL"></span><a href="./cknkCh11/cknkCh11Prj/cknkCh11PrjReadme.html">./cknkCh11/cknkCh11Prj/cknkCh11PrjReadme.html</a><br />
+</li>
+<li>Programs: <span class="unicode_LINK_SYMBOL"></span><a href="./cknkCh11/cknkCh11Prj/">./cknkCh11/cknkCh11Prj/</a></li>
+</ul>
+<hr class="chapterDivider"/>
 </body>
 </html>

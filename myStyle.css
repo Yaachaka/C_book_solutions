@@ -302,7 +302,11 @@ tr:nth-child(even) { /* Alternating row background */
 .warningEmoji::before
 {
     content: "\26A0";
+    color: yellow;
+    background-color: orange;
     font-size: 24px;
+    padding: 0 2px;
+    border-radius: 4px;
 }
 
 .music_M8::before
