@@ -6938,7 +6938,7 @@ Enter a card: 0</code></pre>
 <span id="cb543-2"><a href="#cb543-2" aria-hidden="true"></a>...</span>
 <span id="cb543-3"><a href="#cb543-3" aria-hidden="true"></a>p = &amp;i;</span></code></pre></div>
 <p>By assigning the address of <code>i</code> to the variable <code>p</code>, this statement makes <code>p</code> point to <code>i</code>:</p>
-<p><img src="./images/cknkCh11Sec11p2p1_1.png" alt="cknkCh11Sec11p2p1_1.png not found" /></p>
+<p><img src="./images/cknkCh11Sec11p2p1_1.png" alt="cknkCh11Sec11p2p1_1.png" /></p>
 <p>It’s also possible to initialize a pointer variable at the time we declare it:</p>
 <p><span class="QandA"></span></p>
 <div class="sourceCode" id="cb544"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb544-1"><a href="#cb544-1" aria-hidden="true"></a><span class="dt">int</span> i;</span>
@@ -6954,13 +6954,13 @@ Enter a card: 0</code></pre>
 <div class="sourceCode" id="cb547"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb547-1"><a href="#cb547-1" aria-hidden="true"></a>j = *&amp;i; <span class="co">/* same as j = i; */</span></span></code></pre></div>
 <p>As long as <code>p</code> points to <code>i</code>, <code>*p</code> is an <strong><em>alias</em></strong> for <code>i</code>. Not only does <code>*p</code> have the same value as <code>i</code>, but changing the value of <code>*p</code> also changes the value of <code>i</code>. (<code>*p</code> is an lvalue, so assignment to it is legal.) The following example illustrates the equivalence of <code>*p</code> and <code>i</code>; diagrams show the values of <code>p</code> and <code>i</code> at various points in the computation.</p>
 <div class="sourceCode" id="cb548"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb548-1"><a href="#cb548-1" aria-hidden="true"></a>p = &amp;i;</span></code></pre></div>
-<p><img src="./images/cknkCh11Sec11p2p2_1.png" alt="cknkCh11Sec11p2p2_1.png not available"/></p>
+<p><img src="./images/cknkCh11Sec11p2p2_1.png" alt="cknkCh11Sec11p2p2_1.png"/></p>
 <div class="sourceCode" id="cb549"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb549-1"><a href="#cb549-1" aria-hidden="true"></a>i = <span class="dv">1</span>;</span></code></pre></div>
-<p><img src="./images/cknkCh11Sec11p2p2_2.png" alt="cknkCh11Sec11p2p2_2.png not available"/></p>
+<p><img src="./images/cknkCh11Sec11p2p2_2.png" alt="cknkCh11Sec11p2p2_2.png"/></p>
 <div class="sourceCode" id="cb550"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb550-1"><a href="#cb550-1" aria-hidden="true"></a>printf (<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, i); <span class="co">/* prints 1 */</span></span>
 <span id="cb550-2"><a href="#cb550-2" aria-hidden="true"></a>printf (<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, *p); <span class="co">/* prints 1 */</span></span>
 <span id="cb550-3"><a href="#cb550-3" aria-hidden="true"></a>*p = <span class="dv">2</span>;</span></code></pre></div>
-<p><img src="./images/cknkCh11Sec11p2p2_3.png" alt="cknkCh11Sec11p2p2_3.png not available"/></p>
+<p><img src="./images/cknkCh11Sec11p2p2_3.png" alt="cknkCh11Sec11p2p2_3.png"/></p>
 <div class="sourceCode" id="cb551"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb551-1"><a href="#cb551-1" aria-hidden="true"></a>printf(<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, i); <span class="co">/* prints 2 */</span></span>
 <span id="cb551-2"><a href="#cb551-2" aria-hidden="true"></a>printf(<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, *p); <span class="co">/* prints 2 */</span></span></code></pre></div>
 <!-- START: div -->
@@ -6975,6 +6975,33 @@ Enter a card: 0</code></pre>
 <p>If the location modified by this assignment belongs to the program, it may behave erratically; if it belongs to the operating system, the program will most likely crash. Your compiler may issue a warning that <code>p</code> is uninitialized, so pay close attention o any warning messages you get.</p>
 </div>
 <!-- END: div -->
+<h2 id="pointer-assignment">11.3 Pointer Assignment</h2>
+<p>C allows the use of the assignment operator to copy pointers, provided that they have the same type. Suppose that <code>i</code>, <code>j</code>, <code>p</code>, and <code>q</code> have been declared as follows:</p>
+<div class="sourceCode" id="cb554"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb554-1"><a href="#cb554-1" aria-hidden="true"></a><span class="dt">int</span> i, j, *p, *q;</span></code></pre></div>
+<p>The statement</p>
+<div class="sourceCode" id="cb555"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb555-1"><a href="#cb555-1" aria-hidden="true"></a>p = &amp;i;</span></code></pre></div>
+<p>is an example of pointer assignment; the address of <code>i</code> is copied into <code>p</code>. Here’s another example of pointer assignment:</p>
+<div class="sourceCode" id="cb556"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb556-1"><a href="#cb556-1" aria-hidden="true"></a>q = p;</span></code></pre></div>
+<p>This statement copies the contents of <code>p</code> (the address of <code>i</code>) into <code>q</code>, in effect making <code>q</code> point to the same place as <code>p</code>:</p>
+<p><img src="./images/cknkCh11Sec11p3_1.png" alt="cknkCh11Sec11p3_1.png"/></p>
+<p>Both <code>p</code> and <code>q</code> now point to <code>i</code>, so we can change <code>i</code> by assigning a new value to either <code>*p</code> or <code>*q</code>:</p>
+<div class="sourceCode" id="cb557"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb557-1"><a href="#cb557-1" aria-hidden="true"></a>*p = <span class="dv">1</span>;</span></code></pre></div>
+<p><img src="./images/cknkCh11Sec11p3_2.png" alt="cknkCh11Sec11p3_2.png"/></p>
+<div class="sourceCode" id="cb558"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb558-1"><a href="#cb558-1" aria-hidden="true"></a>*q = <span class="dv">2</span>;</span></code></pre></div>
+<p><img src="./images/cknkCh11Sec11p3_3.png" alt="cknkCh11Sec11p3_3.png"/></p>
+<p>Any number of pointer variables may point to the same object.</p>
+<p>Be careful not to confuse</p>
+<div class="sourceCode" id="cb559"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb559-1"><a href="#cb559-1" aria-hidden="true"></a>q = p;</span></code></pre></div>
+<p>with</p>
+<div class="sourceCode" id="cb560"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb560-1"><a href="#cb560-1" aria-hidden="true"></a>*q = *p;</span></code></pre></div>
+<p>The first statement is a pointer assignment: the second isn’t, as the following example shows:</p>
+<div class="sourceCode" id="cb561"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb561-1"><a href="#cb561-1" aria-hidden="true"></a>p = &amp;i;</span>
+<span id="cb561-2"><a href="#cb561-2" aria-hidden="true"></a>q = &amp;j;</span>
+<span id="cb561-3"><a href="#cb561-3" aria-hidden="true"></a>i=<span class="dv">1</span>;</span></code></pre></div>
+<p><img src="./images/cknkCh11Sec11p3_4.png" alt="cknkCh11Sec11p3_4.png"/></p>
+<div class="sourceCode" id="cb562"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb562-1"><a href="#cb562-1" aria-hidden="true"></a>*q = *p;</span></code></pre></div>
+<p><img src="./images/cknkCh11Sec11p3_5.png" alt="cknkCh11Sec11p3_5.png"/></p>
+<p>The assignment <code>*q = *p</code> copies the value that <code>p</code> points to (the value of <code>i</code>) into the object that <code>q</code> points to (the variable <code>j</code>).</p>
 <h2 id="examples-9">Examples</h2>
 <ul>
 <li>Programs: <span class="unicode_LINK_SYMBOL"></span><a href="./cknkCh11/cknkCh11Exmp/">./cknkCh11/cknkCh11Exmp/</a></li>

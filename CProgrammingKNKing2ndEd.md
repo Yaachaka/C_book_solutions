@@ -10182,7 +10182,7 @@ p = &i;
 
 By assigning the address of `i` to the variable `p`, this statement makes `p` point to `i`:
 
-<img src="./images/cknkCh11Sec11p2p1_1.png" alt="cknkCh11Sec11p2p1_1.png not found" />
+<img src="./images/cknkCh11Sec11p2p1_1.png" alt="cknkCh11Sec11p2p1_1.png" />
 
 It's also possible to initialize a pointer variable at the time we declare it:
 
@@ -10223,13 +10223,13 @@ As long as `p` points to `i`, `*p` is an ***alias*** for `i`. Not only does `*p`
 p = &i;
 ```
 
-<img src="./images/cknkCh11Sec11p2p2_1.png" alt="cknkCh11Sec11p2p2_1.png not available"/>
+<img src="./images/cknkCh11Sec11p2p2_1.png" alt="cknkCh11Sec11p2p2_1.png"/>
 
 ```C
 i = 1;
 ```
 
-<img src="./images/cknkCh11Sec11p2p2_2.png" alt="cknkCh11Sec11p2p2_2.png not available"/>
+<img src="./images/cknkCh11Sec11p2p2_2.png" alt="cknkCh11Sec11p2p2_2.png"/>
 
 ```C
 printf ("%d\n", i); /* prints 1 */
@@ -10237,7 +10237,7 @@ printf ("%d\n", *p); /* prints 1 */
 *p = 2;
 ```
 
-<img src="./images/cknkCh11Sec11p2p2_3.png" alt="cknkCh11Sec11p2p2_3.png not available"/>
+<img src="./images/cknkCh11Sec11p2p2_3.png" alt="cknkCh11Sec11p2p2_3.png"/>
 
 ```C
 printf("%d\n", i); /* prints 2 */
@@ -10267,6 +10267,76 @@ If the location modified by this assignment belongs to the program, it may behav
 
 </div>
 <!-- END: div -->
+
+## 11.3 Pointer Assignment
+
+C allows the use of the assignment operator to copy pointers, provided that they have the same type. Suppose that `i`, `j`, `p`, and `q` have been declared as follows:
+
+```C
+int i, j, *p, *q;
+```
+
+The statement
+
+```C
+p = &i;
+```
+
+is an example of pointer assignment; the address of `i` is copied into `p`. Here's another example of pointer assignment:
+
+```C
+q = p;
+```
+
+This statement copies the contents of `p` (the address of `i`) into `q`, in effect making `q` point to the same place as `p`:
+
+<img src="./images/cknkCh11Sec11p3_1.png" alt="cknkCh11Sec11p3_1.png"/>
+
+Both `p` and `q` now point to `i`, so we can change `i` by assigning a new value to either `*p` or `*q`:
+
+```C
+*p = 1;
+```
+
+<img src="./images/cknkCh11Sec11p3_2.png" alt="cknkCh11Sec11p3_2.png"/>
+
+```C
+*q = 2;
+```
+
+<img src="./images/cknkCh11Sec11p3_3.png" alt="cknkCh11Sec11p3_3.png"/>
+
+Any number of pointer variables may point to the same object.
+
+Be careful not to confuse
+
+```C
+q = p;
+```
+
+with
+
+```C
+*q = *p;
+```
+
+The first statement is a pointer assignment: the second isn't, as the following example shows:
+
+```C
+p = &i;
+q = &j;
+i=1;
+```
+
+<img src="./images/cknkCh11Sec11p3_4.png" alt="cknkCh11Sec11p3_4.png"/>
+
+```C
+*q = *p;
+```
+
+<img src="./images/cknkCh11Sec11p3_5.png" alt="cknkCh11Sec11p3_5.png"/>
+
+The assignment `*q = *p` copies the value that `p` points to (the value of `i`) into the object that `q` points to (the variable `j`).
 
 
 
