@@ -82,47 +82,56 @@ If `i` is a variable and `p` points to `i`, which of the following expressions a
 
 # Solution:
 
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
 
-## Program Link
+`*p`: Yes. Results in 'i'.
 
-[cknkCh11Exrc001.c](./cknkCh11Exrc001.c)
+</li>
+<li>
 
-## Output/ExecutionLog:
+`&p`: No. Results in address of `p`.
 
-### Trial1:
+</li>
+<li>
 
-#### Trial1 execution:
+`*&p`: No. Results in `p`.
 
-<!-- START: terminal interaction or other output -->
+</li>
+<li>
 
-```
+`&*p`: No.
 
-```
+</li>
+<li>
 
-<!-- END: terminal interaction or other output -->
+`*i`: No.
 
-#### Trial1 Comments:
+</li>
+<li>
 
-<!-- START: Comments -->
+`&i`: No.
 
+</li>
+<li>
 
+`*&i`: Yes.
 
-<!-- END: Comments -->
+</li>
+<li>
 
-# Exercise Comment:
+`&*i`: No.
 
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+</li>
+</ol>
+<!-- END: ordered-list -->
 
 </div>
 <!-- END: div -->
 
 <hr class="hr1ExrcPrj"/>
 
-    
 <!-- START: div -->
 <div class="ch_problem">
 
@@ -184,7 +193,6 @@ If `i` is an `int` variable and `p` and `q` are pointers to `int`, which of the 
 </ol>
 <!-- END: ordered-list -->
 
-
 <!-- END: Problem Statement -->
 
 </div>
@@ -195,40 +203,55 @@ If `i` is an `int` variable and `p` and `q` are pointers to `int`, which of the 
 
 # Solution:
 
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
 
-## Program Link
+`p = i;`: Illegal.
 
-[cknkCh11Exrc002.c](./cknkCh11Exrc002.c)
+</li>
+<li>
 
-## Output/ExecutionLog:
+`*p = &i;`: Illegal.
 
-### Trial1:
+</li>
+<li>
 
-#### Trial1 execution:
+`&p = q;`: Illegal.
 
-<!-- START: terminal interaction or other output -->
+</li>
+<li>
 
-```
+`p = &q;`: Legal.
 
-```
+</li>
+<li>
 
-<!-- END: terminal interaction or other output -->
+`p = *&q;`: Legal.
 
-#### Trial1 Comments:
+</li>
+<li>
 
-<!-- START: Comments -->
+`p = q;`: Legal.
 
+</li>
+<li>
 
+`p = *q;`: Illegal.
 
-<!-- END: Comments -->
+</li>
+<li>
 
-# Exercise Comment:
+`*p = q;`: Illegal.
 
-<!-- START: Comments -->
+</li>
+<li>
 
+`*p = *q;`: Legal.
 
-
-<!-- END: Comments -->
+</li>
+</ol>
+<!-- END: ordered-list -->
 
 </div>
 <!-- END: div -->
@@ -269,47 +292,23 @@ void avg_sum(double a[], int n, double *avg, double *sum)
 
 # Solution:
 
+```C
+void avg_sum(double a[], int n, double *avg, double *sum)
+{
+    int i;
 
-## Program Link
-
-[cknkCh11Exrc003.c](./cknkCh11Exrc003.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+    *sum = 0.0;
+    for(i = 0; i < n; i++)
+        *sum += a[i];
+    *avg = *sum / n;
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
 
 <hr class="hr1ExrcPrj"/>
 
-    
 <!-- START: div -->
 <div class="ch_problem">
 
@@ -341,47 +340,20 @@ swap(&i, &j); /* exchanges values of i and j */
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh11Exrc004.c](./cknkCh11Exrc004.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+```C
+void swap(int *p, int *q)
+{
+    int temp = *p;
+    *p = *q;
+    *q = temp;
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
 
 <hr class="hr1ExrcPrj"/>
 
-    
 <!-- START: div -->
 <div class="ch_problem">
 
@@ -409,47 +381,21 @@ void split_time(long total_sec, int *hr, int *min, int *sec);
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh11Exrc005.c](./cknkCh11Exrc005.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+```C
+void split_time(long total_sec, int *hr, int *min, int *sec)
+{
+    *hr = total_sec/3600;
+    total_sec = total_sec - *hr * 3600;
+    *min = total_sec/60;
+    *sec = total_sec - *min * 60;
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
 
 <hr class="hr1ExrcPrj"/>
 
-    
 <!-- START: div -->
 <div class="ch_problem">
 
@@ -477,40 +423,23 @@ When passed an array `a` of length `n`, the function will search `a` for its lar
 
 # Solution:
 
+```C
+void find_two_largest(int a[], int n, int *largest, int *second_largest)
+{
+    int i;
 
-## Program Link
-
-[cknkCh11Exrc006.c](./cknkCh11Exrc006.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+    *largest = a[0];
+    *second_largest = *largest;
+    for(int i = 1; i < n; i++)
+    {
+        if(*largest < a[i])
+        {
+            *second_largest = *largest;
+            *largest = a[i];
+        }
+    }
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -545,46 +474,31 @@ void split_date(int day_of_year, int year, int *month, int *day);
 
 # Solution:
 
+**Note:** Considering 29 days in february.
 
-## Program Link
+```C
+void split_date(int day_of_year, int year, int *month, int *day)
+{
+    int i_n_days_in_month[12] = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    int i;
 
-[cknkCh11Exrc007.c](./cknkCh11Exrc007.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+    for(int i = 0; i < 12; i++)
+    {
+        if(day_of_year <= i_n_days_in_month[i])
+        {
+            *month = i + 1;
+            *day = day_of_year;
+            break;    // Break out of for loop
+        }
+        day_of_year -= i_n_days_in_month[i];
+    }
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
 
 <hr class="hr1ExrcPrj"/>
-
     
 <!-- START: div -->
 <div class="ch_problem">
@@ -613,40 +527,24 @@ When passed an array `a` of length `n`, the function will return a pointer to th
 
 # Solution:
 
+```C
+int *find_largest(int a[], int n)
+{
+    int temp = 0, i;
 
-## Program Link
+    int largest = a[0];
+    for(i = 1; i < n; i++)
+    {
+        if(largest < a[i])
+        {
+            largest = a[i];
+            temp = i;
+        }
+    }
 
-[cknkCh11Exrc008.c](./cknkCh11Exrc008.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+    return &a[temp];
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
