@@ -52,7 +52,7 @@ do
 <!-- END: div -->
 
 <!-- START: div -->
-<div class="ch_solution">
+<div class=\"ch_solution\">
 
 # Solution:
 

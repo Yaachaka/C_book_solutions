@@ -1,0 +1,346 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+Chapter 11 exercises
+</title>
+<link rel="stylesheet" href="../../myStyle.css">
+</head>
+<body>
+<h2 id="pointers">11 Pointers</h2>
+<h1 id="chapter-11-excercises">Chapter 11 Excercises</h1>
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch11exrc001" class="ch_problem">
+<h1>cknkCh11Exrc001</h1>
+<p>Section 11.2</p>
+<!-- START: Problem Statement -->
+<p>If <code>i</code> is a variable and <code>p</code> points to
+<code>i</code>, which of the following expressions are aliases for
+<code>i</code>?</p>
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
+<p><code>*p</code></p>
+</li>
+<li>
+<p><code>&amp;p</code></p>
+</li>
+<li>
+<p><code>*&amp;p</code></p>
+</li>
+<li>
+<p><code>&amp;*p</code></p>
+</li>
+<li>
+<p><code>*i</code></p>
+</li>
+<li>
+<p><code>&amp;i</code></p>
+</li>
+<li>
+<p><code>*&amp;i</code></p>
+</li>
+<li>
+<p><code>&amp;*i</code></p>
+</li>
+</ol>
+<!-- END: ordered-list -->
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution">Solution:</h1>
+<h2 id="program-link">Program Link</h2>
+<p><a href="./cknkCh11Exrc001.c">cknkCh11Exrc001.c</a></p>
+<h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
+<h3 id="trial1">Trial1:</h3>
+<h4 id="trial1-execution">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch11exrc002" class="ch_problem">
+<h1>cknkCh11Exrc002</h1>
+<p>Section 11.3</p>
+<!-- START: Problem Statement -->
+<p>If <code>i</code> is an <code>int</code> variable and <code>p</code>
+and <code>q</code> are pointers to <code>int</code>, which of the
+following assignments are legal?</p>
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
+<p><code>p = i;</code></p>
+</li>
+<li>
+<p><code>*p = &amp;i;</code></p>
+</li>
+<li>
+<p><code>&amp;p = q;</code></p>
+</li>
+<li>
+<p><code>p = &amp;q;</code></p>
+</li>
+<li>
+<p><code>p = *&amp;q;</code></p>
+</li>
+<li>
+<p><code>p = q;</code></p>
+</li>
+<li>
+<p><code>p = *q;</code></p>
+</li>
+<li>
+<p><code>*p = q;</code></p>
+</li>
+<li>
+<p><code>*p = *q;</code></p>
+</li>
+</ol>
+<!-- END: ordered-list -->
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-1">Solution:</h1>
+<h2 id="program-link-1">Program Link</h2>
+<p><a href="./cknkCh11Exrc002.c">cknkCh11Exrc002.c</a></p>
+<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
+<h3 id="trial1-1">Trial1:</h3>
+<h4 id="trial1-execution-1">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch11exrc003" class="ch_problem">
+<h1>cknkCh11Exrc003</h1>
+<p>Section 11.4</p>
+<!-- START: Problem Statement -->
+<p>The following function supposedly computes the sum and average of the
+numbers in the array <code>a</code>, which has length <code>n</code>.
+<code>avg</code> and <code>sum</code> point to variables that the
+function should modify. Unfortunately, the function contains several
+errors; find and correct them.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> avg_sum<span class="op">(</span><span class="dt">double</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">,</span> <span class="dt">double</span> <span class="op">*</span>avg<span class="op">,</span> <span class="dt">double</span> <span class="op">*</span>sum<span class="op">)</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">=</span> <span class="fl">0.0</span><span class="op">;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        sum <span class="op">+=</span> a<span class="op">[</span>i<span class="op">];</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    avg <span class="op">=</span> sum <span class="op">/</span> n<span class="op">;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-2">Solution:</h1>
+<h2 id="program-link-2">Program Link</h2>
+<p><a href="./cknkCh11Exrc003.c">cknkCh11Exrc003.c</a></p>
+<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
+<h3 id="trial1-2">Trial1:</h3>
+<h4 id="trial1-execution-2">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-2">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch11exrc004" class="ch_problem">
+<h1>cknkCh11Exrc004</h1>
+<p>Section 11.4</p>
+<!-- START: Problem Statement -->
+<p>Write the following function:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> swap<span class="op">(</span><span class="dt">int</span> <span class="op">*</span>p<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>q<span class="op">);</span></span></code></pre></div>
+<p>When passed the addresses of two variables, <code>swap</code> should
+exchange the values of the variables:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>swap<span class="op">(&amp;</span>i<span class="op">,</span> <span class="op">&amp;</span>j<span class="op">);</span> <span class="co">/* exchanges values of i and j */</span></span></code></pre></div>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-3">Solution:</h1>
+<h2 id="program-link-3">Program Link</h2>
+<p><a href="./cknkCh11Exrc004.c">cknkCh11Exrc004.c</a></p>
+<h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
+<h3 id="trial1-3">Trial1:</h3>
+<h4 id="trial1-execution-3">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-3">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-3">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch11exrc005" class="ch_problem">
+<h1>cknkCh11Exrc005</h1>
+<p>Section 11.4</p>
+<!-- START: Problem Statement -->
+<p>Write the following function:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> split_time<span class="op">(</span><span class="dt">long</span> total_sec<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>hr<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>min<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>sec<span class="op">);</span></span></code></pre></div>
+<p><code>total_sec</code> is a time represented as the number of seconds
+since midnight. <code>hr</code>, <code>min</code>, and <code>sec</code>
+are pointers to variables in which the function will store the
+equivalent time in hours (0-23), minutes (0-59), and seconds (0-59),
+respectively.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-4">Solution:</h1>
+<h2 id="program-link-4">Program Link</h2>
+<p><a href="./cknkCh11Exrc005.c">cknkCh11Exrc005.c</a></p>
+<h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
+<h3 id="trial1-4">Trial1:</h3>
+<h4 id="trial1-execution-4">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-4">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-4">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch11exrc006" class="ch_problem">
+<h1>cknkCh11Exrc006</h1>
+<p>Section 11.4</p>
+<!-- START: Problem Statement -->
+<p>Write the following function:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> find_two_largest<span class="op">(</span><span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>largest<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>second_largest<span class="op">);</span></span></code></pre></div>
+<p>When passed an array <code>a</code> of length <code>n</code>, the
+function will search <code>a</code> for its largest and second-largest
+elements, storing them in the variables pointed to by
+<code>largest</code> and <code>second_largest</code>, respectively.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-5">Solution:</h1>
+<h2 id="program-link-5">Program Link</h2>
+<p><a href="./cknkCh11Exrc006.c">cknkCh11Exrc006.c</a></p>
+<h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
+<h3 id="trial1-5">Trial1:</h3>
+<h4 id="trial1-execution-5">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-5">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-5">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch11exrc007" class="ch_problem">
+<h1>cknkCh11Exrc007</h1>
+<p>Section 11.4</p>
+<!-- START: Problem Statement -->
+<p>Write the following function:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> split_date<span class="op">(</span><span class="dt">int</span> day_of_year<span class="op">,</span> <span class="dt">int</span> year<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>month<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>day<span class="op">);</span></span></code></pre></div>
+<p><code>day_of_year</code> is an integer between 1 and 366, specifying
+a particular day within the year designated by year. <code>month</code>
+and <code>day</code> point to variables in which the function will store
+the equivalent month (1-12) and day within that month (1-31).</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-6">Solution:</h1>
+<h2 id="program-link-6">Program Link</h2>
+<p><a href="./cknkCh11Exrc007.c">cknkCh11Exrc007.c</a></p>
+<h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
+<h3 id="trial1-6">Trial1:</h3>
+<h4 id="trial1-execution-6">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-6">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-6">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch11exrc008" class="ch_problem">
+<h1>cknkCh11Exrc008</h1>
+<p>Section 11.5</p>
+<!-- START: Problem Statement -->
+<p>Write the following function:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">*</span>find_largest<span class="op">(</span><span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">);</span></span></code></pre></div>
+<p>When passed an array <code>a</code> of length <code>n</code>, the
+function will return a pointer to the array’s largest element.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-7">Solution:</h1>
+<h2 id="program-link-7">Program Link</h2>
+<p><a href="./cknkCh11Exrc008.c">cknkCh11Exrc008.c</a></p>
+<h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
+<h3 id="trial1-7">Trial1:</h3>
+<h4 id="trial1-execution-7">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-7">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-7">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+</body>
+</html>
