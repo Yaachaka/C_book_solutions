@@ -522,3 +522,31 @@ tr:nth-child(even) { /* Alternating row background */
   border-style: dashed;
   padding: 1px 7px;
 }
+
+.ans::after
+{
+    content: "Answer: ";
+    font-family: cursive;
+    /* font-size: x-small; */
+    color: #19177c;
+    border: blue double 3px;
+    padding: 0 1px 0 1px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.945), rgba(78, 76, 201, 0.4));
+    vertical-align: 3px;
+}
+
+.ques::after
+{
+  content: "Question: ";
+  font-family: cursive;
+  /* font-size: x-small; */
+  color: #c50a0a;
+  border: red double 3px;
+  padding: 0 1px 0 1px;
+  margin-right: 5px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.945), rgba(201, 76, 76, 0.4));
+  vertical-align: 3px;
+}

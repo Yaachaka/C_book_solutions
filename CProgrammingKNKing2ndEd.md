@@ -954,12 +954,12 @@ Continuing a string from one line to the next requires a special technique that 
 
 <div class="QandA_question">
 
-Q: What does GCC stand for?
+<span class="ques"></span> What does GCC stand for?
 
 </div>
 <div class="QandA_answer">
 
-A: GCC originally stood for "<u>G</u>NU <u>C</u> <u>C</u>ompiler." It now stands for "<u>G</u>NU <u>C</u>ompiler <u>C</u>ollection," because the current version of GCC compiles programs written in a variety of languages, including Ada, C, C++, Fortran, Java, and Objective-C.
+<span class="ans"></span> GCC originally stood for "<u>G</u>NU <u>C</u> <u>C</u>ompiler." It now stands for "<u>G</u>NU <u>C</u>ompiler <u>C</u>ollection," because the current version of GCC compiles programs written in a variety of languages, including Ada, C, C++, Fortran, Java, and Objective-C.
 
 </div>
 
@@ -967,12 +967,12 @@ A: GCC originally stood for "<u>G</u>NU <u>C</u> <u>C</u>ompiler." It now stands
 
 <div class="QandA_question">
 
-Q: OK, so what does GNU stand for?
+<span class="ques"></span> OK, so what does GNU stand for?
 
 </div>
 <div class="QandA_answer">
 
-A: GNU stands for "<u>G</u>NU's <u>N</u>ot <u>U</u>nix!" (and is pronounced *guh-NEW*, by the way). GNU is a project of the Free Software Foundation, an organization set up by **Ritchard M. Stallman** as a protest against the restrictions of licensed UNIX software. According to its web site, the Free Software Foundation believes that the users should be free to "run, copy, distribute, study, change and improve" software. The GNU Project has rewritten much traditional UNIX software from scratch and made it publicly available at no charge.
+<span class="ans"></span> GNU stands for "<u>G</u>NU's <u>N</u>ot <u>U</u>nix!" (and is pronounced *guh-NEW*, by the way). GNU is a project of the Free Software Foundation, an organization set up by **Ritchard M. Stallman** as a protest against the restrictions of licensed UNIX software. According to its web site, the Free Software Foundation believes that the users should be free to "run, copy, distribute, study, change and improve" software. The GNU Project has rewritten much traditional UNIX software from scratch and made it publicly available at no charge.
 
 GCC and other GNU software are crucial to Linux. Linux itself is only the "kernel" of an operating system (the part that handles program scheduling and basic I/O services); the GNU software is necessary to have a fully functional operating system.
 
@@ -985,12 +985,12 @@ For more information on the GNU Project, visit [www.gnu.org](https://www.gnu.org
 
 <div class="QandA_question">
 
-Q: What's the big deal about the GCC anyway?
+<span class="ques"></span> What's the big deal about the GCC anyway?
 
 </div>
 <div class="QandA_answer">
 
-A: GCC is significant for many reasons, not least the fact that it's free and capable of compiling a number of languages. It runs under many operating systems and generates code for many different CPUs, including all the widely used ones. GCC is the primary compiler for many UNIX-based operating systems, including Linux, BSD, and Mac OS X, and it's used extensively for commercial software development. For more information about GCC, visit [gcc.gnu.org](https://gcc.gnu.org)
+<span class="ans"></span> GCC is significant for many reasons, not least the fact that it's free and capable of compiling a number of languages. It runs under many operating systems and generates code for many different CPUs, including all the widely used ones. GCC is the primary compiler for many UNIX-based operating systems, including Linux, BSD, and Mac OS X, and it's used extensively for commercial software development. For more information about GCC, visit [gcc.gnu.org](https://gcc.gnu.org)
 
 </div>
 
@@ -998,12 +998,12 @@ A: GCC is significant for many reasons, not least the fact that it's free and ca
 
 <div class="QandA_question">
 
-Q: How good is GCC at finding errors in programs?
+<span class="ques"></span> How good is GCC at finding errors in programs?
 
 </div>
 <div class="QandA_answer">
 
-A: GCC has various command-line options that control how thoroughly it checks programs. When these options are used, GCC is quite good at finding potential trouble spots in a program. Here are some of the more popular options:
+<span class="ans"></span> GCC has various command-line options that control how thoroughly it checks programs. When these options are used, GCC is quite good at finding potential trouble spots in a program. Here are some of the more popular options:
 
 <ul>
 
@@ -1060,12 +1060,12 @@ gcc -O -Wall -W -pedantic -ansi -std=c99 -o pun pun.c
 
 <div class="QandA_question">
 
-Q: Why is C so terse? It seems as though programs would be more readable if C used `begin` and `end` instead of `{` and `}`, `integer` instead of `int`, and so forth.
+<span class="ques"></span> Why is C so terse? It seems as though programs would be more readable if C used `begin` and `end` instead of `{` and `}`, `integer` instead of `int`, and so forth.
 
 </div>
 <div class="QandA_answer">
 
-A: Legend has it that the brevity of C programs is due to the environment that existed in Bell Labs at the time the language was developed. The first C compiler ran on a DEC PDP-11 (an early minicomputer); programmers used a teletype--essentially a typewriter connected to a computer--to enter programs and print listings. Because teletypes were very slow (they could print only 10 characters per second), minimizing the number of characters in a program was clearly advantageous.
+<span class="ans"></span> Legend has it that the brevity of C programs is due to the environment that existed in Bell Labs at the time the language was developed. The first C compiler ran on a DEC PDP-11 (an early minicomputer); programmers used a teletype--essentially a typewriter connected to a computer--to enter programs and print listings. Because teletypes were very slow (they could print only 10 characters per second), minimizing the number of characters in a program was clearly advantageous.
 
 </div>
 
@@ -1073,12 +1073,12 @@ A: Legend has it that the brevity of C programs is due to the environment that e
 
 <div class="QandA_question">
 
-Q: In some C books, the `main` function ends with `exit(0)` instead of `return 0`. Are these the same?
+<span class="ques"></span> In some C books, the `main` function ends with `exit(0)` instead of `return 0`. Are these the same?
 
 </div>
 <div class="QandA_answer">
 
-A: When they appear inside `main`, these statements are indeed equivalent: both terminate the program, returning the value `0` to the operating system. Which one to use is mostly a matter of taste.
+<span class="ans"></span> When they appear inside `main`, these statements are indeed equivalent: both terminate the program, returning the value `0` to the operating system. Which one to use is mostly a matter of taste.
 
 </div>
 
@@ -1086,14 +1086,14 @@ A: When they appear inside `main`, these statements are indeed equivalent: both 
 
 <div class="QandA_question">
 
-Q: What happens if a program reaches the end of the `main` function without executing a `return` statement?
+<span class="ques"></span> What happens if a program reaches the end of the `main` function without executing a `return` statement?
 
 </div>
 <div class="QandA_answer">
 
 <span class="C99Symbol"></span>
 
-A: The `return` statement isn't mandatory; if it's missing, the program will still terminate. In C89, the value returned to the operating system is undefined. In C99, if `main` is declared to return an `int` (as in our examples), the program returns `0` to the operating system; otherwise, the program returns an unspecified value.
+<span class="ans"></span> The `return` statement isn't mandatory; if it's missing, the program will still terminate. In C89, the value returned to the operating system is undefined. In C99, if `main` is declared to return an `int` (as in our examples), the program returns `0` to the operating system; otherwise, the program returns an unspecified value.
 
 </div>
 
@@ -1101,12 +1101,12 @@ A: The `return` statement isn't mandatory; if it's missing, the program will sti
 
 <div class="QandA_question">
 
-Q: Does the compiler remove a comment entirely or replace it with blank space?
+<span class="ques"></span> Does the compiler remove a comment entirely or replace it with blank space?
 
 </div>
 <div class="QandA_answer">
 
-A: Some old C compilers deleted all the characters in each comment, making it possible to write
+<span class="ans"></span> Some old C compilers deleted all the characters in each comment, making it possible to write
 
 ```C
 a/**/b = 0;
@@ -1130,12 +1130,12 @@ a b = 0;
 
 <div class="QandA_question">
 
-Q: How can I tell if my program has an unterminated comment?
+<span class="ques"></span> How can I tell if my program has an unterminated comment?
 
 </div>
 <div class="QandA_answer">
 
-A: If you're lucky, the program won't compile because the comment has rendered the program illegal. If the program does compile, there are several techniques that you can use. Stepping through the program line by line with a debugger will reveal if any lines are being skipped. Some IDEs display comments in a distinctive color to distinuish them from sorrounding code. If you're using such an environment, you can easily spot unterminated comments, since program text will have different color of it's accidentally included in a comment. A program such as `lint` can also help.
+<span class="ans"></span> If you're lucky, the program won't compile because the comment has rendered the program illegal. If the program does compile, there are several techniques that you can use. Stepping through the program line by line with a debugger will reveal if any lines are being skipped. Some IDEs display comments in a distinctive color to distinuish them from sorrounding code. If you're using such an environment, you can easily spot unterminated comments, since program text will have different color of it's accidentally included in a comment. A program such as `lint` can also help.
 
 </div>
 
@@ -1143,12 +1143,12 @@ A: If you're lucky, the program won't compile because the comment has rendered t
 
 <div class="QandA_question">
 
-Q: Is it legal to nest one comment inside another?
+<span class="ques"></span> Is it legal to nest one comment inside another?
 
 </div>
 <div class="QandA_answer">
 
-A: Old-style comments (`/* ... */`) can't be nested. For instance, the following code is illegal:
+<span class="ans"></span> Old-style comments (`/* ... */`) can't be nested. For instance, the following code is illegal:
 
 ```C
 /*
@@ -1170,12 +1170,12 @@ In any event, there's a better way to disable portions of a program, as we'll se
 
 <div class="QandA_question">
 
-Q: Where does the `float` type get its name?
+<span class="ques"></span> Where does the `float` type get its name?
 
 </div>
 <div class="QandA_answer">
 
-A: `float` is short for "floating-point", a technique for storing numbers in which the decimal point "floats". A float value is usually stored in two parts: the fraction (or mantissa) and the exponent. The number 12.0 might be stored as <span class="displayInlineMath">$$ 1.5 \times 2^{3} $$</span>, for example, where 1.5 is the fraction and 3 is the exponent. Some programming languages call this type `real` instead of `float`.
+<span class="ans"></span> `float` is short for "floating-point", a technique for storing numbers in which the decimal point "floats". A float value is usually stored in two parts: the fraction (or mantissa) and the exponent. The number 12.0 might be stored as <span class="displayInlineMath">$$ 1.5 \times 2^{3} $$</span>, for example, where 1.5 is the fraction and 3 is the exponent. Some programming languages call this type `real` instead of `float`.
 
 </div>
 
@@ -1183,12 +1183,12 @@ A: `float` is short for "floating-point", a technique for storing numbers in whi
 
 <div class="QandA_question">
 
-Q: Why do floating-point constants need to end with letter `f`?
+<span class="ques"></span> Why do floating-point constants need to end with letter `f`?
 
 </div>
 <div class="QandA_answer">
 
-A: For the full explanation, see Chapter 7. Here's the short answer: a constant that contains a decimal point but doesn't end with `f` has type `double` (short for "double-precision"). `double` values are stored more accurately than `float` values. Moreover, `double` values can be larger than `float` values, which is why we need to add the letter `f` when assigning to a `float` variable. Without the `f`, a warning may be generated about the possibility of a number being stored into a `float` variable that exceeds the capacity of the variable.
+<span class="ans"></span> For the full explanation, see Chapter 7. Here's the short answer: a constant that contains a decimal point but doesn't end with `f` has type `double` (short for "double-precision"). `double` values are stored more accurately than `float` values. Moreover, `double` values can be larger than `float` values, which is why we need to add the letter `f` when assigning to a `float` variable. Without the `f`, a warning may be generated about the possibility of a number being stored into a `float` variable that exceeds the capacity of the variable.
 
 </div>
 
@@ -1196,12 +1196,12 @@ A: For the full explanation, see Chapter 7. Here's the short answer: a constant 
 
 <div class="QandA_question">
 
-*Q: Is it really true that there's no limit on the length of an identifier?
+*<span class="ques"></span> Is it really true that there's no limit on the length of an identifier?
 
 </div>
 <div class="QandA_answer">
 
-A: 
+<span class="ans"></span> 
 
 <span class="C99Symbol"></span>
 
@@ -1219,12 +1219,12 @@ Most compilers and linkers are more generous than the standard, so these rules a
 
 <div class="QandA_question">
 
-Q: How many spaces should I use for indentation?
+<span class="ques"></span> How many spaces should I use for indentation?
 
 </div>
 <div class="QandA_answer">
 
-A: That's a tough question. Leave too little space, and the eye has trouble detecting indentation. Leave too much, and the lines run off the screen (or page). Many C programmers indent nested statements eight spaces (one tab stop), which is probably too much. Studies have shown that the optimum amount of indentation is three spaces, but many programmers feel uncomfortable with numbers that aren't a power of two. Although I normally prefer to indent three or four spaces. I'll use two spaces in this book so that my programs will fit within the margins.
+<span class="ans"></span> That's a tough question. Leave too little space, and the eye has trouble detecting indentation. Leave too much, and the lines run off the screen (or page). Many C programmers indent nested statements eight spaces (one tab stop), which is probably too much. Studies have shown that the optimum amount of indentation is three spaces, but many programmers feel uncomfortable with numbers that aren't a power of two. Although I normally prefer to indent three or four spaces. I'll use two spaces in this book so that my programs will fit within the margins.
 
 </div>
 
@@ -1664,12 +1664,12 @@ Note that the resulting fraction isn't reduced to lowest terms.
 
 <div class="QandA_question">
 
-*Q: I've seen the `%i` conversion used to read and write integers. What's the difference between `%i` and `%d`?
+*<span class="ques"></span> I've seen the `%i` conversion used to read and write integers. What's the difference between `%i` and `%d`?
 
 </div>
 <div class="QandA_answer">
 
-A: In a `printf` format string, there's no difference between the two. In a `scanf` format string, however, `%d` can only match an integer written in decimal (base 10) form, while `%i` can match an integer expressed in octal (base 8), decimal, or hexadecimal (base 16). If an input number has a `0` prefix (as in `056`), `%i` treats it as an octal number, if it has a `0x` or `0X` prefix (as in `0x56`), `%i` treats it as a hex number. Using `%i` instead of `%d` to read a number can have surprising results if the user should accidentally put `0` at the beginning of the number. Because of this trap, I recommend sticking with `%d`.
+<span class="ans"></span> In a `printf` format string, there's no difference between the two. In a `scanf` format string, however, `%d` can only match an integer written in decimal (base 10) form, while `%i` can match an integer expressed in octal (base 8), decimal, or hexadecimal (base 16). If an input number has a `0` prefix (as in `056`), `%i` treats it as an octal number, if it has a `0x` or `0X` prefix (as in `0x56`), `%i` treats it as a hex number. Using `%i` instead of `%d` to read a number can have surprising results if the user should accidentally put `0` at the beginning of the number. Because of this trap, I recommend sticking with `%d`.
 
 </div>
 
@@ -1677,12 +1677,12 @@ A: In a `printf` format string, there's no difference between the two. In a `sca
 
 <div class="QandA_question">
 
-Q: If `printf` treats `%` as the beginning of a conversion specification, how can I print the `%` character?
+<span class="ques"></span> If `printf` treats `%` as the beginning of a conversion specification, how can I print the `%` character?
 
 </div>
 <div class="QandA_answer">
 
-A: If `printf` encounters two consecutive `%` characters in a format strring, it prints a single `%` character. For example, the statement
+<span class="ans"></span> If `printf` encounters two consecutive `%` characters in a format strring, it prints a single `%` character. For example, the statement
 
 ```C
 printf("Net profit: %d%%\n", profit);
@@ -1700,12 +1700,12 @@ Net profit: 10%
 
 <div class="QandA_question">
 
-Q: The `\t` escape is supposed to cause `printf` to advance to the next tab stop. How do I know how far apart tab stops are?
+<span class="ques"></span> The `\t` escape is supposed to cause `printf` to advance to the next tab stop. How do I know how far apart tab stops are?
 
 </div>
 <div class="QandA_answer">
 
-A: You don't. The effect of printing `\t` isn't defined in C; it depends on what your operating system does when asked to print a tab character. Tab stops are typically eight characters apart, but C makes no guarantee.
+<span class="ans"></span> You don't. The effect of printing `\t` isn't defined in C; it depends on what your operating system does when asked to print a tab character. Tab stops are typically eight characters apart, but C makes no guarantee.
 
 </div>
 
@@ -1713,12 +1713,12 @@ A: You don't. The effect of printing `\t` isn't defined in C; it depends on what
 
 <div class="QandA_question">
 
-Q: What does `scanf` do if it's asked to read a number but the user enters nonnumeric input?
+<span class="ques"></span> What does `scanf` do if it's asked to read a number but the user enters nonnumeric input?
 
 </div>
 <div class="QandA_answer">
 
-A: Let's look at the following example:
+<span class="ans"></span> Let's look at the following example:
 
 ```C
 printf("Enter a number: ");
@@ -1747,12 +1747,12 @@ What can we do about this sad state of affairs? Later, we'll see how to test whe
 
 <div class="QandA_question">
 
-Q: I don't understand how `scanf` can "put back" characters and read them again later.
+<span class="ques"></span> I don't understand how `scanf` can "put back" characters and read them again later.
 
 </div>
 <div class="QandA_answer">
 
-A: As it turns out, programs don't read user input as it is typed. Instead input is stored in a hidden buffer, to which `scanf` has access. It's easy for `scanf` to put characters back into the buffer for subsequent reading. Chapter 22 discusses input buffering in more detail.
+<span class="ans"></span> As it turns out, programs don't read user input as it is typed. Instead input is stored in a hidden buffer, to which `scanf` has access. It's easy for `scanf` to put characters back into the buffer for subsequent reading. Chapter 22 discusses input buffering in more detail.
 
 </div>
 
@@ -1760,12 +1760,12 @@ A: As it turns out, programs don't read user input as it is typed. Instead input
 
 <div class="QandA_question">
 
-Q: What does `scanf` do if the user puts punctuation marks (commas, for example) between numbers?
+<span class="ques"></span> What does `scanf` do if the user puts punctuation marks (commas, for example) between numbers?
 
 </div>
 <div class="QandA_answer">
 
-A: Let's look at a simple example. Suppose that we try to read a pair of integers using `scanf`:
+<span class="ans"></span> Let's look at a simple example. Suppose that we try to read a pair of integers using `scanf`:
 
 ```C
 printf("Enter two numbers: ");
@@ -2484,14 +2484,14 @@ i + j;
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: I notice that C has no exponentiation operator. How can I raise a number to a power?
+<span class="ques"></span> I notice that C has no exponentiation operator. How can I raise a number to a power?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A:  Raising an integer to a small positive integer power is best done by repeated multiplication (`i * i * i` is `i` cubed). To raise a number to a noninteger power, call the `pow` function.
+<span class="ans"></span>  Raising an integer to a small positive integer power is best done by repeated multiplication (`i * i * i` is `i` cubed). To raise a number to a noninteger power, call the `pow` function.
 
 </div>
 <!-- END: div -->
@@ -2501,14 +2501,14 @@ A:  Raising an integer to a small positive integer power is best done by repeate
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: I want to apply the `%` operator to a floating-point operand, but my program won't compile. What can I do?
+<span class="ques"></span> I want to apply the `%` operator to a floating-point operand, but my program won't compile. What can I do?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: The `%` operator requires integer operands. Try the `fmod` function instead.
+<span class="ans"></span> The `%` operator requires integer operands. Try the `fmod` function instead.
 
 </div>
 <!-- END: div -->
@@ -2518,7 +2518,7 @@ A: The `%` operator requires integer operands. Try the `fmod` function instead.
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why are the rules for using the `/` and `%` operators with negative operands so complicated?
+<span class="ques"></span> Why are the rules for using the `/` and `%` operators with negative operands so complicated?
 
 </div>
 <!-- END: div -->
@@ -2527,7 +2527,7 @@ Q: Why are the rules for using the `/` and `%` operators with negative operands 
 
 <span class="C99Symbol"></span>
 
-A:  The rules aren't as complicated as they may first appear. In both C89 and C99, the goal is to ensure that the value of `(a / b) * b + a % b` will always be equal to `a` (and indeed, both standards guarantee that this is the case, provided that the value of `a / b` is “representable”). The problem is that there are two ways for `a / b` and `a % b` to satisfy this equality if either `a` or `b` is negative, as seen in C89, where either `-9 / 7` is -1 and `-9 % 7` is -2, or `-9 / 7` is -2 and `-9 % 7` is 5. In the first case, `(-9 / 7) * 7 + -9 % 7` has the value `-1 x 7 + -2 = -9`, and in the second case, `(-9 / 7) * 7 + -9 % 7` has the value `-2 x 7 + 5 = -9`. By the time C99 rolled around, most CPUs were designed to truncate the result of division toward zero, so this was written into the standard as the only allowable outcome.
+<span class="ans"></span>  The rules aren't as complicated as they may first appear. In both C89 and C99, the goal is to ensure that the value of `(a / b) * b + a % b` will always be equal to `a` (and indeed, both standards guarantee that this is the case, provided that the value of `a / b` is “representable”). The problem is that there are two ways for `a / b` and `a % b` to satisfy this equality if either `a` or `b` is negative, as seen in C89, where either `-9 / 7` is -1 and `-9 % 7` is -2, or `-9 / 7` is -2 and `-9 % 7` is 5. In the first case, `(-9 / 7) * 7 + -9 % 7` has the value `-1 x 7 + -2 = -9`, and in the second case, `(-9 / 7) * 7 + -9 % 7` has the value `-2 x 7 + 5 = -9`. By the time C99 rolled around, most CPUs were designed to truncate the result of division toward zero, so this was written into the standard as the only allowable outcome.
 
 </div>
 <!-- END: div -->
@@ -2537,14 +2537,14 @@ A:  The rules aren't as complicated as they may first appear. In both C89 and C9
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: If C has lvalues, does it also have rvalues?
+<span class="ques"></span> If C has lvalues, does it also have rvalues?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Yes, indeed. An *l*value is an expression that can appear on the *left* side of an assignment; an *r*value is an expression that can appear on the *right* side. Thus, an rvalue could be a variable, constant, or more complex expression. In this book, as in the C standard, we'll use the term “expression" instead of “rvalue.”
+<span class="ans"></span> Yes, indeed. An *l*value is an expression that can appear on the *left* side of an assignment; an *r*value is an expression that can appear on the *right* side. Thus, an rvalue could be a variable, constant, or more complex expression. In this book, as in the C standard, we'll use the term “expression" instead of “rvalue.”
 
 </div>
 <!-- END: div -->
@@ -2554,14 +2554,14 @@ A: Yes, indeed. An *l*value is an expression that can appear on the *left* side 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: You said that `v += e` isn't equivalent to `v = v + e` if `v` has a side effect. Can you explain?
+<span class="ques"></span> You said that `v += e` isn't equivalent to `v = v + e` if `v` has a side effect. Can you explain?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Evaluating `v += e` causes `v` to be evaluated only once; evaluating `v = v + e` causes `v` to be evaluated twice. Any side effect caused by evaluating `v` will occur twice in the latter case. In the following example, `i` is incremented once:
+<span class="ans"></span> Evaluating `v += e` causes `v` to be evaluated only once; evaluating `v = v + e` causes `v` to be evaluated twice. Any side effect caused by evaluating `v` will occur twice in the latter case. In the following example, `i` is incremented once:
 
 ```C
 A[i++] += 2;
@@ -2583,14 +2583,14 @@ The value of `i` is modified as well as used elsewhere in the statement, so the 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why does C provide the `++` and `--` operators? Are they faster than other ways of incrementing and decrementing, or they are just more convenient?
+<span class="ques"></span> Why does C provide the `++` and `--` operators? Are they faster than other ways of incrementing and decrementing, or they are just more convenient?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: C inherited `++` and `--` from **Ken Thompson**'s earlier B language. Thompson apparently created these operators because his B compiler could generate a more compact translation for `++i` than for `i = i + 1`. These operators have become a deeply ingrained part of C (in fact, many of C's most famous idioms rely on them). With modern compilers, using `++` and won't make a compiled program any smaller or faster; the continued popularity of these operators stems mostly from their brevity and convenience.
+<span class="ans"></span> C inherited `++` and `--` from **Ken Thompson**'s earlier B language. Thompson apparently created these operators because his B compiler could generate a more compact translation for `++i` than for `i = i + 1`. These operators have become a deeply ingrained part of C (in fact, many of C's most famous idioms rely on them). With modern compilers, using `++` and won't make a compiled program any smaller or faster; the continued popularity of these operators stems mostly from their brevity and convenience.
 
 </div>
 <!-- END: div -->
@@ -2600,14 +2600,14 @@ A: C inherited `++` and `--` from **Ken Thompson**'s earlier B language. Thompso
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Do `++` and `--` work with `float` variables?
+<span class="ques"></span> Do `++` and `--` work with `float` variables?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Yes; the increment and decrement operations can be applied to floating-point numbers as well as integers. In practice, however, it's fairly rare to increment or decrement a `float` variable.
+<span class="ans"></span> Yes; the increment and decrement operations can be applied to floating-point numbers as well as integers. In practice, however, it's fairly rare to increment or decrement a `float` variable.
 
 </div>
 <!-- END: div -->
@@ -2617,14 +2617,14 @@ A: Yes; the increment and decrement operations can be applied to floating-point 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: When I use the postfix version of `++` or `--`, just when is the increment or decrement performed?
+<span class="ques"></span> When I use the postfix version of `++` or `--`, just when is the increment or decrement performed?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: That's an excellent question. Unfortunately, it's also a difficult one to answer. The C standard introduces the concept of “sequence point” and says that “updating the stored value of the operand shall occur between the previous and the next sequence point.” There are various kinds of sequence points in C: the end of an expression statement is one example. By the end of an expression statement, all increments and decrements within the statement must have been performed; the next statement can't begin to execute until this condition has been met.
+<span class="ans"></span> That's an excellent question. Unfortunately, it's also a difficult one to answer. The C standard introduces the concept of “sequence point” and says that “updating the stored value of the operand shall occur between the previous and the next sequence point.” There are various kinds of sequence points in C: the end of an expression statement is one example. By the end of an expression statement, all increments and decrements within the statement must have been performed; the next statement can't begin to execute until this condition has been met.
 
 Certain operators that we'll encounter in later chapters (logical *and*. logical *or*, conditional, and comma) also impose sequence points. So do function calls: the arguments in a function call must be fully evaluated before the call can be performed. If an argument happens to be an expression containing a `++` or `--` operator, the increment or decrement must occur before the call can take place.
 
@@ -2636,14 +2636,14 @@ Certain operators that we'll encounter in later chapters (logical *and*. logical
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What do you mean when you say that the value of an expression statement is discarded?
+<span class="ques"></span> What do you mean when you say that the value of an expression statement is discarded?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: By definition, an expression represents a value. If `i` has the value 5, for example, then evaluating `i + 1` produces the value 6. Let's turn `i + 1` into a statement by putting a semicolon after it:
+<span class="ans"></span> By definition, an expression represents a value. If `i` has the value 5, for example, then evaluating `i + 1` produces the value 6. Let's turn `i + 1` into a statement by putting a semicolon after it:
 
 ```C
 i + 1;
@@ -2659,14 +2659,14 @@ When this statement is executed, the value of `i + 1` is computed. Since we have
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: But what about statements like `i = 1;`? I don't see what is being discarded.
+<span class="ques"></span> But what about statements like `i = 1;`? I don't see what is being discarded.
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Don't forget that `=` is an operator in C and produces a value just like any other operator. The assignment
+<span class="ans"></span> Don't forget that `=` is an operator in C and produces a value just like any other operator. The assignment
 
 ```C
 i = 1;
@@ -3569,14 +3569,14 @@ Note the use of `%.2d` to display the last two digits of the year. If we had use
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: My compiler doesn't give a warning when I use `=` instead of `==`. Is there some way to force the compiler to notice the problem?
+<span class="ques"></span> My compiler doesn't give a warning when I use `=` instead of `==`. Is there some way to force the compiler to notice the problem?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A:  Here's a trick that some programmers use: instead of writing
+<span class="ans"></span>  Here's a trick that some programmers use: instead of writing
 
 ```C
 if (i == 0) ...
@@ -3610,14 +3610,14 @@ if ((i = j)) ...
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: C books seem to use several different styles of indentation and brace placement for compound statements. Which style is best?
+<span class="ques"></span> C books seem to use several different styles of indentation and brace placement for compound statements. Which style is best?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: According to The *New Hacker's Dictionary* (Cambridge, Mass.: MIT Press, 1996), there are four common styles of indentation and brace placement:
+<span class="ans"></span> According to The *New Hacker's Dictionary* (Cambridge, Mass.: MIT Press, 1996), there are four common styles of indentation and brace placement:
 
 <!-- START: unordered-list -->
 <ul>
@@ -3690,14 +3690,14 @@ Which style you use is mainly a matter of taste; there's no proof that one style
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: If `i` is an `int` variable and `f` is a `float` variable, what is the type of the conditional expression `(i > 0 ? i : f)`?
+<span class="ques"></span> If `i` is an `int` variable and `f` is a `float` variable, what is the type of the conditional expression `(i > 0 ? i : f)`?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: When `int` and `float` values are mixed in a conditional expression, as they are here, the expression has type `float`. If `i > 0` is `true`, the value of the expression will be the value of `i` after conversion to `float` type.
+<span class="ans"></span> When `int` and `float` values are mixed in a conditional expression, as they are here, the expression has type `float`. If `i > 0` is `true`, the value of the expression will be the value of `i` after conversion to `float` type.
 
 </div>
 <!-- END: div -->
@@ -3707,7 +3707,7 @@ A: When `int` and `float` values are mixed in a conditional expression, as they 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why doesn't C99 have a better name for its Boolean type?
+<span class="ques"></span> Why doesn't C99 have a better name for its Boolean type?
 
 </div>
 <!-- END: div -->
@@ -3716,7 +3716,7 @@ Q: Why doesn't C99 have a better name for its Boolean type?
 
 <span class="C99Symbol"></span>
 
-A: `_Bool` isn't a very elegant name, is it? More common names, such as `bool` or `boolean`, weren't chosen because existing C programs might already define these names, causing older code not to compile.
+<span class="ans"></span> `_Bool` isn't a very elegant name, is it? More common names, such as `bool` or `boolean`, weren't chosen because existing C programs might already define these names, causing older code not to compile.
 
 </div>
 <!-- END: div -->
@@ -3726,14 +3726,14 @@ A: `_Bool` isn't a very elegant name, is it? More common names, such as `bool` o
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: OK, so why wouldn't the name `_Bool` break older programs as well?
+<span class="ques"></span> OK, so why wouldn't the name `_Bool` break older programs as well?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: The C89 standard specifies that names beginning with an underscore followed by an uppercase letter are reserved for future use and should not be used by programmers.
+<span class="ans"></span> The C89 standard specifies that names beginning with an underscore followed by an uppercase letter are reserved for future use and should not be used by programmers.
 
 </div>
 <!-- END: div -->
@@ -3743,14 +3743,14 @@ A: The C89 standard specifies that names beginning with an underscore followed b
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: The template given for the `switch` statement described it as the “most common form.” Are there other forms?
+<span class="ques"></span> The template given for the `switch` statement described it as the “most common form.” Are there other forms?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: The `switch` statement is a bit more general than described in this chapter, although the description given here is general enough for virtually all programs. For example, a `switch` statement can contain labels that aren't preceded by the word `case`, which leads to an amusing (?) trap. Suppose that we accidentally misspell the word `default`:
+<span class="ans"></span> The `switch` statement is a bit more general than described in this chapter, although the description given here is general enough for virtually all programs. For example, a `switch` statement can contain labels that aren't preceded by the word `case`, which leads to an amusing (?) trap. Suppose that we accidentally misspell the word `default`:
 
 ```C
 switch (...) {
@@ -3768,14 +3768,14 @@ The compiler may not detect the error, since it assumes that `defualt` is an ord
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: I've seen several methods of indenting the `switch` statement. Which way is best?
+<span class="ques"></span> I've seen several methods of indenting the `switch` statement. Which way is best?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: There are at least two common methods. One is to put the statements in each case *after* the `case` label:
+<span class="ans"></span> There are at least two common methods. One is to put the statements in each case *after* the `case` label:
 
 ```C
 switch (coin) {
@@ -4845,7 +4845,7 @@ T minus 0 and counting
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: The following loop appears in Section 6.1
+<span class="ques"></span> The following loop appears in Section 6.1
 
 ```C
 while (i > 0)
@@ -4866,7 +4866,7 @@ This version will stop when `i` reaches 0, so it should be just as good as the o
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: The new version is certainly more concise, and many C programmers would write the loop in just this way. It does have drawbacks, though.
+<span class="ans"></span> The new version is certainly more concise, and many C programmers would write the loop in just this way. It does have drawbacks, though.
 
 First, the new loop is not as easy to read as the original. It's clear that the loop will terminate when `i` reaches 0, but it's not obvious whether we're counting up or down. In the original loop, that information can be deduced from the controlling expression, `i > 0`.
 
@@ -4880,14 +4880,14 @@ Second, the new loop behaves differently than the original if `i` should happen 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Section 6.3 says that, except in rare cases, `for` loops can be converted to `while` loops using a standard pattern. Can you give an example of such a case?
+<span class="ques"></span> Section 6.3 says that, except in rare cases, `for` loops can be converted to `while` loops using a standard pattern. Can you give an example of such a case?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: When the body of a `for` loop contains a `continue` statement, the `while` pattern shown in Section 6.3 is no longer valid. Consider the following example from Section 6.4:
+<span class="ans"></span> When the body of a `for` loop contains a `continue` statement, the `while` pattern shown in Section 6.3 is no longer valid. Consider the following example from Section 6.4:
 
 ```C
 n = 0;
@@ -4923,14 +4923,14 @@ Unfortunately, this loop isn't equivalent to the original. When `i` is equal to 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Which form of infinite loop is preferable, `while(1)` or `for(;;)`?
+<span class="ques"></span> Which form of infinite loop is preferable, `while(1)` or `for(;;)`?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: C programmers have traditionally preferred `for(;;)` for reasons of efficiency: older compilers would often force programs to test the 1 condition each time through the `while` loop. With modern compilers, however, there should be no difference in performance.
+<span class="ans"></span> C programmers have traditionally preferred `for(;;)` for reasons of efficiency: older compilers would often force programs to test the 1 condition each time through the `while` loop. With modern compilers, however, there should be no difference in performance.
 
 </div>
 <!-- END: div -->
@@ -4940,14 +4940,14 @@ A: C programmers have traditionally preferred `for(;;)` for reasons of efficienc
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: I've heard that programmers should never use the `continue` statement. Is this true?
+<span class="ques"></span> I've heard that programmers should never use the `continue` statement. Is this true?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: It's true that `continue` statements are rare. Still, `continue` is handy once in a while. Suppose we're writing a loop that reads some input data, checks that it's valid, and, if so, processes the input in some way. If there are a number of validity tests, or if they're complex, `continue` can be helpful. The loop would look something like this:
+<span class="ans"></span> It's true that `continue` statements are rare. Still, `continue` is handy once in a while. Suppose we're writing a loop that reads some input data, checks that it's valid, and, if so, processes the input in some way. If there are a number of validity tests, or if they're complex, `continue` can be helpful. The loop would look something like this:
 
 ```C
 for (;;) {
@@ -4973,7 +4973,7 @@ for (;;) {
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What's so bad about the `goto` statement?
+<span class="ques"></span> What's so bad about the `goto` statement?
 
 </div>
 <!-- END: div -->
@@ -4994,14 +4994,14 @@ The `goto` statement isn't inherently evil; it's just that we usually have bette
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Does the null statement have any uses besides indicating that the body of a loop is empty?
+<span class="ques"></span> Does the null statement have any uses besides indicating that the body of a loop is empty?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Very few. Since the null statement can appear wherever a statement is allowed, there are many potential uses for the null statement. In practice, however, there's only one other use of the null statement, and it's rare.
+<span class="ans"></span> Very few. Since the null statement can appear wherever a statement is allowed, there are many potential uses for the null statement. In practice, however, there's only one other use of the null statement, and it's rare.
 
 Suppose that we need to put a label at the end of a compound statement. A label can't stand alone: it must always be followed by a statement. Putting a null statement after the label solves the problem:
 
@@ -5022,14 +5022,14 @@ Suppose that we need to put a label at the end of a compound statement. A label 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Are there any other ways to make an empty loop body stand out besides putting the null statement on a line by itself?
+<span class="ques"></span> Are there any other ways to make an empty loop body stand out besides putting the null statement on a line by itself?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Some programmers use a dummy `continue` statement:
+<span class="ans"></span> Some programmers use a dummy `continue` statement:
 
 ```C
 for(d = 2; d < n && n % d != 0; d++)
@@ -6244,14 +6244,14 @@ printf ("Size of int: %zu\n", sizeof (int)); /* C99 only */
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Section 7.1 says that `%o` and `%x` are used to write unsigned integers in octal and hex notation. How do I write ordinary (signed) integers in octal or hex? [p- 130]
+<span class="ques"></span> Section 7.1 says that `%o` and `%x` are used to write unsigned integers in octal and hex notation. How do I write ordinary (signed) integers in octal or hex? [p- 130]
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: You can use `%o` and `%x` to print a signed integer as long as its value isn't negative. These conversions cause `printf` to treat a signed integer as though it were unsigned: in other words, `printf` will assume that the sign bit is part of the number's magnitude. As long as the sign bit is 0, there's no problem. If the sign bit is 1, `printf` will print an unexpectedly large number.
+<span class="ans"></span> You can use `%o` and `%x` to print a signed integer as long as its value isn't negative. These conversions cause `printf` to treat a signed integer as though it were unsigned: in other words, `printf` will assume that the sign bit is part of the number's magnitude. As long as the sign bit is 0, there's no problem. If the sign bit is 1, `printf` will print an unexpectedly large number.
 
 </div>
 <!-- END: div -->
@@ -6261,14 +6261,14 @@ A: You can use `%o` and `%x` to print a signed integer as long as its value isn'
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: But what if the number *is* negative? How can I write it in octal or hex?
+<span class="ques"></span> But what if the number *is* negative? How can I write it in octal or hex?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: There's no direct way to print a negative number in octal or hex. Fortunately, the need to do so is pretty rare. You can, of course, test whether the number is negative and print a minus sign yourself:
+<span class="ans"></span> There's no direct way to print a negative number in octal or hex. Fortunately, the need to do so is pretty rare. You can, of course, test whether the number is negative and print a minus sign yourself:
 
 ```C
 if (i < 0)
@@ -6285,14 +6285,14 @@ else
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why are floating constants stored in `double` form rather than `float` form? [p- 133]
+<span class="ques"></span> Why are floating constants stored in `double` form rather than `float` form? [p- 133]
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: For historical reasons, C gives preference to the `double` type; `float` is treated as a second-class citizen. Consider, for instance, the discussion of `float` in Kernighan and Ritchie's *The C Programming Language*: “The main reason for using `float` is to save storage in large arrays, or, less often, to save time on machines where double-precision arithmetic is particularly expensive.” C originally mandated that all floating-point arithmetic be done in double precision. (C89 and C99 have no such requirement.)
+<span class="ans"></span> For historical reasons, C gives preference to the `double` type; `float` is treated as a second-class citizen. Consider, for instance, the discussion of `float` in Kernighan and Ritchie's *The C Programming Language*: “The main reason for using `float` is to save storage in large arrays, or, less often, to save time on machines where double-precision arithmetic is particularly expensive.” C originally mandated that all floating-point arithmetic be done in double precision. (C89 and C99 have no such requirement.)
 
 </div>
 <!-- END: div -->
@@ -6302,14 +6302,14 @@ A: For historical reasons, C gives preference to the `double` type; `float` is t
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What do hexadecimal floating constants look like, and what are they good for?
+<span class="ques"></span> What do hexadecimal floating constants look like, and what are they good for?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: A hexadecimal floating constant begins with `0x` or `0X` and must contain an exponent, which is preceded by the letter `P` (or `p`). The exponent may have a sign, and the constant may end with `f`, `F`, `l`, or `L`. The exponent is expressed in decimal, but represents a power of 2, not a power of 10. For example, `0x1.Bp3` represents the number 1.6875 x 2<sup>3</sup> = 13.5. The hex digit `B` corresponds to the bit pattern 1011, The `B` occurs to the right of the period, so each 1 bit represents a negative power of 2. Summing these powers of 2 (2<sup>-1</sup> + 2<sup>-3</sup> + 2<sup>-4</sup>) yields .6875.
+<span class="ans"></span> A hexadecimal floating constant begins with `0x` or `0X` and must contain an exponent, which is preceded by the letter `P` (or `p`). The exponent may have a sign, and the constant may end with `f`, `F`, `l`, or `L`. The exponent is expressed in decimal, but represents a power of 2, not a power of 10. For example, `0x1.Bp3` represents the number 1.6875 x 2<sup>3</sup> = 13.5. The hex digit `B` corresponds to the bit pattern 1011, The `B` occurs to the right of the period, so each 1 bit represents a negative power of 2. Summing these powers of 2 (2<sup>-1</sup> + 2<sup>-3</sup> + 2<sup>-4</sup>) yields .6875.
 
 Hexadecimal floating constants are primarily useful for specifying constants that require great precision (including mathematical constants such as `e` and &pi;). Hex numbers have a precise binary representation, whereas a constant written in decimal may be subject to a tiny rounding error when converted to binary, Hexadecimal numbers are also useful for defining constants with extreme values, such as the values of the macros in the `<float.h>` header. These constants are easy to write in hex but difficult to write in decimal.
 
@@ -6321,14 +6321,14 @@ Hexadecimal floating constants are primarily useful for specifying constants tha
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why do we use `%lf` to read a `double` value but `%f` to print it?
+<span class="ques"></span> Why do we use `%lf` to read a `double` value but `%f` to print it?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: This is a tough question to answer. First, notice that `scanf` and `printf` are unusual functions in that they aren't restricted to a fixed number of arguments. We say that `scanf` and `printf` have variable-length argument lists. When functions with variable-length argument lists are called, the compiler arranges for `float` arguments to be converted automatically to type `double`. As a result, `printf` can't distinguish between `float` and `double` arguments. This explains why `%f` works for both `float` and `double` arguments in calls of `printf`.
+<span class="ans"></span> This is a tough question to answer. First, notice that `scanf` and `printf` are unusual functions in that they aren't restricted to a fixed number of arguments. We say that `scanf` and `printf` have variable-length argument lists. When functions with variable-length argument lists are called, the compiler arranges for `float` arguments to be converted automatically to type `double`. As a result, `printf` can't distinguish between `float` and `double` arguments. This explains why `%f` works for both `float` and `double` arguments in calls of `printf`.
 
 `scanf`, on the other hand, is passed a *pointer* to a variable. `%f` tells `scanf` to store a `float` value at the address passed to it, while `%lf` tells `scanf` to store a double value at that address. The distinction between `float` and `double` is crucial here. If given the wrong conversion specification, `scanf` will likely store the wrong number of bytes (not to mention the fact that the bit pattern for a `float` isn't the same as that for a `double`).
 
@@ -6340,14 +6340,14 @@ A: This is a tough question to answer. First, notice that `scanf` and `printf` a
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What's the proper way to pronounce `char`?
+<span class="ques"></span> What's the proper way to pronounce `char`?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: There's no universally accepted pronunciation. Some people pronounce `char` in the same way as the first syllable of “character.” Others say “char.” as in
+<span class="ans"></span> There's no universally accepted pronunciation. Some people pronounce `char` in the same way as the first syllable of “character.” Others say “char.” as in
 
 ```C
 char broiled;
@@ -6361,14 +6361,14 @@ char broiled;
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: When does it matter whether a character variable is signed or unsigned?
+<span class="ques"></span> When does it matter whether a character variable is signed or unsigned?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: If we store only 7-bit characters in the variable, it doesn't matter, since the sign bit will be zero. If we plan to store 8-bit characters, however, we'll probably want the variable to have `unsigned char` type. Consider the following example:
+<span class="ans"></span> If we store only 7-bit characters in the variable, it doesn't matter, since the sign bit will be zero. If we plan to store 8-bit characters, however, we'll probably want the variable to have `unsigned char` type. Consider the following example:
 
 ```C
 ch = '\xdb';
@@ -6386,14 +6386,14 @@ Here's another situation: In some kinds of programs, it's customary to use `char
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: I don't understand how the new-line character can be the ASCII line-feed character. When a user enters input and presses the Enter key, doesn't the program read this as a carriage-return character or a carriage return plus a line feed?
+<span class="ques"></span> I don't understand how the new-line character can be the ASCII line-feed character. When a user enters input and presses the Enter key, doesn't the program read this as a carriage-return character or a carriage return plus a line feed?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Nope. As part of C's UNIX heritage. it always regards the end of a line as being marked by a single line-feed character. (In UNIX text files, a single line-feed character—but no carriage return—appears at the end of each line.) The C library takes care of translating the user's keypress into a line-feed character. When a program reads from a file, the I/O library translates the file's end-of-line marker (whatever it may be) into a single line-feed character. The same transformations occur—in reverse—when output is written to the screen or to a file. (See Section 22.1 for details.)
+<span class="ans"></span> Nope. As part of C's UNIX heritage. it always regards the end of a line as being marked by a single line-feed character. (In UNIX text files, a single line-feed character—but no carriage return—appears at the end of each line.) The C library takes care of translating the user's keypress into a line-feed character. When a program reads from a file, the I/O library translates the file's end-of-line marker (whatever it may be) into a single line-feed character. The same transformations occur—in reverse—when output is written to the screen or to a file. (See Section 22.1 for details.)
 
 Although these translations may seem confusing, they serve an important purpose: insulating programs from details that may vary from one operating system to another.
 
@@ -6405,14 +6405,14 @@ Although these translations may seem confusing, they serve an important purpose:
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What's the purpose of the `\?` escape sequence?
+<span class="ques"></span> What's the purpose of the `\?` escape sequence?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: The `\?` escape is related to trigraph sequences, which begin with `??`. If you should put `??` in a string, there's a possibility that the compiler will mistake it for the beginning of a trigraph. Replacing the second `?` by `\?` fixes the problem.
+<span class="ans"></span> The `\?` escape is related to trigraph sequences, which begin with `??`. If you should put `??` in a string, there's a possibility that the compiler will mistake it for the beginning of a trigraph. Replacing the second `?` by `\?` fixes the problem.
 
 </div>
 <!-- END: div -->
@@ -6422,14 +6422,14 @@ A: The `\?` escape is related to trigraph sequences, which begin with `??`. If y
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: If `getchar` is faster, why would we ever want to use `scanf` to read individual characters?
+<span class="ques"></span> If `getchar` is faster, why would we ever want to use `scanf` to read individual characters?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Although it's not as fast as `getchar`, the `scanf` function is more flexible. As we saw previously, the `"%c"` format string causes `scanf` to read the next input character; `" %c"` causes it to read the next non-white-space character. Also, `scanf` is good at reading characters that are mixed in with other kinds of data. Let's say that our input data consists of an integer, then a single nonnumeric character, then another integer. By using the format string `"%d%c%d"`, we can get `scanf` to read all three items.
+<span class="ans"></span> Although it's not as fast as `getchar`, the `scanf` function is more flexible. As we saw previously, the `"%c"` format string causes `scanf` to read the next input character; `" %c"` causes it to read the next non-white-space character. Also, `scanf` is good at reading characters that are mixed in with other kinds of data. Let's say that our input data consists of an integer, then a single nonnumeric character, then another integer. By using the format string `"%d%c%d"`, we can get `scanf` to read all three items.
 
 </div>
 <!-- END: div -->
@@ -6439,14 +6439,14 @@ A: Although it's not as fast as `getchar`, the `scanf` function is more flexible
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Under what circumstances do the integral promotions convert a character or short integer to `unsigned int`?
+<span class="ques"></span> Under what circumstances do the integral promotions convert a character or short integer to `unsigned int`?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: The integral promotions yield an `unsigned int` if the `int` type isn't large enough to include all possible values of the original type. Since characters are usually eight bits long, they are almost always converted to `int`, which is guaranteed to be at least 16 bits long. Signed short integers can always be converted to `int` as well. Unsigned short integers are problematic, If short integers have the same length as ordinary integers (as they do on a 16-bit machine), then `unsigned short` integers will have to be converted to `unsigned int`, since the largest unsigned short integer (65,535 on a 16-bit machine) is larger than the largest `int` (32.767).
+<span class="ans"></span> The integral promotions yield an `unsigned int` if the `int` type isn't large enough to include all possible values of the original type. Since characters are usually eight bits long, they are almost always converted to `int`, which is guaranteed to be at least 16 bits long. Signed short integers can always be converted to `int` as well. Unsigned short integers are problematic, If short integers have the same length as ordinary integers (as they do on a 16-bit machine), then `unsigned short` integers will have to be converted to `unsigned int`, since the largest unsigned short integer (65,535 on a 16-bit machine) is larger than the largest `int` (32.767).
 
 </div>
 <!-- END: div -->
@@ -6456,14 +6456,14 @@ A: The integral promotions yield an `unsigned int` if the `int` type isn't large
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Exactly what happens if I assign a value to a variable that's not large enough to hold it?
+<span class="ques"></span> Exactly what happens if I assign a value to a variable that's not large enough to hold it?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Roughly speaking, if the value is of an integral type and the variable is of an `unsigned` type, the extra bits are thrown away if the variable has a `signed` type, the result is implementation-defined. Assigning a floating-point number to a variable—integer or floating—that's too small to hold it produces undefined behavior: anything can happen, including program termination.
+<span class="ans"></span> Roughly speaking, if the value is of an integral type and the variable is of an `unsigned` type, the extra bits are thrown away if the variable has a `signed` type, the result is implementation-defined. Assigning a floating-point number to a variable—integer or floating—that's too small to hold it produces undefined behavior: anything can happen, including program termination.
 
 </div>
 <!-- END: div -->
@@ -6473,14 +6473,14 @@ A: Roughly speaking, if the value is of an integral type and the variable is of 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why does C bother to provide type definitions? Isn't defining a `BOOL` macro just as good as defining a `Bool` type using `typedef`?
+<span class="ques"></span> Why does C bother to provide type definitions? Isn't defining a `BOOL` macro just as good as defining a `Bool` type using `typedef`?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: There are two important differences between type definitions and macro definitions. First, type definitions are more powerful than macro definitions. In particular, array and pointer types can't be defined as macros. Suppose that we try to use a macro to define a “pointer to integer” type:
+<span class="ans"></span> There are two important differences between type definitions and macro definitions. First, type definitions are more powerful than macro definitions. In particular, array and pointer types can't be defined as macros. Suppose that we try to use a macro to define a “pointer to integer” type:
 
 ```C
 #define PTR_TO_INT int *
@@ -6510,14 +6510,14 @@ Second, `typedef` names are subject to the same scope rules as variables; a `typ
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: You said that compilers “can usually determine the value of a `sizeof` expression.” Can't a compiler always determine the value of a `sizeof` expression? [p- 151]
+<span class="ques"></span> You said that compilers “can usually determine the value of a `sizeof` expression.” Can't a compiler always determine the value of a `sizeof` expression? [p- 151]
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: In C89, yes. In C99, however, there's one exception. The compiler can't determine the size of a variable-length array, because the number of elements in the array may change during the execution of the program.
+<span class="ans"></span> In C89, yes. In C99, however, there's one exception. The compiler can't determine the size of a variable-length array, because the number of elements in the array may change during the execution of the program.
 
 </div>
 <!-- END: div -->
@@ -7235,14 +7235,14 @@ Variable-length arrays are most often seen in functions other than `main`. One b
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why do array subscripts start at 0 instead of 1?
+<span class="ques"></span> Why do array subscripts start at 0 instead of 1?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Having subscripts begin at 0 simplifies the compiler a bit. Also, it can make array
+<span class="ans"></span> Having subscripts begin at 0 simplifies the compiler a bit. Also, it can make array
 subscripting marginally faster.
 
 </div>
@@ -7253,14 +7253,14 @@ subscripting marginally faster.
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What if I want an array with subscripts that go from 1 to 10 instead of 0 to 9?
+<span class="ques"></span> What if I want an array with subscripts that go from 1 to 10 instead of 0 to 9?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Here's a common trick: declare the array to have 11 elements instead of 10. The subscripts will go from 0 to 10, but you can just ignore element 0.
+<span class="ans"></span> Here's a common trick: declare the array to have 11 elements instead of 10. The subscripts will go from 0 to 10, but you can just ignore element 0.
 
 </div>
 <!-- END: div -->
@@ -7270,14 +7270,14 @@ A: Here's a common trick: declare the array to have 11 elements instead of 10. T
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Is it possible to use a character as an array subscript?
+<span class="ques"></span> Is it possible to use a character as an array subscript?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Yes, because C treats characters as integers. You'll probably need to “scale” the character before you use it as a subscript, though. Let's say that we want the letter count array to keep track of a count for each letter in the alphabet. The array will need 26 elements, so we'd declare it in the following way:
+<span class="ans"></span> Yes, because C treats characters as integers. You'll probably need to “scale” the character before you use it as a subscript, though. Let's say that we want the letter count array to keep track of a count for each letter in the alphabet. The array will need 26 elements, so we'd declare it in the following way:
 
 ```C
 int letter_count[26];
@@ -7299,7 +7299,7 @@ to clear the count that corresponds to `ch`. A minor caveat: this technique isn'
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: It seems like a designated initializer could end up initializing an array element more than once. Consider the following array declaration:
+<span class="ques"></span> It seems like a designated initializer could end up initializing an array element more than once. Consider the following array declaration:
 
 ```C
 int a[] = {4, 9, 1. 8, [0] = 5, 7};
@@ -7312,7 +7312,7 @@ Is this declaration legal, and if so, what is the length of the array?
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Yes, the declaration is legal. Here's how it works: as it processes an initializer list, the compiler keeps track of which array element is to be initialized next. Normally, the next element is the one following the element that was last initialized. However, when a designator appears in the list, it forces the next element be the one represented by the designator, even if that element has already been initialized.
+<span class="ans"></span> Yes, the declaration is legal. Here's how it works: as it processes an initializer list, the compiler keeps track of which array element is to be initialized next. Normally, the next element is the one following the element that was last initialized. However, when a designator appears in the list, it forces the next element be the one represented by the designator, even if that element has already been initialized.
 
 Here's a step-by-step look at how the compiler will process the initializer for the array `a`:
 
@@ -7339,14 +7339,14 @@ Thus, the length of this array is four.
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: The compiler gives me an error message if I try to copy one array into another by using the assignment operator. What's wrong?
+<span class="ques"></span> The compiler gives me an error message if I try to copy one array into another by using the assignment operator. What's wrong?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Although it looks quite plausible, the assignment
+<span class="ans"></span> Although it looks quite plausible, the assignment
 
 ```C
 a = b; /* a and b are arrays */
@@ -7377,14 +7377,14 @@ Many programmers prefer `memcpy`, especially for large arrays, because it's pote
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Section 6.4 mentioned that C99 doesn't allow a `goto` statement to bypass the declaration of a variable-length array. What's the reason for this restriction?
+<span class="ques"></span> Section 6.4 mentioned that C99 doesn't allow a `goto` statement to bypass the declaration of a variable-length array. What's the reason for this restriction?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: The memory used to store a variable-length array is usually allocated when the declaration of the array is reached during program execution. Bypassing the declaration using a `goto` statement could result in a program accessing the elements of an array that was never allocated.
+<span class="ans"></span> The memory used to store a variable-length array is usually allocated when the declaration of the array is reached during program execution. Bypassing the declaration using a `goto` statement could result in a program accessing the elements of an array that was never allocated.
 
 </div>
 <!-- END: div -->
@@ -8629,14 +8629,14 @@ For details about improving Quicksort, consult a book on algorithm design, such 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Some C books appear to use terms other than *parameter* and *argument*. Is there any standard terminology?
+<span class="ques"></span> Some C books appear to use terms other than *parameter* and *argument*. Is there any standard terminology?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: As with many other aspects of C, there's no general agreement on terminology, although the C89 and C99 standards use *parameter* and *argument*. The following table should help you translate:
+<span class="ans"></span> As with many other aspects of C, there's no general agreement on terminology, although the C89 and C99 standards use *parameter* and *argument*. The following table should help you translate:
 
 |This book:|Other books:|
 |---|---|
@@ -8653,7 +8653,7 @@ Keep in mind that—when no confusion would result—I sometimes deliberately bl
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: I've seen programs in which parameter types are specified in separate declarations after the parameter list, as in the following example:
+<span class="ques"></span> I've seen programs in which parameter types are specified in separate declarations after the parameter list, as in the following example:
 
 ```C
 double average(a, b)
@@ -8670,7 +8670,7 @@ Is this practice legal?
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: This method of defining functions comes from K&R C, so you may encounter it in older books and programs. C89 and C99 support this style so that older programs will still compile. I'd avoid using it in new programs, however. for a couple of reasons.
+<span class="ans"></span> This method of defining functions comes from K&R C, so you may encounter it in older books and programs. C89 and C99 support this style so that older programs will still compile. I'd avoid using it in new programs, however. for a couple of reasons.
 
 First, functions that are defined in the older way aren't subject to the same degree of error-checking. When a function is defined in the older way—and no prototype is present—the compiler won't check that the function is called with the right number of arguments, nor will it check that the arguments have the proper types. Instead, it will perform the default argument promotions.
 
@@ -8684,14 +8684,14 @@ Second, the C standard says that the older style is “obsolescent,” meaning t
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Some programming languages allow procedures and functions to be nested within each other. Does C allow function definitions to be nested?
+<span class="ques"></span> Some programming languages allow procedures and functions to be nested within each other. Does C allow function definitions to be nested?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: No. C does not permit the definition of one function to appear in the body of another. Among other things, this restriction simplifies the compiler.
+<span class="ans"></span> No. C does not permit the definition of one function to appear in the body of another. Among other things, this restriction simplifies the compiler.
 
 </div>
 <!-- END: div -->
@@ -8701,14 +8701,14 @@ A: No. C does not permit the definition of one function to appear in the body of
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why does the compiler allow the use of function names that aren't followed by parentheses?
+<span class="ques"></span> Why does the compiler allow the use of function names that aren't followed by parentheses?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: We'll see in a later chapter that the compiler treats a function name not followed by parentheses as a pointer to the function. Pointers to functions have legitimate uses, so the compiler can't automatically assume that a function name without parentheses is an error. The statement
+<span class="ans"></span> We'll see in a later chapter that the compiler treats a function name not followed by parentheses as a pointer to the function. Pointers to functions have legitimate uses, so the compiler can't automatically assume that a function name without parentheses is an error. The statement
 
 ```C
 print_pun;
@@ -8725,14 +8725,14 @@ is legal because the compiler treats `print_pun` as a pointer and therefore an e
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: In the function call `f(a, b)`, how does the compiler know whether the comma is punctuation or whether it's an operator?
+<span class="ques"></span> In the function call `f(a, b)`, how does the compiler know whether the comma is punctuation or whether it's an operator?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: It turns out that the arguments in a function call can't be arbitrary expressions. Instead, they must be “assignment expressions,” which can't contain commas used as operators unless they're enclosed in parentheses. In other words, in the call `f(a, b)` the comma is punctuation; in the call `f((a, b))` it's an operator.
+<span class="ans"></span> It turns out that the arguments in a function call can't be arbitrary expressions. Instead, they must be “assignment expressions,” which can't contain commas used as operators unless they're enclosed in parentheses. In other words, in the call `f(a, b)` the comma is punctuation; in the call `f((a, b))` it's an operator.
 
 </div>
 <!-- END: div -->
@@ -8742,14 +8742,14 @@ A: It turns out that the arguments in a function call can't be arbitrary express
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Do the names of parameters in a function prototype have to match the names given later in the function's definition?
+<span class="ques"></span> Do the names of parameters in a function prototype have to match the names given later in the function's definition?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: No. Some programmers take advantage of this fact by giving long names to parameters in the prototype, then using shorter names in the actual definition. Or a French-speaking programmer might use English names in prototypes, then switch to more familiar French names in function definitions.
+<span class="ans"></span> No. Some programmers take advantage of this fact by giving long names to parameters in the prototype, then using shorter names in the actual definition. Or a French-speaking programmer might use English names in prototypes, then switch to more familiar French names in function definitions.
 
 </div>
 <!-- END: div -->
@@ -8759,14 +8759,14 @@ A: No. Some programmers take advantage of this fact by giving long names to para
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: I still don't understand why we bother with function prototypes. If we just put definitions of all the functions before `main`, we're covered, right?
+<span class="ques"></span> I still don't understand why we bother with function prototypes. If we just put definitions of all the functions before `main`, we're covered, right?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Wrong. First, you're assuming that only main calls the other functions, which is unrealistic. In practice, some of the functions will call each other. If we put all function definitions above `main`, we'll have to watch their order carefully. Calling a function that hasn't been defined yet can lead to big problems.
+<span class="ans"></span> Wrong. First, you're assuming that only main calls the other functions, which is unrealistic. In practice, some of the functions will call each other. If we put all function definitions above `main`, we'll have to watch their order carefully. Calling a function that hasn't been defined yet can lead to big problems.
 
 But that's not all. Suppose that two functions call each other (which isn't as far-fetched as it may sound). No matter which function we define first, it will end up calling a function that hasn't been defined yet.
 
@@ -8780,7 +8780,7 @@ But there's still more! Once programs reach a certain size, it won't be feasible
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: I've seen function declarations that omit all information about parameters:
+<span class="ques"></span> I've seen function declarations that omit all information about parameters:
 
 ```C
 double average() ;
@@ -8793,7 +8793,7 @@ Is this practice legal?
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Yes. This declaration informs the compiler that average returns a `double` value but provides no information about the number and types of its parameters. (Leaving the parentheses empty doesn't necessarily mean that average has no parameters.)
+<span class="ans"></span> Yes. This declaration informs the compiler that average returns a `double` value but provides no information about the number and types of its parameters. (Leaving the parentheses empty doesn't necessarily mean that average has no parameters.)
 
 In K&R C, this form of function declaration is the only one allowed; the form that we've been using—the function prototype, in which parameter information is included—was introduced in C89. The older kind of function declaration is now obsolescent, although still allowed.
 
@@ -8805,14 +8805,14 @@ In K&R C, this form of function declaration is the only one allowed; the form th
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why would a programmer deliberately omit parameter names in a function prototype? Isn't it easier to just leave the names?
+<span class="ques"></span> Why would a programmer deliberately omit parameter names in a function prototype? Isn't it easier to just leave the names?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Omitting parameter names in prototypes is typically done for defensive purposes. If a macro happens to have the same name as a parameter, the parameter name will be replaced during preprocessing, thereby damaging the prototype in which it appears. This isn't likely to be a problem in a small program written by one person but can occur in large applications written by many people.
+<span class="ans"></span> Omitting parameter names in prototypes is typically done for defensive purposes. If a macro happens to have the same name as a parameter, the parameter name will be replaced during preprocessing, thereby damaging the prototype in which it appears. This isn't likely to be a problem in a small program written by one person but can occur in large applications written by many people.
 
 </div>
 <!-- END: div -->
@@ -8822,14 +8822,14 @@ A: Omitting parameter names in prototypes is typically done for defensive purpos
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Is it legal to put a function declaration inside the body of another function?
+<span class="ques"></span> Is it legal to put a function declaration inside the body of another function?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Yes. Here's an example:
+<span class="ans"></span> Yes. Here's an example:
 
 ```C
 int main(void)
@@ -8851,7 +8851,7 @@ The advantage of this practice is that it's clearer to the reader which function
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: If several functions have the same return type, can their declarations be combined? For example, since both `print_pun` and `print_count` have `void` as their return type, is the following declaration legal?
+<span class="ques"></span> If several functions have the same return type, can their declarations be combined? For example, since both `print_pun` and `print_count` have `void` as their return type, is the following declaration legal?
 
 ```C
 void print_pun(void), print_count (int n);
@@ -8862,7 +8862,7 @@ void print_pun(void), print_count (int n);
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Yes. In fact, C even allows us to combine function declarations with variable declarations:
+<span class="ans"></span> Yes. In fact, C even allows us to combine function declarations with variable declarations:
 
 ```C
 double x, y, average(double a, double b);
@@ -8878,14 +8878,14 @@ Combining declarations in this way usually isn't a good idea, though: it can eas
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What happens if I specify a length for a one-dimensional array parameter?
+<span class="ques"></span> What happens if I specify a length for a one-dimensional array parameter?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: The compiler ignores it. Consider the following example:
+<span class="ans"></span> The compiler ignores it. Consider the following example:
 
 ```C
 double inner_product(double v[3], double w[3]);
@@ -8901,14 +8901,14 @@ Other than documenting that inner product's arguments are supposed to be arrays 
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why can the first dimension in an array parameter be left unspecified, but not the other dimensions?
+<span class="ques"></span> Why can the first dimension in an array parameter be left unspecified, but not the other dimensions?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: First, we need to discuss how arrays are passed in C. As Section 12.3 explains, when an array is passed to a function, the function is given a pointer to the first element in the array.
+<span class="ans"></span> First, we need to discuss how arrays are passed in C. As Section 12.3 explains, when an array is passed to a function, the function is given a pointer to the first element in the array.
 
 Next, we need to know how the subscripting operator works. Suppose that `a` is a one-dimensional array passed to a function. When we write
 
@@ -8934,14 +8934,14 @@ The compiler generates instructions to do the following: (1) multiply `i` by the
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why do some programmers put parentheses around the expression in a `return` statement?
+<span class="ques"></span> Why do some programmers put parentheses around the expression in a `return` statement?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: The examples in the first edition of Kernighan and Ritchie's *The C Programming Language* always have parentheses in `return` statements, even though they aren't required. Programmers (and authors of subsequent books) picked up the habit from K&R. I don't use these parentheses, since they're unnecessary and contribute nothing to readability. (Kernighan and Ritchie apparently agree: the return statements in the second edition of *The C Programming Language* lack parentheses.)
+<span class="ans"></span> The examples in the first edition of Kernighan and Ritchie's *The C Programming Language* always have parentheses in `return` statements, even though they aren't required. Programmers (and authors of subsequent books) picked up the habit from K&R. I don't use these parentheses, since they're unnecessary and contribute nothing to readability. (Kernighan and Ritchie apparently agree: the return statements in the second edition of *The C Programming Language* lack parentheses.)
 
 </div>
 <!-- END: div -->
@@ -8951,14 +8951,14 @@ A: The examples in the first edition of Kernighan and Ritchie's *The C Programmi
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What happens if a non-`void` function attempts to execute a return statement that has no expression?
+<span class="ques"></span> What happens if a non-`void` function attempts to execute a return statement that has no expression?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: <span class="C99Symbol"></span>
+<span class="ans"></span> <span class="C99Symbol"></span>
 
 That depends on the version of C. In C89, executing a `return` statement without an expression in a non-`void` function causes undefined behavior (but only if the program attempts to use the value returned by the function). In C99, such a statement is illegal and should be detected as an error by the compiler.
 
@@ -8970,14 +8970,14 @@ That depends on the version of C. In C89, executing a `return` statement without
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: How can I test `main`'s return value to see if a program has terminated normally?
+<span class="ques"></span> How can I test `main`'s return value to see if a program has terminated normally?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: That depends on your operating system. Many operating systems allow this value to be tested within a “batch file" or “shell script” that contains commands to run several programs. For example, the line
+<span class="ans"></span> That depends on your operating system. Many operating systems allow this value to be tested within a “batch file" or “shell script” that contains commands to run several programs. For example, the line
 
 ```C
 if errorlevel 1 command
@@ -8995,7 +8995,7 @@ In UNIX, each shell has its own method for testing the status code. In the Bourn
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Why does my compiler produce a “*control reaches end of non-`void` function*”
+<span class="ques"></span> Why does my compiler produce a “*control reaches end of non-`void` function*”
 warning when it compiles `main`?
 
 </div>
@@ -9003,7 +9003,7 @@ warning when it compiles `main`?
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: The compiler has noticed that `main`, despite having `int` as its return type, doesn't have a `return` statement. Putting the statement
+<span class="ans"></span> The compiler has noticed that `main`, despite having `int` as its return type, doesn't have a `return` statement. Putting the statement
 
 ```C
 return 0;
@@ -9023,14 +9023,14 @@ When a program is compiled using a C99 compiler, this warning shouldn't occur. I
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: With regard to the previous question: Why not just define `main`'s return type to be `void`?
+<span class="ques"></span> With regard to the previous question: Why not just define `main`'s return type to be `void`?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Although this practice is fairly common, it's illegal according to the C89 standard. Even if it weren't illegal, it wouldn't be a good idea, since it presumes that no one will ever test the program's status upon termination.
+<span class="ans"></span> Although this practice is fairly common, it's illegal according to the C89 standard. Even if it weren't illegal, it wouldn't be a good idea, since it presumes that no one will ever test the program's status upon termination.
 
 <span class="C99Symbol"></span>
 
@@ -9044,14 +9044,14 @@ C99 opens the door to legalizing this practice, by allowing `main` to be declare
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: Is it legal for a function `f1` to call a function `f2`, which then calls `f1`?
+<span class="ques"></span> Is it legal for a function `f1` to call a function `f2`, which then calls `f1`?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: Yes. This is just an indirect form of recursion in which one call of `f1` leads to another. (But make sure that either `f1` or `f2` eventually terminates!)
+<span class="ans"></span> Yes. This is just an indirect form of recursion in which one call of `f1` leads to another. (But make sure that either `f1` or `f2` eventually terminates!)
 
 </div>
 <!-- END: div -->
@@ -10033,14 +10033,14 @@ Notice the use of the `exit` function in `read_cards` (incase `0` of the first `
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: What impact do local variables with static storage duration have on recursive functions?
+<span class="ques"></span> What impact do local variables with static storage duration have on recursive functions?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: When a function is called recursively, fresh copies are made of its automatic variables for each call. This doesn't occur for static variables, though. Instead, all calls of the function share the *same* static variables.
+<span class="ans"></span> When a function is called recursively, fresh copies are made of its automatic variables for each call. This doesn't occur for static variables, though. Instead, all calls of the function share the *same* static variables.
 
 </div>
 <!-- END: div -->
@@ -10050,7 +10050,7 @@ A: When a function is called recursively, fresh copies are made of its automatic
 <!-- START: div -->
 <div class="QandA_question">
 
-Q: In the following example, `j` is initialized to the same value as `i`, but there are two variables named `i`:
+<span class="ques"></span> In the following example, `j` is initialized to the same value as `i`, but there are two variables named `i`:
 
 ```C
 int i = 1;
@@ -10070,7 +10070,7 @@ Is this code legal? If so, what is `j`'s initial value, 1 or 2?
 <!-- START: div -->
 <div class="QandA_answer">
 
-A: The code is indeed legal. The scope of a local variable doesn't begin until its declaration. Therefore, the declaration of `j` refers to the external variable named `i`. The initial value of `j` will be 1.
+<span class="ans"></span> The code is indeed legal. The scope of a local variable doesn't begin until its declaration. Therefore, the declaration of `j` refers to the external variable named `i`. The initial value of `j` will be 1.
 
 </div>
 <!-- END: div -->
@@ -10337,6 +10337,481 @@ i=1;
 <img src="./images/cknkCh11Sec11p3_5.png" alt="cknkCh11Sec11p3_5.png"/>
 
 The assignment `*q = *p` copies the value that `p` points to (the value of `i`) into the object that `q` points to (the variable `j`).
+
+## 11.4 Pointer Assignment
+
+So far, we've managed to avoid a rather important question: What are pointers good for? There's no single answer to that question, since pointers have several distinct uses in C. In this section, we'll see how a pointer to a variable can be useful as a function argument. We'll discover other uses for pointers in Section 11.5 and in Chapters 12 and 17.
+
+We saw in Section 9.3 that a variable supplied as an argument in a function call is protected against change, because C passes arguments by value, This property of C can be a nuisance if we want the function to be able to modify the variable. In Section 9.3, we tried—and failed—to write a `decompose` function that could modify two of its arguments.
+
+Pointers offer a solution to this problem: instead of passing a variable `x` as the argument to a function, we'll supply `&x`, a pointer to `x`. We'll declare the corresponding parameter `p` to be a pointer. When the function is called, `p` will have the value `&x`, hence `*p` (the object that `p` points to) will be an alias for `x`. Each appearance of `*p` in the body of the function will be an indirect reference to `x`, allowing the function both to read `x` and to modify it.
+
+To see this technique in action, let's modify the `decompose` function by declaring the parameters `int_part` and `frac_part` to be pointers. The definition of decompose will now look like this:
+
+```C
+void decompose(double x, long *int_part, double *frac_part)
+{
+    *int_part = (long) x;
+    *frac_part = x - *int_part;
+}
+```
+
+The prototype for `decompose` could be either
+
+```C
+void decompose(double x, long *int_part, double *frac_part);
+```
+
+or
+
+```C
+void decompose(double, long *, double *);
+```
+
+We'll call `decompose` in the following way:
+
+```C
+decompose (3.14159, &i, &d);
+```
+
+Because of the `&` operator in front of `i` and `d`, the arguments to `decompose` are pointers to `i` and `d`, not the values of `i` and `d`. When `decompose` is called, the value 3.14159 is copied into `x`, a pointer to `i` is stored in `int_part`, and a pointer to `d` is stored in `frac_part`:
+
+<img src="./images/cknkCh11Sec11p4_1.png" alt="cknkCh11Sec11p4_1.png" />
+
+The first assignment in the body of `decompose` converts the value of `x` to type `long` and stores it in the object pointed to by `int_part`. Since `int_part` points to `i`, the assignment puts the value 3 in `i`:
+
+<img src="./images/cknkCh11Sec11p4_2.png" alt="cknkCh11Sec11p4_2.png" />
+
+The second assignment fetches the value that `int_part` points to (the value of `i`), which is 3. This value is converted to type `double` and subtracted from `x`, giving `.14159`, which is then stored in the object that `frac_part` points to:
+
+<img src="./images/cknkCh11Sec11p4_3.png" alt="cknkCh11Sec11p4_3.png"/>
+
+When `decompose` returns, `i` and `d` will have the values 3 and .14159, just as we originally wanted.
+
+Using pointers as arguments to functions is actually nothing new; we've been doing it in calls of `scanf` since Chapter 2. Consider the following example:
+
+```C
+int i;
+...
+scanf("%d", &i);
+```
+
+We must put the `&` operator in front of `i` so that `scanf` is given a *pointer* to `i`: that pointer tells `scanf` where to put the value that it reads. Without the `&`, `scanf` would be supplied with the *value* of `i`.
+
+Although `scanf`'s arguments must be pointers, it's not always true that every argument needs the `&` operator. In the following example, `scanf` is passed a pointer variable:
+
+```C
+int i, *p;
+...
+p = &i;
+scanf("%d", p);
+```
+
+Since `p` contains the address of `i`, `scanf` will read an integer and store it in `i`. Using the `&` operator in the call would be wrong:
+
+```C
+scanf ("%d", &p); /*** WRONG ***/
+```
+
+`scanf` would read an integer and store it in `p` instead of in `i`.
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Failing to pass a pointer to a function when one is expected can have disastrous results. Suppose that we call `decompose` without the `&` operator in front of `i` and `d`:
+
+```C
+decompose(3.14159, i, d);
+```
+
+`decompose` is expecting pointers as its second and third arguments, but it's been given the values of `i` and `d` instead. `decompose` has no way to tell the difference, so it will use the values of `i` and `d` as though they were pointers. When `decompose` stores values in `*int_part` and `*frac_part`, it will attempt to change unknown memory locations instead of modifying `i` and `d`.
+
+If we've provided a prototype for `decompose` (as we should always do, of course), the compiler will let us know that we're attempting to pass arguments of the wrong type. In the case of `scanf`, however, failing to pass pointers often goes undetected by the compiler, making `scanf` an especially error-prone function.
+
+</div>
+<!-- END: div -->
+
+### 11.4.1 (PROGRAM) Finding the Largest and Smallest Elements in an Array
+
+To illustrate how pointers are passed to functions, let's look at a function named `max_min` that finds the largest and smallest elements in an array. When we call `max_min`, we'll pass it pointers to two variables; `max_min` will then store its answers in these variables. `max_min` has the following prototype:
+
+```C
+void max_min(int a[], int n, int *max, int *min);
+```
+
+A call of `max_min` might have the following appearance:
+
+```C
+max_min(b, N, &big, &small);
+```
+
+`b` is an array of integers; `N` is the number of elements in `b`. `big` and `small` are ordinary integer variables. When `max_min` finds the largest element in `b`, it stores the value in `big` by assigning it to `*max`. (Since `max` points to `big`, an assignment to `*max` will modify the value of `big`.) `max_min` stores the smallest element of `b` in small by assigning it to `*min`.
+
+To test `max_min`, we'll write a program that reads 10 numbers into an array, passes the array to `max_min`, and prints the results:
+
+```
+Enter 10 numbers: 34 82 49 102 7 94 23 11 50 31
+Largest: 102
+Smallest: 7
+```
+
+Here's the complete program:
+
+```C
+/********************************************************************************
+ * File: maxmin.c
+ * Author: K. N. King
+ * Purpose: Finds the largest and smallest elememts in an array
+ ********************************************************************************/
+
+/* START: Header inclusions*/
+#include <stdio.h>
+/* END: Header inclusions*/
+
+/* START: MACRO definitions*/
+#define N 10
+/* END: MACRO definitions*/
+
+/* START: type definitions*/
+
+/* END: type definitions*/
+
+/* START: Variable declarations*/
+
+/* END: Variable declarations*/
+
+/* START: Function prototypes*/
+void max_min(int a[], int n, int *max, int *min);
+/* END: Function prototypes*/
+
+/**
+ * Function name: main
+ * Return type: int
+ * Return value description: 
+ * Parameters: void
+ * Param1 descr.: 
+ * Param2 descr.: 
+ * Param3 descr.: 
+ * Function description: 
+ */
+int main(void)
+{
+    int b[N], i, big, small;
+
+    printf("Enter %d numbers: ", N);
+    for(i = 0; i < N; i++)
+    {
+        scanf("%d", &b[i]);
+    }	// for statement: 
+    
+    max_min(b, N, &big, &small);
+
+    printf("Largest: %d\n", big);
+    printf("Smallest: %d\n", small);
+
+    printf("\n");
+    return 0;
+}	//FUNCTION END: main
+
+/**
+ * Function name: max_min
+ * Return type: void
+ * Return value description: 
+ * Parameters: int a[], int n, int *max, int *min
+ * Param1 descr.: 
+ * Param2 descr.: 
+ * Param3 descr.: 
+ * Function description: Find the max and min values.
+ */
+void max_min(int a[], int n, int *max, int *min)
+{
+    int i;
+
+    *max = *min = a[0];
+    for(i = 1; i < n; i++)
+    {
+        if(a[i] > *max)
+        {
+            *max = a[i];
+        }	// if condition: 
+        else if(a[i] < *min)
+        {
+            *min = a[i];
+        }	// else-if condition: 
+    }	// for statement: recurse throught the array to find the max and min values
+}	// FUNCTION END: max_min
+```
+
+### 11.4.2 Using `const` to Protect Arguments
+
+When we call a function and pass it a pointer to a variable, we normally assume that the function will modify the variable (otherwise, why would the function require a pointer?). For example, if we see a statement like
+
+```C
+f(&x);
+```
+
+in a program, we'd probably expect `f` to change the value of `x`. It's possible, though, that `f` merely needs to examine the value of `x`, not change it. The reason for the pointer might be efficiency: passing the value of a variable can waste time and space if the variable requires a large amount of storage. (Section 12.3 covers this point in more detail.)
+
+<span class="QandA"></span>
+
+We can use the word `const` to document that a function won't change an object whose address is passed to the function. `const` goes in the parameter's declaration, just before the specification of its type:
+
+```C
+void f(const int *p)
+{
+    *p = 0; /*** WRONG ***/
+}
+```
+
+This use of `const` indicates that `p` is a pointer to a "constant integer." Attempting to modify `*p` is an error that the compiler will detect.
+
+## 11.5 Pointers as Return Values
+
+We can not only pass pointers to functions but also write functions that return pointers. Such functions are relatively common; we'll encounter several in Chapter 13
+
+The following function, when given pointers to two integers, returns a pointer to whichever integer is larger:
+
+```C
+int *max(int *a, int *b)
+{
+    if(*a > *b)
+        return a;
+    else
+        return b;
+}
+```
+
+When we call `max`, we'll pass pointers to two int variables and store the result in a pointer variable:
+
+```C
+int *p, i, j;
+...
+p = max(&i, &j);
+```
+
+During the call of `max`, `*a` is an alias for `i`, while `*b` is an alias for `j`. If `i` has a larger value than `j`, `max` returns the address of `i`; otherwise, it returns the address of `j`. After the call, `p` points to either `i` or `j`.
+
+Although the `max` function returns one of the pointers passed to it as an argument, that's not the only possibility. A function could also return a pointer to an external variable or to a local variable that's been declared `static`.
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Never return a pointer to an *automatic* local variable:
+
+```C
+int *f(void)
+{
+    int i;
+    ...
+    return &i;
+}
+```
+
+The variable `i` doesn't exist once `f` returns, so the pointer to it will be invalid. Some compilers issue a warning such as "*function returns address of local variable*" in this situation.
+
+</div>
+<!-- END: div -->
+
+Pointers can point to array elements, not just ordinary variables. If `a` is an array, then `&a[1]` is a pointer to element `i` of `a`. When a function has an array argument, it's sometimes useful for the function to return a pointer to one of the elements in the array. For example, the following function returns a pointer to the middle element of the array `a`, assuming that `a` has `n` elements:
+
+```C
+int *find_middle(int a[], int n) (
+{
+    return &a[n/2];
+}
+```
+
+Chapter 12 explores the relationship between pointers and arrays in considerable detail.
+
+---
+
+## Q&A
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span> Is a pointer always the same as an address?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span> Usually, but not always. Consider a computer whose main memory is divided into ***words*** rather than bytes. A word might contain 36 bits, 60 bits, or some other number of bits. If we assume 36-bit words, memory will have the following appearance:
+
+<img src="./images/cknkCh11QandA1_1.png" alt="cknkCh11QandA1_1.png"/>
+
+When memory is divided into words, each word has an address. An integer usually occupies one word, so a pointer to an integer can just be an address. However, a word can store more than one character. For example, a 36-bit word might store six 6-bit characters:
+
+<img src="./images/cknkCh11QandA1_2.png" alt="cknkCh11QandA1_2.png"/>
+
+or four 9-bit characters:
+
+<img src="./images/cknkCh11QandA1_3.png" alt="cknkCh11QandA1_3.png"/>
+
+For this reason, a pointer to a character may need to be stored in a different form than other pointers. A pointer to a character might consist of an address (the word in which the character is stored) plus a small integer (the position of the character within the word).
+
+On some computers, pointers may be "offsets" rather than complete addresses. For example, CPUs in the Intel x86 family (used in many personal computers) can execute programs in several modes. The oldest of these, which dates back to the 8086 processor of 1978, is called ***real mode***. In this mode, addresses are sometimes represented by a single 16-bit number (an ***offset***) and sometimes by two 16-bit numbers (a ***segment:offset pair***). An offset isn't a true memory address; the CPU must combine it with a segment value stored in a special register. To support real mode, older C compilers often provide two kinds of pointers: ***near pointers*** (16-bit offsets) and ***far pointers*** (32-bit segment:offset pairs). These compilers usually reserve the words *near* and *far* as nonstandard keywords that can be used to declare pointer variables.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span> If a pointer can point to data in a program, is it possible to have a pointer to program code?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span> Yes. We'll cover pointers to functions in Section 17.7.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span> It seems to me that there's an inconsistency between the declaration
+
+```C
+int *p = &i;
+```
+
+and the statement
+
+```C
+p = &i;
+```
+
+Why isn't `p` preceded by a `*` symbol in the statement, as it is in the declaration?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span> The source of the confusion is the fact that the `*` symbol can have different meanings in C, depending on the context in which it's used. In the declaration
+
+```C
+int *p = &i;
+```
+
+the `*` symbol is not the indirection operator. Instead, it helps specify the type of `p`, informing the compiler that `p` is a pointer to an `int`. When it appears in a statement, however, the `*` symbol performs indirection (when used as a unary operator). The statement
+
+```C
+*p = &i; /*** WRONG ***/
+```
+
+would be wrong, because it assigns the address of `i` to the object that `p` points to, not to `p` itself.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span> Is there some way to print the address of a variable?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span> Any pointer, including the address of a variable, can be displayed by calling the `printf` function and using `%p` as the conversion specification. See Section 22.3 for details.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span> The following declaration is confusing:
+
+```C
+void f(const int *p);
+```
+
+Does this say that `f` can't modify `p`?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span> No. It says that `f` can't change the integer that `p` points to; it doesn't prevent `f` from changing `p` itself.
+
+```C
+void f(const int *p)
+{
+    int j;
+    *p = 0; /*** WRONG ***/
+    p = &j; /* legal */
+}
+```
+
+Since arguments are passed by value, assigning `p` a new value—by making it point somewhere else—won't have any effect outside the function.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span> When declaring a parameter of a pointer type, is it legal to put the word `const` in front of the parameter's name, as in the following example?
+
+```C
+void f(int * const p);
+```
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span> Yes, although the effect isn't the same as if `const` precedes `p`'s type. We saw in Section 11.4 that putting `const` before `p`'s type protects the object that `p` points to. Putting `const` after `p`'s type protects `p` itself:
+
+```C
+void f(int * conat p)
+{
+    int j;
+    *p = 0; /* legal */
+    p = &j; /*** WRONG ***/
+}
+```
+This feature isn't used very often. Since `p` is merely a copy of another pointer (the argument when the function is called), there's rarely any reason to protect it.
+
+An even greater rarity is the need to protect both `p` and the object it points to, which can be done by putting `const` both before and after `p`'s type:
+
+```C
+void f(const int * const p)
+{
+    int j;
+    *p = 0;  /*** WRONG ***/
+    p = &i; /*** WRONG ***/
+}
+```
+
+</div>
+<!-- END: div -->
+
+---
 
 
 

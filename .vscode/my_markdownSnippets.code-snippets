@@ -268,5 +268,13 @@
 		  "<!-- END: div -->$4"
 		],
 		"description": "markdown-todo"
-	  }
+	},
+
+	"markdown (HTML) -img": {
+		"prefix": "md-img, ..md-img",
+		"body": [
+			"<img src=\"$1\" alt=\"$2\"/>$3"
+		],
+		"description": "HTML 'img' tag syntax for markdown"
+	},
 }
