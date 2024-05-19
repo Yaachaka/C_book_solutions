@@ -54,18 +54,14 @@ The function determines the smallest number of $20, $10, $5, and $1 bills necess
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a U.S. Dollar amount: 93
+$20 bills: 4
+$10 bills: 1
+ $5 bills: 0
+ $1 bills: 3
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -74,18 +70,14 @@ The function determines the smallest number of $20, $10, $5, and $1 bills necess
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a U.S. Dollar amount: 168
+$20 bills: 8
+$10 bills: 0
+ $5 bills: 1
+ $1 bills: 3
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -94,26 +86,14 @@ The function determines the smallest number of $20, $10, $5, and $1 bills necess
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a U.S. Dollar amount: 256
+$20 bills: 12
+$10 bills: 1
+ $5 bills: 1
+ $1 bills: 1
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
