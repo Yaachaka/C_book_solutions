@@ -140,18 +140,11 @@ This function will find the flight whose departure time is closest to `desired_t
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a 24-hour time: 13:15
+Closest departure time is 12:47 p.m., arriving at 03:00 p.m.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -160,18 +153,11 @@ This function will find the flight whose departure time is closest to `desired_t
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a 24-hour time: 22:43
+Closest departure time is 09:45 p.m., arriving at 11:58 p.m.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -180,26 +166,11 @@ This function will find the flight whose departure time is closest to `desired_t
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a 24-hour time: 00:23
+Closest departure time is 08:00 a.m., arriving at 10:16 a.m.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
