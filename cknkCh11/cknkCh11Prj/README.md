@@ -185,10 +185,10 @@ Closest departure time is 08:00 a.m., arriving at 10:16 a.m.
 
 <!-- START: Problem Statement -->
 
-Modify Programming Project 3 from Chapter 6 so that it includes the following tunction:
+Modify Programming Project 3 from Chapter 6 so that it includes the following function:
 
 ```C
-void reduce(int numerator, int denominator, int *reduced_numerator, int *reduced_denominator) ;
+void reduce(int numerator, int denominator, int *reduced_numerator, int *reduced_denominator);
 ```
 
 `numerator` and `denominator` are the numerator and denominator of a fraction. `reduced_numerator` and `reduced_denominator` are pointers to variables in which the function will store the numerator and denominator of the fraction once it has been reduced to lowest terms.
@@ -217,18 +217,11 @@ void reduce(int numerator, int denominator, int *reduced_numerator, int *reduced
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a fraction: 6/12
+In lowest terms: 1/2
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -237,18 +230,11 @@ void reduce(int numerator, int denominator, int *reduced_numerator, int *reduced
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a fraction: 12/28
+In lowest terms: 3/7
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -257,26 +243,11 @@ void reduce(int numerator, int denominator, int *reduced_numerator, int *reduced
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a fraction: 17/46
+In lowest terms: 17/46
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
