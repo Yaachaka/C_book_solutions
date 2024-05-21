@@ -288,64 +288,86 @@ Modify the `poker.c` program of Section 10.5 by moving all external variables in
 <!-- START: terminal interaction or other output -->
 
 ```
+Enter a card: 4h
+Enter a card: 5h
+Enter a card: 6h
+Enter a card: 7h
+Enter a card: 8h
+Straight flush
 
+Enter a card: 7c
+Enter a card: 8h
+Enter a card: 7h
+Enter a card: 7s
+Enter a card: 7d
+Four of a kind
+
+Enter a card: 7c
+Enter a card: 7h
+Enter a card: 8d
+Enter a card: 7s
+Enter a card: 8h
+Full house
+
+Enter a card: 2s
+Enter a card: qs
+Enter a card: ts
+Enter a card: as
+Enter a card: js
+Flush
+
+Enter a card: 8c
+Enter a card: qh
+Enter a card: td
+Enter a card: js
+Enter a card: 9c
+Straight
+
+Enter a card: 3c
+Enter a card: 4d
+Enter a card: 3h
+Enter a card: 5c
+Enter a card: 3s
+Three of a kind
+
+Enter a card: 2d
+Enter a card: 2c
+Enter a card: 3d
+Enter a card: 2c
+Duplicate card; ignored.
+Enter a card: 2a
+Bad card; ignored.
+Enter a card: 4s
+Enter a card: 4h
+Two pairs
+
+Enter a card: 4d
+Enter a card: 6c
+Enter a card: 8
+h
+Bad card; ignored.
+Enter a card: 8h
+Enter a card: 7s
+Enter a card: 8d
+Pair
+
+Enter a card: 2c
+Enter a card: 6h
+Enter a card: td
+Enter a card: qs
+Enter a card: jc
+High card
+
+Enter a card: 0
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial2:
-
-#### Trial2 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-### Trial3:
-
-#### Trial3 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 # Exercise Comment:
 
 <!-- START: Comments -->
 
-
+With few trials, it is identified that the post increment operator takes precedence over indirection operator. Because of which instead of writing `*pairs++;`, I had to write `(*pairs)++`. The parentheses are necessary. This was identified by printing the address in `pairs` pointer at start and end of the function `analyze_hand`; which had differed.
 
 <!-- END: Comments -->
 

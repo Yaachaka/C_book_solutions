@@ -172,29 +172,86 @@ be passed pointers to those variables.</p>
 <h3 id="trial1-3">Trial1:</h3>
 <h4 id="trial1-execution-3">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
+<pre><code>Enter a card: 4h
+Enter a card: 5h
+Enter a card: 6h
+Enter a card: 7h
+Enter a card: 8h
+Straight flush
+
+Enter a card: 7c
+Enter a card: 8h
+Enter a card: 7h
+Enter a card: 7s
+Enter a card: 7d
+Four of a kind
+
+Enter a card: 7c
+Enter a card: 7h
+Enter a card: 8d
+Enter a card: 7s
+Enter a card: 8h
+Full house
+
+Enter a card: 2s
+Enter a card: qs
+Enter a card: ts
+Enter a card: as
+Enter a card: js
+Flush
+
+Enter a card: 8c
+Enter a card: qh
+Enter a card: td
+Enter a card: js
+Enter a card: 9c
+Straight
+
+Enter a card: 3c
+Enter a card: 4d
+Enter a card: 3h
+Enter a card: 5c
+Enter a card: 3s
+Three of a kind
+
+Enter a card: 2d
+Enter a card: 2c
+Enter a card: 3d
+Enter a card: 2c
+Duplicate card; ignored.
+Enter a card: 2a
+Bad card; ignored.
+Enter a card: 4s
+Enter a card: 4h
+Two pairs
+
+Enter a card: 4d
+Enter a card: 6c
+Enter a card: 8
+h
+Bad card; ignored.
+Enter a card: 8h
+Enter a card: 7s
+Enter a card: 8d
+Pair
+
+Enter a card: 2c
+Enter a card: 6h
+Enter a card: td
+Enter a card: qs
+Enter a card: jc
+High card
+
+Enter a card: 0</code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial2-3">Trial2:</h3>
-<h4 id="trial2-execution-3">Trial2 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial2-comments">Trial2 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h3 id="trial3-3">Trial3:</h3>
-<h4 id="trial3-execution-3">Trial3 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial3-comments">Trial3 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
 <h1 id="exercise-comment">Exercise Comment:</h1>
 <!-- START: Comments -->
+<p>With few trials, it is identified that the post increment operator
+takes precedence over indirection operator. Because of which instead of
+writing <code>*pairs++;</code>, I had to write <code>(*pairs)++</code>.
+The parentheses are necessary. This was identified by printing the
+address in <code>pairs</code> pointer at start and end of the function
+<code>analyze_hand</code>; which had differed.</p>
 <!-- END: Comments -->
 </div>
 <!-- END: div -->
