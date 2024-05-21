@@ -59,3 +59,9 @@ Notes (book) in HTML: [./CProgrammingKNKing2ndEd.html](./CProgrammingKNKing2ndEd
 - [Examples](./cknkCh10/cknkCh10Exmp)
 - [Exercises](./cknkCh10/cknkCh10Exrc)
 - [Programming Projects](./cknkCh10/cknkCh10Prj)
+
+**[Chapter 11 Pointers](./cknkCh11):**
+
+- [Examples](./cknkCh11/cknkCh11Exmp)
+- [Exercises](./cknkCh11/cknkCh11Exrc)
+- [Programming Projects](./cknkCh11/cknkCh11Prj)
