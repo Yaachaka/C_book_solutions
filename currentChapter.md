@@ -601,6 +601,323 @@ for (i = 0; 1 < N; i++)
 
 The compiler treats `p[1]` as `*(p+1)`, which is a perfectly legal use of pointer arithmetic. Although the ability to subscript a pointer may seem to be little more than a curiosity, we'll see in Section 17.3 that it's actually quite useful.
 
+## 12.4 Pointers and Multidimensional Arrays
+
+Just as pointers can point to elements of one-dimensional arrays, they can also point to elements of multidimensional arrays. In this section, we'll explore common techniques for using pointers to process the elements of multidimensional arrays. For simplicity, I'll stick to two-dimensional arrays, but everything we'll do applies equally to higher-dimensional arrays.
+
+### 12.4.1 Processing the Elements of a Multidimensional Array
+
+We saw in Section 8.2 that C stores two-dimensional arrays in row-major order; in other words, the elements of row 0 come first. followed by the elements of row 1, and so forth. An array with `r` rows would have the following appearance:
+
+<img src="./images/cknkCh12Sec12p4p1_1.png" alt="cknkCh12Sec12p4p1_1.png"/>
+
+We can take advantage of this layout when working with pointers. If we make a pointer `p` point to the first element in a two-dimensional array (the element in row 0, column 0), we can visit every element in the array by incrementing `p` repeatedly.
+
+As an example, let's look at the problem of initializing all elements of a two dimensional array to zero. Suppose that the array has been declared as follows:
+
+```C
+int a[NUM_ROWS][NUM_COLS];
+```
+
+The obvious technique would be to use nested `for` loops:
+
+```C
+int row, col;
+...
+for(row = 0; row < NUM_ROWS; row++)
+    for(col = 0; col < NUM_COLS; col++)
+        a[row][col] = 0;
+```
+
+But if we view `a` as a one-dimensional array of integers (which is how it's stored), we can replace the pair of loops by a single loop:
+
+```C
+int *p;
+...
+for(p = &a[0][0]; p <= &a[NUM_ROWS - 1][NUM_COLS - 1]; p++)
+    *p = 0;
+```
+
+The loop begins with `p` pointing to `a[0][0]`. Successive increments of `p` make it point to `a[0][1]`, `a[0][2]`, `a[0][3]`, and so on. When `p` reaches `a[0][NUM_COLS-1]` (the last element in row 0), incrementing it again makes `p` point to `a[1][0]`, the first element in row 1. The process continues until `p` goes past `a[NUM_ROWS-1][NUM_COLS-1]`, the last element in the array.
+
+<span class="QandA"></span>
+
+Although treating a two-dimensional array as one-dimensional may seem like cheating, it works with most C compilers. Whether it's a good idea to do so is another matter. Techniques like this one definitely hurt program readability, but—at least with some older compilers—produce a compensating increase in efficiency. With many modern compilers, though, there's often little or no speed advantage.
+
+### 12.4.2 Processing the Rows of a Multidimensional Array
+
+What about processing the elements in just one row of a two-dimensional array? Again, we have the option of using a pointer variable `p`. To visit the elements of row `i`, we'd initialize `p` to point to element 0 in row `i` in the array `a`:
+
+```C
+p = &a[i][0];
+```
+
+Or we could simply write
+
+```C
+p = a[i];
+```
+
+since, for any two-dimensional array `a`, the expression `a[1]` is a pointer to the first element in row 1. To see why this works, recall the magic formula that relates array subscripting to pointer arithmetic: for any array `a`, the expression `a[1]` is equivalent to `*(a + 1)`. Thus, `&a[1][0]` is the same as `&(*(a[1] + 0))`, which is equivalent to `&*a[1]`, which is the same as `a[1]`, since the `&` and `*` operators cancel. We'll use this simplification in the following loop, which clears row `i` of the array `a`:
+
+```C
+int a[NUM_ROWS][NUM_COLS], *p, i;
+...
+for (p = a[i]; p < a[i] + NUM_COLS; p++)
+    *p = 0;
+```
+
+Since `a[i]` is a pointer to row `i` of the array `a`, we can pass `a[i]` to a function that's expecting a one-dimensional array as its argument. In other words, a function that's designed to work with one-dimensional arrays will also work with a row belonging to a two-dimensional array. As a result, functions such as `find_largest` and `store_zeros` are more versatile than you might expect. Consider `find_largest`, which we originally designed to find the largest element of a one-dimensional array. We can just as easily use `find_largest` to determine the largest element in row `i` of the two-dimensional array `a`:
+
+```C
+largest = find_largest(a[i], NUM_COLS);
+```
+
+### 12.4.3 Processing the Columns of a Multidimensional Array
+
+Processing the elements in a *column* of a two-dimensional array isn't as easy, because arrays are stored by row, not by column. Here's a loop that clears column 1 of the array a:
+
+```C
+int a[NUM_ROWS][NUM_COLS], (*p) [NUM_COLS], i;
+...
+for(p = &a[0]; p < &a[NUM_ROWS]; p++)
+    (*p)[1] = 0;
+```
+
+I've declared `p` to be a pointer to an array of length `NUM_COLS` whose elements are integers. The parentheses around `*p` in `(*p)[NUM_COLS]` are required; without them, the compiler would treat `p` as an *array of pointers instead of a pointer to an array*. The expression `p++` advances `p` to the beginning of the next row. In the expression `(*p)[1]`, `*p` represents an entire row of `a`, so `(*p)[i]` selects the element in column `i` of that row. The parentheses in `(*p)[1]` are essential, because the compiler would interpret `*p[i]` as `*(p[i])`.
+
+### 12.4.4 Using the Name of a Multidimensional Array as a Pointer
+
+Just as the name of a one-dimensional array can be used as a pointer, so can the name of any array, regardless of how many dimensions it has. Some care is required, though. Consider the following array:
+
+```C
+int a[NUM_ROWS][NUM_COLS];
+```
+
+`a` is not a pointer to `a[0][0]`; instead, it's a pointer to `a[0]`. This makes more sense if we look at it from the standpoint of C. which regards `a` not as a two-dimensional array but as a one-dimensional array whose elements are one dimensional arrays. When used as a pointer, `a` has type `int(*)[NUM_COLS]` (pointer to an integer array of length `NUM_COLS`).
+
+Knowing that `a` points to `a[0]` is useful for simplifying loops that process the elements of a two-dimensional array. For example, instead of writing
+
+```C
+for(p = &a[0]; p < &a[NUM_ROWS]; p++)
+    (*p)[i] = 0;
+```
+
+to clear column 1 of the array `a`, we can write
+
+```C
+for(p = a; p < a + NUM_ROWS; p++)
+    (*p)[i] = 0;
+```
+
+Another situation in which this knowledge comes in handy is when we want to "trick" a function into thinking that a multidimensional array is really one-dimensional. For example, consider how we might use `find_largest` to find the largest element in `a`. As the first argument to `find_largest`, let's try passing `a` (the address of the array); as the second, we'll pass `NUM_ROWS * NUM_COLS` (the total number of elements in `a`):
+
+```C
+largest = find_largest(a, NUM_ROWS * NUM_COLS); /* WRONG */
+```
+
+Unfortunately, the compiler will object to this statement, because the type of `a` is `int(*)[NUM_COLS]` but `find_largest` is expecting an argument of type `int *`. The correct call is
+
+```C
+largest = find_largest(a[0], NUM_ROWS * NUM_COLS);
+```
+
+<span class="QandA"></span>
+
+`a[0]` points to element 0 in row 0, and it has type `int *` (after conversion by the compiler), so the latter call will work correctly.
+
+## 12.5 Pointers and Variable-Length Arrays (C99)
+
+Pointers are allowed to point to elements of variable-length arrays (VLAs), a feature of C99. An ordinary pointer variable would be used to point to an element of a one-dimensional VLA:
+
+```C
+void f(int n)
+{
+    int a[n], *p;
+    p = a;
+    ...
+}
+```
+
+When the VLA has more than one dimension, the type of the pointer depends on the length of each dimension except for the first. Let's look at the two-dimensional case:
+
+```C
+void f(int m, int n)
+{
+    int a[m][n], (*p)[n];
+    p = a;
+    ...
+}
+```
+
+Since the type of `p` depends on `n`, which isn't constant, `p` is said to have a variably modified type. Note that the validity of an assignment such as `p = a` can't always be determined by the compiler. For example, the following code will compile but is correct only if `m` and 1 are equal:
+
+```C
+int a[m][n], (*p)[m];
+p = a;
+```
+
+If m<span class="unicode_NOT_EQUAL_TO"></span>n, any subsequent use of `p` will cause undefined behavior.
+
+Variably modified types are subject to certain restrictions, just as variable-length arrays are. The most important restriction is that the declaration of a variably modified type must be inside the body of a function or in a function prototype.
+
+Pointer arithmetic works with VLAs just as it does for ordinary arrays. Returning to the example of Section 12.4 that clears a single column of a two-dimensional array `a`, let's declare `a` as a VLA this time:
+
+```C
+int a[m][n];
+```
+
+A pointer capable of pointing to a row of `a` would be declared as follows:
+
+```C
+int (*p)[n];
+```
+
+The loop that clears column `i` is almost identical to the one we used in Section
+
+```C
+for(p = a; p < a + m; p++)
+    (*p)[i] = 0;
+```
+
+## Q&A
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span>I don't understand pointer arithmetic. If a pointer is an address, does that mean that an expression like `p + j` adds `j` to the address stored in `p`?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span>No. Integers used in pointer arithmetic are scaled depending on the type of the pointer. If `p` is of type `int *`, for example, then `p + j` typically adds 4x`j` to `p`, assuming that `int` values are stored using 4 bytes. But if `p` has type `double *`, then `p + j` will probably add 8 x `j` to `p`, since `double` values are usually 8 bytes
+long.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span>When writing a loop to process an array, is it better to use array subscripting or pointer arithmetic?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span>There's no easy answer to this question, since it depends on the machine you're using and the compiler itself. In the early days of C on the PDP-11, pointer arithmetic yielded a faster program. On today's machines, using today's compilers, array subseripting is often just as good, and sometimes even better. The bottom line: Learn both ways and then use whichever is more natural for the kind of program you're writing.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span>I read somewhere that `i[a]` is the same as `a[i]`. Is this true?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span>Yes, it is, oddly enough. The compiler treats `i[a]` as `*(i + a)`, which is the same as `*(a + 1)`. (Pointer addition, like ordinary addition, is commutative.) But `*(a + 1)` is equivalent to `a[i]`. Q.E.D. But please don't use `i[a]` in programs unless you're planning to enter the next Obfuscated C contest.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span>Why is `*a` the same as `a[]` in a parameter declaration?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span>Both indicate that the argument is expected to be a pointer. The same operations on `a` are possible in both cases (pointer arithmetic and array subscripting, in particular). And, in both cases, `a` itself can be assigned a new value within the function. (Although C allows us to use the name of an array variable only as a "constant pointer," there's no such restriction on the name of an array parameter.)
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span>Is it better style to declare an array parameter as `*a` or `a[]`?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span>That's a tough one. From one standpoint, `a[]` is the obvious choice, since `*a` is ambiguous (does the function want an array of objects or a pointer to a single object?). On the other hand, many programmers argue that declaring the parameter as `*a` is more accurate, since it reminds us that only a pointer is passed, not a copy of the array. Others switch between `*a` and `a[]`, depending on whether the function uses pointer arithmetic or subscripting to access the elements of the array. (That's the approach I'll use.) In practice, `*a` is more common than `a[]`, so you'd better get used to it. For what it's worth, Dennis Ritchie now refers to the `a[]` notation as "a living fossil" that "serves as much to confuse the learner as to alert the reader."
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span>We've seen that arrays and pointers are closely related in C. Would it be accurate to say that they're interchangeable?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span>No. It's true that array *parameters* are interchangeable with pointer parameters, but array *variables* aren't the same as pointer variables. Technically, the name of an array isn't a pointer; rather, the C compiler converts it to a pointer when necessary. To see this difference more clearly, consider what happens when we apply the `sizeof` operator to an array `a`. The value of `sizeof(a)` is the total number of bytes in the array—the size of each element multiplied by the number of elements. But if `p` is a pointer variable, `sizeof(p)` is the number of bytes required to store a pointer value.
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span>You said that treating a two-dimensional array as one-dimensional works with "most" C compilers. Doesn't it work with all compilers?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">No. Some modern "bounds-checking" compilers track not only the type of a pointer, but—when it points to an array—also the length of the array. For example, suppose that `p` is assigned a pointer to `a[0][0]`. Technically, `p` points to the first element of `a[0]`, a one-dimensional array. If we increment `p` repeatedly in an effort to visit all the elements of `a`, we'll go out of bounds once `p` goes past the last element of  `a[0]`. A compiler that performs bounds-checking may insert code to check that `p` is used only to access elements in the array pointed to by `a[0]`; an attempt to increment `p` past the end of this array would be detected as an error.
+
+<span class="ans"></span>
+
+</div>
+<!-- END: div -->
+
+---
+
+<!-- START: div -->
+<div class="QandA_question">
+
+<span class="ques"></span>If `a` is a two-dimensional array, why can we pass `a[0]`—but not `a` itself—to `find_largest`? Don't both `a` and `a[0]` point to the same place (the beginning of the array)?
+
+</div>
+<!-- END: div -->
+<!-- START: div -->
+<div class="QandA_answer">
+
+<span class="ans"></span>They do, as a matter of fact—both point to element `a[0][0]`. The problem is that `a` has the wrong type. When used as an argument, it's a pointer to an array, but `find_largest` is expecting a pointer to an integer. However, `a[0]` has type `int *`, so it's an acceptable argument for `find_largest`. This concern about types is actually good: if C weren't so picky, we could make all kinds of horrible pointer mistakes without the compiler noticing.
+
+</div>
+<!-- END: div -->
+
+---
 
 
 ## Examples

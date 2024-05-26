@@ -1,322 +1,3 @@
-Pointers and Multidimensional Arrays
-
-Just as pointers can point to elements of one-dimensional arrays, they can also
-point to elements of multidimensional arrays. In this section, we'll explore com-
-mon techniques for using pointers to process the elements of multidimensional
-arrays. For simplicity, I'll stick to two-dimensional arrays, but everything we'll do
-applies equally to higher-dimensional arrays.
-
-Processing the Elements of a Multidimensional Array
-
-'We saw in Section 8.2 that C stores two-dimensional arrays in row-major order; in
-other words, the elements of row 0 come first. followed by the elements of row 1.
-and so forth. An array with r rows would have the following appearance:
-
-row 0 row 1 row r—1
-
-We can take advantage of this layout when working with pointers. If we make a
-pointer p point to the first element in a two-dimensional array (the element in row
-0, column 0), we can visit every element in the array by incrementing p repeatedly.
-As an example, let's look at the problem of initializing all elements of a two-
-dimensional array to zero. Suppose that the array has been declared as follows:
-
-int a[NUM_ROWS] [NUM_COLS] ;
-The obvious technique would be to use nested `for` loops:
-
-int row, col;
-for (row = 0; row < NUM ROWS; row++)
-for (col = 0; col < NUM COLS; col++)
-alrow] [col] = 0;
-268
-
-Chapter 12 Pointers and Arrays
-
-QA
-
-But if we view a as a one-dimensional array of integers (which is how it's stored),
-we can replace the pair of loops by a single loop:
-
-int *p;
-
-for (p = &al[0] [0]; p <= &a[NUM ROWS-1] [NUM COLS-1]; p++)
-*p = 0;
-
-The loop begins with p pointing to a [0] [0]. Successive increments of p make
-it point to a[o0] [1], a[0] [2], a[0] [3], and so on. When p reaches
-a[0] [NUM_COLS-1] (the last element in row 0), incrementing it again makes
-p point to a [1] [0], the first element in row 1. The process continues until p
-goes past a [NUM_ROWS-1] [NUM_COLS-1], the last element in the array.
-
-Although treating a two-dimensional array as one-dimensional may seem like
-cheating, it works with most C compilers. Whether it's a good idea to do so is
-another matter. Techniques like this one definitely hurt program readability, but—
-at least with some older compilers—produce a compensating increase in effi-
-ciency. With many modern compilers, though, there's often little or no speed
-
-advantage.
-
-Processing the Rows of a Multidimensional Array
-
-'What about processing the elements in just one row of a two-dimensional array?
-Again, we have the option of using a pointer variable p. To visit the elements of
-row i, we'di ize p Lo point to element 0 in row i in the array a:
-
-p = salil [0];
-Or we could simply write
-p = alil;
-
-since, for any two-dimensional array a, the expression a [1] is a pointer to the
-first element in row 1. To see why this works, recall the magic formula that relates
-array subscripting to pointer arithmetic: for any array a, the expression a [1] is
-equivalent to * (a + 1). Thus, &a [1] [0] is the same as &(* (a[1] + 0)),
-which is equivalent to &*a [1], which is the same as a [1] ., since the & and *
-operators cancel. We'll use this simplification in the following loop, which clears
-row i of the array a:
-
-int a[NUM_ROWS] [NUM_COLS], *p, i;
-
-for (p = alil; p < ali] + NUM_COLS; p++)
-+p = 0;
-
-Since a[i] is a pointer to row i of the array a, we can pass a[i] toa
-function that's expecting a one-dimensional array as its argument. In other words,
-
-a function that's designed to work with one-dimensional arrays will also work
-with a row belonging to a two-dimensional array. As a result, functions such as
-12.4  Pointers and Multidimensional Arrays 269
-
-find largest and store_zeros are more versatile than you might expect.
-Consider find largest, which we originally designed to find the largest ele-
-ment of a one-dimensional array. We can just as easily use find_largest to
-determine the largest element in row i of the two-dimensional array a:
-
-largest = find largest(a[i], NUM_COLS) ;
-
-Processing the Columns of a Multidimensional Array
-
-Processing the elements in a column of a two-dimensional array isn't as easy,
-because arrays are stored by row, not by column. Here's a loop that clears column
-1 of the array a:
-
-int a[NUM_ROWS] [NUM_COLS], (*p) [NUM _COLS], i;
-
-;or (p = &al0]; p < & [NUM ROWS]; p++)
-(*p) [1] = 0
-
-I've declared p to be a pointer to an array of length NUM_COLS whose elements
-are integers. The parentheses around *p in (*p) [NUM COLS] are required;
-without them, the compiler would treat p as an array of pointers instead of a
-pointer to an array. The expression p++ advances p to the beginning of the next
-row. In the expression (*p) (11, *p represents an entire row of &, so (*p) [i]
-selects the element in column i of that row. The parentheses in (*p) [1] are
-essential, because the compiler would interpret *p [i] as * (p [i]).
-
-Using the Name of a Multidimensional Array as a Pointer
-
-Just as the name of a one-dimensional array can be used as a pointer, so can the
-name of any array, regardless of how many dimensions it has. Some care is
-required, though. Consider the following array:
-
-int a[NUM_ROWS] [NUM_COLS] ;
-
-a is not a pointer to a [0] [0]; instead, it's a pointer to a [0]. This makes more
-sense if we look at it from the standpoint of C. which regards a not as a two-
-dimensional array but as a one-dimensional array whose elements are one
-dimensional arrays. When used as a pointer, a has type int (*) [NUM_COLS]
-(pointer to an integer array of length NUM_COLS).
-
-Knowing that a points to a [0] is useful for simplifying loops that process the
-elements of a two-dimensional array. For example, instead of writing
-
-for (p = &al0]; p < &a[NUM_ROWS]; p++)
-(*p) [1] = 0;
-
-10 clear column 1 of the array a, we can write
-
-for (p = a; p < a + NUM_ROWS; p++)
-(*p) [1] = 0;
-270
-
-Chapter 12 Pointers and Arrays
-
-12.5
-
-variable-length arrays »8.3
-
-Another situation in which this knowledge comes in handy is when we want
-to "trick" a function into thinking that a multidimensional array is really one-
-dimensional. For example, consider how we might use find_largest to find
-the largest element in a. As the first argument to find_largest, let's try
-passing a (the address of the array); as the second, we'll pass NUM_ROWS *
-NUM_COLS (the total number of elements in a):
-
-largest = find largest(a, NUM_ROWS * NUM _COLS) ; /* WRONG */
-
-Unfortunately, the compiler will object to this statement, because the type of a is
-int (*) [NuM_coLs] but find_largest is expecting an argument of type
-int *. The correct call is
-
-largest = find largest (a[0], NUM ROWS * NUM COLS);
-
-a[0] points to element 0 in row 0, and it has type int * (after conversion by the
-compiler), so the latter call will work correctly.
-
-Pointers and Variable-Length Arrays (C99)
-
-Pointers are allowed to point to elements of variable-length arrays (VLAs), a fea-
-ture of C99. An ordinary pointer variable would be used to point to an element of a
-one-dimensional VLA:
-
-void f(int n)
-
-{
-int a[nl, *p;
-P = a;
-
-When the VLA has more than one dimension, the type of the pointer de-
-pends on the length of each dimension except for the first. Let's look at the two-
-dimensional case:
-
-void f(int m, int n)
-
-int am] [n], (*p)[nl;
-p=a
-
-}
-
-Since the type of p depends on n, which isn't constant, p is said to have a variably
-maodified type. Note that the validity of an assignment such as p = a can't always
-be determined by the compiler. For example, the following code will compile but is
-correct only if m and 1 are equal:
-
-int afml (nl, (*p) [m];
-P = a;
-*Q:
-
-Q&A 271
-
-If m# n, any subsequent use of p will cause undefined behavior.
-
-Variably modified types are subject to certain restrictions, just as variable-
-length arrays are. The most important restriction is that the declaration of a vari-
-ably modified type must be inside the body of a function or in a function proto
-type.
-
-Pointer arithmetic works with VLAs just as it does for ordinary arrays.
-Returning to the example of Section 12.4 that clears a single column of a two-
-dimensional array a, let's declare a as a VLA this time:
-
-int afm] [n];
-A pointer capable of pointing to a row of a would be declared as follows:
-int (*p) [n];
-
-The loop that clears column 1 is almost identical to the one we used in Section
-12.4:
-
-for (p = a; P < a + m; p++)
-(*p) [1] = 0;
-
-Q&A
-
-1 don't understand pointer arithmetic. If a pointer is an address, does that
-mean that an expression like p + j adds j to the address stored in p? [p. 258]
-No. Integers used in pointer arithmetic are scaled depending on the type of the
-pointer. If p is of type int *, for example, then p + j typically adds 4x1top,
-assuming that int values are stored using 4 bytes. But if p has type double *,
-then p + j will probably add 8 x j to p, since double values are usually 8 bytes
-long.
-
-'When writing a loop to process an array, is it better to use array subscripting
-or pointer arithmetic? [p. 261]
-
-There's no easy answer to this question, since it depends on the machine you're
-using and the compiler itself. In the early days of C on the PDP-11, pointer arith-
-metic yielded a faster program. On today's machines, using today's compilers,
-array subseripting is often just as good, and sometimes even better. The bottom
-line: Learn both ways and then use whichever is more natural for the kind of pro-
-gram you're writing.
-
-1 read somewhere that i [a] is the same as a [1]. Is this true?
-
-Yes, it is, oddly enough. The compiler treats i [a] as * (i + a) , which is the same
-as *(a + 1). (Pointer addition, like ordinary addition, is commutative.) But
-* (a + 1) is equivalent to a [1]. Q.E.D. But please don't use i [a] in programs
-unless you're planning to enter the next Obfuscated C contest.
-272
-
-Chapter 12 Pointers and Arrays
-
-Q:
-A:
-
-Why is *a the same as a [1 in a parameter declaration? [p. 266]
-
-Both indicate that the argument is expected (o be a pointer. The same operations on
-a are possible in both cases (pointer arithmetic and array subscripting, in particu-
-lar). And, in both cases, a itself can be assigned a new value within the function.
-(Although C allaws us to use the name of an array variable only as a "constant
-pointer," there's no such restriction on the name of an array parameter.)
-
-Is it better style to declare an array parameter as *a or a []?
-
-That's a tough one. From one standpoint, a [] is the obvious choice, since *a is
-ambiguous (does the function want an array of objects or a pointer to a single
-object?). On the other hand, many programmers argue that declaring the parameter
-as *a is more accurate, since it reminds us that only a pointer is passed, not a copy
-of the array. Others switch between *a and a []. depending on whether the func-
-tion uses pointer arithmetic or subscripting to access the elements of the array.
-(That's the approach I'll use.) In practice, *a is more common than a [], so you'd
-better get used to it. For what it's worth, Dennis Ritchie now refers to the a []
-notation as "a living fossil" that "serves as much to confuse the learner as to alert
-the reader."
-
-We've seen that arrays and pointers are closely related in C. Would it be accu-
-rate to say that they're interchangeable?
-
-No. It's true that array parameters are interchangeable with pointer parameters, but
-array variables aren't the same as pointer variables. Technically, the name of an
-array isn't a pointer; rather, the C compiler converts it to a pointer when necessary.
-To see this difference more clearly, consider what happens when we apply the
-sizeof operator to an array a. The value of sizeof (a) is the total number of
-bytes in the array—the size of each element multiplied by the number of elements.
-But if p is a pointer variable, sizeof (p) is the number of bytes required to store
-a pointer value.
-
-You said that treating a two-dimensional array as one-dimensional works
-with "most" C compilers. Doesn't it work with all compilers? [p. 268]
-
-No. Some modern "bounds-checking" compilers track not only the type of a
-pointer, but—when it points to an array—also the length of the array. For example,
-suppose that p is assigned a pointer to a [0] [0] . Technically, p points to the first
-element of a (0], a one-dimensional array. If we increment p repeatedly in an
-effort to visit all the elements of a, we'll go out of bounds once p goes past the last
-element of a [0]. A compiler that performs bounds-checking may insert code to
-check that p is used only to access elements in the array pointed to by a [0]; an
-attempt to increment p past the end of this array would be detected as an error.
-
-If a is a two-dimensional array, why can we pass a [0]—but not a itself—to
-find largest? Don't both a and a [0] point to the same place (the begin-
-ning of the array)? [p. 270]
-
-They do, as a matter of fact—both point to element a (0] [0] . The problem is that
-Section 12.1
-
-Section 12.2
-
-Section 12.3
-
-@ 2.
-
-3
-
-Exercises 273
-
-a has the wrong type. When used as an argument, it's a pointer to an array, but
-find largest is expecting a pointer to an integer. However, a [0] has type
-int *, so it's an acceptable argument for find_largest. This concern about
-types is actually good: if C weren't so picky, we could make all kinds of horrible
-pointer mistakes without the compiler noticing.
-
 Exercises
 
 Suppose that the following declarations are in effect:
@@ -1442,7 +1123,7 @@ series of day-and-reminder combinations, storing them in order (sorted by day),
 and then display them. To read the days, we'll use scanf; to read the reminders,
 we'll use the read_1ine function of Section 13.3.
 
-'We'll store the strings in a two-dimensional array of characters, with each row
+We'll store the strings in a two-dimensional array of characters, with each row
 of the array containing one string. After the program reads a day and its associated
 reminder, it will search the array to determine where the day belongs. using
 strcemp to do comparisons. It will then use strepy to move all strings below
@@ -1988,7 +1669,7 @@ Q&A 305
 509 characters long. (Yes, you read that right—509. Don't ask.) C99 increases the
 minimum to 4095 characters.
 
-'Why aren't string literals called "string constants"?
+Why aren't string literals called "string constants"?
 
 Because they're not necessarily constant. Since string literals are accessed through
 pointers, there's nothing to prevent a program from attempting to modify the char-
@@ -2245,7 +1926,7 @@ tion to convert each character to upper-case.
 (b) Rewrite the capitalize function, this time using pointer arithmetic to access the
 characters in the string.
 
-'Write a function named censor that modifies a siring by replacing every occurrence of
+Write a function named censor that modifies a siring by replacing every occurrence of
 foo by xxx. For example, the string "food fool" would become "xxxd k1" Make
 the function as short as possible without sacrificing clarity.
 
@@ -2260,7 +1941,7 @@ equivalent to the other three?
 
 (d) strecat(str, "");
 
-'What will be the value of the string stx after the following statements have been executed?
+What will be the value of the string stx after the following statements have been executed?
 
 strcpy (str, "tire-bouchon');
 strepy (&str(4], "d or-wi");
@@ -2295,7 +1976,7 @@ return q;
 The Q&A section at the end of this chapter shows how the stremp function might be writ-
 ten using array subscripting. Modify the function to use pointer arithmetic instead.
 
-'Writc the following function:
+Writc the following function:
 
 void get_extension(const char *file name, char *extension);
 310
@@ -2317,7 +1998,7 @@ the file name doesn't have an extension, the function should store an empty stri
 null character) in the string pointed to by extension. Keep the function as simple as pos-
 sible by having it use the strlen and strcpy functions,
 
-'Write the following function:
+Write the following function:
 void build index_url (const char *domain, char *index_url) ;
 
 domain points to a string containing an Internet domain, such as "knking.com". The
@@ -2888,7 +2569,7 @@ ging output:
 Incidentally, it's legal for a macro's replacement list to be empty, as this exam-
 ple shows.
 
-'When macros are used as constants, C programmers customarily capitalize all
+When macros are used as constants, C programmers customarily capitalize all
 letters in their names. However, there's no consensus as to how to capitalize mac-
 ros used for other purposes. Since macros (especially parameterized macros) can
 be a source of bugs, some programmers like to draw attention to them by using all
@@ -4086,7 +3767,7 @@ might someday be modified. Because of rule (2), I don't use macros such as
 
 fidefine NUL '\0'
 although some programmers do.
-'What does the # operator do if the argument that it's supposed to *"'stringize"
+What does the # operator do if the argument that it's supposed to *"'stringize"
 
 contains a " or \ character? [p. 324]
 It converts " to \" and \ to \\. Consider the following macro:
@@ -4241,7 +3922,7 @@ undefined behavior.
 
 Exercises
 
-'Write parameterized macros that compute the following values.
+Write parameterized macros that compute the following values.
 
 (2) The cube of x.
 (b) The remainder when n is divided by 4.
@@ -4876,11 +4557,11 @@ By declaring i in each file, it becomes possible to access and/or modify i withi
 those files. Because of the word extern, however, the compiler doesn't allocate
 additional storage for i each time one of the files is compiled.
 
-'When a variable is shared among files, we'll face a challenge similar to one
+When a variable is shared among files, we'll face a challenge similar to one
 that we had with shared functions: ensuring that all declarations of a variable agree
 with the definition of the variable.
 
-Q 'When declarations of the same variable appear in different files., the compiler can't
+Q When declarations of the same variable appear in different files., the compiler can't
 check that the declarations match the variable's definition. For example, one file
 may contain the definition
 
@@ -5167,7 +4848,7 @@ line.h
 The 1ine.h file won't be as short as woxrd . h. Our outline of the main loop
 reveals the need for functions that perform the following operations:
 
-'Write contents of line buffer without justification
+Write contents of line buffer without justification
 Determine how many characters are left in line buffer
 Write contents of line buffer with justification
 
@@ -5175,7 +4856,7 @@ Clear line buffer
 
 Add word to line buffer
 
-'We'll call these functions flush_line, space_remaining, write line,
+We'll call these functions flush_line, space_remaining, write line,
 clear_line, and add_word. Here's what the 1ine.h header file will look
 like:
 
@@ -6502,7 +6183,7 @@ char middle initial;
 char last[LAST NAME LEN+1];
 
 )
-'We can use the person_name structure as part of a larger structure:
+We can use the person_name structure as part of a larger structure:
 
 struct student {
 struct person name name;
@@ -7008,7 +6689,7 @@ B L L T e
 int read line(char str(], int n);
 #endif
 
-'We'll put the definition of read_1ine in the readline. c file:
+We'll put the definition of read_1ine in the readline. c file:
 #include <ctype.hs
 
 #include <stdio.h>
@@ -7306,7 +6987,7 @@ n.u.i = 82;
 Notice that assigning to i requires that we first select the u member of n, then the
 1 member of u.
 
-'When we need to retrieve the number stored in a Number variable, kind will
+When we need to retrieve the number stored in a Number variable, kind will
 tell us which member of the union was the last to be assigned a value. The
 print_number function can take advantage of this capability:
 
@@ -7546,7 +7227,7 @@ the compiler ensure that holes always contain the same value (zero, say). Initia
 ing holes would impose a performance penalty on all programs that use structures,
 however, so it's not feasible.
 
-'Why does C provide two ways to name structure types (tags and typedef
+Why does C provide two ways to name structure types (tags and typedef
 names)? [p. 382]
 
 C originally lacked typedef, so tags were the only technique available for nam-
@@ -8150,7 +7831,7 @@ essentially, just a memory address.
 
 Null Pointers
 
-'When a memory allocation function is called, there's always a possibility that it
+When a memory allocation function is called, there's always a possibility that it
 won't be able to locate a block of memory large enough to satisfy our request. If
 17.1 Dynamic Storage Allocation 415
 
@@ -8240,7 +7921,7 @@ theless, some programmers prefer to cast malloc's return value:
 
 p = (char *) malloc(n + 1);
 
-'When using malloc to allocate space for a string, don't forget to include room for
+When using malloc to allocate space for a string, don't forget to include room for
 the null character.
 
 Memory allocated using malloc isn't cleared or initialized in any way, sop
@@ -9639,7 +9320,7 @@ return 1;
 
 The parentheses around ( (struct part *) p) are necessary; without them, the
 compiler would try to cast p- >number to type Struct part *.
-'We can make compare_parts even shorter by removing the if statements:
+We can make compare_parts even shorter by removing the if statements:
 
 int compare parts(const void *p, const void *q)
 
@@ -10017,7 +9698,7 @@ Q&A 449
 
 Q&A
 
-'What does the NULL macro represent? [p. 415]
+What does the NULL macro represent? [p. 415]
 
 NULL actually stands for 0. When we use 0 in a context where a pointer would be
 required, C compilers treat it as a null pointer instead of the integer 0. The NULL
@@ -10034,7 +9715,7 @@ makes it clear that p is a pointer.
 In the header files that come with my compiler, NULL is defined as follows:
 #define NULL (void *) 0
 
-'What's the advantage of casting 0 to void *?
+What's the advantage of casting 0 to void *?
 
 This trick, which is allowed by the C standard, enables compilers to spot incorrect
 uses of the null pointer. For example, suppose that we try to assign NULL to an
@@ -10312,7 +9993,7 @@ int ©;
 ] &
 int e[s1;
 } f, *p = &f;
-'Which of the following statements are legal?
+Which of the following statements are legal?
 (@) p->b = ' !
 (b) p->e[3] i
 (©) (*p)iidia = TeE;
@@ -10533,7 +10214,7 @@ tions,
 Declaration Syntax
 
 Declarations furnish information to the compiler about the meaning of identifiers.
-'When we write
+When we write
 
 int i;
 
@@ -13198,7 +12879,7 @@ plete type. Finally, void is an incomplete type. The void type hus the unusual
 property that it can never be completed, thus making it impossible to declare a
 variable of this type.
 
-'What other restrictions are there on the use of incomplete types? [p. 492]
+What other restrictions are there on the use of incomplete types? [p. 492]
 
 The sizeof operator can't be applied to an incomplete type (not surprisingly.
 since the size of an incomplete type is unknown). A member of a structure or
@@ -13491,7 +13172,7 @@ A5 S /* i is now 40 (binary 0000000000101000) */
 
 Using the Bitwise Operators to Access Bits
 
-'When we do low-level programming, we'll often need to store information as sin-
+When we do low-level programming, we'll often need to store information as sin-
 gle bits or collections of bits. In graphics programming, for example, we may want
 10 squeeze two or more pixels into a single byte. Using the bitwise operators, we
 can extract or modify data that's stored in a small number of bits.
@@ -14164,7 +13845,7 @@ is 2, then i & 7j has the value 2, while i && j has the value 1.
 Side effects are another difference. Evaluating i & j++ always increments j
 as a side effect. whereas evaluating 1 && j++ sometimes increments j.
 
-'Who cares how DOS stores file dates? Isn't DOS dead? [p. 516]
+Who cares how DOS stores file dates? Isn't DOS dead? [p. 516]
 
 For the most part, yes. However, there are still plenty of files created years ago
 whose dates are stored in the DOS format. In any event, DOS file dates are a good
@@ -14305,7 +13986,7 @@ bits inn?
 né&=n- 1;
 Hint: Consider the effect on n if this statement is executed more than once.
 
-'When stored according to the IEEE floating-point standard, a float value consists of a 1
+When stored according to the IEEE floating-point standard, a float value consists of a 1
 bit sign (the leftmost—or most significant—bit), an 8-bit exponent, and a 23-bit fraction, in
 that order. Design a structure type that occupies 32 bits, with bit-tield members correspond-
 ing to the sign, exponent, and fraction. Declare the bit-fields to have type unsigned int.
@@ -15263,7 +14944,7 @@ make sure it's not a null pointer.
 
 Modes
 
-'Which mode string we'll pass to fopen depends not only on what operations we
+Which mode string we'll pass to fopen depends not only on what operations we
 plan to perform on the file later but also on whether the file contains text or binary
 data. To open a text file, we'd use one of the mode strings in Table 22.2.
 
@@ -15423,7 +15104,7 @@ points to the string "dates.dat":
 Checking Whether a File Can Be Opened
 
 The following program determines if a file exists and can be opened for reading.
-'When the program is run, the user will give it a file name to check:
+When the program is run, the user will give it a file name to check:
 
 canopen file
 
@@ -17389,7 +17070,7 @@ you'll need to use a nonstandard library that's tailored to your operating syste
 UNIX, for example, the curses library often provides this capability.
 Q&A 581
 
-'When I''m reading user input, how can I skip all characters left on the current
+When I''m reading user input, how can I skip all characters left on the current
 input line?
 
 One possibility is to write a small function that reads and ignores all characters up
@@ -17411,7 +17092,7 @@ anywhere (the * indicates assignment suppression). The only problem with using
 scanf is that it leaves the new-line character unread, so you may have to discard
 it separately.
 
-'Whatever you do, don't call the ff1ush function:
+Whatever you do, don't call the ff1ush function:
 
 fflush(stdin); /* effect is undefined */
 
@@ -17461,7 +17142,7 @@ o 2
 
 Input/Output
 
-'Why doesn't this chapter discuss screen control: moving the cursor, changing
+Why doesn't this chapter discuss screen control: moving the cursor, changing
 the colors of characters on the screen, and so on?
 
 C provides no standard functions for screen control. The C standard addresses only
@@ -17530,7 +17211,7 @@ Section 22.4
 
 Exercises 583
 
-'Write a call of printf that prints
+Write a call of printf that prints
 
 1 widget
 
@@ -17559,7 +17240,7 @@ Tn previous chapters, we've used the scanf format string " %< when we wanted to 
 white-space characters and read a nonblank character. Some programmers use "%1s'"
 instead. Are the two techniques equivalent? If not, what are the differences?
 
-'Which one of the following calls is ot a valid way of reading one character from the stan-
+Which one of the following calls is ot a valid way of reading one character from the stan-
 dard input stream?
 
 (a) getch()
@@ -17657,7 +17338,7 @@ series of decimal digits possibly containing commas, such as the following examp
 
 1,162,620
 
-'Write a call of sscant that extracts the sales rank (but not the # symbol) and stores it in a
+Write a call of sscant that extracts the sales rank (but not the # symbol) and stores it in a
 string variable named sales_rank.
 
 Programming Projects
@@ -17893,7 +17574,7 @@ The output of the program should have the following appearance:
 
 Have the program obtain the file name from the command line.
 
-'Write a program that reads integers from a text file whose name is given as a command-line
+Write a program that reads integers from a text file whose name is given as a command-line
 argument. Each line of the file may contain any number of integers (including none) sepa-
 rated by one or more spaces. Have the program display the largest number in the file, the
 smallest number, and the median (the number closest to the middle if the integers were
@@ -18241,7 +17922,7 @@ result. In addition, ERANGE ("range error") is stored in errno. If the return
 value's magnitude is too small to represent (underflow), the function returns
 zero; some implementations may also store ERANGE in errno.
 
-'We'll ignore the possibility of error for the remainder of this section. How-
+We'll ignore the possibility of error for the remainder of this section. How-
 ever, the function descriptions in Appendix D explain the circumstances that lead
 to each type of error.
 
@@ -18916,7 +18597,7 @@ QzA
 (a domain error oceurs). ebrt, on the other hand, is defined for both positive and
 negative arguments. When its argument is negative, cbr L returns a negalive result,
 
-'When applied to arguments x and y. the hypot function returns /2 + y2. In
+When applied to arguments x and y. the hypot function returns /2 + y2. In
 other words, this function computes the hypotenuse of a right triangle with legs x
 and y.
 
@@ -19975,7 +19656,7 @@ mathematically equal. By returning y instead of x, the function has a return val
 of +0.0 (rather than -0.0, which would be counterintuitive). Similarly, the call
 nextafter (+0.0, -0.0) returns -0.0.
 
-'Why does <string.h> provide so many ways to do the same thing? Do we
+Why does <string.h> provide so many ways to do the same thing? Do we
 really need four copying functions (memcpy, memmove, strcpy, and
 strncpy)? [p. 616]
 
@@ -20080,7 +19761,7 @@ ter. Does your solution assume anything about the contents of str?
 
 Programming Projects 625
 
-'Write a call of memeet that replaces the last nn characters in a null-terminated string s with
+Write a call of memeet that replaces the last nn characters in a null-terminated string s with
 | characters.
 
 Many versions of <string.h> provide additional (nonstandard) functions, such as those
@@ -20110,7 +19791,7 @@ any sequence of non-white-space characters. count words is allowed to modify the
 string.
 
 Programming Projects
-'Write a program that finds the roots of the equation c + bx + c = 0 using the formula
+Write a program that finds the roots of the equation c + bx + c = 0 using the formula
 
 _ —bt/b2—4ac
 
@@ -20122,7 +19803,7 @@ Have the program prompt for the values of a, b, and c, then print both values of
 4ac is negative, the program should instcad print a message to the effect that the roots are
 complex.)
 
-'Write a program that copies a text file from standard input to standard output, removing all
+Write a program that copies a text file from standard input to standard output, removing all
 white-space characters from the beginning of each line. A line consisting entirely of white-
 space characters will not be copied.
 
@@ -20354,7 +20035,7 @@ char *strerror (int errnum
 We'll now look at two functions that are related to the exrrno variable, although
 neither function belongs to <errno.hs.
 
-'When a library function stores a nonzero value in errno, we may want o
+When a library function stores a nonzero value in errno, we may want o
 display a message that indicates the nature of the error. One way to do this is to call
 the perror function (declared in <stdio.hs), which prints the following
 items, in the order shown: (1) its argument, (2) a colon, (3) a space, (4) an error
@@ -22160,7 +21841,7 @@ been written (not including the null character) had there been no length restric
 vswprintf
 
 Table 25.12
-'Wide-Character Input/
+Wide-Character Input/
 Output Functions and
 Their <stdio.h>
 Equivalents
@@ -22807,7 +22488,7 @@ ters. For example, the definition of iswgraph in the C99 standard states that it
 672  Chapter25 International Features
 
 Table 25.19
-'Wide-Character
+Wide-Character
 Classification Functions
 
 wetype
@@ -23060,7 +22741,7 @@ Programming Projects
 Wrile a program that tests whether your compiler's " (native) locale is the same as its "C"
 locale.
 
-'Write a program that obtains the name of a locale from the command line and then displays
+Write a program that obtains the name of a locale from the command line and then displays
 the values stored in the corresponding 1conv structure. For example, if the locale is
 wfi FIv (Finland), the output of the program might look like this:
 
@@ -23396,7 +23077,7 @@ Integer arithmetic functions
 Multibyte/wide-character conversion functions
 Multibyte/wide-string conversion functions
 
-'We'll look at each group in turn, with three exceptions: the memory management
+We'll look at each group in turn, with three exceptions: the memory management
 functions, the multibyte/wide-character conyersion functions, and the multibyte/
 wide-string conversion functions.
 
@@ -24166,7 +23847,7 @@ t.tm mday = 27;
 t.tm mon = 6; /* July */
 t.tm_year = 112; /% 2012 */
 
-'We'll also initialize the other members of the structure (except tm_wday and
+We'll also initialize the other members of the structure (except tm_wday and
 tm_yday) to ensure that they don't contain undefined values that could affect the
 answer:
 26.3 The <time.h> Header: Date and Time 695
@@ -24459,11 +24140,11 @@ $OM Minute, using alternative numeric symbols
 %0u ISO 8601 weekday as a number in alternative representation,
 where Monday is 1
 
-%0U 'Week number, using alternative numeric symbols
+%0U Week number, using alternative numeric symbols
 
 S0V IS0 8601 week number, using alternative numeric symbols
 
-0w 'Weekday as a number, using alternative numeric symbols
+0w Weekday as a number, using alternative numeric symbols
 
 | sow Week number, using alternative numeric symbols
 | %0y Last two digits of year, using alternative numeric symbols
@@ -24675,7 +24356,7 @@ Efficiency is the other reason that div and 1div exist. Many machines have
 an instruction that can compute both the quotient and remainder, so calling div or
 1div may be faster than using the / and % operators separately.
 
-'Where does the name of the gmtime function come from? [p. 696]
+Where does the name of the gmtime function come from? [p. 696]
 
 The name gmt ime stands for Greenwich Mean Time (GMT), referring to the local
 (solar) time at the Royal Observatory in Greenwich, England. In 1884, GMT was
@@ -24703,7 +24384,7 @@ Exercises 703
 "normal" parameter, so you can't remove the parameter n. Instead, assume that it represents
 one of the numbers to be compared.
 
-'Write a simplified version of printf in which the only conversion specification is %4, and
+Write a simplified version of printf in which the only conversion specification is %4, and
 all arguments after the first are assumed to have int type. If the function encounters a %
 character that's not immediately followed by a d character, it should ignore both characters.
 'The function should use calls of putchar to produce all output. You may assume that the
@@ -24734,7 +24415,7 @@ null pointer if not enough memory is available. Hint: Have vstreat go through th
 ments twice: once to determine the amount of memory required for the returned string and
 once to copy the arguments into the string.
 
-'Write the following function:
+Write the following function:
 char *max_pair(int num pairs, ...);
 
 The arguments of max_pair are assumed to be "pairs" of integers and strings; the value of
@@ -24753,8 +24434,8 @@ Explain the meaning of the following statement, assuming that value is a variabl
 long int and p is a variable of type char *:
 
 value = strtol(p, &p, 10);
-'Write a statement that randomly assigns one of the numbers 7, 11, 15, or 19 to the variable n.
-'Write a function that returns a random double value d in the range 0.0 <d < 1.0.
+Write a statement that randomly assigns one of the numbers 7, 11, 15, or 19 to the variable n.
+Write a function that returns a random double value d in the range 0.0 <d < 1.0.
 
 Convert the following calls of atoi, atol, and atoll into calls of strtol, strtol,
 and strtoll, respectively.
@@ -24796,13 +24477,13 @@ each value it returns (0 if the return value is even, 1 if it's odd). Do you see
 (b) How can we improve the randomness of rand for generating numbers within a small
 range?
 
-'Write a program that tests the at`exit` function. The program should have two functions
+Write a program that tests the at`exit` function. The program should have two functions
 (in addition to main), one of which prints That 's all, and the other folks!. Use the
 at`exit` function to register both (o be called at program termination. Make sure they're
 called in the proper order, so that we see the message That's all, folks! on the
 sereen.
 
-'Write a program that uses the clock function to measure how long it takes gsort to sort
+Write a program that uses the clock function to measure how long it takes gsort to sort
 an array of 1000 integers that are originally in reverse order. Run the program for arrays of
 10000 and 100000 integers as well.
 
@@ -27918,7 +27599,7 @@ Wide-character version of fpute. 255
 fputws Write Wide String to File (C99) <wchar.h>
 int fputws(const wchar t * restrict s,
 FILE * restrict stream);
-'Wide-character version of fputs. 255
+Wide-character version of fputs. 255
 fread Read Block from File <stdio.h>
 size t fread(void * restrict ptr, size t size,
 size t nmemb, FILE * restrict stream);
@@ -28047,7 +27728,7 @@ write error occurs. In C99, returns zero if either nmemb or size is zero. 226
 fwscanf Wide-Character Formatted File Read (C99) <wchar.h>
 int fwscanf (FILE * restrict stream,
 const wchar f * restrict format, ...);
-'Wide-character version of fscanf. 255
+Wide-character version of fscanf. 255
 getc Read Character from File <stdio.h>
 int getc(FILE *stream);
 Reads a character from the stream pointed to by stream. Note: getc is normally
@@ -28086,7 +27767,7 @@ characters. 13.3,225
 
 getwc Read Wide Character from File (C99) <wchar.h>
 wint_t getwc (FILE *stream);
-'Wide-character version of gete. 255
+Wide-character version of gete. 255
 getwchar Read Wide Character (C99) <wchar.h>
 wint_t getwchar (void) ;
 Wide-character version of getchar. 255
@@ -29334,7 +29015,7 @@ characters to be written is n or more. 255
 swscanf Wide-Character Formatted String Read (C99) <wchar.h>
 int swscanf (const wchar t * restrict s,
 const wchar t * restrict format, ...);
-'Wide-character version of sscanf. 255
+Wide-character version of sscanf. 255
 system Perform Operating-System Command <stdlib.h>
 int system(const char *string);
 Passes the string pointed to by string to the operating system's command pro-
@@ -29608,14 +29289,14 @@ wcsncpy Bounded Wide-String Copy (C99) <wchar.h>
 wchar_t *wesncpy (wehar t * restrict si,
 const wchar_ t * restrict s2,
 size t n);
-'Wide-character version of strncpy. 255
+Wide-character version of strncpy. 255
 wespbrk Search Wide String for One of a Set of Characters (C99) <wchar.h>
 wchar t *wcspbrk(const wchar t *si,
 const wchar t *s2);
 Wide-character version of strpbrk. 255
 weszrchr Search Wide String in Reverse for Character (C99) <wchar.h>
 wchar t *wcsrchr (const wchar t *s, wchar t c);
-'Wide-character version of strrchr. 255
+Wide-character version of strrchr. 255
 wcsrtombs Convert Wide String to Multibyte String — Restartable (C99)  <wchar.h>
 
 size t wcsrtombs (char * restrict dst,
@@ -29724,7 +29405,7 @@ wcstoul Convert Wide String to Unsigned Long Integer (C99) <wchar.h>
 unsigned long int westoul (
 const wchar_t * restrict nptr,
 wchar_t ** restrict endptr, int base);
-'Wide-character version of strtoul. 255
+Wide-character version of strtoul. 255
 wecstoull Convert Wide String to Unsigned Long Long Integer (C99)  <wchar.h>
 
 unsigned long long int westoull (
@@ -29742,7 +29423,7 @@ Wide-character version of strtoumax. 272
 wesxfrm Transform Wide String (C99) <wchar.h>
 size t wesxfrm(wchar t * restrict si,
 const wchar t * restrict s2, size t n);
-'Wide-character version of strxfrm. 255
+Wide-character version of strxfrm. 255
 wctob  Convert Wide Character to Byte (C99) <wchar . h>
 int wctob(wint_t c);
 
@@ -29785,26 +29466,26 @@ Wide-character version of memchzx. 255
 wmemcmp Compare Wide-Character Memory Blocks (C99) <wchar.h>
 int wmemcmp (const wchar t * sl, const wchar t * s2,
 size t n);
-'Wide-character version of memcmp. 255
+Wide-character version of memcmp. 255
 wmemcpy Copy Wide-Character Memory Block (C99) <wchar.h>
 wehar_t *wmemcpy (wehar_t * restrict si1,
 const wchar t * restrict s2,
 size it n);
-'Wide-character version of memcpy. 255
+Wide-character version of memcpy. 255
 wmemmove Copy Wide-Character Memory Block (C99) <wchar.hs
 wchar t *wmemmove (wchar t *sl, const wchar t *s2,
 silze t n);
 Wide-character version of memmove 255
 wmemset Initialize Wide-Character Memory Block (C99) <wchar.h>
 wchar t *wmemset (wchar t *s, wchar_t c, size t n);
-'Wide-character version of memset. 255
+Wide-character version of memset. 255
 wprintf Wide-Character Formatted Write (C99) <wchar.h»
 int wprintf (const wchar t * restrict format, ...);
 Wide-character version of printf. 255
 wscanf Wide-Character Formatted Read (C99) <wchar.hs
 int wscanf (const wchar t * restrict format, ...);
 
-'Wide-character version of scanf. 255
+Wide-character version of scanf. 255
 APPENDIX E
 ASCII Character Set
 

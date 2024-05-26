@@ -550,3 +550,10 @@ tr:nth-child(even) { /* Alternating row background */
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.945), rgba(201, 76, 76, 0.4));
   vertical-align: 3px;
 }
+
+.unicode_NOT_EQUAL_TO::after
+{
+  /* 2260 ;;; ≠ ;;; NOT EQUAL TO */
+    content: "\2260";
+    /* font-size: 24px; */
+}
