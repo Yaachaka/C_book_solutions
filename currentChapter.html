@@ -290,11 +290,244 @@ position in the <code>contents</code> array. Let’s replace
 <span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>        stack_underflow<span class="op">()</span> <span class="op">;</span></span>
 <span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
 <span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="op">*--</span>top_ptr<span class="op">;</span></span>
-<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a><span class="op">)</span></span></code></pre></div>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <p>Note that I’ve written <code>*--top_ptr</code>, not
 <code>*top_ptr--</code>, since I want <code>pop</code> to decrement
 <code>top_ptr</code> <em>before</em> fetching the value to which it
 points.</p>
+<h2 id="using-an-array-name-as-a-pointer">12.3 Using an Array Name as a
+Pointer</h2>
+<p>Pointer arithmetic is one way in which arrays and pointers are
+related, but it’s not the only connection between the two. Here’s
+another key relationship: The name of an array can be used as a pointer
+to the first element in the array. This relationship simplifies pointer
+arithmetic and makes both arrays and pointers more versatile.</p>
+<p>For example, suppose that <code>a</code> is declared as follows:</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">10</span><span class="op">];</span></span></code></pre></div>
+<p>Using <code>a</code> as a pointer to the first element in the array,
+we can modify <code>a[0]</code>:</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="op">*</span>a <span class="op">=</span> <span class="dv">7</span><span class="op">;</span> <span class="co">/* stores 7 in a[0] */</span></span></code></pre></div>
+<p>We can modify <code>a[1]</code> through the pointer
+<code>a + 1</code>:</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="op">*(</span>a<span class="op">+</span><span class="dv">1</span><span class="op">)</span> <span class="op">=</span> <span class="dv">12</span><span class="op">;</span> <span class="co">/* stores 12 in a[1] */</span></span></code></pre></div>
+<p>In general, <code>a + i</code> is the same as <code>&amp;a[1]</code>
+(both represent a pointer to element <code>i</code> of <code>a</code>)
+and <code>*(a+i)</code> is equivalent to <code>a[i]</code> (both
+represent element <code>i</code> itself). In other words, array
+subscripting can be viewed as a form of pointer arithmetic.</p>
+<p>The fact that an array name can serve as a pointer makes it easier to
+write loops that step through an array. Consider the following loop from
+Section 12.2:</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>p <span class="op">=</span> <span class="op">&amp;</span>a<span class="op">[</span><span class="dv">0</span><span class="op">];</span> p <span class="op">&lt;</span> <span class="op">&amp;</span>a<span class="op">[</span>N<span class="op">];</span> p<span class="op">++)</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">+=</span> <span class="op">*</span>p<span class="op">;</span></span></code></pre></div>
+<p>To simplify the loop, we can replace <code>&amp;a[0]</code> by
+<code>a</code> and <code>&amp;a[N]</code> by <code>a + N</code>:</p>
+<p><strong>idiom</strong></p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>p <span class="op">=</span> a<span class="op">;</span> p <span class="op">&lt;</span> a <span class="op">+</span> N<span class="op">;</span> p<span class="op">++)</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">+=</span> <span class="op">*</span>p<span class="op">;</span></span></code></pre></div>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Although an array name can be used as a pointer, it’s not possible to
+assign it a new value. Attempting to make it point elsewhere is an
+error:</p>
+<div class="sourceCode" id="cb30"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span><span class="op">(*</span>a <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>    a<span class="op">++;</span> <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>This is no great loss; we can always copy a into a pointer variable,
+then change the pointer variable:</p>
+<div class="sourceCode" id="cb31"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> a<span class="op">;</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(*</span>p <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    p<span class="op">++;</span></span></code></pre></div>
+</div>
+<!-- END: div -->
+<h3 id="program-reversing-a-series-of-numbers-revisited">12.3.1
+(PROGRAM) Reversing a Series of Numbers (Revisited)</h3>
+<p>The <code>reverse.c</code> program of Section 8.1 reads 10 numbers,
+then writes the numbers in reverse order. As the program reads the
+numbers, it stores them in an array. Once all the numbers are read, the
+program steps through the array backwards as it prints the numbers.</p>
+<p>The original program used subscripting to access elements of the
+array, Here’s a new version in which I’ve replaced subscripting with
+pointer arithmetic.</p>
+<div class="sourceCode" id="cb32"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co">/********************************************************************************</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * File: reverse3.c</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Reverses a series of numbers (pointer version)</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="co"> ********************************************************************************/</span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Header inclusions*/</span></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Header inclusions*/</span></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: MACRO definitions*/</span></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a><span class="pp">#define N 10</span></span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: MACRO definitions*/</span></span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: type definitions*/</span></span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: type definitions*/</span></span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Variable declarations*/</span></span>
+<span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-21"><a href="#cb32-21" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Variable declarations*/</span></span>
+<span id="cb32-22"><a href="#cb32-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-23"><a href="#cb32-23" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Function prototypes*/</span></span>
+<span id="cb32-24"><a href="#cb32-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-25"><a href="#cb32-25" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Function prototypes*/</span></span>
+<span id="cb32-26"><a href="#cb32-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-27"><a href="#cb32-27" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb32-28"><a href="#cb32-28" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: main</span></span>
+<span id="cb32-29"><a href="#cb32-29" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: int</span></span>
+<span id="cb32-30"><a href="#cb32-30" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb32-31"><a href="#cb32-31" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: void</span></span>
+<span id="cb32-32"><a href="#cb32-32" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb32-33"><a href="#cb32-33" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb32-34"><a href="#cb32-34" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb32-35"><a href="#cb32-35" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: </span></span>
+<span id="cb32-36"><a href="#cb32-36" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb32-37"><a href="#cb32-37" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb32-38"><a href="#cb32-38" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb32-39"><a href="#cb32-39" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> a<span class="op">[</span>N<span class="op">],</span> <span class="op">*</span>p<span class="op">;</span></span>
+<span id="cb32-40"><a href="#cb32-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-41"><a href="#cb32-41" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Enter %d numbers: &quot;</span><span class="op">,</span> N<span class="op">);</span></span>
+<span id="cb32-42"><a href="#cb32-42" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>p <span class="op">=</span> a<span class="op">;</span> p <span class="op">&lt;</span> a <span class="op">+</span> N<span class="op">;</span> p<span class="op">++)</span></span>
+<span id="cb32-43"><a href="#cb32-43" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb32-44"><a href="#cb32-44" aria-hidden="true" tabindex="-1"></a>        scanf<span class="op">(</span><span class="st">&quot;%d&quot;</span><span class="op">,</span> p<span class="op">);</span></span>
+<span id="cb32-45"><a href="#cb32-45" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: get the numbers</span></span>
+<span id="cb32-46"><a href="#cb32-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-47"><a href="#cb32-47" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;In reverse order: &quot;</span><span class="op">);</span></span>
+<span id="cb32-48"><a href="#cb32-48" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>p <span class="op">=</span> a <span class="op">+</span> N <span class="op">-</span> <span class="dv">1</span><span class="op">;</span> p <span class="op">&gt;=</span> a<span class="op">;</span> p<span class="op">--)</span></span>
+<span id="cb32-49"><a href="#cb32-49" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb32-50"><a href="#cb32-50" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot; %d&quot;</span><span class="op">,</span> <span class="op">*</span>p<span class="op">);</span></span>
+<span id="cb32-51"><a href="#cb32-51" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: print the numbers in reverse order</span></span>
+<span id="cb32-52"><a href="#cb32-52" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb32-53"><a href="#cb32-53" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb32-54"><a href="#cb32-54" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb32-55"><a href="#cb32-55" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">//FUNCTION </span><span class="re">END</span><span class="co">: main</span></span></code></pre></div>
+<p>In the original program, an integer variable <code>i</code> kept
+track of the current position within the array. The new version replaces
+<code>i</code> with <code>p</code>, a pointer variable. The numbers are
+still stored in an array: we’re simply using a different technique to
+keep track of where we are in the array.</p>
+<p>Note that the second argument to <code>scanf</code> is
+<code>p</code>, not <code>&amp;p</code>. Since <code>p</code> points to
+an array element, it’s a satisfactory argument for <code>scanf</code>;
+<code>&amp;p</code>, on the other hand, would be a pointer to a pointer
+to an array element.</p>
+<h3 id="array-arguments-revisited">12.3.2 Array Arguments
+(Revisited)</h3>
+<p>When passed to a function, an array name is always treated as a
+pointer. Consider the following function, which returns the largest
+element in an array of integers:</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> find_largest<span class="op">(</span><span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> max<span class="op">;</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>    max <span class="op">=</span> a<span class="op">[</span><span class="dv">0</span><span class="op">];</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    Eor <span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="op">(</span>a<span class="op">[</span>i<span class="op">]</span> <span class="op">&gt;</span> max<span class="op">)</span></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>            max <span class="op">=</span> a<span class="op">[</span>i<span class="op">];</span></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> max<span class="op">;</span></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Suppose that we call <code>find_largest</code> as follows:</p>
+<div class="sourceCode" id="cb34"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>largest <span class="op">=</span> find_largest<span class="op">(</span>b<span class="op">,</span> N<span class="op">);</span></span></code></pre></div>
+<p>This call causes a pointer to the first element of <code>b</code> to
+be assigned to <code>a</code>: the array itself isn’t copied.</p>
+<p>The fact that an array argument is treated as a pointer has some
+important consequences:</p>
+<!-- START: unordered-list -->
+<ul>
+<li>
+<p>When an ordinary variable is passed to a function, its value is
+copied; any changes to the corresponding parameter don’t affect the
+variable. In contrast, an array used as an argument isn’t protected
+against change, since no copy is made of the array itself. For example,
+the following function (which we first saw in Section 9.3) modifies an
+array by storing zero into each of its elements:</p>
+<div class="sourceCode" id="cb35"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> store_zeros<span class="op">(</span><span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>        a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>To indicate that an array parameter won’t be changed, we can include
+the word <code>const</code> in its declaration:</p>
+<div class="sourceCode" id="cb36"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> find_largest<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>If <code>const</code> is present, the compiler will check that no
+assignment to an element of <code>a</code> appears in the body of
+<code>find_largest</code>.</p>
+</li>
+<li>
+<p>The time required to pass an array to a function doesn’t depend on
+the size of the array. There’s no penalty for passing a large array,
+since no copy of the array is made.</p>
+</li>
+<li>
+<p>An array paramecter can be declared as a pointer if desired. For
+example, <code>find_largest</code> could be defined as follows:</p>
+<div class="sourceCode" id="cb37"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> find_largest <span class="op">(</span><span class="dt">int</span> <span class="op">*</span>a<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>    <span class="op">...</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p>Declaring <code>a</code> to be a pointer is equivalent to declaring
+it to be an array; the compiler treats the declarations as though they
+were identical.</p>
+<!-- START: div -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Although declaring a parameter to be an array is the same as
+declaring it to be a pointer, the same isn’t true for a variable. The
+declaration</p>
+<div class="sourceCode" id="cb38"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">10</span><span class="op">];</span></span></code></pre></div>
+<p>causes the compiler to set aside space for 10 integers. In contrast,
+the declaration</p>
+<div class="sourceCode" id="cb39"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">*</span>a<span class="op">;</span></span></code></pre></div>
+<p>causes the compiler to allocate space for a pointer variable. In the
+latter case, <code>a</code> is not an array; attempting to use it as an
+array can have disastrous results. For example, the assignment</p>
+<div class="sourceCode" id="cb40"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="op">*</span>a <span class="op">=</span> <span class="dv">0</span><span class="op">;</span>  <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>will store 0 where <code>a</code> is pointing. Since we don’t know
+where <code>a</code> is pointing, the effect on the program is
+undefined.</p>
+</div>
+<!-- END: div -->
+</li>
+<li>
+<p>A function with an array parameter can be passed an array “slice”—a
+sequence of consecutive elements. Suppose that we want
+<code>find_largest</code> to locate the largest element in some portion
+of an array <code>b</code>, say elements <code>b[5]</code>,
+<code>...</code>, <code>b[14]</code>. When we call
+<code>find_largest</code>, we’ll pass it the address of
+<code>b[5]</code> and the number 10, indicating that we want
+<code>find_largest</code> to examine 10 array elements, starting at
+<code>b[5]</code>:</p>
+<div class="sourceCode" id="cb41"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>largest <span class="op">=</span> find_largest <span class="op">(&amp;</span>b<span class="op">[</span><span class="dv">5</span><span class="op">],</span> <span class="dv">10</span><span class="op">);</span></span></code></pre></div>
+</li>
+</ul>
+<!-- END: unordered-list -->
+<h3 id="using-a-pointer-as-an-array-name">12.3.3 Using a Pointer as an
+Array Name</h3>
+<p>If we can use an array name as a pointer, will C allow us to
+subscript a pointer as though it were an array name? By now, you’d
+probably expect the answer to be yes, and you’d be right. Here’s an
+example:</p>
+<div class="sourceCode" id="cb42"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define N 10</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span>N<span class="op">],</span> i<span class="op">,</span> sum <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> <span class="op">*</span>p <span class="op">=</span> a<span class="op">;</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> <span class="dv">1</span> <span class="op">&lt;</span> N<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">+=</span> p<span class="op">[</span>i<span class="op">];</span></span></code></pre></div>
+<p>The compiler treats <code>p[1]</code> as <code>*(p+1)</code>, which
+is a perfectly legal use of pointer arithmetic. Although the ability to
+subscript a pointer may seem to be little more than a curiosity, we’ll
+see in Section 17.3 that it’s actually quite useful.</p>
 <h2 id="examples">Examples</h2>
 <ul>
 <li>Programs: <span class="unicode_LINK_SYMBOL"></span><a

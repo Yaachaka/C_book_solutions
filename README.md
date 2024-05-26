@@ -65,3 +65,9 @@ Notes (book) in HTML: [./CProgrammingKNKing2ndEd.html](./CProgrammingKNKing2ndEd
 - [Examples](./cknkCh11/cknkCh11Exmp)
 - [Exercises](./cknkCh11/cknkCh11Exrc)
 - [Programming Projects](./cknkCh11/cknkCh11Prj)
+
+**[Chapter 12 Pointers and Arrays](./cknkCh12):**
+
+- [Examples](./cknkCh12/cknkCh12Exmp)
+<!-- - [Exercises](./cknkCh12/cknkCh12Exrc) -->
+<!-- - [Programming Projects](./cknkCh12/cknkCh12Prj) -->

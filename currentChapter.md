@@ -332,10 +332,275 @@ int pop(void)
         stack_underflow() ;
     else
         return *--top_ptr;
-)
+}
 ```
 
 Note that I've written `*--top_ptr`, not `*top_ptr--`, since I want `pop` to decrement `top_ptr` *before* fetching the value to which it points.
+
+
+## 12.3 Using an Array Name as a Pointer
+
+Pointer arithmetic is one way in which arrays and pointers are related, but it's not the only connection between the two. Here's another key relationship: The name of an array can be used as a pointer to the first element in the array. This relationship simplifies pointer arithmetic and makes both arrays and pointers more versatile.
+
+For example, suppose that `a` is declared as follows:
+
+```C
+int a[10];
+```
+
+Using `a` as a pointer to the first element in the array, we can modify `a[0]`:
+
+```C
+*a = 7; /* stores 7 in a[0] */
+```
+
+We can modify `a[1]` through the pointer `a + 1`:
+
+```C
+*(a+1) = 12; /* stores 12 in a[1] */
+```
+
+In general, `a + i` is the same as `&a[1]` (both represent a pointer to element `i` of `a`) and `*(a+i)` is equivalent to `a[i]` (both represent element `i` itself). In other words, array subscripting can be viewed as a form of pointer arithmetic.
+
+The fact that an array name can serve as a pointer makes it easier to write loops that step through an array. Consider the following loop from Section 12.2:
+
+```C
+for (p = &a[0]; p < &a[N]; p++)
+    sum += *p;
+```
+
+To simplify the loop, we can replace `&a[0]` by `a` and `&a[N]` by `a + N`:
+
+**idiom**
+
+```C
+for (p = a; p < a + N; p++)
+    sum += *p;
+```
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Although an array name can be used as a pointer, it's not possible to assign it a new value. Attempting to make it point elsewhere is an error:
+
+```C
+while(*a != 0)
+    a++; /*** WRONG ***/
+```
+
+This is no great loss; we can always copy a into a pointer variable, then change the pointer variable:
+
+```C
+p = a;
+while (*p != 0)
+    p++;
+```
+
+</div>
+<!-- END: div -->
+
+### 12.3.1 (PROGRAM) Reversing a Series of Numbers (Revisited)
+
+The `reverse.c` program of Section 8.1 reads 10 numbers, then writes the numbers in reverse order. As the program reads the numbers, it stores them in an array. Once all the numbers are read, the program steps through the array backwards as it prints the numbers.
+
+The original program used subscripting to access elements of the array, Here's a new version in which I've replaced subscripting with pointer arithmetic.
+
+```C
+/********************************************************************************
+ * File: reverse3.c
+ * Author: K. N. King
+ * Purpose: Reverses a series of numbers (pointer version)
+ ********************************************************************************/
+
+/* START: Header inclusions*/
+#include <stdio.h>
+/* END: Header inclusions*/
+
+/* START: MACRO definitions*/
+#define N 10
+/* END: MACRO definitions*/
+
+/* START: type definitions*/
+
+/* END: type definitions*/
+
+/* START: Variable declarations*/
+
+/* END: Variable declarations*/
+
+/* START: Function prototypes*/
+
+/* END: Function prototypes*/
+
+/**
+ * Function name: main
+ * Return type: int
+ * Return value description: 
+ * Parameters: void
+ * Param1 descr.: 
+ * Param2 descr.: 
+ * Param3 descr.: 
+ * Function description: 
+ */
+int main(void)
+{
+    int a[N], *p;
+
+    printf("Enter %d numbers: ", N);
+    for(p = a; p < a + N; p++)
+    {
+        scanf("%d", p);
+    }	// for statement: get the numbers
+
+    printf("In reverse order: ");
+    for(p = a + N - 1; p >= a; p--)
+    {
+        printf(" %d", *p);
+    }	// for statement: print the numbers in reverse order
+    
+    printf("\n");
+    return 0;
+}	//FUNCTION END: main
+```
+
+In the original program, an integer variable `i` kept track of the current position within the array. The new version replaces `i` with `p`, a pointer variable. The numbers are still stored in an array: we're simply using a different technique to keep track of where we are in the array.
+
+Note that the second argument to `scanf` is `p`, not `&p`. Since `p` points to an array element, it's a satisfactory argument for `scanf`; `&p`, on the other hand, would be a pointer to a pointer to an array element.
+
+### 12.3.2 Array Arguments (Revisited)
+
+When passed to a function, an array name is always treated as a pointer. Consider the following function, which returns the largest element in an array of integers:
+
+```C
+int find_largest(int a[], int n)
+{
+    int i, max;
+
+    max = a[0];
+    Eor (i = 1; i < n; i++)
+        if (a[i] > max)
+            max = a[i];
+    return max;
+}
+```
+
+Suppose that we call `find_largest` as follows:
+
+```C
+largest = find_largest(b, N);
+```
+
+This call causes a pointer to the first element of `b` to be assigned to `a`: the array itself isn't copied.
+
+The fact that an array argument is treated as a pointer has some important consequences:
+
+<!-- START: unordered-list -->
+<ul>
+<li>
+
+When an ordinary variable is passed to a function, its value is copied; any changes to the corresponding parameter don't affect the variable. In contrast, an array used as an argument isn't protected against change, since no copy is made of the array itself. For example, the following function (which we first saw in Section 9.3) modifies an array by storing zero into each of its elements:
+
+```C
+void store_zeros(int a[], int n)
+{
+    int i;
+    for(i = 0; i < n; i++)
+    {
+        a[i] = 0;
+    }	// for statement: 
+}
+```
+
+To indicate that an array parameter won't be changed, we can include the word `const` in its declaration:
+
+```C
+int find_largest(const int a[], int n)
+{
+    ...
+}
+```
+
+If `const` is present, the compiler will check that no assignment to an element of `a` appears in the body of `find_largest`.
+
+</li>
+<li>
+
+The time required to pass an array to a function doesn't depend on the size of the array. There's no penalty for passing a large array, since no copy of the array is made.
+
+</li>
+<li>
+
+An array paramecter can be declared as a pointer if desired. For example, `find_largest` could be defined as follows:
+
+```C
+int find_largest (int *a, int n)
+{
+    ...
+}
+```
+
+<span class="QandA"></span>
+
+Declaring `a` to be a pointer is equivalent to declaring it to be an array; the compiler treats the declarations as though they were identical.
+
+<!-- START: div -->
+<div class="infoBox">
+
+<span class="warningEmoji"></span>
+
+Although declaring a parameter to be an array is the same as declaring it to be a pointer, the same isn't true for a variable. The declaration
+
+```C
+int a[10];
+```
+
+causes the compiler to set aside space for 10 integers. In contrast, the declaration
+
+```C
+int *a;
+```
+
+causes the compiler to allocate space for a pointer variable. In the latter case, `a` is not an array; attempting to use it as an array can have disastrous results. For example, the assignment
+
+```C
+*a = 0;  /*** WRONG ***/
+```
+
+will store 0 where `a` is pointing. Since we don't know where `a` is pointing, the effect on the program is undefined.
+
+</div>
+<!-- END: div -->
+
+</li>
+<li>
+
+A function with an array parameter can be passed an array "slice"—a sequence of consecutive elements. Suppose that we want `find_largest` to locate the largest element in some portion of an array `b`, say elements `b[5]`, `...`, `b[14]`. When we call `find_largest`, we'll pass it the address of `b[5]` and the number 10, indicating that we want `find_largest` to examine 10 array elements, starting at `b[5]`:
+
+```C
+largest = find_largest (&b[5], 10);
+```
+
+</li>
+</ul>
+<!-- END: unordered-list -->
+
+### 12.3.3 Using a Pointer as an Array Name
+
+If we can use an array name as a pointer, will C allow us to subscript a pointer as though it were an array name? By now, you'd probably expect the answer to be yes, and you'd be right. Here's an example:
+
+```C
+#define N 10
+...
+int a[N], i, sum = 0, *p = a;
+...
+for (i = 0; 1 < N; i++)
+    sum += p[i];
+```
+
+The compiler treats `p[1]` as `*(p+1)`, which is a perfectly legal use of pointer arithmetic. Although the ability to subscript a pointer may seem to be little more than a curiosity, we'll see in Section 17.3 that it's actually quite useful.
+
 
 
 ## Examples
