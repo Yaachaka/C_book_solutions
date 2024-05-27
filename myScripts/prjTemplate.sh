@@ -1,8 +1,8 @@
 # Stay in `C_book_solutions` folder while running this script.
 echo "Hope you are in the directory: \"C_book_solutions\""
 
-chapter="11" # Give chapter number here
-chapterName="Pointers"
+chapter="12" # Give chapter number here
+chapterName="Pointers and Arrays"
 
 title="# Chapter $chapter Programming Projects"
 
@@ -10,7 +10,7 @@ pref="cknkCh"
 prefChapter=$pref$chapter
 name1=$pref$chapter"Prj"
 
-exrcCount=4
+exrcCount=7
 emptyLine="  "
 
 mkdir $prefChapter/$name1

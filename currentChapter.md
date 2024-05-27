@@ -2,7 +2,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>C Programming</title>
+<title>C (KNK) - Current Chapter</title>
 <link rel="stylesheet" href="./myStyle.css">
 </head>
 <body>

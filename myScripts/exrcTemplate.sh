@@ -1,9 +1,9 @@
 # Stay in `C_book_solutions` folder while running this script.
 echo "Hope you are in the directory: \"C_book_solutions\""
-chapter_section="Section 11." # Update needed here
-chapter="11"    # Update needed here
+chapter_section="Section 12." # Update needed here
+chapter="12"    # Update needed here
 
-chapterName="Pointers"    # Give chapter name here
+chapterName="Pointers and Arrays"    # Give chapter name here
 
 title="# Chapter $chapter Excercises"
 
@@ -13,7 +13,7 @@ name1=$pref$chapter"Exrc"
 
 mkdir $prefChapter/$name1
 
-exrcCount=8    # Update the number of exercises here
+exrcCount=18    # Update the number of exercises here
 emptyLine="  "
 
 echo "<html>
