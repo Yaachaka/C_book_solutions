@@ -203,7 +203,7 @@ The condition `p < &a[N]` in the `for` statement deserves special mention. Stran
 
 <span class="QandA"></span>
 
-We could just as easily have written the loop without pointers, of course, using subscripting instead. The argument most often cited in support of pointer arithmetic is that it can save execution time. However, that depends on the implementation—some C compilers actually produce better code `for` loops that rely on subscripting.
+We could just as easily have written the loop without pointers, of course, using subscripting instead. The argument most often cited in support of pointer arithmetic is that it can save execution time. However, that depends on the implementation—some C compilers actually produce better code for loops that rely on subscripting.
 
 ### 12.2.1 Combining the * and ++ Operators
 
@@ -251,7 +251,9 @@ Of course, `*p++` isn't the only legal combination of `*` and `++`. We could wri
 </td>
 <td>
 
-Value of expression is `*p` before increment; increment `p` later
+Value of expression is `*p` before increment; increment `p` later.
+
+The increment operator `++` has higher precedence than the dereference operator (`*`). Therefore, the increment operation is performed on the pointer `p` itself. But, since it is a post-increment operator, increment of `p` is held and the dereference operation is performed on `p` (to be more precise, the current value --address-- of `p`). And then, the increment is performed.
 
 </td>
 </tr>
@@ -263,7 +265,9 @@ Value of expression is `*p` before increment; increment `p` later
 </td>
 <td>
 
-Value of expression is `*p` before increment: increment `*p` later
+Value of expression is `*p` before increment: increment `*p` later.
+
+Due to parentheses, the pointer `p` is dereferenced first and then the post-increment operation is performed on the object the pointer `p` is pointing to. In short, the pointer/address arithmetic/increment is not performed, but the object increment is performed.
 
 </td>
 </tr>
@@ -287,7 +291,7 @@ Increment `p` first; value of expression is `*p` after increment
 </td>
 <td>
 
-Increment *p first; value of expression is *p after increment
+Increment `*p` first; value of expression is `*p` after increment
 
 </td>
 </tr>
@@ -479,7 +483,7 @@ int find_largest(int a[], int n)
     int i, max;
 
     max = a[0];
-    Eor (i = 1; i < n; i++)
+    for (i = 1; i < n; i++)
         if (a[i] > max)
             max = a[i];
     return max;
@@ -675,16 +679,16 @@ largest = find_largest(a[i], NUM_COLS);
 
 ### 12.4.3 Processing the Columns of a Multidimensional Array
 
-Processing the elements in a *column* of a two-dimensional array isn't as easy, because arrays are stored by row, not by column. Here's a loop that clears column 1 of the array a:
+Processing the elements in a *column* of a two-dimensional array isn't as easy, because arrays are stored by row, not by column. Here's a loop that clears column 1 of the array `a`:
 
 ```C
 int a[NUM_ROWS][NUM_COLS], (*p) [NUM_COLS], i;
 ...
 for(p = &a[0]; p < &a[NUM_ROWS]; p++)
-    (*p)[1] = 0;
+    (*p)[i] = 0;
 ```
 
-I've declared `p` to be a pointer to an array of length `NUM_COLS` whose elements are integers. The parentheses around `*p` in `(*p)[NUM_COLS]` are required; without them, the compiler would treat `p` as an *array of pointers instead of a pointer to an array*. The expression `p++` advances `p` to the beginning of the next row. In the expression `(*p)[1]`, `*p` represents an entire row of `a`, so `(*p)[i]` selects the element in column `i` of that row. The parentheses in `(*p)[1]` are essential, because the compiler would interpret `*p[i]` as `*(p[i])`.
+I've declared `p` to be a pointer to an array of length `NUM_COLS` whose elements are integers. The parentheses around `*p` in `(*p)[NUM_COLS]` are required; without them, the compiler would treat `p` as an *array of pointers instead of a pointer to an array*. The expression `p++` advances `p` to the beginning of the next row. In the expression `(*p)[i]`, `*p` represents an entire row of `a`, so `(*p)[i]` selects the element in column `i` of that row. The parentheses in `(*p)[i]` are essential, because the compiler would interpret `*p[i]` as `*(p[i])`.
 
 ### 12.4.4 Using the Name of a Multidimensional Array as a Pointer
 
@@ -750,7 +754,7 @@ void f(int m, int n)
 }
 ```
 
-Since the type of `p` depends on `n`, which isn't constant, `p` is said to have a variably modified type. Note that the validity of an assignment such as `p = a` can't always be determined by the compiler. For example, the following code will compile but is correct only if `m` and 1 are equal:
+Since the type of `p` depends on `n`, which isn't constant, `p` is said to have a variably modified type. Note that the validity of an assignment such as `p = a` can't always be determined by the compiler. For example, the following code will compile but is correct only if `m` and `n` are equal:
 
 ```C
 int a[m][n], (*p)[m];
@@ -773,7 +777,7 @@ A pointer capable of pointing to a row of `a` would be declared as follows:
 int (*p)[n];
 ```
 
-The loop that clears column `i` is almost identical to the one we used in Section
+The loop that clears column `i` is almost identical to the one we used in Section 12.4:
 
 ```C
 for(p = a; p < a + m; p++)
@@ -810,7 +814,7 @@ long.
 <!-- START: div -->
 <div class="QandA_answer">
 
-<span class="ans"></span>There's no easy answer to this question, since it depends on the machine you're using and the compiler itself. In the early days of C on the PDP-11, pointer arithmetic yielded a faster program. On today's machines, using today's compilers, array subseripting is often just as good, and sometimes even better. The bottom line: Learn both ways and then use whichever is more natural for the kind of program you're writing.
+<span class="ans"></span>There's no easy answer to this question, since it depends on the machine you're using and the compiler itself. In the early days of C on the PDP-11, pointer arithmetic yielded a faster program. On today's machines, using today's compilers, array subscripting is often just as good, and sometimes even better. The bottom line: Learn both ways and then use whichever is more natural for the kind of program you're writing.
 
 </div>
 <!-- END: div -->
@@ -827,7 +831,7 @@ long.
 <!-- START: div -->
 <div class="QandA_answer">
 
-<span class="ans"></span>Yes, it is, oddly enough. The compiler treats `i[a]` as `*(i + a)`, which is the same as `*(a + 1)`. (Pointer addition, like ordinary addition, is commutative.) But `*(a + 1)` is equivalent to `a[i]`. Q.E.D. But please don't use `i[a]` in programs unless you're planning to enter the next Obfuscated C contest.
+<span class="ans"></span>Yes, it is, oddly enough. The compiler treats `i[a]` as `*(i + a)`, which is the same as `*(a + i)`. (Pointer addition, like ordinary addition, is commutative.) But `*(a + i)` is equivalent to `a[i]`. But please don't use `i[a]` in programs unless you're planning to enter the next Obfuscated C contest.
 
 </div>
 <!-- END: div -->
@@ -893,9 +897,9 @@ long.
 </div>
 <!-- END: div -->
 <!-- START: div -->
-<div class="QandA_answer">No. Some modern "bounds-checking" compilers track not only the type of a pointer, but—when it points to an array—also the length of the array. For example, suppose that `p` is assigned a pointer to `a[0][0]`. Technically, `p` points to the first element of `a[0]`, a one-dimensional array. If we increment `p` repeatedly in an effort to visit all the elements of `a`, we'll go out of bounds once `p` goes past the last element of  `a[0]`. A compiler that performs bounds-checking may insert code to check that `p` is used only to access elements in the array pointed to by `a[0]`; an attempt to increment `p` past the end of this array would be detected as an error.
+<div class="QandA_answer">
 
-<span class="ans"></span>
+<span class="ans"></span>No. Some modern "bounds-checking" compilers track not only the type of a pointer, but—when it points to an array—also the length of the array. For example, suppose that `p` is assigned a pointer to `a[0][0]`. Technically, `p` points to the first element of `a[0]`, a one-dimensional array. If we increment `p` repeatedly in an effort to visit all the elements of `a`, we'll go out of bounds once `p` goes past the last element of  `a[0]`. A compiler that performs bounds-checking may insert code to check that `p` is used only to access elements in the array pointed to by `a[0]`; an attempt to increment `p` past the end of this array would be detected as an error.
 
 </div>
 <!-- END: div -->

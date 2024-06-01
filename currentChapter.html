@@ -181,8 +181,7 @@ body of the loop will be executed with <code>p</code> equal to
 course, using subscripting instead. The argument most often cited in
 support of pointer arithmetic is that it can save execution time.
 However, that depends on the implementation—some C compilers actually
-produce better code <code>for</code> loops that rely on
-subscripting.</p>
+produce better code for loops that rely on subscripting.</p>
 <h3 id="combining-the-and-operators">12.2.1 Combining the * and ++
 Operators</h3>
 <p>C programmers often combine the <code>*</code> (indirection) and
@@ -224,7 +223,14 @@ help:</p>
 </td>
 <td>
 <p>Value of expression is <code>*p</code> before increment; increment
-<code>p</code> later</p>
+<code>p</code> later.</p>
+<p>The increment operator <code>++</code> has higher precedence than the
+dereference operator (<code>*</code>). Therefore, the increment
+operation is performed on the pointer <code>p</code> itself. But, since
+it is a post-increment operator, increment of <code>p</code> is held and
+the dereference operation is performed on <code>p</code> (to be more
+precise, the current value –address– of <code>p</code>). And then, the
+increment is performed.</p>
 </td>
 </tr>
 <tr>
@@ -233,7 +239,12 @@ help:</p>
 </td>
 <td>
 <p>Value of expression is <code>*p</code> before increment: increment
-<code>*p</code> later</p>
+<code>*p</code> later.</p>
+<p>Due to parentheses, the pointer <code>p</code> is dereferenced first
+and then the post-increment operation is performed on the object the
+pointer <code>p</code> is pointing to. In short, the pointer/address
+arithmetic/increment is not performed, but the object increment is
+performed.</p>
 </td>
 </tr>
 <tr>
@@ -250,8 +261,8 @@ help:</p>
 <p><code>++*p</code> or <code>++(*p)</code></p>
 </td>
 <td>
-<p>Increment <em>p first; value of expression is </em>p after
-increment</p>
+<p>Increment <code>*p</code> first; value of expression is
+<code>*p</code> after increment</p>
 </td>
 </tr>
 </table>
@@ -424,7 +435,7 @@ element in an array of integers:</p>
 <span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> max<span class="op">;</span></span>
 <span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>    max <span class="op">=</span> a<span class="op">[</span><span class="dv">0</span><span class="op">];</span></span>
-<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    Eor <span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
 <span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="op">(</span>a<span class="op">[</span>i<span class="op">]</span> <span class="op">&gt;</span> max<span class="op">)</span></span>
 <span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>            max <span class="op">=</span> a<span class="op">[</span>i<span class="op">];</span></span>
 <span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> max<span class="op">;</span></span>
@@ -622,21 +633,21 @@ largest element of a one-dimensional array. We can just as easily use
 Processing the Columns of a Multidimensional Array</h3>
 <p>Processing the elements in a <em>column</em> of a two-dimensional
 array isn’t as easy, because arrays are stored by row, not by column.
-Here’s a loop that clears column 1 of the array a:</p>
+Here’s a loop that clears column 1 of the array <code>a</code>:</p>
 <div class="sourceCode" id="cb50"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span>NUM_ROWS<span class="op">][</span>NUM_COLS<span class="op">],</span> <span class="op">(*</span>p<span class="op">)</span> <span class="op">[</span>NUM_COLS<span class="op">],</span> i<span class="op">;</span></span>
 <span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span>
 <span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>p <span class="op">=</span> <span class="op">&amp;</span>a<span class="op">[</span><span class="dv">0</span><span class="op">];</span> p <span class="op">&lt;</span> <span class="op">&amp;</span>a<span class="op">[</span>NUM_ROWS<span class="op">];</span> p<span class="op">++)</span></span>
-<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">(*</span>p<span class="op">)[</span><span class="dv">1</span><span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">(*</span>p<span class="op">)[</span>i<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
 <p>I’ve declared <code>p</code> to be a pointer to an array of length
 <code>NUM_COLS</code> whose elements are integers. The parentheses
 around <code>*p</code> in <code>(*p)[NUM_COLS]</code> are required;
 without them, the compiler would treat <code>p</code> as an <em>array of
 pointers instead of a pointer to an array</em>. The expression
 <code>p++</code> advances <code>p</code> to the beginning of the next
-row. In the expression <code>(*p)[1]</code>, <code>*p</code> represents
+row. In the expression <code>(*p)[i]</code>, <code>*p</code> represents
 an entire row of <code>a</code>, so <code>(*p)[i]</code> selects the
 element in column <code>i</code> of that row. The parentheses in
-<code>(*p)[1]</code> are essential, because the compiler would interpret
+<code>(*p)[i]</code> are essential, because the compiler would interpret
 <code>*p[i]</code> as <code>*(p[i])</code>.</p>
 <h3 id="using-the-name-of-a-multidimensional-array-as-a-pointer">12.4.4
 Using the Name of a Multidimensional Array as a Pointer</h3>
@@ -701,7 +712,8 @@ at the two-dimensional case:</p>
 isn’t constant, <code>p</code> is said to have a variably modified type.
 Note that the validity of an assignment such as <code>p = a</code> can’t
 always be determined by the compiler. For example, the following code
-will compile but is correct only if <code>m</code> and 1 are equal:</p>
+will compile but is correct only if <code>m</code> and <code>n</code>
+are equal:</p>
 <div class="sourceCode" id="cb58"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span>m<span class="op">][</span>n<span class="op">],</span> <span class="op">(*</span>p<span class="op">)[</span>m<span class="op">];</span></span>
 <span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> a<span class="op">;</span></span></code></pre></div>
 <p>If m<span class="unicode_NOT_EQUAL_TO"></span>n, any subsequent use
@@ -719,7 +731,7 @@ column of a two-dimensional array <code>a</code>, let’s declare
 declared as follows:</p>
 <div class="sourceCode" id="cb60"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">(*</span>p<span class="op">)[</span>n<span class="op">];</span></span></code></pre></div>
 <p>The loop that clears column <code>i</code> is almost identical to the
-one we used in Section</p>
+one we used in Section 12.4:</p>
 <div class="sourceCode" id="cb61"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>p <span class="op">=</span> a<span class="op">;</span> p <span class="op">&lt;</span> a <span class="op">+</span> m<span class="op">;</span> p<span class="op">++)</span></span>
 <span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>    <span class="op">(*</span>p<span class="op">)[</span>i<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
 <h2 id="qa">Q&amp;A</h2>
@@ -756,7 +768,7 @@ it better to use array subscripting or pointer arithmetic?</p>
 since it depends on the machine you’re using and the compiler itself. In
 the early days of C on the PDP-11, pointer arithmetic yielded a faster
 program. On today’s machines, using today’s compilers, array
-subseripting is often just as good, and sometimes even better. The
+subscripting is often just as good, and sometimes even better. The
 bottom line: Learn both ways and then use whichever is more natural for
 the kind of program you’re writing.</p>
 </div>
@@ -772,11 +784,10 @@ the same as <code>a[i]</code>. Is this true?</p>
 <div class="QandA_answer">
 <p><span class="ans"></span>Yes, it is, oddly enough. The compiler
 treats <code>i[a]</code> as <code>*(i + a)</code>, which is the same as
-<code>*(a + 1)</code>. (Pointer addition, like ordinary addition, is
-commutative.) But <code>*(a + 1)</code> is equivalent to
-<code>a[i]</code>. Q.E.D. But please don’t use <code>i[a]</code> in
-programs unless you’re planning to enter the next Obfuscated C
-contest.</p>
+<code>*(a + i)</code>. (Pointer addition, like ordinary addition, is
+commutative.) But <code>*(a + i)</code> is equivalent to
+<code>a[i]</code>. But please don’t use <code>i[a]</code> in programs
+unless you’re planning to enter the next Obfuscated C contest.</p>
 </div>
 <!-- END: div -->
 <hr />
@@ -854,11 +865,12 @@ with all compilers?</p>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
-<p>No. Some modern “bounds-checking” compilers track not only the type
-of a pointer, but—when it points to an array—also the length of the
-array. For example, suppose that <code>p</code> is assigned a pointer to
-<code>a[0][0]</code>. Technically, <code>p</code> points to the first
-element of <code>a[0]</code>, a one-dimensional array. If we increment
+<p><span class="ans"></span>No. Some modern “bounds-checking” compilers
+track not only the type of a pointer, but—when it points to an
+array—also the length of the array. For example, suppose that
+<code>p</code> is assigned a pointer to <code>a[0][0]</code>.
+Technically, <code>p</code> points to the first element of
+<code>a[0]</code>, a one-dimensional array. If we increment
 <code>p</code> repeatedly in an effort to visit all the elements of
 <code>a</code>, we’ll go out of bounds once <code>p</code> goes past the
 last element of <code>a[0]</code>. A compiler that performs
@@ -866,7 +878,6 @@ bounds-checking may insert code to check that <code>p</code> is used
 only to access elements in the array pointed to by <code>a[0]</code>; an
 attempt to increment <code>p</code> past the end of this array would be
 detected as an error.</p>
-<p><span class="ans"></span></p>
 </div>
 <!-- END: div -->
 <hr />
