@@ -195,7 +195,7 @@ Revise the program to use pointers instead of integers to keep track of position
 
 ## Program Link
 
-[cknkCh12Prj002.c](./cknkCh12Prj002.c)
+[cknkCh12Prj002a.c](./cknkCh12Prj002a.c)
 
 ## Output/ExecutionLog:
 
@@ -206,18 +206,11 @@ Revise the program to use pointers instead of integers to keep track of position
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: He lived as a devil, eh?
+Palindrome
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -226,18 +219,11 @@ Revise the program to use pointers instead of integers to keep track of position
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: Madam, I am Adam.
+Not a Palindrome
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -246,26 +232,56 @@ Revise the program to use pointers instead of integers to keep track of position
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: Malayalam
+Palindrome
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial3 Comments:
+## Program Link
 
-<!-- START: Comments -->
+[cknkCh12Prj002b.c](./cknkCh12Prj002b.c)
 
+## Output/ExecutionLog:
 
+### Trial1:
 
-<!-- END: Comments -->
+#### Trial1 execution:
 
-# Exercise Comment:
+<!-- START: terminal interaction or other output -->
 
-<!-- START: Comments -->
+```
+Enter a message: He lived as a devil, eh?
+Palindrome
+```
 
+<!-- END: terminal interaction or other output -->
 
+### Trial2:
 
-<!-- END: Comments -->
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter a message: Malayalam
+Palindrome
+```
+
+<!-- END: terminal interaction or other output -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter a message: Madam, I am Adam.
+Not a Palindrome
+```
+
+<!-- END: terminal interaction or other output -->
 
 </div>
 <!-- END: div -->
