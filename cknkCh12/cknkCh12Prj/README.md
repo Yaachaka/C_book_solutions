@@ -606,18 +606,12 @@ Modify the `maxmin.c` program of Section 11.4 so that the `max_min` function use
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter 10 numbers: 10 38 12 45 67 8 11 12 9 10
+Largest: 67
+Smallest: 8
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -626,18 +620,12 @@ Modify the `maxmin.c` program of Section 11.4 so that the `max_min` function use
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter 10 numbers: 9 16 47 82 4 66 12 3 25 51
+Largest: 82
+Smallest: 3
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -646,26 +634,12 @@ Modify the `maxmin.c` program of Section 11.4 so that the `max_min` function use
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter 10 numbers: 99 88 22 11 33 55 77 44 66 00 
+Largest: 99
+Smallest: 0
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
