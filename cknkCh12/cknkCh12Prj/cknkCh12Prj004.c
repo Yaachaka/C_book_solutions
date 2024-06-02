@@ -1,7 +1,7 @@
 /********************************************************************************
- * File: cknkCh12Prj002b.c
+ * File: cknkCh12Prj004.c
  * Author: Yaachaka
- * Purpose: Check if the input statement is a palindrome. (Using Arrays and pointers to walk through the array)
+ * Purpose: Check if the input statement is a palindrome. (Using Array name as a pointer and pointers to walk through the array)
  ********************************************************************************/
 
 /* START: Header inclusions*/
@@ -41,10 +41,10 @@ int main(void)
     bool b_palindrome = false;
     char message[N], *ch_p1, *ch_p2;
     
-    ch_p1 = &message[0];
+    ch_p1 = message;
     printf("Enter a message: ");
     
-    while(ch_p1 < &message[N] && (*ch_p1 = tolower(getchar())) != '\n')
+    while(ch_p1 < message + N && (*ch_p1 = tolower(getchar())) != '\n')
     {
         if(*ch_p1 >= 'a' && *ch_p1 <= 'z')
         {
@@ -54,7 +54,7 @@ int main(void)
 
     // Check if palindrome
     ch_p1--;
-    ch_p2 = &message[0];
+    ch_p2 = message;
     b_palindrome = true;
     while(ch_p2 < ch_p1)
     {

@@ -393,18 +393,11 @@ Simplify Programming Project 2(b) by taking advantage of the fact that an array 
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: He lived as a devil, eh?
+Palindrome
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -413,18 +406,11 @@ Simplify Programming Project 2(b) by taking advantage of the fact that an array 
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: Malayalam
+Palindrome
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -433,26 +419,11 @@ Simplify Programming Project 2(b) by taking advantage of the fact that an array 
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: Madam, I am Adam.
+Not a Palindrome
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
