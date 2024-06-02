@@ -464,18 +464,11 @@ Modify Programming Project 14 from Chapter 8 so that it uses a pointer instead o
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a sentence (max hundred characters): you can cage a swallow can't you?
+Reversal of words in sentence: you can't swallow a cage can you?
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -484,18 +477,11 @@ Modify Programming Project 14 from Chapter 8 so that it uses a pointer instead o
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a sentence (max hundred characters): Nooraaru kaala sukhavaagi baalu.
+Reversal of words in sentence: baalu sukhavaagi kaala Nooraaru.
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -504,26 +490,11 @@ Modify Programming Project 14 from Chapter 8 so that it uses a pointer instead o
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a sentence (max hundred characters): katheyo bareda yaaru Idu?
+Reversal of words in sentence: Idu yaaru bareda katheyo?
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
