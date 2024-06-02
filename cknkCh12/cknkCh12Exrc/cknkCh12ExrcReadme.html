@@ -42,23 +42,28 @@ Chapter 12 exercises
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution">Solution:</h1>
-<h2 id="program-link">Program Link</h2>
-<p><a href="./cknkCh12Exrc001.c">cknkCh12Exrc001.c</a></p>
-<h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
-<h3 id="trial1">Trial1:</h3>
-<h4 id="trial1-execution">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution" class="ch_solution">
+<h1>Solution:</h1>
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
+<p>Value of <code>*(p+3)</code> is 14.</p>
+</li>
+<li>
+<p>Value of <code>*(q-3)</code> is 34.</p>
+</li>
+<li>
+<p>Value of <code>q - p</code> is 4.</p>
+</li>
+<li>
+<p>The condition <code>p &lt; q</code> is true.</p>
+</li>
+<li>
+<p>The condition <code>*p &lt; *q</code> is false.</p>
+</li>
+</ol>
+<!-- END: ordered-list -->
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -70,28 +75,22 @@ Chapter 12 exercises
 <code>middle</code> are all pointer variables of the same type, and that
 <code>low</code> and <code>high</code> point to elements of an array.
 Why is the following statement illegal, and how could it be fixed?</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>middle <span class="op">=</span> <span class="op">(</span>low <span class="op">+</span> high<span class="op">)</span> <span class="op">/</span> <span class="dv">2</span><span class="op">;</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>middle <span class="op">=</span> <span class="op">(</span>low <span class="op">+</span> high<span class="op">)</span> <span class="op">/</span> <span class="dv">2</span><span class="op">;</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-1">Solution:</h1>
-<h2 id="program-link-1">Program Link</h2>
-<p><a href="./cknkCh12Exrc002.c">cknkCh12Exrc002.c</a></p>
-<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
-<h3 id="trial1-1">Trial1:</h3>
-<h4 id="trial1-execution-1">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-1">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-1">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-1" class="ch_solution">
+<h1>Solution:</h1>
+<p>The intention is to determine the middle value among a set of
+numbers. Since we are using pointer variables, the expression was
+supposed to dereference the pointer variables while performing the
+arithmetic and assignment operations; which means the statement should
+perform object arithmetic and assignment operations but not
+pointer/address arithmetic and assignment operations. The correct
+statement is as follows:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">*</span>middle <span class="op">=</span> <span class="op">(*</span>low <span class="op">+</span> <span class="op">*</span>high<span class="op">)</span> <span class="op">/</span> <span class="dv">2</span><span class="op">;</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -99,39 +98,27 @@ Why is the following statement illegal, and how could it be fixed?</p>
 <h1>cknkCh12Exrc003</h1>
 <p>Section 12.2</p>
 <!-- START: Problem Statement -->
-<p>What will be the contents of the a array after the following
-statements are executed?</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define N 10</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span>N<span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">5</span><span class="op">,</span> <span class="dv">6</span><span class="op">,</span> <span class="dv">7</span><span class="op">,</span> <span class="dv">8</span><span class="op">,</span> <span class="dv">9</span><span class="op">,</span> <span class="dv">10</span><span class="op">};</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">*</span>p <span class="op">=</span> <span class="op">&amp;</span>a<span class="op">[</span><span class="dv">0</span><span class="op">],</span> <span class="op">*</span>q <span class="op">=</span> <span class="op">&amp;</span>a<span class="op">[</span>N<span class="op">-</span><span class="dv">1</span><span class="op">],</span> temp<span class="op">;</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>p <span class="op">&lt;</span> q<span class="op">)</span> <span class="op">{</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    temp <span class="op">-</span> <span class="op">*</span>p<span class="op">;</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">*</span>p<span class="op">++</span> <span class="op">=</span> <span class="op">*</span>q<span class="op">;</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">*</span>q<span class="op">--</span> <span class="op">=</span> temp<span class="op">;</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>What will be the contents of the <code>a</code> array after the
+following statements are executed?</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define N 10</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span>N<span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">5</span><span class="op">,</span> <span class="dv">6</span><span class="op">,</span> <span class="dv">7</span><span class="op">,</span> <span class="dv">8</span><span class="op">,</span> <span class="dv">9</span><span class="op">,</span> <span class="dv">10</span><span class="op">};</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">*</span>p <span class="op">=</span> <span class="op">&amp;</span>a<span class="op">[</span><span class="dv">0</span><span class="op">],</span> <span class="op">*</span>q <span class="op">=</span> <span class="op">&amp;</span>a<span class="op">[</span>N<span class="op">-</span><span class="dv">1</span><span class="op">],</span> temp<span class="op">;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(</span>p <span class="op">&lt;</span> q<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    temp <span class="op">=</span> <span class="op">*</span>p<span class="op">;</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">*</span>p<span class="op">++</span> <span class="op">=</span> <span class="op">*</span>q<span class="op">;</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">*</span>q<span class="op">--</span> <span class="op">=</span> temp<span class="op">;</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-2">Solution:</h1>
-<h2 id="program-link-2">Program Link</h2>
-<p><a href="./cknkCh12Exrc003.c">cknkCh12Exrc003.c</a></p>
-<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
-<h3 id="trial1-2">Trial1:</h3>
-<h4 id="trial1-execution-2">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-2">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-2">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-2" class="ch_solution">
+<h1>Solution:</h1>
+<p>The array <code>a</code> will be
+<code>{10, 9, 8, 7, 6, 5, 4, 3, 2, 1}</code>.</p>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -147,23 +134,46 @@ variable <code>top_ptr</code> instead of the integer variable
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-3">Solution:</h1>
-<h2 id="program-link-3">Program Link</h2>
-<p><a href="./cknkCh12Exrc004.c">cknkCh12Exrc004.c</a></p>
-<h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
-<h3 id="trial1-3">Trial1:</h3>
-<h4 id="trial1-execution-3">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-3">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-3">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-3" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb5"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span><span class="pp"> </span><span class="co">/* C99 only */</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="pp">#define STACK_SIZE 100</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co">/* external variables */</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> contents<span class="op">[</span>STACK_SIZE<span class="op">]</span> <span class="op">;</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">*</span>top_ptr <span class="op">=</span> contents<span class="op">;</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> make_empty <span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    top_ptr <span class="op">=</span> contents<span class="op">;</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> is_empty <span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> top_ptr <span class="op">==</span> contents<span class="op">;</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> is_full <span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> top_ptr <span class="op">==</span> <span class="op">(</span>contents <span class="op">+</span> STACK_SIZE<span class="op">);</span></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> push<span class="op">(</span><span class="dt">int</span> i<span class="op">)</span></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>is_full<span class="op">())</span></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>        stack_overflow<span class="op">();</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>        <span class="op">*(</span>top_ptr<span class="op">++)</span> <span class="op">=</span> i<span class="op">;</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> pop <span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>is_empty<span class="op">())</span></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>        stack_underflow<span class="op">()</span> <span class="op">;</span></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="op">*(--</span>top_ptr<span class="op">);</span></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -182,7 +192,7 @@ expressions, which are true (have a nonzero value)?</p>
 <pre><code>p == a[0]</code></pre>
 </li>
 <li>
-<pre><code>p == &amp;a[0];</code></pre>
+<pre><code>p == &amp;a[0]</code></pre>
 </li>
 <li>
 <pre><code>*p == a[0]</code></pre>
@@ -196,23 +206,32 @@ expressions, which are true (have a nonzero value)?</p>
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-4">Solution:</h1>
-<h2 id="program-link-4">Program Link</h2>
-<p><a href="./cknkCh12Exrc005.c">cknkCh12Exrc005.c</a></p>
-<h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
-<h3 id="trial1-4">Trial1:</h3>
-<h4 id="trial1-execution-4">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-4">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-4">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-4" class="ch_solution">
+<h1>Solution:</h1>
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
+<pre><code>p == a[0]</code></pre>
+<p>Illegal. Comparison between pointer/address and object/value.</p>
+</li>
+<li>
+<pre><code>p == &amp;a[0]</code></pre>
+<p>Legal. Comparison between the addresses. The value of the expression
+is <code>true</code>.</p>
+</li>
+<li>
+<pre><code>*p == a[0]</code></pre>
+<p>Legal. Comparison between the values. The value of the expression is
+<code>true</code>.</p>
+</li>
+<li>
+<pre><code>p[0] == a[0]</code></pre>
+<p>Legal. Comparison between the values. The value of the expression is
+<code>true</code>.</p>
+</li>
+</ol>
+<!-- END: ordered-list -->
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -224,38 +243,33 @@ expressions, which are true (have a nonzero value)?</p>
 array subscripting. (In other words, eliminate the variable
 <code>i</code> and all uses of the <code>[]</code> operator.) Make as
 few changes as possible.</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> sum_array<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> sum<span class="op">;</span></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>        sum <span class="op">+=</span> a<span class="op">[</span>i<span class="op">];</span></span>
-<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sum<span class="op">;</span></span>
-<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> sum_array<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> sum<span class="op">;</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>        sum <span class="op">+=</span> a<span class="op">[</span>i<span class="op">];</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sum<span class="op">;</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-5">Solution:</h1>
-<h2 id="program-link-5">Program Link</h2>
-<p><a href="./cknkCh12Exrc006.c">cknkCh12Exrc006.c</a></p>
-<h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
-<h3 id="trial1-5">Trial1:</h3>
-<h4 id="trial1-execution-5">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-5">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-5">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-5" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb15"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> sum_array<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> <span class="op">*</span>a<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>n<span class="op">--)</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>        sum <span class="op">+=</span> <span class="op">*</span>a<span class="op">++;</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sum<span class="op">;</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -264,7 +278,7 @@ few changes as possible.</p>
 <p>Section 12.3</p>
 <!-- START: Problem Statement -->
 <p>Write the following function:</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> search<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">,</span> <span class="dt">int</span> key<span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> search<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">,</span> <span class="dt">int</span> key<span class="op">);</span></span></code></pre></div>
 <p><code>a</code> is an array to be searched, <code>n</code> is the
 number of elements in the array, and <code>key</code> is the search key.
 <code>search</code> should return <code>true</code> if key matches some
@@ -274,23 +288,20 @@ pointer arithmetic—not subscripting—to visit array elements.</p>
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-6">Solution:</h1>
-<h2 id="program-link-6">Program Link</h2>
-<p><a href="./cknkCh12Exrc007.c">cknkCh12Exrc007.c</a></p>
-<h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
-<h3 id="trial1-6">Trial1:</h3>
-<h4 id="trial1-execution-6">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-6">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-6">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-6" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb17"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> search<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">,</span> <span class="dt">int</span> key<span class="op">)</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>n<span class="op">--)</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>key <span class="op">==</span> <span class="op">*(</span>a<span class="op">++))</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> true<span class="op">;</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> false<span class="op">;</span></span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -302,36 +313,29 @@ pointer arithmetic—not subscripting—to visit array elements.</p>
 array subscripting. (In other words, eliminate the variable
 <code>i</code> and all uses of the <code>[]</code> operator.) Make as
 few changes as possible.</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> store_zeros<span class="op">(</span><span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">;</span></span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
-<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
-<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>        a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
-<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
-<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> store_zeros<span class="op">(</span><span class="dt">int</span> a<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>        a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-7">Solution:</h1>
-<h2 id="program-link-7">Program Link</h2>
-<p><a href="./cknkCh12Exrc008.c">cknkCh12Exrc008.c</a></p>
-<h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
-<h3 id="trial1-7">Trial1:</h3>
-<h4 id="trial1-execution-7">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-7">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-7">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-7" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb19"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> store_zeros<span class="op">(</span><span class="dt">int</span> <span class="op">*</span>a<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>n<span class="op">--)</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>        <span class="op">*(</span>a<span class="op">++)</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -340,7 +344,7 @@ few changes as possible.</p>
 <p>Section 12.3</p>
 <!-- START: Problem Statement -->
 <p>Write the following function:</p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> inner_product<span class="op">(</span><span class="dt">const</span> <span class="dt">double</span> <span class="op">*</span>a<span class="op">,</span> <span class="dt">const</span> <span class="dt">double</span> <span class="op">*</span>b<span class="op">,</span> <span class="dt">int</span> n<span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> inner_product<span class="op">(</span><span class="dt">const</span> <span class="dt">double</span> <span class="op">*</span>a<span class="op">,</span> <span class="dt">const</span> <span class="dt">double</span> <span class="op">*</span>b<span class="op">,</span> <span class="dt">int</span> n<span class="op">);</span></span></code></pre></div>
 <p><code>a</code> and <code>b</code> both point to arrays of length
 <code>n</code>. The function should return
 <code>a[0] * b[0] + a[1] * b[1] + ... + a[n-1] * b[n-1]</code>. Use
@@ -349,23 +353,22 @@ pointer arithmetic—not subscripting—to visit array elements.</p>
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-8">Solution:</h1>
-<h2 id="program-link-8">Program Link</h2>
-<p><a href="./cknkCh12Exrc009.c">cknkCh12Exrc009.c</a></p>
-<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
-<h3 id="trial1-8">Trial1:</h3>
-<h4 id="trial1-execution-8">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-8">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-8">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-8" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb21"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> inner_product<span class="op">(</span><span class="dt">const</span> <span class="dt">double</span> <span class="op">*</span>a<span class="op">,</span> <span class="dt">const</span> <span class="dt">double</span> <span class="op">*</span>b<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">double</span> d_inner_product <span class="op">=</span> <span class="fl">0.0</span><span class="op">;</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>n<span class="op">--)</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>        d_inner_product <span class="op">+=</span> <span class="op">(*</span>a<span class="op">)</span> <span class="op">*</span> <span class="op">(*</span>b<span class="op">);</span></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>        a<span class="op">++;</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>        b<span class="op">++;</span></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> d_inner_product<span class="op">;</span></span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -373,29 +376,19 @@ pointer arithmetic—not subscripting—to visit array elements.</p>
 <h1>cknkCh12Exrc010</h1>
 <p>Section 12.3</p>
 <!-- START: Problem Statement -->
-<p>Modify the <code>find_middle</code> function of Scction 11.5 so that
+<p>Modify the <code>find_middle</code> function of Section 11.5 so that
 it uses pointer arithmetic to calculate the return value.</p>
 <!-- END: Problem Statement -->
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-9">Solution:</h1>
-<h2 id="program-link-9">Program Link</h2>
-<p><a href="./cknkCh12Exrc010.c">cknkCh12Exrc010.c</a></p>
-<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
-<h3 id="trial1-9">Trial1:</h3>
-<h4 id="trial1-execution-9">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-9">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-9">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-9" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb22"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">*</span>find_middle<span class="op">(</span><span class="dt">int</span> <span class="op">*</span>a<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="op">(</span>a <span class="op">+</span> <span class="op">(</span>n<span class="op">/</span><span class="dv">2</span><span class="op">));</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -409,23 +402,22 @@ arithmetic—not subscripting—to visit array elements.</p>
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-10">Solution:</h1>
-<h2 id="program-link-10">Program Link</h2>
-<p><a href="./cknkCh12Exrc011.c">cknkCh12Exrc011.c</a></p>
-<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
-<h3 id="trial1-10">Trial1:</h3>
-<h4 id="trial1-execution-10">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-10">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-10">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-10" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb23"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> find_largest<span class="op">(</span><span class="dt">int</span> <span class="op">*</span>a<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> max<span class="op">;</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>    max <span class="op">=</span> <span class="op">*</span>a<span class="op">++;</span></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(--</span>n<span class="op">)</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(*</span>a <span class="op">&gt;</span> max<span class="op">)</span></span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>            max <span class="op">=</span> <span class="op">*</span>a<span class="op">;</span></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>        a<span class="op">++;</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> max<span class="op">;</span></span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -434,7 +426,7 @@ arithmetic—not subscripting—to visit array elements.</p>
 <p>Section 12.3</p>
 <!-- START: Problem Statement -->
 <p>Wite the following function:</p>
-<div class="sourceCode" id="cb23"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> find_two_largest<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> <span class="op">*</span>a<span class="op">,</span> <span class="dt">int</span> n<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>largest<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>second_largest<span class="op">)</span> <span class="op">;</span></span></code></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> find_two_largest<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> <span class="op">*</span>a<span class="op">,</span> <span class="dt">int</span> n<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>largest<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>second_largest<span class="op">);</span></span></code></pre></div>
 <p><code>a</code> points to an array of length <code>n</code>. The
 function searches the array for its largest and second-largest elements,
 storing them in the variables pointed to by <code>largest</code> and
@@ -444,23 +436,24 @@ subscripting—to visit array elements.</p>
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-11">Solution:</h1>
-<h2 id="program-link-11">Program Link</h2>
-<p><a href="./cknkCh12Exrc012.c">cknkCh12Exrc012.c</a></p>
-<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
-<h3 id="trial1-11">Trial1:</h3>
-<h4 id="trial1-execution-11">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-11">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-11">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-11" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb25"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> find_two_largest<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> <span class="op">*</span>a<span class="op">,</span> <span class="dt">int</span> n<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>largest<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>second_largest<span class="op">)</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    <span class="op">*</span>largest <span class="op">=</span> <span class="op">*</span>a<span class="op">++;</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">*</span>second_largest <span class="op">=</span> <span class="op">*</span>largest<span class="op">;</span></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(--</span>n<span class="op">)</span></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(*</span>largest <span class="op">&lt;</span> <span class="op">*</span>a<span class="op">)</span></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>            <span class="op">*</span>largest <span class="op">=</span> <span class="op">*</span>a<span class="op">;</span></span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>            <span class="op">*</span>second_largest <span class="op">=</span> <span class="op">*</span>largest<span class="op">;</span></span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>        a<span class="op">++;</span></span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -471,7 +464,7 @@ subscripting—to visit array elements.</p>
 <p>Section 8.2 had a program fragment in which two nested
 <code>for</code> loops initialized the array <code>ident</code> for use
 as an identity matrix. Rewrite this code, using a single pointer to step
-through the array one element at a time, <em>Hint</em>: Since we won’t
+through the array one element at a time. <em>Hint</em>: Since we won’t
 be using <code>row</code> and <code>col</code> index variables, it won’t
 be easy to tell where to store 1. Instead, we can use the fact that the
 first element of the array should be 1, the next <code>N</code> elements
@@ -482,23 +475,28 @@ count reaches <code>N</code>, it’s time to store 1.</p>
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-12">Solution:</h1>
-<h2 id="program-link-12">Program Link</h2>
-<p><a href="./cknkCh12Exrc013.c">cknkCh12Exrc013.c</a></p>
-<h2 id="outputexecutionlog-12">Output/ExecutionLog:</h2>
-<h3 id="trial1-12">Trial1:</h3>
-<h4 id="trial1-execution-12">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-12">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-12">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-12" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb26"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define N 10</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> ident<span class="op">[</span>N<span class="op">][</span>N<span class="op">];</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> ones <span class="op">=</span> N<span class="op">,</span> zeroes <span class="op">=</span> N<span class="op">;</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> <span class="op">*</span>p <span class="op">=</span> ident<span class="op">;</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a><span class="op">*</span>p<span class="op">++</span> <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a><span class="op">--</span>ones<span class="op">;</span></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span></span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">(</span>zeroes<span class="op">--)</span></span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>        <span class="op">*</span>p<span class="op">++</span> <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>    zeroes <span class="op">=</span> N<span class="op">;</span></span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a>    <span class="op">*</span>p<span class="op">++</span> <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a><span class="op">}</span><span class="cf">while</span><span class="op">(--</span>ones<span class="op">);</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -509,7 +507,7 @@ count reaches <code>N</code>, it’s time to store 1.</p>
 <p>Assume that the following array contains a week’s worth of hourly
 temperature readings, with each row containing the readings for one
 day:</p>
-<div class="sourceCode" id="cb26"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> temperatures<span class="op">[</span><span class="dv">7</span><span class="op">][</span><span class="dv">24</span><span class="op">];</span></span></code></pre></div>
+<div class="sourceCode" id="cb27"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> temperatures<span class="op">[</span><span class="dv">7</span><span class="op">][</span><span class="dv">24</span><span class="op">];</span></span></code></pre></div>
 <p>Write a statement that uses the <code>search</code> function (see
 Exercise 7) to search the entire temperatures array for the value
 32.</p>
@@ -517,23 +515,10 @@ Exercise 7) to search the entire temperatures array for the value
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-13">Solution:</h1>
-<h2 id="program-link-13">Program Link</h2>
-<p><a href="./cknkCh12Exrc014.c">cknkCh12Exrc014.c</a></p>
-<h2 id="outputexecutionlog-13">Output/ExecutionLog:</h2>
-<h3 id="trial1-13">Trial1:</h3>
-<h4 id="trial1-execution-13">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-13">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-13">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-13" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb28"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>b_temperature_available <span class="op">=</span> search<span class="op">(</span>temperatures<span class="op">[</span><span class="dv">0</span><span class="op">],</span> <span class="dv">7</span> <span class="op">*</span> <span class="dv">24</span><span class="op">,</span> <span class="dv">32</span><span class="op">);</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -548,23 +533,15 @@ Use a pointer to visit each element of the row.</p>
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-14">Solution:</h1>
-<h2 id="program-link-14">Program Link</h2>
-<p><a href="./cknkCh12Exrc015.c">cknkCh12Exrc015.c</a></p>
-<h2 id="outputexecutionlog-14">Output/ExecutionLog:</h2>
-<h3 id="trial1-14">Trial1:</h3>
-<h4 id="trial1-execution-14">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-14">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-14">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-14" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb29"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">*</span>p<span class="op">;</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>p <span class="op">=</span> temperatures<span class="op">[</span>i<span class="op">];</span> p <span class="op">&lt;</span> <span class="op">(</span>temperatures<span class="op">[</span>i<span class="op">]</span> <span class="op">+</span> <span class="dv">24</span><span class="op">);</span> p<span class="op">++)</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;%d &quot;</span><span class="op">,</span> <span class="op">*</span>p<span class="op">);</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -580,23 +557,15 @@ passing it one row of the array at a time.</p>
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-15">Solution:</h1>
-<h2 id="program-link-15">Program Link</h2>
-<p><a href="./cknkCh12Exrc016.c">cknkCh12Exrc016.c</a></p>
-<h2 id="outputexecutionlog-15">Output/ExecutionLog:</h2>
-<h3 id="trial1-15">Trial1:</h3>
-<h4 id="trial1-execution-15">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-15">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-15">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-15" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb30"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">7</span><span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;Highest temperature in day %d is %d.&quot;</span><span class="op">,</span> i<span class="op">,</span> find_largest<span class="op">(</span>temperatures<span class="op">[</span>i<span class="op">],</span> <span class="dv">24</span><span class="op">));</span></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -608,41 +577,40 @@ passing it one row of the array at a time.</p>
 array subscripting. (In other words, eliminate the variables
 <code>i</code> and <code>j</code> and all uses of the <code>[]</code>
 operator.) Use a single loop instead of nested loops.</p>
-<div class="sourceCode" id="cb30"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> sum_two_dimensional_array<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> a<span class="op">[][</span>LEN<span class="op">],</span> <span class="dt">int</span> n<span class="op">)</span></span>
-<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> j<span class="op">,</span> sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
-<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
-<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
-<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span><span class="op">(</span>j <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> j <span class="op">&lt;</span> LEN<span class="op">;</span> j<span class="op">++)</span></span>
-<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
-<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>            sum <span class="op">+=</span> a<span class="op">[</span>i<span class="op">][</span>j<span class="op">];</span></span>
-<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
-<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sum<span class="op">;</span></span>
-<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<div class="sourceCode" id="cb31"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> sum_two_dimensional_array<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> a<span class="op">[][</span>LEN<span class="op">],</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> j<span class="op">,</span> sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span><span class="op">(</span>j <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> j <span class="op">&lt;</span> LEN<span class="op">;</span> j<span class="op">++)</span></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>            sum <span class="op">+=</span> a<span class="op">[</span>i<span class="op">][</span>j<span class="op">];</span></span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sum<span class="op">;</span></span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-16">Solution:</h1>
-<h2 id="program-link-16">Program Link</h2>
-<p><a href="./cknkCh12Exrc017.c">cknkCh12Exrc017.c</a></p>
-<h2 id="outputexecutionlog-16">Output/ExecutionLog:</h2>
-<h3 id="trial1-16">Trial1:</h3>
-<h4 id="trial1-execution-16">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-16">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-16">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-16" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb32"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> sum_two_dimensional_array<span class="op">(</span><span class="dt">const</span> <span class="dt">int</span> a<span class="op">[][</span>LEN<span class="op">],</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> <span class="op">*</span>p <span class="op">=</span> a<span class="op">[</span><span class="dv">0</span><span class="op">];</span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>p <span class="op">=</span> a<span class="op">[</span><span class="dv">0</span><span class="op">];</span> p <span class="op">&lt;</span> a<span class="op">[</span><span class="dv">0</span><span class="op">]</span> <span class="op">+</span> <span class="op">(</span>n <span class="op">*</span> LEN<span class="op">);</span> p<span class="op">++)</span></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>        sum <span class="op">+=</span> <span class="op">*</span>p<span class="op">;</span></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sum<span class="op">;</span></span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -651,29 +619,45 @@ operator.) Use a single loop instead of nested loops.</p>
 <p>Section 12.4</p>
 <!-- START: Problem Statement -->
 <p>Write the <code>evaluate_position</code> function described in
-Excrcise 13 of Chapter 9. Use pointer arithmetic—not subscripting—to
+Exercise 13 of Chapter 9. Use pointer arithmetic—not subscripting—to
 visit array elements. Use a single loop instead of nested loops.</p>
 <!-- END: Problem Statement -->
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-17">Solution:</h1>
-<h2 id="program-link-17">Program Link</h2>
-<p><a href="./cknkCh12Exrc018.c">cknkCh12Exrc018.c</a></p>
-<h2 id="outputexecutionlog-17">Output/ExecutionLog:</h2>
-<h3 id="trial1-17">Trial1:</h3>
-<h4 id="trial1-execution-17">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-17">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-17">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<section id="solution-17" class="ch_solution">
+<h1>Solution:</h1>
+<div class="sourceCode" id="cb33"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> evaluate_position<span class="op">(</span><span class="dt">char</span> board<span class="op">[</span><span class="dv">8</span><span class="op">][</span><span class="dv">8</span><span class="op">])</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i_diff <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> i_sumInWhitePieces <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> i_sumInBlackPieces <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> <span class="op">*</span>p<span class="op">;</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>p <span class="op">=</span> board<span class="op">[</span><span class="dv">0</span><span class="op">];</span> p <span class="op">&lt;</span> <span class="op">(</span>board<span class="op">[</span><span class="dv">0</span><span class="op">]</span> <span class="op">+</span> <span class="op">(</span><span class="dv">8</span> <span class="op">*</span> <span class="dv">8</span><span class="op">));</span> p<span class="op">++)</span></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">switch</span><span class="op">(*</span>p<span class="op">)</span></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>            <span class="co">// White chess pieces</span></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;Q&#39;</span><span class="op">:</span> i_sumInWhitePieces <span class="op">+=</span> <span class="dv">9</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;R&#39;</span><span class="op">:</span> i_sumInWhitePieces <span class="op">+=</span> <span class="dv">5</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;B&#39;</span><span class="op">:</span> i_sumInWhitePieces <span class="op">+=</span> <span class="dv">3</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;N&#39;</span><span class="op">:</span> i_sumInWhitePieces <span class="op">+=</span> <span class="dv">3</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;P&#39;</span><span class="op">:</span> i_sumInWhitePieces <span class="op">+=</span> <span class="dv">1</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Black chess pieces</span></span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;q&#39;</span><span class="op">:</span> i_sumInBlackPieces <span class="op">+=</span> <span class="dv">9</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;r&#39;</span><span class="op">:</span> i_sumInBlackPieces <span class="op">+=</span> <span class="dv">5</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;b&#39;</span><span class="op">:</span> i_sumInBlackPieces <span class="op">+=</span> <span class="dv">3</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;n&#39;</span><span class="op">:</span> i_sumInBlackPieces <span class="op">+=</span> <span class="dv">3</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a>            <span class="cf">case</span> <span class="ch">&#39;p&#39;</span><span class="op">:</span> i_sumInBlackPieces <span class="op">+=</span> <span class="dv">1</span><span class="op">;</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a>            <span class="cf">default</span><span class="op">:</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb33-24"><a href="#cb33-24" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>    <span class="co">// switch statement</span></span>
+<span id="cb33-25"><a href="#cb33-25" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>    <span class="co">// for loop</span></span>
+<span id="cb33-26"><a href="#cb33-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-27"><a href="#cb33-27" aria-hidden="true" tabindex="-1"></a>    i_diff <span class="op">=</span> i_sumInWhitePieces <span class="op">-</span> i_sumInBlackPieces<span class="op">;</span></span>
+<span id="cb33-28"><a href="#cb33-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-29"><a href="#cb33-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> i_diff<span class="op">;</span></span>
+<span id="cb33-30"><a href="#cb33-30" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>    <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: evaluate_position</span></span></code></pre></div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 </body>

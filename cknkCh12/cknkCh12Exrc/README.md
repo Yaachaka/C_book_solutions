@@ -70,40 +70,35 @@ Is the condition `*p < *q` true or false?
 
 # Solution:
 
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
 
-## Program Link
+Value of `*(p+3)` is 14.
 
-[cknkCh12Exrc001.c](./cknkCh12Exrc001.c)
+</li>
+<li>
 
-## Output/ExecutionLog:
+Value of `*(q-3)` is 34.
 
-### Trial1:
+</li>
+<li>
 
-#### Trial1 execution:
+Value of `q - p` is 4.
 
-<!-- START: terminal interaction or other output -->
+</li>
+<li>
 
-```
+The condition `p < q` is true.
 
-```
+</li>
+<li>
 
-<!-- END: terminal interaction or other output -->
+The condition `*p < *q` is false.
 
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+</li>
+</ol>
+<!-- END: ordered-list -->
 
 </div>
 <!-- END: div -->
@@ -136,40 +131,11 @@ middle = (low + high) / 2;
 
 # Solution:
 
+The intention is to determine the middle value among a set of numbers. Since we are using pointer variables, the expression was supposed to dereference the pointer variables while performing the arithmetic and assignment operations; which means the statement should perform object arithmetic and assignment operations but not pointer/address arithmetic and assignment operations. The correct statement is as follows: 
 
-## Program Link
-
-[cknkCh12Exrc002.c](./cknkCh12Exrc002.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+```C
+*middle = (*low + *high) / 2;
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -186,7 +152,7 @@ Section 12.2
 
 <!-- START: Problem Statement -->
 
-What will be the contents of the a array after the following statements are executed?
+What will be the contents of the `a` array after the following statements are executed?
 
 ```C
 #define N 10
@@ -195,7 +161,7 @@ int a[N] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 int *p = &a[0], *q = &a[N-1], temp;
 
 while (p < q) {
-    temp - *p;
+    temp = *p;
     *p++ = *q;
     *q-- = temp;
 }
@@ -211,40 +177,7 @@ while (p < q) {
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh12Exrc003.c](./cknkCh12Exrc003.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
-```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
+The array `a` will be `{10, 9, 8, 7, 6, 5, 4, 3, 2, 1}`.
 
 </div>
 <!-- END: div -->
@@ -273,40 +206,45 @@ Rewrite the `make_empty`, `is_empty`, and `is_full` functions of Section 10.2 to
 
 # Solution:
 
+```C
+#include <stdbool.h> /* C99 only */
+#define STACK_SIZE 100
 
-## Program Link
+/* external variables */
+int contents[STACK_SIZE] ;
+int *top_ptr = contents;
 
-[cknkCh12Exrc004.c](./cknkCh12Exrc004.c)
+void make_empty (void)
+{
+    top_ptr = contents;
+}
 
-## Output/ExecutionLog:
+bool is_empty (void)
+{
+    return top_ptr == contents;
+}
 
-### Trial1:
+bool is_full (void)
+{
+    return top_ptr == (contents + STACK_SIZE);
+}
 
-#### Trial1 execution:
+void push(int i)
+{
+    if (is_full())
+        stack_overflow();
+    else
+        *(top_ptr++) = i;
+}
 
-<!-- START: terminal interaction or other output -->
-
+int pop (void)
+{
+    if (is_empty())
+        stack_underflow() ;
+    else
+        return *(--top_ptr);
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -337,7 +275,7 @@ p == a[0]
 <li>
 
 ```
-p == &a[0];
+p == &a[0]
 ```
 
 </li>
@@ -368,40 +306,46 @@ p[0] == a[0]
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh12Exrc005.c](./cknkCh12Exrc005.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
 
 ```
-
+p == a[0]
 ```
 
-<!-- END: terminal interaction or other output -->
+Illegal. Comparison between pointer/address and object/value.
 
-#### Trial1 Comments:
+</li>
+<li>
 
-<!-- START: Comments -->
+```
+p == &a[0]
+```
 
+Legal. Comparison between the addresses. The value of the expression is `true`.
 
+</li>
+<li>
 
-<!-- END: Comments -->
+```
+*p == a[0]
+```
 
-# Exercise Comment:
+Legal. Comparison between the values. The value of the expression is `true`.
 
-<!-- START: Comments -->
+</li>
+<li>
 
+```
+p[0] == a[0]
+```
 
+Legal. Comparison between the values. The value of the expression is `true`.
 
-<!-- END: Comments -->
+</li>
+</ol>
+<!-- END: ordered-list -->
 
 </div>
 <!-- END: div -->
@@ -444,40 +388,17 @@ int sum_array(const int a[], int n)
 
 # Solution:
 
+```C
+int sum_array(const int *a, int n)
+{
+    int sum = 0;
 
-## Program Link
+    while(n--)
+        sum += *a++;
 
-[cknkCh12Exrc006.c](./cknkCh12Exrc006.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+    return sum;
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -512,40 +433,19 @@ bool search(const int a[], int n, int key);
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh12Exrc007.c](./cknkCh12Exrc007.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+```C
+bool search(const int a[], int n, int key)
+{
+    while(n--)
+    {
+        if(key == *(a++))
+        {
+            return true;
+        }
+    }
+    return false;
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -586,40 +486,15 @@ void store_zeros(int a[], int n)
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh12Exrc008.c](./cknkCh12Exrc008.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+```C
+void store_zeros(int *a, int n)
+{
+    while(n--)
+    {
+        *(a++) = 0;
+    }
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -654,40 +529,21 @@ double inner_product(const double *a, const double *b, int n);
 
 # Solution:
 
+```C
+double inner_product(const double *a, const double *b, int n)
+{
+    double d_inner_product = 0.0;
 
-## Program Link
+    while(n--)
+    {
+        d_inner_product += (*a) * (*b);
+        a++;
+        b++;
+    }
 
-[cknkCh12Exrc009.c](./cknkCh12Exrc009.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+    return d_inner_product;
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -704,7 +560,7 @@ Section 12.3
 
 <!-- START: Problem Statement -->
 
-Modify the `find_middle` function of Scction 11.5 so that it uses pointer arithmetic to calculate the return value.
+Modify the `find_middle` function of Section 11.5 so that it uses pointer arithmetic to calculate the return value.
 
 <!-- END: Problem Statement -->
 
@@ -716,40 +572,12 @@ Modify the `find_middle` function of Scction 11.5 so that it uses pointer arithm
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh12Exrc010.c](./cknkCh12Exrc010.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+```C
+int *find_middle(int *a, int n)
+{
+    return (a + (n/2));
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -778,40 +606,21 @@ Modify the `find_largest` function so that it uses pointer arithmetic—not subs
 
 # Solution:
 
+```C
+int find_largest(int *a, int n)
+{
+    int i, max;
 
-## Program Link
-
-[cknkCh12Exrc011.c](./cknkCh12Exrc011.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+    max = *a++;
+    while(--n)
+    {
+        if(*a > max)
+            max = *a;
+        a++;
+    }
+    return max;
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -831,7 +640,7 @@ Section 12.3
 Wite the following function:
 
 ```C
-void find_two_largest(const int *a, int n, int *largest, int *second_largest) ;
+void find_two_largest(const int *a, int n, int *largest, int *second_largest);
 ```
 
 `a` points to an array of length `n`. The function searches the array for its largest and second-largest elements, storing them in the variables pointed to by `largest` and `second_largest`, respectively. Use pointer arithmetic—not subscripting—to visit array elements.
@@ -846,40 +655,23 @@ void find_two_largest(const int *a, int n, int *largest, int *second_largest) ;
 
 # Solution:
 
+```C
+void find_two_largest(const int *a, int n, int *largest, int *second_largest)
+{
+    *largest = *a++;
+    *second_largest = *largest;
 
-## Program Link
-
-[cknkCh12Exrc012.c](./cknkCh12Exrc012.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+    while(--n)
+    {
+        if(*largest < *a)
+        {
+            *largest = *a;
+            *second_largest = *largest;
+        }
+        a++;
+    }
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -896,7 +688,7 @@ Section 12.4
 
 <!-- START: Problem Statement -->
 
-Section 8.2 had a program fragment in which two nested `for` loops initialized the array `ident` for use as an identity matrix. Rewrite this code, using a single pointer to step through the array one element at a time, *Hint*: Since we won't be using `row` and `col` index variables, it won't be easy to tell where to store 1. Instead, we can use the fact that the first element of the array should be 1, the next `N` elements should be 0, the next element should be 1, and so forth. Use a variable to keep track of how many consecutive 0s have been stored; when the count reaches `N`, it's time to store 1.
+Section 8.2 had a program fragment in which two nested `for` loops initialized the array `ident` for use as an identity matrix. Rewrite this code, using a single pointer to step through the array one element at a time. *Hint*: Since we won't be using `row` and `col` index variables, it won't be easy to tell where to store 1. Instead, we can use the fact that the first element of the array should be 1, the next `N` elements should be 0, the next element should be 1, and so forth. Use a variable to keep track of how many consecutive 0s have been stored; when the count reaches `N`, it's time to store 1.
 
 <!-- END: Problem Statement -->
 
@@ -908,40 +700,27 @@ Section 8.2 had a program fragment in which two nested `for` loops initialized t
 
 # Solution:
 
+```C
+#define N 10
 
-## Program Link
+double ident[N][N];
+int ones = N, zeroes = N;
 
-[cknkCh12Exrc013.c](./cknkCh12Exrc013.c)
+double *p = ident;
 
-## Output/ExecutionLog:
+*p++ = 1;
+--ones;
 
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+do
+{
+    while(zeroes--)
+    {
+        *p++ = 0;
+    }
+    zeroes = N;
+    *p++ = 1;
+}while(--ones);
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -976,40 +755,9 @@ Write a statement that uses the `search` function (see Exercise 7) to search the
 
 # Solution:
 
-
-## Program Link
-
-[cknkCh12Exrc014.c](./cknkCh12Exrc014.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+```C
+b_temperature_available = search(temperatures[0], 7 * 24, 32);
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -1038,40 +786,14 @@ Write a loop that prints all temperature readings stored in row `i` of the `temp
 
 # Solution:
 
+```C
+int *p;
 
-## Program Link
-
-[cknkCh12Exrc015.c](./cknkCh12Exrc015.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+for(p = temperatures[i]; p < (temperatures[i] + 24); p++)
+{
+    printf("%d ", *p);
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -1100,40 +822,14 @@ Write a loop that prints the highest temperature in the `temperatures` array (se
 
 # Solution:
 
+```C
+int i;
 
-## Program Link
-
-[cknkCh12Exrc016.c](./cknkCh12Exrc016.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+for(i = 0; i < 7; i++)
+{
+    printf("Highest temperature in day %d is %d.", i, find_largest(temperatures[i], 24));
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -1179,40 +875,21 @@ int sum_two_dimensional_array(const int a[][LEN], int n)
 
 # Solution:
 
+```C
+int sum_two_dimensional_array(const int a[][LEN], int n)
+{
+    int sum = 0;
 
-## Program Link
+    int *p = a[0];
+    
+    for(p = a[0]; p < a[0] + (n * LEN); p++)
+    {
+        sum += *p;
+    }	// for statement: 
 
-[cknkCh12Exrc017.c](./cknkCh12Exrc017.c)
-
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+    return sum;
+}
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
@@ -1229,7 +906,7 @@ Section 12.4
 
 <!-- START: Problem Statement -->
 
-Write the `evaluate_position` function described in Excrcise 13 of Chapter 9. Use pointer arithmetic—not subscripting—to visit array elements. Use a single loop instead of nested loops.
+Write the `evaluate_position` function described in Exercise 13 of Chapter 9. Use pointer arithmetic—not subscripting—to visit array elements. Use a single loop instead of nested loops.
 
 <!-- END: Problem Statement -->
 
@@ -1241,40 +918,38 @@ Write the `evaluate_position` function described in Excrcise 13 of Chapter 9. Us
 
 # Solution:
 
+```C
+int evaluate_position(char board[8][8])
+{
+    int i_diff = 0, i_sumInWhitePieces = 0, i_sumInBlackPieces = 0;
 
-## Program Link
+    char *p;
+    for(p = board[0]; p < (board[0] + (8 * 8)); p++)
+    {
+        switch(*p)
+        {
+            // White chess pieces
+            case 'Q': i_sumInWhitePieces += 9; break;
+            case 'R': i_sumInWhitePieces += 5; break;
+            case 'B': i_sumInWhitePieces += 3; break;
+            case 'N': i_sumInWhitePieces += 3; break;
+            case 'P': i_sumInWhitePieces += 1; break;
+            
+            // Black chess pieces
+            case 'q': i_sumInBlackPieces += 9; break;
+            case 'r': i_sumInBlackPieces += 5; break;
+            case 'b': i_sumInBlackPieces += 3; break;
+            case 'n': i_sumInBlackPieces += 3; break;
+            case 'p': i_sumInBlackPieces += 1; break;
+            default: break;
+        }    // switch statement
+    }    // for loop
 
-[cknkCh12Exrc018.c](./cknkCh12Exrc018.c)
+    i_diff = i_sumInWhitePieces - i_sumInBlackPieces;
 
-## Output/ExecutionLog:
-
-### Trial1:
-
-#### Trial1 execution:
-
-<!-- START: terminal interaction or other output -->
-
+    return i_diff;
+}    // FUNCTION END: evaluate_position
 ```
-
-```
-
-<!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->

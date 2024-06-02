@@ -10619,7 +10619,7 @@ The variable `i` doesn't exist once `f` returns, so the pointer to it will be in
 Pointers can point to array elements, not just ordinary variables. If `a` is an array, then `&a[1]` is a pointer to element `i` of `a`. When a function has an array argument, it's sometimes useful for the function to return a pointer to one of the elements in the array. For example, the following function returns a pointer to the middle element of the array `a`, assuming that `a` has `n` elements:
 
 ```C
-int *find_middle(int a[], int n) (
+int *find_middle(int a[], int n)
 {
     return &a[n/2];
 }
