@@ -1,5 +1,5 @@
 /**
- * file: prime.c
+ * file: qsort.c
  * Author: K. N. King
  * Purpose: sorts an array of integers using Quicksort algorithm
  */

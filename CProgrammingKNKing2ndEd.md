@@ -8553,7 +8553,7 @@ Since the code for partitioning the array is a bit lengthy, I'll put it in a sep
 
 ```C
 /**
- * file: prime.c
+ * file: qsort.c
  * Author: K. N. King
  * Purpose: sorts an array of integers using Quicksort algorithm
  */

@@ -509,7 +509,7 @@ Reversal of words in sentence: Idu yaaru bareda katheyo?
 
 <!-- START: Problem Statement -->
 
-Modify the `gsort.c` program of Section 9.6 so that `low`, `high`, and `middle` are pointers to array elements rather than integers. The `split` function will need to return a pointer, not an integer.
+Modify the `qsort.c` program of Section 9.6 so that `low`, `high`, and `middle` are pointers to array elements rather than integers. The `split` function will need to return a pointer, not an integer.
 
 <!-- END: Problem Statement -->
 
@@ -535,18 +535,11 @@ Modify the `gsort.c` program of Section 9.6 so that `low`, `high`, and `middle` 
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter 10 numbers to be sorted: 9 16 47 82 4 66 12 3 25 51
+In sorted order: 3 4 9 12 16 25 47 51 66 82 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -555,18 +548,11 @@ Modify the `gsort.c` program of Section 9.6 so that `low`, `high`, and `middle` 
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter 10 numbers to be sorted: 10 38 12 45 67 8 11 12 9 10
+In sorted order: 8 9 10 10 11 12 12 38 45 67 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -575,26 +561,11 @@ Modify the `gsort.c` program of Section 9.6 so that `low`, `high`, and `middle` 
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter 10 numbers to be sorted: 99 88 22 11 33 55 77 44 66 00
+In sorted order: 0 11 22 33 44 55 66 77 88 99 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
