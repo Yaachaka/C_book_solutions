@@ -57,7 +57,7 @@ Revise the program to use a pointer instead of an integer to keep track of the c
 
 ## Program Link
 
-[cknkCh12Prj001.c](./cknkCh12Prj001.c)
+[cknkCh12Prj001a.c](./cknkCh12Prj001a.c)
 
 ## Output/ExecutionLog:
 
@@ -68,18 +68,11 @@ Revise the program to use a pointer instead of an integer to keep track of the c
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: Don't get mad, get even.
+Reversal is: .neve teg ,dam teg t'noD
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -88,18 +81,11 @@ Revise the program to use a pointer instead of an integer to keep track of the c
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: Nanna ninna manavu serithu...
+Reversal is: ...uhtires uvanam annin annaN
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -108,26 +94,56 @@ Revise the program to use a pointer instead of an integer to keep track of the c
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: Idu yaaru bareda katheyo... nanagaagi banda vyatheyo...
+Reversal is: an ...oyehtak aderab uraay udI
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial3 Comments:
+## Program Link
 
-<!-- START: Comments -->
+[cknkCh12Prj001b.c](./cknkCh12Prj001b.c)
 
+## Output/ExecutionLog:
 
+### Trial1:
 
-<!-- END: Comments -->
+#### Trial1 execution:
 
-# Exercise Comment:
+<!-- START: terminal interaction or other output -->
 
-<!-- START: Comments -->
+```
+Enter a message: Don't get mad, get even.
+Reversal is: .neve teg ,dam teg t'noD
+```
 
+<!-- END: terminal interaction or other output -->
 
+### Trial2:
 
-<!-- END: Comments -->
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter a message: Kaagadada doniyalli naa kooruvantha hoththaayithe...
+Reversal is: urook aan illayinod adadagaaK
+```
+
+<!-- END: terminal interaction or other output -->
+
+### Trial3:
+
+#### Trial3 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter a message: Aa pusthakavannu odihenu.
+Reversal is: .unehido unnavakahtsup aA
+```
+
+<!-- END: terminal interaction or other output -->
 
 </div>
 <!-- END: div -->
