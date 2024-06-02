@@ -1,7 +1,7 @@
 /********************************************************************************
- * File: cknkCh12Prj001b.c
+ * File: cknkCh12Prj003.c
  * Author: Yaachaka
- * Purpose: Reversal of a message.
+ * Purpose: Reversal of a message. (Using array name as pointer.)
  ********************************************************************************/
 
 /* START: Header inclusions*/
@@ -38,17 +38,17 @@ int main(void)
 {
     char message[N], ch, *ch_p;
     
-    ch_p = &message[0];
+    ch_p = message;
 
     printf("Enter a message: ");
-    while(ch_p < &message[N] && (*ch_p++ = getchar()) != '\n')
+    while(ch_p < (message + N) && (*ch_p++ = getchar()) != '\n')
     {
         ;
     }	// while statement: Getting the message
 
     --ch_p;
     printf("Reversal is: ");
-    while(--ch_p >= &message[0])
+    while(--ch_p >= message)
     {
         printf("%c", *ch_p);
     }

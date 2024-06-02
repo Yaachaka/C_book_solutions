@@ -322,18 +322,11 @@ Simplify Programming Project 1(b) by taking advantage of the fact that an array 
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: Don't get mad, get even.
+Reversal is: .neve teg ,dam teg t'noD
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial2:
 
@@ -342,18 +335,11 @@ Simplify Programming Project 1(b) by taking advantage of the fact that an array 
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: Kaagadada doniyalli naa kooruvantha hoththaayithe...
+Reversal is: urook aan illayinod adadagaaK
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial2 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 ### Trial3:
 
@@ -362,26 +348,11 @@ Simplify Programming Project 1(b) by taking advantage of the fact that an array 
 <!-- START: terminal interaction or other output -->
 
 ```
-
+Enter a message: Aa pusthakavannu odihenu.
+Reversal is: .unehido unnavakahtsup aA
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial3 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->

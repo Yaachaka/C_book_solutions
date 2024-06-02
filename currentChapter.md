@@ -394,7 +394,7 @@ while(*a != 0)
     a++; /*** WRONG ***/
 ```
 
-This is no great loss; we can always copy a into a pointer variable, then change the pointer variable:
+This is no great loss; we can always copy `a` into a pointer variable, then change the pointer variable:
 
 ```C
 p = a;

@@ -344,8 +344,8 @@ assign it a new value. Attempting to make it point elsewhere is an
 error:</p>
 <div class="sourceCode" id="cb30"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span><span class="op">(*</span>a <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
 <span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>    a<span class="op">++;</span> <span class="co">/*** WRONG ***/</span></span></code></pre></div>
-<p>This is no great loss; we can always copy a into a pointer variable,
-then change the pointer variable:</p>
+<p>This is no great loss; we can always copy <code>a</code> into a
+pointer variable, then change the pointer variable:</p>
 <div class="sourceCode" id="cb31"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> a<span class="op">;</span></span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(*</span>p <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
 <span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    p<span class="op">++;</span></span></code></pre></div>
