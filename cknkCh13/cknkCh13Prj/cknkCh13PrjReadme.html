@@ -1,0 +1,929 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+Chapter 13 Programming Projects
+</title>
+<link rel="stylesheet" href="../../myStyle.css">
+</head>
+<body>
+<h2 id="strings">13 Strings</h2>
+<h1 id="chapter-13-programming-projects">Chapter 13 Programming
+Projects</h1>
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj001" class="ch_problem">
+<h1>cknkCh13Prj001</h1>
+<!-- START: Problem Statement -->
+<p>Write a program that finds the “smallest” and “largest” in a series
+of words. After the user enters the words, the program will determine
+which words would come first and last if the words were listed in
+dictionary order. The program must stop accepting input when the user
+enters a four-letter word. Assume that no word is more than 20 letters
+long. An interactive session with the program might look like this:</p>
+<pre><code>Enter word: dog
+Enter word: zebra
+Enter word: rabbit
+Enter word: catfish
+Enter word: walrus
+Enter word: cat
+Enter word: fish
+
+Smallest word: cat
+Largest word: zebra</code></pre>
+<p><em>Hint</em>: Use two strings named <code>smallest_word</code> and
+<code>largest_word</code> to keep track of the “smallest” and “largest”
+words entered so far. Each time the user enters a new word, use
+<code>strcmp</code> to compare it with <code>smallest_word</code>; if
+the new word is “smaller,” use <code>strcpy</code> to save it in
+<code>smallest_word</code>. Do a similar comparison with
+<code>largest_word</code>. Use <code>strlen</code> to determine when the
+user has entered a four-letter word.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution">Solution:</h1>
+<h2 id="program-link">Program Link</h2>
+<p><a href="./cknkCh13Prj001.c">cknkCh13Prj001.c</a></p>
+<h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
+<h3 id="trial1">Trial1:</h3>
+<h4 id="trial1-execution">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2">Trial2:</h3>
+<h4 id="trial2-execution">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3">Trial3:</h3>
+<h4 id="trial3-execution">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj002" class="ch_problem">
+<h1>cknkCh13Prj002</h1>
+<!-- START: Problem Statement -->
+<p>Improve the <code>remind.c</code> program of Section 13.5 in the
+following ways:</p>
+<ol type="a">
+<li>Have the program print an error message and ignore a reminder if the
+corresponding day is negative or larger than 31. <em>Hint</em>: Use the
+<code>continue</code> statement.<br />
+</li>
+<li>Allow the user to enter a day, a 24-hour time, and a reminder. The
+printed reminder list should be sorted first by day, then by time. (The
+original program allows the user to enter a time, but it’s treated as
+part of the reminder.)<br />
+</li>
+<li>Have the program print a one-<em>year</em> reminder list. Require
+the user to enter days in the form <em>month/day</em>.</li>
+</ol>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-1">Solution:</h1>
+<h2 id="program-link-1">Program Link</h2>
+<p><a href="./cknkCh13Prj002.c">cknkCh13Prj002.c</a></p>
+<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
+<h3 id="trial1-1">Trial1:</h3>
+<h4 id="trial1-execution-1">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-1">Trial2:</h3>
+<h4 id="trial2-execution-1">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-1">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-1">Trial3:</h3>
+<h4 id="trial3-execution-1">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-1">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj003" class="ch_problem">
+<h1>cknkCh13Prj003</h1>
+<!-- START: Problem Statement -->
+<p>Modity the <code>deal.c</code> program of Section 8.2 so that it
+prints the full names of the cards it deals:</p>
+<pre><code>Enter number of cards in hand: 5
+Your hand:
+Seven of clubs
+Two of spades
+Five of diamonds
+Ace of spades
+Two of hearts</code></pre>
+<p><em>Hint</em>: Replace <code>rank_code</code> and
+<code>suit_code</code> by arrays containing pointers to strings.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-2">Solution:</h1>
+<h2 id="program-link-2">Program Link</h2>
+<p><a href="./cknkCh13Prj003.c">cknkCh13Prj003.c</a></p>
+<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
+<h3 id="trial1-2">Trial1:</h3>
+<h4 id="trial1-execution-2">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-2">Trial2:</h3>
+<h4 id="trial2-execution-2">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-2">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-2">Trial3:</h3>
+<h4 id="trial3-execution-2">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-2">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-2">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj004" class="ch_problem">
+<h1>cknkCh13Prj004</h1>
+<!-- START: Problem Statement -->
+<p>Write a program named <code>reverse.c</code> that echoes its
+command-line arguments in reverse order. Running the program by
+typing</p>
+<pre><code>reverse void and null</code></pre>
+<p>should produce the following output:</p>
+<pre><code>null and void</code></pre>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-3">Solution:</h1>
+<h2 id="program-link-3">Program Link</h2>
+<p><a href="./cknkCh13Prj004.c">cknkCh13Prj004.c</a></p>
+<h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
+<h3 id="trial1-3">Trial1:</h3>
+<h4 id="trial1-execution-3">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-3">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-3">Trial2:</h3>
+<h4 id="trial2-execution-3">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-3">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-3">Trial3:</h3>
+<h4 id="trial3-execution-3">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-3">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-3">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj005" class="ch_problem">
+<h1>cknkCh13Prj005</h1>
+<!-- START: Problem Statement -->
+<p>Write a program named <code>sum.c</code> that adds up its
+command-line arguments, which are assumed to be integers. Running the
+program by typing</p>
+<pre><code>sum 8 24 62</code></pre>
+<p>should produce the following output:</p>
+<pre><code>Total: 94</code></pre>
+<p><em>Hint</em>: Use the <code>atoi</code> function to convert each
+command-line argument from string form to integer form.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-4">Solution:</h1>
+<h2 id="program-link-4">Program Link</h2>
+<p><a href="./cknkCh13Prj005.c">cknkCh13Prj005.c</a></p>
+<h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
+<h3 id="trial1-4">Trial1:</h3>
+<h4 id="trial1-execution-4">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-4">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-4">Trial2:</h3>
+<h4 id="trial2-execution-4">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-4">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-4">Trial3:</h3>
+<h4 id="trial3-execution-4">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-4">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-4">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj006" class="ch_problem">
+<h1>cknkCh13Prj006</h1>
+<!-- START: Problem Statement -->
+<p>Improve the <code>planet.c</code> program of Section 13.7 by having
+it ignore case when comparing command-line arguments with strings in the
+planets array.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-5">Solution:</h1>
+<h2 id="program-link-5">Program Link</h2>
+<p><a href="./cknkCh13Prj006.c">cknkCh13Prj006.c</a></p>
+<h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
+<h3 id="trial1-5">Trial1:</h3>
+<h4 id="trial1-execution-5">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-5">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-5">Trial2:</h3>
+<h4 id="trial2-execution-5">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-5">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-5">Trial3:</h3>
+<h4 id="trial3-execution-5">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-5">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-5">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj007" class="ch_problem">
+<h1>cknkCh13Prj007</h1>
+<!-- START: Problem Statement -->
+<p>Modify Programming Project 11 from Chapter 5 5o that it uses arrays
+containing pointers to strings instead of <code>switch</code>
+statements. For example, instead of using a <code>switch</code>
+statement to print the word for the first digit, use the digit as an
+index into an array that contains the strings “<code>twenty</code>”,
+“<code>thirty</code>”, and so forth.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-6">Solution:</h1>
+<h2 id="program-link-6">Program Link</h2>
+<p><a href="./cknkCh13Prj007.c">cknkCh13Prj007.c</a></p>
+<h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
+<h3 id="trial1-6">Trial1:</h3>
+<h4 id="trial1-execution-6">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-6">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-6">Trial2:</h3>
+<h4 id="trial2-execution-6">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-6">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-6">Trial3:</h3>
+<h4 id="trial3-execution-6">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-6">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-6">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj008" class="ch_problem">
+<h1>cknkCh13Prj008</h1>
+<!-- START: Problem Statement -->
+<p>Modify Programming Project 5 from Chapter 7 so that it includes the
+following function:</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> compute_scrabble_value<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>word<span class="op">);</span></span></code></pre></div>
+<p>The function returns the SCRABBLE value of the string pointed to by
+<code>word</code>.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-7">Solution:</h1>
+<h2 id="program-link-7">Program Link</h2>
+<p><a href="./cknkCh13Prj008.c">cknkCh13Prj008.c</a></p>
+<h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
+<h3 id="trial1-7">Trial1:</h3>
+<h4 id="trial1-execution-7">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-7">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-7">Trial2:</h3>
+<h4 id="trial2-execution-7">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-7">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-7">Trial3:</h3>
+<h4 id="trial3-execution-7">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-7">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-7">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj009" class="ch_problem">
+<h1>cknkCh13Prj009</h1>
+<!-- START: Problem Statement -->
+<p>Modify Programming Project 10 from Chapter 7 so that it includes the
+following function:</p>
+<div class="sourceCode" id="cb32"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> compute_vowel_count<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>sentence<span class="op">)</span> <span class="op">;</span></span></code></pre></div>
+<p>The function returns the number of vowels in the string pointed to by
+the <code>sentence</code> parameter.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-8">Solution:</h1>
+<h2 id="program-link-8">Program Link</h2>
+<p><a href="./cknkCh13Prj009.c">cknkCh13Prj009.c</a></p>
+<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
+<h3 id="trial1-8">Trial1:</h3>
+<h4 id="trial1-execution-8">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-8">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-8">Trial2:</h3>
+<h4 id="trial2-execution-8">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-8">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-8">Trial3:</h3>
+<h4 id="trial3-execution-8">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-8">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-8">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj010" class="ch_problem">
+<h1>cknkCh13Prj010</h1>
+<!-- START: Problem Statement -->
+<p>Maodify Programming Project 11 trom Chapter 7 so that it includes the
+following function:</p>
+<div class="sourceCode" id="cb36"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> reverse_name<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>name<span class="op">);</span></span></code></pre></div>
+<p>The function expects name to point to a string containing a first
+name followed by a last name. It modifies the string so that the last
+name comes first, followed by a comma, a space, the first initial, and a
+period. The original string may contain extra spaces before the first
+name, between the first and last names, and after the last name.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-9">Solution:</h1>
+<h2 id="program-link-9">Program Link</h2>
+<p><a href="./cknkCh13Prj010.c">cknkCh13Prj010.c</a></p>
+<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
+<h3 id="trial1-9">Trial1:</h3>
+<h4 id="trial1-execution-9">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-9">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-9">Trial2:</h3>
+<h4 id="trial2-execution-9">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-9">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-9">Trial3:</h3>
+<h4 id="trial3-execution-9">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-9">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-9">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj011" class="ch_problem">
+<h1>cknkCh13Prj011</h1>
+<!-- START: Problem Statement -->
+<p>Modify Programming Project 13 from Chapter 7 so that it includes the
+following function:</p>
+<div class="sourceCode" id="cb40"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> compute_average_word_length<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>sentence<span class="op">);</span></span></code></pre></div>
+<p>The function returns the average length of the words in the string
+pointed to by <code>sentence</code>.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-10">Solution:</h1>
+<h2 id="program-link-10">Program Link</h2>
+<p><a href="./cknkCh13Prj011.c">cknkCh13Prj011.c</a></p>
+<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
+<h3 id="trial1-10">Trial1:</h3>
+<h4 id="trial1-execution-10">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-10">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-10">Trial2:</h3>
+<h4 id="trial2-execution-10">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-10">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-10">Trial3:</h3>
+<h4 id="trial3-execution-10">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-10">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-10">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj012" class="ch_problem">
+<h1>cknkCh13Prj012</h1>
+<!-- START: Problem Statement -->
+<p>Modify Programming Project 14 from Chapter 8 so that it stores the
+words in a two-dimensional <code>char</code> array as it reads the
+sentence, with each row of the array storing a single word. Assume that
+the sentence contains no more than 30 words and no word is more than 20
+characters long. Be sure to store a null character at the end of each
+word so that it can be treated as a string.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-11">Solution:</h1>
+<h2 id="program-link-11">Program Link</h2>
+<p><a href="./cknkCh13Prj012.c">cknkCh13Prj012.c</a></p>
+<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
+<h3 id="trial1-11">Trial1:</h3>
+<h4 id="trial1-execution-11">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-11">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-11">Trial2:</h3>
+<h4 id="trial2-execution-11">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-11">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-11">Trial3:</h3>
+<h4 id="trial3-execution-11">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-11">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-11">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj013" class="ch_problem">
+<h1>cknkCh13Prj013</h1>
+<!-- START: Problem Statement -->
+<p>Maodify Programming Project 15 from Chapter 8 so that it includes the
+following function:</p>
+<div class="sourceCode" id="cb47"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> encrypt<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>message<span class="op">,</span> <span class="dt">int</span> shift<span class="op">);</span></span></code></pre></div>
+<p>The function expects <code>message</code> to point to a string
+containing the message to be encrypted; <code>shift</code> represents
+the amount by which each letter in the message is to be shifted.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-12">Solution:</h1>
+<h2 id="program-link-12">Program Link</h2>
+<p><a href="./cknkCh13Prj013.c">cknkCh13Prj013.c</a></p>
+<h2 id="outputexecutionlog-12">Output/ExecutionLog:</h2>
+<h3 id="trial1-12">Trial1:</h3>
+<h4 id="trial1-execution-12">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-12">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-12">Trial2:</h3>
+<h4 id="trial2-execution-12">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-12">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-12">Trial3:</h3>
+<h4 id="trial3-execution-12">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-12">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-12">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj014" class="ch_problem">
+<h1>cknkCh13Prj014</h1>
+<!-- START: Problem Statement -->
+<p>Modify Programming Project 16 from Chapter 8 so that it includes the
+following function:</p>
+<div class="sourceCode" id="cb51"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> are_anagrams<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>word1<span class="op">,</span> <span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>word2<span class="op">);</span></span></code></pre></div>
+<p>The function returns <code>true</code> if the strings pointed to by
+<code>word1</code> and <code>word2</code> are anagrams.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-13">Solution:</h1>
+<h2 id="program-link-13">Program Link</h2>
+<p><a href="./cknkCh13Prj014.c">cknkCh13Prj014.c</a></p>
+<h2 id="outputexecutionlog-13">Output/ExecutionLog:</h2>
+<h3 id="trial1-13">Trial1:</h3>
+<h4 id="trial1-execution-13">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-13">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-13">Trial2:</h3>
+<h4 id="trial2-execution-13">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-13">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-13">Trial3:</h3>
+<h4 id="trial3-execution-13">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-13">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-13">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj015" class="ch_problem">
+<h1>cknkCh13Prj015</h1>
+<!-- START: Problem Statement -->
+<p>Modify Programming Project 6 from Chapter 10 so that it includes the
+following function:</p>
+<div class="sourceCode" id="cb55"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> evaluate_RPN_expression<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>expression<span class="op">);</span></span></code></pre></div>
+<p>The function returns the value of the RPN expression pointed to by
+<code>expression</code>.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-14">Solution:</h1>
+<h2 id="program-link-14">Program Link</h2>
+<p><a href="./cknkCh13Prj015.c">cknkCh13Prj015.c</a></p>
+<h2 id="outputexecutionlog-14">Output/ExecutionLog:</h2>
+<h3 id="trial1-14">Trial1:</h3>
+<h4 id="trial1-execution-14">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-14">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-14">Trial2:</h3>
+<h4 id="trial2-execution-14">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-14">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-14">Trial3:</h3>
+<h4 id="trial3-execution-14">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-14">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-14">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj016" class="ch_problem">
+<h1>cknkCh13Prj016</h1>
+<!-- START: Problem Statement -->
+<p>Modify Programming Project 1 from Chapter 12 so that it includes the
+following function:</p>
+<div class="sourceCode" id="cb59"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> reverse<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>message<span class="op">);</span></span></code></pre></div>
+<p>The function reverses the string pointed to by <code>message</code>.
+<em>Hint</em>: Use two pointers, one initially pointing to the first
+character of the string and the other initially pointing to the last
+character. Have the function reverse these characters and then move the
+pointers toward each other, repeating the process until the pointers
+meet.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-15">Solution:</h1>
+<h2 id="program-link-15">Program Link</h2>
+<p><a href="./cknkCh13Prj016.c">cknkCh13Prj016.c</a></p>
+<h2 id="outputexecutionlog-15">Output/ExecutionLog:</h2>
+<h3 id="trial1-15">Trial1:</h3>
+<h4 id="trial1-execution-15">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-15">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-15">Trial2:</h3>
+<h4 id="trial2-execution-15">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-15">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-15">Trial3:</h3>
+<h4 id="trial3-execution-15">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-15">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-15">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj017" class="ch_problem">
+<h1>cknkCh13Prj017</h1>
+<!-- START: Problem Statement -->
+<p>Modify Programming Project 2 from Chapter 12 so that it includes the
+following function:</p>
+<div class="sourceCode" id="cb63"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> is_palindrome<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>message<span class="op">);</span></span></code></pre></div>
+<p>The function returns <code>true</code> if the string pointed to by
+<code>message</code> is a palindrome.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-16">Solution:</h1>
+<h2 id="program-link-16">Program Link</h2>
+<p><a href="./cknkCh13Prj017.c">cknkCh13Prj017.c</a></p>
+<h2 id="outputexecutionlog-16">Output/ExecutionLog:</h2>
+<h3 id="trial1-16">Trial1:</h3>
+<h4 id="trial1-execution-16">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-16">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-16">Trial2:</h3>
+<h4 id="trial2-execution-16">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-16">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-16">Trial3:</h3>
+<h4 id="trial3-execution-16">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-16">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-16">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13prj018" class="ch_problem">
+<h1>cknkCh13Prj018</h1>
+<!-- START: Problem Statement -->
+<p>Write a program that accepts a date from the user in the form
+<em>mm/dd/yyyy</em> and then displays it in the form <em>month dd,
+yyyy</em>, where <em>month</em> is the name of the month:</p>
+<div class="sourceCode" id="cb67"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>Enter a date <span class="op">(</span>mm<span class="op">/</span>dd<span class="op">/</span>yyyy<span class="op">):</span> <span class="dv">2</span><span class="op">/</span><span class="dv">17</span><span class="op">/</span><span class="dv">2011</span></span>
+<span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a>You entered the date February <span class="dv">17</span><span class="op">,</span> <span class="dv">2011</span></span></code></pre></div>
+<p>Store the month names in an array that contains pointers to
+strings.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-17">Solution:</h1>
+<h2 id="program-link-17">Program Link</h2>
+<p><a href="./cknkCh13Prj018.c">cknkCh13Prj018.c</a></p>
+<h2 id="outputexecutionlog-17">Output/ExecutionLog:</h2>
+<h3 id="trial1-17">Trial1:</h3>
+<h4 id="trial1-execution-17">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-17">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial2-17">Trial2:</h3>
+<h4 id="trial2-execution-17">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial2-comments-17">Trial2 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h3 id="trial3-17">Trial3:</h3>
+<h4 id="trial3-execution-17">Trial3 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial3-comments-17">Trial3 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-17">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+</body>
+</html>

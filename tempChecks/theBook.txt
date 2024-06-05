@@ -1,372 +1,3 @@
-Exercises
-
-The following function calls supposedly write a single new-line character, but some are
-incorrect. Identify which calls don't work and explain why.
-
-(@) printf("$c", '\n'); (g) putchar('\n');
-(b) printf("%c", "\n"); (h) putchar("\n");
-(c) printf("%s", '\n'); @) puts('\n');
-
-(d) printf("%s", "\n"); () puts("\n");
-(e) printf('\n'); (k) puts (") ;
-
-(f) printf ("\n");
-
-Suppose that p has been declared as follows:
-
-char *p = "abc";
-
-Which of the following function calls are legal? Show the output produced by each legal
-call, and explain why the others are illegal.
-
-(a) putchar (p) ;
-
-(b) putchar (*p) ;
-
-(c) puts(p);
-
-(d) puts(*p);
-
-Suppose that we call canf as follows:
-
-scanf ("%d%sid", &i, s, &j);
-
-If the user enters 12abc34 56def78, what will be the values of i, s, and j after the
-call? (Assume that 1 and j are int variables and s is an array of characters.)
-
-Modify the read_1ine function in each of the following ways:
-
-(a) Have it skip white space before beginning to store input characters.
-
-(b) Have it stop reading at the first white-space character. Hint: To determine whether or
-not a character is white space, call the isspace function.
-Section 13.4
-
-toupper function »23.5
-
-Section 13.5
-
-® o
-
-75
-
-@ 10
-
-Exercises 309
-
-(c) Have it stop reading at the first new-line character, then store the new-line character in
-the string.
-(d) Have it leave behind characters that it doesn't have room to store.
-
-(a) Wiite a function named capitalize that capitalizes all letters in its argument. The
-argument will be a null-terminated string containing arbitrary characters, not just letters.
-Use array subscripting to access the characters in the string. Hinr: Use the toupper func-
-tion to convert each character to upper-case.
-
-(b) Rewrite the capitalize function, this time using pointer arithmetic to access the
-characters in the string.
-
-Write a function named censor that modifies a siring by replacing every occurrence of
-foo by xxx. For example, the string "food fool" would become "xxxd k1" Make
-the function as short as possible without sacrificing clarity.
-
-Suppose that str is an array of characters, Which one of the following statements is not
-equivalent to the other three?
-
-(a) *stxr = 0;
-
-(b) stx[0] = '\0';
-
-(c) strepy (str, "");
-
-(d) strecat(str, "");
-
-What will be the value of the string stx after the following statements have been executed?
-
-strcpy (str, "tire-bouchon');
-strepy (&str(4], "d or-wi");
-strcat (str, "red?");
-
-What will be the value of the string s1 after the following statements have been executed?
-
-strepy(sl, "computer');
-
-stropy(s2, "science');
-
-if (stremp(sl, s2) < 0)
-strcat(sl, s2);
-
-else
-strcat(s2, sl);
-sl[strlen(sl)-6] = '\0';
-
-The following function supposedly creates an identical copy of a string. What's wrong with
-the function?
-
-char *duplicate(const char *p)
-
-char *q;
-
-strepy(q, p);
-return q;
-
-1
-}
-
-The Q&A section at the end of this chapter shows how the stremp function might be writ-
-ten using array subscripting. Modify the function to use pointer arithmetic instead.
-
-Writc the following function:
-
-void get_extension(const char *file name, char *extension);
-310
-
-Section 13.6
-
-*14.
-
-@*15.
-
-O 16
-
-Chapter 13~ Strings
-
-file name points to a string containing a file name. The function should store the exten-
-sion on the file name in the string pointed to by extension. For example, if the file name
-is "memc. txt ", the function will store "txt " in the string pointed to by extension, If
-the file name doesn't have an extension, the function should store an empty string (a single
-null character) in the string pointed to by extension. Keep the function as simple as pos-
-sible by having it use the strlen and strcpy functions,
-
-Write the following function:
-void build index_url (const char *domain, char *index_url) ;
-
-domain points to a string containing an Internet domain, such as "knking.com". The
-function should add "http://www." to the beginning of this string and "/
-index.html" to the end of the string, storing the result in the string pointed to by
-index url. (In this example, the result will be "http://www.knking.com/
-index.html".) You may assume that index url points to a variable that is long
-enought to hold the resulting string. Keep the function as simple as possible by having it use
-the strcat and strepy functions.
-
-What does the following program print?
-#include <stdio.hs
-
-int main(void)
-
-char s[] = "Hsjedi", *p;
-for (p = 8; *p; p++)
-Sy
-
-puts(s);
-return 0;
-
-}
-
-Let f be the following function:
-
-int f(char *s, char *t)
-char *pl, *p2;
-
-for (pl = 8; *pl; pl++) o
-for (p2 = t; *p2; p2++)
-if (*pl == *p2) break;
-
-if (*p2 == '\0") break;
-
-return pl - s;
-}
-(a) What is the value of f ("abcd", "babc")?
-(b) What is the value of f ("abcd", "bed")?
-(c) In general, what value does f return when passed two strings s and 7
-
-Use the techniques of Section 13.6 to condense the count:_spaces function of Section
-13.4. In particular, replace the `for` statement by a `while` loop.
-Write the following function:
-
-bool test extension(const char *file_name,
-const char *extension);
-toupper lunction »23.5
-
-18.
-
-Programming Projects 311
-
-file_name points to a string containing a file name. The function should return true if
-the file's extension matches the string pointed 1o by extension, ignoring the case of let-
-ters. For example, the call test extension("memo.txt", "TXT") would return
-true. Incorporate the "search for the end of a string" idiom into your function. Hint: Use
-the Loupper function to convert characters to upper case before comparing them.
-
-Write the following function:
-void remove filename(char *url);
-
-url points 1o a string containing a URL (Uniform Resource Locator) that ends with a file
-name (such as "http://www.knking.com/index.html"). The function should
-modify the string by removing the file name and the preceding slash. (In this example, the
-result will be "http: //www.knking.com".) Incorporate the "search for the end of a
-string" idiom into your function. Hint: Have the function replace the last slash in the string
-by a null character.
-
-Programming Projects
-
-Write a program that finds the "smallest" and "largest" in a serics of words. After the user
-cnters the words, the program will determine which words would come first and last if the
-words were listed in dictionary order. The program must stop accepting input when the user
-enters a four-letter word. Assume that no word is more than 20 letters long. An interactive
-session with the program might look like this:
-
-Enter word: dog
-Enter word: zebra
-Enter word: rabbit
-Enter word: catfish
-Enter word: walrus
-Enter word: cat
-Enter word:
-
-h
-
-Smallest word: cat
-Largest word: zebra
-
-Hinz: Use two strings named smallest word and largest word to keep track of the
-"smallest" and "largest" words entered so far. Each time the user enters a new word, use
-stremp to compare it with smallest_word; if the new word is "smaller," use strcpy
-1o save it in smallest word. Do a similar comparison with largest_word. Use
-strlen to determine when the user has entered a four-letter word.
-
-Improve the remind . c program of Section 13.5 in the following ways:
-
-(1) Have the program print an error message and ignore a reminder if the corresponding
-day is negative or larger than 31. Hinr: Use the `continue` statement.
-
-(b) Allow the user to enter a day, a 24-hour time, and a reminder. The printed reminder list
-should be sorted first by day. then by time. (The original program allows the user to
-enter a time, but it's treated as part of the reminder.)
-
-(c) Have the program print a one-year reminder list. Require the user to enter days in the
-form month/ day.
-
-Modity the deal . c program of Section 8.2 so that it prints the full names of the cards it
-deals:
-312
-
-Chapter 13 Strings
-
-atoi function »26.2
-
-o o
-
-Enter number of cards in hand: 5
-Your hand:
-
-Seven of clubs
-
-Twce of spades
-
-Five of diamonds
-
-Ace of spades
-
-Two of hearts
-
-Hint: Replace rank_code and suit_code by arrays containing pointers (o strings.
-Write a program named reverse. c that echoes its command-line arguments in reverse
-order. Running the program by typing
-
-reverse void and null
-
-should produce the following output:
-
-null and void
-
-Write a program named sum.c that adds up its command-line arguments, which are
-assumed to be integers. Running the program by typing
-
-sum 8 24 62
-
-should produce the following output:
-
-Total: 94
-
-Hint: Use the atoi function to convert each command-line argument from string form to
-integer form.
-
-Improve the planet . c program of Section 13.7 by having it ignore case when comparing
-command-line arguments with strings in the planets array.
-
-Modify Programming Project 11 from Chapter 5 5o that it uses arrays containing pointers to
-strings instead of `switch` statements. For example, instead of using a `switch` statement
-to print the word for the first digit. use the digit as an index into an array that contains the
-strings "twenty", "thirty", and so forth.
-
-Modify Programming Project 5 from Chapter 7 so that it includes the following function:
-int compute scrabble value(const char *word);
-The function returns the SCRABBLE value of the string pointed to by word,
-
-Modify Programming Project 10 from Chapter 7 so that it includes the following function:
-int compute vowel count(const char *sentence) ;
-
-The function returns the number of vowels in the string pointed to by the sentence
-parameter.
-
-Maodify Programming Project 11 trom Chapter 7 so that it includes the following function:
-void reverse name(char *name);
-
-The function expects name to point to a string containing a first name followed by a last
-name. It modifies the string so that the last name comes first, followed by a comma, a space,
-the first initial, and a period. The original string may contain extra spaces before the first
-name, between the first and last names, and after the last name.
-
-Modify Programming Project 13 from Chapter 7 so that it includes the following function:
-double compute_average_word_length(const char *sentence);
-
-The function returns the average length of the words in the string pointed to by sentence.
-Programming Projects 313
-
-Modify Programming Project 14 from Chapter 8 so that it stores the words in a two-
-dimensional chax array as it reads the sentence, with each row of the array storing a sin-
-gle word. Assume that the sentence contains no more than 30 words and no word is more
-than 20 characters long. Be sure to store a null character at the end of each word so that it
-can be treated as a string.
-
-Maodify Programming Project 15 from Chapter 8 so that it includes the following function:
-void encrypt (char *message, int shift);
-
-The function expects message (0 point to a string containing the message to be encrypted:
-shift represents the amount by which each letter in the message is to be shifted.
-
-Modify Programming Project 16 from Chapter 8 so that it includes the following function:
-bool are anagrams(const char *wordl, const char *word2);
-
-The function returns true if the strings pointed to by word1 and woxd2 are anagrams.
-
-Modify Programming Project 6 from Chapter 10 so that it includes the following function:
-int evaluate RPN expression(const char *expression);
-The function returns the value of the RPN expression pointed to by expression.
-
-Modify Programming Project | from Chapter 12 so that it includes the following function:
-void reverse(char *message);
-
-The function reverses the string pointed to by message. Hint: Use two pointers, one ini-
-tially pointing to the first character of the string and the other initially pointing to the last
-character. Have the function reverse these characters and then move the pointers toward
-each other, repeating the process until the pointers meet.
-
-Modify Programming Project 2 from Chapter 12 so that it includes the following function:
-bool is_palindrome (const char *message);
-
-The function returns true if the string pointed to by message is a palindrome.
-
-Write a program that accepts a date from the user in the form mm/dd/yyyy and then dis-
-
-plays itin the form month dd, yyyy, where month is the name of the mon
-
-Enter a date (mm/dd/yyyy): 2/17/2011
-You entered the date February 17, 2011
-
-Store the month names in an arcay that contains pointers to strings.
-
 14
 
 14.1
@@ -2070,7 +1701,7 @@ Write parameterized macros that compute the following values.
 
 Do your macros always work? If not, describe what arguments would make them fail.
 Write a macro NELEVMS (a) that computes the number of elements in a one-dimensional
-array a. Hint: See the discussion of the sizeof operator in Section 8.1.
+array a. *Hint*: See the discussion of the sizeof operator in Section 8.1.
 
 Let DOUBLE be the following macro:
 
@@ -2115,7 +1746,7 @@ Section 14.4
 
 @ 12
 
-(b) strepy(s, "0123");
+(b) strcpy(s, "0123");
 i=0;
 putchar (TOUPPER (s [++1])) ;
 
@@ -2145,7 +1776,7 @@ return x > y ? X : y; \
 (b) Explain why GENERIC MAX doesn't work for basic types such as unsigned long.
 
 (c) Describe a technique that would allow us to use GENERTC_MAX with basic types such
-as unsigned long. Hint: Don't change the definition of GENERIC MAX.
+as unsigned long. *Hint*: Don't change the definition of GENERIC MAX.
 
 Supposc we want a macro that expands into a string containing the current line number and
 file name. In other words, we'd like to write
@@ -5577,7 +5208,7 @@ Assume that the fraction structure contains two members: numerator and denomi-
 nator (both of type int). Write functions that perform the following operations on frac-
 tions:
 
-(a) Reduce the fraction f to lowest terms. Hint: To reduce a fraction to lowest terms, first
+(a) Reduce the fraction f to lowest terms. *Hint*: To reduce a fraction to lowest terms, first
 compute the greatest common divisor (GCD) of the numerator and denominator. Then
 divide both the numerator and denominator by the GCD.
 
@@ -5591,7 +5222,7 @@ divide both the numerator and denominator by the GCD.
 
 The fractions f, f1, and f2 will be arguments of type struct fraction;each function
 will return a value of type struct fraction. The fractions returned by the functions in
-parts (b) --- (e) should be reduced 1o lowest terms. Hint: You may use the function from part
+parts (b) --- (e) should be reduced 1o lowest terms. *Hint*: You may use the function from part
 (a) to help writc the functions in parts (b)-(e).
 Section 16.3
 
@@ -6068,8 +5699,8 @@ Memory allocated using malloc isn't cleared or initialized in any way, sop
 will point to an uninitialized array of n + 1 characters:
 
 17.2  Dynamically Allocated Strings 417
-Calling strepy is one way to initialize this array:
-strepy (p, "abe');
+Calling strcpy is one way to initialize this array:
+strcpy (p, "abe');
 
 The first four characters in the array will now be a. b, c, and \ 0:
 
@@ -6200,7 +5831,7 @@ sprintf(day str, "$2d", day);
 read_line(msg_str, MSG_LEN);
 
 for (i = 0; i < num remind; i++)
-if (stremp (day_str, reminders[i]) < 0)
+if (strcmp (day_str, reminders[i]) < 0)
 break;
 for (j = num remind; j > i; j--)
 reminders[j] = reminders [3-11;
@@ -6211,7 +5842,7 @@ if (reminders[i] == NOULL) {
 printf("-- No space left --\n");
 break;
 
-strepy (reminders[i], day str);
+strcpy (reminders[i], day str);
 strcat (reminders (1], msg_str) ;
 
 num_remind++;
@@ -6451,7 +6082,7 @@ no longer points to a valid memory block, chaos may ensue:
 
 char *p = malloc(4);
 free(p);
-strepy(p, "abe!); /x** WRONG *x=*/
+strcpy(p, "abe!); /x** WRONG *x=*/
 
 Modifying the memory that p points to is a serious error, since our program no
 longer has control of that memory.
@@ -7478,7 +7109,7 @@ the following version of compare_parts:
 
 int compare parts(const void *p, const void *q|
 
-return stremp (((struct part *) p)->name,
+return strcmp (((struct part *) p)->name,
 ((struct part *) q)->name);
 
 }
@@ -8073,7 +7704,7 @@ return strcmp(p, q);
 Now my program compiles, but gsort doesn't seem to sort the array. What
 am 1 doing wrong?
 
-First, you can't pass stremp itself to gsort, since gsort requires a comparison
+First, you can't pass strcmp itself to gsort, since gsort requires a comparison
 function with two const void * parameters. Your compare strings func-
 tion doesn't work because it incorrectly assumes that p and q are strings (char *
 pointers). In fact, p and g point to array elements containing char * pointers. To
@@ -8317,7 +7948,7 @@ Assume that each word is no more than 20 characters long. Stop reading when the 
 enters an empty word (i.e., presses Enter without entering a word). Store each word in a
 dynamically allocated string, using an array of pointers to keep track of the strings. as in the
 remind2.c program (Section 17.2). After all words have heen read, sort the array (using
-any sorting technique) and then use a loop to print the words in sorted order. Hint: Use the
+any sorting technique) and then use a loop to print the words in sorted order. *Hint*: Use the
 read_line function to rcad cach word, as in remind2. c.
 
 Modify Programming Project 5 so that it uses gsort 1o sort the array of pointers.
@@ -12060,7 +11691,7 @@ ber in hexadecimal, then writes the number with its bytes swapped:
 Enter a hexadecimal number (up to four digits): 1234
 Number with bytes swapped: 3412
 
-Hinz: Use the ¥hx conversion to read and write the hex numbers.
+*Hint*: Use the ¥hx conversion to read and write the hex numbers.
 (b) Condense the swap_bytes function so that its body is a single statement.
 
 Wiite the following functions:
@@ -12124,7 +11755,7 @@ If 0 is an unsigned int variable, what effect does the following statement have 
 bits inn?
 
 né&=n- 1;
-Hint: Consider the effect on n if this statement is executed more than once.
+*Hint*: Consider the effect on n if this statement is executed more than once.
 
 When stored according to the IEEE floating-point standard, a float value consists of a 1
 bit sign (the leftmost --- or most significant --- bit), an 8-bit exponent, and a 23-bit fraction, in
@@ -15545,7 +15176,7 @@ line. Only printing characters (as determined by the isprint function) are displ
 other characters are shown as periods. Note that the appearance of a text file may vary,
 depending on the character set and the operating system. The example above assumes that
 pun.c is a Windows file, so 0D and OA bytes (the ASCIT carriage-return and line-feed
-characters) appear at the end of each line. Hint: Be sure to open the file in "rb" mode.
+characters) appear at the end of each line. *Hint*: Be sure to open the file in "rb" mode.
 
 Of the many techniques for compressing the contents of a file, one of the simplest and fast-
 est is known as run-length encoding. This technique compresses a file by replacing
@@ -15578,7 +15209,7 @@ For example, the command
 compress_file foo.txt
 
 will cause compress_file to write a compressed version of f00. txt to a file named
-foo. txt . rle. Hint: The program described in Programming Project 6 could be useful
+foo. txt . rle. *Hint*: The program described in Programming Project 6 could be useful
 for debugging.
 
 (b) Write a program named uncompress_file that reverses the compression performed
@@ -15606,7 +15237,7 @@ Enter name of output file: inventory.dat
 Enter operation code: r
 
 Enter name of input file: inventory.dat
-Hint: Use fwrite to write the array containing the parts to a binary file. Use fread to
+*Hint*: Use fwrite to write the array containing the parts to a binary file. Use fread to
 restore the array by reading it from a file,
 
 Write a program that merges two files containing part records stored by the inventory.c
@@ -15634,7 +15265,7 @@ September 13, 2010
 
 Allow the user to enter the date as either 9-13-2010 or 9/13/2010; you may assume
 that there are no spaces in the date. Print an error message if the date doesn't have one of the
-specified forms. Hint: Use sscanf to extract the month, day, and year from the command-
+specified forms. *Hint*: Use sscanf to extract the month, day, and year from the command-
 line argument.
 
 Modify Programming Project 2 from Chapter 3 so that the program reads a series of items
@@ -15720,14 +15351,14 @@ rated by one or more spaces. Have the program display the largest number in the 
 smallest number, and the median (the number closest to the middle if the integers were
 sorted). If the file contains an even number of integers, there will be two numbers in the
 middle; the program should display their average (rounded down). You may assume that the
-file contains no more than 10,000 integers. Hinz: Store the integers in an array and then sort
+file contains no more than 10,000 integers. *Hint*: Store the integers in an array and then sort
 the array.
 
 (a) Write a program that converts a Windows text filc to a UNIX text file. (See Section 22.1
 for a discussion of the differences between Windows and UNIX text files.)
 (b) Write a program that converts a UNIX text file to a Windows text file
 
-In each case, have the program obtain the names of both files from the command line. Hint:
+In each case, have the program obtain the names of both files from the command line. *Hint*:
 Open the input file in "rb" mode and the output file in "wb" mode.
 23
 
@@ -17361,7 +16992,7 @@ Chapter 23
 memcpy
 memrmove
 
-strepy
+strcpy
 strnepy
 
 Library Support for Numbers and Character Data
@@ -17388,7 +17019,7 @@ function's third argument. If the source and destination overlap, the behavior o
 memcpy is undefined. memmove is the same as memcpy, except that it works cor-
 rectly when the source and destination overlap.
 
-strepy copies a null-terminated string from the source to the destination.
+strcpy copies a null-terminated string from the source to the destination.
 strnepy is similar 10 strcpy, but it won't copy more than n characters, where
 1 is the function's third argument. (If n is too small, strnepy won't be able to
 copy a terminating null character.) If it encounters a null character in the source,
@@ -17480,7 +17111,7 @@ Chapter 23  Library Support for Numbers and Characler Dala
 
 ocales 25,1
 memcmp
-stremp
+strcmp
 strnecmp
 
 streoll
@@ -17488,11 +17119,11 @@ streoll
 strxfrm
 
 The comparison functions fall into two groups. Functions in the first group (mem
-cmp, stremp, and strnemp) compare the contents of two character arrays.
+cmp, strcmp, and strnemp) compare the contents of two character arrays.
 Functions in the second group (strcoll and strxfrm) are used if the locale
 needs to be taken into account.
 
-The mememp, stremp. and strnemp functions have much in common. All
+The mememp, strcmp. and strnemp functions have much in common. All
 three expect to be passed pointers to character arrays. The characters in the first
 array are then compared one by one with the characters in the sccond array. All
 three functions return as soon as a mismatch is found. Also, all three return a nega-
@@ -17509,7 +17140,7 @@ works only with null-terminated strings.) strncmp is a blend of memcmp and
 strcmp: it stops when n comparisons have been performed or a null character is
 reached in either array.
 
-The following examples illustrate mememp, stremp, and st rncmp:
+The following examples illustrate mememp, strcmp, and st rncmp:
 
 char s1[]
 char s2(]
@@ -17525,7 +17156,7 @@ if (memcmp(sl,
 [ true #/
 /* false */
 
-if (stremp(sl, s2) == 0) .. /% true */
+if (strcmp(sl, s2) == 0) .. /% true */
 
 if (strnemp(sl,
 if (strncmp(si, s2, 4)
@@ -17548,7 +17179,7 @@ strcoll.
 strxfrm transforms its second argument (a string), placing the result in the
 array pointed to by the first argument. The third argument limits the number of
 characters written to the array, including the terminating null character. Calling
-stremp with two transformed strings should produce the same outcome (nega-
+strcmp with two transformed strings should produce the same outcome (nega-
 tive, zero, or positive) as calling stxrcoll with the original strings.
 strchr
 
@@ -17801,14 +17432,14 @@ really need four copying functions (memcpy, memmove, strcpy, and
 strncpy)? [p. 616]
 
 Let's start with memcpy and strcpy. These functions are used for different pur-
-poses. strepy will only copy a character array that's terminated with a null char-
+poses. strcpy will only copy a character array that's terminated with a null char-
 acter (a string, in other words); memcpy can copy a memory block that lacks such
 a terminator (an array of integers, for example).
 
 The other functions allow us to choose between safety and performance.
 strnepy is safer than st repy, since it limits the number of characters that can be
 copied. We pay a price for safety, however, since strncpy is likely to be slower
-than strepy. Using memmove involves a similar trade-off. memmove will copy
+than strcpy. Using memmove involves a similar trade-off. memmove will copy
 bytes from one region of memory into a possibly overlapping region. memcpy isn't
 guaranteed to work properly in this situation; however, if we can guarantee no over-
 lap, memcpy is likely to be faster than memmove.
@@ -17835,7 +17466,7 @@ o 6
 
 @ 10.
 
-return 3.142. Hint: Multiply x by 10", round to the nearest integer, then divide by 10". Be
+return 3.142. *Hint*: Multiply x by 10", round to the nearest integer, then divide by 10". Be
 sure that your function works correctly for both positive and negative values of x.
 
 (C99) Write the following function:
@@ -17862,7 +17493,7 @@ imal number (it consists solely of hexadecimal digits). If so, the function retu
 the number as a Long int. Otherwise, the function returns  --- 1.
 
 In each of the following cases, indicate which function would he the best to use: memepy,
-memmove, strepy, or strnepy. Assume that the indicated action is to be performed by a
+memmove, strcpy, or strnepy. Assume that the indicated action is to be performed by a
 single function call,
 
 (a) Moving all elements of an array "down" one position in order to leave room for a new
@@ -17895,7 +17526,7 @@ Replace the test condition in the following `if` statement by a single call of s
 if (strcmpl(str, "foo") 0 || strcmp(str, "bar") == 0 ||
 strcmp(str, "baz") == 0) ..
 
-Hint: Combine the string literals into a single string, separating them with a special charac-
+*Hint*: Combine the string literals into a single string, separating them with a special charac-
 ter. Does your solution assume anything about the contents of str?
 @ 1.
 
@@ -17910,7 +17541,7 @@ listed below. Write each function using only the features of the C standard.
 (a) strdup (g)  ---  Returns a pointer to a copy of s stored in memory obtained by calling
 malloc. Returns a null pointer if enough memory couldn't be allocated.
 
-(b) stricmp(sl, s2)  ---  Similar to stremp, but ignores the case of letters.
+(b) stricmp(sl, s2)  ---  Similar to strcmp, but ignores the case of letters.
 
 (c) strlwr (s)  ---  Converts upper-case letters in s to lower case, leaving other characters
 unchanged; returns s.
@@ -18753,7 +18384,7 @@ sage from the function's name;
 
 Yy = TRY_MATH_FCN(sqrt, x);
 
-If the call of sqrt fails, the message will be Exror in call of sqrt. Hint: Have
+If the call of sqrt fails, the message will be Exror in call of sqrt. *Hint*: Have
 TRY_MATH FCNecall try math_fen.
 
 In the inventory.c program (see Section 16.3), the `main` function has a `for` loop that
@@ -20239,7 +19870,7 @@ wostok
 255 The <wchar.h> Header (C99) 665
 
 <wchar.h> Function <string.h> FEquivalent
-wesemp stremp
+wesemp strcmp
 wescoll strcoll
 wesnemp strnemp
 wesxfrm strxfrm
@@ -20778,7 +20409,7 @@ old locale = malloc(strlen(temp) + 1);
 if (old locale == NULL)
 /* memory allocation failed */
 
-strepy (old locale, temp);
+strcpy (old locale, temp);
 We can now switch to a different locale and then later restore the old locale:
 setlocale (LC_ALL, ""); /* switches to native locale */
 
@@ -22551,7 +22182,7 @@ char *vstrcat (const char *first, ...):
 All arguments of vstrcat are assumed to be strings, except for the last argument, which
 must be a null pointer (castto char * type). The function returns a pointer to a dynamically
 allocated string containing the concatenation of the arguments. vstrcat should return a
-null pointer if not enough memory is available. Hint: Have vstreat go through the argu-
+null pointer if not enough memory is available. *Hint*: Have vstreat go through the argu-
 ments twice: once to determine the amount of memory required for the returned string and
 once to copy the arguments into the string.
 
@@ -22589,7 +22220,7 @@ Section 26.3 12.
 
 Although the bseaxrch function is normally used with a sorted array, it will sometimes
 work correctly with an array that is only partially sorted. What condition must an array sat-
-isly to guurantee that bsearch works properly for a particular key? Hint: The answer
+isly to guurantee that bsearch works properly for a particular key? *Hint*: The answer
 appears in the C standard.
 
 Write a function that, when passed a year, returns a time_t value representing 12:00 a.m.
@@ -22631,7 +22262,7 @@ Write a program that prompts the user for a date (month, day, and year) and an i
 then prints the date that's n days later.
 
 Write a program that prompts the user to enter two dates, then prints the difference between
-them, measured in days. Hint: Use the mktime and difftime functions.
+them, measured in days. *Hint*: Use the mktime and difftime functions.
 
 Write programs that display the current date and time in each of the following formats. Use
 strftime to do all or most of the formarting.
@@ -26797,7 +26428,7 @@ char *strchr(const char *s, int c);
 Returns A pointer o the first occurrence of the character c in the string pointed to by s.
 
 Returns a null pointer if c isn't found. 236
-stremp String Comparison <string.h>
+strcmp String Comparison <string.h>
 int strcmp(const char *sl, const char *s2);
 
 Returns A negative, zero. or positive integer, depending on whether the stri ng pointed to by
@@ -27137,7 +26768,7 @@ size t strxfrm(char * restrict si,
 const char * restrict s2, size t n);
 Transforms the string pointed to by s2, placing the first n characters of the
 result --- including the null character --- in the array pointed to by s1. Calling
-stremp with two transformed strings should produce the same outcome (nega-
+strcmp with two transformed strings should produce the same outcome (nega-
 tive, zero, or positive) as calling strcoll with the original strings. If n is zero,
 s1 is allowed to be a null pointer.
 Returns  Length of the transformed string. If this value is n or more, the contents of the
@@ -27392,7 +27023,7 @@ wchar_t *weschr (const wechar_ t *s, wchar_t c);
 Wide-character version of strchr, 255
 wcscmp  Wide-String Comparison (C99) <wchar.h>
 int wesemp (const wehar t *s1, const wchar t *s2);
-Wide-character version of stremp. 255
+Wide-character version of strcmp. 255
 wcscoll Wide-String Comparison Using Locale-Specific Collating <wchar.h>
 Sequence (C399)
 int wcscoll (const wchar t *sl, const wchar t *s2);
@@ -27400,7 +27031,7 @@ Wide-character version of strcoll. 255
 wcscpy Wide-String Copy (C99) <wchar .h>
 wchar_t *wescpy(wchar t * restrict sl,
 const wchar t * restrict s2);
-Wide-character version of strepy. 255
+Wide-character version of strcpy. 255
 wescspn  Search Wide String for Initial Span of Characters Not in Set  <wchar.h>
 (C99)
 size t wescspn(const wchar t *sl, const wchar t *s2);

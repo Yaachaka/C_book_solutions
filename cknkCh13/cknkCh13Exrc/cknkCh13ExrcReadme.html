@@ -1,0 +1,714 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+Chapter 13 exercises
+</title>
+<link rel="stylesheet" href="../../myStyle.css">
+</head>
+<body>
+<h2 id="strings">13 Strings</h2>
+<h1 id="chapter-13-excercises">Chapter 13 Excercises</h1>
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc001" class="ch_problem">
+<h1>cknkCh13Exrc001</h1>
+<p>Section 13.3</p>
+<!-- START: Problem Statement -->
+<p>The following function calls supposedly write a single new-line
+character, but some are incorrect. Identify which calls don’t work and
+explain why.</p>
+<ol type="a">
+<li><code>printf("%c", '\n');</code><br />
+</li>
+<li><code>printf("%c", "\n");</code><br />
+</li>
+<li><code>printf("%s", '\n');</code><br />
+</li>
+<li><code>printf("%s", "\n");</code><br />
+</li>
+<li><code>printf('\n');</code><br />
+</li>
+<li><code>printf("\n");</code><br />
+</li>
+<li><code>putchar('\n');</code><br />
+</li>
+<li><code>putchar("\n");</code><br />
+</li>
+<li><code>puts('\n');</code><br />
+</li>
+<li><code>puts("\n");</code><br />
+</li>
+<li><code>puts("");</code></li>
+</ol>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution">Solution:</h1>
+<h2 id="program-link">Program Link</h2>
+<p><a href="./cknkCh13Exrc001.c">cknkCh13Exrc001.c</a></p>
+<h2 id="outputexecutionlog">Output/ExecutionLog:</h2>
+<h3 id="trial1">Trial1:</h3>
+<h4 id="trial1-execution">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc002" class="ch_problem">
+<h1>cknkCh13Exrc002</h1>
+<p>Section 13.3</p>
+<!-- START: Problem Statement -->
+<p>Suppose that <code>p</code> has been declared as follows:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>p <span class="op">=</span> <span class="st">&quot;abc&quot;</span><span class="op">;</span></span></code></pre></div>
+<p>Which of the following function calls are legal? Show the output
+produced by each legal call, and explain why the others are illegal.</p>
+<ol type="a">
+<li><code>putchar(p);</code><br />
+</li>
+<li><code>putchar(*p);</code><br />
+</li>
+<li><code>puts(p);</code><br />
+</li>
+<li><code>puts(*p);</code></li>
+</ol>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-1">Solution:</h1>
+<h2 id="program-link-1">Program Link</h2>
+<p><a href="./cknkCh13Exrc002.c">cknkCh13Exrc002.c</a></p>
+<h2 id="outputexecutionlog-1">Output/ExecutionLog:</h2>
+<h3 id="trial1-1">Trial1:</h3>
+<h4 id="trial1-execution-1">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc003" class="ch_problem">
+<h1>cknkCh13Exrc003</h1>
+<p>Section 13.3</p>
+<!-- START: Problem Statement -->
+<p>Suppose that we call <code>scanf</code> as follows:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%d%s%d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>i<span class="op">,</span> s<span class="op">,</span> <span class="op">&amp;</span>j<span class="op">);</span></span></code></pre></div>
+<p>If the user enters <code>12abc34 56def78</code>, what will be the
+values of <code>i</code>, <code>s</code>, and <code>j</code> after the
+call? (Assume that <code>i</code> and <code>j</code> are
+<code>int</code> variables and <code>s</code> is an array of
+characters.)</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-2">Solution:</h1>
+<h2 id="program-link-2">Program Link</h2>
+<p><a href="./cknkCh13Exrc003.c">cknkCh13Exrc003.c</a></p>
+<h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
+<h3 id="trial1-2">Trial1:</h3>
+<h4 id="trial1-execution-2">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-2">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc004" class="ch_problem">
+<h1>cknkCh13Exrc004</h1>
+<p>Section 13.3</p>
+<!-- START: Problem Statement -->
+<p>Modify the <code>read_1ine</code> function in each of the following
+ways:</p>
+<ol type="a">
+<li>Have it skip white space before beginning to store input
+characters.<br />
+</li>
+<li>Have it stop reading at the first white-space character.
+<em>Hint</em>: To determine whether or not a character is white space,
+call the <code>isspace</code> function.<br />
+</li>
+<li>Have it stop reading at the first new-line character, then store the
+new-line character in the string.<br />
+</li>
+<li>Have it leave behind characters that it doesn’t have room to
+store.</li>
+</ol>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-3">Solution:</h1>
+<h2 id="program-link-3">Program Link</h2>
+<p><a href="./cknkCh13Exrc004.c">cknkCh13Exrc004.c</a></p>
+<h2 id="outputexecutionlog-3">Output/ExecutionLog:</h2>
+<h3 id="trial1-3">Trial1:</h3>
+<h4 id="trial1-execution-3">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-3">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-3">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc005" class="ch_problem">
+<h1>cknkCh13Exrc005</h1>
+<p>Section 13.4</p>
+<!-- START: Problem Statement -->
+<ol type="a">
+<li>Write a function named <code>capitalize</code> that capitalizes all
+letters in its argument. The argument will be a null-terminated string
+containing arbitrary characters, not just letters. Use array
+subscripting to access the characters in the string. <em>Hint</em>: Use
+the <code>toupper</code> function to convert each character to
+upper-case.<br />
+</li>
+<li>Rewrite the <code>capitalize</code> function, this time using
+pointer arithmetic to access the characters in the string.</li>
+</ol>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-4">Solution:</h1>
+<h2 id="program-link-4">Program Link</h2>
+<p><a href="./cknkCh13Exrc005.c">cknkCh13Exrc005.c</a></p>
+<h2 id="outputexecutionlog-4">Output/ExecutionLog:</h2>
+<h3 id="trial1-4">Trial1:</h3>
+<h4 id="trial1-execution-4">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-4">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-4">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc006" class="ch_problem">
+<h1>cknkCh13Exrc006</h1>
+<p>Section 13.4</p>
+<!-- START: Problem Statement -->
+<p>Write a function named <code>censor</code> that modifies a string by
+replacing every occurrence of <code>foo</code> by <code>xxx</code>. For
+example, the string <code>"food fool"</code> would become
+<code>"xxxd xxxl"</code>. Make the function as short as possible without
+sacrificing clarity.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-5">Solution:</h1>
+<h2 id="program-link-5">Program Link</h2>
+<p><a href="./cknkCh13Exrc006.c">cknkCh13Exrc006.c</a></p>
+<h2 id="outputexecutionlog-5">Output/ExecutionLog:</h2>
+<h3 id="trial1-5">Trial1:</h3>
+<h4 id="trial1-execution-5">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-5">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-5">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc007" class="ch_problem">
+<h1>cknkCh13Exrc007</h1>
+<p>Section 13.5</p>
+<!-- START: Problem Statement -->
+<p>Suppose that <code>str</code> is an array of characters. Which one of
+the following statements is not equivalent to the other three?</p>
+<ol type="a">
+<li><code>*str = 0;</code><br />
+</li>
+<li><code>str[0] = '\0';</code><br />
+</li>
+<li><code>strcpy(str, "");</code><br />
+</li>
+<li><code>strcat(str, "");</code></li>
+</ol>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-6">Solution:</h1>
+<h2 id="program-link-6">Program Link</h2>
+<p><a href="./cknkCh13Exrc007.c">cknkCh13Exrc007.c</a></p>
+<h2 id="outputexecutionlog-6">Output/ExecutionLog:</h2>
+<h3 id="trial1-6">Trial1:</h3>
+<h4 id="trial1-execution-6">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-6">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-6">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc008" class="ch_problem">
+<h1>cknkCh13Exrc008</h1>
+<p>Section 13.5</p>
+<!-- START: Problem Statement -->
+<p>What will be the value of the string <code>str</code> after the
+following statements have been executed?</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>str<span class="op">,</span> <span class="st">&quot;tire-bouchon&quot;</span><span class="op">);</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(&amp;</span>str<span class="op">[</span><span class="dv">4</span><span class="op">],</span> <span class="st">&quot;d-or-wi&quot;</span><span class="op">);</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>strcat<span class="op">(</span>str<span class="op">,</span> <span class="st">&quot;red?&quot;</span><span class="op">);</span></span></code></pre></div>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-7">Solution:</h1>
+<h2 id="program-link-7">Program Link</h2>
+<p><a href="./cknkCh13Exrc008.c">cknkCh13Exrc008.c</a></p>
+<h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
+<h3 id="trial1-7">Trial1:</h3>
+<h4 id="trial1-execution-7">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-7">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-7">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc009" class="ch_problem">
+<h1>cknkCh13Exrc009</h1>
+<p>Section 13.5</p>
+<!-- START: Problem Statement -->
+<p>What will be the value of the string <code>s1</code> after the
+following statements have been executed?</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>s1<span class="op">,</span> <span class="st">&quot;computer&quot;</span><span class="op">);</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>s2<span class="op">,</span> <span class="st">&quot;science&quot;</span><span class="op">);</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>strcmp<span class="op">(</span>s1<span class="op">,</span> s2<span class="op">)</span> <span class="op">&lt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    strcat<span class="op">(</span>s1<span class="op">,</span> s2<span class="op">);</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    strcat<span class="op">(</span>s2<span class="op">,</span> s1<span class="op">);</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>s1<span class="op">[</span>strlen<span class="op">(</span>s1<span class="op">)</span> <span class="op">-</span> <span class="dv">6</span><span class="op">]</span> <span class="op">=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span></span></code></pre></div>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-8">Solution:</h1>
+<h2 id="program-link-8">Program Link</h2>
+<p><a href="./cknkCh13Exrc009.c">cknkCh13Exrc009.c</a></p>
+<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
+<h3 id="trial1-8">Trial1:</h3>
+<h4 id="trial1-execution-8">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-8">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-8">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc010" class="ch_problem">
+<h1>cknkCh13Exrc010</h1>
+<p>Section 13.5</p>
+<!-- START: Problem Statement -->
+<p>The following function supposedly creates an identical copy of a
+string. What’s wrong with the function?</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>duplicate<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>p<span class="op">)</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> <span class="op">*</span>q<span class="op">;</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    strcpy<span class="op">(</span>q<span class="op">,</span> p<span class="op">);</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> q<span class="op">;</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-9">Solution:</h1>
+<h2 id="program-link-9">Program Link</h2>
+<p><a href="./cknkCh13Exrc010.c">cknkCh13Exrc010.c</a></p>
+<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
+<h3 id="trial1-9">Trial1:</h3>
+<h4 id="trial1-execution-9">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-9">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-9">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc011" class="ch_problem">
+<h1>cknkCh13Exrc011</h1>
+<p>Section 13.5</p>
+<!-- START: Problem Statement -->
+<p>The Q&amp;A section at the end of this chapter shows how the
+<code>strcmp</code> function might be written using array subscripting.
+Modify the function to use pointer arithmetic instead.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-10">Solution:</h1>
+<h2 id="program-link-10">Program Link</h2>
+<p><a href="./cknkCh13Exrc011.c">cknkCh13Exrc011.c</a></p>
+<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
+<h3 id="trial1-10">Trial1:</h3>
+<h4 id="trial1-execution-10">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-10">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-10">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc012" class="ch_problem">
+<h1>cknkCh13Exrc012</h1>
+<p>Section 13.5</p>
+<!-- START: Problem Statement -->
+<p>Writc the following function:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> get_extension<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>file_name<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>extension<span class="op">);</span></span></code></pre></div>
+<p><code>file_name</code> points to a string containing a file name. The
+function should store the extension on the file name in the string
+pointed to by <code>extension</code>. For example, if the file name is
+“memo.txt”, the function will store “txt” in the string pointed to by
+<code>extension</code>. If the file name doesn’t have an extension, the
+function should store an empty string (a single null character) in the
+string pointed to by extension. Keep the function as simple as possible
+by having it use the <code>strlen</code> and <code>strcpy</code>
+functions.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-11">Solution:</h1>
+<h2 id="program-link-11">Program Link</h2>
+<p><a href="./cknkCh13Exrc012.c">cknkCh13Exrc012.c</a></p>
+<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
+<h3 id="trial1-11">Trial1:</h3>
+<h4 id="trial1-execution-11">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-11">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-11">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc013" class="ch_problem">
+<h1>cknkCh13Exrc013</h1>
+<p>Section 13.5</p>
+<!-- START: Problem Statement -->
+<p>Write the following function:</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> build_index_url<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>domain<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>index_url<span class="op">);</span></span></code></pre></div>
+<p>domain points to a string containing an Internet domain, such as
+<code>"knking.com"</code>. The function should add
+<code>"http://www."</code> to the beginning of this string and
+<code>"/index.html"</code> to the end of the string, storing the result
+in the string pointed to by <code>index_url</code>. (In this example,
+the result will be <code>"http://www.knking.com/index.html"</code>.) You
+may assume that <code>index_url</code> points to a variable that is long
+enought to hold the resulting string. Keep the function as simple as
+possible by having it use the <code>strcat</code> and
+<code>strcpy</code> functions.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-12">Solution:</h1>
+<h2 id="program-link-12">Program Link</h2>
+<p><a href="./cknkCh13Exrc013.c">cknkCh13Exrc013.c</a></p>
+<h2 id="outputexecutionlog-12">Output/ExecutionLog:</h2>
+<h3 id="trial1-12">Trial1:</h3>
+<h4 id="trial1-execution-12">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-12">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-12">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc014" class="ch_problem">
+<h1>cknkCh13Exrc014</h1>
+<p>Section 13.6</p>
+<!-- START: Problem Statement -->
+<p>What does the following program print?</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> s<span class="op">[]</span> <span class="op">=</span> <span class="st">&quot;Hsjodi&quot;</span><span class="op">,</span> <span class="op">*</span>p<span class="op">;</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>p <span class="op">=</span> s<span class="op">;</span> <span class="op">*</span>p<span class="op">;</span> p<span class="op">++)</span></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>        <span class="op">--*</span>p<span class="op">;</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>    puts<span class="op">(</span>s<span class="op">);</span></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-13">Solution:</h1>
+<h2 id="program-link-13">Program Link</h2>
+<p><a href="./cknkCh13Exrc014.c">cknkCh13Exrc014.c</a></p>
+<h2 id="outputexecutionlog-13">Output/ExecutionLog:</h2>
+<h3 id="trial1-13">Trial1:</h3>
+<h4 id="trial1-execution-13">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-13">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-13">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc015" class="ch_problem">
+<h1>cknkCh13Exrc015</h1>
+<p>Section 13.6</p>
+<!-- START: Problem Statement -->
+<p>Let <code>f</code> be the following function:</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> f<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>s<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>t<span class="op">)</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> <span class="op">*</span>p1<span class="op">,</span> <span class="op">*</span>p2<span class="op">;</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>p1 <span class="op">=</span> <span class="dv">8</span><span class="op">;</span> <span class="op">*</span>p1<span class="op">;</span> p1<span class="op">++)</span></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> <span class="op">(</span>p2 <span class="op">=</span> t<span class="op">;</span> <span class="op">*</span>p2<span class="op">;</span> p2<span class="op">++)</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="op">(*</span>pl <span class="op">==</span> <span class="op">*</span>p2<span class="op">)</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="op">(*</span>p2 <span class="op">==</span> <span class="ch">&#39;\0&#39;</span><span class="op">)</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> p1 <span class="op">-</span> s<span class="op">;</span></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<ol type="a">
+<li>What is the value of <code>f("abcd", "babc")</code>?<br />
+</li>
+<li>What is the value of <code>f("abcd", "bcd")</code>?<br />
+</li>
+<li>In general, what value does <code>f</code> return when passed two
+strings <code>s</code> and <code>t</code>?</li>
+</ol>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-14">Solution:</h1>
+<h2 id="program-link-14">Program Link</h2>
+<p><a href="./cknkCh13Exrc015.c">cknkCh13Exrc015.c</a></p>
+<h2 id="outputexecutionlog-14">Output/ExecutionLog:</h2>
+<h3 id="trial1-14">Trial1:</h3>
+<h4 id="trial1-execution-14">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-14">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-14">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc016" class="ch_problem">
+<h1>cknkCh13Exrc016</h1>
+<p>Section 13.6</p>
+<!-- START: Problem Statement -->
+<p>Use the techniques of Section 13.6 to condense the
+<code>count_spaces</code> function of Section 13.4. In particular,
+replace the <code>for</code> statement by a <code>while</code> loop.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-15">Solution:</h1>
+<h2 id="program-link-15">Program Link</h2>
+<p><a href="./cknkCh13Exrc016.c">cknkCh13Exrc016.c</a></p>
+<h2 id="outputexecutionlog-15">Output/ExecutionLog:</h2>
+<h3 id="trial1-15">Trial1:</h3>
+<h4 id="trial1-execution-15">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-15">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-15">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc017" class="ch_problem">
+<h1>cknkCh13Exrc017</h1>
+<p>Section 13.6</p>
+<!-- START: Problem Statement -->
+<p>Write the following function:</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> test_extension<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>file_name<span class="op">,</span> <span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>extension<span class="op">);</span></span></code></pre></div>
+<p><code>file_name</code> points to a string containing a file name. The
+function should return <code>true</code> if the file’s extension matches
+the string pointed to by extension, ignoring the case of letters. For
+example, the call test extension(“memo.txt”, “TXT”) would return
+<code>true</code>. Incorporate the “search for the end of a string”
+idiom into your function. <em>Hint</em>: Use the <code>toupper</code>
+function to convert characters to upper case before comparing them.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-16">Solution:</h1>
+<h2 id="program-link-16">Program Link</h2>
+<p><a href="./cknkCh13Exrc017.c">cknkCh13Exrc017.c</a></p>
+<h2 id="outputexecutionlog-16">Output/ExecutionLog:</h2>
+<h3 id="trial1-16">Trial1:</h3>
+<h4 id="trial1-execution-16">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-16">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-16">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc018" class="ch_problem">
+<h1>cknkCh13Exrc018</h1>
+<p>Section 13.6</p>
+<!-- START: Problem Statement -->
+<p>Write the following function:</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> remove_filename<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>url<span class="op">);</span></span></code></pre></div>
+<p><code>url</code> points to a string containing a URL (Uniform
+Resource Locator) that ends with a file name (such as
+<code>"http://www.knking.com/index.html"</code>). The function should
+modify the string by removing the file name and the preceding slash. (In
+this example, the result will be <code>"http://www.knking.com"</code>.)
+Incorporate the “search for the end of a string” idiom into your
+function. <em>Hint</em>: Have the function replace the last slash in the
+string by a null character.</p>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-17">Solution:</h1>
+<h2 id="program-link-17">Program Link</h2>
+<p><a href="./cknkCh13Exrc018.c">cknkCh13Exrc018.c</a></p>
+<h2 id="outputexecutionlog-17">Output/ExecutionLog:</h2>
+<h3 id="trial1-17">Trial1:</h3>
+<h4 id="trial1-execution-17">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-17">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-17">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+</body>
+</html>

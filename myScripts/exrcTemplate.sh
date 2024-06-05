@@ -1,9 +1,9 @@
 # Stay in `C_book_solutions` folder while running this script.
 echo "Hope you are in the directory: \"C_book_solutions\""
-chapter_section="Section 12." # Update needed here
-chapter="12"    # Update needed here
+chapter_section="Section 13." # Update needed here
+chapter="13"    # Update needed here
 
-chapterName="Pointers and Arrays"    # Give chapter name here
+chapterName="Strings"    # Give chapter name here
 
 title="# Chapter $chapter Excercises"
 
