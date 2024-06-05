@@ -1,1646 +1,3 @@
-
-13
-
-13.1
-
-Strings
-
-It's difficult to extract sense from strings, but
-they're the only communication coin we can count on.
-
-Although we've used char variables and arrays of chax values in previous chap-
-ters, we still lack any convenient way to process a series of characters (a string, in
-C terminology). We'll remedy that defect in this chapter, which covers both string
-constants (or literals, as they're called in the C standard) and string variables,
-which can change during the execution of a program.
-
-Section 13.1 explains the rules that govern string literals, including the rules
-for embedding escape sequences in string literals and for breaking long string liter-
-als. Section 13.2 then shows how to declare string variables, which are simply
-arrays of characters in which a special character—the null character—marks the
-cnd of a string. Section 13.3 describes ways to read and write strings. Section 13.4
-shows how to write functions that process strings, and Section 13.5 covers some of
-the string-handling functions in the C library. Section 13.6 presents idioms that are
-often used when working with strings. Finally, Section 13.7 describes how to set
-up arrays whose elements are pointers to strings of different lengths. This section
-also explains how C uses such an array to supply command-line information to
-programs.
-
-String Literals
-
-A string literal is a sequence of characters enclosed within double quotes:
-"ihen you come to a fork in the road, take it."
-
-We first encountered string literals in Chapter 2: they often appear as format
-strings in calls of printf and scanf.
-
-217
-278
-
-Chapter 13 Strings
-
-escape sequances >7.3
-
-Escape Sequences in String Literals
-
-String literals may contain the same escape sequences as character constants.
-We've used character escapes in printf and scanf format strings for some
-time. For example, we've seen that each \n character in the string
-
-"Candy\nIs dandy\nBut liquor\nIs quicker.\n --Ogden Nash\n"
-causes the cursor to advance to the next line:
-
-Candy
-
-1s dandy
-
-But liquor
-
-Is quicker.
---Cgden Nagh
-
-Although octal and hexadecimal escapes are also legal in string literals, they're not
-as common as character escapes.
-
-Be careful when using octal and hexadecimal escape sequences in string literals.
-An octal escape ends after three digits or with the first non-octal character. For
-example, the string "\1234" contains two characters (\123 and 4), and the
-string "\ 189" contains three characters (\ 1, &, and 9). A hexadecimal escape, on
-the other hand, isn't limited to three digits; it doesn't end until the first non-hex
-character. Consider what happens if a string contains the escape \xfc, which rep-
-resents the character i in the Latin] character sel, a common extension of ASCIL.
-The string "Z\xfcrich" ("Ziirich") has six characters (2, \xfe, z, i, c, and
-h), but the string " \xfcber" (a failed attempt at "iiber") has only two (\xfcbe
-and x). Most compilers will object to the latter string, since hex escapes are usually
-limited to the range \x0-\xfff.
-
-Continuing a String Literal
-
-If we find that a string literal is too long to fit conveniently on a single line, C
-allows us to continue it on the next line, provided that we end the first line with a
-backslash character (\). No other characters may follow \ on the same line, other
-than the (invisible) new-line character at the cnd:
-
-printf ("When you come to a fork in the road, take it. \
---Yogi Berra");
-
-In general, the \ character can be used to join two or more lines of a program into
-a single line (a process that the C standard refers to as "splicing"). We'll see more
-examples of splicing in Section 14.3.
-
-The \ technique has one drawback: the string must continue at the beginning
-of the next line, thereby wrecking the program's indented structure. There's a bet-
-ter way to deal with long string literals, thanks to the following rule: when two or
-more string literals are adjacent (separated only by white space), the compiler will
-13.1 String Literals 279
-
-join them into a single string. This rule allows us to split a string literal over two or
-more lines:
-
-printf ("when you come to a fork in the road, take it. "
-"--Yogi Berra");
-
-How String Literals Are Stored
-
-We've used string literals often in calls of printf and scant. But when we call
-printf and supply a string literal as an argument, what are we actually passing?
-To answer this question, we need to know how string literals are stored.
-
-In essence, C treats string literals as character arrays. When a C compiler
-encounters a string literal of length » in a program, it sets aside n + 1 bytes of
-memory for the string. This area of memory will contain the characters in the
-string, plus one extra character—the null character—to mark the end of the string.
-The null character is a byte whose bits are all zero, so it's represented by the \ 0
-escape sequence.
-
-Don't confuse the null character (' \0 ') with the zero character (' 0'). The null
-character has the code 0; the zero character has a different code (48 in ASCII).
-
-For example, the string literal "abc" is stored as an array of four characters
-
-(a, b, c, and \0):
-' \o |
-
-String literals may be empty: the string " " is stored as a single null character:
-
-0
-
-Since a string literal is stored as an array, the compiler treats it as a pointer of
-type char *. Both printf and scanf, for example, expect a value of type
-char * as their first argument. Consider the following example:
-
-printf ("abc") ;
-
-When printf is called, it's passed the address of "abc" (a pointer to where the
-letter a is stored in memory).
-
-Operations on String Literals
-
-In general, we can use a string literal wherever C allows a char * pointer. For
-example, a string literal can appear on the right side of an assignment:
-280
-
-Chapter 13 Strings
-
-QsA
-
-char *p;
-p = "abcr;
-
-This assignment doesn't copy the characters in "abc"; it merely makes p point to
-the first character of the string.
-C allows pointers to he subscripted, so we can subscript string literals:
-
-char ch;
-eh = '"abch[1] ;
-
-The new value of ch will be the letter b. The other possible subscripts are 0 (which
-would select the letter a), 2 (the letler c), and 3 (the null character). This property
-of string literals isn't used that much, but occasionally it's handy. Consider the fol-
-lowing function, which converts a number between 0 and 15 into a character that
-represents the equivalent hex digit:
-
-char digit to_hex char(int digit)
-
-return "0123456789ABCDEF" [digit] ;
-
-Attempting to modify a string literal causes undefined behavior:
-char *p = "abc";
-*p = 'd'; /*4% WRONG *#%/
-
-A program that tries to change a string literal may crash or behave erratically.
-
-String Literals versus Character Constants
-
-A string literal containing a single character isn't the same as a character constant,
-The string literal "a" is represented by a pointer to a memory location that con-
-tains the character a (followed by a null character). The character constant 'a ' is
-represented by an integer (the numerical code for the character).
-
-Don't ever use a character when a string is required (or vice versa). The call
-printf ("\n") ;
-
-is legal, because printf expects a pointer as its first argument. The following
-call isn't legal, however:
-
-printf ('\n'); /*** WRONG ***/
-
-13.2
-
-idiom
-
-13.2 String Variables 281
-
-String Variables
-
-Some programming languages provide a special string type for declaring string
-variables. C takes a different tack: any one-dimensional array of characters can be
-used (o store a string, with the understanding that the string is terminated by a null
-character. This approach is simple. but has significant difficulties. It's sometimes
-hard to tell whether an array of characters is being used as a string. If we write our
-own string-handling functions, we've got to be careful that they deal properly with
-the null character. Also, there''s no [aster way to determine the length of a string
-than a character-by-character search for the null character.
-
-Let's say that we need a variable capable of storing a string of up to 80 charac-
-ters. Since the string will need a null character at the end, we'll declare the variable
-1o be an array of 81 characters:
-
-4define STR LEN 80
-char str[STR_LEN+1] ;
-
-We defined STR_LEN to be 80 rather than 81, thus emphasizing the fact that st
-can store strings of no more than 80 characters, and then added 1 to STR_LEN in
-the declaration of st r. This a common practice among C programmers.
-
-When declaring an array of characters that will be used to hold a string, always
-make the array one character longer than the string, because of the C convention
-that every string is terminated by a null character. Failing to leave room for the null
-character may cause unpredictable results when the program is executed, since
-functions in the C library assume that strings are null-terminated.
-
-Declaring a character array to have length STR_LEN + | doesn't mean that it
-will always contain a string of STR_LEN characters. The length of a string
-depends on the position of the terminating null character, not on the length of the
-array in which the string is stored. An array of STR_LEN + | characters can hold
-strings of various lengths, ranging from the empty string to strings of length
-STR_LEN.
-
-Initializing a String Variable
-A string variable can be initialized at the same time it's declared:
-
-char datel[8] = "June 14";
-282
-
-Chapter 13 Strings
-
-array inftiaizers > 8.1
-
-The compiler will put the characters from "June 14" in the datel array, then
-add a null character so that datel can be used as a string, Here's what datel
-will look like:
-
-d:\Lel! T ' u|n|e 1 4 |\o
-
-Although "June 14" appears to be a string literal, it's not. Instead, C views it as
-an abbreviation for an array initializer. In fact, we could have written
-
-char datel[g] = {'J', 'u', 'm', 'fe', ' L, *1', 141, \O'};
-
-I'think you'll agree that the original version is easier to read.
-What if the initializer is too short to fill the string variable? In that case, the
-compiler adds extra null characters. Thus, after the declaration
-
-char date2[9] = "June 14";
-
-date2 will have the following appearance:
-
-datezlJ an e 24 \u'\u
-
-This behavior is consistent with C's treatment of array initializers in general. When
-an array initializer is shorter than the array itself, the remaining elements are ini-
-tialized to zero. By initializing the leftover elements of a character array to \ 0, the
-compiler is following the same rule.
-
-What if the initializer is longer than the string variable? That's illegal for
-strings, just as it's illegal for other arrays. However, C does allow the initializer
-(not counting the null character) to have exactly the same length as the variable;
-
-char date3[7] = "June 14";
-
-There's no room for the null character, so the compiler makes no attempt to store
-one:
-
-dated | d | u | n
-
-1f you're planning fo initialize a character array to contain a string, be sure that the
-length of the array is longer than the length of the initializer. Otherwise, the com-
-piler will quietly omit the null character, making the array unusable as a string.
-
-The declaration of a string variable may omit its length, in which case the
-compiler computes it:
-
-char date4[] = "June 14";
-dynamically allocated strings »17.2
-
-13.2 String Variables ~ 283
-
-The compiler sets aside eight characters for date4, enough to store the characters
-in "June 14" plus a null character. (The fact that the length of date4 isn't spec-
-ified doesn't mean that the array's length can be changed later. Once the program
-is compiled, the length of date4 is fixed at eight.) Omitting the length of a string
-variable is especially useful if the initializer is long, since computing the length by
-hand is error-prone.
-
-Character Arrays versus Character Pointers
-Let's compare the declaration
-
-char date[] = "June 14";
-
-which declares date to be an array, with the similar-looking
-char *date = "June 14";
-
-which declares date to be a pointer. Thanks to the close relationship between
-arrays and pointers, we can use either version of date as a stiing. In particular,
-any function expecting to be passed a character arvay or character pointer will
-accept either version of date as an argument.
-
-However, we must be careful not to make the mistake of thinking that the two
-versions of date are interchangeable. There are significant differences between
-the two:
-
-u In the array version, the characters stored in date can be modified, like the
-elements of any array. In the pointer version, date points to a string literal,
-and we saw in Section 13.1 that string literals shouldn't be modified.
-
-= In the array version, date is an array name. In the pointer version, date isa
-variable that can be made to point to other strings during program execution.
-If we need a string that can be modified, it's our responsibility to set up an
-array of characters in which to store the string: declaring a pointer variable isn't
-enough. The declaration
-
-char *p;
-
-causes the compiler to set aside enough memory for a pointer variable; unfortu-
-nately. it doesn't allocate space for a string. (And how could it? We haven't indi-
-cated how long the string would be.) Before we can use p as a string, it must point
-to an array of characters. One possibility is to make p point to a string variablc:
-char str[STR_LEN+1], *p;
-
-P = str;
-
-p now points to the first character of str. so we can use p as a string. Another
-possibility is to make p point to a dynamically allocated string.
-284
-
-Chapter 13  Strings
-
-A
-
-133
-
-Using an uninitialized pointer variable as a string is a serious error. Consider the
-following example, which attempts to build the string "abc":
-
-char *p;
-
-plol = 'a'; J%%% WRONG #h%/
-Pl =ihts /***x WRONG **%/
-210 S ley, /*** WRONG *#%/
-P31 =" INor ST kS R TRONG Sxa e/
-
-Since p hasn't heen initialized, we don't know where it's pointing. Using the
-pointer to write the characters a, b, c, and \0 into memory causes undefined
-behavior.
-
-Reading and Writing Strings
-
-Writing a string is easy using either the printf or puts functions. Reading a
-string is a bit harder, primarily because of the possibility that the input string may
-be longer than the string variable into which it's being stored. To read a string in a
-single step, we can use either scanf or gets. As an alternative, we can read
-strings one character at a time.
-
-Weriting Strings Using printf and puts
-
-The %s conversion specification allows printf to write a string. Consider the
-following example:
-
-char str[] = "Are we having fun yet?";
-printf ("$s\n", str);
-
-The output will be
-
-Are we having fun yet?
-
-printf writes the characters in a string one hy one until it encounters a null char-
-acter. (If the null character is missing, printf continues past the end of the string
-until—eventually—it finds a null character somewhere in memory.)
-
-To print just part of a string, we can use the conversion specification % .ps,
-where p is the number of characters to be displayed. The statement
-
-printf ("%.6s\n", str);
-will print
-
-Are we
-white-space characters »3.2
-
-13.3 Reading and Writing Strings 285
-
-A string, like a number, can be printed within a field. The $ms conversion will
-display a string in a field of size m. (A string with more than m characters will be
-printed in full, not truncated.) If the string has fewer than m characters, it will be
-right-justified within the field. To force left justification instead, we can put a
-minus sign in front of m. The m and p values can be used in combination: a conver-
-sion specification of the form % . ps causes the first p characters of a string to be
-displayed in a field of size m.
-
-printf isn't the only function that can write strings. The C library also pro-
-vides puts, which is used in the following way:
-
-puts (str) ;
-
-puts has only one argument (the string to be printed). After writing the string,
-puts always writes an additional new-line character, thus advancing to the begin-
-ning of the next output line.
-
-Reading Strings Using scanf and gets
-
-The %s conversion specification allows scanf to read a string into a character
-array:
-
-gcanf ("¥s", str);
-
-There's no need to put the & operator in front of st in the call of scanf: like any
-array name, st is treated as a pointer when passed to a function.
-
-When scanf is called, it skips white space, then reads characters and stores
-them in stz until it encounters a white-space character. scanf always stores a
-null character at the end of the string.
-
-A string read using scanf will never contain white space. Consequently,
-scanf won't usually read a full line of input; a new-line character will cause
-scanf to stop reading, but so will a space or tab character. To read an entire line
-of input at a time, we can use gets. Like scanf, the gets function reads input
-characters into an array, then stores a null character. In other respects, however,
-gets is somewhat different from scanf:
-
-m gets doesn't skip white space before starting to read the string (scanf
-does).
-
-= gets reads until it finds a new-line character (scanf stops at any white-
-space character). Incidentally, gets discards the new-line character instead of
-storing it in the array: the null character takes its place.
-
-To see the difference between scanf and gets, consider the following pro-
-gram fragment:
-
-char sentence [SENT LEN+1];
-
-printf ("Enter a sentence:\n");
-scanf ("%s", sentence);
-286
-
-Chapter 13  Strings
-
-A
-
-LyeLs lunclion »22.5
-
-Suppose that after the prompt
-Enter a sentence:
-the user enters the line
-To C, or not to C: that is the guestion.
-
-scanf will store the string "To" in sentence. The next call of scanf will
-resume reading the line at the space after the word To.
-Now suppose that we replace scanf by gets:
-
-gete (sentence) ;
-When the user enters the same input as before, gets will store the string
-" To C, or not to C: that is the question."
-
-in sentence.
-
-As they read characters into an array, scanf and gets have no way to detect
-when it's full. Consequently, they may store characters past the end of the array,
-causing undefined behavior. scanf can be made safer by using the conversion
-specification %ns instead of %s, where n is an integer indicating the maximum
-number of characters to be stored. gets, unfortunately, is inherently unsafe:
-fgets is a much better alternative,
-
-Reading Strings Character by Character
-
-Since both scanf and gets are risky and insufficiently flexible for many appli-
-cations, C programmers often write their own input functions, By reading strings
-one character at a time, these functions provide a greater degree of control than the
-standard input functions,
-
-If we decide to design our own input function, we'll need to consider the fol-
-lowing issues:
-
-= Should the function skip white space before beginning to store the string?
-
-= What character causes the function to stop reading: a new-line character, any
-white-space character, or some other character? Is this character stored in the
-string or discarded?
-
-= What should the function do if the input string is too long to store: discard the
-extra characters or leave them for the next input operation?
-
-Suppose we need a function that doesn't skip white-space characters, stops
-reading at the first new-line character (which isn't stored in the string), and dis-
-cards extra characters. The function might have the following prototype:
-
-int read line(char str(], int n);
-getchar function >7.3
-
-QaA
-
-13.4
-
-13.4 Accessing the Characters in a String 287
-
-str represents the array into which we'll store the input, and n is the maximum
-number of characters to be read. If the input line contains more than n characters,
-read line will discard the additional characters. We'll have read line
-return the number of characters it actually stores in stx (a number anywhere from
-0 to n). We may not always need read line's return value, but it doesn't hurt to
-have it available.
-
-read_line consists primarily of a loop that calls getchar to read a char-
-acter and then stores the character in str, provided that there's room left. The loop
-terminates when the new-line character is read. (Strictly speaking, we should also
-have the loop terminate if getchar should fail to read a character, but we'll
-ignore that complication for now.) Here's the complete definition of read line:
-
-int read line(char str[], int n)
-int ch, i = 0;
-
-while ((ch = getchar()) != '\n')
-iE (. € m)
-strli++] = ch;
-strli] = '\o'; /* terminates string */
-return i; /* number of characters stored */
-
-/
-
-Note that ch has int type rather than chax type, because getchar returns the
-character that it rcads as an int value.
-
-Before returning, read line puts a null character at the end of the string.
-Standard functions such as scanf and gets automatically put a null character at
-the end of an input string; if we're writing our own input function, however, we
-must take on that responsibility.
-
-Accessing the Characters in a String
-
-Since strings are stored as arrays, we can use subscripting to access the characters
-in a string. To process every character in a string s, for example, we can set up a
-loop that increments a counter i and selects characters via the expression s [1].
-
-Suppose that we need a function that counts the number of spaces in a string.
-Using array subscripting, we might write the function in the following way:
-
-int count spaces(const char s[])
-
-{
-
-int count = 0, i;
-
-for (i = s[i] = '\0'; i++)
-T Efd] ==y )
-count++;
-return count;
-288
-
-Chapter 13  Strings
-
-I've included const in the declaration of s to indicate that count_spaces
-doesn't change the array that s represents. If s were not a string, the function
-would need a second argument specifying the length of the array. Since s is a
-string, however, count_spaces can determine where it ends by testing for the
-null character.
-
-Many C programmers wouldn't write count_spaces as we have. Instead,
-they'd use a pointer to keep track of the current position within the string. As we
-saw in Section 12.2. this technique is always available for processing arrays, but it
-proves to be especially convenient for working with strings.
-
-Let's rewrite the count_spaces function using pointer arithmetic instead
-of array subscripting. We'll eliminate the variable 1 and use s itself to keep track
-of our position in the string. By incrementing s repeatedly, count_spaces can
-step through each character in the string. Here's our new version of the function:
-
-int count_spaces (const char *s)
-
-{
-
-int count = 0;
-
-for (; *a
-S (X
-count++;
-return count;
-
-}
-
-Note that const doesn't prevent count_spaces from modifying s: it's there to
-prevent the function from modifying what s points to. And since s is a copy of the
-pointer that's passed to count_spaces, incrementing s doesn't affect the origi-
-nal pointer.
-
-The count_spaces example raises some questions about how to write
-string functions:
-
-u [s it better to use array operations or pointer operations to access the char-
-acters in a string? We're free to use whichever is more convenient; we can
-even mix the two. In the second version of count_spaces, treating s as a
-pointer simplifies the function slightly by remaving the need for the variable
-i. Traditionally, C programmers lean toward using pointer operations for pro-
-cessing strings.
-
-u Should a string parameter be declared as an array or as a pointer? The two
-versions of count spaces illustrate the options: the first version declares s
-to be an array; the second declares s to be a pointer. Actually, there's no dif-
-ference between the two declarations—recall from Section 12.3 that the com-
-piler treats an array parameter as though it had been declared as a pointer.
-
-u Does the form of the parameter (s [1 or *s) affect what can be supplied as
-an argument? No. When count_spaces is called, the argument could he
-an array name, a pointer variable, or a string literal—count _spaces can't
-tell the difference.
-13.5
-
-<string.h- header » 226
-
-13.5 Using the C String Library =~ 289
-
-Using the C String Library
-
-Some programming languages provide operators that can copy strings, compare
-strings, concatenate strings, select substrings, and the like. C's operators, in con-
-trast, are essentially useless for working with strings. Strings are treated as arrays
-in C. so theyre restricted in the same ways as arrays—in particular, they can't be
-copied or compared using operators.
-
-Direct attempts to copy or compare strings will fail. For example, suppose that
-strl and str2 have been declared as follows:
-
-char stri[10], str2[10];
-Copying a string into a character array using the = operator is not possible:
-
-strl = "abct; /kkk WRONG *x*/
-8tr2 = strl; /*** WRONG ***/
-
-We saw in Section 12.3 that using an array name as the left operand of = is illegal.
-Initializing a character array using = is legal, though:
-
-char strl[10] = "abe";
-
-In the context of a declaration, = is not the assignment operator.
-Attempting to compare strings using a relational or equality operator is legal
-but won't produce the desired result:
-
-if (stri 8tx2) .. /*** WRONG xx**/
-
-This statement compares stx1 and stx2 as pointers: it doesn't compare the con-
-tents of the two arrays. Since strl and str2 have different addresses, the
-expression strl == str2 must have the value 0.
-
-Fortunately, all is not lost: the € library provides a rich set of functions for
-performing operations on strings. Prototypes for these functions reside in the
-<string.h> header, so programs that need string operations should contain the
-following line:
-
-#include <string.h>
-
-Most of the functions declared in <string.h> require at least one string as
-an argument. String parameters are declared to have type char *, allowing the
-argument 1o be a character array, a variable of type char *, or a string literal—all
-are suitable as strings. Watch out for string parameters that aren't declared const,
-however. Such a parameter may be modified when the function is called, so the
-corresponding argument shouldn't be a string literal.
-290
-
-Chapter 13  Strings
-
-A
-
-strncpy lunction »23.6
-
-There are many functions in <string.hs; I'll cover a few of the most basic.
-In subsequent examples, assume that stx1 and str2 are character arrays used as
-strings.
-
-The strcpy (String Copy) Function
-The strcpy function has the following prototype in <string.h>:
-char *strcpy(char *sl, const char *g2);
-
-strcpy copies the string s2 into the string s1. (To be precise, we should say
-"strcpy copies the string pointed to by s2 into the array pointed to by s1.7)
-That is, strcpy copies characters from s2 to s1 up to (and including) the first
-null character in s2. strcpy returns s1 (a pointer to the destination string). The
-string pointed to by s2 isn't modified, so it's declared const.
-
-The existence of strcpy compensates for the fact that we can't use the
-assignment operator to copy strings. For example, suppose that we want to store
-the string "abed" in str2. We can't use the assignment
-
-str2 = "abcd"; /***x WRONG ***/
-
-because str2 is an array name and can't appear on the left side of an assignment.
-Instead, we can call strcpy:
-
-strepy(str2, "abcd"); /* str2 now contains "abcd" */
-Similarly, we can't assign str2 to str1 directly, but we can call strcpy:
-strcpy(strl, str2); /* strl now contains "abcd" */
-
-Most of the time, we'll discard the value that strcpy returns. On occasion,
-though, it can be uscful to call strcpy as part of a larger expression in order to
-use its return value. For example, we could chain together a series of sLrcpy
-calls:
-
-strepy(strl, strcpy(str2, "abed"));
-/* both strl and str2 now contain "abed" */
-
-In the call strepy (strl, str2), strcpy has no way to check that the string
-pointed to by str2 will actually fit in the array pointed to by str1. Suppose that
-strl points to an array of length n. If the string that str2 points to has no more
-than n — 1 characters, then the copy will succeed. But if stx2 points to a longer
-string, undefined behavior occurs. (Since strepy always copies up to the first null
-character, it will continue copying past the end of the array that stx1 points to.)
-
-Calling the strncpy function is a safer, albeit slower, way to copy a string.
-strncpy is similar to st repy but has a third argument that limits the number of
-characters that will be copied. To copy str2 into strl, we could use the follow-
-ing call of st rncpy:
-size_t ypo > 76
-
-13.5 Using the C String Library ~ 291
-
-strncpy(strl, str2, sizeof (strl));
-
-As long as str1 is large enough to hold the string stored in str2 (including the
-null character), the copy will be done correctly. st rncpy itself isn't without dan-
-ger, though. For one thing, it will leave the string in strl without a terminating
-null character if the length of the string stored in str2 is greater than or equal to
-the size of the str1 array. Here's a safer way to use strncpy:
-
-strncpy (strl, str2, sizeof (strl) - 1);
-stril [sizeof (strl)-1] = '\0';
-
-The second statement guarantees that strl is always null-terminated, even if
-strnepy fails to copy a null character from stx2.
-
-The strlen (String Length) Function
-The strlen function has the following prototype:
-size t strlen(ccnst char *s);
-
-siz
-
-. which is defined in the C library, is a typedef name that represents
-one of C's unsigned integer types. Unless we're dealing with extremely long
-strings, this technicality need not concern us—we can simply treat the return value
-of strlen as an integer.
-
-strlen returns the length of a string s: the number of characters in s up to,
-but not including, the first null character. Here are a few examples:
-
-int len;
-
-len = strlen("abe'); /* len is now 3 */
-len '= stxlen("") /* len is now 0 */
-strepy(strl, "abc");
-
-len = strlen(strl); /* len is now 3 */
-
-The last example illustrates an important point. When given an array as its argu-
-ment, strlen doesn't measure the length of the array itself; instead, it returns the
-length of the string stored in the array.
-
-The strecat (String Concatenation) Function
-The strcat function has the following prototype:
-char *strcat(char *sl, const char *s2);
-
-strcat appends the contents of the string s2 to the end of the string s1: it
-returns s1 (a pointer to the resulting string).
-Here are some examples of strcat in action:
-
-strepy(strl, "abe");
-strcat (stxl, "def"); /* strl now contains "abcdef" %/
-292
-
-Chapter 13 Strings
-
-strrcat functon »23.6
-
-QzA
-
-strepy(strl, "abc");
-strcpy(str2, "def");
-streat (strl, str2); /* strl now contains "abcdef" */
-
-As with strepy, the value returned by strcat is normally discarded. The
-following example shows how the return value might be used:
-
-strcpy (strl, 'abe");
-strepy(str2, "def');
-strcat(strl, strecat (str2, "ghi"));
-/* strl now contains "abcdefghi"; stx2 contains "defghi" */
-
-The effect of the call streat (strl, str2) is undefined if the array pointed to
-by str1 isn't long enough to accommodate the additional characters from stzr2.
-Consider the following example:
-
-char stri[6] = "abc";
-strcat (strl, "def"); /*** WRONG #***/
-
-strcat will attempt to add the characters d, e, f, and \ 0 to the end of the string
-already stored in str1. Unfortunately, strl is limited to six characters. causing
-strcat to write past the end of the array.
-
-The strncat function is a safer but slower version of strcat. Like
-strncpy, it has a third argument that limits the number of characters it will copy.
-Here's what a call might look like:
-
-strncat (strl, str2, sizeof(strl) - strlen(strl) - 1);
-
-strncat will terminate str1 with a null character, which isn't included in the
-third argument (the number of characters to be copied). In the example, the third
-argument calculates the amount of space remaining in str1 (given by the expres-
-sion sizeof (strl) - strlen(strl)) and then subtracts 1 to ensure that
-there will be room for the null character.
-
-The strcmp (String Comparison) Function
-The strcmp function has the following prototype:
-int stremp(const char *sl, const char *s2);
-
-stremp compares the strings s1 and s2, returning a value less than, egual to, or
-greater than 0, depending on whether s1 is less than, equal to, or greater than s2.
-For example, to see if str1 is less than str2, we'd write
-
-if (strecmp(strl, str2) < 0) /* is strl < str2? */
-ASCIl characer sel > Apgendix f
-
-PROGRAM
-
-13.5 Using the C String Library ~ 293
-
-To test whether strl is less than or equal to str2, we'd write
-
-if (stremp(strl, str2) <= 0) /* is strl <= str2? */
-
-By choosing the proper relational operator (<, <=, >, >=) or equality operator (=
-1=), we can Lest any possible relationship between strl and str2.
-
-stremp compares strings based on their lexicographic ordering, which re-
-sembles the way words are arranged in a dictionary. More precisely, strcmp con-
-siders s1 to be less than s2 if either one of the following conditions is satisfied:
-
-m The first i characters of s1 and s2 match, but the (i+1)st character of s1 is
-less than the (7+1)st character of s2. For example, "abc" is less than "bed",
-and "abd" is less than "abe".
-
-m All characters of 531 match s2, but s1 is shorter than s2. For example,
-"abe! is less than "abed".
-
-As it compares characters from two strings, stremp lovks at the numerical
-codes that represent the characters. Some knowledge of the underlying character
-set is helpful in order to predict what st remp will do. For example, here are a few
-important properties of the ASCII character set:
-
-m The characters in each of the sequences A-Z, a—z, and 0-9 have consecutive
-codes.
-
-= All upper-case letters are less than all lower-case letters. (In ASCII, codes
-between 65 and 90 represent upper-case letters; codes between 97 and 122
-represent lower-case letters.)
-
-= Digits are less than letters. (Codes between 48 and 57 represent digits.)
-
-m Spaces are less than all printing characters. (The space character has the value
-32in ASCIL)
-
-Printing 2 One-Month Reminder List
-
-To illustrate the use of the C string library, we'll now develop a program that prints
-a one-month list of daily reminders. The user will enter a series of reminders, with
-each prefixed by a day of the month. When the user enters 0 instead of a valid day.
-the program will print a list of all reminders entered, sorted by day. Here's what a
-session with the program will look like:
-
-Enter day and reminder: 24 Susan's birthday
-Enter day and reminder: 5 6:00 - Dinner with Marge and Russ
-
-Enter day and reminder: 26 Movie - "Chinatown'
-Enter day and reminder: 7 10:30 - Dental appointment
-Enter day and reminder: 12 Movie - "Dazed and Confused"
-
-Enter day and reminder: 5 Saturday class
-Enter day and reminder: 12 Saturday class
-
-Enter day and reminder: 0
-294
-
-Chapter 13 Strings
-
-sprintf function »22.6
-
-remind.c
-
-Day Reminder
-5 Saturday class
-5 6:00 - Dinner with Marge and Russ
-7 10:30 - Dental appointment
-
-12 Saturday class
-
-12 Movie - "Dazed and Confused"
-24 Susan's birthday
-26 Movie - "Chinatown"
-
-The overall strategy isn't very complicated: we'll have the program read a
-series of day-and-reminder combinations, storing them in order (sorted by day),
-and then display them. To read the days, we'll use scanf; to read the reminders,
-we'll use the read_1ine function of Section 13.3.
-
-We'll store the strings in a two-dimensional array of characters, with each row
-of the array containing one string. After the program reads a day and its associated
-reminder, it will search the array to determine where the day belongs. using
-strcemp to do comparisons. It will then use strepy to move all strings below
-that point down one position. Finally, the program will copy the day into the array
-and call strcat to append the reminder to the day. (The day and the reminder
-have been kept separate up to this point.).
-
-Of course, there are always a few minor complications, For example, we want
-the days to be right-justified in a two-character field, so that their ones digits will
-line up. There are many ways to handle the problem. I've chosen to have the pro-
-gram use scant to read the day into an integer variable, then call sprintf to
-convert the day back into string form. sprintf is a library function that's similar
-to printf, except that it writes output into a string. The call
-
-sprintf (day_str, "$2d", day);
-
-writes the value of day into day_str. Since sprint f automatically adds a null
-character when it's through writing, day str will contain a properly null-termi-
-nated string.
-
-Another complication is making sure that the user doesn't enter more than two
-digits. We'll use the following call of scant for this purpose:
-
-scanf ("$2d", &day):
-
-The number 2 between % and d tells scanf to stop reading after two digits, even
-if the input has more digits.
-With those details out of the way, here's the program:
-
-/* Prints a one-month reminder list */
-
-#include <stdio.h>
-#include estring.hs
-
-#define MAX REMIND 50 /* maximum number of reminders */
-#detine MSG_LEN 60 /* max length of reminder message */
-13.5 Using the C String Library ~ 295
-
-int read_line(char str[l, int m);
-
-int wain(void)
-
-char reminders [MAX_REMIND] [MSG_LEN+3] ;
-char day str(3], msg_str[MSG LEN+1] ;
-int day, i, j, num _remind = 0;
-
-For (7 H) {
-if (num remind == MAX REMIND) {
-printf (M-~ No space Isft -=\n");
-break;
-
-}
-
-printf ("Enter day and reminder: ");
-scanf ("t2d", &day);
-if (day == 0)
-break;
-sprintf (day_stxr, "%2d", day):
-read line(msg_str, MSG_LEN);
-
-for (1 = 0; i < num remind; i++)
-if (strcmp(day_str, reminders([i]) < 0)
-break;
-for (j = num remind; 1 > i; j--)
-strcpy (reminders [j], reminders([j-1]);
-
-strepy (reminders (i), day str);
-strcat (reminders(i], msg_strx);
-
-num_remind-+;
-)
-
-printf (*\nDay Remindsr\n");
-for (i = 0; i < num remind; i++)
-printf (" %s\n", reminders[i]);
-
-return 0;
-
-}
-
-int read line(char str[], int m)
-
-int ch, i = 0;
-
-while ((ch = getchar()) t= *\n')
-1ot m)
-str(i++] = ch;
-stoii] = \oFy
-return i;
-
-Although remind. c is useful for demonstrating the strcpy, strcat, and
-stremp functions, it lacks something as a practical reminder program. There are
-296
-
-Chapter 13 Strings
-
-13.6
-
-obviously a number of improvements needed, ranging from minor tweaks to major
-enhancements (such as saving the reminders in a file when the program termi-
-nates). We'll discuss several improvements in the programming projects at the end
-of this chapter and in later chapters.
-
-String Idioms
-
-Functions that manipulate strings are a particularly rich source of idioms. In this
-section, we'll explore some of the most famous idioms by using them to write the
-strlen and strcat functions. You'll never have to write these functions, of
-course, since they're part of the standard library, but you may have to write func-
-tions that are similar.
-
-The concise style I'l] use in this section is popular with many C programmers.
-You should master this style even if you don't plan to use it in your own programs,
-since you're likely to encounter it in code written by others.
-
-One last note before we get started. If you want to try out any of the versions
-of strlen and streat in this section, be sure to alter the name of the function
-(changing strlen to my strlen, for example). As Section 21.1 explains,
-we e not allowed to write a function that has the same name as a standard library
-function, even when we don't include the header to which the function belongs. In
-fact, all names that begin with stxr and a lower-case letter are reserved (to allow
-functions to be added to the <string.h> header in future versions of the C stan-
-dard).
-
-Searching for the End of a String
-
-Many string operations require searching for the end of a string. The strlen
-function is a prime example. The following version of stx1len searches its string
-argument to find the end. using a variable to keep track of the string's length:
-
-size t strlen(const char *s)
-
-(
-
-size t n;
-
-for (n = 0; *s != '"\0'; s++)
-4+
-return n;
-
-As the pointer s moves across the string from left to right, the variable n keeps
-track of how many characters have been seen so far. When s finally points to a null
-character, nn contains the length of the string.
-
-Let's see if we can condense the function. First, we'll move the initialization
-of n to its declaration:
-13.6 String Idioms 297
-
-size_t strlen(const char *s)
-
-for (; i os++)
-ntt;
-return n;
-Next, we notice that the condition *g != '\0' is the same as *s | = 0, because
-
-the integer value of the null character is 0. But testing *s 1= 0 is the same as test-
-ing *s; both are true if *s isn't equal to 0. These observations lead to our next ver-
-sion of strlen:
-
-size_t strlen(const char *s)
-
-size t n = 0;
-
-for, (i; *si s#+)
-nii;
-return n;
-
-But, as we saw in Section 12.2, it's possible to increment s and test *s in the same
-expression;
-
-size_t strlen(const char *s)
-size t n = 0;
-for (; *s++;)
-
-N4+
-return n;
-
-}
-
-Replacing the `for` statement with a `while` statement, we arrive at the following
-version of strlen:
-
-size t strlen(conct char *s)
-
-{
-
-size it n =
-
-while (¥*s++)
-n4+;
-return n;
-
-}
-
-Although we've condensed st rlen quite a bit, it's likely that we haven't in-
-creased its speed. Here's a version that does run faster, at least with some compilers:
-
-size t strlen(const char *s)
-
-const char *p = s}
-298 Chapter 13 Strings
-
-while (*s)
-S4+7
-return s - p;
-
-This version of st rlen computes the length of the string by locating the position
-of the null character, then subtracting from it the position of the first character in
-the string. The improvement in speed comes from not having to increment n inside
-the `while` loop. Note the appearance of the word const in the declaration of p,
-by the way; without it, the compiler would notice that assigning s to p places the
-string that s points to at risk.
-
-The statement
-
-idiom while (*s)
-S++;
-
-and the related
-
-idiom while (*s++)
-
-are idioms meaning "search for the null character at the end of a string." The first
-version leaves s pointing to the null character. The second version is more concise,
-but leaves s pointing just past the null character.
-
-Copying a String
-
-Copying a string is another common operation. To introduce C's "string copy"
-idiom, we'll develop two versions of the strcat function. Let's start with a
-straightforward but somewhat lengthy version:
-
-char *strcat (char *s1, const char *s2)
-
-{
-
-char *p = s1;
-
-while (*p != '\0')
-P+i
-
-while (*s2 != '\0') {
-*p = *82;
-DH+;
-S2+4;
-
-*p = 1\0';
-
-return s1;
-
-)
-
-This version of strcat uses a two-step algorithm: (1) Locate the null character at
-the end of the string s1 and make p point to it. (2) Copy characters one by one
-from s2 to where p is pointing
-
-The first `while` statement in the function implements step (1). p is set to
-point to the first character in the s1 string. Assuming that s1 points to the string
-"abc", we have the following picture:
-13.6 String Idioms 299
-
-p is then incremented as long as it doesn't point to a null character. When the loop
-terminates, p must be pointing to the null character:
-
-The second `while` statement implements step (2). The loop body copies one
-character from where s2 points to where p points, then increments both p and s2.
-If s2 originally points to the string "def", here's what the strings will look like
-
-after the first loop iteration:
-82 I I
-
-sl| 1
-
-| f [\o
--0
-
-v
-
-2 \o
-
-After putting a null character where p is pointing, strcat returns.
-By a process similar to the one we used for strlen. we can condense the
-definition of strcat, arriving at the following version:
-
-char *strcat (char *sl, const char *s2)
-
-{
-
-char *p = s8l;
-
-while (*p)
-Dt
-while (*p++ = *s2+4+)
-
-return sl;
-300
-
-Chapter 13 Strings
-
-idiom
-
-13.7
-
-The heart of our streamlined strcat function is the "string copy" idiom:
-
-while (*p++ = *s2++)
-
-If we ignore the two ++ operators, the expression inside the parentheses simplifies
-to an ordinary assignment:
-
-*p = *s2
-
-This expression copies a character from where s2 points to where p points. After
-the assignment, both p and s2 are incremented, thanks to the ++ operators.
-Repeatedly executing this expression has the effect of copying a series of charac-
-ters from where s2 points (o where p points.
-
-But what causes the loop to terminate? Since the primary operator inside the
-parentheses is assignment, the `while` statement tests the valuc of the assign-
-ment—the character that was copied. All characters except the null character test
-true, so the loop won't terminate until the null character has been copied. And
-since the loop terminates affer the assignment, we don't need a separate statement
-to put a null character at the end of the new string.
-
-Arrays of Strings
-
-Let's now turn to a question that we'll often encounter: what's the best way to store
-an array of strings? The obvious solution is to create a two-dimensional array of
-characters, then store the strings in the array, one per row. Consider the following
-example:
-
-char planets(] [8] = {"Mercury", "Venus", "Earth",
-"Mars", "Jupiter®, "Saturn
-"Uranus", "Neptune', "Pluto"};
-
-(In 2006, the International Astronomical Union demoted Pluto from "planet" to
-"dwarf planet," but I've left it in the planets array for old times' sake.) Note that
-we're allowed to omit the number of rows in the planets array—since that's
-obvious from the number of elements in the initializer—but C requires that we
-specify the number of columns.
-
-The figure at the top of the next page shows what the planets array will
-look like. Not all our strings were long enough to fill an entire row of the array, so
-C padded them with null characters. There's a bit of wasted space in this array,
-since only three planets have names long enough (v reyuire eight characters
-(including the terminating null character). The remind. c program (Section 13.5)
-is a glaring example of this kind of waste. It stores reminders in rows of a two-
-dimensional character array, with 60 characters set aside for each reminder. In our
-example, the reminders ranged from 18 to 37 characters in length, so the amount of
-wasted space was considerable.
-13.7 Arrays of Strings 301
-
-The inefficiency that's apparent in these examples is common when working
-with strings, since most collections of strings will have a mixture of long strings
-and short strings. What we need is a ragged array: a two-dimensional array whose
-rows can have different lengths, C doesn't provide a "ragged array type," but it
-does give us the tools to simulate one. The secrel is Lo creale an array whose ele-
-ments are pointers to strings.
-
-Here's the planets array again, this time as an array of pointers to strings:
-
-char =planets[] = {"Mercury", "Venus", "Earth",
-"Mars", "Jupiter", "Saturn",
-"Uranus", "Neptune", "Pluto"};
-
-Not much of a change, eh? We simply removed one pair of brackets and put an aster-
-isk in frontof planets. The effect on how planets is stored is dramatic, though:
-
-planets
-
-Bach element of planets is a pointer to a null-terminated string. There are no
-longer any wasted characters in the strings, although we've had to allocate space
-for the pointers in the planets array.
-
-To access one of the planet names, all we need do is subscript the planets
-array. Because of the relationship between pointers and arrays, accessing a charac-
-ter in a planet name is done in the same way as accessing an element of a two-
-302
-
-Chapter 13  Strings
-
-null pointers > 17.1
-
-dimensional array. To search the planets array for strings beginning with the
-letter M, for example, we could use the following loop:
-
-for (i =/0; i < 9; duw)
-if (planets([i] [0] == f)
-printf ("js begins with M\n', planets[i]);
-
-Command-Line Arguments
-
-When we run a program, we'll often need to supply it with information—a file
-name, perhaps, or a switch that modifies the program's behavior. Consider the
-UNIX 1s command. If we run 1s by typing
-
-1s
-
-at the command line, it will display the names of the files in the current directory.
-But if we instead type
-
-1s -1
-
-then Ls will display a "long" (detailed) listing of files, showing the size of each file,
-the file's owner, the date and time the file was last modified, and so forth. To modify
-the behavior of 1s further, we can specify that it show details for just one file:
-
-1s -1 remind.c
-
-1s will display detailed information about the file named remind. c.
-
-Command-line information is available to all programs, not just operating sys-
-tem commands. To obtain access to these command-line arguments (called pro-
-gram parameters in the C standard), we must define main as a function with two
-parameters, which are customarily named arge and argv:
-
-i'nt main(int arge, char *argv[])
-}
-arge ("argument count") is the number of command-line arguments (including
-the name of the program itself). argv ("argument vector") is an array of pointers
-to the command-line arguments, which are stored in string form. argv [0] points
-to the name of the program, while argv [1] through argv [argc-1] point to
-the remaining command-line arguments.
-
-argv has one additional element, argv [argc], which is always a mull
-pointer—a special pointer that points to nothing. We'll discuss null pointers in a
-later chapter; for now, all we need to know is that the macro NULL represents a null
-pointer.
-
-If the user enters the command line
-
-1s -1 remind,c
-
-then arge will be 3, argv[0] will point to a string containing the program
-PROGRAM
-
-13.7 Arrays of Strings 303
-
-name, argv [1] will point to the string "-1", argv [2] will point to the string
-"remind.c", and argv [3] will be a null pointer:
-
-argv
-
-This figure doesn't show the program name in detail, since it may include a path or
-other information that depends on the operating system. If the program name isn't
-available, argv [0] points to an empty string.
-
-Since argv is an array of pointers, accessing command-line arguments is
-easy. Typically, a program that expects command-line arguments will set up a loop
-that examines each argument in turn. One way to write such a loop is to use an
-integer variable as an index into the argv array. For example, the following loop
-prints the command-line arguments, one per line:
-
-JmEitsy
-
-for (i = 1; i < argc; i++)
-
-printf ("%s\n", argv[i]);
-Another technique is to set up a pointer to argv [1], then increment the pointer
-repeatedly to step through the rest of the array. Since the last element of argv is al-
-ways a null pointer, the loop can terminate when it finds a null pointer in the array:
-
-char *¥p;
-
-for (p = &argv[l]; *p != NULL; p++)
-printf("%s\n", *p);
-
-Since p is a pointer to a pointer to a character, we've got to use it carefully. Setting
-p equal to &argv[1] makes sense; argv [1] is a pointer to a character, so
-&argv [1] will be a pointer to a pointer. The test *p ! = NULL is OK, since *p
-and NULL are both pointers. Incrementing p looks good; p points to an array ele-
-ment, so incrementing it will advance it to the next element. Printing *p is fine,
-since *p points to the first character in a string.
-
-Checking Planet Names
-
-Our next program. planet.c, illustrates how to access command-line argu-
-ments. The program is designed to check a series of strings to see which ones are
-names of planets. When the program is run, the user will put the strings to be tested
-on the command line:
-
-planet Jupiter venus Earth fred
-304
-
-Chapter 13 Strings
-
-Pplanet.c
-
-The program will indicate whether or not each string is a planet name; if it is, the
-program will also display the planet's number (with planet 1 being the one closest
-to the Sun):
-
-Jupiter is planet 5
-
-venus is not a planet
-
-Earth is planet 3
-
-fred is not a plamet
-
-Notice that the program doesn't recognize a string as a planet name unless its first
-letter is upper-case and its remaining letters are lower-case.
-
-/* Checks planet names */
-
-#include <stdio.h>
-#include <string.h>
-
-#define NUM PLANETS 9
-
-int main(int arge, char *argv[])
-
-char splanets[] = {"Mercury", "Venus", "Earth",
-"Mars", "Jupiter", "Saturn",
-'Uranus", "Neptune", "Pluto"};
-
-int 4, 47
-
-for (i = 1; i = axge; 144 {
-for (j = 0; j < NUM_PLANETS; j++)
-
-if (strcmp(argv[i], planets[i]) == 0) {
-printf("$s is planet %d\n", argv[il], j + 1);
-break;
-
-if (j == NUM_PLANETS)
-printf("$s is not a planet\n", argv(il);
-
-return 0;
-
-The program visits each command-line argument in turn, comparing it with
-the strings in the planets array until it finds a match or reaches the end of
-the array. The most interesting part of the program is the call of strcmp, in
-which the arguments are argv [1] (a pointer to a command-line argument) and
-planets[j] (apointer to a planet name).
-
-Q&A
-
-How long can a string literal be?
-According to the C89 standard, compilers must allow string literals to be at least
-Q&A 305
-
-509 characters long. (Yes, you read that right—509. Don't ask.) C99 increases the
-minimum to 4095 characters.
-
-Why aren't string literals called "string constants"?
-
-Because they're not necessarily constant. Since string literals are accessed through
-pointers, there's nothing to prevent a program from attempting to modify the char-
-acters in a string literal.
-
-How do we write a string literal that represents "iiber" if " \xfcbexr" doesn't
-work? [p. 278]
-
-The secret is to write two adjacent string literals and let the compiler join them into
-one. In this example, writing "\xfc" "ber" will give us a string literal that rep-
-resents the word "iiber."
-
-Modifying a string literal seems harmless enough. Why does it cause unde-
-fined behavior? [p. 280]
-
-Some compilers try to reduce memory requirements by storing single copies of
-identical string literals. Consider the following example:
-
-char *p = "abec", *g = "abe";
-
-A compiler might choose to store "abe" just once, making both p and g point to
-it. If we were to change "abe" through the pointer p, the string that g points to
-would also be affected. Needless to say, this could lead to some annoying bugs
-Another potential problem is that string literals might be stored in a "read-only"
-area of memory: a program that attempts to modify such a literal will simply crash.
-
-Should every array of characters include room for a null character?
-Not necessarily, since not every array of characters is used as a string, Including
-room for the null character (and actually putting one into the array) is necessary
-only if you'rc planning to pass it to a function that requires a null-terminated
-string.
-
-You do not need a null character if you'll only be performing operations on
-individual characters. For example, a program might have an array of characters
-that it will use to translate from one character set to another:
-
-char translaticn table[12B];
-
-The only operation that the program will perform on this array is subscripting.
-(The value of translation table [ch] will be the translated version of the
-character ch.) We would not consider translation_table to be a string: it
-need not contain a null character, and no string operations will be performed on it.
-
-If printf and scanf cxpect their first argument to have type char *, does
-that mean that the argument can be a string variable instead of a string lir-
-eral?
-306 Chapter 13  Strings
-
-A:
-
-#Q:
-
-A:
-
-EOF macro » 224
-
-Yes, as the following example shows:
-
-char fmt[] = "%d\n";
-nk o
-
-printf (fmt, i);
-
-This ability opens the door to some intriguing possibilities—reading a format
-string as input, for example.
-
-If I want printf to write a string stx, can't I just supply stz as the format
-string, as in the following example?
-
-printf (str) ;
-
-Yes, but it's risky. If str contains the % character, you won't get the desired result,
-since printf will assume it's the beginning of a conversion specification.
-
-How can read line detect whether getchar has failed to read a charac-
-ter? [p. 287]
-
-If it can't read a character, either because of an error or because of end-of-file,
-getchar returns the value EOF, which has type int. Here's a revised version of
-read_line that tests whether the return value of getchar is EOF. Changes are
-marked in bold:
-
-int read line(char str[], int n)
-
-{
-Ant el F=r 0
-while ((ch = getchar()) = !
-18 H<in)
-str[i++]
-str[i] = '\o
-return i;
-
-n' && ch |= EOF)
-
-= 'chy
-
-Why does strcmp return a number that's less than, equal to, or greater than
-zero? Also, does the exact return value have any significance? [p. 292]
-stremp's return value probably stems from the way the function is traditionally
-written. Consider the version in Kernighan and Ritchie's The C Programming Lan-
-guage:
-
-int strcmp(char *s, char *t)
-
-{
-int o
-for (i = 07 8[i] == flil; 3++)
-if (s[d] \Or)
-return 0;
-
-return s[i] - t[i];
-Q&A 307
-
-The return value is the difference between the first "mismatched" characters in the
-s and t strings, which will be negative if s points to a "smaller" string than t and
-positive if s points to a "larger" string, There's no guarantee that strcmp is actu-
-ally written this way, though, so it's best not to assume that the magnitude of its
-return value has any particular meaning.
-
-My compiler issues a warning when I try to compile the `while` statement in
-the strcat function:
-
-while (¥p+t = *82++)
-
-What am I doing wrong?
-
-Nothing. Many compilers—but not all. by any mea: issue a warning if you use
-= where is normally expected. This warning is valid at least 95% of the time,
-and it will save you a lot of debugging if you heed it. Unfortunately, the warning
-isn't relevant in this particular example: we actually do mean to use =, not ==. To
-getrid of the warning, rewrite the whi le loop as follows:
-
-while ((*p++ = *s244) 1= 0)
-
-Since the `while` statement normally tests whether *p++ = *s2++ is not 0, we
-haven't changed the meaning of the statement. The warning goes away, however,
-because the statement now tests a condition, not an assignment. With the GCC
-compiler, putting a pair of parentheses around the assignment is another way to
-avoid a warning:
-
-while ((*p++ = *82++))
-
-Are the strlen and strcat functions actually written as shown in Section
-13.6?
-
-Possibly, although it's common practice for compiler vendors to write these func-
-tions—and many other string functions—in assembly language instead of C. The
-string functions need to be as fast as possible, since they're used often and have to
-deal with strings of arbitrary length. Writing these functions in assembly language
-makes it possible to achieve great efficiency by taking advantage of any special
-string-handling instructions that the CPU may provide.
-
-Why does the C standard use the term "program parameters" instead of
-'"command-line arguments"? [p. 302]
-
-Programs aren't always run from a command line. In a typical graphical user inter-
-face, for example, programs are launched with a mouse click. In such an environ-
-ment, there's no traditional command line, although there may be other ways of
-passing information to a program; the term "program parameters" leaves the door
-open for these alternatives.
-308 Chapter 13 Strings
-
-dynamic storage allocation >17.1
-
-Section 13.3 1;
-
-O 4
-
-isspace functon »23.5
-
-Do I have to use the names argc and argv for main's parameters? [p. 302]
-
-No. Using the names argc and argv is merely a convention. not a language
-requirement.
-
-I've seen argv declared as * *argv instead of *argv []. Is this legal?
-
-Certainly. When declaring a parameter, writing *a is always the same as writing
-a[], regardless of the type of a's elements.
-
-We've seen how to set up an array whose elements are pointers to string liter-
-als. Are there any other applications for arrays of pointers?
-
-Yes. Although we've focused on arrays of pointers to character strings, that's not
-the only application of arrays of pointers. We could just as easily have an array
-whose elements point to any type of data, whether in array form or not. Arrays of
-pointers are particularly useful in conjunction with dynamic storage allocation.
-
 Exercises
 
 The following function calls supposedly write a single new-line character, but some are
@@ -2020,15 +377,15 @@ There will always be things we wish to say in our programs
 that in all known languages can only be said poorly.
 
 In previous chapters, I've used the #define and #include dircctives without
-going into detail about what they do. These directives—and others that we haven't
-yet covered—are handled by the preprocessor, a picce of software that edits C pro
+going into detail about what they do. These directives --- and others that we haven't
+yet covered --- are handled by the preprocessor, a picce of software that edits C pro
 grams just prior to compilation. Its reliance on a preprocessor makes C (along with
 C++) unique among major programming languages.
 
 The preprocessor is a powerful tool, but it also can be a source of hard-to-find
 bugs. Moreover, the preprocessor can easily be misused to create programs that are
 almost impossible to understand. Although some C programmers depend heavily
-on the preprocessor, I recommend that it—like so many other things in life—be
+on the preprocessor, I recommend that it --- like so many other things in life --- be
 used in moderation.
 
 This chapter begins by describing how the preprocessor works (Section 14.1)
@@ -2044,7 +401,7 @@ The behavior of the preprocessor is controlled by preprocessing directives: com-
 mands that begin with a # character. We've encountered two of these directives,
 #define and #include, in previous chapters.
 
-The #define directive defines a macro—a name that represents something
+The #define directive defines a macro --- a name that represents something
 else, such as a constant or frequently used expression. The preprocessor responds to
 a #def ine directive by storing the name of the macro together with its definition.
 
@@ -2186,7 +543,7 @@ and #endif directives allow blocks of text to he either included in or
 excluded from a program, depending on conditions that can be tested by the
 Preprocessor.
 
-The remaining directives—#error, #line, and #pragma—are more special-
+The remaining directives --- #error, #line, and #pragma --- are more special-
 ized and therefore used less often. We'll devote the rest of this chapter to an in-
 depth examination of preprocessing directives. The only directive we won't dis-
 cuss in detail is #include, since it's covered in Section 15.2.
@@ -2252,7 +609,7 @@ encounters a macro definition, the preprocessor makes a note that identifier rep
 sents replacement-list; wherever identifier appears later in the file, the preproces-
 sor substitutes replacement-list.
 
-Don't put any cxtra symbols in a macro definition—they'll become part of the
+Don't put any cxtra symbols in a macro definition --- they'll become part of the
 replacement list. Putting the = symbol in a macro definition is a common error:
 
 #define N = 100 /**¥* WRONG *#*/
@@ -2269,7 +626,7 @@ Here N is defined to be the tokens 100 and ;.
 
 The compiler will detect most errors caused by extra symbols in a macro defi-
 nition. Unfortunately, the compiler will flag cach use of the macro as incorrect,
-rather than identifying the actual culprit—the macro's definition—which will have
+rather than identifying the actual culprit --- the macro's definition --- which will have
 been removed by the preprocessor.
 
 Simple macros are primarily used for defining what Kernighan and Ritchie
@@ -2292,7 +649,7 @@ type definitions >7.5
 #define MEM_ERR "Error: not enough memory"
 Using #define to create names for constants has several significant advantages:
 
-u It makes programs easier to read. The name of the macro—if well-chosen—
+u It makes programs easier to read. The name of the macro --- if well-chosen --- 
 helps the reader understand the meaning of the constant. The alternative is a
 program full of "magic numbers" that can easily mystify the reader.
 
@@ -2311,7 +668,7 @@ Although simple macros are most often used to define names for constants,
 
 they do have other applications:
 
-» Making minor changes to the syntax of C. We can—in effect—alter the syn-
+» Making minor changes to the syntax of C. We can --- in effect --- alter the syn-
 tax of C by defining macros that serve as alternate names for C symbols. For
 example, programmers who prefer Pascal's begin and end to C's { and }
 can define the following macros:
@@ -2434,14 +791,14 @@ Using a parameterized macro instead of a true function has a couple of advan-
 tages:
 
 u The program may be slightly faster. A function call usually requires some
-overhead during program execution—context information must be saved,
+overhead during program execution --- context information must be saved,
 arguments copied, and so forth. A macro invocation, on the other hand,
 requires no run-time overhead. (Note, however, that C99's inline functions
 provide a way to avoid this overhead without the use of macros.)
 
 u Macros are "generic." Macro parameters, unlike function parameters, have
 no particular type. As a result, a macro can accept arguments of any type, pro-
-vided that the resulting program—after preprocessing—is valid. For example,
+vided that the resulting program --- after preprocessing --- is valid. For example,
 we could use the MAX macro to find the larger of two values of type int,
 long, float, double, and so forth,
 
@@ -2672,7 +1029,7 @@ The replacement lists in our macro definitions have been full of parentheses. Is
 really necessary to have so many? The answer is an emphatic yes; if we use fewer
 14.3 Macro Definitions 327
 
-parentheses, the macros will sometimes give unexpected—and undesirable—
+parentheses, the macros will sometimes give unexpected --- and undesirable --- 
 results.
 
 There are two rules to follow when deciding where to put parentheses in a
@@ -2708,7 +1065,7 @@ The division will be performed before the multiplication, yielding a result diff
 from the one intended.
 
 Putting parentheses around the replacement list isn't enough if the macro has
-parameters—each occurrence of a parameter needs parentheses as well. For exam-
+parameters --- each occurrence of a parameter needs parentheses as well. For exam-
 ple. suppose that SCALE is defined as follows:
 
 #define SCALE(x) (x*10) /* needs parentheses around x */
@@ -2794,7 +1151,7 @@ but not statements. The solution is to wrap the statements in a `do` loop whose 
 dition is false (and which therefore will be executed just once):
 do { .. } while (0)
 
-Notice that the `do` statement isn't complete—it needs a semicolon at the end. To
+Notice that the `do` statement isn't complete --- it needs a semicolon at the end. To
 see this trick (ahem, technique) in action, let's incorporate it into our ECHO macro:
 
 #define ECHO(s) \
@@ -2943,7 +1300,7 @@ contain the same number of commas as a normal call, however. (That way, it's eas
 
 In most cases, the effect of an empty argument is clear. Wherever the corre-
 sponding parameter name appears in the replacement list, it's replaced by noth-
-ing—it simply disappears from the replacement list. Here's an example:
+ing --- it simply disappears from the replacement list. Here's an example:
 
 #define ADD(x,y) (x+y)
 
@@ -3074,7 +1431,7 @@ of the function that called it.
 Conditional Compilation
 
 The C preprocessor recognizes a number of directives that support conditional
-compilation—the inclusion or exclusion of a section of program text depending on
+compilation --- the inclusion or exclusion of a section of program text depending on
 the outcome of a test performed by the preprocessor.
 334
 
@@ -3128,7 +1485,7 @@ When the preprocessor encounters the #if directive, it evaluates the constant
 expression. If the value of the expression is zero, the lines between #if and
 #endif will be removed from the program during preprocessing. Otherwise, the
 lines between i1 and fendif will remain in the program to be processed by the
-compiler—the #1f and #endif will have had no effect on the program.
+compiler --- the #1f and #endif will have had no effect on the program.
 
 It's worth noting that the #1f directive treats undefined identifiers as macros
 that have the value 0. Thus, if we neglect to define DEBUG, the test
@@ -3238,7 +1595,7 @@ Lines to be included otherwise
 frendif
 
 Although the #if directive is shown above, an #ifdef or #ifndef directive
-can be used instead. Any number of #e11if directives—but at most one #else
+can be used instead. Any number of #e11if directives --- but at most one #else
 may appear between #1 f and #endif.
 14.4 Conditional Compilation 337
 
@@ -3435,7 +1792,7 @@ tains information for yacc as well as fragments of C code. From this file, yace
 generates a C program, y . tab. c, that incorporates the code supplied by the pro-
 grammer. The programmer then compiles y . tab . c in the usual way. By inserting
 #1line directives in y.tab.c, yacc tricks the compiler into believing that the
-code comes from the original file—the one written by the programmer. As a result,
+code comes from the original file --- the one written by the programmer. As a result,
 any error messages produced during the compilation of y.tab.c will refer to
 lines in the original file, not lines in y.tab.c. This makes debugging easier,
 because error messages refer to the file written by the programmer, not the (more
@@ -3465,7 +1822,7 @@ _Pragma expression
 
 14.5 Miscellaneous Directives 341
 
-In €89, there are no standard pragmas—they're all implementation-defined.
+In €89, there are no standard pragmas --- they're all implementation-defined.
 C99 has three standard pragmas, all of which use 8TDC as the first token following
 #pragma. These pragmas are FP CONTRACT (covered in Section 23.4),
 CX_LIMITED_RANGE (Section 27.4), and FENV_ACCESS (Section 27.6).
@@ -3504,8 +1861,8 @@ After expansion, the result will be
 #pragma GCC dependency "parse.y"
 
 which is one of the pragmas supported by GCC. (It issues a warning if the date of
-the specified file—parse. y in this example—is more recent than the date of the
-current file—the one being compiled.) Note that the argument to the call of
+the specified file --- parse. y in this example --- is more recent than the date of the
+current file --- the one being compiled.) Note that the argument to the call of
 DO_PRAGMA is a series of tokens. The # operator in the definition of DO_PRAGMA
 causes the tokens to be stringized into "GCC dependency \"parse.y\"";
 this string is then passed to the _Pragma operator, which destringizes it, produc-
@@ -3805,11 +2162,11 @@ Q&A scction carefully before attempting!
 
 Write the following parameterized macros.
 
-(a) CHECK(x,y,n) — Has the value | if both x and y fall between 0 and n — 1, inclusive.
-(b) MEDIAN (x,y, z) — Finds the median of x. y. and z.
-(c) POLYNOMIAL (x) — Computes the polynomial 3x° + 2x! — 5x° — 2% + 7x— 6.
+(a) CHECK(x,y,n)  ---  Has the value | if both x and y fall between 0 and n  ---  1, inclusive.
+(b) MEDIAN (x,y, z)  ---  Finds the median of x. y. and z.
+(c) POLYNOMIAL (x)  ---  Computes the polynomial 3x° + 2x!  ---  5x°  ---  2% + 7x ---  6.
 
-Functions can often—but not always—be written as parameterized macros. Discuss what
+Functions can often --- but not always --- be written as parameterized macros. Discuss what
 characteristics of a function would make it unsuitable as a macro.
 
 (C99) C programmers often use the fprintf function to write crror messages:
@@ -4021,7 +2378,7 @@ Splitting a program into multiple source files has significant advantages:
 = Grouping related functions and variables into a single file helps clarify the
 structure of the program.
 
-m Each source file can be compiled separately—a great time-saver if the pro-
+m Each source file can be compiled separately --- a great time-saver if the pro-
 gram is large and must be changed frequently (which is common during pro-
 gram development).
 
@@ -4044,8 +2401,8 @@ function in one file call a function that's defined in another file? How can a f
 
 tion access an external variable in another file? How can two files share the same
 macro definition or type definition? The answer lies with the #include directive,
-which makes it possible to share information—function prototypes, macro defini-
-tions, type definitions, and more—among any number of source files.
+which makes it possible to share information --- function prototypes, macro defini-
+tions, type definitions, and more --- among any number of source files.
 
 The #include directive tells the preprocessor to open a specified file and
 insert its contents into the current file. Thus, if we want several source files to have
@@ -4105,7 +2462,7 @@ locate the file, such as a directory path or drive specifier:
 
 Although the quotation marks in the #include directive make file names look
 like string literals. the preprocessor doesn't treat them that way. (That's fortunate,
-since \ c and \u—which appear in the Windows example—would be treated as
+since \ c and \u --- which appear in the Windows example --- would be treated as
 escape sequences in a string literal.)
 
 It's wsually best not to include path or drive information in #include
@@ -4479,15 +2836,15 @@ Here's how we'll proceed. Each set of functions will go into a separate source
 file (let's use the name foo. c for one such file). In addition, we'll create a header
 file with the same name as the source file, but with the extension .h (foo.h, in
 our case). Into foo.h, we'll put prototypes for the functions defined in foo.c.
-(Functions that are designed for use only within foo.ec need not—and should
-not—be declared in foo.h. The read_char function in our next program is an
+(Functions that are designed for use only within foo.ec need not --- and should
+not --- be declared in foo.h. The read_char function in our next program is an
 example.) We'll include foo.h in each source file that needs to call a function
 defined in foo. c. Moreover, we'll include foo. hin f00. c so that the compiler
 can check that the function prototypes in foo . h are consistent with the definitions
 in foo.c.
 
 The `main` function will go in a file whose name matches the name of the pro-
-gram—if we want the program to be known as bar, then main should be in the
+gram --- if we want the program to be known as bar, then main should be in the
 file bar . c. It's possible that there are other functions in the same file as main, so
 long as they e not called from other files in the program.
 
@@ -4901,11 +3258,11 @@ Building a large program requires the same basic steps as building a small one:
 (Header files don't need to be compiled: the contents of a header file are auto-
 matically compiled whenever a source file that includes it is compiled.) For
 each source file, the compiler generates a file containing object code. These
-files—known as object files—have the extension .o in UNIX and .cobj in
+files --- known as object files --- have the extension .o in UNIX and .cobj in
 Windows.
 
-m Linking. The linker combines the object files created in the previous step—
-along with code for library functions—to produce an executable file. Among
+m Linking. The linker combines the object files created in the previous step --- 
+along with code for library functions --- to produce an executable file. Among
 other duties, the linker is responsible for resolving external references left
 behind by the compiler. (An external reference occurs when a function in one
 file calls a function defined in another file or accesses a variable defined in
@@ -5256,7 +3613,7 @@ the program later. With multiple header files, the reader can quickly see what o
 parts of the program are used by a particular source file.
 
 But that's not all. Since each source file depends on the big header file, chang-
-ing it will cause all source files to be recompiled—a significant drawback in a large
+ing it will cause all source files to be recompiled --- a significant drawback in a large
 program. To make matters worse, the header file will probably change frequently
 because of the large amount of information it contains.
 Exercises 373
@@ -5371,7 +3728,7 @@ return 0;
 (d) Is it necessary for the DEBUG macro to be defined before debug . h is included in order
 for PRINT_DEBUG (o have the desired effect? Justify your answer.
 
-Section 15.4 5. Suppose that a program consists of three source files—main.c, f1.c, and f2 .c—plus
+Section 15.4 5. Suppose that a program consists of three source files --- main.c, f1.c, and f2 .c --- plus
 1wo header files, f1. h and f2 . h. All three source files include f1. h, but only f1. c and
 f2.c include f2.h, Write a makefile for this program, assuming that the compiler is gcc
 and that the executable file is to be named demo.
@@ -5428,7 +3785,7 @@ enumeration is an integer type whose values are named by the programmer.
 Of these three types, structures are by far the most important, so I'll devote
 most of the chapter to them. Section 16.1 shows how to declare structure variables
 and perform basic operations on them. Section 16.2 then explains how to define
-structure types, which—among other things—allow us to write functions that
+structure types, which --- among other things --- allow us to write functions that
 accept structure arguments or return structures. Section 16.3 explores how arrays
 and structures can be nested. The last two sections are devoted to unions (Section
 16.4) and enumerations (Section 16.5),
@@ -5559,7 +3916,7 @@ structure. In our example, the number member of part1 will be 528, the name
 member will be "Disk drive", and so on. Here's how part1 will look after
 initialization:
 
-—
+ --- 
 number | 528
 name |Disk drive
 
@@ -5620,8 +3977,8 @@ that the initializer fails to account for are set Lo zero.
 
 Operations on Structures
 
-Since the most common array operation is subscripting—selecting an element by
-position—it's not surprising that the most common operation on a structure is
+Since the most common array operation is subscripting --- selecting an element by
+position --- it's not surprising that the most common operation on a structure is
 selecting one of its members. Structure members are accessed by name, though,
 not by position.
 
@@ -5734,7 +4091,7 @@ int on_hand;
 
 bi
 
-Notice the semicolon that follows the right brace—it must be present to terminate
+Notice the semicolon that follows the right brace --- it must be present to terminate
 the declaration.
 
 entally omitting the semicolon at the end of a structure declaration can cause
@@ -5928,13 +4285,13 @@ Here's how a compound literal might be assigned 1o a variable:
 partl = (struct part) {528, "Disk drive", 10};
 
 This statement resembles a declaration containing an initializer, but it's not the
-same—initializers can appear only in declarations, not in statements such as this
+same --- initializers can appear only in declarations, not in statements such as this
 one.
 
 In general, a compound literal consists of a type name within parentheses, fol-
 lowed by a set of values enclosed by braces. In the case of a compound literal that
 represents a structure, the type name can be a structure tag preceded by the word
-struct—as in our examples—or a typedef name. A compound literal may
+struct --- as in our examples --- or a typedef name. A compound literal may
 contain designators, just like a designated initializer:
 
 print_part ((struct part) {.on hand = 10,
@@ -5983,8 +4340,8 @@ strcpy (studentl.name.first, "Fred");
 One advantage of making name a structure (instead of having first,
 middle initial, and last be members of the student structure) is that
 we can more easily treat names as units of data. For example, if we were to
-write a function that displays a name. we could pass it just one argument—a
-person_name structure—instead of three arguments:
+write a function that displays a name. we could pass it just one argument --- a
+person_name structure --- instead of three arguments:
 
 display_name (studentl.name) ;
 
@@ -6087,8 +4444,8 @@ empty for now:
 struct part inventory[100] =
 {10] .number = 528, [0].on hand = 10, [0].namef0] = '\0'};
 
-The first two items in the list use two designators (one to select array element 0—
-a part structure—and one to select a member within the structure). The last item
+The first two items in the list use two designators (one to select array element 0 --- 
+a part structure --- and one to select a member within the structure). The last item
 uses three designators: one to select an array element, one to select the name
 member within that element, and one to select element 0 of name.
 
@@ -6097,7 +4454,7 @@ Maintaining a Parts Database
 To illustrate how nested arrays and structures are used in practice, we'll now
 develop a fairly long program that maintains a database of information about parts
 stored in a warchouse. The program is built around an array of structures, with
-each structure containing information—part number, name, and quantity—about
+each structure containing information --- part number, name, and quantity --- about
 one part. Our program will support the following operations:
 
 u Add a new part number, part name, and initial quantity on hand. The pro-
@@ -6592,7 +4949,7 @@ double d;
 Only one member can be initialized, but it doesn't have to be the first one.
 
 There are several applications for unions. We'll discuss two of these now.
-Another application—viewing storage in different ways—is highly machine-
+Another application --- viewing storage in different ways --- is highly machine-
 dependent, so I'll postpone it until Section 20.3.
 398 Chapter 16  Structures, Unions, and Enumerations
 
@@ -6832,8 +5189,8 @@ s = HEARTS;
 This technique is an improvement, but it's still not the best solution. There's no
 indication to someone reading the program that the macros represent values of the
 same "type." If the number of possible values is more than a few, defining a sepa-
-rate macro for each will be tedious. Moreover, the names we've defined—CLUBS,
-DIAMONDS, HEARTS, and SPADES—will be removed by the preprocessor, so
+rate macro for each will be tedious. Moreover, the names we've defined --- CLUBS,
+DIAMONDS, HEARTS, and SPADES --- will be removed by the preprocessor, so
 they won't be available during debugging.
 
 C provides a special kind of type designed specifically for variables that have
@@ -6931,7 +5288,7 @@ A
 
 Although it's convenient to be able to use an enumeration value as an integer, it's
 dangerous to use an integer as an enumeration value. For example, we might acci-
-dentally store the number 4—which doesn't correspond to any suit—into s.
+dentally store the number 4 --- which doesn't correspond to any suit --- into s.
 
 Using Enumerations to Declare "Tag Fields"
 
@@ -6949,7 +5306,7 @@ double 4;
 } Number;
 The new structure is used in exactly the same way as the old one. The advantages
 are that we've done away with the INT_XIND and DOUBLE_KIND macros
-(they're now enumeration constants), and we've clarified the meaning of kind—
+(they're now enumeration constants), and we've clarified the meaning of kind --- 
 i''s now obvious that kind has only two possible values: INT_KIND and
 DOUBLE_XTIND.
 
@@ -6967,7 +5324,7 @@ int b;
 } s:
 
 If char values occupy one byte and int values occupy four bytes, how large is
-87 The obvious answer—five bytes—may not be the correct one. Some computers
+87 The obvious answer --- five bytes --- may not be the correct one. Some computers
 require that the address of certain data items be a multiple of some number of bytes
 (typically two, four, or eight, depending on the item's type). To satisfy this require-
 ment, a compiler will "align" the members of a structure by leaving "holes"
@@ -7141,7 +5498,7 @@ dentally, C99 also allows trailing commas in compound literals.
 
 Can the values of an enumerated type be used as subscripts?
 
-Yes, indeed. They are integers and have—by default—values that start at 0 and
+Yes, indeed. They are integers and have --- by default --- values that start at 0 and
 count upward, so they make great subscripts. In C99, morcover, enumeration con-
 stants can be used as subscripts in designated initializers. Here's an example:
 
@@ -7204,7 +5561,7 @@ month, day, and year (all of type int).
 Returns the day of the year (an integer between 1 and 366) that corresponds to the date d.
 (b) int compare dates (struct date dl, struct date d2);
 
-Returns —I if d1 is an earlier date than G2, +1 if d1 is a later date than 2, and 0 if 41 and
+Returns  --- I if d1 is an earlier date than G2, +1 if d1 is a later date than 2, and 0 if 41 and
 d2 are the same.
 
 Write the following function, assuming that the time structure contains three members:
@@ -7234,7 +5591,7 @@ divide both the numerator and denominator by the GCD.
 
 The fractions f, f1, and f2 will be arguments of type struct fraction;each function
 will return a value of type struct fraction. The fractions returned by the functions in
-parts (b)—(e) should be reduced 1o lowest terms. Hint: You may use the function from part
+parts (b) --- (e) should be reduced 1o lowest terms. Hint: You may use the function from part
 (a) to help writc the functions in parts (b)-(e).
 Section 16.3
 
@@ -7436,8 +5793,8 @@ ingful result)?
 
 (Rt SR T
 
-(a) Each square of a chessboard can hold one piece—a pawn, knight. bishop. rook, queen,
-or king—or it may be empty. Each piece is either black or white. Define two enumerated
+(a) Each square of a chessboard can hold one piece --- a pawn, knight. bishop. rook, queen,
+or king --- or it may be empty. Each piece is either black or white. Define two enumerated
 types: Piece, which has seven possible values (one of which is "empty"). and Coloxr,
 which has two.
 
@@ -7452,12 +5809,12 @@ to the usual arrangement of pieces at the start of a chess game. A square that's
 by a piece should have an "empty" piece value and the color black.
 
 Declare a structure with the following members whose tag is pinball_machine:
-name — a string of up to 40 characters
+name  ---  a string of up to 40 characters
 
-year —an integer (representing the year of manufacture)
+year  --- an integer (representing the year of manufacture)
 
-type — an enumeration with the values EM (electromechanical) and jS (solid state)
-players —an integer (representing the maximum number of players)
+type  ---  an enumeration with the values EM (electromechanical) and jS (solid state)
+players  --- an integer (representing the maximum number of players)
 
 Suppose that the direct ion variable is declared in the following way:
 enum {NORTH, SOUTH, EAST, WEST} direction;
@@ -7543,13 +5900,13 @@ needed during execution. Section 17.1 explains the basics of dynamic storage all
 cation. Section 17.2 discusses dynamically allocated strings, which provide more
 flexibility than ordinary character arrays. Section 17.3 covers dynamic storage
 allocation for arrays in general. Section 17.4 deals with the issue of storage deallo
-cation—releasing blocks of dynamically allocated memory when they're no longer
+cation --- releasing blocks of dynamically allocated memory when they're no longer
 needed.
 
 Dynamically allocated structures play a big role in C programming, since they
 can be linked together to form lists, trees, and other highly flexible data structures.
 Section 17.5 focuses on linked lists, the most fundamental linked data structure.
-One of the issues that arises in this section—the concept of a "pointer to a
+One of the issues that arises in this section --- the concept of a "pointer to a
 important enough to warrant a section of its own (Section 17.6).
 
 Section 17.7 introduces pointers to functions, a surprisingly useful concept.
@@ -7599,9 +5956,9 @@ Memory Allocation Functions
 To allocate storage dynamically, we'll need to call one of the three memory alloca-
 tion functions declared in the <stdlib. h> header:
 
-= malloc—Allocates a block of memory but doesn't initialize it.
-= calloc—Allocates a block of memory and clears it.
-m realloc—Resizes a previously allocated block of memory.
+= malloc --- Allocates a block of memory but doesn't initialize it.
+= calloc --- Allocates a block of memory and clears it.
+m realloc --- Resizes a previously allocated block of memory.
 
 Of the three, malloc is the most used. It's more efficient than calloc, since it
 doesn't have to clear the memory block that it allocates
@@ -7609,7 +5966,7 @@ doesn't have to clear the memory block that it allocates
 When we call a memory allocation function to request a block of memory, the
 function has no idea what type of data we're planning to store in the block, so it
 can't return a pointer to an ordinary type such as int or char. Instead, the func-
-tion returns a value of type void *. A void * value is a "generic" pointer—
+tion returns a value of type void *. A void * value is a "generic" pointer --- 
 essentially, just a memory address.
 
 Null Pointers
@@ -7619,7 +5976,7 @@ won't be able to locate a block of memory large enough to satisfy our request. I
 17.1 Dynamic Storage Allocation 415
 
 that should happen, the function will return a null pointer. A null pointer is a
-"pointer to nothing"—a special value that can be distinguished from all valid
+"pointer to nothing" --- a special value that can be distinguished from all valid
 pointers. After we've stored the function's return value in a pointer variable, we
 must test to see if it's a null pointer.
 
@@ -7719,7 +6076,7 @@ The first four characters in the array will now be a. b, c, and \ 0:
 Using Dynamic Storage Allocation in String Functions
 
 Dynamic storage allocation makes it possible to write functions that return a
-pointer to a "new" string—a string that didn't exist before the function was called.
+pointer to a "new" string --- a string that didn't exist before the function was called.
 Consider the problem of writing a function that concatenates two stiings withoul
 changing either one. C's standard library doesn't include such a function (strcat
 isn't quite what we want, since it modifies one of the strings passed to it), but we
@@ -7952,7 +6309,7 @@ access the elements of the array.
 The calloc Function
 
 Although the malloc function can be used to allocate memory for an array, C
-provides an alternative—the calloc function—that's sometimes better. calloc
+provides an alternative --- the calloc function --- that's sometimes better. calloc
 has the following prototype in <stdlib.h>:
 
 void *calloc(size t nmemb, size_t gize);
@@ -8026,8 +6383,8 @@ since it's possible that realloc has moved the block elsewhere.
 Deallocating Storage
 
 malloc and the other memory allocation functions obtain memory blocks from a
-storage pool known as the Aeap. Calling these functions too often—or asking them
-for large blocks of memory—can exhaust the heap, causing the functions to return
+storage pool known as the Aeap. Calling these functions too often --- or asking them
+for large blocks of memory --- can exhaust the heap, causing the functions to return
 a null pointer.
 
 To make matters worse, a program may allocate blocks of memory and then
@@ -8557,8 +6914,8 @@ for this case, which requires a different bypass step.,
 
 Ordered Lists
 
-When the nodes of a list are kept in order—sorted by the data stored inside the
-nodes—we say that the list is ordered. Inserting a node into an ordered list is more
+When the nodes of a list are kept in order --- sorted by the data stored inside the
+nodes --- we say that the list is ordered. Inserting a node into an ordered list is more
 difficult (the node won't always be put at the beginning of the list), but searching is
 faster (we can stop looking after reaching the point at which the desired node
 would have been located). The following program illustrates both the increased
@@ -8570,7 +6927,7 @@ Let's redo the parts database program of Section 16.3, this time storing the dat
 base in a linked list. Using a linked list instead of an array has two major advan-
 tages: (1) We don't need to put a preset limit on the size of the database; it can
 grow until there's no more memory to store parts. (2) We can easily keep the data-
-base sorted by part number—when a new part is added 1o the database, we simply
+base sorted by part number --- when a new part is added 1o the database, we simply
 insert it in its proper place in the list. In the original program, the database wasn't
 sorted.
 
@@ -9011,8 +7368,8 @@ these is gsort, which belongs to the <stdlib. h> header. gsort is a general-
 purpose sorting function that's capable of sorting any array. based on any criteria
 that we choose.
 
-Since the elements of the array that it sorts may be of any type—even a struc-
-ture or union type—gsor t must be told how to determine which of two array ele-
+Since the elements of the array that it sorts may be of any type --- even a struc-
+ture or union type --- gsor t must be told how to determine which of two array ele-
 ments is "smaller"" We'll provide this information to gsort by writing a
 comparison function. When given two pointers p and c to array elements, the
 comparison function must return an integer that is negative if *p is "less than" *q,
@@ -9380,7 +7737,7 @@ the function isn't guaranteed o work.
 
 Although using restrict in function prototypes is useful documentation,
 that's not the primary reason for its existence, restrict provides information to
-the compiler that may enable it to produce more efficient code—a process known
+the compiler that may enable it to produce more efficient code --- a process known
 as optimization. (The register storage class scrves the same purpose.) Not
 every compiler attempts to optimize programs, however, and the ones that do nor-
 mally allow the programmer to disable optimization. As a result, the C99 standard
@@ -9426,7 +7783,7 @@ struct vstring *str = malloc(sizeof (struct vstring) + n - 1);
 str-slen = n;
 
 We're "cheating" by allocating more memory than the structure is declared to have
-(in this case, an extra n — | characters), and then using the memory to store addi-
+(in this case, an extra n  ---  | characters), and then using the memory to store addi-
 tional elements of the chars array. This technique has become so common over
 the years that it has a name: the "struct hack."
 
@@ -9571,7 +7928,7 @@ Another possibility is an assignment involving a pointer that's uninitialized or
 How does a program know that a "null pointer assignment" has occurred?
 The message depends on the fact that. in the small and medium memory models,
 data is stored in a single segment, with addresses beginning at 0. The compiler
-leaves a "hole" at the beginning of the data segment—a small block of memory
+leaves a "hole" at the beginning of the data segment --- a small block of memory
 that's initialized to 0 but otherwise isn't used by the program. When the program
 terminates, it checks to see if any data in the "hole" area is nonzero. If so, it must
 have been altered through a bad pointer.
@@ -9608,7 +7965,7 @@ Does this mean that all data items in the block become zero? [p-421)
 
 Usually, but not always. Setting an integer (o zero bits always makes the integer
 2ero. Setting a floating-point number to zero bits usually makes the number zero,
-but this isn't guaranteed—it depends on how floating-point numbers are stored.
+but this isn't guaranteed --- it depends on how floating-point numbers are stored.
 The story is the same for pointers; a pointer whose bits are zero isn't necessary a
 null pointer.
 
@@ -9638,8 +7995,8 @@ by describing the members of the structure. Incomplete declarations of a structu
 type are permitted in C, although their uses are limited. Creating a pointer to such a
 type (as we did when declaring p) is one of these uses.
 
-Calling malloc with the wrong argument—causing it to allocate too much
-memory or too little memory—seems to be a common error. Is there a safer
+Calling malloc with the wrong argument --- causing it to allocate too much
+memory or too little memory --- seems to be a common error. Is there a safer
 way to usemalloc? [p. 426]
 452
 
@@ -10096,13 +8453,13 @@ initializers in detail.
 
 18.2 Storage Classes
 
-Storage classes can be specified for variables and—to a lesser extent—functions
+Storage classes can be specified for variables and --- to a lesser extent --- functions
 and parameters. We'll concentrate on variables for now.
 
 Recall from Section 10.3 that the term block refers to the body of a function
 (the part enclosed in braces) or a compound statement, possibly containing decla-
 rations. In C99, selection statements (if and switch) and iteration statements
-(while, do, and for)—along with the "inner" statements that they control—arc
+(while, do, and for) --- along with the "inner" statements that they control --- arc
 considered to be blocks as well, although this is primarily a technicality.
 
 Bo
@@ -10150,7 +8507,7 @@ static storage duration, file scope, and exzernal linkage.
 The following example shows the default properties of the variables i and j:
 static storage duration
 
-—— file scope
+ ---  ---  file scope
 ~ external linkage
 
 void f(void)
@@ -10194,7 +8551,7 @@ void f(void)
 
 __ static storage duration
 
-static int j;=_—block scope
+static int j;=_ --- block scope
 o linkage
 
 When used in a declaration outside a block, static essentially hides a vari
@@ -10271,7 +8628,7 @@ extern int i;
 informs the compiler that 1 is an int variable, but doesn't cause it to allocate
 memory for i. In C terminology, this declaration is not a definition of 1i; it merely
 informs the compiler that we need access to a variable that's defined elsewhere
-(perhaps later in the same file, or— more often—in another file). A variable can
+(perhaps later in the same file, or ---  more often --- in another file). A variable can
 have many dectararions in a program but should have only one definition.
 
 There's one exception to the rule that an extern declaration of a variable
@@ -10293,13 +8650,13 @@ A variable in an extern declaration always has static storage duration. The
 scope of the variable depends on the declaration's placement. If the declaration is
 inside a block, the variable has block scope: otherwise, it has file scope:
 
-__— static storage duration
+__ ---  static storage duration
 extern
 
 void f(void)
 
 __ static storage duration
-—— block scope.
+ ---  ---  block scope.
 ~ ? linkage
 
 extern int j;
@@ -10373,7 +8730,7 @@ in which it's defined. (Declaring g to be static doesn't completely prevent it
 from being called in another file; an indirect call via a function pointer is still pos-
 sible.)
 
-Declaring functions to be extern is like declaring variables to be auto—it
+Declaring functions to be extern is like declaring variables to be auto --- it
 serves no purpose. For that reason, I don't use extern in function declarations.
 Be aware, however, that some programmers use extern extensively, which cer-
 tainly does no harm.
@@ -10413,8 +8770,8 @@ specified for parameters is register.
 Summary
 
 Now that we've covered the various storage classes, let's summarize what we
-know. The following program fragment shows all possible ways to include—or
-omit—storage classes in declarations of variables and parameters.
+know. The following program fragment shows all possible ways to include --- or
+omit --- storage classes in declarations of variables and parameters.
 
 int
 
@@ -10532,8 +8889,8 @@ since array bounds must be constant expressions. (In C99, this example would
 
 18.4 Declarators 467
 
-be legal if a has automatic storage duration—it would be treated as a variable-
-length array—but not if it has static storage duration.)
+be legal if a has automatic storage duration --- it would be treated as a variable-
+length array --- but not if it has static storage duration.)
 
 u It's legal to apply the address operator (&) to a const object, since it has an
 address. A macro doesn't have an address.
@@ -10988,8 +9345,8 @@ There's another way to share an inline function among multiple files that
 works with older versions of GCC but conflicts with C99. This technique involves
 putting a definition of the function in a header file, specifying that the function is
 both extern and inline, then including the header file into any source file that
-contains a call of the function. A second copy of the definition—without the words
-extern and inline—is placed in one of the source files. (That way, if the com-
+contains a call of the function. A second copy of the definition --- without the words
+extern and inline --- is placed in one of the source files. (That way, if the com-
 piler is unable to "inline" the function for any reason, it will still have a definition.)
 
 A final note about GCC: Functions are "inlined" only when optimization is
@@ -11050,7 +9407,7 @@ value = evaluate polynomial (coefficients);
 This program fragment apparently behaves in the desired fashion (but read on).
 coefficients will point to one of two objects created by compound literals,
 and this object will still exist at the time evaluate_polynomial is called.
-Now consider what happens if we put braces around the "inner" statements—the
+Now consider what happens if we put braces around the "inner" statements --- the
 ones controlled hy the `if` statement:
 
 /* Example 2 - `if` statement with braces */
@@ -11406,7 +9763,7 @@ for writing large programs and show which C features (the static storage class,
 for example) are especially useful.
 
 Writing large programs (often called "programming-in-the-large") is quite dif-
-ferent from writing small ones—it's like the difference between writing a term
+ferent from writing small ones --- it's like the difference between writing a term
 paper (10 pages double-spaced, of course) and a 1000-page book. A large program
 requires more attention to style, since many people will be working on it. It
 requires careful documentation. It requires planning for maintenance, since it will
@@ -11447,8 +9804,8 @@ When designing a C program (or a program in any other language, for that matter)
 it's often useful to view it as a number of independent modules. A module is a col-
 lection of services, some of which are made available to other parts of the program
 (the clients). Each module has an interface that describes the available services.
-The details of the module—including the source code for the services them-
-selves—are stored in the module's implementation.
+The details of the module --- including the source code for the services them-
+selves --- are stored in the module's implementation.
 
 In the context of C, "services" are functions. The interface of a module is a
 header file containing prototypes for the functions that will be made available to
@@ -11553,7 +9910,7 @@ having a fixed limit on the number of parts that can be stored. To satisfy the c
 tomer, we might switch to a linked list (as we did in Section 17.5). Making this
 change required going through the entire program, looking for all places that
 depend on the way parts are stored. If we'd designed the program differently in the
-first place—with a separate module dealing with part storage—we would have
+first place --- with a separate module dealing with part storage --- we would have
 only needed to rewrite the implementation of that module. not the entire program.
 
 Once we're convinced that modular design is the way to go, the process of
@@ -11628,19 +9985,19 @@ mation hiding has two primary advantages:
 = Security, If clients don't know how the stack is stored, they won't be able to
 corrupt it by tampering with its internal workings. To perform operations on
 the stack, they'll have to call functions that are provided by the modulc
-itself—functions that we've written and tested.
+itself --- functions that we've written and tested.
 
-m Flexibility. Making changes—no matter how large—to a module's internal
+m Flexibility. Making changes --- no matter how large --- to a module's internal
 workings won't be difficult. For example, we could implement the stack as
 an array at first, then later switch to a linked list or other representation.
-We'll have to rewrite the implementation of the module, of course, but—if
-the module was designed properly—we won't have to alter the module's
+We'll have to rewrite the implementation of the module, of course, but --- if
+the module was designed properly --- we won't have to alter the module's
 interface.
 
 In C, the major tool for enforcing information hiding is the static storage
 class. Declaring a variable with file scope to be static gives it internal linkage,
 thus preventing it from being accessed from other files, including clients of the
-module. (Declaring a function (o be static is also useful—the function can be
+module. (Declaring a function (o be static is also useful --- the function can be
 directly called only by other functions in the same file.)
 
 A Stack Module
@@ -12520,7 +10877,7 @@ condition isn't satisfied. We could use calls of this macro as replacements for 
 Generic ADTs
 
 Midway through Section 19.4, we improved the stack ADT by making it easier Lo
-change the type of items stored in a stack—all we had to do was modify the defini-
+change the type of items stored in a stack --- all we had to do was modify the defini-
 tion of the Ttem type. It's still somewhat of a nuisance to do so; it would be nicer
 ifa k could accommodate items of any type, without the need to modify the
 stack.h file. Also note that our stack ADT suffers from a serious flaw: a pro-
@@ -12841,7 +11198,7 @@ adding ones.
 For portability, it's best 1o perform shifis only on unsigned numbers,
 
 The following examples illustrate the effect of applying the shift operators to
-the number 13. (For simplicity, these examples—and others in this section—use
+the number 13. (For simplicity, these examples --- and others in this section --- use
 short integers, which are typically 16 bits.)
 
 unsigned short i, j;
@@ -12964,7 +11321,7 @@ Let's assume that 1 is a 16-bit unsigned short variable. Let's see how to
 perform the most common single-bit operations on 1:
 
 m Setting a bit. Suppose that we want to set bit 4 of i. (We'll assume that the
-leftmost—or most significant—Dbit is numbered 15 and the least significant is
+leftmost --- or most significant --- Dbit is numbered 15 and the least significant is
 numbered 0.) The easiest way to set bit 4 is to or the value of i with the con-
 stant 0x0010 (a "mask" that contains a | bit in position 4):
 
@@ -13265,8 +11622,8 @@ Chapter 20
 
 Low-Level Programming
 
-(You may be wondering how it's possible to store the seconds—a number between
-0 and 59—in a ficld with only 5 bits. Well, DOS cheats: it divides the number of
+(You may be wondering how it's possible to store the seconds --- a number between
+0 and 59 --- in a ficld with only 5 bits. Well, DOS cheats: it divides the number of
 seconds by 2, so the seconds member is actually between 0 and 29.) If we're not
 interested in the seconds field, we can leave out its name:
 
@@ -13301,7 +11658,7 @@ because of its low-level nature.
 
 Defining Machine-Dependent Types
 
-Since the char type—by definition—occupies one byte, we'll sometimes treat
+Since the char type --- by definition --- occupies one byte, we'll sometimes treat
 characters as bytes, using them to store data that's not necessarily in character
 form. When we do so, it's a good idea to define a BYTE type:
 
@@ -13318,7 +11675,7 @@ We'll use the BYTE and WORD types in later examples.
 
 Using Unions to Provide Multiple Views of Data
 
-Although unions can be used in a portable way—see Section 16.4 for examples—
+Although unions can be used in a portable way --- see Section 16.4 for examples --- 
 they're often used in C for an entirely different purpose: viewing a block of mem-
 ory in two or more different ways.
 
@@ -13610,7 +11967,7 @@ if (buffer(i++] == '\n')
 break;
 
 'The optimized program will fill the buffer with many copies of the same charac-
-ter—not exactly what we had in mind, Declaring that p points to volatile data
+ter --- not exactly what we had in mind, Declaring that p points to volatile data
 avoids this problem by telling the compiler that *p must be fetched from memory
 each time it's needed.
 
@@ -13770,7 +12127,7 @@ né&=n- 1;
 Hint: Consider the effect on n if this statement is executed more than once.
 
 When stored according to the IEEE floating-point standard, a float value consists of a 1
-bit sign (the leftmost—or most significant—bit), an 8-bit exponent, and a 23-bit fraction, in
+bit sign (the leftmost --- or most significant --- bit), an 8-bit exponent, and a 23-bit fraction, in
 that order. Design a structure type that occupies 32 bits, with bit-tield members correspond-
 ing to the sign, exponent, and fraction. Declare the bit-fields to have type unsigned int.
 Check the manual for your compiler to determine the order of the bit-ficlds.
@@ -13789,7 +12146,7 @@ int flag: 1;
 } si
 
 With some compilers, executing the following statements causes 1 to be displayed, but with
-other compilers, the output is —1. Explain the reason for this behavior.
+other compilers, the output is  --- 1. Explain the reason for this behavior.
 
 s.flag = 1;
 printf ("3d\n", s.flag);
@@ -13811,7 +12168,7 @@ Programming Projects
 Design a union that makes it possible to view a 32-bit value as either a float or the struc-
 ture described in Exercise 14. Write a program that stores | in the structure's sign field, 128
 in the exponent field, and 0 in the fraction field, then prints the f1cat value stored in the
-union. (The answer should be —2.0 if you've set up the bit-fields correctly.)
+union. (The answer should be  --- 2.0 if you've set up the bit-fields correctly.)
 21
 
 211
@@ -14269,8 +12626,8 @@ The value of offsetof (struct s, a) must be 0; C guarantees that the first
 member of a structure has the same address as the structure itself. We can't say for
 sure what the offsets of b and c are. One possibility is that of fsctof (struct
 s, b) is 1 (since a is one byte long), and of fsetof (struct s, c) is 9
-(assuming 32-bit integers). However, some compilers leave "holes"—unused
-bytes—in structures (see the Q&A section at the end of Chapter 16), which can
+(assuming 32-bit integers). However, some compilers leave "holes" --- unused
+bytes --- in structures (see the Q&A section at the end of Chapter 16), which can
 affect the value produced by of fsetof. If a compiler should leave a three-byte
 hole after a, for example, then the offsets of b and c would be 4 and 12, respec-
 tively. But that's the beauty of of fsetof: it produces the correct offsets for any
@@ -14517,7 +12874,7 @@ tems usually limit the number of streams that can be open at one time.
 Standard Streams and Redirection
 
 <stdio.h> provides three standard streams (Table 22.1). These streams are
-ready to use—we don't declare them, and we don't open or close them.
+ready to use --- we don't declare them, and we don't open or close them.
 Table 22.1
 Standard Streams
 
@@ -14528,8 +12885,8 @@ stdin Standard input Keyboard
 stdout Standard output Screen
 stderr Standard error Screen
 
-The functions that we've used in previous chapters—printf, scanf,
-putchar, getchar, puts, and get s—obtain input from stdin and send out-
+The functions that we've used in previous chapters --- printf, scanf,
+putchar, getchar, puts, and get s --- obtain input from stdin and send out-
 put to stdout. By default, stdin represents the keyboard; stdout and
 stderr represent the screen. However, many operating systems allow (hese
 default meanings to be changed via a mechanism known as redirection.
@@ -14705,7 +13062,7 @@ Input/Output
 undefined.) There are two ways to avoid the problem. One is to use \ \ instead of
 N
 fopen ("c:\\project\\testl.dat", "r")
-The other technique is even easier—just use the / character instead of \:
+The other technique is even easier --- just use the / character instead of \:
 fopen("c:/project/testl.dat", "r")
 
 Windows will happily accept / instead of \ as the directory separator.
@@ -14931,7 +13288,7 @@ Temporary Files
 FTTR *tmpfile(void);
 char *tmpnam(char *s);
 
-Real-world programs often need to create temporary files—files that exist only as
+Real-world programs often need to create temporary files --- files that exist only as
 long as the program is running. C compilers, for instance, often create temporary
 files. A compiler might first translate a C program to some intermediate form,
 which it stores in a file. The compiler would then read the file later as it translates
@@ -15167,8 +13524,8 @@ argument.
 
 Don't think of fprintf as merely a function that writes data to disk files,
 though. Like many functions in <stdio.hs, fprintf works fine with any out-
-put stream. In fact, onc of the most common uses of Lprintf—writing error
-messages to stderr, the standard error stream—has nothing to do with disk files.
+put stream. In fact, onc of the most common uses of Lprintf --- writing error
+messages to stderr, the standard error stream --- has nothing to do with disk files.
 Here's what such a call might look like:
 
 fprintf (stderr, "Error: data file can't be opened.\n");
@@ -15310,7 +13667,7 @@ Conversion Specifiers for Specifier Meaning
 ~printf Functions 4,1 Converts an int value to decimal form.
 
 o,u,x X Converts an unsigned int value to base 8 (o), base 10 (u), or base 16
-(x, X). x displays the hexadecimal digits a—f in lower case: X displays
+(x, X). x displays the hexadecimal digits a --- f in lower case: X displays
 them in upper case.
 
 f5F Converts a double value to decimal form, putting the decimal point in
@@ -15323,7 +13680,7 @@ nent is preceded by the letter & if B is chosen, the exponent is preceded
 by E.
 
 9.6 g converts a double value to either f form or e form, e form is selected
-if the number's exponent is less than —4 or greater than or equal to the
+if the number's exponent is less than  --- 4 or greater than or equal to the
 precision. Trailing zeros are not displayed (unless the # flag is used); a
 decimal point appears only when followed by a digit. G chooses between
 Fand E forms.
@@ -15333,7 +13690,7 @@ form [~10xh . hkhlip=d, where [-] is an optional minus sign, the A's rep-
 resent hex digits, + is either a plus or minus sign, and  is the exponent.
 is a decimal number that represents a power of 2. If no precision is speci-
 fied. enough digits arc displayed after the decimal point to represent the
-exact value of the number (if possible). a displays the hex digits a2—f in
+exact value of the number (if possible). a displays the hex digits a2 --- f in
 lower case: & displays them in upper case. The choice of a or A also
 affects the case of the letters x and p.
 
@@ -15386,7 +13743,7 @@ Q&A section at the end of Chapter 7.
 w Ability to write infinity and NaN. The IEEE 754 floating-point standard
 allows the result of a floating-point operation to be infinity, negative infinity,
 or NaN ("not a number"). For example, dividing 1.0 by 0.0 yields positive
-infinity, dividing —1.0 by 0.0 yields negative infinity, and dividing 0.0 by 0.0
+infinity, dividing  --- 1.0 by 0.0 yields negative infinity, and dividing 0.0 by 0.0
 yields NaN (because the result is mathematically undefined). In C99, the a, A,
 c, E, f. F, g, and G conversion specifiers are capable of converting these spe-
 cial values to a form that can be displayed. a, e. f, and g convert positive
@@ -15418,7 +13775,7 @@ and 0 flags (the 4 flag is never used with %d). The remaining lines show the eff
 of combinations of flags.
 
 Conversion  Result of Applying  Result of Applying
-Specification  Conversion to 123 Conversion to —123
+Specification  Conversion to 123 Conversion to  --- 123
 
 %¥8d seene |23
 
@@ -15485,7 +13842,7 @@ Table 22.10 illustrates how the %g conversion displays some numbers in &
 form and others in % f form. All numbers in the table were written using the % . 4g
 conversion specification. The first two numbers have exponents of at least 4, so
 they're displayed in %e form. The next eight numbers are displayed in 3f form.
-The last two numbers have exponents less than —4, so they're displayed in %e
+The last two numbers have exponents less than  --- 4, so they're displayed in %e
 
 form.
 Result of Applying % . 49
@@ -15556,8 +13913,8 @@ const char * restrict format, ...);
 int scanf(const char * restrict format, ...):
 
 fscanf and scanf read data items from an input stream, using a format string to
-indicate the layout of the input. After the format string, any number of pointers—
-each pointing to an object—follow as additional arguments. Input items are con-
+indicate the layout of the input. After the format string, any number of pointers --- 
+each pointing to an object --- follow as additional arguments. Input items are con-
 verted (according to conversion specifications in the format string) and stored in
 these objects.
 @D
@@ -15951,9 +14308,9 @@ the function:
 n = find_int("foo");
 
 "ffoo'" is the name of the file to be searched. The function returns the value of the
-integer that it finds, which is then assigned to 1. If a problem arises—the file can't
-be opened, a read error occurs, o no line begins with an integer—find_int will
-return an error code (—1, 2, or =3, respectively). I'll assume that no line in the file
+integer that it finds, which is then assigned to 1. If a problem arises --- the file can't
+be opened, a read error occurs, o no line begins with an integer --- find_int will
+return an error code ( --- 1, 2, or =3, respectively). I'll assume that no line in the file
 begins with a negative integer.
 
 int find_int(const char *filename)
@@ -16132,7 +14489,7 @@ j
 ungetc(ch, ffp); /* pushes back last character read */
 
 The number of characters that can be pushed back by consccutive calls of
-ungetc—with no intervening read operations—depends on the implementation
+ungetc --- with no intervening read operations --- depends on the implementation
 and the type of stream involved; only the first call is guaranteed to succeed. Calling
 a file-positioning function (fseek, fsetpos, or rewind) causes the pushed-
 back characters to be lost.
@@ -16294,7 +14651,7 @@ FILE * restrict stream);
 
 The fread and fwrite functions allow a program to read and write large
 blocks of data in a single step. fread and furite are used primarily with
-binary streams, although—with care—it's possible to use them with text streams
+binary streams, although --- with care --- it's possible to use them with text streams
 as well.
 
 fwrite is designed to copy an array from memory to a stream. The first
@@ -16405,7 +14762,7 @@ To move to the end of a file, the seek direction would be SEEK_END:
 fseek(fp, OL, SEEK END); /* moves to end of file */
 
 To move back 10 bytes. the seek direction would be SEEK_CUR and the byte count
-would be —10:
+would be  --- 10:
 
 fseek(fp, -10L, SEEK CUR); /* moves back 10 bytes */
 < &
@@ -16603,7 +14960,7 @@ formatting, then save the result in a string until it's time to produce output,
 sprintf is also convenient for converting numbers to character form.
 
 The snprintf function is the same as sprintf, except for the additional
-parameter . No more than n — | characters will be written to the string. not count-
+parameter . No more than n  ---  | characters will be written to the string. not count-
 ing the terminating null character, which is always written unless n is zero. (Equiv-
 alently, we could say that snprintf writes at most n characters to the string, the
 last of which is a null character.) For example, the call
@@ -16692,7 +15049,7 @@ will translate the character into the appropriate end-of-line marker. C's approa
 makes programs more portable and easier to write; we can work with text files
 without having to worry about how end-of-line is actually represented. Note that
 input/output performed on a file opened in binary mode isn't subject to any char-
-acter translation—carriage return and line feed are treated the same as the other
+acter translation --- carriage return and line feed are treated the same as the other
 characters.
 
 I''m writing a program that needs to save data in a file, to be read later by
@@ -16832,14 +15189,14 @@ lowing discussion conerete, I'll assume two's-complement arithmetic.
 First, suppose that char is an unsigned type. (Recall that some compilers
 treat char as a signed type but others treat it as an unsigned type.) Now suppose
 that getc returns EOF, which we store in a char variable named ch. If EOF rep-
-resents —1 (its typical value), ch will end up with the value 255. Comparing ch (an
+resents  --- 1 (its typical value), ch will end up with the value 255. Comparing ch (an
 unsigned character) with EOF (a signed integer) requires converting ch to a signed
 integer (255, in this case). The comparison against EOF fails, since 255 is not equal
 to-1.
 
 Now assume that char is a signed type instead. Consider what happens if
 getec reads a byte containing the value 255 from a binary stream. Storing 255 in
-the ch variable gives it the value —1, since ch is a signed character. Testing
+the ch variable gives it the value  --- 1, since ch is a signed character. Testing
 whether ch is equal to EOF will (erroneously) give a true result.
 
 The character input functions described in Section 22.4 require that the Enter
@@ -16848,7 +15205,7 @@ a program that responds to individual keystrokes?
 
 As you've noticed, the getc, fgetc, and getchar functions are buffered: they
 don't start to read input until the user has pressed the Enter key. In order to read
-characters as they're entered—which is important for some kinds of programs—
+characters as they're entered --- which is important for some kinds of programs --- 
 you'll need to use a nonstandard library that's tailored to your operating system. In
 UNIX, for example, the curses library often provides this capability.
 Q&A 581
@@ -17158,8 +15515,8 @@ sequence of non-white-space characters.)
 (c) Write a program that counts the number of lines in a text file.
 Have each program obtain the file name from the command line.
 
-The xor . c program of Section 20.1 refuses to encrypt bytes that—in original or encrypted
-form—are control characters. We can now remove this restriction. Modify the program so
+The xor . c program of Section 20.1 refuses to encrypt bytes that --- in original or encrypted
+form --- are control characters. We can now remove this restriction. Modify the program so
 that the names of the input and output files are command-line arguments. Open both files in
 binary mode, and remove the test that checks whether the original and encrypted characters
 are printing characters.
@@ -17490,7 +15847,7 @@ Evaluation Methods
 
 232 The <limits.h> Header: Sizes of Integer Types 591
 
-Name — Value Description
+Name  ---  Value Description
 FLT_MAX 210" Largest finite value
 DRT,_MAX 210"V
 LDBL_MAX 210"
@@ -17581,7 +15938,7 @@ SHRT_MAX 2432767 2'".1 Maximum short int value
 USHRT_MAX 265535 2!5-1  Maximum unsigned
 short int value
 
-INT_MIN <32767 —(2"-1) Minimum int value
+INT_MIN <32767  --- (2"-1) Minimum int value
 
 INT MAX 2432767 251 Maximum int value
 
@@ -17595,7 +15952,7 @@ LONG_MAX 242147483647 2} Maximum long int value |
 ULONG_MAX 24294967295  2*-1 Maximumunsignedlong |
 int value '
 
-LLONG MIN'  <-9223372036854775807 —(2*-1) Minimum long long int
+LLONG MIN'  <-9223372036854775807  --- (2*-1) Minimum long long int
 value
 
 LLONG MAX'  249223372036854775807  2%-1 Maximum long long int
@@ -17655,8 +16012,8 @@ Nearest integer, absolute value, and remainder functions
 C99 adds a number of functions to these groups as well as introducing other cate-
 gorics of math functions. The C99 changes to <math.h> are so extensive that
 I've chosen to cover them in a separate section that follows this one. That way,
-readers who are primarily interested in the C89 version of the header—or who are
-using a compiler that doesn't support C99—won't be overwhelmed by all the C99
+readers who are primarily interested in the C89 version of the header --- or who are
+using a compiler that doesn't support C99 --- won't be overwhelmed by all the C99
 additions.
 
 Before we delve into the functions provided by emath h>, let's take a brief
@@ -17671,7 +16028,7 @@ tion, when the return value of a function would be larger than the largest doubl
 value, the functions in <math.h> return a special value, represented by the macro
 HUGE_VAL (defined in <math.h>). HUGE_VAL is of type double, but it isn't
 necessarily an ordinary number. (The IEEE standard for floating-point arithmetic
-defines a value named "infinity"—a logical choice for HUGE_VAL.)
+defines a value named "infinity" --- a logical choice for HUGE_VAL.)
 The functions in <math . h> detect two kinds of errors:
 
 u Domain error: An argument is outside a function's domain. If a domain error
@@ -17784,7 +16141,7 @@ double modf (double value, double *iptr);
 The exp function returns e raised to a power:
 exp(3.0) = 20.0855
 
-log is the inverse of exp—it computes the logarithm of a number to the base
+log is the inverse of exp --- it computes the logarithm of a number to the base
 c. 1og10 computes the "common" (base 10) logarithm:
 
 log(20.0855) = 3.0
@@ -17824,7 +16181,7 @@ an exponent 7 in such a way that the original number equals f x 2", where either
 by the second argument:
 
 frexp(12.0, &exp) = .75 (exp is assigned 4)
-frexp(0.25, &exp) = 0.5 (exp is assigned —1)
+frexp(0.25, &exp) = 0.5 (exp is assigned  --- 1)
 
 1dexp undoes the work of frexp by combining a fraction and an exponent
 into a single number:
@@ -17871,7 +16228,7 @@ fmod
 
 234 The <math.h> Header (C99): Mathematics ~ 597
 
-The ceil ("ceiling") function returns—as a double value—the smallest integer
+The ceil ("ceiling") function returns --- as a double value --- the smallest integer
 that's greater than or equal to its argument. f1oor returns the largest integer that's
 less than or equal to its argument:
 
@@ -18087,7 +16444,7 @@ more complicated set of actions when overflow occurs:
 = If default rounding is in effect or if the return value is an "exact infinity" (such
 as 1og (0. 0) ), then the function returns either HUGE VAL, HUGE VALF, or
 HUGE_VALL, depending on the function's return type. (HUGE_VALF and
-HUGE_VALL—the float and long double versions of HUGE_VAL—are
+HUGE_VALL --- the float and long double versions of HUGE_VAL --- are
 new in C99. Like HUGE VAL, they may represent positive infinity.) The value
 returned has the sign of the correct result.
 
@@ -18151,7 +16508,7 @@ signbit
 The C99 version of <math.h> also includes a number of completely new
 functions (and function-like macros). I'll give a brief description of each one. As in
 Section 23.3, T won't discuss error conditions for these functions, but Appendix
-D—which lists all standard library functions in alphabetical order—provides this
+D --- which lists all standard library functions in alphabetical order --- provides this
 information. I won't list the names of all the new functions in the left margin;
 instead, I'll show just the name of the primary function. For example, there are
 three new functions that compute the arc hyperbolic cosine: acosh, acoshf, and
@@ -18326,7 +16683,7 @@ long double scalblnl (long double x, long int n);
 In additional to new versions of exp, frexp, 1dexp, log, logl0, and modf,
 there are several entircly new functions in this category. Two of these, exp2 and
 expml, are variations on the exp function. When applied to the argument x, the
-exp2 function returns 2%, and expml returns e* — 1.
+exp2 function returns 2%, and expml returns e*  ---  1.
 
 The logb function returns the exponent of its argument. More precisely, the
 call logb (x) returns log (Ixl), where r is the radix of floating-point arithmetic
@@ -18410,7 +16767,7 @@ equations. The mathematical definition of erf is
 erf(x) = l'_f{' dr
 N0
 
-erfc computes the complementary error function, erfe(x) = | — erf(x).
+erfc computes the complementary error function, erfe(x) = |  ---  erf(x).
 
 The gamma function T is an extension of the factorial function that can be
 applied to real numbers as well as to integers. When applied to an integer n, T'(n) =
@@ -18540,7 +16897,7 @@ Besides additional versions of fmod. this category includes new remainder func-
 tions named remainder and remquo.
 
 The remainder function returns x REM y, where REM is a function defined
-in the IEEE standard. For y # 0, the value of x REM y is r = x — ny, where n is the
+in the IEEE standard. For y # 0, the value of x REM y is r = x  ---  ny, where n is the
 integer nearest the exact value of x /y. (If x/y is halfway between two integers, n
 is even.) If » = 0, it has the same sign as x.
 
@@ -18672,7 +17029,7 @@ multiplying two matrices.
 
 To determine whether calling the fma function is a good idea, a C99 program
 can test whether the FP_FAST FMA macro is defined. If it is, then calling fma
-should be faster than—or at least as fast as—performing separate multiply and add
+should be faster than --- or at least as fast as --- performing separate multiply and add
 operations. The FP_FAST FMAF and FP_FAST FMAL macros play the same
 role for the fmaf and fmal functions, respectively.
 
@@ -18732,8 +17089,8 @@ These macros are designed to accept arguments of any real floating type.
 The comparison macros exist because of a problem that can arise when float-
 ing-point numbers are compared using the ordinary relational operators such as <
 and >. If either operand (or both) is a NaN, such a comparison may cause the
-invalid floating-point exception to be raised. because NaN values—unlike other
-floating-point values—are considered to be unordered. The comparison macros
+invalid floating-point exception to be raised. because NaN values --- unlike other
+floating-point values --- are considered to be unordered. The comparison macros
 can be used to avoid this exception. These macros are said to be "quiet" versions of
 the relational operators because they do their job without raising an exception.
 
@@ -18744,8 +17101,8 @@ the arguments are unordered.
 
 The call islessgreater (x, y) is equivalent to (x) < (y) || (x) >
 
-(y), except that it guarantees not to evaluate x and y twice, and—like the previ-
-ous macros—doesn't cause the invalid floating-point exception to be raised when
+(y), except that it guarantees not to evaluate x and y twice, and --- like the previ-
+ous macros --- doesn't cause the invalid floating-point exception to be raised when
 x and y are unordered
 
 The isunordered macro returns | if its arguments are unordered (at least
@@ -19175,7 +17532,7 @@ if (strncmp(si, s2, 4)
 if (strncmp(sl, s2, 7)
 
 82, 3) == 0) .. /* true */
-0) — /% trus &/
+0)  ---  /% trus &/
 0) S K Erue S )
 
 The strcoll function is similar to strcmp, but the outcome of the compar-
@@ -19240,7 +17597,7 @@ character, st rchr returns a null pointer.
 
 memchr is similar to strchr, but it stops searching after a set number of
 characters instead of stopping at the first null character. memchx's third argument
-limits the number of characters it can examine—a useful capability if we don't
+limits the number of characters it can examine --- a useful capability if we don't
 want to search an entire string or if we're searching a block of memory that's not
 terminated by a null character. The following example uses memchr to search an
 array of characters that lacks a null character at the end:
@@ -19311,7 +17668,7 @@ null pointer if it can't locate the string. After the call above, p will point t
 ter f in function.
 
 strtok is the most complicated of the search functions. It's designed to
-search a string for a "token"—a sequence of characters that doesn't include certain
+search a string for a "token" --- a sequence of characters that doesn't include certain
 delimiting characters. The call strtok (s1, s2) scans the s1 string for a non-
 empty sequence of characters that are not in the s2 string. stxtok marks the end
 23.6 The <string.h> Header: String Handling 621
@@ -19502,7 +17859,7 @@ at the beginning).
 
 Using isxdigit, write a function that checks whether a string represents a valid hexadec-
 imal number (it consists solely of hexadecimal digits). If so, the function returns the value of
-the number as a Long int. Otherwise, the function returns —1.
+the number as a Long int. Otherwise, the function returns  --- 1.
 
 In each of the following cases, indicate which function would he the best to use: memepy,
 memmove, strepy, or strnepy. Assume that the indicated action is to be performed by a
@@ -19550,17 +17907,17 @@ Write a call of memeet that replaces the last nn characters in a null-terminated
 Many versions of <string.h> provide additional (nonstandard) functions, such as those
 listed below. Write each function using only the features of the C standard.
 
-(a) strdup (g) — Returns a pointer to a copy of s stored in memory obtained by calling
+(a) strdup (g)  ---  Returns a pointer to a copy of s stored in memory obtained by calling
 malloc. Returns a null pointer if enough memory couldn't be allocated.
 
-(b) stricmp(sl, s2) — Similar to stremp, but ignores the case of letters.
+(b) stricmp(sl, s2)  ---  Similar to stremp, but ignores the case of letters.
 
-(c) strlwr (s) — Converts upper-case letters in s to lower case, leaving other characters
+(c) strlwr (s)  ---  Converts upper-case letters in s to lower case, leaving other characters
 unchanged; returns s.
 
-(d) strrev(s) — Reverses the characters in s (except the null character); returns s.
+(d) strrev(s)  ---  Reverses the characters in s (except the null character); returns s.
 
-(e) strset (s, ch) —Fills s with copies of the character ch; returns s.
+(e) strset (s, ch)  --- Fills s with copies of the character ch; returns s.
 
 If you test any of these functions, you may nced to alter its name. Functions whose names
 
@@ -19576,7 +17933,7 @@ string.
 Programming Projects
 Write a program that finds the roots of the equation c + bx + c = 0 using the formula
 
-_ —bt/b2—4ac
+_  --- bt/b2 --- 4ac
 
 2a
 
@@ -19622,7 +17979,7 @@ There are two ways to wiite error-free
 programs; only the third one works.
 
 Although student programs often fail when subjected to unexpected input, com-
-mercial programs need to be "bulletproof"—able to recover gracefully from errors
+mercial programs need to be "bulletproof" --- able to recover gracefully from errors
 instead of crashing. Making programs bulletproof requires that we anticipate
 errors that might arise during the execution of the program, include a check for
 each one, and provide a suitable action for the program to perform if the error
@@ -19672,7 +18029,7 @@ assert, which is defined in the cassert . 1> header, allows a program to mon-
 itor its own hehavior and detect possible problems at an early stage.
 
 Although assert is actually a macro, it's designed to be used like a func-
-tion. It has one argument, which must be an "assertion"—an expression that we
+tion. It has one argument, which must be an "assertion" --- an expression that we
 expect to be truc under normal circumstances. Each time assext is executed, it
 tests the value of its argument. If the argument has a nonzero value, assert does
 nothing. If the argument's value is zero, assert wriles a message to stderr
@@ -19703,7 +18060,7 @@ requirement, allowing the argument to have any scalar type (hence the word scala
 in the prototype for assert). This change allows the argument to be a floating-
 point number or a pointer, for example. Also, C99 requires that a failed agsers
 display the name of the function in which it appears. (C89 requires only that
-assert display the argument—in text form—along with the name of the source
+assert display the argument --- in text form --- along with the name of the source
 file and the source line number). The suggested form of the message is
 
 Assertion failed: expression, function abe, file xyz, line nnn.
@@ -19736,7 +18093,7 @@ including the <assert . h> header:
 The value of NDEBUG doesn't matter, just the fact that it's defined. If the program
 should fail later, we can reactivate assert by removing NDEBUG's definition.
 
-Avoid putting an expression that has a side effect—including a function call
+Avoid putting an expression that has a side effect --- including a function call
 inside an assert: if assert is disabled at a later date, the expression won't be
 evaluated. Consider the following example:
 
@@ -19805,7 +18162,7 @@ Some functions can experience both kinds of errors; by comparing errno to
 EDOM or ERANGE, we can determine which crror occurred.
 
 C99 adds the E1LSEQ macro to <errno.hs. Library functions in certain
-headers—especially the <wchar.hs header—store the value of ETLSEQ in
+headers --- especially the <wchar.hs header --- store the value of ETLSEQ in
 errno when an encoding error oceurs.
 
 The perror and strerror Functions
@@ -19990,8 +18347,8 @@ initialized to either SIG_DFL or SIG_IGN, depending on the implementation.
 
 <signal.h> defines another macro, SIG_ERR, that looks like it should be
 a signal handler. SIG_ERR is actually used to test for an error when installing a
-signal handler. If a call of signal is unsuccessful—it can't install a handler for
-the specified signal—it returns 3IG ERR and stores a positive value in errno.
+signal handler. If a call of signal is unsuccessful --- it can't install a handler for
+the specified signal --- it returns 3IG ERR and stores a positive value in errno.
 Thus, to test whether signal has failed, we could write
 
 if (signal (SIGINT, handler) == STIG_ERR) {
@@ -20101,7 +18458,7 @@ raise (SIGINT) ;
 
 Incidentally, the call of raise doesn't need to be in a separate function. 1
 defined raise sig simply to make a point: regardless of where a signal is
-raised—whether it's in main or in some other function—it will be caught by the
+raised --- whether it's in main or in some other function --- it will be caught by the
 most recently installed handler for that signal.
 
 The output of this program can vary somewhat. Here's one possibility:
@@ -20155,8 +18512,8 @@ later use in a call of longjmps; it then returns zero.
 
 Returning to the point of the set jmp is done by calling Longjmp, passing it
 the same jmp_buf variable that we passed to setjmp. After restoring the envi-
-ronment represented by the jmp_buf variable, longjmp will—here's where it
-gets tricky—return from the setimp call. setjmp's return value this time is
+ronment represented by the jmp_buf variable, longjmp will --- here's where it
+gets tricky --- return from the setimp call. setjmp's return value this time is
 val, the second argument to longjmp. (If val is 0, setjmp returns 1.)
 
 Be sure that the argument to longjmp was previously initialized by a call of
@@ -20293,7 +18650,7 @@ store an int value in one instruction.
 
 That brings us to the exception to the rule that a signal-handling function isn't
 supposed to access static variables. The C standard allows a signal handler to store
-avalue in a sig_atomic_t variable—even one with static storage duration—
+avalue in a sig_atomic_t variable --- even one with static storage duration --- 
 provided that it's declared volatile. To see the reason for this arcane rule, con-
 sider what might happen if a signal handler were to modify a static variable that's
 of a type that's wider than sig_atomic_t. If the program had fetched part of
@@ -20429,7 +18786,7 @@ come from C89, Amendment 1, or C99. I'll flag the Amendment | changes as C99
 changes, although they actually predate C99.
 
 The <locale.h> header (Section 25.1) provides functions that allow a pro-
-gram to tailor its behavior (o a particular "locale"—often a country or other geo-
+gram to tailor its behavior (o a particular "locale" --- often a country or other geo-
 graphical area in which a particular language is spoken. Multibyte characters and
 wide characters (Section 25.2) enable programs to work with large character sets
 such as those found in Asian countries. Digraphs, trigraphs, and the <is0646 .h>
@@ -20559,9 +18916,9 @@ examples:
 
 "swedish"
 
-"en_GB" (English — United Kingdom)
+"en_GB" (English  ---  United Kingdom)
 "en_IE" (English - Ireland)
-"fr_cH" (French — Switzerland)
+"fr_cH" (French  ---  Switzerland)
 
 There are several variations onthe "=n_TE" locale, including "en_TE@euro" (using
 the euro currency), "en TE.isc88591" (using the ISO/IEC 8859-1 character set),
@@ -20870,7 +19227,7 @@ Chapter 25
 International Features
 
 Changing the meaning of type chax to handle larger character sets isn't pos-
-sible, since chaxr values are—by definition—Tlimited to single bytes. Instead, C
+sible, since chaxr values are --- by definition --- Tlimited to single bytes. Instead, C
 allows compilers to provide an extended character set. This character set may be
 used for writing C programs (in comments and strings, for example), in the envi-
 ronment in which the program is run, or in both places. C provides two techniques
@@ -20889,7 +19246,7 @@ amultibyte character.
 Japanese Character Sets
 
 The Japanese employ several different writing systems. The most complex, kanji,
-consists of thousands of symbols—far too many to represent in a one-byte encod-
+consists of thousands of symbols --- far too many to represent in a one-byte encod-
 ing. (Kanji symbols actually come from Chinese, which has a similar problem with
 large character sets.) There's no single way to encode kanji: common encodings
 include JIS (Japanese Industrial Standard), Shift-JIS (the most popular encoding),
@@ -20983,8 +19340,8 @@ terms interchangeably.
 Unicode was originally limited to 65,536 characters (the number of characters
 that can be represented using 16 bits). That limit was later found to be insufficient;
 Unicode currently has over 100,000 characters. (For the most recent version, visit
-www.unicode.org.) The first 65,536 characters of Unicode—which include the
-most frequently used characters—are known as the Basic Multilingual Plane
+www.unicode.org.) The first 65,536 characters of Unicode --- which include the
+most frequently used characters --- are known as the Basic Multilingual Plane
 (BMP).
 
 Encodings of Unicode
@@ -21110,7 +19467,7 @@ updated.
 
 The mblen function checks whether its first argument points to a series of
 bytes that form a valid multibyte character. If so, the function returns the number
-of bytes in the characler: if not, it returns —1. As a special case, mblen returns 0 if
+of bytes in the characler: if not, it returns  --- 1. As a special case, mblen returns 0 if
 the first argument points to a null character. The second argument limits the num-
 ber of bytes that mblen will examine; typically, we'll pass MB_CUR_MAX.
 
@@ -21133,7 +19490,7 @@ to the initial conversion state (in case the multibyte encoding is state-depende
 Second, there's the matter of termination. Keep in mind that s points to an ordi-
 nary character string, which is assumed to end with a null character. mblen will
 return zero when it reaches this null character, causing mbcheck to retum.
-mbcheck will return sooner if mblen returns —1 because of an invalid multibyte
+mbcheck will return sooner if mblen returns  --- 1 because of an invalid multibyte
 character.
 
 The mbtowe function converts a multibyte character (pointed to by the sec-
@@ -21152,7 +19509,7 @@ The wetomb function converts a wide character (the second argument) into a
 multibyte character, which it stores into the array pointed to by the first argument.
 wctomb may store as many as MB_LEN_MAX characters in the array, but doesn't
 append a null character. wetomb returns the number of bytes in the multibyte
-character or —1 if the wide character doesn't correspond to any valid multibyte
+character or  --- 1 if the wide character doesn't correspond to any valid multibyte
 character. (Note that wetomb returns 1 if asked to convert a null wide character.)
 
 The following function (also from Plauger's The Standard C Library) uses
@@ -21171,7 +19528,7 @@ return -1; /* invalid character */
 else if (buf[n-1] -= '\0')
 return 0; /* all characters are valid */
 
-Incidentally, all three functions—mblen, mbtowe, and wetomb—can be
+Incidentally, all three functions --- mblen, mbtowe, and wetomb --- can be
 used to test whether a multibyte encoding is state-dependent. When passed a null
 pointer as its char * argument, each function returns a nonzero value if multibyte
 characters have state-dependent encodings or zero if they don't.
@@ -21200,7 +19557,7 @@ third argument limits the number of wide characters that can be stored in the ar
 mbstowes stops when it reaches the limit or encounters a null character (which it
 stores in the wide-character array). It returns the number of array elements modi-
 fied, not including the terminating null wide character, if any. mbstowcs returns
-—1 (cast to type size_t)if it encounters an invalid multibyte character.
+ --- 1 (cast to type size_t)if it encounters an invalid multibyte character.
 654
 
 Chapter 25
@@ -21220,7 +19577,7 @@ to the wide-character string, The first argument points to the array in which th
 multibyte characters are to be stored. The third argument limits the number of
 bytes that can be stored in the array. westombs stops when it reaches the limit or
 encounters a null character (which it stores). It returns the number of bytes stored,
-not including the terminating null character, if any. westombs returns —1 (cast to
+not including the terminating null character, if any. westombs returns  --- 1 (cast to
 type size_t) if it encounters a wide character that doesn't correspond to any
 multibyte character.
 
@@ -21234,8 +19591,8 @@ Programmers in certain countries have traditionally had trouble entering C pro-
 grams because their keyboards lacked some of the characters that are required by C.
 This has been especially true in Europe, where older keyboards provided the accent(-
 ed characters used in European languages in place of the characters that C needs,
-suchas #, [, \, 1, %, {, |. }, and ~. C89 introduced trigraphs—three-character
-codes that represent problematic characters—as a solution to this problem. Tri-
+suchas #, [, \, 1, %, {, |. }, and ~. C89 introduced trigraphs --- three-character
+codes that represent problematic characters --- as a solution to this problem. Tri-
 graphs proved to be unpopular, however, so Amendment 1 to the standard added
 two improvements: digraphs, which are more readable than trigraphs, and the
 <is0646 .h> header, which defines macros that represent certain C operators.
@@ -21292,7 +19649,7 @@ Compilers that conform to the C89 or C99 standards ae required to accept tri-
 graphs, even though they're rarely used. Occasionally, this feature can cause prob-
 lems.
 
-Be careful about putting 2?2 in a string literal—it's possible that the compiler will
+Be careful about putting 2?2 in a string literal --- it's possible that the compiler will
 treat it as the beginning of a trigraph. If this should happen. turn the second 2 char-
 acler into an escape sequence by preceding it with a \ character. The resulting 2\ ?
 combination can't be mistaken for the beginning of a trigraph.
@@ -21313,7 +19670,7 @@ o i|
 
 %$:%: #4
 
-Digraphs—unlike trigraphs—are foken substitutes, not character substitutes.
+Digraphs --- unlike trigraphs --- are foken substitutes, not character substitutes.
 Thus, digraphs won't be recognized inside a string literal or character constant. For
 example, the string "< : : >" has length four; it contains the characters: <, :, 1,
 656
@@ -21397,11 +19754,11 @@ wide-character versions of functions from other headers (primarily <stdio.h>
 and <string.hs).
 The <wchar . h> header declares several types and macros, including the fol-
 lowing:
-= mbstate t — A value of this type can be used to store the conversion state
+= mbstate t  ---  A value of this type can be used to store the conversion state
 when a sequence of multibyte characters is converted to a sequence of wide
 characters or vice versa.
-= wint_t — Aninteger type whose values represent extended characters.
-= WEOF — A macro representing a wint_t value that's different from any
+= wint_t  ---  Aninteger type whose values represent extended characters.
+= WEOF  ---  A macro representing a wint_t value that's different from any
 extended character. WEOF is used in much the same way as EOF, typically to
 indicate an error or end-of-file condition
 
@@ -21634,8 +19991,8 @@ Equivalents
 swprintf returns a negative value if the number of wide characters to be written
 is n or more, which differs from the behavior of both sprintf and snprintf.
 vswprintf is equivalent to swprintf, with arg replacing the variable
-argument list of swprintf. Like swprintf, which is similar—but not identi-
-cal—to sprintf and snprintf, the vswprintf function is a combination of
+argument list of swprintf. Like swprintf, which is similar --- but not identi-
+cal --- to sprintf and snprintf, the vswprintf function is a combination of
 vsprintf and vsnprintf If an attempt is made to write n or more wide char-
 acters, vewprintf returns a negative integer, in a manner similar to swprintf.
 
@@ -21936,7 +20293,7 @@ Chapter 25
 
 International Features
 
-We saw in Section 23.6 that strtok searches a string for a "token"—a
+We saw in Section 23.6 that strtok searches a string for a "token" --- a
 sequence of characters that doesn't include certain delimiting characters. The call
 strtok(sl, s2) scans the s1 string for a nonempty sequence of characters
 that are not in the s2 string. st.rtok marks the end of the token by storing a null
@@ -22146,9 +20503,9 @@ left in the initial conversion state.
 mbrtowe has a variety of possible return values. It returns 0 if the conversion
 produces a null wide character. It returns a number between | and n if the conver-
 sion produces a wide character other than null, where the value returned is the
-number of bytes used to complete the multibyte character. It returns —2 if the n
+number of bytes used to complete the multibyte character. It returns  --- 2 if the n
 bytes pointed to by s aren't enough to complete a multibyte character (although
-the bytes themselves were valid). Finally, it returns —1 if an encoding error occurs
+the bytes themselves were valid). Finally, it returns  --- 1 if an encoding error occurs
 (the function encounters bytes that don't form a valid multibyte character). In the
 last case, mbrtowc also stores EILSEQ in errno.
 
@@ -22171,7 +20528,7 @@ International Features
 
 mbstate t variable used during the call is left in the initial conversion state.
 wcrtomb returns the number of bytes that it stores, including shift sequences. If
-we isn't a valid wide character, the function returns —1 and stores EILSEQ in
+we isn't a valid wide character, the function returns  --- 1 and stores EILSEQ in
 errno.
 
 Restartable Multibyte/Wide-String Conversion Functions
@@ -22213,7 +20570,7 @@ source character converted.
 ters aren't stored and the pointer to which src points isn't modified.
 
 = When either function encounters an invalid character in the source array, it
-stores EILSEQ in errno (in addition to returning —1, as the older functions
+stores EILSEQ in errno (in addition to returning  --- 1, as the older functions
 do).
 25.6
 
@@ -22311,8 +20668,8 @@ int iswetype (wint_t we, wctype t desc);
 wctype t wetype (const char *property);
 
 Each of the wide-character classification functions just discussed is able (o test a
-single fixed condition. The wetype and iswctype functions—which are de-
-signed to be used together—make it possible to test for other conditions as well.
+single fixed condition. The wetype and iswctype functions --- which are de-
+signed to be used together --- make it possible to test for other conditions as well.
 
 The wetype function is passed a string describing a class of wide characters:
 it returns a wetype _t value that represents this class. For example, the call
@@ -22571,8 +20928,8 @@ Functions
 Itis the user who should parametrize
 procedures, not their creators.
 
-<stdarg.h>, <stdlib.h>, and <time.h>—the only C89 headers that
-weren't covered in previous chapters—are unlike any others in the standard library.
+<stdarg.h>, <stdlib.h>, and <time.h> --- the only C89 headers that
+weren't covered in previous chapters --- are unlike any others in the standard library.
 The <stdarg.h> header (Section 26.1) makes it possible to write functions with
 a variable number of arguments. <stdlib.h> (Section 26.2) is an assortment of
 functions that don't fit into one of the other headers, The <time . h> header (Sec-
@@ -22704,7 +21061,7 @@ When a function with a variable argument list is called, the compiler performs t
 default argument promotions on all arguments that match the ellipsis. In particular,
 char and short arguments are promoted to int, and float values are pro-
 moted to double. Consequently, it doesn't make sense to pass types such as
-char, short, or float to va_arg, since arguments—after promotion—will
+char, short, or float to va_arg, since arguments --- after promotion --- will
 never have one of those types.
 
 Calling a Function with a Variable Argument List
@@ -22732,7 +21089,7 @@ ments and the type of each.
 
 Another problem has to do with passing NULL as an argument. NULL is usu-
 ally defined to represent 0. When 0 is passed to a function with a variable argu-
-ment list, the compiler assumes that it represents an integer—there's no way it can
+ment list, the compiler assumes that it represents an integer --- there's no way it can
 tell that we want it to represent the null pointer. The solution is to add a cast, writ-
 ing (void *) NULL or (void *) 0 instead of NULL. (See the Q&A section at
 the end of Chapter 17 for more discussion of this point.)
@@ -22811,7 +21168,7 @@ tprintE(stders; 1 \nh)
 
 return n;
 
-The wrapper function—errort, in our example—is responsible for calling
+The wrapper function --- errort, in our example --- is responsible for calling
 va_start prior to calling the v..printf function and for calling va_end after
 the v..printf function returns. The wrapper function is allowed to call va_arg
 one or more times before calling the v..printf function.
@@ -22920,7 +21277,7 @@ equivalent numeric values. Three of these functions are fairly old, another thre
 were added when the C89 standard was created, and five morc were added in
 C99.
 
-All the numeric conversion functions—whether new or old—work in much
+All the numeric conversion functions --- whether new or old --- work in much
 the same way. Each function attempts to convert a string (pointed to by the nptr
 parameter) to a number. Each function skips white-space characters at the begin-
 ning of the string, treats subsequent characters as part of a number (possibly begin-
@@ -23249,7 +21606,7 @@ called in the reverse of the order in which they were registered.)
 The _`exit` function is similar to exit. However, Exit doesn't call func-
 tions that have been registered with atexit, nor does it call any signal handlers
 previously passed to the signal function. Also, _Exit doesn't necessarily flush
-output buffers, close open streams, or delete temporary files—whether these
+output buffers, close open streams, or delete temporary files --- whether these
 actions are performed is implementation-defined.
 
 abort is also similar to exit, but calling it causes abnormal program termi-
@@ -23331,7 +21688,7 @@ the element in the middle of the array: if there's a match, the function returns
 the key is smaller than the middle element, bsearch limits its scarch to the first
 half of the array; if the key is larger, bsearch searches only the last half of the
 array. bsearch repeats this strategy until it finds the key or runs out of elements
-to search. Thanks to this technique, bsearch is quite fast—searching an array of
+to search. Thanks to this technique, bsearch is quite fast --- searching an array of
 1000 elements requires only 10 comparisons at most; searching an array of
 1,000,000 elements requires no more than 20 comparisons.
 
@@ -23483,7 +21840,7 @@ m time_t: A compact, encoded time and date (a calendar time).
 so on, A value of type struct tmis often called a broken-down time. Table
 26.1 shows the members of the tm structure. All members are of type int.
 
-Minimum — Maximum
+Minimum  ---  Maximum
 Descriprion Value Value
 
 Seconds after the minute 0 61
@@ -24056,15 +22413,15 @@ is the format of these numbers? [p. 684]
 A hexadecimal floating-point number begins with 0x or 0X, followed by one or
 more hexadecimal digits (possibly including a decimal-point character), and then
 possibly a binary exponent. (See the Q&A at the end of Chapter 7 for a discus-
-sion of hexadecimal floating constants, which have a similar—but not identical—
+sion of hexadecimal floating constants, which have a similar --- but not identical --- 
 format.) Infinity has the form INF or INFINITY; any or all of the letters may be
 lower-case. NaN is represented by the string NAN (again ignoring case), possibly
 followed by a pair of parentheses. The parentheses may be empty or they may
 contain a series of characters, where each character is a letter, digit, or under-
 score. The characters may be used to specify some of the bits in the binary repre-
 sentation of the NaN value, but their exact meaning is implementation-defined.
-The same kind of character sequence—which the C99 standard calls an n-char-
-sequence—is also used in calls of the nan function.
+The same kind of character sequence --- which the C99 standard calls an n-char-
+sequence --- is also used in calls of the nan function.
 
 You said that performing the call exit (#) anywhere in a program is nor-
 mally equivalent to executing the statement return u; in main. When would
@@ -24074,8 +22431,8 @@ There are two issues. First, when the `main` function returns, the lifetime of i
 local variables ends (assuming that they have automatic storage duration, as they
 will unless they're declared to be static), which isn't true if the `exit` function
 is called. A problem will occur if any action that takes place at program termina-
-tion—such as calling a function previously registered using atexit or flushing
-an output stream buffer—requires access to one of these variables. In particular, a
+tion --- such as calling a function previously registered using atexit or flushing
+an output stream buffer --- requires access to one of these variables. In particular, a
 program might have called setvbuf and used one of main's variables as a
 buffer. Thus, in rare cases a program may behave improperly if it attempts to return
 from main but work if it calls exit instead.
@@ -24145,7 +22502,7 @@ The name gmt ime stands for Greenwich Mean Time (GMT), referring to the local
 (solar) time at the Royal Observatory in Greenwich, England. In 1884, GMT was
 adopted as an international reference time, with other time zones expressed as
 hours "behind GMT"" or "ahead of GMT." In 1972, Coordinated Universal Time
-(UTC)—a system based on atomic clocks rather than solar observations—replaced
+(UTC) --- a system based on atomic clocks rather than solar observations --- replaced
 GMT as the international time reference. By adding a "leap second" once every
 few years, UTC is kept synchronized with GMT to within 0.9 second, so for all but
 the most precise time measurements the two systems are identical.
@@ -24243,7 +22600,7 @@ Section 26.3 described some of the ISO 8601 date and time formats. Here are a fe
 (a) Year followed by day of year: YYYY-DDD, where DDD is a number between 001 and
 366
 
-(b) Year. week, and day of week: YYYY-Www—D, where wiv is a number between 01 and
+(b) Year. week, and day of week: YYYY-Www --- D, where wiv is a number between 01 and
 53, and D is a digit between 1 through 7, beginning with Monday and ending with Sun-
 day
 
@@ -24342,7 +22699,7 @@ i = 100000;
 is fine if int is a 32-bit type but will fail if int is a 16-bit type. The problem is
 that the C standard doesn't specify exactly how many bits an int value has. The
 standard does guarantee that the values of the int type must include all numbers
-between —32767 and +32767 (which requires at least 16 bits), but that's all it has to
+between  --- 32767 and +32767 (which requires at least 16 bits), but that's all it has to
 say on the matter. In the case of the variable i, which needs to be able to store
 100000, the traditional solution is to declare 1 to be of some type T, where T is a
 type name created using typedef. The declaration of T can then be adjusted
@@ -24444,7 +22801,7 @@ Integar constants >7.1
 intoger promations »-7.4
 
 Name Value Description
-INTN_MIN —(2"1)  Minimum intA_t value
+INTN_MIN  --- (2"1)  Minimum intA_t value
 INTN_MAX 2% Maximum intN_t value
 UINTN_MAX 2% Maximum uintN_t value
 INT LEASTN_MIN  <~(2"'_1) Minimum int_leastN_t value
@@ -24726,7 +23083,7 @@ tinues in Section 27.4, which describes the «complex . h> header.
 
 Definition of Complex Numbers
 
-Let i be the square root of —1 (a number such that i* =—1), i is known as the imagi-
+Let i be the square root of  --- 1 (a number such that i* = --- 1), i is known as the imagi-
 nary unit; engineers often represent it by the symbol ; instead of i. A complex
 number has the form a + bi, where a and b are real numbers. a is said to be the real
 part of the number, and b is the émaginary part. Note that the complex numbers
@@ -24735,14 +23092,14 @@ include the real numbers as a special case (when b = 0).
 Why are complex numbers useful? For one thing, they allow solutions to prob-
 lems that are otherwise unsolvable. Consider the equation x" + 1 = 0, which has no
 solution if x is restricted to the real numbers. If complex numbers are allowed,
-there are two solution: jand x=—i,
+there are two solution: jand x= --- i,
 
 Complex numbers can be thought of as points in a two-dimensional space
-known as the complex plane. Each complex number—a point in the complex
-plane—is represented by Cartesian coordinates, where the real part of the number
+known as the complex plane. Each complex number --- a point in the complex
+plane --- is represented by Cartesian coordinates, where the real part of the number
 corresponds to the x-coordinate of the point, and the imaginary part corresponds
-to the y-coordinate. For example, the complex numbers 2 + 2.5, 1 — 3i, =3 — 2i,
-and —3.5 + 1.5/ can be plotted as follows:
+to the y-coordinate. For example, the complex numbers 2 + 2.5, 1  ---  3i, =3  ---  2i,
+and  --- 3.5 + 1.5/ can be plotted as follows:
 
 Imaginary
 axis
@@ -24797,12 +23154,12 @@ number by each term of the second and then summing the products:
 (3-2i) x (1.5 +30) = (3 x 1.5) + (3 30) + (-2 X 1.5) + (-2i x 3i)
 =4.5+9i-3i-6"=105+6i
 
-Note that the identity i*=—1 is used to simplify the result.
+Note that the identity i*= --- 1 is used to simplify the result.
 
 Dividing complex numbers is a bit harder. First, we need the concept of the
 complex conjugate of a number, which is found by switching the sign of the num-
 ber's imaginary part. For example, 7 - 4i is the conjugate of 7 + 4, and 7 + 4i is the
-conjugate of 7 — 4i. We'll use 2* to denote the conjugate of 4 complex number z.
+conjugate of 7  ---  4i. We'll use 2* to denote the conjugate of 4 complex number z.
 
 The quotient of two complex numbers y and z is given by the formula
 
@@ -24984,7 +23341,7 @@ available as a backup. If the name I causes a conflict, it can always be undefin
 #include <complex.h>
 #undef I
 
-The programmer might then define a different—but still short—name for i, such as
+The programmer might then define a different --- but still short --- name for i, such as
 J:
 
 #define J _Complex I
@@ -25005,8 +23362,8 @@ The <complex.h> header provides a pragma named CX_LIMITED_ RANGE
 that allows the compiler to use the following standard formulas for multiplication,
 division, and absolute value:
 
-(a+bi)x(c+di) = (ac— bd) + (be + ad)i
-(a+bi)/(c+di) = [(ac+bd) + (b —ad)i] /(2 +d?)
+(a+bi)x(c+di) = (ac ---  bd) + (be + ad)i
+(a+bi)/(c+di) = [(ac+bd) + (b  --- ad)i] /(2 +d?)
 
 la+bil = Ja?+b2
 
@@ -25156,7 +23513,7 @@ long double complex ctanhl(long double complex z);
 
 The cacosh function computes the complex arc hyperbolic cosine, with a branch
 cut at values less than 1 along the real axis. The return value lies in a half-strip of
-nonnegative values along the real axis and in the interval [—ir, +in] along the imag-
+nonnegative values along the real axis and in the interval [ --- ir, +in] along the imag-
 inary axis.
 
 The casinh function computes the complex arc hyperbolic sine, with branch
@@ -25783,7 +24140,7 @@ ronment from the processor and store it in the object pointed to by envp.
 feholdexcept The feholdexcept function (1) stores the current floating-point environ-
 
 ment in the object pointed to by envp, (2) clears the floating-point status flags,
-and (3) attempts to install a non-stop mode—if available—for all floating-point
+and (3) attempts to install a non-stop mode --- if available --- for all floating-point
 exceptions (so that future exceptions won't cause a trap or stop).
 fesetenv The fesetenv function attempts to establish the floating-point environment
 
@@ -25806,7 +24163,7 @@ Q: Ifthe <inttypes.h> header includes the <stdint .h> header, why do we
 need the <stdint.h> header at all? [p. 709]
 A:  The primary reason that <stdint . h> exists as a separate header is so that pro-
 imglementation >14.3  grams in a freestanding implementation may include it. (C99 requires conforming
-implementations—both hosted and freestanding—io provide the <stdint.hs>
+implementations --- both hosted and freestanding --- io provide the <stdint.hs>
 header, but <inttypes.h> is required only for hosted implementations.) Even
 in a hosted environment, it may be advantageous to include <stdint.h> rather
 than <inttypes . h> to avoid defining all the macros that belong to the latter.
@@ -25952,7 +24309,7 @@ and c).
 (b) Have the program test the discriminant before displaying the values of the roots. If the
 discriminant is negative, have the program display the roots in the same way as before. If it's
 nonnegative, have the program display the roots as real numbers (without an imaginary part).
-For example, if the quadratic equation is ¥' + x —2 = 0, the output of the program would b
+For example, if the quadratic equation is ¥' + x  --- 2 = 0, the output of the program would b
 
 rootl = 1
 root2 = -2
@@ -25962,7 +24319,7 @@ root2 = -2
 Chapter 27  Additional C99 Support for Mathematics
 
 () Modify the program so that it displays a complex number with a ncgative imaginary
-part as @ — bi instead of @ + —bi. For example, the output of the program with the original
+part as @  ---  bi instead of @ +  --- bi. For example, the output of the program with the original
 coefficients would be
 
 rootl = -0.2 + 0.41
@@ -26295,7 +24652,7 @@ C99 allows the last member of a structure to be an array of unspecified length.
 Declarations
 
 In C99. selection statements (i f and switch) and iteration statements (while,
-do, and for)—along with the "inner" statements that they control—are consid-
+do, and for) --- along with the "inner" statements that they control --- are consid-
 ered to be blocks.
 
 In C89, a brace-enclosed initializer for an array, structurc, or union must contain
@@ -26622,7 +24979,7 @@ Strings
 In K&R C, adjacent string literals aren't concatenated. Also, K&R C doesn't pro-
 hibit the modification of string literals.
 
-In K&R C, an initializer for a character array of length # is limited to 7 — 1 charac-
+In K&R C, an initializer for a character array of length # is limited to 7  ---  1 charac-
 ters (leaving room for a null character at the end). C89 allows the initializer to have
 length n.
 
@@ -26805,8 +25162,8 @@ asin ArcSine <math.h>
 double asin(double x);
 asinf float asinf (float x);
 asinl long double asinl(long double Xx);
-Returns  Arc sine of x; the return value is in the range —1/2 to +7/2. A domain error occurs
-if x isn't between —1 and +1. 23.3
+Returns  Arc sine of x; the return value is in the range  --- 1/2 to +7/2. A domain error occurs
+if x isn't between  --- 1 and +1. 23.3
 asinh ArcHyperbolic Sine (C99) <math.h>
 double asinh(double x);
 asinhf float asinhf (float x);
@@ -26831,21 +25188,21 @@ atanf float atanf (float x);
 Appendix D Standard Library Functions
 
 atanl long double atanl(long double x);
-Returns  Arc tangent of x: the return value is in the range —m/2 to +m/2. 233
+Returns  Arc tangent of x: the return value is in the range  --- m/2 to +m/2. 233
 atan2 Arc Tangent of Quotient <math.h>
 double atan2 (double y, double x);
 atan2f float atan2f(float y, float x);
 atan2l long double atan2l (long double y, long double x);
-Returns ~ Arc tangent of y/x: the return value is in the range —7 to +7. A domain error may
+Returns ~ Arc tangent of y/x: the return value is in the range  --- 7 to +7. A domain error may
 oceur if x and y are both zero. 23,3
 atanh Arc Hyperbolic Tangent (C99) <math.h>
 double atanh(double x) ;
 atanhf float atanhf (float x);
 atanhl long double atanhl (long double x);
 
-Returns  Arc hyperbolic tangent of x. A domain error occurs if x is not between —1 and +1.
+Returns  Arc hyperbolic tangent of x. A domain error occurs if x is not between  --- 1 and +1.
 
-A range error may occur if x is equal to —1 or +1. 234
+A range error may occur if x is equal to  --- 1 or +1. 234
 atexit Register Function to Be Called at Program Exit <stdlib.h>
 
 int atexit(void (*func) (void));
@@ -27135,7 +25492,7 @@ erfc Complementary Error Function (C99) <math.h>
 double erfc(double x);
 erfcf float erfcf(float x);
 erfcl long double erfcl(long double x);
-Returns  erfc(x) = | — erf(x), where erf is the Gaussian error function. A Tange error 0ccurs
+Returns  erfc(x) = |  ---  erf(x), where erf is the Gaussian error function. A Tange error 0ccurs
 
 if x is too large. 234
 Appendix D Standard Library Functions 757
@@ -27297,7 +25654,7 @@ Appendix D Standard Library Functions 761
 
 Reads characters from the stream pointed to by stream and stores them in the
 array pointed (o by s. Reading stops at the first new-line character (which is stored
-in the string), when n — | characters have been read, or at end-of-file. fgets
+in the string), when n  ---  | characters have been read, or at end-of-file. fgets
 appends a null character to the string,
 
 Returns s (a pointer to the array in which the input is stored). Returns a null pointer if a
@@ -27800,7 +26157,7 @@ zero otherwise. 256
 
 isxdigit Test for Hexadecimal Digit <ctype.h>
 int isxdigit(int c);
-Returns A nonzero value if c is a hexadecimal digit (0-9, a—f, A-F) and zero otherwisc.
+Returns A nonzero value if c is a hexadecimal digit (0-9, a --- f, A-F) and zero otherwisc.
 235
 labs Long Integer Absolute Value <stdlib.h>
 long int labs(long int j);
@@ -27884,8 +26241,8 @@ loglp Natural Logarithm of 1 Plus Argument (C99) <math.h>
 double loglp (double x) ;
 loglpf float loglpf (float x);
 loglpl 1long double loglpl (long double x);
-Returns  Logarithm of 1 + x to the base e. A domain error occurs if x is less than —1. A
-range error may occur if x is equal to —1. 234
+Returns  Logarithm of 1 + x to the base e. A domain error occurs if x is less than  --- 1. A
+range error may occur if x is equal to  --- 1. 234
 log2 Base-2 Logarithm (C99) <math.h>
 double log2(double x);
 log2f float log2f (float x);
@@ -27935,10 +26292,10 @@ int wmblen(const char *s, size t n);
 Returns  If s is a null pointer, returns a nonzero or zero value, depending on whether or not
 multibyte characters have state-dependent encodings. If s points to a null charac-
 ter, returns zero. Otherwise, returns the number of bytes in the multibyte character
-pointed to by s; returns —1 if the next n or fewer bytes don't form a valid multibyte
+pointed to by s; returns  --- 1 if the next n or fewer bytes don't form a valid multibyte
 character. 252
 
-mbrlen Length of Multibyte Character — Restartable (C99) <wchar.h>
+mbrlen Length of Multibyte Character  ---  Restartable (C99) <wchar.h>
 size t mbrlen(const char * restrict s, size t n,
 
 mbstate t * restrict ps);
@@ -27951,7 +26308,7 @@ cxcept that if ps is a null pointer, the address of an internal object is used i
 
 Returns  See mbrtowc. 255
 
-mbrtowc Convert Multibyte Character to Wide Character — Restartable <wchar.h>
+mbrtowc Convert Multibyte Character to Wide Character  ---  Restartable <wchar.h>
 
 (C99)
 
@@ -27996,7 +26353,7 @@ mbsrtowcs
 
 Returns
 
-Convert Multibyte String to Wide String — Restartable (C99) <wchar.h>
+Convert Multibyte String to Wide String  ---  Restartable (C99) <wchar.h>
 
 size t mbsrtowcs(wchar t * restrict dst,
 const char ** restrict src,
@@ -28010,7 +26367,7 @@ store the conversion state. If dst isn't a null pointer, the converted character
 stored in the array that it points to. Conversion continues up (o and including a ter-
 minating null character, which is also stored. Conversion stops earlier if a
 sequence of bytes is encountered that doesn't form a valid multibyte character
-or if dst isn't a null pointer—when len wide characters have been stored in
+or if dst isn't a null pointer --- when len wide characters have been stored in
 the array. If dst isn't a null pointer, the object pointed to by src is assigned
 either a null pointer (if a terminating null character was reached) or the address
 just past the last multibyte character converted (if any). If the conversion ends at a
@@ -28058,7 +26415,7 @@ to by pwe.
 If s is a null pointer, returns a nonzero or zero value, depending on whether or not
 multibyte characters have state-dependent encodings. If s points to a null charac-
 ter, returns zero. Otherwise, returns the number of bytes in the multibyte character
-pointed to by s; returns —1 if the next 1 or fewer bytes don't form a valid multibyte
+pointed to by s; returns  --- 1 if the next 1 or fewer bytes don't form a valid multibyte
 character. 252
 
 memchr
@@ -28252,8 +26609,8 @@ double remainder(double x, double y);
 float remainderf (float x, float y);
 
 remainderl long double remainderl (long double x, long double y);
-Returns  x — ny. where n is the integer nearest the exact value of x/y. (If x/y is halfway
-between two integers, n is even.) If x — ny = 0, the return value has the same sign
+Returns  x  ---  ny. where n is the integer nearest the exact value of x/y. (If x/y is halfway
+between two integers, n is even.) If x  ---  ny = 0, the return value has the same sign
 as x. If y is zero, either a domain error occurs or zero is returned. 234
 remove Remove File <stdio.h>
 int remove(const char *filename) ;
@@ -28390,7 +26747,7 @@ snprintf Bounded Formatted Stiing Write (C99) <stdio.h>
 int snprintf (char * restrict s, size t n,
 const char * restrict format, ...);:
 Equivalent to fprintf, but stores characters in the array pointed to by s instead
-of writing them to a stream. No more than n — 1 characters will be written to the
+of writing them to a stream. No more than n  ---  1 characters will be written to the
 array. The string pointed to by format specifies how subsequent arguments will
 be displayed. Stores a null character in the array at the end of output.
 Returns  Number of characters that would have been stored in the array (not including the
@@ -28779,7 +27136,7 @@ strxfrm Transform String <string.h>
 size t strxfrm(char * restrict si,
 const char * restrict s2, size t n);
 Transforms the string pointed to by s2, placing the first n characters of the
-result—including the null character—in the array pointed to by s1. Calling
+result --- including the null character --- in the array pointed to by s1. Calling
 stremp with two transformed strings should produce the same outcome (nega-
 tive, zero, or positive) as calling strcoll with the original strings. If n is zero,
 s1 is allowed to be a null pointer.
@@ -29003,7 +27360,7 @@ List (C99)
 int vwscanf (const wchar t * restrict format,
 va_list arg);
 Wide-character version of vecant. 255
-wertomb Convert Wide Character to Multibyte Character — Restartable <wchar . h>
+wertomb Convert Wide Character to Multibyte Character  ---  Restartable <wchar . h>
 
 (C99)
 
@@ -29080,7 +27437,7 @@ Wide-character version of strpbrk. 255
 weszrchr Search Wide String in Reverse for Character (C99) <wchar.h>
 wchar t *wcsrchr (const wchar t *s, wchar t c);
 Wide-character version of strrchr. 255
-wcsrtombs Convert Wide String to Multibyte String — Restartable (C99)  <wchar.h>
+wcsrtombs Convert Wide String to Multibyte String  ---  Restartable (C99)  <wchar.h>
 
 size t wcsrtombs (char * restrict dst,
 congt wchar_t ** restrict src,
@@ -29094,7 +27451,7 @@ weertombs uses an internal object to store the conversion state. If dst isn't a
 null pointer, the converted characters are then stored in the array pointed to by
 dst. Conversion continues up to and including a terminating null wide character,
 which is also stored. Conversion stops earlier if a wide character is reached that
-doesn't correspond to a valid multibyte character or—if dst isn't a null pointer—
+doesn't correspond to a valid multibyte character or --- if dst isn't a null pointer --- 
 Appendix D Standard Library Functions 797
 
 when the next multibyte character would exceed the limit of 1en total bytes to be
@@ -29221,7 +27578,7 @@ pointer, stores the result in the array that & points to.
 
 Returns  If & is a null pointer, returns a nonzero or zero value, depending on whether or not
 multibyte characters have state-dependent encodings. Otherwise, returns the num-
-ber of bytes in the multibyte character that corresponds to we; returns —1 if we
+ber of bytes in the multibyte character that corresponds to we; returns  --- 1 if we
 doesn't correspond to a valid multibyte character. 252
 
 wctrans Define Wide-Character Mapping (C99) <wetype.h>
@@ -29318,16 +27675,16 @@ the best book on anything for the layman.
 C Programming
 
 Feuer, A. R., The C Puzzle Book, Revised Printing, Addison-Wesley, Reading,
-Mass., 1999. Contains numerous "puzzles"—small C programs whose output
+Mass., 1999. Contains numerous "puzzles" --- small C programs whose output
 the reader is asked to predict. The book shows the correct output of each pro-
 gram and provides a detailed explanation of how it works. Good for testing
 your C knowledge and reviewing the fine points of the language.
 
 Harbison, S. P, III, and G. L. Steele, Jr., C: A Reference Manual, Fifth Edition,
-Prentice-Hall, Upper Saddle River, N.J., 2002. The ultimate C reference—
+Prentice-Hall, Upper Saddle River, N.J., 2002. The ultimate C reference --- 
 essential reading for the would be C expert. Covers both C89 and C99 in con-
 siderable detail, with frequent discussions of implementation differences
-found in C compilers. Not a tutorial—assumes that the reader is already well
+found in C compilers. Not a tutorial --- assumes that the reader is already well
 versed in C.
 
 Kernighan, B. W, and D. M. Ritchie, The C Programming Language, Second Edi-
@@ -29364,7 +27721,7 @@ sharing system: the C programming language, Bell System Technical Journal
 57, 6 (July-August 1978), 1991-2019. A famous article that discusses the
 origins of C and describes the language as it looked in 1978.
 
-Rosler, L., The UNIX system: the evolution of C—past and future, AT&T Bell
+Rosler, L., The UNIX system: the evolution of C --- past and future, AT&T Bell
 Laboratories Technical Journal 63, 8 (October 1984), 1685-1699. Traces the
 evolution of C from 1978 to 1984 and beyond.
 

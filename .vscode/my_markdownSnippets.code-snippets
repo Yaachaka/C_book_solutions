@@ -96,13 +96,13 @@
 		"scope": "markdown, md, MarkDown, MD",
 		"prefix": ["md-div", "..md-div"],
 		"body": [
-			"<!-- START: div -->",
+			"<!-- START: div: $1 -->",
 			"<div class=\"$1\">",
 			"",
 			"$2",
 			"",
 			"</div>",
-			"<!-- END: div -->",
+			"<!-- END: div: $1 -->",
 			""
 		],
 		"description": ["Markdown div in HTML style with placeholder for class"]

@@ -8,23 +8,1750 @@ C (KNK) - Current Chapter
 <link rel="stylesheet" href="./myStyle.css">
 </head>
 <body>
-<h1 id="section">13</h1>
+<h1 id="strings">13 Strings</h1>
 <!-- START: div -->
 <div class="theQuote">
-
+<p>It’s difficult to extract sense from strings, but they’re the only
+communication coin we can count on.</p>
 </div>
 <!-- END: div -->
+<p>Although we’ve used <code>char</code> variables and arrays of
+<code>char</code> values in previous chapters, we still lack any
+convenient way to process a series of characters (a <em>string</em>, in
+C terminology). We’ll remedy that defect in this chapter, which covers
+both string <em>constants</em> (or <em>literals</em>, as they’re called
+in the C standard) and string <em>variables</em>, which can change
+during the execution of a program.</p>
+<p>Section 13.1 explains the rules that govern string literals,
+including the rules for embedding escape sequences in string literals
+and for breaking long string literals. Section 13.2 then shows how to
+declare string variables, which are simply arrays of characters in which
+a special character—the null character—marks the end of a string.
+Section 13.3 describes ways to read and write strings. Section 13.4
+shows how to write functions that process strings, and Section 13.5
+covers some of the string-handling functions in the C library. Section
+13.6 presents idioms that are often used when working with strings.
+Finally, Section 13.7 describes how to set up arrays whose elements are
+pointers to strings of different lengths. This section also explains how
+C uses such an array to supply command-line information to programs.</p>
+<h2 id="string-literals">13.1 String Literals</h2>
+<p>A <strong><em>string literal</em></strong> is a sequence of
+characters enclosed within double quotes:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;When you come to a fork in the road, take it.&quot;</span></span></code></pre></div>
+<p>We first encountered string literals in Chapter 2: they often appear
+as format strings in calls of <code>printf</code> and
+<code>scanf</code>.</p>
+<h3 id="escape-sequences-in-string-literals">13.1.1 Escape Sequences in
+String Literals</h3>
+<p>String literals may contain the same escape sequences as character
+constants. We’ve used character escapes in <code>printf</code> and
+<code>scanf</code> format strings for some time. For example, we’ve seen
+that each <code>\n</code> character in the string</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Candy</span><span class="sc">\n</span><span class="st">Is dandy</span><span class="sc">\n</span><span class="st">But liquor</span><span class="sc">\n</span><span class="st">Is quicker.</span><span class="sc">\n</span><span class="st">  --Ogden Nash</span><span class="sc">\n</span><span class="st">&quot;</span></span></code></pre></div>
+<p>causes the cursor to advance to the next line:</p>
+<pre><code>Candy
+Is dandy
+But liquor
+Is quicker.
+  --Ogden Nash</code></pre>
+<p>Although octal and hexadecimal escapes are also legal in string
+literals, they’re not as common as character escapes.</p>
+<!-- START: div: infoBox -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p><span class="QandA"></span></p>
+<p>Be careful when using octal and hexadecimal escape sequences in
+string literals. An octal escape ends after three digits or with the
+first non-octal character. For example, the string <code>"\1234"</code>
+contains two characters (<code>\123</code> and <code>4</code>), and the
+string <code>"\189"</code> contains three characters (<code>\1</code>,
+<code>8</code>, and <code>9</code>). A hexadecimal escape, on the other
+hand, isn’t limited to three digits; it doesn’t end until the first
+non-hex character. Consider what happens if a string contains the escape
+<code>\xfc</code>, which represents the character <em>ü</em> in the
+Latin character set, a common extension of ASCII. The string
+<code>"Z\xfcrich"</code> (“Zürich”) has six characters (<code>Z</code>,
+<code>\xfe</code>, <code>r</code>, <code>i</code>, <code>c</code>, and
+<code>h</code>), but the string <code>"\xfcber"</code> (a failed attempt
+at “über”) has only two (<code>\xfcbe</code> and <code>r</code>). Most
+compilers will object to the latter string, since hex escapes are
+usually limited to the range <code>\x0</code>-<code>\xff</code>.</p>
+</div>
+<!-- END: div: infoBox -->
+<h3 id="continuing-a-string-literal">13.1.2 Continuing a String
+Literal</h3>
+<p>If we find that a string literal is too long to fit conveniently on a
+single line, C allows us to continue it on the next line, provided that
+we end the first line with a backslash character (<code>\</code>). No
+other characters may follow <code>\</code> on the same line, other than
+the (invisible) new-line character at the end:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;When you come to a fork in the road, take it.  \</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="st">--Yogi Berra&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>In general, the <code>\</code> character can be used to join two or
+more lines of a program into a single line (a process that the C
+standard refers to as “splicing”). We’ll see more examples of splicing
+in Section 14.3.</p>
+<p>The <code>\</code> technique has one drawback: the string must
+continue at the beginning of the next line, thereby wrecking the
+program’s indented structure. There’s a better way to deal with long
+string literals, thanks to the following rule: when two or more string
+literals are adjacent (separated only by white space), the compiler will
+join them into a single string. This rule allows us to split a string
+literal over two or more lines:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>printf <span class="op">(</span><span class="st">&quot;when you come to a fork in the road, take it. &quot;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;--Yogi Berra&quot;</span><span class="op">);</span></span></code></pre></div>
+<h3 id="how-string-literals-are-stored">13.1.3 How String Literals Are
+Stored</h3>
+<p>We’ve used string literals often in calls of <code>printf</code> and
+<code>scanf</code>. But when we call <code>printf</code> and supply a
+string literal as an argument, what are we actually passing? To answer
+this question, we need to know how string literals are stored.</p>
+<p>In essence, C treats string literals as character arrays. When a C
+compiler encounters a string literal of length <code>n</code> in a
+program, it sets aside <code>n + 1</code> bytes of memory for the
+string. This area of memory will contain the characters in the string,
+plus one extra character—the null character—to mark the end of the
+string. The null character is a byte whose bits are all zero, so it’s
+represented by the <code>\0</code> escape sequence.</p>
+<!-- START: div: infoBox -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Don’t confuse the null character (<code>'\0'</code>) with the zero
+character (<code>'0'</code>). The null character has the code
+<code>0</code>; the zero character has a different code (<code>48</code>
+in ASCII).</p>
+</div>
+<!-- END: div: infoBox -->
+<p>For example, the string literal <code>"abc"</code> is stored as an
+array of four characters (<code>a</code>, <code>b</code>,
+<code>c</code>, and <code>\0</code>):</p>
+<p><img src="./images/cknkCh13Sec13p1p3_1.png" alt="cknkCh13Sec13p1p3_1.png"/></p>
+<p>String literals may be empty; the string <code>""</code> is stored as
+a single null character:</p>
+<p><img src="./images/cknkCh13Sec13p1p3_2.png" alt="cknkCh13Sec13p1p3_2.png"/></p>
+<p>Since a string literal is stored as an array, the compiler treats it
+as a pointer of type <code>char *</code>. Both <code>printf</code> and
+<code>scanf</code>, for example, expect a value of type
+<code>char *</code> as their first argument. Consider the following
+example:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;abc&quot;</span><span class="op">)</span> <span class="op">;</span></span></code></pre></div>
+<p>When <code>printf</code> is called, it’s passed the address of
+<code>"abc"</code> (a pointer to where the letter <code>a</code> is
+stored in memory).</p>
+<h3 id="operations-on-string-literals">13.1.4 Operations on String
+Literals</h3>
+<p>In general, we can use a string literal wherever C allows a
+<code>char *</code> pointer. For example, a string literal can appear on
+the right side of an assignment:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>p<span class="op">;</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> <span class="st">&quot;abc&quot;</span><span class="op">;</span></span></code></pre></div>
+<p>This assignment doesn’t copy the characters in <code>"abc"</code>; it
+merely makes <code>p</code> point to the first character of the
+string.</p>
+<p>C allows pointers to he subscripted, so we can subscript string
+literals:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> ch<span class="op">;</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> <span class="st">&quot;abc&quot;</span><span class="op">[</span><span class="dv">1</span><span class="op">];</span></span></code></pre></div>
+<p>The new value of <code>ch</code> will be the letter <code>b</code>.
+The other possible subscripts are 0 (which would select the letter
+<code>a</code>), 2 (the letter <code>c</code>), and 3 (the null
+character). This property of string literals isn’t used that much, but
+occasionally it’s handy. Consider the following function, which converts
+a number between 0 and 15 into a character that represents the
+equivalent hex digit:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> digit_to_hex_char<span class="op">(</span><span class="dt">int</span> digit<span class="op">)</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">&quot;0123456789ABCDEF&quot;</span><span class="op">[</span>digit<span class="op">];</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<!-- START: div: infoBox -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Attempting to modify a string literal causes undefined behavior:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>p <span class="op">=</span> <span class="st">&quot;abc&quot;</span><span class="op">;</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="op">*</span>p <span class="op">=</span> <span class="ch">&#39;d&#39;</span><span class="op">;</span> <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p>A program that tries to change a string literal may crash or behave
+erratically.</p>
+</div>
+<!-- END: div: infoBox -->
+<h3 id="string-literals-versus-character-constants">13.1.5 String
+Literals versus Character Constants</h3>
+<p>A string literal containing a single character isn’t the same as a
+character constant. The string literal <code>"a"</code> is represented
+by a pointer to a memory location that contains the character
+<code>a</code> (followed by a null character). The character constant
+<code>'a'</code> is represented by an integer (the numerical code for
+the character).</p>
+<!-- START: div: infoBox -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Don’t ever use a character when a string is required (or vice versa).
+The call</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">)</span> <span class="op">;</span></span></code></pre></div>
+<p>is legal, because <code>printf</code> expects a pointer as its first
+argument. The following call isn’t legal, however:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="ch">&#39;\n&#39;</span><span class="op">);</span> <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+</div>
+<!-- END: div: infoBox -->
+<h2 id="string-variables">13.2 String Variables</h2>
+<p>Some programming languages provide a special <code>string</code> type
+for declaring string variables. C takes a different tack: any
+one-dimensional array of characters can be used to store a string, with
+the understanding that the string is terminated by a null character.
+This approach is simple. but has significant difficulties. It’s
+sometimes hard to tell whether an array of characters is being used as a
+string. If we write our own string-handling functions, we’ve got to be
+careful that they deal properly with the null character. Also, there’s
+no faster way to determine the length of a string than a
+character-by-character search for the null character.</p>
+<p>Let’s say that we need a variable capable of storing a string of up
+to 80 characters. Since the string will need a null character at the
+end, we’ll declare the variable to be an array of 81 characters:</p>
+<p><strong>idiom</strong></p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define STR_LEN 80</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> str<span class="op">[</span>STR_LEN <span class="op">+</span> <span class="dv">1</span><span class="op">]</span> <span class="op">;</span></span></code></pre></div>
+<p>We defined <code>STR_LEN</code> to be 80 rather than 81, thus
+emphasizing the fact that <code>str</code> can store strings of no more
+than 80 characters, and then added 1 to <code>STR_LEN</code> in the
+declaration of <code>str</code>. This is a common practice among C
+programmers.</p>
+<!-- START: div: infoBox -->
+<div class="infoBox">
+<p>When declaring an array of characters that will be used to hold a
+string, always make the array one character longer than the string,
+because of the C convention that every string is terminated by a null
+character. Failing to leave room for the null character may cause
+unpredictable results when the program is executed, since functions in
+the C library assume that strings are null-terminated.</p>
+</div>
+<!-- END: div: infoBox -->
+<p>Declaring a character array to have length <code>STR_LEN + 1</code>
+doesn’t mean that it will always contain a string of
+<code>STR_LEN</code> characters. The length of a string depends on the
+position of the terminating null character, not on the length of the
+array in which the string is stored. An array of
+<code>STR_LEN + 1</code> characters can hold strings of various lengths,
+ranging from the empty string to strings of length
+<code>STR_LEN</code>.</p>
+<h3 id="initializing-a-string-variable">13.2.1 Initializing a String
+Variable</h3>
+<p>A string variable can be initialized at the same time it’s
+declared:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> date1<span class="op">[</span><span class="dv">8</span><span class="op">]</span> <span class="op">=</span> <span class="st">&quot;June 14&quot;</span><span class="op">;</span></span></code></pre></div>
+<p>The compiler will put the characters from <code>"June 14"</code> in
+the <code>date1</code> array, then add a null character so that
+<code>date1</code> can be used as a string, Here’s what
+<code>date1</code> will look like:</p>
+<p><img src="./images/cknkCh13Sec13p2p1_1.png" alt="cknkCh13Sec13p2p1_1.png"/></p>
+<p>Although <code>"June 14"</code> appears to be a string literal, it’s
+not. Instead, C views it as an abbreviation for an array initializer. In
+fact, we could have written</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> date1<span class="op">[</span><span class="dv">8</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="ch">&#39;J&#39;</span><span class="op">,</span> <span class="ch">&#39;u&#39;</span><span class="op">,</span> <span class="ch">&#39;n&#39;</span><span class="op">,</span> <span class="ch">&#39;e&#39;</span><span class="op">,</span> <span class="ch">&#39; &#39;</span><span class="op">,</span> <span class="ch">&#39;1&#39;</span><span class="op">,</span> <span class="ch">&#39;4&#39;</span><span class="op">,</span> <span class="ch">&#39;\0&#39;</span><span class="op">};</span></span></code></pre></div>
+<p>I think you’ll agree that the original version is easier to read.</p>
+<p>What if the initializer is too short to fill the string variable? In
+that case, the compiler adds extra null characters. Thus, after the
+declaration</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> date2<span class="op">[</span><span class="dv">9</span><span class="op">]</span> <span class="op">=</span> <span class="st">&quot;June 14&quot;</span><span class="op">;</span></span></code></pre></div>
+<p><code>date2</code> will have the following appearance:</p>
+<p><img src="./images/cknkCh13Sec13p2p1_2.png" alt="cknkCh13Sec13p2p1_2.png"/></p>
+<p>This behavior is consistent with C’s treatment of array initializers
+in general. When an array initializer is shorter than the array itself,
+the remaining elements are initialized to zero. By initializing the
+leftover elements of a character array to <code>\0</code>, the compiler
+is following the same rule.</p>
+<p>What if the initializer is longer than the string variable? That’s
+illegal for strings, just as it’s illegal for other arrays. However, C
+does allow the initializer (not counting the null character) to have
+exactly the same length as the variable;</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> date3<span class="op">[</span><span class="dv">7</span><span class="op">]</span> <span class="op">=</span> <span class="st">&quot;June 14&quot;</span><span class="op">;</span></span></code></pre></div>
+<p>There’s no room for the null character, so the compiler makes no
+attempt to store one:</p>
+<p><img src="./images/cknkCh13Sec13p2p1_3.png" alt="cknkCh13Sec13p2p1_3.png"/></p>
+<!-- START: div: infoBox -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>If you’re planning to initialize a character array to contain a
+string, be sure that the length of the array is longer than the length
+of the initializer. Otherwise, the compiler will quietly omit the null
+character, making the array unusable as a string.</p>
+</div>
+<!-- END: div: infoBox -->
+<p>The declaration of a string variable may omit its length, in which
+case the compiler computes it:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> date4<span class="op">[]</span> <span class="op">=</span> <span class="st">&quot;June 14&quot;</span><span class="op">;</span></span></code></pre></div>
+<p>The compiler sets aside eight characters for <code>date4</code>,
+enough to store the characters in <code>"June 14"</code> plus a null
+character. (The fact that the length of <code>date4</code> isn’t
+specified doesn’t mean that the array’s length can be changed later.
+Once the program is compiled, the length of <code>date4</code> is fixed
+at eight.) Omitting the length of a string variable is especially useful
+if the initializer is long, since computing the length by hand is
+error-prone.</p>
+<h3 id="character-arrays-versus-character-pointers">13.2.2 Character
+Arrays versus Character Pointers</h3>
+<p>Let’s compare the declaration</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> date<span class="op">[]</span> <span class="op">=</span> <span class="st">&quot;June 14&quot;</span><span class="op">;</span></span></code></pre></div>
+<p>which declares <code>date</code> to be an array, with the
+similar-looking</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>date <span class="op">=</span> <span class="st">&quot;June 14&quot;</span><span class="op">;</span></span></code></pre></div>
+<p>which declares <code>date</code> to be a pointer. Thanks to the close
+relationship between arrays and pointers, we can use either version of
+<code>date</code> as a stiing. In particular, any function expecting to
+be passed a character array or character pointer will accept either
+version of <code>date</code> as an argument.</p>
+<p>However, we must be careful not to make the mistake of thinking that
+the two versions of <code>date</code> are interchangeable. There are
+significant differences between the two:</p>
+<ul>
+<li>In the array version, the characters stored in <code>date</code> can
+be modified, like the elements of any array. In the pointer version,
+<code>date</code> points to a string literal, and we saw in Section 13.1
+that string literals shouldn’t be modified.<br />
+</li>
+<li>In the array version, <code>date</code> is an array name. In the
+pointer version, <code>date</code> is a variable that can be made to
+point to other strings during program execution.</li>
+</ul>
+<p>If we need a string that can be modified, it’s our responsibility to
+set up an array of characters in which to store the string: declaring a
+pointer variable isn’t enough. The declaration</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>p<span class="op">;</span></span></code></pre></div>
+<p>causes the compiler to set aside enough memory for a pointer
+variable; unfortunately. it doesn’t allocate space for a string. (And
+how could it? We haven’t indicated how long the string would be.) Before
+we can use <code>p</code> as a string, it must point to an array of
+characters. One possibility is to make <code>p</code> point to a string
+variable:</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> str<span class="op">[</span>STR_LEN<span class="op">+</span><span class="dv">1</span><span class="op">],</span> <span class="op">*</span>p<span class="op">;</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> str<span class="op">;</span></span></code></pre></div>
+<p><code>p</code> now points to the first character of <code>str</code>,
+so we can use <code>p</code> as a string. Another possibility is to make
+<code>p</code> point to a dynamically allocated string.</p>
+<!-- START: div: infoBox -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Using an uninitialized pointer variable as a string is a serious
+error. Consider the following example, which attempts to build the
+string <code>"abc"</code>:</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>p<span class="op">;</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>p<span class="op">[</span><span class="dv">0</span><span class="op">]</span> <span class="op">=</span> <span class="ch">&#39;a&#39;</span><span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>p<span class="op">[</span><span class="dv">1</span><span class="op">]</span> <span class="op">=</span> <span class="ch">&#39;b&#39;</span><span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>p<span class="op">[</span><span class="dv">2</span><span class="op">]</span> <span class="op">=</span> <span class="ch">&#39;c&#39;</span><span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>p<span class="op">[</span><span class="dv">3</span><span class="op">]</span> <span class="op">=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>Since <code>p</code> hasn’t heen initialized, we don’t know where
+it’s pointing. Using the pointer to write the characters <code>a</code>,
+<code>b</code>, <code>c</code>, and <code>\0</code> into memory causes
+undefined behavior.</p>
+</div>
+<!-- END: div: infoBox -->
+<h2 id="reading-and-writing-strings">13.3 Reading and Writing
+Strings</h2>
+<p>Writing a string is easy using either the <code>printf</code> or
+<code>puts</code> functions. Reading a string is a bit harder, primarily
+because of the possibility that the input string may be longer than the
+string variable into which it’s being stored. To read a string in a
+single step, we can use either <code>scanf</code> or <code>gets</code>.
+As an alternative, we can read strings one character at a time.</p>
+<h3 id="writing-strings-using-printf-and-puts">13.3.1 Writing Strings
+Using <code>printf</code> and <code>puts</code></h3>
+<p>The <code>%s</code> conversion specification allows
+<code>printf</code> to write a string. Consider the following
+example:</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> str<span class="op">[]</span> <span class="op">=</span> <span class="st">&quot;Are we having fun yet?&quot;</span><span class="op">;</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%s</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> str<span class="op">);</span></span></code></pre></div>
+<p>The output will be</p>
+<pre><code>Are we having fun yet?</code></pre>
+<p><code>printf</code> writes the characters in a string one by one
+until it encounters a null character. (If the null character is missing,
+<code>printf</code> continues past the end of the string until —
+eventually — it finds a null character somewhere in memory.)</p>
+<p>To print just part of a string, we can use the conversion
+specification <code>%.ps</code>, where <code>p</code> is the number of
+characters to be displayed. The statement</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;%.6s</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> str<span class="op">);</span></span></code></pre></div>
+<p>will print</p>
+<pre><code>Are we</code></pre>
+<p>A string, like a number, can be printed within a field. The
+<code>%ms</code> conversion will display a string in a field of size
+<code>m</code>. (A string with more than <code>m</code> characters will
+be printed in full, not truncated.) If the string has fewer than
+<code>m</code> characters, it will be right-justified within the field.
+To force left justification instead, we can put a minus sign in front of
+<code>m</code>. The <code>m</code> and <code>p</code> values can be used
+in combination: a conversion specification of the form <code>%.ps</code>
+causes the first <code>p</code> characters of a string to be displayed
+in a field of size <code>m</code>.</p>
+<p><code>printf</code> isn’t the only function that can write strings.
+The C library also provides puts, which is used in the following
+way:</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>puts<span class="op">(</span>str<span class="op">)</span> <span class="op">;</span></span></code></pre></div>
+<p><code>puts</code> has only one argument (the string to be printed).
+After writing the string, <code>puts</code> always writes an additional
+new-line character, thus advancing to the beginning of the next output
+line.</p>
+<h3 id="reading-strings-using-scanf-and-gets">13.3.2 Reading Strings
+Using scanf and gets</h3>
+<p>The <code>%s</code> conversion specification allows
+<code>scanf</code> to read a string into a character array:</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%s&quot;</span><span class="op">,</span> str<span class="op">);</span></span></code></pre></div>
+<p>There’s no need to put the <code>&amp;</code> operator in front of
+<code>str</code> in the call of <code>scanf</code>: like any array name,
+<code>str</code> is treated as a pointer when passed to a function.</p>
+<p>When <code>scanf</code> is called, it skips white space, then reads
+characters and stores them in <code>str</code> until it encounters a
+white-space character. <code>scanf</code> always stores a null character
+at the end of the string.</p>
+<p>A string read using <code>scanf</code> will never contain white
+space. Consequently, <code>scanf</code> won’t usually read a full line
+of input; a new-line character will cause <code>scanf</code> to stop
+reading, but so will a space or tab character. To read an entire line of
+input at a time, we can use <code>gets</code>. Like <code>scanf</code>,
+the <code>gets</code> function reads input characters into an array,
+then stores a null character. In other respects, however,
+<code>gets</code> is somewhat different from <code>scanf</code>:</p>
+<ul>
+<li><code>gets</code> doesn’t skip white space before starting to read
+the string (<code>scanf</code> does).<br />
+</li>
+<li><code>gets</code> reads until it finds a new-line character
+(<code>scanf</code> stops at any whitespace character). Incidentally,
+<code>gets</code> discards the new-line character instead of storing it
+in the array: the null character takes its place.</li>
+</ul>
+<p>To see the difference between <code>scanf</code> and
+<code>gets</code>, consider the following program fragment:</p>
+<div class="sourceCode" id="cb30"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> sentence<span class="op">[</span>SENT_LEN <span class="op">+</span> <span class="dv">1</span><span class="op">];</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span><span class="st">&quot;Enter a sentence:</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%s&quot;</span><span class="op">,</span> sentence<span class="op">);</span></span></code></pre></div>
+<p>Suppose that after the prompt</p>
+<pre><code>Enter a sentence:</code></pre>
+<p>the user enters the line</p>
+<pre><code>To C, or not to C: that is the guestion.</code></pre>
+<p><code>scanf</code> will store the string <code>"To"</code> in
+<code>sentence</code>. The next call of <code>scanf</code> will resume
+reading the line at the space after the word <code>To</code>.</p>
+<p>Now suppose that we replace <code>scanf</code> by
+<code>gets</code>:</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>gets<span class="op">(</span>sentence<span class="op">);</span></span></code></pre></div>
+<p>When the user enters the same input as before, <code>gets</code> will
+store the string</p>
+<div class="sourceCode" id="cb34"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;To C, or not to C: that is the question.&quot;</span></span></code></pre></div>
+<p>in <code>sentence</code>.</p>
+<!-- START: div: infoBox -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>As they read characters into an array, <code>scanf</code> and
+<code>gets</code> have no way to detect when it’s full. Consequently,
+they may store characters past the end of the array, causing undefined
+behavior. <code>scanf</code> can be made safer by using the conversion
+specification <code>%ns</code> instead of <code>%s</code>, where
+<code>n</code> is an integer indicating the maximum number of characters
+to be stored. <code>gets</code>, unfortunately, is inherently unsafe:
+<code>fgets</code> is a much better alternative.</p>
+</div>
+<!-- END: div: infoBox -->
+<h3 id="reading-strings-character-by-character">13.3.3 Reading Strings
+Character by Character</h3>
+<p>Since both <code>scanf</code> and <code>gets</code> are risky and
+insufficiently flexible for many applications, C programmers often write
+their own input functions, By reading strings one character at a time,
+these functions provide a greater degree of control than the standard
+input functions.</p>
+<p>If we decide to design our own input function, we’ll need to consider
+the following issues:</p>
+<ul>
+<li>Should the function skip white space before beginning to store the
+string?<br />
+</li>
+<li>What character causes the function to stop reading: a new-line
+character, any white-space character, or some other character? Is this
+character stored in the string or discarded?<br />
+</li>
+<li>What should the function do if the input string is too long to
+store: discard the extra characters or leave them for the next input
+operation?</li>
+</ul>
+<p>Suppose we need a function that doesn’t skip white-space characters,
+stops reading at the first new-line character (which isn’t stored in the
+string), and discards extra characters. The function might have the
+following prototype:</p>
+<div class="sourceCode" id="cb35"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> read_line<span class="op">(</span><span class="dt">char</span> str<span class="op">[],</span> <span class="dt">int</span> n<span class="op">);</span></span></code></pre></div>
+<p><code>str</code> represents the array into which we’ll store the
+input, and <code>n</code> is the maximum number of characters to be
+read. If the input line contains more than <code>n</code> characters,
+<code>read_line</code> will discard the additional characters. We’ll
+have <code>read_line</code> return the number of characters it actually
+stores in <code>str</code> (a number anywhere from 0 to <code>n</code>).
+We may not always need <code>read_line</code>’s return value, but it
+doesn’t hurt to have it available.</p>
+<p><span class="QandA"></span></p>
+<p><code>read_line</code> consists primarily of a loop that calls
+<code>getchar</code> to read a character and then stores the character
+in <code>str</code>, provided that there’s room left. The loop
+terminates when the new-line character is read. (Strictly speaking, we
+should also have the loop terminate if <code>getchar</code> should fail
+to read a character, but we’ll ignore that complication for now.) Here’s
+the complete definition of <code>read_line</code>:</p>
+<div class="sourceCode" id="cb36"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> read line<span class="op">(</span><span class="dt">char</span> str<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">int</span> ch<span class="op">,</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">while</span><span class="op">((</span>ch <span class="op">=</span> getchar<span class="op">())</span> <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">)</span></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>i <span class="op">&lt;</span> n<span class="op">)</span></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>      str<span class="op">[</span>i<span class="op">++]</span> <span class="op">=</span> ch<span class="op">;</span></span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>  str<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span> <span class="co">/* terminates string */</span></span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> i<span class="op">;</span> <span class="co">/* number of characters stored */</span></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Note that <code>ch</code> has <code>int</code> type rather than
+<code>char</code> type, because <code>getchar</code> returns the
+character that it reads as an <code>int</code> value.</p>
+<p>Before returning, <code>read_line</code> puts a null character at the
+end of the string. Standard functions such as <code>scanf</code> and
+<code>gets</code> automatically put a null character at the end of an
+input string; if we’re writing our own input function, however, we must
+take on that responsibility.</p>
+<h2 id="accessing-the-characters-in-a-string">13.4 Accessing the
+Characters in a String</h2>
+<p>Since strings are stored as arrays, we can use subscripting to access
+the characters in a string. To process every character in a string
+<code>s</code>, for example, we can set up a loop that increments a
+counter <code>i</code> and selects characters via the expression
+<code>s[i]</code>.</p>
+<p>Suppose that we need a function that counts the number of spaces in a
+string. Using array subscripting, we might write the function in the
+following way:</p>
+<div class="sourceCode" id="cb37"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> count_spaces<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> s<span class="op">[])</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">int</span> count <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> i<span class="op">;</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> s<span class="op">[</span>i<span class="op">]</span> <span class="op">!=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>s<span class="op">[</span>i<span class="op">]</span> <span class="op">==</span> <span class="ch">&#39; &#39;</span><span class="op">)</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>      count<span class="op">++;</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> count<span class="op">;</span></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>I’ve included <code>const</code> in the declaration of <code>s</code>
+to indicate that <code>count_spaces</code> doesn’t change the array that
+<code>s</code> represents. If <code>s</code> were not a string, the
+function would need a second argument specifying the length of the
+array. Since <code>s</code> is a string, however,
+<code>count_spaces</code> can determine where it ends by testing for the
+null character.</p>
+<p>Many C programmers wouldn’t write <code>count_spaces</code> as we
+have. Instead, they’d use a pointer to keep track of the current
+position within the string. As we saw in Section 12.2, this technique is
+always available for processing arrays, but it proves to be especially
+convenient for working with strings.</p>
+<p>Let’s rewrite the <code>count_spaces</code> function using pointer
+arithmetic instead of array subscripting. We’ll eliminate the variable
+<code>i</code> and use <code>s</code> itself to keep track of our
+position in the string. By incrementing <code>s</code> repeatedly,
+<code>count_spaces</code> can step through each character in the string.
+Here’s our new version of the function:</p>
+<div class="sourceCode" id="cb38"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> count_spaces<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s<span class="op">)</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">int</span> count <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> <span class="op">(;</span> <span class="op">*</span>s <span class="op">!=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span> s<span class="op">++)</span></span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(*</span>s <span class="op">==</span> <span class="ch">&#39; &#39;</span><span class="op">)</span></span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>      count<span class="op">++;</span></span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> count<span class="op">;</span></span>
+<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Note that <code>const</code> doesn’t prevent
+<code>count_spaces</code> from modifying <code>s</code>; it’s there to
+prevent the function from modifying what <code>s</code> points to. And
+since <code>s</code> is a copy of the pointer that’s passed to
+<code>count_spaces</code>, incrementing <code>s</code> doesn’t affect
+the original pointer.</p>
+<p>The <code>count_spaces</code> example raises some questions about how
+to write string functions:</p>
+<ul>
+<li><strong><em>Is it better to use array operations or pointer
+operations to access the characters in a string?</em></strong> We’re
+free to use whichever is more convenient; we can even mix the two. In
+the second version of <code>count_spaces</code>, treating <code>s</code>
+as a pointer simplifies the function slightly by removing the need for
+the variable <code>i</code>. Traditionally, C programmers lean toward
+using pointer operations for processing strings.<br />
+</li>
+<li><strong><em>Should a string parameter be declared as an array or as
+a pointer?</em></strong> The two versions of <code>count_spaces</code>
+illustrate the options: the first version declares <code>s</code> to be
+an array; the second declares <code>s</code> to be a pointer. Actually,
+there’s no difference between the two declarations — recall from Section
+12.3 that the compiler treats an array parameter as though it had been
+declared as a pointer.<br />
+</li>
+<li><strong><em>Does the form of the parameter (<code>s[]</code> or
+<code>*s</code>) affect what can be supplied as an
+argument?</em></strong> No. When <code>count_spaces</code> is called,
+the argument could be an array name, a pointer variable, or a string
+literal — <code>count_spaces</code> can’t tell the difference.</li>
+</ul>
+<h2 id="using-the-c-string-library">13.5 Using the C String Library</h2>
+<p>Some programming languages provide operators that can copy strings,
+compare strings, concatenate strings, select substrings, and the like.
+C’s operators, in contrast, are essentially useless for working with
+strings. Strings are treated as arrays in C. so they’re restricted in
+the same ways as arrays — in particular, they can’t be copied or
+compared using operators.</p>
+<!-- START: div: infoBox -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>Direct attempts to copy or compare strings will fail. For example,
+suppose that <code>str1</code> and <code>str2</code> have been declared
+as follows:</p>
+<div class="sourceCode" id="cb39"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> str1<span class="op">[</span><span class="dv">10</span><span class="op">],</span> str2<span class="op">[</span><span class="dv">10</span><span class="op">];</span></span></code></pre></div>
+<p>Copying a string into a character array using the <code>=</code>
+operator is not possible:</p>
+<div class="sourceCode" id="cb40"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>str1 <span class="op">=</span> <span class="st">&quot;abc&quot;</span><span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>str2 <span class="op">=</span> str1<span class="op">;</span>    <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>We saw in Section 12.3 that using an array name as the left operand
+of <code>=</code> is illegal. <em>Initializing</em> a character array
+using <code>=</code> is legal, though:</p>
+<div class="sourceCode" id="cb41"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> str1<span class="op">[</span><span class="dv">10</span><span class="op">]</span> <span class="op">=</span> <span class="st">&quot;abc&quot;</span><span class="op">;</span></span></code></pre></div>
+<p>In the context of a declaration, <code>=</code> is not the assignment
+operator. Attempting to compare strings using a relational or equality
+operator is legal but won’t produce the desired result:</p>
+<div class="sourceCode" id="cb42"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>str1 <span class="op">==</span> str2<span class="op">)</span> <span class="op">...</span> <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>This statement compares <code>str1</code> and <code>str2</code> as
+pointers: it doesn’t compare the contents of the two arrays. Since
+<code>str1</code> and <code>str2</code> have different addresses, the
+expression <code>str1 == str2</code> must have the value 0.</p>
+</div>
+<!-- END: div: infoBox -->
+<p>Fortunately, all is not lost: the C library provides a rich set of
+functions for performing operations on strings. Prototypes for these
+functions reside in the <code>&lt;string.h&gt;</code> header, so
+programs that need string operations should contain the following
+line:</p>
+<div class="sourceCode" id="cb43"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span></code></pre></div>
+<p>Most of the functions declared in <code>&lt;string.h&gt;</code>
+require at least one string as an argument. String parameters are
+declared to have type <code>char *</code>, allowing the argument to be a
+character array, a variable of type <code>char *</code>, or a string
+literal — all are suitable as strings. Watch out for string parameters
+that aren’t declared <code>const</code>, however. Such a parameter may
+be modified when the function is called, so the corresponding argument
+shouldn’t be a string literal.</p>
+<p>There are many functions in <code>&lt;string.h&gt;</code>; I’ll cover
+a few of the most basic. In subsequent examples, assume that
+<code>str1</code> and <code>str2</code> are character arrays used as
+strings.</p>
+<h3 id="the-strcpy-string-copy-function">13.5.1 The <code>strcpy</code>
+(String Copy) Function</h3>
+<p>The <code>strcpy</code> function has the following prototype in
+<code>&lt;string.h&gt;</code>:</p>
+<div class="sourceCode" id="cb44"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>strcpy<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>s1<span class="op">,</span> <span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s2<span class="op">);</span></span></code></pre></div>
+<p><code>strcpy</code> copies the string <code>s2</code> into the string
+<code>s1</code>. (To be precise, we should say “<code>strcpy</code>
+copies the string pointed to by <code>s2</code> into the array pointed
+to by <code>s1</code>”.) That is, <code>strcpy</code> copies characters
+from <code>s2</code> to <code>s1</code> up to (and including) the first
+null character in <code>s2</code>. <code>strcpy</code> returns
+<code>s1</code> (a pointer to the destination string). The string
+pointed to by <code>s2</code> isn’t modified, so it’s declared
+<code>const</code>.</p>
+<p>The existence of <code>strcpy</code> compensates for the fact that we
+can’t use the assignment operator to copy strings. For example, suppose
+that we want to store the string <code>"abcd"</code> in
+<code>str2</code>. We can’t use the assignment</p>
+<div class="sourceCode" id="cb45"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>str2 <span class="op">=</span> <span class="st">&quot;abcd&quot;</span><span class="op">;</span> <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p>because <code>str2</code> is an array name and can’t appear on the
+left side of an assignment. Instead, we can call
+<code>strcpy</code>:</p>
+<div class="sourceCode" id="cb46"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>str2<span class="op">,</span> <span class="st">&quot;abcd&quot;</span><span class="op">);</span> <span class="co">/* str2 now contains &quot;abcd&quot; */</span></span></code></pre></div>
+<p>Similarly, we can’t assign <code>str2</code> to <code>str1</code>
+directly, but we can call <code>strcpy</code>:</p>
+<div class="sourceCode" id="cb47"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>strl<span class="op">,</span> str2<span class="op">);</span> <span class="co">/* str1 now contains &quot;abcd&quot; */</span></span></code></pre></div>
+<p>Most of the time, we’ll discard the value that <code>strcpy</code>
+returns. On occasion, though, it can be useful to call
+<code>strcpy</code> as part of a larger expression in order to use its
+return value. For example, we could chain together a series of
+<code>strcpy</code> calls:</p>
+<div class="sourceCode" id="cb48"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>str1<span class="op">,</span> strcpy<span class="op">(</span>str2<span class="op">,</span> <span class="st">&quot;abcd&quot;</span><span class="op">));</span> <span class="co">/* both str1 and str2 now contain &quot;abcd&quot; */</span></span></code></pre></div>
+<!-- START: div: infoBox -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>In the call <code>strcpy(str1, str2)</code>, <code>strcpy</code> has
+no way to check that the string pointed to by <code>str2</code> will
+actually fit in the array pointed to by <code>str1</code>. Suppose that
+<code>str1</code> points to an array of length <code>n</code>. If the
+string that <code>str2</code> points to has no more than
+<code>n - 1</code> characters, then the copy will succeed. But if str2
+points to a longer string, undefined behavior occurs. (Since
+<code>strcpy</code> always copies up to the first null character, it
+will continue copying past the end of the array that <code>str1</code>
+points to.)</p>
+</div>
+<!-- END: div: infoBox -->
+<p>Calling the <code>strncpy</code> function is a safer, albeit slower,
+way to copy a string. <code>strncpy</code> is similar to
+<code>strcpy</code> but has a third argument that limits the number of
+characters that will be copied. To copy <code>str2</code> into
+<code>str1</code>, we could use the following call of
+<code>strncpy</code>:</p>
+<div class="sourceCode" id="cb49"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>strncpy<span class="op">(</span>str1<span class="op">,</span> str2<span class="op">,</span> <span class="kw">sizeof</span><span class="op">(</span>str1<span class="op">));</span></span></code></pre></div>
+<p>As long as <code>str1</code> is large enough to hold the string
+stored in <code>str2</code> (including the null character), the copy
+will be done correctly. <code>strncpy</code> itself isn’t without
+danger, though. For one thing, it will leave the string in
+<code>str1</code> without a terminating null character if the length of
+the string stored in <code>str2</code> is greater than or equal to the
+size of the <code>str1</code> array. Here’s a safer way to use
+<code>strncpy</code>:</p>
+<div class="sourceCode" id="cb50"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>strncpy<span class="op">(</span>str1<span class="op">,</span> str2<span class="op">,</span> <span class="kw">sizeof</span><span class="op">(</span>str1<span class="op">)</span> <span class="op">-</span> <span class="dv">1</span><span class="op">);</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>str1<span class="op">[</span><span class="kw">sizeof</span><span class="op">(</span>str1<span class="op">)</span> <span class="op">-</span> <span class="dv">1</span><span class="op">]</span> <span class="op">=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span></span></code></pre></div>
+<p>The second statement guarantees that <code>str1</code> is always
+null-terminated, even if <code>strncpy</code> fails to copy a null
+character from <code>str2</code>.</p>
+<h3 id="the-strlen-string-length-function">13.5.2 The
+<code>strlen</code> (String Length) Function</h3>
+<p>The <code>strlen</code> function has the following prototype:</p>
+<div class="sourceCode" id="cb51"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="dt">size_t</span> strlen<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s<span class="op">);</span></span></code></pre></div>
+<p><code>size_t</code>, which is defined in the C library, is a
+<code>typedef</code> name that represents one of C’s unsigned integer
+types. Unless we’re dealing with extremely long strings, this
+technicality need not concern us — we can simply treat the return value
+of <code>strlen</code> as an integer.</p>
+<p><code>strlen</code> returns the length of a string <code>s</code>:
+the number of characters in <code>s</code> up to, but not including, the
+first null character. Here are a few examples:</p>
+<div class="sourceCode" id="cb52"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> len<span class="op">;</span></span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>len <span class="op">=</span> strlen<span class="op">(</span><span class="st">&quot;abc&quot;</span><span class="op">);</span> <span class="co">/* len is now 3 */</span></span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a>len <span class="op">=</span> strlen<span class="op">(</span><span class="st">&quot;&quot;</span><span class="op">);</span> <span class="co">/* len is now 0 */</span></span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>str1<span class="op">,</span> <span class="st">&quot;abc&quot;</span><span class="op">);</span></span>
+<span id="cb52-6"><a href="#cb52-6" aria-hidden="true" tabindex="-1"></a>len <span class="op">=</span> strlen<span class="op">(</span>str1<span class="op">);</span> <span class="co">/* len is now 3 */</span></span></code></pre></div>
+<p>The last example illustrates an important point. When given an array
+as its argument, <code>strlen</code> doesn’t measure the length of the
+array itself; instead, it returns the length of the string stored in the
+array.</p>
+<h3 id="the-strcat-string-concatenation-function">13.5.3 The
+<code>strcat</code> (String Concatenation) Function</h3>
+<p>The <code>strcat</code> function has the following prototype:</p>
+<div class="sourceCode" id="cb53"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>strcat<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>s1<span class="op">,</span> <span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s2<span class="op">);</span></span></code></pre></div>
+<p><code>strcat</code> appends the contents of the string
+<code>s2</code> to the end of the string <code>s1</code>: it returns
+<code>s1</code> (a pointer to the resulting string).</p>
+<p>Here are some examples of <code>strcat</code> in action:</p>
+<div class="sourceCode" id="cb54"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>str1<span class="op">,</span> <span class="st">&quot;abc&quot;</span><span class="op">);</span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>strcat<span class="op">(</span>str1<span class="op">,</span> <span class="st">&quot;def&quot;</span><span class="op">);</span> <span class="co">/* str1 now contains &quot;abcdef&quot; */</span></span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>str1<span class="op">,</span> <span class="st">&quot;abc&quot;</span><span class="op">);</span></span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>str2<span class="op">,</span> <span class="st">&quot;def&quot;</span><span class="op">);</span></span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>strcat<span class="op">(</span>str1<span class="op">,</span> str2<span class="op">);</span> <span class="co">/* str1 now contains &quot;abcdef&quot; */</span></span></code></pre></div>
+<p>As with <code>strcpy</code>, the value returned by
+<code>strcat</code> is normally discarded. The following example shows
+how the return value might be used:</p>
+<div class="sourceCode" id="cb55"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>str1<span class="op">,</span> <span class="st">&quot;abc&quot;</span><span class="op">);</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>str2<span class="op">,</span> <span class="st">&quot;def&quot;</span><span class="op">);</span></span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>strcat<span class="op">(</span>str1<span class="op">,</span> strcat<span class="op">(</span>str2<span class="op">,</span> <span class="st">&quot;ghi&quot;</span><span class="op">));</span> <span class="co">/* str1 now contains &quot;abcdefghi&quot;; str2 contains &quot;defghi&quot; */</span></span></code></pre></div>
+<!-- START: div: infoBox -->
+<div class="infoBox">
+<p><span class="warningEmoji"></span></p>
+<p>The effect of the call <code>strcat(str1, str2)</code> is undefined
+if the array pointed to by <code>str1</code> isn’t long enough to
+accommodate the additional characters from <code>str2</code>. Consider
+the following example:</p>
+<div class="sourceCode" id="cb56"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> str1<span class="op">[</span><span class="dv">6</span><span class="op">]</span> <span class="op">=</span> <span class="st">&quot;abc&quot;</span><span class="op">;</span></span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>strcat<span class="op">(</span>str1<span class="op">,</span> <span class="st">&quot;def&quot;</span><span class="op">);</span> <span class="co">/*** WRONG ***/</span></span></code></pre></div>
+<p><code>strcat</code> will attempt to add the characters
+<code>d</code>, <code>e</code>, <code>f</code>, and <code>\0</code> to
+the end of the string already stored in <code>str1</code>.
+Unfortunately, <code>str1</code> is limited to six characters, causing
+<code>strcat</code> to write past the end of the array.</p>
+</div>
+<!-- END: div: infoBox -->
+<p>The <code>strncat</code> function is a safer but slower version of
+<code>strcat</code>. Like <code>strncpy</code>, it has a third argument
+that limits the number of characters it will copy. Here’s what a call
+might look like:</p>
+<div class="sourceCode" id="cb57"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>strncat<span class="op">(</span>str1<span class="op">,</span> str2<span class="op">,</span> <span class="kw">sizeof</span><span class="op">(</span>str1<span class="op">)</span> <span class="op">-</span> strlen<span class="op">(</span>str1<span class="op">)</span> <span class="op">-</span> <span class="dv">1</span><span class="op">);</span></span></code></pre></div>
+<p><code>strncat</code> will terminate <code>str1</code> with a null
+character, which isn’t included in the third argument (the number of
+characters to be copied). In the example, the third argument calculates
+the amount of space remaining in <code>str1</code> (given by the
+expression <code>sizeof(str1) - strlen(str1)</code>) and then subtracts
+1 to ensure that there will be room for the null character.</p>
+<h3 id="the-strcmp-string-comparison-function">13.5.4 The
+<code>strcmp</code> (String Comparison) Function</h3>
+<p>The <code>strcmp</code> function has the following prototype:</p>
+<div class="sourceCode" id="cb58"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> strcmp<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s1<span class="op">,</span> <span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s2<span class="op">);</span></span></code></pre></div>
+<p><span class="QandA"></span></p>
+<p><code>strcmp</code> compares the strings <code>s1</code> and
+<code>s2</code>, returning a value less than, egual to, or greater than
+0, depending on whether <code>s1</code> is less than, equal to, or
+greater than <code>s2</code>. For example, to see if <code>str1</code>
+is less than <code>str2</code>, we’d write</p>
+<div class="sourceCode" id="cb59"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>strcmp<span class="op">(</span>str1<span class="op">,</span> str2<span class="op">)</span> <span class="op">&lt;</span> <span class="dv">0</span><span class="op">)</span>    <span class="co">/* is str1 &lt; str2? */</span></span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span></code></pre></div>
+<p>To test whether <code>str1</code> is less than or equal to
+<code>str2</code>, we’d write</p>
+<div class="sourceCode" id="cb60"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span>strcmp<span class="op">(</span>str1<span class="op">,</span> str2<span class="op">)</span> <span class="op">&lt;=</span> <span class="dv">0</span><span class="op">)</span> <span class="co">/* is str1 &lt;= str2? */</span></span></code></pre></div>
+<p>By choosing the proper relational operator (<code>&lt;</code>,
+<code>&lt;=</code>, <code>&gt;</code>, <code>&gt;=</code>) or equality
+operator (<code>==</code>, <code>!=</code>), we can test any possible
+relationship between <code>str1</code> and <code>str2</code>.</p>
+<p><code>strcmp</code> compares strings based on their lexicographic
+ordering, which resembles the way words are arranged in a dictionary.
+More precisely, <code>strcmp</code> considers <code>s1</code> to be less
+than <code>s2</code> if either one of the following conditions is
+satisfied:</p>
+<ul>
+<li>The first <code>i</code> characters of <code>s1</code> and
+<code>s2</code> match, but the <code>(i+1)</code>st character of
+<code>s1</code> is less than the <code>(i+1)</code>st character of
+<code>s2</code>. For example, <code>"abc"</code> is less than
+<code>"bcd"</code>, and <code>"abd"</code> is less than
+<code>"abe"</code>.<br />
+</li>
+<li>All characters of <code>s1</code> match <code>s2</code>, but
+<code>s1</code> is shorter than <code>s2</code>. For example,
+<code>"abc"</code> is less than <code>"abcd"</code>.</li>
+</ul>
+<p>As it compares characters from two strings, <code>strcmp</code> looks
+at the numerical codes that represent the characters. Some knowledge of
+the underlying character set is helpful in order to predict what
+<code>strcmp</code> will do. For example, here are a few important
+properties of the ASCII character set:</p>
+<ul>
+<li>The characters in each of the sequences A-Z, a-z, and 0-9 have
+consecutive codes.<br />
+</li>
+<li>All upper-case letters are less than all lower-case letters. (In
+ASCII, codes between 65 and 90 represent upper-case letters; codes
+between 97 and 122 represent lower-case letters.)<br />
+</li>
+<li>Digits are less than letters. (Codes between 48 and 57 represent
+digits.)<br />
+</li>
+<li>Spaces are less than all printing characters. (The space character
+has the value 32 in ASCII).</li>
+</ul>
+<h3 id="program-printing-a-one-month-reminder-list">13.5.5 (PROGRAM)
+Printing a One-Month Reminder List</h3>
+<p>To illustrate the use of the C string library, we’ll now develop a
+program that prints a one-month list of daily reminders. The user will
+enter a series of reminders, with each prefixed by a day of the month.
+When the user enters 0 instead of a valid day, the program will print a
+list of all reminders entered, sorted by day. Here’s what a session with
+the program will look like:</p>
+<pre><code>Enter day and reminder: 24 Susan&#39;s birthday
+Enter day and reminder: 5 6:00 - Dinner with Marge and Russ
+Enter day and reminder: 26 Movie - &quot;Chinatown&quot;
+Enter day and reminder: 7 10:30 - Dental appointment
+Enter day and reminder: 12 Movie - &quot;Dazed and Confused&quot;
+Enter day and reminder: 5 Saturday class
+Enter day and reminder: 12 Saturday class
+Enter day and reminder: 0
+Day Reminder
+  5 Saturday class
+  5 6:00 - Dinner with Marge and Russ
+  7 10:30 - Dental appointment
+ 12 Saturday class
+ 12 Movie - &quot;Dazed and Confused&quot;
+ 24 Susan&#39;s birthday
+ 26 Movie - &quot;Chinatown&quot;</code></pre>
+<p>The overall strategy isn’t very complicated: we’ll have the program
+read a series of day-and-reminder combinations, storing them in order
+(sorted by day), and then display them. To read the days, we’ll use
+<code>scanf</code>; to read the reminders, we’ll use the
+<code>read_line</code> function of Section 13.3.</p>
+<p>We’ll store the strings in a two-dimensional array of characters,
+with each row of the array containing one string. After the program
+reads a day and its associated reminder, it will search the array to
+determine where the day belongs. using <code>strcmp</code> to do
+comparisons. It will then use <code>strcpy</code> to move all strings
+below that point down one position. Finally, the program will copy the
+day into the array and call <code>strcat</code> to append the reminder
+to the day. (The day and the reminder have been kept separate up to this
+point.).</p>
+<p>Of course, there are always a few minor complications, For example,
+we want the days to be right-justified in a two-character field, so that
+their ones digits will line up. There are many ways to handle the
+problem. I’ve chosen to have the program use <code>scanf</code> to read
+the day into an integer variable, then call <code>sprintf</code> to
+convert the day back into string form. <code>sprintf</code> is a library
+function that’s similar to <code>printf</code>, except that it writes
+output into a string. The call</p>
+<div class="sourceCode" id="cb62"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>sprintf<span class="op">(</span>day_str<span class="op">,</span> <span class="st">&quot;%2d&quot;</span><span class="op">,</span> day<span class="op">);</span></span></code></pre></div>
+<p>writes the value of day into <code>day_str</code>. Since
+<code>sprintf</code> automatically adds a null character when it’s
+through writing, <code>day_str</code> will contain a properly
+null-terminated string.</p>
+<p>Another complication is making sure that the user doesn’t enter more
+than two digits. We’ll use the following call of <code>scanf</code> for
+this purpose:</p>
+<div class="sourceCode" id="cb63"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a>scanf<span class="op">(</span><span class="st">&quot;%2d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>day<span class="op">):</span></span></code></pre></div>
+<p>The number 2 between <code>%</code> and <code>d</code> tells
+<code>scanf</code> to stop reading after two digits, even if the input
+has more digits.</p>
+<p>With those details out of the way, here’s the program:</p>
+<div class="sourceCode" id="cb64"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="co">/********************************************************************************</span></span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * File: remind.c</span></span>
+<span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb64-4"><a href="#cb64-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Prints a one-month reminder list</span></span>
+<span id="cb64-5"><a href="#cb64-5" aria-hidden="true" tabindex="-1"></a><span class="co"> ********************************************************************************/</span></span>
+<span id="cb64-6"><a href="#cb64-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-7"><a href="#cb64-7" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Header inclusions*/</span></span>
+<span id="cb64-8"><a href="#cb64-8" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb64-9"><a href="#cb64-9" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb64-10"><a href="#cb64-10" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Header inclusions*/</span></span>
+<span id="cb64-11"><a href="#cb64-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-12"><a href="#cb64-12" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: MACRO definitions*/</span></span>
+<span id="cb64-13"><a href="#cb64-13" aria-hidden="true" tabindex="-1"></a><span class="pp">#define MAX_REMIND 50    </span><span class="co">/* maximum number of reminders */</span></span>
+<span id="cb64-14"><a href="#cb64-14" aria-hidden="true" tabindex="-1"></a><span class="pp">#define MSG_LEN 60    </span><span class="co">/* max length of reminder message */</span></span>
+<span id="cb64-15"><a href="#cb64-15" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: MACRO definitions*/</span></span>
+<span id="cb64-16"><a href="#cb64-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-17"><a href="#cb64-17" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: type definitions*/</span></span>
+<span id="cb64-18"><a href="#cb64-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-19"><a href="#cb64-19" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: type definitions*/</span></span>
+<span id="cb64-20"><a href="#cb64-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-21"><a href="#cb64-21" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Variable declarations*/</span></span>
+<span id="cb64-22"><a href="#cb64-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-23"><a href="#cb64-23" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Variable declarations*/</span></span>
+<span id="cb64-24"><a href="#cb64-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-25"><a href="#cb64-25" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Function prototypes*/</span></span>
+<span id="cb64-26"><a href="#cb64-26" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> read_line<span class="op">(</span><span class="dt">char</span> str<span class="op">[],</span> <span class="dt">int</span> n<span class="op">);</span></span>
+<span id="cb64-27"><a href="#cb64-27" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Function prototypes*/</span></span>
+<span id="cb64-28"><a href="#cb64-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-29"><a href="#cb64-29" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb64-30"><a href="#cb64-30" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: main</span></span>
+<span id="cb64-31"><a href="#cb64-31" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: int</span></span>
+<span id="cb64-32"><a href="#cb64-32" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb64-33"><a href="#cb64-33" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: void</span></span>
+<span id="cb64-34"><a href="#cb64-34" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb64-35"><a href="#cb64-35" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb64-36"><a href="#cb64-36" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb64-37"><a href="#cb64-37" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: </span></span>
+<span id="cb64-38"><a href="#cb64-38" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb64-39"><a href="#cb64-39" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb64-40"><a href="#cb64-40" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb64-41"><a href="#cb64-41" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> reminders<span class="op">[</span>MAX_REMIND<span class="op">][</span>MSG_LEN <span class="op">+</span> <span class="dv">3</span><span class="op">];</span></span>
+<span id="cb64-42"><a href="#cb64-42" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> day_str<span class="op">[</span><span class="dv">3</span><span class="op">],</span> msg_str<span class="op">[</span>MSG_LEN <span class="op">+</span> <span class="dv">1</span><span class="op">];</span></span>
+<span id="cb64-43"><a href="#cb64-43" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> day<span class="op">,</span> i<span class="op">,</span> j<span class="op">,</span> num_remind <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb64-44"><a href="#cb64-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-45"><a href="#cb64-45" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(;</span> <span class="op">;</span> <span class="op">)</span></span>
+<span id="cb64-46"><a href="#cb64-46" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb64-47"><a href="#cb64-47" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>num_remind <span class="op">==</span> MAX_REMIND<span class="op">)</span></span>
+<span id="cb64-48"><a href="#cb64-48" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb64-49"><a href="#cb64-49" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;-- No space left --</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb64-50"><a href="#cb64-50" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span><span class="op">;</span>    <span class="co">// break out of for loop</span></span>
+<span id="cb64-51"><a href="#cb64-51" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// if condition: maximum reminder entries reached</span></span>
+<span id="cb64-52"><a href="#cb64-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-53"><a href="#cb64-53" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot;Enter day and reminder: &quot;</span><span class="op">);</span></span>
+<span id="cb64-54"><a href="#cb64-54" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Get the day of the reminder</span></span>
+<span id="cb64-55"><a href="#cb64-55" aria-hidden="true" tabindex="-1"></a>        scanf<span class="op">(</span><span class="st">&quot;%2d&quot;</span><span class="op">,</span> <span class="op">&amp;</span>day<span class="op">);</span>    <span class="co">// as integer</span></span>
+<span id="cb64-56"><a href="#cb64-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-57"><a href="#cb64-57" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>day <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb64-58"><a href="#cb64-58" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb64-59"><a href="#cb64-59" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span><span class="op">;</span>    <span class="co">// break out of the for loop</span></span>
+<span id="cb64-60"><a href="#cb64-60" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// if condition: day input is 0</span></span>
+<span id="cb64-61"><a href="#cb64-61" aria-hidden="true" tabindex="-1"></a>        sprintf<span class="op">(</span>day_str<span class="op">,</span> <span class="st">&quot;%2d&quot;</span><span class="op">,</span> day<span class="op">);</span>    <span class="co">// as string</span></span>
+<span id="cb64-62"><a href="#cb64-62" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb64-63"><a href="#cb64-63" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Get the new reminder message</span></span>
+<span id="cb64-64"><a href="#cb64-64" aria-hidden="true" tabindex="-1"></a>        read_line<span class="op">(</span>msg_str<span class="op">,</span> MSG_LEN<span class="op">);</span></span>
+<span id="cb64-65"><a href="#cb64-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-66"><a href="#cb64-66" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> num_remind<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb64-67"><a href="#cb64-67" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb64-68"><a href="#cb64-68" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span><span class="op">(</span>strcmp<span class="op">(</span>day_str<span class="op">,</span> reminders<span class="op">[</span>i<span class="op">])</span> <span class="op">&lt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb64-69"><a href="#cb64-69" aria-hidden="true" tabindex="-1"></a>            <span class="op">{</span></span>
+<span id="cb64-70"><a href="#cb64-70" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb64-71"><a href="#cb64-71" aria-hidden="true" tabindex="-1"></a>            <span class="op">}</span>   <span class="co">// if condition: </span></span>
+<span id="cb64-72"><a href="#cb64-72" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// for statement: Determine where the new reminder should be placed in the array.</span></span>
+<span id="cb64-73"><a href="#cb64-73" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span><span class="op">(</span>j <span class="op">=</span> num_remind<span class="op">;</span> j <span class="op">&gt;</span> i<span class="op">;</span> j<span class="op">--)</span></span>
+<span id="cb64-74"><a href="#cb64-74" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb64-75"><a href="#cb64-75" aria-hidden="true" tabindex="-1"></a>            strcpy<span class="op">(</span>reminders<span class="op">[</span>j<span class="op">],</span> reminders<span class="op">[</span>j <span class="op">-</span> <span class="dv">1</span><span class="op">]);</span></span>
+<span id="cb64-76"><a href="#cb64-76" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// for statement: Push down the other reminders.</span></span>
+<span id="cb64-77"><a href="#cb64-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-78"><a href="#cb64-78" aria-hidden="true" tabindex="-1"></a>        strcpy<span class="op">(</span>reminders<span class="op">[</span>i<span class="op">],</span> day_str<span class="op">);</span>    <span class="co">// Add to the array the day of the new reminder</span></span>
+<span id="cb64-79"><a href="#cb64-79" aria-hidden="true" tabindex="-1"></a>        strcat<span class="op">(</span>reminders<span class="op">[</span>i<span class="op">],</span> msg_str<span class="op">);</span>    <span class="co">// Add to the array the message of the new reminder</span></span>
+<span id="cb64-80"><a href="#cb64-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-81"><a href="#cb64-81" aria-hidden="true" tabindex="-1"></a>        num_remind<span class="op">++;</span></span>
+<span id="cb64-82"><a href="#cb64-82" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: </span></span>
+<span id="cb64-83"><a href="#cb64-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-84"><a href="#cb64-84" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">Day Reminder</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb64-85"><a href="#cb64-85" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> num_remind<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb64-86"><a href="#cb64-86" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb64-87"><a href="#cb64-87" aria-hidden="true" tabindex="-1"></a>        printf<span class="op">(</span><span class="st">&quot; %s</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> reminders<span class="op">[</span>i<span class="op">]);</span></span>
+<span id="cb64-88"><a href="#cb64-88" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: Display the complete reminder list</span></span>
+<span id="cb64-89"><a href="#cb64-89" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb64-90"><a href="#cb64-90" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb64-91"><a href="#cb64-91" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb64-92"><a href="#cb64-92" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">//FUNCTION </span><span class="re">END</span><span class="co">: main</span></span>
+<span id="cb64-93"><a href="#cb64-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-94"><a href="#cb64-94" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb64-95"><a href="#cb64-95" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: read_line</span></span>
+<span id="cb64-96"><a href="#cb64-96" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: int</span></span>
+<span id="cb64-97"><a href="#cb64-97" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb64-98"><a href="#cb64-98" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: char str[], int n</span></span>
+<span id="cb64-99"><a href="#cb64-99" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb64-100"><a href="#cb64-100" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb64-101"><a href="#cb64-101" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb64-102"><a href="#cb64-102" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: Get the the string from the user. Similar implementation to scanf.</span></span>
+<span id="cb64-103"><a href="#cb64-103" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb64-104"><a href="#cb64-104" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> read_line<span class="op">(</span><span class="dt">char</span> str<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb64-105"><a href="#cb64-105" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb64-106"><a href="#cb64-106" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> ch<span class="op">,</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb64-107"><a href="#cb64-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-108"><a href="#cb64-108" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span><span class="op">((</span>ch <span class="op">=</span> getchar<span class="op">())</span> <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span><span class="op">)</span></span>
+<span id="cb64-109"><a href="#cb64-109" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb64-110"><a href="#cb64-110" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>i <span class="op">&lt;</span> n<span class="op">)</span></span>
+<span id="cb64-111"><a href="#cb64-111" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb64-112"><a href="#cb64-112" aria-hidden="true" tabindex="-1"></a>            str<span class="op">[</span>i<span class="op">++]</span> <span class="op">=</span> ch<span class="op">;</span></span>
+<span id="cb64-113"><a href="#cb64-113" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// if condition: number of characters is less than the maximum number of characters allowed</span></span>
+<span id="cb64-114"><a href="#cb64-114" aria-hidden="true" tabindex="-1"></a>        str<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span></span>
+<span id="cb64-115"><a href="#cb64-115" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// while statement: Get the characters until and excluding new-line character.</span></span>
+<span id="cb64-116"><a href="#cb64-116" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> i<span class="op">;</span></span>
+<span id="cb64-117"><a href="#cb64-117" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">// FUNCTION </span><span class="re">END</span><span class="co">: read_line</span></span></code></pre></div>
+<p>Although <code>remind.c</code> is useful for demonstrating the
+<code>strcpy</code>, <code>strcat</code>, and <code>strcmp</code>
+functions, it lacks something as a practical reminder program. There are
+obviously a number of improvements needed, ranging from minor tweaks to
+major enhancements (such as saving the reminders in a file when the
+program terminates). We’ll discuss several improvements in the
+programming projects at the end of this chapter and in later
+chapters.</p>
+<h2 id="string-idioms">13.6 String Idioms</h2>
+<p>Functions that manipulate strings are a particularly rich source of
+idioms. In this section, we’ll explore some of the most famous idioms by
+using them to write the <code>strlen</code> and <code>strcat</code>
+functions. You’ll never have to write these functions, of course, since
+they’re part of the standard library, but you may have to write
+functions that are similar.</p>
+<p>The concise style I’ll use in this section is popular with many C
+programmers. You should master this style even if you don’t plan to use
+it in your own programs, since you’re likely to encounter it in code
+written by others.</p>
+<p>One last note before we get started. If you want to try out any of
+the versions of <code>strlen</code> and <code>strcat</code> in this
+section, be sure to alter the name of the function (changing
+<code>strlen</code> to <code>my_strlen</code>, for example). As Section
+21.1 explains, we’re not allowed to write a function that has the same
+name as a standard library function, even when we don’t include the
+header to which the function belongs. In fact, all names that begin with
+<code>str</code> and a lower-case letter are reserved (to allow
+functions to be added to the <code>&lt;string.h&gt;</code> header in
+future versions of the C standard).</p>
+<h3 id="searching-for-the-end-of-a-string">13.6.1 Searching for the End
+of a String</h3>
+<p>Many string operations require searching for the end of a string. The
+<code>strlen</code> function is a prime example. The following version
+of <code>strlen</code> searches its string argument to find the end,
+using a variable to keep track of the string’s length:</p>
+<div class="sourceCode" id="cb65"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="dt">size_t</span> strlen<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s<span class="op">)</span></span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb65-3"><a href="#cb65-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">size_t</span> n<span class="op">;</span></span>
+<span id="cb65-4"><a href="#cb65-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb65-5"><a href="#cb65-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span><span class="op">(</span>n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> <span class="op">*</span>s <span class="op">!=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span> s<span class="op">++)</span></span>
+<span id="cb65-6"><a href="#cb65-6" aria-hidden="true" tabindex="-1"></a>    n<span class="op">++</span></span>
+<span id="cb65-7"><a href="#cb65-7" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> n<span class="op">;</span></span>
+<span id="cb65-8"><a href="#cb65-8" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>As the pointer <code>s</code> moves across the string from left to
+right, the variable <code>n</code> keeps track of how many characters
+have been seen so far. When <code>s</code> finally points to a null
+character, <code>n</code> contains the length of the string.</p>
+<p>Let’s see if we can condense the function. First, we’ll move the
+initialization of <code>n</code> to its declaration:</p>
+<div class="sourceCode" id="cb66"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="dt">size_t</span> strlen<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s<span class="op">)</span></span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">size_t</span> n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb66-4"><a href="#cb66-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-5"><a href="#cb66-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span><span class="op">(;</span> <span class="op">*</span>s <span class="op">!=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span> s<span class="op">++)</span></span>
+<span id="cb66-6"><a href="#cb66-6" aria-hidden="true" tabindex="-1"></a>    n<span class="op">++;</span></span>
+<span id="cb66-7"><a href="#cb66-7" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> n<span class="op">;</span></span>
+<span id="cb66-8"><a href="#cb66-8" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Next, we notice that the condition <code>*s != '\0'</code> is the
+same as <code>*s != 0</code>, because the integer value of the null
+character is 0. But testing <code>*s != 0</code> is the same as testing
+<code>*s</code>; both are true if <code>*s</code> isn’t equal to 0.
+These observations lead to our next version of <code>strlen</code>:</p>
+<div class="sourceCode" id="cb67"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a><span class="dt">size_t</span> strlen<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s<span class="op">)</span></span>
+<span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb67-3"><a href="#cb67-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">size_t</span> n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb67-4"><a href="#cb67-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb67-5"><a href="#cb67-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span><span class="op">(;</span> <span class="op">*</span>s<span class="op">;</span> s<span class="op">++)</span></span>
+<span id="cb67-6"><a href="#cb67-6" aria-hidden="true" tabindex="-1"></a>    n<span class="op">++;</span></span>
+<span id="cb67-7"><a href="#cb67-7" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> n<span class="op">;</span></span>
+<span id="cb67-8"><a href="#cb67-8" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>But, as we saw in Section 12.2, it’s possible to increment
+<code>s</code> and test <code>*s</code> in the same expression:</p>
+<div class="sourceCode" id="cb68"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a><span class="dt">size_t</span> strlen<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s<span class="op">)</span></span>
+<span id="cb68-2"><a href="#cb68-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb68-3"><a href="#cb68-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">size_t</span> n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb68-4"><a href="#cb68-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> <span class="op">(;*</span>s<span class="op">++;)</span></span>
+<span id="cb68-5"><a href="#cb68-5" aria-hidden="true" tabindex="-1"></a>    n<span class="op">++;</span></span>
+<span id="cb68-6"><a href="#cb68-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> n<span class="op">;</span></span>
+<span id="cb68-7"><a href="#cb68-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Replacing the <code>for</code> statement with a <code>while</code>
+statement, we arrive at the following version of
+<code>strlen</code>:</p>
+<div class="sourceCode" id="cb69"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="dt">size_t</span> strlen<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s<span class="op">)</span></span>
+<span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb69-3"><a href="#cb69-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">size_t</span> n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb69-4"><a href="#cb69-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb69-5"><a href="#cb69-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">while</span><span class="op">(*</span>s<span class="op">++)</span></span>
+<span id="cb69-6"><a href="#cb69-6" aria-hidden="true" tabindex="-1"></a>    n<span class="op">++;</span></span>
+<span id="cb69-7"><a href="#cb69-7" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> n<span class="op">;</span></span>
+<span id="cb69-8"><a href="#cb69-8" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Although we’ve condensed <code>strlen</code> quite a bit, it’s likely
+that we haven’t increased its speed. Here’s a version that does run
+faster, at least with some compilers:</p>
+<div class="sourceCode" id="cb70"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="dt">size_t</span> strlen<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s<span class="op">)</span></span>
+<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb70-3"><a href="#cb70-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>p <span class="op">=</span> s<span class="op">;</span></span>
+<span id="cb70-4"><a href="#cb70-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">while</span><span class="op">(*</span>s<span class="op">)</span></span>
+<span id="cb70-5"><a href="#cb70-5" aria-hidden="true" tabindex="-1"></a>    s<span class="op">++;</span></span>
+<span id="cb70-6"><a href="#cb70-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> s <span class="op">-</span> p<span class="op">;</span></span>
+<span id="cb70-7"><a href="#cb70-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>This version of <code>strlen</code> computes the length of the string
+by locating the position of the null character, then subtracting from it
+the position of the first character in the string. The improvement in
+speed comes from not having to increment <code>n</code> inside the
+<code>while</code> loop. Note the appearance of the word
+<code>const</code> in the declaration of <code>p</code>, by the way;
+without it, the compiler would notice that assigning <code>s</code> to
+<code>p</code> places the string that <code>s</code> points to at
+risk.</p>
+<p>The statement</p>
+<p><strong>idiom</strong></p>
+<div class="sourceCode" id="cb71"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(*</span>s<span class="op">)</span></span>
+<span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a>  S<span class="op">++;</span></span></code></pre></div>
+<p>and the related</p>
+<p><strong>idiom</strong></p>
+<div class="sourceCode" id="cb72"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="op">(*</span>s<span class="op">++)</span></span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a>  <span class="op">;</span></span></code></pre></div>
+<p>are idioms meaning “search for the null character at the end of a
+string.” The first version leaves <code>s</code> pointing to the null
+character. The second version is more concise, but leaves <code>s</code>
+pointing just past the null character.</p>
+<h3 id="copying-a-string">13.6.2 Copying a String</h3>
+<p>Copying a string is another common operation. To introduce C’s
+“string copy” idiom, we’ll develop two versions of the
+<code>strcat</code> function. Let’s start with a straight forward but
+somewhat lengthy version:</p>
+<div class="sourceCode" id="cb73"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>strcat<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>s1<span class="op">,</span> <span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s2<span class="op">)</span></span>
+<span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb73-3"><a href="#cb73-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">char</span> <span class="op">*</span>p <span class="op">=</span> s1<span class="op">;</span></span>
+<span id="cb73-4"><a href="#cb73-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-5"><a href="#cb73-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">while</span><span class="op">(*</span>p <span class="op">!=</span> <span class="ch">&#39;\0&#39;</span><span class="op">)</span></span>
+<span id="cb73-6"><a href="#cb73-6" aria-hidden="true" tabindex="-1"></a>    p<span class="op">++;</span></span>
+<span id="cb73-7"><a href="#cb73-7" aria-hidden="true" tabindex="-1"></a>  <span class="cf">while</span><span class="op">(*</span>s2 <span class="op">!=</span> <span class="ch">&#39;\0&#39;</span><span class="op">)</span></span>
+<span id="cb73-8"><a href="#cb73-8" aria-hidden="true" tabindex="-1"></a>  <span class="op">{</span></span>
+<span id="cb73-9"><a href="#cb73-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">*</span>p <span class="op">=</span> <span class="op">*</span>s2<span class="op">;</span></span>
+<span id="cb73-10"><a href="#cb73-10" aria-hidden="true" tabindex="-1"></a>    p<span class="op">++;</span></span>
+<span id="cb73-11"><a href="#cb73-11" aria-hidden="true" tabindex="-1"></a>    s2<span class="op">++;</span></span>
+<span id="cb73-12"><a href="#cb73-12" aria-hidden="true" tabindex="-1"></a>  <span class="op">}</span></span>
+<span id="cb73-13"><a href="#cb73-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-14"><a href="#cb73-14" aria-hidden="true" tabindex="-1"></a>  <span class="op">*</span>p <span class="op">=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span></span>
+<span id="cb73-15"><a href="#cb73-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-16"><a href="#cb73-16" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> s1<span class="op">;</span></span>
+<span id="cb73-17"><a href="#cb73-17" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>This version of <code>strcat</code> uses a two-step algorithm: (1)
+Locate the null character at the end of the string <code>s1</code> and
+make <code>p</code> point to it. (2) Copy characters one by one from
+<code>s2</code> to where <code>p</code> is pointing.</p>
+<p>The first <code>while</code> statement in the function implements
+step (1). <code>p</code> is set to point to the first character in the
+<code>s1</code> string. Assuming that <code>s1</code> points to the
+string <code>"abc"</code>, we have the following picture:</p>
+<p><img src="./images/cknkCh13Sec13p6p2_1.png" alt="cknkCh13Sec13p6p2_1.png"/></p>
+<p><code>p</code> is then incremented as long as it doesn’t point to a
+null character. When the loop terminates, <code>p</code> must be
+pointing to the null character:</p>
+<p><img src="./images/cknkCh13Sec13p6p2_2.png" alt="cknkCh13Sec13p6p2_2.png"/></p>
+<p>The second <code>while</code> statement implements step (2). The loop
+body copies one character from where <code>s2</code> points to where
+<code>p</code> points, then increments both <code>p</code> and
+<code>s2</code>. If <code>s2</code> originally points to the string
+<code>"def"</code>, here’s what the strings will look like after the
+first loop iteration:</p>
+<p><img src="./images/cknkCh13Sec13p6p2_3.png" alt="cknkCh13Sec13p6p2_3.png"/></p>
+<p>The loop terminates when <code>s2</code> points to the null
+character:</p>
+<p><img src="./images/cknkCh13Sec13p6p2_4.png" alt="cknkCh13Sec13p6p2_4.png"/></p>
+<p>After putting a null character where <code>p</code> is pointing,
+<code>strcat</code> returns.</p>
+<p>By a process similar to the one we used for <code>strlen</code>. we
+can condense the definition of <code>strcat</code>, arriving at the
+following version:</p>
+<div class="sourceCode" id="cb74"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>strcat <span class="op">(</span><span class="dt">char</span> <span class="op">*</span>sl<span class="op">,</span> <span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>s2<span class="op">)</span></span>
+<span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb74-3"><a href="#cb74-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">char</span> <span class="op">*</span>p <span class="op">=</span> s1<span class="op">;</span></span>
+<span id="cb74-4"><a href="#cb74-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-5"><a href="#cb74-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">while</span><span class="op">(*</span>p<span class="op">)</span></span>
+<span id="cb74-6"><a href="#cb74-6" aria-hidden="true" tabindex="-1"></a>    p<span class="op">++;</span></span>
+<span id="cb74-7"><a href="#cb74-7" aria-hidden="true" tabindex="-1"></a>  <span class="cf">while</span><span class="op">(*</span>p<span class="op">++</span> <span class="op">=</span> <span class="op">*</span>s2<span class="op">++)</span></span>
+<span id="cb74-8"><a href="#cb74-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">;</span></span>
+<span id="cb74-9"><a href="#cb74-9" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> s1<span class="op">;</span></span>
+<span id="cb74-10"><a href="#cb74-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The heart of our streamlined <code>strcat</code> function is the
+“string copy” idiom:</p>
+<p><strong>idiom</strong></p>
+<div class="sourceCode" id="cb75"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span><span class="op">(*</span>p<span class="op">++</span> <span class="op">=</span> <span class="op">*</span>s2<span class="op">++)</span></span>
+<span id="cb75-2"><a href="#cb75-2" aria-hidden="true" tabindex="-1"></a>  <span class="op">;</span></span></code></pre></div>
+<p>If we ignore the two <code>++</code> operators, the expression inside
+the parentheses simplifies to an ordinary assignment:</p>
+<div class="sourceCode" id="cb76"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a><span class="op">*</span>p <span class="op">=</span> <span class="op">*</span>s2</span></code></pre></div>
+<p>This expression copies a character from where <code>s2</code> points
+to where <code>p</code> points. After the assignment, both
+<code>p</code> and <code>s2</code> are incremented, thanks to the
+<code>++</code> operators. Repeatedly executing this expression has the
+effect of copying a series of characters from where <code>s2</code>
+points to where <code>p</code> points.</p>
+<p>But what causes the loop to terminate? Since the primary operator
+inside the parentheses is assignment, the <code>while</code> statement
+tests the value of the assignment — the character that was copied. All
+characters except the null character test true, so the loop won’t
+terminate until the null character has been copied. And since the loop
+terminates <em>affer</em> the assignment, we don’t need a separate
+statement to put a null character at the end of the new string.</p>
+<h2 id="arrays-of-strings">13.7 Arrays of Strings</h2>
+<p>Let’s now turn to a question that we’ll often encounter: what’s the
+best way to store an array of strings? The obvious solution is to create
+a two-dimensional array of characters, then store the strings in the
+array, one per row. Consider the following example:</p>
+<div class="sourceCode" id="cb77"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> planets<span class="op">[][</span><span class="dv">8</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="st">&quot;Mercury&quot;</span><span class="op">,</span> <span class="st">&quot;Venus&quot;</span><span class="op">,</span> <span class="st">&quot;Earth&quot;</span><span class="op">,</span> <span class="st">&quot;Mars&quot;</span><span class="op">,</span> <span class="st">&quot;Jupiter&quot;</span><span class="op">,</span> <span class="st">&quot;Saturn&quot;</span><span class="op">,</span> <span class="st">&quot;Uranus&quot;</span><span class="op">,</span> <span class="st">&quot;Neptune&quot;</span><span class="op">,</span> <span class="st">&quot;Pluto&quot;</span><span class="op">};</span></span></code></pre></div>
+<p>(In 2006, the International Astronomical Union demoted Pluto from
+“planet” to “dwarf planet”, but I’ve left it in the planets array for
+old times’ sake.) Note that we’re allowed to omit the number of rows in
+the planets array — since that’s obvious from the number of elements in
+the initializer — but C requires that we specify the number of
+columns.</p>
+<p><img src="./images/cknkCh13Sec13p7_1.png" alt="cknkCh13Sec13p7_1.png"/></p>
+<p>The figure above shows what the planets array will look like. Not all
+our strings were long enough to fill an entire row of the array, so C
+padded them with null characters. There’s a bit of wasted space in this
+array, since only three planets have names long enough to require eight
+characters (including the terminating null character). The
+<code>remind.c</code> program (Section 13.5) is a glaring example of
+this kind of waste. It stores reminders in rows of a two- dimensional
+character array, with 60 characters set aside for each reminder. In our
+example, the reminders ranged from 18 to 37 characters in length, so the
+amount of wasted space was considerable.</p>
+<p>The inefficiency that’s apparent in these examples is common when
+working with strings, since most collections of strings will have a
+mixture of long strings and short strings. What we need is a
+<strong><em>ragged array</em></strong>: a two-dimensional array whose
+rows can have different lengths, C doesn’t provide a “ragged array
+type,” but it does give us the tools to simulate one. The secret is to
+create an array whose elements are <em>pointers</em> to strings.</p>
+<p>Here’s the <code>planets</code> array again, this time as an array of
+pointers to strings:</p>
+<div class="sourceCode" id="cb78"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>planets<span class="op">[]</span> <span class="op">=</span> <span class="op">{</span><span class="st">&quot;Mercury&quot;</span><span class="op">,</span> <span class="st">&quot;Venus&quot;</span><span class="op">,</span> <span class="st">&quot;Earth&quot;</span><span class="op">,</span> <span class="st">&quot;Mars&quot;</span><span class="op">,</span> <span class="st">&quot;Jupiter&quot;</span><span class="op">,</span> <span class="st">&quot;Saturn&quot;</span><span class="op">,</span> <span class="st">&quot;Uranus&quot;</span><span class="op">,</span> <span class="st">&quot;Neptune&quot;</span><span class="op">,</span> <span class="st">&quot;Pluto&quot;</span><span class="op">};</span></span></code></pre></div>
+<p>Not much of a change, eh? We simply removed one pair of brackets and
+put an asterisk in front of <code>planets</code>. The effect on how
+planets is stored is dramatic, though:</p>
+<p><img src="./images/cknkCh13Sec13p7_2.png" alt="cknkCh13Sec13p7_2.png"/></p>
+<p>Each element of planets is a pointer to a null-terminated string.
+There are no longer any wasted characters in the strings, although we’ve
+had to allocate space for the pointers in the <code>planets</code>
+array.</p>
+<p>To access one of the planet names, all we need do is subscript the
+<code>planets</code> array. Because of the relationship between pointers
+and arrays, accessing a character in a planet name is done in the same
+way as accessing an element of a two-dimensional array. To search the
+<code>planets</code> array for strings beginning with the letter
+<code>M</code>, for example, we could use the following loop:</p>
+<div class="sourceCode" id="cb79"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">9</span><span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb79-2"><a href="#cb79-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span><span class="op">(</span>planets<span class="op">[</span>i<span class="op">][</span><span class="dv">0</span><span class="op">]</span> <span class="op">==</span> <span class="ch">&#39;M&#39;</span><span class="op">)</span></span>
+<span id="cb79-3"><a href="#cb79-3" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;%s begins with M</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> planets<span class="op">[</span>i<span class="op">]);</span></span></code></pre></div>
+<h3 id="command-line-arguments">13.7.1 Command-Line Arguments</h3>
+<p>When we run a program, we’ll often need to supply it with information
+— a file name, perhaps, or a switch that modifies the program’s
+behavior. Consider the UNIX <code>ls</code> command. If we run
+<code>ls</code> by typing</p>
+<pre class="shell"><code>ls</code></pre>
+<p>at the command line, it will display the names of the files in the
+current directory. But if we instead type</p>
+<pre class="shell"><code>ls -l</code></pre>
+<p>then <code>ls</code> will display a “long” (detailed) listing of
+files, showing the size of each file, the file’s owner, the date and
+time the file was last modified, and so forth. To modify the behavior of
+<code>ls</code> further, we can specify that it show details for just
+one file:</p>
+<pre class="shell"><code>ls -l remind.c</code></pre>
+<p><code>ls</code> will display detailed information about the file
+named <code>remind.c</code>.</p>
+<p><span class="QandA"></span></p>
+<p>Command-line information is available to all programs, not just
+operating system commands. To obtain access to these command-line
+arguments (called program parameters in the C standard), we must define
+<code>main</code> as a function with two parameters, which are
+customarily named <code>argc</code> and <code>argv</code>:</p>
+<div class="sourceCode" id="cb83"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb83-1"><a href="#cb83-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">int</span> argc<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>argv<span class="op">[])</span></span>
+<span id="cb83-2"><a href="#cb83-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb83-3"><a href="#cb83-3" aria-hidden="true" tabindex="-1"></a>  <span class="op">...</span></span>
+<span id="cb83-4"><a href="#cb83-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><code>argc</code> (“argument count”) is the number of command-line
+arguments (including the name of the program itself). <code>argv</code>
+(“argument vector”) is an array of pointers to the command-line
+arguments, which are stored in string form. <code>argv[0]</code> points
+to the name of the program, while <code>argv[1]</code> through
+<code>argv[argc-1]</code> point to the remaining command-line
+arguments.</p>
+<p><code>argv</code> has one additional element,
+<code>argv[argc]</code>, which is always a null pointer — a special
+pointer that points to nothing. We’ll discuss null pointers in a later
+chapter; for now, all we need to know is that the macro
+<code>NULL</code> represents a null pointer.</p>
+<p>If the user enters the command line</p>
+<pre class="shell"><code>ls -l remind.c</code></pre>
+<p>then <code>argc</code> will be 3, <code>argv[0]</code> will point to
+a string containing the program name, <code>argv[1]</code> will point to
+the string <code>"-1"</code>, <code>argv[2]</code> will point to the
+string <code>"remind.c"</code>, and <code>argv[3]</code> will be a null
+pointer:</p>
+<p><img src="./images/cknkCh13Sec13p7p1_1.png" alt="cknkCh13Sec13p7p1_1.png"/></p>
+<p>This figure doesn’t show the program name in detail, since it may
+include a path or other information that depends on the operating
+system. If the program name isn’t available, <code>argv[0]</code> points
+to an empty string.</p>
+<p>Since <code>argv</code> is an array of pointers, accessing
+command-line arguments is easy. Typically, a program that expects
+command-line arguments will set up a loop that examines each argument in
+turn. One way to write such a loop is to use an integer variable as an
+index into the <code>argv</code> array. For example, the following loop
+prints the command-line arguments, one per line:</p>
+<div class="sourceCode" id="cb85"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb85-2"><a href="#cb85-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb85-3"><a href="#cb85-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;</span> argc<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb85-4"><a href="#cb85-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb85-5"><a href="#cb85-5" aria-hidden="true" tabindex="-1"></a>  printf<span class="op">(</span><span class="st">&quot;%s</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> argv<span class="op">[</span>i<span class="op">]);</span></span>
+<span id="cb85-6"><a href="#cb85-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">// for statement: </span></span></code></pre></div>
+<p>Another technique is to set up a pointer to <code>argv[1]</code>,
+then increment the pointer repeatedly to step through the rest of the
+array. Since the last element of <code>argv</code> is always a null
+pointer, the loop can terminate when it finds a null pointer in the
+array:</p>
+<div class="sourceCode" id="cb86"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb86-1"><a href="#cb86-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">**</span>p<span class="op">;</span></span>
+<span id="cb86-2"><a href="#cb86-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb86-3"><a href="#cb86-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>p <span class="op">=</span> <span class="op">&amp;</span>argv<span class="op">[</span><span class="dv">1</span><span class="op">];</span> <span class="op">*</span>p <span class="op">!=</span> NULL<span class="op">;</span> p<span class="op">++)</span></span>
+<span id="cb86-4"><a href="#cb86-4" aria-hidden="true" tabindex="-1"></a>  printf<span class="op">(</span><span class="st">&quot;%s</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> <span class="op">*</span>p<span class="op">);</span></span></code></pre></div>
+<p>Since <code>p</code> is a pointer to a pointer to a character, we’ve
+got to use it carefully. Setting <code>p</code> equal to
+<code>&amp;argv[1]</code> makes sense; <code>argv[1]</code> is a pointer
+to a character, so <code>&amp;argv[1]</code> will be a pointer to a
+pointer. The test <code>*p ! = NULL</code> is OK, since <code>*p</code>
+and <code>NULL</code> are both pointers. Incrementing <code>p</code>
+looks good; <code>p</code> points to an array element, so incrementing
+it will advance it to the next element. Printing <code>*p</code> is
+fine, since <code>*p</code> points to the first character in a
+string.</p>
+<h3 id="program-checking-planet-names">13.7.2 (PROGRAM) Checking Planet
+Names</h3>
+<p>Our next program, <code>planet.c</code>, illustrates how to access
+command-line arguments. The program is designed to check a series of
+strings to see which ones are names of planets. When the program is run,
+the user will put the strings to be tested on the command line:</p>
+<pre><code>planet Jupiter venus Earth fred</code></pre>
+<p>The program will indicate whether or not each string is a planet
+name; if it is, the program will also display the planet’s number (with
+planet 1 being the one closest to the Sun):</p>
+<pre><code>Jupiter is planet 5
+venus is not a planet
+Earth is planet 3
+fred is not a plamet</code></pre>
+<p>Notice that the program doesn’t recognize a string as a planet name
+unless its first letter is upper-case and its remaining letters are
+lower-case.</p>
+<div class="sourceCode" id="cb89"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a><span class="co">/********************************************************************************</span></span>
+<span id="cb89-2"><a href="#cb89-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * File: planet.c</span></span>
+<span id="cb89-3"><a href="#cb89-3" aria-hidden="true" tabindex="-1"></a><span class="co"> * Author: K. N. King</span></span>
+<span id="cb89-4"><a href="#cb89-4" aria-hidden="true" tabindex="-1"></a><span class="co"> * Purpose: Checks planet names. Command line arguments</span></span>
+<span id="cb89-5"><a href="#cb89-5" aria-hidden="true" tabindex="-1"></a><span class="co"> ********************************************************************************/</span></span>
+<span id="cb89-6"><a href="#cb89-6" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Header inclusions*/</span></span>
+<span id="cb89-7"><a href="#cb89-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb89-8"><a href="#cb89-8" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb89-9"><a href="#cb89-9" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Header inclusions*/</span></span>
+<span id="cb89-10"><a href="#cb89-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-11"><a href="#cb89-11" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: MACRO definitions*/</span></span>
+<span id="cb89-12"><a href="#cb89-12" aria-hidden="true" tabindex="-1"></a><span class="pp">#define NUM_PLANETS 9 </span></span>
+<span id="cb89-13"><a href="#cb89-13" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: MACRO definitions*/</span></span>
+<span id="cb89-14"><a href="#cb89-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-15"><a href="#cb89-15" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: type definitions*/</span></span>
+<span id="cb89-16"><a href="#cb89-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-17"><a href="#cb89-17" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: type definitions*/</span></span>
+<span id="cb89-18"><a href="#cb89-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-19"><a href="#cb89-19" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Variable declarations*/</span></span>
+<span id="cb89-20"><a href="#cb89-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-21"><a href="#cb89-21" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Variable declarations*/</span></span>
+<span id="cb89-22"><a href="#cb89-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-23"><a href="#cb89-23" aria-hidden="true" tabindex="-1"></a><span class="co">/* START: Function prototypes*/</span></span>
+<span id="cb89-24"><a href="#cb89-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-25"><a href="#cb89-25" aria-hidden="true" tabindex="-1"></a><span class="co">/* </span><span class="re">END</span><span class="co">: Function prototypes*/</span></span>
+<span id="cb89-26"><a href="#cb89-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-27"><a href="#cb89-27" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb89-28"><a href="#cb89-28" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function name: main</span></span>
+<span id="cb89-29"><a href="#cb89-29" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return type: int</span></span>
+<span id="cb89-30"><a href="#cb89-30" aria-hidden="true" tabindex="-1"></a><span class="co"> * Return value description: </span></span>
+<span id="cb89-31"><a href="#cb89-31" aria-hidden="true" tabindex="-1"></a><span class="co"> * Parameters: int argc, char *argv[]</span></span>
+<span id="cb89-32"><a href="#cb89-32" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param1 descr.: </span></span>
+<span id="cb89-33"><a href="#cb89-33" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param2 descr.: </span></span>
+<span id="cb89-34"><a href="#cb89-34" aria-hidden="true" tabindex="-1"></a><span class="co"> * Param3 descr.: </span></span>
+<span id="cb89-35"><a href="#cb89-35" aria-hidden="true" tabindex="-1"></a><span class="co"> * Function description: </span></span>
+<span id="cb89-36"><a href="#cb89-36" aria-hidden="true" tabindex="-1"></a><span class="co"> */</span></span>
+<span id="cb89-37"><a href="#cb89-37" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">int</span> argc<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>argv<span class="op">[])</span></span>
+<span id="cb89-38"><a href="#cb89-38" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb89-39"><a href="#cb89-39" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> <span class="op">*</span>planets<span class="op">[]</span> <span class="op">=</span> <span class="op">{</span></span>
+<span id="cb89-40"><a href="#cb89-40" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;Mercury&quot;</span><span class="op">,</span> <span class="st">&quot;Venus&quot;</span><span class="op">,</span> <span class="st">&quot;Earth&quot;</span><span class="op">,</span></span>
+<span id="cb89-41"><a href="#cb89-41" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;Mars&quot;</span><span class="op">,</span> <span class="st">&quot;Jupiter&quot;</span><span class="op">,</span> <span class="st">&quot;Saturn&quot;</span><span class="op">,</span></span>
+<span id="cb89-42"><a href="#cb89-42" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;Uranus&quot;</span><span class="op">,</span> <span class="st">&quot;Neptune&quot;</span><span class="op">,</span> <span class="st">&quot;Pluto&quot;</span></span>
+<span id="cb89-43"><a href="#cb89-43" aria-hidden="true" tabindex="-1"></a>    <span class="op">};</span></span>
+<span id="cb89-44"><a href="#cb89-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-45"><a href="#cb89-45" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> i<span class="op">,</span> j<span class="op">;</span></span>
+<span id="cb89-46"><a href="#cb89-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-47"><a href="#cb89-47" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span>i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;</span> argc<span class="op">;</span> i<span class="op">++)</span></span>
+<span id="cb89-48"><a href="#cb89-48" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb89-49"><a href="#cb89-49" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span><span class="op">(</span>j <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> j <span class="op">&lt;</span> NUM_PLANETS<span class="op">;</span> j<span class="op">++)</span></span>
+<span id="cb89-50"><a href="#cb89-50" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb89-51"><a href="#cb89-51" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span><span class="op">(</span>strcmp<span class="op">(</span>argv<span class="op">[</span>i<span class="op">],</span> planets<span class="op">[</span>j<span class="op">])</span> <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb89-52"><a href="#cb89-52" aria-hidden="true" tabindex="-1"></a>            <span class="op">{</span></span>
+<span id="cb89-53"><a href="#cb89-53" aria-hidden="true" tabindex="-1"></a>                printf<span class="op">(</span><span class="st">&quot;%s is planet %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> argv<span class="op">[</span>i<span class="op">],</span> j <span class="op">+</span> <span class="dv">1</span><span class="op">);</span></span>
+<span id="cb89-54"><a href="#cb89-54" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb89-55"><a href="#cb89-55" aria-hidden="true" tabindex="-1"></a>            <span class="op">}</span>   <span class="co">// if condition: command line argument is a planet</span></span>
+<span id="cb89-56"><a href="#cb89-56" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// for statement: go through each elements in planets array</span></span>
+<span id="cb89-57"><a href="#cb89-57" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span>j <span class="op">==</span> NUM_PLANETS<span class="op">)</span></span>
+<span id="cb89-58"><a href="#cb89-58" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb89-59"><a href="#cb89-59" aria-hidden="true" tabindex="-1"></a>            printf<span class="op">(</span><span class="st">&quot;%s is not a planet</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> argv<span class="op">[</span>i<span class="op">]);</span></span>
+<span id="cb89-60"><a href="#cb89-60" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span>   <span class="co">// if condition: command line argument is not among planets&#39; elements</span></span>
+<span id="cb89-61"><a href="#cb89-61" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span>   <span class="co">// for statement: go through each command line argument.</span></span>
+<span id="cb89-62"><a href="#cb89-62" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb89-63"><a href="#cb89-63" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">);</span></span>
+<span id="cb89-64"><a href="#cb89-64" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb89-65"><a href="#cb89-65" aria-hidden="true" tabindex="-1"></a><span class="op">}</span>   <span class="co">//FUNCTION </span><span class="re">END</span><span class="co">: main</span></span></code></pre></div>
+<p>The program visits each command-line argument in turn, comparing it
+with the strings in the planets array until it finds a match or reaches
+the end of the array. The most interesting part of the program is the
+call of <code>strcmp</code>, in which the arguments are
+<code>argv[1]</code> (a pointer to a command-line argument) and
+<code>planets[j]</code> (a pointer to a planet name).</p>
 <h2 id="qa">Q&amp;A</h2>
-<!-- START: div -->
+<!-- START: div: QandA_question -->
 <div class="QandA_question">
 <p><span class="ques"></span></p>
+<p>How long can a string literal be?</p>
 </div>
-<!-- END: div -->
-<!-- START: div -->
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
 <div class="QandA_answer">
 <p><span class="ans"></span></p>
+<p><span class="C99Symbol"></span></p>
+<p>According to the C89 standard, compilers must allow string literals
+to be at least 509 characters long. (Yes, you read that right — 509.
+Don’t ask.) C99 increases the minimum to 4095 characters.</p>
 </div>
-<!-- END: div -->
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>Why aren’t string literals called “string constants”?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>Because they’re not necessarily constant. Since string literals are
+accessed through pointers, there’s nothing to prevent a program from
+attempting to modify the characters in a string literal.</p>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>How do we write a string literal that represents “über” if
+<code>"\xfcber"</code> doesn’t work?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>The secret is to write two adjacent string literals and let the
+compiler join them into one. In this example, writing
+<code>"\xfc""ber"</code> will give us a string literal that represents
+the word “über.”</p>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>Modifying a string literal seems harmless enough. Why does it cause
+undefined behavior?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>Some compilers try to reduce memory requirements by storing single
+copies of identical string literals. Consider the following example:</p>
+<div class="sourceCode" id="cb90"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb90-1"><a href="#cb90-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>p <span class="op">=</span> <span class="st">&quot;abc&quot;</span><span class="op">,</span> <span class="op">*</span>q <span class="op">=</span> <span class="st">&quot;abc&quot;</span><span class="op">;</span></span></code></pre></div>
+<p>A compiler might choose to store <code>"abc"</code> just once, making
+both <code>p</code> and <code>q</code> point to it. If we were to change
+<code>"abc"</code> through the pointer <code>p</code>, the string that
+<code>q</code> points to would also be affected. Needless to say, this
+could lead to some annoying bugs. Another potential problem is that
+string literals might be stored in a “read-only” area of memory: a
+program that attempts to modify such a literal will simply crash.</p>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>Should every array of characters include room for a null
+character?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>Not necessarily, since not every array of characters is used as a
+string. Including room for the null character (and actually putting one
+into the array) is necessary only if you’re planning to pass it to a
+function that requires a null-terminated string.</p>
+<p>You do not need a null character if you’ll only be performing
+operations on individual characters. For example, a program might have
+an array of characters that it will use to translate from one character
+set to another:</p>
+<div class="sourceCode" id="cb91"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> translation_table<span class="op">[</span><span class="dv">128</span><span class="op">];</span></span></code></pre></div>
+<p>The only operation that the program will perform on this array is
+subscripting. (The value of <code>translation_table[ch]</code> will be
+the translated version of the character <code>ch</code>.) We would not
+consider <code>translation_table</code> to be a string: it need not
+contain a null character, and no string operations will be performed on
+it.</p>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>If <code>printf</code> and <code>scanf</code> expect their first
+argument to have type <code>char *</code>, does that mean that the
+argument can be a string <em>variable</em> instead of a string
+<em>literal</em>?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>Yes, as the following example shows:</p>
+<div class="sourceCode" id="cb92"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb92-1"><a href="#cb92-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> fmt<span class="op">[]</span> <span class="op">=</span> <span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">;</span></span>
+<span id="cb92-2"><a href="#cb92-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb92-3"><a href="#cb92-3" aria-hidden="true" tabindex="-1"></a><span class="op">...</span></span>
+<span id="cb92-4"><a href="#cb92-4" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span>fmt<span class="op">,</span> i<span class="op">);</span></span></code></pre></div>
+<p>This ability opens the door to some intriguing possibilities —
+reading a format string as input, for example.</p>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>If I want <code>printf</code> to write a string <code>str</code>,
+can’t I just supply <code>str</code> as the format string, as in the
+following example?</p>
+<div class="sourceCode" id="cb93"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a>printf<span class="op">(</span>str<span class="op">);</span></span></code></pre></div>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>Yes, but it’s risky. If <code>str</code> contains the <code>%</code>
+character, you won’t get the desired result, since <code>printf</code>
+will assume it’s the beginning of a conversion specification.</p>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>How can <code>read_line</code> detect whether <code>getchar</code>
+has failed to read a character?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>If it can’t read a character, either because of an error or because
+of end-of-file, <code>getchar</code> returns the value <code>EOF</code>,
+which has type <code>int</code>. Here’s a revised version of
+<code>read_line</code> that tests whether the return value of
+<code>getchar</code> is <code>EOF</code>.</p>
+<div class="sourceCode" id="cb94"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb94-1"><a href="#cb94-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> read_line<span class="op">(</span><span class="dt">char</span> str<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<span id="cb94-2"><a href="#cb94-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb94-3"><a href="#cb94-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">int</span> ch<span class="op">,</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb94-4"><a href="#cb94-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">while</span> <span class="op">((</span>ch <span class="op">=</span> getchar<span class="op">())</span> <span class="op">!=</span> <span class="ch">&#39;\n&#39;</span> <span class="op">&amp;&amp;</span> ch <span class="op">!=</span> EOF<span class="op">)</span></span>
+<span id="cb94-5"><a href="#cb94-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>i <span class="op">&lt;</span> n<span class="op">)</span></span>
+<span id="cb94-6"><a href="#cb94-6" aria-hidden="true" tabindex="-1"></a>      str<span class="op">[</span>i<span class="op">++]</span> <span class="op">=</span> ch<span class="op">;</span></span>
+<span id="cb94-7"><a href="#cb94-7" aria-hidden="true" tabindex="-1"></a>  str<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> <span class="ch">&#39;\0&#39;</span></span>
+<span id="cb94-8"><a href="#cb94-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> i<span class="op">;</span></span>
+<span id="cb94-9"><a href="#cb94-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>Why does <code>strcmp</code> return a number that’s less than, equal
+to, or greater than zero? Also, does the exact return value have any
+significance?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p><code>strcmp</code>’s return value probably stems from the way the
+function is traditionally written. Consider the version in Kernighan and
+Ritchie’s <em>The C Programming Language</em>:</p>
+<div class="sourceCode" id="cb95"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb95-1"><a href="#cb95-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> strcmp<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>s<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>t<span class="op">)</span></span>
+<span id="cb95-2"><a href="#cb95-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb95-3"><a href="#cb95-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">int</span> i<span class="op">;</span></span>
+<span id="cb95-4"><a href="#cb95-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb95-5"><a href="#cb95-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> s<span class="op">[</span>i<span class="op">]</span> <span class="op">==</span> t<span class="op">[</span>i<span class="op">];</span> i<span class="op">++)</span></span>
+<span id="cb95-6"><a href="#cb95-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>s<span class="op">[</span>i<span class="op">]</span> <span class="op">==</span> <span class="ch">&#39;\0&#39;</span><span class="op">)</span></span>
+<span id="cb95-7"><a href="#cb95-7" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb95-8"><a href="#cb95-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> s<span class="op">[</span>i<span class="op">]</span> <span class="op">-</span> t<span class="op">[</span>i<span class="op">];</span></span>
+<span id="cb95-9"><a href="#cb95-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The return value is the difference between the first “mismatched”
+characters in the <code>s</code> and <code>t</code> strings, which will
+be negative if <code>s</code> points to a “smaller” string than
+<code>t</code> and positive if <code>s</code> points to a “larger”
+string, There’s no guarantee that <code>strcmp</code> is actually
+written this way, though, so it’s best not to assume that the magnitude
+of its return value has any particular meaning.</p>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>My compiler issues a warning when I try to compile the
+<code>while</code> statement in the <code>strcat</code> function:</p>
+<div class="sourceCode" id="cb96"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span><span class="op">(*</span>p<span class="op">++</span> <span class="op">=</span> <span class="op">*</span>s2<span class="op">++)</span></span></code></pre></div>
+<p>What am I doing wrong?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>Nothing. Many compilers — but not all. by any means — issue a warning
+if you use <code>=</code> where <code>==</code> is normally expected.
+This warning is valid at least 95% of the time, and it will save you a
+lot of debugging if you heed it. Unfortunately, the warning isn’t
+relevant in this particular example: we actually do mean to use
+<code>=</code>, not <code>==</code>. To get rid of the warning, rewrite
+the <code>while</code> loop as follows:</p>
+<div class="sourceCode" id="cb97"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb97-1"><a href="#cb97-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span><span class="op">((*</span>p<span class="op">++</span> <span class="op">=</span> <span class="op">*</span>s2<span class="op">++)</span> <span class="op">!=</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb97-2"><a href="#cb97-2" aria-hidden="true" tabindex="-1"></a>  <span class="op">;</span></span></code></pre></div>
+<p>Since the <code>while</code> statement normally tests whether
+<code>*p++ = *s2++</code> is not 0, we haven’t changed the meaning of
+the statement. The warning goes away, however, because the statement now
+tests a condition, not an assignment. With the GCC compiler, putting a
+pair of parentheses around the assignment is another way to avoid a
+warning:</p>
+<div class="sourceCode" id="cb98"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb98-1"><a href="#cb98-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span><span class="op">((*</span>p<span class="op">++</span> <span class="op">=</span> <span class="op">*</span>s2<span class="op">++))</span></span>
+<span id="cb98-2"><a href="#cb98-2" aria-hidden="true" tabindex="-1"></a>  <span class="op">;</span></span></code></pre></div>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>Are the <code>strlen</code> and <code>strcat</code> functions
+actually written as shown in Section 13.6?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>Possibly, although it’s common practice for compiler vendors to write
+these functions — and many other string functions — in assembly language
+instead of C. The string functions need to be as fast as possible, since
+they’re used often and have to deal with strings of arbitrary length.
+Writing these functions in assembly language makes it possible to
+achieve great efficiency by taking advantage of any special
+string-handling instructions that the CPU may provide.</p>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>Why does the C standard use the term “program parameters” instead of
+“command-line arguments”?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>Programs aren’t always run from a command line. In a typical
+graphical user interface, for example, programs are launched with a
+mouse click. In such an environment, there’s no traditional command
+line, although there may be other ways of passing information to a
+program; the term “program parameters” leaves the door open for these
+alternatives.</p>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>Do I have to use the names <code>argc</code> and <code>argv</code>
+for main’s parameters?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>No. Using the names <code>argc</code> and <code>argv</code> is merely
+a convention. not a language requirement.</p>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>I’ve seen <code>argv</code> declared as <code>**argv</code> instead
+of <code>*argv[]</code>. Is this legal?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>Certainly. When declaring a parameter, writing <code>*a</code> is
+always the same as writing <code>a[]</code>, regardless of the type of
+<code>a</code>’s elements.</p>
+</div>
+<!-- END: div: QandA_answer -->
+<hr />
+<!-- START: div: QandA_question -->
+<div class="QandA_question">
+<p><span class="ques"></span></p>
+<p>We’ve seen how to set up an array whose elements are pointers to
+string literals. Are there any other applications for arrays of
+pointers?</p>
+</div>
+<!-- END: div: QandA_question -->
+<!-- START: div: QandA_answer -->
+<div class="QandA_answer">
+<p><span class="ans"></span></p>
+<p>Yes. Although we’ve focused on arrays of pointers to character
+strings, that’s not the only application of arrays of pointers. We could
+just as easily have an array whose elements point to any type of data,
+whether in array form or not. Arrays of pointers are particularly useful
+in conjunction with dynamic storage allocation.</p>
+</div>
+<!-- END: div: QandA_answer -->
 <hr />
 <h2 id="examples">Examples</h2>
 <ul>

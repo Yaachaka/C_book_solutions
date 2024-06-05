@@ -2817,7 +2817,7 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb141-1"><a href="#cb1
 <h3 id="order-of-subexpression-evaluation">4.4.1 Order of Subexpression
 Evaluation</h3>
 <p>The rules of operator precedence and associativity allow us to break
-any C expression into subexpressions—to determine uniquely where the
+any C expression into subexpressions — to determine uniquely where the
 parentheses would go if the expression were fully parenthesized.
 Paradoxically, these rules don’t always allow us to determine the value
 of the expression, which may depend on the order in which its
@@ -2898,8 +2898,8 @@ behavior should be avoided like the plague.</p>
 <!-- END: div -->
 <h2 id="expression-statements">4.5 Expression Statements</h2>
 <p>C has the unusual rule that any expression can be used as a
-statement. That is, any expression—regardless of its type or what it
-computes—can be turned into a statement by appending a semicolon. For
+statement. That is, any expression — regardless of its type or what it
+computes — can be turned into a statement by appending a semicolon. For
 example, we could turn the expression <code>++i</code> into a
 statement:</p>
 <div class="sourceCode" id="cb145"><pre
@@ -3127,8 +3127,8 @@ into a statement by putting a semicolon after it:</p>
 <div class="sourceCode" id="cb153"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb153-1"><a href="#cb153-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">+</span> <span class="dv">1</span><span class="op">;</span></span></code></pre></div>
 <p>When this statement is executed, the value of <code>i + 1</code> is
-computed. Since we have failed to save this value—or at least use it in
-some way—it is lost.</p>
+computed. Since we have failed to save this value — or at least use it
+in some way — it is lost.</p>
 </div>
 <!-- END: div -->
 <hr />
@@ -3391,8 +3391,8 @@ need to evaluate <code>(j / i &gt; 0)</code> to determine whether the
 entire expression is true or false. However, if <code>i</code> is equal
 to 0, then the entire expression must be false, so there’s no need to
 evaluate <code>(j / i &gt; 0)</code>. The advantage of short circuit
-evaluation is apparent—without it, evaluating the expression would have
-caused a division by zero.</p>
+evaluation is apparent — without it, evaluating the expression would
+have caused a division by zero.</p>
 <!-- START: div -->
 <div class="infoBox">
 <p><span class="warningEmoji"></span></p>
@@ -3427,9 +3427,9 @@ they’re part of the <code>if</code> statement, not part of the
 expression. Also note that the word <em>then</em> doesn’t come after the
 parentheses, as it would in some programming languages.</p>
 <p>When an <code>if</code> statement is executed. the expression in the
-parentheses is evaluated: if the value of the expression is
-nonzero—which C interprets as true—the statement after the parentheses
-is executed. Here’s an example:</p>
+parentheses is evaluated: if the value of the expression is nonzero —
+which C interprets as true — the statement after the parentheses is
+executed. Here’s an example:</p>
 <div class="sourceCode" id="cb158"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb158-1"><a href="#cb158-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>line_num <span class="op">==</span> MAX_LINES<span class="op">)</span></span>
 <span id="cb158-2"><a href="#cb158-2" aria-hidden="true" tabindex="-1"></a>line_num <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span></code></pre></div>
@@ -3558,10 +3558,11 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb170-1"><a href="#cb1
 <span id="cb170-12"><a href="#cb170-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
 <span id="cb170-13"><a href="#cb170-13" aria-hidden="true" tabindex="-1"></a>        max <span class="op">=</span> k<span class="op">;</span></span>
 <span id="cb170-14"><a href="#cb170-14" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<p>Adding braces to statements—even when they’re not necessary—is like
-using parentheses in expressions: both techniques help make a program
-more readable while at the same time avoiding the possibility that the
-compiler won’t understand the program the way we thought it did.</p>
+<p>Adding braces to statements — even when they’re not necessary — is
+like using parentheses in expressions: both techniques help make a
+program more readable while at the same time avoiding the possibility
+that the compiler won’t understand the program the way we thought it
+did.</p>
 <p>Some programmers use as many braces as possible inside
 <code>if</code> statements (and iteration statements as well). A
 programmer who adopts this convention would include a pair of braces for
@@ -4041,7 +4042,7 @@ also acceptable).<br />
 </li>
 <li><strong><em>Statements</em></strong>. After each case label comes
 any number of statements. No braces are required around the statements.
-(Enjoy it—this is one of the few places in C where braces aren’t
+(Enjoy it — this is one of the few places in C where braces aren’t
 required.) The last statement in each group is normally
 <code>break</code>.</li>
 </ul>
@@ -4495,7 +4496,7 @@ repeatedly execute some other statement (the <strong><em>loop
 body</em></strong>). In C, every loop has a <strong><em>controlling
 expression</em></strong>. Each time the loop body is executed (an
 iteration of the loop), the controlling expression is evaluated; if the
-expression is true—has a value that’s not zero—the loop continues to
+expression is true — has a value that’s not zero — the loop continues to
 execute.</p>
 <p>C provides three iteration statements: <code>while</code>,
 <code>do</code>, and <code>for</code>, which are covered in Sections
@@ -4532,9 +4533,9 @@ word <code>do</code>.)</p>
 <p>When a <code>while</code> statement is executed, the controlling
 expression is evaluated first. If its value is nonzero (true), the loop
 body is executed and the expression is tested again. The process
-continues in this fashion—first testing the controlling expression, then
-executing the loop body—until the controlling expression eventually has
-the value zero.</p>
+continues in this fashion — first testing the controlling expression,
+then executing the loop body — until the controlling expression
+eventually has the value zero.</p>
 <p>The following example uses a <code>while</code> statement to compute
 the smallest power of 2 that is greater than or equal to a number
 <code>n</code>:</p>
@@ -4825,7 +4826,7 @@ digits. Clearly we’ll need some kind of loop, since we don’t know how
 many divisions it will take to reach 0. But should we use a
 <code>while</code> statement or a <code>do</code> statement? The
 <code>do</code> statement turns out to be more attractive, because every
-integer—even 0—has at least one digit. Here’s the program:</p>
+integer — even 0 — has at least one digit. Here’s the program:</p>
 <div class="sourceCode" id="cb240"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb240-1"><a href="#cb240-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*</span></span>
 <span id="cb240-2"><a href="#cb240-2" aria-hidden="true" tabindex="-1"></a><span class="co"> * file: numdigits.c</span></span>
@@ -4926,7 +4927,7 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb248-1"><a href="#cb2
 <span id="cb248-4"><a href="#cb248-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">--</span>i<span class="op">;</span></span>
 <span id="cb248-5"><a href="#cb248-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <p>Since the first and third expressions in a <code>for</code> statement
-are executed as statements, their values are irrelevant—they’re useful
+are executed as statements, their values are irrelevant — they’re useful
 only for their side effects. Consequently, these two expressions are
 usually assignments or increment/decrement expressions.</p>
 <h3 id="for-statement-idioms">6.3.1 <code>for</code> statement
@@ -5216,7 +5217,7 @@ transfer control out of a <code>switch</code> statement. The
 <p>Suppose that we’re writing a program that checks whether a number
 <code>n</code> is prime. Our plan is to write a <code>for</code>
 statement that divides <code>n</code> by the numbers between 2 and
-<code>n — 1</code>. We should break out of the loop as soon as any
+<code>n  ---  1</code>. We should break out of the loop as soon as any
 divisor is found; there’s no need to try the remaining possibilities.
 After the loop has terminated, we can use an <code>if</code> statement
 to determine whether termination was premature (hence <code>n</code>
@@ -5338,9 +5339,9 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb275-1"><a href="#cb2
 <p>The <code>goto</code> statement, a staple of older programming
 languages, is rarely needed in everyday C programming. The
 <code>break</code>, <code>continue</code>, and <code>return</code>
-statements which are essentially restricted <code>goto</code>
-statements—and the <code>exit</code> function are sufficient to handle
-most situations that might require a <code>goto</code> in other
+statements which are essentially restricted <code>goto</code> statements
+— and the <code>exit</code> function are sufficient to handle most
+situations that might require a <code>goto</code> in other
 languages.</p>
 <p>Nonetheless, the <code>goto</code> statement can be helpful once in a
 while. Consider the problem of exiting a loop from within a switch
@@ -5475,7 +5476,7 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb280-1"><a href="#cb2
 a <code>return</code> can never be executed, and many compilers will
 issue a warning message.</p>
 <h2 id="the-null-statement">6.5 The Null Statement</h2>
-<p>A statement can be <strong><em>null</em></strong>—devoid of symbols
+<p>A statement can be <strong><em>null</em></strong> — devoid of symbols
 except for the semicolon at the end.</p>
 <p>Here’s an example:</p>
 <div class="sourceCode" id="cb281"><pre
@@ -5797,7 +5798,7 @@ href="./cknkCh06/cknkCh06Prj/">./cknkCh06/cknkCh06Prj/</a></li>
 <h1 id="basic-types">7 Basic Types</h1>
 <!-- START: div -->
 <div class="theQuote">
-<p>Make no mistake about it: Computers process numbers—not symbols. We
+<p>Make no mistake about it: Computers process numbers — not symbols. We
 measure our understanding (and control) by the extent to which we can
 arithmetize an activity.</p>
 </div>
@@ -5839,7 +5840,7 @@ with no sign bit (the leftmost bit is considered part of the number’s
 magnitude) is said to be <strong><em>unsigned</em></strong>. The largest
 16-bit unsigned integer is 65,535 (2<sup>16</sup> - 1), and the largest
 32-bit unsigned integer is 4,294,967,295 (2<sup>32</sup> - 1).</p>
-<p>By default, integer variables are signed in C—the leftmost bit is
+<p>By default, integer variables are signed in C — the leftmost bit is
 reserved for the sign. To tell the compiler that a variable has no sign
 bit, we declare it to be unsigned. Unsigned numbers are primarily useful
 for systems programming and low-level, machine-dependent applications.
@@ -6060,11 +6061,10 @@ implementation-defined <strong><em>extended integer types</em></strong>,
 both signed and unsigned. For example, a compiler might provide signed
 and unsigned 128-bit integer types.</p>
 <h3 id="integer-constants">7.1.2 Integer Constants</h3>
-<p>Let’s turn our attention to
-<strong><em>constants</em></strong>—numbers that appear in the text of a
-program, not numbers that are read, written, or computed. C allows
-integer constants to be written in decimal (base 10), octal (base 8), or
-hexadecimal (base 16).</p>
+<p>Let’s turn our attention to <strong><em>constants</em></strong> —
+numbers that appear in the text of a program, not numbers that are read,
+written, or computed. C allows integer constants to be written in
+decimal (base 10), octal (base 8), or hexadecimal (base 16).</p>
 <!-- START: div -->
 <section id="octal-and-hexadecimal-numbers" class="infoBox">
 <h2>Octal and Hexadecimal Numbers</h2>
@@ -6542,10 +6542,10 @@ codes.)</p>
 <h3 id="signed-and-unsigned-characters">7.3.2 Signed and Unsigned
 Characters</h3>
 <p>Since C allows characters to be used as integers, it shouldn’t be
-surprising that the <code>char</code> type—like the integer types—exists
-in both <code>signed</code> and <code>unsigned</code> versions. Signed
-characters normally have values between —128 and 127, while unsigned
-characters have values between 0 and 255.</p>
+surprising that the <code>char</code> type — like the integer types —
+exists in both <code>signed</code> and <code>unsigned</code> versions.
+Signed characters normally have values between — 128 and 127, while
+unsigned characters have values between 0 and 255.</p>
 <p>The C standard doesn’t specify whether ordinary <code>char</code> is
 a signed or an unsigned type: some compilers treat it as a signed type.
 while others treat it as an unsigned type. (Some even allow the
@@ -6634,7 +6634,7 @@ arithmetic types in C89, divided into categories and subcategories:</p>
 <h3 id="escape-sequences-1">7.3.4 Escape Sequences</h3>
 <p>A character constant is usually one character enclosed in single
 quotes, as we’ve seen in previous examples. However, certain special
-characters—including the new-line character—can’t be written in this
+characters — including the new-line character — can’t be written in this
 way, because they’re invisible (non-printing) or because they can’t be
 entered from the keyboard. So that programs can deal with every
 character in the underlying character set, C provides a special
@@ -6725,8 +6725,8 @@ used to write an escape sequence:</p>
 digits. (This number must be representable as an unsigned character, so
 its maximum value is normally 377 octal.) For example, the escape
 character could be written <code>\33</code> or <code>\033</code>, Octal
-numbers in escape sequences—unlike octal constants—don’t have to begin
-with 0.<br />
+numbers in escape sequences — unlike octal constants — don’t have to
+begin with 0.<br />
 </li>
 <li>A <strong><em>hexadecimal escape sequence</em></strong> consists of
 <code>\x</code> followed by a hexadecimal number. Although C places no
@@ -6763,8 +6763,9 @@ statement that converts a lowercase letter to upper-case:</p>
 <div class="sourceCode" id="cb322"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb322-1"><a href="#cb322-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span><span class="op">(</span><span class="ch">&#39;a&#39;</span> <span class="op">&lt;=</span> ch <span class="op">&amp;&amp;</span> ch <span class="op">&lt;=</span> <span class="ch">&#39;z&#39;</span><span class="op">)</span></span>
 <span id="cb322-2"><a href="#cb322-2" aria-hidden="true" tabindex="-1"></a>    ch <span class="op">=</span> ch <span class="op">-</span> <span class="ch">&#39;a&#39;</span> <span class="op">+</span> <span class="ch">&#39;A&#39;</span><span class="op">;</span></span></code></pre></div>
-<p>This isn’t the best method, though. A faster—and more portable—way to
-convert case is to call C’s <code>toupper</code> library function:</p>
+<p>This isn’t the best method, though. A faster — and more portable —
+way to convert case is to call C’s <code>toupper</code> library
+function:</p>
 <div class="sourceCode" id="cb323"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb323-1"><a href="#cb323-1" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> toupper <span class="op">(</span>ch<span class="op">);</span> <span class="co">/* converts ch to upper case */</span></span></code></pre></div>
 <p>When it’s called, <code>toupper</code> checks whether its argument
@@ -6773,8 +6774,8 @@ the corresponding upper-case letter. Otherwise, <code>toupper</code>
 returns the value of the argument. In our example, we’ve used the
 assignment operator to store the return value of <code>toupper</code>
 back into the <code>ch</code> variable, although we could just as easily
-have done something else with it—stored it in another variable, say, or
-tested it in an <code>if</code> statement:</p>
+have done something else with it — stored it in another variable, say,
+or tested it in an <code>if</code> statement:</p>
 <div class="sourceCode" id="cb324"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb324-1"><a href="#cb324-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>toupper<span class="op">(</span>ch<span class="op">)</span> <span class="op">==</span> <span class="ch">&#39;A&#39;</span><span class="op">)</span> <span class="op">...</span></span></code></pre></div>
 <p>Programs that call <code>toupper</code> need to have the following
@@ -7297,9 +7298,9 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb348-1"><a href="#cb3
 <span id="cb348-2"><a href="#cb348-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> dividend<span class="op">,</span> divisor<span class="op">;</span></span>
 <span id="cb348-3"><a href="#cb348-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb348-4"><a href="#cb348-4" aria-hidden="true" tabindex="-1"></a>quotient <span class="op">=</span> dividend <span class="op">/</span> divisor<span class="op">;</span></span></code></pre></div>
-<p>As it’s now written, the result of the division—an integer—will be
-converted to <code>float</code> form before being stored in quotient. We
-probably want dividend and divisor converted to <code>float</code>
+<p>As it’s now written, the result of the division — an integer — will
+be converted to <code>float</code> form before being stored in quotient.
+We probably want dividend and divisor converted to <code>float</code>
 before the division, though, so that we get a more exact answer. A cast
 expression will do the trick:</p>
 <div class="sourceCode" id="cb349"><pre
@@ -7363,7 +7364,7 @@ that some C programmers employ.</p>
 <p>Using <code>typedef</code> to define <code>Bool</code> causes the
 compiler to add <code>Bool</code> to the list of type names that it
 recognizes. <code>Bool</code> can now be used in the same way as the
-built-in type names—in variable declarations, cast expressions, and
+built-in type names — in variable declarations, cast expressions, and
 elsewhere. For example, we might use <code>Bool</code> to declare
 variables:</p>
 <div class="sourceCode" id="cb359"><pre
@@ -7467,12 +7468,12 @@ expression.</p>
 variables, and expressions in general. If <code>i</code> and
 <code>j</code> are <code>int</code> variables, then
 <code>sizeof (i)</code> is 4 on a 32-bit machine, as is
-<code>sizeof (i + j)</code>. When applied to an expression—as opposed to
-a type—<code>sizeof</code> doesn’t require parentheses; we could write
-<code>sizeof i</code> instead of <code>sizeof (i)</code>. However,
+<code>sizeof (i + j)</code>. When applied to an expression — as opposed
+to a type — <code>sizeof</code> doesn’t require parentheses; we could
+write <code>sizeof i</code> instead of <code>sizeof (i)</code>. However,
 parentheses may be needed anyway because of operator precedence. The
 compiler would interpret <code>sizeof i + j</code> as
-<code>(sizeof i) + j</code>, because sizeof—a unary operator—takes
+<code>(sizeof i) + j</code>, because sizeof — a unary operator — takes
 precedence over the binary <code>+</code> operator. To avoid problems, I
 always use parentheses in <code>sizeof</code> expressions.</p>
 <p>Printing a <code>sizeof</code> value requires care, because the type
@@ -7679,12 +7680,12 @@ carriage-return character or a carriage return plus a line feed?</p>
 <div class="QandA_answer">
 <p><span class="ans"></span> Nope. As part of C’s UNIX heritage. it
 always regards the end of a line as being marked by a single line-feed
-character. (In UNIX text files, a single line-feed character—but no
-carriage return—appears at the end of each line.) The C library takes
+character. (In UNIX text files, a single line-feed character — but no
+carriage return — appears at the end of each line.) The C library takes
 care of translating the user’s keypress into a line-feed character. When
 a program reads from a file, the I/O library translates the file’s
 end-of-line marker (whatever it may be) into a single line-feed
-character. The same transformations occur—in reverse—when output is
+character. The same transformations occur — in reverse — when output is
 written to the screen or to a file. (See Section 22.1 for details.)</p>
 <p>Although these translations may seem confusing, they serve an
 important purpose: insulating programs from details that may vary from
@@ -7766,7 +7767,7 @@ to a variable that’s not large enough to hold it?</p>
 integral type and the variable is of an <code>unsigned</code> type, the
 extra bits are thrown away if the variable has a <code>signed</code>
 type, the result is implementation-defined. Assigning a floating-point
-number to a variable—integer or floating—that’s too small to hold it
+number to a variable — integer or floating — that’s too small to hold it
 produces undefined behavior: anything can happen, including program
 termination.</p>
 </div>
@@ -7955,9 +7956,9 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb384-1"><a href="#cb3
 causes an infinite loop! When <code>i</code> reaches 10, the program
 stores 0 into <code>a[10]</code>. But <code>a[10]</code> doesn’t exist,
 so 0 goes into memory immediately after <code>a[9]</code>. If the
-variable <code>i</code> happens to follow <code>a[9]</code> in memory—as
-might be the case—then <code>i</code> will be reset to 0, causing the
-loop to start over.</p>
+variable <code>i</code> happens to follow <code>a[9]</code> in memory —
+as might be the case — then <code>i</code> will be reset to 0, causing
+the loop to start over.</p>
 </div>
 <!-- END: div -->
 <p>An array subscript may be any integer expression:</p>
@@ -7978,7 +7979,7 @@ assigned to <code>a[1]</code> during the first loop iteration.</p>
 <div class="infoBox">
 <p><span class="warningEmoji"></span></p>
 <p>Be careful when an array subscript has a side effect. For example,
-the following loop—which is supposed to copy the elements of the array
+the following loop — which is supposed to copy the elements of the array
 <code>b</code> into the array <code>a</code> may not work properly:</p>
 <div class="sourceCode" id="cb387"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb387-1"><a href="#cb387-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
@@ -7986,9 +7987,9 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb387-1"><a href="#cb3
 <span id="cb387-3"><a href="#cb387-3" aria-hidden="true" tabindex="-1"></a>    a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> b<span class="op">[</span>i<span class="op">++];</span></span></code></pre></div>
 <p>The expression <code>a[i] = b[i++]</code> accesses the value of
 <code>i</code> and also modifies <code>i</code> elsewhere in the
-expression, which—as we saw in Section 4.4—causes undefined behavior. Of
-course, we can easily avoid the problem by removing the increment from
-the subscript:</p>
+expression, which — as we saw in Section 4.4 — causes undefined
+behavior. Of course, we can easily avoid the problem by removing the
+increment from the subscript:</p>
 <div class="sourceCode" id="cb388"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb388-1"><a href="#cb388-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> N<span class="op">;</span> i<span class="op">++)</span></span>
 <span id="cb388-2"><a href="#cb388-2" aria-hidden="true" tabindex="-1"></a>    a<span class="op">[</span>i<span class="op">]</span> <span class="op">=</span> b<span class="op">[</span>i<span class="op">];</span></span></code></pre></div>
@@ -8094,9 +8095,9 @@ also be written in the following way:</p>
 class="sourceCode c"><code class="sourceCode c"><span id="cb397-1"><a href="#cb397-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> a<span class="op">[</span><span class="dv">15</span><span class="op">]</span> <span class="op">=</span> <span class="op">{[</span><span class="dv">14</span><span class="op">]</span> <span class="op">=</span> <span class="dv">48</span><span class="op">,</span> <span class="op">[</span><span class="dv">9</span><span class="op">]</span> <span class="op">=</span> <span class="dv">7</span><span class="op">,</span> <span class="op">[</span><span class="dv">2</span><span class="op">]</span> <span class="op">=</span> <span class="dv">29</span><span class="op">};</span></span></code></pre></div>
 <p>Designators must be integer constant expressions. If the array being
 initialized has length <code>n</code>, each designator must be between 0
-and <code>n — 1</code>. However, if the length of the array is omitted,
-a designator can be any nonnegative integer. In the latter case, the
-compiler will deduce the length of the array from the largest
+and <code>n  ---  1</code>. However, if the length of the array is
+omitted, a designator can be any nonnegative integer. In the latter
+case, the compiler will deduce the length of the array from the largest
 designator.</p>
 <p>In the following example, the fact that 23 appears as a designator
 will force the array to have length 24:</p>
@@ -8234,8 +8235,8 @@ Interest</h3>
 <p>Our next program prints a table showing the value of $100 invested at
 different rates of interest over a period of years. The user will enter
 an interest rate and the number of years the money will be invested. The
-table will show the value of the money at one-year intervals—at that
-interest rate and the next four higher rates—assuming that interest is
+table will show the value of the money at one-year intervals — at that
+interest rate and the next four higher rates — assuming that interest is
 compounded once a year. Here’s what a session with the program will look
 like:</p>
 <pre class="shell"><code>Enter interest rate: 6
@@ -8346,8 +8347,8 @@ use as an identity matrix. (In mathematics, an <em>identity matrix</em>
 has 1’s on the main diagonal, where the row and column index are the
 same, and 0’s everywhere else.) We’ll need to visit each element in the
 array in some systematic fashion. A pair of nested <code>for</code>
-loops—one that steps through every row index and one that steps through
-each column index—is perfect for the job:</p>
+loops — one that steps through every row index and one that steps
+through each column index — is perfect for the job:</p>
 <div class="sourceCode" id="cb410"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb410-1"><a href="#cb410-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#define N 10</span></span>
 <span id="cb410-2"><a href="#cb410-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -8455,9 +8456,9 @@ of Cards</h3>
 arrays. The program deals a random hand from a standard deck of playing
 cards. (In case you haven’t had time to play games recently, each card
 in a standard deck has a <em>suit</em>–clubs, diamonds, hearts, or
-spades—and a <em>rank</em>—two, three, four, five, six, seven, eight,
-nine, ten, jack. queen, king, or ace.) We’ll have the user specify how
-many cards should be in the hand:</p>
+spades — and a <em>rank</em> — two, three, four, five, six, seven,
+eight, nine, ten, jack. queen, king, or ace.) We’ll have the user
+specify how many cards should be in the hand:</p>
 <div class="sourceCode" id="cb417"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb417-1"><a href="#cb417-1" aria-hidden="true" tabindex="-1"></a>Enter number of cards in hand<span class="op">:</span> <span class="dv">5</span></span>
 <span id="cb417-2"><a href="#cb417-2" aria-hidden="true" tabindex="-1"></a>Your hand<span class="op">:</span> <span class="dv">7</span><span class="er">c</span> <span class="dv">2</span><span class="er">s</span> <span class="dv">5</span><span class="er">d</span> as <span class="dv">2</span><span class="er">h</span></span></code></pre></div>
@@ -8485,11 +8486,11 @@ random, we’ll check whether the element of <code>in_hand</code>
 corresponding to that card is true or false. If it’s true, we’ll have to
 pick another card. If it’s false, we’ll store true in that card’s array
 element to remind us later that this card has already been picked.</p>
-<p>Once we’ve verified that a card is “new”—not already selected—we’ll
-need to translate its numerical rank and suit into characters and then
-display the card. To translate the rank and suit to character form,
-we’ll set up two arrays of characters—one for the rank and one for the
-suit—and then use the numbers to subscript the arrays. These arrays
+<p>Once we’ve verified that a card is “new” — not already selected —
+we’ll need to translate its numerical rank and suit into characters and
+then display the card. To translate the rank and suit to character form,
+we’ll set up two arrays of characters — one for the rank and one for the
+suit — and then use the numbers to subscript the arrays. These arrays
 won’t change during program execution, so we may as well declare them to
 be <code>const</code>.</p>
 <div class="sourceCode" id="cb418"><pre
@@ -8809,8 +8810,8 @@ distinction.)</p>
 <p>Functions are the building blocks of C programs. Each function is
 essentially a small program, with its own declarations and statements.
 Using functions, we can divide a program into small pieces that are
-easier for us—and others—to understand and modify. Functions can take
-some of the tedium out of programming by allowing us to avoid
+easier for us — and others — to understand and modify. Functions can
+take some of the tedium out of programming by allowing us to avoid
 duplicating code that’s used more than once. Moreover, functions are
 reusable: we can take a function that was originally part of one program
 and use it in others.</p>
@@ -9492,7 +9493,7 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb467-1"><a href="#cb4
 the proper type. There’s just one problem: how will <code>f</code> know
 how long the array is? Unfortunately, C doesn’t provide any easy way for
 a function to determine the length of an array passed to it. Instead,
-we’ll have to supply the length—if the function needs it—as an
+we’ll have to supply the length — if the function needs it — as an
 additional argument.</p>
 <!-- START: div -->
 <div class="infoBox">
@@ -9696,8 +9697,8 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb486-1"><a href="#cb4
 length of <code>c</code> involves two other parameters, but in general
 it could refer to variables outside the function or even call other
 functions.</p>
-<p>Variable length array parameters with a single dimension—as in all
-our examples so far—have limited usefulness. They make a function
+<p>Variable length array parameters with a single dimension — as in all
+our examples so far — have limited usefulness. They make a function
 declaration or definition more descriptive by stating the desired length
 of an array argument. However, no additional error-checking is
 performed: it’s still possible for an array argument to be too long or
@@ -9850,13 +9851,13 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb498-1"><a href="#cb4
 <p>Using <code>return</code> is unnecessary, though, since the function
 will return automatically after its last statement has been
 executed.</p>
-<p>If a non-<code>void</code> function reaches the end of its body—that
-is, it fails to execute a <code>return</code> statement—the behavior of
-the program is undefined if it attempts to use the value returned by the
-function. Some compilers will issue a warning such as “<em>control
-reaches end of non-<code>void</code> function</em>” if they detect the
-possibility of a non-<code>void</code> function “falling off” the end of
-its body.</p>
+<p>If a non-<code>void</code> function reaches the end of its body —
+that is, it fails to execute a <code>return</code> statement — the
+behavior of the program is undefined if it attempts to use the value
+returned by the function. Some compilers will issue a warning such as
+“<em>control reaches end of non-<code>void</code> function</em>” if they
+detect the possibility of a non-<code>void</code> function “falling off”
+the end of its body.</p>
 <h2 id="program-termination">9.5 Program Termination</h2>
 <p>Since <code>main</code> is a function, it must have a return type.
 Normally, the return type of <code>main</code> is <code>int</code>,
@@ -9878,13 +9879,14 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb500-1"><a href="#cb5
 <p><span class="C99Symbol"></span></p>
 <p>Omitting the return type of a function isn’t legal in C99, so it’s
 best to avoid this practice. Omitting the word <code>void</code> in
-main’s parameter list remains legal, but—as a matter of style—it’s best
-to be explicit about the fact that <code>main</code> has no parameters.
-(We’ll see later that <code>main</code> sometimes does have two
-parameters, usually named <code>argc</code> and <code>argv</code>.)</p>
+main’s parameter list remains legal, but — as a matter of style — it’s
+best to be explicit about the fact that <code>main</code> has no
+parameters. (We’ll see later that <code>main</code> sometimes does have
+two parameters, usually named <code>argc</code> and
+<code>argv</code>.)</p>
 <p><span class="QandA"></span></p>
-<p>The value returned by <code>main</code> is a status code that—in some
-operating systems—can be tested when the program terminates,
+<p>The value returned by <code>main</code> is a status code that — in
+some operating systems — can be tested when the program terminates,
 <code>main</code> should return 0 if the program terminates normally; to
 indicate abnormal termination, <code>main</code> should return a value
 other than 0. (Actually, there’s no rule to prevent us from using the
@@ -9927,7 +9929,7 @@ locate all exit points in a program.</p>
 <h2 id="recursion">9.6 Recursion</h2>
 <p>A function is <strong><em>recursive</em></strong> if it calls itself.
 For example, the following function computes <code>n!</code>
-recursively, using the formula <code>n! = n x (n—1)!</code>:</p>
+recursively, using the formula <code>n! = n x (n --- 1)!</code>:</p>
 <div class="sourceCode" id="cb506"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb506-1"><a href="#cb506-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> fact<span class="op">(</span><span class="dt">int</span> n<span class="op">)</span></span>
 <span id="cb506-2"><a href="#cb506-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
@@ -9955,8 +9957,8 @@ causing<br />
 <code>fact (3)</code> to return <code>3 x 2 = 6</code>.</p>
 <p>Notice how the unfinished calls of <code>fact</code> “pile up” until
 <code>fact</code> is finally passed 1. At that point, the old calls of
-<code>fact</code> begin to “unwind” one by one, until the original
-call—<code>fact (3)</code> —finally returns with the answer, 6.</p>
+<code>fact</code> begin to “unwind” one by one, until the original call
+— <code>fact (3)</code> — finally returns with the answer, 6.</p>
 <p>Here’s another example of recursion: a function that computes <span
 class="displayInlineMath"><span
 class="math display"><em>x</em><sup><em>n</em></sup></span></span>,
@@ -10015,12 +10017,12 @@ follows (for simplicity, we’ll assume that the array being sorted is
 indexed from 1 to <code>n</code>):</p>
 <ol type="1">
 <li>Choose an array element <code>e</code> (the “partitioning element”),
-then rearrange the array so that elements <code>1, ..., i — 1</code> are
-less than or equal to <code>e</code>, element <code>i</code> contains
-<code>e</code>, and elements <code>i + 1, ..., n</code> are greater than
-or equal to <code>e</code>.<br />
+then rearrange the array so that elements <code>1, ..., i  ---  1</code>
+are less than or equal to <code>e</code>, element <code>i</code>
+contains <code>e</code>, and elements <code>i + 1, ..., n</code> are
+greater than or equal to <code>e</code>.<br />
 </li>
-<li>Sort elements <code>1, ..., i — 1</code> by using Quicksort
+<li>Sort elements <code>1, ..., i  ---  1</code> by using Quicksort
 recursively.<br />
 </li>
 <li>Sort elements <code>i + 1, ..., n</code> by using Quicksort
@@ -10202,8 +10204,8 @@ down to arrays with one element, it’s better to use a simpler method for
 small arrays (those with fewer than, say, 25 elements).<br />
 </li>
 <li><strong><em>Making Quicksort nonrecursive</em></strong>. Although
-Quicksort is a recursive algorithm by nature—and is easiest to
-understand in recursive form—it’s actually more efficient if the
+Quicksort is a recursive algorithm by nature — and is easiest to
+understand in recursive form — it’s actually more efficient if the
 recursion is removed.</li>
 </ul>
 <p>For details about improving Quicksort, consult a book on algorithm
@@ -10243,7 +10245,7 @@ help you translate:</p>
 </tr>
 </tbody>
 </table>
-<p>Keep in mind that—when no confusion would result—I sometimes
+<p>Keep in mind that — when no confusion would result — I sometimes
 deliberately blur the distinction between the two terms, using
 <em>argument</em> to mean either.</p>
 </div>
@@ -10272,10 +10274,10 @@ I’d avoid using it in new programs, however. for a couple of
 reasons.</p>
 <p>First, functions that are defined in the older way aren’t subject to
 the same degree of error-checking. When a function is defined in the
-older way—and no prototype is present—the compiler won’t check that the
-function is called with the right number of arguments, nor will it check
-that the arguments have the proper types. Instead, it will perform the
-default argument promotions.</p>
+older way — and no prototype is present — the compiler won’t check that
+the function is called with the right number of arguments, nor will it
+check that the arguments have the proper types. Instead, it will perform
+the default argument promotions.</p>
 <p>Second, the C standard says that the older style is “obsolescent,”
 meaning that its use is discouraged and that it may be dropped from C
 eventually.</p>
@@ -10396,9 +10398,10 @@ information about the number and types of its parameters. (Leaving the
 parentheses empty doesn’t necessarily mean that average has no
 parameters.)</p>
 <p>In K&amp;R C, this form of function declaration is the only one
-allowed; the form that we’ve been using—the function prototype, in which
-parameter information is included—was introduced in C89. The older kind
-of function declaration is now obsolescent, although still allowed.</p>
+allowed; the form that we’ve been using — the function prototype, in
+which parameter information is included — was introduced in C89. The
+older kind of function declaration is now obsolescent, although still
+allowed.</p>
 </div>
 <!-- END: div -->
 <hr />
@@ -10777,16 +10780,16 @@ other functions. In a nutshell, a static variable is a place to hide
 data from other functions but retain it for future calls of the same
 function.</p>
 <h3 id="parameters">10.1.2 Parameters</h3>
-<p>Parameters have the same properties—automatic storage duration and
-block scope—as local variables. In fact, the only real difference
+<p>Parameters have the same properties — automatic storage duration and
+block scope — as local variables. In fact, the only real difference
 between parameters and local variables is that each parameter is
 initialized automatically when a function is called (by being assigned
 the value of the corresponding argument).</p>
 <h2 id="external-variables">10.2 External Variables</h2>
 <p>Passing arguments is one way to transmit information to a function.
 Functions can also communicate through <strong><em>external
-variables</em></strong>—variables that are declared outside the body of
-any function.</p>
+variables</em></strong> — variables that are declared outside the body
+of any function.</p>
 <p>The properties of external variables (or <strong><em>global
 variables</em></strong>, as they’re sometimes called) are different from
 those of local variables:</p>
@@ -10809,9 +10812,9 @@ an abstract concept, not a C feature: they can be implemented in most
 programming languages.) A stack, like an array, can store multiple data
 items of the same type. However, the operations on a stack are limited:
 we can either <strong><em>push</em></strong> an item onto the stack (add
-it to one end—the “stack top”) or pop it from the stack (remove it from
-the same end). Examining or modifying an item that’s not at the top of
-the stack is forbidden.</p>
+it to one end — the “stack top”) or pop it from the stack (remove it
+from the same end). Examining or modifying an item that’s not at the top
+of the stack is forbidden.</p>
 <p>One way to implement a stack in C is to store its items in an array,
 which we’ll call <code>contents</code>. A separate integer variable
 named <code>top</code> marks the position of the stack top. When the
@@ -10879,7 +10882,7 @@ file to see how the change affects it.<br />
 </li>
 <li>If an external variable is assigned an incorrect value, it may be
 difficult to identify the guilty function. It’s like trying to solve a
-murder committed at a crowded party—there’s no easy way to narrow the
+murder committed at a crowded party — there’s no easy way to narrow the
 list of suspects.<br />
 </li>
 <li>Functions that rely on external variables are hard to reuse in other
@@ -11241,7 +11244,7 @@ in blocks has two advantages: (1) It avoids cluttering the declarations
 at the beginning of the function body with variables that are used only
 briefly. (2) It reduces name conflicts. In our example, the name
 <code>temp</code> can be used elsewhere in the same function for
-different purposes—the <code>temp</code> variable is strictly local to
+different purposes — the <code>temp</code> variable is strictly local to
 the block in which it’s declared.</p>
 <p><span class="C99Symbol"></span></p>
 <p>C99 allows variables to be declared anywhere within a block, just as
@@ -11455,9 +11458,9 @@ tasks:</p>
 </li>
 <li>Print the classification of the hand.</li>
 </ul>
-<p>We’ll divide the program into three
-functions—<code>read_cards</code>, <code>analyze_hand</code>, and
-<code>print_result</code>—that perform these three tasks.
+<p>We’ll divide the program into three functions —
+<code>read_cards</code>, <code>analyze_hand</code>, and
+<code>print_result</code> — that perform these three tasks.
 <code>main</code> does nothing but call these functions inside an
 endless loop. The functions will need to share a fairly large amount of
 information, so we’ll have them communicate through external variables.
@@ -11898,10 +11901,10 @@ href="./cknkCh10/cknkCh10Prj/">./cknkCh10/cknkCh10Prj/</a></li>
 Compute” — I forget which.</p>
 </div>
 <!-- END: div -->
-<p>Pointers are one of C’s most important—and most often
-misunderstood—features. Because of their importance, we’ll devote three
-chapters to pointers. In this chapter, we’ll concentrate on the basics;
-Chapters 12 and 17 cover more advanced uses of pointers.</p>
+<p>Pointers are one of C’s most important — and most often misunderstood
+— features. Because of their importance, we’ll devote three chapters to
+pointers. In this chapter, we’ll concentrate on the basics; Chapters 12
+and 17 cover more advanced uses of pointers.</p>
 <p>We’ll start with a discussion of memory addresses and their
 relationship to pointer variables (Section 11.1). Section 11.2 then
 introduces the address and indirection operators. Section 11.3 covers
@@ -11951,10 +11954,10 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb539-1"><a href="#cb5
 <p>This declaration states that <code>p</code> is a pointer variable
 capable of pointing to <strong><em>objects</em></strong> of type
 <code>int</code>. I’m using the term <em>object</em> instead of
-<em>variable</em> since—as we’ll see in Chapter 17—<code>p</code> might
-point to an area of memory that doesn’t belong to a variable. (Be aware
-that “object” will have a different meaning when we discuss program
-design in Chapter 19.)</p>
+<em>variable</em> since — as we’ll see in Chapter 17 — <code>p</code>
+might point to an area of memory that doesn’t belong to a variable. (Be
+aware that “object” will have a different meaning when we discuss
+program design in Chapter 19.)</p>
 <p>Pointer variables can appear in declarations along with other
 variables:</p>
 <div class="sourceCode" id="cb540"><pre
@@ -11989,7 +11992,7 @@ doesn’t make it point to an object:</p>
 class="sourceCode c"><code class="sourceCode c"><span id="cb542-1"><a href="#cb542-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">*</span>p<span class="op">;</span> <span class="co">/* points nowhere in particular */</span></span></code></pre></div>
 <p>It’s crucial to initialize <code>p</code> before we use it. One way
 to initialize a pointer variable is to assign it the address of some
-variable—or, more generally, lvalue—using the <code>&amp;</code>
+variable — or, more generally, lvalue — using the <code>&amp;</code>
 operator:</p>
 <div class="sourceCode" id="cb543"><pre
 class="sourceCode c"><code class="sourceCode c"><span id="cb543-1"><a href="#cb543-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> i<span class="op">,</span> <span class="op">*</span>p<span class="op">;</span></span>
@@ -12132,8 +12135,8 @@ discover other uses for pointers in Section 11.5 and in Chapters 12 and
 <p>We saw in Section 9.3 that a variable supplied as an argument in a
 function call is protected against change, because C passes arguments by
 value, This property of C can be a nuisance if we want the function to
-be able to modify the variable. In Section 9.3, we tried—and failed—to
-write a <code>decompose</code> function that could modify two of its
+be able to modify the variable. In Section 9.3, we tried — and failed —
+to write a <code>decompose</code> function that could modify two of its
 arguments.</p>
 <p>Pointers offer a solution to this problem: instead of passing a
 variable <code>x</code> as the argument to a function, we’ll supply
@@ -12570,8 +12573,8 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb586-1"><a href="#cb5
 <span id="cb586-5"><a href="#cb586-5" aria-hidden="true" tabindex="-1"></a>    p <span class="op">=</span> <span class="op">&amp;</span>j<span class="op">;</span> <span class="co">/* legal */</span></span>
 <span id="cb586-6"><a href="#cb586-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <p>Since arguments are passed by value, assigning <code>p</code> a new
-value—by making it point somewhere else—won’t have any effect outside
-the function.</p>
+value — by making it point somewhere else — won’t have any effect
+outside the function.</p>
 </div>
 <!-- END: div -->
 <hr />
@@ -12652,27 +12655,27 @@ href="./cknkCh11/cknkCh11Prj/">./cknkCh11/cknkCh11Prj/</a></li>
 <p>Chapter 11 introduced pointers and showed how they’re used as
 function arguments and as values returned by functions. This chapter
 covers another application for pointers. When pointers point to array
-elements, C allows us to perform arithmetic—addition and subtraction—on
-the pointers, which leads to an alternative way of processing arrays in
-which pointers take the place of array subscripts.</p>
+elements, C allows us to perform arithmetic — addition and subtraction —
+on the pointers, which leads to an alternative way of processing arrays
+in which pointers take the place of array subscripts.</p>
 <p>The relationship between pointers and arrays in C is a close one, as
 we’ll soon see. We’ll exploit this relationship in subsequent chapters,
 including Chapter 13 (Strings) and Chapter 17 (Advanced Uses of
 Pointers). Understanding the connection between pointers and arrays is
 critical for mastering C: it will give you insight into how C was
 designed and help you understand existing programs. Be aware, however,
-that one of the primary reasons for using pointers to process
-arrays—efficiency—is no longer as important as it once was, thanks to
+that one of the primary reasons for using pointers to process arrays —
+efficiency — is no longer as important as it once was, thanks to
 improved compilers.</p>
 <p>Section 12.1 discusses pointer arithmetic and shows how pointers can
 be compared using the relational and equality operators. Section 12.2
 then demonstrates how we can use pointer arithmetic for processing array
-elements. Section 12.3 reveals a key fact about arrays—an array name can
-serve as a pointer to the array’s first element—and uses it to show how
-array arguments really work. Section 12.4 shows how the topics of the
-first three sections apply to multidimensional arrays. Section 12.5
-wraps up the chapter by exploring the relationship between pointers and
-variable-length arrays, a C99 feature.</p>
+elements. Section 12.3 reveals a key fact about arrays — an array name
+can serve as a pointer to the array’s first element — and uses it to
+show how array arguments really work. Section 12.4 shows how the topics
+of the first three sections apply to multidimensional arrays. Section
+12.5 wraps up the chapter by exploring the relationship between pointers
+and variable-length arrays, a C99 feature.</p>
 <h2 id="pointer-arithmetic">12.1 Pointer Arithmetic</h2>
 <p>We saw in Section 11.5 that pointers can point to array elements. For
 example, suppose that <code>a</code> and <code>p</code> have been
@@ -12820,7 +12823,7 @@ iterations (before <code>p</code> has been incremented).</p>
 statement deserves special mention. Strange as it may seem, it’s legal
 to apply the address operator to <code>a[N]</code>, even though this
 element doesn’t exist (<code>a</code> is indexed from 0 to
-<code>N — 1</code>). Using <code>a[N]</code> in this fashion is
+<code>N  ---  1</code>). Using <code>a[N]</code> in this fashion is
 perfectly safe, since the loop doesn’t attempt to examine its value. The
 body of the loop will be executed with <code>p</code> equal to
 <code>&amp;a[0]</code>, <code>&amp;a[1]</code>, <code>...</code>,
@@ -12830,7 +12833,7 @@ body of the loop will be executed with <code>p</code> equal to
 <p>We could just as easily have written the loop without pointers, of
 course, using subscripting instead. The argument most often cited in
 support of pointer arithmetic is that it can save execution time.
-However, that depends on the implementation—some C compilers actually
+However, that depends on the implementation — some C compilers actually
 produce better code for loops that rely on subscripting.</p>
 <h3 id="combining-the-and-operators">12.2.1 Combining the * and ++
 Operators</h3>
@@ -12852,7 +12855,7 @@ class="sourceCode c"><code class="sourceCode c"><span id="cb609-1"><a href="#cb6
 <p>The value of <code>p++</code> is <code>p</code>. (Since we’re using
 the postfix version of <code>++</code>, p won’t be incremented until
 after the expression has been evaluated.) Thus, the value of
-<code>*(p++)</code> will be <code>*p</code>—the object to which
+<code>*(p++)</code> will be <code>*p</code> — the object to which
 <code>p</code> is pointing.</p>
 <p>Of course, <code>*p++</code> isn’t the only legal combination of
 <code>*</code> and <code>++</code>. We could write <code>(*p)++</code>,
@@ -13183,7 +13186,7 @@ undefined.</p>
 <!-- END: div -->
 </li>
 <li>
-<p>A function with an array parameter can be passed an array “slice”—a
+<p>A function with an array parameter can be passed an array “slice” — a
 sequence of consecutive elements. Suppose that we want
 <code>find_largest</code> to locate the largest element in some portion
 of an array <code>b</code>, say elements <code>b[5]</code>,
@@ -13267,9 +13270,9 @@ the last element in the array.</p>
 <p>Although treating a two-dimensional array as one-dimensional may seem
 like cheating, it works with most C compilers. Whether it’s a good idea
 to do so is another matter. Techniques like this one definitely hurt
-program readability, but—at least with some older compilers—produce a
-compensating increase in efficiency. With many modern compilers, though,
-there’s often little or no speed advantage.</p>
+program readability, but — at least with some older compilers — produce
+a compensating increase in efficiency. With many modern compilers,
+though, there’s often little or no speed advantage.</p>
 <h3 id="processing-the-rows-of-a-multidimensional-array">12.4.2
 Processing the Rows of a Multidimensional Array</h3>
 <p>What about processing the elements in just one row of a
@@ -13543,7 +13546,7 @@ the name of an array isn’t a pointer; rather, the C compiler converts it
 to a pointer when necessary. To see this difference more clearly,
 consider what happens when we apply the <code>sizeof</code> operator to
 an array <code>a</code>. The value of <code>sizeof(a)</code> is the
-total number of bytes in the array—the size of each element multiplied
+total number of bytes in the array — the size of each element multiplied
 by the number of elements. But if <code>p</code> is a pointer variable,
 <code>sizeof(p)</code> is the number of bytes required to store a
 pointer value.</p>
@@ -13560,33 +13563,33 @@ with all compilers?</p>
 <!-- START: div -->
 <div class="QandA_answer">
 <p><span class="ans"></span>No. Some modern “bounds-checking” compilers
-track not only the type of a pointer, but—when it points to an
-array—also the length of the array. For example, suppose that
-<code>p</code> is assigned a pointer to <code>a[0][0]</code>.
-Technically, <code>p</code> points to the first element of
-<code>a[0]</code>, a one-dimensional array. If we increment
-<code>p</code> repeatedly in an effort to visit all the elements of
-<code>a</code>, we’ll go out of bounds once <code>p</code> goes past the
-last element of <code>a[0]</code>. A compiler that performs
-bounds-checking may insert code to check that <code>p</code> is used
-only to access elements in the array pointed to by <code>a[0]</code>; an
-attempt to increment <code>p</code> past the end of this array would be
-detected as an error.</p>
+track not only the type of a pointer, but — when it points to an array —
+also the length of the array. For example, suppose that <code>p</code>
+is assigned a pointer to <code>a[0][0]</code>. Technically,
+<code>p</code> points to the first element of <code>a[0]</code>, a
+one-dimensional array. If we increment <code>p</code> repeatedly in an
+effort to visit all the elements of <code>a</code>, we’ll go out of
+bounds once <code>p</code> goes past the last element of
+<code>a[0]</code>. A compiler that performs bounds-checking may insert
+code to check that <code>p</code> is used only to access elements in the
+array pointed to by <code>a[0]</code>; an attempt to increment
+<code>p</code> past the end of this array would be detected as an
+error.</p>
 </div>
 <!-- END: div -->
 <hr />
 <!-- START: div -->
 <div class="QandA_question">
 <p><span class="ques"></span>If <code>a</code> is a two-dimensional
-array, why can we pass <code>a[0]</code>—but not <code>a</code>
-itself—to <code>find_largest</code>? Don’t both <code>a</code> and
+array, why can we pass <code>a[0]</code> — but not <code>a</code> itself
+— to <code>find_largest</code>? Don’t both <code>a</code> and
 <code>a[0]</code> point to the same place (the beginning of the
 array)?</p>
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
-<p><span class="ans"></span>They do, as a matter of fact—both point to
+<p><span class="ans"></span>They do, as a matter of fact — both point to
 element <code>a[0][0]</code>. The problem is that <code>a</code> has the
 wrong type. When used as an argument, it’s a pointer to an array, but
 <code>find_largest</code> is expecting a pointer to an integer. However,

@@ -71,3 +71,9 @@ Notes (book) in HTML: [./CProgrammingKNKing2ndEd.html](./CProgrammingKNKing2ndEd
 - [Examples](./cknkCh12/cknkCh12Exmp)
 - [Exercises](./cknkCh12/cknkCh12Exrc)
 - [Programming Projects](./cknkCh12/cknkCh12Prj)
+
+**[Chapter 13 Strings](./cknkCh13):**
+
+- [Examples](./cknkCh13/cknkCh13Exmp)
+- [Exercises](./cknkCh13/cknkCh13Exrc)
+- [Programming Projects](./cknkCh13/cknkCh13Prj)

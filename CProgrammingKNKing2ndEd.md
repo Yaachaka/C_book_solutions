@@ -2372,7 +2372,7 @@ The expression is now fully parenthesized.
 
 ### 4.4.1 Order of Subexpression Evaluation
 
-The rules of operator precedence and associativity allow us to break any C expression into subexpressions—to determine uniquely where the parentheses would go if the expression were fully parenthesized. Paradoxically, these rules don't always allow us to determine the value of the expression, which may depend on the order in which its subexpressions are evaluated.
+The rules of operator precedence and associativity allow us to break any C expression into subexpressions --- to determine uniquely where the parentheses would go if the expression were fully parenthesized. Paradoxically, these rules don't always allow us to determine the value of the expression, which may depend on the order in which its subexpressions are evaluated.
 
 C doesn't define the order in which subexpressions are evaluated (with the exception of subexpressions involving the logical *and*, logical *or*, conditional, and comma operators). Thus, in the expression `(a + b) * (c - d)` we don't know whether (a + b) will be evaluated before `(c - d)`.
 
@@ -2427,7 +2427,7 @@ According to the C standard, statements such as `c = (b = a + 2) - (a = 1);` and
 
 ## 4.5 Expression Statements
 
-C has the unusual rule that any expression can be used as a statement. That is, any expression—regardless of its type or what it computes—can be turned into a statement by appending a semicolon. For example, we could turn the expression `++i` into a statement:
+C has the unusual rule that any expression can be used as a statement. That is, any expression --- regardless of its type or what it computes --- can be turned into a statement by appending a semicolon. For example, we could turn the expression `++i` into a statement:
 
 ```C
 ++i;
@@ -2649,7 +2649,7 @@ Certain operators that we'll encounter in later chapters (logical *and*. logical
 i + 1;
 ```
 
-When this statement is executed, the value of `i + 1` is computed. Since we have failed to save this value—or at least use it in some way—it is lost.
+When this statement is executed, the value of `i + 1` is computed. Since we have failed to save this value --- or at least use it in some way --- it is lost.
 
 </div>
 <!-- END: div -->
@@ -2796,7 +2796,7 @@ Both `&&` and `||` perform “short-circuit” evaluation of their operands. Tha
 (i != 0) && (j / i > 0)
 ```
 
-To find the value of this expression, we must first evaluate `(i != 0)`. If `i` isn't equal to 0, then we'll need to evaluate `(j / i > 0)` to determine whether the entire expression is true or false. However, if `i` is equal to 0, then the entire expression must be false, so there's no need to evaluate `(j / i > 0)`. The advantage of short circuit evaluation is apparent—without it, evaluating the expression would have caused a division by zero.
+To find the value of this expression, we must first evaluate `(i != 0)`. If `i` isn't equal to 0, then we'll need to evaluate `(j / i > 0)` to determine whether the entire expression is true or false. However, if `i` is equal to 0, then the entire expression must be false, so there's no need to evaluate `(j / i > 0)`. The advantage of short circuit evaluation is apparent --- without it, evaluating the expression would have caused a division by zero.
 
 <!-- START: div -->
 <div class="infoBox">
@@ -2826,7 +2826,7 @@ if(expression) statement
 
 Notice that the parentheses around the expression are mandatory; they're part of the `if` statement, not part of the expression. Also note that the word *then* doesn't come after the parentheses, as it would in some programming languages.
 
-When an `if` statement is executed. the expression in the parentheses is evaluated: if the value of the expression is nonzero—which C interprets as true—the statement after the parentheses is executed. Here's an example:
+When an `if` statement is executed. the expression in the parentheses is evaluated: if the value of the expression is nonzero --- which C interprets as true --- the statement after the parentheses is executed. Here's an example:
 
 ```C
 if (line_num == MAX_LINES)
@@ -2969,7 +2969,7 @@ else
 }
 ```
 
-Adding braces to statements—even when they're not necessary—is like using parentheses in expressions: both techniques help make a program more readable while at the same time avoiding the possibility that the compiler won't understand the program the way we thought it did.
+Adding braces to statements --- even when they're not necessary --- is like using parentheses in expressions: both techniques help make a program more readable while at the same time avoiding the possibility that the compiler won't understand the program the way we thought it did.
 
 Some programmers use as many braces as possible inside `if` statements (and iteration statements as well). A programmer who adopts this convention would include a pair of braces for every `if` clause and every `else` clause:
 
@@ -3397,7 +3397,7 @@ The `switch` statement is fairly complex; let's look at its components one by on
 
 -  ***Controlling expression***. The word switch must be followed by an integer expression in parentheses. Characters are treated as integers in C and thus can be tested in `switch` statements. Floating-point numbers and strings don't qualify, however.  
 - ***Case labels***. Each case begins with a label of the form `case constant-expression: ` A ***constant expression*** is much like an ordinary expression except that it can't contain variables or function calls. Thus, 5 is a constant expression, and `5 + 10` is a constant expression, but `n + 10` isn't a constant expression (unless `n` is a macro that represents a constant). The constant expression in a case label must evaluate to an integer (characters are also acceptable).  
-- ***Statements***. After each case label comes any number of statements. No braces are required around the statements. (Enjoy it—this is one of the few places in C where braces aren't required.) The last statement in each group is normally `break`.  
+- ***Statements***. After each case label comes any number of statements. No braces are required around the statements. (Enjoy it --- this is one of the few places in C where braces aren't required.) The last statement in each group is normally `break`.  
 
 Duplicate case labels aren't allowed. The order of the cases doesn't matter; in particular, the default case doesn't need to come last.
 
@@ -3859,7 +3859,7 @@ A program without a loop and a structured variable isn't worth writing.
 
 Chapter 5 covered C's selection statements, `if` and `switch`. This chapter introduces C's iteration statements, which allow us to set up loops.
 
-A ***loop*** is a statement whose job is to repeatedly execute some other statement (the ***loop body***). In C, every loop has a ***controlling expression***. Each time the loop body is executed (an iteration of the loop), the controlling expression is evaluated; if the expression is true—has a value that's not zero—the loop continues to execute.
+A ***loop*** is a statement whose job is to repeatedly execute some other statement (the ***loop body***). In C, every loop has a ***controlling expression***. Each time the loop body is executed (an iteration of the loop), the controlling expression is evaluated; if the expression is true --- has a value that's not zero --- the loop continues to execute.
 
 C provides three iteration statements: `while`, `do`, and `for`, which are covered in Sections 6.1, 6.2, and 6.3, respectively. The `while` statement is used for loops whose controlling expression is tested *before* the loop body is executed. The *do* statement is used if the expression is tested *after* the loop body is executed. The `for` statement is convenient for loops that increment or decrement a counting variable. Section 6.3 also introduces the comma operator, which is used primarily in `for` statements.
 
@@ -3882,7 +3882,7 @@ while (i < n) /* controlling expression */
 
 Note that the parentheses are mandatory and that nothing goes between the right parenthesis and the loop body. (Some languages require the word `do`.)
 
-When a `while` statement is executed, the controlling expression is evaluated first. If its value is nonzero (true), the loop body is executed and the expression is tested again. The process continues in this fashion—first testing the controlling expression, then executing the loop body—until the controlling expression eventually has the value zero.
+When a `while` statement is executed, the controlling expression is evaluated first. If its value is nonzero (true), the loop body is executed and the expression is tested again. The process continues in this fashion --- first testing the controlling expression, then executing the loop body --- until the controlling expression eventually has the value zero.
 
 The following example uses a `while` statement to compute the smallest power of 2 that is greater than or equal to a number `n`:
 
@@ -4112,7 +4112,7 @@ Enter a nonnegative integer: 60
 The number has 2 digit(s).
 ```
 
-Our strategy will be to divide the user's input by 10 repeatedly until it becomes 0; the number of divisions performed is the number of digits. Clearly we'll need some kind of loop, since we don't know how many divisions it will take to reach 0. But should we use a `while` statement or a `do` statement? The `do` statement turns out to be more attractive, because every integer—even 0—has at least one digit. Here's the program:
+Our strategy will be to divide the user's input by 10 repeatedly until it becomes 0; the number of divisions performed is the number of digits. Clearly we'll need some kind of loop, since we don't know how many divisions it will take to reach 0. But should we use a `while` statement or a `do` statement? The `do` statement turns out to be more attractive, because every integer --- even 0 --- has at least one digit. Here's the program:
 
 ```C
 /*
@@ -4216,7 +4216,7 @@ while (i > 0) {
 }
 ```
 
-Since the first and third expressions in a `for` statement are executed as statements, their values are irrelevant—they're useful only for their side effects. Consequently, these two expressions are usually assignments or increment/decrement expressions.
+Since the first and third expressions in a `for` statement are executed as statements, their values are irrelevant --- they're useful only for their side effects. Consequently, these two expressions are usually assignments or increment/decrement expressions.
 
 ### 6.3.1 `for` statement Idioms
 
@@ -4486,7 +4486,7 @@ After we've examined the `break` statement, we'll look at a couple of related sl
 
 We've already discussed how a `break` statement can transfer control out of a `switch` statement. The `break` statement can also be used to jump out of a `while`, `do`, or `for` loop.
 
-Suppose that we're writing a program that checks whether a number `n` is prime. Our plan is to write a `for` statement that divides `n` by the numbers between 2 and `n — 1`. We should break out of the loop as soon as any divisor is found; there's no need to try the remaining possibilities. After the loop has terminated, we can use an `if` statement to determine whether termination was premature (hence `n` isn't prime) or normal (`n` is prime):
+Suppose that we're writing a program that checks whether a number `n` is prime. Our plan is to write a `for` statement that divides `n` by the numbers between 2 and `n  ---  1`. We should break out of the loop as soon as any divisor is found; there's no need to try the remaining possibilities. After the loop has terminated, we can use an `if` statement to determine whether termination was premature (hence `n` isn't prime) or normal (`n` is prime):
 
 ```C
 for (d = 2; d < n; d++)
@@ -4592,7 +4592,7 @@ for (d = 2; d < n; d++)
 
 <span class="QandA"></span>
 
-The `goto` statement, a staple of older programming languages, is rarely needed in everyday C programming. The `break`, `continue`, and `return` statements  which are essentially restricted `goto` statements—and the `exit` function are sufficient to handle most situations that might require a `goto` in other languages.
+The `goto` statement, a staple of older programming languages, is rarely needed in everyday C programming. The `break`, `continue`, and `return` statements  which are essentially restricted `goto` statements --- and the `exit` function are sufficient to handle most situations that might require a `goto` in other languages.
 
 Nonetheless, the `goto` statement can be helpful once in a while. Consider the problem of exiting a loop from within a switch statement. As we saw earlier, the `break` statement doesn't quite have the desired effect: it exits from the switch, but not from the loop. A `goto` statement solves the problem:
 
@@ -4722,7 +4722,7 @@ Note that the `return` statement is not followed by a `break` statement. A `brea
 
 ## 6.5 The Null Statement
 
-A statement can be ***null***—devoid of symbols except for the semicolon at the end.
+A statement can be ***null*** --- devoid of symbols except for the semicolon at the end.
 
 Here's an example:
 
@@ -5071,7 +5071,7 @@ for(d = 2; d < n && n % d !=0; d++)
 <!-- START: div -->
 <div class="theQuote">
 
-Make no mistake about it: Computers process numbers—not symbols. We measure our understanding (and control) by the extent to which we can arithmetize an activity.
+Make no mistake about it: Computers process numbers --- not symbols. We measure our understanding (and control) by the extent to which we can arithmetize an activity.
 
 </div>
 <!-- END: div -->
@@ -5091,13 +5091,13 @@ The leftmost bit of a ***signed*** integer (known as the sign bit) is 0 if the n
 
 0111111111111111
 
-which has the value 32,767 (2<sup>15</sup> — 1). The largest 32-bit integer is
+which has the value 32,767 (2<sup>15</sup>  ---  1). The largest 32-bit integer is
 
 01111111111111111111111111111111
 
-which has the value 2,147,483,647 (2<sup>31</sup> — 1). An integer with no sign bit (the leftmost bit is considered part of the number's magnitude) is said to be ***unsigned***. The largest 16-bit unsigned integer is 65,535 (2<sup>16</sup> - 1), and the largest 32-bit unsigned integer is 4,294,967,295 (2<sup>32</sup> - 1).
+which has the value 2,147,483,647 (2<sup>31</sup>  ---  1). An integer with no sign bit (the leftmost bit is considered part of the number's magnitude) is said to be ***unsigned***. The largest 16-bit unsigned integer is 65,535 (2<sup>16</sup> - 1), and the largest 32-bit unsigned integer is 4,294,967,295 (2<sup>32</sup> - 1).
 
-By default, integer variables are signed in C—the leftmost bit is reserved for the sign. To tell the compiler that a variable has no sign bit, we declare it to be unsigned. Unsigned numbers are primarily useful for systems programming and low-level, machine-dependent applications. We'll discuss typical applications for unsigned numbers in Chapter 20; until then, we'll generally avoid them.
+By default, integer variables are signed in C --- the leftmost bit is reserved for the sign. To tell the compiler that a variable has no sign bit, we declare it to be unsigned. Unsigned numbers are primarily useful for systems programming and low-level, machine-dependent applications. We'll discuss typical applications for unsigned numbers in Chapter 20; until then, we'll generally avoid them.
 
 </div>
 <!-- END: div -->
@@ -5176,7 +5176,7 @@ In addition to the standard integer types, the C99 standard allows implementatio
 
 ### 7.1.2 Integer Constants
 
-Let's turn our attention to ***constants***—numbers that appear in the text of a program, not numbers that are read, written, or computed. C allows integer constants to be written in decimal (base 10), octal (base 8), or hexadecimal (base 16).
+Let's turn our attention to ***constants*** --- numbers that appear in the text of a program, not numbers that are read, written, or computed. C allows integer constants to be written in decimal (base 10), octal (base 8), or hexadecimal (base 16).
 
 <!-- START: div -->
 <div class="infoBox">
@@ -5525,7 +5525,7 @@ On the other hand, treating characters as numbers can lead to various programmin
 
 ### 7.3.2 Signed and Unsigned Characters
 
-Since C allows characters to be used as integers, it shouldn't be surprising that the `char` type—like the integer types—exists in both `signed` and `unsigned` versions. Signed characters normally have values between —128 and 127, while unsigned characters have values between 0 and 255.
+Since C allows characters to be used as integers, it shouldn't be surprising that the `char` type --- like the integer types --- exists in both `signed` and `unsigned` versions. Signed characters normally have values between  --- 128 and 127, while unsigned characters have values between 0 and 255.
 
 The C standard doesn't specify whether ordinary `char` is a signed or an unsigned type: some compilers treat it as a signed type. while others treat it as an unsigned type. (Some even allow the programmer to select, via a compiler option, whether `char` should be signed or unsigned.)
 
@@ -5600,7 +5600,7 @@ Floating types
 
 ### 7.3.4 Escape Sequences
 
-A character constant is usually one character enclosed in single quotes, as we've seen in previous examples. However, certain special characters—including the new-line character—can't be written in this way, because they're invisible (non-printing) or because they can't be entered from the keyboard. So that programs can deal with every character in the underlying character set, C provides a special notation, the escape sequence.
+A character constant is usually one character enclosed in single quotes, as we've seen in previous examples. However, certain special characters --- including the new-line character --- can't be written in this way, because they're invisible (non-printing) or because they can't be entered from the keyboard. So that programs can deal with every character in the underlying character set, C provides a special notation, the escape sequence.
 
 There are two kinds of escape sequences: ***character escapes*** and ***numeric escapes***. We saw a partial list of character escapes in Section 3.1; Table 7.5 gives the complete set.
 
@@ -5628,7 +5628,7 @@ Character escapes are handy, but they have a problem: the list of character esca
 
 To write a numeric escape for a particular character, first look up the character's octal or hexadecimal value in a table like the one in Appendix E. For example, the ASCII escape character (decimal value: 27) has the value 33 in octal and 1B in hex. Either of these codes can be used to write an escape sequence:
 
-- An ***octal escape sequence*** consists of the `\` character followed by an octal number with at most three digits. (This number must be representable as an unsigned character, so its maximum value is normally 377 octal.) For example, the escape character could be written `\33` or `\033`, Octal numbers in escape sequences—unlike octal constants—don't have to begin with 0.  
+- An ***octal escape sequence*** consists of the `\` character followed by an octal number with at most three digits. (This number must be representable as an unsigned character, so its maximum value is normally 377 octal.) For example, the escape character could be written `\33` or `\033`, Octal numbers in escape sequences --- unlike octal constants --- don't have to begin with 0.  
 - A ***hexadecimal escape sequence*** consists of `\x` followed by a hexadecimal number. Although C places no limit on the number of digits in the hexadecimal number, it must be representable as an unsigned character (hence it can't exceed FF if characters are eight bits long). Using this notation, the escape character would be written `\x1b` or `\x1B`. The `x` must be in lower case, but the hex digits (such as `b`) can be upper or lower case.  
 
 When used as a character constant, an escape sequence must be enclosed in single quotes. For example, a constant representing the escape character would be written `'\33'` (or `'\x1b'`). Escape sequences tend to get a bit cryptic, so it's often a good idea to give them names using `#define`:
@@ -5652,13 +5652,13 @@ if('a' <= ch && ch <= 'z')
     ch = ch - 'a' + 'A';
 ```
 
-This isn't the best method, though. A faster—and more portable—way to convert case is to call C's `toupper` library function:
+This isn't the best method, though. A faster --- and more portable --- way to convert case is to call C's `toupper` library function:
 
 ```C
 ch = toupper (ch); /* converts ch to upper case */
 ```
 
-When it's called, `toupper` checks whether its argument (`ch` in this case) is a lower-case letter. If so, it returns the corresponding upper-case letter. Otherwise, `toupper` returns the value of the argument. In our example, we've used the assignment operator to store the return value of `toupper` back into the `ch` variable, although we could just as easily have done something else with it—stored it in another variable, say, or tested it in an `if` statement:
+When it's called, `toupper` checks whether its argument (`ch` in this case) is a lower-case letter. If so, it returns the corresponding upper-case letter. Otherwise, `toupper` returns the value of the argument. In our example, we've used the assignment operator to store the return value of `toupper` back into the `ch` variable, although we could just as easily have done something else with it --- stored it in another variable, say, or tested it in an `if` statement:
 
 ```C
 if (toupper(ch) == 'A') ...
@@ -6054,7 +6054,7 @@ int dividend, divisor;
 quotient = dividend / divisor;
 ```
 
-As it's now written, the result of the division—an integer—will be converted to `float` form before being stored in quotient. We probably want dividend and divisor converted to `float` before the division, though, so that we get a more exact answer. A cast expression will do the trick:
+As it's now written, the result of the division --- an integer --- will be converted to `float` form before being stored in quotient. We probably want dividend and divisor converted to `float` before the division, though, so that we get a more exact answer. A cast expression will do the trick:
 
 ```C
 quotient = (float) dividend / divisor;
@@ -6127,7 +6127,7 @@ typedef int Bool;
 
 Notice that the name of the type being defined comes *last*. Note also that I've capitalized the word `Bool`. Capitalizing the first letter of a type name isn't required; it's just a convention that some C programmers employ.
 
-Using `typedef` to define `Bool` causes the compiler to add `Bool` to the list of type names that it recognizes. `Bool` can now be used in the same way as the built-in type names—in variable declarations, cast expressions, and elsewhere. For example, we might use `Bool` to declare variables:
+Using `typedef` to define `Bool` causes the compiler to add `Bool` to the list of type names that it recognizes. `Bool` can now be used in the same way as the built-in type names --- in variable declarations, cast expressions, and elsewhere. For example, we might use `Bool` to declare variables:
 
 ```C
 Bool flag; /* same as int flag; */
@@ -6221,7 +6221,7 @@ sizeof ( type-name )
 
 is an unsigned integer representing the number of bytes required to store a value belonging to type-name. `sizeof (char)` is always 1, but the sizes of the other types may vary. On a 32-bit machine, `sizeof (int)` is normally 4. Note that `sizeof` is a rather unusual operator, since the compiler itself can usually determine the value of a `sizeof` expression.
 
-The `sizeof` operator can also be applied to constants, variables, and expressions in general. If `i` and `j` are `int` variables, then `sizeof (i)` is 4 on a 32-bit machine, as is `sizeof (i + j)`. When applied to an expression—as opposed to a type—`sizeof` doesn't require parentheses; we could write `sizeof i` instead of `sizeof (i)`. However, parentheses may be needed anyway because of operator precedence. The compiler would interpret `sizeof i + j` as `(sizeof i) + j`, because sizeof—a unary operator—takes precedence over the binary `+` operator. To avoid problems, I always use parentheses in `sizeof` expressions.
+The `sizeof` operator can also be applied to constants, variables, and expressions in general. If `i` and `j` are `int` variables, then `sizeof (i)` is 4 on a 32-bit machine, as is `sizeof (i + j)`. When applied to an expression --- as opposed to a type --- `sizeof` doesn't require parentheses; we could write `sizeof i` instead of `sizeof (i)`. However, parentheses may be needed anyway because of operator precedence. The compiler would interpret `sizeof i + j` as `(sizeof i) + j`, because sizeof --- a unary operator --- takes precedence over the binary `+` operator. To avoid problems, I always use parentheses in `sizeof` expressions.
 
 Printing a `sizeof` value requires care, because the type of a `sizeof` expression is an implementation-defined type named `size_t`. In C89, it's best to convert the value of the expression to a known type before printing it. `size_t` is guaranteed to be an unsigned integer type, so it's safest to cast a `sizeof` expression to unsigned `long` (the largest of C89's unsigned types) and then print it using the `%lu` conversion:
 
@@ -6393,7 +6393,7 @@ Here's another situation: In some kinds of programs, it's customary to use `char
 <!-- START: div -->
 <div class="QandA_answer">
 
-<span class="ans"></span> Nope. As part of C's UNIX heritage. it always regards the end of a line as being marked by a single line-feed character. (In UNIX text files, a single line-feed character—but no carriage return—appears at the end of each line.) The C library takes care of translating the user's keypress into a line-feed character. When a program reads from a file, the I/O library translates the file's end-of-line marker (whatever it may be) into a single line-feed character. The same transformations occur—in reverse—when output is written to the screen or to a file. (See Section 22.1 for details.)
+<span class="ans"></span> Nope. As part of C's UNIX heritage. it always regards the end of a line as being marked by a single line-feed character. (In UNIX text files, a single line-feed character --- but no carriage return --- appears at the end of each line.) The C library takes care of translating the user's keypress into a line-feed character. When a program reads from a file, the I/O library translates the file's end-of-line marker (whatever it may be) into a single line-feed character. The same transformations occur --- in reverse --- when output is written to the screen or to a file. (See Section 22.1 for details.)
 
 Although these translations may seem confusing, they serve an important purpose: insulating programs from details that may vary from one operating system to another.
 
@@ -6463,7 +6463,7 @@ Although these translations may seem confusing, they serve an important purpose:
 <!-- START: div -->
 <div class="QandA_answer">
 
-<span class="ans"></span> Roughly speaking, if the value is of an integral type and the variable is of an `unsigned` type, the extra bits are thrown away if the variable has a `signed` type, the result is implementation-defined. Assigning a floating-point number to a variable—integer or floating—that's too small to hold it produces undefined behavior: anything can happen, including program termination.
+<span class="ans"></span> Roughly speaking, if the value is of an integral type and the variable is of an `unsigned` type, the extra bits are thrown away if the variable has a `signed` type, the result is implementation-defined. Assigning a floating-point number to a variable --- integer or floating --- that's too small to hold it produces undefined behavior: anything can happen, including program termination.
 
 </div>
 <!-- END: div -->
@@ -6628,7 +6628,7 @@ for (i = 1; i <= 10; i++)
     a[i] = 0;
 ```
 
-With some compilers, this innocent-looking `for` statement causes an infinite loop! When `i` reaches 10, the program stores 0 into `a[10]`. But `a[10]` doesn't exist, so 0 goes into memory immediately after `a[9]`. If the variable `i` happens to follow `a[9]` in memory—as might be the case—then `i` will be reset to 0, causing the loop to start over.
+With some compilers, this innocent-looking `for` statement causes an infinite loop! When `i` reaches 10, the program stores 0 into `a[10]`. But `a[10]` doesn't exist, so 0 goes into memory immediately after `a[9]`. If the variable `i` happens to follow `a[9]` in memory --- as might be the case --- then `i` will be reset to 0, causing the loop to start over.
 
 </div>
 <!-- END: div -->
@@ -6654,7 +6654,7 @@ Let's trace this code. After `i` is set to 0, the `while` statement checks wheth
 
 <span class="warningEmoji"></span>
 
-Be careful when an array subscript has a side effect. For example, the following loop—which is supposed to copy the elements of the array `b` into the array `a` may not work properly:
+Be careful when an array subscript has a side effect. For example, the following loop --- which is supposed to copy the elements of the array `b` into the array `a` may not work properly:
 
 ```C
 i = 0;
@@ -6662,7 +6662,7 @@ while (i < N)
     a[i] = b[i++];
 ```
 
-The expression `a[i] = b[i++]` accesses the value of `i` and also modifies `i` elsewhere in the expression, which—as we saw in Section 4.4—causes undefined behavior. Of course, we can easily avoid the problem by removing the increment from the subscript:
+The expression `a[i] = b[i++]` accesses the value of `i` and also modifies `i` elsewhere in the expression, which --- as we saw in Section 4.4 --- causes undefined behavior. Of course, we can easily avoid the problem by removing the increment from the subscript:
 
 ```C
 for (i = 0; i < N; i++)
@@ -6777,7 +6777,7 @@ Besides being shorter and easier to read (at least for some arrays), designated 
 int a[15] = {[14] = 48, [9] = 7, [2] = 29};
 ```
 
-Designators must be integer constant expressions. If the array being initialized has length `n`, each designator must be between 0 and `n — 1`. However, if the length of the array is omitted, a designator can be any nonnegative integer. In the latter case, the compiler will deduce the length of the array from the largest designator.
+Designators must be integer constant expressions. If the array being initialized has length `n`, each designator must be between 0 and `n  ---  1`. However, if the length of the array is omitted, a designator can be any nonnegative integer. In the latter case, the compiler will deduce the length of the array from the largest designator.
 
 In the following example, the fact that 23 appears as a designator will force the array to have length 24:
 
@@ -6897,7 +6897,7 @@ If we're back to using a macro, though, what's the advantage of sizeof`? We'll a
 
 ### 8.1.7 (PROGRAM) Computing Interest
 
-Our next program prints a table showing the value of $100 invested at different rates of interest over a period of years. The user will enter an interest rate and the number of years the money will be invested. The table will show the value of the money at one-year intervals—at that interest rate and the next four higher rates—assuming that interest is compounded once a year. Here's what a session with the program will look like:
+Our next program prints a table showing the value of $100 invested at different rates of interest over a period of years. The user will enter an interest rate and the number of years the money will be invested. The table will show the value of the money at one-year intervals --- at that interest rate and the next four higher rates --- assuming that interest is compounded once a year. Here's what a session with the program will look like:
 
 ```shell
 Enter interest rate: 6
@@ -6989,7 +6989,7 @@ Although we visualize two-dimensional arrays as tables, that's not the way they'
 
 We'll usually ignore this detail, but sometimes it will affect our code.
 
-Just as `for` loops go hand-in-hand with one-dimensional arrays, nested for loops are ideal for processing multidimensional arrays. Consider, for example, the problem of initializing an array for use as an identity matrix. (In mathematics, an *identity matrix* has 1's on the main diagonal, where the row and column index are the same, and 0's everywhere else.) We'll need to visit each element in the array in some systematic fashion. A pair of nested `for` loops—one that steps through every row index and one that steps through each column index—is perfect for the job:
+Just as `for` loops go hand-in-hand with one-dimensional arrays, nested for loops are ideal for processing multidimensional arrays. Consider, for example, the problem of initializing an array for use as an identity matrix. (In mathematics, an *identity matrix* has 1's on the main diagonal, where the row and column index are the same, and 0's everywhere else.) We'll need to visit each element in the array in some systematic fashion. A pair of nested `for` loops --- one that steps through every row index and one that steps through each column index --- is perfect for the job:
 
 ```C
 #define N 10
@@ -7104,7 +7104,7 @@ Declaring an array to be `const` has a couple of primary advantages. It document
 
 ### 8.2.3 (PROGRAM) Dealing a Hand of Cards
 
-Our next program illustrates both two-dimensional arrays and constant arrays. The program deals a random hand from a standard deck of playing cards. (In case you haven't had time to play games recently, each card in a standard deck has a *suit*--clubs, diamonds, hearts, or spades—and a *rank*—two, three, four, five, six, seven, eight, nine, ten, jack. queen, king, or ace.) We'll have the user specify how many cards should be in the hand:
+Our next program illustrates both two-dimensional arrays and constant arrays. The program deals a random hand from a standard deck of playing cards. (In case you haven't had time to play games recently, each card in a standard deck has a *suit*--clubs, diamonds, hearts, or spades --- and a *rank* --- two, three, four, five, six, seven, eight, nine, ten, jack. queen, king, or ace.) We'll have the user specify how many cards should be in the hand:
 
 ```C
 Enter number of cards in hand: 5
@@ -7117,7 +7117,7 @@ To pick cards randomly, we'll use several C library functions. The `time` functi
 
 To avoid picking the same card twice, we'll need to keep track of which cards have already been chosen. For that purpose, we'll use an array named `in_hand` that has four rows (one for each suit) and 13 columns (one for each rank). In other words, each element in the array corresponds to one of the 52 cards in the deck. All elements of the array will be false to start with. Each time we pick a card at random, we'll check whether the element of `in_hand` corresponding to that card is true or false. If it's true, we'll have to pick another card. If it's false, we'll store true in that card's array element to remind us later that this card has already been picked.
 
-Once we've verified that a card is “new”—not already selected—we'll need to translate its numerical rank and suit into characters and then display the card. To translate the rank and suit to character form, we'll set up two arrays of characters—one for the rank and one for the suit—and then use the numbers to subscript the arrays. These arrays won't change during program execution, so we may as well declare them to be `const`.
+Once we've verified that a card is “new” --- not already selected --- we'll need to translate its numerical rank and suit into characters and then display the card. To translate the rank and suit to character form, we'll set up two arrays of characters --- one for the rank and one for the suit --- and then use the numbers to subscript the arrays. These arrays won't change during program execution, so we may as well declare them to be `const`.
 
 ```C
 /**
@@ -7421,7 +7421,7 @@ If you have a procedure with ten parameters, you probably missed some.
 
 We saw in Chapter 2 that a function is simply a series of statements that have been grouped together and given a name. Although the term “function” comes from mathematics, C functions don't always resemble math functions. In C, a function doesn't necessarily have arguments, nor does it necessarily compute a value. (In some programming languages, a “function” returns a value, whereas a “procedure" doesn't. C lacks this distinction.)
 
-Functions are the building blocks of C programs. Each function is essentially a small program, with its own declarations and statements. Using functions, we can divide a program into small pieces that are easier for us—and others—to understand and modify. Functions can take some of the tedium out of programming by allowing us to avoid duplicating code that's used more than once. Moreover, functions are reusable: we can take a function that was originally part of one program and use it in others.
+Functions are the building blocks of C programs. Each function is essentially a small program, with its own declarations and statements. Using functions, we can divide a program into small pieces that are easier for us --- and others --- to understand and modify. Functions can take some of the tedium out of programming by allowing us to avoid duplicating code that's used more than once. Moreover, functions are reusable: we can take a function that was originally part of one program and use it in others.
 
 Our programs so far have consisted of just the `main` function. In this chapter, we'll see how to write functions other than `main`, and we'll learn more about `main` itself. Section 9.1 shows how to define and call functions. Section 9.2 then discusses function declarations and how they differ from function definitions. Next, Section 9.3 examines how arguments are passed to functions. The remainder of the chapter covers the `return` statement (Section 9.4), the related issue of program termination (Section 9.5), and recursion (Section 9.6).
 
@@ -8025,7 +8025,7 @@ int f(int a[]) /* no length specified */
 }
 ```
 
-The argument can be any one-dimensional array whose elements are of the proper type. There's just one problem: how will `f` know how long the array is? Unfortunately, C doesn't provide any easy way for a function to determine the length of an array passed to it. Instead, we'll have to supply the length—if the function needs it—as an additional argument.
+The argument can be any one-dimensional array whose elements are of the proper type. There's just one problem: how will `f` know how long the array is? Unfortunately, C doesn't provide any easy way for a function to determine the length of an array passed to it. Instead, we'll have to supply the length --- if the function needs it --- as an additional argument.
 
 <!-- START: div -->
 <div class="infoBox">
@@ -8243,7 +8243,7 @@ int concatenate (int m, int n, int a[m], int b[n], int c[m+n])
 
 The length of `c` is the sum of the lengths of `a` and `b`. The expression used to specify the length of `c` involves two other parameters, but in general it could refer to variables outside the function or even call other functions.
 
-Variable length array parameters with a single dimension—as in all our examples so far—have limited usefulness. They make a function declaration or definition more descriptive by stating the desired length of an array argument. However, no additional error-checking is performed: it's still possible for an array argument to be too long or too short.
+Variable length array parameters with a single dimension --- as in all our examples so far --- have limited usefulness. They make a function declaration or definition more descriptive by stating the desired length of an array argument. However, no additional error-checking is performed: it's still possible for an array argument to be too long or too short.
 
 It turns out that variable-length array parameters are most useful for multidimensional arrays. Earlier in this section, we tried to write a function that sums the elements in a two-dimensional array. Our original function was limited to arrays with a fixed number of columns. If we use a variable-length array parameter, we can generalize the function to any number of columns:
 
@@ -8379,7 +8379,7 @@ void print_pun(void)
 
 Using `return` is unnecessary, though, since the function will return automatically after its last statement has been executed.
 
-If a non-`void` function reaches the end of its body—that is, it fails to execute a `return` statement—the behavior of the program is undefined if it attempts to use the value returned by the function. Some compilers will issue a warning such as “*control reaches end of non-`void` function*” if they detect the possibility of a non-`void` function “falling off” the end of its body.
+If a non-`void` function reaches the end of its body --- that is, it fails to execute a `return` statement --- the behavior of the program is undefined if it attempts to use the value returned by the function. Some compilers will issue a warning such as “*control reaches end of non-`void` function*” if they detect the possibility of a non-`void` function “falling off” the end of its body.
 
 ## 9.5 Program Termination
 
@@ -8403,11 +8403,11 @@ main ()
 
 <span class="C99Symbol"></span>
 
-Omitting the return type of a function isn't legal in C99, so it's best to avoid this practice. Omitting the word `void` in main's parameter list remains legal, but—as a matter of style—it's best to be explicit about the fact that `main` has no parameters. (We'll see later that `main` sometimes does have two parameters, usually named `argc` and `argv`.)
+Omitting the return type of a function isn't legal in C99, so it's best to avoid this practice. Omitting the word `void` in main's parameter list remains legal, but --- as a matter of style --- it's best to be explicit about the fact that `main` has no parameters. (We'll see later that `main` sometimes does have two parameters, usually named `argc` and `argv`.)
 
 <span class="QandA"></span>
 
-The value returned by `main` is a status code that—in some operating systems—can be tested when the program terminates, `main` should return 0 if the program terminates normally; to indicate abnormal termination, `main` should return a value other than 0. (Actually, there's no rule to prevent us from using the return value for other purposes.) It's good practice to make sure that every C program returns a status code, even if there are no plans to use it, since someone running the program later may decide to test it.
+The value returned by `main` is a status code that --- in some operating systems --- can be tested when the program terminates, `main` should return 0 if the program terminates normally; to indicate abnormal termination, `main` should return a value other than 0. (Actually, there's no rule to prevent us from using the return value for other purposes.) It's good practice to make sure that every C program returns a status code, even if there are no plans to use it, since someone running the program later may decide to test it.
 
 ### 9.5.1 The `exit` Function
 
@@ -8447,7 +8447,7 @@ The difference between `return` and `exit` is that `exit` causes program termina
 
 ## 9.6 Recursion
 
-A function is ***recursive*** if it calls itself. For example, the following function computes `n!` recursively, using the formula `n! = n x (n—1)!`:
+A function is ***recursive*** if it calls itself. For example, the following function computes `n!` recursively, using the formula `n! = n x (n --- 1)!`:
 
 ```C
 int fact(int n)
@@ -8475,7 +8475,7 @@ Here's what happens:
 --> `fact (2)` to return `2 x 1 = 2`, causing  
 `fact (3)` to return `3 x 2 = 6`.  
 
-Notice how the unfinished calls of `fact` “pile up" until `fact` is finally passed 1. At that point, the old calls of `fact` begin to “unwind” one by one, until the original call—`fact (3)` —finally returns with the answer, 6.
+Notice how the unfinished calls of `fact` “pile up" until `fact` is finally passed 1. At that point, the old calls of `fact` begin to “unwind” one by one, until the original call --- `fact (3)`  --- finally returns with the answer, 6.
 
 Here's another example of recursion: a function that computes <span class="displayInlineMath">$$ x^n $$</span>, using the formula <span class="displayInlineMath">$$ x^n = x \times x^{n-1} $$</span>.
 
@@ -8516,8 +8516,8 @@ At this point, you may wonder why we're bothering with recursion; after all, nei
 
 In practice, recursion often arises naturally as a result of an algorithm design technique known as ***divide-and-conquer***, in which a large problem is divided into smaller pieces that are then tackled by the same algorithm. A classic example of the divide-and-conquer strategy can be found in the popular sorting algorithm known as ***Quicksort***. The Quicksort algorithm goes as follows (for simplicity, we'll assume that the array being sorted is indexed from 1 to `n`):
 
-1. Choose an array element `e` (the "partitioning element"), then rearrange the array so that elements `1, ..., i — 1` are less than or equal to `e`, element `i` contains `e`, and elements `i + 1, ..., n` are greater than or equal to `e`.  
-2. Sort elements `1, ..., i — 1` by using Quicksort recursively.  
+1. Choose an array element `e` (the "partitioning element"), then rearrange the array so that elements `1, ..., i  ---  1` are less than or equal to `e`, element `i` contains `e`, and elements `i + 1, ..., n` are greater than or equal to `e`.  
+2. Sort elements `1, ..., i  ---  1` by using Quicksort recursively.  
 3. Sort elements `i + 1, ..., n` by using Quicksort recursively.  
 
 After step 1, the element `e` is in its proper location. Since the elements to the left of `e` are all less than or equal to it, they'll be in their proper places once they've been sorted in step 2; similar reasoning applies to the elements to the right of `e`.
@@ -8618,7 +8618,7 @@ Although this version of Quicksort works, it's not the best. There are numerous 
 
 - ***Improving the partitioning algorithm***. Our method isn't the most efficient. Instead of choosing the first element in the array as the partitioning element, it's better to take the median of the first element, the middle element, and the last element. The partitioning process itself can also be sped up. In particular, it's possible to avoid the `low < high` tests in the two `while` loops.  
 - ***Using a different method to sort small arrays***. Instead of using Quicksort recursively all the way down to arrays with one element, it's better to use a simpler method for small arrays (those with fewer than, say, 25 elements).  
-- ***Making Quicksort nonrecursive***. Although Quicksort is a recursive algorithm by nature—and is easiest to understand in recursive form—it's actually more efficient if the recursion is removed.
+- ***Making Quicksort nonrecursive***. Although Quicksort is a recursive algorithm by nature --- and is easiest to understand in recursive form --- it's actually more efficient if the recursion is removed.
 
 For details about improving Quicksort, consult a book on algorithm design, such as **Robert Sedgewick**'s *Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching*, Third Edition (Boston, Mass.: Addison-Wesley, 1998).  
 
@@ -8643,7 +8643,7 @@ For details about improving Quicksort, consult a book on algorithm design, such 
 |parameter|formal argument, formal parameter|
 |argument|actual argument, actual parameter|
 
-Keep in mind that—when no confusion would result—I sometimes deliberately blur the distinction between the two terms, using *argument* to mean either.
+Keep in mind that --- when no confusion would result --- I sometimes deliberately blur the distinction between the two terms, using *argument* to mean either.
 
 </div>
 <!-- END: div -->
@@ -8672,7 +8672,7 @@ Is this practice legal?
 
 <span class="ans"></span> This method of defining functions comes from K&R C, so you may encounter it in older books and programs. C89 and C99 support this style so that older programs will still compile. I'd avoid using it in new programs, however. for a couple of reasons.
 
-First, functions that are defined in the older way aren't subject to the same degree of error-checking. When a function is defined in the older way—and no prototype is present—the compiler won't check that the function is called with the right number of arguments, nor will it check that the arguments have the proper types. Instead, it will perform the default argument promotions.
+First, functions that are defined in the older way aren't subject to the same degree of error-checking. When a function is defined in the older way --- and no prototype is present --- the compiler won't check that the function is called with the right number of arguments, nor will it check that the arguments have the proper types. Instead, it will perform the default argument promotions.
 
 Second, the C standard says that the older style is “obsolescent,” meaning that its use is discouraged and that it may be dropped from C eventually.
 
@@ -8795,7 +8795,7 @@ Is this practice legal?
 
 <span class="ans"></span> Yes. This declaration informs the compiler that average returns a `double` value but provides no information about the number and types of its parameters. (Leaving the parentheses empty doesn't necessarily mean that average has no parameters.)
 
-In K&R C, this form of function declaration is the only one allowed; the form that we've been using—the function prototype, in which parameter information is included—was introduced in C89. The older kind of function declaration is now obsolescent, although still allowed.
+In K&R C, this form of function declaration is the only one allowed; the form that we've been using --- the function prototype, in which parameter information is included --- was introduced in C89. The older kind of function declaration is now obsolescent, although still allowed.
 
 </div>
 <!-- END: div -->
@@ -9146,11 +9146,11 @@ A static local variable still has block scope, so it's not visible to other func
 
 ### 10.1.2 Parameters
 
-Parameters have the same properties—automatic storage duration and block scope—as local variables. In fact, the only real difference between parameters and local variables is that each parameter is initialized automatically when a function is called (by being assigned the value of the corresponding argument).
+Parameters have the same properties --- automatic storage duration and block scope --- as local variables. In fact, the only real difference between parameters and local variables is that each parameter is initialized automatically when a function is called (by being assigned the value of the corresponding argument).
 
 ## 10.2 External Variables
 
-Passing arguments is one way to transmit information to a function. Functions can also communicate through ***external variables***—variables that are declared outside the body of any function.
+Passing arguments is one way to transmit information to a function. Functions can also communicate through ***external variables*** --- variables that are declared outside the body of any function.
 
 The properties of external variables (or ***global variables***, as they're sometimes called) are different from those of local variables:
 
@@ -9159,7 +9159,7 @@ The properties of external variables (or ***global variables***, as they're some
 
 ### 10.2.1 Example: Using External Variables to Implement a Stack
 
-To illustrate how external variables might be used. let's look at a data structure known as a ***stack***. (Stacks are an abstract concept, not a C feature: they can be implemented in most programming languages.) A stack, like an array, can store multiple data items of the same type. However, the operations on a stack are limited: we can either ***push*** an item onto the stack (add it to one end—the “stack top”) or pop it from the stack (remove it from the same end). Examining or modifying an item that's not at the top of the stack is forbidden.
+To illustrate how external variables might be used. let's look at a data structure known as a ***stack***. (Stacks are an abstract concept, not a C feature: they can be implemented in most programming languages.) A stack, like an array, can store multiple data items of the same type. However, the operations on a stack are limited: we can either ***push*** an item onto the stack (add it to one end --- the “stack top”) or pop it from the stack (remove it from the same end). Examining or modifying an item that's not at the top of the stack is forbidden.
 
 One way to implement a stack in C is to store its items in an array, which we'll call `contents`. A separate integer variable named `top` marks the position of the stack top. When the stack is empty, `top` has the value 0. To push an item on the stack, we simply store the item in `contents` at the position indicated by `top`, then increment `top`. Popping an item requires decrementing `top`, then using it as an index into `contents` to fetch the item that's being popped.
 
@@ -9210,7 +9210,7 @@ int pop (void)
 External variables are convenient when many functions must share a variable or when a few functions share a large number of variables. In most cases, however, it's better for functions to communicate through parameters rather than by sharing variables. Here's why:
 
 - If we change an external variable during program maintenance (by altering its type, say), we'll need to check every function in the same file to see how the change affects it.  
-- If an external variable is assigned an incorrect value, it may be difficult to identify the guilty function. It's like trying to solve a murder committed at a crowded party—there's no easy way to narrow the list of suspects.  
+- If an external variable is assigned an incorrect value, it may be difficult to identify the guilty function. It's like trying to solve a murder committed at a crowded party --- there's no easy way to narrow the list of suspects.  
 - Functions that rely on external variables are hard to reuse in other programs. A function that depends on external variables isn't self-contained: to reuse the function, we'll have to drag along any external variables that it needs.  
 
 Many C programmers rely far too much on external variables. One common abuse: using the same external variable for different purposes in different functions. Suppose that several functions need a variable named `i` to control a `for` statement. Instead of declaring `i` in each function that uses it, some programmers declare it at the top of the program, thereby making the variable visible to all functions. This practice is poor not only for the reasons listed earlier, but also because it's misleading; someone reading the program later may think that the uses of the variable are related, when in fact they're not.
@@ -9544,7 +9544,7 @@ if(i > j){
 
 By default, the storage duration of a variable declared in a block is automatic: storage for the variable is allocated when the block is entered and deallocated when the block is exited. The variable has block scope: it can't be referenced outside the block. A variable that belongs to a block can be declared `static` to give it static storage duration,
 
-The body of a function is a block. Blocks are also useful inside a function body when we need variables for temporary use. In our last example, we needed a variable temporarily so that we could swap the values of `i` and `j`. Putting temporary variables in blocks has two advantages: (1) It avoids cluttering the declarations at the beginning of the function body with variables that are used only briefly. (2) It reduces name conflicts. In our example, the name `temp` can be used elsewhere in the same function for different purposes—the `temp` variable is strictly local to the block in which it's declared.
+The body of a function is a block. Blocks are also useful inside a function body when we need variables for temporary use. In our last example, we needed a variable temporarily so that we could swap the values of `i` and `j`. Putting temporary variables in blocks has two advantages: (1) It avoids cluttering the declarations at the beginning of the function body with variables that are used only briefly. (2) It reduces name conflicts. In our example, the name `temp` can be used elsewhere in the same function for different purposes --- the `temp` variable is strictly local to the block in which it's declared.
 
 <span class="C99Symbol"></span>
 
@@ -9687,7 +9687,7 @@ From this description of the program, we see that it has three tasks:
 - Analyze the hand for pairs, straights, and so forth.  
 - Print the classification of the hand.  
 
-We'll divide the program into three functions—`read_cards`, `analyze_hand`, and `print_result`—that perform these three tasks. `main` does nothing but call these functions inside an endless loop. The functions will need to share a fairly large amount of information, so we'll have them communicate through external variables. `read_cards` will store information about the hand into several external variables, `analyze_hand` will then examine these variables, storing its findings into other external variables for the benefit of `print_result`.
+We'll divide the program into three functions --- `read_cards`, `analyze_hand`, and `print_result` --- that perform these three tasks. `main` does nothing but call these functions inside an endless loop. The functions will need to share a fairly large amount of information, so we'll have them communicate through external variables. `read_cards` will store information about the hand into several external variables, `analyze_hand` will then examine these variables, storing its findings into other external variables for the benefit of `print_result`.
 
 Based on this preliminary design, we can begin to sketch an outline of the program:
 
@@ -10100,12 +10100,12 @@ Is this code legal? If so, what is `j`'s initial value, 1 or 2?
 <!-- START: div -->
 <div class="theQuote">
 
-The 11th commandment was "Thou Shalt Compute" or "Thou Shalt Not Compute" — I forget which.
+The 11th commandment was "Thou Shalt Compute" or "Thou Shalt Not Compute"  ---  I forget which.
 
 </div>
 <!-- END: div -->
 
-Pointers are one of C's most important—and most often misunderstood—features. Because of their importance, we'll devote three chapters to pointers. In this chapter, we'll concentrate on the basics; Chapters 12 and 17 cover more advanced uses of pointers.
+Pointers are one of C's most important --- and most often misunderstood --- features. Because of their importance, we'll devote three chapters to pointers. In this chapter, we'll concentrate on the basics; Chapters 12 and 17 cover more advanced uses of pointers.
 
 We'll start with a discussion of memory addresses and their relationship to pointer variables (Section 11.1). Section 11.2 then introduces the address and indirection operators. Section 11.3 covers pointer assignment. Section 11.4 explains how to pass pointers to functions, while Section 11.5 discusses returning pointers from functions.
 
@@ -10139,7 +10139,7 @@ A pointer variable is declared in much the same way as an ordinary variable. The
 int *p;
 ```
 
-This declaration states that `p` is a pointer variable capable of pointing to ***objects*** of type `int`. I'm using the term *object* instead of *variable* since—as we'll see in Chapter 17—`p` might point to an area of memory that doesn't belong to a variable. (Be aware that "object" will have a different meaning when we discuss program
+This declaration states that `p` is a pointer variable capable of pointing to ***objects*** of type `int`. I'm using the term *object* instead of *variable* since --- as we'll see in Chapter 17 --- `p` might point to an area of memory that doesn't belong to a variable. (Be aware that "object" will have a different meaning when we discuss program
 design in Chapter 19.)
 
 Pointer variables can appear in declarations along with other variables:
@@ -10172,7 +10172,7 @@ Declaring a pointer variable sets aside space for a pointer but doesn't make it 
 int *p; /* points nowhere in particular */
 ```
 
-It's crucial to initialize `p` before we use it. One way to initialize a pointer variable is to assign it the address of some variable—or, more generally, lvalue—using the `&` operator:
+It's crucial to initialize `p` before we use it. One way to initialize a pointer variable is to assign it the address of some variable --- or, more generally, lvalue --- using the `&` operator:
 
 ```C
 int i, *p;
@@ -10342,7 +10342,7 @@ The assignment `*q = *p` copies the value that `p` points to (the value of `i`) 
 
 So far, we've managed to avoid a rather important question: What are pointers good for? There's no single answer to that question, since pointers have several distinct uses in C. In this section, we'll see how a pointer to a variable can be useful as a function argument. We'll discover other uses for pointers in Section 11.5 and in Chapters 12 and 17.
 
-We saw in Section 9.3 that a variable supplied as an argument in a function call is protected against change, because C passes arguments by value, This property of C can be a nuisance if we want the function to be able to modify the variable. In Section 9.3, we tried—and failed—to write a `decompose` function that could modify two of its arguments.
+We saw in Section 9.3 that a variable supplied as an argument in a function call is protected against change, because C passes arguments by value, This property of C can be a nuisance if we want the function to be able to modify the variable. In Section 9.3, we tried --- and failed --- to write a `decompose` function that could modify two of its arguments.
 
 Pointers offer a solution to this problem: instead of passing a variable `x` as the argument to a function, we'll supply `&x`, a pointer to `x`. We'll declare the corresponding parameter `p` to be a pointer. When the function is called, `p` will have the value `&x`, hence `*p` (the object that `p` points to) will be an alias for `x`. Each appearance of `*p` in the body of the function will be an indirect reference to `x`, allowing the function both to read `x` and to modify it.
 
@@ -10764,7 +10764,7 @@ void f(const int *p)
 }
 ```
 
-Since arguments are passed by value, assigning `p` a new value—by making it point somewhere else—won't have any effect outside the function.
+Since arguments are passed by value, assigning `p` a new value --- by making it point somewhere else --- won't have any effect outside the function.
 
 </div>
 <!-- END: div -->
@@ -10843,11 +10843,11 @@ Optimization hinders evolution.
 </div>
 <!-- END: div -->
 
-Chapter 11 introduced pointers and showed how they're used as function arguments and as values returned by functions. This chapter covers another application for pointers. When pointers point to array elements, C allows us to perform arithmetic—addition and subtraction—on the pointers, which leads to an alternative way of processing arrays in which pointers take the place of array subscripts.
+Chapter 11 introduced pointers and showed how they're used as function arguments and as values returned by functions. This chapter covers another application for pointers. When pointers point to array elements, C allows us to perform arithmetic --- addition and subtraction --- on the pointers, which leads to an alternative way of processing arrays in which pointers take the place of array subscripts.
 
-The relationship between pointers and arrays in C is a close one, as we'll soon see. We'll exploit this relationship in subsequent chapters, including Chapter 13 (Strings) and Chapter 17 (Advanced Uses of Pointers). Understanding the connection between pointers and arrays is critical for mastering C: it will give you insight into how C was designed and help you understand existing programs. Be aware, however, that one of the primary reasons for using pointers to process arrays—efficiency—is no longer as important as it once was, thanks to improved compilers.
+The relationship between pointers and arrays in C is a close one, as we'll soon see. We'll exploit this relationship in subsequent chapters, including Chapter 13 (Strings) and Chapter 17 (Advanced Uses of Pointers). Understanding the connection between pointers and arrays is critical for mastering C: it will give you insight into how C was designed and help you understand existing programs. Be aware, however, that one of the primary reasons for using pointers to process arrays --- efficiency --- is no longer as important as it once was, thanks to improved compilers.
 
-Section 12.1 discusses pointer arithmetic and shows how pointers can be compared using the relational and equality operators. Section 12.2 then demonstrates how we can use pointer arithmetic for processing array elements. Section 12.3 reveals a key fact about arrays—an array name can serve as a pointer to the array's first element—and uses it to show how array arguments really work. Section 12.4 shows how the topics of the first three sections apply to multidimensional arrays. Section 12.5 wraps up the chapter by exploring the relationship between pointers and variable-length arrays, a C99 feature.
+Section 12.1 discusses pointer arithmetic and shows how pointers can be compared using the relational and equality operators. Section 12.2 then demonstrates how we can use pointer arithmetic for processing array elements. Section 12.3 reveals a key fact about arrays --- an array name can serve as a pointer to the array's first element --- and uses it to show how array arguments really work. Section 12.4 shows how the topics of the first three sections apply to multidimensional arrays. Section 12.5 wraps up the chapter by exploring the relationship between pointers and variable-length arrays, a C99 feature.
 
 ## 12.1 Pointer Arithmetic
 
@@ -11023,11 +11023,11 @@ At the end of the third iteration
 
 <img src="./images/cknkCh12Sec12p2_3.png" alt="cknkCh12Sec12p2_3.png"/>
 
-The condition `p < &a[N]` in the `for` statement deserves special mention. Strange as it may seem, it's legal to apply the address operator to `a[N]`, even though this element doesn't exist (`a` is indexed from 0 to `N — 1`). Using `a[N]` in this fashion is perfectly safe, since the loop doesn't attempt to examine its value. The body of the loop will be executed with `p` equal to `&a[0]`, `&a[1]`, `...`, `&a [N-1]`, but when `p` is equal to `&a[N]`, the loop terminates.
+The condition `p < &a[N]` in the `for` statement deserves special mention. Strange as it may seem, it's legal to apply the address operator to `a[N]`, even though this element doesn't exist (`a` is indexed from 0 to `N  ---  1`). Using `a[N]` in this fashion is perfectly safe, since the loop doesn't attempt to examine its value. The body of the loop will be executed with `p` equal to `&a[0]`, `&a[1]`, `...`, `&a [N-1]`, but when `p` is equal to `&a[N]`, the loop terminates.
 
 <span class="QandA"></span>
 
-We could just as easily have written the loop without pointers, of course, using subscripting instead. The argument most often cited in support of pointer arithmetic is that it can save execution time. However, that depends on the implementation—some C compilers actually produce better code for loops that rely on subscripting.
+We could just as easily have written the loop without pointers, of course, using subscripting instead. The argument most often cited in support of pointer arithmetic is that it can save execution time. However, that depends on the implementation --- some C compilers actually produce better code for loops that rely on subscripting.
 
 ### 12.2.1 Combining the * and ++ Operators
 
@@ -11049,7 +11049,7 @@ Because the postfix version of `++` takes precedence over `*`, the compiler sees
 *(p++) = j;
 ```
 
-The value of `p++` is `p`. (Since we're using the postfix version of `++`, p won't be incremented until after the expression has been evaluated.) Thus, the value of `*(p++)` will be `*p`—the object to which `p` is pointing.
+The value of `p++` is `p`. (Since we're using the postfix version of `++`, p won't be incremented until after the expression has been evaluated.) Thus, the value of `*(p++)` will be `*p` --- the object to which `p` is pointing.
 
 Of course, `*p++` isn't the only legal combination of `*` and `++`. We could write `(*p)++`, for example, which returns the value of the object that `p` points to, and then increments that object (`p` itself is unchanged). If you find this confusing, the following table may help:
 
@@ -11404,7 +11404,7 @@ will store 0 where `a` is pointing. Since we don't know where `a` is pointing, t
 </li>
 <li>
 
-A function with an array parameter can be passed an array "slice"—a sequence of consecutive elements. Suppose that we want `find_largest` to locate the largest element in some portion of an array `b`, say elements `b[5]`, `...`, `b[14]`. When we call `find_largest`, we'll pass it the address of `b[5]` and the number 10, indicating that we want `find_largest` to examine 10 array elements, starting at `b[5]`:
+A function with an array parameter can be passed an array "slice" --- a sequence of consecutive elements. Suppose that we want `find_largest` to locate the largest element in some portion of an array `b`, say elements `b[5]`, `...`, `b[14]`. When we call `find_largest`, we'll pass it the address of `b[5]` and the number 10, indicating that we want `find_largest` to examine 10 array elements, starting at `b[5]`:
 
 ```C
 largest = find_largest (&b[5], 10);
@@ -11470,7 +11470,7 @@ The loop begins with `p` pointing to `a[0][0]`. Successive increments of `p` mak
 
 <span class="QandA"></span>
 
-Although treating a two-dimensional array as one-dimensional may seem like cheating, it works with most C compilers. Whether it's a good idea to do so is another matter. Techniques like this one definitely hurt program readability, but—at least with some older compilers—produce a compensating increase in efficiency. With many modern compilers, though, there's often little or no speed advantage.
+Although treating a two-dimensional array as one-dimensional may seem like cheating, it works with most C compilers. Whether it's a good idea to do so is another matter. Techniques like this one definitely hurt program readability, but --- at least with some older compilers --- produce a compensating increase in efficiency. With many modern compilers, though, there's often little or no speed advantage.
 
 ### 12.4.2 Processing the Rows of a Multidimensional Array
 
@@ -11705,7 +11705,7 @@ for(p = a; p < a + m; p++)
 <!-- START: div -->
 <div class="QandA_answer">
 
-<span class="ans"></span>No. It's true that array *parameters* are interchangeable with pointer parameters, but array *variables* aren't the same as pointer variables. Technically, the name of an array isn't a pointer; rather, the C compiler converts it to a pointer when necessary. To see this difference more clearly, consider what happens when we apply the `sizeof` operator to an array `a`. The value of `sizeof(a)` is the total number of bytes in the array—the size of each element multiplied by the number of elements. But if `p` is a pointer variable, `sizeof(p)` is the number of bytes required to store a pointer value.
+<span class="ans"></span>No. It's true that array *parameters* are interchangeable with pointer parameters, but array *variables* aren't the same as pointer variables. Technically, the name of an array isn't a pointer; rather, the C compiler converts it to a pointer when necessary. To see this difference more clearly, consider what happens when we apply the `sizeof` operator to an array `a`. The value of `sizeof(a)` is the total number of bytes in the array --- the size of each element multiplied by the number of elements. But if `p` is a pointer variable, `sizeof(p)` is the number of bytes required to store a pointer value.
 
 </div>
 <!-- END: div -->
@@ -11722,7 +11722,7 @@ for(p = a; p < a + m; p++)
 <!-- START: div -->
 <div class="QandA_answer">
 
-<span class="ans"></span>No. Some modern "bounds-checking" compilers track not only the type of a pointer, but—when it points to an array—also the length of the array. For example, suppose that `p` is assigned a pointer to `a[0][0]`. Technically, `p` points to the first element of `a[0]`, a one-dimensional array. If we increment `p` repeatedly in an effort to visit all the elements of `a`, we'll go out of bounds once `p` goes past the last element of  `a[0]`. A compiler that performs bounds-checking may insert code to check that `p` is used only to access elements in the array pointed to by `a[0]`; an attempt to increment `p` past the end of this array would be detected as an error.
+<span class="ans"></span>No. Some modern "bounds-checking" compilers track not only the type of a pointer, but --- when it points to an array --- also the length of the array. For example, suppose that `p` is assigned a pointer to `a[0][0]`. Technically, `p` points to the first element of `a[0]`, a one-dimensional array. If we increment `p` repeatedly in an effort to visit all the elements of `a`, we'll go out of bounds once `p` goes past the last element of  `a[0]`. A compiler that performs bounds-checking may insert code to check that `p` is used only to access elements in the array pointed to by `a[0]`; an attempt to increment `p` past the end of this array would be detected as an error.
 
 </div>
 <!-- END: div -->
@@ -11732,14 +11732,14 @@ for(p = a; p < a + m; p++)
 <!-- START: div -->
 <div class="QandA_question">
 
-<span class="ques"></span>If `a` is a two-dimensional array, why can we pass `a[0]`—but not `a` itself—to `find_largest`? Don't both `a` and `a[0]` point to the same place (the beginning of the array)?
+<span class="ques"></span>If `a` is a two-dimensional array, why can we pass `a[0]` --- but not `a` itself --- to `find_largest`? Don't both `a` and `a[0]` point to the same place (the beginning of the array)?
 
 </div>
 <!-- END: div -->
 <!-- START: div -->
 <div class="QandA_answer">
 
-<span class="ans"></span>They do, as a matter of fact—both point to element `a[0][0]`. The problem is that `a` has the wrong type. When used as an argument, it's a pointer to an array, but `find_largest` is expecting a pointer to an integer. However, `a[0]` has type `int *`, so it's an acceptable argument for `find_largest`. This concern about types is actually good: if C weren't so picky, we could make all kinds of horrible pointer mistakes without the compiler noticing.
+<span class="ans"></span>They do, as a matter of fact --- both point to element `a[0][0]`. The problem is that `a` has the wrong type. When used as an argument, it's a pointer to an array, but `find_largest` is expecting a pointer to an integer. However, `a[0]` has type `int *`, so it's an acceptable argument for `find_largest`. This concern about types is actually good: if C weren't so picky, we could make all kinds of horrible pointer mistakes without the compiler noticing.
 
 </div>
 <!-- END: div -->
