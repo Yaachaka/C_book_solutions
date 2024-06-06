@@ -630,7 +630,7 @@ b. Rewrite the `capitalize` function, this time using pointer arithmetic to acce
 
 ## Program Link
 
-[cknkCh13Exrc005.c](./cknkCh13Exrc005.c)
+[cknkCh13Exrc005a.c](./cknkCh13Exrc005a.c)
 
 ## Output/ExecutionLog:
 
@@ -641,26 +641,60 @@ b. Rewrite the `capitalize` function, this time using pointer arithmetic to acce
 <!-- START: terminal interaction or other output -->
 
 ```
+Enter your message: Hello 1234... How are you 1234???
+The message after capitalizing: HELLO 1234... HOW ARE YOU 1234???
 
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial1 Comments:
+### Trial2:
 
-<!-- START: Comments -->
+#### Trial2 execution:
 
+<!-- START: terminal interaction or other output -->
 
+```
+Enter your message: He lives at #22, 5th street, @Paradise
+The message after capitalizing: HE LIVES AT #22, 5TH STREET, @PARADISE
 
-<!-- END: Comments -->
+```
 
-# Exercise Comment:
+<!-- END: terminal interaction or other output -->
 
-<!-- START: Comments -->
+## Program Link
 
+[cknkCh13Exrc005b.c](./cknkCh13Exrc005b.c)
 
+## Output/ExecutionLog:
 
-<!-- END: Comments -->
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter your message: Hello 1234... How are you 1234???
+The message after capitalizing: HELLO 1234... HOW ARE YOU 1234???
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter your message: He lives at #22, 5th street, @Paradise
+The message after capitalizing: HE LIVES AT #22, 5TH STREET, @PARADISE
+
+```
+
+<!-- END: terminal interaction or other output -->
 
 </div>
 <!-- END: div -->

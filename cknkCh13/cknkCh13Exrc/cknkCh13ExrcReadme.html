@@ -482,23 +482,43 @@ pointer arithmetic to access the characters in the string.</li>
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-4">Solution:</h1>
+<section id="solution-4" class="ch_solution">
+<h1>Solution:</h1>
 <h2 id="program-link-7">Program Link</h2>
-<p><a href="./cknkCh13Exrc005.c">cknkCh13Exrc005.c</a></p>
+<p><a href="./cknkCh13Exrc005a.c">cknkCh13Exrc005a.c</a></p>
 <h2 id="outputexecutionlog-7">Output/ExecutionLog:</h2>
 <h3 id="trial1-7">Trial1:</h3>
 <h4 id="trial1-execution-7">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
+<pre><code>Enter your message: Hello 1234... How are you 1234???
+The message after capitalizing: HELLO 1234... HOW ARE YOU 1234???
+</code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-1">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+<h3 id="trial2-4">Trial2:</h3>
+<h4 id="trial2-execution-4">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter your message: He lives at #22, 5th street, @Paradise
+The message after capitalizing: HE LIVES AT #22, 5TH STREET, @PARADISE
+</code></pre>
+<!-- END: terminal interaction or other output -->
+<h2 id="program-link-8">Program Link</h2>
+<p><a href="./cknkCh13Exrc005b.c">cknkCh13Exrc005b.c</a></p>
+<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
+<h3 id="trial1-8">Trial1:</h3>
+<h4 id="trial1-execution-8">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter your message: Hello 1234... How are you 1234???
+The message after capitalizing: HELLO 1234... HOW ARE YOU 1234???
+</code></pre>
+<!-- END: terminal interaction or other output -->
+<h3 id="trial2-5">Trial2:</h3>
+<h4 id="trial2-execution-5">Trial2 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code>Enter your message: He lives at #22, 5th street, @Paradise
+The message after capitalizing: HE LIVES AT #22, 5TH STREET, @PARADISE
+</code></pre>
+<!-- END: terminal interaction or other output -->
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -517,18 +537,18 @@ sacrificing clarity.</p>
 <!-- START: div -->
 <div class="ch_solution">
 <h1 id="solution-5">Solution:</h1>
-<h2 id="program-link-8">Program Link</h2>
+<h2 id="program-link-9">Program Link</h2>
 <p><a href="./cknkCh13Exrc006.c">cknkCh13Exrc006.c</a></p>
-<h2 id="outputexecutionlog-8">Output/ExecutionLog:</h2>
-<h3 id="trial1-8">Trial1:</h3>
-<h4 id="trial1-execution-8">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
+<h3 id="trial1-9">Trial1:</h3>
+<h4 id="trial1-execution-9">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-2">Trial1 Comments:</h4>
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-1">Exercise Comment:</h1>
+<h1 id="exercise-comment">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -556,11 +576,44 @@ the following statements is not equivalent to the other three?</p>
 <!-- START: div -->
 <div class="ch_solution">
 <h1 id="solution-6">Solution:</h1>
-<h2 id="program-link-9">Program Link</h2>
+<h2 id="program-link-10">Program Link</h2>
 <p><a href="./cknkCh13Exrc007.c">cknkCh13Exrc007.c</a></p>
-<h2 id="outputexecutionlog-9">Output/ExecutionLog:</h2>
-<h3 id="trial1-9">Trial1:</h3>
-<h4 id="trial1-execution-9">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
+<h3 id="trial1-10">Trial1:</h3>
+<h4 id="trial1-execution-10">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc008" class="ch_problem">
+<h1>cknkCh13Exrc008</h1>
+<p>Section 13.5</p>
+<!-- START: Problem Statement -->
+<p>What will be the value of the string <code>str</code> after the
+following statements have been executed?</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>str<span class="op">,</span> <span class="st">&quot;tire-bouchon&quot;</span><span class="op">);</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(&amp;</span>str<span class="op">[</span><span class="dv">4</span><span class="op">],</span> <span class="st">&quot;d-or-wi&quot;</span><span class="op">);</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>strcat<span class="op">(</span>str<span class="op">,</span> <span class="st">&quot;red?&quot;</span><span class="op">);</span></span></code></pre></div>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-7">Solution:</h1>
+<h2 id="program-link-11">Program Link</h2>
+<p><a href="./cknkCh13Exrc008.c">cknkCh13Exrc008.c</a></p>
+<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
+<h3 id="trial1-11">Trial1:</h3>
+<h4 id="trial1-execution-11">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
@@ -574,26 +627,31 @@ the following statements is not equivalent to the other three?</p>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
-<section id="cknkch13exrc008" class="ch_problem">
-<h1>cknkCh13Exrc008</h1>
+<section id="cknkch13exrc009" class="ch_problem">
+<h1>cknkCh13Exrc009</h1>
 <p>Section 13.5</p>
 <!-- START: Problem Statement -->
-<p>What will be the value of the string <code>str</code> after the
+<p>What will be the value of the string <code>s1</code> after the
 following statements have been executed?</p>
-<div class="sourceCode" id="cb22"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>str<span class="op">,</span> <span class="st">&quot;tire-bouchon&quot;</span><span class="op">);</span></span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(&amp;</span>str<span class="op">[</span><span class="dv">4</span><span class="op">],</span> <span class="st">&quot;d-or-wi&quot;</span><span class="op">);</span></span>
-<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>strcat<span class="op">(</span>str<span class="op">,</span> <span class="st">&quot;red?&quot;</span><span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb27"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>s1<span class="op">,</span> <span class="st">&quot;computer&quot;</span><span class="op">);</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>s2<span class="op">,</span> <span class="st">&quot;science&quot;</span><span class="op">);</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>strcmp<span class="op">(</span>s1<span class="op">,</span> s2<span class="op">)</span> <span class="op">&lt;</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>    strcat<span class="op">(</span>s1<span class="op">,</span> s2<span class="op">);</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>    strcat<span class="op">(</span>s2<span class="op">,</span> s1<span class="op">);</span></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>s1<span class="op">[</span>strlen<span class="op">(</span>s1<span class="op">)</span> <span class="op">-</span> <span class="dv">6</span><span class="op">]</span> <span class="op">=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 </section>
 <!-- END: div -->
 <!-- START: div -->
 <div class="ch_solution">
-<h1 id="solution-7">Solution:</h1>
-<h2 id="program-link-10">Program Link</h2>
-<p><a href="./cknkCh13Exrc008.c">cknkCh13Exrc008.c</a></p>
-<h2 id="outputexecutionlog-10">Output/ExecutionLog:</h2>
-<h3 id="trial1-10">Trial1:</h3>
-<h4 id="trial1-execution-10">Trial1 execution:</h4>
+<h1 id="solution-8">Solution:</h1>
+<h2 id="program-link-12">Program Link</h2>
+<p><a href="./cknkCh13Exrc009.c">cknkCh13Exrc009.c</a></p>
+<h2 id="outputexecutionlog-12">Output/ExecutionLog:</h2>
+<h3 id="trial1-12">Trial1:</h3>
+<h4 id="trial1-execution-12">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
@@ -607,31 +665,30 @@ following statements have been executed?</p>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
-<section id="cknkch13exrc009" class="ch_problem">
-<h1>cknkCh13Exrc009</h1>
+<section id="cknkch13exrc010" class="ch_problem">
+<h1>cknkCh13Exrc010</h1>
 <p>Section 13.5</p>
 <!-- START: Problem Statement -->
-<p>What will be the value of the string <code>s1</code> after the
-following statements have been executed?</p>
-<div class="sourceCode" id="cb24"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>s1<span class="op">,</span> <span class="st">&quot;computer&quot;</span><span class="op">);</span></span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>strcpy<span class="op">(</span>s2<span class="op">,</span> <span class="st">&quot;science&quot;</span><span class="op">);</span></span>
-<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>strcmp<span class="op">(</span>s1<span class="op">,</span> s2<span class="op">)</span> <span class="op">&lt;</span> <span class="dv">0</span><span class="op">)</span></span>
-<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    strcat<span class="op">(</span>s1<span class="op">,</span> s2<span class="op">);</span></span>
-<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
-<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    strcat<span class="op">(</span>s2<span class="op">,</span> s1<span class="op">);</span></span>
-<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>s1<span class="op">[</span>strlen<span class="op">(</span>s1<span class="op">)</span> <span class="op">-</span> <span class="dv">6</span><span class="op">]</span> <span class="op">=</span> <span class="ch">&#39;\0&#39;</span><span class="op">;</span></span></code></pre></div>
+<p>The following function supposedly creates an identical copy of a
+string. What’s wrong with the function?</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>duplicate<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>p<span class="op">)</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> <span class="op">*</span>q<span class="op">;</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>    strcpy<span class="op">(</span>q<span class="op">,</span> p<span class="op">);</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> q<span class="op">;</span></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <!-- END: Problem Statement -->
 </section>
 <!-- END: div -->
 <!-- START: div -->
 <div class="ch_solution">
-<h1 id="solution-8">Solution:</h1>
-<h2 id="program-link-11">Program Link</h2>
-<p><a href="./cknkCh13Exrc009.c">cknkCh13Exrc009.c</a></p>
-<h2 id="outputexecutionlog-11">Output/ExecutionLog:</h2>
-<h3 id="trial1-11">Trial1:</h3>
-<h4 id="trial1-execution-11">Trial1 execution:</h4>
+<h1 id="solution-9">Solution:</h1>
+<h2 id="program-link-13">Program Link</h2>
+<p><a href="./cknkCh13Exrc010.c">cknkCh13Exrc010.c</a></p>
+<h2 id="outputexecutionlog-13">Output/ExecutionLog:</h2>
+<h3 id="trial1-13">Trial1:</h3>
+<h4 id="trial1-execution-13">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
@@ -639,43 +696,6 @@ following statements have been executed?</p>
 <!-- START: Comments -->
 <!-- END: Comments -->
 <h1 id="exercise-comment-4">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
-<!-- END: div -->
-<hr class="hr1ExrcPrj"/>
-<!-- START: div -->
-<section id="cknkch13exrc010" class="ch_problem">
-<h1>cknkCh13Exrc010</h1>
-<p>Section 13.5</p>
-<!-- START: Problem Statement -->
-<p>The following function supposedly creates an identical copy of a
-string. What’s wrong with the function?</p>
-<div class="sourceCode" id="cb26"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> <span class="op">*</span>duplicate<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>p<span class="op">)</span></span>
-<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> <span class="op">*</span>q<span class="op">;</span></span>
-<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    strcpy<span class="op">(</span>q<span class="op">,</span> p<span class="op">);</span></span>
-<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> q<span class="op">;</span></span>
-<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<!-- END: Problem Statement -->
-</section>
-<!-- END: div -->
-<!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-9">Solution:</h1>
-<h2 id="program-link-12">Program Link</h2>
-<p><a href="./cknkCh13Exrc010.c">cknkCh13Exrc010.c</a></p>
-<h2 id="outputexecutionlog-12">Output/ExecutionLog:</h2>
-<h3 id="trial1-12">Trial1:</h3>
-<h4 id="trial1-execution-12">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-6">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-5">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -695,18 +715,18 @@ Modify the function to use pointer arithmetic instead.</p>
 <!-- START: div -->
 <div class="ch_solution">
 <h1 id="solution-10">Solution:</h1>
-<h2 id="program-link-13">Program Link</h2>
+<h2 id="program-link-14">Program Link</h2>
 <p><a href="./cknkCh13Exrc011.c">cknkCh13Exrc011.c</a></p>
-<h2 id="outputexecutionlog-13">Output/ExecutionLog:</h2>
-<h3 id="trial1-13">Trial1:</h3>
-<h4 id="trial1-execution-13">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-14">Output/ExecutionLog:</h2>
+<h3 id="trial1-14">Trial1:</h3>
+<h4 id="trial1-execution-14">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-7">Trial1 Comments:</h4>
+<h4 id="trial1-comments-6">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-6">Exercise Comment:</h1>
+<h1 id="exercise-comment-5">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -718,7 +738,7 @@ Modify the function to use pointer arithmetic instead.</p>
 <p>Section 13.5</p>
 <!-- START: Problem Statement -->
 <p>Writc the following function:</p>
-<div class="sourceCode" id="cb29"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> get_extension<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>file_name<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>extension<span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb32"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> get_extension<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>file_name<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>extension<span class="op">);</span></span></code></pre></div>
 <p><code>file_name</code> points to a string containing a file name. The
 function should store the extension on the file name in the string
 pointed to by <code>extension</code>. For example, if the file name is
@@ -734,18 +754,18 @@ functions.</p>
 <!-- START: div -->
 <div class="ch_solution">
 <h1 id="solution-11">Solution:</h1>
-<h2 id="program-link-14">Program Link</h2>
+<h2 id="program-link-15">Program Link</h2>
 <p><a href="./cknkCh13Exrc012.c">cknkCh13Exrc012.c</a></p>
-<h2 id="outputexecutionlog-14">Output/ExecutionLog:</h2>
-<h3 id="trial1-14">Trial1:</h3>
-<h4 id="trial1-execution-14">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-15">Output/ExecutionLog:</h2>
+<h3 id="trial1-15">Trial1:</h3>
+<h4 id="trial1-execution-15">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-8">Trial1 Comments:</h4>
+<h4 id="trial1-comments-7">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-7">Exercise Comment:</h1>
+<h1 id="exercise-comment-6">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -757,7 +777,7 @@ functions.</p>
 <p>Section 13.5</p>
 <!-- START: Problem Statement -->
 <p>Write the following function:</p>
-<div class="sourceCode" id="cb31"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> build_index_url<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>domain<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>index_url<span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb34"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> build_index_url<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>domain<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>index_url<span class="op">);</span></span></code></pre></div>
 <p>domain points to a string containing an Internet domain, such as
 <code>"knking.com"</code>. The function should add
 <code>"http://www."</code> to the beginning of this string and
@@ -774,11 +794,52 @@ possible by having it use the <code>strcat</code> and
 <!-- START: div -->
 <div class="ch_solution">
 <h1 id="solution-12">Solution:</h1>
-<h2 id="program-link-15">Program Link</h2>
+<h2 id="program-link-16">Program Link</h2>
 <p><a href="./cknkCh13Exrc013.c">cknkCh13Exrc013.c</a></p>
-<h2 id="outputexecutionlog-15">Output/ExecutionLog:</h2>
-<h3 id="trial1-15">Trial1:</h3>
-<h4 id="trial1-execution-15">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-16">Output/ExecutionLog:</h2>
+<h3 id="trial1-16">Trial1:</h3>
+<h4 id="trial1-execution-16">Trial1 execution:</h4>
+<!-- START: terminal interaction or other output -->
+<pre><code></code></pre>
+<!-- END: terminal interaction or other output -->
+<h4 id="trial1-comments-8">Trial1 Comments:</h4>
+<!-- START: Comments -->
+<!-- END: Comments -->
+<h1 id="exercise-comment-7">Exercise Comment:</h1>
+<!-- START: Comments -->
+<!-- END: Comments -->
+</div>
+<!-- END: div -->
+<hr class="hr1ExrcPrj"/>
+<!-- START: div -->
+<section id="cknkch13exrc014" class="ch_problem">
+<h1>cknkCh13Exrc014</h1>
+<p>Section 13.6</p>
+<!-- START: Problem Statement -->
+<p>What does the following program print?</p>
+<div class="sourceCode" id="cb36"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> s<span class="op">[]</span> <span class="op">=</span> <span class="st">&quot;Hsjodi&quot;</span><span class="op">,</span> <span class="op">*</span>p<span class="op">;</span></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>p <span class="op">=</span> s<span class="op">;</span> <span class="op">*</span>p<span class="op">;</span> p<span class="op">++)</span></span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>        <span class="op">--*</span>p<span class="op">;</span></span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a>    puts<span class="op">(</span>s<span class="op">);</span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<!-- END: Problem Statement -->
+</section>
+<!-- END: div -->
+<!-- START: div -->
+<div class="ch_solution">
+<h1 id="solution-13">Solution:</h1>
+<h2 id="program-link-17">Program Link</h2>
+<p><a href="./cknkCh13Exrc014.c">cknkCh13Exrc014.c</a></p>
+<h2 id="outputexecutionlog-17">Output/ExecutionLog:</h2>
+<h3 id="trial1-17">Trial1:</h3>
+<h4 id="trial1-execution-17">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
@@ -792,64 +853,23 @@ possible by having it use the <code>strcat</code> and
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
-<section id="cknkch13exrc014" class="ch_problem">
-<h1>cknkCh13Exrc014</h1>
-<p>Section 13.6</p>
-<!-- START: Problem Statement -->
-<p>What does the following program print?</p>
-<div class="sourceCode" id="cb33"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
-<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span><span class="dt">void</span><span class="op">)</span></span>
-<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> s<span class="op">[]</span> <span class="op">=</span> <span class="st">&quot;Hsjodi&quot;</span><span class="op">,</span> <span class="op">*</span>p<span class="op">;</span></span>
-<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>p <span class="op">=</span> s<span class="op">;</span> <span class="op">*</span>p<span class="op">;</span> p<span class="op">++)</span></span>
-<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>        <span class="op">--*</span>p<span class="op">;</span></span>
-<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>    puts<span class="op">(</span>s<span class="op">);</span></span>
-<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
-<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<!-- END: Problem Statement -->
-</section>
-<!-- END: div -->
-<!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-13">Solution:</h1>
-<h2 id="program-link-16">Program Link</h2>
-<p><a href="./cknkCh13Exrc014.c">cknkCh13Exrc014.c</a></p>
-<h2 id="outputexecutionlog-16">Output/ExecutionLog:</h2>
-<h3 id="trial1-16">Trial1:</h3>
-<h4 id="trial1-execution-16">Trial1 execution:</h4>
-<!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
-<!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-10">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment-9">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
-<!-- END: div -->
-<hr class="hr1ExrcPrj"/>
-<!-- START: div -->
 <section id="cknkch13exrc015" class="ch_problem">
 <h1>cknkCh13Exrc015</h1>
 <p>Section 13.6</p>
 <!-- START: Problem Statement -->
 <p>Let <code>f</code> be the following function:</p>
-<div class="sourceCode" id="cb35"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> f<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>s<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>t<span class="op">)</span></span>
-<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> <span class="op">*</span>p1<span class="op">,</span> <span class="op">*</span>p2<span class="op">;</span></span>
-<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>p1 <span class="op">=</span> <span class="dv">8</span><span class="op">;</span> <span class="op">*</span>p1<span class="op">;</span> p1<span class="op">++)</span></span>
-<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
-<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> <span class="op">(</span>p2 <span class="op">=</span> t<span class="op">;</span> <span class="op">*</span>p2<span class="op">;</span> p2<span class="op">++)</span></span>
-<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="op">(*</span>pl <span class="op">==</span> <span class="op">*</span>p2<span class="op">)</span> <span class="cf">break</span><span class="op">;</span></span>
-<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="op">(*</span>p2 <span class="op">==</span> <span class="ch">&#39;\0&#39;</span><span class="op">)</span> <span class="cf">break</span><span class="op">;</span></span>
-<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> p1 <span class="op">-</span> s<span class="op">;</span></span>
-<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<div class="sourceCode" id="cb38"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> f<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>s<span class="op">,</span> <span class="dt">char</span> <span class="op">*</span>t<span class="op">)</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> <span class="op">*</span>p1<span class="op">,</span> <span class="op">*</span>p2<span class="op">;</span></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>p1 <span class="op">=</span> <span class="dv">8</span><span class="op">;</span> <span class="op">*</span>p1<span class="op">;</span> p1<span class="op">++)</span></span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> <span class="op">(</span>p2 <span class="op">=</span> t<span class="op">;</span> <span class="op">*</span>p2<span class="op">;</span> p2<span class="op">++)</span></span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="op">(*</span>pl <span class="op">==</span> <span class="op">*</span>p2<span class="op">)</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="op">(*</span>p2 <span class="op">==</span> <span class="ch">&#39;\0&#39;</span><span class="op">)</span> <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb38-10"><a href="#cb38-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb38-11"><a href="#cb38-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> p1 <span class="op">-</span> s<span class="op">;</span></span>
+<span id="cb38-12"><a href="#cb38-12" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <ol type="a">
 <li>What is the value of <code>f("abcd", "babc")</code>?<br />
 </li>
@@ -864,18 +884,18 @@ strings <code>s</code> and <code>t</code>?</li>
 <!-- START: div -->
 <div class="ch_solution">
 <h1 id="solution-14">Solution:</h1>
-<h2 id="program-link-17">Program Link</h2>
+<h2 id="program-link-18">Program Link</h2>
 <p><a href="./cknkCh13Exrc015.c">cknkCh13Exrc015.c</a></p>
-<h2 id="outputexecutionlog-17">Output/ExecutionLog:</h2>
-<h3 id="trial1-17">Trial1:</h3>
-<h4 id="trial1-execution-17">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-18">Output/ExecutionLog:</h2>
+<h3 id="trial1-18">Trial1:</h3>
+<h4 id="trial1-execution-18">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-11">Trial1 Comments:</h4>
+<h4 id="trial1-comments-10">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-10">Exercise Comment:</h1>
+<h1 id="exercise-comment-9">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -895,18 +915,18 @@ replace the <code>for</code> statement by a <code>while</code> loop.</p>
 <!-- START: div -->
 <div class="ch_solution">
 <h1 id="solution-15">Solution:</h1>
-<h2 id="program-link-18">Program Link</h2>
+<h2 id="program-link-19">Program Link</h2>
 <p><a href="./cknkCh13Exrc016.c">cknkCh13Exrc016.c</a></p>
-<h2 id="outputexecutionlog-18">Output/ExecutionLog:</h2>
-<h3 id="trial1-18">Trial1:</h3>
-<h4 id="trial1-execution-18">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-19">Output/ExecutionLog:</h2>
+<h3 id="trial1-19">Trial1:</h3>
+<h4 id="trial1-execution-19">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-12">Trial1 Comments:</h4>
+<h4 id="trial1-comments-11">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-11">Exercise Comment:</h1>
+<h1 id="exercise-comment-10">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -918,7 +938,7 @@ replace the <code>for</code> statement by a <code>while</code> loop.</p>
 <p>Section 13.6</p>
 <!-- START: Problem Statement -->
 <p>Write the following function:</p>
-<div class="sourceCode" id="cb38"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> test_extension<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>file_name<span class="op">,</span> <span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>extension<span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb41"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="dt">bool</span> test_extension<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>file_name<span class="op">,</span> <span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>extension<span class="op">);</span></span></code></pre></div>
 <p><code>file_name</code> points to a string containing a file name. The
 function should return <code>true</code> if the file’s extension matches
 the string pointed to by extension, ignoring the case of letters. For
@@ -932,18 +952,18 @@ function to convert characters to upper case before comparing them.</p>
 <!-- START: div -->
 <div class="ch_solution">
 <h1 id="solution-16">Solution:</h1>
-<h2 id="program-link-19">Program Link</h2>
+<h2 id="program-link-20">Program Link</h2>
 <p><a href="./cknkCh13Exrc017.c">cknkCh13Exrc017.c</a></p>
-<h2 id="outputexecutionlog-19">Output/ExecutionLog:</h2>
-<h3 id="trial1-19">Trial1:</h3>
-<h4 id="trial1-execution-19">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-20">Output/ExecutionLog:</h2>
+<h3 id="trial1-20">Trial1:</h3>
+<h4 id="trial1-execution-20">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-13">Trial1 Comments:</h4>
+<h4 id="trial1-comments-12">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-12">Exercise Comment:</h1>
+<h1 id="exercise-comment-11">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -955,7 +975,7 @@ function to convert characters to upper case before comparing them.</p>
 <p>Section 13.6</p>
 <!-- START: Problem Statement -->
 <p>Write the following function:</p>
-<div class="sourceCode" id="cb40"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> remove_filename<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>url<span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb43"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> remove_filename<span class="op">(</span><span class="dt">char</span> <span class="op">*</span>url<span class="op">);</span></span></code></pre></div>
 <p><code>url</code> points to a string containing a URL (Uniform
 Resource Locator) that ends with a file name (such as
 <code>"http://www.knking.com/index.html"</code>). The function should
@@ -970,18 +990,18 @@ string by a null character.</p>
 <!-- START: div -->
 <div class="ch_solution">
 <h1 id="solution-17">Solution:</h1>
-<h2 id="program-link-20">Program Link</h2>
+<h2 id="program-link-21">Program Link</h2>
 <p><a href="./cknkCh13Exrc018.c">cknkCh13Exrc018.c</a></p>
-<h2 id="outputexecutionlog-20">Output/ExecutionLog:</h2>
-<h3 id="trial1-20">Trial1:</h3>
-<h4 id="trial1-execution-20">Trial1 execution:</h4>
+<h2 id="outputexecutionlog-21">Output/ExecutionLog:</h2>
+<h3 id="trial1-21">Trial1:</h3>
+<h4 id="trial1-execution-21">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-14">Trial1 Comments:</h4>
+<h4 id="trial1-comments-13">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-13">Exercise Comment:</h1>
+<h1 id="exercise-comment-12">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
