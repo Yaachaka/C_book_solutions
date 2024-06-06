@@ -443,7 +443,7 @@ Section 13.3
 
 <!-- START: Problem Statement -->
 
-Modify the `read_1ine` function in each of the following ways:
+Modify the `read_line` function in each of the following ways:
 
 a. Have it skip white space before beginning to store input characters.  
 b. Have it stop reading at the first white-space character. *Hint*: To determine whether or not a character is white space, call the `isspace` function.  
@@ -463,7 +463,7 @@ d. Have it leave behind characters that it doesn't have room to store.
 
 ## Program Link
 
-[cknkCh13Exrc004.c](./cknkCh13Exrc004.c)
+[cknkCh13Exrc004a.c](./cknkCh13Exrc004a.c)
 
 ## Output/ExecutionLog:
 
@@ -474,26 +474,130 @@ d. Have it leave behind characters that it doesn't have room to store.
 <!-- START: terminal interaction or other output -->
 
 ```
+Enter your message: Hello there... How are you???
+The message that got stored: Hello there... How are you???
+```
+
+<!-- END: terminal interaction or other output -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter your message:       Hello there... How are you?
+The message that got stored: Hello there... How are you?
+```
+
+<!-- END: terminal interaction or other output -->
+
+## Program Link
+
+[cknkCh13Exrc004b.c](./cknkCh13Exrc004b.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter your message: Hello there... How are you?
+The message that got stored: Hello
 
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial1 Comments:
+### Trial2:
 
-<!-- START: Comments -->
+#### Trial2 execution:
 
+<!-- START: terminal interaction or other output -->
 
+```
+Enter your message:     Hello there... How are you?
+The message that got stored: 
 
-<!-- END: Comments -->
+```
 
-# Exercise Comment:
+<!-- END: terminal interaction or other output -->
 
-<!-- START: Comments -->
+## Program Link
 
+[cknkCh13Exrc004c.c](./cknkCh13Exrc004c.c)
 
+## Output/ExecutionLog:
 
-<!-- END: Comments -->
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter your message: Hello there... How are you?
+The message that got stored: Hello there... How are you?
+
+----------------------
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter your message:   Hello there 
+The message that got stored:   Hello there
+
+----------------------
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+## Program Link
+
+[cknkCh13Exrc004d.c](./cknkCh13Exrc004d.c)
+
+## Output/ExecutionLog:
+
+### Trial1:
+
+#### Trial1 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter your message: Hello there... How are you?
+The message that got stored: Hello th
+
+```
+
+<!-- END: terminal interaction or other output -->
+
+### Trial2:
+
+#### Trial2 execution:
+
+<!-- START: terminal interaction or other output -->
+
+```
+Enter your message: Sharana Darshana
+The message that got stored: Sharana 
+
+```
+
+<!-- END: terminal interaction or other output -->
 
 </div>
 <!-- END: div -->

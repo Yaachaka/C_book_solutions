@@ -460,7 +460,7 @@ int read_line(char str[], int n);
 `read_line` consists primarily of a loop that calls `getchar` to read a character and then stores the character in `str`, provided that there's room left. The loop terminates when the new-line character is read. (Strictly speaking, we should also have the loop terminate if `getchar` should fail to read a character, but we'll ignore that complication for now.) Here's the complete definition of `read_line`:
 
 ```C
-int read line(char str[], int n)
+int read_line(char str[], int n)
 {
   int ch, i = 0;
 

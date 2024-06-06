@@ -499,7 +499,7 @@ terminates when the new-line character is read. (Strictly speaking, we
 should also have the loop terminate if <code>getchar</code> should fail
 to read a character, but we’ll ignore that complication for now.) Here’s
 the complete definition of <code>read_line</code>:</p>
-<div class="sourceCode" id="cb36"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> read line<span class="op">(</span><span class="dt">char</span> str<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
+<div class="sourceCode" id="cb36"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> read_line<span class="op">(</span><span class="dt">char</span> str<span class="op">[],</span> <span class="dt">int</span> n<span class="op">)</span></span>
 <span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
 <span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">int</span> ch<span class="op">,</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
 <span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a></span>
