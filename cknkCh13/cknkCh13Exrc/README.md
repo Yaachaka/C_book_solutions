@@ -269,6 +269,83 @@ d. `puts(*p);`
 
 # Solution:
 
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
+
+`putchar(p);`
+
+Incorrect.
+
+Generates the following warning during compilation:
+
+```shell
+cknkCh13Exrc002.c: In function 'main':
+cknkCh13Exrc002.c:40:13: warning: passing argument 1 of 'putchar' makes integer from pointer without a cast [-Wint-conversion]
+   40 |     putchar(p);
+      |             ^
+      |             |
+      |             char *
+In file included from cknkCh13Exrc002.c:7:
+/usr/include/stdio.h:556:25: note: expected 'int' but argument is of type 'char *'
+  556 | extern int putchar (int __c);
+      |                     ~~~~^~~
+```
+
+The `putchar` expects input of type `int` but we are passing input of type `char *`.
+
+During execution nothing gets printed as `putchar` ignores passed `p`.
+
+</li>
+<li>
+
+`putchar(*p);`
+
+Correct.
+
+`putchar` is expecting value of type `int` as its argument. And we are passing a value of type `int` by dereferncing `p` to its index 0. So we are passing a single character from the string pointed to by `p`.
+
+</li>
+<li>
+
+`puts(p);`
+
+Correct.
+
+The `puts` function expects a value of type `char *` and we are passing `p` which is of the same type.
+
+After printing the contents of `p` a new line is also printed by `puts`.
+
+</li>
+<li>
+
+`puts(*p);`
+
+Incorrect.
+
+Following warning is observed during the compilation:
+
+```shell
+cknkCh13Exrc002.c: In function 'main':
+cknkCh13Exrc002.c:46:10: warning: passing argument 1 of 'puts' makes pointer from integer without a cast [-Wint-conversion]
+   46 |     puts(*p);
+      |          ^~
+      |          |
+      |          char
+In file included from cknkCh13Exrc002.c:7:
+/usr/include/stdio.h:661:30: note: expected 'const char *' but argument is of type 'char'
+  661 | extern int puts (const char *__s);
+      |                  ~~~~~~~~~~~~^~~
+```
+
+When we dereferenced `p`, the resulting value is of type `int`; but the `puts` expects value of type `char *` as its argument.
+
+Proceeding to executing the program will lead to "Segmentation fault".
+
+</li>
+</ol>
+<!-- END: ordered-list -->
+
 
 ## Program Link
 
@@ -283,33 +360,19 @@ d. `puts(*p);`
 <!-- START: terminal interaction or other output -->
 
 ```
+ab----------------------
+abc
+c----------------------
 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->
 
 <hr class="hr1ExrcPrj"/>
 
-    
 <!-- START: div -->
 <div class="ch_problem">
 
