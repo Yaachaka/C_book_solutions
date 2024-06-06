@@ -400,6 +400,11 @@ If the user enters `12abc34 56def78`, what will be the values of `i`, `s`, and `
 
 # Solution:
 
+The values of `i`, `s` and `j` after the `scanf` statement will be `12`, `abc34`, and `56` respectively.
+
+As we know, the behavior of the `scanf` is that it assigns the input the parameters based on the format specifiers successfully as long as the input symbols are valid for the corresponding format specifiers. And `scanf` stops reading once it encounters a space character.
+
+When the user inputs `12abc34 56def78`, from this stream, `12` are symbols that are acceptable for `%d` format specifier. Therefore it is assigned to `i`. Now we are left with `abc34 56def78` in the stream. Now `scanf` tries to assign the symbols for `s`. `abc34` are valid sybols for `s`. It stops there because after theat it encountered a space. Now we are left with `56def78` in the stream and is time to feed `j`. Since the format specifier is `%s`, `56` symbols are valid and are placed in `j`. The remaining symbols in the stream are `def78`. They are not assigned to any variables by this `scanf` statement.
 
 ## Program Link
 
@@ -414,26 +419,14 @@ If the user enters `12abc34 56def78`, what will be the values of `i`, `s`, and `
 <!-- START: terminal interaction or other output -->
 
 ```
+12abc34 56def78
+12
+abc34
+56
 
 ```
 
 <!-- END: terminal interaction or other output -->
-
-#### Trial1 Comments:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
-
-<!-- END: Comments -->
 
 </div>
 <!-- END: div -->

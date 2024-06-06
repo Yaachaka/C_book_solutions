@@ -325,23 +325,41 @@ characters.)</p>
 </section>
 <!-- END: div -->
 <!-- START: div -->
-<div class="ch_solution">
-<h1 id="solution-2">Solution:</h1>
+<section id="solution-2" class="ch_solution">
+<h1>Solution:</h1>
+<p>The values of <code>i</code>, <code>s</code> and <code>j</code> after
+the <code>scanf</code> statement will be <code>12</code>,
+<code>abc34</code>, and <code>56</code> respectively.</p>
+<p>As we know, the behavior of the <code>scanf</code> is that it assigns
+the input the parameters based on the format specifiers successfully as
+long as the input symbols are valid for the corresponding format
+specifiers. And <code>scanf</code> stops reading once it encounters a
+space character.</p>
+<p>When the user inputs <code>12abc34 56def78</code>, from this stream,
+<code>12</code> are symbols that are acceptable for <code>%d</code>
+format specifier. Therefore it is assigned to <code>i</code>. Now we are
+left with <code>abc34 56def78</code> in the stream. Now
+<code>scanf</code> tries to assign the symbols for <code>s</code>.
+<code>abc34</code> are valid sybols for <code>s</code>. It stops there
+because after theat it encountered a space. Now we are left with
+<code>56def78</code> in the stream and is time to feed <code>j</code>.
+Since the format specifier is <code>%s</code>, <code>56</code> symbols
+are valid and are placed in <code>j</code>. The remaining symbols in the
+stream are <code>def78</code>. They are not assigned to any variables by
+this <code>scanf</code> statement.</p>
 <h2 id="program-link-2">Program Link</h2>
 <p><a href="./cknkCh13Exrc003.c">cknkCh13Exrc003.c</a></p>
 <h2 id="outputexecutionlog-2">Output/ExecutionLog:</h2>
 <h3 id="trial1-2">Trial1:</h3>
 <h4 id="trial1-execution-2">Trial1 execution:</h4>
 <!-- START: terminal interaction or other output -->
-<pre><code></code></pre>
+<pre><code>12abc34 56def78
+12
+abc34
+56
+</code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-1">Trial1 Comments:</h4>
-<!-- START: Comments -->
-<!-- END: Comments -->
-<h1 id="exercise-comment">Exercise Comment:</h1>
-<!-- START: Comments -->
-<!-- END: Comments -->
-</div>
+</section>
 <!-- END: div -->
 <hr class="hr1ExrcPrj"/>
 <!-- START: div -->
@@ -379,10 +397,10 @@ store.</li>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-2">Trial1 Comments:</h4>
+<h4 id="trial1-comments-1">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-1">Exercise Comment:</h1>
+<h1 id="exercise-comment">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -418,10 +436,10 @@ pointer arithmetic to access the characters in the string.</li>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-3">Trial1 Comments:</h4>
+<h4 id="trial1-comments-2">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-2">Exercise Comment:</h1>
+<h1 id="exercise-comment-1">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -451,10 +469,10 @@ sacrificing clarity.</p>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-4">Trial1 Comments:</h4>
+<h4 id="trial1-comments-3">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-3">Exercise Comment:</h1>
+<h1 id="exercise-comment-2">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -490,10 +508,10 @@ the following statements is not equivalent to the other three?</p>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-5">Trial1 Comments:</h4>
+<h4 id="trial1-comments-4">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-4">Exercise Comment:</h1>
+<h1 id="exercise-comment-3">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -523,10 +541,10 @@ following statements have been executed?</p>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-6">Trial1 Comments:</h4>
+<h4 id="trial1-comments-5">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-5">Exercise Comment:</h1>
+<h1 id="exercise-comment-4">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -561,10 +579,10 @@ following statements have been executed?</p>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-7">Trial1 Comments:</h4>
+<h4 id="trial1-comments-6">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-6">Exercise Comment:</h1>
+<h1 id="exercise-comment-5">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -598,10 +616,10 @@ string. What’s wrong with the function?</p>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-8">Trial1 Comments:</h4>
+<h4 id="trial1-comments-7">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-7">Exercise Comment:</h1>
+<h1 id="exercise-comment-6">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -629,10 +647,10 @@ Modify the function to use pointer arithmetic instead.</p>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-9">Trial1 Comments:</h4>
+<h4 id="trial1-comments-8">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-8">Exercise Comment:</h1>
+<h1 id="exercise-comment-7">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -668,10 +686,10 @@ functions.</p>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-10">Trial1 Comments:</h4>
+<h4 id="trial1-comments-9">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-9">Exercise Comment:</h1>
+<h1 id="exercise-comment-8">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -708,10 +726,10 @@ possible by having it use the <code>strcat</code> and
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-11">Trial1 Comments:</h4>
+<h4 id="trial1-comments-10">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-10">Exercise Comment:</h1>
+<h1 id="exercise-comment-9">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -749,10 +767,10 @@ possible by having it use the <code>strcat</code> and
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-12">Trial1 Comments:</h4>
+<h4 id="trial1-comments-11">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-11">Exercise Comment:</h1>
+<h1 id="exercise-comment-10">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -798,10 +816,10 @@ strings <code>s</code> and <code>t</code>?</li>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-13">Trial1 Comments:</h4>
+<h4 id="trial1-comments-12">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-12">Exercise Comment:</h1>
+<h1 id="exercise-comment-11">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -829,10 +847,10 @@ replace the <code>for</code> statement by a <code>while</code> loop.</p>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-14">Trial1 Comments:</h4>
+<h4 id="trial1-comments-13">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-13">Exercise Comment:</h1>
+<h1 id="exercise-comment-12">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -866,10 +884,10 @@ function to convert characters to upper case before comparing them.</p>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-15">Trial1 Comments:</h4>
+<h4 id="trial1-comments-14">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-14">Exercise Comment:</h1>
+<h1 id="exercise-comment-13">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
@@ -904,10 +922,10 @@ string by a null character.</p>
 <!-- START: terminal interaction or other output -->
 <pre><code></code></pre>
 <!-- END: terminal interaction or other output -->
-<h4 id="trial1-comments-16">Trial1 Comments:</h4>
+<h4 id="trial1-comments-15">Trial1 Comments:</h4>
 <!-- START: Comments -->
 <!-- END: Comments -->
-<h1 id="exercise-comment-15">Exercise Comment:</h1>
+<h1 id="exercise-comment-14">Exercise Comment:</h1>
 <!-- START: Comments -->
 <!-- END: Comments -->
 </div>
