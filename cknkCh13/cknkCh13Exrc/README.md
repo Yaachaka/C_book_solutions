@@ -48,6 +48,149 @@ k. `puts("");`
 
 # Solution:
 
+- `printf` expects a value of type `char *` as it's first argument.  
+- `puts` has only one argument; the string to be printed. The type shall be `char *`.
+
+
+<!-- START: ordered-list -->
+<ol type="a">
+<li>
+
+`printf("%c", '\n');`
+
+Legal. Passing a value of type `char *` as `printf`'s first argument as expected. `%c` is a format specifier, to which the character constant `\n` is passed.
+
+</li>
+<li>
+
+`printf("%c", "\n");`
+
+Legal but does not meet the expectation. Passing the value of type `char *` as first argument. But the the format specifier `%c` is expecting a character constant while the parameter passed is a string literal. Nothing gets printed out of this statement.
+
+</li>
+<li>
+
+`printf("%s", '\n');`
+
+Incorrect. No errors during compilation but "Segmentation fault" error during execution. Passing the value of type `char *` as part of the first argument to `printf`. But the format specifier `%s` is expecting a string while what actually being passed is a character constant. `%s` format specifier actually is expecting a memory locations conataining a string; and since we are passing a character constant `\n` which gets substituted as an equivalent integer value; the `%s` tries to access that memory location. And that results in "Segmentation fault" during program execution.
+
+</li>
+<li>
+
+`printf("%s", "\n");`
+
+Correct. Passing the value of type `char *` as first argument to `printf` as needed. Passing the string `"\n"` for the format specifier `"%s"` as needed.
+
+</li>
+<li>
+
+`printf('\n');`
+
+Incorrect.
+
+Generates a warning during compilation as follows:
+
+```shell
+cknkCh13Exrc001.c:47:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   47 |     printf('\n');
+      |            ^~~~
+      |            |
+      |            int
+In file included from cknkCh13Exrc001.c:7:
+/usr/include/stdio.h:356:43: note: expected 'const char * restrict' but argument is of type 'int'
+  356 | extern int printf (const char *__restrict __format, ...);
+```
+
+Which is clear that we are passing incorrect type of argument to the `printf` function. Passing `int` type instead of `char *`. Here, `'\n'` a charcater constant is treated as an integer (with its equivalent ASCII value).
+
+If we proceed ahead and execute the program, we will get the "Segmentation fault" error.
+
+
+</li>
+<li>
+
+`printf("\n");`
+
+Correct. Passing the value of type `char *` as first argument to `printf` as needed. As part of the argument argument we have an escape sequence which does not conflict any rules.
+
+</li>
+<li>
+
+`putchar('\n');`
+
+Correct. `putchar` expects a character constant (type `int`) and the same is passed.
+
+</li>
+<li>
+
+`putchar("\n");`
+
+Incorrect. Throws the following warning during compilation: 
+
+```shell
+cknkCh13Exrc001.c: In function 'main':
+cknkCh13Exrc001.c:53:13: warning: passing argument 1 of 'putchar' makes integer from pointer without a cast [-Wint-conversion]
+   53 |     putchar("\n");
+      |             ^~~~
+      |             |
+      |             char *
+In file included from cknkCh13Exrc001.c:7:
+/usr/include/stdio.h:556:25: note: expected 'int' but argument is of type 'char *'
+  556 | extern int putchar (int __c);
+      |                     ~~~~^~~
+```
+
+Which is correct. `putchar` expects type `int` and we are passing `char *`.
+
+But proceeding to execution of the program will not lead to any (Segmentation fault) error. In this case, while expecting `int`, passed `char *` is being ignored.
+
+</li>
+<li>
+
+`puts('\n');`
+
+Incorrect.
+
+Throws the following warning during compilation:
+
+```shell
+cknkCh13Exrc001.c: In function 'main':
+cknkCh13Exrc001.c:55:10: warning: passing argument 1 of 'puts' makes pointer from integer without a cast [-Wint-conversion]
+   55 |     puts('\n');
+      |          ^~~~
+      |          |
+      |          int
+In file included from cknkCh13Exrc001.c:7:
+/usr/include/stdio.h:661:30: note: expected 'const char *' but argument is of type 'int'
+  661 | extern int puts (const char *__s);
+      |                  ~~~~~~~~~~~~^~~
+cknkCh13Exrc001.c:55:5: warning: 'puts' reading 1 or more bytes from a region of size 0 [-Wstringop-overread]
+   55 |     puts('\n');
+      |     ^~~~~~~~~~
+```
+
+`puts` expects input parameter type to be `char *`.
+
+Proceeding to execute the program will result in "Segmentation fault" error during the execution.
+
+</li>
+<li>
+
+`puts("\n");`
+
+Correct. Passing the value of type `char *` as the argument to `puts`. Two new line characters are written; one by the string passed and one as part of the `puts` function.
+
+</li>
+<li>
+
+`puts("");`
+
+Correct. Passing the value of type `char *` as the argument to `puts`. Nothing gets printed as the string passed is empty. But the new line character is written as part of the `puts` function behavior.
+
+</li>
+</ol>
+<!-- END: ordered-list -->
+
 
 ## Program Link
 
@@ -63,6 +206,20 @@ k. `puts("");`
 
 ```
 
+a-----------------
+b-----------------
+
+d-----------------
+
+f-----------------
+
+g-----------------
+
+
+j-----------------
+
+k-----------------
+
 ```
 
 <!-- END: terminal interaction or other output -->
@@ -71,15 +228,7 @@ k. `puts("");`
 
 <!-- START: Comments -->
 
-
-
-<!-- END: Comments -->
-
-# Exercise Comment:
-
-<!-- START: Comments -->
-
-
+*Note*: Whichever the statements create the "Segmentation fault" error during the execution of the program are commented in the program.
 
 <!-- END: Comments -->
 
@@ -87,7 +236,6 @@ k. `puts("");`
 <!-- END: div -->
 
 <hr class="hr1ExrcPrj"/>
-
     
 <!-- START: div -->
 <div class="ch_problem">
