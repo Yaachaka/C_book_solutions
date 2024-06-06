@@ -737,26 +737,40 @@ Write a function named `censor` that modifies a string by replacing every occurr
 <!-- START: terminal interaction or other output -->
 
 ```
+Enter your message: food fool
+The message after censoring: xxxd xxxl
 
 ```
 
 <!-- END: terminal interaction or other output -->
 
-#### Trial1 Comments:
+### Trial2:
 
-<!-- START: Comments -->
+#### Trial2 execution:
 
+<!-- START: terminal interaction or other output -->
 
+```
+Enter your message: You are a foodie and a fool!!!
+The message after censoring: You are a xxxdie and a xxxl!!!
 
-<!-- END: Comments -->
+```
 
-# Exercise Comment:
+<!-- END: terminal interaction or other output -->
 
-<!-- START: Comments -->
+### Trial3:
 
+#### Trial3 execution:
 
+<!-- START: terminal interaction or other output -->
 
-<!-- END: Comments -->
+```
+Enter your message: Did you ever heard of FOOBAR?
+The message after censoring: Did you ever heard of xxxBAR?
+
+```
+
+<!-- END: terminal interaction or other output -->
 
 </div>
 <!-- END: div -->
